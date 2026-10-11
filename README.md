@@ -1,0 +1,178 @@
+# tlp-icons
+
+**Every icon, animated.** A free, open-source (MIT) library of 6,000+ stroke icons, built from the best free
+sets (Lucide and Tabler), sorted into 34 hand-curated categories, and every single one moves on hover:
+clock hands sweep around the face, gears spin on their axle, bells swing from the top, trash lids lift,
+arrows move the way they point.
+
+![Gallery](docs/gallery.png)
+
+<details>
+<summary>Motion frames (each row is one hover animation frozen at 10 points)</summary>
+
+![Frame strips](docs/frame-strips.png)
+</details>
+
+- **6,067 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
+- **100% animated**: 260+ hand-made choreographies, plus a motion engine that reads each icon's geometry.
+- **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
+- **Lazy**: icons load per category, so a page that uses 10 icons doesn't download 6,000.
+- **Polite motion**: plays once to the end, never animates a whole card at once, respects `prefers-reduced-motion`.
+- **Works offline**: the gallery opens straight from disk, and the build never needs the network.
+
+## Install
+
+```bash
+npm install tlp-icons
+```
+
+Or with no build step, from a CDN:
+
+```html
+<script type="module" src="https://unpkg.com/tlp-icons/dist/tlp-icon.js"></script>
+<tlp-icon name="bell"></tlp-icon>
+```
+
+Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about 2.2 MB):
+
+```html
+<script src="node_modules/tlp-icons/dist/tlp-icons.all.js"></script>
+<tlp-icon name="bell"></tlp-icon>
+```
+
+## Usage
+
+```html
+<tlp-icon name="bell"></tlp-icon>
+<tlp-icon name="settings" size="32" stroke="1.5"></tlp-icon>
+<tlp-icon name="loader-circle" trigger="loop"></tlp-icon>
+<tlp-icon name="heart" trigger="click" duotone></tlp-icon>
+<tlp-icon name="arrow-right" flip="rtl"></tlp-icon>
+```
+
+| Attribute | Values | Default |
+| --- | --- | --- |
+| `name` | any icon name (or a Lucide alias) | |
+| `size` | number (px) or any CSS length | `24` (or `--tlp-size`) |
+| `stroke` | stroke width | `2` (or `--tlp-stroke`) |
+| `trigger` | `hover`, `loop`, `click`, `none` | `hover` |
+| `duotone` | boolean, adds a soft tinted body fill | off |
+| `flip` | `rtl` (mirror only in right-to-left pages), `x` (always mirror) | off |
+
+The icon takes its color from `color`, like text. Theme everything with CSS variables:
+
+```css
+tlp-icon { --tlp-size: 20px; --tlp-stroke: 1.75; }
+.card { --tlp-duo: .2; } /* duotone strength */
+```
+
+Play it from code: `document.querySelector('tlp-icon').play()`.
+
+**Hover rule.** Hovering an icon animates it. Hovering anything else walks up to the nearest element that holds
+exactly one icon (a button, a menu item) and animates that icon. If it reaches an element with several icons first
+(a card, a menu, a table row), nothing animates. So hovering a button animates its icon, while a big card never
+lights up all its icons at once.
+
+### React
+
+```jsx
+import 'tlp-icons/element';
+
+export function SaveButton() {
+  return <button><tlp-icon name="save" /> Save</button>;
+}
+```
+
+React 19 supports custom elements directly. For TypeScript JSX, declare `tlp-icon` in `JSX.IntrinsicElements`.
+
+### Angular
+
+```ts
+// main.ts
+import 'tlp-icons/element';
+
+// component
+@Component({ schemas: [CUSTOM_ELEMENTS_SCHEMA], template: `<tlp-icon name="bell"></tlp-icon>` })
+```
+
+### Vue
+
+```ts
+// main.ts
+import 'tlp-icons/element';
+// vite.config.ts -> vue({ template: { compilerOptions: { isCustomElement: tag => tag === 'tlp-icon' } } })
+```
+
+```html
+<tlp-icon name="bell" />
+```
+
+### Raw data and SVG strings (Node / SSR)
+
+```js
+import { icons, categories, getSvg } from 'tlp-icons';
+
+getSvg('bell');                                // static SVG markup
+getSvg('bell', { size: 32, stroke: 1.5 });
+getSvg('bell', { animated: true });            // SVG with the motion baked in (needs dist/tlp-icons.css)
+icons.bell;                                    // { svg, m: [[part, anim, dur, delay, origin?], ...] }
+```
+
+Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loads one category chunk at a time.
+
+## Gallery
+
+Open `site/index.html` directly from disk (no server needed), or run `npm run dev` and visit `http://localhost:5173`.
+It has a category sidebar, instant search over names and tags, size/stroke/color/duotone controls, an RTL toggle,
+and play / loop per category. The detail drawer shows a large preview, a size strip, button mockups, the motion
+steps, and copy buttons for SVG, HTML, React, Angular and Vue.
+
+## How it works
+
+```
+npm run sync    online:  latest Lucide + Tabler -> normalised snapshot in upstream/ -> build
+npm run build   offline: upstream/ + config/ + overrides/ -> dist/ (library) + site/ (gallery)
+npm test        offline: node:test suite (data, motion, keyframes, build idempotency)
+npm run test:browser   optional Playwright tests + frame strips (npm run setup:browser once)
+```
+
+- `config/sources.json`: upstream versions (written by sync). Brand logos are off.
+- `config/categories.json`: the taxonomy, plus explicit mapping tables for every upstream category, name patterns
+  and the featured order.
+- `config/rules.json`: keyword → motion recipe. Data, not code.
+- `overrides/<name>.json`: hand choreographies. These always win over the engine.
+- `scripts/adapters/`: one adapter per icon source (`latest`, `fetch`, `load`). Add a set by adding an adapter.
+- `scripts/engine/`: SVG parsing, geometry, the motion engine and serialisation.
+- `src/runtime/`: `core.js` (registry, baking, run engine, hover rule), `element.js` (`<tlp-icon>`) and
+  `tlp-icons.css` (the 34 `tlp-` keyframes).
+
+**Motion engine.** Every icon is split into atoms (one per element or sub-path) and measured. Then:
+
+1. **Hand override**, if there is one.
+2. **Mechanics detectors.** Clocks: find the face and split the hands at its centre, then sweep the minute hand
+   and advance the hour hand (it keeps its position between hovers). Gears spin on their axle, and several gears
+   turn opposite ways. Arrows: find each arrow head and its shaft, then move them the way they point.
+3. **Composites**: `file-plus`, `user-cog` and `circle-check` animate as base + badge, or container + glyph.
+   `-off` icons draw their slash last.
+4. **Keyword rules** from `config/rules.json`: bells swing, trash lids lift, locks open on their hinge, eyes
+   blink, charts grow, rain falls, vehicles drive...
+5. **Fallback**: a duotone body fills in, the outline draws, details follow, then a soft finishing gesture.
+   The gesture varies so neighbouring icons don't all look the same.
+
+Every motion is small and springy and ends exactly at rest. The default `speed` is 0.6, which averages about
+0.9 s per icon (1.56 s max). Change it with `import { config } from 'tlp-icons/element'; config.speed = 0.8`.
+
+## Contributing
+
+- Better motion for one icon: add `overrides/<name>.json` with the SVG retagged into parts (`class="p1"`...)
+  and its `motion` steps. See any existing override.
+- Better motion for many icons: add or adjust a rule in `config/rules.json`.
+- Wrong category: add a name pattern or an explicit entry in `config/categories.json`.
+- Run `npm run build && npm test` before opening a PR. CI runs the same, plus the browser tests.
+
+A weekly GitHub Action syncs upstream, rebuilds, tests, and opens a PR.
+
+## License
+
+MIT © tlp-icons contributors. Icon geometry from [Lucide](https://lucide.dev) (ISC) and
+[Tabler Icons](https://tabler.io/icons) (MIT). See [NOTICE.md](NOTICE.md) and `licenses/`.

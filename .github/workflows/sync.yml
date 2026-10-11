@@ -1,0 +1,33 @@
+name: Weekly upstream sync
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync latest Lucide + Tabler and rebuild
+        run: npm run sync
+      - name: Test
+        run: npm test
+      - name: Summary
+        run: node -e "const r=require('./dist/build-report.json');console.log(JSON.stringify({sources:r.sources&&Object.fromEntries(Object.entries(r.sources).map(([k,v])=>[k,v.version])),total:r.total,orphanOverrides:r.orphanOverrides},null,2))"
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/upstream-sync
+          title: 'chore: sync upstream icon sets'
+          commit-message: 'chore: sync upstream icon sets'
+          body: |
+            Automated weekly sync of Lucide and Tabler, rebuilt and tested.
+            See `dist/build-report.json` for counts, orphaned overrides and rule statistics.
+          delete-branch: true
