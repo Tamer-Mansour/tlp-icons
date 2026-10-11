@@ -1,0 +1,15 @@
+# Netlify: serves the prebuilt gallery in site/ (no build step, works the same as opening site/index.html).
+[build]
+  publish = "site"
+  command = "echo site/ is prebuilt - run npm run build locally and commit"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

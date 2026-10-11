@@ -122,6 +122,8 @@ Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loa
 
 ## Gallery
 
+Live: **https://tlp-icons.netlify.app** (Netlify serves `site/`, see `netlify.toml`).
+
 Open `site/index.html` directly from disk (no server needed), or run `npm run dev` and visit `http://localhost:5173`.
 It has a category sidebar, instant search over names and tags, size/stroke/color/duotone controls, an RTL toggle,
 and play / loop per category. The detail drawer shows a large preview, a size strip, button mockups, the motion
