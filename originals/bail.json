@@ -1,0 +1,32 @@
+{
+  "name": "bail",
+  "category": "legal",
+  "tags": [
+    "bail",
+    "bond",
+    "release",
+    "money",
+    "key"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"10\" rx=\"1.500\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2.500\"/><g class=\"p2\"><circle class=\"f\" cx=\"6.500\" cy=\"8\" r=\".5\"/><circle class=\"f\" cx=\"17.500\" cy=\"8\" r=\".5\"/></g><g class=\"p3\"><circle class=\"d\" cx=\"18\" cy=\"18\" r=\"2.500\"/><path d=\"M15.500 18H8\"/><path d=\"M10.500 18v2\"/><path d=\"M8 18v2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "slideIn",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

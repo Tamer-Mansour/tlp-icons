@@ -1,0 +1,33 @@
+{
+  "name": "summons",
+  "category": "legal",
+  "tags": [
+    "summons",
+    "call",
+    "notice",
+    "announcement",
+    "appear",
+    "court order"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 9h3l9-4v14l-9-4H4z\"/><path class=\"p2\" d=\"M7.5 15.5 8.5 20\"/><path class=\"p3\" d=\"M19.5 9.5a4 4 0 0 1 0 5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1200,
+      "delay": 800
+    }
+  ]
+}

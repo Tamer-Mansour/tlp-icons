@@ -1,0 +1,27 @@
+{
+  "name": "bacteria",
+  "category": "health",
+  "tags": [
+    "bacteria",
+    "microbe",
+    "germ",
+    "infection",
+    "microbiology",
+    "pathogen"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"8\" rx=\"4\"/><g class=\"p2\"><path d=\"M9 8V5M15 8V5M9 16v3M15 16v3\"/></g><circle class=\"f\" cx=\"10\" cy=\"12\" r=\".7\"/><circle class=\"f\" cx=\"14\" cy=\"12\" r=\".7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

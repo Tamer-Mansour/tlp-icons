@@ -1,0 +1,32 @@
+{
+  "name": "crime-scene",
+  "category": "legal",
+  "tags": [
+    "crime scene",
+    "evidence marker",
+    "tent",
+    "forensics",
+    "investigation"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 21 9 6h6l4 15z\"/><path class=\"p3\" d=\"M10.500 12.500 12.500 11.500v7\"/><path class=\"p2\" d=\"M2.500 21h19\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

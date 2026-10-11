@@ -1,0 +1,39 @@
+{
+  "name": "bear-market",
+  "category": "finance",
+  "tags": [
+    "bear",
+    "market",
+    "bearish",
+    "stocks",
+    "falling",
+    "trading"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><g class=\"p2\"><path d=\"M6.26 8.99A2.5 2.5 0 1 1 8.99 6.68\"/><path d=\"M15.01 6.68A2.5 2.5 0 1 1 17.74 8.99\"/></g><path class=\"p3\" d=\"M9.5 12h.01M14.5 12h.01\"/><path d=\"M11 16h2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "blink",
+      "dur": 800,
+      "delay": 800
+    },
+    {
+      "part": "all",
+      "anim": "sink",
+      "dur": 1000,
+      "delay": 1100
+    }
+  ]
+}

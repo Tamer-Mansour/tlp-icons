@@ -1,0 +1,33 @@
+{
+  "name": "dental-chair",
+  "category": "health",
+  "tags": [
+    "dental chair",
+    "dentist",
+    "clinic",
+    "seat",
+    "lamp"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 5.5C4 4.7 4.7 4 5.5 4S7 4.7 7 5.5L8.5 11H18a2 2 0 0 1 2 2v2H5.5C4.7 15 4 14.3 4 13.5z\"/><g class=\"p2\"><path d=\"M12 15v5\"/><path d=\"M8 20h8\"/></g><g class=\"p3\"><path d=\"M15 7a3.5 3.5 0 0 1 7 0z\"/><path d=\"M18.5 3.5V2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "swing",
+      "dur": 1300,
+      "delay": 600,
+      "origin": "18.5px 2px"
+    }
+  ]
+}

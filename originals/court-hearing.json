@@ -1,0 +1,39 @@
+{
+  "name": "court-hearing",
+  "category": "legal",
+  "tags": [
+    "court",
+    "hearing",
+    "trial",
+    "session",
+    "judge",
+    "bench"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"2.2\"/><g class=\"p3\"><path d=\"M6.5 3.5a3 3 0 0 0 0 5\"/><path d=\"M17.5 3.5a3 3 0 0 1 0 5\"/></g><path class=\"p4\" d=\"M7 15a5 5 0 0 1 10 0\"/><rect class=\"d p2\" x=\"3\" y=\"15\" width=\"18\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 150
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 350
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1200,
+      "delay": 900
+    }
+  ]
+}

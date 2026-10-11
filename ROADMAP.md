@@ -2,7 +2,7 @@
 
 > Generated from `config/roadmap.json` by `node scripts/roadmap.mjs`. Live version: https://tlp-icons.netlify.app/roadmap/
 
-**Goal: 26,180 animated icons by 2028.** Today: 6,489 (25%).
+**Goal: 26,180 animated icons by 2028.** Today: 6,620 (25%).
 
 ## Principles
 
@@ -39,9 +39,9 @@
 
 | Category | Priority | Now | Goal | Progress |
 | --- | --- | ---: | ---: | --- |
-| Health & Medical | High | 106 | 1,200 | `█░░░░░░░░░` 9% |
-| Legal & Government | High | 59 | 1,180 | `█░░░░░░░░░` 5% |
-| Finance & Money | High | 186 | 1,100 | `██░░░░░░░░` 17% |
+| Health & Medical | High | 142 | 1,200 | `█░░░░░░░░░` 12% |
+| Legal & Government | High | 120 | 1,180 | `█░░░░░░░░░` 10% |
+| Finance & Money | High | 220 | 1,100 | `██░░░░░░░░` 20% |
 | Shopping & Commerce | Medium | 126 | 1,000 | `█░░░░░░░░░` 13% |
 | Maps & Travel | Medium | 253 | 1,000 | `███░░░░░░░` 25% |
 | Science & Education | Medium | 35 | 1,000 | `░░░░░░░░░░` 4% |
@@ -79,29 +79,29 @@
 
 Seed lists for the next batches (✓ = already in the library).
 
-### Health & Medical (106 → 1,200)
+### Health & Medical (142 → 1,200)
 
-- **Clinical:** ✓ `stethoscope`, `blood-pressure`, `iv-drip`, `hospital-bed`, ✓ `wheelchair`, ✓ `crutches`, `x-ray`, `mri`, `ultrasound`, `ecg`
-- **Dental:** `tooth`, `tooth-cavity`, ✓ `braces`, `implant`, `dental-chair`, ✓ `toothbrush`
-- **Lab & pharmacy:** ✓ `test-tube`, `petri-dish`, `blood-test`, ✓ `prescription`, ✓ `pill-bottle`, ✓ `capsule`, `inhaler`, `vaccine-vial`
-- **Body & organs:** `heart-organ`, ✓ `lungs`, `kidney`, `liver`, `stomach`, ✓ `brain`, ✓ `bone`, `eye-exam`
+- **Clinical:** ✓ `stethoscope`, ✓ `blood-pressure`, ✓ `iv-drip`, ✓ `hospital-bed`, ✓ `wheelchair`, ✓ `crutches`, ✓ `x-ray`, ✓ `mri`, ✓ `ultrasound`, `ecg`
+- **Dental:** `tooth`, ✓ `tooth-cavity`, ✓ `braces`, ✓ `implant`, ✓ `dental-chair`, ✓ `toothbrush`
+- **Lab & pharmacy:** ✓ `test-tube`, ✓ `petri-dish`, ✓ `blood-test`, ✓ `prescription`, ✓ `pill-bottle`, ✓ `capsule`, ✓ `inhaler`, `vaccine-vial`
+- **Body & organs:** ✓ `heart-organ`, ✓ `lungs`, ✓ `kidney`, ✓ `liver`, ✓ `stomach`, ✓ `brain`, ✓ `bone`, `eye-exam`
 
-### Legal & Government (59 → 1,180)
+### Legal & Government (120 → 1,180)
 
-- **Courts & hearings:** ✓ `courthouse`, `court-hearing`, ✓ `judge-bench`, ✓ `judges-panel`, ✓ `gavel-strike`, ✓ `witness-stand`, ✓ `jury`, `court-calendar`, `hearing-clock`, `courtroom-door`, `court-reporter`, ✓ `verdict`, `sentence`, ✓ `appeal`, `retrial`, `supreme-court`
-- **Contracts & documents:** ✓ `contract`, ✓ `contract-signed`, `contract-pen`, `signature-pen`, ✓ `notary-stamp`, `seal-wax`, ✓ `power-of-attorney`, `will-testament`, `affidavit`, `deed`, `lease-agreement`, `nda`, ✓ `legal-document`, `clause`, `amendment`, `terms-conditions`
-- **Law enforcement:** `police-officer`, ✓ `police-badge`, ✓ `police-station`, `police-car`, ✓ `handcuffs`, `arrest`, `prison-bars`, `prison-cell`, `parole`, ✓ `probation`, ✓ `evidence-bag`, `fingerprint-card`, `crime-scene`, `patrol`, `bail`
-- **Cases & procedure:** `case-folder`, `case-file-search`, ✓ `case-number`, ✓ `case-status`, `lawsuit`, ✓ `subpoena`, `summons`, `complaint`, `claim`, `deadline`, `filing`, `docket`, `motion`, `objection`, `settlement`
-- **People & roles:** ✓ `judge`, ✓ `attorney`, `lawyer`, `prosecutor`, ✓ `defendant`, `plaintiff`, `witness`, `witness-oath`, `notary`, `mediator`, `arbitrator`, `clerk`, `bailiff`, `legal-guardian`
-- **Rights & IP:** `copyright-law`, ✓ `patent`, `trademark-law`, `privacy-law`, `gdpr`, `human-rights`, `consumer-rights`, `license-agreement`
-- **Government & democracy:** ✓ `parliament`, ✓ `ballot-box`, ✓ `vote`, `constitution`, ✓ `law-book`, `decree`, `ministry`, `embassy`, ✓ `passport`, `visa-stamp`, `citizenship`, `tax-id`
+- **Courts & hearings:** ✓ `courthouse`, ✓ `court-hearing`, ✓ `judge-bench`, ✓ `judges-panel`, ✓ `gavel-strike`, ✓ `witness-stand`, ✓ `jury`, `court-calendar`, ✓ `hearing-clock`, ✓ `courtroom-door`, ✓ `court-reporter`, ✓ `verdict`, ✓ `sentence`, ✓ `appeal`, ✓ `retrial`, ✓ `supreme-court`
+- **Contracts & documents:** ✓ `contract`, ✓ `contract-signed`, ✓ `contract-pen`, ✓ `signature-pen`, ✓ `notary-stamp`, `seal-wax`, ✓ `power-of-attorney`, `will-testament`, ✓ `affidavit`, ✓ `deed`, ✓ `lease-agreement`, ✓ `nda`, ✓ `legal-document`, ✓ `clause`, ✓ `amendment`, ✓ `terms-conditions`
+- **Law enforcement:** ✓ `police-officer`, ✓ `police-badge`, ✓ `police-station`, ✓ `police-car`, ✓ `handcuffs`, `arrest`, `prison-bars`, `prison-cell`, ✓ `parole`, ✓ `probation`, ✓ `evidence-bag`, `fingerprint-card`, ✓ `crime-scene`, ✓ `patrol`, ✓ `bail`
+- **Cases & procedure:** ✓ `case-folder`, ✓ `case-file-search`, ✓ `case-number`, ✓ `case-status`, ✓ `lawsuit`, ✓ `subpoena`, ✓ `summons`, ✓ `complaint`, ✓ `claim`, ✓ `deadline`, ✓ `filing`, ✓ `docket`, ✓ `motion`, ✓ `objection`, ✓ `settlement`
+- **People & roles:** ✓ `judge`, ✓ `attorney`, ✓ `lawyer`, ✓ `prosecutor`, ✓ `defendant`, ✓ `plaintiff`, ✓ `witness`, ✓ `witness-oath`, ✓ `notary`, ✓ `mediator`, ✓ `arbitrator`, `clerk`, ✓ `bailiff`, ✓ `legal-guardian`
+- **Rights & IP:** ✓ `copyright-law`, ✓ `patent`, ✓ `trademark-law`, ✓ `privacy-law`, ✓ `gdpr`, ✓ `human-rights`, ✓ `consumer-rights`, ✓ `license-agreement`
+- **Government & democracy:** ✓ `parliament`, ✓ `ballot-box`, ✓ `vote`, ✓ `constitution`, ✓ `law-book`, ✓ `decree`, ✓ `ministry`, ✓ `embassy`, ✓ `passport`, ✓ `visa-stamp`, ✓ `citizenship`, ✓ `tax-id`
 
-### Finance & Money (186 → 1,100)
+### Finance & Money (220 → 1,100)
 
-- **Banking:** `bank`, `atm`, `cheque`, `deposit`, `withdraw`, `loan`, `mortgage`, `interest-rate`, `savings`
-- **Payments:** `card-tap`, `pos-terminal`, `qr-pay`, `invoice-paid`, `invoice-due`, `refund`, `split-bill`, `subscription`
+- **Banking:** `bank`, ✓ `atm`, ✓ `cheque`, ✓ `deposit`, ✓ `withdraw`, ✓ `loan`, ✓ `mortgage`, ✓ `interest-rate`, `savings`
+- **Payments:** ✓ `card-tap`, ✓ `pos-terminal`, ✓ `qr-pay`, ✓ `invoice-paid`, ✓ `invoice-due`, `refund`, ✓ `split-bill`, ✓ `subscription`
 - **Currencies:** `shekel`, `dinar`, `riyal`, `dirham`, `pound-egp`, `lira`, `rupee`, `yuan`, `won`, `naira`
-- **Markets:** `stock-up`, `stock-down`, `portfolio`, `dividend`, `bull-market`, `bear-market`, `crypto-wallet`
+- **Markets:** ✓ `stock-up`, ✓ `stock-down`, ✓ `portfolio`, ✓ `dividend`, ✓ `bull-market`, ✓ `bear-market`, ✓ `crypto-wallet`
 
 ### Shopping & Commerce (126 → 1,000)
 

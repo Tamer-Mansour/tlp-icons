@@ -1,0 +1,27 @@
+{
+  "name": "implant",
+  "category": "health",
+  "tags": [
+    "dental implant",
+    "tooth",
+    "crown",
+    "screw",
+    "dentist",
+    "prosthesis"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6.5 5c0-1.3 1.2-2 2.5-2 1.2 0 2 .6 3 .6s1.8-.6 3-.6c1.3 0 2.5.7 2.5 2 0 2.8-1 4-1.5 5.5H8C7.5 9 6.5 7.8 6.5 5z\"/><g class=\"p2\"><path d=\"M8 13.5h8\"/><path d=\"M9 16.5h6\"/><path d=\"M10 19.5h4\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

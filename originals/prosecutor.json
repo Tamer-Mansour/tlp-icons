@@ -1,0 +1,33 @@
+{
+  "name": "prosecutor",
+  "category": "legal",
+  "tags": [
+    "prosecutor",
+    "accuser",
+    "state counsel",
+    "charge",
+    "public prosecutor",
+    "pointing"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7.5\" r=\"3\"/><path class=\"p2\" d=\"M2 21v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1\"/><g class=\"p3\"><path d=\"M14 11h8\"/><path d=\"M19 8l3 3-3 3\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "nudge",
+      "dur": 1000,
+      "delay": 650
+    }
+  ]
+}

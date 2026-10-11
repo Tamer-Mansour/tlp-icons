@@ -1,0 +1,27 @@
+{
+  "name": "subscription",
+  "category": "finance",
+  "tags": [
+    "subscription",
+    "recurring",
+    "repeat",
+    "renewal",
+    "membership",
+    "payment"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M17 2l4 4-4 4\"/><path d=\"M3 11v-1a4 4 0 0 1 4-4h14\"/><path d=\"M7 22l-4-4 4-4\"/><path d=\"M21 13v1a4 4 0 0 1-4 4H3\"/></g><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 1100,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "flip",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "money-plant",
+  "category": "finance",
+  "tags": [
+    "growth",
+    "investment",
+    "seed",
+    "plant",
+    "coin",
+    "startup"
+  ],
+  "svg": "<g class=\"p2\"><path d=\"M12 11v10\"/><path d=\"M12 18c-3 0-5-1.5-5-4 3 0 5 1.5 5 4z\"/><path d=\"M12 16c3 0 5-1.5 5-4-3 0-5 1.5-5 4z\"/></g><circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"4\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 900,
+      "delay": 0,
+      "origin": "bottom"
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 800,
+      "delay": 650
+    }
+  ]
+}

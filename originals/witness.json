@@ -1,0 +1,33 @@
+{
+  "name": "witness",
+  "category": "legal",
+  "tags": [
+    "witness",
+    "eyewitness",
+    "observer",
+    "saw",
+    "testify",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M2 21v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1\"/><g class=\"p3\"><path d=\"M13 7.5c1.5-2.5 3-3.5 4.5-3.5s3 1 4.5 3.5c-1.5 2.5-3 3.5-4.5 3.5S14.5 10 13 7.5z\"/><circle cx=\"17.5\" cy=\"7.5\" r=\"1\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "blink",
+      "dur": 900,
+      "delay": 900
+    }
+  ]
+}

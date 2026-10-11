@@ -1,0 +1,34 @@
+{
+  "name": "lawyer",
+  "category": "legal",
+  "tags": [
+    "lawyer",
+    "counsel",
+    "advocate",
+    "solicitor",
+    "barrister",
+    "suit"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M5.5 21v-1a4.5 4.5 0 0 1 4.5-4.5h4a4.5 4.5 0 0 1 4.5 4.5v1\"/><g class=\"p3\"><path d=\"M12 15.5l-1.5 2 1.5 3.5 1.5-3.5z\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "swing",
+      "dur": 1200,
+      "delay": 600,
+      "origin": "12px 15.5px"
+    }
+  ]
+}

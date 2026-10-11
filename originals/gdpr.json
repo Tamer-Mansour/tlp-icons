@@ -1,0 +1,32 @@
+{
+  "name": "gdpr",
+  "category": "legal",
+  "tags": [
+    "gdpr",
+    "eu",
+    "data protection",
+    "privacy",
+    "regulation"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 7.500l4.500 1.600v3.600c0 2.600-2 4.200-4.500 5.300-2.500-1.100-4.500-2.700-4.500-5.300V9.100z\"/><path class=\"p2\" d=\"M12 2.5h.01M16.8 3.8h.01M20.2 7.3h.01M21.5 12h.01M20.2 16.8h.01M16.8 20.2h.01M12 21.5h.01M7.3 20.2h.01M3.8 16.8h.01M2.5 12h.01M3.8 7.2h.01M7.2 3.8h.01\"/><path class=\"p3\" d=\"M10 12.500l1.500 1.500 2.500-3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "spin",
+      "dur": 1400,
+      "delay": 300
+    }
+  ]
+}

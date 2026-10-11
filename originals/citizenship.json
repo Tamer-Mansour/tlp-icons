@@ -1,0 +1,39 @@
+{
+  "name": "citizenship",
+  "category": "legal",
+  "tags": [
+    "citizenship",
+    "citizen",
+    "nationality",
+    "flag",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8.500\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M3 21v-2a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v2\"/><path class=\"p3\" d=\"M17 4v17\"/><path class=\"d p4\" d=\"M17 4h4l-1 2 1 2h-4\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p4",
+      "anim": "wiggle",
+      "dur": 1200,
+      "delay": 800,
+      "origin": "17px 6px"
+    }
+  ]
+}

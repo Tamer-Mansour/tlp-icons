@@ -1,0 +1,39 @@
+{
+  "name": "cross-examination",
+  "category": "legal",
+  "tags": [
+    "cross examination",
+    "questioning",
+    "interrogation",
+    "question",
+    "witness",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"8.5\" r=\"3\"/><path class=\"p2\" d=\"M2 21v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1\"/><path class=\"p3\" d=\"M15 7a3 3 0 0 1 6 0c0 2-3 2.5-3 5\"/><path class=\"p4\" d=\"M18 16h.01\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1100
+    }
+  ]
+}

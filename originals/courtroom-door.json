@@ -1,0 +1,33 @@
+{
+  "name": "courtroom-door",
+  "category": "legal",
+  "tags": [
+    "courtroom",
+    "door",
+    "entrance",
+    "court",
+    "enter",
+    "hall"
+  ],
+  "svg": "<g class=\"p2\"><path class=\"d\" d=\"M12 2H6a2 2 0 0 0-2 2v18h8z\"/><path d=\"M9 13h.01\"/></g><g class=\"p3\"><path class=\"d\" d=\"M12 2h6a2 2 0 0 1 2 2v18h-8z\"/><path d=\"M15 13h.01\"/></g>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "nudgeBack",
+      "dur": 1000,
+      "delay": 750
+    },
+    {
+      "part": "p3",
+      "anim": "nudge",
+      "dur": 1000,
+      "delay": 750
+    }
+  ]
+}

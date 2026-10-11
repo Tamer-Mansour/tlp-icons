@@ -1,0 +1,33 @@
+{
+  "name": "gold-bar",
+  "category": "finance",
+  "tags": [
+    "gold",
+    "bullion",
+    "ingot",
+    "bar",
+    "precious",
+    "commodity"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2 21l2-7h6l2 7z\"/><path class=\"p2\" d=\"M12 21l2-7h6l2 7z\"/><path class=\"d p3\" d=\"M7 14l2-7h6l2 7z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 900,
+      "delay": 450
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "deed",
+  "category": "legal",
+  "tags": [
+    "deed",
+    "property",
+    "title",
+    "house",
+    "real estate"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path class=\"p2\" d=\"M14 2v5a1 1 0 0 0 1 1h5\"/><path class=\"p3\" d=\"M8 6.5h3\"/><g class=\"p4\"><path d=\"M8 18v-4.5L12 10l4 3.5V18z\"/><path d=\"M11 18v-2.5h2V18\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 300,
+      "origin": "left"
+    },
+    {
+      "part": "p4",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 600,
+      "origin": "bottom"
+    }
+  ]
+}

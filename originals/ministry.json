@@ -1,0 +1,41 @@
+{
+  "name": "ministry",
+  "category": "legal",
+  "tags": [
+    "ministry",
+    "government",
+    "department",
+    "office",
+    "building"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"1\"/><g class=\"p2\"><path d=\"M12 9V3\"/><path class=\"d\" d=\"M12 3h4.500L15 5l1.500 2H12\"/></g><g class=\"p3\"><path d=\"M7.500 13v3\"/><path d=\"M16.500 13v3\"/></g><path class=\"p4\" d=\"M10.500 21v-5h3v5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 600,
+      "delay": 400,
+      "origin": "top"
+    },
+    {
+      "part": "p4",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 600,
+      "origin": "bottom"
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 1200,
+      "delay": 700,
+      "origin": "12px 5px"
+    }
+  ]
+}

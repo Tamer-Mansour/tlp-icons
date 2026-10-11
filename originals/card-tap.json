@@ -1,0 +1,27 @@
+{
+  "name": "card-tap",
+  "category": "finance",
+  "tags": [
+    "contactless",
+    "nfc",
+    "card",
+    "tap",
+    "pay",
+    "wireless"
+  ],
+  "svg": "<g class=\"p1\"><rect class=\"d\" x=\"2\" y=\"9\" width=\"13\" height=\"10\" rx=\"2\"/><path d=\"M2 13h13\"/></g><g class=\"p2\"><path d=\"M18 11.5a3 3 0 0 1 0 5\"/><path d=\"M21 9.5a6 6 0 0 1 0 9\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "pop",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 800,
+      "delay": 450
+    }
+  ]
+}

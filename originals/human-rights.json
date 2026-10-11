@@ -1,0 +1,38 @@
+{
+  "name": "human-rights",
+  "category": "legal",
+  "tags": [
+    "human rights",
+    "freedom",
+    "equality",
+    "person",
+    "universal"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.500\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1.500\"/><path class=\"p3\" d=\"M7.500 7.500 12 12l4.500-4.500\"/><path class=\"p4\" d=\"M12 12v3.500M12 15.500 9.500 19M12 15.500l2.500 3.500\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

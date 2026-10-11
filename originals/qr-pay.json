@@ -1,0 +1,33 @@
+{
+  "name": "qr-pay",
+  "category": "finance",
+  "tags": [
+    "qr",
+    "qr-code",
+    "scan",
+    "pay",
+    "payment",
+    "mobile"
+  ],
+  "svg": "<g class=\"p1\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></g><path class=\"p2\" d=\"M6.5 6.5h.01M17.5 6.5h.01M6.5 17.5h.01\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"17.5\" r=\"3.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 450
+    },
+    {
+      "part": "p3",
+      "anim": "flip",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

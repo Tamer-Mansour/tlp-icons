@@ -1,0 +1,34 @@
+{
+  "name": "lease-agreement",
+  "category": "legal",
+  "tags": [
+    "lease",
+    "rent",
+    "agreement",
+    "key",
+    "tenant"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M18 10V8l-5-5H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4\"/><path d=\"M13 3v4a1 1 0 0 0 1 1h4\"/></g><g class=\"p2\"><path d=\"M8 9h2\"/><path d=\"M8 13h6\"/></g><g class=\"p3\"><circle class=\"d\" cx=\"18\" cy=\"16\" r=\"2.5\"/><path d=\"M16.2 17.8 12.5 21.5\"/><path d=\"M14.5 19.5 16 21\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 250,
+      "origin": "left"
+    },
+    {
+      "part": "p3",
+      "anim": "wiggle",
+      "dur": 1200,
+      "delay": 700,
+      "origin": "18px 16px"
+    }
+  ]
+}

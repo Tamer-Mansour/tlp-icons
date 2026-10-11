@@ -1,0 +1,37 @@
+{
+  "name": "stock-down",
+  "category": "finance",
+  "tags": [
+    "stock",
+    "down",
+    "candlestick",
+    "fall",
+    "loss",
+    "market",
+    "bearish"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M5 3v2\"/><path d=\"M5 10v3\"/><rect x=\"3\" y=\"5\" width=\"4\" height=\"5\" rx=\".5\"/></g><g class=\"p2\"><path d=\"M12 7v3\"/><path d=\"M12 15v3\"/><rect x=\"10\" y=\"10\" width=\"4\" height=\"5\" rx=\".5\"/></g><g class=\"p3\"><path d=\"M19 12v3\"/><path d=\"M19 19v2\"/><rect class=\"d\" x=\"17\" y=\"15\" width=\"4\" height=\"4\" rx=\".5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "grow",
+      "dur": 800,
+      "delay": 0,
+      "origin": "top"
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 800,
+      "delay": 250,
+      "origin": "top"
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 800,
+      "delay": 500,
+      "origin": "top"
+    }
+  ]
+}

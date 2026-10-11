@@ -1,0 +1,32 @@
+{
+  "name": "police-car",
+  "category": "legal",
+  "tags": [
+    "police",
+    "car",
+    "patrol",
+    "siren",
+    "vehicle"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 17H3a1 1 0 0 1-1-1v-3.5L4.5 9h10l3.5 3.5h3a1 1 0 0 1 1 1V16a1 1 0 0 1-1 1h-2M9 17h6\"/><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/><path d=\"M10 9v3.5\"/><rect class=\"d p2\" x=\"7.5\" y=\"5.5\" width=\"4\" height=\"3.5\" rx=\"1\"/><g class=\"p3\"><path d=\"M5.5 6.5 4.5 5.5\"/><path d=\"M13.5 6.5l1-1\"/></g>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "pulseRing",
+      "dur": 1000,
+      "delay": 700
+    },
+    {
+      "part": "p3",
+      "anim": "blink",
+      "dur": 900,
+      "delay": 800
+    }
+  ]
+}

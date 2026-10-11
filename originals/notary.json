@@ -1,0 +1,33 @@
+{
+  "name": "notary",
+  "category": "legal",
+  "tags": [
+    "notary",
+    "notary public",
+    "certify",
+    "seal",
+    "attest",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7.5\" r=\"3\"/><path class=\"p2\" d=\"M2 21v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1\"/><g class=\"p3\"><circle class=\"d\" cx=\"18\" cy=\"11\" r=\"3\"/><path d=\"M16.5 13.5 15.5 21l2.5-1.5 2.5 1.5-1-7.5\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "sink",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

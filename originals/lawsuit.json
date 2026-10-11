@@ -1,0 +1,33 @@
+{
+  "name": "lawsuit",
+  "category": "legal",
+  "tags": [
+    "lawsuit",
+    "litigation",
+    "versus",
+    "dispute",
+    "parties",
+    "case"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"5.5\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M2 20v-.5a3.5 3.5 0 0 1 7 0v.5\"/><circle class=\"d p1\" cx=\"18.5\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M15 20v-.5a3.5 3.5 0 0 1 7 0v.5\"/><path class=\"p3\" d=\"M12.5 4 11 9h2l-1.5 5\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "shake",
+      "dur": 1000,
+      "delay": 800
+    }
+  ]
+}

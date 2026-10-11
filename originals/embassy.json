@@ -1,0 +1,40 @@
+{
+  "name": "embassy",
+  "category": "legal",
+  "tags": [
+    "embassy",
+    "consulate",
+    "diplomacy",
+    "flag",
+    "building"
+  ],
+  "svg": "<path class=\"p3\" d=\"M4 3v18\"/><path class=\"d p2\" d=\"M4 3h7l-1.500 2.500L11 8H4\"/><path class=\"d p1\" d=\"M8.500 12.500 15 9l6.500 3.500z\"/><g class=\"p4\"><path d=\"M11 15v6\"/><path d=\"M15 15v6\"/><path d=\"M19 15v6\"/></g><path d=\"M8.500 21h13\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p4",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 450,
+      "origin": "top"
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 1300,
+      "delay": 700,
+      "origin": "4px 5px"
+    }
+  ]
+}

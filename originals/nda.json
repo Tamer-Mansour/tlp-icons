@@ -1,0 +1,38 @@
+{
+  "name": "nda",
+  "category": "legal",
+  "tags": [
+    "nda",
+    "confidential",
+    "non-disclosure",
+    "secret",
+    "lock"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path class=\"p2\" d=\"M14 2v5a1 1 0 0 0 1 1h5\"/><rect class=\"p3\" x=\"9\" y=\"13\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p4\" d=\"M10 13v-1.5a2 2 0 0 1 4 0V13\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 350
+    },
+    {
+      "part": "p4",
+      "anim": "lift",
+      "dur": 1000,
+      "delay": 800
+    }
+  ]
+}

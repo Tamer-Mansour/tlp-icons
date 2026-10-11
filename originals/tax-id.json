@@ -1,0 +1,33 @@
+{
+  "name": "tax-id",
+  "category": "legal",
+  "tags": [
+    "tax id",
+    "taxpayer",
+    "identification",
+    "card",
+    "number"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><g class=\"p2\"><path d=\"M8.500 9.500 7.500 14.500\"/><path d=\"M11.500 9.500 10.500 14.500\"/><path d=\"M6.500 11h6\"/><path d=\"M6.500 13.500h6\"/></g><g class=\"p3\"><path d=\"M15 10h3\"/><path d=\"M15 14h2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 600,
+      "origin": "left"
+    }
+  ]
+}

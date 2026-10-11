@@ -1,0 +1,33 @@
+{
+  "name": "savings-jar",
+  "category": "finance",
+  "tags": [
+    "savings",
+    "jar",
+    "coins",
+    "save",
+    "piggy",
+    "deposit"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 5.5V6a3 3 0 0 1-2 2.8V19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8.8A3 3 0 0 1 16 6v-.5z\"/><rect class=\"p2\" x=\"8\" y=\"2.5\" width=\"8\" height=\"3\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "lift",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 900,
+      "delay": 450
+    }
+  ]
+}

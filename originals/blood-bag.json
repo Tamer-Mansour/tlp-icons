@@ -1,0 +1,32 @@
+{
+  "name": "blood-bag",
+  "category": "health",
+  "tags": [
+    "blood bag",
+    "transfusion",
+    "donation",
+    "blood",
+    "plasma"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 5h10a2 2 0 0 1 2 2v9a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V7a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M12 8c-1.6 2-2.4 3.2-2.4 4.4a2.4 2.4 0 0 0 4.8 0c0-1.2-.8-2.4-2.4-4.4z\"/><path class=\"p3\" d=\"M12 19v3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "breathe",
+      "dur": 1200,
+      "delay": 700
+    }
+  ]
+}

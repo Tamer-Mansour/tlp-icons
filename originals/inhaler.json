@@ -1,0 +1,33 @@
+{
+  "name": "inhaler",
+  "category": "health",
+  "tags": [
+    "inhaler",
+    "asthma",
+    "puffer",
+    "respiratory",
+    "medicine",
+    "spray"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 10a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v5h3a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M5 8V3h6v5\"/><g class=\"p3\"><circle class=\"f\" cx=\"20.5\" cy=\"15\" r=\".7\"/><circle class=\"f\" cx=\"22\" cy=\"17.5\" r=\".7\"/><circle class=\"f\" cx=\"20.5\" cy=\"20\" r=\".7\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sink",
+      "dur": 900,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 700,
+      "delay": 900
+    }
+  ]
+}

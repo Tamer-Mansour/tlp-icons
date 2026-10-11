@@ -1,0 +1,27 @@
+{
+  "name": "deposit",
+  "category": "finance",
+  "tags": [
+    "deposit",
+    "bank",
+    "coin",
+    "slot",
+    "savings",
+    "drop"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 13h5l1.5 3h5l1.5-3h5v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 1000,
+      "delay": 350
+    }
+  ]
+}

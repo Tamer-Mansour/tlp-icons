@@ -1,0 +1,33 @@
+{
+  "name": "dose-cup",
+  "category": "health",
+  "tags": [
+    "dose cup",
+    "medicine cup",
+    "syrup",
+    "measure",
+    "liquid",
+    "pharmacy"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 4h14l-1.7 15.5a1.5 1.5 0 0 1-1.5 1.5H8.2a1.5 1.5 0 0 1-1.5-1.5z\"/><g class=\"p2\"><path d=\"M8 8h3\"/><path d=\"M8 11.5h3\"/></g><path class=\"p3\" d=\"M8 16c1.3-1 2.7-1 4 0s2.7 1 4 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "float",
+      "dur": 1500,
+      "delay": 700
+    }
+  ]
+}

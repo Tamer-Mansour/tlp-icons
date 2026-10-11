@@ -1,0 +1,38 @@
+{
+  "name": "copyright-law",
+  "category": "legal",
+  "tags": [
+    "copyright",
+    "law",
+    "author rights",
+    "intellectual property",
+    "document"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path class=\"p2\" d=\"M14 2v5a1 1 0 0 0 1 1h5\"/><path class=\"p3\" d=\"M8 6h3\"/><circle class=\"p3\" cx=\"12\" cy=\"13.500\" r=\"4\"/><path class=\"p4\" d=\"M13.500 12.300a2 2 0 1 0 0 2.400\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 350
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

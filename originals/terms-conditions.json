@@ -1,0 +1,39 @@
+{
+  "name": "terms-conditions",
+  "category": "legal",
+  "tags": [
+    "terms",
+    "conditions",
+    "agree",
+    "checkbox",
+    "policy"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path class=\"p2\" d=\"M14 2v5a1 1 0 0 0 1 1h5\"/><g class=\"p3\"><path d=\"M8 10h8\"/><path d=\"M8 13.5h8\"/></g><rect class=\"p4\" x=\"8\" y=\"16.5\" width=\"3.5\" height=\"3.5\" rx=\".5\"/><path class=\"p4\" d=\"M14 18.2h3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 300,
+      "origin": "left"
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

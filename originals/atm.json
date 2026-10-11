@@ -1,0 +1,33 @@
+{
+  "name": "atm",
+  "category": "finance",
+  "tags": [
+    "atm",
+    "cash",
+    "machine",
+    "withdraw",
+    "bank",
+    "cashpoint"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"18\" height=\"13\" rx=\"2\"/><g class=\"p2\"><rect x=\"7\" y=\"5\" width=\"10\" height=\"3\" rx=\"1\"/><path d=\"M8 11.5h.01M12 11.5h.01M16 11.5h.01\"/></g><g class=\"p3\"><path d=\"M8 15v6h8v-6\"/><path d=\"M12 18h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 900,
+      "delay": 600
+    }
+  ]
+}

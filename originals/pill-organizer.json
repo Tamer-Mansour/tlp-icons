@@ -1,0 +1,40 @@
+{
+  "name": "pill-organizer",
+  "category": "health",
+  "tags": [
+    "pill organizer",
+    "pillbox",
+    "weekly",
+    "medication",
+    "reminder",
+    "pharmacy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9\" width=\"19\" height=\"11\" rx=\"2\"/><g class=\"p2\"><path d=\"M8.8 9v11\"/><path d=\"M15.2 9v11\"/></g><g class=\"p4\"><circle class=\"f\" cx=\"5.65\" cy=\"14.5\" r=\".9\"/><circle class=\"f\" cx=\"12\" cy=\"14.5\" r=\".9\"/><circle class=\"f\" cx=\"18.35\" cy=\"14.5\" r=\".9\"/></g><rect class=\"p3\" x=\"9.5\" y=\"2.5\" width=\"5\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 300,
+      "origin": "top"
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 600
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 900
+    }
+  ]
+}

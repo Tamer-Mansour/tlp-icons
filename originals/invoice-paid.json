@@ -1,0 +1,34 @@
+{
+  "name": "invoice-paid",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "paid",
+    "bill",
+    "receipt",
+    "settled",
+    "check"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path d=\"M14 2v6h6\"/><path class=\"p2\" d=\"M8 12h8\"/><path class=\"p3\" d=\"M8.5 17l2.5 2.5 4.5-4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 250,
+      "origin": "left"
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

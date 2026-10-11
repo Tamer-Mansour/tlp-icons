@@ -1,0 +1,33 @@
+{
+  "name": "petri-dish",
+  "category": "health",
+  "tags": [
+    "petri dish",
+    "culture",
+    "bacteria",
+    "lab",
+    "microbiology",
+    "colony"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6\"/><g class=\"p3\"><circle class=\"f\" cx=\"10\" cy=\"10.5\" r=\"1\"/><circle class=\"f\" cx=\"14\" cy=\"11.5\" r=\".8\"/><circle class=\"f\" cx=\"11.5\" cy=\"14.5\" r=\".8\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

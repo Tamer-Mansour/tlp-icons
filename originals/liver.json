@@ -1,0 +1,32 @@
+{
+  "name": "liver",
+  "category": "health",
+  "tags": [
+    "liver",
+    "organ",
+    "hepatic",
+    "anatomy",
+    "digestive"
+  ],
+  "svg": "<g class=\"p3\"><path class=\"d p1\" d=\"M3 9.5C3 6.5 5.5 4.5 9 4.5H14C18 4.5 21 6.5 21 9 21 11 18.5 11.5 16 12.5 14 13.3 13.5 14 12 16 10.5 18 8 19 6 17.5 4 16 3 13 3 9.5z\"/><path class=\"p2\" d=\"M13 5c.5 3.5.5 7-1 11\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "jelly",
+      "dur": 1100,
+      "delay": 1000
+    }
+  ]
+}

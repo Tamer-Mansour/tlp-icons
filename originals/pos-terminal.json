@@ -1,0 +1,33 @@
+{
+  "name": "pos-terminal",
+  "category": "finance",
+  "tags": [
+    "pos",
+    "terminal",
+    "card-reader",
+    "payment",
+    "point-of-sale",
+    "merchant"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 13h.01M12 13h.01M15 13h.01M9 17h.01M12 17h.01M15 17h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

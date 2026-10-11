@@ -1,0 +1,26 @@
+{
+  "name": "patrol",
+  "category": "legal",
+  "tags": [
+    "patrol",
+    "police",
+    "round",
+    "route",
+    "watch"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 7l4 1.400v3.300c0 2.400-1.800 3.800-4 4.800-2.200-1-4-2.400-4-4.800V8.400z\"/><g class=\"p2\"><path d=\"M3 12a9 9 0 0 1 9-9 9.750 9.750 0 0 1 6.740 2.740L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-9 9 9.750 9.750 0 0 1-6.740-2.740L3 16\"/><path d=\"M8 16H3v5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "spin",
+      "dur": 1600,
+      "delay": 400
+    }
+  ]
+}

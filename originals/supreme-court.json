@@ -1,0 +1,34 @@
+{
+  "name": "supreme-court",
+  "category": "legal",
+  "tags": [
+    "supreme court",
+    "highest court",
+    "dome",
+    "capitol",
+    "justice",
+    "building"
+  ],
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M7 11a5 5 0 0 1 10 0z\"/><path d=\"M12 6V3\"/></g><g class=\"p2\"><path d=\"M6.5 14v4\"/><path d=\"M12 14v4\"/><path d=\"M17.5 14v4\"/></g><g class=\"p3\"><path d=\"M4 18h16\"/><path d=\"M3 21h18\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 250,
+      "origin": "bottom"
+    },
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 700
+    }
+  ]
+}

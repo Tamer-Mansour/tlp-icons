@@ -1,0 +1,33 @@
+{
+  "name": "blood-test",
+  "category": "health",
+  "tags": [
+    "blood test",
+    "sample",
+    "tube",
+    "lab",
+    "drop",
+    "analysis"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 3v15a3 3 0 0 0 6 0V3z\"/><path class=\"p2\" d=\"M6 12h6\"/><path class=\"d p3\" d=\"M18 8.5c-2 2.4-3 3.8-3 5.3a3 3 0 0 0 6 0c0-1.5-1-2.9-3-5.3z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

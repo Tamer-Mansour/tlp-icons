@@ -1,0 +1,33 @@
+{
+  "name": "cash-stack",
+  "category": "finance",
+  "tags": [
+    "cash",
+    "banknotes",
+    "stack",
+    "money",
+    "bills",
+    "wealth"
+  ],
+  "svg": "<path class=\"p3\" d=\"M6 9V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-2\"/><rect class=\"d p1\" x=\"2\" y=\"9\" width=\"16\" height=\"11\" rx=\"2\"/><circle class=\"p2\" cx=\"10\" cy=\"14.5\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "slideIn",
+      "dur": 800,
+      "delay": 250
+    },
+    {
+      "part": "p2",
+      "anim": "jelly",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "centrifuge",
+  "category": "health",
+  "tags": [
+    "centrifuge",
+    "lab",
+    "spin",
+    "sample",
+    "tubes",
+    "laboratory"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><g class=\"p2\"><circle cx=\"12\" cy=\"7.5\" r=\"1.5\"/><circle cx=\"16\" cy=\"14.5\" r=\"1.5\"/><circle cx=\"8\" cy=\"14.5\" r=\"1.5\"/></g><circle class=\"f\" cx=\"12\" cy=\"12\" r=\".6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "spin",
+      "dur": 1500,
+      "delay": 400,
+      "origin": "12px 12px"
+    }
+  ]
+}

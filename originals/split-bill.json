@@ -1,0 +1,27 @@
+{
+  "name": "split-bill",
+  "category": "finance",
+  "tags": [
+    "split",
+    "bill",
+    "share",
+    "divide",
+    "halves",
+    "payment"
+  ],
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M10 4a8 8 0 0 0 0 16z\"/><path d=\"M6 12h.01\"/></g><g class=\"p2\"><path class=\"d\" d=\"M14 4a8 8 0 0 1 0 16z\"/><path d=\"M18 12h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "nudgeBack",
+      "dur": 1100,
+      "delay": 100
+    },
+    {
+      "part": "p2",
+      "anim": "nudge",
+      "dur": 1100,
+      "delay": 100
+    }
+  ]
+}

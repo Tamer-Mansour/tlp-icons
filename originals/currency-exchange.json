@@ -1,0 +1,33 @@
+{
+  "name": "currency-exchange",
+  "category": "finance",
+  "tags": [
+    "exchange",
+    "currency",
+    "convert",
+    "swap",
+    "forex",
+    "fx"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"4\"/><circle class=\"d p2\" cx=\"17\" cy=\"17\" r=\"4\"/><g class=\"p3\"><path d=\"M14 5h2a3 3 0 0 1 3 3v2\"/><path d=\"M17 8l2 2 2-2\"/><path d=\"M10 19H8a3 3 0 0 1-3-3v-2\"/><path d=\"M3 16l2-2 2 2\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "flip",
+      "dur": 1000,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "flip",
+      "dur": 1000,
+      "delay": 650
+    }
+  ]
+}

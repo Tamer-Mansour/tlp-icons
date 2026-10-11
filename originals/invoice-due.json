@@ -1,0 +1,27 @@
+{
+  "name": "invoice-due",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "due",
+    "bill",
+    "unpaid",
+    "overdue",
+    "reminder"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path d=\"M14 2v6h6\"/><g class=\"p2\"><path d=\"M12 12v3\"/><path d=\"M12 18.5h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "shake",
+      "dur": 1000,
+      "delay": 600
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "iv-drip",
+  "category": "health",
+  "tags": [
+    "iv",
+    "drip",
+    "infusion",
+    "hospital",
+    "saline",
+    "drop"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"9\" height=\"9\" rx=\"2\"/><path d=\"M9.5 11.5v3\"/><path class=\"p2\" d=\"M9.5 16.5c-1 1.3-1.5 2-1.5 2.8a1.5 1.5 0 0 0 3 0c0-.8-.5-1.5-1.5-2.8z\"/><g class=\"p3\"><path d=\"M19 3v18.5\"/><path d=\"M14 5.5h5\"/><path d=\"M16.5 21.5h5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

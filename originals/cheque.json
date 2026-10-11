@@ -1,0 +1,34 @@
+{
+  "name": "cheque",
+  "category": "finance",
+  "tags": [
+    "cheque",
+    "check",
+    "payment",
+    "signature",
+    "bank",
+    "draft"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6 9h5M15 9h3\"/><path class=\"p3\" d=\"M6 15c1.5-2 2.5 1 4-.5s2-.5 3-.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 250,
+      "origin": "left"
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 1000,
+      "delay": 500
+    }
+  ]
+}

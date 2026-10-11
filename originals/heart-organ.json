@@ -1,0 +1,39 @@
+{
+  "name": "heart-organ",
+  "category": "health",
+  "tags": [
+    "heart",
+    "organ",
+    "cardiology",
+    "anatomy",
+    "aorta",
+    "cardiac"
+  ],
+  "svg": "<g class=\"p1\"><path class=\"d p2\" d=\"M12 21C7 17 4 14.5 4 11c0-2.5 2-4 4-4 1.5 0 3 .8 4 2 1-1.2 2.5-2 4-2 2 0 4 1.5 4 4 0 3.5-3 6-8 10z\"/></g><path class=\"p3\" d=\"M9.5 7.5V3\"/><path class=\"p4\" d=\"M14 8V5a3 3 0 0 1 3-3h1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "breathe",
+      "dur": 1300,
+      "delay": 900
+    }
+  ]
+}

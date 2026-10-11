@@ -1,0 +1,33 @@
+{
+  "name": "thermometer-gun",
+  "category": "health",
+  "tags": [
+    "thermometer",
+    "infrared",
+    "temperature",
+    "fever",
+    "forehead",
+    "screening"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"15\" height=\"8\" rx=\"2.5\"/><rect class=\"p2\" x=\"6\" y=\"12\" width=\"5\" height=\"9\" rx=\"1.5\"/><g class=\"p3\"><path d=\"M20 5l1.5-1\"/><path d=\"M20 8h2\"/><path d=\"M20 11l1.5 1\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

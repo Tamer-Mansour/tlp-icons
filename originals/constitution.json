@@ -1,0 +1,39 @@
+{
+  "name": "constitution",
+  "category": "legal",
+  "tags": [
+    "constitution",
+    "charter",
+    "scroll",
+    "law",
+    "founding"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\"/><g class=\"p2\"><rect x=\"4\" y=\"3\" width=\"16\" height=\"3\" rx=\"1.500\"/><rect x=\"4\" y=\"18\" width=\"16\" height=\"3\" rx=\"1.500\"/></g><polygon class=\"p3\" points=\"12 8.5 12.8 10.4 14.9 10.6 13.2 11.9 13.8 13.9 12 12.8 10.2 13.9 10.8 11.9 9.1 10.6 11.2 10.4\"/><path class=\"p4\" d=\"M9.500 15.500h5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 900,
+      "origin": "left"
+    }
+  ]
+}

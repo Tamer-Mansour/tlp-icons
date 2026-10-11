@@ -1,0 +1,39 @@
+{
+  "name": "settlement",
+  "category": "legal",
+  "tags": [
+    "settlement",
+    "agreement",
+    "deal",
+    "compromise",
+    "overlap",
+    "resolve"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"12\" r=\"6.5\"/><circle class=\"p2\" cx=\"15.5\" cy=\"12\" r=\"6.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\".5\"/>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "nudge",
+      "dur": 1000,
+      "delay": 700
+    },
+    {
+      "part": "p2",
+      "anim": "nudgeBack",
+      "dur": 1000,
+      "delay": 700
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 1300
+    }
+  ]
+}

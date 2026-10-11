@@ -1,0 +1,33 @@
+{
+  "name": "parole",
+  "category": "legal",
+  "tags": [
+    "parole",
+    "release",
+    "early release",
+    "open door",
+    "freedom"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 5l9-2.500v19L3 19z\"/><g class=\"p2\"><path d=\"M6 6.800v11\"/><path d=\"M9 5.800v13.200\"/></g><path class=\"p3\" d=\"M14.500 12h6.500m-3-3 3 3-3 3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 300,
+      "origin": "top"
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 700
+    }
+  ]
+}

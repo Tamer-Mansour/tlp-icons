@@ -1,0 +1,32 @@
+{
+  "name": "hospital-bed",
+  "category": "health",
+  "tags": [
+    "hospital",
+    "bed",
+    "patient",
+    "ward",
+    "care"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 13h13a2 2 0 0 1 2 2v2H6z\"/><g class=\"p2\"><path d=\"M3 6v14\"/><path d=\"M3 17h18\"/><path d=\"M21 17v3\"/></g><g class=\"p3\"><path d=\"M15 3v4\"/><path d=\"M13 5h4\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

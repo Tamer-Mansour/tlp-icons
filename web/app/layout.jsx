@@ -20,7 +20,7 @@ export const viewport = { themeColor: '#4f46e5' };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" dir="ltr">
+    <html lang="en" dir="ltr" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body>
         <Header />
         <main>{children}</main>
