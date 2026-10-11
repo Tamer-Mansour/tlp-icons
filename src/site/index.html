@@ -44,6 +44,10 @@ header.top{position:sticky;top:0;z-index:30;background:rgba(246,247,251,.88);bac
 .toggle{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);font-weight:500;font-size:12px;color:var(--ink-2);cursor:pointer;transition:all .15s;white-space:nowrap}
 .toggle[aria-pressed=true]{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,white);color:var(--accent)}
 .toggle tlp-icon{--tlp-size:15px;--tlp-stroke:2}
+a.toggle{text-decoration:none}
+.toggle.gh{background:var(--ink);border-color:var(--ink);color:#fff}
+.toggle.gh:hover{background:#1e293b}
+.toggle.gh svg{width:15px;height:15px}
 
 .layout{display:grid;grid-template-columns:var(--side) 1fr;gap:0;max-width:1600px;margin:0 auto}
 aside.side{position:sticky;top:63px;align-self:start;height:calc(100vh - 63px);overflow:auto;padding:16px 10px 30px 14px;border-inline-end:1px solid var(--line);scrollbar-width:thin}
@@ -172,6 +176,7 @@ footer{padding:36px 0 10px;color:var(--ink-3);font-size:12px;text-align:center}
       <button class="toggle" id="t-duo" aria-pressed="true">Duotone</button>
       <button class="toggle" id="t-rtl" aria-pressed="false">RTL</button>
       <button class="toggle" id="t-play" aria-pressed="false"><tlp-icon name="play" trigger="none"></tlp-icon>Play all</button>
+      <a class="toggle gh" href="https://github.com/Tamer-Mansour/tlp-icons" target="_blank" rel="noopener" title="tlp-icons on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a>
     </div>
   </div>
 </header>
@@ -472,7 +477,7 @@ footer{padding:36px 0 10px;color:var(--ink-3);font-size:12px;text-align:center}
 
   $('#s-total').textContent = D.icons.length.toLocaleString('en');
   $('#s-cats').textContent = D.categories.length;
-  $('#foot').innerHTML = 'tlp-icons ' + esc(D.version) + ' · MIT · Icons from ' + Object.keys(D.sources).map(function (k) { var s = D.sources[k]; return '<a href="' + esc(s.homepage) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a> ' + esc(s.version) + ' (' + esc(s.license) + ')'; }).join(' and ') + '.';
+  $('#foot').innerHTML = 'tlp-icons ' + esc(D.version) + ' · MIT · Icons from ' + Object.keys(D.sources).map(function (k) { var s = D.sources[k]; return '<a href="' + esc(s.homepage) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a> ' + esc(s.version) + ' (' + esc(s.license) + ')'; }).join(' and ') + '. · <a href="https://github.com/Tamer-Mansour/tlp-icons" target="_blank" rel="noopener">Source on GitHub</a>';
   render();
 })();
 </script>
