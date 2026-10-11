@@ -14,10 +14,31 @@
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "element": ["./dist/tlp-icon.d.ts"],
+      "tlp-icon.js": ["./dist/tlp-icon.d.ts"],
+      "jsx": ["./dist/jsx.d.ts"]
+    }
+  },
   "exports": {
-    ".": "./dist/index.js",
-    "./element": "./dist/tlp-icon.js",
-    "./tlp-icon.js": "./dist/tlp-icon.js",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./element": {
+      "types": "./dist/tlp-icon.d.ts",
+      "default": "./dist/tlp-icon.js"
+    },
+    "./tlp-icon.js": {
+      "types": "./dist/tlp-icon.d.ts",
+      "default": "./dist/tlp-icon.js"
+    },
+    "./jsx": {
+      "types": "./dist/jsx.d.ts",
+      "default": "./dist/jsx.js"
+    },
     "./css": "./dist/tlp-icons.css",
     "./tlp-icons.css": "./dist/tlp-icons.css",
     "./data": "./dist/tlp-icons.json",
@@ -63,5 +84,9 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
   }
 }

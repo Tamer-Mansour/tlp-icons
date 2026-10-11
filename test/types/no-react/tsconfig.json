@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["es2022", "dom"],
+    "skipLibCheck": false,
+    "types": [],
+    "paths": { "react": ["./__react_is_not_installed__"] }
+  },
+  "include": ["*.ts"]
+}
