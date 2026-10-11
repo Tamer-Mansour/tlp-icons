@@ -19,6 +19,4 @@ const index = {
 };
 fs.mkdirSync(path.join(WEB, 'public'), { recursive: true });
 fs.writeFileSync(path.join(WEB, 'public', 'search.json'), JSON.stringify(index));
-const og = path.join(WEB, '..', 'src', 'site', 'og-image.png');
-if (fs.existsSync(og)) fs.copyFileSync(og, path.join(WEB, 'public', 'og-image.png'));
 console.log(`search index: ${index.icons.length} icons`);

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tlp-icons.netlify.app"><img src="src/site/favicon.svg" width="88" height="88" alt="tlp-icons logo"></a>
+  <a href="https://tlp-icons.netlify.app"><img src="web/public/favicon.svg" width="88" height="88" alt="tlp-icons logo"></a>
 </p>
 
 <h1 align="center">tlp-icons</h1>
@@ -167,20 +167,21 @@ node scripts/serve.mjs         # serve web/out on http://localhost:4321
 ```
 
 Netlify runs the same steps (see `netlify.toml`) and publishes `web/out` on every push to `main`.
+For a manual deploy, drag the `web/out` folder onto the site's **Deploys** tab in Netlify.
 
-**Offline gallery:** `site/index.html` is a single-page version that opens straight from disk, with no server
-and no internet.
+**Offline use:** `dist/tlp-icons.all.js` is a single classic script with every icon; it works from `file://`
+with no server and no internet.
 
 ## How it works
 
 ```
 npm run sync    online:  latest Lucide + Tabler -> normalised snapshot in upstream/ -> build
-npm run build   offline: upstream/ + config/ + overrides/ -> dist/ (library) + site/ (gallery)
+npm run build   offline: upstream/ + config/ + overrides/ + originals/ -> dist/ (library)
 npm test        offline: node:test suite (data, motion, keyframes, build idempotency)
 npm run test:browser   optional Playwright tests + frame strips (npm run setup:browser once)
 ```
 
-- `config/sources.json`: upstream versions (written by sync). Brand logos are off.
+- `config/sources.json`: upstream versions (written by sync). Brand logos are on (`includeBrands`).
 - `config/categories.json`: the taxonomy, plus explicit mapping tables for every upstream category, name patterns
   and the featured order.
 - `config/rules.json`: keyword → motion recipe. Data, not code.

@@ -30,7 +30,6 @@ test('build is offline and idempotent: two fresh builds give identical output, e
     execFileSync(process.execPath, [path.join(ROOT, 'scripts', 'build.mjs'), '--out', b], { env: envNoNet, stdio: 'pipe' });
     const ha = hashTree(path.join(a, 'dist')), hb = hashTree(path.join(b, 'dist'));
     assert.deepEqual(ha, hb);
-    assert.deepEqual(hashTree(path.join(a, 'site')), hashTree(path.join(b, 'site')));
     const committed = hashTree(path.join(ROOT, 'dist'));
     delete committed['svg'];
     for (const k of Object.keys(committed)) if (k.startsWith('svg/')) delete committed[k];

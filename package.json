@@ -52,7 +52,7 @@
     "prepublishOnly": "node scripts/build.mjs",
     "test:browser": "node test/browser/run.mjs",
     "setup:browser": "node scripts/setup-browser.mjs",
-    "dev": "node scripts/serve.mjs"
+    "dev": "npm --prefix web run dev"
   },
   "engines": {
     "node": ">=20"

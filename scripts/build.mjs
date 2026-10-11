@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Offline build: upstream/ snapshot + config + overrides -> dist/ (library) and site/ (gallery).
+// Offline build: upstream/ snapshot + config + overrides + originals -> dist/ (the library).
+// The website lives in web/ (Next.js) and consumes dist/ through the tlp-icons package.
 //   node scripts/build.mjs [--out <dir>] [--svg]
 import fs from 'node:fs';
 import path from 'node:path';
@@ -15,7 +16,6 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const argv = process.argv.slice(2);
 const outRoot = argv.includes('--out') ? path.resolve(argv[argv.indexOf('--out') + 1]) : ROOT;
 const DIST = path.join(outRoot, 'dist');
-const SITE = path.join(outRoot, 'site');
 const writeSvgFiles = argv.includes('--svg');
 const pkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
 const readJson = p => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
@@ -183,7 +183,6 @@ for (const c of categories) {
 const rm = d => fs.rmSync(d, { recursive: true, force: true });
 rm(path.join(DIST, 'icons'));
 fs.mkdirSync(path.join(DIST, 'icons'), { recursive: true });
-fs.mkdirSync(SITE, { recursive: true });
 
 const sourceMeta = Object.fromEntries(snapshots.map(s => [s.source, { title: s.title, license: s.license, homepage: s.homepage, repository: s.repository, npm: s.npm, version: s.version }]));
 if (originals.size) sourceMeta.tlp = { title: ORIGINALS_META.title, license: ORIGINALS_META.license, homepage: ORIGINALS_META.homepage, repository: ORIGINALS_META.repository, npm: ORIGINALS_META.npm, version: ORIGINALS_META.version };
@@ -265,15 +264,8 @@ if (writeSvgFiles) {
   for (const i of ordered) fs.writeFileSync(path.join(dir, `${i.name}.svg`), toSvgString(i, {}));
 }
 
-// ------------------------------------------------------------------ site
-const siteData = {
-  version: pkg.version, speed: SPEED, sources: sourceMeta, categories: catMeta, aliases: aliasMap,
-  icons: ordered.map(i => ({ n: i.name, c: i.category, s: i.source, t: i.tags.join(' '), svg: i.svg, m: i.m, ...(i.rtl ? { r: 1 } : {}), u: i.rule })),
-};
-fs.writeFileSync(path.join(SITE, 'data.js'), `${header}window.TLP_DATA = ${JSON.stringify(siteData)};\n`);
-fs.writeFileSync(path.join(SITE, 'tlp-icons.runtime.js'), header + runtime.iife);
-const tpl = path.join(ROOT, 'src', 'site');
-if (fs.existsSync(tpl)) for (const f of fs.readdirSync(tpl)) fs.copyFileSync(path.join(tpl, f), path.join(SITE, f));
+// which engine rule (or override / original) produced each icon's motion - used by the review tools
+fs.writeFileSync(path.join(DIST, 'motion-rules.json'), `${JSON.stringify(Object.fromEntries(ordered.map(i => [i.name, i.rule])))}\n`);
 
 // ------------------------------------------------------------------ report
 const report = {
