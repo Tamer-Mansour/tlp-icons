@@ -151,6 +151,30 @@ icons.bell;                                    // { svg, m: [[part, anim, dur, d
 
 Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loads one category chunk at a time.
 
+**One category only:** import a category chunk directly and skip the manifest entirely:
+
+```js
+import legal from 'tlp-icons/icons/legal.js';   // { 'courthouse': { svg, m }, ... }
+import { register } from 'tlp-icons/element';
+register(legal);                                // <tlp-icon name="courthouse"> now renders with no lookup
+```
+
+### Full dataset: `tlp-icons-data`
+
+Every icon's SVG, motion, category, tags and source in one JSON file (3.4 MB) ships as a separate package, so
+`npm install tlp-icons` stays small:
+
+```bash
+npm install tlp-icons-data
+```
+
+```js
+import data from 'tlp-icons-data' with { type: 'json' };   // bundlers: import data from 'tlp-icons-data'
+data.icons.bell;        // { category, source, tags, svg, m }
+```
+
+It replaces the old `tlp-icons/data` export (removed in 0.2.0). Typed (`TlpIconsData`).
+
 ## Website
 
 **https://tlp-icons.netlify.app** is built with **Next.js (React)** in `web/` and runs on the **published npm

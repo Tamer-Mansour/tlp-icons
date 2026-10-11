@@ -5,6 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { dataFile } from '../lib/data-file.mjs';
 
 const WEB = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(WEB, 'out');
@@ -13,7 +14,7 @@ const SITE = 'https://tlp-icons.netlify.app';
 const REPO = 'https://github.com/Tamer-Mansour/tlp-icons';
 const SPEED = 0.6;
 
-const D = JSON.parse(fs.readFileSync(path.join(PKG, 'tlp-icons.json'), 'utf8'));
+const D = JSON.parse(fs.readFileSync(dataFile(WEB), 'utf8'));
 const names = Object.keys(D.icons);
 const cats = Object.fromEntries(D.categories.map(c => [c.id, c]));
 const byCat = {};

@@ -1,14 +1,14 @@
 // Server-side access to the tlp-icons package data (used at build time for static pages).
 import fs from 'node:fs';
 import path from 'node:path';
+import { dataFile } from './data-file.mjs';
 
 export { SITE_URL, REPO_URL } from './site';
 
 let cache = null;
 function load() {
   if (cache) return cache;
-  const file = path.join(process.cwd(), 'node_modules', 'tlp-icons', 'dist', 'tlp-icons.json');
-  const D = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const D = JSON.parse(fs.readFileSync(dataFile(), 'utf8'));
   const names = Object.keys(D.icons);
   const byCat = {};
   for (const n of names) (byCat[D.icons[n].category] ||= []).push(n);

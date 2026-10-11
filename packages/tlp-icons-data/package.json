@@ -1,0 +1,43 @@
+{
+  "name": "tlp-icons-data",
+  "version": "0.1.1",
+  "description": "All tlp-icons data in one JSON file: every icon's SVG, motion, category, tags and source. For build tools, design tools and custom renderers.",
+  "license": "MIT",
+  "homepage": "https://tlp-icons.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamer-Mansour/tlp-icons.git",
+    "directory": "packages/tlp-icons-data"
+  },
+  "bugs": {
+    "url": "https://github.com/Tamer-Mansour/tlp-icons/issues"
+  },
+  "type": "module",
+  "main": "./tlp-icons.json",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./tlp-icons.json"
+    },
+    "./tlp-icons.json": {
+      "types": "./index.d.ts",
+      "default": "./tlp-icons.json"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "tlp-icons.json",
+    "index.d.ts",
+    "LICENSE",
+    "NOTICE.md",
+    "licenses"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-data",
+    "tlp-icons"
+  ]
+}

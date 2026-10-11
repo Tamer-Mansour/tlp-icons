@@ -221,6 +221,15 @@ const fullData = {
 };
 fs.writeFileSync(path.join(DIST, 'tlp-icons.json'), `${JSON.stringify(fullData)}\n`);
 
+// the JSON ships in its own package (tlp-icons-data) so `npm install tlp-icons` stays small
+if (outRoot === ROOT) {
+  const dataPkg = path.join(ROOT, 'packages', 'tlp-icons-data');
+  fs.copyFileSync(path.join(DIST, 'tlp-icons.json'), path.join(dataPkg, 'tlp-icons.json'));
+  for (const f of ['LICENSE', 'NOTICE.md']) fs.copyFileSync(path.join(ROOT, f), path.join(dataPkg, f));
+  fs.rmSync(path.join(dataPkg, 'licenses'), { recursive: true, force: true });
+  fs.cpSync(path.join(ROOT, 'licenses'), path.join(dataPkg, 'licenses'), { recursive: true });
+}
+
 // runtime files
 const css = fs.readFileSync(path.join(ROOT, 'src', 'runtime', 'tlp-icons.css'), 'utf8');
 const runtime = bundleRuntime(ROOT, css);
