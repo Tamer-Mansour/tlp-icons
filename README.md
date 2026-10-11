@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tlp-icons.netlify.app"><img src="web/public/favicon.svg" width="88" height="88" alt="tlp-icons logo"></a>
+  <a href="https://tlp-icons.netlify.app"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/web/public/favicon.svg" width="88" height="88" alt="tlp-icons logo"></a>
 </p>
 
 <h1 align="center">tlp-icons</h1>
@@ -9,7 +9,7 @@
   <a href="https://tlp-icons.netlify.app/icons/"><b>Browse the icons</b></a> ·
   <a href="https://tlp-icons.netlify.app/docs/"><b>Documentation</b></a> ·
   <a href="https://tlp-icons.netlify.app/categories/brands/">Brands</a> ·
-  <a href="ROADMAP.md">Roadmap</a> ·
+  <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md">Roadmap</a> ·
   <a href="https://github.com/Tamer-Mansour/tlp-icons">GitHub</a>
 </p>
 
@@ -25,18 +25,18 @@ our own **tlp originals**, sorted into 35 hand-curated categories, including **3
 Instagram, WhatsApp, X, TikTok, YouTube...). Every single one moves on hover: clock hands sweep around the face,
 gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
 
-[![Gallery](docs/gallery.png)](https://tlp-icons.netlify.app)
+[![Gallery](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/gallery.png)](https://tlp-icons.netlify.app)
 
 <details>
 <summary>Motion frames (each row is one hover animation frozen at 10 points)</summary>
 
-![Frame strips](docs/frame-strips.png)
+![Frame strips](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/frame-strips.png)
 </details>
 
 - **6,489 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
 - **100% animated**: 300+ hand-made choreographies, plus a motion engine that reads each icon's geometry.
 - **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to 59 first; the
-  [roadmap](ROADMAP.md) takes it to 1,180 and the whole library to 26,000.
+  [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes it to 1,180 and the whole library to 26,000.
 - **Brand logos**: 376 brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
 - **Lazy**: icons load per category, so a page that uses 10 icons doesn't download 6,000.
@@ -213,7 +213,7 @@ Every motion is small and springy and ends exactly at rest. The default `speed` 
 ## Contributing
 
 - New icon: add `originals/<name>.json` (24×24, 2px stroke, round caps, parts `p1`..`p4`, `motion` steps).
-  Pick one from the planned lists in [ROADMAP.md](ROADMAP.md). Check it with
+  Pick one from the planned lists in [ROADMAP.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md). Check it with
   `node scripts/sheet.mjs review <name>` and `node scripts/strips.mjs review <name>` (images in `test/browser/shots/`).
 - Better motion for one icon: add `overrides/<name>.json` with the SVG retagged into parts (`class="p1"`...)
   and its `motion` steps. See any existing override.
@@ -226,6 +226,6 @@ The GitHub Actions (CI and upstream sync) are manual: run them from the Actions 
 ## License
 
 MIT © tlp-icons contributors. Icon geometry from [Lucide](https://lucide.dev) (ISC) and
-[Tabler Icons](https://tabler.io/icons) (MIT), plus tlp originals (MIT). See [NOTICE.md](NOTICE.md) and `licenses/`.
+[Tabler Icons](https://tabler.io/icons) (MIT), plus tlp originals (MIT). See [NOTICE.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/NOTICE.md) and `licenses/`.
 
 Brand logos are trademarks of their respective owners and are included only to identify their products.
