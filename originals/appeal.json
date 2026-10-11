@@ -1,0 +1,39 @@
+{
+  "name": "appeal",
+  "category": "legal",
+  "tags": [
+    "appeal",
+    "higher court",
+    "escalate",
+    "review",
+    "court",
+    "arrow up"
+  ],
+  "svg": "<g class=\"p3\"><path class=\"d p1\" d=\"M10 8.5 16 4.5l6 4z\"/><path d=\"M12 11v6\"/><path d=\"M16 11v6\"/><path d=\"M20 11v6\"/><path d=\"M10 20h12\"/></g><g class=\"p2\"><g class=\"p4\"><path d=\"M5 20V8\"/><path d=\"m2 11 3-3 3 3\"/></g></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p4",
+      "anim": "lift",
+      "dur": 900,
+      "delay": 1000
+    }
+  ]
+}

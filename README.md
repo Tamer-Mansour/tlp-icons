@@ -6,21 +6,24 @@
 
 <p align="center">
   <b>Every icon, animated.</b><br>
-  <a href="https://tlp-icons.netlify.app"><b>Browse the icons</b></a> ·
-  <a href="https://tlp-icons.netlify.app/docs.html"><b>Documentation</b></a> ·
+  <a href="https://tlp-icons.netlify.app/icons/"><b>Browse the icons</b></a> ·
+  <a href="https://tlp-icons.netlify.app/docs/"><b>Documentation</b></a> ·
+  <a href="https://tlp-icons.netlify.app/categories/brands/">Brands</a> ·
+  <a href="ROADMAP.md">Roadmap</a> ·
   <a href="https://github.com/Tamer-Mansour/tlp-icons">GitHub</a>
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-6%2C067-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-6%2C489-4f46e5">
   <img alt="animated" src="https://img.shields.io/badge/animated-100%25-4f46e5">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-16a34a">
   <img alt="dependencies" src="https://img.shields.io/badge/dependencies-0-0ea5e9">
 </p>
 
-A free, open-source (MIT) library of 6,000+ stroke icons, built from the best free sets (Lucide and Tabler)
-and sorted into 34 hand-curated categories. Every single one moves on hover: clock hands sweep around the
-face, gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
+A free, open-source (MIT) library of 6,489 stroke icons, built from the best free sets (Lucide and Tabler) plus
+our own **tlp originals**, sorted into 35 hand-curated categories, including **376 brand logos** (Facebook,
+Instagram, WhatsApp, X, TikTok, YouTube...). Every single one moves on hover: clock hands sweep around the face,
+gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
 
 [![Gallery](docs/gallery.png)](https://tlp-icons.netlify.app)
 
@@ -30,8 +33,11 @@ face, gears spin on their axle, bells swing from the top, trash lids lift, arrow
 ![Frame strips](docs/frame-strips.png)
 </details>
 
-- **6,067 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
-- **100% animated**: 260+ hand-made choreographies, plus a motion engine that reads each icon's geometry.
+- **6,489 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
+- **100% animated**: 300+ hand-made choreographies, plus a motion engine that reads each icon's geometry.
+- **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to 59 first; the
+  [roadmap](ROADMAP.md) takes it to 1,180 and the whole library to 26,000.
+- **Brand logos**: 376 brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
 - **Lazy**: icons load per category, so a page that uses 10 icons doesn't download 6,000.
 - **Polite motion**: plays once to the end, never animates a whole card at once, respects `prefers-reduced-motion`.
@@ -139,22 +145,31 @@ Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loa
 
 ## Website
 
-| Page | Live | Local file |
-| --- | --- | --- |
-| Icon gallery | **https://tlp-icons.netlify.app** | `site/index.html` |
-| Documentation & usage | **https://tlp-icons.netlify.app/docs.html** | `site/docs.html` |
+**https://tlp-icons.netlify.app** is built with **Next.js (React)** in `web/` and uses this package itself
+(`"tlp-icons": "file:.."`). Every page is pre-rendered static HTML for search engines:
 
-Both pages open straight from disk with no server or internet, or run `npm run dev` and visit
-`http://localhost:5173`. Netlify publishes the `site/` folder as it is (see `netlify.toml`); every push to `main`
-updates it.
+| Page | URL |
+| --- | --- |
+| Home | `/` |
+| Icon gallery (search, filters, size / stroke / color / duotone) | `/icons/` |
+| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (6,489 pages) |
+| Categories, one page each, including Brands | `/categories/`, `/categories/<id>/` |
+| Documentation with live examples and the animation library | `/docs/` |
+| Roadmap with live progress | `/roadmap/` |
+| `sitemap.xml`, `robots.txt`, Open Graph image | |
 
-The documentation page covers installation, every attribute with live examples, React / Angular / Vue / Svelte
-setup, styling, the hover rule, the JavaScript API, all 34 animations (hover to preview), accessibility, RTL,
-custom choreographies and building from source.
+```bash
+npm run build                  # the library (repository root)
+cd web && npm install
+npm run dev                    # http://localhost:3000
+npm run build                  # static site in web/out (about 270 MB, 6,700 files)
+node scripts/serve.mjs         # serve web/out on http://localhost:4321
+```
 
-The gallery has a category sidebar, instant search over names and tags, size/stroke/color/duotone controls, an RTL toggle,
-and play / loop per category. The detail drawer shows a large preview, a size strip, button mockups, the motion
-steps, and copy buttons for SVG, HTML, React, Angular and Vue.
+Netlify runs the same steps (see `netlify.toml`) and publishes `web/out` on every push to `main`.
+
+**Offline gallery:** `site/index.html` is a single-page version that opens straight from disk, with no server
+and no internet.
 
 ## How it works
 
@@ -170,6 +185,9 @@ npm run test:browser   optional Playwright tests + frame strips (npm run setup:b
   and the featured order.
 - `config/rules.json`: keyword → motion recipe. Data, not code.
 - `overrides/<name>.json`: hand choreographies. These always win over the engine.
+- `originals/<name>.json`: **tlp originals**, icons we draw ourselves (with their category, tags and motion).
+- `config/roadmap.json`: per-category goals and planned icon lists → `ROADMAP.md` (`node scripts/roadmap.mjs`)
+  and the `/roadmap/` page.
 - `scripts/adapters/`: one adapter per icon source (`latest`, `fetch`, `load`). Add a set by adding an adapter.
 - `scripts/engine/`: SVG parsing, geometry, the motion engine and serialisation.
 - `src/runtime/`: `core.js` (registry, baking, run engine, hover rule), `element.js` (`<tlp-icon>`) and
@@ -193,6 +211,9 @@ Every motion is small and springy and ends exactly at rest. The default `speed` 
 
 ## Contributing
 
+- New icon: add `originals/<name>.json` (24×24, 2px stroke, round caps, parts `p1`..`p4`, `motion` steps).
+  Pick one from the planned lists in [ROADMAP.md](ROADMAP.md). Check it with
+  `node scripts/sheet.mjs review <name>` and `node scripts/strips.mjs review <name>` (images in `test/browser/shots/`).
 - Better motion for one icon: add `overrides/<name>.json` with the SVG retagged into parts (`class="p1"`...)
   and its `motion` steps. See any existing override.
 - Better motion for many icons: add or adjust a rule in `config/rules.json`.
@@ -204,4 +225,6 @@ The GitHub Actions (CI and upstream sync) are manual: run them from the Actions 
 ## License
 
 MIT © tlp-icons contributors. Icon geometry from [Lucide](https://lucide.dev) (ISC) and
-[Tabler Icons](https://tabler.io/icons) (MIT). See [NOTICE.md](NOTICE.md) and `licenses/`.
+[Tabler Icons](https://tabler.io/icons) (MIT), plus tlp originals (MIT). See [NOTICE.md](NOTICE.md) and `licenses/`.
+
+Brand logos are trademarks of their respective owners and are included only to identify their products.

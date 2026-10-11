@@ -20,7 +20,7 @@ function hashTree(dir) {
   return out;
 }
 
-test('build is offline and idempotent: two builds give identical output, equal to the committed dist/', { timeout: 120000 }, () => {
+test('build is offline and idempotent: two fresh builds give identical output, equal to dist/', { timeout: 120000 }, () => {
   const a = fs.mkdtempSync(path.join(os.tmpdir(), 'tlp-a-'));
   const b = fs.mkdtempSync(path.join(os.tmpdir(), 'tlp-b-'));
   try {
@@ -34,7 +34,7 @@ test('build is offline and idempotent: two builds give identical output, equal t
     const committed = hashTree(path.join(ROOT, 'dist'));
     delete committed['svg'];
     for (const k of Object.keys(committed)) if (k.startsWith('svg/')) delete committed[k];
-    assert.deepEqual(committed, ha, 'dist/ is stale - run "npm run build"');
+    assert.deepEqual(committed, ha, 'dist/ differs from a fresh build - run "npm run build"');
   } finally {
     fs.rmSync(a, { recursive: true, force: true });
     fs.rmSync(b, { recursive: true, force: true });

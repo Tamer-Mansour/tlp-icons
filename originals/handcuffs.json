@@ -1,0 +1,18 @@
+{
+  "name": "handcuffs",
+  "category": "legal",
+  "tags": [
+    "handcuffs",
+    "arrest",
+    "detained",
+    "police",
+    "custody",
+    "crime"
+  ],
+  "svg": "<circle class=\"d\" cx=\"6.5\" cy=\"16.5\" r=\"4\"/><rect x=\"5.5\" y=\"9\" width=\"4.5\" height=\"4\" rx=\"1\"/><g class=\"p3\"><path d=\"M8.25 9 9.2 6.6\"/><ellipse cx=\"10.6\" cy=\"5.5\" rx=\"1.6\" ry=\"1.1\"/><ellipse cx=\"13.4\" cy=\"5.5\" rx=\"1.6\" ry=\"1.1\"/><path d=\"M15.75 9 14.8 6.6\"/></g><g class=\"p2\"><rect x=\"14\" y=\"9\" width=\"4.5\" height=\"4\" rx=\"1\"/><circle class=\"d\" cx=\"17.5\" cy=\"16.5\" r=\"4\"/></g>",
+  "motion": [
+    { "part": "all", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "stretch", "dur": 700, "delay": 450 },
+    { "part": "p2", "anim": "swing", "dur": 1300, "delay": 550, "origin": "15.75px 9px" }
+  ]
+}

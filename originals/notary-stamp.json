@@ -1,0 +1,33 @@
+{
+  "name": "notary-stamp",
+  "category": "legal",
+  "tags": [
+    "notary",
+    "stamp",
+    "notarize",
+    "certify",
+    "seal",
+    "approve"
+  ],
+  "svg": "<g class=\"p2\"><circle cx=\"12\" cy=\"4.5\" r=\"2\"/><path d=\"M12 6.5v3\"/><rect class=\"d\" x=\"6.5\" y=\"9.5\" width=\"11\" height=\"4\" rx=\"1\"/></g><path class=\"d p4\" d=\"M3 21l1.5-3h15l1.5 3z\"/><path class=\"p3\" d=\"M9 19.5h6\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sink",
+      "dur": 1000,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 750
+    }
+  ]
+}

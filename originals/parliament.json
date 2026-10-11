@@ -1,0 +1,41 @@
+{
+  "name": "parliament",
+  "category": "legal",
+  "tags": [
+    "parliament",
+    "congress",
+    "senate",
+    "capitol",
+    "legislature",
+    "government"
+  ],
+  "svg": "<g class=\"p4\"><path class=\"d p1\" d=\"M7 10.5a5 5 0 0 1 10 0z\"/></g><path class=\"p4\" d=\"M12 5.5V2\"/><path class=\"p3\" d=\"M12 2h3.5l-1 1.25 1 1.25H12\"/><path class=\"p4\" d=\"M4 12.5h16\"/><g class=\"p2\"><path d=\"M6.5 15v4\"/><path d=\"M10 15v4\"/><path d=\"M14 15v4\"/><path d=\"M17.5 15v4\"/></g><path class=\"p4\" d=\"M3 21h18\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 350,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "wiggle",
+      "dur": 1200,
+      "delay": 700,
+      "origin": "12px 3.25px"
+    }
+  ]
+}

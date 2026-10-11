@@ -141,6 +141,47 @@ test('brand logos are excluded unless enabled', () => {
   assert.ok(!D.categories.some(c => c.id === 'brands'));
 });
 
+test('tlp originals: valid category, unique names, hand-made motion, no forbidden words', () => {
+  const dir = path.join(ROOT, 'originals');
+  if (!fs.existsSync(dir)) return;
+  const upstream = new Set();
+  for (const id of Object.keys(readJson('config/sources.json'))) for (const i of readJson(`upstream/${id}.json`).icons) upstream.add(i.name);
+  const ids = new Set(D.categories.map(c => c.id));
+  for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.json') && !f.startsWith('_'))) {
+    const raw = fs.readFileSync(path.join(dir, f), 'utf8');
+    const o = JSON.parse(raw);
+    assert.equal(o.name, f.slice(0, -5), `${f}: name must match the file name`);
+    assert.ok(!upstream.has(o.name), `${o.name} clashes with an upstream icon`);
+    assert.ok(ids.has(o.category), `${o.name}: unknown category ${o.category}`);
+    assert.ok(Array.isArray(o.tags) && o.tags.length, `${o.name}: needs tags`);
+    assert.ok(o.motion.length >= 1, `${o.name}: needs motion`);
+    assert.ok(!/mezan|mizan/i.test(raw), `${o.name}: forbidden word`);
+    assert.equal(D.icons[o.name]?.source, 'tlp');
+  }
+});
+
+test('roadmap covers every category with a target at or above today', () => {
+  const rm = readJson('config/roadmap.json');
+  const ids = new Set(D.categories.map(c => c.id));
+  for (const c of D.categories) {
+    assert.ok(rm.categories[c.id], `roadmap misses ${c.id}`);
+    assert.ok(rm.categories[c.id].target >= c.count, `${c.id}: target ${rm.categories[c.id].target} < current ${c.count}`);
+  }
+  for (const id of Object.keys(rm.categories)) assert.ok(ids.has(id), `roadmap has unknown category ${id}`);
+  const sum = Object.values(rm.categories).reduce((a, c) => a + c.target, 0);
+  assert.equal(rm.goal.total, sum, 'goal.total must equal the sum of category targets');
+  assert.ok(rm.categories.legal.target >= 1000);
+});
+
+test('brands: the most used logos come first and all brand icons are in Brands', () => {
+  const sources = readJson('config/sources.json');
+  if (!sources.tabler?.includeBrands) return;
+  const brands = names.filter(n => D.icons[n].category === 'brands');
+  assert.ok(brands.length > 300);
+  assert.deepEqual(brands.slice(0, 3), ['brand-facebook', 'brand-instagram', 'brand-whatsapp']);
+  assert.ok(names.filter(n => n.startsWith('brand-')).every(n => D.icons[n].category === 'brands'));
+});
+
 test('siblings sit next to each other (arrow-up/down/left/right)', () => {
   const order = names.filter(n => D.icons[n].category === 'arrows');
   const idx = ['arrow-up', 'arrow-down', 'arrow-left', 'arrow-right'].map(n => order.indexOf(n));

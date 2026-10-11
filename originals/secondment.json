@@ -1,0 +1,33 @@
+{
+  "name": "secondment",
+  "category": "people",
+  "tags": [
+    "secondment",
+    "transfer",
+    "assignment",
+    "relocate",
+    "employee",
+    "user"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p3\" d=\"M2 21v-2a4 4 0 0 1 4-4h6\"/><g class=\"p2\"><path d=\"M15 18h7\"/><path d=\"m19 15 3 3-3 3\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "nudge",
+      "dur": 1100,
+      "delay": 550
+    }
+  ]
+}

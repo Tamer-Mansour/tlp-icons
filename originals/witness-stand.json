@@ -1,0 +1,40 @@
+{
+  "name": "witness-stand",
+  "category": "legal",
+  "tags": [
+    "witness",
+    "testimony",
+    "stand",
+    "hearing",
+    "court",
+    "podium"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6.5\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M2.5 20v-2.5a4 4 0 0 1 8 0V20\"/><rect class=\"d p3\" x=\"13\" y=\"4\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p4\" d=\"m15 20 2-6 2 6\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "swing",
+      "dur": 1100,
+      "delay": 350,
+      "origin": "17px 4px"
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 550
+    }
+  ]
+}

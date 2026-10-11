@@ -1,0 +1,41 @@
+{
+  "name": "law-book",
+  "category": "legal",
+  "tags": [
+    "law book",
+    "legislation",
+    "statute",
+    "code",
+    "book",
+    "scales",
+    "legal"
+  ],
+  "svg": "<g class=\"p4\"><path class=\"d p1\" d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\"/></g><path class=\"p3\" d=\"M13 6v7\"/><path class=\"p3\" d=\"M11.5 13h3\"/><g class=\"p2\"><path d=\"M9.5 7h7\"/><path d=\"M9.5 7 8 10.5h3z\"/><path d=\"M16.5 7 15 10.5h3z\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 1300,
+      "delay": 700,
+      "origin": "13px 7px"
+    }
+  ]
+}

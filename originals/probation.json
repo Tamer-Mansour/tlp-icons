@@ -1,0 +1,40 @@
+{
+  "name": "probation",
+  "category": "legal",
+  "tags": [
+    "probation",
+    "parole",
+    "sentence",
+    "time",
+    "person",
+    "supervision"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p3\" d=\"M2 21v-2a4 4 0 0 1 4-4h5\"/><circle class=\"d p4\" cx=\"17\" cy=\"17\" r=\"5\"/><path class=\"p2\" d=\"M17 14.5V17l1.5 1\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 250
+    },
+    {
+      "part": "p2",
+      "anim": "sweep",
+      "dur": 1500,
+      "delay": 500,
+      "origin": "17px 17px"
+    }
+  ]
+}

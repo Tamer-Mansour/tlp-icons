@@ -1,0 +1,33 @@
+{
+  "name": "subpoena",
+  "category": "legal",
+  "tags": [
+    "subpoena",
+    "summons",
+    "court notice",
+    "letter",
+    "envelope",
+    "seal"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"m2 7 7.86 4.71M22 7l-7.86 4.71\"/><circle class=\"d p3\" cx=\"12\" cy=\"13\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 550
+    }
+  ]
+}

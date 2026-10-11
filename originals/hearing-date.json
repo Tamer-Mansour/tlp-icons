@@ -1,0 +1,34 @@
+{
+  "name": "hearing-date",
+  "category": "legal",
+  "tags": [
+    "hearing",
+    "court date",
+    "session",
+    "schedule",
+    "calendar",
+    "gavel"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M8 2v4M16 2v4M3 10h18\"/><g class=\"p2\"><path class=\"d\" d=\"M10.4 13.4 12.4 11.4l4.2 4.2-2 2z\"/><path d=\"M12.5 15.5 8.5 19.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 100
+    },
+    {
+      "part": "p2",
+      "anim": "strike",
+      "dur": 1100,
+      "delay": 500,
+      "origin": "8.5px 19.5px"
+    }
+  ]
+}

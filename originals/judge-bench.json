@@ -1,0 +1,40 @@
+{
+  "name": "judge-bench",
+  "category": "legal",
+  "tags": [
+    "judge",
+    "bench",
+    "court",
+    "magistrate",
+    "presiding",
+    "tribunal"
+  ],
+  "svg": "<g class=\"p2\"><circle class=\"d p1\" cx=\"12\" cy=\"5.5\" r=\"2.5\"/><path d=\"M7 13v-.5a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v.5\"/></g><g class=\"p3\"><rect class=\"d p4\" x=\"2\" y=\"13\" width=\"20\" height=\"8\" rx=\"1.5\"/></g><path class=\"p3\" d=\"M10 17h4\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p4",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p1",
+      "anim": "nod",
+      "dur": 900,
+      "delay": 1000,
+      "origin": "bottom"
+    }
+  ]
+}

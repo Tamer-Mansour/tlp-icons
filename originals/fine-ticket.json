@@ -1,0 +1,40 @@
+{
+  "name": "fine-ticket",
+  "category": "legal",
+  "tags": [
+    "fine",
+    "ticket",
+    "citation",
+    "penalty",
+    "traffic fine",
+    "violation"
+  ],
+  "svg": "<g class=\"p4\"><path class=\"d p1\" d=\"M5 3.5A1.5 1.5 0 0 1 6.5 2h11A1.5 1.5 0 0 1 19 3.5V21l-2.33-1.5L14.33 21 12 19.5 9.67 21l-2.34-1.5L5 21z\"/></g><path class=\"p2\" d=\"M12 7v5\"/><path class=\"p3\" d=\"M12 15.5h.01\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 600,
+      "delay": 450,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 750
+    }
+  ]
+}

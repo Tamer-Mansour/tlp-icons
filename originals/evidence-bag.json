@@ -1,0 +1,40 @@
+{
+  "name": "evidence-bag",
+  "category": "legal",
+  "tags": [
+    "evidence",
+    "evidence bag",
+    "forensic",
+    "investigation",
+    "exhibit",
+    "crime"
+  ],
+  "svg": "<g class=\"p4\"><path class=\"d p1\" d=\"M4 7h16v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><rect x=\"4\" y=\"2.5\" width=\"16\" height=\"4.5\" rx=\"1\"/></g><rect class=\"p2\" x=\"8\" y=\"11\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M10 14.5h4\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 700,
+      "delay": 450
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 900,
+      "origin": "left"
+    }
+  ]
+}

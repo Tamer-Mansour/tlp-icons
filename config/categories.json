@@ -35,7 +35,7 @@
     { "id": "tools", "title": "Tools & Construction", "icon": "wrench", "color": "#57534e", "featured": ["wrench", "hammer", "screwdriver", "drill", "shovel", "axe", "pickaxe", "construction", "traffic-cone", "toolbox", "paint-roller", "ruler", "hard-hat", "nut", "cog"] },
     { "id": "legal", "title": "Legal & Government", "icon": "scale", "color": "#1e40af", "featured": ["scale", "gavel", "landmark", "stamp", "signature", "file-signature", "badge-check", "certificate", "license", "ballot", "vote"] },
     { "id": "emoji", "title": "Emoji & Symbols", "icon": "smile", "color": "#f59e0b", "featured": ["smile", "laugh", "frown", "meh", "angry", "annoyed", "smile-plus", "heart", "thumbs-up", "thumbs-down", "party-popper", "peace", "yin-yang", "infinity", "copyright", "trademark", "venus", "mars"] },
-    { "id": "brands", "title": "Brands", "icon": "badge", "color": "#64748b", "optional": true, "featured": [] }
+    { "id": "brands", "title": "Brands", "icon": "brand-instagram", "color": "#db2777", "optional": true, "featured": ["brand-facebook", "brand-instagram", "brand-whatsapp", "brand-x", "brand-tiktok", "brand-youtube", "brand-linkedin", "brand-telegram", "brand-snapchat", "brand-threads", "brand-messenger", "brand-pinterest", "brand-reddit", "brand-discord", "brand-slack", "brand-zoom", "brand-teams", "brand-skype", "brand-google", "brand-apple", "brand-windows", "brand-android", "brand-github", "brand-gitlab", "brand-paypal", "brand-visa", "brand-mastercard", "brand-stripe", "brand-amazon", "brand-netflix", "brand-spotify", "brand-figma", "brand-react", "brand-angular", "brand-vue", "brand-nextjs", "brand-tailwind", "brand-javascript", "brand-typescript", "brand-python"] }
   ],
   "icons": {
     "settings": "interface",
@@ -63,7 +63,10 @@
     "school": "buildings",
     "library": "buildings",
     "tent": "maps",
-    "camera": "photography"
+    "camera": "photography",
+    "scale-3d": "design",
+    "scale-outline": "home",
+    "scale-outline-off": "home"
   },
   "patterns": [
     ["^brand-", "brands"],

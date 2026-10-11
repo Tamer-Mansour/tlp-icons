@@ -1,0 +1,33 @@
+{
+  "name": "delegation",
+  "category": "people",
+  "tags": [
+    "delegate",
+    "delegation",
+    "handover",
+    "assign",
+    "transfer",
+    "proxy"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"7\" r=\"3\"/><circle class=\"d p2\" cx=\"18\" cy=\"7\" r=\"3\"/><g class=\"p3\"><path d=\"M5 17h14\"/><path d=\"m8 14-3 3 3 3\"/><path d=\"m16 14 3 3-3 3\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "stretch",
+      "dur": 1100,
+      "delay": 450
+    }
+  ]
+}

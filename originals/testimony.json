@@ -1,0 +1,39 @@
+{
+  "name": "testimony",
+  "category": "legal",
+  "tags": [
+    "testimony",
+    "statement",
+    "witness",
+    "deposition",
+    "speech",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M2 21v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1\"/><g class=\"p2\"><path class=\"d\" d=\"M14 3h6a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-3l-3 2.5V11a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p4\" d=\"M15 7h.01M17 7h.01M19 7h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 100
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p4",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

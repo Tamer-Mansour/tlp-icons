@@ -1,0 +1,34 @@
+{
+  "name": "police-id",
+  "category": "legal",
+  "tags": [
+    "police id",
+    "officer",
+    "warrant card",
+    "badge",
+    "identity",
+    "law enforcement"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><polygon class=\"p2\" points=\"8 9 8.82 11.07 11.04 11.21 9.33 12.63 9.88 14.79 8 13.6 6.12 14.79 6.67 12.63 4.96 11.21 7.18 11.07\"/><g class=\"p3\"><path d=\"M14 10h4\"/><path d=\"M14 14h4\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 450,
+      "origin": "left"
+    }
+  ]
+}

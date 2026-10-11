@@ -1,0 +1,76 @@
+{
+  "$comment": "Growth plan. 'target' = icons we want in the category; current counts come from the build. 'fields' are sub-topics with planned icon names (seed lists, not limits). Website /roadmap and ROADMAP.md are generated from this file.",
+  "goal": { "total": 26180, "by": "2028" },
+  "principles": [
+    "Every new icon is animated, matches the 24x24 / 2px / round-cap style and passes the test suite.",
+    "Field depth first: a developer building a legal, medical or finance product should find every icon they need in one place.",
+    "Hand-drawn tlp originals for missing concepts; new open-source sets only after license review and owner approval.",
+    "Each release ships a frame-strip review sheet so motion quality is checked by eye, not only by tests."
+  ],
+  "phases": [
+    { "id": "p1", "name": "Foundation", "when": "Q4 2026", "target": 8000, "focus": ["legal", "health", "finance", "brands"], "items": ["Legal field to 150 originals (courts, contracts, police, documents)", "Health to 300: clinical, dental, lab, pharmacy", "Finance to 300: banking, payments, regional currencies", "Brands kept in sync with Tabler"] },
+    { "id": "p2", "name": "Professional fields", "when": "Q1-Q2 2027", "target": 14000, "focus": ["legal", "science", "commerce", "buildings", "vehicles"], "items": ["Legal to 600: case management, procedure, legal entities", "Education & science to 600", "Commerce & logistics to 700", "Government and public services", "Filled style as a second variant (owner decision)"] },
+    { "id": "p3", "name": "Depth everywhere", "when": "Q3 2027 - Q2 2028", "target": 26180, "focus": ["all"], "items": ["Every category at its target (legal 1,180)", "Regional sets: Arabic letters and numerals, regional currencies and IDs", "Icon request board: community votes decide the next batch", "Figma plugin and per-framework wrappers"] }
+  ],
+  "candidateSources": [
+    { "name": "Phosphor Icons", "license": "MIT", "note": "regular weight is close to our style; needs stroke normalisation" },
+    { "name": "Iconoir", "license": "MIT", "note": "24x24 stroke set, 1.5px stroke" },
+    { "name": "Mingcute", "license": "Apache-2.0", "note": "line style, many regional/commerce icons" },
+    { "name": "Tabler filled", "license": "MIT", "note": "for a filled second style" }
+  ],
+  "categories": {
+    "legal": { "target": 1180, "priority": 1, "fields": {
+      "Courts & hearings": ["courthouse", "court-hearing", "judge-bench", "judges-panel", "gavel-strike", "witness-stand", "jury", "court-calendar", "hearing-clock", "courtroom-door", "court-reporter", "verdict", "sentence", "appeal", "retrial", "supreme-court"],
+      "Contracts & documents": ["contract", "contract-signed", "contract-pen", "signature-pen", "notary-stamp", "seal-wax", "power-of-attorney", "will-testament", "affidavit", "deed", "lease-agreement", "nda", "legal-document", "clause", "amendment", "terms-conditions"],
+      "Law enforcement": ["police-officer", "police-badge", "police-station", "police-car", "handcuffs", "arrest", "prison-bars", "prison-cell", "parole", "probation", "evidence-bag", "fingerprint-card", "crime-scene", "patrol", "bail"],
+      "Cases & procedure": ["case-folder", "case-file-search", "case-number", "case-status", "lawsuit", "subpoena", "summons", "complaint", "claim", "deadline", "filing", "docket", "motion", "objection", "settlement"],
+      "People & roles": ["judge", "attorney", "lawyer", "prosecutor", "defendant", "plaintiff", "witness", "witness-oath", "notary", "mediator", "arbitrator", "clerk", "bailiff", "legal-guardian"],
+      "Rights & IP": ["copyright-law", "patent", "trademark-law", "privacy-law", "gdpr", "human-rights", "consumer-rights", "license-agreement"],
+      "Government & democracy": ["parliament", "ballot-box", "vote", "constitution", "law-book", "decree", "ministry", "embassy", "passport", "visa-stamp", "citizenship", "tax-id"]
+    } },
+    "health": { "target": 1200, "priority": 1, "fields": {
+      "Clinical": ["stethoscope", "blood-pressure", "iv-drip", "hospital-bed", "wheelchair", "crutches", "x-ray", "mri", "ultrasound", "ecg"],
+      "Dental": ["tooth", "tooth-cavity", "braces", "implant", "dental-chair", "toothbrush"],
+      "Lab & pharmacy": ["test-tube", "petri-dish", "blood-test", "prescription", "pill-bottle", "capsule", "inhaler", "vaccine-vial"],
+      "Body & organs": ["heart-organ", "lungs", "kidney", "liver", "stomach", "brain", "bone", "eye-exam"]
+    } },
+    "finance": { "target": 1100, "priority": 1, "fields": {
+      "Banking": ["bank", "atm", "cheque", "deposit", "withdraw", "loan", "mortgage", "interest-rate", "savings"],
+      "Payments": ["card-tap", "pos-terminal", "qr-pay", "invoice-paid", "invoice-due", "refund", "split-bill", "subscription"],
+      "Currencies": ["shekel", "dinar", "riyal", "dirham", "pound-egp", "lira", "rupee", "yuan", "won", "naira"],
+      "Markets": ["stock-up", "stock-down", "portfolio", "dividend", "bull-market", "bear-market", "crypto-wallet"]
+    } },
+    "commerce": { "target": 1000, "priority": 2, "fields": { "Retail": ["store-front", "checkout", "receipt-long", "price-tag", "coupon-cut", "loyalty-card"], "Logistics": ["parcel", "delivery-truck", "warehouse-shelf", "forklift-load", "tracking", "returns"] } },
+    "science": { "target": 1000, "priority": 2, "fields": { "Education": ["classroom", "blackboard", "graduation", "diploma", "exam", "homework", "school-bag"], "Lab": ["beaker-bubbles", "molecule", "telescope-stars", "microscope-slide"] } },
+    "buildings": { "target": 800, "priority": 2, "fields": { "Public": ["city-hall", "court-building", "embassy-building", "post-office", "fire-station"], "Real estate": ["apartment", "villa", "office-tower", "for-sale-sign"] } },
+    "people": { "target": 900, "priority": 2, "fields": { "Roles": ["doctor", "nurse", "teacher", "engineer", "chef", "pilot", "farmer", "worker"], "Family": ["family", "parent-child", "elderly", "pregnant"] } },
+    "maps": { "target": 1000, "priority": 2 },
+    "vehicles": { "target": 700, "priority": 2 },
+    "communication": { "target": 900, "priority": 3 },
+    "interface": { "target": 1200, "priority": 3 },
+    "arrows": { "target": 800, "priority": 3 },
+    "layout": { "target": 500, "priority": 3 },
+    "text": { "target": 900, "priority": 3 },
+    "notifications": { "target": 500, "priority": 3 },
+    "security": { "target": 600, "priority": 2 },
+    "files": { "target": 900, "priority": 3 },
+    "devices": { "target": 900, "priority": 3 },
+    "connectivity": { "target": 500, "priority": 3 },
+    "development": { "target": 800, "priority": 3 },
+    "charts": { "target": 500, "priority": 3 },
+    "media": { "target": 600, "priority": 3 },
+    "photography": { "target": 400, "priority": 3 },
+    "design": { "target": 700, "priority": 3 },
+    "shapes": { "target": 400, "priority": 3 },
+    "math": { "target": 600, "priority": 3 },
+    "time": { "target": 400, "priority": 3 },
+    "weather": { "target": 400, "priority": 3 },
+    "nature": { "target": 800, "priority": 3 },
+    "home": { "target": 600, "priority": 3 },
+    "food": { "target": 700, "priority": 3 },
+    "sport": { "target": 700, "priority": 3 },
+    "tools": { "target": 500, "priority": 3 },
+    "emoji": { "target": 500, "priority": 3 },
+    "brands": { "target": 1000, "priority": 3 }
+  }
+}

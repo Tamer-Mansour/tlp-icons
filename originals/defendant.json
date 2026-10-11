@@ -1,0 +1,39 @@
+{
+  "name": "defendant",
+  "category": "legal",
+  "tags": [
+    "defendant",
+    "accused",
+    "dock",
+    "trial",
+    "suspect",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"3\"/><path class=\"p2\" d=\"M6 15v-1a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v1\"/><g class=\"p3\"><path d=\"M3 15h18\"/><path d=\"M5 15v6\"/><path d=\"M12 15v6\"/><path d=\"M19 15v6\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "all",
+      "anim": "sink",
+      "dur": 900,
+      "delay": 1100
+    }
+  ]
+}

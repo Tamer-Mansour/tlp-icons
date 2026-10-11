@@ -1,0 +1,40 @@
+{
+  "name": "courthouse",
+  "category": "legal",
+  "tags": [
+    "courthouse",
+    "court",
+    "tribunal",
+    "justice",
+    "building",
+    "columns"
+  ],
+  "svg": "<g class=\"p4\"><path class=\"d p1\" d=\"M3 9.5 12 3.5l9 6z\"/></g><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\".5\"/><g class=\"p2\"><path d=\"M5.5 12v6\"/><path d=\"M10 12v6\"/><path d=\"M14 12v6\"/><path d=\"M18.5 12v6\"/></g><path class=\"p4\" d=\"M4 18h16\"/><path class=\"p4\" d=\"M3 21h18\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 800,
+      "delay": 350,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "judge",
+  "category": "legal",
+  "tags": [
+    "judge",
+    "justice",
+    "court",
+    "magistrate",
+    "person",
+    "robe"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"4\"/><g class=\"p2\"><path d=\"M5 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2\"/><path d=\"m10 15 2 3 2-3\"/><path d=\"M12 18v3\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "hop",
+      "dur": 1000,
+      "delay": 450
+    }
+  ]
+}

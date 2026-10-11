@@ -1,0 +1,28 @@
+{
+  "name": "case-status",
+  "category": "legal",
+  "tags": [
+    "case",
+    "status",
+    "progress",
+    "stage",
+    "pending",
+    "half"
+  ],
+  "svg": "<circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3a9 9 0 0 1 0 18z\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "spin",
+      "dur": 1400,
+      "delay": 450,
+      "origin": "12px 12px"
+    }
+  ]
+}

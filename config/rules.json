@@ -7,6 +7,10 @@
   },
   "pureGears": ["settings", "cog", "cogs", "gear", "settings-2-gear", "settings-cog"],
   "rules": [
+    { "id": "brand", "whole": true, "nameOnly": true, "words": ["brand"], "steps": [
+      { "t": "main", "a": "draw", "dur": 1100, "stagger": true, "by": "size", "groups": 2, "gap": 160 },
+      { "t": "all", "a": "pop", "dur": 750, "dl": 900 }
+    ] },
     { "id": "loader", "words": ["loader", "loading", "spinner", "refresh", "reload", "sync", "rotate-cw", "rotate-ccw", "rotate-clockwise", "rotate-2", "rotate-360", "rotate", "progress", "fidget-spinner", "fan", "windmill", "propeller"], "recipe": "spin", "nameOnly": true },
     { "id": "hourglass", "whole": true, "words": ["hourglass", "sand-timer"], "body": false, "steps": [{ "t": "all", "a": "spinHalf", "dur": 1400 }] },
     { "id": "bell", "words": ["bell", "bells", "notification"], "steps": [

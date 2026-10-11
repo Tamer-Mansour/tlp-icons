@@ -35,7 +35,8 @@ function makeCtx(plan, atoms, opts) {
 }
 
 function partOf(ctx, atoms) {
-  if (atoms === 'all' || (atoms.length === ctx.plan.atoms.length && ctx.full)) return 'all';
+  // only an explicit whole-icon step uses the outer wrapper; fills must sit on the shape itself
+  if (atoms === 'all') return 'all';
   return ctx.plan.part(atoms);
 }
 

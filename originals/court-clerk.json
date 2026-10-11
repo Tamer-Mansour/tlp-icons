@@ -1,0 +1,40 @@
+{
+  "name": "court-clerk",
+  "category": "legal",
+  "tags": [
+    "clerk",
+    "registry",
+    "court office",
+    "staff",
+    "building",
+    "employee"
+  ],
+  "svg": "<g class=\"p4\"><path class=\"d p1\" d=\"M5 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v5\"/></g><g class=\"p3\"><path d=\"M8 7.5h4\"/><path d=\"M8 11.5h2\"/><path d=\"M8 15.5h1\"/></g><g class=\"p2\"><circle class=\"d\" cx=\"17.5\" cy=\"13.5\" r=\"2.5\"/><path d=\"M12.5 21v-.5a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v.5\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 300,
+      "origin": "left"
+    },
+    {
+      "part": "p2",
+      "anim": "hop",
+      "dur": 1000,
+      "delay": 650
+    }
+  ]
+}

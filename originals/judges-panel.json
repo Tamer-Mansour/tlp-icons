@@ -1,0 +1,33 @@
+{
+  "name": "judges-panel",
+  "category": "legal",
+  "tags": [
+    "judges",
+    "panel",
+    "bench",
+    "tribunal",
+    "court",
+    "committee"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M7 21v-1.5a3.5 3.5 0 0 1 3.5-3.5h3a3.5 3.5 0 0 1 3.5 3.5V21\"/><g class=\"p3\"><circle cx=\"5\" cy=\"10\" r=\"2\"/><circle cx=\"19\" cy=\"10\" r=\"2\"/><path d=\"M2 18v-.5A2.5 2.5 0 0 1 4.5 15H5\"/><path d=\"M22 18v-.5a2.5 2.5 0 0 0-2.5-2.5H19\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p1",
+      "anim": "hop",
+      "dur": 1000,
+      "delay": 500
+    }
+  ]
+}

@@ -44,6 +44,19 @@ for (const snap of snapshots) {
     icons.set(up.name, { name: up.name, source: snap.source, upstreamSvg: up.svg, tags: up.tags || [], upstreamCategories: up.categories || [], aliases: up.aliases || [] });
   }
 }
+// tlp originals: our own drawings with hand choreography (originals/<name>.json)
+const ORIGINALS_META = { source: 'tlp', title: 'tlp-icons originals', license: 'MIT', homepage: 'https://tlp-icons.netlify.app', repository: 'https://github.com/Tamer-Mansour/tlp-icons', npm: 'tlp-icons', version: pkg.version };
+const originals = new Map();
+const origDir = path.join(ROOT, 'originals');
+if (fs.existsSync(origDir)) {
+  for (const f of fs.readdirSync(origDir).filter(f => f.endsWith('.json') && !f.startsWith('_')).sort()) {
+    const o = readJson(`originals/${f}`);
+    const name = o.name || f.slice(0, -5);
+    if (icons.has(name)) { problems.push(`original ${name} clashes with an upstream icon`); continue; }
+    originals.set(name, o);
+    icons.set(name, { name, source: 'tlp', upstreamSvg: null, tags: o.tags || [], upstreamCategories: [], aliases: [], original: o });
+  }
+}
 for (const icon of icons.values()) for (const a of icon.aliases) if (!icons.has(a) && !aliasMap[a]) aliasMap[a] = icon.name;
 
 // ------------------------------------------------------------------ geometry
@@ -98,12 +111,15 @@ function normaliseOverride(name, o) {
 const out = [];
 const ruleStats = {};
 for (const icon of [...icons.values()].sort((a, b) => (a.name < b.name ? -1 : 1))) {
-  const category = categorize(icon, catConfig, sources);
+  const category = icon.original ? icon.original.category : categorize(icon, catConfig, sources);
   if (!category) { problems.push(`${icon.name}: no category`); continue; }
   if (category === 'brands' && !sources.tabler?.includeBrands) continue;
   let result;
   try {
-    if (overrides.has(icon.name)) {
+    if (icon.original) {
+      const o = normaliseOverride(icon.name, icon.original);
+      result = { svg: o.svg, motion: o.motion, rule: 'original' };
+    } else if (overrides.has(icon.name)) {
       const o = normaliseOverride(icon.name, overrides.get(icon.name));
       result = { svg: o.svg, motion: o.motion, rule: 'override' };
     } else {
@@ -170,6 +186,7 @@ fs.mkdirSync(path.join(DIST, 'icons'), { recursive: true });
 fs.mkdirSync(SITE, { recursive: true });
 
 const sourceMeta = Object.fromEntries(snapshots.map(s => [s.source, { title: s.title, license: s.license, homepage: s.homepage, repository: s.repository, npm: s.npm, version: s.version }]));
+if (originals.size) sourceMeta.tlp = { title: ORIGINALS_META.title, license: ORIGINALS_META.license, homepage: ORIGINALS_META.homepage, repository: ORIGINALS_META.repository, npm: ORIGINALS_META.npm, version: ORIGINALS_META.version };
 const record = i => {
   const r = { svg: i.svg, m: i.m };
   if (i.rtl) r.r = 1;

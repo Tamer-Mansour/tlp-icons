@@ -1,0 +1,29 @@
+{
+  "name": "scales-unbalanced",
+  "category": "legal",
+  "tags": [
+    "scales",
+    "justice",
+    "unbalanced",
+    "tilted",
+    "judgement",
+    "weigh",
+    "verdict"
+  ],
+  "svg": "<path d=\"M12 3v18\"/><path d=\"M7 21h10\"/><g class=\"p2\"><path d=\"M3 8.5 21 4.5\"/><path class=\"d\" transform=\"translate(0 1.5)\" d=\"m5 8 3 8a5 5 0 0 1-6 0zV7\"/><path class=\"d\" transform=\"translate(0 -2.5)\" d=\"m19 8 3 8a5 5 0 0 1-6 0zV7\"/></g>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 1500,
+      "delay": 650,
+      "origin": "12px 6.5px"
+    }
+  ]
+}

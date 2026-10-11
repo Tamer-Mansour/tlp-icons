@@ -1,0 +1,33 @@
+{
+  "name": "attorney",
+  "category": "legal",
+  "tags": [
+    "attorney",
+    "lawyer",
+    "advocate",
+    "counsel",
+    "briefcase",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p3\" d=\"M2 21v-2a4 4 0 0 1 4-4h4\"/><g class=\"p2\"><rect class=\"d\" x=\"13\" y=\"15\" width=\"9\" height=\"7\" rx=\"1.5\"/><path d=\"M15.5 15v-1.5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1V15\"/><path d=\"M13 18.5h9\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "lift",
+      "dur": 1000,
+      "delay": 500
+    }
+  ]
+}

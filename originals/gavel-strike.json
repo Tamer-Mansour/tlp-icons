@@ -1,0 +1,35 @@
+{
+  "name": "gavel-strike",
+  "category": "legal",
+  "tags": [
+    "gavel",
+    "strike",
+    "sound block",
+    "judge",
+    "verdict",
+    "auction",
+    "order"
+  ],
+  "svg": "<g class=\"p2\"><path class=\"d\" d=\"M7.9 6.2 10.7 3.4l6.4 6.4-2.8 2.8z\"/><path d=\"M11.1 9.4 4 16.5\"/></g><rect class=\"d p3\" x=\"13\" y=\"17\" width=\"8\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "strike",
+      "dur": 1200,
+      "delay": 600,
+      "origin": "4px 16.5px"
+    },
+    {
+      "part": "p3",
+      "anim": "sink",
+      "dur": 600,
+      "delay": 1150
+    }
+  ]
+}
