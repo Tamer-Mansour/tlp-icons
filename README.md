@@ -168,9 +168,9 @@ Every motion is small and springy and ends exactly at rest. The default `speed` 
   and its `motion` steps. See any existing override.
 - Better motion for many icons: add or adjust a rule in `config/rules.json`.
 - Wrong category: add a name pattern or an explicit entry in `config/categories.json`.
-- Run `npm run build && npm test` before opening a PR. CI runs the same, plus the browser tests.
+- Run `npm run build && npm test` before opening a PR.
 
-A weekly GitHub Action syncs upstream, rebuilds, tests, and opens a PR.
+The GitHub Actions (CI and upstream sync) are manual: run them from the Actions tab when needed.
 
 ## License
 

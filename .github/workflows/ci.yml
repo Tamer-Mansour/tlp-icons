@@ -1,7 +1,7 @@
 name: CI
+# Manual only (Actions tab -> CI -> Run workflow). Local equivalent: npm test && npm run test:browser
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   test:

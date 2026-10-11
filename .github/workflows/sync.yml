@@ -1,7 +1,8 @@
 name: Weekly upstream sync
+# Manual only (Actions tab -> Upstream sync -> Run workflow). To make it weekly again add:
+#   schedule: [{ cron: '0 6 * * 1' }]
+# Local equivalent: npm run sync && npm test
 on:
-  schedule:
-    - cron: '0 6 * * 1'
   workflow_dispatch:
 
 permissions:
