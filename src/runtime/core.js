@@ -12,6 +12,8 @@ export const EASE = {
 };
 
 const NS = 'http://www.w3.org/2000/svg';
+// SSR safety: never touch `document` unless it exists (Node, workers).
+const currentDocument = () => (typeof document === 'undefined' ? null : document);
 const DRAWABLE = 'path,circle,rect,line,polyline,polygon,ellipse';
 const registry = Object.create(null);
 const aliases = Object.create(null);
@@ -58,7 +60,8 @@ const clsOf = s => `p${s.origin && /px/.test(s.origin) ? ' vb' : ''}${s.anim ===
 const hasClass = (cls, part) => (` ${cls} `).indexOf(` ${part} `) >= 0;
 
 /** Builds a live <svg> element (CSP friendly: CSS variables are set through the CSSOM). */
-export function createSvg(icon, doc = document) {
+export function createSvg(icon, doc = currentDocument()) {
+  if (!doc) return null;
   const svg = doc.createElementNS(NS, 'svg');
   svg.setAttribute('viewBox', '0 0 24 24');
   svg.setAttribute('class', 'tlp');
@@ -157,8 +160,8 @@ export function hoverTarget(target) {
 }
 
 let hoverInstalled = false;
-export function installHover(doc = document) {
-  if (hoverInstalled) return;
+export function installHover(doc = currentDocument()) {
+  if (hoverInstalled || !doc) return;
   hoverInstalled = true;
   doc.addEventListener('mouseover', e => {
     const hit = hoverTarget(e.target);
@@ -173,7 +176,7 @@ export function installHover(doc = document) {
 
 let styleInjected = false;
 export const CSS = '/*__CSS__*/';
-export function ensureStyles(doc = document) {
+export function ensureStyles(doc = currentDocument()) {
   if (styleInjected || !doc || !doc.head) return;
   styleInjected = true;
   if (doc.getElementById('tlp-icons-style') || CSS.length < 20) return;

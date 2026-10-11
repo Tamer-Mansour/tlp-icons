@@ -227,7 +227,7 @@ setLoader(name => {
   return pending[cat] || (pending[cat] = import(\`./icons/\${cat}.js\`).then(m => register(m.default)));
 });
 export * from './core.js';
-export { TlpIcon } from './element.js';
+export { TlpIcon, define } from './element.js';
 `);
 const imports = catMeta.map((c, k) => `import c${k} from './icons/${c.id}.js';`).join('\n');
 fs.writeFileSync(path.join(DIST, 'index.js'), `${header}${imports}

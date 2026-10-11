@@ -3,7 +3,10 @@ import { loadIcon, createSvg, run, installHover, ensureStyles } from './core.js'
 
 const LOOP_PAUSE = 1200;
 
-export class TlpIcon extends HTMLElement {
+// SSR safety: nothing below touches HTMLElement / customElements / document at module level outside a guard,
+// so `import 'tlp-icons/element'` works in Node (Next.js, Nuxt, Angular Universal, SvelteKit). On the server
+// TlpIcon is undefined and define() is a no-op.
+export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class TlpIcon extends HTMLElement {
   static get observedAttributes() { return ['name', 'size', 'stroke', 'trigger']; }
 
   connectedCallback() {
@@ -69,6 +72,16 @@ export class TlpIcon extends HTMLElement {
 
   /** Plays the animation once. */
   play() { return run(this.querySelector('svg.tlp')); }
+};
+
+/**
+ * Registers the custom element (done automatically on import in the browser). Safe to call on the server and
+ * safe to call twice. Returns true when the element is (now) defined.
+ */
+export function define(tag = 'tlp-icon') {
+  if (!TlpIcon || typeof customElements === 'undefined') return false;
+  if (!customElements.get(tag)) customElements.define(tag, tag === 'tlp-icon' ? TlpIcon : class extends TlpIcon {});
+  return true;
 }
 
-if (typeof customElements !== 'undefined' && !customElements.get('tlp-icon')) customElements.define('tlp-icon', TlpIcon);
+define();

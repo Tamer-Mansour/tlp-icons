@@ -9,6 +9,7 @@ export function bundleRuntime(root, css) {
   const element = fs.readFileSync(path.join(dir, 'element.js'), 'utf8');
   const strip = src => src.replace(/^import[^;]+;\s*$/gm, '').replace(/^export (const|function|class|let) /gm, '$1 ');
   const exported = [...core.matchAll(/^export (?:const|function|class|let) ([A-Za-z_$][\w$]*)/gm)].map(m => m[1]);
-  const iife = `(function () {\n'use strict';\n${strip(core)}\n${strip(element)}\nvar api = { ${[...exported, 'TlpIcon'].join(', ')} };\nif (typeof window !== 'undefined') window.TlpIcons = api;\n})();\n`;
+  const elementExports = [...element.matchAll(/^export (?:const|function|class|let) ([A-Za-z_$][\w$]*)/gm)].map(m => m[1]);
+  const iife = `(function () {\n'use strict';\n${strip(core)}\n${strip(element)}\nvar api = { ${[...exported, ...elementExports].join(', ')} };\nif (typeof window !== 'undefined') window.TlpIcons = api;\n})();\n`;
   return { coreEsm: core, elementEsm: element, iife };
 }
