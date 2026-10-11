@@ -111,6 +111,40 @@ await test('trigger="click" and play() work', async () => {
   assert.ok(ok);
 });
 
+await test('ES module build: lazy loader fetches exactly one chunk per category used', async () => {
+  const http = await import('node:http');
+  const types = { '.js': 'text/javascript', '.html': 'text/html', '.css': 'text/css', '.map': 'application/json' };
+  const server = http.createServer((req, res) => {
+    const url = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+    if (url === '/') { res.writeHead(200, { 'content-type': 'text/html' }); return res.end('<!doctype html><body><tlp-icon name="bell"></tlp-icon><tlp-icon name="bell-ring"></tlp-icon><tlp-icon name="courthouse"></tlp-icon><tlp-icon name="trash-2"></tlp-icon><tlp-icon name="nope-not-real"></tlp-icon><script type="module" src="/dist/tlp-icon.js"></script></body>'); }
+    const file = path.join(ROOT, url);
+    if (!file.startsWith(path.join(ROOT, 'dist')) || !fs.existsSync(file)) { res.writeHead(404); return res.end(); }
+    res.writeHead(200, { 'content-type': types[path.extname(file)] || 'application/octet-stream' });
+    fs.createReadStream(file).pipe(res);
+  });
+  await new Promise(r => server.listen(0, r));
+  const port = server.address().port;
+  const p = await browser.newPage();
+  const chunks = new Set();
+  const errs = [];
+  p.on('request', r => { const m = r.url().match(/\/dist\/icons\/([a-z]+)\.js/); if (m) chunks.add(m[1]); });
+  p.on('pageerror', e => errs.push(e.message));
+  try {
+    await p.goto(`http://localhost:${port}/`);
+    await p.waitForFunction(() => document.querySelectorAll('tlp-icon svg.tlp').length >= 4, null, { timeout: 10000 });
+    await p.waitForTimeout(300);
+    const missing = await p.evaluate(() => document.querySelector('tlp-icon[name="nope-not-real"]').hasAttribute('data-missing'));
+    assert.deepEqual(errs, []);
+    assert.ok(missing, 'unknown name should get data-missing');
+    // bell, bell-ring -> notifications; courthouse -> legal; trash-2 (alias of trash) -> interface; plus the unknown name's chunk
+    for (const c of ['notifications', 'legal', 'interface']) assert.ok(chunks.has(c), `chunk ${c} not loaded (loaded: ${[...chunks]})`);
+    assert.ok(chunks.size <= 4, `too many chunks: ${[...chunks]}`);
+  } finally {
+    await p.close();
+    server.close();
+  }
+});
+
 await test(`frame strips of ${MECHANICS.length} mechanic icons saved`, async () => {
   const strip = await browser.newPage({ viewport: { width: 1060, height: 100 }, deviceScaleFactor: 1 });
   await strip.goto(testPage('<div id="sheet"></div>'));

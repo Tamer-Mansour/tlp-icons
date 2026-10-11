@@ -11,6 +11,7 @@ import { choreograph, validateRules } from './engine/motion.mjs';
 import { ANIMS, LEGACY, LIMITS, SPEED } from './engine/anims.mjs';
 import { categorize, orderIcons } from './engine/categorize.mjs';
 import { bundleRuntime } from './lib/bundle.mjs';
+import { encodeManifest, decoderSource, gzipSize } from './lib/manifest.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const argv = process.argv.slice(2);
@@ -196,13 +197,22 @@ const header = `/* tlp-icons ${pkg.version} - MIT. Icons from ${snapshots.map(s 
 
 // per-category ESM chunks
 const manifest = {};
+const nameToCat = {};
 for (const c of catMeta) {
   const list = ordered.filter(i => i.category === c.id);
   const body = list.map(i => `${json(i.name)}:${json(record(i))}`).join(',\n');
   fs.writeFileSync(path.join(DIST, 'icons', `${c.id}.js`), `${header}export default {\n${body}\n};\n`);
   manifest[c.id] = list.map(i => i.name).join(' ');
+  for (const i of list) nameToCat[i.name] = c.id;
 }
-fs.writeFileSync(path.join(DIST, 'manifest.js'), `${header}const C = ${JSON.stringify(manifest, null, 0)};\nexport const MANIFEST = Object.create(null);\nfor (const c in C) for (const n of C[c].split(' ')) MANIFEST[n] = c;\nexport const ALIASES = ${json(aliasMap)};\nexport const CATEGORIES = ${json(catMeta)};\n`);
+// compact deterministic name -> category lookup (minimal perfect hash); ALIASES / CATEGORIES unchanged
+const catIds = catMeta.map(c => c.id);
+const mph = encodeManifest(nameToCat, catIds);
+const manifestTail = `export const ALIASES = ${json(aliasMap)};\nexport const CATEGORIES = ${json(catMeta)};\n`;
+const oldManifest = `const C = ${JSON.stringify(manifest, null, 0)};\nexport const MANIFEST = Object.create(null);\nfor (const c in C) for (const n of C[c].split(' ')) MANIFEST[n] = c;\n${manifestTail}`;
+const newManifest = `const C = ${json(catIds)};\nconst T = ${json(mph.T)};\nconst S = ${json(mph.S)};\n${decoderSource(mph)}\n${manifestTail}`;
+fs.writeFileSync(path.join(DIST, 'manifest.js'), header + newManifest);
+const manifestSizes = { before: { raw: Buffer.byteLength(oldManifest), gzip: gzipSize(oldManifest) }, after: { raw: Buffer.byteLength(newManifest), gzip: gzipSize(newManifest) } };
 
 // full data file
 const fullData = {
@@ -218,12 +228,12 @@ fs.writeFileSync(path.join(DIST, 'tlp-icons.css'), css);
 fs.writeFileSync(path.join(DIST, 'core.js'), header + runtime.coreEsm);
 fs.writeFileSync(path.join(DIST, 'element.js'), header + runtime.elementEsm);
 fs.writeFileSync(path.join(DIST, 'tlp-icon.js'), `${header}import { setLoader, register } from './core.js';
-import { MANIFEST, ALIASES } from './manifest.js';
+import { categoryOf, ALIASES } from './manifest.js';
 register({}, ALIASES);
 const pending = {};
+// one network round trip per category: name -> category is a deterministic lookup (see manifest.js)
 setLoader(name => {
-  const cat = MANIFEST[name];
-  if (!cat) return null;
+  const cat = categoryOf(name);
   return pending[cat] || (pending[cat] = import(\`./icons/\${cat}.js\`).then(m => register(m.default)));
 });
 export * from './core.js';
@@ -276,6 +286,8 @@ const report = {
 };
 fs.writeFileSync(path.join(DIST, 'build-report.json'), `${JSON.stringify(report, null, 2)}\n`);
 console.log(`tlp-icons ${pkg.version}: ${ordered.length} icons in ${catMeta.length} categories (${overrides.size} hand overrides, ${clashes.length} name clashes, ${Object.keys(aliasMap).length} aliases) in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+const kb = n => `${(n / 1024).toFixed(1)} KB`;
+console.log(`manifest: ${kb(manifestSizes.before.raw)} raw / ${kb(manifestSizes.before.gzip)} gzip -> ${kb(manifestSizes.after.raw)} raw / ${kb(manifestSizes.after.gzip)} gzip`);
 if (orphanOverrides.length) console.log(`orphaned overrides (no upstream icon): ${orphanOverrides.join(', ')}`);
 if (problems.length) {
   console.log(`PROBLEMS (${problems.length}):\n  ${problems.slice(0, 40).join('\n  ')}`);

@@ -29,7 +29,23 @@ export function register(icons, aliasMap) {
     if (icon) { waiting[k].forEach(fn => fn(icon)); delete waiting[k]; }
   }
 }
-export function setLoader(fn) { loader = fn; }
+/**
+ * Installs the lazy loader. Icons requested before it existed (elements upgraded while the ES module graph was
+ * still evaluating, e.g. tags in the HTML before <script type="module">) are loaded now instead of waiting forever.
+ */
+export function setLoader(fn) {
+  loader = fn;
+  if (!fn) return;
+  for (const name in waiting) {
+    Promise.resolve(fn(resolve(name))).then(() => {
+      const list = waiting[name];
+      if (!list) return;
+      delete waiting[name];
+      const icon = getIcon(name);
+      list.forEach(res => res(icon));
+    }, () => {});
+  }
+}
 export function resolve(name) { return registry[name] ? name : aliases[name] || name; }
 export function getIcon(name) { return registry[resolve(name)] || null; }
 /** Resolves with the icon data. Without a loader it waits for a later register() (classic script bundles). */

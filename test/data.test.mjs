@@ -189,10 +189,21 @@ test('siblings sit next to each other (arrow-up/down/left/right)', () => {
   assert.ok(Math.max(...idx) - Math.min(...idx) === 3, `positions ${idx}`);
 });
 
-test('dist has per-category chunks and every manifest name resolves', async () => {
-  const { MANIFEST, CATEGORIES } = await import('../dist/manifest.js');
-  assert.equal(Object.keys(MANIFEST).length, names.length);
+test('dist has per-category chunks and the manifest maps every name (and alias target) to its chunk', async () => {
+  const { categoryOf, MANIFEST, CATEGORIES, ALIASES } = await import('../dist/manifest.js');
   for (const c of CATEGORIES) assert.ok(exists(`dist/icons/${c.id}.js`), `chunk ${c.id} missing`);
+  const wrong = names.filter(n => categoryOf(n) !== D.icons[n].category);
+  assert.deepEqual(wrong.slice(0, 10), [], `${wrong.length} names map to the wrong category`);
+  assert.equal(MANIFEST.bell, D.icons.bell.category, 'MANIFEST[name] stays usable');
+  for (const target of Object.values(ALIASES)) assert.ok(D.icons[target], `alias target ${target} missing`);
   const chunk = (await import('../dist/icons/time.js')).default;
-  for (const n of Object.keys(chunk)) assert.equal(MANIFEST[n], 'time');
+  for (const n of Object.keys(chunk)) assert.equal(categoryOf(n), 'time');
+  assert.ok(CATEGORIES.map(c => c.id).includes(categoryOf('definitely-not-an-icon')), 'unknown names still map to a real chunk');
+});
+
+test('manifest stays small (under 12 KB gzip)', async () => {
+  const zlib = await import('node:zlib');
+  const fsMod = await import('node:fs');
+  const gz = zlib.gzipSync(fsMod.readFileSync(path.join(ROOT, 'dist', 'manifest.js')), { level: 9 }).length;
+  assert.ok(gz < 12 * 1024, `manifest.js is ${(gz / 1024).toFixed(1)} KB gzip`);
 });
