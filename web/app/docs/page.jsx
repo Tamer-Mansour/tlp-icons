@@ -83,8 +83,9 @@ export default function Docs() {
         <p>Loads the element and fetches only the categories your page uses.</p>
         <CodeBlock lang="html" code={'<script type="module" src="https://unpkg.com/tlp-icons/dist/tlp-icon.js"></script>\n\n<tlp-icon name="bell"></tlp-icon>'} />
         <h3>Offline, one file</h3>
-        <p>A classic script with every icon inside (about 2.4 MB). Works from <code>file://</code>, with no network and no module loader.</p>
-        <CodeBlock lang="html" code={'<script src="tlp-icons.all.js"></script>\n<tlp-icon name="bell"></tlp-icon>'} />
+        <p>A classic script with every icon inside (about 2.3 MB, 390 KB gzip), in the <code>tlp-icons-data</code> package. Works from <code>file://</code>, with no network and no module loader.</p>
+        <CodeBlock lang="bash" code="npm install tlp-icons-data" />
+        <CodeBlock lang="html" code={'<script src="node_modules/tlp-icons-data/tlp-icons.all.js"></script>\n<tlp-icon name="bell"></tlp-icon>'} />
 
         <h2 id="usage">Basic usage</h2>
         <p>Write the element with an icon <code>name</code>. Find names in the <Link href="/icons/">icon gallery</Link>. Hover these:</p>

@@ -17,9 +17,15 @@
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
-      "element": ["./dist/tlp-icon.d.ts"],
-      "tlp-icon.js": ["./dist/tlp-icon.d.ts"],
-      "jsx": ["./dist/jsx.d.ts"]
+      "element": [
+        "./dist/tlp-icon.d.ts"
+      ],
+      "tlp-icon.js": [
+        "./dist/tlp-icon.d.ts"
+      ],
+      "jsx": [
+        "./dist/jsx.d.ts"
+      ]
     }
   },
   "exports": {
@@ -47,6 +53,8 @@
   "files": [
     "dist",
     "!dist/tlp-icons.json",
+    "!dist/tlp-icons.all.js",
+    "!dist/size-report.json",
     "!dist/motion-rules.json",
     "!dist/build-report.json",
     "!dist/svg",
@@ -90,6 +98,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
+    "esbuild": "^0.28.2",
     "typescript": "^7.0.2"
   }
 }

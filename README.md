@@ -64,10 +64,12 @@ Or with no build step, from a CDN:
 <tlp-icon name="bell"></tlp-icon>
 ```
 
-Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about 2.2 MB):
+Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about 2.3 MB,
+390 KB gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
 
 ```html
-<script src="node_modules/tlp-icons/dist/tlp-icons.all.js"></script>
+<script src="node_modules/tlp-icons-data/tlp-icons.all.js"></script>
+<!-- or https://cdn.jsdelivr.net/npm/tlp-icons-data/tlp-icons.all.js -->
 <tlp-icon name="bell"></tlp-icon>
 ```
 
@@ -202,7 +204,7 @@ Netlify runs the same steps (see `netlify.toml`) and publishes `web/out` on ever
 After publishing a new tlp-icons version to npm, run `npm install tlp-icons@latest` in `web/` and redeploy.
 For a manual deploy, drag the `web/out` folder onto the site's **Deploys** tab in Netlify.
 
-**Offline use:** `dist/tlp-icons.all.js` is a single classic script with every icon; it works from `file://`
+**Offline use:** `tlp-icons-data/tlp-icons.all.js` is a single classic script with every icon; it works from `file://`
 with no server and no internet.
 
 ## How it works

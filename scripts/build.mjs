@@ -12,6 +12,7 @@ import { ANIMS, LEGACY, LIMITS, SPEED } from './engine/anims.mjs';
 import { categorize, orderIcons } from './engine/categorize.mjs';
 import { bundleRuntime } from './lib/bundle.mjs';
 import { encodeManifest, decoderSource, gzipSize } from './lib/manifest.mjs';
+import { minifyDist, sizeReport, formatSizeTable } from './lib/minify.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const argv = process.argv.slice(2);
@@ -184,6 +185,7 @@ for (const c of categories) {
 const rm = d => fs.rmSync(d, { recursive: true, force: true });
 rm(path.join(DIST, 'icons'));
 fs.mkdirSync(path.join(DIST, 'icons'), { recursive: true });
+for (const f of fs.readdirSync(DIST)) if (f.endsWith('.map')) fs.rmSync(path.join(DIST, f));
 
 const sourceMeta = Object.fromEntries(snapshots.map(s => [s.source, { title: s.title, license: s.license, homepage: s.homepage, repository: s.repository, npm: s.npm, version: s.version }]));
 if (originals.size) sourceMeta.tlp = { title: ORIGINALS_META.title, license: ORIGINALS_META.license, homepage: ORIGINALS_META.homepage, repository: ORIGINALS_META.repository, npm: ORIGINALS_META.npm, version: ORIGINALS_META.version };
@@ -277,6 +279,15 @@ if (writeSvgFiles) {
   for (const i of ordered) fs.writeFileSync(path.join(dir, `${i.name}.svg`), toSvgString(i, {}));
 }
 
+// ------------------------------------------------------------------ minify + size report
+minifyDist(ROOT, DIST, header);
+const sizes = sizeReport(DIST, { elementCore: 8 * 1024, manifest: 15 * 1024 });
+fs.writeFileSync(path.join(DIST, 'size-report.json'), `${JSON.stringify({ version: pkg.version, manifestBeforeAfter: manifestSizes, ...sizes }, null, 2)}\n`);
+if (outRoot === ROOT) {
+  // the offline single-file bundle (runtime + every icon) ships in tlp-icons-data, keeping tlp-icons small
+  fs.copyFileSync(path.join(DIST, 'tlp-icons.all.js'), path.join(ROOT, 'packages', 'tlp-icons-data', 'tlp-icons.all.js'));
+}
+
 // which engine rule (or override / original) produced each icon's motion - used by the review tools
 fs.writeFileSync(path.join(DIST, 'motion-rules.json'), `${JSON.stringify(Object.fromEntries(ordered.map(i => [i.name, i.rule])))}\n`);
 
@@ -297,6 +308,11 @@ fs.writeFileSync(path.join(DIST, 'build-report.json'), `${JSON.stringify(report,
 console.log(`tlp-icons ${pkg.version}: ${ordered.length} icons in ${catMeta.length} categories (${overrides.size} hand overrides, ${clashes.length} name clashes, ${Object.keys(aliasMap).length} aliases) in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 const kb = n => `${(n / 1024).toFixed(1)} KB`;
 console.log(`manifest: ${kb(manifestSizes.before.raw)} raw / ${kb(manifestSizes.before.gzip)} gzip -> ${kb(manifestSizes.after.raw)} raw / ${kb(manifestSizes.after.gzip)} gzip`);
+console.log(`sizes (minified):\n${formatSizeTable(sizes.rows)}`);
+if (sizes.failures.length) {
+  console.log(`SIZE LIMITS EXCEEDED:\n  ${sizes.failures.join('\n  ')}`);
+  process.exitCode = 1;
+}
 if (orphanOverrides.length) console.log(`orphaned overrides (no upstream icon): ${orphanOverrides.join(', ')}`);
 if (problems.length) {
   console.log(`PROBLEMS (${problems.length}):\n  ${problems.slice(0, 40).join('\n  ')}`);

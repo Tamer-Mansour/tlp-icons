@@ -20,12 +20,36 @@ test('tlp-icons package: no full JSON, has runtime, types and licenses', { timeo
   assert.ok(!files.some(f => f.startsWith('packages/') || f.startsWith('web/') || f.startsWith('test/')), 'workspace/test/web files leaked into the package');
   const pkg = readJson('package.json');
   assert.ok(!('./data' in pkg.exports), './data export must be removed (moved to tlp-icons-data)');
+  assert.ok(!files.includes('dist/tlp-icons.all.js'), 'the offline bundle ships in tlp-icons-data');
+  assert.ok(info.unpackedSize < 3 * 1024 * 1024, `unpacked size ${(info.unpackedSize / 1048576).toFixed(2)} MB must stay under 3 MB`);
+  for (const f of ['dist/core.js.map', 'dist/element.js.map', 'dist/tlp-icon.js.map']) assert.ok(files.includes(f), `${f} missing`);
+});
+
+test('minified dist keeps the license banner and source maps resolve', async () => {
+  const fsMod = await import('node:fs');
+  const pathMod = await import('node:path');
+  const dist = pathMod.join(ROOT, 'dist');
+  const files = [...fsMod.readdirSync(dist).filter(f => f.endsWith('.js')), ...fsMod.readdirSync(pathMod.join(dist, 'icons')).map(f => `icons/${f}`)];
+  for (const f of files) {
+    const code = fsMod.readFileSync(pathMod.join(dist, f), 'utf8');
+    assert.match(code, /^\/\* tlp-icons \d+\.\d+\.\d+ - MIT\./, `${f}: missing license banner`);
+    const m = code.match(/\/\/# sourceMappingURL=(\S+)\s*$/);
+    if (m) {
+      const map = JSON.parse(fsMod.readFileSync(pathMod.join(dist, pathMod.dirname(f), m[1]), 'utf8'));
+      assert.equal(map.version, 3);
+      assert.ok(map.sourcesContent?.[0]?.length > 0, `${f}: map has no sources`);
+    }
+  }
+  assert.ok(fsMod.readFileSync(pathMod.join(dist, 'tlp-icons.css'), 'utf8').startsWith('/* tlp-icons'), 'css banner');
+  const report = JSON.parse(fsMod.readFileSync(pathMod.join(dist, 'size-report.json'), 'utf8'));
+  assert.deepEqual(report.failures, []);
+  assert.ok(report.rows[0].gzip < 8 * 1024 && report.rows[1].gzip < 15 * 1024);
 });
 
 test('tlp-icons-data package: the JSON, its types and licenses, same version as tlp-icons', { timeout: 120000 }, () => {
   const [info] = pack(['-w', 'tlp-icons-data']);
   const files = info.files.map(f => f.path.replace(/\\/g, '/'));
-  for (const f of ['tlp-icons.json', 'index.d.ts', 'LICENSE', 'NOTICE.md', 'package.json']) assert.ok(files.includes(f), `${f} missing from tlp-icons-data`);
+  for (const f of ['tlp-icons.json', 'tlp-icons.all.js', 'index.d.ts', 'LICENSE', 'NOTICE.md', 'package.json']) assert.ok(files.includes(f), `${f} missing from tlp-icons-data`);
   assert.equal(info.name, 'tlp-icons-data');
   assert.equal(info.version, readJson('package.json').version, 'versions must match');
   assert.equal(readJson('packages/tlp-icons-data/package.json').license, readJson('package.json').license);
