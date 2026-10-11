@@ -27,8 +27,10 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 .fade-mask { mask-image: linear-gradient(to bottom, black 55%, transparent); }
 .text-gradient { background: linear-gradient(100deg, #4f46e5 10%, #7c3aed 55%, #db2777 95%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
-.tile { display: grid; place-items: center; border-radius: 1rem; background: var(--color-brand-soft); color: var(--color-brand); transition: background .25s, color .25s, transform .3s var(--ease-spring); }
-.group:hover .tile, .tile-host:hover .tile { background: var(--color-brand); color: #fff; --tlp-duo: .3; }
+/* --tc = tile colour (set per gallery colour / category). At rest: tinted background + coloured icon.
+   On hover: solid background + white icon. Never set color/background inline on a .tile, it would win over hover. */
+.tile { --tc: var(--color-brand); display: grid; place-items: center; border-radius: 1rem; background: color-mix(in srgb, var(--tc) 10%, white); color: var(--tc); transition: background .25s, color .25s, transform .3s var(--ease-spring); }
+.group:hover .tile, .tile-host:hover .tile { background: var(--tc); color: #fff; --tlp-duo: .28; }
 
 .card { background: #fff; border: 1px solid var(--color-line); border-radius: 1rem; box-shadow: var(--shadow-card); }
 .card-hover { transition: transform .3s var(--ease-spring), box-shadow .3s, border-color .3s; }
@@ -47,5 +49,41 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 .prose-doc td { padding: .6rem .8rem; border-top: 1px solid var(--color-line); vertical-align: top; color: var(--color-ink-2); }
 
 .tok-c { color: #6b7591; } .tok-s { color: #86efac; } .tok-t { color: #93c5fd; } .tok-a { color: #fcd34d; } .tok-k { color: #c4b5fd; }
+
+/* light static icon pages (scripts/icon-pages.mjs): short class names keep 6,600 pages small */
+.lh { position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--color-line); background: rgb(255 255 255 / .85); backdrop-filter: blur(16px); }
+.lh > div { max-width: 80rem; margin: 0 auto; height: 4rem; display: flex; align-items: center; gap: 1rem; padding: 0 1.5rem; }
+.lh .lg { display: flex; align-items: center; gap: .6rem; font-weight: 700; font-size: 17px; }
+.lh .lg img { width: 34px; height: 34px; border-radius: 10px; }
+.lh nav { display: flex; gap: .15rem; margin-inline-start: .5rem; }
+.lh nav a { padding: .4rem .75rem; border-radius: .5rem; font-size: .875rem; font-weight: 500; color: var(--color-ink-2); }
+.lh nav a:hover { background: var(--color-paper); color: var(--color-ink); }
+.lh nav a.on { background: var(--color-brand-soft); color: var(--color-brand); }
+.lh .gh { margin-inline-start: auto; height: 2.25rem; display: flex; align-items: center; padding: 0 .8rem; border-radius: .5rem; background: var(--color-ink); color: #fff; font-size: .875rem; font-weight: 600; }
+@media (max-width: 760px) { .lh nav a:not(.on) { display: none; } }
+.lm { max-width: 80rem; margin: 0 auto; padding: 2rem 1.5rem 0; }
+.lm .bc { font-size: .875rem; color: var(--color-ink-3); } .lm .bc a:hover { color: var(--color-brand); }
+.lm h1 { margin-top: 1rem; font-size: 2.25rem; font-weight: 700; letter-spacing: -.02em; } .lm h1 span { color: var(--color-ink-3); }
+.lm .bd { margin-top: .75rem; display: flex; flex-wrap: wrap; gap: .5rem; font-size: .75rem; font-weight: 600; }
+.lm .bd > * { border-radius: 999px; padding: .25rem .65rem; background: var(--color-paper); color: var(--color-ink-2); box-shadow: 0 0 0 1px var(--color-line); }
+.lm .bd .c { background: color-mix(in srgb, var(--tc) 12%, white); color: var(--tc); box-shadow: none; } .lm .bd .o { background: var(--color-brand); color: #fff; box-shadow: none; }
+.lm h2 { margin-top: 2.5rem; font-size: .875rem; font-weight: 600; }
+.lm .tx { margin-top: .75rem; font-size: .875rem; line-height: 1.6; color: var(--color-ink-2); max-width: 46rem; }
+.lm .mo li { font: .75rem var(--font-mono); color: var(--color-ink-2); margin-top: .35rem; } .lm .mo b { color: var(--color-brand); }
+.lm .tg { margin-top: .75rem; display: flex; flex-wrap: wrap; gap: .5rem; }
+.lm .tg a { border: 1px solid var(--color-line); border-radius: 999px; padding: .25rem .75rem; font-size: .75rem; color: var(--color-ink-2); } .lm .tg a:hover { color: var(--color-brand); }
+.lm .rl { margin-top: 1.25rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: .6rem; }
+.lm .rl a { display: flex; flex-direction: column; align-items: center; gap: .5rem; padding: 1rem .5rem .75rem; background: #fff; border: 1px solid var(--color-line); border-radius: 1rem; font: 11px var(--font-mono); color: var(--color-ink); transition: transform .3s var(--ease-spring), box-shadow .3s; }
+.lm .rl a:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); }
+.lm .tm { margin-top: .75rem; border-radius: .75rem; border: 1px solid #fde68a; background: #fffbeb; padding: .75rem 1rem; font-size: .875rem; color: #78350f; }
+/* compact icon grid (category pages): one short class instead of long utility lists per card */
+.ig { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: .6rem; }
+.ig a { position: relative; display: flex; flex-direction: column; align-items: center; gap: .6rem; padding: 1rem .5rem .75rem; background: #fff; border: 1px solid var(--color-line); border-radius: 1rem; box-shadow: var(--shadow-card); font: 11px var(--font-mono); color: var(--color-ink); text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; content-visibility: auto; contain-intrinsic-size: auto 112px; transition: transform .3s var(--ease-spring), box-shadow .3s, border-color .3s; }
+.ig a:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: #c7d2fe; }
+.ig a > span { display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: color-mix(in srgb, var(--tc) 10%, white); color: var(--tc); transition: background .25s, color .25s; }
+.ig a:hover > span { background: var(--tc); color: #fff; --tlp-duo: .28; }
+.ig a i { position: absolute; top: .5rem; inset-inline-end: .5rem; font: 700 9px var(--font-sans); font-style: normal; text-transform: uppercase; color: #fff; background: var(--color-brand); border-radius: .25rem; padding: 0 .25rem; }
+.lf { margin-top: 6rem; border-top: 1px solid var(--color-line); background: var(--color-paper); }
+.lf p { max-width: 80rem; margin: 0 auto; padding: 2rem 1.5rem; font-size: .75rem; color: var(--color-ink-3); } .lf a:hover { color: var(--color-brand); }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

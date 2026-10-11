@@ -1,6 +1,6 @@
-# Netlify builds the library, then the Next.js website (static export) that uses it.
+# Netlify builds the Next.js website (static export). It uses the published tlp-icons package from npm.
 [build]
-  command = "npm run build && cd web && npm install --no-audit --no-fund && npm run build"
+  command = "cd web && npm install --no-audit --no-fund && npm run build"
   publish = "web/out"
 
 [build.environment]

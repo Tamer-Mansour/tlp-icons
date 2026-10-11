@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Icon from '@/components/Icon';
+import IconGrid from '@/components/IconGrid';
 import { categories, category, iconsIn, roadmap, icon } from '@/lib/data';
 
 export const dynamicParams = false;
@@ -19,7 +20,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const SSR_LIMIT = 96; // first icons are in the HTML; the rest render on the client
 
 export default async function CategoryPage({ params }) {
   const { id } = await params;
@@ -51,18 +51,8 @@ export default async function CategoryPage({ params }) {
           {id === 'brands' && <p className="mt-6 max-w-3xl rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">Brand logos are trademarks of their respective owners (for example Facebook, Instagram and WhatsApp are trademarks of Meta Platforms, Inc.). They are included only to identify those products; inclusion does not imply endorsement.</p>}
         </div>
       </section>
-      <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6" style={{ color: c.color }}>
-        <ul className="grid grid-cols-[repeat(auto-fill,minmax(104px,1fr))] gap-2.5 sm:grid-cols-[repeat(auto-fill,minmax(118px,1fr))]">
-          {names.map((n, k) => (
-            <li key={n} className="[content-visibility:auto] [contain-intrinsic-size:auto_118px]">
-              <a href={`/icons/${n}/`} title={n} className="tile-host card card-hover relative flex flex-col items-center gap-2.5 px-2 pb-3 pt-4">
-                <span className="tile size-14" style={{ background: `color-mix(in srgb, ${c.color} 10%, white)`, color: c.color }}><Icon name={n} size="28" stroke="1.75" duotone ssr={k < SSR_LIMIT} /></span>
-                <span className="w-full truncate text-center font-mono text-[11px] text-ink">{n}</span>
-                {icon(n).source === 'tlp' && <span className="absolute end-2 top-2 rounded bg-brand px-1 text-[9px] font-bold uppercase text-white">new</span>}
-              </a>
-            </li>
-          ))}
-        </ul>
+      <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6" style={{ '--tc': c.color }}>
+        <IconGrid names={names} fresh={names.filter(n => icon(n).source === 'tlp')} />
       </div>
     </div>
   );

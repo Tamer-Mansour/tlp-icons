@@ -29,7 +29,7 @@ export default function CategoriesPage() {
                 <span className="text-ink-3 transition group-hover:translate-x-0.5 group-hover:text-brand">→</span>
               </div>
               <div className="mt-5 grid grid-cols-8 gap-1 text-ink-2" style={{ color: c.color }}>
-                {sample.map(n => <span key={n} className="grid aspect-square place-items-center rounded-lg bg-paper"><Icon name={n} size="18" stroke="1.75" /></span>)}
+                {sample.map(n => <span key={n} className="grid aspect-square place-items-center rounded-lg bg-paper"><Icon name={n} size="18" stroke="1.75" ssr={false} /></span>)}
               </div>
             </Link>
           );

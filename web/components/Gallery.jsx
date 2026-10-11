@@ -139,7 +139,7 @@ export default function Gallery({ initialCategory = null, categories }) {
           {results.slice(0, shown).map(([n, , , s]) => (
             <li key={n} className="[content-visibility:auto] [contain-intrinsic-size:auto_118px]">
               <a href={`/icons/${n}/`} title={n} className="tile-host card card-hover relative flex h-full flex-col items-center gap-2.5 px-2 pb-3 pt-4">
-                <span className="tile size-14 text-[color:inherit]" style={{ color }}>
+                <span className="tile size-14" style={{ '--tc': color }}>
                   <tlp-icon name={n} size={String(size)} stroke={String(stroke)} suppressHydrationWarning />
                 </span>
                 <span className="w-full truncate text-center font-mono text-[11px] text-ink">{n}</span>

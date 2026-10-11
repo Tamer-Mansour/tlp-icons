@@ -6,8 +6,10 @@ import RelatedGrid from '@/components/RelatedGrid';
 import { allNames, icon, category, related, sources, label, svgMarkup, SITE_URL } from '@/lib/data';
 
 export const dynamicParams = false;
+// Production: scripts/icon-pages.mjs writes light static pages for every icon after the build (keeps the deploy small).
+// Next only needs one page here; `next dev` still serves every icon through this route.
 export function generateStaticParams() {
-  return allNames().map(name => ({ name }));
+  return process.env.NODE_ENV === 'production' ? [{ name: 'bell' }] : allNames().map(name => ({ name }));
 }
 
 const SPEED = 0.6;

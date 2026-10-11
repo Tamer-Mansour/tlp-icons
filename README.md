@@ -14,18 +14,26 @@
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-6%2C489-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-6%2C620-4f46e5">
   <img alt="animated" src="https://img.shields.io/badge/animated-100%25-4f46e5">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-16a34a">
   <img alt="dependencies" src="https://img.shields.io/badge/dependencies-0-0ea5e9">
 </p>
 
-A free, open-source (MIT) library of 6,489 stroke icons, built from the best free sets (Lucide and Tabler) plus
+A free, open-source (MIT) library of 6,620 stroke icons, built from the best free sets (Lucide and Tabler) plus
 our own **tlp originals**, sorted into 35 hand-curated categories, including **376 brand logos** (Facebook,
 Instagram, WhatsApp, X, TikTok, YouTube...). Every single one moves on hover: clock hands sweep around the face,
 gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
 
-[![Gallery](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/gallery.png)](https://tlp-icons.netlify.app)
+[![tlp-icons website](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/website.png)](https://tlp-icons.netlify.app)
+
+<table><tr>
+<td><a href="https://tlp-icons.netlify.app/categories/legal/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/category.png" alt="Legal category page"></a></td>
+<td><a href="https://tlp-icons.netlify.app/icons/courthouse/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/icon-page.png" alt="Icon page with live playground and code"></a></td>
+</tr><tr>
+<td align="center">Category pages (legal: 120 icons)</td>
+<td align="center">One page per icon: playground + code</td>
+</tr></table>
 
 <details>
 <summary>Motion frames (each row is one hover animation frozen at 10 points)</summary>
@@ -33,9 +41,9 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 ![Frame strips](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/frame-strips.png)
 </details>
 
-- **6,489 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
+- **6,620 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
 - **100% animated**: 300+ hand-made choreographies, plus a motion engine that reads each icon's geometry.
-- **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to 59 first; the
+- **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to 120 first; the
   [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes it to 1,180 and the whole library to 26,000.
 - **Brand logos**: 376 brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
@@ -145,28 +153,29 @@ Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loa
 
 ## Website
 
-**https://tlp-icons.netlify.app** is built with **Next.js (React)** in `web/` and uses this package itself
-(`"tlp-icons": "file:.."`). Every page is pre-rendered static HTML for search engines:
+**https://tlp-icons.netlify.app** is built with **Next.js (React)** in `web/` and runs on the **published npm
+package** (`"tlp-icons": "^0.1.0"`; the icon pages load it from `cdn.jsdelivr.net/npm/tlp-icons`). Every page is
+pre-rendered static HTML for search engines, and the whole site is about 45 MB:
 
 | Page | URL |
 | --- | --- |
 | Home | `/` |
 | Icon gallery (search, filters, size / stroke / color / duotone) | `/icons/` |
-| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (6,489 pages) |
+| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (6,620 pages) |
 | Categories, one page each, including Brands | `/categories/`, `/categories/<id>/` |
 | Documentation with live examples and the animation library | `/docs/` |
 | Roadmap with live progress | `/roadmap/` |
 | `sitemap.xml`, `robots.txt`, Open Graph image | |
 
 ```bash
-npm run build                  # the library (repository root)
-cd web && npm install
+cd web && npm install         # installs tlp-icons from npm
 npm run dev                    # http://localhost:3000
-npm run build                  # static site in web/out (about 270 MB, 6,700 files)
+npm run build                  # static site in web/out (about 45 MB, 6,900 files)
 node scripts/serve.mjs         # serve web/out on http://localhost:4321
 ```
 
 Netlify runs the same steps (see `netlify.toml`) and publishes `web/out` on every push to `main`.
+After publishing a new tlp-icons version to npm, run `npm install tlp-icons@latest` in `web/` and redeploy.
 For a manual deploy, drag the `web/out` folder onto the site's **Deploys** tab in Netlify.
 
 **Offline use:** `dist/tlp-icons.all.js` is a single classic script with every icon; it works from `file://`
