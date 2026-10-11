@@ -1,11 +1,28 @@
-# tlp-icons
+<p align="center">
+  <a href="https://tlp-icons.netlify.app"><img src="src/site/favicon.svg" width="88" height="88" alt="tlp-icons logo"></a>
+</p>
 
-**Every icon, animated.** A free, open-source (MIT) library of 6,000+ stroke icons, built from the best free
-sets (Lucide and Tabler), sorted into 34 hand-curated categories, and every single one moves on hover:
-clock hands sweep around the face, gears spin on their axle, bells swing from the top, trash lids lift,
-arrows move the way they point.
+<h1 align="center">tlp-icons</h1>
 
-![Gallery](docs/gallery.png)
+<p align="center">
+  <b>Every icon, animated.</b><br>
+  <a href="https://tlp-icons.netlify.app"><b>Browse the icons</b></a> ·
+  <a href="https://tlp-icons.netlify.app/docs.html"><b>Documentation</b></a> ·
+  <a href="https://github.com/Tamer-Mansour/tlp-icons">GitHub</a>
+</p>
+
+<p align="center">
+  <img alt="icons" src="https://img.shields.io/badge/icons-6%2C067-4f46e5">
+  <img alt="animated" src="https://img.shields.io/badge/animated-100%25-4f46e5">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-16a34a">
+  <img alt="dependencies" src="https://img.shields.io/badge/dependencies-0-0ea5e9">
+</p>
+
+A free, open-source (MIT) library of 6,000+ stroke icons, built from the best free sets (Lucide and Tabler)
+and sorted into 34 hand-curated categories. Every single one moves on hover: clock hands sweep around the
+face, gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
+
+[![Gallery](docs/gallery.png)](https://tlp-icons.netlify.app)
 
 <details>
 <summary>Motion frames (each row is one hover animation frozen at 10 points)</summary>
@@ -120,12 +137,22 @@ icons.bell;                                    // { svg, m: [[part, anim, dur, d
 
 Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loads one category chunk at a time.
 
-## Gallery
+## Website
 
-Live: **https://tlp-icons.netlify.app** (Netlify serves `site/`, see `netlify.toml`).
+| Page | Live | Local file |
+| --- | --- | --- |
+| Icon gallery | **https://tlp-icons.netlify.app** | `site/index.html` |
+| Documentation & usage | **https://tlp-icons.netlify.app/docs.html** | `site/docs.html` |
 
-Open `site/index.html` directly from disk (no server needed), or run `npm run dev` and visit `http://localhost:5173`.
-It has a category sidebar, instant search over names and tags, size/stroke/color/duotone controls, an RTL toggle,
+Both pages open straight from disk with no server or internet, or run `npm run dev` and visit
+`http://localhost:5173`. Netlify publishes the `site/` folder as it is (see `netlify.toml`); every push to `main`
+updates it.
+
+The documentation page covers installation, every attribute with live examples, React / Angular / Vue / Svelte
+setup, styling, the hover rule, the JavaScript API, all 34 animations (hover to preview), accessibility, RTL,
+custom choreographies and building from source.
+
+The gallery has a category sidebar, instant search over names and tags, size/stroke/color/duotone controls, an RTL toggle,
 and play / loop per category. The detail drawer shows a large preview, a size strip, button mockups, the motion
 steps, and copy buttons for SVG, HTML, React, Angular and Vue.
 

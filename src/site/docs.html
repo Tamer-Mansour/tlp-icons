@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation — tlp-icons</title>
+<meta name="description" content="How to install and use tlp-icons: animated icons for HTML, React, Angular and Vue.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tlp-icons documentation">
+<meta property="og:description" content="Install and use 6,000+ animated icons in any framework.">
+<meta property="og:url" content="https://tlp-icons.netlify.app/docs.html">
+<meta property="og:image" content="https://tlp-icons.netlify.app/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{
+  --bg:#f6f7fb;--surface:#fff;--ink:#0f172a;--ink-2:#475569;--ink-3:#94a3b8;--line:#e6e9f0;
+  --accent:#4f46e5;--accent-soft:color-mix(in srgb,var(--accent) 9%,white);--ease:cubic-bezier(.34,1.56,.64,1);
+  --font:Inter,"Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono","Cascadia Code",Consolas,"SFMono-Regular",Menlo,monospace;
+  color-scheme:light;--tlp-duo:.16;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.65 var(--font);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:30;background:rgba(246,247,251,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:12px 18px;max-width:1280px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;margin-inline-end:auto;min-width:0}
+.logo{width:36px;height:36px;border-radius:10px;display:block;flex:none;box-shadow:0 6px 16px -6px #4f46e5;transition:transform .35s var(--ease)}
+.logo img{display:block;width:36px;height:36px}
+.logo:hover{transform:rotate(-8deg) scale(1.06)}
+.brand h1{font-size:17px;margin:0;font-weight:700;letter-spacing:-.01em;line-height:1.3}
+.brand small{display:block;color:var(--ink-2);font-size:12px;font-weight:500;line-height:1.3}
+.nav{display:flex;gap:2px;margin-inline-start:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:3px}
+.nav a{font-size:13px;font-weight:600;color:var(--ink-2);text-decoration:none;padding:4px 12px;border-radius:7px;line-height:1.5}
+.nav a[aria-current=page]{background:var(--ink);color:#fff}
+.nav a:not([aria-current]):hover{background:var(--bg)}
+.gh{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border-radius:8px;background:var(--ink);color:#fff;text-decoration:none;font-size:12.5px;font-weight:600}
+.gh:hover{background:#1e293b}
+.gh svg{width:15px;height:15px}
+
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;max-width:1280px;margin:0 auto;padding:0 18px}
+aside.toc{position:sticky;top:72px;align-self:start;max-height:calc(100vh - 80px);overflow:auto;padding:26px 0 30px;font-size:13.5px}
+.toc h2{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3);margin:0 0 8px 10px}
+.toc a{display:block;padding:4px 10px;border-radius:7px;color:var(--ink-2);text-decoration:none;font-weight:500}
+.toc a:hover{background:var(--surface);color:var(--ink)}
+.toc a.on{background:var(--surface);color:var(--accent);box-shadow:0 0 0 1px var(--line)}
+.toc a.sub{padding-inline-start:22px;font-size:12.5px;font-weight:400}
+main{padding:30px 0 60px;max-width:860px;min-width:0}
+.hero h2{font-size:34px;letter-spacing:-.025em;line-height:1.15;margin:0 0 10px}
+.hero p{color:var(--ink-2);font-size:16.5px;margin:0 0 18px;max-width:640px}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badges span{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--ink-2)}
+.badges tlp-icon{--tlp-size:14px;color:var(--accent)}
+section{scroll-margin-top:76px;padding-top:34px}
+h3{font-size:22px;letter-spacing:-.015em;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3 .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);flex:none}
+h3 .ic tlp-icon{--tlp-size:19px;--tlp-stroke:2}
+h4{font-size:15.5px;margin:22px 0 8px}
+p{margin:0 0 12px}
+code{font:13px var(--mono);background:#eef0f6;border-radius:5px;padding:1px 5px}
+.codebox{position:relative;margin:10px 0 16px}
+.codebox pre{margin:0;background:#0f172a;color:#e2e8f0;border-radius:12px;padding:14px 16px;font:12.5px/1.7 var(--mono);overflow:auto}
+.codebox pre code{background:none;padding:0;font:inherit;color:inherit}
+.codebox .lang{position:absolute;top:8px;inset-inline-end:62px;font:600 10px var(--font);text-transform:uppercase;letter-spacing:.06em;color:#64748b}
+.codebox button{position:absolute;top:7px;inset-inline-end:8px;height:24px;padding:0 9px;border-radius:6px;border:1px solid #334155;background:#1e293b;color:#cbd5e1;font:600 11px var(--font);cursor:pointer}
+.codebox button:hover{background:#334155}
+.tk-c{color:#64748b}.tk-s{color:#a5f3a1}.tk-t{color:#93c5fd}.tk-a{color:#fcd34d}
+table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:13.5px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{text-align:start;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-3);background:#fafbfd}
+tr:last-child td{border-bottom:0}
+td code{white-space:nowrap}
+.demo{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;margin:10px 0 16px;display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.demo .cell{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:92px;padding:10px;border-radius:10px;color:var(--accent);cursor:default}
+.demo .cell:hover{background:var(--accent-soft)}
+.demo .cell small{font:11px var(--mono);color:var(--ink-2)}
+.btn{display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 14px;border-radius:9px;font:600 13px var(--font);border:0;cursor:pointer;background:var(--accent);color:#fff}
+.btn.soft{background:var(--accent-soft);color:var(--accent)}
+.btn tlp-icon{--tlp-size:17px;--tlp-stroke:2}
+.cardx{background:var(--bg);border:1px dashed #cbd5e1;border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center;color:var(--ink-2);font-size:13px}
+.cardx tlp-icon{color:var(--accent)}
+.anims{display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:8px;margin:10px 0 16px}
+.anim{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 8px 10px;display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--accent);transition:border-color .2s,transform .25s var(--ease)}
+.anim:hover{border-color:color-mix(in srgb,var(--accent) 35%,white);transform:translateY(-2px)}
+.anim tlp-icon{--tlp-size:34px;--tlp-stroke:1.75}
+.anim b{font:600 12px var(--mono);color:var(--ink)}
+.anim small{font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:12px 14px;font-size:13.5px;color:#713f12;margin:10px 0 16px}
+.tip{background:#eef2ff;border:1px solid #c7d2fe;border-radius:12px;padding:12px 14px;font-size:13.5px;color:#312e81;margin:10px 0 16px}
+footer{border-top:1px solid var(--line);margin-top:50px;padding:22px 0;color:var(--ink-3);font-size:12.5px}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:9px 14px;border-radius:10px;font-size:12px;font-weight:500;opacity:0;transition:all .25s;z-index:60;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr;gap:0}
+  aside.toc{display:none}
+  .hero h2{font-size:27px}
+}
+@media (max-width:560px){ .brand small{display:none} .nav{margin-inline-start:6px} main{padding-top:18px} }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <div class="brand">
+      <a class="logo" href="index.html" aria-label="tlp-icons home"><img src="favicon.svg" alt="" width="36" height="36"></a>
+      <div><h1>tlp-icons</h1><small>Every icon, animated</small></div>
+      <nav class="nav"><a href="index.html">Icons</a><a href="docs.html" aria-current="page">Docs</a></nav>
+    </div>
+    <a class="gh" href="https://github.com/Tamer-Mansour/tlp-icons" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="toc" id="toc"><h2>On this page</h2></aside>
+  <main id="doc">
+    <div class="hero">
+      <h2>Documentation</h2>
+      <p>tlp-icons is a free, open-source icon library where every icon is animated. One small custom element, <code>&lt;tlp-icon&gt;</code>, works in plain HTML and in every framework.</p>
+      <div class="badges">
+        <span><tlp-icon name="sparkles"></tlp-icon><b id="b-count">6,000+</b> icons</span>
+        <span><tlp-icon name="layout-grid"></tlp-icon><b id="b-cats">34</b> categories</span>
+        <span><tlp-icon name="play"></tlp-icon>100% animated</span>
+        <span><tlp-icon name="scale"></tlp-icon>MIT license</span>
+        <span><tlp-icon name="wifi-off"></tlp-icon>Works offline</span>
+      </div>
+    </div>
+
+    <section id="install">
+      <h3><span class="ic"><tlp-icon name="download"></tlp-icon></span>Installation</h3>
+      <h4>npm</h4>
+      <div class="codebox" data-lang="bash"><pre><code>npm install tlp-icons</code></pre></div>
+      <h4>CDN (no build step)</h4>
+      <p>Loads the element and fetches only the icon categories the page uses.</p>
+      <div class="codebox" data-lang="html"><pre><code>&lt;script type="module" src="https://unpkg.com/tlp-icons/dist/tlp-icon.js"&gt;&lt;/script&gt;
+
+&lt;tlp-icon name="bell"&gt;&lt;/tlp-icon&gt;</code></pre></div>
+      <h4>Offline, one file</h4>
+      <p>A classic script with every icon inside (about 2.2 MB). It works from <code>file://</code> and without any network or module loader.</p>
+      <div class="codebox" data-lang="html"><pre><code>&lt;script src="tlp-icons.all.js"&gt;&lt;/script&gt;
+&lt;tlp-icon name="bell"&gt;&lt;/tlp-icon&gt;</code></pre></div>
+      <p>The file is at <code>node_modules/tlp-icons/dist/tlp-icons.all.js</code>. Copy it next to your page.</p>
+    </section>
+
+    <section id="usage">
+      <h3><span class="ic"><tlp-icon name="mouse-pointer-click"></tlp-icon></span>Basic usage</h3>
+      <p>Write the element with an icon <code>name</code> (find names in the <a href="index.html">icon gallery</a>). Hover the icons below.</p>
+      <div class="demo">
+        <div class="cell"><tlp-icon name="bell" size="32"></tlp-icon><small>bell</small></div>
+        <div class="cell"><tlp-icon name="clock" size="32"></tlp-icon><small>clock</small></div>
+        <div class="cell"><tlp-icon name="settings" size="32"></tlp-icon><small>settings</small></div>
+        <div class="cell"><tlp-icon name="trash" size="32"></tlp-icon><small>trash</small></div>
+        <div class="cell"><tlp-icon name="cloud-rain" size="32"></tlp-icon><small>cloud-rain</small></div>
+        <div class="cell"><tlp-icon name="lock" size="32"></tlp-icon><small>lock</small></div>
+      </div>
+      <div class="codebox" data-lang="html"><pre><code>&lt;tlp-icon name="bell"&gt;&lt;/tlp-icon&gt;
+&lt;tlp-icon name="settings" size="32" stroke="1.5"&gt;&lt;/tlp-icon&gt;</code></pre></div>
+
+      <h4 id="attributes">Attributes</h4>
+      <table>
+        <thead><tr><th>Attribute</th><th>Values</th><th>Default</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td><code>name</code></td><td>icon name or Lucide alias</td><td></td><td>Which icon to show.</td></tr>
+          <tr><td><code>size</code></td><td>number (px) or CSS length</td><td><code>24</code></td><td>Width and height. Same as <code>--tlp-size</code>.</td></tr>
+          <tr><td><code>stroke</code></td><td>number</td><td><code>2</code></td><td>Stroke width in the 24×24 grid. Same as <code>--tlp-stroke</code>.</td></tr>
+          <tr><td><code>trigger</code></td><td><code>hover</code> <code>loop</code> <code>click</code> <code>none</code></td><td><code>hover</code></td><td>When the animation plays.</td></tr>
+          <tr><td><code>duotone</code></td><td>boolean</td><td>off</td><td>Adds a soft tinted fill to the icon's main body.</td></tr>
+          <tr><td><code>flip</code></td><td><code>rtl</code> <code>x</code></td><td>off</td><td><code>rtl</code> mirrors the icon only on right-to-left pages; <code>x</code> always mirrors.</td></tr>
+        </tbody>
+      </table>
+
+      <h4 id="triggers">Triggers</h4>
+      <div class="demo">
+        <div class="cell"><tlp-icon name="heart" size="32"></tlp-icon><small>hover</small></div>
+        <div class="cell"><tlp-icon name="loader-circle" size="32" trigger="loop"></tlp-icon><small>loop</small></div>
+        <div class="cell" style="cursor:pointer"><tlp-icon name="party-popper" size="32" trigger="click"></tlp-icon><small>click me</small></div>
+        <div class="cell"><tlp-icon name="anchor" size="32" trigger="none"></tlp-icon><small>none</small></div>
+      </div>
+      <div class="codebox" data-lang="html"><pre><code>&lt;tlp-icon name="heart"&gt;&lt;/tlp-icon&gt;                         &lt;!-- hover (default) --&gt;
+&lt;tlp-icon name="loader-circle" trigger="loop"&gt;&lt;/tlp-icon&gt;  &lt;!-- plays again and again --&gt;
+&lt;tlp-icon name="party-popper" trigger="click"&gt;&lt;/tlp-icon&gt;  &lt;!-- plays on click --&gt;
+&lt;tlp-icon name="anchor" trigger="none"&gt;&lt;/tlp-icon&gt;         &lt;!-- only from code: el.play() --&gt;</code></pre></div>
+
+      <h4 id="duotone">Duotone and size</h4>
+      <div class="demo">
+        <div class="cell"><tlp-icon name="folder" size="32"></tlp-icon><small>default</small></div>
+        <div class="cell"><tlp-icon name="folder" size="32" duotone></tlp-icon><small>duotone</small></div>
+        <div class="cell"><tlp-icon name="folder" size="20" stroke="2"></tlp-icon><small>20 · 2</small></div>
+        <div class="cell"><tlp-icon name="folder" size="44" stroke="1.25" duotone></tlp-icon><small>44 · 1.25</small></div>
+      </div>
+    </section>
+
+    <section id="frameworks">
+      <h3><span class="ic"><tlp-icon name="code"></tlp-icon></span>Frameworks</h3>
+      <p>Import the element once at startup, then use <code>&lt;tlp-icon&gt;</code> in any template.</p>
+      <h4 id="react">React</h4>
+      <div class="codebox" data-lang="jsx"><pre><code>import 'tlp-icons/element';
+
+export function SaveButton() {
+  return (
+    &lt;button&gt;
+      &lt;tlp-icon name="save" /&gt; Save
+    &lt;/button&gt;
+  );
+}</code></pre></div>
+      <p>React 19 supports custom elements directly. With TypeScript, declare the tag once:</p>
+      <div class="codebox" data-lang="ts"><pre><code>// tlp-icon.d.ts
+declare namespace JSX {
+  interface IntrinsicElements {
+    'tlp-icon': { name: string; size?: string | number; stroke?: string | number;
+                  trigger?: 'hover' | 'loop' | 'click' | 'none'; duotone?: boolean | ''; flip?: 'rtl' | 'x' };
+  }
+}</code></pre></div>
+      <h4 id="angular">Angular</h4>
+      <div class="codebox" data-lang="ts"><pre><code>// main.ts
+import 'tlp-icons/element';
+
+// any component
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
+@Component({
+  selector: 'app-toolbar',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  template: `&lt;button&gt;&lt;tlp-icon name="bell"&gt;&lt;/tlp-icon&gt; Alerts&lt;/button&gt;`,
+})
+export class ToolbarComponent {}</code></pre></div>
+      <h4 id="vue">Vue</h4>
+      <div class="codebox" data-lang="ts"><pre><code>// main.ts
+import 'tlp-icons/element';
+
+// vite.config.ts
+vue({ template: { compilerOptions: { isCustomElement: tag =&gt; tag === 'tlp-icon' } } })</code></pre></div>
+      <div class="codebox" data-lang="vue"><pre><code>&lt;template&gt;
+  &lt;tlp-icon :name="done ? 'circle-check' : 'circle'" /&gt;
+&lt;/template&gt;</code></pre></div>
+      <h4 id="svelte">Svelte, Solid, Lit, plain JS</h4>
+      <p>Import <code>tlp-icons/element</code> and use the tag. Custom elements work natively in all of these.</p>
+    </section>
+
+    <section id="styling">
+      <h3><span class="ic"><tlp-icon name="palette"></tlp-icon></span>Styling</h3>
+      <p>Icons use <code>currentColor</code>, so they take the text color of their parent. Theme them with CSS variables:</p>
+      <div class="codebox" data-lang="css"><pre><code>tlp-icon { --tlp-size: 20px; --tlp-stroke: 1.75; }
+.danger  { color: #dc2626; }          /* icon color = text color */
+.card    { --tlp-duo: .22; }           /* duotone fill strength (needs the duotone attribute or this variable) */</code></pre></div>
+      <table>
+        <thead><tr><th>Variable</th><th>Default</th><th>Meaning</th></tr></thead>
+        <tbody>
+          <tr><td><code>--tlp-size</code></td><td><code>24px</code></td><td>Icon size.</td></tr>
+          <tr><td><code>--tlp-stroke</code></td><td><code>2</code></td><td>Stroke width.</td></tr>
+          <tr><td><code>--tlp-duo</code></td><td><code>0</code> (<code>.16</code> with <code>duotone</code>)</td><td>Opacity of the duotone body fill.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="hover">
+      <h3><span class="ic"><tlp-icon name="pointer"></tlp-icon></span>The hover rule</h3>
+      <p>Animations should help, not distract. So hovering decides <em>which</em> icon plays:</p>
+      <ol>
+        <li>Hovering an icon animates it.</li>
+        <li>Hovering anything else walks up to the nearest element that holds <b>exactly one</b> icon (a button, a menu item, a link) and animates that icon.</li>
+        <li>If it reaches an element with <b>several</b> icons first (a card, a menu, a table row), nothing animates.</li>
+      </ol>
+      <p>An animation always plays to the end, even if the pointer leaves. Try it:</p>
+      <div class="demo">
+        <button class="btn"><tlp-icon name="send"></tlp-icon>Send message</button>
+        <button class="btn soft"><tlp-icon name="download"></tlp-icon>Download</button>
+        <div class="cardx">Hover this card's text: nothing moves, because it holds three icons. <tlp-icon name="bell"></tlp-icon><tlp-icon name="mail"></tlp-icon><tlp-icon name="calendar"></tlp-icon></div>
+      </div>
+    </section>
+
+    <section id="api">
+      <h3><span class="ic"><tlp-icon name="braces"></tlp-icon></span>JavaScript API</h3>
+      <h4>Element methods</h4>
+      <div class="codebox" data-lang="js"><pre><code>const el = document.querySelector('tlp-icon');
+el.play();                       // play once (returns false if it is already playing)
+el.setAttribute('name', 'bell'); // swap the icon
+el.addEventListener('tlp-ready', () =&gt; { /* svg rendered */ });</code></pre></div>
+      <h4>Raw data and SVG strings (Node, SSR, build tools)</h4>
+      <div class="codebox" data-lang="js"><pre><code>import { icons, categories, aliases, getIcon, getSvg } from 'tlp-icons';
+
+getSvg('bell');                                 // static SVG markup
+getSvg('bell', { size: 32, stroke: 1.5, duotone: true });
+getSvg('bell', { animated: true });             // motion baked in (load dist/tlp-icons.css)
+getIcon('trash-2');                             // aliases resolve too
+icons.bell;      // { svg, m: [[part, anim, dur, delay, origin?], ...] }
+categories;      // [{ id, title, icon, color, count }]</code></pre></div>
+      <div class="note">Importing <code>icons</code> pulls in the whole set. In pages, prefer <code>&lt;tlp-icon&gt;</code>: it downloads one category at a time.</div>
+      <h4>Runtime settings</h4>
+      <div class="codebox" data-lang="js"><pre><code>import { config, run, register } from 'tlp-icons/element';
+
+config.speed = 0.8;          // 0.6 by default (about 0.9 s per icon); higher = slower
+run(svgElement);             // play any rendered icon svg
+register({ 'my-logo': { svg: '&lt;path class="p1" d="M4 12h16"/&gt;', m: [['p1', 'draw', 900, 0]] } });</code></pre></div>
+      <h4>Files in the package</h4>
+      <table>
+        <thead><tr><th>File</th><th>Use</th></tr></thead>
+        <tbody>
+          <tr><td><code>dist/tlp-icon.js</code></td><td>ES module: defines <code>&lt;tlp-icon&gt;</code>, lazy-loads categories (<code>tlp-icons/element</code>).</td></tr>
+          <tr><td><code>dist/index.js</code></td><td>ES module: raw data, <code>getSvg</code>, <code>getIcon</code> (<code>tlp-icons</code>).</td></tr>
+          <tr><td><code>dist/icons/&lt;category&gt;.js</code></td><td>One chunk per category.</td></tr>
+          <tr><td><code>dist/tlp-icons.all.js</code></td><td>Classic script, every icon, works offline.</td></tr>
+          <tr><td><code>dist/tlp-icons.css</code></td><td>Styles and keyframes (the element injects them for you).</td></tr>
+          <tr><td><code>dist/tlp-icons.json</code></td><td>All data with tags, sources and categories.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="animations">
+      <h3><span class="ic"><tlp-icon name="sparkles"></tlp-icon></span>Animation library</h3>
+      <p>Every choreography is built from these 34 animations. Entrances bring a part into place. Gestures move it and return exactly to rest. Hover a tile to see it.</p>
+      <div class="anims" id="anims"></div>
+      <p>All keyframes are prefixed <code>tlp-</code>, so they never clash with Tailwind's <code>spin</code>/<code>bounce</code>/<code>pulse</code> or your own CSS.</p>
+    </section>
+
+    <section id="a11y">
+      <h3><span class="ic"><tlp-icon name="accessibility"></tlp-icon></span>Accessibility and motion</h3>
+      <ul>
+        <li>Icons are decorative by default (<code>aria-hidden="true"</code>). When an icon carries meaning on its own, give it a role and a label:
+          <div class="codebox" data-lang="html"><pre><code>&lt;tlp-icon name="circle-alert" role="img" aria-label="Error"&gt;&lt;/tlp-icon&gt;</code></pre></div></li>
+        <li>When the user's system asks for less motion (<code>prefers-reduced-motion</code>), icons never animate.</li>
+        <li>Animations are short (0.9 s on average, 1.6 s at most), soft, and always end exactly at rest.</li>
+      </ul>
+    </section>
+
+    <section id="rtl">
+      <h3><span class="ic"><tlp-icon name="arrow-left-right"></tlp-icon></span>Right-to-left</h3>
+      <p>Motion always follows the drawing: an arrow pointing right moves right. For RTL pages, mirror directional icons with <code>flip="rtl"</code>. They flip only when an ancestor has <code>dir="rtl"</code>, and their motion flips with them.</p>
+      <div class="codebox" data-lang="html"><pre><code>&lt;html dir="rtl"&gt;
+  &lt;button&gt;&lt;tlp-icon name="arrow-right" flip="rtl"&gt;&lt;/tlp-icon&gt; التالي&lt;/button&gt;</code></pre></div>
+    </section>
+
+    <section id="engine">
+      <h3><span class="ic"><tlp-icon name="cog"></tlp-icon></span>How the motion works</h3>
+      <p>Each icon is split into its strokes and measured. Then, in order:</p>
+      <ol>
+        <li><b>Hand-made choreography</b>, if the icon has one (in <code>overrides/</code>).</li>
+        <li><b>Mechanics.</b> Clock hands are found and split at the face centre. The minute hand sweeps and the hour hand advances, keeping its new position. Gears spin on their axle, and arrows move the way they point.</li>
+        <li><b>Composites.</b> <code>file-plus</code>, <code>user-cog</code> and <code>circle-check</code> animate as base + badge or container + glyph. <code>-off</code> icons draw their slash last.</li>
+        <li><b>Keyword rules</b> from <code>config/rules.json</code>: bells swing, trash lids lift, eyes blink, rain falls, cars drive...</li>
+        <li><b>Fallback.</b> The body fills, the outline draws, details follow, then a soft finishing gesture.</li>
+      </ol>
+    </section>
+
+    <section id="custom">
+      <h3><span class="ic"><tlp-icon name="pen-tool"></tlp-icon></span>Custom choreography</h3>
+      <p>Improve one icon by adding <code>overrides/&lt;name&gt;.json</code>. Tag the moving pieces with part classes (<code>p1</code>...<code>p4</code>), mark the main body with <code>d</code> for duotone, and list the steps:</p>
+      <div class="codebox" data-lang="json"><pre><code>{
+  "name": "bell",
+  "svg": "&lt;path class=\"d p1\" d=\"M10.27 21a2 2 0 0 0 3.46 0\"/&gt; ...",
+  "motion": [
+    { "part": "p1", "anim": "swing", "dur": 1400, "delay": 0, "origin": "12px 3px" },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 90, "origin": "12px 3px" }
+  ]
+}</code></pre></div>
+      <p><code>dur</code> and <code>delay</code> are design milliseconds (the runtime multiplies them by <code>speed</code>). <code>origin</code> is a CSS keyword (<code>top</code>, <code>bottom left</code>...) or a pivot in the 24×24 grid like <code>"12px 12px"</code>. To change many icons at once, edit a rule in <code>config/rules.json</code>.</p>
+    </section>
+
+    <section id="build">
+      <h3><span class="ic"><tlp-icon name="terminal"></tlp-icon></span>Build from source</h3>
+      <div class="codebox" data-lang="bash"><pre><code>git clone https://github.com/Tamer-Mansour/tlp-icons
+cd tlp-icons
+npm run build          # offline: upstream/ + config/ + overrides/  -&gt;  dist/ + site/
+npm test               # offline test suite
+npm run dev            # gallery at http://localhost:5173
+npm run sync           # online: fetch the latest Lucide + Tabler, then rebuild
+npm run setup:browser  # once, then: npm run test:browser</code></pre></div>
+      <div class="tip">No dependencies to install. Everything after <code>npm run sync</code> works without internet.</div>
+    </section>
+
+    <section id="license">
+      <h3><span class="ic"><tlp-icon name="scale"></tlp-icon></span>License and credits</h3>
+      <p>tlp-icons is MIT licensed. Icon geometry comes from <a href="https://lucide.dev" target="_blank" rel="noopener">Lucide</a> (ISC) and <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT); their licenses ship in the package. Contributions are welcome on <a href="https://github.com/Tamer-Mansour/tlp-icons" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+
+    <footer>tlp-icons · MIT · <a href="index.html">Browse all icons</a> · <a href="https://github.com/Tamer-Mansour/tlp-icons" target="_blank" rel="noopener">GitHub</a></footer>
+  </main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="tlp-icons.runtime.js"></script>
+<script src="data.js"></script>
+<script>
+(function () {
+  'use strict';
+  var D = window.TLP_DATA, T = window.TlpIcons;
+  var reg = {};
+  D.icons.forEach(function (i) { reg[i.n] = { svg: i.svg, m: i.m, r: i.r }; });
+  T.register(reg, D.aliases);
+  document.getElementById('b-count').textContent = D.icons.length.toLocaleString('en');
+  document.getElementById('b-cats').textContent = D.categories.length;
+
+  // animation library: each anim shown alone on a fitting icon
+  var LIB = [
+    ['draw', 'signature', 'entrance'], ['fillIn', 'file', 'entrance'], ['popIn', 'star', 'entrance'], ['fadeIn', 'ghost', 'entrance'],
+    ['slideIn', 'arrow-right', 'entrance'], ['riseIn', 'arrow-up', 'entrance'], ['dropIn', 'droplet', 'entrance'], ['grow', 'chart-column', 'entrance', 'bottom'],
+    ['growX', 'align-left', 'entrance', 'left'], ['pop', 'heart', 'gesture'], ['breathe', 'heart-pulse', 'gesture'], ['jelly', 'smile', 'gesture'],
+    ['swing', 'bell', 'gesture', 'top'], ['wiggle', 'phone', 'gesture'], ['tilt', 'search', 'gesture'], ['nod', 'pencil', 'gesture', 'bottom left'],
+    ['strike', 'gavel', 'gesture', 'bottom left'], ['hop', 'rabbit', 'gesture'], ['lift', 'arrow-big-up', 'gesture'], ['sink', 'arrow-big-down', 'gesture'],
+    ['nudge', 'arrow-big-right', 'gesture'], ['nudgeBack', 'arrow-big-left', 'gesture'], ['float', 'cloud', 'gesture'], ['flip', 'credit-card', 'gesture'],
+    ['spin', 'settings', 'turn'], ['spinBack', 'rotate-ccw', 'turn'], ['spinHalf', 'hourglass', 'turn'], ['sweep', 'clock', 'turn'],
+    ['sweepHour', 'clock-9', 'turn'], ['blink', 'eye', 'gesture'], ['shake', 'triangle-alert', 'gesture'], ['pulseRing', 'circle-dot', 'gesture'],
+    ['orbit', 'orbit', 'turn'], ['stretch', 'move-horizontal', 'gesture']
+  ];
+  var DUR = { draw: 1000, fillIn: 1000, popIn: 800, fadeIn: 800, slideIn: 800, riseIn: 800, dropIn: 800, grow: 900, growX: 800, pop: 800, breathe: 1300, jelly: 1100, swing: 1400, wiggle: 1100, tilt: 1100, nod: 1000, strike: 1100, hop: 1000, lift: 1000, sink: 1000, nudge: 1000, nudgeBack: 1000, float: 1600, flip: 1200, spin: 1500, spinBack: 1500, spinHalf: 1200, sweep: 1600, sweepHour: 1600, blink: 900, shake: 1000, pulseRing: 1200, orbit: 1600, stretch: 1000 };
+  var html = '';
+  LIB.forEach(function (row) {
+    var anim = row[0], base = T.getIcon(row[1]) || T.getIcon('circle');
+    var name = 'tlp-demo-' + anim, icon;
+    var own = base.m.filter(function (s) { return s[1] === anim; });
+    if (own.length) icon = { svg: base.svg, m: own };
+    else if (anim === 'fillIn' || anim === 'draw') {
+      var svg = base.svg, hit = false;
+      if (anim === 'fillIn') svg = svg.replace(/class="d( [^"]*)?"/, function () { hit = true; return 'class="d p9"'; });
+      icon = hit ? { svg: svg, m: [['p9', 'fillIn', DUR.fillIn, 0]] } : { svg: base.svg, m: [['all', anim, DUR[anim], 0]] };
+    } else icon = { svg: base.svg, m: [['all', anim, DUR[anim], 0].concat(row[3] ? [row[3]] : [])] };
+    var add = {}; add[name] = icon; T.register(add);
+    html += '<div class="anim"><tlp-icon name="' + name + '"' + (anim === 'fillIn' ? ' duotone' : '') + '></tlp-icon><b>' + anim + '</b><small>' + row[2] + '</small></div>';
+  });
+  document.getElementById('anims').innerHTML = html;
+
+  // code blocks: language label, light syntax colouring (one pass, so it never re-colours its own markup), copy button
+  var esc = function (s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); };
+  var span = function (cls, s) { return '<span class="' + cls + '">' + s + '</span>'; };
+  var PATTERNS = {
+    markup: /(&lt;!--[\s\S]*?--&gt;)|(\/\/[^\n]*)|("[^"\n]*"|'[^'\n]*')|(&lt;\/?)([a-zA-Z][\w-]*)|(\s)([:@]?[a-zA-Z][\w-]*)(?==)/g,
+    script: /(\/\/[^\n]*|\/\*[\s\S]*?\*\/)|('[^'\n]*'|"(?:[^"\\\n]|\\.)*"|`[^`]*`)/g,
+    shell: /((?:^|\s)#[^\n]*)/g,
+    css: /(\/\*[\s\S]*?\*\/)/g,
+  };
+  function highlight(text, lang) {
+    var kind = /html|vue|jsx/.test(lang) ? 'markup' : lang === 'bash' ? 'shell' : lang === 'css' ? 'css' : 'script';
+    return text.replace(PATTERNS[kind], function (m, a, b, c, d, e, f, g) {
+      if (kind === 'markup') {
+        if (a) return span('tk-c', a);
+        if (b) return span('tk-c', b);
+        if (c) return span('tk-s', c);
+        if (d) return d + span('tk-t', e);
+        if (g) return f + span('tk-a', g);
+        return m;
+      }
+      if (kind === 'script') return a ? span('tk-c', a) : span('tk-s', b);
+      return span('tk-c', a);
+    });
+  }
+  document.querySelectorAll('.codebox').forEach(function (box) {
+    var code = box.querySelector('code'), raw = code.textContent, lang = box.dataset.lang;
+    code.innerHTML = highlight(esc(raw), lang);
+    box.insertAdjacentHTML('beforeend', '<span class="lang">' + lang + '</span><button type="button">Copy</button>');
+    box.querySelector('button').addEventListener('click', function () { copy(raw); });
+  });
+  function toast(t) { var el = document.getElementById('toast'); el.textContent = t; el.classList.add('show'); clearTimeout(el._t); el._t = setTimeout(function () { el.classList.remove('show'); }, 1400); }
+  function copy(text) {
+    var ok = function () { toast('Copied'); };
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fb); else fb();
+    function fb() { var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); ok(); } catch (e) {} ta.remove(); }
+  }
+
+  // table of contents with scroll spy
+  var toc = document.getElementById('toc');
+  document.querySelectorAll('main section, main h4[id]').forEach(function (el) {
+    var h = el.tagName === 'SECTION' ? el.querySelector('h3') : el;
+    if (!el.id || !h) return;
+    var a = document.createElement('a');
+    a.href = '#' + el.id; a.textContent = h.textContent.trim();
+    if (el.tagName === 'H4') a.className = 'sub';
+    toc.appendChild(a);
+  });
+  var links = toc.querySelectorAll('a');
+  var spy = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      links.forEach(function (l) { l.classList.toggle('on', l.getAttribute('href') === '#' + e.target.id); });
+    });
+  }, { rootMargin: '-80px 0px -70% 0px' });
+  document.querySelectorAll('main section').forEach(function (s) { spy.observe(s); });
+})();
+</script>
+</body>
+</html>

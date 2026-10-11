@@ -4,7 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>tlp-icons â€” every icon, animated</title>
-<meta name="description" content="Free, open-source icon library where every icon is animated. Built from Lucide and Tabler.">
+<meta name="description" content="Free, open-source icon library where every icon is animated. 6,000+ icons built from Lucide and Tabler.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tlp-icons — every icon, animated">
+<meta property="og:description" content="6,000+ free open-source icons, every one animated. MIT.">
+<meta property="og:url" content="https://tlp-icons.netlify.app/">
+<meta property="og:image" content="https://tlp-icons.netlify.app/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 :root{
   --bg:#f6f7fb;--surface:#fff;--ink:#0f172a;--ink-2:#475569;--ink-3:#94a3b8;--line:#e6e9f0;
@@ -24,8 +34,13 @@ a{color:var(--accent)}
 header.top{position:sticky;top:0;z-index:30;background:rgba(246,247,251,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:12px 18px}
 .brand{display:flex;align-items:center;gap:10px;margin-inline-end:auto;min-width:0}
-.logo{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--accent);color:#fff;box-shadow:0 6px 16px -6px var(--accent);flex:none}
-.logo tlp-icon{--tlp-size:20px;--tlp-stroke:2}
+.logo{width:36px;height:36px;border-radius:10px;display:block;flex:none;box-shadow:0 6px 16px -6px #4f46e5;transition:transform .35s var(--ease)}
+.logo img{display:block;width:36px;height:36px}
+.logo:hover{transform:rotate(-8deg) scale(1.06)}
+.nav{display:flex;gap:2px;margin-inline-start:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:3px}
+.nav a{font-size:13px;font-weight:600;color:var(--ink-2);text-decoration:none;padding:4px 12px;border-radius:7px}
+.nav a[aria-current=page]{background:var(--ink);color:#fff}
+.nav a:not([aria-current]):hover{background:var(--bg)}
 .brand h1{font-size:17px;margin:0;font-weight:700;letter-spacing:-.01em}
 .brand small{display:block;color:var(--ink-2);font-size:12px;font-weight:500}
 .search{position:relative;flex:1 1 260px;max-width:420px}
@@ -161,8 +176,9 @@ footer{padding:36px 0 10px;color:var(--ink-3);font-size:12px;text-align:center}
   <div class="bar">
     <button class="iconbtn menu-btn" id="menu" aria-label="Categories"><tlp-icon name="menu"></tlp-icon></button>
     <div class="brand">
-      <div class="logo"><tlp-icon name="sparkles" trigger="none"></tlp-icon></div>
+      <a class="logo" href="index.html" aria-label="tlp-icons home"><img src="favicon.svg" alt="" width="36" height="36"></a>
       <div><h1>tlp-icons</h1><small>Every icon, animated</small></div>
+      <nav class="nav"><a href="index.html" aria-current="page">Icons</a><a href="docs.html">Docs</a></nav>
     </div>
     <label class="search">
       <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
