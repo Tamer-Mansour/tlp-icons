@@ -111,6 +111,73 @@ await test('trigger="click" and play() work', async () => {
   assert.ok(ok);
 });
 
+await test('properties reflect to attributes (all six), including before the element was defined', async () => {
+  const r = await page.evaluate(() => {
+    const el = document.createElement('tlp-icon');
+    el.name = 'bell'; el.size = 32; el.stroke = 1.5; el.trigger = 'loop'; el.duotone = true; el.flip = 'rtl';
+    const attrs = ['name', 'size', 'stroke', 'trigger', 'duotone', 'flip'].map(a => el.getAttribute(a));
+    el.duotone = false; const duoOff = el.hasAttribute('duotone');
+    el.duotone = ''; const duoEmpty = el.duotone;
+    el.setAttribute('duotone', 'false'); const duoFalseAttr = el.duotone;
+    el.flip = null; const flipNull = el.hasAttribute('flip');
+    el.setAttribute('trigger', 'bogus'); const trig = el.trigger;
+    // property set on a not-yet-upgraded element (custom tag defined later)
+    const pre = document.createElement('tlp-icon-late');
+    pre.name = 'heart';
+    document.body.appendChild(pre);
+    window.TlpIcons.define('tlp-icon-late');
+    const late = pre.getAttribute('name');
+    pre.remove();
+    return { attrs, duoOff, duoEmpty, duoFalseAttr, flipNull, trig, late };
+  });
+  assert.deepEqual(r.attrs, ['bell', '32', '1.5', 'loop', '', 'rtl']);
+  assert.equal(r.duoOff, false);
+  assert.equal(r.duoEmpty, true);
+  assert.equal(r.duoFalseAttr, false);
+  assert.equal(r.flipNull, false);
+  assert.equal(r.trig, 'hover');
+  assert.equal(r.late, 'heart', 'property set before upgrade was lost');
+});
+
+await test('unknown name: renders nothing, data-missing, one console.warn per name (not per element), no throw', async () => {
+  const warns = [];
+  const onConsole = m => { if (m.type() === 'warning') warns.push(m.text()); };
+  page.on('console', onConsole);
+  await page.evaluate(async () => {
+    for (let k = 0; k < 3; k++) { const el = document.createElement('tlp-icon'); el.name = 'not-an-icon-xyz'; el.className = 'miss'; document.body.appendChild(el); }
+    await new Promise(r => setTimeout(r, 100));
+  });
+  const state = await page.evaluate(() => [...document.querySelectorAll('tlp-icon.miss')].map(e => [e.hasAttribute('data-missing'), e.children.length]));
+  page.off('console', onConsole);
+  await page.evaluate(() => document.querySelectorAll('tlp-icon.miss').forEach(e => e.remove()));
+  assert.deepEqual(state, [[true, 0], [true, 0], [true, 0]]);
+  assert.equal(warns.filter(w => w.includes('not-an-icon-xyz')).length, 1, `warnings: ${warns.join(' | ')}`);
+});
+
+await test('disconnecting while loading never renders into the detached node; tlp-ready bubbles and is composed', async () => {
+  const r = await page.evaluate(async () => {
+    const el = document.createElement('tlp-icon');
+    el.name = 'bell';
+    document.body.appendChild(el);
+    el.remove(); // the load promise is still pending
+    await new Promise(res => setTimeout(res, 100));
+    const detachedChildren = el.children.length;
+    // tlp-ready from inside a shadow root reaches the document
+    const host = document.createElement('div');
+    document.body.appendChild(host);
+    const shadow = host.attachShadow({ mode: 'open' });
+    const got = new Promise(res => document.addEventListener('tlp-ready', e => res({ bubbles: e.bubbles, composed: e.composed, name: e.detail && e.detail.name }), { once: true }));
+    const inner = document.createElement('tlp-icon');
+    inner.name = 'clock';
+    shadow.appendChild(inner);
+    const ev = await Promise.race([got, new Promise(res => setTimeout(() => res(null), 2000))]);
+    host.remove();
+    return { detachedChildren, ev };
+  });
+  assert.equal(r.detachedChildren, 0, 'rendered into a detached element');
+  assert.deepEqual(r.ev, { bubbles: true, composed: true, name: 'clock' });
+});
+
 await test('ES module build: lazy loader fetches exactly one chunk per category used', async () => {
   const http = await import('node:http');
   const types = { '.js': 'text/javascript', '.html': 'text/html', '.css': 'text/css', '.map': 'application/json' };

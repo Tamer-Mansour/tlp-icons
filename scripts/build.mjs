@@ -269,7 +269,9 @@ for (const f of fs.readdirSync(path.join(ROOT, 'src', 'types')).filter(f => f.en
 fs.writeFileSync(path.join(DIST, 'jsx.js'), `${header}// Types-only entry: see jsx.d.ts. Importing it at runtime does nothing.\nexport {};\n`);
 const allData = ordered.map(i => `${json(i.name)}:${json(record(i))}`).join(',\n');
 fs.writeFileSync(path.join(DIST, 'tlp-icons.runtime.js'), header + runtime.iife);
-fs.writeFileSync(path.join(DIST, 'tlp-icons.all.js'), `${header}${runtime.iife}\nTlpIcons.register({\n${allData}\n}, ${json(aliasMap)});\n`);
+// the offline bundle registers every icon; the no-op loader then marks the set as complete, so unknown names
+// resolve as missing (data-missing + one warning) instead of waiting for a register() that never comes
+fs.writeFileSync(path.join(DIST, 'tlp-icons.all.js'), `${header}${runtime.iife}\nTlpIcons.register({\n${allData}\n}, ${json(aliasMap)});\nTlpIcons.setLoader(function () { return null; });\n`);
 
 if (writeSvgFiles) {
   const dir = path.join(DIST, 'svg');

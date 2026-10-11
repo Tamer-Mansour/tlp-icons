@@ -2,12 +2,57 @@
 import { loadIcon, createSvg, run, installHover, ensureStyles } from './core.js';
 
 const LOOP_PAUSE = 1200;
+const ATTRS = ['name', 'size', 'stroke', 'trigger', 'duotone', 'flip'];
+const TRIGGERS = ['hover', 'loop', 'click', 'none'];
+const warned = new Set();
+const isProduction = () => typeof process !== 'undefined' && !!process.env && process.env.NODE_ENV === 'production';
+
+function warnMissing(name) {
+  if (warned.has(name) || isProduction() || typeof console === 'undefined') return;
+  warned.add(name);
+  console.warn(`[tlp-icons] unknown icon "${name}". Browse names at https://tlp-icons.netlify.app/icons/`);
+}
 
 // SSR safety: nothing below touches HTMLElement / customElements / document at module level outside a guard,
 // so `import 'tlp-icons/element'` works in Node (Next.js, Nuxt, Angular Universal, SvelteKit). On the server
 // TlpIcon is undefined and define() is a no-op.
 export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class TlpIcon extends HTMLElement {
-  static get observedAttributes() { return ['name', 'size', 'stroke', 'trigger']; }
+  static get observedAttributes() { return ATTRS; }
+
+  constructor() {
+    super();
+    this._token = 0;
+    // Frameworks may set properties before the element is defined; replay them through the setters.
+    for (const prop of ATTRS) {
+      if (Object.prototype.hasOwnProperty.call(this, prop)) {
+        const value = this[prop];
+        delete this[prop];
+        this[prop] = value;
+      }
+    }
+  }
+
+  // ---- properties (reflect to attributes)
+  get name() { return this.getAttribute('name') || ''; }
+  set name(v) { this._reflect('name', v); }
+  get size() { return this.getAttribute('size') || ''; }
+  set size(v) { this._reflect('size', v); }
+  get stroke() { return this.getAttribute('stroke') || ''; }
+  set stroke(v) { this._reflect('stroke', v); }
+  get trigger() { const t = this.getAttribute('trigger'); return TRIGGERS.includes(t) ? t : 'hover'; }
+  set trigger(v) { this._reflect('trigger', v); }
+  get duotone() { return this.hasAttribute('duotone') && this.getAttribute('duotone') !== 'false'; }
+  set duotone(v) {
+    if (v === true || v === '' || v === 'true') this.setAttribute('duotone', '');
+    else this.removeAttribute('duotone');
+  }
+  get flip() { const f = this.getAttribute('flip'); return f === 'rtl' || f === 'x' ? f : null; }
+  set flip(v) { this._reflect('flip', v); }
+
+  _reflect(attr, v) {
+    if (v === null || v === undefined || v === false) this.removeAttribute(attr);
+    else this.setAttribute(attr, String(v));
+  }
 
   connectedCallback() {
     ensureStyles(this.ownerDocument);
@@ -20,13 +65,15 @@ export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class Tl
   disconnectedCallback() {
     clearTimeout(this._loop);
     this._loop = null;
+    this._token++; // abandon any in-flight load so it never renders into a detached node
   }
 
-  attributeChangedCallback(attr) {
-    if (!this.isConnected) return;
+  attributeChangedCallback(attr, oldValue, newValue) {
+    if (!this.isConnected || oldValue === newValue) return;
     if (attr === 'size' || attr === 'stroke') this.applyVars();
     else if (attr === 'name') this.render();
     else if (attr === 'trigger') this.setupTrigger();
+    else if (attr === 'duotone' || attr === 'flip') this.applyFlags();
   }
 
   applyVars() {
@@ -38,17 +85,37 @@ export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class Tl
     else this.style.removeProperty('--tlp-stroke');
   }
 
+  /** duotone / flip are styled by CSS attribute selectors; the state is mirrored here for JS-driven behaviour. */
+  applyFlags() {
+    const svg = this.querySelector('svg.tlp');
+    if (svg) {
+      svg.toggleAttribute('data-duotone', this.duotone);
+      if (this.flip) svg.setAttribute('data-flip', this.flip); else svg.removeAttribute('data-flip');
+    }
+  }
+
   render() {
     this.applyVars();
+    const token = ++this._token;
     const name = this.getAttribute('name');
-    if (!name) { this.replaceChildren(); return; }
+    if (!name) { this.replaceChildren(); this.removeAttribute('data-missing'); return; }
     loadIcon(name).then(icon => {
-      if (this.getAttribute('name') !== name) return;
-      if (!icon) { this.replaceChildren(); this.dataset.missing = ''; return; }
-      delete this.dataset.missing;
-      this.replaceChildren(createSvg(icon, this.ownerDocument));
+      if (token !== this._token || !this.isConnected || this.getAttribute('name') !== name) return;
+      if (!icon) {
+        this.replaceChildren();
+        this.setAttribute('data-missing', '');
+        warnMissing(name);
+        return;
+      }
+      this.removeAttribute('data-missing');
+      const svg = createSvg(icon, this.ownerDocument);
+      if (!svg) return;
+      this.replaceChildren(svg);
       if (icon.r) this.dataset.dir = ''; else delete this.dataset.dir;
-      this.dispatchEvent(new CustomEvent('tlp-ready', { bubbles: false }));
+      this.applyFlags();
+      this.dispatchEvent(new CustomEvent('tlp-ready', { bubbles: true, composed: true, detail: { name } }));
+    }, () => {
+      if (token === this._token && this.isConnected) { this.replaceChildren(); this.setAttribute('data-missing', ''); }
     });
   }
 
