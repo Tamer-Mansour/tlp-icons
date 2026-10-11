@@ -1,0 +1,30 @@
+{
+  "name": "locate-fixed",
+  "svg": "<line class=\"p3\" x1=\"2\" y1=\"12\" x2=\"5\" y2=\"12\"/><line class=\"p3\" x1=\"19\" y1=\"12\" x2=\"22\" y2=\"12\"/><line class=\"p3\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"5\"/><line class=\"p3\" x1=\"12\" y1=\"19\" x2=\"12\" y2=\"22\"/><g class=\"p4\"><circle cx=\"12\" cy=\"12\" r=\"7\" class=\"d p1\"/></g><circle cx=\"12\" cy=\"12\" r=\"3\" class=\"p2\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "pulseRing",
+      "dur": 1200,
+      "delay": 500
+    }
+  ]
+}

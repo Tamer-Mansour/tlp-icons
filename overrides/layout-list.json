@@ -1,0 +1,32 @@
+{
+  "name": "layout-list",
+  "svg": "<rect class=\"d p1\" width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\"/><g class=\"p2\"><path d=\"M14 4h7\"/><path d=\"M14 9h7\"/></g><rect class=\"d p3\" width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\"/><g class=\"p4\"><path d=\"M14 15h7\"/><path d=\"M14 20h7\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 100,
+      "origin": "left"
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p4",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 400,
+      "origin": "left"
+    }
+  ]
+}

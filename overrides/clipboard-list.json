@@ -1,0 +1,30 @@
+{
+  "name": "clipboard-list",
+  "svg": "<rect class=\"p3\" width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\"/><g class=\"p4\"><path class=\"d p1\" d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"/></g><path class=\"p3\" d=\"M12 11h4\"/><path class=\"p3\" d=\"M12 16h4\"/><path class=\"p3\" d=\"M8 11h.01\"/><path class=\"p3\" d=\"M8 16h.01\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "breathe",
+      "dur": 1200,
+      "delay": 700
+    }
+  ]
+}

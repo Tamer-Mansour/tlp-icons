@@ -1,0 +1,30 @@
+{
+  "name": "user-lock",
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M9.5 15H7a4 4 0 0 0-4 4v2\"/><path class=\"p3\" d=\"M19 16v-2a2 2 0 0 0-4 0v2\"/><rect class=\"p4\" x=\"13\" y=\"16\" width=\"8\" height=\"5\" rx=\".899\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "lift",
+      "dur": 900,
+      "delay": 450
+    },
+    {
+      "part": "p4",
+      "anim": "shake",
+      "dur": 700,
+      "delay": 450
+    }
+  ]
+}

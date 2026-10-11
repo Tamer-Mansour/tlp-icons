@@ -1,0 +1,30 @@
+{
+  "name": "users",
+  "svg": "<path class=\"p3\" d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><path class=\"p3\" d=\"M16 3.128a4 4 0 0 1 0 7.744\"/><path class=\"p3\" d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><g class=\"p4\"><circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "hop",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

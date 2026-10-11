@@ -1,0 +1,31 @@
+{
+  "name": "id-card-lanyard",
+  "svg": "<path class=\"p3\" d=\"M13.5 8h-3\"/><g class=\"p4\"><path d=\"m15 2-1 2h3a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2h3\" class=\"d p1\"/></g><path class=\"p3\" d=\"M16 22a4 4 0 00-8 0\"/><path class=\"p3\" d=\"m9 2 3 6\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"3\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "swing",
+      "dur": 1500,
+      "delay": 650,
+      "origin": "12px 2px"
+    }
+  ]
+}

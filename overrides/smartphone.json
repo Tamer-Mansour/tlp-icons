@@ -1,0 +1,24 @@
+{
+  "name": "smartphone",
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path class=\"p3\" d=\"M12 18h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "all",
+      "anim": "shake",
+      "dur": 800,
+      "delay": 650
+    }
+  ]
+}

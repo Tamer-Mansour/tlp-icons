@@ -1,0 +1,26 @@
+{
+  "name": "rotate-ccw-clock",
+  "svg": "<g class=\"p1\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/></g><path class=\"p2\" d=\"M12 12V7\"/><path class=\"p3\" d=\"m12 12 4 2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "spinBack",
+      "dur": 1400,
+      "delay": 0,
+      "origin": "12px 12px"
+    },
+    {
+      "part": "p2",
+      "anim": "spinBack",
+      "dur": 1100,
+      "delay": 200,
+      "origin": "12px 12px"
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 0
+    }
+  ]
+}

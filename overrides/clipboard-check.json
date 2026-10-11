@@ -1,0 +1,24 @@
+{
+  "name": "clipboard-check",
+  "svg": "<path class=\"d p1\" d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"/><rect class=\"p3\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><g class=\"p2\"><path d=\"m9 14 2 2 4-4\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 700,
+      "delay": 100
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

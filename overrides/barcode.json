@@ -1,0 +1,24 @@
+{
+  "name": "barcode",
+  "svg": "<g class=\"p1\"><path d=\"M3 5v14\"/><path d=\"M8 5v14\"/></g><path class=\"p2\" d=\"M12 5v14\"/><g class=\"p3\"><path d=\"M17 5v14\"/><path d=\"M21 5v14\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 140
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 280
+    }
+  ]
+}

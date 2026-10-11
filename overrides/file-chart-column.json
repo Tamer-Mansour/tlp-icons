@@ -1,0 +1,33 @@
+{
+  "name": "file-chart-column",
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path d=\"M14 2v5a1 1 0 0 0 1 1h5\"/></g><path class=\"p2\" d=\"M8 18v-1\"/><path class=\"p3\" d=\"M12 18v-6\"/><path class=\"p4\" d=\"M16 18v-3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 300,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 450,
+      "origin": "bottom"
+    },
+    {
+      "part": "p4",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 600,
+      "origin": "bottom"
+    }
+  ]
+}

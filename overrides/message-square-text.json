@@ -1,0 +1,39 @@
+{
+  "name": "message-square-text",
+  "svg": "<path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\" class=\"d p1\"/><path class=\"p3\" d=\"M7 11h10\"/><path class=\"p4\" d=\"M7 15h6\"/><path class=\"p2\" d=\"M7 7h8\"/>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 350,
+      "origin": "left"
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 450,
+      "origin": "left"
+    },
+    {
+      "part": "p4",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 550,
+      "origin": "left"
+    }
+  ]
+}

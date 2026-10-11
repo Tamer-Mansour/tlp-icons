@@ -1,0 +1,18 @@
+{
+  "name": "maximize-2",
+  "svg": "<g class=\"p1\"><path d=\"M15 3h6v6\"/><path d=\"m21 3-7 7\"/></g><g class=\"p2\"><path d=\"m3 21 7-7\"/><path d=\"M9 21H3v-6\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "lift",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sink",
+      "dur": 900,
+      "delay": 100
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "globe",
+  "svg": "<g class=\"p4\"><circle cx=\"12\" cy=\"12\" r=\"10\" class=\"d p1\"/></g><path class=\"p3\" d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"/><path class=\"p3\" d=\"M2 12h20\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "spin",
+      "dur": 1600,
+      "delay": 500,
+      "origin": "12px 12px"
+    }
+  ]
+}

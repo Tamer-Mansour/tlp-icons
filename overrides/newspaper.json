@@ -1,0 +1,25 @@
+{
+  "name": "newspaper",
+  "svg": "<path class=\"d p1\" d=\"M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2\"/><g class=\"p2\"><path d=\"M15 18h-5\"/><path d=\"M18 14h-8\"/></g><rect class=\"p3\" width=\"8\" height=\"4\" x=\"10\" y=\"6\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 350,
+      "origin": "left"
+    }
+  ]
+}

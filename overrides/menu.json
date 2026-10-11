@@ -1,0 +1,30 @@
+{
+  "name": "menu",
+  "svg": "<path class=\"p1\" d=\"M4 5h16\"/><path class=\"p2\" d=\"M4 12h16\"/><path class=\"p3\" d=\"M4 19h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 170
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 340
+    },
+    {
+      "part": "all",
+      "anim": "breathe",
+      "dur": 1100,
+      "delay": 700
+    }
+  ]
+}

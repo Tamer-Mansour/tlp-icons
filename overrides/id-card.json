@@ -1,0 +1,30 @@
+{
+  "name": "id-card",
+  "svg": "<path class=\"p3\" d=\"M13 19a4 4 0 00-8 0\"/><path class=\"p3\" d=\"M16 10h2\"/><path class=\"p3\" d=\"M16 14h2\"/><g class=\"p4\"><circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"3\"/></g><rect class=\"p3\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "flip",
+      "dur": 1300,
+      "delay": 700
+    }
+  ]
+}

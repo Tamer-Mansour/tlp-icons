@@ -1,0 +1,19 @@
+{
+  "name": "list",
+  "svg": "<g class=\"p1\"><path d=\"M3 5h.01\"/><path d=\"M3 12h.01\"/><path d=\"M3 19h.01\"/></g><g class=\"p2\"><path d=\"M8 5h13\"/><path d=\"M8 12h13\"/><path d=\"M8 19h13\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 800,
+      "delay": 250,
+      "origin": "left"
+    }
+  ]
+}

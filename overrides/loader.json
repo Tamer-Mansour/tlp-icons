@@ -1,0 +1,19 @@
+{
+  "name": "loader",
+  "svg": "<g class=\"p2\"><path d=\"M12 2v4\"/><path d=\"m16.2 7.8 2.9-2.9\"/><path d=\"M18 12h4\"/><path d=\"m16.2 16.2 2.9 2.9\"/><path d=\"M12 18v4\"/><path d=\"m4.9 19.1 2.9-2.9\"/><path d=\"M2 12h4\"/><path d=\"m4.9 4.9 2.9 2.9\"/></g>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "spin",
+      "dur": 1500,
+      "delay": 300,
+      "origin": "12px 12px"
+    }
+  ]
+}

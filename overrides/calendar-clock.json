@@ -1,0 +1,32 @@
+{
+  "name": "calendar-clock",
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338\"/><circle class=\"d\" cx=\"16\" cy=\"16\" r=\"6\"/></g><path class=\"p2\" d=\"M16 16v-2\"/><g class=\"p3\"><path d=\"M16 2v3\"/><path d=\"M3 9h5.859\"/><path d=\"M8 2v3\"/></g><path class=\"p4\" d=\"m16 16 1.6 1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 100
+    },
+    {
+      "part": "p2",
+      "anim": "sweep",
+      "dur": 1800,
+      "delay": 300,
+      "origin": "16px 16px"
+    },
+    {
+      "part": "p4",
+      "anim": "sweepHour",
+      "dur": 1800,
+      "delay": 300,
+      "origin": "16px 16px"
+    }
+  ]
+}

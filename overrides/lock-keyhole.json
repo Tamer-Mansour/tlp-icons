@@ -1,0 +1,30 @@
+{
+  "name": "lock-keyhole",
+  "svg": "<circle class=\"p3\" cx=\"12\" cy=\"16\" r=\"1\"/><g class=\"p4\"><rect rx=\"2\" x=\"3\" y=\"10\" width=\"18\" height=\"12\" class=\"d p1\"/></g><path class=\"p3\" d=\"M7 10V7a5 5 0 0 1 10 0v3\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "shake",
+      "dur": 900,
+      "delay": 650
+    }
+  ]
+}

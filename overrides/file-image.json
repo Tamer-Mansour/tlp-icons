@@ -1,0 +1,30 @@
+{
+  "name": "file-image",
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path class=\"p2\" d=\"M14 2v5a1 1 0 0 0 1 1h5\"/><circle class=\"p3\" cx=\"10\" cy=\"12\" r=\"2\"/><path class=\"p4\" d=\"m20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 350
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 250
+    }
+  ]
+}

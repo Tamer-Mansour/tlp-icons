@@ -1,0 +1,33 @@
+{
+  "name": "smartphone-nfc",
+  "svg": "<rect class=\"d p1\" width=\"7\" height=\"12\" x=\"2\" y=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M13 8.32a7.43 7.43 0 0 1 0 7.36\"/><path class=\"p3\" d=\"M16.46 6.21a11.76 11.76 0 0 1 0 11.58\"/><path class=\"p4\" d=\"M19.91 4.1a15.91 15.91 0 0 1 .01 15.8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "pulseRing",
+      "dur": 1300,
+      "delay": 200,
+      "origin": "13px 12px"
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1300,
+      "delay": 350,
+      "origin": "13px 12px"
+    },
+    {
+      "part": "p4",
+      "anim": "pulseRing",
+      "dur": 1300,
+      "delay": 500,
+      "origin": "13px 12px"
+    }
+  ]
+}

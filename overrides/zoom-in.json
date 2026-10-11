@@ -1,0 +1,19 @@
+{
+  "name": "zoom-in",
+  "svg": "<g class=\"p2\"><circle class=\"d\" cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.34-4.34\"/><path d=\"M11 8v6\"/><path d=\"M8 11h6\"/></g>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "tilt",
+      "dur": 1300,
+      "delay": 0,
+      "origin": "bottom right"
+    },
+    {
+      "part": "all",
+      "anim": "breathe",
+      "dur": 900,
+      "delay": 700
+    }
+  ]
+}

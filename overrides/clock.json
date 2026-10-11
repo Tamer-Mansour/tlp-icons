@@ -1,0 +1,26 @@
+{
+  "name": "clock",
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M12 12V6\"/><path class=\"p3\" d=\"m12 12 4 2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sweep",
+      "dur": 1800,
+      "delay": 200,
+      "origin": "12px 12px"
+    },
+    {
+      "part": "p3",
+      "anim": "sweepHour",
+      "dur": 1800,
+      "delay": 200,
+      "origin": "12px 12px"
+    }
+  ]
+}

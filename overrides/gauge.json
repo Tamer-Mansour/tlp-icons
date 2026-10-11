@@ -1,0 +1,19 @@
+{
+  "name": "gauge",
+  "svg": "<path class=\"p2\" d=\"m12 14 4-4\"/><path class=\"p3\" d=\"M3.34 19a10 10 0 1 1 17.32 0\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 1300,
+      "delay": 600,
+      "origin": "12px 14px"
+    }
+  ]
+}

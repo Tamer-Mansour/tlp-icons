@@ -1,0 +1,30 @@
+{
+  "name": "users-round",
+  "svg": "<path class=\"p3\" d=\"M18 21a8 8 0 0 0-16 0\"/><g class=\"p4\"><circle class=\"d p1\" cx=\"10\" cy=\"8\" r=\"5\"/></g><path class=\"p3\" d=\"M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "breathe",
+      "dur": 1200,
+      "delay": 700
+    }
+  ]
+}

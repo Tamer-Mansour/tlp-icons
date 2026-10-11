@@ -1,0 +1,24 @@
+{
+  "name": "banknote-x",
+  "svg": "<path class=\"d p1\" d=\"M13 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5\"/><g class=\"p2\"><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M18 12h.01\"/><path d=\"M6 12h.01\"/></g><g class=\"p3\"><path d=\"m17 17 5 5\"/><path d=\"m22 17-5 5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "shake",
+      "dur": 800,
+      "delay": 450
+    }
+  ]
+}

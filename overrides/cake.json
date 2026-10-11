@@ -1,0 +1,31 @@
+{
+  "name": "cake",
+  "svg": "<path class=\"d p1\" d=\"M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8\"/><g class=\"p2\"><path d=\"M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1\"/><path d=\"M2 21h20\"/></g><g class=\"p3\"><path d=\"M7 8v3\"/><path d=\"M12 8v3\"/><path d=\"M17 8v3\"/></g><g class=\"p4\"><path d=\"M7 4h.01\"/><path d=\"M12 4h.01\"/><path d=\"M17 4h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 350,
+      "origin": "bottom"
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 750
+    }
+  ]
+}

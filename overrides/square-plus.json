@@ -1,0 +1,24 @@
+{
+  "name": "square-plus",
+  "svg": "<g class=\"p4\"><rect class=\"d p1\" width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/></g><g class=\"p2\"><path d=\"M8 12h8\"/><path d=\"M12 8v8\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "pop",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

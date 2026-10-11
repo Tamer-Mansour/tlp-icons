@@ -1,0 +1,50 @@
+{
+  "name": "tlp-icons",
+  "version": "0.1.0",
+  "description": "Free, open-source icon library where every icon is animated. Built from Lucide and Tabler, sorted into clean categories.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./element": "./dist/tlp-icon.js",
+    "./tlp-icon.js": "./dist/tlp-icon.js",
+    "./css": "./dist/tlp-icons.css",
+    "./tlp-icons.css": "./dist/tlp-icons.css",
+    "./data": "./dist/tlp-icons.json",
+    "./icons/*": "./dist/icons/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE.md",
+    "licenses"
+  ],
+  "sideEffects": [
+    "./dist/tlp-icon.js"
+  ],
+  "keywords": [
+    "icons",
+    "animated-icons",
+    "svg",
+    "web-component",
+    "lucide",
+    "tabler",
+    "react",
+    "angular",
+    "vue"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "test:browser": "node test/browser/run.mjs",
+    "setup:browser": "node scripts/setup-browser.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

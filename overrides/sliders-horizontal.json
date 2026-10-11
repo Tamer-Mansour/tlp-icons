@@ -1,0 +1,30 @@
+{
+  "name": "sliders-horizontal",
+  "svg": "<path d=\"M10 5H3\"/><path d=\"M12 19H3\"/><path d=\"M21 12h-9\"/><path d=\"M21 19h-5\"/><path d=\"M21 5h-7\"/><path d=\"M8 12H3\"/><path class=\"p2\" d=\"M14 3v4\"/><path class=\"p3\" d=\"M16 17v4\"/><path class=\"p4\" d=\"M8 10v4\"/>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "nudge",
+      "dur": 1100,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "nudgeBack",
+      "dur": 1100,
+      "delay": 450
+    },
+    {
+      "part": "p4",
+      "anim": "nudge",
+      "dur": 1100,
+      "delay": 600
+    }
+  ]
+}

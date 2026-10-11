@@ -1,0 +1,31 @@
+{
+  "name": "user-round-cog",
+  "svg": "<path class=\"p3\" d=\"M2 21a8 8 0 0 1 10.434-7.62\"/><g class=\"p4\"><circle cx=\"10\" cy=\"8\" r=\"5\" class=\"d p1\"/></g><g class=\"p2\"><path d=\"m14.305 19.53.923-.382\"/><path d=\"m15.228 16.852-.923-.383\"/><path d=\"m16.852 15.228-.383-.923\"/><path d=\"m16.852 20.772-.383.924\"/><path d=\"m19.148 15.228.383-.923\"/><path d=\"m19.53 21.696-.382-.924\"/><path d=\"m20.772 16.852.924-.383\"/><path d=\"m20.772 19.148.924.383\"/><circle cx=\"18\" cy=\"18\" r=\"3\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "spin",
+      "dur": 1500,
+      "delay": 400,
+      "origin": "18px 18px"
+    }
+  ]
+}

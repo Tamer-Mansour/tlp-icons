@@ -1,0 +1,30 @@
+{
+  "name": "lock",
+  "svg": "<g class=\"p4\"><rect rx=\"2\" ry=\"2\" x=\"3\" y=\"11\" width=\"18\" height=\"11\" class=\"d p1\"/></g><path class=\"p3\" d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "shake",
+      "dur": 900,
+      "delay": 650
+    }
+  ]
+}

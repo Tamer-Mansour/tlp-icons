@@ -1,0 +1,24 @@
+{
+  "name": "chart-line",
+  "svg": "<path class=\"p1\" d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path class=\"p2\" d=\"m19 9-5 5-4-4-3 3\"/><circle class=\"f p3\" cx=\"19\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 1000,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 1050
+    }
+  ]
+}

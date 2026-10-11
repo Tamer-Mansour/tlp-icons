@@ -1,0 +1,24 @@
+{
+  "name": "circle-x",
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><g class=\"p2\"><path d=\"m15 9-6 6\"/><path d=\"m9 9 6 6\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "shake",
+      "dur": 800,
+      "delay": 650
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "chart-column",
+  "svg": "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path class=\"p2\" d=\"M18 17V9\"/><path class=\"p3\" d=\"M13 17V5\"/><path class=\"p4\" d=\"M8 17v-3\"/>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 900,
+      "delay": 300,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 900,
+      "delay": 450,
+      "origin": "bottom"
+    },
+    {
+      "part": "p4",
+      "anim": "grow",
+      "dur": 900,
+      "delay": 600,
+      "origin": "bottom"
+    }
+  ]
+}

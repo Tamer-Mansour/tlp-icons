@@ -1,0 +1,24 @@
+{
+  "name": "workflow",
+  "svg": "<rect rx=\"2\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" class=\"d p1\"/><path class=\"p3\" d=\"M7 11v4a2 2 0 0 0 2 2h4\"/><rect rx=\"2\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" class=\"d p2\"/>",
+  "motion": [
+    {
+      "part": "all",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "pop",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "pop",
+      "dur": 900,
+      "delay": 500
+    }
+  ]
+}

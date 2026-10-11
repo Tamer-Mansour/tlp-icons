@@ -1,0 +1,24 @@
+{
+  "name": "git-branch",
+  "svg": "<path class=\"p1\" d=\"M15 6a9 9 0 0 0-9 9V3\"/><circle class=\"d p2\" cx=\"18\" cy=\"6\" r=\"3\"/><circle class=\"d p3\" cx=\"6\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

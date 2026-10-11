@@ -1,0 +1,325 @@
+{
+  "$comment": "Keyword -> motion recipe. First matching rule wins (name tokens first, then tags). Targets and recipes are documented in scripts/engine/motion.mjs. Durations/delays are design ms (runtime multiplies by SPEED 0.6). 'modifier' / 'glyph' are used when the word is a small badge or the glyph inside a container.",
+  "mechanics": {
+    "clock": ["clock", "alarm", "timer", "watch", "history", "stopwatch", "time"],
+    "gauge": ["gauge", "speedometer", "meter", "dashboard"],
+    "gear": ["cog", "cogs", "gear", "gears", "settings"]
+  },
+  "pureGears": ["settings", "cog", "cogs", "gear", "settings-2-gear", "settings-cog"],
+  "rules": [
+    { "id": "loader", "words": ["loader", "loading", "spinner", "refresh", "reload", "sync", "rotate-cw", "rotate-ccw", "rotate-clockwise", "rotate-2", "rotate-360", "rotate", "progress", "fidget-spinner", "fan", "windmill", "propeller"], "recipe": "spin", "nameOnly": true },
+    { "id": "hourglass", "whole": true, "words": ["hourglass", "sand-timer"], "body": false, "steps": [{ "t": "all", "a": "spinHalf", "dur": 1400 }] },
+    { "id": "bell", "words": ["bell", "bells", "notification"], "steps": [
+      { "t": "main", "a": "swing", "o": "bodyTop", "dur": 1400 },
+      { "t": "bottom", "a": "swing", "o": "bodyTop", "dur": 1400, "dl": 90 },
+      { "t": "sides", "a": "popIn", "dur": 700, "dl": 200, "stagger": true, "by": "x", "gap": 0 }
+    ], "modifier": [{ "t": "main", "a": "swing", "o": "groupTop", "dur": 1300 }] },
+    { "id": "trash", "whole": true, "words": ["trash", "bin", "wastebasket", "garbage", "recycle-bin"], "steps": [
+      { "t": "top", "a": "lift", "dur": 1000, "need": true },
+      { "t": "rest", "a": "shake", "dur": 900, "dl": 220 },
+      { "t": "inner", "a": "draw", "dur": 700, "dl": 320 }
+    ] },
+    { "id": "unlock", "whole": true, "words": ["lock-open", "unlock", "unlocked", "lock-keyhole-open", "lock-open-2"], "steps": [
+      { "t": "top", "a": "tilt", "o": "hinge", "dur": 1200, "need": true },
+      { "t": "inner", "a": "popIn", "dur": 700, "dl": 300 }
+    ] },
+    { "id": "lock", "whole": true, "words": ["lock", "padlock", "locked"], "steps": [
+      { "t": "top", "a": "lift", "dur": 1000 },
+      { "t": "inner", "a": "popIn", "dur": 700, "dl": 300 },
+      { "t": "all", "a": "pop", "dur": 700, "dl": 750 }
+    ], "modifier": [{ "t": "top", "a": "lift", "dur": 900 }, { "t": "main", "a": "popIn", "dur": 800 }] },
+    { "id": "eye", "whole": true, "words": ["eye", "eyes", "view", "visible", "preview"], "body": false, "steps": [
+      { "t": "main", "a": "blink", "dur": 900 },
+      { "t": "circles", "a": "pop", "dur": 700, "dl": 450 }
+    ] },
+    { "id": "check", "words": ["check", "checks", "checkbox", "done", "confirm", "approve", "tick", "list-check", "checklist"], "steps": [
+      { "t": "ticks", "a": "draw", "dur": 750, "stagger": true, "by": "x", "gap": 180, "need": true },
+      { "t": "all", "a": "pop", "dur": 700, "dl": 650 }
+    ], "modifier": [{ "t": "ticks", "a": "draw", "dur": 700, "need": true }, { "t": "main", "a": "pop", "dur": 700, "dl": 550 }],
+      "glyph": [{ "t": "ticks", "a": "draw", "dur": 750, "need": true }] },
+    { "id": "heart", "words": ["heart", "hearts", "love", "like", "favorite", "favourite"], "steps": [
+      { "t": "bodyOrLargest", "a": "breathe", "dur": 1300 },
+      { "t": "notBody", "a": "popIn", "dur": 700, "dl": 300 }
+    ], "modifier": [{ "t": "main", "a": "breathe", "dur": 1200 }] },
+    { "id": "star", "words": ["star", "stars", "rating"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "pop", "dur": 900, "dl": 150 },
+      { "t": "notBody", "a": "popIn", "dur": 700, "dl": 300 }
+    ], "modifier": [{ "t": "main", "a": "popIn", "dur": 800 }] },
+    { "id": "sparkles", "words": ["sparkles", "sparkle", "spark", "magic", "wand", "ai", "stars-ai"], "steps": [
+      { "t": "large", "a": "tilt", "dur": 1100 },
+      { "t": "small", "a": "popIn", "dur": 650, "stagger": true, "gap": 140, "dl": 120 },
+      { "t": "bodyOrLargest", "a": "pop", "dur": 800, "dl": 200 }
+    ], "modifier": [{ "t": "main", "a": "popIn", "dur": 750, "stagger": true, "gap": 120 }] },
+    { "id": "zap", "words": ["zap", "bolt", "flash", "lightning", "thunder", "charging", "electric", "power-bolt"], "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 800 },
+      { "t": "all", "a": "jelly", "dur": 900, "dl": 550 }
+    ], "modifier": [{ "t": "main", "a": "draw", "dur": 700 }, { "t": "main", "a": "jelly", "dur": 800, "dl": 450 }] },
+    { "id": "chart-bars", "whole": true, "words": ["chart-bar", "chart-column", "bar-chart", "chart-histogram", "chart-candle", "signal", "antenna-bars", "cell-signal", "chart-bar-popular", "chart-no-axes-column", "equalizer", "audio-lines", "chart-bars"], "steps": [
+      { "t": "bars", "a": "grow", "o": "bottom", "dur": 850, "stagger": true, "by": "x", "groups": 4, "gap": 110, "need": true }
+    ] },
+    { "id": "chart", "whole": true, "words": ["chart", "graph", "analytics", "trending", "trend", "activity", "pulse", "heartbeat", "timeline-event", "presentation-analytics", "stock", "stats", "report-analytics"], "body": false, "steps": [
+      { "t": "bars", "a": "grow", "o": "bottom", "dur": 850, "stagger": true, "by": "x", "groups": 4, "gap": 110 },
+      { "t": "line", "a": "draw", "dur": 1100 },
+      { "t": "curves", "a": "draw", "dur": 1000, "dl": 100 }
+    ] },
+    { "id": "rain", "whole": true, "words": ["rain", "drizzle", "showers", "hail", "storm", "cloud-rain", "cloud-storm"], "steps": [
+      { "t": "bodyOrLargest", "a": "float", "dur": 1600 },
+      { "t": "bottom", "a": "dropIn", "dur": 700, "stagger": true, "by": "x", "gap": 130, "dl": 150 }
+    ] },
+    { "id": "snow", "whole": true, "words": ["snow", "snowy", "sleet", "cloud-snow"], "steps": [
+      { "t": "bodyOrLargest", "a": "float", "dur": 1600 },
+      { "t": "bottom", "a": "popIn", "dur": 700, "stagger": true, "by": "x", "gap": 130, "dl": 150 }
+    ] },
+    { "id": "snowflake", "words": ["snowflake", "frost", "freeze", "ice"], "body": false, "steps": [{ "t": "all", "a": "spinHalf", "dur": 1500 }] },
+    { "id": "sun", "words": ["sun", "sunny", "brightness", "sunrise", "sunset", "sun-high", "sun-low", "day"], "steps": [
+      { "t": "bodyOrLargest", "a": "pop", "dur": 900 },
+      { "t": "notBody", "a": "spinHalf", "o": "bodyCenter", "dur": 1500 }
+    ] },
+    { "id": "moon", "words": ["moon", "night", "crescent", "dark"], "steps": [
+      { "t": "main", "a": "tilt", "dur": 1300 },
+      { "t": "small", "a": "popIn", "dur": 650, "stagger": true, "gap": 160, "dl": 250 }
+    ] },
+    { "id": "cloud", "words": ["cloud", "clouds", "cloudy", "fog", "haze", "overcast"], "nameOnly": true, "steps": [
+      { "t": "main", "a": "float", "dur": 1600 },
+      { "t": "notBody", "a": "fadeIn", "dur": 700, "dl": 200, "stagger": true, "gap": 120 }
+    ] },
+    { "id": "wind", "words": ["wind", "breeze", "air", "tornado", "waves", "wave"], "body": false, "steps": [
+      { "t": "main", "a": "growX", "o": "left", "dur": 800, "stagger": true, "gap": 140 }
+    ] },
+    { "id": "rainbow", "words": ["rainbow"], "body": false, "steps": [{ "t": "main", "a": "draw", "dur": 900, "stagger": true, "by": "size", "gap": 140 }] },
+    { "id": "thermometer", "words": ["thermometer", "temperature"], "steps": [
+      { "t": "inner", "a": "grow", "o": "bottom", "dur": 1000, "need": true },
+      { "t": "outside", "a": "popIn", "dur": 600, "dl": 300, "stagger": true }
+    ] },
+    { "id": "flame", "words": ["flame", "fire", "campfire", "candle", "burn", "torch"], "steps": [{ "t": "main", "a": "jelly", "o": "bottom", "dur": 1200 }, { "t": "notBody", "a": "wiggle", "o": "bottom", "dur": 1100, "dl": 120 }] },
+    { "id": "droplet", "words": ["droplet", "droplets", "drop", "water", "ink", "liquid", "blood", "tear"], "steps": [{ "t": "main", "a": "jelly", "o": "bottom", "dur": 1100 }] },
+    { "id": "plant", "words": ["leaf", "leaves", "plant", "sprout", "seedling", "tree", "trees", "flower", "flowers", "palm", "cactus", "grass", "clover", "shrub", "wheat", "feather", "herb", "rose", "tulip", "sunflower", "mushroom", "acorn", "seed", "vegan", "bamboo"], "steps": [{ "t": "main", "a": "wiggle", "o": "boxBottom", "dur": 1400 }] },
+    { "id": "umbrella", "words": ["umbrella", "parasol"], "steps": [{ "t": "main", "a": "wiggle", "o": "boxBottom", "dur": 1300 }] },
+    { "id": "wifi", "whole": true, "words": ["wifi", "rss", "radio", "broadcast", "podcast", "cast", "nfc", "access-point", "satellite-dish", "antenna", "radar", "sonar", "wireless", "hotspot", "signal-high", "radio-tower", "feed"], "body": false, "steps": [
+      { "t": "arcs", "a": "fadeIn", "dur": 600, "stagger": true, "by": "size", "gap": 170, "dl": 100 },
+      { "t": "dots", "a": "pop", "dur": 600 }
+    ] },
+    { "id": "volume", "whole": true, "words": ["volume", "speaker", "sound", "audio", "megaphone", "speakerphone", "announcement", "loudspeaker"], "steps": [
+      { "t": "bodyOrLargest", "a": "pop", "dur": 800 },
+      { "t": "arcs", "a": "fadeIn", "dur": 600, "stagger": true, "by": "size", "gap": 170, "dl": 150 }
+    ] },
+    { "id": "mic", "words": ["mic", "microphone", "voice", "record", "recording"], "steps": [{ "t": "bodyOrLargest", "a": "breathe", "dur": 1200 }, { "t": "arcs", "a": "draw", "dur": 800, "dl": 200 }] },
+    { "id": "music", "words": ["music", "note", "notes", "melody", "song", "playlist", "disc", "vinyl", "album"], "steps": [{ "t": "main", "a": "hop", "dur": 1000 }, { "t": "circles", "a": "pop", "dur": 700, "dl": 250, "stagger": true, "by": "x", "gap": 120 }] },
+    { "id": "headphones", "words": ["headphones", "headset", "headphone", "earbuds"], "steps": [{ "t": "main", "a": "breathe", "dur": 1200 }, { "t": "lower", "a": "pop", "dur": 700, "dl": 300 }] },
+    { "id": "play", "words": ["play", "player-play", "start"], "nameOnly": true, "steps": [{ "t": "bodyOrLargest", "a": "nudge", "dur": 1000 }, { "t": "notBody", "a": "popIn", "dur": 700, "dl": 200 }] },
+    { "id": "pause", "words": ["pause", "player-pause"], "nameOnly": true, "steps": [{ "t": "main", "a": "grow", "o": "center", "dur": 700, "stagger": true, "by": "x", "gap": 120 }] },
+    { "id": "stop", "words": ["stop", "player-stop", "square-stop"], "nameOnly": true, "steps": [{ "t": "main", "a": "pop", "dur": 800 }] },
+    { "id": "skip", "words": ["skip-forward", "fast-forward", "forward", "next", "track-next", "player-skip-forward", "player-track-next", "redo"], "steps": [{ "t": "main", "a": "nudge", "dur": 1000, "stagger": true, "by": "x", "gap": 90 }] },
+    { "id": "rewind", "words": ["skip-back", "rewind", "previous", "prev", "track-prev", "player-skip-back", "player-track-prev", "undo", "backward"], "steps": [{ "t": "main", "a": "nudgeBack", "dur": 1000, "stagger": true, "by": "xr", "gap": 90 }] },
+    { "id": "repeat", "words": ["repeat", "shuffle", "replace", "switch", "swap", "exchange", "transfer", "arrows-exchange", "arrows-left-right", "arrow-left-right", "arrow-right-left", "arrows-right-left", "arrow-up-down", "arrow-down-up", "arrows-up-down", "arrows-down-up"], "steps": [
+      { "t": "upper", "a": "nudge", "dur": 1000 },
+      { "t": "lower", "a": "nudgeBack", "dur": 1000, "dl": 80 }
+    ] },
+    { "id": "arrows", "words": ["arrow", "arrows", "chevron", "chevrons", "caret", "corner", "move", "download", "upload", "import", "export", "send", "log-in", "log-out", "login", "logout", "door-enter", "door-exit", "external", "share-3", "navigation", "direction", "directions", "trending-up", "trending-down", "sort-ascending", "sort-descending", "triangle-up", "triangle-down", "big-up", "big-down", "fold", "unfold", "cursor", "pointer"], "recipe": "arrows" },
+    { "id": "user", "words": ["user", "users", "person", "people", "account", "contact", "profile", "accessible", "man", "woman", "baby", "child", "friends", "group", "team", "id-badge", "user-circle", "user-square", "face-id", "accessibility"], "steps": [
+      { "t": "heads", "a": "hop", "dur": 1000, "stagger": true, "by": "x", "gap": 140 },
+      { "t": "rest", "a": "draw", "dur": 950, "dl": 100 }
+    ], "modifier": [{ "t": "heads", "a": "hop", "dur": 900 }, { "t": "rest", "a": "draw", "dur": 800 }] },
+    { "id": "smile", "words": ["smile", "smiley", "laugh", "frown", "meh", "annoyed", "angry", "mood", "emoji", "face", "happy", "sad", "confused", "wink", "grin", "kiss"], "steps": [
+      { "t": "inner", "a": "popIn", "dur": 700, "stagger": true, "gap": 120, "dl": 150 },
+      { "t": "all", "a": "jelly", "dur": 1000, "dl": 500 }
+    ] },
+    { "id": "document", "words": ["file", "files", "document", "documents", "page", "paper", "note", "notes", "receipt", "invoice", "report", "clipboard", "scroll", "news", "newspaper", "article", "contract", "certificate", "license", "sticky-note", "notebook", "license", "script", "file-text", "pdf", "csv", "txt", "json", "zip"], "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 1000 },
+      { "t": "innerLines", "a": "growX", "o": "left", "dur": 700, "stagger": true, "gap": 110, "dl": 300 },
+      { "t": "small", "a": "popIn", "dur": 600, "dl": 250 },
+      { "t": "top", "a": "dropIn", "dur": 700, "dl": 150 }
+    ] },
+    { "id": "folder", "words": ["folder", "folders", "directory", "archive"], "steps": [
+      { "t": "all", "a": "jelly", "o": "bottom", "dur": 1100, "dl": 150 },
+      { "t": "inner", "a": "popIn", "dur": 650, "dl": 300 }
+    ] },
+    { "id": "text-lines", "words": ["text", "align", "align-left", "align-right", "align-center", "align-justified", "align-justify", "list", "menu", "menu-2", "hamburger", "paragraph", "indent", "outdent", "letter-spacing", "line-height", "baseline", "wrap", "subtitles", "captions", "table-of-contents", "notes-list", "ballot", "logs"], "body": false, "steps": [
+      { "t": "hlines", "a": "growX", "o": "left", "dur": 750, "stagger": true, "gap": 110, "groups": 4, "need": true },
+      { "t": "rest", "a": "popIn", "dur": 650, "dl": 100 }
+    ] },
+    { "id": "ellipsis", "words": ["ellipsis", "dots", "more", "more-horizontal", "more-vertical", "grip", "drag", "loader-dots", "circle-dots"], "nameOnly": true, "body": false, "steps": [
+      { "t": "main", "a": "hop", "dur": 800, "stagger": true, "by": "x", "gap": 110 }
+    ] },
+    { "id": "calendar", "words": ["calendar", "calendars", "date", "event", "schedule", "agenda", "planner"], "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 1000 },
+      { "t": "top", "a": "dropIn", "dur": 700, "dl": 150, "stagger": true, "by": "x", "gap": 80 },
+      { "t": "inner", "a": "popIn", "dur": 650, "dl": 350, "stagger": true, "gap": 110 }
+    ] },
+    { "id": "mail", "words": ["mail", "mails", "email", "envelope", "inbox", "letter", "mailbox", "message-mail"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "pop", "dur": 800, "dl": 600 },
+      { "t": "notBody", "a": "draw", "dur": 800, "dl": 150 }
+    ] },
+    { "id": "chat", "words": ["message", "messages", "chat", "chats", "comment", "comments", "bubble", "speech", "conversation", "forum", "quote", "messages-square"], "steps": [
+      { "t": "all", "a": "pop", "o": "bottom left", "dur": 900 },
+      { "t": "inner", "a": "popIn", "dur": 600, "dl": 250, "stagger": true, "by": "x", "gap": 110 }
+    ] },
+    { "id": "phone", "words": ["phone", "call", "telephone", "phone-call", "phone-incoming", "phone-outgoing", "dialpad", "ringing"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "wiggle", "dur": 1100 },
+      { "t": "arcs", "a": "fadeIn", "dur": 600, "dl": 200, "stagger": true, "by": "size", "gap": 150 }
+    ] },
+    { "id": "camera", "words": ["camera", "aperture", "focus", "lens", "photo", "capture", "webcam", "cctv"], "steps": [
+      { "t": "circles", "a": "pop", "dur": 800, "dl": 200 },
+      { "t": "all", "a": "jelly", "dur": 900, "dl": 600 }
+    ] },
+    { "id": "image", "words": ["image", "images", "picture", "photo", "photos", "gallery", "wallpaper", "frame-photo"], "steps": [
+      { "t": "inner", "a": "riseIn", "dur": 800, "dl": 150, "stagger": true, "gap": 150 },
+      { "t": "circles", "a": "popIn", "dur": 650, "dl": 450 }
+    ] },
+    { "id": "video", "words": ["video", "film", "movie", "clapperboard", "clapper", "camera-video", "youtube", "tv", "television", "monitor-play"], "steps": [
+      { "t": "notBody", "a": "nudge", "dur": 900, "dl": 150 },
+      { "t": "all", "a": "pop", "dur": 700, "dl": 650 }
+    ] },
+    { "id": "battery", "words": ["battery", "batteries"], "steps": [
+      { "t": "innerLines", "a": "grow", "o": "bottom", "dur": 600, "stagger": true, "by": "x", "gap": 120, "dl": 100 },
+      { "t": "outside", "a": "popIn", "dur": 600, "dl": 100 }
+    ] },
+    { "id": "search", "words": ["search", "zoom", "magnifier", "magnifying-glass", "find", "scan-search", "lens", "zoom-in", "zoom-out"], "steps": [
+      { "t": "main", "a": "tilt", "o": "handleEnd", "dur": 1200 },
+      { "t": "inner", "a": "popIn", "dur": 650, "dl": 300 }
+    ], "modifier": [{ "t": "main", "a": "tilt", "o": "handleEnd", "dur": 1100 }] },
+    { "id": "key", "words": ["key", "keys", "password", "passkey", "key-round", "key-square"], "nameOnly": true, "steps": [{ "t": "main", "a": "tilt", "dur": 1200 }] },
+    { "id": "shield", "words": ["shield", "shields", "protect", "protection", "security", "guard", "secure", "safe"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 1000 },
+      { "t": "notBody", "a": "draw", "dur": 700, "dl": 350 },
+      { "t": "all", "a": "pop", "dur": 700, "dl": 850 }
+    ] },
+    { "id": "fingerprint", "words": ["fingerprint", "biometric", "scan", "qrcode", "qr-code", "barcode", "scan-line", "scan-eye", "scan-face"], "body": false, "steps": [
+      { "t": "main", "a": "draw", "dur": 900, "stagger": true, "by": "size", "gap": 120 }
+    ] },
+    { "id": "home", "words": ["home", "house", "building", "buildings", "store", "shop", "bank", "school", "hospital", "hotel", "castle", "church", "mosque", "factory", "warehouse", "tent", "landmark", "building-bank", "library", "office", "barn", "garage", "cabin", "museum", "temple"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 1000 },
+      { "t": "inner", "a": "riseIn", "dur": 700, "dl": 300, "stagger": true, "gap": 100 },
+      { "t": "all", "a": "pop", "o": "bottom", "dur": 700, "dl": 850 }
+    ] },
+    { "id": "vehicle", "words": ["car", "cars", "truck", "bus", "bike", "bicycle", "motorbike", "motorcycle", "scooter", "train", "tram", "tractor", "ambulance", "taxi", "van", "caravan", "forklift", "cart", "shopping-cart", "trolley", "skateboard", "wheelchair", "tank", "firetruck", "vehicle", "steering-wheel", "rv", "bulldozer", "excavator", "car-crane", "moped", "pickup", "jeep", "suv"], "nameOnly": true, "body": false, "steps": [
+      { "t": "all", "a": "nudge", "dur": 1200 },
+      { "t": "wheels", "a": "spin", "dur": 1200, "each": true, "groups": 3, "gap": 0 }
+    ] },
+    { "id": "plane", "words": ["plane", "airplane", "aeroplane", "flight", "flights", "drone", "helicopter", "paper-plane", "send-horizontal"], "nameOnly": true, "body": false, "steps": [{ "t": "all", "a": "float", "dur": 1600 }] },
+    { "id": "rocket", "words": ["rocket", "launch", "space-shuttle", "ufo", "balloon", "parachute", "kite"], "body": false, "steps": [{ "t": "all", "a": "lift", "dur": 1100 }, { "t": "bottom", "a": "fadeIn", "dur": 600, "dl": 250 }] },
+    { "id": "boat", "words": ["ship", "boat", "sailboat", "sail", "anchor", "submarine", "ferry", "kayak", "canoe", "lifebuoy"], "steps": [{ "t": "all", "a": "swing", "o": "boxTop", "dur": 1500 }] },
+    { "id": "hammer", "words": ["gavel", "hammer", "mallet", "judge", "auction", "pickaxe", "axe", "court"], "nameOnly": true, "steps": [{ "t": "main", "a": "strike", "o": "boxBottomLeft", "dur": 1200 }] },
+    { "id": "pen", "words": ["pen", "pencil", "edit", "write", "signature", "brush", "paintbrush", "highlighter", "marker", "feather-pen", "ballpen", "pencil-line", "square-pen", "eraser", "crayon"], "nameOnly": true, "steps": [
+      { "t": "large", "a": "nod", "o": "boxBottomLeft", "dur": 1100 },
+      { "t": "hlines", "a": "growX", "o": "left", "dur": 700, "dl": 350 }
+    ], "modifier": [{ "t": "main", "a": "nod", "o": "boxBottomLeft", "dur": 1000 }] },
+    { "id": "tools", "words": ["wrench", "tool", "tools", "screwdriver", "spanner", "adjustable-wrench", "hammer-screwdriver", "construction", "drill", "saw", "plunger"], "nameOnly": true, "body": false, "steps": [{ "t": "main", "a": "tilt", "o": "boxBottomLeft", "dur": 1200 }] },
+    { "id": "scissors", "words": ["scissors", "cut", "cutter", "slice"], "body": false, "steps": [{ "t": "all", "a": "jelly", "dur": 1000 }, { "t": "circles", "a": "pop", "dur": 600, "dl": 200 }] },
+    { "id": "copy", "words": ["copy", "clone", "duplicate", "files-copy", "layers", "stack", "stack-2", "squares", "box-multiple", "layer"], "nameOnly": true, "steps": [
+      { "t": "main", "a": "dropIn", "dur": 750, "stagger": true, "by": "y", "gap": 130 }
+    ] },
+    { "id": "link", "words": ["link", "links", "chain", "unlink", "paperclip", "attachment", "clip", "pin", "pinned", "pushpin", "thumbtack"], "nameOnly": true, "body": false, "steps": [{ "t": "main", "a": "wiggle", "dur": 1100 }] },
+    { "id": "map-pin", "words": ["map-pin", "location", "marker", "place", "pin-map", "current-location", "gps", "locate", "map-pinned"], "steps": [
+      { "t": "bodyOrLargest", "a": "hop", "dur": 1000 },
+      { "t": "circles", "a": "popIn", "dur": 600, "dl": 350 },
+      { "t": "rest", "a": "fadeIn", "dur": 600, "dl": 250 }
+    ], "modifier": [{ "t": "main", "a": "dropIn", "dur": 800 }] },
+    { "id": "map", "words": ["map", "maps", "route", "road", "trail", "path"], "nameOnly": true, "steps": [{ "t": "main", "a": "draw", "dur": 1000, "stagger": true, "by": "x", "gap": 140 }] },
+    { "id": "compass", "words": ["compass", "explore", "north"], "steps": [{ "t": "inner", "a": "wiggle", "o": "bodyCenter", "dur": 1400, "need": true }] },
+    { "id": "globe", "words": ["globe", "world", "earth", "planet", "internet", "web", "language", "international"], "steps": [
+      { "t": "inner", "a": "flip", "dur": 1300 },
+      { "t": "outside", "a": "popIn", "dur": 700, "dl": 300 }
+    ] },
+    { "id": "target", "words": ["target", "crosshair", "focus-2", "bullseye", "aim", "goal", "focus-centered", "radar-2"], "body": false, "steps": [
+      { "t": "main", "a": "popIn", "dur": 700, "stagger": true, "by": "size", "gap": 120 }
+    ] },
+    { "id": "atom", "words": ["atom", "orbit", "molecule", "science", "physics"], "body": false, "steps": [{ "t": "all", "a": "spinHalf", "dur": 1500 }] },
+    { "id": "flag", "words": ["flag", "flags", "flag-triangle", "pennant", "banner", "milestone"], "nameOnly": true, "steps": [{ "t": "main", "a": "wiggle", "o": "boxBottomLeft", "dur": 1300 }] },
+    { "id": "tag", "words": ["tag", "tags", "label", "price-tag", "ticket", "badge", "badges", "discount", "coupon", "sale"], "nameOnly": true, "steps": [{ "t": "main", "a": "swing", "o": "top left", "dur": 1300 }, { "t": "circles", "a": "pop", "dur": 600, "dl": 300 }] },
+    { "id": "bookmark", "words": ["bookmark", "bookmarks", "ribbon", "save"], "nameOnly": true, "steps": [{ "t": "main", "a": "sink", "dur": 1000 }, { "t": "notBody", "a": "popIn", "dur": 600, "dl": 300 }] },
+    { "id": "book", "words": ["book", "books", "book-open", "library-books", "bible", "quran", "notebook-pen", "read", "reading", "dictionary", "album-book"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 1000 },
+      { "t": "rest", "a": "growX", "o": "left", "dur": 700, "dl": 300, "stagger": true, "gap": 110 }
+    ] },
+    { "id": "award", "words": ["award", "medal", "trophy", "crown", "cup-trophy", "military-award", "rosette", "prize", "winner", "certificate-2"], "nameOnly": true, "steps": [{ "t": "main", "a": "hop", "dur": 1100 }, { "t": "small", "a": "popIn", "dur": 600, "dl": 300 }] },
+    { "id": "gem", "words": ["gem", "diamond", "diamonds", "jewel", "crystal", "premium"], "nameOnly": true, "steps": [{ "t": "main", "a": "pop", "dur": 900 }, { "t": "notBody", "a": "draw", "dur": 700, "dl": 200 }] },
+    { "id": "gift", "words": ["gift", "present", "package", "box", "parcel", "cube", "container", "package-open", "giftcard"], "nameOnly": true, "steps": [
+      { "t": "top", "a": "lift", "dur": 1000 },
+      { "t": "rest", "a": "jelly", "o": "bottom", "dur": 1000, "dl": 150 }
+    ] },
+    { "id": "cart", "words": ["shopping-bag", "bag", "basket", "handbag", "purse", "backpack", "luggage", "briefcase", "suitcase"], "nameOnly": true, "steps": [{ "t": "main", "a": "hop", "dur": 1000 }, { "t": "top", "a": "swing", "o": "groupBottom", "dur": 1100, "dl": 100 }] },
+    { "id": "coin", "words": ["coin", "coins", "dollar", "euro", "pound", "yen", "bitcoin", "currency", "cash", "money", "cent", "rupee", "shekel", "dinar", "riyal", "lira", "ruble", "won", "peso", "franc", "krone", "credit-card", "card", "wallet", "banknote", "receipt-2", "piggy-bank", "payment"], "nameOnly": true, "steps": [{ "t": "main", "a": "flip", "dur": 1200 }],
+      "modifier": [{ "t": "main", "a": "flip", "dur": 1100 }] },
+    { "id": "percent", "words": ["percent", "percentage", "discount-2"], "body": false, "steps": [{ "t": "main", "a": "spinHalf", "dur": 1200 }] },
+    { "id": "light", "words": ["lightbulb", "bulb", "lamp", "light", "idea", "lantern", "flashlight", "spotlight", "ceiling-light", "bulb-off"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "breathe", "dur": 1200 },
+      { "t": "outside", "a": "popIn", "dur": 600, "dl": 250, "stagger": true, "gap": 90 }
+    ] },
+    { "id": "power", "words": ["power", "on-off", "shutdown", "switch-power", "plug", "plug-connected", "unplug"], "nameOnly": true, "steps": [
+      { "t": "curves", "a": "draw", "dur": 900 },
+      { "t": "vlines", "a": "lift", "dur": 900, "dl": 250 }
+    ] },
+    { "id": "toggle", "words": ["toggle-left", "toggle-right", "toggle", "switch-2", "switch-horizontal", "switch-vertical"], "nameOnly": true, "steps": [{ "t": "circles", "a": "nudge", "dur": 1000, "need": true }] },
+    { "id": "sliders", "words": ["sliders", "sliders-horizontal", "sliders-vertical", "adjustments", "adjustments-horizontal", "adjustments-alt", "settings-2", "equalizer-2", "filter", "filters", "funnel", "sort"], "nameOnly": true, "body": false, "steps": [
+      { "t": "main", "a": "jelly", "dur": 1000 },
+      { "t": "circles", "a": "pop", "dur": 600, "dl": 200, "stagger": true, "gap": 110 }
+    ] },
+    { "id": "code", "words": ["code", "codes", "brackets", "braces", "curly-braces", "html", "xml", "source-code", "angle-brackets", "parentheses", "embed"], "body": false, "steps": [
+      { "t": "left", "a": "nudgeBack", "dur": 1000 },
+      { "t": "right", "a": "nudge", "dur": 1000 }
+    ], "modifier": [{ "t": "left", "a": "nudgeBack", "dur": 900 }, { "t": "right", "a": "nudge", "dur": 900 }] },
+    { "id": "terminal", "words": ["terminal", "console", "command-line", "prompt", "shell"], "steps": [{ "t": "notBody", "a": "nudge", "dur": 900 }, { "t": "hlines", "a": "growX", "o": "left", "dur": 700, "dl": 300 }] },
+    { "id": "git", "words": ["git", "branch", "merge", "commit", "pull-request", "fork", "share", "network", "graph-node", "hierarchy", "sitemap", "workflow", "nodes", "binary-tree", "affiliate", "topology", "schema", "webhook"], "nameOnly": true, "body": false, "steps": [
+      { "t": "circles", "a": "popIn", "dur": 650, "stagger": true, "by": "y", "gap": 130 },
+      { "t": "rest", "a": "draw", "dur": 900, "dl": 150 }
+    ] },
+    { "id": "database", "words": ["database", "server", "servers", "hard-drive", "harddrive", "storage", "cylinder", "disc-2", "data"], "nameOnly": true, "steps": [
+      { "t": "main", "a": "dropIn", "dur": 700, "stagger": true, "by": "y", "gap": 130 }
+    ] },
+    { "id": "device", "words": ["monitor", "laptop", "computer", "desktop", "smartphone", "tablet", "mobile", "device", "devices", "screen", "display", "imac", "ipad", "kindle", "tv-old"], "nameOnly": true, "steps": [
+      { "t": "bodyOrLargest", "a": "draw", "dur": 1000 },
+      { "t": "notBody", "a": "riseIn", "dur": 700, "dl": 300, "stagger": true, "gap": 100 },
+      { "t": "all", "a": "pop", "dur": 700, "dl": 850 }
+    ] },
+    { "id": "cpu", "words": ["cpu", "chip", "microchip", "processor", "circuit", "circuit-board", "memory", "ram", "gpu"], "nameOnly": true, "steps": [
+      { "t": "outside", "a": "draw", "dur": 700, "stagger": true, "groups": 2, "gap": 150 },
+      { "t": "bodyOrLargest", "a": "pop", "dur": 800, "dl": 300 }
+    ] },
+    { "id": "printer", "words": ["printer", "print", "fax", "scanner"], "nameOnly": true, "steps": [{ "t": "bottom", "a": "riseIn", "dur": 800, "dl": 100 }, { "t": "all", "a": "jelly", "dur": 900, "dl": 450 }] },
+    { "id": "keyboard", "words": ["keyboard", "keys-2", "keypad", "calculator", "abacus", "dialpad-2"], "nameOnly": true, "steps": [{ "t": "inner", "a": "popIn", "dur": 550, "stagger": true, "groups": 4, "by": "x", "gap": 90 }] },
+    { "id": "mouse", "words": ["mouse", "click", "tap", "hand", "hand-click", "hand-finger", "touch", "grab", "point", "pointer-2", "finger", "wave"], "nameOnly": true, "steps": [{ "t": "main", "a": "wiggle", "o": "bottom", "dur": 1100 }] },
+    { "id": "thumb-up", "words": ["thumbs-up", "thumb-up", "approve-2", "like-2"], "nameOnly": true, "steps": [{ "t": "main", "a": "tilt", "o": "bottom left", "dur": 1100 }] },
+    { "id": "thumb-down", "words": ["thumbs-down", "thumb-down", "dislike"], "nameOnly": true, "steps": [{ "t": "main", "a": "nod", "o": "top right", "dur": 1100 }] },
+    { "id": "plus", "words": ["plus", "add", "new", "create", "insert", "cross"], "nameOnly": true, "body": false, "steps": [{ "t": "main", "a": "spinHalf", "dur": 1100 }],
+      "modifier": [{ "t": "main", "a": "popIn", "dur": 800 }], "glyph": [{ "t": "main", "a": "spinHalf", "dur": 1000 }] },
+    { "id": "minus", "words": ["minus", "remove", "subtract", "dash", "line-dashed"], "nameOnly": true, "body": false, "steps": [{ "t": "main", "a": "stretch", "dur": 900 }],
+      "modifier": [{ "t": "main", "a": "growX", "dur": 700 }], "glyph": [{ "t": "main", "a": "growX", "dur": 700 }] },
+    { "id": "x", "words": ["x", "close", "cancel", "xmark", "delete", "clear", "multiply", "ban", "forbid", "deny", "reject", "error", "octagon-x"], "nameOnly": true, "body": false, "steps": [{ "t": "main", "a": "spinHalf", "dur": 1100 }],
+      "modifier": [{ "t": "main", "a": "draw", "dur": 700 }, { "t": "main", "a": "shake", "dur": 800, "dl": 450 }], "glyph": [{ "t": "main", "a": "draw", "dur": 800, "stagger": true, "groups": 2, "gap": 160 }] },
+    { "id": "equal", "words": ["equal", "equals", "approximately", "not-equal", "divide", "slash", "math", "sum", "sigma", "function", "infinity", "pi", "variable", "square-root", "math-function", "omega", "lambda"], "nameOnly": true, "body": false, "steps": [{ "t": "main", "a": "draw", "dur": 900, "stagger": true, "groups": 3, "gap": 140 }] },
+    { "id": "alert", "words": ["alert", "warning", "exclamation", "exclamation-mark", "danger", "triangle-alert", "octagon-alert", "circle-alert", "urgent", "important", "siren", "alarm-light", "emergency", "hazard"], "nameOnly": true, "steps": [
+      { "t": "notBody", "a": "popIn", "dur": 700, "dl": 150, "stagger": true, "by": "y", "gap": 120 },
+      { "t": "all", "a": "shake", "dur": 900, "dl": 500 }
+    ], "modifier": [{ "t": "main", "a": "popIn", "dur": 700 }, { "t": "main", "a": "wiggle", "dur": 900, "dl": 400 }],
+      "glyph": [{ "t": "main", "a": "popIn", "dur": 700, "stagger": true, "by": "y", "gap": 140 }] },
+    { "id": "info", "words": ["info", "information", "help", "question", "question-mark", "faq", "support", "lifebuoy-2", "circle-help", "badge-info"], "nameOnly": true, "steps": [
+      { "t": "notBody", "a": "hop", "dur": 900, "dl": 100 }
+    ], "modifier": [{ "t": "main", "a": "popIn", "dur": 700 }, { "t": "main", "a": "wiggle", "dur": 900, "dl": 400 }],
+      "glyph": [{ "t": "main", "a": "riseIn", "dur": 750, "stagger": true, "by": "y", "gap": 140 }] },
+    { "id": "grid", "words": ["grid", "layout", "layout-grid", "apps", "dashboard-2", "table", "category", "categories", "columns", "rows", "kanban", "panels", "panel", "sidebar", "app-window", "window", "browser", "layout-dashboard", "box-model", "template", "squares-2"], "nameOnly": true, "steps": [
+      { "t": "notBody", "a": "popIn", "dur": 600, "stagger": true, "groups": 4, "gap": 100, "dl": 150 }
+    ] },
+    { "id": "frame", "words": ["crop", "frame", "maximize", "minimize", "expand", "shrink", "fullscreen", "scale", "resize", "focus-frame", "box-select", "scan-2", "border", "viewfinder", "artboard", "selection", "lasso"], "nameOnly": true, "body": false, "steps": [{ "t": "all", "a": "pop", "dur": 900 }, { "t": "main", "a": "draw", "dur": 900, "stagger": true, "groups": 2, "gap": 150 }] },
+    { "id": "palette", "words": ["palette", "paint", "color", "colors", "swatch", "swatches", "bucket", "paint-bucket", "pipette", "eyedropper", "spray", "fill"], "nameOnly": true, "steps": [{ "t": "main", "a": "tilt", "dur": 1100 }, { "t": "circles", "a": "popIn", "dur": 600, "dl": 250, "stagger": true, "gap": 90 }] },
+    { "id": "shape", "exact": true, "words": ["circle", "square", "triangle", "hexagon", "octagon", "pentagon", "rectangle", "oval", "shape", "shapes", "cone", "cylinder", "sphere", "pyramid", "prism", "polygon", "spiral", "infinity-2", "parallelogram"], "nameOnly": true, "steps": [{ "t": "main", "a": "draw", "dur": 1000 }, { "t": "all", "a": "pop", "dur": 700, "dl": 750 }] },
+    { "id": "ruler", "words": ["ruler", "ruler-measure", "measure", "tape", "dimensions", "ruler-2", "triangle-ruler"], "nameOnly": true, "body": false, "steps": [{ "t": "all", "a": "stretch", "dur": 1000 }] },
+    { "id": "magnet", "words": ["magnet", "attract"], "body": false, "steps": [{ "t": "all", "a": "shake", "dur": 1000 }] },
+    { "id": "bug", "words": ["bug", "ant", "spider", "beetle", "insect", "butterfly", "bee", "worm", "snail"], "nameOnly": true, "steps": [{ "t": "main", "a": "wiggle", "dur": 1000 }, { "t": "small", "a": "popIn", "dur": 550, "dl": 200 }] },
+    { "id": "animal", "words": ["cat", "dog", "fish", "bird", "rabbit", "turtle", "squirrel", "rat", "panda", "horse", "pig", "cow", "paw", "bone", "egg", "feather-2", "dove", "owl", "shrimp"], "nameOnly": true, "steps": [{ "t": "main", "a": "hop", "dur": 1100 }] },
+    { "id": "coffee", "words": ["coffee", "cup", "mug", "tea", "cup-soda", "beer", "wine", "glass", "milk", "bottle", "soup", "kettle", "pot", "cooking-pot", "hot", "steam", "teapot"], "nameOnly": true, "steps": [
+      { "t": "top", "a": "riseIn", "dur": 800, "stagger": true, "by": "x", "gap": 140, "dl": 100 },
+      { "t": "rest", "a": "jelly", "o": "bottom", "dur": 1000, "dl": 200 }
+    ] },
+    { "id": "food", "words": ["pizza", "burger", "apple", "cherry", "cake", "cookie", "candy", "carrot", "lollipop", "ice-cream", "croissant", "sandwich", "salad", "egg-fried", "meat", "beef", "fish-bone", "banana", "grape", "lemon", "citrus", "pepper", "popcorn", "donut", "dessert", "cupcake", "baguette", "bread", "cheese", "cookie-2", "drumstick", "ham", "popsicle", "sausage", "taco", "food", "utensils", "fork", "knife", "spoon", "chef-hat", "tools-kitchen", "bowl", "chopsticks"], "nameOnly": true, "steps": [{ "t": "main", "a": "jelly", "o": "bottom", "dur": 1100 }] },
+    { "id": "health", "words": ["pill", "pills", "capsule", "syringe", "stethoscope", "bandage", "first-aid", "medical", "medicine", "vaccine", "dna", "virus", "microscope", "test-tube", "flask", "beaker", "brain", "bone-2", "tooth", "dental", "lungs", "heart-rate-monitor", "hospital-circle", "cross-2", "ambulance-2", "thermometer-2", "radioactive", "biohazard"], "nameOnly": true, "steps": [{ "t": "main", "a": "tilt", "dur": 1100 }, { "t": "small", "a": "popIn", "dur": 550, "dl": 250, "stagger": true, "gap": 90 }] },
+    { "id": "sport", "words": ["ball", "basketball", "football", "soccer", "volleyball", "baseball", "tennis", "golf", "bowling", "dumbbell", "barbell", "weight", "run", "running", "swimming", "bike-2", "skate", "ski", "trophy-2", "medal-2", "karate", "yoga", "olympics", "stretching", "treadmill", "puzzle", "dice", "dices", "gamepad", "joystick", "chess", "cards", "playing-card", "game", "games", "sword", "swords", "shield-sword", "target-arrow", "bow", "archery", "boxing", "ping-pong", "hockey", "cricket", "rugby"], "nameOnly": true, "steps": [{ "t": "main", "a": "hop", "dur": 1000 }, { "t": "inner", "a": "pop", "dur": 600, "dl": 250 }] },
+    { "id": "scale-legal", "words": ["scale", "scales", "balance", "justice", "law", "legal", "scale-balanced"], "nameOnly": true, "steps": [{ "t": "upper", "a": "tilt", "o": "boxTop", "dur": 1400 }, { "t": "lower", "a": "pop", "dur": 600, "dl": 300 }] },
+    { "id": "stamp", "words": ["stamp", "seal", "rubber-stamp", "approved"], "nameOnly": true, "steps": [{ "t": "main", "a": "sink", "dur": 1000 }, { "t": "bottom", "a": "growX", "dur": 600, "dl": 400 }] },
+    { "id": "id", "words": ["id", "id-card", "identification", "credit-card-2", "badge-id", "contact-card", "vcard", "passport"], "nameOnly": true, "steps": [{ "t": "main", "a": "flip", "dur": 1200 }] },
+    { "id": "door", "words": ["door", "doors", "gate", "entrance", "exit", "fence"], "nameOnly": true, "steps": [{ "t": "inner", "a": "stretch", "o": "left", "dur": 1000 }, { "t": "small", "a": "popIn", "dur": 600, "dl": 250 }] },
+    { "id": "furniture", "words": ["armchair", "sofa", "bed", "bed-double", "bath", "bathtub", "shower", "toilet", "chair", "table-2", "desk", "lamp-desk", "fridge", "refrigerator", "microwave", "oven", "washing-machine", "dishwasher", "air-conditioning", "heater", "vacuum", "iron", "sink", "laundry", "hanger", "shirt", "shirt-sport", "dress", "shoe", "socks", "hat", "glasses", "sunglasses", "watch-2", "ring", "necklace", "tie", "bow-tie", "jacket", "pants", "skirt", "baby-carriage", "crib"], "nameOnly": true, "steps": [{ "t": "main", "a": "jelly", "o": "bottom", "dur": 1100 }, { "t": "small", "a": "popIn", "dur": 550, "dl": 250 }] },
+    { "id": "inbox", "words": ["inbox", "tray", "archive-box", "mailbox-2"], "nameOnly": true, "steps": [{ "t": "notBody", "a": "sink", "dur": 1000 }] },
+    { "id": "send", "words": ["share-2", "send-2", "forward-2"], "nameOnly": true, "body": false, "steps": [{ "t": "all", "a": "nudge", "dur": 1000 }] }
+  ]
+}

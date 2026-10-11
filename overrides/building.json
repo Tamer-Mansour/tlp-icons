@@ -1,0 +1,30 @@
+{
+  "name": "building",
+  "svg": "<path class=\"p3\" d=\"M12 10h.01\"/><path class=\"p3\" d=\"M12 14h.01\"/><path class=\"p3\" d=\"M12 6h.01\"/><path class=\"p3\" d=\"M16 10h.01\"/><path class=\"p3\" d=\"M16 14h.01\"/><path class=\"p3\" d=\"M16 6h.01\"/><path class=\"p3\" d=\"M8 10h.01\"/><path class=\"p3\" d=\"M8 14h.01\"/><path class=\"p3\" d=\"M8 6h.01\"/><path class=\"p3\" d=\"M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3\"/><g class=\"p4\"><rect rx=\"2\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" class=\"d p1\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "breathe",
+      "dur": 1200,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "banknote",
+  "svg": "<g class=\"p4\"><rect class=\"d p1\" width=\"20\" height=\"12\" x=\"2\" y=\"6\" rx=\"2\"/></g><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M6 12h.01M18 12h.01\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "jelly",
+      "dur": 1000,
+      "delay": 600
+    }
+  ]
+}

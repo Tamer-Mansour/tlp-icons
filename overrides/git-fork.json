@@ -1,0 +1,30 @@
+{
+  "name": "git-fork",
+  "svg": "<circle class=\"p3\" cx=\"12\" cy=\"18\" r=\"3\"/><g class=\"p4\"><circle class=\"d p1\" cx=\"6\" cy=\"6\" r=\"3\"/></g><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"3\"/><path class=\"p3\" d=\"M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9\"/><path class=\"p3\" d=\"M12 12v3\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "lift",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

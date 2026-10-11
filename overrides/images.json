@@ -1,0 +1,30 @@
+{
+  "name": "images",
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2\"/><path class=\"p3\" d=\"m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16\"/><circle class=\"p4\" cx=\"13\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "slideIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 450
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 850
+    }
+  ]
+}

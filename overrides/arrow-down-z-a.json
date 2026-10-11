@@ -1,0 +1,18 @@
+{
+  "name": "arrow-down-z-a",
+  "svg": "<g class=\"p3\"><path d=\"M15 4h5l-5 6h5\"/><path d=\"M15 20v-3.5a2.5 2.5 0 0 1 5 0V20\"/><path d=\"M20 18h-5\"/></g><g class=\"p2\"><path d=\"m3 16 4 4 4-4\"/><path d=\"M7 4v16\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sink",
+      "dur": 1000,
+      "delay": 250
+    }
+  ]
+}

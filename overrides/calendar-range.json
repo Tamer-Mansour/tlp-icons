@@ -1,0 +1,31 @@
+{
+  "name": "calendar-range",
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><g class=\"p2\"><path d=\"M16 2v3\"/><path d=\"M3 9h18\"/><path d=\"M8 2v3\"/></g><g class=\"p3\"><path d=\"M17 13h-6\"/><path d=\"M13 17H7\"/></g><g class=\"p4\"><path d=\"M7 13h.01\"/><path d=\"M17 17h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 100
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 300,
+      "origin": "left"
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 650
+    }
+  ]
+}

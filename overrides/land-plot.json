@@ -1,0 +1,31 @@
+{
+  "name": "land-plot",
+  "svg": "<g class=\"p4\"><path d=\"m8 11.99-5.5 3.14a1 1 0 0 0 0 1.74l8.5 4.86a2 2 0 0 0 2 0l8.5-4.86a1 1 0 0 0 0-1.74L16 12\" class=\"d p1\"/></g><path class=\"p3\" d=\"m6.49 12.85 11.02 6.3\"/><path class=\"p3\" d=\"M17.51 12.85 6.5 19.15\"/><path d=\"m12 8 6-3-6-3v10\" class=\"p2\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 1200,
+      "delay": 600,
+      "origin": "12px 12px"
+    }
+  ]
+}

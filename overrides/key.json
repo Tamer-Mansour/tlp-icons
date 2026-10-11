@@ -1,0 +1,31 @@
+{
+  "name": "key",
+  "svg": "<path class=\"p3\" d=\"m2 21 9.6-9.6\"/><path class=\"p3\" d=\"m7.5 15.5 2.3 2.3a1 1 0 0 1 0 1.4l-2.1 2.1a1 1 0 0 1-1.4 0L4 19\"/><g class=\"p4\"><circle cx=\"15.5\" cy=\"7.5\" r=\"5.5\" class=\"d p1\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 1000,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 150
+    },
+    {
+      "part": "all",
+      "anim": "tilt",
+      "dur": 1200,
+      "delay": 650,
+      "origin": "15px 8px"
+    }
+  ]
+}
