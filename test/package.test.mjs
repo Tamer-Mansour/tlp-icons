@@ -14,12 +14,14 @@ test('tlp-icons package: no full JSON, has runtime, types and licenses', { timeo
   const [info] = pack();
   const files = info.files.map(f => f.path.replace(/\\/g, '/'));
   assert.ok(!files.includes('dist/tlp-icons.json'), 'dist/tlp-icons.json must not ship in tlp-icons');
-  for (const f of ['dist/index.js', 'dist/index.d.ts', 'dist/tlp-icon.js', 'dist/tlp-icon.d.ts', 'dist/jsx.d.ts', 'dist/manifest.js', 'dist/tlp-icons.css', 'LICENSE', 'NOTICE.md', 'licenses/lucide.LICENSE.txt']) {
+  for (const f of ['dist/index.js', 'dist/index.d.ts', 'dist/tlp-icon.js', 'dist/tlp-icon.d.ts', 'dist/jsx.d.ts', 'dist/react.js', 'dist/react.d.ts', 'dist/manifest.js', 'dist/tlp-icons.css', 'LICENSE', 'NOTICE.md', 'licenses/lucide.LICENSE.txt']) {
     assert.ok(files.includes(f), `${f} missing from the package`);
   }
   assert.ok(!files.some(f => f.startsWith('packages/') || f.startsWith('web/') || f.startsWith('test/')), 'workspace/test/web files leaked into the package');
   const pkg = readJson('package.json');
   assert.ok(!('./data' in pkg.exports), './data export must be removed (moved to tlp-icons-data)');
+  assert.equal(pkg.peerDependenciesMeta?.react?.optional, true, 'react must be an optional peer dependency');
+  assert.ok(!pkg.dependencies, 'tlp-icons has no runtime dependencies');
   assert.ok(!files.includes('dist/tlp-icons.all.js'), 'the offline bundle ships in tlp-icons-data');
   assert.ok(info.unpackedSize < 3 * 1024 * 1024, `unpacked size ${(info.unpackedSize / 1048576).toFixed(2)} MB must stay under 3 MB`);
   for (const f of ['dist/core.js.map', 'dist/element.js.map', 'dist/tlp-icon.js.map']) assert.ok(files.includes(f), `${f} missing`);

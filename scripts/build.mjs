@@ -267,6 +267,8 @@ for (const f of fs.readdirSync(path.join(ROOT, 'src', 'types')).filter(f => f.en
   fs.copyFileSync(path.join(ROOT, 'src', 'types', f), path.join(DIST, f));
 }
 fs.writeFileSync(path.join(DIST, 'jsx.js'), `${header}// Types-only entry: see jsx.d.ts. Importing it at runtime does nothing.\nexport {};\n`);
+// optional React wrapper (react stays an external peer dependency)
+fs.writeFileSync(path.join(DIST, 'react.js'), header + fs.readFileSync(path.join(ROOT, 'src', 'runtime', 'react.js'), 'utf8'));
 const allData = ordered.map(i => `${json(i.name)}:${json(record(i))}`).join(',\n');
 fs.writeFileSync(path.join(DIST, 'tlp-icons.runtime.js'), header + runtime.iife);
 // the offline bundle registers every icon; the no-op loader then marks the set as complete, so unknown names

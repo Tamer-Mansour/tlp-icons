@@ -25,7 +25,18 @@
       ],
       "jsx": [
         "./dist/jsx.d.ts"
+      ],
+      "react": [
+        "./dist/react.d.ts"
       ]
+    }
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
     }
   },
   "exports": {
@@ -44,6 +55,10 @@
     "./jsx": {
       "types": "./dist/jsx.d.ts",
       "default": "./dist/jsx.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "default": "./dist/react.js"
     },
     "./css": "./dist/tlp-icons.css",
     "./tlp-icons.css": "./dist/tlp-icons.css",
@@ -99,6 +114,8 @@
   "devDependencies": {
     "@types/react": "^19.3.0",
     "esbuild": "^0.28.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "typescript": "^7.0.2"
   }
 }
