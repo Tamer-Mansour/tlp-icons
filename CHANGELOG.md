@@ -4,6 +4,26 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.4.0] - 2026-10-12
+
+### Added
+
+- **3,561 new tlp originals: 7,677 -> 11,238 icons.** Every priority field is at its roadmap target:
+  - Health & Medical 142 -> 1,200 (clinical, dental, lab and imaging, pharmacy, anatomy, mental health and wellness,
+    maternity and elderly care, emergency and public health, devices and telehealth)
+  - Finance & Money 220 -> 1,100 (banking, payments and cards, investing, crypto, insurance, accounting and tax,
+    personal finance and regional currencies)
+  - Shopping & Commerce 126 -> 999 (retail, e-commerce, logistics and warehouses, packaging, promotions and loyalty,
+    customer service and returns, point of sale and inventory)
+  - Maps & Travel 253 -> 1,000 (navigation, places and landmarks, travel and hotels, transit, outdoors, map tools)
+  - Legal & Government 1,177 -> 1,180
+- Each icon was drawn and self-checked, then reviewed in groups (678 redrawn in review).
+
+### Changed
+
+- Size budgets follow the larger set: manifest limit 15 -> 20 KB gzip (about 15,000 icons), package unpacked
+  size limit 3 -> 5 MB.
+
 ## [0.3.2] - 2026-10-12
 
 ### Fixed
@@ -135,6 +155,7 @@ All notable changes to this project are documented here. The format follows
 - Raw data and SVG helpers (`icons`, `categories`, `getIcon`, `getSvg`, `toSvgString`).
 - The offline single-file bundle and the stylesheet.
 
+[0.4.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.2...v0.4.0
 [0.3.2]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.1...v0.3.2
 [0.3.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.2.0...v0.3.0
