@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=4f46e5"></a>
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=4f46e5"></a>
-  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-7.4%20KB%20gzip-16a34a"></a>
+  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-7.5%20KB%20gzip-16a34a"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/tlp-icons?color=16a34a"></a>
   <img alt="icons" src="https://img.shields.io/badge/icons-7%2C677-4f46e5">
@@ -350,16 +350,16 @@ element core goes over 8 KB gzip or the manifest over 15 KB gzip.
 <!-- sizes:start -->
 | What | Minified | Gzip |
 | --- | ---: | ---: |
-| element core (tlp-icon + core + element) | 25.0 KB | **7.4 KB** |
+| element core (tlp-icon + core + element) | 25.1 KB | **7.5 KB** |
 | manifest | 23.3 KB | **12.0 KB** |
 | smallest category chunk (science.js) | 11.3 KB | **3.4 KB** |
 | largest category chunk (legal.js) | 388.0 KB | **78.2 KB** |
-| all icons, offline bundle (tlp-icons.all.js) | 2610.5 KB | **458.0 KB** |
+| all icons, offline bundle (tlp-icons.all.js) | 2610.6 KB | **458.1 KB** |
 | stylesheet (tlp-icons.css) | 11.6 KB | **2.4 KB** |
 <!-- sizes:end -->
 
 What a page actually downloads: the element core, the manifest, then **one chunk per category it uses**. A page
-with a few interface and arrow icons loads about <!--s:size.0.gzip-->7.4 KB<!--/s--> + <!--s:size.1.gzip-->12.0 KB<!--/s-->
+with a few interface and arrow icons loads about <!--s:size.0.gzip-->7.5 KB<!--/s--> + <!--s:size.1.gzip-->12.0 KB<!--/s-->
 plus those two chunks. Import a chunk directly (`tlp-icons/icons/<category>.js`) to skip the manifest. The
 stylesheet is injected by the element; `tlp-icons/css` is there if you prefer a `<link>`.
 
