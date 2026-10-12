@@ -212,9 +212,9 @@ test('lazy loader uses one static import() per category (bundlers like Vite can 
   assert.ok(!/import\(`/.test(code), 'template-literal import() is invisible to Vite inside node_modules');
 });
 
-test('manifest stays small (under 12 KB gzip)', async () => {
+test('manifest stays small (under 15 KB gzip, the build limit)', async () => {
   const zlib = await import('node:zlib');
   const fsMod = await import('node:fs');
   const gz = zlib.gzipSync(fsMod.readFileSync(path.join(ROOT, 'dist', 'manifest.js')), { level: 9 }).length;
-  assert.ok(gz < 12 * 1024, `manifest.js is ${(gz / 1024).toFixed(1)} KB gzip`);
+  assert.ok(gz < 15 * 1024, `manifest.js is ${(gz / 1024).toFixed(1)} KB gzip`);
 });

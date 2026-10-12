@@ -1,0 +1,11 @@
+{
+  "name": "surveillance-camera-mast",
+  "category": "legal",
+  "tags": ["surveillance", "camera", "cctv", "monitoring", "pole", "security", "watch"],
+  "svg": "<g class=\"p3\"><path d=\"M12 9.5v12\"/><path d=\"M12 13.5 8.5 9\"/></g><rect class=\"d p2\" x=\"7\" y=\"4\" width=\"9\" height=\"5\" rx=\"1.2\"/><rect class=\"p2\" x=\"4\" y=\"5.5\" width=\"3\" height=\"2\" rx=\".5\"/><path class=\"p4\" d=\"M9.5 21.5h5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

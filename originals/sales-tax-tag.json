@@ -1,0 +1,18 @@
+{
+  "name": "sales-tax-tag",
+  "category": "legal",
+  "tags": [
+    "sales",
+    "tax",
+    "percent",
+    "price",
+    "tag",
+    "receipt"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 4v7.5L12.5 21l8.5-8.5L11.5 3H4z\"/><circle class=\"p2\" cx=\"7\" cy=\"7\" r=\"1.2\"/><path class=\"p2\" d=\"M14 10l-4 4\"/><circle class=\"f p2\" cx=\"10\" cy=\"10\" r=\".9\"/><circle class=\"f p2\" cx=\"14\" cy=\"14\" r=\".9\"/><g class=\"p3\"><path class=\"d\" d=\"M15.5 13h5v7.5l-1.25-1-1.25 1-1.25-1-1.25 1z\"/><path d=\"M17.25 16h2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "border-barrier-gate",
+  "category": "legal",
+  "tags": ["border", "barrier", "gate", "checkpoint", "immigration", "crossing"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"2.5\" height=\"11\" rx=\".5\"/><path class=\"p2\" d=\"M5.25 11 19 6\"/><rect class=\"d p3\" x=\"15.5\" y=\"13\" width=\"6\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 300, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

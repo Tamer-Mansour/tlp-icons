@@ -1,0 +1,12 @@
+{
+  "name": "detective-fedora",
+  "category": "legal",
+  "tags": ["detective", "fedora", "hat", "investigator", "magnifier", "private eye"],
+  "svg": "<path class=\"d p1\" d=\"M2 15c0-1.5 4-2.5 10-2.5s10 1 10 2.5-4 2.5-10 2.5S2 16.5 2 15z\"/><path class=\"d p2\" d=\"M6 12.5V7c0-2 2.5-3 6-3s6 1 6 3v5.5\"/><path class=\"p3\" d=\"M6 10.5h12\"/><path class=\"p4\" d=\"M14 5.2a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4zM15.6 6.8 17.6 8.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sheriff-star",
+  "category": "legal",
+  "tags": ["sheriff", "star", "badge", "deputy", "law enforcement", "marshal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"6.5\"/><path class=\"p2\" d=\"M12 6 13 8.62l2.8.14-2.18 1.77.73 2.71L12 11.7l-2.35 1.54.73-2.71-2.18-1.77 2.8-.14z\"/><path class=\"p3\" d=\"M12 16.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

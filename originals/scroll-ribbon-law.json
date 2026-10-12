@@ -1,0 +1,11 @@
+{
+  "name": "scroll-ribbon-law",
+  "category": "legal",
+  "tags": ["scroll", "parchment", "ribbon", "document", "decree", "law"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"6\" width=\"10\" height=\"12\"/><rect class=\"d p2\" x=\"4.5\" y=\"3.5\" width=\"15\" height=\"3\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4.5\" y=\"17.5\" width=\"15\" height=\"3\" rx=\"1.5\"/><rect class=\"d p3\" x=\"7\" y=\"10.5\" width=\"10\" height=\"3\"/><path class=\"p3\" d=\"M10 13.5l-1.5 4M14 13.5l1.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

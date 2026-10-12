@@ -1,0 +1,13 @@
+{
+  "name": "sign-language-interpreter",
+  "category": "legal",
+  "tags": ["sign language", "interpreter", "deaf", "hands", "accessibility", "translation"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"6\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M4.5 11V5.5M7.5 11V4\"/><rect class=\"d p3\" x=\"13\" y=\"13\" width=\"7\" height=\"6\" rx=\"2\"/><path class=\"p4\" d=\"M15 13V9M18 13V9\"/><path class=\"p5\" d=\"M14.5 3a4.5 4.5 0 0 1 4.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "wave", "dur": 1000, "delay": 900 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

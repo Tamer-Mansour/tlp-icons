@@ -1,0 +1,12 @@
+{
+  "name": "case-status-flag",
+  "category": "legal",
+  "tags": ["case", "status", "flag", "progress", "docket", "milestone", "document"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><path class=\"d p2\" d=\"M5 4h12l-2.5 3.5L17 11H5z\"/><rect class=\"p3\" x=\"8.5\" y=\"5.8\" width=\"3.5\" height=\"4\" rx=\".4\"/><path class=\"p4\" d=\"M3 21h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 400 }
+  ]
+}

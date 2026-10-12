@@ -1,0 +1,11 @@
+{
+  "name": "family-reunification-gate",
+  "category": "legal",
+  "tags": ["family", "reunification", "gate", "reunion", "people", "meeting"],
+  "svg": "<path class=\"p1\" d=\"M3 21V6h18v15M2 21h20\"/><circle class=\"d p2\" cx=\"8\" cy=\"10\" r=\"2.5\"/><circle class=\"d p2\" cx=\"16\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M4.5 21v-1.5a3.5 3.5 0 0 1 7 0V21M12.5 21v-1.5a3.5 3.5 0 0 1 7 0V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tax-id-card",
+  "category": "legal",
+  "tags": ["tax", "id", "card", "percent", "taxpayer", "identification"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\" rx=\"2\"/><rect class=\"p2\" x=\"4\" y=\"7.5\" width=\"8\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M9.8 9.6 6.2 14.6\"/><circle class=\"f p3\" cx=\"6.4\" cy=\"10.4\" r=\"1.1\"/><circle class=\"f p3\" cx=\"9.6\" cy=\"13.4\" r=\"1.1\"/><path class=\"p4\" d=\"M14.5 10h4.5M14.5 14h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 1000, "origin": "left" }
+  ]
+}

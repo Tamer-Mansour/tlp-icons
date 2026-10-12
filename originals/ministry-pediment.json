@@ -1,0 +1,12 @@
+{
+  "name": "ministry-pediment",
+  "category": "legal",
+  "tags": ["ministry", "government", "pediment", "building", "flag", "columns"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 12 5.5 21 11z\"/><path class=\"p2\" d=\"M6 12.5v5.5M10 12.5v5.5M14 12.5v5.5M18 12.5v5.5\"/><path class=\"p4\" d=\"M4 18.5h16M3 21.5h18\"/><g class=\"p3\"><path d=\"M12 5.5V2.5\"/><path class=\"d\" d=\"M12 2.5l5 1.5-5 1.5z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 300, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 900, "origin": "12px 5.5px" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "tag-along-cars",
+  "category": "legal",
+  "tags": [
+    "tag along",
+    "convoy",
+    "following",
+    "escort",
+    "rope",
+    "vehicles"
+  ],
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M2 15v-3l2.5-3.5H10l3 3.5v3z\"/><circle cx=\"5.5\" cy=\"16.5\" r=\"2\"/><circle cx=\"10.5\" cy=\"16.5\" r=\"2\"/></g><path class=\"p3\" d=\"M13 14h3\"/><g class=\"p2\"><rect class=\"d\" x=\"16\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/><circle cx=\"19\" cy=\"16.5\" r=\"2\"/></g><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 300,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "drive",
+      "dur": 900,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "probation-badge",
+  "category": "legal",
+  "tags": ["probation", "badge", "clock", "supervision", "parole", "sentence", "shield"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 19.5 5v6c0 4.6-3.2 8.3-7.5 9.5C7.7 19.3 4.5 15.6 4.5 11V5z\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"3.5\"/><path class=\"p3\" d=\"M12 9.2V11l1.2 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

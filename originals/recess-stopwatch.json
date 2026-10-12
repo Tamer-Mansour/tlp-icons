@@ -1,0 +1,11 @@
+{
+  "name": "recess-stopwatch",
+  "category": "legal",
+  "tags": ["recess", "pause", "stopwatch", "break", "timer", "hearing"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"7.5\"/><path class=\"p2\" d=\"M10 3h4\"/><path class=\"p2\" d=\"M12 3v3\"/><path class=\"p3\" d=\"M10 11v5\"/><path class=\"p3\" d=\"M14 11v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

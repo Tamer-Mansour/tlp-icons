@@ -1,0 +1,12 @@
+{
+  "name": "good-time-credit",
+  "category": "legal",
+  "tags": ["good time", "credit", "sentence", "prison", "clock", "reduction"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M11 7v5l3 2\"/><circle class=\"d p3\" cx=\"19\" cy=\"19\" r=\"3\"/><path class=\"p4\" d=\"M19 17.5v3M17.5 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

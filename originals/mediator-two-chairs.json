@@ -1,0 +1,29 @@
+{
+    "name":  "mediator-two-chairs",
+    "category":  "legal",
+    "tags":  [
+                 "mediator",
+                 "mediation",
+                 "negotiation",
+                 "talks",
+                 "settlement",
+                 "dialogue"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M6 3h4a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H7l-3 3V5a2 2 0 0 1 2-2z\"/\u003e\u003cpath class=\"d p2\" d=\"M19 9h-5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h4l3 3v-8a2 2 0 0 0-2-2z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  0,
+                       "origin":  "bottom left"
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  400,
+                       "origin":  "bottom right"
+                   }
+               ]
+}

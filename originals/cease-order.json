@@ -1,0 +1,20 @@
+{
+  "name": "cease-order",
+  "category": "legal",
+  "tags": [
+    "cease",
+    "order",
+    "stop",
+    "injunction",
+    "document",
+    "halt"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 2h8l3 3v8H4z\"/><path class=\"p2\" d=\"M12 2v3h3\"/><path class=\"p3\" d=\"M7 8h5M7 11h4\"/><polygon class=\"d p4\" points=\"21.23 19.34 19.34 21.23 16.66 21.23 14.77 19.34 14.77 16.66 16.66 14.77 19.34 14.77 21.23 16.66\"/><path class=\"p5\" d=\"M16.5 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p5", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

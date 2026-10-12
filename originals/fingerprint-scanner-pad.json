@@ -1,0 +1,12 @@
+{
+  "name": "fingerprint-scanner-pad",
+  "category": "legal",
+  "tags": ["fingerprint", "scanner", "biometric", "identity", "pad", "verify"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><g class=\"p2\"><path d=\"M7 13.5a5 5 0 0 1 10 0c0 2.5-.6 4-1.4 5.5\"/><path d=\"M9.5 13.5a2.5 2.5 0 0 1 5 0c0 1.5-.4 3-1 4.5\"/></g><path class=\"p3\" d=\"M12 13.5v3\"/><circle class=\"f p4\" cx=\"17\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

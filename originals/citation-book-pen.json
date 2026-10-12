@@ -1,0 +1,11 @@
+{
+  "name": "citation-book-pen",
+  "category": "legal",
+  "tags": ["citation", "ticket", "book", "pen", "fine", "record"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 8h3M7.5 12h3M7.5 16h2\"/><path class=\"d p3\" d=\"M18.5 3.5l2 2-7 7-2-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

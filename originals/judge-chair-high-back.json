@@ -1,0 +1,11 @@
+{
+  "name": "judge-chair-high-back",
+  "category": "legal",
+  "tags": ["judge", "chair", "bench", "seat", "court", "throne", "high back"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M4 16h16\"/><path class=\"p3\" d=\"M7 16v5M17 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

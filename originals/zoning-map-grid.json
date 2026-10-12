@@ -1,0 +1,11 @@
+{
+  "name": "zoning-map-grid",
+  "category": "legal",
+  "tags": ["zoning", "map", "grid", "zone", "planning", "land"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><g class=\"p2\"><rect class=\"d\" x=\"3\" y=\"3\" width=\"6\" height=\"6\"/><rect class=\"d\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/><rect class=\"d\" x=\"15\" y=\"15\" width=\"6\" height=\"6\"/></g><path class=\"p3\" d=\"M9 3v18M15 3v18M3 9h18M3 15h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 700 }
+  ]
+}

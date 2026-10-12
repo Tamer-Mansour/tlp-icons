@@ -1,0 +1,18 @@
+{
+  "name": "stenotype-machine",
+  "category": "legal",
+  "tags": [
+    "stenotype",
+    "stenography",
+    "court reporter",
+    "transcript",
+    "shorthand",
+    "keyboard"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 11h20v8H2z\"/><path class=\"p2\" d=\"M5.5 15h2.5M10.5 15h3M16.5 15h2\"/><path class=\"p3\" d=\"M8 11V2.5h8V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "clerk-counter",
+  "category": "legal",
+  "tags": ["clerk", "counter", "filing", "records", "stamp", "court"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"9\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"3\" width=\"8\" height=\"5\" rx=\".5\"/><rect class=\"p3\" x=\"15\" y=\"3\" width=\"6\" height=\"5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

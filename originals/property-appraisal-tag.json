@@ -1,0 +1,11 @@
+{
+  "name": "property-appraisal-tag",
+  "category": "legal",
+  "tags": ["property", "appraisal", "valuation", "house", "price", "real estate"],
+  "svg": "<path class=\"d p1\" d=\"M2 11.5 8 6l6 5.5V20H2z\"/><path class=\"p2\" d=\"M18 3v7M18 6h2\"/><path class=\"p3\" d=\"M13 16.5 16.5 13H21v6.5L17.5 21z\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

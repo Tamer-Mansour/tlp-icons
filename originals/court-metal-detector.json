@@ -1,0 +1,12 @@
+{
+  "name": "court-metal-detector",
+  "category": "legal",
+  "tags": ["metal detector", "security", "screening", "checkpoint", "court", "arch"],
+  "svg": "<path class=\"p1\" d=\"M5 21V9a7 7 0 0 1 14 0v12\"/><path class=\"p4\" d=\"M3 21h18\"/><circle class=\"d p3\" cx=\"12\" cy=\"10.5\" r=\"2\"/><path class=\"d p2\" d=\"M9 21v-3a3 3 0 0 1 6 0v3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "parliamentary-bench",
+  "category": "legal",
+  "tags": ["parliament", "bench", "seats", "legislature", "chamber", "government"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"20\" height=\"2.5\" rx=\"1\"/><path class=\"p1\" d=\"M4 16.5V20M20 16.5V20\"/><g class=\"d p2\"><rect x=\"3\" y=\"6\" width=\"4\" height=\"8\" rx=\"1.5\"/><rect x=\"10\" y=\"6\" width=\"4\" height=\"8\" rx=\"1.5\"/><rect x=\"17\" y=\"6\" width=\"4\" height=\"8\" rx=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 300, "origin": "bottom" }
+  ]
+}

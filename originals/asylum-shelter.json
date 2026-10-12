@@ -1,0 +1,11 @@
+{
+  "name": "asylum-shelter",
+  "category": "legal",
+  "tags": ["asylum", "shelter", "refuge", "protection", "house", "shield", "immigration"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V10.5c0-1 .4-2 1.2-2.6L12 3l6.8 4.9c.8.6 1.2 1.6 1.2 2.6V21z\"/><path class=\"p2\" d=\"M12 7.5 9.2 8.8v2.2c0 1.7 1.2 2.7 2.8 3.3 1.6-.6 2.8-1.6 2.8-3.3V8.8z\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

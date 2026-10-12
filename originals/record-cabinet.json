@@ -1,0 +1,11 @@
+{
+  "name": "record-cabinet",
+  "category": "legal",
+  "tags": ["record", "cabinet", "filing", "archive", "drawer", "documents"],
+  "svg": "<path class=\"p3\" d=\"M8.5 7V2.5h7V7\"/><rect class=\"d p1\" x=\"5\" y=\"7\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 13h14M10 10h4M10 16.5h4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

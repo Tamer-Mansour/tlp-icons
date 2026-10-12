@@ -1,0 +1,12 @@
+{
+  "name": "supply-contract-truck",
+  "category": "legal",
+  "tags": ["supply", "contract", "delivery", "truck", "logistics", "agreement"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"13\" height=\"10\" rx=\"1\"/><path class=\"d p2\" d=\"M15 9h3.5l2.5 3.5V16h-6z\"/><path class=\"d p3\" d=\"M7 15.5a2 2 0 1 0 0 4 2 2 0 1 0 0-4zM17.5 15.5a2 2 0 1 0 0 4 2 2 0 1 0 0-4z\"/><path class=\"p4\" d=\"M5.5 10h6M5.5 13.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

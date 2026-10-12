@@ -1,0 +1,10 @@
+{
+  "name": "house-arrest",
+  "category": "legal",
+  "tags": ["house", "arrest", "home", "detention", "confinement", "padlock"],
+  "svg": "<path class=\"d p1\" d=\"M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/><g class=\"p2\"><path d=\"M10.5 13v-1.5a1.5 1.5 0 0 1 3 0V13\"/><rect x=\"9.5\" y=\"13\" width=\"5\" height=\"4\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

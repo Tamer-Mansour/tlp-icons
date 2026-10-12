@@ -1,0 +1,11 @@
+{
+  "name": "witness-box",
+  "category": "legal",
+  "tags": ["witness box", "witness", "testimony", "court", "stand", "trial"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"10\" rx=\"1\"/><circle class=\"p2\" cx=\"8\" cy=\"7\" r=\"2.5\"/><path class=\"p3\" d=\"M14 11V5h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

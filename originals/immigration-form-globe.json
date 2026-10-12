@@ -1,0 +1,11 @@
+{
+  "name": "immigration-form-globe",
+  "category": "legal",
+  "tags": ["immigration", "form", "globe", "visa", "travel", "application", "world"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><g class=\"p2\"><circle cx=\"16\" cy=\"8\" r=\"3.5\"/><path d=\"M12.5 8h7\"/><ellipse cx=\"16\" cy=\"8\" rx=\"1.6\" ry=\"3.5\"/></g><path class=\"p3\" d=\"M7 8h4M7 14h10M7 17.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 }
+  ]
+}

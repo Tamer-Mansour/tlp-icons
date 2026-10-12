@@ -1,0 +1,11 @@
+{
+  "name": "docket-calendar-gavel",
+  "category": "legal",
+  "tags": ["docket", "calendar", "gavel", "hearing", "court date", "schedule"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M8 2v4M16 2v4\"/><g class=\"p3\"><rect x=\"11\" y=\"12.25\" width=\"5\" height=\"2.5\" rx=\"1\" transform=\"rotate(45 13.5 13.5)\"/><path d=\"M13.5 13.5 9 18\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "strike", "dur": 1000, "delay": 800, "origin": "9px 18px" }
+  ]
+}

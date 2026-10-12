@@ -1,0 +1,11 @@
+{
+  "name": "anonymised-person",
+  "category": "legal",
+  "tags": ["anonymised", "anonymous", "privacy", "person", "redacted", "identity", "data"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M16 7A4 4 0 0 1 15.46 9M12 11A4 4 0 0 1 10 10.46M8 7A4 4 0 0 1 8.54 5M12 3A4 4 0 0 1 14 3.54\"/><path class=\"d p3\" d=\"M5 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

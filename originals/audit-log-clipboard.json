@@ -1,0 +1,13 @@
+{
+  "name": "audit-log-clipboard",
+  "category": "legal",
+  "tags": ["audit", "log", "clipboard", "timeline", "history", "record", "trail"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 9v9\"/><circle class=\"f p4\" cx=\"9\" cy=\"9\" r=\"1.2\"/><circle class=\"f p4\" cx=\"9\" cy=\"13.5\" r=\"1.2\"/><circle class=\"f p4\" cx=\"9\" cy=\"18\" r=\"1.2\"/><path class=\"p5\" d=\"M12.5 9h3.5M12.5 13.5h3.5M12.5 18h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

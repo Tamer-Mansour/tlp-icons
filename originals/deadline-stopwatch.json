@@ -1,0 +1,12 @@
+{
+  "name": "deadline-stopwatch",
+  "category": "legal",
+  "tags": ["deadline", "stopwatch", "time limit", "timer", "flag", "due"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M10 2h4M12 2v4\"/><path class=\"p3\" d=\"M12 13V9.5M12 13l2.5 2.5\"/><path class=\"p4\" d=\"M18 3v6M18 3h3.5l-1 1.5 1 1.5H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 1100, "origin": "18px 9px" }
+  ]
+}

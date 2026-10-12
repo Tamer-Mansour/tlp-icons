@@ -1,0 +1,11 @@
+{
+  "name": "undercover-disguise",
+  "category": "legal",
+  "tags": ["undercover", "disguise", "spy", "glasses", "hat", "moustache", "agent"],
+  "svg": "<path class=\"d p1\" d=\"M7 6.5V4.5a2.5 2.5 0 0 1 2.5-2.5h5a2.5 2.5 0 0 1 2.5 2.5v2z\"/><path class=\"p1\" d=\"M3 6h18\"/><g class=\"p2\"><circle cx=\"7.5\" cy=\"12.5\" r=\"3.2\"/><circle cx=\"16.5\" cy=\"12.5\" r=\"3.2\"/><path d=\"M10.7 12.5h2.6\"/></g><path class=\"p3\" d=\"M8 19.5c1-1.2 2.5-1.2 4 0 1.5-1.2 3-1.2 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "proof-of-address",
+  "category": "legal",
+  "tags": ["address", "proof", "residence", "house", "home", "document", "verification"],
+  "svg": "<path class=\"d p1\" d=\"M2 11l5.5-5L13 11v9H2z\"/><path class=\"p2\" d=\"M6 20v-4h3v4\"/><path class=\"d p3\" d=\"M15 4h4.5L21 6.5V20h-6z\"/><path class=\"p4\" d=\"M17 10h3M17 13.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

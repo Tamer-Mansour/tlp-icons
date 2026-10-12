@@ -1,0 +1,20 @@
+{
+  "name": "discovery-request",
+  "category": "legal",
+  "tags": [
+    "discovery",
+    "request",
+    "evidence",
+    "documents",
+    "search",
+    "magnifier"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"10\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 3h10l3 3v6\"/><path class=\"p3\" d=\"M6 10h4M6 13.5h4M6 17h3\"/><circle class=\"d p4\" cx=\"15.5\" cy=\"12\" r=\"4\"/><path class=\"p5\" d=\"M18.3 14.8 21 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

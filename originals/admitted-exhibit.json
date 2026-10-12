@@ -1,0 +1,11 @@
+{
+  "name": "admitted-exhibit",
+  "category": "legal",
+  "tags": ["exhibit", "admitted", "evidence", "label", "check", "court", "approved"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h12.5L21 12l-5.5 6.5H3a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1z\"/><path class=\"p2\" d=\"M7 12l3 3 5-6\"/><circle class=\"f p3\" cx=\"6\" cy=\"12\" r=\".6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

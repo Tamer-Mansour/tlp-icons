@@ -1,0 +1,12 @@
+{
+  "name": "dashcam-recorder",
+  "category": "legal",
+  "tags": ["dashcam", "recorder", "camera", "evidence", "video", "dash cam"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"9\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12.5\" r=\"2.5\"/><circle class=\"f p4\" cx=\"17\" cy=\"10\" r=\".7\"/><path class=\"p3\" d=\"M8.5 4.5a3.5 2.5 0 0 1 7 0M12 4.5V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "blink", "dur": 900, "delay": 900 }
+  ]
+}

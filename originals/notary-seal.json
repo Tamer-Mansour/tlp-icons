@@ -1,0 +1,10 @@
+{
+  "name": "notary-seal",
+  "category": "legal",
+  "tags": ["notary", "seal", "stamp", "certified", "verified", "rosette", "official"],
+  "svg": "<path class=\"d p1\" d=\"M12 2l2.2 1.8 2.8-.5 1 2.7 2.7 1-.5 2.8L22 12l-1.8 2.2.5 2.8-2.7 1-1 2.7-2.8-.5L12 22l-2.2-1.8-2.8.5-1-2.7-2.7-1 .5-2.8L2 12l1.8-2.2-.5-2.8 2.7-1 1-2.7 2.8.5z\"/><path class=\"p2\" d=\"M8.5 12.5 11 15l4.5-5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

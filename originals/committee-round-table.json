@@ -1,0 +1,35 @@
+{
+  "name": "committee-round-table",
+  "category": "legal",
+  "tags": [
+    "committee",
+    "round table",
+    "meeting",
+    "board",
+    "panel",
+    "council"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 3h9v7H6.5L4 13v-3H2z\"/><path class=\"d p2\" d=\"M14 8h8v7h-1v3l-3-3h-4z\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 0,
+      "origin": "bottom left"
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 350,
+      "origin": "bottom right"
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

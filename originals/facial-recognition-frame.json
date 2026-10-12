@@ -1,0 +1,12 @@
+{
+  "name": "facial-recognition-frame",
+  "category": "legal",
+  "tags": ["face", "biometric", "scan", "identity", "recognition", "portrait"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3\"/><path class=\"p1\" d=\"M16 3h3a2 2 0 0 1 2 2v3\"/><path class=\"p1\" d=\"M21 16v3a2 2 0 0 1-2 2h-3\"/><path class=\"p1\" d=\"M8 21H5a2 2 0 0 1-2-2v-3\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4.5\"/><circle class=\"f p3\" cx=\"10.2\" cy=\"11\" r=\".9\"/><circle class=\"f p3\" cx=\"13.8\" cy=\"11\" r=\".9\"/><path class=\"p4\" d=\"M10 14.5c1.3 1 2.7 1 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

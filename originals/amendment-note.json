@@ -1,0 +1,12 @@
+{
+  "name": "amendment-note",
+  "category": "legal",
+  "tags": ["amendment", "note", "edit", "revision", "document", "change", "plus"],
+  "svg": "<path class=\"d p1\" d=\"M4 2h9l4 4v4M4 2v20h7\"/><path class=\"p2\" d=\"M7.5 8h4M7.5 12h3\"/><path class=\"p3\" d=\"M11 16.5 17.5 10l2.5 2.5-6.5 6.5-2.5.5z\"/><g class=\"p4\"><circle class=\"d\" cx=\"19\" cy=\"19\" r=\"3\"/><path d=\"M19 17.5v3M17.5 19h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 1100 }
+  ]
+}

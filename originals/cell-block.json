@@ -1,0 +1,10 @@
+{
+  "name": "cell-block",
+  "category": "legal",
+  "tags": ["cell", "block", "prison", "jail", "custody", "bars"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"d p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"d p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"d p1\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M7 3v8M17 3v8M7 13v8M17 13v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

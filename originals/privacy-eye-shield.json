@@ -1,0 +1,12 @@
+{
+  "name": "privacy-eye-shield",
+  "category": "legal",
+  "tags": ["privacy", "eye", "shield", "confidential", "data", "protection"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z\"/><path class=\"p2\" d=\"M8.5 11.5c1.2-1.8 2.4-2.5 3.5-2.5s2.3.7 3.5 2.5c-1.2 1.8-2.4 2.5-3.5 2.5s-2.3-.7-3.5-2.5z\"/><circle class=\"p3\" cx=\"12\" cy=\"11.5\" r=\"1.2\"/><path class=\"p4\" d=\"M9.5 15.5l5-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

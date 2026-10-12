@@ -1,0 +1,11 @@
+{
+  "name": "parliament-seats",
+  "category": "legal",
+  "tags": ["parliament", "seats", "assembly", "legislature", "chamber", "senate"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.5\"/><circle class=\"f p1\" cx=\"6.34\" cy=\"12.34\" r=\"1.5\"/><circle class=\"f p1\" cx=\"12\" cy=\"10\" r=\"1.5\"/><circle class=\"f p1\" cx=\"17.66\" cy=\"12.34\" r=\"1.5\"/><circle class=\"f p1\" cx=\"20\" cy=\"18\" r=\"1.5\"/><circle class=\"f p2\" cx=\"8\" cy=\"18\" r=\"1.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1.5\"/><circle class=\"f p2\" cx=\"16\" cy=\"18\" r=\"1.5\"/><path class=\"p3\" d=\"M2 21.5h20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 350 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 750 }
+  ]
+}

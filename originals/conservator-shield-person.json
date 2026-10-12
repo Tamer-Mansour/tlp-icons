@@ -1,0 +1,12 @@
+{
+  "name": "conservator-shield-person",
+  "category": "legal",
+  "tags": ["conservator", "guardian", "protection", "person", "shield", "custody"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5l7.5 3v6c0 4.5-3.2 7.7-7.5 9.5-4.3-1.8-7.5-5-7.5-9.5v-6z\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.2\"/><path class=\"p3\" d=\"M8 17c0-2 1.8-3 4-3s4 1 4 3\"/><path class=\"p4\" d=\"M7.5 10a4.5 4.5 0 0 1 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

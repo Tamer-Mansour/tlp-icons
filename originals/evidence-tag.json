@@ -1,0 +1,12 @@
+{
+  "name": "evidence-tag",
+  "category": "legal",
+  "tags": ["evidence", "tag", "exhibit", "label", "proof", "case"],
+  "svg": "<path class=\"p1\" d=\"M4 3c0 3 1.5 5 5 7.5\"/><path class=\"d p2\" d=\"M5 12l6-6h9v12h-9z\"/><circle class=\"p3\" cx=\"9\" cy=\"12\" r=\"1.3\"/><g class=\"p4\"><path d=\"M13.5 10h4.5\"/><path d=\"M13.5 13.5h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

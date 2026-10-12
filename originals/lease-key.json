@@ -1,0 +1,11 @@
+{
+  "name": "lease-key",
+  "category": "legal",
+  "tags": ["lease", "key", "tenant", "rental", "landlord", "tag"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M9.5 8H21M17 8v3M20 8v2\"/><g class=\"p3\"><path d=\"M6 11.5v2.5\"/><rect class=\"d\" x=\"3\" y=\"14\" width=\"6.5\" height=\"7\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "6px 11.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pepper-spray",
+  "category": "legal",
+  "tags": ["pepper spray", "spray", "defense", "canister", "self defense", "safety"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"10\" width=\"9\" height=\"11\" rx=\"2\"/><g class=\"p2\"><rect x=\"6.5\" y=\"7\" width=\"6\" height=\"3\" rx=\"1\"/><path d=\"M9.5 7V5h4\"/></g><g class=\"p3\"><path d=\"M15.5 3.5l3-1.5\"/><path d=\"M16 6h4\"/><path d=\"M15.5 8.5l3 1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

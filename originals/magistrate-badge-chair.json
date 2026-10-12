@@ -1,0 +1,12 @@
+{
+  "name": "magistrate-badge-chair",
+  "category": "legal",
+  "tags": ["magistrate", "judge", "badge", "chair", "bench", "seat"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"9\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4\" y=\"12\" width=\"16\" height=\"3\" rx=\"1\"/><polygon class=\"d p3\" points=\"12,4.9 12.65,6.61 14.47,6.7 13.05,7.84 13.53,9.6 12,8.6 10.47,9.6 10.95,7.84 9.53,6.7 11.35,6.61\"/><path class=\"p4\" d=\"M6 15v6M18 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

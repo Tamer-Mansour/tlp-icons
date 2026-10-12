@@ -1,0 +1,12 @@
+{
+  "name": "postal-ballot",
+  "category": "legal",
+  "tags": ["postal", "ballot", "vote", "mail", "envelope", "stamp"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M2 7l10 7 10-7\"/><rect class=\"d p4\" x=\"16\" y=\"2\" width=\"4\" height=\"4\" rx=\".5\"/><path class=\"p3\" d=\"M8 16.5l2.5 2.5L15.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

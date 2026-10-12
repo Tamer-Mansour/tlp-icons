@@ -1,0 +1,11 @@
+{
+  "name": "data-minimisation-funnel",
+  "category": "legal",
+  "tags": ["data", "minimisation", "funnel", "privacy", "filter", "gdpr"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18l-7 8v6l-4 2v-8z\"/><g class=\"p2\"><circle cx=\"7.5\" cy=\"7\" r=\"1\"/><circle cx=\"11\" cy=\"8.5\" r=\"1\"/><circle cx=\"14.5\" cy=\"7\" r=\"1\"/></g><circle class=\"f p3\" cx=\"12\" cy=\"16.5\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

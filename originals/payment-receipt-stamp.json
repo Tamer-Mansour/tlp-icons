@@ -1,0 +1,11 @@
+{
+  "name": "payment-receipt-stamp",
+  "category": "legal",
+  "tags": ["receipt", "payment", "paid", "stamp", "invoice", "fee"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v17l-3.5-2-3.5 2-3.5-2-3.5 2z\"/><path class=\"p2\" d=\"M8.5 7.5h7M8.5 11h4\"/><circle class=\"d p3\" cx=\"15\" cy=\"14.5\" r=\"3\"/><path class=\"p3\" d=\"m13.6 14.5 1 1 1.8-1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

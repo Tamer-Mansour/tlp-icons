@@ -1,0 +1,19 @@
+{
+  "name": "police-helicopter",
+  "category": "legal",
+  "tags": [
+    "helicopter",
+    "police",
+    "aerial",
+    "patrol",
+    "surveillance",
+    "searchlight"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"11\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M16 11h5M21 8.5v5\"/><path class=\"p3\" d=\"M3 5.5h14M10 5.5V7\"/><polygon class=\"p4\" points=\"8 15.5 4 21.5 15 21.5 12 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "fadeIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "10px 5.5px" }
+  ]
+}

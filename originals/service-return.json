@@ -1,0 +1,12 @@
+{
+  "name": "service-return",
+  "category": "legal",
+  "tags": ["service", "return", "envelope", "served", "delivery", "mail"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"13\" height=\"11\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 6l6.5 4.5L15 6\"/><path class=\"p3\" d=\"M20 8v5a4 4 0 0 1-4 4H7\"/><path class=\"p4\" d=\"M10.5 14 7 17l3.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

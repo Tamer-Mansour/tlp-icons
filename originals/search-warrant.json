@@ -1,0 +1,12 @@
+{
+  "name": "search-warrant",
+  "category": "legal",
+  "tags": ["search", "warrant", "police", "document", "magnifier", "investigation"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"14\" height=\"19\" rx=\"2\"/><path class=\"p3\" d=\"M7 7h7M7 10.5h4\"/><circle class=\"d p2\" cx=\"16\" cy=\"16\" r=\"4\"/><path class=\"p4\" d=\"M19 19l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

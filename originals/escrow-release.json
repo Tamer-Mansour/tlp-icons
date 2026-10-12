@@ -1,0 +1,33 @@
+{
+  "name": "escrow-release",
+  "category": "legal",
+  "tags": [
+    "escrow",
+    "release",
+    "box",
+    "deposit",
+    "unlock",
+    "funds"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"18\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M12 16v-6M9.5 12.5 12 10l2.5 2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

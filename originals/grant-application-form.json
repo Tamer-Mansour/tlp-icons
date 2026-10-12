@@ -1,0 +1,19 @@
+{
+  "name": "grant-application-form",
+  "category": "legal",
+  "tags": [
+    "grant",
+    "application",
+    "form",
+    "signature",
+    "funding",
+    "sign"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 2h10l4 4v14H4z\"/><path class=\"p2\" d=\"M7.5 7.5h7M7.5 10.5h5\"/><rect class=\"p3\" x=\"6\" y=\"15.5\" width=\"7\" height=\"3.5\" rx=\".5\"/><path class=\"p4\" d=\"M22 17h-7M18 14l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 600, "origin": "left" },
+    { "part": "p4", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "chain-custody",
+  "category": "legal",
+  "tags": ["chain", "custody", "evidence", "tag", "links", "record"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7.5\" r=\"3.2\"/><circle class=\"p2\" cx=\"11\" cy=\"7.5\" r=\"3.2\"/><circle class=\"p3\" cx=\"16\" cy=\"7.5\" r=\"3.2\"/><path class=\"d p4\" d=\"M10 17.5l3.5-3.5H20a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-6.5z\"/><circle class=\"f p5\" cx=\"18\" cy=\"17.5\" r=\".8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

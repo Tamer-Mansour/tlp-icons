@@ -1,0 +1,11 @@
+{
+  "name": "checkpoint-barrier-gate",
+  "category": "legal",
+  "tags": ["checkpoint", "barrier", "gate", "border", "boom", "stop", "access"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"3.5\" height=\"13\" rx=\"1\"/><rect class=\"d p2\" x=\"5.5\" y=\"10.5\" width=\"11\" height=\"2.5\" rx=\"1\"/><path class=\"d p3\" d=\"M16.5 2.5h3l2 2v3l-2 2h-3l-2-2v-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 500, "origin": "5.5px 11.75px" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

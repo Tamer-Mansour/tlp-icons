@@ -1,0 +1,19 @@
+{
+  "name": "case-severance",
+  "category": "legal",
+  "tags": [
+    "severance",
+    "split",
+    "folder",
+    "case",
+    "separate",
+    "divide",
+    "files"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"8\" height=\"13\" rx=\"2\"/><rect class=\"d p2\" x=\"14\" y=\"7\" width=\"8\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M12 3v3M12 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

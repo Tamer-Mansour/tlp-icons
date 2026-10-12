@@ -1,0 +1,11 @@
+{
+  "name": "tax-return-form",
+  "category": "legal",
+  "tags": ["tax", "return", "form", "percent", "revenue", "filing"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><g class=\"p2\"><circle cx=\"14\" cy=\"7.5\" r=\"1.1\"/><circle cx=\"17.5\" cy=\"11\" r=\"1.1\"/><path d=\"M17 7l-4 5\"/></g><path class=\"p3\" d=\"M8 15h8M8 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

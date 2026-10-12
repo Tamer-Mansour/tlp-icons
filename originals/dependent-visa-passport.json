@@ -1,0 +1,11 @@
+{
+  "name": "dependent-visa-passport",
+  "category": "legal",
+  "tags": ["dependent", "visa", "passport", "child", "family", "immigration", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"4.5\" y=\"2.5\" width=\"15\" height=\"19\" rx=\"2\"/><path class=\"p3\" d=\"M4.5 5h15\"/><path class=\"p3\" d=\"M8 19.5h8\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><path class=\"p2\" d=\"M8.5 17v-2a3.5 3.5 0 0 1 7 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

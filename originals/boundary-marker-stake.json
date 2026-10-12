@@ -1,0 +1,11 @@
+{
+  "name": "boundary-marker-stake",
+  "category": "legal",
+  "tags": ["boundary", "survey", "stake", "marker", "property", "land"],
+  "svg": "<path class=\"d p1\" d=\"M10 21V7.5L12 4l2 3.5V21z\"/><path class=\"d p2\" d=\"M14 6h5.5l-1.6 2.2 1.6 2.3H14z\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 800, "origin": "14px 8px" }
+  ]
+}

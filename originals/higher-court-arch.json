@@ -1,0 +1,12 @@
+{
+  "name": "higher-court-arch",
+  "category": "legal",
+  "tags": ["higher court", "appeal", "arch", "gateway", "court", "appellate"],
+  "svg": "<path class=\"d p1\" d=\"M5 21v-7a7 7 0 0 1 14 0v7z\"/><path class=\"p2\" d=\"M9.5 21v-5a2.5 2.5 0 0 1 5 0v5\"/><path class=\"p3\" d=\"M8.5 5.5 12 2.5l3.5 3\"/><path class=\"p4\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1000 }
+  ]
+}

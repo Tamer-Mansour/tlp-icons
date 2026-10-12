@@ -1,0 +1,20 @@
+{
+  "name": "consent-tick-form",
+  "category": "legal",
+  "tags": [
+    "consent",
+    "form",
+    "agreement",
+    "tick",
+    "approve",
+    "opt-in"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"13\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 6h5v5H6z\"/><path class=\"p3\" d=\"M7 8.5l1.5 1.5 2.5-3\"/><path class=\"p4\" d=\"M6.5 13h3M6.5 17h6.5\"/><path class=\"p5\" d=\"M18 4l2.5 2.5L12.5 14l-3 1 1-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 650 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p5", "anim": "wiggle", "dur": 900, "delay": 1000, "origin": "9.5px 15px" }
+  ]
+}

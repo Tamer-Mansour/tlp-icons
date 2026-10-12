@@ -1,0 +1,11 @@
+{
+  "name": "judicial-robe",
+  "category": "legal",
+  "tags": ["judge", "judicial", "robe", "gown", "justice", "court", "magistrate"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6l1 3.5L20.5 8 22 18l-3.5 1-1.5-7.5V21H7v-9.5L5.5 19 2 18 3.5 8 8 6.5z\"/><path class=\"p2\" d=\"M9 3l3 4 3-4\"/><path class=\"p3\" d=\"M12 7v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

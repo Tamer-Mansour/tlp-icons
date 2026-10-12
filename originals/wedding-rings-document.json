@@ -1,0 +1,12 @@
+{
+  "name": "wedding-rings-document",
+  "category": "legal",
+  "tags": ["wedding", "marriage", "rings", "certificate", "vows", "document"],
+  "svg": "<g class=\"p1\"><circle cx=\"9\" cy=\"5.5\" r=\"3\"/><circle cx=\"15\" cy=\"5.5\" r=\"3\"/></g><path class=\"d p2\" d=\"M6 11h12v10H6z\"/><path class=\"p3\" d=\"M9 14.5h6M9 17.5h4\"/><circle class=\"d p4\" cx=\"15\" cy=\"18\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

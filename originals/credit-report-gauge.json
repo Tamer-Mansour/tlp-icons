@@ -1,0 +1,12 @@
+{
+  "name": "credit-report-gauge",
+  "category": "legal",
+  "tags": ["credit", "report", "gauge", "score", "rating", "finance"],
+  "svg": "<path class=\"p1\" d=\"M3 15a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 15l3.5-3.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/><rect class=\"d p4\" x=\"8\" y=\"18\" width=\"8\" height=\"3.5\" rx=\".6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 700, "origin": "12px 15px" }
+  ]
+}

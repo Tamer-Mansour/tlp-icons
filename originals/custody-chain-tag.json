@@ -1,0 +1,11 @@
+{
+  "name": "custody-chain-tag",
+  "category": "legal",
+  "tags": ["custody", "chain", "evidence", "tag", "label", "record"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h7l11 11-7 7L3 11z\"/><circle class=\"p2\" cx=\"7\" cy=\"8\" r=\"1.5\"/><g class=\"p3\"><rect x=\"12.5\" y=\"2\" width=\"6\" height=\"3.5\" rx=\"1.75\"/><rect x=\"15.5\" y=\"4.5\" width=\"6\" height=\"3.5\" rx=\"1.75\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "strike-megaphone",
+  "category": "legal",
+  "tags": [
+    "strike",
+    "megaphone",
+    "protest",
+    "industrial action",
+    "calendar",
+    "announcement"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 9.5h3.5L13 5v12.5L5.5 14H2z\"/><path class=\"p2\" d=\"M5.5 14l1.5 5h2.5l-1.5-5\"/><rect class=\"d p3\" x=\"15\" y=\"6\" width=\"7\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M15 9h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 700 }
+  ]
+}

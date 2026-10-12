@@ -1,0 +1,12 @@
+{
+  "name": "police-lineup",
+  "category": "legal",
+  "tags": ["lineup", "police", "suspect", "witness", "identification", "crime", "people"],
+  "svg": "<g class=\"p1\"><circle class=\"d\" cx=\"5.5\" cy=\"8\" r=\"2.5\"/><circle class=\"d\" cx=\"18.5\" cy=\"8\" r=\"2.5\"/></g><g class=\"p2\"><path d=\"M2.5 19v-2a3 3 0 0 1 6 0v2\"/><path d=\"M15.5 19v-2a3 3 0 0 1 6 0v2\"/></g><g class=\"p4\"><circle class=\"d\" cx=\"12\" cy=\"8\" r=\"2.5\"/><path d=\"M9 19v-2a3 3 0 0 1 6 0v2\"/></g><path class=\"p3\" d=\"M2 21.5h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 500, "origin": "12px 14px" },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800, "origin": "left" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "judge-armchair",
+  "category": "legal",
+  "tags": ["judge", "armchair", "bench", "gavel", "court", "chair"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"8\" height=\"10\" rx=\"2\"/><path class=\"d p2\" d=\"M3 12h18v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p3\" d=\"M6 17v4M18 17v4\"/><rect class=\"d p4\" x=\"15\" y=\"5\" width=\"6\" height=\"3\" rx=\"1\" transform=\"rotate(35 18 6.5)\"/><path class=\"p4\" d=\"M17.1 7.7 20 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "strike", "dur": 900, "delay": 900, "origin": "18px 6.5px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "remote-court-camera",
+  "category": "legal",
+  "tags": ["remote", "court", "camera", "video", "hearing", "online"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"12\" rx=\"2\"/><path class=\"d p3\" d=\"M10.2 10 13 7.2l1.8 1.8-2.8 2.8z\"/><path class=\"p3\" d=\"M11.1 10.9 8.5 14.5\"/><g class=\"p4\"><path d=\"M12 17v3.5\"/><path d=\"M8.5 21h7\"/></g><rect class=\"d p2\" x=\"10\" y=\"1.5\" width=\"4\" height=\"2\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

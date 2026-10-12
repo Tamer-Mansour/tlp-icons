@@ -1,0 +1,11 @@
+{
+  "name": "inmate-tag",
+  "category": "legal",
+  "tags": ["inmate", "tag", "prisoner", "prison", "custody", "number"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 8 5.5h12a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H8z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M13.5 9.5v5M16.5 9.5v5M19.5 9.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

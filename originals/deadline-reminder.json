@@ -1,0 +1,11 @@
+{
+  "name": "deadline-reminder",
+  "category": "legal",
+  "tags": ["deadline", "reminder", "calendar", "bell", "due date", "alert"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"9\" height=\"12.5\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 12h9M5.5 5.5v3.5M8.5 5.5v3.5\"/><g class=\"p3\"><path class=\"d\" d=\"M15.5 12V9.5a2.5 2.5 0 0 1 5 0V12l.5 1h-6z\"/><path d=\"M17.5 16a1.5 1.5 0 0 0 2 0\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "18px 7px" }
+  ]
+}

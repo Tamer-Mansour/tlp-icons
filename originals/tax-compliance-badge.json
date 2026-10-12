@@ -1,0 +1,11 @@
+{
+  "name": "tax-compliance-badge",
+  "category": "legal",
+  "tags": ["tax", "compliance", "badge", "percent", "check", "certified"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 9.5l2.5 2.5L15.5 7.5\"/><g class=\"p3\"><circle class=\"f\" cx=\"9.5\" cy=\"14\" r=\"1.1\"/><circle class=\"f\" cx=\"14.5\" cy=\"17\" r=\"1.1\"/><path d=\"M15 13.5 9 17.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

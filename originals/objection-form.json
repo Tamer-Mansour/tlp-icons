@@ -1,0 +1,11 @@
+{
+  "name": "objection-form",
+  "category": "legal",
+  "tags": ["objection", "form", "protest", "challenge", "document", "stop"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 8h3M8 12h8M8 16h8\"/><circle class=\"d p3\" cx=\"15.5\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M14.4 8h2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "court-monitor-eye",
+  "category": "legal",
+  "tags": ["monitor", "eye", "watch", "surveillance", "court", "oversight"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"d p2\" d=\"M5.5 12c1.8-2.7 4-4 6.5-4s4.7 1.3 6.5 4c-1.8 2.7-4 4-6.5 4s-4.7-1.3-6.5-4z\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"f p4\" cx=\"18\" cy=\"7\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

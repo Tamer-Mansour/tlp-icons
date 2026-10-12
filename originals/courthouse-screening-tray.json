@@ -1,0 +1,19 @@
+{
+  "name": "courthouse-screening-tray",
+  "category": "legal",
+  "tags": [
+    "screening",
+    "tray",
+    "security",
+    "bag",
+    "wallet",
+    "checkpoint"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"16\" width=\"20\" height=\"4\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6.5 10V8.5a2 2 0 0 1 4 0V10\"/><rect class=\"d p3\" x=\"14\" y=\"11.5\" width=\"6\" height=\"4.5\" rx=\"1.2\"/><circle class=\"f p4\" cx=\"18\" cy=\"13.75\" r=\".6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

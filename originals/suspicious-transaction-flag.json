@@ -1,0 +1,12 @@
+{
+  "name": "suspicious-transaction-flag",
+  "category": "legal",
+  "tags": ["suspicious", "transaction", "flag", "money", "laundering", "alert", "coin"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"3\"/><path class=\"p3\" d=\"M12 9V3\"/><path class=\"d p4\" d=\"M12 3h6l-1.5 2 1.5 2h-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "flutter", "dur": 1000, "delay": 800, "origin": "12px 5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "juror-lanyard-badge",
+  "category": "legal",
+  "tags": ["juror", "jury", "lanyard", "badge", "seat", "court", "pass"],
+  "svg": "<path class=\"p1\" d=\"M8 2.5h8\"/><path class=\"p1\" d=\"M10 2.5v4h4v-4\"/><rect class=\"d p2\" x=\"6\" y=\"6.5\" width=\"12\" height=\"14.5\" rx=\"2\"/><path class=\"p3\" d=\"M10 11v5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

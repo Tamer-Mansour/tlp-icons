@@ -1,0 +1,12 @@
+{
+  "name": "witness-list",
+  "category": "legal",
+  "tags": ["witness", "list", "people", "testimony", "persons", "roster"],
+  "svg": "<path class=\"p1\" d=\"M10 5.5h11\"/><path class=\"p2\" d=\"M10 12.5h11\"/><path class=\"p3\" d=\"M10 19.5h11\"/><g class=\"p4\"><circle class=\"f\" cx=\"4\" cy=\"3.1\" r=\"1.1\"/><path d=\"M2 7.3a2 1.2 0 0 1 4 0\"/><circle class=\"f\" cx=\"4\" cy=\"10.1\" r=\"1.1\"/><path d=\"M2 14.3a2 1.2 0 0 1 4 0\"/><circle class=\"f\" cx=\"4\" cy=\"17.1\" r=\"1.1\"/><path d=\"M2 21.3a2 1.2 0 0 1 4 0\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 800, "origin": "center" }
+  ]
+}

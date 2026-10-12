@@ -1,0 +1,11 @@
+{
+  "name": "permanent-resident-card",
+  "category": "legal",
+  "tags": ["resident", "permanent", "card", "green card", "immigration", "id", "portrait"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><g class=\"p2\"><circle cx=\"7.5\" cy=\"10\" r=\"2\"/><path d=\"M4.5 16a3 3 0 0 1 6 0\"/></g><polygon class=\"d p3\" points=\"16.5,8.4 17.4,10.4 19.6,10.6 17.9,12 18.5,14.1 16.5,12.9 14.5,14.1 15.1,12 13.4,10.6 15.6,10.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

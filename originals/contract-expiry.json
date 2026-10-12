@@ -1,0 +1,13 @@
+{
+  "name": "contract-expiry",
+  "category": "legal",
+  "tags": ["contract", "expiry", "deadline", "expire", "document", "hourglass"],
+  "svg": "<path class=\"d p1\" d=\"M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h6\"/><path class=\"p2\" d=\"M13 2v6h6\"/><path class=\"p3\" d=\"M8 8h4M8 12h4\"/><circle class=\"d p4\" cx=\"17\" cy=\"17\" r=\"4.5\"/><g class=\"p5\"><path d=\"M15.6 14.4h2.8M15.6 19.6h2.8M15.8 14.4l1.9 2.6-1.9 2.6M18.2 14.4l-1.9 2.6 1.9 2.6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 350 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p5", "anim": "flip", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lien-notice",
+  "category": "legal",
+  "tags": ["lien", "notice", "claim", "chain", "encumbrance", "document"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h8.5L18 7v5H5z\"/><path class=\"p2\" d=\"M8 6.5h3M8 9.5h6\"/><rect class=\"p3\" x=\"11.5\" y=\"15\" width=\"6\" height=\"3\" rx=\"1.5\" transform=\"rotate(-45 14.5 16.5)\"/><rect class=\"p3\" x=\"14.5\" y=\"17.5\" width=\"6\" height=\"3\" rx=\"1.5\" transform=\"rotate(-45 17.5 19)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

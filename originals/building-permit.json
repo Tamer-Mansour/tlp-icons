@@ -1,0 +1,11 @@
+{
+  "name": "building-permit",
+  "category": "legal",
+  "tags": ["building", "permit", "house", "construction", "approval", "zoning"],
+  "svg": "<path class=\"d p1\" d=\"M4 10.5 10 5.5l6 5V19H4z\"/><path class=\"p2\" d=\"M8.5 19v-4h3v4\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"16.5\" r=\"4\"/><path class=\"p3\" d=\"m15.7 16.5 1.2 1.2 2.2-2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "accessible-entrance",
+  "category": "legal",
+  "tags": ["accessible", "entrance", "ramp", "door", "access", "disability"],
+  "svg": "<rect class=\"d p1\" x=\"14\" y=\"5\" width=\"7\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M2 20h4v-2h3v-2h3v-2h2\"/><circle class=\"f p3\" cx=\"18\" cy=\"9.5\" r=\".7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

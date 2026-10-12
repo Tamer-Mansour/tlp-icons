@@ -1,0 +1,12 @@
+{
+  "name": "courthouse-steps",
+  "category": "legal",
+  "tags": ["courthouse", "steps", "court", "justice", "building", "columns"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 12 3.5 21 9z\"/><g class=\"p2\"><path d=\"M4.5 11v5.5\"/><path d=\"M8.5 11v5.5\"/><path d=\"M15.5 11v5.5\"/><path d=\"M19.5 11v5.5\"/></g><rect class=\"d p3\" x=\"10.5\" y=\"11\" width=\"3\" height=\"5.5\" rx=\".5\"/><path class=\"p4\" d=\"M3 18.5h18\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 300, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

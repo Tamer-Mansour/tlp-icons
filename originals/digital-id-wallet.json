@@ -1,0 +1,12 @@
+{
+  "name": "digital-id-wallet",
+  "category": "legal",
+  "tags": ["digital", "id", "wallet", "phone", "identity", "card"],
+  "svg": "<rect class=\"d p1\" x=\"5.5\" y=\"2\" width=\"13\" height=\"20\" rx=\"2.5\"/><g class=\"p2\"><path d=\"M10.5 4.5h3\"/><path d=\"M10.5 19.5h3\"/></g><rect class=\"d p3\" x=\"8\" y=\"8\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p4\" d=\"M10 11h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 900 }
+  ]
+}

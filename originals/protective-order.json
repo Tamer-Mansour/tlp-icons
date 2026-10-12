@@ -1,0 +1,11 @@
+{
+  "name": "protective-order",
+  "category": "legal",
+  "tags": ["protective", "order", "shield", "court", "restraining", "privacy", "document"],
+  "svg": "<rect class=\"p2\" x=\"11\" y=\"2\" width=\"10\" height=\"18\" rx=\"1.5\"/><path class=\"p3\" d=\"M15 8h3M15 11h3M15 14h3\"/><path class=\"d p1\" d=\"M9 6l5 2v5c0 3.5-2.4 6-5 7-2.6-1-5-3.5-5-7V8z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 600 }
+  ]
+}

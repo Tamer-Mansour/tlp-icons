@@ -1,0 +1,11 @@
+{
+  "name": "dome-security-camera",
+  "category": "legal",
+  "tags": ["cctv", "camera", "security", "surveillance", "dome", "ceiling"],
+  "svg": "<g class=\"p1\"><path d=\"M6 3h12\"/><path d=\"M12 3v4.5\"/></g><path class=\"d p2\" d=\"M4.5 15a7.5 7.5 0 0 1 15 0z\"/><circle class=\"p3\" cx=\"12\" cy=\"12.2\" r=\"3\"/><circle class=\"f\" cx=\"12\" cy=\"12.2\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

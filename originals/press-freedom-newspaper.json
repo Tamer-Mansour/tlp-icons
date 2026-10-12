@@ -1,0 +1,18 @@
+{
+  "name": "press-freedom-newspaper",
+  "category": "legal",
+  "tags": [
+    "press",
+    "freedom",
+    "newspaper",
+    "media",
+    "padlock",
+    "journalism"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 3h13v5h4v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><g class=\"p2\"><path d=\"M7 7h7\"/><path d=\"M7 10h7\"/><path d=\"M7 13h4\"/></g><g class=\"p3\"><rect class=\"d\" x=\"15.5\" y=\"15\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M17.5 15v-1.5a1.5 1.5 0 0 1 3 0v-1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

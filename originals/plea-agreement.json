@@ -1,0 +1,33 @@
+{
+  "name": "plea-agreement",
+  "category": "legal",
+  "tags": [
+    "plea",
+    "agreement",
+    "deal",
+    "bargain",
+    "prosecutor",
+    "document"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v14H6z\"/><path class=\"p2\" d=\"M14 3v4h4\"/><path class=\"p3\" d=\"M9 14l2 2 4-4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

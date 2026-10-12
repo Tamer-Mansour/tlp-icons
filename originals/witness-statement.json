@@ -1,0 +1,12 @@
+{
+  "name": "witness-statement",
+  "category": "legal",
+  "tags": ["witness", "statement", "testimony", "paper", "speech", "deposition"],
+  "svg": "<path class=\"d p1\" d=\"M3 2h8l4 4v6.5H3z\"/><g class=\"p2\"><path d=\"M6 8h6\"/><path d=\"M6 10.5h4\"/></g><path class=\"d p3\" d=\"M12.5 15.5a2 2 0 0 1 2-2h4.5a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4L12.5 21.5z\"/><path class=\"p4\" d=\"M17.5 15.2a1.5 1.5 0 0 0-2.5 1.3c0 1.3 1 1.3 1 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

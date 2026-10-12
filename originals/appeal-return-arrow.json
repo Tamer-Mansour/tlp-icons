@@ -1,0 +1,12 @@
+{
+  "name": "appeal-return-arrow",
+  "category": "legal",
+  "tags": ["appeal", "return", "document", "reverse", "review", "court"],
+  "svg": "<path class=\"d p1\" d=\"M4 2h7l4 4v5\"/><path class=\"p1\" d=\"M4 2v20h5\"/><path class=\"p2\" d=\"M7 9h3\"/><path class=\"p2\" d=\"M7 13h2\"/><path class=\"p3\" d=\"M11 20h4a3 3 0 0 0 3-3V9\"/><path class=\"p4\" d=\"M15 12l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

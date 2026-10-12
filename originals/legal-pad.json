@@ -1,0 +1,11 @@
+{
+  "name": "legal-pad",
+  "category": "legal",
+  "tags": ["legal", "pad", "notepad", "notes", "spiral", "memo", "writing"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"1.5\"/><path class=\"p2\" d=\"M8.5 2v3M12 2v3M15.5 2v3\"/><path class=\"p3\" d=\"M8.5 10.5h7M8.5 14.5h7M8.5 18.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

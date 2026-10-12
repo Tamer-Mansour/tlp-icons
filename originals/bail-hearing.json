@@ -1,0 +1,11 @@
+{
+  "name": "bail-hearing",
+  "category": "legal",
+  "tags": ["bail", "hearing", "clock", "bench", "court", "schedule"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"5\"/><path class=\"p2\" d=\"M12 6v2.5l1.5 1\"/><path class=\"p3\" d=\"M3 16h18M6 16v5M18 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 450, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 500, "origin": "center" }
+  ]
+}

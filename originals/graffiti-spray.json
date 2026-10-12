@@ -1,0 +1,12 @@
+{
+  "name": "graffiti-spray",
+  "category": "legal",
+  "tags": ["graffiti", "spray", "paint", "vandalism", "can", "street art", "drip"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"8\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M4 12h8M11 6.5h3\"/><rect class=\"d p2\" x=\"5\" y=\"5\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M14 4l2.5-1.5M14.5 7h4M14 10l2.5 1.5\"/><path class=\"p4\" d=\"M8 18v3\"/><circle class=\"f p4\" cx=\"8\" cy=\"21.8\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 800 },
+    { "part": "p4", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

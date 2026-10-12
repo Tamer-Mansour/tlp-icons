@@ -1,0 +1,11 @@
+{
+  "name": "exhibit-sticker",
+  "category": "legal",
+  "tags": ["exhibit", "sticker", "label", "evidence", "tag", "letter a"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 17l4-10 4 10\"/><path class=\"p3\" d=\"M9.5 13.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 650 }
+  ]
+}

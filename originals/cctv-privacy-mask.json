@@ -1,0 +1,11 @@
+{
+  "name": "cctv-privacy-mask",
+  "category": "legal",
+  "tags": ["cctv", "camera", "privacy", "mask", "surveillance", "zone"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M16 6l4-2v8l-4-2\"/><path class=\"p3\" d=\"M11 14h3.5M16.5 14h3.5M21 14v2.5M21 18.5v2.5M11 21h3.5M16.5 21h3.5M11 14v2.5M11 18.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 700, "delay": 500 }
+  ]
+}

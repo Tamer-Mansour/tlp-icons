@@ -1,0 +1,10 @@
+{
+  "name": "bloodstain-drop",
+  "category": "legal",
+  "tags": ["blood", "bloodstain", "drop", "crime", "forensic", "evidence"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5c3 4 5.5 7.2 5.5 10.2a5.5 5.5 0 0 1-11 0C6.5 9.7 9 6.5 12 2.5z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"20.5\" rx=\"6.5\" ry=\"1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 500, "origin": "center" }
+  ]
+}

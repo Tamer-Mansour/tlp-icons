@@ -1,0 +1,11 @@
+{
+  "name": "immigration-interview-chairs",
+  "category": "legal",
+  "tags": ["immigration", "interview", "chairs", "hearing", "visa", "asylum", "speech"],
+  "svg": "<g class=\"p1\"><path d=\"M3 9v12\"/><path d=\"M3 16h7\"/><path d=\"M9 16v5\"/><path d=\"M21 9v12\"/><path d=\"M21 16h-6\"/><path d=\"M15 16v5\"/></g><path class=\"d p2\" d=\"M3 3h7v4.5H7l-2 2V7.5H3z\"/><path class=\"d p3\" d=\"M21 3h-7v4.5h3l2 2V7.5h2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "job-offer-envelope",
+  "category": "legal",
+  "tags": ["job", "offer", "envelope", "briefcase", "employment", "hiring", "letter"],
+  "svg": "<g class=\"p3\"><rect class=\"d\" x=\"8.5\" y=\"3.5\" width=\"7\" height=\"6\" rx=\"1\"/><path d=\"M10.5 3.5V2.5h3v1\"/></g><rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 8.5 12 15l9.5-6.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

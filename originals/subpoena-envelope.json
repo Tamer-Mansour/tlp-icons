@@ -1,0 +1,11 @@
+{
+  "name": "subpoena-envelope",
+  "category": "legal",
+  "tags": ["subpoena", "envelope", "summons", "letter", "court", "served", "mail"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"15\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 8l7.5 5L18 8\"/><g class=\"p3\"><path d=\"M18 7l3-3\"/><path d=\"M17 4h4v4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

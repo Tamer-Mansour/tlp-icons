@@ -1,0 +1,12 @@
+{
+  "name": "release-papers",
+  "category": "legal",
+  "tags": ["release", "papers", "waiver", "unlock", "discharge", "document"],
+  "svg": "<path class=\"d p1\" d=\"M4 2h9l4 4v15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z\"/><path class=\"p2\" d=\"M8 7.5h6\"/><g class=\"p3\"><rect class=\"d\" x=\"8\" y=\"14.5\" width=\"5\" height=\"4\" rx=\"1\"/><path d=\"M9.5 14.5v-2a1.5 1.5 0 0 1 3-.5\"/></g><path class=\"p4\" d=\"M14 16.5h6.5\"/><path class=\"p4\" d=\"M18.5 14.5l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

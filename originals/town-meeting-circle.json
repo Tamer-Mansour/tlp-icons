@@ -1,0 +1,11 @@
+{
+  "name": "town-meeting-circle",
+  "category": "legal",
+  "tags": ["town meeting", "public", "council", "assembly", "podium", "community"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"p2\" cx=\"12\" cy=\"5.5\" r=\"2\"/><circle class=\"p2\" cx=\"6.5\" cy=\"16\" r=\"2\"/><circle class=\"p2\" cx=\"17.5\" cy=\"16\" r=\"2\"/><rect class=\"d p3\" x=\"10.5\" y=\"11\" width=\"3\" height=\"4\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 700, "origin": "bottom" }
+  ]
+}

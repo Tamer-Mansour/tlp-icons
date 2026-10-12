@@ -1,0 +1,12 @@
+{
+  "name": "legal-scholar-cap",
+  "category": "legal",
+  "tags": ["scholar", "mortarboard", "law school", "graduate", "books", "education"],
+  "svg": "<path class=\"d p1\" d=\"M2 8.5 12 4l10 4.5-10 4.5z\"/><path class=\"p2\" d=\"M19 9.5v4\"/><rect class=\"d p3\" x=\"3\" y=\"18\" width=\"18\" height=\"3.5\" rx=\"1\"/><rect class=\"p4\" x=\"5\" y=\"14.5\" width=\"14\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 600 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1300, "origin": "19px 9.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "document-filter",
+  "category": "legal",
+  "tags": ["document", "filter", "funnel", "search", "pages", "review"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h18l-7 7.5v3l-4 1.5v-4.5z\"/><path class=\"p3\" d=\"M8 16V14.5h8V16\"/><rect class=\"d p2\" x=\"4\" y=\"18\" width=\"16\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

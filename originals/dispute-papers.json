@@ -1,0 +1,11 @@
+{
+  "name": "dispute-papers",
+  "category": "legal",
+  "tags": ["dispute", "papers", "conflict", "documents", "cancel", "challenge"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"11\" height=\"13\" rx=\"1.5\"/><rect class=\"d p2\" x=\"3\" y=\"8\" width=\"11\" height=\"13\" rx=\"1.5\"/><path class=\"p3\" d=\"M8 9l6 6M14 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

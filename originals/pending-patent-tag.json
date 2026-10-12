@@ -1,0 +1,11 @@
+{
+  "name": "pending-patent-tag",
+  "category": "legal",
+  "tags": ["pending", "patent", "tag", "application", "waiting", "clock"],
+  "svg": "<path class=\"p1\" d=\"M3 4h2M7 4h2M11 4h1M12 4l1.41 1.41M14.83 6.83l1.41 1.41M17.66 9.66l1.41 1.41M20 12l-1.41 1.41M17.17 14.83l-1.41 1.41M14.34 17.66l-1.41 1.41M12 20h-1M10 20H8M6 20H4M3 20v-2M3 16v-2M3 12v-2M3 8v-2\"/><circle class=\"p1\" cx=\"7.5\" cy=\"9\" r=\"1.2\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"18.5\" r=\"3.5\"/><path class=\"p3\" d=\"M18.5 16.8v1.9h1.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "spinHalf", "dur": 800, "delay": 1000, "origin": "18.5px 18.5px" }
+  ]
+}

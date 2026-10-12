@@ -1,0 +1,11 @@
+{
+  "name": "customs-declaration",
+  "category": "legal",
+  "tags": ["customs", "declaration", "shipping", "import", "box", "form", "border"],
+  "svg": "<rect class=\"d p1\" x=\"6.5\" y=\"2\" width=\"11\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M9 3.8h6M9 6.2h4\"/><path class=\"d p3\" d=\"M3 14l9-4 9 4-9 4z\"/><path class=\"p3\" d=\"M3 14v4l9 4 9-4v-4M12 18v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "court-seal",
+  "category": "legal",
+  "tags": ["court", "seal", "official", "stamp", "certificate", "star"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6.5\"/><polygon class=\"d p3\" points=\"12,8.8 12.76,10.95 15.04,11.01 13.24,12.4 13.88,14.59 12,13.3 10.12,14.59 10.76,12.4 8.96,11.01 11.24,10.95\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

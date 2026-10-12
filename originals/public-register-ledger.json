@@ -1,0 +1,11 @@
+{
+  "name": "public-register-ledger",
+  "category": "legal",
+  "tags": ["register", "ledger", "public", "record", "book", "seal", "archive"],
+  "svg": "<path class=\"d p1\" d=\"M2 5c2.5-1 4.5-1 6.5 1 2-2 4-2 6.5-1v12c-2.5-1-4.5-1-6.5 1-2-2-4-2-6.5-1z\"/><path class=\"p2\" d=\"M8.5 6v12M4 10h3M11 10h3M4 13.5h3M11 13.5h3\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"17\" r=\"2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

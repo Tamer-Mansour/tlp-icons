@@ -1,0 +1,11 @@
+{
+  "name": "expert-witness",
+  "category": "legal",
+  "tags": ["expert", "witness", "specialist", "testimony", "credentials", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M2 21v-1a6 6 0 0 1 6-6h2a6 6 0 0 1 6 6v1\"/><polygon class=\"d p3\" points=\"16 12.8 16.76 14.95 19.04 15.01 17.24 16.4 17.88 18.59 16 17.3 14.12 18.59 14.76 16.4 12.96 15.01 15.24 14.95\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000, "origin": "16px 16px" }
+  ]
+}

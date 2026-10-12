@@ -1,0 +1,12 @@
+{
+  "name": "bail-amount",
+  "category": "legal",
+  "tags": ["bail", "amount", "coins", "money", "price", "bond"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><circle class=\"d p2\" cx=\"16\" cy=\"7\" r=\"3.5\"/><path class=\"d p3\" d=\"M3 13.5h11l5 4-5 4H3z\"/><circle class=\"f p4\" cx=\"7\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "beneficiary-gift-box",
+  "category": "legal",
+  "tags": ["gift", "box", "beneficiary", "inheritance", "bequest", "present", "document"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"7.5\" width=\"18\" height=\"3.5\" rx=\"1\"/><path class=\"p2\" d=\"M12 7.5v13.5\"/><ellipse class=\"p3\" cx=\"9.5\" cy=\"5.5\" rx=\"1.8\" ry=\"1.3\"/><ellipse class=\"p3\" cx=\"14.5\" cy=\"5.5\" rx=\"1.8\" ry=\"1.3\"/><path class=\"p4\" d=\"M17.5 7.5V3h3l1 1v3.5\"/><rect class=\"p5\" x=\"5.5\" y=\"14\" width=\"3\" height=\"3.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "riseIn", "dur": 600, "delay": 900 },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

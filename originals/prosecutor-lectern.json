@@ -1,0 +1,11 @@
+{
+  "name": "prosecutor-lectern",
+  "category": "legal",
+  "tags": ["prosecutor", "lectern", "podium", "state", "court", "attorney"],
+  "svg": "<path class=\"d p1\" d=\"M6 8h12v13H6z\"/><path class=\"p2\" d=\"M4 5h16v3H4z\"/><path class=\"p3\" d=\"M12 11l2.6 1v2.6c0 1.6-1.2 2.7-2.6 3.3-1.4-.6-2.6-1.7-2.6-3.3V12z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

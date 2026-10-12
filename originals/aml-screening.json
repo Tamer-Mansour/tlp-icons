@@ -1,0 +1,12 @@
+{
+  "name": "aml-screening",
+  "category": "legal",
+  "tags": ["aml", "screening", "compliance", "money laundering", "kyc", "check", "due diligence"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M2 21v-2a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v2\"/><g class=\"p3\"><circle cx=\"16\" cy=\"8\" r=\"3\"/><path d=\"M18.1 10.1 21 13\"/></g><circle class=\"d p4\" cx=\"17\" cy=\"17.5\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

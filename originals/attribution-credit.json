@@ -1,0 +1,33 @@
+{
+  "name": "attribution-credit",
+  "category": "legal",
+  "tags": [
+    "attribution",
+    "credit",
+    "quote",
+    "citation",
+    "signature",
+    "author"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M5.5 17c0-3.2 2.7-5 6.5-5s6.5 1.8 6.5 5\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

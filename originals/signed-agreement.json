@@ -1,0 +1,11 @@
+{
+  "name": "signed-agreement",
+  "category": "legal",
+  "tags": ["signed", "agreement", "contract", "check", "pen", "signature", "deal"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2.5\" width=\"11\" height=\"17\" rx=\"2\"/><g class=\"p2\"><polyline points=\"5 10.5 7.5 13 10.5 8.8\"/><path d=\"M5 16.5h6\"/></g><path class=\"p3\" d=\"M16.5 3.5h3V13L18 16.5 16.5 13z\"/><path class=\"p3\" d=\"M16.5 6.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 500 }
+  ]
+}

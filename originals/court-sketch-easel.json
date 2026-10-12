@@ -1,0 +1,12 @@
+{
+  "name": "court-sketch-easel",
+  "category": "legal",
+  "tags": ["sketch", "easel", "courtroom", "artist", "pencil", "drawing"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"11\" height=\"10.5\" rx=\"1\"/><path class=\"p2\" d=\"M5 5.5h5M5 8.5h3\"/><path class=\"p3\" d=\"M2 13.5h11M7.5 13.5 4.5 21M7.5 13.5l3 7.5\"/><path class=\"d p4\" d=\"M14 17l1.2-3.8 4-4 2.6 2.6-4 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "slideIn", "dur": 500, "delay": 1100 }
+  ]
+}

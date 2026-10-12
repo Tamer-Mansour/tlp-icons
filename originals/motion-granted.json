@@ -1,0 +1,12 @@
+{
+  "name": "motion-granted",
+  "category": "legal",
+  "tags": ["motion", "granted", "approved", "court", "ruling", "document"],
+  "svg": "<path class=\"d p1\" d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 2v4a2 2 0 0 0 2 2h2\"/><path class=\"p3\" d=\"M8 10h6M8 14h4\"/><circle class=\"d p4\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"m16 17 1.5 1.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 900, "origin": "center" }
+  ]
+}

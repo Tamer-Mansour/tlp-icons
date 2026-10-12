@@ -1,0 +1,11 @@
+{
+  "name": "refugee-travel-document",
+  "category": "legal",
+  "tags": ["refugee", "travel document", "passport", "asylum", "immigration", "globe"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h14a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-15a2 2 0 0 1 2-2z\"/><g class=\"p2\"><circle cx=\"12\" cy=\"10.5\" r=\"3.5\"/><ellipse cx=\"12\" cy=\"10.5\" rx=\"1.5\" ry=\"3.5\"/><path d=\"M8.5 10.5h7\"/></g><path class=\"p3\" d=\"M8 17.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300, "origin": "center" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

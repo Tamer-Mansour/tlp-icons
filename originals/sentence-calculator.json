@@ -1,0 +1,13 @@
+{
+  "name": "sentence-calculator",
+  "category": "legal",
+  "tags": ["sentence", "calculator", "sentencing", "penalty", "keys", "gavel"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"12\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"6.5\" y=\"5\" width=\"7\" height=\"3\" rx=\".8\"/><path class=\"p3\" d=\"M7.5 11h.01M11.5 11h.01M7.5 14.5h.01M11.5 14.5h.01M7.5 18h.01\"/><circle class=\"d p4\" cx=\"18\" cy=\"17.5\" r=\"3.5\"/><rect class=\"p5\" x=\"17.5\" y=\"14.8\" width=\"4\" height=\"2.2\" rx=\".6\" transform=\"rotate(-45 19.5 15.9)\"/><path class=\"p5\" d=\"M18.5 16.5 16.4 18.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

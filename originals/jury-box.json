@@ -1,0 +1,11 @@
+{
+  "name": "jury-box",
+  "category": "legal",
+  "tags": ["jury", "box", "seats", "trial", "panel", "juror"],
+  "svg": "<g class=\"p1\"><rect x=\"4\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"10\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"16\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/></g><g class=\"p2\"><rect class=\"d\" x=\"4\" y=\"9\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d\" x=\"10\" y=\"9\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d\" x=\"16\" y=\"9\" width=\"4\" height=\"4\" rx=\"1\"/></g><path class=\"p3\" d=\"M3 17h18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

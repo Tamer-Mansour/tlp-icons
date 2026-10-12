@@ -1,0 +1,11 @@
+{
+  "name": "estate-tax-house",
+  "category": "legal",
+  "tags": ["estate", "tax", "house", "inheritance", "property", "heirs"],
+  "svg": "<path class=\"p1\" d=\"M2 10 9 3l7.5 7\"/><path class=\"p2\" d=\"M4 10v11h10V10M7.5 21v-4h3v4\"/><path class=\"p3\" d=\"M16.5 10v2\"/><path class=\"d p3\" d=\"M16.5 12h4.5v4.5h-4.5l-1.8-2.25z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 800, "origin": "16.5px 10px" }
+  ]
+}

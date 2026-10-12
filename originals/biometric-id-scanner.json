@@ -1,0 +1,11 @@
+{
+  "name": "biometric-id-scanner",
+  "category": "legal",
+  "tags": ["biometric", "fingerprint", "scanner", "identity", "verification", "id"],
+  "svg": "<path class=\"p1\" d=\"M4 8V6a2 2 0 0 1 2-2h2\"/><path class=\"p1\" d=\"M16 4h2a2 2 0 0 1 2 2v2\"/><path class=\"p1\" d=\"M20 16v2a2 2 0 0 1-2 2h-2\"/><path class=\"p1\" d=\"M8 20H6a2 2 0 0 1-2-2v-2\"/><path class=\"p2\" d=\"M9.5 17v-3a2.5 2.5 0 0 1 5 0v3\"/><path class=\"p3\" d=\"M7 19v-5a5 5 0 0 1 10 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

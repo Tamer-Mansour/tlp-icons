@@ -1,0 +1,11 @@
+{
+  "name": "lawyer-briefcase-scale",
+  "category": "legal",
+  "tags": ["lawyer", "briefcase", "scale", "attorney", "law", "case"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><g class=\"p3\"><path d=\"M12 9.5v7\"/><path d=\"M8.5 11.5h7\"/><path d=\"M8.5 11.5 7.5 15.5\"/><path d=\"M15.5 11.5l1 4\"/><path d=\"M6 15.5h3\"/><path d=\"M15 15.5h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

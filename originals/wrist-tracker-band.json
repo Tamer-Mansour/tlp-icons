@@ -1,0 +1,13 @@
+{
+  "name": "wrist-tracker-band",
+  "category": "legal",
+  "tags": ["tracker", "wristband", "ankle monitor", "monitoring", "signal", "bracelet"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"7\" width=\"8\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M9 7l.5-3.5h5L15 7\"/><path class=\"p3\" d=\"M9 17l.5 3.5h5L15 17\"/><path class=\"p4\" d=\"M18 10.5a2 2 0 0 1 0 3\"/><path class=\"p5\" d=\"M19.5 8.5a4.5 4.5 0 0 1 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 450 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "magistrate-scales-badge",
+  "category": "legal",
+  "tags": ["magistrate", "scales", "badge", "justice", "balance", "judge"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p4\" d=\"M12 2v3\"/><g class=\"p2\"><path d=\"M8.5 10h7\"/><path d=\"M12 8.5v9\"/><path d=\"M9.5 17.5h5\"/></g><g class=\"p3\"><path d=\"M8.5 10 7 13.5M8.5 10 10 13.5\"/><path d=\"M7 13.5a1.5 1.5 0 0 0 3 0\"/><path d=\"M15.5 10 14 13.5M15.5 10 17 13.5\"/><path d=\"M14 13.5a1.5 1.5 0 0 0 3 0\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

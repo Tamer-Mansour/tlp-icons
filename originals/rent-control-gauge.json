@@ -1,0 +1,12 @@
+{
+  "name": "rent-control-gauge",
+  "category": "legal",
+  "tags": ["rent control", "rent", "housing", "landlord", "tenant", "gauge"],
+  "svg": "<path class=\"p1\" d=\"M2.5 11L12 3l9.5 8\"/><path class=\"d p2\" d=\"M5 10v11.5h14V10\"/><circle class=\"d p3\" cx=\"12\" cy=\"15\" r=\"3\"/><path class=\"p4\" d=\"M12 15l1.8-1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "tilt", "dur": 600, "delay": 1100, "origin": "12px 15px" }
+  ]
+}

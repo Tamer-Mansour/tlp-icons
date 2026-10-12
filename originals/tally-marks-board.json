@@ -1,0 +1,11 @@
+{
+  "name": "tally-marks-board",
+  "category": "legal",
+  "tags": ["tally", "marks", "board", "count", "record", "court", "votes"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><g class=\"p2\"><path d=\"M7 7.5V11M9.5 7.5V11M12 7.5V11M14.5 7.5V11M6 10.5l9-3.5\"/></g><g class=\"p3\"><path d=\"M7 13.5v3M9.5 13.5v3M12 13.5v3M14.5 13.5v3M6 16.5l9-3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 550 }
+  ]
+}

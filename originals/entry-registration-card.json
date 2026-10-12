@@ -1,0 +1,12 @@
+{
+  "name": "entry-registration-card",
+  "category": "legal",
+  "tags": ["registration", "entry", "card", "admission", "doorway", "visa"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"9\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 8h4M5 15h4\"/><path class=\"p3\" d=\"M17 21V3.5h4V21M15 21h7\"/><g class=\"p4\"><path d=\"M8 12h6.5\"/><path d=\"M11.5 9.5 14 12l-2.5 2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 350 },
+    { "part": "p4", "anim": "growX", "dur": 600, "delay": 800, "origin": "left" }
+  ]
+}

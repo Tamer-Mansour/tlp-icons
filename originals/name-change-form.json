@@ -1,0 +1,11 @@
+{
+  "name": "name-change-form",
+  "category": "legal",
+  "tags": ["name", "change", "form", "pen", "strike", "rename", "document"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"17\" height=\"18\" rx=\"2\"/><g class=\"p2\"><path d=\"M6.5 8h6\"/><path d=\"M6.5 12h9\"/><path d=\"M6.5 16h5\"/></g><path class=\"d p3\" d=\"M19.5 4.5l2 2L11 17l-4 1 1-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "strike", "dur": 900, "delay": 900, "origin": "20px 5px" }
+  ]
+}

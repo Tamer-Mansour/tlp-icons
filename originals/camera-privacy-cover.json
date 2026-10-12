@@ -1,0 +1,12 @@
+{
+  "name": "camera-privacy-cover",
+  "category": "legal",
+  "tags": ["camera", "privacy", "webcam", "cover", "shutter", "surveillance"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p4\" d=\"M12 16v3M8.5 21h7\"/><rect class=\"d p3\" x=\"4\" y=\"7.5\" width=\"16\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 800 }
+  ]
+}

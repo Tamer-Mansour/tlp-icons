@@ -1,0 +1,12 @@
+{
+  "name": "amendment-markup",
+  "category": "legal",
+  "tags": ["amendment", "markup", "redline", "edit", "revision", "strike"],
+  "svg": "<path class=\"d p1\" d=\"M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 8h8\"/><path class=\"p3\" d=\"M7 10.5 17 5.5\"/><g class=\"p4\"><path d=\"M8 14h5\"/><path d=\"M8 17.5h8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 450 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

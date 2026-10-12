@@ -1,0 +1,12 @@
+{
+  "name": "character-witness-badge",
+  "category": "legal",
+  "tags": ["witness", "character", "testimony", "reference", "bubble", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"9\" r=\"3.2\"/><path class=\"p2\" d=\"M3 21v-2a4.5 4.5 0 0 1 4.5-4.5h3A4.5 4.5 0 0 1 15 19v2\"/><rect class=\"d p3\" x=\"13.5\" y=\"2.5\" width=\"7.5\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M15 8.5v2.5l2.5-2.5\"/><path class=\"p4\" d=\"M9 16.5v4l1.5-1 1.5 1v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "due-process-stairs",
+  "category": "legal",
+  "tags": [
+    "due process",
+    "stairs",
+    "gavel",
+    "procedure",
+    "fair trial",
+    "steps"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2 21h4v-4h4v-4h4v-4h4\"/><rect class=\"d p2\" x=\"13\" y=\"2.5\" width=\"6\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M16 6V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "strike", "dur": 1000, "delay": 900, "origin": "16px 6px" }
+  ]
+}

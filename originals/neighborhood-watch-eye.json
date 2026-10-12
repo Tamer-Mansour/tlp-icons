@@ -1,0 +1,18 @@
+{
+  "name": "neighborhood-watch-eye",
+  "category": "legal",
+  "tags": [
+    "neighborhood",
+    "watch",
+    "eye",
+    "surveillance",
+    "house",
+    "community"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z\"/><path class=\"d p2\" d=\"M7 12c1.6-2.4 3.2-3.5 5-3.5s3.4 1.1 5 3.5c-1.6 2.4-3.2 3.5-5 3.5s-3.4-1.1-5-3.5z\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "estate-split",
+  "category": "legal",
+  "tags": ["estate", "split", "share", "inheritance", "division", "portion"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3A9 9 0 0 1 19.79 16.5z\"/><path class=\"p3\" d=\"M12 12v-9M12 12l7.79 4.5M12 12l-7.79 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

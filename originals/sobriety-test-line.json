@@ -1,0 +1,12 @@
+{
+  "name": "sobriety-test-line",
+  "category": "legal",
+  "tags": ["sobriety", "walking", "dui", "field test", "impaired", "police"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.2\"/><path class=\"p2\" d=\"M12 8v6.5M5 9.5h14\"/><path class=\"p3\" d=\"M12 14.5l-3 4.5M12 14.5l3 4.5\"/><path class=\"p4\" d=\"M2.5 21.5h19\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

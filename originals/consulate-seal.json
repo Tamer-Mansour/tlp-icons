@@ -1,0 +1,12 @@
+{
+  "name": "consulate-seal",
+  "category": "legal",
+  "tags": ["consulate", "seal", "stamp", "embassy", "diplomatic", "certified"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h10l4 4v14H5z\"/><path class=\"p2\" d=\"M15 2v4h4\"/><circle class=\"d p3\" cx=\"12\" cy=\"13\" r=\"5\"/><polygon class=\"p4\" points=\"12,10.8 12.53,12.27 14.09,12.32 12.86,13.28 13.29,14.78 12,13.9 10.71,14.78 11.14,13.28 9.91,12.32 11.47,12.27\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

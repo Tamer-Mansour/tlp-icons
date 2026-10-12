@@ -1,0 +1,12 @@
+{
+  "name": "voting-booth",
+  "category": "legal",
+  "tags": ["voting", "ballot", "booth", "election", "vote", "curtain"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v17H4z\"/><path class=\"p2\" d=\"M8 4v17M16 4v17\"/><path class=\"p3\" d=\"M4 14h16\"/><rect class=\"d p4\" x=\"10\" y=\"9\" width=\"4\" height=\"5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

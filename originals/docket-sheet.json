@@ -1,0 +1,21 @@
+{
+  "name": "docket-sheet",
+  "category": "legal",
+  "tags": [
+    "docket",
+    "court",
+    "case list",
+    "schedule",
+    "sheet",
+    "gavel",
+    "stamp",
+    "filings"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 3h11l4 4v14H4z\"/><g class=\"p2\"><path d=\"M6.5 9h1.5\"/><path d=\"M6.5 13h1.5\"/><path d=\"M6.5 17h1.5\"/></g><g class=\"p3\"><path d=\"M9.5 9h5\"/><path d=\"M9.5 13h2.5\"/><path d=\"M9.5 17h2.5\"/></g><g class=\"p4\"><path class=\"d\" d=\"M13.5 14.5l3-3 2.5 2.5-3 3z\"/><path d=\"M16 17l4.5 4.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "sink", "dur": 600, "delay": 1200, "origin": "16px 17px" }
+  ]
+}

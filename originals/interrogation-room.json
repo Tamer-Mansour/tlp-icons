@@ -1,0 +1,33 @@
+{
+  "name": "interrogation-room",
+  "category": "legal",
+  "tags": [
+    "interrogation",
+    "room",
+    "table",
+    "lamp",
+    "police",
+    "questioning"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 2v3\"/><path class=\"d p2\" d=\"M7 5h10l4 8H3z\"/><rect class=\"d p3\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 300,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 600
+    }
+  ]
+}

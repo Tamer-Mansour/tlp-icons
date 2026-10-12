@@ -1,0 +1,11 @@
+{
+  "name": "record-sealing",
+  "category": "legal",
+  "tags": ["record", "sealing", "seal", "folder", "sealed", "file"],
+  "svg": "<path class=\"d p1\" d=\"M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M7 13h10M7 16.5h6\"/><circle class=\"d p3\" cx=\"8\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

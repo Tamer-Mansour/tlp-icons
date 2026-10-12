@@ -1,0 +1,11 @@
+{
+  "name": "taser-device",
+  "category": "legal",
+  "tags": ["taser", "stun gun", "electroshock", "weapon", "police", "conducted energy"],
+  "svg": "<path class=\"d p1\" d=\"M3 7h13v4H9.5l1.5 5.5h-3L6.5 11H3z\"/><path class=\"p2\" d=\"M16 8.5l2-2M16 10.5l2 2\"/><path class=\"p3\" d=\"M18 6.5l2 2-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 700 }
+  ]
+}

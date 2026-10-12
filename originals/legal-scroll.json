@@ -1,0 +1,12 @@
+{
+  "name": "legal-scroll",
+  "category": "legal",
+  "tags": ["scroll", "parchment", "document", "decree", "charter", "seal", "record"],
+  "svg": "<rect class=\"d p4\" x=\"4\" y=\"3\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect class=\"d p4\" x=\"4\" y=\"18\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"d p1\" d=\"M6 6h12v12H6z\"/><path class=\"p2\" d=\"M9 8.5h6M9 11h4\"/><circle class=\"d p3\" cx=\"12\" cy=\"14.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "law-book-magnifier",
+  "category": "legal",
+  "tags": ["law", "book", "magnifier", "search", "research", "statute", "legal"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 5.5c2.7-1 5.4-.8 9.5 1.5 4.1-2.3 6.8-2.5 9.5-1.5v13c-2.7-1-5.4-.8-9.5 1.5-4.1-2.3-6.8-2.5-9.5-1.5z\"/><path class=\"p2\" d=\"M12 7v13\"/><circle class=\"p3\" cx=\"16.5\" cy=\"11.5\" r=\"2.6\"/><path class=\"p4\" d=\"M18.5 13.5l1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

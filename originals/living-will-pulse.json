@@ -1,0 +1,11 @@
+{
+  "name": "living-will-pulse",
+  "category": "legal",
+  "tags": ["living", "will", "advance", "directive", "medical", "pulse", "health"],
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/><path class=\"p2\" d=\"M14 2v5a1 1 0 0 0 1 1h5\"/><path class=\"p3\" d=\"M4 13h3.5l1.5-3 3 6 2-3h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "probation-check",
+  "category": "legal",
+  "tags": [
+    "probation",
+    "clipboard",
+    "check",
+    "supervision",
+    "shield",
+    "compliance"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"13\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"2\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"d p3\" d=\"M17 12.5l3.5 1.3v2.7c0 2.3-1.5 4-3.5 4.9-2-.9-3.5-2.6-3.5-4.9v-2.7z\"/><path class=\"p4\" d=\"M15.3 16.5l1.3 1.3 2.2-2.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

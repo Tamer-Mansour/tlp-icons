@@ -1,0 +1,12 @@
+{
+  "name": "crime-tip-envelope",
+  "category": "legal",
+  "tags": ["crime", "tip", "envelope", "anonymous", "report", "question"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 8l9 6 9-6\"/><path class=\"p3\" d=\"M10.2 7.6a1.8 1.8 0 1 1 2.6 1.6c-.5.3-.8.6-.8 1.4\"/><circle class=\"f p4\" cx=\"12.2\" cy=\"12.6\" r=\".7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

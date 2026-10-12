@@ -1,0 +1,18 @@
+{
+  "name": "ip-shield-bulb",
+  "category": "legal",
+  "tags": [
+    "intellectual property",
+    "idea",
+    "patent",
+    "shield",
+    "innovation",
+    "protection"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 20 5.5v6c0 4.5-3.2 8-8 9.5-4.8-1.5-8-5-8-9.5v-6z\"/><path class=\"p2\" d=\"M9.5 14.5a4 4 0 1 1 5 0c-.6.5-1 1.2-1 2h-3c0-.8-.4-1.5-1-2z\"/><path class=\"p3\" d=\"M10.5 18.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

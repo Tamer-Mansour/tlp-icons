@@ -1,0 +1,11 @@
+{
+  "name": "national-flag-ribbon",
+  "category": "legal",
+  "tags": ["flag", "national", "ribbon", "country", "state", "banner"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M3 15L15 3\"/><path class=\"p3\" d=\"M7 17L21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

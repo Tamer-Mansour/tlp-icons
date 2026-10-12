@@ -1,0 +1,11 @@
+{
+  "name": "estate-inventory",
+  "category": "legal",
+  "tags": ["estate", "inventory", "house", "property", "probate", "checklist"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 11 8 5.5l5.5 5.5V20h-11z\"/><rect class=\"d p2\" x=\"12.5\" y=\"11.5\" width=\"9.5\" height=\"9.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M15 15h4.5M15 18h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "forensic-imaging",
+  "category": "legal",
+  "tags": [
+    "forensic",
+    "imaging",
+    "hard drive",
+    "fingerprint",
+    "evidence",
+    "digital",
+    "copy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9.5 13a2.5 2.5 0 0 1 5 0v1.5M7.5 13a4.5 4.5 0 0 1 9 0v2\"/><path class=\"p3\" d=\"M12 13.5V17\"/><circle class=\"f p4\" cx=\"18\" cy=\"9\" r=\".7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "blink", "dur": 900, "delay": 1100 }
+  ]
+}

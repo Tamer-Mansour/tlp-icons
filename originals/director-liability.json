@@ -1,0 +1,11 @@
+{
+  "name": "director-liability",
+  "category": "legal",
+  "tags": ["director", "liability", "officer", "company", "shield", "responsibility"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"4\"/><path class=\"p1\" d=\"M2 21v-2a4 4 0 0 1 4-4h3\"/><path class=\"d p2\" d=\"M18 12l4 1.5v3.5c0 2.5-2 4.5-4 5-2-.5-4-2.5-4-5v-3.5z\"/><path class=\"p3\" d=\"M13 12l9 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

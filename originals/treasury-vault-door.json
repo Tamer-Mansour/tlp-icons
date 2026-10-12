@@ -1,0 +1,11 @@
+{
+  "name": "treasury-vault-door",
+  "category": "legal",
+  "tags": ["vault", "treasury", "safe", "lock", "bank", "wheel", "secure"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><g class=\"p3\"><path d=\"M12 9.5V5.5\"/><path d=\"M12 14.5v4\"/><path d=\"M9.5 12h-4\"/><path d=\"M14.5 12h4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spinHalf", "dur": 900, "delay": 900, "origin": "12px 12px" }
+  ]
+}

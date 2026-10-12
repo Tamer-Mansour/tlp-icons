@@ -1,0 +1,33 @@
+{
+    "name":  "spin-off-branch",
+    "category":  "legal",
+    "tags":  [
+                 "spin off",
+                 "branch",
+                 "split",
+                 "subsidiary",
+                 "separate",
+                 "company"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M3 12h6\"/\u003e\u003cg class=\"p2\"\u003e\u003cpath d=\"M9 12c3 0 3-6 6-6h1\"/\u003e\u003ccircle class=\"d\" cx=\"19\" cy=\"6\" r=\"2\"/\u003e\u003c/g\u003e\u003cg class=\"p3\"\u003e\u003cpath d=\"M9 12c3 0 3 6 6 6h1\"/\u003e\u003ccircle class=\"d\" cx=\"19\" cy=\"18\" r=\"2\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  500
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "motion-paper",
+  "category": "legal",
+  "tags": ["motion", "paper", "gavel", "stamp", "court", "filing"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p3\" d=\"M7 8h4\"/><path class=\"p3\" d=\"M7 11h3\"/><g class=\"p2\"><rect class=\"d\" x=\"11\" y=\"9\" width=\"6\" height=\"3\" rx=\"1\"/><path d=\"M14 12v3\"/><rect class=\"d\" x=\"11\" y=\"15\" width=\"6\" height=\"2.5\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

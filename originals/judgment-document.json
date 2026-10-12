@@ -1,0 +1,20 @@
+{
+  "name": "judgment-document",
+  "category": "legal",
+  "tags": [
+    "judgment",
+    "document",
+    "ruling",
+    "verdict",
+    "order",
+    "court",
+    "decision"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 2h9l5 5v10H5z\"/><path class=\"p2\" d=\"M8 10h7M8 13h4\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4.5\"/><g class=\"p4\"><rect x=\"15.2\" y=\"14.2\" width=\"4.5\" height=\"2.2\" rx=\".5\" transform=\"rotate(45 17.45 15.3)\"/><path d=\"M14.2 19.8l3.4-3.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "strike", "dur": 800, "delay": 1100, "origin": "14.2px 19.8px" }
+  ]
+}

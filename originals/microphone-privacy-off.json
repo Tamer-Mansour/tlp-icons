@@ -1,0 +1,12 @@
+{
+  "name": "microphone-privacy-off",
+  "category": "legal",
+  "tags": ["microphone", "privacy", "mute", "off", "audio", "voice", "recording"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M5 11a7 7 0 0 0 14 0\"/><path class=\"p2\" d=\"M12 18v3\"/><path class=\"p3\" d=\"M9 21h6\"/><path class=\"p4\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "arraignment-podium",
+  "category": "legal",
+  "tags": ["arraignment", "podium", "lectern", "defendant", "court", "speaker"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 11.5a4.5 4.5 0 0 1 9 0z\"/><circle class=\"d p4\" cx=\"12\" cy=\"4.5\" r=\"2.5\"/><rect class=\"d p2\" x=\"4\" y=\"11\" width=\"16\" height=\"2.5\" rx=\"1\"/><path class=\"d p3\" d=\"M6 13.5h12V21H6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 600, "origin": "bottom" },
+    { "part": "p4", "anim": "nod", "dur": 800, "delay": 500 }
+  ]
+}

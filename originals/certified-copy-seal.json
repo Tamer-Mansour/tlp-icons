@@ -1,0 +1,12 @@
+{
+  "name": "certified-copy-seal",
+  "category": "legal",
+  "tags": ["certified", "copy", "seal", "notary", "official", "document"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"13\" height=\"15\" rx=\"2\"/><path class=\"p4\" d=\"M6 6h5M6 10h3\"/><circle class=\"p2\" cx=\"14\" cy=\"11\" r=\"3\"/><path class=\"p3\" d=\"M12.5 13.8 11 21l3-1.5 3 1.5-1.5-7.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "engagement-letter",
+  "category": "legal",
+  "tags": ["engagement", "letter", "retainer", "client", "signing", "agreement", "pen"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"14\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 8h7M6.5 11h7\"/><path class=\"p4\" d=\"M5.5 18c1.5-2 2.5-2 3 0s1.5 1 2.5-1\"/><path class=\"d p3\" d=\"M12 16l1-3.5L19.5 5.5a1.4 1.4 0 0 1 2 2L15 14.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

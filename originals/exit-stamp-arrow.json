@@ -1,0 +1,11 @@
+{
+  "name": "exit-stamp-arrow",
+  "category": "legal",
+  "tags": ["exit", "stamp", "passport", "departure", "leave", "immigration"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"6\"/><path class=\"p2\" d=\"M6.5 15h5\"/><path class=\"p3\" d=\"M13 11l7-7M15 4h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 800 }
+  ]
+}

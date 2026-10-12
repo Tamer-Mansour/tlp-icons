@@ -1,0 +1,27 @@
+{
+    "name":  "custody-transfer",
+    "category":  "legal",
+    "tags":  [
+                 "custody",
+                 "transfer",
+                 "handover",
+                 "guardian",
+                 "child",
+                 "exchange"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/\u003e\u003cpath class=\"p1\" d=\"M2 20v-1a5 5 0 0 1 10 0v1\"/\u003e\u003cpath class=\"p2\" d=\"M15 13h6M18 10l3 3-3 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "nudge",
+                       "dur":  900,
+                       "delay":  700
+                   }
+               ]
+}

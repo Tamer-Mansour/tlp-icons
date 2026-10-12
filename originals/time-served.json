@@ -1,0 +1,12 @@
+{
+  "name": "time-served",
+  "category": "legal",
+  "tags": ["time served", "hourglass", "sentence", "completed", "check", "release"],
+  "svg": "<path class=\"p1\" d=\"M4 2h10M4 22h10\"/><path class=\"d p2\" d=\"M5 2v4.5L9 11l-4 4.5V22h8v-6.5L9 11l4-4.5V2z\"/><circle class=\"d p3\" cx=\"18\" cy=\"18\" r=\"3.5\"/><path class=\"p4\" d=\"M16.3 18l1.2 1.2 2.2-2.4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800, "origin": "18px 18px" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

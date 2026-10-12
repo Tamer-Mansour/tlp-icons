@@ -1,0 +1,12 @@
+{
+  "name": "three-judge-panel",
+  "category": "legal",
+  "tags": ["judges", "panel", "bench", "court", "tribunal", "appeal", "justice"],
+  "svg": "<path class=\"p1\" d=\"M2 21h20\"/><g class=\"p2\"><circle class=\"d\" cx=\"5\" cy=\"11\" r=\"2.2\"/><path d=\"M2.5 20v-1.5a2.5 2.5 0 0 1 5 0V20\"/></g><g class=\"p3\"><circle class=\"d\" cx=\"12\" cy=\"11\" r=\"2.2\"/><path d=\"M9.5 20v-1.5a2.5 2.5 0 0 1 5 0V20\"/></g><g class=\"p4\"><circle class=\"d\" cx=\"19\" cy=\"11\" r=\"2.2\"/><path d=\"M16.5 20v-1.5a2.5 2.5 0 0 1 5 0V20\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "riseIn", "dur": 500, "delay": 600 }
+  ]
+}

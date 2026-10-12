@@ -1,0 +1,10 @@
+{
+  "name": "round-court-table",
+  "category": "legal",
+  "tags": ["table", "round", "court", "chairs", "hearing", "panel"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><g class=\"p2\"><circle cx=\"12\" cy=\"3.5\" r=\"1.5\"/><circle cx=\"19.36\" cy=\"7.75\" r=\"1.5\"/><circle cx=\"19.36\" cy=\"16.25\" r=\"1.5\"/><circle cx=\"12\" cy=\"20.5\" r=\"1.5\"/><circle cx=\"4.64\" cy=\"16.25\" r=\"1.5\"/><circle cx=\"4.64\" cy=\"7.75\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "land-deed-house",
+  "category": "legal",
+  "tags": ["land", "deed", "property", "real estate", "title", "ownership"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p4\" d=\"M8 4.5h8\"/><path class=\"p2\" d=\"M8.5 10.5 12 7l3.5 3.5\"/><path class=\"p2\" d=\"M9.5 10.5v4h5v-4\"/><circle class=\"d p3\" cx=\"12\" cy=\"17.2\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

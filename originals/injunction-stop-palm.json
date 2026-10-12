@@ -1,0 +1,11 @@
+{
+  "name": "injunction-stop-palm",
+  "category": "legal",
+  "tags": ["injunction", "stop", "palm", "restraint", "order", "court"],
+  "svg": "<rect class=\"d p2\" x=\"6\" y=\"10\" width=\"12\" height=\"8\" rx=\"3\"/><g class=\"p1\"><path d=\"M8 10V5\"/><path d=\"M12 10V3\"/><path d=\"M16 10V5\"/><path d=\"M6 14.5 3.5 12.5\"/></g><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

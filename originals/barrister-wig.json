@@ -1,0 +1,11 @@
+{
+  "name": "barrister-wig",
+  "category": "legal",
+  "tags": ["barrister", "wig", "lawyer", "advocate", "counsel", "tie"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C7.5 3 5 6 5 9.5c0 2 .6 3.4 1.5 4.5l-.5 1.5c-.5 1.5.5 2.5 2 2.5h9c1.5 0 2.5-1 2-2.5L17.5 14c.9-1.1 1.5-2.5 1.5-4.5C19 6 16.5 3 12 3z\"/><path class=\"p3\" d=\"M8.5 9.5c1 1.2 2.2 1.8 3.5 1.8s2.5-.6 3.5-1.8\"/><path class=\"d p2\" d=\"M12 20.5 9 19v3zM12 20.5l3-1.5v3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800, "origin": "12px 20.5px" }
+  ]
+}

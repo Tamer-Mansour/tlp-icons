@@ -1,0 +1,39 @@
+{
+  "name": "community-service",
+  "category": "legal",
+  "tags": [
+    "community service",
+    "sentence",
+    "broom",
+    "clean up",
+    "hours",
+    "clock"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"6.5\" r=\"3.5\"/><path class=\"p2\" d=\"M1.5 21v-2a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4v2\"/><g class=\"p3\"><path d=\"M16 2v9\"/><path class=\"d\" d=\"M12 11h8l-1 5h-6z\"/></g><g class=\"p4\"><circle class=\"d\" cx=\"19.5\" cy=\"19.5\" r=\"2.2\"/><path d=\"M19.5 18.3v1.4h1\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

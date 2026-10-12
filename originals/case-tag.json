@@ -1,0 +1,21 @@
+{
+  "name": "case-tag",
+  "category": "legal",
+  "tags": [
+    "case",
+    "tag",
+    "label",
+    "file tag",
+    "hashtag",
+    "number",
+    "docket",
+    "filing"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/><g class=\"p3\"><path d=\"M11 9.5 10 14.5\"/><path d=\"M14 9.5 13 14.5\"/></g><g class=\"p4\"><path d=\"M9.5 11.5h5\"/><path d=\"M9 14h5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

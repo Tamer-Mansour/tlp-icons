@@ -1,0 +1,12 @@
+{
+  "name": "referendum-ballot",
+  "category": "legal",
+  "tags": ["referendum", "ballot", "vote", "yes", "no", "question", "election"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M10 8.5a2 2 0 1 1 2.6 1.9c-.4.2-.6.5-.6 1v.6\"/><circle class=\"f p2\" cx=\"12\" cy=\"13.5\" r=\".6\"/><rect class=\"p3\" x=\"5.5\" y=\"14.5\" width=\"4\" height=\"4\" rx=\".5\"/><rect class=\"p3\" x=\"14.5\" y=\"14.5\" width=\"4\" height=\"4\" rx=\".5\"/><path class=\"p4\" d=\"M7 16.5l1 1 1.5-1.8\"/><path class=\"p4\" d=\"M16 16l2.5 2.5M18.5 16l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

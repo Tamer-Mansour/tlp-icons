@@ -1,0 +1,12 @@
+{
+  "name": "company-charter",
+  "category": "legal",
+  "tags": ["charter", "company", "incorporation", "corporate", "building", "document"],
+  "svg": "<path class=\"d p1\" d=\"M3 8 12 3l9 5z\"/><g class=\"p2\"><path d=\"M6 9.5v4M10 9.5v4M14 9.5v4M18 9.5v4\"/><path d=\"M3.5 15.5h17\"/></g><rect class=\"d p3\" x=\"7\" y=\"14\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p4\" d=\"M9.5 17h5M9.5 19.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "globe-with-hands",
+  "category": "legal",
+  "tags": [
+    "globe",
+    "world",
+    "hands",
+    "support",
+    "care",
+    "earth",
+    "aid"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6.5\"/><g class=\"p2\"><ellipse cx=\"12\" cy=\"9\" rx=\"3\" ry=\"6.5\"/><path d=\"M5.5 9h13\"/></g><path class=\"p3\" d=\"M3 13.5c0 3.5 3 6 9 6s9-2.5 9-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

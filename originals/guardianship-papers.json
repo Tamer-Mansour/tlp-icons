@@ -1,0 +1,12 @@
+{
+  "name": "guardianship-papers",
+  "category": "legal",
+  "tags": ["guardianship", "guardian", "child", "custody", "shield", "papers"],
+  "svg": "<path class=\"d p1\" d=\"M9 1.5l5.5 2v3.2c0 2.8-1.8 4.3-5.5 5.2-3.7-.9-5.5-2.4-5.5-5.2V3.5z\"/><circle class=\"p2\" cx=\"9\" cy=\"15.5\" r=\"1.6\"/><path class=\"p3\" d=\"M5.5 22v-.5a3.5 3.5 0 0 1 7 0v.5\"/><g class=\"p4\"><path d=\"M15 13h5.5l1.5 1.5V21h-7z\"/><path d=\"M17 16.5h3\"/><path d=\"M17 19h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 1000 }
+  ]
+}

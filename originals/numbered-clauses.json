@@ -1,0 +1,13 @@
+{
+  "name": "numbered-clauses",
+  "category": "legal",
+  "tags": ["clauses", "numbered", "list", "terms", "sections", "articles"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"6\" r=\"2.5\"/><circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p1\" cx=\"5\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M5 5.2v1.6M5 11.2v1.6M5 17.2v1.6\"/><path class=\"p3\" d=\"M10 6h10\"/><path class=\"p4\" d=\"M10 12h10\"/><path class=\"p5\" d=\"M10 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

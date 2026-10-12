@@ -1,0 +1,11 @@
+{
+  "name": "tire-track-print",
+  "category": "legal",
+  "tags": ["tire", "track", "print", "evidence", "tread", "footprint"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M5.5 7.5l2 1.5-2 1.5 2 1.5-2 1.5 2 1.5M18.5 7.5l-2 1.5 2 1.5-2 1.5 2 1.5-2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

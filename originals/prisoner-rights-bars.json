@@ -1,0 +1,11 @@
+{
+  "name": "prisoner-rights-bars",
+  "category": "legal",
+  "tags": ["prison", "bars", "rights", "window", "cell", "detention"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M6.5 3v16M9.5 3v16\"/><path class=\"d p3\" d=\"M18.5 13.5 21 14.3v1.9c0 1.5-1 2.6-2.5 3.2-1.5-.6-2.5-1.7-2.5-3.2v-1.9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 350, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

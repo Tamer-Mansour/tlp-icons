@@ -1,0 +1,11 @@
+{
+  "name": "population-register-people",
+  "category": "legal",
+  "tags": ["population", "register", "people", "census", "records", "book"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"7\" r=\"1.8\"/><circle class=\"d p1\" cx=\"18\" cy=\"7\" r=\"1.8\"/><circle class=\"d p1\" cx=\"12\" cy=\"4.5\" r=\"2\"/><path class=\"d p2\" d=\"M3 13.5 12 15.8l9-2.3V19.5L12 21.8l-9-2.3z\"/><path class=\"p3\" d=\"M12 15.8v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

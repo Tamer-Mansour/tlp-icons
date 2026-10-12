@@ -1,0 +1,11 @@
+{
+  "name": "recidivism-trend",
+  "category": "legal",
+  "tags": ["recidivism", "trend", "decline", "chart", "statistics", "data"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M6 7.5l4 4 3.5-3.5 4.5 4.5\"/><path class=\"p3\" d=\"M18 9.5v3h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

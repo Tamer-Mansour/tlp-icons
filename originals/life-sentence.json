@@ -1,0 +1,33 @@
+{
+    "name":  "life-sentence",
+    "category":  "legal",
+    "tags":  [
+                 "life",
+                 "sentence",
+                 "lock",
+                 "prison",
+                 "lifetime",
+                 "endless"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M8 11V8a4 4 0 0 1 8 0v3\"/\u003e\u003crect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/\u003e\u003cpath class=\"p3\" d=\"M12 15v2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  800
+                   }
+               ]
+}

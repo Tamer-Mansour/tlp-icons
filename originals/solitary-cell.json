@@ -1,0 +1,11 @@
+{
+  "name": "solitary-cell",
+  "category": "legal",
+  "tags": ["solitary", "cell", "prison", "isolation", "jail", "padlock"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><g class=\"p2\"><circle cx=\"9\" cy=\"8.5\" r=\"1.8\"/><path d=\"M5.5 17.5v-1a3.5 3.5 0 0 1 7 0v1\"/></g><g class=\"p3\"><rect x=\"13.5\" y=\"12.5\" width=\"5.5\" height=\"5\" rx=\"1\"/><path d=\"M14 12.5v-1.75a2.25 2.25 0 0 1 4.5 0v1.75\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

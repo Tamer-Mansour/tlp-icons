@@ -1,0 +1,28 @@
+{
+    "name":  "family-tree-record",
+    "category":  "legal",
+    "tags":  [
+                 "family",
+                 "tree",
+                 "record",
+                 "genealogy",
+                 "lineage",
+                 "document"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"5.5\" r=\"2.5\"/\u003e\u003ccircle class=\"d p1\" cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/\u003e\u003ccircle class=\"d p1\" cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/\u003e\u003cpath class=\"p2\" d=\"M12 8v4M5.5 16V12h13v4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  400,
+                       "origin":  "center"
+                   }
+               ]
+}

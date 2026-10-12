@@ -1,0 +1,13 @@
+{
+  "name": "eyewitness-eye-document",
+  "category": "legal",
+  "tags": ["eyewitness", "eye", "witness", "testimony", "document", "statement", "evidence"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 6c2.2-2.8 5.2-3.8 9.5-3.8S19.3 3.2 21.5 6c-2.2 2.8-5.2 3.8-9.5 3.8S4.7 8.8 2.5 6z\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"1.9\"/><path class=\"d p3\" d=\"M5 15h10l3.5 3.5V20a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z\"/><path class=\"p5\" d=\"M15 15v3.5h3.5M8 18h6\"/><g class=\"p4\"><circle cx=\"8\" cy=\"13\" r=\"1.1\"/><path d=\"M8 14.1V15.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

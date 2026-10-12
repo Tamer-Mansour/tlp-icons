@@ -1,0 +1,12 @@
+{
+  "name": "bullet-proof-vest",
+  "category": "legal",
+  "tags": ["vest", "bulletproof", "protection", "armour", "police", "security"],
+  "svg": "<path class=\"d p1\" d=\"M8 3 4 5v16h16V5l-4-2\"/><path class=\"p2\" d=\"M8 3q4 3.5 8 0\"/><rect class=\"d p3\" x=\"8\" y=\"9\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p4\" d=\"M4 13h4\"/><path class=\"p4\" d=\"M16 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 350 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

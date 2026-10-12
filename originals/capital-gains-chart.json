@@ -1,0 +1,11 @@
+{
+  "name": "capital-gains-chart",
+  "category": "legal",
+  "tags": ["capital", "gains", "tax", "chart", "profit", "investment", "coin"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><polyline class=\"p2\" points=\"6 16 10 12 14 14 19.5 9\"/><circle class=\"d p3\" cx=\"19.5\" cy=\"5\" r=\"2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000, "origin": "center" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "points-based-visa",
+  "category": "legal",
+  "tags": ["points", "visa", "passport", "immigration", "score", "ladder"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"9\" height=\"18\" rx=\"1.5\"/><circle class=\"p2\" cx=\"7.5\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M5.5 16h4\"/><path class=\"p3\" d=\"M15 7h6\"/><path class=\"p4\" d=\"M16 12h4\"/><path class=\"p5\" d=\"M17 17h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 600, "origin": "center" },
+    { "part": "p4", "anim": "growX", "dur": 400, "delay": 900, "origin": "center" },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "birth-certificate",
+  "category": "legal",
+  "tags": ["birth", "certificate", "record", "vital", "footprint", "newborn", "seal"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 7h10M7 10h6\"/><g class=\"p4\"><circle class=\"d\" cx=\"7.5\" cy=\"14\" r=\"2\"/><path d=\"M6 15.8 5.2 21l2.3-1.2L9.8 21 9 15.8\"/></g><g class=\"p3\"><circle class=\"d\" cx=\"17.5\" cy=\"15.5\" r=\"3.6\"/><ellipse cx=\"17.5\" cy=\"16.2\" rx=\"1.2\" ry=\"2\"/><circle class=\"f\" cx=\"17.5\" cy=\"12.9\" r=\".6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 500, "origin": "7.5px 14px" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900, "origin": "17.5px 15.5px" }
+  ]
+}

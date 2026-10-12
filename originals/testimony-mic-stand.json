@@ -1,0 +1,12 @@
+{
+  "name": "testimony-mic-stand",
+  "category": "legal",
+  "tags": ["testimony", "microphone", "witness", "hearing", "speech", "stand"],
+  "svg": "<path class=\"d p1\" d=\"M9 6a3 3 0 0 1 6 0v4a3 3 0 0 1-6 0z\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 0 12 0M12 17v3\"/><path class=\"p3\" d=\"M8 21h8\"/><path class=\"p4\" d=\"M18 6.5a3 3 0 0 1 0 4M20.5 4.5a5 5 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

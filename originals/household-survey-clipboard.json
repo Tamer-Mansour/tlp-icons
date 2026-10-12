@@ -1,0 +1,12 @@
+{
+  "name": "household-survey-clipboard",
+  "category": "legal",
+  "tags": ["household", "survey", "census", "clipboard", "house", "checklist"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8.5 14v-3.5L12 8l3.5 2.5V14z\"/><g class=\"p4\"><rect x=\"7.5\" y=\"16.5\" width=\"3\" height=\"3\" rx=\".5\"/><path d=\"M8.3 18l.7.7 1.3-1.4\"/><path d=\"M13 18h4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

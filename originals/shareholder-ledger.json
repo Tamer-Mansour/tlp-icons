@@ -1,0 +1,11 @@
+{
+  "name": "shareholder-ledger",
+  "category": "legal",
+  "tags": ["shareholder", "ledger", "share", "certificate", "stock", "equity"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"12\" height=\"17\" rx=\"1.5\"/><path class=\"p2\" d=\"M8 4v17\"/><path class=\"p2\" d=\"M11 9h3\"/><path class=\"p2\" d=\"M11 13h3\"/><rect class=\"d p3\" x=\"14\" y=\"2\" width=\"6.5\" height=\"6\" rx=\".8\"/><path class=\"p3\" d=\"M16.5 5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

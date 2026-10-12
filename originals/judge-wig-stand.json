@@ -1,0 +1,12 @@
+{
+  "name": "judge-wig-stand",
+  "category": "legal",
+  "tags": ["wig", "judge", "stand", "court", "justice", "barrister"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 13V8.5C6.5 5 9 3 12 3s5.5 2 5.5 5.5V13c0 1.5-1 2.5-2 3H8.5c-1-.5-2-1.5-2-3z\"/><path class=\"p4\" d=\"M8.5 10.5c1.2.8 5.8.8 7 0\"/><path class=\"p2\" d=\"M12 16v2.5\"/><path class=\"d p3\" d=\"M8 21h8l-1.2-2.5H9.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

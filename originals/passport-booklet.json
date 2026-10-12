@@ -1,0 +1,12 @@
+{
+  "name": "passport-booklet",
+  "category": "legal",
+  "tags": ["passport", "travel", "booklet", "citizenship", "globe", "immigration"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"3.5\"/><g class=\"p3\"><ellipse cx=\"12\" cy=\"10.5\" rx=\"1.5\" ry=\"3.5\"/><path d=\"M9 10.5h6\"/></g><path class=\"p4\" d=\"M9 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "statute-book-columns",
+  "category": "legal",
+  "tags": ["statute", "law", "book", "columns", "code", "legislation"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M8 3v18\"/><g class=\"p2\"><path d=\"M13 8v8M16.5 8v8\"/><path d=\"M11 8h7.5M11 16h7.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

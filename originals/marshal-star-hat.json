@@ -1,0 +1,11 @@
+{
+  "name": "marshal-star-hat",
+  "category": "legal",
+  "tags": ["marshal", "star", "hat", "sheriff", "officer", "badge"],
+  "svg": "<path class=\"p1\" d=\"M7 18V9.5A1.5 1.5 0 0 1 8.5 8h7A1.5 1.5 0 0 1 17 9.5V18\"/><path class=\"p3\" d=\"M3 18h18\"/><path class=\"d p2\" d=\"M12 8.5 13 11.1l2.8.16-2.18 1.76.73 2.72L12 14.2l-2.35 1.54.73-2.72-2.18-1.76 2.8-.16z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "tada", "dur": 1000, "delay": 900 }
+  ]
+}

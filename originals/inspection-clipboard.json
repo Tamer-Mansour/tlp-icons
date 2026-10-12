@@ -1,0 +1,12 @@
+{
+  "name": "inspection-clipboard",
+  "category": "legal",
+  "tags": ["inspection", "clipboard", "audit", "review", "magnifier", "check"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"13\" height=\"16\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"5\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 12h5M7.5 16h3\"/><g class=\"p4\"><circle class=\"d\" cx=\"16.5\" cy=\"8.5\" r=\"3\"/><path d=\"M18.7 10.7 21 13\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

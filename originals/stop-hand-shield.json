@@ -1,0 +1,12 @@
+{
+  "name": "stop-hand-shield",
+  "category": "legal",
+  "tags": ["stop", "hand", "shield", "protect", "injunction", "halt"],
+  "svg": "<path class=\"d p1\" d=\"M12 21.5s7-2.8 7-8.5V5.5L12 3 5 5.5V13c0 5.7 7 8.5 7 8.5z\"/><path class=\"p2\" d=\"M10 11V7M12 11V5.5M14 11V7\"/><path class=\"p3\" d=\"M8 11h8v2.5a4 4 0 0 1-4 4 4 4 0 0 1-4-4z\"/><path class=\"p4\" d=\"M8 13.5l-1.5-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 900 }
+  ]
+}

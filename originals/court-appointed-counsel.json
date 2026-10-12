@@ -1,0 +1,11 @@
+{
+  "name": "court-appointed-counsel",
+  "category": "legal",
+  "tags": ["counsel", "lawyer", "appointed", "defender", "attorney", "court", "representation"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M3 21v-1a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1M6 13.5h7\"/><g class=\"p3\"><circle class=\"d\" cx=\"18.5\" cy=\"17.5\" r=\"3\"/><path d=\"M18.5 15.8v3.4M16.9 16.6h3.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

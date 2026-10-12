@@ -1,0 +1,11 @@
+{
+  "name": "fine-receipt",
+  "category": "legal",
+  "tags": ["fine", "receipt", "payment", "penalty", "invoice", "coin"],
+  "svg": "<path class=\"d p1\" d=\"M5 2H19V22L17 20L15 22L13 20L11 22L9 20L7 22L5 20Z\"/><path class=\"p2\" d=\"M8 7h8\"/><path class=\"p2\" d=\"M8 11h4\"/><circle class=\"d p3\" cx=\"15\" cy=\"15.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

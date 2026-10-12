@@ -1,0 +1,18 @@
+{
+  "name": "court-interpreter",
+  "category": "legal",
+  "tags": [
+    "interpreter",
+    "translation",
+    "language",
+    "court",
+    "speech",
+    "translate"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 3h9v8H6l-4 3z\"/><path class=\"d p2\" d=\"M22 9h-9v8h4l5 3z\"/><path class=\"p3\" d=\"M7 20h10M9 18l-2 2 2 2M15 18l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "default-judgment",
+  "category": "legal",
+  "tags": ["default", "judgment", "gavel", "form", "verdict", "court"],
+  "svg": "<rect class=\"d p1\" x=\"11\" y=\"15\" width=\"10\" height=\"6\" rx=\"1\"/><g class=\"p2\"><path class=\"d\" d=\"M7.9 6.2 10.7 3.4l6.4 6.4-2.8 2.8z\"/><path d=\"M11.1 9.4 4 16.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 1000, "delay": 800, "origin": "4px 16.5px" }
+  ]
+}

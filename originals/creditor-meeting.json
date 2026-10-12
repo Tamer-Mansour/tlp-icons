@@ -1,0 +1,11 @@
+{
+  "name": "creditor-meeting",
+  "category": "legal",
+  "tags": ["creditor", "meeting", "table", "coins", "debt", "bankruptcy"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"9\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"13\" y=\"10\" width=\"9\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

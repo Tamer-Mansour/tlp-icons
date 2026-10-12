@@ -1,0 +1,11 @@
+{
+  "name": "leg-shackles",
+  "category": "legal",
+  "tags": ["leg", "shackles", "cuffs", "chain", "restraint", "prison", "custody"],
+  "svg": "<path class=\"p1\" d=\"M8.83 9.17A4 4 0 1 0 8.83 14.83\"/><path class=\"p2\" d=\"M15.17 14.83A4 4 0 1 0 15.17 9.17\"/><g class=\"p3\"><ellipse cx=\"10.1\" cy=\"12\" rx=\"1.5\" ry=\"1\"/><ellipse cx=\"13.9\" cy=\"12\" rx=\"1.5\" ry=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

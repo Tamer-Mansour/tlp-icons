@@ -1,0 +1,34 @@
+{
+    "name":  "counsel-podium-speech",
+    "category":  "legal",
+    "tags":  [
+                 "counsel",
+                 "podium",
+                 "lectern",
+                 "speech",
+                 "argument",
+                 "advocate",
+                 "lawyer"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M7 21l1-6h8l1 6z\"/\u003e\u003cpath class=\"p2\" d=\"M4 15h16\"/\u003e\u003cpath class=\"p3\" d=\"M5 2h14v7h-6l-3 2.5V9H5z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  700
+                   }
+               ]
+}

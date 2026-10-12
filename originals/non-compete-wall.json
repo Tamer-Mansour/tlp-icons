@@ -1,0 +1,11 @@
+{
+  "name": "non-compete-wall",
+  "category": "legal",
+  "tags": ["non-compete", "wall", "restriction", "blocked", "employment", "ban"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"7\" r=\"3\"/><path class=\"d p1\" d=\"M2 21v-2a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v2z\"/><g class=\"p2\"><path d=\"M10 12h6\"/><path d=\"M13.5 9.5 16 12l-2.5 2.5\"/></g><rect class=\"d p3\" x=\"18\" y=\"3\" width=\"3\" height=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sealed-evidence-bag",
+  "category": "legal",
+  "tags": [
+    "evidence",
+    "bag",
+    "sealed",
+    "seal",
+    "exhibit",
+    "forensic",
+    "chain of custody"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 14h6M9 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 700, "origin": "left" }
+  ]
+}

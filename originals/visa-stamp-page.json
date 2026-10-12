@@ -1,0 +1,12 @@
+{
+  "name": "visa-stamp-page",
+  "category": "legal",
+  "tags": ["visa", "stamp", "passport", "travel", "immigration", "page"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M7 6.5h10M7 9h7\"/><circle class=\"d p3\" cx=\"14\" cy=\"15\" r=\"4\"/><path class=\"p4\" d=\"M12.5 14.5l1.5 1.5 2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

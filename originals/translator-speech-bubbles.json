@@ -1,0 +1,20 @@
+{
+  "name": "translator-speech-bubbles",
+  "category": "legal",
+  "tags": [
+    "translator",
+    "translate",
+    "language",
+    "interpreter",
+    "speech",
+    "bubbles",
+    "chat",
+    "dialogue"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 4h8a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H7l-3 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z\"/><path class=\"d p2\" d=\"M11 10h8a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-3-3h-4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2z\"/><g class=\"p3\"><path d=\"M5.5 8h4\"/><path d=\"M8 6.5 9.5 8 8 9.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

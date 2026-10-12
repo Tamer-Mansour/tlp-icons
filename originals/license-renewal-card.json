@@ -1,0 +1,11 @@
+{
+  "name": "license-renewal-card",
+  "category": "legal",
+  "tags": ["license", "renewal", "card", "permit", "id", "renew"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><g class=\"p2\"><path d=\"M2.5 10h19\"/><path d=\"M6 15h3\"/></g><path class=\"p3\" d=\"M14.5 15A2.5 2.5 0 0 1 17 12.5\"/><path class=\"p3\" d=\"M15.8 11.2 17.2 12.5 15.8 13.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

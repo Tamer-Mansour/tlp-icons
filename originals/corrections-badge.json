@@ -1,0 +1,11 @@
+{
+  "name": "corrections-badge",
+  "category": "legal",
+  "tags": ["corrections", "prison", "badge", "shield", "key", "jail", "custody"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 4.5 5.5v6C4.5 16 7.7 19 12 21c4.3-2 7.5-5 7.5-9.5v-6z\"/><g class=\"p2\"><circle cx=\"9\" cy=\"11\" r=\"2\"/><path d=\"M11 11h5\"/></g><path class=\"p3\" d=\"M14 11v2M16 11v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

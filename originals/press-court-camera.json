@@ -1,0 +1,12 @@
+{
+  "name": "press-court-camera",
+  "category": "legal",
+  "tags": ["press", "camera", "media", "court", "broadcast", "video", "tripod"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"9\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M11 8.5 14.5 6.5v5L11 9.5\"/><path class=\"p3\" d=\"M6.5 11v2M6.5 13 3.5 21M6.5 13l3 8\"/><path class=\"p4\" d=\"M14 13h8M14 17h8M15 17v4M21 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

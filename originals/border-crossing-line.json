@@ -1,0 +1,12 @@
+{
+  "name": "border-crossing-line",
+  "category": "legal",
+  "tags": ["border", "crossing", "passport", "immigration", "travel", "customs"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"18\" rx=\"1.5\"/><circle class=\"p2\" cx=\"8\" cy=\"9.5\" r=\"1.8\"/><path class=\"p2\" d=\"M5.5 15h5\"/><path class=\"p3\" d=\"M17 2.5v2.5M17 8.5v2.5M17 14.5v2.5M17 20v1.5\"/><g class=\"p4\"><path d=\"M14 12h7\"/><path d=\"M18 9l3 3-3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

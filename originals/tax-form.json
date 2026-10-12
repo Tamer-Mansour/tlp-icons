@@ -1,0 +1,12 @@
+{
+  "name": "tax-form",
+  "category": "legal",
+  "tags": ["tax", "form", "coin", "revenue", "return", "money"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"13\" height=\"17\" rx=\"2\"/><g class=\"p2\"><path d=\"M7.5 7h6\"/><path d=\"M7.5 10.5h6\"/><path d=\"M7.5 14h3.5\"/></g><circle class=\"d p3\" cx=\"17.5\" cy=\"17\" r=\"4.5\"/><circle class=\"f p4\" cx=\"17.5\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 350 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

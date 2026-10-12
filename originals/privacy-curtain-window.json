@@ -1,0 +1,11 @@
+{
+  "name": "privacy-curtain-window",
+  "category": "legal",
+  "tags": ["privacy", "window", "blinds", "curtain", "shade", "screen", "hidden"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1.5\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"18\" height=\"9\"/><g class=\"p3\"><path d=\"M3 6.5h18\"/><path d=\"M3 9.5h18\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

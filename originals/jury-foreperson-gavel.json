@@ -1,0 +1,11 @@
+{
+  "name": "jury-foreperson-gavel",
+  "category": "legal",
+  "tags": ["jury", "foreperson", "gavel", "verdict", "person", "chair"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M3 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2\"/><g class=\"p3\"><rect x=\"15\" y=\"2.5\" width=\"6\" height=\"3\" rx=\"1\" transform=\"rotate(-35 18 4)\"/><path d=\"M17.5 6 20.5 11\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "tap", "dur": 900, "delay": 1000 }
+  ]
+}

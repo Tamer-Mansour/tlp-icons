@@ -1,0 +1,11 @@
+{
+  "name": "emergency-beacon-light",
+  "category": "legal",
+  "tags": ["emergency", "beacon", "light", "alarm", "warning", "signal", "rays"],
+  "svg": "<path class=\"d p1\" d=\"M8 14a4 4 0 0 1 8 0z\"/><rect class=\"p2\" x=\"5\" y=\"16.5\" width=\"14\" height=\"4\" rx=\"1\"/><g class=\"p3\"><path d=\"M12 3.5v2M5.2 6.2l1.4 1.4M18.8 6.2l-1.4 1.4M3 12.5h2M19 12.5h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 400 }
+  ]
+}

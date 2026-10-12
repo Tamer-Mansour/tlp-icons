@@ -1,0 +1,11 @@
+{
+  "name": "infringement-warning",
+  "category": "legal",
+  "tags": ["infringement", "warning", "violation", "document", "alert", "notice"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 22 20.5H2z\"/><rect class=\"p2\" x=\"9\" y=\"12.5\" width=\"6\" height=\"5.5\" rx=\".5\"/><path class=\"p3\" d=\"M10.8 14.8h2.4M10.8 16.6h2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

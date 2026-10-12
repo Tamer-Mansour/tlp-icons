@@ -1,0 +1,11 @@
+{
+  "name": "property-survey-compass",
+  "category": "legal",
+  "tags": ["property", "survey", "map", "compass", "land", "boundary"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><g class=\"p2\"><circle cx=\"16\" cy=\"10\" r=\"2.5\"/><path d=\"M16 8.5v3\"/></g><path class=\"p3\" d=\"M7 19v-7\"/><path class=\"p3\" d=\"M7 12l3 1.5-3 1.5\"/><path class=\"p3\" d=\"M13 19v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

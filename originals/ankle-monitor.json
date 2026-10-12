@@ -1,0 +1,33 @@
+{
+    "name":  "ankle-monitor",
+    "category":  "legal",
+    "tags":  [
+                 "ankle",
+                 "monitor",
+                 "house arrest",
+                 "bracelet",
+                 "tracking",
+                 "offender"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M9 2v6M15 2v6\"/\u003e\u003cpath class=\"p3\" d=\"M9 14v8M15 14v8\"/\u003e\u003crect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"6\" rx=\"2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  100
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  500
+                   }
+               ]
+}

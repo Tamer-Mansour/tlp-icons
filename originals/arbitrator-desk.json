@@ -1,0 +1,11 @@
+{
+  "name": "arbitrator-desk",
+  "category": "legal",
+  "tags": ["arbitrator", "desk", "arbitration", "handshake", "mediation", "deal"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M4 11v8h16v-8M5 19v2.5M19 19v2.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"15\" r=\"3\"/><path class=\"p3\" d=\"M10.3 15.2l1.2 1 .5-.4.5.4 1.2-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

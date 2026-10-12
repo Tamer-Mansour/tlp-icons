@@ -1,0 +1,11 @@
+{
+  "name": "genetic-data-helix",
+  "category": "legal",
+  "tags": ["genetic", "dna", "data", "helix", "privacy", "lock"],
+  "svg": "<path class=\"p1\" d=\"M8 3c0 6 8 6 8 9s-8 3-8 9\"/><path class=\"p2\" d=\"M16 3c0 6-8 6-8 9s8 3 8 9\"/><path class=\"p3\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

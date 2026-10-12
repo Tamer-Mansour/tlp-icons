@@ -1,0 +1,10 @@
+{
+  "name": "jury-ballot-box",
+  "category": "legal",
+  "tags": ["jury", "ballot", "vote", "box", "election", "court"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v7.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8.5 12V3.5l2 1.2 1.5-1.2 1.5 1.2 2-1.2V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 400 }
+  ]
+}

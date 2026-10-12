@@ -1,0 +1,33 @@
+{
+    "name":  "quorum-count",
+    "category":  "legal",
+    "tags":  [
+                 "quorum",
+                 "count",
+                 "vote",
+                 "members",
+                 "meeting",
+                 "attendance"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/\u003e\u003cpath class=\"p2\" d=\"M3 21v-2a4 4 0 0 1 4-4h4\"/\u003e\u003cpath class=\"p3\" d=\"m14 17 3 3 5-6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  800
+                   }
+               ]
+}

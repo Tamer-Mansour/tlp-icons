@@ -1,0 +1,12 @@
+{
+  "name": "personal-data-id",
+  "category": "legal",
+  "tags": ["personal", "data", "id", "card", "privacy", "identity", "lock"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"8.5\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M5.2 16c.5-1.5 1.7-2.3 3.3-2.3s2.8.8 3.3 2.3\"/><path class=\"p3\" d=\"M14 9.5h4\"/><g class=\"p4\"><rect class=\"d\" x=\"15\" y=\"14\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M16.5 14v-1.5a1.5 1.5 0 0 1 3 0V14\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "minimum-wage-floor",
+  "category": "legal",
+  "tags": ["minimum wage", "wage", "floor", "coins", "pay", "labour"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"17\" width=\"14\" height=\"3\" rx=\"1.5\"/><rect class=\"p2\" x=\"5\" y=\"12\" width=\"14\" height=\"3\" rx=\"1.5\"/><rect class=\"p3\" x=\"5\" y=\"7\" width=\"14\" height=\"3\" rx=\"1.5\"/><path class=\"p4\" d=\"M2 22h20\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 100 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 350 },
+    { "part": "p3", "anim": "hop", "dur": 800, "delay": 700 }
+  ]
+}

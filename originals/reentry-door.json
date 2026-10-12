@@ -1,0 +1,12 @@
+{
+  "name": "reentry-door",
+  "category": "legal",
+  "tags": ["reentry", "door", "entry", "return", "entering", "immigration"],
+  "svg": "<path class=\"p2\" d=\"M15 21V3h6v18\"/><path class=\"p2\" d=\"M2 21h20\"/><path class=\"d p1\" d=\"M15 3l-4 2v14l4 2z\"/><g class=\"p3\"><circle cx=\"4.5\" cy=\"11.5\" r=\"2\"/><path d=\"M2 21v-2a2.5 2.5 0 0 1 5 0v2\"/></g><path class=\"p4\" d=\"M2 5h5\"/><path class=\"p4\" d=\"M4.5 2.5 7 5l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

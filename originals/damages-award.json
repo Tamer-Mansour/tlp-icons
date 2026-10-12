@@ -1,0 +1,20 @@
+{
+  "name": "damages-award",
+  "category": "legal",
+  "tags": [
+    "damages",
+    "award",
+    "money",
+    "verdict",
+    "compensation",
+    "gavel",
+    "banknote"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"15\" height=\"10\" rx=\"1.5\"/><circle class=\"p2\" cx=\"6\" cy=\"13\" r=\"2\"/><path class=\"p3\" d=\"M14 9 7.5 15.5\"/><path class=\"d p4\" d=\"M11.5 6.5 14 4l5 5-2.5 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300, "origin": "6px 13px" },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "strike", "dur": 900, "delay": 1000, "origin": "14px 9px" }
+  ]
+}

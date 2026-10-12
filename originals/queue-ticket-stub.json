@@ -1,0 +1,19 @@
+{
+  "name": "queue-ticket-stub",
+  "category": "legal",
+  "tags": [
+    "queue",
+    "ticket",
+    "number",
+    "stub",
+    "waiting",
+    "line"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><g class=\"p2\"><path d=\"M6 10h6\"/><path d=\"M6 14h4\"/></g><path class=\"p3\" d=\"M16 8v1.5M16 11.25v1.5M16 14.5v1.5\"/><path class=\"p4\" d=\"M18.2 10.9 19 10.3v4.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000, "origin": "18.5px 12px" }
+  ]
+}

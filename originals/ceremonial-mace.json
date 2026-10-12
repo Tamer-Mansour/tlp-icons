@@ -1,0 +1,39 @@
+{
+  "name": "ceremonial-mace",
+  "category": "legal",
+  "tags": [
+    "mace",
+    "ceremony",
+    "ceremonial",
+    "parliament",
+    "authority",
+    "sergeant"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7.5\" r=\"4.5\"/><path class=\"p4\" d=\"M12 5v5M9.5 7.5h5\"/><g class=\"p2\"><path d=\"M8.5 13h7\"/><path d=\"M12 13v7\"/></g><path class=\"d p3\" d=\"M9 20h6l1 2H8z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

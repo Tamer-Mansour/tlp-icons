@@ -1,0 +1,12 @@
+{
+  "name": "overdraft-card",
+  "category": "legal",
+  "tags": ["overdraft", "card", "negative", "balance", "debt", "bank"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 7h20\"/><rect class=\"d p3\" x=\"2\" y=\"18\" width=\"20\" height=\"3\" rx=\"1.5\"/><path class=\"p4\" d=\"M8 19.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 800, "origin": "left" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

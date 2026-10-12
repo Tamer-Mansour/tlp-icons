@@ -1,0 +1,11 @@
+{
+  "name": "oath-raised-hand",
+  "category": "legal",
+  "tags": ["oath", "swear", "raised hand", "witness", "testimony", "vow", "book"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"6\" rx=\"3\"/><path class=\"p3\" d=\"M8.5 8.5V4M12 8V3M15.5 8.5V4M7 11l-2-1.5\"/><rect class=\"d p2\" x=\"5\" y=\"16\" width=\"14\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M9 16v5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "marriage-license-card",
+  "category": "legal",
+  "tags": [
+    "marriage",
+    "license",
+    "wedding",
+    "ring",
+    "card",
+    "certificate",
+    "union"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"13\" height=\"9\" rx=\"2\"/><polyline class=\"p2\" points=\"6.5 15.5 8.5 17.5 12.5 13.5\"/><circle class=\"p3\" cx=\"16\" cy=\"5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

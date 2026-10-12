@@ -1,0 +1,11 @@
+{
+  "name": "blood-sample-vial",
+  "category": "legal",
+  "tags": ["blood", "sample", "vial", "test", "forensic", "lab"],
+  "svg": "<path class=\"p1\" d=\"M8 3h8v3.5H8z\"/><path class=\"d p2\" d=\"M9 6.5v11a3 3 0 0 0 6 0v-11z\"/><path class=\"p3\" d=\"M9 14h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

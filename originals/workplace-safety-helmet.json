@@ -1,0 +1,12 @@
+{
+  "name": "workplace-safety-helmet",
+  "category": "legal",
+  "tags": ["safety", "helmet", "hard hat", "construction", "workplace", "clipboard"],
+  "svg": "<path class=\"d p1\" d=\"M4 14a8 8 0 0 1 16 0z\"/><rect class=\"p2\" x=\"2\" y=\"14\" width=\"20\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M12 6v8\"/><g class=\"p4\"><path d=\"M17 16v2\"/><rect class=\"d\" x=\"13\" y=\"18\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M15.5 20h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "sway", "dur": 1000, "delay": 800, "origin": "17px 16px" }
+  ]
+}

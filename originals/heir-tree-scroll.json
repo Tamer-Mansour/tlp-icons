@@ -1,0 +1,11 @@
+{
+  "name": "heir-tree-scroll",
+  "category": "legal",
+  "tags": ["heir", "inheritance", "family tree", "lineage", "estate", "scroll", "descendants"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\"/><g class=\"p2\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect x=\"4\" y=\"17\" width=\"16\" height=\"3\" rx=\"1.5\"/></g><g class=\"p3\"><path d=\"M12 16v-2.5M12 13.5L8 10.5M12 13.5l4-3\"/><circle cx=\"8\" cy=\"9.5\" r=\"1.5\"/><circle cx=\"16\" cy=\"9.5\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "parole-hearing",
+  "category": "legal",
+  "tags": ["parole", "hearing", "release", "prisoner", "board", "table"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M3 13a4 4 0 0 1 8 0\"/><circle class=\"d p3\" cx=\"17\" cy=\"5\" r=\"2.5\"/><path class=\"p4\" d=\"M13 13a4 4 0 0 1 8 0\"/><rect class=\"d p5\" x=\"3\" y=\"16\" width=\"18\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p5", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 450 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 750 }
+  ]
+}

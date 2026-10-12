@@ -1,0 +1,13 @@
+{
+  "name": "breathalyzer",
+  "category": "legal",
+  "tags": ["breathalyzer", "breath test", "alcohol", "dui", "police", "test"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"12\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"10\" cy=\"11\" r=\"2.5\"/><path class=\"p3\" d=\"M10 11l1.6-1.6\"/><g class=\"p4\"><path d=\"M16 13h3\"/><rect x=\"19\" y=\"11\" width=\"3\" height=\"4\" rx=\"1\"/></g><path class=\"p5\" d=\"M7.5 17.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "10px 11px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "student-visa-cap",
+  "category": "legal",
+  "tags": ["student", "visa", "passport", "graduation", "cap", "education", "immigration"],
+  "svg": "<rect class=\"d p3\" x=\"4\" y=\"17\" width=\"13\" height=\"4.5\" rx=\".8\"/><polygon class=\"d p1\" points=\"12,4 21,8.5 12,13 3,8.5\"/><path class=\"p2\" d=\"M7 10.7v2.8c0 .9 2.2 2 5 2s5-1.1 5-2v-2.8\"/><path class=\"p5\" d=\"M21 8.5v4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p5", "anim": "sway", "dur": 900, "delay": 1200, "origin": "top" }
+  ]
+}

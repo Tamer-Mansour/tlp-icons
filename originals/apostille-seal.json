@@ -1,0 +1,12 @@
+{
+  "name": "apostille-seal",
+  "category": "legal",
+  "tags": ["apostille", "seal", "globe", "international", "certification", "stamp"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><g class=\"p2\"><ellipse cx=\"10\" cy=\"10\" rx=\"3\" ry=\"7\"/><path d=\"M3 10h14\"/></g><g class=\"p3\"><circle class=\"d\" cx=\"16.5\" cy=\"16.5\" r=\"4\"/><circle cx=\"16.5\" cy=\"16.5\" r=\"1.8\"/></g><path class=\"p4\" d=\"M13.6 19.6l-1.1 2.4M19.4 19.6l1.1 2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

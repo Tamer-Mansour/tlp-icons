@@ -1,0 +1,12 @@
+{
+  "name": "redaction-bars",
+  "category": "legal",
+  "tags": ["redaction", "redacted", "censored", "document", "privacy", "classified"],
+  "svg": "<path class=\"d p1\" d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8l6 6v12a2 2 0 0 1-2 2z\"/><path class=\"p4\" d=\"M14 2v6h6\"/><path class=\"p2\" d=\"M8 9h8\"/><rect class=\"d p3\" x=\"8\" y=\"12\" width=\"8\" height=\"3\" rx=\".5\"/><rect class=\"d p3\" x=\"8\" y=\"17.5\" width=\"5\" height=\"2.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900, "origin": "left" }
+  ]
+}

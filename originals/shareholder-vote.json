@@ -1,0 +1,12 @@
+{
+  "name": "shareholder-vote",
+  "category": "legal",
+  "tags": ["shareholder", "vote", "hand", "raised", "meeting", "ballot"],
+  "svg": "<rect class=\"d p3\" x=\"3.5\" y=\"9\" width=\"5.5\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M4.5 9V5M6.25 9V3.5M8 9V5\"/><path class=\"p3\" d=\"M6.25 16v5\"/><rect class=\"d p1\" x=\"12\" y=\"4\" width=\"9\" height=\"14\" rx=\"1.5\"/><g class=\"p2\"><rect x=\"14\" y=\"7\" width=\"3\" height=\"3\" rx=\".5\"/><path d=\"m14.4 8.5.7.7 1.1-1.2\"/></g><path class=\"p4\" d=\"M14 13.5h5\"/><path class=\"p4\" d=\"M14 16.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

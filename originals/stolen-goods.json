@@ -1,0 +1,11 @@
+{
+  "name": "stolen-goods",
+  "category": "legal",
+  "tags": ["stolen", "goods", "theft", "box", "steal", "larceny"],
+  "svg": "<path class=\"d p1\" d=\"M2 10 9 7l7 3v8l-7 3-7-3z\"/><path class=\"p2\" d=\"M2 10l7 3 7-3M9 13v8\"/><path class=\"p3\" d=\"M12 5h9M17.5 2.5 21 5l-3.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

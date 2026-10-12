@@ -1,0 +1,12 @@
+{
+  "name": "assembly-hall",
+  "category": "legal",
+  "tags": ["assembly", "hall", "parliament", "legislature", "building", "council"],
+  "svg": "<path class=\"d p1\" d=\"M2 8 12 3l10 5z\"/><g class=\"p2\"><path d=\"M5.5 9v3\"/><path d=\"M9.5 9v3\"/><path d=\"M14.5 9v3\"/><path d=\"M18.5 9v3\"/></g><path class=\"p3\" d=\"M3 13h18\"/><g class=\"p4\"><circle cx=\"5.5\" cy=\"15.5\" r=\"1.5\"/><path d=\"M3 22v-1a2.5 2.5 0 0 1 5 0v1\"/><circle cx=\"12\" cy=\"15.5\" r=\"1.5\"/><path d=\"M9.5 22v-1a2.5 2.5 0 0 1 5 0v1\"/><circle cx=\"18.5\" cy=\"15.5\" r=\"1.5\"/><path d=\"M16 22v-1a2.5 2.5 0 0 1 5 0v1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

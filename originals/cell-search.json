@@ -1,0 +1,11 @@
+{
+  "name": "cell-search",
+  "category": "legal",
+  "tags": ["cell", "search", "flashlight", "inspection", "prison", "grid"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"12\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 2v12M10 2v12\"/><circle class=\"p3\" cx=\"16\" cy=\"16\" r=\"4\"/><path class=\"p3\" d=\"M19 19l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "16px 16px" }
+  ]
+}

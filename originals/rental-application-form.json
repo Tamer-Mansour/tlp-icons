@@ -1,0 +1,11 @@
+{
+  "name": "rental-application-form",
+  "category": "legal",
+  "tags": ["rental", "application", "form", "lease", "tenant", "housing", "clipboard"],
+  "svg": "<path class=\"d p1\" d=\"M2 11.5 7 6.5l5 5V20H2z\"/><rect class=\"d p2\" x=\"13\" y=\"6\" width=\"8\" height=\"14\" rx=\"1.5\"/><rect class=\"p2\" x=\"15\" y=\"3.5\" width=\"4\" height=\"3\" rx=\".5\"/><path class=\"p3\" d=\"M15 11h4M15 14h4M15 17h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "notary-journal-book",
+  "category": "legal",
+  "tags": ["notary", "journal", "logbook", "record", "book", "pen"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M7 3v16\"/><path class=\"p3\" d=\"M12 19v3l1-.7 1 .7v-3\"/><path class=\"p4\" d=\"M16.5 15.5l3-3 1.5 1.5-3 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "slideIn", "dur": 600, "delay": 1000 }
+  ]
+}

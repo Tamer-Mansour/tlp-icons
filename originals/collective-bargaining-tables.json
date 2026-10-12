@@ -1,0 +1,21 @@
+{
+  "name": "collective-bargaining-tables",
+  "category": "legal",
+  "tags": [
+    "collective bargaining",
+    "union",
+    "negotiation",
+    "tables",
+    "labor",
+    "agreement"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"4.5\" r=\"2.2\"/><path class=\"p2\" d=\"M2.5 12a3.5 3.5 0 0 1 7 0\"/><path class=\"p3\" d=\"M1.5 15h9M3 15v6M9 15v6\"/><circle class=\"d p4\" cx=\"17\" cy=\"4.5\" r=\"2.2\"/><path class=\"p5\" d=\"M13.5 12a3.5 3.5 0 0 1 7 0\"/><path class=\"p6\" d=\"M12.5 15h9M14 15v6M20 15v6\"/>",
+  "motion": [
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 0, "origin": "left" },
+    { "part": "p6", "anim": "growX", "dur": 600, "delay": 0, "origin": "right" },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

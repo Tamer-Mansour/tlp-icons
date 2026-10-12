@@ -1,0 +1,11 @@
+{
+  "name": "process-server",
+  "category": "legal",
+  "tags": ["process", "server", "envelope", "summons", "service", "papers"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"14\" height=\"9\" rx=\"1.2\"/><path class=\"p2\" d=\"M3.5 5.8 10 10.5l6.5-4.7\"/><path class=\"p3\" d=\"M12 22v-4.5a1.5 1.5 0 0 1 3 0V19l3.5-2.5a1.5 1.5 0 0 1 2 2.2L16 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 500 }
+  ]
+}

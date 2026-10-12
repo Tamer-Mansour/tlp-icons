@@ -1,0 +1,12 @@
+{
+  "name": "oath-hand",
+  "category": "legal",
+  "tags": ["oath", "hand", "swear", "testimony", "bible", "witness", "pledge"],
+  "svg": "<rect class=\"d p3\" x=\"3\" y=\"17\" width=\"18\" height=\"3\" rx=\"1\"/><path class=\"d p1\" d=\"M7 15v-5h10v5z\"/><path class=\"p2\" d=\"M7 10V5a1 1 0 0 1 2 0v5M10 10V3.5a1 1 0 0 1 2 0V9M13 10V4.5a1 1 0 0 1 2 0V9M16 10V6a1 1 0 0 1 2 0v4M7 13.5l-2.6-2.3a1.1 1.1 0 0 0-1.6 1.5L7 15\"/><path class=\"p4\" d=\"M16.5 20v2l1.25-1 1.25 1v-2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 350 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

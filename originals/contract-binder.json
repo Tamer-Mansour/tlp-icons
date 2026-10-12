@@ -1,0 +1,12 @@
+{
+  "name": "contract-binder",
+  "category": "legal",
+  "tags": ["binder", "contract", "rings", "agreement", "document", "file"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 7h3M2 12h3M2 17h3\"/><rect class=\"p3\" x=\"8.5\" y=\"6.5\" width=\"7\" height=\"5\" rx=\".5\"/><path class=\"p4\" d=\"M9.5 15h5M9.5 17.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

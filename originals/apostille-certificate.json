@@ -1,0 +1,19 @@
+{
+  "name": "apostille-certificate",
+  "category": "legal",
+  "tags": [
+    "apostille",
+    "certificate",
+    "seal",
+    "document",
+    "notary",
+    "legalisation"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"13\" height=\"15\" rx=\"1.5\"/><g class=\"p4\"><path d=\"M7 7h7\"/><path d=\"M7 10.5h6\"/><path d=\"M7 14h3\"/></g><circle class=\"d p2\" cx=\"16\" cy=\"17\" r=\"3.5\"/><path class=\"p3\" d=\"M13.2 19.6 12.4 22l1.6-.8 1.6.8.8-2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 700, "origin": "16px 17px" },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1100 }
+  ]
+}

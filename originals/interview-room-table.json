@@ -1,0 +1,33 @@
+{
+    "name":  "interview-room-table",
+    "category":  "legal",
+    "tags":  [
+                 "interview",
+                 "room",
+                 "table",
+                 "recording",
+                 "mic",
+                 "meeting"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"9.5\" y=\"3\" width=\"5\" height=\"7\" rx=\"2.5\"/\u003e\u003cpath class=\"p2\" d=\"M12 10v4M3 14h18\"/\u003e\u003cpath class=\"p3\" d=\"M6 14v7M18 14v7\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "dropIn",
+                       "dur":  500,
+                       "delay":  800
+                   }
+               ]
+}

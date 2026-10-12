@@ -1,0 +1,33 @@
+{
+    "name":  "plea-agreement-handshake",
+    "category":  "legal",
+    "tags":  [
+                 "handshake",
+                 "plea",
+                 "agreement",
+                 "deal",
+                 "settlement",
+                 "paper"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 2h10l4 4v16H5z\"/\u003e\u003cpath class=\"p2\" d=\"M15 2v4h4\"/\u003e\u003cpath class=\"p3\" d=\"M8.500 14l2.500 2.500 5-5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  700
+                   }
+               ]
+}

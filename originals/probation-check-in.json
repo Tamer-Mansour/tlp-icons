@@ -1,0 +1,19 @@
+{
+  "name": "probation-check-in",
+  "category": "legal",
+  "tags": [
+    "probation",
+    "check",
+    "calendar",
+    "appointment",
+    "parole",
+    "schedule"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M8 2v4M16 2v4\"/><g class=\"p3\"><circle cx=\"9\" cy=\"14\" r=\"1.8\"/><path d=\"M6.3 19c.3-1.5 1.4-2.3 2.7-2.3s2.4.8 2.7 2.3\"/></g><path class=\"p4\" d=\"M13.5 15.5l1.7 1.7 3.3-3.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

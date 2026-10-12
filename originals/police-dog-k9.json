@@ -1,0 +1,39 @@
+{
+    "name":  "police-dog-k9",
+    "category":  "legal",
+    "tags":  [
+                 "police",
+                 "dog",
+                 "k9",
+                 "canine",
+                 "officer",
+                 "badge"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M7 5h10v8.500a5 5 0 0 1-10 0z\"/\u003e\u003cpath class=\"p2\" d=\"M7 6 3.500 8v5L7 12M17 6l3.500 2v5L17 12\"/\u003e\u003ccircle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.500\"/\u003e\u003cpath class=\"p4\" d=\"M9.500 10h.01M14.500 10h.01\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  800
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "blink",
+                       "dur":  600,
+                       "delay":  1000
+                   }
+               ]
+}

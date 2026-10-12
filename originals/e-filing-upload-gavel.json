@@ -1,0 +1,11 @@
+{
+  "name": "e-filing-upload-gavel",
+  "category": "legal",
+  "tags": ["e-filing", "upload", "submit", "court filing", "gavel", "digital"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h8l4 4v14H5z\"/><path class=\"p2\" d=\"M9 15V9M7 11l2-2 2 2\"/><rect class=\"d p3\" x=\"13\" y=\"14\" width=\"7\" height=\"3\" rx=\"1\" transform=\"rotate(45 16.5 15.5)\"/><path class=\"p3\" d=\"M16.5 15.5l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "strike", "dur": 1000, "delay": 800, "origin": "12.5px 19.5px" }
+  ]
+}

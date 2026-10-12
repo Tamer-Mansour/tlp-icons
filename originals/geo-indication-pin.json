@@ -1,0 +1,11 @@
+{
+  "name": "geo-indication-pin",
+  "category": "legal",
+  "tags": ["geographical", "indication", "origin", "pin", "location", "certificate", "seal"],
+  "svg": "<path class=\"d p1\" d=\"M9 2a5 5 0 0 0-5 5c0 4 5 10 5 10s5-6 5-10a5 5 0 0 0-5-5z\"/><circle class=\"p2\" cx=\"9\" cy=\"7\" r=\"1.8\"/><g class=\"p3\"><circle class=\"d\" cx=\"17\" cy=\"15\" r=\"3.5\"/><path d=\"M15 17.5l-.5 4M19 17.5l.5 4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900, "origin": "17px 15px" }
+  ]
+}

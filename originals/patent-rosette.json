@@ -1,0 +1,12 @@
+{
+  "name": "patent-rosette",
+  "category": "legal",
+  "tags": ["patent", "rosette", "badge", "certificate", "invention", "award"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h9l5 5v7H5z\"/><path class=\"p2\" d=\"M14 2v5h5\"/><g class=\"p3\"><path d=\"M8 10h8\"/><path d=\"M8 12.5h4\"/></g><g class=\"p4\"><circle class=\"d\" cx=\"16.5\" cy=\"18.5\" r=\"3\"/><path d=\"M14.4 20.6 13.5 22l2-.7 2 .7.9-1.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 700, "origin": "16.5px 18.5px" }
+  ]
+}

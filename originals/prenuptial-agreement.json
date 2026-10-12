@@ -1,0 +1,19 @@
+{
+  "name": "prenuptial-agreement",
+  "category": "legal",
+  "tags": [
+    "prenuptial",
+    "marriage",
+    "pen",
+    "ring",
+    "agreement",
+    "contract"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"14\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M6 7h4\"/><path d=\"M6 10h4\"/></g><path class=\"p3\" d=\"M10 21 19 11\"/><path class=\"p3\" d=\"M19 21 10 11\"/><circle class=\"p4\" cx=\"18\" cy=\"5.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

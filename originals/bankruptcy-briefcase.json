@@ -1,0 +1,12 @@
+{
+  "name": "bankruptcy-briefcase",
+  "category": "legal",
+  "tags": ["bankruptcy", "briefcase", "insolvency", "decline", "debt", "business"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v3.5\"/><path class=\"p1\" d=\"M9 3.5l3 3 3-3\"/><rect class=\"d p2\" x=\"3\" y=\"12\" width=\"18\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M8 12v-2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><path class=\"p4\" d=\"M3 16h18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p1", "anim": "sink", "dur": 900, "delay": 900 }
+  ]
+}

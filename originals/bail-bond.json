@@ -1,0 +1,11 @@
+{
+  "name": "bail-bond",
+  "category": "legal",
+  "tags": ["bail", "bond", "surety", "release", "court", "seal", "coin"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 3H11l3.5 3.5V18H2.5z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"15.5\" r=\"2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

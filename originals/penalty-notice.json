@@ -1,0 +1,11 @@
+{
+  "name": "penalty-notice",
+  "category": "legal",
+  "tags": ["penalty", "notice", "fine", "warning", "document", "violation"],
+  "svg": "<path class=\"d p1\" d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h5.5\"/><path class=\"p1\" d=\"M14 2v6h6\"/><path class=\"p1\" d=\"M20 8v3.5\"/><path class=\"p2\" d=\"M8 13h5M8 17h3\"/><g class=\"p3\"><path class=\"d\" d=\"M18 13.5 22 20.5H14z\"/><path d=\"M18 16.5v1.5\"/><circle class=\"f\" cx=\"18\" cy=\"19.3\" r=\".6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

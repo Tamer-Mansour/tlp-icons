@@ -1,0 +1,12 @@
+{
+  "name": "id-verified-shield",
+  "category": "legal",
+  "tags": ["id", "verified", "identity", "shield", "card", "check"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"13\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M5 9h5M5 12h3\"/><path class=\"d p3\" d=\"M18 10l4 1.5v3c0 2.5-1.8 4.2-4 5-2.2-.8-4-2.5-4-5v-3z\"/><path class=\"p4\" d=\"M15.8 15.3l1.6 1.6 2.9-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

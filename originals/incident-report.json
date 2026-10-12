@@ -1,0 +1,19 @@
+{
+  "name": "incident-report",
+  "category": "legal",
+  "tags": [
+    "incident",
+    "report",
+    "alert",
+    "warning",
+    "document",
+    "accident"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 2h9l5 5v13H5z\"/><path class=\"p2\" d=\"M9 8.5h6M9 11.5h3\"/><path class=\"d p3\" d=\"M18 13.5l4 7H14z\"/><path class=\"p4\" d=\"M18 15.5v2\"/><circle class=\"f p4\" cx=\"18\" cy=\"19.2\" r=\".6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "prison-meal-tray",
+  "category": "legal",
+  "tags": ["prison", "meal", "tray", "cloche", "jail", "food"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"19\" width=\"20\" height=\"2\" rx=\"1\"/><path class=\"p2\" d=\"M4 19a8 8 0 0 1 16 0\"/><circle class=\"p3\" cx=\"12\" cy=\"8\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

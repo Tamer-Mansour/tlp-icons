@@ -1,0 +1,12 @@
+{
+  "name": "contraband",
+  "category": "legal",
+  "tags": ["contraband", "prohibited", "forbidden", "smuggling", "package", "banned"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 8l6-3 6 3v8l-6 3-6-3z\"/><path class=\"p2\" d=\"M2.5 8l6 3 6-3M8.5 11v8\"/><circle class=\"p3\" cx=\"18.5\" cy=\"18.5\" r=\"3.5\"/><path class=\"p4\" d=\"M16.03 16.03l4.94 4.94\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

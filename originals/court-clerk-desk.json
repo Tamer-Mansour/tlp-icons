@@ -1,0 +1,11 @@
+{
+  "name": "court-clerk-desk",
+  "category": "legal",
+  "tags": ["court", "clerk", "desk", "filing", "office", "documents"],
+  "svg": "<g class=\"p1\"><path d=\"M3 13h18\"/><path d=\"M4 13v7\"/><path d=\"M20 13v7\"/></g><path class=\"d p2\" d=\"M5 9h7v4H5z\"/><g class=\"p3\"><path d=\"M18 9.5V13\"/><path class=\"d\" d=\"M16.5 6h3l2 3.5h-7z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

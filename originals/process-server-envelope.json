@@ -1,0 +1,12 @@
+{
+  "name": "process-server-envelope",
+  "category": "legal",
+  "tags": ["process", "server", "envelope", "summons", "serve", "papers", "delivery"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7.5\" width=\"11\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 8l5.5 4 5.5-4\"/><path class=\"p3\" d=\"M19 11v-1.5a1 1 0 0 1 2 0V13c0 2.5-1.5 4-3.5 4h-2.4c-1 0-1.8-.4-2.5-1l-1.1-1.2\"/><path class=\"p4\" d=\"M2 19.5h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

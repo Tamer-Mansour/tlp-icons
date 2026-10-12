@@ -1,0 +1,11 @@
+{
+  "name": "codex-book",
+  "category": "legal",
+  "tags": ["codex", "book", "statute", "code", "law", "ribbon"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5C10.5 4.8 8 4 3 4.5v12c5-.5 7.5.3 9 2 1.5-1.7 4-2.5 9-2v-12c-5-.5-7.5.3-9 2z\"/><path class=\"p2\" d=\"M12 6.5v12\"/><path class=\"d p3\" d=\"M15 16.8v4.7l1.5-1.2 1.5 1.2v-4.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 900 }
+  ]
+}

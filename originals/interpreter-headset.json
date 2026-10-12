@@ -1,0 +1,19 @@
+{
+  "name": "interpreter-headset",
+  "category": "legal",
+  "tags": [
+    "interpreter",
+    "headset",
+    "translation",
+    "speech",
+    "language",
+    "mic"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"1.5\" y=\"12\" width=\"3.5\" height=\"6\" rx=\"1.5\"/><rect class=\"d p1\" x=\"15\" y=\"12\" width=\"3.5\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 12v-.5a6.5 6.5 0 0 1 13 0V12M16.5 18v1.5a2 2 0 0 1-2 2H11\"/><rect class=\"d p3\" x=\"15\" y=\"1.5\" width=\"7\" height=\"5.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M17 7v2l2-2\"/><path class=\"p4\" d=\"M17.5 3.5h4M17.5 5.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700, "origin": "bottom right" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

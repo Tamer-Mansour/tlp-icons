@@ -1,0 +1,12 @@
+{
+  "name": "minimum-wage-banknote",
+  "category": "legal",
+  "tags": ["minimum", "wage", "banknote", "pay", "salary", "money", "rise"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"12\" rx=\"2\"/><circle class=\"p2\" cx=\"9.5\" cy=\"11\" r=\"2.5\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"16.5\" r=\"3.8\"/><path class=\"p4\" d=\"M17.5 18.5v-3.5M16 16.5l1.5-1.5 1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 550 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

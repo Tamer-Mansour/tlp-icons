@@ -1,0 +1,11 @@
+{
+  "name": "bailiff-badge",
+  "category": "legal",
+  "tags": ["bailiff", "badge", "sheriff", "officer", "court", "enforcement"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 19.5 6.5V11.5C19.5 16 16.5 19 12 20.5 7.5 19 4.5 16 4.5 11.5V6.5Z\"/><path class=\"p2\" d=\"M12 8 12.76 9.95 14.85 10.07 13.24 11.4 13.76 13.43 12 12.3 10.24 13.43 10.76 11.4 9.15 10.07 11.24 9.95Z\"/><rect class=\"p3\" x=\"9.5\" y=\"2\" width=\"5\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

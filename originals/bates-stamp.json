@@ -1,0 +1,18 @@
+{
+  "name": "bates-stamp",
+  "category": "legal",
+  "tags": [
+    "bates",
+    "stamp",
+    "numbering",
+    "page",
+    "exhibit",
+    "discovery"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><g class=\"p2\"><path d=\"M7 6h8\"/><path d=\"M7 9h8\"/></g><rect class=\"p3\" x=\"8\" y=\"14.5\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 17h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

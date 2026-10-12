@@ -1,0 +1,12 @@
+{
+  "name": "crime-stats",
+  "category": "legal",
+  "tags": ["crime", "statistics", "chart", "bar", "badge", "police"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"3\" height=\"9\"/><rect class=\"d p2\" x=\"9.5\" y=\"5\" width=\"3\" height=\"15\"/><path class=\"p3\" d=\"M2 21h11\"/><circle class=\"d p4\" cx=\"18.2\" cy=\"16.5\" r=\"3.2\"/><path class=\"p4\" d=\"M18.2 14.6v2.4\"/><circle class=\"f p4\" cx=\"18.2\" cy=\"19\" r=\".4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 200, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bill-three-readings",
+  "category": "legal",
+  "tags": ["bill", "readings", "parliament", "legislation", "draft", "law"],
+  "svg": "<path class=\"p3\" d=\"M3 14V5.5A1.5 1.5 0 0 1 4.5 4H14\"/><path class=\"p4\" d=\"M5 16V7.5A1.5 1.5 0 0 1 6.5 6H14\"/><path class=\"d p1\" d=\"M7 9.5A1.5 1.5 0 0 1 8.5 8H15l4 4v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 7 20.5z\"/><path class=\"p2\" d=\"M15 8v4h4\"/><path class=\"p5\" d=\"M10.5 15h5M10.5 18h5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p5", "anim": "growX", "dur": 500, "delay": 900, "origin": "left" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hearing-officer-desk",
+  "category": "legal",
+  "tags": ["hearing", "officer", "desk", "lamp", "tray", "document"],
+  "svg": "<path class=\"p1\" d=\"M3 17h18M5 17v4M19 17v4\"/><path class=\"p2\" d=\"M5 17v-5l4-4\"/><path class=\"d p2\" d=\"M7 4.5h5l2 3.5H5z\"/><rect class=\"d p3\" x=\"13\" y=\"9\" width=\"6\" height=\"4\" rx=\".5\"/><path class=\"p3\" d=\"M11 15h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

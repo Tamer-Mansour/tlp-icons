@@ -1,0 +1,11 @@
+{
+  "name": "video-exhibit",
+  "category": "legal",
+  "tags": ["video", "exhibit", "film", "evidence", "footage", "tag", "clip"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"13\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M5 4v3M5 17v3M9 4v3M9 17v3M12 4v3M12 17v3\"/><g class=\"p3\"><path class=\"d\" d=\"M14 13h6l2 2.5-2 2.5h-6z\"/><circle class=\"f\" cx=\"16.8\" cy=\"15.5\" r=\".8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 800, "origin": "14px 15.5px" }
+  ]
+}

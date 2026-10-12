@@ -1,0 +1,18 @@
+{
+  "name": "voter-roll-list",
+  "category": "legal",
+  "tags": [
+    "voter",
+    "roll",
+    "list",
+    "checklist",
+    "election",
+    "register"
+  ],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M4.8 6.6l1.5 1.5 2.6-2.8M4.8 17.6l1.5 1.5 2.6-2.8\"/><path class=\"p2\" d=\"M13 6.5h8M13 17.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 800, "origin": "left" }
+  ]
+}

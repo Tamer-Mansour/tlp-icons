@@ -1,0 +1,12 @@
+{
+  "name": "arbitration-scale",
+  "category": "legal",
+  "tags": ["arbitration", "scale", "balance", "document", "dispute", "mediation"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18M8 21h8\"/><path class=\"p2\" d=\"M5 6h14\"/><path class=\"p3\" d=\"M5 6 2.5 12.5M5 6l3.5 6.5M19 6l-3 6.5M19 6l3 6.5\"/><path class=\"d p3\" d=\"M2 12.5h7c0 2-1.5 3.5-3.5 3.5S2 14.5 2 12.5z\"/><path class=\"d p3\" d=\"M16 12.5h6c0 2-1.5 3.5-3 3.5S16 14.5 16 12.5z\"/><rect class=\"d p4\" x=\"4\" y=\"9\" width=\"4\" height=\"3.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "dropIn", "dur": 500, "delay": 1100 }
+  ]
+}

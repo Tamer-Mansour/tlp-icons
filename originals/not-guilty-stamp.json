@@ -1,0 +1,11 @@
+{
+  "name": "not-guilty-stamp",
+  "category": "legal",
+  "tags": ["not guilty", "stamp", "verdict", "acquittal", "check", "approved"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5.5\"/><path class=\"p3\" d=\"M9 12.2l2.2 2.2L15.2 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

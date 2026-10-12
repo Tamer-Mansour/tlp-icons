@@ -1,0 +1,19 @@
+{
+  "name": "commissioner-oath-pen",
+  "category": "legal",
+  "tags": [
+    "commissioner",
+    "oath",
+    "affidavit",
+    "pen",
+    "notary",
+    "sworn"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"13\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 7.5h6M6.5 11h4\"/><path class=\"p4\" d=\"M3 16v3a2 2 0 0 0 2 2h12\"/><path class=\"p3\" d=\"M16.5 4.5l3 3L11 16.5 8 17.5l1-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 900, "origin": "8px 17.5px" }
+  ]
+}

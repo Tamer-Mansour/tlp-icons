@@ -1,0 +1,33 @@
+{
+  "name": "notary-seal-press",
+  "category": "legal",
+  "tags": [
+    "notary",
+    "seal",
+    "emboss",
+    "stamp",
+    "press",
+    "certify"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M10 3h4v6h-4z\"/><path class=\"d p2\" d=\"M6 9h12v5H6z\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 600
+    }
+  ]
+}

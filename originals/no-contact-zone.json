@@ -1,0 +1,11 @@
+{
+  "name": "no-contact-zone",
+  "category": "legal",
+  "tags": ["no contact", "restraining", "order", "map", "zone", "protection", "distance"],
+  "svg": "<path class=\"d p1\" d=\"M3 6.5 9 4l6 2.5 6-2.5v13l-6 2.5-6-2.5-6 2.5z\"/><path class=\"d p2\" d=\"M7.5 6.5a3 3 0 0 0-3 3c0 2.2 3 5 3 5s3-2.8 3-5a3 3 0 0 0-3-3z\"/><g class=\"p3\"><circle class=\"d\" cx=\"15.5\" cy=\"9\" r=\"4\"/><path d=\"M12.7 11.8 18.3 6.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000, "origin": "15.5px 9px" }
+  ]
+}

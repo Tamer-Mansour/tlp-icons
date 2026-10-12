@@ -1,0 +1,11 @@
+{
+  "name": "dispatch-headset",
+  "category": "legal",
+  "tags": ["dispatch", "headset", "call", "operator", "emergency", "console"],
+  "svg": "<path class=\"p1\" d=\"M4 13v-1a8 8 0 0 1 16 0v1\"/><rect class=\"d p1\" x=\"2.5\" y=\"12\" width=\"3.5\" height=\"5\" rx=\"1.2\"/><rect class=\"d p1\" x=\"18\" y=\"12\" width=\"3.5\" height=\"5\" rx=\"1.2\"/><path class=\"p2\" d=\"M19.75 17v1.25H15\"/><rect class=\"d p3\" x=\"4\" y=\"20\" width=\"16\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 300 }
+  ]
+}

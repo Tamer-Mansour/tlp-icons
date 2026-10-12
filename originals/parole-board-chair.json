@@ -1,0 +1,11 @@
+{
+  "name": "parole-board-chair",
+  "category": "legal",
+  "tags": ["parole", "board", "chair", "hearing", "clipboard", "committee"],
+  "svg": "<path class=\"p2\" d=\"M7 11V4h10v7\"/><path class=\"d p1\" d=\"M4 11h16v3H4z\"/><path class=\"p2\" d=\"M6 14v7M18 14v7\"/><rect class=\"d p3\" x=\"9\" y=\"6\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

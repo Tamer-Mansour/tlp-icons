@@ -1,0 +1,12 @@
+{
+  "name": "child-support-payment",
+  "category": "legal",
+  "tags": ["child", "support", "payment", "parent", "family", "coins", "money"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"6.5\" r=\"2.5\"/><path class=\"p2\" d=\"M2.5 21v-5a3.5 3.5 0 0 1 7 0v5\"/><path class=\"p3\" d=\"M10.5 14h3\"/><path class=\"p3\" d=\"m12 12.5 1.5 1.5-1.5 1.5\"/><g class=\"p4\"><rect x=\"16\" y=\"6\" width=\"6\" height=\"4\" rx=\"2\"/><rect x=\"16\" y=\"12\" width=\"6\" height=\"4\" rx=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

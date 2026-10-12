@@ -1,0 +1,11 @@
+{
+  "name": "easement-path",
+  "category": "legal",
+  "tags": ["easement", "path", "right of way", "property", "parcel", "land"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"8\" height=\"16\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"4\" width=\"8\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M4 12h2M8 12h2M12 12h2\"/><path class=\"p3\" d=\"M14.5 12H19M16.5 9.5 19 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500, "origin": "left" },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000, "origin": "left" }
+  ]
+}

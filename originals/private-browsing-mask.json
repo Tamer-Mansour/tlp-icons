@@ -1,0 +1,11 @@
+{
+  "name": "private-browsing-mask",
+  "category": "legal",
+  "tags": ["private", "browsing", "mask", "incognito", "privacy", "browser"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2.5\"/><g class=\"p2\"><path d=\"M2 8h20\"/><path d=\"M7 12.5c2.5-1.5 7.5-1.5 10 0v2.5c0 2.8-2.2 4-5 4s-5-1.2-5-4z\"/></g><circle class=\"f p3\" cx=\"9.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

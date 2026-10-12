@@ -1,0 +1,11 @@
+{
+  "name": "polygraph",
+  "category": "legal",
+  "tags": ["polygraph", "lie detector", "interrogation", "test", "wave", "police"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M8 7V3h8v4\"/><polyline class=\"p2\" points=\"6 13 9 13 10.5 10 12.5 16 14 13 18 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

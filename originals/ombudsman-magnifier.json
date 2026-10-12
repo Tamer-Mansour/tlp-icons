@@ -1,0 +1,39 @@
+{
+  "name": "ombudsman-magnifier",
+  "category": "legal",
+  "tags": [
+    "ombudsman",
+    "investigate",
+    "review",
+    "complaint",
+    "magnifier",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2\"/><circle class=\"d p3\" cx=\"17\" cy=\"12\" r=\"3\"/><path class=\"p4\" d=\"M19.1 14.1 21.5 16.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 300,
+      "delay": 900
+    }
+  ]
+}

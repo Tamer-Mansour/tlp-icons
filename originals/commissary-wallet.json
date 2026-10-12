@@ -1,0 +1,11 @@
+{
+  "name": "commissary-wallet",
+  "category": "legal",
+  "tags": ["wallet", "commissary", "coin", "card", "prison", "funds"],
+  "svg": "<path class=\"p2\" d=\"M6 8V4.5A1.5 1.5 0 0 1 7.5 3h8A1.5 1.5 0 0 1 17 4.5V8\"/><rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"19\" height=\"12\" rx=\"2\"/><circle class=\"d p3\" cx=\"17\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dui-checkpoint-cones",
+  "category": "legal",
+  "tags": ["dui", "checkpoint", "traffic cones", "barrier", "roadblock", "police"],
+  "svg": "<path class=\"d p1\" d=\"M5.25 4h1.5L9 19H3z\"/><path class=\"d p1\" d=\"M17.25 4h1.5L21 19h-6z\"/><rect class=\"d p2\" x=\"8.5\" y=\"8.5\" width=\"7\" height=\"4\" rx=\".6\"/><g class=\"p3\"><path d=\"M11 8.5 10 12.5\"/><path d=\"M14 8.5 13 12.5\"/></g><path class=\"p4\" d=\"M2 21h8\"/><path class=\"p4\" d=\"M14 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 350, "origin": "left" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

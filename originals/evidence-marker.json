@@ -1,0 +1,11 @@
+{
+  "name": "evidence-marker",
+  "category": "legal",
+  "tags": ["evidence", "marker", "numbered", "exhibit", "stake", "crime scene"],
+  "svg": "<path class=\"p3\" d=\"M3 21h18\"/><path class=\"d p1\" d=\"M12 4 19 18H5z\"/><path class=\"p2\" d=\"M11 10.5 12.5 9v6.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

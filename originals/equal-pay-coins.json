@@ -1,0 +1,11 @@
+{
+  "name": "equal-pay-coins",
+  "category": "legal",
+  "tags": ["equal pay", "wage", "salary", "coins", "fairness", "pay gap"],
+  "svg": "<g class=\"p1\"><ellipse cx=\"7\" cy=\"12\" rx=\"4\" ry=\"1.5\"/><path d=\"M3 12v5c0 .8 1.8 1.5 4 1.5s4-.7 4-1.5v-5\"/></g><g class=\"p2\"><ellipse cx=\"17\" cy=\"12\" rx=\"4\" ry=\"1.5\"/><path d=\"M13 12v5c0 .8 1.8 1.5 4 1.5s4-.7 4-1.5v-5\"/></g><path class=\"p3\" d=\"M9.5 6 11.5 8 15 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 150, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

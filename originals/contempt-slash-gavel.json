@@ -1,0 +1,11 @@
+{
+  "name": "contempt-slash-gavel",
+  "category": "legal",
+  "tags": ["contempt", "gavel", "forbidden", "disobey", "court", "ban"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><g class=\"p2\"><rect class=\"d\" x=\"7\" y=\"3.5\" width=\"10\" height=\"4\" rx=\"1\"/><path d=\"M12 7.5v10\"/><rect class=\"d\" x=\"8\" y=\"17.5\" width=\"8\" height=\"3\" rx=\"1\"/></g><path class=\"p3\" d=\"M5.6 5.6l12.8 12.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

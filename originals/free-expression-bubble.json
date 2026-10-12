@@ -1,0 +1,18 @@
+{
+  "name": "free-expression-bubble",
+  "category": "legal",
+  "tags": [
+    "free speech",
+    "expression",
+    "speech bubble",
+    "rights",
+    "liberty",
+    "speak"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z\"/><g class=\"p2\"><path d=\"M5.5 11H10\"/><path d=\"M7.5 9l-2 2 2 2\"/></g><g class=\"p3\"><path d=\"M14 11h4.5\"/><path d=\"M16.5 9l2 2-2 2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

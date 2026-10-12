@@ -1,0 +1,39 @@
+{
+    "name":  "arbitration-handshake",
+    "category":  "legal",
+    "tags":  [
+                 "arbitration",
+                 "handshake",
+                 "agreement",
+                 "settlement",
+                 "mediation",
+                 "deal"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M2 11h5M4.5 8l3 3-3 3\"/\u003e\u003cpath class=\"p3\" d=\"M22 11h-5M19.5 8l-3 3 3 3\"/\u003e\u003ccircle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"2.5\"/\u003e\u003cpath class=\"p4\" d=\"M6 20h12\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "slideIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "slideIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

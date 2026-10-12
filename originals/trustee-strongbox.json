@@ -1,0 +1,12 @@
+{
+  "name": "trustee-strongbox",
+  "category": "legal",
+  "tags": ["trustee", "strongbox", "safe", "vault", "trust", "lock"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"13\" rx=\"1.5\"/><rect class=\"d p2\" x=\"3\" y=\"4.5\" width=\"18\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M7 4.5v16.5M17 4.5v16.5\"/><circle class=\"f p4\" cx=\"12\" cy=\"13\" r=\"1.2\"/><path class=\"p4\" d=\"M12 14.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "land-survey",
+  "category": "legal",
+  "tags": ["land", "survey", "boundary", "property", "plot", "stake"],
+  "svg": "<polygon class=\"d p1\" points=\"3,7 9,3.5 19,5 21,13 16,20.5 4,18\"/><g class=\"p2\"><path d=\"M11 16V10\"/><path d=\"M11 10l3 1.2-3 1.3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

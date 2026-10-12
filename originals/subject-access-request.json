@@ -1,0 +1,13 @@
+{
+  "name": "subject-access-request",
+  "category": "legal",
+  "tags": ["subject access", "data request", "gdpr", "personal data", "person", "document"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M1.5 21v-1a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1\"/><rect class=\"d p3\" x=\"14.5\" y=\"2.5\" width=\"7\" height=\"9\" rx=\"1\"/><path class=\"p4\" d=\"M17 5.5h3M17 8.5h3\"/><path class=\"p5\" d=\"M18 11.5V20M15.5 17.5 18 20l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

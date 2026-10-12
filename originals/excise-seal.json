@@ -1,0 +1,18 @@
+{
+  "name": "excise-seal",
+  "category": "legal",
+  "tags": [
+    "excise",
+    "tax",
+    "bottle",
+    "duty",
+    "seal",
+    "stamp"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M10 3h4v4.5l4 3.5V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-9l4-3.5z\"/><circle class=\"d p2\" cx=\"12\" cy=\"9.5\" r=\"2.5\"/><circle class=\"p3\" cx=\"12\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

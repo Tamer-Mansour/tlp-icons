@@ -1,0 +1,11 @@
+{
+  "name": "spousal-consent-form",
+  "category": "legal",
+  "tags": ["spousal", "consent", "form", "signature", "marriage", "document", "pen"],
+  "svg": "<path class=\"d p1\" d=\"M3 2h8l4 4v14H3z\"/><path class=\"p2\" d=\"M5.5 11h5.5M5.5 15h5.5\"/><path class=\"d p3\" d=\"M16.5 17.5l3-3 2 2-3 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "exhibit-binder",
+  "category": "legal",
+  "tags": ["exhibit", "binder", "evidence", "folder", "trial", "files", "tabs"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 3v18\"/><rect class=\"d p3\" x=\"19\" y=\"4\" width=\"2.5\" height=\"3.5\" rx=\".5\"/><rect class=\"d p3\" x=\"19\" y=\"9.5\" width=\"2.5\" height=\"3.5\" rx=\".5\"/><rect class=\"d p3\" x=\"19\" y=\"15\" width=\"2.5\" height=\"3.5\" rx=\".5\"/><path class=\"p4\" d=\"M12 9h4M12 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

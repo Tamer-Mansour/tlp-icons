@@ -1,0 +1,11 @@
+{
+  "name": "foreclosure-gavel-house",
+  "category": "legal",
+  "tags": ["foreclosure", "gavel", "house", "auction", "eviction", "property"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 11.5 9.5 4.5l7 7v9h-14z\"/><path class=\"p2\" d=\"M7 20.5v-4.5h4v4.5\"/><g class=\"p3\"><path d=\"M15 5.5l-2.1 2.1\"/><path class=\"d\" d=\"M17.6 6 15.5 8.1 12.4 5 14.5 2.9z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "strike", "dur": 1100, "delay": 700, "origin": "13px 8px" }
+  ]
+}

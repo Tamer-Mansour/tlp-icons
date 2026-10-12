@@ -1,0 +1,20 @@
+{
+  "name": "video-testimony-tripod",
+  "category": "legal",
+  "tags": [
+    "video",
+    "testimony",
+    "tripod",
+    "camera",
+    "deposition",
+    "remote",
+    "recording"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"8\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 6.5l4-2v7l-4-2z\"/><path class=\"p3\" d=\"M6 10 3 21M6 10l3 11\"/><path class=\"p4\" d=\"M15 15h6.5M21 8v13M15 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

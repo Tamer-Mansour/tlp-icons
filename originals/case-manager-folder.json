@@ -1,0 +1,11 @@
+{
+  "name": "case-manager-folder",
+  "category": "legal",
+  "tags": ["case", "manager", "folder", "file", "caseworker", "person"],
+  "svg": "<path class=\"d p1\" d=\"M3 6.5a2 2 0 0 1 2-2h4l2 2h5a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><g class=\"p2\"><circle cx=\"8.5\" cy=\"10\" r=\"1.8\"/><path d=\"M5.5 17a3 3 0 0 1 6 0\"/></g><path class=\"p3\" d=\"M13 13h7.5M17.5 10l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

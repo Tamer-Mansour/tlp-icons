@@ -1,0 +1,11 @@
+{
+  "name": "public-notice",
+  "category": "legal",
+  "tags": ["public", "notice", "announcement", "megaphone", "document", "proclamation"],
+  "svg": "<path class=\"d p1\" d=\"M4 8.5h3.5L14 4v11l-6.5-3.5H4z\"/><path class=\"p2\" d=\"M7.5 11.5l1 3\"/><rect class=\"p3\" x=\"6\" y=\"17.5\" width=\"12\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 19.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mediation-papers",
+  "category": "legal",
+  "tags": ["mediation", "papers", "negotiation", "settlement", "parties", "talks", "document"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"8.5\" height=\"12\" rx=\"1.5\"/><rect class=\"d p2\" x=\"13.5\" y=\"3\" width=\"8.5\" height=\"12\" rx=\"1.5\"/><g class=\"p3\"><path d=\"M4.5 7h4M4.5 10h4\"/><path d=\"M15.5 7h4M15.5 10h4\"/></g><path class=\"p4\" d=\"M4 19h16M6 17l-2 2 2 2M18 17l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

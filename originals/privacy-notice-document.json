@@ -1,0 +1,13 @@
+{
+  "name": "privacy-notice-document",
+  "category": "legal",
+  "tags": ["privacy", "notice", "document", "eye", "surveillance", "data"],
+  "svg": "<path class=\"p1\" d=\"M14 2H6a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h5\"/><path class=\"p2\" d=\"M14 2v6h6v4\"/><path class=\"p3\" d=\"M8 12h3M8 16h3\"/><path class=\"d p4\" d=\"M14.5 18c1-1.7 2.2-2.5 3.5-2.5s2.5.8 3.5 2.5c-1 1.7-2.2 2.5-3.5 2.5S15.5 19.7 14.5 18z\"/><circle class=\"f p5\" cx=\"18\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p5", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

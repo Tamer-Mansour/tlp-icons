@@ -1,0 +1,11 @@
+{
+  "name": "informant-hood",
+  "category": "legal",
+  "tags": ["informant", "hood", "hooded", "tipster", "anonymous", "question"],
+  "svg": "<path class=\"d p1\" d=\"M5 21V11a7 7 0 0 1 14 0v10z\"/><path class=\"p2\" d=\"M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7v.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"17.5\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

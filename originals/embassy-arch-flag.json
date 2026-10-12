@@ -1,0 +1,12 @@
+{
+  "name": "embassy-arch-flag",
+  "category": "legal",
+  "tags": ["embassy", "consulate", "arch", "building", "flag", "diplomacy"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V11l8-5 8 5v10z\"/><path class=\"p2\" d=\"M9 21v-5a3 3 0 0 1 6 0v5\"/><path class=\"p3\" d=\"M12 6V2\"/><path class=\"p4\" d=\"M12 2h5l-1 1.5 1 1.5h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

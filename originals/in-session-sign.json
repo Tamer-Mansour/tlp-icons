@@ -1,0 +1,12 @@
+{
+  "name": "in-session-sign",
+  "category": "legal",
+  "tags": ["session", "sign", "hearing", "court", "gavel", "notice"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M8 14v7M16 14v7\"/><path class=\"d p3\" d=\"M7.5 4.5 10.5 2l4.5 4.5-3 3z\"/><path class=\"p4\" d=\"M11.5 7.5 8 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "strike", "dur": 1000, "delay": 800, "origin": "8px 11px" }
+  ]
+}

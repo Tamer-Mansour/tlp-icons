@@ -1,0 +1,11 @@
+{
+  "name": "citation-ticket",
+  "category": "legal",
+  "tags": ["citation", "ticket", "traffic", "fine", "violation", "summons"],
+  "svg": "<path class=\"d p1\" d=\"M2 7h14v3a2 2 0 0 0 0 4v3H2v-3a2 2 0 0 0 0-4z\"/><path class=\"p2\" d=\"M12 8.5v1M12 11v2M12 14.5v1\"/><circle class=\"d p3\" cx=\"19.5\" cy=\"15.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

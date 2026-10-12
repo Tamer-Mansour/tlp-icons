@@ -1,0 +1,12 @@
+{
+  "name": "crime-stats-bars",
+  "category": "legal",
+  "tags": ["crime", "statistics", "chart", "bars", "alarm", "data"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"12\" width=\"3.5\" height=\"8\"/><rect class=\"d p2\" x=\"10\" y=\"6\" width=\"3.5\" height=\"14\"/><rect class=\"d p3\" x=\"16.5\" y=\"10\" width=\"3.5\" height=\"10\"/><circle class=\"d p4\" cx=\"18.5\" cy=\"5.2\" r=\"3\"/><path class=\"p4\" d=\"M18.5 3.6v2.4\"/><circle class=\"f p4\" cx=\"18.5\" cy=\"7.2\" r=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 150, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 300, "origin": "bottom" },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

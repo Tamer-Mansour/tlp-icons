@@ -1,0 +1,33 @@
+{
+    "name":  "family-mediation-table",
+    "category":  "legal",
+    "tags":  [
+                 "family",
+                 "mediation",
+                 "table",
+                 "talks",
+                 "dove",
+                 "peace"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M2 3h9v7H6l-2.500 2.500V10H2z\"/\u003e\u003cpath class=\"d p2\" d=\"M13 8h9v7h-1.500v2.500L18 15h-5z\"/\u003e\u003cpath class=\"p3\" d=\"M4 21h16\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  700
+                   }
+               ]
+}

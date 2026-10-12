@@ -1,0 +1,11 @@
+{
+  "name": "corporate-seal",
+  "category": "legal",
+  "tags": ["seal", "stamp", "corporate", "company", "embossed", "official", "star"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6\"/><polygon class=\"p3\" points=\"12 9.4 12.71 11.03 14.47 11.2 13.14 12.37 13.53 14.1 12 13.2 10.47 14.1 10.86 12.37 9.53 11.2 11.29 11.03\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500, "origin": "center" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hearing-notice-slip",
+  "category": "legal",
+  "tags": ["hearing", "notice", "summons", "court date", "clock", "slip"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h9l4 4v6H5z\"/><g class=\"p2\"><path d=\"M8 7.5h4\"/><path d=\"M8 10.5h7\"/></g><circle class=\"d p3\" cx=\"16\" cy=\"17\" r=\"4.5\"/><path class=\"p4\" d=\"M16 14.8V17h1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

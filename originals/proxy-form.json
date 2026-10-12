@@ -1,0 +1,12 @@
+{
+  "name": "proxy-form",
+  "category": "legal",
+  "tags": ["proxy", "form", "vote", "delegate", "signature", "authorize"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 7h4M5.5 13.5c1-2 2-2 2.5 0s1.5 1 2 0\"/><path class=\"p3\" d=\"M15 16h5.5M18.5 13.5l2.5 2.5-2.5 2.5\"/><g class=\"p4\"><circle cx=\"18\" cy=\"5.5\" r=\"2\"/><path d=\"M15 11c.5-2 1.5-2.5 3-2.5s2.5.5 3 2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

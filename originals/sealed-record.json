@@ -1,0 +1,11 @@
+{
+  "name": "sealed-record",
+  "category": "legal",
+  "tags": ["sealed", "record", "seal", "lock", "confidential", "document"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 8h6M6 11.5h4\"/><circle class=\"p3\" cx=\"16.5\" cy=\"16.5\" r=\"4\"/><path class=\"p3\" d=\"M15 16v-1a1.5 1.5 0 0 1 3 0v1\"/><rect class=\"p3\" x=\"15\" y=\"16\" width=\"3\" height=\"2.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

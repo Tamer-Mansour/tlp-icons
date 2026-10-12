@@ -1,0 +1,11 @@
+{
+  "name": "police-flashlight",
+  "category": "legal",
+  "tags": ["flashlight", "torch", "police", "search", "beam", "light", "investigation"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9.5\" width=\"10\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"12.5\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M18 7l3-2.5M18.5 12h3.5M18 17l3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "consent-withdrawal",
+  "category": "legal",
+  "tags": ["consent", "withdrawal", "revoke", "opt out", "checkbox", "privacy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"10\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M6 12l2.2 2.2L12 9.5\"/><path class=\"p3\" d=\"M14.5 12c3 0 5 1.5 5 4.5M17.5 13.5l2 3 2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

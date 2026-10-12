@@ -1,0 +1,18 @@
+{
+  "name": "petition-signature-sheet",
+  "category": "legal",
+  "tags": [
+    "petition",
+    "signature",
+    "sheet",
+    "signatures",
+    "pen",
+    "sign"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M6 8h8\"/><path d=\"M6 12h8\"/><path d=\"M6 16h5\"/></g><path class=\"d p3\" d=\"M13 21l1-3 5.8-5.8 2.2 2.2L16 20.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

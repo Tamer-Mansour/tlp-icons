@@ -1,0 +1,11 @@
+{
+  "name": "amber-alert-sign",
+  "category": "legal",
+  "tags": ["amber", "alert", "warning", "roadside", "sign", "bell"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 21 12.5H3z\"/><path class=\"p2\" d=\"M12 12.5V21\"/><path class=\"d p3\" d=\"M15.5 20.5h5l-1-1.5v-2.2a1.5 1.5 0 0 0-3 0V19z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 700, "origin": "18px 16px" }
+  ]
+}

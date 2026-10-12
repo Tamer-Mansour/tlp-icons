@@ -1,0 +1,11 @@
+{
+  "name": "weapon-locker",
+  "category": "legal",
+  "tags": ["weapon", "locker", "firearm", "armoury", "evidence", "secure storage"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"11\" y=\"4.5\" width=\"2\" height=\"5\" rx=\"1\"/><g class=\"p3\"><path d=\"M10 15.5V14a2 2 0 0 1 4 0v1.5\"/><rect class=\"d\" x=\"9\" y=\"15.5\" width=\"6\" height=\"4.5\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 300, "origin": "top" },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

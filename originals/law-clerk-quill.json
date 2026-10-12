@@ -1,0 +1,12 @@
+{
+  "name": "law-clerk-quill",
+  "category": "legal",
+  "tags": ["quill", "clerk", "scroll", "feather", "writing", "seal", "document"],
+  "svg": "<path class=\"d p1\" d=\"M19.5 3C13 3 8.5 7 7.5 14.5L8.5 15.5C16 14.5 20.5 10 19.5 3Z\"/><path class=\"p2\" d=\"M18 5.5 9.5 13.5\"/><rect class=\"d p3\" x=\"2.5\" y=\"16.5\" width=\"12\" height=\"5\" rx=\"1.5\"/><circle class=\"d p4\" cx=\"18\" cy=\"18.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 300, "origin": "left" },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

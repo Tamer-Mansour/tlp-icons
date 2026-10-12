@@ -1,0 +1,12 @@
+{
+  "name": "contract-renewal",
+  "category": "legal",
+  "tags": ["contract", "renewal", "renew", "extension", "agreement", "document"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h9l5 5v13H5z\"/><path class=\"p2\" d=\"M14 3v5h5\"/><path class=\"p2\" d=\"M9 12h4M9 15h3\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4.5\"/><path class=\"p4\" d=\"M19.5 15a3 3 0 1 0 .5 3M19.5 12.8V15h-2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "spin", "dur": 900, "delay": 1100, "origin": "17px 17px" }
+  ]
+}

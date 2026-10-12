@@ -1,0 +1,10 @@
+{
+  "name": "boundary-survey",
+  "category": "legal",
+  "tags": ["boundary", "survey", "land", "property", "stake", "border", "plot"],
+  "svg": "<circle class=\"d p1\" cx=\"4\" cy=\"5\" r=\"1.6\"/><circle class=\"d p1\" cx=\"20\" cy=\"5\" r=\"1.6\"/><circle class=\"d p1\" cx=\"4\" cy=\"19\" r=\"1.6\"/><circle class=\"d p1\" cx=\"20\" cy=\"19\" r=\"1.6\"/><path class=\"p2\" d=\"M7 5h2M11 5h2M15 5h2M7 19h2M11 19h2M15 19h2M4 8v2M4 12v2M4 16v2M20 8v2M20 12v2M20 16v2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

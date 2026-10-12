@@ -1,0 +1,12 @@
+{
+  "name": "sentence-hourglass",
+  "category": "legal",
+  "tags": ["sentence", "hourglass", "time", "prison", "term", "gavel"],
+  "svg": "<path class=\"d p1\" d=\"M8 2h8l-4 6 4 6H8l4-6z\"/><path class=\"p2\" d=\"M7 2h10M7 14h10\"/><path class=\"p4\" d=\"M12 9.5v2.5\"/><rect class=\"d p3\" x=\"6\" y=\"17\" width=\"12\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "drip", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

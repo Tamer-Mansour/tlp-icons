@@ -1,0 +1,12 @@
+{
+  "name": "client-intake-form",
+  "category": "legal",
+  "tags": ["client", "intake", "form", "clipboard", "new", "onboarding"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"2\" width=\"7\" height=\"4\" rx=\"1\"/><g class=\"p3\"><circle cx=\"10.5\" cy=\"10.5\" r=\"2\"/><path d=\"M7 17a3.5 3.5 0 0 1 7 0\"/></g><path class=\"p4\" d=\"M17 15.5v2M16 16.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

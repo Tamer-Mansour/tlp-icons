@@ -1,0 +1,18 @@
+{
+  "name": "mugshot-frame",
+  "category": "legal",
+  "tags": [
+    "mugshot",
+    "photo",
+    "booking",
+    "height",
+    "arrest",
+    "police"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"12\" height=\"18\" rx=\"1.5\"/><g class=\"p2\"><circle cx=\"10\" cy=\"9\" r=\"2.5\"/><path d=\"M6.5 18c.5-2.5 2-3.5 3.5-3.5s3 1 3.5 3.5\"/></g><g class=\"p3\"><path d=\"M19 4v16\"/><path d=\"M19 6h2\"/><path d=\"M19 10h2\"/><path d=\"M19 14h2\"/><path d=\"M19 18h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 700, "delay": 900, "origin": "top" }
+  ]
+}

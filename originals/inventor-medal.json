@@ -1,0 +1,12 @@
+{
+  "name": "inventor-medal",
+  "category": "legal",
+  "tags": ["inventor", "medal", "patent", "award", "lightbulb", "invention"],
+  "svg": "<path class=\"p4\" d=\"M10 14.4 8 21.5l4-2 4 2-2-7.1\"/><circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M9.8 7.5a2.2 2.2 0 1 1 4.4 0c0 .9-.6 1.4-1.1 1.9v.9h-2.2v-.9c-.5-.5-1.1-1-1.1-1.9z\"/><path class=\"p3\" d=\"M10.6 12.2h2.8\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

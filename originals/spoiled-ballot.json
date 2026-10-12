@@ -1,0 +1,18 @@
+{
+  "name": "spoiled-ballot",
+  "category": "legal",
+  "tags": [
+    "ballot",
+    "spoiled",
+    "vote",
+    "election",
+    "invalid",
+    "strike"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><g class=\"p2\"><path d=\"M8 8h8\"/><path d=\"M8 12h8\"/><path d=\"M8 16h5\"/></g><path class=\"p3\" d=\"M3 20 21 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

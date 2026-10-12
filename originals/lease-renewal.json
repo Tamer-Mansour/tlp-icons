@@ -1,0 +1,13 @@
+{
+  "name": "lease-renewal",
+  "category": "legal",
+  "tags": ["lease", "renewal", "rent", "house", "contract", "tenancy"],
+  "svg": "<path class=\"d p1\" d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 2v6h6\"/><path class=\"p3\" d=\"M7.5 14.5V11l3-2.5 3 2.5v3.5z\"/><circle class=\"d p4\" cx=\"18\" cy=\"18\" r=\"3.5\"/><path class=\"p5\" d=\"M18 16.5v3M16.5 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 },
+    { "part": "p5", "anim": "draw", "dur": 300, "delay": 1300 }
+  ]
+}

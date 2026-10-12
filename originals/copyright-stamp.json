@@ -1,0 +1,19 @@
+{
+  "name": "copyright-stamp",
+  "category": "legal",
+  "tags": [
+    "copyright",
+    "stamp",
+    "rubber stamp",
+    "intellectual property",
+    "rights",
+    "creative"
+  ],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"p1\" d=\"M12 5v2.5\"/><rect class=\"d p2\" x=\"3\" y=\"7.5\" width=\"18\" height=\"14\" rx=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"14.5\" r=\"4.2\"/><path class=\"p4\" d=\"M13 13.2a1.6 1.6 0 1 0 0 2.6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p1", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

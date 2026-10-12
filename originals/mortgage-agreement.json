@@ -1,0 +1,12 @@
+{
+  "name": "mortgage-agreement",
+  "category": "legal",
+  "tags": ["mortgage", "agreement", "house", "loan", "property", "contract"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 10.5 7 6l4.5 4.5V20h-9z\"/><path class=\"p1\" d=\"M5.5 20v-4h3v4\"/><rect class=\"d p2\" x=\"13\" y=\"2.5\" width=\"7\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M15.5 6h2M15.5 9h2\"/><path class=\"d p4\" d=\"M13.5 22 14.5 18.5 19.5 13.5 21.5 15.5 16.5 20.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

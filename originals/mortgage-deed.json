@@ -1,0 +1,11 @@
+{
+  "name": "mortgage-deed",
+  "category": "legal",
+  "tags": ["mortgage", "deed", "house", "property", "home", "loan"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 11 9 4l6.5 7v3h-13z\"/><rect class=\"d p2\" x=\"11\" y=\"11\" width=\"9\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M13.5 15h4M13.5 18h4\"/><circle class=\"p3\" cx=\"5\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M6.8 18H10M9 18v1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

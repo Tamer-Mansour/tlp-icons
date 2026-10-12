@@ -1,0 +1,18 @@
+{
+  "name": "police-notebook",
+  "category": "legal",
+  "tags": [
+    "police",
+    "notebook",
+    "notes",
+    "evidence",
+    "officer",
+    "pen"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"13\" height=\"18\" rx=\"2\"/><g class=\"p2\"><path d=\"M3 7h2\"/><path d=\"M3 11h2\"/><path d=\"M3 15h2\"/><path d=\"M9 7.5h5\"/><path d=\"M9 10.5h4\"/></g><path class=\"d p3\" d=\"M14 19.5 15 15.5l4.5-4.5 2 2-4.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "14px 19.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "notary-stamp-pad",
+  "category": "legal",
+  "tags": ["notary", "stamp", "seal", "ink", "pad", "certify"],
+  "svg": "<g class=\"p1\"><rect class=\"d\" x=\"6\" y=\"3\" width=\"4\" height=\"5\" rx=\"1.5\"/><path d=\"M8 8v3\"/></g><rect class=\"d p2\" x=\"3\" y=\"11\" width=\"10\" height=\"3\" rx=\".5\"/><rect class=\"d p3\" x=\"15\" y=\"14\" width=\"7\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

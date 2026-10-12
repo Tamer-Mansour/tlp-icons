@@ -1,0 +1,12 @@
+{
+  "name": "discovery-box",
+  "category": "legal",
+  "tags": ["discovery", "archive", "box", "documents", "records", "evidence"],
+  "svg": "<rect class=\"d p2\" x=\"7\" y=\"3\" width=\"10\" height=\"5\" rx=\"1\"/><path class=\"d p1\" d=\"M4 12v8.5a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5V12\"/><rect class=\"d p3\" x=\"2\" y=\"8\" width=\"20\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M10 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

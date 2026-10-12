@@ -1,0 +1,33 @@
+{
+    "name":  "latent-print-brush",
+    "category":  "legal",
+    "tags":  [
+                 "fingerprint",
+                 "latent",
+                 "print",
+                 "forensics",
+                 "evidence",
+                 "brush"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M5 17v-5a7 7 0 0 1 14 0v2\"/\u003e\u003cpath class=\"p2\" d=\"M9 20v-8a3 3 0 0 1 6 0v3\"/\u003e\u003cpath class=\"p3\" d=\"M12 15v5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  250
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  600
+                   }
+               ]
+}

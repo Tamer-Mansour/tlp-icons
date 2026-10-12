@@ -1,0 +1,11 @@
+{
+  "name": "property-tax-notice",
+  "category": "legal",
+  "tags": ["property", "tax", "notice", "rate", "assessment", "house"],
+  "svg": "<path class=\"p1\" d=\"M2.5 11 8 5.5l5.5 5.5V20h-11z\"/><rect class=\"d p2\" x=\"13.5\" y=\"10\" width=\"8\" height=\"11\" rx=\"1\"/><g class=\"p3\"><circle cx=\"15.5\" cy=\"13.5\" r=\"1\"/><circle cx=\"18.5\" cy=\"17.5\" r=\"1\"/><path d=\"M19 12 14.5 19\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

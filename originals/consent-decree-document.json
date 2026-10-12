@@ -1,0 +1,18 @@
+{
+  "name": "consent-decree-document",
+  "category": "legal",
+  "tags": [
+    "consent",
+    "decree",
+    "settlement",
+    "signature",
+    "seal",
+    "agreement"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 3h9l5 5v13H5z\"/><g class=\"p2\"><path d=\"M7 11.5h6\"/><path d=\"M7 15.5h4\"/></g><g class=\"p3\"><circle class=\"d\" cx=\"15.5\" cy=\"16\" r=\"2.5\"/><circle cx=\"15.5\" cy=\"16\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

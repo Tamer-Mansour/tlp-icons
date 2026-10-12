@@ -1,0 +1,20 @@
+{
+  "name": "summary-judgment",
+  "category": "legal",
+  "tags": [
+    "summary judgment",
+    "gavel",
+    "fast",
+    "ruling",
+    "motion",
+    "court"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2.5\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M12 6.5v4\"/><rect class=\"d p2\" x=\"3\" y=\"13\" width=\"11\" height=\"8\" rx=\"1.5\"/><path class=\"p5\" d=\"M6 17h5\"/><path class=\"p3\" d=\"M16 17h5M18.5 14.5 21 17l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "strike", "dur": 900, "delay": 700, "origin": "12px 6.5px" },
+    { "part": "p5", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dividend-payout",
+  "category": "legal",
+  "tags": ["dividend", "payout", "coins", "shares", "profit", "distribution", "money"],
+  "svg": "<path class=\"d p1\" d=\"M3 5v12c0 1.1 2.2 2 5 2s5-.9 5-2V5c0-1.1-2.2-2-5-2S3 3.9 3 5z\"/><path class=\"p2\" d=\"M3 10c0 1.1 2.2 2 5 2s5-.9 5-2M3 14.5c0 1.1 2.2 2 5 2s5-.9 5-2\"/><g class=\"p3\"><path d=\"M15 12h6\"/><path d=\"M18 9l3 3-3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

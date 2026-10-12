@@ -1,0 +1,12 @@
+{
+  "name": "prison-door",
+  "category": "legal",
+  "tags": ["prison", "door", "jail", "cell", "detention", "latch"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"1\"/><g class=\"p2\"><rect x=\"9.5\" y=\"5.5\" width=\"5\" height=\"4\" rx=\".5\"/><path d=\"M12 5.5v4\"/></g><rect class=\"p3\" x=\"15\" y=\"12\" width=\"2\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M2.5 7h2.5M2.5 17h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 350 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

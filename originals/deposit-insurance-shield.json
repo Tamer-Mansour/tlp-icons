@@ -1,0 +1,12 @@
+{
+  "name": "deposit-insurance-shield",
+  "category": "legal",
+  "tags": ["deposit", "insurance", "bank", "shield", "protection", "savings"],
+  "svg": "<path class=\"d p1\" d=\"M12 1.5l5.5 2v3.2c0 2.8-1.8 4.3-5.5 5.2-3.7-.9-5.5-2.4-5.5-5.2V3.5z\"/><path class=\"d p2\" d=\"M3 15.5 12 13l9 2.5z\"/><path class=\"p3\" d=\"M6.5 17.5v2.5M10 17.5v2.5M14 17.5v2.5M17.5 17.5v2.5\"/><path class=\"p4\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

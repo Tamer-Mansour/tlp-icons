@@ -1,0 +1,11 @@
+{
+  "name": "police-cruiser",
+  "category": "legal",
+  "tags": ["police", "cruiser", "patrol", "car", "law enforcement", "officer"],
+  "svg": "<path class=\"d p1\" d=\"M3 17v-3.5L5.5 11 8 8h8l2.5 3L21 12.5V17z\"/><rect class=\"p2\" x=\"9\" y=\"4\" width=\"6\" height=\"3\" rx=\"1\"/><circle class=\"d p3\" cx=\"7\" cy=\"17\" r=\"2\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500, "origin": "center" }
+  ]
+}

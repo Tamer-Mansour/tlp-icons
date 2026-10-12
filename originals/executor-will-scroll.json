@@ -1,0 +1,12 @@
+{
+  "name": "executor-will-scroll",
+  "category": "legal",
+  "tags": ["will", "scroll", "executor", "testament", "estate", "seal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"4\" rx=\"2\"/><rect class=\"d p1\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M6 7v10M18 7v10\"/><path class=\"p3\" d=\"M8.5 10.5h7M8.5 13.5h4\"/><circle class=\"d p4\" cx=\"15.5\" cy=\"13.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fee-split",
+  "category": "legal",
+  "tags": ["fee", "split", "dollar", "payment", "share", "cost"],
+  "svg": "<path class=\"p2\" d=\"M15 3.5h-4.5a1.75 1.75 0 0 0 0 3.5h3a1.75 1.75 0 0 1 0 3.5H9\"/><path class=\"p2\" d=\"M12 1.5V12\"/><rect class=\"d p3\" x=\"2\" y=\"14\" width=\"9\" height=\"6\" rx=\"1.5\"/><rect class=\"d p4\" x=\"13\" y=\"14\" width=\"9\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 500, "origin": "left" },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 500, "origin": "right" }
+  ]
+}

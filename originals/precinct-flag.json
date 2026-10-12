@@ -1,0 +1,11 @@
+{
+  "name": "precinct-flag",
+  "category": "legal",
+  "tags": ["precinct", "flag", "police", "district", "star", "pole"],
+  "svg": "<path class=\"d p1\" d=\"M5 4h13l-2.5 4 2.5 4H5z\"/><path class=\"p2\" d=\"M5 3v18\"/><polygon class=\"p3\" points=\"11,6.1 11.53,7.57 13.09,7.62 11.86,8.58 12.29,10.08 11,9.2 9.71,10.08 10.14,8.58 8.91,7.62 10.47,7.57\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

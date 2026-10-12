@@ -1,0 +1,11 @@
+{
+  "name": "courthouse-door",
+  "category": "legal",
+  "tags": ["courthouse", "door", "court", "entrance", "gavel", "justice"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18\"/><path class=\"p1\" d=\"M4 21V7M20 21V7M3 21h18\"/><rect class=\"d p2\" x=\"6\" y=\"9\" width=\"5\" height=\"12\" rx=\".5\"/><rect class=\"d p2\" x=\"13\" y=\"9\" width=\"5\" height=\"12\" rx=\".5\"/><circle class=\"f p2\" cx=\"10\" cy=\"15\" r=\".7\"/><circle class=\"f p2\" cx=\"14\" cy=\"15\" r=\".7\"/><g class=\"p3\"><rect x=\"14\" y=\"2\" width=\"5.5\" height=\"2.6\" rx=\".6\" transform=\"rotate(-40 16.75 3.3)\"/><path d=\"M15.5 4.8 12 8.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "strike", "dur": 1000, "delay": 900, "origin": "12px 8.5px" }
+  ]
+}

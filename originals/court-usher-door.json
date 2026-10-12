@@ -1,0 +1,11 @@
+{
+  "name": "court-usher-door",
+  "category": "legal",
+  "tags": ["usher", "court", "door", "baton", "bailiff", "courtroom", "entrance"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"9\" height=\"18\" rx=\"1\"/><polygon class=\"p2\" points=\"12,4.5 17,6 17,20 12,21\"/><g class=\"p3\"><circle cx=\"20.5\" cy=\"6\" r=\"1.5\"/><path d=\"M20.5 7.5V21\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 900, "delay": 300, "origin": "left" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

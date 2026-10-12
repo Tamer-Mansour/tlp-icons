@@ -1,0 +1,12 @@
+{
+  "name": "tax-bracket-steps",
+  "category": "legal",
+  "tags": ["tax", "bracket", "steps", "percent", "income", "rate"],
+  "svg": "<path class=\"p1\" d=\"M3 21V15H9V10H15V5H21V21Z\"/><g class=\"p2\"><circle class=\"f\" cx=\"4.8\" cy=\"16.2\" r=\".9\"/><circle class=\"f\" cx=\"7.2\" cy=\"19.8\" r=\".9\"/><path d=\"M7.8 16.2 4.2 19.8\"/></g><g class=\"p3\"><circle class=\"f\" cx=\"10.8\" cy=\"13.2\" r=\".9\"/><circle class=\"f\" cx=\"13.2\" cy=\"16.8\" r=\".9\"/><path d=\"M13.8 13.2 10.2 16.8\"/></g><g class=\"p4\"><circle class=\"f\" cx=\"16.8\" cy=\"10.2\" r=\".9\"/><circle class=\"f\" cx=\"19.2\" cy=\"13.8\" r=\".9\"/><path d=\"M19.8 10.2 16.2 13.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

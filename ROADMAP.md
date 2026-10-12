@@ -2,7 +2,7 @@
 
 > Generated from `config/roadmap.json` by `node scripts/roadmap.mjs`. Live version: https://tlp-icons.netlify.app/roadmap/
 
-**Goal: 26,180 animated icons by 2028.** Today: 6,620 (25%).
+**Goal: 26,180 animated icons by 2028.** Today: 7,677 (29%).
 
 ## Principles
 
@@ -40,7 +40,7 @@
 | Category | Priority | Now | Goal | Progress |
 | --- | --- | ---: | ---: | --- |
 | Health & Medical | High | 142 | 1,200 | `█░░░░░░░░░` 12% |
-| Legal & Government | High | 120 | 1,180 | `█░░░░░░░░░` 10% |
+| Legal & Government | High | 1,177 | 1,180 | `██████████` 100% |
 | Finance & Money | High | 220 | 1,100 | `██░░░░░░░░` 20% |
 | Shopping & Commerce | Medium | 126 | 1,000 | `█░░░░░░░░░` 13% |
 | Maps & Travel | Medium | 253 | 1,000 | `███░░░░░░░` 25% |
@@ -86,11 +86,11 @@ Seed lists for the next batches (✓ = already in the library).
 - **Lab & pharmacy:** ✓ `test-tube`, ✓ `petri-dish`, ✓ `blood-test`, ✓ `prescription`, ✓ `pill-bottle`, ✓ `capsule`, ✓ `inhaler`, `vaccine-vial`
 - **Body & organs:** ✓ `heart-organ`, ✓ `lungs`, ✓ `kidney`, ✓ `liver`, ✓ `stomach`, ✓ `brain`, ✓ `bone`, `eye-exam`
 
-### Legal & Government (120 → 1,180)
+### Legal & Government (1177 → 1,180)
 
 - **Courts & hearings:** ✓ `courthouse`, ✓ `court-hearing`, ✓ `judge-bench`, ✓ `judges-panel`, ✓ `gavel-strike`, ✓ `witness-stand`, ✓ `jury`, `court-calendar`, ✓ `hearing-clock`, ✓ `courtroom-door`, ✓ `court-reporter`, ✓ `verdict`, ✓ `sentence`, ✓ `appeal`, ✓ `retrial`, ✓ `supreme-court`
 - **Contracts & documents:** ✓ `contract`, ✓ `contract-signed`, ✓ `contract-pen`, ✓ `signature-pen`, ✓ `notary-stamp`, `seal-wax`, ✓ `power-of-attorney`, `will-testament`, ✓ `affidavit`, ✓ `deed`, ✓ `lease-agreement`, ✓ `nda`, ✓ `legal-document`, ✓ `clause`, ✓ `amendment`, ✓ `terms-conditions`
-- **Law enforcement:** ✓ `police-officer`, ✓ `police-badge`, ✓ `police-station`, ✓ `police-car`, ✓ `handcuffs`, `arrest`, `prison-bars`, `prison-cell`, ✓ `parole`, ✓ `probation`, ✓ `evidence-bag`, `fingerprint-card`, ✓ `crime-scene`, ✓ `patrol`, ✓ `bail`
+- **Law enforcement:** ✓ `police-officer`, ✓ `police-badge`, ✓ `police-station`, ✓ `police-car`, ✓ `handcuffs`, `arrest`, `prison-bars`, `prison-cell`, ✓ `parole`, ✓ `probation`, ✓ `evidence-bag`, ✓ `fingerprint-card`, ✓ `crime-scene`, ✓ `patrol`, ✓ `bail`
 - **Cases & procedure:** ✓ `case-folder`, ✓ `case-file-search`, ✓ `case-number`, ✓ `case-status`, ✓ `lawsuit`, ✓ `subpoena`, ✓ `summons`, ✓ `complaint`, ✓ `claim`, ✓ `deadline`, ✓ `filing`, ✓ `docket`, ✓ `motion`, ✓ `objection`, ✓ `settlement`
 - **People & roles:** ✓ `judge`, ✓ `attorney`, ✓ `lawyer`, ✓ `prosecutor`, ✓ `defendant`, ✓ `plaintiff`, ✓ `witness`, ✓ `witness-oath`, ✓ `notary`, ✓ `mediator`, ✓ `arbitrator`, `clerk`, ✓ `bailiff`, ✓ `legal-guardian`
 - **Rights & IP:** ✓ `copyright-law`, ✓ `patent`, ✓ `trademark-law`, ✓ `privacy-law`, ✓ `gdpr`, ✓ `human-rights`, ✓ `consumer-rights`, ✓ `license-agreement`

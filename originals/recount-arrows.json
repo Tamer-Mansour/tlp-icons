@@ -1,0 +1,12 @@
+{
+  "name": "recount-arrows",
+  "category": "legal",
+  "tags": ["recount", "ballot", "votes", "count", "election", "arrows"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"6.5\" width=\"10\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M10 10h4M10 13.5h4\"/><path class=\"p3\" d=\"M7.5 4.2A9 9 0 0 1 19.8 7.5M17.3 7.2l2.5.3-.3 2.5\"/><path class=\"p4\" d=\"M19.8 16.5A9 9 0 0 1 4.2 16.5M6.7 16.8l-2.5-.3.3-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 350 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "rent-receipt",
+  "category": "legal",
+  "tags": ["rent", "receipt", "house", "tenancy", "landlord", "payment"],
+  "svg": "<path class=\"d p1\" d=\"M2 9.5 8 3l6 6.5V12H2z\"/><path class=\"p2\" d=\"M6 12V9.5a2 2 0 0 1 4 0V12\"/><path class=\"d p3\" d=\"M13 14h8v6l-1.5 1-1.5-1-1.5 1-1.5-1-1.5 1-1.5-1-.5-1z\"/><path class=\"p4\" d=\"M15.5 17h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

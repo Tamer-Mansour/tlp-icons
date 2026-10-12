@@ -1,0 +1,11 @@
+{
+  "name": "themis-statue-sword",
+  "category": "legal",
+  "tags": ["themis", "justice", "statue", "sword", "blindfold", "goddess", "court"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"5\" r=\"3\"/><path class=\"d p2\" d=\"M4 21 5.5 11h7L14 21z\"/><path class=\"p3\" d=\"M19 2v13M16.5 15h5M19 15v5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "embossed-seal",
+  "category": "legal",
+  "tags": ["seal", "embossed", "stamp", "official", "notary", "ring"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6.5\"/><path class=\"p3\" d=\"M12 8.5l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

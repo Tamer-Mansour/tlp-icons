@@ -1,0 +1,12 @@
+{
+  "name": "arbitration-gavel-table",
+  "category": "legal",
+  "tags": ["arbitration", "gavel", "table", "mediation", "hearing", "dispute", "paper"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"9\" ry=\"3\"/><path class=\"p1\" d=\"M12 18v3.5M9 21.5h6\"/><path class=\"d p3\" d=\"M4 11.5h5l2 2v4H4z\"/><path class=\"p4\" d=\"M10.5 8.5L18 16\"/><path class=\"d p2\" d=\"M4.5 5.5l3-3 4.5 4.5-3 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "patrol-car",
+  "category": "legal",
+  "tags": ["patrol", "police", "cruiser", "sedan", "siren", "badge"],
+  "svg": "<path class=\"d p1\" d=\"M3 15v-2.4l2.2-.6L8 7h8l3 5.4 1.8.6V15z\"/><rect class=\"p2\" x=\"9.5\" y=\"4\" width=\"5\" height=\"2.5\" rx=\".5\"/><circle class=\"p4\" cx=\"7\" cy=\"16.5\" r=\"2\"/><circle class=\"p4\" cx=\"17\" cy=\"16.5\" r=\"2\"/><polygon class=\"f p3\" points=\"12,12 12.47,13.35 13.9,13.38 12.76,14.25 13.18,15.62 12,14.8 10.82,15.62 11.24,14.25 10.1,13.38 11.53,13.35\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

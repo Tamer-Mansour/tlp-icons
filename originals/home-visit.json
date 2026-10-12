@@ -1,0 +1,12 @@
+{
+  "name": "home-visit",
+  "category": "legal",
+  "tags": ["home", "visit", "house", "field", "inspection", "clipboard"],
+  "svg": "<path class=\"d p1\" d=\"M2 11L7 6.5l5 4.5V21H2z\"/><path class=\"p2\" d=\"M5.5 21v-5h3v5\"/><rect class=\"d p3\" x=\"13\" y=\"11\" width=\"9\" height=\"10\" rx=\"1.5\"/><path class=\"p4\" d=\"M16 15h3M16 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

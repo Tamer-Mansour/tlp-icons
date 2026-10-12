@@ -1,0 +1,11 @@
+{
+  "name": "juror-seat-number",
+  "category": "legal",
+  "tags": ["juror", "seat", "jury", "number", "panel", "card"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/><g class=\"p2\"><path d=\"M12 13v5\"/><path d=\"M8 21h8\"/></g><path class=\"p3\" d=\"M10.5 7.5 12 6v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

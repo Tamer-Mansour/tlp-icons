@@ -1,0 +1,11 @@
+{
+  "name": "filing-deadline",
+  "category": "legal",
+  "tags": ["deadline", "calendar", "filing", "due", "date", "court", "reminder"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M8 2v4M16 2v4\"/><g class=\"p3\"><circle class=\"d\" cx=\"18\" cy=\"17\" r=\"4\"/><path d=\"M18 14.8v2.6\"/><circle class=\"f\" cx=\"18\" cy=\"19.6\" r=\".5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

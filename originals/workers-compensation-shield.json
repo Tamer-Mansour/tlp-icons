@@ -1,0 +1,11 @@
+{
+  "name": "workers-compensation-shield",
+  "category": "legal",
+  "tags": ["workers compensation", "shield", "person", "worker", "injury", "insurance", "protection"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 4 5v6.5c0 4.5 3.4 7.5 8 9.5 4.6-2 8-5 8-9.5V5z\"/><circle class=\"p2\" cx=\"12\" cy=\"9.5\" r=\"2.5\"/><path class=\"p3\" d=\"M8 17c.5-2.2 2-3.2 4-3.2s3.5 1 4 3.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400, "origin": "center" },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "verdict-scroll",
+  "category": "legal",
+  "tags": [
+    "verdict",
+    "scroll",
+    "decision",
+    "ruling",
+    "ribbon",
+    "parchment"
+  ],
+  "svg": "<g class=\"p2\"><rect class=\"d\" x=\"4\" y=\"2.5\" width=\"16\" height=\"3.5\" rx=\"1.75\"/><rect class=\"d\" x=\"4\" y=\"17\" width=\"16\" height=\"3.5\" rx=\"1.75\"/></g><rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"11\"/><g class=\"p3\"><path d=\"M6 11.5h12\"/><path d=\"M10 11.5v3l-1 1.5\"/><path d=\"M14 11.5v3l1 1.5\"/></g>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

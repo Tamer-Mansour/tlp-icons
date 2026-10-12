@@ -1,0 +1,20 @@
+{
+  "name": "sheriff-hat",
+  "category": "legal",
+  "tags": [
+    "sheriff",
+    "hat",
+    "western",
+    "lawman",
+    "deputy",
+    "star",
+    "badge"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6.5 12V3.5h11V12z\"/><path class=\"p2\" d=\"M2 14c0-1.2 4.5-2 10-2s10 .8 10 2-4.5 2-10 2-10-.8-10-2z\"/><path class=\"p3\" d=\"M6.5 10.2h11\"/><polygon class=\"p4\" points=\"12,4.8 12.59,6.39 14.28,6.46 12.95,7.51 13.41,9.14 12,8.2 10.59,9.14 11.05,7.51 9.72,6.46 11.41,6.39\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

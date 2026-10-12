@@ -1,0 +1,12 @@
+{
+  "name": "crime-scene-camera",
+  "category": "legal",
+  "tags": ["camera", "crime scene", "photo", "evidence", "flash", "forensic"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"12\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"3.5\"/><rect class=\"d p3\" x=\"5\" y=\"5\" width=\"3\" height=\"3\" rx=\".5\"/><rect class=\"d p4\" x=\"13\" y=\"5\" width=\"5\" height=\"3\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "flicker", "dur": 800, "delay": 800 }
+  ]
+}

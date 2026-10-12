@@ -1,0 +1,12 @@
+{
+  "name": "affidavit-signing-pen",
+  "category": "legal",
+  "tags": ["affidavit", "pen", "sign", "notary", "stamp", "sworn"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 3.5h10l4 4v7h-14z\"/><path class=\"p2\" d=\"M7 8h7M7 11h4\"/><path class=\"p3\" d=\"M14 17.5 19 12.5l2.5 2.5-5 5-3 .5z\"/><circle class=\"p4\" cx=\"7\" cy=\"18.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1000, "origin": "13.5px 20.5px" }
+  ]
+}

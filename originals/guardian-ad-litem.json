@@ -1,0 +1,12 @@
+{
+  "name": "guardian-ad-litem",
+  "category": "legal",
+  "tags": ["guardian", "ad litem", "child", "custody", "family court", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2 21v-4a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4\"/><circle class=\"d p3\" cx=\"17\" cy=\"12.5\" r=\"2\"/><path class=\"p3\" d=\"M14.5 21v-2.5a2.5 2.5 0 0 1 5 0V21\"/><path class=\"p4\" d=\"M10 17.5h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

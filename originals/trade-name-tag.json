@@ -1,0 +1,11 @@
+{
+  "name": "trade-name-tag",
+  "category": "legal",
+  "tags": ["trade", "name", "brand", "business", "label", "company"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/><circle class=\"p2\" cx=\"6.5\" cy=\"6.5\" r=\"1.5\"/><path class=\"p3\" d=\"M9.5 17v-6.5L12 8.5l2.5 2V17z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

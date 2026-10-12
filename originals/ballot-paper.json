@@ -1,0 +1,11 @@
+{
+  "name": "ballot-paper",
+  "category": "legal",
+  "tags": ["ballot", "vote", "election", "paper", "checkbox", "voting"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><g class=\"p2\"><rect x=\"6\" y=\"9\" width=\"4\" height=\"4\" rx=\".5\"/><path d=\"m6.8 11 .9.9 1.6-1.8\"/></g><path class=\"p3\" d=\"M13.5 10h4\"/><path class=\"p3\" d=\"M13.5 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

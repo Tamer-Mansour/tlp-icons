@@ -1,0 +1,18 @@
+{
+  "name": "escrow-holder",
+  "category": "legal",
+  "tags": [
+    "escrow",
+    "holder",
+    "deposit",
+    "third party",
+    "funds",
+    "documents"
+  ],
+  "svg": "<rect class=\"d p2\" x=\"9\" y=\"5\" width=\"9\" height=\"9\" rx=\"1.5\"/><rect class=\"d p1\" x=\"6\" y=\"9\" width=\"9\" height=\"11\" rx=\"1.5\"/><path class=\"p3\" d=\"M4.5 4H3v16h1.5M19.5 4H21v16h-1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

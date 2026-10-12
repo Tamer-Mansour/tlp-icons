@@ -1,0 +1,11 @@
+{
+  "name": "prison-gate",
+  "category": "legal",
+  "tags": ["prison", "gate", "jail", "bars", "custody", "detention"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V10a8 8 0 0 1 16 0v11\"/><path class=\"p2\" d=\"M8 21V4.5M12 21V3M16 21V4.5\"/><path class=\"p3\" d=\"M4 14.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

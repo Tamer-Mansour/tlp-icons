@@ -1,0 +1,12 @@
+{
+  "name": "mediation-round-talk",
+  "category": "legal",
+  "tags": ["mediation", "talk", "negotiation", "round table", "dialogue", "settlement"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h5a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H7.5L5 12.5V10H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"d p2\" d=\"M20 3h-5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1.5L19 12.5V10h1a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z\"/><ellipse class=\"d p3\" cx=\"12\" cy=\"15.5\" rx=\"6.5\" ry=\"1.8\"/><path class=\"p4\" d=\"M12 17.3v3.2M9 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "deed-scroll",
+  "category": "legal",
+  "tags": [
+    "deed",
+    "scroll",
+    "property",
+    "title",
+    "parchment",
+    "record"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 6h12v12H6z\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect class=\"p2\" x=\"4\" y=\"17\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect class=\"d p3\" x=\"6\" y=\"11\" width=\"12\" height=\"2\"/><path class=\"p3\" d=\"M9.5 13l-1 3M14.5 13l1 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 700, "origin": "center" }
+  ]
+}

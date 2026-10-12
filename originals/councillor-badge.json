@@ -1,0 +1,18 @@
+{
+  "name": "councillor-badge",
+  "category": "legal",
+  "tags": [
+    "councillor",
+    "badge",
+    "star",
+    "council",
+    "municipal",
+    "rank"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><polygon class=\"p2\" points=\"12 6 12.76 7.95 14.85 8.07 13.24 9.4 13.76 11.43 12 10.3 10.24 11.43 10.76 9.4 9.15 8.07 11.24 7.95\"/><path class=\"p3\" d=\"M9 13.6 7.5 21l2.5-1.5L11 21M15 13.6 16.5 21 14 19.5 13 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

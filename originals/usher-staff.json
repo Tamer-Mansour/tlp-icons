@@ -1,0 +1,12 @@
+{
+  "name": "usher-staff",
+  "category": "legal",
+  "tags": ["usher", "staff", "mace", "court", "ceremony", "bailiff"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5V20\"/><rect class=\"d p3\" x=\"10.5\" y=\"11\" width=\"3\" height=\"2\" rx=\".5\"/><path class=\"p4\" d=\"M9.5 21h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 900, "delay": 400, "origin": "bottom" },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

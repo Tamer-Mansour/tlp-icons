@@ -1,0 +1,12 @@
+{
+  "name": "travel-document-tag",
+  "category": "legal",
+  "tags": ["travel", "document", "passport", "tag", "border", "luggage"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2\"/><g class=\"p2\"><circle cx=\"10\" cy=\"10\" r=\"2.5\"/><path d=\"M7.5 16.5h5\"/></g><path class=\"p3\" d=\"M16 6.5c1.5 0 2.5 1 2.5 2.5v1\"/><rect class=\"d p4\" x=\"17\" y=\"10\" width=\"4.5\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 900, "origin": "18.5px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "public-gallery-doors",
+  "category": "legal",
+  "tags": ["gallery", "public", "doors", "court", "entrance", "visitor"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"18\" height=\"19\" rx=\"1\"/><path class=\"p2\" d=\"M12 2.5v19\"/><g class=\"p3\"><circle cx=\"16.5\" cy=\"9\" r=\"1.5\"/><path d=\"M14 16.5v-2a2.5 2.5 0 0 1 5 0v2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "served-papers",
+  "category": "legal",
+  "tags": [
+    "served",
+    "papers",
+    "envelope",
+    "service",
+    "summons",
+    "notice"
+  ],
+  "svg": "<g class=\"p2\"><path d=\"M8 8V4a1 1 0 0 1 1-1h6l3 3v2\"/><path d=\"M11 5.5h4\"/></g><rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M2.5 9.5 12 15.5l9.5-6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

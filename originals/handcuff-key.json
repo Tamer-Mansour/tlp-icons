@@ -1,0 +1,11 @@
+{
+  "name": "handcuff-key",
+  "category": "legal",
+  "tags": ["handcuff", "key", "cuff", "release", "police", "lock", "custody"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"7.5\" height=\"10\" rx=\"3.75\"/><path class=\"p2\" d=\"M10 12H21M17 12v3M21 12v2\"/><circle class=\"f p3\" cx=\"6.25\" cy=\"12\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

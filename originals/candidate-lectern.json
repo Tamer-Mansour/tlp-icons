@@ -1,0 +1,12 @@
+{
+  "name": "candidate-lectern",
+  "category": "legal",
+  "tags": ["candidate", "lectern", "speech", "debate", "politics", "podium"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"6\" r=\"3\"/><path class=\"p2\" d=\"M3 21v-2a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v2\"/><path class=\"d p3\" d=\"M14 9.5h7l-1 4.5h-6z\"/><path class=\"p4\" d=\"M17.5 14v7M15 21h5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

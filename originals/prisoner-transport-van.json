@@ -1,0 +1,20 @@
+{
+  "name": "prisoner-transport-van",
+  "category": "legal",
+  "tags": [
+    "prisoner",
+    "transport",
+    "van",
+    "custody",
+    "jail",
+    "lock",
+    "vehicle"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 6h12v3h2.5l2.5 3v3H2z\"/><rect class=\"p2\" x=\"4\" y=\"7\" width=\"8\" height=\"2.5\" rx=\".5\"/><path class=\"p2\" d=\"M7 7v2.5M10 7v2.5\"/><g class=\"p4\"><rect x=\"4.5\" y=\"12\" width=\"3.5\" height=\"2.5\" rx=\".5\"/><path d=\"M6 12v-.75a1 1 0 0 1 2 0V12\"/></g><circle class=\"p3\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"16\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

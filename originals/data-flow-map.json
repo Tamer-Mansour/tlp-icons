@@ -1,0 +1,12 @@
+{
+  "name": "data-flow-map",
+  "category": "legal",
+  "tags": ["data", "flow", "map", "transfer", "nodes", "privacy", "arrows"],
+  "svg": "<g class=\"p1\"><circle class=\"d\" cx=\"5\" cy=\"5\" r=\"2.5\"/><circle class=\"d\" cx=\"19\" cy=\"5\" r=\"2.5\"/><circle class=\"d\" cx=\"12\" cy=\"19\" r=\"2.5\"/></g><path class=\"p2\" d=\"M7.5 5h8M12.5 3.5L15.5 5l-3 1.5\"/><path class=\"p3\" d=\"M17.44 8.13L14 15M16.1 13.6L14 15l-.15-2.5\"/><path class=\"p4\" d=\"M9.99 14.98L6.56 8.13M6.41 10.63L6.56 8.13l2.09.88\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 350, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 350, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 350, "delay": 900 }
+  ]
+}

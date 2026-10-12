@@ -1,0 +1,19 @@
+{
+  "name": "appeal-file-upward",
+  "category": "legal",
+  "tags": [
+    "appeal",
+    "file",
+    "upward",
+    "higher court",
+    "review",
+    "arrow"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 2v6h6\"/><path class=\"p3\" d=\"M8 18c0-4 2-6 6-7\"/><path class=\"p4\" d=\"M11.8 9.9 14 11l-1.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pro-bono-heart-scales",
+  "category": "legal",
+  "tags": ["pro bono", "heart", "scales", "charity", "free", "justice"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18M8 21h8\"/><path class=\"p2\" d=\"M3 7h18\"/><g class=\"p3\"><path d=\"M6 7 3 13.5M6 7l3 6.5\"/><path class=\"d\" d=\"M3 13.5a3 3 0 0 0 6 0z\"/></g><g class=\"p4\"><path d=\"M18 7l-3 6.5M18 7l3 6.5\"/><path class=\"d\" d=\"M15 13.5a3 3 0 0 0 6 0z\"/></g><path class=\"d p5\" d=\"M18 16.2l-1.6-1.5a1.1 1.1 0 0 1 1.6-1.6 1.1 1.1 0 0 1 1.6 1.6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p5", "anim": "beat", "dur": 800, "delay": 1200 }
+  ]
+}

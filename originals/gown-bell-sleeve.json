@@ -1,0 +1,11 @@
+{
+  "name": "gown-bell-sleeve",
+  "category": "legal",
+  "tags": ["gown", "sleeve", "bell", "cuff", "robe", "judge", "barrister"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h6v9H8z\"/><path class=\"d p2\" d=\"M8 12h6l5.5 8.5h-17z\"/><path class=\"p3\" d=\"M8 7h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "release-form",
+  "category": "legal",
+  "tags": [
+    "release",
+    "form",
+    "waiver",
+    "discharge",
+    "exit",
+    "document"
+  ],
+  "svg": "<path class=\"p1\" d=\"M10 3H5a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h5\"/><rect class=\"d p2\" x=\"14\" y=\"3\" width=\"7\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M16.5 9.5h2.5M16.5 13h2.5\"/><path class=\"p3\" d=\"M6.5 12h6M10 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

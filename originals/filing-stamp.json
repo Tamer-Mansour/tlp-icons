@@ -1,0 +1,12 @@
+{
+  "name": "filing-stamp",
+  "category": "legal",
+  "tags": ["filing", "stamp", "filed", "date stamp", "court", "registry", "record"],
+  "svg": "<rect class=\"d p4\" x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1.5\"/><path class=\"p1\" d=\"M12 7v3\"/><rect class=\"d p2\" x=\"5\" y=\"10\" width=\"14\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M6 17.5h12\"/><path class=\"p3\" d=\"M9 20.5h6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700, "origin": "left" },
+    { "part": "p4", "anim": "sink", "dur": 500, "delay": 1150 }
+  ]
+}

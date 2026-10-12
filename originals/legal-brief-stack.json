@@ -1,0 +1,12 @@
+{
+  "name": "legal-brief-stack",
+  "category": "legal",
+  "tags": ["brief", "stack", "papers", "bookmark", "case", "filings", "documents"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"16\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 6V4h14v2\"/><path class=\"p3\" d=\"M7 10h8M7 13.5h8M7 17h5\"/><path class=\"p4\" d=\"M14.5 20v2l1.5-1 1.5 1v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "sway", "dur": 1000, "delay": 900, "origin": "15.5px 20px" }
+  ]
+}

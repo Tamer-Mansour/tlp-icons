@@ -1,0 +1,11 @@
+{
+  "name": "court-marshal-badge",
+  "category": "legal",
+  "tags": ["marshal", "badge", "sword", "court", "officer", "shield", "security"],
+  "svg": "<path class=\"p2\" d=\"M4 20L19 5\"/><path class=\"p3\" d=\"M13.5 7.5l3 3\"/><circle class=\"d p1\" cx=\"11\" cy=\"10\" r=\"6\"/><path class=\"p1\" d=\"M11 7.4l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "overtime-clock",
+  "category": "legal",
+  "tags": ["overtime", "clock", "hours", "time", "bars", "work", "extra"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M9 8.5V12l2.5 1.5\"/><g class=\"p3\"><path d=\"M17 7h5\"/><path d=\"M17 12h4\"/><path d=\"M17 17h5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 600, "origin": "left" }
+  ]
+}

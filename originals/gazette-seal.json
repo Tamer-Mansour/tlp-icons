@@ -1,0 +1,11 @@
+{
+  "name": "gazette-seal",
+  "category": "legal",
+  "tags": ["gazette", "newspaper", "seal", "official", "publication", "stamp"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"13\" height=\"17\" rx=\"2\"/><g class=\"p2\"><path d=\"M6 7h7\"/><path d=\"M6 10h7\"/><path d=\"M6 13h4\"/></g><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4.5\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

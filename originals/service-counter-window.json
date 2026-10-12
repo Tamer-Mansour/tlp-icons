@@ -1,0 +1,12 @@
+{
+  "name": "service-counter-window",
+  "category": "legal",
+  "tags": ["service", "window", "counter", "bell", "clerk", "desk"],
+  "svg": "<rect class=\"d p3\" x=\"4\" y=\"2.5\" width=\"9\" height=\"3\" rx=\".6\"/><rect class=\"d p2\" x=\"4\" y=\"7\" width=\"11\" height=\"8\" rx=\"1\"/><rect class=\"d p1\" x=\"2\" y=\"15\" width=\"20\" height=\"6\" rx=\"1\"/><path class=\"p4\" d=\"M16 13.5V11a2.5 2.5 0 0 1 5 0v2.5M15.5 13.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "swing", "dur": 900, "delay": 800, "origin": "18.5px 8.5px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "testimony-microphone-person",
+  "category": "legal",
+  "tags": ["testimony", "microphone", "witness", "person", "speaker", "hearing"],
+  "svg": "<path class=\"p4\" d=\"M2 21v-1.5a4.5 4.5 0 0 1 9 0V21\"/><circle class=\"d p1\" cx=\"6.5\" cy=\"8\" r=\"3.5\"/><rect class=\"d p2\" x=\"16\" y=\"3\" width=\"4\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M14.5 9.5a3.5 3.5 0 0 0 7 0\"/><path class=\"p3\" d=\"M18 13v8M15 21h6\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

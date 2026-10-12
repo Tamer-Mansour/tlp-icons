@@ -1,0 +1,13 @@
+{
+  "name": "witness-signature",
+  "category": "legal",
+  "tags": ["witness", "signature", "sign", "attest", "document", "pen"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"9\" r=\"3.5\"/><path class=\"p2\" d=\"M1 21v-1.5a4 4 0 0 1 4-4h2.5a4 4 0 0 1 4 4V21\"/><rect class=\"d p3\" x=\"13\" y=\"2\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p4\" d=\"M15.5 4.5h3M15.5 7h2\"/><path class=\"d p5\" d=\"M13.5 20l.8-3 5-5 2.2 2.2-5 5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p5", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

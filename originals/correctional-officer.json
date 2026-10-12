@@ -1,0 +1,11 @@
+{
+  "name": "correctional-officer",
+  "category": "legal",
+  "tags": ["correctional", "officer", "prison", "jail", "guard", "keys"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/><g class=\"p3\"><circle cx=\"18\" cy=\"11\" r=\"2.5\"/><path d=\"M18 13.5V21M18 18h2M18 21h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "18px 8.5px" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "account-freeze",
+  "category": "legal",
+  "tags": [
+    "account freeze",
+    "card",
+    "padlock",
+    "snowflake",
+    "bank",
+    "blocked"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h14\"/><g class=\"p3\"><rect class=\"d\" x=\"14\" y=\"13\" width=\"8\" height=\"7\" rx=\"1.5\"/><path d=\"M16 13v-2a2 2 0 0 1 4 0v2\"/></g><path class=\"p4\" d=\"M18 1.5v5M15.8 2.75l4.4 2.5M15.8 5.25l4.4-2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

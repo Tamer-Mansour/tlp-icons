@@ -1,0 +1,12 @@
+{
+  "name": "remote-hearing",
+  "category": "legal",
+  "tags": ["remote", "hearing", "online", "video", "court", "virtual", "gavel"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"13\" rx=\"1.5\"/><g class=\"p3\"><path d=\"M12 16.5V20\"/><path d=\"M8 20.5h8\"/></g><path class=\"p2\" d=\"M12.44 8.06 9 11.5\"/><polygon class=\"d p4\" points=\"16.33 7.71 14.21 9.83 10.67 6.29 12.79 4.17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "strike", "dur": 1000, "delay": 1100, "origin": "9px 11.5px" }
+  ]
+}

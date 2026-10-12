@@ -1,0 +1,35 @@
+{
+    "name":  "usury-limit-line",
+    "category":  "legal",
+    "tags":  [
+                 "usury",
+                 "interest",
+                 "percent",
+                 "limit",
+                 "rate cap",
+                 "loan"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"7\" cy=\"10\" r=\"2.3\"/\u003e\u003ccircle class=\"d p1\" cx=\"17\" cy=\"18\" r=\"2.3\"/\u003e\u003cpath class=\"p2\" d=\"M18.5 7.5l-13 13\"/\u003e\u003cpath class=\"p3\" d=\"M4 3.5h16\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  500,
+                       "delay":  0,
+                       "origin":  "left"
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  300,
+                       "origin":  "center"
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  700
+                   }
+               ]
+}

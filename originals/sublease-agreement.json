@@ -1,0 +1,11 @@
+{
+  "name": "sublease-agreement",
+  "category": "legal",
+  "tags": ["sublease", "tenant", "rental", "house", "lease", "agreement", "property"],
+  "svg": "<path class=\"d p1\" d=\"M2 21V11.5L6.5 6 11 11.5V21z\"/><path class=\"p2\" d=\"M5 21v-4.5h3V21\"/><path class=\"d p3\" d=\"M14 21v-6.5l3-3 3 3V21z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700, "origin": "bottom" }
+  ]
+}

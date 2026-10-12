@@ -1,0 +1,11 @@
+{
+  "name": "settlement-check",
+  "category": "legal",
+  "tags": ["settlement", "check", "payment", "pen", "agreement", "cheque"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"13\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 9.5h4M5 12h6\"/><path class=\"p3\" d=\"M20.15 14.15 21.85 15.85 18.35 19.35 15 21 16.65 17.65Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

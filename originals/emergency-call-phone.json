@@ -1,0 +1,11 @@
+{
+  "name": "emergency-call-phone",
+  "category": "legal",
+  "tags": ["emergency", "call", "phone", "police", "911", "help"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h3.5l1.5 4.5-2 1.8c.9 2.1 2.6 3.8 4.7 4.7l1.8-2 4.5 1.5V17.5a2 2 0 0 1-2 2A14 14 0 0 1 3 5a2 2 0 0 1 2-2z\"/><circle class=\"d p2\" cx=\"17.5\" cy=\"6\" r=\"3.5\"/><path class=\"p3\" d=\"M17.5 4.2v3.6M15.7 6h3.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "juror-badge-tag",
+  "category": "legal",
+  "tags": [
+    "juror",
+    "jury duty",
+    "badge",
+    "id tag",
+    "number",
+    "court"
+  ],
+  "svg": "<rect class=\"p2\" x=\"9.5\" y=\"1.5\" width=\"5\" height=\"3.5\" rx=\"1\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p3\" d=\"M10.5 9.5v5M13.5 9.5v5M9 10.5h6M9 13.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

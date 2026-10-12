@@ -1,0 +1,11 @@
+{
+  "name": "case-reassignment",
+  "category": "legal",
+  "tags": ["reassign", "case", "transfer", "reassignment", "arrows", "folder"],
+  "svg": "<path class=\"d p1\" d=\"M7 9.5a1 1 0 0 1 1-1h2.5l1.5 1.5H16a1 1 0 0 1 1 1V15a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z\"/><g class=\"p2\"><path d=\"M19.8 7.5A9 9 0 0 0 4.2 7.5\"/><path d=\"M4.2 4v3.5h3.5\"/></g><g class=\"p3\"><path d=\"M4.2 16.5A9 9 0 0 0 19.8 16.5\"/><path d=\"M19.8 13v3.5h-3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "district-court-building",
+  "category": "legal",
+  "tags": ["district", "court", "courthouse", "building", "tribunal", "justice"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h16L12 4z\"/><path class=\"p2\" d=\"M12 4V2\"/><path class=\"p3\" d=\"M12 2h5l-1.5 2L17 6h-5\"/><path class=\"p4\" d=\"M6 11v7M10 11v7M14 11v7M18 11v7\"/><path class=\"p5\" d=\"M4 18h16M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 800, "origin": "12px 2px" },
+    { "part": "p4", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 0 }
+  ]
+}

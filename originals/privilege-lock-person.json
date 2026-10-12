@@ -1,0 +1,11 @@
+{
+  "name": "privilege-lock-person",
+  "category": "legal",
+  "tags": ["privilege", "lock", "person", "confidential", "access", "security"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M2.5 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2\"/><g class=\"p3\"><rect class=\"d\" x=\"14.5\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/><path d=\"M15.5 14v-2.5a2.5 2.5 0 0 1 5 0V14\"/><path d=\"M18 16.5v2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

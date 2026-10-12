@@ -1,0 +1,12 @@
+{
+  "name": "verdict-slip",
+  "category": "legal",
+  "tags": ["verdict", "ballot", "vote", "jury", "decision", "checkbox"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><g class=\"p2\"><path d=\"M6.5 6.5h4v4h-4z\"/><path d=\"M12.5 8.5h4.5\"/></g><g class=\"p3\"><path d=\"M6.5 13h4v4h-4z\"/><path d=\"M12.5 15h4.5\"/></g><path class=\"p4\" d=\"M7.6 15.1 8.8 16.3 10 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

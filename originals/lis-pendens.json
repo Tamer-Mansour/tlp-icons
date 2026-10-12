@@ -1,0 +1,11 @@
+{
+  "name": "lis-pendens",
+  "category": "legal",
+  "tags": ["lis pendens", "property", "notice", "lawsuit", "real estate", "house"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 17.5v-5L11 9.5l3.5 3v5\"/><path class=\"p3\" d=\"M16 14V6M16 6h3.5l-1 1.5 1 1.5H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wave", "dur": 1000, "delay": 700 }
+  ]
+}

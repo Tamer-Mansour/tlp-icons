@@ -1,0 +1,11 @@
+{
+  "name": "photo-exhibit",
+  "category": "legal",
+  "tags": ["photo", "exhibit", "evidence", "picture", "tag", "numbered"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"15\" height=\"15\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 15.5 9 12l2.5 2.5L13.5 13l3 2.5\"/><rect class=\"d p3\" x=\"14\" y=\"14\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M17 17.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

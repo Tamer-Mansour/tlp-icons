@@ -1,0 +1,12 @@
+{
+  "name": "ground-lease-term",
+  "category": "legal",
+  "tags": ["ground lease", "lease", "term", "house", "land", "timer", "rent"],
+  "svg": "<path class=\"d p1\" d=\"M4 8.5 12 2.5l8 6V12.5H4z\"/><path class=\"p2\" d=\"M10 12.5v-3h4v3\"/><path class=\"p3\" d=\"M2 16h20\"/><rect class=\"p4\" x=\"4\" y=\"19.5\" width=\"16\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "growX", "dur": 800, "delay": 800, "origin": "left" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "security-interest",
+  "category": "legal",
+  "tags": [
+    "security",
+    "interest",
+    "collateral",
+    "lien",
+    "padlock",
+    "pledge"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"8\" height=\"13\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M5.5 6h3\"/><path d=\"M5.5 9h3\"/></g><path class=\"p3\" d=\"M12.5 7.5 17 2l2.5 2-4.5 5.5z\"/><rect class=\"d p4\" x=\"12\" y=\"15\" width=\"9\" height=\"6\" rx=\"1.5\"/><path class=\"p4\" d=\"M14.5 15v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

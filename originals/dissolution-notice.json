@@ -1,0 +1,20 @@
+{
+  "name": "dissolution-notice",
+  "category": "legal",
+  "tags": [
+    "dissolution",
+    "company",
+    "closure",
+    "notice",
+    "building",
+    "wind up"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 21V10l5-4 5 4v11z\"/><path class=\"p2\" d=\"M5.5 21v-4h3v4\"/><path class=\"p3\" d=\"M5.5 1.5l3 3M8.5 1.5l-3 3\"/><path class=\"d p4\" d=\"M14 11h8v10h-8z\"/><path class=\"p5\" d=\"M16.5 14.5h3M16.5 17.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

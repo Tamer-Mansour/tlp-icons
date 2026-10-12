@@ -1,0 +1,10 @@
+{
+  "name": "district-map",
+  "category": "legal",
+  "tags": ["district", "map", "region", "boundary", "jurisdiction", "territory"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><path class=\"p2\" d=\"M9 6v2M9 11v2M9 16v2M15 6v2M15 11v2M15 16v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

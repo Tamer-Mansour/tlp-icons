@@ -1,0 +1,11 @@
+{
+  "name": "guardian-shield",
+  "category": "legal",
+  "tags": ["guardian", "shield", "protection", "custody", "person", "ward"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 20 5.5v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10v-6z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M8 16.5c.8-1.8 2.3-2.7 4-2.7s3.2.9 4 2.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

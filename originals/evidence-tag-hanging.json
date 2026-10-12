@@ -1,0 +1,11 @@
+{
+  "name": "evidence-tag-hanging",
+  "category": "legal",
+  "tags": ["evidence", "tag", "exhibit", "label", "box", "hanging"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"14\" rx=\"1\"/><path class=\"p3\" d=\"M6.5 13.5h5\"/><g class=\"p2\"><path d=\"M15 7.5 17 9\"/><rect class=\"d\" x=\"17\" y=\"9\" width=\"5\" height=\"7\" rx=\"1\"/><circle class=\"f\" cx=\"19.5\" cy=\"11\" r=\".6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 800, "origin": "15px 7.5px" }
+  ]
+}

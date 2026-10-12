@@ -1,0 +1,13 @@
+{
+  "name": "overstay-warning-clock",
+  "category": "legal",
+  "tags": ["overstay", "warning", "visa", "time limit", "passport", "alert", "clock"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6.5\" r=\"3.5\"/><path class=\"p3\" d=\"M12 4.5v2l1.2 1\"/><rect class=\"d p2\" x=\"5\" y=\"12\" width=\"10\" height=\"9\" rx=\"1.5\"/><path class=\"p5\" d=\"M7.5 17.5h5\"/><path class=\"d p4\" d=\"M18 12.5l3.8 6.8H14.2z\"/><path class=\"p4\" d=\"M18 15v2\"/><circle class=\"f p4\" cx=\"18\" cy=\"18.6\" r=\".7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 600, "delay": 1000, "origin": "18px 16px" }
+  ]
+}

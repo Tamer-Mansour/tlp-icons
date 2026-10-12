@@ -1,0 +1,11 @@
+{
+  "name": "witness-protection",
+  "category": "legal",
+  "tags": ["witness", "protection", "shield", "protected", "safe", "relocation", "security"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 19.5 5.5V11c0 5-3.5 8.5-7.5 10.5C8 19.5 4.5 16 4.5 11V5.5z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M8.5 18.5v-1a3.5 3.5 0 0 1 7 0v1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

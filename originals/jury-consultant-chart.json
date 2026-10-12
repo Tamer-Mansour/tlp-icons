@@ -1,0 +1,11 @@
+{
+  "name": "jury-consultant-chart",
+  "category": "legal",
+  "tags": ["jury", "consultant", "chart", "person", "analysis", "trial"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M2.5 21v-1.5a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4V21\"/><path class=\"p3\" d=\"M14 21v-5M17.5 21V12M21 21v-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 800, "delay": 600, "origin": "bottom" }
+  ]
+}

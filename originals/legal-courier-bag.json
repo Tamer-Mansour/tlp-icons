@@ -1,0 +1,12 @@
+{
+  "name": "legal-courier-bag",
+  "category": "legal",
+  "tags": ["courier", "bag", "messenger", "document", "delivery", "satchel"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1z\"/><path class=\"p2\" d=\"M3 13.5h18\"/><rect class=\"d p3\" x=\"10.5\" y=\"15.5\" width=\"3\" height=\"2.5\" rx=\".5\"/><path class=\"p4\" d=\"M8.5 9V4.5h7V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "riseIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

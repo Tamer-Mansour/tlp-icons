@@ -1,0 +1,12 @@
+{
+  "name": "legal-pad-margin",
+  "category": "legal",
+  "tags": ["legal", "pad", "notes", "pencil", "margin", "draft", "writing"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 3v18\"/><path class=\"p3\" d=\"M9 9h3M9 13h3M9 17h2\"/><rect class=\"d p4\" x=\"16.55\" y=\"10\" width=\"2.5\" height=\"9\" transform=\"rotate(45 17.8 14.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 450 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 900, "origin": "14.6px 17.7px" }
+  ]
+}

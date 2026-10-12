@@ -1,0 +1,11 @@
+{
+  "name": "signet-ring",
+  "category": "legal",
+  "tags": ["signet", "ring", "seal", "stamp", "signature", "authority"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"6.5\"/><rect class=\"d p2\" x=\"8.5\" y=\"3\" width=\"7\" height=\"5.5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 5.75h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 950 }
+  ]
+}

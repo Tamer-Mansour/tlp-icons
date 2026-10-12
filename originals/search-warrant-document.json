@@ -1,0 +1,12 @@
+{
+  "name": "search-warrant-document",
+  "category": "legal",
+  "tags": ["search", "warrant", "document", "seal", "magnifier", "police", "court order"],
+  "svg": "<path class=\"d p1\" d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z\"/><g class=\"p2\"><path d=\"M14 2v5h5\"/><path d=\"M8 9.5h5\"/></g><circle class=\"p3\" cx=\"9\" cy=\"16\" r=\"2\"/><g class=\"d p4\"><circle cx=\"15\" cy=\"16\" r=\"2.8\"/></g><path class=\"p4\" d=\"M17 18l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

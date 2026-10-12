@@ -1,0 +1,12 @@
+{
+  "name": "dishonored-cheque",
+  "category": "legal",
+  "tags": ["cheque", "dishonored", "bounced", "check", "payment", "rejected"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 9h7M6 12.5h4\"/><path class=\"p3\" d=\"M15.5 7.5l4 4M19.5 7.5l-4 4\"/><path class=\"p4\" d=\"M5 20h9M11.5 18.5l2.5 1.5-2.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

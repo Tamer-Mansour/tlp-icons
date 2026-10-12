@@ -1,0 +1,11 @@
+{
+  "name": "judicial-mallet",
+  "category": "legal",
+  "tags": ["mallet", "gavel", "judge", "hammer", "auction", "court"],
+  "svg": "<path class=\"p2\" d=\"M15 9 7 17\"/><rect class=\"d p1\" x=\"11\" y=\"5.5\" width=\"10\" height=\"5\" rx=\"2.5\" transform=\"rotate(45 16 8)\"/><rect class=\"d p3\" x=\"3\" y=\"17\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "strike", "dur": 900, "delay": 800, "origin": "7px 17px" }
+  ]
+}

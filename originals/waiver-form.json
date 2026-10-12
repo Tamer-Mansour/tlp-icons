@@ -1,0 +1,12 @@
+{
+  "name": "waiver-form",
+  "category": "legal",
+  "tags": ["waiver", "release", "consent", "form", "sign", "checkbox"],
+  "svg": "<path class=\"d p1\" d=\"M2 3h9l4 4v14H2z\"/><path class=\"p1\" d=\"M11 3v4h4\"/><rect class=\"p2\" x=\"5\" y=\"9.5\" width=\"3.5\" height=\"3.5\" rx=\".5\"/><path class=\"p3\" d=\"M5.6 11.8l1 1 1.5-1.8\"/><path class=\"d p4\" d=\"M17 6.5l3 3-7.5 9-3.8.8.8-3.8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

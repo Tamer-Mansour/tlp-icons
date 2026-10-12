@@ -1,0 +1,12 @@
+{
+  "name": "bond-certificate",
+  "category": "legal",
+  "tags": ["bond", "certificate", "coin", "guarantee", "security", "award"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M7 7h10M7 10h6\"/><path class=\"p3\" d=\"M10 14v2M14 14v2\"/><circle class=\"d p4\" cx=\"12\" cy=\"18.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 14px" }
+  ]
+}

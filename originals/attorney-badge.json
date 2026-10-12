@@ -1,0 +1,11 @@
+{
+  "name": "attorney-badge",
+  "category": "legal",
+  "tags": ["attorney", "badge", "lawyer", "person", "identity", "credential"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"7\"/><path class=\"p3\" d=\"M8.5 14.5L7 22l3-1.5L12 22l2-1.5 3 1.5-1.5-7.5\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2.6\"/><path class=\"p2\" d=\"M7.8 13.6c.9-1.8 2.3-2.6 4.2-2.6s3.3.8 4.2 2.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

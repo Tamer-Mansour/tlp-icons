@@ -1,0 +1,11 @@
+{
+  "name": "condo-bylaws",
+  "category": "legal",
+  "tags": ["condo", "bylaws", "apartment", "building", "rules", "document"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v16z\"/><path class=\"p2\" d=\"M6 7.5h3M6 11.5h3M6 15.5h3\"/><rect class=\"d p3\" x=\"14\" y=\"12\" width=\"7\" height=\"8.5\" rx=\"1\"/><path class=\"p3\" d=\"M16.5 15h2.5M16.5 17.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

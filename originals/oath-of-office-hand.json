@@ -1,0 +1,11 @@
+{
+  "name": "oath-of-office-hand",
+  "category": "legal",
+  "tags": ["oath", "office", "swearing in", "hand", "shield", "pledge"],
+  "svg": "<path class=\"p1\" d=\"M5 12V5.5a1 1 0 0 1 2 0V11M7 11V3.5a1 1 0 0 1 2 0V11M9 11V4a1 1 0 0 1 2 0v7M11 11V5.5a1 1 0 0 1 2 0V12\"/><path class=\"d p1\" d=\"M5 12v4.5A3.5 3.5 0 0 0 8.5 20h1a3.5 3.5 0 0 0 3.5-3.5V12\"/><path class=\"d p2\" d=\"M18.5 11 22 12.5v3.5c0 2.5-1.5 4-3.5 5-2-1-3.5-2.5-3.5-5v-3.5z\"/><circle class=\"p3\" cx=\"18.5\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "wave", "dur": 1000, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

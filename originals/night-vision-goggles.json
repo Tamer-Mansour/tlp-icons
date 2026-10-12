@@ -1,0 +1,12 @@
+{
+  "name": "night-vision-goggles",
+  "category": "legal",
+  "tags": ["goggles", "night", "vision", "surveillance", "monitoring", "observation"],
+  "svg": "<path class=\"p1\" d=\"M2 12a10 9 0 0 1 20 0\"/><circle class=\"d p2\" cx=\"6\" cy=\"14\" r=\"4\"/><circle class=\"d p3\" cx=\"18\" cy=\"14\" r=\"4\"/><path class=\"p4\" d=\"M10 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

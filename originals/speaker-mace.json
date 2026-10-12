@@ -1,0 +1,12 @@
+{
+  "name": "speaker-mace",
+  "category": "legal",
+  "tags": ["mace", "speaker", "parliament", "ceremony", "authority", "sceptre"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M12 11v9\"/><path class=\"p3\" d=\"M9 21h6\"/><path class=\"p4\" d=\"M8.5 11.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 300, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

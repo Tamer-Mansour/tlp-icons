@@ -1,0 +1,11 @@
+{
+  "name": "sector-beat-map",
+  "category": "legal",
+  "tags": ["sector", "beat", "map", "patrol", "route", "police"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 3v18\"/><path class=\"p2\" d=\"M15 3v18\"/><g class=\"p3\"><path d=\"M5 17l1.4-1\"/><path d=\"M9.5 13.8l1.4-1\"/><path d=\"M14 10.6l1.4-1\"/><circle class=\"f\" cx=\"18\" cy=\"7.7\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

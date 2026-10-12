@@ -1,0 +1,33 @@
+{
+  "name": "loan-handover",
+  "category": "legal",
+  "tags": [
+    "loan",
+    "handover",
+    "lend",
+    "exchange",
+    "money",
+    "coin"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"8\" r=\"5.5\"/><path class=\"p3\" d=\"M9 5.5v5\"/><path class=\"p2\" d=\"M4 19h16M17 16l3 3-3 3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 300,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

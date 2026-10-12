@@ -1,0 +1,11 @@
+{
+  "name": "referee-whistle-gavel",
+  "category": "legal",
+  "tags": ["referee", "whistle", "gavel", "lanyard", "officiate", "ruling"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M13 9.5H21v4h-6.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"14\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "rattle", "dur": 900, "delay": 800 }
+  ]
+}

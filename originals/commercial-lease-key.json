@@ -1,0 +1,21 @@
+{
+  "name": "commercial-lease-key",
+  "category": "legal",
+  "tags": [
+    "lease",
+    "commercial",
+    "property",
+    "rent",
+    "landlord",
+    "tenancy",
+    "key",
+    "building"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 21V4h10v17z\"/><g class=\"p2\"><path d=\"M6 8h4\"/><path d=\"M6 12h4\"/><path d=\"M6 16h4\"/></g><g class=\"p3\"><circle cx=\"18\" cy=\"6\" r=\"2.5\"/><path d=\"M18 8.5v3.5\"/><path d=\"M18 10.5h2\"/></g><path class=\"d p4\" d=\"M14 13.5h5l3 3V21h-8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p4", "anim": "fillIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

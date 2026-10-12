@@ -1,0 +1,11 @@
+{
+  "name": "cell-window",
+  "category": "legal",
+  "tags": ["cell", "window", "jail", "prison", "bars", "detention", "custody"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"14\" rx=\"1\"/><g class=\"p2\"><path d=\"M6 7h12\"/><path d=\"M6 11h12\"/><path d=\"M6 15h12\"/></g><path class=\"p3\" d=\"M4 19h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900, "origin": "left" }
+  ]
+}

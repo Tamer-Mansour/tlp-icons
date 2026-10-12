@@ -1,0 +1,11 @@
+{
+  "name": "property-lien",
+  "category": "legal",
+  "tags": ["lien", "property", "house", "lock", "mortgage", "claim", "real estate"],
+  "svg": "<path class=\"d p1\" d=\"M3 10.5 12 3.5l9 7V21H3z\"/><rect class=\"d p2\" x=\"8\" y=\"12.5\" width=\"8\" height=\"6.5\" rx=\"1\"/><path class=\"p3\" d=\"M10 12.5v-1.5a2 2 0 0 1 4 0v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

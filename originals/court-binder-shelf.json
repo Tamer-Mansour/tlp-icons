@@ -1,0 +1,11 @@
+{
+  "name": "court-binder-shelf",
+  "category": "legal",
+  "tags": ["court", "binders", "shelf", "files", "records", "archive", "law"],
+  "svg": "<path class=\"p1\" d=\"M2.5 21h19\"/><g class=\"p2\"><rect class=\"d\" x=\"4\" y=\"7\" width=\"3.5\" height=\"13\" rx=\".5\"/><rect class=\"d\" x=\"8\" y=\"4.5\" width=\"3.5\" height=\"15.5\" rx=\".5\"/><rect class=\"d\" x=\"12\" y=\"7\" width=\"3.5\" height=\"13\" rx=\".5\"/><rect class=\"d\" x=\"16\" y=\"9\" width=\"3.5\" height=\"11\" rx=\".5\"/></g><path class=\"p3\" d=\"M4.5 10h2.5M8.5 8h2.5M12.5 10h2.5M16.5 12h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

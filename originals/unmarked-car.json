@@ -1,0 +1,12 @@
+{
+  "name": "unmarked-car",
+  "category": "legal",
+  "tags": ["unmarked", "car", "police", "vehicle", "antenna", "undercover"],
+  "svg": "<path class=\"d p1\" d=\"M3 17v-4.5L6 8h12l3 4.5V17z\"/><path class=\"p2\" d=\"M3 17h18\"/><path class=\"p3\" d=\"M12 8V3\"/><circle class=\"d p4\" cx=\"7.5\" cy=\"17\" r=\"2\"/><circle class=\"d p4\" cx=\"16.5\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "name":  "religious-freedom-dove",
+    "category":  "legal",
+    "tags":  [
+                 "religious freedom",
+                 "dove",
+                 "peace",
+                 "olive branch",
+                 "faith",
+                 "liberty"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M4 20 19 5\"/\u003e\u003cpath class=\"d p2\" d=\"M10 14C5 14 4 10 4 6c4 0 6 3 6 8z\"/\u003e\u003cpath class=\"d p3\" d=\"M14 10c0 5 2 6 6 6 0-4-1-6-6-6z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  500,
+                       "origin":  "bottom right"
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  800,
+                       "origin":  "top left"
+                   }
+               ]
+}

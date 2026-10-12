@@ -1,0 +1,19 @@
+{
+  "name": "subpoena-scroll-person",
+  "category": "legal",
+  "tags": [
+    "subpoena",
+    "summons",
+    "witness",
+    "scroll",
+    "person",
+    "seal"
+  ],
+  "svg": "<g class=\"p4\"><rect class=\"d\" x=\"4\" y=\"2.5\" width=\"16\" height=\"3.5\" rx=\"1.75\"/><rect class=\"d\" x=\"4\" y=\"18\" width=\"16\" height=\"3.5\" rx=\"1.75\"/></g><rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\"/><g class=\"p2\"><circle class=\"d\" cx=\"12\" cy=\"8.6\" r=\"2\"/><path d=\"M8.5 14c0-1.5 1.6-2.3 3.5-2.3s3.5.8 3.5 2.3\"/></g><circle class=\"d p3\" cx=\"12\" cy=\"16.8\" r=\"1.4\"/>",
+  "motion": [
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 1150 }
+  ]
+}

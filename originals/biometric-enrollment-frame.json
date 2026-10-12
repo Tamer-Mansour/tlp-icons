@@ -1,0 +1,12 @@
+{
+  "name": "biometric-enrollment-frame",
+  "category": "legal",
+  "tags": ["biometric", "fingerprint", "enrollment", "id", "scan", "identity"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><path class=\"p2\" d=\"M9 11.5a3 3 0 0 1 6 0v1.5\"/><path class=\"p3\" d=\"M7 12a5 5 0 0 1 10 0c0 2-.5 3.5-1.5 5\"/><path class=\"p4\" d=\"M12 12v2.5c0 1.5-.5 3-1.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "name":  "legislature-chamber",
+    "category":  "legal",
+    "tags":  [
+                 "legislature",
+                 "chamber",
+                 "parliament",
+                 "assembly",
+                 "benches",
+                 "podium",
+                 "senate"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 12a7 7 0 0 1 14 0z\"/\u003e\u003cpath class=\"p2\" d=\"M7 15v6M12 15v6M17 15v6\"/\u003e\u003cpath class=\"p3\" d=\"M3 21h18\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "riseIn",
+                       "dur":  600,
+                       "delay":  200
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  800
+                   }
+               ]
+}
