@@ -18,6 +18,7 @@ const TOC = [
   { id: 'triggers', title: 'Triggers', sub: true },
   { id: 'frameworks', title: 'Frameworks' },
   { id: 'react', title: 'React / Next.js', sub: true },
+  { id: 'react18', title: 'React 18 wrapper', sub: true },
   { id: 'angular', title: 'Angular', sub: true },
   { id: 'vue', title: 'Vue / Nuxt', sub: true },
   { id: 'styling', title: 'Styling' },
@@ -119,8 +120,11 @@ export default function Docs() {
         <p>Import the element once at startup, then use <code>&lt;tlp-icon&gt;</code> anywhere. This website is built with Next.js and uses the package exactly like this.</p>
         <h3 id="react">React / Next.js</h3>
         <CodeBlock lang="jsx" code={"'use client';\nimport 'tlp-icons/element';\n\nexport function SaveButton() {\n  return (\n    <button>\n      <tlp-icon name=\"save\" /> Save\n    </button>\n  );\n}"} />
-        <p>For server components, import the element once in a small client component (for example in your root layout). With TypeScript, declare the tag:</p>
-        <CodeBlock lang="ts" title="tlp-icon.d.ts" code={"declare namespace JSX {\n  interface IntrinsicElements {\n    'tlp-icon': { name: string; size?: string | number; stroke?: string | number;\n      trigger?: 'hover' | 'loop' | 'click' | 'none'; duotone?: boolean | ''; flip?: 'rtl' | 'x' };\n  }\n}"} />
+        <p>The import is safe during server rendering. TypeScript types for the tag ship with the package (since 0.2.0): add one import and <code>name</code>, <code>trigger</code> and <code>flip</code> are type-checked.</p>
+        <CodeBlock lang="ts" code={"import 'tlp-icons/jsx'; // types <tlp-icon> in JSX (React 18 and 19)"} />
+        <h3 id="react18">React 18 wrapper</h3>
+        <p>React 18 turns boolean props into strings. Use the tiny optional wrapper instead of the bare tag:</p>
+        <CodeBlock lang="jsx" code={"import { TlpIcon } from 'tlp-icons/react';\n\n<TlpIcon name=\"heart\" size={32} duotone className=\"like\" />"} />
         <h3 id="angular">Angular</h3>
         <CodeBlock lang="ts" code={"// main.ts\nimport 'tlp-icons/element';\n\n// any component\n@Component({\n  selector: 'app-toolbar',\n  schemas: [CUSTOM_ELEMENTS_SCHEMA],\n  template: `<button><tlp-icon name=\"bell\"></tlp-icon> Alerts</button>`,\n})\nexport class ToolbarComponent {}"} />
         <h3 id="vue">Vue / Nuxt</h3>

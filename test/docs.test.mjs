@@ -29,6 +29,24 @@ test('every README number marker shows the current stats value', () => {
   assert.match(readme, new RegExp(`badge/icons-${encodeURIComponent(v.icons)}-`), 'icons badge out of date');
 });
 
+test('README framework recipes are exactly the tested files; size table and badges are generated', async () => {
+  const { recipeBlocks, sizeTable } = await import('../scripts/sync-docs.mjs');
+  const recipes = [...readme.matchAll(/<!-- recipe:([^\s]+) -->\n([\s\S]*?)\n<!-- \/recipe -->/g)];
+  const wanted = ['react18', 'react19', 'nextjs', 'angular', 'vue', 'sveltekit', 'astro'];
+  for (const w of wanted) assert.ok(recipes.some(([, spec]) => spec.startsWith(`${w}/`)), `README has no ${w} recipe`);
+  for (const [, spec, body] of recipes) assert.equal(body, recipeBlocks(spec), `README recipe ${spec} is out of date (run npm run build)`);
+  const sizes = readJson('dist/size-report.json');
+  assert.ok(readme.includes(`<!-- sizes:start -->\n${sizeTable(sizes)}\n<!-- sizes:end -->`), 'README size table out of date');
+  for (const b of ['img.shields.io/npm/v/tlp-icons', 'img.shields.io/npm/dm/tlp-icons', 'actions/workflows/ci.yml/badge.svg', 'img.shields.io/npm/l/tlp-icons', 'element-']) assert.ok(readme.includes(b), `badge ${b} missing`);
+  assert.match(readme, /### Trademarks[\s\S]*nominative[\s\S]*does not\s+imply/);
+  for (const g of ['hover', 'loop', 'rtl', 'duotone']) {
+    const f = path.join(ROOT, 'docs', 'media', `${g}.gif`);
+    assert.ok(fs.existsSync(f), `docs/media/${g}.gif missing`);
+    assert.ok(fs.statSync(f).size < 500 * 1024, `${g}.gif over 500 KB`);
+    assert.ok(readme.includes(`docs/media/${g}.gif`), `${g}.gif not shown in README`);
+  }
+});
+
 test('no stale hand-typed counts remain in README or package.json', () => {
   const unmarked = readme.replace(/<!--s:[\w.-]+-->[^<]*<!--\/s-->/g, '').replace(/<!-- badges:start -->[\s\S]*?<!-- badges:end -->/, '');
   for (const stale of ['6,489', '6,067', '6,000+', '6,400', '300+ hand-made']) assert.ok(!unmarked.includes(stale), `README still says ${stale}`);

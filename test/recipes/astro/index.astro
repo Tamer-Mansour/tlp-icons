@@ -1,0 +1,13 @@
+---
+// src/pages/index.astro
+const icon = 'bell';
+---
+<button type="button">
+  <tlp-icon name={icon}></tlp-icon> Alerts
+</button>
+<tlp-icon name="loader-circle" trigger="loop"></tlp-icon>
+
+<script>
+  // Astro bundles and runs this in the browser
+  import 'tlp-icons/element';
+</script>

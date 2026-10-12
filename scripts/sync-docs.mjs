@@ -51,7 +51,22 @@ export function description(stats) {
   return `${fmt(stats.icons)} free, open-source animated SVG icons in ${stats.categories} categories (Lucide, Tabler and tlp originals), as one <tlp-icon> web component for HTML, React, Angular and Vue.`;
 }
 
+const LANG = { '.tsx': 'tsx', '.ts': 'ts', '.jsx': 'jsx', '.js': 'js', '.vue': 'vue', '.svelte': 'svelte', '.astro': 'astro', '.html': 'html' };
+
+/** Code blocks for <!-- recipe:a/b.tsx,c/d.vue --> markers, read from test/recipes/ (the tested files). */
+export function recipeBlocks(spec, root = ROOT) {
+  const files = spec.split(',').map(s => s.trim()).filter(Boolean);
+  return files.map(rel => {
+    const file = path.join(root, 'test', 'recipes', rel);
+    if (!fs.existsSync(file)) throw new Error(`README recipe file missing: test/recipes/${rel}`);
+    const code = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').trimEnd();
+    const label = files.length > 1 ? `\`${path.basename(rel)}\`\n\n` : '';
+    return `${label}\`\`\`${LANG[path.extname(rel)] || ''}\n${code}\n\`\`\``;
+  }).join('\n\n');
+}
+
 export function syncReadme(text, stats, sizes) {
+  text = text.replace(/<!-- recipe:([^\s]+) -->[\s\S]*?<!-- \/recipe -->/g, (m, spec) => `<!-- recipe:${spec} -->\n${recipeBlocks(spec)}\n<!-- /recipe -->`);
   const v = values(stats, sizes);
   let out = text.replace(/<!--s:([\w.-]+)-->[^<]*<!--\/s-->/g, (m, key) => {
     if (!(key in v)) throw new Error(`README: unknown stats marker "${key}"`);

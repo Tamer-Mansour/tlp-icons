@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "jsx": "react-jsx",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": ["react18/**/*.tsx", "react19/**/*.tsx", "nextjs/**/*.tsx", "angular/**/*.ts"]
+}

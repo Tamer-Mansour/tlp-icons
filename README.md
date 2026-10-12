@@ -29,6 +29,17 @@ our own **tlp originals**, sorted into <!--s:categories-->35<!--/s--> hand-curat
 Instagram, WhatsApp, X, TikTok, YouTube...). Every single one moves on hover: clock hands sweep around the face,
 gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
 
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/hover.gif" width="420" alt="Hovering a button plays its icon"><br><sub>Hover a button, its icon plays</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/loop.gif" width="420" alt="Loaders with trigger=loop"><br><sub><code>trigger="loop"</code></sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/rtl.gif" width="420" alt="The same arrow in LTR and RTL with flip=rtl"><br><sub><code>flip="rtl"</code> mirrors the icon and its motion</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/duotone.gif" width="420" alt="Icons without and with duotone"><br><sub><code>duotone</code> adds a soft tinted body</sub></td>
+</tr>
+</table>
+
 [![tlp-icons website](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/website.png)](https://tlp-icons.netlify.app)
 
 <table><tr>
@@ -110,39 +121,179 @@ exactly one icon (a button, a menu item) and animates that icon. If it reaches a
 (a card, a menu, a table row), nothing animates. So hovering a button animates its icon, while a big card never
 lights up all its icons at once.
 
-### React
+## Framework recipes
 
-```jsx
-import 'tlp-icons/element';
+Copy-paste setups. Every snippet below is a real file in [`test/recipes/`](test/recipes) that the test suite
+compiles with that framework's own compiler (TypeScript, `vue/compiler-sfc`, `svelte/compiler`,
+`@astrojs/compiler`), so they stay correct.
 
-export function SaveButton() {
-  return <button><tlp-icon name="save" /> Save</button>;
+`import 'tlp-icons/element'` is safe during server rendering: on the server it registers nothing and never touches
+the DOM.
+
+### React 18: the wrapper
+
+React 18 turns boolean props into strings and can't set custom element properties, so use the tiny optional
+wrapper (`react` is an optional peer dependency and is never bundled):
+
+<!-- recipe:react18/Toolbar.tsx -->
+```tsx
+import { TlpIcon } from 'tlp-icons/react';
+
+export function Toolbar() {
+  return (
+    <nav>
+      <button type="button">
+        <TlpIcon name="bell" /> Alerts
+      </button>
+      <TlpIcon name="loader-circle" trigger="loop" aria-label="Loading" />
+      <TlpIcon name="heart" size={32} duotone className="like" />
+    </nav>
+  );
 }
 ```
+<!-- /recipe -->
 
-React 19 supports custom elements directly. For TypeScript JSX, declare `tlp-icon` in `JSX.IntrinsicElements`.
+### React 19: the tag directly
 
-### Angular
+React 19 supports custom elements natively. `tlp-icons/jsx` types the tag (`name` is required, `trigger` and
+`flip` are checked):
 
+<!-- recipe:react19/Toolbar.tsx -->
+```tsx
+import 'tlp-icons/element';
+import 'tlp-icons/jsx'; // types <tlp-icon> in JSX
+
+export function Toolbar() {
+  return (
+    <nav>
+      <button type="button">
+        <tlp-icon name="bell" /> Alerts
+      </button>
+      <tlp-icon name="loader-circle" trigger="loop" aria-label="Loading" />
+      <tlp-icon name="heart" size={32} duotone className="like" />
+    </nav>
+  );
+}
+```
+<!-- /recipe -->
+
+### Next.js (App Router)
+
+Put the element behind one small client component and use it from server components. Server rendering outputs the
+tag; the browser upgrades it.
+
+<!-- recipe:nextjs/app/components/Icon.tsx -->
+```tsx
+'use client';
+// app/components/Icon.tsx - use <Icon name="bell" /> from any server or client component.
+// The import is safe during server rendering (it registers the element only in the browser).
+import 'tlp-icons/element';
+import 'tlp-icons/jsx';
+
+export function Icon(props: { name: string; size?: number; trigger?: 'hover' | 'loop' | 'click' | 'none'; duotone?: boolean }) {
+  return <tlp-icon {...props} />;
+}
+```
+<!-- /recipe -->
+
+### Angular 17+ (standalone)
+
+<!-- recipe:angular/toolbar.component.ts -->
 ```ts
-// main.ts
+// toolbar.component.ts (Angular 17+, standalone)
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import 'tlp-icons/element';
 
-// component
-@Component({ schemas: [CUSTOM_ELEMENTS_SCHEMA], template: `<tlp-icon name="bell"></tlp-icon>` })
+@Component({
+  selector: 'app-toolbar',
+  standalone: true,
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  template: `
+    <button type="button"><tlp-icon name="bell"></tlp-icon> Alerts</button>
+    <tlp-icon [attr.name]="icon" trigger="loop"></tlp-icon>
+  `,
+})
+export class ToolbarComponent {
+  icon = 'loader-circle';
+}
 ```
+<!-- /recipe -->
 
-### Vue
+### Vue 3 + Vite
+
+Tell Vue that `tlp-icon` is a custom element, then use it in any template:
+
+<!-- recipe:vue/vite.config.ts,vue/App.vue -->
+`vite.config.ts`
 
 ```ts
-// main.ts
-import 'tlp-icons/element';
-// vite.config.ts -> vue({ template: { compilerOptions: { isCustomElement: tag => tag === 'tlp-icon' } } })
+// vite.config.ts
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+
+export default defineConfig({
+  plugins: [
+    vue({ template: { compilerOptions: { isCustomElement: tag => tag === 'tlp-icon' } } }),
+  ],
+});
 ```
 
-```html
-<tlp-icon name="bell" />
+`App.vue`
+
+```vue
+<script setup>
+import { ref } from 'vue';
+import 'tlp-icons/element';
+
+const done = ref(false);
+</script>
+
+<template>
+  <button type="button" @click="done = !done">
+    <tlp-icon :name="done ? 'circle-check' : 'circle'" duotone></tlp-icon>
+    {{ done ? 'Done' : 'Mark done' }}
+  </button>
+</template>
 ```
+<!-- /recipe -->
+
+### SvelteKit
+
+<!-- recipe:sveltekit/+page.svelte -->
+```svelte
+<script>
+  import { onMount } from 'svelte';
+
+  // load the element in the browser only (SvelteKit renders on the server first)
+  onMount(() => import('tlp-icons/element'));
+</script>
+
+<button type="button">
+  <tlp-icon name="bell"></tlp-icon> Alerts
+</button>
+<tlp-icon name="loader-circle" trigger="loop"></tlp-icon>
+```
+<!-- /recipe -->
+
+### Astro
+
+<!-- recipe:astro/index.astro -->
+```astro
+---
+// src/pages/index.astro
+const icon = 'bell';
+---
+<button type="button">
+  <tlp-icon name={icon}></tlp-icon> Alerts
+</button>
+<tlp-icon name="loader-circle" trigger="loop"></tlp-icon>
+
+<script>
+  // Astro bundles and runs this in the browser
+  import 'tlp-icons/element';
+</script>
+```
+<!-- /recipe -->
 
 ### Raw data and SVG strings (Node / SSR)
 
@@ -180,6 +331,27 @@ data.icons.bell;        // { category, source, tags, svg, m }
 ```
 
 It replaces the old `tlp-icons/data` export (removed in 0.2.0). Typed (`TlpIconsData`).
+
+## Bundle size
+
+Measured on every build (minified, gzip level 9) and written to `dist/size-report.json`. The build fails if the
+element core goes over 8 KB gzip or the manifest over 15 KB gzip.
+
+<!-- sizes:start -->
+| What | Minified | Gzip |
+| --- | ---: | ---: |
+| element core (tlp-icon + core + element) | 14.3 KB | **5.0 KB** |
+| manifest | 21.7 KB | **11.1 KB** |
+| smallest category chunk (science.js) | 11.5 KB | **3.5 KB** |
+| largest category chunk (interface.js) | 180.6 KB | **32.4 KB** |
+| all icons, offline bundle (tlp-icons.all.js) | 2280.5 KB | **387.3 KB** |
+| stylesheet (tlp-icons.css) | 4.9 KB | **1.3 KB** |
+<!-- sizes:end -->
+
+What a page actually downloads: the element core, the manifest, then **one chunk per category it uses**. A page
+with a few interface and arrow icons loads about <!--s:size.0.gzip-->5.0 KB<!--/s--> + <!--s:size.1.gzip-->11.1 KB<!--/s-->
+plus those two chunks. Import a chunk directly (`tlp-icons/icons/<category>.js`) to skip the manifest. The
+stylesheet is injected by the element; `tlp-icons/css` is there if you prefer a `<link>`.
 
 ## Website
 
@@ -267,4 +439,9 @@ The GitHub Actions (CI and upstream sync) are manual: run them from the Actions 
 MIT © tlp-icons contributors. Icon geometry from [Lucide](https://lucide.dev) (ISC) and
 [Tabler Icons](https://tabler.io/icons) (MIT), plus tlp originals (MIT). See [NOTICE.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/NOTICE.md) and `licenses/`.
 
-Brand logos are trademarks of their respective owners and are included only to identify their products.
+### Trademarks
+
+The <!--s:brands-->376<!--/s--> brand icons (the Brands category, names starting with `brand-`) are provided for
+referential, nominative use only: to identify a product or service, for example a "Sign in with GitHub" button or a
+list of supported platforms. The logos remain the property of their respective owners, and their inclusion does not
+imply any affiliation with or endorsement by those owners. Follow each owner's brand guidelines when you use them.
