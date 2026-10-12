@@ -12,7 +12,11 @@ function score(name, q, words) {
   return 3;
 }
 
-export default function Gallery({ initialCategory = null, categories }) {
+/**
+ * initial / svgs / total come from the server: the first screen of icons (with their SVG markup) and the real count
+ * are in the static HTML, so the page is never empty or "0" before the search index loads (or without JS).
+ */
+export default function Gallery({ initialCategory = null, categories, initial = [], svgs = {}, total = 0 }) {
   const [index, setIndex] = useState(null);
   const [q, setQ] = useState('');
   const [cat, setCat] = useState(initialCategory);
@@ -35,7 +39,7 @@ export default function Gallery({ initialCategory = null, categories }) {
   }, []);
 
   const results = useMemo(() => {
-    if (!index) return [];
+    if (!index) return initial;
     const words = q.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const query = words.join('-');
     const catIdx = cat ? index.categories.findIndex(c => c.id === cat) : -1;
@@ -73,7 +77,7 @@ export default function Gallery({ initialCategory = null, categories }) {
   }, [results.length]);
 
   const cats = index?.categories || categories;
-  const totalCount = index ? (q ? Object.values(counts || {}).reduce((a, b) => a + b, 0) : index.icons.length) : null;
+  const totalCount = index ? (q ? Object.values(counts || {}).reduce((a, b) => a + b, 0) : index.icons.length) : total;
 
   return (
     <div className="mx-auto grid max-w-7xl gap-8 px-4 pb-10 sm:px-6 lg:grid-cols-[240px_1fr]" style={{ '--tlp-duo': duo ? '.16' : '0', color }}>
@@ -103,7 +107,7 @@ export default function Gallery({ initialCategory = null, categories }) {
           <div className="flex flex-wrap items-center gap-3">
             <label className="relative min-w-[220px] flex-1">
               <span className="pointer-events-none absolute start-3 top-1/2 -translate-y-1/2 text-ink-3"><tlp-icon name="search" size="18" suppressHydrationWarning /></span>
-              <input ref={input} value={q} onChange={e => setQ(e.target.value)} type="search" placeholder={`Search ${index ? index.icons.length.toLocaleString('en') : ''} icons…`}
+              <input ref={input} value={q} onChange={e => setQ(e.target.value)} type="search" placeholder={`Search ${(index ? index.icons.length : total).toLocaleString('en')} icons…`}
                 className="h-11 w-full rounded-xl border border-line bg-white ps-10 pe-12 text-sm text-ink shadow-card outline-none transition placeholder:text-ink-3 focus:border-indigo-300 focus:ring-4 focus:ring-indigo-100" />
               <kbd className="absolute end-3 top-1/2 -translate-y-1/2 rounded border border-line bg-paper px-1.5 font-mono text-[11px] text-ink-3">/</kbd>
             </label>
@@ -124,11 +128,11 @@ export default function Gallery({ initialCategory = null, categories }) {
         </div>
 
         <div className="mt-5 flex items-baseline justify-between">
-          <h2 className="text-sm font-semibold text-ink">{cat ? cats.find(c => c.id === cat)?.title : q ? 'Search results' : 'All icons'} <span className="ms-1 font-normal text-ink-3">{index ? results.length.toLocaleString('en') : '…'}</span></h2>
+          <h2 className="text-sm font-semibold text-ink">{cat ? cats.find(c => c.id === cat)?.title : q ? 'Search results' : 'All icons'} <span className="ms-1 font-normal text-ink-3">{(index ? results.length : total).toLocaleString('en')}</span></h2>
           {cat && <Link href={`/categories/${cat}/`} className="text-xs font-semibold text-brand hover:underline">Category page →</Link>}
         </div>
 
-        {!index && <div className="mt-6 grid grid-cols-[repeat(auto-fill,minmax(112px,1fr))] gap-3">{Array.from({ length: 30 }, (_, k) => <div key={k} className="h-[112px] animate-pulse rounded-2xl bg-paper" />)}</div>}
+        {!index && !initial.length && <div className="mt-6 grid grid-cols-[repeat(auto-fill,minmax(112px,1fr))] gap-3">{Array.from({ length: 30 }, (_, k) => <div key={k} className="h-[112px] animate-pulse rounded-2xl bg-paper" />)}</div>}
         {index && !results.length && (
           <div className="mt-16 text-center">
             <p className="text-lg font-semibold">No icons match “{q}”.</p>
@@ -140,7 +144,10 @@ export default function Gallery({ initialCategory = null, categories }) {
             <li key={n} className="[content-visibility:auto] [contain-intrinsic-size:auto_118px]">
               <a href={`/icons/${n}/`} title={n} className="tile-host card card-hover relative flex h-full flex-col items-center gap-2.5 px-2 pb-3 pt-4">
                 <span className="tile size-14" style={{ '--tc': color }}>
-                  <tlp-icon name={n} size={String(size)} stroke={String(stroke)} suppressHydrationWarning />
+                  {svgs[n]
+                    // first screen: static SVG in the HTML; the element takes over on the client (same __html, so React never resets it)
+                    ? <tlp-icon name={n} size={String(size)} stroke={String(stroke)} dangerouslySetInnerHTML={{ __html: svgs[n] }} suppressHydrationWarning />
+                    : <tlp-icon name={n} size={String(size)} stroke={String(stroke)} suppressHydrationWarning />}
                 </span>
                 <span className="w-full truncate text-center font-mono text-[11px] text-ink">{n}</span>
                 {s === 'tlp' && <span className="absolute end-2 top-2 rounded bg-brand px-1 text-[9px] font-bold uppercase text-white">new</span>}
