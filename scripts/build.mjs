@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { parseUpstreamSvg, ALLOWED_ATTRS, ALLOWED_ELEMENTS } from './engine/svg.mjs';
 import { atomize } from './engine/atoms.mjs';
 import { choreograph, validateRules } from './engine/motion.mjs';
-import { ANIMS, LEGACY, LIMITS, SPEED, EXTRA_EASE, runtimeCss, loadRules } from './engine/anims.mjs';
+import { ANIMS, LEGACY, LIMITS, SPEED, EXTRA_EASE, runtimeCss, loadRules, holdPoints } from './engine/anims.mjs';
 import { categorize, orderIcons } from './engine/categorize.mjs';
 import { bundleRuntime } from './lib/bundle.mjs';
 import { encodeManifest, decoderSource, gzipSize } from './lib/manifest.mjs';
@@ -235,7 +235,7 @@ if (outRoot === ROOT) {
 
 // runtime files
 const css = runtimeCss();
-const runtime = bundleRuntime(ROOT, css, EXTRA_EASE);
+const runtime = bundleRuntime(ROOT, css, EXTRA_EASE, holdPoints(css));
 fs.writeFileSync(path.join(DIST, 'tlp-icons.css'), css);
 fs.writeFileSync(path.join(DIST, 'core.js'), header + runtime.coreEsm);
 fs.writeFileSync(path.join(DIST, 'element.js'), header + runtime.elementEsm);

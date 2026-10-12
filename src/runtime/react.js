@@ -5,7 +5,7 @@ import { createElement, forwardRef, useCallback, useEffect, useRef } from 'react
 const isOn = v => v === true || v === '' || v === 'true';
 
 export const TlpIcon = forwardRef(function TlpIcon(props, forwardedRef) {
-  const { name, size, stroke, trigger, duotone, flip, children, ...rest } = props;
+  const { name, size, stroke, trigger, duotone, flip, animated, children, ...rest } = props;
   const local = useRef(null);
 
   // the element is imported on the client only (keeps server rendering safe)
@@ -24,8 +24,9 @@ export const TlpIcon = forwardRef(function TlpIcon(props, forwardedRef) {
     set('stroke', stroke);
     set('trigger', trigger);
     set('flip', flip);
+    set('animated', animated === false || animated === 'false' ? 'false' : null);
     if (isOn(duotone)) el.setAttribute('duotone', ''); else el.removeAttribute('duotone');
-  }, [name, size, stroke, trigger, duotone, flip]);
+  }, [name, size, stroke, trigger, duotone, flip, animated]);
 
   const ref = useCallback(node => {
     local.current = node;
@@ -40,6 +41,7 @@ export const TlpIcon = forwardRef(function TlpIcon(props, forwardedRef) {
   if (stroke !== undefined && stroke !== null) attrs.stroke = String(stroke);
   if (trigger) attrs.trigger = trigger;
   if (flip) attrs.flip = flip;
+  if (animated === false || animated === 'false') attrs.animated = 'false';
   if (isOn(duotone)) attrs.duotone = '';
   return createElement('tlp-icon', attrs, children);
 });

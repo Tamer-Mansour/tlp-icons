@@ -4,6 +4,17 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.3.1] - 2026-10-12
+
+### Added
+
+- **`trigger="hold"`**: on hover the icon plays to its peak and stays there (trash lid up, bell tilted); when the
+  mouse leaves it plays back to rest. Hold points are generated from the keyframes (`HOLD` in the runtime);
+  entrances jump to their end, and animations that cannot freeze nicely (blink, drip...) play once.
+  Also `el.hold()` / `el.release()` and the `hold()` / `release()` runtime functions.
+- **`animated="false"`** (and the `animated` property, React prop): a static icon that never animates.
+- **`config.trigger`** (page default trigger) and **`config.animated = false`** (every icon static).
+
 ## [0.3.0] - 2026-10-12
 
 ### Added
@@ -112,6 +123,7 @@ All notable changes to this project are documented here. The format follows
 - Raw data and SVG helpers (`icons`, `categories`, `getIcon`, `getSvg`, `toSvgString`).
 - The offline single-file bundle and the stylesheet.
 
+[0.3.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.1.0...v0.1.1

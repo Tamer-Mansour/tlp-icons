@@ -3,7 +3,7 @@ import type { IconData, SvgOptions, Timings } from './index.js';
 
 export type { IconData, MotionStep, SvgOptions, Timings, Category } from './index.js';
 
-export type TlpIconTrigger = 'hover' | 'loop' | 'click' | 'none';
+export type TlpIconTrigger = 'hover' | 'hold' | 'loop' | 'click' | 'none';
 export type TlpIconFlip = 'rtl' | 'x';
 
 /** Fired (bubbling, composed) when the icon's SVG has been rendered. */
@@ -23,15 +23,22 @@ export interface TlpIcon extends HTMLElement {
   /** Stroke width in the 24x24 grid. Reads back as the attribute string. */
   get stroke(): string;
   set stroke(value: string | number | null);
-  /** When the animation plays. Default "hover". */
+  /** When the animation plays. Default "hover" (or config.trigger). "hold": plays to its peak on hover, stays, returns on mouse-out. */
   trigger: TlpIconTrigger;
   /** Soft tinted body fill. Accepts true / false / "" (attribute present). */
   get duotone(): boolean;
   set duotone(value: boolean | '' | 'true' | 'false' | null);
   /** Mirror in RTL pages ("rtl") or always ("x"); null = never. */
   flip: TlpIconFlip | null;
-  /** Plays the animation once. Returns false if it is already playing or motion is reduced. */
+  /** false = static icon that never animates. Default true. Reflects as animated="false". */
+  get animated(): boolean;
+  set animated(value: boolean | 'true' | 'false' | null);
+  /** Plays the animation once. Returns false if it is already playing, static or motion is reduced. */
   play(): boolean;
+  /** Plays to the hold point and stays (what trigger="hold" does on hover). */
+  hold(): boolean;
+  /** Returns from a hold to rest. */
+  release(): boolean;
 
   addEventListener<K extends keyof TlpIconEventMap>(type: K, listener: (this: TlpIcon, ev: TlpIconEventMap[K]) => unknown, options?: boolean | AddEventListenerOptions): void;
   addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
@@ -45,11 +52,20 @@ export declare const TlpIcon: { prototype: TlpIcon; new (): TlpIcon } | undefine
 /** Registers the element (automatic on import in the browser). No-op on the server. */
 export declare function define(tag?: string): boolean;
 
-/** Runtime settings. `speed` scales every animation (default 0.6, about 0.9 s per icon). */
-export declare const config: { speed: number };
+/**
+ * Runtime settings. `speed` scales every animation (default 0.6, about 0.9 s per icon). `trigger` is the page default
+ * for icons without a trigger attribute (default "hover"). `animated: false` makes every icon static.
+ */
+export declare const config: { speed: number; trigger: TlpIconTrigger; animated: boolean };
 
 /** Plays an icon's choreography once on a rendered <svg class="tlp">. */
 export declare function run(svg: SVGSVGElement | Element | null, delay?: number): boolean;
+/** Plays to the hold point and pauses there. */
+export declare function hold(svg: SVGSVGElement | Element | null): boolean;
+/** Plays a held icon back to rest. */
+export declare function release(svg: SVGSVGElement | Element | null): boolean;
+/** Hold point per animation (fraction of its duration). */
+export declare const HOLD: Record<string, number>;
 
 /** Adds icons (and optional aliases) to the runtime registry. */
 export declare function register(icons: Record<string, IconData>, aliases?: Record<string, string>): void;

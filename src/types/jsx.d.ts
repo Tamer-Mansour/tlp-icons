@@ -4,7 +4,7 @@
 // and React's module-scoped `React.JSX` (React 18.3+/19, used by the react-jsx runtime).
 
 declare namespace TlpIconsJSX {
-  type Trigger = 'hover' | 'loop' | 'click' | 'none';
+  type Trigger = 'hover' | 'hold' | 'loop' | 'click' | 'none';
   type Flip = 'rtl' | 'x';
   type Handler = (event: any) => void;
 
@@ -16,6 +16,8 @@ declare namespace TlpIconsJSX {
     trigger?: Trigger;
     duotone?: boolean | '';
     flip?: Flip;
+    /** "false" = static icon */
+    animated?: boolean | 'true' | 'false';
     // standard HTML attributes
     children?: unknown;
     id?: string;

@@ -109,21 +109,24 @@ export default function Docs() {
             <tr><td><code>name</code></td><td>icon name or alias</td><td></td><td>Which icon to show.</td></tr>
             <tr><td><code>size</code></td><td>number (px) or CSS length</td><td><code>24</code></td><td>Width and height (same as <code>--tlp-size</code>).</td></tr>
             <tr><td><code>stroke</code></td><td>number</td><td><code>2</code></td><td>Stroke width in the 24×24 grid (same as <code>--tlp-stroke</code>).</td></tr>
-            <tr><td><code>trigger</code></td><td><code>hover</code> <code>loop</code> <code>click</code> <code>none</code></td><td><code>hover</code></td><td>When the animation plays.</td></tr>
+            <tr><td><code>trigger</code></td><td><code>hover</code> <code>hold</code> <code>loop</code> <code>click</code> <code>none</code></td><td><code>hover</code></td><td>When the animation plays. <code>hold</code>: plays to its peak on hover, stays, returns when the mouse leaves.</td></tr>
             <tr><td><code>duotone</code></td><td>boolean</td><td>off</td><td>Soft tinted fill on the icon&apos;s main body.</td></tr>
             <tr><td><code>flip</code></td><td><code>rtl</code> <code>x</code></td><td>off</td><td>Mirror in right-to-left pages, or always.</td></tr>
+            <tr><td><code>animated</code></td><td><code>false</code></td><td>animated</td><td>Static icon that never animates.</td></tr>
           </tbody>
         </table>
 
         <h3 id="triggers">Triggers</h3>
         <Demo>
           <Cell name="heart" caption="hover" />
+          <Cell name="trash" caption="hold" trigger="hold" />
+          <Cell name="bell" caption='animated="false"' animated={false} />
           <Cell name="loader-circle" caption="loop" trigger="loop" />
           <Cell name="party-popper" caption="click me" trigger="click" />
           <Cell name="folder" caption="duotone" duotone />
           <Cell name="arrow-right" caption='flip="x"' flip="x" />
         </Demo>
-        <CodeBlock lang="html" code={'<tlp-icon name="heart"></tlp-icon>                         <!-- hover (default) -->\n<tlp-icon name="loader-circle" trigger="loop"></tlp-icon>  <!-- again and again -->\n<tlp-icon name="party-popper" trigger="click"></tlp-icon>  <!-- on click -->\n<tlp-icon name="anchor" trigger="none"></tlp-icon>         <!-- only el.play() -->'} />
+        <CodeBlock lang="html" code={'<tlp-icon name="heart"></tlp-icon>                         <!-- hover (default) -->\n<tlp-icon name="trash" trigger="hold"></tlp-icon>          <!-- hover: animate and stay, back on leave -->\n<tlp-icon name="bell" animated="false"></tlp-icon>         <!-- static, never animates -->\n<tlp-icon name="loader-circle" trigger="loop"></tlp-icon>  <!-- again and again -->\n<tlp-icon name="party-popper" trigger="click"></tlp-icon>  <!-- on click -->\n<tlp-icon name="anchor" trigger="none"></tlp-icon>         <!-- only el.play() -->'} />
 
         <h2 id="frameworks">Frameworks</h2>
         <p>Import the element once at startup, then use <code>&lt;tlp-icon&gt;</code> anywhere. This website is built with Next.js and uses the package exactly like this.</p>

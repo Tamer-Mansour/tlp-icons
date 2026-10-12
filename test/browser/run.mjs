@@ -73,6 +73,47 @@ await test('hovering a container with several icons animates none; a single-icon
   assert.ok(await page.evaluate(() => !!document.querySelector('#single svg.tlp-run')));
 });
 
+await test('trigger="hold": hover plays to the hold point and stays, mouse-out returns to rest', async () => {
+  await page.mouse.move(990, 690);
+  await page.evaluate(() => {
+    const el = document.createElement('tlp-icon');
+    el.id = 'held'; el.setAttribute('name', 'trash'); el.setAttribute('trigger', 'hold'); el.setAttribute('size', '48');
+    el.style.cssText = 'position:fixed;left:400px;top:420px;z-index:99';
+    document.body.appendChild(el);
+  });
+  await page.waitForSelector('#held svg.tlp');
+  const moved = () => page.evaluate(() => [...document.querySelectorAll('#held .p')].map(p => getComputedStyle(p).transform).filter(t => t !== 'none' && t !== 'matrix(1, 0, 0, 1, 0, 0)').join('|'));
+  await page.hover('#held');
+  await page.waitForTimeout(1600);
+  const a = await moved();
+  await page.waitForTimeout(500);
+  const b = await moved();
+  assert.ok(a, 'nothing moved while held');
+  assert.equal(a, b, 'the held frame changed (not paused)');
+  assert.ok(await page.evaluate(() => document.querySelector('#held svg').classList.contains('tlp-run')));
+  await page.mouse.move(990, 690);
+  await page.waitForTimeout(1600);
+  assert.equal(await moved(), '', 'parts did not return to rest');
+  assert.equal(await page.evaluate(() => document.querySelector('#held svg').classList.contains('tlp-run')), false);
+  await page.evaluate(() => document.getElementById('held').remove());
+});
+
+await test('animated="false": static icon, hover and play() do nothing; the property reflects', async () => {
+  await page.mouse.move(990, 690);
+  await page.evaluate(() => {
+    const el = document.createElement('tlp-icon');
+    el.id = 'still'; el.setAttribute('name', 'bell'); el.animated = false; el.setAttribute('size', '48');
+    el.style.cssText = 'position:fixed;left:500px;top:420px;z-index:99';
+    document.body.appendChild(el);
+  });
+  await page.waitForSelector('#still svg.tlp');
+  await page.hover('#still');
+  await page.waitForTimeout(100);
+  const r = await page.evaluate(() => { const el = document.getElementById('still'); return { run: el.querySelector('svg').classList.contains('tlp-run'), play: el.play(), attr: el.getAttribute('animated'), prop: el.animated }; });
+  assert.deepEqual(r, { run: false, play: false, attr: 'false', prop: false });
+  await page.evaluate(() => document.getElementById('still').remove());
+});
+
 await test('RTL: directional icons mirror and nudge moves the way they point', async () => {
   const dx = async () => page.evaluate(async () => {
     const el = document.createElement('tlp-icon');

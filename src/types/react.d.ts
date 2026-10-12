@@ -11,6 +11,8 @@ export interface TlpIconProps extends Omit<HTMLAttributes<HTMLElement>, 'childre
   trigger?: TlpIconTrigger;
   duotone?: boolean | '';
   flip?: TlpIconFlip;
+  /** false = static icon (never animates) */
+  animated?: boolean;
   children?: ReactNode;
 }
 

@@ -103,9 +103,19 @@ Offline / no modules (for example opened from `file://`): one classic script wit
 | `name` | any icon name (or a Lucide alias) | |
 | `size` | number (px) or any CSS length | `24` (or `--tlp-size`) |
 | `stroke` | stroke width | `2` (or `--tlp-stroke`) |
-| `trigger` | `hover`, `loop`, `click`, `none` | `hover` |
+| `trigger` | `hover`, `hold`, `loop`, `click`, `none` | `hover` |
 | `duotone` | boolean, adds a soft tinted body fill | off |
 | `flip` | `rtl` (mirror only in right-to-left pages), `x` (always mirror) | off |
+| `animated` | `false` makes the icon static (never animates) | animated |
+
+`trigger="hold"` plays the animation to its peak on hover and stays there (the trash lid stays up, the bell stays
+tilted); when the mouse leaves it plays back to rest. Page-wide defaults:
+
+```js
+import { config } from 'tlp-icons/element';
+config.trigger = 'hold';   // every icon without a trigger attribute
+config.animated = false;   // every icon static
+```
 
 The icon takes its color from `color`, like text. Theme everything with CSS variables:
 

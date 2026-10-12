@@ -1,9 +1,9 @@
-/* <tlp-icon name="bell" size="24" stroke="1.75" trigger="hover|loop|click|none" duotone flip="rtl|x"> */
-import { loadIcon, createSvg, run, installHover, ensureStyles } from './core.js';
+/* <tlp-icon name="bell" size="24" stroke="1.75" trigger="hover|hold|loop|click|none" duotone flip="rtl|x" animated="false"> */
+import { loadIcon, createSvg, run, hold, release, installHover, ensureStyles } from './core.js';
 
 const LOOP_PAUSE = 1200;
-const ATTRS = ['name', 'size', 'stroke', 'trigger', 'duotone', 'flip'];
-const TRIGGERS = ['hover', 'loop', 'click', 'none'];
+const ATTRS = ['name', 'size', 'stroke', 'trigger', 'duotone', 'flip', 'animated'];
+const TRIGGERS = ['hover', 'hold', 'loop', 'click', 'none'];
 const warned = new Set();
 const isProduction = () => typeof process !== 'undefined' && !!process.env && process.env.NODE_ENV === 'production';
 
@@ -48,6 +48,12 @@ export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class Tl
   }
   get flip() { const f = this.getAttribute('flip'); return f === 'rtl' || f === 'x' ? f : null; }
   set flip(v) { this._reflect('flip', v); }
+  /** false = static icon (never animates). Default true. */
+  get animated() { return this.getAttribute('animated') !== 'false'; }
+  set animated(v) {
+    if (v === false || v === 'false') this.setAttribute('animated', 'false');
+    else this.removeAttribute('animated');
+  }
 
   _reflect(attr, v) {
     if (v === null || v === undefined || v === false) this.removeAttribute(attr);
@@ -74,6 +80,7 @@ export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class Tl
     else if (attr === 'name') this.render();
     else if (attr === 'trigger') this.setupTrigger();
     else if (attr === 'duotone' || attr === 'flip') this.applyFlags();
+    else if (attr === 'animated' && newValue === 'false') { this.release(); this.setupTrigger(); }
   }
 
   applyVars() {
@@ -139,6 +146,10 @@ export const TlpIcon = typeof HTMLElement === 'undefined' ? undefined : class Tl
 
   /** Plays the animation once. */
   play() { return run(this.querySelector('svg.tlp')); }
+  /** Plays to the hold point and stays there (what trigger="hold" does on hover). */
+  hold() { return hold(this.querySelector('svg.tlp')); }
+  /** Returns from a hold to rest. */
+  release() { return release(this.querySelector('svg.tlp')); }
 };
 
 /**

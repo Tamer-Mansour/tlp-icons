@@ -76,6 +76,39 @@ export function runtimeCss() {
   return `${base.slice(0, at)}${extra}\n\n${base.slice(at)}`;
 }
 
+/**
+ * Hold points for trigger="hold": where each animation pauses while hovered (0..1 of its own duration).
+ * Gestures hold at their most displaced visible keyframe, turns half way (spinHalf at its end), entrances are
+ * skipped to their end (not listed: the runtime treats a missing entry as "jump to the end").
+ */
+const PLAY_THROUGH = new Set(['blink', 'pulseRing', 'drip', 'fall', 'retrace']);
+export function holdPoints(css = runtimeCss()) {
+  const out = {};
+  for (const [, name, body] of css.matchAll(/@keyframes tlp-(\w+)\{((?:[^{}]*\{[^{}]*\})*)\}/g)) {
+    const a = ANIMS[name];
+    if (!a || a.kind === 'entrance') continue;
+    if (a.kind !== 'gesture') { out[name] = name === 'spinHalf' ? 1 : 0.5; continue; }
+    // a frozen mid-frame would look broken (closed eye, faded ring, half-erased stroke): play once to rest instead
+    if (PLAY_THROUGH.has(name)) { out[name] = 1; continue; }
+    let best = 0.5, score = -1;
+    for (const [, sel, decl] of body.matchAll(/([\d.%,\s]+)\{([^}]*)\}/g)) {
+      const op = /(?:^|;)\s*opacity:\s*([\d.]+)/.exec(decl);
+      if (op && +op[1] < 0.6) continue; // never freeze a part while it is faded out
+      let s = 0;
+      for (const [, fn, args] of decl.matchAll(/(\w+)\(([^)]*)\)/g)) {
+        const v = args.split(',').map(parseFloat).filter(x => !Number.isNaN(x));
+        if (fn.startsWith('translate')) s += v.reduce((t, x) => t + Math.abs(x), 0);
+        else if (fn.startsWith('rotate') || fn.startsWith('skew')) s += v.reduce((t, x) => t + Math.abs(x), 0) / 6;
+        else if (fn.startsWith('scale')) s += v.reduce((t, x) => t + Math.abs(x - 1), 0) * 25;
+      }
+      if (/stroke-dashoffset:\s*([\d.]+)/.test(decl)) s += parseFloat(/stroke-dashoffset:\s*([\d.]+)/.exec(decl)[1]) * 3;
+      for (const p of sel.split(',').map(x => parseFloat(x) / 100)) if (p > 0 && p < 1 && s > score) { score = s; best = p; }
+    }
+    out[name] = +best.toFixed(3);
+  }
+  return out;
+}
+
 /** config/rules.json with the batches' extra rules in front (first matching rule wins). */
 export function loadRules() {
   const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'config', 'rules.json'), 'utf8'));

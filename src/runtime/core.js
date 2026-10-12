@@ -1,7 +1,8 @@
 /* tlp-icons runtime core: icon registry, choreography baking, run engine and the hover rule.
    Plain ES module without imports so the build can also wrap it into a classic <script> bundle. */
 
-export const config = { speed: 0.6 };
+/** speed: duration multiplier. trigger: page default for icons without one. animated: false makes every icon static. */
+export const config = { speed: 0.6, trigger: 'hover', animated: true };
 
 const OUT = 'cubic-bezier(.22,1,.36,1)';
 const TURN = 'cubic-bezier(.65,0,.35,1)';
@@ -11,6 +12,9 @@ export const EASE = {
   grow: OUT, growX: OUT, spin: TURN, spinBack: TURN, spinHalf: TURN, sweep: TURN, sweepHour: TURN, orbit: TURN,
   /*__EASE__*/
 };
+/** trigger="hold": where each animation pauses while hovered (fraction of its duration; generated from the keyframes).
+    Animations not listed (entrances) jump to their end. */
+export const HOLD = { /*__HOLD__*/ };
 
 const NS = 'http://www.w3.org/2000/svg';
 // SSR safety: never touch `document` unless it exists (Node, workers).
@@ -131,10 +135,12 @@ export function toSvgString(icon, opts = {}) {
 }
 
 const reduced = () => typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches;
+/** Static icons never animate: config.animated = false, or animated="false" / data-animated="false" on the icon or an ancestor. */
+const isStatic = svg => config.animated === false || !!svg.closest('[animated=false],[data-animated=false]');
 
 /** Plays an icon's choreography once. It always finishes, even if the pointer leaves. */
 export function run(svg, delay = 0) {
-  if (!svg || svg._tlpBusy || reduced()) return false;
+  if (!svg || svg._tlpBusy || svg._tlpHold || reduced() || isStatic(svg)) return false;
   svg._tlpBusy = true;
   const go = () => {
     svg.classList.remove('tlp-run');
@@ -150,11 +156,69 @@ export function run(svg, delay = 0) {
   return true;
 }
 
+const endOf = a => { const t = a.effect.getTiming(); return (+t.delay || 0) + (+t.duration || 0); };
+function track(svg, busy) {
+  cancelAnimationFrame(svg._tlpRaf);
+  const tick = () => { if (busy()) svg._tlpRaf = requestAnimationFrame(tick); };
+  svg._tlpRaf = requestAnimationFrame(tick);
+}
+
+/**
+ * trigger="hold": plays forward and pauses each moving part at its hold point (HOLD), entrances jump to their end.
+ * release() plays back to rest. Calling hold() while releasing turns around from the current frame.
+ */
+export function hold(svg) {
+  if (!svg || svg._tlpBusy || reduced() || isStatic(svg)) return false;
+  if (typeof svg.getAnimations !== 'function') return run(svg);
+  if (!svg._tlpHold) {
+    svg.classList.remove('tlp-run');
+    void svg.getBoundingClientRect();
+    svg.classList.add('tlp-run');
+    svg._tlpAnims = svg.getAnimations({ subtree: true });
+    for (const a of svg._tlpAnims) {
+      const h = HOLD[(a.animationName || '').replace(/^tlp-/, '')];
+      const t = a.effect.getTiming();
+      a._tlpEnd = endOf(a);
+      a._tlpAt = h === undefined ? a._tlpEnd : (+t.delay || 0) + h * (+t.duration || 0);
+      if (h === undefined) { a.currentTime = a._tlpEnd; a.pause(); }
+    }
+  } else {
+    for (const a of svg._tlpAnims) if (a._tlpAt < a._tlpEnd) { a.playbackRate = 1; a.play(); }
+  }
+  svg._tlpHold = 'in';
+  track(svg, () => {
+    let busy = false;
+    for (const a of svg._tlpAnims) {
+      if (a.playState !== 'running' || a.playbackRate < 0) continue;
+      if (a._tlpAt < a._tlpEnd && a.currentTime >= a._tlpAt) { a.currentTime = a._tlpAt; a.pause(); } else busy = true;
+    }
+    return busy;
+  });
+  return true;
+}
+
+/** Ends a hold: held parts play back to rest, then the icon is static again. */
+export function release(svg) {
+  if (!svg || !svg._tlpHold || svg._tlpHold === 'out') return false;
+  svg._tlpHold = 'out';
+  const back = svg._tlpAnims.filter(a => a._tlpAt < a._tlpEnd);
+  for (const a of back) { a.playbackRate = -1; a.play(); }
+  track(svg, () => {
+    if (svg._tlpHold !== 'out') return false;
+    if (back.some(a => a.playState === 'running' && a.currentTime > 0)) return true;
+    svg.classList.remove('tlp-run');
+    svg._tlpHold = null;
+    svg._tlpAnims = null;
+    return false;
+  });
+  return true;
+}
+
 export const ICON_SELECTOR = 'tlp-icon,svg[data-tlp-icon]';
 const HOST = 'button,a,[role=button],[role=menuitem],[role=tab],[role=option],li,tr,td,th,label,summary,input,select,textarea';
 
 function svgOf(icon) { return icon.tagName.toLowerCase() === 'svg' ? icon : icon.querySelector('svg.tlp'); }
-function triggerOf(icon) { return icon.getAttribute('trigger') || icon.getAttribute('data-trigger') || 'hover'; }
+function triggerOf(icon) { return icon.getAttribute('trigger') || icon.getAttribute('data-trigger') || config.trigger || 'hover'; }
 
 /**
  * Hover rule: hovering an icon animates it. Otherwise walk up to the nearest element that contains exactly one
@@ -186,8 +250,17 @@ export function installHover(doc = currentDocument()) {
     const icon = hit.icon || hit;
     const scope = hit.scope || icon;
     if (scope.contains(e.relatedTarget)) return;
-    if (triggerOf(icon) !== 'hover') return;
-    run(svgOf(icon));
+    const trigger = triggerOf(icon);
+    if (trigger === 'hover') run(svgOf(icon));
+    else if (trigger === 'hold') hold(svgOf(icon));
+  }, true);
+  doc.addEventListener('mouseout', e => {
+    const hit = hoverTarget(e.target);
+    if (!hit) return;
+    const icon = hit.icon || hit;
+    const scope = hit.scope || icon;
+    if (scope.contains(e.relatedTarget) || triggerOf(icon) !== 'hold') return;
+    release(svgOf(icon));
   }, true);
 }
 
