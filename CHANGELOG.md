@@ -46,6 +46,7 @@ All notable changes to this project are documented here. The format follows
   - Docs in sync with the build.
   - Framework recipe compilation.
   - Browser tests for property reflection, missing icons, detached renders, `tlp-ready` bubbling, and lazy chunk loading over HTTP.
+  - `scripts/smoke.mjs`: the packed tarball in fresh Vite + React 18, Vite + React 19 and Next.js 15 App Router projects (tsc, production build, server render, browser render).
 
 ### Changed
 
@@ -70,6 +71,7 @@ All notable changes to this project are documented here. The format follows
 - **Icons that never loaded**: tags already in the page when the ES module ran were upgraded before the lazy loader existed and never rendered. This affected `<script type="module">` / CDN usage. Icons requested before the loader is installed are now loaded when it arrives.
 - **Offline bundle**: with `tlp-icons.all.js`, unknown names now resolve as missing instead of waiting forever.
 - **Bundler tree-shaking**: `element.js` is marked as side-effectful, so bundlers never drop the element registration.
+- **Vite builds missing icons**: production builds were missing the category chunks, because the lazy loader used a template-literal `import()` that Vite does not analyse inside `node_modules`. Icons stayed empty (404). The loader now has one static `import('./icons/<id>.js')` per category, which every bundler can split.
 
 ## [0.1.1] - 2026-10-11
 

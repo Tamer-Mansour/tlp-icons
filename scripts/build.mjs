@@ -239,14 +239,20 @@ const runtime = bundleRuntime(ROOT, css);
 fs.writeFileSync(path.join(DIST, 'tlp-icons.css'), css);
 fs.writeFileSync(path.join(DIST, 'core.js'), header + runtime.coreEsm);
 fs.writeFileSync(path.join(DIST, 'element.js'), header + runtime.elementEsm);
+// One static import() per category: every bundler (Vite, webpack, Turbopack, Rollup, esbuild, Parcel) can see and
+// split them, including from node_modules (Vite does not analyse template-literal imports inside dependencies).
+const chunkLoaders = catMeta.map(c => `  ${json(c.id)}: () => import('./icons/${c.id}.js'),`).join('\n');
 fs.writeFileSync(path.join(DIST, 'tlp-icon.js'), `${header}import { setLoader, register } from './core.js';
 import { categoryOf, ALIASES } from './manifest.js';
 register({}, ALIASES);
+const CHUNKS = {
+${chunkLoaders}
+};
 const pending = {};
 // one network round trip per category: name -> category is a deterministic lookup (see manifest.js)
 setLoader(name => {
   const cat = categoryOf(name);
-  return pending[cat] || (pending[cat] = import(\`./icons/\${cat}.js\`).then(m => register(m.default)));
+  return pending[cat] || (pending[cat] = CHUNKS[cat]().then(m => register(m.default)));
 });
 export * from './core.js';
 export { TlpIcon, define } from './element.js';

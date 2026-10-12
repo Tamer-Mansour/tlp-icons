@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=4f46e5"></a>
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=4f46e5"></a>
-  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-5.0%20KB%20gzip-16a34a"></a>
+  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-5.3%20KB%20gzip-16a34a"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/tlp-icons?color=16a34a"></a>
   <img alt="icons" src="https://img.shields.io/badge/icons-6%2C620-4f46e5">
@@ -340,7 +340,7 @@ element core goes over 8 KB gzip or the manifest over 15 KB gzip.
 <!-- sizes:start -->
 | What | Minified | Gzip |
 | --- | ---: | ---: |
-| element core (tlp-icon + core + element) | 14.3 KB | **5.0 KB** |
+| element core (tlp-icon + core + element) | 15.7 KB | **5.3 KB** |
 | manifest | 21.7 KB | **11.1 KB** |
 | smallest category chunk (science.js) | 11.5 KB | **3.5 KB** |
 | largest category chunk (interface.js) | 180.6 KB | **32.4 KB** |
@@ -349,7 +349,7 @@ element core goes over 8 KB gzip or the manifest over 15 KB gzip.
 <!-- sizes:end -->
 
 What a page actually downloads: the element core, the manifest, then **one chunk per category it uses**. A page
-with a few interface and arrow icons loads about <!--s:size.0.gzip-->5.0 KB<!--/s--> + <!--s:size.1.gzip-->11.1 KB<!--/s-->
+with a few interface and arrow icons loads about <!--s:size.0.gzip-->5.3 KB<!--/s--> + <!--s:size.1.gzip-->11.1 KB<!--/s-->
 plus those two chunks. Import a chunk directly (`tlp-icons/icons/<category>.js`) to skip the manifest. The
 stylesheet is injected by the element; `tlp-icons/css` is there if you prefer a `<link>`.
 

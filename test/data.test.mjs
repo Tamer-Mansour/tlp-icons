@@ -201,6 +201,12 @@ test('dist has per-category chunks and the manifest maps every name (and alias t
   assert.ok(CATEGORIES.map(c => c.id).includes(categoryOf('definitely-not-an-icon')), 'unknown names still map to a real chunk');
 });
 
+test('lazy loader uses one static import() per category (bundlers like Vite can split them from node_modules)', () => {
+  const code = fs.readFileSync(path.join(ROOT, 'dist', 'tlp-icon.js'), 'utf8');
+  for (const c of D.categories) assert.ok(code.includes(`import("./icons/${c.id}.js")`), `no static import for ${c.id}`);
+  assert.ok(!/import\(`/.test(code), 'template-literal import() is invisible to Vite inside node_modules');
+});
+
 test('manifest stays small (under 12 KB gzip)', async () => {
   const zlib = await import('node:zlib');
   const fsMod = await import('node:fs');
