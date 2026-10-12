@@ -169,6 +169,7 @@ function track(svg, busy) {
  */
 export function hold(svg) {
   if (!svg || svg._tlpBusy || reduced() || isStatic(svg)) return false;
+  if (svg._tlpHold === 'in') return true;
   if (typeof svg.getAnimations !== 'function') return run(svg);
   if (!svg._tlpHold) {
     svg.classList.remove('tlp-run');
@@ -258,8 +259,10 @@ export function installHover(doc = currentDocument()) {
     const hit = hoverTarget(e.target);
     if (!hit) return;
     const icon = hit.icon || hit;
-    const scope = hit.scope || icon;
-    if (scope.contains(e.relatedTarget) || triggerOf(icon) !== 'hold') return;
+    if (triggerOf(icon) !== 'hold') return;
+    // still hovering the same icon by the hover rule (e.g. from the icon onto its card): keep holding
+    const next = e.relatedTarget && hoverTarget(e.relatedTarget);
+    if (next && (next.icon || next) === icon) return;
     release(svgOf(icon));
   }, true);
 }

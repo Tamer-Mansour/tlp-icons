@@ -4,6 +4,15 @@ import Link from 'next/link';
 
 const COLORS = ['#4f46e5', '#2563eb', '#0d9488', '#16a34a', '#0f172a', '#c2410c', '#be123c', '#9333ea'];
 const BATCH = 180;
+// how the grid animates: the trigger attribute, or animated="false" for static
+const MODES = [
+  ['hover', 'Hover', 'Plays once on hover'],
+  ['hold', 'Hold', 'Animates on hover, stays, returns when the mouse leaves'],
+  ['loop', 'Loop', 'Plays again and again'],
+  ['click', 'Click', 'Plays on click'],
+  ['static', 'Static', 'No animation (animated="false")'],
+];
+const modeAttrs = mode => (mode === 'static' ? { animated: 'false', trigger: 'none' } : { trigger: mode });
 
 function score(name, q, words) {
   if (name === q) return 0;
@@ -24,6 +33,7 @@ export default function Gallery({ initialCategory = null, categories, initial = 
   const [stroke, setStroke] = useState(1.75);
   const [color, setColor] = useState(COLORS[0]);
   const [duo, setDuo] = useState(true);
+  const [mode, setMode] = useState('hover');
   const [shown, setShown] = useState(BATCH);
   const sentinel = useRef(null);
   const input = useRef(null);
@@ -32,6 +42,7 @@ export default function Gallery({ initialCategory = null, categories, initial = 
     const p = new URLSearchParams(location.search);
     if (p.get('q')) setQ(p.get('q'));
     if (p.get('c')) setCat(p.get('c'));
+    if (MODES.some(([m]) => m === p.get('mode'))) setMode(p.get('mode'));
     fetch('/search.json').then(r => r.json()).then(setIndex);
     const onKey = e => { if (e.key === '/' && document.activeElement !== input.current) { e.preventDefault(); input.current?.focus(); } };
     addEventListener('keydown', onKey);
@@ -118,6 +129,12 @@ export default function Gallery({ initialCategory = null, categories, initial = 
                 {COLORS.map(c => <button key={c} type="button" aria-label={`Color ${c}`} onClick={() => setColor(c)} className={`size-5 rounded-full border-2 border-white ring-1 transition ${color === c ? 'ring-ink' : 'ring-line'}`} style={{ background: c }} />)}
               </div>
               <button type="button" onClick={() => setDuo(d => !d)} className={`h-8 rounded-lg border px-3 font-semibold transition ${duo ? 'border-indigo-200 bg-brand-soft text-brand' : 'border-line bg-white text-ink-2'}`}>Duotone</button>
+              <div role="radiogroup" aria-label="Animation mode" className="flex h-8 items-center rounded-lg border border-line bg-paper p-0.5">
+                {MODES.map(([m, label, tip]) => (
+                  <button key={m} type="button" role="radio" aria-checked={mode === m} title={tip} onClick={() => setMode(m)}
+                    className={`h-full rounded-md px-2.5 font-semibold transition ${mode === m ? 'bg-white text-brand shadow-card' : 'text-ink-2 hover:text-ink'}`}>{label}</button>
+                ))}
+              </div>
             </div>
           </div>
           {/* mobile categories */}
@@ -142,12 +159,12 @@ export default function Gallery({ initialCategory = null, categories, initial = 
         <ul className="mt-4 grid grid-cols-[repeat(auto-fill,minmax(104px,1fr))] gap-2.5 sm:grid-cols-[repeat(auto-fill,minmax(118px,1fr))]">
           {results.slice(0, shown).map(([n, , , s]) => (
             <li key={n} className="[content-visibility:auto] [contain-intrinsic-size:auto_118px]">
-              <a href={`/icons/${n}/`} title={n} className="tile-host card card-hover relative flex h-full flex-col items-center gap-2.5 px-2 pb-3 pt-4">
+              <a href={`/icons/${n}/`} title={n} onClick={e => { if (mode === 'click' && e.target.closest('.tile')) e.preventDefault(); }} className="tile-host card card-hover relative flex h-full flex-col items-center gap-2.5 px-2 pb-3 pt-4">
                 <span className="tile size-14" style={{ '--tc': color }}>
                   {svgs[n]
                     // first screen: static SVG in the HTML; the element takes over on the client (same __html, so React never resets it)
-                    ? <tlp-icon name={n} size={String(size)} stroke={String(stroke)} dangerouslySetInnerHTML={{ __html: svgs[n] }} suppressHydrationWarning />
-                    : <tlp-icon name={n} size={String(size)} stroke={String(stroke)} suppressHydrationWarning />}
+                    ? <tlp-icon name={n} size={String(size)} stroke={String(stroke)} {...modeAttrs(mode)} dangerouslySetInnerHTML={{ __html: svgs[n] }} suppressHydrationWarning />
+                    : <tlp-icon name={n} size={String(size)} stroke={String(stroke)} {...modeAttrs(mode)} suppressHydrationWarning />}
                 </span>
                 <span className="w-full truncate text-center font-mono text-[11px] text-ink">{n}</span>
                 {s === 'tlp' && <span className="absolute end-2 top-2 rounded bg-brand px-1 text-[9px] font-bold uppercase text-white">new</span>}

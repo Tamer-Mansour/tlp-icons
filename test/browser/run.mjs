@@ -98,6 +98,30 @@ await test('trigger="hold": hover plays to the hold point and stays, mouse-out r
   await page.evaluate(() => document.getElementById('held').remove());
 });
 
+await test('trigger="hold" inside a card: moving between the icon and the card keeps it held', async () => {
+  await page.mouse.move(990, 690);
+  await page.evaluate(() => {
+    const card = document.createElement('a');
+    card.id = 'holdcard'; card.href = '#';
+    card.style.cssText = 'position:fixed;left:600px;top:380px;width:160px;height:140px;display:grid;place-items:center;border:1px solid #ccc;z-index:99';
+    card.innerHTML = '<span style="padding:10px"><tlp-icon name="trash" trigger="hold" size="48"></tlp-icon></span><span>trash</span>';
+    document.body.appendChild(card);
+  });
+  await page.waitForSelector('#holdcard svg.tlp');
+  const held = () => page.evaluate(() => document.querySelector('#holdcard svg')._tlpHold || null);
+  await page.mouse.move(680, 430, { steps: 4 }); // onto the icon
+  await page.waitForTimeout(300);
+  await page.mouse.move(610, 390, { steps: 6 }); // icon -> card padding
+  await page.waitForTimeout(300);
+  await page.mouse.move(680, 432, { steps: 6 }); // back onto the icon
+  await page.waitForTimeout(300);
+  assert.equal(await held(), 'in', 'released while still inside the card');
+  await page.mouse.move(990, 690, { steps: 4 });
+  await page.waitForTimeout(1500);
+  assert.equal(await held(), null, 'not released after leaving the card');
+  await page.evaluate(() => document.getElementById('holdcard').remove());
+});
+
 await test('animated="false": static icon, hover and play() do nothing; the property reflects', async () => {
   await page.mouse.move(990, 690);
   await page.evaluate(() => {

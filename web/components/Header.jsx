@@ -4,7 +4,8 @@ import Link from 'next/link';
 import GithubMark from './GithubMark';
 import NavLinks from './NavLinks';
 import { LINKS } from '@/lib/nav';
-import { REPO_URL } from '@/lib/site';
+import { REPO_URL, NPM_URL } from '@/lib/site';
+import pkg from 'tlp-icons/package.json';
 
 const Icon = ({ name, size }) => <tlp-icon name={name} size={size} stroke="2" suppressHydrationWarning />;
 
@@ -15,7 +16,7 @@ export default function Header() {
         <Link href="/" className="group flex items-center gap-2.5" aria-label="tlp-icons home">
           <img src="/favicon.svg" alt="" width="34" height="34" className="size-[34px] rounded-[10px] shadow-[0_6px_16px_-6px_#4f46e5] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105" />
           <span className="text-[17px] font-bold tracking-tight">tlp-icons</span>
-          <span className="hidden rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] font-semibold text-ink-2 sm:inline">v0.1</span>
+          <span className="hidden rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] font-semibold text-ink-2 sm:inline">v{pkg.version}</span>
         </Link>
         <NavLinks />
         <div className="ms-auto flex items-center gap-2">
@@ -23,6 +24,10 @@ export default function Header() {
             <Icon name="search" size="16" />
             <span className="w-40 text-start">Search icons…</span>
           </Link>
+          <a href={NPM_URL} target="_blank" rel="noopener" aria-label="tlp-icons on npm" className="flex h-9 items-center gap-2 rounded-lg border border-line bg-white px-3 text-sm font-semibold text-ink-2 shadow-card transition hover:border-red-200 hover:text-[#cb3837]">
+            <svg viewBox="0 0 24 24" aria-hidden="true" className="size-4"><path fill="#cb3837" d="M2 7h20v9H12v1.5H7.5V16H2zm1.5 1.5v6h3v-4.5H8v4.5h1.5v-6zm7.5 0v7.5h3v-1.5h3v-6zm3 1.5H15v3h-1.5zm4.5-1.5v6h3v-4.5H20v4.5h1.5v-6z" /></svg>
+            <span className="hidden sm:inline">npm</span>
+          </a>
           <a href={REPO_URL} target="_blank" rel="noopener" className="flex h-9 items-center gap-2 rounded-lg bg-ink px-3 text-sm font-semibold text-white transition hover:bg-slate-800">
             <GithubMark />
             <span className="hidden sm:inline">GitHub</span>

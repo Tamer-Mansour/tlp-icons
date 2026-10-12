@@ -4,6 +4,18 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.3.2] - 2026-10-12
+
+### Fixed
+
+- `trigger="hold"` released too early when the icon sits in a card or button: moving from the icon onto its
+  container (still the same icon by the hover rule) no longer counts as leaving.
+
+### Website
+
+- Icons gallery: animation mode selector (Hover, Hold, Loop, Click, Static; also `?mode=` in the URL).
+- npm link and the real package version in the header.
+
 ## [0.3.1] - 2026-10-12
 
 ### Added
@@ -123,6 +135,7 @@ All notable changes to this project are documented here. The format follows
 - Raw data and SVG helpers (`icons`, `categories`, `getIcon`, `getSvg`, `toSvgString`).
 - The offline single-file bundle and the stylesheet.
 
+[0.3.2]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.1...v0.3.2
 [0.3.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.1.1...v0.2.0
