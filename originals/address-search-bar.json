@@ -1,0 +1,20 @@
+{
+  "name": "address-search-bar",
+  "category": "maps",
+  "tags": [
+    "address",
+    "search",
+    "bar",
+    "pin",
+    "location",
+    "find",
+    "map",
+    "lookup"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"6\"/><path class=\"p2\" d=\"M8 15.5 5.4 11.3a2.8 2.8 0 1 1 5.2 0z\"/><path class=\"p3\" d=\"M13.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

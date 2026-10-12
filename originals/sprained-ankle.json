@@ -1,0 +1,19 @@
+{
+  "name": "sprained-ankle",
+  "category": "health",
+  "tags": [
+    "sprain",
+    "sprained",
+    "ankle",
+    "twist",
+    "injury",
+    "foot",
+    "pain"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 2h5v9l5 3v4H6v-2l3-2z\"/><g class=\"p2\"><path d=\"M6 4.5A6 6 0 0 0 4 10\"/><path d=\"M2.5 8.5 4 10l1.5-1.5\"/></g><path class=\"p3\" d=\"M19 1.5v4M15 2.5l2.2 2.2M22 2.5l-2.2 2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 800, "delay": 1000 }
+  ]
+}

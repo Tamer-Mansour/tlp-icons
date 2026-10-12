@@ -1,0 +1,19 @@
+{
+  "name": "delivery-bike",
+  "category": "commerce",
+  "tags": [
+    "delivery",
+    "bike",
+    "bicycle",
+    "courier",
+    "cargo",
+    "box",
+    "shipping"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"1.5\" y=\"3.5\" width=\"6\" height=\"4.5\" rx=\"1\"/><path class=\"p2\" d=\"M5.5 16.5 9.5 9.5H14l4.5 7M12 16.5 14 9.5M14 9.5l1.5-4h2.5\"/><g class=\"p3\"><circle cx=\"5.5\" cy=\"16.5\" r=\"3.5\"/><circle cx=\"18.5\" cy=\"16.5\" r=\"3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 500 }
+  ]
+}

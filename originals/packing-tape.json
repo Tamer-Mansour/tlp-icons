@@ -1,0 +1,11 @@
+{
+  "name": "packing-tape",
+  "category": "commerce",
+  "tags": ["packing", "tape", "roll", "adhesive", "shipping", "parcel"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M10 17h11v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

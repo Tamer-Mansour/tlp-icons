@@ -1,0 +1,11 @@
+{
+  "name": "probiotic-capsule",
+  "category": "health",
+  "tags": ["probiotic", "capsule", "pill", "supplement", "gut", "bacteria", "vitamin", "dots"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 8h5v8h-5a4 4 0 0 1 0-8z\"/><path class=\"p2\" d=\"M11.5 8h6a4 4 0 0 1 0 8h-6z\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"12\" r=\"1.25\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1.25\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

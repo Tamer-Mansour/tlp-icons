@@ -1,0 +1,40 @@
+{
+    "name":  "sled-hill",
+    "category":  "maps",
+    "tags":  [
+                 "sled",
+                 "sledding",
+                 "snow",
+                 "hill",
+                 "winter",
+                 "slope",
+                 "toboggan"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M3 17h15q3 0 3-3\"/\u003e\u003crect class=\"d p2\" x=\"6\" y=\"9\" width=\"10\" height=\"4\" rx=\"1.5\"/\u003e\u003cpath class=\"p3\" d=\"M8 13v4M14 13v4\"/\u003e\u003cpath class=\"p4\" d=\"M2 21.5h20\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "riseIn",
+                       "dur":  600,
+                       "delay":  600
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  900
+                   }
+               ]
+}

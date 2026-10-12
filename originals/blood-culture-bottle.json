@@ -1,0 +1,20 @@
+{
+  "name": "blood-culture-bottle",
+  "category": "health",
+  "tags": [
+    "blood",
+    "culture",
+    "bottle",
+    "sample",
+    "bubble",
+    "drop",
+    "lab"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M10 3v5L6 14.5V19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4.5L14 8V3z\"/><path class=\"p2\" d=\"M8.5 3h7\"/><circle class=\"p3\" cx=\"11\" cy=\"16.5\" r=\"1.5\"/><path class=\"p4\" d=\"M18 3l2.2 3.2a2.2 2.2 0 1 1-4.4 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "dropIn", "dur": 700, "delay": 800 }
+  ]
+}

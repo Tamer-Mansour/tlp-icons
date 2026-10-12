@@ -1,0 +1,12 @@
+{
+  "name": "damaged-package-alert",
+  "category": "commerce",
+  "tags": ["damaged", "broken", "package", "alert", "cracked", "parcel", "box"],
+  "svg": "<path class=\"d p1\" d=\"M2 7.5 9 4l7 3.5v8L9 19l-7-3.5z\"/><path class=\"p2\" d=\"M8 10.5l1.8 1.5-1.4 1.6 1.6 1.4\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"18\" r=\"3.5\"/><path class=\"p4\" d=\"M18.5 16.4v2.2M18.5 20.6h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "bear-paw-chart",
+  "category": "finance",
+  "tags": [
+    "bear",
+    "paw",
+    "chart",
+    "swipe",
+    "trend",
+    "stock",
+    "market"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M6 18l4-3 3 2 4-2\"/><g class=\"p3\"><ellipse class=\"d\" cx=\"16.5\" cy=\"10.5\" rx=\"3.5\" ry=\"3\"/><circle cx=\"11.5\" cy=\"6.5\" r=\"1.5\"/><circle cx=\"14.5\" cy=\"3.5\" r=\"1.5\"/><circle cx=\"18.5\" cy=\"3.5\" r=\"1.5\"/><circle cx=\"21\" cy=\"6.5\" r=\"1.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "sink",
+      "dur": 900,
+      "delay": 900
+    }
+  ]
+}

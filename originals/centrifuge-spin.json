@@ -1,0 +1,18 @@
+{
+  "name": "centrifuge-spin",
+  "category": "health",
+  "tags": [
+    "centrifuge",
+    "spin",
+    "lab",
+    "sample",
+    "rotor",
+    "blood test"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M21 12a9 9 0 1 1-2.1-5.8\"/><path class=\"p3\" d=\"M18.9 2.2v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 300, "origin": "12px 12px" },
+    { "part": "p3", "anim": "spin", "dur": 1400, "delay": 300, "origin": "12px 12px" }
+  ]
+}

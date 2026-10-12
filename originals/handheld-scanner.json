@@ -1,0 +1,28 @@
+{
+    "name":  "handheld-scanner",
+    "category":  "commerce",
+    "tags":  [
+                 "barcode",
+                 "scanner",
+                 "scan",
+                 "checkout",
+                 "retail",
+                 "reader",
+                 "pos"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M2 4h12a2 2 0 0 1 2 2v4a1 1 0 0 1-1 1h-3v8a2 2 0 0 1-4 0v-8H2z\"/\u003e\u003cpath class=\"p3\" d=\"M20 4v7\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "flicker",
+                       "dur":  900,
+                       "delay":  800
+                   }
+               ]
+}

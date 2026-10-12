@@ -1,0 +1,11 @@
+{
+  "name": "add-on-deal",
+  "category": "commerce",
+  "tags": ["add", "on", "deal", "cart", "gift", "bundle", "offer"],
+  "svg": "<path class=\"p1\" d=\"M2 3h2l2 10h7l1.8-7H5\"/><g class=\"p2\"><circle cx=\"7\" cy=\"18.5\" r=\"1.5\"/><circle cx=\"12.5\" cy=\"18.5\" r=\"1.5\"/></g><g class=\"p3\"><rect class=\"d\" x=\"16\" y=\"11\" width=\"6.5\" height=\"2.5\" rx=\"0.6\"/><rect class=\"d\" x=\"16.5\" y=\"13.5\" width=\"5.5\" height=\"7.5\" rx=\"0.6\"/><path d=\"M19.25 11v10M19.25 11l-2.25-2.25M19.25 11l2.25-2.25\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 900 }
+  ]
+}

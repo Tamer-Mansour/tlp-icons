@@ -1,0 +1,18 @@
+{
+  "name": "invoice-email-envelope",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "email",
+    "bill",
+    "envelope",
+    "billing",
+    "mail"
+  ],
+  "svg": "<g class=\"p2\"><rect x=\"6\" y=\"2\" width=\"12\" height=\"7\" rx=\"1\"/><path d=\"M9 4.5h6M9 6.6h4\"/></g><rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M2.5 9.5 12 16l9.5-6.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

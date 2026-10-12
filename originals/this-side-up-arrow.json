@@ -1,0 +1,11 @@
+{
+  "name": "this-side-up-arrow",
+  "category": "commerce",
+  "tags": ["this side up", "box", "arrow", "shipping", "package", "fragile"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"1\"/><path class=\"p1\" d=\"M7 13h10\"/><path class=\"p2\" d=\"M4 20v-8M2.5 13.5 4 12l1.5 1.5\"/><path class=\"p3\" d=\"M20 20v-8M18.5 13.5 20 12l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 500 }
+  ]
+}

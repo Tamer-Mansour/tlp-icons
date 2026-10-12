@@ -1,0 +1,33 @@
+{
+  "name": "mobile-check-deposit",
+  "category": "finance",
+  "tags": [
+    "mobile",
+    "check",
+    "deposit",
+    "phone",
+    "camera",
+    "bank"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><g class=\"p2\"><path d=\"M8.5 9.5v-2.5h2.5\"/><path d=\"M13 7h2.5v2.5\"/><path d=\"M15.5 14.5V17H13\"/><path d=\"M11 17H8.5v-2.5\"/></g><path class=\"p3\" d=\"M10.5 12l1.2 1.2 2.3-2.4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

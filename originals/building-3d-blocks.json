@@ -1,0 +1,11 @@
+{
+  "name": "building-3d-blocks",
+  "category": "maps",
+  "tags": ["building", "blocks", "isometric", "3d", "architecture", "construction", "grid"],
+  "svg": "<path class=\"d p1\" d=\"M12 2l7.5 3.5L12 9 4.5 5.5z\"/><path class=\"p2\" d=\"M4.5 5.5v9L12 18V9M19.5 5.5v9L12 18\"/><path class=\"p3\" d=\"M3 20.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

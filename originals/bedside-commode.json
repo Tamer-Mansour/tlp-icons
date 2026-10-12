@@ -1,0 +1,19 @@
+{
+  "name": "bedside-commode",
+  "category": "health",
+  "tags": [
+    "bedside commode",
+    "toilet chair",
+    "commode",
+    "bucket",
+    "seat",
+    "elderly care",
+    "mobility"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"14\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M3 4h2v6\"/><path class=\"d p3\" d=\"M8 15h8l-1 6H9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 600 }
+  ]
+}

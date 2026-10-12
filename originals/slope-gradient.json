@@ -1,0 +1,17 @@
+{
+  "name": "slope-gradient",
+  "category": "maps",
+  "tags": [
+    "slope",
+    "gradient",
+    "incline",
+    "ramp",
+    "angle",
+    "steep"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 20 20 6v14z\"/><path class=\"p2\" d=\"M8 20A5 5 0 0 0 6.86 16.82\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

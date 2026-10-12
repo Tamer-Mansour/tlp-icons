@@ -1,0 +1,34 @@
+{
+  "name": "coordinates-copy",
+  "category": "maps",
+  "tags": [
+    "coordinates",
+    "copy",
+    "location",
+    "pin",
+    "latitude",
+    "longitude",
+    "clipboard"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 19s-5-4.5-5-9a5 5 0 0 1 10 0c0 4.5-5 9-5 9z\"/><circle class=\"p2\" cx=\"9\" cy=\"10\" r=\"1.8\"/><rect class=\"d p3\" x=\"14.5\" y=\"14.5\" width=\"7\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "referral-bonus",
+  "category": "finance",
+  "tags": ["referral", "bonus", "people", "reward", "recommend", "coin"],
+  "svg": "<circle class=\"d p1\" cx=\"5.5\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20v-1.5a3.5 3.5 0 0 1 7 0V20\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M15 20v-1.5a3.5 3.5 0 0 1 7 0V20\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "rollIn", "dur": 900, "delay": 500 }
+  ]
+}

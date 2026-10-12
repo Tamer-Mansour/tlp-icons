@@ -1,0 +1,29 @@
+{
+  "name": "fracture-bone",
+  "category": "health",
+  "tags": [
+    "fracture",
+    "bone",
+    "broken",
+    "crack",
+    "orthopedic",
+    "injury",
+    "x-ray",
+    "skeleton"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 4.5a2.5 2.5 0 1 0-2 4l2 2 3.5-3.5zM17 19.5a2.5 2.5 0 1 0 2-4l-2-2-3.5 3.5z\"/><path class=\"p2\" d=\"M12 11l-1 2 2 1-1 2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

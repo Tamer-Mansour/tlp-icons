@@ -1,0 +1,12 @@
+{
+  "name": "statement-email-envelope",
+  "category": "finance",
+  "tags": ["statement", "email", "envelope", "bank", "mail", "document", "page"],
+  "svg": "<rect class=\"d p2\" x=\"2\" y=\"8\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M2 9l10 6 10-6\"/><rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"6\" rx=\"1\"/><path class=\"p4\" d=\"M10 5h4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

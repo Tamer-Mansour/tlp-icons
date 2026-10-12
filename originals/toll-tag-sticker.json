@@ -1,0 +1,10 @@
+{
+  "name": "toll-tag-sticker",
+  "category": "maps",
+  "tags": ["toll", "tag", "sticker", "highway", "signal", "transponder"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"3\"/><path class=\"p2\" d=\"M8.5 9.5a4 4 0 0 1 0 5M12 7.5a7 7 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

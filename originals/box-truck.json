@@ -1,0 +1,19 @@
+{
+  "name": "box-truck",
+  "category": "commerce",
+  "tags": [
+    "truck",
+    "box truck",
+    "delivery",
+    "shipping",
+    "cargo",
+    "van",
+    "logistics"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"12\" height=\"11\" rx=\"1\"/><path d=\"M5 7.5h6M5 10h6M5 12.5h6\"/><path class=\"p2\" d=\"M14 8h3.5l3 4v3h-6.5\"/><g class=\"p3\"><circle cx=\"6\" cy=\"18.5\" r=\"2\"/><circle cx=\"17\" cy=\"18.5\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "drive", "dur": 1200, "delay": 900 }
+  ]
+}

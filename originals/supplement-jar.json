@@ -1,0 +1,12 @@
+{
+  "name": "supplement-jar",
+  "category": "health",
+  "tags": ["supplement", "jar", "vitamin", "herbal", "leaf", "pills", "natural"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"6.5\" y=\"4\" width=\"11\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 16.5C9.5 12.5 12 11 15 11c0 3.5-2.5 5.5-5.5 5.5z\"/><path class=\"p4\" d=\"M9.5 16.5 13 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600, "origin": "center" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "price-match-tags",
+    "category":  "commerce",
+    "tags":  [
+                 "price",
+                 "match",
+                 "tag",
+                 "compare",
+                 "equal",
+                 "sale"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/\u003e\u003ccircle class=\"p3\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/\u003e\u003cpath class=\"p2\" d=\"M11 12.5l2 2M9.5 14l2 2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  700
+                   }
+               ]
+}

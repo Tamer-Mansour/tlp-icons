@@ -1,0 +1,19 @@
+{
+  "name": "mempool-queue",
+  "category": "finance",
+  "tags": [
+    "mempool",
+    "queue",
+    "pending",
+    "coins",
+    "waiting",
+    "transaction"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"d p3\" cx=\"19\" cy=\"12\" r=\"2.5\"/><path class=\"p4\" d=\"M3 19h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

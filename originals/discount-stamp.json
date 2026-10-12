@@ -1,0 +1,33 @@
+{
+    "name":  "discount-stamp",
+    "category":  "commerce",
+    "tags":  [
+                 "discount",
+                 "percent",
+                 "stamp",
+                 "sale",
+                 "offer",
+                 "markdown"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M8.5 14 9.5 9a2.6 2.6 0 1 1 5 0l1 5z\"/\u003e\u003crect class=\"p2\" x=\"4\" y=\"14\" width=\"16\" height=\"4\" rx=\"1\"/\u003e\u003cpath class=\"p3\" d=\"M5 21.5h14\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "press",
+                       "dur":  700,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  1100
+                   }
+               ]
+}

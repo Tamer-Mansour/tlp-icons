@@ -1,0 +1,40 @@
+{
+    "name":  "tow-tractor",
+    "category":  "commerce",
+    "tags":  [
+                 "tow",
+                 "tractor",
+                 "cart",
+                 "trolley",
+                 "hitch",
+                 "warehouse",
+                 "transport"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M2 17v-5h4l2-3h4v8z\"/\u003e\u003ccircle class=\"p2\" cx=\"6\" cy=\"18\" r=\"2\"/\u003e\u003crect class=\"p3\" x=\"16\" y=\"9\" width=\"6\" height=\"8\" rx=\"1\"/\u003e\u003cpath class=\"p4\" d=\"M12 15h4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "slideIn",
+                       "dur":  800,
+                       "delay":  250
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  800
+                   }
+               ]
+}

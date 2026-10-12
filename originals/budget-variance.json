@@ -1,0 +1,18 @@
+{
+  "name": "budget-variance",
+  "category": "finance",
+  "tags": [
+    "budget",
+    "variance",
+    "forecast",
+    "diverge",
+    "actual",
+    "analysis"
+  ],
+  "svg": "<circle class=\"f p3\" cx=\"4.5\" cy=\"12\" r=\"2.2\"/><path class=\"p1\" d=\"M4.5 12 20 6\"/><path class=\"p2\" d=\"M4.5 12 20 18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

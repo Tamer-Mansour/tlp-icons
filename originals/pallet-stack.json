@@ -1,0 +1,20 @@
+{
+  "name": "pallet-stack",
+  "category": "commerce",
+  "tags": [
+    "pallet",
+    "stack",
+    "boxes",
+    "warehouse",
+    "freight",
+    "shipping",
+    "logistics"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"16\" width=\"20\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 19v3M12 19v3M19 19v3\"/><g class=\"p3\"><rect x=\"3\" y=\"9\" width=\"8\" height=\"5\" rx=\"1\"/><rect x=\"13\" y=\"9\" width=\"8\" height=\"5\" rx=\"1\"/></g><rect class=\"d p4\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 300 },
+    { "part": "p4", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

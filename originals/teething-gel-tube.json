@@ -1,0 +1,11 @@
+{
+  "name": "teething-gel-tube",
+  "category": "health",
+  "tags": ["teething", "gel", "tube", "tooth", "baby", "numbing", "infant", "oral"],
+  "svg": "<path class=\"d p1\" d=\"M8 10.5h8l-1 10.5H9z\"/><g class=\"p2\"><rect x=\"8\" y=\"7.5\" width=\"8\" height=\"3\" rx=\"1\"/><path d=\"M9.5 7.5V4.5c0-2.4 1-3.5 2.5-3.5s2.5 1.1 2.5 3.5v3\"/><path d=\"M12 2v3\"/></g><path class=\"p3\" d=\"M9.5 15h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

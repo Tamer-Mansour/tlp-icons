@@ -1,0 +1,12 @@
+{
+  "name": "sign-up-bonus",
+  "category": "commerce",
+  "tags": ["gift", "bonus", "sign up", "reward", "welcome", "present", "offer"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8M12 8v13\"/><path class=\"p3\" d=\"M12 8 9.2 4.8a1.6 1.6 0 0 0-2.4 2.1L12 8zM12 8l2.8-3.2a1.6 1.6 0 0 1 2.4 2.1L12 8z\"/><g class=\"p4\"><circle class=\"d\" cx=\"18\" cy=\"18\" r=\"4\"/><path d=\"M18 16v4M16 18h4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

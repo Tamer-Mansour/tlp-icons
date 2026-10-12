@@ -1,0 +1,33 @@
+{
+  "name": "water-break-alert",
+  "category": "health",
+  "tags": [
+    "water",
+    "break",
+    "droplet",
+    "clock",
+    "reminder",
+    "hydration"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 2.5C9 2.5 3.5 9 3.5 13a5.5 5.5 0 0 0 11 0C14.5 9 9 2.5 9 2.5z\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"17.5\" r=\"3.2\"/><path class=\"p3\" d=\"M18.5 15.8v1.8l1.1 1.1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 700
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

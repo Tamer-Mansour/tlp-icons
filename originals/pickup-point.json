@@ -1,0 +1,19 @@
+{
+  "name": "pickup-point",
+  "category": "commerce",
+  "tags": [
+    "pickup",
+    "point",
+    "shopping",
+    "bag",
+    "map",
+    "collect",
+    "location"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4.5 13.5h15l-1 7.5H5.5z\"/><path class=\"p2\" d=\"M9.5 13.5V12a2.5 2.5 0 0 1 5 0v1.5\"/><path class=\"p3\" d=\"M12 1.5a2.2 2.2 0 0 0-2.2 2.2c0 1.6 2.2 3.8 2.2 3.8s2.2-2.2 2.2-3.8A2.2 2.2 0 0 0 12 1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "dropIn", "dur": 900, "delay": 600 }
+  ]
+}

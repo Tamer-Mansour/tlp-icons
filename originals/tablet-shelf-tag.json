@@ -1,0 +1,18 @@
+{
+  "name": "tablet-shelf-tag",
+  "category": "commerce",
+  "tags": [
+    "tablet",
+    "shelf",
+    "price tag",
+    "display",
+    "retail",
+    "store"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"11\" height=\"14.5\" rx=\"2\"/><path class=\"p2\" d=\"M2 20.5h20\"/><g class=\"p3\"><path d=\"M16 11.5 19.5 8H22v2.5L18.5 14z\"/><circle cx=\"20.5\" cy=\"9.5\" r=\"0.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "loan-payoff-finish",
+  "category": "finance",
+  "tags": ["loan", "payoff", "finish", "paid", "debt", "mortgage", "done"],
+  "svg": "<path class=\"p1\" d=\"M4 21V3\"/><path class=\"d p1\" d=\"M4 4h10l-2 3 2 3H4\"/><path class=\"p2\" d=\"M9 4v6M4 7h8\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4\"/><path class=\"p3\" d=\"M15.2 17l1.2 1.2 2.4-2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000, "origin": "center" }
+  ]
+}

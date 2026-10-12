@@ -1,0 +1,33 @@
+{
+  "name": "currency-schilling",
+  "category": "finance",
+  "tags": [
+    "schilling",
+    "currency",
+    "coin",
+    "austria",
+    "money",
+    "legacy"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"8\"/><path class=\"p2\" d=\"M8.5 4.8h7l.8-2.3-2.8 1.5L12 2.5l-1.5 1.5-2.8-1.5z\"/><path class=\"p3\" d=\"M14.8 11.6c-.4-.9-1.4-1.4-2.8-1.4-1.6 0-2.8.8-2.8 2 0 2.6 5.6 1.6 5.6 4.4 0 1.2-1.2 2.1-2.9 2.1-1.4 0-2.5-.6-3-1.6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "rollIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

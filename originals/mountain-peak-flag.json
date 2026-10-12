@@ -1,0 +1,19 @@
+{
+  "name": "mountain-peak-flag",
+  "category": "maps",
+  "tags": [
+    "mountain",
+    "peak",
+    "summit",
+    "flag",
+    "climb",
+    "hiking",
+    "landmark"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20.5 9.5 8.5l4.5 7.5 2.5-3.5 5 8.5z\"/><path class=\"p2\" d=\"M9.5 8.5V2.5\"/><path class=\"p3\" d=\"M9.5 2.5h6l-1.5 2.25 1.5 2.25h-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wave", "dur": 1000, "delay": 800, "origin": "9.5px 2.5px" }
+  ]
+}

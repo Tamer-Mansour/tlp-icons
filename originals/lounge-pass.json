@@ -1,0 +1,11 @@
+{
+  "name": "lounge-pass",
+  "category": "commerce",
+  "tags": ["lounge", "pass", "lanyard", "access badge", "vip", "badge", "ticket"],
+  "svg": "<path class=\"p2\" d=\"M8 2.5 12 10l4-7.5\"/><rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><polygon class=\"d p3\" points=\"12,12.9 12.65,14.61 14.47,14.7 13.05,15.84 13.53,17.6 12,16.6 10.47,17.6 10.95,15.84 9.53,14.7 11.35,14.61\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

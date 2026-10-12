@@ -1,0 +1,34 @@
+{
+    "name":  "plush-toy-shelf",
+    "category":  "commerce",
+    "tags":  [
+                 "plush",
+                 "teddy",
+                 "bear",
+                 "toy",
+                 "shelf",
+                 "stuffed",
+                 "kids"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"4\"/\u003e\u003ccircle class=\"p4\" cx=\"8.5\" cy=\"5\" r=\"1.75\"/\u003e\u003ccircle class=\"p4\" cx=\"15.5\" cy=\"5\" r=\"1.75\"/\u003e\u003cpath class=\"p2\" d=\"M8 20v-3a4 4 0 0 1 8 0v3z\"/\u003e\u003cpath class=\"p3\" d=\"M3 21.5h18\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  200
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "nod",
+                       "dur":  900,
+                       "delay":  900
+                   }
+               ]
+}

@@ -1,0 +1,28 @@
+{
+    "name":  "magnetic-north",
+    "category":  "maps",
+    "tags":  [
+                 "compass",
+                 "north",
+                 "magnetic",
+                 "direction",
+                 "navigation",
+                 "needle",
+                 "magnet"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 4h4v7a3 3 0 0 0 6 0V4h4v7a7 7 0 0 1-14 0z\"/\u003e\u003cpath class=\"p2\" d=\"M5 8h4M15 8h4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  500
+                   }
+               ]
+}

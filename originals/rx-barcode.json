@@ -1,0 +1,35 @@
+{
+  "name": "rx-barcode",
+  "category": "health",
+  "tags": [
+    "prescription",
+    "rx",
+    "barcode",
+    "label",
+    "pharmacy",
+    "scan",
+    "slip"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M12 5v6M9 8h6\"/><path class=\"p3\" d=\"M8 14v5M12 14v5M16 14v5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 500,
+      "delay": 800,
+      "origin": "bottom"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "reward-chest",
+  "category": "commerce",
+  "tags": ["chest", "treasure", "reward", "prize", "loot", "gift", "bonus", "box"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"9\" rx=\"1.5\"/><path class=\"d p2\" d=\"M3 8.5V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v1.5z\"/><rect class=\"p3\" x=\"10.5\" y=\"12.5\" width=\"3\" height=\"3.5\" rx=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 900, "delay": 300, "origin": "bottom left" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

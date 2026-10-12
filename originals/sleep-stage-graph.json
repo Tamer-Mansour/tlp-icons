@@ -1,0 +1,10 @@
+{
+  "name": "sleep-stage-graph",
+  "category": "health",
+  "tags": ["sleep", "stages", "graph", "tracker", "deep sleep", "rem", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><polyline class=\"p2\" points=\"5 7 9 7 9 17 13 17 13 12 17 12 17 7 20 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1200, "delay": 300 }
+  ]
+}

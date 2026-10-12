@@ -1,0 +1,41 @@
+{
+  "name": "fear-greed-gauge",
+  "category": "finance",
+  "tags": [
+    "fear",
+    "greed",
+    "gauge",
+    "sentiment",
+    "market",
+    "index",
+    "speedometer"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 17a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 17l4-5\"/><circle class=\"d p3\" cx=\"12\" cy=\"17\" r=\"1.5\"/><path class=\"p4\" d=\"M3 20.5h18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "sway",
+      "dur": 1000,
+      "delay": 900,
+      "origin": "12px 17px"
+    }
+  ]
+}

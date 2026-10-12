@@ -2,7 +2,7 @@
 
 > Generated from `config/roadmap.json` by `node scripts/roadmap.mjs`. Live version: https://tlp-icons.netlify.app/roadmap/
 
-**Goal: 26,180 animated icons by 2028.** Today: 7,677 (29%).
+**Goal: 26,180 animated icons by 2028.** Today: 11,238 (43%).
 
 ## Principles
 
@@ -39,11 +39,11 @@
 
 | Category | Priority | Now | Goal | Progress |
 | --- | --- | ---: | ---: | --- |
-| Health & Medical | High | 142 | 1,200 | `█░░░░░░░░░` 12% |
-| Legal & Government | High | 1,177 | 1,180 | `██████████` 100% |
-| Finance & Money | High | 220 | 1,100 | `██░░░░░░░░` 20% |
-| Shopping & Commerce | Medium | 126 | 1,000 | `█░░░░░░░░░` 13% |
-| Maps & Travel | Medium | 253 | 1,000 | `███░░░░░░░` 25% |
+| Health & Medical | High | 1,200 | 1,200 | `██████████` 100% |
+| Legal & Government | High | 1,180 | 1,180 | `██████████` 100% |
+| Finance & Money | High | 1,100 | 1,100 | `██████████` 100% |
+| Shopping & Commerce | Medium | 999 | 1,000 | `██████████` 100% |
+| Maps & Travel | Medium | 1,000 | 1,000 | `██████████` 100% |
 | Science & Education | Medium | 35 | 1,000 | `░░░░░░░░░░` 4% |
 | People & Accounts | Medium | 79 | 900 | `█░░░░░░░░░` 9% |
 | Buildings & Places | Medium | 110 | 800 | `█░░░░░░░░░` 14% |
@@ -79,14 +79,14 @@
 
 Seed lists for the next batches (✓ = already in the library).
 
-### Health & Medical (142 → 1,200)
+### Health & Medical (1200 → 1,200)
 
 - **Clinical:** ✓ `stethoscope`, ✓ `blood-pressure`, ✓ `iv-drip`, ✓ `hospital-bed`, ✓ `wheelchair`, ✓ `crutches`, ✓ `x-ray`, ✓ `mri`, ✓ `ultrasound`, `ecg`
 - **Dental:** `tooth`, ✓ `tooth-cavity`, ✓ `braces`, ✓ `implant`, ✓ `dental-chair`, ✓ `toothbrush`
-- **Lab & pharmacy:** ✓ `test-tube`, ✓ `petri-dish`, ✓ `blood-test`, ✓ `prescription`, ✓ `pill-bottle`, ✓ `capsule`, ✓ `inhaler`, `vaccine-vial`
+- **Lab & pharmacy:** ✓ `test-tube`, ✓ `petri-dish`, ✓ `blood-test`, ✓ `prescription`, ✓ `pill-bottle`, ✓ `capsule`, ✓ `inhaler`, ✓ `vaccine-vial`
 - **Body & organs:** ✓ `heart-organ`, ✓ `lungs`, ✓ `kidney`, ✓ `liver`, ✓ `stomach`, ✓ `brain`, ✓ `bone`, `eye-exam`
 
-### Legal & Government (1177 → 1,180)
+### Legal & Government (1180 → 1,180)
 
 - **Courts & hearings:** ✓ `courthouse`, ✓ `court-hearing`, ✓ `judge-bench`, ✓ `judges-panel`, ✓ `gavel-strike`, ✓ `witness-stand`, ✓ `jury`, `court-calendar`, ✓ `hearing-clock`, ✓ `courtroom-door`, ✓ `court-reporter`, ✓ `verdict`, ✓ `sentence`, ✓ `appeal`, ✓ `retrial`, ✓ `supreme-court`
 - **Contracts & documents:** ✓ `contract`, ✓ `contract-signed`, ✓ `contract-pen`, ✓ `signature-pen`, ✓ `notary-stamp`, `seal-wax`, ✓ `power-of-attorney`, `will-testament`, ✓ `affidavit`, ✓ `deed`, ✓ `lease-agreement`, ✓ `nda`, ✓ `legal-document`, ✓ `clause`, ✓ `amendment`, ✓ `terms-conditions`
@@ -96,22 +96,22 @@ Seed lists for the next batches (✓ = already in the library).
 - **Rights & IP:** ✓ `copyright-law`, ✓ `patent`, ✓ `trademark-law`, ✓ `privacy-law`, ✓ `gdpr`, ✓ `human-rights`, ✓ `consumer-rights`, ✓ `license-agreement`
 - **Government & democracy:** ✓ `parliament`, ✓ `ballot-box`, ✓ `vote`, ✓ `constitution`, ✓ `law-book`, ✓ `decree`, ✓ `ministry`, ✓ `embassy`, ✓ `passport`, ✓ `visa-stamp`, ✓ `citizenship`, ✓ `tax-id`
 
-### Finance & Money (220 → 1,100)
+### Finance & Money (1100 → 1,100)
 
 - **Banking:** `bank`, ✓ `atm`, ✓ `cheque`, ✓ `deposit`, ✓ `withdraw`, ✓ `loan`, ✓ `mortgage`, ✓ `interest-rate`, `savings`
 - **Payments:** ✓ `card-tap`, ✓ `pos-terminal`, ✓ `qr-pay`, ✓ `invoice-paid`, ✓ `invoice-due`, `refund`, ✓ `split-bill`, ✓ `subscription`
 - **Currencies:** `shekel`, `dinar`, `riyal`, `dirham`, `pound-egp`, `lira`, `rupee`, `yuan`, `won`, `naira`
 - **Markets:** ✓ `stock-up`, ✓ `stock-down`, ✓ `portfolio`, ✓ `dividend`, ✓ `bull-market`, ✓ `bear-market`, ✓ `crypto-wallet`
 
-### Shopping & Commerce (126 → 1,000)
+### Shopping & Commerce (999 → 1,000)
 
-- **Retail:** `store-front`, `checkout`, `receipt-long`, `price-tag`, `coupon-cut`, `loyalty-card`
-- **Logistics:** `parcel`, `delivery-truck`, `warehouse-shelf`, `forklift-load`, `tracking`, `returns`
+- **Retail:** `store-front`, `checkout`, `receipt-long`, `price-tag`, ✓ `coupon-cut`, ✓ `loyalty-card`
+- **Logistics:** `parcel`, ✓ `delivery-truck`, ✓ `warehouse-shelf`, `forklift-load`, `tracking`, `returns`
 
 ### Science & Education (35 → 1,000)
 
 - **Education:** `classroom`, `blackboard`, `graduation`, `diploma`, `exam`, `homework`, `school-bag`
-- **Lab:** `beaker-bubbles`, `molecule`, `telescope-stars`, `microscope-slide`
+- **Lab:** `beaker-bubbles`, `molecule`, `telescope-stars`, ✓ `microscope-slide`
 
 ### People & Accounts (79 → 900)
 
@@ -120,7 +120,7 @@ Seed lists for the next batches (✓ = already in the library).
 
 ### Buildings & Places (110 → 800)
 
-- **Public:** `city-hall`, `court-building`, `embassy-building`, `post-office`, `fire-station`
+- **Public:** ✓ `city-hall`, `court-building`, `embassy-building`, `post-office`, `fire-station`
 - **Real estate:** `apartment`, `villa`, `office-tower`, `for-sale-sign`
 
 ## Candidate sources (only after license review and owner approval)

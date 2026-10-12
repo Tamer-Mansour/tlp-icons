@@ -1,0 +1,12 @@
+{
+  "name": "medical-history-timeline",
+  "category": "health",
+  "tags": ["history", "timeline", "medical", "record", "dates", "chronology", "patient"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v19\"/><g class=\"p2\"><circle class=\"d\" cx=\"12\" cy=\"5.5\" r=\"2.5\"/><circle class=\"d\" cx=\"12\" cy=\"18.5\" r=\"2.5\"/></g><circle class=\"d p4\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M16 5.5h5M16 12h5M16 18.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

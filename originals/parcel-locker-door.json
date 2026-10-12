@@ -1,0 +1,18 @@
+{
+  "name": "parcel-locker-door",
+  "category": "commerce",
+  "tags": [
+    "parcel",
+    "locker",
+    "pickup",
+    "delivery",
+    "package",
+    "cabinet"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"18\" height=\"20\" rx=\"2\"/><g class=\"p2\"><rect x=\"6\" y=\"11\" width=\"5\" height=\"6\" rx=\"1\"/></g><path class=\"p3\" d=\"M13 4l4 1.5v13L13 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 800, "origin": "13px 12px" }
+  ]
+}

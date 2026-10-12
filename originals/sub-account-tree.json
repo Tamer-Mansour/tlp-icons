@@ -1,0 +1,33 @@
+{
+  "name": "sub-account-tree",
+  "category": "finance",
+  "tags": [
+    "sub-account",
+    "tree",
+    "hierarchy",
+    "ledger",
+    "child",
+    "account"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 9v3M6.5 12h11M6.5 12v2.5M17.5 12v2.5\"/><rect class=\"p3\" x=\"2.5\" y=\"14.5\" width=\"8\" height=\"6\" rx=\"1.5\"/><rect class=\"p3\" x=\"13.5\" y=\"14.5\" width=\"8\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

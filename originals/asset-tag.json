@@ -1,0 +1,11 @@
+{
+  "name": "asset-tag",
+  "category": "commerce",
+  "tags": ["asset", "tag", "label", "number", "inventory", "stamp", "id"],
+  "svg": "<path class=\"d p1\" d=\"M3 4v6.5L12.5 20l7.5-7.5L10.5 3H4a1 1 0 0 0-1 1z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/><path class=\"p3\" d=\"M12 14.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

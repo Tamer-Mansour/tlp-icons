@@ -1,0 +1,20 @@
+{
+  "name": "scooter-parking-zone",
+  "category": "maps",
+  "tags": [
+    "scooter",
+    "parking",
+    "zone",
+    "e-scooter",
+    "dock",
+    "micromobility",
+    "area"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><circle class=\"d p2\" cx=\"7\" cy=\"17\" r=\"2\"/><circle class=\"d p2\" cx=\"17\" cy=\"17\" r=\"2\"/><path class=\"p3\" d=\"M7 15h10M17 15V7\"/><path class=\"p4\" d=\"M15 7h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

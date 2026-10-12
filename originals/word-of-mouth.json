@@ -1,0 +1,40 @@
+{
+  "name": "word-of-mouth",
+  "category": "commerce",
+  "tags": [
+    "word of mouth",
+    "speech bubble",
+    "chat",
+    "review",
+    "recommendation",
+    "talk",
+    "referral"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"9\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M5 11v3l3-3\"/><rect class=\"d p3\" x=\"13\" y=\"10\" width=\"8\" height=\"8\" rx=\"2\"/><path class=\"p4\" d=\"M19 18v3l-3-3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 800
+    },
+    {
+      "part": "p4",
+      "anim": "fadeIn",
+      "dur": 400,
+      "delay": 1200
+    }
+  ]
+}

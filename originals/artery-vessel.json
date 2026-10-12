@@ -1,0 +1,10 @@
+{
+  "name": "artery-vessel",
+  "category": "health",
+  "tags": ["artery", "vessel", "blood", "pulse", "circulation", "tube", "heart"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 21V12a9.5 9.5 0 0 1 9.5-9.5H21v8h-9a1.5 1.5 0 0 0-1.5 1.5V21z\"/><path class=\"p2\" d=\"M13 6.5h2l.8-1.2 1.4 2.4.8-1.2H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

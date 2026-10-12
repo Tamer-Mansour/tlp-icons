@@ -1,0 +1,12 @@
+{
+  "name": "payment-dispute-flag",
+  "category": "commerce",
+  "tags": ["dispute", "flag", "payment", "chargeback", "card", "issue", "warning"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 13h14\"/><path class=\"p3\" d=\"M20 21V2\"/><path class=\"p4\" d=\"M20 2h-5l1.5 2L15 6h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "wave", "dur": 1000, "delay": 1000, "origin": "20px 2px" }
+  ]
+}

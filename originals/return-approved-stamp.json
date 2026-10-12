@@ -1,0 +1,12 @@
+{
+  "name": "return-approved-stamp",
+  "category": "commerce",
+  "tags": ["return", "approved", "stamp", "check", "approval", "refund", "accepted"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 7v6\"/><rect class=\"d p3\" x=\"4\" y=\"13\" width=\"16\" height=\"6\" rx=\"1.5\"/><path class=\"p4\" d=\"M9 16l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

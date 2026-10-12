@@ -1,0 +1,10 @@
+{
+  "name": "heading-cone-dot",
+  "category": "maps",
+  "tags": ["heading", "cone", "direction", "bearing", "compass", "dot"],
+  "svg": "<path class=\"d p1\" d=\"M12 17 6.5 4h11z\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

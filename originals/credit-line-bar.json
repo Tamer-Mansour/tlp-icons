@@ -1,0 +1,33 @@
+{
+    "name":  "credit-line-bar",
+    "category":  "finance",
+    "tags":  [
+                 "credit",
+                 "limit",
+                 "bar",
+                 "usage",
+                 "balance",
+                 "line"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2.5\"/\u003e\u003cpath class=\"p2\" d=\"M2 10h20\"/\u003e\u003cpath class=\"p3\" d=\"M6 15h6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  800,
+                       "delay":  700
+                   }
+               ]
+}

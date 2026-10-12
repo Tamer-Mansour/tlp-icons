@@ -1,0 +1,12 @@
+{
+  "name": "signature-on-delivery",
+  "category": "commerce",
+  "tags": ["signature", "delivery", "package", "pen", "sign", "courier", "receipt"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"11\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 12.5h11\"/><path class=\"p3\" d=\"M4.5 17.5c1-1.5 2-1.5 2.5 0s1 1.2 2 0\"/><path class=\"p4\" d=\"M17 17l4.5-4.5-2.5-2.5-4.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "17px 17px" }
+  ]
+}

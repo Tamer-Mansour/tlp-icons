@@ -1,0 +1,26 @@
+{
+    "name":  "currency-kuna",
+    "category":  "finance",
+    "tags":  [
+                 "kuna",
+                 "currency",
+                 "croatia",
+                 "coin",
+                 "money"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/\u003e\u003cpath class=\"p2\" d=\"M9.5 7v10M9.5 12l5-5M9.5 12l5 5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "rollIn",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  500
+                   }
+               ]
+}

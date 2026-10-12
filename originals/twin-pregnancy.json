@@ -1,0 +1,33 @@
+{
+    "name":  "twin-pregnancy",
+    "category":  "health",
+    "tags":  [
+                 "twins",
+                 "pregnancy",
+                 "twin pregnancy",
+                 "belly",
+                 "maternity",
+                 "baby"
+             ],
+    "svg":  "\u003cellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9.500\" ry=\"7.500\"/\u003e\u003ccircle class=\"p2\" cx=\"8.500\" cy=\"12\" r=\"2.500\"/\u003e\u003ccircle class=\"p3\" cx=\"15.500\" cy=\"12\" r=\"2.500\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  700
+                   }
+               ]
+}

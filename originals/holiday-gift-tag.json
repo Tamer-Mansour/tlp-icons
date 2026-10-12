@@ -1,0 +1,10 @@
+{
+  "name": "holiday-gift-tag",
+  "category": "commerce",
+  "tags": ["gift tag", "holiday", "present", "ribbon", "bow", "christmas", "label"],
+  "svg": "<path class=\"d p1\" d=\"M6 12h12v9l-6-3-6 3z\"/><path class=\"p2\" d=\"M12 12C9.5 7.5 5 6.5 5 9.5 5 11.5 9.5 12 12 12zM12 12c2.5-4.5 7-5.5 7-2.5 0 2-4.5 2.5-7 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 400, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "toilet-paper-roll-pack",
+  "category": "commerce",
+  "tags": ["toilet", "paper", "roll", "tissue", "bathroom", "holder", "pack"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M17 12.5l3.5 2v4\"/><path class=\"p4\" d=\"M4 20.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

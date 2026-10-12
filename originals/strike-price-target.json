@@ -1,0 +1,19 @@
+{
+  "name": "strike-price-target",
+  "category": "finance",
+  "tags": [
+    "strike",
+    "price",
+    "target",
+    "option",
+    "bullseye",
+    "trading"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"14\" r=\"3\"/><path class=\"p3\" d=\"M10 14l6.5-7.5\"/><rect class=\"p4\" transform=\"rotate(45 17.5 5.5)\" x=\"15\" y=\"4\" width=\"5\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 900, "delay": 1200, "origin": "17.5px 5.5px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "indoor-floor-plan",
+  "category": "maps",
+  "tags": ["indoor", "floor", "plan", "level", "map", "building", "route"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 21,7.5 12,12 3,7.5\"/><path class=\"p2\" d=\"M3 11.5l9 4.5 9-4.5\"/><path class=\"p3\" d=\"M3 15.5l9 4.5 9-4.5\"/><circle class=\"f p4\" cx=\"12\" cy=\"7.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

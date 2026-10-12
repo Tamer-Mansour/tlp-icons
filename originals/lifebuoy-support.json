@@ -1,0 +1,19 @@
+{
+  "name": "lifebuoy-support",
+  "category": "commerce",
+  "tags": [
+    "lifebuoy",
+    "support",
+    "help",
+    "life ring",
+    "rescue",
+    "customer service",
+    "assist"
+  ],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M4.93 4.93l4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M9.17 14.83l-4.24 4.24\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 700, "origin": "12px 12px" }
+  ]
+}

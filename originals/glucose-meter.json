@@ -1,0 +1,12 @@
+{
+  "name": "glucose-meter",
+  "category": "health",
+  "tags": ["glucose", "meter", "blood sugar", "diabetes", "test strip", "blood", "diagnostic"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 7.5h4M6 11h4\"/><rect class=\"p3\" x=\"13\" y=\"13.5\" width=\"8\" height=\"3\" rx=\"0.5\"/><path class=\"p4\" d=\"M17 6.5c-1.2 1.7-2 2.9-2 4a2 2 0 0 0 4 0c0-1.1-.8-2.3-2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "dropIn", "dur": 500, "delay": 900 }
+  ]
+}

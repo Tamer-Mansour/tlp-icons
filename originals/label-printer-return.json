@@ -1,0 +1,11 @@
+{
+  "name": "label-printer-return",
+  "category": "commerce",
+  "tags": ["label", "printer", "return", "shipping", "print", "label maker", "tag"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"7.5\" y=\"2.5\" width=\"9\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M6.5 11h4M15 11h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "dropIn", "dur": 900, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "package-return",
+  "category": "commerce",
+  "tags": ["package", "return", "refund", "box", "exchange", "shipping"],
+  "svg": "<path class=\"d p1\" d=\"M2 12.5l6.5-3 6.5 3v7l-6.5 3-6.5-3z\"/><path class=\"p2\" d=\"M2 12.5l6.5 3 6.5-3M8.5 15.5v7\"/><path class=\"p3\" d=\"M20 9.5a6 6 0 0 0-6-6M17 3.5h-3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "roadside-tow-badge",
+  "category": "finance",
+  "tags": ["tow", "roadside", "assistance", "truck", "breakdown", "insurance", "badge"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"10\" height=\"9\" rx=\"1\"/><path class=\"d p2\" d=\"M12 9h5.5l3 4V16H12z\"/><circle class=\"p3\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p4\" d=\"M17.5 10.5v4M15.5 12.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

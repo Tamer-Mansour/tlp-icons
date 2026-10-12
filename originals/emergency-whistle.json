@@ -1,0 +1,34 @@
+{
+  "name": "emergency-whistle",
+  "category": "health",
+  "tags": [
+    "whistle",
+    "emergency",
+    "lanyard",
+    "alarm",
+    "help",
+    "sound",
+    "rescue"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 13a3 3 0 0 1 3-3h7v6H6a3 3 0 0 1-3-3z\"/><path d=\"M13 12h3\"/><path class=\"p2\" d=\"M8 10 5 4\"/><g class=\"p3\"><path d=\"M16 10a2.5 2.5 0 0 1 0 4\"/><path d=\"M19 7.5a5 5 0 0 1 0 9\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

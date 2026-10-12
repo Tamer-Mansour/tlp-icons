@@ -1,0 +1,18 @@
+{
+  "name": "elevation-profile",
+  "category": "maps",
+  "tags": [
+    "elevation",
+    "profile",
+    "altitude",
+    "mountain",
+    "hiking",
+    "terrain"
+  ],
+  "svg": "<polyline class=\"p1\" points=\"3 16 8.5 8 13 13 16.5 9 21 16\"/><path class=\"p2\" d=\"M3 19h18\"/><path class=\"p3\" d=\"M12 19v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "dropIn", "dur": 400, "delay": 1100 }
+  ]
+}

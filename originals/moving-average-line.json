@@ -1,0 +1,17 @@
+{
+  "name": "moving-average-line",
+  "category": "finance",
+  "tags": [
+    "moving",
+    "average",
+    "trend",
+    "price",
+    "chart",
+    "stock"
+  ],
+  "svg": "<polyline class=\"p1\" points=\"3 17 8 9 13 14 21 5\"/><path class=\"p2\" d=\"M3 13.5c2.5-.8 4.5-.9 7-.4M14 12.5c2-.2 4-.8 7-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

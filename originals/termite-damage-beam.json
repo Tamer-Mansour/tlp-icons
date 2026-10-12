@@ -1,0 +1,34 @@
+{
+    "name":  "termite-damage-beam",
+    "category":  "finance",
+    "tags":  [
+                 "termite",
+                 "damage",
+                 "beam",
+                 "wood",
+                 "insect",
+                 "home",
+                 "insurance"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"17\" width=\"20\" height=\"4\" rx=\"1\"/\u003e\u003cellipse class=\"p2\" cx=\"12\" cy=\"10.5\" rx=\"3\" ry=\"4.5\"/\u003e\u003cpath class=\"p3\" d=\"M10 6L8 3M14 6l2-3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "wiggle",
+                       "dur":  700,
+                       "delay":  900
+                   }
+               ]
+}

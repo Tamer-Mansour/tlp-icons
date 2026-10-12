@@ -1,0 +1,34 @@
+{
+    "name":  "bridge-crossing-route",
+    "category":  "maps",
+    "tags":  [
+                 "bridge",
+                 "arch",
+                 "river",
+                 "crossing",
+                 "route",
+                 "road",
+                 "water"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M2 15h20\"/\u003e\u003cpath class=\"p2\" d=\"M7 5v15M17 5v15\"/\u003e\u003cpath class=\"p3\" d=\"M7 5c3 8 7 8 10 0\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "growX",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  700
+                   }
+               ]
+}

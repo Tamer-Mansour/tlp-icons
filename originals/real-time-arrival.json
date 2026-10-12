@@ -1,0 +1,12 @@
+{
+  "name": "real-time-arrival",
+  "category": "maps",
+  "tags": ["bus", "arrival", "clock", "minutes", "live", "transit", "eta"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"14\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h14\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"M18 15v2l1.2 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 900, "origin": "18px 17px" }
+  ]
+}

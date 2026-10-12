@@ -1,0 +1,28 @@
+{
+    "name":  "topo-survey-marker",
+    "category":  "maps",
+    "tags":  [
+                 "survey",
+                 "benchmark",
+                 "marker",
+                 "topography",
+                 "elevation",
+                 "land",
+                 "geodetic"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"p2\" d=\"M12 6.5l5 9H7z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  400
+                   }
+               ]
+}

@@ -1,0 +1,28 @@
+{
+    "name":  "sorter-chute",
+    "category":  "commerce",
+    "tags":  [
+                 "sorter",
+                 "chute",
+                 "conveyor",
+                 "slide",
+                 "parcel sorting",
+                 "warehouse",
+                 "logistics"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M4 12l7 7h9\"/\u003e\u003crect class=\"d p2\" x=\"3\" y=\"3\" width=\"6\" height=\"6\" rx=\"1\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "slideIn",
+                       "dur":  800,
+                       "delay":  500
+                   }
+               ]
+}

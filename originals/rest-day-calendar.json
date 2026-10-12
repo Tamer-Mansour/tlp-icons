@@ -1,0 +1,18 @@
+{
+  "name": "rest-day-calendar",
+  "category": "health",
+  "tags": [
+    "rest",
+    "day off",
+    "calendar",
+    "moon",
+    "recovery",
+    "sleep"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4.5\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9.5h18M8 2.5v4M16 2.5v4\"/><path class=\"p3\" d=\"M16.5 12.8a3 3 0 1 0 3.2 3.7 2.4 2.4 0 0 1-3.2-3.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

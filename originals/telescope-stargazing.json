@@ -1,0 +1,19 @@
+{
+  "name": "telescope-stargazing",
+  "category": "maps",
+  "tags": [
+    "telescope",
+    "stargazing",
+    "stars",
+    "astronomy",
+    "tripod",
+    "night sky",
+    "observatory"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"4\" rx=\"2\" transform=\"rotate(-30 9 11)\"/><path class=\"p2\" d=\"M9 13l-4 8M9 13l4 8\"/><path class=\"p3\" d=\"M19 2q.8 3 3 3q-2.2 0-3 3q-.8-3-3-3q2.2 0 3-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

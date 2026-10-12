@@ -1,0 +1,33 @@
+{
+    "name":  "bike-rack-bus",
+    "category":  "maps",
+    "tags":  [
+                 "bus",
+                 "bike",
+                 "rack",
+                 "transit",
+                 "bicycle",
+                 "front"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"14\" rx=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M3 10h18\"/\u003e\u003cpath class=\"p3\" d=\"M7 17v3M17 17v3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  500,
+                       "delay":  700
+                   }
+               ]
+}

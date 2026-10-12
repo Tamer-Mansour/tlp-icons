@@ -1,0 +1,11 @@
+{
+  "name": "income-statement-ledger",
+  "category": "finance",
+  "tags": ["income", "statement", "ledger", "profit", "report", "growth"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M8 7h8\"/><polyline class=\"p3\" points=\"7 17 10.5 13.5 13 15.5 17 11\"/><path class=\"p3\" d=\"M14 11h3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 600 }
+  ]
+}

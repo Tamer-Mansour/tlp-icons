@@ -1,0 +1,19 @@
+{
+  "name": "perineal-cold-pack",
+  "category": "health",
+  "tags": [
+    "perineal",
+    "cold",
+    "pack",
+    "pad",
+    "frost",
+    "ice",
+    "postpartum"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"9\" rx=\"4.5\"/><path class=\"p2\" d=\"M7 3v2.5M12 2v3.5M17 3v2.5\"/><path class=\"p3\" d=\"M12 10.5v3M10.5 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

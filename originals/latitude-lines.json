@@ -1,0 +1,10 @@
+{
+  "name": "latitude-lines",
+  "category": "maps",
+  "tags": ["latitude", "globe", "parallel", "lines", "map", "earth", "geography"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M4.2 7.5h15.6M3 12h18M4.2 16.5h15.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 }
+  ]
+}

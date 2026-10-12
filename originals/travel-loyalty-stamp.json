@@ -1,0 +1,28 @@
+{
+  "name": "travel-loyalty-stamp",
+  "category": "maps",
+  "tags": [
+    "loyalty",
+    "stamp",
+    "card",
+    "travel",
+    "rewards",
+    "punch",
+    "points"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9.5 3h5v6c0 1.5 3.5 2 3.5 5v2H6v-2c0-3 3.5-3.5 3.5-5z\"/><path class=\"p2\" d=\"M4 20h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 500
+    }
+  ]
+}

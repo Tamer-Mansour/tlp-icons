@@ -1,0 +1,17 @@
+{
+  "name": "bollinger-band",
+  "category": "finance",
+  "tags": [
+    "bollinger",
+    "bands",
+    "chart",
+    "volatility",
+    "trading",
+    "stock"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 5h18M3 19h18\"/><path class=\"p2\" d=\"M3 12l3-1.5 4 2.5 4-2.5 3 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 }
+  ]
+}

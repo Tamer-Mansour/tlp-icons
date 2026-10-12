@@ -1,0 +1,27 @@
+{
+  "name": "checkpoint-gate",
+  "category": "maps",
+  "tags": [
+    "checkpoint",
+    "gate",
+    "barrier",
+    "route",
+    "border",
+    "crossing"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p1\" d=\"M8 10v4M16 10v4\"/><path class=\"p2\" d=\"M12 3.5v6.5M12 14v6.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 300
+    }
+  ]
+}

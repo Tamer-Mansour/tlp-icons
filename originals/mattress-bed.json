@@ -1,0 +1,19 @@
+{
+  "name": "mattress-bed",
+  "category": "health",
+  "tags": [
+    "bed",
+    "mattress",
+    "hospital",
+    "blanket",
+    "patient",
+    "ward",
+    "sleep"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"20\" height=\"5\" rx=\"1.5\"/><rect class=\"p2\" x=\"11\" y=\"6.5\" width=\"9\" height=\"3.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M4 15v4M20 15v4\"/><path d=\"M2 5v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

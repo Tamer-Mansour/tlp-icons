@@ -1,0 +1,18 @@
+{
+  "name": "medical-alert-pendant",
+  "category": "health",
+  "tags": [
+    "pendant",
+    "alert",
+    "help button",
+    "emergency",
+    "elderly",
+    "necklace"
+  ],
+  "svg": "<path class=\"p3\" d=\"M7 3l5 7 5-7\"/><circle class=\"d p1\" cx=\"12\" cy=\"15.5\" r=\"5.5\"/><path class=\"p2\" d=\"M12 13v5M9.5 15.5h5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pickup-locker-cabinet",
+  "category": "commerce",
+  "tags": [
+    "locker",
+    "pickup",
+    "cabinet",
+    "parcel",
+    "collect",
+    "compartment"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><g class=\"p2\"><path d=\"M12 3v18M3 12h18\"/></g><g class=\"p3\"><path d=\"M8 8h.01M16 8h.01M8 16h.01M16 16h.01\"/></g><path class=\"p4\" d=\"M15 3 20 4.5v5l-5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 900, "origin": "15px 3px" }
+  ]
+}

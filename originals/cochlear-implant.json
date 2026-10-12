@@ -1,0 +1,20 @@
+{
+  "name": "cochlear-implant",
+  "category": "health",
+  "tags": [
+    "cochlear",
+    "implant",
+    "hearing",
+    "ear",
+    "processor",
+    "deaf",
+    "coil"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"8\" height=\"15\" rx=\"4\"/><path class=\"p4\" d=\"M10.5 9h1.5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"9\" r=\"4.5\"/><circle class=\"p3\" cx=\"16.5\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 1000 }
+  ]
+}

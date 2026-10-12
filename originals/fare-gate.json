@@ -1,0 +1,10 @@
+{
+  "name": "fare-gate",
+  "category": "maps",
+  "tags": ["fare gate", "turnstile", "transit", "station", "barrier", "ticket"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"4\" height=\"14\" rx=\"1\"/><rect class=\"d p1\" x=\"17\" y=\"6\" width=\"4\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M7 11h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

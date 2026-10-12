@@ -1,0 +1,11 @@
+{
+  "name": "curbside-pickup",
+  "category": "commerce",
+  "tags": ["curbside", "pickup", "car", "order", "shopping", "store"],
+  "svg": "<path class=\"d p1\" d=\"M2 14v-3.5L4.2 6.5h7.6l2.7 4h1V14z\"/><g class=\"p2\"><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"12\" cy=\"18\" r=\"2\"/></g><g class=\"p3\"><rect x=\"17.5\" y=\"12\" width=\"4.5\" height=\"8.5\" rx=\"1\"/><path d=\"M18.5 12v-1.5a1.25 1.25 0 0 1 2.5 0V12\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

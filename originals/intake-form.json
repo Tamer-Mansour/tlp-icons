@@ -1,0 +1,19 @@
+{
+  "name": "intake-form",
+  "category": "health",
+  "tags": [
+    "intake",
+    "form",
+    "clipboard",
+    "patient",
+    "registration",
+    "admission"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"2\" width=\"4\" height=\"3\" rx=\"1\"/><g class=\"p3\"><circle cx=\"9\" cy=\"10\" r=\"2\"/><path d=\"M5.8 17c0-2 1.4-3.2 3.2-3.2s3.2 1.2 3.2 3.2\"/></g><rect class=\"p4\" x=\"13.5\" y=\"11.5\" width=\"4\" height=\"10\" rx=\"1\" transform=\"rotate(35 15.5 16.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

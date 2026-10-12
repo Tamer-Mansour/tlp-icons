@@ -1,0 +1,11 @@
+{
+  "name": "ph-meter",
+  "category": "health",
+  "tags": ["ph", "meter", "probe", "beaker", "acidity", "lab", "test"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h8v5.5l3.5 9.5a1.5 1.5 0 0 1-1.4 2H5.9a1.5 1.5 0 0 1-1.4-2L8 8.5z\"/><path class=\"p2\" d=\"M12 1.5v10\"/><rect class=\"d p3\" x=\"9\" y=\"13.5\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

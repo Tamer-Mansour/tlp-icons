@@ -1,0 +1,18 @@
+{
+  "name": "milk-glass",
+  "category": "health",
+  "tags": [
+    "milk",
+    "glass",
+    "drink",
+    "dairy",
+    "drip",
+    "calcium"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12l-1.4 11.2a1.5 1.5 0 0 1-1.5 1.3H8.9a1.5 1.5 0 0 1-1.5-1.3z\"/><path class=\"p2\" d=\"M6.6 13h10.8\"/><path class=\"p3\" d=\"M19 2.5c0 0-1.6 2-1.6 3.2a1.6 1.6 0 0 0 3.2 0c0-1.2-1.6-3.2-1.6-3.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 600 }
+  ]
+}

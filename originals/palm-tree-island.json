@@ -1,0 +1,20 @@
+{
+  "name": "palm-tree-island",
+  "category": "maps",
+  "tags": [
+    "palm",
+    "tree",
+    "island",
+    "beach",
+    "tropical",
+    "waves",
+    "vacation"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 16Q9.5 12.5 16 16Z\"/><path class=\"p2\" d=\"M10.5 14Q11.5 10.5 14 7\"/><g class=\"p3\"><path d=\"M14 7Q10 3 5.5 5.5M14 7Q18 3 21.5 5.5\"/></g><path class=\"p4\" d=\"M2 20q2.5-2 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "bloom", "dur": 500, "delay": 1000 }
+  ]
+}

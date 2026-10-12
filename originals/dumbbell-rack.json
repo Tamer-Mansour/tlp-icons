@@ -1,0 +1,32 @@
+{
+    "name":  "dumbbell-rack",
+    "category":  "health",
+    "tags":  [
+                 "dumbbell",
+                 "weights",
+                 "gym",
+                 "fitness",
+                 "exercise"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M6 12h12\"/\u003e\u003cpath class=\"d p2\" d=\"M6 7v10M18 7v10\"/\u003e\u003cpath class=\"p3\" d=\"M3 10v4M21 10v4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  600
+                   }
+               ]
+}

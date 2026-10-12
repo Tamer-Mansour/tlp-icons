@@ -1,0 +1,10 @@
+{
+  "name": "liver-panel-test",
+  "category": "health",
+  "tags": ["liver", "panel", "lab", "test", "blood", "clipboard", "hepatic"],
+  "svg": "<path class=\"d p1\" d=\"M3 10.5C3 7.5 5.5 6 8.5 6H16c2.5 0 4.5 2 4.5 4.5 0 2-1 3.5-3 4-2 .5-4 1-6 3-2 2-4 3.5-6 3C4.5 20 3 17 3 14z\"/><g class=\"p2\"><rect class=\"d\" x=\"14.5\" y=\"13.5\" width=\"7\" height=\"8\" rx=\"1\"/><path d=\"M16.5 18h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

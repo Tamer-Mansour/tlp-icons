@@ -1,0 +1,11 @@
+{
+  "name": "bearing-protractor",
+  "category": "maps",
+  "tags": ["bearing", "protractor", "angle", "compass", "direction", "navigation", "degrees"],
+  "svg": "<path class=\"d p1\" d=\"M2 16a10 10 0 0 1 20 0z\"/><path class=\"p2\" d=\"M12 10v-2M17.2 13l1.73-1M6.8 13l-1.73-1\"/><path class=\"p3\" d=\"M12 16l4-6.93\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 900, "origin": "12px 16px" }
+  ]
+}

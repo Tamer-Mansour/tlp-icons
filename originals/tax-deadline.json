@@ -1,0 +1,40 @@
+{
+  "name": "tax-deadline",
+  "category": "finance",
+  "tags": [
+    "tax",
+    "deadline",
+    "calendar",
+    "due date",
+    "alarm",
+    "filing",
+    "reminder"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4.5\" width=\"14\" height=\"15.5\" rx=\"2\"/><g class=\"p2\"><path d=\"M6 2.5v3M13 2.5v3M2.5 9h14\"/><circle class=\"f\" cx=\"9.5\" cy=\"13.5\" r=\"1.2\"/></g><circle class=\"d p3\" cx=\"17.5\" cy=\"16.5\" r=\"5\"/><path class=\"p4\" d=\"M17.5 13.6v4.6M17.5 20.6h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 300,
+      "delay": 800
+    },
+    {
+      "part": "p4",
+      "anim": "wiggle",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

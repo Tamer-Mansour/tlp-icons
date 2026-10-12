@@ -1,0 +1,11 @@
+{
+  "name": "claim-checklist-clipboard",
+  "category": "finance",
+  "tags": ["claim", "checklist", "clipboard", "insurance", "form", "verify", "list"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 9.5l1 1 2-2M13 9.5h4M8 14l1 1 2-2M13 14h4M8 18.5l1 1 2-2M13 18.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

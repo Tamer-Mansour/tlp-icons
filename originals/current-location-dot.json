@@ -1,0 +1,10 @@
+{
+  "name": "current-location-dot",
+  "category": "maps",
+  "tags": ["current location", "location", "dot", "gps", "here", "you are here", "pulse"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1400, "delay": 300 }
+  ]
+}

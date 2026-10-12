@@ -1,0 +1,13 @@
+{
+  "name": "care-plan-checklist",
+  "category": "health",
+  "tags": ["care plan", "checklist", "clipboard", "heart", "patient", "treatment"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"11\" height=\"16\" rx=\"2\"/><rect class=\"d p2\" x=\"7\" y=\"3\" width=\"5\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M7 10l1.2 1.2L10.5 9\"/><path class=\"p4\" d=\"M12.5 10h1.5M7 15h4\"/><path class=\"d p5\" d=\"M18 19.5l-2.4-2.4a2.1 2.1 0 0 1 2.4-3.4 2.1 2.1 0 0 1 2.4 3.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p5", "anim": "beat", "dur": 900, "delay": 900 }
+  ]
+}

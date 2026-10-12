@@ -1,0 +1,12 @@
+{
+  "name": "epidural-pump",
+  "category": "health",
+  "tags": ["epidural", "pump", "infusion", "dial", "anesthesia", "bag", "drip"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"10\" height=\"8\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M12.5 12H17v5\"/><rect class=\"d p4\" x=\"13\" y=\"17\" width=\"8\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "fillIn", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "forecast-line",
+  "category": "finance",
+  "tags": ["forecast", "projection", "trend", "goal", "flag", "dashed", "outlook"],
+  "svg": "<path class=\"p1\" d=\"M3 18l3-3M9 12l3-2.5M14.5 8.5 16.5 7\"/><path class=\"p2\" d=\"M19 3v18\"/><path class=\"d p3\" d=\"M19 3.5h3l-1 1.75 1 1.75h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

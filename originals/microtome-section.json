@@ -1,0 +1,34 @@
+{
+  "name": "microtome-section",
+  "category": "health",
+  "tags": [
+    "microtome",
+    "blade",
+    "slice",
+    "section",
+    "lab",
+    "tissue",
+    "ribbon"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"10\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 14h18\"/><path class=\"p3\" d=\"M6 19c2-2 3 2 5 0s3 2 5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

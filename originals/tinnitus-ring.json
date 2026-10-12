@@ -1,0 +1,34 @@
+{
+  "name": "tinnitus-ring",
+  "category": "health",
+  "tags": [
+    "tinnitus",
+    "ear",
+    "ringing",
+    "hearing",
+    "sound",
+    "noise",
+    "audiology"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5.5 9.5a4.5 4.5 0 1 1 9 0c0 4.5-4.5 4.5-4.5 7.5a2.5 2.5 0 1 1-5 0z\"/><path class=\"p2\" d=\"M10 10.5a2 2 0 0 0-4 0c0 2 1.5 2 1.5 4.5\"/><g class=\"p3\"><path d=\"M16 10.5a2.5 2.5 0 0 1 0 3\"/><path d=\"M19 8a5 5 0 0 1 0 8\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

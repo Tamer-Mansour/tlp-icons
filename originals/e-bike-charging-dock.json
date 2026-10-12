@@ -1,0 +1,12 @@
+{
+  "name": "e-bike-charging-dock",
+  "category": "maps",
+  "tags": ["e-bike", "electric bike", "charging", "dock", "bicycle", "battery"],
+  "svg": "<circle class=\"p1\" cx=\"5.5\" cy=\"14\" r=\"3\"/><circle class=\"p1\" cx=\"18.5\" cy=\"14\" r=\"3\"/><path class=\"p2\" d=\"M5.5 14 9 8.5h5l4.5 5.5\"/><path class=\"d p3\" d=\"M18.5 2 15 6.5h3L16.5 9.5 20.5 5h-3z\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 700 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 1200 }
+  ]
+}

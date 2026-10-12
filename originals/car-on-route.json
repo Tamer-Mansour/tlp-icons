@@ -1,0 +1,19 @@
+{
+  "name": "car-on-route",
+  "category": "maps",
+  "tags": [
+    "car",
+    "route",
+    "driving",
+    "journey",
+    "road",
+    "navigation",
+    "drive"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 15v-3.5l2.2-3.5h8.6l2.2 3.5H20V15z\"/><g class=\"p2\"><circle cx=\"8\" cy=\"15.5\" r=\"2\"/><circle cx=\"16\" cy=\"15.5\" r=\"2\"/></g><path class=\"p3\" d=\"M2 21h5M10 21h2M15 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

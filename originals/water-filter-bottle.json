@@ -1,0 +1,11 @@
+{
+  "name": "water-filter-bottle",
+  "category": "maps",
+  "tags": ["water", "filter", "bottle", "cartridge", "purify", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M9 10.5h6V13l2 3v3a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-3l2-3z\"/><rect class=\"d p2\" x=\"10\" y=\"3\" width=\"4\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 8h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 600 }
+  ]
+}

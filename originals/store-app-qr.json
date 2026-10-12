@@ -1,0 +1,11 @@
+{
+  "name": "store-app-qr",
+  "category": "commerce",
+  "tags": ["store", "app", "qr", "phone", "scan", "shop", "mobile"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><rect class=\"p2\" x=\"9\" y=\"6\" width=\"6\" height=\"6\" rx=\"0.5\"/><path class=\"p3\" d=\"M9 16h6M9 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

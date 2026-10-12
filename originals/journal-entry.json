@@ -1,0 +1,11 @@
+{
+  "name": "journal-entry",
+  "category": "finance",
+  "tags": ["journal", "entry", "book", "pencil", "accounting", "record"],
+  "svg": "<path class=\"d p1\" d=\"M12 6c-2.5-1.5-5.5-1.5-9-.5v13c3.5-1 6.5-1 9 .5 2.5-1.5 5.5-1.5 9-.5V5.5c-3.5-1-6.5-1-9 .5z\"/><path class=\"p2\" d=\"M6 10h3.5M6 13.5h2\"/><path class=\"p3\" d=\"M13.5 16.5l5.5-5.5 2 2-5.5 5.5-2.5.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

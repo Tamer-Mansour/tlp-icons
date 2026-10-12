@@ -1,0 +1,19 @@
+{
+  "name": "bin-location",
+  "category": "commerce",
+  "tags": [
+    "bin",
+    "location",
+    "warehouse",
+    "storage",
+    "shelf",
+    "map pin"
+  ],
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M12 2.5a2.5 2.5 0 0 1 2.5 2.5c0 2-2.5 4.5-2.5 4.5S9.5 7 9.5 5A2.5 2.5 0 0 1 12 2.5z\"/><path d=\"M12 5h.01\"/></g><path class=\"d p2\" d=\"M6 11.5 7 21.5h10l1-10z\"/><path class=\"p3\" d=\"M4 11.5h16\"/><path class=\"p4\" d=\"M10 14.5v4M14 14.5v4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

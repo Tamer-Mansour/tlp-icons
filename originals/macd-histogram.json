@@ -1,0 +1,11 @@
+{
+  "name": "macd-histogram",
+  "category": "finance",
+  "tags": ["macd", "histogram", "momentum", "chart", "trading", "bars", "zero"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><path class=\"p2\" d=\"M6 12V6M10 12V3.5\"/><path class=\"p3\" d=\"M14 12v5M18 12v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 800, "delay": 700, "origin": "top" }
+  ]
+}

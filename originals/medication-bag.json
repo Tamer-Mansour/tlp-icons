@@ -1,0 +1,11 @@
+{
+  "name": "medication-bag",
+  "category": "health",
+  "tags": ["medication", "pharmacy", "bag", "capsules", "pills", "prescription"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-1.3 11.3a1 1 0 0 1-1 .9H7.3a1 1 0 0 1-1-.9z\"/><path class=\"p3\" d=\"M3.5 9h17\"/><g class=\"p2\"><rect x=\"7\" y=\"3\" width=\"3.5\" height=\"7\" rx=\"1.75\" transform=\"rotate(-20 8.75 6.5)\"/><rect x=\"13.5\" y=\"4\" width=\"3.5\" height=\"6\" rx=\"1.75\" transform=\"rotate(25 15.25 7)\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "dropIn", "dur": 800, "delay": 500 }
+  ]
+}

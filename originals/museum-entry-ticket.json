@@ -1,0 +1,11 @@
+{
+  "name": "museum-entry-ticket",
+  "category": "maps",
+  "tags": ["museum", "ticket", "admission", "entry", "gallery", "column", "stamp"],
+  "svg": "<path class=\"d p1\" d=\"M3 5h18v3a2 2 0 0 0 0 4v7H3v-7a2 2 0 0 0 0-4z\"/><path class=\"p2\" d=\"M6.5 8.5h6M7.5 9.5v6M11.5 9.5v6M6.5 15.5h6\"/><circle class=\"p3\" cx=\"17\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

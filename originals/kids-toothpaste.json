@@ -1,0 +1,11 @@
+{
+  "name": "kids-toothpaste",
+  "category": "health",
+  "tags": ["kids", "toothpaste", "tube", "tooth", "child", "dental"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"10\" height=\"14\" rx=\"3\"/><rect class=\"p2\" x=\"7\" y=\"3\" width=\"6\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 10.5Q7.5 9 9 9Q10 9 10 9.5Q11 9 12.5 9Q13.5 9 13.5 10.5Q13.5 12.5 13 15Q12.6 17.5 11.8 17.5Q11 17.5 10.8 15.5Q10.5 14.5 10.5 14.5Q9.5 14.5 9.2 15.5Q9 17.5 8.2 17.5Q7.4 17.5 7 15Q6.5 12.5 7.5 10.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

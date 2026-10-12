@@ -1,0 +1,33 @@
+{
+  "name": "bungalow-stay",
+  "category": "maps",
+  "tags": [
+    "bungalow",
+    "stay",
+    "cottage",
+    "lodging",
+    "house",
+    "holiday"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2.5 12.5 12 4.5l9.5 8\"/><path class=\"d p2\" d=\"M5 13v7.5h14V13z\"/><path class=\"p3\" d=\"M10 20.5v-4.5h4v4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

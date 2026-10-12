@@ -1,0 +1,30 @@
+{
+  "name": "shark-fin-warning",
+  "category": "maps",
+  "tags": [
+    "shark",
+    "fin",
+    "warning",
+    "danger",
+    "ocean",
+    "beach",
+    "hazard",
+    "sea"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 17C7 11 10 7 13 4c0 5 1 9 4 13z\"/><path class=\"p2\" d=\"M2 20.5c2-1.5 3-1.5 5 0s3 1.5 5 0 3-1.5 5 0 3 1.5 5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 0,
+      "origin": "bottom"
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    }
+  ]
+}

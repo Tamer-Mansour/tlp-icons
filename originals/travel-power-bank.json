@@ -1,0 +1,18 @@
+{
+  "name": "travel-power-bank",
+  "category": "maps",
+  "tags": [
+    "power bank",
+    "battery",
+    "charger",
+    "portable",
+    "flight",
+    "travel"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6.5\" width=\"8\" height=\"13.5\" rx=\"2\"/><path class=\"p2\" d=\"M5 2.5h4\"/><g class=\"p3\"><path d=\"M18 13v8\"/><path d=\"M15 16.5h6\"/><path d=\"M16 20h4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "float", "dur": 1400, "delay": 900 }
+  ]
+}

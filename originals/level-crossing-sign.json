@@ -1,0 +1,28 @@
+{
+    "name":  "level-crossing-sign",
+    "category":  "maps",
+    "tags":  [
+                 "level crossing",
+                 "railway",
+                 "train",
+                 "crossing",
+                 "warning",
+                 "rail",
+                 "sign"
+             ],
+    "svg":  "\u003cpolygon class=\"d p1\" points=\"12 2 22 12 12 22 2 12\"/\u003e\u003cpath class=\"p2\" d=\"M8.5 8.5l7 7M15.5 8.5l-7 7\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  400
+                   }
+               ]
+}

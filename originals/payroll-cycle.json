@@ -1,0 +1,11 @@
+{
+  "name": "payroll-cycle",
+  "category": "finance",
+  "tags": ["payroll", "salary", "pay cycle", "wages", "coin", "recurring", "paycheck"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3.5\"/><g class=\"p2\"><path d=\"M8 5.07A8 8 0 0 1 18.93 8\"/><path d=\"M18.93 3.8V8h-4.2\"/></g><g class=\"p3\"><path d=\"M16 18.93A8 8 0 0 1 5.07 16\"/><path d=\"M5.07 20.2V16h4.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

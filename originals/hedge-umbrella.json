@@ -1,0 +1,12 @@
+{
+  "name": "hedge-umbrella",
+  "category": "finance",
+  "tags": ["hedge", "hedging", "umbrella", "protection", "risk", "chart", "finance"],
+  "svg": "<path class=\"d p1\" d=\"M3 11a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 11v7a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M4.5 19v-3\"/><path class=\"p4\" d=\"M8.5 19v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "grow", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sunrise-alarm",
+  "category": "health",
+  "tags": ["sunrise", "alarm", "clock", "wake", "morning", "sun", "routine", "light"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"6\"/><g class=\"p2\"><path d=\"M8 9a4 4 0 0 1 8 0\"/><path d=\"M12 2v1.5\"/><path d=\"M5.6 4.6l1 1\"/><path d=\"M18.4 4.6l-1 1\"/></g><path class=\"p3\" d=\"M12 12.5V15l2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

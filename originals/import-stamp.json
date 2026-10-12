@@ -1,0 +1,12 @@
+{
+  "name": "import-stamp",
+  "category": "commerce",
+  "tags": ["import", "stamp", "customs", "box", "entry", "arrow", "shipment"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"6.5\" width=\"14\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M12 11.5v3.4M9.8 12.7l2.2 2.2 2.2-2.2\"/><path class=\"p4\" d=\"M3 17h5.5l1.2 1.6h4.6l1.2-1.6H21v3.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 600 }
+  ]
+}

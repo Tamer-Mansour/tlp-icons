@@ -1,0 +1,11 @@
+{
+  "name": "campground-tent",
+  "category": "maps",
+  "tags": ["campground", "tent", "camping", "camp", "outdoors", "trees", "holiday"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20 10 6l7.5 14z\"/><path class=\"p2\" d=\"M10 20v-5.5L7 20\"/><circle class=\"d p3\" cx=\"19\" cy=\"11\" r=\"3\"/><path class=\"p3\" d=\"M19 14v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

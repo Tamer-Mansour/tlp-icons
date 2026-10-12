@@ -1,0 +1,36 @@
+{
+  "name": "interest-coin-stack",
+  "category": "finance",
+  "tags": [
+    "interest",
+    "coins",
+    "stack",
+    "rate",
+    "growth",
+    "savings",
+    "percent",
+    "yield"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11v8c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-8c0-1.4-2.2-2.5-5-2.5S3 9.6 3 11z\"/><path class=\"p2\" d=\"M3 15c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5\"/><path class=\"p3\" d=\"M18 20V5M15 8l3-3 3 3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 700,
+      "origin": "bottom"
+    }
+  ]
+}

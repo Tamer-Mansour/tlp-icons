@@ -1,0 +1,12 @@
+{
+  "name": "credit-limit",
+  "category": "finance",
+  "tags": ["credit", "limit", "card", "spending", "bar", "allowance"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"3\" rx=\"1.5\"/><rect class=\"d p2\" x=\"2.5\" y=\"10\" width=\"19\" height=\"11\" rx=\"2\"/><path class=\"p3\" d=\"M2.5 13.5h19\"/><path class=\"p4\" d=\"M6 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

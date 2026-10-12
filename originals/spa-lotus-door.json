@@ -1,0 +1,11 @@
+{
+  "name": "spa-lotus-door",
+  "category": "maps",
+  "tags": ["spa", "lotus", "door", "wellness", "massage", "entrance", "relax"],
+  "svg": "<path class=\"d p1\" d=\"M12 4c3 3 3 9 0 13-3-4-3-10 0-13z\"/><path class=\"p2\" d=\"M12 17c-4 0-8-3-9-8 4 0 7 2 8.2 5\"/><path class=\"p3\" d=\"M12 17c4 0 8-3 9-8-4 0-7 2-8.2 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

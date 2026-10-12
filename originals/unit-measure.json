@@ -1,0 +1,11 @@
+{
+  "name": "unit-measure",
+  "category": "commerce",
+  "tags": ["unit", "measure", "ruler", "size", "quantity", "box"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"6\" height=\"16\" rx=\"1\"/><path class=\"p3\" d=\"M9 6H6.5M9 9.5H7.5M9 13H6.5\"/><rect class=\"d p2\" x=\"12\" y=\"10\" width=\"10\" height=\"11\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 14h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

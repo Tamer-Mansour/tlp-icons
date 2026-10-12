@@ -1,0 +1,34 @@
+{
+  "name": "location-share-timer",
+  "category": "maps",
+  "tags": [
+    "location",
+    "pin",
+    "share",
+    "timer",
+    "clock",
+    "live",
+    "eta"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 20c0 0-5.5-5.2-5.5-10.5a5.5 5.5 0 0 1 11 0C14.5 14.8 9 20 9 20z\"/><circle class=\"p2\" cx=\"9\" cy=\"9.5\" r=\"2\"/><g class=\"p3\"><circle cx=\"17.5\" cy=\"16.5\" r=\"4\"/><path d=\"M17.5 14.5v2.2l1.4 1\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1200,
+      "delay": 900
+    }
+  ]
+}

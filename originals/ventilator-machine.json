@@ -1,0 +1,18 @@
+{
+  "name": "ventilator-machine",
+  "category": "health",
+  "tags": [
+    "ventilator",
+    "respirator",
+    "breathing",
+    "machine",
+    "icu",
+    "hose"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6\" width=\"13\" height=\"13\" rx=\"2\"/><g class=\"p2\"><circle cx=\"9\" cy=\"12.5\" r=\"2.5\"/><path d=\"M9 12.5l1.5-1.5\"/></g><path class=\"p3\" d=\"M15.5 11H18a2 2 0 0 1 2 2v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

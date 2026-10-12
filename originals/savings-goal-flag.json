@@ -1,0 +1,11 @@
+{
+  "name": "savings-goal-flag",
+  "category": "finance",
+  "tags": ["savings", "goal", "flag", "target", "milestone", "coins", "hill"],
+  "svg": "<path class=\"p1\" d=\"M12 16V3\"/><path class=\"p2\" d=\"M12 3h7l-2 3 2 3h-7\"/><path class=\"d p3\" d=\"M3 21a9 5 0 0 1 18 0z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wave", "dur": 1000, "delay": 1000, "origin": "12px 3px" }
+  ]
+}

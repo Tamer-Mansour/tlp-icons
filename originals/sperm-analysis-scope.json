@@ -1,0 +1,41 @@
+{
+  "name": "sperm-analysis-scope",
+  "category": "health",
+  "tags": [
+    "sperm",
+    "analysis",
+    "microscope",
+    "fertility",
+    "semen test",
+    "lab",
+    "cell"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"11\" y=\"2\" width=\"4\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M13 10v6M15 6h2a4 4 0 0 1 4 4v11M4 21h17M6 16h15\"/><circle class=\"f p3\" cx=\"9.6\" cy=\"12.8\" r=\"2.6\"/><path class=\"p4\" d=\"M7.1 12C4.8 11 4 8.8 3.4 6.6\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1000
+    },
+    {
+      "part": "p4",
+      "anim": "wiggle",
+      "dur": 900,
+      "delay": 1400,
+      "origin": "9.6px 12.8px"
+    }
+  ]
+}

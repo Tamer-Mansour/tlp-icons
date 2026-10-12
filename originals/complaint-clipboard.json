@@ -1,0 +1,11 @@
+{
+  "name": "complaint-clipboard",
+  "category": "commerce",
+  "tags": ["complaint", "clipboard", "issue", "feedback", "report", "customer", "problem", "support"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 9v5M12 17.5h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

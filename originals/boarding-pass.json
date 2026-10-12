@@ -1,0 +1,11 @@
+{
+  "name": "boarding-pass",
+  "category": "maps",
+  "tags": ["boarding pass", "ticket", "flight", "airline", "barcode", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 10v4M8 10v4M10.5 10v4M13 10v4\"/><path class=\"p3\" d=\"M16.5 9.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

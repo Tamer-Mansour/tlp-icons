@@ -1,0 +1,28 @@
+{
+  "name": "points-balance",
+  "category": "finance",
+  "tags": [
+    "points",
+    "balance",
+    "rewards",
+    "loyalty",
+    "score",
+    "badge",
+    "plus"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 8v8M8 12h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    }
+  ]
+}

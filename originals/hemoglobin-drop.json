@@ -1,0 +1,10 @@
+{
+  "name": "hemoglobin-drop",
+  "category": "health",
+  "tags": ["hemoglobin", "blood", "drop", "iron", "anemia", "lab", "hb"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5C12 2.5 5.5 9.5 5.5 14a6.5 6.5 0 0 0 13 0c0-4.5-6.5-11.5-6.5-11.5z\"/><path class=\"p2\" d=\"M9.5 11.5v5M14.5 11.5v5M9.5 14h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

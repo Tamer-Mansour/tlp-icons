@@ -1,0 +1,11 @@
+{
+  "name": "scooter-parking-bay",
+  "category": "maps",
+  "tags": ["scooter", "parking", "bay", "e-scooter", "park", "lane", "rental"],
+  "svg": "<path class=\"p1\" d=\"M2 3v18h20V3\"/><path class=\"p2\" d=\"M6 13h10\"/><circle class=\"p2\" cx=\"7\" cy=\"16\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"16\" r=\"2\"/><path class=\"p3\" d=\"M16 13l1.5-7M15 6h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

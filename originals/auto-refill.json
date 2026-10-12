@@ -1,0 +1,19 @@
+{
+  "name": "auto-refill",
+  "category": "health",
+  "tags": [
+    "refill",
+    "pill",
+    "bottle",
+    "prescription",
+    "repeat",
+    "medication"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"1.5\" y=\"9\" width=\"8\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"1\" y=\"4.5\" width=\"9\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M21 15.5a4.5 4.5 0 1 1-4.5-4.5\"/><path class=\"p4\" d=\"M21 11v2.5h-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

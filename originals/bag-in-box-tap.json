@@ -1,0 +1,11 @@
+{
+  "name": "bag-in-box-tap",
+  "category": "commerce",
+  "tags": ["bag", "box", "tap", "wine", "dispenser", "liquid", "beverage"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"3.5\" width=\"14\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3.5 9h14\"/><path class=\"p3\" d=\"M17.5 16h3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 800 }
+  ]
+}

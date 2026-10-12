@@ -1,0 +1,12 @@
+{
+  "name": "vendor-invoice",
+  "category": "finance",
+  "tags": ["vendor", "invoice", "supplier", "bill", "purchase", "payable", "box"],
+  "svg": "<path class=\"d p1\" d=\"M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h5\"/><path class=\"p2\" d=\"M13 2v5h5\"/><path class=\"p3\" d=\"M8 9h4M8 13h3\"/><rect class=\"d p4\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

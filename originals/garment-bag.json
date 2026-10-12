@@ -1,0 +1,33 @@
+{
+  "name": "garment-bag",
+  "category": "maps",
+  "tags": [
+    "garment bag",
+    "suit bag",
+    "hanging",
+    "clothes",
+    "hook",
+    "travel"
+  ],
+  "svg": "<path class=\"p2\" d=\"M12 9V7.5a2 2 0 1 0-2-2\"/><path class=\"d p1\" d=\"M9 9h6l3 3v9H6v-9z\"/><path class=\"p3\" d=\"M12 12v9\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "carbon-monoxide-alarm",
+  "category": "health",
+  "tags": ["carbon monoxide", "alarm", "co detector", "gas", "safety", "molecule"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6\"/><circle class=\"p2\" cx=\"9\" cy=\"9\" r=\"2.5\"/><g class=\"p3\"><circle class=\"d\" cx=\"18.5\" cy=\"18.5\" r=\"3.5\"/><path d=\"M16.8 19.2 18.5 16.8 20.2 19.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

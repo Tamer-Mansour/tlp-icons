@@ -1,0 +1,29 @@
+{
+  "name": "drop-off-zone",
+  "category": "maps",
+  "tags": [
+    "drop off",
+    "zone",
+    "pickup",
+    "car",
+    "parking",
+    "stop",
+    "arrival",
+    "area"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 3 V13 M8 9 L12 13 L16 9\"/><path class=\"p2\" d=\"M4 20 H8 M11 20 H13 M16 20 H20\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 350
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "name":  "allele-bars",
+    "category":  "health",
+    "tags":  [
+                 "allele",
+                 "gene",
+                 "genetics",
+                 "variant",
+                 "dna",
+                 "chromosome",
+                 "mutation"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"4\" y=\"3\" width=\"6\" height=\"18\" rx=\"3\"/\u003e\u003crect class=\"d p2\" x=\"14\" y=\"3\" width=\"6\" height=\"18\" rx=\"3\"/\u003e\u003cpath class=\"p3\" d=\"M4 10h6M14 14h6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  200
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  700
+                   }
+               ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "train-platform-clock",
+  "category": "maps",
+  "tags": [
+    "train",
+    "platform",
+    "clock",
+    "station",
+    "time",
+    "railway",
+    "timetable"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8.5\" r=\"5.5\"/><path class=\"p2\" d=\"M12 5.5v3.5l2 1.5\"/><rect class=\"d p3\" x=\"4\" y=\"17.5\" width=\"16\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 600 }
+  ]
+}

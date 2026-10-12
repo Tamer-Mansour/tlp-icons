@@ -1,0 +1,19 @@
+{
+  "name": "synagogue-star",
+  "category": "maps",
+  "tags": [
+    "synagogue",
+    "star",
+    "temple",
+    "jewish",
+    "worship",
+    "religion"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 9v12h14V9z\"/><path class=\"p2\" d=\"M3 9l9-6 9 6\"/><path class=\"p4\" d=\"M10.5 21v-4h3v4\"/><path class=\"p3\" d=\"M12 9l2.6 4.5h-5.2zM12 15l2.6-4.5h-5.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

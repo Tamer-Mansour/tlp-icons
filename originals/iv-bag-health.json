@@ -1,0 +1,34 @@
+{
+  "name": "iv-bag-health",
+  "category": "health",
+  "tags": [
+    "iv",
+    "saline",
+    "drip",
+    "infusion",
+    "hospital",
+    "bag",
+    "fluid"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 6h8l1.5 3v6.5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z\"/><path class=\"p2\" d=\"M12 2v4\"/><path class=\"p3\" d=\"M12 17.5V21\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "drip",
+      "dur": 1200,
+      "delay": 800
+    }
+  ]
+}

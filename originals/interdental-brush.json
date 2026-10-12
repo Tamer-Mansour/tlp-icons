@@ -1,0 +1,11 @@
+{
+  "name": "interdental-brush",
+  "category": "health",
+  "tags": ["interdental", "brush", "teeth", "dental", "floss", "oral care"],
+  "svg": "<path class=\"d p1\" d=\"M2 3h4v15a2 2 0 0 1-4 0z\"/><path class=\"d p1\" d=\"M18 3h4v15a2 2 0 0 1-4 0z\"/><path class=\"p3\" d=\"M12 9V3\"/><polygon class=\"p2\" points=\"10,9 14,9 12,20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 900, "origin": "12px 9px" }
+  ]
+}

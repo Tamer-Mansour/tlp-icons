@@ -1,0 +1,19 @@
+{
+  "name": "backorder-clock-box",
+  "category": "commerce",
+  "tags": [
+    "backorder",
+    "box",
+    "clock",
+    "delay",
+    "stock",
+    "pending",
+    "package"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"10\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M2 12.5h10\"/><g class=\"p3\"><circle cx=\"18.5\" cy=\"16.5\" r=\"3.5\"/><path d=\"M18.5 14.8v1.9l1.2 .9\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

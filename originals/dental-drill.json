@@ -1,0 +1,11 @@
+{
+  "name": "dental-drill",
+  "category": "health",
+  "tags": ["dental drill", "dentist", "handpiece", "bur", "tooth", "drilling", "clinic"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"7\" rx=\"3.5\"/><path class=\"p2\" d=\"M15 10.5h2.5\"/><polygon class=\"p3\" points=\"17.5,9 21,12 17.5,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 600, "origin": "18.5px 12px" }
+  ]
+}

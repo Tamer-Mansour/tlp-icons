@@ -1,0 +1,11 @@
+{
+  "name": "railway-crossing-gate",
+  "category": "maps",
+  "tags": ["railway", "crossing", "gate", "barrier", "train", "track", "level"],
+  "svg": "<path class=\"p1\" d=\"M4 9v12\"/><rect class=\"d p2\" x=\"4\" y=\"7.5\" width=\"16\" height=\"3\" rx=\"1\" transform=\"rotate(-15 4 9)\"/><path class=\"p3\" d=\"M2 21h20M8 17v4M16 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 900, "delay": 500, "origin": "4px 9px" },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

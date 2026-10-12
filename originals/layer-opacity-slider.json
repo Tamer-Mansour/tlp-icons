@@ -1,0 +1,11 @@
+{
+  "name": "layer-opacity-slider",
+  "category": "maps",
+  "tags": ["layers", "opacity", "slider", "transparency", "adjust", "blend"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 3 7l9 4.5L21 7z\"/><path class=\"p2\" d=\"M3 11l9 4.5 9-4.5\"/><g class=\"p3\"><path d=\"M3.5 19.5H8\"/><path d=\"M16.5 19.5h4\"/><circle cx=\"12.5\" cy=\"19.5\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 900 }
+  ]
+}

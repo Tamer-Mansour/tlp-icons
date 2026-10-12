@@ -1,0 +1,11 @@
+{
+  "name": "supplier-risk",
+  "category": "commerce",
+  "tags": ["supplier", "risk", "warning", "vendor", "building", "alert", "business"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"10\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M5 7.5h4M5 11.5h4\"/><g class=\"p3\"><path class=\"d\" d=\"M18 12.5l4 7h-8z\"/><path d=\"M18 15v2.2M18 18.3h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

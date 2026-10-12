@@ -1,0 +1,19 @@
+{
+  "name": "meal-delivery-tray",
+  "category": "health",
+  "tags": [
+    "meal",
+    "tray",
+    "delivery",
+    "cloche",
+    "food",
+    "hospital",
+    "dish cover"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 15a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 6V4M10 4h4\"/><rect class=\"p3\" x=\"2\" y=\"18\" width=\"20\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 0 }
+  ]
+}

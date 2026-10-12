@@ -1,0 +1,11 @@
+{
+  "name": "packing-table",
+  "category": "commerce",
+  "tags": ["packing", "table", "box", "tape", "workbench", "shipping", "warehouse"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M12 4v4\"/><g class=\"p3\"><path d=\"M2 13h20\"/><path d=\"M5 13v8M19 13v8\"/></g>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

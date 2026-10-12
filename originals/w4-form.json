@@ -1,0 +1,11 @@
+{
+  "name": "w4-form",
+  "category": "finance",
+  "tags": ["w4", "tax", "form", "withholding", "payroll", "employee", "paperwork"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"11\" height=\"20\" rx=\"2\"/><g class=\"p2\"><rect x=\"6\" y=\"6\" width=\"3\" height=\"3\" rx=\"0.8\"/><path d=\"M11 7.5h2.5\"/><rect x=\"6\" y=\"13\" width=\"3\" height=\"3\" rx=\"0.8\"/><path d=\"M11 14.5h2.5\"/></g><g class=\"p3\"><path class=\"d\" d=\"M15 21l.8-2.8 3.7-4.7 2.5 2.5-4.7 4.7z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

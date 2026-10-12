@@ -1,0 +1,19 @@
+{
+  "name": "satellite-messenger",
+  "category": "maps",
+  "tags": [
+    "satellite",
+    "messenger",
+    "device",
+    "gps",
+    "emergency",
+    "signal"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M12 9V6\"/><circle class=\"p3\" cx=\"12\" cy=\"4\" r=\"2\"/><rect class=\"p4\" x=\"9\" y=\"12\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 250 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 700 }
+  ]
+}

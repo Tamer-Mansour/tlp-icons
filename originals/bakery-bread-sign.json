@@ -1,0 +1,18 @@
+{
+  "name": "bakery-bread-sign",
+  "category": "maps",
+  "tags": [
+    "bakery",
+    "bread",
+    "loaf",
+    "shop",
+    "sign",
+    "food",
+    "baker"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 17.5V12c0-4 3.5-7 8-7s8 3 8 7v5.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M7 11.5 9.5 8.5M11 11.5l2.5-3M15 11.5l-1.5-1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "spray-trigger-bottle",
+  "category": "commerce",
+  "tags": ["spray", "trigger", "bottle", "cleaner", "mist", "sprayer", "cleaning"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"10\" height=\"10\" rx=\"2\"/><g class=\"p2\"><path d=\"M5 11V7.5a1 1 0 0 1 1-1h5v4.5\"/><path d=\"M11 6.5h2.5\"/><path d=\"M11 9l2.5 5\"/></g><g class=\"p3\"><path d=\"M17.5 4.5l2-1\"/><path d=\"M18 7.5h2.5\"/><path d=\"M17.5 10.5l2 1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

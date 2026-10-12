@@ -1,0 +1,29 @@
+{
+  "name": "volcanic-eruption",
+  "category": "finance",
+  "tags": [
+    "volcano",
+    "eruption",
+    "ash",
+    "crisis",
+    "market crash",
+    "disaster",
+    "risk"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 21 9.5 10h5L21 21z\"/><g class=\"p2\"><circle cx=\"8\" cy=\"7.5\" r=\"2.5\"/><circle cx=\"12.5\" cy=\"5.5\" r=\"2.5\"/><circle cx=\"17\" cy=\"7.5\" r=\"2.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 700,
+      "delay": 300,
+      "origin": "bottom"
+    }
+  ]
+}

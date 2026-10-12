@@ -1,0 +1,12 @@
+{
+  "name": "shopping-list-check",
+  "category": "commerce",
+  "tags": ["shopping", "list", "checklist", "todo", "tick", "groceries", "notes"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p4\" d=\"M9 2v2M15 2v2\"/><path class=\"p2\" d=\"M6 8l1.5 1.5L10 7M6 13l1.5 1.5L10 12\"/><path class=\"p3\" d=\"M13 8h4M13 13h4M6 18h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

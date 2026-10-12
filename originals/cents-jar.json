@@ -1,0 +1,34 @@
+{
+  "name": "cents-jar",
+  "category": "finance",
+  "tags": [
+    "jar",
+    "cents",
+    "coins",
+    "savings",
+    "change",
+    "piggy",
+    "penny"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 7v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7z\"/><rect class=\"p3\" x=\"6\" y=\"3\" width=\"12\" height=\"2.5\" rx=\"1\"/><g class=\"p2\"><circle cx=\"9\" cy=\"17\" r=\"2\"/><circle cx=\"15\" cy=\"17\" r=\"2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "rollIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

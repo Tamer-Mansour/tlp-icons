@@ -1,0 +1,33 @@
+{
+  "name": "out-of-stock",
+  "category": "commerce",
+  "tags": [
+    "out of stock",
+    "empty",
+    "box",
+    "sold out",
+    "unavailable",
+    "inventory"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"1\"/><rect class=\"p2\" x=\"2\" y=\"3\" width=\"20\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 900
+    }
+  ]
+}

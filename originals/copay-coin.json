@@ -1,0 +1,34 @@
+{
+    "name":  "copay-coin",
+    "category":  "finance",
+    "tags":  [
+                 "copay",
+                 "coin",
+                 "payment",
+                 "health",
+                 "insurance",
+                 "cost",
+                 "patient share"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6\"/\u003e\u003cpath class=\"p2\" d=\"M9 6.5v5M6.5 9h5\"/\u003e\u003cpath class=\"p3\" d=\"M15.5 15.5l4.5 4.5M20 15.5V20h-4.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "rollIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "nudge",
+                       "dur":  800,
+                       "delay":  1000
+                   }
+               ]
+}

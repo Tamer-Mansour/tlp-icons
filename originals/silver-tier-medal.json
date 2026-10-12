@@ -1,0 +1,11 @@
+{
+  "name": "silver-tier-medal",
+  "category": "commerce",
+  "tags": ["silver", "tier", "medal", "loyalty", "star", "rewards", "award"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"6\"/><path class=\"p3\" d=\"M8 2.5 10.5 9M16 2.5 13.5 9\"/><polygon class=\"p2\" points=\"12,12 12.7,14.2 15,14.2 13.1,15.6 13.8,17.8 12,16.5 10.2,17.8 10.9,15.6 9,14.2 11.3,14.2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

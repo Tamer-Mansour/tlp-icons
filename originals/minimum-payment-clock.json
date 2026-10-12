@@ -1,0 +1,11 @@
+{
+  "name": "minimum-payment-clock",
+  "category": "finance",
+  "tags": ["minimum", "payment", "clock", "due", "deadline", "coin", "bill"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"7.5\"/><path class=\"p2\" d=\"M12 9.5v4l2.5 2\"/><circle class=\"d p3\" cx=\"12\" cy=\"4.3\" r=\"2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 800 }
+  ]
+}

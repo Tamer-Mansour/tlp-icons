@@ -1,0 +1,34 @@
+{
+  "name": "halving-cut",
+  "category": "finance",
+  "tags": [
+    "halve",
+    "split",
+    "coin",
+    "half",
+    "cut",
+    "divide",
+    "burst"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M11 5a7 7 0 0 0 0 14z\"/><path class=\"d p2\" d=\"M13 5a7 7 0 0 1 0 14z\"/><path class=\"p3\" d=\"M16.5 4.2l1-1.7M18.4 5.6l1.4-1.4M19.8 7.5l1.7-1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

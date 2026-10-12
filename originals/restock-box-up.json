@@ -1,0 +1,11 @@
+{
+  "name": "restock-box-up",
+  "category": "commerce",
+  "tags": ["restock", "box", "upload", "inventory", "stock", "replenish", "warehouse"],
+  "svg": "<path class=\"d p1\" d=\"M4 10.5l8-2.5 8 2.5v8.5l-8 2.5-8-2.5z\"/><path class=\"p3\" d=\"M4 10.5l8 2.5 8-2.5M12 13v8.5\"/><path class=\"p2\" d=\"M12 2v4M9 5l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 350 },
+    { "part": "p2", "anim": "lift", "dur": 900, "delay": 800 }
+  ]
+}

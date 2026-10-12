@@ -1,0 +1,28 @@
+{
+    "name":  "measure-distance-line",
+    "category":  "maps",
+    "tags":  [
+                 "measure",
+                 "distance",
+                 "length",
+                 "ruler",
+                 "span",
+                 "map",
+                 "km"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1.5\"/\u003e\u003cpath class=\"p2\" d=\"M6 8v3M10 8v4M14 8v3M18 8v4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "growX",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  600
+                   }
+               ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "forklift-warning",
+    "category":  "commerce",
+    "tags":  [
+                 "forklift",
+                 "warning",
+                 "hazard",
+                 "caution",
+                 "warehouse",
+                 "safety"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 16V9h9v7\"/\u003e\u003cpath class=\"p2\" d=\"M16 3v15h5\"/\u003e\u003ccircle class=\"p3\" cx=\"8\" cy=\"19\" r=\"2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "riseIn",
+                       "dur":  700,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "roll",
+                       "dur":  800,
+                       "delay":  700
+                   }
+               ]
+}

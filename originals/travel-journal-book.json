@@ -1,0 +1,20 @@
+{
+  "name": "travel-journal-book",
+  "category": "maps",
+  "tags": [
+    "journal",
+    "notebook",
+    "travel",
+    "diary",
+    "bookmark",
+    "map",
+    "trip",
+    "log"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 8l2-1 2 1 2-1v6l-2 1-2-1-2 1z\"/><path class=\"p3\" d=\"M15 20v2l2-1.5 2 1.5v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

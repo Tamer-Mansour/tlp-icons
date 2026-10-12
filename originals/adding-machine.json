@@ -1,0 +1,34 @@
+{
+    "name":  "adding-machine",
+    "category":  "finance",
+    "tags":  [
+                 "adding machine",
+                 "printer",
+                 "receipt",
+                 "tally",
+                 "calculator",
+                 "accounting",
+                 "paper roll"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"12\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M7 9V3h10v6\"/\u003e\u003cpath class=\"p3\" d=\"M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "riseIn",
+                       "dur":  700,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "inflammation-heat",
+  "category": "health",
+  "tags": [
+    "inflammation",
+    "swelling",
+    "heat",
+    "redness",
+    "rash",
+    "injury"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"16\" rx=\"8\" ry=\"4\"/><path class=\"p2\" d=\"M8 10c-1-1.5 1-2.5 0-4M12 10c-1-1.5 1-2.5 0-4M16 10c-1-1.5 1-2.5 0-4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 400
+    }
+  ]
+}

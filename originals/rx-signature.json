@@ -1,0 +1,12 @@
+{
+  "name": "rx-signature",
+  "category": "health",
+  "tags": ["prescription", "rx", "signature", "doctor", "pen", "sign", "medicine"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"15\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 7.5h5M6 10.5h3\"/><path class=\"p3\" d=\"M5.5 16c2-2.5 3.5 1 5.5-1.5\"/><path class=\"p4\" d=\"M16.5 15.5 21 11l1.5 1.5-4.5 4.5-2.5.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 700 },
+    { "part": "p4", "anim": "nudge", "dur": 600, "delay": 1300 }
+  ]
+}

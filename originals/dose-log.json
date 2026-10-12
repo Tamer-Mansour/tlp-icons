@@ -1,0 +1,11 @@
+{
+  "name": "dose-log",
+  "category": "health",
+  "tags": ["dose", "log", "notebook", "pill", "medication", "record", "tracker"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8h3.5M7 13h3.5M7 18h3.5\"/><path class=\"p3\" d=\"M13.5 8h3M13.5 13h3M13.5 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

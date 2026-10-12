@@ -1,0 +1,34 @@
+{
+  "name": "account-hierarchy-nodes",
+  "category": "finance",
+  "tags": [
+    "account",
+    "hierarchy",
+    "nodes",
+    "tree",
+    "ledger",
+    "structure",
+    "chart"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 7v3M5.5 10h13M5.5 10v6M18.5 10v6\"/><g class=\"p3\"><rect x=\"2\" y=\"16\" width=\"7\" height=\"5\" rx=\"1.5\"/><rect x=\"15\" y=\"16\" width=\"7\" height=\"5\" rx=\"1.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

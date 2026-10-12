@@ -1,0 +1,11 @@
+{
+  "name": "staking-rewards-drip",
+  "category": "finance",
+  "tags": ["staking", "rewards", "drip", "crypto", "yield", "coin", "earn"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5c2 2.5 3 4 3 5.5a3 3 0 0 1-6 0c0-1.5 1-3 3-5.5z\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"15\" rx=\"7\" ry=\"2.5\"/><path class=\"p3\" d=\"M5 15v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p1", "anim": "drip", "dur": 1200, "delay": 700 }
+  ]
+}

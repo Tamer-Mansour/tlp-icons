@@ -1,0 +1,33 @@
+{
+    "name":  "recovery-position",
+    "category":  "health",
+    "tags":  [
+                 "recovery position",
+                 "first aid",
+                 "lying",
+                 "unconscious",
+                 "emergency",
+                 "side"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"5.5\" cy=\"11\" r=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M9 13.5h7l2 4h3.5\"/\u003e\u003cpath class=\"p3\" d=\"M2.5 20.5h19\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

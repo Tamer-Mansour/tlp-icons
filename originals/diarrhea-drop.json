@@ -1,0 +1,10 @@
+{
+  "name": "diarrhea-drop",
+  "category": "health",
+  "tags": ["diarrhea", "gut", "intestine", "digestion", "drop", "water", "bowel"],
+  "svg": "<path class=\"p1\" d=\"M5 3h9a3 3 0 0 1 0 6h-5a3 3 0 0 0 0 6h9\"/><path class=\"d p2\" d=\"M18 15.5c-1.5 2-2.5 2.8-2.5 3.5a2.5 2.5 0 0 0 5 0c0-.7-1-1.5-2.5-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 700 }
+  ]
+}

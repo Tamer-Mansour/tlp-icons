@@ -1,0 +1,33 @@
+{
+  "name": "placenta-organ",
+  "category": "health",
+  "tags": [
+    "placenta",
+    "organ",
+    "pregnancy",
+    "umbilical cord",
+    "birth",
+    "maternity"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M14.2 9.8C16 7 18 5 21 4\"/><g class=\"p3\"><path d=\"M6.5 13.5q2.5-2 5 0\"/><path d=\"M9 17q2-1.5 4 0\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

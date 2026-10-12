@@ -1,0 +1,11 @@
+{
+  "name": "uplift-sun",
+  "category": "health",
+  "tags": ["sunrise", "uplift", "mood", "recovery", "hope", "horizon", "wellbeing"],
+  "svg": "<path class=\"d p1\" d=\"M7 11a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M3 11h18\"/><path class=\"p3\" d=\"M12 20v-5.5M9.5 17 12 14.5l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 1200, "delay": 800 }
+  ]
+}

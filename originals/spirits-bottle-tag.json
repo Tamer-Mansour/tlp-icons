@@ -1,0 +1,11 @@
+{
+  "name": "spirits-bottle-tag",
+  "category": "commerce",
+  "tags": ["spirits", "bottle", "liquor", "whisky", "tag", "label", "alcohol"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 7 4 11v8.5A1.5 1.5 0 0 0 5.5 21h5a1.5 1.5 0 0 0 1.5-1.5V11l-2.5-4z\"/><rect class=\"p2\" x=\"6.5\" y=\"2.5\" width=\"3\" height=\"4.5\" rx=\"0.5\"/><g class=\"p3\"><path d=\"M9.5 4.5H15\"/><path d=\"M15 3.5h4.5v6l-2.25 2.25L15 9.5z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "9.5px 4.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "budget-app-phone",
+  "category": "finance",
+  "tags": ["budget", "app", "phone", "mobile", "pie chart", "spending", "money"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M12 11V7.5a3.5 3.5 0 1 0 3.5 3.5H12z\"/><path class=\"p3\" d=\"M11 18h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 400, "origin": "12px 11px" },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wrong-item-box",
+  "category": "commerce",
+  "tags": ["wrong item", "mistake", "return", "mismatch", "unknown", "error", "package"],
+  "svg": "<path class=\"d p1\" d=\"M4 15v4l8 3 8-3v-4l-8-3z\"/><path class=\"p2\" d=\"M4 15l8 3 8-3M12 18v4\"/><g class=\"p3\"><path d=\"M9.5 4.5a2.5 2.5 0 1 1 2.5 2.5v.5\"/><path class=\"f\" d=\"M12 9.5h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 500 }
+  ]
+}

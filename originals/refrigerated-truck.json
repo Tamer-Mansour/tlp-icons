@@ -1,0 +1,19 @@
+{
+  "name": "refrigerated-truck",
+  "category": "commerce",
+  "tags": [
+    "refrigerated",
+    "truck",
+    "cold chain",
+    "delivery",
+    "snowflake",
+    "freezer"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"13\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M15 9h3.5l2.5 3.5V15h-6\"/><path class=\"p3\" d=\"M8.5 7.5v5M6.6 8.7l3.8 2.6M10.4 8.7l-3.8 2.6\"/><g class=\"p4\"><circle class=\"d\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"d\" cx=\"18\" cy=\"18\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "roll", "dur": 1000, "delay": 900 }
+  ]
+}

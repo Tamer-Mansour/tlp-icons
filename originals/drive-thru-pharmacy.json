@@ -1,0 +1,28 @@
+{
+  "name": "drive-thru-pharmacy",
+  "category": "health",
+  "tags": [
+    "drive",
+    "thru",
+    "pharmacy",
+    "car",
+    "prescription",
+    "window",
+    "drugstore"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2h4v4h4v4h-4v4H6v-4H2V6h4z\"/><path class=\"p2\" d=\"M13.5 21.5v-3l1.8-3h5.4l1.8 3v3z\"/><path class=\"p2\" d=\"M15.5 15.5h5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "drive",
+      "dur": 1200,
+      "delay": 500
+    }
+  ]
+}

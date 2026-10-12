@@ -1,0 +1,35 @@
+{
+  "name": "seal-coast",
+  "category": "maps",
+  "tags": [
+    "seal",
+    "coast",
+    "sea",
+    "animal",
+    "rock",
+    "wave",
+    "ocean"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"7\" ry=\"4\" transform=\"rotate(-20 11 14)\"/><circle class=\"p2\" cx=\"18\" cy=\"6.5\" r=\"2.5\"/><path class=\"p3\" d=\"M2 20c2-2 3 2 5 0s3 2 5 0 3 2 5 0 3 2 5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "nod",
+      "dur": 900,
+      "delay": 800,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 200
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "principal-interest-split",
+  "category": "finance",
+  "tags": [
+    "principal",
+    "interest",
+    "split",
+    "loan",
+    "payment",
+    "wedge"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6.5\"/><path class=\"p2\" d=\"M9 9V2.5M9 9l4.6 4.6\"/><circle class=\"d p3\" cx=\"18\" cy=\"18\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

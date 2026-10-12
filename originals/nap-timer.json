@@ -1,0 +1,11 @@
+{
+  "name": "nap-timer",
+  "category": "health",
+  "tags": ["nap", "timer", "sleep", "hourglass", "rest", "doze"],
+  "svg": "<path class=\"d p1\" d=\"M6 2c0 4.5 4 5.5 4 10s-4 5.5-4 10h8c0-4.5-4-5.5-4-10s4-5.5 4-10z\"/><path class=\"p2\" d=\"M5 2h10M5 22h10\"/><path class=\"p3\" d=\"M17 3h4l-4 4h4M18.5 11.5h2.5l-2.5 2.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "bob", "dur": 1400, "delay": 800 }
+  ]
+}

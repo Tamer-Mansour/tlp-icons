@@ -1,0 +1,11 @@
+{
+  "name": "gps-lock-crosshair",
+  "category": "maps",
+  "tags": ["gps", "lock", "target", "location", "crosshair", "accurate", "signal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M12 2v3M12 19v3M2 12h3M19 12h3\"/><path class=\"p3\" d=\"M9 12.5l2 2 4-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

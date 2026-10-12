@@ -1,0 +1,33 @@
+{
+  "name": "street-view-person",
+  "category": "maps",
+  "tags": [
+    "street view",
+    "person",
+    "pedestrian",
+    "street",
+    "walk",
+    "map"
+  ],
+  "svg": "<path class=\"p3\" d=\"M3 22h18\"/><path class=\"p2\" d=\"M8 20v-5a4 4 0 0 1 8 0v5\"/><circle class=\"d p1\" cx=\"12\" cy=\"6.5\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p1",
+      "anim": "hop",
+      "dur": 900,
+      "delay": 900
+    }
+  ]
+}

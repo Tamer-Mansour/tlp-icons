@@ -1,0 +1,19 @@
+{
+  "name": "pyramid-landmark",
+  "category": "maps",
+  "tags": [
+    "pyramid",
+    "landmark",
+    "egypt",
+    "monument",
+    "sun",
+    "tourism",
+    "sightseeing"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 21V17H6V13H10V9H14V13H18V17H22V21Z\"/><circle class=\"p2\" cx=\"12\" cy=\"4.5\" r=\"2\"/><path class=\"p3\" d=\"M4 4.5h2M18 4.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "treehouse-stay",
+  "category": "maps",
+  "tags": ["treehouse", "tree", "branch", "cabin", "stay", "ladder", "lodging"],
+  "svg": "<path class=\"p1\" d=\"M2 16h20\"/><path class=\"d p2\" d=\"M6 14.5V10l6-5 6 5v4.5z\"/><path class=\"p3\" d=\"M8 16.5v4.5M14 16.5v4.5M8 19h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

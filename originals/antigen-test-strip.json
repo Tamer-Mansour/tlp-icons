@@ -1,0 +1,18 @@
+{
+  "name": "antigen-test-strip",
+  "category": "health",
+  "tags": [
+    "antigen",
+    "test",
+    "strip",
+    "rapid",
+    "control line",
+    "diagnostic"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"4.5\" y=\"10\" width=\"6\" height=\"4\" rx=\"0.5\"/><path class=\"p3\" d=\"M14 10.5v3M18 10.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

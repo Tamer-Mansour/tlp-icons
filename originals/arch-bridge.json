@@ -1,0 +1,33 @@
+{
+  "name": "arch-bridge",
+  "category": "maps",
+  "tags": [
+    "bridge",
+    "arch",
+    "river",
+    "stone",
+    "crossing",
+    "landmark"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2 10h20\"/><path class=\"d p2\" d=\"M4 10v10h16V10\"/><path class=\"p3\" d=\"M8 20v-3a4 4 0 0 1 8 0v3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

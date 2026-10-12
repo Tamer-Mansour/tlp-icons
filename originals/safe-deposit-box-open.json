@@ -1,0 +1,12 @@
+{
+  "name": "safe-deposit-box-open",
+  "category": "finance",
+  "tags": ["safe", "deposit", "box", "vault", "open", "valuables", "bank", "coin"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/><path class=\"p2\" d=\"M3 12 6 3h12l3 9\"/><circle class=\"d p3\" cx=\"12\" cy=\"7.5\" r=\"1.8\"/><path class=\"p4\" d=\"M9 16.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

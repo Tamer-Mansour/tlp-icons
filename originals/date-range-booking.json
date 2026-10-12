@@ -1,0 +1,11 @@
+{
+  "name": "date-range-booking",
+  "category": "maps",
+  "tags": ["date", "range", "booking", "calendar", "reservation", "stay", "dates", "period"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4.5\" width=\"18\" height=\"16.5\" rx=\"2\"/><path class=\"p2\" d=\"M3 9.5h18M8 2.5v4M16 2.5v4\"/><rect class=\"d p3\" x=\"6\" y=\"12.5\" width=\"12\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

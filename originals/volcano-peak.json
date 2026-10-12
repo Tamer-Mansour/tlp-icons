@@ -1,0 +1,11 @@
+{
+  "name": "volcano-peak",
+  "category": "maps",
+  "tags": ["volcano", "eruption", "lava", "smoke", "mountain", "peak"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20 10 7.5h4l7.5 12.5z\"/><path class=\"p2\" d=\"M10 7.5 12 9.5 14 7.5\"/><g class=\"p3\"><circle cx=\"16\" cy=\"4.5\" r=\"2\"/><circle cx=\"19.5\" cy=\"3.5\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 800, "delay": 800 }
+  ]
+}

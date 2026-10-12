@@ -1,0 +1,20 @@
+{
+  "name": "labor-timer",
+  "category": "health",
+  "tags": [
+    "labor",
+    "timer",
+    "contraction",
+    "pregnancy",
+    "childbirth",
+    "stopwatch",
+    "maternity"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"5.5\"/><path class=\"p2\" d=\"M10 2.5h4M12 2.5v2\"/><path class=\"p3\" d=\"M12 10V7.5M12 10l2 1.2\"/><path class=\"p4\" d=\"M3 20q2.25-1.5 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "embassy-flag-building",
+  "category": "maps",
+  "tags": ["embassy", "consulate", "flag", "diplomacy", "government", "building", "country"],
+  "svg": "<path class=\"d p1\" d=\"M2 21V9.5L9 5l7 4.5V21z\"/><path class=\"p2\" d=\"M7 21v-4a2 2 0 0 1 4 0v4\"/><path class=\"p3\" d=\"M19 2v19\"/><path class=\"p4\" d=\"M19 3h3l-1 2.5 1 2.5h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "wave", "dur": 1000, "delay": 1000, "origin": "19px 3px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mouthwash-bottle",
+  "category": "health",
+  "tags": ["mouthwash", "bottle", "dental", "oral", "rinse", "hygiene", "cap"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M3.5 12.5q-1.2 2.5 0 5M20.5 12.5q1.2 2.5 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 900 }
+  ]
+}

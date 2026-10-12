@@ -1,0 +1,11 @@
+{
+  "name": "bag-valve-mask",
+  "category": "health",
+  "tags": ["resuscitator", "bag valve mask", "ventilation", "airway", "emergency", "breathing"],
+  "svg": "<rect class=\"d p1\" x=\"5.5\" y=\"2.5\" width=\"13\" height=\"7\" rx=\"3.5\"/><path class=\"p2\" d=\"M12 9.5V13\"/><path class=\"p3\" d=\"M5 13h14v3a5 5 0 0 1-5 5h-4a5 5 0 0 1-5-5z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "press", "dur": 900, "delay": 700 }
+  ]
+}

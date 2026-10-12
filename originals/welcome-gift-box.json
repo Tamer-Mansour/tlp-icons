@@ -1,0 +1,11 @@
+{
+  "name": "welcome-gift-box",
+  "category": "commerce",
+  "tags": ["gift", "welcome", "present", "hello", "greeting", "wrap", "box"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"10\" rx=\"1\"/><g class=\"p2\"><rect class=\"d\" x=\"2\" y=\"7\" width=\"20\" height=\"4\" rx=\"1\"/><path d=\"M12 7v14\"/><path d=\"M12 7C10.5 3.5 7 3.5 7.5 5.5 8 7 12 7 12 7z\"/><path d=\"M12 7c1.5-3.5 4.5-3.5 4-1.5C15.5 7 12 7 12 7z\"/></g><g class=\"p3\"><path d=\"M19.5 3v2\"/><path d=\"M17.8 4.3l1.2 1.2\"/><path d=\"M21.2 4.3l-1.2 1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "twinkle", "dur": 1000, "delay": 700 }
+  ]
+}

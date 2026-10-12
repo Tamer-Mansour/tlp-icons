@@ -1,0 +1,12 @@
+{
+  "name": "lotion-pump-bottle",
+  "category": "commerce",
+  "tags": ["lotion", "pump", "bottle", "cream", "skincare", "dispenser", "beauty"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"11\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 9V7h6v2\"/><path class=\"p3\" d=\"M11.5 7V4.5H16\"/><path class=\"p4\" d=\"M6 15h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 250 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 450 },
+    { "part": "p3", "anim": "press", "dur": 700, "delay": 900, "origin": "11.5px 7px" }
+  ]
+}

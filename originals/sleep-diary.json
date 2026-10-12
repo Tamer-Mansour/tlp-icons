@@ -1,0 +1,11 @@
+{
+  "name": "sleep-diary",
+  "category": "health",
+  "tags": ["sleep", "diary", "journal", "night", "moon", "notebook"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" transform=\"translate(4.8 2.8) scale(0.6)\" d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"/><path class=\"p3\" d=\"M8 18h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

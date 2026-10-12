@@ -1,0 +1,12 @@
+{
+  "name": "tiered-pricing",
+  "category": "commerce",
+  "tags": ["tiered pricing", "price", "tiers", "levels", "bulk", "discount", "pricing"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V16H9V11H15V6H21V21Z\"/><path class=\"p2\" d=\"M4.5 18.5h3\"/><path class=\"p3\" d=\"M10.5 13.5h3\"/><path class=\"p4\" d=\"M16.5 8.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 650 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

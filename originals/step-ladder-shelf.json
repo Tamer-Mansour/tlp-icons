@@ -1,0 +1,33 @@
+{
+    "name":  "step-ladder-shelf",
+    "category":  "commerce",
+    "tags":  [
+                 "step",
+                 "ladder",
+                 "shelf",
+                 "stock",
+                 "restock",
+                 "store"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M7 3L4 21M17 3l3 18\"/\u003e\u003cpath class=\"p2\" d=\"M6 9h12M5 15h14\"/\u003e\u003cpath class=\"p3\" d=\"M7 3h10\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  450
+                   }
+               ]
+}

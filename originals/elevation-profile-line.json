@@ -1,0 +1,11 @@
+{
+  "name": "elevation-profile-line",
+  "category": "maps",
+  "tags": ["elevation", "profile", "altitude", "chart", "hiking", "terrain"],
+  "svg": "<path class=\"d p1\" d=\"M3 17 8 9l4 5 3-4 6 7v4H3z\"/><path class=\"p2\" d=\"M3 17 8 9l4 5 3-4 6 7\"/><path class=\"p3\" d=\"M3 3v18h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

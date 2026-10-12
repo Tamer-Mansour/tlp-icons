@@ -1,0 +1,13 @@
+{
+  "name": "self-checkout-kiosk",
+  "category": "commerce",
+  "tags": ["self checkout", "kiosk", "scanner", "checkout", "supermarket", "terminal", "scan"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"10.5\" rx=\"2\"/><path class=\"p2\" d=\"M8 7.5l2.5 2.5L16 5.5\"/><path class=\"p3\" d=\"M12 13v2.5\"/><rect class=\"p4\" x=\"7\" y=\"15.5\" width=\"10\" height=\"5.5\" rx=\"1.5\"/><path class=\"p5\" d=\"M10 18.25h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p5", "anim": "buzz", "dur": 800, "delay": 1300 }
+  ]
+}

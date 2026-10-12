@@ -1,0 +1,19 @@
+{
+  "name": "travel-insurance-suitcase",
+  "category": "finance",
+  "tags": [
+    "travel",
+    "insurance",
+    "suitcase",
+    "luggage",
+    "shield",
+    "cover",
+    "trip"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"17\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7 7V5a1.5 1.5 0 0 1 1.5-1.5h5A1.5 1.5 0 0 1 15 5v2\"/><path class=\"d p3\" d=\"M18 13.5l3.5 1.3v2.4c0 2-1.5 3.3-3.5 4-2-.7-3.5-2-3.5-4v-2.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "billable-hours-clock",
+  "category": "finance",
+  "tags": [
+    "billable",
+    "hours",
+    "clock",
+    "time",
+    "invoice",
+    "briefcase"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polyline class=\"p2\" points=\"12 7 12 12 15 14\"/><g class=\"p3\"><rect class=\"d\" x=\"14\" y=\"14\" width=\"8\" height=\"6\" rx=\"1\"/><path d=\"M17 14v-1.5h2V14\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 400, "origin": "12px 12px" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000, "origin": "18px 17px" }
+  ]
+}

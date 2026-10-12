@@ -1,0 +1,12 @@
+{
+  "name": "liquidity-pool",
+  "category": "finance",
+  "tags": ["liquidity", "pool", "funds", "flow", "reserve", "cash", "market"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"12\" width=\"20\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M2 16q2.5-2 5 0t5 0t5 0t5 0\"/><path class=\"p3\" d=\"M7 3v6M4.5 6.5 7 9l2.5-2.5\"/><path class=\"p4\" d=\"M17 10V3M14.5 5.5 17 3l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "riseIn", "dur": 600, "delay": 1000 }
+  ]
+}

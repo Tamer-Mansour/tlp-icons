@@ -1,0 +1,12 @@
+{
+  "name": "clearance-tag-stack",
+  "category": "commerce",
+  "tags": ["clearance", "markdown", "sale", "price tags", "discount", "reduced", "down arrow"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"10\" height=\"5.5\" rx=\"1.5\"/><rect class=\"d p2\" x=\"3\" y=\"12.5\" width=\"10\" height=\"5.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M6 5.25h4M6 15.25h4\"/><path class=\"p4\" d=\"M19 3v15M17 16l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "bob", "dur": 1200, "delay": 1000 }
+  ]
+}

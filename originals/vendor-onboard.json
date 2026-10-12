@@ -1,0 +1,19 @@
+{
+  "name": "vendor-onboard",
+  "category": "commerce",
+  "tags": [
+    "vendor",
+    "supplier",
+    "onboard",
+    "building",
+    "partner",
+    "register"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"11\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M5 7h2M9 7h2M5 11h2M9 11h2M5 15h2M9 15h2\"/><circle class=\"d p3\" cx=\"18\" cy=\"14\" r=\"2\"/><path class=\"p3\" d=\"M14.5 21a3.5 3.5 0 0 1 7 0\"/><path class=\"p4\" d=\"M19 3v4M17 5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "swift-code-globe",
+  "category": "finance",
+  "tags": [
+    "swift",
+    "bic",
+    "bank code",
+    "globe",
+    "international",
+    "wire transfer"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6.5\"/><path class=\"p2\" d=\"M9 2.5c-2 2-3 4-3 6.5s1 4.5 3 6.5M2.5 9h13\"/><rect class=\"d p3\" x=\"14\" y=\"14\" width=\"8\" height=\"7\" rx=\"1.5\"/><path class=\"p4\" d=\"M17 16.5l-1.5 1.5 1.5 1.5M19.5 16.5l1.5 1.5-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "aerial-view-drone",
+  "category": "maps",
+  "tags": [
+    "drone",
+    "aerial",
+    "view",
+    "quadcopter",
+    "flying",
+    "survey"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"9.5\" y=\"8.5\" width=\"5\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M10 9.5 6.5 6.5M14 9.5l3.5-3M10 10.5 6.5 13.5M14 10.5l3.5 3\"/><g class=\"p3\"><circle cx=\"5\" cy=\"5\" r=\"2.5\"/><circle cx=\"19\" cy=\"5\" r=\"2.5\"/><circle cx=\"5\" cy=\"15\" r=\"2.5\"/><circle cx=\"19\" cy=\"15\" r=\"2.5\"/></g><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "buzz",
+      "dur": 1000,
+      "delay": 900
+    }
+  ]
+}

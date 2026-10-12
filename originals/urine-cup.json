@@ -1,0 +1,11 @@
+{
+  "name": "urine-cup",
+  "category": "health",
+  "tags": ["urine", "specimen", "cup", "lab", "sample", "test", "lid"],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12l-1.5 12h-9z\"/><rect class=\"p2\" x=\"5\" y=\"5\" width=\"14\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 14h6M9 17.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

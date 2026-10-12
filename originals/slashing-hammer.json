@@ -1,0 +1,28 @@
+{
+  "name": "slashing-hammer",
+  "category": "finance",
+  "tags": [
+    "slashing",
+    "penalty",
+    "gavel",
+    "coin",
+    "validator",
+    "stake"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 15v4c0 1.1 2.2 2 5 2s5-.9 5-2v-4\"/><ellipse class=\"d p1\" cx=\"7\" cy=\"15\" rx=\"5\" ry=\"2\"/><g class=\"p2\"><rect class=\"d\" x=\"11\" y=\"5\" width=\"10\" height=\"5\" rx=\"1.5\" transform=\"rotate(35 16 7.5)\"/><path d=\"M16 7.5l-4.6 6.6\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "strike",
+      "dur": 1000,
+      "delay": 500,
+      "origin": "11.4px 14.1px"
+    }
+  ]
+}

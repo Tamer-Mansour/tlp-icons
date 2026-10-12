@@ -1,0 +1,17 @@
+{
+  "name": "no-entry-sign",
+  "category": "maps",
+  "tags": [
+    "no entry",
+    "forbidden",
+    "stop",
+    "sign",
+    "road",
+    "restricted"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 12h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

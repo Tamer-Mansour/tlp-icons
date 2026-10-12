@@ -1,0 +1,11 @@
+{
+  "name": "membership-perks",
+  "category": "commerce",
+  "tags": ["membership", "perks", "card", "stars", "benefits", "loyalty", "rewards"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"19\" height=\"18\" rx=\"2\"/><g class=\"p2\"><polygon points=\"6.5 6 6.97 7.35 8.4 7.38 7.26 8.25 7.68 9.62 6.5 8.8 5.32 9.62 5.74 8.25 4.6 7.38 6.03 7.35\"/><polygon points=\"6.5 10.5 6.97 11.85 8.4 11.88 7.26 12.75 7.68 14.12 6.5 13.3 5.32 14.12 5.74 12.75 4.6 11.88 6.03 11.85\"/><polygon points=\"6.5 15 6.97 16.35 8.4 16.38 7.26 17.25 7.68 18.62 6.5 17.8 5.32 18.62 5.74 17.25 4.6 16.38 6.03 16.35\"/></g><path class=\"p3\" d=\"M11 8h6M11 12.5h6M11 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

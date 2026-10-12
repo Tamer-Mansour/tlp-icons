@@ -1,0 +1,33 @@
+{
+  "name": "observation-deck",
+  "category": "maps",
+  "tags": [
+    "observation",
+    "deck",
+    "tower",
+    "viewpoint",
+    "telescope",
+    "lookout"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 20h18\"/><path class=\"p2\" d=\"M7 20l3-8m4 8-3-8\"/><path class=\"d p3\" d=\"M8 8l9-3 1 4-9 3z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

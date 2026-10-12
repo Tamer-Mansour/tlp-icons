@@ -1,0 +1,11 @@
+{
+  "name": "space-maintainer",
+  "category": "health",
+  "tags": ["space maintainer", "dental", "teeth", "gap", "orthodontic", "wire"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"5\" height=\"8\" rx=\"2\"/><rect class=\"d p1\" x=\"17\" y=\"8\" width=\"5\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M7 12h10\"/><path class=\"p3\" d=\"M9 16.5 7 18l2 1.5M15 16.5 17 18l-2 1.5M7 18h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "name":  "carrot-stick",
+    "category":  "health",
+    "tags":  [
+                 "carrot",
+                 "stick",
+                 "vegetable",
+                 "snack",
+                 "raw",
+                 "food",
+                 "healthy"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M15 8l-9.5 12.5a1.2 1.2 0 0 0 1.700.2L17 10z\"/\u003e\u003cpath class=\"p3\" d=\"M15 8l1-5M15 8l5-2M15 8l5 2\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "origin":  "15px 8px",
+                       "delay":  700,
+                       "anim":  "sway",
+                       "part":  "p3",
+                       "dur":  1200
+                   }
+               ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "shoulder-joint",
+  "category": "health",
+  "tags": [
+    "shoulder",
+    "joint",
+    "ball",
+    "socket",
+    "collarbone",
+    "orthopedic",
+    "bone",
+    "arm"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 3.5Q5 11 12 19.5\"/><circle class=\"d p2\" cx=\"15.5\" cy=\"11\" r=\"4\"/><path class=\"p3\" d=\"M15.5 15v6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

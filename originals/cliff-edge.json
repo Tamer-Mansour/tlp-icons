@@ -1,0 +1,28 @@
+{
+  "name": "cliff-edge",
+  "category": "maps",
+  "tags": [
+    "cliff",
+    "edge",
+    "drop",
+    "rock",
+    "danger",
+    "hazard",
+    "landscape"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9h9l-2 4 3 3-2 6H3z\"/><path class=\"p2\" d=\"M18 7v9M15 13l3 3 3-3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "delivery-window",
+  "category": "commerce",
+  "tags": [
+    "delivery",
+    "window",
+    "time slot",
+    "clock",
+    "schedule",
+    "box"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 8h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z\"/><rect class=\"p2\" x=\"3\" y=\"4\" width=\"18\" height=\"4\" rx=\"1\"/><g class=\"p3\"><circle cx=\"12\" cy=\"14\" r=\"3.5\"/><path d=\"M12 12v2.5l1.5 1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

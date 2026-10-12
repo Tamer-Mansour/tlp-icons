@@ -1,0 +1,20 @@
+{
+  "name": "rock-arch",
+  "category": "maps",
+  "tags": [
+    "rock",
+    "arch",
+    "stone",
+    "desert",
+    "landmark",
+    "nature",
+    "canyon",
+    "landscape"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 21V11a9 9 0 0 1 18 0v10\"/><path class=\"p2\" d=\"M8 21v-5a4 4 0 0 1 8 0v5\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stop-sign-octagon",
+  "category": "maps",
+  "tags": ["stop", "sign", "octagon", "traffic", "road", "halt", "no entry"],
+  "svg": "<polygon class=\"d p1\" points=\"7.5 2 16.5 2 22 7.5 22 16.5 16.5 22 7.5 22 2 16.5 2 7.5\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

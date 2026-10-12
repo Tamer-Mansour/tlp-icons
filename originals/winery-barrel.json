@@ -1,0 +1,33 @@
+{
+  "name": "winery-barrel",
+  "category": "maps",
+  "tags": [
+    "winery",
+    "wine",
+    "barrel",
+    "tap",
+    "vineyard",
+    "cask"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6.5\" width=\"16\" height=\"11\" rx=\"4\"/><path class=\"p2\" d=\"M7 6.5v11M13 6.5v11\"/><path class=\"p3\" d=\"M18.5 12H21.5M20.5 9.5v5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "drip",
+      "dur": 900,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "expense-report",
+  "category": "finance",
+  "tags": [
+    "expense",
+    "report",
+    "receipt",
+    "pie",
+    "coins",
+    "spending"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"11\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 10V7a3 3 0 1 0 3 3z\"/><g class=\"p3\"><ellipse cx=\"18.5\" cy=\"15\" rx=\"2.5\" ry=\"1\"/><path d=\"M16 15v4c0 .55 1.12 1 2.5 1s2.5-.45 2.5-1v-4\"/><path d=\"M16 17.5c0 .55 1.12 1 2.5 1s2.5-.45 2.5-1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 300, "origin": "9px 10px" },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 700 }
+  ]
+}

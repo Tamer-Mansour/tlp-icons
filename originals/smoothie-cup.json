@@ -1,0 +1,12 @@
+{
+  "name": "smoothie-cup",
+  "category": "health",
+  "tags": ["smoothie", "drink", "cup", "straw", "fruit", "juice", "nutrition"],
+  "svg": "<path class=\"d p1\" d=\"M5.5 9h13l-1.8 11H7.3z\"/><rect class=\"p2\" x=\"4.5\" y=\"7\" width=\"15\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M14.5 7 17 2.5\"/><circle class=\"p4\" cx=\"8\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

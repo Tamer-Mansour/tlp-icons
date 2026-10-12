@@ -1,0 +1,35 @@
+{
+    "name":  "snowshoes",
+    "category":  "maps",
+    "tags":  [
+                 "snowshoes",
+                 "snow",
+                 "winter",
+                 "hiking",
+                 "trail",
+                 "mountain",
+                 "walk"
+             ],
+    "svg":  "\u003cellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"5\" ry=\"6.5\"/\u003e\u003cpath class=\"p2\" d=\"M8.5 8h7M8.5 12h7\"/\u003e\u003cpath class=\"p3\" d=\"M12 15.5V21\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "grow",
+                       "dur":  500,
+                       "delay":  800,
+                       "origin":  "top"
+                   }
+               ]
+}

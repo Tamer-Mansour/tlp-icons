@@ -1,0 +1,11 @@
+{
+  "name": "overdraft-warning",
+  "category": "finance",
+  "tags": ["overdraft", "warning", "account", "negative balance", "bank", "alert", "debt"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"17\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M2 9.5h17\"/><g class=\"p3\"><path d=\"M18 11.5 22 19h-8z\"/><path d=\"M18 14v2.2M18 17.8h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

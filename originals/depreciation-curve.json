@@ -1,0 +1,11 @@
+{
+  "name": "depreciation-curve",
+  "category": "finance",
+  "tags": ["depreciation", "decline", "value", "asset", "curve", "loss"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><rect class=\"d p2\" x=\"6\" y=\"4.5\" width=\"13\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M5.5 9.5C9 9.5 10 16 14 16.5S18 18.5 19.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 600 }
+  ]
+}

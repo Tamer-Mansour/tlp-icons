@@ -1,0 +1,19 @@
+{
+  "name": "price-check",
+  "category": "finance",
+  "tags": [
+    "price",
+    "tag",
+    "check",
+    "magnifier",
+    "compare",
+    "shopping",
+    "search"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 4a2 2 0 0 1 2-2h5.5L15 8.5 8.5 15 2 8.5z\"/><circle class=\"p2\" cx=\"6\" cy=\"6\" r=\"1.5\"/><g class=\"p3\"><circle cx=\"16\" cy=\"16\" r=\"4\"/><path d=\"M19 19l2.5 2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

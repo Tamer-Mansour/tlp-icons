@@ -1,0 +1,11 @@
+{
+  "name": "field-hospital-tent",
+  "category": "health",
+  "tags": ["field", "hospital", "tent", "emergency", "camp", "medical", "relief"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 21 12 10l9.5 11z\"/><path class=\"p2\" d=\"M12 10V2\"/><polygon class=\"p2\" points=\"12 2 19 4 12 6\"/><path class=\"p3\" d=\"M12 13.5v4M10 15.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "internet-bill-wifi",
+  "category": "finance",
+  "tags": [
+    "internet",
+    "bill",
+    "wifi",
+    "broadband",
+    "payment",
+    "coin"
+  ],
+  "svg": "<path class=\"p2\" d=\"M2 8.5a14 14 0 0 1 20 0\"/><path class=\"p3\" d=\"M5.5 12.5a9 9 0 0 1 13 0\"/><circle class=\"d p1\" cx=\"12\" cy=\"18\" r=\"3.5\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p1",
+      "anim": "rollIn",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

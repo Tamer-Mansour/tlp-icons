@@ -1,0 +1,35 @@
+{
+  "name": "money-order",
+  "category": "finance",
+  "tags": [
+    "money",
+    "order",
+    "postal",
+    "payment",
+    "slip",
+    "stamp",
+    "seal",
+    "transfer"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 8h10M16 14h3\"/><circle class=\"d p3\" cx=\"9\" cy=\"14\" r=\"2.2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

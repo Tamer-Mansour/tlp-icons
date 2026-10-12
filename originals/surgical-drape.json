@@ -1,0 +1,28 @@
+{
+    "name":  "surgical-drape",
+    "category":  "health",
+    "tags":  [
+                 "surgical",
+                 "drape",
+                 "sheet",
+                 "operating",
+                 "sterile",
+                 "theatre",
+                 "cloth"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  400
+                   }
+               ]
+}

@@ -1,0 +1,27 @@
+{
+    "name":  "route-draw-pen",
+    "category":  "maps",
+    "tags":  [
+                 "route",
+                 "draw",
+                 "pen",
+                 "path",
+                 "plan",
+                 "map"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M7 19c5 0 1-7 7-7s1-7 6-7\"/\u003e\u003ccircle class=\"d p2\" cx=\"5\" cy=\"19\" r=\"2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  1000,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

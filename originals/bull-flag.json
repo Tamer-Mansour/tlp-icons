@@ -1,0 +1,11 @@
+{
+  "name": "bull-flag",
+  "category": "finance",
+  "tags": ["bull flag", "chart", "pattern", "trading", "stocks", "pole", "technical analysis"],
+  "svg": "<path class=\"p1\" d=\"M8 21V4\"/><polygon class=\"d p2\" points=\"8 4 19 7.5 17 11 8 8\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "swingIn", "dur": 800, "delay": 700, "origin": "8px 4px" }
+  ]
+}

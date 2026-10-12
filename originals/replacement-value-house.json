@@ -1,0 +1,11 @@
+{
+  "name": "replacement-value-house",
+  "category": "finance",
+  "tags": ["replacement", "insurance", "rebuild", "home", "value", "property", "coverage"],
+  "svg": "<path class=\"d p1\" d=\"M7 12.5 12 8l5 4.5V18H7z\"/><path class=\"p2\" d=\"M10.5 18v-3h3v3\"/><g class=\"p3\"><path d=\"M17 3.34A10 10 0 1 1 7 3.34\"/><polyline points=\"4.1,2.56 7,3.34 6.2,6.24\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "spin", "dur": 1400, "delay": 300, "origin": "12px 12px" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "running-shoe",
+  "category": "health",
+  "tags": [
+    "running shoe",
+    "sneaker",
+    "trainer",
+    "jogging",
+    "exercise",
+    "fitness"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 6.5h4.5l3 3.5 2.5 1 4.5 1.5c2 .6 3.5 2 3.5 4.2V18H3z\"/><rect class=\"p2\" x=\"2\" y=\"18.5\" width=\"20\" height=\"2.5\" rx=\"1.25\"/><path class=\"p3\" d=\"M10 14.5l2-1.5M13.5 16l2-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 650 }
+  ]
+}

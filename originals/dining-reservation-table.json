@@ -1,0 +1,33 @@
+{
+  "name": "dining-reservation-table",
+  "category": "maps",
+  "tags": [
+    "dining",
+    "reservation",
+    "table",
+    "restaurant",
+    "booking",
+    "reserved"
+  ],
+  "svg": "<path class=\"p2\" d=\"M3 12h18M5 12v9M19 12v9\"/><path class=\"d p1\" d=\"M7.5 12 9 6h6l1.5 6z\"/><path class=\"p3\" d=\"M10.5 9h3\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

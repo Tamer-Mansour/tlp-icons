@@ -1,0 +1,40 @@
+{
+  "name": "order-history-clock",
+  "category": "commerce",
+  "tags": [
+    "order",
+    "history",
+    "clock",
+    "past",
+    "shopping",
+    "bag"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 8h12v12H4z\"/><path class=\"p2\" d=\"M8 8V6a2 2 0 0 1 4 0v2\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4.5\"/><path class=\"p4\" d=\"M17 14.8V17l1.5 1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "spin",
+      "dur": 1200,
+      "delay": 1000,
+      "origin": "17px 17px"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hurricane-warning",
+  "category": "finance",
+  "tags": [
+    "hurricane",
+    "storm",
+    "warning",
+    "insurance",
+    "spiral",
+    "home",
+    "weather"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 8h9a2.5 2.5 0 1 0-2.5-2.5\"/><path class=\"p2\" d=\"M3 14h6a2.5 2.5 0 1 0-2.5-2.5\"/><path class=\"d p3\" d=\"M13 21v-7l4-3 4 3v7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "spiralIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1400, "delay": 900 }
+  ]
+}

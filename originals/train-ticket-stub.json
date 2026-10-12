@@ -1,0 +1,11 @@
+{
+  "name": "train-ticket-stub",
+  "category": "maps",
+  "tags": ["train", "ticket", "stub", "rail", "travel", "perforated", "pass"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M16 8.5v1.5M16 12v1M16 14.5v1.5\"/><rect class=\"p3\" x=\"5\" y=\"9.5\" width=\"7\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "drive", "dur": 1200, "delay": 500 }
+  ]
+}

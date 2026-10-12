@@ -1,0 +1,11 @@
+{
+  "name": "height-chart-ruler",
+  "category": "health",
+  "tags": ["height", "ruler", "measure", "growth chart", "stadiometer", "child", "scale"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 6h4M9 14h4\"/><path class=\"p3\" d=\"M9 10h2M9 18h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

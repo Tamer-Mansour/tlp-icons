@@ -1,0 +1,19 @@
+{
+  "name": "customs-duty-stamp",
+  "category": "commerce",
+  "tags": [
+    "customs",
+    "duty",
+    "stamp",
+    "import",
+    "tax",
+    "border",
+    "passport"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"12\" height=\"7\" rx=\"1\"/><circle class=\"d p2\" cx=\"15\" cy=\"7\" r=\"4.5\"/><path class=\"p3\" d=\"M12.5 7.5l1.7 1.7 3.3-3.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

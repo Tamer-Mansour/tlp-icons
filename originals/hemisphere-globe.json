@@ -1,0 +1,11 @@
+{
+  "name": "hemisphere-globe",
+  "category": "maps",
+  "tags": ["globe", "earth", "world", "hemisphere", "map", "planet", "sphere"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M3 12h18\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 700, "delay": 900 }
+  ]
+}

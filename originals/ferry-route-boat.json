@@ -1,0 +1,33 @@
+{
+  "name": "ferry-route-boat",
+  "category": "maps",
+  "tags": [
+    "ferry",
+    "boat",
+    "route",
+    "ship",
+    "crossing",
+    "sea"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 14h18l-3 5H6z\"/><path class=\"p2\" d=\"M8 14v-4h8v4\"/><g class=\"p3\"><path d=\"M3 5.5c1-1 2-1 3 0\"/><path d=\"M9 5.5c1-1 2-1 3 0\"/><path d=\"M15 5.5c1-1 2-1 3 0\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 600
+    }
+  ]
+}

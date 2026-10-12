@@ -1,0 +1,18 @@
+{
+  "name": "museum-building",
+  "category": "maps",
+  "tags": [
+    "museum",
+    "gallery",
+    "culture",
+    "exhibit",
+    "building",
+    "art"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9 12 3.5 21 9z\"/><path class=\"p2\" d=\"M6 13v3.5M10 13v3.5M14 13v3.5M18 13v3.5\"/><path class=\"p3\" d=\"M2.5 20.5h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

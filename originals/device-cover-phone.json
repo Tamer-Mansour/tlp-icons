@@ -1,0 +1,11 @@
+{
+  "name": "device-cover-phone",
+  "category": "finance",
+  "tags": ["phone", "smartphone", "device", "cover", "protection", "shield", "insurance"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M9.5 5.5h3\"/><path class=\"d p3\" d=\"M18 12.5l3.5 1.3v2.4c0 2.1-1.5 3.6-3.5 4.4-2-.8-3.5-2.3-3.5-4.4v-2.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800, "origin": "18px 16px" }
+  ]
+}

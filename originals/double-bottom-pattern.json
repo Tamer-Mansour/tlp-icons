@@ -1,0 +1,10 @@
+{
+  "name": "double-bottom-pattern",
+  "category": "finance",
+  "tags": ["double", "bottom", "pattern", "chart", "reversal", "technical"],
+  "svg": "<polyline class=\"p1\" points=\"3,8 7.5,17 12,11 16.5,17 21,8\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

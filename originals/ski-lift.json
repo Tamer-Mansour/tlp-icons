@@ -1,0 +1,28 @@
+{
+  "name": "ski-lift",
+  "category": "maps",
+  "tags": [
+    "ski lift",
+    "chairlift",
+    "ski",
+    "mountain",
+    "cable",
+    "gondola"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2 5l20 4\"/><g class=\"p2\"><path d=\"M12 7v6\"/><rect class=\"d\" x=\"8\" y=\"13\" width=\"8\" height=\"6\" rx=\"2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "swing",
+      "dur": 1400,
+      "delay": 700,
+      "origin": "12px 7px"
+    }
+  ]
+}

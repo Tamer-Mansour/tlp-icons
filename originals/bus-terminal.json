@@ -1,0 +1,12 @@
+{
+  "name": "bus-terminal",
+  "category": "maps",
+  "tags": ["bus", "terminal", "station", "platform", "stop", "transit"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"14\" rx=\"3\"/><path class=\"p2\" d=\"M4 10h16\"/><circle class=\"p3\" cx=\"8\" cy=\"13.5\" r=\"0.8\"/><circle class=\"p3\" cx=\"16\" cy=\"13.5\" r=\"0.8\"/><path class=\"p4\" d=\"M7 17v3M17 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

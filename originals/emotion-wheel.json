@@ -1,0 +1,33 @@
+{
+  "name": "emotion-wheel",
+  "category": "health",
+  "tags": [
+    "emotion",
+    "wheel",
+    "mood",
+    "feelings",
+    "segments",
+    "wellbeing"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3v3M12 18v3M3 12h3M18 12h3\"/><path class=\"p3\" d=\"M10 10.5h.01M14 10.5h.01M9.5 14q2.5 2 5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

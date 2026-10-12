@@ -1,0 +1,19 @@
+{
+  "name": "high-speed-train",
+  "category": "maps",
+  "tags": [
+    "train",
+    "high speed",
+    "bullet train",
+    "railway",
+    "locomotive",
+    "rail",
+    "travel"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 16V11a4 4 0 0 1 4-4h7l7 5v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"6\" y=\"9\" width=\"6\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 500 }
+  ]
+}

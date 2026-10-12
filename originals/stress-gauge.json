@@ -1,0 +1,11 @@
+{
+  "name": "stress-gauge",
+  "category": "health",
+  "tags": ["stress", "gauge", "meter", "pressure", "anxiety", "level", "dial", "mental health"],
+  "svg": "<path class=\"d p1\" d=\"M3 17a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M19.4 11.8A9 9 0 0 1 21 17\"/><path class=\"p3\" d=\"M12 17L18.6 12.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "name":  "tracking-timeline",
+    "category":  "commerce",
+    "tags":  [
+                 "tracking",
+                 "timeline",
+                 "checkpoint",
+                 "delivery",
+                 "status",
+                 "order"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M5 8v8\"/\u003e\u003ccircle class=\"d p2\" cx=\"5\" cy=\"5\" r=\"2.5\"/\u003e\u003ccircle class=\"d p3\" cx=\"5\" cy=\"19\" r=\"2.5\"/\u003e\u003cpath class=\"p4\" d=\"M11 5h10M11 19h10\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  900
+                   }
+               ]
+}

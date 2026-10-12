@@ -1,0 +1,20 @@
+{
+  "name": "coin-laundry",
+  "category": "maps",
+  "tags": [
+    "laundry",
+    "coin",
+    "washing machine",
+    "laundromat",
+    "wash",
+    "clothes",
+    "service"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"18\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M6 5.5h4\"/><circle class=\"p3\" cx=\"16\" cy=\"5.5\" r=\"2\"/><circle class=\"p4\" cx=\"12\" cy=\"14\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "rollIn", "dur": 700, "delay": 800 }
+  ]
+}

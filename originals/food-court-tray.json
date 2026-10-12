@@ -1,0 +1,11 @@
+{
+  "name": "food-court-tray",
+  "category": "maps",
+  "tags": ["food", "court", "tray", "burger", "cup", "meal", "fast food"],
+  "svg": "<path class=\"d p1\" d=\"M3 19h18l-1.5 2.5h-15z\"/><path class=\"d p2\" d=\"M3.5 13a5 4 0 0 1 10 0z\"/><path class=\"p3\" d=\"M16.5 9h5l-1.2 5.5h-2.6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 600 }
+  ]
+}

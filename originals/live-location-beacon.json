@@ -1,0 +1,19 @@
+{
+  "name": "live-location-beacon",
+  "category": "maps",
+  "tags": [
+    "live",
+    "location",
+    "beacon",
+    "broadcast",
+    "gps",
+    "tracking",
+    "signal"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><g class=\"p2\"><path d=\"M7.76 16.24A6 6 0 0 1 7.76 7.76\"/><path d=\"M16.24 7.76A6 6 0 0 1 16.24 16.24\"/></g><g class=\"p3\"><path d=\"M4.72 5.89A9.5 9.5 0 0 0 4.72 18.11\"/><path d=\"M19.28 5.89A9.5 9.5 0 0 1 19.28 18.11\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 600 }
+  ]
+}

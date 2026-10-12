@@ -1,0 +1,18 @@
+{
+  "name": "commodity-wheat",
+  "category": "finance",
+  "tags": [
+    "commodity",
+    "wheat",
+    "grain",
+    "chart",
+    "agriculture",
+    "market"
+  ],
+  "svg": "<path class=\"p1\" d=\"M7 21V7\"/><path class=\"p2\" d=\"M7 3l2 2-2 2-2-2zM7 11l-3-3M7 15l-3-3M7 11l3-3M7 15l3-3\"/><path class=\"p3\" d=\"M13 21h9M13 19l3-3 3 2 3-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

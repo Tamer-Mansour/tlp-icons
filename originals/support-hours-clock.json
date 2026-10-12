@@ -1,0 +1,11 @@
+{
+  "name": "support-hours-clock",
+  "category": "commerce",
+  "tags": ["support", "hours", "clock", "24/7", "round the clock", "always open", "customer service"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><g class=\"p3\"><path d=\"M12 5.5v1.2M18.5 12h-1.2M12 18.5v-1.2M5.5 12h1.2\"/></g><path class=\"p2\" d=\"M12 8v4l3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 600, "origin": "12px 12px" }
+  ]
+}

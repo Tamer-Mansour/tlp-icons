@@ -1,0 +1,19 @@
+{
+  "name": "pack-check",
+  "category": "commerce",
+  "tags": [
+    "pack",
+    "check",
+    "packing",
+    "verify",
+    "order",
+    "box",
+    "fulfilment"
+  ],
+  "svg": "<rect class=\"d p2\" x=\"3\" y=\"3\" width=\"18\" height=\"3.5\" rx=\"1.25\"/><rect class=\"d p1\" x=\"5\" y=\"9.5\" width=\"14\" height=\"11.5\" rx=\"2\"/><polyline class=\"p3\" points=\"9 15.5 11.2 17.7 15.5 13.3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

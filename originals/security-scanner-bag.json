@@ -1,0 +1,11 @@
+{
+  "name": "security-scanner-bag",
+  "category": "maps",
+  "tags": ["security", "scanner", "bag", "airport", "luggage", "screening", "conveyor"],
+  "svg": "<path class=\"p1\" d=\"M5 19V10a7 7 0 0 1 14 0v9\"/><path class=\"p2\" d=\"M2 19h20\"/><g class=\"p3\"><rect class=\"d\" x=\"8.5\" y=\"12.5\" width=\"7\" height=\"6.5\" rx=\"1\"/><path d=\"M10.5 12.5v-2a1.5 1.5 0 0 1 3 0v2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 800, "delay": 500 }
+  ]
+}

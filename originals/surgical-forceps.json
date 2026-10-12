@@ -1,0 +1,11 @@
+{
+  "name": "surgical-forceps",
+  "category": "health",
+  "tags": ["forceps", "clamp", "hemostat", "surgery", "surgical", "tongs", "instrument"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"18\" r=\"2.5\"/><circle class=\"d p1\" cx=\"18\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M7.5 15.5 10.5 5.5M16.5 15.5 13.5 5.5\"/><path class=\"p3\" d=\"M8.5 4h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1000 }
+  ]
+}

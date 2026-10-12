@@ -1,0 +1,11 @@
+{
+  "name": "sad-face-card",
+  "category": "commerce",
+  "tags": ["sad", "face", "card", "frown", "unhappy", "review", "feedback"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M10 10.5h.01M14 10.5h.01M10.2 15c1.1-.9 2.5-.9 3.6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

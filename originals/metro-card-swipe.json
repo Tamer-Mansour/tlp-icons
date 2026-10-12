@@ -1,0 +1,20 @@
+{
+  "name": "metro-card-swipe",
+  "category": "maps",
+  "tags": [
+    "metro",
+    "card",
+    "transit",
+    "swipe",
+    "subway",
+    "ticket",
+    "pass",
+    "bus"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 9.5h20\"/><path class=\"p3\" d=\"M6 16h8M11 13.5l3 2.5-3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lost-luggage-tag",
+  "category": "finance",
+  "tags": ["lost luggage", "suitcase", "question mark", "missing bag", "baggage claim", "lost property"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M4.5 7V5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 10.5 5v2\"/><g class=\"p3\"><circle cx=\"17.5\" cy=\"16.5\" r=\"4.5\"/><path d=\"M15.9 14.6a1.6 1.6 0 1 1 2.3 1.4c-.5.3-.7.7-.7 1.3\"/><path d=\"M17.5 19.6h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

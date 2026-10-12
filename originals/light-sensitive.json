@@ -1,0 +1,39 @@
+{
+    "name":  "light-sensitive",
+    "category":  "health",
+    "tags":  [
+                 "light",
+                 "sensitive",
+                 "photosensitive",
+                 "sun",
+                 "warning",
+                 "sunlight"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M8 2v1M2 8h1M3.8 3.8l.7.7M12.2 3.8l-.7.7\"/\u003e\u003ccircle class=\"p3\" cx=\"16.5\" cy=\"16.5\" r=\"5\"/\u003e\u003cpath class=\"p4\" d=\"M16.5 14v3M16.5 19.2v.1\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  250
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  600
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "blink",
+                       "dur":  900,
+                       "delay":  1000
+                   }
+               ]
+}

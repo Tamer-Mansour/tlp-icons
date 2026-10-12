@@ -1,0 +1,20 @@
+{
+  "name": "returned-check-x",
+  "category": "finance",
+  "tags": [
+    "returned",
+    "check",
+    "cheque",
+    "bounced",
+    "declined",
+    "nsf",
+    "bank"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"9.5\" height=\"17.5\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 7h3.5M6.5 10.5h3.5M6.5 14h2\"/><path class=\"p3\" d=\"M21.5 6.5h-4.5M19.5 4 17 6.5l2.5 2.5\"/><path class=\"p4\" d=\"M16 15l4.5 4.5M20.5 15 16 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

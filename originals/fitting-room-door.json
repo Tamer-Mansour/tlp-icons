@@ -1,0 +1,11 @@
+{
+  "name": "fitting-room-door",
+  "category": "commerce",
+  "tags": ["fitting", "room", "changing", "door", "stool", "try on", "clothes"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 5.5h4v2.5H6z\"/><rect class=\"d p3\" x=\"15\" y=\"11\" width=\"6\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M16 13v8M20 13v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

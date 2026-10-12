@@ -1,0 +1,11 @@
+{
+  "name": "university-cap-building",
+  "category": "maps",
+  "tags": ["university", "campus", "graduation", "school", "college", "education", "cap"],
+  "svg": "<path class=\"d p1\" d=\"M5 21V13h14v8z\"/><path class=\"p2\" d=\"M10 21v-4h4v4\"/><path class=\"d p3\" d=\"M12 3 22 7.5 12 12 2 7.5z\"/><path class=\"p3\" d=\"M19 9v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 700 }
+  ]
+}

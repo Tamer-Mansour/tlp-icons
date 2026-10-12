@@ -1,0 +1,33 @@
+{
+  "name": "penny-stock-coin",
+  "category": "finance",
+  "tags": [
+    "penny",
+    "stock",
+    "coin",
+    "chart",
+    "trading",
+    "shares"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polyline class=\"p2\" points=\"7 15 10 12 12.5 14.5 16.5 10\"/><path class=\"p3\" d=\"M14.5 10h2v2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "rollIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 300,
+      "delay": 1300
+    }
+  ]
+}

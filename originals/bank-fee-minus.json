@@ -1,0 +1,34 @@
+{
+  "name": "bank-fee-minus",
+  "category": "finance",
+  "tags": [
+    "bank",
+    "fee",
+    "minus",
+    "charge",
+    "deduction",
+    "cost",
+    "building"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9 12 4l9 5z\"/><path class=\"p2\" d=\"M3 21h10M6.5 12v7M11 12v7\"/><g class=\"p3\"><circle class=\"d\" cx=\"18\" cy=\"18\" r=\"4\"/><path d=\"M16 18h4\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

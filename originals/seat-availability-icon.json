@@ -1,0 +1,28 @@
+{
+    "name":  "seat-availability-icon",
+    "category":  "maps",
+    "tags":  [
+                 "seat",
+                 "availability",
+                 "vacancy",
+                 "free",
+                 "booking",
+                 "chair",
+                 "status"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"9\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M4 12h16v5H4zM7 17v4M17 17v4\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  800
+                   }
+               ]
+}

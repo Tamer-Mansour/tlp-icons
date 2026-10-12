@@ -1,0 +1,11 @@
+{
+  "name": "gift-card-return",
+  "category": "commerce",
+  "tags": ["gift card", "return", "refund", "store credit", "exchange", "voucher", "give back"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M2 8h12\"/><g class=\"p3\"><path d=\"M21 18h-8\"/><path d=\"M16 14.5 12.5 18l3.5 3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 900, "delay": 800 }
+  ]
+}

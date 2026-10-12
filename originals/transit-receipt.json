@@ -1,0 +1,11 @@
+{
+  "name": "transit-receipt",
+  "category": "maps",
+  "tags": ["transit", "receipt", "bus", "ticket", "fare", "slip", "commute"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5L5 21z\"/><path class=\"p2\" d=\"M8 7h8\"/><g class=\"p3\"><rect x=\"8\" y=\"10\" width=\"8\" height=\"6\" rx=\"1.5\"/><path d=\"M8 13h8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

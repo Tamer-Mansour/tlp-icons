@@ -1,0 +1,12 @@
+{
+  "name": "wire-transfer-globe",
+  "category": "finance",
+  "tags": ["wire", "transfer", "globe", "international", "remittance", "payment"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M3 9h12M9 3c-2.2 2-2.2 10 0 12 2.2-2 2.2-10 0-12\"/><circle class=\"d p3\" cx=\"18\" cy=\"16\" r=\"3.5\"/><path class=\"p4\" d=\"M3 19.5h4M9.5 19.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

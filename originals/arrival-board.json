@@ -1,0 +1,11 @@
+{
+  "name": "arrival-board",
+  "category": "maps",
+  "tags": ["arrival", "board", "flight", "airport", "timetable", "landing"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 9h6M6 13h5M6 17h6\"/><path class=\"p3\" d=\"M17 8.5v7M14.5 13l2.5 2.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 800 }
+  ]
+}

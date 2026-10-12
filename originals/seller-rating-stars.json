@@ -1,0 +1,19 @@
+{
+  "name": "seller-rating-stars",
+  "category": "commerce",
+  "tags": [
+    "seller",
+    "rating",
+    "stars",
+    "storefront",
+    "reviews",
+    "shop"
+  ],
+  "svg": "<g class=\"p1\"><polygon class=\"d\" points=\"5,2.5 5.76,4.45 7.85,4.57 6.24,5.9 6.76,7.93 5,6.8 3.24,7.93 3.76,5.9 2.15,4.57 4.24,4.45\"/><polygon class=\"d\" points=\"12,2.5 12.76,4.45 14.85,4.57 13.24,5.9 13.76,7.93 12,6.8 10.24,7.93 10.76,5.9 9.15,4.57 11.24,4.45\"/><polygon class=\"d\" points=\"19,2.5 19.76,4.45 21.85,4.57 20.24,5.9 20.76,7.93 19,6.8 17.24,7.93 17.76,5.9 16.15,4.57 18.24,4.45\"/></g><path class=\"d p2\" d=\"M3 10h18l-1.5 4h-15z\"/><path class=\"p3\" d=\"M5 14v7h14v-7\"/><path class=\"p4\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p1", "anim": "twinkle", "dur": 1200, "delay": 1100 }
+  ]
+}

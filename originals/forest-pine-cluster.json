@@ -1,0 +1,11 @@
+{
+  "name": "forest-pine-cluster",
+  "category": "maps",
+  "tags": ["forest", "pine", "trees", "cluster", "woods", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 7.5 9.5H10L6.5 15h11L14 9.5h2.5z\"/><path class=\"d p2\" d=\"M4 11 2 17.5h4zM20 11l-2 6.5h4z\"/><path class=\"p3\" d=\"M1.5 21.5C4 18.5 7 17 12 17s8 1.5 10.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

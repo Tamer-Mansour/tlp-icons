@@ -1,0 +1,19 @@
+{
+  "name": "tip-jar-coin",
+  "category": "finance",
+  "tags": [
+    "tip",
+    "jar",
+    "coin",
+    "gratuity",
+    "donation",
+    "tips",
+    "server"
+  ],
+  "svg": "<rect class=\"p2\" x=\"6\" y=\"7\" width=\"12\" height=\"2.5\" rx=\"1\"/><path class=\"d p1\" d=\"M7 9.5h10v8.5a2.5 2.5 0 0 1-2.5 2.5h-5A2.5 2.5 0 0 1 7 18z\"/><circle class=\"p3\" cx=\"12\" cy=\"3.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 500 }
+  ]
+}

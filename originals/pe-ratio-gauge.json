@@ -1,0 +1,13 @@
+{
+  "name": "pe-ratio-gauge",
+  "category": "finance",
+  "tags": ["pe ratio", "price earnings", "valuation", "fraction", "gauge", "stock"],
+  "svg": "<path class=\"p1\" d=\"M3 12h8\"/><path class=\"p2\" d=\"M4.5 6.5h5\"/><path class=\"p3\" d=\"M4.5 17.5h5\"/><path class=\"d p4\" d=\"M11 16a5.5 5.5 0 0 1 11 0z\"/><path class=\"p5\" d=\"M16.5 16l3-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 450 },
+    { "part": "p4", "anim": "fillIn", "dur": 700, "delay": 700 },
+    { "part": "p5", "anim": "swing", "dur": 900, "delay": 1200, "origin": "16.5px 16px" }
+  ]
+}

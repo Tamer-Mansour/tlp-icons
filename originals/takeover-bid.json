@@ -1,0 +1,11 @@
+{
+  "name": "takeover-bid",
+  "category": "finance",
+  "tags": ["takeover", "bid", "acquisition", "merger", "offer", "buyout"],
+  "svg": "<circle class=\"d p1\" cx=\"14\" cy=\"14\" r=\"6\"/><circle class=\"p2\" cx=\"5.5\" cy=\"5.5\" r=\"3.5\"/><path class=\"p3\" d=\"M16.5 2v4.5M14.5 4.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 800 }
+  ]
+}

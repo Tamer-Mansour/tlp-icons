@@ -1,0 +1,12 @@
+{
+  "name": "tram-overhead-pole",
+  "category": "maps",
+  "tags": ["tram", "trolley", "pole", "overhead", "wire", "streetcar"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><rect class=\"d p2\" x=\"5\" y=\"10\" width=\"14\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M12 10V4\"/><path class=\"p4\" d=\"M5 14h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 1100 }
+  ]
+}

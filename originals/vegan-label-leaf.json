@@ -1,0 +1,33 @@
+{
+  "name": "vegan-label-leaf",
+  "category": "commerce",
+  "tags": [
+    "vegan",
+    "plant based",
+    "leaf",
+    "label",
+    "organic",
+    "eco"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 16.5C7.5 10.5 11 7 16.5 7c0 5.5-3.5 9.5-9 9.5z\"/><path class=\"p3\" d=\"M7.5 16.5 12.5 11.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 700
+    }
+  ]
+}

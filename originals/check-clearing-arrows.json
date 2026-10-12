@@ -1,0 +1,18 @@
+{
+  "name": "check-clearing-arrows",
+  "category": "finance",
+  "tags": [
+    "check",
+    "clearing",
+    "cheque",
+    "transfer",
+    "bank",
+    "settlement"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M5.07 8A8 8 0 0 1 18.93 8\"/><path d=\"M19 4v4h-4\"/></g><g class=\"p2\"><path d=\"M18.93 16A8 8 0 0 1 5.07 16\"/><path d=\"M5 12v4h4\"/></g><path class=\"p3\" d=\"M8.5 12.5l2.5 2.5 4.5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

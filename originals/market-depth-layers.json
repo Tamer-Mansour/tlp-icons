@@ -1,0 +1,36 @@
+{
+  "name": "market-depth-layers",
+  "category": "finance",
+  "tags": [
+    "market",
+    "depth",
+    "order book",
+    "bids",
+    "liquidity",
+    "trading"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"10\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"7\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 0,
+      "origin": "3px 6px"
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 250,
+      "origin": "3px 12px"
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 500,
+      "origin": "3px 18px"
+    }
+  ]
+}

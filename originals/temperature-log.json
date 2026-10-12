@@ -1,0 +1,12 @@
+{
+  "name": "temperature-log",
+  "category": "health",
+  "tags": ["temperature", "log", "clipboard", "thermometer", "chart", "record", "fever"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"13\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"2\" width=\"5\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M6 17l3-3.5 2.5 2.5 2-3\"/><path class=\"p4\" d=\"M19 15V7a1 1 0 0 1 2 0v8a2.5 2.5 0 1 1-2 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p4", "anim": "riseIn", "dur": 700, "delay": 900 }
+  ]
+}

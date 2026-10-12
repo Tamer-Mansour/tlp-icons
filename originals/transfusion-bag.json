@@ -1,0 +1,19 @@
+{
+  "name": "transfusion-bag",
+  "category": "health",
+  "tags": [
+    "transfusion",
+    "blood bag",
+    "drip",
+    "iv",
+    "chamber",
+    "hospital",
+    "blood"
+  ],
+  "svg": "<path class=\"p2\" d=\"M9 2h4M11 2v3\"/><rect class=\"d p1\" x=\"5\" y=\"5\" width=\"12\" height=\"11\" rx=\"3\"/><rect class=\"p3\" x=\"9.5\" y=\"18.5\" width=\"3\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 600 }
+  ]
+}

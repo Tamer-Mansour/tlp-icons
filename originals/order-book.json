@@ -1,0 +1,40 @@
+{
+  "name": "order-book",
+  "category": "finance",
+  "tags": [
+    "order",
+    "book",
+    "bids",
+    "asks",
+    "market",
+    "trading",
+    "depth"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M12 4v16\"/><path class=\"p3\" d=\"M6 8h3M6 12h3M6 16h3\"/><path class=\"p4\" d=\"M15 8h3M15 12h3M15 16h3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

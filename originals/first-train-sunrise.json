@@ -1,0 +1,39 @@
+{
+  "name": "first-train-sunrise",
+  "category": "maps",
+  "tags": [
+    "train",
+    "sunrise",
+    "morning",
+    "first",
+    "horizon",
+    "travel"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7.5 13a4.5 4.5 0 0 1 9 0z\"/><path class=\"p2\" d=\"M12 2.5v2M4.5 5.5 6 7M19.5 5.5 18 7\"/><path class=\"p3\" d=\"M2 13h20\"/><rect class=\"d p4\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "drive",
+      "dur": 1400,
+      "delay": 700
+    }
+  ]
+}

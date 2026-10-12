@@ -1,0 +1,12 @@
+{
+  "name": "pin-add-stop",
+  "category": "maps",
+  "tags": ["map", "pin", "marker", "add stop", "plus", "location", "route", "destination"],
+  "svg": "<path class=\"d p1\" d=\"M9 21.5s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z\"/><circle class=\"p2\" cx=\"9\" cy=\"10.5\" r=\"2.2\"/><circle class=\"d p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"M18 15.2v3.6M16.2 17h3.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

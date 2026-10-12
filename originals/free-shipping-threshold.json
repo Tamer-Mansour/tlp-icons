@@ -1,0 +1,13 @@
+{
+  "name": "free-shipping-threshold",
+  "category": "commerce",
+  "tags": ["free", "shipping", "threshold", "cart", "progress", "delivery", "goal", "bar"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><circle class=\"f p2\" cx=\"13\" cy=\"4\" r=\"2\"/><path class=\"d p3\" d=\"M8 10h13l-2 6H10z\"/><path class=\"p4\" d=\"M2 6h2.5l2.5 11h10\"/><circle class=\"p5\" cx=\"9.5\" cy=\"20.5\" r=\"1.2\"/><circle class=\"p5\" cx=\"17\" cy=\"20.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

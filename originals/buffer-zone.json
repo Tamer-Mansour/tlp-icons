@@ -1,0 +1,28 @@
+{
+    "name":  "buffer-zone",
+    "category":  "maps",
+    "tags":  [
+                 "buffer",
+                 "zone",
+                 "margin",
+                 "boundary",
+                 "range",
+                 "area",
+                 "distance"
+             ],
+    "svg":  "\u003crect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\"/\u003e\u003crect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "fillIn",
+                       "part":  "p2",
+                       "dur":  600
+                   }
+               ]
+}

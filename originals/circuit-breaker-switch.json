@@ -1,0 +1,12 @@
+{
+  "name": "circuit-breaker-switch",
+  "category": "finance",
+  "tags": ["circuit", "breaker", "switch", "fuse", "power", "electric", "lever"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 6.5 14 4.5\"/><path class=\"p3\" d=\"M12 10v3\"/><path class=\"p4\" d=\"M12 16v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 500, "origin": "8px 6.5px" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 1100 }
+  ]
+}

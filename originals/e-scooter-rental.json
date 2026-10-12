@@ -1,0 +1,12 @@
+{
+  "name": "e-scooter-rental",
+  "category": "maps",
+  "tags": ["scooter", "rental", "e-scooter", "electric", "ride", "battery"],
+  "svg": "<path class=\"p1\" d=\"M4 13.5h11\"/><path class=\"p2\" d=\"M15 13.5l1.5-10M13.5 3.5h5\"/><circle class=\"d p3\" cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"18.5\" r=\"2.5\"/><rect class=\"d p4\" x=\"2.5\" y=\"2.5\" width=\"7\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

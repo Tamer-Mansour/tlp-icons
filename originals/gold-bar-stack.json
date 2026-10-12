@@ -1,0 +1,19 @@
+{
+  "name": "gold-bar-stack",
+  "category": "finance",
+  "tags": [
+    "gold",
+    "bullion",
+    "bar",
+    "ingot",
+    "precious",
+    "metal",
+    "wealth"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"14\" width=\"19\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"6\" y=\"5\" width=\"12\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 8h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

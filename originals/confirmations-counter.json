@@ -1,0 +1,35 @@
+{
+  "name": "confirmations-counter",
+  "category": "finance",
+  "tags": [
+    "confirmation",
+    "counter",
+    "count",
+    "verify",
+    "stack",
+    "tally",
+    "badge"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M7.5 13l2.5 2.5 4.5-5\"/><circle class=\"d p3\" cx=\"19\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1100,
+      "origin": "center"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "day-pass-ticket",
+  "category": "commerce",
+  "tags": [
+    "day",
+    "pass",
+    "ticket",
+    "sun",
+    "admission",
+    "entry"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 5h18v3a3 3 0 0 0 0 6v3H3v-3a3 3 0 0 0 0-6z\"/><circle class=\"p2\" cx=\"8\" cy=\"11\" r=\"2.5\"/><path class=\"p3\" d=\"M15 7.5v2M15 11v2M15 14.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

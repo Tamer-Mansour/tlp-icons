@@ -1,0 +1,28 @@
+{
+    "name":  "cord-clamp",
+    "category":  "health",
+    "tags":  [
+                 "cord",
+                 "clamp",
+                 "umbilical",
+                 "newborn",
+                 "baby",
+                 "medical",
+                 "jaw"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M2 12h7M15 12h7\"/\u003e\u003crect class=\"d p1\" x=\"9\" y=\"5\" width=\"6\" height=\"14\" rx=\"2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "growX",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "press",
+                       "dur":  700,
+                       "delay":  600
+                   }
+               ]
+}

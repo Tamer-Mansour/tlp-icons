@@ -1,0 +1,19 @@
+{
+  "name": "risk-reward-ratio",
+  "category": "finance",
+  "tags": [
+    "risk",
+    "reward",
+    "ratio",
+    "balance",
+    "target",
+    "trade"
+  ],
+  "svg": "<path class=\"p1\" d=\"M4.5 5h10.5M9.75 3v17M6.5 20h6.5\"/><path class=\"d p2\" d=\"M2 11l2.5-5 2.5 5c-.5.5-1.2.8-2.5.8s-2-.3-2.5-.8z\"/><path class=\"d p3\" d=\"M12.5 11l2.5-5 2.5 5c-.5.5-1.2.8-2.5.8s-2-.3-2.5-.8z\"/><g class=\"p4\"><circle cx=\"18\" cy=\"18\" r=\"3.5\"/><circle cx=\"18\" cy=\"18\" r=\"1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

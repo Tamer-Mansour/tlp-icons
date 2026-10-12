@@ -1,0 +1,28 @@
+{
+    "name":  "hectare-plot",
+    "category":  "maps",
+    "tags":  [
+                 "hectare",
+                 "plot",
+                 "land",
+                 "area",
+                 "field",
+                 "acre",
+                 "survey"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 7l9-3 7 5-2 9-10 2z\"/\u003e\u003cpath class=\"p2\" d=\"M12 9v6M9 12h6\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  700,
+                       "anim":  "popIn",
+                       "part":  "p2",
+                       "dur":  500
+                   }
+               ]
+}

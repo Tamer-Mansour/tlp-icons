@@ -1,0 +1,11 @@
+{
+  "name": "transaction-pending-hourglass",
+  "category": "finance",
+  "tags": ["pending", "transaction", "hourglass", "waiting", "processing", "payment", "hold", "queue"],
+  "svg": "<path class=\"p1\" d=\"M6 2h12M6 14h12\"/><rect class=\"d p2\" x=\"4\" y=\"17\" width=\"16\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M8 2v2l4 4-4 4v2M16 2v2l-4 4 4 4v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "flipY", "dur": 1200, "delay": 600, "origin": "12px 8px" }
+  ]
+}

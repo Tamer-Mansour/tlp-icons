@@ -1,0 +1,19 @@
+{
+  "name": "gauze-roll",
+  "category": "health",
+  "tags": [
+    "gauze",
+    "bandage",
+    "roll",
+    "dressing",
+    "wound",
+    "first aid",
+    "medical"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M13.5 16.8c.8 2.4 2.8 3.2 6.5 3.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 800, "origin": "13.5px 16.8px" }
+  ]
+}

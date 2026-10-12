@@ -1,0 +1,13 @@
+{
+  "name": "mannequin-figure",
+  "category": "commerce",
+  "tags": ["mannequin", "figure", "display", "fashion", "retail", "clothing", "store"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"4.5\" r=\"2.5\"/><path class=\"d p2\" d=\"M8 8h8l-1 7h-6z\"/><path class=\"p3\" d=\"M8 8l-2.5 7M16 8l2.5 7\"/><path class=\"p4\" d=\"M10.5 15v4M13.5 15v4\"/><path class=\"p5\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p5", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

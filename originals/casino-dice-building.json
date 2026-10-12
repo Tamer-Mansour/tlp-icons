@@ -1,0 +1,28 @@
+{
+  "name": "casino-dice-building",
+  "category": "maps",
+  "tags": [
+    "casino",
+    "dice",
+    "gambling",
+    "building",
+    "gaming",
+    "bet",
+    "luck"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M9 9h.01M15 9h.01M12 12h.01M9 15h.01M15 15h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "spiralIn",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

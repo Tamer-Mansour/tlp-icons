@@ -1,0 +1,33 @@
+{
+    "name":  "binoculars-birding",
+    "category":  "maps",
+    "tags":  [
+                 "binoculars",
+                 "birding",
+                 "bird",
+                 "watching",
+                 "nature",
+                 "view"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"6.5\" cy=\"16\" r=\"3.5\"/\u003e\u003ccircle class=\"d p2\" cx=\"17.5\" cy=\"16\" r=\"3.5\"/\u003e\u003cpath class=\"p3\" d=\"M3 16l3-11h3v6M21 16l-3-11h-3v6M9 13h6\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  100,
+                       "anim":  "fillIn",
+                       "part":  "p2",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p3",
+                       "dur":  800
+                   }
+               ]
+}

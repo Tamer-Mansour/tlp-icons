@@ -1,0 +1,19 @@
+{
+  "name": "sweat-towel",
+  "category": "health",
+  "tags": [
+    "towel",
+    "sweat",
+    "perspiration",
+    "gym",
+    "drop",
+    "hygiene",
+    "fold"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 13h12\"/><path class=\"p3\" d=\"M19 2.5 21.5 7a2.5 2.5 0 1 1-5 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 700 }
+  ]
+}

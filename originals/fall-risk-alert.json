@@ -1,0 +1,10 @@
+{
+  "name": "fall-risk-alert",
+  "category": "health",
+  "tags": ["fall", "risk", "alert", "elderly", "warning", "balance", "slip", "caution"],
+  "svg": "<path class=\"d p1\" d=\"M10.3 4.5 2.9 17.5a2 2 0 0 0 1.7 3h14.8a2 2 0 0 0 1.7-3L13.7 4.5a2 2 0 0 0-3.4 0z\"/><g class=\"p2\"><circle cx=\"10.5\" cy=\"8.6\" r=\"1.2\"/><path d=\"M11 10.8l2 2.2M13 13l-1.6 3.4M11.8 12.8l-2.6 1M13 13l2.4.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 1100, "delay": 700 }
+  ]
+}

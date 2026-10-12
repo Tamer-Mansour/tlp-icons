@@ -1,0 +1,12 @@
+{
+  "name": "statement-account",
+  "category": "commerce",
+  "tags": ["statement", "account", "bill", "ledger", "document", "dollar", "balance"],
+  "svg": "<path class=\"d p1\" d=\"M14 2.5H6a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.5z\"/><path class=\"p2\" d=\"M14 2.5v6h6\"/><path class=\"p3\" d=\"M8 6.5h3\"/><g class=\"p4\"><path d=\"M15 11.5h-4.25a1.75 1.75 0 0 0 0 3.5h2.5a1.75 1.75 0 0 1 0 3.5H9\"/><path d=\"M12 9.5v9\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

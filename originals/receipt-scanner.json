@@ -1,0 +1,11 @@
+{
+  "name": "receipt-scanner",
+  "category": "finance",
+  "tags": ["receipt", "scanner", "scan", "bill", "expense", "ocr"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><path class=\"d p2\" d=\"M7 8h10v12l-2.5-1.5L12 20l-2.5-1.5L7 20z\"/><path class=\"p3\" d=\"M10 12h4M10 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

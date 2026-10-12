@@ -1,0 +1,11 @@
+{
+  "name": "salt-shaker",
+  "category": "health",
+  "tags": ["salt", "shaker", "sodium", "seasoning", "diet", "kitchen", "glass"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"3\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M10 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

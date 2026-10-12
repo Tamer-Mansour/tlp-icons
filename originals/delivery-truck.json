@@ -1,0 +1,33 @@
+{
+  "name": "delivery-truck",
+  "category": "commerce",
+  "tags": [
+    "delivery",
+    "truck",
+    "shipping",
+    "van",
+    "cargo",
+    "logistics"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"12\" height=\"10\" rx=\"1.5\"/><path class=\"d p2\" d=\"M14 6.5h3.4l2.6 3.5V13h-6z\"/><g class=\"p3\"><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "drive",
+      "dur": 1200,
+      "delay": 600
+    }
+  ]
+}

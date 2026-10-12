@@ -1,0 +1,11 @@
+{
+  "name": "camping-tent",
+  "category": "maps",
+  "tags": ["camping", "tent", "camp", "outdoors", "campsite", "hiking", "shelter"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20 12 4l9.5 16z\"/><path class=\"p2\" d=\"M10 20v-4a2 2 0 0 1 4 0v4\"/><path class=\"p3\" d=\"M12 9.5 8.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

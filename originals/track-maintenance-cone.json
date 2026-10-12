@@ -1,0 +1,13 @@
+{
+  "name": "track-maintenance-cone",
+  "category": "maps",
+  "tags": ["track", "maintenance", "cone", "rail", "works", "roadworks", "railway", "closure"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 14.5 10.5 3h3l2 11.5z\"/><path class=\"p2\" d=\"M9.5 9h5\"/><path class=\"p3\" d=\"M5.5 14.5h13\"/><path class=\"p4\" d=\"M2 18h20M2 22h20\"/><path class=\"p5\" d=\"M7 18v4M17 18v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

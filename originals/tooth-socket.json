@@ -1,0 +1,17 @@
+{
+  "name": "tooth-socket",
+  "category": "health",
+  "tags": [
+    "tooth",
+    "socket",
+    "jaw",
+    "dental",
+    "extraction",
+    "gap"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 7c0-2 2-3.5 4.5-3.5h7C18 3.5 20 5 20 7v3c0 4.5-2.5 9.5-5 10.5h-6C6.5 19.5 4 14.5 4 10z\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1200, "delay": 700 }
+  ]
+}

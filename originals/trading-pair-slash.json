@@ -1,0 +1,11 @@
+{
+  "name": "trading-pair-slash",
+  "category": "finance",
+  "tags": ["trading", "pair", "slash", "currency", "coins", "forex"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"12\" r=\"3.8\"/><circle class=\"d p2\" cx=\"18\" cy=\"12\" r=\"3.8\"/><path class=\"p3\" d=\"M14 3l-4 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

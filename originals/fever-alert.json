@@ -1,0 +1,19 @@
+{
+  "name": "fever-alert",
+  "category": "health",
+  "tags": [
+    "fever",
+    "temperature",
+    "thermometer",
+    "alert",
+    "warning",
+    "sick"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"17.5\" r=\"3\"/><path class=\"p2\" d=\"M6 15V5.5a2 2 0 0 1 4 0V15\"/><path class=\"p3\" d=\"M17 2.5 21.5 12.5h-9z\"/><path class=\"p4\" d=\"M17 6.5v3M17 10.8h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 1000 }
+  ]
+}

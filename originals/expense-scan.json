@@ -1,0 +1,33 @@
+{
+  "name": "expense-scan",
+  "category": "finance",
+  "tags": [
+    "expense",
+    "receipt",
+    "scan",
+    "bill",
+    "claim",
+    "report"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2h12v20l-3-2-3 2-3-2-3 2z\"/><path class=\"p2\" d=\"M9 7h6M9 15h4\"/><path class=\"p3\" d=\"M3 11.5h18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "bob",
+      "dur": 1000,
+      "delay": 600
+    }
+  ]
+}

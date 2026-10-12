@@ -1,0 +1,20 @@
+{
+  "name": "latitude-band-globe",
+  "category": "maps",
+  "tags": [
+    "globe",
+    "latitude",
+    "world",
+    "earth",
+    "bands",
+    "map",
+    "geography"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p4\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><path class=\"p2\" d=\"M4.5 9h15\"/><path class=\"p3\" d=\"M4.5 15h15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

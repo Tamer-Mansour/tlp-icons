@@ -1,0 +1,11 @@
+{
+  "name": "total-loss-car",
+  "category": "finance",
+  "tags": ["total", "loss", "car", "write-off", "insurance", "wreck"],
+  "svg": "<path class=\"d p1\" d=\"M3 15v-2l2.5-5h13L21 13v2z\"/><g class=\"p2\"><circle cx=\"7\" cy=\"17.5\" r=\"2\"/><circle cx=\"17\" cy=\"17.5\" r=\"2\"/></g><path class=\"p3\" d=\"M9 9l6 6M15 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

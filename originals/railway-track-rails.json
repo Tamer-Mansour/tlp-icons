@@ -1,0 +1,10 @@
+{
+  "name": "railway-track-rails",
+  "category": "maps",
+  "tags": ["railway", "rail", "track", "railroad", "train", "tracks", "ties"],
+  "svg": "<path class=\"p1\" d=\"M7 2 5 22M17 2l2 20\"/><path class=\"p2\" d=\"M6.6 6h10.8M6.1 11h11.8M5.6 16h12.8M5.2 20h13.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500 }
+  ]
+}

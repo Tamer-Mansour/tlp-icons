@@ -1,0 +1,11 @@
+{
+  "name": "stop-request-button",
+  "category": "maps",
+  "tags": ["stop", "request", "bell", "button", "bus", "ring", "alert"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8.5\" r=\"6.5\"/><path class=\"p2\" d=\"M9.5 12V10a2.5 2.5 0 0 1 5 0v2l1 1.5h-7z\"/><rect class=\"d p3\" x=\"7\" y=\"17.5\" width=\"10\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 900, "delay": 500, "origin": "12px 8px" },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

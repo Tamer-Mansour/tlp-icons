@@ -1,0 +1,11 @@
+{
+  "name": "accrual-basis-scale",
+  "category": "finance",
+  "tags": ["accrual", "basis", "scale", "clock", "timing", "accounting", "balance"],
+  "svg": "<path class=\"p1\" d=\"M12 4v17M8 21h8M4 6h16\"/><path class=\"p2\" d=\"M4 6 1.5 13M4 6l4.5 7M1.5 13a2.5 2.5 0 0 0 5 0\"/><g class=\"p3\"><circle class=\"d\" cx=\"18.5\" cy=\"15\" r=\"3\"/><path d=\"M18.5 6v6M18.5 13.5V15l1 1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

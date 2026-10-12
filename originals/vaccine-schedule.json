@@ -1,0 +1,12 @@
+{
+  "name": "vaccine-schedule",
+  "category": "health",
+  "tags": ["vaccine", "schedule", "calendar", "immunization", "shot", "appointment", "injection"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4.5\" width=\"18\" height=\"15.5\" rx=\"2\"/><path class=\"p2\" d=\"M8 2.5v4M16 2.5v4\"/><path class=\"p3\" d=\"M3 10h18\"/><circle class=\"f\" cx=\"7.5\" cy=\"14\" r=\"1\"/><circle class=\"f\" cx=\"11.5\" cy=\"14\" r=\"1\"/><circle class=\"f\" cx=\"7.5\" cy=\"17.5\" r=\"1\"/><g class=\"p4\"><path d=\"M13.5 18.5l5-5\"/><path d=\"M16.5 12.5l3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 450 },
+    { "part": "p4", "anim": "popIn", "dur": 700, "delay": 900 }
+  ]
+}

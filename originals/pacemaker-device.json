@@ -1,0 +1,33 @@
+{
+    "name":  "pacemaker-device",
+    "category":  "health",
+    "tags":  [
+                 "pacemaker",
+                 "heart",
+                 "device",
+                 "leads",
+                 "cardiac",
+                 "implant"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"9\" width=\"13\" height=\"10\" rx=\"4\"/\u003e\u003cpath class=\"p2\" d=\"M16 11c2-1 3-3 3-6\"/\u003e\u003cpath class=\"p3\" d=\"M10.500 11.500l-2 3h3l-2 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "beat",
+                       "dur":  800,
+                       "delay":  900
+                   }
+               ]
+}

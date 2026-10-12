@@ -1,0 +1,11 @@
+{
+  "name": "recurring-invest",
+  "category": "finance",
+  "tags": ["recurring", "invest", "investment", "coin", "growth", "schedule", "repeat", "chart"],
+  "svg": "<polyline class=\"p2\" points=\"3,20 9,14 13,17 21,9\"/><polyline class=\"p3\" points=\"15,9 21,9 21,15\"/><circle class=\"d p1\" cx=\"9\" cy=\"5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

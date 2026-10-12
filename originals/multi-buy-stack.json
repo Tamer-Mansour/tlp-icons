@@ -1,0 +1,12 @@
+{
+  "name": "multi-buy-stack",
+  "category": "commerce",
+  "tags": ["multi buy", "stack", "bundle", "boxes", "price tag", "offer", "deal"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"d p2\" x=\"14\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"d p3\" x=\"7\" y=\"3\" width=\"10\" height=\"6\" rx=\"1.5\"/><path class=\"p4\" d=\"M18.5 2.5h3v3l-4.5 4.5M20.5 4h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

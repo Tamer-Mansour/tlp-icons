@@ -1,0 +1,12 @@
+{
+  "name": "pier-dock",
+  "category": "maps",
+  "tags": ["pier", "dock", "wharf", "jetty", "water", "boardwalk"],
+  "svg": "<path class=\"p1\" d=\"M2 19.5c2-1.5 3.5-1.5 5 0s3.5 1.5 5 0 3.5-1.5 5 0 3.5 1.5 5 0\"/><rect class=\"d p2\" x=\"3\" y=\"10\" width=\"19\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M7 13v5M15 13v5\"/><path class=\"p4\" d=\"M19 10V5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "dropIn", "dur": 500, "delay": 1100 }
+  ]
+}

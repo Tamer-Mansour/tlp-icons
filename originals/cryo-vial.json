@@ -1,0 +1,19 @@
+{
+  "name": "cryo-vial",
+  "category": "health",
+  "tags": [
+    "cryo",
+    "vial",
+    "freezer",
+    "cryogenic",
+    "sample",
+    "snowflake",
+    "frozen"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 5.5v11.5a5 5 0 0 0 10 0V5.5\"/><rect class=\"p2\" x=\"5.5\" y=\"2\" width=\"13\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M12 9.5v6M9.4 11l5.2 3M9.4 14l5.2-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

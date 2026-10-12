@@ -1,0 +1,11 @@
+{
+  "name": "goods-in",
+  "category": "commerce",
+  "tags": ["goods", "inbound", "delivery", "warehouse", "receiving", "stock", "arrival"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><g class=\"p2\"><path d=\"M11.5 12h2\"/><path d=\"M12.5 10l2 2-2 2\"/></g><rect class=\"p3\" x=\"15\" y=\"7\" width=\"7\" height=\"14\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

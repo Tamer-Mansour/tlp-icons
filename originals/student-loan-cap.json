@@ -1,0 +1,19 @@
+{
+  "name": "student-loan-cap",
+  "category": "finance",
+  "tags": [
+    "student loan",
+    "graduation",
+    "cap",
+    "education",
+    "tuition",
+    "coin"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 9.5 12 4.5l10 5-10 5z\"/><path class=\"p2\" d=\"M6 12v4.5c2 2 6 2 8 0V12\"/><path class=\"p3\" d=\"M20 10.5V15\"/><circle class=\"d p4\" cx=\"20\" cy=\"17.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "swing", "dur": 1200, "delay": 900, "origin": "20px 10.5px" }
+  ]
+}

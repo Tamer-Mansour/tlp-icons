@@ -1,0 +1,40 @@
+{
+  "name": "route-end-flag",
+  "category": "maps",
+  "tags": [
+    "route",
+    "flag",
+    "finish",
+    "destination",
+    "navigation",
+    "path",
+    "journey"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"19\" r=\"2.5\"/><path class=\"p2\" d=\"M5 16c0-3 9-3 9-6\"/><path class=\"p3\" d=\"M14 13V4\"/><path class=\"d p4\" d=\"M14 4h6l-1.5 2.5L20 9h-6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 800
+    },
+    {
+      "part": "p4",
+      "anim": "flutter",
+      "dur": 1000,
+      "delay": 1100
+    }
+  ]
+}

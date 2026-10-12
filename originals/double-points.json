@@ -1,0 +1,18 @@
+{
+  "name": "double-points",
+  "category": "commerce",
+  "tags": [
+    "double points",
+    "loyalty",
+    "stars",
+    "rewards",
+    "2x",
+    "bonus"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 4l1.29 3.22 3.47.24-2.67 2.18.85 3.36L8 11.2l-2.94 1.8.85-3.36-2.67-2.18 3.47-.24z\"/><path class=\"d p2\" d=\"M17 12.5l.88 2.29 2.45.13-1.9 1.54.63 2.37L17 17.5l-2.06 1.33.63-2.37-1.9-1.54 2.45-.13z\"/><path class=\"p3\" d=\"M18.5 3.5l3 3M21.5 3.5l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "delivery-route-pin",
+  "category": "commerce",
+  "tags": ["delivery", "route", "map pin", "courier", "path", "stops", "shipping"],
+  "svg": "<path class=\"d p1\" d=\"M6 20s-4-4.4-4-8.5a4 4 0 0 1 8 0c0 4.1-4 8.5-4 8.5z\"/><circle class=\"p1\" cx=\"6\" cy=\"11.5\" r=\"1.5\"/><path class=\"d p2\" d=\"M18 16s-4-4.5-4-9a4 4 0 0 1 8 0c0 4.5-4 9-4 9z\"/><circle class=\"p2\" cx=\"18\" cy=\"7\" r=\"1.5\"/><path class=\"p3\" d=\"M11.5 11.5l1.5.9M14.5 13.2l1.5.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

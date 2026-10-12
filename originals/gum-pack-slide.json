@@ -1,0 +1,27 @@
+{
+    "name":  "gum-pack-slide",
+    "category":  "commerce",
+    "tags":  [
+                 "gum",
+                 "pack",
+                 "slide",
+                 "stick",
+                 "chewing",
+                 "snack"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M9 9V3h6v6\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "slideIn",
+                       "part":  "p2",
+                       "dur":  700
+                   }
+               ]
+}

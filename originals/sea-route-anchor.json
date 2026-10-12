@@ -1,0 +1,18 @@
+{
+  "name": "sea-route-anchor",
+  "category": "maps",
+  "tags": [
+    "sea",
+    "route",
+    "anchor",
+    "dashed",
+    "sailing",
+    "navigation"
+  ],
+  "svg": "<g class=\"p2\"><circle cx=\"17\" cy=\"3.5\" r=\"2\"/><path d=\"M17 5.5V16.5\"/><path d=\"M14 8h6\"/></g><path class=\"p4\" d=\"M12.5 12a4.5 4.5 0 0 0 9 0\"/><path class=\"p3\" d=\"M2 20.5h3M7 20.5h3M12 20.5h3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 800, "origin": "left" }
+  ]
+}

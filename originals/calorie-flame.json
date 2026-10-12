@@ -1,0 +1,11 @@
+{
+  "name": "calorie-flame",
+  "category": "health",
+  "tags": ["calorie", "flame", "energy", "burn", "diet", "nutrition", "fire"],
+  "svg": "<path class=\"d p1\" d=\"M8 3c.5 3 5 5.5 5 10.5a5 5 0 0 1-10 0c0-2.5 1.5-4 2.5-5 .2 1.4.8 2.2 1.8 2.5C7 8.5 7 6 8 3z\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"3.5\"/><path class=\"p3\" d=\"M18 16.5v3M16.5 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 850 }
+  ]
+}

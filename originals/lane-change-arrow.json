@@ -1,0 +1,10 @@
+{
+  "name": "lane-change-arrow",
+  "category": "maps",
+  "tags": ["lane", "change", "arrow", "merge", "road", "driving"],
+  "svg": "<path class=\"p1\" d=\"M12 2v4M12 9v3M12 15v3M12 20v2\"/><path class=\"p2\" d=\"M5 19 19 5\"/><path class=\"p2\" d=\"M10 5h9v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

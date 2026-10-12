@@ -1,0 +1,19 @@
+{
+  "name": "bag-packing-station",
+  "category": "commerce",
+  "tags": [
+    "bag",
+    "packing",
+    "station",
+    "fulfillment",
+    "counter",
+    "pack"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 8h14l-1 9H4z\"/><path class=\"p2\" d=\"M7 8V6a3 3 0 0 1 6 0v2\"/><path class=\"p3\" d=\"M20 2v6M17.5 5.5 20 8l2.5-2.5\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

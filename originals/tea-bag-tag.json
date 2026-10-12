@@ -1,0 +1,34 @@
+{
+    "name":  "tea-bag-tag",
+    "category":  "commerce",
+    "tags":  [
+                 "tea",
+                 "tea bag",
+                 "string",
+                 "tag",
+                 "infusion",
+                 "label"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 10h14v11H5z\"/\u003e\u003cpath class=\"p2\" d=\"M12 10V6\"/\u003e\u003crect class=\"p3\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  300,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "swing",
+                       "dur":  1000,
+                       "delay":  800,
+                       "origin":  "12px 6px"
+                   }
+               ]
+}

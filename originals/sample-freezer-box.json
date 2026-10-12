@@ -1,0 +1,11 @@
+{
+  "name": "sample-freezer-box",
+  "category": "health",
+  "tags": ["freezer", "sample", "snowflake", "cold", "lab", "storage", "rack"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M12 6v6M9.4 7.5l5.2 3M9.4 10.5l5.2-3\"/><path class=\"p3\" d=\"M6 15h12M6 18h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

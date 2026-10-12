@@ -1,0 +1,18 @@
+{
+  "name": "walker-frame",
+  "category": "health",
+  "tags": [
+    "walker",
+    "mobility",
+    "frame",
+    "elderly",
+    "rollator",
+    "support"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"5\" height=\"3.5\" rx=\"1.5\"/><rect class=\"d p1\" x=\"16.5\" y=\"4\" width=\"5\" height=\"3.5\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 7.5V20M19 7.5V20M5 13h14\"/><path class=\"p3\" d=\"M3 20h4M17 20h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

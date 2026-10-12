@@ -1,0 +1,20 @@
+{
+  "name": "retirement-sprout",
+  "category": "finance",
+  "tags": [
+    "retirement",
+    "sprout",
+    "savings",
+    "pension",
+    "jar",
+    "growth",
+    "nest egg"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"10.5\" width=\"14\" height=\"10.5\" rx=\"3\"/><rect class=\"p2\" x=\"4\" y=\"8\" width=\"16\" height=\"2.5\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"16.5\" r=\"2.5\"/><g class=\"p4\"><path d=\"M12 8V4\"/><path d=\"M12 5.5c0-1.8 1.4-3 4-3 0 2-1.4 3-4 3z\"/><path d=\"M12 6.5c0-1.8-1.4-2.7-3.8-2.7 0 1.9 1.4 2.7 3.8 2.7z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 400 },
+    { "part": "p4", "anim": "grow", "dur": 700, "delay": 900, "origin": "12px 8px" }
+  ]
+}

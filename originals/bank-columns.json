@@ -1,0 +1,11 @@
+{
+  "name": "bank-columns",
+  "category": "maps",
+  "tags": ["bank", "columns", "building", "classical", "finance", "institution", "landmark"],
+  "svg": "<path class=\"d p1\" d=\"M3 9l9-6 9 6z\"/><path class=\"p2\" d=\"M6 10v8M10 10v8M14 10v8M18 10v8\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

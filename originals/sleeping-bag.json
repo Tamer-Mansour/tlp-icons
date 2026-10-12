@@ -1,0 +1,11 @@
+{
+  "name": "sleeping-bag",
+  "category": "maps",
+  "tags": ["sleeping", "bag", "camping", "outdoors", "hiking", "roll"],
+  "svg": "<g transform=\"rotate(-35 12 12)\"><rect class=\"d p1\" x=\"2\" y=\"7.5\" width=\"20\" height=\"9\" rx=\"4.5\"/><path class=\"p2\" d=\"M8 7.5v9\"/><circle class=\"p3\" cx=\"5\" cy=\"12\" r=\".5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

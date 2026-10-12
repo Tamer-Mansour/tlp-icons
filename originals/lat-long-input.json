@@ -1,0 +1,34 @@
+{
+  "name": "lat-long-input",
+  "category": "maps",
+  "tags": [
+    "coordinates",
+    "latitude",
+    "longitude",
+    "input",
+    "location",
+    "globe",
+    "text field"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 16.5s-2.5-2.2-2.5-4.4a2.5 2.5 0 0 1 5 0c0 2.2-2.5 4.4-2.5 4.4z\"/><path class=\"p3\" d=\"M12 10.5h7M12 13.5h5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

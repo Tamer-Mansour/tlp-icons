@@ -1,0 +1,11 @@
+{
+  "name": "auto-reorder-loop",
+  "category": "commerce",
+  "tags": ["auto", "reorder", "restock", "cart", "replenish", "inventory", "repeat"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 0 1 13.7-5.6M18 3v4h-4\"/><path class=\"p2\" d=\"M20 12a8 8 0 0 1-13.7 5.6M6 21v-4h4\"/><g class=\"p3\"><path d=\"M8.5 9h1.8l1.3 5h4.4l1.2-3.6H10.6\"/><circle cx=\"11.5\" cy=\"17\" r=\"1.2\"/><circle cx=\"15.5\" cy=\"17\" r=\"1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

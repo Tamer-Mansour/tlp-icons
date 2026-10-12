@@ -1,0 +1,17 @@
+{
+  "name": "adhesive-bandage",
+  "category": "health",
+  "tags": [
+    "bandage",
+    "plaster",
+    "band-aid",
+    "wound",
+    "first aid",
+    "dressing"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"6\" transform=\"rotate(-45 12 12)\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"8\" height=\"4\" rx=\"1\" transform=\"rotate(-45 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

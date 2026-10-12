@@ -1,0 +1,19 @@
+{
+  "name": "fruit-basket",
+  "category": "health",
+  "tags": [
+    "fruit",
+    "basket",
+    "apple",
+    "produce",
+    "food",
+    "grocery",
+    "harvest"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3.5 11.5h17L18.5 20h-13z\"/><path class=\"p2\" d=\"M5 15.5h14\"/><g class=\"p3\"><circle class=\"d\" cx=\"9\" cy=\"7.5\" r=\"3\"/><circle class=\"d\" cx=\"15.5\" cy=\"8.5\" r=\"2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

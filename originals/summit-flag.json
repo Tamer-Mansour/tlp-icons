@@ -1,0 +1,11 @@
+{
+  "name": "summit-flag",
+  "category": "maps",
+  "tags": ["summit", "flag", "hilltop", "hill", "goal", "climb", "conquer"],
+  "svg": "<path class=\"d p1\" d=\"M3 20Q12 8 21 20z\"/><path class=\"p2\" d=\"M12 14V3\"/><path class=\"d p3\" d=\"M12 3l7 2.5-7 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 900 }
+  ]
+}

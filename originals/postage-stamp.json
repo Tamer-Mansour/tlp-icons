@@ -1,0 +1,11 @@
+{
+  "name": "postage-stamp",
+  "category": "commerce",
+  "tags": ["postage", "stamp", "mail", "shipping", "parcel", "letter", "delivery"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h2.5a1.25 1.25 0 0 0 2.5 0h2.5a1.25 1.25 0 0 0 2.5 0h2.5a1.25 1.25 0 0 0 2.5 0H21v18H18a1.25 1.25 0 0 0-2.5 0H13a1.25 1.25 0 0 0-2.5 0H8a1.25 1.25 0 0 0-2.5 0H3z\"/><path class=\"p2\" d=\"M8 9.5l4-2 4 2v5l-4 2-4-2z\"/><path class=\"p3\" d=\"M8 9.5l4 2 4-2M12 11.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400, "origin": "center" },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

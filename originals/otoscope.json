@@ -1,0 +1,11 @@
+{
+  "name": "otoscope",
+  "category": "health",
+  "tags": ["otoscope", "ear", "scope", "exam", "doctor", "ent", "clinic", "light"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"7\" rx=\"2.5\"/><path class=\"p2\" d=\"M9 11h6l-1.8 9h-2.4z\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "flicker", "dur": 700, "delay": 800 }
+  ]
+}

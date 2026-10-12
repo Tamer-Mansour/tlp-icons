@@ -1,0 +1,35 @@
+{
+    "name":  "item-counter",
+    "category":  "commerce",
+    "tags":  [
+                 "item",
+                 "counter",
+                 "count",
+                 "quantity",
+                 "stock",
+                 "cart",
+                 "number"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 9l8-4 8 4v9l-8 4-8-4z\"/\u003e\u003cpath class=\"p2\" d=\"M4 9l8 4 8-4M12 13v9\"/\u003e\u003ccircle class=\"p3\" cx=\"19\" cy=\"5\" r=\"3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  900,
+                       "origin":  "center"
+                   }
+               ]
+}

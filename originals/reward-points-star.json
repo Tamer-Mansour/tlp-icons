@@ -1,0 +1,19 @@
+{
+  "name": "reward-points-star",
+  "category": "finance",
+  "tags": [
+    "reward",
+    "points",
+    "star",
+    "loyalty",
+    "coin",
+    "bonus",
+    "perk"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"7\"/><path class=\"p2\" d=\"M9 5.2L10.06 7.54L12.61 7.83L10.71 9.56L11.23 12.07L9 10.8L6.77 12.07L7.29 9.56L5.39 7.83L7.94 7.54Z\"/><path class=\"p3\" d=\"M18 14.5v7M14.5 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

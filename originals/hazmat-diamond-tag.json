@@ -1,0 +1,11 @@
+{
+  "name": "hazmat-diamond-tag",
+  "category": "commerce",
+  "tags": ["hazmat", "hazard", "package", "diamond", "warning", "shipping", "dangerous"],
+  "svg": "<path class=\"d p1\" d=\"M3 8l9-4 9 4v9l-9 4-9-4z\"/><path class=\"p2\" d=\"M3 8l9 4 9-4\"/><path class=\"p3\" d=\"M12 13.5l2.5 2.5-2.5 2.5-2.5-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

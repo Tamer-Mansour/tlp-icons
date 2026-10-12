@@ -1,0 +1,11 @@
+{
+  "name": "trade-booth",
+  "category": "commerce",
+  "tags": ["trade show", "booth", "exhibition", "expo", "stall", "fair", "banner"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"4.5\" rx=\"1\"/><path class=\"p2\" d=\"M5 7v14h14V7\"/><path class=\"p3\" d=\"M9.5 21v-5h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "best-seller-laurel",
+  "category": "commerce",
+  "tags": ["best seller", "laurel", "star", "award", "top", "popular", "winner"],
+  "svg": "<path class=\"p1\" d=\"M9.44 18.05A7.5 7.5 0 0 1 4.95 8.43M14.56 18.05A7.5 7.5 0 0 0 19.05 8.43\"/><polygon class=\"d p2\" points=\"12,6.8 13.06,9.54 15.99,9.7 13.71,11.56 14.47,14.4 12,12.8 9.53,14.4 10.29,11.56 8.01,9.7 10.94,9.54\"/><path class=\"p3\" d=\"M6.25 15.82 4.56 17.23M4.61 12.3 2.44 12.68M4.95 8.43 2.88 7.68M17.75 15.82 19.44 17.23M19.39 12.3 21.56 12.68M19.05 8.43 21.12 7.68\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "twinkle", "dur": 1000, "delay": 900 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "satellite-dish-map",
+  "category": "maps",
+  "tags": [
+    "satellite",
+    "dish",
+    "map",
+    "location",
+    "signal",
+    "gps"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 5 C4 12 9 17 16 17 Z\"/><path class=\"p2\" d=\"M10 11 L16 5\"/><path class=\"p3\" d=\"M12 17 V21\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 550
+    }
+  ]
+}

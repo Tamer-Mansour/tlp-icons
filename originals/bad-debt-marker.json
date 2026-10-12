@@ -1,0 +1,27 @@
+{
+    "name":  "bad-debt-marker",
+    "category":  "finance",
+    "tags":  [
+                 "bad debt",
+                 "write off",
+                 "tag",
+                 "cross",
+                 "loss",
+                 "unpaid"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"p2\" d=\"M9 9l6 6M15 9l-6 6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  500
+                   }
+               ]
+}

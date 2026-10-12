@@ -1,0 +1,11 @@
+{
+  "name": "rollator",
+  "category": "health",
+  "tags": ["rollator", "walker", "mobility", "frame", "wheels", "seat", "elderly"],
+  "svg": "<path class=\"p2\" d=\"M3 4h3M18 4h3M6 4v13M18 4v13M6 15.5h12\"/><rect class=\"d p1\" x=\"9\" y=\"9.5\" width=\"6\" height=\"3\" rx=\"1\"/><g class=\"p3\"><circle cx=\"6\" cy=\"19.5\" r=\"2\"/><circle cx=\"18\" cy=\"19.5\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 1000 }
+  ]
+}

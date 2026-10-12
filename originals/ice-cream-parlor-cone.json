@@ -1,0 +1,11 @@
+{
+  "name": "ice-cream-parlor-cone",
+  "category": "maps",
+  "tags": ["ice cream", "cone", "scoop", "parlor", "dessert", "waffle"],
+  "svg": "<path class=\"d p1\" d=\"M5 11a7 6 0 0 1 14 0z\"/><path class=\"p2\" d=\"M4.5 11h15M7.5 11 12 21l4.5-10M9.5 15.5h5\"/><path class=\"p3\" d=\"M9 7.5h.01M13.5 7h.01M15.5 9.5h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

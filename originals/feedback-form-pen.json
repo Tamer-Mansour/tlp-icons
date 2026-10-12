@@ -1,0 +1,11 @@
+{
+  "name": "feedback-form-pen",
+  "category": "commerce",
+  "tags": ["feedback", "form", "survey", "pen", "review", "questionnaire", "rating"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2\"/><g class=\"p2\"><path d=\"M7 7h5\"/><path d=\"M7 11h5\"/><path d=\"M7 15h2.5\"/></g><g class=\"p3\"><path d=\"M19.18 7.7 21.3 9.82 14.94 16.18 12.82 14.06z\"/><path d=\"M12.82 14.06 11.76 17.24 14.94 16.18\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 800 }
+  ]
+}

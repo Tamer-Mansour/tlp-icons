@@ -1,0 +1,10 @@
+{
+  "name": "true-north-star",
+  "category": "maps",
+  "tags": ["north", "star", "compass", "navigation", "direction", "guide", "polaris"],
+  "svg": "<path class=\"d p1\" d=\"M12 2 14 7l5 2-5 2-2 5-2-5-5-2 5-2z\"/><path class=\"p2\" d=\"M5 21h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "desert-cactus",
+  "category": "maps",
+  "tags": ["cactus", "saguaro", "desert", "sun", "arizona", "plant", "dry"],
+  "svg": "<circle class=\"p3\" cx=\"6\" cy=\"7\" r=\"3\"/><path class=\"d p1\" d=\"M10 21V5a2 2 0 0 1 4 0v16z\"/><g class=\"p2\"><path d=\"M10 17H8a2 2 0 0 1-2-2v-1\"/><path d=\"M14 12h2a2 2 0 0 0 2-2V7\"/><path d=\"M2 21h20\"/></g>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "draw-line-tool",
+  "category": "maps",
+  "tags": ["draw", "line", "pen", "vertex", "sketch", "measure"],
+  "svg": "<path class=\"d p1\" d=\"M15 4.5 19.5 9 10 18.5 5.5 19.5 6.5 15z\"/><path class=\"p2\" d=\"M4 21h16\"/><circle class=\"f p3\" cx=\"4\" cy=\"21\" r=\"2\"/><circle class=\"f p3\" cx=\"20\" cy=\"21\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

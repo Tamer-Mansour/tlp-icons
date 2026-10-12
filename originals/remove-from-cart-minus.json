@@ -1,0 +1,34 @@
+{
+  "name": "remove-from-cart-minus",
+  "category": "commerce",
+  "tags": [
+    "cart",
+    "remove",
+    "minus",
+    "shopping",
+    "delete",
+    "basket",
+    "checkout"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5.5 5.5H19.5L17 11.5H7.6z\"/><path class=\"p2\" d=\"M2 3h2.5l2.2 8.5H17\"/><circle class=\"p2\" cx=\"5.5\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"9.5\" cy=\"19.5\" r=\"1.5\"/><g class=\"p3\"><circle class=\"d\" cx=\"17.5\" cy=\"18\" r=\"3\"/><path d=\"M16 18h3\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

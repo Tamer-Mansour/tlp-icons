@@ -1,0 +1,28 @@
+{
+  "name": "iron-condor-wings",
+  "category": "finance",
+  "tags": [
+    "condor",
+    "options",
+    "trading",
+    "payoff",
+    "strategy",
+    "spread",
+    "wings"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 17h4l3-10h4l3 10h4\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 1000,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 500
+    }
+  ]
+}

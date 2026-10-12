@@ -1,0 +1,12 @@
+{
+  "name": "tooth-mascot",
+  "category": "health",
+  "tags": ["tooth", "mascot", "dental", "character", "smile", "teeth", "hygiene"],
+  "svg": "<path class=\"d p1\" d=\"M12 5C10.5 3.8 7 3 5.5 5.5 4.3 7.5 5 10.5 5.5 13 6.2 16 6.7 21 8.5 21 10.1 21 10 17 12 17S13.9 21 15.5 21C17.3 21 17.8 16 18.5 13 19 10.5 19.7 7.5 18.5 5.5 17 3 13.5 3.8 12 5Z\"/><path class=\"p2\" d=\"M9 9v1.5M15 9v1.5\"/><path class=\"p3\" d=\"M9.5 13.2q2.5 2 5 0\"/><path class=\"p4\" d=\"M7.5 6.5q.8-1 2-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "twinkle", "dur": 900, "delay": 1000 }
+  ]
+}

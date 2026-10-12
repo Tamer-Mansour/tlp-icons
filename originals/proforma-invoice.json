@@ -1,0 +1,11 @@
+{
+  "name": "proforma-invoice",
+  "category": "finance",
+  "tags": ["proforma", "invoice", "preview", "quote", "estimate", "bill", "review"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v6.5H6z\"/><g class=\"p2\"><path d=\"M9 9h6M9 11.5h3\"/></g><g class=\"p3\"><path d=\"M15 18c.9-1.3 2-2 3-2s2.1.7 3 2c-.9 1.3-2 2-3 2s-2.1-.7-3-2z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

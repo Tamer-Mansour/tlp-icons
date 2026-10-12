@@ -1,0 +1,33 @@
+{
+  "name": "seed-phrase-card",
+  "category": "finance",
+  "tags": [
+    "seed",
+    "phrase",
+    "crypto",
+    "wallet",
+    "recovery",
+    "backup"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 3v18M15 3v18\"/><path class=\"p3\" d=\"M2 7.5h20M2 12h20M2 16.5h20\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 500
+    }
+  ]
+}

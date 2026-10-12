@@ -1,0 +1,19 @@
+{
+  "name": "alert-watch",
+  "category": "health",
+  "tags": [
+    "watch",
+    "alert",
+    "emergency",
+    "wearable",
+    "sos",
+    "button",
+    "wrist"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6.5\"/><path d=\"M9 5.5l.5-3h5l.5 3M9 18.5l.5 3h5l.5-3\"/><path class=\"p2\" d=\"M12 9.5V12l2 1.5\"/><g class=\"p3\"><circle cx=\"19\" cy=\"5\" r=\"2.8\"/><path d=\"M19 3.8v2.4M17.8 5h2.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 700 }
+  ]
+}

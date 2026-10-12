@@ -1,0 +1,10 @@
+{
+  "name": "catastrophe-globe",
+  "category": "finance",
+  "tags": ["catastrophe", "globe", "storm", "insurance", "disaster", "risk", "hurricane"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M13 6 8.5 13H15l-4 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 600 }
+  ]
+}

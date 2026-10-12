@@ -1,0 +1,11 @@
+{
+  "name": "book-value-blocks",
+  "category": "finance",
+  "tags": ["book value", "blocks", "price", "tag", "worth", "asset"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"16\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"8\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M15.1 6l4.3-2.5 1.5 2.5-4.3 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "18px 6px" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "hazmat-box",
+    "category":  "commerce",
+    "tags":  [
+                 "hazmat",
+                 "hazard",
+                 "box",
+                 "warning",
+                 "chemical",
+                 "danger"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M12 3l10 18H2z\"/\u003e\u003cpath class=\"p2\" d=\"M12 10v4.5\"/\u003e\u003cpath class=\"p3\" d=\"M12 17.5v.01\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  700
+                   }
+               ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "swim-goggles",
+  "category": "health",
+  "tags": [
+    "goggles",
+    "swim",
+    "swimming",
+    "pool",
+    "eyewear",
+    "strap",
+    "diving"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"3.5\"/><circle class=\"d p1\" cx=\"17\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M10.5 11.5h3\"/><path class=\"p3\" d=\"M2 10.5A10 10 0 0 0 22 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

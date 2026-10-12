@@ -1,0 +1,19 @@
+{
+  "name": "internal-transfer-arrows",
+  "category": "finance",
+  "tags": [
+    "internal transfer",
+    "transfer",
+    "move money",
+    "accounts",
+    "between accounts",
+    "swap",
+    "arrows"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8.5\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"d p3\" x=\"14.5\" y=\"8.5\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 8.5a6 6 0 0 1 12 0M15.5 6 18 8.5 20.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

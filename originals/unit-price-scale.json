@@ -1,0 +1,11 @@
+{
+  "name": "unit-price-scale",
+  "category": "commerce",
+  "tags": ["unit price", "scale", "price tag", "per unit", "weight", "cost per", "grocery"],
+  "svg": "<path class=\"p1\" d=\"M12 4v16M8 20h8\"/><g class=\"p2\"><path d=\"M5 7h14\"/><path d=\"M5 7 2 13M5 7l3 6\"/><path class=\"d\" d=\"M2 13h6l-1.2 2.6H3.2z\"/></g><g class=\"p3\"><path d=\"M18 7v6\"/><path class=\"d\" d=\"M15 13h6v4l-3 3-3-3z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "18px 7px" }
+  ]
+}

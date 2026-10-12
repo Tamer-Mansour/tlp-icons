@@ -1,0 +1,11 @@
+{
+  "name": "platform-number-sign",
+  "category": "maps",
+  "tags": ["platform", "number", "sign", "station", "train", "track"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M10.5 8 12 6.5V12\"/><path class=\"p3\" d=\"M12 13v8M9 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

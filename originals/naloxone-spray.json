@@ -1,0 +1,19 @@
+{
+  "name": "naloxone-spray",
+  "category": "health",
+  "tags": [
+    "naloxone",
+    "nasal spray",
+    "overdose",
+    "opioid",
+    "antidote",
+    "emergency",
+    "medicine"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"8\" height=\"13\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M18 15.5v5M15.5 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

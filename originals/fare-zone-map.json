@@ -1,0 +1,19 @@
+{
+  "name": "fare-zone-map",
+  "category": "maps",
+  "tags": [
+    "fare",
+    "zone",
+    "transit",
+    "rings",
+    "ticket",
+    "pricing",
+    "map"
+  ],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600, "origin": "center" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "loading-dock",
+    "category":  "commerce",
+    "tags":  [
+                 "loading dock",
+                 "truck",
+                 "delivery",
+                 "platform",
+                 "warehouse",
+                 "shipping"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"5\" width=\"12\" height=\"11\" rx=\"1\"/\u003e\u003cpath class=\"p2\" d=\"M14 9h4l4 4v3h-8\"/\u003e\u003cpath class=\"p3\" d=\"M2 20h20\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "riseIn",
+                       "dur":  600,
+                       "delay":  900
+                   }
+               ]
+}

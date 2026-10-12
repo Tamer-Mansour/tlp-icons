@@ -1,0 +1,19 @@
+{
+  "name": "sweat-gland",
+  "category": "health",
+  "tags": [
+    "sweat",
+    "gland",
+    "skin",
+    "perspiration",
+    "sweating",
+    "dermis",
+    "cooling"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 6h18\"/><path class=\"p3\" d=\"M12 6v7\"/><circle class=\"d p2\" cx=\"12\" cy=\"16\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 800 }
+  ]
+}

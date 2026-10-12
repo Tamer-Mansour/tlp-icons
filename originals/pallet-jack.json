@@ -1,0 +1,40 @@
+{
+    "name":  "pallet-jack",
+    "category":  "commerce",
+    "tags":  [
+                 "pallet",
+                 "jack",
+                 "warehouse",
+                 "forks",
+                 "lift",
+                 "truck",
+                 "logistics"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M4 3h4M6 3v8\"/\u003e\u003crect class=\"d p1\" x=\"3\" y=\"11\" width=\"6\" height=\"6\" rx=\"1.5\"/\u003e\u003crect class=\"p3\" x=\"9\" y=\"17\" width=\"12\" height=\"3\" rx=\"1\"/\u003e\u003ccircle class=\"p4\" cx=\"6\" cy=\"20\" r=\"1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "slideIn",
+                       "dur":  700,
+                       "delay":  600
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  1100
+                   }
+               ]
+}

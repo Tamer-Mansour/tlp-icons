@@ -1,0 +1,18 @@
+{
+  "name": "card-declined",
+  "category": "finance",
+  "tags": [
+    "card",
+    "declined",
+    "payment",
+    "failed",
+    "rejected",
+    "credit"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h16\"/><g class=\"p3\"><circle class=\"d\" cx=\"17.5\" cy=\"17.5\" r=\"4\"/><path d=\"M16 16l3 3M19 16l-3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

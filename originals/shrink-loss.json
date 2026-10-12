@@ -1,0 +1,28 @@
+{
+    "name":  "shrink-loss",
+    "category":  "commerce",
+    "tags":  [
+                 "shrink",
+                 "loss",
+                 "missing",
+                 "decline",
+                 "inventory",
+                 "theft",
+                 "trend"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M3 6l6 6 4-4 8 8\"/\u003e\u003cpath class=\"p2\" d=\"M15 16h6v-6\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  700,
+                       "anim":  "sink",
+                       "part":  "p2",
+                       "dur":  800
+                   }
+               ]
+}

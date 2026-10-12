@@ -1,0 +1,11 @@
+{
+  "name": "igloo-stay",
+  "category": "maps",
+  "tags": ["igloo", "snow", "dome", "ice", "shelter", "stay", "cabin"],
+  "svg": "<path class=\"d p1\" d=\"M3 18a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M10 18v-4a2 2 0 0 1 4 0v4\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

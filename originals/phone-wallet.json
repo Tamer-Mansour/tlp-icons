@@ -1,0 +1,34 @@
+{
+    "name":  "phone-wallet",
+    "category":  "finance",
+    "tags":  [
+                 "phone",
+                 "wallet",
+                 "mobile",
+                 "pay",
+                 "payment",
+                 "money",
+                 "app"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"10\" r=\"3\"/\u003e\u003cpath class=\"p3\" d=\"M10 18h4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "rollIn",
+                       "dur":  700,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  1000
+                   }
+               ]
+}

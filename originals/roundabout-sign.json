@@ -1,0 +1,7 @@
+{
+  "name": "roundabout-sign",
+  "category": "maps",
+  "tags": ["roundabout", "traffic", "circle", "exit", "junction", "road", "sign"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M12 14v8M17 9h4\"/>",
+  "motion": [{ "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },{ "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }]
+}

@@ -1,0 +1,34 @@
+{
+    "name":  "newborn-id-band",
+    "category":  "health",
+    "tags":  [
+                 "newborn",
+                 "baby",
+                 "id",
+                 "band",
+                 "hospital",
+                 "wristband",
+                 "identification"
+             ],
+    "svg":  "\u003cellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"9\" ry=\"5\"/\u003e\u003crect class=\"d p2\" x=\"8\" y=\"13\" width=\"8\" height=\"7\" rx=\"1.5\"/\u003e\u003cpath class=\"p3\" d=\"M10.5 16.5h3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "dropIn",
+                       "dur":  600,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  1000
+                   }
+               ]
+}

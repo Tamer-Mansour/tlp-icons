@@ -1,0 +1,11 @@
+{
+  "name": "cashier-badge",
+  "category": "commerce",
+  "tags": ["cashier", "badge", "staff", "employee", "name tag", "checkout", "clerk"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.2\"/><path class=\"p3\" d=\"M8.5 16.8a3.5 3.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 500 }
+  ]
+}

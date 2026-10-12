@@ -1,0 +1,34 @@
+{
+  "name": "outbreak-map-pin",
+  "category": "health",
+  "tags": [
+    "outbreak",
+    "map",
+    "pin",
+    "epidemic",
+    "cases",
+    "location",
+    "health"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 6.5 8 4.5l8 2 5-2v13l-5 2-8-2-5 2z\"/><path class=\"p2\" d=\"M12 7a2.5 2.5 0 0 0-2.5 2.5c0 1.8 2.5 4.5 2.5 4.5s2.5-2.7 2.5-4.5A2.5 2.5 0 0 0 12 7z\"/><circle class=\"f p3\" cx=\"7\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "rfid-tag",
+  "category": "commerce",
+  "tags": [
+    "rfid",
+    "tag",
+    "radio",
+    "wave",
+    "inventory",
+    "scan",
+    "chip"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"14\" width=\"16\" height=\"7\" rx=\"1.5\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"10\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M16 5a4 4 0 0 1 0 4.5\"/><path class=\"p3\" d=\"M19 2.5a7.5 7.5 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

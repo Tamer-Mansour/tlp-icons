@@ -1,0 +1,11 @@
+{
+  "name": "auto-reply-clock",
+  "category": "commerce",
+  "tags": ["auto", "reply", "clock", "message", "chat", "schedule", "response"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-7l-4 3v-3H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"18.5\" r=\"3.5\"/><path class=\"p3\" d=\"M18.5 16.8v1.7h1.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

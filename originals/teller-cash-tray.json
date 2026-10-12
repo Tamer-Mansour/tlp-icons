@@ -1,0 +1,33 @@
+{
+    "name":  "teller-cash-tray",
+    "category":  "finance",
+    "tags":  [
+                 "cash",
+                 "tray",
+                 "bills",
+                 "teller",
+                 "bank",
+                 "money"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 14h18l-2 6H5z\"/\u003e\u003crect class=\"p2\" x=\"6\" y=\"4\" width=\"12\" height=\"7\" rx=\"1\"/\u003e\u003ccircle class=\"p3\" cx=\"12\" cy=\"7.5\" r=\"1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "dropIn",
+                       "dur":  800,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  1000
+                   }
+               ]
+}

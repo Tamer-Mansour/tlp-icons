@@ -1,0 +1,19 @@
+{
+  "name": "brain-hemispheres",
+  "category": "health",
+  "tags": [
+    "brain",
+    "hemisphere",
+    "neurology",
+    "left brain",
+    "right brain",
+    "mind",
+    "cognition"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 5C9 3.5 5 4.5 4.5 8 3.5 9 3.5 13 4.5 14 4.5 17.5 8 19.5 12 18.5Z\"/><path class=\"d p2\" d=\"M12 5C15 3.5 19 4.5 19.5 8 20.5 9 20.5 13 19.5 14 19.5 17.5 16 19.5 12 18.5Z\"/><path class=\"p3\" d=\"M12 6.5v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

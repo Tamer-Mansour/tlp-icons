@@ -1,0 +1,33 @@
+{
+  "name": "warehouse-building",
+  "category": "commerce",
+  "tags": [
+    "warehouse",
+    "storage",
+    "building",
+    "depot",
+    "logistics",
+    "roll door"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 21V9l5-4v4l5-4v4l5-4h3v16z\"/><rect class=\"p2\" x=\"8\" y=\"13\" width=\"8\" height=\"8\" rx=\"0.5\"/><path class=\"p3\" d=\"M8 16.5h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "rollIn",
+      "dur": 800,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 1100
+    }
+  ]
+}

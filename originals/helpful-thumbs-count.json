@@ -1,0 +1,11 @@
+{
+  "name": "helpful-thumbs-count",
+  "category": "commerce",
+  "tags": ["thumbs", "helpful", "vote", "count", "review", "likes"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"4\" height=\"10\" rx=\"1\"/><path class=\"d p2\" d=\"M6 11.5l3.5-7.2c.6-1.2 2.4-.9 2.4.5V9.5h5.6c1.2 0 2 1.1 1.7 2.2l-1.8 6.5c-.3 1-1.1 1.7-2.2 1.7H6z\"/><g class=\"p3\"><rect x=\"16.5\" y=\"2\" width=\"6\" height=\"6\" rx=\"3\"/><path d=\"M19.5 4.5v3\"/></g>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

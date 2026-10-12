@@ -1,0 +1,40 @@
+{
+  "name": "inventory-stock-shelf",
+  "category": "commerce",
+  "tags": [
+    "inventory",
+    "stock",
+    "shelf",
+    "boxes",
+    "warehouse",
+    "count",
+    "supply"
+  ],
+  "svg": "<path class=\"p4\" d=\"M2 21h20\"/><rect class=\"d p1\" x=\"3\" y=\"13\" width=\"8\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"5\" y=\"7\" width=\"8\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"13\" width=\"7\" height=\"6\" rx=\"1\"/><g class=\"p3\"><circle cx=\"18\" cy=\"6\" r=\"3\"/><path d=\"M18 4.5v3M16.5 6h3\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 600
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

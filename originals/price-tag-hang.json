@@ -1,0 +1,28 @@
+{
+  "name": "price-tag-hang",
+  "category": "commerce",
+  "tags": [
+    "price",
+    "tag",
+    "label",
+    "hang",
+    "discount",
+    "sale",
+    "hole"
+  ],
+  "svg": "<polygon class=\"d p1\" points=\"3,4 11,4 21,14 14,21 4,11\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    }
+  ]
+}

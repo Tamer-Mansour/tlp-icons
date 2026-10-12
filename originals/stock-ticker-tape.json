@@ -1,0 +1,19 @@
+{
+  "name": "stock-ticker-tape",
+  "category": "finance",
+  "tags": [
+    "stock",
+    "ticker",
+    "tape",
+    "price",
+    "market",
+    "quote",
+    "trading"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M5 10h4M12 10h7\"/><path class=\"p3\" d=\"M5 14h7M15 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 550 }
+  ]
+}

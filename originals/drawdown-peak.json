@@ -1,0 +1,19 @@
+{
+  "name": "drawdown-peak",
+  "category": "finance",
+  "tags": [
+    "drawdown",
+    "peak",
+    "decline",
+    "loss",
+    "chart",
+    "fall",
+    "investment"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><polyline class=\"p2\" points=\"5,8 9,5 12,9 19,17\"/><circle class=\"d p3\" cx=\"9\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

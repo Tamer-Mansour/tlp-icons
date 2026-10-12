@@ -1,0 +1,11 @@
+{
+  "name": "pituitary-gland",
+  "category": "health",
+  "tags": ["pituitary", "gland", "brain", "hormone", "endocrine", "anatomy", "master"],
+  "svg": "<path class=\"d p1\" d=\"M5 14C2.5 14 2 10.5 4 9.5 2.5 7 4.5 4 7.5 4.8 8.8 2.5 12.5 2.2 13 4.8 15.5 3 19.5 4.5 19 8 21.5 8.8 21.5 12 19.5 13 20 14.5 18 14.5 17.5 14z\"/><path class=\"p3\" d=\"M12 14v2\"/><circle class=\"d p2\" cx=\"12\" cy=\"18.2\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

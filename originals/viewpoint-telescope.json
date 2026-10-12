@@ -1,0 +1,11 @@
+{
+  "name": "viewpoint-telescope",
+  "category": "maps",
+  "tags": ["viewpoint", "telescope", "view", "horizon", "scenic", "lookout"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 15 5l2.5 4.5L6.5 15.5z\"/><path class=\"p2\" d=\"M12 12.5 7 20.5M12 12.5l5 8M12 12.5v8\"/><path class=\"p3\" d=\"M2.5 20.5h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nerve-neuron",
+  "category": "health",
+  "tags": ["neuron", "nerve", "axon", "dendrite", "brain", "cell", "synapse"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M5.5 9.5 3.5 7M5.5 14.5 3.5 17M8 8.5V5M8 5 5.5 3M8 5l2.5-2\"/><path class=\"p3\" d=\"M11.5 12H18M18 12l3-3M18 12l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 800 }
+  ]
+}

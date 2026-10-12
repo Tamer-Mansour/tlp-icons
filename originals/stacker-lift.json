@@ -1,0 +1,33 @@
+{
+    "name":  "stacker-lift",
+    "category":  "commerce",
+    "tags":  [
+                 "stacker",
+                 "forklift",
+                 "pallet",
+                 "lift",
+                 "warehouse",
+                 "mast"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M18 3v18\"/\u003e\u003crect class=\"d p2\" x=\"3\" y=\"6\" width=\"10\" height=\"8\" rx=\"1\"/\u003e\u003cpath class=\"p3\" d=\"M3 17h15\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "lift",
+                       "dur":  1000,
+                       "delay":  900
+                   }
+               ]
+}

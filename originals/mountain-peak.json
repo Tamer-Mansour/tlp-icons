@@ -1,0 +1,10 @@
+{
+  "name": "mountain-peak",
+  "category": "maps",
+  "tags": ["mountain", "peak", "summit", "snow", "alpine", "hike"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20 12 4l9.5 16z\"/><path class=\"p2\" d=\"M8.7 11 10.5 9 12 10.5 13.5 9l1.8 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

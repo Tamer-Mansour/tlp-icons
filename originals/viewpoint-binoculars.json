@@ -1,0 +1,27 @@
+{
+    "name":  "viewpoint-binoculars",
+    "category":  "maps",
+    "tags":  [
+                 "binoculars",
+                 "viewpoint",
+                 "lookout",
+                 "scenery",
+                 "horizon",
+                 "view"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"6\" width=\"7\" height=\"14\" rx=\"3\"/\u003e\u003crect class=\"d p1\" x=\"14\" y=\"6\" width=\"7\" height=\"14\" rx=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M10 12h4M6.5 6V3M17.5 6V3\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  700
+                   }
+               ]
+}

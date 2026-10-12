@@ -1,0 +1,34 @@
+{
+  "name": "aml-screening-glass",
+  "category": "finance",
+  "tags": [
+    "aml",
+    "screening",
+    "coin",
+    "magnifier",
+    "compliance",
+    "money laundering"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M15.500 15.500L21 21\"/><circle class=\"p3\" cx=\"10\" cy=\"10\" r=\"2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "sweep",
+      "dur": 700,
+      "delay": 800,
+      "origin": "top left"
+    }
+  ]
+}

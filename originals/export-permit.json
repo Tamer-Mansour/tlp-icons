@@ -1,0 +1,12 @@
+{
+  "name": "export-permit",
+  "category": "commerce",
+  "tags": ["export", "permit", "document", "globe", "shipping", "license"],
+  "svg": "<path class=\"d p1\" d=\"M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6\"/><path class=\"p2\" d=\"M14 3l5 5v2\"/><path class=\"p3\" d=\"M8 9h3M8 13h3\"/><path class=\"p4\" d=\"M14 21l7-7M15 14h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "nudge", "dur": 900, "delay": 1300 }
+  ]
+}

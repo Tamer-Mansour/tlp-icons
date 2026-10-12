@@ -1,0 +1,28 @@
+{
+  "name": "valet-parking-ticket",
+  "category": "maps",
+  "tags": [
+    "valet",
+    "parking",
+    "ticket",
+    "claim",
+    "key",
+    "car",
+    "service"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 6h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4z\"/><path class=\"p2\" d=\"M10 16V8h2.5a2 2 0 0 1 0 4H10\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

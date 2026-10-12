@@ -1,0 +1,34 @@
+{
+  "name": "traveler-cheque-folder",
+  "category": "finance",
+  "tags": [
+    "traveler",
+    "cheque",
+    "check",
+    "folder",
+    "booklet",
+    "money",
+    "dollar"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4.5\" width=\"18\" height=\"15\" rx=\"2\"/><path class=\"p3\" d=\"M7.5 4.5v15\"/><g class=\"p2\"><path d=\"M14.5 9.5h-3.25a1.75 1.75 0 0 0 0 3.5h1.5a1.75 1.75 0 0 1 0 3.5H9.5\"/><path d=\"M12 7.5v9\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 500
+    }
+  ]
+}

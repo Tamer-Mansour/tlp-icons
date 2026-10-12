@@ -1,0 +1,34 @@
+{
+    "name":  "park-and-ride-sign",
+    "category":  "maps",
+    "tags":  [
+                 "park and ride",
+                 "parking",
+                 "bus",
+                 "car",
+                 "transit",
+                 "commute",
+                 "sign"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"14\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M9.5 13V5h3a2.5 2.5 0 0 1 0 5h-3\"/\u003e\u003cpath class=\"p3\" d=\"M12 16v6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  800
+                   }
+               ]
+}

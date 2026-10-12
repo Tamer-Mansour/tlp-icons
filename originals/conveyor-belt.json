@@ -1,0 +1,20 @@
+{
+  "name": "conveyor-belt",
+  "category": "commerce",
+  "tags": [
+    "conveyor",
+    "belt",
+    "rollers",
+    "warehouse",
+    "shipping",
+    "factory",
+    "logistics"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9.5\" width=\"20\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M7 17.5v3.5M17 17.5v3.5\"/><rect class=\"d p3\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"4.5\" rx=\"1\"/><circle class=\"p4\" cx=\"6\" cy=\"12.5\" r=\"1.5\"/><circle class=\"p4\" cx=\"18\" cy=\"12.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 600 }
+  ]
+}

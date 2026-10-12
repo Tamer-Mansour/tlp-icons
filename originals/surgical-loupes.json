@@ -1,0 +1,11 @@
+{
+  "name": "surgical-loupes",
+  "category": "health",
+  "tags": ["loupes", "magnifier", "surgery", "dentist", "magnifying", "lens", "headband", "dental"],
+  "svg": "<path class=\"p1\" d=\"M3 11a9 9 0 0 1 18 0\"/><path class=\"p1\" d=\"M3 11v4M21 11v4\"/><circle class=\"d p2\" cx=\"7\" cy=\"15\" r=\"4\"/><circle class=\"d p2\" cx=\"17\" cy=\"15\" r=\"4\"/><path class=\"p3\" d=\"M11 15h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

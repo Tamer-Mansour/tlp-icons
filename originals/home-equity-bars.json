@@ -1,0 +1,27 @@
+{
+  "name": "home-equity-bars",
+  "category": "finance",
+  "tags": [
+    "home",
+    "equity",
+    "house",
+    "bars",
+    "growth",
+    "mortgage"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3.5 10 12 3l8.5 7v11h-17z\"/><path class=\"p2\" d=\"M8.5 17v-3M12 17v-5M15.5 17v-7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 900,
+      "delay": 400
+    }
+  ]
+}

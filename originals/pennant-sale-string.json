@@ -1,0 +1,12 @@
+{
+  "name": "pennant-sale-string",
+  "category": "commerce",
+  "tags": ["pennant", "flags", "bunting", "sale", "banner", "promotion", "string"],
+  "svg": "<path class=\"p1\" d=\"M2 4h20\"/><polygon class=\"d p2\" points=\"2.5,4 7.5,4 5,10.5\"/><polygon class=\"d p3\" points=\"9.5,4 14.5,4 12,10.5\"/><polygon class=\"d p4\" points=\"16.5,4 21.5,4 19,10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

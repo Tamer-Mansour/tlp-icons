@@ -1,0 +1,20 @@
+{
+  "name": "follow-up-reminder",
+  "category": "health",
+  "tags": [
+    "follow up",
+    "reminder",
+    "appointment",
+    "calendar",
+    "check up",
+    "bell",
+    "medical"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"11\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M2 8h11M5 2v4M10 2v4\"/><path class=\"p3\" d=\"M7.5 10v4M5.5 12h4\"/><path class=\"p4\" d=\"M16 14a2.5 2.5 0 0 1 5 0v1.5l1 1.5h-7l1-1.5z\"/><path class=\"p4\" d=\"M17.5 19.5a1.5 1.5 0 0 0 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

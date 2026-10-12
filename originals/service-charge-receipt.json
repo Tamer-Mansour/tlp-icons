@@ -1,0 +1,12 @@
+{
+  "name": "service-charge-receipt",
+  "category": "finance",
+  "tags": ["service", "charge", "receipt", "fee", "percent", "bill", "invoice", "tax"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h12v17l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5z\"/><path class=\"p2\" d=\"M8 8h4M8 12h4\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"17.5\" r=\"4\"/><path class=\"p4\" d=\"M15.8 19.2l3.4-3.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

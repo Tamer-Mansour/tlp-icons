@@ -1,0 +1,33 @@
+{
+  "name": "delegation-handoff",
+  "category": "finance",
+  "tags": [
+    "delegation",
+    "handoff",
+    "transfer",
+    "server",
+    "payment",
+    "coin"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5.5\" r=\"3\"/><path class=\"p2\" d=\"M12 9.5v3.5M9.8 11.2 12 13.4l2.2-2.2\"/><rect class=\"d p3\" x=\"6\" y=\"15.5\" width=\"12\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 18.5h6\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "rollIn",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

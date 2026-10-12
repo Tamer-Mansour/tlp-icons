@@ -1,0 +1,10 @@
+{
+  "name": "ecg-waveform-strip",
+  "category": "health",
+  "tags": ["ecg", "ekg", "heartbeat", "strip", "rhythm", "cardiogram"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><polyline class=\"p2\" points=\"3,12 7,12 9,8 11,16 13,10 15,12 21,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 300 }
+  ]
+}

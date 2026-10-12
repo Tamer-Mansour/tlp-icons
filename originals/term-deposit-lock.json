@@ -1,0 +1,18 @@
+{
+  "name": "term-deposit-lock",
+  "category": "finance",
+  "tags": [
+    "term deposit",
+    "fixed deposit",
+    "savings",
+    "lock",
+    "coins",
+    "locked"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4.5\" y=\"10.5\" width=\"15\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M8 10.5V7.5a4 4 0 0 1 8 0v3\"/><g class=\"p3\"><path d=\"M8.5 13.5a3.5 1.2 0 1 0 7 0a3.5 1.2 0 1 0-7 0\"/><path d=\"M8.5 13.5V18a3.5 1.2 0 0 0 7 0V13.5\"/><path d=\"M8.5 16a3.5 1.2 0 0 0 7 0\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

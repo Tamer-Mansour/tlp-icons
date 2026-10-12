@@ -1,0 +1,27 @@
+{
+  "name": "uptrend-rocket",
+  "category": "finance",
+  "tags": [
+    "rocket",
+    "growth",
+    "uptrend",
+    "chart",
+    "stock",
+    "rising"
+  ],
+  "svg": "<path class=\"p3\" d=\"M2 21l3-3.5 3 2 3.5-4\"/><g class=\"d p2\" transform=\"translate(-1 0) rotate(45 16 8)\"><path d=\"M16 1.5c2.2 1.8 3 4.6 3 7.8L16 13.5l-3-4.2c0-3.2.8-6 3-7.8z\"/><circle cx=\"16\" cy=\"6.5\" r=\"1.3\"/><path d=\"M13 9.3 11.2 11l1.8.6M19 9.3l1.8 1.7-1.8.6\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "launch",
+      "dur": 1000,
+      "delay": 500
+    }
+  ]
+}

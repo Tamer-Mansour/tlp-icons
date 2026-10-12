@@ -1,0 +1,12 @@
+{
+  "name": "atm-deposit-slot",
+  "category": "finance",
+  "tags": ["atm", "deposit", "cash", "slot", "bill", "bank"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 14h9\"/><rect class=\"p3\" x=\"8\" y=\"2.5\" width=\"8\" height=\"4\" rx=\"0.5\"/><path class=\"p4\" d=\"M9 18h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 900, "delay": 500 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

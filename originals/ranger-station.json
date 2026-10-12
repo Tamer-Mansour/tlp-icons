@@ -1,0 +1,11 @@
+{
+  "name": "ranger-station",
+  "category": "maps",
+  "tags": ["ranger", "station", "cabin", "park", "forest", "warden", "lodge"],
+  "svg": "<path class=\"d p1\" d=\"M5 21V11l7-6 7 6v10z\"/><path class=\"p2\" d=\"M10 21v-5h4v5\"/><path class=\"p3\" d=\"M12 5V2.5M12 3h4.5l-1.5 2 1.5 2H12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 700 }
+  ]
+}

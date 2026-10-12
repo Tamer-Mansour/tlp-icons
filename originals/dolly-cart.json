@@ -1,0 +1,11 @@
+{
+  "name": "dolly-cart",
+  "category": "commerce",
+  "tags": ["dolly", "cart", "trolley", "platform", "wheels", "hand", "moving"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h14v2H3z\"/><path class=\"p2\" d=\"M17 12l4-8\"/><g class=\"p3\"><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"15\" cy=\"18\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 700, "origin": "center" }
+  ]
+}

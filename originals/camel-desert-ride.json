@@ -1,0 +1,28 @@
+{
+  "name": "camel-desert-ride",
+  "category": "maps",
+  "tags": [
+    "camel",
+    "desert",
+    "dune",
+    "ride",
+    "safari",
+    "sahara",
+    "travel"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 15 Q4 9 8 9 Q10 9 11 12 Q12 9 14 9 Q16 9 16.500 12 L19 8 H21 L21 10 L18 15 Z\"/><path class=\"p2\" d=\"M6 15 V20 M16 15 V20\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    }
+  ]
+}

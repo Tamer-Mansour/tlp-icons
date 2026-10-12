@@ -1,0 +1,20 @@
+{
+  "name": "abandoned-cart-moon",
+  "category": "commerce",
+  "tags": [
+    "abandoned",
+    "cart",
+    "moon",
+    "night",
+    "saved",
+    "later",
+    "shopping"
+  ],
+  "svg": "<path class=\"p3\" d=\"M2.5 4h2.5l2.4 11.5h9.6\"/><path class=\"d p1\" d=\"M6 8h12.5l-1.6 7H7.4z\"/><circle class=\"p4\" cx=\"9\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p4\" cx=\"16\" cy=\"19.5\" r=\"1.5\"/><path class=\"p2\" d=\"M19.5 1.8a3.6 3.6 0 1 0 2.7 5.7 3 3 0 0 1-2.7-5.7z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tax-deduction-scissors",
+  "category": "finance",
+  "tags": [
+    "tax",
+    "deduction",
+    "receipt",
+    "scissors",
+    "cut",
+    "expense",
+    "write-off"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 2h10v19.5l-2.5-1.5L7 21.5l-2.5-1.5L2 21.5z\"/><path class=\"p2\" d=\"M4 12h2.5M8 12h2.5\"/><g class=\"p3\"><circle cx=\"18\" cy=\"7\" r=\"2\"/><circle cx=\"18\" cy=\"17\" r=\"2\"/><path d=\"M16.2 8.2 14.5 12l1.7 3.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swingIn", "dur": 900, "delay": 700 }
+  ]
+}

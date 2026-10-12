@@ -1,0 +1,18 @@
+{
+  "name": "aisle-sign",
+  "category": "commerce",
+  "tags": [
+    "aisle",
+    "sign",
+    "store",
+    "shop",
+    "number",
+    "hanging"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M8 3v5M16 3v5M5 3h14\"/><path class=\"p3\" d=\"M11 11.5 12.5 10v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

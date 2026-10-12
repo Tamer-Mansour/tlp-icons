@@ -1,0 +1,19 @@
+{
+  "name": "airdrop-parachute",
+  "category": "finance",
+  "tags": [
+    "airdrop",
+    "parachute",
+    "coin",
+    "token",
+    "crypto",
+    "giveaway",
+    "drop"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3.5 9.5a8.5 7 0 0 1 17 0z\"/><path class=\"p2\" d=\"M3.5 9.5 10.5 17.5M20.5 9.5 13.5 17.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"19.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 700 }
+  ]
+}

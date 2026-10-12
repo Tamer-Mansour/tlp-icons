@@ -1,0 +1,11 @@
+{
+  "name": "diversified-blocks",
+  "category": "finance",
+  "tags": ["diversified", "portfolio", "blocks", "spread", "allocation", "squares"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p2\" x=\"3\" y=\"14\" width=\"8\" height=\"7\" rx=\"1.5\"/><rect class=\"p3\" x=\"13\" y=\"14\" width=\"8\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

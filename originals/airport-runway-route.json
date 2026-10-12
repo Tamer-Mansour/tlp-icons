@@ -1,0 +1,10 @@
+{
+  "name": "airport-runway-route",
+  "category": "maps",
+  "tags": ["airport", "runway", "plane", "flight", "takeoff", "route"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c.8 0 1.2.8 1.2 1.8V9l6.3 3.2v1.8L13.2 12.5v3.6l2.3 1.7v1.4L12 18.2l-3.5.9v-1.4l2.3-1.7v-3.6l-6.3 1.6v-1.8L10.8 9V4.8C10.8 3.8 11.2 3 12 3z\"/><path class=\"p2\" d=\"M3 21h4M16.5 21h4.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 }
+  ]
+}

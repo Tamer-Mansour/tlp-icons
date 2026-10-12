@@ -1,0 +1,11 @@
+{
+  "name": "agent-headset-avatar",
+  "category": "commerce",
+  "tags": ["agent", "headset", "support", "customer service", "avatar", "call center", "help", "operator"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9.5\" r=\"3.5\"/><path class=\"p2\" d=\"M5 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2\"/><g class=\"p3\"><path d=\"M5.5 9.5a6.5 6.5 0 0 1 13 0\"/><rect x=\"4\" y=\"9.5\" width=\"3\" height=\"4\" rx=\"1\"/><rect x=\"17\" y=\"9.5\" width=\"3\" height=\"4\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

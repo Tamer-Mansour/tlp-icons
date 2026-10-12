@@ -1,0 +1,20 @@
+{
+  "name": "bulk-bin-scoop",
+  "category": "commerce",
+  "tags": [
+    "bulk",
+    "bin",
+    "scoop",
+    "grocery",
+    "refill",
+    "dispenser",
+    "loose"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h12l-1.5 10.5h-9z\"/><path class=\"p2\" d=\"M2 9.5h14\"/><path class=\"p3\" d=\"M15.5 9.5h5a2.5 2.5 0 0 1-5 0\"/><path class=\"p4\" d=\"M18 9.5 21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 900, "origin": "18px 9.5px" }
+  ]
+}

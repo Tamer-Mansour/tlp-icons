@@ -1,0 +1,40 @@
+{
+  "name": "trip-cancellation-cover",
+  "category": "maps",
+  "tags": [
+    "trip",
+    "cancellation",
+    "cancel",
+    "suitcase",
+    "shield",
+    "cover",
+    "travel"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 7V5.5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1V7\"/><path class=\"d p3\" d=\"M17 11l4 1.5v3c0 2.2-1.8 3.6-4 4.5-2.2-.9-4-2.3-4-4.5v-3z\"/><path class=\"p4\" d=\"M15.5 15l3 3M18.5 15l-3 3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 700
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 1200
+    }
+  ]
+}

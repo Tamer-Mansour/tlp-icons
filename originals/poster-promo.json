@@ -1,0 +1,11 @@
+{
+  "name": "poster-promo",
+  "category": "commerce",
+  "tags": ["poster", "promo", "promotion", "star", "sale", "advert", "banner"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"18.5\" rx=\"2\"/><polygon class=\"p2\" points=\"12 6 12.88 8.29 15.33 8.42 13.43 9.96 14.06 12.33 12 11 9.94 12.33 10.57 9.96 8.67 8.42 11.12 8.29\"/><rect class=\"p3\" x=\"7.5\" y=\"16\" width=\"9\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300, "origin": "center" },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "name":  "forehead-thermometer",
+    "category":  "health",
+    "tags":  [
+                 "thermometer",
+                 "forehead",
+                 "temperature",
+                 "fever",
+                 "non-contact",
+                 "infrared",
+                 "scan"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 5h14v6H11l-1 8H6l1-8H3z\"/\u003e\u003cpath class=\"p2\" d=\"M20 5l-1 6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  500
+                   }
+               ]
+}

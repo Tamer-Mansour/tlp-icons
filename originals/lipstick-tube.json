@@ -1,0 +1,11 @@
+{
+  "name": "lipstick-tube",
+  "category": "commerce",
+  "tags": ["lipstick", "cosmetics", "makeup", "beauty", "tube", "lip"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"15\" width=\"12\" height=\"6.5\" rx=\"1\"/><path class=\"p2\" d=\"M8 15v-5h8v5\"/><path class=\"p3\" d=\"M9.5 10V5.5l5-3.5V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "riseIn", "dur": 800, "delay": 600 }
+  ]
+}

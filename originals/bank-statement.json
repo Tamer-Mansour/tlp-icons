@@ -1,0 +1,20 @@
+{
+  "name": "bank-statement",
+  "category": "finance",
+  "tags": [
+    "bank",
+    "statement",
+    "account",
+    "document",
+    "records",
+    "ledger",
+    "receipt"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 3v5h5\"/><path class=\"p3\" d=\"M8 13.5 11.5 11 15 13.5z\"/><path class=\"p4\" d=\"M10 15.5v2.5M13 15.5v2.5M8 19.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

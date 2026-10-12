@@ -1,0 +1,12 @@
+{
+  "name": "spotlight-creator",
+  "category": "commerce",
+  "tags": ["spotlight", "creator", "influencer", "person", "stage", "limelight", "star"],
+  "svg": "<path class=\"p3\" d=\"M9 2h6\"/><path class=\"p4\" d=\"M9 2 5.5 9.5M15 2l3.5 7.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"d p2\" d=\"M5.5 22v-1.5a4.5 4.5 0 0 1 4.5-4.5h4a4.5 4.5 0 0 1 4.5 4.5V22z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

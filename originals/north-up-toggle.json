@@ -1,0 +1,19 @@
+{
+  "name": "north-up-toggle",
+  "category": "maps",
+  "tags": [
+    "north",
+    "compass",
+    "toggle",
+    "orientation",
+    "map",
+    "rotate",
+    "arrow"
+  ],
+  "svg": "<path class=\"p3\" d=\"M9.5 15V9l5 6V9\"/><g class=\"p1\"><path d=\"M4.21 7.5A9 9 0 0 1 19.79 7.5\"/><path d=\"M17.07 6.23 19.79 7.5 20.05 4.51\"/></g><g class=\"p2\"><path d=\"M19.79 16.5A9 9 0 0 1 4.21 16.5\"/><path d=\"M6.93 17.77 4.21 16.5 3.95 19.49\"/></g>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

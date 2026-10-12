@@ -1,0 +1,11 @@
+{
+  "name": "virtual-card-dashed",
+  "category": "finance",
+  "tags": ["virtual", "card", "dashed", "digital", "chip", "payment", "temporary"],
+  "svg": "<path class=\"p1\" d=\"M4 4.5h4M11 4.5h2M16 4.5h4M4 19.5h4M11 19.5h2M16 19.5h4M2 8v3M2 13v3M22 8v3M22 13v3\"/><rect class=\"d p2\" x=\"6\" y=\"8\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M14 9.5h4M14 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

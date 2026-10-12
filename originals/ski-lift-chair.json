@@ -1,0 +1,11 @@
+{
+  "name": "ski-lift-chair",
+  "category": "maps",
+  "tags": ["chairlift", "ski", "lift", "mountain", "resort", "winter", "chair"],
+  "svg": "<path class=\"p1\" d=\"M2 2 22 8\"/><path d=\"M12 5.5v2\"/><path class=\"d p2\" d=\"M7.5 7.5h9v3.5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1z\"/><path class=\"p3\" d=\"M2 20.5 12 15.5l10 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p2", "anim": "sway", "dur": 1400, "delay": 900, "origin": "12px 5.5px" }
+  ]
+}

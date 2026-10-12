@@ -1,0 +1,18 @@
+{
+  "name": "income-statement",
+  "category": "finance",
+  "tags": [
+    "income statement",
+    "profit",
+    "report",
+    "revenue",
+    "bars",
+    "accounting"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8 18v-3M12 18v-6M16 18v-8\"/><path class=\"p3\" d=\"M8 6h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

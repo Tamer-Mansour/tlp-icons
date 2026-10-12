@@ -1,0 +1,12 @@
+{
+  "name": "referral-forward",
+  "category": "health",
+  "tags": ["referral", "forward", "doctor", "transfer", "specialist", "document", "handoff"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 6.5h4M5.5 9.5h4\"/><path class=\"p3\" d=\"M7 17h6M10.5 14.5 13 17l-2.5 2.5\"/><g class=\"p4\"><circle cx=\"17\" cy=\"13\" r=\"2.5\"/><path d=\"M13 22v-1.5a4 3 0 0 1 8 0V22\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cast-leg",
+  "category": "health",
+  "tags": [
+    "cast",
+    "leg",
+    "fracture",
+    "plaster",
+    "bandage roll",
+    "broken leg",
+    "orthopedic"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 2h6v6l-1 3v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-7L9 8z\"/><path class=\"p2\" d=\"M9 7h6M10 14h4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "water-level-glass",
+  "category": "health",
+  "tags": ["water", "glass", "measure", "hydration", "level", "cup"],
+  "svg": "<path class=\"d p1\" d=\"M6.8 12h10.4l-1.4 8H8.2z\"/><path class=\"p2\" d=\"M6 3h12l-1.5 17h-9z\"/><path class=\"p3\" d=\"M12.5 6.5h3M13.5 9.5h2M12.5 16h3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 1000, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 1300 }
+  ]
+}

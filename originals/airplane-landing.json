@@ -1,0 +1,10 @@
+{
+  "name": "airplane-landing",
+  "category": "maps",
+  "tags": ["airplane", "landing", "arrival", "runway", "flight", "plane"],
+  "svg": "<g transform=\"rotate(225 12 12)\"><path class=\"d p1\" d=\"M12 3c.8 0 1.2 1 1.2 2v4.5L21 13v2l-7.8-1.8V18l1.8 1.5V21L12 20l-3 1v-1.5L10.8 18v-4.8L3 15v-2l7.8-3.5V5c0-1 .4-2 1.2-2z\"/></g><path class=\"p2\" d=\"M10 21h4M17 21h4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "drive", "dur": 1200, "delay": 400 }
+  ]
+}

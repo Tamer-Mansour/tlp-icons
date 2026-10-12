@@ -1,0 +1,19 @@
+{
+  "name": "dental-autoclave",
+  "category": "health",
+  "tags": [
+    "dental",
+    "autoclave",
+    "sterilizer",
+    "steam",
+    "sterilization",
+    "clinic",
+    "chamber"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"12.5\" height=\"14.5\" rx=\"3\"/><g class=\"p2\"><circle cx=\"8.75\" cy=\"10.25\" r=\"2.25\"/><path d=\"M5 14h7.5\"/></g><g class=\"p3\"><circle cx=\"19\" cy=\"17.5\" r=\"3\"/><path d=\"M17.25 17.5c.5-.7 1-.7 1.5 0s1 .7 1.5 0\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

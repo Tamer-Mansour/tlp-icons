@@ -1,0 +1,10 @@
+{
+  "name": "case-timeline-steps",
+  "category": "commerce",
+  "tags": ["timeline", "steps", "progress", "stages", "case", "process", "workflow"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"19\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5v2M12 14.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

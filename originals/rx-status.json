@@ -1,0 +1,12 @@
+{
+  "name": "rx-status",
+  "category": "health",
+  "tags": ["prescription", "refill", "pharmacy", "status", "pill bottle", "progress"],
+  "svg": "<rect class=\"p2\" x=\"5\" y=\"2.5\" width=\"14\" height=\"3\" rx=\"1\"/><rect class=\"d p1\" x=\"6\" y=\"9.5\" width=\"12\" height=\"11.5\" rx=\"2\"/><path class=\"p3\" d=\"M9 13.5h6\"/><path class=\"p4\" d=\"M9 17.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 900, "origin": "left" }
+  ]
+}

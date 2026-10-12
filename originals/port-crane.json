@@ -1,0 +1,35 @@
+{
+    "name":  "port-crane",
+    "category":  "commerce",
+    "tags":  [
+                 "port",
+                 "crane",
+                 "container",
+                 "harbor",
+                 "shipping",
+                 "dock",
+                 "cargo"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M6 21V3M3 21h6\"/\u003e\u003cpath class=\"p2\" d=\"M3 6h18M17 6v4\"/\u003e\u003crect class=\"d p3\" x=\"14\" y=\"10\" width=\"6\" height=\"5\" rx=\"1\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  200
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "swing",
+                       "dur":  1400,
+                       "delay":  800,
+                       "origin":  "top"
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "water-taxi-boat",
+  "category": "maps",
+  "tags": ["water", "taxi", "boat", "ferry", "canopy", "harbor", "river"],
+  "svg": "<path class=\"d p1\" d=\"M3 15h18l-2.5 4.5h-13z\"/><path class=\"p2\" d=\"M5 10.5 7.5 6.5h9l2.5 4z\"/><path class=\"p3\" d=\"M12 6.5V3.5M12 3.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

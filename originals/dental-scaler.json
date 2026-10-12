@@ -1,0 +1,34 @@
+{
+  "name": "dental-scaler",
+  "category": "health",
+  "tags": [
+    "dental",
+    "scaler",
+    "dentist",
+    "teeth",
+    "tartar",
+    "hygiene",
+    "tool"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"14\" width=\"5\" height=\"6\" rx=\"2.5\" transform=\"rotate(45 6 17)\"/><path class=\"p2\" d=\"M8.5 14.5 14 9\"/><path class=\"p3\" d=\"M14 9l3-3c2-2 4.5.5 2.5 2.5L18 10.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 650
+    }
+  ]
+}

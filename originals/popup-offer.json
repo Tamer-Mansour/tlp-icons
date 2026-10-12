@@ -1,0 +1,11 @@
+{
+  "name": "popup-offer",
+  "category": "commerce",
+  "tags": ["popup", "offer", "discount", "percent", "browser", "promo", "sale"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M2 7.5h20\"/><circle class=\"d p3\" cx=\"17\" cy=\"15.5\" r=\"3.8\"/><path class=\"p3\" d=\"M15.4 17.6l3.2-3.2M15.4 13.8h.01M18.6 17.2h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500, "origin": "center" }
+  ]
+}

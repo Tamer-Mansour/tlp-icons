@@ -1,0 +1,11 @@
+{
+  "name": "rental-car-key",
+  "category": "maps",
+  "tags": ["rental", "car", "key", "hire", "vehicle", "pickup"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"15\" r=\"4\"/><path class=\"p2\" d=\"M11 12l9-9\"/><path class=\"p3\" d=\"M16 7l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fitting-curtain",
+  "category": "commerce",
+  "tags": ["fitting", "curtain", "changing room", "fitting room", "dressing room", "privacy", "try on"],
+  "svg": "<path class=\"p1\" d=\"M2.5 4h19\"/><path class=\"d p2\" d=\"M3.5 4.5h10v15.5c-1.67-1.2-3.33-1.2-5 0s-3.33 1.2-5 0z\"/><path class=\"p3\" d=\"M7.5 8v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

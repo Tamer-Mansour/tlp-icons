@@ -1,0 +1,26 @@
+{
+    "name":  "esophagus-tube",
+    "category":  "health",
+    "tags":  [
+                 "esophagus",
+                 "oesophagus",
+                 "throat",
+                 "stomach",
+                 "digestion"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M10 2v6\"/\u003e\u003cpath class=\"d p2\" d=\"M10 8c-4 1-6 4-5 8s5 6 9 5 5-5 3-8-4-1-4-5z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  400
+                   }
+               ]
+}

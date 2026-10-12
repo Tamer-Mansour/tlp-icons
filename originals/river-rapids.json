@@ -1,0 +1,19 @@
+{
+  "name": "river-rapids",
+  "category": "maps",
+  "tags": [
+    "river",
+    "rapids",
+    "wave",
+    "water",
+    "rocks",
+    "whitewater",
+    "current"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 21 7.5 14.5h5L16 21z\"/><path class=\"d p2\" d=\"M15 21l2-3.5h2.5L21 21z\"/><path class=\"p3\" d=\"M2 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 150 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "service-disruption-sign",
+  "category": "maps",
+  "tags": ["service", "disruption", "closed", "cross", "station", "sign", "transit", "suspended"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"6.5\"/><path class=\"p2\" d=\"M9 5.5l6 5M15 5.5l-6 5\"/><g class=\"p3\"><path d=\"M12 14.5V21\"/><path d=\"M8.5 21h7\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

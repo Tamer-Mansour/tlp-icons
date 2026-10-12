@@ -1,0 +1,11 @@
+{
+  "name": "digital-receipt-phone",
+  "category": "finance",
+  "tags": ["receipt", "digital", "phone", "mobile", "invoice", "payment", "app"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2.5\"/><rect class=\"p2\" x=\"8\" y=\"5\" width=\"8\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M10 8h4M10 10.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

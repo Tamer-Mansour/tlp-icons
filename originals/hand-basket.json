@@ -1,0 +1,11 @@
+{
+  "name": "hand-basket",
+  "category": "commerce",
+  "tags": ["basket", "hand", "carry", "shopping", "handle", "grocery"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18l-2.5 8h-13z\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 1 12 0\"/><path class=\"p3\" d=\"M9 14v4M15 14v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

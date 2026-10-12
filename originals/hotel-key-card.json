@@ -1,0 +1,11 @@
+{
+  "name": "hotel-key-card",
+  "category": "maps",
+  "tags": ["hotel", "keycard", "room", "key", "lock", "check-in", "access"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"8\" width=\"4\" height=\"3\" rx=\"0.5\"/><g class=\"p3\"><rect x=\"13\" y=\"12\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M14.5 12V10.5a1.5 1.5 0 0 1 3 0V12\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

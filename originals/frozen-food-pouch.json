@@ -1,0 +1,11 @@
+{
+  "name": "frozen-food-pouch",
+  "category": "commerce",
+  "tags": ["frozen", "food", "pouch", "snowflake", "freezer", "meal", "cold"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"13\" height=\"17\" rx=\"3\"/><path class=\"p2\" d=\"M2 8h13\"/><circle class=\"d p3\" cx=\"17\" cy=\"16\" r=\"4.5\"/><path class=\"p3\" d=\"M17 13.5v5M15.1 14.6l3.8 2.2M18.9 14.6l-3.8 2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500, "origin": "center" }
+  ]
+}

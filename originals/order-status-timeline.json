@@ -1,0 +1,13 @@
+{
+  "name": "order-status-timeline",
+  "category": "commerce",
+  "tags": ["order", "status", "timeline", "tracking", "progress", "checked", "delivery"],
+  "svg": "<path class=\"p1\" d=\"M12 6v4M12 14v3\"/><circle class=\"d p2\" cx=\"12\" cy=\"4\" r=\"2\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"d p4\" cx=\"12\" cy=\"19.5\" r=\"2.5\"/><path class=\"p5\" d=\"M10.6 19.5l1 1 1.9-1.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

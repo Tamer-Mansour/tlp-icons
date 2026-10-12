@@ -1,0 +1,10 @@
+{
+  "name": "character-bandage",
+  "category": "health",
+  "tags": ["bandage", "plaster", "wound", "dressing", "first aid", "adhesive"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"4.5\"/><polygon class=\"d p2\" points=\"12,8 13.06,10.54 15.8,10.76 13.71,12.56 14.35,15.24 12,13.8 9.65,15.24 10.29,12.56 8.2,10.76 10.94,10.54\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

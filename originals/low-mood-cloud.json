@@ -1,0 +1,12 @@
+{
+  "name": "low-mood-cloud",
+  "category": "health",
+  "tags": ["low mood", "cloud", "rain", "sad", "depression", "gloom", "mental health"],
+  "svg": "<path class=\"d p1\" d=\"M17.5 17H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z\"/><path class=\"p2\" d=\"M8 19.5v2\"/><path class=\"p3\" d=\"M12 19.5v2\"/><path class=\"p4\" d=\"M16 19.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

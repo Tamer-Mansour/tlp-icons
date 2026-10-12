@@ -1,0 +1,11 @@
+{
+  "name": "reroute-loop",
+  "category": "maps",
+  "tags": ["reroute", "loop", "route", "detour", "navigation", "recalculate"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"p2\" d=\"M7 15V9a5 5 0 0 1 10 0v5\"/><path class=\"p3\" d=\"m14.5 15.5 2.5 2.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

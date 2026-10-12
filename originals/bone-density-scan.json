@@ -1,0 +1,11 @@
+{
+  "name": "bone-density-scan",
+  "category": "health",
+  "tags": ["bone", "density", "scan", "osteoporosis", "xray", "skeleton", "dexa"],
+  "svg": "<path class=\"d p1\" d=\"M7 10h10v-1a2 2 0 0 1 4 0 2 2 0 0 1-2 2v4a2 2 0 0 1 2 2 2 2 0 0 1-4 0v-1H7v1a2 2 0 0 1-4 0 2 2 0 0 1 2-2v-4a2 2 0 0 1-2-2 2 2 0 0 1 4 0v1z\"/><path class=\"p2\" d=\"M10 10.5v5M14 10.5v5\"/><path class=\"p3\" d=\"M3 3.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

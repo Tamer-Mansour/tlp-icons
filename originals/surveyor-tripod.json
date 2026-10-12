@@ -1,0 +1,11 @@
+{
+  "name": "surveyor-tripod",
+  "category": "maps",
+  "tags": ["surveyor", "tripod", "level", "survey", "land", "measure", "construction"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M12 10l-6 11M12 10l6 11M12 10v11\"/><circle class=\"f p3\" cx=\"12\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

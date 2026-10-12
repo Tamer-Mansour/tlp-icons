@@ -1,0 +1,33 @@
+{
+  "name": "currency-exchange-travel",
+  "category": "maps",
+  "tags": [
+    "currency",
+    "exchange",
+    "travel",
+    "money",
+    "coins",
+    "swap"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"6\" r=\"3.5\"/><circle class=\"d p2\" cx=\"17\" cy=\"6\" r=\"3.5\"/><path class=\"p3\" d=\"M4 17h16M7 14l-3 3 3 3M17 14l3 3-3 3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

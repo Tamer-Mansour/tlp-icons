@@ -1,0 +1,34 @@
+{
+  "name": "rep-counter",
+  "category": "health",
+  "tags": [
+    "counter",
+    "tally",
+    "clicker",
+    "reps",
+    "count",
+    "exercise",
+    "display"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"7\" width=\"3.5\" height=\"10\" rx=\"1\"/><rect class=\"d p1\" x=\"17\" y=\"7\" width=\"3.5\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M7 12h10\"/><path class=\"p3\" d=\"M1.5 10v4M22.5 10v4\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 800
+    }
+  ]
+}

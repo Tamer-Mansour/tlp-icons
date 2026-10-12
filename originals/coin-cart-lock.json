@@ -1,0 +1,34 @@
+{
+    "name":  "coin-cart-lock",
+    "category":  "commerce",
+    "tags":  [
+                 "coin cart",
+                 "coin slot",
+                 "cart",
+                 "pay",
+                 "vending",
+                 "lock",
+                 "shopping"
+             ],
+    "svg":  "\u003cpath d=\"M2 3h2.5L8 15h9\"/\u003e\u003cpath class=\"d p1\" d=\"M6.5 11.5h13l-1.7 3.5H7.8z\"/\u003e\u003crect class=\"d p2\" x=\"15\" y=\"4.5\" width=\"7\" height=\"4.5\" rx=\"1\"/\u003e\u003cpath class=\"p2\" d=\"M16.5 4.5V3.5a2 2 0 0 1 4 0v1\"/\u003e\u003ccircle class=\"p3\" cx=\"9\" cy=\"19\" r=\"1.5\"/\u003e\u003ccircle class=\"p3\" cx=\"17\" cy=\"19\" r=\"1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  1200
+                   }
+               ]
+}

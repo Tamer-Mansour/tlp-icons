@@ -1,0 +1,20 @@
+{
+  "name": "north-arrow",
+  "category": "maps",
+  "tags": [
+    "north arrow",
+    "compass",
+    "north",
+    "direction",
+    "map",
+    "orientation",
+    "navigation"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"d p2\" d=\"M12 7 8.5 14H12z\"/><path class=\"p3\" d=\"M12 7l3.5 7H12\"/><path class=\"p4\" d=\"M12 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "grow", "dur": 500, "delay": 600 }
+  ]
+}

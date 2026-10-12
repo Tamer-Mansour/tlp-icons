@@ -1,0 +1,28 @@
+{
+  "name": "pet-scanner-ring",
+  "category": "health",
+  "tags": [
+    "pet",
+    "scanner",
+    "ring",
+    "tracer",
+    "imaging",
+    "scan",
+    "radiology"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><g class=\"p2\"><circle class=\"f\" cx=\"9\" cy=\"10\" r=\"1.5\"/><circle class=\"f\" cx=\"14.5\" cy=\"9.5\" r=\"1.5\"/><circle class=\"f\" cx=\"12\" cy=\"14.5\" r=\"1.5\"/><circle class=\"f\" cx=\"15.5\" cy=\"14\" r=\"1.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "twinkle",
+      "dur": 1400,
+      "delay": 500
+    }
+  ]
+}

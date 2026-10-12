@@ -1,0 +1,33 @@
+{
+    "name":  "eyeglasses-case",
+    "category":  "commerce",
+    "tags":  [
+                 "eyeglasses",
+                 "glasses",
+                 "case",
+                 "spectacles",
+                 "optician",
+                 "eyewear"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"6.5\" cy=\"14\" r=\"3.5\"/\u003e\u003ccircle class=\"d p2\" cx=\"17.5\" cy=\"14\" r=\"3.5\"/\u003e\u003cpath class=\"p3\" d=\"M10 14h4M3 14L5 7M21 14l-2-7\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  150
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  500
+                   }
+               ]
+}

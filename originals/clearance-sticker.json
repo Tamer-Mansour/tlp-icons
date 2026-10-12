@@ -1,0 +1,33 @@
+{
+  "name": "clearance-sticker",
+  "category": "commerce",
+  "tags": [
+    "clearance",
+    "sticker",
+    "sale",
+    "discount",
+    "round",
+    "slash"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 16l8-8\"/><circle class=\"p3 f\" cx=\"9\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

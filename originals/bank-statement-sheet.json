@@ -1,0 +1,34 @@
+{
+  "name": "bank-statement-sheet",
+  "category": "finance",
+  "tags": [
+    "bank",
+    "statement",
+    "sheet",
+    "account",
+    "record",
+    "report",
+    "finance"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><g class=\"p2\"><path d=\"M7.5 10 12 6.5l4.5 3.5z\"/><path d=\"M9.5 11.5v3M12 11.5v3M14.5 11.5v3\"/><path d=\"M7.5 16h9\"/></g><path class=\"p3\" d=\"M8.5 19.5h7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "iv-cannula",
+    "category":  "health",
+    "tags":  [
+                 "iv",
+                 "cannula",
+                 "catheter",
+                 "needle",
+                 "drip",
+                 "hospital"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M2 12h8\"/\u003e\u003crect class=\"d p2\" x=\"10\" y=\"8\" width=\"6\" height=\"8\" rx=\"2\"/\u003e\u003cpath class=\"p3\" d=\"M16 12h6M13 8V4h4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  700
+                   }
+               ]
+}

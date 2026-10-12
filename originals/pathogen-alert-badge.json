@@ -1,0 +1,11 @@
+{
+  "name": "pathogen-alert-badge",
+  "category": "health",
+  "tags": ["pathogen", "germ", "alert", "warning", "infection", "bacteria"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.8 21.5 20H2.5z\"/><circle class=\"p2\" cx=\"12\" cy=\"13.8\" r=\"2.2\"/><path class=\"p3\" d=\"M12 11.6V9.6M9.8 13.8H7.8M14.2 13.8h2M12 16v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

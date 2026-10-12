@@ -1,0 +1,18 @@
+{
+  "name": "expired-coupon",
+  "category": "commerce",
+  "tags": [
+    "coupon",
+    "expired",
+    "voucher",
+    "discount",
+    "offer",
+    "void"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7 10h6M7 13.5h4\"/><path class=\"p3\" d=\"M4 20 20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "card-blocked-shield",
+  "category": "finance",
+  "tags": [
+    "card",
+    "blocked",
+    "shield",
+    "frozen",
+    "security",
+    "bank"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M2 7h16\"/><g class=\"p3\"><path class=\"d\" d=\"M17 13.5l3.5 1.2v2.6c0 2.1-1.4 3.4-3.5 4.2-2.1-.8-3.5-2.1-3.5-4.2v-2.6z\"/><path d=\"M15.2 17.6h3.6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

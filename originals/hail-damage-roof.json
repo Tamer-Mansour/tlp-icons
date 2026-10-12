@@ -1,0 +1,19 @@
+{
+  "name": "hail-damage-roof",
+  "category": "finance",
+  "tags": [
+    "hail",
+    "damage",
+    "roof",
+    "storm",
+    "insurance",
+    "house",
+    "weather"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 12.5 12 4.5l9 8\"/><path class=\"d p2\" d=\"M6 10.5V20a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-9.5\"/><g class=\"p3\"><circle cx=\"4\" cy=\"7\" r=\"2\"/><circle cx=\"9\" cy=\"3\" r=\"2\"/><circle cx=\"17\" cy=\"3\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

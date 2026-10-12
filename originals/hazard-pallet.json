@@ -1,0 +1,19 @@
+{
+  "name": "hazard-pallet",
+  "category": "commerce",
+  "tags": [
+    "pallet",
+    "hazard",
+    "warning",
+    "cargo",
+    "warehouse",
+    "dangerous",
+    "freight"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M12 4.5 14.5 7 12 9.5 9.5 7z\"/><path class=\"p3\" d=\"M3 16h18M5 16v5h14v-5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

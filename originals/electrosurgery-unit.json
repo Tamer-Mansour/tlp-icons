@@ -1,0 +1,34 @@
+{
+    "name":  "electrosurgery-unit",
+    "category":  "health",
+    "tags":  [
+                 "electrosurgery",
+                 "surgery",
+                 "cautery",
+                 "generator",
+                 "pedal",
+                 "operating",
+                 "unit"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"13\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M13 7l-3 4h4l-3 4\"/\u003e\u003cpath class=\"p3\" d=\"M8 21h8\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "growX",
+                       "part":  "p3",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  700,
+                       "anim":  "flicker",
+                       "part":  "p2",
+                       "dur":  900
+                   }
+               ]
+}

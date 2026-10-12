@@ -1,0 +1,29 @@
+{
+    "name":  "carabiner-clip",
+    "category":  "maps",
+    "tags":  [
+                 "carabiner",
+                 "clip",
+                 "climbing",
+                 "hook",
+                 "ring",
+                 "gate",
+                 "hardware"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M10 3h3a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5h-3z\"/\u003e\u003cpath class=\"p2\" d=\"M10 3 6 7v10l4 4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "swingIn",
+                       "dur":  600,
+                       "delay":  500,
+                       "origin":  "10px 3px"
+                   }
+               ]
+}

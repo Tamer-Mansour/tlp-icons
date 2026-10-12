@@ -1,0 +1,11 @@
+{
+  "name": "handheld-pos",
+  "category": "finance",
+  "tags": ["pos", "terminal", "card", "payment", "handheld", "keypad", "checkout", "reader"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2.5\"/><rect class=\"p2\" x=\"8.5\" y=\"5\" width=\"7\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 13.5h.01M14.5 13.5h.01M9.5 17.5h.01M14.5 17.5h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 500 }
+  ]
+}

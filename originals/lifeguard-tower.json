@@ -1,0 +1,19 @@
+{
+  "name": "lifeguard-tower",
+  "category": "maps",
+  "tags": [
+    "lifeguard",
+    "tower",
+    "beach",
+    "rescue",
+    "chair",
+    "buoy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 10V5h8v5\"/><path class=\"p3\" d=\"M6 13l-2 8M12 13l2 8\"/><circle class=\"p4\" cx=\"19\" cy=\"15\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

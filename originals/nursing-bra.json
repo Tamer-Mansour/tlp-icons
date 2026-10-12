@@ -1,0 +1,11 @@
+{
+  "name": "nursing-bra",
+  "category": "health",
+  "tags": ["nursing", "bra", "breastfeeding", "maternity", "lactation", "clasp"],
+  "svg": "<path class=\"d p1\" d=\"M12 8.5C9.5 6 4.5 6 3.5 9.5 2.5 13 5 16.5 8 16.5c2.5 0 4-2 4-4 0 2 1.5 4 4 4 3 0 5.5-3.5 4.5-7C19.5 6 14.5 6 12 8.5z\"/><path class=\"p2\" d=\"M8 6.5 6 3M16 6.5 18 3\"/><path class=\"p3\" d=\"M10 11h4M10 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

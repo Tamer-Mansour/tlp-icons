@@ -1,0 +1,11 @@
+{
+  "name": "empty-cart-state",
+  "category": "commerce",
+  "tags": ["empty", "cart", "shopping", "basket", "vacant", "dashed"],
+  "svg": "<path class=\"p1\" d=\"M3 4h2.2l2.3 10h9.8\"/><path class=\"p2\" d=\"M6.5 8h2.5M11 8h2.5M15.5 8h2.5M19.5 8h.5\"/><circle class=\"p3\" cx=\"9\" cy=\"19\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

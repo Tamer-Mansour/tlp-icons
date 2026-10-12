@@ -1,0 +1,11 @@
+{
+  "name": "smart-pill-dispenser",
+  "category": "health",
+  "tags": ["pill", "dispenser", "organizer", "medication", "timer", "reminder", "light"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"4\" y=\"3\" width=\"16\" height=\"4\" rx=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "stock-transfer",
+  "category": "commerce",
+  "tags": ["stock", "transfer", "inventory", "move", "warehouse", "boxes", "shipment"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"5\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M2 12h5\"/><rect class=\"d p3\" x=\"17\" y=\"9\" width=\"5\" height=\"9\" rx=\"1\"/><path class=\"p4\" d=\"M17 12h5\"/><path class=\"p5\" d=\"M10 12h3.5M11.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p5", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

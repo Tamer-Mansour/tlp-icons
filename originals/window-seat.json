@@ -1,0 +1,27 @@
+{
+  "name": "window-seat",
+  "category": "maps",
+  "tags": [
+    "window seat",
+    "airplane",
+    "flight",
+    "window",
+    "seat",
+    "travel"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"8\"/><path class=\"p2\" d=\"M9 8h6M9 12h6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "slideIn",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

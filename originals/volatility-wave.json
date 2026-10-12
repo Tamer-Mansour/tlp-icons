@@ -1,0 +1,28 @@
+{
+  "name": "volatility-wave",
+  "category": "finance",
+  "tags": [
+    "volatility",
+    "zigzag",
+    "swing",
+    "market",
+    "coin",
+    "price",
+    "fluctuation"
+  ],
+  "svg": "<polyline class=\"p1\" points=\"2,18 6,11 10,15 14,8 18,12 22,7\"/><circle class=\"d p2\" cx=\"14\" cy=\"4.5\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

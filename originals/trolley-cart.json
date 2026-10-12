@@ -1,0 +1,19 @@
+{
+  "name": "trolley-cart",
+  "category": "commerce",
+  "tags": [
+    "trolley",
+    "cart",
+    "shopping",
+    "basket",
+    "grocery",
+    "supermarket"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5.5 6.5H21l-2 7.5H7.5z\"/><path class=\"p2\" d=\"M2 3h2.5l2.5 13h11\"/><path class=\"p3\" d=\"M6.7 10.5h12.6\"/><circle class=\"p4\" cx=\"8.5\" cy=\"20\" r=\"1.6\"/><circle class=\"p4\" cx=\"17.5\" cy=\"20\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

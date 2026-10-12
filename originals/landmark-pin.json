@@ -1,0 +1,10 @@
+{
+  "name": "landmark-pin",
+  "category": "maps",
+  "tags": ["landmark", "map", "pin", "tower", "location", "monument", "sight"],
+  "svg": "<path class=\"d p1\" d=\"M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z\"/><g class=\"p2\"><path d=\"M10 12.5V8.5h4v4\"/><path d=\"M9.5 8.5 12 6l2.5 2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 450 }
+  ]
+}

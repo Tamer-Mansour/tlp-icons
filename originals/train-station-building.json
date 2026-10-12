@@ -1,0 +1,34 @@
+{
+    "name":  "train-station-building",
+    "category":  "maps",
+    "tags":  [
+                 "train",
+                 "station",
+                 "railway",
+                 "clock",
+                 "depot",
+                 "transit",
+                 "timetable"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M2 10L12 3l10 7z\"/\u003e\u003cpath class=\"p2\" d=\"M5 10v11h14V10\"/\u003e\u003ccircle class=\"p3\" cx=\"12\" cy=\"15.5\" r=\"3\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  200,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  700,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  500
+                   }
+               ]
+}

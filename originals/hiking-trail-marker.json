@@ -1,0 +1,11 @@
+{
+  "name": "hiking-trail-marker",
+  "category": "maps",
+  "tags": ["hiking", "trail", "marker", "signpost", "arrow", "hike", "path"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h12l4 3-4 3H4z\"/><path class=\"p2\" d=\"M12 10v11\"/><path class=\"p3\" d=\"M7 21h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

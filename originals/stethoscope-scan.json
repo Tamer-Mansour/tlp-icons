@@ -1,0 +1,12 @@
+{
+  "name": "stethoscope-scan",
+  "category": "health",
+  "tags": ["stethoscope", "scan", "check", "exam", "doctor", "screening", "diagnosis", "heart"],
+  "svg": "<path class=\"p1\" d=\"M6 2v5a5 5 0 0 0 10 0V2M4 2h4M16 2h4\"/><path class=\"p2\" d=\"M11 12v2a4 4 0 0 0 8 0v-2\"/><circle class=\"d p3\" cx=\"19\" cy=\"10\" r=\"2\"/><path class=\"p4\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

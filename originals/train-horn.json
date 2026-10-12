@@ -1,0 +1,10 @@
+{
+  "name": "train-horn",
+  "category": "maps",
+  "tags": ["train", "horn", "whistle", "locomotive", "alarm", "rail", "loud", "sound"],
+  "svg": "<path class=\"d p1\" d=\"M2 9h4l7-4v14l-7-4H2z\"/><path class=\"p2\" d=\"M17 9v6M21.5 6v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1200, "delay": 500 }
+  ]
+}

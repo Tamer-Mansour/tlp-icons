@@ -1,0 +1,12 @@
+{
+  "name": "yurt-camp",
+  "category": "maps",
+  "tags": ["yurt", "tent", "camp", "round", "dome", "shelter", "glamping"],
+  "svg": "<path class=\"d p1\" d=\"M2 13Q12 2 22 13z\"/><path class=\"p2\" d=\"M4.5 12.5V20h15v-7.5\"/><path class=\"p3\" d=\"M10 20v-3.5a2 2 0 0 1 4 0V20\"/><rect class=\"p4\" x=\"10.5\" y=\"4.5\" width=\"3\" height=\"2.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

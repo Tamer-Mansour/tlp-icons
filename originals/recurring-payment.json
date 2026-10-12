@@ -1,0 +1,33 @@
+{
+    "name":  "recurring-payment",
+    "category":  "finance",
+    "tags":  [
+                 "recurring",
+                 "payment",
+                 "subscription",
+                 "repeat",
+                 "billing",
+                 "coin"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M20 12a8 8 0 0 0-14-5.3L4 9M4 4v5h5\"/\u003e\u003cpath class=\"p3\" d=\"M4 12a8 8 0 0 0 14 5.3L20 15M20 20v-5h-5\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  600,
+                       "anim":  "draw",
+                       "part":  "p3",
+                       "dur":  800
+                   }
+               ]
+}

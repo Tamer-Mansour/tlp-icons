@@ -1,0 +1,19 @@
+{
+  "name": "subscription-renewal",
+  "category": "finance",
+  "tags": [
+    "subscription",
+    "renewal",
+    "recurring",
+    "calendar",
+    "card",
+    "payment"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h20\"/><path class=\"p4\" d=\"M7.5 12.5a2.5 2.5 0 1 1-.7 1.8\"/><path class=\"p3\" d=\"M14 14h5M14 17h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "spin", "dur": 1000, "delay": 800, "origin": "7.5px 15px" }
+  ]
+}

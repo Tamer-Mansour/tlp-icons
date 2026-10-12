@@ -1,0 +1,10 @@
+{
+  "name": "staff-pick-badge",
+  "category": "commerce",
+  "tags": ["staff pick", "badge", "favorite", "recommended", "heart", "label"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 16.5 8.2 12.8C6.8 11.4 7 9.4 8.4 8.6c1.2-.7 2.6-.3 3.6.9 1-1.2 2.4-1.6 3.6-.9 1.4.8 1.6 2.8.2 4.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 900, "delay": 500 }
+  ]
+}

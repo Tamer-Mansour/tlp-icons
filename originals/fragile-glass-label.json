@@ -1,0 +1,39 @@
+{
+  "name": "fragile-glass-label",
+  "category": "commerce",
+  "tags": [
+    "fragile",
+    "glass",
+    "handle",
+    "careful",
+    "breakable",
+    "warning"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 3h10l-1 7a4 4 0 0 1-8 0z\"/><path class=\"p2\" d=\"M12 14v5M8 21h8\"/><path class=\"p3\" d=\"M10.5 6.5l1.5 1.5-1 1.5\"/><g class=\"p4\"><circle class=\"d\" cx=\"18\" cy=\"17\" r=\"4\"/><path d=\"M18 14.8v3.4\"/><path d=\"M18 20.2h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

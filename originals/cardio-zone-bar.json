@@ -1,0 +1,19 @@
+{
+  "name": "cardio-zone-bar",
+  "category": "health",
+  "tags": [
+    "heart rate",
+    "zones",
+    "cardio",
+    "training",
+    "fitness",
+    "intensity",
+    "pulse"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"5\" height=\"10\" rx=\"1.5\"/><rect class=\"d p2\" x=\"9.5\" y=\"7\" width=\"5\" height=\"10\" rx=\"1.5\"/><rect class=\"d p3\" x=\"17\" y=\"7\" width=\"5\" height=\"10\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

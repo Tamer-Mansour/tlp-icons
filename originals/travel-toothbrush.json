@@ -1,0 +1,33 @@
+{
+  "name": "travel-toothbrush",
+  "category": "health",
+  "tags": [
+    "toothbrush",
+    "travel",
+    "dental",
+    "case",
+    "oral care",
+    "brush"
+  ],
+  "svg": "<rect class=\"p2\" x=\"10.5\" y=\"2\" width=\"3\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M12 6v8\"/><rect class=\"d p1\" x=\"6\" y=\"13.5\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M10 17.5h4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

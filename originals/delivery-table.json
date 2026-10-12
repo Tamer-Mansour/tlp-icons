@@ -1,0 +1,33 @@
+{
+  "name": "delivery-table",
+  "category": "health",
+  "tags": [
+    "delivery",
+    "birth",
+    "labor",
+    "table",
+    "obstetric",
+    "maternity"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"12\" width=\"14\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M8 12 3 6.5\"/><path class=\"p3\" d=\"M10 16v5M20 16v5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "grow",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

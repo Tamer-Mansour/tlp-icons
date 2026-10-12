@@ -1,0 +1,11 @@
+{
+  "name": "money-market-fund",
+  "category": "finance",
+  "tags": ["money market", "fund", "storefront", "shop", "cash", "savings", "investment"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5 4.5 4h15l1.5 5.5a3 3 0 0 0-6 0 3 3 0 0 0-6 0 3 3 0 0 0-6 0z\"/><path class=\"p2\" d=\"M5 13.5V21h14v-7.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

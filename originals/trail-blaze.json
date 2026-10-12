@@ -1,0 +1,28 @@
+{
+  "name": "trail-blaze",
+  "category": "maps",
+  "tags": [
+    "trail",
+    "blaze",
+    "marker",
+    "hiking",
+    "tree",
+    "path",
+    "forest"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2.5\" width=\"8\" height=\"19\" rx=\"3\"/><path class=\"p2\" d=\"M12 9v5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 600
+    }
+  ]
+}

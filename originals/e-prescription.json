@@ -1,0 +1,19 @@
+{
+  "name": "e-prescription",
+  "category": "health",
+  "tags": [
+    "prescription",
+    "rx",
+    "phone",
+    "digital",
+    "doctor",
+    "medicine",
+    "pharmacy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2.5\"/><path class=\"p3\" d=\"M11 5h2\"/><path class=\"p2\" d=\"M8.5 16.5v-5h1.75a1.25 1.25 0 0 1 0 2.5H8.5M10.5 14l1.75 2.5M13.5 11.5l2 5M15.5 11.5l-2 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

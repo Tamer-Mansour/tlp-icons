@@ -1,0 +1,12 @@
+{
+  "name": "buoy-channel-marker",
+  "category": "maps",
+  "tags": ["buoy", "marker", "channel", "water", "navigation", "sea", "waves"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 14.5V9.5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v5z\"/><path class=\"p2\" d=\"M12 2.5v6\"/><path class=\"p4\" d=\"M7.5 11.5h9\"/><path class=\"p3\" d=\"M2 18c1.67-1.5 3.33-1.5 5 0s3.33 1.5 5 0 3.33-1.5 5 0 3.33 1.5 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

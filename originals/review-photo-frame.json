@@ -1,0 +1,11 @@
+{
+  "name": "review-photo-frame",
+  "category": "commerce",
+  "tags": ["review", "photo", "frame", "rating", "star", "customer", "picture"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 17l4-4 3 3 2-2 3 3\"/><polygon class=\"p3\" points=\"17.5,5.2 18.2,6.6 19.7,6.8 18.6,7.9 18.9,9.4 17.5,8.7 16.1,9.4 16.4,7.9 15.3,6.8 16.8,6.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 250 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

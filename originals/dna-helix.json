@@ -1,0 +1,18 @@
+{
+  "name": "dna-helix",
+  "category": "health",
+  "tags": [
+    "dna",
+    "helix",
+    "genetics",
+    "gene",
+    "base pair",
+    "genome"
+  ],
+  "svg": "<path class=\"p1\" d=\"M7 3c0 4 10 5 10 9s-10 5-10 9\"/><path class=\"p2\" d=\"M17 3c0 4-10 5-10 9s10 5 10 9\"/><path class=\"p3\" d=\"M7 12h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 150 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 800 }
+  ]
+}

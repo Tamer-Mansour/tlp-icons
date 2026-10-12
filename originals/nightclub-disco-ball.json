@@ -1,0 +1,11 @@
+{
+  "name": "nightclub-disco-ball",
+  "category": "maps",
+  "tags": ["disco", "ball", "nightclub", "club", "party", "dance", "mirror"],
+  "svg": "<path class=\"p1\" d=\"M3 2h18M12 2v3\"/><circle class=\"d p2\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p3\" d=\"M5.5 13h13M9 7.5l1.5 11M13.5 7.5l-1.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

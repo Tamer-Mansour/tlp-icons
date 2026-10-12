@@ -1,0 +1,29 @@
+{
+  "name": "kayak-paddle",
+  "category": "maps",
+  "tags": [
+    "kayak",
+    "paddle",
+    "canoe",
+    "boat",
+    "water",
+    "paddling",
+    "outdoor"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 14c3-3.5 15-3.5 18 0-3 3.5-15 3.5-18 0z\"/><path class=\"p2\" d=\"M5 3l4 3M15 18l4 3M7 4.5l10 15\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "swing",
+      "dur": 1100,
+      "delay": 500,
+      "origin": "12px 12px"
+    }
+  ]
+}

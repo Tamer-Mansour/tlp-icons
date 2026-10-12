@@ -1,0 +1,11 @@
+{
+  "name": "summit-peak-flag",
+  "category": "maps",
+  "tags": ["summit", "peak", "flag", "mountain", "top", "hike", "climb"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20 9 9l4 5.5 2.5-3.5L21.5 20z\"/><path class=\"p2\" d=\"M9 9V2.5\"/><path class=\"p3\" d=\"M9 2.5h7l-2 2.25 2 2.25H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 1400, "delay": 800 }
+  ]
+}

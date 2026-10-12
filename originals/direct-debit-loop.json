@@ -1,0 +1,40 @@
+{
+    "name":  "direct-debit-loop",
+    "category":  "finance",
+    "tags":  [
+                 "direct",
+                 "debit",
+                 "loop",
+                 "bank",
+                 "recurring",
+                 "payment",
+                 "mandate"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M20 12a8 8 0 1 1-2.3-5.7\"/\u003e\u003cpath class=\"p2\" d=\"M20 3v4h-4\"/\u003e\u003cpath class=\"d p3\" d=\"M8 11.5l4-3 4 3z\"/\u003e\u003cpath class=\"p4\" d=\"M9.5 14v3M14.5 14v3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  600
+                   }
+               ]
+}

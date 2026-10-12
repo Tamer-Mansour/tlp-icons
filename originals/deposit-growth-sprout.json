@@ -1,0 +1,11 @@
+{
+  "name": "deposit-growth-sprout",
+  "category": "finance",
+  "tags": ["deposit", "growth", "sprout", "savings", "coin", "interest", "invest"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"5.5\"/><path class=\"p2\" d=\"M12 9.5V5\"/><path class=\"p3\" d=\"M12 7.5C10 5 8 4.5 6 5.5c1.5 2.5 4 2.5 6 2M12 5.5C13 3 15 2.5 17.5 3c-.5 2.5-2 3.5-5.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

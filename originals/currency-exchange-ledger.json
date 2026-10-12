@@ -1,0 +1,33 @@
+{
+  "name": "currency-exchange-ledger",
+  "category": "finance",
+  "tags": [
+    "currency",
+    "exchange",
+    "forex",
+    "ledger",
+    "swap",
+    "coins"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"5\"/><circle class=\"d p2\" cx=\"17\" cy=\"17\" r=\"5\"/><g class=\"p3\"><path d=\"M15 5h6M19 3l2 2-2 2\"/><path d=\"M9 19H3M5 17l-2 2 2 2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

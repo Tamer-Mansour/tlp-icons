@@ -1,0 +1,11 @@
+{
+  "name": "water-purification-tablet",
+  "category": "health",
+  "tags": ["water", "purification", "tablet", "purify", "drop", "disinfect", "pill"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M5.5 10h9\"/><path class=\"d p3\" d=\"M18 14.5c-1.5 2-2.5 3.2-2.5 4.4a2.5 2.5 0 0 0 5 0c0-1.2-1-2.4-2.5-4.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

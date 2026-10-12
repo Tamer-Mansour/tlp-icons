@@ -1,0 +1,19 @@
+{
+  "name": "night-light",
+  "category": "health",
+  "tags": [
+    "night light",
+    "moon",
+    "glow",
+    "nightlight",
+    "bedroom",
+    "lamp",
+    "sleep"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M14.5 5.5a6 6 0 1 0 4 9.5 5 5 0 0 1-4-9.5z\"/><circle class=\"p3\" cx=\"12\" cy=\"10\" r=\"8.5\"/><path class=\"p4\" d=\"M10 20.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 200 }
+  ]
+}

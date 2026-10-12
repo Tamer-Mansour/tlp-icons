@@ -1,0 +1,11 @@
+{
+  "name": "coupon-scissors-ticket",
+  "category": "commerce",
+  "tags": ["coupon", "ticket", "discount", "voucher", "scissors", "cut out", "promo"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"12\" height=\"10\" rx=\"2\"/><g class=\"p2\"><path d=\"M10 7v2M10 11v2\"/></g><g class=\"p3\"><path d=\"M16.8 18.2l2.7-4.7M20.6 18.2l-2.7-4.7\"/><circle cx=\"16\" cy=\"19.8\" r=\"1.6\"/><circle cx=\"21\" cy=\"19.8\" r=\"1.6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 900 }
+  ]
+}

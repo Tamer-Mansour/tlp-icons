@@ -1,0 +1,10 @@
+{
+  "name": "mountain-switchback-road",
+  "category": "maps",
+  "tags": ["mountain", "road", "switchback", "zigzag", "climb", "pass", "drive"],
+  "svg": "<path class=\"d p1\" d=\"M2 20.5 9.5 6.5 13 11.5 15 9 22 20.5z\"/><path class=\"p2\" d=\"M8 20.5l6-3-4.5-2.5 4.5-2.5-3-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1200, "delay": 400 }
+  ]
+}

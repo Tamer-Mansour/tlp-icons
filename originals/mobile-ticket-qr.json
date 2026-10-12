@@ -1,0 +1,11 @@
+{
+  "name": "mobile-ticket-qr",
+  "category": "maps",
+  "tags": ["ticket", "mobile", "qr", "code", "phone", "boarding pass", "scan"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M9 7h6v6H9z\"/><path class=\"p3\" d=\"M9 17.5h.01M12.5 17.5h.01M15 17.5h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

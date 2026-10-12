@@ -1,0 +1,18 @@
+{
+  "name": "theater-curtain",
+  "category": "maps",
+  "tags": [
+    "theater",
+    "curtain",
+    "stage",
+    "drama",
+    "show",
+    "performance"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2.5 4.5h5v13.5q-2.5.8-5 0z\"/><path class=\"d p1\" d=\"M21.5 4.5h-5v13.5q2.5.8 5 0z\"/><path class=\"p2\" d=\"M2.5 4.5h19\"/><path class=\"p3\" d=\"M2 20.5h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

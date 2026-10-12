@@ -1,0 +1,11 @@
+{
+  "name": "quantity-stepper-pill",
+  "category": "commerce",
+  "tags": ["quantity", "stepper", "counter", "plus", "minus", "cart"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6.5\" width=\"20\" height=\"11\" rx=\"5.5\"/><path class=\"p2\" d=\"M5.5 12h3.5M17 12h3.5M18.75 10.25v3.5\"/><path class=\"p3\" d=\"M11 10 12.5 9v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

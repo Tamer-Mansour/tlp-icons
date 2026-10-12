@@ -1,0 +1,19 @@
+{
+  "name": "iron-gauge-bar",
+  "category": "health",
+  "tags": [
+    "iron",
+    "gauge",
+    "level",
+    "bar",
+    "anemia",
+    "blood",
+    "measure"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"19\" height=\"8\" rx=\"3\"/><path class=\"p2\" d=\"M12.5 2.5h3L14 5z\"/><path class=\"p3\" d=\"M5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

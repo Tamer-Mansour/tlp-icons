@@ -1,0 +1,11 @@
+{
+  "name": "cream-jar",
+  "category": "health",
+  "tags": ["cream", "jar", "lotion", "ointment", "skin care", "moisturiser", "salve"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5.5 13v5.5A2.5 2.5 0 0 0 8 21h8a2.5 2.5 0 0 0 2.5-2.5V13\"/><path class=\"p3\" d=\"M6 10c0-3 1.8-4.6 3.8-3.8 1-2.6 5.2-2.6 6.2.2 1.9-.6 3.2.9 3.2 3.6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 600 }
+  ]
+}

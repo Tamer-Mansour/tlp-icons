@@ -1,0 +1,27 @@
+{
+    "name":  "guesthouse-door",
+    "category":  "maps",
+    "tags":  [
+                 "guesthouse",
+                 "door",
+                 "welcome",
+                 "house",
+                 "lodging",
+                 "stay"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 11l9-8 9 8v10H3z\"/\u003e\u003cpath class=\"p2\" d=\"M10 21v-6a2 2 0 0 1 4 0v6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  400
+                   }
+               ]
+}

@@ -1,0 +1,35 @@
+{
+    "name":  "zipline-course",
+    "category":  "maps",
+    "tags":  [
+                 "zipline",
+                 "adventure",
+                 "cable",
+                 "pulley",
+                 "course",
+                 "park",
+                 "activity"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M4 3v18M4 6l17 7\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"9.5\" r=\"1.5\"/\u003e\u003cg class=\"p3\"\u003e\u003cpath d=\"M12 11v3\"/\u003e\u003ccircle class=\"d\" cx=\"12\" cy=\"16.5\" r=\"2.5\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "spin",
+                       "dur":  800,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "sway",
+                       "dur":  1200,
+                       "delay":  1000,
+                       "origin":  "12px 11px"
+                   }
+               ]
+}

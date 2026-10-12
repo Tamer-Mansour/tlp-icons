@@ -1,0 +1,11 @@
+{
+  "name": "glaucoma-pressure",
+  "category": "health",
+  "tags": ["glaucoma", "eye", "pressure", "intraocular", "vision", "optic", "ophthalmology"],
+  "svg": "<path class=\"d p1\" d=\"M5 13.5c2-2.5 4.4-3.5 7-3.5s5 1 7 3.5c-2 2.5-4.4 3.5-7 3.5s-5-1-7-3.5z\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"2\"/><path class=\"p3\" d=\"M12 2.5v4M9.8 4.5 12 6.5l2.2-2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 700 }
+  ]
+}

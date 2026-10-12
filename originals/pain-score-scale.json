@@ -1,0 +1,10 @@
+{
+  "name": "pain-score-scale",
+  "category": "health",
+  "tags": ["pain", "score", "scale", "face", "rating", "level", "wong", "assessment"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 9l2 1M16 9l-2 1M8.5 16.5a4.5 4 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

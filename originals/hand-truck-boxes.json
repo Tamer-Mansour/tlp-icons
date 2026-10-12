@@ -1,0 +1,11 @@
+{
+  "name": "hand-truck-boxes",
+  "category": "commerce",
+  "tags": ["hand truck", "dolly", "boxes", "cart", "delivery", "moving", "freight"],
+  "svg": "<path class=\"p3\" d=\"M4 3h5M6.5 3v15M3 18.5h7\"/><circle class=\"p3\" cx=\"9\" cy=\"20.5\" r=\"1.5\"/><rect class=\"d p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 600 }
+  ]
+}

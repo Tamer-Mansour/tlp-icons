@@ -1,0 +1,11 @@
+{
+  "name": "lead-level-test",
+  "category": "health",
+  "tags": ["lead", "test", "blood", "level", "tube", "screening", "metal"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"15\" width=\"9\" height=\"5\" rx=\"1.2\"/><path class=\"p2\" d=\"M14 3h8M15 3v11a3 3 0 0 0 6 0V3\"/><path class=\"p3\" d=\"M15 11h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

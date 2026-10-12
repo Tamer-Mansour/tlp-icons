@@ -1,0 +1,35 @@
+{
+  "name": "night-deposit-box",
+  "category": "finance",
+  "tags": [
+    "night",
+    "deposit",
+    "box",
+    "slot",
+    "bank",
+    "after hours",
+    "drop",
+    "moon"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"15\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M7 14h7\"/><path class=\"p3\" d=\"M20 3a4 4 0 1 0 2 6 5 5 0 0 1-2-6z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "twinkle",
+      "dur": 1000,
+      "delay": 900
+    }
+  ]
+}

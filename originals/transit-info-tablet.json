@@ -1,0 +1,18 @@
+{
+  "name": "transit-info-tablet",
+  "category": "maps",
+  "tags": [
+    "transit",
+    "tablet",
+    "route",
+    "map",
+    "directions",
+    "info"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8 16.5l2.5-2.5 2.5 2 3-4\"/><path class=\"p3\" d=\"M10.5 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

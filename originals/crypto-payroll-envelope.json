@@ -1,0 +1,11 @@
+{
+  "name": "crypto-payroll-envelope",
+  "category": "finance",
+  "tags": ["crypto", "payroll", "envelope", "salary", "coin", "pay"],
+  "svg": "<circle class=\"p3\" cx=\"15.5\" cy=\"5\" r=\"3.5\"/><rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M2 10l10 6 10-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "peek", "dur": 1000, "delay": 800 }
+  ]
+}

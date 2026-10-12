@@ -1,0 +1,19 @@
+{
+  "name": "tick-remover",
+  "category": "health",
+  "tags": [
+    "tick",
+    "remover",
+    "tweezers",
+    "insect",
+    "bite",
+    "parasite",
+    "removal"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"4.5\" ry=\"6\"/><path class=\"p2\" d=\"M9.5 2.5 12 6.5 14.5 2.5\"/><path class=\"p3\" d=\"M7.5 15H4M16.5 15H20M8 19 5.5 21M16 19l2.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

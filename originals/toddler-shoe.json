@@ -1,0 +1,19 @@
+{
+  "name": "toddler-shoe",
+  "category": "health",
+  "tags": [
+    "toddler",
+    "shoe",
+    "baby shoe",
+    "high top",
+    "laces",
+    "child",
+    "footwear"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 3h6v8.5l8.5 2.8c.9.3 1.5 1.1 1.5 2V17H5z\"/><rect class=\"p2\" x=\"3\" y=\"17\" width=\"18\" height=\"3\" rx=\"1.5\"/><path class=\"p3\" d=\"M7.5 6.5l2 1.2M7.5 9.7l2.5 1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

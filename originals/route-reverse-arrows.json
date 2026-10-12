@@ -1,0 +1,10 @@
+{
+  "name": "route-reverse-arrows",
+  "category": "maps",
+  "tags": ["route", "reverse", "arrows", "directions", "opposite", "swap", "return"],
+  "svg": "<g class=\"p1\"><path d=\"M4 8h15\"/><path d=\"m15 4 4 4-4 4\"/></g><g class=\"p2\"><path d=\"M20 16H5\"/><path d=\"m9 12-4 4 4 4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

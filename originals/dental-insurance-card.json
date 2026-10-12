@@ -1,0 +1,11 @@
+{
+  "name": "dental-insurance-card",
+  "category": "health",
+  "tags": ["dental", "insurance", "card", "tooth", "coverage", "teeth", "policy", "member"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6 10h5M6 14h4\"/><path class=\"d p3\" d=\"M15 10.5c0-1.2.9-2 2-2h.5c.4 0 .8-.6 1.5-.6s1.1.6 1.5.6H21c1.1 0 2 .8 2 2 0 1.8-.7 4.5-1.4 5-.5.4-.8-1.3-1.5-1.3-.8 0-1 1.8-1.6 1.8-.7 0-1.1-2.7-1.5-4.5-.2-.8-.5-.8-.8-.8s-.6 0-.8.8c-.4 1.8-.8 4.5-1.5 4.5-.6 0-.8-1.8-1.6-1.8-.7 0-1 1.7-1.5 1.3-.7-.5-1.4-3.2-1.4-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

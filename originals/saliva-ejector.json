@@ -1,0 +1,19 @@
+{
+  "name": "saliva-ejector",
+  "category": "health",
+  "tags": [
+    "saliva ejector",
+    "dental",
+    "suction",
+    "tube",
+    "dentist",
+    "water",
+    "drop"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"3\" width=\"4\" height=\"11\" rx=\"1\"/><path class=\"d p2\" d=\"M8 14h8l-2 6h-4z\"/><path class=\"d p3\" d=\"M19 4c-1.5 2-2 3-2 4a2 2 0 0 0 4 0c0-1-.5-2-2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cart-child-seat",
+  "category": "commerce",
+  "tags": [
+    "cart",
+    "child",
+    "seat",
+    "baby",
+    "booster",
+    "shopping"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 3h2l2.6 11.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L22 7H6\"/><path class=\"p2\" d=\"M9 2.5v6h5.5\"/><g class=\"p3\"><circle cx=\"9\" cy=\"20\" r=\"1.5\"/><circle cx=\"18\" cy=\"20\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

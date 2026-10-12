@@ -1,0 +1,13 @@
+{
+  "name": "room-availability-sign",
+  "category": "maps",
+  "tags": ["room", "vacancy", "available", "hotel", "bed", "sign", "check"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"19\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 7v6h12v-3\"/><path class=\"p3\" d=\"M8 15v6\"/><circle class=\"d p4\" cx=\"18\" cy=\"18\" r=\"3.5\"/><path class=\"p5\" d=\"M16.3 18.2l1.2 1.2 2.2-2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

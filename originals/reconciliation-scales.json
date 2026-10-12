@@ -1,0 +1,33 @@
+{
+  "name": "reconciliation-scales",
+  "category": "finance",
+  "tags": [
+    "reconciliation",
+    "balance",
+    "scales",
+    "receipts",
+    "accounting",
+    "audit"
+  ],
+  "svg": "<path class=\"p1\" d=\"M4 7h16M12 4v17M8 21h8\"/><path class=\"d p2\" d=\"M4 7v4M2 11h4v6l-1-1-1 1-1-1-1 1z\"/><path class=\"d p3\" d=\"M20 7v4M18 11h4v6l-1-1-1 1-1-1-1 1z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 600
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

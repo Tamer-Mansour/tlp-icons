@@ -1,0 +1,34 @@
+{
+  "name": "payment-link-chain",
+  "category": "finance",
+  "tags": [
+    "payment",
+    "link",
+    "chain",
+    "coin",
+    "transfer",
+    "pay link",
+    "connect"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"7\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"14.5\" y=\"14.5\" width=\"7\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M9.6 9.6A3.4 1.6 45 0 1 14.4 14.4A3.4 1.6 45 0 1 9.6 9.6z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

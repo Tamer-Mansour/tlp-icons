@@ -1,0 +1,11 @@
+{
+  "name": "edema-swelling",
+  "category": "health",
+  "tags": ["edema", "swelling", "oedema", "leg", "ankle", "fluid"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h6v8l2 4.5v2H7.5v-2L8 11z\"/><path class=\"p2\" d=\"M5 15.5c0-1.5 1.5-2.5 3-2.5h7.5c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5H8c-1.5 0-3-1-3-2.5z\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400, "origin": "center" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

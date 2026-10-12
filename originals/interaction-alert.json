@@ -1,0 +1,20 @@
+{
+  "name": "interaction-alert",
+  "category": "health",
+  "tags": [
+    "interaction",
+    "drug",
+    "pills",
+    "warning",
+    "alert",
+    "medication",
+    "conflict"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"10\" height=\"4\" rx=\"2\"/><rect class=\"d p2\" x=\"2\" y=\"11\" width=\"10\" height=\"4\" rx=\"2\"/><path class=\"d p3\" d=\"M17 11l5 9H12z\"/><path class=\"p4\" d=\"M17 14.5v2.5M17 18.3h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "flicker", "dur": 600, "delay": 1000 }
+  ]
+}

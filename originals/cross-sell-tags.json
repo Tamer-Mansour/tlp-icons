@@ -1,0 +1,33 @@
+{
+    "name":  "cross-sell-tags",
+    "category":  "commerce",
+    "tags":  [
+                 "cross-sell",
+                 "tags",
+                 "upsell",
+                 "bundle",
+                 "retail",
+                 "labels"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 4h8l9 9-7 7-9-9z\"/\u003e\u003ccircle class=\"p2\" cx=\"7.5\" cy=\"8.5\" r=\"1.2\"/\u003e\u003cpath class=\"p3\" d=\"M13 11v4M11 13h4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  800
+                   }
+               ]
+}

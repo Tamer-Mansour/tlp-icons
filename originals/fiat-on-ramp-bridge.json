@@ -1,0 +1,33 @@
+{
+    "name":  "fiat-on-ramp-bridge",
+    "category":  "finance",
+    "tags":  [
+                 "fiat",
+                 "on-ramp",
+                 "bridge",
+                 "coin",
+                 "crypto",
+                 "convert"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"3.5\"/\u003e\u003cpath class=\"p2\" d=\"M2 20h20\"/\u003e\u003cpath class=\"p3\" d=\"M5 20a7 7 0 0 1 14 0\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  250
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "dropIn",
+                       "dur":  800,
+                       "delay":  700
+                   }
+               ]
+}

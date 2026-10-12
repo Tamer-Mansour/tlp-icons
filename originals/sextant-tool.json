@@ -1,0 +1,11 @@
+{
+  "name": "sextant-tool",
+  "category": "maps",
+  "tags": ["sextant", "navigation", "sailing", "arc", "sighting", "nautical", "instrument"],
+  "svg": "<path class=\"d p1\" d=\"M3 17a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 17l5-11\"/><circle class=\"p3\" cx=\"12\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

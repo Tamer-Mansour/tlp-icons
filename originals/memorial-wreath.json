@@ -1,0 +1,10 @@
+{
+  "name": "memorial-wreath",
+  "category": "maps",
+  "tags": ["memorial", "wreath", "remembrance", "funeral", "honor", "ribbon"],
+  "svg": "<path class=\"p1\" d=\"M12 18a8 8 0 0 1-5.5-13.8M12 18a8 8 0 0 0 5.5-13.8\"/><path class=\"d p2\" d=\"M12 18l-3.5 3.5M12 18l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

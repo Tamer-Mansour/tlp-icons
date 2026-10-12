@@ -1,0 +1,10 @@
+{
+  "name": "hand-bones",
+  "category": "health",
+  "tags": ["hand", "bones", "skeleton", "fracture", "orthopedic", "wrist", "anatomy"],
+  "svg": "<g transform=\"translate(-0.4 0)\"><path class=\"d p1\" d=\"M8 21 L6.2 15.2 L3.2 11.6 Q2.4 10.5 3.4 9.6 Q4.4 8.9 5.3 10 L8 13.2 V6.2 A1.6 1.6 0 0 1 11.2 6.2 V10.5 V4.6 A1.6 1.6 0 0 1 14.4 4.6 V10.5 V6.6 A1.6 1.6 0 0 1 17.6 6.6 V11.2 V8.6 A1.4 1.4 0 0 1 20.4 8.6 V15.5 Q20.4 21 14 21 Z\"/><g class=\"p2\"><path d=\"M10 13.5 13 16.5\"/><circle cx=\"9.5\" cy=\"13\" r=\"1.5\"/><circle cx=\"13.5\" cy=\"17\" r=\"1.5\"/></g></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

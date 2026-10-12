@@ -1,0 +1,11 @@
+{
+  "name": "layer-two-stack",
+  "category": "finance",
+  "tags": ["layer two", "stack", "scaling", "blockchain", "network", "chain"],
+  "svg": "<path class=\"d p1\" d=\"M12 9 3 11.5l9 2.5 9-2.5z\"/><g class=\"p2\"><path d=\"M3 15.5l9 2.5 9-2.5\"/><path d=\"M3 19.5l9 2.5 9-2.5\"/></g><rect class=\"p3\" x=\"6.5\" y=\"2.5\" width=\"11\" height=\"3.5\" rx=\"1.75\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 800 }
+  ]
+}

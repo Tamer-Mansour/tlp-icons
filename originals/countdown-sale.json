@@ -1,0 +1,11 @@
+{
+  "name": "countdown-sale",
+  "category": "commerce",
+  "tags": ["countdown", "sale", "timer", "clock", "limited", "deal", "offer"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M10 10.5v3.5l2.5 2\"/><path class=\"d p3\" d=\"M16 2h6v6l-6 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 500, "origin": "10px 14px" },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "16px 2px" }
+  ]
+}

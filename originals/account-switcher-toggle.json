@@ -1,0 +1,19 @@
+{
+  "name": "account-switcher-toggle",
+  "category": "finance",
+  "tags": [
+    "account",
+    "switch",
+    "toggle",
+    "profile",
+    "multiple",
+    "card"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"10\" height=\"6\" rx=\"1.5\"/><rect class=\"p2\" x=\"2\" y=\"13\" width=\"10\" height=\"6\" rx=\"1.5\"/><rect class=\"p3\" x=\"15\" y=\"9\" width=\"7\" height=\"6\" rx=\"3\"/><circle class=\"d p4\" cx=\"19\" cy=\"12\" r=\"2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

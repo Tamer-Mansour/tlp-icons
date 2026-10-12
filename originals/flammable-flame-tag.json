@@ -1,0 +1,29 @@
+{
+    "name":  "flammable-flame-tag",
+    "category":  "commerce",
+    "tags":  [
+                 "flammable",
+                 "flame",
+                 "hazard",
+                 "container",
+                 "warning",
+                 "fire",
+                 "shipping",
+                 "label"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M12 3c1 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-4 3-6 1 1 1 2 1.5 2.5C11 8 11 5 12 3z\"/\u003e\u003cpath class=\"p2\" d=\"M12 20a2.5 2.5 0 0 1-2.5-2.5c0-1.5 1.5-2 2.5-3.5 1 1.5 2.5 2 2.5 3.5A2.5 2.5 0 0 1 12 20z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "flicker",
+                       "dur":  900,
+                       "delay":  600
+                   }
+               ]
+}

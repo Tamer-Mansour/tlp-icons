@@ -1,0 +1,7 @@
+{
+  "name": "tennis-court",
+  "category": "maps",
+  "tags": ["tennis", "court", "sport", "net", "field", "pitch", "racket"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"9\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M14.5 14 20 20\"/><circle class=\"p3\" cx=\"19\" cy=\"5\" r=\"2\"/>",
+  "motion": [{ "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },{ "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },{ "part": "p3", "anim": "hop", "dur": 800, "delay": 900 }]
+}

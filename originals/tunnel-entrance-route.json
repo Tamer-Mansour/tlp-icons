@@ -1,0 +1,11 @@
+{
+  "name": "tunnel-entrance-route",
+  "category": "maps",
+  "tags": ["tunnel", "entrance", "route", "road", "arch", "mountain", "passage"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V11a9 9 0 0 1 18 0v10z\"/><path class=\"p2\" d=\"M7 21v-7a5 5 0 0 1 10 0v7\"/><path class=\"p3\" d=\"M12 21v-5M10 18l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 1000 }
+  ]
+}

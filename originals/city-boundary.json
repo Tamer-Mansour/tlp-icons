@@ -1,0 +1,11 @@
+{
+  "name": "city-boundary",
+  "category": "maps",
+  "tags": ["city", "boundary", "limits", "town", "border", "municipal", "buildings", "map"],
+  "svg": "<polygon class=\"d p1\" points=\"3 6 9 3 15 6 21 3 21 21 3 21\"/><path class=\"p2\" d=\"M7 17V8h4v9M11 11h4v6\"/><path class=\"p3\" d=\"M6 17h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sla-stopwatch-check",
+  "category": "commerce",
+  "tags": ["sla", "stopwatch", "check", "on time", "deadline", "service level"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"8\"/><path class=\"p2\" d=\"M8.5 13.5l2.5 2.5 4.5-4.5\"/><path class=\"p3\" d=\"M10 2.5h4M12 2.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "potty-chair",
+  "category": "health",
+  "tags": [
+    "potty",
+    "toilet",
+    "toddler",
+    "training",
+    "child",
+    "seat",
+    "baby"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16v2a8 6 0 0 1-16 0z\"/><path class=\"p2\" d=\"M3 9h18\"/><path class=\"p3\" d=\"M19 9V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "singing-bowl",
+  "category": "health",
+  "tags": [
+    "singing bowl",
+    "meditation",
+    "mallet",
+    "sound bath",
+    "relax",
+    "mindfulness",
+    "chime"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 4-4 6-9 6s-9-2-9-6z\"/><path class=\"p2\" d=\"M8 20.5h8\"/><path d=\"M17.3 6.8 21 10.5\" class=\"p4\"/><circle class=\"d p3\" cx=\"15.5\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1100 }
+  ]
+}

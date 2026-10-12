@@ -1,0 +1,33 @@
+{
+  "name": "nitrous-mask",
+  "category": "health",
+  "tags": [
+    "nitrous",
+    "nasal mask",
+    "gas mask",
+    "sedation",
+    "dental",
+    "anesthesia"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 9.5q5-3 10 0V12a4.5 4.5 0 0 1-4.5 4.5h-1A4.5 4.5 0 0 1 7 12z\"/><path class=\"p2\" d=\"M12 16.5V19a2 2 0 0 0 2 2h5\"/><path class=\"p3\" d=\"M3.5 11H7M17 11h3.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 600
+    }
+  ]
+}

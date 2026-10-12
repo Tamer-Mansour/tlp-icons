@@ -1,0 +1,18 @@
+{
+  "name": "tent-pitch",
+  "category": "maps",
+  "tags": [
+    "tent",
+    "camp",
+    "camping",
+    "pitch",
+    "outdoor",
+    "hiking"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 17 12 4l9 13z\"/><path class=\"p2\" d=\"M10.5 17 12 13.5 13.5 17\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

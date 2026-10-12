@@ -1,0 +1,34 @@
+{
+  "name": "contactless-terminal",
+  "category": "commerce",
+  "tags": [
+    "contactless",
+    "terminal",
+    "payment",
+    "tap",
+    "card",
+    "pos",
+    "nfc"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 8h10\"/><g class=\"p3\"><path d=\"M16.2 9.75a3.5 3.5 0 0 1 0 4.5\"/><path d=\"M18.5 7.8a6.5 6.5 0 0 1 0 8.4\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1200,
+      "delay": 800
+    }
+  ]
+}

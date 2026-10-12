@@ -1,0 +1,34 @@
+{
+  "name": "lane-closure-cone",
+  "category": "maps",
+  "tags": [
+    "cone",
+    "lane",
+    "closure",
+    "traffic",
+    "roadworks",
+    "closed",
+    "detour"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M10.5 4h3L18 20H6z\"/><path class=\"p2\" d=\"M8.5 13h7\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

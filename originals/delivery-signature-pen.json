@@ -1,0 +1,11 @@
+{
+  "name": "delivery-signature-pen",
+  "category": "commerce",
+  "tags": ["delivery", "signature", "sign", "stylus", "pen", "courier", "receipt", "screen"],
+  "svg": "<path class=\"d p1\" d=\"M14.5 2.5 19 7l-7.5 7.5L7 10z\"/><rect class=\"d p2\" x=\"2\" y=\"14\" width=\"12\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M5 17.5c1.2-2 2.3 2 3.5 0s2.3-2 3.5 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p1", "anim": "tap", "dur": 800, "delay": 1000 }
+  ]
+}

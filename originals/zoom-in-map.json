@@ -1,0 +1,19 @@
+{
+  "name": "zoom-in-map",
+  "category": "maps",
+  "tags": [
+    "zoom",
+    "map",
+    "magnify",
+    "plus",
+    "navigate",
+    "location",
+    "search"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><path class=\"p2\" d=\"M9 4v14\"/><g class=\"p3\"><circle cx=\"15\" cy=\"14\" r=\"4\"/><path d=\"M17.8 16.8 21 20M15 12.5v3M13.5 14h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

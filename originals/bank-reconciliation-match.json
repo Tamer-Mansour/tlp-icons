@@ -1,0 +1,11 @@
+{
+  "name": "bank-reconciliation-match",
+  "category": "finance",
+  "tags": ["reconciliation", "bank", "match", "ledger", "check", "audit", "balance"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"11\" height=\"4\" rx=\"1\"/><rect class=\"d p1\" x=\"2.5\" y=\"16\" width=\"11\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M13.5 6H15v10h-1.5\"/><path class=\"p3\" d=\"M15 12h1.5l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

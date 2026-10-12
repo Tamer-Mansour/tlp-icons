@@ -1,0 +1,11 @@
+{
+  "name": "capnography-trace",
+  "category": "health",
+  "tags": ["capnography", "co2", "trace", "waveform", "breath", "monitor", "anesthesia", "respiratory"],
+  "svg": "<polyline class=\"p1\" points=\"2,13 6,13 7.5,5 10,5 11.5,13 13,13\"/><rect class=\"d p2\" x=\"13\" y=\"15\" width=\"8.5\" height=\"6.5\" rx=\"2\"/><g class=\"p3\"><path d=\"M15.9 16.1a1.1 1.1 0 1 0 0 2.2\"/><circle cx=\"17.7\" cy=\"17.2\" r=\"1.2\"/><path d=\"M19.4 16.5a.9.9 0 0 1 1.8 0l-1.8 2.2h1.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 1200 }
+  ]
+}

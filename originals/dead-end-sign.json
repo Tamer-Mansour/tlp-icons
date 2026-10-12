@@ -1,0 +1,28 @@
+{
+  "name": "dead-end-sign",
+  "category": "maps",
+  "tags": [
+    "dead end",
+    "road",
+    "stop",
+    "barrier",
+    "closed",
+    "traffic",
+    "no exit"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M12 9v12M8 21h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 400
+    }
+  ]
+}

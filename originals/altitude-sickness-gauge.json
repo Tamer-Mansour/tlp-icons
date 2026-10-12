@@ -1,0 +1,11 @@
+{
+  "name": "altitude-sickness-gauge",
+  "category": "health",
+  "tags": ["altitude", "sickness", "mountain", "gauge", "hypoxia", "elevation", "climbing"],
+  "svg": "<path class=\"d p1\" d=\"M2 21L8 10l4 7z\"/><circle class=\"d p2\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p3\" d=\"M18 17l2-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 800, "origin": "18px 17px" }
+  ]
+}

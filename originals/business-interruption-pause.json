@@ -1,0 +1,11 @@
+{
+  "name": "business-interruption-pause",
+  "category": "finance",
+  "tags": ["business", "interruption", "pause", "closed", "shop", "insurance", "suspended"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h11v10H3z\"/><path class=\"p2\" d=\"M2 10l2-6h9l2 6\"/><path class=\"p3\" d=\"M18 11v8M21.5 11v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

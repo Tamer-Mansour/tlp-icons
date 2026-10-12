@@ -1,0 +1,11 @@
+{
+  "name": "pet-food-bag-paw",
+  "category": "commerce",
+  "tags": ["pet food", "bag", "paw", "dog food", "cat food", "pet shop", "animal"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"9\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M4.5 8V6a2.5 2.5 0 0 1 5 0v2\"/><g class=\"p3\"><circle class=\"d\" cx=\"18\" cy=\"17\" r=\"5\"/><ellipse cx=\"18\" cy=\"18.4\" rx=\"2.2\" ry=\"1.7\"/><circle class=\"f\" cx=\"15.4\" cy=\"14.6\" r=\"1\"/><circle class=\"f\" cx=\"18\" cy=\"13.4\" r=\"1\"/><circle class=\"f\" cx=\"20.6\" cy=\"14.6\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

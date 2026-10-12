@@ -23,7 +23,8 @@ test('tlp-icons package: no full JSON, has runtime, types and licenses', { timeo
   assert.equal(pkg.peerDependenciesMeta?.react?.optional, true, 'react must be an optional peer dependency');
   assert.ok(!pkg.dependencies, 'tlp-icons has no runtime dependencies');
   assert.ok(!files.includes('dist/tlp-icons.all.js'), 'the offline bundle ships in tlp-icons-data');
-  assert.ok(info.unpackedSize < 3 * 1024 * 1024, `unpacked size ${(info.unpackedSize / 1048576).toFixed(2)} MB must stay under 3 MB`);
+  // the per-category icon chunks grow with the icon count (~0.33 KB per icon unpacked)
+  assert.ok(info.unpackedSize < 5 * 1024 * 1024, `unpacked size ${(info.unpackedSize / 1048576).toFixed(2)} MB must stay under 5 MB`);
   for (const f of ['dist/core.js.map', 'dist/element.js.map', 'dist/tlp-icon.js.map']) assert.ok(files.includes(f), `${f} missing`);
 });
 
@@ -64,7 +65,7 @@ test('minified dist keeps the license banner and source maps resolve', async () 
   assert.ok(fsMod.readFileSync(pathMod.join(dist, 'tlp-icons.css'), 'utf8').startsWith('/* tlp-icons'), 'css banner');
   const report = JSON.parse(fsMod.readFileSync(pathMod.join(dist, 'size-report.json'), 'utf8'));
   assert.deepEqual(report.failures, []);
-  assert.ok(report.rows[0].gzip < 8 * 1024 && report.rows[1].gzip < 15 * 1024);
+  assert.ok(report.rows[0].gzip < 8 * 1024 && report.rows[1].gzip < 20 * 1024);
 });
 
 test('tlp-icons-data package: the JSON, its types and licenses, same version as tlp-icons', { timeout: 120000 }, () => {

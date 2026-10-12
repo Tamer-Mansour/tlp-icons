@@ -1,0 +1,33 @@
+{
+  "name": "aquarium-tank",
+  "category": "maps",
+  "tags": [
+    "aquarium",
+    "fish tank",
+    "fish",
+    "water",
+    "wave",
+    "marine"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M3 11q2.25-1.5 4.5 0t4.5 0 4.5 0 4.5 0\"/><g class=\"p3\"><ellipse cx=\"15\" cy=\"15\" rx=\"2.5\" ry=\"1.5\"/><path d=\"M17.5 15 19.5 13.5v3z\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "sway",
+      "dur": 1200,
+      "delay": 900
+    }
+  ]
+}

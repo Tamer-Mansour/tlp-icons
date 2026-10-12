@@ -1,0 +1,21 @@
+{
+  "name": "pathogen-microscope",
+  "category": "health",
+  "tags": [
+    "microscope",
+    "pathogen",
+    "germ",
+    "bacteria",
+    "lab",
+    "virus",
+    "specimen"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 21h17\"/><rect class=\"d p2\" x=\"11\" y=\"2\" width=\"4\" height=\"8\" rx=\"1.5\"/><path class=\"p4\" d=\"M15 10h1a4 4 0 0 1 4 4v7\"/><path class=\"p5\" d=\"M4 14h9\"/><g class=\"p3\"><path d=\"M7 4.5V8M2 11h2M10 11h2\"/><circle class=\"d\" cx=\"7\" cy=\"11\" r=\"3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

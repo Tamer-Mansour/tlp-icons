@@ -1,0 +1,19 @@
+{
+  "name": "bird-watching-tower",
+  "category": "maps",
+  "tags": [
+    "tower",
+    "observation",
+    "bird watching",
+    "lookout",
+    "wooden",
+    "viewpoint",
+    "nature"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 7.5 12 3l9 4.5z\"/><path class=\"p2\" d=\"M5 10.5h14v3H5z\"/><path class=\"p3\" d=\"M7.5 13.5 5.5 21M16.5 13.5l2 7.5M12 13.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "bedside-monitor",
+  "category": "health",
+  "tags": [
+    "monitor",
+    "vitals",
+    "ecg",
+    "heartbeat",
+    "bedside",
+    "hospital"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M12 17v3M8 21h8\"/><polyline class=\"p3\" points=\"5 11 8 11 9.5 8 11 14 13 9 14.5 11 19 11\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 1000,
+      "delay": 600
+    }
+  ]
+}

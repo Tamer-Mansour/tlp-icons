@@ -1,0 +1,34 @@
+{
+  "name": "pregnancy-test-stick",
+  "category": "health",
+  "tags": [
+    "pregnancy",
+    "test",
+    "stick",
+    "result",
+    "home test",
+    "fertility",
+    "pharmacy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"2\" width=\"7\" height=\"20\" rx=\"1\"/><g class=\"p2\"><rect x=\"10\" y=\"5\" width=\"4\" height=\"7\" rx=\"0.5\"/><path d=\"M10.5 7.5h3M10.5 9.5h3\"/></g><path class=\"p3\" d=\"M8.5 17.5h7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

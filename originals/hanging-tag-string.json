@@ -1,0 +1,11 @@
+{
+  "name": "hanging-tag-string",
+  "category": "commerce",
+  "tags": ["price tag", "string tag", "label", "hang tag", "product", "retail", "sale"],
+  "svg": "<path class=\"d p1\" d=\"M3 11.5 9.5 4.5h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-9z\"/><circle class=\"p2\" cx=\"16\" cy=\"11.5\" r=\"1.5\"/><path class=\"p3\" d=\"M16 10V6.5C16 3.5 13 2.5 11 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

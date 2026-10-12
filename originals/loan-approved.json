@@ -1,0 +1,34 @@
+{
+  "name": "loan-approved",
+  "category": "finance",
+  "tags": [
+    "loan",
+    "approved",
+    "approval",
+    "check",
+    "mortgage",
+    "credit",
+    "coin"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"13\" height=\"17\" rx=\"2\"/><path d=\"M7 6.5h6\"/><path class=\"p2\" d=\"M7 11.5l2.5 2.5 4.5-4.5\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"17.5\" r=\"4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 900
+    }
+  ]
+}

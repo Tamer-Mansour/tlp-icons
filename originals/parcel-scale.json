@@ -1,0 +1,11 @@
+{
+  "name": "parcel-scale",
+  "category": "commerce",
+  "tags": ["scale", "parcel", "postage", "weigh", "shipping", "box", "digital"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"15\" width=\"16\" height=\"6\" rx=\"2\"/><rect class=\"d p2\" x=\"7\" y=\"6\" width=\"10\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M12 6v9\"/><path class=\"p3\" d=\"M8.5 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

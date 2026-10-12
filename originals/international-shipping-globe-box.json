@@ -1,0 +1,11 @@
+{
+  "name": "international-shipping-globe-box",
+  "category": "commerce",
+  "tags": ["international", "shipping", "globe", "box", "package", "delivery", "worldwide"],
+  "svg": "<path class=\"d p1\" d=\"M3 7l9-4.5L21 7v10l-9 4.5L3 17z\"/><path class=\"p2\" d=\"M3 7l9 5 9-5\"/><g class=\"p3\"><circle cx=\"12\" cy=\"16.8\" r=\"2.2\"/><ellipse cx=\"12\" cy=\"16.8\" rx=\"1\" ry=\"2.2\"/><path d=\"M9.8 16.8h4.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

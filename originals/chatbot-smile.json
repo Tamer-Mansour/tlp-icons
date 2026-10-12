@@ -1,0 +1,40 @@
+{
+  "name": "chatbot-smile",
+  "category": "commerce",
+  "tags": [
+    "chatbot",
+    "robot",
+    "assistant",
+    "bot",
+    "smile",
+    "support",
+    "chat"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"16\" height=\"12\" rx=\"3\"/><g class=\"p2\"><path d=\"M12 7V5.5\"/><circle cx=\"12\" cy=\"3.5\" r=\"1.5\"/></g><path class=\"p3\" d=\"M9 11.5h.01M15 11.5h.01\"/><path class=\"p4\" d=\"M9.5 15.5q2.5 2 5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 800
+    },
+    {
+      "part": "p2",
+      "anim": "wiggle",
+      "dur": 900,
+      "delay": 1100
+    }
+  ]
+}

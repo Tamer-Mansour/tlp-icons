@@ -1,0 +1,19 @@
+{
+  "name": "percent-off-tag",
+  "category": "commerce",
+  "tags": [
+    "percent",
+    "discount",
+    "off",
+    "tag",
+    "sale",
+    "price",
+    "offer"
+  ],
+  "svg": "<polygon class=\"d p1\" points=\"3,11 11,3 21,3 21,13 13,21\"/><g class=\"p2\"><circle cx=\"11\" cy=\"9\" r=\"1.5\"/><circle cx=\"16\" cy=\"14\" r=\"1.5\"/></g><path class=\"p3\" d=\"M16 7.5 11 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

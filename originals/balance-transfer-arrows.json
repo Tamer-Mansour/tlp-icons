@@ -1,0 +1,18 @@
+{
+  "name": "balance-transfer-arrows",
+  "category": "finance",
+  "tags": [
+    "balance transfer",
+    "card",
+    "transfer",
+    "debt",
+    "credit card",
+    "move"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"6\" height=\"10\" rx=\"1.5\"/><rect class=\"d p2\" x=\"16\" y=\"7\" width=\"6\" height=\"10\" rx=\"1.5\"/><path class=\"p3\" d=\"M9.5 12h4M11.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "exposure-alert-bell",
+  "category": "health",
+  "tags": ["exposure", "alert", "bell", "notification", "warning", "contact", "exclamation"],
+  "svg": "<path class=\"d p1\" d=\"M5 15V10a5 5 0 0 1 10 0v5l1.5 1.5h-13z\"/><path class=\"p2\" d=\"M9.5 20h3\"/><g class=\"p3\"><circle class=\"d\" cx=\"18.5\" cy=\"17.5\" r=\"3.2\"/><path d=\"M18.5 15.6v2.6M18.5 20.1h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

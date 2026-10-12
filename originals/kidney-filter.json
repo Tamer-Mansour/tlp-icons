@@ -1,0 +1,19 @@
+{
+  "name": "kidney-filter",
+  "category": "health",
+  "tags": [
+    "kidney",
+    "filter",
+    "dialysis",
+    "renal",
+    "funnel",
+    "organ",
+    "urine"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 4C4.5 4 3 7 3 11.5S5.5 20 9 20c2 0 3.5-3 3.5-7C12.5 13 10.5 8 10 6 9.5 4.8 8.8 4 8 4z\"/><path class=\"p2\" d=\"M14.5 4h7l-2.6 3.8v4.7h-1.8V7.8z\"/><path class=\"p3\" d=\"M18 15.5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

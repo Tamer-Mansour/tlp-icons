@@ -1,0 +1,11 @@
+{
+  "name": "pharmacy-sign",
+  "category": "health",
+  "tags": ["pharmacy", "sign", "cross", "chemist", "drugstore", "medicine", "stand"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6v3h3v6h-3v3H9v-3H6V6h3z\"/><path class=\"p2\" d=\"M12 15v6\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

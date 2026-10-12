@@ -1,0 +1,36 @@
+{
+  "name": "open-interest-stack",
+  "category": "finance",
+  "tags": [
+    "open interest",
+    "contracts",
+    "derivatives",
+    "stack",
+    "futures",
+    "count"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"8\" height=\"5\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"12\" height=\"5\" rx=\"1.5\"/><rect class=\"d p3\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 0,
+      "origin": "left"
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 300,
+      "origin": "left"
+    },
+    {
+      "part": "p1",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 600,
+      "origin": "left"
+    }
+  ]
+}

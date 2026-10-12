@@ -1,0 +1,33 @@
+{
+  "name": "customer-id-card",
+  "category": "commerce",
+  "tags": [
+    "id card",
+    "customer",
+    "identity",
+    "membership",
+    "user",
+    "card"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><g class=\"p2\"><circle cx=\"8\" cy=\"9\" r=\"2\"/><path d=\"M5 17a3 3 0 0 1 6 0\"/></g><path class=\"p3\" d=\"M14 10h4M14 14h3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

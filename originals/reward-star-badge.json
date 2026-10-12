@@ -1,0 +1,34 @@
+{
+  "name": "reward-star-badge",
+  "category": "commerce",
+  "tags": [
+    "reward",
+    "star",
+    "badge",
+    "award",
+    "loyalty",
+    "ribbon",
+    "prize"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9.5\" r=\"5.5\"/><polygon class=\"p2\" points=\"12 6.5 12.7 8.5 14.85 8.5 13.1 9.8 13.8 11.9 12 10.6 10.2 11.9 10.9 9.8 9.15 8.5 11.3 8.5\"/><path class=\"p3\" d=\"M9 14.5 7.5 21l2-1.1 1.5 1.1 1-5.4M15 14.5l1.5 6.5-2-1.1-1.5 1.1-1-5.4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

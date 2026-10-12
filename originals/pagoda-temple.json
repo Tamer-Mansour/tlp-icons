@@ -1,0 +1,12 @@
+{
+  "name": "pagoda-temple",
+  "category": "maps",
+  "tags": ["pagoda", "temple", "asia", "shrine", "tower", "landmark"],
+  "svg": "<path class=\"d p1\" d=\"M3 7 7 4h10l4 3z\"/><path class=\"d p2\" d=\"M5 14 8 11h8l3 3z\"/><path class=\"d p3\" d=\"M7 21l3-3h4l3 3z\"/><path class=\"p4\" d=\"M12 2v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

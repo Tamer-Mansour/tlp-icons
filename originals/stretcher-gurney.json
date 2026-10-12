@@ -1,0 +1,12 @@
+{
+  "name": "stretcher-gurney",
+  "category": "health",
+  "tags": ["stretcher", "gurney", "bed", "patient", "trolley", "hospital", "emergency"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8.5\" width=\"18\" height=\"3.5\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 12v6.5M17 12v6.5M5 15.5h14\"/><circle class=\"p3\" cx=\"7\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p4\" cx=\"17\" cy=\"19.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 700 },
+    { "part": "p4", "anim": "rollIn", "dur": 800, "delay": 700 }
+  ]
+}

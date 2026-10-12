@@ -1,0 +1,11 @@
+{
+  "name": "ointment-tube",
+  "category": "health",
+  "tags": ["ointment", "tube", "cream", "salve", "squeeze", "medicine", "topical"],
+  "svg": "<rect class=\"p2\" x=\"8\" y=\"4\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"d p1\" d=\"M7 8h10v10a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3z\"/><path class=\"p3\" d=\"M10 4a2 2 0 0 1 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 800, "origin": "bottom" }
+  ]
+}

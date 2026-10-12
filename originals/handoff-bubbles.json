@@ -1,0 +1,11 @@
+{
+  "name": "handoff-bubbles",
+  "category": "commerce",
+  "tags": ["handoff", "bubbles", "chat", "message", "transfer", "conversation"],
+  "svg": "<path class=\"d p1\" d=\"M2 5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H6l-3 3v-3H4a2 2 0 0 1-2-2z\"/><path class=\"d p2\" d=\"M11 15a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v2l-2.5-2H13a2 2 0 0 1-2-2z\"/><g class=\"p3\"><path d=\"M15 5.5q4-2.5 5 2.5\"/><polyline points=\"18.5 6.8 20 8.2 21.5 6.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

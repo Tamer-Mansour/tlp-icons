@@ -1,0 +1,11 @@
+{
+  "name": "bedside-lamp",
+  "category": "health",
+  "tags": ["lamp", "bedside", "light", "dimmer", "bedroom", "night", "reading"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6l4 7H5z\"/><path class=\"p2\" d=\"M12 10v11M8 21h8\"/><circle class=\"f p3\" cx=\"18\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

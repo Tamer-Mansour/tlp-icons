@@ -1,0 +1,11 @@
+{
+  "name": "payslip",
+  "category": "finance",
+  "tags": ["payslip", "salary", "pay stub", "wages", "payroll", "document", "earnings"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"18.5\" rx=\"2\"/><circle class=\"p2\" cx=\"8.5\" cy=\"7.5\" r=\"2.5\"/><path class=\"p3\" d=\"M8 12.5h8M8 16.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

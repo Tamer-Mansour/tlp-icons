@@ -1,0 +1,12 @@
+{
+  "name": "breakfast-tray",
+  "category": "maps",
+  "tags": ["breakfast", "tray", "room service", "meal", "cover", "hotel", "food"],
+  "svg": "<path class=\"d p1\" d=\"M3 16a9 9 0 0 1 18 0z\"/><circle class=\"p3\" cx=\"12\" cy=\"5\" r=\"1.5\"/><path class=\"p2\" d=\"M1.5 16h21\"/><rect class=\"p4\" x=\"2\" y=\"18.5\" width=\"20\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

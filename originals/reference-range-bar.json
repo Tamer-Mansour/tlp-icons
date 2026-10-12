@@ -1,0 +1,27 @@
+{
+  "name": "reference-range-bar",
+  "category": "health",
+  "tags": [
+    "reference range",
+    "normal range",
+    "lab result",
+    "marker",
+    "bar",
+    "test result"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M9 6v12M15 6v12\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

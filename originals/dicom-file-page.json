@@ -1,0 +1,18 @@
+{
+  "name": "dicom-file-page",
+  "category": "health",
+  "tags": [
+    "dicom",
+    "medical image",
+    "scan",
+    "x-ray file",
+    "radiology",
+    "imaging"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 2v6h6\"/><g class=\"p3\"><rect x=\"8\" y=\"12\" width=\"8\" height=\"6\" rx=\"1\"/><path d=\"m8.5 16 2.5-2.5 1.5 1.5 2-2 1.5 1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 600 }
+  ]
+}

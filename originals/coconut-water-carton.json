@@ -1,0 +1,11 @@
+{
+  "name": "coconut-water-carton",
+  "category": "commerce",
+  "tags": ["coconut", "water", "carton", "drink", "beverage", "juice", "tropical"],
+  "svg": "<path class=\"d p1\" d=\"M6 9 8 3h8l2 6v12H6z\"/><path class=\"p2\" d=\"M6 9h12\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

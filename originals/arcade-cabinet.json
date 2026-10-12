@@ -1,0 +1,21 @@
+{
+  "name": "arcade-cabinet",
+  "category": "maps",
+  "tags": [
+    "arcade",
+    "game",
+    "cabinet",
+    "joystick",
+    "video game",
+    "retro",
+    "play"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"2\"/><rect class=\"p2\" x=\"7.5\" y=\"5\" width=\"9\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M5 13.5h14\"/><g class=\"p4\"><path d=\"M9 17v2.5\"/><circle cx=\"9\" cy=\"15.5\" r=\"1.5\"/></g><g class=\"p5\"><circle class=\"f\" cx=\"14.5\" cy=\"16\" r=\"1\"/><circle class=\"f\" cx=\"17.5\" cy=\"16\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 900, "delay": 900, "origin": "9px 18px" },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

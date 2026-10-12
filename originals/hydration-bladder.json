@@ -1,0 +1,18 @@
+{
+  "name": "hydration-bladder",
+  "category": "maps",
+  "tags": [
+    "hydration",
+    "water bladder",
+    "hiking",
+    "drink",
+    "backpack",
+    "camping"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"12\" height=\"13\" rx=\"3\"/><path class=\"p2\" d=\"M14 8V4.5a2 2 0 0 1 2-2h3\"/><path class=\"p3\" d=\"M8 15h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

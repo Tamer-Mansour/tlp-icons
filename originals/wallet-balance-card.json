@@ -1,0 +1,11 @@
+{
+  "name": "wallet-balance-card",
+  "category": "finance",
+  "tags": ["wallet", "balance", "card", "coin", "funds", "account", "money", "savings"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"12\" r=\"2.5\"/><rect class=\"p3\" x=\"12\" y=\"10.5\" width=\"7\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "courthouse-scales",
+  "category": "maps",
+  "tags": ["scales", "justice", "courthouse", "law", "balance", "court", "fairness"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 12 4l9 5z\"/><path class=\"p2\" d=\"M12 9v12M8 21h8M6 12h12\"/><path class=\"p3\" d=\"M3 16a3 3 0 0 0 6 0M3 16l3-4 3 4M15 16a3 3 0 0 0 6 0M15 16l3-4 3 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

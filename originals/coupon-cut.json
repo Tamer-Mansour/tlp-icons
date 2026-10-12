@@ -1,0 +1,28 @@
+{
+  "name": "coupon-cut",
+  "category": "commerce",
+  "tags": [
+    "coupon",
+    "voucher",
+    "ticket",
+    "discount",
+    "cut",
+    "offer",
+    "promo"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 6h16v3.5a2.5 2.5 0 0 0 0 5V18H4v-3.5a2.5 2.5 0 0 0 0-5z\"/><path class=\"p2\" d=\"M15 7v2.5M15 11.5v2.5M15 16v2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "wifi-hotspot-sign",
+  "category": "maps",
+  "tags": [
+    "wifi",
+    "hotspot",
+    "signpost",
+    "internet",
+    "sign",
+    "wireless"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M5 8.5a10 10 0 0 1 14 0\"/><path d=\"M8 11.5a6 6 0 0 1 8 0\"/><path d=\"M12 14.5h.01\"/></g><path class=\"p2\" d=\"M12 17v5M9 22h6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fadeIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    }
+  ]
+}

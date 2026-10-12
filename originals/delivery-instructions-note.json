@@ -1,0 +1,11 @@
+{
+  "name": "delivery-instructions-note",
+  "category": "commerce",
+  "tags": ["delivery", "instructions", "note", "door", "drop off", "sticky", "courier", "address"],
+  "svg": "<path class=\"d p1\" d=\"M4 2h16v13l-5 6H4z\"/><path class=\"p1\" d=\"M15 21v-5h5\"/><path class=\"p2\" d=\"M8 5h8M8 9h4\"/><path class=\"p3\" d=\"M9.5 18.5v-3.5a2.5 2.5 0 0 1 5 0v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

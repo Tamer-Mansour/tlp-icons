@@ -1,0 +1,27 @@
+{
+  "name": "onesie",
+  "category": "health",
+  "tags": [
+    "onesie",
+    "bodysuit",
+    "baby",
+    "clothes",
+    "sleepwear",
+    "snap"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 3Q12 5 16 3L21 6 19 10 17 9V19Q17 21 15 21H9Q7 21 7 19V9L5 10 3 6Z\"/><path class=\"p2\" d=\"M8 16.5h8\"/><circle class=\"p2\" cx=\"12\" cy=\"18.5\" r=\"0.8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    }
+  ]
+}

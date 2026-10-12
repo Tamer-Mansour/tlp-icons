@@ -1,0 +1,11 @@
+{
+  "name": "marketplace-stall-tent",
+  "category": "commerce",
+  "tags": ["market", "stall", "tent", "awning", "bazaar", "vendor", "shop"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 9 4 4h16l1.5 5z\"/><path class=\"p2\" d=\"M8.5 4v5M12 4v5M15.5 4v5\"/><path class=\"p3\" d=\"M4.5 9v11h15V9M10 20v-5h4v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 650 }
+  ]
+}

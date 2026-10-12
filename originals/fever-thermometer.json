@@ -1,0 +1,18 @@
+{
+  "name": "fever-thermometer",
+  "category": "health",
+  "tags": [
+    "fever",
+    "thermometer",
+    "temperature",
+    "heat",
+    "sick",
+    "high temperature"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z\"/><path class=\"p2\" d=\"M12 10v8\"/><path class=\"p3\" d=\"M18 4.5c.7.8.7 1.7 0 2.5M21 3c1.2 1.4 1.2 2.9 0 4.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" },
+    { "part": "p3", "anim": "flicker", "dur": 1200, "delay": 1000 }
+  ]
+}

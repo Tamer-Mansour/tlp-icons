@@ -1,0 +1,19 @@
+{
+  "name": "senior-phone",
+  "category": "health",
+  "tags": [
+    "phone",
+    "senior",
+    "elderly",
+    "large buttons",
+    "easy call",
+    "accessible"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M10.5 4h3\"/><rect class=\"p3\" x=\"6.5\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"13.5\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p4\" x=\"6.5\" y=\"13\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p4\" x=\"13.5\" y=\"13\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 850 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "birth-pool",
+  "category": "health",
+  "tags": ["birth", "pool", "water", "labour", "inflatable", "maternity", "bath"],
+  "svg": "<path class=\"p1\" d=\"M3 12v5.5c0 2.2 4 4 9 4s9-1.8 9-4V12\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12.5\" rx=\"5.5\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 800 }
+  ]
+}

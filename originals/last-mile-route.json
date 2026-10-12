@@ -1,0 +1,12 @@
+{
+  "name": "last-mile-route",
+  "category": "commerce",
+  "tags": ["delivery", "last mile", "route", "house", "address", "shipping", "pin", "courier"],
+  "svg": "<path class=\"p1\" d=\"M4 19.5h.01M6.5 17h.01M9 14.5h.01\"/><path class=\"d p2\" d=\"M12.5 21v-7l4.5-3.5 4.5 3.5V21z\"/><path class=\"p3\" d=\"M16 21v-4h2.5v4\"/><path class=\"p4\" d=\"M17 1.5a2.5 2.5 0 0 1 2.5 2.5c0 1.8-2.5 4.5-2.5 4.5S14.5 5.8 14.5 4A2.5 2.5 0 0 1 17 1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

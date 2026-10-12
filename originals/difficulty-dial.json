@@ -1,0 +1,33 @@
+{
+  "name": "difficulty-dial",
+  "category": "finance",
+  "tags": [
+    "difficulty",
+    "dial",
+    "gauge",
+    "hard",
+    "level",
+    "meter"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12.5\" r=\"8.5\"/><path class=\"p2\" d=\"M12 12.5 16 8.5M14.6 7.1l2.8 2.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"12.5\" r=\"1.2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 600
+    }
+  ]
+}

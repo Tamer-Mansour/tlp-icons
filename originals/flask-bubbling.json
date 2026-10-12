@@ -1,0 +1,10 @@
+{
+  "name": "flask-bubbling",
+  "category": "health",
+  "tags": ["flask", "lab", "bubbles", "chemistry", "conical", "experiment", "liquid"],
+  "svg": "<path class=\"d p1\" d=\"M10 3h4v6l5 8.5a2 2 0 0 1-1.7 3H6.7a2 2 0 0 1-1.7-3L10 9z\"/><path class=\"p1\" d=\"M9 3h6\"/><g class=\"p2\"><circle cx=\"11\" cy=\"16\" r=\"1.5\"/><circle cx=\"14\" cy=\"12.5\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 900, "delay": 500 }
+  ]
+}

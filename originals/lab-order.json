@@ -1,0 +1,19 @@
+{
+  "name": "lab-order",
+  "category": "health",
+  "tags": [
+    "lab",
+    "order",
+    "test",
+    "tube",
+    "form",
+    "checkbox",
+    "blood"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M10 6h4M10.5 6v7a1.5 1.5 0 0 0 3 0V6\"/><path class=\"p3\" d=\"M8 17.5l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

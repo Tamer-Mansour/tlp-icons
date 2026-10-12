@@ -1,0 +1,12 @@
+{
+  "name": "tender-bid",
+  "category": "commerce",
+  "tags": ["tender", "bid", "document", "gavel", "auction", "procurement", "proposal"],
+  "svg": "<path class=\"d p1\" d=\"M3 2.5h7.5L13 6v14H3z\"/><path class=\"p2\" d=\"M6 11h4M6 14h4M6 17h2\"/><rect class=\"d p3\" x=\"15.5\" y=\"6.5\" width=\"6\" height=\"3.5\" rx=\"1\" transform=\"rotate(35 18.5 8.25)\"/><path class=\"p4\" d=\"M14.5 20.5 17 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "strike", "dur": 800, "delay": 1100, "origin": "17px 11px" }
+  ]
+}

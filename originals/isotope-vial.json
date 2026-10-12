@@ -1,0 +1,18 @@
+{
+  "name": "isotope-vial",
+  "category": "health",
+  "tags": [
+    "isotope",
+    "radiation",
+    "vial",
+    "radioactive",
+    "nuclear medicine",
+    "shielded"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 9V5h6v4M8 5h8\"/><g class=\"p3\"><circle class=\"f\" cx=\"12\" cy=\"15\" r=\"1\"/><path d=\"M12 13.2v-1.4M13.56 15.9l1.2.7M10.44 15.9l-1.2.7\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 600, "origin": "center" }
+  ]
+}

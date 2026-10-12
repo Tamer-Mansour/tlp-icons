@@ -1,0 +1,11 @@
+{
+  "name": "canvas-tote",
+  "category": "commerce",
+  "tags": ["canvas", "tote", "bag", "reusable", "shopping", "eco", "handles"],
+  "svg": "<path class=\"d p1\" d=\"M4 8h16l-1.5 13h-13z\"/><path class=\"p2\" d=\"M6 8V5a2 2 0 0 1 4 0v3\"/><path class=\"p3\" d=\"M14 8V5a2 2 0 0 1 4 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

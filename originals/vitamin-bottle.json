@@ -1,0 +1,11 @@
+{
+  "name": "vitamin-bottle",
+  "category": "health",
+  "tags": ["vitamin", "bottle", "supplement", "pill", "capsule", "nutrition"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7.5\" width=\"14\" height=\"13.5\" rx=\"3\"/><rect class=\"p2\" x=\"7.5\" y=\"2.5\" width=\"9\" height=\"3\" rx=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.25\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

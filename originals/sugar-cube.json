@@ -1,0 +1,11 @@
+{
+  "name": "sugar-cube",
+  "category": "health",
+  "tags": ["sugar", "cube", "no sugar", "sweetener", "glucose", "diabetes"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l8 4.5v9L12 21l-8-4.5v-9z\"/><path class=\"p2\" d=\"M4 7.5l8 4.5 8-4.5M12 12v9\"/><path class=\"p3\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

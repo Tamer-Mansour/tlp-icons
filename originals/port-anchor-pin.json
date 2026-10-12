@@ -1,0 +1,18 @@
+{
+  "name": "port-anchor-pin",
+  "category": "maps",
+  "tags": [
+    "port",
+    "harbor",
+    "anchor",
+    "pin",
+    "marina",
+    "dock",
+    "location"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 22s-8-6.8-8-12.5a8 8 0 0 1 16 0C20 15.2 12 22 12 22z\"/><g class=\"p2\"><circle cx=\"12\" cy=\"7.4\" r=\"2\"/><path d=\"M12 9.4v3.6M9.5 10.8h5\"/><path d=\"M8.8 13c0 1.9 1.4 2.8 3.2 2.8s3.2-.9 3.2-2.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

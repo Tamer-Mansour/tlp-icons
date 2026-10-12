@@ -1,0 +1,11 @@
+{
+  "name": "spotlight-display",
+  "category": "commerce",
+  "tags": ["spotlight", "display", "product", "showcase", "featured", "light", "shop"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 7a4.5 4.5 0 0 1 9 0z\"/><path class=\"p2\" d=\"M8.5 10 5 14.5M15.5 10 19 14.5\"/><rect class=\"d p3\" x=\"6\" y=\"16\" width=\"12\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 800 }
+  ]
+}

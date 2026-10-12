@@ -1,0 +1,19 @@
+{
+  "name": "cemetery-gravestone",
+  "category": "maps",
+  "tags": [
+    "cemetery",
+    "gravestone",
+    "grave",
+    "tombstone",
+    "graveyard",
+    "cross",
+    "memorial"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 21V10a6 6 0 0 1 12 0v11z\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M12 7.5v4.5M10 9.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

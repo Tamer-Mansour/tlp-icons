@@ -1,0 +1,11 @@
+{
+  "name": "package-tracking-dots",
+  "category": "commerce",
+  "tags": ["package", "tracking", "progress", "dots", "shipment", "delivery", "parcel"],
+  "svg": "<circle class=\"f p1\" cx=\"3.5\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"10.5\" cy=\"12\" r=\"1\"/><path class=\"d p2\" d=\"M13 7.5 17.5 5l4.5 2.5v9l-4.5 2.5-4.5-2.5z\"/><path class=\"p3\" d=\"M13 7.5l4.5 2.5 4.5-2.5M17.5 10v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 850 }
+  ]
+}

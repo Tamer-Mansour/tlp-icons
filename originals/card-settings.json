@@ -1,0 +1,11 @@
+{
+  "name": "card-settings",
+  "category": "finance",
+  "tags": ["card", "settings", "gear", "payment card", "configure", "bank card"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"15\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M2 6h15\"/><g class=\"p3\"><circle cx=\"17\" cy=\"17\" r=\"2.5\"/><path d=\"M17 12.3v1.2M17 20.5v1.2M12.3 17h1.2M20.5 17h1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spinHalf", "dur": 800, "delay": 700, "origin": "17px 17px" }
+  ]
+}

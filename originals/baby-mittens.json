@@ -1,0 +1,34 @@
+{
+    "name":  "baby-mittens",
+    "category":  "health",
+    "tags":  [
+                 "baby",
+                 "mittens",
+                 "mitts",
+                 "newborn",
+                 "gloves",
+                 "infant",
+                 "warm"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 21V10a4 4 0 0 1 8 0v11z\"/\u003e\u003cpath class=\"p2\" d=\"M13 13l3.5-2a1.6 1.6 0 0 1 1.8 2.6L13 17\"/\u003e\u003cpath class=\"p3\" d=\"M5 17h8\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  800,
+                       "anim":  "growX",
+                       "part":  "p3",
+                       "dur":  400
+                   }
+               ]
+}

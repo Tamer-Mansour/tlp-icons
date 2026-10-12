@@ -1,0 +1,18 @@
+{
+  "name": "heart-palpitations",
+  "category": "health",
+  "tags": [
+    "heart",
+    "palpitations",
+    "pulse",
+    "arrhythmia",
+    "racing",
+    "cardiac",
+    "beat"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 20.5C6 16.5 3 13.5 3 9.2 3 6.4 5.1 4.5 7.5 4.5c1.8 0 3.2 1 4.5 2.6 1.3-1.6 2.7-2.6 4.5-2.6 2.4 0 4.5 1.9 4.5 4.7 0 4.3-3 7.3-9 11.3z\"/><polyline class=\"p2\" points=\"4.5 12 7.5 12 9 9 10.5 15 12 9 13 12 19.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "retina-scanner",
+  "category": "health",
+  "tags": ["retina", "eye", "scan", "scanner", "optometry", "biometric", "vision"],
+  "svg": "<path class=\"d p1\" d=\"M2 12C4.5 8 8 7.5 12 7.5S19.5 8 22 12C19.5 16 16 16.5 12 16.5S4.5 16 2 12Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M7 3h10M7 21h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

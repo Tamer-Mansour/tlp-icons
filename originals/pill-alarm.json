@@ -1,0 +1,18 @@
+{
+  "name": "pill-alarm",
+  "category": "health",
+  "tags": [
+    "pill",
+    "alarm",
+    "clock",
+    "medication",
+    "reminder",
+    "dose time"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14.5\" r=\"6.5\"/><g class=\"p2\"><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"2\"/><path d=\"M12 2v4\"/></g><path class=\"p3\" d=\"M12 11.5v3l2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "checkbook-stub",
+  "category": "finance",
+  "tags": ["checkbook", "check", "stub", "cheque", "pen", "payment", "register"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M11 3v18M5 8h3M5 12h3M5 16h3\"/><path class=\"p3\" d=\"M16 13.5 20.5 9l2 2-4.5 4.5L16 17.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

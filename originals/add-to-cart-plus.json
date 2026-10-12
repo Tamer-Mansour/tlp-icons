@@ -1,0 +1,13 @@
+{
+  "name": "add-to-cart-plus",
+  "category": "commerce",
+  "tags": ["cart", "add to cart", "shopping", "basket", "plus", "buy", "order"],
+  "svg": "<path class=\"d p1\" d=\"M5.2 6.5h11.3l-1.4 5.5H6.6z\"/><path class=\"p2\" d=\"M2 3h2.2l2.4 10.6a1.6 1.6 0 0 0 1.6 1.3h6.4\"/><circle class=\"p3\" cx=\"8\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"14\" cy=\"19.5\" r=\"1.5\"/><circle class=\"d p4\" cx=\"18.5\" cy=\"16.5\" r=\"3.2\"/><path class=\"p5\" d=\"M18.5 15v3M17 16.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1100 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 1400 }
+  ]
+}

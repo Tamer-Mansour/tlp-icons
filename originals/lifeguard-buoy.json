@@ -1,0 +1,11 @@
+{
+  "name": "lifeguard-buoy",
+  "category": "health",
+  "tags": ["lifeguard", "buoy", "life ring", "rescue", "water", "safety", "rope"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 9.5v5M9.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

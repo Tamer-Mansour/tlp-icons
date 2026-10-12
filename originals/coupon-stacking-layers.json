@@ -1,0 +1,39 @@
+{
+  "name": "coupon-stacking-layers",
+  "category": "commerce",
+  "tags": [
+    "coupon",
+    "ticket",
+    "voucher",
+    "discount",
+    "stack",
+    "promo"
+  ],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"16\" height=\"4.5\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"8.5\" width=\"16\" height=\"4.5\" rx=\"1\"/><rect class=\"d p3\" x=\"2\" y=\"15\" width=\"16\" height=\"4.5\" rx=\"1\"/><path class=\"p4\" d=\"M14 15v4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "slideIn",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "slideIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "coin-counter",
+  "category": "finance",
+  "tags": [
+    "coin",
+    "counter",
+    "tally",
+    "count",
+    "money",
+    "stack",
+    "change"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15\" width=\"12\" height=\"4\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"9\" width=\"12\" height=\"4\" rx=\"2\"/><rect class=\"p3\" x=\"3\" y=\"3\" width=\"12\" height=\"4\" rx=\"2\"/><circle class=\"d p4\" cx=\"19\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "rollIn",
+      "dur": 700,
+      "delay": 900
+    }
+  ]
+}

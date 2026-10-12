@@ -1,0 +1,35 @@
+{
+  "name": "transdermal-patch",
+  "category": "health",
+  "tags": [
+    "patch",
+    "transdermal",
+    "adhesive",
+    "medicine",
+    "dose",
+    "skin",
+    "drug",
+    "nicotine"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M12 10.5v3M10.5 12h3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

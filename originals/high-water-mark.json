@@ -1,0 +1,11 @@
+{
+  "name": "high-water-mark",
+  "category": "finance",
+  "tags": ["high", "water", "mark", "peak", "record", "flag"],
+  "svg": "<path class=\"d p1\" d=\"M2 20 9 10l4 5 3-4 6 9z\"/><g class=\"p2\"><path d=\"M9 10V3\"/><path class=\"d\" d=\"M9 3l6 2-6 2z\"/></g><path class=\"p3\" d=\"M2 15.5h3M8 15.5h3M14 15.5h3M20 15.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 900, "delay": 500, "origin": "9px 10px" },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

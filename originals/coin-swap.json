@@ -1,0 +1,12 @@
+{
+  "name": "coin-swap",
+  "category": "finance",
+  "tags": ["coin", "swap", "exchange", "currency", "convert", "trade"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"4\"/><circle class=\"d p2\" cx=\"17\" cy=\"17\" r=\"4\"/><g class=\"p3\"><path d=\"M15 7h6\"/><path d=\"m18 4 3 3-3 3\"/></g><g class=\"p4\"><path d=\"M9 17H3\"/><path d=\"m6 14-3 3 3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 650 }
+  ]
+}

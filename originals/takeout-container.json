@@ -1,0 +1,33 @@
+{
+    "name":  "takeout-container",
+    "category":  "commerce",
+    "tags":  [
+                 "takeout",
+                 "container",
+                 "box",
+                 "food",
+                 "delivery",
+                 "to-go"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 9l2 11h12l2-11z\"/\u003e\u003cpath class=\"p2\" d=\"M8 9V6a4 4 0 0 1 8 0v3\"/\u003e\u003cpath class=\"p3\" d=\"M4 9h16\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  400,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "swingIn",
+                       "dur":  800,
+                       "delay":  700
+                   }
+               ]
+}

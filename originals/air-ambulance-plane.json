@@ -1,0 +1,19 @@
+{
+  "name": "air-ambulance-plane",
+  "category": "health",
+  "tags": [
+    "air ambulance",
+    "plane",
+    "medevac",
+    "emergency",
+    "flight",
+    "transport",
+    "cross"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"10.5\" y=\"2.5\" width=\"3\" height=\"19\" rx=\"1.5\"/><path class=\"p2\" d=\"M10.5 8 3 12.5V16l7.5-2M13.5 8 21 12.5V16l-7.5-2M10.5 18 8 19.5V21l2.5-.5M13.5 18 16 19.5V21l-2.5-.5\"/><path class=\"p3\" d=\"M17.5 10.5v5M15 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

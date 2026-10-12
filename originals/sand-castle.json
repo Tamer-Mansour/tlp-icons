@@ -1,0 +1,27 @@
+{
+  "name": "sand-castle",
+  "category": "maps",
+  "tags": [
+    "sand castle",
+    "beach",
+    "sand",
+    "castle",
+    "towers",
+    "holiday"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 21V8h3v3h3V8h4v3h3V8h3v13z\"/><path class=\"p2\" d=\"M10 21v-3a2 2 0 0 1 4 0v3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 500
+    }
+  ]
+}

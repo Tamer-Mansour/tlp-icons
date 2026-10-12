@@ -1,0 +1,18 @@
+{
+  "name": "travel-time-timer",
+  "category": "maps",
+  "tags": [
+    "travel",
+    "time",
+    "hourglass",
+    "route",
+    "duration",
+    "journey"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 2h10l-4 7 4 7H7l4-7z\"/><path class=\"p2\" d=\"M6 2h12M6 16h12\"/><path class=\"p3\" d=\"M4 20h16\"/><circle cx=\"4\" cy=\"20\" r=\"1.5\"/><circle cx=\"20\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "flip", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

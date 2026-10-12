@@ -1,0 +1,19 @@
+{
+  "name": "border-crossing-flag",
+  "category": "maps",
+  "tags": [
+    "border",
+    "crossing",
+    "checkpoint",
+    "barrier",
+    "flag",
+    "customs",
+    "frontier"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"3\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M5 13 16 10\"/><g class=\"p3\"><path d=\"M16 10V4\"/><path d=\"M16 4h5l-1.4 2 1.4 2h-5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

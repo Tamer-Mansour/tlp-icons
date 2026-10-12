@@ -1,0 +1,18 @@
+{
+  "name": "autopay-loop",
+  "category": "finance",
+  "tags": [
+    "autopay",
+    "recurring",
+    "subscription",
+    "card",
+    "automatic payment",
+    "repeat"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6.5\" y=\"8.5\" width=\"11\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M6.5 11h11\"/><g class=\"p3\"><path d=\"M20.37 13.48A8.5 8.5 0 1 1 19.36 7.75\"/><path d=\"M20.14 4.85 19.36 7.75 16.46 6.97\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 500, "origin": "12px 12px" }
+  ]
+}

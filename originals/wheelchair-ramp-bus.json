@@ -1,0 +1,39 @@
+{
+    "name":  "wheelchair-ramp-bus",
+    "category":  "maps",
+    "tags":  [
+                 "wheelchair",
+                 "accessible",
+                 "bus",
+                 "ramp",
+                 "transit",
+                 "access"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10H3z\"/\u003e\u003cpath class=\"p2\" d=\"M3 10h14\"/\u003e\u003ccircle class=\"p3\" cx=\"7\" cy=\"19\" r=\"1.5\"/\u003e\u003cpath class=\"p4\" d=\"M17 12l4 7h-4\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  700,
+                       "anim":  "draw",
+                       "part":  "p4",
+                       "dur":  700
+                   }
+               ]
+}

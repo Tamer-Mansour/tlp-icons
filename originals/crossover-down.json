@@ -1,0 +1,11 @@
+{
+  "name": "crossover-down",
+  "category": "finance",
+  "tags": ["crossover", "cross", "downtrend", "bearish", "chart", "signal", "trend", "stock"],
+  "svg": "<path class=\"p1\" d=\"M3 4L21 16\"/><path class=\"p2\" d=\"M3 16L21 4\"/><path class=\"p3\" d=\"M12 13v7M9 17l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

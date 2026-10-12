@@ -1,0 +1,11 @@
+{
+  "name": "body-scan-outline",
+  "category": "health",
+  "tags": ["body", "scan", "outline", "imaging", "grid", "diagnostic", "human"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M5 20v-1.5a4.5 4.5 0 0 1 4.5-4.5h5a4.5 4.5 0 0 1 4.5 4.5V20\"/><path class=\"p2\" d=\"M2 7V3h4M18 3h4v4M22 17v4h-4M6 21H2v-4\"/><path class=\"p3\" d=\"M6 12.5h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 800, "delay": 700 }
+  ]
+}

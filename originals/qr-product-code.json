@@ -1,0 +1,33 @@
+{
+  "name": "qr-product-code",
+  "category": "commerce",
+  "tags": [
+    "qr",
+    "code",
+    "product",
+    "scan",
+    "barcode",
+    "label"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M6 6h4v4H6zM14 6h4v4h-4zM6 14h4v4H6z\"/><rect class=\"p3\" x=\"10\" y=\"10\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 800
+    }
+  ]
+}

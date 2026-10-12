@@ -1,0 +1,18 @@
+{
+  "name": "yogurt-cup",
+  "category": "health",
+  "tags": [
+    "yogurt",
+    "yoghurt",
+    "cup",
+    "dairy",
+    "spoon",
+    "probiotic"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-1.5 10a1.5 1.5 0 0 1-1.5 1.5H8a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p2\" d=\"M5 9c0-2.5 3.1-4 7-4s7 1.5 7 4\"/><g class=\"p3\"><circle cx=\"19\" cy=\"4\" r=\"2\"/><path d=\"M17.6 5.4 13 11\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swingIn", "dur": 800, "delay": 900 }
+  ]
+}

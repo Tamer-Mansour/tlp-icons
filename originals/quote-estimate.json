@@ -1,0 +1,11 @@
+{
+  "name": "quote-estimate",
+  "category": "finance",
+  "tags": ["quote", "estimate", "invoice", "price", "dollar", "pencil"],
+  "svg": "<path class=\"d p1\" d=\"M6 2h8l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M14 10h-3a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3h-3M12 8.5v8\"/><path class=\"p3\" d=\"M16 13.5l2.5 2.5-5 5L11 18.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

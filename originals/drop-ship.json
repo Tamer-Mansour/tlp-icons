@@ -1,0 +1,11 @@
+{
+  "name": "drop-ship",
+  "category": "commerce",
+  "tags": ["drop ship", "delivery", "fulfillment", "direct", "box", "home", "shipping"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"7\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M10.5 15.5H13.5M11.5 13 14 15.5 11.5 18\"/><path class=\"p3\" d=\"M15 11.5 18.5 7.5 22 11.5M16.5 10.5V20h4.5v-9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "order-cancel-x-box",
+  "category": "commerce",
+  "tags": [
+    "order",
+    "cancel",
+    "box",
+    "cancelled",
+    "package",
+    "void"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6.5\" width=\"12\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M2.5 10.5h12\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"17\" r=\"4.5\"/><path class=\"p4\" d=\"M15.5 15l4 4M19.5 15l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "car-wash-bay",
+  "category": "maps",
+  "tags": [
+    "car",
+    "wash",
+    "bay",
+    "spray",
+    "clean",
+    "water",
+    "vehicle"
+  ],
+  "svg": "<path class=\"p1\" d=\"M5 21V4h14v17\"/><path class=\"d p2\" d=\"M8 17v-3l1.5-3h5l1.5 3h1v3z\"/><path class=\"p3\" d=\"M9 7.5 8 9.5M12 7v2.5M15 7.5l1 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 1200, "delay": 900 }
+  ]
+}

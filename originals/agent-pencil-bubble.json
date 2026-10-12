@@ -1,0 +1,11 @@
+{
+  "name": "agent-pencil-bubble",
+  "category": "commerce",
+  "tags": ["write", "pencil", "chat", "agent", "bubble", "edit"],
+  "svg": "<path class=\"d p1\" d=\"M4 3.5h16a1.5 1.5 0 0 1 1.5 1.5v11a1.5 1.5 0 0 1-1.5 1.5H9.5L5 21v-3.5H4A1.5 1.5 0 0 1 2.5 16V5A1.5 1.5 0 0 1 4 3.5z\"/><path class=\"p2\" d=\"M8 16l1-3L15 7l2 2-6 6z\"/><path class=\"p3\" d=\"M12 10l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

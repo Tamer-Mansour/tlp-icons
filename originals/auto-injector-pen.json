@@ -1,0 +1,19 @@
+{
+  "name": "auto-injector-pen",
+  "category": "health",
+  "tags": [
+    "auto-injector",
+    "injector pen",
+    "epinephrine",
+    "insulin pen",
+    "injection",
+    "emergency"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"5\" width=\"8\" height=\"10.5\" rx=\"2.5\"/><rect class=\"p2\" x=\"9.5\" y=\"17.5\" width=\"5\" height=\"3.5\" rx=\"1.5\"/><rect class=\"p3\" x=\"7\" y=\"2.5\" width=\"10\" height=\"2.5\" rx=\"1.25\"/><path class=\"p4\" d=\"M8 9.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 700, "delay": 1100 }
+  ]
+}

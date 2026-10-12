@@ -1,0 +1,20 @@
+{
+  "name": "brushing-timer",
+  "category": "health",
+  "tags": [
+    "timer",
+    "brushing",
+    "toothbrush",
+    "two minutes",
+    "dental",
+    "teeth"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"13\" r=\"6\"/><path class=\"p2\" d=\"M7.5 4.5h3M9 4.5V7\"/><path class=\"p3\" d=\"M9 13V9.5M9 13l2 1.5\"/><rect class=\"d p4\" x=\"16.5\" y=\"8\" width=\"4\" height=\"5\" rx=\"1.5\"/><path class=\"p5\" d=\"M18.5 13v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 600, "origin": "9px 13px" },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

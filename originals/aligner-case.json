@@ -1,0 +1,11 @@
+{
+  "name": "aligner-case",
+  "category": "health",
+  "tags": ["aligner", "case", "retainer", "orthodontic", "dental", "teeth", "snap", "invisalign"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M3 12a9 9 0 0 1 18 0\"/><rect class=\"p3\" x=\"10.5\" y=\"9.5\" width=\"3\" height=\"2\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

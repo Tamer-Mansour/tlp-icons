@@ -1,0 +1,28 @@
+{
+    "name":  "osteoporosis-bone",
+    "category":  "health",
+    "tags":  [
+                 "osteoporosis",
+                 "bone",
+                 "density",
+                 "porous",
+                 "skeleton",
+                 "fracture",
+                 "calcium"
+             ],
+    "svg":  "\u003cg transform=\"rotate(-45 12 12)\"\u003e\u003crect class=\"d p1\" x=\"6\" y=\"9.5\" width=\"12\" height=\"5\"/\u003e\u003ccircle class=\"p2\" cx=\"5.5\" cy=\"9\" r=\"2.5\"/\u003e\u003ccircle class=\"p2\" cx=\"5.5\" cy=\"15\" r=\"2.5\"/\u003e\u003ccircle class=\"p2\" cx=\"18.5\" cy=\"9\" r=\"2.5\"/\u003e\u003ccircle class=\"p2\" cx=\"18.5\" cy=\"15\" r=\"2.5\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  300
+                   }
+               ]
+}

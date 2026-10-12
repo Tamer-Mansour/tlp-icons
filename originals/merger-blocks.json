@@ -1,0 +1,11 @@
+{
+  "name": "merger-blocks",
+  "category": "finance",
+  "tags": ["merger", "merge", "acquisition", "combine", "consolidate", "blocks"],
+  "svg": "<g class=\"p1\"><rect class=\"d\" x=\"2\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"d\" x=\"14\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/></g><path class=\"p2\" d=\"M12 11.5v4M9.5 13.5 12 16l2.5-2.5\"/><rect class=\"d p3\" x=\"5\" y=\"17\" width=\"14\" height=\"4\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

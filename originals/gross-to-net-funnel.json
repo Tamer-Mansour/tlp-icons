@@ -1,0 +1,18 @@
+{
+  "name": "gross-to-net-funnel",
+  "category": "finance",
+  "tags": [
+    "gross",
+    "net",
+    "funnel",
+    "salary",
+    "deduction",
+    "payroll"
+  ],
+  "svg": "<polygon class=\"d p1\" points=\"3,10 21,10 14,16.5 14,20 10,20 10,16.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"5\" r=\"3\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "dropIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 1100 }
+  ]
+}

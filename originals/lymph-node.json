@@ -1,0 +1,18 @@
+{
+  "name": "lymph-node",
+  "category": "health",
+  "tags": [
+    "lymph",
+    "node",
+    "lymphatic",
+    "gland",
+    "immune",
+    "vessel",
+    "swelling"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"4.2\" transform=\"rotate(-25 12 12)\"/><path class=\"p2\" d=\"M2.5 5.5l3.5 3.5M21.5 5.5l-3.5 3.5M2.5 18.5l3.5-3.5M21.5 18.5l-3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "map-scale-bar",
+  "category": "maps",
+  "tags": [
+    "map",
+    "scale",
+    "bar",
+    "distance",
+    "ruler",
+    "measure"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 15h18\"/><path class=\"p2\" d=\"M3 12v6M9 12v6M15 12v6M21 12v6\"/><rect class=\"d p3\" x=\"7\" y=\"4\" width=\"10\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 700 }
+  ]
+}

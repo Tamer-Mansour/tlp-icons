@@ -1,0 +1,20 @@
+{
+  "name": "delivered-doorstep-check",
+  "category": "commerce",
+  "tags": [
+    "delivered",
+    "doorstep",
+    "package",
+    "parcel",
+    "check",
+    "confirmed",
+    "delivery"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 6.5l8-4 8 4v7.5l-8 4-8-4z\"/><path class=\"p2\" d=\"M4 6.5l8 4 8-4\"/><path class=\"p3\" d=\"M2.5 21h19\"/><path class=\"p4\" d=\"M9 14.5l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

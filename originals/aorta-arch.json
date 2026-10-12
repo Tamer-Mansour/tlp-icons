@@ -1,0 +1,34 @@
+{
+    "name":  "aorta-arch",
+    "category":  "health",
+    "tags":  [
+                 "aorta",
+                 "artery",
+                 "heart",
+                 "vessel",
+                 "blood",
+                 "arch",
+                 "cardiac"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M5 21v-8a7 7 0 0 1 14 0v8\"/\u003e\u003cpath class=\"p2\" d=\"M12 6V3\"/\u003e\u003cpath class=\"p3\" d=\"M9 21h-4M19 21h-4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "grow",
+                       "dur":  500,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "fadeIn",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

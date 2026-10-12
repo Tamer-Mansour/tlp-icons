@@ -1,0 +1,10 @@
+{
+  "name": "order-book-bars",
+  "category": "finance",
+  "tags": ["order", "book", "bids", "asks", "buy", "sell", "depth", "market"],
+  "svg": "<g class=\"p1\"><rect x=\"3\" y=\"5\" width=\"8\" height=\"3\" rx=\"1\"/><rect x=\"5\" y=\"10.5\" width=\"6\" height=\"3\" rx=\"1\"/><rect x=\"7\" y=\"16\" width=\"4\" height=\"3\" rx=\"1\"/></g><g class=\"p2\"><rect x=\"13\" y=\"5\" width=\"4\" height=\"3\" rx=\"1\"/><rect x=\"13\" y=\"10.5\" width=\"6\" height=\"3\" rx=\"1\"/><rect x=\"13\" y=\"16\" width=\"8\" height=\"3\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 0, "origin": "11px 12px" },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 250, "origin": "13px 12px" }
+  ]
+}

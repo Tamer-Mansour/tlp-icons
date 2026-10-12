@@ -1,0 +1,19 @@
+{
+  "name": "impression-eye",
+  "category": "commerce",
+  "tags": [
+    "impression",
+    "eye",
+    "ad",
+    "advertising",
+    "views",
+    "banner",
+    "marketing"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 9s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 9 2 9z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><rect class=\"d p3\" x=\"4\" y=\"15\" width=\"16\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 17h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 900 }
+  ]
+}

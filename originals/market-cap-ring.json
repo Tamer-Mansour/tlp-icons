@@ -1,0 +1,28 @@
+{
+  "name": "market-cap-ring",
+  "category": "finance",
+  "tags": [
+    "market cap",
+    "valuation",
+    "ring",
+    "coins",
+    "stock",
+    "capitalization",
+    "wealth"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "breathe",
+      "dur": 800,
+      "delay": 300
+    }
+  ]
+}

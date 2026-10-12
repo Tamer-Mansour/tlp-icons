@@ -1,0 +1,34 @@
+{
+    "name":  "delivery-attempt",
+    "category":  "commerce",
+    "tags":  [
+                 "delivery",
+                 "attempt",
+                 "retry",
+                 "door",
+                 "package",
+                 "redeliver",
+                 "courier"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"10\" width=\"11\" height=\"11\" rx=\"1\"/\u003e\u003cpath class=\"p2\" d=\"M3 15.5h11\"/\u003e\u003cpath class=\"p3\" d=\"M6 5h10a4 4 0 0 1 4 4v2M17 8l3 3 3-3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  800
+                   }
+               ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "glacier-ice",
+  "category": "maps",
+  "tags": ["glacier", "ice", "frozen", "cold", "crack", "arctic", "landscape"],
+  "svg": "<path class=\"d p1\" d=\"M3 21 6 11l4-3 3 5 3-6 5 4v10z\"/><path class=\"p2\" d=\"M11 21l1.5-5-2-2.5 1.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

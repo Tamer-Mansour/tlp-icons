@@ -1,0 +1,12 @@
+{
+  "name": "baby-monitor-camera",
+  "category": "health",
+  "tags": ["baby", "monitor", "camera", "nursery", "video", "watch", "infant", "stand"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"10\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M13 10l2-1.5v6l-2-1.5\"/><path class=\"p3\" d=\"M8 15v5M5 20h6\"/><path class=\"p4\" d=\"M17.1 9.4A3 3 0 0 1 17.1 13.6M19.2 7.3A6 6 0 0 1 19.2 15.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "pulseRing", "dur": 1400, "delay": 1100 }
+  ]
+}

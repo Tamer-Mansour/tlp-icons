@@ -1,0 +1,18 @@
+{
+  "name": "signature-capture",
+  "category": "commerce",
+  "tags": [
+    "signature",
+    "sign",
+    "clipboard",
+    "form",
+    "consent",
+    "approval"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 15.5Q9 11.5 10.5 15T13.5 15T16.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

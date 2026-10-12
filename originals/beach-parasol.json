@@ -1,0 +1,18 @@
+{
+  "name": "beach-parasol",
+  "category": "maps",
+  "tags": [
+    "parasol",
+    "beach",
+    "umbrella",
+    "sand",
+    "holiday",
+    "shade"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2.5 12A9.5 8 0 0 1 21.5 12Z\"/><path class=\"p2\" d=\"M12 4 6 12M12 4l6 8\"/><path class=\"p3\" d=\"M12 12v8M5 21q7-2.5 14 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

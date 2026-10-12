@@ -1,0 +1,28 @@
+{
+    "name":  "pan-hand-map",
+    "category":  "maps",
+    "tags":  [
+                 "pan",
+                 "hand",
+                 "map",
+                 "drag",
+                 "move",
+                 "navigate",
+                 "gesture"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 3v18M3 12h18M9 6l3-3 3 3M9 18l3 3 3-3M6 9l-3 3 3 3M18 9l3 3-3 3\"/\u003e\u003ccircle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  900
+                   },
+                   {
+                       "delay":  700,
+                       "anim":  "popIn",
+                       "part":  "p2",
+                       "dur":  500
+                   }
+               ]
+}

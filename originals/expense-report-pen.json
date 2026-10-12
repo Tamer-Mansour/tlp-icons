@@ -1,0 +1,11 @@
+{
+  "name": "expense-report-pen",
+  "category": "finance",
+  "tags": ["expense", "report", "receipt", "sign", "approve", "pen", "reimbursement", "claim"],
+  "svg": "<path class=\"d p1\" d=\"M4 2h9v18l-2.25-1.5L8.5 20 6.25 18.5 4 20z\"/><path class=\"p2\" d=\"M7 7h3M7 11h3\"/><path class=\"p3\" d=\"M15 21l.8-3.2 4.2-4.2 1.6 1.6-4.2 4.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

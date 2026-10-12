@@ -1,0 +1,19 @@
+{
+  "name": "expiry-date",
+  "category": "health",
+  "tags": [
+    "expiry",
+    "expiration",
+    "date",
+    "pill",
+    "bottle",
+    "medicine",
+    "best before"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"9\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"2\" y=\"4\" width=\"10\" height=\"3\" rx=\"1\"/><g class=\"p3\"><rect class=\"d\" x=\"14\" y=\"12\" width=\"7\" height=\"8\" rx=\"1.5\"/><path d=\"M16.5 10v3M18.5 10v3M14 15.5h7M16.5 18h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

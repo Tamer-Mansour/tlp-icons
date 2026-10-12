@@ -1,0 +1,11 @@
+{
+  "name": "nebulizer-mask",
+  "category": "health",
+  "tags": ["nebulizer", "mask", "inhaler", "mist", "asthma", "respiratory"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"8\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M10 6.5h3a2 2 0 0 1 2 2V11\"/><path class=\"p3\" d=\"M11 11h11c0 5-2.5 9-5.5 9S11 16 11 11z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

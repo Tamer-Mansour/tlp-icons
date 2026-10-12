@@ -1,0 +1,33 @@
+{
+  "name": "pedestrian-crossing-sign",
+  "category": "maps",
+  "tags": [
+    "pedestrian",
+    "crossing",
+    "road sign",
+    "walk",
+    "traffic",
+    "street"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"18\" height=\"13\" rx=\"2\"/><g class=\"p2\"><circle cx=\"10\" cy=\"5.8\" r=\"1.6\"/><path d=\"M10.2 8.6 9.2 11.6M10 9.6l2.6 1.4M9.2 11.6l1.4 1.4\"/></g><path class=\"p3\" d=\"M12 15.5V20M8 21h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sway",
+      "dur": 1200,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

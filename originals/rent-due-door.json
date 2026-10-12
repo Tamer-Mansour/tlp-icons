@@ -1,0 +1,11 @@
+{
+  "name": "rent-due-door",
+  "category": "finance",
+  "tags": ["rent", "due", "door", "landlord", "coin", "housing", "payment"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"10\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 19h20\"/><path d=\"M11 11.5v.01\"/><circle class=\"d p3\" cx=\"19\" cy=\"12.5\" r=\"2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 900, "delay": 600 }
+  ]
+}

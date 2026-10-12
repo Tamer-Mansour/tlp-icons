@@ -1,0 +1,18 @@
+{
+  "name": "bp-reading-dial",
+  "category": "health",
+  "tags": [
+    "blood pressure",
+    "dial",
+    "gauge",
+    "reading",
+    "pressure",
+    "cuff"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9.5\" r=\"7.5\"/><rect class=\"p2\" x=\"5\" y=\"19.5\" width=\"14\" height=\"2.5\" rx=\"1.25\"/><g class=\"p3\"><path d=\"M12 9.5l3-3\"/><path d=\"M12 9.5h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 700, "origin": "12px 9.5px" }
+  ]
+}

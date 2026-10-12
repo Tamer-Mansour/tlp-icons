@@ -1,0 +1,11 @@
+{
+  "name": "workout-checklist",
+  "category": "health",
+  "tags": ["workout", "checklist", "exercise", "clipboard", "dumbbell", "fitness", "plan"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"10\" height=\"17\" rx=\"2\"/><rect class=\"d p1\" x=\"5.5\" y=\"2\" width=\"5\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 9.5l1 1 2-2M9.5 9.5h2M5 13.5l1 1 2-2M9.5 13.5h2M5 17.5h4\"/><path class=\"p3\" d=\"M17 18h2M15 15v6h2v-6M19 15v6h2v-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

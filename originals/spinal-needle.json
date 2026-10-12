@@ -1,0 +1,34 @@
+{
+  "name": "spinal-needle",
+  "category": "health",
+  "tags": [
+    "spinal",
+    "needle",
+    "spine",
+    "anesthesia",
+    "lumbar",
+    "injection",
+    "vertebra"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M13 11l6-6 2 2-6 6z\"/><path class=\"p2\" d=\"M13 11 4 20\"/><path class=\"p3\" d=\"M17 3l4 4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

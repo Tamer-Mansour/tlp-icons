@@ -1,0 +1,19 @@
+{
+  "name": "protein-shaker",
+  "category": "health",
+  "tags": [
+    "protein",
+    "shaker",
+    "supplement",
+    "gym",
+    "fitness",
+    "bottle",
+    "whey"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 8h12l-1.5 10.5a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5z\"/><rect class=\"p2\" x=\"8.5\" y=\"3.5\" width=\"7\" height=\"3\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"14\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 900 }
+  ]
+}

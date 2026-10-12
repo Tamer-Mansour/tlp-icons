@@ -1,0 +1,12 @@
+{
+  "name": "combined-ratio-pie",
+  "category": "finance",
+  "tags": ["combined", "ratio", "pie", "chart", "insurance", "slices", "bars"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"12\" r=\"6.5\"/><path class=\"p2\" d=\"M8.5 12V5.5M8.5 12l4.6 4.6\"/><path class=\"p3\" d=\"M17 8h4\"/><path class=\"p4\" d=\"M17 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

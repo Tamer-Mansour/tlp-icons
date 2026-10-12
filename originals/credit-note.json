@@ -1,0 +1,18 @@
+{
+  "name": "credit-note",
+  "category": "finance",
+  "tags": [
+    "credit",
+    "note",
+    "refund",
+    "slip",
+    "return",
+    "minus"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 10.5h6\"/><path class=\"p3\" d=\"M15 16.5H9M11.5 14 9 16.5l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

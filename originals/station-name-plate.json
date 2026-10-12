@@ -1,0 +1,19 @@
+{
+  "name": "station-name-plate",
+  "category": "maps",
+  "tags": [
+    "station",
+    "name plate",
+    "sign",
+    "platform",
+    "stop",
+    "signboard",
+    "transit"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 8h12M6 12h7\"/><path class=\"p3\" d=\"M7 16v5M17 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 600 }
+  ]
+}

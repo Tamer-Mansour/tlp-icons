@@ -1,0 +1,20 @@
+{
+  "name": "cap-table-grid",
+  "category": "finance",
+  "tags": [
+    "cap table",
+    "equity",
+    "shareholders",
+    "ownership",
+    "pie",
+    "grid",
+    "stake"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"5\"/><path class=\"p2\" d=\"M8 8V3M8 8l-4.3 2.5\"/><rect class=\"d p3\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p4\" d=\"M13 17h8M17 13v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

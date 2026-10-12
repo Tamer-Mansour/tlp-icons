@@ -1,0 +1,34 @@
+{
+  "name": "map-compass-rose",
+  "category": "maps",
+  "tags": [
+    "compass",
+    "rose",
+    "direction",
+    "navigation",
+    "map",
+    "north",
+    "grid"
+  ],
+  "svg": "<rect class=\"p3\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><polygon class=\"d p1\" points=\"12,4 13.8,10.2 20,12 13.8,13.8 12,20 10.2,13.8 4,12 10.2,10.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "highway-exit-sign",
+  "category": "maps",
+  "tags": ["highway", "exit", "sign", "ramp", "road", "driving"],
+  "svg": "<rect class=\"d p1\" x=\"12\" y=\"2\" width=\"9\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M16.5 4 14 6.5h4.5M16.5 4v4\"/><path class=\"p3\" d=\"M5 22v-4c0-5 2-7 7-8\"/><path class=\"p4\" d=\"M17 9v13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

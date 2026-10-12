@@ -1,0 +1,35 @@
+{
+  "name": "senior-fare-badge",
+  "category": "maps",
+  "tags": [
+    "senior",
+    "fare",
+    "badge",
+    "discount",
+    "cane",
+    "elderly",
+    "transit",
+    "concession"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M3 21v-2a5 5 0 0 1 10 0v2\"/><path class=\"p3\" d=\"M17 21V10a2 2 0 0 1 4 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

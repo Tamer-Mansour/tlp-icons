@@ -1,0 +1,11 @@
+{
+  "name": "buy-one-get-one",
+  "category": "commerce",
+  "tags": ["bogo", "buy one get one", "offer", "deal", "promotion", "two for one", "boxes"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"6\" height=\"11\" rx=\"1\"/><rect class=\"d p2\" x=\"16\" y=\"9\" width=\"6\" height=\"11\" rx=\"1\"/><path class=\"p3\" d=\"M10 13h4M12 11v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

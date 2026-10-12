@@ -1,0 +1,11 @@
+{
+  "name": "drinking-fountain",
+  "category": "maps",
+  "tags": ["fountain", "drinking", "water", "tap", "park", "spout"],
+  "svg": "<path class=\"d p1\" d=\"M5 14h14a7 3 0 0 1-14 0z\"/><path class=\"p2\" d=\"M12 17v4M8 21h8\"/><path class=\"p3\" d=\"M12 13c0-3 2-5 5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

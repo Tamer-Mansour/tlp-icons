@@ -1,0 +1,11 @@
+{
+  "name": "tax-withheld",
+  "category": "finance",
+  "tags": ["tax", "withholding", "payroll", "deduction", "coin", "stack", "paycheck"],
+  "svg": "<path class=\"d p1\" d=\"M3 8v7c0 1.1 2 2 4.5 2s4.5-.9 4.5-2V8\"/><g class=\"p2\"><ellipse cx=\"7.5\" cy=\"8\" rx=\"4.5\" ry=\"2\"/><path d=\"M3 11.5c0 1.1 2 2 4.5 2s4.5-.9 4.5-2\"/></g><g class=\"p3\"><path d=\"M15 5h5v12h-5\"/><path d=\"M17.5 8v6M16.5 13l1 1 1-1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

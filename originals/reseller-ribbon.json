@@ -1,0 +1,11 @@
+{
+  "name": "reseller-ribbon",
+  "category": "commerce",
+  "tags": ["reseller", "store", "badge", "ribbon", "seller", "certified", "shop"],
+  "svg": "<path class=\"p2\" d=\"M3.5 6.5 5 2.5h14l1.5 4M3.5 6.5h17\"/><circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"5.5\"/><path class=\"p3\" d=\"M9 18.5 7.5 22l4.5-1.5 4.5 1.5-1.5-3.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

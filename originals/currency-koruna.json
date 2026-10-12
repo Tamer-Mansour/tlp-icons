@@ -1,0 +1,28 @@
+{
+  "name": "currency-koruna",
+  "category": "finance",
+  "tags": [
+    "koruna",
+    "currency",
+    "crown",
+    "coin",
+    "money",
+    "czech",
+    "slovak"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M9.5 7v10M15 7l-5.5 5 5.5 5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    }
+  ]
+}

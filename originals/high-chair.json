@@ -1,0 +1,11 @@
+{
+  "name": "high-chair",
+  "category": "health",
+  "tags": ["high", "chair", "child", "baby", "highchair", "feeding"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"5\" height=\"10.5\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M5 13.5h10M6.5 13.5v8M13.5 13.5v8M6.5 18h7\"/></g><g class=\"p3\"><rect x=\"12\" y=\"7.5\" width=\"8\" height=\"3\" rx=\"1\"/><path d=\"M10 9h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ticket-expiry-clock",
+  "category": "maps",
+  "tags": [
+    "ticket",
+    "expiry",
+    "expired",
+    "clock",
+    "valid",
+    "time",
+    "pass"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 3h18v2.5a2 2 0 0 0 0 3V11H3V8.5a2 2 0 0 0 0-3z\"/><circle class=\"p2\" cx=\"16\" cy=\"17\" r=\"5\"/><path class=\"p3\" d=\"M16 14.5V17l2 1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "spin",
+      "dur": 1000,
+      "delay": 1000,
+      "origin": "16px 17px"
+    }
+  ]
+}

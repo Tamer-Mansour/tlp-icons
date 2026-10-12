@@ -1,0 +1,12 @@
+{
+  "name": "knowledge-base-stack",
+  "category": "commerce",
+  "tags": ["knowledge base", "books", "help", "faq", "documentation", "question"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"16\" width=\"18\" height=\"5\" rx=\"1.5\"/><rect class=\"p2\" x=\"4.5\" y=\"10.5\" width=\"15\" height=\"3\" rx=\"1\"/><rect class=\"d p3\" x=\"3\" y=\"2.5\" width=\"18\" height=\"5.5\" rx=\"1.5\"/><g class=\"p4\"><circle class=\"d\" cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M17.3 4.3a1.1 1.1 0 1 1 1.5 1c-.3.2-.5.5-.5.9M18.1 7.2h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 350 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

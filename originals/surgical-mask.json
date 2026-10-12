@@ -1,0 +1,11 @@
+{
+  "name": "surgical-mask",
+  "category": "health",
+  "tags": ["surgical mask", "face mask", "pleated", "ear loops", "protection", "hygiene", "infection"],
+  "svg": "<path class=\"d p1\" d=\"M4 8c2.7-1 5.3-1 8 0 2.7-1 5.3-1 8 0v6.5c0 2.6-3.6 4.5-8 4.5S4 17.1 4 14.5z\"/><path class=\"p2\" d=\"M8 11.5h8M8 14.5h8\"/><path class=\"p3\" d=\"M4 9.5c-1.5-.5-2.5-2-2-4M20 9.5c1.5-.5 2.5-2 2-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 550 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "self-checkout",
+    "category":  "commerce",
+    "tags":  [
+                 "self",
+                 "checkout",
+                 "kiosk",
+                 "scanner",
+                 "shopping",
+                 "store"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3.5\" y=\"3\" width=\"17\" height=\"12\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M12 15v4M8 20h8\"/\u003e\u003cpath class=\"p3\" d=\"M8 7v4M12 7v4M16 7v4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "fadeIn",
+                       "dur":  600,
+                       "delay":  800
+                   }
+               ]
+}

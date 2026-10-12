@@ -1,0 +1,12 @@
+{
+  "name": "train-rail-route",
+  "category": "maps",
+  "tags": ["train", "rail", "railway", "route", "station", "stops", "track"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"10\" rx=\"3\"/><rect class=\"p2\" x=\"8\" y=\"6\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M3 17h18M3 21h18\"/><path class=\"p4\" d=\"M8 17v4M12 17v4M16 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

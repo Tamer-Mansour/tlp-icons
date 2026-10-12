@@ -1,0 +1,35 @@
+{
+  "name": "dao-treasury-chest",
+  "category": "finance",
+  "tags": [
+    "dao",
+    "treasury",
+    "chest",
+    "fund",
+    "coin",
+    "gear",
+    "governance",
+    "vault"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/><path class=\"p2\" d=\"M3 11V8a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v3\"/><path class=\"p3\" d=\"M12 14.5v2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 800
+    }
+  ]
+}

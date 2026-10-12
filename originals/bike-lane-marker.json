@@ -1,0 +1,11 @@
+{
+  "name": "bike-lane-marker",
+  "category": "maps",
+  "tags": ["bike lane", "bicycle", "cycle", "lane", "road", "path", "marker"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"17\" width=\"20\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"6\" cy=\"11.5\" r=\"3.5\"/><circle class=\"p2\" cx=\"18\" cy=\"11.5\" r=\"3.5\"/><path class=\"p3\" d=\"M6 11.5 10 6h5l3 5.5M10 6l2 5.5H6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sailboat-beach",
+  "category": "maps",
+  "tags": ["sailboat", "sail", "beach", "shore", "boat", "sea", "holiday"],
+  "svg": "<path class=\"d p1\" d=\"M4 14h16l-2.5 3.5h-11z\"/><path class=\"p2\" d=\"M8 3v11\"/><path class=\"d p3\" d=\"M12 4.5 18 14h-6z\"/><path class=\"p4\" d=\"M2 21c2-1 4-1 6 0s4 1 6 0 4-1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "contraction-tracker",
+  "category": "health",
+  "tags": ["contraction", "labor", "pulse", "wave", "tracker", "pregnancy", "graph"],
+  "svg": "<path class=\"p1\" d=\"M2 15h4l3-7 3 10 3-12 3 10h4\"/><circle class=\"f p2\" cx=\"15\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1100, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

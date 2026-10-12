@@ -1,0 +1,10 @@
+{
+  "name": "rotator-cuff",
+  "category": "health",
+  "tags": ["shoulder", "rotator", "cuff", "tendon", "joint", "ball", "injury", "orthopedic"],
+  "svg": "<path class=\"p1\" d=\"M3 20a9 9 0 0 1 18 0\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 400 }
+  ]
+}

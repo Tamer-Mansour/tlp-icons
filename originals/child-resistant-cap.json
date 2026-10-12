@@ -1,0 +1,11 @@
+{
+  "name": "child-resistant-cap",
+  "category": "commerce",
+  "tags": ["cap", "child resistant", "safety cap", "bottle", "pharmacy", "lid", "push turn"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 12A4 4 0 1 1 12 16\"/><path class=\"p3\" d=\"M13.8 14.2 12 16l1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

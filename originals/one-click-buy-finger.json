@@ -1,0 +1,11 @@
+{
+  "name": "one-click-buy-finger",
+  "category": "commerce",
+  "tags": ["one click", "buy", "checkout", "tap to buy", "instant purchase", "shopping"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"9\" rx=\"2.5\"/><path class=\"p2\" d=\"M8 8.5h8\"/><path class=\"d p3\" d=\"M11 14.5l8 3.5-3.5 1.5L14 23z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 700, "delay": 1000 }
+  ]
+}

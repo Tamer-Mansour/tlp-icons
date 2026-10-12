@@ -1,0 +1,33 @@
+{
+  "name": "faq-open-book",
+  "category": "commerce",
+  "tags": [
+    "faq",
+    "question",
+    "help",
+    "book",
+    "guide",
+    "knowledge"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 7C10 5.5 7 5 3 5v13c4 0 7 .5 9 2z\"/><path class=\"d p2\" d=\"M12 7c2-1.5 5-2 9-2v13c-4 0-7 .5-9 2z\"/><g class=\"p3\"><path d=\"M14.5 10a2 2 0 1 1 2.8 1.8c-.5.3-.8.7-.8 1.2v.5\"/><path d=\"M16 16.5h.01\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

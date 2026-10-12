@@ -1,0 +1,11 @@
+{
+  "name": "rib-cage",
+  "category": "health",
+  "tags": ["rib", "cage", "chest", "thorax", "bones", "skeleton", "anatomy"],
+  "svg": "<path class=\"d p1\" d=\"M4 7C6 4.5 9 4 12 4s6 .5 8 3v7c0 4-3 7-8 7s-8-3-8-7z\"/><path class=\"p2\" d=\"M12 8Q8.5 7 6.5 9.5M12 12Q8 11 6 14M12 16Q9 15 7.5 17.5M12 8Q15.5 7 17.5 9.5M12 12Q16 11 18 14M12 16Q15 15 16.5 17.5\"/><path class=\"p3\" d=\"M12 5v15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

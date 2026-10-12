@@ -1,0 +1,19 @@
+{
+  "name": "card-payoff-progress",
+  "category": "finance",
+  "tags": [
+    "credit",
+    "card",
+    "payoff",
+    "progress",
+    "debt",
+    "balance"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h20\"/><path class=\"p3\" d=\"M6 15h4\"/><path class=\"p4\" d=\"M14 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800, "origin": "6px 15px" },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 1100 }
+  ]
+}

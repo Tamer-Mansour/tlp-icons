@@ -1,0 +1,19 @@
+{
+  "name": "fluorescence-scope",
+  "category": "health",
+  "tags": [
+    "fluorescence",
+    "microscope",
+    "glow",
+    "lab",
+    "fluorescent",
+    "imaging",
+    "specimen"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2\" width=\"5\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M11.5 10v11M6 14h11M7 21h9\"/><circle class=\"f p3\" cx=\"19\" cy=\"10\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1000 }
+  ]
+}

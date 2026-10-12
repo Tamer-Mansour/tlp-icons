@@ -1,0 +1,11 @@
+{
+  "name": "receipt-printer",
+  "category": "commerce",
+  "tags": ["receipt", "printer", "thermal", "paper", "till", "pos", "print"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M7 9h10\"/><path class=\"p2\" d=\"M7 15v6l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "riseIn", "dur": 900, "delay": 800 }
+  ]
+}

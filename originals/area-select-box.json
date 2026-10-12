@@ -1,0 +1,27 @@
+{
+  "name": "area-select-box",
+  "category": "maps",
+  "tags": [
+    "select",
+    "selection",
+    "box",
+    "crop",
+    "marquee",
+    "handles"
+  ],
+  "svg": "<g class=\"p1\"><rect x=\"2\" y=\"2\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"18\" y=\"2\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"2\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"18\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\"/></g><path class=\"p2\" d=\"M10 4h4M10 20h4M4 10v4M20 10v4\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 350
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gps-trail-track",
+  "category": "maps",
+  "tags": ["gps", "track", "trail", "route", "location", "pin", "path"],
+  "svg": "<path class=\"p1\" d=\"M3.5 20.5h.01M6.5 17.5h.01M9.5 14.5h.01\"/><path class=\"d p2\" d=\"M16.5 3a4.5 4.5 0 0 0-4.5 4.5c0 3.2 4.5 8.5 4.5 8.5s4.5-5.3 4.5-8.5A4.5 4.5 0 0 0 16.5 3z\"/><circle class=\"p3\" cx=\"16.5\" cy=\"7.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

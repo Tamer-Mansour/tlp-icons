@@ -1,0 +1,20 @@
+{
+  "name": "river-delta",
+  "category": "maps",
+  "tags": [
+    "river",
+    "delta",
+    "sea",
+    "estuary",
+    "water",
+    "branches",
+    "geography"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v7\"/><path class=\"p2\" d=\"M12 9.5 6.5 13.5 4.5 17.5M12 9.5 17.5 13.5 19.5 17.5\"/><path class=\"p3\" d=\"M12 9.5v8\"/><path class=\"p4\" d=\"M2.5 20.5c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 1100 }
+  ]
+}

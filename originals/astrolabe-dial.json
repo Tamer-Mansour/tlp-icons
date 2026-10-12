@@ -1,0 +1,11 @@
+{
+  "name": "astrolabe-dial",
+  "category": "maps",
+  "tags": ["astrolabe", "dial", "navigation", "astronomy", "stars", "instrument", "sky"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><g class=\"p2\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21\"/></g><path class=\"p3\" d=\"M12 12l5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "sweep", "dur": 1400, "delay": 800, "origin": "center" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "recovery-bed-screen",
+  "category": "health",
+  "tags": [
+    "bed",
+    "recovery",
+    "privacy screen",
+    "ward",
+    "hospital",
+    "patient"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"12\" width=\"11\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 7.5v12.5\"/><rect class=\"p3\" x=\"17\" y=\"5\" width=\"4.5\" height=\"14\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 600 }
+  ]
+}

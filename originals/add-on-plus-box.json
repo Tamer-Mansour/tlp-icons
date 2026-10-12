@@ -1,0 +1,10 @@
+{
+  "name": "add-on-plus-box",
+  "category": "commerce",
+  "tags": ["add on", "plus", "box", "extra", "upsell", "bundle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"10\" height=\"10\" rx=\"1.5\"/><path class=\"p1\" d=\"M3 13.5h10\"/><path class=\"p2\" d=\"M18 3.5v7M14.5 7h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

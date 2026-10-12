@@ -1,0 +1,11 @@
+{
+  "name": "broken-box",
+  "category": "commerce",
+  "tags": ["broken", "box", "damaged", "torn", "package", "shipping", "returns"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h18v10H3z\"/><path class=\"p2\" d=\"M3 10l2-5.5h10l-1.5 5.5\"/><path class=\"p3\" d=\"M17 4.5l1.5 2-1.5 1.5 1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "fall", "dur": 1000, "delay": 800 }
+  ]
+}

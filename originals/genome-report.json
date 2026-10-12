@@ -1,0 +1,19 @@
+{
+  "name": "genome-report",
+  "category": "health",
+  "tags": [
+    "genome",
+    "dna",
+    "helix",
+    "report",
+    "genetics",
+    "lab",
+    "result"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M6 5c0 3 6 4 6 7s-6 4-6 7M12 5c0 3-6 4-6 7s6 4 6 7\"/><path class=\"p3\" d=\"M15 9h3M15 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

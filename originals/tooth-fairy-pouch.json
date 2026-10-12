@@ -1,0 +1,33 @@
+{
+  "name": "tooth-fairy-pouch",
+  "category": "health",
+  "tags": [
+    "tooth fairy",
+    "pouch",
+    "tooth",
+    "star",
+    "child",
+    "bag"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 9h10l2 9a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8 9l1-5h6l1 5\"/><path class=\"p3\" d=\"M12 12v4M10 14h4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "twinkle",
+      "dur": 900,
+      "delay": 1000
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "credit-rating-ladder",
+  "category": "finance",
+  "tags": [
+    "credit",
+    "rating",
+    "ladder",
+    "grade",
+    "score",
+    "rank",
+    "marker"
+  ],
+  "svg": "<path class=\"p1\" d=\"M5 3v18M19 3v18\"/><path class=\"p2\" d=\"M5 7h14M5 12h14M5 17h14\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800, "origin": "center" }
+  ]
+}

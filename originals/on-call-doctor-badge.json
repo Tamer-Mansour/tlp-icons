@@ -1,0 +1,19 @@
+{
+  "name": "on-call-doctor-badge",
+  "category": "health",
+  "tags": [
+    "doctor",
+    "badge",
+    "on call",
+    "phone",
+    "medical",
+    "emergency",
+    "staff"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"16\" rx=\"2.5\"/><path class=\"p2\" d=\"M9 7v6M6 10h6\"/><rect class=\"d p3\" x=\"14\" y=\"12\" width=\"7\" height=\"10\" rx=\"1.5\"/><path class=\"p3\" d=\"M16.5 19.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

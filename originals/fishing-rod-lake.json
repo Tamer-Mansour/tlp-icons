@@ -1,0 +1,12 @@
+{
+  "name": "fishing-rod-lake",
+  "category": "maps",
+  "tags": ["fishing", "rod", "lake", "fish", "angling", "bobber", "hobby", "outdoors"],
+  "svg": "<path class=\"p1\" d=\"M4 13 16 3.5\"/><path class=\"p2\" d=\"M16 3.5v8.5\"/><circle class=\"d p3\" cx=\"16\" cy=\"14\" r=\"1.5\"/><path class=\"p4\" d=\"M2.5 17.5q2.4-2 4.8 0t4.8 0t4.8 0t4.8 0\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 1000 }
+  ]
+}

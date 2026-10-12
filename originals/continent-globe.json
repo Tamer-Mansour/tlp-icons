@@ -1,0 +1,28 @@
+{
+    "name":  "continent-globe",
+    "category":  "maps",
+    "tags":  [
+                 "globe",
+                 "continent",
+                 "world",
+                 "map",
+                 "earth",
+                 "land",
+                 "geography"
+             ],
+    "svg":  "\u003ccircle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"d p2\" d=\"M7.5 9c2-2.5 5-2.5 6 0 1 2 3 1.5 3 4-2 2.5-4 2-5 4-2.5-.5-4-3-4-8z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  500
+                   }
+               ]
+}

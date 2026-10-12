@@ -1,0 +1,11 @@
+{
+  "name": "endcap-display",
+  "category": "commerce",
+  "tags": ["endcap", "display", "stand", "aisle", "promotion", "shelf", "retail"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"3\" rx=\"1\"/><g class=\"p2\"><rect x=\"5\" y=\"5\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect x=\"11\" y=\"3\" width=\"5\" height=\"6\" rx=\"0.5\"/></g><path class=\"p3\" d=\"M5 12v9M19 12v9M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

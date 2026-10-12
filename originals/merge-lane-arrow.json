@@ -1,0 +1,19 @@
+{
+  "name": "merge-lane-arrow",
+  "category": "maps",
+  "tags": [
+    "merge",
+    "lane",
+    "arrow",
+    "converge",
+    "traffic",
+    "highway",
+    "road"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2.5 4.5l7 7.5M2.5 19.5l7-7.5\"/><path class=\"p2\" d=\"M9.5 12h11.5\"/><path class=\"p3\" d=\"M17 7.5 21 12l-4 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

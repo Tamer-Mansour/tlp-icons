@@ -1,0 +1,11 @@
+{
+  "name": "dock-door",
+  "category": "commerce",
+  "tags": ["loading", "dock", "door", "warehouse", "roll-up", "bumper", "truck"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"18\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M3 6h18M3 10h18\"/><rect class=\"p3\" x=\"5\" y=\"18\" width=\"14\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "rounding-cents",
+  "category": "finance",
+  "tags": ["rounding", "cents", "coin", "round", "change", "decimal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M14.8 9.2a4 4 0 1 0 0 5.6M12 6.5v2.5M12 15v2.5\"/><path class=\"p3\" d=\"M6 6.5a8 8 0 0 1 3-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1200 }
+  ]
+}

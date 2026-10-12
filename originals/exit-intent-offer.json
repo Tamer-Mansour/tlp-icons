@@ -1,0 +1,34 @@
+{
+    "name":  "exit-intent-offer",
+    "category":  "commerce",
+    "tags":  [
+                 "exit",
+                 "offer",
+                 "discount",
+                 "percent",
+                 "door",
+                 "leaving",
+                 "deal"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 21V3h10v18\"/\u003e\u003cpath class=\"p2\" d=\"M3 21h18\"/\u003e\u003cpath class=\"p3\" d=\"M13 12h8m-3-3 3 3-3 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fadeIn",
+                       "dur":  400,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "nudge",
+                       "dur":  900,
+                       "delay":  700
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "transit-connection",
+  "category": "maps",
+  "tags": ["transit", "connection", "transfer", "link", "stops", "interchange"],
+  "svg": "<circle class=\"d p1\" cx=\"4\" cy=\"12\" r=\"2.5\"/><circle class=\"d p2\" cx=\"20\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M7 12h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

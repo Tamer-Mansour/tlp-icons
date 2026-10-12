@@ -1,0 +1,11 @@
+{
+  "name": "waiting-room-chairs",
+  "category": "health",
+  "tags": ["waiting", "room", "chairs", "clinic", "seats", "queue", "lobby"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"8\" rx=\"1.5\"/><rect class=\"d p1\" x=\"14\" y=\"3\" width=\"7\" height=\"8\" rx=\"1.5\"/><rect class=\"p2\" x=\"2\" y=\"11\" width=\"9\" height=\"2\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"11\" width=\"9\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M3.5 13v7M9.5 13v7M14.5 13v7M20.5 13v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

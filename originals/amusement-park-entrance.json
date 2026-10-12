@@ -1,0 +1,34 @@
+{
+  "name": "amusement-park-entrance",
+  "category": "maps",
+  "tags": [
+    "amusement",
+    "park",
+    "entrance",
+    "gate",
+    "fun",
+    "pennant",
+    "theme"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 21V12a6 6 0 0 1 12 0v9z\"/><path class=\"p2\" d=\"M9.5 21v-4a2.5 2.5 0 0 1 5 0v4\"/><path class=\"p3\" d=\"M12 6V2.5M12 2.5l4.5 1.5-4.5 1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

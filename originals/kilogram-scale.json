@@ -1,0 +1,11 @@
+{
+  "name": "kilogram-scale",
+  "category": "commerce",
+  "tags": ["kilogram", "scale", "weight", "kg", "digital", "weigh", "shipping"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><g class=\"p2\"><path d=\"M8.5 8v6M11.5 8l-3 3 3 3\"/><circle cx=\"15\" cy=\"11\" r=\"1.5\"/><path d=\"M16.5 9.5V13a2 2 0 0 1-2 2h-1.5\"/></g><path class=\"p3\" d=\"M7.5 17h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

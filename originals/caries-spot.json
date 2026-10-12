@@ -1,0 +1,33 @@
+{
+  "name": "caries-spot",
+  "category": "health",
+  "tags": [
+    "caries",
+    "tooth",
+    "dental",
+    "cavity",
+    "decay",
+    "magnifier"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 3.5C4 3.5 3 5 3 7c0 3 1.5 5 1.5 8 0 2.5 1 5 2.5 5 1 0 1.3-2 2-2s1 2 2 2c1.5 0 2.5-2.5 2.5-5 0-3 1.5-5 1.5-8 0-2-1-3.5-3-3.5-1.5 0-2.2 1-3 1s-1.5-1-3-1z\"/><circle class=\"f p2\" cx=\"7\" cy=\"8.5\" r=\"1.8\"/><g class=\"p3\"><circle cx=\"18.5\" cy=\"16.5\" r=\"2.5\"/><path d=\"M20.3 18.3 21 19\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 900
+    },
+    {
+      "part": "p3",
+      "anim": "focusIn",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

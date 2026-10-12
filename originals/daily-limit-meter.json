@@ -1,0 +1,28 @@
+{
+  "name": "daily-limit-meter",
+  "category": "finance",
+  "tags": [
+    "daily",
+    "limit",
+    "meter",
+    "spending",
+    "budget",
+    "cap"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 18a8 8 0 1 1 16 0z\"/><path class=\"p2\" d=\"M12 18l4-5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sweep",
+      "dur": 1000,
+      "delay": 600,
+      "origin": "12px 18px"
+    }
+  ]
+}

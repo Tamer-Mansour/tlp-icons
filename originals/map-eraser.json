@@ -1,0 +1,28 @@
+{
+    "name":  "map-eraser",
+    "category":  "maps",
+    "tags":  [
+                 "eraser",
+                 "erase",
+                 "remove",
+                 "delete",
+                 "map",
+                 "route",
+                 "edit"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M3 20h18\"/\u003e\u003cg class=\"p1\" transform=\"rotate(-30 12 11)\"\u003e\u003crect class=\"d\" x=\"5\" y=\"7\" width=\"14\" height=\"8\" rx=\"2\"/\u003e\u003cpath d=\"M12 7v8\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "wiggle",
+                       "dur":  900,
+                       "delay":  700
+                   }
+               ]
+}

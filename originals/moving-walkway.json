@@ -1,0 +1,10 @@
+{
+  "name": "moving-walkway",
+  "category": "maps",
+  "tags": ["walkway", "conveyor", "moving", "travel", "airport", "escalator"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"12\" width=\"19\" height=\"7\" rx=\"3.5\"/><path class=\"p2\" d=\"M4 7.5h10M10.5 4.5l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 400 }
+  ]
+}

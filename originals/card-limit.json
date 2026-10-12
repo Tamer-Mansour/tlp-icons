@@ -1,0 +1,12 @@
+{
+  "name": "card-limit",
+  "category": "finance",
+  "tags": ["credit", "limit", "card", "spending", "gauge", "budget"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h20\"/><path class=\"p3\" d=\"M6 16h12\"/><circle class=\"f p4\" cx=\"13\" cy=\"16\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

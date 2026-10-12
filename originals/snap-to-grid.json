@@ -1,0 +1,28 @@
+{
+    "name":  "snap-to-grid",
+    "category":  "maps",
+    "tags":  [
+                 "snap",
+                 "grid",
+                 "magnet",
+                 "align",
+                 "layout",
+                 "pin",
+                 "intersection"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M9 3v18M15 3v18M3 9h18M3 15h18\"/\u003e\u003ccircle class=\"f p3\" cx=\"15\" cy=\"15\" r=\"2.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  1000
+                   }
+               ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "trade-settlement-clock",
+  "category": "finance",
+  "tags": [
+    "trade",
+    "settlement",
+    "clock",
+    "clearing",
+    "timing",
+    "transfer",
+    "cycle"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><g class=\"p2\"><path d=\"M4 12a8 8 0 0 1 14-5.3\"/><path d=\"M18.5 3.5 18 7l-3.5-.5\"/></g><g class=\"p3\"><path d=\"M20 12a8 8 0 0 1-14 5.3\"/><path d=\"M5.5 20.5 6 17l3.5.5\"/></g><path class=\"p4\" d=\"M12 9.5V12l1.8 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "sweep", "dur": 1200, "delay": 700, "origin": "12px 12px" }
+  ]
+}

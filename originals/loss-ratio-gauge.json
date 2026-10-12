@@ -1,0 +1,10 @@
+{
+  "name": "loss-ratio-gauge",
+  "category": "finance",
+  "tags": ["loss", "ratio", "gauge", "insurance", "percent", "needle", "claims"],
+  "svg": "<path class=\"d p1\" d=\"M3 18a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 18 16 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 500, "origin": "12px 18px" }
+  ]
+}

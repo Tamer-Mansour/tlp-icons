@@ -1,0 +1,12 @@
+{
+  "name": "needle-gauge",
+  "category": "health",
+  "tags": ["gauge", "needle", "dial", "meter", "pressure", "reading", "measure", "instrument"],
+  "svg": "<path class=\"p1\" d=\"M3 14a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 14 16 8.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"14\" r=\"2.5\"/><rect class=\"p4\" x=\"9.5\" y=\"17.5\" width=\"5\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 14px" }
+  ]
+}

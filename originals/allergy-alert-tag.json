@@ -1,0 +1,11 @@
+{
+  "name": "allergy-alert-tag",
+  "category": "health",
+  "tags": ["allergy", "alert", "tag", "warning", "wristband", "allergic", "hazard", "patient"],
+  "svg": "<path class=\"d p1\" d=\"M3 4a1 1 0 0 1 1-1h10l7 9-7 9H4a1 1 0 0 1-1-1z\"/><circle class=\"p2\" cx=\"7\" cy=\"9\" r=\"2\"/><path class=\"p3\" d=\"M12.5 8.5l4 7h-8z M12.5 11v2.5M12.5 15.5h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

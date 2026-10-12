@@ -1,0 +1,18 @@
+{
+  "name": "glucose-curve-chart",
+  "category": "health",
+  "tags": [
+    "glucose",
+    "chart",
+    "curve",
+    "blood sugar",
+    "diabetes",
+    "trend"
+  ],
+  "svg": "<path class=\"p1\" d=\"M4 4v16h17\"/><path class=\"p2\" d=\"M6 15C8 14 8.5 9 11 9S14 13 16 13S19 8 21 8\"/><circle class=\"d p3\" cx=\"11\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

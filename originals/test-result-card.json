@@ -1,0 +1,19 @@
+{
+  "name": "test-result-card",
+  "category": "health",
+  "tags": [
+    "test",
+    "result",
+    "card",
+    "positive",
+    "negative",
+    "lab",
+    "report"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2.5\"/><path class=\"p2\" d=\"M8 10v4M6 12h4\"/><path class=\"p3\" d=\"M14.5 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

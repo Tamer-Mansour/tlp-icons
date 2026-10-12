@@ -1,0 +1,11 @@
+{
+  "name": "route-split",
+  "category": "maps",
+  "tags": ["route", "split", "fork", "junction", "branch", "directions", "path"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-6\"/><path class=\"p2\" d=\"M12 15 5 4\"/><path class=\"p3\" d=\"M12 15l7-11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

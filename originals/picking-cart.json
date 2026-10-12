@@ -1,0 +1,11 @@
+{
+  "name": "picking-cart",
+  "category": "commerce",
+  "tags": ["picking cart", "order picking", "warehouse", "shelves", "fulfilment", "trolley"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 3.5h2.2l2.6 12.2a1.6 1.6 0 0 0 1.6 1.3h9.4a1.6 1.6 0 0 0 1.6-1.2L21.5 7H5.6\"/><path class=\"p2\" d=\"M8 10.3h11.3M8.3 13.4h10.8\"/><circle class=\"p3\" cx=\"9\" cy=\"21\" r=\"1.1\"/><circle class=\"p3\" cx=\"17.5\" cy=\"21\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

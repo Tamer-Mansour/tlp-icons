@@ -1,0 +1,33 @@
+{
+  "name": "public-health-alert",
+  "category": "health",
+  "tags": [
+    "public health",
+    "megaphone",
+    "alert",
+    "announcement",
+    "heart",
+    "campaign"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2.5 9.5h3.5L13 5.5v13l-7-4H2.5z\"/><path class=\"p2\" d=\"M6.5 14.5 8 20\"/><path class=\"d p3\" d=\"M18.5 21 15.7 18.2A1.98 1.98 0 0 1 18.5 15.4a1.98 1.98 0 0 1 2.8 2.8z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "beat",
+      "dur": 1000,
+      "delay": 800
+    }
+  ]
+}

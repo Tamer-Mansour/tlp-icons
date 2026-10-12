@@ -1,0 +1,33 @@
+{
+    "name":  "hand-pump-filter",
+    "category":  "health",
+    "tags":  [
+                 "hand pump",
+                 "filter",
+                 "canister",
+                 "suction",
+                 "drain",
+                 "water"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"12\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M12 9V3h5\"/\u003e\u003cpath class=\"p3\" d=\"M6 15h12\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p3",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  800,
+                       "anim":  "press",
+                       "part":  "p2",
+                       "dur":  700
+                   }
+               ]
+}

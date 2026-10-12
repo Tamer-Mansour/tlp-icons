@@ -1,0 +1,12 @@
+{
+  "name": "swift-transfer",
+  "category": "finance",
+  "tags": ["swift", "transfer", "bank", "international", "globe", "wire", "payment"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"5.5\"/><g class=\"p2\"><path d=\"M2.5 8h11\"/><path d=\"M8 2.5c-1.8 1.8-1.8 9.2 0 11\"/><path d=\"M8 2.5c1.8 1.8 1.8 9.2 0 11\"/></g><g class=\"p3\"><path class=\"d\" d=\"M14 13l4-2.5 4 2.5z\"/><path d=\"M16 14.5v4M20 14.5v4\"/><path d=\"M14 20.5h8\"/></g><path class=\"p4\" d=\"M2.5 21h2M6.5 21h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

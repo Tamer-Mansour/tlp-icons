@@ -1,0 +1,11 @@
+{
+  "name": "delay-clock",
+  "category": "maps",
+  "tags": ["delay", "late", "clock", "train", "schedule", "timetable"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"8.5\" r=\"5.5\"/><path class=\"p2\" d=\"M8.5 6v2.5l1.8 1.2\"/><g class=\"p3\"><rect class=\"d\" x=\"14\" y=\"14.5\" width=\"7\" height=\"6\" rx=\"1.5\"/><path d=\"M14 17.5h7\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "drive", "dur": 1200, "delay": 700 }
+  ]
+}

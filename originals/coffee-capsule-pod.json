@@ -1,0 +1,11 @@
+{
+  "name": "coffee-capsule-pod",
+  "category": "commerce",
+  "tags": ["coffee", "capsule", "pod", "espresso", "foil", "drink", "cafe"],
+  "svg": "<rect class=\"p2\" x=\"5\" y=\"2\" width=\"14\" height=\"4\" rx=\"1.5\"/><path class=\"d p1\" d=\"M6 10l1.5 10.5a1 1 0 0 0 1 .5h7a1 1 0 0 0 1-.5L18 10z\"/><path class=\"p3\" d=\"M9 4h.01M15 4h.01\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

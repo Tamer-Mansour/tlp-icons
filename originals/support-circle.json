@@ -1,0 +1,11 @@
+{
+  "name": "support-circle",
+  "category": "health",
+  "tags": ["support", "circle", "group", "people", "community", "peer", "care"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><g class=\"p2\"><circle cx=\"12\" cy=\"5.5\" r=\"2\"/><circle cx=\"6\" cy=\"13\" r=\"2\"/><circle cx=\"18\" cy=\"13\" r=\"2\"/></g><path class=\"p3\" d=\"M9.5 12a2.5 2.5 0 0 1 5 0M3.5 19.5a2.5 2.5 0 0 1 5 0M15.5 19.5a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 800 }
+  ]
+}

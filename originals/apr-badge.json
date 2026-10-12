@@ -1,0 +1,34 @@
+{
+  "name": "apr-badge",
+  "category": "finance",
+  "tags": [
+    "apr",
+    "interest",
+    "rate",
+    "percent",
+    "badge",
+    "loan"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"16\" height=\"11\" rx=\"2.5\"/><g class=\"p2\"><path d=\"M11 8.5l-4.5 4\"/><circle cx=\"7\" cy=\"8.5\" r=\"1.5\"/><circle cx=\"11\" cy=\"12.5\" r=\"1.5\"/></g><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 700,
+      "origin": "17px 17px"
+    }
+  ]
+}

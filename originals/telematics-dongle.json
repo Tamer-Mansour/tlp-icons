@@ -1,0 +1,11 @@
+{
+  "name": "telematics-dongle",
+  "category": "finance",
+  "tags": ["telematics", "car", "signal", "fleet", "tracking", "vehicle data"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 16.5v-3L5 9.5h14l2.5 4v3z\"/><g class=\"p2\"><circle cx=\"7\" cy=\"17.5\" r=\"2\"/><circle cx=\"17\" cy=\"17.5\" r=\"2\"/></g><g class=\"p3\"><path d=\"M9.88 5.88A3 3 0 0 1 14.12 5.88\"/><path d=\"M7.76 3.76A6 6 0 0 1 16.24 3.76\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

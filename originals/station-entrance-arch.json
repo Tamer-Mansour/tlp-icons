@@ -1,0 +1,19 @@
+{
+  "name": "station-entrance-arch",
+  "category": "maps",
+  "tags": [
+    "station",
+    "entrance",
+    "arch",
+    "label",
+    "transit",
+    "gate",
+    "stop"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 21V11a7 7 0 0 1 14 0v10\"/><rect class=\"p2\" x=\"8\" y=\"9\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

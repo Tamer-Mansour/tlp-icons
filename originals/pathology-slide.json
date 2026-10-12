@@ -1,0 +1,11 @@
+{
+  "name": "pathology-slide",
+  "category": "health",
+  "tags": ["pathology", "slide", "microscope", "sample", "lab", "biopsy", "specimen"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1.5\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M14 10.5h5M14 13.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500, "origin": "center" },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

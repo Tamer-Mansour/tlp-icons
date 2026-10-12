@@ -1,0 +1,18 @@
+{
+  "name": "virtual-waiting-room",
+  "category": "health",
+  "tags": [
+    "waiting room",
+    "virtual",
+    "telehealth",
+    "clock",
+    "queue",
+    "appointment"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"11\" height=\"20\" rx=\"1.5\"/><g class=\"p2\"><circle cx=\"7.5\" cy=\"9\" r=\"2.5\"/><path d=\"M7.5 7.8V9l.9.9\"/></g><g class=\"p3\"><circle cx=\"18\" cy=\"13.5\" r=\"1.8\"/><path d=\"M15.5 22v-5a2.5 2.5 0 0 1 5 0v5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 600 }
+  ]
+}

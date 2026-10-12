@@ -1,0 +1,11 @@
+{
+  "name": "jackson-pratt-drain",
+  "category": "health",
+  "tags": ["drain", "jackson pratt", "surgical", "bulb", "wound", "suction", "tube"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"8\" rx=\"6\" ry=\"5\"/><path class=\"p2\" d=\"M12 13v4.5a2.5 2.5 0 0 0 2.5 2.5H20\"/><path class=\"p3\" d=\"M9 8h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

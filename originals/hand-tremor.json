@@ -1,0 +1,11 @@
+{
+  "name": "hand-tremor",
+  "category": "health",
+  "tags": ["tremor", "hand", "shaking", "parkinson", "neurology", "movement"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 21V13.5L5.6 10.4Q4.9 9.5 5.8 8.8Q6.6 8.2 7.3 9L8.5 10.4V5.5Q8.5 3.6 10 3.6Q11.5 3.6 11.5 5.5V9.5V4.2Q11.5 2.4 13 2.4Q14.5 2.4 14.5 4.2V9.5V5.5Q14.5 4.4 15.8 4.4Q17 4.4 17 5.5V12Q17 13.8 16 15.8L15.5 21Z\"/><path class=\"p2\" d=\"M3 6.5v5\"/><path class=\"p3\" d=\"M21 6.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 900, "delay": 800 },
+    { "part": "p3", "anim": "shake", "dur": 900, "delay": 800 }
+  ]
+}

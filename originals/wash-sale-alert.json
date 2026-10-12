@@ -1,0 +1,18 @@
+{
+  "name": "wash-sale-alert",
+  "category": "finance",
+  "tags": [
+    "wash",
+    "sale",
+    "alert",
+    "tax",
+    "repurchase",
+    "warning"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M4 12A8 8 0 0 1 18.55 7.41\"/><path d=\"M18.5 3.5v3.9h-3.9\"/></g><g class=\"p2\"><path d=\"M20 12A8 8 0 0 1 5.38 16.59\"/><path d=\"M5.38 20.49v-3.9h3.9\"/></g><g class=\"p3\"><path d=\"M12 8v4.5\"/><path d=\"M12 15.5h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "oxygen-concentrator",
+  "category": "health",
+  "tags": ["oxygen", "concentrator", "breathing", "respiratory", "medical", "airflow", "tube"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"15\" rx=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M15 14.5h2.5a2.5 2.5 0 0 1 2.5 2.5V20\"/><path class=\"p4\" d=\"M18 6.5c.8.8.8 1.7 0 2.5M20.5 5c1.2 1.2 1.2 3.3 0 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p4", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "quarterly-results",
+  "category": "finance",
+  "tags": [
+    "quarterly",
+    "quarter",
+    "results",
+    "calendar",
+    "earnings",
+    "report"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18\"/><path class=\"p3\" d=\"M8 2v4M16 2v4\"/><path class=\"p4\" d=\"M8.5 18v-2M12 18v-4M15.5 18v-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 450 },
+    { "part": "p4", "anim": "grow", "dur": 900, "delay": 600, "origin": "bottom" }
+  ]
+}

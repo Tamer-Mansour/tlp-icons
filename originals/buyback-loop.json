@@ -1,0 +1,12 @@
+{
+  "name": "buyback-loop",
+  "category": "finance",
+  "tags": ["buyback", "share", "repurchase", "stock", "certificate", "loop", "equity"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M10.5 11.5h3M10.5 14h2\"/><path class=\"p3\" d=\"M20 12a8 8 0 1 1-2.34-5.66\"/><path class=\"p4\" d=\"M17.66 2.5v3.84h-3.84\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

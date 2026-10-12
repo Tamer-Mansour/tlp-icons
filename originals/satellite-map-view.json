@@ -1,0 +1,11 @@
+{
+  "name": "satellite-map-view",
+  "category": "maps",
+  "tags": ["satellite", "map", "view", "dish", "gps", "aerial", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M2 12l4.5-2 5 2 4.5-2v9l-4.5 2-5-2-4.5 2z\"/><path class=\"p2\" d=\"M12 3.5a8 8 0 0 1 8 8\"/><path class=\"p3\" d=\"M14.5 6.5l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

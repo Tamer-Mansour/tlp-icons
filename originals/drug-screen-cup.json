@@ -1,0 +1,19 @@
+{
+  "name": "drug-screen-cup",
+  "category": "health",
+  "tags": [
+    "drug",
+    "screen",
+    "cup",
+    "urine",
+    "test",
+    "specimen",
+    "pill"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 6.5h12l-1.4 14.5H7.4z\"/><rect class=\"p2\" x=\"4.5\" y=\"1.5\" width=\"15\" height=\"3\" rx=\"1\"/><rect class=\"d p3\" x=\"9.5\" y=\"10\" width=\"5\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900, "origin": "center" }
+  ]
+}

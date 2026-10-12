@@ -1,0 +1,20 @@
+{
+  "name": "collateral-pledge",
+  "category": "finance",
+  "tags": [
+    "collateral",
+    "pledge",
+    "lock",
+    "loan",
+    "security",
+    "coins",
+    "secured"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 12v6c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-6\"/><g class=\"p2\"><ellipse cx=\"9\" cy=\"12\" rx=\"6\" ry=\"2.5\"/><path d=\"M3 15c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5\"/></g><rect class=\"d p3\" x=\"16\" y=\"6\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p4\" d=\"M17.5 6V4.5a1.5 1.5 0 0 1 3 0V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "claims-history-timeline",
+  "category": "finance",
+  "tags": ["claims", "history", "timeline", "past claims", "insurance", "record"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18\"/><circle class=\"d p2\" cx=\"6\" cy=\"6\" r=\"2\"/><circle class=\"d p3\" cx=\"6\" cy=\"18\" r=\"2\"/><rect class=\"d p4\" x=\"11\" y=\"4\" width=\"10\" height=\"5\" rx=\"1.5\"/><rect class=\"d p5\" x=\"11\" y=\"15\" width=\"10\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 450, "delay": 400 },
+    { "part": "p4", "anim": "slideIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 450, "delay": 900 },
+    { "part": "p5", "anim": "slideIn", "dur": 500, "delay": 1100 }
+  ]
+}

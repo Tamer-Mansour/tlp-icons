@@ -1,0 +1,34 @@
+{
+    "name":  "park-path-loop",
+    "category":  "maps",
+    "tags":  [
+                 "park",
+                 "path",
+                 "loop",
+                 "trail",
+                 "tree",
+                 "walk",
+                 "circuit"
+             ],
+    "svg":  "\u003cellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"8\"/\u003e\u003ccircle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"2.5\"/\u003e\u003cpath class=\"p3\" d=\"M12 12.5V16\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  1200,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  1000
+                   }
+               ]
+}

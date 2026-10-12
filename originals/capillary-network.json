@@ -1,0 +1,19 @@
+{
+  "name": "capillary-network",
+  "category": "health",
+  "tags": [
+    "capillary",
+    "network",
+    "vessels",
+    "blood",
+    "circulation",
+    "branch",
+    "vein"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 22V14L6.5 9l-3-2.5M12 14l5.5-5 3-2.5\"/><path class=\"p2\" d=\"M12 18.5 7 15.5M12 18.5l5-3\"/><circle class=\"p3\" cx=\"3.5\" cy=\"6.5\" r=\"1.8\"/><circle class=\"p3\" cx=\"20.5\" cy=\"6.5\" r=\"1.8\"/><circle class=\"p3\" cx=\"7\" cy=\"15.5\" r=\"1.8\"/><circle class=\"p3\" cx=\"17\" cy=\"15.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

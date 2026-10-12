@@ -1,0 +1,19 @@
+{
+  "name": "bond-coupon-strip",
+  "category": "finance",
+  "tags": [
+    "bond",
+    "coupon",
+    "strip",
+    "interest",
+    "tear off",
+    "payment",
+    "ticket"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 8.5v1.5M7.5 12v1.5M7.5 15.5v1.5\"/><path class=\"p3\" d=\"M11 10.5h7M11 13.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

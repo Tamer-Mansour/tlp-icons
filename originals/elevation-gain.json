@@ -1,0 +1,10 @@
+{
+  "name": "elevation-gain",
+  "category": "maps",
+  "tags": ["elevation", "gain", "altitude", "mountain", "climb", "hike", "height"],
+  "svg": "<path class=\"d p1\" d=\"M2 20h14L9 8z\"/><path class=\"p2\" d=\"M19 12V3M16 6l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

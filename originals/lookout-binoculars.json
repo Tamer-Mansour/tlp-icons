@@ -1,0 +1,35 @@
+{
+  "name": "lookout-binoculars",
+  "category": "maps",
+  "tags": [
+    "lookout",
+    "binoculars",
+    "viewpoint",
+    "scenic",
+    "view",
+    "watch",
+    "observation",
+    "outlook"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"15\" r=\"3.500\"/><circle class=\"d p2\" cx=\"17\" cy=\"15\" r=\"3.500\"/><path class=\"p3\" d=\"M10.500 15 H13.500 M7 11.500 V5 M17 11.500 V5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    }
+  ]
+}

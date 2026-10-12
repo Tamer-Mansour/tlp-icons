@@ -1,0 +1,12 @@
+{
+  "name": "route-waypoint",
+  "category": "maps",
+  "tags": ["route", "waypoint", "stop", "path", "journey", "navigation"],
+  "svg": "<polyline class=\"p4\" points=\"5 19 12 12 19 5\"/><circle class=\"d p1\" cx=\"5\" cy=\"19\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"d p3\" cx=\"19\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

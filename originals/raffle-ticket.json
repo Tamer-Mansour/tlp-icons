@@ -1,0 +1,11 @@
+{
+  "name": "raffle-ticket",
+  "category": "commerce",
+  "tags": ["raffle", "ticket", "lottery", "draw", "prize", "number", "stub"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a2 2 0 0 0 0-4V6a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M15 6v1.5M15 10.5v3M15 16.5v1.5\"/><path class=\"p3\" d=\"M7 9.5h3.5L8.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

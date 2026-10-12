@@ -1,0 +1,12 @@
+{
+  "name": "manifest-list",
+  "category": "commerce",
+  "tags": ["manifest", "list", "clipboard", "checklist", "inventory", "shipping", "items"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8.5 10h.01M8.5 14h.01M8.5 18h.01\"/><path class=\"p4\" d=\"M12 10h4M12 14h4M12 18h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

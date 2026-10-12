@@ -1,0 +1,11 @@
+{
+  "name": "renko-bricks",
+  "category": "finance",
+  "tags": ["renko", "bricks", "chart", "trend", "trading", "price action"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"15\" width=\"5\" height=\"5\" rx=\"0.5\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"5\" height=\"5\" rx=\"0.5\"/><rect class=\"d p3\" x=\"16\" y=\"3\" width=\"5\" height=\"5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 700 }
+  ]
+}

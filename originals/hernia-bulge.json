@@ -1,0 +1,28 @@
+{
+    "name":  "hernia-bulge",
+    "category":  "health",
+    "tags":  [
+                 "hernia",
+                 "bulge",
+                 "abdomen",
+                 "stomach",
+                 "surgery",
+                 "belly"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 4h14v11a7 7 0 0 1-14 0z\"/\u003e\u003cpath class=\"p2\" d=\"M19 11a3.5 3.5 0 0 1 0 6\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "origin":  "19px 14px",
+                       "delay":  700,
+                       "anim":  "pop",
+                       "part":  "p2",
+                       "dur":  700
+                   }
+               ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "variant-grid",
+  "category": "commerce",
+  "tags": [
+    "variant",
+    "grid",
+    "options",
+    "sku",
+    "product",
+    "colors"
+  ],
+  "svg": "<g class=\"p1\"><rect x=\"3\" y=\"3\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/><rect x=\"13.5\" y=\"3\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/><rect x=\"3\" y=\"13.5\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/><rect x=\"13.5\" y=\"13.5\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/></g><g class=\"p2\"><circle class=\"f\" cx=\"6.75\" cy=\"6.75\" r=\"1.5\"/><circle class=\"f\" cx=\"17.25\" cy=\"6.75\" r=\"1.5\"/><circle class=\"f\" cx=\"6.75\" cy=\"17.25\" r=\"1.5\"/><circle class=\"f\" cx=\"17.25\" cy=\"17.25\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "respirator-mask",
+  "category": "health",
+  "tags": [
+    "respirator",
+    "mask",
+    "n95",
+    "breathing",
+    "protection",
+    "infection"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16c0 5-3.6 9-8 9s-8-4-8-9z\"/><path class=\"p2\" d=\"M4 11V7M20 11V7\"/><g class=\"p3\"><circle cx=\"8.5\" cy=\"15.5\" r=\"1.8\"/><circle cx=\"15.5\" cy=\"15.5\" r=\"1.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

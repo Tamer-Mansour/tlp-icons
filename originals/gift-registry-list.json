@@ -1,0 +1,33 @@
+{
+    "name":  "gift-registry-list",
+    "category":  "commerce",
+    "tags":  [
+                 "gift",
+                 "registry",
+                 "wishlist",
+                 "list",
+                 "present",
+                 "wedding"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"1.5\"/\u003e\u003cpath class=\"p2\" d=\"M3 7h18v3H3zM12 7v14\"/\u003e\u003cpath class=\"p3\" d=\"M12 7C9 7 8 3.5 10 3.5S12 7 12 7zM12 7c3 0 4-3.5 2-3.5S12 7 12 7z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

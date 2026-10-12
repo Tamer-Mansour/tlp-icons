@@ -1,0 +1,11 @@
+{
+  "name": "single-ride-ticket",
+  "category": "maps",
+  "tags": ["ticket", "ride", "single", "transit", "pass", "tear", "admission"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M15 7v2M15 11v2M15 15v2\"/><path class=\"p3\" d=\"M5.5 10h6M5.5 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

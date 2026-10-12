@@ -1,0 +1,12 @@
+{
+  "name": "split-bill-slip",
+  "category": "finance",
+  "tags": ["split", "bill", "receipt", "slip", "cut", "share", "expense"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h14v8l-2-1-2 1-2-1-2 1-2-1-2 1-2-1-2 1z\"/><path class=\"d p2\" d=\"M5 14l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1v7H5z\"/><path class=\"p3\" d=\"M9 5.5h6\"/><path class=\"p4\" d=\"M9 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

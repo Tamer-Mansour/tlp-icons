@@ -1,0 +1,33 @@
+{
+    "name":  "hip-implant",
+    "category":  "health",
+    "tags":  [
+                 "hip",
+                 "implant",
+                 "joint",
+                 "prosthesis",
+                 "ball",
+                 "surgery"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"7.5\" cy=\"7.5\" r=\"3.5\"/\u003e\u003cpath class=\"p2\" d=\"M10 10l3 3\"/\u003e\u003cpath class=\"d p3\" d=\"M12 11.5 17 9.5 19.5 15.5 14.5 21 10 16.5Z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "grow",
+                       "dur":  700,
+                       "delay":  600
+                   }
+               ]
+}

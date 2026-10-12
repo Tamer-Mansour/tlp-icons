@@ -1,0 +1,18 @@
+{
+  "name": "shelf-edge-label",
+  "category": "commerce",
+  "tags": [
+    "shelf",
+    "label",
+    "price",
+    "barcode",
+    "retail",
+    "store"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M5 10v4M7.5 10v4M10 10v4\"/></g><path class=\"p3\" d=\"M14 10h5M14 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

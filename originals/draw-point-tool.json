@@ -1,0 +1,11 @@
+{
+  "name": "draw-point-tool",
+  "category": "maps",
+  "tags": ["crosshair", "point", "draw tool", "map tool", "target", "precision"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 2v2M12 20v2M2 12h2M20 12h2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

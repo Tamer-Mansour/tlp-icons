@@ -1,0 +1,11 @@
+{
+  "name": "ovulation-test-strip",
+  "category": "health",
+  "tags": ["ovulation", "test", "strip", "fertility", "moon", "pregnancy", "cycle"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"6\" height=\"16\" rx=\"1.5\"/><rect class=\"p2\" x=\"6.5\" y=\"5\" width=\"3\" height=\"5\" rx=\"0.5\"/><path class=\"p3\" d=\"M18 12a4.5 4.5 0 1 0 3.5 7 3.5 3.5 0 0 1-3.5-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

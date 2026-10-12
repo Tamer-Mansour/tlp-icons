@@ -1,0 +1,33 @@
+{
+    "name":  "currency-lempira",
+    "category":  "finance",
+    "tags":  [
+                 "lempira",
+                 "currency",
+                 "coin",
+                 "money",
+                 "honduras",
+                 "L"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"p2\" d=\"M10 7.5v9h5\"/\u003e\u003cpath class=\"p3\" d=\"M8 11.5h5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "vertigo-spiral",
+  "category": "health",
+  "tags": ["vertigo", "dizzy", "spiral", "head", "balance", "dizziness", "spin"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M12 2.5a9.5 9.5 0 1 1-9.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 300 }
+  ]
+}

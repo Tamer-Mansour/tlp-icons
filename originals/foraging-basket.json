@@ -1,0 +1,19 @@
+{
+  "name": "foraging-basket",
+  "category": "maps",
+  "tags": [
+    "foraging",
+    "basket",
+    "berries",
+    "forage",
+    "harvest",
+    "gather",
+    "picking"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18l-2 9H5z\"/><circle class=\"p2\" cx=\"8.5\" cy=\"6.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"14.5\" cy=\"6.5\" r=\"2.5\"/><path class=\"p3\" d=\"M7 15.5h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

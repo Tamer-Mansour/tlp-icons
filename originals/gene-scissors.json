@@ -1,0 +1,28 @@
+{
+    "name":  "gene-scissors",
+    "category":  "health",
+    "tags":  [
+                 "gene",
+                 "scissors",
+                 "dna",
+                 "helix",
+                 "crispr",
+                 "edit",
+                 "genetics"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M8 3c0 6 8 6 8 9s-8 3-8 9\"/\u003e\u003cpath class=\"p1\" d=\"M16 3c0 6-8 6-8 9s8 3 8 9\"/\u003e\u003cpath class=\"p2\" d=\"M2 12h3M19 12h3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "growX",
+                       "dur":  500,
+                       "delay":  800
+                   }
+               ]
+}

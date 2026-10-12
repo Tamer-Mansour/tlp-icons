@@ -1,0 +1,11 @@
+{
+  "name": "fire-station-building",
+  "category": "maps",
+  "tags": ["fire station", "firehouse", "fire", "engine", "bell tower", "emergency", "building"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V10h18v11z\"/><path class=\"p2\" d=\"M8 10V5.5l4-3 4 3V10\"/><path class=\"p3\" d=\"M7 14h10v7H7zM7 17.5h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 700 }
+  ]
+}

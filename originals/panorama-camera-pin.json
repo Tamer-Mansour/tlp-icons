@@ -1,0 +1,27 @@
+{
+    "name":  "panorama-camera-pin",
+    "category":  "maps",
+    "tags":  [
+                 "panorama",
+                 "camera",
+                 "view",
+                 "photo",
+                 "sweep",
+                 "scenic"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M6 14l4-4 3 3 2-2 3 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  400
+                   }
+               ]
+}

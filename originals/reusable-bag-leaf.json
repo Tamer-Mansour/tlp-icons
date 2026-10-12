@@ -1,0 +1,11 @@
+{
+  "name": "reusable-bag-leaf",
+  "category": "commerce",
+  "tags": ["reusable", "bag", "tote", "eco", "leaf", "green", "sustainable"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 9V6.5a3 3 0 0 1 6 0V9\"/><g class=\"p3\"><path d=\"M9.5 18c0-3.5 2-5 6-5 0 4-2 5-6 5z\"/><path d=\"M9.5 18l6-5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

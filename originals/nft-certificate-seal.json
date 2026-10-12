@@ -1,0 +1,19 @@
+{
+  "name": "nft-certificate-seal",
+  "category": "finance",
+  "tags": [
+    "nft",
+    "certificate",
+    "seal",
+    "badge",
+    "token",
+    "authenticity",
+    "digital"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 2h11l4 4v8H4z\"/><path class=\"p2\" d=\"M8 8h7M8 11h4\"/><circle class=\"d p3\" cx=\"16\" cy=\"17\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700, "origin": "16px 17px" }
+  ]
+}

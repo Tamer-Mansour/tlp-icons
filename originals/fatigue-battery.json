@@ -1,0 +1,11 @@
+{
+  "name": "fatigue-battery",
+  "category": "health",
+  "tags": ["fatigue", "battery", "tired", "energy", "exhaustion", "low", "body"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"8\" r=\"2.5\"/><path class=\"p1\" d=\"M2.5 21v-5a3.5 3.5 0 0 1 7 0v5\"/><rect class=\"d p2\" x=\"14\" y=\"8\" width=\"7\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M16.5 8V6h3v2\"/><path class=\"p3\" d=\"M16.5 15.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000 }
+  ]
+}

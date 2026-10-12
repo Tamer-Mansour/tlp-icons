@@ -1,0 +1,10 @@
+{
+  "name": "check-out-door",
+  "category": "maps",
+  "tags": ["check out", "door", "exit", "leave", "hotel", "departure", "arrow"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"9\" height=\"18\" rx=\"1\"/><g class=\"p2\"><path d=\"M14 12h7\"/><path d=\"M18 8l4 4-4 4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 350 }
+  ]
+}

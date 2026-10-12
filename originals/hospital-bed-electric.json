@@ -1,0 +1,34 @@
+{
+  "name": "hospital-bed-electric",
+  "category": "health",
+  "tags": [
+    "hospital",
+    "bed",
+    "electric",
+    "patient",
+    "ward",
+    "adjustable",
+    "medical"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 12V4.5M3 8.5l6 3.5\"/><g class=\"p3\"><path d=\"M6 16v4M18 16v4\"/><path d=\"M16 6.5l-1.5 2.5h2.5l-1.5 2.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

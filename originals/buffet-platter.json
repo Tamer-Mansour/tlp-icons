@@ -1,0 +1,13 @@
+{
+  "name": "buffet-platter",
+  "category": "maps",
+  "tags": ["buffet", "platter", "dome", "lid", "ladle", "serving"],
+  "svg": "<path class=\"d p1\" d=\"M1.5 16a7 7 0 0 1 14 0z\"/><path class=\"p2\" d=\"M8.5 9V5\"/><path class=\"p3\" d=\"M1.5 18.5h14\"/><path class=\"p4\" d=\"M19.5 4v9\"/><path class=\"d p5\" d=\"M17 13a2.5 2.5 0 0 0 5 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

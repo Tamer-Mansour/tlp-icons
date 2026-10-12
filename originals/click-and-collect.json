@@ -1,0 +1,19 @@
+{
+  "name": "click-and-collect",
+  "category": "commerce",
+  "tags": [
+    "click",
+    "collect",
+    "bag",
+    "pickup",
+    "clock",
+    "shopping"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"11\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 7V5.5a2.5 2.5 0 0 1 5 0V7\"/><circle class=\"d p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"M18 14.8v2.4l1.6 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "spin", "dur": 1400, "delay": 900, "origin": "18px 16.5px" }
+  ]
+}

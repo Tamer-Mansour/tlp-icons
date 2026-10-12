@@ -1,0 +1,34 @@
+{
+  "name": "diaper-cream-tube",
+  "category": "health",
+  "tags": [
+    "diaper",
+    "cream",
+    "tube",
+    "baby",
+    "ointment",
+    "rash",
+    "barrier"
+  ],
+  "svg": "<rect class=\"p2\" x=\"8\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"d p1\" d=\"M6 6h10v13a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z\"/><path class=\"d p3\" d=\"M20 2c0 0-2 2.4-2 3.6a2 2 0 0 0 4 0C22 4.4 20 2 20 2z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "drip",
+      "dur": 1200,
+      "delay": 800
+    }
+  ]
+}

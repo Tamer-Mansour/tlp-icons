@@ -1,0 +1,19 @@
+{
+  "name": "baby-food-jar",
+  "category": "health",
+  "tags": [
+    "baby",
+    "food",
+    "jar",
+    "spoon",
+    "feeding",
+    "infant",
+    "puree"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 7h10v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"3.5\" y=\"3\" width=\"11\" height=\"4\" rx=\"1\"/><g class=\"p3\"><ellipse cx=\"18\" cy=\"6\" rx=\"2\" ry=\"3.5\"/><path d=\"M18 9.5V21\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

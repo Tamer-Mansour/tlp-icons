@@ -1,0 +1,12 @@
+{
+  "name": "lighthouse-beacon-rays",
+  "category": "maps",
+  "tags": ["lighthouse", "beacon", "rays", "light", "coast", "harbor", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 21 9.5 10h5l1 11z\"/><path class=\"p4\" d=\"M9.1 14.5h5.8M8.9 18h6.2\"/><rect class=\"p2\" x=\"9\" y=\"5.5\" width=\"6\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M2.5 7h3.5M18 7h3.5M5 3.5l1.8 1.8M19 3.5l-1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1100 }
+  ]
+}

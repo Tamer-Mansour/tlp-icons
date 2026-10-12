@@ -1,0 +1,33 @@
+{
+  "name": "depth-sounding-marker",
+  "category": "maps",
+  "tags": [
+    "depth",
+    "sounding",
+    "water",
+    "sea",
+    "marker",
+    "ocean"
+  ],
+  "svg": "<path class=\"p1\" d=\"M9 3v10M9 7h3\"/><path class=\"p2\" d=\"m6.5 10.5 2.5 3 2.5-3\"/><path class=\"p3\" d=\"M3 19c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0 3 2 4.5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 500,
+      "delay": 600
+    },
+    {
+      "part": "p3",
+      "anim": "wave",
+      "dur": 1400,
+      "delay": 900
+    }
+  ]
+}

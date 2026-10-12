@@ -1,0 +1,11 @@
+{
+  "name": "log-cabin",
+  "category": "maps",
+  "tags": ["log", "cabin", "cottage", "lodge", "wood", "retreat", "holiday", "stay"],
+  "svg": "<path class=\"d p1\" d=\"M4.5 21V10.5L12 4l7.5 6.5V21z\"/><path class=\"p2\" d=\"M4.5 14.5h15\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "shipping-label",
+  "category": "commerce",
+  "tags": [
+    "shipping",
+    "label",
+    "address",
+    "barcode",
+    "parcel",
+    "delivery",
+    "package"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M5 4h2M11 4h2M17 4h2M5 20h2M11 20h2M17 20h2M3 6v2M3 12v2M21 6v2M21 12v2\"/></g><path class=\"p2\" d=\"M7 8h10\"/><path class=\"p3\" d=\"M7 11v5M11 11v5M15 11v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 600 }
+  ]
+}

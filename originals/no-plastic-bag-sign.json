@@ -1,0 +1,19 @@
+{
+  "name": "no-plastic-bag-sign",
+  "category": "commerce",
+  "tags": [
+    "no plastic",
+    "plastic bag",
+    "prohibited",
+    "ban",
+    "eco",
+    "environment",
+    "single use"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><g class=\"p2\"><path d=\"M7 9.5h10l-1 9.5H8z\"/><path d=\"M10 9.5V7.5a2 2 0 0 1 4 0v2\"/></g><path class=\"p3\" d=\"M5.5 5.5l13 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "patient-hoist",
+  "category": "health",
+  "tags": ["patient", "hoist", "lift", "transfer", "sling", "care", "mobility"],
+  "svg": "<path class=\"p1\" d=\"M2 3h20\"/><path class=\"p2\" d=\"M12 3v3.5M12 6.5l-6 4.5M12 6.5l6 4.5\"/><path class=\"d p3\" d=\"M5.5 11c0 5 3 8.5 6.5 8.5s6.5-3.5 6.5-8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "fillIn", "dur": 800, "delay": 600 }
+  ]
+}

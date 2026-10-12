@@ -1,0 +1,29 @@
+{
+    "name":  "tumor-mass",
+    "category":  "health",
+    "tags":  [
+                 "tumor",
+                 "mass",
+                 "lump",
+                 "growth",
+                 "tissue",
+                 "oncology",
+                 "biopsy"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "origin":  "center",
+                       "delay":  600,
+                       "anim":  "pop",
+                       "part":  "p2",
+                       "dur":  800
+                   }
+               ]
+}

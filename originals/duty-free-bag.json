@@ -1,0 +1,11 @@
+{
+  "name": "duty-free-bag",
+  "category": "maps",
+  "tags": ["duty free", "shopping", "bag", "tax free", "airport", "tag", "shop"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h13l-1 13H4z\"/><path class=\"p2\" d=\"M7 8V6a3.5 3.5 0 0 1 7 0v2\"/><g class=\"p3\"><rect x=\"17.5\" y=\"11\" width=\"4.5\" height=\"8\" rx=\"1\"/><path d=\"M18.5 15h2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "swingIn", "dur": 800, "delay": 700 }
+  ]
+}

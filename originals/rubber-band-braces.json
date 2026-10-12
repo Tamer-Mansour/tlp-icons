@@ -1,0 +1,33 @@
+{
+  "name": "rubber-band-braces",
+  "category": "health",
+  "tags": [
+    "braces",
+    "orthodontic",
+    "rubber band",
+    "elastic",
+    "dental",
+    "teeth"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"6\" height=\"8\" rx=\"1.500\"/><rect class=\"d p2\" x=\"16\" y=\"8\" width=\"6\" height=\"8\" rx=\"1.500\"/><path class=\"p3\" d=\"M8 12h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "stretch",
+      "dur": 900,
+      "delay": 800
+    }
+  ]
+}

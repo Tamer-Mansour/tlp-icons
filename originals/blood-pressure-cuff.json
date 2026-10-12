@@ -1,0 +1,41 @@
+{
+  "name": "blood-pressure-cuff",
+  "category": "health",
+  "tags": [
+    "blood",
+    "pressure",
+    "cuff",
+    "gauge",
+    "sphygmomanometer",
+    "monitor",
+    "heart"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"12\" width=\"13\" height=\"7\" rx=\"3.5\"/><path class=\"p2\" d=\"M8.5 12V8a2 2 0 0 1 2-2h3\"/><circle class=\"p3\" cx=\"17\" cy=\"6\" r=\"4\"/><path class=\"p4\" d=\"M17 6l2-1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 700
+    },
+    {
+      "part": "p4",
+      "anim": "swing",
+      "dur": 900,
+      "delay": 1100,
+      "origin": "17px 6px"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "water-flosser",
+  "category": "health",
+  "tags": ["water", "flosser", "dental", "oral", "teeth", "jet", "gums", "hygiene"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8.5\" width=\"10\" height=\"7\" rx=\"3.5\"/><rect class=\"p2\" x=\"12\" y=\"10.5\" width=\"4\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M17.5 9H21M18.5 12H21.5M17.5 15H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 600 }
+  ]
+}

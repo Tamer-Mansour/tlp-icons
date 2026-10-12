@@ -1,0 +1,11 @@
+{
+  "name": "roaming-signal",
+  "category": "maps",
+  "tags": ["roaming", "signal", "phone", "globe", "travel", "abroad", "mobile", "data"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M5 14v3M9 11v6\"/><g class=\"p3\"><circle cx=\"18\" cy=\"14\" r=\"4\"/><path d=\"M18 10c-1.8 1.4-1.8 6.6 0 8\"/><path d=\"M14 14h8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

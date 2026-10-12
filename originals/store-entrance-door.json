@@ -1,0 +1,11 @@
+{
+  "name": "store-entrance-door",
+  "category": "commerce",
+  "tags": ["store", "entrance", "door", "shop", "glass door", "push bar", "entry"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M12 3v18\"/><g class=\"p3\"><path d=\"M6.5 12h3\"/><path d=\"M14.5 12h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "press", "dur": 800, "delay": 1000 }
+  ]
+}

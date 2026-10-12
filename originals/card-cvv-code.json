@@ -1,0 +1,11 @@
+{
+  "name": "card-cvv-code",
+  "category": "commerce",
+  "tags": ["card", "cvv", "code", "security", "back", "payment", "digits"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 9.5h20\"/><g class=\"p3\"><rect x=\"12\" y=\"12.5\" width=\"7\" height=\"3.5\" rx=\"1\"/><path d=\"M14 14.25h.01M16 14.25h.01M18 14.25h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

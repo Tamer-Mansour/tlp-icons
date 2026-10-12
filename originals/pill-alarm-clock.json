@@ -1,0 +1,19 @@
+{
+  "name": "pill-alarm-clock",
+  "category": "health",
+  "tags": [
+    "pill",
+    "medication",
+    "reminder",
+    "alarm",
+    "clock",
+    "dose",
+    "schedule"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><rect class=\"d p2\" x=\"6.5\" y=\"11\" width=\"11\" height=\"4\" rx=\"2\" transform=\"rotate(-45 12 13)\"/><path class=\"p3\" d=\"M5 3 2 6M22 6l-3-3\"/><path d=\"M6 19l-2 2M18 19l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

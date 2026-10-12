@@ -1,0 +1,34 @@
+{
+  "name": "invoice-overdue",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "overdue",
+    "late",
+    "bill",
+    "payment",
+    "clock"
+  ],
+  "svg": "<path class=\"p1\" d=\"M19 12V7l-5-5H5v18h6.5\"/><path class=\"p2\" d=\"M9 9h6M9 13h2\"/><g class=\"p3\"><circle class=\"d\" cx=\"17\" cy=\"17\" r=\"4.5\"/><path d=\"M17 14.5V17l1.5 1\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 900,
+      "origin": "17px 17px"
+    }
+  ]
+}

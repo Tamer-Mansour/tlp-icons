@@ -1,0 +1,11 @@
+{
+  "name": "condo-policy-tower",
+  "category": "finance",
+  "tags": ["condo", "policy", "insurance", "building", "tower", "shield", "homeowners"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"9\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M6 13h3M6 16.5h3M6 20h3\"/><path class=\"d p3\" d=\"M18.5 2.5l3 1.3v3c0 2.5-1.5 4-3 4.9-1.5-.9-3-2.4-3-4.9v-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "card-terminal",
+  "category": "commerce",
+  "tags": [
+    "card",
+    "terminal",
+    "reader",
+    "keypad",
+    "payment",
+    "pos"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M7 6h10\"/><path class=\"p3\" d=\"M8.5 11h.01M12 11h.01M15.5 11h.01M8.5 15h.01M12 15h.01M15.5 15h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 600,
+      "origin": "center"
+    }
+  ]
+}

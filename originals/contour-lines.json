@@ -1,0 +1,18 @@
+{
+  "name": "contour-lines",
+  "category": "maps",
+  "tags": [
+    "contour",
+    "topography",
+    "elevation",
+    "map",
+    "terrain",
+    "hill"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5C15.5 2.5 16.5 4.5 19.5 4.5 21 4.5 21.5 7 21.5 9.5 21.5 12.5 20 13.5 20 16 20 19.5 17 21.5 12 21.5 7.5 21.5 4.5 20 3.5 17.5 2.5 15 2.5 13.5 2.5 11.5 2.5 6 7 2.5 12 2.5Z\"/><path class=\"p2\" d=\"M12 6.5c2.8 0 5.5 1.7 5.5 5.5S14.8 17.5 12 17.5 6.5 15.3 6.5 12 9.2 6.5 12 6.5z\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

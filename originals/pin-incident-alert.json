@@ -1,0 +1,12 @@
+{
+  "name": "pin-incident-alert",
+  "category": "maps",
+  "tags": ["pin", "incident", "alert", "warning", "map", "hazard", "report", "location"],
+  "svg": "<path class=\"d p1\" d=\"M11 21.5C11 21.5 4.5 15 4.5 10.5a6.5 6.5 0 0 1 13 0C17.5 15 11 21.5 11 21.5z\"/><circle class=\"p2\" cx=\"11\" cy=\"10.5\" r=\"2.2\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"M18 14.8v3.2M18 20.2h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

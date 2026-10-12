@@ -1,0 +1,19 @@
+{
+  "name": "scalping-stopwatch",
+  "category": "finance",
+  "tags": [
+    "scalping",
+    "stopwatch",
+    "candle",
+    "trading",
+    "timer",
+    "speculate"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"7.5\"/><path class=\"p2\" d=\"M10 2.5h4M12 2.5V6\"/><rect class=\"p3\" x=\"10.5\" y=\"13\" width=\"3\" height=\"5.5\" rx=\"0.5\"/><path class=\"p4\" d=\"M12 8.5c1.2 1.2 1.2 2.4 0 3.2-1.2-.8-1.2-2 0-3.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

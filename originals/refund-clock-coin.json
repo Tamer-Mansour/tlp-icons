@@ -1,0 +1,34 @@
+{
+  "name": "refund-clock-coin",
+  "category": "commerce",
+  "tags": [
+    "refund",
+    "clock",
+    "coin",
+    "money",
+    "return",
+    "time",
+    "payback"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M11 8.5V13l2.5 1.5\"/><circle class=\"p3\" cx=\"19\" cy=\"4\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 900,
+      "delay": 600
+    }
+  ]
+}

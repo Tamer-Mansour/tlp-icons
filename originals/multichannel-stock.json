@@ -1,0 +1,11 @@
+{
+  "name": "multichannel-stock",
+  "category": "commerce",
+  "tags": ["multichannel", "stock", "inventory", "channels", "sync", "warehouse", "merge"],
+  "svg": "<g class=\"p1\"><circle cx=\"4\" cy=\"6\" r=\"2\"/><circle cx=\"4\" cy=\"12\" r=\"2\"/><circle cx=\"4\" cy=\"18\" r=\"2\"/></g><path class=\"p2\" d=\"M6 6c4 0 4 6 8 6M6 12h8M6 18c4 0 4-6 8-6\"/><rect class=\"d p3\" x=\"14\" y=\"8\" width=\"7\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

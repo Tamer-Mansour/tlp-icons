@@ -1,0 +1,20 @@
+{
+  "name": "checkout-coin-cart",
+  "category": "finance",
+  "tags": [
+    "checkout",
+    "cart",
+    "coin",
+    "shopping",
+    "purchase",
+    "payment",
+    "buy"
+  ],
+  "svg": "<path class=\"p3\" d=\"M3 3h2.5l2.5 14h10\"/><path class=\"d p1\" d=\"M9 7h12l-2 6.5H10.5z\"/><circle class=\"d p2\" cx=\"14.5\" cy=\"10.3\" r=\"2.3\"/><circle class=\"p4\" cx=\"9\" cy=\"20\" r=\"1\"/><circle class=\"p4\" cx=\"18\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "rollIn", "dur": 800, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "generic-swap",
+  "category": "health",
+  "tags": [
+    "generic",
+    "swap",
+    "pill",
+    "medication",
+    "substitute",
+    "equivalent"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"9\" height=\"4\" rx=\"2\"/><rect class=\"d p2\" x=\"13\" y=\"16\" width=\"9\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M4 10h14M15 7.5 18 10l-3 2.5\"/><path class=\"p4\" d=\"M20 14H6M9 11.5 6 14l3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

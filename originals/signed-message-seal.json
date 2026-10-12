@@ -1,0 +1,12 @@
+{
+  "name": "signed-message-seal",
+  "category": "finance",
+  "tags": ["signed", "seal", "signature", "wax seal", "document", "pen", "authorised"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"11\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 7h5M7 10h4\"/><path class=\"p3\" d=\"M12.5 13l.5-2.5L19.5 4l2 2-6.5 6.5z\"/><circle class=\"d p4\" cx=\"16\" cy=\"17.5\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1100, "origin": "16px 17.5px" }
+  ]
+}

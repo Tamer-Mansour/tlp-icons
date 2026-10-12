@@ -1,0 +1,11 @@
+{
+  "name": "security-tag-pin",
+  "category": "commerce",
+  "tags": ["security", "tag", "pin", "anti-theft", "retail", "store", "label"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"2.2\"/><path class=\"p3\" d=\"M11.4 12H21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

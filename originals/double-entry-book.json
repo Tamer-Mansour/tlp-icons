@@ -1,0 +1,18 @@
+{
+  "name": "double-entry-book",
+  "category": "finance",
+  "tags": [
+    "ledger",
+    "accounting",
+    "double entry",
+    "bookkeeping",
+    "balance",
+    "book"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5C10.5 5 7.5 4.5 3 5v13.5c4.5-.5 7.5 0 9 1.5z\"/><path class=\"d p1\" d=\"M12 6.5c1.5-1.5 4.5-2 9-1.5v13.5c-4.5-.5-7.5 0-9 1.5z\"/><path class=\"p2\" d=\"M6 9h3M6 12h3\"/><path class=\"p3\" d=\"M15 10.5h3.5M15 13.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

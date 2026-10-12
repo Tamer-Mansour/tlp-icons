@@ -1,0 +1,11 @@
+{
+  "name": "cubic-volume",
+  "category": "commerce",
+  "tags": ["cube", "volume", "box", "3d", "dimension", "capacity"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5l8 4.5v10l-8 4.5-8-4.5V7z\"/><path class=\"p2\" d=\"M4 7l8 4.5 8-4.5\"/><rect class=\"p3\" x=\"8\" y=\"13.5\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

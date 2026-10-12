@@ -1,0 +1,18 @@
+{
+  "name": "buyer-approval",
+  "category": "commerce",
+  "tags": [
+    "buyer",
+    "approval",
+    "approved",
+    "verified",
+    "customer",
+    "shopper"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"7.5\" r=\"4\"/><path class=\"p2\" d=\"M2 21v-1.5a4.5 4.5 0 0 1 4.5-4.5h3a4.5 4.5 0 0 1 4.5 4.5V21\"/><g class=\"p3\"><circle class=\"d\" cx=\"18.5\" cy=\"16.5\" r=\"3.5\"/><path d=\"M16.8 16.5l1.2 1.2 2.4-2.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

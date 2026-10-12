@@ -1,0 +1,11 @@
+{
+  "name": "scenic-overlook-sign",
+  "category": "maps",
+  "tags": ["scenic", "overlook", "viewpoint", "sign", "mountain", "eye"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M4.5 14.5 9 10.5l2.5 2.5 2-1.5 3.5 2.5\"/><path class=\"p3\" d=\"M7 6.5c1.7-2.6 8.3-2.6 10 0-1.7 2.6-8.3 2.6-10 0z\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"2\"/><path d=\"M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "whitening-tray",
+  "category": "health",
+  "tags": ["whitening", "teeth", "tray", "dental", "bleach", "smile"],
+  "svg": "<path class=\"p1\" d=\"M4 3h4v5a2 2 0 0 1-4 0zM10 3h4v5a2 2 0 0 1-4 0zM16 3h4v5a2 2 0 0 1-4 0z\"/><path class=\"d p2\" d=\"M3 12h18v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 300 }
+  ]
+}

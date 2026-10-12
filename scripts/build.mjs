@@ -292,7 +292,8 @@ if (writeSvgFiles) {
 
 // ------------------------------------------------------------------ minify + size report
 minifyDist(ROOT, DIST, header);
-const sizes = sizeReport(DIST, { elementCore: 8 * 1024, manifest: 15 * 1024 });
+// the manifest grows with the icon count (~1.4 bytes gzip per name); 20 KB covers about 15,000 icons
+const sizes = sizeReport(DIST, { elementCore: 8 * 1024, manifest: 20 * 1024 });
 fs.writeFileSync(path.join(DIST, 'size-report.json'), `${JSON.stringify({ version: pkg.version, manifestBeforeAfter: manifestSizes, ...sizes }, null, 2)}\n`);
 if (outRoot === ROOT) {
   // the offline single-file bundle (runtime + every icon) ships in tlp-icons-data, keeping tlp-icons small

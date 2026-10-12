@@ -1,0 +1,19 @@
+{
+  "name": "savings-piggy-coin",
+  "category": "finance",
+  "tags": [
+    "savings",
+    "piggy bank",
+    "coin",
+    "deposit",
+    "save money",
+    "fund"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"8\" ry=\"6\"/><path class=\"p2\" d=\"M7.5 18.5V21M14.5 18.5V21M7.5 8.2l1-2.7 2.5 2M19 11h2.5v4H19\"/><path class=\"p3\" d=\"M9 7.5h5\"/><circle class=\"d p4\" cx=\"11\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "dropIn", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mood-dial",
+  "category": "health",
+  "tags": [
+    "mood",
+    "dial",
+    "emotion",
+    "feeling",
+    "happiness",
+    "meter",
+    "smile"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4.5 17a7.5 7.5 0 0 1 15 0z\"/><path class=\"p2\" d=\"M12 17l3.1-6.2\"/><circle class=\"p3\" cx=\"18\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 600, "origin": "12px 17px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

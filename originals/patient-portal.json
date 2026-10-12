@@ -1,0 +1,20 @@
+{
+  "name": "patient-portal",
+  "category": "health",
+  "tags": [
+    "patient",
+    "portal",
+    "clinic",
+    "door",
+    "keyhole",
+    "medical",
+    "access",
+    "health"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"11\" height=\"20\" rx=\"1.5\"/><g class=\"p2\"><circle cx=\"8.5\" cy=\"10.5\" r=\"1.2\"/><path d=\"M8.5 12.5V15\"/></g><g class=\"p3\"><path d=\"M19 13v6M16 16h6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sku-label",
+  "category": "commerce",
+  "tags": ["sku", "label", "tag", "barcode", "product code", "stock", "inventory"],
+  "svg": "<path class=\"d p1\" d=\"M9 4h11v16H9l-6-8z\"/><path class=\"p2\" d=\"M12.5 8.5v7M16.5 8.5v7\"/><path class=\"p3\" d=\"M6.5 12h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

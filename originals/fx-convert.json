@@ -1,0 +1,11 @@
+{
+  "name": "fx-convert",
+  "category": "finance",
+  "tags": ["currency", "exchange", "convert", "forex", "banknote", "rate"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"9\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"12.5\" y=\"13\" width=\"9\" height=\"6\" rx=\"1.5\"/><g class=\"p3\"><path d=\"M14 4.5h6.5M18.5 2.5l2 2-2 2\"/><path d=\"M10 19.5H3.5M5.5 17.5l-2 2 2 2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

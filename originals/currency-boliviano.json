@@ -1,0 +1,11 @@
+{
+  "name": "currency-boliviano",
+  "category": "finance",
+  "tags": ["boliviano", "bolivia", "currency", "money", "coin", "mountain", "hat"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M5.5 17.5 10 13l2.5 2.5 2-2 4 4\"/><path class=\"p3\" d=\"M10 9V8a2 2 0 0 1 4 0v1M8.5 9h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 800 }
+  ]
+}

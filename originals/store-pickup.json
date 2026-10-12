@@ -1,0 +1,11 @@
+{
+  "name": "store-pickup",
+  "category": "commerce",
+  "tags": ["store", "pickup", "bag", "shop", "collect", "storefront"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"9\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 9 4 4h8l1.5 5M6.5 20v-4h2v4\"/><g class=\"p3\"><rect class=\"d\" x=\"15\" y=\"14\" width=\"7\" height=\"7.5\" rx=\"1\"/><path d=\"M16.5 14v-1a2 2 0 0 1 4 0v1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 700 }
+  ]
+}

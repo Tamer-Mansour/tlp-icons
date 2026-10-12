@@ -1,0 +1,10 @@
+{
+  "name": "box-tape",
+  "category": "commerce",
+  "tags": ["box", "tape", "packing", "package", "shipping", "parcel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M10 4v7l2-1.5 2 1.5V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

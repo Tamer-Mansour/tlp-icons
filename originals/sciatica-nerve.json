@@ -1,0 +1,19 @@
+{
+  "name": "sciatica-nerve",
+  "category": "health",
+  "tags": [
+    "sciatica",
+    "nerve",
+    "leg",
+    "pain",
+    "back",
+    "spine",
+    "sciatic"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2.5h8v9l2.5 9.5h-4L10.5 15 9 21.5H5.5L6 11.5z\"/><path class=\"p2\" d=\"M10 4c-1.5 2 1.5 4-.5 7.5S8 17 8 21\"/><path class=\"p3\" d=\"M18 4.5h2.5M18.5 7.5l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1200, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1200 }
+  ]
+}

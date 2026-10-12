@@ -1,0 +1,12 @@
+{
+  "name": "prescription-history",
+  "category": "health",
+  "tags": ["prescription", "medication history", "pill bottle", "refill", "dates", "medicine"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"11\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"2\" y=\"3\" width=\"13\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M6 13h5M6 16.5h3\"/><g class=\"p4\"><circle cx=\"18.5\" cy=\"16\" r=\"3.5\"/><path d=\"M18.5 14.5V16l1 1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "spin", "dur": 900, "delay": 900, "origin": "18.5px 16px" }
+  ]
+}

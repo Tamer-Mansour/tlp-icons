@@ -1,0 +1,18 @@
+{
+  "name": "size-label-tag",
+  "category": "commerce",
+  "tags": [
+    "size",
+    "label",
+    "tag",
+    "clothing",
+    "small",
+    "medium",
+    "large"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7.5 5H20a1.5 1.5 0 0 1 1.5 1.5v11A1.5 1.5 0 0 1 20 19H7.5L3 12z\"/><g class=\"p2\"><polyline points=\"10.5 9 8.5 9 8.5 11.5 10.5 11.5 10.5 14 8.5 14\"/><polyline points=\"12 14 12 9 13.75 12 15.5 9 15.5 14\"/><polyline points=\"17 9 17 14 19.5 14\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 }
+  ]
+}

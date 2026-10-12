@@ -1,0 +1,11 @@
+{
+  "name": "suspension-bridge",
+  "category": "maps",
+  "tags": ["bridge", "suspension", "cable", "tower", "span", "crossing"],
+  "svg": "<path class=\"p1\" d=\"M7 21V5M17 21V5\"/><path class=\"d p2\" d=\"M2 16h20\"/><path class=\"p3\" d=\"M7 5c2.5 6 7.5 6 10 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 700 }
+  ]
+}

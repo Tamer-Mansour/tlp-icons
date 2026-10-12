@@ -1,0 +1,27 @@
+{
+  "name": "breakout-arrow",
+  "category": "finance",
+  "tags": [
+    "breakout",
+    "arrow",
+    "pierce",
+    "rectangle",
+    "box",
+    "growth"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"14\" height=\"9\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M7 19 18 6\"/><path d=\"M12 6h6v6\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    }
+  ]
+}

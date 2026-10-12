@@ -1,0 +1,20 @@
+{
+  "name": "supplier-map",
+  "category": "commerce",
+  "tags": [
+    "supplier",
+    "map",
+    "globe",
+    "location",
+    "sourcing",
+    "vendor",
+    "factory"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"9.5\" r=\"6.5\"/><ellipse class=\"p2\" cx=\"9.5\" cy=\"9.5\" rx=\"3\" ry=\"6.5\"/><path class=\"p3\" d=\"M3 9.5h13\"/><path class=\"d p4\" d=\"M18.5 21.5s-3.5-3.5-3.5-6.2a3.5 3.5 0 0 1 7 0c0 2.7-3.5 6.2-3.5 6.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "dropIn", "dur": 800, "delay": 900 }
+  ]
+}

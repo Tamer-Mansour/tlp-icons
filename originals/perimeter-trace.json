@@ -1,0 +1,10 @@
+{
+  "name": "perimeter-trace",
+  "category": "maps",
+  "tags": ["perimeter", "boundary", "outline", "border", "geofence", "area", "trace"],
+  "svg": "<path class=\"p1\" d=\"M3 15V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v7\"/><path class=\"p2\" d=\"M6 20h3M11 20h2M15 20h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

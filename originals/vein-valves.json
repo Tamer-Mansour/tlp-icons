@@ -1,0 +1,27 @@
+{
+    "name":  "vein-valves",
+    "category":  "health",
+    "tags":  [
+                 "vein",
+                 "valve",
+                 "blood",
+                 "vessel",
+                 "circulation",
+                 "flap"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M7 10l5 4 5-4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "pop",
+                       "dur":  900,
+                       "delay":  500
+                   }
+               ]
+}

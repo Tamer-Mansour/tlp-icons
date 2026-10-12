@@ -1,0 +1,33 @@
+{
+  "name": "dental-probe",
+  "category": "health",
+  "tags": [
+    "dental",
+    "probe",
+    "periodontal",
+    "dentist",
+    "tooth",
+    "measure"
+  ],
+  "svg": "<g transform=\"rotate(45 12 12)\"><rect class=\"d p1\" x=\"10.5\" y=\"12\" width=\"3\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 12V3\"/><path class=\"p3\" d=\"M10 7h4M10 10h4\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

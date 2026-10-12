@@ -1,0 +1,11 @@
+{
+  "name": "cycling-bike-route",
+  "category": "maps",
+  "tags": ["cycling", "bike", "bicycle", "route", "trail", "ride", "path", "map"],
+  "svg": "<g class=\"p1\"><circle cx=\"6\" cy=\"14\" r=\"3\"/><circle cx=\"18\" cy=\"14\" r=\"3\"/></g><path class=\"p2\" d=\"M6 14l4-6h4l4 6M10 8l2 6h-2\"/><g class=\"p3\"><path d=\"M2 21h2M8 21h2M14 21h2M20 21h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 800 }
+  ]
+}

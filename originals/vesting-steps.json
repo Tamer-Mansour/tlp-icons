@@ -1,0 +1,28 @@
+{
+  "name": "vesting-steps",
+  "category": "finance",
+  "tags": [
+    "vesting",
+    "steps",
+    "staircase",
+    "coins",
+    "equity",
+    "schedule",
+    "payout"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 20h5v-5h5v-5h5V6h3\"/><circle class=\"p2\" cx=\"6\" cy=\"9\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "hop",
+      "dur": 1000,
+      "delay": 700
+    }
+  ]
+}

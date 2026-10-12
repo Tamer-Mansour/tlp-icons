@@ -1,0 +1,11 @@
+{
+  "name": "soda-bottle-fizz",
+  "category": "commerce",
+  "tags": ["soda", "bottle", "fizz", "drink", "bubbles", "carbonated", "beverage"],
+  "svg": "<path class=\"d p1\" d=\"M10 4h4v3l2.5 3.5V19a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2v-8.5L10 7z\"/><path class=\"p2\" d=\"M8.5 13h7\"/><g class=\"p3\"><circle cx=\"18\" cy=\"6\" r=\"1.6\"/><circle cx=\"4.5\" cy=\"10\" r=\"1.6\"/><circle cx=\"19\" cy=\"13\" r=\"1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 1000, "delay": 600 }
+  ]
+}

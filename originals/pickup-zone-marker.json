@@ -1,0 +1,28 @@
+{
+  "name": "pickup-zone-marker",
+  "category": "maps",
+  "tags": [
+    "pickup",
+    "zone",
+    "marker",
+    "ride",
+    "car",
+    "location pin",
+    "drop off"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 21 C6 15 5 12 5 9 A7 7 0 0 1 19 9 C19 12 18 15 12 21 Z\"/><path class=\"p2\" d=\"M12 12 V7 M9.500 9 L12 6.500 L14.500 9\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 350
+    }
+  ]
+}

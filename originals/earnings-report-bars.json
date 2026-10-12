@@ -1,0 +1,10 @@
+{
+  "name": "earnings-report-bars",
+  "category": "finance",
+  "tags": ["earnings", "report", "chart", "bars", "revenue", "profit", "results"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8 17v-3M12 17v-6M16 17v-9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 900, "delay": 350, "origin": "bottom" }
+  ]
+}

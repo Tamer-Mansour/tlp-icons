@@ -1,0 +1,11 @@
+{
+  "name": "discount-slider",
+  "category": "commerce",
+  "tags": ["discount", "slider", "percent", "sale", "offer", "price", "adjust"],
+  "svg": "<path class=\"p1\" d=\"M3 12h4M17 12h4\"/><rect class=\"d p2\" x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"3\"/><g class=\"p3\"><path d=\"M14.5 9.5l-5 5\"/><circle cx=\"9.9\" cy=\"9.9\" r=\"0.9\"/><circle cx=\"14.1\" cy=\"14.1\" r=\"0.9\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "order-status-truck-check",
+  "category": "commerce",
+  "tags": ["truck", "delivery", "order", "status", "check", "shipped", "arrived", "tracking"],
+  "svg": "<path class=\"d p1\" d=\"M2 6h12v10H2z\"/><path class=\"p1\" d=\"M14 9h4l3 3v4h-7\"/><path class=\"p2\" d=\"M5 11l2.2 2.2L11 9.4\"/><circle class=\"p3\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

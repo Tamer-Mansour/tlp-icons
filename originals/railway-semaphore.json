@@ -1,0 +1,36 @@
+{
+    "name":  "railway-semaphore",
+    "category":  "maps",
+    "tags":  [
+                 "railway",
+                 "semaphore",
+                 "signal",
+                 "track",
+                 "train",
+                 "rail",
+                 "arm"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 21V3\"/\u003e\u003cpath class=\"d p2\" d=\"M12 5l8 3.5v3L12 8z\"/\u003e\u003cpath class=\"p3\" d=\"M7 21h10\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "grow",
+                       "dur":  700,
+                       "delay":  300,
+                       "origin":  "bottom"
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "swing",
+                       "dur":  1000,
+                       "delay":  1000,
+                       "origin":  "12px 6px"
+                   }
+               ]
+}

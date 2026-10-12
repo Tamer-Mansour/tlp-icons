@@ -1,0 +1,40 @@
+{
+  "name": "lost-parcel-question",
+  "category": "commerce",
+  "tags": [
+    "lost",
+    "parcel",
+    "package",
+    "missing",
+    "question",
+    "delivery",
+    "unknown"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 7l6-3 6 3v8l-6 3-6-3z\"/><path class=\"p2\" d=\"M2 7l6 3 6-3M8 10v8\"/><circle class=\"d p3\" cx=\"16.5\" cy=\"16.5\" r=\"5.5\"/><path class=\"p4\" d=\"M14.6 14.4a2 2 0 1 1 2.9 1.8c-.7.4-.9.9-.9 1.7M16.5 20.2h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 800
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 1100
+    }
+  ]
+}

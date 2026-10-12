@@ -1,0 +1,27 @@
+{
+    "name":  "gallstone-pebble",
+    "category":  "health",
+    "tags":  [
+                 "gallstone",
+                 "gallbladder",
+                 "pebble",
+                 "organ",
+                 "stone",
+                 "digestive"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 14c0-4 3-8 8.5-8S20 9 20 12.5 17 19 12 19s-8-1-8-5z\"/\u003e\u003cpath class=\"p2\" d=\"M9 12c1-1.2 2.2-1.8 3.5-1.8\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   }
+               ]
+}

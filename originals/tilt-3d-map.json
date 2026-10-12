@@ -1,0 +1,10 @@
+{
+  "name": "tilt-3d-map",
+  "category": "maps",
+  "tags": ["map", "3d", "tilt", "terrain", "depth", "plane", "perspective"],
+  "svg": "<path class=\"d p1\" d=\"M3 7l6-2.5 6 2.5 6-2.5v11l-6 2.5-6-2.5-6 2.5z\"/><path class=\"p2\" d=\"M9 4.5v11M15 7v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

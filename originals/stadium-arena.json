@@ -1,0 +1,11 @@
+{
+  "name": "stadium-arena",
+  "category": "maps",
+  "tags": ["stadium", "arena", "sports", "field", "venue", "bowl", "game"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><rect class=\"p2\" x=\"7.5\" y=\"9.5\" width=\"9\" height=\"5\" rx=\"0.5\"/><path class=\"p3\" d=\"M12 9.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

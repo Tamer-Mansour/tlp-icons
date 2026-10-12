@@ -1,0 +1,11 @@
+{
+  "name": "exchange-withdraw-arrow",
+  "category": "finance",
+  "tags": ["withdraw", "exchange", "coin", "arrow", "cash out", "box"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"18\" height=\"7\" rx=\"2\"/><circle class=\"d p2\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p3\" d=\"M19 13V5M16 8l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 1000, "delay": 800 }
+  ]
+}

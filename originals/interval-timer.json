@@ -1,0 +1,19 @@
+{
+  "name": "interval-timer",
+  "category": "health",
+  "tags": [
+    "interval",
+    "timer",
+    "stopwatch",
+    "countdown",
+    "segments",
+    "workout"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"8.5\"/><path class=\"p2\" d=\"M10 2.5h4M12 2.5V5\"/><g class=\"p3\"><path d=\"M12 8.5A5 5 0 0 1 16.92 14.37\"/><path d=\"M16.33 16A5 5 0 0 1 8.79 17.33\"/><path d=\"M7.67 16A5 5 0 0 1 10.29 8.8\"/></g><path class=\"p4\" d=\"M12 13.5V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p4", "anim": "sweep", "dur": 1200, "delay": 800, "origin": "12px 13.5px" }
+  ]
+}

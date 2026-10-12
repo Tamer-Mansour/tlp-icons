@@ -1,0 +1,18 @@
+{
+  "name": "basemap-tiles",
+  "category": "maps",
+  "tags": [
+    "map",
+    "tiles",
+    "basemap",
+    "grid",
+    "road",
+    "layers"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/><g class=\"p2\"><rect x=\"13.5\" y=\"3\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/><rect x=\"3\" y=\"13.5\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/><rect x=\"13.5\" y=\"13.5\" width=\"7.5\" height=\"7.5\" rx=\"1.5\"/></g><path class=\"p3\" d=\"M14.5 19c2-2 3.5-3 6.5-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

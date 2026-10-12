@@ -1,0 +1,12 @@
+{
+  "name": "aging-report",
+  "category": "finance",
+  "tags": ["aging", "report", "receivables", "bars", "chart", "overdue"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"4\" height=\"6.5\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"9\" width=\"4\" height=\"10.5\" rx=\"1\"/><rect class=\"d p3\" x=\"17\" y=\"4\" width=\"4\" height=\"15.5\" rx=\"1\"/><path class=\"p4\" d=\"M2 21.5h20\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 300, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 700, "origin": "bottom" }
+  ]
+}

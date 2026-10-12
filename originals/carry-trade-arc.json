@@ -1,0 +1,33 @@
+{
+  "name": "carry-trade-arc",
+  "category": "finance",
+  "tags": [
+    "carry",
+    "trade",
+    "arc",
+    "currency",
+    "interest",
+    "forex"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"17\" r=\"3\"/><circle class=\"d p2\" cx=\"18\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M7 12.500C9 5.500 15 5.500 17 12.500M14.500 12l2.500.500.500-2.500\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 400
+    }
+  ]
+}

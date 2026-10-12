@@ -1,0 +1,11 @@
+{
+  "name": "fulfillment-center-building",
+  "category": "commerce",
+  "tags": ["warehouse", "fulfillment", "loading", "dock", "shipping", "storage", "box"],
+  "svg": "<path class=\"d p1\" d=\"M2 21V8.5L8 4l6 4.5V21z\"/><path class=\"p2\" d=\"M5.5 21v-6h5v6\"/><g class=\"p3\"><path class=\"d\" d=\"M16 15l3-1.5 3 1.5v6h-6z\"/><path d=\"M16 15l3 1.5 3-1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

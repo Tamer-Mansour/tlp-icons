@@ -1,0 +1,33 @@
+{
+    "name":  "first-notice-phone",
+    "category":  "finance",
+    "tags":  [
+                 "first notice",
+                 "phone",
+                 "alert",
+                 "notification",
+                 "warning",
+                 "call"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M11 18h2\"/\u003e\u003cpath class=\"p3\" d=\"M3 8v6M21 8v6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  700
+                   }
+               ]
+}

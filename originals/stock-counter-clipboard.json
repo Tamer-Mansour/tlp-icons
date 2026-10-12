@@ -1,0 +1,11 @@
+{
+  "name": "stock-counter-clipboard",
+  "category": "commerce",
+  "tags": ["stock", "count", "inventory", "tally", "clipboard", "audit", "counting"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 10v7M12 10v7M16 10v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

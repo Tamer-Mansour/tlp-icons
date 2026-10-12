@@ -1,0 +1,34 @@
+{
+  "name": "quorum-gauge",
+  "category": "finance",
+  "tags": [
+    "quorum",
+    "gauge",
+    "members",
+    "vote",
+    "threshold",
+    "meeting"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 16a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 16l3.5-4\"/><g class=\"p3\"><circle cx=\"5\" cy=\"20\" r=\"1.5\"/><circle cx=\"12\" cy=\"21\" r=\"1.5\"/><circle cx=\"19\" cy=\"20\" r=\"1.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "swingIn",
+      "dur": 700,
+      "delay": 500,
+      "origin": "12px 16px"
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

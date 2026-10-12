@@ -1,0 +1,26 @@
+{
+    "name":  "vocal-cords",
+    "category":  "health",
+    "tags":  [
+                 "vocal cords",
+                 "larynx",
+                 "voice",
+                 "throat",
+                 "speech"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"p2\" d=\"M8 6.5 11 17.5M16 6.5 13 17.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "buzz",
+                       "dur":  900,
+                       "delay":  600
+                   }
+               ]
+}

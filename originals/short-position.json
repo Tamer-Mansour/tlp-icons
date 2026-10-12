@@ -1,0 +1,10 @@
+{
+  "name": "short-position",
+  "category": "finance",
+  "tags": ["short", "position", "trading", "downward", "bearish", "bracket"],
+  "svg": "<path class=\"p1\" d=\"M8 3H4v18h4M16 3h4v18h-4\"/><path class=\"p2\" d=\"M12 5v11M8 12.5l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 400 }
+  ]
+}

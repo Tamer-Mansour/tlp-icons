@@ -1,0 +1,18 @@
+{
+  "name": "check-writing-pen",
+  "category": "finance",
+  "tags": [
+    "check",
+    "cheque",
+    "pen",
+    "write",
+    "payment",
+    "sign"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M6 11h6M6 14h3M14 14h4\"/><path class=\"p3\" d=\"M16 2.5l3.5 3.5L11 14H7.5v-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 500 }
+  ]
+}

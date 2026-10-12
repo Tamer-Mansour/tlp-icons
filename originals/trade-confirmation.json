@@ -1,0 +1,11 @@
+{
+  "name": "trade-confirmation",
+  "category": "finance",
+  "tags": ["trade", "confirmation", "receipt", "check", "stock", "order", "broker"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5z\"/><path class=\"p2\" d=\"M8 10l2.5 2.5L15.5 7.5\"/><path class=\"p3\" d=\"M8.5 15.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

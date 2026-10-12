@@ -1,0 +1,11 @@
+{
+  "name": "lost-parcel-search",
+  "category": "commerce",
+  "tags": ["lost", "parcel", "search", "package", "tracking", "delivery", "missing"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"9\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M2 14.5h9\"/><g class=\"p3\"><circle cx=\"16.5\" cy=\"8.5\" r=\"3.5\"/><path d=\"M19 11l2.5 2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 700, "delay": 600, "origin": "center" }
+  ]
+}

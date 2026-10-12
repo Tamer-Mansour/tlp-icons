@@ -1,0 +1,34 @@
+{
+  "name": "juice-box-straw",
+  "category": "commerce",
+  "tags": [
+    "juice",
+    "box",
+    "straw",
+    "drink",
+    "beverage",
+    "kids",
+    "carton"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"10\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 14h10\"/><path class=\"p3\" d=\"M11 8V4.5A1.5 1.5 0 0 1 12.5 3H18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

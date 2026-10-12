@@ -1,0 +1,33 @@
+{
+    "name":  "spirometer",
+    "category":  "health",
+    "tags":  [
+                 "spirometer",
+                 "lung",
+                 "breath",
+                 "pulmonary",
+                 "respiratory",
+                 "airflow"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"9.5\" r=\"7\"/\u003e\u003cpath class=\"p2\" d=\"M12 9.5l3-3\"/\u003e\u003cpath class=\"p3\" d=\"M9 17.5V21h6v-3.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "swing",
+                       "dur":  1400,
+                       "delay":  800
+                   }
+               ]
+}

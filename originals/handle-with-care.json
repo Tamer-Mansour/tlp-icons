@@ -1,0 +1,34 @@
+{
+  "name": "handle-with-care",
+  "category": "commerce",
+  "tags": [
+    "handle",
+    "care",
+    "fragile",
+    "package",
+    "box",
+    "delivery",
+    "careful"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 8l9-4 9 4v9l-9 4-9-4z\"/><path class=\"p2\" d=\"M3 8l9 4 9-4\"/><path class=\"p3\" d=\"M9 18.5V15.5a1 1 0 0 1 2 0v-1a1 1 0 0 1 2 0v.5a1 1 0 0 1 2 0v2.5a1.5 1.5 0 0 1-1.5 1.5H10a1 1 0 0 1-1-1z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

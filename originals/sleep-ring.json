@@ -1,0 +1,19 @@
+{
+  "name": "sleep-ring",
+  "category": "health",
+  "tags": [
+    "sleep",
+    "ring",
+    "smart ring",
+    "tracker",
+    "moon",
+    "wearable",
+    "night"
+  ],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"6.5\"/><path class=\"p2\" d=\"M14 11a3 3 0 0 0 0 6 4 4 0 0 1 0-6z\"/><rect class=\"p3\" x=\"10\" y=\"2\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

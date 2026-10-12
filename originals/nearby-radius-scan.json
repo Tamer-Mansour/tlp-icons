@@ -1,0 +1,11 @@
+{
+  "name": "nearby-radius-scan",
+  "category": "maps",
+  "tags": ["nearby", "radius", "scan", "search", "location", "pin", "area"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"d p2\" d=\"M12 7a3.5 3.5 0 0 0-3.5 3.5c0 2.6 3.5 7.5 3.5 7.5s3.5-4.9 3.5-7.5A3.5 3.5 0 0 0 12 7z\"/><circle class=\"p3\" cx=\"6\" cy=\"7\" r=\"2\"/><circle class=\"p3\" cx=\"5.5\" cy=\"15.5\" r=\"2\"/><circle class=\"p3\" cx=\"18\" cy=\"16.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

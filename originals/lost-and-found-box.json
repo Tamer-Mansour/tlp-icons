@@ -1,0 +1,19 @@
+{
+  "name": "lost-and-found-box",
+  "category": "maps",
+  "tags": [
+    "lost",
+    "found",
+    "box",
+    "question",
+    "property",
+    "missing"
+  ],
+  "svg": "<rect class=\"p2\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"4\" rx=\"1\"/><rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p3\" d=\"M10 13.5a2 2 0 1 1 2 2v1\"/><path class=\"p4\" d=\"M12 19.5h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

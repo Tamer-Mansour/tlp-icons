@@ -1,0 +1,18 @@
+{
+  "name": "order-lookup-magnifier",
+  "category": "commerce",
+  "tags": [
+    "order",
+    "lookup",
+    "receipt",
+    "search",
+    "magnifier",
+    "invoice"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h10v19l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5z\"/><path class=\"p2\" d=\"M8 7h4M8 10.5h4\"/><g class=\"p3\"><circle cx=\"16\" cy=\"15\" r=\"3.5\"/><path d=\"M18.5 17.5 21 20\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600, "origin": "16px 15px" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "smoothed-candles",
+  "category": "finance",
+  "tags": [
+    "candles",
+    "smoothed",
+    "trend",
+    "chart",
+    "trading",
+    "price",
+    "moving average"
+  ],
+  "svg": "<g class=\"d p1\"><rect x=\"5\" y=\"10\" width=\"4\" height=\"7\" rx=\".5\"/><rect x=\"15\" y=\"7\" width=\"4\" height=\"7\" rx=\".5\"/></g><path class=\"p2\" d=\"M7 6v4M7 17v3M17 4v3M17 14v3\"/><path class=\"p3\" d=\"M2 14c4 0 5-4 10-4s6 5 10 5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "grow",
+      "dur": 600,
+      "delay": 0,
+      "origin": "bottom"
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 500
+    }
+  ]
+}

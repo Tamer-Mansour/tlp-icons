@@ -1,0 +1,11 @@
+{
+  "name": "pin-cluster",
+  "category": "maps",
+  "tags": ["pin", "cluster", "map", "locations", "markers", "group"],
+  "svg": "<path class=\"d p1\" d=\"M12 13s-4-3.5-4-6.5a4 4 0 0 1 8 0c0 3-4 6.5-4 6.5z\"/><path class=\"d p2\" d=\"M7 19s-4-3.5-4-6.5a4 4 0 0 1 8 0c0 3-4 6.5-4 6.5z\"/><path class=\"d p3\" d=\"M17 19s-4-3.5-4-6.5a4 4 0 0 1 8 0c0 3-4 6.5-4 6.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 400 }
+  ]
+}

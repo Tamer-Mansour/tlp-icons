@@ -1,0 +1,11 @@
+{
+  "name": "signal-strength-pin",
+  "category": "maps",
+  "tags": ["signal", "strength", "pin", "location", "bars", "coverage", "wifi"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 19.5C6.5 19.5 2 14.5 2 9.5a4.5 4.5 0 0 1 9 0c0 5-4.5 10-4.5 10z\"/><circle class=\"p2\" cx=\"6.5\" cy=\"9.5\" r=\"1.5\"/><path class=\"p3\" d=\"M13.5 16v3M17.5 12v7M21.5 8v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 800, "delay": 600, "origin": "bottom" }
+  ]
+}

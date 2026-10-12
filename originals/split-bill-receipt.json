@@ -1,0 +1,11 @@
+{
+  "name": "split-bill-receipt",
+  "category": "commerce",
+  "tags": ["split", "bill", "receipt", "torn", "divide", "share", "payment"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h6.5l-1.5 2 1.5 2-1.5 2 1.5 2-1.5 2 1.5 2-1.5 2 1.5 2-1.5 2H4z\"/><path class=\"d p3\" d=\"M13.5 3H20v18h-6.5l1.5-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2z\"/><path class=\"p2\" d=\"M6.5 8h2.5M6.5 11h2.5M16 15h2.5M16 18h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

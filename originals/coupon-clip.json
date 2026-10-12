@@ -1,0 +1,34 @@
+{
+    "name":  "coupon-clip",
+    "category":  "commerce",
+    "tags":  [
+                 "coupon",
+                 "discount",
+                 "voucher",
+                 "scissors",
+                 "cut",
+                 "offer",
+                 "deal"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z\"/\u003e\u003cpath class=\"p2\" d=\"M16 8.5v1.5M16 11.25v1.5M16 14v1.5\"/\u003e\u003cpath class=\"p3\" d=\"M7 14l5-4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  800
+                   }
+               ]
+}

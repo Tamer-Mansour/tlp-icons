@@ -1,0 +1,34 @@
+{
+  "name": "infant-thermometer",
+  "category": "health",
+  "tags": [
+    "infant",
+    "baby",
+    "thermometer",
+    "temperature",
+    "fever",
+    "newborn",
+    "child"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M10 13.5V5a2 2 0 0 1 4 0v8.5a4 4 0 1 1-4 0z\"/><path class=\"p2\" d=\"M12 9v7\"/><path class=\"p3\" d=\"M17.5 5h2.5M17.5 9h2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

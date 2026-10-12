@@ -1,0 +1,10 @@
+{
+  "name": "area-polygon",
+  "category": "maps",
+  "tags": ["area", "polygon", "boundary", "region", "zone", "shape"],
+  "svg": "<path class=\"p1\" d=\"M4.2 7.8 7.8 4.2M11.2 3.4 17.8 4.6M19.8 7 19.2 13\"/><path class=\"p2\" d=\"M17.6 16.2 13.4 19.8M10.4 20.2 5.6 17.8M3.8 15.4 3.2 10.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

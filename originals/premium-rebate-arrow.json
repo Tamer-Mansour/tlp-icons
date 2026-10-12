@@ -1,0 +1,11 @@
+{
+  "name": "premium-rebate-arrow",
+  "category": "finance",
+  "tags": ["rebate", "premium", "refund", "cashback", "return", "coin", "insurance", "arrow"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"6\"/><path class=\"p1\" d=\"M10 9.5v5\"/><path class=\"p2\" d=\"M20 6c1.6 3.2 1.4 7.2-2.5 11.5\"/><path class=\"p3\" d=\"M14.5 14.5l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

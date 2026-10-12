@@ -1,0 +1,33 @@
+{
+    "name":  "larynx-throat",
+    "category":  "health",
+    "tags":  [
+                 "larynx",
+                 "throat",
+                 "voice box",
+                 "neck",
+                 "voice",
+                 "anatomy"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M6 8h12l-1.5 6h-9z\"/\u003e\u003cpath class=\"p2\" d=\"M10 2v6M14 2v6\"/\u003e\u003cpath class=\"p3\" d=\"M10 14v8M14 14v8\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  800
+                   }
+               ]
+}

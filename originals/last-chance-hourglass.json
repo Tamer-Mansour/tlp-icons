@@ -1,0 +1,19 @@
+{
+  "name": "last-chance-hourglass",
+  "category": "commerce",
+  "tags": [
+    "last chance",
+    "hourglass",
+    "deadline",
+    "expiring",
+    "clearance",
+    "final sale",
+    "time"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M6 2h12M6 14h12\"/></g><path class=\"p2\" d=\"M8 2c0 3.5 4 4 4 6s-4 2.5-4 6M16 2c0 3.5-4 4-4 6s4 2.5 4 6\"/><path class=\"p3\" d=\"M12 14v3\"/><path class=\"d p3\" d=\"M9 17h6v2.5L12 22l-3-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 14px" }
+  ]
+}

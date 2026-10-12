@@ -1,0 +1,19 @@
+{
+  "name": "minimum-order-bar",
+  "category": "commerce",
+  "tags": [
+    "minimum",
+    "order",
+    "progress",
+    "bar",
+    "threshold",
+    "box",
+    "goal"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M5 12h4\"/><rect class=\"d p3\" x=\"15\" y=\"7\" width=\"7\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600, "origin": "center" }
+  ]
+}

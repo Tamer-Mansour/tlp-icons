@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse-coast",
+  "category": "maps",
+  "tags": [
+    "lighthouse",
+    "coast",
+    "beacon",
+    "light",
+    "sea",
+    "navigation"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8.5 21 10 8h4l1.5 13z\"/><path class=\"p2\" d=\"M9.5 12.5h5M9 17h6\"/><g class=\"p3\"><rect x=\"9.5\" y=\"4.5\" width=\"5\" height=\"3.5\" rx=\"1\"/><path d=\"M8.5 4.5 12 2l3.5 2.5\"/></g><path class=\"p4\" d=\"M2.5 6.5h3M18.5 6.5h3M4 3.5 5.5 5M20 3.5 18.5 5\"/><path d=\"M5 21h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

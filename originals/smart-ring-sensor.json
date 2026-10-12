@@ -1,0 +1,34 @@
+{
+  "name": "smart-ring-sensor",
+  "category": "health",
+  "tags": [
+    "ring",
+    "smart",
+    "sensor",
+    "wearable",
+    "health",
+    "tracker",
+    "jewelry"
+  ],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"7\"/><rect class=\"d p1\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"5\" rx=\"2\"/><circle class=\"f p3\" cx=\"12\" cy=\"5\" r=\"1.25\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "pulseRing",
+      "dur": 1200,
+      "delay": 1100
+    }
+  ]
+}

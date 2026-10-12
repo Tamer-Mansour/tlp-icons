@@ -1,0 +1,11 @@
+{
+  "name": "next-turn-badge",
+  "category": "maps",
+  "tags": ["next", "turn", "badge", "arrow", "navigation", "direction", "route"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9.5 16v-2.5a2.5 2.5 0 0 1 2.5-2.5h2.5\"/><polyline class=\"p3\" points=\"12.5 8.5 15 11 12.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

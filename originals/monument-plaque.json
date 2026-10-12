@@ -1,0 +1,33 @@
+{
+  "name": "monument-plaque",
+  "category": "maps",
+  "tags": [
+    "monument",
+    "plaque",
+    "memorial",
+    "commemorate",
+    "stone",
+    "landmark"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M8 5.5h8M8 9h5\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"18\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    }
+  ]
+}

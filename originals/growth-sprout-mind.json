@@ -1,0 +1,33 @@
+{
+    "name":  "growth-sprout-mind",
+    "category":  "health",
+    "tags":  [
+                 "sprout",
+                 "growth",
+                 "mental health",
+                 "development",
+                 "wellbeing",
+                 "seedling"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 21v-9M6 21h12\"/\u003e\u003cpath class=\"d p2\" d=\"M12 12C12 8 9 6 5 6c0 4 3 6 7 6z\"/\u003e\u003cpath class=\"d p3\" d=\"M12 10c0-4 3-6 7-6 0 4-3 6-7 6z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "grow",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  800
+                   }
+               ]
+}

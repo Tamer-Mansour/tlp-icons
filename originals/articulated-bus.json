@@ -1,0 +1,11 @@
+{
+  "name": "articulated-bus",
+  "category": "maps",
+  "tags": ["bus", "articulated", "transit", "long", "public transport", "folding", "coach"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"7\" height=\"12\" rx=\"2\"/><rect class=\"d p1\" x=\"15\" y=\"3\" width=\"7\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 3l3 2 3-2v12l-3-2-3 2z\"/><circle class=\"p3\" cx=\"6\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"18\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "rollIn", "dur": 700, "delay": 700 }
+  ]
+}

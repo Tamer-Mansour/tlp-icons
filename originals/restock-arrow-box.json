@@ -1,0 +1,12 @@
+{
+  "name": "restock-arrow-box",
+  "category": "commerce",
+  "tags": ["restock", "box", "inventory", "arrow", "stock", "delivery", "supply"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"2\"/><path class=\"p4\" d=\"M3 11h18\"/><path class=\"p2\" d=\"M12 21V10\"/><path class=\"p3\" d=\"M8 14l4-4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

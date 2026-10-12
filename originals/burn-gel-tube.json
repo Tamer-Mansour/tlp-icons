@@ -1,0 +1,11 @@
+{
+  "name": "burn-gel-tube",
+  "category": "health",
+  "tags": ["burn", "gel", "tube", "ointment", "cream", "first aid", "flame"],
+  "svg": "<path class=\"d p1\" d=\"M4 7h9v12.5a1.5 1.5 0 0 1-1.5 1.5h-6A1.5 1.5 0 0 1 4 19.5z\"/><rect class=\"p2\" x=\"3\" y=\"3\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M18 2.5c1.2 1.8 3 3 3 5.2a3 3 0 0 1-6 0c0-2.2 1.8-3.4 3-5.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1200, "delay": 800 }
+  ]
+}

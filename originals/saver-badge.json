@@ -1,0 +1,11 @@
+{
+  "name": "saver-badge",
+  "category": "commerce",
+  "tags": ["saver", "badge", "discount", "dollar", "savings", "deal", "price", "offer"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M15 9.2C14.6 8.4 13.6 7.8 12.4 7.8c-1.6 0-2.7.8-2.7 2 0 2.7 5.4 1.5 5.4 4.3 0 1.2-1.2 2.1-2.8 2.1-1.2 0-2.3-.6-2.8-1.6\"/><path class=\"p3\" d=\"M12 5.5v13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

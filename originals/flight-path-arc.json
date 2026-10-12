@@ -1,0 +1,10 @@
+{
+  "name": "flight-path-arc",
+  "category": "maps",
+  "tags": ["flight", "arc", "route", "airport", "path", "travel"],
+  "svg": "<g class=\"p1\"><circle cx=\"5\" cy=\"17\" r=\"2.5\"/><circle cx=\"19\" cy=\"17\" r=\"2.5\"/></g><path class=\"p2\" d=\"M6.4 13.6 7.2 11M8.4 8.6 9.4 7M11.2 5.6h1.6M14.6 7l1 1.6M16.6 11l.8 2.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "off-ramp-bills",
+    "category":  "finance",
+    "tags":  [
+                 "off ramp",
+                 "cash out",
+                 "banknote",
+                 "bills",
+                 "convert",
+                 "exit"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"9\" width=\"17\" height=\"12\" rx=\"2\"/\u003e\u003ccircle class=\"p2\" cx=\"10.5\" cy=\"15\" r=\"2.5\"/\u003e\u003cpath class=\"p3\" d=\"M15 7l6-5M16.5 2H21v4.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "nudge",
+                       "dur":  900,
+                       "delay":  900
+                   }
+               ]
+}

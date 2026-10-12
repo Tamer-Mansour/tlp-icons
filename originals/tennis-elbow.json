@@ -1,0 +1,33 @@
+{
+    "name":  "tennis-elbow",
+    "category":  "health",
+    "tags":  [
+                 "elbow",
+                 "tennis elbow",
+                 "joint",
+                 "arm",
+                 "pain",
+                 "tendon"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"10.5\" cy=\"13.5\" r=\"7\"/\u003e\u003cpath class=\"p2\" d=\"M5.5 8.5c3 1 5 3.5 5 6.5s1 3 3 4.5\"/\u003e\u003cpath class=\"p3\" d=\"M19 3v3M21.5 5.5h-3M16.5 4l1.5 1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "flicker",
+                       "dur":  900,
+                       "delay":  800
+                   }
+               ]
+}

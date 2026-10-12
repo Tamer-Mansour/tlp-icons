@@ -1,0 +1,10 @@
+{
+  "name": "trail-marker",
+  "category": "health",
+  "tags": ["trail", "marker", "post", "direction", "arrow", "hiking", "path"],
+  "svg": "<rect class=\"p2\" x=\"10\" y=\"11\" width=\"4\" height=\"10\" rx=\"1\"/><path class=\"d p1\" d=\"M5 4.5h11l3 3-3 3H5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "swingIn", "dur": 800, "delay": 400 }
+  ]
+}

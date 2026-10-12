@@ -1,0 +1,11 @@
+{
+  "name": "epidemic-curve",
+  "category": "health",
+  "tags": ["epidemic", "outbreak", "chart", "cases", "curve", "surge"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><g class=\"p2\"><path d=\"M4 14v6M8 9v11M16 9v11M20 14v6\"/></g><path class=\"p3\" d=\"M12 4v16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "breathe", "dur": 1200, "delay": 1100 }
+  ]
+}

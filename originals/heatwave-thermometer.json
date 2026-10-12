@@ -1,0 +1,20 @@
+{
+  "name": "heatwave-thermometer",
+  "category": "finance",
+  "tags": [
+    "thermometer",
+    "heatwave",
+    "sun",
+    "temperature",
+    "weather",
+    "heat"
+  ],
+  "svg": "<path class=\"p1\" d=\"M9.5 15V6.5a2.5 2.5 0 0 1 5 0V15\"/><circle class=\"d p2\" cx=\"12\" cy=\"18\" r=\"3.5\"/><path class=\"p3\" d=\"M12 18v-6\"/><circle class=\"d p4\" cx=\"18.5\" cy=\"8\" r=\"2.5\"/><path class=\"p5\" d=\"M18.5 1.8v1.7M21.4 4.4l-1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 700, "delay": 600, "origin": "bottom" },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 900 },
+    { "part": "p5", "anim": "twinkle", "dur": 1000, "delay": 1300 }
+  ]
+}

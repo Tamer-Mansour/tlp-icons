@@ -1,0 +1,11 @@
+{
+  "name": "postpartum-pad",
+  "category": "health",
+  "tags": ["postpartum", "pad", "sanitary", "maternity", "wings", "hygiene", "recovery"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8 3.5 9.5v5L7 16\"/><path class=\"p3\" d=\"M17 8l3.5 1.5v5L17 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 450 }
+  ]
+}

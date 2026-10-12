@@ -1,0 +1,33 @@
+{
+  "name": "coupon-ticket",
+  "category": "finance",
+  "tags": [
+    "coupon",
+    "ticket",
+    "discount",
+    "voucher",
+    "deal",
+    "promo"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 6h18v4a2 2 0 0 0 0 4v4H3v-4a2 2 0 0 0 0-4z\"/><g class=\"p2\"><path d=\"M15 7v1.5M15 11v1.5M15 15v1.5\"/></g><g class=\"p3\"><path d=\"M6.5 10.5h5M6.5 13.5h3\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

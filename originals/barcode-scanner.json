@@ -1,0 +1,28 @@
+{
+    "name":  "barcode-scanner",
+    "category":  "commerce",
+    "tags":  [
+                 "scanner",
+                 "barcode",
+                 "scan",
+                 "checkout",
+                 "pos",
+                 "gun",
+                 "reader"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/\u003e\u003cpath class=\"p2\" d=\"M8 8v8M12 8v8M16 8v8\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "flicker",
+                       "dur":  900,
+                       "delay":  700
+                   }
+               ]
+}

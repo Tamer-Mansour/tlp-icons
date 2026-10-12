@@ -1,0 +1,11 @@
+{
+  "name": "barber-pole",
+  "category": "maps",
+  "tags": ["barber", "pole", "haircut", "stripes", "shop", "barbershop", "grooming"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"6\" width=\"10\" height=\"15\" rx=\"1\"/><path class=\"p2\" d=\"M7 10l10-3M7 15l10-3M7 20l10-3\"/><rect class=\"p3\" x=\"5\" y=\"3\" width=\"14\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

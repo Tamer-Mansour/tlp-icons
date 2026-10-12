@@ -1,0 +1,19 @@
+{
+  "name": "premium-rate-hike",
+  "category": "finance",
+  "tags": [
+    "premium",
+    "rate hike",
+    "increase",
+    "bars",
+    "chart",
+    "price rise"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"15\" width=\"3.5\" height=\"6\" rx=\"0.5\"/><rect class=\"d p2\" x=\"8.5\" y=\"11\" width=\"3.5\" height=\"10\" rx=\"0.5\"/><rect class=\"d p3\" x=\"14.5\" y=\"7\" width=\"3.5\" height=\"14\" rx=\"0.5\"/><path class=\"p4\" d=\"M20 9V3M18 5l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 200, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 400, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

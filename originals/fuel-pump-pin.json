@@ -1,0 +1,11 @@
+{
+  "name": "fuel-pump-pin",
+  "category": "maps",
+  "tags": ["fuel", "gas", "petrol", "station", "pin", "location", "pump"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 21s-5-5-5-9.5a5 5 0 0 1 10 0c0 4.5-5 9.5-5 9.5z\"/><rect class=\"d p2\" x=\"16\" y=\"13\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M16 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

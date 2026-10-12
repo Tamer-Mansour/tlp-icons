@@ -1,0 +1,11 @@
+{
+  "name": "cheque-stub",
+  "category": "finance",
+  "tags": ["cheque", "check", "stub", "perforated", "receipt", "counterfoil", "payment"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M16 6.5v2M16 11v2M16 15.5v2\"/><path class=\"p3\" d=\"M5 9.5h7M5 13.5h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

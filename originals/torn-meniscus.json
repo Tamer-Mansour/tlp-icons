@@ -1,0 +1,11 @@
+{
+  "name": "torn-meniscus",
+  "category": "health",
+  "tags": ["meniscus", "knee", "cartilage", "tear", "injury", "joint", "sports"],
+  "svg": "<path class=\"p3\" d=\"M3 2.5h18\"/><path class=\"d p1\" d=\"M4 6.5c0 9 3.5 12.5 8 12.5s8-3.5 8-12.5c-2.5 2.5-5 3.5-8 3.5S6.5 9 4 6.5z\"/><path class=\"p2\" d=\"M10 11l2 2-1.2 1.8 1.6 1.7\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

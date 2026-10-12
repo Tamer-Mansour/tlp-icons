@@ -1,0 +1,12 @@
+{
+  "name": "appointment-slot",
+  "category": "health",
+  "tags": ["appointment", "slot", "calendar", "clock", "booking", "time", "clinic", "schedule"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><g class=\"p2\"><path d=\"M3 10h18\"/><path d=\"M8 3v4\"/><path d=\"M16 3v4\"/></g><g class=\"p3\"><circle cx=\"9.5\" cy=\"15.5\" r=\"2.8\"/><path d=\"M9.5 13.8v1.8h1.2\"/></g><path class=\"p4\" d=\"M16.5 13.5v4M14.5 15.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

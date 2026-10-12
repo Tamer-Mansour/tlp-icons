@@ -1,0 +1,20 @@
+{
+  "name": "percent-gauge",
+  "category": "commerce",
+  "tags": [
+    "percent",
+    "gauge",
+    "rate",
+    "meter",
+    "discount",
+    "margin",
+    "dial"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3.5 17a8.5 8.5 0 0 1 17 0\"/><path class=\"p2\" d=\"M2 17h20\"/><circle class=\"d p3\" cx=\"12\" cy=\"17\" r=\"1.5\"/><path class=\"p4\" d=\"M12 17l4.5-5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 17px" }
+  ]
+}

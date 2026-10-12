@@ -1,0 +1,11 @@
+{
+  "name": "dental-explorer",
+  "category": "health",
+  "tags": ["dental", "explorer", "probe", "dentist", "tooth", "hook", "tool"],
+  "svg": "<g transform=\"rotate(40 12 12)\"><rect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"8\" rx=\"3\"/><path class=\"p2\" d=\"M12 10v7\"/><path class=\"p3\" d=\"M12 17v2a2 2 0 0 0 2 2h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

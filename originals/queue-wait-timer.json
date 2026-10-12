@@ -1,0 +1,34 @@
+{
+  "name": "queue-wait-timer",
+  "category": "health",
+  "tags": [
+    "queue",
+    "wait",
+    "timer",
+    "clinic",
+    "waiting",
+    "appointment",
+    "clock"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"8\"/><path class=\"p2\" d=\"M10 6v4l2.5 1.5\"/><g class=\"p3\"><circle cx=\"18\" cy=\"13\" r=\"2\"/><path d=\"M14.5 21a3.5 3.5 0 0 1 7 0\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

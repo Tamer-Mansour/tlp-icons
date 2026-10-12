@@ -1,0 +1,11 @@
+{
+  "name": "station-kiosk",
+  "category": "maps",
+  "tags": ["kiosk", "booth", "station", "information", "map", "stall", "visitor", "tourism"],
+  "svg": "<path class=\"d p2\" d=\"M2.5 9 5 3.5h14L21.5 9z\"/><path class=\"d p1\" d=\"M5 9v12h14V9z\"/><rect class=\"p3\" x=\"8\" y=\"12\" width=\"8\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

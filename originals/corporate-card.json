@@ -1,0 +1,34 @@
+{
+  "name": "corporate-card",
+  "category": "finance",
+  "tags": [
+    "corporate",
+    "card",
+    "business",
+    "expense",
+    "chip",
+    "payment",
+    "company"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 9.5h20\"/><rect class=\"p3\" x=\"5\" y=\"12.5\" width=\"4\" height=\"3.5\" rx=\"0.8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "telehealth-tablet",
+  "category": "health",
+  "tags": ["telehealth", "tablet", "stethoscope", "video", "doctor", "remote", "online", "care"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2.5\"/><g class=\"p2\"><path d=\"M9 5.5v4a3 3 0 0 0 6 0v-4\"/><path d=\"M12 12.5v2.5a3 3 0 0 0 6 0\"/></g><circle class=\"p3\" cx=\"18\" cy=\"15\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

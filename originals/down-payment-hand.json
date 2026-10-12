@@ -1,0 +1,28 @@
+{
+  "name": "down-payment-hand",
+  "category": "finance",
+  "tags": [
+    "down",
+    "payment",
+    "hand",
+    "deposit",
+    "coins",
+    "first",
+    "pay"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11l9-7 9 7v9H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

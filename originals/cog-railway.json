@@ -1,0 +1,19 @@
+{
+  "name": "cog-railway",
+  "category": "maps",
+  "tags": [
+    "cog railway",
+    "rack railway",
+    "mountain train",
+    "rack rail",
+    "train",
+    "mountain",
+    "tourism"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"13\" height=\"9\" rx=\"1.5\"/><rect class=\"d p1\" x=\"15\" y=\"3\" width=\"7\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 21h20\"/><path class=\"p3\" d=\"M2 17.5h20M6 17.5V21M12 17.5V21M18 17.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

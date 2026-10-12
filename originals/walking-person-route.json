@@ -1,0 +1,11 @@
+{
+  "name": "walking-person-route",
+  "category": "maps",
+  "tags": ["walking", "person", "route", "path", "walk", "hike", "trail"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"4\" r=\"2\"/><path class=\"p2\" d=\"M12 8l-1 5M11 9.5 8 11.5M11 9.5l3.5 1.5M11 13l-3 3.5M11 13l2.5 3.5\"/><path class=\"p3\" d=\"M2.5 20.5h3M9.5 20.5h3M16.5 20.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 600 }
+  ]
+}

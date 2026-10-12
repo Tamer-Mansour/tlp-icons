@@ -1,0 +1,12 @@
+{
+  "name": "empty-cart-sad",
+  "category": "commerce",
+  "tags": ["cart", "empty", "sad", "shopping", "basket", "trolley", "checkout"],
+  "svg": "<path class=\"d p1\" d=\"M5.5 6h15l-2 7.5H7.5z\"/><path class=\"p2\" d=\"M2 3h2.5l2.2 10.5h10\"/><g class=\"p3\"><circle cx=\"9\" cy=\"19\" r=\"1.5\"/><circle cx=\"17\" cy=\"19\" r=\"1.5\"/></g><path class=\"p4\" d=\"M9.5 9.5h.01M14.5 9.5h.01M10 12.5q2-1.5 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

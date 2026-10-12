@@ -1,0 +1,20 @@
+{
+  "name": "upsell-cart",
+  "category": "commerce",
+  "tags": [
+    "upsell",
+    "cart",
+    "upgrade",
+    "increase",
+    "shopping",
+    "basket",
+    "up"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 10h17l-2.2 6H6.5z\"/><path class=\"p2\" d=\"M2 4h2.5L7 10\"/><circle class=\"p3\" cx=\"9\" cy=\"20\" r=\"1\"/><circle class=\"p3\" cx=\"18\" cy=\"20\" r=\"1\"/><path class=\"p4\" d=\"M12 7V2M8.5 5.5 12 2l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "lift", "dur": 800, "delay": 900 }
+  ]
+}

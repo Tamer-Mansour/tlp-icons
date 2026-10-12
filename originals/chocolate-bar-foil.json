@@ -1,0 +1,19 @@
+{
+  "name": "chocolate-bar-foil",
+  "category": "commerce",
+  "tags": [
+    "chocolate",
+    "bar",
+    "candy",
+    "foil",
+    "wrapper",
+    "sweet",
+    "snack"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"15\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8 7v13M13 7v13M3 13.5h15\"/><rect class=\"p3\" x=\"17.5\" y=\"2\" width=\"4.5\" height=\"4.5\" rx=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 800 }
+  ]
+}

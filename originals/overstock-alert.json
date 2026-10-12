@@ -1,0 +1,34 @@
+{
+    "name":  "overstock-alert",
+    "category":  "commerce",
+    "tags":  [
+                 "overstock",
+                 "inventory",
+                 "stock",
+                 "boxes",
+                 "warehouse",
+                 "surplus",
+                 "alert"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"4\" y=\"15\" width=\"16\" height=\"6\" rx=\"1\"/\u003e\u003crect class=\"p2\" x=\"6\" y=\"8.5\" width=\"12\" height=\"4.5\" rx=\"1\"/\u003e\u003cpath class=\"p3\" d=\"M12 2v3\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  250,
+                       "anim":  "dropIn",
+                       "part":  "p2",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  800,
+                       "anim":  "shake",
+                       "part":  "p3",
+                       "dur":  700
+                   }
+               ]
+}

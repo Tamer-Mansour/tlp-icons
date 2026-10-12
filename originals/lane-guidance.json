@@ -1,0 +1,11 @@
+{
+  "name": "lane-guidance",
+  "category": "maps",
+  "tags": ["lane", "road", "traffic", "arrow", "guidance", "highway", "direction", "driving"],
+  "svg": "<path class=\"p1\" d=\"M2 3v18M22 3v18\"/><path class=\"p2\" d=\"M12 3v18\"/><path class=\"p3\" d=\"M17 18V7.5M15.2 9.3 17 7.5l1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "diving-flag",
+  "category": "maps",
+  "tags": ["diving", "flag", "dive", "pool", "water", "beach", "warning"],
+  "svg": "<path d=\"M6 21V4\" class=\"p2\"/><polygon class=\"d p1\" points=\"6,4 16,7.5 6,11\"/><path class=\"p3\" d=\"M3 19.5c1.5-1.2 3-1.2 4.5 0s3 1.2 4.5 0 3-1.2 4.5 0 3 1.2 4.5 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

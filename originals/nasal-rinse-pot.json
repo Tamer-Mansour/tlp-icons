@@ -1,0 +1,33 @@
+{
+  "name": "nasal-rinse-pot",
+  "category": "health",
+  "tags": [
+    "nasal rinse",
+    "neti pot",
+    "sinus",
+    "saline",
+    "rinse",
+    "teapot"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"10\" width=\"12\" height=\"9\" rx=\"4\"/><g class=\"p2\"><path d=\"M5 14 2.5 10.5\"/><path d=\"M8 10V8h6v2\"/></g><path class=\"p3\" d=\"M17 12.5h1.5a2 2 0 0 1 0 3.5H17\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 600
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shift-board",
+  "category": "health",
+  "tags": ["shift", "board", "roster", "schedule", "whiteboard", "staff", "rota", "hospital"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M3 8h18M9 8v9M15 8v9\"/><path class=\"p3\" d=\"M12 17v3.5M8.5 20.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

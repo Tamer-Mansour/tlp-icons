@@ -1,0 +1,11 @@
+{
+  "name": "daily-check-in",
+  "category": "health",
+  "tags": ["daily", "check-in", "phone", "app", "tracker", "routine", "checkin"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"3\"/><path class=\"p2\" d=\"M9.5 11.5l2 2 3.5-3.5\"/><path class=\"p3\" d=\"M11 18.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

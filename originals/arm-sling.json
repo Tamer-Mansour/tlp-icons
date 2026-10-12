@@ -1,0 +1,19 @@
+{
+  "name": "arm-sling",
+  "category": "health",
+  "tags": [
+    "arm",
+    "sling",
+    "injury",
+    "support",
+    "fracture",
+    "immobilize",
+    "strap"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 11h9.5a4.5 4.5 0 0 1 4.5 4.5V18H8a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M6 3.5c1.5 3 3 4.5 6 4.5s4.5-1.5 6-4.5\"/><path class=\"p3\" d=\"M12 8.5V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "squeeze-tube-cap",
+  "category": "commerce",
+  "tags": [
+    "tube",
+    "squeeze",
+    "cream",
+    "toothpaste",
+    "cap",
+    "flip top"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"d p2\" d=\"M8 6h8v11l-1.5 3h-5L8 17z\"/><path class=\"p3\" d=\"M3.5 10.5h2.5M18 10.5h2.5M4 14h2.5M17.5 14h2.5\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "flipY",
+      "dur": 1000,
+      "delay": 800
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 300
+    }
+  ]
+}

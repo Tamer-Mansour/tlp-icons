@@ -1,0 +1,10 @@
+{
+  "name": "yield-triangle-sign",
+  "category": "maps",
+  "tags": ["yield", "triangle", "sign", "give way", "road", "traffic", "caution"],
+  "svg": "<path class=\"d p1\" d=\"M3 4.5h18L12 20.5z\"/><path class=\"p2\" d=\"M7.5 9h9L12 16z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

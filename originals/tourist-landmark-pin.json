@@ -1,0 +1,19 @@
+{
+  "name": "tourist-landmark-pin",
+  "category": "maps",
+  "tags": [
+    "tourist",
+    "landmark",
+    "attraction",
+    "map",
+    "pin",
+    "star",
+    "column"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z\"/><polygon class=\"d p2\" points=\"12 4.6 12.5 6.1 14.1 6.3 12.8 7.3 13.2 8.9 12 8.1 10.8 8.9 11.2 7.3 9.9 6.3 11.5 6.1\"/><path class=\"p3\" d=\"M10.5 12v2.5M13.5 12v2.5M9.5 14.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

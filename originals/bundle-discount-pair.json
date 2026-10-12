@@ -1,0 +1,11 @@
+{
+  "name": "bundle-discount-pair",
+  "category": "finance",
+  "tags": ["bundle", "discount", "pair", "package", "deal", "combo", "save"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"10\" height=\"10\" rx=\"2\"/><rect class=\"d p2\" x=\"11\" y=\"5\" width=\"10\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M14.5 12 17.5 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

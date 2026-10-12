@@ -1,0 +1,11 @@
+{
+  "name": "proof-of-delivery",
+  "category": "commerce",
+  "tags": ["delivery", "proof", "receipt", "signed", "parcel", "confirmed", "package"],
+  "svg": "<path class=\"d p1\" d=\"M2 12 6.5 9.5l4.5 2.5v6.5l-4.5 2.5L2 18.5z\"/><path class=\"p1\" d=\"M2 12l4.5 2.5L11 12M6.5 14.5v7\"/><rect class=\"d p2\" x=\"13.5\" y=\"2\" width=\"7.5\" height=\"11\" rx=\"1\"/><path class=\"p3\" d=\"M16.5 7.5l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bird-seed-sack",
+  "category": "commerce",
+  "tags": [
+    "bird",
+    "seed",
+    "sack",
+    "feed",
+    "birdseed",
+    "garden",
+    "pet store"
+  ],
+  "svg": "<path class=\"p2\" d=\"M9 3.5h6M9 3.5 8.5 8.5M15 3.5l.5 5\"/><path class=\"d p1\" d=\"M8.5 8.5C5.5 10 3.5 13.5 3.5 17c0 3 3 4.5 8.5 4.5s8.5-1.5 8.5-4.5c0-3.5-2-7-5-8.5z\"/><path class=\"d p3\" d=\"M8 16 10.5 12.8Q12.8 11.3 14.3 12.2L16 13l-1.7.8Q13.9 16.5 11.2 16.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 1000 }
+  ]
+}

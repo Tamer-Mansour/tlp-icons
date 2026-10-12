@@ -1,0 +1,11 @@
+{
+  "name": "premium-due-bell",
+  "category": "finance",
+  "tags": ["premium", "due", "bell", "insurance", "payment", "reminder", "coin"],
+  "svg": "<path class=\"d p1\" d=\"M6 14V10.5a6 6 0 0 1 12 0V14l1.5 2h-15z\"/><path class=\"p2\" d=\"M10 20.5h3.5\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"18.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 600 }
+  ]
+}

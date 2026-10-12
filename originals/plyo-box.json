@@ -1,0 +1,19 @@
+{
+  "name": "plyo-box",
+  "category": "health",
+  "tags": [
+    "plyo",
+    "box",
+    "jump",
+    "step",
+    "exercise",
+    "fitness",
+    "training"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 21v-5h6v-6h6V4h6v17z\"/><path class=\"p2\" d=\"M15 4h6\"/><path class=\"p3\" d=\"M6 12V3.5M3.8 5.7 6 3.5l2.2 2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 1000, "delay": 800 }
+  ]
+}

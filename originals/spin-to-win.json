@@ -1,0 +1,11 @@
+{
+  "name": "spin-to-win",
+  "category": "commerce",
+  "tags": ["spin", "wheel", "prize", "pointer", "lottery", "game", "raffle"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M12 5v16M4 13h16\"/><path class=\"d p3\" d=\"M9.5 2.5h5L12 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 500, "origin": "12px 13px" },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1500 }
+  ]
+}

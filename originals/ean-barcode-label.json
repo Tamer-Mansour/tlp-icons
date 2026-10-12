@@ -1,0 +1,11 @@
+{
+  "name": "ean-barcode-label",
+  "category": "commerce",
+  "tags": ["barcode", "ean", "shelf label", "price label", "retail", "product code", "scan"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6 9v5M10 9v5M14 9v5M18 9v5\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "atm-withdrawal",
+  "category": "finance",
+  "tags": [
+    "atm",
+    "withdrawal",
+    "cash",
+    "banknotes",
+    "withdraw",
+    "bank",
+    "money"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M12 4.5v3.5M9.5 6 12 8.5 14.5 6\"/><g class=\"p3\"><rect x=\"3\" y=\"14\" width=\"18\" height=\"6\" rx=\"1\"/><circle cx=\"12\" cy=\"17\" r=\"1.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

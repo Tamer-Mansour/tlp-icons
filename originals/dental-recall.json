@@ -1,0 +1,18 @@
+{
+  "name": "dental-recall",
+  "category": "health",
+  "tags": [
+    "dental",
+    "recall",
+    "reminder",
+    "tooth",
+    "dentist",
+    "bell"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 16V10a6 6 0 0 1 12 0v6l2 2H4z\"/><path class=\"p2\" d=\"M9 10.5c0-1.2 1-2 2.2-2h1.6c1.2 0 2.2.8 2.2 2 0 1.5-.8 3-1 4-.2.8-.6 1-1 1s-.7-1-1-1-.6 1-1 1-.8-.2-1-1c-.2-1-1-2.5-1-4z\"/><g class=\"p3\"><path d=\"M10 21h4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 700, "delay": 900 }
+  ]
+}

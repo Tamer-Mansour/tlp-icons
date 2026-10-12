@@ -1,0 +1,19 @@
+{
+  "name": "account-statement-printout",
+  "category": "finance",
+  "tags": [
+    "statement",
+    "printout",
+    "account",
+    "bank statement",
+    "total",
+    "receipt",
+    "ledger"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2.5h9l3.5 3.5v15.5H6z\"/><path class=\"p2\" d=\"M9 9h7M9 12h7M9 15h4\"/><path class=\"p3\" d=\"M9 18.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

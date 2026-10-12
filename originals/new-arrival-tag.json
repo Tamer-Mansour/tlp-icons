@@ -1,0 +1,11 @@
+{
+  "name": "new-arrival-tag",
+  "category": "commerce",
+  "tags": ["new", "arrival", "tag", "label", "fresh", "product", "launch"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.2\"/><rect class=\"p3\" x=\"7.5\" y=\"10\" width=\"9\" height=\"4\" rx=\"1\" transform=\"rotate(45 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "zoomIn", "dur": 500, "delay": 600, "origin": "center" }
+  ]
+}

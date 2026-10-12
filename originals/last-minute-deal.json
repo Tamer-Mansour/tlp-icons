@@ -1,0 +1,20 @@
+{
+  "name": "last-minute-deal",
+  "category": "maps",
+  "tags": [
+    "last minute",
+    "deal",
+    "clock",
+    "sale",
+    "discount",
+    "price drop",
+    "limited"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12.5\" r=\"6.5\"/><path class=\"p2\" d=\"M9 9v3.5l2 1.5\"/><path class=\"d p3\" d=\"M15.5 2.5h4l2.5 2.5-2.5 2.5h-4z\"/><path class=\"p4\" d=\"M18.5 12v8M15.5 17.5l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 400, "origin": "9px 12.5px" },
+    { "part": "p3", "anim": "swingIn", "dur": 700, "delay": 800, "origin": "15.5px 5px" },
+    { "part": "p4", "anim": "dropIn", "dur": 800, "delay": 1200 }
+  ]
+}

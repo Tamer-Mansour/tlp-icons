@@ -1,0 +1,35 @@
+{
+    "name":  "fish-flakes-tin",
+    "category":  "commerce",
+    "tags":  [
+                 "fish",
+                 "flakes",
+                 "tin",
+                 "cat food",
+                 "pet food",
+                 "can",
+                 "seafood",
+                 "pantry"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M5 7h14\"/\u003e\u003cpath class=\"p3\" d=\"M8 15c2-3 5-3 7 0-2 3-5 3-7 0zM15 15l2-2v4z\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  900,
+                       "anim":  "wiggle",
+                       "part":  "p3",
+                       "dur":  900
+                   }
+               ]
+}

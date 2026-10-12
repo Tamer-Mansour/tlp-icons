@@ -1,0 +1,18 @@
+{
+  "name": "return-rejected-stamp",
+  "category": "commerce",
+  "tags": [
+    "return",
+    "rejected",
+    "stamp",
+    "denied",
+    "refund",
+    "declined"
+  ],
+  "svg": "<g class=\"p1\"><rect x=\"8\" y=\"2.5\" width=\"8\" height=\"6\" rx=\"2\"/><path d=\"M12 8.5v3\"/></g><rect class=\"d p2\" x=\"4\" y=\"11.5\" width=\"16\" height=\"9.5\" rx=\"2\"/><path class=\"p3\" d=\"M9.5 15l5 5M14.5 15l-5 5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "press", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "parking-spot-pin",
+  "category": "maps",
+  "tags": [
+    "parking",
+    "pin",
+    "map",
+    "location",
+    "spot",
+    "car",
+    "lot"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 22s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12z\"/><path class=\"p2\" d=\"M9 14V7h3a2.5 2.5 0 0 1 0 5h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

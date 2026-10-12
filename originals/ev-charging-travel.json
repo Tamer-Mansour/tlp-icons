@@ -1,0 +1,12 @@
+{
+  "name": "ev-charging-travel",
+  "category": "maps",
+  "tags": ["electric", "car", "charging", "charger", "ev", "travel", "plug", "battery"],
+  "svg": "<path class=\"d p1\" d=\"M1.5 16v-4l2-4h8.5l2 4v4z\"/><circle class=\"p2\" cx=\"5\" cy=\"16\" r=\"2\"/><circle class=\"p2\" cx=\"10.5\" cy=\"16\" r=\"2\"/><rect class=\"d p3\" x=\"17\" y=\"5\" width=\"5\" height=\"10\" rx=\"1\"/><path class=\"p4\" d=\"M19.5 7.5 18 10.5h2.5L19 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

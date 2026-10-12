@@ -1,0 +1,39 @@
+{
+  "name": "saved-card-chip",
+  "category": "commerce",
+  "tags": [
+    "saved card",
+    "credit card",
+    "bookmark",
+    "chip",
+    "payment",
+    "favourite"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 10h20\"/><rect class=\"d p3\" x=\"5\" y=\"13\" width=\"4\" height=\"3\" rx=\"0.5\"/><path class=\"d p4\" d=\"M16.5 2.5h5v7.5l-2.5-2-2.5 2z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

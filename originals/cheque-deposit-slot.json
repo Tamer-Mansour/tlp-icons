@@ -1,0 +1,11 @@
+{
+  "name": "cheque-deposit-slot",
+  "category": "finance",
+  "tags": ["cheque", "check", "deposit", "slot", "mobile", "bank", "atm"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"18\" width=\"18\" height=\"3\" rx=\"1.5\"/><path class=\"p3\" d=\"M12 10.5v3M10 11.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 500 }
+  ]
+}

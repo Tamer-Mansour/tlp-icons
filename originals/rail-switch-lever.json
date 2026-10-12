@@ -1,0 +1,33 @@
+{
+  "name": "rail-switch-lever",
+  "category": "maps",
+  "tags": [
+    "rail",
+    "switch",
+    "track",
+    "lever",
+    "railway",
+    "train"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 21v-7\"/><path class=\"p2\" d=\"M12 14 7 3\"/><path class=\"p3\" d=\"M12 14l5-11\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

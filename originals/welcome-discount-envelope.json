@@ -1,0 +1,11 @@
+{
+  "name": "welcome-discount-envelope",
+  "category": "commerce",
+  "tags": ["welcome", "discount", "envelope", "percent", "coupon", "offer"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 7l10 6 10-6\"/><g class=\"p3\"><circle class=\"d\" cx=\"17\" cy=\"16.5\" r=\"3.5\"/><path d=\"M15.8 15.3h.01M18.2 17.7h.01M15.8 17.7l2.4-2.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700, "origin": "17px 16.5px" }
+  ]
+}

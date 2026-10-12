@@ -1,0 +1,18 @@
+{
+  "name": "lung-scan-lobes",
+  "category": "health",
+  "tags": [
+    "lung",
+    "scan",
+    "lobes",
+    "respiratory",
+    "x-ray",
+    "chest"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8.5 5.5V17.5H5a2.5 2.5 0 0 1-2.5-2.5V10a5 5 0 0 1 4.5-5z\"/><path class=\"d p1\" d=\"M15.5 5.5V17.5H19a2.5 2.5 0 0 0 2.5-2.5V10a5 5 0 0 0-4.5-5z\"/><path class=\"p2\" d=\"M12 2.5v8.5M12 11l-3.5 2.5M12 11l3.5 2.5\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 800 }
+  ]
+}

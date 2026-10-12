@@ -1,0 +1,28 @@
+{
+  "name": "check-in-pin",
+  "category": "maps",
+  "tags": [
+    "check-in",
+    "pin",
+    "location",
+    "checkin",
+    "arrived",
+    "map",
+    "visited"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 22s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z\"/><path class=\"p2\" d=\"M8.8 10.4l2.2 2.2 4.2-4.2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

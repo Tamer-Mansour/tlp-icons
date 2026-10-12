@@ -1,0 +1,11 @@
+{
+  "name": "damaged-box-crack",
+  "category": "commerce",
+  "tags": ["damaged", "box", "crack", "broken", "package", "cardboard"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"2\" y=\"3\" width=\"20\" height=\"4\" rx=\"1\"/><polyline class=\"p3\" points=\"9,10.5 14,13 10,15.5 15,18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

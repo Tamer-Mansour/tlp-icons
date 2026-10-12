@@ -1,0 +1,33 @@
+{
+  "name": "butterfly-calm",
+  "category": "health",
+  "tags": [
+    "butterfly",
+    "calm",
+    "wings",
+    "relax",
+    "nature",
+    "peace"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 11C9 4 3 3 3 8c0 4 5 4 9 3z\"/><path class=\"d p1\" d=\"M12 11c3-7 9-8 9-3 0 4-5 4-9 3z\"/><path class=\"d p2\" d=\"M12 13c-3 0-7 1-7 4.5 0 3 4.5 3 7-1.5z\"/><path class=\"d p2\" d=\"M12 13c3 0 7 1 7 4.5 0 3-4.5 3-7-1.5z\"/><path class=\"p3\" d=\"M12 6v13M10 3.5 12 6l2-2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    }
+  ]
+}

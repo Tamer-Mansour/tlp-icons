@@ -1,0 +1,18 @@
+{
+  "name": "card-replacement-arrows",
+  "category": "finance",
+  "tags": [
+    "card",
+    "replacement",
+    "reissue",
+    "renew",
+    "new card",
+    "arrows"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"15\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M2 5.5h15\"/><g class=\"p3\"><path d=\"M13 17a4 4 0 0 1 6.8-2.8\"/><path d=\"M16.8 14.2h3v-3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 800, "origin": "17px 17px" }
+  ]
+}

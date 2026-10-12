@@ -1,0 +1,19 @@
+{
+  "name": "priority-seat",
+  "category": "maps",
+  "tags": [
+    "priority",
+    "seat",
+    "transit",
+    "reserved",
+    "person",
+    "star",
+    "accessibility"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"11\" height=\"7\" rx=\"2\"/><g class=\"p2\"><circle cx=\"8.5\" cy=\"5\" r=\"2\"/><path d=\"M5 13v-.5a3 3 0 0 1 6 0V13\"/></g><path class=\"f p3\" d=\"M18 2.8l.76 2.15 2.28.06-1.8 1.39.62 2.17L18 7.3l-1.86 1.27.62-2.17-1.8-1.39 2.28-.06z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

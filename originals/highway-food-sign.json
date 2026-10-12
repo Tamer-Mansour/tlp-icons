@@ -1,0 +1,11 @@
+{
+  "name": "highway-food-sign",
+  "category": "maps",
+  "tags": ["highway", "food", "sign", "restaurant", "diner", "exit", "road", "eat"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"12\" rx=\"2\"/><g class=\"p2\"><path d=\"M7 6v3a2 2 0 0 0 4 0V6M9 6v3M9 11v2\"/><path d=\"M16 6c1.5 1 2 2.5 2 4.5h-2zM16 10.5V13\"/></g><path class=\"p3\" d=\"M12 15v6M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

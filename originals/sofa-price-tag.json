@@ -1,0 +1,20 @@
+{
+  "name": "sofa-price-tag",
+  "category": "commerce",
+  "tags": [
+    "sofa",
+    "couch",
+    "price",
+    "tag",
+    "furniture",
+    "discount",
+    "living room"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 12.5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2V17H2z\"/><path class=\"p2\" d=\"M5 10.5V7.5a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v3\"/><path class=\"p3\" d=\"M4.5 17v2.5M12.5 17v2.5\"/><path class=\"p4\" d=\"M17.5 2.5H21v3.5L16 11l-3-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "hop", "dur": 900, "delay": 600 }
+  ]
+}

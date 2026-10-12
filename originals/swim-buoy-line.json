@@ -1,0 +1,11 @@
+{
+  "name": "swim-buoy-line",
+  "category": "maps",
+  "tags": ["swim", "buoy", "line", "rope", "water", "beach", "lane"],
+  "svg": "<path class=\"p1\" d=\"M2 5h20\"/><circle class=\"d p2\" cx=\"6\" cy=\"10\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><circle class=\"d p2\" cx=\"18\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M2 17q2.5-2 5 0t5 0t5 0t5 0M2 20.5q2.5-2 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 1400, "delay": 900 }
+  ]
+}

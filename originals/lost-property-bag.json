@@ -1,0 +1,11 @@
+{
+  "name": "lost-property-bag",
+  "category": "maps",
+  "tags": ["lost", "property", "bag", "found", "luggage", "question", "baggage"],
+  "svg": "<path class=\"p2\" d=\"M4 7V5.5a3 3 0 0 1 6 0V7\"/><rect class=\"d p1\" x=\"2\" y=\"7\" width=\"10\" height=\"13\" rx=\"2\"/><g class=\"p3\"><circle class=\"d\" cx=\"18.5\" cy=\"17\" r=\"3.5\"/><path d=\"M17.2 15.6a1.3 1.3 0 1 1 2 1.1c-.4.2-.7.5-.7 1.2\"/><path d=\"M18.5 19.2h.01\"/></g>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

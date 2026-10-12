@@ -1,0 +1,10 @@
+{
+  "name": "magnetic-needle-compass",
+  "category": "maps",
+  "tags": ["compass", "needle", "north", "magnetic", "direction", "navigation", "bearing"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><g class=\"p2\"><path class=\"d\" d=\"M12 5l3 7H9z\"/><path d=\"M12 19l3-7H9z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 1000, "delay": 400, "origin": "12px 12px" }
+  ]
+}

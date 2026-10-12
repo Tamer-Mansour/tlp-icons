@@ -1,0 +1,11 @@
+{
+  "name": "night-bus-moon",
+  "category": "maps",
+  "tags": ["night", "bus", "moon", "late", "transit", "crescent", "owl"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"12\" rx=\"2\"/><g class=\"p2\"><rect x=\"5\" y=\"5.5\" width=\"8\" height=\"3.5\" rx=\".6\"/><circle cx=\"6.5\" cy=\"18.5\" r=\"1.5\"/><circle cx=\"11.5\" cy=\"18.5\" r=\"1.5\"/></g><path class=\"p3\" d=\"M21 13.8a3.4 3.4 0 1 0 0 6.4 3.3 3.3 0 0 1 0-6.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

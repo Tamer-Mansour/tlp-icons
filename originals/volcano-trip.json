@@ -1,0 +1,28 @@
+{
+    "name":  "volcano-trip",
+    "category":  "maps",
+    "tags":  [
+                 "volcano",
+                 "trip",
+                 "travel",
+                 "eruption",
+                 "mountain",
+                 "smoke",
+                 "adventure"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 20l6-12h6l6 12z\"/\u003e\u003cpath class=\"p2\" d=\"M9 5L7 3M15 5l2-2M12 5V2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  500
+                   }
+               ]
+}

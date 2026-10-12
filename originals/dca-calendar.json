@@ -1,0 +1,11 @@
+{
+  "name": "dca-calendar",
+  "category": "finance",
+  "tags": ["dca", "recurring", "calendar", "schedule", "invest", "periodic", "coin"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><g class=\"p2\"><path d=\"M3 9h18\"/><path d=\"M8 2v4M16 2v4\"/></g><circle class=\"p3\" cx=\"12\" cy=\"15.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 600 }
+  ]
+}

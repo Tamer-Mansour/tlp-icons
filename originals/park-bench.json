@@ -1,0 +1,33 @@
+{
+  "name": "park-bench",
+  "category": "maps",
+  "tags": [
+    "park",
+    "bench",
+    "seat",
+    "outdoor",
+    "garden",
+    "rest"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"3\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"11\" width=\"18\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M6 7v4M18 7v4M6 13.5V19M18 13.5V19\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

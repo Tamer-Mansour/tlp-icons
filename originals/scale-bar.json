@@ -1,0 +1,27 @@
+{
+  "name": "scale-bar",
+  "category": "maps",
+  "tags": [
+    "scale",
+    "bar",
+    "map scale",
+    "distance",
+    "measure",
+    "ruler"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"9\" height=\"6\"/><rect class=\"p2\" x=\"12\" y=\"9\" width=\"9\" height=\"6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 350
+    }
+  ]
+}

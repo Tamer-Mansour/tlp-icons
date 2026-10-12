@@ -1,0 +1,11 @@
+{
+  "name": "safety-stock",
+  "category": "commerce",
+  "tags": ["safety", "stock", "inventory", "buffer", "box", "shield", "reserve"],
+  "svg": "<path class=\"d p1\" d=\"M2 7.5 8.5 4l6.5 3.5V15l-6.5 3.5L2 15z\"/><path class=\"p2\" d=\"M2 7.5l6.5 3.5 6.5-3.5M8.5 11v7.5\"/><path class=\"d p3\" d=\"M19 13.5l3 1.1v2.6c0 2.3-1.5 3.7-3 4.5-1.5-.8-3-2.2-3-4.5v-2.6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800, "origin": "19px 17px" }
+  ]
+}

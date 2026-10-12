@@ -1,0 +1,27 @@
+{
+  "name": "trailing-stop",
+  "category": "finance",
+  "tags": [
+    "trailing",
+    "stop",
+    "loss",
+    "trade",
+    "stock",
+    "order"
+  ],
+  "svg": "<polyline class=\"p1\" points=\"2,19 6,19 6,15 10,15 10,11 14,11 14,7 20,7\"/><path class=\"p2\" d=\"M12 17.5h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

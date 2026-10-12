@@ -1,0 +1,18 @@
+{
+  "name": "dental-bib",
+  "category": "health",
+  "tags": [
+    "dental",
+    "bib",
+    "dentist",
+    "tooth",
+    "apron",
+    "clinic"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 6h14v12a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3z\"/><path class=\"p2\" d=\"M7.5 7C7.5 4 9.5 2.5 12 2.5S16.5 4 16.5 7\"/><path class=\"p3\" d=\"M12 10.5c-2-1.2-4.2-.6-4.2 1.9 0 1.6.5 3 .9 4.4.4 1.2.8 3.8 1.6 3.8.6 0 .7-1.6 1.7-1.6s1.1 1.6 1.7 1.6c.8 0 1.2-2.6 1.6-3.8.4-1.4.9-2.8.9-4.4 0-2.5-2.2-3.1-4.2-1.9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

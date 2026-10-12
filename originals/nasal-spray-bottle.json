@@ -1,0 +1,19 @@
+{
+  "name": "nasal-spray-bottle",
+  "category": "health",
+  "tags": [
+    "nasal",
+    "spray",
+    "bottle",
+    "nozzle",
+    "mist",
+    "medicine",
+    "allergy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"9\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M5 10V7h5v3M10 5h3.5\"/><g class=\"p3\"><path d=\"M16 7h2.5M16 11h4M16 15h2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 800 }
+  ]
+}

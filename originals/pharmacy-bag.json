@@ -1,0 +1,11 @@
+{
+  "name": "pharmacy-bag",
+  "category": "health",
+  "tags": ["pharmacy", "bag", "prescription", "rx", "medicine", "drugstore"],
+  "svg": "<path class=\"d p1\" d=\"M5 8.5h14V20.5A1.5 1.5 0 0 1 17.5 22h-11A1.5 1.5 0 0 1 5 20.5z\"/><path class=\"p2\" d=\"M9 8.5V6a3 3 0 0 1 6 0v2.5\"/><g class=\"p3\"><rect x=\"8\" y=\"11\" width=\"8\" height=\"7\" rx=\"1\"/><path d=\"M12 12.5v4M10 14.5h4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "campsite-sign",
+  "category": "maps",
+  "tags": ["campsite", "sign", "camping", "tent", "arrow", "trail", "outdoor"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h15l3 5-3 5H3z\"/><path class=\"p2\" d=\"M8 10l3-3 3 3\"/><path class=\"p3\" d=\"M12 13v8M9 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

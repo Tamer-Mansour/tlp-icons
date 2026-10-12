@@ -1,0 +1,11 @@
+{
+  "name": "form-1099",
+  "category": "finance",
+  "tags": ["1099", "tax form", "form", "tax", "income", "document", "pen"],
+  "svg": "<g class=\"p1\"><path d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4\"/><path d=\"M14 3v5h5\"/></g><path class=\"p2\" d=\"M8 9h3M8 13h3\"/><path class=\"p3\" d=\"M14 20l1-4 4-4 2 2-4 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900, "origin": "14px 20px" }
+  ]
+}

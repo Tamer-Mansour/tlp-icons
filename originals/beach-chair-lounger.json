@@ -1,0 +1,11 @@
+{
+  "name": "beach-chair-lounger",
+  "category": "maps",
+  "tags": ["beach", "lounger", "chair", "sunbed", "holiday", "resort"],
+  "svg": "<path class=\"d p1\" d=\"M3 5 7 4l4 8h10v5H10L6 13.5Z\"/><path class=\"p2\" d=\"M14 12v5M18 12v5\"/><path class=\"p3\" d=\"M13 17l-2 4M19 17l2 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

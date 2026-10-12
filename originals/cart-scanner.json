@@ -1,0 +1,11 @@
+{
+  "name": "cart-scanner",
+  "category": "commerce",
+  "tags": ["cart", "scanner", "barcode", "scan", "checkout", "shopping", "retail"],
+  "svg": "<path class=\"d p2\" d=\"M6 7h15l-2.2 7.5H8.2z\"/><path class=\"p2\" d=\"M2 3h2.6l2.4 11.2a1.2 1.2 0 0 0 1.2.9h8.2\"/><g class=\"p3\"><circle cx=\"9\" cy=\"20\" r=\"1.5\"/><circle cx=\"17\" cy=\"20\" r=\"1.5\"/></g><path class=\"p4\" d=\"M8 2v3.5M11.5 2v3.5M15 2v3.5M18.5 2v3.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "fadeIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

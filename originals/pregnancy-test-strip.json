@@ -1,0 +1,10 @@
+{
+  "name": "pregnancy-test-strip",
+  "category": "health",
+  "tags": ["pregnancy", "test", "strip", "stick", "fertility", "maternity", "result"],
+  "svg": "<path class=\"d p1\" d=\"M6 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M9.5 9h5M9.5 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "price-ticker-tape",
+  "category": "finance",
+  "tags": ["ticker", "price", "tape", "stock", "market", "rising", "quote"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><polyline class=\"p2\" points=\"5.5 14 9.5 11.5 12.5 13 15.5 9.5\"/><path class=\"p3\" d=\"M15.5 9.5h3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

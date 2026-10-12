@@ -1,0 +1,18 @@
+{
+  "name": "return-receipt",
+  "category": "commerce",
+  "tags": [
+    "return",
+    "receipt",
+    "refund",
+    "exchange",
+    "bill",
+    "store"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 2h12v20l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5z\"/><g class=\"p2\"><path d=\"M15.5 9.5a3 3 0 0 0-3-3H9\"/><path d=\"M11 4.5 9 6.5l2 2\"/></g><path class=\"p3\" d=\"M9 13h6M9 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

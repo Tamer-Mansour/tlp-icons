@@ -1,0 +1,35 @@
+{
+    "name":  "surgical-headlight",
+    "category":  "health",
+    "tags":  [
+                 "surgical",
+                 "headlight",
+                 "headlamp",
+                 "surgeon",
+                 "light",
+                 "operating",
+                 "theatre",
+                 "lamp"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M4 20v-6a8 8 0 0 1 16 0v6\"/\u003e\u003ccircle class=\"d p2\" cx=\"12\" cy=\"6\" r=\"3\"/\u003e\u003cpath class=\"p3\" d=\"M6 3l1.500 1.500M18 3l-1.500 1.500\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "fillIn",
+                       "part":  "p2",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  1000,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  500
+                   }
+               ]
+}

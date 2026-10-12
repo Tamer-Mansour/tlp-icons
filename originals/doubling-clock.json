@@ -1,0 +1,33 @@
+{
+  "name": "doubling-clock",
+  "category": "finance",
+  "tags": [
+    "doubling",
+    "clock",
+    "double",
+    "time",
+    "multiply",
+    "period"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M8.5 8.5V12l2 1.5\"/><g class=\"p3\"><path d=\"M17 9.5l2.5-2.5 2.5 2.5\"/><path d=\"M17 14.5l2.5-2.5 2.5 2.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 600,
+      "delay": 900
+    }
+  ]
+}

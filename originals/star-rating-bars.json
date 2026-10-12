@@ -1,0 +1,28 @@
+{
+  "name": "star-rating-bars",
+  "category": "commerce",
+  "tags": [
+    "rating",
+    "stars",
+    "review",
+    "bars",
+    "score",
+    "feedback",
+    "rank"
+  ],
+  "svg": "<g class=\"p2\"><path d=\"M3 6h9\"/><path d=\"M3 12h9\"/><path d=\"M3 18h9\"/></g><path class=\"p3\" d=\"M18 3.4l.65 1.71 1.82.09-1.42 1.14.48 1.76L18 7.1l-1.53 1 .48-1.76-1.42-1.14 1.82-.09z\"/><path class=\"p3\" d=\"M18 9.4l.65 1.71 1.82.09-1.42 1.14.48 1.76L18 13.1l-1.53 1 .48-1.76-1.42-1.14 1.82-.09z\"/><path class=\"p3\" d=\"M18 15.4l.65 1.71 1.82.09-1.42 1.14.48 1.76L18 19.1l-1.53 1 .48-1.76-1.42-1.14 1.82-.09z\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "twinkle",
+      "dur": 900,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "acl-ligament",
+  "category": "health",
+  "tags": ["acl", "ligament", "knee", "cruciate", "joint", "injury", "sports", "bone"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.500\" width=\"16\" height=\"5\" rx=\"2.500\"/><rect class=\"d p2\" x=\"4\" y=\"16.500\" width=\"16\" height=\"5\" rx=\"2.500\"/><path class=\"p3\" d=\"M8 9.500l8 5M16 9.500l-8 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

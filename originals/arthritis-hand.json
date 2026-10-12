@@ -1,0 +1,33 @@
+{
+    "name":  "arthritis-hand",
+    "category":  "health",
+    "tags":  [
+                 "arthritis",
+                 "joint",
+                 "hand",
+                 "finger",
+                 "pain",
+                 "knuckle"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"9\" y=\"4\" width=\"6\" height=\"17\" rx=\"3\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"13\" r=\"2.5\"/\u003e\u003cpath class=\"p3\" d=\"M19 8l2-2M19.5 13h2.5M5 8L3 6M4.5 13H2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "shake",
+                       "dur":  800,
+                       "delay":  800
+                   }
+               ]
+}

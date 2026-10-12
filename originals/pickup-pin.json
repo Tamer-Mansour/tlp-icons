@@ -1,0 +1,11 @@
+{
+  "name": "pickup-pin",
+  "category": "maps",
+  "tags": ["pickup", "pin", "location", "map", "upload", "arrow", "ride"],
+  "svg": "<path class=\"d p1\" d=\"M7 20s-5-4.5-5-9a5 5 0 0 1 10 0c0 4.5-5 9-5 9z\"/><circle class=\"p2\" cx=\"7\" cy=\"11\" r=\"1.6\"/><path class=\"p3\" d=\"M17 21V11M14.5 13.5 17 11l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

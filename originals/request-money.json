@@ -1,0 +1,33 @@
+{
+  "name": "request-money",
+  "category": "finance",
+  "tags": [
+    "request",
+    "money",
+    "coin",
+    "receive",
+    "payment",
+    "incoming"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"15\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M4 4l5 5M9 4v5H4\"/><path class=\"p3\" d=\"M15 12.5v5M12.5 15h5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 700
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pack-dimensions",
+  "category": "commerce",
+  "tags": [
+    "dimensions",
+    "box",
+    "package",
+    "size",
+    "measure",
+    "shipping"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"12\" height=\"13\" rx=\"1\"/><path class=\"p3\" d=\"M5 11.5h12\"/><g class=\"p2\"><path d=\"M5 3.5h12M5 3.5l2-1.5M5 3.5l2 1.5M17 3.5l-2-1.5M17 3.5l-2 1.5\"/><path d=\"M20.5 7v13M20.5 7l-1.5 2M20.5 7l1.5 2M20.5 20l-1.5-2M20.5 20l1.5-2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 600
+    }
+  ]
+}

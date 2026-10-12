@@ -1,0 +1,20 @@
+{
+  "name": "pick-path",
+  "category": "commerce",
+  "tags": [
+    "pick",
+    "path",
+    "route",
+    "warehouse",
+    "shelf",
+    "picking",
+    "order"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"10\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"18\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M4 6v6h6M14 12h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 900, "delay": 900 }
+  ]
+}

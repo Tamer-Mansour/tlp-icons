@@ -1,0 +1,11 @@
+{
+  "name": "turn-by-turn-card",
+  "category": "maps",
+  "tags": ["turn", "navigation", "directions", "route", "distance", "guidance", "map"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"3\"/><g class=\"p2\"><path d=\"M9 14v-2.5a2 2 0 0 1 2-2h3.5\"/><polyline points=\"12.5 7 15 9.5 12.5 12\"/></g><path class=\"p3\" d=\"M7 18h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 1000 }
+  ]
+}

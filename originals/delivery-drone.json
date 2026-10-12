@@ -1,0 +1,12 @@
+{
+  "name": "delivery-drone",
+  "category": "commerce",
+  "tags": ["drone", "delivery", "quadcopter", "rotor", "package", "shipping", "fly"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 5l3 3M19 5l-3 3M5 14l3-3M19 14l-3-3\"/><path class=\"p3\" d=\"M3 5h4M17 5h4M3 14h4M17 14h4\"/><g class=\"p4\"><path d=\"M12 12v3\"/><rect x=\"9.5\" y=\"15\" width=\"5\" height=\"5\" rx=\"0.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

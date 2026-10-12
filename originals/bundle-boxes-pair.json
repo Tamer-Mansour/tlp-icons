@@ -1,0 +1,11 @@
+{
+  "name": "bundle-boxes-pair",
+  "category": "commerce",
+  "tags": ["bundle", "boxes", "package", "pair", "tied", "shipping", "parcels"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"8.5\" height=\"12\" rx=\"1\"/><rect class=\"d p1\" x=\"13\" y=\"8\" width=\"8.5\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M2 12.5h20\"/><path class=\"d p3\" d=\"M10.5 12.5 12 10.5l1.5 2-1.5 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

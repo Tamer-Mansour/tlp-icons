@@ -1,0 +1,19 @@
+{
+  "name": "burn-cooling-tap",
+  "category": "health",
+  "tags": [
+    "burn",
+    "cooling",
+    "tap",
+    "water",
+    "cold",
+    "first-aid"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2.5\" width=\"6.5\" height=\"6.5\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 5.75h7v4\"/><path class=\"p3\" d=\"M15.5 11v3.5\"/><ellipse class=\"p4\" cx=\"15.5\" cy=\"18.5\" rx=\"6\" ry=\"2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 900, "delay": 1200 }
+  ]
+}

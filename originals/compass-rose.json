@@ -1,0 +1,10 @@
+{
+  "name": "compass-rose",
+  "category": "maps",
+  "tags": ["compass", "rose", "direction", "north", "navigate", "star"],
+  "svg": "<polygon class=\"p1\" points=\"12,2 13.34,8.77 16.24,7.76 15.23,10.66 22,12 15.23,13.34 16.24,16.24 13.34,15.23 12,22 10.66,15.23 7.76,16.24 8.77,13.34 2,12 8.77,10.66 7.76,7.76 10.66,8.77\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

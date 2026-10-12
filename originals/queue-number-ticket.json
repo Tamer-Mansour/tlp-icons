@@ -1,0 +1,18 @@
+{
+  "name": "queue-number-ticket",
+  "category": "finance",
+  "tags": [
+    "queue",
+    "ticket",
+    "number",
+    "waiting",
+    "token",
+    "turn"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 5h18v4.5a2.5 2.5 0 0 0 0 5V19H3v-4.5a2.5 2.5 0 0 0 0-5z\"/><path class=\"p2\" d=\"M15 7.5v1.5M15 11v2M15 15v1.5\"/><path class=\"p3\" d=\"M7.5 16V8.5l-2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

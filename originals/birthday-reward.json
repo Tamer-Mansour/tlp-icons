@@ -1,0 +1,33 @@
+{
+  "name": "birthday-reward",
+  "category": "commerce",
+  "tags": [
+    "birthday",
+    "cake",
+    "gift",
+    "reward",
+    "present",
+    "loyalty"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"12\" width=\"16\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M4 16c2 0 2-1.5 4-1.5s2 1.5 4 1.5 2-1.5 4-1.5 2 1.5 4 1.5\"/><rect class=\"p3\" x=\"8\" y=\"4\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 4v4M12 4c-1.5-2.5-3.5-2-2.5 0M12 4c1.5-2.5 3.5-2 2.5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 900
+    }
+  ]
+}

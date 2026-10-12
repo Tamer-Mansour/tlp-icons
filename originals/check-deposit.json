@@ -1,0 +1,40 @@
+{
+  "name": "check-deposit",
+  "category": "finance",
+  "tags": [
+    "check",
+    "deposit",
+    "cheque",
+    "bank",
+    "mobile deposit",
+    "paper",
+    "payment"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"20\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 5.5h7M5 8.5h4\"/><g class=\"p3\"><path d=\"M12 13v3.5M9.5 14 12 16.5 14.5 14\"/></g><rect class=\"p4\" x=\"2\" y=\"19\" width=\"20\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

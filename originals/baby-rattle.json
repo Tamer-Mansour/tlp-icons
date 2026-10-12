@@ -1,0 +1,18 @@
+{
+  "name": "baby-rattle",
+  "category": "health",
+  "tags": [
+    "baby",
+    "rattle",
+    "toy",
+    "infant",
+    "newborn",
+    "nursery"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"8\" r=\"1.8\"/><path class=\"p2\" d=\"M12 13v5.5\"/><circle class=\"p2\" cx=\"12\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "rattle", "dur": 900, "delay": 800 }
+  ]
+}

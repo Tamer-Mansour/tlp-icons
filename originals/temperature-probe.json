@@ -1,0 +1,27 @@
+{
+    "name":  "temperature-probe",
+    "category":  "commerce",
+    "tags":  [
+                 "temperature",
+                 "probe",
+                 "thermometer",
+                 "food",
+                 "cooking",
+                 "sensor"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M10 4a2 2 0 0 1 4 0v9.5a4.5 4.5 0 1 1-4 0z\"/\u003e\u003cpath class=\"p2\" d=\"M12 9v7\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   }
+               ]
+}

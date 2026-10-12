@@ -1,0 +1,39 @@
+{
+  "name": "goods-outbound",
+  "category": "commerce",
+  "tags": [
+    "outbound",
+    "shipping",
+    "box",
+    "clipboard",
+    "dispatch",
+    "export"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10.5\" width=\"11\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M3 10.5l2.5-3.5h8l2.5 3.5\"/><path class=\"p3\" d=\"M16 9l4-4M16.5 5H20v3.5\"/><g class=\"p4\"><rect x=\"15\" y=\"12\" width=\"6\" height=\"9\" rx=\"1\"/><path d=\"M17.5 12v-1.5h2V12\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 150
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "launch",
+      "dur": 900,
+      "delay": 900
+    }
+  ]
+}

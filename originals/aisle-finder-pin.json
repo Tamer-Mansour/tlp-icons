@@ -1,0 +1,40 @@
+{
+  "name": "aisle-finder-pin",
+  "category": "commerce",
+  "tags": [
+    "aisle",
+    "store",
+    "finder",
+    "map pin",
+    "grid",
+    "shop directory",
+    "location"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M3 14h18M9 3v11\"/><path class=\"p4\" d=\"M12 7.5a3 3 0 0 1 6 0c0 2.2-3 5-3 5s-3-2.8-3-5z\"/><path class=\"p3\" d=\"M12 16v5M8.5 21h7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p4",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

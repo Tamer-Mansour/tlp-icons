@@ -1,0 +1,11 @@
+{
+  "name": "tower-landmark",
+  "category": "maps",
+  "tags": ["tower", "landmark", "observation", "lookout", "view", "tall", "lattice"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5.5\" width=\"10\" height=\"2.5\" rx=\"1\"/><path class=\"p2\" d=\"M7 22l3-14M17 22l-3-14M8 17.5h8M9 13.5h6\"/><path class=\"p3\" d=\"M12 5.5V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

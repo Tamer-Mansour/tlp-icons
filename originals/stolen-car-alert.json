@@ -1,0 +1,11 @@
+{
+  "name": "stolen-car-alert",
+  "category": "finance",
+  "tags": ["stolen", "car", "alert", "theft", "alarm", "insurance"],
+  "svg": "<path class=\"d p1\" d=\"M2 15v-3l2.5-4h9l2.5 4v3z\"/><g class=\"p3\"><circle cx=\"6\" cy=\"17\" r=\"2\"/><circle cx=\"12\" cy=\"17\" r=\"2\"/></g><path class=\"p2\" d=\"M20 5v6M20 15h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "buzz", "dur": 900, "delay": 700 }
+  ]
+}

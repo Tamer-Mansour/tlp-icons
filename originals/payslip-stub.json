@@ -1,0 +1,35 @@
+{
+  "name": "payslip-stub",
+  "category": "finance",
+  "tags": [
+    "payslip",
+    "pay",
+    "stub",
+    "salary",
+    "wages",
+    "paycheck",
+    "earnings",
+    "coin"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 2h9l3 3v10H4z\"/><path class=\"p2\" d=\"M7 6.5h5M7 9.5h5M7 12.5h3\"/><circle class=\"d p3\" cx=\"17\" cy=\"16\" r=\"4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "rollIn",
+      "dur": 900,
+      "delay": 800
+    }
+  ]
+}

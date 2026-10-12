@@ -1,0 +1,33 @@
+{
+  "name": "chip-card",
+  "category": "finance",
+  "tags": [
+    "card",
+    "chip",
+    "credit card",
+    "payment",
+    "bank",
+    "emv"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 8h5v4H5z\"/><path class=\"p3\" d=\"M5 16h4M11 16h2M15 16h4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 900
+    }
+  ]
+}

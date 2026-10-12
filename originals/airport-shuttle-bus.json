@@ -1,0 +1,34 @@
+{
+  "name": "airport-shuttle-bus",
+  "category": "maps",
+  "tags": [
+    "airport",
+    "shuttle",
+    "bus",
+    "transfer",
+    "travel",
+    "terminal",
+    "plane"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M4 11 H20\"/><path class=\"p3\" d=\"M7 20 H8 M16 20 H17\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    }
+  ]
+}

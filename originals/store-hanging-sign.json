@@ -1,0 +1,11 @@
+{
+  "name": "store-hanging-sign",
+  "category": "commerce",
+  "tags": ["hanging sign", "shop sign", "signboard", "storefront", "bracket", "retail"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18\"/><path class=\"p2\" d=\"M3 7h16M3 13l6-6\"/><g class=\"p3\"><path d=\"M12.5 7v3M18.5 7v3\"/><rect class=\"d\" x=\"11\" y=\"10\" width=\"9\" height=\"7\" rx=\"1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swingIn", "dur": 1000, "delay": 900, "origin": "12.5px 7px" }
+  ]
+}

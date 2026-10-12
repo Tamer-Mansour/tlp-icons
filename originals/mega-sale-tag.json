@@ -1,0 +1,11 @@
+{
+  "name": "mega-sale-tag",
+  "category": "commerce",
+  "tags": ["sale", "tag", "discount", "promo", "price", "offer"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 12.5 11.5 4.5h8v8l-8 8z\"/><circle cx=\"16\" cy=\"8\" r=\"1.4\"/><g class=\"p2\"><path d=\"M4 2.5l1.5 2M2 5.5h2.2M5.5 2v2.2\"/></g><rect class=\"d p3\" x=\"6.5\" y=\"10\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "zoomIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "dog-leash-trail",
+  "category": "maps",
+  "tags": [
+    "dog",
+    "leash",
+    "trail",
+    "walk",
+    "hiking",
+    "pet",
+    "park"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"5.5\" r=\"2.5\"/><path class=\"p2\" d=\"M6 8c0 4 1 6 3.5 8\"/><circle class=\"p2\" cx=\"10\" cy=\"17\" r=\"2\"/><path class=\"d p3\" d=\"M11 4h8l2 2.5-2 2.5h-8z\"/><path class=\"p3\" d=\"M17 9v12\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "swing",
+      "dur": 1000,
+      "delay": 800,
+      "origin": "6px 6px"
+    }
+  ]
+}

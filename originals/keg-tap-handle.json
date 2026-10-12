@@ -1,0 +1,19 @@
+{
+  "name": "keg-tap-handle",
+  "category": "commerce",
+  "tags": [
+    "keg",
+    "tap",
+    "handle",
+    "beer",
+    "barrel",
+    "draft",
+    "brewery"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12v11a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1z\"/><path class=\"p2\" d=\"M6 13h12M6 17h12\"/><path class=\"p3\" d=\"M12 9V5M8 5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 600 }
+  ]
+}

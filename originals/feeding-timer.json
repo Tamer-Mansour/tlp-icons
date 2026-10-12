@@ -1,0 +1,11 @@
+{
+  "name": "feeding-timer",
+  "category": "health",
+  "tags": ["feeding", "timer", "baby", "bottle", "clock", "infant", "schedule"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6.5\"/><path class=\"p2\" d=\"M9 5.5V9l2 1.5\"/><g class=\"p3\"><path d=\"M18 17v-2.5h2V17\"/><rect x=\"16.5\" y=\"17\" width=\"5\" height=\"4\" rx=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

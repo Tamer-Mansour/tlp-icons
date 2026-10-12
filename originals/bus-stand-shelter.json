@@ -1,0 +1,11 @@
+{
+  "name": "bus-stand-shelter",
+  "category": "maps",
+  "tags": ["bus", "stop", "shelter", "bench", "roof", "transit", "waiting"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 6v15M19 6v15M3 21h18\"/><path class=\"p3\" d=\"M7 15h10M9 15v3M15 15v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "er-entrance-sign",
+  "category": "health",
+  "tags": [
+    "emergency",
+    "er",
+    "entrance",
+    "sign",
+    "hospital",
+    "cross"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3.5\" width=\"18\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M8 5.5v5M5.5 8h5\"/><path class=\"p3\" d=\"M13.5 8H19M16.5 5.5 19 8l-2.5 2.5\"/><path class=\"p4\" d=\"M12 12.5v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

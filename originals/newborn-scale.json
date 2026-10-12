@@ -1,0 +1,34 @@
+{
+  "name": "newborn-scale",
+  "category": "health",
+  "tags": [
+    "newborn",
+    "baby",
+    "scale",
+    "weight",
+    "infant",
+    "weighing",
+    "pediatric"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 13h14a7 7 0 0 1-14 0z\"/><path class=\"p2\" d=\"M12 6 6.5 13M12 6l5.5 7\"/><circle class=\"p3\" cx=\"12\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 700
+    }
+  ]
+}

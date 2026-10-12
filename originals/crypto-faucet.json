@@ -1,0 +1,19 @@
+{
+  "name": "crypto-faucet",
+  "category": "finance",
+  "tags": [
+    "faucet",
+    "crypto",
+    "drip",
+    "coin",
+    "reward",
+    "airdrop",
+    "testnet"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2.5 4h5M5 4v3M5 7h7v4\"/><path class=\"d p2\" d=\"M7.5 16.5h9l-1.2 4.5a1 1 0 0 1-1 .8H9.7a1 1 0 0 1-1-.8z\"/><circle class=\"d p3\" cx=\"12\" cy=\"14\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 700 }
+  ]
+}

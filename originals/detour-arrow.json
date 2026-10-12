@@ -1,0 +1,11 @@
+{
+  "name": "detour-arrow",
+  "category": "maps",
+  "tags": ["detour", "arrow", "road block", "reroute", "barrier", "diversion"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"15\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M4 21V11a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v3\"/><path class=\"p3\" d=\"m18 13 2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

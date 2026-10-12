@@ -1,0 +1,11 @@
+{
+  "name": "wire-transfer",
+  "category": "finance",
+  "tags": ["wire", "transfer", "bank", "send", "remittance", "payment"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 9.5 9 5l6.5 4.5z\"/><path class=\"p2\" d=\"M4.5 12.5v6M8.5 12.5v6M12.5 12.5v6M2.5 20.5h13\"/><path class=\"p3\" d=\"M15.5 15.5h1.5M18.5 15.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

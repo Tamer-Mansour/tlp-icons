@@ -1,0 +1,19 @@
+{
+  "name": "care-visit-schedule",
+  "category": "health",
+  "tags": [
+    "care",
+    "visit",
+    "schedule",
+    "home",
+    "calendar",
+    "nurse",
+    "caregiver"
+  ],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><g class=\"p2\"><path d=\"M8 2v4M16 2v4M3 9h18\"/></g><path class=\"d p3\" d=\"M13.5 20v-5L17 12l3.5 3v5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

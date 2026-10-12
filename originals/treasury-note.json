@@ -1,0 +1,33 @@
+{
+  "name": "treasury-note",
+  "category": "finance",
+  "tags": [
+    "treasury",
+    "note",
+    "bond",
+    "bank",
+    "government",
+    "banknote"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><g class=\"p2\"><path d=\"M8 11l4-2.5 4 2.5M8 15h8M10 11.5v3M14 11.5v3\"/></g><circle class=\"p3\" cx=\"5.5\" cy=\"12\" r=\"0.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "candy-wrapper-twist",
+  "category": "commerce",
+  "tags": [
+    "candy",
+    "wrapper",
+    "twist",
+    "sweet",
+    "treat",
+    "confection",
+    "chocolate",
+    "package"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"5.5\" ry=\"4\"/><path class=\"p2\" d=\"M6.5 10.5 3 9l1.5 3L3 15l3.5-1.5\"/><path class=\"p3\" d=\"M17.5 10.5 21 9l-1.5 3L21 15l-3.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 450 }
+  ]
+}

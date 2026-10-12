@@ -1,0 +1,12 @@
+{
+  "name": "electrolyte-sensor",
+  "category": "health",
+  "tags": ["electrolyte", "sensor", "probe", "sodium", "ions", "plus minus", "lab"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"7\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 8h3M4.5 6.5v3\"/><path class=\"p3\" d=\"M18 8h3\"/><path class=\"p4\" d=\"M11 13v5.5a1 1 0 0 0 2 0V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 450, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 450, "delay": 900 }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name":  "shoe-shelf-display",
+    "category":  "commerce",
+    "tags":  [
+                 "shoe",
+                 "shelf",
+                 "display",
+                 "sneaker",
+                 "store",
+                 "retail"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 17V7h4l2 4 8 2c2 .5 4 1.5 4 4z\"/\u003e\u003cpath class=\"p2\" d=\"M3 21h18\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  300
+                   }
+               ]
+}

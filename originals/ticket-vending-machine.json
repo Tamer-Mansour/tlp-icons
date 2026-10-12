@@ -1,0 +1,40 @@
+{
+  "name": "ticket-vending-machine",
+  "category": "maps",
+  "tags": [
+    "ticket",
+    "machine",
+    "kiosk",
+    "vending",
+    "transit",
+    "travel",
+    "station"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"4.5\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M9 12h6\"/><path class=\"p4\" d=\"M9 17h6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

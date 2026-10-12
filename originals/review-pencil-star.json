@@ -1,0 +1,11 @@
+{
+  "name": "review-pencil-star",
+  "category": "commerce",
+  "tags": ["review", "rating", "star", "pencil", "feedback", "write", "reviews"],
+  "svg": "<path class=\"d p1\" d=\"M9.8 3.3L11.81 7.37L16.3 8.03L13.05 11.19L13.82 15.66L9.8 13.55L5.78 15.66L6.55 11.19L3.3 8.03L7.79 7.37Z\"/><path class=\"p2\" d=\"M16.72 17.72L18.28 19.28L21.78 15.78L20.22 14.22Z\"/><path class=\"p3\" d=\"M16.72 17.72L15 21L18.28 19.28Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

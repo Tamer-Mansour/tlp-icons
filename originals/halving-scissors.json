@@ -1,0 +1,34 @@
+{
+  "name": "halving-scissors",
+  "category": "finance",
+  "tags": [
+    "halving",
+    "split",
+    "cut",
+    "bitcoin",
+    "coin",
+    "reward",
+    "divide"
+  ],
+  "svg": "<path class=\"p1\" d=\"M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12\"/><circle class=\"d p2\" cx=\"6\" cy=\"6\" r=\"3\"/><circle class=\"d p3\" cx=\"6\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 150
+    },
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 400
+    }
+  ]
+}

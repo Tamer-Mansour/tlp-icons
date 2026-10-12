@@ -1,0 +1,34 @@
+{
+  "name": "spirit-level-map",
+  "category": "maps",
+  "tags": [
+    "spirit level",
+    "level",
+    "bubble vial",
+    "map",
+    "navigation",
+    "survey",
+    "leveling"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"1.500\"/><path class=\"p3\" d=\"M8 10 V14 M16 10 V14\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "pendulum",
+      "dur": 900,
+      "delay": 500
+    }
+  ]
+}

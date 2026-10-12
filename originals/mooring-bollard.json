@@ -1,0 +1,11 @@
+{
+  "name": "mooring-bollard",
+  "category": "maps",
+  "tags": ["mooring", "bollard", "dock", "pier", "rope", "harbor", "boat"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 21v-8a3.5 3.5 0 0 1 7 0v8z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"11\" rx=\"5.5\" ry=\"1.8\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

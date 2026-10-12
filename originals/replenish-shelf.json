@@ -1,0 +1,19 @@
+{
+  "name": "replenish-shelf",
+  "category": "commerce",
+  "tags": [
+    "replenish",
+    "restock",
+    "refill",
+    "shelf",
+    "inventory",
+    "stock",
+    "box"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2 20h20\"/><rect class=\"d p2\" x=\"5\" y=\"13\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M9 3v7M6 7l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 900 }
+  ]
+}

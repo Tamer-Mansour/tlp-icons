@@ -1,0 +1,29 @@
+{
+    "name":  "ventilator-bellows",
+    "category":  "health",
+    "tags":  [
+                 "ventilator",
+                 "bellows",
+                 "bag",
+                 "breathing",
+                 "resuscitator",
+                 "oxygen",
+                 "respirator",
+                 "icu"
+             ],
+    "svg":  "\u003cellipse class=\"d p1\" cx=\"8\" cy=\"12\" rx=\"5.500\" ry=\"7\"/\u003e\u003cpath class=\"p2\" d=\"M13 8l8 1.500v5L13 16z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  400
+                   }
+               ]
+}

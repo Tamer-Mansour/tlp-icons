@@ -1,0 +1,12 @@
+{
+  "name": "autoinjector-pen",
+  "category": "health",
+  "tags": ["autoinjector", "injector", "pen", "medicine", "dose", "emergency", "needle"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"6\" width=\"8\" height=\"11\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"2.5\" width=\"10\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M8 11h8\"/><path class=\"p4\" d=\"M12 17v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "grow", "dur": 400, "delay": 300, "origin": "top" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "press", "dur": 800, "delay": 1000 }
+  ]
+}

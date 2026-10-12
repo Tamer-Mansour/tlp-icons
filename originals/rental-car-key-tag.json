@@ -1,0 +1,18 @@
+{
+  "name": "rental-car-key-tag",
+  "category": "finance",
+  "tags": [
+    "rental",
+    "car",
+    "key",
+    "tag",
+    "fob",
+    "vehicle"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"12\" height=\"8\" rx=\"3\"/><circle class=\"f p1\" cx=\"8\" cy=\"7\" r=\"1.2\"/><g class=\"p2\"><path d=\"M8 11v4.5\"/><circle cx=\"8\" cy=\"17.5\" r=\"2\"/></g><g class=\"p3\"><path d=\"M10 17.5h2\"/><path class=\"d\" d=\"M12 14.5h7l2 3-2 3h-7z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swingIn", "dur": 900, "delay": 800, "origin": "10px 17.5px" }
+  ]
+}

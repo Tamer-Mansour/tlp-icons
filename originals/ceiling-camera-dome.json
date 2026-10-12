@@ -1,0 +1,11 @@
+{
+  "name": "ceiling-camera-dome",
+  "category": "commerce",
+  "tags": ["ceiling", "camera", "dome", "cctv", "security", "surveillance", "lens", "store"],
+  "svg": "<path class=\"p2\" d=\"M4 4h16M12 4v4\"/><path class=\"d p1\" d=\"M6 14a6 6 0 0 1 12 0z\"/><circle class=\"p3\" cx=\"12\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

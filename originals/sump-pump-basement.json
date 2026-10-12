@@ -1,0 +1,35 @@
+{
+  "name": "sump-pump-basement",
+  "category": "finance",
+  "tags": [
+    "sump",
+    "pump",
+    "basement",
+    "water",
+    "drain",
+    "flood",
+    "pipe",
+    "plumbing"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 15c3-2 6 2 9 0s6 2 9 0\"/><path class=\"p3\" d=\"M12 11V6M10 8l2-2 2 2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sway",
+      "dur": 1200,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "float",
+      "dur": 1200,
+      "delay": 600
+    }
+  ]
+}

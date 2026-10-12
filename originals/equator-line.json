@@ -1,0 +1,11 @@
+{
+  "name": "equator-line",
+  "category": "maps",
+  "tags": ["equator", "globe", "latitude", "world", "geography", "map"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><line class=\"p3\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "smoke-inhalation-mask",
+    "category":  "health",
+    "tags":  [
+                 "smoke",
+                 "inhalation",
+                 "mask",
+                 "fire",
+                 "respirator",
+                 "burn"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 8c0-1 .8-2 2-2h12c1.200 0 2 1 2 2v4c0 4-3.500 7-8 7s-8-3-8-7z\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"13\" r=\"3\"/\u003e\u003cpath class=\"p3\" d=\"M4 10H2M20 10h2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  700
+                   }
+               ]
+}

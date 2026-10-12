@@ -1,0 +1,11 @@
+{
+  "name": "shipping-box-tape",
+  "category": "commerce",
+  "tags": ["shipping", "box", "package", "tape", "parcel", "delivery", "cardboard"],
+  "svg": "<path class=\"d p1\" d=\"M3 7.5 12 2.5l9 5v9l-9 5-9-5z\"/><path class=\"p2\" d=\"M3 7.5l9 5 9-5M12 12.5v9\"/><path class=\"d p3\" d=\"M10.5 4.3h3v6.4h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

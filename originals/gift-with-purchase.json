@@ -1,0 +1,19 @@
+{
+  "name": "gift-with-purchase",
+  "category": "commerce",
+  "tags": [
+    "gift",
+    "purchase",
+    "bag",
+    "shopping",
+    "present",
+    "promotion",
+    "free gift"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 9h11l-1 12H5z\"/><path class=\"p2\" d=\"M8 9V7a3 3 0 0 1 6 0v2\"/><g class=\"p3\"><rect x=\"16\" y=\"4\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M19 4v5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 500 }
+  ]
+}

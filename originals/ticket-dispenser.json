@@ -1,0 +1,11 @@
+{
+  "name": "ticket-dispenser",
+  "category": "commerce",
+  "tags": ["ticket", "dispenser", "machine", "queue", "paper", "token", "counter"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"6.5\" rx=\"0.5\"/><g class=\"p3\"><path d=\"M7.5 12h9\"/><circle cx=\"12\" cy=\"16.5\" r=\"1.6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "peek", "dur": 1000, "delay": 900 }
+  ]
+}

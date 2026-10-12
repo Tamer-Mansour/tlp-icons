@@ -1,0 +1,19 @@
+{
+  "name": "long-position",
+  "category": "finance",
+  "tags": [
+    "long",
+    "position",
+    "trade",
+    "bullish",
+    "buy",
+    "arrow up",
+    "investment"
+  ],
+  "svg": "<path class=\"p1\" d=\"M8 3H5v18h3M16 3h3v18h-3\"/><path class=\"p2\" d=\"M12 18V8\"/><path class=\"p3\" d=\"M10 10l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

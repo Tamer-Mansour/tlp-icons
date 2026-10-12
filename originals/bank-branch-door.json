@@ -1,0 +1,11 @@
+{
+  "name": "bank-branch-door",
+  "category": "finance",
+  "tags": ["bank", "branch", "building", "columns", "office", "entrance"],
+  "svg": "<path class=\"d p1\" d=\"M3 9l9-6 9 6z\"/><path class=\"p2\" d=\"M6 12.5v5M12 12.5v5M18 12.5v5\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 700 }
+  ]
+}

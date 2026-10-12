@@ -1,0 +1,10 @@
+{
+  "name": "mountain-lodge",
+  "category": "maps",
+  "tags": ["lodge", "cabin", "mountain", "chalet", "retreat", "hut"],
+  "svg": "<path class=\"p2\" d=\"M2 21 8 10l4.5 7\"/><path class=\"d p1\" d=\"M12 21v-6l4-4 4 4v6z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "lasso-select-area",
+  "category": "maps",
+  "tags": [
+    "lasso",
+    "select",
+    "area",
+    "selection",
+    "region",
+    "cursor"
+  ],
+  "svg": "<path class=\"p1\" d=\"M4 9C4 5.5 7.5 3.5 12 3.5S20 5.5 20 9s-3.5 5.5-8 5.5c-1.5 0-2.5.4-3.5 1.5\"/><path class=\"p2\" d=\"M8.5 16.5 6 21\"/><path class=\"p3\" d=\"M7.5 9h2M11 9h2M14.5 9h2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 600
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

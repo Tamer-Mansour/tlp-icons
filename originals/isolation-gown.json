@@ -1,0 +1,33 @@
+{
+  "name": "isolation-gown",
+  "category": "health",
+  "tags": [
+    "gown",
+    "isolation",
+    "ppe",
+    "protective",
+    "surgery",
+    "medical"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6l4 3 2 10-3 1-2-7v11H8V10L6 17l-3-1 2-10z\"/><path class=\"p2\" d=\"M9 3q3 4 6 0\"/><path class=\"p3\" d=\"M8 13.5h8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 700
+    }
+  ]
+}

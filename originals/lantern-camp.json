@@ -1,0 +1,11 @@
+{
+  "name": "lantern-camp",
+  "category": "maps",
+  "tags": ["lantern", "camp", "camping", "light", "glow", "lamp", "outdoors"],
+  "svg": "<path class=\"p1\" d=\"M12 2v2\"/><path class=\"d p2\" d=\"M8 6h8l1.5 3.5v6L16 19H8l-1.5-4.5v-6z\"/><circle class=\"p3\" cx=\"12\" cy=\"12.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000 }
+  ]
+}

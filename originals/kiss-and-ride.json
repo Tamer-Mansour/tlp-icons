@@ -1,0 +1,41 @@
+{
+  "name": "kiss-and-ride",
+  "category": "maps",
+  "tags": [
+    "kiss and ride",
+    "pickup",
+    "drop off",
+    "curb",
+    "car",
+    "passenger",
+    "station",
+    "arrival"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 16 V12 L4.500 8 H14 L16.500 12 V16 Z\"/><circle class=\"p2\" cx=\"6\" cy=\"17.500\" r=\"1.800\"/><circle class=\"p3\" cx=\"13\" cy=\"17.500\" r=\"1.800\"/><path class=\"p4\" d=\"M19 11 L16 8 A1.800 1.800 0 0 1 19 6 A1.800 1.800 0 0 1 22 8 Z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 300,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 300,
+      "delay": 350
+    },
+    {
+      "part": "p4",
+      "anim": "beat",
+      "dur": 900,
+      "delay": 600
+    }
+  ]
+}

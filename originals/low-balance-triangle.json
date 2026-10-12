@@ -1,0 +1,11 @@
+{
+  "name": "low-balance-triangle",
+  "category": "finance",
+  "tags": ["low", "balance", "warning", "triangle", "account", "card", "alert"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M12 8.5l4.5 8h-9z\"/><path class=\"p3\" d=\"M12 11.5v2.3M12 15.1h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800, "origin": "12px 13px" }
+  ]
+}

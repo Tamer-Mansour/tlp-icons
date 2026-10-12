@@ -1,0 +1,27 @@
+{
+    "name":  "vaccination-card",
+    "category":  "health",
+    "tags":  [
+                 "vaccination",
+                 "vaccine",
+                 "card",
+                 "record",
+                 "immunization",
+                 "certificate"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M9 12h6M12 9v6\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "popIn",
+                       "part":  "p2",
+                       "dur":  600
+                   }
+               ]
+}

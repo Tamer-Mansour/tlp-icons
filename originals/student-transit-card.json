@@ -1,0 +1,11 @@
+{
+  "name": "student-transit-card",
+  "category": "maps",
+  "tags": ["student", "transit", "card", "pass", "graduation", "bus", "discount", "ticket"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"d p2\" d=\"M7 10.5 12 8.5l5 2-5 2z\"/><path class=\"p2\" d=\"M17 10.5v3\"/><path class=\"p3\" d=\"M6.5 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

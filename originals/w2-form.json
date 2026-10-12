@@ -1,0 +1,11 @@
+{
+  "name": "w2-form",
+  "category": "finance",
+  "tags": ["w2", "tax form", "wage statement", "income", "employer", "annual tax"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"13\" height=\"18\" rx=\"2\"/><g class=\"p2\"><rect x=\"6\" y=\"6\" width=\"7\" height=\"4\" rx=\"0.5\"/><path d=\"M6 13h4M6 16h4\"/></g><path class=\"d p3\" d=\"M13 18l1-3.5 5-5 2.5 2.5-5 5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

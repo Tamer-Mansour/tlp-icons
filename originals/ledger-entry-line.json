@@ -1,0 +1,11 @@
+{
+  "name": "ledger-entry-line",
+  "category": "finance",
+  "tags": ["ledger", "entry", "debit", "credit", "accounting", "bookkeeping"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><g class=\"p2\"><path d=\"M12 4v16M3 10h18\"/></g><path class=\"p3\" d=\"M6 15h4M14 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 600 }
+  ]
+}

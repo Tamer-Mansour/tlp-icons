@@ -1,0 +1,34 @@
+{
+    "name":  "volume-discount",
+    "category":  "commerce",
+    "tags":  [
+                 "volume discount",
+                 "bulk",
+                 "boxes",
+                 "percent off",
+                 "sale",
+                 "savings"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/\u003e\u003crect class=\"d p2\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/\u003e\u003cpath class=\"p3\" d=\"M16 3l-6 7M10 3h.01M16 10h.01\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  200
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  800,
+                       "origin":  "center"
+                   }
+               ]
+}

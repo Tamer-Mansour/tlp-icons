@@ -1,0 +1,11 @@
+{
+  "name": "insurance-card",
+  "category": "health",
+  "tags": ["insurance", "card", "shield", "cover", "coverage", "medical", "policy"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M7 8.5l5-2 5 2v4.5c0 2.5-2.2 4-5 5-2.8-1-5-2.5-5-5z\"/><path class=\"p3\" d=\"M12 9v4M10 11h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

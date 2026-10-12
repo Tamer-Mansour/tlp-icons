@@ -1,0 +1,11 @@
+{
+  "name": "paraglider-flight",
+  "category": "maps",
+  "tags": ["paraglider", "paragliding", "flight", "glide", "canopy", "air", "adventure", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M3 11a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M6 11l4 8M18 11l-4 8\"/><rect class=\"p3\" x=\"9.5\" y=\"19\" width=\"5\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 700 }
+  ]
+}

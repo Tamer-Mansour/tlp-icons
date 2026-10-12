@@ -1,0 +1,12 @@
+{
+  "name": "email-campaign",
+  "category": "commerce",
+  "tags": ["email", "campaign", "marketing", "send", "newsletter", "forward", "broadcast"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 7.5 8.5 12.5l6-5\"/><path class=\"p3\" d=\"M17 12h5M19.5 9.5 22 12l-2.5 2.5\"/><path class=\"p4\" d=\"M17.5 3.5l1.2 1.2M21 3.5l-1.2 1.2M19.3 2v1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

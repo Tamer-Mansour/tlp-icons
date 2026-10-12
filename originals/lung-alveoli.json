@@ -1,0 +1,10 @@
+{
+  "name": "lung-alveoli",
+  "category": "health",
+  "tags": ["lungs", "alveoli", "breathing", "respiratory", "air sacs", "oxygen", "anatomy"],
+  "svg": "<path class=\"d p1\" d=\"M9 8c-3 1-5.5 6-5.5 10 0 1.2.8 2 2 2H7.5c1 0 1.5-.8 1.5-2z\"/><path class=\"d p1\" d=\"M15 8c3 1 5.5 6 5.5 10 0 1.2-.8 2-2 2h-1.5c-1 0-1.5-.8-1.5-2z\"/><path class=\"p2\" d=\"M12 3v7M12 10l-2.5 3M12 10l2.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

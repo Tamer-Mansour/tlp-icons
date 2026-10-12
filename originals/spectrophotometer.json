@@ -1,0 +1,19 @@
+{
+  "name": "spectrophotometer",
+  "category": "health",
+  "tags": [
+    "spectrophotometer",
+    "cuvette",
+    "light",
+    "absorbance",
+    "lab",
+    "spectroscopy",
+    "measure"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v4.5\"/><rect class=\"d p2\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"1.5\"/><path class=\"p3\" d=\"M8.5 16c.9-1 1.9-1 2.8 0s1.9 1 2.8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 900 }
+  ]
+}

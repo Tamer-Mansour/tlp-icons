@@ -1,0 +1,12 @@
+{
+  "name": "lead-time",
+  "category": "commerce",
+  "tags": ["lead time", "delivery", "clock", "shipping", "wait", "box", "supply"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"5\"/><path class=\"p2\" d=\"M8 5.5V8l1.8 1.5\"/><rect class=\"d p3\" x=\"13\" y=\"13\" width=\"9\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M13 16.5h9\"/><path class=\"p4\" d=\"M2 17h8M7 14l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

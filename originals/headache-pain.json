@@ -1,0 +1,27 @@
+{
+    "name":  "headache-pain",
+    "category":  "health",
+    "tags":  [
+                 "headache",
+                 "migraine",
+                 "pain",
+                 "head",
+                 "ache",
+                 "symptom"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"p2\" d=\"M13 6l-3.5 6h5L11 18\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "flicker",
+                       "dur":  800,
+                       "delay":  500
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "orientation-clock",
+  "category": "health",
+  "tags": ["orientation", "clock", "time", "day", "night", "schedule", "cognition"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M12 9.5V13l2.5 1.5\"/><path class=\"p3\" d=\"M4 8.5A9 9 0 0 1 20 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

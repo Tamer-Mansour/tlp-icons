@@ -1,0 +1,11 @@
+{
+  "name": "storage-rack",
+  "category": "commerce",
+  "tags": ["storage", "rack", "shelves", "warehouse", "boxes", "inventory", "stock"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18M20 3v18\"/><path class=\"p2\" d=\"M4 9h16M4 15h16M4 21h16\"/><g class=\"d p3\"><rect x=\"6\" y=\"5\" width=\"5\" height=\"4\" rx=\"0.5\"/><rect x=\"14\" y=\"11\" width=\"5\" height=\"4\" rx=\"0.5\"/><rect x=\"6\" y=\"17\" width=\"9\" height=\"4\" rx=\"0.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 800 }
+  ]
+}

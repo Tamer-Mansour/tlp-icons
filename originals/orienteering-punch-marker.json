@@ -1,0 +1,33 @@
+{
+    "name":  "orienteering-punch-marker",
+    "category":  "maps",
+    "tags":  [
+                 "orienteering",
+                 "checkpoint",
+                 "punch",
+                 "control",
+                 "marker",
+                 "trail"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"12\" rx=\"1\"/\u003e\u003cpath class=\"p2\" d=\"M6 16 18 4\"/\u003e\u003cpath class=\"p3\" d=\"M12 16v5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  400,
+                       "delay":  900
+                   }
+               ]
+}

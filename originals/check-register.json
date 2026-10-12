@@ -1,0 +1,19 @@
+{
+  "name": "check-register",
+  "category": "finance",
+  "tags": [
+    "check",
+    "register",
+    "checkbook",
+    "ledger",
+    "bank",
+    "cheque",
+    "balance"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8 7h8M8 11h8\"/><path class=\"p3\" d=\"M8 16.5l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

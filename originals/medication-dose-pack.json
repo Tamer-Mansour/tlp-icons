@@ -1,0 +1,40 @@
+{
+  "name": "medication-dose-pack",
+  "category": "health",
+  "tags": [
+    "dose pack",
+    "medication",
+    "pills",
+    "days",
+    "weekly",
+    "pharmacy",
+    "schedule"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"6.500\" cy=\"12\" r=\"1.500\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.500\"/><circle class=\"p4\" cx=\"17.500\" cy=\"12\" r=\"1.500\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 700
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 900
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "visitor-info-booth",
+  "category": "maps",
+  "tags": [
+    "visitor",
+    "info",
+    "booth",
+    "help",
+    "question",
+    "kiosk"
+  ],
+  "svg": "<path class=\"p2\" d=\"M3 9.5 12 4l9 5.5\"/><rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"1\"/><g class=\"p3\"><path d=\"M10.8 13a2 2 0 1 1 2.6 1.9c-.4.2-.6.6-.6 1v.6\"/><path d=\"M12.8 18.5h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

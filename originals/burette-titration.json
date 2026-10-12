@@ -1,0 +1,33 @@
+{
+    "name":  "burette-titration",
+    "category":  "health",
+    "tags":  [
+                 "burette",
+                 "titration",
+                 "lab",
+                 "chemistry",
+                 "drip",
+                 "pipette"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"11\" rx=\"1.5\"/\u003e\u003cpath class=\"p2\" d=\"M8 15.5h8\"/\u003e\u003cpath class=\"p3\" d=\"M12 18c-1 1.3-1.5 2-1.5 2.6a1.5 1.5 0 0 0 3 0c0-.6-.5-1.3-1.5-2.6z\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  300,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  600,
+                       "anim":  "drip",
+                       "part":  "p3",
+                       "dur":  900
+                   }
+               ]
+}

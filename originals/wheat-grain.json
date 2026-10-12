@@ -1,0 +1,10 @@
+{
+  "name": "wheat-grain",
+  "category": "health",
+  "tags": ["wheat", "grain", "gluten", "cereal", "crop", "allergy", "harvest"],
+  "svg": "<path class=\"p1\" d=\"M12 22V10\"/><g class=\"p2\"><ellipse class=\"d\" cx=\"12\" cy=\"4.5\" rx=\"1.6\" ry=\"2.6\"/><ellipse class=\"d\" cx=\"7\" cy=\"8\" rx=\"1.6\" ry=\"2.6\" transform=\"rotate(-35 7 8)\"/><ellipse class=\"d\" cx=\"17\" cy=\"8\" rx=\"1.6\" ry=\"2.6\" transform=\"rotate(35 17 8)\"/><ellipse class=\"d\" cx=\"7.5\" cy=\"15.5\" rx=\"1.6\" ry=\"2.6\" transform=\"rotate(-35 7.5 15.5)\"/><ellipse class=\"d\" cx=\"16.5\" cy=\"15.5\" rx=\"1.6\" ry=\"2.6\" transform=\"rotate(35 16.5 15.5)\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ticket-flame-priority",
+  "category": "commerce",
+  "tags": [
+    "ticket",
+    "flame",
+    "priority",
+    "urgent",
+    "support",
+    "hot"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z\"/><path class=\"p2\" d=\"M13 8v8\"/><path class=\"p3\" d=\"M17.5 8c1.3 2 3.2 3.4 3.2 5.8a3.2 3.2 0 0 1-6.4 0c0-2.2 1.6-3.3 2-5.2.5 1.2 1 1.8 1.2 2.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1200, "delay": 700 }
+  ]
+}

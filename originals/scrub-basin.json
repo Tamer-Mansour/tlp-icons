@@ -1,0 +1,19 @@
+{
+  "name": "scrub-basin",
+  "category": "health",
+  "tags": [
+    "scrub",
+    "basin",
+    "sink",
+    "tap",
+    "brush",
+    "hand wash",
+    "sterile"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 14h18v1a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path class=\"p2\" d=\"M7 14v-4h4.5\"/><g class=\"p3\"><rect x=\"16\" y=\"2\" width=\"4\" height=\"5\" rx=\"1\"/><path d=\"M18 7v3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 900, "origin": "18px 9px" }
+  ]
+}

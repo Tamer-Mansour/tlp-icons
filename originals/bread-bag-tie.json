@@ -1,0 +1,33 @@
+{
+  "name": "bread-bag-tie",
+  "category": "commerce",
+  "tags": [
+    "bread",
+    "bag",
+    "twist tie",
+    "bakery",
+    "food",
+    "package"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 8h8l2 13H6z\"/><path class=\"p2\" d=\"M8 8V5h8v3\"/><path class=\"p3\" d=\"M6 3.5 9 5M18 3.5 15 5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

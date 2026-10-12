@@ -1,0 +1,27 @@
+{
+  "name": "snorkel-mask",
+  "category": "maps",
+  "tags": [
+    "snorkel",
+    "mask",
+    "diving",
+    "dive",
+    "ocean",
+    "beach"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5C3 8 4 7 5.5 7h4.5C11 7 12 8 12 9.5 12 8 13 7 14 7h4.5C20 7 21 8 21 9.5V11a5 5 0 0 1-5 5h-1a3 3 0 0 1-3-2.5 3 3 0 0 1-3 2.5H8a5 5 0 0 1-5-5z\"/><path class=\"p2\" d=\"M18 7.5V5.5a3 3 0 0 0-3-3h-1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 350
+    }
+  ]
+}

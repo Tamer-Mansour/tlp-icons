@@ -1,0 +1,20 @@
+{
+  "name": "clearing-house",
+  "category": "finance",
+  "tags": [
+    "clearing",
+    "house",
+    "bank",
+    "building",
+    "settlement",
+    "check",
+    "institution"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9l9-6 9 6z\"/><path class=\"p2\" d=\"M2 21h20M4 9v12M7 9v12M17 9v12M20 9v12\"/><rect class=\"d p3\" x=\"9\" y=\"13\" width=\"6\" height=\"8\" rx=\"0.5\"/><path class=\"p4\" d=\"M10.4 17l1.2 1.2 2.2-2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

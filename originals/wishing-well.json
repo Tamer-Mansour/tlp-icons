@@ -1,0 +1,11 @@
+{
+  "name": "wishing-well",
+  "category": "maps",
+  "tags": ["wishing", "well", "water", "wish", "stone", "garden", "landmark", "village"],
+  "svg": "<path class=\"p1\" d=\"M3 9.5 12 3.5l9 6\"/><path class=\"p2\" d=\"M7 7V13M17 7V13M7 10h10M12 10v2.5\"/><rect class=\"d p3\" x=\"5\" y=\"13\" width=\"14\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 600 }
+  ]
+}

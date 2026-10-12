@@ -1,0 +1,11 @@
+{
+  "name": "meeting-point-flag",
+  "category": "maps",
+  "tags": ["meeting", "point", "flag", "rally", "gather", "spot", "meetup", "location"],
+  "svg": "<path class=\"p1\" d=\"M8 3v12\"/><path class=\"d p2\" d=\"M8 3.5h10l-2.5 3.5L18 10.5H8z\"/><circle class=\"f p3\" cx=\"8\" cy=\"20\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

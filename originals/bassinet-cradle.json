@@ -1,0 +1,34 @@
+{
+  "name": "bassinet-cradle",
+  "category": "health",
+  "tags": [
+    "bassinet",
+    "cradle",
+    "baby",
+    "newborn",
+    "rocking",
+    "crib",
+    "infant"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18l-2 6H5z\"/><path class=\"p2\" d=\"M4 12a8 8 0 0 1 8-8v8\"/><path class=\"p3\" d=\"M5 21c4 1.5 10 1.5 14 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

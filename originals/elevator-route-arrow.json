@@ -1,0 +1,28 @@
+{
+  "name": "elevator-route-arrow",
+  "category": "maps",
+  "tags": [
+    "elevator",
+    "lift",
+    "floor",
+    "up down",
+    "arrow",
+    "route",
+    "building"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><g class=\"p2\"><path d=\"M12 7v10\"/><path d=\"m9.5 9.5 2.5-2.5 2.5 2.5\"/><path d=\"m9.5 14.5 2.5 2.5 2.5-2.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 200
+    }
+  ]
+}

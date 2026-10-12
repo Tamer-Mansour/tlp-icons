@@ -1,0 +1,19 @@
+{
+  "name": "nausea-stomach",
+  "category": "health",
+  "tags": [
+    "nausea",
+    "stomach",
+    "queasy",
+    "sick",
+    "vomiting",
+    "digestion",
+    "upset"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 4h6c3 0 5 2 5 5v3c0 4-3 8-7 8s-5-3-5-6V4z\"/><path class=\"p2\" d=\"M8.5 10q1.75-1.75 3.5 0t3.5 0\"/><path class=\"p3\" d=\"M8.5 14.5q1.75-1.75 3.5 0t3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1100 }
+  ]
+}

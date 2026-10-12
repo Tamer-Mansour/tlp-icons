@@ -1,0 +1,10 @@
+{
+  "name": "bacteria-rod",
+  "category": "health",
+  "tags": ["bacteria", "bacterium", "rod", "microbe", "germ", "flagella", "infection"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7.5\" width=\"15\" height=\"9\" rx=\"4.5\"/><path class=\"p2\" d=\"M6 12q-1-2-2 0t-2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

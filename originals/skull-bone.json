@@ -1,0 +1,11 @@
+{
+  "name": "skull-bone",
+  "category": "health",
+  "tags": ["skull", "bone", "jaw", "hinge", "skeleton", "anatomy", "head"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"7\" ry=\"7\"/><g class=\"p2\"><circle class=\"f\" cx=\"9.2\" cy=\"10.5\" r=\"1.6\"/><circle class=\"f\" cx=\"14.8\" cy=\"10.5\" r=\"1.6\"/></g><path class=\"p3\" d=\"M9 17v2.5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V17M12 17v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

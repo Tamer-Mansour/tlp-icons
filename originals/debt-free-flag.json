@@ -1,0 +1,19 @@
+{
+  "name": "debt-free-flag",
+  "category": "finance",
+  "tags": [
+    "debt",
+    "free",
+    "flag",
+    "finish",
+    "loan",
+    "milestone",
+    "paid off"
+  ],
+  "svg": "<g class=\"p3\"><ellipse class=\"d\" cx=\"9\" cy=\"18\" rx=\"5\" ry=\"1.6\"/><path d=\"M4 18v2.5c0 .9 2.2 1.6 5 1.6s5-.7 5-1.6V18\"/></g><path class=\"p2\" d=\"M6 3v14\"/><path class=\"d p1\" d=\"M6 3.5h9l-2.2 3 2.2 3H6\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "swingIn", "dur": 700, "delay": 800, "origin": "6px 3.5px" }
+  ]
+}

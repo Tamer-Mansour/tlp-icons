@@ -1,0 +1,10 @@
+{
+  "name": "box-breathing",
+  "category": "health",
+  "tags": ["breathing", "box", "square", "breath", "calm", "relax", "meditation"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M12.5 2.5 15 4 12.5 5.5M18.5 12.5 20 15 21.5 12.5M11.5 18.5 9 20 11.5 21.5M2.5 11.5 4 9 5.5 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 800, "origin": "center" }
+  ]
+}

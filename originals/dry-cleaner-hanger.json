@@ -1,0 +1,11 @@
+{
+  "name": "dry-cleaner-hanger",
+  "category": "maps",
+  "tags": ["dry cleaner", "hanger", "garment", "laundry", "clothes", "cover", "pressing"],
+  "svg": "<path class=\"d p1\" d=\"M12 8 3.5 13.5h17z\"/><path class=\"p2\" d=\"M12 8V6a2 2 0 1 0-2-2\"/><path class=\"p3\" d=\"M6 13.5v7.5h12v-7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 800 }
+  ]
+}

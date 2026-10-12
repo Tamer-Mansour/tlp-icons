@@ -1,0 +1,33 @@
+{
+  "name": "dress-hanger",
+  "category": "commerce",
+  "tags": [
+    "dress",
+    "hanger",
+    "clothing",
+    "wardrobe",
+    "fashion",
+    "apparel"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5 3 10.5h18z\"/><path class=\"d p2\" d=\"M8 14.5h8l3 6.5H5z\"/><g class=\"p3\"><circle cx=\"12\" cy=\"3.5\" r=\"1.5\"/><path d=\"M12 5v1.5\"/></g>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

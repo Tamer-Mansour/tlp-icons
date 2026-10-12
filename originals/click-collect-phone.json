@@ -1,0 +1,11 @@
+{
+  "name": "click-collect-phone",
+  "category": "commerce",
+  "tags": ["phone", "mobile", "collect", "pickup", "click", "shopping", "bag", "order"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><g class=\"p2\"><path d=\"M7.5 10h9l-.8 7H8.3z\"/><path d=\"M10 10c0-3 4-3 4 0\"/></g><path class=\"p3\" d=\"M9.5 18.2l1.7 1.6 3.3-3.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "featured-banner-star",
+  "category": "commerce",
+  "tags": ["featured", "banner", "star", "flag", "promo", "highlight"],
+  "svg": "<path class=\"p1\" d=\"M4 2.5v19\"/><path class=\"d p2\" d=\"M4 3.5h14.5L15.5 8l3 4.5H4z\"/><path class=\"d p3\" d=\"M10.5 5 11.26 6.95 13.35 7.07 11.74 8.4 12.26 10.43 10.5 9.3 8.74 10.43 9.26 8.4 7.65 7.07 9.74 6.95z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

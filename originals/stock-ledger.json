@@ -1,0 +1,12 @@
+{
+  "name": "stock-ledger",
+  "category": "finance",
+  "tags": ["stock", "ledger", "inventory", "shelf", "boxes", "warehouse"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"4\" height=\"7\" rx=\"0.8\"/><rect class=\"d p2\" x=\"9.5\" y=\"8\" width=\"4\" height=\"11\" rx=\"0.8\"/><rect class=\"d p3\" x=\"16\" y=\"14\" width=\"4\" height=\"5\" rx=\"0.8\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 250, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 700, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

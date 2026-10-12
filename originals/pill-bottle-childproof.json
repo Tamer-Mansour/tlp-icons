@@ -1,0 +1,33 @@
+{
+  "name": "pill-bottle-childproof",
+  "category": "commerce",
+  "tags": [
+    "pill",
+    "bottle",
+    "childproof",
+    "medicine",
+    "cap",
+    "prescription"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 10h10v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"6\" y=\"3\" width=\"12\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M7 14.5h10\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "press",
+      "dur": 700,
+      "delay": 900
+    }
+  ]
+}

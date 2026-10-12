@@ -1,0 +1,11 @@
+{
+  "name": "mri-ring",
+  "category": "health",
+  "tags": ["mri", "magnetic", "scan", "imaging", "ring", "field", "radiology"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M4.5 4.5C1.5 8 1.5 16 4.5 19.5M19.5 4.5c3 3.5 3 11.5 0 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 1000, "delay": 400 }
+  ]
+}

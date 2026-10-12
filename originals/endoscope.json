@@ -1,0 +1,11 @@
+{
+  "name": "endoscope",
+  "category": "health",
+  "tags": ["endoscope", "endoscopy", "camera", "scope", "flexible tube", "examination", "probe"],
+  "svg": "<rect class=\"d p1\" x=\"12.5\" y=\"4.25\" width=\"8\" height=\"6.5\" rx=\"2\" transform=\"rotate(45 16.5 7.5)\"/><path class=\"p2\" d=\"M14.2 9.8 6 18\"/><circle class=\"p3\" cx=\"4.5\" cy=\"19.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

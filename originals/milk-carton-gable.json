@@ -1,0 +1,11 @@
+{
+  "name": "milk-carton-gable",
+  "category": "commerce",
+  "tags": ["milk", "carton", "dairy", "pour", "grocery", "gable"],
+  "svg": "<path class=\"d p1\" d=\"M5 9.5 12 4l7 5.5V20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\"/><path class=\"p3\" d=\"M12 11.5c-1 1.5-1.5 2.4-1.5 3.2a1.5 1.5 0 0 0 3 0c0-.8-.5-1.7-1.5-3.2z\"/><path class=\"p2\" d=\"M12 4V2.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 900, "origin": "12px 4px" }
+  ]
+}

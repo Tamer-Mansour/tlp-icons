@@ -1,0 +1,11 @@
+{
+  "name": "earnings-call-mic",
+  "category": "finance",
+  "tags": ["earnings call", "microphone", "investor", "results", "growth", "quarterly"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"1.5\" width=\"5\" height=\"9\" rx=\"2.5\"/><path class=\"p2\" d=\"M3 8.5a4.5 4.5 0 0 0 9 0M7.5 13v8M4.5 21h6\"/><g class=\"p3\"><rect x=\"12.5\" y=\"15\" width=\"2.5\" height=\"6\" rx=\"0.5\"/><rect x=\"18.5\" y=\"10\" width=\"2.5\" height=\"11\" rx=\"0.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 800, "delay": 800, "origin": "bottom" }
+  ]
+}

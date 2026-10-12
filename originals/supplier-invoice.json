@@ -1,0 +1,11 @@
+{
+  "name": "supplier-invoice",
+  "category": "commerce",
+  "tags": ["supplier", "invoice", "bill", "vendor", "building", "purchase", "payable"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2.5\" width=\"8\" height=\"4.5\" rx=\"0.5\"/><path class=\"p3\" d=\"M9 13h6M9 16h6M9 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

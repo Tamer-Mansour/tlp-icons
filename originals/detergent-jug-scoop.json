@@ -1,0 +1,11 @@
+{
+  "name": "detergent-jug-scoop",
+  "category": "commerce",
+  "tags": ["detergent", "laundry", "jug", "scoop", "cleaning", "soap"],
+  "svg": "<path class=\"d p1\" d=\"M5 8h8v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\"/><rect class=\"p2\" x=\"6\" y=\"3\" width=\"6\" height=\"3\" rx=\"1\"/><g class=\"p3\"><path class=\"d\" d=\"M15 18.5h6a3 3 0 0 1-6 0z\"/><path d=\"M18 18.5 20.5 14\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 800 }
+  ]
+}

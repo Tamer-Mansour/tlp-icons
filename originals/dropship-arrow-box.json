@@ -1,0 +1,20 @@
+{
+  "name": "dropship-arrow-box",
+  "category": "commerce",
+  "tags": [
+    "dropship",
+    "shipping",
+    "delivery",
+    "supplier",
+    "fulfillment",
+    "box",
+    "house"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"6.5\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M2 12h6.5\"/><path class=\"p3\" d=\"M10 13.5h3.5M11.5 11.5l2 2-2 2\"/><path class=\"p4\" d=\"M16 19v-6.5l3-2.5 3 2.5V19z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 800, "delay": 500 },
+    { "part": "p4", "anim": "riseIn", "dur": 900, "delay": 700 }
+  ]
+}

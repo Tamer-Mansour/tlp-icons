@@ -1,0 +1,11 @@
+{
+  "name": "lotus-flower",
+  "category": "health",
+  "tags": ["lotus", "flower", "bloom", "petals", "meditation", "zen", "spa", "calm"],
+  "svg": "<path class=\"d p1\" d=\"M12 4c-2 2.5-2.5 5-2.5 7.5 0 1.5 1.1 2.5 2.5 2.5s2.5-1 2.5-2.5C14.5 9 14 6.5 12 4z\"/><g class=\"p2\"><path d=\"M9.5 12.5C6 12.5 3.5 10.5 3.5 7.5 6.5 7.5 9 9.5 9.5 12.5z\"/><path d=\"M14.5 12.5c3.5 0 6-2 6-5-3 0-5.5 2-6 5z\"/></g><path class=\"d p3\" d=\"M4 16h16c0 2.8-3.6 5-8 5s-8-2.2-8-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 600 }
+  ]
+}

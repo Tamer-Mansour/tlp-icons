@@ -1,0 +1,11 @@
+{
+  "name": "recurring-invoice",
+  "category": "finance",
+  "tags": ["invoice", "recurring", "subscription", "bill", "repeat", "billing", "renewal", "payment"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h6\"/><path class=\"p2\" d=\"M7 7.5h5M7 12h5\"/><g class=\"p3\"><path d=\"M21 17a4 4 0 1 1-4-4\"/><path d=\"M15 11l2 2-2 2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 500, "origin": "17px 17px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eeg-head-cap",
+  "category": "health",
+  "tags": ["eeg", "head", "cap", "electrodes", "brain", "scan", "neurology"],
+  "svg": "<path class=\"d p1\" d=\"M4 15a8 8 0 0 1 16 0v3H4z\"/><path class=\"p2\" d=\"M12 7V3.5\"/><g class=\"p3\"><circle class=\"f\" cx=\"8\" cy=\"13\" r=\"1.2\"/><circle class=\"f\" cx=\"12\" cy=\"10\" r=\"1.2\"/><circle class=\"f\" cx=\"16\" cy=\"13\" r=\"1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 1000, "delay": 1000 }
+  ]
+}

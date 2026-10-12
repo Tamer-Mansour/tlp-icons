@@ -1,0 +1,19 @@
+{
+  "name": "verified-purchase-badge",
+  "category": "commerce",
+  "tags": [
+    "verified",
+    "purchase",
+    "badge",
+    "check",
+    "bag",
+    "review"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"9\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M4.5 7V5.5a2.5 2.5 0 0 1 5 0V7\"/><circle class=\"d p3\" cx=\"17.8\" cy=\"17.2\" r=\"4.2\"/><polyline class=\"p4\" points=\"15.4 17.2 17.1 18.9 20.2 15.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

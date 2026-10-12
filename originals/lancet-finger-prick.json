@@ -1,0 +1,11 @@
+{
+  "name": "lancet-finger-prick",
+  "category": "health",
+  "tags": ["lancet", "finger", "prick", "blood", "glucose", "test", "needle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M15 11h5\"/><path class=\"d p3\" d=\"M19 17.5c0 1.4-.9 2.5-2 2.5s-2-1.1-2-2.5c0-1.2 2-3.5 2-3.5s2 2.3 2 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flood-zone-map",
+  "category": "finance",
+  "tags": ["flood", "zone", "map", "water", "risk", "insurance", "property", "hazard"],
+  "svg": "<path class=\"d p1\" d=\"M3 6.5 9 4l6 2.5 6-2.5v16H3z\"/><path class=\"p2\" d=\"M9 4v16.5M15 6.5V20.5\"/><path class=\"d p3\" d=\"M16.5 16.5q1-1 2 0t2 0V20.5H16.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 500, "origin": "bottom" }
+  ]
+}

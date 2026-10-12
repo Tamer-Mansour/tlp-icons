@@ -1,0 +1,11 @@
+{
+  "name": "magnetic-stirrer",
+  "category": "health",
+  "tags": ["magnetic", "stirrer", "lab", "plate", "flask", "mixing", "spin"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"18\" width=\"18\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M9 3h6M10 3v5.5L5.5 15h13L14 8.5V3\"/><path class=\"p3\" d=\"M9.5 12.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1400, "delay": 900, "origin": "12px 12.5px" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "house-call-bag",
+  "category": "health",
+  "tags": [
+    "house call",
+    "doctor bag",
+    "home visit",
+    "medical",
+    "physician",
+    "bag"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9\" width=\"11\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 9V6.5a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5V9\"/><path class=\"p3\" d=\"M8 12v5M5.5 14.5h5\"/><path class=\"p4\" d=\"M15 21v-5.5l3.25-3 3.25 3V21z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

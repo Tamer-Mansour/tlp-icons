@@ -1,0 +1,33 @@
+{
+  "name": "invoice-mismatch",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "mismatch",
+    "bill",
+    "not equal",
+    "discrepancy",
+    "billing"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"5\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4\" y=\"17\" width=\"16\" height=\"5\" rx=\"1.5\"/><g class=\"p3\"><path d=\"M7.5 10h9M7.5 14h9\"/><path d=\"M15 8.5l-5 7\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

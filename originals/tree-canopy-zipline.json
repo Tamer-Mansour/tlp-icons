@@ -1,0 +1,41 @@
+{
+    "name":  "tree-canopy-zipline",
+    "category":  "maps",
+    "tags":  [
+                 "zipline",
+                 "canopy",
+                 "trees",
+                 "cable",
+                 "adventure",
+                 "pulley",
+                 "park"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"5\" cy=\"6\" r=\"3.5\"/\u003e\u003ccircle class=\"d p2\" cx=\"19\" cy=\"6\" r=\"3.5\"/\u003e\u003cpath class=\"p3\" d=\"M5 9.5V21M19 9.5V21M5 13l14 3\"/\u003e\u003cg class=\"p4\"\u003e\u003ccircle cx=\"12\" cy=\"14.5\" r=\"1.5\"/\u003e\u003cpath d=\"M12 16v4\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  150
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "sway",
+                       "dur":  1200,
+                       "delay":  1000,
+                       "origin":  "12px 14px"
+                   }
+               ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "utm-grid",
+  "category": "maps",
+  "tags": ["utm", "grid", "map sheet", "coordinates", "cartography", "zone"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 3v18M15 3v18M3 9h18M3 15h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

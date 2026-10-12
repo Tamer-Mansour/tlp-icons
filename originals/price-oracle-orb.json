@@ -1,0 +1,11 @@
+{
+  "name": "price-oracle-orb",
+  "category": "finance",
+  "tags": ["price", "oracle", "crystal ball", "forecast", "prediction", "chart", "market"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M7.5 13 10.5 9.5 13 11.5 16.5 7.5\"/><path class=\"p3\" d=\"M12 17v3.5M8.5 20.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

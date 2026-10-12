@@ -1,0 +1,28 @@
+{
+    "name":  "valley-pass-sign",
+    "category":  "maps",
+    "tags":  [
+                 "valley",
+                 "pass",
+                 "road",
+                 "sign",
+                 "mountain",
+                 "scenic",
+                 "route"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M12 2l10 10-10 10L2 12z\"/\u003e\u003cpath class=\"p2\" d=\"M7.5 14.5l3-4 2 2.5 1-1.5 2.5 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  400
+                   }
+               ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "product-compare-columns",
+  "category": "commerce",
+  "tags": [
+    "compare",
+    "product",
+    "versus",
+    "columns",
+    "side by side",
+    "shopping"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"6\" height=\"16\" rx=\"1.5\"/><rect class=\"d p2\" x=\"16\" y=\"4\" width=\"6\" height=\"16\" rx=\"1.5\"/><path class=\"p3\" d=\"M12 3v18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 500, "origin": "center" }
+  ]
+}

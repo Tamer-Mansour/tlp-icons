@@ -1,0 +1,12 @@
+{
+  "name": "ride-share-pin",
+  "category": "maps",
+  "tags": ["ride", "share", "pin", "car", "pickup", "location", "rideshare"],
+  "svg": "<path class=\"d p1\" d=\"M12 22s-7-5.5-7-11.5a7 7 0 0 1 14 0C19 16.5 12 22 12 22z\"/><path class=\"d p2\" d=\"M8.5 13.5v-2l1.2-2.6h4.6l1.2 2.6v2z\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"4.5\" r=\"3.5\"/><path class=\"p4\" d=\"M18.5 3v3M17 4.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

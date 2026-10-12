@@ -1,0 +1,12 @@
+{
+  "name": "opening-bell",
+  "category": "finance",
+  "tags": ["bell", "opening", "market", "sunrise", "trading", "ring", "start", "stock"],
+  "svg": "<path class=\"d p1\" d=\"M6 10.5a6 6 0 0 1 12 0l1.5 2h-15z\"/><path class=\"p2\" d=\"M12 2.5v2\"/><path class=\"p3\" d=\"M8.5 21a3.5 3.5 0 0 1 7 0\"/><path class=\"p4\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p4", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

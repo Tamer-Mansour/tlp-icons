@@ -1,0 +1,19 @@
+{
+  "name": "child-toothbrush",
+  "category": "health",
+  "tags": [
+    "toothbrush",
+    "child",
+    "kids",
+    "dental",
+    "brush",
+    "teeth",
+    "oral"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"8\" height=\"7\" rx=\"1.5\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"4\" height=\"12\" rx=\"2\"/><polygon class=\"p3\" points=\"18 3 20.85 5.1 19.76 8.45 16.24 8.45 15.15 5.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 700 }
+  ]
+}

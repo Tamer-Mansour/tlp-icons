@@ -1,0 +1,11 @@
+{
+  "name": "half-price-tag",
+  "category": "commerce",
+  "tags": ["half price", "discount", "sale", "tag", "markdown", "deal", "50 percent"],
+  "svg": "<path class=\"d p1\" d=\"M3 4v7.2L12.8 21 21 12.8 11.2 3H4a1 1 0 0 0-1 1z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"f p3\" d=\"M12 9a3 3 0 0 0 0 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

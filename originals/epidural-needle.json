@@ -1,0 +1,18 @@
+{
+  "name": "epidural-needle",
+  "category": "health",
+  "tags": [
+    "epidural",
+    "needle",
+    "syringe",
+    "anesthesia",
+    "spine",
+    "loss of resistance"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"7\" width=\"8\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 12H2\"/><path class=\"p3\" d=\"M17 12h4M21 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 800 }
+  ]
+}

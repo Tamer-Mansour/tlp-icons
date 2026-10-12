@@ -1,0 +1,33 @@
+{
+  "name": "payment-schedule-calendar",
+  "category": "finance",
+  "tags": [
+    "payment",
+    "schedule",
+    "calendar",
+    "due date",
+    "recurring",
+    "bill"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M8 2v4M16 2v4\"/><circle class=\"f p3\" cx=\"8\" cy=\"14\" r=\"1.8\"/><circle class=\"f p3\" cx=\"16\" cy=\"14\" r=\"1.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1.8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

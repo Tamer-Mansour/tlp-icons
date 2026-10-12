@@ -1,0 +1,33 @@
+{
+  "name": "one-tap-pay",
+  "category": "finance",
+  "tags": [
+    "tap",
+    "pay",
+    "contactless",
+    "card",
+    "payment",
+    "nfc"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M18 9a4 4 0 0 1 0 6\"/><path class=\"p3\" d=\"M20.5 7.5a6 6 0 0 1 0 9\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

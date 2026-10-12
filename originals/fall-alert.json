@@ -1,0 +1,12 @@
+{
+  "name": "fall-alert",
+  "category": "health",
+  "tags": ["fall", "alert", "tipping", "elderly", "warning", "safety", "emergency", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"4.5\" r=\"2\"/><g class=\"p2\"><path d=\"M8.5 8.5 12.5 13\"/><path d=\"M9.5 10 5 12\"/><path d=\"M12.5 13 10 20\"/><path d=\"M12.5 13 14 19\"/></g><polygon class=\"d p3\" points=\"18.5,10 22,17 15,17\"/><path class=\"p4\" d=\"M18.5 12.5v2M18.5 15.5h.01\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 1200 }
+  ]
+}

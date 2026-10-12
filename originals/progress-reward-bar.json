@@ -1,0 +1,12 @@
+{
+  "name": "progress-reward-bar",
+  "category": "commerce",
+  "tags": ["progress", "reward", "bar", "gift", "loyalty", "points", "milestone"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"10\" height=\"4\" rx=\"2\"/><rect class=\"p2\" x=\"14\" y=\"8\" width=\"8\" height=\"2\" rx=\"1\"/><rect class=\"p3\" x=\"14.5\" y=\"10\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p4\" d=\"M18 8v7M18 8C16.8 5 14 5.3 14.8 7.2M18 8c1.2-3 4-2.7 3.2-.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 200 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

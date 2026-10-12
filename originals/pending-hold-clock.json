@@ -1,0 +1,11 @@
+{
+  "name": "pending-hold-clock",
+  "category": "finance",
+  "tags": ["pending", "hold", "card", "clock", "authorization", "processing", "payment"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"13\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h13\"/><g class=\"p3\"><circle class=\"d\" cx=\"17\" cy=\"16\" r=\"5\"/><path d=\"M17 13.5V16l1.5 1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

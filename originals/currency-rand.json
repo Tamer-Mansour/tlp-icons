@@ -1,0 +1,18 @@
+{
+  "name": "currency-rand",
+  "category": "finance",
+  "tags": [
+    "rand",
+    "south africa",
+    "currency",
+    "coin",
+    "money",
+    "sun"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M9.5 17V9.5H12a2 2 0 0 1 0 4H9.5M12 13.5l2.5 3.5\"/><circle class=\"p3\" cx=\"19\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 1200, "delay": 1000 }
+  ]
+}

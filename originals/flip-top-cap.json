@@ -1,0 +1,35 @@
+{
+  "name": "flip-top-cap",
+  "category": "commerce",
+  "tags": [
+    "cap",
+    "bottle",
+    "flip",
+    "lid",
+    "open",
+    "squeeze",
+    "hinge"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 12.5h8V19.5a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 8 19.5z\"/><path class=\"p3\" d=\"M9.5 12.5v-2h5v2M8 16h8\"/><g transform=\"rotate(-20 8 9)\"><rect class=\"d p2\" x=\"8\" y=\"5\" width=\"7\" height=\"4\" rx=\"1\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "tilt",
+      "dur": 1000,
+      "delay": 900,
+      "origin": "bottom left"
+    }
+  ]
+}

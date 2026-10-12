@@ -1,0 +1,10 @@
+{
+  "name": "funicular-railway",
+  "category": "maps",
+  "tags": ["funicular", "railway", "cable car", "incline", "train", "mountain"],
+  "svg": "<path class=\"p1\" d=\"M3 21 21 9\"/><rect class=\"d p2\" x=\"6\" y=\"4.5\" width=\"13\" height=\"8\" rx=\"1.5\" transform=\"rotate(-34 12.5 8.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 800, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "audio-guide-headset",
+  "category": "maps",
+  "tags": ["audio", "guide", "headset", "headphones", "tour", "museum", "listen"],
+  "svg": "<path class=\"p1\" d=\"M4 15v-3a8 8 0 0 1 16 0v3\"/><rect class=\"d p2\" x=\"3\" y=\"14\" width=\"5\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"16\" y=\"14\" width=\"5\" height=\"7\" rx=\"2\"/><path class=\"d p3\" d=\"M10.5 10.5v5l4.5-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

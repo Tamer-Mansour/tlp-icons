@@ -1,0 +1,27 @@
+{
+  "name": "transaction-filter-funnel",
+  "category": "finance",
+  "tags": [
+    "filter",
+    "funnel",
+    "transaction",
+    "coin",
+    "payments",
+    "sort"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18l-7 8.5V19l-4 2v-8.5z\"/><circle class=\"d p2\" cx=\"12\" cy=\"8.5\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 900,
+      "delay": 400
+    }
+  ]
+}

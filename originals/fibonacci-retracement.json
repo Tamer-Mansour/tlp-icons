@@ -1,0 +1,10 @@
+{
+  "name": "fibonacci-retracement",
+  "category": "finance",
+  "tags": ["fibonacci", "retracement", "price", "chart", "levels", "trading", "ratio"],
+  "svg": "<g class=\"p1\"><path d=\"M3 4h18\"/><path d=\"M3 12h18\"/><path d=\"M3 20h18\"/></g><path class=\"p2\" d=\"M6 20L18 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 600 }
+  ]
+}

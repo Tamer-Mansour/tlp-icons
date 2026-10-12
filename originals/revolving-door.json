@@ -1,0 +1,27 @@
+{
+    "name":  "revolving-door",
+    "category":  "commerce",
+    "tags":  [
+                 "revolving",
+                 "door",
+                 "entrance",
+                 "rotating",
+                 "lobby",
+                 "building"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"p2\" d=\"M12 12V3.5M12 12l-7.4 4.3M12 12l7.4 4.3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "spin",
+                       "dur":  1400,
+                       "delay":  500
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pallet-wrap",
+  "category": "commerce",
+  "tags": ["pallet", "wrap", "shrink", "film", "stack", "shipping", "freight"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M4.5 8h15M4.5 11h15\"/><path class=\"p3\" d=\"M3 17h18M3 21h18M5 17v4M12 17v4M19 17v4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

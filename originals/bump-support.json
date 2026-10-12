@@ -1,0 +1,27 @@
+{
+    "name":  "bump-support",
+    "category":  "health",
+    "tags":  [
+                 "bump",
+                 "support",
+                 "pregnancy",
+                 "belly",
+                 "maternity",
+                 "band"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M8 3v4c0 2 2 3 4 3 3 0 5 2.5 5 5.5S14.5 21 11 21H8\"/\u003e\u003cpath class=\"p2\" d=\"M12 11.5c2.5.5 4 2 4 4\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  600
+                   }
+               ]
+}

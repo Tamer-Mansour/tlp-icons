@@ -1,0 +1,34 @@
+{
+  "name": "ferry-terminal-pier",
+  "category": "maps",
+  "tags": [
+    "ferry",
+    "pier",
+    "terminal",
+    "boat",
+    "dock",
+    "port",
+    "harbour"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"12\" width=\"10\" height=\"2.5\" rx=\"1\"/><path d=\"M4.5 14.5v3M8.5 14.5v3\"/><g class=\"p2\"><path d=\"M14 13h7.5l-2 4h-4.5z\"/><path d=\"M17 13V9h3.5v4\"/></g><path class=\"p3\" d=\"M2 21q2.25-1 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "slideIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 500
+    }
+  ]
+}

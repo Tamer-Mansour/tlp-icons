@@ -1,0 +1,18 @@
+{
+  "name": "restock-crate",
+  "category": "commerce",
+  "tags": [
+    "restock",
+    "crate",
+    "inventory",
+    "stock",
+    "supply",
+    "delivery"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9\"/><path class=\"p2\" d=\"M4 15h16\"/><path class=\"p3\" d=\"M12 6V2M9 4l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "lift", "dur": 1000, "delay": 700 }
+  ]
+}

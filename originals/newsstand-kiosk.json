@@ -1,0 +1,11 @@
+{
+  "name": "newsstand-kiosk",
+  "category": "maps",
+  "tags": ["newsstand", "kiosk", "newspaper", "stand", "press", "street", "shop"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 5 4h14l2 5z\"/><path class=\"p2\" d=\"M5 9v12h14V9\"/><rect class=\"p3\" x=\"8\" y=\"12\" width=\"8\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 700 }
+  ]
+}

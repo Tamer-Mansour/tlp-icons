@@ -1,0 +1,12 @@
+{
+  "name": "service-bell-counter",
+  "category": "commerce",
+  "tags": ["service bell", "counter", "reception", "desk", "hotel", "ring", "customer"],
+  "svg": "<path class=\"d p1\" d=\"M5 15a7 7 0 0 1 14 0z\"/><path class=\"p2\" d=\"M12 8V6M10 4.5h4\"/><path class=\"p3\" d=\"M3 15h18\"/><path class=\"p4\" d=\"M2 19.5h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "growX", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

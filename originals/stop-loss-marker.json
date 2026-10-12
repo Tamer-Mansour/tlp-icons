@@ -1,0 +1,34 @@
+{
+  "name": "stop-loss-marker",
+  "category": "finance",
+  "tags": [
+    "stop loss",
+    "stop",
+    "trading",
+    "limit",
+    "sell",
+    "downside",
+    "risk"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 3v11\"/><path class=\"p2\" d=\"M7.5 10l4.5 4.5 4.5-4.5\"/><path class=\"p3\" d=\"M4 19h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

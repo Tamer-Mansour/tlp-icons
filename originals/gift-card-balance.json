@@ -1,0 +1,12 @@
+{
+  "name": "gift-card-balance",
+  "category": "commerce",
+  "tags": ["gift", "card", "balance", "voucher", "store credit", "dollar", "money"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M9 9.5h-3a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3H6M7 7.5v9\"/><path class=\"p3\" d=\"M14 13.5h7\"/><path class=\"p4\" d=\"M14 13.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "growX", "dur": 600, "delay": 1100 }
+  ]
+}

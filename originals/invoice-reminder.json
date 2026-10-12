@@ -1,0 +1,19 @@
+{
+  "name": "invoice-reminder",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "bill",
+    "reminder",
+    "payment",
+    "due",
+    "bell",
+    "overdue"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"10\" height=\"20\" rx=\"1\"/><path class=\"p2\" d=\"M6 7h4M6 11h4M6 15h2\"/><g class=\"p3\"><path d=\"M16 18v-4a3 3 0 0 1 6 0v4\"/><path d=\"M15 18h8\"/><path d=\"M18.5 21h1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 900, "origin": "19px 11px" }
+  ]
+}

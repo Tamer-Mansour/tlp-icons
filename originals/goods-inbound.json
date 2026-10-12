@@ -1,0 +1,11 @@
+{
+  "name": "goods-inbound",
+  "category": "commerce",
+  "tags": ["inbound", "goods", "receiving", "delivery", "warehouse", "shipment", "clipboard"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"12\" width=\"11\" height=\"9\" rx=\"1\"/><g class=\"p2\"><path d=\"M7.5 2v7.5\"/><path d=\"M4.5 6.8l3 3 3-3\"/></g><g class=\"p3\"><rect class=\"d\" x=\"16\" y=\"4\" width=\"6\" height=\"8\" rx=\"1\"/><rect x=\"18\" y=\"2.5\" width=\"2\" height=\"3\" rx=\"0.5\"/><path d=\"M18.5 8h3M18.5 10.5h3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p2", "anim": "sink", "dur": 1000, "delay": 500 }
+  ]
+}

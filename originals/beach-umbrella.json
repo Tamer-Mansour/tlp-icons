@@ -1,0 +1,19 @@
+{
+  "name": "beach-umbrella",
+  "category": "maps",
+  "tags": [
+    "beach",
+    "umbrella",
+    "parasol",
+    "sand",
+    "summer",
+    "vacation",
+    "shade"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 12Q12-2 22 12q-2.5 2-5 0q-2.5 2-5 0q-2.5 2-5 0q-2.5 2-5 0Z\"/><g class=\"p2\"><path d=\"M12 5v16\"/><path d=\"M7.5 8.6 9 11.5M16.5 8.6 15 11.5\"/></g><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 350 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

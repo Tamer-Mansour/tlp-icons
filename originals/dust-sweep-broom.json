@@ -1,0 +1,33 @@
+{
+    "name":  "dust-sweep-broom",
+    "category":  "finance",
+    "tags":  [
+                 "dust",
+                 "sweep",
+                 "broom",
+                 "clean",
+                 "debris",
+                 "sweeper"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M18 3l-6 9\"/\u003e\u003cpath class=\"d p2\" d=\"M9 11l6 3-3 7-7-3z\"/\u003e\u003ccircle class=\"f p3\" cx=\"19\" cy=\"19\" r=\"1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  1000
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "baby-shampoo",
+  "category": "health",
+  "tags": ["baby", "shampoo", "bottle", "bubbles", "bath", "wash", "infant", "gentle"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"9\" width=\"10\" height=\"12\" rx=\"3\"/><rect class=\"p2\" x=\"5.5\" y=\"5\" width=\"6\" height=\"4\" rx=\"1\"/><g class=\"p3\"><circle cx=\"17.5\" cy=\"7\" r=\"2.5\"/><circle cx=\"20.5\" cy=\"12\" r=\"1.5\"/><circle cx=\"15\" cy=\"3\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name":  "spacer-mask",
+    "category":  "health",
+    "tags":  [
+                 "spacer",
+                 "inhaler",
+                 "mask",
+                 "child",
+                 "asthma",
+                 "breathing"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"8\" width=\"11\" height=\"8\" rx=\"3\"/\u003e\u003cpath class=\"d p2\" d=\"M13 10l7-3v10l-7-3z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "breathe",
+                       "dur":  1400,
+                       "delay":  700
+                   }
+               ]
+}

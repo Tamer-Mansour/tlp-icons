@@ -1,0 +1,11 @@
+{
+  "name": "pickup-counter-bag",
+  "category": "commerce",
+  "tags": ["pickup", "counter", "bag", "check", "collect", "order", "ready"],
+  "svg": "<path class=\"d p1\" d=\"M5 8h14l1 13H4z\"/><path class=\"p3\" d=\"M8.5 11V6.5a3.5 3.5 0 0 1 7 0V11\"/><path class=\"p2\" d=\"M9 15.5l2.2 2.2L15.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

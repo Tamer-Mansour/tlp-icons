@@ -1,0 +1,19 @@
+{
+  "name": "shift-clock-out",
+  "category": "finance",
+  "tags": [
+    "shift",
+    "clock",
+    "out",
+    "timesheet",
+    "leave",
+    "punch",
+    "time"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M9 8.5V12h2.5\"/><g class=\"p3\"><path d=\"M12 12h9\"/><path d=\"M18 9l3 3-3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 600 }
+  ]
+}

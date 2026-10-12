@@ -1,0 +1,18 @@
+{
+  "name": "redeem-voucher",
+  "category": "commerce",
+  "tags": [
+    "redeem",
+    "voucher",
+    "coupon",
+    "gift",
+    "promo",
+    "offer"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9.5 10V8a1 1 0 0 1 1-1H21a1 1 0 0 1 1 1v2a2 2 0 0 0 0 4v2a1 1 0 0 1-1 1H10.5a1 1 0 0 1-1-1v-2a2 2 0 0 0 0-4z\"/><path class=\"p2\" d=\"M2.5 12H7M4 9l3 3-3 3\"/><path class=\"p3\" d=\"M16.5 8.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

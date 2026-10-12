@@ -1,0 +1,11 @@
+{
+  "name": "allergy-alert",
+  "category": "health",
+  "tags": ["allergy", "alert", "warning", "leaf", "cross", "tag"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h7l9 9-7 7-9-9z\"/><path class=\"p2\" d=\"M10.5 8v5M8 10.5h5\"/><path class=\"p3\" d=\"M17 7c0-3 2-4.5 4.5-4.5 0 3-1.5 4.5-4.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hs-code",
+  "category": "commerce",
+  "tags": ["hs code", "tariff", "customs", "harmonized", "classification", "export", "document"],
+  "svg": "<path class=\"d p1\" d=\"M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 3v5h5\"/><g class=\"p3\"><path d=\"M9.5 12.5 8 14l1.5 1.5M14.5 12.5 16 14l-1.5 1.5\"/></g><path class=\"p4\" d=\"M8 18.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

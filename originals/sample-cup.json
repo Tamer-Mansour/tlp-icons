@@ -1,0 +1,18 @@
+{
+  "name": "sample-cup",
+  "category": "commerce",
+  "tags": [
+    "sample",
+    "cup",
+    "tasting",
+    "trial",
+    "spoon",
+    "free"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M6 10 7.5 20h9L18 10z\"/><path class=\"p2\" d=\"M5 10h14\"/><g class=\"p3\"><ellipse cx=\"14\" cy=\"4.5\" rx=\"2\" ry=\"2.5\"/><path d=\"M14 7 12.5 11\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 700 }
+  ]
+}

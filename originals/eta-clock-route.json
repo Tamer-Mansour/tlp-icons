@@ -1,0 +1,11 @@
+{
+  "name": "eta-clock-route",
+  "category": "maps",
+  "tags": ["eta", "arrival", "clock", "route", "time", "navigation"],
+  "svg": "<circle class=\"d p1\" cx=\"15\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M15 6.5V9l2 1.5\"/><path class=\"p3\" d=\"M4 20.5h5c3 0 6-1.5 6-5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

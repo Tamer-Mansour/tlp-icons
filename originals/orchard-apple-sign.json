@@ -1,0 +1,28 @@
+{
+  "name": "orchard-apple-sign",
+  "category": "maps",
+  "tags": [
+    "orchard",
+    "apple",
+    "sign",
+    "farm",
+    "fruit",
+    "tree",
+    "direction"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 8c-2-1.5-6-.5-6 4 0 4 3 8 6 8s6-4 6-8c0-4.5-4-5.5-6-4z\"/><path class=\"p2\" d=\"M12 8c0-2 1-3.5 3-4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    }
+  ]
+}

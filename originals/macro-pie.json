@@ -1,0 +1,28 @@
+{
+    "name":  "macro-pie",
+    "category":  "health",
+    "tags":  [
+                 "macro",
+                 "nutrition",
+                 "pie",
+                 "chart",
+                 "diet",
+                 "protein",
+                 "carbs"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z\"/\u003e\u003cpath class=\"d p2\" d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p2",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "popIn",
+                       "part":  "p1",
+                       "dur":  600
+                   }
+               ]
+}

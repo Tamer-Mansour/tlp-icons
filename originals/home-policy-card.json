@@ -1,0 +1,11 @@
+{
+  "name": "home-policy-card",
+  "category": "finance",
+  "tags": ["home", "policy", "insurance", "card", "house", "id", "property"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6 16v-4l2.5-2 2.5 2v4z\"/><path class=\"p3\" d=\"M14 10h4M14 13h4M14 16h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bus-stop-pole",
+  "category": "maps",
+  "tags": ["bus", "stop", "sign", "pole", "transit", "bench", "shelter"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"9\" rx=\"2\"/><rect class=\"p4\" x=\"8.5\" y=\"4.5\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 11.5V17\"/><path class=\"p3\" d=\"M3 17h18M5 17v4M19 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

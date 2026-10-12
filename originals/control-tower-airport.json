@@ -1,0 +1,19 @@
+{
+  "name": "control-tower-airport",
+  "category": "maps",
+  "tags": [
+    "control tower",
+    "airport",
+    "air traffic",
+    "aviation",
+    "runway",
+    "atc",
+    "flight"
+  ],
+  "svg": "<path class=\"p1\" d=\"M10 8 9 21h6l-1-13\"/><rect class=\"d p2\" x=\"7\" y=\"4\" width=\"10\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M12 4V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

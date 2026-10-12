@@ -1,0 +1,33 @@
+{
+    "name":  "bridge-span-marker",
+    "category":  "maps",
+    "tags":  [
+                 "bridge",
+                 "span",
+                 "arch",
+                 "river",
+                 "crossing",
+                 "route"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M2 13h20\"/\u003e\u003cpath class=\"p2\" d=\"M5 19a7 7 0 0 1 14 0\"/\u003e\u003cpath class=\"p3\" d=\"M2 21h20\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "growX",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  600,
+                       "delay":  900
+                   }
+               ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "compare-products-scale",
+  "category": "commerce",
+  "tags": ["compare", "products", "scale", "boxes", "shopping", "price", "balance"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M12 3v17M8 20h8\"/><path class=\"p2\" d=\"M6 6v5M18 6v5M2 16h8M14 16h8\"/><rect class=\"d p3\" x=\"3\" y=\"11\" width=\"6\" height=\"5\" rx=\"1\"/><rect class=\"d p4\" x=\"15\" y=\"11\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "dropIn", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ovulation-kit",
+  "category": "health",
+  "tags": [
+    "ovulation",
+    "test kit",
+    "fertility",
+    "strip",
+    "drop",
+    "pregnancy"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"f p2\" d=\"M12 6 9.8 8.6a2.2 2.2 0 0 0 4.4 0z\"/><rect class=\"p3\" x=\"9\" y=\"13\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

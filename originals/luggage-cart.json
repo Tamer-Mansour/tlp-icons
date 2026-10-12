@@ -1,0 +1,11 @@
+{
+  "name": "luggage-cart",
+  "category": "maps",
+  "tags": ["luggage", "cart", "trolley", "suitcase", "airport", "travel"],
+  "svg": "<path d=\"M10 4V2.5h4V4\"/><rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M3 17h18\"/><circle class=\"p3\" cx=\"7\" cy=\"20.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"20.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

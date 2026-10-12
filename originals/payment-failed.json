@@ -1,0 +1,19 @@
+{
+  "name": "payment-failed",
+  "category": "finance",
+  "tags": [
+    "payment",
+    "failed",
+    "declined",
+    "card",
+    "error",
+    "cross"
+  ],
+  "svg": "<path class=\"p1\" d=\"M18 10V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8\"/><path class=\"p4\" d=\"M2 9h16\"/><circle class=\"d p2\" cx=\"18\" cy=\"18\" r=\"4\"/><path class=\"p3\" d=\"M16 16l4 4M20 16l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1400, "origin": "center" }
+  ]
+}

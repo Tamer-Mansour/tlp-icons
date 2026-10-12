@@ -1,0 +1,12 @@
+{
+  "name": "express-bus-badge",
+  "category": "maps",
+  "tags": ["bus", "express", "fast", "transit", "lightning", "rapid", "transport", "shuttle"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"13\" height=\"12\" rx=\"3\"/><rect class=\"p2\" x=\"5\" y=\"5.5\" width=\"8\" height=\"4\" rx=\"1\"/><circle class=\"p3\" cx=\"6.5\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"19.5\" r=\"1.5\"/><path class=\"d p4\" d=\"M19 13 15 18h3l-1 3 4-5h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

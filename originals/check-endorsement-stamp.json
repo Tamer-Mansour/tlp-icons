@@ -1,0 +1,18 @@
+{
+  "name": "check-endorsement-stamp",
+  "category": "finance",
+  "tags": [
+    "check",
+    "cheque",
+    "endorsement",
+    "stamp",
+    "deposit",
+    "bank"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"14\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M5 10.5h5M5 13.5h3\"/><g class=\"p3\"><rect x=\"16\" y=\"2.5\" width=\"4\" height=\"3\" rx=\"1\"/><path d=\"M18 5.5v3.5\"/><rect class=\"d\" x=\"14\" y=\"9\" width=\"8\" height=\"4\" rx=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 700 }
+  ]
+}

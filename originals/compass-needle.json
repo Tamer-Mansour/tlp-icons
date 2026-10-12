@@ -1,0 +1,28 @@
+{
+  "name": "compass-needle",
+  "category": "maps",
+  "tags": [
+    "compass",
+    "needle",
+    "north",
+    "direction",
+    "navigation",
+    "bearing"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 6.5 14.5 12 12 17.5 9.5 12z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "swing",
+      "dur": 1100,
+      "delay": 600,
+      "origin": "12px 12px"
+    }
+  ]
+}

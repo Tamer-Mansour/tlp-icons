@@ -1,0 +1,11 @@
+{
+  "name": "return-pickup-truck",
+  "category": "commerce",
+  "tags": ["truck", "return", "pickup", "delivery", "shipping", "logistics", "reverse"],
+  "svg": "<g class=\"p1\"><rect class=\"d\" x=\"2\" y=\"5.5\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"d\" d=\"M14 9h4l3 3.5v3H14z\"/></g><g class=\"p2\"><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"17\" cy=\"18\" r=\"2\"/></g><path class=\"p3\" d=\"M11 10.5H6.5M8.5 8.5l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "drive", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

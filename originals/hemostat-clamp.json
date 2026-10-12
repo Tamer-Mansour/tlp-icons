@@ -1,0 +1,27 @@
+{
+    "name":  "hemostat-clamp",
+    "category":  "health",
+    "tags":  [
+                 "hemostat",
+                 "clamp",
+                 "surgical",
+                 "forceps",
+                 "ratchet",
+                 "surgery"
+             ],
+    "svg":  "\u003cg class=\"p1\"\u003e\u003ccircle cx=\"7\" cy=\"18\" r=\"3\"/\u003e\u003ccircle cx=\"17\" cy=\"18\" r=\"3\"/\u003e\u003c/g\u003e\u003cpath class=\"p2\" d=\"M9 15.500 15 3M15 15.500 9 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  300
+                   }
+               ]
+}

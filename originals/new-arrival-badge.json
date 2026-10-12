@@ -1,0 +1,11 @@
+{
+  "name": "new-arrival-badge",
+  "category": "commerce",
+  "tags": ["new", "arrival", "tag", "sparkle", "badge", "fresh", "label", "product"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/><circle class=\"p3\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/><path class=\"p2\" d=\"M18 2l1 2 2 1-2 1-1 2-1-2-2-1 2-1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

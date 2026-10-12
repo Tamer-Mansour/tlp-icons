@@ -1,0 +1,34 @@
+{
+  "name": "debit-card-swipe",
+  "category": "finance",
+  "tags": [
+    "debit",
+    "card",
+    "swipe",
+    "payment",
+    "reader",
+    "bank",
+    "pay"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M3 7h18\"/><rect class=\"d p3\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 500
+    }
+  ]
+}

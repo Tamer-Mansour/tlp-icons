@@ -1,0 +1,33 @@
+{
+  "name": "travel-med-kit",
+  "category": "health",
+  "tags": [
+    "travel",
+    "medicine",
+    "kit",
+    "suitcase",
+    "pills",
+    "medication"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M3 14h18M7 9V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3\"/><rect class=\"p3\" x=\"15\" y=\"3.5\" width=\"5\" height=\"5.5\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "rattle",
+      "dur": 900,
+      "delay": 700
+    }
+  ]
+}

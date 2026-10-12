@@ -1,0 +1,35 @@
+{
+  "name": "trail-blaze-tree",
+  "category": "maps",
+  "tags": [
+    "trail",
+    "blaze",
+    "marker",
+    "hiking",
+    "tree",
+    "path",
+    "forest",
+    "waymark"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L5 14 H19 Z\"/><path class=\"p2\" d=\"M12 14 V21\"/><path class=\"p3\" d=\"M9 18 H15\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 550
+    }
+  ]
+}

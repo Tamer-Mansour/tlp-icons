@@ -1,0 +1,11 @@
+{
+  "name": "meditation-cushion",
+  "category": "health",
+  "tags": ["meditation", "cushion", "zafu", "yoga", "mindfulness", "seat", "calm"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"9\" ry=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"3.8\" r=\"2\"/><path class=\"p3\" d=\"M8 13c0-2.5 1.5-3.5 4-3.5s4 1 4 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "xray-tube",
+  "category": "health",
+  "tags": [
+    "xray",
+    "x-ray",
+    "radiation",
+    "tube",
+    "imaging",
+    "beam",
+    "radiology"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"11\" height=\"6\" rx=\"2.5\"/><path class=\"p2\" d=\"M13 9l7-5M13 9h8M13 9l7 5\"/><path class=\"p3\" d=\"M7.5 12v6M4.5 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

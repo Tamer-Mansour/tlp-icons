@@ -1,0 +1,11 @@
+{
+  "name": "swing-tag-product",
+  "category": "commerce",
+  "tags": ["swing tag", "price tag", "product", "label", "hang tag", "merchandise"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"12.5\" width=\"10\" height=\"8.5\" rx=\"1.5\"/><path class=\"p2\" d=\"M7.5 12.5 8.5 5.5\"/><path class=\"d p3\" d=\"M8.5 5.5 11 2.5h8.5a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H11z\"/><circle class=\"p3\" cx=\"15\" cy=\"5.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swingIn", "dur": 900, "delay": 900, "origin": "8.5px 5.5px" }
+  ]
+}

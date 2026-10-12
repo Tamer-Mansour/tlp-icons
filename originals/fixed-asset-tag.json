@@ -1,0 +1,11 @@
+{
+  "name": "fixed-asset-tag",
+  "category": "finance",
+  "tags": ["fixed asset", "asset tag", "price tag", "inventory", "depreciation", "equipment", "box"],
+  "svg": "<path class=\"d p1\" d=\"M2 11 5 6h9v10H5z\"/><circle class=\"p2\" cx=\"10.5\" cy=\"11\" r=\"1.5\"/><rect class=\"d p3\" x=\"16\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 800 }
+  ]
+}

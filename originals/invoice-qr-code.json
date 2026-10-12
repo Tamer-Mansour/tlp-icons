@@ -1,0 +1,12 @@
+{
+  "name": "invoice-qr-code",
+  "category": "finance",
+  "tags": ["invoice", "qr code", "scan", "pay", "bill", "payment", "receipt"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"15\" width=\"4\" height=\"4\" rx=\"0.5\"/><path class=\"d p3\" d=\"M13 2h6l3 3v12h-9z\"/><path class=\"p4\" d=\"M16 8h3M16 11h3M16 14h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

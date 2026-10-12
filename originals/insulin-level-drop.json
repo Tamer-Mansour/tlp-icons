@@ -1,0 +1,10 @@
+{
+  "name": "insulin-level-drop",
+  "category": "health",
+  "tags": ["insulin", "drop", "glucose", "blood sugar", "diabetes", "level", "dose"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5C12 2.5 5.5 10 5.5 14.5a6.5 6.5 0 0 0 13 0C18.5 10 12 2.5 12 2.5Z\"/><path class=\"p2\" d=\"M8.5 16q1.75-1.5 3.5 0t3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

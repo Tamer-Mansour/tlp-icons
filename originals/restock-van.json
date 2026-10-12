@@ -1,0 +1,41 @@
+{
+  "name": "restock-van",
+  "category": "commerce",
+  "tags": [
+    "restock",
+    "delivery",
+    "van",
+    "truck",
+    "box",
+    "stock",
+    "shipping",
+    "supply"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2 7h12v10H2z\"/><path class=\"p2\" d=\"M14 10h4l4 3v4h-8\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p4\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "spin",
+      "dur": 1000,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "spin",
+      "dur": 1000,
+      "delay": 500
+    }
+  ]
+}

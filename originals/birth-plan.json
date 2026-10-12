@@ -1,0 +1,20 @@
+{
+  "name": "birth-plan",
+  "category": "health",
+  "tags": [
+    "birth plan",
+    "pregnancy",
+    "maternity",
+    "delivery",
+    "scroll",
+    "heart",
+    "document"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"12\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"2.5\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect class=\"p3\" x=\"4\" y=\"17\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"p4\" d=\"M12 12.5 9.6 10.2C8.6 9.2 9 7.3 10.5 7.3c.7 0 1.2.4 1.5.9.3-.5.8-.9 1.5-.9 1.5 0 1.9 1.9.9 2.9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

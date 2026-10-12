@@ -1,0 +1,11 @@
+{
+  "name": "shipping-container",
+  "category": "commerce",
+  "tags": ["shipping", "container", "freight", "cargo", "logistics", "delivery", "import"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 9h15M2 13h15\"/><path class=\"p3\" d=\"M17 5v13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

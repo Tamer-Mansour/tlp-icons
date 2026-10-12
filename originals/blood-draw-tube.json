@@ -1,0 +1,11 @@
+{
+  "name": "blood-draw-tube",
+  "category": "health",
+  "tags": ["blood", "tube", "vacuum", "draw", "lab", "sample", "cap"],
+  "svg": "<path class=\"p1\" d=\"M9 5v11a3 3 0 0 0 6 0V5\"/><rect class=\"d p2\" x=\"8\" y=\"2.5\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"d p3\" d=\"M9 13h6v3a3 3 0 0 1-6 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 900 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

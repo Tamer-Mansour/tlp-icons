@@ -1,0 +1,33 @@
+{
+    "name":  "nursing-room",
+    "category":  "maps",
+    "tags":  [
+                 "nursing",
+                 "room",
+                 "baby",
+                 "bottle",
+                 "feeding",
+                 "chair"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M10 2h4v3h-4z\"/\u003e\u003crect class=\"d p2\" x=\"7\" y=\"5\" width=\"10\" height=\"17\" rx=\"3\"/\u003e\u003cpath class=\"p3\" d=\"M7 12h4M7 16h4\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  700
+                   }
+               ]
+}

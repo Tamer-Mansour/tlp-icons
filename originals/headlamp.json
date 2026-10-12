@@ -1,0 +1,11 @@
+{
+  "name": "headlamp",
+  "category": "maps",
+  "tags": ["headlamp", "light", "lamp", "band", "night", "glow", "beam"],
+  "svg": "<path class=\"p1\" d=\"M4 17a8 8 0 0 1 16 0\"/><rect class=\"d p2\" x=\"8\" y=\"2.5\" width=\"8\" height=\"3.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M4 4.5l1.5 1M20 4.5l-1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

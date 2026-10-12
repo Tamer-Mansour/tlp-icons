@@ -1,0 +1,35 @@
+{
+    "name":  "blister-bubble",
+    "category":  "health",
+    "tags":  [
+                 "blister",
+                 "bubble",
+                 "foot",
+                 "friction",
+                 "fluid",
+                 "skin",
+                 "sole",
+                 "burst"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/\u003e\u003ccircle class=\"p2\" cx=\"8.5\" cy=\"12\" r=\"2.5\"/\u003e\u003ccircle class=\"p3\" cx=\"15.5\" cy=\"12\" r=\"2.5\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "popIn",
+                       "part":  "p2",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  650,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  400
+                   }
+               ]
+}

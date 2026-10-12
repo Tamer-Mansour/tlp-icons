@@ -1,0 +1,19 @@
+{
+  "name": "windmill-blades",
+  "category": "maps",
+  "tags": [
+    "windmill",
+    "wind",
+    "turbine",
+    "blades",
+    "energy",
+    "farm",
+    "renewable"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 22l1.5-9h3L15 22z\"/><g class=\"p2\"><path d=\"M12 8 8.8 4.8\"/><path d=\"M12 8l3.2-3.2\"/><path d=\"M12 8 8.8 11.2\"/><path d=\"M12 8l3.2 3.2\"/></g><circle class=\"p3\" cx=\"12\" cy=\"8\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 400, "origin": "12px 8px" }
+  ]
+}

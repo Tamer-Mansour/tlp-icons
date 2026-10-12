@@ -1,0 +1,33 @@
+{
+  "name": "cocktail-bar-sign",
+  "category": "maps",
+  "tags": [
+    "cocktail",
+    "bar",
+    "drinks",
+    "martini",
+    "nightlife",
+    "lounge"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16l-8 9z\"/><path class=\"p2\" d=\"M12 13v8M8 21h8\"/><path class=\"p3\" d=\"M14.5 10.5 17 2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 800
+    }
+  ]
+}

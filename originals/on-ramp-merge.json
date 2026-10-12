@@ -1,0 +1,10 @@
+{
+  "name": "on-ramp-merge",
+  "category": "maps",
+  "tags": ["on-ramp", "merge", "slip road", "highway", "motorway", "driving"],
+  "svg": "<g class=\"p1\"><path d=\"M16 21V3\"/><path d=\"M12.5 6.5 16 3l3.5 3.5\"/></g><path class=\"p2\" d=\"M6 21c0-5 3-8 10-9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

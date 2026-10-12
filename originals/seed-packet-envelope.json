@@ -1,0 +1,41 @@
+{
+  "name": "seed-packet-envelope",
+  "category": "commerce",
+  "tags": [
+    "seed",
+    "packet",
+    "envelope",
+    "sprout",
+    "garden",
+    "plant",
+    "gardening"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M12 16v-4\"/><path class=\"p3\" d=\"M12 12c-1.5-2.2-3.2-3.2-5-3 .2 1.8 1.7 3.2 5 3zM12 12c1.5-2.2 3.2-3.2 5-3-.2 1.8-1.7 3.2-5 3z\"/><path class=\"p4\" d=\"M7.5 18h9\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 600,
+      "origin": "12px 12px"
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

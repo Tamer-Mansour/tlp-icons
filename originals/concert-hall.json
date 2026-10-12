@@ -1,0 +1,11 @@
+{
+  "name": "concert-hall",
+  "category": "maps",
+  "tags": ["concert", "hall", "stage", "theatre", "music", "audience"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V11l9-7 9 7v10z\"/><path class=\"p2\" d=\"M10.5 17v-5.5l4-1V16\"/><circle class=\"p3\" cx=\"9\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 700, "delay": 1000 }
+  ]
+}

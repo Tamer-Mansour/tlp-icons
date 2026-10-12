@@ -1,0 +1,12 @@
+{
+  "name": "mall-storefront",
+  "category": "maps",
+  "tags": ["mall", "shop", "storefront", "awning", "store", "shopping", "retail"],
+  "svg": "<path class=\"d p1\" d=\"M3 2h18v4a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z\"/><path class=\"p2\" d=\"M9 2v4M15 2v4\"/><path class=\"p3\" d=\"M4 12v9h16v-9\"/><rect class=\"p4\" x=\"10\" y=\"15\" width=\"4\" height=\"6\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

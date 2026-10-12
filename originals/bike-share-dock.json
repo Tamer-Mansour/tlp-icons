@@ -1,0 +1,11 @@
+{
+  "name": "bike-share-dock",
+  "category": "maps",
+  "tags": ["bike", "share", "dock", "station", "rental", "bicycle"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"4\" height=\"17\" rx=\"1\"/><path class=\"p2\" d=\"M8 9.5h8\"/><g class=\"p3\"><circle cx=\"12.5\" cy=\"17.5\" r=\"2.5\"/><circle cx=\"19\" cy=\"17.5\" r=\"2.5\"/><path d=\"M12.5 17.5 16 11.5 19 17.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

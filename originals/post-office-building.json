@@ -1,0 +1,11 @@
+{
+  "name": "post-office-building",
+  "category": "maps",
+  "tags": ["post", "office", "building", "mail", "horn", "postal", "sign"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"12\" width=\"16\" height=\"9\" rx=\"1\"/><path class=\"d p2\" d=\"M6 6h3l7-3v10l-7-3H6z\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

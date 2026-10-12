@@ -1,0 +1,12 @@
+{
+  "name": "mobility-scooter",
+  "category": "health",
+  "tags": ["mobility", "scooter", "wheels", "basket", "elderly", "transport", "disability"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"7\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M6 13.5h10.5L16.5 4.5h4\"/><rect class=\"p3\" x=\"19.5\" y=\"8.5\" width=\"2.5\" height=\"4\" rx=\".5\"/><g class=\"p4\"><circle cx=\"6\" cy=\"18\" r=\"2.5\"/><circle cx=\"18\" cy=\"18\" r=\"2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

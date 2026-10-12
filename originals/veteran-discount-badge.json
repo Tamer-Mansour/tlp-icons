@@ -1,0 +1,11 @@
+{
+  "name": "veteran-discount-badge",
+  "category": "commerce",
+  "tags": ["veteran", "discount", "badge", "star", "laurel", "military", "honor", "offer"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5.5\"/><g class=\"p2\"><path d=\"M7 12.5c-.5 3 1.5 5.5 5 7\"/><path d=\"M17 12.5c.5 3-1.5 5.5-5 7\"/></g><path class=\"p3\" d=\"M12 6L12.71 8.03L14.85 8.07L13.14 9.37L13.76 11.43L12 10.2L10.24 11.43L10.86 9.37L9.15 8.07L11.29 8.03Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 1000, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

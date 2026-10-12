@@ -1,0 +1,12 @@
+{
+  "name": "prison-tower",
+  "category": "maps",
+  "tags": ["prison", "watchtower", "guard tower", "lookout", "surveillance", "barred windows", "security"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M4 8 12 3l8 5\"/><path class=\"p3\" d=\"M10 9.5v3M14 9.5v3\"/><path class=\"p4\" d=\"M8 14 6.5 21M16 14l1.5 7M8 17.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "invoice-send-plane",
+  "category": "finance",
+  "tags": [
+    "invoice",
+    "send",
+    "paper plane",
+    "bill",
+    "email",
+    "billing"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 7.5h5M6 11h5M6 14.5h3\"/><path class=\"p3\" d=\"M22 9 18.1 21 16.8 14.4 16 11.6z M22 9 16.8 14.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "launch", "dur": 1200, "delay": 800 }
+  ]
+}

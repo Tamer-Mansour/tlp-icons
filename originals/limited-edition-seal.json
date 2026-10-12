@@ -1,0 +1,11 @@
+{
+  "name": "limited-edition-seal",
+  "category": "commerce",
+  "tags": ["limited", "edition", "seal", "star", "exclusive", "wax", "stamp"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"8\"/><path class=\"p2\" d=\"M12 6.5 13.06 9.54 16.28 9.61 13.71 11.56 14.65 14.64 12 12.8 9.35 14.64 10.29 11.56 7.72 9.61 10.94 9.54Z\"/><path class=\"p3\" d=\"M9.5 17.6 7.5 21M14.5 17.6 16.5 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

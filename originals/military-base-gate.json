@@ -1,0 +1,12 @@
+{
+  "name": "military-base-gate",
+  "category": "maps",
+  "tags": ["military", "base", "gate", "barrier", "checkpoint", "guard booth", "security"],
+  "svg": "<rect class=\"d p1\" x=\"1\" y=\"10\" width=\"6\" height=\"11\" rx=\"1\"/><g class=\"p2\"><rect x=\"11\" y=\"8\" width=\"10\" height=\"4\" rx=\"1\"/><path d=\"M14 8l-1.5 4M18 8l-1.5 4\"/></g><path class=\"p3\" d=\"M11 12v9\"/><path class=\"p4\" d=\"M1 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 800, "origin": "11px 10px" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 }
+  ]
+}

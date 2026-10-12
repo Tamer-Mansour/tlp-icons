@@ -1,0 +1,11 @@
+{
+  "name": "plaza-fountain",
+  "category": "maps",
+  "tags": ["plaza", "fountain", "square", "water", "park", "landmark"],
+  "svg": "<path class=\"d p1\" d=\"M3 17h18l-2 4H5z\"/><path class=\"p2\" d=\"M12 17V9\"/><path class=\"p3\" d=\"M12 9c-1-4-5-4-6-1M12 9c1-4 5-4 6-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

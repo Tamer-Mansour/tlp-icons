@@ -1,0 +1,28 @@
+{
+    "name":  "beach-cabana",
+    "category":  "maps",
+    "tags":  [
+                 "cabana",
+                 "beach",
+                 "shade",
+                 "resort",
+                 "holiday",
+                 "shelter",
+                 "sand"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 11 5 4h14l2 7z\"/\u003e\u003cpath class=\"p2\" d=\"M6 11v10M18 11v10\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  300
+                   }
+               ]
+}

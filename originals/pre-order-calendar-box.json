@@ -1,0 +1,18 @@
+{
+  "name": "pre-order-calendar-box",
+  "category": "commerce",
+  "tags": [
+    "pre-order",
+    "calendar",
+    "box",
+    "release",
+    "date",
+    "shipping"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"13\" y=\"4\" width=\"8\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M13 8h8M16 2v3.5M18 2v3.5\"/><rect class=\"p3\" x=\"2\" y=\"11\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M2 14h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 800, "delay": 500 }
+  ]
+}

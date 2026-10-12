@@ -1,0 +1,11 @@
+{
+  "name": "campsite-tent-pin",
+  "category": "maps",
+  "tags": ["campsite", "tent", "camping", "pin", "location", "camp", "map"],
+  "svg": "<path class=\"d p1\" d=\"M12 21.5C12 21.5 5 15 5 9a7 7 0 0 1 14 0c0 6-7 12.5-7 12.5z\"/><path class=\"p2\" d=\"M8.5 13.5 12 8l3.5 5.5z\"/><path class=\"p3\" d=\"M11 13.5 12 11.5l1 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

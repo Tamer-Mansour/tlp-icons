@@ -1,0 +1,20 @@
+{
+  "name": "washer-breakdown-alert",
+  "category": "finance",
+  "tags": [
+    "washer",
+    "washing machine",
+    "laundry",
+    "breakdown",
+    "alert",
+    "appliance",
+    "repair"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"15\" height=\"20\" rx=\"2\"/><circle class=\"p2\" cx=\"10.5\" cy=\"13\" r=\"4.5\"/><path class=\"p3\" d=\"M6 6h3\"/><circle class=\"d p4\" cx=\"18\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "pulseRing", "dur": 1000, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "payroll-register",
+  "category": "finance",
+  "tags": ["payroll", "register", "ledger", "salary", "wages", "employees", "pay"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><g class=\"p2\"><circle cx=\"8\" cy=\"8\" r=\"1.5\"/><circle cx=\"8\" cy=\"12\" r=\"1.5\"/><circle cx=\"8\" cy=\"16\" r=\"1.5\"/></g><path class=\"p3\" d=\"M12 8h4M12 12h4M12 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

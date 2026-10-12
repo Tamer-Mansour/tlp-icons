@@ -1,0 +1,19 @@
+{
+  "name": "lip-retractor",
+  "category": "health",
+  "tags": [
+    "lip",
+    "retractor",
+    "mouth",
+    "dental",
+    "open",
+    "spreader",
+    "clinic"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 12c3-4 15-4 18 0c-3 4-15 4-18 0z\"/><g class=\"p2\"><path d=\"M8.5 12c2-1.4 5-1.4 7 0c-2 1.4-5 1.4-7 0z\"/></g><g class=\"p3\"><path d=\"M5 3h14\"/><path d=\"M8 3v5.5M16 3v5.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

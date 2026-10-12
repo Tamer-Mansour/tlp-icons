@@ -1,0 +1,12 @@
+{
+  "name": "insulin-pen",
+  "category": "health",
+  "tags": ["insulin", "pen", "diabetes", "injection", "dose", "syringe"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"7\" width=\"8\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"2\" width=\"4\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M12 17v4.5\"/><path class=\"p4\" d=\"M10.5 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

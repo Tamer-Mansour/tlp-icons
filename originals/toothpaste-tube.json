@@ -1,0 +1,11 @@
+{
+  "name": "toothpaste-tube",
+  "category": "health",
+  "tags": ["toothpaste", "tube", "dental", "teeth", "oral care", "brush"],
+  "svg": "<path class=\"d p1\" d=\"M8 7h8l2 13H6z\"/><rect class=\"p2\" x=\"9.5\" y=\"2.5\" width=\"5\" height=\"4.5\" rx=\"1\"/><path class=\"p3\" d=\"M8.5 16h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

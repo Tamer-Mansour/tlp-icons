@@ -1,0 +1,10 @@
+{
+  "name": "drop-off-point-pin",
+  "category": "commerce",
+  "tags": ["drop off", "pickup", "location", "map pin", "parcel", "collection", "point"],
+  "svg": "<path class=\"d p1\" d=\"M12 21.5s-6.5-5.8-6.5-11a6.5 6.5 0 0 1 13 0c0 5.2-6.5 11-6.5 11z\"/><rect class=\"p2\" x=\"9.5\" y=\"7.5\" width=\"5\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

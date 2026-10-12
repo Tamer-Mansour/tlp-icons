@@ -1,0 +1,18 @@
+{
+  "name": "tax-rate-percent",
+  "category": "finance",
+  "tags": [
+    "tax",
+    "rate",
+    "percent",
+    "slider",
+    "percentage",
+    "levy"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9.5\" r=\"6\"/><g class=\"p2\"><circle cx=\"10\" cy=\"8\" r=\"1.25\"/><circle cx=\"14\" cy=\"11\" r=\"1.25\"/><path d=\"M14.5 7.5 9.5 12.5\"/></g><g class=\"p3\"><path d=\"M4 19.5h16\"/><circle cx=\"15\" cy=\"19.5\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

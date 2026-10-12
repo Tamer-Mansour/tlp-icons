@@ -1,0 +1,11 @@
+{
+  "name": "dimension-box",
+  "category": "commerce",
+  "tags": ["dimension", "box", "size", "measure", "package", "dimensions"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"10\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M2 10l4-4h10v11l-4 4M12 10l4-4\"/><path class=\"p3\" d=\"M2 2.8h14M4 1.8 2 2.8 4 3.8M14 1.8 16 2.8 14 3.8M19.5 6v15M18 7.5 19.5 6 21 7.5M18 19.5 19.5 21 21 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "rideshare-dropoff-pin",
+  "category": "maps",
+  "tags": [
+    "rideshare",
+    "dropoff",
+    "pickup",
+    "map pin",
+    "car",
+    "flag",
+    "location"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 18s-5.5-5-5.5-9.5a5.5 5.5 0 0 1 11 0C14.5 13 9 18 9 18z\"/><path class=\"p2\" d=\"M9 5.5v5.5M9 5.5h2.5l-.75 1.25.75 1.25H9\"/><path class=\"d p3\" d=\"M14 20.5v-3l1.5-3h5l1.5 3v3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 1000, "delay": 900 }
+  ]
+}

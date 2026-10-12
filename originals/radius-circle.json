@@ -1,0 +1,19 @@
+{
+  "name": "radius-circle",
+  "category": "maps",
+  "tags": [
+    "radius",
+    "circle",
+    "range",
+    "distance",
+    "center",
+    "measure",
+    "geometry"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12h7\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

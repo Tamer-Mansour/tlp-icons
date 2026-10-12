@@ -1,0 +1,33 @@
+{
+    "name":  "flu-shot",
+    "category":  "health",
+    "tags":  [
+                 "flu shot",
+                 "vaccine",
+                 "injection",
+                 "immunization",
+                 "syringe",
+                 "needle"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M14 5l5 5-8.5 8.5-5-5z\"/\u003e\u003cpath class=\"p2\" d=\"M17 2l5 5\"/\u003e\u003cpath class=\"p3\" d=\"M5.5 18.5 3 21\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  900,
+                       "anim":  "tap",
+                       "part":  "p3",
+                       "dur":  800
+                   }
+               ]
+}

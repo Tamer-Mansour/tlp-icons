@@ -1,0 +1,34 @@
+{
+  "name": "park-entrance-gate",
+  "category": "maps",
+  "tags": [
+    "park",
+    "gate",
+    "entrance",
+    "entry",
+    "arch",
+    "sign",
+    "garden"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"8\" width=\"3\" height=\"13\" rx=\"1\"/><rect class=\"d p1\" x=\"17.5\" y=\"8\" width=\"3\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M3 8Q12 -2 21 8\"/><path class=\"p3\" d=\"M6.5 13h11M12 13v8\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 900
+    }
+  ]
+}

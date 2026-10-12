@@ -1,0 +1,11 @@
+{
+  "name": "measuring-spoon",
+  "category": "health",
+  "tags": ["measuring spoon", "dose", "measure", "level", "medicine", "teaspoon"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"12\" rx=\"4.5\" ry=\"3.5\"/><path class=\"p2\" d=\"M5 12h5\"/><path class=\"p3\" d=\"M12 12h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

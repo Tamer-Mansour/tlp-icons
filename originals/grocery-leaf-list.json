@@ -1,0 +1,11 @@
+{
+  "name": "grocery-leaf-list",
+  "category": "health",
+  "tags": ["grocery", "list", "leaf", "shopping", "vegetables", "produce", "organic", "checklist"],
+  "svg": "<path class=\"d p1\" d=\"M3 11c0-4.5 3.5-7.5 8.5-7.5 0 5-3 7.5-8.5 7.5z\"/><path class=\"p2\" d=\"M13 7h8M12 15h9M12 19h9\"/><path class=\"p3\" d=\"M4 15h4M4 19h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

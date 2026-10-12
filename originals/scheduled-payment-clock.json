@@ -1,0 +1,12 @@
+{
+  "name": "scheduled-payment-clock",
+  "category": "finance",
+  "tags": ["scheduled", "payment", "recurring", "clock", "coin", "autopay", "bill"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"15.5\" r=\"5\"/><path class=\"p2\" d=\"M7.5 13v5\"/><circle class=\"d p3\" cx=\"16.5\" cy=\"7.5\" r=\"4.5\"/><path class=\"p4\" d=\"M16.5 5.5v2.2l1.5 1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "16.5px 7.5px" }
+  ]
+}

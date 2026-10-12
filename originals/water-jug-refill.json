@@ -1,0 +1,19 @@
+{
+  "name": "water-jug-refill",
+  "category": "commerce",
+  "tags": [
+    "water",
+    "jug",
+    "refill",
+    "bottle",
+    "drink",
+    "dispenser"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M9 7 6 9.5V19a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9.5L15 7z\"/><rect class=\"p2\" x=\"8.5\" y=\"3\" width=\"7\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M18 10h1a2.5 2.5 0 0 1 0 5h-1\"/><path class=\"p4\" d=\"M6.5 14h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

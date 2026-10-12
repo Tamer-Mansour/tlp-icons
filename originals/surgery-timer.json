@@ -1,0 +1,19 @@
+{
+  "name": "surgery-timer",
+  "category": "health",
+  "tags": [
+    "surgery",
+    "timer",
+    "stopwatch",
+    "operating",
+    "theatre",
+    "clock",
+    "cross"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 2h4M12 2v3M18 6l1.5-1.5\"/><path class=\"p3\" d=\"M12 10v6M9 13h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "balance-trend-line",
+  "category": "finance",
+  "tags": ["balance", "wallet", "trend", "growth", "savings", "rising", "profit"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 16 10 12.5l2.5 2 5-5\"/><path class=\"p3\" d=\"M14.5 9.5h3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

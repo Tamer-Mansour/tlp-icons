@@ -1,0 +1,33 @@
+{
+    "name":  "redeem-points",
+    "category":  "commerce",
+    "tags":  [
+                 "redeem",
+                 "points",
+                 "coin",
+                 "reward",
+                 "loyalty",
+                 "slot"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/\u003e\u003cpath class=\"p2\" d=\"M12 6.5l.9 1.8 2 .3-1.4 1.4.3 2-1.8-.9-1.8.9.3-2-1.4-1.4 2-.3z\"/\u003e\u003cpath class=\"p3\" d=\"M4 20h16\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  200
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   }
+               ]
+}

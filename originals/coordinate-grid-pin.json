@@ -1,0 +1,33 @@
+{
+  "name": "coordinate-grid-pin",
+  "category": "maps",
+  "tags": [
+    "coordinates",
+    "grid",
+    "pin",
+    "location",
+    "map",
+    "latitude"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M12 3v18M3 12h18\"/><path class=\"d p3\" d=\"M8 4.5a3 3 0 0 1 3 3c0 2-3 4-3 4s-3-2-3-4a3 3 0 0 1 3-3z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 900
+    }
+  ]
+}

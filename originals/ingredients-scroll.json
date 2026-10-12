@@ -1,0 +1,11 @@
+{
+  "name": "ingredients-scroll",
+  "category": "commerce",
+  "tags": ["ingredients", "label", "product", "back label", "nutrition", "list", "package", "info"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 8h8M8 12h8\"/><path class=\"p3\" d=\"M8 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

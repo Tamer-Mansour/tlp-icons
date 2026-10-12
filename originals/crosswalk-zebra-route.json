@@ -1,0 +1,10 @@
+{
+  "name": "crosswalk-zebra-route",
+  "category": "maps",
+  "tags": ["crosswalk", "zebra", "crossing", "pedestrian", "route", "road", "walk"],
+  "svg": "<path class=\"p1\" d=\"M5 4v9M9 4v9M13 4v9M17 4v9\"/><path class=\"p2\" d=\"M3 20h11M11 17l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "accounts-receivable",
+  "category": "finance",
+  "tags": [
+    "receivable",
+    "bill",
+    "invoice",
+    "incoming",
+    "owed",
+    "payment"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"10\" height=\"16\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M6 8h4\"/><path d=\"M6 12h4\"/><path d=\"M6 16h2.5\"/></g><g class=\"p3\"><path d=\"M21 12h-4\"/><path d=\"M20 9l-3 3 3 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 800, "delay": 900 }
+  ]
+}

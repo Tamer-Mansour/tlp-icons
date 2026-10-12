@@ -1,0 +1,12 @@
+{
+  "name": "fare-calculator",
+  "category": "maps",
+  "tags": ["fare", "calculator", "taxi", "price", "cost", "ride", "coin"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"13\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"5\" width=\"7\" height=\"3\" rx=\"0.5\"/><path class=\"p3\" d=\"M6 12h2M11 12h2M6 15.5h2M11 15.5h2\"/><circle class=\"d p4\" cx=\"18\" cy=\"17\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "rollIn", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pick-list",
+  "category": "commerce",
+  "tags": ["pick list", "checklist", "clipboard", "warehouse", "order", "fulfillment", "tick"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><g class=\"p3\"><path d=\"M8 11.5l1.3 1.3 2.4-2.4\"/><path d=\"M14 12h3\"/><path d=\"M8 17h9\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

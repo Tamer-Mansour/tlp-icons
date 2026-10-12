@@ -1,0 +1,27 @@
+{
+  "name": "ridge-trail",
+  "category": "maps",
+  "tags": [
+    "ridge",
+    "trail",
+    "mountain",
+    "crest",
+    "hiking",
+    "path"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20 9 8.5l3.5 5 2.5-3.5L21.5 20z\"/><path class=\"p2\" d=\"M6 17.5l3-2.5 3 2.5 3-2.5 3 2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lease-signature",
+  "category": "finance",
+  "tags": ["lease", "signature", "contract", "rent", "sign", "agreement"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"10\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M6 7h4M6 10h4M6 17h4\"/><g class=\"p3\"><path d=\"M15.5 14.5 19.5 10.5 22 13 18 17z\"/><path d=\"M15.5 14.5 18 17 14 19z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 1000, "delay": 900, "origin": "15px 17px" }
+  ]
+}

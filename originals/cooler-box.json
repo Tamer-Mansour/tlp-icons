@@ -1,0 +1,11 @@
+{
+  "name": "cooler-box",
+  "category": "maps",
+  "tags": ["cooler", "ice chest", "picnic", "camping", "box", "drinks", "portable"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"5.5\" width=\"18\" height=\"3.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 5.5V3.5h6v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "lift", "dur": 900, "delay": 900 }
+  ]
+}

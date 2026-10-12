@@ -1,0 +1,18 @@
+{
+  "name": "baby-bathtub",
+  "category": "health",
+  "tags": [
+    "baby",
+    "bathtub",
+    "bath",
+    "bubbles",
+    "infant",
+    "washing"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5z\"/><g class=\"p2\"><circle cx=\"8\" cy=\"7\" r=\"2\"/><circle cx=\"13.5\" cy=\"4.5\" r=\"1.5\"/></g><path class=\"p3\" d=\"M18 12V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

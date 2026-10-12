@@ -1,0 +1,12 @@
+{
+  "name": "castle-tower-visit",
+  "category": "maps",
+  "tags": ["castle", "tower", "battlement", "flag", "fort", "medieval", "visit", "landmark"],
+  "svg": "<path class=\"d p1\" d=\"M5 21V7h3v3h8V7h3v14z\"/><path class=\"p2\" d=\"M12 10V1.5\"/><path class=\"d p3\" d=\"M12 1.5l3 1.5-3 1.5z\"/><path class=\"p4\" d=\"M12 13v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 900, "origin": "12px 3px" },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 1200 }
+  ]
+}

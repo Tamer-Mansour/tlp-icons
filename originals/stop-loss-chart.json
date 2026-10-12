@@ -1,0 +1,11 @@
+{
+  "name": "stop-loss-chart",
+  "category": "finance",
+  "tags": ["stop loss", "chart", "trading", "risk", "limit", "stock"],
+  "svg": "<path class=\"p2\" d=\"M3 3v18h18\"/><polyline class=\"p1\" points=\"7,9 11,13 14,8 20,6\"/><path class=\"p3\" d=\"M7 17h14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 1100, "origin": "left" }
+  ]
+}

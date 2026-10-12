@@ -1,0 +1,12 @@
+{
+  "name": "referral-gift-person",
+  "category": "commerce",
+  "tags": ["referral", "gift", "invite", "person", "reward", "refer a friend", "box"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M2 21v-1a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1\"/><rect class=\"p3\" x=\"14\" y=\"12\" width=\"7\" height=\"9\" rx=\"1\"/><path class=\"p4\" d=\"M17.5 12v9M14 15.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

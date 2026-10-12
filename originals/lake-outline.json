@@ -1,0 +1,10 @@
+{
+  "name": "lake-outline",
+  "category": "maps",
+  "tags": ["lake", "water", "outline", "nature", "map", "pond"],
+  "svg": "<path class=\"d p1\" d=\"M3 13c0-3.5 2.5-6 6-6.5 2-.3 3.5-1.5 6-.5s4.5 2.5 5.5 5c1 2.5-.5 4.5-2 5.5s-3.5 1-5 2.5S9.5 22 7 19.5 3 16.5 3 13z\"/><path class=\"p2\" d=\"M7.5 13.5c1-1 2-1 3 0s2 1 3 0s2-1 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

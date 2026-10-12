@@ -1,0 +1,27 @@
+{
+  "name": "bull-horns",
+  "category": "finance",
+  "tags": [
+    "bull",
+    "horns",
+    "bull market",
+    "rising",
+    "stocks",
+    "growth"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M2 4c3 0 6 2 7 7.5\"/><path d=\"M22 4c-3 0-6 2-7 7.5\"/></g><g class=\"p2\"><path d=\"M12 21V12\"/><path d=\"M8.5 15.5 12 12l3.5 3.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 800,
+      "delay": 400
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "neck-collar",
+  "category": "health",
+  "tags": [
+    "neck",
+    "collar",
+    "cervical",
+    "brace",
+    "spine",
+    "injury"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M4 8h16v5a8 8 0 0 1-16 0z\"/><path class=\"p2\" d=\"M8 8c0 2 1.8 3.5 4 3.5s4-1.5 4-3.5\"/><path class=\"p3\" d=\"M7 16h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "turn-arrow-right",
+  "category": "maps",
+  "tags": ["turn", "right", "road", "direction", "navigation", "arrow", "route"],
+  "svg": "<path class=\"p1\" d=\"M8 21v-7a4 4 0 0 1 4-4h6\"/><path class=\"p2\" d=\"M15 7l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 700 }
+  ]
+}

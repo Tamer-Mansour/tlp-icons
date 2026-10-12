@@ -1,0 +1,19 @@
+{
+  "name": "dosing-syringe",
+  "category": "health",
+  "tags": [
+    "syringe",
+    "oral",
+    "dosing",
+    "medicine",
+    "liquid",
+    "graduated"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 9h4M10 13h4\"/><path class=\"p3\" d=\"M8 2h8M12 2v3\"/><path class=\"p4\" d=\"M11 17v3h2v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "emergency-blanket",
+  "category": "health",
+  "tags": ["emergency", "blanket", "foil", "space", "thermal", "survival", "warmth"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 8.5l3.5 2 3.5-2 3.5 2 3.5-2\"/><path class=\"p3\" d=\"M5 14.5l3.5 2 3.5-2 3.5 2 3.5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 450 }
+  ]
+}

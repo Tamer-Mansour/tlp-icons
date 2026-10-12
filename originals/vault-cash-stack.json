@@ -1,0 +1,40 @@
+{
+  "name": "vault-cash-stack",
+  "category": "finance",
+  "tags": [
+    "vault",
+    "cash",
+    "banknotes",
+    "safe",
+    "deposit",
+    "bank"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"15\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"4\"/><path class=\"p3\" d=\"M7 18v3M17 18v3\"/><path class=\"p4\" d=\"M12 10.5h2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 400,
+      "delay": 800
+    },
+    {
+      "part": "p4",
+      "anim": "spin",
+      "dur": 1000,
+      "delay": 900,
+      "origin": "12px 10.5px"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "eta-clock",
+  "category": "commerce",
+  "tags": ["eta", "delivery time", "arrival", "truck", "clock", "shipping", "estimate"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M14 9h4l3 3.5V15h-7z\"/><g class=\"p3\"><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"17\" cy=\"18\" r=\"2\"/></g><g class=\"p4\"><circle class=\"d\" cx=\"18\" cy=\"5\" r=\"2.5\"/><path d=\"M18 3.8V5l.8.6\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

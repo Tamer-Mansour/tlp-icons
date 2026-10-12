@@ -1,0 +1,11 @@
+{
+  "name": "thermal-box",
+  "category": "commerce",
+  "tags": ["cooler", "insulated", "box", "ice", "cold", "shipping", "snowflake"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"11\" rx=\"2\"/><rect class=\"d p2\" x=\"2\" y=\"4\" width=\"20\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M12 13v5M9.8 14.25l4.4 2.5M14.2 14.25l-4.4 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "spinHalf", "dur": 1200, "delay": 700, "origin": "center" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "taxi-rank-stand",
+  "category": "maps",
+  "tags": ["taxi", "cab", "rank", "ride", "car", "hire", "transport"],
+  "svg": "<path class=\"d p1\" d=\"M2 15v-3l2.5-.5L7.5 7.5h9l2.5 4 2.5.5v3z\"/><rect class=\"p2\" x=\"10\" y=\"2\" width=\"4\" height=\"2\" rx=\"0.5\"/><g class=\"p3\"><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

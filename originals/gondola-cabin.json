@@ -1,0 +1,10 @@
+{
+  "name": "gondola-cabin",
+  "category": "maps",
+  "tags": ["gondola", "cabin", "cable", "ski", "lift", "mountain", "resort"],
+  "svg": "<path class=\"p1\" d=\"M2 4h20\"/><g class=\"p2\"><path d=\"M12 4v3\"/><rect class=\"d\" x=\"6\" y=\"7\" width=\"12\" height=\"11\" rx=\"2\"/><path d=\"M6 12.5h12\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pendulum", "dur": 1600, "delay": 800, "origin": "12px 4px" }
+  ]
+}

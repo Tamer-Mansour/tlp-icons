@@ -1,0 +1,19 @@
+{
+  "name": "train-pantograph",
+  "category": "maps",
+  "tags": [
+    "train",
+    "pantograph",
+    "rail",
+    "electric",
+    "contact",
+    "catenary",
+    "locomotive"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"9\" rx=\"2\"/><path d=\"M8 14.5h8\"/><path class=\"p2\" d=\"M8.5 10 12 4l3.5 6\"/><path class=\"p3\" d=\"M5 3h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 800, "delay": 900 }
+  ]
+}

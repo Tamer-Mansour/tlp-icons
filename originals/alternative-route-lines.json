@@ -1,0 +1,13 @@
+{
+  "name": "alternative-route-lines",
+  "category": "maps",
+  "tags": ["route", "alternative", "directions", "path", "detour", "navigation"],
+  "svg": "<circle class=\"d p1\" cx=\"4\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M6.68 10.66 9.37 9.32M11.16 8.42 13.84 7.08\"/><path class=\"p3\" d=\"M6.68 13.34 9.37 14.68M11.16 15.58 13.84 16.92\"/><circle class=\"p4\" cx=\"18\" cy=\"5\" r=\"2\"/><circle class=\"p5\" cx=\"18\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 450 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p5", "anim": "popIn", "dur": 400, "delay": 850 }
+  ]
+}

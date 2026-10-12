@@ -1,0 +1,11 @@
+{
+  "name": "fender-bender",
+  "category": "finance",
+  "tags": ["fender", "bender", "crash", "bumper", "car", "collision", "insurance"],
+  "svg": "<path class=\"d p1\" d=\"M7 18v-5l2-4h6l3 4 3 1v4z\"/><g class=\"p2\"><circle cx=\"10\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></g><path class=\"p3\" d=\"M2.5 8.5l2 1.5M2.5 14l2-1M4 4.5l1.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800, "origin": "4px 9px" }
+  ]
+}

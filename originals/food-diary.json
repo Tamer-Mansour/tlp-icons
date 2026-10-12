@@ -1,0 +1,11 @@
+{
+  "name": "food-diary",
+  "category": "health",
+  "tags": ["food", "diary", "journal", "meal", "notebook", "nutrition", "log"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 7v3.5a2 2 0 0 0 4 0V7M9.5 12.5v5\"/><path class=\"p3\" d=\"M15.5 7c1.6 1.2 1.6 5.2 0 6.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 550 }
+  ]
+}

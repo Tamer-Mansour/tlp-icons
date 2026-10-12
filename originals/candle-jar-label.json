@@ -1,0 +1,11 @@
+{
+  "name": "candle-jar-label",
+  "category": "commerce",
+  "tags": ["candle", "jar", "label", "wax", "scented", "home", "shop"],
+  "svg": "<path class=\"p3\" d=\"M12 2c2.5 2.2 3 4 0 6-3-2-2.5-3.8 0-6z\"/><rect class=\"d p1\" x=\"5\" y=\"10.5\" width=\"14\" height=\"10.5\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"14\" width=\"7\" height=\"3.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 1200, "delay": 800, "origin": "bottom" }
+  ]
+}

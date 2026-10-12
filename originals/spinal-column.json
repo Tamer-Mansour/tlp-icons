@@ -1,0 +1,19 @@
+{
+  "name": "spinal-column",
+  "category": "health",
+  "tags": [
+    "spine",
+    "spinal",
+    "vertebra",
+    "backbone",
+    "column",
+    "chiropractor"
+  ],
+  "svg": "<path class=\"p4\" d=\"M12 6v4.5M12 13.5V18\"/><rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"3\" rx=\"1.5\"/><rect class=\"d p2\" x=\"8\" y=\"10.5\" width=\"8\" height=\"3\" rx=\"1.5\"/><rect class=\"d p3\" x=\"8\" y=\"18\" width=\"8\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 450 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "try-on-mirror",
+  "category": "commerce",
+  "tags": ["mirror", "try on", "hanger", "fitting", "fashion", "clothes"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"11.5\" width=\"12\" height=\"10.5\" rx=\"2.5\"/><path class=\"p2\" d=\"M12 5V3.5a1.5 1.5 0 1 0-1.5-1.5M12 5 4 9.5M12 5l8 4.5\"/><path class=\"p3\" d=\"M9.5 19l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

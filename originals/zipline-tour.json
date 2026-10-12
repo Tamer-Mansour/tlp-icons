@@ -1,0 +1,11 @@
+{
+  "name": "zipline-tour",
+  "category": "maps",
+  "tags": ["zipline", "tour", "adventure", "cable", "pulley", "canopy", "thrill", "activity"],
+  "svg": "<path class=\"p1\" d=\"M3 4v18M21 9v13\"/><path class=\"p2\" d=\"M3 6l18 5\"/><g class=\"p3\"><circle class=\"d\" cx=\"12\" cy=\"8.5\" r=\"2\"/><path d=\"M12 10.5V14M9.5 14h5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 900, "origin": "12px 8.5px" }
+  ]
+}

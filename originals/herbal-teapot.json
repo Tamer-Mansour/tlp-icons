@@ -1,0 +1,12 @@
+{
+  "name": "herbal-teapot",
+  "category": "health",
+  "tags": ["herbal", "tea", "teapot", "herbs", "leaves", "infusion"],
+  "svg": "<path class=\"d p1\" d=\"M4 10h13v5a5 5 0 0 1-5 5h-3a5 5 0 0 1-5-5z\"/><path class=\"p2\" d=\"M8.5 10V8.5h3.5V10\"/><path class=\"p3\" d=\"M17 12.5h1.5l3-4M4 11c-2 0-2 3 0 3\"/><g class=\"p4\"><path d=\"M6 6C6 3.5 8 2.5 11 2.5c0 3-2 4.5-5 4.5z\"/><path d=\"M14 5.5c0-2.5 1.8-3.5 4.5-3.5 0 2.5-1.8 3.5-4.5 3.5z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 350 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "dropIn", "dur": 800, "delay": 800 }
+  ]
+}

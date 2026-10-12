@@ -1,0 +1,40 @@
+{
+  "name": "trail-closed-barrier",
+  "category": "maps",
+  "tags": [
+    "trail",
+    "closed",
+    "barrier",
+    "gate",
+    "hiking",
+    "path",
+    "closure"
+  ],
+  "svg": "<path class=\"p4\" d=\"M2 20.5h20\"/><rect class=\"d p1\" x=\"2\" y=\"5\" width=\"12\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M3.5 9v9.5M10 9v9.5\"/><g class=\"p3\"><circle cx=\"18\" cy=\"14\" r=\"3.5\"/><path d=\"M15.8 11.8l4.4 4.4\"/></g>",
+  "motion": [
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 600
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 1100
+    }
+  ]
+}

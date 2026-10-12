@@ -1,0 +1,19 @@
+{
+  "name": "war-memorial-arch",
+  "category": "maps",
+  "tags": [
+    "war",
+    "memorial",
+    "arch",
+    "monument",
+    "remembrance",
+    "triumphal",
+    "veterans"
+  ],
+  "svg": "<path class=\"p1\" d=\"M4 21V10a8 8 0 0 1 16 0v11\"/><path class=\"p2\" d=\"M9 21v-5a3 3 0 0 1 6 0v5\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

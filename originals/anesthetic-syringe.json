@@ -1,0 +1,11 @@
+{
+  "name": "anesthetic-syringe",
+  "category": "health",
+  "tags": ["syringe", "anesthetic", "dental", "needle", "injection", "numbing", "dentist", "shot"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"11\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 8.5v5M2 10.5h3\"/><path class=\"p3\" d=\"M16 10.5h2.5a2.5 2.5 0 0 1 2.5 2.5V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "card-approved",
+  "category": "finance",
+  "tags": [
+    "card",
+    "approved",
+    "payment",
+    "check",
+    "verified",
+    "credit card",
+    "accepted"
+  ],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"15\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h15\"/><circle class=\"d p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"M16.3 17.1l1.2 1.2 2.4-2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

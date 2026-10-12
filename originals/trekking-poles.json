@@ -1,0 +1,19 @@
+{
+  "name": "trekking-poles",
+  "category": "maps",
+  "tags": [
+    "trekking",
+    "poles",
+    "hiking",
+    "walking",
+    "trail",
+    "hike",
+    "straps"
+  ],
+  "svg": "<path class=\"p1\" d=\"M5 6 14 21\"/><path class=\"p2\" d=\"M19 6 10 21\"/><circle class=\"p3\" cx=\"5\" cy=\"4\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

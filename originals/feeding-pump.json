@@ -1,0 +1,33 @@
+{
+  "name": "feeding-pump",
+  "category": "health",
+  "tags": [
+    "feeding",
+    "pump",
+    "infusion",
+    "nutrition",
+    "bag",
+    "tube"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M12 8.5v2.5\"/><path class=\"d p3\" d=\"M7 11h10v6a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 400,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

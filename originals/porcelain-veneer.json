@@ -1,0 +1,11 @@
+{
+  "name": "porcelain-veneer",
+  "category": "health",
+  "tags": ["veneer", "porcelain", "tooth", "dental", "smile", "cosmetic", "teeth"],
+  "svg": "<path class=\"d p1\" d=\"M7 4h10v8c0 3-1 7-2.5 7-1.2 0-1.5-2-2.5-2s-1.3 2-2.5 2C8 21 7 17 7 12z\"/><path class=\"p2\" d=\"M10.5 7.5v6\"/><path class=\"p3\" d=\"M19.5 3.5v3M18 5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

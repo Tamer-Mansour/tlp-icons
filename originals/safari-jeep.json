@@ -1,0 +1,11 @@
+{
+  "name": "safari-jeep",
+  "category": "maps",
+  "tags": ["safari", "jeep", "offroad", "expedition", "car", "adventure", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M2 15v-2.5l3-1L8 7h7l3 4.5 3 1V15z\"/><path class=\"p2\" d=\"M8.5 4.5h6M9 4.5V7M15 4.5V7\"/><g class=\"p3\"><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

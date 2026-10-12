@@ -1,0 +1,11 @@
+{
+  "name": "nasal-sinus",
+  "category": "health",
+  "tags": ["sinus", "nose", "nasal", "cavity", "sinusitis", "face", "anatomy"],
+  "svg": "<path class=\"d p1\" d=\"M12.5 3.5C14.2 3.5 15 4.8 15 6.5v5.5l2.5 4c.5.8 0 1.8-1 1.8h-3.5\"/><ellipse class=\"p2\" cx=\"7.5\" cy=\"14\" rx=\"3\" ry=\"2.8\"/><ellipse class=\"p3\" cx=\"7.5\" cy=\"6\" rx=\"3\" ry=\"2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

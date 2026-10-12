@@ -1,0 +1,12 @@
+{
+  "name": "sample-cooler",
+  "category": "health",
+  "tags": ["sample", "cooler", "cold chain", "lab", "insulated", "specimen", "snowflake"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M3 12h18\"/><path class=\"p3\" d=\"M9 8V6h6v2\"/><g class=\"p4\"><path d=\"M12 13.5v5M9.4 15l5.2 3M14.6 15l-5.2 3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "center" }
+  ]
+}

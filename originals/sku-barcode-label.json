@@ -1,0 +1,11 @@
+{
+  "name": "sku-barcode-label",
+  "category": "commerce",
+  "tags": ["sku", "barcode", "label", "product code", "price tag", "stock code", "scan"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6 9v6M10 9v6M14 9v6M18 9v6\"/><path class=\"p3\" d=\"M6 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

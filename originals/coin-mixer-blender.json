@@ -1,0 +1,11 @@
+{
+  "name": "coin-mixer-blender",
+  "category": "finance",
+  "tags": ["coin", "mixer", "blender", "money", "swirl", "cash"],
+  "svg": "<path class=\"d p1\" d=\"M6 8h12v10a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3z\"/><rect class=\"p2\" x=\"5\" y=\"3\" width=\"14\" height=\"3\" rx=\"1\"/><g class=\"p3\"><circle cx=\"9.5\" cy=\"16\" r=\"2\"/><circle cx=\"14.5\" cy=\"16.5\" r=\"2\"/><circle cx=\"12\" cy=\"12.5\" r=\"1.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1400, "delay": 600, "origin": "12px 15px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "price-tag-dollar",
+  "category": "finance",
+  "tags": ["price", "tag", "dollar", "cost", "sale", "label", "money"],
+  "svg": "<path class=\"d p1\" d=\"M3 4.5V11l10 10 8-8-10-10H4.5A1.5 1.5 0 0 0 3 4.5z\"/><path class=\"p2\" d=\"M15 9.5h-3.5a1.25 1.25 0 0 0 0 2.5h2a1.25 1.25 0 0 1 0 2.5H10.5M12.5 7.5v2M12.5 14.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 }
+  ]
+}

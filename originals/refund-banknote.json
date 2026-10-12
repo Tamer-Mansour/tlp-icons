@@ -1,0 +1,33 @@
+{
+  "name": "refund-banknote",
+  "category": "commerce",
+  "tags": [
+    "refund",
+    "banknote",
+    "money",
+    "return",
+    "cash back",
+    "reimburse"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M20 14.5h-5M17 12.5l-2 2 2 2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 500
+    }
+  ]
+}

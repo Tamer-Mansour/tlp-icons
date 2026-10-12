@@ -1,0 +1,10 @@
+{
+  "name": "inner-ear",
+  "category": "health",
+  "tags": ["inner ear", "cochlea", "hearing", "ear", "spiral", "audiology", "balance"],
+  "svg": "<path class=\"d p1\" d=\"M6 10a6 6 0 0 1 12 0c0 4-3 5-3 8a3 3 0 0 1-6 0c0-1.5-3-2.5-3-8z\"/><path class=\"p2\" d=\"M12 12a2 2 0 1 1 2-2a3.5 3.5 0 0 1-3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 1000, "delay": 400 }
+  ]
+}

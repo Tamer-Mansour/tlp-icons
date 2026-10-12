@@ -1,0 +1,11 @@
+{
+  "name": "pharmacy-mortar",
+  "category": "health",
+  "tags": ["mortar", "pestle", "pharmacy", "pill", "grind", "compound", "medicine"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16c0 4.4-3.6 8-8 8s-8-3.6-8-8z\"/><path class=\"p1\" d=\"M3 11h18\"/><path class=\"p2\" d=\"M15 3.5 11 11\"/><rect class=\"d p3\" x=\"8.5\" y=\"14\" width=\"7\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

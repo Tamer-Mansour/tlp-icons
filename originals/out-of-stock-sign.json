@@ -1,0 +1,33 @@
+{
+    "name":  "out-of-stock-sign",
+    "category":  "commerce",
+    "tags":  [
+                 "out of stock",
+                 "empty",
+                 "box",
+                 "unavailable",
+                 "sold out",
+                 "inventory"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 9l2-4.5h12L20 9v11H4z\"/\u003e\u003cpath class=\"p2\" d=\"M4 9h16\"/\u003e\u003cpath class=\"p3\" d=\"M9.5 13l5 5M14.5 13l-5 5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  800
+                   }
+               ]
+}

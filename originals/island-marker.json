@@ -1,0 +1,27 @@
+{
+  "name": "island-marker",
+  "category": "maps",
+  "tags": [
+    "island",
+    "marker",
+    "pin",
+    "location",
+    "destination",
+    "map"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 18q2-6 6-6t3 1.5q1.5-2 4-1.5t4 4.5q1 1.5 2 1.5z\"/><circle class=\"d p2\" cx=\"12\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 900,
+      "delay": 400
+    }
+  ]
+}

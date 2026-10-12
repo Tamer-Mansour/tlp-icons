@@ -1,0 +1,19 @@
+{
+  "name": "storage-temperature",
+  "category": "health",
+  "tags": [
+    "temperature",
+    "thermometer",
+    "storage",
+    "medicine",
+    "cold chain",
+    "fridge",
+    "vaccine"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 4a2 2 0 0 1 4 0v9.5a4 4 0 1 1-4 0z\"/><path class=\"p2\" d=\"M10 9v5\"/><rect class=\"p3\" x=\"15\" y=\"14\" width=\"6\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M18 16.5v3M16.5 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

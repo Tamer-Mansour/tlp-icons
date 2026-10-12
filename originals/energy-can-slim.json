@@ -1,0 +1,33 @@
+{
+  "name": "energy-can-slim",
+  "category": "commerce",
+  "tags": [
+    "energy drink",
+    "can",
+    "slim can",
+    "drink",
+    "caffeine",
+    "bolt"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 7h8\"/><polyline class=\"p3\" points=\"12.5 9.5 10.5 12.5 13.5 12.5 11.5 15.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "twinkle",
+      "dur": 900,
+      "delay": 500
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ar-product-view-cube",
+  "category": "commerce",
+  "tags": ["ar", "augmented reality", "3d", "cube", "product view", "viewfinder", "preview", "model"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5 18 9.5v6l-6 3-6-3v-6z\"/><path class=\"p2\" d=\"M6 9.5l6 3 6-3M12 12.5v6\"/><path class=\"p3\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "focusIn", "dur": 900, "delay": 500, "origin": "center" }
+  ]
+}

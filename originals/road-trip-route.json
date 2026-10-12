@@ -1,0 +1,11 @@
+{
+  "name": "road-trip-route",
+  "category": "maps",
+  "tags": ["road trip", "route", "driving", "pins", "journey", "map"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"18\" r=\"3\"/><circle class=\"d p3\" cx=\"18\" cy=\"6\" r=\"3\"/><path class=\"p2\" d=\"M8.5 15.5C11 13 9 11.5 12 11s3-4 3.5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

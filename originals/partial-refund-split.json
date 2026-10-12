@@ -1,0 +1,28 @@
+{
+    "name":  "partial-refund-split",
+    "category":  "commerce",
+    "tags":  [
+                 "partial refund",
+                 "split",
+                 "coin",
+                 "half",
+                 "refund",
+                 "partial",
+                 "money back"
+             ],
+    "svg":  "\u003ccircle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/\u003e\u003cpath class=\"d p2\" d=\"M12 3a9 9 0 0 0 0 18z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  400
+                   }
+               ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "syrup-bottle-dropper",
+  "category": "commerce",
+  "tags": [
+    "syrup",
+    "bottle",
+    "dropper",
+    "measuring",
+    "medicine",
+    "liquid",
+    "dose"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 7h10v13a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z\"/><path class=\"p2\" d=\"M7.5 2.5h9l-1 4.5h-7z\"/><path class=\"p3\" d=\"M7 14h10\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

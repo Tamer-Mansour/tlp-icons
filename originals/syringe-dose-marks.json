@@ -1,0 +1,19 @@
+{
+  "name": "syringe-dose-marks",
+  "category": "health",
+  "tags": [
+    "syringe",
+    "dose",
+    "measure",
+    "injection",
+    "plunger",
+    "medicine"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"12\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 12h5\"/><path class=\"p3\" d=\"M7 7.5v3M13 7.5v3\"/><path class=\"p4\" d=\"M2 6.5v11M2 12h8M10 8.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "slideIn", "dur": 800, "delay": 900 }
+  ]
+}

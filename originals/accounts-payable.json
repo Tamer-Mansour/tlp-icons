@@ -1,0 +1,11 @@
+{
+  "name": "accounts-payable",
+  "category": "finance",
+  "tags": ["accounts payable", "bill", "invoice", "payable", "outgoing", "expense", "pay"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h9l4 4v14H4z\"/><path class=\"p2\" d=\"M8 12h5M8 16h5\"/><path class=\"p3\" d=\"M17 14h4M19 12l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "launch", "dur": 900, "delay": 700 }
+  ]
+}

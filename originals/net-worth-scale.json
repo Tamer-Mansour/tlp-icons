@@ -1,0 +1,28 @@
+{
+    "name":  "net-worth-scale",
+    "category":  "finance",
+    "tags":  [
+                 "net worth",
+                 "balance",
+                 "assets",
+                 "wealth",
+                 "scale",
+                 "liabilities"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 3v18M8 21h8M4 6h16\"/\u003e\u003cpath class=\"d p2\" d=\"M5 6l-3 7h6zM19 6l-3 7h6z\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  800
+                   },
+                   {
+                       "origin":  "top",
+                       "delay":  700,
+                       "anim":  "swing",
+                       "part":  "p2",
+                       "dur":  1200
+                   }
+               ]
+}

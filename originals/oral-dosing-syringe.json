@@ -1,0 +1,33 @@
+{
+  "name": "oral-dosing-syringe",
+  "category": "health",
+  "tags": [
+    "syringe",
+    "oral",
+    "dose",
+    "liquid",
+    "medicine",
+    "measure"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"13\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M10 9v2.5M13 9v2.5M16 9v2.5\"/><path class=\"p3\" d=\"M2 12h4M19 12h1.5M21.5 8.5v7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

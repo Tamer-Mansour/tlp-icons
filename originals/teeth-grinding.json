@@ -1,0 +1,13 @@
+{
+  "name": "teeth-grinding",
+  "category": "health",
+  "tags": ["teeth", "grinding", "bruxism", "clench", "dental", "jaw"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M9 5v6M12 5v6M15 5v6\"/><rect class=\"p3\" x=\"6\" y=\"13\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p4\" d=\"M10.5 13v6M13.5 13v6M16.5 13v6\"/><g class=\"p5\"><path d=\"M2 9.5h2M2 14.5h2M20 9.5h2M20 14.5h2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 800 },
+    { "part": "p4", "anim": "nudge", "dur": 700, "delay": 800 },
+    { "part": "p5", "anim": "buzz", "dur": 900, "delay": 900 }
+  ]
+}

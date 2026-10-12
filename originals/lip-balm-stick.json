@@ -1,0 +1,11 @@
+{
+  "name": "lip-balm-stick",
+  "category": "commerce",
+  "tags": ["lip", "balm", "chapstick", "lips", "cosmetic", "beauty"],
+  "svg": "<path class=\"d p1\" d=\"M9 8V4.5a3 3 0 0 1 6 0V8z\" transform=\"rotate(14 12 12)\"/><rect class=\"p2\" x=\"7\" y=\"8\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M7 13h10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 800 }
+  ]
+}

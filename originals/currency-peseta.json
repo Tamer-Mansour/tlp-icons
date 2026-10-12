@@ -1,0 +1,11 @@
+{
+  "name": "currency-peseta",
+  "category": "finance",
+  "tags": ["peseta", "currency", "coin", "money", "spain", "pts"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M8.5 17.5v-7h2.8a2 2 0 0 1 0 4h-2.8\"/><path class=\"p3\" d=\"M19 2.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

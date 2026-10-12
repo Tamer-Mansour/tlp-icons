@@ -1,0 +1,11 @@
+{
+  "name": "dose-reminder-clock",
+  "category": "health",
+  "tags": ["dose", "reminder", "clock", "medication", "schedule", "pill", "alarm"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V9M12 12l2.5 1.5\"/><rect class=\"p3\" x=\"10\" y=\"4.8\" width=\"4\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "free-gift-tag",
+  "category": "commerce",
+  "tags": ["free", "gift", "tag", "promotion", "offer", "present"],
+  "svg": "<path class=\"d p1\" d=\"M2 4.5A2.5 2.5 0 0 1 4.5 2H9L15 8L8 15L2 9Z\"/><circle class=\"f p1\" cx=\"5.5\" cy=\"5.5\" r=\"1.2\"/><g class=\"p2\"><rect x=\"13\" y=\"14\" width=\"9\" height=\"2.5\" rx=\"0.6\"/><rect class=\"d\" x=\"14\" y=\"16.5\" width=\"7\" height=\"5\" rx=\"0.6\"/><path d=\"M17.5 14v7.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500, "origin": "bottom" }
+  ]
+}

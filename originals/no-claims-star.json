@@ -1,0 +1,11 @@
+{
+  "name": "no-claims-star",
+  "category": "finance",
+  "tags": ["car", "insurance", "no claims", "bonus", "star", "motor", "discount"],
+  "svg": "<path class=\"d p1\" d=\"M2 17v-5l3-1 2.5-4h7l3 4 2.5 1v5z\"/><g class=\"p2\"><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"15\" cy=\"17\" r=\"2\"/></g><path class=\"d p3\" d=\"M11 10.3l.56 1.43 1.53.09-1.19.97.4 1.46L11 13.45l-1.3.8.4-1.46-1.19-.97 1.53-.09z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 1000, "delay": 900 }
+  ]
+}

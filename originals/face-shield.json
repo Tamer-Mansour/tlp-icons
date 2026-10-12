@@ -1,0 +1,28 @@
+{
+  "name": "face-shield",
+  "category": "health",
+  "tags": [
+    "face",
+    "shield",
+    "visor",
+    "protection",
+    "ppe",
+    "clear",
+    "medical"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"5.5\"/><path class=\"p2\" d=\"M3.5 12V5.5h17V12\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

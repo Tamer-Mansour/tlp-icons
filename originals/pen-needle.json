@@ -1,0 +1,34 @@
+{
+  "name": "pen-needle",
+  "category": "health",
+  "tags": [
+    "pen",
+    "needle",
+    "injection",
+    "insulin",
+    "syringe",
+    "medicine",
+    "shot"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8.5\" width=\"13\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M6 8.5v7\"/><path class=\"p2\" d=\"M15.5 12h6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "slideIn",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

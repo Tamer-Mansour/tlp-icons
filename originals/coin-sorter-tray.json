@@ -1,0 +1,11 @@
+{
+  "name": "coin-sorter-tray",
+  "category": "finance",
+  "tags": ["coin", "sorter", "tray", "slot", "change", "counter", "cash"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h18v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8 17h8\"/><circle class=\"d p3\" cx=\"12\" cy=\"6\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 600 }
+  ]
+}

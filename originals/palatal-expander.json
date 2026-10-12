@@ -1,0 +1,28 @@
+{
+    "name":  "palatal-expander",
+    "category":  "health",
+    "tags":  [
+                 "palate",
+                 "expander",
+                 "orthodontic",
+                 "dental",
+                 "screw",
+                 "jaw",
+                 "braces"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M5 20v-8a7 7 0 0 1 14 0v8\"/\u003e\u003crect class=\"d p2\" x=\"9\" y=\"11\" width=\"6\" height=\"6\" rx=\"1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  600
+                   }
+               ]
+}

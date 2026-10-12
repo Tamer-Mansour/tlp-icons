@@ -1,0 +1,11 @@
+{
+  "name": "cashback-coin",
+  "category": "finance",
+  "tags": ["cashback", "coin", "refund", "rewards", "return", "loop"],
+  "svg": "<circle class=\"d p1\" cx=\"14\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M14 7v6\"/><path class=\"p3\" d=\"M3 15a7 7 0 0 0 6 6M3 21v-6h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

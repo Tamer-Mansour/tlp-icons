@@ -1,0 +1,11 @@
+{
+  "name": "foot-oximeter",
+  "category": "health",
+  "tags": ["oximeter", "foot", "pulse", "oxygen", "sensor", "clip", "baby"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h4v8.5c2 .8 4.5 1.5 5.5 3 1 1.5.5 3-1 3.5H6z\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"5\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M3 21h4l2-3 2 3.5 2-.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 900 }
+  ]
+}

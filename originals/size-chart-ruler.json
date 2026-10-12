@@ -1,0 +1,27 @@
+{
+    "name":  "size-chart-ruler",
+    "category":  "commerce",
+    "tags":  [
+                 "size",
+                 "chart",
+                 "ruler",
+                 "fit",
+                 "measure",
+                 "clothing"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M6.5 7v4M10.5 7v3M14.5 7v4M18.5 7v3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "growX",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  500
+                   }
+               ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "carpal-tunnel",
+    "category":  "health",
+    "tags":  [
+                 "carpal",
+                 "tunnel",
+                 "wrist",
+                 "nerve",
+                 "median",
+                 "pressure"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"6\"/\u003e\u003cpath class=\"p2\" d=\"M8 11a4 3.5 0 0 1 8 0\"/\u003e\u003ccircle class=\"p3\" cx=\"12\" cy=\"14.2\" r=\"1.2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "press",
+                       "dur":  900,
+                       "delay":  800
+                   }
+               ]
+}

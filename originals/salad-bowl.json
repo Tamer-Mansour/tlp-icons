@@ -1,0 +1,11 @@
+{
+  "name": "salad-bowl",
+  "category": "health",
+  "tags": ["salad", "bowl", "leaf", "fork", "vegetables", "diet"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18a9 9 0 0 1-18 0z\"/><path class=\"p2\" d=\"M7 11c0-3 2-5.5 6-6.5 0 3-2 5.5-6 6.5z\"/><path class=\"p3\" d=\"M18 2v4a1.5 1.5 0 0 0 3 0V2M19.5 7.5V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

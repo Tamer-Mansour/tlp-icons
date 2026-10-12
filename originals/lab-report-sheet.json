@@ -1,0 +1,11 @@
+{
+  "name": "lab-report-sheet",
+  "category": "health",
+  "tags": ["lab", "report", "results", "flask", "test", "sheet", "check"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h8l5 5v13H5z\"/><path class=\"p2\" d=\"M9 6h4M10 6v3.5L7.6 13.1A1 1 0 0 0 8.5 14.5h3.2a1 1 0 0 0 .9-1.4L12 9.5V6\"/><path class=\"p3\" d=\"M13.5 16l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

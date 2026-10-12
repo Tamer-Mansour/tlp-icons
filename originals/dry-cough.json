@@ -1,0 +1,12 @@
+{
+  "name": "dry-cough",
+  "category": "health",
+  "tags": ["cough", "dry", "mouth", "air", "breath", "respiratory", "sick", "symptom"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"12\" rx=\"5.5\" ry=\"4.5\"/><path class=\"p2\" d=\"M17 9h4.5\"/><path class=\"p3\" d=\"M16 12.5h5.5\"/><path class=\"p4\" d=\"M17 16h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "growX", "dur": 400, "delay": 700 }
+  ]
+}

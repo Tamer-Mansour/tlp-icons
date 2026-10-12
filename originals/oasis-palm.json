@@ -1,0 +1,33 @@
+{
+  "name": "oasis-palm",
+  "category": "maps",
+  "tags": [
+    "oasis",
+    "palm",
+    "desert",
+    "pond",
+    "water",
+    "tree"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 20c0-4 0-7 1-11\"/><path class=\"p2\" d=\"M13 9c-2-3-5-3-8-1m8 1c1-3 4-4 7-2m-7 2c-1 1-2 3-1 5\"/><path class=\"p3\" d=\"M5 21h14\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "bloom",
+      "dur": 700,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 200
+    }
+  ]
+}

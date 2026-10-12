@@ -1,0 +1,34 @@
+{
+  "name": "blue-chip-badge",
+  "category": "finance",
+  "tags": [
+    "blue chip",
+    "badge",
+    "stock",
+    "rising",
+    "investment",
+    "premium",
+    "market"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"7\"/><polyline class=\"p3\" points=\"7.5,12.5 10.5,9.5 13,12 16.5,8.5\"/><path class=\"p2\" d=\"M8.5 15.5 7 21.5l5-2 5 2-1.5-6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 800
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hospital-building",
+  "category": "maps",
+  "tags": ["hospital", "building", "medical", "clinic", "cross", "emergency", "health"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 7v6M9 10h6\"/><path class=\"p3\" d=\"M10 21v-3.5h4V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

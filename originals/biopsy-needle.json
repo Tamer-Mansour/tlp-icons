@@ -1,0 +1,18 @@
+{
+  "name": "biopsy-needle",
+  "category": "health",
+  "tags": [
+    "biopsy",
+    "needle",
+    "tissue",
+    "sample",
+    "core",
+    "pathology"
+  ],
+  "svg": "<path class=\"p1\" d=\"M8 16l8-8\"/><polygon class=\"d p2\" points=\"16,8 18.5,5.5 20.5,7.5 18,10\"/><circle class=\"d p3\" cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

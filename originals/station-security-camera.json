@@ -1,0 +1,20 @@
+{
+  "name": "station-security-camera",
+  "category": "maps",
+  "tags": [
+    "security",
+    "camera",
+    "cctv",
+    "surveillance",
+    "station",
+    "dome",
+    "ceiling"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 3h18\"/><path class=\"p3\" d=\"M12 3v8\"/><path class=\"d p2\" d=\"M5 11a7 7 0 0 0 14 0z\"/><circle class=\"f p4\" cx=\"12\" cy=\"14.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 500 },
+    { "part": "p4", "anim": "blink", "dur": 900, "delay": 1200 }
+  ]
+}

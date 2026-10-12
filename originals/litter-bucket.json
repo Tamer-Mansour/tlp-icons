@@ -1,0 +1,12 @@
+{
+  "name": "litter-bucket",
+  "category": "commerce",
+  "tags": ["litter", "bucket", "scoop", "cleaning", "waste", "pet", "dustpan"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h10l-1.2 11H4.2z\"/><path class=\"p3\" d=\"M5.5 9.5a3.5 3.5 0 0 1 6 0\"/><path class=\"p2\" d=\"M15 9.5h7\"/><path class=\"p4\" d=\"M15.5 9.5v4a3 3 0 0 0 6 0v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 900, "origin": "18.5px 9.5px" }
+  ]
+}

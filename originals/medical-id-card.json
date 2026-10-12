@@ -1,0 +1,19 @@
+{
+  "name": "medical-id-card",
+  "category": "health",
+  "tags": [
+    "medical",
+    "id",
+    "card",
+    "identity",
+    "alert",
+    "insurance",
+    "health"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 6.5v4M5.5 8.5h4M14 8.5h4.5\"/><polyline class=\"p3\" points=\"4.5 16 8 16 9.5 13.8 11.5 18 13 14.8 14.5 16 19.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 800 }
+  ]
+}

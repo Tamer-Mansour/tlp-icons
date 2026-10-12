@@ -1,0 +1,19 @@
+{
+  "name": "crutches-pair",
+  "category": "health",
+  "tags": [
+    "crutches",
+    "mobility",
+    "injury",
+    "walking aid",
+    "support",
+    "recovery",
+    "underarm"
+  ],
+  "svg": "<g class=\"p1\"><path d=\"M7 5 5 21\"/><path d=\"M4 5h6\"/></g><g class=\"p2\"><path d=\"M17 5 19 21\"/><path d=\"M14 5h6\"/></g><path class=\"p3\" d=\"M6 12h3.5M18 12h-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

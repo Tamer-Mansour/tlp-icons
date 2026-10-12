@@ -1,0 +1,18 @@
+{
+  "name": "playground-slide",
+  "category": "maps",
+  "tags": [
+    "playground",
+    "slide",
+    "children",
+    "park",
+    "ladder",
+    "play"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 9h6M4 9v12M8 9v12M4 13h4M4 17h4\"/><path class=\"p2\" d=\"M9 9h2c5 0 8 4 9 12\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

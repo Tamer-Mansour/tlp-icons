@@ -1,0 +1,34 @@
+{
+  "name": "expense-receipt",
+  "category": "finance",
+  "tags": [
+    "expense",
+    "receipt",
+    "bill",
+    "wallet",
+    "spending",
+    "invoice",
+    "purchase"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"11\" height=\"20\" rx=\"1.5\"/><path class=\"p2\" d=\"M7.5 6.5h5M7.5 10h5M7.5 13.5h3\"/><rect class=\"d p3\" x=\"13\" y=\"13\" width=\"8\" height=\"7\" rx=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"16.5\" r=\"1.2\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

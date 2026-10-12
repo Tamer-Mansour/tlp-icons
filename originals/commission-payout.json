@@ -1,0 +1,18 @@
+{
+  "name": "commission-payout",
+  "category": "finance",
+  "tags": [
+    "commission",
+    "payout",
+    "percent",
+    "earnings",
+    "bonus",
+    "rate"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"13\" r=\"6\"/><path class=\"p2\" d=\"M10.5 10.5l-4 5M6.5 10.5h.01M10.5 15.5h.01\"/><path class=\"p3\" d=\"M19 19.5V9.5M16 12.5l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

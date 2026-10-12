@@ -1,0 +1,18 @@
+{
+  "name": "ct-scanner",
+  "category": "health",
+  "tags": [
+    "ct scanner",
+    "scan",
+    "gantry",
+    "imaging",
+    "radiology",
+    "hospital"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"7\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/><g class=\"p3\"><rect x=\"2.5\" y=\"17\" width=\"19\" height=\"2.5\" rx=\"1.2\"/><path d=\"M6 19.5v2.5M18 19.5v2.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 700 }
+  ]
+}

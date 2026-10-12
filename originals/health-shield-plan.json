@@ -1,0 +1,11 @@
+{
+  "name": "health-shield-plan",
+  "category": "health",
+  "tags": ["health plan", "insurance", "shield", "heart", "medical cover", "protection"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 20 5.5v6c0 5-3.5 8.3-8 10-4.5-1.7-8-5-8-10v-6z\"/><path class=\"p2\" d=\"M12 11.8 9.6 9.4A1.7 1.7 0 0 1 12 7a1.7 1.7 0 0 1 2.4 2.4z\"/><path class=\"p3\" d=\"M12 14.4v3.6M10.2 16.2h3.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 }
+  ]
+}

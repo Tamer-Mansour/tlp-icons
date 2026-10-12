@@ -1,0 +1,10 @@
+{
+  "name": "patient-gown",
+  "category": "health",
+  "tags": ["gown", "hospital", "patient", "robe", "open back", "ward", "medical"],
+  "svg": "<path class=\"d p1\" d=\"M8 3.5 4 6v15h16V6l-4-2.5c-.8 1.5-2.2 2.5-4 2.5S8.8 5 8 3.5z\"/><path class=\"p2\" d=\"M4 12l-1.5 1.5M20 12l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 600 }
+  ]
+}

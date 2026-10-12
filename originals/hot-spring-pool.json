@@ -1,0 +1,10 @@
+{
+  "name": "hot-spring-pool",
+  "category": "maps",
+  "tags": ["hot spring", "steam", "onsen", "pool", "spa", "thermal"],
+  "svg": "<path class=\"d p1\" d=\"M3 14q2.25-1.5 4.5 0t4.5 0 4.5 0 4.5 0v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"/><g class=\"p2\"><path d=\"M8 10.5c-1.2-1.5 1.2-2.5 0-4.5\"/><path d=\"M12 10.5c-1.2-1.5 1.2-2.5 0-5\"/><path d=\"M16 10.5c-1.2-1.5 1.2-2.5 0-4.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 }
+  ]
+}

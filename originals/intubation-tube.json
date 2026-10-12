@@ -1,0 +1,28 @@
+{
+    "name":  "intubation-tube",
+    "category":  "health",
+    "tags":  [
+                 "intubation",
+                 "airway",
+                 "breathing tube",
+                 "endotracheal",
+                 "cuff",
+                 "respiratory",
+                 "emergency"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M4 3v7a7 7 0 0 0 7 7h9\"/\u003e\u003crect class=\"d p2\" x=\"13\" y=\"13\" width=\"5\" height=\"8\" rx=\"2.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  700
+                   }
+               ]
+}

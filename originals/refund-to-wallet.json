@@ -1,0 +1,11 @@
+{
+  "name": "refund-to-wallet",
+  "category": "commerce",
+  "tags": ["refund", "wallet", "money", "return", "credit", "arrow", "payback"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"11\" rx=\"2\"/><rect class=\"p2\" x=\"15\" y=\"13.5\" width=\"5\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M12 2.5v8M8.5 7.5 12 11l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

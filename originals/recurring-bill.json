@@ -1,0 +1,11 @@
+{
+  "name": "recurring-bill",
+  "category": "finance",
+  "tags": ["bill", "recurring", "receipt", "subscription", "repeat", "payment"],
+  "svg": "<path class=\"d p1\" d=\"M3 2.5h10v19l-2.5-1.5L8 21.5l-2.5-1.5L3 21.5z\"/><path class=\"p2\" d=\"M6 7h4M6 11h4M6 15h2\"/><path class=\"p3\" d=\"M15.5 17A3 3 0 0 1 21 15.5M21 13v2.5h-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900, "origin": "18.5px 17px" }
+  ]
+}

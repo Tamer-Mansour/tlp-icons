@@ -1,0 +1,34 @@
+{
+  "name": "transaction-search-magnifier",
+  "category": "finance",
+  "tags": [
+    "transaction",
+    "search",
+    "magnifier",
+    "ledger",
+    "audit",
+    "lookup",
+    "records"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p3\" d=\"M7 8h6M7 12h4\"/><path class=\"p2\" d=\"M14.5 14.5 20 20\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 500
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

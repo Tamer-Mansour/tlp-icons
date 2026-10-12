@@ -1,0 +1,33 @@
+{
+    "name":  "adjuster-hardhat",
+    "category":  "finance",
+    "tags":  [
+                 "hard hat",
+                 "adjuster",
+                 "inspection",
+                 "claims",
+                 "clipboard",
+                 "insurance"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 16a7 7 0 0 1 14 0z\"/\u003e\u003cpath class=\"p2\" d=\"M12 9v7\"/\u003e\u003crect class=\"p3\" x=\"3\" y=\"16\" width=\"18\" height=\"3\" rx=\"1.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "riseIn",
+                       "dur":  600,
+                       "delay":  600
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "boat-launch-ramp",
+  "category": "maps",
+  "tags": ["boat", "launch", "ramp", "slipway", "marina", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 4.5 12.5 14v3L3 7.5z\"/><path class=\"p2\" d=\"M2 20q2.5-2 5 0t5 0t5 0t5 0\"/><g class=\"p3\"><path class=\"d\" d=\"M14.5 14.5h6.5l-1.2 2.5h-4.1z\"/><path d=\"M17.7 14.5V7\"/><path d=\"M17.7 7.5l3.5 7h-3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 900, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "airport-shuttle",
+  "category": "maps",
+  "tags": ["airport", "shuttle", "van", "transfer", "minibus", "ride"],
+  "svg": "<path class=\"d p1\" d=\"M2 17V7a1 1 0 0 1 1-1h11l6 6v5z\"/><path class=\"p2\" d=\"M14 6v6h6\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"16\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

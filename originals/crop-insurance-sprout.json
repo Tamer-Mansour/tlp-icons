@@ -1,0 +1,18 @@
+{
+  "name": "crop-insurance-sprout",
+  "category": "finance",
+  "tags": [
+    "crop",
+    "insurance",
+    "sprout",
+    "farm",
+    "shield",
+    "harvest"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 3l7 3v6c0 4.5-3.2 7.8-7 9-3.8-1.2-7-4.5-7-9V6z\"/><path class=\"p2\" d=\"M12 18v-7\"/><path class=\"p3\" d=\"M12 12c0-3-2-5-5-5 0 3 2 5 5 5zM12 12c0-3 2-5 5-5 0 3-2 5-5 5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 800, "origin": "12px 12px" }
+  ]
+}

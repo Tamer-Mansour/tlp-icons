@@ -1,0 +1,13 @@
+{
+  "name": "property-valuation-tag",
+  "category": "finance",
+  "tags": ["property", "valuation", "house", "appraisal", "price", "estate", "value"],
+  "svg": "<path class=\"p1\" d=\"M2 11l5.5-5.5L13 11\"/><path class=\"d p2\" d=\"M4 9V20h8V9z\"/><path class=\"d p3\" d=\"M15.5 14h4l2.5 3-2.5 3h-4z\"/><path class=\"p4\" d=\"M13 11l2.5 3\"/><circle class=\"f p5\" cx=\"17.5\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 700, "origin": "13px 11px" },
+    { "part": "p5", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

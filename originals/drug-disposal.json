@@ -1,0 +1,11 @@
+{
+  "name": "drug-disposal",
+  "category": "health",
+  "tags": ["drug", "disposal", "medicine", "dispose", "pill", "box", "return", "pharmacy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"18\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M15 2v7M12.5 6.5 15 9l2.5-2.5\"/><rect class=\"p3\" x=\"3\" y=\"2.5\" width=\"8\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 800 }
+  ]
+}

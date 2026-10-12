@@ -1,0 +1,20 @@
+{
+  "name": "antiseptic-spray",
+  "category": "health",
+  "tags": [
+    "antiseptic",
+    "spray",
+    "disinfectant",
+    "bottle",
+    "cross",
+    "clean",
+    "mist"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"10\" width=\"10\" height=\"11\" rx=\"2.5\"/><path class=\"p2\" d=\"M8 10V8h5v2M10.5 8V5h3.5\"/><path class=\"p3\" d=\"M10 13.5v4M8 15.5h4\"/><path class=\"p4\" d=\"M17.5 6.5c1.2 1.2 1.2 2.8 0 4M21 4.5c1.2 1.6 1.2 4.4 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 700, "delay": 1100 }
+  ]
+}

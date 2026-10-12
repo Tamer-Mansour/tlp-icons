@@ -1,0 +1,18 @@
+{
+  "name": "weighted-blanket",
+  "category": "health",
+  "tags": [
+    "weighted blanket",
+    "blanket",
+    "sleep",
+    "pressure",
+    "calm",
+    "bedding"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M3 12h18\"/><path class=\"p3\" d=\"M9 4v16M15 4v16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 700, "delay": 500 }
+  ]
+}

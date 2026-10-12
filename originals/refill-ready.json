@@ -1,0 +1,11 @@
+{
+  "name": "refill-ready",
+  "category": "health",
+  "tags": ["refill", "pill", "bottle", "bell", "prescription", "reminder", "notification"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"10\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"2.5\" y=\"4\" width=\"10\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 14h10\"/><path class=\"p3\" d=\"M16 12V8.5a2.5 2.5 0 0 1 5 0V12l1 1.5h-7zM17.5 16a1.5 1.5 0 0 0 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "top" }
+  ]
+}

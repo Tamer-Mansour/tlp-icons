@@ -1,0 +1,40 @@
+{
+  "name": "receive-money",
+  "category": "finance",
+  "tags": [
+    "receive",
+    "money",
+    "payment",
+    "deposit",
+    "incoming",
+    "transfer",
+    "person"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M2.5 21v-1.5a4 4 0 0 1 4-4h1.5a4 4 0 0 1 4 4V21\"/><g class=\"p3\"><path d=\"M18 2v9\"/><path d=\"M15 8l3 3 3-3\"/></g><circle class=\"d p4\" cx=\"18\" cy=\"17.5\" r=\"3.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 700,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "rollIn",
+      "dur": 800,
+      "delay": 1000
+    }
+  ]
+}

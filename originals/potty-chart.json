@@ -1,0 +1,11 @@
+{
+  "name": "potty-chart",
+  "category": "health",
+  "tags": ["potty", "chart", "toddler", "toilet", "training", "stars", "sticker", "reward"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3 12h18M12 3v9\"/><g class=\"p3\"><polygon points=\"7.5 5.3 8.05 6.74 9.59 6.82 8.4 7.79 8.8 9.28 7.5 8.44 6.2 9.28 6.6 7.79 5.41 6.82 6.95 6.74\"/><polygon points=\"16.5 5.3 17.05 6.74 18.59 6.82 17.4 7.79 17.8 9.28 16.5 8.44 15.2 9.28 15.6 7.79 14.41 6.82 15.95 6.74\"/><polygon points=\"12 14.8 12.55 16.24 14.09 16.32 12.9 17.29 13.3 18.78 12 17.94 10.7 18.78 11.1 17.29 9.91 16.32 11.45 16.24\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

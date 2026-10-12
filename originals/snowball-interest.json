@@ -1,0 +1,34 @@
+{
+    "name":  "snowball-interest",
+    "category":  "finance",
+    "tags":  [
+                 "snowball",
+                 "interest",
+                 "compound",
+                 "growth",
+                 "debt",
+                 "savings",
+                 "rolling"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"14\" cy=\"13\" r=\"6\"/\u003e\u003cpath class=\"p2\" d=\"M3 8h4M2 12h3\"/\u003e\u003cpath class=\"p3\" d=\"M3 21h18\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  150
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  500
+                   }
+               ]
+}

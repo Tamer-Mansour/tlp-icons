@@ -1,0 +1,11 @@
+{
+  "name": "specimen-label",
+  "category": "health",
+  "tags": ["specimen", "label", "tube", "barcode", "sample", "lab", "test"],
+  "svg": "<g class=\"p1\"><path d=\"M9 3h6\"/><path d=\"M10 3v14.5a2 2 0 0 0 4 0V3\"/></g><rect class=\"d p2\" x=\"7\" y=\"8\" width=\"10\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M10 10.5v3M14 10.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

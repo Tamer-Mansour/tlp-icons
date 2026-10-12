@@ -1,0 +1,33 @@
+{
+  "name": "rx-transfer",
+  "category": "health",
+  "tags": [
+    "prescription",
+    "transfer",
+    "pharmacy",
+    "pill bottle",
+    "refill",
+    "medication"
+  ],
+  "svg": "<g class=\"p1\"><rect class=\"d\" x=\"2.5\" y=\"11\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect x=\"3.5\" y=\"7\" width=\"5\" height=\"2.5\" rx=\"1\"/></g><g class=\"p2\"><rect class=\"d\" x=\"14.5\" y=\"11\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect x=\"15.5\" y=\"7\" width=\"5\" height=\"2.5\" rx=\"1\"/></g><g class=\"p3\"><path d=\"M6 6Q12 0 18 6\"/><path d=\"M16 4.5 18 6.5 20 4.5\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 700
+    }
+  ]
+}

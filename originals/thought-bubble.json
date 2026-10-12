@@ -1,0 +1,12 @@
+{
+  "name": "thought-bubble",
+  "category": "health",
+  "tags": ["thought", "bubble", "cloud", "thinking", "idea", "dots", "mind"],
+  "svg": "<path class=\"d p1\" d=\"M7 14.5h9.5a4 4 0 0 0 .6-7.95A6 6 0 0 0 6 7.6 4.5 4.5 0 0 0 7 14.5z\"/><circle class=\"p2\" cx=\"9.5\" cy=\"17.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"6.5\" cy=\"19.9\" r=\"1\"/><circle class=\"p4\" cx=\"4.5\" cy=\"20.8\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 750 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

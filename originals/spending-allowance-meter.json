@@ -1,0 +1,11 @@
+{
+  "name": "spending-allowance-meter",
+  "category": "finance",
+  "tags": ["spending", "allowance", "meter", "limit", "budget", "gauge"],
+  "svg": "<path class=\"d p1\" d=\"M3 16a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 16 15.5 9.9\"/><path class=\"p3\" d=\"M17.6 14 20.5 12.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

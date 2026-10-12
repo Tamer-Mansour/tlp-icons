@@ -1,0 +1,28 @@
+{
+  "name": "cycle-phase-moon",
+  "category": "health",
+  "tags": [
+    "cycle",
+    "moon",
+    "phase",
+    "menstrual",
+    "fertility",
+    "calendar",
+    "lunar"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M18 11a6 6 0 1 1-6.5-7.5 4.5 4.5 0 0 0 6.5 7.5z\"/><g class=\"p2\"><circle cx=\"5\" cy=\"19\" r=\"2\"/><circle cx=\"12\" cy=\"19\" r=\"2\"/><path class=\"d\" d=\"M12 17a2 2 0 0 1 0 4z\"/><circle class=\"d\" cx=\"19\" cy=\"19\" r=\"2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 400
+    }
+  ]
+}

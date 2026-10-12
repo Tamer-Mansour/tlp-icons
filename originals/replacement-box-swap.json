@@ -1,0 +1,11 @@
+{
+  "name": "replacement-box-swap",
+  "category": "commerce",
+  "tags": ["replacement", "swap", "exchange", "return", "box", "refund", "new item"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1.5\"/><g class=\"p2\"><path d=\"M5 9.5a7.5 7.5 0 0 1 14-1.5\"/><path d=\"M19 4.5V8h-3.5\"/></g><g class=\"p3\"><path d=\"M19 14.5a7.5 7.5 0 0 1-14 1.5\"/><path d=\"M5 19.5V16h3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

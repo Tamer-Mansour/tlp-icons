@@ -1,0 +1,18 @@
+{
+  "name": "nasogastric-tube",
+  "category": "health",
+  "tags": [
+    "nasogastric",
+    "feeding tube",
+    "stomach",
+    "tube",
+    "medical",
+    "nasal"
+  ],
+  "svg": "<ellipse class=\"d p1\" cx=\"16\" cy=\"13\" rx=\"5\" ry=\"6\"/><path class=\"p2\" d=\"M6 2v8.5a4 4 0 0 0 4 4h1.5\"/><path class=\"p3\" d=\"M3 2h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

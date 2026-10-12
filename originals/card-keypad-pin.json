@@ -1,0 +1,28 @@
+{
+  "name": "card-keypad-pin",
+  "category": "finance",
+  "tags": [
+    "card",
+    "keypad",
+    "pin",
+    "secure",
+    "payment",
+    "code",
+    "entry"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M7 12h.01M11 12h.01M15 12h.01M19 12h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 600
+    }
+  ]
+}

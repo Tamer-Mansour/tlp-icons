@@ -1,0 +1,34 @@
+{
+  "name": "seat-assignment",
+  "category": "maps",
+  "tags": [
+    "seat",
+    "assignment",
+    "airplane",
+    "flight",
+    "number",
+    "boarding",
+    "travel"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"16\" width=\"14\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M10 8l1.5 1.5L14 6.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

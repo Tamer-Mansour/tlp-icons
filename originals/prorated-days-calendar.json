@@ -1,0 +1,33 @@
+{
+  "name": "prorated-days-calendar",
+  "category": "finance",
+  "tags": [
+    "prorated",
+    "calendar",
+    "days",
+    "partial",
+    "proration",
+    "period"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4.5\" width=\"18\" height=\"17.5\" rx=\"2\"/><path class=\"p2\" d=\"M3 9.5h18M8 3v3M16 3v3\"/><rect class=\"d p3\" x=\"6.5\" y=\"13\" width=\"7\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 700
+    }
+  ]
+}

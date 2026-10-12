@@ -1,0 +1,18 @@
+{
+  "name": "tidal-pool",
+  "category": "maps",
+  "tags": [
+    "tidal",
+    "pool",
+    "rock pool",
+    "starfish",
+    "sea",
+    "beach",
+    "tide"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 8C3 16.5 7 20.5 12 20.5S21 16.5 21 8z\"/><polygon class=\"d p2\" points=\"12,10.8 13.1,13.5 16,13.7 13.8,15.6 14.5,18.4 12,16.9 9.5,18.4 10.2,15.6 8,13.7 10.9,13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500, "origin": "12px 15px" }
+  ]
+}

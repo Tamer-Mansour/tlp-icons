@@ -1,0 +1,11 @@
+{
+  "name": "platform-bench",
+  "category": "maps",
+  "tags": ["bench", "platform", "station", "sign", "train", "seat", "waiting"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 15v5M19 15v5\"/><g class=\"p3\"><rect x=\"6\" y=\"3\" width=\"12\" height=\"4\" rx=\"1\"/><path d=\"M12 7v5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 700 }
+  ]
+}

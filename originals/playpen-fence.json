@@ -1,0 +1,10 @@
+{
+  "name": "playpen-fence",
+  "category": "health",
+  "tags": ["playpen", "fence", "baby", "playground", "mesh", "crib", "toddler"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v16H4z\"/><path class=\"p2\" d=\"M9 4v16M15 4v16M4 9h16M4 15h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

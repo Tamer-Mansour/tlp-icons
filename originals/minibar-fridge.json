@@ -1,0 +1,19 @@
+{
+  "name": "minibar-fridge",
+  "category": "maps",
+  "tags": [
+    "minibar",
+    "fridge",
+    "hotel",
+    "bottles",
+    "drinks",
+    "lock"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M4 12.5h16\"/><g class=\"p4\"><rect x=\"7\" y=\"15\" width=\"3\" height=\"4\" rx=\"1\"/><rect x=\"13\" y=\"15\" width=\"3\" height=\"4\" rx=\"1\"/></g><path class=\"p3\" d=\"M10 6V5a2 2 0 0 1 4 0v1\"/><rect class=\"p3\" x=\"8.5\" y=\"6\" width=\"7\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "riseIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

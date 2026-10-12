@@ -1,0 +1,11 @@
+{
+  "name": "oak-leaf-park",
+  "category": "maps",
+  "tags": ["oak", "tree", "park", "leaf", "forest", "nature", "green"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5Q15.5 2 16.5 5Q20.5 5.5 20.5 9.5Q21 13.5 17.5 13.5Q16 16.5 12 16Q8 16.5 6.5 13.5Q3 13.5 3.5 9.5Q3.5 5.5 7.5 5Q8.5 2 12 2.5Z\"/><path class=\"p2\" d=\"M12 16v5\"/><path class=\"p3\" d=\"M7 21h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "top" },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

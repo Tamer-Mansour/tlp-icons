@@ -1,0 +1,19 @@
+{
+  "name": "book-price-sticker",
+  "category": "commerce",
+  "tags": [
+    "book",
+    "price",
+    "sticker",
+    "discount",
+    "sale",
+    "bookstore",
+    "label"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15\" width=\"16\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"5\" y=\"8.5\" width=\"13\" height=\"5\" rx=\"1\"/><circle class=\"d p3\" cx=\"19\" cy=\"4.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

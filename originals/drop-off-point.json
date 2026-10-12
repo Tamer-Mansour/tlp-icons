@@ -1,0 +1,29 @@
+{
+    "name":  "drop-off-point",
+    "category":  "commerce",
+    "tags":  [
+                 "drop",
+                 "off",
+                 "point",
+                 "kiosk",
+                 "parcel",
+                 "return",
+                 "locker",
+                 "pickup"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z\"/\u003e\u003cpath class=\"p2\" d=\"M12 6.5v6M9 10l3 3 3-3\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "dropIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  600,
+                       "anim":  "nod",
+                       "part":  "p2",
+                       "dur":  800
+                   }
+               ]
+}

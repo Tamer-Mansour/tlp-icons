@@ -1,0 +1,11 @@
+{
+  "name": "barcode-scanner-gun",
+  "category": "commerce",
+  "tags": ["barcode", "scanner", "scan", "gun", "retail", "checkout", "pos", "product"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"8\" height=\"5\" rx=\"1.5\"/><path class=\"p1\" d=\"M5.5 10v8h4v-8\"/><path class=\"p2\" d=\"M11.5 5.5l2.5-1.5M11.5 7.5h3M11.5 9.5l2.5 1.5\"/><path class=\"p3\" d=\"M15 4v9M18 4v9M21 4v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

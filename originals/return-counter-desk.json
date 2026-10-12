@@ -1,0 +1,19 @@
+{
+  "name": "return-counter-desk",
+  "category": "commerce",
+  "tags": [
+    "return",
+    "counter",
+    "desk",
+    "service",
+    "customer",
+    "exchange",
+    "refund"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"9\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"6.5\" width=\"10\" height=\"5.5\" rx=\"1\"/><path class=\"p2\" d=\"M12 6.5v5.5\"/><path class=\"p3\" d=\"M3 16.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

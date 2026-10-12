@@ -1,0 +1,11 @@
+{
+  "name": "chairlift-ride",
+  "category": "maps",
+  "tags": ["chairlift", "ski", "lift", "cable", "ride", "mountain"],
+  "svg": "<path class=\"p1\" d=\"M2 5h20\"/><path class=\"p2\" d=\"M12 5v4M8.5 11V9h7v2\"/><path class=\"d p3\" d=\"M5 13h14v2a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

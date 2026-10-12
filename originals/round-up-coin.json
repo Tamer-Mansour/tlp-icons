@@ -1,0 +1,11 @@
+{
+  "name": "round-up-coin",
+  "category": "commerce",
+  "tags": ["round up", "coin", "heart", "charity", "donate", "spare change", "savings"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M8 17v-6M5.5 13.5 8 11l2.5 2.5\"/><path class=\"d p3\" d=\"M17 9 13.8 5.8C12.6 4.6 13.2 2.5 15 2.5c1 0 1.6.5 2 1.1.4-.6 1-1.1 2-1.1 1.8 0 2.4 2.1 1.2 3.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "beat", "dur": 900, "delay": 900 }
+  ]
+}

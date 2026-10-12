@@ -1,0 +1,28 @@
+{
+  "name": "surfboard-wave",
+  "category": "maps",
+  "tags": [
+    "surfboard",
+    "surf",
+    "wave",
+    "ocean",
+    "beach",
+    "sport",
+    "travel"
+  ],
+  "svg": "<g class=\"p1\" transform=\"rotate(25 12 10)\"><rect class=\"d\" x=\"8.5\" y=\"2\" width=\"6\" height=\"16\" rx=\"3\"/><path d=\"M11.5 5v11\"/></g><path class=\"p2\" d=\"M2 20c2.5-2 5-2 7.5 0s5 2 7.5 0s3-1 4.5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    }
+  ]
+}

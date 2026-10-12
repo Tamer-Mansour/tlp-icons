@@ -1,0 +1,33 @@
+{
+  "name": "map-layers-stack",
+  "category": "maps",
+  "tags": [
+    "map",
+    "layers",
+    "stack",
+    "gis",
+    "overlay",
+    "diamond"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 3l9 4.5-9 4.5-9-4.5z\"/><path class=\"p2\" d=\"M3 12.5l9 4.5 9-4.5\"/><path class=\"p3\" d=\"M3 17l9 4.5 9-4.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

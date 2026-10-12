@@ -1,0 +1,18 @@
+{
+  "name": "isolation-door-sign",
+  "category": "health",
+  "tags": [
+    "isolation",
+    "door",
+    "sign",
+    "warning",
+    "infection",
+    "quarantine"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><g class=\"p2\"><path d=\"M12 5.5 16.5 13h-9z\"/><path d=\"M12 8.5v2.5M12 11.8h.01\"/></g><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

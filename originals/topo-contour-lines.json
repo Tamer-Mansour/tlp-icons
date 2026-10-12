@@ -1,0 +1,19 @@
+{
+  "name": "topo-contour-lines",
+  "category": "maps",
+  "tags": [
+    "topography",
+    "contour",
+    "elevation",
+    "terrain",
+    "altitude",
+    "hiking",
+    "survey"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 12C3 7 7 4 12 4s9 3 9 8-3 9-9 9S3 17 3 12z\"/><path class=\"p2\" d=\"M7.5 12c0-2.5 1.5-4.5 4.5-4.5 2.5 0 4.5 1.5 4.5 4.5s-2 4-4.5 3.5-4.5-1-4.5-3.5z\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

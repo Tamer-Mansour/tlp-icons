@@ -1,0 +1,10 @@
+{
+  "name": "refund-processing-spin",
+  "category": "commerce",
+  "tags": ["refund", "processing", "money back", "return", "coin", "spin", "loading"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3.5\"/><g class=\"p2\"><path d=\"M4.48 9.26A8 8 0 0 1 18.93 8\"/><path d=\"M18.93 4.6v3.4h-3.4\"/><path d=\"M19.52 14.74A8 8 0 0 1 5.07 16\"/><path d=\"M5.07 19.4v-3.4h3.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 300 }
+  ]
+}

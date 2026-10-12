@@ -1,0 +1,33 @@
+{
+    "name":  "tmj-jaw",
+    "category":  "health",
+    "tags":  [
+                 "tmj",
+                 "jaw",
+                 "joint",
+                 "pain",
+                 "dental",
+                 "mandible"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"6\" cy=\"6\" r=\"2.5\"/\u003e\u003cpath class=\"p2\" d=\"M6 11v3c0 3 2.5 5 5.5 5H20\"/\u003e\u003cpath class=\"p3\" d=\"M14 3l-2 4h4l-2 4\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  200,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  900
+                   },
+                   {
+                       "delay":  900,
+                       "anim":  "flicker",
+                       "part":  "p3",
+                       "dur":  900
+                   }
+               ]
+}

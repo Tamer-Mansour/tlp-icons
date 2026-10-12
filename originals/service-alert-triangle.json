@@ -1,0 +1,11 @@
+{
+  "name": "service-alert-triangle",
+  "category": "maps",
+  "tags": ["alert", "warning", "train", "service", "delay", "disruption", "transit"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 22 20H2z\"/><path class=\"p2\" d=\"M12 9.5v5\"/><path class=\"p3\" d=\"M12 17.2h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

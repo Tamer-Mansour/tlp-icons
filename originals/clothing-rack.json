@@ -1,0 +1,12 @@
+{
+  "name": "clothing-rack",
+  "category": "commerce",
+  "tags": ["clothing", "rack", "rail", "hangers", "garments", "wardrobe", "retail"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><path class=\"p2\" d=\"M6 4v2M12 4v2M18 4v2\"/><path class=\"p3\" d=\"M4 8.5 6 6.5l2 2V15H4zM10 8.5l2-2 2 2V15h-4zM16 8.5l2-2 2 2V15h-4z\"/><path class=\"p4\" d=\"M3 18h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

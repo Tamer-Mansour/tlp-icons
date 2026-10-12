@@ -1,0 +1,40 @@
+{
+  "name": "card-top-up-machine",
+  "category": "maps",
+  "tags": [
+    "card",
+    "top",
+    "up",
+    "machine",
+    "kiosk",
+    "transit",
+    "recharge"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"4.5\" width=\"7\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 13h6\"/><path class=\"p4\" d=\"M12 15.5v4M10 17.5h4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "fadeIn",
+      "dur": 600,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 500
+    },
+    {
+      "part": "p4",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

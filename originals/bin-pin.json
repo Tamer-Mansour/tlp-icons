@@ -1,0 +1,11 @@
+{
+  "name": "bin-pin",
+  "category": "commerce",
+  "tags": ["bin", "storage", "pin", "location", "warehouse", "shelf", "box"],
+  "svg": "<rect class=\"p2\" x=\"1.5\" y=\"8\" width=\"11\" height=\"3\" rx=\"1\"/><path class=\"d p1\" d=\"M3 11v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-8\"/><path class=\"p3\" d=\"M19 12.5s-3.5-3.6-3.5-6a3.5 3.5 0 0 1 7 0c0 2.4-3.5 6-3.5 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 600 }
+  ]
+}

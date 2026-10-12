@@ -1,0 +1,33 @@
+{
+    "name":  "travel-plug-adapter",
+    "category":  "maps",
+    "tags":  [
+                 "travel",
+                 "plug",
+                 "adapter",
+                 "power",
+                 "socket",
+                 "international"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"7\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M9.5 9V3M14.5 9V3\"/\u003e\u003cpath class=\"p3\" d=\"M12 16v5\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  800,
+                       "anim":  "draw",
+                       "part":  "p3",
+                       "dur":  500
+                   }
+               ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "currency-exchange-arrows",
+  "category": "finance",
+  "tags": [
+    "currency",
+    "exchange",
+    "forex",
+    "coins",
+    "convert",
+    "money"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"4.5\"/><circle class=\"d p2\" cx=\"16\" cy=\"16\" r=\"4.5\"/><path class=\"p3\" d=\"M14 5h7M18 2l3 3-3 3\"/><path class=\"p4\" d=\"M10 19H3M6 16l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900, "origin": "left" },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 1200, "origin": "right" }
+  ]
+}

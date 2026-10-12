@@ -1,0 +1,28 @@
+{
+    "name":  "pharmacy-counter",
+    "category":  "health",
+    "tags":  [
+                 "pharmacy",
+                 "counter",
+                 "bell",
+                 "mortar",
+                 "chemist",
+                 "drugstore",
+                 "service"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 15h18v6H3z\"/\u003e\u003cpath class=\"p2\" d=\"M12 3v8M8 7h8\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  600,
+                       "delay":  500
+                   }
+               ]
+}

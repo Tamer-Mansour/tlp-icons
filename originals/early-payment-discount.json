@@ -1,0 +1,33 @@
+{
+  "name": "early-payment-discount",
+  "category": "finance",
+  "tags": [
+    "early",
+    "payment",
+    "discount",
+    "percent",
+    "coin",
+    "savings"
+  ],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"10\" r=\"7\"/><g class=\"p2\"><circle cx=\"7.5\" cy=\"8.5\" r=\"1.2\"/><circle cx=\"10.5\" cy=\"12.5\" r=\"1.2\"/><path d=\"M11 7.5l-4 6\"/></g><path class=\"p3\" d=\"M18 13v8M15 18l3 3 3-3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "sink",
+      "dur": 900,
+      "delay": 700
+    }
+  ]
+}

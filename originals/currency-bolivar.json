@@ -1,0 +1,11 @@
+{
+  "name": "currency-bolivar",
+  "category": "finance",
+  "tags": ["bolivar", "venezuela", "currency", "money", "coin", "exchange", "bs"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 16v-4.5a3 3 0 0 1 6 0V16\"/><path class=\"p3\" d=\"M7.5 13h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 750 }
+  ]
+}

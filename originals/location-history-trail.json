@@ -1,0 +1,11 @@
+{
+  "name": "location-history-trail",
+  "category": "maps",
+  "tags": ["history", "trail", "route", "path", "pin", "location", "timeline"],
+  "svg": "<g class=\"p3\"><circle class=\"f\" cx=\"4.5\" cy=\"19.5\" r=\"1.5\"/><circle class=\"f\" cx=\"8\" cy=\"17\" r=\"1.5\"/><circle class=\"f\" cx=\"11.5\" cy=\"14.5\" r=\"1.5\"/></g><path class=\"d p1\" d=\"M17 4a4.5 4.5 0 0 1 4.5 4.5c0 3.4-4.5 8.5-4.5 8.5S12.5 11.9 12.5 8.5A4.5 4.5 0 0 1 17 4z\"/><circle class=\"p2\" cx=\"17\" cy=\"8.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

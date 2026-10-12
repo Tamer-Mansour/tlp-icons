@@ -1,0 +1,33 @@
+{
+  "name": "toll-booth-gate",
+  "category": "maps",
+  "tags": [
+    "toll",
+    "booth",
+    "gate",
+    "barrier",
+    "road",
+    "fee"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"6\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M9 12h12\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "swing",
+      "dur": 900,
+      "delay": 600
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "departure-board",
+  "category": "maps",
+  "tags": [
+    "departure",
+    "board",
+    "flights",
+    "schedule",
+    "timetable",
+    "airport",
+    "clock"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 7h7M5 11h5M5 15h7\"/><g class=\"p3\"><circle cx=\"17\" cy=\"10\" r=\"2.5\"/><path d=\"M17 8.5V10h1.5\"/></g><path class=\"p4\" d=\"M8 17v4M16 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

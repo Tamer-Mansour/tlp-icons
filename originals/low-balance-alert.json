@@ -1,0 +1,33 @@
+{
+    "name":  "low-balance-alert",
+    "category":  "finance",
+    "tags":  [
+                 "wallet",
+                 "balance",
+                 "low",
+                 "empty",
+                 "funds",
+                 "warning"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"11\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M15 14.5h3\"/\u003e\u003cg class=\"p3\"\u003e\u003ccircle cx=\"18\" cy=\"5\" r=\"3\"/\u003e\u003cpath d=\"M18 4v1.2\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "wiggle",
+                       "dur":  800,
+                       "delay":  800
+                   }
+               ]
+}

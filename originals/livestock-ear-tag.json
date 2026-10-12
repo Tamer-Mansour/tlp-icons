@@ -1,0 +1,18 @@
+{
+  "name": "livestock-ear-tag",
+  "category": "finance",
+  "tags": [
+    "livestock",
+    "cow",
+    "ear tag",
+    "farm",
+    "cattle",
+    "identification"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M7 8.5C7 5.9 9.2 4.5 12 4.5s5 1.4 5 4V15a5 5 0 0 1-10 0z\"/><rect class=\"p2\" x=\"9\" y=\"13\" width=\"6\" height=\"4\" rx=\"2\"/><g class=\"p3\"><path d=\"M8.5 6.2 6.8 4.2M15.5 6.2 17.2 4.2M7 9H4.5M17 9h2.5\"/><circle cx=\"4.5\" cy=\"12\" r=\"1.6\"/><path d=\"M4.5 9v1.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pendulum", "dur": 1200, "delay": 900, "origin": "4.5px 9px" }
+  ]
+}

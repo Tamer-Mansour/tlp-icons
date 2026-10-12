@@ -1,0 +1,33 @@
+{
+    "name":  "missed-delivery",
+    "category":  "commerce",
+    "tags":  [
+                 "missed delivery",
+                 "parcel",
+                 "house",
+                 "not home",
+                 "shipping",
+                 "failed delivery"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 10v11h14V10\"/\u003e\u003cpath class=\"p2\" d=\"M3 11l9-8 9 8\"/\u003e\u003cpath class=\"p3\" d=\"M9.5 13.5l5 5M14.5 13.5l-5 5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

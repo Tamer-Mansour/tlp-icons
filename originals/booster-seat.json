@@ -1,0 +1,33 @@
+{
+  "name": "booster-seat",
+  "category": "health",
+  "tags": [
+    "booster",
+    "child seat",
+    "car seat",
+    "kids",
+    "raised back",
+    "safety"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"13\" width=\"18\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M7 17v3M17 17v3M4 21h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 250
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 600
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "clothing-hanger-tag",
+  "category": "commerce",
+  "tags": ["clothing", "hanger", "price", "tag", "fashion", "apparel"],
+  "svg": "<path class=\"d p1\" d=\"M3 12.5 12 6.5l9 6z\"/><path class=\"p2\" d=\"M10.5 4.5a1.5 1.5 0 1 1 1.5 1.5v1.5\"/><g class=\"p3\"><rect class=\"d\" x=\"12.5\" y=\"15.5\" width=\"8\" height=\"5.5\" rx=\"1.5\"/><circle class=\"f\" cx=\"15.5\" cy=\"18.25\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swingIn", "dur": 800, "delay": 800, "origin": "16.5px 13px" }
+  ]
+}

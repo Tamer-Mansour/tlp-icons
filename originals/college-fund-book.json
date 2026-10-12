@@ -1,0 +1,33 @@
+{
+    "name":  "college-fund-book",
+    "category":  "finance",
+    "tags":  [
+                 "college",
+                 "fund",
+                 "book",
+                 "savings",
+                 "education",
+                 "coin"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M12 4 2 9l10 5 10-5z\"/\u003e\u003cpath class=\"p2\" d=\"M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5\"/\u003e\u003cpath class=\"p3\" d=\"M22 9v6\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "swing",
+                       "dur":  800,
+                       "delay":  900
+                   }
+               ]
+}

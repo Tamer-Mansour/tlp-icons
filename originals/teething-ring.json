@@ -1,0 +1,12 @@
+{
+  "name": "teething-ring",
+  "category": "health",
+  "tags": ["teething", "ring", "baby", "infant", "gum", "chew", "toy"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"6.5\"/><circle class=\"p2\" cx=\"11\" cy=\"13\" r=\"2.5\"/><path class=\"p3\" d=\"M11 6.5V4M4.5 13H2.5M11 19.5v2\"/><g class=\"p4\"><path d=\"M15.6 8.4l2.2-2.2\"/><circle cx=\"19.6\" cy=\"4.4\" r=\"1.8\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "15.6px 8.4px" }
+  ]
+}

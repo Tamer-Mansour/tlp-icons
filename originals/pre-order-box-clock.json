@@ -1,0 +1,18 @@
+{
+  "name": "pre-order-box-clock",
+  "category": "commerce",
+  "tags": [
+    "pre-order",
+    "box",
+    "clock",
+    "upcoming",
+    "shipping",
+    "schedule"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 8.5 12 4l9 4.5v8L12 21l-9-4.5z\"/><path class=\"p2\" d=\"M3 8.5 12 13l9-4.5M12 13v8\"/><g class=\"p3\"><circle class=\"d\" cx=\"17.5\" cy=\"17.5\" r=\"4.5\"/><path d=\"M17.5 14.8v3l2 1.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

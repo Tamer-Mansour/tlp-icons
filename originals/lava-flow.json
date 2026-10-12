@@ -1,0 +1,33 @@
+{
+    "name":  "lava-flow",
+    "category":  "maps",
+    "tags":  [
+                 "lava",
+                 "volcano",
+                 "flow",
+                 "eruption",
+                 "magma",
+                 "molten"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M3 21l6.5-11h5L21 21z\"/\u003e\u003cpath class=\"p2\" d=\"M9 6.5L8 3M12 5.5V2M15 6.5L16 3\"/\u003e\u003cpath class=\"p3\" d=\"M12 11v3.5l-2 3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  800
+                   }
+               ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "epinephrine-pen",
+    "category":  "health",
+    "tags":  [
+                 "epinephrine",
+                 "adrenaline",
+                 "injector",
+                 "anaphylaxis",
+                 "allergy",
+                 "emergency"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"12\" rx=\"2\" transform=\"rotate(45 12 12)\"/\u003e\u003cpath class=\"p2\" d=\"M12 15v5\" transform=\"rotate(45 12 12)\"/\u003e\u003cpath class=\"p3\" d=\"M9 7h6\" transform=\"rotate(45 12 12)\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  800,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  500
+                   }
+               ]
+}

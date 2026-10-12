@@ -1,0 +1,19 @@
+{
+  "name": "order-picking",
+  "category": "commerce",
+  "tags": [
+    "order",
+    "picking",
+    "warehouse",
+    "box",
+    "fulfilment",
+    "pick",
+    "stock"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 8l9-4 9 4v9l-9 4-9-4z\"/><path class=\"p2\" d=\"M3 8l9 4 9-4M12 12v9\"/><path class=\"p3\" d=\"M15 2v7M12.5 6.5 15 9l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 800, "delay": 500 }
+  ]
+}

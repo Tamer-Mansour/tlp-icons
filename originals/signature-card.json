@@ -1,0 +1,11 @@
+{
+  "name": "signature-card",
+  "category": "finance",
+  "tags": ["signature", "card", "sign", "pen", "contract", "authorize", "approval"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M4.5 15c.8-3 2-3 2.3 0 .3 1.2 1 1.4 1.5.3\"/><g class=\"p3\"><path class=\"d\" d=\"M17 8l2 2-5.5 5.5-2-2z\"/><path d=\"M11.5 13.5l-1 3 3-1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 900 }
+  ]
+}

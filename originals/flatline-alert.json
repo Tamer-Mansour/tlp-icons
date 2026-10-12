@@ -1,0 +1,29 @@
+{
+  "name": "flatline-alert",
+  "category": "health",
+  "tags": [
+    "flatline",
+    "alarm",
+    "bell",
+    "monitor",
+    "vital",
+    "pulse",
+    "flat"
+  ],
+  "svg": "<path class=\"p1\" d=\"M2 16h20\"/><path class=\"d p2\" d=\"M15 9.5V6a3 3 0 0 1 6 0v3.5l1 1.5h-8z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "swing",
+      "dur": 1000,
+      "delay": 500,
+      "origin": "18px 4px"
+    }
+  ]
+}

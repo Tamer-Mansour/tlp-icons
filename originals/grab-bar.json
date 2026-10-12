@@ -1,0 +1,10 @@
+{
+  "name": "grab-bar",
+  "category": "health",
+  "tags": ["grab", "handrail", "bathroom", "support", "wall", "safety", "accessibility"],
+  "svg": "<path class=\"p2\" d=\"M3 4v16M3 8.5 8 11M3 15.5 8 13\"/><rect class=\"d p1\" x=\"8\" y=\"10\" width=\"13\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "cost-basis-tag",
+  "category": "finance",
+  "tags": [
+    "cost",
+    "basis",
+    "tag",
+    "price",
+    "purchase",
+    "clock",
+    "tax"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9V4a1 1 0 0 1 1-1h5l6 6a1 1 0 0 1 0 1.4l-3.6 3.6a1 1 0 0 1-1.4 0L3 9z\"/><path class=\"p2\" d=\"M7 7h.01\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"17.5\" r=\"4\"/><path class=\"p4\" d=\"M17.5 15.5v2l1.2 1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 300,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 800
+    }
+  ]
+}

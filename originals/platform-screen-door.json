@@ -1,0 +1,20 @@
+{
+  "name": "platform-screen-door",
+  "category": "maps",
+  "tags": [
+    "platform",
+    "screen door",
+    "subway",
+    "metro",
+    "train",
+    "station",
+    "glass"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"7\" height=\"12\" rx=\"1\"/><rect class=\"d p4\" x=\"14\" y=\"4\" width=\"7\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M8 9v4M16 9v4\"/><path class=\"p2\" d=\"M2 20h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

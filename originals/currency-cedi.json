@@ -1,0 +1,11 @@
+{
+  "name": "currency-cedi",
+  "category": "finance",
+  "tags": ["cedi", "currency", "banknote", "ghana", "money", "star", "cash"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M12 8.8 12.9 10.8 15 11 13.4 12.4 13.9 14.5 12 13.2 10.1 14.5 10.6 12.4 9 11 11.1 10.8z\"/><path class=\"p3\" d=\"M5 16.5l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

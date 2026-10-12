@@ -1,0 +1,27 @@
+{
+  "name": "picnic-blanket",
+  "category": "maps",
+  "tags": [
+    "picnic",
+    "blanket",
+    "basket",
+    "grass",
+    "park",
+    "checkered"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 6h14l2 12H3z\"/><path class=\"p2\" d=\"M12 6v12M4 12h16\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 400
+    }
+  ]
+}

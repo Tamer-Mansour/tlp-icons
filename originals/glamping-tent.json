@@ -1,0 +1,19 @@
+{
+  "name": "glamping-tent",
+  "category": "maps",
+  "tags": [
+    "glamping",
+    "tent",
+    "bell tent",
+    "camping",
+    "outdoor",
+    "pennant",
+    "luxury camp"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 20v-6a9 9 0 0 1 18 0v6z\"/><path class=\"p2\" d=\"M10 20v-3a2 2 0 0 1 4 0v3\"/><path class=\"p3\" d=\"M12 5V2.5M12 2.5h5l-1.5 2 1.5 2h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 1200, "delay": 700, "origin": "12px 2.5px" }
+  ]
+}

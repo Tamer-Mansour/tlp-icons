@@ -1,0 +1,26 @@
+{
+    "name":  "resilience-tree",
+    "category":  "health",
+    "tags":  [
+                 "resilience",
+                 "tree",
+                 "recovery",
+                 "strength",
+                 "growth"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 22V6M7 22h10\"/\u003e\u003cpath class=\"p2\" d=\"M12 15 7 10M12 11l5-5M12 18l4-3\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "grow",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  700,
+                       "delay":  600
+                   }
+               ]
+}

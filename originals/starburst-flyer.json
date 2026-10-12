@@ -1,0 +1,35 @@
+{
+    "name":  "starburst-flyer",
+    "category":  "commerce",
+    "tags":  [
+                 "flyer",
+                 "starburst",
+                 "promo",
+                 "leaflet",
+                 "sale",
+                 "badge",
+                 "advert"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"12\" height=\"17\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M6 6.5h6M6 10h4\"/\u003e\u003cpolygon class=\"d p3\" points=\"17.5,11 19,14.3 22.5,14.7 19.9,17.1 20.6,20.6 17.5,18.9 14.4,20.6 15.1,17.1 12.5,14.7 16,14.3\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   },
+                   {
+                       "origin":  "center",
+                       "delay":  900,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  500
+                   }
+               ]
+}

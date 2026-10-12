@@ -1,0 +1,21 @@
+{
+  "name": "impermanent-loss-scale",
+  "category": "finance",
+  "tags": [
+    "impermanent",
+    "loss",
+    "scale",
+    "liquidity",
+    "pool",
+    "defi",
+    "balance"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 8v13M8 21h8\"/><path class=\"p2\" d=\"M4 10 20 6\"/><path class=\"p3\" d=\"M4 10 5 12M20 6 19 8\"/><circle class=\"d p4\" cx=\"5\" cy=\"14.5\" r=\"2.5\"/><circle class=\"d p5\" cx=\"19\" cy=\"10.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p5", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "weather-layer-map",
+  "category": "maps",
+  "tags": ["weather", "map", "layer", "forecast", "sun", "cloud", "overlay", "climate"],
+  "svg": "<path class=\"d p1\" d=\"M3 6.5 7.5 4.5 12 6.5 15 5v13l-3 1.5-4.5-2L3 19.5z\"/><path class=\"p2\" d=\"M7.5 4.5v13M12 6.5v13\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/><path class=\"d p4\" d=\"M15 20h5a2.5 2.5 0 0 0 0-5 3.5 3.5 0 0 0-6.4-1A2.5 2.5 0 0 0 15 20z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "zoomIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "riseIn", "dur": 600, "delay": 1000 }
+  ]
+}

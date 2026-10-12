@@ -1,0 +1,34 @@
+{
+    "name":  "label-printer",
+    "category":  "commerce",
+    "tags":  [
+                 "label",
+                 "printer",
+                 "tape",
+                 "labeler",
+                 "desktop",
+                 "sticker",
+                 "tag"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"8\" rx=\"2\"/\u003e\u003cpath class=\"p2\" d=\"M7 10V4h10v6\"/\u003e\u003crect class=\"p3\" x=\"8\" y=\"15\" width=\"8\" height=\"6\" rx=\"1\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "slideIn",
+                       "dur":  700,
+                       "delay":  800
+                   }
+               ]
+}

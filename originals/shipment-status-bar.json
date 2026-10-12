@@ -1,0 +1,33 @@
+{
+    "name":  "shipment-status-bar",
+    "category":  "commerce",
+    "tags":  [
+                 "shipment",
+                 "status",
+                 "progress",
+                 "tracking",
+                 "package",
+                 "delivery"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"8\" rx=\"1.5\"/\u003e\u003crect class=\"p2\" x=\"2\" y=\"15\" width=\"20\" height=\"5\" rx=\"2.5\"/\u003e\u003cpath class=\"p3\" d=\"M5 17.5h8\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "dropIn",
+                       "dur":  600,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "fillIn",
+                       "dur":  600,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  700,
+                       "delay":  800
+                   }
+               ]
+}

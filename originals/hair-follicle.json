@@ -1,0 +1,33 @@
+{
+  "name": "hair-follicle",
+  "category": "health",
+  "tags": [
+    "hair",
+    "follicle",
+    "root",
+    "scalp",
+    "strand",
+    "growth"
+  ],
+  "svg": "<path class=\"p3\" d=\"M3 10h18\"/><circle class=\"d p1\" cx=\"12\" cy=\"17\" r=\"3.5\"/><path class=\"p2\" d=\"M12 13.5C12 9 15 7 12 2\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 700
+    }
+  ]
+}

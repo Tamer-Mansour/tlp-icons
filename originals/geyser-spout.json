@@ -1,0 +1,19 @@
+{
+  "name": "geyser-spout",
+  "category": "maps",
+  "tags": [
+    "geyser",
+    "spout",
+    "water",
+    "jet",
+    "vent",
+    "nature",
+    "eruption"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"d p2\" d=\"M7.5 21c0-2.5 2-3.5 4.5-3.5s4.5 1 4.5 3.5\"/><path class=\"p3\" d=\"M12 16V5M8.5 9 6.5 7.5M15.5 9l2-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 900, "delay": 500, "origin": "bottom" }
+  ]
+}

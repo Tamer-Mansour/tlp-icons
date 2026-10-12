@@ -1,0 +1,11 @@
+{
+  "name": "emg-needle-probe",
+  "category": "health",
+  "tags": ["emg", "needle", "electrode", "muscle", "nerve test", "electromyography", "probe"],
+  "svg": "<path class=\"d p1\" d=\"M15.5 5.5l3-3 3 3-3 3z\"/><path class=\"p2\" d=\"M17 7 11 13\"/><path class=\"p3\" d=\"M3 21l3-4 2 3 2-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

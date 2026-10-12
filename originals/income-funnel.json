@@ -1,0 +1,10 @@
+{
+  "name": "income-funnel",
+  "category": "finance",
+  "tags": ["income", "revenue", "funnel", "earnings", "receipts", "cash flow"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18l-7 7.5V19l-4 2v-4.5z\"/><circle class=\"p2\" cx=\"8.5\" cy=\"3.5\" r=\"2\"/><circle class=\"p2\" cx=\"15.5\" cy=\"3.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 800, "delay": 300 }
+  ]
+}

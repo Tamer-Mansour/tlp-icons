@@ -1,0 +1,11 @@
+{
+  "name": "air-mattress",
+  "category": "health",
+  "tags": ["air", "mattress", "bed", "inflatable", "pump", "cells"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M7 9v8M12 9v8M17 9v8M2 13h20\"/><path class=\"p3\" d=\"M12 2.5v3.5M9.5 4.5l2.5 2.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 900 }
+  ]
+}

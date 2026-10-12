@@ -1,0 +1,21 @@
+{
+  "name": "carrier-select",
+  "category": "commerce",
+  "tags": [
+    "truck",
+    "carrier",
+    "shipping",
+    "delivery",
+    "select",
+    "approved",
+    "logistics"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M14 10h3.5L20 13v1h-6\"/><g class=\"p3\"><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"17\" cy=\"18\" r=\"2\"/></g><circle class=\"d p4\" cx=\"19\" cy=\"5\" r=\"3\"/><path class=\"p5\" d=\"M17.6 5.2l1 1 1.9-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

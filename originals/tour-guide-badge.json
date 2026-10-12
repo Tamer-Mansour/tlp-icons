@@ -1,0 +1,19 @@
+{
+  "name": "tour-guide-badge",
+  "category": "maps",
+  "tags": [
+    "tour",
+    "guide",
+    "badge",
+    "lanyard",
+    "flag",
+    "travel",
+    "sightseeing"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M10 3l2 4 2-4\"/><path class=\"p3\" d=\"M9 19v-7h5l-1.5 2 1.5 2H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 800, "origin": "9px 12px" }
+  ]
+}

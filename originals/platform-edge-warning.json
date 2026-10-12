@@ -1,0 +1,34 @@
+{
+  "name": "platform-edge-warning",
+  "category": "maps",
+  "tags": [
+    "platform",
+    "edge",
+    "warning",
+    "danger",
+    "station",
+    "caution",
+    "rail"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M12 3 21 14H3z\"/><path class=\"p3\" d=\"M12 7.5v2.5M12 11.2h.01\"/><rect class=\"d p2\" x=\"2\" y=\"18.5\" width=\"20\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "growX",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 600
+    }
+  ]
+}

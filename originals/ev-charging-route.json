@@ -1,0 +1,12 @@
+{
+  "name": "ev-charging-route",
+  "category": "maps",
+  "tags": ["ev", "charging", "plug", "route", "electric", "car", "station"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"8\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M9 2v3M13 2v3\"/><path class=\"p3\" d=\"M10 12v4a3 3 0 0 0 3 3h4.5\"/><circle class=\"d p4\" cx=\"19.5\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

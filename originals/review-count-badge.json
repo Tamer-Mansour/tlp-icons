@@ -1,0 +1,11 @@
+{
+  "name": "review-count-badge",
+  "category": "commerce",
+  "tags": ["review", "reviews", "comments", "rating", "feedback", "count", "badge"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p1\" d=\"M5 17v3l3.5-3\"/><path class=\"p3\" d=\"M6 11.5h.01M9 11.5h.01M12 11.5h.01\"/><circle class=\"p2\" cx=\"18.5\" cy=\"5.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

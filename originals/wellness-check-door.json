@@ -1,0 +1,19 @@
+{
+  "name": "wellness-check-door",
+  "category": "health",
+  "tags": [
+    "wellness",
+    "check",
+    "door",
+    "knock",
+    "home visit",
+    "heart",
+    "care"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2.5\" width=\"10\" height=\"18.5\" rx=\"1.5\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"1\"/><path class=\"d p3\" d=\"M18.5 19.5 16.4 17.4C15.8 16.8 15.8 15.7 16.4 15.1 17 14.5 17.9 14.6 18.5 15.4 19.1 14.6 20 14.5 20.6 15.1 21.2 15.7 21.2 16.8 20.6 17.4Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "beat", "dur": 1000, "delay": 900 }
+  ]
+}

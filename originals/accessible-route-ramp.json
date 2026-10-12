@@ -1,0 +1,28 @@
+{
+  "name": "accessible-route-ramp",
+  "category": "maps",
+  "tags": [
+    "accessible",
+    "ramp",
+    "route",
+    "door",
+    "wheelchair",
+    "access",
+    "entrance"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 20 21 9v11z\"/><path class=\"p2\" d=\"M6 12v4M6 12l8-4.9M14 7v5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 400
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "longitude-meridian-arc",
+  "category": "maps",
+  "tags": [
+    "longitude",
+    "meridian",
+    "globe",
+    "map",
+    "geography",
+    "earth"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3c-3.5 3-3.5 15 0 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

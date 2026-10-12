@@ -1,0 +1,19 @@
+{
+  "name": "street-food-stall",
+  "category": "maps",
+  "tags": [
+    "street",
+    "food",
+    "stall",
+    "vendor",
+    "awning",
+    "bowl",
+    "market"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18l-2-5H5z\"/><path class=\"p2\" d=\"M3 9a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0\"/><path class=\"p3\" d=\"M6 15h12a6 6 0 0 1-12 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

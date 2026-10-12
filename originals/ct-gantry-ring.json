@@ -1,0 +1,27 @@
+{
+  "name": "ct-gantry-ring",
+  "category": "health",
+  "tags": [
+    "ct",
+    "scanner",
+    "gantry",
+    "imaging",
+    "scan",
+    "radiology"
+  ],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8.5\"/><rect class=\"d p2\" x=\"1.5\" y=\"10.5\" width=\"21\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "slideIn",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

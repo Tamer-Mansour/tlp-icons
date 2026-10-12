@@ -1,0 +1,18 @@
+{
+  "name": "receipt-print",
+  "category": "finance",
+  "tags": [
+    "receipt",
+    "print",
+    "printer",
+    "paper",
+    "slip",
+    "bill"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"10\" width=\"19\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 10V3h9v7\"/><path class=\"p3\" d=\"M10.5 6.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

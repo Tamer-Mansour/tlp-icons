@@ -1,0 +1,11 @@
+{
+  "name": "low-stock-tag",
+  "category": "commerce",
+  "tags": ["low", "stock", "tag", "inventory", "empty", "warning", "supply"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h8l10 10-7 7L4 11z\"/><path class=\"p2\" d=\"M9 9h.01\"/><path class=\"p3\" d=\"M16 3v5M16 11.5h.01\" transform=\"translate(3 -1)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

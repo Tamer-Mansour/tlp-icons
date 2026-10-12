@@ -1,0 +1,33 @@
+{
+  "name": "panoramic-xray",
+  "category": "health",
+  "tags": [
+    "xray",
+    "panoramic",
+    "jaw",
+    "teeth",
+    "dental",
+    "scan"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 8c0 7 3 9 6 9s6-2 6-9\"/><path class=\"p3\" d=\"M9 11.5v2.5M12 11.5v3M15 11.5v2.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 900,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 1100
+    }
+  ]
+}

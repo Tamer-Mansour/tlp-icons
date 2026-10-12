@@ -1,0 +1,35 @@
+{
+  "name": "compound-interest-tree",
+  "category": "finance",
+  "tags": [
+    "compound",
+    "interest",
+    "tree",
+    "growth",
+    "savings",
+    "invest",
+    "money"
+  ],
+  "svg": "<path class=\"p1\" d=\"M12 21v-9\"/><path class=\"d p2\" d=\"M12 14c0-4-3-6-8-6 0 4 3 6 8 6zM12 11c0-4 3-6 8-6 0 4-3 6-8 6z\"/><path class=\"p3\" d=\"M7 21h10\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 800,
+      "delay": 500,
+      "origin": "bottom"
+    },
+    {
+      "part": "p3",
+      "anim": "growX",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

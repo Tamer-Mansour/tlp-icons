@@ -1,0 +1,11 @@
+{
+  "name": "theodolite-survey",
+  "category": "maps",
+  "tags": ["theodolite", "survey", "surveyor", "land", "tripod", "measure", "engineering"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"4\"/><rect class=\"p2\" x=\"15\" y=\"6.5\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M12 14l-4.5 7M12 14l4.5 7M12 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "sweep", "dur": 1400, "delay": 900, "origin": "12px 10px" }
+  ]
+}

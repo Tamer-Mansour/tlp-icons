@@ -1,0 +1,11 @@
+{
+  "name": "station-waiting-room",
+  "category": "maps",
+  "tags": ["station", "waiting", "room", "bench", "seats", "lounge", "terminal"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18v4H3z\"/><path class=\"p2\" d=\"M4 14h16\"/><path class=\"p3\" d=\"M6 14v6M18 14v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 800 }
+  ]
+}

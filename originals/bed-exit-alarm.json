@@ -1,0 +1,11 @@
+{
+  "name": "bed-exit-alarm",
+  "category": "health",
+  "tags": ["bed", "alarm", "exit", "fall", "alert", "bell", "patient", "safety"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12.5\" width=\"18\" height=\"4.5\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 6v14M21 17v3M6 9.5h4v3H6z\"/><g class=\"p3\"><path d=\"M13.5 8V5.5a4 4 0 0 1 8 0V8l1.5 2.5h-11z\"/><path d=\"M16.5 12.2a1.5 1.5 0 0 0 3 0\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 150 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 600, "origin": "17.5px 3px" }
+  ]
+}

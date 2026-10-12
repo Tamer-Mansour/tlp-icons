@@ -1,0 +1,28 @@
+{
+    "name":  "transit-route-compass",
+    "category":  "maps",
+    "tags":  [
+                 "transit",
+                 "route",
+                 "compass",
+                 "direction",
+                 "navigation",
+                 "map"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/\u003e\u003cpath class=\"p2\" d=\"M15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5z\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "origin":  "center",
+                       "delay":  600,
+                       "anim":  "swing",
+                       "part":  "p2",
+                       "dur":  1200
+                   }
+               ]
+}

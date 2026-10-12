@@ -1,0 +1,27 @@
+{
+  "name": "mosquito-test-trap",
+  "category": "health",
+  "tags": [
+    "mosquito",
+    "trap",
+    "test",
+    "insect",
+    "surveillance",
+    "malaria"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15.5\" width=\"18\" height=\"5.5\" rx=\"2\"/><g class=\"p2\"><circle cx=\"12\" cy=\"6.5\" r=\"2.5\"/><path d=\"M12 9v3.5\"/><path d=\"M12 6.5 6 2.5M12 6.5l6-4\"/><path d=\"M9.5 8 6.5 10M14.5 8l3 2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 400
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "breast-pump",
+  "category": "health",
+  "tags": ["breast pump", "breastfeeding", "milk", "pump", "baby", "nursing"],
+  "svg": "<path class=\"d p1\" d=\"M6 10a6 6 0 0 1 12 0c0 3-2 5-6 5s-6-2-6-5z\"/><g class=\"p2\"><path d=\"M12 15v2\"/><ellipse cx=\"12\" cy=\"19.5\" rx=\"2.5\" ry=\"1.8\"/></g><path class=\"p3\" d=\"M19 4c0 0-1.5 1.8-1.5 2.8a1.5 1.5 0 0 0 3 0C20.5 5.8 19 4 19 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 350 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 900 }
+  ]
+}

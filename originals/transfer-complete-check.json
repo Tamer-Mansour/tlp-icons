@@ -1,0 +1,12 @@
+{
+  "name": "transfer-complete-check",
+  "category": "finance",
+  "tags": ["transfer", "complete", "check", "payment", "success", "verified", "done"],
+  "svg": "<path class=\"p1\" d=\"M3 8h13\"/><path class=\"p2\" d=\"M11 3l5 5-5 5\"/><circle class=\"d p3\" cx=\"17\" cy=\"16\" r=\"4.5\"/><path class=\"p4\" d=\"M14.8 16l1.6 1.6 3-3.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 350, "delay": 1000 }
+  ]
+}

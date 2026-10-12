@@ -1,0 +1,18 @@
+{
+  "name": "chargeback-card-reverse",
+  "category": "commerce",
+  "tags": [
+    "chargeback",
+    "refund",
+    "credit card",
+    "reverse",
+    "dispute",
+    "payment"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 9.5h20\"/><path class=\"p3\" d=\"M17 15H8m0 0 2.5-2.5M8 15l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

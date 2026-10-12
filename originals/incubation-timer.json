@@ -1,0 +1,33 @@
+{
+  "name": "incubation-timer",
+  "category": "health",
+  "tags": [
+    "incubation",
+    "timer",
+    "clock",
+    "thermometer",
+    "temperature",
+    "lab"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"11.5\" r=\"6.5\"/><path class=\"p2\" d=\"M9 8v3.5l2.2 1.6\"/><g class=\"p3\"><rect x=\"18\" y=\"12.5\" width=\"3\" height=\"7\" rx=\"1.5\"/><circle cx=\"19.5\" cy=\"19.5\" r=\"2\"/></g>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 600,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

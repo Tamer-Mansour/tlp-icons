@@ -1,0 +1,11 @@
+{
+  "name": "fetal-doppler",
+  "category": "health",
+  "tags": ["doppler", "fetal", "heartbeat", "pregnancy", "ultrasound", "probe", "sound waves"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"9\" r=\"3.5\"/><path class=\"p2\" d=\"M5.5 11.5 4 20\"/><g class=\"p3\"><path d=\"M14 8.5a4 4 0 0 1 0 6\"/><path d=\"M17.5 5a9 9 0 0 1 0 13\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 600 }
+  ]
+}

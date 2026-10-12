@@ -1,0 +1,11 @@
+{
+  "name": "quote-compare-cards",
+  "category": "finance",
+  "tags": ["quote", "compare", "cards", "balance", "rates", "offers", "comparison"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"11\" height=\"14\" rx=\"2\"/><rect class=\"d p2\" x=\"11\" y=\"5\" width=\"11\" height=\"14\" rx=\"2\"/><path class=\"p3\" d=\"M15.5 12l2 2 3-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

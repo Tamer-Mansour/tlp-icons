@@ -1,0 +1,40 @@
+{
+  "name": "token-approval-stamp",
+  "category": "finance",
+  "tags": [
+    "token",
+    "approval",
+    "stamp",
+    "approve",
+    "crypto",
+    "authorize",
+    "sign"
+  ],
+  "svg": "<rect class=\"d p3\" x=\"4\" y=\"13\" width=\"16\" height=\"9\" rx=\"2\"/><path class=\"p4\" d=\"M9 17.5l2 2 4-4\"/><rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1.5\"/><rect class=\"d p2\" x=\"5\" y=\"7\" width=\"14\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "dropIn",
+      "dur": 500,
+      "delay": 200
+    },
+    {
+      "part": "p2",
+      "anim": "press",
+      "dur": 500,
+      "delay": 600
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 1000
+    }
+  ]
+}

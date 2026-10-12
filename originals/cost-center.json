@@ -1,0 +1,19 @@
+{
+  "name": "cost-center",
+  "category": "finance",
+  "tags": [
+    "cost",
+    "center",
+    "budget",
+    "target",
+    "expense",
+    "accounting",
+    "coin"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700, "origin": "center" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "charging-lounge-sofa",
+  "category": "maps",
+  "tags": ["sofa", "lounge", "charging", "plug", "rest", "waiting", "station"],
+  "svg": "<path class=\"d p1\" d=\"M2 13.5V8a2 2 0 0 1 2-2h8.5a2 2 0 0 1 2 2v5.5z\"/><path class=\"p2\" d=\"M2 13.5v3M14.5 13.5v3\"/><rect class=\"p3\" x=\"16.5\" y=\"8\" width=\"5\" height=\"6\" rx=\"1\"/><path class=\"p4\" d=\"M17.5 4.5v3.5M20.5 4.5v3.5M19 14v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

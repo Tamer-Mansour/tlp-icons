@@ -1,0 +1,33 @@
+{
+  "name": "scrub-top",
+  "category": "health",
+  "tags": [
+    "scrub",
+    "scrubs",
+    "surgery",
+    "uniform",
+    "medical top",
+    "operating room"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8.5 3 3 6.5 5 11l2-1v10h10v-10l2 1 2-4.5L15.5 3\"/><path class=\"p2\" d=\"M8.5 3 12 8.5 15.5 3\"/><rect class=\"p3\" x=\"9\" y=\"11\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "fadeIn",
+      "dur": 500,
+      "delay": 700
+    }
+  ]
+}

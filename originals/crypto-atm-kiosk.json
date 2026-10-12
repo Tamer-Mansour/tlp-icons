@@ -1,0 +1,34 @@
+{
+    "name":  "crypto-atm-kiosk",
+    "category":  "finance",
+    "tags":  [
+                 "crypto",
+                 "bitcoin",
+                 "atm",
+                 "kiosk",
+                 "coin",
+                 "wallet",
+                 "exchange"
+             ],
+    "svg":  "\u003crect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/\u003e\u003cpath class=\"p3\" d=\"M8 17h8\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "rollIn",
+                       "dur":  800,
+                       "delay":  300
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "growX",
+                       "dur":  500,
+                       "delay":  900
+                   }
+               ]
+}

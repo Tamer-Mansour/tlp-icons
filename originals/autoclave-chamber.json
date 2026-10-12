@@ -1,0 +1,33 @@
+{
+  "name": "autoclave-chamber",
+  "category": "health",
+  "tags": [
+    "autoclave",
+    "sterilizer",
+    "steam",
+    "sterile",
+    "hospital",
+    "chamber"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5.5\"/><path class=\"p3\" d=\"M8.5 13c1.1-1.2 2.2-1.2 3.5 0s2.4 1.2 3.5 0\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 800,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

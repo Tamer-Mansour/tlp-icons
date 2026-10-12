@@ -1,0 +1,18 @@
+{
+  "name": "xray-film-sheet",
+  "category": "health",
+  "tags": [
+    "x-ray",
+    "film",
+    "bone",
+    "radiology",
+    "scan",
+    "skeleton",
+    "imaging"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><g class=\"p2\"><path d=\"M8 12h8\"/><circle cx=\"7.5\" cy=\"9.5\" r=\"1.5\"/><circle cx=\"7.5\" cy=\"14.5\" r=\"1.5\"/><circle cx=\"16.5\" cy=\"9.5\" r=\"1.5\"/><circle cx=\"16.5\" cy=\"14.5\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 }
+  ]
+}

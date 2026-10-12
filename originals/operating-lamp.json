@@ -1,0 +1,12 @@
+{
+  "name": "operating-lamp",
+  "category": "health",
+  "tags": ["operating", "surgical", "lamp", "light", "theatre", "surgery", "ceiling"],
+  "svg": "<path class=\"p1\" d=\"M3 2h18M12 2v5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.8\"/><path class=\"p4\" d=\"M9 19.5l-1 2M12 19.5v2.5M15 19.5l1 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 900 },
+    { "part": "p4", "anim": "fadeIn", "dur": 600, "delay": 1100 }
+  ]
+}

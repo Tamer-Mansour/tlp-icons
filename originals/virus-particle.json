@@ -1,0 +1,28 @@
+{
+  "name": "virus-particle",
+  "category": "health",
+  "tags": [
+    "virus",
+    "particle",
+    "infection",
+    "pathogen",
+    "lock",
+    "secure",
+    "microbe"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M12 4V2M12 20v2M4 12H2M20 12h2M6.3 6.3 4.9 4.9M17.7 6.3l1.4-1.4M6.3 17.7l-1.4 1.4M17.7 17.7l1.4 1.4\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 400
+    }
+  ]
+}

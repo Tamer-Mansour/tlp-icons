@@ -1,0 +1,11 @@
+{
+  "name": "multi-currency",
+  "category": "finance",
+  "tags": ["currency", "multi-currency", "globe", "exchange", "international", "money", "coins"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><g class=\"p2\"><path d=\"M4 12h16\"/><ellipse cx=\"12\" cy=\"12\" rx=\"3.5\" ry=\"8\"/></g><circle class=\"d p3\" cx=\"20\" cy=\"4\" r=\"2\"/><circle class=\"d p3\" cx=\"4\" cy=\"20\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "camp-stove",
+  "category": "maps",
+  "tags": [
+    "camp stove",
+    "camping",
+    "burner",
+    "gas canister",
+    "outdoors",
+    "cooking"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"12\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M5 13V9.5M11 13V9.5M4 9.5h9\"/><g class=\"d p3\"><rect x=\"17\" y=\"8\" width=\"5\" height=\"10\" rx=\"1.5\"/><path d=\"M19.5 8V5.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 800, "delay": 500 }
+  ]
+}

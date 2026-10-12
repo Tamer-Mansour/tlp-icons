@@ -1,0 +1,11 @@
+{
+  "name": "warehouse-rack",
+  "category": "commerce",
+  "tags": ["warehouse", "rack", "pallet", "storage", "shelves", "inventory", "stock"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18M19 3v18M3 21h18\"/><path class=\"p2\" d=\"M5 8h14M5 15h14\"/><rect class=\"d p3\" x=\"7\" y=\"4\" width=\"10\" height=\"4\" rx=\"0.5\"/><rect class=\"d p3\" x=\"7\" y=\"11\" width=\"10\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sprain-wrap",
+  "category": "health",
+  "tags": [
+    "sprain",
+    "wrap",
+    "ankle",
+    "bandage",
+    "elastic",
+    "support"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M8 3h6v8l4.5 4v3H4v-3.5L8 11z\"/><path class=\"p2\" d=\"M5 8.5l11 3.5\"/><path class=\"p3\" d=\"M5 13l11 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

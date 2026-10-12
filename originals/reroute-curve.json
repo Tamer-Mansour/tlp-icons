@@ -1,0 +1,11 @@
+{
+  "name": "reroute-curve",
+  "category": "maps",
+  "tags": ["reroute", "detour", "route", "curve", "directions", "new path", "navigation"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"19\" r=\"2.5\"/><path class=\"p2\" d=\"M5 16.5V11a5 5 0 0 1 5-5h5\"/><polyline class=\"p3\" points=\"12 3 15.5 6 12 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

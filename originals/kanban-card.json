@@ -1,0 +1,11 @@
+{
+  "name": "kanban-card",
+  "category": "commerce",
+  "tags": ["kanban", "card", "box", "pull", "workflow", "board"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"16\" rx=\"2\"/><g class=\"p2\"><rect x=\"6\" y=\"8.5\" width=\"6\" height=\"6\" rx=\"1\"/><path d=\"M6 11.5h6\"/></g><path class=\"p3\" d=\"M17.5 12H22M19.5 9.5 22 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 900 }
+  ]
+}

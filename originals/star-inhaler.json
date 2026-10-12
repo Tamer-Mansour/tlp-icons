@@ -1,0 +1,11 @@
+{
+  "name": "star-inhaler",
+  "category": "health",
+  "tags": ["inhaler", "asthma", "puffer", "medicine", "breathing", "medication"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"10\" height=\"13\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"d p3\" d=\"M11 11.5 11.76 13.45 13.85 13.57 12.24 14.9 12.76 16.93 11 15.8 9.24 16.93 9.76 14.9 8.15 13.57 10.24 13.45Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

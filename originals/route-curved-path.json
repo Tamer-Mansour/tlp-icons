@@ -1,0 +1,20 @@
+{
+  "name": "route-curved-path",
+  "category": "maps",
+  "tags": [
+    "route",
+    "path",
+    "curve",
+    "directions",
+    "navigation",
+    "journey",
+    "trail",
+    "map"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M6 15.5C6 11 18 13 18 8.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

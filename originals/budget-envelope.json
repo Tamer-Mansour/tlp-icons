@@ -1,0 +1,18 @@
+{
+  "name": "budget-envelope",
+  "category": "finance",
+  "tags": [
+    "budget",
+    "envelope",
+    "savings",
+    "cash",
+    "planning",
+    "money"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9\"/><path class=\"p2\" d=\"M3 9.5l9 6 9-6\"/><circle class=\"d p3\" cx=\"18\" cy=\"17\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "rollIn", "dur": 800, "delay": 900 }
+  ]
+}

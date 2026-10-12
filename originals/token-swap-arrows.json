@@ -1,0 +1,12 @@
+{
+  "name": "token-swap-arrows",
+  "category": "finance",
+  "tags": ["token", "swap", "exchange", "crypto", "coins", "convert", "trade"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"4\"/><circle class=\"d p2\" cx=\"16\" cy=\"16\" r=\"4\"/><path class=\"p3\" d=\"M12 3A9 9 0 0 1 20.5 9M21.8 6.3 20.5 9l-2.7-1.3\"/><path class=\"p4\" d=\"M12 21A9 9 0 0 1 3.5 15M2.2 17.7 3.5 15l2.7 1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

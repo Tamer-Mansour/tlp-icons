@@ -1,0 +1,11 @@
+{
+  "name": "order-packed-box-check",
+  "category": "commerce",
+  "tags": ["order", "packed", "box", "check", "shipment", "fulfilled", "package"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 13.5h17v5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M3.5 13.5 6 10.5h12l2.5 3\"/><path class=\"p3\" d=\"M8.5 4.5 11 7l4.5-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

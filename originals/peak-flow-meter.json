@@ -1,0 +1,12 @@
+{
+  "name": "peak-flow-meter",
+  "category": "health",
+  "tags": ["peak flow", "breathing", "asthma", "lung", "meter", "respiratory", "scale"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"8\" height=\"17\" rx=\"4\"/><rect class=\"p2\" x=\"5\" y=\"19\" width=\"10\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M17 6h3M17 10h2M17 14h3\"/><path class=\"p4\" d=\"M8 10h4M10 8l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "slideIn", "dur": 700, "delay": 800 }
+  ]
+}

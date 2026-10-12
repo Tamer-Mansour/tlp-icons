@@ -1,0 +1,19 @@
+{
+  "name": "dialysis-recliner",
+  "category": "health",
+  "tags": [
+    "dialysis",
+    "recliner",
+    "kidney",
+    "tubing",
+    "treatment",
+    "renal",
+    "chair"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 5l3.5-1.5L10 13h10v3H8z\"/><path class=\"p2\" d=\"M9 16v5M19 16v5\"/><g class=\"p3\"><path d=\"M14 13V9c0-1.7 1-2.5 2.5-2.5H18\"/><rect x=\"18\" y=\"2.5\" width=\"3.5\" height=\"6\" rx=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

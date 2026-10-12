@@ -1,0 +1,18 @@
+{
+  "name": "cocoa-tin-spoon",
+  "category": "commerce",
+  "tags": [
+    "cocoa",
+    "tin",
+    "powder",
+    "spoon",
+    "measure",
+    "chocolate"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"12\" height=\"13\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"4\" width=\"14\" height=\"3\" rx=\"1\"/><path d=\"M4 12h12\"/><g class=\"p3\"><ellipse cx=\"19.8\" cy=\"5\" rx=\"1.6\" ry=\"2.5\"/><path d=\"M19.8 7.5V11\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

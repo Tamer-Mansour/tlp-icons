@@ -1,0 +1,19 @@
+{
+  "name": "recovery-path",
+  "category": "health",
+  "tags": [
+    "recovery",
+    "path",
+    "flag",
+    "milestone",
+    "healing",
+    "progress",
+    "goal"
+  ],
+  "svg": "<path class=\"p1\" d=\"M3 21c3-2 6-1 6-6s3-4 3-8\"/><path class=\"p2\" d=\"M12 12V3\"/><path class=\"d p3\" d=\"M12 3h7l-2 2.5L19 8h-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1000, "origin": "12px 3px" }
+  ]
+}

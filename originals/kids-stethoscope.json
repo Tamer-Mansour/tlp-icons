@@ -1,0 +1,11 @@
+{
+  "name": "kids-stethoscope",
+  "category": "health",
+  "tags": ["stethoscope", "kids", "children", "pediatric", "doctor", "star", "child"],
+  "svg": "<g class=\"p1\"><path d=\"M4 3v6a4 4 0 0 0 8 0V3M8 13v2a4 4 0 0 0 8 0\"/></g><circle class=\"p2\" cx=\"16\" cy=\"17\" r=\"4\"/><polygon class=\"p3\" points=\"16,14.8 16.59,16.39 18.28,16.46 16.95,17.51 17.41,19.14 16,18.2 14.59,19.14 15.05,17.51 13.72,16.46 15.41,16.39\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "private-key",
+  "category": "finance",
+  "tags": [
+    "private",
+    "key",
+    "secret",
+    "crypto",
+    "wallet",
+    "access",
+    "seed",
+    "lock"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"4.5\"/><g class=\"p2\"><path d=\"M12.2 11.8 20 4\"/><path d=\"M16.5 7.5 19 10\"/><path d=\"M14 10l2 2\"/></g><g class=\"p3\"><ellipse cx=\"9\" cy=\"5\" rx=\"2\" ry=\"2.5\"/><path d=\"M9 7.5v3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

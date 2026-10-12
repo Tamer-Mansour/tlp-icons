@@ -1,0 +1,34 @@
+{
+  "name": "carry-on-bag",
+  "category": "maps",
+  "tags": [
+    "carry-on",
+    "luggage",
+    "suitcase",
+    "travel",
+    "cabin bag",
+    "trip"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"6\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 6V4.5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1V6\"/><path d=\"M5 10h14\"/><circle class=\"p3\" cx=\"9\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 200
+    },
+    {
+      "part": "p3",
+      "anim": "spin",
+      "dur": 900,
+      "delay": 900,
+      "origin": "9px 20px"
+    }
+  ]
+}

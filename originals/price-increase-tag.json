@@ -1,0 +1,11 @@
+{
+  "name": "price-increase-tag",
+  "category": "finance",
+  "tags": ["price", "increase", "tag", "up", "rise", "inflation", "cost", "arrow"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/><circle class=\"p2\" cx=\"7\" cy=\"7\" r=\"1.5\"/><path class=\"p3\" d=\"M11 16.5V9.5M8 12.5l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "straddle-arrows",
+  "category": "finance",
+  "tags": ["straddle", "arrows", "diverge", "split", "options", "strategy", "fork"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-8\"/><path class=\"p2\" d=\"M12 13L5 5M5 10V5h5\"/><path class=\"p3\" d=\"M12 13l7-8M14 5h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

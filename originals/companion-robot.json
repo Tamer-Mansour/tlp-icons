@@ -1,0 +1,11 @@
+{
+  "name": "companion-robot",
+  "category": "health",
+  "tags": ["robot", "companion", "assistant", "care", "screen", "face", "elderly", "friend"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"16\" height=\"13\" rx=\"4\"/><g class=\"p2\"><path d=\"M12 7V3.5\"/><circle cx=\"12\" cy=\"3\" r=\"1.5\"/><path d=\"M4 11H2.5M20 11h1.5\"/></g><g class=\"p3\"><rect x=\"7.5\" y=\"9.5\" width=\"9\" height=\"5\" rx=\"1.5\"/><path d=\"M10 12h.01M14 12h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 900 }
+  ]
+}

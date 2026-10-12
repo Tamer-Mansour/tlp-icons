@@ -1,0 +1,11 @@
+{
+  "name": "fire-ban-sign",
+  "category": "maps",
+  "tags": ["fire", "ban", "sign", "no fire", "flame", "prohibited"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><path class=\"p2\" d=\"M12 7.5c2 2.2 3.8 3.8 3.8 6.3a3.8 3.8 0 0 1-7.6 0c0-2.5 1.8-4.1 3.8-6.3z\"/><path class=\"p3\" d=\"M5.3 5.3l13.4 13.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

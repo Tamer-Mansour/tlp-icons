@@ -1,0 +1,10 @@
+{
+  "name": "unstake-hourglass",
+  "category": "finance",
+  "tags": ["unstake", "hourglass", "coin", "waiting", "unlock", "pending"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"8.5\" r=\"5\"/><path class=\"p2\" d=\"M14.5 12.5h7M14.5 21.5h7M15 12.5 18 17l-3 4.5M21 12.5 18 17l3 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "rollIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

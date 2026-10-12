@@ -1,0 +1,39 @@
+{
+  "name": "blockchain-block",
+  "category": "finance",
+  "tags": [
+    "blockchain",
+    "block",
+    "chain",
+    "ledger",
+    "crypto",
+    "linked"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"d p2\" x=\"15\" y=\"8\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"d p3\" x=\"2\" y=\"15\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p4\" d=\"M9 5.5h4v6h2M5.5 9v6\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p4",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p2",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 500
+    },
+    {
+      "part": "p3",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

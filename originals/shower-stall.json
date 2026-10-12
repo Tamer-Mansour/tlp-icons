@@ -1,0 +1,33 @@
+{
+    "name":  "shower-stall",
+    "category":  "maps",
+    "tags":  [
+                 "shower",
+                 "stall",
+                 "spray",
+                 "bath",
+                 "washroom",
+                 "hygiene"
+             ],
+    "svg":  "\u003cpath class=\"p2\" d=\"M4 21V5a2 2 0 0 1 2-2h6\"/\u003e\u003cpath class=\"d p1\" d=\"M8 10a5 5 0 0 1 10 0z\"/\u003e\u003cg class=\"p3\"\u003e\u003cpath d=\"M10 14v2\"/\u003e\u003cpath d=\"M13 14v4\"/\u003e\u003cpath d=\"M16 14v2\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  400,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  800,
+                       "anim":  "drip",
+                       "part":  "p3",
+                       "dur":  1000
+                   }
+               ]
+}

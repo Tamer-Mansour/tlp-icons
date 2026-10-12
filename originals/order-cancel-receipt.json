@@ -1,0 +1,17 @@
+{
+  "name": "order-cancel-receipt",
+  "category": "commerce",
+  "tags": [
+    "receipt",
+    "cancel",
+    "refund",
+    "void",
+    "order",
+    "return"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 2h14v20l-2.5-1.5L14 22l-2-1.5L10 22l-2.5-1.5L5 22z\"/><path class=\"p2\" d=\"M9 8.5l6 6M15 8.5l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

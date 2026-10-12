@@ -1,0 +1,11 @@
+{
+  "name": "damage-tape-measure",
+  "category": "finance",
+  "tags": ["tape measure", "damage", "crack", "assessment", "inspection", "claim", "loss"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M5 7v3M8 7v2M11 7v3\"/><path class=\"p3\" d=\"M14 7 15.5 10 14 12.5 16 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

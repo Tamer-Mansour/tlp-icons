@@ -1,0 +1,19 @@
+{
+  "name": "drowning-rescue-ring",
+  "category": "health",
+  "tags": [
+    "life",
+    "ring",
+    "rescue",
+    "drowning",
+    "lifebuoy",
+    "water",
+    "lifeguard"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M20 12a8 8 0 1 1-16 0a8 8 0 1 1 16 0zM15.5 12a3.5 3.5 0 1 0-7 0a3.5 3.5 0 1 0 7 0z\"/><path class=\"p2\" d=\"M12 4v4M12 16v4M4 12h4M16 12h4\"/><path class=\"p3\" d=\"M16.5 18.5c1 1.2 3 1.2 3 2.8s.6.6 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

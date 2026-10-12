@@ -1,0 +1,20 @@
+{
+  "name": "bellhop-luggage-cart",
+  "category": "maps",
+  "tags": [
+    "bellhop",
+    "luggage",
+    "cart",
+    "bags",
+    "hotel",
+    "trolley",
+    "baggage"
+  ],
+  "svg": "<path class=\"p3\" d=\"M2.5 4h2l3.2 11h9.8\"/><rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><circle class=\"p4\" cx=\"9\" cy=\"19\" r=\"1.8\"/><circle class=\"p4\" cx=\"17\" cy=\"19\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "spin", "dur": 900, "delay": 1100 }
+  ]
+}

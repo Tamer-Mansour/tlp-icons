@@ -1,0 +1,11 @@
+{
+  "name": "friend-map-marker",
+  "category": "maps",
+  "tags": ["friend", "map", "marker", "pin", "person", "location", "meetup"],
+  "svg": "<path class=\"d p1\" d=\"M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z\"/><circle class=\"p2\" cx=\"12\" cy=\"7.8\" r=\"2.2\"/><path class=\"p3\" d=\"M9.5 15a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

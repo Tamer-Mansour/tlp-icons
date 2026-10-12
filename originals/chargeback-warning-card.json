@@ -1,0 +1,19 @@
+{
+  "name": "chargeback-warning-card",
+  "category": "commerce",
+  "tags": [
+    "chargeback",
+    "credit",
+    "card",
+    "dispute",
+    "warning",
+    "payment",
+    "refund"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 9h12\"/><g class=\"p3\"><path d=\"M18 12.5l4 7.5h-8z\"/><path d=\"M18 15.2v2\"/><path d=\"M18 18.6h.01\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

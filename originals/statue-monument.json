@@ -1,0 +1,11 @@
+{
+  "name": "statue-monument",
+  "category": "maps",
+  "tags": ["statue", "monument", "memorial", "sculpture", "landmark", "plinth", "tourism"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"4\" r=\"2\"/><path class=\"d p2\" d=\"M9.5 8h5l.8 8h-6.6z\"/><rect class=\"d p3\" x=\"5\" y=\"16\" width=\"14\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 600 }
+  ]
+}

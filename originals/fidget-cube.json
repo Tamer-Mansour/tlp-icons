@@ -1,0 +1,11 @@
+{
+  "name": "fidget-cube",
+  "category": "health",
+  "tags": ["fidget", "cube", "toy", "stress", "focus", "anxiety", "sensory"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M4 8 8 4h12l-4 4M20 4v12l-4 4\"/><circle class=\"p2\" cx=\"10\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 1000, "origin": "10px 14px" }
+  ]
+}

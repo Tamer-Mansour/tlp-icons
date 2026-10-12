@@ -1,0 +1,12 @@
+{
+  "name": "yacht-charter",
+  "category": "maps",
+  "tags": ["yacht", "boat", "charter", "sail", "cruise", "sea", "holiday"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 16h19l-2.5 4.5H5z\"/><path class=\"p2\" d=\"M7 16v-4h10v4\"/><path class=\"p3\" d=\"M12 16V3\"/><path class=\"p4\" d=\"M12 3.5l6 2.5-6 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

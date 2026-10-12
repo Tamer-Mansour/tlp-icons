@@ -1,0 +1,33 @@
+{
+  "name": "shoe-box-stack",
+  "category": "commerce",
+  "tags": [
+    "shoe",
+    "box",
+    "stack",
+    "footwear",
+    "sneakers",
+    "boxes"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"16\" width=\"19\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"9.5\" width=\"16\" height=\"4.5\" rx=\"1\"/><rect class=\"p3\" x=\"6.5\" y=\"3\" width=\"11\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "riseIn",
+      "dur": 700,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "dropIn",
+      "dur": 800,
+      "delay": 600
+    }
+  ]
+}

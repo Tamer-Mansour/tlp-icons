@@ -1,0 +1,35 @@
+{
+    "name":  "points-multiplier",
+    "category":  "commerce",
+    "tags":  [
+                 "points",
+                 "multiplier",
+                 "rewards",
+                 "loyalty",
+                 "coin",
+                 "bonus"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"7\"/\u003e\u003ccircle class=\"p2\" cx=\"10\" cy=\"14\" r=\"2\"/\u003e\u003cpath class=\"p3\" d=\"M16 3l5 5M21 3l-5 5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  400,
+                       "origin":  "center"
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  500,
+                       "delay":  900,
+                       "origin":  "center"
+                   }
+               ]
+}

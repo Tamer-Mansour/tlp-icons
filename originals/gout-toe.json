@@ -1,0 +1,19 @@
+{
+  "name": "gout-toe",
+  "category": "health",
+  "tags": [
+    "gout",
+    "toe",
+    "joint",
+    "swelling",
+    "inflammation",
+    "foot",
+    "pain"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 21v-9a3.5 3.5 0 0 1 7 0v9z\"/><circle class=\"d p2\" cx=\"16\" cy=\"13\" r=\"3\"/><path class=\"p3\" d=\"M18.5 7l1.5-1.5M18 10.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "prison-key",
+  "category": "legal",
+  "tags": [
+    "prison key",
+    "jail key",
+    "cell key",
+    "keys",
+    "custody",
+    "lock",
+    "detention"
+  ],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7.5\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 11h12\"/><path class=\"p3\" d=\"M18 11v3M21 11v2\"/><path class=\"p4\" d=\"M5.5 11h.01\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 150
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 700
+    },
+    {
+      "part": "p4",
+      "anim": "fadeIn",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

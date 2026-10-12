@@ -1,0 +1,35 @@
+{
+  "name": "cashback-arrow",
+  "category": "commerce",
+  "tags": [
+    "cashback",
+    "refund",
+    "coin",
+    "wallet",
+    "reward",
+    "money back",
+    "return",
+    "savings"
+  ],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M15 10a4 4 0 1 0-1 4\"/><path class=\"p3\" d=\"M15 7v3h-3\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 800,
+      "delay": 300
+    },
+    {
+      "part": "p3",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

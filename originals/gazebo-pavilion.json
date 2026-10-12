@@ -1,0 +1,35 @@
+{
+  "name": "gazebo-pavilion",
+  "category": "maps",
+  "tags": [
+    "gazebo",
+    "pavilion",
+    "park",
+    "shelter",
+    "garden",
+    "columns",
+    "outdoor"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 11c4 0 7-3 9-8 2 5 5 8 9 8z\"/><path class=\"p2\" d=\"M6 11v10M18 11v10\"/><path class=\"p3\" d=\"M6 17h12\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 700,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "grow",
+      "dur": 700,
+      "delay": 400,
+      "origin": "top"
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 500,
+      "delay": 900
+    }
+  ]
+}

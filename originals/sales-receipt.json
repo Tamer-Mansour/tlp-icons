@@ -1,0 +1,11 @@
+{
+  "name": "sales-receipt",
+  "category": "finance",
+  "tags": ["receipt", "sales", "price", "tag", "purchase", "invoice", "paper"],
+  "svg": "<path class=\"p1\" d=\"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1z\"/><path class=\"p2\" d=\"M8 7h8M8 11h3\"/><path class=\"d p3\" d=\"M12 15.5 17.5 10h4.5v4.5L16.5 20 12 15.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 1000, "origin": "17px 15px" }
+  ]
+}
