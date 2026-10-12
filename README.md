@@ -432,7 +432,9 @@ Every motion is small and springy and ends exactly at rest. The default `speed` 
 - Wrong category: add a name pattern or an explicit entry in `config/categories.json`.
 - Run `npm run build && npm test` before opening a PR.
 
-The GitHub Actions (CI and upstream sync) are manual: run them from the Actions tab when needed.
+See [CONTRIBUTING.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/CONTRIBUTING.md) for the full workflow
+and the release process, and [CHANGELOG.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/CHANGELOG.md) for
+what changed in each version.
 
 ## License
 

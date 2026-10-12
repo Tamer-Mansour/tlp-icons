@@ -27,6 +27,25 @@ test('tlp-icons package: no full JSON, has runtime, types and licenses', { timeo
   for (const f of ['dist/core.js.map', 'dist/element.js.map', 'dist/tlp-icon.js.map']) assert.ok(files.includes(f), `${f} missing`);
 });
 
+test('release hygiene: both packages share the version, publishConfig, changelog entry, workflows', async () => {
+  const fsMod = await import('node:fs');
+  const pathMod = await import('node:path');
+  const root = readJson('package.json');
+  const data = readJson('packages/tlp-icons-data/package.json');
+  assert.equal(root.version, data.version);
+  for (const p of [root, data]) assert.deepEqual(p.publishConfig, { access: 'public', provenance: true }, `${p.name} publishConfig`);
+  assert.deepEqual(root.workspaces, ['packages/*']);
+  const changelog = fsMod.readFileSync(pathMod.join(ROOT, 'CHANGELOG.md'), 'utf8');
+  for (const v of [root.version, '0.1.1', '0.1.0']) assert.match(changelog, new RegExp(`## \\[${v.replace(/\./g, '\\.')}\\]`), `CHANGELOG has no ${v} entry`);
+  const release = fsMod.readFileSync(pathMod.join(ROOT, '.github', 'workflows', 'release.yml'), 'utf8');
+  assert.match(release, /tags: \['v\*'\]/);
+  assert.match(release, /id-token: write/);
+  assert.match(release, /npm publish --workspaces --include-workspace-root .*--provenance/);
+  const ci = fsMod.readFileSync(pathMod.join(ROOT, '.github', 'workflows', 'ci.yml'), 'utf8');
+  for (const s of ['push:', 'pull_request:', 'npm ci', 'npm run build', 'npm test', 'tsc -p test/types', 'size-report']) assert.ok(ci.includes(s), `ci.yml misses ${s}`);
+  assert.ok(fsMod.existsSync(pathMod.join(ROOT, 'CONTRIBUTING.md')));
+});
+
 test('minified dist keeps the license banner and source maps resolve', async () => {
   const fsMod = await import('node:fs');
   const pathMod = await import('node:path');

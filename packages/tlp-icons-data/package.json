@@ -1,6 +1,6 @@
 {
   "name": "tlp-icons-data",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "The full tlp-icons set: one JSON file with every icon's SVG, motion, category, tags and source, plus the offline single-file bundle (tlp-icons.all.js).",
   "license": "MIT",
   "homepage": "https://tlp-icons.netlify.app",
@@ -43,5 +43,9 @@
     "svg",
     "icon-data",
     "tlp-icons"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }

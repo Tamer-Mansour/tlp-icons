@@ -1,7 +1,15 @@
 name: CI
-# Manual only (Actions tab -> CI -> Run workflow). Local equivalent: npm test && npm run test:browser
+
+# Note: this workflow is currently disabled in the repository settings (Actions billing). Re-enable it with
+# `gh workflow enable ci.yml` (or the Actions tab) once billing is sorted.
 on:
+  push:
+    branches: [main]
+  pull_request:
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   test:
@@ -11,13 +19,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      # build + unit tests run offline from the committed upstream/ snapshot
-      - run: npm test
-      - name: Browser tests
+          cache: npm
+      - run: npm ci
+      - name: Build (fails on size limits or data problems)
+        run: npm run build
+      - name: Unit, SSR, packaging, docs and recipe tests
+        run: npm test
+      - name: Type tests
+        run: |
+          npx tsc -p test/types/tsconfig.json
+          npx tsc -p test/types/no-react/tsconfig.json
+          npx tsc -p test/recipes/tsconfig.json
+      - name: Browser tests (Playwright)
         run: |
           npm run setup:browser
           npx --yes playwright@latest install-deps chromium
           npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: size-report
+          path: dist/size-report.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -1,0 +1,37 @@
+name: Release
+
+# Push a tag like v0.2.0 to build, test and publish tlp-icons + tlp-icons-data with npm provenance.
+# Uses npm trusted publishing (OIDC): configure it once per package on npmjs.com (see CONTRIBUTING.md).
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+  id-token: write # npm provenance / trusted publishing
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: npm
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+          cache: npm
+      - name: npm with trusted publishing support
+        run: npm install -g npm@latest
+      - run: npm ci
+      - name: Tag must match both package versions
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          ROOT=$(node -p "require('./package.json').version")
+          DATA=$(node -p "require('./packages/tlp-icons-data/package.json').version")
+          echo "tag=$TAG tlp-icons=$ROOT tlp-icons-data=$DATA"
+          test "$TAG" = "$ROOT" && test "$TAG" = "$DATA"
+      - run: npm run build
+      - run: npm test
+      - name: Publish both packages with provenance
+        run: npm publish --workspaces --include-workspace-root --access public --provenance
