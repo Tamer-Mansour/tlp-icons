@@ -4,6 +4,25 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.3.0] - 2026-10-12
+
+### Added
+
+- **32 new animations** (34 -> 66), every one used by icons:
+  - entrances: `zoomIn`, `spiralIn`, `swingIn`, `flipIn`, `focusIn`, `bloom`, `rollIn`
+  - gestures: `buzz`, `tap`, `press`, `beat`, `flicker`, `twinkle`, `sway`, `flutter`, `bob`, `drive`, `launch`,
+    `tada`, `rubber`, `rattle`, `spring`, `knock`, `wave`, `pendulum`, `flipY`, `drip`, `fall`, `retrace`, `peek`
+  - turns: `roll`, `twirl`; `orbit` is now used (atom, orbit, galaxy, satellite)
+- **Legal field complete: 120 -> 1,177 icons** (1,057 new tlp originals: courts, contracts, police, corrections,
+  litigation, roles, rights and IP, government, corporate and tax, family, property, immigration).
+- Animation batches: `config/animations/*.json`, `src/runtime/anims/*.css` and `config/rules-extra/*.json` are merged
+  by the build.
+
+### Changed
+
+- About 1,000 generated icons now use a more fitting new animation (phones buzz, hearts beat, flags flutter...).
+- Manifest size test aligned with the build limit (15 KB gzip).
+
 ## [0.2.0] - 2026-10-12
 
 ### Added
@@ -93,6 +112,7 @@ All notable changes to this project are documented here. The format follows
 - Raw data and SVG helpers (`icons`, `categories`, `getIcon`, `getSvg`, `toSvgString`).
 - The offline single-file bundle and the stylesheet.
 
+[0.3.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Tamer-Mansour/tlp-icons/releases/tag/v0.1.0
