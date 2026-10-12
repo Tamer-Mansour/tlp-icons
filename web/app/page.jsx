@@ -4,7 +4,7 @@ import IconWall from '@/components/IconWall';
 import InstallPill from '@/components/InstallPill';
 import CodeTabs from '@/components/CodeTabs';
 import { FRAMEWORK_TABS } from '@/lib/snippets';
-import { categories, total, icon, roadmap } from '@/lib/data';
+import { categories, total, icon, roadmap, stats } from '@/lib/data';
 
 const WALL = ['bell', 'clock', 'settings', 'heart', 'cloud-rain', 'trash', 'lock', 'search', 'chart-column', 'rocket', 'mail', 'camera', 'map-pin', 'calendar', 'gavel', 'music', 'sun', 'eye', 'download', 'bookmark', 'wifi', 'trophy', 'zap', 'user'];
 const MECHANICS = [
@@ -15,10 +15,10 @@ const MECHANICS = [
   ['cloud-rain', 'Rain falls', 'The cloud floats while the drops fall one by one.'],
   ['lock-open', 'Locks open on the hinge', 'The shackle tilts around the end that stays in the body.'],
 ];
-const FEATURES = [
-  ['sparkles', '100% animated', 'All icons move: hand-made choreographies plus an engine that reads each icon\'s geometry.'],
-  ['layout-grid', `${'6,4'}00+ icons`, 'One consistent style: 24×24 grid, 2px stroke, round caps, currentColor.'],
-  ['zap', 'Tiny and lazy', 'One custom element. Icons load per category, so 10 icons never download 6,000.'],
+const features = s => [
+  ['sparkles', '100% animated', `All ${s.icons.toLocaleString('en')} icons move: ${s.handmade ? `${s.handmade.toLocaleString('en')} hand-made choreographies` : 'hand-made choreographies'} plus an engine that reads each icon's geometry.`],
+  ['layout-grid', `${s.icons.toLocaleString('en')} icons`, `One consistent style in ${s.categories} categories: 24×24 grid, 2px stroke, round caps, currentColor.`],
+  ['zap', 'Tiny and lazy', `One custom element. Icons load per category, so 10 icons never download all ${s.icons.toLocaleString('en')}.`],
   ['mouse-pointer-click', 'Polite motion', 'Plays once, always finishes, never lights up a whole card, respects reduced motion.'],
   ['wifi-off', 'Works offline', 'A single classic script with every icon inside. No network, no build step.'],
   ['scale', 'MIT licensed', 'Free for personal and commercial use. Built on Lucide (ISC) and Tabler (MIT).'],
@@ -29,6 +29,7 @@ export default function Home() {
   const cats = categories();
   const rm = roadmap();
   const count = total();
+  const s = stats();
   return (
     <>
       {/* hero */}
@@ -38,7 +39,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-4 pb-20 pt-16 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:pt-24">
           <div>
             <Link href="/roadmap/" className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-white/80 py-1 pe-3 ps-1 text-xs font-semibold text-brand shadow-card">
-              <span className="rounded-full bg-brand px-2 py-0.5 text-white">New</span> Brand icons + roadmap to 26,000 icons →
+              <span className="rounded-full bg-brand px-2 py-0.5 text-white">New</span> {s.brands} brand icons + roadmap to {rm.goal.total.toLocaleString('en')} icons →
             </Link>
             <h1 className="mt-6 text-5xl font-extrabold leading-[1.04] tracking-[-0.035em] text-ink sm:text-6xl lg:text-7xl">
               Every icon,<br /><span className="text-gradient">animated.</span>
@@ -74,7 +75,7 @@ export default function Home() {
       {/* stats */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6">
         <dl className="-mt-px grid grid-cols-2 divide-line border-x border-b border-line md:grid-cols-4 md:divide-x">
-          {[[count.toLocaleString('en'), 'icons'], [cats.length, 'categories'], ['34', 'animations'], ['0', 'dependencies']].map(([v, l]) => (
+          {[[count.toLocaleString('en'), 'icons'], [s.categories, 'categories'], [s.animations, 'animations'], ['0', 'dependencies']].map(([v, l]) => (
             <div key={l} className="px-6 py-7 text-center">
               <dt className="text-3xl font-bold tracking-tight text-ink">{v}</dt>
               <dd className="mt-1 text-sm text-ink-3">{l}</dd>
@@ -106,10 +107,10 @@ export default function Home() {
       {/* features */}
       <section className="mx-auto max-w-7xl px-4 pt-24 sm:px-6">
         <div className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {FEATURES.map(([n, t, d]) => (
+          {features(s).map(([n, t, d]) => (
             <div key={n} className="tile-host">
               <span className="tile size-12"><Icon name={n} size="24" duotone /></span>
-              <h3 className="mt-5 text-lg font-semibold">{t.replace('6,400', count.toLocaleString('en'))}</h3>
+              <h3 className="mt-5 text-lg font-semibold">{t}</h3>
               <p className="mt-2 leading-7 text-ink-2">{d}</p>
             </div>
           ))}

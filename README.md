@@ -13,15 +13,19 @@
   <a href="https://github.com/Tamer-Mansour/tlp-icons">GitHub</a>
 </p>
 
+<!-- badges:start -->
 <p align="center">
+  <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=4f46e5"></a>
+  <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=4f46e5"></a>
+  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-5.0%20KB%20gzip-16a34a"></a>
+  <a href="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/tlp-icons?color=16a34a"></a>
   <img alt="icons" src="https://img.shields.io/badge/icons-6%2C620-4f46e5">
-  <img alt="animated" src="https://img.shields.io/badge/animated-100%25-4f46e5">
-  <img alt="license" src="https://img.shields.io/badge/license-MIT-16a34a">
-  <img alt="dependencies" src="https://img.shields.io/badge/dependencies-0-0ea5e9">
 </p>
+<!-- badges:end -->
 
-A free, open-source (MIT) library of 6,620 stroke icons, built from the best free sets (Lucide and Tabler) plus
-our own **tlp originals**, sorted into 35 hand-curated categories, including **376 brand logos** (Facebook,
+A free, open-source (MIT) library of <!--s:icons-->6,620<!--/s--> stroke icons, built from the best free sets (Lucide and Tabler) plus
+our own **tlp originals**, sorted into <!--s:categories-->35<!--/s--> hand-curated categories, including **<!--s:brands-->376<!--/s--> brand logos** (Facebook,
 Instagram, WhatsApp, X, TikTok, YouTube...). Every single one moves on hover: clock hands sweep around the face,
 gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
 
@@ -31,7 +35,7 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 <td><a href="https://tlp-icons.netlify.app/categories/legal/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/category.png" alt="Legal category page"></a></td>
 <td><a href="https://tlp-icons.netlify.app/icons/courthouse/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/icon-page.png" alt="Icon page with live playground and code"></a></td>
 </tr><tr>
-<td align="center">Category pages (legal: 120 icons)</td>
+<td align="center">Category pages (legal: <!--s:cat.legal-->120<!--/s--> icons)</td>
 <td align="center">One page per icon: playground + code</td>
 </tr></table>
 
@@ -41,15 +45,15 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 ![Frame strips](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/frame-strips.png)
 </details>
 
-- **6,620 icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
-- **100% animated**: 300+ hand-made choreographies, plus a motion engine that reads each icon's geometry.
-- **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to 120 first; the
+- **<!--s:icons-->6,620<!--/s--> icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
+- **100% animated**: <!--s:handmade-->439<!--/s--> hand-made choreographies, plus a motion engine that reads each icon's geometry.
+- **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to <!--s:cat.legal-->120<!--/s--> first; the
   [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes it to 1,180 and the whole library to 26,000.
-- **Brand logos**: 376 brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
+- **Brand logos**: <!--s:brands-->376<!--/s--> brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
-- **Lazy**: icons load per category, so a page that uses 10 icons doesn't download 6,000.
+- **Lazy**: icons load per category, so a page that uses 10 icons doesn't download all <!--s:icons-->6,620<!--/s-->.
 - **Polite motion**: plays once to the end, never animates a whole card at once, respects `prefers-reduced-motion`.
-- **Works offline**: the gallery opens straight from disk, and the build never needs the network.
+- **Works offline**: one classic script with every icon (in `tlp-icons-data`) runs from `file://`, and the build never needs the network.
 
 ## Install
 
@@ -187,7 +191,7 @@ pre-rendered static HTML for search engines, and the whole site is about 45 MB:
 | --- | --- |
 | Home | `/` |
 | Icon gallery (search, filters, size / stroke / color / duotone) | `/icons/` |
-| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (6,620 pages) |
+| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (<!--s:icons-->6,620<!--/s--> pages) |
 | Categories, one page each, including Brands | `/categories/`, `/categories/<id>/` |
 | Documentation with live examples and the animation library | `/docs/` |
 | Roadmap with live progress | `/roadmap/` |
@@ -227,7 +231,7 @@ npm run test:browser   optional Playwright tests + frame strips (npm run setup:b
 - `scripts/adapters/`: one adapter per icon source (`latest`, `fetch`, `load`). Add a set by adding an adapter.
 - `scripts/engine/`: SVG parsing, geometry, the motion engine and serialisation.
 - `src/runtime/`: `core.js` (registry, baking, run engine, hover rule), `element.js` (`<tlp-icon>`) and
-  `tlp-icons.css` (the 34 `tlp-` keyframes).
+  `tlp-icons.css` (the <!--s:animations-->34<!--/s--> `tlp-` keyframes).
 
 **Motion engine.** Every icon is split into atoms (one per element or sub-path) and measured. Then:
 

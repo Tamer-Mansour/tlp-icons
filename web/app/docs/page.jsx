@@ -3,7 +3,7 @@ import Icon from '@/components/Icon';
 import CodeBlock from '@/components/CodeBlock';
 import DocsToc from '@/components/DocsToc';
 import AnimLibrary from '@/components/AnimLibrary';
-import { icon, total, categories } from '@/lib/data';
+import { icon, total, categories, stats } from '@/lib/data';
 
 export const metadata = {
   title: 'Documentation',
@@ -144,7 +144,7 @@ export default function Docs() {
         <p>Importing <code>icons</code> pulls in the whole set. In pages, prefer <code>&lt;tlp-icon&gt;</code>: it downloads one category at a time.</p>
 
         <h2 id="animations">Animation library</h2>
-        <p>Every choreography is built from these 34 animations. Entrances bring a part into place; gestures move it and return exactly to rest. All keyframes are prefixed <code>tlp-</code> so they never clash with Tailwind or your CSS. Hover a tile:</p>
+        <p>Every choreography is built from these {stats().animations} animations. Entrances bring a part into place; gestures move it and return exactly to rest. All keyframes are prefixed <code>tlp-</code> so they never clash with Tailwind or your CSS. Hover a tile:</p>
         <AnimLibrary demos={demos()} />
 
         <h2 id="a11y">Accessibility</h2>

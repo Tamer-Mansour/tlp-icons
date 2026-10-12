@@ -13,6 +13,7 @@ import { categorize, orderIcons } from './engine/categorize.mjs';
 import { bundleRuntime } from './lib/bundle.mjs';
 import { encodeManifest, decoderSource, gzipSize } from './lib/manifest.mjs';
 import { minifyDist, sizeReport, formatSizeTable } from './lib/minify.mjs';
+import { run as syncDocs } from './sync-docs.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const argv = process.argv.slice(2);
@@ -292,6 +293,20 @@ if (outRoot === ROOT) {
   fs.copyFileSync(path.join(DIST, 'tlp-icons.all.js'), path.join(ROOT, 'packages', 'tlp-icons-data', 'tlp-icons.all.js'));
 }
 
+// the single source of truth for every number shown in README.md, package.json and the website
+const stats = {
+  version: pkg.version,
+  icons: ordered.length,
+  categories: catMeta.length,
+  aliases: Object.keys(aliasMap).length,
+  originals: ordered.filter(i => i.source === 'tlp').length,
+  brands: ordered.filter(i => i.category === 'brands').length,
+  animations: Object.keys(ANIMS).length,
+  handmade: ordered.filter(i => i.rule === 'override' || i.rule === 'original').length,
+  byCategory: Object.fromEntries(catMeta.map(c => [c.id, c.count])),
+};
+fs.writeFileSync(path.join(DIST, 'stats.json'), `${JSON.stringify(stats, null, 2)}\n`);
+
 // which engine rule (or override / original) produced each icon's motion - used by the review tools
 fs.writeFileSync(path.join(DIST, 'motion-rules.json'), `${JSON.stringify(Object.fromEntries(ordered.map(i => [i.name, i.rule])))}\n`);
 
@@ -313,6 +328,10 @@ console.log(`tlp-icons ${pkg.version}: ${ordered.length} icons in ${catMeta.leng
 const kb = n => `${(n / 1024).toFixed(1)} KB`;
 console.log(`manifest: ${kb(manifestSizes.before.raw)} raw / ${kb(manifestSizes.before.gzip)} gzip -> ${kb(manifestSizes.after.raw)} raw / ${kb(manifestSizes.after.gzip)} gzip`);
 console.log(`sizes (minified):\n${formatSizeTable(sizes.rows)}`);
+if (outRoot === ROOT) {
+  const docs = syncDocs();
+  console.log(`docs: README ${docs.readmeChanged ? 'updated' : 'up to date'}, package.json description ${docs.descriptionChanged ? 'updated' : 'up to date'} (from dist/stats.json)`);
+}
 if (sizes.failures.length) {
   console.log(`SIZE LIMITS EXCEEDED:\n  ${sizes.failures.join('\n  ')}`);
   process.exitCode = 1;

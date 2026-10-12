@@ -3,7 +3,7 @@ import Icon from '@/components/Icon';
 import { categories, roadmap, total, icon } from '@/lib/data';
 
 export const metadata = {
-  title: 'Roadmap — growing to 26,000 animated icons',
+  title: `Roadmap — growing to ${roadmap().goal.total.toLocaleString('en')} animated icons`,
   description: 'The tlp-icons growth plan: deep professional fields first (legal, health, finance, commerce, education), every icon animated.',
   alternates: { canonical: '/roadmap/' },
 };
