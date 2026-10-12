@@ -39,7 +39,7 @@ export default async function CategoryPage({ params }) {
             <span className="grid size-16 place-items-center rounded-2xl" style={{ background: `color-mix(in srgb, ${c.color} 13%, white)`, color: c.color }}><Icon name={c.icon} size="32" stroke="1.75" trigger="loop" /></span>
             <div className="flex-1">
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{c.title} icons</h1>
-              <p className="mt-1 text-ink-2">{c.count.toLocaleString('en')} animated icons{originals ? `, ${originals} tlp originals` : ''}. Hover to play, click for code.</p>
+              <p className="mt-1 text-ink-2">{c.count.toLocaleString('en')} animated icons{originals ? `, ${originals.toLocaleString('en')} tlp originals` : ''}. Hover to play, click for code.</p>
             </div>
             {target && (
               <Link href="/roadmap/" className="card w-full max-w-xs p-4 sm:w-72">

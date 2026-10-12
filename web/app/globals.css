@@ -59,7 +59,10 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 .lh nav a { padding: .4rem .75rem; border-radius: .5rem; font-size: .875rem; font-weight: 500; color: var(--color-ink-2); }
 .lh nav a:hover { background: var(--color-paper); color: var(--color-ink); }
 .lh nav a.on { background: var(--color-brand-soft); color: var(--color-brand); }
-.lh .gh { margin-inline-start: auto; height: 2.25rem; display: flex; align-items: center; padding: 0 .8rem; border-radius: .5rem; background: var(--color-ink); color: #fff; font-size: .875rem; font-weight: 600; }
+.lh .lg small { border: 1px solid var(--color-line); background: var(--color-paper); border-radius: 999px; padding: .1rem .5rem; font-size: 11px; font-weight: 600; color: var(--color-ink-2); }
+.lh .np { margin-inline-start: auto; height: 2.25rem; display: flex; align-items: center; gap: .4rem; padding: 0 .8rem; border-radius: .5rem; border: 1px solid var(--color-line); background: #fff; color: var(--color-ink-2); font-size: .875rem; font-weight: 600; }
+.lh .np:hover { color: #cb3837; }
+.lh .gh { height: 2.25rem; display: flex; align-items: center; padding: 0 .8rem; border-radius: .5rem; background: var(--color-ink); color: #fff; font-size: .875rem; font-weight: 600; }
 @media (max-width: 760px) { .lh nav a:not(.on) { display: none; } }
 .lm { max-width: 80rem; margin: 0 auto; padding: 2rem 1.5rem 0; }
 .lm .bc { font-size: .875rem; color: var(--color-ink-3); } .lm .bc a:hover { color: var(--color-brand); }

@@ -35,31 +35,44 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 <td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/loop.gif" width="420" alt="Loaders with trigger=loop"><br><sub><code>trigger="loop"</code></sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/rtl.gif" width="420" alt="The same arrow in LTR and RTL with flip=rtl"><br><sub><code>flip="rtl"</code> mirrors the icon and its motion</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/hold.gif" width="420" alt="trigger=hold: the icon animates, stays while hovered and returns on leave"><br><sub><code>trigger="hold"</code> stays at its peak while hovered</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/animations.gif" width="420" alt="New animations: buzz, beat, flicker, sway, flutter, drive, wave, drip"><br><sub><!--s:animations-->66<!--/s--> animations, each picked for what the icon is</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/fields.gif" width="420" alt="New health, finance, commerce and maps icons"><br><sub>Deep fields: legal, health, finance, commerce, maps</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/duotone.gif" width="420" alt="Icons without and with duotone"><br><sub><code>duotone</code> adds a soft tinted body</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/rtl.gif" width="420" alt="The same arrow in LTR and RTL with flip=rtl"><br><sub><code>flip="rtl"</code> mirrors the icon and its motion</sub></td>
+<td></td>
 </tr>
 </table>
 
 [![tlp-icons website](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/website.png)](https://tlp-icons.netlify.app)
 
 <table><tr>
-<td><a href="https://tlp-icons.netlify.app/categories/legal/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/category.png" alt="Legal category page"></a></td>
-<td><a href="https://tlp-icons.netlify.app/icons/courthouse/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/icon-page.png" alt="Icon page with live playground and code"></a></td>
+<td><a href="https://tlp-icons.netlify.app/categories/health/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/category.png" alt="Health category page"></a></td>
+<td><a href="https://tlp-icons.netlify.app/icons/ambulance-siren/"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/icon-page.png" alt="Icon page with live playground and code"></a></td>
 </tr><tr>
-<td align="center">Category pages (legal: <!--s:cat.legal-->1,180<!--/s--> icons)</td>
+<td align="center">Category pages (health: <!--s:cat.health-->1,200<!--/s--> icons)</td>
 <td align="center">One page per icon: playground + code</td>
 </tr></table>
 
 <details>
-<summary>Motion frames (each row is one hover animation frozen at 10 points)</summary>
+<summary>Motion frames (each row is one hover animation frozen at 8 points)</summary>
 
 ![Frame strips](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/frame-strips.png)
 </details>
 
 - **<!--s:icons-->11,238<!--/s--> icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
 - **100% animated**: <!--s:handmade-->5,057<!--/s--> hand-made choreographies, plus a motion engine that reads each icon's geometry.
-- **Deep fields**: we draw our own icons where the free sets stop. Legal went from 18 to <!--s:cat.legal-->1,180<!--/s--> first; the
-  [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes it to 1,180 and the whole library to 26,000.
+- **Deep fields**: we draw our own icons where the free sets stop (<!--s:originals-->4,795<!--/s--> tlp originals). Legal
+  (<!--s:cat.legal-->1,180<!--/s-->), health (<!--s:cat.health-->1,200<!--/s-->), finance (<!--s:cat.finance-->1,100<!--/s-->), commerce (<!--s:cat.commerce-->999<!--/s-->) and maps (<!--s:cat.maps-->1,000<!--/s-->) are at their
+  targets; the [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes the whole library to 26,000.
+- **<!--s:animations-->66<!--/s--> animations**: draw, pop, swing, spin... plus beat for hearts, sway for plants, flutter for flags,
+  drive for vehicles, wave for hands, drip for drops: each icon gets the motion that fits what it is.
+- **Hover and hold**: `trigger="hold"` animates to the peak on hover and stays there, then returns when the mouse leaves.
+  `animated="false"` (or `config.animated = false`) makes icons static.
 - **Brand logos**: <!--s:brands-->376<!--/s--> brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
 - **Lazy**: icons load per category, so a page that uses 10 icons doesn't download all <!--s:icons-->11,238<!--/s-->.
@@ -79,8 +92,8 @@ Or with no build step, from a CDN:
 <tlp-icon name="bell"></tlp-icon>
 ```
 
-Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about 2.3 MB,
-390 KB gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
+Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about
+<!--s:size.4.raw-->3586.4 KB<!--/s-->, <!--s:size.4.gzip-->665.3 KB<!--/s--> gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
 
 ```html
 <script src="node_modules/tlp-icons-data/tlp-icons.all.js"></script>

@@ -4,6 +4,16 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.4.1] - 2026-10-12
+
+### Docs
+
+- README: new animated previews for `trigger="hold"`, the new animations and the new fields; refreshed website,
+  category, icon-page and motion-frame images; feature list covers hover-and-hold, static icons, 66 animations and
+  the five complete fields; offline bundle size is generated from the build.
+- Website: homepage features and roadmap teaser for the new fields and triggers, npm link and version on every
+  icon page, new social image.
+
 ## [0.4.0] - 2026-10-12
 
 ### Added
@@ -155,6 +165,7 @@ All notable changes to this project are documented here. The format follows
 - Raw data and SVG helpers (`icons`, `categories`, `getIcon`, `getSvg`, `toSvgString`).
 - The offline single-file bundle and the stylesheet.
 
+[0.4.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.2...v0.4.0
 [0.3.2]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.1...v0.3.2
 [0.3.1]: https://github.com/Tamer-Mansour/tlp-icons/compare/v0.3.0...v0.3.1

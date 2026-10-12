@@ -37,7 +37,7 @@ const label = n => n.replace(/^brand-/, '').split('-').map(w => w[0].toUpperCase
 const svg = n => `<svg viewBox="0 0 24 24" class="tlp" aria-hidden="true">${D.icons[n].svg}</svg>`;
 
 const NAV = [['/icons/', 'Icons'], ['/categories/', 'Categories'], ['/categories/brands/', 'Brands'], ['/docs/', 'Docs'], ['/roadmap/', 'Roadmap']];
-const header = `<header class="lh"><div><a href="/" class="lg"><img src="/favicon.svg" alt="">tlp-icons</a><nav>${NAV.map(([h, t]) => `<a href="${h}"${h === '/icons/' ? ' class="on"' : ''}>${t}</a>`).join('')}</nav><a class="gh" href="${REPO}">GitHub</a></div></header>`;
+const header = `<header class="lh"><div><a href="/" class="lg"><img src="/favicon.svg" alt="">tlp-icons<small>v${version}</small></a><nav>${NAV.map(([h, t]) => `<a href="${h}"${h === '/icons/' ? ' class="on"' : ''}>${t}</a>`).join('')}</nav><a class="np" href="https://www.npmjs.com/package/tlp-icons"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="#cb3837" d="M2 7h20v9H12v1.5H7.5V16H2zm1.5 1.5v6h3v-4.5H8v4.5h1.5v-6zm7.5 0v7.5h3v-1.5h3v-6zm3 1.5H15v3h-1.5zm4.5-1.5v6h3v-4.5H20v4.5h1.5v-6z"/></svg>npm</a><a class="gh" href="${REPO}">GitHub</a></div></header>`;
 const footer = `<footer class="lf"><p><b>tlp-icons</b> · ${names.length.toLocaleString('en')} free animated icons · MIT · <a href="/docs/">Docs</a> · <a href="${REPO}">GitHub</a> · Geometry from Lucide (ISC) and Tabler Icons (MIT). Brand logos are trademarks of their owners.</p></footer>`;
 
 function related(n) {
