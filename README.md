@@ -93,7 +93,7 @@ Or with no build step, from a CDN:
 ```
 
 Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about
-<!--s:size.4.raw-->3586.4 KB<!--/s-->, <!--s:size.4.gzip-->665.3 KB<!--/s--> gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
+<!--s:size.4.raw-->3586.4 KB<!--/s-->, <!--s:size.4.gzip-->665.2 KB<!--/s--> gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
 
 ```html
 <script src="node_modules/tlp-icons-data/tlp-icons.all.js"></script>
