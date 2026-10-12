@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, readJson, keyframes } from './helpers.mjs';
-import { ANIMS } from '../scripts/engine/anims.mjs';
+import { ANIMS, runtimeCss, loadRules } from '../scripts/engine/anims.mjs';
 import { tokenize, toSubpaths } from '../scripts/engine/path.mjs';
 import { parseUpstreamSvg } from '../scripts/engine/svg.mjs';
 import { atomize } from '../scripts/engine/atoms.mjs';
 import { choreograph, validateRules } from '../scripts/engine/motion.mjs';
 
-const css = fs.readFileSync(path.join(ROOT, 'src', 'runtime', 'tlp-icons.css'), 'utf8');
+const css = runtimeCss();
 const KF = keyframes(css);
 
 test('every anim has a tlp- keyframe and every keyframe is in the library', () => {
@@ -91,7 +91,7 @@ test('the svg parser rejects scripts, event handlers and foreign elements', () =
 });
 
 // ---- engine behaviour on real upstream geometry (bypassing hand overrides)
-const rules = readJson('config/rules.json');
+const rules = loadRules();
 const upstream = new Map();
 for (const id of Object.keys(readJson('config/sources.json'))) for (const i of readJson(`upstream/${id}.json`).icons) if (!upstream.has(i.name)) upstream.set(i.name, i);
 const geom = name => { const elements = parseUpstreamSvg(`<svg viewBox="0 0 24 24">${upstream.get(name).svg}</svg>`, name); return { elements, atoms: atomize(elements) }; };
@@ -100,7 +100,7 @@ const env = {
   mechanics: tokens => { for (const [k, w] of Object.entries(rules.mechanics)) if (tokens.some(t => w.includes(t))) return k; return null; },
   has: n => upstream.has(n), lookup: n => (upstream.has(n) ? geom(n).atoms : null), isModifier: () => true,
 };
-test('config/rules.json only uses known anims, targets, origins and recipes', () => {
+test('config/rules.json + rules-extra only use known anims, targets, origins and recipes', () => {
   assert.doesNotThrow(() => validateRules(rules));
   assert.throws(() => validateRules({ rules: [{ id: 'x', words: ['x'], steps: [{ t: 'main', a: 'wobble' }] }] }), /unknown anim wobble/);
   assert.throws(() => validateRules({ rules: [{ id: 'x', words: ['x'], steps: [{ t: 'nowhere', a: 'pop' }] }] }), /unknown target/);

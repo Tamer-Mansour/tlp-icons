@@ -41,8 +41,17 @@ const LIB = [
   ['spin', 'settings', 'turn'], ['spinBack', 'rotate-ccw', 'turn'], ['spinHalf', 'hourglass', 'turn'], ['sweep', 'clock', 'turn'],
   ['sweepHour', 'clock-9', 'turn'], ['blink', 'eye', 'gesture'], ['shake', 'triangle-alert', 'gesture'], ['pulseRing', 'circle-dot', 'gesture'],
   ['orbit', 'orbit', 'turn'], ['stretch', 'move-horizontal', 'gesture'],
+  ['zoomIn', 'zoom-in', 'entrance'], ['spiralIn', 'spiral', 'entrance'], ['swingIn', 'label', 'entrance', 'top'], ['flipIn', 'id', 'entrance'],
+  ['focusIn', 'aperture', 'entrance'], ['bloom', 'flower', 'entrance'], ['rollIn', 'coin', 'entrance'], ['buzz', 'vibrate', 'gesture'],
+  ['tap', 'click', 'gesture'], ['press', 'power', 'gesture'], ['beat', 'heart-handshake', 'gesture'], ['flicker', 'flame', 'gesture', 'bottom'],
+  ['twinkle', 'sparkle', 'gesture'], ['sway', 'plant', 'gesture', 'bottom'], ['flutter', 'flag-up', 'gesture', 'left'], ['bob', 'ship', 'gesture'],
+  ['drive', 'truck', 'gesture', 'bottom'], ['launch', 'rocket', 'gesture'], ['roll', 'ball-basketball', 'turn'], ['tada', 'gift', 'gesture'],
+  ['rubber', 'mood-smile', 'gesture'], ['rattle', 'dice', 'gesture'], ['spring', 'rabbit', 'gesture', 'bottom'], ['knock', 'door', 'gesture', 'left'],
+  ['wave', 'hand', 'gesture', 'bottom'], ['pendulum', 'metronome', 'gesture', 'top'], ['twirl', 'whirl', 'turn'], ['flipY', 'flip-vertical', 'gesture'],
+  ['drip', 'droplet', 'gesture'], ['fall', 'parachute', 'gesture'], ['retrace', 'scribble', 'gesture'], ['peek', 'ghost', 'gesture', 'bottom'],
 ];
-const DUR = { draw: 1000, fillIn: 1000, popIn: 800, fadeIn: 800, slideIn: 800, riseIn: 800, dropIn: 800, grow: 900, growX: 800, pop: 800, breathe: 1300, jelly: 1100, swing: 1400, wiggle: 1100, tilt: 1100, nod: 1000, strike: 1100, hop: 1000, lift: 1000, sink: 1000, nudge: 1000, nudgeBack: 1000, float: 1600, flip: 1200, spin: 1500, spinBack: 1500, spinHalf: 1200, sweep: 1600, sweepHour: 1600, blink: 900, shake: 1000, pulseRing: 1200, orbit: 1600, stretch: 1000 };
+const DUR = { draw: 1000, fillIn: 1000, popIn: 800, fadeIn: 800, slideIn: 800, riseIn: 800, dropIn: 800, grow: 900, growX: 800, pop: 800, breathe: 1300, jelly: 1100, swing: 1400, wiggle: 1100, tilt: 1100, nod: 1000, strike: 1100, hop: 1000, lift: 1000, sink: 1000, nudge: 1000, nudgeBack: 1000, float: 1600, flip: 1200, spin: 1500, spinBack: 1500, spinHalf: 1200, sweep: 1600, sweepHour: 1600, blink: 900, shake: 1000, pulseRing: 1200, orbit: 1600, stretch: 1000,
+  zoomIn: 900, spiralIn: 1100, swingIn: 1200, flipIn: 1000, focusIn: 1100, bloom: 1100, rollIn: 1100, buzz: 900, tap: 1100, press: 900, beat: 1100, flicker: 1200, twinkle: 900, sway: 1800, flutter: 1300, bob: 1700, drive: 1100, launch: 1200, roll: 1400, tada: 1100, rubber: 1000, rattle: 900, spring: 1100, knock: 900, wave: 1400, pendulum: 1900, twirl: 1300, flipY: 1100, drip: 1300, fall: 1300, retrace: 1300, peek: 1000 };
 
 function demos() {
   return LIB.map(([anim, base, kind, origin]) => {

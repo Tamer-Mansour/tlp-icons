@@ -9,6 +9,7 @@ const SINE = 'cubic-bezier(.45,.05,.55,.95)';
 export const EASE = {
   draw: 'cubic-bezier(.65,.05,.36,1)', fillIn: 'ease', popIn: OUT, fadeIn: 'ease', slideIn: OUT, riseIn: OUT, dropIn: OUT,
   grow: OUT, growX: OUT, spin: TURN, spinBack: TURN, spinHalf: TURN, sweep: TURN, sweepHour: TURN, orbit: TURN,
+  /*__EASE__*/
 };
 
 const NS = 'http://www.w3.org/2000/svg';

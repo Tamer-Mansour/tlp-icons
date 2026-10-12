@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseUpstreamSvg, ALLOWED_ATTRS, ALLOWED_ELEMENTS } from './engine/svg.mjs';
-import { ANIMS, LEGACY, LIMITS, SPEED } from './engine/anims.mjs';
+import { ANIMS, LEGACY, LIMITS, SPEED, runtimeCss } from './engine/anims.mjs';
 import { atomize, unionBox } from './engine/atoms.mjs';
 import { toSvgString } from '../src/runtime/core.js';
 import { loadPlaywright } from '../test/browser/pw.mjs';
@@ -78,7 +78,7 @@ const seen = new Map();
 for (const n of all) { const k = n; if (seen.has(k)) problems.push(`duplicate original ${k}`); seen.set(k, 1); }
 
 if (icons.length) {
-  const css = fs.readFileSync(path.join(ROOT, 'src', 'runtime', 'tlp-icons.css'), 'utf8');
+  const css = runtimeCss();
   const shots = path.join(ROOT, 'test', 'browser', 'shots');
   fs.mkdirSync(shots, { recursive: true });
   const { chromium } = await loadPlaywright();

@@ -1,0 +1,14 @@
+[
+  { "id": "b04-drive", "words": ["car", "car-front", "car-suv", "car-4wd", "car-off-road", "car-taxi-front", "truck", "truck-delivery", "truck-loading", "truck-return", "truck-off", "rv-truck", "bus", "bus-front", "bus-off", "van", "taxi", "tractor", "scooter", "motorbike", "moped", "bike", "bike-off", "caravan"], "exact": true, "nameOnly": true, "body": false, "steps": [
+    { "t": "all", "a": "drive", "o": "boxBottom", "dur": 1100 }
+  ] },
+  { "id": "b04-send-to-back", "words": ["send-to-back"], "exact": true, "whole": true, "nameOnly": true, "body": false, "steps": [
+    { "t": "main", "a": "sink", "dur": 1000, "stagger": true, "by": "size", "gap": 90 }
+  ] },
+  { "id": "b04-launch", "words": ["rocket", "send", "send-2", "send-horizontal", "paper-plane", "plane-takeoff", "plane-departure"], "exact": true, "nameOnly": true, "body": false, "steps": [
+    { "t": "all", "a": "launch", "dur": 1200 }
+  ] },
+  { "id": "b04-roll", "words": ["wheel", "tire", "tyre", "ball-baseball", "ball-basketball", "ball-bowling", "ball-football", "ball-tennis", "ball-volleyball", "ball-american-football", "exercise-ball", "rugby-ball", "christmas-ball", "crystal-ball", "disc-golf"], "exact": true, "nameOnly": true, "body": false, "steps": [
+    { "t": "all", "a": "roll", "o": "iconCenter", "dur": 1400 }
+  ] }
+]

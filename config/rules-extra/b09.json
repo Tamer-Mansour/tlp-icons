@@ -1,0 +1,22 @@
+[
+  { "id": "b09-metronome", "whole": true, "nameOnly": true, "words": ["metronome"], "steps": [
+    { "t": "notBody", "a": "pendulum", "o": "bodyBottom", "dur": 1900 }
+  ] },
+  { "id": "b09-pendulum", "whole": true, "nameOnly": true, "words": ["pendulum", "lamp-ceiling", "ceiling-light", "chandelier", "swing"], "body": false, "steps": [
+    { "t": "all", "a": "pendulum", "o": "boxTop", "dur": 1900 }
+  ] },
+  { "id": "b09-twirl", "whole": true, "nameOnly": true, "words": ["whirl", "whirlwind", "spiral", "vortex", "cyclone", "hurricane", "ballerina", "shell", "roulette", "ship-wheel"], "body": false, "steps": [
+    { "t": "all", "a": "twirl", "o": "iconCenter", "dur": 1300 }
+  ] },
+  { "id": "b09-flipy", "exact": true, "nameOnly": true, "words": ["flip-vertical", "arrow-up-down", "arrows-up-down", "arrows-vertical", "move-vertical", "arrows-move-vertical", "switch-vertical", "transfer-vertical", "arrows-transfer-up-down", "caret-up-down", "chevrons-up-down", "swap-vertical"], "body": false, "steps": [
+    { "t": "all", "a": "flipY", "o": "iconCenter", "dur": 1100 }
+  ] },
+  { "id": "b09-flipy-sort", "exact": true, "nameOnly": true, "words": ["sort-ascending", "sort-descending", "sort-ascending-2", "arrows-sort"], "body": false, "steps": [
+    { "t": "all", "a": "flipY", "o": "iconCenter", "dur": 1100 }
+  ] },
+  { "id": "b09-orbit", "words": ["atom", "orbit", "orbits", "atom-2", "orbit-vertical", "galaxy"], "nameOnly": true, "body": false, "steps": [
+    { "t": "curves", "a": "orbit", "o": "iconCenter", "dur": 1500 },
+    { "t": "rest", "a": "pop", "dur": 700, "dl": 500 }
+  ] },
+  { "id": "b09-satellite", "exact": true, "nameOnly": true, "words": ["satellite"], "body": false, "steps": [{ "t": "curves", "a": "orbit", "o": "iconCenter", "dur": 1500 }] }
+]

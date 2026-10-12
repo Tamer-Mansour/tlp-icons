@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { parseUpstreamSvg, ALLOWED_ATTRS, ALLOWED_ELEMENTS } from './engine/svg.mjs';
 import { atomize } from './engine/atoms.mjs';
 import { choreograph, validateRules } from './engine/motion.mjs';
-import { ANIMS, LEGACY, LIMITS, SPEED } from './engine/anims.mjs';
+import { ANIMS, LEGACY, LIMITS, SPEED, EXTRA_EASE, runtimeCss, loadRules } from './engine/anims.mjs';
 import { categorize, orderIcons } from './engine/categorize.mjs';
 import { bundleRuntime } from './lib/bundle.mjs';
 import { encodeManifest, decoderSource, gzipSize } from './lib/manifest.mjs';
@@ -25,7 +25,7 @@ const readJson = p => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 
 const sources = readJson('config/sources.json');
 const catConfig = readJson('config/categories.json');
-const rulesConfig = readJson('config/rules.json');
+const rulesConfig = loadRules();
 validateRules(rulesConfig);
 const problems = [];
 const t0 = Date.now();
@@ -234,8 +234,8 @@ if (outRoot === ROOT) {
 }
 
 // runtime files
-const css = fs.readFileSync(path.join(ROOT, 'src', 'runtime', 'tlp-icons.css'), 'utf8');
-const runtime = bundleRuntime(ROOT, css);
+const css = runtimeCss();
+const runtime = bundleRuntime(ROOT, css, EXTRA_EASE);
 fs.writeFileSync(path.join(DIST, 'tlp-icons.css'), css);
 fs.writeFileSync(path.join(DIST, 'core.js'), header + runtime.coreEsm);
 fs.writeFileSync(path.join(DIST, 'element.js'), header + runtime.elementEsm);

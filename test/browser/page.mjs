@@ -6,9 +6,11 @@ import crypto from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
+// TLP_DIST points the review tools at a build made with `node scripts/build.mjs --out <dir>` (<dir>/dist)
+const DIST = process.env.TLP_DIST ? path.resolve(process.env.TLP_DIST) : path.join(ROOT, 'dist');
 
 export function testPage(body, { css = '', title = 'tlp-icons test' } = {}) {
-  const bundle = path.join(ROOT, 'dist', 'tlp-icons.all.js');
+  const bundle = path.join(DIST, 'tlp-icons.all.js');
   if (!fs.existsSync(bundle)) throw new Error('dist/ missing - run "npm run build" first');
   const html = `<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><title>${title}</title>
 <style>body{margin:0;font:13px system-ui,sans-serif;color:#4f46e5;--tlp-duo:.16}${css}</style>
@@ -20,4 +22,4 @@ export function testPage(body, { css = '', title = 'tlp-icons test' } = {}) {
   return pathToFileURL(file).href;
 }
 
-export const readData = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'dist', 'tlp-icons.json'), 'utf8'));
+export const readData = () => JSON.parse(fs.readFileSync(path.join(DIST, 'tlp-icons.json'), 'utf8'));

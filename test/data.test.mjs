@@ -98,6 +98,11 @@ test('every motion step targets an existing part, uses a known anim and stays in
   assert.deepEqual(bad.slice(0, 20), [], `${bad.length} problems`);
 });
 
+test('every animation in the library is used by at least one icon', () => {
+  const used = new Set(names.flatMap(n => D.icons[n].m.map(s => s[1])));
+  assert.deepEqual(Object.keys(ANIMS).filter(a => !used.has(a)), []);
+});
+
 test('average animation length is about 0.9 s at the default speed', () => {
   const totals = names.map(n => Math.max(...D.icons[n].m.map(s => s[2] + s[3])) * SPEED);
   const avg = totals.reduce((a, b) => a + b, 0) / totals.length;

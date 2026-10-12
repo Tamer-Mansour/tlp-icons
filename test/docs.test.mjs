@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, readJson, data } from './helpers.mjs';
 import { values, description } from '../scripts/sync-docs.mjs';
+import { ANIMS } from '../scripts/engine/anims.mjs';
 
 const stats = readJson('dist/stats.json');
 const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
@@ -17,7 +18,7 @@ test('dist/stats.json matches the built data', () => {
   assert.equal(stats.aliases, Object.keys(D.aliases).length);
   assert.equal(stats.originals, names.filter(n => D.icons[n].source === 'tlp').length);
   assert.equal(stats.brands, names.filter(n => D.icons[n].category === 'brands').length);
-  assert.equal(stats.animations, 34);
+  assert.equal(stats.animations, Object.keys(ANIMS).length);
   for (const c of D.categories) assert.equal(stats.byCategory[c.id], c.count);
 });
 

@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=4f46e5"></a>
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=4f46e5"></a>
-  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-5.3%20KB%20gzip-16a34a"></a>
+  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-6.6%20KB%20gzip-16a34a"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/tlp-icons?color=16a34a"></a>
   <img alt="icons" src="https://img.shields.io/badge/icons-6%2C620-4f46e5">
@@ -340,16 +340,16 @@ element core goes over 8 KB gzip or the manifest over 15 KB gzip.
 <!-- sizes:start -->
 | What | Minified | Gzip |
 | --- | ---: | ---: |
-| element core (tlp-icon + core + element) | 15.7 KB | **5.3 KB** |
+| element core (tlp-icon + core + element) | 22.5 KB | **6.6 KB** |
 | manifest | 21.7 KB | **11.1 KB** |
-| smallest category chunk (science.js) | 11.5 KB | **3.5 KB** |
-| largest category chunk (interface.js) | 180.6 KB | **32.4 KB** |
-| all icons, offline bundle (tlp-icons.all.js) | 2280.5 KB | **387.3 KB** |
-| stylesheet (tlp-icons.css) | 4.9 KB | **1.3 KB** |
+| smallest category chunk (science.js) | 11.3 KB | **3.4 KB** |
+| largest category chunk (interface.js) | 178.0 KB | **32.1 KB** |
+| all icons, offline bundle (tlp-icons.all.js) | 2260.8 KB | **387.7 KB** |
+| stylesheet (tlp-icons.css) | 11.6 KB | **2.4 KB** |
 <!-- sizes:end -->
 
 What a page actually downloads: the element core, the manifest, then **one chunk per category it uses**. A page
-with a few interface and arrow icons loads about <!--s:size.0.gzip-->5.3 KB<!--/s--> + <!--s:size.1.gzip-->11.1 KB<!--/s-->
+with a few interface and arrow icons loads about <!--s:size.0.gzip-->6.6 KB<!--/s--> + <!--s:size.1.gzip-->11.1 KB<!--/s-->
 plus those two chunks. Import a chunk directly (`tlp-icons/icons/<category>.js`) to skip the manifest. The
 stylesheet is injected by the element; `tlp-icons/css` is there if you prefer a `<link>`.
 
@@ -403,7 +403,7 @@ npm run test:browser   optional Playwright tests + frame strips (npm run setup:b
 - `scripts/adapters/`: one adapter per icon source (`latest`, `fetch`, `load`). Add a set by adding an adapter.
 - `scripts/engine/`: SVG parsing, geometry, the motion engine and serialisation.
 - `src/runtime/`: `core.js` (registry, baking, run engine, hover rule), `element.js` (`<tlp-icon>`) and
-  `tlp-icons.css` (the <!--s:animations-->34<!--/s--> `tlp-` keyframes).
+  `tlp-icons.css` (the <!--s:animations-->66<!--/s--> `tlp-` keyframes).
 
 **Motion engine.** Every icon is split into atoms (one per element or sub-path) and measured. Then:
 

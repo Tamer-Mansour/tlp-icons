@@ -1,0 +1,21 @@
+[
+  { "id": "b02-heartbeat-line", "words": ["heartbeat"], "nameOnly": true, "body": false, "steps": [
+    { "t": "all", "a": "beat", "dur": 1100 }
+  ] },
+  { "id": "b02-heart", "words": ["heart", "hearts"], "nameOnly": true, "steps": [
+    { "t": "bodyOrLargest", "a": "beat", "dur": 1100 },
+    { "t": "notBody", "a": "popIn", "dur": 700, "dl": 450 }
+  ], "modifier": [{ "t": "main", "a": "beat", "dur": 1100 }] },
+  { "id": "b02-flame", "exact": true, "words": ["flame", "campfire", "flame-kindling", "candle", "olympic-torch"], "body": false, "steps": [
+    { "t": "main", "a": "flicker", "o": "bottom", "dur": 1200 }
+  ] },
+  { "id": "b02-lamp", "exact": true, "words": ["lightbulb", "bulb", "circuit-bulb", "lamp", "lamp-2", "lamp-desk", "lamp-ceiling", "lamp-floor", "lamp-wall-up", "lamp-wall-down", "flashlight", "spotlight"], "body": false, "steps": [
+    { "t": "all", "a": "flicker", "dur": 1200 }
+  ] },
+  { "id": "b02-star", "words": ["star", "stars"], "nameOnly": true, "steps": [
+    { "t": "main", "a": "twinkle", "dur": 900, "stagger": true, "by": "size", "gap": 140 }
+  ], "modifier": [{ "t": "main", "a": "twinkle", "dur": 900 }] },
+  { "id": "b02-sparkle", "words": ["sparkles", "sparkle", "spark", "wand"], "nameOnly": true, "steps": [
+    { "t": "main", "a": "twinkle", "dur": 900, "stagger": true, "by": "size", "gap": 160 }
+  ], "modifier": [{ "t": "main", "a": "twinkle", "dur": 900, "stagger": true, "gap": 140 }] }
+]

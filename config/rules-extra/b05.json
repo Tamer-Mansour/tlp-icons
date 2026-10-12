@@ -1,0 +1,13 @@
+[
+  {"id":"b05-keep-arrows","words":["arrow-badge-up","arrow-badge-down","arrow-badge-left","arrow-badge-right","tags-chevron-up","tags-chevron-down","tags-chevron-left","tags-chevron-right"],"recipe":"arrows","exact":true},
+  {"id":"b05-keep-mail","words":["mail-badge"],"steps":[{"t":"bodyOrLargest","a":"pop","dur":800,"dl":600},{"t":"notBody","a":"draw","dur":800,"dl":150}],"exact":true},
+  {"id":"b05-keep-user","words":["id-badge-2","id-badge-off"],"steps":[{"t":"heads","a":"hop","dur":1000,"stagger":true,"by":"x","gap":140},{"t":"rest","a":"draw","dur":950,"dl":100}],"modifier":[{"t":"heads","a":"hop","dur":900},{"t":"rest","a":"draw","dur":800}],"exact":true},
+  {"id":"b05-keep-text-lines","words":["text-scan-2","text-scan"],"body":false,"steps":[{"t":"hlines","a":"growX","o":"left","dur":750,"stagger":true,"gap":110,"groups":4,"need":true},{"t":"rest","a":"popIn","dur":650,"dl":100}],"exact":true},
+  {"id":"b05-keep-sparkles","words":["text-scan-ai"],"steps":[{"t":"large","a":"tilt","dur":1100},{"t":"small","a":"popIn","dur":650,"stagger":true,"gap":140,"dl":120},{"t":"bodyOrLargest","a":"pop","dur":800,"dl":200}],"modifier":[{"t":"main","a":"popIn","dur":750,"stagger":true,"gap":120}],"exact":true},
+  {"id":"b05-keep-brand","words":["brand-zoom"],"steps":[{"t":"main","a":"draw","dur":1100,"stagger":true,"by":"size","groups":2,"gap":160},{"t":"all","a":"pop","dur":750,"dl":900}],"exact":true},
+  {"id":"b05-keep-eye","words":["scan-eye"],"body":false,"steps":[{"t":"main","a":"blink","dur":900},{"t":"circles","a":"pop","dur":700,"dl":450}],"exact":true},
+  {"id":"b05-keep-camera","words":["photo-scan"],"steps":[{"t":"circles","a":"pop","dur":800,"dl":200},{"t":"all","a":"jelly","dur":900,"dl":600}],"exact":true},
+  {"id":"b05-zoom","words":["zoom","magnifier","magnifying-glass","fullscreen","scan","focus"],"nameOnly":true,"body":false,"steps":[{"t":"main","a":"zoomIn","dur":900}],"modifier":[{"t":"main","a":"popIn","dur":700,"dl":350}]},
+  {"id":"b05-spiral","words":["spiral","swirl","tornado","cyclone","hurricane","vortex","shell","snail"],"nameOnly":true,"body":false,"steps":[{"t":"main","a":"spiralIn","o":"iconCenter","dur":1100}],"modifier":[{"t":"main","a":"popIn","dur":700,"dl":400}]},
+  {"id":"b05-swing","words":["tag","tags","label","badge","badges","ticket","tickets","signpost","price-tag","key-tag","coupon"],"nameOnly":true,"steps":[{"t":"main","a":"swingIn","o":"boxTop","dur":1200}],"modifier":[{"t":"main","a":"popIn","dur":700,"dl":450}]}
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "b01-buzz",
+    "words": [
+      "vibrate",
+      "vibration",
+      "device-mobile",
+      "mobile",
+      "smartphone",
+      "cellphone",
+      "phone",
+      "phone-call",
+      "phone-incoming",
+      "phone-outgoing",
+      "phone-calling",
+      "phone-ringing"
+    ],
+    "nameOnly": true,
+    "steps": [
+      {
+        "t": "bodyOrLargest",
+        "a": "buzz",
+        "o": "center",
+        "dur": 900
+      }
+    ],
+    "modifier": [
+      {
+        "t": "main",
+        "a": "buzz",
+        "o": "center",
+        "dur": 900
+      }
+    ]
+  },
+  {
+    "id": "b01-tap",
+    "words": [
+      "tap",
+      "click",
+      "touch",
+      "hand-click",
+      "hand-finger",
+      "pointer",
+      "pointer-2",
+      "finger",
+      "touchpad"
+    ],
+    "nameOnly": true,
+    "steps": [
+      {
+        "t": "main",
+        "a": "tap",
+        "o": "center",
+        "dur": 1100
+      }
+    ],
+    "modifier": [
+      {
+        "t": "main",
+        "a": "tap",
+        "o": "center",
+        "dur": 1100
+      }
+    ]
+  },
+  {
+    "id": "b01-press",
+    "words": [
+      "power",
+      "power-off",
+      "circle-power",
+      "square-power",
+      "toggle-left",
+      "toggle-right",
+      "square-toggle",
+      "square-toggle-horizontal",
+      "button",
+      "buttons",
+      "square-dot",
+      "circle-dot",
+      "keycap",
+      "radio-button",
+      "switch-power"
+    ],
+    "nameOnly": true,
+    "steps": [
+      {
+        "t": "all",
+        "a": "press",
+        "o": "center",
+        "dur": 900
+      }
+    ],
+    "modifier": [
+      {
+        "t": "main",
+        "a": "press",
+        "o": "center",
+        "dur": 900
+      }
+    ],
+    "exact": true
+  }
+]
