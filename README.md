@@ -17,14 +17,14 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=4f46e5"></a>
   <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=4f46e5"></a>
-  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-7.5%20KB%20gzip-16a34a"></a>
+  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-7.1%20KB%20gzip-16a34a"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/tlp-icons?color=16a34a"></a>
-  <img alt="icons" src="https://img.shields.io/badge/icons-11%2C238-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-26%2C278-4f46e5">
 </p>
 <!-- badges:end -->
 
-A free, open-source (MIT) library of <!--s:icons-->11,238<!--/s--> stroke icons, built from the best free sets (Lucide and Tabler) plus
+A free, open-source (MIT) library of <!--s:icons-->26,278<!--/s--> stroke icons, built from the best free sets (Lucide and Tabler) plus
 our own **tlp originals**, sorted into <!--s:categories-->35<!--/s--> hand-curated categories, including **<!--s:brands-->376<!--/s--> brand logos** (Facebook,
 Instagram, WhatsApp, X, TikTok, YouTube...). Every single one moves on hover: clock hands sweep around the face,
 gears spin on their axle, bells swing from the top, trash lids lift, arrows move the way they point.
@@ -36,7 +36,7 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 </tr>
 <tr>
 <td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/hold.gif" width="420" alt="trigger=hold: the icon animates, stays while hovered and returns on leave"><br><sub><code>trigger="hold"</code> stays at its peak while hovered</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/animations.gif" width="420" alt="New animations: buzz, beat, flicker, sway, flutter, drive, wave, drip"><br><sub><!--s:animations-->66<!--/s--> animations, each picked for what the icon is</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/animations.gif" width="420" alt="New animations: buzz, beat, flicker, sway, flutter, drive, wave, drip"><br><sub><!--s:animations-->100<!--/s--> animations, each picked for what the icon is</sub></td>
 </tr>
 <tr>
 <td align="center"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/media/fields.gif" width="420" alt="New health, finance, commerce and maps icons"><br><sub>Deep fields: legal, health, finance, commerce, maps</sub></td>
@@ -64,18 +64,18 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 ![Frame strips](https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/docs/frame-strips.png)
 </details>
 
-- **<!--s:icons-->11,238<!--/s--> icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
-- **100% animated**: <!--s:handmade-->5,057<!--/s--> hand-made choreographies, plus a motion engine that reads each icon's geometry.
-- **Deep fields**: we draw our own icons where the free sets stop (<!--s:originals-->4,795<!--/s--> tlp originals). Legal
-  (<!--s:cat.legal-->1,180<!--/s-->), health (<!--s:cat.health-->1,200<!--/s-->), finance (<!--s:cat.finance-->1,100<!--/s-->), commerce (<!--s:cat.commerce-->999<!--/s-->) and maps (<!--s:cat.maps-->1,000<!--/s-->) are at their
+- **<!--s:icons-->26,278<!--/s--> icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
+- **100% animated**: <!--s:handmade-->20,097<!--/s--> hand-made choreographies, plus a motion engine that reads each icon's geometry.
+- **Deep fields**: we draw our own icons where the free sets stop (<!--s:originals-->19,835<!--/s--> tlp originals). Legal
+  (<!--s:cat.legal-->1,180<!--/s-->), health (<!--s:cat.health-->1,200<!--/s-->), finance (<!--s:cat.finance-->1,100<!--/s-->), commerce (<!--s:cat.commerce-->1,001<!--/s-->) and maps (<!--s:cat.maps-->1,000<!--/s-->) are at their
   targets; the [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes the whole library to 26,000.
-- **<!--s:animations-->66<!--/s--> animations**: draw, pop, swing, spin... plus beat for hearts, sway for plants, flutter for flags,
+- **<!--s:animations-->100<!--/s--> animations**: draw, pop, swing, spin... plus beat for hearts, sway for plants, flutter for flags,
   drive for vehicles, wave for hands, drip for drops: each icon gets the motion that fits what it is.
 - **Hover and hold**: `trigger="hold"` animates to the peak on hover and stays there, then returns when the mouse leaves.
   `animated="false"` (or `config.animated = false`) makes icons static.
 - **Brand logos**: <!--s:brands-->376<!--/s--> brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
-- **Lazy**: icons load per category, so a page that uses 10 icons doesn't download all <!--s:icons-->11,238<!--/s-->.
+- **Lazy**: icons load per category, so a page that uses 10 icons doesn't download all <!--s:icons-->26,278<!--/s-->.
 - **Polite motion**: plays once to the end, never animates a whole card at once, respects `prefers-reduced-motion`.
 - **Works offline**: one classic script with every icon (in `tlp-icons-data`) runs from `file://`, and the build never needs the network.
 
@@ -93,7 +93,7 @@ Or with no build step, from a CDN:
 ```
 
 Offline / no modules (for example opened from `file://`): one classic script with every icon inside (about
-<!--s:size.4.raw-->3586.4 KB<!--/s-->, <!--s:size.4.gzip-->665.2 KB<!--/s--> gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
+<!--s:size.4.raw-->17.0 KB<!--/s-->, <!--s:size.4.gzip-->3.2 KB<!--/s--> gzip). Since 0.2.0 it ships in the [`tlp-icons-data`](packages/tlp-icons-data) package:
 
 ```html
 <script src="node_modules/tlp-icons-data/tlp-icons.all.js"></script>
@@ -329,14 +329,15 @@ getSvg('bell', { animated: true });            // SVG with the motion baked in (
 icons.bell;                                    // { svg, m: [[part, anim, dur, delay, origin?], ...] }
 ```
 
-Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loads one category chunk at a time.
+Importing `icons` pulls in the whole set. For pages, use `<tlp-icon>`, which loads only small buckets of about 40
+icons for the names on the page.
 
-**One category only:** import a category chunk directly and skip the manifest entirely:
+**One category only:** import a category module from `tlp-icons-data` and register it:
 
 ```js
-import legal from 'tlp-icons/icons/legal.js';   // { 'courthouse': { svg, m }, ... }
+import legal from 'tlp-icons-data/icons/legal.js';   // { 'courthouse': { svg, m }, ... }
 import { register } from 'tlp-icons/element';
-register(legal);                                // <tlp-icon name="courthouse"> now renders with no lookup
+register(legal);                                     // <tlp-icon name="courthouse"> renders with no extra request
 ```
 
 ### Full dataset: `tlp-icons-data`
@@ -358,23 +359,26 @@ It replaces the old `tlp-icons/data` export (removed in 0.2.0). Typed (`TlpIcons
 ## Bundle size
 
 Measured on every build (minified, gzip level 9) and written to `dist/size-report.json`. The build fails if the
-element core goes over 8 KB gzip or the manifest over 15 KB gzip.
+element core goes over 8 KB gzip.
 
 <!-- sizes:start -->
 | What | Minified | Gzip |
 | --- | ---: | ---: |
-| element core (tlp-icon + core + element) | 25.1 KB | **7.5 KB** |
-| manifest | 29.1 KB | **15.3 KB** |
-| smallest category chunk (science.js) | 11.3 KB | **3.4 KB** |
-| largest category chunk (legal.js) | 388.8 KB | **78.3 KB** |
-| all icons, offline bundle (tlp-icons.all.js) | 3586.4 KB | **665.2 KB** |
-| stylesheet (tlp-icons.css) | 11.6 KB | **2.4 KB** |
+| element core (tlp-icon + core + element) | 27.3 KB | **7.1 KB** |
+| manifest (optional: categoryOf, CATEGORIES, ALIASES) | 53.6 KB | **30.2 KB** |
+| smallest icon bucket (icons/273.js) | 9.7 KB | **3.0 KB** |
+| largest icon bucket (icons/459.js) | 22.2 KB | **5.7 KB** |
+| keyframes (anims.js, loaded with the first icon) | 17.0 KB | **3.2 KB** |
+| all icons, offline bundle (tlp-icons.all.js) | 7185.0 KB | **1386.7 KB** |
+| stylesheet (tlp-icons.css) | 16.6 KB | **3.2 KB** |
 <!-- sizes:end -->
 
-What a page actually downloads: the element core, the manifest, then **one chunk per category it uses**. A page
-with a few interface and arrow icons loads about <!--s:size.0.gzip-->7.5 KB<!--/s--> + <!--s:size.1.gzip-->15.3 KB<!--/s-->
-plus those two chunks. Import a chunk directly (`tlp-icons/icons/<category>.js`) to skip the manifest. The
-stylesheet is injected by the element; `tlp-icons/css` is there if you prefer a `<link>`.
+What a page actually downloads: the element core, the keyframes once, then **one small bucket per icon name** (the
+bucket is computed from the name, so there is no lookup table to download). A page with one icon loads about
+<!--s:size.0.gzip-->7.1 KB<!--/s--> + <!--s:size.4.gzip-->3.2 KB<!--/s--> + one bucket of
+<!--s:size.2.gzip-->3.0 KB<!--/s-->–<!--s:size.3.gzip-->5.7 KB<!--/s-->, no matter how big the library grows. No icon font,
+no CSS per icon, nothing for icons you don't use. The stylesheet is injected by the element; `tlp-icons/css` is there
+if you prefer a `<link>`.
 
 ## Website
 
@@ -386,7 +390,7 @@ pre-rendered static HTML for search engines, and the whole site is about 45 MB:
 | --- | --- |
 | Home | `/` |
 | Icon gallery (search, filters, size / stroke / color / duotone) | `/icons/` |
-| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (<!--s:icons-->11,238<!--/s--> pages) |
+| One page per icon: preview, sizes, buttons, code for React / HTML / Angular / Vue / SVG, related icons | `/icons/<name>/` (<!--s:icons-->26,278<!--/s--> pages) |
 | Categories, one page each, including Brands | `/categories/`, `/categories/<id>/` |
 | Documentation with live examples and the animation library | `/docs/` |
 | Roadmap with live progress | `/roadmap/` |
@@ -426,7 +430,7 @@ npm run test:browser   optional Playwright tests + frame strips (npm run setup:b
 - `scripts/adapters/`: one adapter per icon source (`latest`, `fetch`, `load`). Add a set by adding an adapter.
 - `scripts/engine/`: SVG parsing, geometry, the motion engine and serialisation.
 - `src/runtime/`: `core.js` (registry, baking, run engine, hover rule), `element.js` (`<tlp-icon>`) and
-  `tlp-icons.css` (the <!--s:animations-->66<!--/s--> `tlp-` keyframes).
+  `tlp-icons.css` (the <!--s:animations-->100<!--/s--> `tlp-` keyframes).
 
 **Motion engine.** Every icon is split into atoms (one per element or sub-path) and measured. Then:
 
@@ -462,11 +466,15 @@ what changed in each version.
 ## License
 
 MIT © tlp-icons contributors. Icon geometry from [Lucide](https://lucide.dev) (ISC) and
-[Tabler Icons](https://tabler.io/icons) (MIT), plus tlp originals (MIT). See [NOTICE.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/NOTICE.md) and `licenses/`.
+[Tabler Icons](https://tabler.io/icons) (MIT), plus tlp originals (MIT). See [NOTICE.md](https://github.com/Tamer-Mansour/tlp-icons/blob/main/NOTICE.md), `licenses/`
+and the [licenses page](https://tlp-icons.netlify.app/licenses/). Every icon's source is recorded in the dataset and
+shown on its page. No icons, fonts or artwork from Font Awesome, Material, Heroicons or any other set are included;
+the tlp originals are drawn from scratch.
 
 ### Trademarks
 
 The <!--s:brands-->376<!--/s--> brand icons (the Brands category, names starting with `brand-`) are provided for
 referential, nominative use only: to identify a product or service, for example a "Sign in with GitHub" button or a
 list of supported platforms. The logos remain the property of their respective owners, and their inclusion does not
-imply any affiliation with or endorsement by those owners. Follow each owner's brand guidelines when you use them.
+imply any affiliation with or endorsement by those owners. Follow each owner's brand guidelines when you use them;
+some do not allow altered or animated logos, so use `animated="false"` for those.

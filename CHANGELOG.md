@@ -4,6 +4,46 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.5.0] - 2026-10-13
+
+### Added
+
+- **The roadmap goal: 11,238 -> 26,278 icons.** 15,040 new tlp originals, drawn from scratch for this project
+  and checked by eye on review sheets (1,965 redrawn in review). Every category is now at its roadmap target,
+  including Science & Education (35 -> 1,000), People (79 -> 1,000), Buildings (110 -> 800), Vehicles, Communication,
+  Development, Nature, Food, Sport, Home, Tools and the rest.
+- **34 new animations: 66 -> 100**, every one used by icons. Entrances `slideInBack`, `unfold`, `stampIn`, `bounceIn`,
+  `whooshIn`, `elasticIn`, `typeIn`, `drawReverse`, `slideDown`, `emerge`; gestures `jump`, `scan`, `scanX`, `glow`,
+  `dim`, `inhale`, `squeeze`, `pump`, `shuttle`, `dash`, `recoil`, `throb`, `refill`, `equalize`, `blip`, `dig`,
+  `stir`, `stamp`, `pour`, `magnify`; turns `spinFast`, `windUp`, `tumble`, `halfBack`. 585 Lucide/Tabler icons
+  that only had the generic fallback motion now use them.
+- `addKeyframes()` runtime export; `check-originals.mjs --no-images` and `--all`.
+- Website: `/licenses/` page with every source, its icon count and the full license texts. Icon request issue template.
+
+### Changed
+
+- **Much lighter loading.** `<tlp-icon>` now loads icons from small hash buckets (about 56 icons, 3-6 KB gzip each):
+  the bucket is computed from the name, so the element no longer downloads the manifest (30 KB gzip at this size) and
+  no longer fetches a whole category (the legal chunk alone was 80 KB gzip). One icon on a page costs about
+  13 KB gzip in total (element 7.1 KB, keyframes 3.2 KB, one bucket), however large the library grows.
+- The `@keyframes` are no longer inlined in the element core; they load once from `anims.js` with the first icon (the
+  classic bundles still include them). The element core went from 7.6 to 7.1 KB gzip while the library went from
+  66 to 100 animations.
+- Brands stay at the Tabler set (376): no further company logos are added, because of trademark risk. Their 624
+  roadmap slots moved to other categories, so the 26,180 goal stayed the same. It is now reached; the targets
+  were raised to today's counts (26,278).
+- NOTICE: per-source table, Feather credit, explicit statement that nothing from Font Awesome, Material or other
+  sets is included, a takedown contact, and a note that some brand guidelines forbid animated logos
+  (`animated="false"`).
+- Website icon pages declare each icon's real license (ISC for Lucide icons) in their structured data.
+- Size limits: manifest 20 -> 40 KB gzip (it is no longer on the element's path); package unpacked limit 5 -> 12 MB.
+
+### Removed
+
+- **Breaking:** the per-category modules `tlp-icons/icons/<category>.js` moved to the data package:
+  `import legal from 'tlp-icons-data/icons/legal.js'`. `dist/icons/` in `tlp-icons` now holds the internal buckets
+  (no public export).
+
 ## [0.4.1] - 2026-10-12
 
 ### Docs

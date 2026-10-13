@@ -1,7 +1,7 @@
 {
   "name": "tlp-icons-data",
-  "version": "0.4.1",
-  "description": "The full tlp-icons set: one JSON file with every icon's SVG, motion, category, tags and source, plus the offline single-file bundle (tlp-icons.all.js).",
+  "version": "0.5.0",
+  "description": "The full tlp-icons set: one JSON file with every icon's SVG, motion, category, tags and source, plus one ES module per category (icons/<category>.js) and the offline single-file bundle (tlp-icons.all.js).",
   "license": "MIT",
   "homepage": "https://tlp-icons.netlify.app",
   "repository": {
@@ -25,11 +25,13 @@
       "default": "./tlp-icons.json"
     },
     "./tlp-icons.all.js": "./tlp-icons.all.js",
+    "./icons/*": "./icons/*",
     "./package.json": "./package.json"
   },
   "files": [
     "tlp-icons.json",
     "tlp-icons.all.js",
+    "icons",
     "index.d.ts",
     "LICENSE",
     "NOTICE.md",
