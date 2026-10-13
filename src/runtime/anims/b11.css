@@ -1,0 +1,10 @@
+@keyframes tlp-slideInBack{0%{opacity:0;transform:translateX(4px)}100%{opacity:1;transform:translateX(0)}}
+@keyframes tlp-unfold{0%{opacity:0;transform:scaleY(0)}40%{opacity:1}68%{transform:scaleY(1.08)}86%{transform:scaleY(.97)}100%{opacity:1;transform:scaleY(1)}}
+@keyframes tlp-stampIn{0%{opacity:0;transform:scale(1.6)}45%{opacity:1;transform:scale(.9)}70%{transform:scale(1.04)}100%{opacity:1;transform:scale(1)}}
+@keyframes tlp-bounceIn{0%{opacity:0;transform:translateY(-7px)}35%{opacity:1;transform:translateY(0)}55%{transform:translateY(-2.2px)}72%{transform:translateY(0)}86%{transform:translateY(-.6px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes tlp-whooshIn{0%{opacity:0;transform:translateX(-5px) skewX(-20deg)}60%{opacity:1;transform:translateX(.6px) skewX(6deg)}82%{transform:translateX(-.2px) skewX(-2deg)}100%{opacity:1;transform:translateX(0)}}
+@keyframes tlp-elasticIn{0%{transform:scale(0)}40%{transform:scale(1.18)}58%{transform:scale(.9)}74%{transform:scale(1.05)}88%{transform:scale(.98)}100%{transform:scale(1)}}
+@keyframes tlp-typeIn{0%,15%{stroke-dasharray:1;stroke-dashoffset:1}16%,35%{stroke-dasharray:1;stroke-dashoffset:.75}36%,55%{stroke-dasharray:1;stroke-dashoffset:.5}56%,75%{stroke-dasharray:1;stroke-dashoffset:.25}76%,100%{stroke-dasharray:1;stroke-dashoffset:0}}
+@keyframes tlp-drawReverse{0%{stroke-dasharray:1;stroke-dashoffset:-1}100%{stroke-dasharray:1;stroke-dashoffset:0}}
+@keyframes tlp-slideDown{0%{opacity:0;transform:translateY(-4px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes tlp-emerge{0%{opacity:0;transform:translateY(3px) scale(.6)}65%{opacity:1;transform:translateY(-.4px) scale(1.04)}100%{opacity:1;transform:translateY(0) scale(1)}}

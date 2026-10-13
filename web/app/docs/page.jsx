@@ -49,9 +49,22 @@ const LIB = [
   ['rubber', 'mood-smile', 'gesture'], ['rattle', 'dice', 'gesture'], ['spring', 'rabbit', 'gesture', 'bottom'], ['knock', 'door', 'gesture', 'left'],
   ['wave', 'hand', 'gesture', 'bottom'], ['pendulum', 'metronome', 'gesture', 'top'], ['twirl', 'whirl', 'turn'], ['flipY', 'flip-vertical', 'gesture'],
   ['drip', 'droplet', 'gesture'], ['fall', 'parachute', 'gesture'], ['retrace', 'scribble', 'gesture'], ['peek', 'ghost', 'gesture', 'bottom'],
+  ['slideInBack', 'arrow-left', 'entrance'], ['unfold', 'details', 'entrance', 'top'], ['stampIn', 'sos', 'entrance'], ['bounceIn', 'ball-tennis', 'entrance'],
+  ['whooshIn', 'boom', 'entrance'], ['elasticIn', 'chart-donut', 'entrance'], ['typeIn', 'bold', 'entrance'], ['drawReverse', 'arrow-merge', 'entrance'],
+  ['slideDown', 'helmet', 'entrance'], ['emerge', 'mountain', 'entrance', 'bottom'], ['jump', 'gymnastics', 'gesture', 'bottom'], ['scan', 'texture', 'gesture'],
+  ['scanX', 'aspect-ratio', 'gesture'], ['glow', 'bulb', 'gesture'], ['dim', 'zzz', 'gesture'], ['inhale', 'lungs', 'gesture'],
+  ['squeeze', 'components', 'gesture'], ['pump', 'plug', 'gesture'], ['shuttle', 'protocol', 'gesture'], ['dash', 'trailer', 'gesture'],
+  ['recoil', 'bomb', 'gesture'], ['throb', 'atom-2', 'gesture'], ['refill', 'battery-4', 'gesture', 'left'], ['equalize', 'chart-bar-popular', 'gesture', 'bottom'],
+  ['blip', 'point', 'gesture'], ['dig', 'shovel', 'gesture'], ['stir', 'whisk', 'gesture'], ['stamp', 'rubber-stamp', 'gesture', 'bottom'],
+  ['pour', 'amphora', 'gesture'], ['magnify', 'photo', 'gesture'], ['spinFast', 'propeller', 'turn'], ['windUp', 'spool', 'turn'],
+  ['tumble', 'icosahedron', 'turn'], ['halfBack', 'square-rotated', 'turn'],
 ];
 const DUR = { draw: 1000, fillIn: 1000, popIn: 800, fadeIn: 800, slideIn: 800, riseIn: 800, dropIn: 800, grow: 900, growX: 800, pop: 800, breathe: 1300, jelly: 1100, swing: 1400, wiggle: 1100, tilt: 1100, nod: 1000, strike: 1100, hop: 1000, lift: 1000, sink: 1000, nudge: 1000, nudgeBack: 1000, float: 1600, flip: 1200, spin: 1500, spinBack: 1500, spinHalf: 1200, sweep: 1600, sweepHour: 1600, blink: 900, shake: 1000, pulseRing: 1200, orbit: 1600, stretch: 1000,
-  zoomIn: 900, spiralIn: 1100, swingIn: 1200, flipIn: 1000, focusIn: 1100, bloom: 1100, rollIn: 1100, buzz: 900, tap: 1100, press: 900, beat: 1100, flicker: 1200, twinkle: 900, sway: 1800, flutter: 1300, bob: 1700, drive: 1100, launch: 1200, roll: 1400, tada: 1100, rubber: 1000, rattle: 900, spring: 1100, knock: 900, wave: 1400, pendulum: 1900, twirl: 1300, flipY: 1100, drip: 1300, fall: 1300, retrace: 1300, peek: 1000 };
+  zoomIn: 900, spiralIn: 1100, swingIn: 1200, flipIn: 1000, focusIn: 1100, bloom: 1100, rollIn: 1100, buzz: 900, tap: 1100, press: 900, beat: 1100, flicker: 1200, twinkle: 900, sway: 1800, flutter: 1300, bob: 1700, drive: 1100, launch: 1200, roll: 1400, tada: 1100, rubber: 1000, rattle: 900, spring: 1100, knock: 900, wave: 1400, pendulum: 1900, twirl: 1300, flipY: 1100, drip: 1300, fall: 1300, retrace: 1300, peek: 1000,
+  slideInBack: 800, unfold: 900, stampIn: 800, bounceIn: 1100, whooshIn: 900, elasticIn: 1100, typeIn: 1000, drawReverse: 1000, slideDown: 800, emerge: 900,
+  jump: 1200, scan: 1600, scanX: 1600, glow: 1300, dim: 1100, inhale: 1700, squeeze: 1000, pump: 1100, shuttle: 1500, dash: 1000,
+  recoil: 900, throb: 1400, refill: 1500, equalize: 1200, blip: 700, dig: 1300, stir: 1400, stamp: 1100, pour: 1700, magnify: 1300,
+  spinFast: 1400, windUp: 1600, tumble: 1300, halfBack: 1200 };
 
 function demos() {
   return LIB.map(([anim, base, kind, origin]) => {

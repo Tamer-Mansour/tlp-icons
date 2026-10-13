@@ -76,18 +76,27 @@ export function runtimeCss() {
   return `${base.slice(0, at)}${extra}\n\n${base.slice(at)}`;
 }
 
+/** Minified base styles (no @keyframes) and { name: '@keyframes tlp-name{...}' } for lazy injection. */
+export function splitCss(css = runtimeCss()) {
+  const keyframes = {};
+  const min = css.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').trim();
+  const base = min.replace(/@keyframes tlp-(\w+)\{((?:[^{}]*\{[^{}]*\})*)\}/g, (all, name) => { keyframes[name] = all; return ''; });
+  return { base, keyframes };
+}
+
 /**
  * Hold points for trigger="hold": where each animation pauses while hovered (0..1 of its own duration).
  * Gestures hold at their most displaced visible keyframe, turns half way (spinHalf at its end), entrances are
  * skipped to their end (not listed: the runtime treats a missing entry as "jump to the end").
  */
-const PLAY_THROUGH = new Set(['blink', 'pulseRing', 'drip', 'fall', 'retrace']);
+const PLAY_THROUGH = new Set(['blink', 'pulseRing', 'drip', 'fall', 'retrace', 'dim']);
+const HOLD_AT_END = new Set(['spinHalf', 'halfBack']);
 export function holdPoints(css = runtimeCss()) {
   const out = {};
   for (const [, name, body] of css.matchAll(/@keyframes tlp-(\w+)\{((?:[^{}]*\{[^{}]*\})*)\}/g)) {
     const a = ANIMS[name];
     if (!a || a.kind === 'entrance') continue;
-    if (a.kind !== 'gesture') { out[name] = name === 'spinHalf' ? 1 : 0.5; continue; }
+    if (a.kind !== 'gesture') { out[name] = HOLD_AT_END.has(name) ? 1 : 0.5; continue; }
     // a frozen mid-frame would look broken (closed eye, faded ring, half-erased stroke): play once to rest instead
     if (PLAY_THROUGH.has(name)) { out[name] = 1; continue; }
     let best = 0.5, score = -1;
