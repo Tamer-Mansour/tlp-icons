@@ -1,0 +1,10 @@
+{
+  "name": "offboarding-door",
+  "category": "people",
+  "tags": ["offboarding", "door", "leave", "exit", "person"],
+  "svg": "<path class=\"p1\" d=\"M12 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6\"/><circle class=\"d p2\" cx=\"17\" cy=\"8.5\" r=\"2\"/><path class=\"p2\" d=\"M14 18c.5-2.2 1.5-3 3-3s2.5.8 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

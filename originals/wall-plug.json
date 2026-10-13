@@ -1,0 +1,11 @@
+{
+  "name": "wall-plug",
+  "category": "tools",
+  "tags": ["wall", "plug", "anchor", "fixing", "expansion", "masonry"],
+  "svg": "<path class=\"p1\" d=\"M5 4h14\"/><path class=\"p2\" d=\"M8 4v14a4 4 0 0 0 8 0V4\"/><path class=\"p3\" d=\"M8 9h8M8 13h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

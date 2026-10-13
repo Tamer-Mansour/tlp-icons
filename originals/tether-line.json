@@ -1,0 +1,11 @@
+{
+  "name": "tether-line",
+  "category": "connectivity",
+  "tags": ["tether", "tethered", "link", "leash", "attached", "cable"],
+  "svg": "<rect class=\"p1\" x=\"14\" y=\"13\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.2 7 Q7 15.5 14 15.5\"/><circle class=\"f p3\" cx=\"4\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "microwave-oven",
+  "category": "devices",
+  "tags": ["microwave", "oven", "kitchen", "heat", "appliance", "cook"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"7\" width=\"9\" height=\"10\" rx=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

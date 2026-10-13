@@ -1,0 +1,10 @@
+{
+  "name": "emulator",
+  "category": "development",
+  "tags": ["emulator", "phone", "device", "simulate", "window", "testing"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"8.5\" y=\"6.5\" width=\"7\" height=\"11\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 600, "delay": 900 }
+  ]
+}

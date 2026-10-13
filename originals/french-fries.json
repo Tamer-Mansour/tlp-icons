@@ -1,0 +1,11 @@
+{
+  "name": "french-fries",
+  "category": "food",
+  "tags": ["fries", "french", "potato", "snack", "fast food"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 H20 L17 21 H7 Z\"/><path class=\"p2\" d=\"M9 10 V4 M15 10 V4\"/><path class=\"p3\" d=\"M12 10 V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

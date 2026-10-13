@@ -1,0 +1,12 @@
+{
+  "name": "cleaning-station",
+  "category": "buildings",
+  "tags": ["cleaning", "spray", "sponge", "bottle", "counter", "station"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/><rect class=\"p2\" x=\"3\" y=\"10\" width=\"7\" height=\"11\" rx=\"1.5\"/><path class=\"p3\" d=\"M6 10V7h3v3\"/><rect class=\"d p4\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pump", "dur": 600, "delay": 1200 }
+  ]
+}

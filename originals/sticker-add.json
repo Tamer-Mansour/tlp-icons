@@ -1,0 +1,11 @@
+{
+  "name": "sticker-add",
+  "category": "interface",
+  "tags": ["sticker", "add", "curled", "plus", "label", "stamp"],
+  "svg": "<path class=\"p1\" d=\"M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v7l-7 7H7a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M14 21v-4a3 3 0 0 1 3-3h4\"/><path class=\"p3\" d=\"M9 9v6M6 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

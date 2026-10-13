@@ -1,0 +1,11 @@
+{
+  "name": "wire-brush",
+  "category": "tools",
+  "tags": ["wire", "brush", "bristles", "cleaning", "rust", "metal"],
+  "svg": "<rect class=\"p3\" x=\"4\" y=\"3\" width=\"16\" height=\"4\" rx=\"2\"/><rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M6 15v4M10 15v4M14 15v4M18 15v4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

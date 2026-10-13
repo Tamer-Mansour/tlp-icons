@@ -1,0 +1,11 @@
+{
+  "name": "temperature-low",
+  "category": "notifications",
+  "tags": ["thermometer", "cold", "low", "temperature", "freeze", "weather"],
+  "svg": "<path class=\"p1\" d=\"M10 14V5a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0Z\"/><path class=\"p2\" d=\"M17 6.5h4M19 4.5v4\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

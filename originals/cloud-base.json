@@ -1,0 +1,11 @@
+{
+  "name": "cloud-base",
+  "category": "weather",
+  "tags": ["cloud", "base", "height", "ceiling", "forecast", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M7 13.5h10a3.5 3.5 0 0 0 0-7 5 5 0 0 0-9.6-1A4 4 0 0 0 7 13.5z\"/><path class=\"p2\" d=\"M4 21h16\"/><path class=\"p3\" d=\"M12 16v2.5M10.5 17l1.5 1.5 1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 900 }
+  ]
+}

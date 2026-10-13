@@ -1,0 +1,11 @@
+{
+  "name": "sawmill",
+  "category": "buildings",
+  "tags": ["sawmill", "lumber", "timber", "logs", "boards", "wood"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"5\"/><circle class=\"p3\" cx=\"9\" cy=\"9\" r=\"1.5\"/><path class=\"p2\" d=\"M3 16h18M3 20h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1100, "origin": "9px 9px" }
+  ]
+}

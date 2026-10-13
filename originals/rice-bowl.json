@@ -1,0 +1,11 @@
+{
+  "name": "rice-bowl",
+  "category": "food",
+  "tags": ["rice", "bowl", "chopsticks", "meal", "asian"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 Q21 19 12 19 Q3 19 3 11 Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"7.5\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"8.5\" r=\"1\"/><path class=\"p3\" d=\"M13.5 2.5 L10.5 7.5 M16.5 2.5 L13.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

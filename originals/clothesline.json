@@ -1,0 +1,11 @@
+{
+  "name": "clothesline",
+  "category": "home",
+  "tags": ["clothesline", "laundry", "shirt", "washing", "posts", "drying"],
+  "svg": "<path class=\"p1\" d=\"M4 4V21M20 4V21\"/><path class=\"p2\" d=\"M4 6Q12 11 20 6\"/><path class=\"d p3\" d=\"M9 9.5L12 10.5L15 9.5L17 11.5L15.5 14L14.5 13.5V18.5H9.5V13.5L8.5 14L7 11.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 1000 }
+  ]
+}

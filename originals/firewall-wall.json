@@ -1,0 +1,10 @@
+{
+  "name": "firewall-wall",
+  "category": "security",
+  "tags": ["firewall", "wall", "network", "bricks", "barrier"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V9c2 0 2.5-2 3.5-4 1 2 2 3 3.5 3s2-2.5 3-4.5c.8 1.8 1.8 2.5 3.5 2.5 1.2 0 2.3.6 3.5 1.5V21z\"/><path class=\"p2\" d=\"M3 14h18M9 10v4M15 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

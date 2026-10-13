@@ -1,0 +1,10 @@
+{
+  "name": "message-wave",
+  "category": "communication",
+  "tags": ["message", "wave", "audio", "voice", "chat", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><path class=\"p2\" d=\"M7 13.5C8.5 12 10 12 11.5 13.5S14.5 15 16 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

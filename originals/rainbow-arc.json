@@ -1,0 +1,11 @@
+{
+  "name": "rainbow-arc",
+  "category": "science",
+  "tags": ["rainbow", "arc", "light", "spectrum", "color", "weather"],
+  "svg": "<path class=\"p1\" d=\"M3 18A9 9 0 0 1 21 18\"/><path class=\"p2\" d=\"M6 18A6 6 0 0 1 18 18\"/><path class=\"p3\" d=\"M9 18A3 3 0 0 1 15 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

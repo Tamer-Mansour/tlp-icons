@@ -1,0 +1,11 @@
+{
+  "name": "beetle-dung",
+  "category": "science",
+  "tags": ["beetle", "dung", "insect", "ball", "bug"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"14\" rx=\"5\" ry=\"4\"/><circle class=\"p2\" cx=\"18\" cy=\"16.5\" r=\"2.5\"/><path class=\"p3\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 1000 }
+  ]
+}

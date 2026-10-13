@@ -1,0 +1,11 @@
+{
+  "name": "sports-camera",
+  "category": "sport",
+  "tags": ["camera", "sports", "action", "record", "lens", "video"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"3.5\"/><rect class=\"p3\" x=\"13\" y=\"3\" width=\"4\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

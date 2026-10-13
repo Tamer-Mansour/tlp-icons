@@ -1,0 +1,10 @@
+{
+  "name": "switch-knob",
+  "category": "interface",
+  "tags": ["switch", "knob", "toggle", "track", "setting", "on"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"8\" width=\"19\" height=\"8\" rx=\"4\"/><circle class=\"d p2\" cx=\"7.5\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

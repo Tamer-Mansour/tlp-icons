@@ -1,0 +1,11 @@
+{
+  "name": "micro-sd-card",
+  "category": "devices",
+  "tags": ["sd", "card", "memory", "storage", "micro", "chip"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M9 7v4M14 7v4\"/><path class=\"p3\" d=\"M8 17h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "doc-stack",
+  "category": "files",
+  "tags": ["documents", "stack", "pile", "archive", "many files"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"5\" y=\"9.5\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"d p3\" x=\"2\" y=\"17\" width=\"12\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

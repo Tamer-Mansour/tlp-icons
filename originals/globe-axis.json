@@ -1,0 +1,11 @@
+{
+  "name": "globe-axis",
+  "category": "science",
+  "tags": ["globe", "axis", "earth", "planet", "tilt", "geography", "map"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"3.5\" ry=\"8\"/><line class=\"p3\" x1=\"4\" y1=\"20\" x2=\"20\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 1400, "delay": 1100 }
+  ]
+}

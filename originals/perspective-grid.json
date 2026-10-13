@@ -1,0 +1,11 @@
+{
+  "name": "perspective-grid",
+  "category": "design",
+  "tags": ["perspective", "vanishing", "grid", "lines", "depth", "layout"],
+  "svg": "<path class=\"p1\" d=\"M12 9L3 21M12 9L21 21M12 9L7.5 21M12 9L16.5 21\"/><path class=\"p2\" d=\"M3 16H21\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "photo-gallery",
+  "category": "photography",
+  "tags": ["gallery", "photo", "picture", "wall", "display", "frame", "art"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"11\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 12.5L10 9.5L12.5 12L14 10.5L17 12.5\"/><path class=\"p3\" d=\"M9 19H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

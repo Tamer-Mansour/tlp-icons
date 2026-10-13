@@ -1,0 +1,10 @@
+{
+  "name": "proofreader-marks",
+  "category": "text",
+  "tags": ["proofreader", "pilcrow", "paragraph", "check", "marks"],
+  "svg": "<path class=\"p1\" d=\"M9 10A3.5 3.5 0 0 1 9 3H17M13 3V14M17 3V14\"/><path class=\"p2\" d=\"M4 17.5L6.5 20L11 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

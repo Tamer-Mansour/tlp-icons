@@ -1,0 +1,11 @@
+{
+  "name": "fossil-bone",
+  "category": "science",
+  "tags": ["fossil", "bone", "imprint", "dig", "ancient"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"4\"/><path class=\"p2\" d=\"M5 8a3 3 0 0 0 0 6M19 8a3 3 0 0 1 0 6\"/><circle class=\"f p3\" cx=\"8\" cy=\"20\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1100 }
+  ]
+}

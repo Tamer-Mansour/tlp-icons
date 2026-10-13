@@ -1,0 +1,10 @@
+{
+  "name": "metal-ruler",
+  "category": "tools",
+  "tags": ["metal", "ruler", "steel", "measure", "ticks", "rule"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 8 V11 M8 8 V10 M11 8 V11 M14 8 V10 M17 8 V11 M20 8 V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

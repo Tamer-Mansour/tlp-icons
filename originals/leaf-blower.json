@@ -1,0 +1,11 @@
+{
+  "name": "leaf-blower",
+  "category": "home",
+  "tags": ["leaf", "blower", "garden", "yard", "air", "cleanup", "outdoor"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"8\" width=\"10\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"10\" width=\"7\" height=\"3\"/><path class=\"p2\" d=\"M14 15 L13 20 H17 L18 15\"/><line class=\"p3\" x1=\"3\" y1=\"6\" x2=\"7\" y2=\"6\"/><line class=\"p3\" x1=\"3\" y1=\"18\" x2=\"7\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 900 }
+  ]
+}

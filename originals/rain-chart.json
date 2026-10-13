@@ -1,0 +1,10 @@
+{
+  "name": "rain-chart",
+  "category": "charts",
+  "tags": ["rain", "chart", "precipitation", "weather", "cloud", "data"],
+  "svg": "<path class=\"d p1\" d=\"M7 13.5h10a3.5 3.5 0 0 0 .5-7 5 5 0 0 0-9.5 1.5A3.5 3.5 0 0 0 7 13.5z\"/><path class=\"p2\" d=\"M8 17v2.5M12 17v2.5M16 17v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

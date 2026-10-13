@@ -1,0 +1,10 @@
+{
+  "name": "guest-user",
+  "category": "people",
+  "tags": ["guest", "visitor", "temporary", "user", "dashed"],
+  "svg": "<path class=\"p1\" d=\"M12 4a4 4 0 0 1 4 4M16 12a4 4 0 0 1-8 0M8 8a4 4 0 0 1 4-4\"/><path class=\"p2\" d=\"M4 21a8 7 0 0 1 4-6M20 21a8 7 0 0 0-4-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 700, "delay": 500 }
+  ]
+}

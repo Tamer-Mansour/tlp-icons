@@ -1,0 +1,11 @@
+{
+  "name": "roster",
+  "category": "time",
+  "tags": ["roster", "list", "staff", "check", "clock"],
+  "svg": "<path class=\"p1\" d=\"M9 6h12M9 11h7\"/><path class=\"p2\" d=\"M3 6l1.5 1.5L7.5 4.5M3 11l1.5 1.5 3-3.5\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"4\"/><polyline class=\"p3\" points=\"17 15 17 17 18.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "17px 17px" }
+  ]
+}

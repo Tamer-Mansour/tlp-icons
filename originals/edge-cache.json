@@ -1,0 +1,11 @@
+{
+  "name": "edge-cache",
+  "category": "connectivity",
+  "tags": ["edge", "cache", "layers", "stored", "copy", "fast"],
+  "svg": "<path class=\"d p1\" d=\"M4 8L12 4L20 8L12 12Z\"/><path class=\"p2\" d=\"M4 12L12 16L20 12\"/><path class=\"p3\" d=\"M4 16L12 20L20 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

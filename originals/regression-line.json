@@ -1,0 +1,10 @@
+{
+  "name": "regression-line",
+  "category": "charts",
+  "tags": ["regression", "scatter", "trend", "correlation", "line", "statistics"],
+  "svg": "<path class=\"p2\" d=\"M3 19 L21 5\"/><circle class=\"f p1\" cx=\"4\" cy=\"15\" r=\"1.2\"/><circle class=\"f p1\" cx=\"8\" cy=\"19\" r=\"1.2\"/><circle class=\"f p1\" cx=\"12\" cy=\"9\" r=\"1.2\"/><circle class=\"f p1\" cx=\"16\" cy=\"15\" r=\"1.2\"/><circle class=\"f p1\" cx=\"19\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "transformation-reflect",
+  "category": "math",
+  "tags": ["reflection", "transformation", "mirror", "flip", "axis", "geometry"],
+  "svg": "<polygon class=\"d p1\" points=\"3,18 9,6 9,18\"/><polygon class=\"p2\" points=\"21,18 15,6 15,18\"/><path class=\"p3\" d=\"M12 3V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

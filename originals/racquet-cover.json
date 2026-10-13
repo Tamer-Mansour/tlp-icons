@@ -1,0 +1,11 @@
+{
+  "name": "racquet-cover",
+  "category": "sport",
+  "tags": ["racquet", "cover", "sleeve", "tennis", "zipper"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"7.5\" rx=\"5\" ry=\"5.5\"/><rect class=\"p2\" x=\"9\" y=\"15\" width=\"6\" height=\"6\" rx=\"1\"/><line class=\"p3\" x1=\"12\" y1=\"15.5\" x2=\"12\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "scan", "dur": 800, "delay": 1200 }
+  ]
+}

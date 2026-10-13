@@ -1,0 +1,10 @@
+{
+  "name": "fog-horn",
+  "category": "notifications",
+  "tags": ["fog", "horn", "sound", "wave", "warning", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h6l6-4v14l-6-4H3z\"/><path class=\"p2\" d=\"M17 7.5q1.25-1 2.5 0t2.5 0M17 12q1.25-1 2.5 0t2.5 0M17 16.5q1.25-1 2.5 0t2.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 400 }
+  ]
+}

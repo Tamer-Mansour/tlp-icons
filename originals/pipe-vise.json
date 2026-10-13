@@ -1,0 +1,11 @@
+{
+  "name": "pipe-vise",
+  "category": "tools",
+  "tags": ["pipe", "vise", "jaw", "clamp", "hold", "workshop"],
+  "svg": "<path class=\"p1\" d=\"M3 8L9 12L3 16M21 8L15 12L21 16\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M12 16V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "squeeze", "dur": 700, "delay": 1100 }
+  ]
+}

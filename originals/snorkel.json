@@ -1,0 +1,10 @@
+{
+  "name": "snorkel",
+  "category": "sport",
+  "tags": ["snorkel", "diving", "mouthpiece", "tube", "swim", "ocean"],
+  "svg": "<path class=\"p1\" d=\"M9 3H15V13Q15 17 11 17H7\"/><rect class=\"d p2\" x=\"3\" y=\"15\" width=\"5\" height=\"4\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

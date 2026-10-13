@@ -1,0 +1,10 @@
+{
+  "name": "subscript-text",
+  "category": "text",
+  "tags": ["subscript", "text", "lowered", "letter", "chemistry", "format"],
+  "svg": "<path class=\"p1\" d=\"M3 20l8-8M11 20l-8-8\"/><path class=\"p2\" d=\"M15 15a2 2 0 0 1 4 0l-4 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 600 }
+  ]
+}

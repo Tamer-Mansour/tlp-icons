@@ -1,0 +1,10 @@
+{
+  "name": "venus-clouds",
+  "category": "science",
+  "tags": ["venus", "planet", "clouds", "atmosphere", "space", "solar"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M6 15 C4 14 4 11 6.5 11 C7 8 11 7.5 12 10 C13 8 17 8.5 17 11.5 C19.5 11.5 19.5 15 17 15 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

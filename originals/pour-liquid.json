@@ -1,0 +1,11 @@
+{
+  "name": "pour-liquid",
+  "category": "food",
+  "tags": ["pour", "liquid", "pitcher", "jug", "stream"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H13 V18 Q13 21 10 21 H6 Q3 21 3 18 Z\"/><path class=\"p2\" d=\"M13 10 Q18 10 18 15 V19\"/><circle class=\"f p3\" cx=\"18\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "fall", "dur": 600, "delay": 1100 }
+  ]
+}

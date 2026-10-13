@@ -1,0 +1,11 @@
+{
+  "name": "paste-clipboard",
+  "category": "development",
+  "tags": ["paste", "clipboard", "copy", "snippet", "code", "buffer"],
+  "svg": "<rect class=\"p1 d\" x=\"5\" y=\"5\" width=\"14\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 13H15M9 16H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

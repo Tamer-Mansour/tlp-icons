@@ -1,0 +1,11 @@
+{
+  "name": "locksmith-shop",
+  "category": "buildings",
+  "tags": ["locksmith", "padlock", "key", "lock", "keys", "security"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"9\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 11 V8 A2.5 2.5 0 0 1 10.5 8 V11\"/><path class=\"p3\" d=\"M18 10 V21 M18 17 H21\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 500, "origin": "5.5px 11px" },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1300, "origin": "18px 21px" }
+  ]
+}

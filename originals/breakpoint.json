@@ -1,0 +1,10 @@
+{
+  "name": "breakpoint",
+  "category": "development",
+  "tags": ["debug", "breakpoint", "code", "gutter", "stop"],
+  "svg": "<path class=\"p1\" d=\"M10 6h10M10 12h10M10 18h6\"/><circle class=\"f p2\" cx=\"5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

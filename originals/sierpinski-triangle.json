@@ -1,0 +1,10 @@
+{
+  "name": "sierpinski-triangle",
+  "category": "math",
+  "tags": ["sierpinski", "fractal", "triangle", "pattern", "recursive"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L21.5 20H2.5Z\"/><path class=\"p2\" d=\"M7 11.5H17L12 20Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "electron-orbit",
+  "category": "science",
+  "tags": ["electron", "orbit", "atom", "nucleus", "physics"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "orbit", "dur": 1200, "delay": 1200, "origin": "12px 12px" }
+  ]
+}

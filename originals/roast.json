@@ -1,0 +1,11 @@
+{
+  "name": "roast",
+  "category": "food",
+  "tags": ["roast", "bird", "chicken", "oven", "dinner"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"7\" ry=\"4\"/><line class=\"p2\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><path class=\"p3\" d=\"M9 6 Q8 4 9 2 M15 6 Q14 4 15 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "road-sign-one-way",
+  "category": "arrows",
+  "tags": ["road", "sign", "one way", "direction", "traffic", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M6 12h12M14 8l4 4-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

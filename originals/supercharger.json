@@ -1,0 +1,12 @@
+{
+  "name": "supercharger",
+  "category": "vehicles",
+  "tags": ["supercharger", "boost", "pulley", "belt", "engine", "compressor"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M7 8h10M7 16h10\"/><path class=\"p4\" d=\"M17 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 },
+    { "part": "p4", "anim": "spinFast", "dur": 800, "delay": 1400 }
+  ]
+}

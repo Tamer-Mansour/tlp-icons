@@ -1,0 +1,11 @@
+{
+  "name": "coins-stack",
+  "category": "charts",
+  "tags": ["coins", "stack", "money", "savings", "finance", "pile"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"6\" rx=\"7\" ry=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"7\" ry=\"2\"/><ellipse class=\"p3\" cx=\"12\" cy=\"18\" rx=\"7\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

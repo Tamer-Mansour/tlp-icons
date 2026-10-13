@@ -1,0 +1,11 @@
+{
+  "name": "live-badge",
+  "category": "notifications",
+  "tags": ["live", "badge", "streaming", "status", "on-air"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><circle class=\"f p2\" cx=\"8\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M12 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 800 }
+  ]
+}

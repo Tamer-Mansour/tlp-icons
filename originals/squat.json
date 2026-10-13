@@ -1,0 +1,13 @@
+{
+  "name": "squat",
+  "category": "sport",
+  "tags": ["squat", "legs", "figure", "exercise", "lower", "workout"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4\" r=\"2\"/><path class=\"p2\" d=\"M12 7 L15 13\"/><path class=\"p3\" d=\"M15 13 L19 16 L16 21\"/><path class=\"p4\" d=\"M15 13 L10 15 L10 21\"/><path class=\"p5\" d=\"M13 9 L20 10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p5", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p1", "anim": "nod", "dur": 600, "delay": 1000 }
+  ]
+}

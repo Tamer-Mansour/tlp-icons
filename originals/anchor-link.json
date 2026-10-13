@@ -1,0 +1,10 @@
+{
+  "name": "anchor-link",
+  "category": "arrows",
+  "tags": ["anchor", "link", "jump", "section", "bookmark", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"14\" cy=\"5\" r=\"2\"/><path class=\"p1\" d=\"M14 7v13M10 11h8M9 15a5 5 0 0 0 10 0\"/><path class=\"p2\" d=\"M2 5h5M5 3l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

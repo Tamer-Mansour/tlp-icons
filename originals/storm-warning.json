@@ -1,0 +1,11 @@
+{
+  "name": "storm-warning",
+  "category": "weather",
+  "tags": ["storm", "warning", "lightning", "cloud", "flag"],
+  "svg": "<path class=\"d p1\" d=\"M9 16H17A3.5 3.5 0 0 0 17 9A5 5 0 0 0 8 10A3 3 0 0 0 9 16Z\"/><polyline class=\"p2\" points=\"12 17 10 19.5 13 19.5 11 22\"/><path class=\"p3\" d=\"M3 2V11M3 2H7L6 4L7 6H3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900, "origin": "left" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "milk-pail",
+  "category": "nature",
+  "tags": ["milk", "pail", "bucket", "dairy", "farm"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 L6.5 19 Q6.5 20.5 8 20.5 H16 Q17.5 20.5 17.5 19 L19 9 Z\"/><path class=\"p2\" d=\"M7.5 9 Q7.5 3 12 3 Q16.5 3 16.5 9\"/><line class=\"p3\" x1=\"19\" y1=\"11\" x2=\"21.5\" y2=\"9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 900, "origin": "12px 9px" }
+  ]
+}

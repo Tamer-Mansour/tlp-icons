@@ -1,0 +1,11 @@
+{
+  "name": "earth-core",
+  "category": "science",
+  "tags": ["earth", "core", "layers", "planet", "geology"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

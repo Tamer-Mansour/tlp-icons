@@ -1,0 +1,11 @@
+{
+  "name": "plc-controller",
+  "category": "devices",
+  "tags": ["plc", "controller", "industrial", "automation", "io", "pins"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M2 8 H6 M2 14 H6 M18 8 H22 M18 14 H22\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

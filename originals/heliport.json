@@ -1,0 +1,12 @@
+{
+  "name": "heliport",
+  "category": "buildings",
+  "tags": ["helicopter", "heliport", "rooftop", "landing", "aviation", "building", "h"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"6\" ry=\"4\"/><path class=\"p3\" d=\"M17 13h4M8.5 17v3.5M14.5 17v3.5M6.5 20.5h10\"/><path class=\"p2\" d=\"M11 6v3\"/><path class=\"p4\" d=\"M4 6h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "spin", "dur": 1500, "delay": 1000 }
+  ]
+}

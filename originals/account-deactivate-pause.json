@@ -1,0 +1,10 @@
+{
+  "name": "account-deactivate-pause",
+  "category": "people",
+  "tags": ["account", "deactivate", "pause", "user", "disable"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"8.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h3a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><line class=\"p2\" x1=\"17\" y1=\"4\" x2=\"17\" y2=\"9\"/><line class=\"p2\" x1=\"21\" y1=\"4\" x2=\"21\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dim", "dur": 600, "delay": 900 }
+  ]
+}

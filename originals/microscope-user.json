@@ -1,0 +1,11 @@
+{
+  "name": "microscope-user",
+  "category": "people",
+  "tags": ["microscope", "lab", "science", "eyepiece", "research", "optics"],
+  "svg": "<rect class=\"d p2\" x=\"10\" y=\"3\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M10 9 C6 10 6 16 8 19\"/><ellipse class=\"p1\" cx=\"12\" cy=\"20.5\" rx=\"7\" ry=\"1.5\"/><line class=\"p3\" x1=\"9\" y1=\"16\" x2=\"13\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1100, "origin": "10px 9px" }
+  ]
+}

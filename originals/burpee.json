@@ -1,0 +1,11 @@
+{
+  "name": "burpee",
+  "category": "sport",
+  "tags": ["burpee", "exercise", "squat", "jump", "workout"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"1.5\"/><path class=\"p2\" d=\"M8 9V13M8 11L5.5 13M8 11L10.5 13M8 13L6 18M8 13L10 18\"/><path class=\"p3\" d=\"M18 19V6M15.5 8.5L18 6L20.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "jump", "dur": 700, "delay": 1100 }
+  ]
+}

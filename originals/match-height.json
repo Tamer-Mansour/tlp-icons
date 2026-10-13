@@ -1,0 +1,11 @@
+{
+  "name": "match-height",
+  "category": "design",
+  "tags": ["match", "height", "bracket", "rectangles", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"5\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"3\" width=\"5\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M3 19h18v2H3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

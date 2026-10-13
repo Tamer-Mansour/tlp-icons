@@ -1,0 +1,11 @@
+{
+  "name": "asphalt-paver",
+  "category": "tools",
+  "tags": ["asphalt", "paver", "road", "machine", "construction", "pavement"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"13\" height=\"6\" rx=\"1\"/><line class=\"p2\" x1=\"16\" y1=\"14\" x2=\"21\" y2=\"14\"/><line class=\"p3\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

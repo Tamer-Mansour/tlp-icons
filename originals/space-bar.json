@@ -1,0 +1,10 @@
+{
+  "name": "space-bar",
+  "category": "interface",
+  "tags": ["space", "spacebar", "key", "keyboard", "keycap"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"19\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M7 13.5h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

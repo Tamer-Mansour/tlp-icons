@@ -1,0 +1,11 @@
+{
+  "name": "smoke-plume",
+  "category": "nature",
+  "tags": ["smoke", "plume", "chimney", "rising", "fire"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"17\" width=\"14\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M9 17 Q5 13 9 10 Q13 7 9 3\"/><path class=\"p3\" d=\"M15 17 Q19 13 15 10 Q13 8 15 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

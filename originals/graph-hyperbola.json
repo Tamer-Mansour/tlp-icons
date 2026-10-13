@@ -1,0 +1,10 @@
+{
+  "name": "graph-hyperbola",
+  "category": "math",
+  "tags": ["graph", "hyperbola", "reciprocal", "branches", "axes"],
+  "svg": "<line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><path class=\"p1\" d=\"M15 3 C15 8 16 9 21 9\"/><path class=\"p1\" d=\"M9 21 C9 16 8 15 3 15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

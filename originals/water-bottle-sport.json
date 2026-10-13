@@ -1,0 +1,11 @@
+{
+  "name": "water-bottle-sport",
+  "category": "sport",
+  "tags": ["water bottle", "hydration", "drink", "gym", "flask"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"10\" width=\"10\" height=\"11\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"5\" width=\"6\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"11\" y=\"3\" width=\"2\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1000 }
+  ]
+}

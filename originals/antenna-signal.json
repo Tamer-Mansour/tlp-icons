@@ -1,0 +1,11 @@
+{
+  "name": "antenna-signal",
+  "category": "notifications",
+  "tags": ["antenna", "signal", "broadcast", "tower", "waves", "radio"],
+  "svg": "<path class=\"p1\" d=\"M12 11v10M9 21h6\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1.2\"/><path class=\"p3\" d=\"M8.5 5.5a5 5 0 0 0 0 7M5.5 2.5a9 9 0 0 0 0 13M15.5 5.5a5 5 0 0 1 0 7M18.5 2.5a9 9 0 0 1 0 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

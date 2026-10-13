@@ -1,0 +1,11 @@
+{
+  "name": "team-handshake",
+  "category": "people",
+  "tags": ["team", "handshake", "deal", "agreement", "partner"],
+  "svg": "<path class=\"p1\" d=\"M2 8.5h4v7H2zM18 8.5h4v7h-4z\"/><path class=\"p2\" d=\"M6 10.5l3-2.5h6l3 2.5v2l-6 4.5-6-4.5z\"/><path class=\"p3\" d=\"M9.5 12.5l2.5 2 2.5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 1000, "delay": 1000 }
+  ]
+}

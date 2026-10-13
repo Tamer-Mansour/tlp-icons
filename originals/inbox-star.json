@@ -1,0 +1,10 @@
+{
+  "name": "inbox-star",
+  "category": "communication",
+  "tags": ["inbox", "star", "favorite", "tray", "important", "saved"],
+  "svg": "<path class=\"p1\" d=\"M3 13h5l1 2h6l1-2h5v6H3z\"/><polygon class=\"p2\" points=\"18 3.5 18.8 5.2 20.5 5.4 19.2 6.5 19.6 8.2 18 7.3 16.4 8.2 16.8 6.5 15.5 5.4 17.2 5.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

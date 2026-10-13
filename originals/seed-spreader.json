@@ -1,0 +1,11 @@
+{
+  "name": "seed-spreader",
+  "category": "tools",
+  "tags": ["seed", "spreader", "hopper", "crank", "fertilizer"],
+  "svg": "<path class=\"d p1\" d=\"M5 6H19L14 14H10Z\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"18\"/><circle class=\"f p3\" cx=\"6\" cy=\"19\" r=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

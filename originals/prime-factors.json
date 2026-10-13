@@ -1,0 +1,11 @@
+{
+  "name": "prime-factors",
+  "category": "math",
+  "tags": ["prime", "factors", "split", "branch", "number", "decompose"],
+  "svg": "<path class=\"p1\" d=\"M12 4 L7 11 M12 4 L17 11\"/><circle class=\"d p2\" cx=\"7\" cy=\"16\" r=\"3\"/><circle class=\"d p3\" cx=\"17\" cy=\"16\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

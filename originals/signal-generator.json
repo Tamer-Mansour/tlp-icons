@@ -1,0 +1,11 @@
+{
+  "name": "signal-generator",
+  "category": "devices",
+  "tags": ["signal", "generator", "waveform", "oscillator", "test", "electronics"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 13c1.5-2.5 3-2.5 4.5 0s3 2.5 4.5 0\"/><path class=\"p3\" d=\"M19 13h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1200 }
+  ]
+}

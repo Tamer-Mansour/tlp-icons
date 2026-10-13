@@ -1,0 +1,10 @@
+{
+  "name": "welding-clamp",
+  "category": "tools",
+  "tags": ["welding", "clamp", "ground", "cable", "jaw", "workshop"],
+  "svg": "<path class=\"p1\" d=\"M3 8h10v8H3z\"/><path class=\"p2\" d=\"M13 12c3 0 4 2 4 5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

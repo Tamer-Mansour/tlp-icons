@@ -1,0 +1,11 @@
+{
+  "name": "base-station",
+  "category": "connectivity",
+  "tags": ["base", "station", "cell tower", "mobile", "signal", "wireless"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"14\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M12 14V8\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1.2\"/><path class=\"p3\" d=\"M8.5 5A5 5 0 0 0 8.5 11M15.5 5A5 5 0 0 1 15.5 11M5.5 2.5A9 9 0 0 0 5.5 13.5M18.5 2.5A9 9 0 0 1 18.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 900 }
+  ]
+}

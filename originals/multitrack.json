@@ -1,0 +1,11 @@
+{
+  "name": "multitrack",
+  "category": "media",
+  "tags": ["multitrack", "tracks", "audio", "waveform", "recording", "mix"],
+  "svg": "<path class=\"p1\" d=\"M3 6q2.25-2.5 4.5 0t4.5 0t4.5 0t4.5 0\"/><path class=\"p2\" d=\"M3 12q2.25-2.5 4.5 0t4.5 0t4.5 0t4.5 0\"/><path class=\"p3\" d=\"M3 18q2.25-2.5 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 250 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

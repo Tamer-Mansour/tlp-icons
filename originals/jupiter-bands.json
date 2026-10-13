@@ -1,0 +1,11 @@
+{
+  "name": "jupiter-bands",
+  "category": "science",
+  "tags": ["jupiter", "planet", "bands", "space", "gas", "solar"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M4 9 C8 8 16 10 20 9\"/><path class=\"p3\" d=\"M4 15 C8 14 16 16 20 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "constraints-pin",
+  "category": "design",
+  "tags": ["constraints", "pin", "anchor", "resize", "layout", "fixed"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"8\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M12 3v5M9 3h6\"/><path class=\"p3\" d=\"M3 13h2M19 13h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 1100 }
+  ]
+}

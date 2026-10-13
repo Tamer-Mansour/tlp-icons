@@ -1,0 +1,11 @@
+{
+  "name": "file-trending-up",
+  "category": "files",
+  "tags": ["file", "trending", "up", "growth", "rise", "chart"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><polyline class=\"p2\" points=\"7.5 16.5 10.8 13.2 13.2 15.6 16.5 12\"/><polyline class=\"p3\" points=\"13.5 12 16.5 12 16.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 500, "delay": 1100 }
+  ]
+}

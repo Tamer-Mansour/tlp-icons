@@ -1,0 +1,11 @@
+{
+  "name": "padlock",
+  "category": "home",
+  "tags": ["padlock", "lock", "security", "locked", "secure", "key", "safety"],
+  "svg": "<path class=\"p1\" d=\"M8 11 V7 A4 4 0 0 1 16 7 V11\"/><rect class=\"d p2\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "text-lemma",
+  "category": "text",
+  "tags": ["lemma", "base", "form", "word", "dictionary", "bracket", "linguistics"],
+  "svg": "<path class=\"p1\" d=\"M3 12h5\"/><path class=\"p2\" d=\"M10 5H8v14h2M18 5h2v14h-2\"/><path class=\"p3\" d=\"M11.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 800 }
+  ]
+}

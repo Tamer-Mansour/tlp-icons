@@ -1,0 +1,11 @@
+{
+  "name": "backlog",
+  "category": "development",
+  "tags": ["backlog", "queue", "tasks", "list", "pending", "tray"],
+  "svg": "<path class=\"p1\" d=\"M5 4 H19 M5 7 H15\"/><path class=\"d p2\" d=\"M3 14 H8 L10 16.5 H14 L16 14 H21 V19 H3 Z\"/><path class=\"p3\" d=\"M12 10 V13 M10 11.5 L12 13.5 L14 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

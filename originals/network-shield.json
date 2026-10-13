@@ -1,0 +1,11 @@
+{
+  "name": "network-shield",
+  "category": "security",
+  "tags": ["network", "shield", "nodes", "protection", "secure", "connected"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V5.5z\"/><path class=\"p2\" d=\"M11 8.2L9.3 12M13 8.2l1.7 3.8\"/><circle class=\"p3\" cx=\"12\" cy=\"7\" r=\"1.5\"/><circle class=\"p3\" cx=\"8.5\" cy=\"13.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"15.5\" cy=\"13.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

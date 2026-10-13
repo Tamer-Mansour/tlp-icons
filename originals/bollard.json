@@ -1,0 +1,11 @@
+{
+  "name": "bollard",
+  "category": "vehicles",
+  "tags": ["bollard", "post", "parking", "road", "pedestrian"],
+  "svg": "<path class=\"d p1\" d=\"M8 21V11a4 4 0 0 1 8 0v10z\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M8 15h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

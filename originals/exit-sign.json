@@ -1,0 +1,10 @@
+{
+  "name": "exit-sign",
+  "category": "arrows",
+  "tags": ["exit", "sign", "door", "leave", "out"],
+  "svg": "<path class=\"p1\" d=\"M13 4 H4 V20 H13\"/><path class=\"p2\" d=\"M9 12 H21\"/><polyline class=\"p2\" points=\"17 8 21 12 17 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

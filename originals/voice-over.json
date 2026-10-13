@@ -1,0 +1,11 @@
+{
+  "name": "voice-over",
+  "category": "media",
+  "tags": ["voice", "over", "narration", "audio", "film", "microphone"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"13\" height=\"14\" rx=\"1\"/><rect class=\"p2\" x=\"17.5\" y=\"4\" width=\"3\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 9.5a3.5 3.5 0 0 0 6 0\"/><path class=\"p3\" d=\"M21 16a3 3 0 0 1 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

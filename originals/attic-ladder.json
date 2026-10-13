@@ -1,0 +1,10 @@
+{
+  "name": "attic-ladder",
+  "category": "home",
+  "tags": ["attic", "ladder", "hatch", "ceiling", "loft", "storage"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"3\"/><path class=\"p2\" d=\"M8 7.5v13M16 7.5v13M8 11h8M8 15h8M8 19h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 900, "delay": 500 }
+  ]
+}

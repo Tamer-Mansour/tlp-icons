@@ -1,0 +1,11 @@
+{
+  "name": "ultrasonic-sensor",
+  "category": "devices",
+  "tags": ["ultrasonic", "sensor", "sound", "distance", "transducer"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"3\"/><circle class=\"d p2\" cx=\"19\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M11 9 Q13 12 11 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

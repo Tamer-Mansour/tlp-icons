@@ -1,0 +1,11 @@
+{
+  "name": "fruit-bowl",
+  "category": "food",
+  "tags": ["fruit", "bowl", "apple", "pear", "healthy", "food"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18a9 8 0 0 1-18 0z\"/><circle class=\"p2\" cx=\"8\" cy=\"7\" r=\"2.8\"/><circle class=\"p3\" cx=\"16\" cy=\"7.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1000 }
+  ]
+}

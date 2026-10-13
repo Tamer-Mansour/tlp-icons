@@ -1,0 +1,10 @@
+{
+  "name": "abacus-beads",
+  "category": "charts",
+  "tags": ["abacus", "beads", "counting", "math", "rods", "count"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18M3 17h18\"/><circle class=\"p2\" cx=\"8\" cy=\"7\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"7\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

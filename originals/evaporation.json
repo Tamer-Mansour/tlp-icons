@@ -1,0 +1,11 @@
+{
+  "name": "evaporation",
+  "category": "weather",
+  "tags": ["evaporation", "water", "rising", "vapor", "heat"],
+  "svg": "<path class=\"p1\" d=\"M3 17 Q6 15 9 17 T15 17 T21 17\"/><path class=\"p2\" d=\"M12 13 V5 M9.5 7.5 L12 5 L14.5 7.5\"/><circle class=\"f p3\" cx=\"7\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

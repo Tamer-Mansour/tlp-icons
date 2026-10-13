@@ -1,0 +1,10 @@
+{
+  "name": "chimney",
+  "category": "home",
+  "tags": ["chimney", "stack", "roof", "house", "smoke"],
+  "svg": "<path class=\"p1\" d=\"M3 11l9-7 9 7\"/><path class=\"p1\" d=\"M6 9v12h12V9\"/><path class=\"p2\" d=\"M16 6V3h3v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

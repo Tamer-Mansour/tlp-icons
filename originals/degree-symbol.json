@@ -1,0 +1,10 @@
+{
+  "name": "degree-symbol",
+  "category": "math",
+  "tags": ["degree", "symbol", "angle", "temperature", "circle", "math"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"8\" width=\"8\" height=\"12\" rx=\"4\"/><circle class=\"p2\" cx=\"17\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

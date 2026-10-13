@@ -1,0 +1,11 @@
+{
+  "name": "fan-scarf",
+  "category": "people",
+  "tags": ["fan", "scarf", "team", "fringe", "stripes", "supporter"],
+  "svg": "<path class=\"d p1\" d=\"M5 5 Q12 8 19 5 V9 Q12 12 5 9 Z\"/><path class=\"p2\" d=\"M5 7 Q12 10 19 7\"/><path class=\"p3\" d=\"M7 9 V14 M10 10 V15 M14 10 V15 M17 9 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1200, "origin": "12px 9px" }
+  ]
+}

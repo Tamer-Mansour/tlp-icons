@@ -1,0 +1,10 @@
+{
+  "name": "hilbert-curve",
+  "category": "math",
+  "tags": ["hilbert", "curve", "space-filling", "fractal", "math"],
+  "svg": "<path class=\"p1\" d=\"M4 4V8H8V4H12V8H16V4H20V12H16V16H20V20H16V16H12V20H8V16H4V20\"/><circle class=\"f p2\" cx=\"4\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

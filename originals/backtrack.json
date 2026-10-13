@@ -1,0 +1,10 @@
+{
+  "name": "backtrack",
+  "category": "arrows",
+  "tags": ["backtrack", "undo", "reverse", "return", "retrace", "zigzag"],
+  "svg": "<path class=\"p1\" d=\"M19 17 L13 11 L9 15 L4 7\"/><path class=\"p2\" d=\"M4 11 V7 H8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

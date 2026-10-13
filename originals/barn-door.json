@@ -1,0 +1,11 @@
+{
+  "name": "barn-door",
+  "category": "buildings",
+  "tags": ["barn", "door", "track", "brace", "farm", "sliding"],
+  "svg": "<path class=\"p1\" d=\"M2 3h20\"/><rect class=\"d p2\" x=\"5\" y=\"5\" width=\"14\" height=\"16\"/><path class=\"p3\" d=\"M5 5L19 21M19 5L5 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pit-stop",
+  "category": "vehicles",
+  "tags": ["pit", "stop", "car", "wrench", "race", "service"],
+  "svg": "<path class=\"d p1\" d=\"M3 16.5V12.5L5.5 8.5H14.5L17 12.5V16.5Z\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"1.5\"/><circle class=\"p2\" cx=\"14\" cy=\"17\" r=\"1.5\"/><path class=\"p3\" d=\"M17.5 4.5L20 7\"/><circle class=\"p4\" cx=\"19.5\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1400 }
+  ]
+}

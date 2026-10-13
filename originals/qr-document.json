@@ -1,0 +1,11 @@
+{
+  "name": "qr-document",
+  "category": "files",
+  "tags": ["qr", "code", "document", "scan", "page"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h10l4 4v16H5z\"/><rect class=\"p2\" x=\"8\" y=\"6\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"6\" width=\"3\" height=\"3\"/><rect class=\"p3\" x=\"8\" y=\"12\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

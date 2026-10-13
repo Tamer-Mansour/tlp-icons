@@ -1,0 +1,11 @@
+{
+  "name": "lookout-point",
+  "category": "buildings",
+  "tags": ["lookout", "mountain", "peak", "flag", "summit", "viewpoint"],
+  "svg": "<path class=\"d p1\" d=\"M2 20 L9 8 L13 14 L16 10 L22 20 Z\"/><path class=\"p2\" d=\"M9 8 V2\"/><polygon class=\"p3\" points=\"9,2 14,3.5 9,5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1200 }
+  ]
+}

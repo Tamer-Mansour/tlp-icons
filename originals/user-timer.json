@@ -1,0 +1,11 @@
+{
+  "name": "user-timer",
+  "category": "people",
+  "tags": ["user", "timer", "clock", "wait", "time"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20.5c0-3.3 2.7-6 6-6s6 2.7 6 6\"/><circle class=\"p2\" cx=\"17.5\" cy=\"15.5\" r=\"4.5\"/><path class=\"p3\" d=\"M17.5 13v2.7l1.7 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1200, "origin": "17.5px 15.5px" }
+  ]
+}

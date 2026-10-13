@@ -1,0 +1,10 @@
+{
+  "name": "mail-thread",
+  "category": "communication",
+  "tags": ["mail", "thread", "conversation", "email", "chain", "linked"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"6\" y=\"10\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"6\" y=\"18\" width=\"12\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M12 6v4M12 14v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shrug-person",
+  "category": "people",
+  "tags": ["shrug", "unsure", "dunno", "gesture", "shoulders", "person"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M4 20Q5 13 9.5 12.5\"/><path class=\"p2\" d=\"M20 20Q19 13 14.5 12.5\"/><path class=\"p3\" d=\"M4 20L2 17\"/><path class=\"p3\" d=\"M20 20L22 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1000 }
+  ]
+}

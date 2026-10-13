@@ -1,0 +1,10 @@
+{
+  "name": "bird-wing",
+  "category": "nature",
+  "tags": ["wing", "bird", "feather", "flight", "plume", "flap"],
+  "svg": "<path class=\"d p1\" d=\"M4 19 Q4 8 20 5 L17.5 8 L19.5 10 L16.5 11.5 L18 14.5 L14.5 15 L12 18.5 Q8 19.5 4 19 Z\"/><path class=\"p2\" d=\"M9 15 Q13 11 17 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

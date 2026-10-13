@@ -1,0 +1,11 @@
+{
+  "name": "signup-form",
+  "category": "people",
+  "tags": ["signup", "form", "register", "name", "email", "pen"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 8h6M5.5 12h4M5.5 16h6\"/><path class=\"p3\" d=\"M14.5 19.5l.7-3L19.5 12l2 2-4.3 4.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

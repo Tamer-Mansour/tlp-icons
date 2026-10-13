@@ -1,0 +1,10 @@
+{
+  "name": "area-square",
+  "category": "math",
+  "tags": ["area", "square", "surface", "measure", "geometry", "fill"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

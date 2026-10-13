@@ -1,0 +1,10 @@
+{
+  "name": "message-copy",
+  "category": "communication",
+  "tags": ["copy", "duplicate", "messages", "clone", "bubbles", "reproduce"],
+  "svg": "<path class=\"p1\" d=\"M6.5 2.5H19a1.5 1.5 0 0 1 1.5 1.5V13\"/><path class=\"d p2\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

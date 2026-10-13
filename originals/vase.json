@@ -1,0 +1,11 @@
+{
+  "name": "vase",
+  "category": "home",
+  "tags": ["vase", "flowers", "stems", "bouquet", "decor", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M10 10H14V12.5C16.5 13.5 18 15 18 17.5A6 4 0 0 1 6 17.5C6 15 7.5 13.5 10 12.5Z\"/><path class=\"p2\" d=\"M12 10L9 5M12 10L15 5\"/><circle class=\"p3\" cx=\"9\" cy=\"4\" r=\"1.5\"/><circle class=\"p3\" cx=\"15\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "bloom", "dur": 600, "delay": 1000 }
+  ]
+}

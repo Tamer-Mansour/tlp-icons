@@ -1,0 +1,11 @@
+{
+  "name": "attendance-check",
+  "category": "people",
+  "tags": ["attendance", "check", "calendar", "present", "roll"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><line class=\"p1\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p1\" x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line class=\"p1\" x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><circle class=\"p2\" cx=\"9\" cy=\"14\" r=\"1.5\"/><path class=\"p2\" d=\"M6.5 20a2.5 2.5 0 0 1 5 0\"/><polyline class=\"p3\" points=\"14 14.5 16 16.5 19.5 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

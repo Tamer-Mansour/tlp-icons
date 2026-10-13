@@ -1,0 +1,11 @@
+{
+  "name": "swimmer-person",
+  "category": "people",
+  "tags": ["swimmer", "swimming", "water", "pool", "waves", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"2.5\"/><path class=\"p2\" d=\"M12.5 12.5Q14 4 20 6\"/><path class=\"p3\" d=\"M3 17.5q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0M3 21q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

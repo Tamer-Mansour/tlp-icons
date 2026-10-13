@@ -1,0 +1,10 @@
+{
+  "name": "hull",
+  "category": "vehicles",
+  "tags": ["hull", "boat", "ship", "water", "sea", "vessel"],
+  "svg": "<path class=\"d p1\" d=\"M3 11H21L17.5 17.5H6.5Z\"/><path class=\"p2\" d=\"M2 19.5Q4.5 18 7 19.5T12 19.5T17 19.5T22 19.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "bob", "dur": 1000, "delay": 700 }
+  ]
+}

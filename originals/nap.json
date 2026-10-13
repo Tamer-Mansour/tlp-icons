@@ -1,0 +1,11 @@
+{
+  "name": "nap",
+  "category": "time",
+  "tags": ["nap", "sleep", "rest", "pillow", "moon"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"18\" height=\"5\" rx=\"2.5\"/><path class=\"p2\" d=\"M13 4h4l-4 4h4\"/><path class=\"d p3\" d=\"M7 5a3 3 0 1 0 3 3 2.5 2.5 0 0 1-3-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

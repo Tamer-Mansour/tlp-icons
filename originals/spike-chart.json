@@ -1,0 +1,10 @@
+{
+  "name": "spike-chart",
+  "category": "charts",
+  "tags": ["spike", "outlier", "peak", "anomaly", "surge"],
+  "svg": "<path class=\"p1\" d=\"M2 16H9.5L12 5L14.5 16H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 1000 }
+  ]
+}

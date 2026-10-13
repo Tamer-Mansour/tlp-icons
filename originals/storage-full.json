@@ -1,0 +1,11 @@
+{
+  "name": "storage-full",
+  "category": "notifications",
+  "tags": ["storage", "full", "box", "capacity", "space"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M5 7v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7\"/><rect class=\"d p3\" x=\"8\" y=\"10.5\" width=\"8\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "refill", "dur": 900, "delay": 900, "origin": "left" }
+  ]
+}

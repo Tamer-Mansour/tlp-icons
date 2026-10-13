@@ -1,0 +1,11 @@
+{
+  "name": "session-connection",
+  "category": "connectivity",
+  "tags": ["session", "connection", "timeout", "linked", "clock", "login"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 10V12.5L13.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-video",
+  "category": "media",
+  "tags": ["bookmark", "video", "saved", "film", "frame", "favorite"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"d p2\" d=\"M14 4h4v7l-2-2-2 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

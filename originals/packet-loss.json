@@ -1,0 +1,10 @@
+{
+  "name": "packet-loss",
+  "category": "connectivity",
+  "tags": ["packet", "loss", "dropped", "missing", "network", "error"],
+  "svg": "<path class=\"p1\" d=\"M3 12H9.5M14.5 12H21\"/><path class=\"p2\" d=\"M10 10L14 14M14 10L10 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

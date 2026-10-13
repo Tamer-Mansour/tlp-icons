@@ -1,0 +1,11 @@
+{
+  "name": "stack-frames",
+  "category": "development",
+  "tags": ["stack frames", "call stack", "layers", "debug", "frames"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"10\" height=\"7\" rx=\"1\"/><rect class=\"d p3\" x=\"11\" y=\"11\" width=\"10\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "saucer",
+  "category": "food",
+  "tags": ["food", "saucer", "cup", "tea", "dish", "tableware"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"16\" rx=\"9\" ry=\"3\"/><path class=\"p2\" d=\"M7 6h10l-1.5 5h-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

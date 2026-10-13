@@ -1,0 +1,11 @@
+{
+  "name": "farmhouse",
+  "category": "buildings",
+  "tags": ["farmhouse", "barn", "countryside", "chimney", "rural"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V11l5-5 5 5v10z\"/><path class=\"p2\" d=\"M10 8V3h2v3\"/><path class=\"p3\" d=\"M16 21v-7l3-3 3 3v7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

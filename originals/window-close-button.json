@@ -1,0 +1,10 @@
+{
+  "name": "window-close-button",
+  "category": "layout",
+  "tags": ["window", "close", "button", "x", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M15 7L18 10M18 7L15 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "zoom-percent",
+  "category": "interface",
+  "tags": ["zoom", "percent", "magnifier", "scale", "search", "view"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"7\"/><path class=\"p1\" d=\"M15 15l6 6\"/><path class=\"p2\" d=\"M14 6L6 14\"/><circle class=\"p2\" cx=\"8\" cy=\"8\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

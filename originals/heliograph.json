@@ -1,0 +1,11 @@
+{
+  "name": "heliograph",
+  "category": "communication",
+  "tags": ["heliograph", "mirror", "sunlight", "signal", "flash"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"9\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M7.5 9v12M4.5 21h6\"/><path class=\"p3\" d=\"M16 2.5v2.5M21 8h-2.5M19.3 4.7l-1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "leaf-fall",
+  "category": "nature",
+  "tags": ["leaf", "fall", "autumn", "falling", "season"],
+  "svg": "<path class=\"p1\" d=\"M3 4c5 0 8 2 9 6\"/><path class=\"d p2\" d=\"M12 21c0-6 3-10 10-10 0 6-3 10-10 10z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 1000, "delay": 800 }
+  ]
+}

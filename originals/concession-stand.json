@@ -1,0 +1,11 @@
+{
+  "name": "concession-stand",
+  "category": "sport",
+  "tags": ["concession", "stand", "awning", "snack", "stall"],
+  "svg": "<path class=\"d p1\" d=\"M3 9L5 4H19L21 9Z\"/><path class=\"p2\" d=\"M5 9V20H19V9\"/><path class=\"p3\" d=\"M9 13H15V17H9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

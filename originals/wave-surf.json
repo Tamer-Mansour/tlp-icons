@@ -1,0 +1,11 @@
+{
+  "name": "wave-surf",
+  "category": "weather",
+  "tags": ["wave", "surf", "surfing", "ocean", "curl", "beach"],
+  "svg": "<path class=\"p1\" d=\"M3 19 C3 11 9 5 17 5 C12 7 10 11 11 15 C12 19 16 19 21 17\"/><path class=\"p3\" d=\"M2 21.5 H22\"/><circle class=\"f p2\" cx=\"19\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

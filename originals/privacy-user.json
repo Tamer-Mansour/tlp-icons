@@ -1,0 +1,11 @@
+{
+  "name": "privacy-user",
+  "category": "people",
+  "tags": ["privacy", "user", "hidden", "eye", "anonymous", "visibility"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2 21a6 6 0 0 1 12 0\"/><path class=\"p2\" d=\"M13.5 12Q17 7.5 20.5 12Q17 16.5 13.5 12Z\"/><path class=\"p3\" d=\"M14 7.5L20.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

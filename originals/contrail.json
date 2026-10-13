@@ -1,0 +1,10 @@
+{
+  "name": "contrail",
+  "category": "weather",
+  "tags": ["contrail", "jet", "airplane", "vapor trail", "sky", "weather"],
+  "svg": "<path class=\"p1\" d=\"M10 12 H21 M15 12 L12 8 M15 12 L12 16\"/><path class=\"p2\" d=\"M2 12 H6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "launch", "dur": 1000, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "triangle-cluster",
+  "category": "shapes",
+  "tags": ["triangles", "cluster", "group", "shapes", "geometry"],
+  "svg": "<polygon class=\"p1\" points=\"2,9 6,3 10,9\"/><polygon class=\"p2\" points=\"13,9 17,3 21,9\"/><polygon class=\"p3\" points=\"7,21 11,15 15,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 600 }
+  ]
+}

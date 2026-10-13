@@ -1,0 +1,11 @@
+{
+  "name": "safe-dial",
+  "category": "security",
+  "tags": ["safe", "dial", "vault", "combination", "lock", "secure"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5v2M12 17v2M5 12h2M17 12h2\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"15.5\" y2=\"8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1400, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

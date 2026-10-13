@@ -1,0 +1,10 @@
+{
+  "name": "wobble-board",
+  "category": "sport",
+  "tags": ["wobble", "disc", "balance", "rocker", "training"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"8\" ry=\"3.5\"/><path class=\"p2\" d=\"M8 20A4 4 0 0 1 16 20Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "wiggle", "dur": 600, "delay": 500, "origin": "12px 16px" }
+  ]
+}

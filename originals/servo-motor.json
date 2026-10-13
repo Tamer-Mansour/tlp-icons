@@ -1,0 +1,11 @@
+{
+  "name": "servo-motor",
+  "category": "devices",
+  "tags": ["servo", "motor", "robot", "actuator", "arm", "control"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M18 12L21 7\"/><circle class=\"f p2\" cx=\"18\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M7 17V21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 1100, "origin": "18px 12px" }
+  ]
+}

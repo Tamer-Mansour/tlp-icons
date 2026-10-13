@@ -1,0 +1,10 @@
+{
+  "name": "volleyball-court",
+  "category": "buildings",
+  "tags": ["volleyball", "court", "net", "ball", "sport", "beach"],
+  "svg": "<path class=\"p1\" d=\"M3 15 H21 M3 15 V20 M21 15 V20\"/><circle class=\"d p2\" cx=\"12\" cy=\"8\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

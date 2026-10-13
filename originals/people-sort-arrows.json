@@ -1,0 +1,10 @@
+{
+  "name": "people-sort-arrows",
+  "category": "people",
+  "tags": ["people", "sort", "arrows", "order", "reorder", "up", "down"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M3.5 20c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5\"/><path class=\"p2\" d=\"M18 4v16M15 7l3-3 3 3M15 17l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

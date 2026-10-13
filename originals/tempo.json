@@ -1,0 +1,11 @@
+{
+  "name": "tempo",
+  "category": "media",
+  "tags": ["tempo", "metronome", "beat", "bpm", "timing", "music"],
+  "svg": "<path class=\"p1\" d=\"M8.5 21L10 5h4l1.5 16z\"/><path class=\"p2\" d=\"M12 19L15 9\"/><path class=\"p3\" d=\"M6 21h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 1000, "origin": "12px 19px" }
+  ]
+}

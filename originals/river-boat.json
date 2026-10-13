@@ -1,0 +1,11 @@
+{
+  "name": "river-boat",
+  "category": "vehicles",
+  "tags": ["river", "boat", "paddle wheel", "stern", "steam", "water"],
+  "svg": "<path class=\"d p1\" d=\"M4 15h16l-2 4H6z\"/><circle class=\"p2\" cx=\"7\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M7 6v6M4 9h6\"/><rect class=\"p3\" x=\"13\" y=\"9\" width=\"5\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1100, "origin": "7px 9px" }
+  ]
+}

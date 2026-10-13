@@ -1,0 +1,10 @@
+{
+  "name": "upvote",
+  "category": "interface",
+  "tags": ["upvote", "vote", "like", "arrow", "rating", "up"],
+  "svg": "<polyline class=\"p1\" points=\"5,13 12,6 19,13\"/><line class=\"p2\" x1=\"8\" y1=\"19\" x2=\"16\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 400 }
+  ]
+}

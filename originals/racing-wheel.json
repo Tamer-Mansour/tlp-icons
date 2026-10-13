@@ -1,0 +1,11 @@
+{
+  "name": "racing-wheel",
+  "category": "devices",
+  "tags": ["racing", "wheel", "steering", "driving", "car", "game"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M3 12h8M13 12h8M12 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

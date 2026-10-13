@@ -1,0 +1,10 @@
+{
+  "name": "frame-crop",
+  "category": "layout",
+  "tags": ["frame", "crop", "corners", "trim", "image"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"1\"/><polyline class=\"p2\" points=\"7,11 7,7 11,7\"/><polyline class=\"p2\" points=\"13,7 17,7 17,11\"/><polyline class=\"p2\" points=\"17,13 17,17 13,17\"/><polyline class=\"p2\" points=\"11,17 7,17 7,13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

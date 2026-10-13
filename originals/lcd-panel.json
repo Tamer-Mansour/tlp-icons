@@ -1,0 +1,11 @@
+{
+  "name": "lcd-panel",
+  "category": "devices",
+  "tags": ["lcd", "display", "panel", "digits", "screen", "segment"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 9.5H18\"/><path class=\"p3\" d=\"M6 14.5H12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1000 }
+  ]
+}

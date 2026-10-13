@@ -1,0 +1,12 @@
+{
+  "name": "mini-golf",
+  "category": "buildings",
+  "tags": ["mini", "golf", "flag", "hole", "windmill", "course"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8\" cy=\"19\" rx=\"5\" ry=\"2\"/><line class=\"p2\" x1=\"8\" y1=\"17\" x2=\"8\" y2=\"4\"/><polygon class=\"p3\" points=\"8,4 14,6 8,8\"/><path class=\"p4\" d=\"M16 21 L17.5 13 H19.5 L21 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "flutter", "dur": 700, "delay": 1200, "origin": "8px 6px" }
+  ]
+}

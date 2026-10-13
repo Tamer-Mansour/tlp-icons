@@ -1,0 +1,11 @@
+{
+  "name": "basil-leaf",
+  "category": "food",
+  "tags": ["basil", "leaf", "herb", "vein", "green"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C18 6 19 13 12 21C5 13 6 6 12 3Z\"/><path class=\"p2\" d=\"M12 6V19\"/><path class=\"p3\" d=\"M12 10L15 8M12 14L15 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

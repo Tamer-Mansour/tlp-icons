@@ -1,0 +1,10 @@
+{
+  "name": "shock-absorber",
+  "category": "vehicles",
+  "tags": ["shock", "absorber", "suspension", "spring", "damper"],
+  "svg": "<path class=\"p1\" d=\"M7 6l10 2-10 2 10 2-10 2 10 2-10 2\"/><path class=\"p2\" d=\"M12 2.5v3.5M12 17.5v4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "spring", "dur": 800, "delay": 300 }
+  ]
+}

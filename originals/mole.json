@@ -1,0 +1,12 @@
+{
+  "name": "mole",
+  "category": "nature",
+  "tags": ["animal", "burrow", "dig", "underground", "small"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><polyline class=\"p2\" points=\"5.5 10.5 2.5 12 5.5 13.5\"/><path class=\"p3\" d=\"M8 18.5v2.5M16 18.5v2.5\"/><circle class=\"f p4\" cx=\"13\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "dig", "dur": 700, "delay": 800 }
+  ]
+}

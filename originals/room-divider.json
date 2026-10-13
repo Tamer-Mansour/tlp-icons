@@ -1,0 +1,10 @@
+{
+  "name": "room-divider",
+  "category": "home",
+  "tags": ["room", "divider", "partition", "panels", "screen", "privacy"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"6\" height=\"16\" rx=\"1\"/><rect class=\"d p1\" x=\"10\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/><rect class=\"p2\" x=\"17\" y=\"4\" width=\"5\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cover-page",
+  "category": "text",
+  "tags": ["cover", "book", "title", "spine", "publication"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 2V22M11.5 6H16V10H11.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

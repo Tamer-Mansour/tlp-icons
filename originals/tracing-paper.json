@@ -1,0 +1,10 @@
+{
+  "name": "tracing-paper",
+  "category": "files",
+  "tags": ["tracing", "paper", "translucent", "overlay", "sheet", "drawing"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M7 17c3-6 7-6 10-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

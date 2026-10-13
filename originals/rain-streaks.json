@@ -1,0 +1,10 @@
+{
+  "name": "rain-streaks",
+  "category": "weather",
+  "tags": ["rain", "streaks", "window", "drizzle", "wet"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M15 7 L13 11 M10 11 L8 15 M15 14.5 L13 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 600 }
+  ]
+}

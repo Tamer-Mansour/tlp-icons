@@ -1,0 +1,10 @@
+{
+  "name": "time-tracker",
+  "category": "time",
+  "tags": ["time", "tracker", "stopwatch", "clock", "timer", "elapsed"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p1\" d=\"M10 2h4M12 2v2\"/><path class=\"p2\" d=\"M12 13V9M12 13l3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1100, "delay": 700, "origin": "12px 13px" }
+  ]
+}

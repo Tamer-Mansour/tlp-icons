@@ -1,0 +1,11 @@
+{
+  "name": "snackbar-message",
+  "category": "interface",
+  "tags": ["snackbar", "message", "bottom", "action", "undo", "notice"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M6 13h7\"/><circle class=\"f p3\" cx=\"18\" cy=\"13\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

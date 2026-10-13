@@ -1,0 +1,11 @@
+{
+  "name": "scroll-gesture",
+  "category": "arrows",
+  "tags": ["scroll", "vertical", "swipe", "move", "page"],
+  "svg": "<path class=\"p1\" d=\"M7 11V3M4.5 5.5 7 3l2.5 2.5\"/><path class=\"p2\" d=\"M17 13v8M14.5 18.5 17 21l2.5-2.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

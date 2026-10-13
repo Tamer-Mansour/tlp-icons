@@ -1,0 +1,10 @@
+{
+  "name": "lens-correction",
+  "category": "design",
+  "tags": ["lens", "correction", "distortion", "camera", "barrel", "optics"],
+  "svg": "<path class=\"p2\" d=\"M3 5Q12 2 21 5M3 19Q12 22 21 19M5 3Q2 12 5 21M19 3Q22 12 19 21\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "zoomIn", "dur": 600, "delay": 500 }
+  ]
+}

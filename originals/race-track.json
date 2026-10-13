@@ -1,0 +1,11 @@
+{
+  "name": "race-track",
+  "category": "buildings",
+  "tags": ["race", "track", "flag", "motor", "finish"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"8\"/><path class=\"p2\" d=\"M9 8v10\"/><polygon class=\"p3\" points=\"9,8 15,10 9,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 1200, "origin": "9px 8px" }
+  ]
+}

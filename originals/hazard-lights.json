@@ -1,0 +1,11 @@
+{
+  "name": "hazard-lights",
+  "category": "vehicles",
+  "tags": ["hazard", "warning", "triangle", "lights", "emergency"],
+  "svg": "<path class=\"d p1\" d=\"M12 7l8.5 14h-17z\"/><line class=\"p2\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"15\"/><path class=\"p3\" d=\"M12 2.5V4M4.5 5.5l1.3 1.3M19.5 5.5l-1.3 1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

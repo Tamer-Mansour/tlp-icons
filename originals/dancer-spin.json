@@ -1,0 +1,11 @@
+{
+  "name": "dancer-spin",
+  "category": "people",
+  "tags": ["dancer", "spin", "dance", "motion", "turn", "ballet"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"6\" r=\"2.5\"/><path class=\"p2\" d=\"M12 10 V15 M7 13 H17 M12 15 L8 21 M12 15 L16 21\"/><path class=\"p3\" d=\"M4 12 A8 8 0 0 1 20 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

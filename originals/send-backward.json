@@ -1,0 +1,10 @@
+{
+  "name": "send-backward",
+  "category": "design",
+  "tags": ["layers", "backward", "order", "overlap", "design"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"11\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"10\" width=\"11\" height=\"11\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 900 }
+  ]
+}

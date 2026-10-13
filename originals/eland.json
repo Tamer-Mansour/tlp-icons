@@ -1,0 +1,11 @@
+{
+  "name": "eland",
+  "category": "nature",
+  "tags": ["eland", "antelope", "spiral", "horns", "savanna"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 9 Q8.5 6 12 6 Q15.5 6 15.5 9 L14.5 18 Q12 20.5 9.5 18 Z\"/><path class=\"p2\" d=\"M8.5 9 Q4 8.5 3.5 4 Q5.5 2.5 6.8 4.2 M15.5 9 Q20 8.5 20.5 4 Q18.5 2.5 17.2 4.2\"/><circle class=\"f p3\" cx=\"10.8\" cy=\"11.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.2\" cy=\"11.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

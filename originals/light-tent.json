@@ -1,0 +1,11 @@
+{
+  "name": "light-tent",
+  "category": "photography",
+  "tags": ["light tent", "studio", "product", "softbox", "lighting"],
+  "svg": "<path class=\"p1\" d=\"M4 20L12 6l8 14\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"2\"/><path class=\"p3\" d=\"M12 2v2M3 12h2M19 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

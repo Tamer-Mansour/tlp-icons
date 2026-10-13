@@ -1,0 +1,11 @@
+{
+  "name": "smog",
+  "category": "weather",
+  "tags": ["smog", "haze", "city", "pollution", "fog"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V12H7V9H12V12H16V11H21V21Z\"/><path class=\"p2\" d=\"M3 4H21\"/><path class=\"p3\" d=\"M6 7H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 800 }
+  ]
+}

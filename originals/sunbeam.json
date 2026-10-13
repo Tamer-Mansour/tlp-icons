@@ -1,0 +1,11 @@
+{
+  "name": "sunbeam",
+  "category": "weather",
+  "tags": ["sun", "rays", "light", "beam", "sunshine", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"7\" r=\"3\"/><line class=\"p2\" x1=\"13\" y1=\"12\" x2=\"17\" y2=\"16\"/><line class=\"p2\" x1=\"9\" y1=\"15\" x2=\"12\" y2=\"18\"/><line class=\"p3\" x1=\"16\" y1=\"8\" x2=\"20\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 1000 }
+  ]
+}

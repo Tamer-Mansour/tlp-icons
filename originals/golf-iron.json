@@ -1,0 +1,11 @@
+{
+  "name": "golf-iron",
+  "category": "sport",
+  "tags": ["golf", "iron", "club", "blade", "swing", "course"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"11\" y2=\"13\"/><path class=\"d p2\" d=\"M11 13 L17 7 L19 9 L13 15 Z\"/><circle class=\"p3\" cx=\"19\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "strike", "dur": 500, "delay": 1000, "origin": "11px 13px" }
+  ]
+}

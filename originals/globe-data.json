@@ -1,0 +1,10 @@
+{
+  "name": "globe-data",
+  "category": "charts",
+  "tags": ["globe", "world", "data", "global", "chart"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><path class=\"p1\" d=\"M3 12h18\"/><circle class=\"f p2\" cx=\"9\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"15\" r=\"1.2\"/><circle class=\"f p2\" cx=\"8\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

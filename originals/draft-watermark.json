@@ -1,0 +1,11 @@
+{
+  "name": "draft-watermark",
+  "category": "text",
+  "tags": ["draft", "watermark", "page", "document", "unfinished", "text"],
+  "svg": "<path class=\"p1\" d=\"M6 3h8l4 4v14H6z\"/><path class=\"p2\" d=\"M9 9.5h6M9 13.5h6M9 17.5h4\"/><path class=\"p3\" d=\"M4 20L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

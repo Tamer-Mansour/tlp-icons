@@ -1,0 +1,11 @@
+{
+  "name": "user-notes-pad",
+  "category": "people",
+  "tags": ["notes", "notepad", "user", "writing", "memo"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20a4.5 4.5 0 0 1 9 0\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"7\" height=\"18\" rx=\"1\"/><path class=\"p3\" d=\"M16.5 8h2M16.5 12h2M16.5 16h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 700, "delay": 1100 }
+  ]
+}

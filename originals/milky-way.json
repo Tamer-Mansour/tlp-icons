@@ -1,0 +1,11 @@
+{
+  "name": "milky-way",
+  "category": "science",
+  "tags": ["galaxy", "milky", "way", "stars", "sky", "spiral"],
+  "svg": "<path class=\"p1\" d=\"M12 12 C12 9 15 9 15 12 C15 16 9 17 7 13 C5 8 9 4 14 4 C19 4 21 8 20 12\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/><circle class=\"f p3\" cx=\"4\" cy=\"19\" r=\"1\"/><circle class=\"f p3\" cx=\"20\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1300 }
+  ]
+}

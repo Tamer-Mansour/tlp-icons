@@ -1,0 +1,10 @@
+{
+  "name": "pointed-arch",
+  "category": "shapes",
+  "tags": ["pointed", "arch", "doorway", "gate", "ogive", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M4 21C4 12 8 5 12 3C16 5 20 12 20 21Z\"/><path class=\"p2\" d=\"M9.5 21v-4a2.5 2.5 0 0 1 5 0v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

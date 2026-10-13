@@ -1,0 +1,11 @@
+{
+  "name": "tugboat",
+  "category": "vehicles",
+  "tags": ["tugboat", "tug", "boat", "tow", "harbor", "ship"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 H19 L21 17 H5 Z\"/><rect class=\"p2\" x=\"10\" y=\"7\" width=\"4\" height=\"7\"/><path class=\"p3\" d=\"M19 14 Q21 12 21 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

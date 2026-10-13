@@ -1,0 +1,11 @@
+{
+  "name": "combination-lock",
+  "category": "security",
+  "tags": ["combination", "lock", "dial", "code", "numbers", "secure"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 4.5v2.5M19.5 9.5l-2 1M4.5 9.5l2 1\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"15\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1400, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

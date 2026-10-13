@@ -1,0 +1,11 @@
+{
+  "name": "picnic-area",
+  "category": "buildings",
+  "tags": ["picnic", "table", "umbrella", "park", "outdoor", "bench"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 9.5V14M5 14h14\"/><path class=\"p3\" d=\"M8 14v7M16 14v7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "swing", "dur": 1200, "delay": 900, "origin": "12px 9.5px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "particle-accelerator",
+  "category": "science",
+  "tags": ["particle", "accelerator", "ring", "physics", "track"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"f p2\" cx=\"21\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 800, "delay": 700, "origin": "12px 12px" }
+  ]
+}

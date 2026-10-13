@@ -1,0 +1,10 @@
+{
+  "name": "bell-curve",
+  "category": "science",
+  "tags": ["bell", "curve", "normal", "statistics", "distribution"],
+  "svg": "<path class=\"p1\" d=\"M3 20 C7 20 7 4 12 4 C17 4 17 20 21 20\"/><line class=\"p2\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

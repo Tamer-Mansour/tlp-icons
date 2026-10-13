@@ -1,0 +1,11 @@
+{
+  "name": "layout-stack-horizontal",
+  "category": "layout",
+  "tags": ["stack", "horizontal", "bars", "layout", "columns", "row"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/><rect class=\"p3\" x=\"16.5\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "timing-chain",
+  "category": "vehicles",
+  "tags": ["timing", "chain", "gear", "cam", "engine", "belt"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"3\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M7 6.5h10M7 17.5h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

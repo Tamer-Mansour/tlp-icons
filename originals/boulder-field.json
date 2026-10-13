@@ -1,0 +1,12 @@
+{
+  "name": "boulder-field",
+  "category": "nature",
+  "tags": ["boulder", "rock", "stone", "field", "terrain"],
+  "svg": "<path class=\"d p1\" d=\"M2 18 Q2 11 5.25 11 Q8.5 11 8.5 18 Z\"/><path class=\"d p2\" d=\"M10.5 18 Q10.5 8 13 8 Q15.5 8 15.5 18 Z\"/><path class=\"p3\" d=\"M17.5 18 Q17.5 13 19.75 13 Q22 13 22 18 Z\"/><line class=\"p4\" x1=\"2\" y1=\"20.5\" x2=\"22\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

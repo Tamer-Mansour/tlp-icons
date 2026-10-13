@@ -1,0 +1,10 @@
+{
+  "name": "egg-cell",
+  "category": "science",
+  "tags": ["egg", "cell", "nucleus", "biology", "ovum"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "recycling-bin",
+  "category": "home",
+  "tags": ["recycling", "bin", "recycle", "waste", "green", "eco"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-1.5 12h-11z\"/><path class=\"p2\" d=\"M4 6h16M9 6V4h6v2\"/><path class=\"p3\" d=\"M9 15a3 3 0 0 1 5-2.2M13 11h2.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1100, "origin": "12px 14px" }
+  ]
+}

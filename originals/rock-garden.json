@@ -1,0 +1,11 @@
+{
+  "name": "rock-garden",
+  "category": "buildings",
+  "tags": ["rock", "garden", "stones", "zen", "landscape", "boulders"],
+  "svg": "<path class=\"d p1\" d=\"M2 20 Q2 14 5 14 Q8 14 8 20 Z\"/><path class=\"p2\" d=\"M10 20 Q10 10 12.5 10 Q15 10 15 20 Z\"/><path class=\"p3\" d=\"M17 20 Q17 13 19.5 13 Q22 13 22 20 Z\"/><path class=\"p2\" d=\"M2 20 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1200, "origin": "bottom" }
+  ]
+}

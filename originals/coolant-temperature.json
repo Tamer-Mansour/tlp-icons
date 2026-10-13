@@ -1,0 +1,11 @@
+{
+  "name": "coolant-temperature",
+  "category": "vehicles",
+  "tags": ["coolant", "temperature", "thermometer", "engine", "heat"],
+  "svg": "<path class=\"d p1\" d=\"M10 4.5a2 2 0 0 1 4 0V13.5a4 4 0 1 1-4 0z\"/><line class=\"p3\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"14\"/><path class=\"p2\" d=\"M5 21q1.75-1.5 3.5 0t3.5 0t3.5 0t3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

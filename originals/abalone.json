@@ -1,0 +1,11 @@
+{
+  "name": "abalone",
+  "category": "nature",
+  "tags": ["abalone", "shell", "sea", "mollusk", "holes", "ocean"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"8\" ry=\"5\"/><circle class=\"p2\" cx=\"8\" cy=\"10\" r=\"1\"/><circle class=\"p2\" cx=\"11\" cy=\"10\" r=\"1\"/><circle class=\"p2\" cx=\"14\" cy=\"10\" r=\"1\"/><circle class=\"p2\" cx=\"17\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M6.5 14.5 Q9 16.5 13 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1100 }
+  ]
+}

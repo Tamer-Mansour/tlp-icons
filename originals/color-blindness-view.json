@@ -1,0 +1,11 @@
+{
+  "name": "color-blindness-view",
+  "category": "design",
+  "tags": ["color", "blindness", "vision", "accessibility", "eye"],
+  "svg": "<path class=\"p1\" d=\"M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z\"/><circle class=\"d p2\" cx=\"9\" cy=\"12\" r=\"2\"/><circle class=\"p3\" cx=\"15\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "dim", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "product-sign",
+  "category": "math",
+  "tags": ["product", "pi", "sign", "capital", "math"],
+  "svg": "<path class=\"p1\" d=\"M5 6H19M8 6V19M16 6V19\"/><path class=\"p2\" d=\"M5 19H8M16 19H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

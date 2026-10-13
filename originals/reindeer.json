@@ -1,0 +1,11 @@
+{
+  "name": "reindeer",
+  "category": "nature",
+  "tags": ["reindeer", "deer", "antlers", "christmas", "winter", "animal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"4\"/><path class=\"p2\" d=\"M9 10L6 4M6 7L4 5M6 5.5L8 3M15 10L18 4M18 7L20 5M18 5.5L16 3\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"14\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"14\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1200 }
+  ]
+}

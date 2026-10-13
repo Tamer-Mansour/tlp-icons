@@ -1,0 +1,10 @@
+{
+  "name": "column-resize",
+  "category": "layout",
+  "tags": ["column", "resize", "table", "width", "drag", "grid"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><line class=\"p1\" x1=\"9\" y1=\"4\" x2=\"9\" y2=\"20\"/><path class=\"p2\" d=\"M13 12H20M15 10L13 12L15 14M18 10L20 12L18 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 900 }
+  ]
+}

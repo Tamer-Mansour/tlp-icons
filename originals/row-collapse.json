@@ -1,0 +1,10 @@
+{
+  "name": "row-collapse",
+  "category": "interface",
+  "tags": ["collapse", "row", "table", "chevron", "up", "hide"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"14\" width=\"18\" height=\"6\" rx=\"1\"/><polyline class=\"p2\" points=\"8,10 12,6 16,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

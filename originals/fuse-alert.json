@@ -1,0 +1,11 @@
+{
+  "name": "fuse-alert",
+  "category": "notifications",
+  "tags": ["fuse", "electric", "alert", "circuit", "broken", "power"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 12l2-2 2 4 2-2\"/><path class=\"p3\" d=\"M20.5 6v6\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

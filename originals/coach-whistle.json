@@ -1,0 +1,11 @@
+{
+  "name": "coach-whistle",
+  "category": "people",
+  "tags": ["coach", "whistle", "sport", "lanyard", "training", "sound"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M15 9 Q17 3 21 5\"/><path class=\"p3\" d=\"M20 13 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

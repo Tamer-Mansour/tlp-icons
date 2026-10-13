@@ -1,0 +1,12 @@
+{
+  "name": "file-graduation",
+  "category": "files",
+  "tags": ["graduation", "diploma", "degree", "education", "cap", "academic"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><polygon class=\"d p2\" points=\"12 6 19 9 12 12 5 9\"/><path class=\"p3\" d=\"M8 11v3.5c0 1 1.8 1.5 4 1.5s4-.5 4-1.5V11\"/><path class=\"p4\" d=\"M19 9v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "swing", "dur": 800, "delay": 1300, "origin": "19px 9px" }
+  ]
+}

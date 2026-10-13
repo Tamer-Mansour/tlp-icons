@@ -1,0 +1,12 @@
+{
+  "name": "tanker-truck",
+  "category": "vehicles",
+  "tags": ["tanker", "truck", "cylinder", "fuel", "transport", "delivery"],
+  "svg": "<path class=\"d p1\" d=\"M3 7h12v8H3z\"/><ellipse class=\"p2\" cx=\"15\" cy=\"11\" rx=\"1.5\" ry=\"4\"/><path class=\"p3\" d=\"M18 10h2l2 3v2h-4z\"/><circle class=\"p4\" cx=\"7\" cy=\"18.5\" r=\"2\"/><circle class=\"p4\" cx=\"18\" cy=\"18.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "drive", "dur": 900, "delay": 1100 }
+  ]
+}

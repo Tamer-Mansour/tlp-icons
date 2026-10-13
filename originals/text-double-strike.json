@@ -1,0 +1,11 @@
+{
+  "name": "text-double-strike",
+  "category": "text",
+  "tags": ["strikethrough", "double", "strike", "cross", "deleted", "text", "word"],
+  "svg": "<path class=\"p1\" d=\"M4 12h16\"/><path class=\"p2\" d=\"M2.5 7.5h19\"/><path class=\"p3\" d=\"M2.5 16.5h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lavender",
+  "category": "nature",
+  "tags": ["lavender", "herb", "purple", "bud", "garden", "fragrant"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"21\" x2=\"12\" y2=\"11\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"7\" rx=\"2.5\" ry=\"4\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

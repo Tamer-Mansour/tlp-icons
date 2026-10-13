@@ -1,0 +1,10 @@
+{
+  "name": "text-divider",
+  "category": "text",
+  "tags": ["divider", "label", "section", "line", "text", "separator"],
+  "svg": "<path class=\"p1\" d=\"M2 12h4.5M17.5 12h4.5\"/><rect class=\"p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

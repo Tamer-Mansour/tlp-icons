@@ -1,0 +1,10 @@
+{
+  "name": "double-helix",
+  "category": "shapes",
+  "tags": ["helix", "dna", "double", "curve", "wave", "genetics"],
+  "svg": "<path class=\"p1\" d=\"M7 2c6 3.5 6 8.5 0 10s-5 6.5 0 10\"/><path class=\"p2\" d=\"M17 2c-6 3.5-6 8.5 0 10s5 6.5 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 900, "origin": "12px 12px" }
+  ]
+}

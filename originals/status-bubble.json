@@ -1,0 +1,11 @@
+{
+  "name": "status-bubble",
+  "category": "people",
+  "tags": ["status", "bubble", "speech", "message", "indicator", "chat", "dot"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"12\" rx=\"3\"/><path class=\"p2\" d=\"M6.5 16v4l4-4\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

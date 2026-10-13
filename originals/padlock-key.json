@@ -1,0 +1,11 @@
+{
+  "name": "padlock-key",
+  "category": "security",
+  "tags": ["padlock", "key", "lock", "access", "unlock", "secure"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"11\" height=\"9.5\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 11V8a3.5 3.5 0 0 1 7 0v3\"/><path class=\"p3\" d=\"M16.5 15.5h4.5M18.5 15.5v2M21 15.5v1.5\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"15.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 700, "delay": 1000 }
+  ]
+}

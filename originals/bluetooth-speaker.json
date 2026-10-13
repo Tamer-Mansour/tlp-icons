@@ -1,0 +1,11 @@
+{
+  "name": "bluetooth-speaker",
+  "category": "devices",
+  "tags": ["bluetooth", "speaker", "portable", "audio", "wireless"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"5\"/><circle class=\"p2\" cx=\"12\" cy=\"17\" r=\"2\"/><path class=\"p3\" d=\"M10 6.5l4 3-2 2v-6l2 2-4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pump", "dur": 800, "delay": 1200 }
+  ]
+}

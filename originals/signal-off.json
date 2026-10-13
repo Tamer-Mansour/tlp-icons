@@ -1,0 +1,10 @@
+{
+  "name": "signal-off",
+  "category": "notifications",
+  "tags": ["signal", "off", "bars", "no service", "network"],
+  "svg": "<path class=\"p1\" d=\"M5 20v-3M10 20v-6M15 20v-9M20 20v-12\"/><line class=\"p2\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

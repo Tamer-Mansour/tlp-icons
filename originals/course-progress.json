@@ -1,0 +1,10 @@
+{
+  "name": "course-progress",
+  "category": "charts",
+  "tags": ["course", "progress", "book", "learning", "lesson", "completion"],
+  "svg": "<path class=\"p1\" d=\"M12 6C9 4 5 4 2 5V17C5 16 9 16 12 18C15 16 19 16 22 17V5C19 4 15 4 12 6ZM12 6V18\"/><path class=\"p2\" d=\"M4 21h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

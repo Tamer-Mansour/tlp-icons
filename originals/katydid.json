@@ -1,0 +1,40 @@
+{
+    "name":  "katydid",
+    "category":  "nature",
+    "tags":  [
+                 "katydid",
+                 "insect",
+                 "leaf wings",
+                 "antennae",
+                 "grasshopper",
+                 "bug"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M4 16C6 10 12 8 19 9C17 12 12 16 4 16Z\"/\u003e\u003ccircle class=\"f p2\" cx=\"17.5\" cy=\"8.8\" r=\"0.9\"/\u003e\u003cpath class=\"p3\" d=\"M18 8C19 5 20 4 22 3\"/\u003e\u003cpath class=\"p4\" d=\"M9 14L6 20M13 14L15 20\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  800
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  300,
+                       "delay":  1000
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "wiggle",
+                       "dur":  1000,
+                       "delay":  1200,
+                       "origin":  "18px 8px"
+                   }
+               ]
+}

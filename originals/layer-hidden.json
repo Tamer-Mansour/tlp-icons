@@ -1,0 +1,12 @@
+{
+  "name": "layer-hidden",
+  "category": "design",
+  "tags": ["layer", "hidden", "eye", "slash", "stack"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L3 8l9 5 9-5z\"/><path class=\"p2\" d=\"M3 13l9 5 9-5\"/><path class=\"p3\" d=\"M3 17.5l9 4.5 9-4.5\"/><path class=\"p4\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 550 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

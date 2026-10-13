@@ -1,0 +1,11 @@
+{
+  "name": "airmail",
+  "category": "communication",
+  "tags": ["airmail", "envelope", "post", "mail", "stripes"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 9l6 4 6-4\"/><path class=\"p3\" d=\"M2 10l2 1M2 14l2 1M20 10l2-1M20 14l2-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 900 }
+  ]
+}

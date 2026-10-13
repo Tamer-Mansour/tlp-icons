@@ -1,0 +1,10 @@
+{
+  "name": "zoo",
+  "category": "buildings",
+  "tags": ["zoo", "animals", "paw", "gate", "wildlife"],
+  "svg": "<path class=\"p1\" d=\"M4 21V11a8 8 0 0 1 16 0v10\"/><ellipse class=\"p2\" cx=\"12\" cy=\"15\" rx=\"2\" ry=\"1.5\"/><circle class=\"f p2\" cx=\"9\" cy=\"10.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"10.5\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gem-stone",
+  "category": "emoji",
+  "tags": ["gem", "diamond", "jewel", "crystal", "precious", "stone"],
+  "svg": "<polygon class=\"d p1\" points=\"7,4 17,4 21,9 12,20 3,9\"/><path class=\"p2\" d=\"M3 9 H21 M9.5 9 L12 20 L14.5 9\"/><circle class=\"f p3\" cx=\"15\" cy=\"6.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

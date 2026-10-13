@@ -1,0 +1,10 @@
+{
+  "name": "grid-masonry",
+  "category": "layout",
+  "tags": ["masonry", "grid", "bricks", "pinterest", "staggered", "wall"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"5\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"13\" width=\"5\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"3\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"5\" height=\"11\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"3\" width=\"4\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"17\" y=\"15\" width=\"4\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 400 }
+  ]
+}

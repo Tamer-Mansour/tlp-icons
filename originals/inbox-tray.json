@@ -1,0 +1,10 @@
+{
+  "name": "inbox-tray",
+  "category": "interface",
+  "tags": ["inbox", "tray", "download", "receive", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 13h5l1.5 2.5h5L16 13h5v5.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 3 18.5z\"/><path class=\"p2\" d=\"M12 3v8M8.5 7.5 12 11l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 800 }
+  ]
+}

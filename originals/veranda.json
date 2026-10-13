@@ -1,0 +1,11 @@
+{
+  "name": "veranda",
+  "category": "buildings",
+  "tags": ["veranda", "porch", "columns", "roof", "outdoor", "house"],
+  "svg": "<path class=\"p1\" d=\"M2 6h20\"/><path class=\"p2\" d=\"M5 6v13M12 6v13M19 6v13\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

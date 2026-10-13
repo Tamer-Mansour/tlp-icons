@@ -1,0 +1,11 @@
+{
+  "name": "lifting-straps",
+  "category": "sport",
+  "tags": ["straps", "lifting", "gym", "wrist", "bar", "weights"],
+  "svg": "<path class=\"p1\" d=\"M3 4H21\"/><path class=\"p2\" d=\"M7 4V12M17 4V12\"/><ellipse class=\"p3\" cx=\"7\" cy=\"15\" rx=\"2.5\" ry=\"3\"/><ellipse class=\"p3\" cx=\"17\" cy=\"15\" rx=\"2.5\" ry=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1000, "origin": "12px 4px" }
+  ]
+}

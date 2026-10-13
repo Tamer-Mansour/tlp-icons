@@ -1,0 +1,11 @@
+{
+  "name": "stove",
+  "category": "food",
+  "tags": ["stove", "burner", "cooktop", "kitchen", "range", "cooking"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"10\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"10\" r=\"2\"/><circle class=\"f p3\" cx=\"8\" cy=\"16\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

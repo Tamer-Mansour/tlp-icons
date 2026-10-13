@@ -1,0 +1,11 @@
+{
+  "name": "sedan",
+  "category": "vehicles",
+  "tags": ["sedan", "car", "saloon", "vehicle", "trunk"],
+  "svg": "<path class=\"p1\" d=\"M2 15v-4l2.5-3.5L7 6h10l2.5 1.5L22 11v4z\"/><path class=\"p2\" d=\"M8 9h8\"/><circle class=\"p3\" cx=\"6.5\" cy=\"18.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"17.5\" cy=\"18.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 900 }
+  ]
+}

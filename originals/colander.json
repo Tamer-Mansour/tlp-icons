@@ -1,0 +1,11 @@
+{
+  "name": "colander",
+  "category": "food",
+  "tags": ["colander", "strainer", "pasta", "drain", "food"],
+  "svg": "<path class=\"d p1\" d=\"M4 9 H20 Q20 19 12 20 Q4 19 4 9 Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"13\" r=\"1\"/><path class=\"p3\" d=\"M4 9 L2 7 M20 9 L22 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

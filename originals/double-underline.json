@@ -1,0 +1,10 @@
+{
+  "name": "double-underline",
+  "category": "text",
+  "tags": ["double", "underline", "emphasis", "word", "text"],
+  "svg": "<path class=\"p1\" d=\"M5 8h14\"/><path class=\"p2\" d=\"M5 13h14M5 17h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

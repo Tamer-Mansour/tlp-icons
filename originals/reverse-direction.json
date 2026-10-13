@@ -1,0 +1,10 @@
+{
+  "name": "reverse-direction",
+  "category": "arrows",
+  "tags": ["reverse", "direction", "back", "opposite", "return", "two arrows"],
+  "svg": "<path class=\"p1\" d=\"M4 8h16M16 4l4 4-4 4\"/><path class=\"p2\" d=\"M20 16H4M8 12l-4 4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 700 }
+  ]
+}

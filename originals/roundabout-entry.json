@@ -1,0 +1,10 @@
+{
+  "name": "roundabout-entry",
+  "category": "arrows",
+  "tags": ["roundabout", "entry", "road", "enter", "traffic"],
+  "svg": "<circle class=\"p1\" cx=\"15\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M3 12 H8\"/><polyline class=\"p2\" points=\"5 9 8 12 5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

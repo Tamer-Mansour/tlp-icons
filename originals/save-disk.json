@@ -1,0 +1,11 @@
+{
+  "name": "save-disk",
+  "category": "interface",
+  "tags": ["save", "floppy", "disk", "store", "write"],
+  "svg": "<path class=\"p1\" d=\"M5 3h11l4 4v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"7\" height=\"5\"/><rect class=\"p3\" x=\"7\" y=\"12\" width=\"10\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 900 }
+  ]
+}

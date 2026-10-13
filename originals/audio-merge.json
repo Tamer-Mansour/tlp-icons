@@ -1,0 +1,11 @@
+{
+  "name": "audio-merge",
+  "category": "media",
+  "tags": ["audio", "merge", "join", "waveform", "combine", "edit"],
+  "svg": "<polyline class=\"p1\" points=\"2,7 4,4 6,10 8,7 10,11\"/><polyline class=\"p2\" points=\"2,17 4,14 6,20 8,17 10,13\"/><polyline class=\"p3\" points=\"13,12 15,7 17,17 19,12 22,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

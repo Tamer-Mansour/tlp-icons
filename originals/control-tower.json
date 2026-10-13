@@ -1,0 +1,11 @@
+{
+  "name": "control-tower",
+  "category": "vehicles",
+  "tags": ["control", "tower", "airport", "air", "traffic", "radar", "aviation"],
+  "svg": "<path class=\"p1\" d=\"M10.5 21.5L11 12.5M13.5 21.5L13 12.5M6.5 21.5h11\"/><rect class=\"d p2\" x=\"7\" y=\"8.5\" width=\"10\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M8.5 7.5a3.5 3.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

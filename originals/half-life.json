@@ -1,0 +1,11 @@
+{
+  "name": "half-life",
+  "category": "math",
+  "tags": ["half", "life", "decay", "halving", "exponential"],
+  "svg": "<path class=\"p1\" d=\"M4 4V20H21\"/><path class=\"p2\" d=\"M5 5Q9 18 19 18\"/><path class=\"p3\" d=\"M4 12h4v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

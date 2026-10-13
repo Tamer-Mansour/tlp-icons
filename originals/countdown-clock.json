@@ -1,0 +1,11 @@
+{
+  "name": "countdown-clock",
+  "category": "time",
+  "tags": ["countdown", "clock", "timer", "remaining", "arc", "deadline"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 6a6 6 0 0 1 6 6\"/><path class=\"p3\" d=\"M12 12v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

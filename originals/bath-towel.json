@@ -1,0 +1,11 @@
+{
+  "name": "bath-towel",
+  "category": "home",
+  "tags": ["towel", "bath", "bathroom", "hanging", "fabric", "linen"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"16\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M10 6V4Q12 2 14 4V6\"/><path class=\"p3\" d=\"M8 14H16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

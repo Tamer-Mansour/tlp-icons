@@ -1,0 +1,10 @@
+{
+  "name": "conference-room-table",
+  "category": "people",
+  "tags": ["conference", "room", "table", "meeting", "chairs", "boardroom"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"3.5\"/><path class=\"p2\" d=\"M9 5h6M9 19h6M3 9.5v5M21 9.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

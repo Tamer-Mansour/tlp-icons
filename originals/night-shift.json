@@ -1,0 +1,11 @@
+{
+  "name": "night-shift",
+  "category": "time",
+  "tags": ["night", "shift", "moon", "clock", "work", "late"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M10 12.5V15l1.5 1\"/><path class=\"p3\" d=\"M19 3.5a5 5 0 1 0 2 8 4 4 0 0 1-2-8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "10px 15px" }
+  ]
+}

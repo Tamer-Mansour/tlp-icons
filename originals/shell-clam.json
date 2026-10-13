@@ -1,0 +1,11 @@
+{
+  "name": "shell-clam",
+  "category": "food",
+  "tags": ["clam", "shell", "seafood", "shellfish", "mollusk"],
+  "svg": "<path class=\"d p1\" d=\"M4 16 C4 10 8 6 12 6 C16 6 20 10 20 16 Z\"/><path class=\"p2\" d=\"M12 7 V15 M8 8 L6 15 M16 8 L18 15\"/><path class=\"p3\" d=\"M3 19 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 500, "delay": 1000, "origin": "bottom" }
+  ]
+}

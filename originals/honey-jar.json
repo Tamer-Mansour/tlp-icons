@@ -1,0 +1,11 @@
+{
+  "name": "honey-jar",
+  "category": "food",
+  "tags": ["honey", "jar", "sweet", "pantry", "food"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"d p2\" d=\"M7 8 H17 V18 Q17 20 15 20 H9 Q7 20 7 18 Z\"/><path class=\"p3\" d=\"M12 12 V15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

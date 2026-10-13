@@ -1,0 +1,10 @@
+{
+  "name": "whiskers",
+  "category": "nature",
+  "tags": ["whiskers", "cat", "nose", "animal", "feline", "pet"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"3.5\" ry=\"2.5\"/><path class=\"p2\" d=\"M8.5 12.5L3 11M8.5 14.5L3 14.5M8.5 16.5L3 18M15.5 12.5L21 11M15.5 14.5L21 14.5M15.5 16.5L21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 700 }
+  ]
+}

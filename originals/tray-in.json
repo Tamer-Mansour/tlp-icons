@@ -1,0 +1,10 @@
+{
+  "name": "tray-in",
+  "category": "interface",
+  "tags": ["tray", "inbox", "download", "receive", "arrow", "save"],
+  "svg": "<path class=\"d p1\" d=\"M3 14h4.5l1.5 2.5h6l1.5-2.5H21v5.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M12 3v9M8.5 8.5 12 12l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 }
+  ]
+}

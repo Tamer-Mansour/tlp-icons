@@ -1,0 +1,12 @@
+{
+  "name": "code-alert",
+  "category": "notifications",
+  "tags": ["code", "alert", "brackets", "error", "warning"],
+  "svg": "<path class=\"p1\" d=\"M8 7l-5 5 5 5\"/><path class=\"p2\" d=\"M16 7l5 5-5 5\"/><path class=\"p3\" d=\"M12 8.5v5\"/><circle class=\"f p4\" cx=\"12\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

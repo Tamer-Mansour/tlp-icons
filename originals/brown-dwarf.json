@@ -1,0 +1,11 @@
+{
+  "name": "brown-dwarf",
+  "category": "science",
+  "tags": ["brown", "dwarf", "star", "dim", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M5 9a8 8 0 0 1 14 0\"/><path class=\"p3\" d=\"M5 15a8 8 0 0 0 14 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "electric-field",
+  "category": "science",
+  "tags": ["electric", "field", "charge", "physics", "lines", "force"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 7.5V3.5M12 16.5V20.5M7.5 12H3.5M16.5 12H20.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

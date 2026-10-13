@@ -1,0 +1,10 @@
+{
+  "name": "pyramid-base",
+  "category": "shapes",
+  "tags": ["pyramid", "base", "side", "triangle", "ground", "shape"],
+  "svg": "<path class=\"p1\" d=\"M4 19L12 4L20 19\"/><path class=\"p2\" d=\"M2 19H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 700 }
+  ]
+}

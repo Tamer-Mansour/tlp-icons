@@ -1,0 +1,11 @@
+{
+  "name": "post-office",
+  "category": "buildings",
+  "tags": ["post", "office", "mail", "letter", "envelope", "flag"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M8 13.5h8v5H8zM8 13.5l4 3 4-3\"/><path class=\"p3\" d=\"M18 9V3h3.5l-1 2 1 2H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

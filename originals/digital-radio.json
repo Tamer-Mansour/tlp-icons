@@ -1,0 +1,12 @@
+{
+  "name": "digital-radio",
+  "category": "devices",
+  "tags": ["radio", "digital", "antenna", "broadcast", "audio", "display"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"3\"/><path class=\"p2\" d=\"M16 8L19 3\"/><path class=\"p3\" d=\"M7 12H13\"/><circle class=\"f p4\" cx=\"16\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

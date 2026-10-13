@@ -1,0 +1,11 @@
+{
+  "name": "variance-spread",
+  "category": "math",
+  "tags": ["variance", "spread", "mean", "statistics", "math"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"f p2\" cx=\"6\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"9\" cy=\"15.5\" r=\"1\"/><circle class=\"f p2\" cx=\"13\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"15.5\" r=\"1\"/><path class=\"p3\" d=\"M19 5.5V18.5M17.5 7L19 5.5L20.5 7M17.5 17L19 18.5L20.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1100 }
+  ]
+}

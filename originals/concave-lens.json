@@ -1,0 +1,10 @@
+{
+  "name": "concave-lens",
+  "category": "science",
+  "tags": ["concave lens", "optics", "diverge", "light", "glass"],
+  "svg": "<path class=\"d p1\" d=\"M6 4 H18 Q14 12 18 20 H6 Q10 12 6 4 Z\"/><path class=\"p2\" d=\"M2 12 H5 M19 12 L22 8 M19 12 H22 M19 12 L22 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

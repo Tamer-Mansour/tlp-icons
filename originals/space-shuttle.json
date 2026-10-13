@@ -1,0 +1,11 @@
+{
+  "name": "space-shuttle",
+  "category": "vehicles",
+  "tags": ["shuttle", "space", "orbiter", "rocket", "nasa"],
+  "svg": "<path class=\"d p1\" d=\"M3 11q0-1.5 2-1.5h12l4 2.5-4 2.5H5q-2 0-2-1.5z\"/><path class=\"p2\" d=\"M8.5 9.5 6.5 4h2.5l4.5 5.5\"/><path class=\"p3\" d=\"M15 9.5V7h2.5l2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flag-report",
+  "category": "interface",
+  "tags": ["flag", "report", "warning", "alert", "issue", "complaint"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"3\" x2=\"5\" y2=\"21\"/><path class=\"d p2\" d=\"M5 3H18L15 8L18 13H5Z\"/><line class=\"p3\" x1=\"11\" y1=\"5\" x2=\"11\" y2=\"8\"/><circle class=\"f p3\" cx=\"11\" cy=\"10.8\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

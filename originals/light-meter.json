@@ -1,0 +1,11 @@
+{
+  "name": "light-meter",
+  "category": "media",
+  "tags": ["light", "meter", "exposure", "photography", "dial", "needle"],
+  "svg": "<path class=\"p1\" d=\"M3 16a9 9 0 0 1 18 0M3 16h18\"/><line class=\"p2\" x1=\"12\" y1=\"16\" x2=\"16\" y2=\"9\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 16px" }
+  ]
+}

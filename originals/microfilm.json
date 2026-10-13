@@ -1,0 +1,11 @@
+{
+  "name": "microfilm",
+  "category": "files",
+  "tags": ["microfilm", "reel", "film", "archive", "frames", "strip"],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"4\"/><path class=\"p3\" d=\"M9.5 15v6.5M14.5 15v6.5M9.5 18h5\"/><circle class=\"f p4\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "spin", "dur": 800, "delay": 1100 }
+  ]
+}

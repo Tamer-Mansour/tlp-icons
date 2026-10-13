@@ -1,0 +1,10 @@
+{
+  "name": "wireless-tower",
+  "category": "communication",
+  "tags": ["tower", "wireless", "signal", "antenna", "broadcast", "network"],
+  "svg": "<path class=\"p1\" d=\"M8.5 21L12 11L15.5 21M9.5 17.5H14.5\"/><path class=\"p2\" d=\"M8.8 6.8A4.5 4.5 0 0 1 15.2 6.8M6.3 4.3A8 8 0 0 1 17.7 4.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

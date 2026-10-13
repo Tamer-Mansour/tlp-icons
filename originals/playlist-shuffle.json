@@ -1,0 +1,11 @@
+{
+  "name": "playlist-shuffle",
+  "category": "media",
+  "tags": ["shuffle", "playlist", "random", "music", "list", "mix"],
+  "svg": "<path class=\"p1\" d=\"M3 7h3.5l7 10H21M18 14l3 3-3 3\"/><path class=\"p2\" d=\"M3 17h3.5l7-10H21M18 4l3 3-3 3\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

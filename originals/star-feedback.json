@@ -1,0 +1,10 @@
+{
+  "name": "star-feedback",
+  "category": "communication",
+  "tags": ["star", "rating", "favorite", "review", "feedback", "rate"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p2\" d=\"M12 7L12.94 9.71 15.8 9.76 13.52 11.49 14.35 14.24 12 12.6 9.65 14.24 10.48 11.49 8.2 9.76 11.06 9.71z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 600 }
+  ]
+}

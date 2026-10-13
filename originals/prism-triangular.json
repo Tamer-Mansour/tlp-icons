@@ -1,0 +1,11 @@
+{
+  "name": "prism-triangular",
+  "category": "shapes",
+  "tags": ["prism", "triangular", "solid", "edges", "3d", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M4 8L12 3L20 8L12 13Z\"/><path class=\"p2\" d=\"M4 8L12 3L20 8V18L12 21L4 18Z\"/><path class=\"p3\" d=\"M4 8L12 13L20 8M12 13V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

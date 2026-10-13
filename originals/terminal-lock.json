@@ -1,0 +1,11 @@
+{
+  "name": "terminal-lock",
+  "category": "security",
+  "tags": ["terminal", "lock", "command", "secure", "shell"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M2 7h20\"/><path class=\"p2\" d=\"M6 11l2.5 2.5L6 16M11 16h2.5\"/><rect class=\"d p3\" x=\"15.5\" y=\"13\" width=\"5\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M16.75 13v-1.25a1.25 1.25 0 0 1 2.5 0V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

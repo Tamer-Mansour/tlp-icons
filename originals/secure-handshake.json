@@ -1,0 +1,12 @@
+{
+  "name": "secure-handshake",
+  "category": "security",
+  "tags": ["handshake", "secure", "agreement", "trust", "connection"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"19.5\" cy=\"12\" r=\"2.5\"/><rect class=\"d p3\" x=\"9\" y=\"12.5\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p4\" d=\"M10.5 12.5v-2a1.5 1.5 0 0 1 3 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

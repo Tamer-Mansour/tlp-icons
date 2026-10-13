@@ -1,0 +1,11 @@
+{
+  "name": "train-station",
+  "category": "buildings",
+  "tags": ["train", "station", "platform", "rail", "roof", "transit", "travel"],
+  "svg": "<path class=\"p4\" d=\"M2.5 3.5h19\"/><rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"11\" rx=\"2.5\"/><rect class=\"p1\" x=\"8.5\" y=\"9\" width=\"7\" height=\"4\"/><path class=\"p3\" d=\"M3 21.5h18\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "drive", "dur": 1200, "delay": 900 }
+  ]
+}

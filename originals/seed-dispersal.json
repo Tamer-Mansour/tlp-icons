@@ -1,0 +1,10 @@
+{
+  "name": "seed-dispersal",
+  "category": "science",
+  "tags": ["seed", "wind", "dispersal", "arrow", "plant"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7\" cy=\"15\" rx=\"3.5\" ry=\"2\" transform=\"rotate(-30 7 15)\"/><path class=\"p2\" d=\"M12 11L20 6M16.5 5.5L20.5 6L20 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

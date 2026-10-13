@@ -1,0 +1,12 @@
+{
+  "name": "radio-signal",
+  "category": "notifications",
+  "tags": ["radio", "signal", "broadcast", "waves", "transmit", "live"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M9.54 8.46A5 5 0 0 1 9.54 15.54\"/><path class=\"p3\" d=\"M12.89 6.21A9 9 0 0 1 12.89 17.79\"/><path class=\"p4\" d=\"M17.26 5.5A13 13 0 0 1 17.26 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 700 }
+  ]
+}

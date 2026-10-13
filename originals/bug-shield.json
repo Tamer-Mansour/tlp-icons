@@ -1,0 +1,10 @@
+{
+  "name": "bug-shield",
+  "category": "security",
+  "tags": ["bug", "shield", "vulnerability", "protection", "security", "defense"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"6\" r=\"2\"/><ellipse class=\"p1\" cx=\"7.5\" cy=\"13.5\" rx=\"3\" ry=\"4.5\"/><path class=\"d p2\" d=\"M17 10l5 1.8v4c0 3-2.2 4.8-5 5.9-2.8-1.1-5-2.9-5-5.9v-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

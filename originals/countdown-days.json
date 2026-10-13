@@ -1,0 +1,11 @@
+{
+  "name": "countdown-days",
+  "category": "time",
+  "tags": ["countdown", "days", "calendar", "down", "remaining", "timer"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M4 9h16\"/><path class=\"p3\" d=\"M12 11.5v5M9.5 14l2.5 2.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 1000 }
+  ]
+}

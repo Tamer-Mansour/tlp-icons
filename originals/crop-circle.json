@@ -1,0 +1,10 @@
+{
+  "name": "crop-circle",
+  "category": "shapes",
+  "tags": ["crop", "circle", "frame", "trim", "corners"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M7 3 V7 H3 M17 3 V7 H21 M7 21 V17 H3 M17 21 V17 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

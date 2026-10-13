@@ -1,0 +1,10 @@
+{
+  "name": "quarter-circle",
+  "category": "shapes",
+  "tags": ["quarter", "circle", "disc", "corner", "solid"],
+  "svg": "<path class=\"d p1\" d=\"M4 20 V4 A16 16 0 0 1 20 20 Z\"/><rect class=\"p2\" x=\"7\" y=\"14\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

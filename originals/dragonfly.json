@@ -1,0 +1,10 @@
+{
+  "name": "dragonfly",
+  "category": "nature",
+  "tags": ["insect", "wings", "pond", "summer", "flying"],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"4.5\" r=\"1.5\"/><path class=\"p2\" d=\"M12 7.5V20\"/><ellipse class=\"d p1\" cx=\"5.5\" cy=\"7\" rx=\"3.5\" ry=\"1.8\" transform=\"rotate(-15 5.5 7)\"/><ellipse class=\"d p1\" cx=\"18.5\" cy=\"7\" rx=\"3.5\" ry=\"1.8\" transform=\"rotate(15 18.5 7)\"/><ellipse class=\"d p1\" cx=\"6\" cy=\"15\" rx=\"3.5\" ry=\"1.8\" transform=\"rotate(15 6 15)\"/><ellipse class=\"d p1\" cx=\"18\" cy=\"15\" rx=\"3.5\" ry=\"1.8\" transform=\"rotate(-15 18 15)\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "flutter", "dur": 900, "delay": 600 }
+  ]
+}

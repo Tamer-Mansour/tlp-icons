@@ -1,0 +1,11 @@
+{
+  "name": "sensor-data",
+  "category": "charts",
+  "tags": ["sensor", "data", "chip", "signal", "readings", "device"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M6 3v3M10 3v3M6 15v3M10 15v3\"/><path class=\"p3\" d=\"M16 10c1-1.5 2-1.5 3 0s2 1.5 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 1000 }
+  ]
+}

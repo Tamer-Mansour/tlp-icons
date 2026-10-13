@@ -1,0 +1,11 @@
+{
+  "name": "step-next",
+  "category": "interface",
+  "tags": ["step", "next", "progress", "sequence", "dots"],
+  "svg": "<path class=\"p1\" d=\"M5.5 12H13\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"10\" cy=\"12\" r=\"1.2\"/><circle class=\"p3\" cx=\"18\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

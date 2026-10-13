@@ -1,0 +1,10 @@
+{
+  "name": "attach-clip",
+  "category": "interface",
+  "tags": ["attach", "clip", "paperclip", "file", "angled"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"5\" transform=\"rotate(45 12 12)\"/><rect class=\"p2\" x=\"10.5\" y=\"7\" width=\"3\" height=\"10\" rx=\"1.5\" transform=\"rotate(45 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 600 }
+  ]
+}

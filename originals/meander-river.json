@@ -1,0 +1,10 @@
+{
+  "name": "meander-river",
+  "category": "science",
+  "tags": ["meander", "river", "curve", "bend", "water", "landform"],
+  "svg": "<path class=\"p1\" d=\"M4 3c7 0 6 5 3 7s-5 4-2 7 7 3 11 4\"/><circle class=\"f p2\" cx=\"4\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "community-garden",
+  "category": "buildings",
+  "tags": ["garden", "community", "allotment", "plants", "sprout", "pots"],
+  "svg": "<path class=\"d p1\" d=\"M4 13h6v7.5H4zM14 13h6v7.5h-6z\"/><path class=\"p2\" d=\"M7 13V9M7 9c0-2.5-2-3.5-3.5-3.5M7 9c0-2.5 2-3.5 3.5-3.5M17 13V9M17 9c0-2.5-2-3.5-3.5-3.5M17 9c0-2.5 2-3.5 3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1300, "delay": 600 }
+  ]
+}

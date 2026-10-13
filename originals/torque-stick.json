@@ -1,0 +1,11 @@
+{
+  "name": "torque-stick",
+  "category": "tools",
+  "tags": ["torque", "stick", "bolt", "mark", "tightening", "wrench"],
+  "svg": "<path class=\"p1\" d=\"M3 17L15 5\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M16 9l2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1100 }
+  ]
+}

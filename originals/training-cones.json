@@ -1,0 +1,11 @@
+{
+  "name": "training-cones",
+  "category": "sport",
+  "tags": ["training cones", "markers", "drills", "agility", "practice"],
+  "svg": "<path class=\"d p1\" d=\"M2 18L6.5 8L11 18Z\"/><path class=\"d p2\" d=\"M13 18L17.5 8L22 18Z\"/><line class=\"p3\" x1=\"2\" y1=\"20.5\" x2=\"22\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 1000, "origin": "13px 18px" }
+  ]
+}

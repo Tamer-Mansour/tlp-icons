@@ -1,0 +1,11 @@
+{
+  "name": "code-diff",
+  "category": "development",
+  "tags": ["diff", "code", "changes", "compare", "review", "patch"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"8\" height=\"18\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"8\" height=\"18\" rx=\"1\"/><line class=\"p2\" x1=\"4\" y1=\"12\" x2=\"8\" y2=\"12\"/><path class=\"p3\" d=\"M16 12H20M18 10V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

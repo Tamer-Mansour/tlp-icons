@@ -1,0 +1,10 @@
+{
+  "name": "sprinkler-system",
+  "category": "buildings",
+  "tags": ["sprinkler", "system", "pipe", "water", "drops", "fire"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 800, "origin": "top" }
+  ]
+}

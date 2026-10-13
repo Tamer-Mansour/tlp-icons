@@ -1,0 +1,11 @@
+{
+  "name": "y-intercept",
+  "category": "math",
+  "tags": ["intercept", "line", "axis", "crossing", "graph"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"3\" x2=\"6\" y2=\"21\"/><line class=\"p2\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"6\"/><circle class=\"f p3\" cx=\"6\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

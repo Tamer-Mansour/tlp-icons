@@ -1,0 +1,11 @@
+{
+  "name": "heat-gun",
+  "category": "tools",
+  "tags": ["heat", "gun", "hot", "air", "paint", "strip"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h11l3-2h2v6h-2l-3-2H4z\"/><path class=\"p2\" d=\"M7 13v4h3v-4\"/><path class=\"p3\" d=\"M19 3q1 2 0 4M22 4q1 2 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

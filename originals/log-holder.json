@@ -1,0 +1,11 @@
+{
+  "name": "log-holder",
+  "category": "home",
+  "tags": ["log", "holder", "rack", "firewood", "stand", "wood"],
+  "svg": "<path class=\"p1\" d=\"M3 9v12h18V9\"/><rect class=\"d p2\" x=\"6\" y=\"4\" width=\"12\" height=\"4\" rx=\"2\"/><rect class=\"p3\" x=\"7\" y=\"12\" width=\"10\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 900 }
+  ]
+}

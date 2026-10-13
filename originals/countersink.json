@@ -1,0 +1,11 @@
+{
+  "name": "countersink",
+  "category": "tools",
+  "tags": ["countersink", "drill", "bit", "cone", "flutes", "hole"],
+  "svg": "<path class=\"d p1\" d=\"M4 5 H20 L13 13 H11 Z\"/><rect class=\"p2\" x=\"10.5\" y=\"15\" width=\"3\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M8 8 L10 11 M16 8 L14 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

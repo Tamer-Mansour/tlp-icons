@@ -1,0 +1,11 @@
+{
+  "name": "wood-router",
+  "category": "tools",
+  "tags": ["router", "wood", "power", "bit", "milling", "carpentry"],
+  "svg": "<path class=\"p1\" d=\"M3 14h18\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M12 14v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spinFast", "dur": 700, "delay": 1200 }
+  ]
+}

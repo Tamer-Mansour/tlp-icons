@@ -1,0 +1,11 @@
+{
+  "name": "thread-replies",
+  "category": "communication",
+  "tags": ["thread", "replies", "branch", "comments", "conversation", "nested"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><path class=\"p2\" d=\"M5 8h10\"/><path class=\"p3\" d=\"M5 15h10\"/><circle class=\"f p2\" cx=\"17\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

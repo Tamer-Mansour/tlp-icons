@@ -1,0 +1,12 @@
+{
+  "name": "registered-mail",
+  "category": "communication",
+  "tags": ["registered", "certified", "mail", "envelope", "verified"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5.5\" width=\"15\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 6.5L10 12.5 17.5 6.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"16\" r=\"3.5\"/><path class=\"p4\" d=\"M16.5 16l1 1 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

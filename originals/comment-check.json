@@ -1,0 +1,10 @@
+{
+  "name": "comment-check",
+  "category": "interface",
+  "tags": ["comment", "check", "resolved", "approved", "speech", "done"],
+  "svg": "<path class=\"p1\" d=\"M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-10l-4 3.5V18H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 10.5l2.5 2.5 5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

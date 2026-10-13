@@ -1,0 +1,10 @@
+{
+  "name": "hockey-puck",
+  "category": "sport",
+  "tags": ["hockey", "puck", "ice", "disc", "sport", "game"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\"/><path class=\"p2\" d=\"M7 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "subscribe-bell",
+  "category": "communication",
+  "tags": ["subscribe", "bell", "notification", "follow", "alert", "plus", "join"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 9a5.5 5.5 0 0 1 11 0v5l2 3h-15l2-3z\"/><path class=\"p2\" d=\"M10 19.5a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M20 3v4M18 5h4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

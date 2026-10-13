@@ -1,0 +1,12 @@
+{
+  "name": "game-trail",
+  "category": "nature",
+  "tags": ["game", "trail", "footprint", "animal", "hunting", "track"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7\" cy=\"18\" rx=\"2.5\" ry=\"3\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"12\" r=\"1\"/><ellipse class=\"d p2\" cx=\"17\" cy=\"11\" rx=\"2.5\" ry=\"3\"/><circle class=\"f p4\" cx=\"14.5\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 300, "delay": 1100 }
+  ]
+}

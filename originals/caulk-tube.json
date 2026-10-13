@@ -1,0 +1,11 @@
+{
+  "name": "caulk-tube",
+  "category": "tools",
+  "tags": ["caulk", "tube", "sealant", "nozzle", "bead", "squeeze"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M15 10 H19 V14 H15\"/><circle class=\"f p3\" cx=\"20\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

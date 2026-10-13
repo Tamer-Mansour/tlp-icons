@@ -1,0 +1,11 @@
+{
+  "name": "state-diagram",
+  "category": "development",
+  "tags": ["state", "diagram", "transition", "loop", "machine", "flow"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"3\"/><circle class=\"p1\" cx=\"19\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M8 10 Q12 4 16 10 M14.5 8.8 L16 10 L17 8.6\"/><path class=\"p3\" d=\"M16 14 Q12 20 8 14 M6.7 12.9 L8 14 L9.1 12.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1100 }
+  ]
+}

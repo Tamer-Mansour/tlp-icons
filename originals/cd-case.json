@@ -1,0 +1,11 @@
+{
+  "name": "cd-case",
+  "category": "media",
+  "tags": ["cd", "case", "disc", "jewel", "music", "storage"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"18\" height=\"20\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "center" }
+  ]
+}

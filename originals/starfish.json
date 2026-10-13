@@ -1,0 +1,10 @@
+{
+  "name": "starfish",
+  "category": "nature",
+  "tags": ["sea", "star", "ocean", "beach", "marine"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 14.35,8.76 20.56,9.22 15.8,13.24 17.29,19.28 12,16 6.71,19.28 8.2,13.24 3.44,9.22 9.65,8.76\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "foundry",
+  "category": "buildings",
+  "tags": ["foundry", "molten", "metal", "casting", "furnace", "factory"],
+  "svg": "<path class=\"d p1\" d=\"M5 4h12l-2 6H7z\"/><path class=\"p2\" d=\"M11 10v2M6 20l2-3h8l2 3\"/><circle class=\"f p3\" cx=\"11\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "kpi-target",
+  "category": "charts",
+  "tags": ["kpi", "target", "goal", "metric", "aim", "progress"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"5\"/><line class=\"p2\" x1=\"21\" y1=\"3\" x2=\"12.5\" y2=\"11.5\"/><path class=\"p2\" d=\"M16 3 H21 V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 800 }
+  ]
+}

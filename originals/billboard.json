@@ -1,0 +1,11 @@
+{
+  "name": "billboard",
+  "category": "communication",
+  "tags": ["billboard", "sign", "advertising", "ad", "outdoor", "signboard", "display"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M6 14v7M18 14v7M6 18h12\"/><path class=\"p3\" d=\"M6 7.5h12M6 11h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

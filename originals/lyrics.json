@@ -1,0 +1,10 @@
+{
+  "name": "lyrics",
+  "category": "text",
+  "tags": ["lyrics", "music", "note", "song", "text"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"17.5\" r=\"2.5\"/><circle class=\"p1\" cx=\"12.5\" cy=\"15.5\" r=\"2.5\"/><path class=\"p1\" d=\"M7 17V5l8-2v12\"/><path class=\"p2\" d=\"M19 7h3M19 11h3M19 15h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 600 }
+  ]
+}

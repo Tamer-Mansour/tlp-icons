@@ -1,0 +1,11 @@
+{
+  "name": "surround-sound",
+  "category": "media",
+  "tags": ["surround", "sound", "speakers", "audio", "theater", "channels"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"8\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M6 9Q4.5 12 6 15M18 9Q19.5 12 18 15\"/><circle class=\"f p2\" cx=\"4\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4\" cy=\"20\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"20\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

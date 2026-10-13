@@ -1,0 +1,10 @@
+{
+  "name": "dragon-curve",
+  "category": "math",
+  "tags": ["dragon", "curve", "fractal", "folding", "math"],
+  "svg": "<polyline class=\"p1\" points=\"5,19 5,5 19,5 19,15 9,15 9,9 15,9\"/><circle class=\"f p2\" cx=\"15\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1300, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

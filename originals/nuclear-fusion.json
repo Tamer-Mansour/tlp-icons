@@ -1,0 +1,11 @@
+{
+  "name": "nuclear-fusion",
+  "category": "science",
+  "tags": ["nuclear", "fusion", "atom", "merge", "energy", "star"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"3.5\"/><circle class=\"d p2\" cx=\"16\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M12 4.5v3M12 16.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "nudge", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

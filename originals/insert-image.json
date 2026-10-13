@@ -1,0 +1,10 @@
+{
+  "name": "insert-image",
+  "category": "design",
+  "tags": ["insert", "image", "picture", "add", "photo", "frame"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p1\" d=\"M2 16l4-4 4 4 2-2 4 4\"/><path class=\"p2\" d=\"M19 2v6M16 5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 800 }
+  ]
+}

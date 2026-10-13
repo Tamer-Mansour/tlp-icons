@@ -1,0 +1,10 @@
+{
+  "name": "solar-house",
+  "category": "buildings",
+  "tags": ["solar", "house", "panel", "energy", "green", "home"],
+  "svg": "<path class=\"p1\" d=\"M4 10l8-6 8 6v10H4z\"/><path class=\"d p2\" d=\"M6 7l5-3.75 1 1.5L7 8.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 900 }
+  ]
+}

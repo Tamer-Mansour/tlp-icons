@@ -1,0 +1,10 @@
+{
+  "name": "yoga-mat",
+  "category": "sport",
+  "tags": ["yoga", "mat", "rolled", "fitness", "stretch", "studio"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"14\" width=\"16\" height=\"6\" rx=\"1\"/><circle class=\"p2\" cx=\"8\" cy=\"8\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 600 }
+  ]
+}

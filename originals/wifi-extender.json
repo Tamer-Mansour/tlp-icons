@@ -1,0 +1,11 @@
+{
+  "name": "wifi-extender",
+  "category": "devices",
+  "tags": ["wifi", "extender", "repeater", "signal", "router"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M8 11.5a5.5 5.5 0 0 1 8 0\"/><path class=\"p3\" d=\"M4.5 8a10 10 0 0 1 15 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1200 }
+  ]
+}

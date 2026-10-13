@@ -1,0 +1,11 @@
+{
+  "name": "gray-code",
+  "category": "math",
+  "tags": ["gray", "code", "binary", "encoding", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 9h3v6H3zM8 9h3v6H8zM13 9h3v6h-3zM18 9h3v6h-3z\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M5 5.5H17M14.5 3.5L16.5 5.5L14.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

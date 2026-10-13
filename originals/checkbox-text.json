@@ -1,0 +1,12 @@
+{
+  "name": "checkbox-text",
+  "category": "text",
+  "tags": ["checkbox", "checklist", "task", "text", "todo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 7.5 L7.5 9.5 L9.5 5.5\"/><line class=\"p3\" x1=\"14\" y1=\"7.5\" x2=\"21\" y2=\"7.5\"/><line class=\"p4\" x1=\"3\" y1=\"16.5\" x2=\"21\" y2=\"16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "typeIn", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

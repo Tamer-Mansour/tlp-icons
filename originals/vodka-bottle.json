@@ -1,0 +1,11 @@
+{
+  "name": "vodka-bottle",
+  "category": "food",
+  "tags": ["vodka", "bottle", "spirits", "liquor", "label", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M10 4h4v4l2 3v9a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-9l2-3z\"/><rect class=\"p2\" x=\"8.5\" y=\"13\" width=\"7\" height=\"4\"/><path class=\"p3\" d=\"M10 3h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

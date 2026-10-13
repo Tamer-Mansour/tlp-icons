@@ -1,0 +1,10 @@
+{
+  "name": "fader",
+  "category": "media",
+  "tags": ["fader", "slider", "volume", "mixer", "channel", "level"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><rect class=\"d p2\" x=\"8\" y=\"9\" width=\"8\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 700 }
+  ]
+}

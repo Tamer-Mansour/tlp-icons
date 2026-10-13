@@ -1,0 +1,10 @@
+{
+  "name": "heart-rate-strap",
+  "category": "sport",
+  "tags": ["heart", "rate", "strap", "chest", "fitness", "sensor"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"5\" rx=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"11.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

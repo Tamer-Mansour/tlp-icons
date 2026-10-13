@@ -1,0 +1,11 @@
+{
+  "name": "season-winter",
+  "category": "weather",
+  "tags": ["winter", "snowflake", "season", "branch", "cold", "bare"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V11 M8 5.5 L16 9.5 M16 5.5 L8 9.5\"/><path class=\"p2\" d=\"M5 18 H19\"/><path class=\"p3\" d=\"M9 18 L7 14.5 M15 18 L17 14.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "spin", "dur": 1000, "delay": 1100 }
+  ]
+}

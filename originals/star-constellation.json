@@ -1,0 +1,10 @@
+{
+  "name": "star-constellation",
+  "category": "science",
+  "tags": ["stars", "constellation", "astronomy", "sky", "night", "pattern"],
+  "svg": "<path class=\"p1\" d=\"M5 6L10 4L16 7L19 14L9 18\"/><path class=\"f p2\" d=\"M3.8 6a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M8.8 4a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M14.8 7a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M17.8 14a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M7.8 18a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 1000 }
+  ]
+}

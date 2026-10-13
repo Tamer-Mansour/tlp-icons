@@ -1,0 +1,12 @@
+{
+  "name": "miner-helmet-lamp",
+  "category": "people",
+  "tags": ["miner", "helmet", "lamp", "light", "mine", "hardhat"],
+  "svg": "<path class=\"d p1\" d=\"M5 16 A7 7 0 0 1 19 16 Z\"/><line class=\"p2\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><circle class=\"p3\" cx=\"12\" cy=\"5\" r=\"1.5\"/><line class=\"p4\" x1=\"16.5\" y1=\"5\" x2=\"21\" y2=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "glow", "dur": 900, "delay": 1300 }
+  ]
+}

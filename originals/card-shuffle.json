@@ -1,0 +1,11 @@
+{
+  "name": "card-shuffle",
+  "category": "sport",
+  "tags": ["shuffle", "cards", "deck", "poker", "game", "mix"],
+  "svg": "<path class=\"d p1\" d=\"M7 14H17V21H7Z\"/><polyline class=\"p2\" points=\"3,4 7,4 17,10 21,10\"/><polyline class=\"p3\" points=\"3,10 7,10 17,4 21,4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

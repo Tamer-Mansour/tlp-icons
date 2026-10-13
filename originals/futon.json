@@ -1,0 +1,11 @@
+{
+  "name": "futon",
+  "category": "home",
+  "tags": ["futon", "sofa bed", "couch", "mattress", "furniture"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v5H3z\"/><path class=\"p2\" d=\"M3 12V8h5v4\"/><path class=\"p3\" d=\"M4 17v2M20 17v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 1000, "origin": "left" }
+  ]
+}

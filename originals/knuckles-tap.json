@@ -1,0 +1,11 @@
+{
+  "name": "knuckles-tap",
+  "category": "people",
+  "tags": ["knock", "knuckles", "fist", "tap", "door", "rap"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"9\" height=\"18\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"9.5\" width=\"5\" height=\"6\" rx=\"2.2\"/><path class=\"p3\" d=\"M17 5.5v2.5M21 7l-1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "knock", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dew-drops",
+  "category": "weather",
+  "tags": ["dew", "drops", "morning", "moisture", "droplets", "wet"],
+  "svg": "<path class=\"p1\" d=\"M8 10 C8 10 5 13.2 5 15 A3 3 0 0 0 11 15 C11 13.2 8 10 8 10 Z\"/><path class=\"p2\" d=\"M16 7 C16 7 13 10.2 13 12 A3 3 0 0 0 19 12 C19 10.2 16 7 16 7 Z\"/><path class=\"p3\" d=\"M4 21 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "drip", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

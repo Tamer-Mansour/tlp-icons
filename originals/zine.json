@@ -1,0 +1,11 @@
+{
+  "name": "zine",
+  "category": "files",
+  "tags": ["zine", "fold", "sheet", "pamphlet", "print"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M4 12h16\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

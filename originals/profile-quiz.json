@@ -1,0 +1,12 @@
+{
+  "name": "profile-quiz",
+  "category": "people",
+  "tags": ["quiz", "question", "profile", "head", "help", "person"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M2 21 V19 Q2 14 9 14 Q13 14 15 15.5\"/><path class=\"p3\" d=\"M17 9 Q17 6 19.5 6 Q22 6 22 8.5 Q22 10.5 19.5 11.5 V13\"/><circle class=\"f p4\" cx=\"19.5\" cy=\"16.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "pulseRing", "dur": 600, "delay": 1200 }
+  ]
+}

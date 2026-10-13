@@ -1,0 +1,11 @@
+{
+  "name": "action-bar",
+  "category": "interface",
+  "tags": ["action bar", "toolbar", "buttons", "checkbox", "selection", "controls"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"8.5\" width=\"19\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"4.5\" y=\"10.5\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"p3\" x=\"13\" y=\"10.5\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"p3\" x=\"17.5\" y=\"10.5\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

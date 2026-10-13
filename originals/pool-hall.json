@@ -1,0 +1,11 @@
+{
+  "name": "pool-hall",
+  "category": "buildings",
+  "tags": ["pool", "billiard", "cue", "table", "balls", "snooker"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"1\"/><circle class=\"f p2\" cx=\"8\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"10\" cy=\"14\" r=\"1.2\"/><circle class=\"f p2\" cx=\"7\" cy=\"14.5\" r=\"1.2\"/><path class=\"p3\" d=\"M13 14 L21 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "strike", "dur": 600, "delay": 1100, "origin": "13px 14px" }
+  ]
+}

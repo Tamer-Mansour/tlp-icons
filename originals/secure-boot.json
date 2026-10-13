@@ -1,0 +1,11 @@
+{
+  "name": "secure-boot",
+  "category": "security",
+  "tags": ["secure", "boot", "power", "shield", "startup", "firmware"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l7 2.5v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V5.5z\"/><path class=\"p2\" d=\"M9 8.5a4.5 4.5 0 1 0 6 0\"/><path class=\"p3\" d=\"M12 6v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 }
+  ]
+}

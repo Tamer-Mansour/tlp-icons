@@ -1,0 +1,10 @@
+{
+  "name": "dinosaur-bone",
+  "category": "science",
+  "tags": ["bone", "dinosaur", "fossil", "skeleton", "paleontology"],
+  "svg": "<line class=\"p1\" x1=\"6.5\" y1=\"6.5\" x2=\"17.5\" y2=\"17.5\"/><circle class=\"p2\" cx=\"4.5\" cy=\"7.5\" r=\"1.8\"/><circle class=\"p2\" cx=\"7.5\" cy=\"4.5\" r=\"1.8\"/><circle class=\"p2\" cx=\"16.5\" cy=\"16.5\" r=\"1.8\"/><circle class=\"p2\" cx=\"19.5\" cy=\"13.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

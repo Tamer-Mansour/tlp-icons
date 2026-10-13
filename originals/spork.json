@@ -1,0 +1,11 @@
+{
+  "name": "spork",
+  "category": "food",
+  "tags": ["spork", "cutlery", "utensil", "fork", "spoon", "camping"],
+  "svg": "<path class=\"d p1\" d=\"M8 3v5a4 4 0 0 0 8 0V3\"/><path class=\"p2\" d=\"M12 3v5\"/><path class=\"p3\" d=\"M12 12v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900, "origin": "top" }
+  ]
+}

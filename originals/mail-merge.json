@@ -1,0 +1,11 @@
+{
+  "name": "mail-merge",
+  "category": "communication",
+  "tags": ["mail", "merge", "sheet", "envelope", "batch"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"8.5\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 6h4M5 9.5h4\"/><rect class=\"d p3\" x=\"13\" y=\"13\" width=\"8.5\" height=\"7.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M13 14l4.25 3.25L21.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "outlier-dot",
+  "category": "math",
+  "tags": ["outlier", "cluster", "dots", "statistics", "anomaly"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"15\" r=\"1.2\"/><circle class=\"f p1\" cx=\"8.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"10\" cy=\"16.5\" r=\"1.2\"/><circle class=\"f p1\" cx=\"8\" cy=\"19\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 500, "delay": 800 }
+  ]
+}

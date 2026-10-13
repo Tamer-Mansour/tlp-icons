@@ -1,0 +1,10 @@
+{
+  "name": "fire-pit",
+  "category": "buildings",
+  "tags": ["fire pit", "campfire", "flame", "stones", "outdoor fire"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"19\" rx=\"8\" ry=\"2.5\"/><path class=\"d p2\" d=\"M12 3c2 2.5 3 4 3 7a3 3 0 0 1-6 0c0-2.5 1-4.5 3-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 500 }
+  ]
+}

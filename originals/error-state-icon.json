@@ -1,0 +1,11 @@
+{
+  "name": "error-state-icon",
+  "category": "interface",
+  "tags": ["error", "warning", "alert", "caution", "problem"],
+  "svg": "<path class=\"p1\" d=\"M12 3L21.5 19.5H2.5Z\"/><path class=\"p2\" d=\"M12 9.5V13.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.8\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

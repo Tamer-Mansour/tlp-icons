@@ -1,0 +1,10 @@
+{
+  "name": "row-reverse",
+  "category": "layout",
+  "tags": ["row", "reverse", "order", "flip", "layout", "css"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"9\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"16\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M20 5H4M7 3L4 5L7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 500 }
+  ]
+}

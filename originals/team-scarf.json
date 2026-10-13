@@ -1,0 +1,10 @@
+{
+  "name": "team-scarf",
+  "category": "sport",
+  "tags": ["team", "scarf", "fans", "wavy", "fringe", "supporter"],
+  "svg": "<path class=\"d p1\" d=\"M4 6 Q12 9 20 6 V10 Q12 13 4 10 Z\"/><path class=\"p2\" d=\"M14 12 L15 20 H19 L18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 600, "origin": "top" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-arrow",
+  "category": "files",
+  "tags": ["clipboard", "arrow", "import", "download", "incoming"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 9v7M9 13.5l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

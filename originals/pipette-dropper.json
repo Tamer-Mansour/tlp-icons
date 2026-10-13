@@ -1,0 +1,11 @@
+{
+  "name": "pipette-dropper",
+  "category": "science",
+  "tags": ["pipette", "dropper", "lab", "liquid", "drop", "glass"],
+  "svg": "<rect class=\"d p1\" x=\"9.5\" y=\"2.5\" width=\"5\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M10 6.5V15.5L12 18L14 15.5V6.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "squeeze", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 600, "delay": 1200 }
+  ]
+}

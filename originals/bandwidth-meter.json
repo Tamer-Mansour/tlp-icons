@@ -1,0 +1,11 @@
+{
+  "name": "bandwidth-meter",
+  "category": "charts",
+  "tags": ["bandwidth", "meter", "gauge", "network", "speed", "signal"],
+  "svg": "<path class=\"p1\" d=\"M3 15a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 15l3-4\"/><path class=\"p3\" d=\"M3 20q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "origin": "12px 15px", "dur": 900, "delay": 1200 }
+  ]
+}

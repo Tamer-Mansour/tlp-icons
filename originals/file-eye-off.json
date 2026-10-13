@@ -1,0 +1,11 @@
+{
+  "name": "file-eye-off",
+  "category": "files",
+  "tags": ["hidden", "eye", "private", "invisible", "hide"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"d p2\" d=\"M6.5 13.5C8.5 10.5 15.5 10.5 17.5 13.5 15.5 16.5 8.5 16.5 6.5 13.5z\"/><path class=\"p3\" d=\"M4.5 5.5l15 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

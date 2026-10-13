@@ -1,0 +1,11 @@
+{
+  "name": "oboe",
+  "category": "media",
+  "tags": ["oboe", "woodwind", "reed", "instrument", "keys", "orchestra"],
+  "svg": "<rect class=\"p1\" x=\"10.5\" y=\"3\" width=\"3\" height=\"15\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 18L8 21H16L15 18\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.1\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1200 }
+  ]
+}

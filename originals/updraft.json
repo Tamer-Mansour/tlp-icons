@@ -1,0 +1,10 @@
+{
+  "name": "updraft",
+  "category": "weather",
+  "tags": ["updraft", "rising", "air", "wind", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M8 20V4M4 8L8 4L12 8\"/><path class=\"p2\" d=\"M16 20V8M12 12L16 8L20 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 500 }
+  ]
+}

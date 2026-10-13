@@ -1,0 +1,11 @@
+{
+  "name": "text-bracket",
+  "category": "text",
+  "tags": ["bracket", "parenthesis", "round", "text", "aside", "enclose"],
+  "svg": "<path class=\"p1\" d=\"M8 4c-2 2-2 4-2 8s0 6 2 8\"/><path class=\"p2\" d=\"M16 4c2 2 2 4 2 8s0 6-2 8\"/><path class=\"p3\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 900 }
+  ]
+}

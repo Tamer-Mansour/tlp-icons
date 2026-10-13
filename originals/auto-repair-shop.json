@@ -1,0 +1,10 @@
+{
+  "name": "auto-repair-shop",
+  "category": "buildings",
+  "tags": ["auto", "repair", "shop", "wrench", "garage", "car"],
+  "svg": "<path class=\"p1\" d=\"M3 14l6-5 6 5M5 14v6h10v-6\"/><line class=\"p2\" x1=\"16.5\" y1=\"7.5\" x2=\"12.5\" y2=\"11.5\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800, "origin": "18px 6px" }
+  ]
+}

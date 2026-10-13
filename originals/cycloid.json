@@ -1,0 +1,11 @@
+{
+  "name": "cycloid",
+  "category": "math",
+  "tags": ["cycloid", "rolling", "circle", "arch", "curve"],
+  "svg": "<path class=\"p1\" d=\"M3 18C3 6 21 6 21 18\"/><line class=\"p2\" x1=\"2\" y1=\"21.5\" x2=\"22\" y2=\"21.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 1300 }
+  ]
+}

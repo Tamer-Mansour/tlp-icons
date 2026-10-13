@@ -1,0 +1,11 @@
+{
+  "name": "all-terrain-vehicle",
+  "category": "vehicles",
+  "tags": ["atv", "quad", "terrain", "offroad", "vehicle", "wheels"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"17\" r=\"3\"/><circle class=\"p1\" cx=\"18\" cy=\"17\" r=\"3\"/><rect class=\"d p2\" x=\"7\" y=\"10\" width=\"9\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M16 10l2-4h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

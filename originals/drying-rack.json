@@ -1,0 +1,11 @@
+{
+  "name": "drying-rack",
+  "category": "home",
+  "tags": ["drying rack", "laundry", "shirt", "clothes", "folding", "washing"],
+  "svg": "<path class=\"p1\" d=\"M3 5H21\"/><path class=\"p2\" d=\"M6 5L4 21M18 5L20 21\"/><path class=\"d p3\" d=\"M9 7L12 8.5L15 7L17.5 9L16 12L15 11.5V16H9V11.5L8 12L6.5 9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

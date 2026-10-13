@@ -1,0 +1,11 @@
+{
+  "name": "train-conductor-cap",
+  "category": "people",
+  "tags": ["train", "conductor", "cap", "railway", "uniform", "badge"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 Q5 6 12 6 Q19 6 19 12 Z\"/><line class=\"p3\" x1=\"3\" y1=\"14.5\" x2=\"21\" y2=\"14.5\"/><circle class=\"p2\" cx=\"12\" cy=\"9.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

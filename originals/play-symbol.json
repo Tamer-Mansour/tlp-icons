@@ -1,0 +1,10 @@
+{
+  "name": "play-symbol",
+  "category": "emoji",
+  "tags": ["play", "video", "media", "start", "button", "player"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><polygon class=\"d p2\" points=\"9,7.5 16.5,12 9,16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

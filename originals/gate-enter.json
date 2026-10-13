@@ -1,0 +1,10 @@
+{
+  "name": "gate-enter",
+  "category": "arrows",
+  "tags": ["gate", "enter", "pass", "barrier", "access"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18M18 3v18\"/><path class=\"p2\" d=\"M9 12h5.5M12 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

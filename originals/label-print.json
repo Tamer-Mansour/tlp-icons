@@ -1,0 +1,11 @@
+{
+  "name": "label-print",
+  "category": "files",
+  "tags": ["label", "printer", "print", "sticker", "shipping"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"12\" width=\"18\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"7.5\" y=\"3\" width=\"9\" height=\"8\" rx=\"0.5\"/><circle class=\"f p3\" cx=\"17\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

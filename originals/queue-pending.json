@@ -1,0 +1,11 @@
+{
+  "name": "queue-pending",
+  "category": "notifications",
+  "tags": ["queue", "pending", "clock", "waiting", "rows"],
+  "svg": "<path class=\"p1\" d=\"M10 6h10M10 12h10M10 18h10\"/><circle class=\"d p2\" cx=\"4.5\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M4.5 4.8v1.5l1 0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 700, "origin": "4.5px 6px" }
+  ]
+}

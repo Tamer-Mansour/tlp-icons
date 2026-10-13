@@ -1,0 +1,10 @@
+{
+  "name": "search-analytics",
+  "category": "charts",
+  "tags": ["search", "analytics", "magnifier", "find", "data", "insight"],
+  "svg": "<circle class=\"p1\" cx=\"10.5\" cy=\"10.5\" r=\"7\"/><path class=\"p1\" d=\"M15.5 15.5L21 21\"/><path class=\"p2\" d=\"M8 13v-3M13 13V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600, "origin": "bottom" }
+  ]
+}

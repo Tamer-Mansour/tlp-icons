@@ -1,0 +1,11 @@
+{
+  "name": "dragster",
+  "category": "vehicles",
+  "tags": ["dragster", "race", "speed", "drag", "fast", "racing"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 15.5L6.5 12.5H14L19.5 14V15.5Z\"/><path class=\"p2\" d=\"M17 12L19.5 7.5M18 7.5H22\"/><circle class=\"p3\" cx=\"16.5\" cy=\"17\" r=\"2.5\"/><circle class=\"p3\" cx=\"5.5\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "dash", "dur": 800, "delay": 900 }
+  ]
+}

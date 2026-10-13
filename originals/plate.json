@@ -1,0 +1,10 @@
+{
+  "name": "plate",
+  "category": "food",
+  "tags": ["plate", "dish", "dinner", "tableware", "meal", "kitchen"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 }
+  ]
+}

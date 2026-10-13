@@ -1,0 +1,10 @@
+{
+  "name": "rating-distribution",
+  "category": "charts",
+  "tags": ["rating", "distribution", "stars", "reviews", "score", "bars"],
+  "svg": "<path class=\"p1\" d=\"M5 21V16M9.5 21V12M14 21V8M18.5 21V13\"/><polygon class=\"p2\" points=\"6,3 6.9,5.2 9.2,5.4 7.4,6.9 8,9.1 6,7.9 4,9.1 4.6,6.9 2.8,5.4 5.1,5.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

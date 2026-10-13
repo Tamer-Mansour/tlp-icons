@@ -1,0 +1,11 @@
+{
+  "name": "experiment-setup",
+  "category": "science",
+  "tags": ["experiment", "lab", "flask", "beaker", "stand", "chemistry"],
+  "svg": "<path class=\"p1\" d=\"M3 21h5M5.5 3v18M5.5 8h5\"/><path class=\"d p2\" d=\"M11 3h3v4l3.5 6.5h-10L11 7Z\"/><path class=\"d p3\" d=\"M16 15h5v4h-5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pour", "dur": 1000, "delay": 1000 }
+  ]
+}

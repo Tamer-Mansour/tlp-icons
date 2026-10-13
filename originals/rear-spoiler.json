@@ -1,0 +1,10 @@
+{
+  "name": "rear-spoiler",
+  "category": "vehicles",
+  "tags": ["car", "spoiler", "wing", "rear", "vehicle", "tuning"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 Q12 5.5 21 10 L21 12 Q12 8.5 3 12 Z\"/><line class=\"p2\" x1=\"7\" y1=\"11\" x2=\"7\" y2=\"17\"/><line class=\"p2\" x1=\"17\" y1=\"11\" x2=\"17\" y2=\"17\"/><line class=\"p2\" x1=\"4\" y1=\"17\" x2=\"20\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 900, "delay": 500, "origin": "12px 10px" }
+  ]
+}

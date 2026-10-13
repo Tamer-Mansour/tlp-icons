@@ -1,0 +1,11 @@
+{
+  "name": "rotary-evaporator",
+  "category": "science",
+  "tags": ["lab", "flask", "evaporate", "condenser", "science"],
+  "svg": "<path class=\"d p1\" d=\"M5 13h8l2 5a2 2 0 0 1-2 3H5a2 2 0 0 1-2-3z\"/><path class=\"p2\" d=\"M16 4l2 2-2 2 2 2-2 2 2 2\"/><line class=\"p3\" x1=\"9\" y1=\"13\" x2=\"9\" y2=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "9px 9px" }
+  ]
+}

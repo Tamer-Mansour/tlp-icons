@@ -1,0 +1,11 @@
+{
+  "name": "digital-clock",
+  "category": "time",
+  "tags": ["digital", "clock", "display", "time", "readout", "segments"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6\" width=\"19\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 9v6M8 9h2.5v3H8v3h2.5M14 9h2.5v6H14M14 12h2.5M17.5 9h1.5v6h-1.5z\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"13.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1400 }
+  ]
+}

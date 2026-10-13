@@ -1,0 +1,11 @@
+{
+  "name": "life-raft",
+  "category": "vehicles",
+  "tags": ["raft", "life", "inflatable", "rescue", "boat"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><line class=\"p3\" x1=\"9\" y1=\"18\" x2=\"15\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 900 }
+  ]
+}

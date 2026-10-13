@@ -1,0 +1,11 @@
+{
+  "name": "gecko",
+  "category": "nature",
+  "tags": ["gecko", "lizard", "splayed toes", "flat body", "wall", "reptile"],
+  "svg": "<path class=\"d p1\" d=\"M7 8C7 6 9 5 12 5C15 5 17 6 17 8V16C17 18 15 19 12 19C9 19 7 18 7 16Z\"/><path class=\"p2\" d=\"M7 9L3 7M7 13L3 12M17 9L21 7M17 13L21 12\"/><circle class=\"f p3\" cx=\"10\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "spell-check-edit",
+  "category": "design",
+  "tags": ["spell", "check", "letter", "underline", "proofread", "typo"],
+  "svg": "<path class=\"p1\" d=\"M4 17l4.5-10L13 17M5.7 13.5h5.6\"/><path class=\"p2\" d=\"M3 20.5q2-1.5 4 0t4 0\"/><polyline class=\"p3\" points=\"15 12 17 14 21 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

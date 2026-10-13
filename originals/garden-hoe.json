@@ -1,0 +1,10 @@
+{
+  "name": "garden-hoe",
+  "category": "tools",
+  "tags": ["hoe", "garden", "soil", "weeding", "handle", "tool"],
+  "svg": "<line class=\"p1\" x1=\"10\" y1=\"2\" x2=\"10\" y2=\"12\"/><path class=\"d p2\" d=\"M5 14 H17 V18 Q11 21 5 18 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

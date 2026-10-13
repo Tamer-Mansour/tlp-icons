@@ -1,0 +1,11 @@
+{
+  "name": "no-u-turn",
+  "category": "arrows",
+  "tags": ["uturn", "sign", "forbidden", "traffic", "prohibited"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M9 16 V11 A3 3 0 0 1 15 11 V15\"/><polyline class=\"p2\" points=\"13 13 15 15 17 13\"/><path class=\"p3\" d=\"M5 5 L19 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

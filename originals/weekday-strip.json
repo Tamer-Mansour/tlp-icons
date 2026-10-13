@@ -1,0 +1,11 @@
+{
+  "name": "weekday-strip",
+  "category": "time",
+  "tags": ["week", "weekday", "days", "calendar", "strip", "schedule"],
+  "svg": "<rect class=\"d p3\" x=\"7\" y=\"8\" width=\"5\" height=\"8\"/><rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M7 8v8M12 8v8M17 8v8\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

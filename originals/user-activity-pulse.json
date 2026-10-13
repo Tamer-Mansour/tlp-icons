@@ -1,0 +1,10 @@
+{
+  "name": "user-activity-pulse",
+  "category": "people",
+  "tags": ["activity", "pulse", "user", "heartbeat", "status"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M3 17a5 5 0 0 1 10 0\"/><polyline class=\"p2\" points=\"2 21 7 21 9 19 12 22 14 21 22 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

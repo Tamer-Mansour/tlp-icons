@@ -1,0 +1,11 @@
+{
+  "name": "smart-thermostat",
+  "category": "devices",
+  "tags": ["thermostat", "smart", "climate", "temperature", "dial"],
+  "svg": "<path class=\"p1\" d=\"M6 17.5a8.5 8.5 0 1 1 12 0\"/><path class=\"p2\" d=\"M12 14.5V7\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

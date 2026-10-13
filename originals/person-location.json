@@ -1,0 +1,10 @@
+{
+  "name": "person-location",
+  "category": "people",
+  "tags": ["location", "person", "map", "pin", "nearby", "address"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20a5.5 5.5 0 0 1 11 0\"/><path class=\"p2\" d=\"M17.5 21s-4-4-4-8a4 4 0 0 1 8 0c0 4-4 8-4 8z\"/><circle class=\"p2\" cx=\"17.5\" cy=\"13\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "atoll",
+  "category": "nature",
+  "tags": ["atoll", "reef", "island", "lagoon", "ring"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"1.8\"/><path class=\"p3\" d=\"M2 20 Q7 18 12 20 T22 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 1000, "delay": 1100 }
+  ]
+}

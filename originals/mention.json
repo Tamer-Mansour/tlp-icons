@@ -1,0 +1,10 @@
+{
+  "name": "mention",
+  "category": "interface",
+  "tags": ["mention", "at", "tag", "reply", "user", "address"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M16 12v2a3 3 0 0 0 6 0v-2a10 10 0 1 0-4 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

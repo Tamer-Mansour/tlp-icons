@@ -1,0 +1,11 @@
+{
+  "name": "steering-column",
+  "category": "vehicles",
+  "tags": ["steering", "column", "wheel", "shaft", "car", "drive"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"7\"/><path class=\"p2\" d=\"M5 9h5M14 9h5\"/><path class=\"p3\" d=\"M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1100 }
+  ]
+}

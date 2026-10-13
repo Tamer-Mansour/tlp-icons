@@ -1,0 +1,11 @@
+{
+  "name": "blueprint-roll",
+  "category": "tools",
+  "tags": ["blueprint", "roll", "plan", "sheet", "rolled", "drawing"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M9 9h6M9 13h6\"/><line class=\"p3\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 700, "delay": 1000 }
+  ]
+}

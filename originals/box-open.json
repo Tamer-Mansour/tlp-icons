@@ -1,0 +1,11 @@
+{
+  "name": "box-open",
+  "category": "interface",
+  "tags": ["box", "open", "package", "unbox", "empty", "delivery"],
+  "svg": "<path class=\"p1\" d=\"M3 13V20H21V13\"/><path class=\"p2\" d=\"M3 13L6 5H12M21 13L18 5H12\"/><rect class=\"d p3\" x=\"9\" y=\"9\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

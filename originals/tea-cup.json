@@ -1,0 +1,12 @@
+{
+  "name": "tea-cup",
+  "category": "food",
+  "tags": ["tea", "cup", "saucer", "drink", "leaf"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 H16 V15 Q16 19 12 19 H8 Q4 19 4 15 Z\"/><path class=\"p2\" d=\"M16 12.5 H18 Q20 12.5 20 14.5 Q20 16.5 18 16.5 H16\"/><path class=\"p4\" d=\"M3 21 H19\"/><path class=\"p3\" d=\"M9 16 Q9 12 13 12 Q13 16 9 16 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000 }
+  ]
+}

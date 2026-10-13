@@ -1,0 +1,10 @@
+{
+  "name": "scalloped-square",
+  "category": "shapes",
+  "tags": ["scalloped", "square", "badge", "frame", "edge"],
+  "svg": "<path class=\"d p1\" d=\"M4 4A2 2 0 0 0 8 4A2 2 0 0 0 12 4A2 2 0 0 0 16 4A2 2 0 0 0 20 4A2 2 0 0 0 20 8A2 2 0 0 0 20 12A2 2 0 0 0 20 16A2 2 0 0 0 20 20A2 2 0 0 0 16 20A2 2 0 0 0 12 20A2 2 0 0 0 8 20A2 2 0 0 0 4 20A2 2 0 0 0 4 16A2 2 0 0 0 4 12A2 2 0 0 0 4 8A2 2 0 0 0 4 4z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

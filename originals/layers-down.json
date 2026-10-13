@@ -1,0 +1,10 @@
+{
+  "name": "layers-down",
+  "category": "interface",
+  "tags": ["layers", "down", "lower", "stack", "arrow", "order"],
+  "svg": "<polygon class=\"p1\" points=\"12 2 21 6.5 12 11 3 6.5\"/><path class=\"p2\" d=\"M12 13.5v6M9 16.5l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 800 }
+  ]
+}

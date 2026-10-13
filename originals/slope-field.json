@@ -1,0 +1,11 @@
+{
+  "name": "slope-field",
+  "category": "math",
+  "tags": ["slope", "field", "direction", "differential", "equations"],
+  "svg": "<path class=\"p1\" d=\"M3.5 7L6.5 5M10.5 7L13.5 5M17.5 7L20.5 5\"/><path class=\"p2\" d=\"M3.5 14L6 11.5M10.5 14L13 11.5M17.5 14L20 11.5\"/><path class=\"p3\" d=\"M4.5 20L5.5 17M11.5 20L12.5 17M18.5 20L19.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "axolotl",
+  "category": "nature",
+  "tags": ["salamander", "amphibian", "gills", "water", "creature"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"7\" ry=\"5\"/><path class=\"p2\" d=\"M6 10l-3-2M6 13H2M6 16l-3 2M18 10l3-2M18 13h4M18 16l3 2\"/><circle class=\"f\" cx=\"9.5\" cy=\"12\" r=\"1\"/><circle class=\"f\" cx=\"14.5\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M10 15.5q2 1.5 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

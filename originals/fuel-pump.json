@@ -1,0 +1,11 @@
+{
+  "name": "fuel-pump",
+  "category": "vehicles",
+  "tags": ["fuel", "pump", "gas", "petrol", "station"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"9\" height=\"18\" rx=\"1.5\"/><rect class=\"d p2\" x=\"6.5\" y=\"6\" width=\"4\" height=\"3\" rx=\".5\"/><path class=\"p3\" d=\"M13 9h2.5a2 2 0 0 1 2 2v6.5a1.5 1.5 0 0 0 3 0V10l-2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

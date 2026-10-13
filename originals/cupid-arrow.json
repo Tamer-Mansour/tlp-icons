@@ -1,0 +1,11 @@
+{
+  "name": "cupid-arrow",
+  "category": "emoji",
+  "tags": ["cupid", "arrow", "love", "heart", "romance", "valentine"],
+  "svg": "<line class=\"p1\" x1=\"16\" y1=\"12\" x2=\"4\" y2=\"20\"/><path class=\"d p2\" d=\"M16.2 11.5 L12.7 8 C10.7 6 11.7 3 14.2 3.5 C15.2 3.7 15.9 4.5 16.2 5 C16.5 4.5 17.2 3.7 18.2 3.5 C20.7 3 21.7 6 19.7 8 Z\"/><polyline class=\"p3\" points=\"2.5 16.5 4 20 7.5 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

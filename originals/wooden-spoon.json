@@ -1,0 +1,10 @@
+{
+  "name": "wooden-spoon",
+  "category": "home",
+  "tags": ["wooden", "spoon", "kitchen", "cooking", "stir", "utensil"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"8\" rx=\"4\" ry=\"5.5\" transform=\"rotate(-35 9 8)\"/><line class=\"p2\" x1=\"12.2\" y1=\"12.5\" x2=\"20.5\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 700, "origin": "12px 12px" }
+  ]
+}

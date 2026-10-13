@@ -1,0 +1,10 @@
+{
+  "name": "text-outline-path",
+  "category": "text",
+  "tags": ["outline", "path", "dashed", "trace", "word", "text", "stroke"],
+  "svg": "<path class=\"p1\" d=\"M6 4h2M11 4h2M16 4h2M6 20h2M11 20h2M16 20h2M3 8v2M3 13v2M21 8v2M21 13v2\"/><path class=\"p2\" d=\"M8 16l3.5-8 3.5 8M9.5 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 700 }
+  ]
+}

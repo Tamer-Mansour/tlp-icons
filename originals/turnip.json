@@ -1,0 +1,10 @@
+{
+  "name": "turnip",
+  "category": "food",
+  "tags": ["turnip", "root", "vegetable", "leaves", "garden"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"7\" ry=\"6\"/><path class=\"p2\" d=\"M12 8 L9 4 M12 8 L12 3 M12 8 L15 4 M12 20 L12 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 600, "origin": "12px 8px" }
+  ]
+}

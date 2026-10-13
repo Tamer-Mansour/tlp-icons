@@ -1,0 +1,10 @@
+{
+  "name": "data-download",
+  "category": "charts",
+  "tags": ["download", "data", "rows", "arrow", "save"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"3\" rx=\"1\"/><rect class=\"p1\" x=\"4\" y=\"8\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M12 13v7M8 16l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 500 }
+  ]
+}

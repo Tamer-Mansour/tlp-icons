@@ -1,0 +1,11 @@
+{
+  "name": "yarn-ball",
+  "category": "home",
+  "tags": ["yarn", "ball", "knitting", "wool", "craft"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M4.5 9C9 7 15 7 19.5 11\"/><path class=\"p3\" d=\"M4.5 15C9 17 15 17 19.5 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twirl", "dur": 1200, "delay": 1100 }
+  ]
+}

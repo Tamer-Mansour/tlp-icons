@@ -1,0 +1,11 @@
+{
+  "name": "toolbar-floating",
+  "category": "layout",
+  "tags": ["toolbar", "floating", "menu bar", "controls", "overlay"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"11\" width=\"18\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"4\" width=\"12\" height=\"4\" rx=\"2\"/><circle class=\"f p3\" cx=\"9\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

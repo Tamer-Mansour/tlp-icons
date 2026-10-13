@@ -1,0 +1,10 @@
+{
+  "name": "masonry-layout",
+  "category": "interface",
+  "tags": ["masonry", "layout", "staggered", "columns", "grid", "tiles"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"3\" width=\"8\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"10\" width=\"8\" height=\"11\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 300 }
+  ]
+}

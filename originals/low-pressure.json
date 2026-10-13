@@ -1,0 +1,11 @@
+{
+  "name": "low-pressure",
+  "category": "weather",
+  "tags": ["low pressure", "weather map", "cyclonic", "storm", "forecast", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 7 V16 H15\"/><path class=\"p3\" d=\"M15.5 8 Q18 10 16.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "twirl", "dur": 800, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

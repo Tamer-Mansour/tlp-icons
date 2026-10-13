@@ -1,0 +1,10 @@
+{
+  "name": "butte",
+  "category": "nature",
+  "tags": ["butte", "mesa", "rock", "desert", "landform"],
+  "svg": "<path class=\"d p1\" d=\"M4 20L7 7H17L20 20Z\"/><path class=\"p2\" d=\"M2 20H22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 400 }
+  ]
+}

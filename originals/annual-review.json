@@ -1,0 +1,10 @@
+{
+  "name": "annual-review",
+  "category": "time",
+  "tags": ["annual", "review", "yearly", "calendar", "cycle", "retrospective"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p1\" d=\"M3 9h18M8 2v4M16 2v4\"/><polygon class=\"p2\" points=\"12 11 12.76 13.15 15.04 13.21 13.24 14.6 13.88 16.79 12 15.5 10.12 16.79 10.76 14.6 8.96 13.21 11.24 13.15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

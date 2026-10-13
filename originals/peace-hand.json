@@ -1,0 +1,11 @@
+{
+  "name": "peace-hand",
+  "category": "people",
+  "tags": ["peace sign", "victory", "hand gesture", "v sign", "peace"],
+  "svg": "<path class=\"d p1\" d=\"M7 13.5Q7 12 8.5 12H14.5Q16 12 16 13.5V18a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M9.5 12L8 4M14 12L15.5 4\"/><path class=\"p3\" d=\"M7 16.5L4.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "wave", "dur": 900, "delay": 800, "origin": "bottom" }
+  ]
+}

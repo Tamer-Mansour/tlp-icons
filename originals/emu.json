@@ -1,0 +1,12 @@
+{
+  "name": "emu",
+  "category": "nature",
+  "tags": ["emu", "bird", "flightless", "australia", "feather", "tall"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M15 12L17 5\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"4\" r=\"1.5\"/><path class=\"p4\" d=\"M9 18v4M13 18v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

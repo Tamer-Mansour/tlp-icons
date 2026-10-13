@@ -1,0 +1,11 @@
+{
+  "name": "gravity-wave",
+  "category": "science",
+  "tags": ["gravity", "wave", "ripple", "spacetime", "physics", "signal", "rings"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

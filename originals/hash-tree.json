@@ -1,0 +1,11 @@
+{
+  "name": "hash-tree",
+  "category": "security",
+  "tags": ["hash", "tree", "merkle", "nodes", "verify"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><circle class=\"p2\" cx=\"6\" cy=\"18\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M12 7.5V10.5H6V15.5M12 10.5H18V15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

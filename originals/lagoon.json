@@ -1,0 +1,10 @@
+{
+  "name": "lagoon",
+  "category": "nature",
+  "tags": ["lagoon", "water", "sand bar", "enclosed", "shallow", "coast"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"7\" ry=\"3.5\"/><path class=\"p2\" d=\"M2.5 17c3.5-2 7-2 9.5 0s6-2 9.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

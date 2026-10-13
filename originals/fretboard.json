@@ -1,0 +1,10 @@
+{
+  "name": "fretboard",
+  "category": "media",
+  "tags": ["fretboard", "guitar", "frets", "neck", "instrument"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M6 7V17M10 7V17M14 7V17M18 7V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 600 }
+  ]
+}

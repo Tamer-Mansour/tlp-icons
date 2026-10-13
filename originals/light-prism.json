@@ -1,0 +1,11 @@
+{
+  "name": "light-prism",
+  "category": "weather",
+  "tags": ["light", "prism", "rainbow", "refraction", "spectrum", "optics"],
+  "svg": "<path class=\"d p1\" d=\"M8 5 L13 14 H3 Z\"/><path class=\"p2\" d=\"M2 11.5 H5.5\"/><path class=\"p3\" d=\"M15 9 L21 6 M15.5 11.5 H22 M15 14 L21 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "scale-corner",
+  "category": "design",
+  "tags": ["scale", "resize", "corner", "arrow", "transform"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M14 14L21 21M15 21H21V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

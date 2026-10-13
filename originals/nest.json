@@ -1,0 +1,11 @@
+{
+  "name": "nest",
+  "category": "nature",
+  "tags": ["nest", "bird", "eggs", "home", "woven", "shelter"],
+  "svg": "<path class=\"d p1\" d=\"M3 13H21V17Q21 20 18 20H6Q3 20 3 17Z\"/><path class=\"p2\" d=\"M6 17L9 14M11 17L13 14M16 17L18 14\"/><circle class=\"p3\" cx=\"9\" cy=\"9.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"15\" cy=\"9.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

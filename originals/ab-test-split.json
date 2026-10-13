@@ -1,0 +1,11 @@
+{
+  "name": "ab-test-split",
+  "category": "charts",
+  "tags": ["ab", "test", "split", "variant", "experiment", "branch"],
+  "svg": "<path class=\"p1\" d=\"M3 12H10\"/><path class=\"p2\" d=\"M10 12L18 6M10 12L18 18\"/><circle class=\"p3\" cx=\"19\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

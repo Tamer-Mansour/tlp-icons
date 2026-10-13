@@ -1,0 +1,12 @@
+{
+  "name": "robin",
+  "category": "nature",
+  "tags": ["robin", "songbird", "bird", "red breast", "garden", "perched"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"6\" ry=\"4.5\"/><circle class=\"p2\" cx=\"16\" cy=\"8.5\" r=\"2.5\"/><path class=\"p2\" d=\"M18.5 8 L21 9.2 L18.5 10\"/><polyline class=\"p3\" points=\"5.5,12 2.5,8 3,14\"/><path class=\"p4\" d=\"M10 17 V20.5 M13 17 V20.5\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1300, "origin": "6px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "go-stone",
+  "category": "sport",
+  "tags": ["go", "stone", "board", "game", "round", "strategy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M7.5 10.5A4.5 4.5 0 0 1 11 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

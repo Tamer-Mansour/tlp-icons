@@ -1,0 +1,12 @@
+{
+  "name": "outboard-motor",
+  "category": "vehicles",
+  "tags": ["outboard", "motor", "boat", "engine", "propeller", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h6q2 0 2 2v4h-8z\"/><path class=\"p2\" d=\"M10 9v7\"/><path class=\"p3\" d=\"M6.5 16h7\"/><path class=\"p4\" d=\"M2.5 21q3-2 6 0t6 0t6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "10px 16px" }
+  ]
+}

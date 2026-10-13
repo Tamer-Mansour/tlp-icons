@@ -1,0 +1,10 @@
+{
+  "name": "sunburst-chart",
+  "category": "charts",
+  "tags": ["sunburst", "rings", "segments", "hierarchy", "chart", "data"],
+  "svg": "<path class=\"p1\" d=\"M12 3A9 9 0 0 1 19.79 7.5M21 12A9 9 0 0 1 16.5 19.79M12 21A9 9 0 0 1 4.21 16.5M3 12A9 9 0 0 1 7.5 4.21\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "gyro",
+  "category": "food",
+  "tags": ["gyro", "meat", "wrap", "kebab", "greek", "street food"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h8l-1 17h-6z\"/><path class=\"p2\" d=\"M9.5 8h5M9 12.5h6M9.5 17h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

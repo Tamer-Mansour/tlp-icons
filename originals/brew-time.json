@@ -1,0 +1,11 @@
+{
+  "name": "brew-time",
+  "category": "time",
+  "tags": ["brew", "coffee", "drip", "clock", "filter", "timer"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h14l-5 8v5H8v-5z\"/><circle class=\"p2\" cx=\"18.5\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M18.5 15.5V17h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1200, "origin": "18.5px 17px" }
+  ]
+}

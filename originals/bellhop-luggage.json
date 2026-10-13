@@ -1,0 +1,11 @@
+{
+  "name": "bellhop-luggage",
+  "category": "people",
+  "tags": ["bellhop", "luggage", "suitcase", "hotel", "bell", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 9 V7 H15 V9\"/><path class=\"p3\" d=\"M10 4.5 V3.5 Q10 2 12 2 Q14 2 14 3.5 V4.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1100, "origin": "12px 4px" }
+  ]
+}

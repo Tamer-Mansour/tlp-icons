@@ -1,0 +1,11 @@
+{
+  "name": "color-wheel",
+  "category": "interface",
+  "tags": ["color", "wheel", "palette", "hue", "spectrum"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V3M12 12l6.4 6.4M12 12l-7.8 4.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000 }
+  ]
+}

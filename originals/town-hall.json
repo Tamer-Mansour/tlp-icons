@@ -1,0 +1,11 @@
+{
+  "name": "town-hall",
+  "category": "buildings",
+  "tags": ["town", "hall", "government", "clock", "columns", "city"],
+  "svg": "<path class=\"p1\" d=\"M2 9h20L12 3z\"/><path class=\"p2\" d=\"M6 9v10M10 9v10M14 9v10M18 9v10M3 21h18\"/><circle class=\"d p3\" cx=\"12\" cy=\"6.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "vine",
+  "category": "nature",
+  "tags": ["vine", "stem", "curl", "plant", "tendril"],
+  "svg": "<path class=\"p1\" d=\"M4 21C4 15 9 14 11 9\"/><path class=\"p2\" d=\"M11 9c0-3 3-4 5-3s1 4-1 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 900 }
+  ]
+}

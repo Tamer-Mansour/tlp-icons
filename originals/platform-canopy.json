@@ -1,0 +1,11 @@
+{
+  "name": "platform-canopy",
+  "category": "buildings",
+  "tags": ["platform", "canopy", "station", "roof", "railway", "shelter"],
+  "svg": "<path class=\"d p1\" d=\"M2 5h20v4H2z\"/><path class=\"p2\" d=\"M5 9v12M19 9v12\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "display-name-card",
+  "category": "people",
+  "tags": ["display", "name", "card", "profile", "user"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"7\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M4 17a3 3 0 0 1 6 0\"/><line class=\"p3\" x1=\"13.5\" y1=\"12\" x2=\"18.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1100 }
+  ]
+}

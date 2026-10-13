@@ -1,0 +1,10 @@
+{
+  "name": "postmark-shape",
+  "category": "shapes",
+  "tags": ["postmark", "cancel", "stamp", "wave", "mail"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M6 12Q9 9.5 12 12T18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

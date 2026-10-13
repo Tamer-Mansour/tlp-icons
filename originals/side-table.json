@@ -1,0 +1,11 @@
+{
+  "name": "side-table",
+  "category": "home",
+  "tags": ["side", "table", "round", "pedestal", "furniture", "small"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"7\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 9.5V19\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

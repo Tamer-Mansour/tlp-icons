@@ -1,0 +1,11 @@
+{
+  "name": "almond-milk",
+  "category": "food",
+  "tags": ["almond", "milk", "carton", "nut", "plant", "drink", "dairy-free"],
+  "svg": "<path class=\"d p1\" d=\"M6 8.5h12v12.5H6z\"/><path class=\"p2\" d=\"M6 8.5 9 4h6l3 4.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"15\" rx=\"2\" ry=\"3\" transform=\"rotate(20 12 15)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

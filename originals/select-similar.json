@@ -1,0 +1,10 @@
+{
+  "name": "select-similar",
+  "category": "design",
+  "tags": ["select", "similar", "matching", "squares", "group", "tool"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"15\" y=\"3\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"15\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"15\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

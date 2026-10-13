@@ -1,0 +1,10 @@
+{
+  "name": "kite-shape",
+  "category": "math",
+  "tags": ["kite", "quadrilateral", "sides", "pairs", "shape", "geometry"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 18,9 12,21 6,9\"/><line class=\"p2\" x1=\"6\" y1=\"9\" x2=\"18\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

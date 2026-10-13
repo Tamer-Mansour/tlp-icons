@@ -1,0 +1,28 @@
+{
+    "name":  "lamprey",
+    "category":  "nature",
+    "tags":  [
+                 "lamprey",
+                 "eel",
+                 "sucker mouth",
+                 "gill",
+                 "fish",
+                 "animal"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M4 19C8 19 6 13 11 13S16 6 20 6\"/\u003e\u003ccircle class=\"p2\" cx=\"4\" cy=\"19\" r=\"2\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "pop",
+                       "dur":  800,
+                       "delay":  1000,
+                       "origin":  "4px 19px"
+                   }
+               ]
+}

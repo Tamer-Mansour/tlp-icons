@@ -1,0 +1,11 @@
+{
+  "name": "building-blocks",
+  "category": "science",
+  "tags": ["blocks", "cubes", "stack", "letters", "learning", "toys"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\"/><rect class=\"p1\" x=\"14\" y=\"14\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"8\" height=\"7\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"17.5\" r=\"1\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"17.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

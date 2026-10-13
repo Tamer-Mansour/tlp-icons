@@ -1,0 +1,11 @@
+{
+  "name": "fulfillment-center",
+  "category": "buildings",
+  "tags": ["fulfillment", "warehouse", "shipping", "package", "orders", "dispatch", "box"],
+  "svg": "<path class=\"d p1\" d=\"M3 20V10l8-5 8 5v10z\"/><rect class=\"p3\" x=\"5\" y=\"14\" width=\"4\" height=\"4\"/><path class=\"p2\" d=\"M11 16h8M16.5 13.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 1000, "delay": 900 }
+  ]
+}

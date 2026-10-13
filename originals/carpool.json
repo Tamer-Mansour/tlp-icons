@@ -1,0 +1,11 @@
+{
+  "name": "carpool",
+  "category": "vehicles",
+  "tags": ["carpool", "cars", "share", "commute", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"8\" height=\"5\" rx=\"2\"/><rect class=\"d p2\" x=\"14\" y=\"11\" width=\"8\" height=\"5\" rx=\"2\"/><path class=\"p3\" d=\"M7 7 H17 M14.5 4.5 L17 7 L14.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

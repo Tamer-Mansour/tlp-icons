@@ -1,0 +1,11 @@
+{
+  "name": "locker-box",
+  "category": "security",
+  "tags": ["security", "locker", "door", "vent", "keyhole", "lock"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 6 H15 M9 10 H15\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1.2\"/><line class=\"p3\" x1=\"12\" y1=\"15.5\" x2=\"12\" y2=\"17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

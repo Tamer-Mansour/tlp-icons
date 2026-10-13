@@ -1,0 +1,11 @@
+{
+  "name": "ion-positive",
+  "category": "science",
+  "tags": ["ion", "positive", "charge", "plus", "atom"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 9.5V14.5M9.5 12H14.5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"f p3\" cx=\"22\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "orbit", "dur": 1200, "delay": 900 }
+  ]
+}

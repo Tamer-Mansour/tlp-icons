@@ -1,0 +1,11 @@
+{
+  "name": "mail-stamp",
+  "category": "communication",
+  "tags": ["mail", "stamp", "postage", "postal", "envelope", "post", "letter"],
+  "svg": "<path class=\"d p1\" d=\"M2 8h16v11H2z\"/><path class=\"p2\" d=\"M2 8l8 6 8-6\"/><rect class=\"d p3\" x=\"15\" y=\"2\" width=\"6\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "stampIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dashboard-grid",
+  "category": "charts",
+  "tags": ["dashboard", "panels", "grid", "overview", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p2\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p3\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p4\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pumpkin-jack",
+  "category": "emoji",
+  "tags": ["pumpkin", "jack", "halloween", "autumn", "lantern", "face"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"8.5\" ry=\"7.5\"/><polygon class=\"p2\" points=\"12,10 9,15 15,15\"/><path class=\"p3\" d=\"M12 5.5 V3.5 C12 2.5 13.5 2.5 14 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "sway", "dur": 700, "delay": 1200, "origin": "12px 5.5px" }
+  ]
+}

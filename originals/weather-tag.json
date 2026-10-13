@@ -1,0 +1,11 @@
+{
+  "name": "weather-tag",
+  "category": "interface",
+  "tags": ["weather", "tag", "cloud", "label", "forecast"],
+  "svg": "<path class=\"d p1\" d=\"M3 4H11.5L21 13.5L13.5 21L4 11.5Z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/><path class=\"p3\" d=\"M9 16.5H15.5A1.8 1.8 0 0 0 15.5 12.9A2.8 2.8 0 0 0 10.2 12.6A2.1 2.1 0 0 0 9 16.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 800 }
+  ]
+}

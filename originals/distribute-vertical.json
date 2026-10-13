@@ -1,0 +1,11 @@
+{
+  "name": "distribute-vertical",
+  "category": "interface",
+  "tags": ["distribute", "vertical", "spacing", "even", "boxes", "layout"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"4\"/><rect class=\"d p2\" x=\"8\" y=\"10\" width=\"8\" height=\"4\"/><rect class=\"p3\" x=\"8\" y=\"17\" width=\"8\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

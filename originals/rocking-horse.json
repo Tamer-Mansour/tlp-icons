@@ -1,0 +1,12 @@
+{
+  "name": "rocking-horse",
+  "category": "people",
+  "tags": ["rocking", "horse", "toy", "child", "rocker", "play"],
+  "svg": "<path class=\"p1\" d=\"M4 19Q12 23 20 19\"/><path class=\"p2\" d=\"M7 13Q7 9 11 9H14Q16 9 16 11V13\"/><path class=\"p3\" d=\"M16 11L19 6L21 7.5\"/><path class=\"p4\" d=\"M7 11L4 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "wiggle", "dur": 500, "delay": 1000, "origin": "7px 12px" }
+  ]
+}

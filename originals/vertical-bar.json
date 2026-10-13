@@ -1,0 +1,10 @@
+{
+  "name": "vertical-bar",
+  "category": "text",
+  "tags": ["vertical", "bar", "line", "pipe", "text", "cursor"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"p2\" d=\"M8.5 3h7M8.5 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

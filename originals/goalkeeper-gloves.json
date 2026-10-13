@@ -1,0 +1,10 @@
+{
+  "name": "goalkeeper-gloves",
+  "category": "sport",
+  "tags": ["goalkeeper", "gloves", "soccer", "save", "keeper", "football"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"7\" height=\"12\" rx=\"3\"/><rect class=\"d p1\" x=\"14\" y=\"8\" width=\"7\" height=\"12\" rx=\"3\"/><path class=\"p2\" d=\"M3 14h7M14 14h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

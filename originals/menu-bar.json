@@ -1,0 +1,10 @@
+{
+  "name": "menu-bar",
+  "category": "layout",
+  "tags": ["menu", "bar", "navigation", "top", "header", "toolbar"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M4 12H10M4 16H16M4 20H12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dial-face",
+  "category": "time",
+  "tags": ["dial", "face", "clock", "ticks", "time", "watch"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5v2M12 17v2M5 12h2M17 12h2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

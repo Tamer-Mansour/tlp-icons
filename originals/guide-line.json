@@ -1,0 +1,11 @@
+{
+  "name": "guide-line",
+  "category": "interface",
+  "tags": ["guide", "line", "dashed", "crosshair", "alignment", "snap"],
+  "svg": "<path class=\"p1\" d=\"M2 12h3M9 12h2M20 12h2\"/><circle class=\"p2\" cx=\"15.5\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M15.5 4v3.5M15.5 16.5v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

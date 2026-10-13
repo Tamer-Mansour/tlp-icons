@@ -1,0 +1,10 @@
+{
+  "name": "send-later",
+  "category": "communication",
+  "tags": ["send", "later", "schedule", "plane", "clock"],
+  "svg": "<path class=\"d p1\" d=\"M3 11l18-8-6 17-4.5-6.5z\"/><circle class=\"p2\" cx=\"5\" cy=\"18\" r=\"3\"/><path class=\"p2\" d=\"M5 16.5v1.5l1 1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "launch", "dur": 900, "delay": 600 }
+  ]
+}

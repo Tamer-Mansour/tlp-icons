@@ -1,0 +1,11 @@
+{
+  "name": "dune-grass",
+  "category": "nature",
+  "tags": ["dune", "grass", "sand", "beach", "coast"],
+  "svg": "<path class=\"p1\" d=\"M2 19 Q9 9 14 12.5 Q18 15 22 19\"/><path class=\"p2\" d=\"M6.5 13 L5 9.5 M8.5 12.5 L8.5 8.5 M11 11.5 L13 8\"/><path class=\"p3\" d=\"M15.5 13.5 L16 10 M18 15.5 L19.5 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000, "origin": "bottom" }
+  ]
+}

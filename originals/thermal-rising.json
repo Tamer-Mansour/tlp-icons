@@ -1,0 +1,11 @@
+{
+  "name": "thermal-rising",
+  "category": "weather",
+  "tags": ["thermal", "rising", "heat", "updraft", "air", "weather"],
+  "svg": "<path class=\"p1\" d=\"M6 20V10M3.5 12.5L6 10l2.5 2.5\"/><path class=\"p2\" d=\"M12 20V5M9.5 7.5L12 5l2.5 2.5\"/><path class=\"p3\" d=\"M18 20V10M15.5 12.5L18 10l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 600 }
+  ]
+}

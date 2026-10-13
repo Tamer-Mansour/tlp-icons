@@ -1,0 +1,10 @@
+{
+  "name": "chicken-wing",
+  "category": "food",
+  "tags": ["chicken", "wing", "drumstick", "meat", "bbq"],
+  "svg": "<path class=\"d p1\" d=\"M4 15C4 9 9 6 13 8C17 10 18 15 14 18C10 21 4 20 4 15Z\"/><path class=\"p2\" d=\"M16 9.5L20.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 800, "origin": "16px 10px" }
+  ]
+}

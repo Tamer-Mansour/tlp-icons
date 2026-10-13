@@ -1,0 +1,11 @@
+{
+  "name": "newborn-bassinet",
+  "category": "people",
+  "tags": ["newborn", "bassinet", "baby", "cradle", "infant"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"8\" ry=\"4\"/><circle class=\"p3\" cx=\"12\" cy=\"11\" r=\"2\"/><path class=\"p2\" d=\"M4 20.5c3 1.5 13 1.5 16 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1100, "origin": "12px 20px" }
+  ]
+}

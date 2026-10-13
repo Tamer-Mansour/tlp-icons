@@ -1,0 +1,10 @@
+{
+  "name": "violin-plot",
+  "category": "charts",
+  "tags": ["violin plot", "distribution", "density", "symmetric", "statistics", "chart"],
+  "svg": "<path class=\"d p1\" d=\"M12 2 C16 6 17 9 17 12 C17 15 15 18 12 22 C9 18 7 15 7 12 C7 9 8 6 12 2 Z\"/><line class=\"p2\" x1=\"9.5\" y1=\"12\" x2=\"14.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

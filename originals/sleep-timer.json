@@ -1,0 +1,11 @@
+{
+  "name": "sleep-timer",
+  "category": "time",
+  "tags": ["sleep", "timer", "moon", "night", "clock"],
+  "svg": "<path class=\"d p1\" d=\"M10 3a8 8 0 1 0 8 8 6 6 0 0 1-8-8z\"/><circle class=\"p2\" cx=\"17\" cy=\"17\" r=\"4\"/><polyline class=\"p3\" points=\"17 15 17 17 18.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1300, "delay": 1000, "origin": "17px 17px" }
+  ]
+}

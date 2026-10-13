@@ -1,0 +1,11 @@
+{
+  "name": "base-drop",
+  "category": "science",
+  "tags": ["base", "drop", "alkaline", "arrow", "chemistry"],
+  "svg": "<path class=\"d p1\" d=\"M9 4C9 4 5 9 5 12A4 4 0 0 0 13 12C13 9 9 4 9 4Z\"/><line class=\"p2\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"p3\" d=\"M18 14V5M15.5 7.5L18 5L20.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 1100 }
+  ]
+}

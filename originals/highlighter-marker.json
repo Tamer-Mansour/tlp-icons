@@ -1,0 +1,11 @@
+{
+  "name": "highlighter-marker",
+  "category": "science",
+  "tags": ["highlighter","marker","text","highlight","study","notes"],
+  "svg": "<path class=\"d p1\" d=\"M14 5L19 10L12 17L7 12Z\"/><path class=\"p2\" d=\"M7 12L4 19L12 17\"/><path class=\"p3\" d=\"M13 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

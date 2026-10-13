@@ -1,0 +1,10 @@
+{
+  "name": "velocity-chart",
+  "category": "charts",
+  "tags": ["velocity", "average", "bars", "sprint", "speed", "chart"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"4\" height=\"10\"/><rect class=\"p1\" x=\"10\" y=\"8\" width=\"4\" height=\"12\"/><rect class=\"p1\" x=\"17\" y=\"9\" width=\"4\" height=\"11\"/><path class=\"p2\" d=\"M2 6H5M8 6H11M14 6H17M20 6H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

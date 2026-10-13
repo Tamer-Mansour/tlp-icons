@@ -1,0 +1,10 @@
+{
+  "name": "germ-spread",
+  "category": "science",
+  "tags": ["germ", "bacteria", "spread", "infection", "microbe"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p2\" cx=\"6\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"18\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"6\" cy=\"18\" r=\"1.2\"/><circle class=\"f p2\" cx=\"18\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 600 }
+  ]
+}

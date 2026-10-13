@@ -1,0 +1,10 @@
+{
+  "name": "maracas",
+  "category": "media",
+  "tags": ["maracas", "shaker", "percussion", "rattle", "latin", "rhythm"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"4\"/><path class=\"p1\" d=\"M7 11v9\"/><circle class=\"d p2\" cx=\"17\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M17 11v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 700 }
+  ]
+}

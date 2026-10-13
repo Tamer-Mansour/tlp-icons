@@ -1,0 +1,11 @@
+{
+  "name": "sweet-potato",
+  "category": "food",
+  "tags": ["sweet potato", "yam", "tuber", "vegetable", "produce", "root"],
+  "svg": "<path class=\"d p1\" d=\"M4 17 C4 14 7 12 11 9 C14 7 18 5 20 5 C20 8 19 11 16 14 C13 17 9 20 6 20 C4.5 20 4 18.5 4 17 Z\"/><circle class=\"f p2\" cx=\"9\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

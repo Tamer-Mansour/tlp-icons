@@ -1,0 +1,10 @@
+{
+  "name": "blur-brush",
+  "category": "design",
+  "tags": ["blur", "brush", "soft", "fade", "stroke", "paint"],
+  "svg": "<path class=\"p1\" d=\"M4 15C8 9 13 9 20 6\"/><circle class=\"f p2\" cx=\"6\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

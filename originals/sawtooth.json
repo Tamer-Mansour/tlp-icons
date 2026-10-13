@@ -1,0 +1,10 @@
+{
+  "name": "sawtooth",
+  "category": "shapes",
+  "tags": ["sawtooth", "wave", "ramp", "signal", "oscillator"],
+  "svg": "<polyline class=\"p1\" points=\"2,18 8,6 8,18 14,6 14,18 20,6 20,18\"/><line class=\"p2\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "scanX", "dur": 1000, "delay": 1000 }
+  ]
+}

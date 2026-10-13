@@ -1,0 +1,10 @@
+{
+  "name": "link-chain-break",
+  "category": "interface",
+  "tags": ["chain", "link", "break", "gap", "disconnect"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"9\" height=\"6\" rx=\"3\"/><rect class=\"p2\" x=\"13\" y=\"9\" width=\"9\" height=\"6\" rx=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

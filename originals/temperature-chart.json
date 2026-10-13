@@ -1,0 +1,10 @@
+{
+  "name": "temperature-chart",
+  "category": "charts",
+  "tags": ["temperature", "chart", "trend", "heat", "wave", "readings"],
+  "svg": "<path class=\"p1\" d=\"M3 6q2.25-2.5 4.5 0t4.5 0t4.5 0t4.5 0\"/><path class=\"p2\" d=\"M12 11v3\"/><circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dns-cache",
+  "category": "connectivity",
+  "tags": ["dns", "cache", "database", "refresh", "server", "storage", "reload"],
+  "svg": "<path class=\"d p1\" d=\"M2 6c0-1.7 2-3 4.5-3S11 4.3 11 6v12c0 1.7-2 3-4.5 3S2 19.7 2 18z\"/><path class=\"p2\" d=\"M2 12c0 1.7 2 3 4.5 3S11 13.7 11 12\"/><path class=\"p3\" d=\"M19.83 9.17A4 4 0 1 0 17 16\"/><polyline class=\"p3\" points=\"15,14.5 17,16 15,17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000, "origin": "17px 12px" }
+  ]
+}

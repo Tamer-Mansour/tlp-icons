@@ -1,0 +1,11 @@
+{
+  "name": "certificate-badge",
+  "category": "development",
+  "tags": ["certificate", "badge", "seal", "award", "credential"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M7 6.5h10M7 9.5h6\"/><circle class=\"p3\" cx=\"12\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 700, "delay": 1100 }
+  ]
+}

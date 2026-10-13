@@ -1,0 +1,11 @@
+{
+  "name": "junk-warning",
+  "category": "notifications",
+  "tags": ["junk", "trash", "bin", "warning", "delete"],
+  "svg": "<path class=\"p1\" d=\"M6 8 L7 21 H17 L18 8\"/><path class=\"p2\" d=\"M4 6 H20 M9 6 V4 H15 V6\"/><path class=\"p3\" d=\"M12 11 L15 16.5 H9 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

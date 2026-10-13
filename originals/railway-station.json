@@ -1,0 +1,11 @@
+{
+  "name": "railway-station",
+  "category": "buildings",
+  "tags": ["railway", "station", "train", "platform", "canopy", "rail"],
+  "svg": "<path class=\"d p1\" d=\"M2 5h20v3H2z\"/><rect class=\"p2\" x=\"6\" y=\"11\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M9 14h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "drive", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "connection-lost",
+  "category": "connectivity",
+  "tags": ["connection", "lost", "broken", "disconnected", "offline", "link", "crack"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"8.5\" width=\"6\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"15.5\" y=\"8.5\" width=\"6\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M12.5 3L11 7l2.5 3-1.5 3 1.5 3-1 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "atom-shell",
+  "category": "science",
+  "tags": ["atom", "shell", "nucleus", "orbit", "electron"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p3\" cx=\"21\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "orbit", "dur": 900, "delay": 600, "origin": "12px 12px" }
+  ]
+}

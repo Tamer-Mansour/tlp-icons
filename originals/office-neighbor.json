@@ -1,0 +1,10 @@
+{
+  "name": "office-neighbor",
+  "category": "people",
+  "tags": ["office", "neighbor", "colleague", "coworker", "cubicle", "greeting"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 20 V18 Q2 13 6 13 Q10 13 10 18 V20\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M12 20 V18 Q12 13 16 13 Q20 13 20 18 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 1000 }
+  ]
+}

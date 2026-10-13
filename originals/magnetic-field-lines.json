@@ -1,0 +1,11 @@
+{
+  "name": "magnetic-field-lines",
+  "category": "science",
+  "tags": ["magnet", "field", "lines", "magnetism", "pole"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M4 7C7 2 17 2 20 7M4 17C7 22 17 22 20 17\"/><path class=\"p3\" d=\"M12 9V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

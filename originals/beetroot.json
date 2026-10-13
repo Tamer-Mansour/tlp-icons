@@ -1,0 +1,11 @@
+{
+  "name": "beetroot",
+  "category": "nature",
+  "tags": ["beetroot", "root", "vegetable", "beet", "taproot"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M12 8 Q9 4 5 4 Q6 8 12 8 M12 8 Q15 4 19 4 Q18 8 12 8\"/><path class=\"p3\" d=\"M12 20 Q13 21 12.5 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 800, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pencil-sharpener",
+  "category": "science",
+  "tags": ["sharpener", "pencil", "blade", "shavings", "tool", "sharp"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"12\" rx=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"13\" r=\"2.5\"/><path class=\"p3\" d=\"M19 8c1.5 0 2.5 1 2.5 3s-1 3-2.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

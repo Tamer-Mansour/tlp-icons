@@ -1,0 +1,12 @@
+{
+  "name": "layer-tree",
+  "category": "design",
+  "tags": ["layer", "tree", "hierarchy", "structure", "outline"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M7 7v12h2M7 7v5h2\"/><rect class=\"d p2\" x=\"9\" y=\"10\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"9\" y=\"17\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

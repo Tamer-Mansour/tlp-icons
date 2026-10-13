@@ -1,0 +1,11 @@
+{
+  "name": "block-and-tackle",
+  "category": "tools",
+  "tags": ["pulley", "block", "tackle", "rope", "lift", "rigging"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"2.5\"/><circle class=\"p2\" cx=\"16\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M8 7.5 L16 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

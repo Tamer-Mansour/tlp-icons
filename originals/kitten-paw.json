@@ -1,0 +1,10 @@
+{
+  "name": "kitten-paw",
+  "category": "nature",
+  "tags": ["paw", "kitten", "toe beans", "cat", "pad"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15.5\" rx=\"5\" ry=\"4\"/><circle class=\"p2\" cx=\"6\" cy=\"9.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"9.5\" cy=\"6\" r=\"1.5\"/><circle class=\"p2\" cx=\"14.5\" cy=\"6\" r=\"1.5\"/><circle class=\"p2\" cx=\"18\" cy=\"9.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 400 }
+  ]
+}

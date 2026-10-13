@@ -1,0 +1,10 @@
+{
+  "name": "mailbox-up",
+  "category": "communication",
+  "tags": ["mailbox", "flag", "raised", "post", "letter", "delivery"],
+  "svg": "<path class=\"d p1\" d=\"M4 12.5a8 6 0 0 1 16 0V17H4z\"/><path class=\"p1\" d=\"M12 17v4.5\"/><path class=\"p2\" d=\"M18 8V3M18 3h3.5v3H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 700, "origin": "18px 8px" }
+  ]
+}

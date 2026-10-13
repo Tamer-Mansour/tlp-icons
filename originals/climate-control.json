@@ -1,0 +1,11 @@
+{
+  "name": "climate-control",
+  "category": "vehicles",
+  "tags": ["climate", "control", "thermometer", "fan", "temperature", "heat"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M11 14.5V7.5H13V14.5\"/><path class=\"p3\" d=\"M16.5 9.5H18.5M16.5 12H18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

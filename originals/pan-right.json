@@ -1,0 +1,10 @@
+{
+  "name": "pan-right",
+  "category": "arrows",
+  "tags": ["pan", "right", "move", "drag", "scroll"],
+  "svg": "<path class=\"p1\" d=\"M10 12 H20\"/><polyline class=\"p1\" points=\"15 8 20 12 15 16\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

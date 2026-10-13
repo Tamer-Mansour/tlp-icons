@@ -1,0 +1,11 @@
+{
+  "name": "filing-tray",
+  "category": "files",
+  "tags": ["filing", "tray", "paper", "inbox", "office"],
+  "svg": "<path class=\"p1 d\" d=\"M3 13h18v7H3z\"/><line class=\"p2\" x1=\"6\" y1=\"4\" x2=\"18\" y2=\"4\"/><line class=\"p3\" x1=\"7\" y1=\"8\" x2=\"17\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 1000 }
+  ]
+}

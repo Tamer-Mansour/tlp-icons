@@ -1,0 +1,10 @@
+{
+  "name": "cursor-arrow-default",
+  "category": "arrows",
+  "tags": ["cursor", "pointer", "arrow", "default", "select", "mouse"],
+  "svg": "<path class=\"d p1\" d=\"M4 3.5 19 12l-6.5 1.5L9 20.5z\"/><path class=\"p2\" d=\"M13.5 14.5 20 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "doorknob",
+  "category": "home",
+  "tags": ["doorknob", "door", "knob", "handle", "entrance"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"18\" rx=\"1\"/><circle class=\"d p2\" cx=\"17.5\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

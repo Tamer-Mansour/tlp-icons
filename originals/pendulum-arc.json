@@ -1,0 +1,10 @@
+{
+  "name": "pendulum-arc",
+  "category": "shapes",
+  "tags": ["pendulum", "arc", "swing", "clock", "physics", "motion"],
+  "svg": "<path class=\"p1\" d=\"M3 13.7A14 14 0 0 0 21 13.7\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\"/><circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 700, "origin": "12px 3px" }
+  ]
+}

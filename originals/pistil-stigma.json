@@ -1,0 +1,11 @@
+{
+  "name": "pistil-stigma",
+  "category": "science",
+  "tags": ["pistil", "stigma", "flower", "ovary", "plant"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4.5\" r=\"2\"/><path class=\"p2\" d=\"M12 8.5V13.5\"/><ellipse class=\"d p3\" cx=\"12\" cy=\"18\" rx=\"3.5\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "bloom", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

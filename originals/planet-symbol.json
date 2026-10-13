@@ -1,0 +1,10 @@
+{
+  "name": "planet-symbol",
+  "category": "emoji",
+  "tags": ["planet", "space", "ring", "orbit", "saturn"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><g transform=\"rotate(-20 12 12)\"><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 1800, "delay": 700 }
+  ]
+}

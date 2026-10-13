@@ -1,0 +1,11 @@
+{
+  "name": "rotate-left",
+  "category": "design",
+  "tags": ["rotate", "left", "counterclockwise", "undo", "turn", "arc"],
+  "svg": "<path class=\"p1\" d=\"M12 4a8 8 0 1 0 8 8\"/><polyline class=\"p2\" points=\"15 2 12 4 15 6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 }
+  ]
+}

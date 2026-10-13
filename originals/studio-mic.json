@@ -1,0 +1,11 @@
+{
+  "name": "studio-mic",
+  "category": "devices",
+  "tags": ["studio", "microphone", "capsule", "recording", "audio", "boom"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"12\" rx=\"4\"/><path class=\"p2\" d=\"M10 7h4M10 10h4\"/><path class=\"p3\" d=\"M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

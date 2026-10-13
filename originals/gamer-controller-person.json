@@ -1,0 +1,11 @@
+{
+  "name": "gamer-controller-person",
+  "category": "people",
+  "tags": ["gamer", "controller", "game", "player", "video", "gaming"],
+  "svg": "<path class=\"d p1\" d=\"M7 9h10a4 4 0 0 1 3.5 6l-.6 2a2 2 0 0 1-3.3.4L14.5 16h-5l-2.1 1.4a2 2 0 0 1-3.3-.4l-.6-2A4 4 0 0 1 7 9z\"/><path class=\"p2\" d=\"M7.5 12v2.5M6.25 13.25h2.5\"/><circle class=\"p3\" cx=\"12\" cy=\"4.5\" r=\"2\"/><circle class=\"f p2\" cx=\"16\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

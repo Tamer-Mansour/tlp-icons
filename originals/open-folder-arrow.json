@@ -1,0 +1,10 @@
+{
+  "name": "open-folder-arrow",
+  "category": "interface",
+  "tags": ["folder", "open", "arrow", "export", "files"],
+  "svg": "<path class=\"p1\" d=\"M3 19V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7\"/><path class=\"p1\" d=\"M3 19l2.5-7h15.5l-2.5 7z\"/><path class=\"p2\" d=\"M10 14L16 8M12 8H16V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 800, "delay": 900 }
+  ]
+}

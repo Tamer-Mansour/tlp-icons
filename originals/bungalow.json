@@ -1,0 +1,11 @@
+{
+  "name": "bungalow",
+  "category": "buildings",
+  "tags": ["bungalow", "house", "gable", "single", "storey", "porch"],
+  "svg": "<path class=\"d p1\" d=\"M2 12L12 3.5 22 12v9.5H2z\"/><path class=\"p2\" d=\"M10 21.5v-4h4v4\"/><rect class=\"p3\" x=\"5.5\" y=\"13.5\" width=\"2.5\" height=\"2.5\"/><rect class=\"p3\" x=\"16\" y=\"13.5\" width=\"2.5\" height=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

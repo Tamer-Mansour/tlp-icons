@@ -1,0 +1,11 @@
+{
+  "name": "gradient-arrow",
+  "category": "arrows",
+  "tags": ["gradient", "growth", "bars", "trend", "rising", "chart"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"14\" width=\"3\" height=\"6\" rx=\"0.5\"/><rect class=\"p1\" x=\"10.5\" y=\"11\" width=\"3\" height=\"9\" rx=\"0.5\"/><rect class=\"p1\" x=\"17\" y=\"8\" width=\"3\" height=\"12\" rx=\"0.5\"/><path class=\"p2\" d=\"M3 10 9 6.5l4.5 2.5L19.5 3\"/><path class=\"p3\" d=\"M15 3h4.5v4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

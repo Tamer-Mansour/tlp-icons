@@ -1,0 +1,11 @@
+{
+  "name": "block-user",
+  "category": "people",
+  "tags": ["block", "user", "ban", "person", "prohibit", "restrict", "stop"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M7 19a5 5 0 0 1 10 0\"/><path class=\"p3\" d=\"M5 19L19 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

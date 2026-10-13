@@ -1,0 +1,10 @@
+{
+  "name": "tile-spacers",
+  "category": "tools",
+  "tags": ["spacers", "tile", "wedge", "gap", "flooring", "tiling"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"3\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M10 13h4l-2 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 600 }
+  ]
+}

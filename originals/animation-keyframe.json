@@ -1,0 +1,10 @@
+{
+  "name": "animation-keyframe",
+  "category": "design",
+  "tags": ["animation", "keyframe", "timeline", "motion", "diamond", "marker"],
+  "svg": "<path class=\"p1\" d=\"M3 16H21\"/><path class=\"d p2\" d=\"M12 4.5L15.5 8L12 11.5L8.5 8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 600 }
+  ]
+}

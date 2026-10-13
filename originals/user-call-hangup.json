@@ -1,0 +1,10 @@
+{
+  "name": "user-call-hangup",
+  "category": "people",
+  "tags": ["call", "hangup", "end", "phone", "person", "decline"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M1.5 21c0-2.8 2.2-5 5-5s5 2.2 5 5\"/><path class=\"p2\" d=\"M12.75 13v-1a3.5 3.5 0 0 1 7 0v1\"/><rect class=\"p2\" x=\"11.5\" y=\"13\" width=\"2.5\" height=\"4.5\" rx=\"1.2\"/><rect class=\"p2\" x=\"18.5\" y=\"13\" width=\"2.5\" height=\"4.5\" rx=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 800 }
+  ]
+}

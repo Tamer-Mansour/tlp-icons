@@ -1,0 +1,10 @@
+{
+  "name": "starting-pistol",
+  "category": "sport",
+  "tags": ["starting", "pistol", "race", "start", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h12v4h-4l-1 5H6l1-5H3z\"/><path class=\"p2\" d=\"M18 7l2-2M19.5 10h2.5M18 13l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fried-egg",
+  "category": "food",
+  "tags": ["fried egg", "egg", "breakfast", "yolk", "sunny side", "cooking"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

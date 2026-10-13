@@ -1,0 +1,11 @@
+{
+  "name": "goal-progress",
+  "category": "charts",
+  "tags": ["goal", "progress", "flag", "milestone", "target", "bar"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"12\" height=\"4\" rx=\"2\"/><line class=\"p2\" x1=\"19\" y1=\"4\" x2=\"19\" y2=\"20\"/><polygon class=\"d p3\" points=\"19 4 21.5 5.5 19 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1100 }
+  ]
+}

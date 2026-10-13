@@ -1,0 +1,11 @@
+{
+  "name": "rsvp-card",
+  "category": "communication",
+  "tags": ["rsvp", "reply card", "attendance", "respond", "invite"],
+  "svg": "<rect class=\"p1 d\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 8h3v3h-3zM7 9.5l1 1 1.5-1.5\"/><path class=\"p3\" d=\"M6.5 15h3v3h-3zM12.5 9.5h5M12.5 15.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

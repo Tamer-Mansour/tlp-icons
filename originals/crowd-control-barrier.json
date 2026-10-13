@@ -1,0 +1,11 @@
+{
+  "name": "crowd-control-barrier",
+  "category": "people",
+  "tags": ["crowd", "barrier", "stanchion", "rope", "queue", "control"],
+  "svg": "<path class=\"p1\" d=\"M5 8v12M19 8v12\"/><path class=\"p2\" d=\"M5 11q7 4 14 0\"/><circle class=\"f p3\" cx=\"5\" cy=\"6.5\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

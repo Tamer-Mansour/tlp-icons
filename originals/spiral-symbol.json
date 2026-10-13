@@ -1,0 +1,10 @@
+{
+  "name": "spiral-symbol",
+  "category": "emoji",
+  "tags": ["spiral", "swirl", "coil", "loop", "curl", "twist"],
+  "svg": "<path class=\"p1\" d=\"M20 12A8 8 0 0 0 12 4A6 6 0 0 0 6 10\"/><path class=\"p2\" d=\"M6 10A4 4 0 0 0 10 14A2 2 0 0 0 12 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 12px" }
+  ]
+}

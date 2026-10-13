@@ -1,0 +1,11 @@
+{
+  "name": "box-office",
+  "category": "buildings",
+  "tags": ["box", "office", "tickets", "window", "cinema", "theatre"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"1\"/><line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><rect class=\"p2\" x=\"8\" y=\"12\" width=\"8\" height=\"3\" rx=\"1\"/><rect class=\"d p3\" x=\"9\" y=\"17\" width=\"6\" height=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "data-normalize",
+  "category": "charts",
+  "tags": ["normalize", "scale", "data", "bars", "standardize"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"10\" width=\"4\" height=\"10\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"5\" width=\"4\" height=\"15\" rx=\"1\"/><rect class=\"p1\" x=\"16\" y=\"12\" width=\"4\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M3 3h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

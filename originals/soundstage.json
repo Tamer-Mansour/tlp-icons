@@ -1,0 +1,12 @@
+{
+  "name": "soundstage",
+  "category": "buildings",
+  "tags": ["sound", "stage", "microphone", "audio", "recording", "studio"],
+  "svg": "<path class=\"p2\" d=\"M5 11a7 7 0 0 0 14 0\"/><line class=\"p3\" x1=\"12\" y1=\"18\" x2=\"12\" y2=\"20\"/><line class=\"p4\" x1=\"8\" y1=\"22\" x2=\"16\" y2=\"22\"/><rect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"11\" rx=\"3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p1", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "spiral-shell",
+  "category": "nature",
+  "tags": ["snail", "shell", "spiral", "mollusc", "slow", "garden"],
+  "svg": "<path class=\"p1\" d=\"M11 12A1 1 0 0 0 13 12A3 3 0 0 0 7 12A5 5 0 0 0 17 12A7 7 0 0 0 3 12\"/><path class=\"p2\" d=\"M3 21H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 900 }
+  ]
+}

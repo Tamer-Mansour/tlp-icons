@@ -1,0 +1,11 @@
+{
+  "name": "e-bike",
+  "category": "vehicles",
+  "tags": ["e-bike", "electric bicycle", "battery", "cycling", "charge", "motor"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"16\" r=\"4\"/><circle class=\"p1\" cx=\"18\" cy=\"16\" r=\"4\"/><path class=\"p2\" d=\"M6 16L10 10H16L18 16\"/><rect class=\"d p3\" x=\"10\" y=\"12.5\" width=\"4\" height=\"2.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

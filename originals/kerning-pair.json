@@ -1,0 +1,11 @@
+{
+  "name": "kerning-pair",
+  "category": "design",
+  "tags": ["kerning", "pair", "spacing", "letters", "typography", "kern"],
+  "svg": "<path class=\"p1\" d=\"M1.5 16l5-12 5 12M3 11h4\"/><path class=\"p2\" d=\"M14 4l4 12 4-12\"/><path class=\"p3\" d=\"M9.5 20h5M11.5 18l-2 2 2 2M12.5 18l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

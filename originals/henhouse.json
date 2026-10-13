@@ -1,0 +1,10 @@
+{
+  "name": "henhouse",
+  "category": "buildings",
+  "tags": ["henhouse", "hen", "coop", "chicken", "hut", "farm"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V11l8-6 8 6v10z\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 700, "delay": 800 }
+  ]
+}

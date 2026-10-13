@@ -1,0 +1,10 @@
+{
+  "name": "lake-shore",
+  "category": "buildings",
+  "tags": ["lake", "shore", "water", "tree", "waterside", "shoreline"],
+  "svg": "<path class=\"d p1\" d=\"M2 15c2.5-1.5 5 1.5 7.5 0s5-1.5 7.5 0V21H2z\"/><circle class=\"p2\" cx=\"17\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M17 11v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

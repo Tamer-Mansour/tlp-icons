@@ -1,0 +1,11 @@
+{
+  "name": "window-unit",
+  "category": "home",
+  "tags": ["air", "conditioner", "window", "cooling", "unit"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"8\" width=\"12\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M9 11v2M12 11v2M15 11v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1100 }
+  ]
+}

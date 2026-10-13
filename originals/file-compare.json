@@ -1,0 +1,10 @@
+{
+  "name": "file-compare",
+  "category": "files",
+  "tags": ["files", "compare", "diff", "side by side", "review"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"6\" height=\"16\" rx=\"1.5\"/><rect class=\"p1\" x=\"15.5\" y=\"4\" width=\"6\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M10.5 12h3M10.5 12l1.5-1.5M10.5 12l1.5 1.5M13.5 12l-1.5-1.5M13.5 12l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

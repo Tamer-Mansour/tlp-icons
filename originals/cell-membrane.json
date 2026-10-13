@@ -1,0 +1,10 @@
+{
+  "name": "cell-membrane",
+  "category": "science",
+  "tags": ["cell", "membrane", "biology", "nucleus", "microscope"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"8\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 800 }
+  ]
+}

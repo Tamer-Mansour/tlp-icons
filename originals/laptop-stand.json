@@ -1,0 +1,10 @@
+{
+  "name": "laptop-stand",
+  "category": "devices",
+  "tags": ["laptop", "stand", "riser", "desk", "ergonomic", "notebook"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M7 14l-3 7M17 14l3 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

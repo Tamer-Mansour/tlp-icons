@@ -1,0 +1,11 @@
+{
+  "name": "barometer",
+  "category": "devices",
+  "tags": ["barometer", "pressure", "gauge", "weather", "dial"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"7\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

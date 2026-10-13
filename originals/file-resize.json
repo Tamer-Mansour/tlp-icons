@@ -1,0 +1,11 @@
+{
+  "name": "file-resize",
+  "category": "files",
+  "tags": ["resize", "scale", "arrow", "diagonal", "size", "adjust"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><line class=\"p2\" x1=\"11\" y1=\"17\" x2=\"16\" y2=\"12\"/><path class=\"p3\" d=\"M12.5 12H16v3.5M11 13.5V17h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pump", "dur": 600, "delay": 1100 }
+  ]
+}

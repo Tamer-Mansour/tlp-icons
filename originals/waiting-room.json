@@ -1,0 +1,11 @@
+{
+  "name": "waiting-room",
+  "category": "buildings",
+  "tags": ["waiting", "room", "chairs", "seats", "lobby", "queue"],
+  "svg": "<path class=\"p1\" d=\"M3 9h5v5H3zM10 9h5v5h-5zM17 9h4v5h-4z\"/><path class=\"p2\" d=\"M2 19h20\"/><path class=\"p3\" d=\"M4 14v5M11 14v5M18 14v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

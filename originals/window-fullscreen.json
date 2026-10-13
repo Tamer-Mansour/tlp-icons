@@ -1,0 +1,10 @@
+{
+  "name": "window-fullscreen",
+  "category": "layout",
+  "tags": ["fullscreen", "window", "expand", "maximize", "corners", "view"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2 8V2H8M16 2H22V8M22 16V22H16M8 22H2V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 700 }
+  ]
+}

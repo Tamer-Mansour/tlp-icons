@@ -1,0 +1,11 @@
+{
+  "name": "person-stretching",
+  "category": "people",
+  "tags": ["stretching", "stretch", "side", "exercise", "warmup", "fitness"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M11 8.5L13 15M13 15l-3 6M13 15l3 6\"/><path class=\"p3\" d=\"M11 9Q13 3 18 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "stretch", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "customer-profile",
+  "category": "people",
+  "tags": ["customer", "profile", "vip", "client", "card", "person"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"9.5\" r=\"2.5\"/><path class=\"p2\" d=\"M5.5 17.5a3.5 3.5 0 0 1 7 0\"/><polygon class=\"p3\" points=\"16.5 6.5 17.5 8.5 19.5 8.7 18 10 18.5 12 16.5 11 14.5 12 15 10 13.5 8.7 15.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

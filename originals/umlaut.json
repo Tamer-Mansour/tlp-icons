@@ -1,0 +1,10 @@
+{
+  "name": "umlaut",
+  "category": "text",
+  "tags": ["umlaut", "diaeresis", "dots", "letter", "diacritic"],
+  "svg": "<path class=\"p1\" d=\"M9 9v5a3 3 0 0 0 6 0V9\"/><circle class=\"f p2\" cx=\"10\" cy=\"5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

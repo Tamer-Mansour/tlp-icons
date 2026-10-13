@@ -1,0 +1,11 @@
+{
+  "name": "emoji-add",
+  "category": "interface",
+  "tags": ["emoji", "smiley", "add", "face", "plus", "expression"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"13\" r=\"8\"/><path class=\"p1\" d=\"M7 15a4 4 0 0 0 6 0\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"12.5\" cy=\"11\" r=\"1\"/><path class=\"p3\" d=\"M19 2v6M16 5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1400 }
+  ]
+}

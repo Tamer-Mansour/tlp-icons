@@ -1,0 +1,11 @@
+{
+  "name": "staple",
+  "category": "interface",
+  "tags": ["staple", "papers", "document", "fasten", "pages"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M4 14V5.5A1.5 1.5 0 0 1 5.5 4H14\"/><path class=\"p3\" d=\"M11 8V5h4v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "stampIn", "dur": 500, "delay": 900 }
+  ]
+}

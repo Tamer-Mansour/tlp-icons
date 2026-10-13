@@ -1,0 +1,11 @@
+{
+  "name": "jet-ski",
+  "category": "sport",
+  "tags": ["jet", "ski", "watercraft", "boat", "waves", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 14h13l4-2v5H4z\"/><path class=\"p2\" d=\"M10 14L11 8h3\"/><path class=\"p3\" d=\"M3 20.5q2.25-1.5 4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "route-alert",
+  "category": "notifications",
+  "tags": ["route", "path", "trip", "warning", "journey"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2\"/><path class=\"p2\" d=\"M8 6h5a3 3 0 0 1 0 6h-2a3 3 0 0 0 0 6h4\"/><circle class=\"d p3\" cx=\"19\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1300 }
+  ]
+}

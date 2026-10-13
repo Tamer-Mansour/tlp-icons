@@ -1,0 +1,11 @@
+{
+  "name": "weigh",
+  "category": "food",
+  "tags": ["weigh", "scale", "kitchen", "weight", "measure"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H21 L19 18 H5 Z\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"13\"/><circle class=\"p3\" cx=\"17\" cy=\"9.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

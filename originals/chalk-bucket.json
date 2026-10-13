@@ -1,0 +1,11 @@
+{
+  "name": "chalk-bucket",
+  "category": "sport",
+  "tags": ["chalk", "bucket", "grip", "gymnastics", "dust"],
+  "svg": "<path class=\"d p1\" d=\"M5 10H19L17 20H7Z\"/><path class=\"p2\" d=\"M5 10A7 7 0 0 1 19 10\"/><circle class=\"f p3\" cx=\"9\" cy=\"6.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"15\" cy=\"6.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

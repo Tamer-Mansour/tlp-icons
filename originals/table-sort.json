@@ -1,0 +1,10 @@
+{
+  "name": "table-sort",
+  "category": "design",
+  "tags": ["table", "sort", "order", "arrows", "grid", "spreadsheet"],
+  "svg": "<path class=\"p1\" d=\"M7 4h14v16H7zM7 10h14M14 10v10\"/><path class=\"p2\" d=\"M3 8V3M1.5 4.5L3 3l1.5 1.5M3 12v5M1.5 15.5L3 17l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 800, "delay": 900 }
+  ]
+}

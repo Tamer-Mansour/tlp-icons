@@ -1,0 +1,11 @@
+{
+  "name": "file-list-bullet",
+  "category": "files",
+  "tags": ["list", "bullet", "items", "unordered", "text"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"9.5\" r=\"1\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"13.5\" r=\"1\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"17.5\" r=\"1\"/><path class=\"p3\" d=\"M11 9.5h6M11 13.5h6M11 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 1200 }
+  ]
+}

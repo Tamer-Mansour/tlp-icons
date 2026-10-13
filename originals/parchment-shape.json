@@ -1,0 +1,10 @@
+{
+  "name": "parchment-shape",
+  "category": "shapes",
+  "tags": ["parchment", "sheet", "wavy", "paper", "edge"],
+  "svg": "<path class=\"d p1\" d=\"M5 4Q8.5 2 12 4T19 4V20Q15.5 22 12 20T5 20Z\"/><path class=\"p2\" d=\"M9 9H15M9 13H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 900 }
+  ]
+}

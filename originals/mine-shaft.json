@@ -1,0 +1,10 @@
+{
+  "name": "mine-shaft",
+  "category": "buildings",
+  "tags": ["mine", "shaft", "mining", "headframe", "wheel", "pit"],
+  "svg": "<path class=\"p1\" d=\"M6 21l3-11h6l3 11M2 21h20\"/><path class=\"p2\" d=\"M9 8h6M12 5v6\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

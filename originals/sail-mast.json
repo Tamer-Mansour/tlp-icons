@@ -1,0 +1,11 @@
+{
+  "name": "sail-mast",
+  "category": "vehicles",
+  "tags": ["sail", "mast", "boat", "sailboat", "sea", "wind"],
+  "svg": "<path class=\"p1\" d=\"M9 3V17\"/><path class=\"d p2\" d=\"M11 4.5L17 15H11Z\"/><path class=\"p3\" d=\"M4 17.5H19L16.5 20.5H6.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 900 }
+  ]
+}

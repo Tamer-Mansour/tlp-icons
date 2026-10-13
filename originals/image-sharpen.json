@@ -1,0 +1,10 @@
+{
+  "name": "image-sharpen",
+  "category": "design",
+  "tags": ["image", "sharpen", "detail", "photo", "edge", "focus"],
+  "svg": "<path class=\"d p1\" d=\"M11 4L12.6 10.4L19 12L12.6 13.6L11 20L9.4 13.6L3 12L9.4 10.4Z\"/><path class=\"p2\" d=\"M19 3L19.6 5L21.5 5.5L19.6 6L19 8L18.4 6L16.5 5.5L18.4 5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 800 }
+  ]
+}

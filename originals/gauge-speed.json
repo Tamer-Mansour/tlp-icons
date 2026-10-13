@@ -1,0 +1,11 @@
+{
+  "name": "gauge-speed",
+  "category": "interface",
+  "tags": ["gauge", "speed", "meter", "dial", "fast", "performance"],
+  "svg": "<path class=\"p1\" d=\"M3.5 16A8.5 8.5 0 0 1 20.5 16\"/><path class=\"p2\" d=\"M6.5 16H8.5M8.11 12.11L9.53 13.53M12 10.5V12.5M15.89 12.11L14.47 13.53M15.5 16H17.5\"/><line class=\"p3\" x1=\"12\" y1=\"16\" x2=\"15\" y2=\"10.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "origin": "12px 16px", "dur": 800, "delay": 900 }
+  ]
+}

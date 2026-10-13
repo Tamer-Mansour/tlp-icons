@@ -1,0 +1,10 @@
+{
+  "name": "sector-pie",
+  "category": "shapes",
+  "tags": ["sector", "pie", "slice", "chart", "wedge"],
+  "svg": "<path class=\"d p1\" d=\"M11 13V6A7 7 0 1 0 18 13z\"/><path class=\"d p2\" d=\"M13.5 10.5V3.5A7 7 0 0 1 20.5 10.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "magnetometer",
+  "category": "devices",
+  "tags": ["magnet", "magnetometer", "field", "horseshoe", "magnetic", "sensor"],
+  "svg": "<path class=\"p1\" d=\"M5 4v9a7 7 0 0 0 14 0V4\"/><path class=\"p2\" d=\"M3 4h4M17 4h4\"/><path class=\"p3\" d=\"M9 4q3 5 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1300 }
+  ]
+}

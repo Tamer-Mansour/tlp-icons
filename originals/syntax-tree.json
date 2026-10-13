@@ -1,0 +1,11 @@
+{
+  "name": "syntax-tree",
+  "category": "development",
+  "tags": ["syntax", "tree", "parser", "nodes", "grammar"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5V9.5M6 9.5h12M6 9.5V12.5M18 9.5V12.5\"/><circle class=\"d p3\" cx=\"6\" cy=\"15\" r=\"2.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

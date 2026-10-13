@@ -1,0 +1,11 @@
+{
+  "name": "heron",
+  "category": "nature",
+  "tags": ["heron", "long legs", "pointed bill", "wading bird", "marsh"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"6\" ry=\"3.5\"/><path class=\"p2\" d=\"M16 11 Q18 8 17 5 M9 15.5 V22 M12 15.5 V22\"/><path class=\"p3\" d=\"M17 4 L22 5 L17 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

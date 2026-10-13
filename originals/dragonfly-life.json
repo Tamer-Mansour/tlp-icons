@@ -1,0 +1,11 @@
+{
+  "name": "dragonfly-life",
+  "category": "science",
+  "tags": ["dragonfly", "insect", "wings", "pond", "flight"],
+  "svg": "<path class=\"p1\" d=\"M12 8V21\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1.5\"/><ellipse class=\"p2\" cx=\"6.5\" cy=\"9\" rx=\"3.5\" ry=\"1.5\" transform=\"rotate(-25 6.5 9)\"/><ellipse class=\"p2\" cx=\"17.5\" cy=\"9\" rx=\"3.5\" ry=\"1.5\" transform=\"rotate(25 17.5 9)\"/><ellipse class=\"p2\" cx=\"6.5\" cy=\"15\" rx=\"3.5\" ry=\"1.5\" transform=\"rotate(20 6.5 15)\"/><ellipse class=\"p2\" cx=\"17.5\" cy=\"15\" rx=\"3.5\" ry=\"1.5\" transform=\"rotate(-20 17.5 15)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 800 }
+  ]
+}

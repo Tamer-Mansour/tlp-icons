@@ -1,0 +1,11 @@
+{
+  "name": "horse-trailer",
+  "category": "vehicles",
+  "tags": ["horse", "trailer", "livestock", "animal", "hauling"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M9 15v-6h5v6\"/><circle class=\"p3\" cx=\"7.5\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"16.5\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 900 }
+  ]
+}

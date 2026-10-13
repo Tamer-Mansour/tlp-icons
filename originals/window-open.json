@@ -1,0 +1,10 @@
+{
+  "name": "window-open",
+  "category": "home",
+  "tags": ["window", "open", "sash", "ventilation", "fresh", "air", "home"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><polygon class=\"d p2\" points=\"9 6 16 4.5 16 19.5 9 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 600, "origin": "9px 12px" }
+  ]
+}

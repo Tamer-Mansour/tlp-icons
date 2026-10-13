@@ -1,0 +1,11 @@
+{
+  "name": "asterisk-mark",
+  "category": "text",
+  "tags": ["asterisk", "star", "footnote", "mark", "six", "spoke", "symbol"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"p2\" d=\"M4 7.5l16 9\"/><path class=\"p3\" d=\"M20 7.5l-16 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 600 }
+  ]
+}

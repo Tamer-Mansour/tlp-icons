@@ -1,0 +1,10 @@
+{
+  "name": "magnetic-field",
+  "category": "science",
+  "tags": ["magnet", "magnetic", "field", "physics", "loops"],
+  "svg": "<path class=\"d p1\" d=\"M5 4v8a7 7 0 0 0 14 0V4h-4v8a3 3 0 0 1-6 0V4z\"/><path class=\"p2\" d=\"M2.5 9.5h2M2.5 14.5h2M19.5 9.5h2M19.5 14.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

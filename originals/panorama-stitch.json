@@ -1,0 +1,11 @@
+{
+  "name": "panorama-stitch",
+  "category": "photography",
+  "tags": ["panorama", "stitch", "frames", "seam", "wide"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"8\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"6\" width=\"8\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M12 3v2M12 8v2M12 13v2M12 18v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1200 }
+  ]
+}

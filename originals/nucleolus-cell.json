@@ -1,0 +1,10 @@
+{
+  "name": "nucleolus-cell",
+  "category": "science",
+  "tags": ["nucleolus", "nucleus", "cell", "organelle", "biology", "dot"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 800, "delay": 1000 }
+  ]
+}

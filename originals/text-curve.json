@@ -1,0 +1,11 @@
+{
+  "name": "text-curve",
+  "category": "text",
+  "tags": ["curve", "wave", "text", "letters", "wavy", "typography", "flow"],
+  "svg": "<path class=\"p1\" d=\"M3 12c3-4 6-4 9 0s6 4 9 0\"/><path class=\"p2\" d=\"M5 6.5h3M6.5 6.5v3.5\"/><path class=\"p3\" d=\"M14.5 5.5v3.5h2.5M14.5 7.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

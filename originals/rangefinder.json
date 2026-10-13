@@ -1,0 +1,11 @@
+{
+  "name": "rangefinder",
+  "category": "devices",
+  "tags": ["rangefinder", "binoculars", "distance", "optics", "outdoor", "measure"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><circle class=\"p2\" cx=\"7\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"2.5\"/><line class=\"p3\" x1=\"12\" y1=\"3.5\" x2=\"12\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

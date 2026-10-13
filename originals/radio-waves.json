@@ -1,0 +1,12 @@
+{
+  "name": "radio-waves",
+  "category": "science",
+  "tags": ["radio", "waves", "antenna", "signal", "broadcast", "transmit"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 13.5V21\"/><path class=\"p3\" d=\"M9.2 9.2A4 4 0 0 0 9.2 14.8M14.8 9.2A4 4 0 0 1 14.8 14.8\"/><path class=\"p4\" d=\"M6.3 6.3A8 8 0 0 0 6.3 17.7M17.7 6.3A8 8 0 0 1 17.7 17.7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

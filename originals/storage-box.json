@@ -1,0 +1,11 @@
+{
+  "name": "storage-box",
+  "category": "home",
+  "tags": ["storage", "box", "container", "open", "lid", "handle"],
+  "svg": "<path class=\"p1\" d=\"M4 9v11h16V9\"/><path class=\"d p2\" d=\"M3 4h18v3H3z\"/><path class=\"p3\" d=\"M10 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

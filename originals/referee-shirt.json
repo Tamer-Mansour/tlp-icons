@@ -1,0 +1,11 @@
+{
+  "name": "referee-shirt",
+  "category": "sport",
+  "tags": ["referee", "shirt", "stripes", "collar", "official", "match"],
+  "svg": "<path class=\"d p1\" d=\"M8 3 L4 5 L2 9 L5 11 L5 21 L19 21 L19 11 L22 9 L20 5 L16 3 Z\"/><path class=\"p2\" d=\"M8 3 L12 8 L16 3\"/><path class=\"p3\" d=\"M9.5 13 V19 M14.5 13 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

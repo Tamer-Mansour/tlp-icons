@@ -1,0 +1,11 @@
+{
+  "name": "gamma-ray",
+  "category": "science",
+  "tags": ["physics", "gamma", "ray", "radiation", "wave", "energy"],
+  "svg": "<path class=\"p1\" d=\"M3 12c1.5-2 3-2 4.5 0s3 2 4.5 0 3 2 4.5 0\"/><path class=\"p2\" d=\"M16.5 12H21M18.5 9.5L21 12l-2.5 2.5\"/><path class=\"p3\" d=\"M7 7.5L5.5 5.5M12 7V4.5M17 7.5l1.5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

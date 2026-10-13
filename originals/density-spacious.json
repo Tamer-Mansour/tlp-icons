@@ -1,0 +1,11 @@
+{
+  "name": "density-spacious",
+  "category": "layout",
+  "tags": ["density", "spacious", "rows", "airy", "list"],
+  "svg": "<path class=\"p1\" d=\"M4 5h16\"/><path class=\"p2\" d=\"M4 12h16\"/><path class=\"p3\" d=\"M4 19h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mosquito",
+  "category": "nature",
+  "tags": ["insect", "bite", "buzz", "summer", "pest"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"15\" rx=\"6\" ry=\"2\" transform=\"rotate(-35 11 15)\"/><circle class=\"p2\" cx=\"18\" cy=\"8\" r=\"1.8\"/><path class=\"p3\" d=\"M19.3 6.7L22 4\"/><ellipse class=\"p4\" cx=\"8\" cy=\"6\" rx=\"4\" ry=\"1.6\" transform=\"rotate(-30 8 6)\"/><path class=\"p5\" d=\"M9.5 17.5L7.5 21.5M13 15.5L14 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

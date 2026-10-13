@@ -1,0 +1,10 @@
+{
+  "name": "spore-cell",
+  "category": "science",
+  "tags": ["spore", "oval", "cell", "fungus", "seed"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6.5\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"5.5\" ry=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

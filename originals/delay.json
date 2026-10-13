@@ -1,0 +1,11 @@
+{
+  "name": "delay",
+  "category": "time",
+  "tags": ["clock", "late", "postpone", "wait", "lag"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M10 8v4l2 1.5\"/><path class=\"p3\" d=\"M18 12h4M20 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 800, "origin": "10px 12px" },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "emergency-lock",
+  "category": "security",
+  "tags": ["emergency", "lock", "alert", "padlock", "urgent", "warning"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M8 11V8A4 4 0 0 1 16 8V11\"/><path class=\"p3\" d=\"M12 13.5V15.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"17.6\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1200 }
+  ]
+}

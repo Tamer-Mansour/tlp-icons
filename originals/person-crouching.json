@@ -1,0 +1,11 @@
+{
+  "name": "person-crouching",
+  "category": "people",
+  "tags": ["crouch", "crouching", "squat", "bent", "low", "person"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M11.5 9 L10 13.5 M11.5 9.5 L14.5 11.5\"/><path class=\"p3\" d=\"M10 13.5 L15 13.5 L17.5 18.5 H20.5 M10 13.5 L6.5 16.5 V20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

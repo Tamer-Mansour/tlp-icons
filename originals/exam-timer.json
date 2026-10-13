@@ -1,0 +1,11 @@
+{
+  "name": "exam-timer",
+  "category": "time",
+  "tags": ["exam", "timer", "test", "hourglass", "study", "countdown"],
+  "svg": "<path class=\"p1\" d=\"M5.5 3h13M5.5 21h13\"/><path class=\"p2\" d=\"M7.5 3c0 4.5 4.5 6 4.5 9s-4.5 4.5-4.5 9M16.5 3c0 4.5-4.5 6-4.5 9s4.5 4.5 4.5 9\"/><path class=\"d p3\" d=\"M8.6 20h6.8L12 15.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dairy-farm",
+  "category": "buildings",
+  "tags": ["dairy farm", "dairy", "barn", "milk", "farm", "cows"],
+  "svg": "<path class=\"p1\" d=\"M3 10l7-6 7 6\"/><path class=\"p2\" d=\"M5 10v11h10V10\"/><path class=\"d p3\" d=\"M17 21v-7l-1-1v-3h4v3l-1 1v7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

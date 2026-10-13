@@ -1,0 +1,11 @@
+{
+  "name": "ruler-dimension",
+  "category": "interface",
+  "tags": ["ruler", "dimension", "measure", "length", "size", "scale"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"12\" width=\"20\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6 12v2M10 12v3M14 12v2M18 12v3\"/><path class=\"p3\" d=\"M3 7.5h18M3 5.5v4M21 5.5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

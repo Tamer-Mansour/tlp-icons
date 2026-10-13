@@ -1,0 +1,11 @@
+{
+  "name": "aux-cable",
+  "category": "media",
+  "tags": ["aux", "cable", "audio", "plug", "jack", "cord"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M8 10v4a5 5 0 0 0 5 5h4\"/><circle class=\"p3\" cx=\"18.5\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

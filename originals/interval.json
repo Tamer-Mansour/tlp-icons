@@ -1,0 +1,10 @@
+{
+  "name": "interval",
+  "category": "time",
+  "tags": ["gap", "span", "period", "between", "range"],
+  "svg": "<path class=\"p1\" d=\"M5 7v10M19 7v10\"/><path class=\"p2\" d=\"M5 12h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 400 }
+  ]
+}

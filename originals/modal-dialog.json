@@ -1,0 +1,11 @@
+{
+  "name": "modal-dialog",
+  "category": "interface",
+  "tags": ["modal", "dialog", "popup", "overlay", "close", "window"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"3\"/><rect class=\"d p2\" x=\"5.5\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M10 9.5l4 4M14 9.5l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

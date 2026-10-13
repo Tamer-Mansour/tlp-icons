@@ -1,0 +1,10 @@
+{
+  "name": "mouse-scroll-wheel",
+  "category": "interface",
+  "tags": ["mouse", "scroll", "wheel", "pointer", "device"],
+  "svg": "<rect class=\"p1\" x=\"6.5\" y=\"3\" width=\"11\" height=\"18\" rx=\"5.5\"/><rect class=\"p2\" x=\"11\" y=\"6.5\" width=\"2\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 600, "delay": 900 }
+  ]
+}

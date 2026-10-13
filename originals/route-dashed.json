@@ -1,0 +1,11 @@
+{
+  "name": "route-dashed",
+  "category": "arrows",
+  "tags": ["route", "dashed", "path", "navigation", "start", "destination"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"19\" r=\"2\"/><path class=\"p2\" d=\"M9 15l2-2M13 11l2-2\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1200 }
+  ]
+}

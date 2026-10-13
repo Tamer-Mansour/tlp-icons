@@ -1,0 +1,11 @@
+{
+  "name": "umbrella-rain",
+  "category": "emoji",
+  "tags": ["umbrella", "rain", "weather", "storm", "shelter", "wet"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 C3 7 7 4 12 4 C17 4 21 7 21 12 Z\"/><path class=\"p2\" d=\"M12 4 V18 C12 20.5 14.5 20.5 14.5 18\"/><path class=\"p3\" d=\"M5 16 L4 19 M9.5 17.5 L8.5 20.5 M18 16 L17 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lunch-bag",
+  "category": "food",
+  "tags": ["lunch", "bag", "paper", "sack", "meal", "carry"],
+  "svg": "<path class=\"d p1\" d=\"M5 8h14l-1 13H6z\"/><path class=\"p2\" d=\"M5 11h14\"/><path class=\"p3\" d=\"M9 8V6a3 3 0 0 1 6 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 8px" }
+  ]
+}

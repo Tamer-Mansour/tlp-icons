@@ -1,0 +1,11 @@
+{
+  "name": "ash-tray",
+  "category": "home",
+  "tags": ["ash tray", "ashtray", "smoking", "dish", "cigarette"],
+  "svg": "<path class=\"d p1\" d=\"M3 14h18l-2 5H5z\"/><path class=\"p2\" d=\"M6 11h9\"/><circle class=\"f p3\" cx=\"17\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

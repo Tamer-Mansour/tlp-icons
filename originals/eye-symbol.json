@@ -1,0 +1,11 @@
+{
+  "name": "eye-symbol",
+  "category": "emoji",
+  "tags": ["eye", "vision", "look", "see", "view", "watch"],
+  "svg": "<path class=\"d p1\" d=\"M2 12 C5 5 19 5 22 12 C19 19 5 19 2 12 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

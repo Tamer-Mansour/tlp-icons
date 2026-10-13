@@ -1,0 +1,10 @@
+{
+  "name": "hover-state",
+  "category": "interface",
+  "tags": ["hover", "pointer", "cursor", "state", "mouse", "interact"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"d p2\" d=\"M13.5 13.5L20 16l-3 .8 1.8 3-1.7 1-1.8-3-2.3 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

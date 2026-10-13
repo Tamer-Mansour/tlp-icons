@@ -1,0 +1,11 @@
+{
+  "name": "slope-chart",
+  "category": "charts",
+  "tags": ["chart", "change", "comparison", "lines", "before-after"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18M18 3v18\"/><path class=\"p2\" d=\"M6 7L18 14M6 14L18 8\"/><circle class=\"f p3\" cx=\"6\" cy=\"7\" r=\"1.2\"/><circle class=\"f p3\" cx=\"6\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

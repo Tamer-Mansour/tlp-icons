@@ -1,0 +1,11 @@
+{
+  "name": "video-doorbell",
+  "category": "devices",
+  "tags": ["doorbell", "video", "camera", "door", "entry", "smart"],
+  "svg": "<rect class=\"d p1\" x=\"6.5\" y=\"3\" width=\"11\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"2.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 700, "delay": 900 }
+  ]
+}

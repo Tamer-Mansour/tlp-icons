@@ -1,0 +1,11 @@
+{
+  "name": "watch-repair",
+  "category": "buildings",
+  "tags": ["watch", "repair", "clock", "screwdriver", "time", "jeweler"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M12 8 V12 L15 14\"/><line class=\"p3\" x1=\"19\" y1=\"19\" x2=\"21.5\" y2=\"21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 500, "origin": "12px 12px" },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1300, "origin": "19px 19px" }
+  ]
+}

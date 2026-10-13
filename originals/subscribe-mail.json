@@ -1,0 +1,11 @@
+{
+  "name": "subscribe-mail",
+  "category": "communication",
+  "tags": ["subscribe", "newsletter", "sign up", "notifications", "email"],
+  "svg": "<path class=\"p1 d\" d=\"M2.5 7h11v11h-11z\"/><path class=\"p1\" d=\"M2.5 7l5.5 4.5L13.5 7\"/><path class=\"p2\" d=\"M18 12.5v7M14.5 16h7\"/><path class=\"p3\" d=\"M17 4.5a2.5 2.5 0 0 1 5 0v3l1 1.5h-7l1-1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 800, "origin": "19.5px 4.5px" },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1500 }
+  ]
+}

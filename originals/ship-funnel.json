@@ -1,0 +1,11 @@
+{
+  "name": "ship-funnel",
+  "category": "vehicles",
+  "tags": ["ship", "funnel", "smokestack", "steamer", "boat"],
+  "svg": "<path class=\"d p1\" d=\"M3 17h18l-2 4H5z\"/><path class=\"p2\" d=\"M9 17V8h6v9\"/><path class=\"p3\" d=\"M12 4v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

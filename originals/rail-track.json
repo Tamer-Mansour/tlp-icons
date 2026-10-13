@@ -1,0 +1,10 @@
+{
+  "name": "rail-track",
+  "category": "buildings",
+  "tags": ["rail track", "railway", "rails", "sleepers", "train"],
+  "svg": "<path class=\"p1\" d=\"M9 3L6 21M15 3l3 18\"/><path class=\"p2\" d=\"M8.2 8h7.6M7 15h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

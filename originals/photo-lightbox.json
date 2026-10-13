@@ -1,0 +1,10 @@
+{
+  "name": "photo-lightbox",
+  "category": "photography",
+  "tags": ["photo", "lightbox", "glow", "gallery", "close"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M18 6l3 3M21 6l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800, "origin": "19.5px 7.5px" }
+  ]
+}

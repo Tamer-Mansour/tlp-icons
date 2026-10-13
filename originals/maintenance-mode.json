@@ -1,0 +1,10 @@
+{
+  "name": "maintenance-mode",
+  "category": "notifications",
+  "tags": ["maintenance", "gear", "mode", "settings", "service"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><g class=\"p2\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 6v2.5M12 15.5V18M6 12h2.5M15.5 12H18\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "visitor-sticker",
+  "category": "people",
+  "tags": ["sticker", "visitor", "tag", "label", "guest"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M7.5 17.5a4.5 4.5 0 0 1 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 1000 }
+  ]
+}

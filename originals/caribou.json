@@ -1,0 +1,12 @@
+{
+  "name": "caribou",
+  "category": "nature",
+  "tags": ["reindeer", "antlers", "tundra", "shaggy", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 Q4 8 9 8 H15 Q19 8 19 12 V14 H5 Z\"/><path class=\"p2\" d=\"M16 9 L18 4 L20 4\"/><path class=\"p3\" d=\"M18 4 Q17 2 15 2 M18 4 Q20 2 22 2\"/><path class=\"p4\" d=\"M7 14 V21 M15 14 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 900 }
+  ]
+}

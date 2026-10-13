@@ -1,0 +1,11 @@
+{
+  "name": "desk-nameplate",
+  "category": "people",
+  "tags": ["nameplate", "desk sign", "name tag", "office", "tent card"],
+  "svg": "<polygon class=\"d p1\" points=\"5,17 8,6 16,6 19,17\"/><line class=\"p2\" x1=\"3\" y1=\"19.5\" x2=\"21\" y2=\"19.5\"/><path class=\"p3\" d=\"M9.5 12.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

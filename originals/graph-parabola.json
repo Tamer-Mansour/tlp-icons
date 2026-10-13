@@ -1,0 +1,10 @@
+{
+  "name": "graph-parabola",
+  "category": "math",
+  "tags": ["graph", "parabola", "curve", "axes", "function"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"p2\" d=\"M6 6 C6 14 8.5 18 12 18 C15.5 18 18 14 18 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 600 }
+  ]
+}

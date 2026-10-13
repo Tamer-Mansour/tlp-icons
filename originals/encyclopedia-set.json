@@ -1,0 +1,11 @@
+{
+  "name": "encyclopedia-set",
+  "category": "science",
+  "tags": ["encyclopedia", "books", "reference", "library", "stack", "knowledge"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"16\" width=\"18\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"8\" width=\"14\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"7\" y=\"3\" width=\"10\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

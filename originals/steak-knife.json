@@ -1,0 +1,10 @@
+{
+  "name": "steak-knife",
+  "category": "food",
+  "tags": ["steak", "knife", "serrated", "cutlery", "meat", "blade"],
+  "svg": "<rect class=\"p2\" x=\"2.5\" y=\"10\" width=\"5\" height=\"4\" rx=\"2\"/><path class=\"d p1\" d=\"M9.5 7.5H17.5L21 12l-3.5 4.5-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "last-opened",
+  "category": "interface",
+  "tags": ["last", "opened", "folder", "clock", "recent", "history"],
+  "svg": "<path class=\"p1\" d=\"M3 7a2 2 0 0 1 2-2h4l2 2h7a2 2 0 0 1 2 2v2M3 7v11a2 2 0 0 0 2 2h5\"/><circle class=\"p2\" cx=\"18\" cy=\"17\" r=\"3.5\"/><path class=\"p3\" d=\"M18 15.5V17h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "18px 17px" }
+  ]
+}

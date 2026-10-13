@@ -1,0 +1,10 @@
+{
+  "name": "weather-forecast",
+  "category": "weather",
+  "tags": ["forecast", "weather", "sun", "cloud", "rain", "outlook"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"2.5\"/><path class=\"p2\" d=\"M9 17h9a3 3 0 0 0 0-6 4 4 0 0 0-7.5-1A3 3 0 0 0 9 17z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 700 }
+  ]
+}

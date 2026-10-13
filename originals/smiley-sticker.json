@@ -1,0 +1,11 @@
+{
+  "name": "smiley-sticker",
+  "category": "emoji",
+  "tags": ["smiley", "smile", "happy", "sticker", "emoji", "face"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8.5 14Q12 17.5 15.5 14\"/><circle class=\"f p3\" cx=\"9\" cy=\"10\" r=\"1.2\"/><circle class=\"f p3\" cx=\"15\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1400 }
+  ]
+}

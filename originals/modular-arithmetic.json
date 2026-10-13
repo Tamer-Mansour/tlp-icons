@@ -1,0 +1,10 @@
+{
+  "name": "modular-arithmetic",
+  "category": "math",
+  "tags": ["modular", "arithmetic", "wrap", "clock", "remainder", "math"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M4 12A8 8 0 0 1 12 4M10 2L12 4L10 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

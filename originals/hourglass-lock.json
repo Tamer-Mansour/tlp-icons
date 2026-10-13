@@ -1,0 +1,10 @@
+{
+  "name": "hourglass-lock",
+  "category": "security",
+  "tags": ["hourglass", "lock", "time", "expiry", "wait", "secure"],
+  "svg": "<path class=\"p1\" d=\"M6 3H18M6 21H18M7 3Q7 8 12 12Q17 16 17 21M17 3Q17 8 12 12Q7 16 7 21\"/><rect class=\"d p2\" x=\"14\" y=\"17\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 }
+  ]
+}

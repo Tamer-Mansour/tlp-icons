@@ -1,0 +1,11 @@
+{
+  "name": "seismometer",
+  "category": "science",
+  "tags": ["seismometer", "earthquake", "pendulum", "seismic", "trace", "measure", "tremor"],
+  "svg": "<path class=\"p1\" d=\"M5 20.5h6M8 20.5V3\"/><path class=\"d p2\" d=\"M8 5l4 9\"/><circle class=\"d p2\" cx=\"12\" cy=\"14\" r=\"1.5\"/><path class=\"p3\" d=\"M16 20l1.2-6 1.2 6 1.2-8 1.2 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 1000, "origin": "8px 5px" }
+  ]
+}

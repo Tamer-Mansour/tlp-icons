@@ -1,0 +1,10 @@
+{
+  "name": "parabola-arrow",
+  "category": "arrows",
+  "tags": ["parabola", "curve", "trajectory", "arc", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 18C7 6 17 6 21 18\"/><polyline class=\"p2\" points=\"17 18 21 18 21 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

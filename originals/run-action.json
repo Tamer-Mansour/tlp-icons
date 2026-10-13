@@ -1,0 +1,10 @@
+{
+  "name": "run-action",
+  "category": "interface",
+  "tags": ["run", "action", "play", "start", "execute", "button"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><polygon class=\"p2\" points=\"10 8.5 16 12 10 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pregnancy-belly",
+  "category": "people",
+  "tags": ["pregnancy","belly","expecting","maternity","baby"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"4\" r=\"2\"/><path class=\"p2\" d=\"M8 7.5V21\"/><circle class=\"d p3\" cx=\"13.5\" cy=\"12.5\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "breathe", "dur": 900, "delay": 1000 }
+  ]
+}

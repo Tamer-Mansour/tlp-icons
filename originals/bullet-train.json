@@ -1,0 +1,11 @@
+{
+  "name": "bullet-train",
+  "category": "vehicles",
+  "tags": ["bullet", "train", "fast", "express", "rail"],
+  "svg": "<path class=\"d p1\" d=\"M3 8.5h11l7 5-7 5H3z\"/><path class=\"p2\" d=\"M7 11.5h6\"/><path class=\"p3\" d=\"M2 21.5h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1000 }
+  ]
+}

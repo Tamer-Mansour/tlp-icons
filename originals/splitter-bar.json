@@ -1,0 +1,11 @@
+{
+  "name": "splitter-bar",
+  "category": "layout",
+  "tags": ["splitter", "divider", "panes", "resize", "drag", "split"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1200 }
+  ]
+}

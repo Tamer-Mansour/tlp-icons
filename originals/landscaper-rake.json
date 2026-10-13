@@ -1,0 +1,11 @@
+{
+  "name": "landscaper-rake",
+  "category": "people",
+  "tags": ["landscaper", "rake", "garden", "yard", "leaf", "outdoor"],
+  "svg": "<path class=\"p1\" d=\"M5 17 H17 M7 17 V21 M10.5 17 V21 M14 17 V21\"/><line class=\"p2\" x1=\"11\" y1=\"17\" x2=\"20\" y2=\"3\"/><path class=\"d p3\" d=\"M4 8 Q4 4 9 4 Q9 8 4 8 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100, "origin": "6px 8px" }
+  ]
+}

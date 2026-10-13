@@ -1,0 +1,11 @@
+{
+  "name": "user-streak-flame",
+  "category": "people",
+  "tags": ["streak", "flame", "fire", "consistency", "person", "daily"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2.5 21v-2.5a5.5 5.5 0 0 1 11 0V21\"/><path class=\"d p3\" d=\"M18 4c2.5 3 4.5 5.5 3 8.5-.8 1.6-2.2 2.5-3 2.5s-2.2-.9-3-2.5C13.5 9.5 15.5 7 18 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

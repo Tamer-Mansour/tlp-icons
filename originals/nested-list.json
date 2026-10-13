@@ -1,0 +1,10 @@
+{
+  "name": "nested-list",
+  "category": "text",
+  "tags": ["nested", "list", "sublist", "indent", "items"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><line class=\"p2\" x1=\"9\" y1=\"12\" x2=\"18\" y2=\"12\"/><line class=\"p1\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

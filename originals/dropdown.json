@@ -1,0 +1,10 @@
+{
+  "name": "dropdown",
+  "category": "interface",
+  "tags": ["dropdown", "select", "menu", "chevron", "field"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7\" width=\"19\" height=\"10\" rx=\"2\"/><polyline class=\"p2\" points=\"13.5 11 16 13.5 18.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 900 }
+  ]
+}

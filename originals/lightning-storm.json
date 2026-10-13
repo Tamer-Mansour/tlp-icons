@@ -1,0 +1,10 @@
+{
+  "name": "lightning-storm",
+  "category": "science",
+  "tags": ["lightning", "storm", "thunder", "cloud", "bolt", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M6 14 C3 14 3 10 6 9.5 C6 6 11 5 13 8 C14 6 19 7 18.5 11 C21 11 21 14 18 14 Z\"/><polyline class=\"p2\" points=\"13,16 10,19.5 13.5,19.5 11,22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "failover-switch",
+  "category": "connectivity",
+  "tags": ["failover", "switch", "server", "backup", "redundancy", "reroute"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"7\" height=\"12\" rx=\"1\"/><path class=\"p1\" d=\"M4 10 L7 13 M7 10 L4 13\"/><rect class=\"d p2\" x=\"16\" y=\"6\" width=\"6\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M9 16 H12 V9 H14\"/><polyline class=\"p3\" points=\"12.5 7.5 14.5 9 12.5 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1000 }
+  ]
+}

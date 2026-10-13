@@ -1,0 +1,10 @@
+{
+  "name": "monsoon",
+  "category": "nature",
+  "tags": ["monsoon", "rain", "storm", "cloud", "season"],
+  "svg": "<path class=\"p1\" d=\"M6 14h12a4 4 0 0 0 0-8 6 6 0 0 0-11.5 1.5A3.5 3.5 0 0 0 6 14z\"/><path class=\"p2\" d=\"M8 17.5l-1.5 3M12 17.5l-1.5 3M16 17.5l-1.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

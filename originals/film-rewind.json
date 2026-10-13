@@ -1,0 +1,11 @@
+{
+  "name": "film-rewind",
+  "category": "photography",
+  "tags": ["film", "rewind", "spool", "arrows", "camera", "reverse"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M3 12A9 9 0 0 1 12 3M9 3H12V6\"/><path class=\"p3\" d=\"M21 12A9 9 0 0 1 12 21M15 21H12V18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "spinBack", "dur": 900, "delay": 1000 }
+  ]
+}

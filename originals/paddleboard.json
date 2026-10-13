@@ -1,0 +1,10 @@
+{
+  "name": "paddleboard",
+  "category": "vehicles",
+  "tags": ["paddleboard", "paddle", "sup", "board", "surf", "water"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"15\" width=\"20\" height=\"3\" rx=\"1.5\"/><path class=\"p2\" d=\"M4 11 L17 5\"/><ellipse class=\"p2\" cx=\"18.5\" cy=\"4.5\" rx=\"1.5\" ry=\"2.5\" transform=\"rotate(-25 18.5 4.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

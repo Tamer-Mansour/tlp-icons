@@ -1,0 +1,11 @@
+{
+  "name": "cafeteria",
+  "category": "buildings",
+  "tags": ["cafeteria", "tray", "food", "canteen", "plate", "cup"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"18\" width=\"20\" height=\"3\" rx=\"1\"/><circle class=\"d p2\" cx=\"9\" cy=\"13\" r=\"3\"/><path class=\"p3\" d=\"M15 9h5l-1 8h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pour", "dur": 1000, "delay": 1000 }
+  ]
+}

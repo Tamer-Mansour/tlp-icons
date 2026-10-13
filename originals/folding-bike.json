@@ -1,0 +1,11 @@
+{
+  "name": "folding-bike",
+  "category": "vehicles",
+  "tags": ["folding bike", "compact", "hinge", "bicycle", "portable", "cycling"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"17\" r=\"3\"/><circle class=\"p1\" cx=\"18\" cy=\"17\" r=\"3\"/><path class=\"p2\" d=\"M6 17L10 10H15L18 17\"/><rect class=\"d p3\" x=\"11.5\" y=\"8.5\" width=\"2\" height=\"3\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1100 }
+  ]
+}

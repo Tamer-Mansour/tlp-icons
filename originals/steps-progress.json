@@ -1,0 +1,10 @@
+{
+  "name": "steps-progress",
+  "category": "interface",
+  "tags": ["steps", "progress", "wizard", "stages", "flow", "onboarding"],
+  "svg": "<path class=\"p1\" d=\"M3 20h5v-5h5v-5h5V5\"/><circle class=\"f p2\" cx=\"18\" cy=\"5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

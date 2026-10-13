@@ -1,0 +1,10 @@
+{
+  "name": "heading-arrow",
+  "category": "arrows",
+  "tags": ["direction", "heading", "travel", "course", "navigation"],
+  "svg": "<path class=\"p1\" d=\"M6 18 L16 8\"/><path class=\"p2\" d=\"M10 8 H16 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

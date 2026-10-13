@@ -1,0 +1,11 @@
+{
+  "name": "pool-cue",
+  "category": "sport",
+  "tags": ["pool", "cue", "billiards", "stick", "snooker", "game"],
+  "svg": "<path class=\"p1\" d=\"M3 21L17 7\"/><path class=\"p2\" d=\"M17 7L19 5\"/><circle class=\"d p3\" cx=\"19\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 1000 }
+  ]
+}

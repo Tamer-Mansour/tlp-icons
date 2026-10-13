@@ -1,0 +1,11 @@
+{
+  "name": "sorbet",
+  "category": "food",
+  "tags": ["sorbet", "ice cream", "dessert", "snowflake", "frozen"],
+  "svg": "<path class=\"d p1\" d=\"M4 13 H20 Q19 20 12 20 Q5 20 4 13 Z\"/><path class=\"p2\" d=\"M7 13 Q7 5 12 5 Q17 5 17 13\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

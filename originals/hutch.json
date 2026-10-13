@@ -1,0 +1,11 @@
+{
+  "name": "hutch",
+  "category": "home",
+  "tags": ["hutch", "cabinet", "shelf", "dresser", "furniture"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M4 10h16M12 10v11\"/><path class=\"p3\" d=\"M12 3v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "piping-tip",
+  "category": "food",
+  "tags": ["piping", "tip", "pastry", "cake", "decorating", "nozzle"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h14l-4.5 8.5h-5z\"/><polygon class=\"p2\" points=\"12,14.5 12.9,16.8 15.3,16.9 13.4,18.5 14.1,20.8 12,19.5 9.9,20.8 10.6,18.5 8.7,16.9 11.1,16.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

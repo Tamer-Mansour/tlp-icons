@@ -1,0 +1,11 @@
+{
+  "name": "booklet-fold",
+  "category": "design",
+  "tags": ["booklet", "fold", "brochure", "pages", "print"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M12 3v18\"/><path class=\"p3\" d=\"M7 8h3M7 11h3M14 8h3M14 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flip", "dur": 700, "delay": 1100 }
+  ]
+}

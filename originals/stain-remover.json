@@ -1,0 +1,11 @@
+{
+  "name": "stain-remover",
+  "category": "home",
+  "tags": ["stain", "remover", "spray", "fabric", "clean", "laundry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"11\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 11V7h5v4\"/><path class=\"p3\" d=\"M19 15q2 2.5 2 4a2 2 0 0 1-4 0q0-1.5 2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pump", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

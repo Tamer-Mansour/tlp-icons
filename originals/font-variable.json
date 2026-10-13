@@ -1,0 +1,11 @@
+{
+  "name": "font-variable",
+  "category": "text",
+  "tags": ["font", "variable", "slider", "axis", "typeface", "text"],
+  "svg": "<path class=\"p1\" d=\"M4 14 L9 4 L14 14 M5.8 10.5 H12.2\"/><path class=\"p2\" d=\"M3 19 H21\"/><circle class=\"d p3\" cx=\"15\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1100 }
+  ]
+}

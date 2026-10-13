@@ -1,0 +1,10 @@
+{
+  "name": "table-heatmap",
+  "category": "charts",
+  "tags": ["table", "heatmap", "grid", "cells", "data", "matrix"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M3 9h18M3 15h18M9 3v18M15 3v18\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/><rect class=\"d p2\" x=\"15\" y=\"3\" width=\"6\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

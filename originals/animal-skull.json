@@ -1,0 +1,11 @@
+{
+  "name": "animal-skull",
+  "category": "nature",
+  "tags": ["skull", "bones", "horns", "animal", "bone", "spooky"],
+  "svg": "<path class=\"d p1\" d=\"M6 14V9Q6 4 12 4Q18 4 18 9V14Q18 17 15 17H9Q6 17 6 14Z\"/><circle class=\"p2\" cx=\"9.5\" cy=\"11\" r=\"1.5\"/><circle class=\"p2\" cx=\"14.5\" cy=\"11\" r=\"1.5\"/><path class=\"p3\" d=\"M6 9L3 4M18 9L21 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1000, "origin": "6px 9px" }
+  ]
+}

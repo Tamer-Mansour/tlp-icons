@@ -1,0 +1,10 @@
+{
+  "name": "standing-wave",
+  "category": "science",
+  "tags": ["physics", "standing", "wave", "node", "sine", "vibration"],
+  "svg": "<path class=\"p1\" d=\"M2 12C3.5 7 6.5 7 8 12S9.5 17 14 12S18.5 7 20 12\"/><circle class=\"f p2\" cx=\"8\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "name":  "hoverfly",
+    "category":  "nature",
+    "tags":  [
+                 "hoverfly",
+                 "fly",
+                 "insect",
+                 "wings",
+                 "yellow bands",
+                 "bug"
+             ],
+    "svg":  "\u003cellipse class=\"d p1\" cx=\"14\" cy=\"14\" rx=\"6.5\" ry=\"3\"/\u003e\u003cpath class=\"p2\" d=\"M11 11.5V16.5M14.5 11V17\"/\u003e\u003ccircle class=\"p3\" cx=\"6\" cy=\"13\" r=\"2\"/\u003e\u003cpath class=\"p4\" d=\"M10 11C8 5 12 3 15 5C16 7 14 10 12 11\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  300,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "flutter",
+                       "dur":  500,
+                       "delay":  900,
+                       "origin":  "12px 11px"
+                   }
+               ]
+}

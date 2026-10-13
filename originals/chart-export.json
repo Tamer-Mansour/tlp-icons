@@ -1,0 +1,11 @@
+{
+  "name": "chart-export",
+  "category": "charts",
+  "tags": ["export", "download", "save", "arrow", "chart"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"12\" width=\"3\" height=\"8\"/><rect class=\"p1\" x=\"7\" y=\"8\" width=\"3\" height=\"12\"/><path class=\"p2\" d=\"M17 3V13M14 10L17 13L20 10\"/><path class=\"p3\" d=\"M13 15V20H21V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

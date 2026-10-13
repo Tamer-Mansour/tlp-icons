@@ -1,0 +1,10 @@
+{
+  "name": "timer-play",
+  "category": "interface",
+  "tags": ["timer", "play", "start", "stopwatch", "run", "countdown"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><line class=\"p1\" x1=\"10\" y1=\"2\" x2=\"14\" y2=\"2\"/><line class=\"p1\" x1=\"12\" y1=\"5\" x2=\"12\" y2=\"2\"/><polygon class=\"p2\" points=\"10,9.5 15.5,13 10,16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

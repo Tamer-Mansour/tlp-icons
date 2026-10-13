@@ -1,0 +1,11 @@
+{
+  "name": "arithmetic-sequence",
+  "category": "math",
+  "tags": ["arithmetic", "sequence", "bars", "steps", "growth"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"16\" width=\"4\" height=\"4\"/><rect class=\"p2\" x=\"10\" y=\"12\" width=\"4\" height=\"8\"/><rect class=\"p3\" x=\"17\" y=\"8\" width=\"4\" height=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 600 }
+  ]
+}

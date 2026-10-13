@@ -1,0 +1,10 @@
+{
+  "name": "cursor-select",
+  "category": "interface",
+  "tags": ["cursor", "select", "pointer", "selection", "click", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"9\" rx=\"1\"/><path class=\"d p2\" d=\"M14 14l7 2.5-3.5 1 2 3.5-2 1-2-3.5-2.5 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

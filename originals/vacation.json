@@ -1,0 +1,11 @@
+{
+  "name": "vacation",
+  "category": "time",
+  "tags": ["holiday", "beach", "sun", "trip", "summer"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"4\"/><path class=\"p2\" d=\"M3 15c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0\"/><path class=\"p3\" d=\"M3 20c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "trackpad",
+  "category": "devices",
+  "tags": ["trackpad", "touchpad", "laptop", "pointer", "tap", "input"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ping-pong-arrows",
+  "category": "arrows",
+  "tags": ["ping", "pong", "bounce", "back", "forth"],
+  "svg": "<path class=\"p1\" d=\"M6 9 H16 M13 6 L16 9 L13 12\"/><path class=\"p2\" d=\"M18 15 H8 M11 12 L8 15 L11 18\"/><circle class=\"f p3\" cx=\"3\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"21\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

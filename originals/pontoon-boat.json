@@ -1,0 +1,11 @@
+{
+  "name": "pontoon-boat",
+  "category": "vehicles",
+  "tags": ["pontoon", "boat", "deck", "float", "lake"],
+  "svg": "<path class=\"p1\" d=\"M3 11h18l-2 4H5z\"/><path class=\"p2\" d=\"M3 18.5h18\"/><path class=\"p3\" d=\"M6 21h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 800 }
+  ]
+}

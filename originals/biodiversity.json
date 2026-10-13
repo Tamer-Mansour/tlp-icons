@@ -1,0 +1,11 @@
+{
+  "name": "biodiversity",
+  "category": "nature",
+  "tags": ["biodiversity", "leaves", "plant", "ecology", "variety", "nature"],
+  "svg": "<path class=\"p1\" d=\"M12 21V10\"/><path class=\"d p2\" d=\"M12 10C12 6 14.5 3.5 19 3.5C19 8 16.5 10 12 10Z\"/><path class=\"d p3\" d=\"M12 14C12 10.5 9.5 8.5 5 8.5C5 12.5 7.5 14 12 14Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

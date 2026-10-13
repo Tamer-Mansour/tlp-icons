@@ -1,0 +1,10 @@
+{
+  "name": "step-backward",
+  "category": "arrows",
+  "tags": ["step", "backward", "rewind", "previous", "skip"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"5\" x2=\"2\" y2=\"19\"/><polygon class=\"p2\" points=\"11 6 5 12 11 18\"/><polygon class=\"p2\" points=\"20 6 14 12 20 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 500 }
+  ]
+}

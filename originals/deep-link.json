@@ -1,0 +1,11 @@
+{
+  "name": "deep-link",
+  "category": "development",
+  "tags": ["deep link", "chain", "link", "url", "app"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"8\" height=\"5\" rx=\"2.5\"/><rect class=\"p2\" x=\"10\" y=\"9\" width=\"8\" height=\"5\" rx=\"2.5\"/><path class=\"p3\" d=\"M14 18h7M18 15l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

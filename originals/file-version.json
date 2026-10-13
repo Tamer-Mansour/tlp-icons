@@ -1,0 +1,11 @@
+{
+  "name": "file-version",
+  "category": "files",
+  "tags": ["file", "version", "revision", "history", "update"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"10\" height=\"13\" rx=\"1.5\"/><rect class=\"p2\" x=\"8\" y=\"2.5\" width=\"11\" height=\"12\" rx=\"1.5\"/><rect class=\"d p3\" x=\"13\" y=\"16\" width=\"7\" height=\"5\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

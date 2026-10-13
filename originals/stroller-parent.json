@@ -1,0 +1,11 @@
+{
+  "name": "stroller-parent",
+  "category": "people",
+  "tags": ["stroller", "pram", "parent", "baby", "pushchair"],
+  "svg": "<path class=\"d p1\" d=\"M7 10h11l-2 5H9z\"/><path class=\"p2\" d=\"M3 4h3l3 6\"/><circle class=\"p3\" cx=\"8\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 1000 }
+  ]
+}

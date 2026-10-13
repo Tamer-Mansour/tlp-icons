@@ -1,0 +1,10 @@
+{
+  "name": "envelope-pen",
+  "category": "communication",
+  "tags": ["envelope", "pen", "write", "letter", "compose", "mail"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"13\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M16 20.5l1-4L20 5.5l2.5 2.5-7 10z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flower-bud",
+  "category": "nature",
+  "tags": ["flower", "bud", "closed", "stem", "leaf"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 C15 7 15.5 10 12 12 C8.5 10 9 7 12 4 Z\"/><path class=\"p2\" d=\"M12 12 V21\"/><path class=\"p3\" d=\"M12 17 Q16 17 17.5 13.5 Q13.5 13 12 17 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 17px" }
+  ]
+}

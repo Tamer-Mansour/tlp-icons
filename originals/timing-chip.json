@@ -1,0 +1,11 @@
+{
+  "name": "timing-chip",
+  "category": "sport",
+  "tags": ["timing", "chip", "race", "tag", "sensor"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"12\" height=\"14\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M9 19V21.5M15 19V21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 700 }
+  ]
+}

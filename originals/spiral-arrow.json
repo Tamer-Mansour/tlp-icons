@@ -1,0 +1,10 @@
+{
+  "name": "spiral-arrow",
+  "category": "arrows",
+  "tags": ["spiral", "swirl", "coil", "loop", "twist", "inward"],
+  "svg": "<path class=\"p1\" d=\"M12 3a9 9 0 1 0 9 9a6 6 0 1 0-6 6a3 3 0 1 0 0-6\"/><path class=\"p2\" d=\"M15 9v3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

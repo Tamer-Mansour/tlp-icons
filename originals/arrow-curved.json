@@ -1,0 +1,10 @@
+{
+  "name": "arrow-curved",
+  "category": "emoji",
+  "tags": ["arrow", "curve", "turn", "redirect", "bend"],
+  "svg": "<path class=\"p1\" d=\"M5 20V11a6 6 0 0 1 6-6h8\"/><path class=\"p2\" d=\"M16 2l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

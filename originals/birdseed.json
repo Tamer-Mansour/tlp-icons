@@ -1,0 +1,10 @@
+{
+  "name": "birdseed",
+  "category": "nature",
+  "tags": ["birdseed", "seed", "bird", "feeder", "tray"],
+  "svg": "<path class=\"d p1\" d=\"M3 16 H21 Q21 20 18 20 H6 Q3 20 3 16 Z\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"10.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"17.5\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 500 }
+  ]
+}

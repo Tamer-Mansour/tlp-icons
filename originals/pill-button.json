@@ -1,0 +1,10 @@
+{
+  "name": "pill-button",
+  "category": "shapes",
+  "tags": ["pill", "button", "capsule", "rounded", "label"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"4\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 600, "delay": 900 }
+  ]
+}

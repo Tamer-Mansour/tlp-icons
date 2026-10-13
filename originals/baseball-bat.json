@@ -1,0 +1,10 @@
+{
+  "name": "baseball-bat",
+  "category": "sport",
+  "tags": ["baseball", "bat", "swing", "barrel", "sport", "diamond"],
+  "svg": "<path class=\"p1\" d=\"M4 20L11 13\"/><path class=\"d p2\" d=\"M11 13L15 7L19 4L20 5L16 11Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 600, "delay": 700, "origin": "11px 13px" }
+  ]
+}

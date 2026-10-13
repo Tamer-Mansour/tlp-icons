@@ -1,0 +1,11 @@
+{
+  "name": "tow-cable",
+  "category": "vehicles",
+  "tags": ["tow", "cable", "car", "towing", "rescue"],
+  "svg": "<path class=\"p1\" d=\"M2 13.5V11L3.5 8h4L9 11v2.5\"/><path class=\"p1\" d=\"M15 13.5V11l1.5-3h4L22 11v2.5\"/><circle class=\"p2\" cx=\"5\" cy=\"17\" r=\"1.5\"/><circle class=\"p2\" cx=\"19\" cy=\"17\" r=\"1.5\"/><path class=\"p3\" d=\"M9 13.5Q12 17 15 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 1100 }
+  ]
+}

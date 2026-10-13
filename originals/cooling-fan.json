@@ -1,0 +1,11 @@
+{
+  "name": "cooling-fan",
+  "category": "devices",
+  "tags": ["fan", "cooling", "blades", "airflow", "hardware", "spin"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 11C12 8 13 6.5 15.5 6\"/><path class=\"p2\" transform=\"rotate(90 12 12)\" d=\"M12 11C12 8 13 6.5 15.5 6\"/><path class=\"p2\" transform=\"rotate(180 12 12)\" d=\"M12 11C12 8 13 6.5 15.5 6\"/><path class=\"p2\" transform=\"rotate(270 12 12)\" d=\"M12 11C12 8 13 6.5 15.5 6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 700 }
+  ]
+}

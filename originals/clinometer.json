@@ -1,0 +1,11 @@
+{
+  "name": "clinometer",
+  "category": "science",
+  "tags": ["clinometer", "angle", "measure", "slope", "geology", "tool"],
+  "svg": "<path class=\"d p1\" d=\"M3 17 A9 9 0 0 1 21 17 Z\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"17\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 9px" },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1400 }
+  ]
+}

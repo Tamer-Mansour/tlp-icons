@@ -1,0 +1,11 @@
+{
+  "name": "time-slot",
+  "category": "time",
+  "tags": ["slot", "booking", "row", "schedule", "clock"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"2\"/><circle class=\"p2\" cx=\"7\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M11 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

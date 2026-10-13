@@ -1,0 +1,11 @@
+{
+  "name": "ticket-gate",
+  "category": "buildings",
+  "tags": ["ticket", "gate", "turnstile", "entry", "station", "bars"],
+  "svg": "<path class=\"p1\" d=\"M5 21V4M19 21V4\"/><path class=\"p2\" d=\"M5 9h14M5 15h14\"/><path class=\"p3\" d=\"M9 2h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

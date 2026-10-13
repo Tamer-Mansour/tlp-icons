@@ -1,0 +1,11 @@
+{
+  "name": "electricity-meter",
+  "category": "devices",
+  "tags": ["electricity", "meter", "energy", "bolt", "utility", "power"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"8.5\" r=\"2.5\"/><path class=\"p3\" d=\"M13 13.5L10.5 16.5H13.5L11 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000 }
+  ]
+}

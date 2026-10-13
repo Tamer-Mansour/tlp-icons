@@ -1,0 +1,11 @@
+{
+  "name": "transistor",
+  "category": "science",
+  "tags": ["transistor", "circuit", "electronics", "gate", "semiconductor"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 8 V16\"/><path class=\"p3\" d=\"M2 12 H9 M15 7.5 L19 3.5 M15 16.5 L19 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1200 }
+  ]
+}

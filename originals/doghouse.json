@@ -1,0 +1,10 @@
+{
+  "name": "doghouse",
+  "category": "buildings",
+  "tags": ["doghouse", "dog", "kennel", "pet", "arched roof"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V11a8 8 0 0 1 16 0v10z\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "peek", "dur": 600, "delay": 1000 }
+  ]
+}

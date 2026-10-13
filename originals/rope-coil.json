@@ -1,0 +1,11 @@
+{
+  "name": "rope-coil",
+  "category": "tools",
+  "tags": ["rope", "coil", "cord", "loops", "line", "climbing"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 900 }
+  ]
+}

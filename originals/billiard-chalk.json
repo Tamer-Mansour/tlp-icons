@@ -1,0 +1,11 @@
+{
+  "name": "billiard-chalk",
+  "category": "sport",
+  "tags": ["billiards", "pool", "chalk", "cue", "game"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"13\" height=\"6\" rx=\"1.5\"/><line class=\"p2\" x1=\"16\" y1=\"12\" x2=\"19\" y2=\"12\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

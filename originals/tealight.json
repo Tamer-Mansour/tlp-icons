@@ -1,0 +1,10 @@
+{
+  "name": "tealight",
+  "category": "home",
+  "tags": ["tealight", "candle", "flame", "cup", "glow", "light"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"15\" width=\"12\" height=\"5\" rx=\"2\"/><path class=\"d p2\" d=\"M12 3C12 3 8.5 7 8.5 9.5A3.5 3.5 0 0 0 15.5 9.5C15.5 7 12 3 12 3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 800 }
+  ]
+}

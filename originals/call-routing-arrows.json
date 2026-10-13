@@ -1,0 +1,11 @@
+{
+  "name": "call-routing-arrows",
+  "category": "communication",
+  "tags": ["call", "routing", "branch", "transfer", "arrows", "queue"],
+  "svg": "<path class=\"p1\" d=\"M12 2v8M12 10l-6 6M12 10l6 6\"/><path class=\"p2\" d=\"M6 16v5h5\"/><path class=\"p3\" d=\"M18 16v5h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

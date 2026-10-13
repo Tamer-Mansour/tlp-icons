@@ -1,0 +1,10 @@
+{
+  "name": "flight-path",
+  "category": "vehicles",
+  "tags": ["flight", "path", "plane", "route", "travel", "airplane"],
+  "svg": "<polygon class=\"d p1\" points=\"21 3 3 10 10 13 13 21 21 3\"/><path class=\"p2\" d=\"M3 19Q6 18 9 14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "launch", "dur": 1000, "delay": 800 }
+  ]
+}

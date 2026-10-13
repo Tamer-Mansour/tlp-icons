@@ -1,0 +1,10 @@
+{
+  "name": "redo-arrow",
+  "category": "design",
+  "tags": ["redo", "arrow", "forward", "repeat", "next", "reverse"],
+  "svg": "<path class=\"p1\" d=\"M16 5l4 4-4 4\"/><path class=\"p2\" d=\"M20 9H9a5 5 0 0 0 0 10h6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

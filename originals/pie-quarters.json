@@ -1,0 +1,10 @@
+{
+  "name": "pie-quarters",
+  "category": "shapes",
+  "tags": ["pie", "chart", "quarters", "split", "four"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3v18M3 12h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

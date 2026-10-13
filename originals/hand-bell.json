@@ -1,0 +1,11 @@
+{
+  "name": "hand-bell",
+  "category": "communication",
+  "tags": ["bell", "hand", "ring", "chime", "alert", "handle"],
+  "svg": "<path class=\"d p1\" d=\"M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z\"/><path class=\"p2\" d=\"M10 4.5a2 2 0 0 1 4 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 900, "origin": "12px 16px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "peer-to-peer",
+  "category": "connectivity",
+  "tags": ["peer", "p2p", "devices", "connection", "sync"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"8\" height=\"10\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"5\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M10 9H14M12 7L14 9L12 11M14 15H10M12 13L10 15L12 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 700 }
+  ]
+}

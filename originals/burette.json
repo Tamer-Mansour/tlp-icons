@@ -1,0 +1,10 @@
+{
+  "name": "burette",
+  "category": "science",
+  "tags": ["burette", "titration", "tap", "lab", "tube"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"2\" width=\"4\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M8 18 H16 M12 18 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

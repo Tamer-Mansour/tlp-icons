@@ -1,0 +1,11 @@
+{
+  "name": "scroll-wheel",
+  "category": "arrows",
+  "tags": ["scroll", "wheel", "mouse", "pointer", "roll", "input"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"6\"/><rect class=\"p2\" x=\"11\" y=\"6\" width=\"2\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 14.5v4M10.5 17l1.5 1.5 1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 1100 }
+  ]
+}

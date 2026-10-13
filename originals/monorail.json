@@ -1,0 +1,11 @@
+{
+  "name": "monorail",
+  "category": "vehicles",
+  "tags": ["monorail", "train", "rail", "hanging", "transit", "elevated"],
+  "svg": "<path class=\"p1\" d=\"M2 5 H22\"/><path class=\"p3\" d=\"M10 5 V9 M14 5 V9\"/><rect class=\"d p2\" x=\"7\" y=\"9\" width=\"10\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 5px" }
+  ]
+}

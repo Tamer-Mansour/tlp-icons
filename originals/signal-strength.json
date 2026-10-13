@@ -1,0 +1,12 @@
+{
+  "name": "signal-strength",
+  "category": "connectivity",
+  "tags": ["signal strength", "bars", "reception", "wifi bars", "level", "coverage"],
+  "svg": "<path class=\"p1\" d=\"M4 20v-4\"/><path class=\"p2\" d=\"M8 20v-7\"/><path class=\"p3\" d=\"M12 20v-10\"/><circle class=\"f p4\" cx=\"16\" cy=\"19.5\" r=\"1\"/><circle class=\"f p4\" cx=\"20\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 250, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "platform-number",
+  "category": "vehicles",
+  "tags": ["platform", "sign", "station", "number", "rail"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M11 6.5 L12.5 5.5 V10\"/><path class=\"p3\" d=\"M12 14 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1000 }
+  ]
+}

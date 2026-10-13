@@ -1,0 +1,11 @@
+{
+  "name": "postscript",
+  "category": "text",
+  "tags": ["letter", "ps", "afterthought", "addendum", "note"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"17\" y2=\"6\"/><line class=\"p1\" x1=\"3\" y1=\"11\" x2=\"13\" y2=\"11\"/><line class=\"p2\" x1=\"3\" y1=\"17\" x2=\"16\" y2=\"17\"/><path class=\"p3\" d=\"M13 14l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cream-puff",
+  "category": "food",
+  "tags": ["cream", "puff", "pastry", "dessert", "powdered"],
+  "svg": "<path class=\"d p1\" d=\"M4 14A8 7 0 0 1 20 14Z\"/><line class=\"p2\" x1=\"3\" y1=\"17\" x2=\"21\" y2=\"17\"/><circle class=\"f p3\" cx=\"9\" cy=\"10\" r=\"0.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"0.8\"/><circle class=\"f p3\" cx=\"15\" cy=\"10\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

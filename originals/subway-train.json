@@ -1,0 +1,11 @@
+{
+  "name": "subway-train",
+  "category": "vehicles",
+  "tags": ["subway", "train", "metro", "underground", "tram", "rail"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"14\" rx=\"4\"/><rect class=\"p2\" x=\"8.5\" y=\"6.5\" width=\"7\" height=\"4\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/><path d=\"M3 21 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 500, "delay": 1100 }
+  ]
+}

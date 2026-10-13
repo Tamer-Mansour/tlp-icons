@@ -1,0 +1,11 @@
+{
+  "name": "vet-paw-cross",
+  "category": "people",
+  "tags": ["vet", "paw", "cross", "animal", "pet", "veterinary"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"15\" rx=\"4.5\" ry=\"3.5\"/><circle class=\"f p2\" cx=\"4.5\" cy=\"10\" r=\"1.6\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"6\" r=\"1.6\"/><circle class=\"f p2\" cx=\"13.5\" cy=\"6\" r=\"1.6\"/><circle class=\"f p2\" cx=\"17.5\" cy=\"10\" r=\"1.6\"/><path class=\"p3\" d=\"M19.5 16.5 V20.5 M17.5 18.5 H21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

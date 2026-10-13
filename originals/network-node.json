@@ -1,0 +1,11 @@
+{
+  "name": "network-node",
+  "category": "development",
+  "tags": ["network", "node", "graph", "connection", "peer", "mesh"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M10 10.2L6 7.8M14 10.2L18 7.8M12 15v3\"/><circle class=\"p3\" cx=\"4.5\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"19.5\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"20\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

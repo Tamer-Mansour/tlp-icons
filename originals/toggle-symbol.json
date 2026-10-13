@@ -1,0 +1,10 @@
+{
+  "name": "toggle-symbol",
+  "category": "emoji",
+  "tags": ["toggle", "switch", "setting", "on", "option"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6.5\" width=\"20\" height=\"11\" rx=\"5.5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

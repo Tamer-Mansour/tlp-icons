@@ -1,0 +1,10 @@
+{
+  "name": "pulse-alert",
+  "category": "notifications",
+  "tags": ["pulse", "heartbeat", "alert", "signal", "health", "warning"],
+  "svg": "<path class=\"p1\" d=\"M3 12h4l2-5 4 10 2-5h6\"/><circle class=\"f p2\" cx=\"20\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

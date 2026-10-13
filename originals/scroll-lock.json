@@ -1,0 +1,11 @@
+{
+  "name": "scroll-lock",
+  "category": "interface",
+  "tags": ["scroll", "lock", "padlock", "scrollbar", "freeze", "security"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"10\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 10V7a3 3 0 0 1 6 0v3\"/><rect class=\"p3\" x=\"17\" y=\"4\" width=\"4\" height=\"16\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "scan", "dur": 900, "delay": 800 }
+  ]
+}

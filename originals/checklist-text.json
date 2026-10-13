@@ -1,0 +1,11 @@
+{
+  "name": "checklist-text",
+  "category": "text",
+  "tags": ["checklist", "checkbox", "tick", "task", "todo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 9l2 2 3.5-3.5\"/><line class=\"p3\" x1=\"14\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p3\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

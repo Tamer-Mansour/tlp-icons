@@ -1,0 +1,12 @@
+{
+  "name": "recycling-truck",
+  "category": "vehicles",
+  "tags": ["recycling", "truck", "recycle", "waste", "vehicle"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"14\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 9h3l3 3v3h-6z\"/><polygon class=\"p4\" points=\"5,13 8.5,7.5 12,13\"/><circle class=\"p3\" cx=\"6\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"18\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "roll", "dur": 800, "delay": 900 },
+    { "part": "p4", "anim": "spin", "dur": 1000, "delay": 1300 }
+  ]
+}

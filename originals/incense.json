@@ -1,0 +1,11 @@
+{
+  "name": "incense",
+  "category": "home",
+  "tags": ["incense", "stick", "smoke", "scent", "aroma", "candle"],
+  "svg": "<path class=\"p1\" d=\"M12 22V11\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/><path class=\"p2\" d=\"M12 6.5C10.5 5 13.5 3.5 12 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

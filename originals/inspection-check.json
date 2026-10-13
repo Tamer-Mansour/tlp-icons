@@ -1,0 +1,11 @@
+{
+  "name": "inspection-check",
+  "category": "notifications",
+  "tags": ["inspection", "magnifier", "check", "review", "search"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"6.5\"/><path class=\"p2\" d=\"M15 15l5.5 5.5\"/><path class=\"p3\" d=\"M7 10.5l2 2 3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

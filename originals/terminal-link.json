@@ -1,0 +1,11 @@
+{
+  "name": "terminal-link",
+  "category": "connectivity",
+  "tags": ["terminal", "link", "console", "command", "connect", "shell"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 9l3 3-3 3\"/><path class=\"p2\" d=\"M11 15h2\"/><path class=\"p3\" d=\"M16 12h2\"/><circle class=\"p3\" cx=\"20\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "user-stop",
+  "category": "people",
+  "tags": ["user", "stop", "square", "halt", "end", "person", "pause"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"9\" r=\"3.2\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1.5\"/><rect class=\"d p2\" x=\"15.5\" y=\"15.5\" width=\"6.5\" height=\"6.5\" rx=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 700 }
+  ]
+}

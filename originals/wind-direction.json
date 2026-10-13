@@ -1,0 +1,10 @@
+{
+  "name": "wind-direction",
+  "category": "weather",
+  "tags": ["wind", "direction", "compass", "arrow", "bearing"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7 17L17 7M17 7H11M17 7V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sailboat-race",
+  "category": "sport",
+  "tags": ["sailboat", "sailing", "race", "boat", "sport"],
+  "svg": "<path class=\"p1\" d=\"M12 3v13\"/><path class=\"d p2\" d=\"M12 4l6 10h-6z\"/><path class=\"p3\" d=\"M5 15h14l-2.5 3h-9z\"/><path class=\"p4\" d=\"M2 21q2.5-2 5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

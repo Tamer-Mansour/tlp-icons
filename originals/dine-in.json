@@ -1,0 +1,11 @@
+{
+  "name": "dine-in",
+  "category": "food",
+  "tags": ["dine", "restaurant", "plate", "fork", "knife", "meal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M3 3v5M5 3v5M3 8h2M4 8v13\"/><path class=\"p3\" d=\"M20 3c-2 2-2 6 0 8v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lock-layer",
+  "category": "interface",
+  "tags": ["lock", "layer", "padlock", "secure", "plane", "private"],
+  "svg": "<polygon class=\"d p1\" points=\"12 2 20 5 12 8 4 5\"/><rect class=\"p2\" x=\"8\" y=\"15\" width=\"8\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M10 15v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

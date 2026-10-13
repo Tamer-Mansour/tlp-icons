@@ -1,0 +1,10 @@
+{
+  "name": "redo-arc",
+  "category": "arrows",
+  "tags": ["redo", "forward", "again", "arc", "next", "step"],
+  "svg": "<path class=\"p1\" d=\"M15 14 H9 A5 5 0 0 1 9 4 H18\"/><polyline class=\"p2\" points=\"15 10 19 14 15 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

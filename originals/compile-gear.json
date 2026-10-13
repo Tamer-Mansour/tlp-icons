@@ -1,0 +1,11 @@
+{
+  "name": "compile-gear",
+  "category": "development",
+  "tags": ["compile", "build", "gear", "code", "output"],
+  "svg": "<polyline class=\"p1\" points=\"6 8 3 12 6 16\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"11\" y2=\"12\"/><circle class=\"d p3\" cx=\"15.5\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M15.5 4v4M15.5 16v4M19.5 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

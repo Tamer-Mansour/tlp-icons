@@ -1,0 +1,11 @@
+{
+  "name": "temple",
+  "category": "buildings",
+  "tags": ["temple", "columns", "pediment", "worship", "ancient"],
+  "svg": "<polygon class=\"d p1\" points=\"3,9 12,3 21,9\"/><path class=\"p2\" d=\"M6 11v7M10 11v7M14 11v7M18 11v7\"/><path class=\"p3\" d=\"M3 20h18M2 22h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

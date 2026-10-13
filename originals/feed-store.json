@@ -1,0 +1,11 @@
+{
+  "name": "feed-store",
+  "category": "buildings",
+  "tags": ["store", "grain", "feed", "farm", "shop", "sack"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 L4.5 4 H13.5 L15 10 Z\"/><path class=\"p2\" d=\"M4 10 V20 H14 V10\"/><path class=\"d p3\" d=\"M16.5 20 L18 15 H20 L21.5 20 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

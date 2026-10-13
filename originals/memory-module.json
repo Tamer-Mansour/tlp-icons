@@ -1,0 +1,11 @@
+{
+  "name": "memory-module",
+  "category": "devices",
+  "tags": ["memory", "module", "ram", "chip", "computer"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M5 9h3v4H5zM10.5 9h3v4h-3zM16 9h3v4h-3z\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 700, "delay": 1200 }
+  ]
+}

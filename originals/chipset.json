@@ -1,0 +1,11 @@
+{
+  "name": "chipset",
+  "category": "devices",
+  "tags": ["chipset", "chip", "processor", "pins", "circuit", "motherboard"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4\"/><path class=\"f p3\" d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

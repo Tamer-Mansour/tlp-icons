@@ -1,0 +1,10 @@
+{
+  "name": "handbrake",
+  "category": "vehicles",
+  "tags": ["handbrake", "parking", "brake", "lever", "car"],
+  "svg": "<path class=\"p1\" d=\"M8 21V8\"/><path class=\"p2\" d=\"M8 8h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 500, "origin": "8px 8px" }
+  ]
+}

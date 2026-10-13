@@ -1,0 +1,11 @@
+{
+  "name": "chess-clock",
+  "category": "sport",
+  "tags": ["chess", "clock", "timer", "game", "board", "tournament"],
+  "svg": "<circle class=\"d p1\" cx=\"6.5\" cy=\"13\" r=\"4.5\"/><circle class=\"p2\" cx=\"17.5\" cy=\"13\" r=\"4.5\"/><path class=\"p3\" d=\"M10 3h4M12 3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

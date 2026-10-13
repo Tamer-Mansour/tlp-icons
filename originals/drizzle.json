@@ -1,0 +1,10 @@
+{
+  "name": "drizzle",
+  "category": "nature",
+  "tags": ["drizzle", "rain", "cloud", "weather", "drops", "mist"],
+  "svg": "<path class=\"d p1\" d=\"M7 12h10a3.5 3.5 0 0 0 .5-7a5 5 0 0 0-9.5 1.5A3 3 0 0 0 7 12z\"/><path class=\"p2\" d=\"M8 16v1.5M12 17v1.5M16 16v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1200, "delay": 800 }
+  ]
+}

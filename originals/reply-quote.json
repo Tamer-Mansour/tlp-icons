@@ -1,0 +1,11 @@
+{
+  "name": "reply-quote",
+  "category": "text",
+  "tags": ["reply", "quote", "arrow", "message", "text"],
+  "svg": "<path class=\"p1\" d=\"M9 6L4 11L9 16M4 11H14Q19 11 19 16V20\"/><circle class=\"f p2\" cx=\"15\" cy=\"5\" r=\"1\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1\"/><path class=\"p3\" d=\"M3 20H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

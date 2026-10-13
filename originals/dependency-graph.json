@@ -1,0 +1,12 @@
+{
+  "name": "dependency-graph",
+  "category": "development",
+  "tags": ["dependency", "graph", "nodes", "network", "links"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"3\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"3\"/><circle class=\"p3\" cx=\"12\" cy=\"18\" r=\"3\"/><path class=\"p4\" d=\"M9 6h6M7.5 8.5l3 7M16.5 8.5l-3 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

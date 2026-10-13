@@ -1,0 +1,10 @@
+{
+  "name": "gesture-pinch",
+  "category": "interface",
+  "tags": ["gesture", "pinch", "zoom", "fingers", "touch", "squeeze"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M8.5 8.5L11 11M11 11v-2.5M11 11H8.5\"/><path class=\"p2\" d=\"M15.5 15.5L13 13M13 13v2.5M13 13h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 700, "delay": 500 }
+  ]
+}

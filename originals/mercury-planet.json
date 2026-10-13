@@ -1,0 +1,10 @@
+{
+  "name": "mercury-planet",
+  "category": "science",
+  "tags": ["mercury", "planet", "orbit", "small", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M3.54 8.92A9 9 0 0 1 8.92 3.54\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 1600, "delay": 800, "origin": "12px 12px" }
+  ]
+}

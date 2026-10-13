@@ -1,0 +1,10 @@
+{
+  "name": "meter-half",
+  "category": "charts",
+  "tags": ["gauge", "meter", "speed", "level", "half"],
+  "svg": "<path class=\"d p1\" d=\"M3 16a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 16l4-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 600, "origin": "12px 16px" }
+  ]
+}

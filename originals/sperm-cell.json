@@ -1,0 +1,10 @@
+{
+  "name": "sperm-cell",
+  "category": "science",
+  "tags": ["biology", "cell", "sperm", "tail", "reproduction"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M13 12c2-2 3.5 2 5.5 0s3-2 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 1200, "delay": 700, "origin": "13px 12px" }
+  ]
+}

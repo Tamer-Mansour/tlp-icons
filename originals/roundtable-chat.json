@@ -1,0 +1,10 @@
+{
+  "name": "roundtable-chat",
+  "category": "communication",
+  "tags": ["roundtable", "table", "meeting", "group", "discussion", "people"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"3\" r=\"1.5\"/><circle class=\"p2\" cx=\"21\" cy=\"12\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"21\" r=\"1.5\"/><circle class=\"p2\" cx=\"3\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

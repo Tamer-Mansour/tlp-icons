@@ -1,0 +1,11 @@
+{
+  "name": "batch-process",
+  "category": "interface",
+  "tags": ["batch", "process", "sheets", "documents", "forward"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"9\" height=\"10\" rx=\"1.5\"/><rect class=\"d p2\" x=\"6\" y=\"6\" width=\"9\" height=\"10\" rx=\"1.5\"/><path class=\"p3\" d=\"M17 11H21M18.5 8.5L21 11L18.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

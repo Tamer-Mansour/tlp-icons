@@ -1,0 +1,11 @@
+{
+  "name": "day-night-cycle",
+  "category": "time",
+  "tags": ["day", "night", "cycle", "sun", "moon", "daylight"],
+  "svg": "<path class=\"d p1\" d=\"M2 17a4.5 4.5 0 0 1 9 0z\"/><path class=\"p3\" d=\"M1 19.5h11\"/><path class=\"d p2\" d=\"M20 13A8 8 0 1 1 11 4A8 8 0 0 0 20 13z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stage-riser",
+  "category": "media",
+  "tags": ["stage", "riser", "platform", "performance", "concert", "step"],
+  "svg": "<polygon class=\"d p1\" points=\"2,20 5,10 19,10 22,20\"/><path class=\"p2\" d=\"M5 14h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

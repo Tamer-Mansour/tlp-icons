@@ -1,0 +1,11 @@
+{
+  "name": "garage-door-opener",
+  "category": "vehicles",
+  "tags": ["garage", "door", "opener", "remote", "button", "panel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M3 9h12M3 13.5h12\"/><rect class=\"p3\" x=\"17\" y=\"9\" width=\"4\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "star-trails",
+  "category": "photography",
+  "tags": ["star", "trails", "night", "sky", "arc"],
+  "svg": "<path class=\"p2\" d=\"M12 3a9 9 0 0 1 9 9M3 12a9 9 0 0 0 9 9\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p3\" cx=\"4.5\" cy=\"6\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

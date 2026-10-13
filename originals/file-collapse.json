@@ -1,0 +1,11 @@
+{
+  "name": "file-collapse",
+  "category": "files",
+  "tags": ["collapse", "inward", "arrows", "shrink", "minimize", "compress"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><path class=\"p2\" d=\"M12 7.5v3M10.5 9l1.5 1.5L13.5 9\"/><path class=\"p3\" d=\"M12 16.5v-3M10.5 15l1.5-1.5L13.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1100 }
+  ]
+}

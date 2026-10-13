@@ -1,0 +1,11 @@
+{
+  "name": "battery-charge",
+  "category": "vehicles",
+  "tags": ["battery", "charge", "electric", "power", "bolt"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"17\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M22 10v4\"/><path class=\"p3\" d=\"M11.5 9l-2 3h2.5l-2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 800 }
+  ]
+}

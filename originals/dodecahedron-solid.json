@@ -1,0 +1,10 @@
+{
+  "name": "dodecahedron-solid",
+  "category": "science",
+  "tags": ["dodecahedron", "pentagon", "solid", "polyhedron", "geometry", "faces", "shape"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 20,9 17,19 7,19 4,9\"/><path class=\"p2\" d=\"M4 9l8 2 8-2M12 11v-8M12 11l-3 8M12 11l3 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

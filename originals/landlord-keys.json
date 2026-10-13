@@ -1,0 +1,11 @@
+{
+  "name": "landlord-keys",
+  "category": "people",
+  "tags": ["landlord", "keys", "house", "rental", "property", "owner"],
+  "svg": "<path class=\"d p1\" d=\"M5 10.5l7-5.5 7 5.5V16H5z\"/><path class=\"p2\" d=\"M10.5 16v-3h3v3\"/><circle class=\"p3\" cx=\"6\" cy=\"20\" r=\"2\"/><path class=\"p3\" d=\"M8 20h11M16 20v-2.5M19 20v-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "6px 20px" }
+  ]
+}

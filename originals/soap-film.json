@@ -1,0 +1,11 @@
+{
+  "name": "soap-film",
+  "category": "science",
+  "tags": ["soap", "bubble", "film", "wire", "loop", "surface"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M7 12 Q12 10 17 12 Q12 14 7 12 Z\"/><path class=\"p3\" d=\"M9 8 Q10 6.5 11.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1000 }
+  ]
+}

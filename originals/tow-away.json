@@ -1,0 +1,11 @@
+{
+  "name": "tow-away",
+  "category": "vehicles",
+  "tags": ["tow", "away", "hook", "parking", "impound", "car"],
+  "svg": "<path class=\"d p1\" d=\"M3 15V12.5L5 9.5H15L17.5 12.5H21V15Z\"/><circle class=\"p2\" cx=\"7\" cy=\"16.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"16.5\" r=\"1.5\"/><path class=\"p3\" d=\"M19 15V19.5Q19 20.5 20 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1000, "origin": "19px 15px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "envelope-lock",
+  "category": "security",
+  "tags": ["envelope", "lock", "private", "mail", "secure"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"9.5\" y=\"12\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M10.5 12v-1.5a1.5 1.5 0 0 1 3 0V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 700 }
+  ]
+}

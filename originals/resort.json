@@ -1,0 +1,11 @@
+{
+  "name": "resort",
+  "category": "buildings",
+  "tags": ["resort", "palm", "holiday", "hotel", "beach", "vacation"],
+  "svg": "<path class=\"p1\" d=\"M7 21V11\"/><path class=\"p2\" d=\"M7 11c-2.5-2-4-2-5 0M7 11c2-2.5 4.5-2.5 6 0M7 11c-.5-2.5.5-4 2-5\"/><path class=\"d p3\" d=\"M13 10h8v11h-8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 900, "origin": "7px 11px" }
+  ]
+}

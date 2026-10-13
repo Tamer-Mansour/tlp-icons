@@ -1,0 +1,11 @@
+{
+  "name": "full-time",
+  "category": "time",
+  "tags": ["full", "time", "clock", "ring", "hours", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 12v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1300, "origin": "12px 12px" }
+  ]
+}

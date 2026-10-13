@@ -1,0 +1,11 @@
+{
+  "name": "cut-clipboard",
+  "category": "interface",
+  "tags": ["cut", "clipboard", "scissors", "copy", "paste", "edit"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M10 11.5L13 13.5M13 11.5L10 13.5\"/><circle class=\"p3\" cx=\"10\" cy=\"17\" r=\"1.5\"/><circle class=\"p3\" cx=\"14\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 900 }
+  ]
+}

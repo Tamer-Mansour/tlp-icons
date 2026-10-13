@@ -1,0 +1,11 @@
+{
+  "name": "bar-race",
+  "category": "charts",
+  "tags": ["bar race", "ranking", "race", "competition", "growth", "chart"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"4\"/><rect class=\"d p2\" x=\"3\" y=\"10\" width=\"13\" height=\"4\"/><rect class=\"d p3\" x=\"3\" y=\"16\" width=\"8\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0, "origin": "left" },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 350, "origin": "left" },
+    { "part": "p3", "anim": "dash", "dur": 700, "delay": 800 }
+  ]
+}

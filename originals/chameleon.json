@@ -1,0 +1,12 @@
+{
+  "name": "chameleon",
+  "category": "nature",
+  "tags": ["chameleon", "reptile", "curled tail", "branch", "eye", "lizard"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"11\" rx=\"6\" ry=\"5\"/><circle class=\"f p2\" cx=\"15\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M6 12C3 12 2 10 3 8C4 6 6 7 5 9\"/><path class=\"p4\" d=\"M2 19H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blink", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100, "origin": "6px 12px" }
+  ]
+}

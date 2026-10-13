@@ -1,0 +1,11 @@
+{
+  "name": "backlink-arrow",
+  "category": "arrows",
+  "tags": ["backlink", "return", "reference", "link", "connect"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"7\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M17.5 14 V10 Q17.5 7 14.5 7 H11.5 M13.5 5 L11.5 7 L13.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

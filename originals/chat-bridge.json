@@ -1,0 +1,11 @@
+{
+  "name": "chat-bridge",
+  "category": "communication",
+  "tags": ["chat", "bridge", "connect", "bubbles", "messaging", "link", "arch"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"6\" height=\"6\" rx=\"2\"/><rect class=\"d p2\" x=\"16\" y=\"10\" width=\"6\" height=\"6\" rx=\"2\"/><path class=\"p3\" d=\"M8 13 Q12 3 16 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 400, "origin": "8px 13px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "seatbelt",
+  "category": "vehicles",
+  "tags": ["seatbelt", "belt", "safety", "buckle", "car"],
+  "svg": "<path class=\"p1\" d=\"M6 3c0 9 5 13 12 15\"/><rect class=\"d p2\" x=\"9\" y=\"13\" width=\"5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

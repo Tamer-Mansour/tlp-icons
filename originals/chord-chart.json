@@ -1,0 +1,11 @@
+{
+  "name": "chord-chart",
+  "category": "media",
+  "tags": ["chord", "chart", "guitar", "fingering", "music", "grid"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M5 9H19M5 14H19\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"11.5\" r=\"1.3\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"16.5\" r=\"1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

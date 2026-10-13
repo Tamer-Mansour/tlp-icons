@@ -1,0 +1,10 @@
+{
+  "name": "file-prescription",
+  "category": "files",
+  "tags": ["prescription", "medicine", "pill", "health", "rx"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><rect class=\"d p2\" x=\"8.5\" y=\"12\" width=\"8\" height=\"3.5\" rx=\"1.75\" transform=\"rotate(45 12.5 13.75)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

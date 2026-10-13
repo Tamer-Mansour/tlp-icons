@@ -1,0 +1,11 @@
+{
+  "name": "measuring-cups",
+  "category": "home",
+  "tags": ["measuring", "cup", "kitchen", "cook", "volume"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h12l-2 11H7z\"/><path class=\"p2\" d=\"M17 12h2.5a2 2 0 0 1 0 4H17\"/><path class=\"p3\" d=\"M7 13h2M7 16h2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "pour", "dur": 1200, "delay": 900 }
+  ]
+}

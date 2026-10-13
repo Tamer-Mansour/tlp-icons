@@ -1,0 +1,11 @@
+{
+  "name": "handset-phone-line",
+  "category": "connectivity",
+  "tags": ["handset", "phone", "line", "cable", "jack", "telephone", "landline"],
+  "svg": "<path class=\"d p1\" d=\"M4 5l4-1 1.5 4-2 1.5c1 2.2 2.5 3.8 4.8 4.8l1.5-2 4 1.5-1 4C10.5 19.5 4 13.5 4 5z\"/><path class=\"p2\" d=\"M17.8 13.8h3v3.2\"/><circle class=\"f p3\" cx=\"20.8\" cy=\"19.8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

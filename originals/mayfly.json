@@ -1,0 +1,11 @@
+{
+  "name": "mayfly",
+  "category": "nature",
+  "tags": ["insect", "wings", "tail", "flying", "bug"],
+  "svg": "<rect class=\"d p1\" x=\"11\" y=\"9\" width=\"2\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M11 10 Q7 4 3 5 Q6 9 11 11 M13 10 Q17 4 21 5 Q18 9 13 11\"/><path class=\"p3\" d=\"M11 19 L10 22 M12 19 V22 M13 19 L14 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 600, "origin": "12px 11px" }
+  ]
+}

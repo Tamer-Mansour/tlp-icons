@@ -1,0 +1,11 @@
+{
+  "name": "checkout-arrow",
+  "category": "arrows",
+  "tags": ["checkout", "leave", "complete", "done", "clipboard", "finish"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"11\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 12.5l2 2 3.5-4\"/><path class=\"p3\" d=\"M14 12h7\"/><path class=\"p3\" d=\"M18 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "apartment",
+  "category": "buildings",
+  "tags": ["apartment", "flats", "residence", "housing", "windows", "tower"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"1\"/><path class=\"p2\" d=\"M9 6.5h2M13 6.5h2M9 10.5h2M13 10.5h2M9 14.5h2M13 14.5h2\"/><path class=\"p3\" d=\"M10 21.5v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "storytelling-scroll",
+  "category": "communication",
+  "tags": ["story", "scroll", "text", "narrative", "document", "tale"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"2\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect class=\"p3\" x=\"4\" y=\"19\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"p4\" d=\"M9 10.5h6M9 13.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "typeIn", "dur": 600, "delay": 900 }
+  ]
+}

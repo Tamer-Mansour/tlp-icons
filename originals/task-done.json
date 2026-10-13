@@ -1,0 +1,11 @@
+{
+  "name": "task-done",
+  "category": "notifications",
+  "tags": ["task", "done", "check", "complete", "checklist", "finished"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3.5\" width=\"11\" height=\"11\" rx=\"2.5\"/><path class=\"p2\" d=\"M5.5 9.5l2.5 2.5 4.5-4.5\"/><path class=\"p3\" d=\"M17 9h5M17 14h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

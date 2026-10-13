@@ -1,0 +1,10 @@
+{
+  "name": "loop-cycle",
+  "category": "arrows",
+  "tags": ["loop", "cycle", "repeat", "refresh", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M4 11a8 8 0 0 1 14-5\"/><polyline class=\"p1\" points=\"18 2 18 6 14 6\"/><path class=\"p2\" d=\"M20 13a8 8 0 0 1-14 5\"/><polyline class=\"p2\" points=\"6 22 6 18 10 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

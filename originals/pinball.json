@@ -1,0 +1,11 @@
+{
+  "name": "pinball",
+  "category": "sport",
+  "tags": ["pinball", "arcade", "table", "flipper", "bumper", "game"],
+  "svg": "<polygon class=\"d p1\" points=\"4,6 20,4 20,20 4,20\"/><circle class=\"p2\" cx=\"9\" cy=\"10\" r=\"1.5\"/><line class=\"p3\" x1=\"8\" y1=\"18\" x2=\"12\" y2=\"16\"/><circle class=\"f\" cx=\"15\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 500, "delay": 1100, "origin": "8px 18px" }
+  ]
+}

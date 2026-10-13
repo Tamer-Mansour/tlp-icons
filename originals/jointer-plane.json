@@ -1,0 +1,11 @@
+{
+  "name": "jointer-plane",
+  "category": "tools",
+  "tags": ["plane", "jointer", "wood", "sole", "carpentry"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"17\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M18 13V9h3v4\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dash", "dur": 700, "delay": 900 }
+  ]
+}

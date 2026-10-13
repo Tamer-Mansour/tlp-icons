@@ -1,0 +1,10 @@
+{
+  "name": "airplane-window",
+  "category": "vehicles",
+  "tags": ["airplane", "window", "flight", "cabin", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"16\" rx=\"5\"/><path class=\"p2\" d=\"M9.5 8.5a3.5 3.5 0 0 1 2.5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

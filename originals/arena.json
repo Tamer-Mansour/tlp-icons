@@ -1,0 +1,10 @@
+{
+  "name": "arena",
+  "category": "buildings",
+  "tags": ["arena", "stadium", "oval", "sports", "field"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"7\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

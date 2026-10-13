@@ -1,0 +1,11 @@
+{
+  "name": "ellipsis-symbol",
+  "category": "emoji",
+  "tags": ["ellipsis", "dots", "more", "loading", "continue"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"19\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 250 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

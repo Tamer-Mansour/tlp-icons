@@ -1,0 +1,11 @@
+{
+  "name": "cirrus",
+  "category": "weather",
+  "tags": ["cirrus", "high cloud", "wispy", "streaks", "sky", "weather"],
+  "svg": "<path class=\"p1\" d=\"M4 7 Q8 5 12 7 T20 7\"/><path class=\"p2\" d=\"M4 12 Q8 10 12 12 T20 12\"/><path class=\"p3\" d=\"M4 17 Q8 15 12 17 T20 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 900 }
+  ]
+}

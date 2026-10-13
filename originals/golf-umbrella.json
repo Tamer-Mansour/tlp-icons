@@ -1,0 +1,11 @@
+{
+  "name": "golf-umbrella",
+  "category": "sport",
+  "tags": ["golf", "umbrella", "canopy", "shade", "rain"],
+  "svg": "<path class=\"d p1\" d=\"M3 12Q3 4 12 4Q21 4 21 12Z\"/><path class=\"p2\" d=\"M12 4.5V12M7.5 6V12M16.5 6V12\"/><path class=\"p3\" d=\"M12 12V20A2 2 0 0 1 8 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chat-branch",
+  "category": "communication",
+  "tags": ["chat", "branch", "fork", "thread", "split", "conversation"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p3\" d=\"M8 7 H16 M8 10 H13\"/><path class=\"p2\" d=\"M12 14 V17 M12 17 L7 21 M12 17 L17 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 800, "origin": "12px 14px" }
+  ]
+}

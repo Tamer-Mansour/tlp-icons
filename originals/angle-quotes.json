@@ -1,0 +1,10 @@
+{
+  "name": "angle-quotes",
+  "category": "text",
+  "tags": ["angle", "quotes", "guillemets", "chevron", "text", "citation"],
+  "svg": "<polyline class=\"p1\" points=\"8 7 4 12 8 17\"/><polyline class=\"p1\" points=\"16 7 20 12 16 17\"/><path class=\"p2\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 600 }
+  ]
+}

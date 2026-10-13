@@ -1,0 +1,11 @@
+{
+  "name": "ping-status",
+  "category": "notifications",
+  "tags": ["ping", "radar", "signal", "latency", "network"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M6 13a5 5 0 0 1 5 5\"/><path class=\"p3\" d=\"M6 8a10 10 0 0 1 10 10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

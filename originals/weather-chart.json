@@ -1,0 +1,11 @@
+{
+  "name": "weather-chart",
+  "category": "weather",
+  "tags": ["weather", "chart", "bars", "sun", "forecast"],
+  "svg": "<path class=\"p1\" d=\"M3 21 H21\"/><rect class=\"p2\" x=\"5\" y=\"12\" width=\"3\" height=\"9\"/><rect class=\"p2\" x=\"10.5\" y=\"8\" width=\"3\" height=\"13\"/><rect class=\"p2\" x=\"16\" y=\"14\" width=\"3\" height=\"7\"/><circle class=\"d p3\" cx=\"18\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "breathe", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "contact-book",
+  "category": "communication",
+  "tags": ["contact", "book", "address", "phonebook", "people", "directory"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"8\" x2=\"5\" y2=\"8\"/><line class=\"p2\" x1=\"3\" y1=\"13\" x2=\"5\" y2=\"13\"/><circle class=\"p3\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M8 17a4 4 0 0 1 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

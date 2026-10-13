@@ -1,0 +1,10 @@
+{
+  "name": "fire-flame",
+  "category": "emoji",
+  "tags": ["fire", "flame", "heat", "burn", "hot", "blaze"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 C15 6 19 9 19 14 A7 7 0 0 1 5 14 C5 10 7.5 8 9 6 C9.5 8.5 10.5 9.5 12 10 C11.5 7 11.5 5 12 2.5 Z\"/><path class=\"p2\" d=\"M12 18.5 C11 18.5 10.5 17.8 10.5 17 C10.5 16 12 14.5 12 14.5 C12 14.5 13.5 16 13.5 17 C13.5 17.8 13 18.5 12 18.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 700, "origin": "12px 17px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "strawberry",
+  "category": "food",
+  "tags": ["strawberry", "berry", "fruit", "summer", "sweet", "fresh"],
+  "svg": "<path class=\"d p1\" d=\"M12 21 C7 17.5 4 14 4 10 C4 7 6.5 5 9 5 C10.5 5 11.5 6 12 7 C12.5 6 13.5 5 15 5 C17.5 5 20 7 20 10 C20 14 17 17.5 12 21 Z\"/><path class=\"p2\" d=\"M7 5.5 L9 7.5 L12 6 L15 7.5 L17 5.5 L15 4 L12 5 L9 4 Z\"/><circle class=\"f p3\" cx=\"9\" cy=\"11\" r=\"0.9\"/><circle class=\"f p3\" cx=\"15\" cy=\"11\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

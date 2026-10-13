@@ -1,0 +1,10 @@
+{
+  "name": "hail",
+  "category": "nature",
+  "tags": ["hail", "storm", "ice", "pellets", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"8\" r=\"1.5\"/><circle class=\"p1\" cx=\"14\" cy=\"7\" r=\"1.5\"/><circle class=\"p1\" cx=\"9\" cy=\"14\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"13\" r=\"1.5\"/><circle class=\"p2\" cx=\"19\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bounceIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 800, "delay": 500 }
+  ]
+}

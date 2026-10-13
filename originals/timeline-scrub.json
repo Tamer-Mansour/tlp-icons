@@ -1,0 +1,11 @@
+{
+  "name": "timeline-scrub",
+  "category": "interface",
+  "tags": ["timeline", "scrub", "playhead", "seek", "marker", "video"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"p2\" d=\"M12 8v13\"/><polygon class=\"d p3\" points=\"8 3 16 3 12 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

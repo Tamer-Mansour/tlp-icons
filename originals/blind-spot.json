@@ -1,0 +1,11 @@
+{
+  "name": "blind-spot",
+  "category": "vehicles",
+  "tags": ["blind", "spot", "car", "mirror", "warning", "sensor", "side"],
+  "svg": "<path class=\"d p1\" d=\"M2 15V12L4.5 10L7.5 7.5H14.5L17.5 10L20.5 11V15Z\"/><circle class=\"p2\" cx=\"6.5\" cy=\"16\" r=\"2\"/><circle class=\"p2\" cx=\"16.5\" cy=\"16\" r=\"2\"/><path class=\"p3\" d=\"M8 4Q12 0.5 16 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "nuclear-reactor",
+  "category": "science",
+  "tags": ["nuclear", "reactor", "cooling", "tower", "power"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 21L9 7H15L16.5 21Z\"/><path class=\"p2\" d=\"M8 7Q12 5 16 7\"/><path class=\"p3\" d=\"M3 21H21\"/><path class=\"p4\" d=\"M10.5 4.5C9 3 11.5 2 10.5 1M13.5 4.5C12 3 14.5 2 13.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

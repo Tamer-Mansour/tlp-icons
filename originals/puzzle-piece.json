@@ -1,0 +1,10 @@
+{
+  "name": "puzzle-piece",
+  "category": "development",
+  "tags": ["puzzle", "piece", "module", "component", "modular", "fit"],
+  "svg": "<path class=\"p1\" d=\"M4 4 H9.5 A2 2 0 0 1 13.5 4 H20 V9.5 A2 2 0 0 0 20 13.5 V20 H13.5 A2 2 0 0 1 9.5 20 H4 V13.5 A2 2 0 0 1 4 9.5 V4 Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

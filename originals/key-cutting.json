@@ -1,0 +1,12 @@
+{
+  "name": "key-cutting",
+  "category": "home",
+  "tags": ["key", "cutting", "locksmith", "copy", "teeth"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M11 11L20 20\"/><path class=\"p3\" d=\"M16 16l2-2M19 19l2-2\"/><path class=\"p4\" d=\"M20 2v4M18 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

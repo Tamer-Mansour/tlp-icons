@@ -1,0 +1,11 @@
+{
+  "name": "artboard-grid",
+  "category": "layout",
+  "tags": ["artboard", "grid", "canvas", "design", "boards"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"5\" width=\"5\" height=\"5\" rx=\"0.5\"/><rect class=\"p2\" x=\"14\" y=\"5\" width=\"5\" height=\"5\" rx=\"0.5\"/><rect class=\"d p3\" x=\"9.5\" y=\"13\" width=\"5\" height=\"6\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "counter-number",
+  "category": "development",
+  "tags": ["counter", "number", "count", "increment", "tally", "digit"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M12 16V9\"/><path class=\"p3\" d=\"M9 12l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1000 }
+  ]
+}

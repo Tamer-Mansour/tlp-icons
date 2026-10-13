@@ -1,0 +1,11 @@
+{
+  "name": "beer-can",
+  "category": "food",
+  "tags": ["beer", "can", "drink", "tab", "lager", "aluminum"],
+  "svg": "<rect class=\"d p1\" x=\"6.5\" y=\"5\" width=\"11\" height=\"16\" rx=\"2.5\"/><rect class=\"p2\" x=\"10\" y=\"2\" width=\"4\" height=\"1.5\" rx=\"0.75\"/><path class=\"p3\" d=\"M6.5 8h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "humidity-drop",
+  "category": "science",
+  "tags": ["humidity", "water", "weather", "moisture", "drop", "climate"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C12 3 6 10 6 14a6 6 0 0 0 12 0C18 10 12 3 12 3Z\"/><path class=\"p2\" d=\"M9.5 12q1.25-1 2.5 0t2.5 0M9.5 15q1.25-1 2.5 0t2.5 0M9.5 18q1.25-1 2.5 0t2.5 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "drip", "dur": 900, "delay": 800 }
+  ]
+}

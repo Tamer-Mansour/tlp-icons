@@ -1,0 +1,12 @@
+{
+  "name": "nail-gun",
+  "category": "tools",
+  "tags": ["nail", "gun", "framing", "carpentry", "fastener", "wood"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"12\" height=\"5\" rx=\"2\"/><path class=\"p2\" d=\"M7 10v4h3v-4\"/><path class=\"p3\" d=\"M19 10v7\"/><path class=\"p4\" d=\"M3 20h18\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

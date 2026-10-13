@@ -1,0 +1,11 @@
+{
+  "name": "document-scan",
+  "category": "interface",
+  "tags": ["document", "scan", "page", "ocr", "capture", "paper"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"4\" width=\"10\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M9.5 9h5M9.5 13h5M9.5 17h5\"/><path class=\"p3\" d=\"M2 6V2h4M18 2h4v4M2 18v4h4M22 18v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "zoomIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "scan", "dur": 900, "delay": 800 }
+  ]
+}

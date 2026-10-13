@@ -1,0 +1,10 @@
+{
+  "name": "tiling",
+  "category": "shapes",
+  "tags": ["tiles", "grid", "squares", "pattern", "layout", "offset"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

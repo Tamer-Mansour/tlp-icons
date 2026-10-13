@@ -1,0 +1,11 @@
+{
+  "name": "marking-gauge",
+  "category": "tools",
+  "tags": ["gauge", "marking", "scribe", "woodwork", "line"],
+  "svg": "<path class=\"p1\" d=\"M3 12H21\"/><rect class=\"d p2\" x=\"3\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M18 12L21 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

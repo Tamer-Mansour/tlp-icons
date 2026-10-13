@@ -1,0 +1,11 @@
+{
+  "name": "dns-server",
+  "category": "connectivity",
+  "tags": ["dns", "server", "resolver", "domain", "name lookup", "network"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"3\" y=\"13\" width=\"18\" height=\"7\" rx=\"2\"/><circle class=\"f p3\" cx=\"7\" cy=\"7.5\" r=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1200 }
+  ]
+}

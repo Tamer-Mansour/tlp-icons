@@ -1,0 +1,11 @@
+{
+  "name": "car-headrest",
+  "category": "vehicles",
+  "tags": ["headrest", "car", "seat", "neck", "comfort", "vehicle"],
+  "svg": "<rect class=\"d p2\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><rect class=\"p1\" x=\"8.5\" y=\"3\" width=\"7\" height=\"5\" rx=\"2.5\"/><path class=\"p3\" d=\"M6 15 H18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

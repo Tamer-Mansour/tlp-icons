@@ -1,0 +1,11 @@
+{
+  "name": "vise",
+  "category": "tools",
+  "tags": ["vise", "clamp", "jaws", "workbench", "grip", "bench"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"16\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M6 9v10M18 9v10\"/><path class=\"p3\" d=\"M12 2v3\"/><line class=\"p3\" x1=\"9\" y1=\"14\" x2=\"15\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "squeeze", "dur": 500, "delay": 900 }
+  ]
+}

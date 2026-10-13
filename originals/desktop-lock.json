@@ -1,0 +1,11 @@
+{
+  "name": "desktop-lock",
+  "category": "security",
+  "tags": ["desktop", "monitor", "lock", "computer", "workstation", "secure"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p1\" d=\"M12 16V19M8 21H16\"/><rect class=\"d p2\" x=\"15\" y=\"8\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M16 8V6.8A1.5 1.5 0 0 1 19 6.8V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

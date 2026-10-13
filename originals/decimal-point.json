@@ -1,0 +1,11 @@
+{
+  "name": "decimal-point",
+  "category": "science",
+  "tags": ["decimal", "point", "number", "digits", "math", "fraction"],
+  "svg": "<polyline class=\"p1\" points=\"5 8 8 5 8 19\"/><circle class=\"f p2\" cx=\"11.5\" cy=\"19\" r=\"1.2\"/><polyline class=\"p3\" points=\"20 15 14 15 17 5 17 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

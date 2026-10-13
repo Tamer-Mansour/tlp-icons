@@ -1,0 +1,11 @@
+{
+  "name": "calendar-leaf",
+  "category": "time",
+  "tags": ["calendar", "leaf", "date", "page", "schedule", "day", "flip"],
+  "svg": "<path class=\"p1\" d=\"M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9l-6 6H5a2 2 0 0 1-2-2z\"/><path class=\"p1\" d=\"M8 2v4M16 2v4M3 10h18\"/><path class=\"p2\" d=\"M15 21v-4a2 2 0 0 1 2-2h4\"/><path class=\"p3\" d=\"M8 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flipIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1200 }
+  ]
+}

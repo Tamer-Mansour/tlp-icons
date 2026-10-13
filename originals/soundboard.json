@@ -1,0 +1,11 @@
+{
+  "name": "soundboard",
+  "category": "media",
+  "tags": ["soundboard", "pads", "samples", "dj", "buttons", "audio"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"d p3\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 400, "delay": 900 }
+  ]
+}

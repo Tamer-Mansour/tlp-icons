@@ -1,0 +1,10 @@
+{
+  "name": "offboarding-exit",
+  "category": "people",
+  "tags": ["offboarding", "exit", "leaving", "door", "departure"],
+  "svg": "<path class=\"p1\" d=\"M14 3h6v18h-6\"/><circle class=\"p2\" cx=\"7\" cy=\"6.5\" r=\"2.5\"/><path class=\"p2\" d=\"M7 10.5v6.5M7 13.5l-2.5 2M7 13.5l2.5 2M7 17l-2 4.5M7 17l2 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 700 }
+  ]
+}

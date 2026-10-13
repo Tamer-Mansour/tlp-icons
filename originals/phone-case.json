@@ -1,0 +1,10 @@
+{
+  "name": "phone-case",
+  "category": "devices",
+  "tags": ["phone", "case", "cover", "protection", "mobile", "shell"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"3\"/><rect class=\"d p2\" x=\"8\" y=\"5\" width=\"8\" height=\"14\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

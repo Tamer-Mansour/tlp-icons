@@ -1,0 +1,11 @@
+{
+  "name": "drill-bit",
+  "category": "tools",
+  "tags": ["drill", "bit", "spiral", "flute", "twist", "drilling"],
+  "svg": "<path class=\"p1\" d=\"M9 4h6v10H9z\"/><path class=\"p2\" d=\"M9 7l6 2M9 10.5l6 2\"/><path class=\"d p3\" d=\"M9 14h6l-3 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

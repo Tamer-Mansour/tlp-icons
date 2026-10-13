@@ -1,0 +1,10 @@
+{
+  "name": "flush-cutter",
+  "category": "tools",
+  "tags": ["flush", "cutter", "wire", "snips", "electrician", "pliers"],
+  "svg": "<path class=\"p1\" d=\"M2 12h8\"/><path class=\"p2\" d=\"M10 12l10-6M10 12l10 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 800 }
+  ]
+}

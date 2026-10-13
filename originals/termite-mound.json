@@ -1,0 +1,11 @@
+{
+  "name": "termite-mound",
+  "category": "nature",
+  "tags": ["termite", "mound", "colony", "insect", "tower"],
+  "svg": "<path class=\"d p1\" d=\"M5 22 V11 Q5 4 12 4 Q19 4 19 11 V22 Z\"/><path class=\"p2\" d=\"M10 22 V18 Q12 15.5 14 18 V22\"/><circle class=\"f p3\" cx=\"9\" cy=\"10\" r=\"1.1\"/><circle class=\"f p3\" cx=\"15\" cy=\"11\" r=\"1.1\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

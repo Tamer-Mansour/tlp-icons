@@ -1,0 +1,10 @@
+{
+  "name": "teardrop",
+  "category": "shapes",
+  "tags": ["teardrop", "drop", "pointed", "liquid", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 C12 2.5 5 10 5 15 A7 7 0 0 0 19 15 C19 10 12 2.5 12 2.5 Z\"/><path class=\"p2\" d=\"M8.5 15 A3.5 3.5 0 0 0 12 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 800, "delay": 800 }
+  ]
+}

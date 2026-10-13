@@ -1,0 +1,11 @@
+{
+  "name": "rebar-cutter",
+  "category": "tools",
+  "tags": ["rebar", "cutter", "steel", "construction", "bar", "cut"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"10\" y2=\"12\"/><line class=\"p2\" x1=\"14\" y1=\"12\" x2=\"22\" y2=\"12\"/><path class=\"p3\" d=\"M12 4 V8 M12 16 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

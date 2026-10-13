@@ -1,0 +1,11 @@
+{
+  "name": "geofence-pin",
+  "category": "connectivity",
+  "tags": ["geofence", "pin", "location", "boundary", "zone", "map"],
+  "svg": "<path class=\"p1\" d=\"M12 3 A9 9 0 0 1 19.79 7.5 M21 12 A9 9 0 0 1 16.5 19.79 M12 21 A9 9 0 0 1 4.21 16.5 M3 12 A9 9 0 0 1 7.5 4.21\"/><path class=\"p2\" d=\"M12 6.5 A4 4 0 0 1 16 10.5 C16 13.5 12 17.5 12 17.5 C12 17.5 8 13.5 8 10.5 A4 4 0 0 1 12 6.5 Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

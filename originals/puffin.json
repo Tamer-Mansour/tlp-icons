@@ -1,0 +1,12 @@
+{
+  "name": "puffin",
+  "category": "nature",
+  "tags": ["puffin", "seabird", "colorful bill", "round", "coast", "bird"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"7\"/><path class=\"d p2\" d=\"M16 10C19 9 21 10 21 12C21 13.5 19 14 16 14Z\"/><circle class=\"f p3\" cx=\"14\" cy=\"10\" r=\"1\"/><path class=\"p4\" d=\"M9 19.5V21M13 19.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 1200 }
+  ]
+}

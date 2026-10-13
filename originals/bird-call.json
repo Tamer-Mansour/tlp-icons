@@ -1,0 +1,11 @@
+{
+  "name": "bird-call",
+  "category": "nature",
+  "tags": ["bird call", "whistle", "sound", "songbird", "calling"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 Q4 9 10 9 Q14 9 14 12 Q14 16 9 16 Q4 16 3 14 Z\"/><circle class=\"p2\" cx=\"13\" cy=\"7\" r=\"2.5\"/><path class=\"p2\" d=\"M15.3 6.5 L17.5 7 L15.3 7.5\"/><path class=\"p3\" d=\"M18 5 Q19.5 7 18 9 M20.5 3 Q22 7 20.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 900 }
+  ]
+}

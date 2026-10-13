@@ -1,0 +1,11 @@
+{
+  "name": "shower-hose",
+  "category": "home",
+  "tags": ["shower hose", "shower", "hose", "bathroom", "plumbing"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"6\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M8 5c4 0 4 4 0 7s-2 5 1 7\"/><path class=\"p3\" d=\"M5 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

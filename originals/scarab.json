@@ -1,0 +1,11 @@
+{
+  "name": "scarab",
+  "category": "nature",
+  "tags": ["scarab", "beetle", "horn", "insect", "shell", "bug"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M12 10V19\"/><path class=\"p3\" d=\"M12 6Q14 2 17 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1100, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "flag-option",
+  "category": "development",
+  "tags": ["flag", "option", "toggle", "switch", "cli", "setting"],
+  "svg": "<path class=\"p1\" d=\"M3 8h8\"/><path class=\"p2\" d=\"M3 16h8\"/><rect class=\"d p3\" x=\"12\" y=\"5\" width=\"9\" height=\"6\" rx=\"3\"/><circle class=\"f p4\" cx=\"18\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

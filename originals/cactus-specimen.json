@@ -1,0 +1,11 @@
+{
+  "name": "cactus-specimen",
+  "category": "science",
+  "tags": ["cactus", "specimen", "plant", "desert", "botany", "pot"],
+  "svg": "<rect class=\"p1\" x=\"9.5\" y=\"4\" width=\"5\" height=\"10\" rx=\"2.5\"/><path class=\"p2\" d=\"M9.5 12H6.5V9M14.5 10H17.5V7\"/><path class=\"d p3\" d=\"M6 17H18L16.5 21H7.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

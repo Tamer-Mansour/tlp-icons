@@ -1,0 +1,11 @@
+{
+  "name": "stationary-front",
+  "category": "weather",
+  "tags": ["front", "stationary", "weather", "map", "boundary", "forecast"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"14\" x2=\"22\" y2=\"14\"/><path class=\"p2\" d=\"M4 14a2.5 2.5 0 0 1 5 0M14 14a2.5 2.5 0 0 1 5 0\"/><polygon class=\"d p3\" points=\"9.5,14 13.5,14 11.5,17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

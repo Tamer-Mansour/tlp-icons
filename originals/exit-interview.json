@@ -1,0 +1,11 @@
+{
+  "name": "exit-interview",
+  "category": "people",
+  "tags": ["exit", "interview", "leaving", "departure", "door", "resignation"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"10\" height=\"18\" rx=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M16 12 H21 M18 9 L21 12 L18 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 1000, "delay": 1100 }
+  ]
+}

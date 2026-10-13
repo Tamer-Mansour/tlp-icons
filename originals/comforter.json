@@ -1,0 +1,10 @@
+{
+  "name": "comforter",
+  "category": "home",
+  "tags": ["comforter", "quilt", "blanket", "bed", "duvet", "warm"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M3 12.5l7-7M3 17.5l12-12M8 19l12-12M16 19l5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

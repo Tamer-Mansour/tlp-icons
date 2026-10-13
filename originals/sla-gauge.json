@@ -1,0 +1,10 @@
+{
+  "name": "sla-gauge",
+  "category": "charts",
+  "tags": ["sla", "gauge", "target", "compliance", "meter"],
+  "svg": "<path class=\"p1\" d=\"M3 17A9 9 0 0 1 21 17\"/><polyline class=\"p2\" points=\"9,13.5 11,15.5 15,11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "squeeze-bottle",
+  "category": "science",
+  "tags": ["squeeze", "bottle", "dropper", "wash", "lab"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"11\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M11 11V5H13V11\"/><circle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1100 }
+  ]
+}

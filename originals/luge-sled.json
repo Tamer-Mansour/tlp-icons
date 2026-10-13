@@ -1,0 +1,11 @@
+{
+  "name": "luge-sled",
+  "category": "sport",
+  "tags": ["luge", "sled", "toboggan", "winter", "track", "runners"],
+  "svg": "<path class=\"d p1\" d=\"M4 13h14l2 3h-16z\"/><line class=\"p2\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><line class=\"p3\" x1=\"8\" y1=\"13\" x2=\"13\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dash", "dur": 900, "delay": 900 }
+  ]
+}

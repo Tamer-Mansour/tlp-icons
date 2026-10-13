@@ -1,0 +1,12 @@
+{
+  "name": "query-graph",
+  "category": "development",
+  "tags": ["query", "graph", "nodes", "network", "relations"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2.5\"/><circle class=\"p3\" cx=\"12\" cy=\"18\" r=\"2.5\"/><path class=\"p4\" d=\"M8.5 6h7M7 8l3.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

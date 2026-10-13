@@ -1,0 +1,11 @@
+{
+  "name": "winner-ribbon",
+  "category": "interface",
+  "tags": ["winner", "rosette", "ribbon", "prize", "first", "award"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"5.5\"/><circle class=\"p3\" cx=\"12\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M9 13.5L7.5 21.5L12 19.5L16.5 21.5L15 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

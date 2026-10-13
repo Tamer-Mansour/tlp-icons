@@ -1,0 +1,11 @@
+{
+  "name": "canning-jar",
+  "category": "food",
+  "tags": ["jar", "canning", "preserves", "pantry", "lid"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"9\" width=\"12\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"4\" width=\"14\" height=\"3\" rx=\"1\"/><line class=\"p3\" x1=\"6\" y1=\"14\" x2=\"18\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

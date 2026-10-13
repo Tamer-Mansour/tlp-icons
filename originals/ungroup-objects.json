@@ -1,0 +1,10 @@
+{
+  "name": "ungroup-objects",
+  "category": "interface",
+  "tags": ["ungroup", "split", "objects", "separate", "detach", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p2\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "nudgeBack", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 300 }
+  ]
+}

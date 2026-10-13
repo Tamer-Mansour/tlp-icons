@@ -1,0 +1,11 @@
+{
+  "name": "veteran-flag-pin",
+  "category": "people",
+  "tags": ["veteran", "pin", "star", "badge", "honor", "service"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7.5\"/><polygon class=\"p2\" points=\"12 7.5 12.73 10.36 14.65 8.36 13.56 11.1 16.28 10.61 13.79 12.19 16.28 13.39 13.34 13.2 14.65 15.64 12.37 13.76 12 16.5 11.27 13.64 9.36 15.64 10.44 12.9 7.72 13.39 10.21 11.81 7.72 10.61 10.66 10.8 9.36 8.36 11.63 10.24\"/><path class=\"p3\" d=\"M9 21.5 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

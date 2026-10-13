@@ -1,0 +1,10 @@
+{
+  "name": "hair-straightener",
+  "category": "devices",
+  "tags": ["hair", "straightener", "flat", "iron", "styling", "plates", "beauty"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"5\" height=\"13\" rx=\"2.5\"/><rect class=\"d p1\" x=\"15\" y=\"3\" width=\"5\" height=\"13\" rx=\"2.5\"/><rect class=\"p2\" x=\"9\" y=\"16\" width=\"6\" height=\"6\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "shuttle", "dur": 900, "delay": 400 }
+  ]
+}

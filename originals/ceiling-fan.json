@@ -1,0 +1,11 @@
+{
+  "name": "ceiling-fan",
+  "category": "home",
+  "tags": ["ceiling", "fan", "blades", "cooling", "air", "room", "home"],
+  "svg": "<line class=\"p3\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"10\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2\"/><line class=\"p2\" x1=\"10\" y1=\"10\" x2=\"5\" y2=\"5\"/><line class=\"p2\" x1=\"14\" y1=\"10\" x2=\"19\" y2=\"5\"/><line class=\"p2\" x1=\"10\" y1=\"14\" x2=\"5\" y2=\"19\"/><line class=\"p2\" x1=\"14\" y1=\"14\" x2=\"19\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spinFast", "dur": 1100, "delay": 700, "origin": "12px 12px" }
+  ]
+}

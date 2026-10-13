@@ -1,0 +1,10 @@
+{
+  "name": "volleyball-net",
+  "category": "sport",
+  "tags": ["volleyball", "net", "mesh", "court", "sport", "tape"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"2\" rx=\".5\"/><path class=\"p2\" d=\"M6 8v11M12 8v11M18 8v11M2 11h20M2 15h20M2 19h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "unit-circle",
+  "category": "math",
+  "tags": ["unit", "circle", "radius", "trigonometry", "math", "geometry"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"20\" y2=\"12\"/><circle class=\"f p3\" cx=\"20\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 900 }
+  ]
+}

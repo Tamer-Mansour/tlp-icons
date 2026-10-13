@@ -1,0 +1,11 @@
+{
+  "name": "gasworks",
+  "category": "buildings",
+  "tags": ["gasworks", "gas", "holder", "tank", "pipe", "industry"],
+  "svg": "<path class=\"d p1\" d=\"M6 19V9a6 6 0 0 1 12 0v10z\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M6 14h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

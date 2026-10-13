@@ -1,0 +1,11 @@
+{
+  "name": "hand-auger",
+  "category": "tools",
+  "tags": ["hand", "auger", "spiral", "drill", "earth", "soil"],
+  "svg": "<path class=\"p2\" d=\"M7 3h10\"/><path class=\"p1\" d=\"M12 3v17\"/><path class=\"p3\" d=\"M8 8l8 2M8 12l8 2M8 16l8 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "spiralIn", "dur": 900, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1300, "origin": "12px 3px" }
+  ]
+}

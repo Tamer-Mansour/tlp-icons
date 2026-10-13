@@ -1,0 +1,11 @@
+{
+  "name": "watchhouse",
+  "category": "buildings",
+  "tags": ["watchhouse", "hut", "lookout", "posts", "tower", "watch"],
+  "svg": "<path class=\"p1\" d=\"M4 14l8-7 8 7v5H4z\"/><path class=\"p2\" d=\"M6 19v3M18 19v3\"/><rect class=\"p3\" x=\"10\" y=\"14\" width=\"4\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

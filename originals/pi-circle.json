@@ -1,0 +1,10 @@
+{
+  "name": "pi-circle",
+  "category": "math",
+  "tags": ["pi", "circle", "constant", "geometry", "math"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 8.5H16.5M9.5 8.5V16.5M14.5 8.5V16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

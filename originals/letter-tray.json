@@ -1,0 +1,10 @@
+{
+  "name": "letter-tray",
+  "category": "communication",
+  "tags": ["tray", "inbox", "letters", "mail", "documents", "stack"],
+  "svg": "<rect class=\"p2\" x=\"7\" y=\"3\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p1\" d=\"M3 12.5h5l1.5 2h5l1.5-2h5V19a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

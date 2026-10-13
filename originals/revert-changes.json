@@ -1,0 +1,10 @@
+{
+  "name": "revert-changes",
+  "category": "interface",
+  "tags": ["revert", "undo", "document", "changes", "back", "restore"],
+  "svg": "<path class=\"d p1\" d=\"M5.5 3.5h9l4 4v13h-13Z\"/><path class=\"p2\" d=\"M15 14.5h-6M11 12l-2.5 2.5L11 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 700 }
+  ]
+}

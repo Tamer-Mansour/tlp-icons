@@ -1,0 +1,11 @@
+{
+  "name": "pipe-clamp",
+  "category": "tools",
+  "tags": ["pipe", "clamp", "band", "hold", "plumbing", "bracket"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"20\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M8 14V10a4 4 0 0 1 8 0V14\"/><path class=\"p3\" d=\"M10 2.5H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

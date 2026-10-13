@@ -1,0 +1,11 @@
+{
+  "name": "debugger",
+  "category": "development",
+  "tags": ["debug", "bug", "play", "troubleshoot", "run"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"9\" width=\"8\" height=\"12\" rx=\"4\"/><path class=\"p2\" d=\"M8 13H4M16 13h4M8 17H5M16 17h3\"/><path class=\"p3\" d=\"M9 6.5a3 3 0 0 1 6 0M9 6.5L7 4.5M15 6.5l2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 1000, "delay": 1100 }
+  ]
+}

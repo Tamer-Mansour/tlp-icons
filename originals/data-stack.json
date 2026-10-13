@@ -1,0 +1,11 @@
+{
+  "name": "data-stack",
+  "category": "charts",
+  "tags": ["database", "stack", "storage", "layers", "server"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"4.5\" rx=\"7\" ry=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"7\" ry=\"2\"/><ellipse class=\"p3\" cx=\"12\" cy=\"19.5\" rx=\"7\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

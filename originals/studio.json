@@ -1,0 +1,11 @@
+{
+  "name": "studio",
+  "category": "buildings",
+  "tags": ["studio", "art studio", "easel", "canvas", "painting", "creative"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"4\" width=\"10\" height=\"8\"/><path class=\"p2\" d=\"M7 21l5-9 5 9\"/><path class=\"p3\" d=\"M18 2v3M15.5 3.5l-1.5-1M20.5 3.5l1.5-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

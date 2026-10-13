@@ -1,0 +1,10 @@
+{
+  "name": "chat-undo",
+  "category": "communication",
+  "tags": ["undo", "reverse", "revert", "chat", "back", "arrow"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p2\" d=\"M8.5 9h5.5a2.5 2.5 0 0 1 0 5H11\"/><path class=\"p2\" d=\"M11 6.5L8.5 9l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

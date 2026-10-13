@@ -1,0 +1,11 @@
+{
+  "name": "tower-crane",
+  "category": "tools",
+  "tags": ["crane", "tower", "construction", "hoist", "jib", "lifting"],
+  "svg": "<path class=\"p1\" d=\"M10 22V6M7 22H13\"/><path class=\"p2\" d=\"M4 6H20\"/><path class=\"p3\" d=\"M16 6V13\"/><rect class=\"d p3\" x=\"14\" y=\"13\" width=\"4\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 800 }
+  ]
+}

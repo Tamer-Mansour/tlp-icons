@@ -1,0 +1,11 @@
+{
+  "name": "town-square",
+  "category": "buildings",
+  "tags": ["town", "square", "fountain", "plaza", "centre", "water"],
+  "svg": "<path class=\"d p1\" d=\"M4 16h16c0 2.5-3.5 4-8 4s-8-1.5-8-4z\"/><path class=\"p2\" d=\"M12 16v-6M9 10h6\"/><path class=\"p3\" d=\"M12 4v3M8.5 5.5L9.5 7M15.5 5.5L14.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "breathe", "dur": 1300, "delay": 1000 }
+  ]
+}

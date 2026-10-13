@@ -1,0 +1,11 @@
+{
+  "name": "auto-layout",
+  "category": "design",
+  "tags": ["auto", "layout", "grid", "spark", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M14 3h7v7h-7ZM3 14h7v7H3Z\"/><path class=\"p3\" d=\"M17.5 13.5v8M13.5 17.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

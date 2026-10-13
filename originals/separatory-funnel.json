@@ -1,0 +1,10 @@
+{
+  "name": "separatory-funnel",
+  "category": "science",
+  "tags": ["lab", "funnel", "separate", "stopcock", "science"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16c0 6-3 9-7 10v4h-2v-4c-4-1-7-4-7-10z\"/><path class=\"p2\" d=\"M9 22h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 700, "delay": 800 }
+  ]
+}

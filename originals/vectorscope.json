@@ -1,0 +1,11 @@
+{
+  "name": "vectorscope",
+  "category": "photography",
+  "tags": ["vectorscope", "color", "scope", "video", "grading"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3V21M3 12H21\"/><circle class=\"f p3\" cx=\"15\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"10.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1100 }
+  ]
+}

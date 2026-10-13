@@ -1,0 +1,11 @@
+{
+  "name": "spacing-even",
+  "category": "design",
+  "tags": ["spacing", "even", "gap", "bars", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"3\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"10.5\" y=\"6\" width=\"3\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"18\" y=\"6\" width=\"3\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M8.25 10v4M15.75 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "stretch", "dur": 600, "delay": 800 }
+  ]
+}

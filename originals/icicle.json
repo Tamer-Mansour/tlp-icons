@@ -1,0 +1,11 @@
+{
+  "name": "icicle",
+  "category": "nature",
+  "tags": ["icicle", "ice", "frozen", "winter", "drip"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18\"/><path class=\"d p2\" d=\"M7 5h4l-2 11z\"/><path class=\"d p2\" d=\"M15 5h3l-1.5 7z\"/><circle class=\"f p3\" cx=\"9\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chart-search",
+  "category": "charts",
+  "tags": ["search", "chart", "find", "analytics", "query", "bars"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M7 19v-5M11 19v-9M15 19v-6\"/><circle class=\"d p3\" cx=\"17\" cy=\"7\" r=\"3.5\"/><path class=\"p3\" d=\"M19.5 9.5L21 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "magnify", "dur": 700, "delay": 900 }
+  ]
+}

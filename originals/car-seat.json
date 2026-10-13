@@ -1,0 +1,11 @@
+{
+  "name": "car-seat",
+  "category": "vehicles",
+  "tags": ["car", "seat", "child", "harness", "safety"],
+  "svg": "<path class=\"p1\" d=\"M6 3h12v9h2v6H4v-6h2z\"/><path class=\"p2\" d=\"M9 3v6M15 3v6M12 9v3\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

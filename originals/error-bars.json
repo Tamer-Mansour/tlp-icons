@@ -1,0 +1,10 @@
+{
+  "name": "error-bars",
+  "category": "charts",
+  "tags": ["error", "bars", "chart", "uncertainty", "statistics", "range"],
+  "svg": "<path class=\"p1\" d=\"M4 6h4M6 6v12M4 18h4\"/><path class=\"p1\" d=\"M10 8h4M12 8v9M10 17h4\"/><path class=\"p1\" d=\"M16 4h4M18 4v10M16 14h4\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"18\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

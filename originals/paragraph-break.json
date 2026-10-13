@@ -1,0 +1,10 @@
+{
+  "name": "paragraph-break",
+  "category": "text",
+  "tags": ["paragraph", "line break", "return", "text", "new line", "wrap"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M3 11h4\"/><path class=\"p2\" d=\"M19 9v4H9M12 10l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

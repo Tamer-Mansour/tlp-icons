@@ -1,0 +1,11 @@
+{
+  "name": "mountain-trail-sign",
+  "category": "sport",
+  "tags": ["trail", "sign", "mountain", "hiking", "direction", "route"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h14l3 3.5l-3 3.5h-14z\"/><polyline class=\"p2\" points=\"6,9 9.5,6 12,8 14.5,5.5 17,8\"/><line class=\"p3\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 11px" }
+  ]
+}

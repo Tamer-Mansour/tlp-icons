@@ -1,0 +1,12 @@
+{
+  "name": "chin-up-bar",
+  "category": "sport",
+  "tags": ["chin", "pullup", "bar", "hang", "workout"],
+  "svg": "<path class=\"p1\" d=\"M3 4H21\"/><path class=\"p2\" d=\"M4 4V8M20 4V8\"/><circle class=\"p3\" cx=\"12\" cy=\"10\" r=\"1.5\"/><path class=\"p3\" d=\"M9 4L10.5 8.5M15 4L13.5 8.5\"/><path class=\"p5\" d=\"M12 11.5V15M12 15L9 20M12 15L15 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p5", "anim": "swing", "dur": 800, "delay": 900, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "catalog",
+  "category": "files",
+  "tags": ["catalog", "grid", "thumbnails", "gallery", "index"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14v18H5z\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"7\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"8\" y=\"13\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"13\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

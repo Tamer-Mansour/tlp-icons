@@ -1,0 +1,11 @@
+{
+  "name": "presenter-screen",
+  "category": "communication",
+  "tags": ["presenter", "screen", "presentation", "speaker", "slides"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 15.5v3.5M8 20.5h8\"/><circle class=\"p3\" cx=\"15.5\" cy=\"7.5\" r=\"1.8\"/><path class=\"p3\" d=\"M12 14.5a3.5 3.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

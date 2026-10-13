@@ -1,0 +1,10 @@
+{
+  "name": "exposure-bracket",
+  "category": "photography",
+  "tags": ["exposure", "bracket", "bars", "photo", "hdr"],
+  "svg": "<path class=\"p2\" d=\"M3 7V4h3M18 4h3v3M21 17v3h-3M6 20H3v-3\"/><path class=\"p1\" d=\"M8 17V10M12 17V7M16 17V12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "equalize", "dur": 1000, "delay": 900, "origin": "bottom" }
+  ]
+}

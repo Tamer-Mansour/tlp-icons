@@ -1,0 +1,10 @@
+{
+  "name": "stacked-arrows",
+  "category": "arrows",
+  "tags": ["stacked", "forward", "sequence", "queue", "direction"],
+  "svg": "<path class=\"p1\" d=\"M3 7 H19 M14 3 L19 7 L14 11\"/><path class=\"p2\" d=\"M3 17 H19 M14 13 L19 17 L14 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

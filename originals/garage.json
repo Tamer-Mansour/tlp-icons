@@ -1,0 +1,11 @@
+{
+  "name": "garage",
+  "category": "home",
+  "tags": ["garage", "house", "door", "car", "roll", "building"],
+  "svg": "<path class=\"d p1\" d=\"M3 9l9-6 9 6v12H3z\"/><rect class=\"p2\" x=\"7\" y=\"12\" width=\"10\" height=\"9\"/><path class=\"p3\" d=\"M7 15h10M7 18h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

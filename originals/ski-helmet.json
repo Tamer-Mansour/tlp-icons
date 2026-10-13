@@ -1,0 +1,11 @@
+{
+  "name": "ski-helmet",
+  "category": "sport",
+  "tags": ["ski", "helmet", "snow", "winter", "visor", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M4 14C4 8 7.5 4 12 4C16.5 4 20 8 20 14V16H4Z\"/><path class=\"p2\" d=\"M6 12H18\"/><circle class=\"f p3\" cx=\"9\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

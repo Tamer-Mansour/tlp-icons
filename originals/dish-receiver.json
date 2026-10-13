@@ -1,0 +1,11 @@
+{
+  "name": "dish-receiver",
+  "category": "connectivity",
+  "tags": ["dish", "receiver", "focus", "antenna", "satellite", "reception", "signal"],
+  "svg": "<path class=\"p1\" d=\"M4 8c0 6 3.5 9 8 9s8-3 8-9\"/><path class=\"p2\" d=\"M12 17v4M9 21h6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

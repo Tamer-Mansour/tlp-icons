@@ -1,0 +1,11 @@
+{
+  "name": "stub-plug",
+  "category": "development",
+  "tags": ["stub", "plug", "dashed", "placeholder", "connector", "test"],
+  "svg": "<rect class=\"d p1\" x=\"12\" y=\"7\" width=\"7\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 10h3M9 14h3\"/><path class=\"p3\" d=\"M3 12h2M7.5 12h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 700, "delay": 800 }
+  ]
+}

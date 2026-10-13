@@ -1,0 +1,11 @@
+{
+  "name": "lobby-badge",
+  "category": "people",
+  "tags": ["lobby", "visitor", "pass", "badge", "guest", "entry"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9.5 3v-1h5v1\"/><circle class=\"p3\" cx=\"12\" cy=\"9.5\" r=\"2.2\"/><path class=\"p3\" d=\"M8 17.5v-1.5a4 4 0 0 1 8 0v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 900 }
+  ]
+}

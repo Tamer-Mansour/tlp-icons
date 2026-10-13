@@ -1,0 +1,11 @@
+{
+  "name": "equalizer",
+  "category": "media",
+  "tags": ["equalizer", "sliders", "audio", "mixer", "levels", "tune"],
+  "svg": "<path class=\"p1\" d=\"M6 4v16M12 4v16M18 4v16\"/><circle class=\"d p2\" cx=\"6\" cy=\"8\" r=\"2\"/><circle class=\"d p3\" cx=\"12\" cy=\"15\" r=\"2\"/><circle class=\"d p3\" cx=\"18\" cy=\"11\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

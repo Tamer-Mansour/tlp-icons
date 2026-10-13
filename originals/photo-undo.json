@@ -1,0 +1,10 @@
+{
+  "name": "photo-undo",
+  "category": "photography",
+  "tags": ["photo", "undo", "revert", "back", "reverse"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M4 12a8 8 0 1 0 2.4-5.7\"/><polyline class=\"p2\" points=\"4 4 4 8 8 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 900, "delay": 600 }
+  ]
+}

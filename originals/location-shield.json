@@ -1,0 +1,10 @@
+{
+  "name": "location-shield",
+  "category": "security",
+  "tags": ["location", "shield", "pin", "privacy", "protected", "map"],
+  "svg": "<path class=\"p1\" d=\"M12 21 C12 21 5 14.5 5 9.5 A7 7 0 0 1 19 9.5 C19 14.5 12 21 12 21 Z\"/><path class=\"d p2\" d=\"M12 6.5 L14.5 7.4 V9.6 C14.5 11 13.5 11.8 12 12.4 C10.5 11.8 9.5 11 9.5 9.6 V7.4 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

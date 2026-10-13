@@ -1,0 +1,10 @@
+{
+  "name": "prairie",
+  "category": "nature",
+  "tags": ["prairie", "grassland", "horizon", "grass", "plains", "field"],
+  "svg": "<path class=\"p1\" d=\"M2 18h20\"/><path class=\"p2\" d=\"M5 18l1-3M6 18v-4M7 18l-1-3M13 18l1-3M14 18v-4M15 18l-1-3M19 18l1-2M20 18v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 800, "origin": "bottom" }
+  ]
+}

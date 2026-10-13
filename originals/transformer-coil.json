@@ -1,0 +1,11 @@
+{
+  "name": "transformer-coil",
+  "category": "science",
+  "tags": ["electric", "transformer", "coil", "core", "current", "induction"],
+  "svg": "<path class=\"p1\" d=\"M11 3v18M13 3v18\"/><path class=\"p2\" d=\"M9 6a2 2 0 0 0 0 4M9 10a2 2 0 0 0 0 4M9 14a2 2 0 0 0 0 4\"/><path class=\"p3\" d=\"M15 6a2 2 0 0 1 0 4M15 10a2 2 0 0 1 0 4M15 14a2 2 0 0 1 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

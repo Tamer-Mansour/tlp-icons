@@ -1,0 +1,11 @@
+{
+  "name": "dentist-person-tooth",
+  "category": "people",
+  "tags": ["dentist", "person", "tooth", "dental", "teeth", "clinic"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M1.5 21v-1a6 6 0 0 1 6-6h1a6 6 0 0 1 6 6v1\"/><path class=\"d p3\" d=\"M17.5 8.5c0-2.2 1.2-3.5 2-3.5s2 1.3 2 3.5v2.5c0 1.5-.5 2.5-.7 3.8l-.8 4.7c-.1.6-.6 1-1 1s-.9-.4-1-1l-.8-4.7c-.2-1.3-.7-2.3-.7-3.8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

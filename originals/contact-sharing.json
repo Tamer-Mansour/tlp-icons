@@ -1,0 +1,11 @@
+{
+  "name": "contact-sharing",
+  "category": "communication",
+  "tags": ["contact", "sharing", "card", "share", "profile", "send"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"12\" rx=\"2\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M14 15H19M16.5 12.5L19 15L16.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

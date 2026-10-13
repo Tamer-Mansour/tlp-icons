@@ -1,0 +1,10 @@
+{
+  "name": "radioactive-symbol",
+  "category": "emoji",
+  "tags": ["radiation", "radioactive", "nuclear", "hazard", "warning", "atom"],
+  "svg": "<path class=\"p1\" d=\"M12 12L12 3A9 9 0 0 1 19.79 7.5Z\"/><path class=\"p1\" d=\"M12 12L19.79 16.5A9 9 0 0 1 12 21Z\"/><path class=\"p1\" d=\"M12 12L4.21 16.5A9 9 0 0 1 4.21 7.5Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

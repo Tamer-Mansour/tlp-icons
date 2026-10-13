@@ -1,0 +1,10 @@
+{
+  "name": "folder-bell",
+  "category": "files",
+  "tags": ["folder", "bell", "notification", "alert", "reminder"],
+  "svg": "<path class=\"p1\" d=\"M3 6.5A1.5 1.5 0 0 1 4.5 5H9l2 2h8.5A1.5 1.5 0 0 1 21 8.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z\"/><path class=\"p2\" d=\"M14.5 13.5v-2a2.25 2.25 0 0 1 4.5 0v2l.75 1.25h-6zM16.25 16.5h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "16.75px 9.25px" }
+  ]
+}

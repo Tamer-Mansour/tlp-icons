@@ -1,0 +1,11 @@
+{
+  "name": "winners-cup",
+  "category": "sport",
+  "tags": ["winner", "cup", "trophy", "champion", "award"],
+  "svg": "<path class=\"d p1\" d=\"M7 4H17V10Q17 15 12 15Q7 15 7 10Z\"/><path class=\"p2\" d=\"M7 6H4V8Q4 11 7 11M17 6H20V8Q20 11 17 11M12 15V18M8 20.5H16\"/><polygon class=\"p3\" points=\"12,6.5 12.6,8.3 14.5,8.3 13,9.4 13.6,11.2 12,10.1 10.4,11.2 11,9.4 9.5,8.3 11.4,8.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1300 }
+  ]
+}

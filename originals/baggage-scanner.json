@@ -1,0 +1,11 @@
+{
+  "name": "baggage-scanner",
+  "category": "buildings",
+  "tags": ["baggage", "scanner", "luggage", "airport", "suitcase", "security"],
+  "svg": "<path class=\"p2\" d=\"M2 18h20\"/><rect class=\"d p1\" x=\"7\" y=\"9\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p1\" d=\"M10 9V7h4v2\"/><line class=\"p3\" x1=\"3\" y1=\"4\" x2=\"21\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "scanX", "dur": 1000, "delay": 1000 }
+  ]
+}

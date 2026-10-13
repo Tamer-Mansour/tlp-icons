@@ -1,0 +1,10 @@
+{
+  "name": "zero-baseline",
+  "category": "charts",
+  "tags": ["zero", "baseline", "axis", "crossing", "reference"],
+  "svg": "<path class=\"p1\" d=\"M2 16C5 6 9 6 12 12S18 19 22 8\"/><path class=\"p2\" d=\"M2 12H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

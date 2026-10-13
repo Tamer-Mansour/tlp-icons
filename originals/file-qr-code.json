@@ -1,0 +1,11 @@
+{
+  "name": "file-qr-code",
+  "category": "files",
+  "tags": ["file", "qr", "code", "scan", "barcode", "grid"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><rect class=\"p2\" x=\"8\" y=\"9\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"9\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"8\" y=\"14\" width=\"3\" height=\"3\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

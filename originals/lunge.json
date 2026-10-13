@@ -1,0 +1,13 @@
+{
+  "name": "lunge",
+  "category": "sport",
+  "tags": ["lunge", "legs", "figure", "exercise", "knee", "workout"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4\" r=\"2\"/><path class=\"p2\" d=\"M12 7 V13\"/><path class=\"p3\" d=\"M12 13 L16 16 L16 21\"/><path class=\"p4\" d=\"M12 13 L8 17 L4 21\"/><path class=\"p5\" d=\"M12 9 L17 11\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p5", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p1", "anim": "nod", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bowstring",
+  "category": "sport",
+  "tags": ["bow", "bowstring", "archery", "string", "arrow", "shoot"],
+  "svg": "<path class=\"p1\" d=\"M7 3q-5 9 0 18\"/><path class=\"p2\" d=\"M7 3v18\"/><path class=\"p3\" d=\"M9 12h11M17 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1300 }
+  ]
+}

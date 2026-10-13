@@ -1,0 +1,11 @@
+{
+  "name": "inverse-sine",
+  "category": "math",
+  "tags": ["inverse", "sine", "arcsin", "trigonometry", "flip"],
+  "svg": "<path class=\"p1\" d=\"M3 12C5.5 7 8.5 7 12 12C15.5 17 18.5 17 21 12\"/><path class=\"p2\" d=\"M4 20C4 10 10 4 20 4\"/><polyline class=\"p3\" points=\"15.5,4 20,4 20,8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "transformation-translate",
+  "category": "math",
+  "tags": ["translate", "translation", "slide", "move", "transform", "shift"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"14\" y=\"9\" width=\"7\" height=\"7\"/><line class=\"p3\" x1=\"9\" y1=\"4\" x2=\"18\" y2=\"4\"/><polyline class=\"p3\" points=\"15,2 18,4 15,6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sketchbook",
+  "category": "files",
+  "tags": ["sketch", "drawing", "art", "book", "notebook"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M4 6.5h2.5M4 11h2.5M4 15.5h2.5\"/><path class=\"p3\" d=\"M8 15c1-2.5 2.5-2.5 3.5 0s2.5 2.5 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

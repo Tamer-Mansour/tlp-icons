@@ -1,0 +1,10 @@
+{
+  "name": "catalan-number",
+  "category": "math",
+  "tags": ["catalan", "number", "dyck", "path", "combinatorics", "math"],
+  "svg": "<polyline class=\"p1\" points=\"2,19 6,15 8,17 12,13 16,17 18,15 22,19\"/><path class=\"p2\" d=\"M2 19H22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

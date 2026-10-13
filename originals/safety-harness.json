@@ -1,0 +1,11 @@
+{
+  "name": "safety-harness",
+  "category": "tools",
+  "tags": ["harness", "safety", "straps", "fall", "protection", "climbing"],
+  "svg": "<path class=\"p1\" d=\"M6 3L12 10L18 3\"/><path class=\"p2\" d=\"M4 18H20\"/><circle class=\"d p3\" cx=\"12\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

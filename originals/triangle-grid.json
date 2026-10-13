@@ -1,0 +1,11 @@
+{
+  "name": "triangle-grid",
+  "category": "shapes",
+  "tags": ["triangle", "grid", "tessellation", "pattern", "geometry", "facets"],
+  "svg": "<path class=\"p1\" d=\"M12 3L21 20H3Z\"/><path class=\"p2\" d=\"M5.25 15.75H18.75M7.5 11.5H16.5\"/><path class=\"d p3\" d=\"M12 3L7.5 11.5H16.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "flaring-tool",
+  "category": "tools",
+  "tags": ["flaring", "tool", "tube", "cone", "die", "plumbing"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"14\" y2=\"12\"/><polygon class=\"d p2\" points=\"14,8 20,4 20,20 14,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

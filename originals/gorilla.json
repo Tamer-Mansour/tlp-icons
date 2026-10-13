@@ -1,0 +1,12 @@
+{
+  "name": "gorilla",
+  "category": "nature",
+  "tags": ["animal", "ape", "jungle", "strong", "primate"],
+  "svg": "<path class=\"d p1\" d=\"M4 21v-3c0-3 2.5-5 5-5.5h6c2.5.5 5 2.5 5 5.5v3z\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"3.5\"/><path class=\"p3\" d=\"M10 5.5h4\"/><circle class=\"f p4\" cx=\"10.5\" cy=\"7.8\" r=\"0.8\"/><circle class=\"f p4\" cx=\"13.5\" cy=\"7.8\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

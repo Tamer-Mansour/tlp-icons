@@ -1,0 +1,10 @@
+{
+  "name": "x-ray-image",
+  "category": "science",
+  "tags": ["xray", "image", "bone", "medical", "scan", "radiology"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M8 10H16M8 14H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 800 }
+  ]
+}

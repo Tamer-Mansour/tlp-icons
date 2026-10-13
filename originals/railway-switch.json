@@ -1,0 +1,11 @@
+{
+  "name": "railway-switch",
+  "category": "vehicles",
+  "tags": ["railway", "switch", "track", "rail", "points"],
+  "svg": "<path class=\"p1\" d=\"M2 18h20\"/><path class=\"p2\" d=\"M10 18l3-4h9\"/><circle class=\"f p3\" cx=\"10\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

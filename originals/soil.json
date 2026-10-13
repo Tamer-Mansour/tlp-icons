@@ -1,0 +1,11 @@
+{
+  "name": "soil",
+  "category": "nature",
+  "tags": ["soil", "earth", "layers", "root", "ground"],
+  "svg": "<path class=\"p1\" d=\"M3 9h18\"/><path class=\"p2\" d=\"M3 15h18\"/><path class=\"p3\" d=\"M12 15c0 2-2 3-3 5M12 15c0 2 2 3 3 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 800, "origin": "12px 15px" }
+  ]
+}

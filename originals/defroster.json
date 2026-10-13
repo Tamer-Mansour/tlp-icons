@@ -1,0 +1,10 @@
+{
+  "name": "defroster",
+  "category": "vehicles",
+  "tags": ["defroster", "windscreen", "heat", "defrost", "windshield", "car"],
+  "svg": "<path class=\"d p1\" d=\"M4 6H20L18 15H6Z\"/><path class=\"p2\" d=\"M5 19.5Q6.75 18 8.5 19.5T12 19.5T15.5 19.5T19 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800 }
+  ]
+}

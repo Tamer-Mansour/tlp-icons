@@ -1,0 +1,10 @@
+{
+  "name": "cilia-cell",
+  "category": "science",
+  "tags": ["cilia", "cell", "hairs", "membrane", "biology", "edge"],
+  "svg": "<path class=\"p1\" d=\"M4 18a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M7 11.8v-2.3M9.5 10.4v-1.9M12 10v-2M14.5 10.4v-1.9M17 11.8v-2.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 700, "origin": "12px 18px" }
+  ]
+}

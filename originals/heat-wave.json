@@ -1,0 +1,10 @@
+{
+  "name": "heat-wave",
+  "category": "weather",
+  "tags": ["heat wave", "sun", "hot", "summer", "temperature", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M4 13 q2.5 -2 5 0 t5 0 t5 0 t2 0 M4 16.5 q2.5 -2 5 0 t5 0 t5 0 t2 0 M4 20 q2.5 -2 5 0 t5 0 t5 0 t2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "post-box",
+  "category": "buildings",
+  "tags": ["post", "box", "mailbox", "letter", "mail", "slot"],
+  "svg": "<path class=\"d p1\" d=\"M6 21V11a6 6 0 0 1 12 0v10z\"/><path class=\"p2\" d=\"M9 11h6\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

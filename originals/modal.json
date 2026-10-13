@@ -1,0 +1,10 @@
+{
+  "name": "modal",
+  "category": "interface",
+  "tags": ["modal", "popup", "overlay", "dialog", "window"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"2\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 300 }
+  ]
+}

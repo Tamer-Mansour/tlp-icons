@@ -1,0 +1,11 @@
+{
+  "name": "pod-cluster",
+  "category": "connectivity",
+  "tags": ["pod", "cluster", "capsule", "group", "nodes", "kubernetes"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><rect class=\"p2\" x=\"6\" y=\"10\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"14\" y=\"10\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "breathe", "dur": 800, "delay": 900 }
+  ]
+}

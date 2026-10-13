@@ -1,0 +1,11 @@
+{
+  "name": "user-tag",
+  "category": "people",
+  "tags": ["tag", "person", "label", "price", "user"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 21a5 5 0 0 1 10 0\"/><path class=\"d p2\" d=\"M14 13h4.5L22 16.5 17.5 21 14 17.5z\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

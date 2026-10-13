@@ -1,0 +1,10 @@
+{
+  "name": "panel-open-arrow",
+  "category": "arrows",
+  "tags": ["panel", "open", "expand", "reveal", "side", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4.5\" width=\"12\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M17 12h4M19 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

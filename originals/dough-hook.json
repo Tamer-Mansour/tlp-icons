@@ -1,0 +1,11 @@
+{
+  "name": "dough-hook",
+  "category": "food",
+  "tags": ["dough", "hook", "mixer", "kneading", "baking"],
+  "svg": "<path class=\"d p1\" d=\"M4 13H20C20 19 17 21 12 21C7 21 4 19 4 13Z\"/><path class=\"p2\" d=\"M12 3V13\"/><path class=\"p3\" d=\"M12 13C12 17 15 18 16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

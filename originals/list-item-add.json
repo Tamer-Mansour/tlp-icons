@@ -1,0 +1,10 @@
+{
+  "name": "list-item-add",
+  "category": "text",
+  "tags": ["add", "list", "plus", "new item", "insert"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"7\" x2=\"14\" y2=\"7\"/><line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"14\" y2=\"12\"/><line class=\"p1\" x1=\"3\" y1=\"17\" x2=\"11\" y2=\"17\"/><path class=\"p2\" d=\"M18 14v8M14 18h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

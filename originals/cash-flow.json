@@ -1,0 +1,11 @@
+{
+  "name": "cash-flow",
+  "category": "charts",
+  "tags": ["cash", "flow", "money", "transfer", "movement", "balance"],
+  "svg": "<path class=\"p1\" d=\"M4 5H20M17 2.5L20 5L17 7.5\"/><path class=\"p3\" d=\"M20 19H4M7 16.5L4 19L7 21.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "flipY", "dur": 900, "delay": 800 }
+  ]
+}

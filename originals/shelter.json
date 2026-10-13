@@ -1,0 +1,11 @@
+{
+  "name": "shelter",
+  "category": "buildings",
+  "tags": ["shelter", "protect", "home", "roof", "safe", "refuge"],
+  "svg": "<path class=\"p1\" d=\"M5 12v9h14v-9\"/><path class=\"p2\" d=\"M2 12c0-5.5 4.5-9 10-9s10 3.5 10 9\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 1100 }
+  ]
+}

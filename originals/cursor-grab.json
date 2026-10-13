@@ -1,0 +1,10 @@
+{
+  "name": "cursor-grab",
+  "category": "interface",
+  "tags": ["grab", "hand", "drag", "move", "cursor", "open"],
+  "svg": "<path class=\"p1\" d=\"M6 11.5V7a1.5 1.5 0 0 1 3 0V11M9 11V5a1.5 1.5 0 0 1 3 0v6M12 11V6.5a1.5 1.5 0 0 1 3 0V11M15 11.5V8.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-.5a5 5 0 0 1-4-2l-2.5-3.5a1.5 1.5 0 0 1 2.3-1.9L8 16\"/><path class=\"p2\" d=\"M6 11.5a1.5 1.5 0 0 0-3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 1100 }
+  ]
+}

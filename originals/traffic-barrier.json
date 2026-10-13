@@ -1,0 +1,11 @@
+{
+  "name": "traffic-barrier",
+  "category": "vehicles",
+  "tags": ["barrier", "traffic", "road", "jersey", "block"],
+  "svg": "<path class=\"d p1\" d=\"M3 20V11q0-3 3-3h12q3 0 3 3v9z\"/><path class=\"p2\" d=\"M7 20l3-5.5M13 20l3-5.5\"/><path class=\"p3\" d=\"M2 22h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "liquor-store",
+  "category": "buildings",
+  "tags": ["liquor", "bottle", "label", "shop", "spirits", "shelf"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"d p2\" d=\"M8 20 V12 L10 9 V4 H14 V9 L16 12 V20 Z\"/><rect class=\"p3\" x=\"9.5\" y=\"13\" width=\"5\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

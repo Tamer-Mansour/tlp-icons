@@ -1,0 +1,12 @@
+{
+  "name": "mosaic-chart",
+  "category": "charts",
+  "tags": ["mosaic", "tiles", "treemap", "proportion", "blocks"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"9\" height=\"11\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"7\" height=\"5\"/><rect class=\"p3\" x=\"14\" y=\"10\" width=\"7\" height=\"11\"/><rect class=\"p4\" x=\"3\" y=\"16\" width=\"9\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 750 }
+  ]
+}

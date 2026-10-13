@@ -1,0 +1,10 @@
+{
+  "name": "spiral-galaxy",
+  "category": "science",
+  "tags": ["galaxy", "spiral", "space", "stars", "astronomy", "cosmos"],
+  "svg": "<path class=\"p1\" d=\"M12 12 C12 8 16 6 18 9 C21 13 18 19 13 19 C7 19 4 14 5 10 C6 5 12 2 17 4\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "spiralIn", "dur": 1100, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

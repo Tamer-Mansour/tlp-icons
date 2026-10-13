@@ -1,0 +1,10 @@
+{
+  "name": "hazard-toxic",
+  "category": "science",
+  "tags": ["hazard", "toxic", "warning", "danger", "triangle", "chemical", "drop"],
+  "svg": "<path class=\"p1\" d=\"M12 3.5L21.5 20h-19z\"/><path class=\"p2\" d=\"M12 10l2 3a2 2 0 1 1-4 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

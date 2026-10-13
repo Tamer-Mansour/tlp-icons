@@ -1,0 +1,11 @@
+{
+  "name": "badge-id",
+  "category": "files",
+  "tags": ["id", "badge", "card", "identity", "profile"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"10\" r=\"2.5\"/><line class=\"p3\" x1=\"14\" y1=\"9\" x2=\"19\" y2=\"9\"/><line class=\"p3\" x1=\"14\" y1=\"13\" x2=\"18\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "breathe", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pita",
+  "category": "food",
+  "tags": ["pita", "bread", "pocket", "flatbread", "middle eastern", "bakery"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><path class=\"p2\" d=\"M6 9.5c4 1.5 8 1.5 12 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "redline",
+  "category": "design",
+  "tags": ["redline", "markup", "document", "strike", "design"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8h10M7 11h6\"/><path class=\"p3\" d=\"M7 15h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

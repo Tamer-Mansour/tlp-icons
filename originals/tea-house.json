@@ -1,0 +1,11 @@
+{
+  "name": "tea-house",
+  "category": "buildings",
+  "tags": ["tea", "teapot", "pagoda", "house", "steam"],
+  "svg": "<path class=\"p1\" d=\"M3 8H21M7 8L12 4L17 8\"/><path class=\"d p2\" d=\"M4 12H15V17A3 3 0 0 1 12 20H7A3 3 0 0 1 4 17Z\"/><path class=\"p3\" d=\"M15 14L19 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pour", "dur": 800, "delay": 900 }
+  ]
+}

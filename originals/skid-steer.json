@@ -1,0 +1,12 @@
+{
+  "name": "skid-steer",
+  "category": "tools",
+  "tags": ["skid", "steer", "loader", "lift", "compact", "construction"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M8 9V6H13V9\"/><path class=\"p3\" d=\"M17 15L20 8L22 11\"/><circle class=\"p4\" cx=\"8\" cy=\"19\" r=\"2\"/><circle class=\"p4\" cx=\"17\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hiking-backpack",
+  "category": "sport",
+  "tags": ["backpack", "hiking", "trekking", "pack", "bag", "outdoor"],
+  "svg": "<path class=\"d p1\" d=\"M6 8Q6 4 12 4Q18 4 18 8V20H6Z\"/><rect class=\"p2\" x=\"9\" y=\"12\" width=\"6\" height=\"4\"/><line class=\"p3\" x1=\"3\" y1=\"13\" x2=\"6\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

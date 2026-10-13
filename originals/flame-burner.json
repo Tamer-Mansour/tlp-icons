@@ -1,0 +1,10 @@
+{
+  "name": "flame-burner",
+  "category": "science",
+  "tags": ["flame", "fire", "burner", "bunsen", "heat"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"21\" x2=\"19\" y2=\"21\"/><path class=\"d p2\" d=\"M12 2 C15 6 16.5 8.5 16.5 12 C16.5 15.5 14.5 17.5 12 17.5 C9.5 17.5 7.5 15.5 7.5 12 C7.5 8.5 9 6 12 2 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "league-table",
+  "category": "charts",
+  "tags": ["league", "table", "ranking", "standings", "rows", "sports"],
+  "svg": "<path class=\"p1\" d=\"M8 6h13M8 12h13M8 18h13\"/><circle class=\"f p2\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

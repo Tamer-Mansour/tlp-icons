@@ -1,0 +1,10 @@
+{
+  "name": "water-usage",
+  "category": "charts",
+  "tags": ["water", "usage", "droplet", "utility", "bars", "consumption"],
+  "svg": "<path class=\"d p1\" d=\"M12 2C12 2 7 8 7 11a5 5 0 0 0 10 0C17 8 12 2 12 2z\"/><path class=\"p2\" d=\"M5 21v-2M10 21v-4M15 21v-3M20 21v-1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "drip", "dur": 800, "delay": 700 }
+  ]
+}

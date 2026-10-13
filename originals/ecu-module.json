@@ -1,0 +1,11 @@
+{
+  "name": "ecu-module",
+  "category": "devices",
+  "tags": ["ecu", "module", "chip", "car", "engine", "control"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 3V6M15 3V6M9 18V21M15 18V21M3 9H6M3 15H6M18 9H21M18 15H21\"/><rect class=\"p3\" x=\"10\" y=\"10\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

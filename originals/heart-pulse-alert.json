@@ -1,0 +1,10 @@
+{
+  "name": "heart-pulse-alert",
+  "category": "notifications",
+  "tags": ["heart", "pulse", "alert", "health", "heartbeat"],
+  "svg": "<path class=\"p1\" d=\"M12 20s-8-4.5-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 10-8 10z\"/><path class=\"p2\" d=\"M6 12h3l2-3 2.5 5 2-2h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

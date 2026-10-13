@@ -1,0 +1,11 @@
+{
+  "name": "power-kite",
+  "category": "sport",
+  "tags": ["kite", "kitesurfing", "power kite", "wind", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M3 9Q12 2 21 9Q12 12 3 9Z\"/><path class=\"p2\" d=\"M6.5 9.5L10 18.5M17.5 9.5L14 18.5\"/><line class=\"p3\" x1=\"8\" y1=\"20.5\" x2=\"16\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 1000 }
+  ]
+}

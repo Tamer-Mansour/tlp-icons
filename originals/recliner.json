@@ -1,0 +1,11 @@
+{
+  "name": "recliner",
+  "category": "home",
+  "tags": ["recliner", "armchair", "footrest", "chair", "furniture"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h5v10h9v4H4z\"/><path class=\"p2\" d=\"M18 14h3.5v4H18\"/><path class=\"p3\" d=\"M4 17v3M18 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

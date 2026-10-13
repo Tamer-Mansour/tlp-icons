@@ -1,0 +1,10 @@
+{
+  "name": "parking-sensor",
+  "category": "vehicles",
+  "tags": ["parking", "sensor", "car", "rear", "distance", "warning"],
+  "svg": "<path class=\"d p1\" d=\"M2 16v-3.5L4 9h8l2 3.5V16z\"/><path class=\"p2\" d=\"M17 9.5a3 3 0 0 1 0 3.5\"/><path class=\"p2\" d=\"M20 7.5a6 6 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "traffic-jam",
+  "category": "vehicles",
+  "tags": ["traffic", "jam", "congestion", "cars", "queue"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3.5\" width=\"12\" height=\"3\" rx=\"1.5\"/><rect class=\"p2\" x=\"6\" y=\"10.5\" width=\"12\" height=\"3\" rx=\"1.5\"/><rect class=\"p3\" x=\"6\" y=\"17.5\" width=\"12\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

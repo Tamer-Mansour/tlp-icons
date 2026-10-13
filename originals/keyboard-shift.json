@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-shift",
+  "category": "interface",
+  "tags": ["keyboard", "shift", "capital", "keycap", "uppercase"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"3\"/><path class=\"p2\" d=\"M12 8.5l4 4h-2.5v3h-3v-3H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

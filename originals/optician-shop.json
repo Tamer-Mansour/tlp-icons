@@ -1,0 +1,11 @@
+{
+  "name": "optician-shop",
+  "category": "buildings",
+  "tags": ["optician", "glasses", "eyewear", "shop", "awning", "eye"],
+  "svg": "<path class=\"d p1\" d=\"M3 5 H21 L20 9 H4 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"15\" r=\"3\"/><circle class=\"p2\" cx=\"17\" cy=\"15\" r=\"3\"/><line class=\"p3\" x1=\"10\" y1=\"15\" x2=\"14\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

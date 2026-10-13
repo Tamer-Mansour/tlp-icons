@@ -1,0 +1,10 @@
+{
+  "name": "read-receipt",
+  "category": "communication",
+  "tags": ["read", "receipt", "check", "seen", "message"],
+  "svg": "<path class=\"p1\" d=\"M3 12.5l4 4L15 8\"/><path class=\"p2\" d=\"M9 12.5l4 4L21 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

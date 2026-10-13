@@ -1,0 +1,11 @@
+{
+  "name": "coffee-maker",
+  "category": "home",
+  "tags": ["coffee", "maker", "brew", "carafe", "kitchen", "drip"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"7\" rx=\"2\"/><path class=\"d p2\" d=\"M8 14H16L15.5 21H8.5Z\"/><path class=\"p3\" d=\"M9 6.5H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

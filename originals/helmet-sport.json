@@ -1,0 +1,11 @@
+{
+  "name": "helmet-sport",
+  "category": "sport",
+  "tags": ["helmet", "visor", "protection", "football", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M4 14 C4 7 7.5 4 12 4 C16.5 4 20 7 20 14 Z\"/><line class=\"p2\" x1=\"4\" y1=\"11\" x2=\"20\" y2=\"11\"/><line class=\"p3\" x1=\"12\" y1=\"6.5\" x2=\"12\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

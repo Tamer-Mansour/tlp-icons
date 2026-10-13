@@ -1,0 +1,11 @@
+{
+  "name": "pump-jack",
+  "category": "buildings",
+  "tags": ["pump", "jack", "oil", "rocking", "beam", "tower"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><path class=\"p2\" d=\"M8 20l4-9 4 9\"/><line class=\"p3\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "tilt", "dur": 900, "delay": 900, "origin": "12px 9px" }
+  ]
+}

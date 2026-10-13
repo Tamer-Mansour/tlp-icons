@@ -1,0 +1,11 @@
+{
+  "name": "introvert-headphones",
+  "category": "people",
+  "tags": ["introvert", "headphones", "music", "quiet", "alone", "person"],
+  "svg": "<path class=\"p1\" d=\"M4 15V12A8 8 0 0 1 20 12V15\"/><rect class=\"d p2\" x=\"3\" y=\"14\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"14\" width=\"4\" height=\"6\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "crash-test",
+  "category": "vehicles",
+  "tags": ["crash", "test", "car", "impact", "safety", "collision"],
+  "svg": "<path class=\"d p1\" d=\"M3 14v-3.5L5.5 7h11L20 10.5V14z\"/><circle class=\"p2\" cx=\"7\" cy=\"16\" r=\"1.8\"/><circle class=\"p2\" cx=\"17\" cy=\"16\" r=\"1.8\"/><path class=\"p3\" d=\"M16.5 3.5l1.5 1.5M20.5 2v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1100 }
+  ]
+}

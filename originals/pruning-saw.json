@@ -1,0 +1,10 @@
+{
+  "name": "pruning-saw",
+  "category": "tools",
+  "tags": ["saw", "garden", "pruning", "branch", "curved"],
+  "svg": "<path class=\"p1\" d=\"M5 19C8 12 13 7 20 5\"/><path class=\"p2\" d=\"M3 21L6 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ultrasound-wave",
+  "category": "science",
+  "tags": ["ultrasound", "wave", "sound", "medical", "scan"],
+  "svg": "<circle class=\"d p1\" cx=\"4.5\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M8.7 7.8A6 6 0 0 1 8.7 16.2M11.6 4.9A10 10 0 0 1 11.6 19.1M13.7 2.8A13 13 0 0 1 13.7 21.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gear-ratio",
+  "category": "science",
+  "tags": ["gear", "ratio", "mesh", "teeth", "mechanics", "speed"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"8\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"16.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 900, "origin": "16.5px 12px" }
+  ]
+}

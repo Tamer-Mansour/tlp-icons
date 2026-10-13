@@ -1,0 +1,11 @@
+{
+  "name": "color-sample",
+  "category": "design",
+  "tags": ["color", "sample", "eyedropper", "pick", "tool", "dropper"],
+  "svg": "<path class=\"p1\" d=\"M16 4.5l3.5 3.5-9 9H7v-3.5z\"/><path class=\"p2\" d=\"M7 17L4 20\"/><circle class=\"f p3\" cx=\"4\" cy=\"20\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "time-budget",
+  "category": "time",
+  "tags": ["budget", "time", "clock", "coins", "cost", "planning"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"5.5\"/><path class=\"p2\" d=\"M8 9v3l2 1.5\"/><ellipse class=\"d p3\" cx=\"18.5\" cy=\"10\" rx=\"3.5\" ry=\"1.8\"/><path class=\"p3\" d=\"M15 10v4c0 1 1.6 1.8 3.5 1.8s3.5-.8 3.5-1.8v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 700, "origin": "8px 12px" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1300 }
+  ]
+}

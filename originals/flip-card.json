@@ -1,0 +1,10 @@
+{
+  "name": "flip-card",
+  "category": "arrows",
+  "tags": ["flip", "card", "turn", "rotate", "tile", "flashcard"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M5 4 Q12 1.5 19 4 M3.5 2.5 L5 4 L6.5 2.5 M17.5 2.5 L19 4 L20.5 2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "flipY", "dur": 1000, "delay": 700 }
+  ]
+}

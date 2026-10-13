@@ -1,0 +1,10 @@
+{
+  "name": "u-shape",
+  "category": "shapes",
+  "tags": ["u", "magnet", "curve", "letter", "open"],
+  "svg": "<path class=\"p1\" d=\"M4 3 V14 A8 8 0 0 0 12 22\"/><path class=\"p2\" d=\"M20 3 V14 A8 8 0 0 1 12 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drawReverse", "dur": 800, "delay": 400 }
+  ]
+}

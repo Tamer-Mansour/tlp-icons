@@ -1,0 +1,11 @@
+{
+  "name": "driver-license-card",
+  "category": "security",
+  "tags": ["license", "card", "id", "driver", "photo", "identity"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"d p2\" x=\"5\" y=\"8.5\" width=\"5\" height=\"6\" rx=\".5\"/><line class=\"p3\" x1=\"13\" y1=\"9.5\" x2=\"19\" y2=\"9.5\"/><line class=\"p3\" x1=\"13\" y1=\"13\" x2=\"19\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 1000 }
+  ]
+}

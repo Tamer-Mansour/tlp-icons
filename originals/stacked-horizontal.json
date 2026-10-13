@@ -1,0 +1,11 @@
+{
+  "name": "stacked-horizontal",
+  "category": "layout",
+  "tags": ["stacked", "horizontal", "columns", "sections", "blocks"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"3.5\" height=\"16\" rx=\"1\"/><rect class=\"p2\" x=\"10.25\" y=\"4\" width=\"3.5\" height=\"16\" rx=\"1\"/><rect class=\"p3\" x=\"17.5\" y=\"4\" width=\"3.5\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 200, "origin": "bottom" },
+    { "part": "p3", "anim": "equalize", "dur": 800, "delay": 900, "origin": "bottom" }
+  ]
+}

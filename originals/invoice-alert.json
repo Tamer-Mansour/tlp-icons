@@ -1,0 +1,10 @@
+{
+  "name": "invoice-alert",
+  "category": "notifications",
+  "tags": ["invoice", "bill", "payment", "alert", "dollar"],
+  "svg": "<path class=\"p1\" d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path class=\"p1\" d=\"M14 3v5h5\"/><path class=\"p2\" d=\"M14.5 10.5h-3a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

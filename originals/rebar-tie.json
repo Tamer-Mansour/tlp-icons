@@ -1,0 +1,11 @@
+{
+  "name": "rebar-tie",
+  "category": "tools",
+  "tags": ["rebar","tie","wire","bind","concrete","fastening"],
+  "svg": "<path class=\"p1\" d=\"M2 15h20\"/><path class=\"p2\" d=\"M12 4v7\"/><rect class=\"p3\" x=\"9\" y=\"11\" width=\"6\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "twirl", "dur": 800, "delay": 800 }
+  ]
+}

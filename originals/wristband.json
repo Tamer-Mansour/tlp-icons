@@ -1,0 +1,10 @@
+{
+  "name": "wristband",
+  "category": "sport",
+  "tags": ["wristband", "sweatband", "snap", "wrist", "sports", "band"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

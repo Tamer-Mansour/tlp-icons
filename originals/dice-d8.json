@@ -1,0 +1,11 @@
+{
+  "name": "dice-d8",
+  "category": "sport",
+  "tags": ["dice", "d8", "octahedron", "polyhedral", "rpg", "tabletop"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 21,12 12,22 3,12\"/><line class=\"p2\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p3\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spinHalf", "dur": 900, "delay": 1000 }
+  ]
+}

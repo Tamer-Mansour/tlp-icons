@@ -1,0 +1,11 @@
+{
+  "name": "reference-arrow",
+  "category": "arrows",
+  "tags": ["reference", "footnote", "document", "cite", "page"],
+  "svg": "<path class=\"p1\" d=\"M6 2.5 H13 L18 7.5 V21 H6 Z\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"17.5\" r=\"0.9\"/><circle class=\"f p2\" cx=\"10.5\" cy=\"17.5\" r=\"0.9\"/><path class=\"p3\" d=\"M13 17.5 H15.5 M14 15.5 L15.5 17.5 L14 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

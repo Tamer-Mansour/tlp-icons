@@ -1,0 +1,11 @@
+{
+  "name": "retort-stand",
+  "category": "science",
+  "tags": ["retort", "stand", "clamp", "lab", "rod", "base", "equipment"],
+  "svg": "<path class=\"p1\" d=\"M4 21h8M8 21V3\"/><path class=\"p2\" d=\"M8 9h5\"/><rect class=\"d p3\" x=\"13\" y=\"6\" width=\"4\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

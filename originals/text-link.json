@@ -1,0 +1,11 @@
+{
+  "name": "text-link",
+  "category": "text",
+  "tags": ["hyperlink", "underline", "url", "arrow", "link"],
+  "svg": "<path class=\"p1\" d=\"M4 6h10M4 10h6\"/><path class=\"p2\" d=\"M4 15h8\"/><path class=\"p3\" d=\"M14 15h6M17 12l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

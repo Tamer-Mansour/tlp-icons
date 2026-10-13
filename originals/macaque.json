@@ -1,0 +1,12 @@
+{
+  "name": "macaque",
+  "category": "nature",
+  "tags": ["monkey", "primate", "face", "fur", "animal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"7\"/><path class=\"p2\" d=\"M9 14 Q12 17 15 14 M5 9 Q3 12 5 15 M19 9 Q21 12 19 15\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"10\" r=\"1\"/><path class=\"p4\" d=\"M17 19 Q21 19 21 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "17px 19px" }
+  ]
+}

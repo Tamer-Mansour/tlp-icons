@@ -1,0 +1,10 @@
+{
+  "name": "scroll-shape",
+  "category": "shapes",
+  "tags": ["scroll", "parchment", "rolled", "paper", "document"],
+  "svg": "<path class=\"p1\" d=\"M8 6H19V18H8\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"5\" height=\"16\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "todo-check",
+  "category": "notifications",
+  "tags": ["todo", "checkbox", "check", "task", "done", "list"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M8 12.5l2.8 2.8L16 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

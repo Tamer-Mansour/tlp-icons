@@ -1,0 +1,10 @@
+{
+  "name": "resistor",
+  "category": "science",
+  "tags": ["resistor", "circuit", "electronics", "zigzag", "current"],
+  "svg": "<path class=\"p1\" d=\"M5 12 L7 7 L10 17 L13 7 L16 17 L19 12\"/><path class=\"p2\" d=\"M2 12 H5 M19 12 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

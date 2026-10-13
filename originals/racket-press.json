@@ -1,0 +1,12 @@
+{
+  "name": "racket-press",
+  "category": "sport",
+  "tags": ["racket", "press", "clamp", "string", "tennis", "restring"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"10\" rx=\"4\" ry=\"5\"/><path class=\"p2\" d=\"M12 15 V21\"/><rect class=\"d p3\" x=\"2\" y=\"7\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"d p4\" x=\"19\" y=\"7\" width=\"3\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "press", "dur": 700, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "camouflage",
+  "category": "nature",
+  "tags": ["camouflage", "hide", "pattern", "leaf", "stealth", "disguise"],
+  "svg": "<path class=\"p1\" d=\"M4 20C4 10 10 4 20 4C20 14 14 20 4 20Z\"/><circle class=\"p2\" cx=\"9\" cy=\"13\" r=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"8\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 800, "delay": 800 }
+  ]
+}

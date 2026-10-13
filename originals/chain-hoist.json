@@ -1,0 +1,10 @@
+{
+  "name": "chain-hoist",
+  "category": "tools",
+  "tags": ["chain", "hoist", "hook", "pulley", "lift", "rigging"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"3\"/><path class=\"p2\" d=\"M12 8v7a2 2 0 0 1-4 0\"/><path class=\"p3\" d=\"M16 5v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 8px" }
+  ]
+}

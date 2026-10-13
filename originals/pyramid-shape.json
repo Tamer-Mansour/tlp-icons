@@ -1,0 +1,10 @@
+{
+  "name": "pyramid-shape",
+  "category": "science",
+  "tags": ["pyramid", "geometry", "triangle", "shape", "base", "solid"],
+  "svg": "<rect class=\"p2\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"0.5\"/><path class=\"d p1\" d=\"M12 3L20 17H4Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "satellite-signal",
+  "category": "devices",
+  "tags": ["satellite", "signal", "space", "radio", "antenna"],
+  "svg": "<rect class=\"d p1\" x=\"6.5\" y=\"12.5\" width=\"5\" height=\"5\" rx=\"1\" transform=\"rotate(45 9 15)\"/><path class=\"p1\" d=\"M11.5 12.5L13 11\"/><path class=\"p2\" d=\"M13 8a3 3 0 0 1 3 3M13 5a6 6 0 0 1 6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

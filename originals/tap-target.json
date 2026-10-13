@@ -1,0 +1,10 @@
+{
+  "name": "tap-target",
+  "category": "interface",
+  "tags": ["tap", "target", "touch", "area", "hit", "button"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 3.5A8.5 8.5 0 0 1 19.36 7.75M20.5 12A8.5 8.5 0 0 1 16.25 19.36M12 20.5A8.5 8.5 0 0 1 4.64 16.25M3.5 12A8.5 8.5 0 0 1 7.75 4.64\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 600 }
+  ]
+}

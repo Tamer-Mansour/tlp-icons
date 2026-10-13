@@ -1,0 +1,10 @@
+{
+  "name": "text-pill",
+  "category": "text",
+  "tags": ["pill", "badge", "word", "rounded", "chip"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7\" width=\"19\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M7 12h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "carry-over",
+  "category": "math",
+  "tags": ["carry", "over", "arrow", "column", "digits", "addition"],
+  "svg": "<path class=\"p1\" d=\"M16 9 Q9 3 7 9 M5.5 7.5 L7 9.5 L8.5 7.5\"/><rect class=\"p2\" x=\"6\" y=\"11\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"6\" y=\"17\" width=\"12\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

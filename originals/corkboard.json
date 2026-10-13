@@ -1,0 +1,11 @@
+{
+  "name": "corkboard",
+  "category": "communication",
+  "tags": ["corkboard", "board", "pin", "note", "notes", "bulletin"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"5.5\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"5.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

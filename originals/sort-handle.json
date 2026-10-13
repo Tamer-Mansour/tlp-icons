@@ -1,0 +1,10 @@
+{
+  "name": "sort-handle",
+  "category": "arrows",
+  "tags": ["sort", "handle", "order", "reorder", "list"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"15\" y2=\"6\"/><line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"11\" y2=\"12\"/><line class=\"p1\" x1=\"3\" y1=\"18\" x2=\"7\" y2=\"18\"/><path class=\"p2\" d=\"M19 4v16\"/><polyline class=\"p2\" points=\"16 7 19 4 22 7\"/><polyline class=\"p2\" points=\"16 17 19 20 22 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 700 }
+  ]
+}

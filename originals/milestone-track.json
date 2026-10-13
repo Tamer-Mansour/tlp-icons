@@ -1,0 +1,11 @@
+{
+  "name": "milestone-track",
+  "category": "charts",
+  "tags": ["milestone", "track", "dots", "timeline", "steps", "progress"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"d p2\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

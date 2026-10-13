@@ -1,0 +1,11 @@
+{
+  "name": "spider-web",
+  "category": "nature",
+  "tags": ["spider", "web", "silk", "trap", "halloween"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 4 V10 M12 14 V20 M4 12 H10 M14 12 H20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p1", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

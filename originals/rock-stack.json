@@ -1,0 +1,11 @@
+{
+  "name": "rock-stack",
+  "category": "nature",
+  "tags": ["rock", "stack", "stones", "balance", "cairn"],
+  "svg": "<path class=\"d p1\" d=\"M4 21 Q4 17 8 17 H16 Q20 17 20 21 Z\"/><path class=\"p2\" d=\"M6 17 Q6 13.5 9.5 13.5 H14.5 Q18 13.5 18 17\"/><path class=\"p3\" d=\"M8.5 13.5 Q8.5 10 12 10 Q15.5 10 15.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "exit-ramp",
+  "category": "arrows",
+  "tags": ["exit", "ramp", "highway", "road", "off"],
+  "svg": "<path class=\"p1\" d=\"M2 16 H22\"/><path class=\"p2\" d=\"M12 16 C16 16 18 12 18 4\"/><polyline class=\"p2\" points=\"15 7 18 4 21 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

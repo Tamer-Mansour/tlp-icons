@@ -1,0 +1,11 @@
+{
+  "name": "osprey",
+  "category": "nature",
+  "tags": ["osprey", "bird", "raptor", "hawk", "wings"],
+  "svg": "<path class=\"p1\" d=\"M3 15Q5 6 12 6Q19 6 21 15\"/><circle class=\"d p2\" cx=\"12\" cy=\"11\" r=\"2.5\"/><path class=\"p2\" d=\"M14.5 10.5Q16 11 15.5 12.5\"/><path class=\"p3\" d=\"M10 15.5L9 18.5M14 15.5L15 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "drip-coffee",
+  "category": "food",
+  "tags": ["coffee", "drip", "filter", "carafe", "brew"],
+  "svg": "<path class=\"p1\" d=\"M5 4H19L13.5 11H10.5Z\"/><path class=\"d p2\" d=\"M8 14H16V19Q16 21 14 21H10Q8 21 8 19Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "drip", "dur": 700, "delay": 1200 }
+  ]
+}

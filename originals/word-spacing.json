@@ -1,0 +1,10 @@
+{
+  "name": "word-spacing",
+  "category": "text",
+  "tags": ["word", "spacing", "gap", "text", "space", "distance", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 9.5h6M3 14.5h4M15 9.5h6M15 14.5h4\"/><path class=\"p2\" d=\"M10 12h4M11.5 10.5L10 12l1.5 1.5M12.5 10.5L14 12l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

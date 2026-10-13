@@ -1,0 +1,12 @@
+{
+  "name": "porpoise",
+  "category": "nature",
+  "tags": ["sea", "fin", "wave", "dolphin", "ocean"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 Q6 10 12 11 Q18 12 21 14 Q18 17 12 17 Q6 17 3 14 Z\"/><path class=\"p2\" d=\"M9.5 11 Q11 7 13.5 6.5 Q13 9 14 11\"/><path class=\"p3\" d=\"M2 20.5 Q6.5 17.5 10 20.5 T17 20.5 T22 20.5\"/><circle class=\"f p4\" cx=\"17\" cy=\"13\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 1000 }
+  ]
+}

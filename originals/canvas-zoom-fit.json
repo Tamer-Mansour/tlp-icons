@@ -1,0 +1,10 @@
+{
+  "name": "canvas-zoom-fit",
+  "category": "layout",
+  "tags": ["canvas", "zoom", "fit", "corners", "focus"],
+  "svg": "<polyline class=\"p1\" points=\"3,8 3,3 8,3\"/><polyline class=\"p1\" points=\"16,3 21,3 21,8\"/><polyline class=\"p1\" points=\"21,16 21,21 16,21\"/><polyline class=\"p1\" points=\"8,21 3,21 3,16\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

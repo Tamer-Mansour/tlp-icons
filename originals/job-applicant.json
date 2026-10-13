@@ -1,0 +1,10 @@
+{
+  "name": "job-applicant",
+  "category": "people",
+  "tags": ["applicant", "job", "application", "envelope", "hiring", "apply"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20.5v-2a5 5 0 0 1 10 0v2\"/><rect class=\"d p2\" x=\"12\" y=\"12\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M12 13l5 3.5 5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 600 }
+  ]
+}

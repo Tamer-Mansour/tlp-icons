@@ -1,0 +1,11 @@
+{
+  "name": "waypoint-dots",
+  "category": "arrows",
+  "tags": ["waypoint", "route", "stops", "path", "dots"],
+  "svg": "<path class=\"p1\" d=\"M3 18 C8 6 16 18 21 6\"/><circle class=\"p2\" cx=\"3\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"21\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

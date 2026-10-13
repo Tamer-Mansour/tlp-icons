@@ -1,0 +1,11 @@
+{
+  "name": "top-hat",
+  "category": "emoji",
+  "tags": ["top hat", "hat", "formal", "magic", "fancy", "gentleman"],
+  "svg": "<path class=\"p1\" d=\"M7 16V4H17V16\"/><path class=\"p2\" d=\"M3 16H21\"/><path class=\"p3\" d=\"M7 12.5H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

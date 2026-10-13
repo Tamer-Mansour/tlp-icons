@@ -1,0 +1,10 @@
+{
+  "name": "activity-ring",
+  "category": "charts",
+  "tags": ["activity", "ring", "progress", "goal", "fitness", "circle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7A5 5 0 1 1 7.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

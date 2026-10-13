@@ -1,0 +1,11 @@
+{
+  "name": "rock-metamorphic",
+  "category": "science",
+  "tags": ["rock", "metamorphic", "folded", "layers", "geology", "pressure"],
+  "svg": "<path class=\"d p1\" d=\"M4 5h16v14H4z\"/><path class=\"p2\" d=\"M4 10q2-2.5 4 0t4 0t4 0t4 0\"/><path class=\"p3\" d=\"M4 14q2 2.5 4 0t4 0t4 0t4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

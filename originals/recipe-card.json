@@ -1,0 +1,10 @@
+{
+  "name": "recipe-card",
+  "category": "food",
+  "tags": ["recipe", "card", "index", "notes", "cooking", "list"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 8h8M8 12h8M8 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

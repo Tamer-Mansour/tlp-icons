@@ -1,0 +1,11 @@
+{
+  "name": "oriole",
+  "category": "nature",
+  "tags": ["oriole", "bird", "songbird", "perched", "branch"],
+  "svg": "<path class=\"d p1\" d=\"M4 14 Q5 8 12 8 Q17 8 17 12 Q16 17 10 17 Q5 17 4 14 Z\"/><g class=\"p2\"><circle cx=\"17\" cy=\"7\" r=\"2.5\"/><path d=\"M19.2 6.5 L22 7.5 L19.2 8.5\"/></g><path class=\"p3\" d=\"M3 20 H21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

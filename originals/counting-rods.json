@@ -1,0 +1,10 @@
+{
+  "name": "counting-rods",
+  "category": "science",
+  "tags": ["counting", "rods", "math", "numbers", "arithmetic", "classroom"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"3\" y2=\"18\"/><line class=\"p1\" x1=\"7\" y1=\"6\" x2=\"7\" y2=\"18\"/><line class=\"p1\" x1=\"11\" y1=\"6\" x2=\"11\" y2=\"18\"/><line class=\"p2\" x1=\"15\" y1=\"6\" x2=\"15\" y2=\"18\"/><line class=\"p2\" x1=\"19\" y1=\"6\" x2=\"19\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700, "origin": "bottom" }
+  ]
+}

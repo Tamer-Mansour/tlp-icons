@@ -1,0 +1,10 @@
+{
+  "name": "range-bar",
+  "category": "charts",
+  "tags": ["range", "interval", "minimum", "maximum", "span"],
+  "svg": "<path class=\"p1\" d=\"M8 12H16\"/><path class=\"p2\" d=\"M4 7V17M20 7V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

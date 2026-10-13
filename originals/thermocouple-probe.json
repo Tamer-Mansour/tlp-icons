@@ -1,0 +1,11 @@
+{
+  "name": "thermocouple-probe",
+  "category": "science",
+  "tags": ["probe", "temperature", "sensor", "wire", "lab"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M10 7V15.2A2.5 2.5 0 1 0 14 15.2V7\"/><path class=\"p3\" d=\"M12 16V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1300, "origin": "12px 16px" }
+  ]
+}

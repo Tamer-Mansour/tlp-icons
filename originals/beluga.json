@@ -1,0 +1,12 @@
+{
+  "name": "beluga",
+  "category": "nature",
+  "tags": ["whale", "white", "arctic", "flipper", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 Q3 8 11 8 Q19 8 20 13 Q21 16 18 17 L8 17 Q3 17 3 15 Z\"/><path class=\"p2\" d=\"M10 16 Q9 19 7 19 Q8 17 9 15\"/><path class=\"p3\" d=\"M3 15 L1 12 M3 15 L1 18\"/><circle class=\"f p4\" cx=\"16\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 800, "origin": "3px 15px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "photo-file",
+  "category": "files",
+  "tags": ["photo", "file", "picture", "frame", "camera"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M9 14l2-2 1.5 1.5L14 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

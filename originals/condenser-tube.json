@@ -1,0 +1,11 @@
+{
+  "name": "condenser-tube",
+  "category": "science",
+  "tags": ["condenser", "tube", "jacket", "water", "distillation", "lab", "cooling"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M7 10L17 14\"/><path class=\"p3\" d=\"M6 7V4M18 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pour", "dur": 900, "delay": 1200 }
+  ]
+}

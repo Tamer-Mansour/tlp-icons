@@ -1,0 +1,11 @@
+{
+  "name": "autosave-disk",
+  "category": "development",
+  "tags": ["autosave", "disk", "save", "floppy", "backup", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h11l4 4v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"7\" height=\"5\"/><path class=\"p3\" d=\"M16 13a3.5 3.5 0 1 0-1.2 3.2M16 10.5V13h-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "12px 14px" }
+  ]
+}

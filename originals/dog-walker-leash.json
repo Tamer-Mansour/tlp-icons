@@ -1,0 +1,11 @@
+{
+  "name": "dog-walker-leash",
+  "category": "people",
+  "tags": ["dog walker", "leash", "dog", "walk", "pet"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"9\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 6L2.5 3l3 1.5\"/><path class=\"p2\" d=\"M9 12c3 3 5 3.5 8.5 3\"/><circle class=\"p3\" cx=\"19.5\" cy=\"15\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1100, "origin": "bottom" }
+  ]
+}

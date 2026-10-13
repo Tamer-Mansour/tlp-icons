@@ -1,0 +1,11 @@
+{
+  "name": "gear-mechanism",
+  "category": "science",
+  "tags": ["gear", "mechanism", "machine", "engineering", "cog", "motion"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 3v3M12 18v3M3 12h3M18 12h3M16.24 7.76l2.12-2.12M7.76 7.76L5.64 5.64M7.76 16.24l-2.12 2.12M16.24 16.24l2.12 2.12\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 800, "origin": "12px 12px" }
+  ]
+}

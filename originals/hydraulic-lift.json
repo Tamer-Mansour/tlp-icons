@@ -1,0 +1,11 @@
+{
+  "name": "hydraulic-lift",
+  "category": "vehicles",
+  "tags": ["hydraulic", "lift", "piston", "platform", "jack", "garage"],
+  "svg": "<rect class=\"d p2\" x=\"9\" y=\"13\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p1\" d=\"M12 9v4\"/><rect class=\"p3\" x=\"5\" y=\"7\" width=\"14\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 900 }
+  ]
+}

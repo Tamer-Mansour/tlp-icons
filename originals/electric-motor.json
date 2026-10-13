@@ -1,0 +1,11 @@
+{
+  "name": "electric-motor",
+  "category": "vehicles",
+  "tags": ["electric", "motor", "engine", "power", "drive"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M15 12h5\"/><path class=\"d p3\" d=\"M12 8.5L9 12.5h3l-1 3.5 4-4.5h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spinFast", "dur": 800, "delay": 700, "origin": "15px 12px" }
+  ]
+}

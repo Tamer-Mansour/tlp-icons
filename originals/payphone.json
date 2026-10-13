@@ -1,0 +1,11 @@
+{
+  "name": "payphone",
+  "category": "devices",
+  "tags": ["payphone", "phone", "booth", "coin", "telephone", "call"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"8\" height=\"3\" rx=\"1.5\"/><line class=\"p3\" x1=\"10\" y1=\"14\" x2=\"14\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "buzz", "dur": 900, "delay": 1100 }
+  ]
+}

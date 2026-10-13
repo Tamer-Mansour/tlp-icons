@@ -1,0 +1,10 @@
+{
+  "name": "drive-belt",
+  "category": "vehicles",
+  "tags": ["belt", "pulley", "engine", "drive", "gear"],
+  "svg": "<path class=\"p1\" d=\"M7 8 H17 A4 4 0 0 1 17 16 H7 A4 4 0 0 1 7 8 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"12\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

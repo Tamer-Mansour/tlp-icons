@@ -1,0 +1,10 @@
+{
+  "name": "parent-arrow",
+  "category": "arrows",
+  "tags": ["parent", "child", "upward", "hierarchy", "node", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"5\" rx=\"1\"/><rect class=\"p1\" x=\"8\" y=\"16\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 14v-2.5M10 12l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 800 }
+  ]
+}

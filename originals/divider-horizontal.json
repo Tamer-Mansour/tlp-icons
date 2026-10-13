@@ -1,0 +1,10 @@
+{
+  "name": "divider-horizontal",
+  "category": "layout",
+  "tags": ["divider", "split", "horizontal", "rows", "section", "separate"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

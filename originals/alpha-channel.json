@@ -1,0 +1,10 @@
+{
+  "name": "alpha-channel",
+  "category": "design",
+  "tags": ["alpha", "channel", "transparency", "corner", "dashed", "square"],
+  "svg": "<path class=\"p1\" d=\"M3 9V5a2 2 0 0 1 2-2h4M15 3h4a2 2 0 0 1 2 2v4M21 15v4a2 2 0 0 1-2 2h-4M9 21H5a2 2 0 0 1-2-2v-4\"/><rect class=\"d p2\" x=\"13\" y=\"13\" width=\"5\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

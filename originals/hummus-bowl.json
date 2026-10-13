@@ -1,0 +1,11 @@
+{
+  "name": "hummus-bowl",
+  "category": "food",
+  "tags": ["hummus", "bowl", "dip", "chickpea", "mezze", "food"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 5-4 8-9 8s-9-3-9-8z\"/><path class=\"p2\" d=\"M7 13.5c1.5-1.5 3-1.5 5 0s3.5 1.5 5 0\"/><circle class=\"f p3\" cx=\"9\" cy=\"17\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

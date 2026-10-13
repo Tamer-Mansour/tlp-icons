@@ -1,0 +1,11 @@
+{
+  "name": "tax-breakdown",
+  "category": "charts",
+  "tags": ["tax", "breakdown", "stacked", "segments", "finance", "split"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"7\" height=\"16\"/><path class=\"p2\" d=\"M4 9h7M4 14h7\"/><path class=\"p3\" d=\"M14 5h2v14h-2M16 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1100 }
+  ]
+}

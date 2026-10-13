@@ -1,0 +1,11 @@
+{
+  "name": "pickup-truck",
+  "category": "vehicles",
+  "tags": ["pickup", "truck", "bed", "cargo", "haul", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M13.5 11.5H17.5L20.5 14V16.5H13.5Z\"/><path class=\"p2\" d=\"M2.5 9.5V16.5H13.5V9.5\"/><circle class=\"p3\" cx=\"6\" cy=\"18\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

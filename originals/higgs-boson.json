@@ -1,0 +1,10 @@
+{
+  "name": "higgs-boson",
+  "category": "science",
+  "tags": ["higgs", "boson", "particle", "physics", "field"],
+  "svg": "<circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

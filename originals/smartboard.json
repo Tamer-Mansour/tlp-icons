@@ -1,0 +1,11 @@
+{
+  "name": "smartboard",
+  "category": "devices",
+  "tags": ["smartboard", "whiteboard", "display", "presentation", "pen", "classroom"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 11C8 8 9.5 13 11.5 10S15 8.5 18 11\"/><path class=\"p3\" d=\"M8 19.5H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 900 }
+  ]
+}

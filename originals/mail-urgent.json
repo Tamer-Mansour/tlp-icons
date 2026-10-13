@@ -1,0 +1,10 @@
+{
+  "name": "mail-urgent",
+  "category": "communication",
+  "tags": ["urgent", "mail", "priority", "alert", "important", "exclamation", "envelope"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 L12 15 L21 9 V19 H3 Z\"/><path class=\"p2\" d=\"M12 2.5 V5\"/><circle class=\"f p2\" cx=\"12\" cy=\"7.8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 500 }
+  ]
+}

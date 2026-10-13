@@ -1,0 +1,10 @@
+{
+  "name": "window-half-left",
+  "category": "layout",
+  "tags": ["window", "half", "left", "shade", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"2\" y=\"3\" width=\"10\" height=\"18\" rx=\"0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

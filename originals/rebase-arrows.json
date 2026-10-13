@@ -1,0 +1,11 @@
+{
+  "name": "rebase-arrows",
+  "category": "development",
+  "tags": ["rebase", "git", "arrows", "history", "reorder", "branch"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"4\" r=\"1.5\"/><path class=\"p2\" d=\"M6 4V13Q6 17 10 17H15\"/><polyline class=\"p3\" points=\"12.5,14.5 15,17 12.5,19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

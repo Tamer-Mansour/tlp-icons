@@ -1,0 +1,10 @@
+{
+  "name": "honey-stick",
+  "category": "food",
+  "tags": ["honey", "dipper", "drip", "sweet", "stick"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"20\" x2=\"13\" y2=\"9\"/><path class=\"d p2\" d=\"M18 4 C18 4 15.5 7.5 15.5 9.5 A2.5 2.5 0 0 0 20.5 9.5 C20.5 7.5 18 4 18 4Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tandem-bike",
+  "category": "vehicles",
+  "tags": ["tandem bike", "two seats", "bicycle", "double", "cycling", "tandem"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"16\" r=\"3\"/><circle class=\"p1\" cx=\"19\" cy=\"16\" r=\"3\"/><path class=\"p2\" d=\"M5 16L10 10H17L19 16\"/><path class=\"p3\" d=\"M8 7.5h3M14 7.5h3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "drive", "dur": 1000, "delay": 900 }
+  ]
+}

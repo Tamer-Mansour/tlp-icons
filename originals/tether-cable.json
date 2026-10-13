@@ -1,0 +1,11 @@
+{
+  "name": "tether-cable",
+  "category": "photography",
+  "tags": ["tether", "cable", "laptop", "camera", "connect"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"10\" height=\"8\" rx=\"1.5\"/><rect class=\"p2\" x=\"16\" y=\"7\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M13 17h9\"/><path class=\"p3\" d=\"M12 11c2 0 2 1 4 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

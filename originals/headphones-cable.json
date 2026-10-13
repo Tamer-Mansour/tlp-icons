@@ -1,0 +1,11 @@
+{
+  "name": "headphones-cable",
+  "category": "media",
+  "tags": ["headphones", "cable", "wired", "audio", "earphones", "listen"],
+  "svg": "<path class=\"p1\" d=\"M4 13a8 8 0 0 1 16 0\"/><rect class=\"d p2\" x=\"3\" y=\"13\" width=\"3\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"18\" y=\"13\" width=\"3\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M19.5 19c1.2.8 1.2 1.2 0 1.8s-1.2 1 0 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "verified-badge",
+  "category": "people",
+  "tags": ["verified", "badge", "seal", "check", "approved"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8.5\"/><polyline class=\"p2\" points=\"8.5 12.5 11 15 15.5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

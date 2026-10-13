@@ -1,0 +1,11 @@
+{
+  "name": "highway-exit",
+  "category": "vehicles",
+  "tags": ["highway exit", "off ramp", "road sign", "arrow", "turn", "traffic"],
+  "svg": "<path class=\"p1\" d=\"M7 22V14a4 4 0 0 1 4-4h7\"/><rect class=\"d p2\" x=\"13\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M16 4h4M18.5 2.5L20 4l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

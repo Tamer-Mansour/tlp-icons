@@ -1,0 +1,10 @@
+{
+  "name": "map-choropleth",
+  "category": "charts",
+  "tags": ["map", "regions", "geography", "shaded", "data"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><path class=\"p2\" d=\"M9 4v14M15 6v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

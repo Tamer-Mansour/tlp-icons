@@ -1,0 +1,11 @@
+{
+  "name": "ammonia-molecule",
+  "category": "science",
+  "tags": ["ammonia", "molecule", "nitrogen", "hydrogen", "chemistry"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"3\"/><path class=\"p2\" d=\"M12 8V4M10 13L6 17M14 13L18 17\"/><circle class=\"f p3\" cx=\"6\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

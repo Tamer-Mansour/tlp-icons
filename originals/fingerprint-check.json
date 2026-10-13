@@ -1,0 +1,12 @@
+{
+  "name": "fingerprint-check",
+  "category": "notifications",
+  "tags": ["fingerprint", "biometric", "verified", "security", "identity"],
+  "svg": "<path class=\"p1\" d=\"M6 12a3 3 0 0 1 6 0v2\"/><path class=\"p2\" d=\"M4 12a5 5 0 0 1 10 0v4\"/><path class=\"p3\" d=\"M2 12a7 7 0 0 1 14 0v5\"/><path class=\"p4\" d=\"M18 15.5l1.8 1.8L22 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

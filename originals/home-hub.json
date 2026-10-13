@@ -1,0 +1,11 @@
+{
+  "name": "home-hub",
+  "category": "devices",
+  "tags": ["hub", "home", "smart", "network", "gateway"],
+  "svg": "<path class=\"p1\" d=\"M4 11l8-7 8 7v9H4z\"/><line class=\"p3\" x1=\"12\" y1=\"11.5\" x2=\"12\" y2=\"8.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

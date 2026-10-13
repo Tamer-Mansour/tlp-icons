@@ -1,0 +1,11 @@
+{
+  "name": "username-at",
+  "category": "people",
+  "tags": ["username", "at", "handle", "user", "account"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8.5\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h0a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M19 9v3a1.5 1.5 0 0 0 3 0V11a4 4 0 1 0-4 4\"/><circle class=\"p3\" cx=\"17\" cy=\"11\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1500 }
+  ]
+}

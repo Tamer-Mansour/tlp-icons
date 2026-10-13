@@ -1,0 +1,11 @@
+{
+  "name": "closed-sign",
+  "category": "buildings",
+  "tags": ["closed", "sign", "board", "bar", "shop", "shut"],
+  "svg": "<path class=\"p1\" d=\"M7 2v4M17 2v4\"/><rect class=\"d p2\" x=\"3\" y=\"6\" width=\"18\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M7 14l10-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

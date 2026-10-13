@@ -1,0 +1,12 @@
+{
+  "name": "mandrill",
+  "category": "nature",
+  "tags": ["monkey", "primate", "muzzle", "face", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 Q5 4 12 4 Q19 4 19 9 V13 Q19 19 12 20 Q5 19 5 13 Z\"/><path class=\"p2\" d=\"M12 12 V17 M9 14 Q12 17 15 14\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"9\" r=\"1\"/><path class=\"p4\" d=\"M5 13 Q2 14 3 18 M19 13 Q22 14 21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "12px 14px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "accordion-file",
+  "category": "files",
+  "tags": ["accordion", "file", "folder", "pleated", "tabs", "organize"],
+  "svg": "<path class=\"p1\" d=\"M3 5h7l2 2h9v13H3z\"/><path class=\"p2\" d=\"M8 12v6M12 12v6M16 12v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700 }
+  ]
+}

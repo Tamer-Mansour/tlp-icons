@@ -1,0 +1,11 @@
+{
+  "name": "subwoofer",
+  "category": "devices",
+  "tags": ["subwoofer", "speaker", "bass", "audio", "cone", "sound"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

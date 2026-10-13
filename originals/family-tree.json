@@ -1,0 +1,11 @@
+{
+  "name": "family-tree",
+  "category": "charts",
+  "tags": ["family", "tree", "parents", "children", "genealogy", "lineage"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"6\" r=\"3\"/><circle class=\"p1\" cx=\"16\" cy=\"6\" r=\"3\"/><path class=\"p3\" d=\"M12 9V13M5 13H19M5 13V16M12 13V16M19 13V16\"/><circle class=\"p2\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

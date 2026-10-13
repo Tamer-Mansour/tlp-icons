@@ -1,0 +1,11 @@
+{
+  "name": "air-pollution",
+  "category": "weather",
+  "tags": ["factory", "smoke", "pollution", "chimney", "emissions"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V11L8 14V11L13 14V9H19V21Z\"/><path class=\"p2\" d=\"M16 9V4H19V9\"/><path class=\"p3\" d=\"M16.5 2.5Q14.5 1.5 16.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

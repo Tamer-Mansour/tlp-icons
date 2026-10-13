@@ -1,0 +1,10 @@
+{
+  "name": "shed",
+  "category": "buildings",
+  "tags": ["shed", "storage", "garden", "doors", "outbuilding"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V10l8-6 8 6v11z\"/><path class=\"p2\" d=\"M9 21v-6h6v6M12 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 600, "delay": 600 }
+  ]
+}

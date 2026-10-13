@@ -1,0 +1,11 @@
+{
+  "name": "menu-bar-left",
+  "category": "layout",
+  "tags": ["menu", "bar", "left", "sidebar", "navigation", "strip", "labels"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"2\"/><path class=\"d p2\" d=\"M2.5 2.5h4v19h-4z\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hammock-camp",
+  "category": "buildings",
+  "tags": ["hammock", "camp", "trees", "rest", "outdoor", "camping"],
+  "svg": "<path class=\"p1\" d=\"M4 22 V9 M20 22 V9\"/><path class=\"p2\" d=\"M4 13 Q12 20 20 13\"/><circle class=\"p3\" cx=\"4\" cy=\"6\" r=\"3\"/><circle class=\"p3\" cx=\"20\" cy=\"6\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1200, "origin": "bottom" }
+  ]
+}

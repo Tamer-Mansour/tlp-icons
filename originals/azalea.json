@@ -1,0 +1,11 @@
+{
+  "name": "azalea",
+  "category": "nature",
+  "tags": ["azalea", "shrub", "bloom", "flower cluster", "garden", "spring"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"8\" r=\"2.5\"/><circle class=\"d p1\" cx=\"16.5\" cy=\"8\" r=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"2.5\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

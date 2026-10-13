@@ -1,0 +1,11 @@
+{
+  "name": "menu-arrow-down",
+  "category": "arrows",
+  "tags": ["menu", "arrow", "down", "dropdown", "label", "navigation"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M5.5 12h6\"/><path class=\"p3\" d=\"M16 10v4M14.5 12.5 16 14l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

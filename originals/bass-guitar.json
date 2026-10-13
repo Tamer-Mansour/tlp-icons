@@ -1,0 +1,11 @@
+{
+  "name": "bass-guitar",
+  "category": "media",
+  "tags": ["bass", "guitar", "strings", "music", "instrument", "neck"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"16\" rx=\"4\" ry=\"4.5\"/><path class=\"p2\" d=\"M11 12.5L20 3.5\"/><path class=\"p3\" d=\"M9.5 15L18.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "open-interval",
+  "category": "math",
+  "tags": ["open", "interval", "parenthesis", "bounds", "line", "math"],
+  "svg": "<path class=\"p1\" d=\"M7 12H17\"/><path class=\"p2\" d=\"M7 8Q4 12 7 16\"/><path class=\"p2\" d=\"M17 8Q20 12 17 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 700 }
+  ]
+}

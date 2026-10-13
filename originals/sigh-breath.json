@@ -1,0 +1,11 @@
+{
+  "name": "sigh-breath",
+  "category": "people",
+  "tags": ["sigh", "breath", "relief", "face", "tired", "exhale"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"11\" r=\"8\"/><path class=\"p2\" d=\"M8.5 15h3\"/><path class=\"p3\" d=\"M17 14c2 .5 3 1.5 3 3s-1.5 2-3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

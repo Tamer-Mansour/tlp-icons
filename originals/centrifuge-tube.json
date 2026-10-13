@@ -1,0 +1,11 @@
+{
+  "name": "centrifuge-tube",
+  "category": "science",
+  "tags": ["lab", "tube", "conical", "sample", "science"],
+  "svg": "<path class=\"p1\" d=\"M9 6h6v7l4 8a1 1 0 0 1-1 1.5H6a1 1 0 0 1-1-1.5l4-8z\"/><line class=\"p2\" x1=\"8\" y1=\"2\" x2=\"16\" y2=\"2\"/><path class=\"p3\" d=\"M10 14h2M9 17.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "press", "dur": 700, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "shrink-shape",
+  "category": "shapes",
+  "tags": ["shrink", "minimize", "resize", "arrows", "compress"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\"/><path class=\"p2\" d=\"M3 3 L8 8 M3 8 V3 H8 M21 21 L16 16 M21 16 V21 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "key-holder",
+  "category": "home",
+  "tags": ["key", "holder", "hook", "board", "hang"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1\"/><path class=\"p3\" d=\"M12 11v9M12 17h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 11px" }
+  ]
+}

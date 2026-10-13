@@ -1,0 +1,10 @@
+{
+  "name": "legend-list",
+  "category": "charts",
+  "tags": ["legend", "list", "colors", "labels", "key", "chart"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/><line class=\"p2\" x1=\"8\" y1=\"6\" x2=\"19\" y2=\"6\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"19\" y2=\"12\"/><line class=\"p2\" x1=\"8\" y1=\"18\" x2=\"19\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

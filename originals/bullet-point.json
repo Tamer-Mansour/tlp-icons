@@ -1,0 +1,10 @@
+{
+  "name": "bullet-point",
+  "category": "text",
+  "tags": ["bullet", "point", "list", "dot", "item", "marker"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M9 12h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

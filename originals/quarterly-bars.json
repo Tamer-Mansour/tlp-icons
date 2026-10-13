@@ -1,0 +1,10 @@
+{
+  "name": "quarterly-bars",
+  "category": "charts",
+  "tags": ["quarterly", "bars", "quarter", "report", "finance", "chart"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"13\" width=\"3\" height=\"7\" rx=\"0.5\"/><rect class=\"p1\" x=\"8\" y=\"9\" width=\"3\" height=\"11\" rx=\"0.5\"/><rect class=\"p1\" x=\"13\" y=\"15\" width=\"3\" height=\"5\" rx=\"0.5\"/><rect class=\"p1\" x=\"18\" y=\"7\" width=\"3\" height=\"13\" rx=\"0.5\"/><path class=\"p2\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 300, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wind-farm",
+  "category": "buildings",
+  "tags": ["wind farm", "wind turbine", "wind power", "renewable", "energy", "turbine"],
+  "svg": "<path class=\"p1\" d=\"M6 21v-10M12 21V7M18 21v-10\"/><path class=\"p2\" d=\"M12 7V2M12 7l4.3 2.5M12 7l-4.3 2.5\"/><path class=\"p3\" d=\"M6 11V8M6 11l-2.6 1.5M6 11l2.6 1.5M18 11V8M18 11l-2.6 1.5M18 11l2.6 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "thunderhead",
+  "category": "weather",
+  "tags": ["thunderhead", "storm cloud", "anvil", "thunder", "cumulonimbus", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M7 18 A4 4 0 0 1 7 10 A4 4 0 0 1 9 5 H16 A4 4 0 0 1 17 13 A4 4 0 0 1 17 18 Z\"/><path class=\"p2\" d=\"M13 12 L10 16 H14 L11 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sim-ejector",
+  "category": "devices",
+  "tags": ["sim", "ejector", "pin", "tray", "phone", "eject"],
+  "svg": "<rect class=\"p3\" x=\"4\" y=\"13\" width=\"16\" height=\"8\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"2\"/><path class=\"p1\" d=\"M12 3v6\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

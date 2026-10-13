@@ -1,0 +1,10 @@
+{
+  "name": "incident",
+  "category": "development",
+  "tags": ["incident", "warning", "outage", "alert", "triangle", "pulse"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5L2.5 20h19z\"/><path class=\"p2\" d=\"M7.5 15.5h2l1.5-3 2 4.5 1.5-2h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

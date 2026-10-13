@@ -1,0 +1,10 @@
+{
+  "name": "bean-shape",
+  "category": "shapes",
+  "tags": ["bean", "organic", "curve", "seed", "outline", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M9 4C6 4 3 7 3 12C3 17 7 20 12 20C16 20 20 18 21 14C21 10 17 9 14 11C12 12 11 10 11 8C11 6 11 4 9 4Z\"/><path class=\"p2\" d=\"M6.5 9.5C6.5 8 7.5 7 9 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

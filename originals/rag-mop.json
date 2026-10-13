@@ -1,0 +1,10 @@
+{
+  "name": "rag-mop",
+  "category": "home",
+  "tags": ["mop", "rag", "cleaning", "floor", "strands"],
+  "svg": "<path class=\"p1\" d=\"M12 2 V11\"/><path class=\"p1\" d=\"M6 11 H18\"/><path class=\"p2\" d=\"M7 11 C5 15 6 19 7 21 M11 11 C10 15 10 18 11 21 M14 11 C14 15 14 18 14 21 M17 11 C19 15 18 19 17 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 700, "origin": "12px 11px" }
+  ]
+}

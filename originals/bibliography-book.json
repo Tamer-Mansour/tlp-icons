@@ -1,0 +1,11 @@
+{
+  "name": "bibliography-book",
+  "category": "files",
+  "tags": ["bibliography", "books", "references", "shelf", "library", "bookmark"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"11\" width=\"3\" height=\"10\"/><rect class=\"p1\" x=\"10\" y=\"6\" width=\"3\" height=\"15\"/><rect class=\"d p2\" x=\"17\" y=\"9\" width=\"3\" height=\"12\"/><path class=\"p3\" d=\"M15 2v5l1.5-1.5L18 7V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 900, "origin": "top" }
+  ]
+}

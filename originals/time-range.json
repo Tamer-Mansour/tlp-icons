@@ -1,0 +1,10 @@
+{
+  "name": "time-range",
+  "category": "time",
+  "tags": ["range", "start", "end", "span", "schedule"],
+  "svg": "<path class=\"p1\" d=\"M7.5 12h9\"/><circle class=\"p2\" cx=\"4\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"20\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 500 }
+  ]
+}

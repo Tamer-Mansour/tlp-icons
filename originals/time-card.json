@@ -1,0 +1,11 @@
+{
+  "name": "time-card",
+  "category": "time",
+  "tags": ["time", "card", "timesheet", "hours", "record"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"16.5\" cy=\"9.5\" r=\"2\"/><polyline class=\"p2\" points=\"16.5 8.5 16.5 9.5 17.2 10\"/><path class=\"p3\" d=\"M6 9h6M6 14h12M6 17.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "16.5px 9.5px" }
+  ]
+}

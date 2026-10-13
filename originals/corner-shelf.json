@@ -1,0 +1,11 @@
+{
+  "name": "corner-shelf",
+  "category": "home",
+  "tags": ["shelf", "corner", "wall", "storage", "triangle", "display"],
+  "svg": "<path class=\"p1\" d=\"M3 2.5v18.5\"/><path class=\"d p2\" d=\"M3 10h11l-11 11z\"/><circle class=\"p3\" cx=\"9\" cy=\"6.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 1000 }
+  ]
+}

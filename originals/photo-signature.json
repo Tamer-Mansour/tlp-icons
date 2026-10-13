@@ -1,0 +1,10 @@
+{
+  "name": "photo-signature",
+  "category": "photography",
+  "tags": ["photo", "signature", "handwriting", "author", "mark"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M13 16c1-2 2-2 2 0s1 2 2 0 1-2 2 0 1 1 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 600 }
+  ]
+}

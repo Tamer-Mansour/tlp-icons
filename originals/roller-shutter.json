@@ -1,0 +1,11 @@
+{
+  "name": "roller-shutter",
+  "category": "buildings",
+  "tags": ["shutter", "roller", "slats", "blind", "garage", "security"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"7.5\" x2=\"21\" y2=\"7.5\"/><line class=\"p3\" x1=\"7\" y1=\"11\" x2=\"17\" y2=\"11\"/><line class=\"p3\" x1=\"7\" y1=\"14.5\" x2=\"17\" y2=\"14.5\"/><line class=\"p3\" x1=\"7\" y1=\"18\" x2=\"17\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

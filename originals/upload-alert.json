@@ -1,0 +1,11 @@
+{
+  "name": "upload-alert",
+  "category": "notifications",
+  "tags": ["upload", "alert", "tray", "arrow", "warning", "cloud"],
+  "svg": "<path class=\"p1\" d=\"M4 14v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5\"/><path class=\"p2\" d=\"M12 15V4M7.5 8.5L12 4l4.5 4.5\"/><circle class=\"f p3\" cx=\"20\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 300, "delay": 1300 }
+  ]
+}

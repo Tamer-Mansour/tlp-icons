@@ -1,0 +1,10 @@
+{
+  "name": "gear-stick",
+  "category": "vehicles",
+  "tags": ["gear", "stick", "shifter", "manual", "transmission"],
+  "svg": "<path class=\"p1\" d=\"M12 20V12M8 20h8\"/><circle class=\"d p2\" cx=\"12\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

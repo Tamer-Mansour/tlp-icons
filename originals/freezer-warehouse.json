@@ -1,0 +1,10 @@
+{
+  "name": "freezer-warehouse",
+  "category": "buildings",
+  "tags": ["freezer", "warehouse", "cold", "storage", "snowflake", "frozen"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\"/><path class=\"p2\" d=\"M12 7 V17 M8 9.5 L16 14.5 M16 9.5 L8 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

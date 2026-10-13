@@ -1,0 +1,11 @@
+{
+  "name": "softbox",
+  "category": "media",
+  "tags": ["softbox", "light", "studio", "lighting", "panel", "photo"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M12 12v9M8 21h8\"/><path class=\"p3\" d=\"M3 6l2 1M19 7l2-1M3 11h2M19 11h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 700, "delay": 900 }
+  ]
+}

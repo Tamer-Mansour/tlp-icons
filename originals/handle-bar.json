@@ -1,0 +1,10 @@
+{
+  "name": "handle-bar",
+  "category": "interface",
+  "tags": ["handle", "bar", "sheet", "drawer", "grab", "pull"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"4.5\" width=\"6\" height=\"3\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 11h18v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

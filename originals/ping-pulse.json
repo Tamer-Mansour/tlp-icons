@@ -1,0 +1,11 @@
+{
+  "name": "ping-pulse",
+  "category": "communication",
+  "tags": ["ping", "pulse", "signal", "broadcast", "radar", "beacon"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M7.5 7.5A6.4 6.4 0 0 0 7.5 16.5M16.5 7.5A6.4 6.4 0 0 1 16.5 16.5\"/><path class=\"p3\" d=\"M4.5 5A9.5 9.5 0 0 0 4.5 19M19.5 5A9.5 9.5 0 0 1 19.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 700 }
+  ]
+}

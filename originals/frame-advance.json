@@ -1,0 +1,11 @@
+{
+  "name": "frame-advance",
+  "category": "media",
+  "tags": ["frame", "advance", "step", "video", "film", "next"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"13\" height=\"14\" rx=\"1\"/><line class=\"p2\" x1=\"16\" y1=\"12\" x2=\"22\" y2=\"12\"/><polyline class=\"p3\" points=\"19,9 22,12 19,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

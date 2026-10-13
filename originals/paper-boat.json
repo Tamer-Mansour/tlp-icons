@@ -1,0 +1,10 @@
+{
+  "name": "paper-boat",
+  "category": "files",
+  "tags": ["paper", "boat", "origami", "folded", "sail", "float"],
+  "svg": "<path class=\"d p1\" d=\"M11 3v10H6z\"/><path class=\"p2\" d=\"M3 13h18l-3 6H6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 1200, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "kickball",
+  "category": "sport",
+  "tags": ["kickball", "ball", "kick", "game", "playground", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M14.5 4.5A8 8 0 0 1 21 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "whooshIn", "dur": 600, "delay": 600 }
+  ]
+}

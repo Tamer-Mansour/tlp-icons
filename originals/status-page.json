@@ -1,0 +1,11 @@
+{
+  "name": "status-page",
+  "category": "notifications",
+  "tags": ["status", "website", "uptime", "monitor", "health"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M2 8h20\"/><circle class=\"f p3\" cx=\"7\" cy=\"13.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"13.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"17\" cy=\"13.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 900, "delay": 900 }
+  ]
+}

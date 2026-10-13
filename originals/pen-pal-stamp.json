@@ -1,0 +1,11 @@
+{
+  "name": "pen-pal-stamp",
+  "category": "people",
+  "tags": ["pen", "pal", "stamp", "letter", "mail", "heart"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1\"/><rect class=\"p2\" x=\"7.5\" y=\"7.5\" width=\"9\" height=\"9\" rx=\"0.5\"/><path class=\"p3\" d=\"M12 17l-2.2-2.2a1.5 1.5 0 0 1 2.2-2 1.5 1.5 0 0 1 2.2 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "beat", "dur": 600, "delay": 900 }
+  ]
+}

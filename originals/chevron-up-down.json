@@ -1,0 +1,10 @@
+{
+  "name": "chevron-up-down",
+  "category": "interface",
+  "tags": ["chevron", "select", "dropdown", "arrows", "up down", "sort"],
+  "svg": "<path class=\"p1\" d=\"M8 9.5l4-4 4 4\"/><path class=\"p2\" d=\"M8 14.5l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "muskrat",
+  "category": "nature",
+  "tags": ["muskrat", "rodent", "paddle", "water", "marsh"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"6\" ry=\"4.5\"/><path class=\"p2\" d=\"M5.5 15 L2 18 L4 20 L8 17.5\"/><path class=\"p3\" d=\"M14 9.5 Q15 6.5 17 8.5\"/><circle class=\"f p4\" cx=\"15.5\" cy=\"12.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "6px 16px" },
+    { "part": "p4", "anim": "blink", "dur": 500, "delay": 1500 }
+  ]
+}

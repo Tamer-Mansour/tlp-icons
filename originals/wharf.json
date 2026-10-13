@@ -1,0 +1,11 @@
+{
+  "name": "wharf",
+  "category": "buildings",
+  "tags": ["wharf", "quay", "dock", "bollard", "pier", "mooring"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"15\" width=\"20\" height=\"6\" rx=\"0.5\"/><path class=\"p2\" d=\"M6 11v4M18 11v4\"/><path class=\"p3\" d=\"M6 11c2-2 4-2 6 0s4 2 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tectonic-plate",
+  "category": "nature",
+  "tags": ["tectonic", "plate", "fault", "earth", "geology"],
+  "svg": "<path class=\"d p1\" d=\"M11 4L3 6V20H11L12 16L10 12L12 8Z\"/><path class=\"d p2\" d=\"M11 4L21 6V20H11L12 16L10 12L12 8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

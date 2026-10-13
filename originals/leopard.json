@@ -1,0 +1,11 @@
+{
+  "name": "leopard",
+  "category": "nature",
+  "tags": ["leopard", "rosette spots", "big cat", "long body", "wild"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"5\"/><circle class=\"p2\" cx=\"7\" cy=\"11\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"11\" r=\"1.5\"/><path class=\"p3\" d=\"M5 16 V20 M18 16 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1200 }
+  ]
+}

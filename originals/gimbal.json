@@ -1,0 +1,11 @@
+{
+  "name": "gimbal",
+  "category": "photography",
+  "tags": ["gimbal", "stabilizer", "handheld", "camera", "video"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2.5\" width=\"8\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"5\"/><path class=\"p3\" d=\"M12 19v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spinHalf", "dur": 1000, "delay": 800 }
+  ]
+}

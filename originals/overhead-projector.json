@@ -1,0 +1,11 @@
+{
+  "name": "overhead-projector",
+  "category": "devices",
+  "tags": ["projector", "overhead", "presentation", "glass", "light", "beam"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"14\" width=\"14\" height=\"6\" rx=\"1.5\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"7\"/><rect class=\"d p3\" x=\"7\" y=\"3\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1200 }
+  ]
+}

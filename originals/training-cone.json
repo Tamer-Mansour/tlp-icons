@@ -1,0 +1,10 @@
+{
+  "name": "training-cone",
+  "category": "sport",
+  "tags": ["training", "cone", "marker", "agility", "drill", "field"],
+  "svg": "<path class=\"d p1\" d=\"M12 4L20 19H4Z\"/><path class=\"p2\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

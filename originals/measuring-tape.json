@@ -1,0 +1,10 @@
+{
+  "name": "measuring-tape",
+  "category": "design",
+  "tags": ["measure", "tape", "length", "ruler", "size", "dimension"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 10v4M11 8.5v7M15 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 1000 }
+  ]
+}

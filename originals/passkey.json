@@ -1,0 +1,11 @@
+{
+  "name": "passkey",
+  "category": "security",
+  "tags": ["passkey", "key", "card", "login", "credential", "access"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"9\" r=\"3.5\"/><path class=\"p2\" d=\"M10 11l9 9M16 17l2-2M18.5 19.5l1.5-1.5\"/><rect class=\"d p3\" x=\"12\" y=\"3\" width=\"9\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

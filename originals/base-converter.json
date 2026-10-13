@@ -1,0 +1,11 @@
+{
+  "name": "base-converter",
+  "category": "math",
+  "tags": ["base", "converter", "number", "radix", "math"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"10\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect class=\"p1\" x=\"16\" y=\"10\" width=\"6\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M9.5 13H14.5M10.8 11.5L9.5 13L10.8 14.5M13.2 11.5L14.5 13L13.2 14.5\"/><rect class=\"p3\" x=\"3.5\" y=\"5\" width=\"3\" height=\"2\" rx=\"0.5\"/><rect class=\"p3\" x=\"17.5\" y=\"5\" width=\"3\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ringtone-bell",
+  "category": "communication",
+  "tags": ["ringtone", "bell", "ring", "phone", "call", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M7 16v-5a5 5 0 0 1 10 0v5l1.5 2h-13z\"/><path class=\"p2\" d=\"M10.5 20.5a1.5 1.5 0 0 0 3 0\"/><path class=\"p3\" d=\"M3.5 8a5.5 5.5 0 0 0 0 6M20.5 8a5.5 5.5 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

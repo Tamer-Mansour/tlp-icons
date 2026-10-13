@@ -1,0 +1,10 @@
+{
+  "name": "play-button",
+  "category": "interface",
+  "tags": ["play", "button", "start", "media", "triangle", "video"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polygon class=\"d p2\" points=\"10 8.5 16 12 10 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ban-user",
+  "category": "people",
+  "tags": ["ban", "user", "remove", "person", "forbid", "exclude", "reject"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7.5\" r=\"3.5\"/><path class=\"p2\" d=\"M2 21v-1a5.5 5.5 0 0 1 11 0v1\"/><path class=\"p3\" d=\"M14.5 13.5l7 7M21.5 13.5l-7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

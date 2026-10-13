@@ -1,0 +1,10 @@
+{
+  "name": "win-rate",
+  "category": "charts",
+  "tags": ["win", "rate", "share", "pie", "ratio", "victory"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3a9 9 0 0 1 7.8 13.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cloud-gap",
+  "category": "weather",
+  "tags": ["clouds", "gap", "sun", "clearing", "sky", "weather"],
+  "svg": "<path class=\"p1\" d=\"M6 19h10a4 4 0 0 0 0-8 5.5 5.5 0 0 0-10.4 1.8A3 3 0 0 0 6 19z\"/><circle class=\"d p2\" cx=\"17\" cy=\"8\" r=\"3\"/><path class=\"p3\" d=\"M17 2v1.5M22 8h-1.5M12.5 3.5l1.1 1.1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "snap-magnet",
+  "category": "interface",
+  "tags": ["magnet", "snap", "attract", "align", "horseshoe", "pull"],
+  "svg": "<path class=\"p1\" d=\"M4 4V12A8 8 0 0 0 20 12V4\"/><circle class=\"f p2\" cx=\"4\" cy=\"2.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"2.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

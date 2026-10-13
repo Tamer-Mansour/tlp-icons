@@ -1,0 +1,11 @@
+{
+  "name": "quota-gauge",
+  "category": "charts",
+  "tags": ["quota", "gauge", "target", "goal", "meter", "progress"],
+  "svg": "<path class=\"p1\" d=\"M3 15a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 15l4-4\"/><circle class=\"f p3\" cx=\"18.4\" cy=\"8.6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

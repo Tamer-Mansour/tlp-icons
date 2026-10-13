@@ -1,0 +1,11 @@
+{
+  "name": "spray-nozzle",
+  "category": "tools",
+  "tags": ["spray", "nozzle", "trigger", "mist", "garden", "hose"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"11\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M7 13v4h3\"/><path class=\"p3\" d=\"M17 8h5M17 11h5M17 14h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pump", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1200 }
+  ]
+}

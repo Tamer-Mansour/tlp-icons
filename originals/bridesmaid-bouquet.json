@@ -1,0 +1,11 @@
+{
+  "name": "bridesmaid-bouquet",
+  "category": "people",
+  "tags": ["bouquet", "flowers", "bride", "wedding", "bridesmaid", "hand"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"2\"/><circle class=\"p1\" cx=\"15\" cy=\"7\" r=\"2\"/><circle class=\"p1\" cx=\"12\" cy=\"4.5\" r=\"2\"/><path class=\"p2\" d=\"M12 10 V20\"/><path class=\"p3\" d=\"M8.5 19.5 Q12 16.5 15.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bloom", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

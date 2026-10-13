@@ -1,0 +1,11 @@
+{
+  "name": "print-bed",
+  "category": "devices",
+  "tags": ["print", "bed", "3d", "printing", "plate", "layer"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"15\" width=\"19\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 6.5H17\"/><path class=\"p3\" d=\"M5 11H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 800 }
+  ]
+}

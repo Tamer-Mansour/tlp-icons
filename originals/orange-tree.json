@@ -1,0 +1,12 @@
+{
+  "name": "orange-tree",
+  "category": "nature",
+  "tags": ["orange", "citrus", "fruit", "orchard", "tree"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"8.5\" r=\"6\"/><path class=\"p2\" d=\"M11 14.5 V22\"/><path class=\"p4\" d=\"M17 16.5 V14\"/><circle class=\"p3\" cx=\"17\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "loading-cycle",
+  "category": "interface",
+  "tags": ["loading", "cycle", "spinner", "progress", "wait", "busy"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 4a8 8 0 0 1 7.88 6.61\"/><path class=\"p2\" d=\"M18.93 16a8 8 0 0 1-9.67 3.52\"/><path class=\"p2\" d=\"M5.07 16a8 8 0 0 1 1.79-10.13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 300 }
+  ]
+}

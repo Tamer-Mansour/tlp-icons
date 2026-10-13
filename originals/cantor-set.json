@@ -1,0 +1,11 @@
+{
+  "name": "cantor-set",
+  "category": "math",
+  "tags": ["cantor", "set", "fractal", "segments", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21\"/><path class=\"p2\" d=\"M3 12H9M15 12H21\"/><path class=\"p3\" d=\"M3 18H6M8 18H11M13 18H16M18 18H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 1000 }
+  ]
+}

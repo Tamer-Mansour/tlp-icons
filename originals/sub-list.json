@@ -1,0 +1,11 @@
+{
+  "name": "sub-list",
+  "category": "text",
+  "tags": ["sub", "list", "levels", "indent", "nested"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><path class=\"p3\" d=\"M6 9v4h4\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"21\" y2=\"13\"/><line class=\"p1\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

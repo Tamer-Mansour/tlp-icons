@@ -1,0 +1,11 @@
+{
+  "name": "gazelle",
+  "category": "nature",
+  "tags": ["gazelle", "thin legs", "curved horns", "savanna", "swift"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"6\" ry=\"3\"/><path class=\"p2\" d=\"M8 15 V21 M13 15 V21 M16 9 L19 7\"/><path class=\"p3\" d=\"M19 7 Q21 5 22 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 500, "delay": 1200 }
+  ]
+}

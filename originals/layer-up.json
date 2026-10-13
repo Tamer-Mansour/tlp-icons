@@ -1,0 +1,11 @@
+{
+  "name": "layer-up",
+  "category": "arrows",
+  "tags": ["layer", "up", "stack", "elevate", "arrows"],
+  "svg": "<polygon class=\"d p1\" points=\"12 14 21 17.5 12 21 3 17.5\"/><polyline class=\"p2\" points=\"3 12.5 12 17 21 12.5\"/><path class=\"p3\" d=\"M12 10V3\"/><polyline class=\"p3\" points=\"8.5 6.5 12 3 15.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 800 }
+  ]
+}

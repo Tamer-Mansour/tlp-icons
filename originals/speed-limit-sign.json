@@ -1,0 +1,11 @@
+{
+  "name": "speed-limit-sign",
+  "category": "vehicles",
+  "tags": ["speed limit", "road sign", "traffic", "number", "drive", "speed"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M11 8.5H7.5V12h3a1.5 1.5 0 0 1 0 3H7.5\"/><rect class=\"p3\" x=\"13\" y=\"8.5\" width=\"4\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "zoomIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

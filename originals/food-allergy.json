@@ -1,0 +1,11 @@
+{
+  "name": "food-allergy",
+  "category": "food",
+  "tags": ["allergy", "warning", "food", "alert", "allergen", "caution"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7v6\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

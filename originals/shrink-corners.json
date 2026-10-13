@@ -1,0 +1,10 @@
+{
+  "name": "shrink-corners",
+  "category": "arrows",
+  "tags": ["shrink", "exit fullscreen", "minimize", "corners", "contract", "window"],
+  "svg": "<path class=\"p1\" d=\"M9 3v6H3M21 9h-6V3M15 21v-6h6M3 15h6v6\"/><path class=\"p2\" d=\"M3 3l4 4M21 3l-4 4M21 21l-4-4M3 21l4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "refractor-telescope",
+  "category": "science",
+  "tags": ["refractor", "telescope", "lens", "tube", "optics", "astronomy"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"14\" height=\"6\" rx=\"1\"/><ellipse class=\"p2\" cx=\"19.5\" cy=\"12\" rx=\"1.5\" ry=\"4\"/><path class=\"p3\" d=\"M7 15l-3 6M11 15l3 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "game-map",
+  "category": "sport",
+  "tags": ["game", "map", "level", "world", "location", "pin"],
+  "svg": "<path class=\"d p1\" d=\"M3 6L9 4L15 6L21 4V18L15 20L9 18L3 20Z\"/><path class=\"p2\" d=\"M12 4A3 3 0 0 1 15 7C15 9 12 12 12 12C12 12 9 9 9 7A3 3 0 0 1 12 4Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

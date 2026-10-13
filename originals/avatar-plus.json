@@ -1,0 +1,11 @@
+{
+  "name": "avatar-plus",
+  "category": "people",
+  "tags": ["avatar", "plus", "add", "profile", "user"],
+  "svg": "<circle class=\"p1\" cx=\"9.5\" cy=\"13\" r=\"7.5\"/><circle class=\"d p2\" cx=\"9.5\" cy=\"9.5\" r=\"2.2\"/><path class=\"p2\" d=\"M5 18a4.5 4.5 0 0 1 9 0\"/><line class=\"p3\" x1=\"19.5\" y1=\"4\" x2=\"19.5\" y2=\"9\"/><line class=\"p3\" x1=\"17\" y1=\"6.5\" x2=\"22\" y2=\"6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "road-cone",
+  "category": "tools",
+  "tags": ["traffic", "cone", "warning", "construction", "hazard", "road", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M10 5Q12 3 14 5L19 19H5L10 5Z\"/><line class=\"p2\" x1=\"7.5\" y1=\"12\" x2=\"16.5\" y2=\"12\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

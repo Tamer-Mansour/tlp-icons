@@ -1,0 +1,11 @@
+{
+  "name": "incident-alert",
+  "category": "security",
+  "tags": ["incident", "alert", "siren", "emergency", "warning", "response"],
+  "svg": "<path class=\"d p1\" d=\"M8 17v-5a4 4 0 0 1 8 0v5z\"/><path class=\"p2\" d=\"M12 3v2.5M4 9.5L6 11M20 9.5L18 11\"/><path class=\"p3\" d=\"M4 20.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "pulseRing", "dur": 600, "delay": 800 }
+  ]
+}

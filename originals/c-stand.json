@@ -1,0 +1,11 @@
+{
+  "name": "c-stand",
+  "category": "photography",
+  "tags": ["c", "stand", "boom", "clamp", "studio"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18M4 21h4\"/><path class=\"p2\" d=\"M6 6h12\"/><rect class=\"p3\" x=\"17\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 800, "delay": 500, "origin": "6px 6px" },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

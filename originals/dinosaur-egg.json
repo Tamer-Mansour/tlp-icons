@@ -1,0 +1,10 @@
+{
+  "name": "dinosaur-egg",
+  "category": "nature",
+  "tags": ["dinosaur egg", "egg", "spotted", "fossil", "nest", "prehistoric"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 Q18 3 18 13 Q18 21 12 21 Q6 21 6 13 Q6 3 12 3 Z\"/><circle class=\"f p2\" cx=\"10\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"10\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

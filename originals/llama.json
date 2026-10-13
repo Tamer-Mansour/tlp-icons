@@ -1,0 +1,12 @@
+{
+  "name": "llama",
+  "category": "nature",
+  "tags": ["llama", "neck", "andes", "animal", "wool", "farm"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"10\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M12 12 L16 5\"/><circle class=\"p3\" cx=\"17\" cy=\"4\" r=\"2\"/><path class=\"p4\" d=\"M6 17 V20 M11 17 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1000, "origin": "17px 4px" },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 1400 }
+  ]
+}

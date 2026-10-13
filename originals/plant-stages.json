@@ -1,0 +1,12 @@
+{
+  "name": "plant-stages",
+  "category": "science",
+  "tags": ["plant", "sprout", "growth", "stages", "seedling"],
+  "svg": "<path class=\"p1\" d=\"M3 21H21\"/><path class=\"p2\" d=\"M6 19V16\"/><path class=\"p3\" d=\"M12 19V12\"/><path class=\"p4\" d=\"M18 19V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "grow", "dur": 700, "delay": 700, "origin": "bottom" }
+  ]
+}

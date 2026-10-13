@@ -1,0 +1,11 @@
+{
+  "name": "spoiled-food",
+  "category": "food",
+  "tags": ["spoiled", "food", "mold", "rot", "fruit"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M7.5 13 Q9 11.5 10.5 13 T13.5 13 T16.5 13\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

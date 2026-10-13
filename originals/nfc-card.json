@@ -1,0 +1,10 @@
+{
+  "name": "nfc-card",
+  "category": "security",
+  "tags": ["security", "nfc", "card", "contactless", "payment", "wireless"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 10 Q10.5 12 8.5 14\"/><path class=\"p2\" d=\"M12 8 Q15.5 12 12 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "smoke",
+  "category": "weather",
+  "tags": ["smoke", "wisp", "rising", "chimney", "haze"],
+  "svg": "<path class=\"p1\" d=\"M5 21C3 18 7 16 5 13M19 21C17 18 21 16 19 13\"/><path class=\"p2\" d=\"M12 21C10 18 14 16 12 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 700 }
+  ]
+}

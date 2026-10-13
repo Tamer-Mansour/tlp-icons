@@ -1,0 +1,11 @@
+{
+  "name": "bar-3d",
+  "category": "charts",
+  "tags": ["3d", "bars", "blocks", "isometric", "volume", "chart"],
+  "svg": "<path class=\"d p1\" d=\"M4 12h4v8H4z\"/><path class=\"p2\" d=\"M4 12l2-2h4v8l-2 2H4M8 12v8\"/><path class=\"d p3\" d=\"M12 7h4v13h-4z\"/><path class=\"p2\" d=\"M12 7l2-2h4v13l-2 2h-4M16 7v13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "album-art",
+  "category": "media",
+  "tags": ["album", "art", "cover", "music", "image", "record"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h11l5 5v13H4z\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"3.5\"/><path class=\"p3\" d=\"M15 3v5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

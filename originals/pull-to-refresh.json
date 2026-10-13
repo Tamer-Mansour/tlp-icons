@@ -1,0 +1,10 @@
+{
+  "name": "pull-to-refresh",
+  "category": "arrows",
+  "tags": ["refresh", "reload", "phone", "pull", "sync"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M15.5 11.5A3.5 3.5 0 1 1 12 8.5M10.2 6.7 12 8.5l-1.8 1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 500, "origin": "12px 12px" }
+  ]
+}

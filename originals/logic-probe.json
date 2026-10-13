@@ -1,0 +1,11 @@
+{
+  "name": "logic-probe",
+  "category": "devices",
+  "tags": ["logic", "probe", "pen", "led", "circuit", "test"],
+  "svg": "<path class=\"d p1\" d=\"M9 4H15V13H9Z\"/><path class=\"p2\" d=\"M9 13L12 21L15 13\"/><circle class=\"p3\" cx=\"19\" cy=\"7\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 700, "delay": 800 }
+  ]
+}

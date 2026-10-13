@@ -1,0 +1,11 @@
+{
+  "name": "disc-drive",
+  "category": "media",
+  "tags": ["disc", "drive", "eject", "insert", "optical", "slot"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"14\" x2=\"21\" y2=\"14\"/><circle class=\"d p2\" cx=\"12\" cy=\"8\" r=\"4\"/><line class=\"p3\" x1=\"12\" y1=\"17.5\" x2=\"12\" y2=\"20\"/><polyline class=\"p3\" points=\"9.5,17.5 12,20 14.5,17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 900 }
+  ]
+}

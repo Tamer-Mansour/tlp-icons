@@ -1,0 +1,10 @@
+{
+  "name": "production-line",
+  "category": "buildings",
+  "tags": ["production", "line", "conveyor", "belt", "boxes", "factory"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"15\" width=\"20\" height=\"4\"/><rect class=\"p2\" x=\"4\" y=\"9\" width=\"4\" height=\"4\"/><rect class=\"p2\" x=\"10\" y=\"9\" width=\"4\" height=\"4\"/><rect class=\"p2\" x=\"16\" y=\"9\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1200, "delay": 800 }
+  ]
+}

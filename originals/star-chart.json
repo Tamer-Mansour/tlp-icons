@@ -1,0 +1,11 @@
+{
+  "name": "star-chart",
+  "category": "science",
+  "tags": ["star", "chart", "sky", "astronomy", "map", "stars"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 8l6 1M15 9l-3 6\"/><circle class=\"f p3\" cx=\"9\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "face-devil",
+  "category": "emoji",
+  "tags": ["face", "devil", "horns", "mischief", "evil"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7.5\"/><path class=\"p2\" d=\"M6 7 4.5 3.5l3.5 1.5M18 7l1.5-3.5-3.5 1.5\"/><path class=\"p3\" d=\"M9 11v1M15 11v1M9 15.5c1.5 1.5 4.5 1.5 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

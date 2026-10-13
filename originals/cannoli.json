@@ -1,0 +1,11 @@
+{
+  "name": "cannoli",
+  "category": "food",
+  "tags": ["cannoli", "pastry", "tube", "ricotta", "italian", "dessert"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"6\" rx=\"2\" transform=\"rotate(-30 12 12)\"/><circle class=\"f p2\" cx=\"5.5\" cy=\"15.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"8.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

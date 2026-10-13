@@ -1,0 +1,11 @@
+{
+  "name": "reconnecting",
+  "category": "connectivity",
+  "tags": ["reconnecting", "arrows", "circle", "retry", "loading", "connection"],
+  "svg": "<path class=\"p1\" d=\"M12 4a8 8 0 0 1 8 8M18 10l2 2 2-2\"/><path class=\"p2\" d=\"M12 20a8 8 0 0 1-8-8M6 14l-2-2-2 2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900, "origin": "12px 12px" }
+  ]
+}

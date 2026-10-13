@@ -1,0 +1,11 @@
+{
+  "name": "stopwatch-start",
+  "category": "time",
+  "tags": ["stopwatch", "start", "timer", "play", "begin", "run", "time"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13.5\" r=\"7.5\"/><path class=\"p2\" d=\"M10 3h4M12 3v3\"/><polygon class=\"p3\" points=\"10.5 10.5 10.5 16.5 15.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

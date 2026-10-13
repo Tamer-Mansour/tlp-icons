@@ -1,0 +1,10 @@
+{
+  "name": "flood-shield",
+  "category": "security",
+  "tags": ["flood", "shield", "water", "defense", "protect", "waves"],
+  "svg": "<path class=\"p1\" d=\"M2 8.5q1.5-1.5 3 0t3 0M2 12.5q1.5-1.5 3 0t3 0M2 16.5q1.5-1.5 3 0t3 0\"/><path class=\"d p2\" d=\"M16 3l5.5 1.5v6C21.5 15 19.2 18.2 16 20c-3.2-1.8-5.5-5-5.5-9.5v-6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

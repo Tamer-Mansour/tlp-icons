@@ -1,0 +1,11 @@
+{
+  "name": "audio-loop",
+  "category": "media",
+  "tags": ["audio", "loop", "repeat", "cycle", "waveform", "sound"],
+  "svg": "<path class=\"p1\" d=\"M17.7 6.3A8 8 0 1 0 20 12\"/><polyline class=\"p2\" points=\"20,8 20,12 16,12\"/><polyline class=\"p3\" points=\"8,12 9.5,10 11,14 12.5,10 14,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

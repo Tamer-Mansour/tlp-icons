@@ -1,0 +1,11 @@
+{
+  "name": "veterinary-clinic",
+  "category": "buildings",
+  "tags": ["veterinary", "vet", "animal", "paw", "clinic", "pet", "care"],
+  "svg": "<path class=\"d p1\" d=\"M4 19V10l8-5 8 5v9z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"14.5\" rx=\"2.5\" ry=\"1.8\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"9.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

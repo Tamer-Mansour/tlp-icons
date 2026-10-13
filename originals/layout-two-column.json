@@ -1,0 +1,11 @@
+{
+  "name": "layout-two-column",
+  "category": "layout",
+  "tags": ["layout", "two", "column", "grid", "page", "text"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 8H10M6 12H10M6 16H10\"/><path class=\"p3\" d=\"M14 8H18M14 12H18M14 16H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

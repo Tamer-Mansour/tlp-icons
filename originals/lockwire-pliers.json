@@ -1,0 +1,11 @@
+{
+  "name": "lockwire-pliers",
+  "category": "tools",
+  "tags": ["lockwire", "pliers", "wire", "twist", "safety", "bolts"],
+  "svg": "<path class=\"p1\" d=\"M3 8l5 4-5 4\"/><path class=\"p2\" d=\"M8 12l2-3 2 3 2-3 2 3\"/><circle class=\"d p3\" cx=\"19\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1500 }
+  ]
+}

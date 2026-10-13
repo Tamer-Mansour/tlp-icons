@@ -1,0 +1,11 @@
+{
+  "name": "fondue-pot",
+  "category": "home",
+  "tags": ["fondue", "pot", "cheese", "melt", "stand", "party"],
+  "svg": "<path class=\"d p1\" d=\"M5 7h14l-1.5 9H6.5z\"/><path class=\"p2\" d=\"M7 18h10\"/><path class=\"p3\" d=\"M10 22q2-3 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

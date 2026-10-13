@@ -1,0 +1,10 @@
+{
+  "name": "steering-rack",
+  "category": "vehicles",
+  "tags": ["steering", "rack", "gear", "tie rod", "wheel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"5\" rx=\"1\"/><g class=\"p2\"><path d=\"M7 13v3M10.5 13v3M14 13v3M17.5 13v3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 500 }
+  ]
+}

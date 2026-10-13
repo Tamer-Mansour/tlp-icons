@@ -1,0 +1,10 @@
+{
+  "name": "ruler-tab-stops",
+  "category": "design",
+  "tags": ["ruler", "tab", "stops", "indent", "margin", "text", "document"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M6 10.5v-2.5M6 10.5h3M14 10.5v-2.5M14 10.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 500 }
+  ]
+}

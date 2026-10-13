@@ -1,0 +1,10 @@
+{
+  "name": "tap-wrench",
+  "category": "tools",
+  "tags": ["tap", "wrench", "t-handle", "square", "drive", "tool"],
+  "svg": "<path class=\"p1\" d=\"M4 4h16M12 4v10\"/><rect class=\"p2\" x=\"9\" y=\"15\" width=\"6\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

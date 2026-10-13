@@ -1,0 +1,11 @@
+{
+  "name": "chemical-formula",
+  "category": "text",
+  "tags": ["chemical", "formula", "molecule", "subscript", "chemistry", "letters", "element"],
+  "svg": "<path class=\"p1\" d=\"M3 6v12M9 6v12M3 12h6\"/><circle class=\"p2\" cx=\"14.5\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M19.5 15a1.25 1.25 0 0 1 2.5 0c0 .8-2.5 1.8-2.5 3.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

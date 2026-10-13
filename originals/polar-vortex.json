@@ -1,0 +1,11 @@
+{
+  "name": "polar-vortex",
+  "category": "weather",
+  "tags": ["polar", "vortex", "swirl", "cold", "arctic", "ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M12 8a4 4 0 1 1-4 4\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 600 }
+  ]
+}

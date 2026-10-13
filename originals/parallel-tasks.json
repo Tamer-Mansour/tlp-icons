@@ -1,0 +1,11 @@
+{
+  "name": "parallel-tasks",
+  "category": "development",
+  "tags": ["parallel", "tasks", "bars", "concurrent", "progress", "gantt"],
+  "svg": "<path class=\"p1\" d=\"M3 6 H14\"/><path class=\"p2\" d=\"M7 12 H19\"/><path class=\"p3\" d=\"M5 18 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

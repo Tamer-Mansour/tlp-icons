@@ -1,0 +1,11 @@
+{
+  "name": "torque-wrench",
+  "category": "tools",
+  "tags": ["torque", "wrench", "dial", "gauge", "tightening"],
+  "svg": "<path class=\"p1\" d=\"M3 21L16 8\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"3\"/><path class=\"p3\" d=\"M18 6V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "18px 6px" }
+  ]
+}

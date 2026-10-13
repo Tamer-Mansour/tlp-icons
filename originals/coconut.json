@@ -1,0 +1,11 @@
+{
+  "name": "coconut",
+  "category": "food",
+  "tags": ["coconut", "nut", "tropical", "fruit", "beach", "milk"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M6 8 Q12 4.5 18 8\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

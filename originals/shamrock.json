@@ -1,0 +1,12 @@
+{
+  "name": "shamrock",
+  "category": "emoji",
+  "tags": ["shamrock", "clover", "luck", "ireland", "leaf"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"2.8\"/><circle class=\"d p2\" cx=\"5.8\" cy=\"12.5\" r=\"2.8\"/><circle class=\"d p3\" cx=\"18.2\" cy=\"12.5\" r=\"2.8\"/><path class=\"p4\" d=\"M12 8.8V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stacked-bars",
+  "category": "charts",
+  "tags": ["stacked", "bars", "segments", "composition", "columns", "chart"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"7\" height=\"8\"/><rect class=\"d p2\" x=\"3\" y=\"5\" width=\"7\" height=\"6\"/><rect class=\"d p1\" x=\"14\" y=\"15\" width=\"7\" height=\"6\"/><rect class=\"d p2\" x=\"14\" y=\"7\" width=\"7\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

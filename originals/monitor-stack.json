@@ -1,0 +1,10 @@
+{
+  "name": "monitor-stack",
+  "category": "layout",
+  "tags": ["monitor", "stack", "two", "vertical", "display"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"8\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4\" y=\"14\" width=\"16\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

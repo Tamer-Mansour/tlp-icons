@@ -1,0 +1,11 @@
+{
+  "name": "bocce",
+  "category": "sport",
+  "tags": ["bocce", "jack", "balls", "lawn", "game", "italian"],
+  "svg": "<circle class=\"d p1\" cx=\"6.5\" cy=\"13\" r=\"4\"/><circle class=\"p2\" cx=\"17\" cy=\"12.5\" r=\"4\"/><circle class=\"p3\" cx=\"11.5\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "roll", "dur": 700, "delay": 900 }
+  ]
+}

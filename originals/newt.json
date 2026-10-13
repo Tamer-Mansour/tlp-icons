@@ -1,0 +1,11 @@
+{
+  "name": "newt",
+  "category": "nature",
+  "tags": ["lizard", "amphibian", "fin", "tail", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 Q7 9 11 12 Q15 15 20 12 L21 13 Q15 18 11 15 Q7 11 3 14 Z\"/><path class=\"p2\" d=\"M5 11 Q9 7 12 11 M14 14 Q17 17 20 15\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 300, "delay": 900 }
+  ]
+}

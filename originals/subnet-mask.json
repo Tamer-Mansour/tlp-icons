@@ -1,0 +1,11 @@
+{
+  "name": "subnet-mask",
+  "category": "connectivity",
+  "tags": ["subnet", "mask", "netmask", "network", "partition", "addressing"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"d p3\" x=\"3\" y=\"12\" width=\"9\" height=\"9\"/><path class=\"p2\" d=\"M12 3V21M3 12H21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "color-sampler",
+  "category": "design",
+  "tags": ["color", "sampler", "eyedropper", "pick", "swatch", "dropper", "colour"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"10\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M14.5 9.5L20 4l1.5 1.5-5.5 5.5z\"/><circle class=\"f p3\" cx=\"7\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 500, "delay": 500, "origin": "14.5px 9.5px" },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

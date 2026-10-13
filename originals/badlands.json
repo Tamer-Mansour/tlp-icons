@@ -1,0 +1,10 @@
+{
+  "name": "badlands",
+  "category": "nature",
+  "tags": ["badlands", "peaks", "erosion", "desert", "landform"],
+  "svg": "<path class=\"d p1\" d=\"M2 20L5 12L8 15L11 7L14 14L17 10L20 16L22 13V20Z\"/><path class=\"p2\" d=\"M2 20H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

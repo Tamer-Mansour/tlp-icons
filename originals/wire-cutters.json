@@ -1,0 +1,10 @@
+{
+  "name": "wire-cutters",
+  "category": "tools",
+  "tags": ["wire", "cutters", "pliers", "snip", "cut", "electrical"],
+  "svg": "<path class=\"p1\" d=\"M3 12l7-4M3 12l7 4\"/><path class=\"p2\" d=\"M10 8l9 2M10 16l9-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 900 }
+  ]
+}

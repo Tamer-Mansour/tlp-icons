@@ -1,0 +1,10 @@
+{
+  "name": "inscribed-circle",
+  "category": "math",
+  "tags": ["inscribed", "incircle", "triangle", "geometry", "tangent", "math"],
+  "svg": "<polygon class=\"d p1\" points=\"3,20 21,20 12,4\"/><circle class=\"p2\" cx=\"12\" cy=\"14.75\" r=\"5.25\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

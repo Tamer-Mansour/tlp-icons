@@ -1,0 +1,11 @@
+{
+  "name": "telex-machine",
+  "category": "communication",
+  "tags": ["telex", "teleprinter", "machine", "typewriter", "paper", "keys"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M7 10V4h10v6\"/><rect class=\"p3\" x=\"6\" y=\"13\" width=\"2\" height=\"2\"/><rect class=\"p3\" x=\"10\" y=\"13\" width=\"2\" height=\"2\"/><rect class=\"p3\" x=\"14\" y=\"13\" width=\"2\" height=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

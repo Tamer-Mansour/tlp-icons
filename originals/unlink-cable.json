@@ -1,0 +1,10 @@
+{
+  "name": "unlink-cable",
+  "category": "connectivity",
+  "tags": ["unlink", "disconnect", "cable", "plug", "unplug", "detach"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12 H6\"/><rect class=\"p1\" x=\"6\" y=\"8.5\" width=\"5\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"8.5\" width=\"5\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M18 12 H21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "nudgeBack", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 0 }
+  ]
+}

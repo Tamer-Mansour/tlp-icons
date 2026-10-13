@@ -1,0 +1,11 @@
+{
+  "name": "radiator-heater",
+  "category": "devices",
+  "tags": ["radiator", "heater", "heat", "warm", "home", "fins"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 9V21M12 9V21M15 9V21\"/><path class=\"p3\" d=\"M9 6C8 5 10 4 9 3M15 6C14 5 16 4 15 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 700, "delay": 900 }
+  ]
+}

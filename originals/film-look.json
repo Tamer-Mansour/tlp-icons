@@ -1,0 +1,11 @@
+{
+  "name": "film-look",
+  "category": "design",
+  "tags": ["film", "look", "strip", "sprocket", "grain", "photo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 8H8M11 8H13M16 8H18M6 16H8M11 16H13M16 16H18\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

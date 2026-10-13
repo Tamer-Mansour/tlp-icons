@@ -1,0 +1,12 @@
+{
+  "name": "rocket-engine",
+  "category": "science",
+  "tags": ["rocket", "engine", "nozzle", "launch", "space", "thrust"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M8 13 L6 17 H18 L16 13\"/><circle class=\"p4\" cx=\"12\" cy=\"8\" r=\"1.5\"/><path class=\"p3\" d=\"M10 19.5 V21.5 M14 19.5 V21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "delivery-time",
+  "category": "charts",
+  "tags": ["delivery", "time", "package", "clock", "shipping", "schedule"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"11\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M7.5 9v11\"/><circle class=\"p3\" cx=\"18\" cy=\"7\" r=\"4\"/><path class=\"p4\" d=\"M18 5v2l1.2 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "sweep", "dur": 1000, "delay": 1300, "origin": "18px 7px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "density-plot",
+  "category": "charts",
+  "tags": ["density", "distribution", "hump", "curve", "kernel"],
+  "svg": "<path class=\"d p1\" d=\"M2 17C5 17 6 4 12 4C18 4 19 17 22 17Z\"/><path class=\"p2\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

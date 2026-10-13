@@ -1,0 +1,12 @@
+{
+  "name": "drone-camera",
+  "category": "media",
+  "tags": ["drone", "quadcopter", "camera", "aerial", "flying", "rotor"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"9\" width=\"8\" height=\"4\" rx=\"1\"/><line class=\"p2\" x1=\"8\" y1=\"10\" x2=\"5\" y2=\"7\"/><line class=\"p2\" x1=\"16\" y1=\"10\" x2=\"19\" y2=\"7\"/><line class=\"p3\" x1=\"2.5\" y1=\"6\" x2=\"7.5\" y2=\"6\"/><line class=\"p3\" x1=\"16.5\" y1=\"6\" x2=\"21.5\" y2=\"6\"/><circle class=\"p4\" cx=\"12\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "buzz", "dur": 800, "delay": 1300 }
+  ]
+}

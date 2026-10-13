@@ -1,0 +1,11 @@
+{
+  "name": "market-stall",
+  "category": "buildings",
+  "tags": ["market", "stall", "awning", "counter", "shop", "stripes"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5L4.5 4.5h15L21 9.5z\"/><path class=\"p2\" d=\"M9 4.5v5M15 4.5v5\"/><path class=\"p3\" d=\"M3 12h18M5 12v9.5M19 12v9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

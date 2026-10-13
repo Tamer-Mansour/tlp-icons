@@ -1,0 +1,10 @@
+{
+  "name": "drill-up",
+  "category": "arrows",
+  "tags": ["drill", "up", "layers", "summary", "rise", "arrow"],
+  "svg": "<path class=\"p1 d\" d=\"M12 3.5 20 7.5 12 11.5 4 7.5z\"/><path class=\"p1\" d=\"M4 13l8 4 8-4\"/><path class=\"p2\" d=\"M20 21v-8M17.5 15.5 20 13l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pronouns-tag",
+  "category": "people",
+  "tags": ["pronouns", "tag", "label", "identity", "speech", "profile", "chat"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6\" width=\"19\" height=\"12\" rx=\"3\"/><path class=\"p2\" d=\"M5.5 12h4M15.5 12h3\"/><path class=\"p3\" d=\"M11 16l2-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

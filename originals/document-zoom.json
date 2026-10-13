@@ -1,0 +1,10 @@
+{
+  "name": "document-zoom",
+  "category": "files",
+  "tags": ["document", "zoom", "magnifier", "search", "inspect", "page"],
+  "svg": "<path class=\"p1\" d=\"M3 3h11l4 4v14H3z\"/><circle class=\"p2\" cx=\"15\" cy=\"15\" r=\"3.5\"/><path class=\"p2\" d=\"M18 18l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 600, "delay": 800 }
+  ]
+}

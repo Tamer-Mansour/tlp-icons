@@ -1,0 +1,11 @@
+{
+  "name": "brake-caliper",
+  "category": "vehicles",
+  "tags": ["brake", "caliper", "disc", "stop", "wheel"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><rect class=\"d p2\" x=\"13\" y=\"4\" width=\"6\" height=\"5\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

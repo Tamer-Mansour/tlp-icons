@@ -1,0 +1,10 @@
+{
+  "name": "shield-badge",
+  "category": "shapes",
+  "tags": ["shield", "badge", "security", "award", "star", "protection"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L19.5 6v5.5c0 4.5-3 7.8-7.5 9.5-4.5-1.7-7.5-5-7.5-9.5V6z\"/><polygon class=\"p2\" points=\"12,7.5 13.2,10 15.5,10.2 13.7,11.7 14.3,14 12,12.7 9.7,14 10.3,11.7 8.5,10.2 10.8,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 800 }
+  ]
+}

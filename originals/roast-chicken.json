@@ -1,0 +1,11 @@
+{
+  "name": "roast-chicken",
+  "category": "food",
+  "tags": ["chicken", "roast", "drumstick", "meat", "dinner", "poultry", "wing"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"5\"/><line class=\"p2\" x1=\"12.5\" y1=\"11.5\" x2=\"16.5\" y2=\"7.5\"/><circle class=\"p3\" cx=\"17.5\" cy=\"6.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

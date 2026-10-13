@@ -1,0 +1,11 @@
+{
+  "name": "wheel-rim",
+  "category": "vehicles",
+  "tags": ["wheel", "rim", "spokes", "tire", "alloy", "hub"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M12 3V9.5M12 14.5V21M3 12H9.5M14.5 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900, "origin": "12px 12px" }
+  ]
+}

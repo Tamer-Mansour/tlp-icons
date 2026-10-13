@@ -1,0 +1,11 @@
+{
+  "name": "sleepwalk",
+  "category": "people",
+  "tags": ["sleepwalk", "sleep", "night", "walking", "dream", "zzz"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M8 8.5v6.5M8 15l-2.5 6.5M8 15l2.5 6.5M8 11.5h6\"/><path class=\"p3\" d=\"M15 3.5h3l-3 3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

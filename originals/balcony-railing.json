@@ -1,0 +1,11 @@
+{
+  "name": "balcony-railing",
+  "category": "buildings",
+  "tags": ["balcony", "railing", "bars", "ledge", "terrace"],
+  "svg": "<path class=\"p1\" d=\"M2 19H22\"/><path class=\"p2\" d=\"M5 8V18M9 8V18M13 8V18M17 8V18M21 8V18\"/><path class=\"p3\" d=\"M3 8H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

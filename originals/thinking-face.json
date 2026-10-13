@@ -1,0 +1,11 @@
+{
+  "name": "thinking-face",
+  "category": "emoji",
+  "tags": ["thinking", "think", "face", "emoji", "pondering", "hmm"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9.5 15.5 H14.5 M7 17.5 C8.5 19 11 19.5 12 19.5 C13.5 19.5 15.5 18.5 17 17\"/><path class=\"p3\" d=\"M8 10.5 L10 9.5 M14 9.5 L16 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1200, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cobblestone",
+  "category": "buildings",
+  "tags": ["cobblestone", "stones", "paving", "road", "brick", "pavement"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"5\" height=\"6\" rx=\"1.5\"/><rect class=\"p1\" x=\"9\" y=\"5\" width=\"5\" height=\"6\" rx=\"1.5\"/><rect class=\"p1\" x=\"16\" y=\"5\" width=\"5\" height=\"6\" rx=\"1.5\"/><rect class=\"p2\" x=\"4.5\" y=\"13\" width=\"5\" height=\"6\" rx=\"1.5\"/><rect class=\"p2\" x=\"11.5\" y=\"13\" width=\"5\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 600 }
+  ]
+}

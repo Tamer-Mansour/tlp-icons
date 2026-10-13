@@ -1,0 +1,11 @@
+{
+  "name": "golf-driver",
+  "category": "sport",
+  "tags": ["golf", "driver", "club", "tee", "swing", "wood"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"12\" y2=\"12\"/><path class=\"d p2\" d=\"M12 12 L15 6 L20 8 L19 13 Z\"/><circle class=\"p3\" cx=\"19\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1000 }
+  ]
+}

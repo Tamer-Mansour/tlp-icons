@@ -1,0 +1,10 @@
+{
+  "name": "gymnastics-hoop",
+  "category": "sport",
+  "tags": ["gymnastics", "hoop", "ring", "rhythmic", "dance", "sport"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M9 2h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

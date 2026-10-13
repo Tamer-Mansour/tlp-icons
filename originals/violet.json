@@ -1,0 +1,11 @@
+{
+  "name": "violet",
+  "category": "nature",
+  "tags": ["violet", "flower", "five petals", "spring", "wildflower", "bloom"],
+  "svg": "<path class=\"p1\" d=\"M10 4.5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M15.23 8.3a2 2 0 1 0 4 0a2 2 0 1 0-4 0M13.23 14.45a2 2 0 1 0 4 0a2 2 0 1 0-4 0M6.77 14.45a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4.77 8.3a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path class=\"p2\" d=\"M12 16.5V21\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

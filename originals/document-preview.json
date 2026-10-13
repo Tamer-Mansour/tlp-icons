@@ -1,0 +1,11 @@
+{
+  "name": "document-preview",
+  "category": "files",
+  "tags": ["preview", "document", "eye", "view", "page", "look"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M7 7.5q5-4.5 10 0q-5 4.5-10 0z\"/><circle class=\"f p3\" cx=\"12\" cy=\"7.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

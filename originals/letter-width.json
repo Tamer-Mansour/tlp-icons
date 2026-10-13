@@ -1,0 +1,11 @@
+{
+  "name": "letter-width",
+  "category": "text",
+  "tags": ["letter", "width", "measure", "glyph", "size", "text"],
+  "svg": "<path class=\"p1\" d=\"M4 16l4-10 4 10M5.3 12.5h5.4\"/><path class=\"p2\" d=\"M3 20h18\"/><path class=\"p3\" d=\"M3 18v4M21 18v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

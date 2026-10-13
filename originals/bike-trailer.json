@@ -1,0 +1,11 @@
+{
+  "name": "bike-trailer",
+  "category": "vehicles",
+  "tags": ["bike", "trailer", "cargo", "cycling", "hitch", "wheels"],
+  "svg": "<path class=\"p1\" d=\"M3 10h5\"/><rect class=\"d p2\" x=\"8\" y=\"7\" width=\"8\" height=\"5\" rx=\"1\"/><circle class=\"p3\" cx=\"6\" cy=\"17\" r=\"3\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

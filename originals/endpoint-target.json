@@ -1,0 +1,11 @@
+{
+  "name": "endpoint-target",
+  "category": "development",
+  "tags": ["endpoint", "target", "goal", "bullseye", "aim", "destination"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M21 3l-8 8M15 3h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

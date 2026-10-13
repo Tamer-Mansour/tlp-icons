@@ -1,0 +1,11 @@
+{
+  "name": "kiln",
+  "category": "buildings",
+  "tags": ["kiln", "furnace", "pottery", "ceramics", "oven", "flame"],
+  "svg": "<path class=\"p1\" d=\"M4 19a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M12 18q-3-2 0-6q3 4 0 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000, "origin": "12px 18px" }
+  ]
+}

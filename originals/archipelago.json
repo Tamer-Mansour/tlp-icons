@@ -1,0 +1,11 @@
+{
+  "name": "archipelago",
+  "category": "nature",
+  "tags": ["archipelago", "islands", "sea", "ocean", "waves", "water"],
+  "svg": "<ellipse class=\"d p1\" cx=\"6\" cy=\"12\" rx=\"2.5\" ry=\"1.5\"/><ellipse class=\"d p1\" cx=\"13\" cy=\"9\" rx=\"2.5\" ry=\"1.5\"/><ellipse class=\"p3\" cx=\"19\" cy=\"12.5\" rx=\"2.5\" ry=\"1.5\"/><path class=\"p2\" d=\"M2 17q2.5-2 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

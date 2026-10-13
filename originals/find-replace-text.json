@@ -1,0 +1,11 @@
+{
+  "name": "find-replace-text",
+  "category": "design",
+  "tags": ["find", "replace", "search", "text", "swap", "edit"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p2\" d=\"M14.5 14.5L20 20\"/><path class=\"p3\" d=\"M6 10h6M10.5 8l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

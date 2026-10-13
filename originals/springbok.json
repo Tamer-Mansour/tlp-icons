@@ -1,0 +1,11 @@
+{
+  "name": "springbok",
+  "category": "nature",
+  "tags": ["springbok", "antelope", "lyre", "horns", "crest"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 10 Q8.5 6.5 12 6.5 Q15.5 6.5 15.5 10 L14 19.5 Q12 21 10 19.5 Z\"/><path class=\"p2\" d=\"M8.5 10 Q3 9.5 4.5 2.5 M15.5 10 Q21 9.5 19.5 2.5\"/><circle class=\"f p3\" cx=\"10.8\" cy=\"12\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.2\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

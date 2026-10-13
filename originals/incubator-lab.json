@@ -1,0 +1,11 @@
+{
+  "name": "incubator-lab",
+  "category": "science",
+  "tags": ["incubator", "lab", "heat", "culture", "equipment"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"8\" width=\"9\" height=\"7\" rx=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

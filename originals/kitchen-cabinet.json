@@ -1,0 +1,11 @@
+{
+  "name": "kitchen-cabinet",
+  "category": "home",
+  "tags": ["kitchen", "cabinet", "wall", "doors", "storage", "cupboard"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M12 4v16\"/><circle class=\"f p3\" cx=\"10\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

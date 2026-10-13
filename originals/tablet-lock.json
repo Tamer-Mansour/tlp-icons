@@ -1,0 +1,11 @@
+{
+  "name": "tablet-lock",
+  "category": "security",
+  "tags": ["tablet", "lock", "device", "secure", "screen", "mobile"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><rect class=\"d p2\" x=\"10\" y=\"11\" width=\"4\" height=\"4.5\" rx=\"1\"/><path class=\"p3\" d=\"M10.8 11V10A1.2 1.2 0 0 1 13.2 10V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

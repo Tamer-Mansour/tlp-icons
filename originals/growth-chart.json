@@ -1,0 +1,11 @@
+{
+  "name": "growth-chart",
+  "category": "science",
+  "tags": ["growth", "chart", "rising", "trend", "graph", "progress"],
+  "svg": "<polyline class=\"p1\" points=\"4 3 4 20 21 20\"/><polyline class=\"p2\" points=\"7 16 11 11 14 14 19 8\"/><circle class=\"f p3\" cx=\"19\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mudslide",
+  "category": "nature",
+  "tags": ["mudslide", "landslide", "hill", "mud", "erosion", "flow"],
+  "svg": "<path class=\"p1\" d=\"M2 21L9 9L16 21\"/><path class=\"p2\" d=\"M11 14v4M14 15v4M18 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1200, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "corridor",
+  "category": "buildings",
+  "tags": ["corridor", "hallway", "passage", "perspective", "ceiling lights", "hall"],
+  "svg": "<path class=\"p1\" d=\"M2 2l6 6M22 2l-6 6M2 22l6-6M22 22l-6-6\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\"/><path class=\"p3\" d=\"M10 5.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1100 }
+  ]
+}

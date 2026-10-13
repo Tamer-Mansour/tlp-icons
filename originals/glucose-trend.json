@@ -1,0 +1,10 @@
+{
+  "name": "glucose-trend",
+  "category": "charts",
+  "tags": ["glucose", "trend", "target", "range", "health"],
+  "svg": "<rect class=\"d p2\" x=\"2\" y=\"9\" width=\"20\" height=\"6\"/><path class=\"p1\" d=\"M2 16C5 9 8 9 11 13S17 15 22 7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

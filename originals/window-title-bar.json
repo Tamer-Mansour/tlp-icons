@@ -1,0 +1,11 @@
+{
+  "name": "window-title-bar",
+  "category": "layout",
+  "tags": ["window", "title", "bar", "header", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"2\" y=\"3\" width=\"20\" height=\"5\" rx=\"0\"/><path class=\"p3\" d=\"M6 14H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

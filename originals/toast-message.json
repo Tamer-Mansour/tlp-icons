@@ -1,0 +1,11 @@
+{
+  "name": "toast-message",
+  "category": "notifications",
+  "tags": ["toast", "message", "snackbar", "bar", "text"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"20\" height=\"7\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"17.5\" x2=\"14\" y2=\"17.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"17.5\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

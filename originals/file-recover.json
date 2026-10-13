@@ -1,0 +1,11 @@
+{
+  "name": "file-recover",
+  "category": "files",
+  "tags": ["recover", "restore", "curve", "arrow", "file"],
+  "svg": "<rect class=\"p1\" x=\"11\" y=\"3\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M4 20c0-5 3-8.5 7-8.5M8.5 9l2.5 2.5L13.5 9\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"8.5\" r=\"1\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"5.5\" r=\"1\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"3.8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

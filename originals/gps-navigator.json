@@ -1,0 +1,10 @@
+{
+  "name": "gps-navigator",
+  "category": "devices",
+  "tags": ["gps", "navigator", "map", "location", "navigation", "screen"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M12 7L16 16L12 14L8 16Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 700, "delay": 500 }
+  ]
+}

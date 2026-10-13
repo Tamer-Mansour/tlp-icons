@@ -1,0 +1,26 @@
+{
+    "name":  "leaf-compound",
+    "category":  "science",
+    "tags":  [
+                 "leaf",
+                 "compound",
+                 "leaflets",
+                 "stem",
+                 "plant"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 21V4\"/\u003e\u003cpath class=\"d p2\" d=\"M12 8C10 8 7 7.5 6 5C8.5 4.5 11 6 12 8ZM12 13C10 13 7 12.5 6 10C8.5 9.5 11 11 12 13ZM12 18C10 18 8 17.5 7 16C9 15.5 11 16.5 12 18ZM12 8C14 8 17 7.5 18 5C15.5 4.5 13 6 12 8ZM12 13C14 13 17 12.5 18 10C15.5 9.5 13 11 12 13ZM12 18C14 18 16 17.5 17 16C15 15.5 13 16.5 12 18Z\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  600
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "popIn",
+                       "part":  "p2",
+                       "dur":  600
+                   }
+               ]
+}

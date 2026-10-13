@@ -1,0 +1,11 @@
+{
+  "name": "switchboard-plug",
+  "category": "communication",
+  "tags": ["plug", "jack", "cord", "switchboard", "patch", "connector"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"8\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M11 7 C17 7 14 13 18 13.5\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

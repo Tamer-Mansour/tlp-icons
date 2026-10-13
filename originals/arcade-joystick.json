@@ -1,0 +1,11 @@
+{
+  "name": "arcade-joystick",
+  "category": "sport",
+  "tags": ["joystick", "arcade", "stick", "controller", "game", "retro"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"16\" width=\"16\" height=\"4\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"16\" x2=\"12\" y2=\"9\"/><circle class=\"d p3\" cx=\"12\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100, "origin": "12px 16px" }
+  ]
+}

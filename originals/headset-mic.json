@@ -1,0 +1,11 @@
+{
+  "name": "headset-mic",
+  "category": "devices",
+  "tags": ["headset", "mic", "headphones", "call", "audio"],
+  "svg": "<path class=\"p1\" d=\"M4 12v2a8 8 0 0 1 16 0v-2\"/><rect class=\"d p2\" x=\"3\" y=\"12\" width=\"4\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"17\" y=\"12\" width=\"4\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M19 18v2h-5\"/><circle class=\"f p3\" cx=\"11\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1200 }
+  ]
+}

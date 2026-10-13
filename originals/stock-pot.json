@@ -1,0 +1,11 @@
+{
+  "name": "stock-pot",
+  "category": "food",
+  "tags": ["stock", "pot", "soup", "cooking", "food"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"5\" width=\"14\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M6 12 H3 M18 12 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "rattle", "dur": 600, "delay": 1000 }
+  ]
+}

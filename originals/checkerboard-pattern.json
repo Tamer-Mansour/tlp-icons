@@ -1,0 +1,11 @@
+{
+  "name": "checkerboard-pattern",
+  "category": "design",
+  "tags": ["checkerboard", "pattern", "squares", "grid", "chess"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"9\" height=\"9\"/><rect class=\"d p3\" x=\"12\" y=\"12\" width=\"9\" height=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

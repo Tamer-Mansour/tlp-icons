@@ -1,0 +1,11 @@
+{
+  "name": "verified-mail-badge",
+  "category": "communication",
+  "tags": ["verified", "mail", "badge", "envelope", "trusted", "check"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"15\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 7l7.5 5 7.5-5\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p3\" d=\"M16 17l1.5 1.5L20 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sea-snail",
+  "category": "nature",
+  "tags": ["snail", "sea snail", "shell", "spiral", "marine", "mollusk"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"6\"/><path class=\"p2\" d=\"M12 11 Q12 8 14 8 Q16 8 16 11 Q16 14 12 14 Q9 14 9 11 Q9 6 14 6\"/><path class=\"p3\" d=\"M3 19.5 Q12 17.5 21 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

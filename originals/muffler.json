@@ -1,0 +1,11 @@
+{
+  "name": "muffler",
+  "category": "vehicles",
+  "tags": ["muffler", "silencer", "exhaust", "can", "pipe"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"11\" rx=\"5\"/><path class=\"p2\" d=\"M3 12h4M17 12h4\"/><path class=\"p3\" d=\"M10 10.5h4M10 13.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "rattle", "dur": 500, "delay": 800 }
+  ]
+}

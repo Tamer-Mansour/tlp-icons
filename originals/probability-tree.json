@@ -1,0 +1,11 @@
+{
+  "name": "probability-tree",
+  "category": "math",
+  "tags": ["tree", "probability", "branch", "chance", "outcome", "fork"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"8\" y2=\"12\"/><polyline class=\"p2\" points=\"8,12 14,6 20,6\"/><polyline class=\"p2\" points=\"8,12 14,18 20,18\"/><circle class=\"f p3\" cx=\"3\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

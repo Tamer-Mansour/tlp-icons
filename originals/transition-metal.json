@@ -1,0 +1,12 @@
+{
+  "name": "transition-metal",
+  "category": "science",
+  "tags": ["chemistry", "transition", "metal", "block", "element", "periodic"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p4\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

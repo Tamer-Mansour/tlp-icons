@@ -1,0 +1,11 @@
+{
+  "name": "hi-hat",
+  "category": "media",
+  "tags": ["hihat", "cymbal", "drums", "percussion", "music", "kit"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"5\" rx=\"8\" ry=\"1.5\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"11.5\" rx=\"8\" ry=\"1.5\"/><line class=\"p3\" x1=\"12\" y1=\"13.5\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

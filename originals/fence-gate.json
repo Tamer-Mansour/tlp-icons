@@ -1,0 +1,11 @@
+{
+  "name": "fence-gate",
+  "category": "home",
+  "tags": ["fence", "gate", "latch", "garden", "yard", "entrance"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18M21 3v18\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"12\" height=\"12\"/><circle class=\"f p3\" cx=\"15\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cinema-seat",
+  "category": "media",
+  "tags": ["cinema", "seat", "theater", "chair", "movie", "auditorium"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"9\" rx=\"2\"/><rect class=\"d p2\" x=\"4\" y=\"14\" width=\"16\" height=\"4\" rx=\"1.5\"/><path class=\"p3\" d=\"M7 18v3M17 18v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

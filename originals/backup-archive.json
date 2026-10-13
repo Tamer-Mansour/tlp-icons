@@ -1,0 +1,11 @@
+{
+  "name": "backup-archive",
+  "category": "files",
+  "tags": ["backup", "archive", "restore", "box", "save"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"d p2\" d=\"M5 11h14v9H5z\"/><path class=\"p3\" d=\"M10 15a2.5 2.5 0 1 1 2.5 2.5M8.5 13.5L10 15l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

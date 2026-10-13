@@ -1,0 +1,11 @@
+{
+  "name": "emergency-light",
+  "category": "notifications",
+  "tags": ["emergency", "light", "beacon", "alarm", "siren"],
+  "svg": "<path class=\"d p1\" d=\"M8 14a4 4 0 0 1 8 0z\"/><path class=\"p2\" d=\"M12 4v2M5.5 7.5L7 9M18.5 7.5L17 9\"/><path class=\"p3\" d=\"M5 18h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

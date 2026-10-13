@@ -1,0 +1,11 @@
+{
+  "name": "woofer-speaker",
+  "category": "media",
+  "tags": ["woofer", "speaker", "cone", "bass", "audio"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

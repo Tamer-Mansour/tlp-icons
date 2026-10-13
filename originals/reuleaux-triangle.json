@@ -1,0 +1,10 @@
+{
+  "name": "reuleaux-triangle",
+  "category": "math",
+  "tags": ["reuleaux", "triangle", "constant-width", "arcs", "math"],
+  "svg": "<path class=\"p1\" d=\"M12 3A18.36 18.36 0 0 0 3 19A18.36 18.36 0 0 0 21 19A18.36 18.36 0 0 0 12 3Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1300, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

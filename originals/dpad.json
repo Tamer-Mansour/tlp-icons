@@ -1,0 +1,10 @@
+{
+  "name": "dpad",
+  "category": "sport",
+  "tags": ["dpad", "controller", "directional", "arrows", "gamepad", "game"],
+  "svg": "<polygon class=\"d p1\" points=\"9,3 15,3 15,9 21,9 21,15 15,15 15,21 9,21 9,15 3,15 3,9 9,9\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

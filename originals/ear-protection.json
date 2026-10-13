@@ -1,0 +1,11 @@
+{
+  "name": "ear-protection",
+  "category": "tools",
+  "tags": ["ear", "protection", "earmuffs", "hearing", "noise", "safety"],
+  "svg": "<path class=\"p1\" d=\"M4 13V11A8 8 0 0 1 20 11V13\"/><rect class=\"d p2\" x=\"2\" y=\"13\" width=\"5\" height=\"7\" rx=\"2\"/><rect class=\"d p3\" x=\"17\" y=\"13\" width=\"5\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

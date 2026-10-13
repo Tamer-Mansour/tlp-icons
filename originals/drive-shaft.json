@@ -1,0 +1,10 @@
+{
+  "name": "drive-shaft",
+  "category": "vehicles",
+  "tags": ["drive", "shaft", "axle", "joint", "drivetrain"],
+  "svg": "<path class=\"p1\" d=\"M4 12h16\"/><g class=\"p2\"><circle cx=\"4\" cy=\"12\" r=\"2\"/><circle cx=\"20\" cy=\"12\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "coin-shape",
+  "category": "shapes",
+  "tags": ["coin", "money", "rim", "round", "currency"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 800, "delay": 900 }
+  ]
+}

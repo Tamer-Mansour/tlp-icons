@@ -1,0 +1,10 @@
+{
+  "name": "mail-sorting-tray",
+  "category": "communication",
+  "tags": ["mail", "sort", "tray", "envelope", "organize", "inbox"],
+  "svg": "<path class=\"p1\" d=\"M3 13h5l2 3h4l2-3h5v6H3z\"/><rect class=\"d p2\" x=\"6\" y=\"4\" width=\"12\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "quota-warning",
+  "category": "notifications",
+  "tags": ["quota", "warning", "limit", "usage", "meter"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3a9 9 0 1 1-8.5 6z\"/><line class=\"p3\" x1=\"20.5\" y1=\"2\" x2=\"20.5\" y2=\"4.5\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

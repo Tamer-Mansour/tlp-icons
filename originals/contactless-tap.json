@@ -1,0 +1,10 @@
+{
+  "name": "contactless-tap",
+  "category": "communication",
+  "tags": ["contactless", "tap", "payment", "nfc", "card", "pay"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"11\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M17 9.5A3 3 0 0 1 17 14.5M19.5 7A6 6 0 0 1 19.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

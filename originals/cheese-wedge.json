@@ -1,0 +1,10 @@
+{
+  "name": "cheese-wedge",
+  "category": "food",
+  "tags": ["cheese", "wedge", "dairy", "holes", "snack"],
+  "svg": "<path class=\"d p1\" d=\"M3 8l18-3v13H3z\"/><circle class=\"p2\" cx=\"9\" cy=\"14\" r=\"1.5\"/><circle class=\"p2\" cx=\"15\" cy=\"11\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

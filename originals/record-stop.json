@@ -1,0 +1,10 @@
+{
+  "name": "record-stop",
+  "category": "interface",
+  "tags": ["stop", "record", "square", "circle", "end", "capture"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><rect class=\"p2\" x=\"8.5\" y=\"8.5\" width=\"7\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "blood-pressure-monitor",
+  "category": "devices",
+  "tags": ["blood", "pressure", "health", "gauge", "medical", "cuff"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9.5\" r=\"4.5\"/><line class=\"p2\" x1=\"12\" y1=\"9.5\" x2=\"14.5\" y2=\"7\"/><rect class=\"p3\" x=\"4\" y=\"16\" width=\"16\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "12px 9.5px" }
+  ]
+}

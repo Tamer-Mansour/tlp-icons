@@ -1,0 +1,10 @@
+{
+  "name": "l-block",
+  "category": "shapes",
+  "tags": ["l-shape", "block", "tetromino", "cube", "blocks", "puzzle"],
+  "svg": "<path class=\"p1\" d=\"M3 3H9V15H15V21H3Z\"/><path class=\"p2\" d=\"M3 9H9M3 15H9M9 15V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

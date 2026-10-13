@@ -1,0 +1,11 @@
+{
+  "name": "samara",
+  "category": "nature",
+  "tags": ["seed", "maple", "samara", "tree", "wing", "nature"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M7.5 17C9 12 13 6 21 3c-1 8-6 13-13.5 14\"/><path class=\"p3\" d=\"M7.5 17c1-2 3-2.5 4-1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

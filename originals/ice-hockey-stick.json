@@ -1,0 +1,11 @@
+{
+  "name": "ice-hockey-stick",
+  "category": "sport",
+  "tags": ["hockey", "stick", "puck", "ice", "sport"],
+  "svg": "<path class=\"p1\" d=\"M5 3l8 12\"/><path class=\"p2\" d=\"M13 15q0 3-4 4.5\"/><ellipse class=\"p3\" cx=\"16\" cy=\"19.5\" rx=\"4\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "staff-badge",
+  "category": "people",
+  "tags": ["staff", "badge", "employee", "id", "clip"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"6\" width=\"14\" height=\"15\" rx=\"3\"/><rect class=\"p2\" x=\"9.5\" y=\"3\" width=\"5\" height=\"2.5\" rx=\"1\"/><circle class=\"d p3\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M8 17c.6-1.7 2-2.5 4-2.5s3.4.8 4 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

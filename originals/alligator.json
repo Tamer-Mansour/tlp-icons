@@ -1,0 +1,10 @@
+{
+  "name": "alligator",
+  "category": "nature",
+  "tags": ["alligator", "crocodile", "reptile", "jaws", "snout", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M2 12Q2 10 4 10H17Q21 10 22 12Q21 14 17 14H4Q2 14 2 12Z\"/><path class=\"p2\" d=\"M7 14L8 16L9 14M12 14L13 16L14 14\"/><circle class=\"f\" cx=\"17\" cy=\"11.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "knock", "dur": 600, "delay": 700 }
+  ]
+}

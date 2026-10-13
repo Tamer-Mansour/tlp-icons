@@ -1,0 +1,10 @@
+{
+  "name": "retrospective",
+  "category": "time",
+  "tags": ["retrospective", "review", "timeline", "history", "back", "past"],
+  "svg": "<path class=\"p1\" d=\"M10 4 5 8.5 10 13M5 8.5h9a4 4 0 0 1 0 8\"/><circle class=\"f p2\" cx=\"5\" cy=\"19\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"19\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"19\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lightning-strike",
+  "category": "weather",
+  "tags": ["lightning", "bolt", "storm", "strike", "electric"],
+  "svg": "<polyline class=\"p1\" points=\"13 2 6 12.5 11.5 12.5 9 17\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/><path class=\"p3\" d=\"M17 8 L19 6 M18 12 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1000 }
+  ]
+}

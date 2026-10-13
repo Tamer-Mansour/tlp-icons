@@ -1,0 +1,10 @@
+{
+  "name": "wildfire",
+  "category": "weather",
+  "tags": ["wildfire", "fire", "flame", "forest", "burn", "blaze"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2.5 1.2-4 2.5-5 0 2 .8 3 2 3.2C11 9 11 6 12 3z\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "breathe", "dur": 1200, "delay": 500, "origin": "bottom" }
+  ]
+}

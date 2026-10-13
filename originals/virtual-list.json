@@ -1,0 +1,10 @@
+{
+  "name": "virtual-list",
+  "category": "layout",
+  "tags": ["virtual", "list", "rows", "lazy", "render", "scroll"],
+  "svg": "<path class=\"p1\" d=\"M3 5.5H21M3 9.5H21M3 13.5H21\"/><path class=\"p2\" d=\"M3 17.5H7M10 17.5H14M17 17.5H21M3 21.5H7M10 21.5H14M17 21.5H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 800, "delay": 800 }
+  ]
+}

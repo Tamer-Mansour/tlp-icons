@@ -1,0 +1,11 @@
+{
+  "name": "moonset",
+  "category": "weather",
+  "tags": ["moon", "set", "horizon", "night", "sky", "lunar"],
+  "svg": "<path class=\"d p1\" d=\"M14 4a7 7 0 1 0 6 10 6 6 0 0 1-6-10z\"/><path class=\"p2\" d=\"M3 17h18\"/><path class=\"p3\" d=\"M20 6v4M18 8l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1200 }
+  ]
+}

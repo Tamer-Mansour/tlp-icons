@@ -1,0 +1,11 @@
+{
+  "name": "trust-ring",
+  "category": "security",
+  "tags": ["trust", "ring", "nodes", "federation", "circle", "peers"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"12\" cy=\"5\" r=\"1.5\"/><circle class=\"p2\" cx=\"18.06\" cy=\"15.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"5.94\" cy=\"15.5\" r=\"1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "downpour",
+  "category": "weather",
+  "tags": ["downpour", "heavy", "rain", "cloud", "storm", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M6 12a3.5 3.5 0 0 1 .5-5.5 4.5 4.5 0 0 1 8.5 1.5A3 3 0 0 1 16 12z\"/><path class=\"p2\" d=\"M7 15l-1 4M11 15l-1 4M15 15l-1 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 600 }
+  ]
+}

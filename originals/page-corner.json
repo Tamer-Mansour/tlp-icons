@@ -1,0 +1,10 @@
+{
+  "name": "page-corner",
+  "category": "files",
+  "tags": ["page", "corner", "fold", "dog-ear", "bookmark", "document"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h9.5L19 7v14.5H5z\"/><path class=\"p2\" d=\"M14.5 2.5V7H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

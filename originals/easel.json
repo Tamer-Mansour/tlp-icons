@@ -1,0 +1,11 @@
+{
+  "name": "easel",
+  "category": "layout",
+  "tags": ["easel", "canvas", "board", "art", "painting", "stand"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M12 14l-5 7M12 14l5 7\"/><line class=\"p3\" x1=\"9.86\" y1=\"17\" x2=\"14.14\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "tilt", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

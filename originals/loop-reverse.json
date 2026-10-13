@@ -1,0 +1,10 @@
+{
+  "name": "loop-reverse",
+  "category": "interface",
+  "tags": ["loop", "reverse", "repeat", "backward", "cycle", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M4 9a8 8 0 0 1 14-3.5\"/><polyline class=\"p1\" points=\"15,2.5 18,5.5 21,2.5\"/><path class=\"p2\" d=\"M20 15a8 8 0 0 1-14 3.5\"/><polyline class=\"p2\" points=\"3,21.5 6,18.5 9,21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

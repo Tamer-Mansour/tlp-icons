@@ -1,0 +1,11 @@
+{
+  "name": "filter-chip",
+  "category": "interface",
+  "tags": ["filter", "chip", "check", "selected", "tag", "toggle"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M5.5 12.5l2.2 2.2 4.3-4.6\"/><path class=\"p3\" d=\"M14.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

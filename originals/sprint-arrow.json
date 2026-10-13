@@ -1,0 +1,10 @@
+{
+  "name": "sprint-arrow",
+  "category": "arrows",
+  "tags": ["sprint", "speed", "fast", "run", "dash", "forward"],
+  "svg": "<path class=\"p2\" d=\"M3 9h5\"/><path class=\"p2\" d=\"M3 12h5\"/><path class=\"p2\" d=\"M3 15h5\"/><path class=\"p1\" d=\"M11 12h8\"/><path class=\"p1\" d=\"M16 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "dash", "dur": 700, "delay": 500 }
+  ]
+}

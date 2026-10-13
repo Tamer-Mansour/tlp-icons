@@ -1,0 +1,10 @@
+{
+  "name": "asteroid-belt",
+  "category": "science",
+  "tags": ["asteroid", "belt", "space", "sun", "orbit", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"14.47\" cy=\"19.61\" r=\"1\"/><circle class=\"f p2\" cx=\"5.53\" cy=\"16.7\" r=\"1\"/><circle class=\"f p2\" cx=\"5.53\" cy=\"7.3\" r=\"1\"/><circle class=\"f p2\" cx=\"14.47\" cy=\"4.39\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 1600, "delay": 800, "origin": "12px 12px" }
+  ]
+}

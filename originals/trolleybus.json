@@ -1,0 +1,11 @@
+{
+  "name": "trolleybus",
+  "category": "vehicles",
+  "tags": ["trolleybus", "bus", "overhead", "wire", "transit"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"9\" width=\"16\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M3 4h18\"/><path class=\"p3\" d=\"M9 9V4M15 9V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

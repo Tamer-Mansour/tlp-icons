@@ -1,0 +1,11 @@
+{
+  "name": "report-card-student",
+  "category": "people",
+  "tags": ["report card", "grades", "student", "school", "marks"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"8.5\" cy=\"9\" r=\"1.5\"/><path class=\"p3\" d=\"M14 16l1.5-4 1.5 4M14.5 14h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

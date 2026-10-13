@@ -1,0 +1,10 @@
+{
+  "name": "pixel-blur",
+  "category": "security",
+  "tags": ["pixel", "blur", "grid", "mosaic", "privacy", "image"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hearing-loop",
+  "category": "communication",
+  "tags": ["hearing loop", "ear", "induction", "hearing aid", "accessibility"],
+  "svg": "<path class=\"p1\" d=\"M8 11a5 5 0 0 1 10 0c0 2.5-2 3-2 5.5a3 3 0 0 1-6 0\"/><ellipse class=\"p2\" cx=\"12\" cy=\"11.5\" rx=\"8\" ry=\"8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

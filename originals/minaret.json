@@ -1,0 +1,10 @@
+{
+  "name": "minaret",
+  "category": "buildings",
+  "tags": ["minaret", "mosque", "tower", "balcony", "prayer"],
+  "svg": "<path class=\"p1\" d=\"M9 21V9l3-5 3 5v12\"/><path class=\"p2\" d=\"M6 13h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

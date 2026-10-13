@@ -1,0 +1,11 @@
+{
+  "name": "flag-checkered",
+  "category": "emoji",
+  "tags": ["checkered", "finish", "race", "flag", "racing", "pole"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"21\" x2=\"4\" y2=\"3\"/><polygon class=\"d p2\" points=\"4,4 20,4 20,13 4,13\"/><path class=\"p3\" d=\"M9.33 4 V13 M14.67 4 V13 M4 8.5 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

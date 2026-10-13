@@ -1,0 +1,11 @@
+{
+  "name": "wire-spool",
+  "category": "tools",
+  "tags": ["wire", "spool", "reel", "cable", "electrical", "coil"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"2\" height=\"16\" rx=\"1\"/><rect class=\"p1\" x=\"18\" y=\"4\" width=\"2\" height=\"16\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"12\" height=\"10\"/><path class=\"p3\" d=\"M6 10h12M6 13h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 1000 }
+  ]
+}

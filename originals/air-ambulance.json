@@ -1,0 +1,12 @@
+{
+  "name": "air-ambulance",
+  "category": "vehicles",
+  "tags": ["ambulance", "helicopter", "medical", "rescue", "air"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"14\" height=\"8\" rx=\"4\"/><path class=\"p2\" d=\"M10 10.5v3M8.5 12h3\"/><path class=\"p3\" d=\"M17 12h4M6 20h10\"/><path class=\"p4\" d=\"M4 5h12M10 5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p4", "anim": "spinFast", "origin": "10px 5px", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "certificate-pin",
+  "category": "security",
+  "tags": ["certificate", "pushpin", "pin", "document", "trust", "verified"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M7 11.5H13M7 15H11\"/><path class=\"p3\" d=\"M19 4L15 8M17.5 2.5L20.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1100 }
+  ]
+}

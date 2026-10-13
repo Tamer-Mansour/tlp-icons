@@ -1,0 +1,10 @@
+{
+  "name": "glass-rod",
+  "category": "science",
+  "tags": ["lab", "stir", "rod", "glass", "science"],
+  "svg": "<path class=\"p1\" d=\"M5 11V19Q5 21 7 21H17Q19 21 19 19V11\"/><rect class=\"p2\" x=\"10.5\" y=\"2\" width=\"3\" height=\"13\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 900, "origin": "12px 15px" }
+  ]
+}

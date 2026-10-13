@@ -1,0 +1,11 @@
+{
+  "name": "landline-phone",
+  "category": "connectivity",
+  "tags": ["landline", "phone", "telephone", "desk", "call", "handset"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"18\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"7\" width=\"12\" height=\"4\" rx=\"2\"/><circle class=\"f p3\" cx=\"8\" cy=\"16.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"16\" cy=\"16.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 500, "origin": "12px 9px" },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

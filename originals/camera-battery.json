@@ -1,0 +1,11 @@
+{
+  "name": "camera-battery",
+  "category": "devices",
+  "tags": ["battery", "camera", "power", "charge", "spare", "energy"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"15\" height=\"9\" rx=\"2\"/><rect class=\"p2\" x=\"19\" y=\"11\" width=\"2\" height=\"3\" rx=\"0.5\"/><rect class=\"p3\" x=\"6\" y=\"10.5\" width=\"7\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "earpiece",
+  "category": "communication",
+  "tags": ["earpiece", "earbud", "audio", "headphones", "listen"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M11 14v4a3 3 0 0 0 6 0\"/><circle class=\"f p3\" cx=\"11\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

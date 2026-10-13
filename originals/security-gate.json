@@ -1,0 +1,12 @@
+{
+  "name": "security-gate",
+  "category": "buildings",
+  "tags": ["security", "gate", "access", "card", "reader", "entry", "badge"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"9\" height=\"18\" rx=\"1\"/><rect class=\"p2\" x=\"15.5\" y=\"9\" width=\"5\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M17.5 12.5h1.5\"/><circle class=\"f p4\" cx=\"18\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

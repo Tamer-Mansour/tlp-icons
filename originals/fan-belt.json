@@ -1,0 +1,10 @@
+{
+  "name": "fan-belt",
+  "category": "vehicles",
+  "tags": ["fan", "belt", "pulley", "engine", "drive"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"3\"/><circle class=\"p1\" cx=\"17\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M7 9h10M7 15h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 600 }
+  ]
+}

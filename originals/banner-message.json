@@ -1,0 +1,11 @@
+{
+  "name": "banner-message",
+  "category": "notifications",
+  "tags": ["banner", "message", "notice", "bar", "dismiss", "alert"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"9\" rx=\"1\"/><line class=\"p2\" x1=\"5\" y1=\"7.5\" x2=\"13\" y2=\"7.5\"/><path class=\"p3\" d=\"M16 6l3 3M19 6l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

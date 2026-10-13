@@ -1,0 +1,10 @@
+{
+  "name": "fraction-circle",
+  "category": "math",
+  "tags": ["fraction", "circle", "pie", "slice", "math"],
+  "svg": "<path class=\"p1\" d=\"M12 5 A7 7 0 1 0 19 12 L12 12 Z\"/><path class=\"d p2\" d=\"M13 11 V4 A7 7 0 0 1 20 11 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

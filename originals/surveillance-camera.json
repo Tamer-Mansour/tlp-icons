@@ -1,0 +1,10 @@
+{
+  "name": "surveillance-camera",
+  "category": "security",
+  "tags": ["camera", "surveillance", "security", "monitor", "video"],
+  "svg": "<path class=\"p1\" d=\"M4 6v12M4 12h3\"/><rect class=\"d p2\" x=\"7\" y=\"9\" width=\"10\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"17\" y=\"10.5\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 500, "origin": "7px 12px" }
+  ]
+}

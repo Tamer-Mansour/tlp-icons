@@ -1,0 +1,11 @@
+{
+  "name": "link-down",
+  "category": "connectivity",
+  "tags": ["link", "down", "offline", "disconnected", "network", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"9\" r=\"3\"/><circle class=\"p1\" cx=\"17\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M10 9H14\"/><path class=\"p3\" d=\"M12 14V21.5M9.5 19L12 21.5L14.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "disc-golf-basket",
+  "category": "sport",
+  "tags": ["disc", "golf", "basket", "chains", "target", "frisbee"],
+  "svg": "<path class=\"p1\" d=\"M12 12V21\"/><circle class=\"d p2\" cx=\"12\" cy=\"7\" r=\"5\"/><path class=\"p3\" d=\"M9 4V10M12 2V10M15 4V10\"/><path class=\"p4\" d=\"M8 21H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

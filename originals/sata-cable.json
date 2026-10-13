@@ -1,0 +1,11 @@
+{
+  "name": "sata-cable",
+  "category": "devices",
+  "tags": ["sata", "cable", "storage", "drive", "connector", "data"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"5\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"16.5\" y=\"16\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 6H12V18H16.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

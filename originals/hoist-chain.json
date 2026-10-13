@@ -1,0 +1,11 @@
+{
+  "name": "hoist-chain",
+  "category": "tools",
+  "tags": ["hoist", "chain", "hook", "lifting", "block", "rigging"],
+  "svg": "<path class=\"p1\" d=\"M7 3H17\"/><ellipse class=\"p2\" cx=\"12\" cy=\"8\" rx=\"2\" ry=\"3\"/><ellipse class=\"p2\" cx=\"12\" cy=\"15\" rx=\"2\" ry=\"3\"/><rect class=\"d p3\" x=\"8\" y=\"19\" width=\"8\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 900, "origin": "12px 18px" }
+  ]
+}

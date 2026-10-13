@@ -1,0 +1,10 @@
+{
+  "name": "spline-curve",
+  "category": "math",
+  "tags": ["spline", "curve", "bezier", "smooth", "control", "points"],
+  "svg": "<path class=\"p1\" d=\"M3 17C5.5 11.5 7 9.5 9 9.5C11 9.5 13 15 15 15C17 15 18.5 7 21 7\"/><circle class=\"f p2\" cx=\"3\" cy=\"17\" r=\"1.2\"/><circle class=\"f p2\" cx=\"9\" cy=\"9.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"15\" r=\"1.2\"/><circle class=\"f p2\" cx=\"21\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

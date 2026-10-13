@@ -1,0 +1,10 @@
+{
+  "name": "go-to-start",
+  "category": "arrows",
+  "tags": ["start", "first", "begin", "left", "previous"],
+  "svg": "<path class=\"p1\" d=\"M4 5 V19\"/><path class=\"p2\" d=\"M6 12 H20\"/><polyline class=\"p2\" points=\"10 8 6 12 10 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 500 }
+  ]
+}

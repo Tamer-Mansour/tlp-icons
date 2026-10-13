@@ -1,0 +1,10 @@
+{
+  "name": "sensor-temperature",
+  "category": "science",
+  "tags": ["temperature", "sensor", "thermometer", "probe", "heat", "measure", "degrees"],
+  "svg": "<path class=\"d p1\" d=\"M10 4a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0z\"/><path class=\"p2\" d=\"M16 6h3M16 10h3M16 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

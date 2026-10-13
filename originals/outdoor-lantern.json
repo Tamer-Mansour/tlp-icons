@@ -1,0 +1,11 @@
+{
+  "name": "outdoor-lantern",
+  "category": "home",
+  "tags": ["lantern", "outdoor", "light", "porch", "flame", "lamp"],
+  "svg": "<path class=\"p1\" d=\"M5 9L12 3l7 6\"/><path class=\"d p2\" d=\"M8 9h8v8H8z\"/><path class=\"p3\" d=\"M12 16c-1.5 0-2-1-2-2 0-1.5 2-2.5 2-4.5 1.5 1.5 2 2.5 2 4.5 0 1-.5 2-2 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

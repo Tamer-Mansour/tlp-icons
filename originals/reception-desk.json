@@ -1,0 +1,11 @@
+{
+  "name": "reception-desk",
+  "category": "buildings",
+  "tags": ["reception", "desk", "counter", "bell", "service", "front"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"10\"/><path class=\"p2\" d=\"M8 11a4 4 0 0 1 8 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

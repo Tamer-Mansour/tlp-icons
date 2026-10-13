@@ -1,0 +1,11 @@
+{
+  "name": "table-number",
+  "category": "food",
+  "tags": ["table", "number", "tent", "card", "seating", "restaurant"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"1.5\" width=\"14\" height=\"10.5\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 16L5 20h14l-2-4\"/><path class=\"p3\" d=\"M11 4.5v5M9.5 6L11 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

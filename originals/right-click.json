@@ -1,0 +1,11 @@
+{
+  "name": "right-click",
+  "category": "interface",
+  "tags": ["mouse", "right click", "context", "menu", "button", "pointer"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"7\"/><path class=\"p2\" d=\"M5 9h14M12 2v7\"/><path class=\"d p3\" d=\"M12 2h5a7 7 0 0 1 2 5v2H12z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1100 }
+  ]
+}

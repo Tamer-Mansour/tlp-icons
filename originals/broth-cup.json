@@ -1,0 +1,11 @@
+{
+  "name": "broth-cup",
+  "category": "food",
+  "tags": ["broth", "cup", "soup", "steam", "hot", "drink", "warm"],
+  "svg": "<path class=\"d p1\" d=\"M5 11h14v4a5 5 0 0 1-5 5h-4a5 5 0 0 1-5-5z\"/><path class=\"p2\" d=\"M19 13h1.5a1.5 1.5 0 0 1 0 3H19\"/><path class=\"p3\" d=\"M9 3c-1 1 1 2 0 3M13 3c-1 1 1 2 0 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

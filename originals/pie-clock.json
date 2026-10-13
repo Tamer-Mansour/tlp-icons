@@ -1,0 +1,10 @@
+{
+  "name": "pie-clock",
+  "category": "time",
+  "tags": ["pie", "chart", "clock", "share", "slices", "hours"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p1\" d=\"M12 12V3M12 12l7.8 4.5\"/><path class=\"d p2\" d=\"M12 12L12 3A9 9 0 0 1 19.8 16.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 800 }
+  ]
+}

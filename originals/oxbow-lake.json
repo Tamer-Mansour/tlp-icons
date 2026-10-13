@@ -1,0 +1,10 @@
+{
+  "name": "oxbow-lake",
+  "category": "science",
+  "tags": ["oxbow", "river", "meander", "lake", "bend", "water"],
+  "svg": "<path class=\"p1\" d=\"M19 2 C21 7 16 10 18 13 C20 16 16 19 18 22\"/><path class=\"d p2\" d=\"M14 4 A8 8 0 0 0 14 20 A12 12 0 0 1 14 4 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "confirmed-stamp",
+  "category": "notifications",
+  "tags": ["confirmed", "stamp", "seal", "approved", "check"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M9 12.5 L11 14.5 L15 10\"/><path class=\"p3\" d=\"M4.5 8 Q2 12 4.5 16 M19.5 8 Q22 12 19.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 800 }
+  ]
+}

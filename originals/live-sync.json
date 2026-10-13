@@ -1,0 +1,11 @@
+{
+  "name": "live-sync",
+  "category": "connectivity",
+  "tags": ["live", "sync", "realtime", "loop", "refresh", "pulse"],
+  "svg": "<path class=\"p1\" d=\"M5 9A7 7 0 0 1 19 9M19 5V9H15\"/><path class=\"p2\" d=\"M19 15A7 7 0 0 1 5 15M5 19V15H9\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

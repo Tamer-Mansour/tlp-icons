@@ -1,0 +1,10 @@
+{
+  "name": "internet-off",
+  "category": "connectivity",
+  "tags": ["internet", "offline", "disconnected", "globe", "unavailable"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"10\"/><line class=\"p2\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

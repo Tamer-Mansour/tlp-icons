@@ -1,0 +1,11 @@
+{
+  "name": "popcorn-bucket",
+  "category": "food",
+  "tags": ["popcorn", "bucket", "snack", "movie", "treat"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 H20 L18 21 H6 Z\"/><path class=\"p2\" d=\"M10 12 L10.5 21\"/><path class=\"p2\" d=\"M14 12 L13.5 21\"/><circle class=\"p3\" cx=\"7.5\" cy=\"7.5\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"16.5\" cy=\"7.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

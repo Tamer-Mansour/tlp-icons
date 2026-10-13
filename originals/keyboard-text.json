@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-text",
+  "category": "text",
+  "tags": ["keyboard", "key", "letter", "type", "keycap", "input"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M9 16l3-8 3 8M10.2 13.5h3.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "falcon",
+  "category": "nature",
+  "tags": ["falcon", "bird", "pointed wings", "sharp", "raptor", "speed"],
+  "svg": "<path class=\"p2\" d=\"M2 7C6 9 9 11 12 12C15 11 18 9 22 7\"/><path class=\"d p1\" d=\"M4 14C8 10 14 10 20 12L22 14C17 15 14 17 12 19C9 17 6 16 4 14Z\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

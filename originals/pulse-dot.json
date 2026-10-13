@@ -1,0 +1,11 @@
+{
+  "name": "pulse-dot",
+  "category": "interface",
+  "tags": ["pulse", "live", "signal", "dot", "broadcast", "status"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1200, "delay": 800 }
+  ]
+}

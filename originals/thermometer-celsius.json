@@ -1,0 +1,11 @@
+{
+  "name": "thermometer-celsius",
+  "category": "science",
+  "tags": ["thermometer", "celsius", "temperature", "heat", "degrees", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M10 14.5V5a2 2 0 0 1 4 0v9.5a4 4 0 1 1-4 0z\"/><line class=\"p2\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"17.5\"/><line class=\"p3\" x1=\"16\" y1=\"6\" x2=\"18.5\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

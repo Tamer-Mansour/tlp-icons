@@ -1,0 +1,10 @@
+{
+  "name": "spacetime-grid",
+  "category": "science",
+  "tags": ["spacetime", "grid", "gravity", "curvature", "physics", "mass", "relativity"],
+  "svg": "<path class=\"p1\" d=\"M2 5q10 8 20 0M2 11q10 8 20 0M2 17q10 8 20 0\"/><circle class=\"d p2\" cx=\"12\" cy=\"6.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 700 }
+  ]
+}

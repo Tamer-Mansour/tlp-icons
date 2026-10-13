@@ -1,0 +1,10 @@
+{
+  "name": "raindrop-physics",
+  "category": "science",
+  "tags": ["raindrop", "water", "physics", "drop", "splash", "rain"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c-3 4-5.5 7-5.5 10a5.5 5.5 0 0 0 11 0c0-3-2.5-6-5.5-10z\"/><path class=\"p2\" d=\"M7 21.5Q12 19.5 17 21.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "drip", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "grill-brush",
+  "category": "home",
+  "tags": ["grill", "brush", "barbecue", "wire", "bbq"],
+  "svg": "<path class=\"p1\" d=\"M11 14L21 4\"/><rect class=\"d p2\" x=\"3\" y=\"12\" width=\"9\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M5 19.5v2M8 19.5v2M11 19.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "scanX", "dur": 800, "delay": 900 }
+  ]
+}

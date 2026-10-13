@@ -1,0 +1,10 @@
+{
+  "name": "charge-port",
+  "category": "vehicles",
+  "tags": ["charge", "port", "ev", "socket", "lightning"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polygon class=\"p2\" points=\"13 6 8 13 12 13 11 18 16 11 12 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1200, "delay": 700 }
+  ]
+}

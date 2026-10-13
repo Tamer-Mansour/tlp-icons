@@ -1,0 +1,10 @@
+{
+  "name": "chat-hand",
+  "category": "communication",
+  "tags": ["hand", "chat", "wave", "greeting", "message", "hello"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9l-4 3.5V14H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 11.5V9a1.25 1.25 0 0 1 2.5 0v2.5M10.5 11.5V7.25a1.25 1.25 0 0 1 2.5 0v4.25M13 11.5V8.25a1.25 1.25 0 0 1 2.5 0v3.25\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 1000, "delay": 800 }
+  ]
+}

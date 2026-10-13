@@ -1,0 +1,10 @@
+{
+  "name": "pan-view",
+  "category": "arrows",
+  "tags": ["move", "expand", "arrows", "pan", "view"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M12 7.5V3.5M10 5.5l2-2 2 2M12 16.5v4M10 18.5l2 2 2-2M7.5 12H3.5M5.5 10l-2 2 2 2M16.5 12h4M18.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 500 }
+  ]
+}

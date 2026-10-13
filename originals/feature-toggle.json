@@ -1,0 +1,10 @@
+{
+  "name": "feature-toggle",
+  "category": "development",
+  "tags": ["feature", "toggle", "switch", "flag", "on off", "setting"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><circle class=\"p2\" cx=\"16\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M15 10v4M15 10h2.5l-.6 1 .6 1H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "temperature-high",
+  "category": "notifications",
+  "tags": ["temperature", "hot", "thermometer", "heat", "warm"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"12\" rx=\"3\"/><circle class=\"p1\" cx=\"12\" cy=\"18\" r=\"3\"/><rect class=\"d p2\" x=\"10.5\" y=\"7\" width=\"3\" height=\"11\" rx=\"1.5\"/><line class=\"p3\" x1=\"18\" y1=\"5\" x2=\"21\" y2=\"5\"/><line class=\"p3\" x1=\"18\" y1=\"9\" x2=\"21\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1200 }
+  ]
+}

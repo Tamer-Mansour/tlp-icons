@@ -1,0 +1,11 @@
+{
+  "name": "power-station",
+  "category": "devices",
+  "tags": ["power", "station", "battery", "portable", "energy", "plug"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M19 12H22\"/><polyline class=\"p3\" points=\"12,8.5 9.5,12.5 12.5,12.5 11.5,15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

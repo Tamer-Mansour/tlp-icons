@@ -1,0 +1,11 @@
+{
+  "name": "anchor-chain",
+  "category": "vehicles",
+  "tags": ["anchor", "chain", "ship", "nautical", "sea", "boat"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4\" r=\"2\"/><path class=\"p2\" d=\"M12 6v14M8 10h8\"/><path class=\"p3\" d=\"M5 14a7 7 0 0 0 14 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 1400, "origin": "12px 2px" }
+  ]
+}

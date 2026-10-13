@@ -1,0 +1,10 @@
+{
+  "name": "stomata-leaf",
+  "category": "science",
+  "tags": ["biology", "leaf", "stomata", "plant", "botany"],
+  "svg": "<path class=\"d p1\" d=\"M5 19c-1-8 4-14 14-14 0 9-5 14-14 14z\"/><ellipse class=\"p2\" cx=\"8.5\" cy=\"13.5\" rx=\"1\" ry=\"2\"/><ellipse class=\"p2\" cx=\"14\" cy=\"10\" rx=\"1\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

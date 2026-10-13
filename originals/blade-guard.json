@@ -1,0 +1,11 @@
+{
+  "name": "blade-guard",
+  "category": "tools",
+  "tags": ["blade", "guard", "shield", "saw", "safety"],
+  "svg": "<path class=\"p1\" d=\"M4 16a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M3 16h18\"/><path class=\"p3\" d=\"M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

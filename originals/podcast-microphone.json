@@ -1,0 +1,11 @@
+{
+  "name": "podcast-microphone",
+  "category": "devices",
+  "tags": ["microphone", "podcast", "recording", "voice", "mic", "audio"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"3\" width=\"7\" height=\"11\" rx=\"3.5\"/><path class=\"p2\" d=\"M5 11V12.5A7 7 0 0 0 19 12.5V11\"/><path class=\"p3\" d=\"M12 19.5V21.5M8.5 21.5H15.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

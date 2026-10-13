@@ -1,0 +1,11 @@
+{
+  "name": "steeple",
+  "category": "buildings",
+  "tags": ["steeple", "church", "tower", "spire", "cross"],
+  "svg": "<path class=\"p1\" d=\"M7 22V10h10v12\"/><path class=\"p2\" d=\"M7 10L12 5L17 10\"/><path class=\"p3\" d=\"M12 2v3M10.5 3.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

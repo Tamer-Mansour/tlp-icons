@@ -1,0 +1,11 @@
+{
+  "name": "gear-motor",
+  "category": "devices",
+  "tags": ["gear", "motor", "motion", "drive", "mechanical", "engine"],
+  "svg": "<circle class=\"d p1\" cx=\"6.5\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M10.5 12H13.5\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M17 6V9M17 15V18M20 12H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900, "origin": "17px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cable-cutter",
+  "category": "tools",
+  "tags": ["cable", "cutter", "pliers", "wire", "cut", "electrician"],
+  "svg": "<path class=\"p1\" d=\"M2 12h6M16 12h6\"/><path class=\"p2\" d=\"M9 3l3 9 3-9M9 21l3-9 3 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "user-busy",
+  "category": "notifications",
+  "tags": ["busy", "user", "minus", "status", "unavailable"],
+  "svg": "<circle class=\"p1\" cx=\"9.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3 21v-1a5.5 5.5 0 0 1 5.5-5.5h1\"/><line class=\"p2\" x1=\"15\" y1=\"18\" x2=\"21\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

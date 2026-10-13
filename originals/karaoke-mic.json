@@ -1,0 +1,11 @@
+{
+  "name": "karaoke-mic",
+  "category": "media",
+  "tags": ["karaoke", "microphone", "music", "sing", "note", "party"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"8\" height=\"11\" rx=\"4\"/><path class=\"p2\" d=\"M10 17V21M7 21H13\"/><path class=\"p3\" d=\"M19.2 15V6.5L22 5.5V13.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 700, "delay": 1000 }
+  ]
+}

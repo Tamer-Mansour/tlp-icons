@@ -1,0 +1,10 @@
+{
+  "name": "correlation-dots",
+  "category": "charts",
+  "tags": ["correlation", "scatter", "dots", "relationship", "diagonal", "trend"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"18\" r=\"1.2\"/><circle class=\"f p1\" cx=\"8\" cy=\"15\" r=\"1.2\"/><circle class=\"f p1\" cx=\"11\" cy=\"13\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14\" cy=\"10\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 700 }
+  ]
+}

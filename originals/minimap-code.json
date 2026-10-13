@@ -1,0 +1,10 @@
+{
+  "name": "minimap-code",
+  "category": "development",
+  "tags": ["minimap", "code", "editor", "overview", "preview"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 8h8M6 11h4M6 14h10M6 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 800 }
+  ]
+}

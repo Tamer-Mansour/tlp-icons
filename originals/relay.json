@@ -1,0 +1,11 @@
+{
+  "name": "relay",
+  "category": "devices",
+  "tags": ["relay", "switch", "coil", "electrical", "contact", "circuit"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M11.5 12H16\"/><path class=\"p3\" d=\"M16 12L20 6.5\"/><circle class=\"f p3\" cx=\"20\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 500, "delay": 900, "origin": "16px 12px" }
+  ]
+}

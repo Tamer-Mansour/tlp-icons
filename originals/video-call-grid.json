@@ -1,0 +1,10 @@
+{
+  "name": "video-call-grid",
+  "category": "people",
+  "tags": ["video", "call", "grid", "meeting", "participants", "conference"],
+  "svg": "<path class=\"p1\" d=\"M2 3h9v7H2zM13 3h9v7h-9zM2 13h9v7H2zM13 13h9v7h-9z\"/><path class=\"p2\" d=\"M8 6.5a1.5 1.5 0 1 0-3 0a1.5 1.5 0 1 0 3 0zM19 6.5a1.5 1.5 0 1 0-3 0a1.5 1.5 0 1 0 3 0zM8 16.5a1.5 1.5 0 1 0-3 0a1.5 1.5 0 1 0 3 0zM19 16.5a1.5 1.5 0 1 0-3 0a1.5 1.5 0 1 0 3 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

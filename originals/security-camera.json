@@ -1,0 +1,11 @@
+{
+  "name": "security-camera",
+  "category": "home",
+  "tags": ["camera", "security", "surveillance", "cctv", "watch", "lens"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"7\" width=\"12\" height=\"7\" rx=\"3.5\"/><path class=\"p2\" d=\"M3 4v12M3 9h6\"/><circle class=\"p3\" cx=\"17\" cy=\"10.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 1000, "delay": 900 }
+  ]
+}

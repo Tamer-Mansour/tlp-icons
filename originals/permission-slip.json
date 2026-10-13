@@ -1,0 +1,11 @@
+{
+  "name": "permission-slip",
+  "category": "files",
+  "tags": ["permission", "slip", "checkbox", "signature", "consent", "form"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"4\" height=\"4\" rx=\".5\"/><path class=\"p3\" d=\"M7 18q2-2.5 4 0t4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1500 }
+  ]
+}

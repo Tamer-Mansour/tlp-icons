@@ -1,0 +1,10 @@
+{
+  "name": "internet",
+  "category": "connectivity",
+  "tags": ["internet", "globe", "web", "online", "world"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

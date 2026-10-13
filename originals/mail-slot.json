@@ -1,0 +1,11 @@
+{
+  "name": "mail-slot",
+  "category": "communication",
+  "tags": ["mail", "slot", "letterbox", "door", "delivery", "post"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 10H16\"/><path class=\"p3\" d=\"M8 13L12 16L16 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideDown", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stair-stepper",
+  "category": "sport",
+  "tags": ["stair", "stepper", "climb", "machine", "cardio", "gym"],
+  "svg": "<path class=\"p1\" d=\"M3 20H7V16H11V12H15V8H19V4\"/><path class=\"p2\" d=\"M3 4V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dice-d12",
+  "category": "sport",
+  "tags": ["dice", "d12", "polyhedral", "rpg", "tabletop", "pentagon"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 20.5,8 17.5,19 6.5,19 3.5,8\"/><polygon class=\"p2\" points=\"12,7.5 16,10.5 14.5,15.5 9.5,15.5 8,10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

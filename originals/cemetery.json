@@ -1,0 +1,10 @@
+{
+  "name": "cemetery",
+  "category": "buildings",
+  "tags": ["cemetery", "graves", "headstones", "gate", "burial"],
+  "svg": "<path class=\"p1\" d=\"M4 21v-8a2 2 0 0 1 4 0v8M10 21v-8a2 2 0 0 1 4 0v8M16 21v-8a2 2 0 0 1 4 0v8\"/><path class=\"p2\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gate",
+  "category": "home",
+  "tags": ["gate", "fence", "entrance", "bars", "garden", "entry"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"3\" height=\"16\" rx=\"1\"/><rect class=\"d p1\" x=\"18\" y=\"5\" width=\"3\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M8 8v13M11 8v13M14 8v13M17 8v13\"/><path class=\"p3\" d=\"M6 8h12M6 16h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "6px 12px" }
+  ]
+}

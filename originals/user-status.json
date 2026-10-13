@@ -1,0 +1,11 @@
+{
+  "name": "user-status",
+  "category": "communication",
+  "tags": ["user", "status", "person", "profile", "presence"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M3 20.5c0-3.5 3-6 7-6s7 2.5 7 6\"/><circle class=\"d p3\" cx=\"19.5\" cy=\"16.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

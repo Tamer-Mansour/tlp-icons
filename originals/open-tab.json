@@ -1,0 +1,10 @@
+{
+  "name": "open-tab",
+  "category": "interface",
+  "tags": ["open", "tab", "browser", "external", "window", "launch"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p1\" d=\"M3 9h18\"/><path class=\"p2\" d=\"M11 15l6-6M13 9h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 800, "delay": 900 }
+  ]
+}

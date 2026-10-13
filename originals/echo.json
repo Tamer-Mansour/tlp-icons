@@ -1,0 +1,11 @@
+{
+  "name": "echo",
+  "category": "media",
+  "tags": ["echo", "reverb", "speaker", "sound", "repeat", "delay"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h4l5-4v12l-5-4H3z\"/><path class=\"p2\" d=\"M15 9a4 4 0 0 1 0 6\"/><path class=\"p3\" d=\"M18 6a8 8 0 0 1 0 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

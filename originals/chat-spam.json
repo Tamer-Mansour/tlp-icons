@@ -1,0 +1,11 @@
+{
+  "name": "chat-spam",
+  "category": "communication",
+  "tags": ["spam", "warning", "junk", "unsafe message", "chat"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4h18v12h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M12 6.5l3.5 6h-7z\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.8\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

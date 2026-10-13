@@ -1,0 +1,10 @@
+{
+  "name": "lane-change",
+  "category": "arrows",
+  "tags": ["lane", "change", "road", "switch", "move"],
+  "svg": "<path class=\"p1\" d=\"M3 5 H21\"/><path class=\"p1\" d=\"M3 19 H21\"/><path class=\"p2\" d=\"M7 16 L17 10\"/><polyline class=\"p2\" points=\"13 10 17 10 17 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

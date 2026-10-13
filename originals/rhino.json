@@ -1,0 +1,12 @@
+{
+  "name": "rhino",
+  "category": "nature",
+  "tags": ["animal", "horn", "big", "africa", "savanna"],
+  "svg": "<path class=\"d p1\" d=\"M3 14c0-4 3-6 8-6h7v5c0 3-2 5-5 5H6c-2 0-3-2-3-4z\"/><path class=\"p2\" d=\"M16 8.5l3.5-4 -.5 4\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"11\" r=\"1\"/><path class=\"p4\" d=\"M7 18v3M15 18v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "stamp", "dur": 500, "delay": 1200 }
+  ]
+}

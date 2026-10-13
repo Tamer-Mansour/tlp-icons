@@ -1,0 +1,11 @@
+{
+  "name": "ion-thruster",
+  "category": "vehicles",
+  "tags": ["ion", "thruster", "engine", "space", "propulsion"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16l-4 6H8z\"/><path class=\"p2\" d=\"M9.5 10v6.5M14.5 10v6.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"19.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1000 }
+  ]
+}

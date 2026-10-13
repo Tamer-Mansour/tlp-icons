@@ -1,0 +1,11 @@
+{
+  "name": "long-range-node",
+  "category": "connectivity",
+  "tags": ["long range", "lora", "node", "radio", "sensor network", "signal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"12\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M8 12V8.5\"/><circle class=\"f p2\" cx=\"8\" cy=\"7\" r=\"1.2\"/><path class=\"p3\" d=\"M11.5 5A5 5 0 0 1 11.5 11M14 2.5A9 9 0 0 1 14 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

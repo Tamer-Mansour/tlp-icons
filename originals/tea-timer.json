@@ -1,0 +1,11 @@
+{
+  "name": "tea-timer",
+  "category": "time",
+  "tags": ["tea", "timer", "steep", "brew", "cup", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M2 11h10.5v4.5a4.5 4.5 0 0 1-4.5 4.5h-1.5A4.5 4.5 0 0 1 2 15.5z\"/><path class=\"p2\" d=\"M12.5 12.5h.9a1.8 1.8 0 0 1 0 3.6h-.9\"/><circle class=\"p3\" cx=\"19.5\" cy=\"17\" r=\"2.5\"/><path class=\"p3\" d=\"M19.5 15.8v1.2l.8.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "19.5px 17px" }
+  ]
+}

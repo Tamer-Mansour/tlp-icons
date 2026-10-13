@@ -1,0 +1,10 @@
+{
+  "name": "chef-person-hat",
+  "category": "people",
+  "tags": ["chef", "hat", "cook", "kitchen", "person", "food"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 8.5V7A2.8 2.8 0 0 1 9.8 4.7A3.2 3.2 0 0 1 14.2 4.7A2.8 2.8 0 0 1 15.5 7v1.5z\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"2.6\"/><path class=\"p2\" d=\"M6.5 22c0-2.6 2.5-4.3 5.5-4.3s5.5 1.7 5.5 4.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 }
+  ]
+}

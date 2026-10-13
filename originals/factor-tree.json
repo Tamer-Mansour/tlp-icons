@@ -1,0 +1,11 @@
+{
+  "name": "factor-tree",
+  "category": "math",
+  "tags": ["factor", "tree", "prime", "factorization", "numbers"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M10.5 6.5L7 10.5M13.5 6.5L17 10.5\"/><circle class=\"p3\" cx=\"7\" cy=\"14\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "papyrus",
+  "category": "files",
+  "tags": ["papyrus", "scroll", "ancient", "reed", "manuscript"],
+  "svg": "<rect class=\"p1 d\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M8 16l4-4M8 12l4-4M10 18l4-4\"/><ellipse class=\"p3\" cx=\"12\" cy=\"3\" rx=\"7\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "unfold", "dur": 500, "delay": 1000 }
+  ]
+}

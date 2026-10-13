@@ -1,0 +1,10 @@
+{
+  "name": "post-hole-digger",
+  "category": "tools",
+  "tags": ["post", "hole", "digger", "auger", "dig", "fence"],
+  "svg": "<path class=\"p1\" d=\"M8 3L11 17M16 3L13 17\"/><polygon class=\"d p2\" points=\"9,17 15,17 14,21 10,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dig", "dur": 800, "delay": 900 }
+  ]
+}

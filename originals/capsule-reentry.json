@@ -1,0 +1,10 @@
+{
+  "name": "capsule-reentry",
+  "category": "science",
+  "tags": ["capsule", "reentry", "heat", "space", "wave"],
+  "svg": "<path class=\"d p1\" d=\"M9 4H15L19 14H5Z\"/><path class=\"p2\" d=\"M3 18Q6 16 9 18T15 18T21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "whooshIn", "dur": 900, "delay": 400 }
+  ]
+}

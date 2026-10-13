@@ -1,0 +1,11 @@
+{
+  "name": "newsagent",
+  "category": "buildings",
+  "tags": ["newsagent", "newspaper", "paper", "shop", "awning", "magazine"],
+  "svg": "<path class=\"d p1\" d=\"M3 4 H21 L20 8 H4 Z\"/><path class=\"p2\" d=\"M6 10 H18 V21 H6 Z\"/><path class=\"p3\" d=\"M9 13 H15 M9 16 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

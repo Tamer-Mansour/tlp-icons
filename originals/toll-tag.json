@@ -1,0 +1,11 @@
+{
+  "name": "toll-tag",
+  "category": "vehicles",
+  "tags": ["toll", "tag", "windshield", "pass", "highway"],
+  "svg": "<path class=\"p3\" d=\"M12 2.5V6\"/><rect class=\"d p1\" x=\"7\" y=\"6\" width=\"10\" height=\"13\" rx=\"2\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 700, "origin": "12px 2.5px" }
+  ]
+}

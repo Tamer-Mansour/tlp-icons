@@ -1,0 +1,11 @@
+{
+  "name": "layer-down",
+  "category": "arrows",
+  "tags": ["layer", "down", "stack", "lower", "arrows"],
+  "svg": "<polygon class=\"d p1\" points=\"12 2 20 6 12 10 4 6\"/><polyline class=\"p2\" points=\"4 11 12 15 20 11\"/><path class=\"p3\" d=\"M12 17.5V20.5\"/><polyline class=\"p3\" points=\"9.5 18 12 20.5 14.5 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tide-gauge",
+  "category": "science",
+  "tags": ["tide", "gauge", "sea", "water", "measure"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"3\" width=\"4\" height=\"14\"/><path class=\"p2\" d=\"M16 6H19M16 9H18M16 12H19\"/><path class=\"p3\" d=\"M2 20Q5 18 8 20T14 20T20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 1000 }
+  ]
+}

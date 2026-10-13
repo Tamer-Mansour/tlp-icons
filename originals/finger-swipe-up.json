@@ -1,0 +1,11 @@
+{
+  "name": "finger-swipe-up",
+  "category": "arrows",
+  "tags": ["swipe", "finger", "up", "gesture", "touch"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"17\" r=\"3\"/><path class=\"p2\" d=\"M12 14 V4\"/><path class=\"p3\" d=\"M7.5 8.5 L12 4 L16.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1000 }
+  ]
+}

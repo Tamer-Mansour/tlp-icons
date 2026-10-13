@@ -1,0 +1,10 @@
+{
+  "name": "progress-report",
+  "category": "files",
+  "tags": ["progress", "report", "chart", "growth", "bars", "trend"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18H5z\"/><path class=\"p2\" d=\"M8 17v-3M12 17v-6M16 17V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 600 }
+  ]
+}

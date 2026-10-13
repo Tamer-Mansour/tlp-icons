@@ -1,0 +1,11 @@
+{
+  "name": "prism-pentagonal",
+  "category": "shapes",
+  "tags": ["prism", "pentagonal", "pentagon", "solid", "3d", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3L19.5 8.5L16.5 17.5H7.5L4.5 8.5Z\"/><path class=\"p2\" d=\"M14 5L21.5 10.5L18.5 19.5H9.5L6.5 10.5Z\"/><path class=\"p3\" d=\"M12 3L14 5M19.5 8.5L21.5 10.5M16.5 17.5L18.5 19.5M7.5 17.5L9.5 19.5M4.5 8.5L6.5 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

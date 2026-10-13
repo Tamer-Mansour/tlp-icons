@@ -1,0 +1,10 @@
+{
+  "name": "box-net",
+  "category": "shapes",
+  "tags": ["box", "net", "cube", "unfold", "flat", "template"],
+  "svg": "<path class=\"p1\" d=\"M8 4H12V8H20V12H12V16H8V12H4V8H8Z\"/><path class=\"p2\" d=\"M8 8V12M12 8V12M16 8V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "team-bench",
+  "category": "sport",
+  "tags": ["bench", "team", "substitute", "sideline", "game"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"6\" x2=\"20\" y2=\"6\"/><rect class=\"d p2\" x=\"3\" y=\"10\" width=\"18\" height=\"3\" rx=\"1\"/><line class=\"p3\" x1=\"5\" y1=\"13\" x2=\"5\" y2=\"19\"/><line class=\"p3\" x1=\"19\" y1=\"13\" x2=\"19\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 700, "delay": 1100 }
+  ]
+}

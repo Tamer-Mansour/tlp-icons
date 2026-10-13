@@ -1,0 +1,11 @@
+{
+  "name": "watchtower",
+  "category": "buildings",
+  "tags": ["watchtower", "tower", "guard", "lookout", "castle"],
+  "svg": "<path class=\"p1\" d=\"M6 21V7h2V5h2v2h4V5h2v2h2v14\"/><path class=\"p2\" d=\"M3 21h18\"/><rect class=\"d p3\" x=\"10\" y=\"12\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

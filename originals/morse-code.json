@@ -1,0 +1,10 @@
+{
+  "name": "morse-code",
+  "category": "text",
+  "tags": ["morse", "code", "dots", "dashes", "telegraph", "signal"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1\"/><path class=\"p2\" d=\"M7 12h4\"/><circle class=\"f p1\" cx=\"14\" cy=\"12\" r=\"1\"/><path class=\"p2\" d=\"M17 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

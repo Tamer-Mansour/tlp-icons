@@ -1,0 +1,11 @@
+{
+  "name": "stick-vacuum",
+  "category": "devices",
+  "tags": ["vacuum", "cleaner", "floor", "handle", "brush", "cordless", "household"],
+  "svg": "<line class=\"p3\" x1=\"4\" y1=\"21\" x2=\"20\" y2=\"21\"/><rect class=\"d p2\" x=\"6\" y=\"13\" width=\"10\" height=\"5\" rx=\"2.5\"/><path class=\"p1\" d=\"M19 3 L11 13\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "11px 13px" }
+  ]
+}

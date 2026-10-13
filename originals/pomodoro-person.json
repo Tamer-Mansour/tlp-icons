@@ -1,0 +1,10 @@
+{
+  "name": "pomodoro-person",
+  "category": "people",
+  "tags": ["pomodoro", "timer", "focus", "tomato", "work", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p1\" d=\"M12 6V4\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"1.5\"/><path class=\"p2\" d=\"M9.5 16.5Q12 14.5 14.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nod", "dur": 800, "delay": 800 }
+  ]
+}

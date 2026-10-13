@@ -1,0 +1,11 @@
+{
+  "name": "paragraph-stack",
+  "category": "text",
+  "tags": ["paragraph", "text", "blocks", "document", "lines"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18M3 7h12\"/><path class=\"p2\" d=\"M3 11h18M3 15h12\"/><path class=\"p3\" d=\"M3 19h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

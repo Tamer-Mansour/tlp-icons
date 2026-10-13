@@ -1,0 +1,11 @@
+{
+  "name": "putting-green",
+  "category": "buildings",
+  "tags": ["golf", "green", "flag", "hole", "putting", "lawn"],
+  "svg": "<path class=\"d p1\" d=\"M3 19 Q12 9 21 19 Z\"/><line class=\"p2\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"14\"/><polygon class=\"p3\" points=\"12,6 17,8 12,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 700, "delay": 1100, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "boomerang-arrow",
+  "category": "arrows",
+  "tags": ["boomerang", "return", "curve", "loop", "back"],
+  "svg": "<circle class=\"f p3\" cx=\"5\" cy=\"20\" r=\"1\"/><path class=\"p1\" d=\"M5 20 C5 11 11 7 19 7\"/><polyline class=\"p2\" points=\"15 3 19 7 15 11\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

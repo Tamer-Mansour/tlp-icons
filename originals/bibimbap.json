@@ -1,0 +1,11 @@
+{
+  "name": "bibimbap",
+  "category": "food",
+  "tags": ["bibimbap", "bowl", "korean", "rice", "egg", "vegetables"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 4.5-4 7.5-9 7.5S3 15.5 3 11z\"/><path class=\"p3\" d=\"M6 11a2 2 0 0 1 4 0M14 11a2 2 0 0 1 4 0\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "whisker-plot",
+  "category": "charts",
+  "tags": ["whisker", "box", "plot", "quartiles", "median"],
+  "svg": "<path class=\"p1\" d=\"M2 12H8M16 12H22M2 8.5V15.5M22 8.5V15.5\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\"/><path class=\"p3\" d=\"M12 8V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ice-pellets",
+  "category": "weather",
+  "tags": ["ice pellets", "sleet", "hail", "frozen", "falling", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"7\" r=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 700 }
+  ]
+}

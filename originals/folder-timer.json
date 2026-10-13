@@ -1,0 +1,11 @@
+{
+  "name": "folder-timer",
+  "category": "files",
+  "tags": ["folder", "timer", "stopwatch", "time", "clock", "duration"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"14.5\" r=\"3.5\"/><path class=\"p3\" d=\"M12 14.5v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 14.5px" }
+  ]
+}

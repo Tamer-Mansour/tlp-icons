@@ -1,0 +1,10 @@
+{
+  "name": "attachment-stack",
+  "category": "interface",
+  "tags": ["attachments", "files", "stack", "documents", "clip"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"11\" height=\"14\" rx=\"1.5\"/><rect class=\"d p2\" x=\"9\" y=\"7\" width=\"12\" height=\"14\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

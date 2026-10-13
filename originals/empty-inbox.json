@@ -1,0 +1,10 @@
+{
+  "name": "empty-inbox",
+  "category": "notifications",
+  "tags": ["inbox", "empty", "tray", "mail", "nothing", "clear"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h5l1.5 2.5h5L16 13h5v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M7.5 4.5h3M13.5 4.5h3M17.5 6.5v2.5M13.5 10.5h4M7.5 10.5h3M6.5 6.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 600 }
+  ]
+}

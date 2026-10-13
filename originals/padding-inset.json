@@ -1,0 +1,11 @@
+{
+  "name": "padding-inset",
+  "category": "design",
+  "tags": ["padding", "inset", "spacing", "box", "design"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M3 12h4M21 12h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "stretch", "dur": 600, "delay": 800 }
+  ]
+}

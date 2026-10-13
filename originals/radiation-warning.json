@@ -1,0 +1,10 @@
+{
+  "name": "radiation-warning",
+  "category": "security",
+  "tags": ["radiation", "warning", "hazard", "nuclear", "danger"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"d p2\" d=\"M12 12L9.25 7.24A5.5 5.5 0 0 1 14.75 7.24ZM12 12L17.5 12A5.5 5.5 0 0 1 14.75 16.76ZM12 12L9.25 16.76A5.5 5.5 0 0 1 6.5 12Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sauna-hut",
+  "category": "buildings",
+  "tags": ["sauna", "hut", "heat", "steam", "wellness", "cabin"],
+  "svg": "<path class=\"p1\" d=\"M5 21V11l7-6 7 6v10z\"/><path class=\"p2\" d=\"M9 18v-2.5M12 18v-4M15 18v-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 900 }
+  ]
+}

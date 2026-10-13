@@ -1,0 +1,11 @@
+{
+  "name": "sensitive-field",
+  "category": "security",
+  "tags": ["password", "field", "sensitive", "input", "warning"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\" rx=\"2\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1.1\"/><circle class=\"f p2\" cx=\"10.5\" cy=\"12\" r=\"1.1\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"1.1\"/><circle class=\"f p3\" cx=\"19\" cy=\"4.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 1000 }
+  ]
+}

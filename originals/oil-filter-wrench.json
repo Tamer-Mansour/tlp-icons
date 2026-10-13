@@ -1,0 +1,11 @@
+{
+  "name": "oil-filter-wrench",
+  "category": "tools",
+  "tags": ["oil", "filter", "wrench", "cup", "grip"],
+  "svg": "<path class=\"d p1\" d=\"M6 9H18V20H6Z\"/><path class=\"p2\" d=\"M9 12V17M12 12V17M15 12V17\"/><line class=\"p3\" x1=\"18\" y1=\"13\" x2=\"22\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1100, "origin": "18px 13px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "media-library",
+  "category": "media",
+  "tags": ["library", "shelf", "collection", "media", "archive", "stack"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><rect class=\"p3\" x=\"13\" y=\"8\" width=\"7\" height=\"12\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1000, "origin": "bottom" }
+  ]
+}

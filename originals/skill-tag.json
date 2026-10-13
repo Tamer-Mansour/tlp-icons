@@ -1,0 +1,11 @@
+{
+  "name": "skill-tag",
+  "category": "people",
+  "tags": ["skill", "tag", "star", "label", "badge", "expertise"],
+  "svg": "<path class=\"d p1\" d=\"M3 4v7l9.5 9.5 7-7L10 3H4a1 1 0 0 0-1 1z\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.1\"/><polygon class=\"p3\" points=\"12,8.2 12.7,10 14.7,10.1 13.1,11.4 13.6,13.3 12,12.2 10.4,13.3 10.9,11.4 9.3,10.1 11.3,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

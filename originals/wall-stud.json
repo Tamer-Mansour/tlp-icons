@@ -1,0 +1,10 @@
+{
+  "name": "wall-stud",
+  "category": "tools",
+  "tags": ["stud", "wall", "frame", "plate", "timber", "construction"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18M3 20h18\"/><rect class=\"d p2\" x=\"9\" y=\"4\" width=\"6\" height=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "circular-saw",
+  "category": "tools",
+  "tags": ["circular", "saw", "blade", "cutting", "wood", "power"],
+  "svg": "<circle class=\"p1\" cx=\"11\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M11 9v6M8 10.5l5.2 3M14 10.5l-5.2 3\"/><path class=\"p3\" d=\"M18 12h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

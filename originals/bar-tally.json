@@ -1,0 +1,10 @@
+{
+  "name": "bar-tally",
+  "category": "charts",
+  "tags": ["tally", "count", "marks", "score", "lines", "counter"],
+  "svg": "<path class=\"p1\" d=\"M3 4v16M7 4v16M11 4v16M15 4v16M19 4v16\"/><path class=\"p2\" d=\"M2 15L21 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

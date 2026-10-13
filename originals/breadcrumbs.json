@@ -1,0 +1,11 @@
+{
+  "name": "breadcrumbs",
+  "category": "arrows",
+  "tags": ["breadcrumb", "trail", "path", "steps", "navigation"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"1.5\"/><path class=\"p2\" d=\"M5.5 12 H10.5 M13.5 12 H16\"/><circle class=\"f p3\" cx=\"20\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

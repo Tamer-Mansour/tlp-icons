@@ -1,0 +1,10 @@
+{
+  "name": "index-divider",
+  "category": "files",
+  "tags": ["index", "divider", "tab", "page", "section", "bookmark"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"17\" y=\"6\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

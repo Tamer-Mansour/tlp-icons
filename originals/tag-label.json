@@ -1,0 +1,11 @@
+{
+  "name": "tag-label",
+  "category": "development",
+  "tags": ["tag", "label", "price", "category", "marker", "hole"],
+  "svg": "<path class=\"p1 d\" d=\"M3 12L11 4H20V13L12 21Z\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"1.5\"/><line class=\"p3\" x1=\"7\" y1=\"12\" x2=\"10\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 600, "origin": "16px 8px" }
+  ]
+}

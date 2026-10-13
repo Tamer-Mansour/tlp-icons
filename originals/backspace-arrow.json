@@ -1,0 +1,10 @@
+{
+  "name": "backspace-arrow",
+  "category": "arrows",
+  "tags": ["backspace", "delete", "erase", "key", "tag", "remove"],
+  "svg": "<path class=\"p1\" d=\"M9 5 H20 V19 H9 L3 12 Z\"/><path class=\"p2\" d=\"M13.5 9.5 L17.5 14.5 M17.5 9.5 L13.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

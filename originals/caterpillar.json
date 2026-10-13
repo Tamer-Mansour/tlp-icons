@@ -1,0 +1,11 @@
+{
+  "name": "caterpillar",
+  "category": "nature",
+  "tags": ["larva", "worm", "segments", "leaf", "butterfly"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"5\" height=\"5\" rx=\"2.5\"/><rect class=\"d p2\" x=\"10\" y=\"11\" width=\"5\" height=\"5\" rx=\"2.5\"/><circle class=\"d p3\" cx=\"19\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M18 10 L17 8 M20 10 L21 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 900 }
+  ]
+}

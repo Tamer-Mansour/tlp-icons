@@ -1,0 +1,11 @@
+{
+  "name": "cable-unplugged",
+  "category": "connectivity",
+  "tags": ["cable", "unplugged", "disconnected", "socket", "plug", "gap"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"7\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"8\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M9 11h2M9 13h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

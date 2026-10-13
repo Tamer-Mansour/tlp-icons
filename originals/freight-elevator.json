@@ -1,0 +1,11 @@
+{
+  "name": "freight-elevator",
+  "category": "buildings",
+  "tags": ["freight", "elevator", "lift", "crate", "cargo", "stacked"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\"/><rect class=\"d p2\" x=\"7\" y=\"12\" width=\"10\" height=\"6\"/><rect class=\"d p3\" x=\"9\" y=\"5\" width=\"6\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hole-saw",
+  "category": "tools",
+  "tags": ["hole", "saw", "cylinder", "pilot", "drill", "circle"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"4\" width=\"10\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M7 16l2 2 2-2 2 2 2-2 2 2\"/><path class=\"p3\" d=\"M12 4V1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

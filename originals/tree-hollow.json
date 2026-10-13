@@ -1,0 +1,10 @@
+{
+  "name": "tree-hollow",
+  "category": "nature",
+  "tags": ["hollow", "trunk", "tree", "hole", "wood", "nature"],
+  "svg": "<path class=\"p1\" d=\"M7 22V10c0-3 2-5 5-5s5 2 5 5v12\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 900 }
+  ]
+}

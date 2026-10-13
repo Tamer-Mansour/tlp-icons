@@ -1,0 +1,11 @@
+{
+  "name": "podium-step",
+  "category": "sport",
+  "tags": ["podium", "winner", "first place", "trophy", "ranking"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M11 12L12.5 11V17\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

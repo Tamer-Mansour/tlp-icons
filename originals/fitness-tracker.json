@@ -1,0 +1,11 @@
+{
+  "name": "fitness-tracker",
+  "category": "sport",
+  "tags": ["fitness", "tracker", "watch", "heart", "pulse", "wearable"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"3\"/><path class=\"p2\" d=\"M9 6 L10 2.5 H14 L15 6 M9 18 L10 21.5 H14 L15 18\"/><polyline class=\"p3\" points=\"8 12 10 12 11 10 13 14 14 12 16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "beat", "dur": 800, "delay": 1000 }
+  ]
+}

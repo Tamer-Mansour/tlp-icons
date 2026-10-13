@@ -1,0 +1,11 @@
+{
+  "name": "sin-bin",
+  "category": "sport",
+  "tags": ["sin", "bin", "clock", "penalty", "bench", "timeout"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M12 6V10L15 12\"/><path class=\"p3\" d=\"M5 21H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 600, "origin": "12px 10px" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

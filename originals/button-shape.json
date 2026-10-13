@@ -1,0 +1,10 @@
+{
+  "name": "button-shape",
+  "category": "shapes",
+  "tags": ["button", "round", "sewing", "holes", "clothing"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

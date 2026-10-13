@@ -1,0 +1,11 @@
+{
+  "name": "padlock-chain",
+  "category": "security",
+  "tags": ["padlock", "chain", "link", "lock", "secure", "security"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 11V8a3 3 0 0 1 6 0v3\"/><ellipse class=\"p3\" cx=\"17.5\" cy=\"9\" rx=\"3\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "17.5px 6.5px" }
+  ]
+}

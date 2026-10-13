@@ -1,0 +1,11 @@
+{
+  "name": "handshake-agreement",
+  "category": "people",
+  "tags": ["handshake", "agreement", "deal", "contract", "partner", "trust"],
+  "svg": "<path class=\"p1\" d=\"M2 11l3.5-3h3.5l3 2.5M22 11l-3.5-3H15l-3 2.5\"/><rect class=\"d p2\" x=\"8.5\" y=\"10.5\" width=\"7\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M10.5 14.5v3M13.5 14.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "stamp", "dur": 600, "delay": 1000 }
+  ]
+}

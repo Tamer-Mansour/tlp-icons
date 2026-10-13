@@ -1,0 +1,11 @@
+{
+  "name": "ice-tray",
+  "category": "food",
+  "tags": ["ice", "tray", "cubes", "freezer", "frozen"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 H21 V19 Q21 21 19 21 H5 Q3 21 3 19 Z\"/><path class=\"p2\" d=\"M9 14 V21 M15 14 V21\"/><rect class=\"p3\" x=\"9\" y=\"5\" width=\"6\" height=\"6\" rx=\"1\" transform=\"rotate(-15 12 8)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 900, "delay": 1000 }
+  ]
+}

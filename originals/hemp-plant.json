@@ -1,0 +1,10 @@
+{
+  "name": "hemp-plant",
+  "category": "nature",
+  "tags": ["hemp", "fiber", "palmate", "leaf", "plant"],
+  "svg": "<path class=\"p1\" d=\"M12 22 V11\"/><path class=\"p2\" d=\"M12 11 V2 M12 11 L6 4 M12 11 L18 4 M12 11 L3 9 M12 11 L21 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 700, "origin": "12px 11px" }
+  ]
+}

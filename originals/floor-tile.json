@@ -1,0 +1,10 @@
+{
+  "name": "floor-tile",
+  "category": "home",
+  "tags": ["floor", "tile", "square", "pattern", "flooring"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M3 12L12 3M3 21L21 3M12 21L21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

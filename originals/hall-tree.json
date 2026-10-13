@@ -1,0 +1,11 @@
+{
+  "name": "hall-tree",
+  "category": "home",
+  "tags": ["hall", "tree", "coat rack", "hooks", "entryway"],
+  "svg": "<path class=\"p1\" d=\"M12 4v16\"/><path class=\"p2\" d=\"M12 7l-4-2M12 11l4-2\"/><rect class=\"d p3\" x=\"4\" y=\"16\" width=\"16\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

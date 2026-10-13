@@ -1,0 +1,11 @@
+{
+  "name": "fountain-pen",
+  "category": "text",
+  "tags": ["ink", "nib", "pen", "writing", "fountain"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 12l3 8 3-8\"/><path class=\"p3\" d=\"M19 13c0 0 2 2.5 2 4a2 2 0 0 1-4 0c0-1.5 2-4 2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "drip", "dur": 700, "delay": 1200 }
+  ]
+}

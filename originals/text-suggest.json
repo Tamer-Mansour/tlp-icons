@@ -1,0 +1,11 @@
+{
+  "name": "text-suggest",
+  "category": "text",
+  "tags": ["suggest", "suggestion", "bubble", "hint", "word", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 15h9\"/><rect class=\"p2\" x=\"12\" y=\"4\" width=\"9\" height=\"6\" rx=\"2\"/><path class=\"p3\" d=\"M15 7h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

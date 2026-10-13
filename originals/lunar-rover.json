@@ -1,0 +1,12 @@
+{
+  "name": "lunar-rover",
+  "category": "vehicles",
+  "tags": ["lunar", "rover", "moon", "space", "buggy", "camera", "exploration"],
+  "svg": "<path class=\"d p1\" d=\"M3 14.5h18l-1.5-3.5H4.5z\"/><path class=\"p2\" d=\"M12 11V7.5\"/><rect class=\"p3\" x=\"9.5\" y=\"4\" width=\"5\" height=\"3.5\" rx=\"1\"/><circle class=\"p4\" cx=\"6\" cy=\"18.5\" r=\"2\"/><circle class=\"p4\" cx=\"12\" cy=\"18.5\" r=\"2\"/><circle class=\"p4\" cx=\"18\" cy=\"18.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "drive", "dur": 1000, "delay": 1000 }
+  ]
+}

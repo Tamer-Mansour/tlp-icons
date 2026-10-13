@@ -1,0 +1,11 @@
+{
+  "name": "pitch-clock",
+  "category": "sport",
+  "tags": ["pitch", "clock", "timer", "baseball", "plate", "game"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"7\"/><path class=\"p2\" d=\"M12 11 V8 M12 11 L14 13\"/><path class=\"p3\" d=\"M8 20.5 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 11px" }
+  ]
+}

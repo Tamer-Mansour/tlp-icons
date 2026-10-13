@@ -1,0 +1,10 @@
+{
+  "name": "checker-grid",
+  "category": "shapes",
+  "tags": ["checkerboard", "checker", "grid", "squares", "pattern", "board"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"d p2\" d=\"M3 3h4.5v4.5H3zM12 3h4.5v4.5H12zM7.5 7.5h4.5V12H7.5zM16.5 7.5H21V12h-4.5zM3 12h4.5v4.5H3zM12 12h4.5v4.5H12zM7.5 16.5h4.5V21H7.5zM16.5 16.5H21V21h-4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

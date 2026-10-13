@@ -1,0 +1,11 @@
+{
+  "name": "soup-spoon",
+  "category": "food",
+  "tags": ["cutlery", "spoon", "soup", "kitchen", "steam"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"8\" rx=\"5\" ry=\"6\"/><path class=\"p2\" d=\"M12 14v7\"/><path class=\"p3\" d=\"M19 4q-1.5 2 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1100 }
+  ]
+}

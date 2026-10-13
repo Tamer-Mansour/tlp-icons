@@ -1,0 +1,10 @@
+{
+  "name": "cumulative-flow",
+  "category": "charts",
+  "tags": ["cumulative", "flow", "layers", "area", "stacked"],
+  "svg": "<path class=\"d p1\" d=\"M3 16L9 13L15 10L21 6V12L15 16L9 18L3 20Z\"/><path class=\"p2\" d=\"M3 10L9 8L15 5L21 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

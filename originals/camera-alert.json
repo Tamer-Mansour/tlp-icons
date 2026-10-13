@@ -1,0 +1,10 @@
+{
+  "name": "camera-alert",
+  "category": "notifications",
+  "tags": ["camera", "photo", "alert", "warning", "capture"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h3.5l2-3h7l2 3H21v12H3z\"/><path class=\"p2\" d=\"M12 11v4\"/><circle class=\"f p2\" cx=\"12\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dingo",
+  "category": "nature",
+  "tags": ["dog", "wild", "tail", "ears", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 H14 Q19 9 19 13 V14 H5 Z\"/><path class=\"p2\" d=\"M15 9 L16 4 L18 8\"/><polyline class=\"p3\" points=\"18,8 21,10 18,13\"/><path class=\"p4\" d=\"M5 9 Q2 8 3 4 Q4 2 6 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "5px 9px" }
+  ]
+}

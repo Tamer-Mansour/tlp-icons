@@ -1,0 +1,12 @@
+{
+  "name": "pitcher-water",
+  "category": "food",
+  "tags": ["pitcher", "water", "jug", "drink", "carafe"],
+  "svg": "<path class=\"p1 d\" d=\"M7 9 H17 V19.5 Q17 21 15.5 21 H8.5 Q7 21 7 19.5 Z\"/><path class=\"p2\" d=\"M17 11.5 H19 Q20.5 11.5 20.5 13.5 V16 Q20.5 18 19 18 H17\"/><path class=\"p3\" d=\"M7 11 Q4.5 10.5 4 8 V6\"/><circle class=\"f p4\" cx=\"10\" cy=\"4.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

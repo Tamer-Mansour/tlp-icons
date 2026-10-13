@@ -1,0 +1,10 @@
+{
+  "name": "heartbeat-line",
+  "category": "notifications",
+  "tags": ["heartbeat", "pulse", "vitals", "spike", "health"],
+  "svg": "<path class=\"p1\" d=\"M2 12h4.5\"/><path class=\"p2\" d=\"M6.5 12l2.5-7 3.5 14 2.5-7H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

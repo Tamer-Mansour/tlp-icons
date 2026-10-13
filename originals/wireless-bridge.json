@@ -1,0 +1,10 @@
+{
+  "name": "wireless-bridge",
+  "category": "connectivity",
+  "tags": ["wireless", "bridge", "connect", "link", "network", "pair"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"6\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"16\" y=\"8\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M8 12 Q10 9 12 12 T16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-form",
+  "category": "files",
+  "tags": ["file", "form", "input", "fields", "submit", "survey"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><rect class=\"p2\" x=\"7.5\" y=\"8.5\" width=\"9\" height=\"2.5\" rx=\"0.5\"/><rect class=\"p2\" x=\"7.5\" y=\"13.5\" width=\"9\" height=\"2.5\" rx=\"0.5\"/><rect class=\"p3\" x=\"7.5\" y=\"18\" width=\"9\" height=\"2.5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 400, "delay": 1100 }
+  ]
+}

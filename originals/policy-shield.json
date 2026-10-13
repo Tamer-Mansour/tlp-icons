@@ -1,0 +1,11 @@
+{
+  "name": "policy-shield",
+  "category": "security",
+  "tags": ["policy", "shield", "document", "rules", "governance", "protect"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6A1.5 1.5 0 0 0 4.5 4v16A1.5 1.5 0 0 0 6 21.5h6M14 2.5V8h5.5V11\"/><path class=\"p2\" d=\"M8 7.5h6M8 11h3\"/><path class=\"d p3\" d=\"M17 13l4 1.5V18c0 2-1.6 3.2-4 4.5-2.4-1.3-4-2.5-4-4.5v-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

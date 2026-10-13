@@ -1,0 +1,11 @@
+{
+  "name": "execute-play",
+  "category": "interface",
+  "tags": ["execute", "gear", "play", "settings", "run", "process"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M12 2v2M12 20v2M2 12h2M20 12h2\"/><polygon class=\"p3\" points=\"10 9 15.5 12 10 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

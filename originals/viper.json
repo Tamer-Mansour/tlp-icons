@@ -1,0 +1,11 @@
+{
+  "name": "viper",
+  "category": "nature",
+  "tags": ["snake", "zigzag", "venom", "reptile", "animal"],
+  "svg": "<polyline class=\"p1\" points=\"21,18 17,9 13,17 9,9 7,14\"/><circle class=\"d p2\" cx=\"4\" cy=\"12\" r=\"2.5\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"11.5\" r=\"0.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 300, "delay": 1100 }
+  ]
+}

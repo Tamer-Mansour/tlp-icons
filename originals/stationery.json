@@ -1,0 +1,11 @@
+{
+  "name": "stationery",
+  "category": "communication",
+  "tags": ["stationery", "letter", "paper", "pen", "writing", "stationary", "note"],
+  "svg": "<path class=\"d p1\" d=\"M3 3 H12 L15 6 V21 H3 Z\"/><path class=\"p2\" d=\"M12 3 V6 H15\"/><path class=\"p3\" d=\"M16 20 L17 16 L21 6 L22 7 L18 17 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 700 }
+  ]
+}

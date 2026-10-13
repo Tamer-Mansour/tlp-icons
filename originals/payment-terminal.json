@@ -1,0 +1,11 @@
+{
+  "name": "payment-terminal",
+  "category": "devices",
+  "tags": ["payment", "terminal", "card", "reader", "pos", "checkout"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"0.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

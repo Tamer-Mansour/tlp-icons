@@ -1,0 +1,11 @@
+{
+  "name": "share-report",
+  "category": "charts",
+  "tags": ["share", "report", "document", "send", "chart", "network"],
+  "svg": "<path class=\"p1\" d=\"M5 3H13L18 8V11M5 3V12\"/><path class=\"p2\" d=\"M8 10V8M11 10V6M14 10V7\"/><path class=\"p3\" d=\"M14 19C14 16 16 14 20 14M17 11L20 14L17 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

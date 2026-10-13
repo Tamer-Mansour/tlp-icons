@@ -1,0 +1,11 @@
+{
+  "name": "meeting",
+  "category": "time",
+  "tags": ["meeting", "people", "team", "clock", "attendees", "group", "appointment"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 21a4 4 0 0 1 8 0\"/><circle class=\"p2\" cx=\"17\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M13.5 21a4.5 4.5 0 0 1 4.5-4.5\"/><circle class=\"p3\" cx=\"19.5\" cy=\"19\" r=\"2.5\"/><path class=\"p3\" d=\"M19.5 17.5v1.5h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000, "origin": "19.5px 19px" }
+  ]
+}

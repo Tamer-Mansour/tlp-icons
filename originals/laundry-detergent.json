@@ -1,0 +1,11 @@
+{
+  "name": "laundry-detergent",
+  "category": "home",
+  "tags": ["detergent", "laundry", "soap", "wash", "bottle", "cleaning"],
+  "svg": "<path class=\"d p1\" d=\"M7 10h10v10a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z\"/><rect class=\"p2\" x=\"9\" y=\"4\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M17 12.5h2v5h-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

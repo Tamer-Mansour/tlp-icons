@@ -1,0 +1,10 @@
+{
+  "name": "bullet-square",
+  "category": "text",
+  "tags": ["bullet", "square", "list", "marker", "text"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><path class=\"p2\" d=\"M10 6h11M10 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

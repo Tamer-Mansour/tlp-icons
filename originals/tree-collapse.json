@@ -1,0 +1,11 @@
+{
+  "name": "tree-collapse",
+  "category": "interface",
+  "tags": ["tree", "collapse", "hierarchy", "nodes", "branch", "minus"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"7\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M3.5 12h4\"/><path class=\"p3\" d=\"M9 12h3M12 6v12M12 6h3M12 12h3M12 18h3\"/><circle class=\"p3\" cx=\"17.5\" cy=\"6\" r=\"1.5\"/><circle class=\"p3\" cx=\"17.5\" cy=\"12\" r=\"1.5\"/><circle class=\"p3\" cx=\"17.5\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "squeeze", "dur": 500, "delay": 1200 }
+  ]
+}

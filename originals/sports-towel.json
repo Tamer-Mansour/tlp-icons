@@ -1,0 +1,11 @@
+{
+  "name": "sports-towel",
+  "category": "sport",
+  "tags": ["towel", "sports", "sweat", "gym", "fold", "hang"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M9 7V5.5A3 3 0 0 1 15 5.5V7\"/><path class=\"p3\" d=\"M4 12H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 800, "delay": 500, "origin": "12px 7px" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

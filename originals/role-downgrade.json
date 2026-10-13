@@ -1,0 +1,11 @@
+{
+  "name": "role-downgrade",
+  "category": "people",
+  "tags": ["downgrade", "demotion", "arrow", "role", "career", "rank"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"11\" r=\"3\"/><path class=\"p2\" d=\"M3 21a5 5 0 0 1 10 0\"/><path class=\"p3\" d=\"M18 6v14M14 16l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 900 }
+  ]
+}

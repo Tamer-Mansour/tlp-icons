@@ -1,0 +1,10 @@
+{
+  "name": "flick-gesture",
+  "category": "arrows",
+  "tags": ["flick", "swipe", "finger", "gesture", "touch", "motion"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"9\" width=\"4\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M15 6c3 .5 5 2.5 5 6M18 12.5l2 2.5 2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

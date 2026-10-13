@@ -1,0 +1,10 @@
+{
+  "name": "alert-message",
+  "category": "communication",
+  "tags": ["alert", "warning", "message", "triangle", "caution", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v12h-9l-4 4v-4H4z\"/><path class=\"p2\" d=\"M12 7l4 7H8z\"/><path class=\"p2\" d=\"M12 10v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ram-warning",
+  "category": "notifications",
+  "tags": ["ram", "memory", "warning", "triangle", "hardware"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 8V5M9 8V5M5 16v3M9 16v3\"/><path class=\"d p3\" d=\"M19 12l3 5.5h-6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fourier-series",
+  "category": "math",
+  "tags": ["fourier", "series", "waves", "frequency", "math"],
+  "svg": "<path class=\"p1\" d=\"M2 13C5 8 8 8 12 13S19 18 22 13\"/><path class=\"p2\" d=\"M2 13C3.5 10 4.5 10 6 13S8.5 16 10 13S12.5 10 14 13S16.5 16 18 13S20.5 10 22 13\"/><path class=\"p3\" d=\"M18 4h4M20 2v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

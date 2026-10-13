@@ -1,0 +1,12 @@
+{
+  "name": "stat-sheet",
+  "category": "sport",
+  "tags": ["stats", "clipboard", "chart", "report", "sheet"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 13V10M12 13V8M15 13V11\"/><path class=\"p4\" d=\"M8 17H16M8 20H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 700, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "kde-curve",
+  "category": "charts",
+  "tags": ["density", "curve", "kde", "distribution", "statistics", "smooth"],
+  "svg": "<path class=\"d p1\" d=\"M3 19 C6 19 7 6 12 6 C17 6 18 19 21 19 Z\"/><line class=\"p2\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "warm-front",
+  "category": "weather",
+  "tags": ["warm front", "weather map", "front", "warm", "forecast", "weather"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><path class=\"p2\" d=\"M6 12 A2.5 2.5 0 0 1 11 12 M13 12 A2.5 2.5 0 0 1 18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 900, "delay": 800 }
+  ]
+}

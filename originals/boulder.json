@@ -1,0 +1,10 @@
+{
+  "name": "boulder",
+  "category": "nature",
+  "tags": ["boulder", "rock", "stone", "large", "crack"],
+  "svg": "<path class=\"d p1\" d=\"M3 19c-.5-5 3-10 9-10s9.5 5 9 10z\"/><path class=\"p2\" d=\"M8 12l3 2-2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

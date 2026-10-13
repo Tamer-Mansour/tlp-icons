@@ -1,0 +1,11 @@
+{
+  "name": "touchscreen",
+  "category": "devices",
+  "tags": ["touchscreen", "touch", "screen", "tablet", "tap", "input"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><circle class=\"f p2\" cx=\"12\" cy=\"16\" r=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"16\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

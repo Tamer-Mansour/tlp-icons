@@ -1,0 +1,11 @@
+{
+  "name": "bighorn",
+  "category": "nature",
+  "tags": ["bighorn", "sheep", "curled horns", "mountain", "ram"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"5\"/><path class=\"p2\" d=\"M7 11 Q3 8 4 4 Q6 2 8 5 M17 11 Q21 8 20 4 Q18 2 16 5\"/><circle class=\"f p3\" cx=\"10\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1400 }
+  ]
+}

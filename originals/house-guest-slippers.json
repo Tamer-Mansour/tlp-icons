@@ -1,0 +1,11 @@
+{
+  "name": "house-guest-slippers",
+  "category": "people",
+  "tags": ["house", "guest", "slippers", "visitor", "stay", "home"],
+  "svg": "<path class=\"p1\" d=\"M3 7.5L12 3l9 4.5\"/><rect class=\"d p2\" x=\"3\" y=\"11\" width=\"8\" height=\"7\" rx=\"3\"/><rect class=\"d p3\" x=\"13\" y=\"11\" width=\"8\" height=\"7\" rx=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 400, "delay": 600 }
+  ]
+}

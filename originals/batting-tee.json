@@ -1,0 +1,11 @@
+{
+  "name": "batting-tee",
+  "category": "sport",
+  "tags": ["batting", "tee", "baseball", "ball", "stand", "practice"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M12 14 V19\"/><path class=\"p3\" d=\"M8 21 H16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 0, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 700 }
+  ]
+}

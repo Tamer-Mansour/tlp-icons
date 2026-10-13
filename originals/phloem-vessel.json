@@ -1,0 +1,10 @@
+{
+  "name": "phloem-vessel",
+  "category": "science",
+  "tags": ["biology", "phloem", "plant", "vessel", "botany"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M10 8h4M10 13h4M10 18h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

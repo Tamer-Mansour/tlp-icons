@@ -1,0 +1,11 @@
+{
+  "name": "pile-spheres",
+  "category": "shapes",
+  "tags": ["spheres", "balls", "pile", "stack", "pyramid"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"15\" r=\"3\"/><circle class=\"p2\" cx=\"17\" cy=\"15\" r=\"3\"/><circle class=\"p3\" cx=\"12\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bounceIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 800 }
+  ]
+}

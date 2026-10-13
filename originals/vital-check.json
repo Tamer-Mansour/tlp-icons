@@ -1,0 +1,10 @@
+{
+  "name": "vital-check",
+  "category": "notifications",
+  "tags": ["vital", "heartbeat", "check", "health", "pulse", "ok"],
+  "svg": "<path class=\"p1\" d=\"M2 12h4l2-5 4 10 2-5h4\"/><path class=\"p2\" d=\"M15 7.5l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

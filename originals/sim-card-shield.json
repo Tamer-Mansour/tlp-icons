@@ -1,0 +1,11 @@
+{
+  "name": "sim-card-shield",
+  "category": "security",
+  "tags": ["sim", "card", "shield", "mobile", "protection", "chip"],
+  "svg": "<path class=\"p1\" d=\"M6 2H14L19 7V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20V4A2 2 0 0 1 7 2Z\"/><path class=\"p3\" d=\"M9 5.5V8M12 5.5V8\"/><path class=\"d p2\" d=\"M12 12L15 13.2V16C15 17.7 14 18.9 12 19.7C10 18.9 9 17.7 9 16V13.2Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 1200 }
+  ]
+}

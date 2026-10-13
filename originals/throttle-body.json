@@ -1,0 +1,10 @@
+{
+  "name": "throttle-body",
+  "category": "vehicles",
+  "tags": ["throttle", "body", "valve", "intake", "air", "flap"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M5.5 12h13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

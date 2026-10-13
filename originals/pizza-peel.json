@@ -1,0 +1,11 @@
+{
+  "name": "pizza-peel",
+  "category": "food",
+  "tags": ["pizza", "peel", "paddle", "bread", "oven", "baker"],
+  "svg": "<path class=\"d p1\" d=\"M5 8.5C5 5.5 8 3.5 12 3.5s7 2 7 5-3 5-7 5-7-2-7-5z\"/><path class=\"p2\" d=\"M12 13.5L15.5 21\"/><circle class=\"f p3\" cx=\"9\" cy=\"8.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

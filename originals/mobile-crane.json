@@ -1,0 +1,11 @@
+{
+  "name": "mobile-crane",
+  "category": "vehicles",
+  "tags": ["crane", "mobile", "boom", "construction", "lift", "truck"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"12\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"5\" cy=\"19\" r=\"2\"/><circle class=\"p2\" cx=\"11\" cy=\"19\" r=\"2\"/><path class=\"p3\" d=\"M9 11L18 4M18 4v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 900, "origin": "9px 11px" }
+  ]
+}

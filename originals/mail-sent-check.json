@@ -1,0 +1,11 @@
+{
+  "name": "mail-sent-check",
+  "category": "communication",
+  "tags": ["mail", "sent", "check", "delivered", "success", "confirm", "envelope"],
+  "svg": "<path class=\"d p1\" d=\"M2 6h12v12H2z\"/><path class=\"p2\" d=\"M2 6l6 6 6-6\"/><path class=\"p3\" d=\"M16 13l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

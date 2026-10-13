@@ -1,0 +1,11 @@
+{
+  "name": "drydock",
+  "category": "buildings",
+  "tags": ["drydock", "ship", "shipyard", "basin", "hull", "repair"],
+  "svg": "<path class=\"p1\" d=\"M3 5v15h18V5\"/><path class=\"d p2\" d=\"M6 10h12l-2.5 5h-7z\"/><path class=\"p3\" d=\"M12 10V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000 }
+  ]
+}

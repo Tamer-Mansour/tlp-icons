@@ -1,0 +1,11 @@
+{
+  "name": "notice-speech",
+  "category": "communication",
+  "tags": ["notice", "announcement", "bubble", "board", "message", "speech"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><rect class=\"d p2\" x=\"7\" y=\"6\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M9 8.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

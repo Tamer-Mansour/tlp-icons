@@ -1,0 +1,11 @@
+{
+  "name": "variant-stack",
+  "category": "design",
+  "tags": ["variant", "stack", "layers", "versions", "components", "states"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"11\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"11\" height=\"11\" rx=\"1\"/><rect class=\"d p3\" x=\"11\" y=\"11\" width=\"10\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

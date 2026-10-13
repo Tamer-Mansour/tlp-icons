@@ -1,0 +1,10 @@
+{
+  "name": "cooling-tower",
+  "category": "buildings",
+  "tags": ["cooling tower", "power plant", "hyperbolic", "industry", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M6 21c1-8 2-11 2-17h8c0 6 1 9 2 17z\"/><path class=\"p2\" d=\"M7.5 12h9M7 16h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

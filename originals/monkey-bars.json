@@ -1,0 +1,10 @@
+{
+  "name": "monkey-bars",
+  "category": "sport",
+  "tags": ["monkey", "bars", "playground", "climb", "frame"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21\"/><path class=\"p2\" d=\"M5 6V20M12 6V20M19 6V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400, "origin": "top" }
+  ]
+}

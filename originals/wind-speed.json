@@ -1,0 +1,11 @@
+{
+  "name": "wind-speed",
+  "category": "weather",
+  "tags": ["wind", "speed", "gauge", "needle", "meter"],
+  "svg": "<path class=\"p1\" d=\"M4 16A8 8 0 0 1 20 16\"/><path class=\"p2\" d=\"M12 16L16 10\"/><path class=\"p3\" d=\"M4 20H12M15 20H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 16px" }
+  ]
+}

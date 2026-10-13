@@ -1,0 +1,11 @@
+{
+  "name": "phone-speaker-wave",
+  "category": "communication",
+  "tags": ["phone", "speaker", "sound", "audio", "volume", "call"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 10v4h2l3 3V7l-3 3H9z\"/><path class=\"p3\" d=\"M16 9.5a3 3 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

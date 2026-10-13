@@ -1,0 +1,11 @@
+{
+  "name": "formula",
+  "category": "text",
+  "tags": ["formula", "function", "math", "equation", "parentheses", "equals", "expression"],
+  "svg": "<path class=\"p1\" d=\"M4 19V10c0-2.5 1-4.5 3-4.5M2 11h4.5\"/><path class=\"p2\" d=\"M12 10l5 9M17 10l-5 9\"/><path class=\"p3\" d=\"M15 20.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

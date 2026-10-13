@@ -1,0 +1,11 @@
+{
+  "name": "kendama",
+  "category": "sport",
+  "tags": ["kendama", "toy", "cup", "spike", "ball", "skill"],
+  "svg": "<path class=\"d p1\" d=\"M8 10H16V12Q16 16 12 16Q8 16 8 12Z\"/><line class=\"p2\" x1=\"12\" y1=\"16\" x2=\"12\" y2=\"21\"/><line class=\"p3\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"10\"/><circle class=\"p3\" cx=\"12\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 10px" }
+  ]
+}

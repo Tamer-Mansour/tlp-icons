@@ -1,0 +1,10 @@
+{
+  "name": "arrow-block",
+  "category": "shapes",
+  "tags": ["arrow", "block", "bold", "direction", "forward"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"10\" height=\"6\"/><polygon class=\"d p2\" points=\"13,4 21,12 13,20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 600 }
+  ]
+}

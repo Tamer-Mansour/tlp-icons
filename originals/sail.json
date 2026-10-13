@@ -1,0 +1,11 @@
+{
+  "name": "sail",
+  "category": "vehicles",
+  "tags": ["sail", "boat", "sailing", "wind", "mast", "ocean", "yacht"],
+  "svg": "<path class=\"d p1\" d=\"M8 4.5L18 16H8z\"/><path class=\"p2\" d=\"M6 3v15\"/><path class=\"p3\" d=\"M5 18h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 800 }
+  ]
+}

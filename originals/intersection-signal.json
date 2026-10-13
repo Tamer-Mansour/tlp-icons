@@ -1,0 +1,11 @@
+{
+  "name": "intersection-signal",
+  "category": "arrows",
+  "tags": ["signal", "traffic", "intersection", "light", "crossroad"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2.5\" width=\"8\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M12 14.5 V21 M7 21 H17\"/><circle class=\"f p3\" cx=\"12\" cy=\"8.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pull-down-refresh",
+  "category": "interface",
+  "tags": ["pull", "refresh", "reload", "down", "update", "sync"],
+  "svg": "<path class=\"p1\" d=\"M12 3v9M8.5 8.5 12 12l3.5-3.5\"/><path class=\"p2\" d=\"M5 16.5a7.5 7.5 0 0 0 14 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "sink", "dur": 700, "delay": 800 }
+  ]
+}

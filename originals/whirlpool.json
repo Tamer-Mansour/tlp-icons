@@ -1,0 +1,10 @@
+{
+  "name": "whirlpool",
+  "category": "arrows",
+  "tags": ["whirlpool", "spiral", "swirl", "vortex", "water", "rotate"],
+  "svg": "<path class=\"p1\" d=\"M12 12 A2 2 0 0 1 14 14 A4 4 0 0 1 10 18 A6 6 0 0 1 4 12 A8 8 0 0 1 12 4 A10 10 0 0 1 22 14\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 500, "delay": 1300 }
+  ]
+}

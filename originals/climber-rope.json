@@ -1,0 +1,11 @@
+{
+  "name": "climber-rope",
+  "category": "people",
+  "tags": ["climber", "rope", "carabiner", "climbing", "mountain", "belay"],
+  "svg": "<path class=\"p2\" d=\"M12 2 V8\"/><path class=\"d p1\" d=\"M9 8 V15 A3 3 0 0 0 15 15 V8 A3 3 0 0 0 9 8 Z\"/><path class=\"p3\" d=\"M9 12 H15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 700, "origin": "12px 8px" },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1500 }
+  ]
+}

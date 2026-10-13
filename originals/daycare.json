@@ -1,0 +1,11 @@
+{
+  "name": "daycare",
+  "category": "buildings",
+  "tags": ["daycare", "kids", "nursery", "toy", "school", "children"],
+  "svg": "<path class=\"p1\" d=\"M3 21V9l6-4 6 4v12\"/><rect class=\"d p2\" x=\"5\" y=\"14\" width=\"4\" height=\"4\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "breathe", "dur": 900, "delay": 1200 }
+  ]
+}

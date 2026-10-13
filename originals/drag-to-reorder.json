@@ -1,0 +1,11 @@
+{
+  "name": "drag-to-reorder",
+  "category": "interface",
+  "tags": ["drag", "reorder", "sort", "rows", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M8 4.5H16V8H8ZM8 10.5H16V14H8ZM8 16.5H16V20H8Z\"/><path class=\"p2\" d=\"M4 11V4.5M2.5 6L4 4.5L5.5 6\"/><path class=\"p3\" d=\"M20 13V19.5M18.5 18L20 19.5L21.5 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

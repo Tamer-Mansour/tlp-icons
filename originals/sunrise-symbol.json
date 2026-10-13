@@ -1,0 +1,11 @@
+{
+  "name": "sunrise-symbol",
+  "category": "emoji",
+  "tags": ["sunrise", "sun", "morning", "horizon", "dawn", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M7 17a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M3 19h18\"/><path class=\"p3\" d=\"M12 4v2.5M5.5 8.5l1.8 1.5M18.5 8.5l-1.8 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "emerge", "dur": 600, "delay": 800 }
+  ]
+}

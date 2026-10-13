@@ -1,0 +1,11 @@
+{
+  "name": "chip-shield",
+  "category": "security",
+  "tags": ["chip", "shield", "hardware", "protect", "processor", "secure"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M9 2.5V5M15 2.5V5M9 19v2.5M15 19v2.5M2.5 9H5M2.5 15H5M19 9h2.5M19 15h2.5\"/><path class=\"d p3\" d=\"M12 8l3 1.1v2.4c0 1.8-1.2 3-3 3.6-1.8-.6-3-1.8-3-3.6V9.1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "toll-road",
+  "category": "buildings",
+  "tags": ["toll", "road", "barrier", "booth", "gate", "payment"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><rect class=\"d p2\" x=\"4\" y=\"11\" width=\"5\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M9 14h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

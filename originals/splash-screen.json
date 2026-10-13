@@ -1,0 +1,10 @@
+{
+  "name": "splash-screen",
+  "category": "development",
+  "tags": ["splash", "screen", "launch", "logo", "startup", "app"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2.5\"/><rect class=\"p2\" x=\"9\" y=\"8\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 500 }
+  ]
+}

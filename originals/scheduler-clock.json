@@ -1,0 +1,11 @@
+{
+  "name": "scheduler-clock",
+  "category": "development",
+  "tags": ["scheduler", "calendar", "schedule", "time", "planning", "date"],
+  "svg": "<rect class=\"p1 d\" x=\"3\" y=\"5\" width=\"16\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M3 10H19M8 3V7M14 3V7\"/><circle class=\"p3\" cx=\"18\" cy=\"18\" r=\"3.5\"/><polyline class=\"p3\" points=\"18,16 18,18 19.5,18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

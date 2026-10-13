@@ -1,0 +1,11 @@
+{
+  "name": "soup-tureen",
+  "category": "home",
+  "tags": ["soup", "tureen", "bowl", "lid", "serving"],
+  "svg": "<path class=\"d p1\" d=\"M4 13h16c0 4.5-3.5 7.5-8 7.5S4 17.5 4 13z\"/><path class=\"p2\" d=\"M5 10a7 6 0 0 1 14 0\"/><path class=\"p3\" d=\"M4 14H2.5V11H4M20 14h1.5V11H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

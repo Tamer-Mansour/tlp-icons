@@ -1,0 +1,12 @@
+{
+  "name": "tram-stop",
+  "category": "vehicles",
+  "tags": ["tram", "stop", "bench", "transit", "sign"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 11v11\"/><rect class=\"p3\" x=\"7.5\" y=\"6\" width=\"5\" height=\"3\" rx=\".5\"/><path class=\"p4\" d=\"M14 15.5h7M14 15.5v3M21 15.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

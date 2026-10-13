@@ -1,0 +1,10 @@
+{
+  "name": "egg-carton",
+  "category": "food",
+  "tags": ["egg carton", "eggs", "carton", "grocery", "dozen", "breakfast"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 Q5 11.5 7 9 Q9 11.5 11 9 Q13 11.5 15 9 Q17 11.5 19 9 L21 9 V19 H3 Z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"4.5\" rx=\"2\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 700 }
+  ]
+}

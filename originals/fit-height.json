@@ -1,0 +1,10 @@
+{
+  "name": "fit-height",
+  "category": "layout",
+  "tags": ["fit", "height", "stretch", "vertical", "scale", "resize"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M12 2V5M10 4L12 2L14 4M12 22V19M10 20L12 22L14 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 800 }
+  ]
+}

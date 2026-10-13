@@ -1,0 +1,11 @@
+{
+  "name": "people-search",
+  "category": "people",
+  "tags": ["people", "search", "find", "users", "directory", "magnifier"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2 21a6 6 0 0 1 12 0\"/><circle class=\"p2\" cx=\"17\" cy=\"6\" r=\"2.5\"/><circle class=\"p3\" cx=\"18\" cy=\"15\" r=\"3\"/><path class=\"p3\" d=\"M20.2 17.2L22 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "magnify", "dur": 800, "delay": 1000 }
+  ]
+}

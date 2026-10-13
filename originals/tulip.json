@@ -1,0 +1,11 @@
+{
+  "name": "tulip",
+  "category": "nature",
+  "tags": ["tulip", "flower", "bloom", "spring", "garden", "petal"],
+  "svg": "<path class=\"d p1\" d=\"M6 4 V10 Q6 15 12 15 Q18 15 18 10 V4 L15 7 L12 4 L9 7 Z\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"12\" y2=\"21\"/><path class=\"p3\" d=\"M12 19 Q9 15 6 16 Q8 19 12 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "12px 19px" }
+  ]
+}

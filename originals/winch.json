@@ -1,0 +1,12 @@
+{
+  "name": "winch",
+  "category": "vehicles",
+  "tags": ["winch", "drum", "cable", "crank", "pull"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"10\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M8 7v6M11.5 7v6\"/><path class=\"p4\" d=\"M10 13v7\"/><path class=\"p3\" d=\"M15 10h4l2-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "spin", "origin": "15px 10px", "dur": 800, "delay": 1000 }
+  ]
+}

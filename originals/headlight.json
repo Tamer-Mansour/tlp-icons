@@ -1,0 +1,10 @@
+{
+  "name": "headlight",
+  "category": "vehicles",
+  "tags": ["headlight", "lamp", "light", "beam", "car"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M16 8l4-2M16 12h5M16 16l4 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

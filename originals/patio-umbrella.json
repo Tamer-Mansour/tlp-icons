@@ -1,0 +1,11 @@
+{
+  "name": "patio-umbrella",
+  "category": "home",
+  "tags": ["umbrella", "patio", "parasol", "shade", "canopy", "outdoor"],
+  "svg": "<path class=\"d p1\" d=\"M3 11a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M12 11v9\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "unfold", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

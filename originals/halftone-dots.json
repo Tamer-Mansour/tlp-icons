@@ -1,0 +1,10 @@
+{
+  "name": "halftone-dots",
+  "category": "design",
+  "tags": ["halftone", "dots", "pattern", "gradient", "print"],
+  "svg": "<circle class=\"f p1\" cx=\"3.5\" cy=\"12\" r=\"0.8\"/><circle class=\"f p1\" cx=\"9\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"14\" cy=\"12\" r=\"1.8\"/><circle class=\"p2\" cx=\"19.5\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 500 }
+  ]
+}

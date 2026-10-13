@@ -1,0 +1,10 @@
+{
+  "name": "bar-line",
+  "category": "media",
+  "tags": ["bar line", "thick", "thin", "music", "notation"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"4\" x2=\"6\" y2=\"20\"/><rect class=\"d p2\" x=\"12\" y=\"4\" width=\"5\" height=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 }
+  ]
+}

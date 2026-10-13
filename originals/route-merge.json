@@ -1,0 +1,10 @@
+{
+  "name": "route-merge",
+  "category": "arrows",
+  "tags": ["merge", "route", "join", "combine", "path"],
+  "svg": "<path class=\"p1\" d=\"M3 5 H9 L13 12\"/><path class=\"p1\" d=\"M3 19 H9 L13 12\"/><path class=\"p2\" d=\"M13 12 H21\"/><polyline class=\"p2\" points=\"18 9 21 12 18 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "smoke-test",
+  "category": "development",
+  "tags": ["smoke", "test", "tube", "sanity", "quick", "check"],
+  "svg": "<path class=\"p1\" d=\"M9 9 V16.5 A3 3 0 0 0 15 16.5 V9\"/><line class=\"p1\" x1=\"7.5\" y1=\"9\" x2=\"16.5\" y2=\"9\"/><path class=\"p3\" d=\"M12 6 C9.5 4.5 14.5 3 12 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 900 }
+  ]
+}

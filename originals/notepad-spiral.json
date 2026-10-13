@@ -1,0 +1,10 @@
+{
+  "name": "notepad-spiral",
+  "category": "files",
+  "tags": ["notepad", "spiral", "pad", "notebook", "writing pad"],
+  "svg": "<path class=\"p1\" d=\"M4 5h16v16H4z\"/><path class=\"p1\" d=\"M8 2v3M12 2v3M16 2v3\"/><path class=\"p2\" d=\"M8 11h8M8 15h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

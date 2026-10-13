@@ -1,0 +1,10 @@
+{
+  "name": "daily-bars",
+  "category": "charts",
+  "tags": ["daily", "bars", "week", "activity", "history", "chart"],
+  "svg": "<path class=\"p1\" d=\"M5 14V19M10 9V19M15 12V19M20 6V19\"/><path class=\"p2\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 900, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

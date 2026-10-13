@@ -1,0 +1,11 @@
+{
+  "name": "dew",
+  "category": "weather",
+  "tags": ["dew", "leaf", "morning", "droplets", "moisture", "weather"],
+  "svg": "<path class=\"p1\" d=\"M5 19 C5 11 10 6 19 5 C19 14 14 19 5 19Z\"/><line class=\"p2\" x1=\"5\" y1=\"19\" x2=\"13\" y2=\"11\"/><circle class=\"f p3\" cx=\"4\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"8\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1300 }
+  ]
+}

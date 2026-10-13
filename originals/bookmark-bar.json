@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-bar",
+  "category": "layout",
+  "tags": ["bookmark", "bookmarks", "bar", "tabs", "browser", "favorites"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M4 12v8l2.5-2 2.5 2v-8M12 12v8l2.5-2 2.5 2v-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 600 }
+  ]
+}

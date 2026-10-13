@@ -1,0 +1,11 @@
+{
+  "name": "toy-drone",
+  "category": "devices",
+  "tags": ["drone", "quadcopter", "toy", "rotors", "flying", "gadget"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"10\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M9 11 L5 7 M15 11 L19 7 M9 13 L5 17 M15 13 L19 17\"/><path class=\"p3\" d=\"M3 7 H7 M17 7 H21 M3 17 H7 M17 17 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "buzz", "dur": 900, "delay": 1100 }
+  ]
+}

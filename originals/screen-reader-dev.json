@@ -1,0 +1,10 @@
+{
+  "name": "screen-reader-dev",
+  "category": "development",
+  "tags": ["screen", "reader", "accessibility", "audio", "voice", "monitor"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"11\" height=\"11\" rx=\"1.5\"/><path class=\"p1\" d=\"M8.5 15v3M6 20h5\"/><path class=\"p2\" d=\"M17.5 8.5a4.5 4.5 0 0 1 0 7M20.5 6a8 8 0 0 1 0 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "idea-bulb",
+  "category": "science",
+  "tags": ["idea", "bulb", "light", "flask", "insight", "science"],
+  "svg": "<path class=\"d p1\" d=\"M9 18V19.5H15V18Q18 15.5 18 11A6 6 0 0 0 6 11Q6 15.5 9 18Z\"/><path class=\"p2\" d=\"M10 8.5H14M10.5 8.5V11.5L9.5 13.5H14.5L13.5 11.5V8.5\"/><path class=\"p3\" d=\"M12 2V3M4.5 5L5.5 6M19.5 5L18.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1100 }
+  ]
+}

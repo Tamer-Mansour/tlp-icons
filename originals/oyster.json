@@ -1,0 +1,11 @@
+{
+  "name": "oyster",
+  "category": "food",
+  "tags": ["oyster", "seafood", "shell", "pearl", "ocean", "shellfish"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H21 C21 18 17 20.5 12 20.5 C7 20.5 3 18 3 13 Z\"/><path class=\"p2\" d=\"M5 13 C6 8 9 6 12 6 C15 6 18 8 19 13\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

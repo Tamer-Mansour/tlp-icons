@@ -1,0 +1,10 @@
+{
+  "name": "pop-out",
+  "category": "arrows",
+  "tags": ["pop", "out", "detach", "popup", "external", "window"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"13\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M13 11 20 4M14 4h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 700 }
+  ]
+}

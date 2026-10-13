@@ -1,0 +1,10 @@
+{
+  "name": "tow-hook",
+  "category": "vehicles",
+  "tags": ["tow hook", "hitch", "rope", "towing", "metal", "hook"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"3.5\" r=\"1.5\"/><path class=\"p2\" d=\"M12 7v7a4 4 0 0 1-4 4H5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 500, "origin": "12px 7px" }
+  ]
+}

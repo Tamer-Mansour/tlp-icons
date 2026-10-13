@@ -1,0 +1,11 @@
+{
+  "name": "motor-controller",
+  "category": "vehicles",
+  "tags": ["motor", "controller", "electric", "dial", "power"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"11\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"2.5\"/><path class=\"p3\" d=\"M8 16v5M16 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900, "origin": "12px 10.5px" }
+  ]
+}

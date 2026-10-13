@@ -1,0 +1,12 @@
+{
+  "name": "fm-radio",
+  "category": "media",
+  "tags": ["fm", "radio", "antenna", "tuner", "broadcast"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"13\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"13.5\" r=\"3\"/><path class=\"p3\" d=\"M13 11h6M13 15h6\"/><path class=\"p4\" d=\"M17 7V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 1100, "origin": "17px 7px" }
+  ]
+}

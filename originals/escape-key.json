@@ -1,0 +1,10 @@
+{
+  "name": "escape-key",
+  "category": "interface",
+  "tags": ["escape", "esc", "key", "keyboard", "keycap", "cancel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M15 12H9\"/><polyline class=\"p2\" points=\"12 9 9 12 12 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 450 }
+  ]
+}

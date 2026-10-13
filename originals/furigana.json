@@ -1,0 +1,10 @@
+{
+  "name": "furigana",
+  "category": "text",
+  "tags": ["furigana", "reading", "phonetic", "glyph", "annotation", "text"],
+  "svg": "<path class=\"p1\" d=\"M5 21h14M5 12h14M12 12v9M8 16h8\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

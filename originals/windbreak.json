@@ -1,0 +1,10 @@
+{
+  "name": "windbreak",
+  "category": "buildings",
+  "tags": ["windbreak", "trees", "wind", "shelter", "hedge", "farm"],
+  "svg": "<circle class=\"d p1\" cx=\"15\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M2 8 H7 M2 13 H7 M2 18 H7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 800, "origin": "left" }
+  ]
+}

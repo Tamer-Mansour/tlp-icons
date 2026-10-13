@@ -1,0 +1,10 @@
+{
+  "name": "crew-list",
+  "category": "people",
+  "tags": ["crew", "list", "team", "roster", "people"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"6\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"6\" cy=\"18\" r=\"2\"/><line class=\"p2\" x1=\"11\" y1=\"6\" x2=\"20\" y2=\"6\"/><line class=\"p2\" x1=\"11\" y1=\"12\" x2=\"20\" y2=\"12\"/><line class=\"p2\" x1=\"11\" y1=\"18\" x2=\"20\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "highlighter-tool",
+  "category": "interface",
+  "tags": ["highlighter", "highlight", "marker", "underline", "mark", "text"],
+  "svg": "<polygon class=\"d p1\" points=\"15,4 20,9 12,17 7,12\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"4\" y2=\"15\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

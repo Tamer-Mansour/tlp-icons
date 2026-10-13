@@ -1,0 +1,10 @@
+{
+  "name": "wall-jack",
+  "category": "connectivity",
+  "tags": ["wall", "jack", "socket", "plate", "ethernet", "outlet"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"8.5\" width=\"7\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 700 }
+  ]
+}

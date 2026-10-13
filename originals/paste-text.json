@@ -1,0 +1,11 @@
+{
+  "name": "paste-text",
+  "category": "text",
+  "tags": ["paste", "clipboard", "board", "clip", "text"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 12h8M8 15.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

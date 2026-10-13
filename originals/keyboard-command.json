@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-command",
+  "category": "interface",
+  "tags": ["keyboard", "command", "key", "shortcut", "modifier", "keys"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5.5\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9.5 9.5v5M14.5 9.5v5M9.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

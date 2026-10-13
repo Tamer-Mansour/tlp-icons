@@ -1,0 +1,11 @@
+{
+  "name": "tracker-tag",
+  "category": "devices",
+  "tags": ["tracker", "tag", "locator", "keyring", "signal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M5.1 6.2 A9 9 0 0 0 5.1 17.8 M18.9 6.2 A9 9 0 0 1 18.9 17.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

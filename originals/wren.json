@@ -1,0 +1,11 @@
+{
+  "name": "wren",
+  "category": "nature",
+  "tags": ["wren", "bird", "songbird", "perched", "tail"],
+  "svg": "<path class=\"d p1\" d=\"M6 14Q6 9 11 9Q16 9 17 13Q18 17 14 18H8Q6 18 6 14Z\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"2\"/><path class=\"p2\" d=\"M18 7.5L21 7\"/><path class=\"p3\" d=\"M7 13L3 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

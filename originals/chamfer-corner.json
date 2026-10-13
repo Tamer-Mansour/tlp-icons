@@ -1,0 +1,10 @@
+{
+  "name": "chamfer-corner",
+  "category": "shapes",
+  "tags": ["chamfer", "corner", "square", "cut", "bevel"],
+  "svg": "<path class=\"p1\" d=\"M7 3H21V21H3V7Z\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 900 }
+  ]
+}

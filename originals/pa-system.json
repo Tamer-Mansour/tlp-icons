@@ -1,0 +1,11 @@
+{
+  "name": "pa-system",
+  "category": "communication",
+  "tags": ["pa", "speaker", "announcement", "horn", "broadcast", "loudspeaker"],
+  "svg": "<polygon class=\"d p1\" points=\"5,9.5 8,9.5 13.5,5.5 13.5,18.5 8,14.5 5,14.5\"/><path class=\"p2\" d=\"M9.5 16.5v3M7 19.5h5\"/><path class=\"p3\" d=\"M17 9.5a3 3 0 0 1 0 5\"/><path class=\"p3\" d=\"M19.5 7a6 6 0 0 1 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

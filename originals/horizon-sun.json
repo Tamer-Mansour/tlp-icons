@@ -1,0 +1,11 @@
+{
+  "name": "horizon-sun",
+  "category": "weather",
+  "tags": ["sun", "horizon", "sunrise", "dawn", "sunset", "day"],
+  "svg": "<path class=\"d p1\" d=\"M7 15a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M3 18.5h18\"/><path class=\"p3\" d=\"M12 4.5v2M5.5 8l1.5 1.5M18.5 8l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 1000, "delay": 1200 }
+  ]
+}

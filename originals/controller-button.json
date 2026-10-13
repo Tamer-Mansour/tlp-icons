@@ -1,0 +1,10 @@
+{
+  "name": "controller-button",
+  "category": "sport",
+  "tags": ["controller", "button", "gamepad", "press", "console", "game"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 700 }
+  ]
+}

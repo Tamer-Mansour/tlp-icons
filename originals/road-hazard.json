@@ -1,0 +1,11 @@
+{
+  "name": "road-hazard",
+  "category": "vehicles",
+  "tags": ["hazard", "warning", "pothole", "road", "danger", "caution"],
+  "svg": "<path class=\"p1\" d=\"M12 3.5v7\"/><circle class=\"f p1\" cx=\"12\" cy=\"13.5\" r=\"1\"/><circle class=\"d p2\" cx=\"12\" cy=\"17.5\" r=\"1.5\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

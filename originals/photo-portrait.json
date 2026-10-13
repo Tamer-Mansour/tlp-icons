@@ -1,0 +1,11 @@
+{
+  "name": "photo-portrait",
+  "category": "photography",
+  "tags": ["photo", "portrait", "headshot", "person", "vertical"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p3\" d=\"M8 19c0-3 2-5 4-5s4 2 4 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

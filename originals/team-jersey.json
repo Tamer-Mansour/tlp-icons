@@ -1,0 +1,11 @@
+{
+  "name": "team-jersey",
+  "category": "people",
+  "tags": ["team", "jersey", "sports", "shirt", "number", "squad"],
+  "svg": "<path class=\"p1\" d=\"M8 3l-5 3 2 4 2-1v12h10V9l2 1 2-4-5-3\"/><path class=\"p2\" d=\"M8 3l4 4 4-4\"/><circle class=\"d p3\" cx=\"12\" cy=\"14\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

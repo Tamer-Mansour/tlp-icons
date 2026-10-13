@@ -1,0 +1,12 @@
+{
+  "name": "wall-sconce",
+  "category": "home",
+  "tags": ["wall sconce", "wall light", "lamp", "bracket", "lighting"],
+  "svg": "<path class=\"p1\" d=\"M3 4v16\"/><path class=\"p2\" d=\"M3 9h5\"/><path class=\"d p3\" d=\"M7 6h8l-2 6H9z\"/><path class=\"p4\" d=\"M9 15v4M13 15v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "blink", "dur": 900, "delay": 1200 }
+  ]
+}

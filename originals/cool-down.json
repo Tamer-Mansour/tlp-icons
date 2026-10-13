@@ -1,0 +1,11 @@
+{
+  "name": "cool-down",
+  "category": "sport",
+  "tags": ["cool", "down", "thermometer", "snowflake", "recovery"],
+  "svg": "<path class=\"d p1\" d=\"M10 4A2 2 0 0 1 14 4V13.1A3.5 3.5 0 1 1 10 13.1Z\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><path class=\"p3\" d=\"M18 14.5V21.5M15.2 16.1L20.8 19.9M20.8 16.1L15.2 19.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

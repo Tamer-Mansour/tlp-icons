@@ -1,0 +1,12 @@
+{
+  "name": "backup-alert",
+  "category": "notifications",
+  "tags": ["backup", "database", "alert", "failed", "storage"],
+  "svg": "<ellipse class=\"p1\" cx=\"9\" cy=\"5\" rx=\"6\" ry=\"3\"/><path class=\"p1\" d=\"M3 5v14c0 1.7 2.7 3 6 3M15 5v4\"/><path class=\"p2\" d=\"M3 12c0 1.7 2.7 3 6 3\"/><path class=\"p3\" d=\"M19 13v4\"/><circle class=\"f p4\" cx=\"19\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

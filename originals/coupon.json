@@ -1,0 +1,10 @@
+{
+  "name": "coupon",
+  "category": "interface",
+  "tags": ["coupon", "ticket", "voucher", "discount", "promo", "offer"],
+  "svg": "<path class=\"p1\" d=\"M4 6h16v3.5a2.5 2.5 0 0 0 0 5V18H4v-3.5a2.5 2.5 0 0 0 0-5z\"/><line class=\"p2\" x1=\"12\" y1=\"7.5\" x2=\"12\" y2=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"12.5\"/><line class=\"p2\" x1=\"12\" y1=\"14.5\" x2=\"12\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

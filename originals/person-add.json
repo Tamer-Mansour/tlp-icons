@@ -1,0 +1,10 @@
+{
+  "name": "person-add",
+  "category": "people",
+  "tags": ["person", "add", "invite", "new", "user", "plus"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2 21a6 6 0 0 1 12 0\"/><path class=\"p2\" d=\"M19 8v6M16 11h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "rule-of-thirds",
+  "category": "photography",
+  "tags": ["thirds", "composition", "grid", "frame", "photo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M9 3V21M15 3V21\"/><path class=\"p3\" d=\"M3 9H21M3 15H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "romanization",
+  "category": "text",
+  "tags": ["romanization", "latin", "transliteration", "alphabet", "letters"],
+  "svg": "<path class=\"p1\" d=\"M3 19l4-12 4 12M4.5 14.5h5\"/><path class=\"p2\" d=\"M14 12h.01M17 12h.01M20 12h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 600 }
+  ]
+}

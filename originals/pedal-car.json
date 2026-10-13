@@ -1,0 +1,11 @@
+{
+  "name": "pedal-car",
+  "category": "vehicles",
+  "tags": ["pedal", "toy", "kids", "car", "wheels", "ride"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 L7 8 H15 L18 12 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"16.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"17\" cy=\"16.5\" r=\"2.5\"/><path class=\"p3\" d=\"M17 16.5 L20 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 600, "delay": 1200 }
+  ]
+}

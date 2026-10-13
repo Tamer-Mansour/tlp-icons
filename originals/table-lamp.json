@@ -1,0 +1,11 @@
+{
+  "name": "table-lamp",
+  "category": "home",
+  "tags": ["lamp", "table lamp", "light", "shade", "desk", "lighting"],
+  "svg": "<path class=\"p1\" d=\"M8 21H16\"/><path class=\"p2\" d=\"M12 21V10\"/><path class=\"d p3\" d=\"M8.5 10H15.5L14 4.5H10Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400, "origin": "bottom" },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "drafts-folder",
+  "category": "communication",
+  "tags": ["drafts", "envelope", "pencil", "unsent", "write", "mail"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2 10l7 5 7-5\"/><path class=\"p3\" d=\"M18.5 10.5l2.5-2.5 1.5 1.5-2.5 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 500, "delay": 900 }
+  ]
+}

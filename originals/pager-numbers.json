@@ -1,0 +1,10 @@
+{
+  "name": "pager-numbers",
+  "category": "layout",
+  "tags": ["pager", "numbers", "page", "pagination", "current", "index"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"5\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"16\" y=\"8\" width=\"5\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

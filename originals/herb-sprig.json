@@ -1,0 +1,10 @@
+{
+  "name": "herb-sprig",
+  "category": "food",
+  "tags": ["herb", "leaves", "stem", "garnish", "plant"],
+  "svg": "<path class=\"p1\" d=\"M12 21V8\"/><path class=\"d p2\" d=\"M12 16c-3 0-5-2-5-4 3 0 5 2 5 4zM12 12c3 0 5-2 5-4-3 0-5 2-5 4zM12 8c-2 0-3-2-3-4 2 0 3 2 3 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 600 }
+  ]
+}

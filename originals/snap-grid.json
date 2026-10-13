@@ -1,0 +1,11 @@
+{
+  "name": "snap-grid",
+  "category": "shapes",
+  "tags": ["snap", "grid", "magnet", "align", "intersection", "guides"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21M3 18H21M6 3V21M18 3V21\"/><circle class=\"f p2\" cx=\"6\" cy=\"6\" r=\"1.2\"/><circle class=\"p3\" cx=\"6\" cy=\"6\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

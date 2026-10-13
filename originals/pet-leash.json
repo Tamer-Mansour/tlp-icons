@@ -1,0 +1,11 @@
+{
+  "name": "pet-leash",
+  "category": "nature",
+  "tags": ["leash", "pet", "dog", "walk", "collar", "clip"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"4\"/><path class=\"p2\" d=\"M9.5 10Q10 16 14 18\"/><circle class=\"p3\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

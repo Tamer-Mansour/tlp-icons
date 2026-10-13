@@ -1,0 +1,11 @@
+{
+  "name": "ink-pen",
+  "category": "interface",
+  "tags": ["pen", "ink", "write", "nib", "draw", "signature"],
+  "svg": "<path class=\"d p1\" d=\"M16 4.5l3.5 3.5L9 18.5 5.5 15z\"/><path class=\"p2\" d=\"M5.5 15L3 21l6-2.5\"/><line class=\"p3\" x1=\"10\" y1=\"21.5\" x2=\"20\" y2=\"21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "phone-lock-keyhole",
+  "category": "communication",
+  "tags": ["phone", "lock", "keyhole", "secure", "privacy", "mobile"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"1.5\"/><path class=\"p2\" d=\"M12 11.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bird-migration",
+  "category": "science",
+  "tags": ["bird", "migration", "flight", "path", "travel"],
+  "svg": "<path class=\"d p1\" d=\"M4 13Q8 9 13 11L17 8V12Q20 13 20 14Q16 14 14 16Q9 16 4 13Z\"/><path class=\"p2\" d=\"M3 20L5 19M8 19L10 18.5M13 18.5L15 19M18 19.5L20 19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "launch", "dur": 1200, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "scorpion",
+  "category": "nature",
+  "tags": ["desert", "sting", "claws", "tail", "arachnid"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"17\" rx=\"6\" ry=\"2.5\"/><path class=\"p2\" d=\"M16 16C20 16 21 12 19 9C17.5 6.5 14.5 6.5 13 8.5L11 7\"/><path class=\"p3\" d=\"M4 16L2.5 13.5L4.5 12.5M4 18L2.5 20.5L4.5 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

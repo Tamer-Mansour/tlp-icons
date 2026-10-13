@@ -1,0 +1,11 @@
+{
+  "name": "hang-glider",
+  "category": "sport",
+  "tags": ["hang", "glider", "gliding", "wing", "flight", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 L21 16 H3 Z\"/><path class=\"p2\" d=\"M7 16 L10.5 19.5 M17 16 L13.5 19.5\"/><circle class=\"p3\" cx=\"12\" cy=\"20.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 900 }
+  ]
+}

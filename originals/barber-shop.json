@@ -1,0 +1,11 @@
+{
+  "name": "barber-shop",
+  "category": "buildings",
+  "tags": ["barber", "barber shop", "haircut", "pole", "chair", "grooming"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M3 9l5 3M3 15l5 3\"/><path class=\"p3\" d=\"M12 21v-8h8v8M12 16h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1100 }
+  ]
+}

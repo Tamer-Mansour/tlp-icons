@@ -1,0 +1,10 @@
+{
+  "name": "tropical-storm",
+  "category": "weather",
+  "tags": ["tropical storm", "spiral", "cyclone", "ocean storm", "wind", "weather"],
+  "svg": "<path class=\"p1\" d=\"M12 4 A8 8 0 0 1 20 12 M12 20 A8 8 0 0 1 4 12\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

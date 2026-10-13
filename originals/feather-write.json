@@ -1,0 +1,11 @@
+{
+  "name": "feather-write",
+  "category": "text",
+  "tags": ["quill", "writing", "feather", "pen", "author"],
+  "svg": "<path class=\"p1\" d=\"M4 20c0-7 4-12 12-16-1 8-4 13-12 16\"/><path class=\"p2\" d=\"M4 20l6-6\"/><path class=\"p3\" d=\"M14 14h7M14 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1200 }
+  ]
+}

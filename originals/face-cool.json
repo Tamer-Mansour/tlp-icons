@@ -1,0 +1,11 @@
+{
+  "name": "face-cool",
+  "category": "emoji",
+  "tags": ["face", "cool", "sunglasses", "smile", "emoji"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><rect class=\"p2\" x=\"5\" y=\"9\" width=\"6\" height=\"4\" rx=\"1.5\"/><rect class=\"p2\" x=\"13\" y=\"9\" width=\"6\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M11 10.5h2\"/><path class=\"p3\" d=\"M8.5 15.5a4 4 0 0 0 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "armadillo",
+  "category": "nature",
+  "tags": ["animal", "shell", "armor", "texas", "burrow"],
+  "svg": "<path class=\"d p1\" d=\"M4 9c0-2 3-3 8-3s8 1 8 3v4c0 4-3 7-8 7s-8-3-8-7z\"/><path class=\"p2\" d=\"M4.5 12.5h15M6 16.5h12\"/><polyline class=\"p3\" points=\"4 10 2 11.5 4 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 800 }
+  ]
+}

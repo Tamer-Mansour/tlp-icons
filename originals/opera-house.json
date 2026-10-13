@@ -1,0 +1,11 @@
+{
+  "name": "opera-house",
+  "category": "buildings",
+  "tags": ["opera", "house", "theatre", "arts", "roof", "building"],
+  "svg": "<path class=\"p1\" d=\"M3 21V12h18v9\"/><path class=\"d p2\" d=\"M3 12c0-6 4-9 9-9s9 3 9 9\"/><path class=\"p3\" d=\"M10 21v-4a2 2 0 0 1 4 0v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "capsule-vertical",
+  "category": "shapes",
+  "tags": ["capsule", "pill", "vertical", "tablet", "medicine", "shape"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"5\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

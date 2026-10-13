@@ -1,0 +1,11 @@
+{
+  "name": "iot-device",
+  "category": "connectivity",
+  "tags": ["iot", "device", "smart sensor", "wireless", "chip", "connected"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"9\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M10.5 10V6.5\"/><circle class=\"f p2\" cx=\"10.5\" cy=\"4.8\" r=\"1.2\"/><path class=\"p3\" d=\"M17.5 9A5 5 0 0 1 17.5 15M19.5 7A8 8 0 0 1 19.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 900 }
+  ]
+}

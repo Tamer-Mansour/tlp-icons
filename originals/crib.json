@@ -1,0 +1,11 @@
+{
+  "name": "crib",
+  "category": "home",
+  "tags": ["crib", "baby", "cot", "nursery", "bed", "infant"],
+  "svg": "<path class=\"p1\" d=\"M3 8v13M21 8v13M3 8h18\"/><path class=\"p2\" d=\"M6 8v9M9 8v9M12 8v9M15 8v9M18 8v9\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

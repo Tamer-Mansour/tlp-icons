@@ -1,0 +1,11 @@
+{
+  "name": "nutcracker",
+  "category": "home",
+  "tags": ["nutcracker", "nut", "lever", "kitchen", "cracking"],
+  "svg": "<path class=\"p1\" d=\"M4 3L12 14M20 3L12 14\"/><circle class=\"d p2\" cx=\"12\" cy=\"7\" r=\"3\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "squeeze", "dur": 800, "delay": 900 }
+  ]
+}

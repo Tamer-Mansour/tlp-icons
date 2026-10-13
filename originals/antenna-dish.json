@@ -1,0 +1,11 @@
+{
+  "name": "antenna-dish",
+  "category": "connectivity",
+  "tags": ["antenna", "dish", "satellite", "signal", "receive", "broadcast", "wireless"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h16c0 5-3.5 8-8 8s-8-3-8-8z\"/><path class=\"p2\" d=\"M12 17v4M9 21h6\"/><path class=\"p3\" d=\"M8.5 4a5 5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

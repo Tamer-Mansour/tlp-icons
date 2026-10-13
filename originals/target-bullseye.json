@@ -1,0 +1,10 @@
+{
+  "name": "target-bullseye",
+  "category": "charts",
+  "tags": ["target", "bullseye", "goal", "aim", "rings", "focus"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

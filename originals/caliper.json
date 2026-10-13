@@ -1,0 +1,10 @@
+{
+  "name": "caliper",
+  "category": "devices",
+  "tags": ["caliper", "ruler", "measure", "scale", "jaws", "gauge"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"20\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M8 3v7M16 3v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "group-objects",
+  "category": "interface",
+  "tags": ["group", "objects", "select", "container", "overlap", "layout"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><rect class=\"d p2\" x=\"6\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"14\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

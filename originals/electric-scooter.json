@@ -1,0 +1,11 @@
+{
+  "name": "electric-scooter",
+  "category": "devices",
+  "tags": ["scooter", "electric", "wheels", "vehicle", "commute", "ride"],
+  "svg": "<path class=\"p1\" d=\"M3 13H14\"/><circle class=\"p2\" cx=\"6\" cy=\"18\" r=\"3\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"3\"/><path class=\"p3\" d=\"M14 13L16 5H20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "roll", "dur": 1200, "delay": 900 }
+  ]
+}

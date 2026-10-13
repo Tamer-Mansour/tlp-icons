@@ -1,0 +1,10 @@
+{
+  "name": "appendix-page",
+  "category": "text",
+  "tags": ["appendix", "page", "tab", "index", "document"],
+  "svg": "<path class=\"p1\" d=\"M5 3H14L19 8V21H5Z M14 3V8H19\"/><rect class=\"p2\" x=\"19\" y=\"11\" width=\"3\" height=\"7\"/><path class=\"p2\" d=\"M19.8 16.5L20.5 13.5L21.2 16.5M20.1 15.3H20.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "plane-ticket",
+  "category": "vehicles",
+  "tags": ["plane", "ticket", "flight", "boarding", "airline", "travel"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 7H21.5V10.5A1.5 1.5 0 0 0 21.5 13.5V17H2.5V13.5A1.5 1.5 0 0 0 2.5 10.5Z\"/><path class=\"p2\" d=\"M6.5 12.5H16.5L18 10.5M10.5 12.5L9 15.5M10.5 12.5L9 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 900, "delay": 700 }
+  ]
+}

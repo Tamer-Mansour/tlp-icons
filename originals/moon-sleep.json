@@ -1,0 +1,10 @@
+{
+  "name": "moon-sleep",
+  "category": "interface",
+  "tags": ["moon", "sleep", "night", "dark", "rest", "crescent"],
+  "svg": "<path class=\"p1\" d=\"M14.5 3.5a8.5 8.5 0 1 0 6.5 13 7 7 0 0 1-6.5-13z\"/><polyline class=\"p2\" points=\"17 4 20 4 17 7.5 20 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 800 }
+  ]
+}

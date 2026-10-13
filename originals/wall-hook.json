@@ -1,0 +1,10 @@
+{
+  "name": "wall-hook",
+  "category": "home",
+  "tags": ["hook", "wall", "plate", "hang", "coat", "mount"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"3\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M5 7h6a4 4 0 0 1 0 8h-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 900, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "schedule-message",
+  "category": "communication",
+  "tags": ["schedule", "message", "clock", "later", "timed", "chat"],
+  "svg": "<path class=\"p1\" d=\"M2 4h13v10H8l-3 3v-3H2z\"/><circle class=\"p2\" cx=\"18.5\" cy=\"17.5\" r=\"2.5\"/><path class=\"p2\" d=\"M18.5 16v1.5l1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

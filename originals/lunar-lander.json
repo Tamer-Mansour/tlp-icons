@@ -1,0 +1,11 @@
+{
+  "name": "lunar-lander",
+  "category": "vehicles",
+  "tags": ["lunar", "lander", "moon", "space", "landing"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M7 13 4 19.5h4M17 13l3 6.5h-4\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "electroplating-bath",
+  "category": "science",
+  "tags": ["electroplating", "bath", "plating", "coating", "chemistry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"12\" width=\"4\" height=\"6\"/><path class=\"p3\" d=\"M6 6H18M12 6V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 1100 }
+  ]
+}

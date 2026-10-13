@@ -1,0 +1,11 @@
+{
+  "name": "quote-marks-smart",
+  "category": "design",
+  "tags": ["quote", "quotes", "smart", "typography", "curly", "text", "marks"],
+  "svg": "<circle class=\"d p1\" cx=\"6.5\" cy=\"13\" r=\"2.5\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"13\" r=\"2.5\"/><path class=\"p3\" d=\"M9 13c0-3 1-5 3-6M19 13c0-3 1-5 3-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lantern",
+  "category": "emoji",
+  "tags": ["lantern", "lamp", "light", "hanging", "lamplight", "camping"],
+  "svg": "<path class=\"p1\" d=\"M12 2 V4 M8 6 H16\"/><path class=\"d p2\" d=\"M8 6 L6 11 V15 L8 19 H16 L18 15 V11 L16 6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

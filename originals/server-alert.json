@@ -1,0 +1,10 @@
+{
+  "name": "server-alert",
+  "category": "notifications",
+  "tags": ["server", "alert", "rack", "error", "warning"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"9\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"16\" width=\"11\" height=\"6\" rx=\"1\"/><line class=\"p2\" x1=\"18\" y1=\"4\" x2=\"18\" y2=\"11\"/><circle class=\"f p2\" cx=\"18\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

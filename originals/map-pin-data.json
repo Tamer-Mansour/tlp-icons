@@ -1,0 +1,10 @@
+{
+  "name": "map-pin-data",
+  "category": "charts",
+  "tags": ["map", "pin", "location", "data", "dots", "places"],
+  "svg": "<path class=\"d p1\" d=\"M12 2a5 5 0 0 0-5 5c0 4 5 9 5 9s5-5 5-9a5 5 0 0 0-5-5z\"/><circle class=\"f p2\" cx=\"7\" cy=\"20\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"20\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

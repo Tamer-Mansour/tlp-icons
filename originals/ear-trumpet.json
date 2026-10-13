@@ -1,0 +1,11 @@
+{
+  "name": "ear-trumpet",
+  "category": "communication",
+  "tags": ["ear trumpet", "hearing", "horn", "listen", "vintage"],
+  "svg": "<path class=\"d p1\" d=\"M2 6l9 3v6l-9 3z\"/><path class=\"p2\" d=\"M11 12h4a3 3 0 0 1 3 3v1\"/><circle class=\"p3\" cx=\"18\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

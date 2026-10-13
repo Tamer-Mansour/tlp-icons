@@ -1,0 +1,10 @@
+{
+  "name": "status-dot-online",
+  "category": "interface",
+  "tags": ["status", "online", "presence", "indicator", "active"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

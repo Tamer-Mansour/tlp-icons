@@ -1,0 +1,11 @@
+{
+  "name": "odd-number",
+  "category": "math",
+  "tags": ["odd", "number", "pairs", "leftover", "single", "math"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><circle class=\"f p2\" cx=\"8\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"8\" cy=\"16\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"16\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "account-badge",
+  "category": "people",
+  "tags": ["account", "badge", "card", "profile", "id", "member", "tag"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\"/><circle class=\"d p2\" cx=\"8.5\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M14 10h4M14 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

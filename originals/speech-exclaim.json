@@ -1,0 +1,10 @@
+{
+  "name": "speech-exclaim",
+  "category": "communication",
+  "tags": ["speech bubble", "exclamation", "alert", "message", "shout", "comment"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18v13h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M12 7.5v3.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

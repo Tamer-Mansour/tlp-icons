@@ -1,0 +1,11 @@
+{
+  "name": "person-raised-hand",
+  "category": "people",
+  "tags": ["person", "raised hand", "question", "volunteer", "hand up"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"4.5\" r=\"2.5\"/><path class=\"p1\" d=\"M8 8.5v7M8 15.5l-2.5 6.5M8 15.5l2.5 6.5\"/><path class=\"p2\" d=\"M8 10l-3 4\"/><path class=\"p3\" d=\"M8 10l4-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wave", "dur": 700, "delay": 1100, "origin": "8px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hygrometer-gauge",
+  "category": "science",
+  "tags": ["hygrometer", "humidity", "gauge", "dial", "moisture", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 7c2 3 3 4.5 3 6a3 3 0 0 1-6 0c0-1.5 1-3 3-6z\"/><path class=\"p3\" d=\"M12 3v2M4.9 6.5l1 1M19.1 6.5l-1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

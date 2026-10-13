@@ -1,0 +1,10 @@
+{
+  "name": "sugar-tongs",
+  "category": "food",
+  "tags": ["sugar", "tongs", "cube", "kitchen", "sweet"],
+  "svg": "<polyline class=\"p1\" points=\"7 3 12 13 17 3\"/><rect class=\"d p2\" x=\"8\" y=\"15\" width=\"8\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

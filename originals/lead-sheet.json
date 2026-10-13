@@ -1,0 +1,11 @@
+{
+  "name": "lead-sheet",
+  "category": "media",
+  "tags": ["lead", "sheet", "chords", "lyrics", "staff", "score"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><path class=\"p2\" d=\"M4 6h4M11 6h3M17 6h3\"/><path class=\"p3\" d=\"M4 18h6M13 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "typeIn", "dur": 800, "delay": 1200 }
+  ]
+}

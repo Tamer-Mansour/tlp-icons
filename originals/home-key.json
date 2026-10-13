@@ -1,0 +1,10 @@
+{
+  "name": "home-key",
+  "category": "arrows",
+  "tags": ["home", "key", "keyboard", "cap", "top left", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M10 14 6 10M6 13.5V10h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 400, "delay": 900 }
+  ]
+}

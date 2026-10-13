@@ -1,0 +1,10 @@
+{
+  "name": "brick-pattern",
+  "category": "shapes",
+  "tags": ["brick", "wall", "bricks", "masonry", "pattern", "rows"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18v16H3zM3 9h18M3 14.5h18\"/><path class=\"p2\" d=\"M15 4v5M9 9v5.5M15 14.5v5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

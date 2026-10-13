@@ -1,0 +1,11 @@
+{
+  "name": "sun-path",
+  "category": "weather",
+  "tags": ["sun", "path", "arc", "sky", "daylight"],
+  "svg": "<path class=\"p1\" d=\"M3 18 A9 9 0 0 1 21 18\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"10.2\" r=\"2.5\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"10.2\" r=\"1\"/><circle class=\"f p3\" cx=\"4.2\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

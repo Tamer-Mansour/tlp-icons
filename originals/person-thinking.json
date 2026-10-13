@@ -1,0 +1,11 @@
+{
+  "name": "person-thinking",
+  "category": "people",
+  "tags": ["person", "thinking", "thought", "idea", "ponder"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M3 21c0-3.3 2.7-6 7-6s7 2.7 7 6\"/><circle class=\"p2\" cx=\"18\" cy=\"5\" r=\"2.5\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"10.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1400 }
+  ]
+}

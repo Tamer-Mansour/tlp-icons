@@ -1,0 +1,11 @@
+{
+  "name": "frog-amphibian",
+  "category": "science",
+  "tags": ["frog", "amphibian", "animal", "pond", "nature", "biology"],
+  "svg": "<path class=\"d p1\" d=\"M4 14 Q4 10 8 10 H16 Q20 10 20 14 Q20 19 12 19 Q4 19 4 14 Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"7.5\" r=\"1.5\"/><circle class=\"f p2\" cx=\"16\" cy=\"7.5\" r=\"1.5\"/><path class=\"p3\" d=\"M9 14.5 Q12 16.5 15 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "decagon",
+  "category": "shapes",
+  "tags": ["decagon", "ten", "sides", "polygon", "regular", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3L17.3 4.7L20.6 9.2V14.8L17.3 19.3L12 21L6.7 19.3L3.4 14.8V9.2L6.7 4.7Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

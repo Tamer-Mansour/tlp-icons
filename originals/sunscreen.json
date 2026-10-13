@@ -1,0 +1,11 @@
+{
+  "name": "sunscreen",
+  "category": "weather",
+  "tags": ["sunscreen", "sun", "tube", "lotion", "protection"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"4\" width=\"8\" height=\"3\"/><circle class=\"p3\" cx=\"19.5\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1100 }
+  ]
+}

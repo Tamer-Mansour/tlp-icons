@@ -1,0 +1,12 @@
+{
+  "name": "neuron",
+  "category": "science",
+  "tags": ["neuron", "nerve", "brain", "cell", "axon", "biology"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"10\" r=\"3.5\"/><path class=\"p2\" d=\"M5.8 7.8L3 5M5.8 12.2L3 15\"/><path class=\"p3\" d=\"M12.5 12L19.5 19\"/><path class=\"p4\" d=\"M19.5 19L21.5 17M19.5 19L21 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 },
+    { "part": "p4", "anim": "flicker", "dur": 700, "delay": 1300 }
+  ]
+}

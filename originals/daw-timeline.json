@@ -1,0 +1,12 @@
+{
+  "name": "daw-timeline",
+  "category": "media",
+  "tags": ["daw", "timeline", "tracks", "clips", "playhead", "editing"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"10\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"10.5\" width=\"10\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"7\" height=\"3\" rx=\"1\"/><line class=\"p4\" x1=\"20\" y1=\"3\" x2=\"20\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "shuttle", "dur": 1000, "delay": 1100 }
+  ]
+}

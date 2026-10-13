@@ -1,0 +1,10 @@
+{
+  "name": "spot-healing",
+  "category": "design",
+  "tags": ["spot", "healing", "retouch", "sparkle", "fix", "tool"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M20 2v4M18 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

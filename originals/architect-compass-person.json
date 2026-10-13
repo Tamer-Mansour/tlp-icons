@@ -1,0 +1,11 @@
+{
+  "name": "architect-compass-person",
+  "category": "people",
+  "tags": ["architect", "compass", "drafting", "design", "pencil", "blueprint"],
+  "svg": "<path class=\"p1\" d=\"M8 21L12 4L16 21\"/><line class=\"p2\" x1=\"9.5\" y1=\"14.5\" x2=\"14.5\" y2=\"14.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

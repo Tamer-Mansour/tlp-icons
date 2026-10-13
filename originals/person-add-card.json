@@ -1,0 +1,11 @@
+{
+  "name": "person-add-card",
+  "category": "people",
+  "tags": ["add", "person", "card", "invite", "new", "member"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M3 20a5 5 0 0 1 10 0\"/><rect class=\"p2\" x=\"14\" y=\"11\" width=\"8\" height=\"9\" rx=\"1.5\"/><path class=\"p3\" d=\"M18 14v4M16 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

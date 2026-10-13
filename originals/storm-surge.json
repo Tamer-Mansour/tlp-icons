@@ -1,0 +1,10 @@
+{
+  "name": "storm-surge",
+  "category": "weather",
+  "tags": ["storm", "surge", "wave", "flood", "coast"],
+  "svg": "<path class=\"p1\" d=\"M3 15 C6 15 7 8 12 8 C16 8 17 15 21 15\"/><path class=\"p2\" d=\"M3 20 H21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "whooshIn", "dur": 800, "delay": 400 }
+  ]
+}

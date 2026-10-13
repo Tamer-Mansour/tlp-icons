@@ -1,0 +1,11 @@
+{
+  "name": "file-fingerprint",
+  "category": "files",
+  "tags": ["fingerprint","biometric","identity","security","scan"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M9.5 18a2.5 2.5 0 0 1 5 0\"/><path class=\"p3\" d=\"M6.5 18a5.5 5.5 0 0 1 11 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

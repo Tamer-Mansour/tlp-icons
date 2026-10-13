@@ -1,0 +1,12 @@
+{
+  "name": "sprinkles",
+  "category": "food",
+  "tags": ["sprinkles", "topping", "dessert", "colorful", "baking"],
+  "svg": "<path class=\"p1\" d=\"M5 9l3-2\"/><path class=\"p2\" d=\"M14 5l3 3\"/><path class=\"p3\" d=\"M7 18l4 1\"/><path class=\"p4\" d=\"M16 15l3-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "twinkle", "dur": 700, "delay": 900 }
+  ]
+}

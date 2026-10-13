@@ -1,0 +1,10 @@
+{
+  "name": "dawn-clock",
+  "category": "time",
+  "tags": ["dawn", "sunrise", "clock", "morning", "early", "time", "horizon"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p1\" d=\"M12 6.5V10h2.5\"/><path class=\"p2\" d=\"M9 15a3 3 0 0 1 6 0M8.5 15h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "beaufort-scale",
+  "category": "weather",
+  "tags": ["beaufort", "wind", "scale", "arrows", "force", "measure"],
+  "svg": "<path class=\"p1\" d=\"M3 6h8M8 3.5L11 6 8 8.5\"/><path class=\"p2\" d=\"M3 12h11M11 9.5L14 12 11 14.5\"/><path class=\"p3\" d=\"M3 18h15M15 15.5L18 18 15 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dash", "dur": 700, "delay": 900 }
+  ]
+}

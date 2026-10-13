@@ -1,0 +1,11 @@
+{
+  "name": "seedling-tray",
+  "category": "nature",
+  "tags": ["seedling", "tray", "sprout", "gardening", "plant"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p1\" d=\"M9 5 V19\"/><path class=\"p1\" d=\"M15 5 V19\"/><path class=\"p1\" d=\"M3 12 H21\"/><path class=\"p2\" d=\"M6 12 V9\"/><path class=\"p3\" d=\"M6 9 C6 7 7.5 6.5 9 6.5 C9 8 7.5 9 6 9 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700, "origin": "6px 12px" },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

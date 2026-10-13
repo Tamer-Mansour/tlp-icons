@@ -1,0 +1,12 @@
+{
+  "name": "alert-user",
+  "category": "people",
+  "tags": ["alert", "user", "exclamation", "notice", "person", "urgent", "badge"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p2\" d=\"M2.5 21a6 6 0 0 1 12 0\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"6.5\" r=\"4\"/><path class=\"p4\" d=\"M17.5 4.5v2.5\"/><circle class=\"f p4\" cx=\"17.5\" cy=\"9\" r=\".8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "pulseRing", "dur": 600, "delay": 1100 }
+  ]
+}

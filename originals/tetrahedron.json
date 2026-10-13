@@ -1,0 +1,10 @@
+{
+  "name": "tetrahedron",
+  "category": "math",
+  "tags": ["tetrahedron", "pyramid", "solid", "faces", "polyhedron", "3d"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 3,19 21,19\"/><path class=\"p2\" d=\"M12 3V11M3 19L12 11L21 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

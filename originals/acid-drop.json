@@ -1,0 +1,10 @@
+{
+  "name": "acid-drop",
+  "category": "science",
+  "tags": ["acid", "drop", "droplet", "base", "chemistry"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C12 3 7 9 7 13A5 5 0 0 0 17 13C17 9 12 3 12 3Z\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fall", "dur": 800, "delay": 500 }
+  ]
+}

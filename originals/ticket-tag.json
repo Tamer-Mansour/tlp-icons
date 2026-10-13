@@ -1,0 +1,11 @@
+{
+  "name": "ticket-tag",
+  "category": "development",
+  "tags": ["ticket", "tag", "label", "hole", "text", "card"],
+  "svg": "<path class=\"d p1\" d=\"M3 8a2 2 0 0 1 0 4v4a2 2 0 0 1 2 2h14a2 2 0 0 1 2-2v-4a2 2 0 0 1 0-4V6a2 2 0 0 1-2-2H5a2 2 0 0 1-2 2z\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"1.5\"/><path class=\"p3\" d=\"M12 10h5M12 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1300 }
+  ]
+}

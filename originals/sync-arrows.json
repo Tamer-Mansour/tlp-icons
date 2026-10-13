@@ -1,0 +1,11 @@
+{
+  "name": "sync-arrows",
+  "category": "connectivity",
+  "tags": ["sync", "arrows", "refresh", "cycle", "rotate", "update"],
+  "svg": "<path class=\"p1\" d=\"M5 10 A7 7 0 0 1 19 10 M19 6 V10 H15\"/><path class=\"p2\" d=\"M19 14 A7 7 0 0 1 5 14 M5 18 V14 H9\"/><rect class=\"d p3\" x=\"9.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

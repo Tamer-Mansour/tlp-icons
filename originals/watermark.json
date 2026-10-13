@@ -1,0 +1,10 @@
+{
+  "name": "watermark",
+  "category": "files",
+  "tags": ["watermark", "draft", "page", "stamp", "confidential"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z\"/><line class=\"p2\" x1=\"7.5\" y1=\"17\" x2=\"10\" y2=\"14.5\"/><line class=\"p2\" x1=\"12\" y1=\"12.5\" x2=\"16.5\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 800, "delay": 500 }
+  ]
+}

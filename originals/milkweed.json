@@ -1,0 +1,11 @@
+{
+  "name": "milkweed",
+  "category": "nature",
+  "tags": ["milkweed", "pod", "seeds", "plant", "meadow"],
+  "svg": "<path class=\"p1\" d=\"M12 21V10\"/><path class=\"d p2\" d=\"M12 17Q6 17 4 12Q9 10 12 15Z\"/><path class=\"d p2\" d=\"M12 13Q18 13 20 8Q15 6 12 11Z\"/><path class=\"d p3\" d=\"M9 7Q9 3 12 3Q15 3 15 7Q15 9 12 9Q9 9 9 7Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 1200 }
+  ]
+}

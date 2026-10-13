@@ -1,0 +1,11 @@
+{
+  "name": "file-checklist",
+  "category": "files",
+  "tags": ["file", "checklist", "tasks", "todo", "check", "list"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"p2\" d=\"M7.5 9.5l1 1 2-2.5M7.5 13.5l1 1 2-2.5\"/><path class=\"p3\" d=\"M12.5 9.5h4M12.5 13.5h4M12.5 17.5h4\"/><rect class=\"p3\" x=\"7.5\" y=\"16\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

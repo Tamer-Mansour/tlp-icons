@@ -1,0 +1,12 @@
+{
+  "name": "yak",
+  "category": "nature",
+  "tags": ["yak", "shaggy", "horns", "highland", "bovine"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 Q4 7 8 7 H16 Q20 7 20 10 Q21 15 17 17 H7 Q3 15 4 10 Z\"/><path class=\"p4\" d=\"M7 17 V20.5 M16 17 V20.5\"/><rect class=\"p2\" x=\"17\" y=\"5.5\" width=\"4\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M18.5 5.5 Q17.5 2.5 20.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 },
+    { "part": "p2", "anim": "shake", "dur": 1000, "delay": 1200 }
+  ]
+}

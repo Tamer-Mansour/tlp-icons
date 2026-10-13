@@ -1,0 +1,11 @@
+{
+  "name": "star-trail",
+  "category": "weather",
+  "tags": ["star", "trail", "night", "long exposure", "sky", "orbit"],
+  "svg": "<path class=\"p1\" d=\"M8 17a4 4 0 0 1 8 0\"/><path class=\"p2\" d=\"M4 17a8 8 0 0 1 16 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1000 }
+  ]
+}

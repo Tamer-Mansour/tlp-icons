@@ -1,0 +1,11 @@
+{
+  "name": "ladder-up",
+  "category": "arrows",
+  "tags": ["ladder", "up", "climb", "rungs", "stairs", "ascend"],
+  "svg": "<path class=\"p1\" d=\"M5 4 V20 M11 4 V20\"/><path class=\"p2\" d=\"M5 8 H11 M5 12 H11 M5 16 H11\"/><path class=\"p3\" d=\"M18 20 V5 M15.5 7.5 L18 5 L20.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "weather-report",
+  "category": "weather",
+  "tags": ["weather", "report", "clipboard", "forecast", "cloud"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p1\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"9\" cy=\"10\" r=\"2\"/><path class=\"p3\" d=\"M10 18 H16.5 A2.5 2.5 0 0 0 16.5 13 A3.5 3.5 0 0 0 10 14 A2 2 0 0 0 10 18 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

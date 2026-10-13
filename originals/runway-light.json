@@ -1,0 +1,10 @@
+{
+  "name": "runway-light",
+  "category": "buildings",
+  "tags": ["runway", "light", "airport", "dash", "landing", "airfield"],
+  "svg": "<path class=\"p1\" d=\"M3 14h3M9 14h4M16 14h5\"/><circle class=\"f p2\" cx=\"4\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"20\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 800 }
+  ]
+}

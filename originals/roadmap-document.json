@@ -1,0 +1,11 @@
+{
+  "name": "roadmap-document",
+  "category": "files",
+  "tags": ["roadmap", "document", "route", "plan", "timeline", "milestones"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 16l3-3 3 2 2-3\"/><circle class=\"f p3\" cx=\"16\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1500 }
+  ]
+}

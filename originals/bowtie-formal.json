@@ -1,0 +1,11 @@
+{
+  "name": "bowtie-formal",
+  "category": "people",
+  "tags": ["bowtie", "formal", "tie", "suit", "event", "wedding"],
+  "svg": "<polygon class=\"d p1\" points=\"3,7 10.5,12 3,17\"/><polygon class=\"d p2\" points=\"21,7 13.5,12 21,17\"/><rect class=\"p3\" x=\"9.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 }
+  ]
+}

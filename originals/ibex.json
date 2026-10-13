@@ -1,0 +1,12 @@
+{
+  "name": "ibex",
+  "category": "nature",
+  "tags": ["ibex", "mountain goat", "curved horns", "climber", "wild goat"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9.5\" cy=\"14\" rx=\"6\" ry=\"3\"/><g class=\"p2\"><path d=\"M14 12 L16 8.5\"/><circle cx=\"17.5\" cy=\"7.5\" r=\"2\"/></g><path class=\"p3\" d=\"M16.5 5.8 Q13.5 4 13.5 1.8\"/><path class=\"p4\" d=\"M6 16.5 V20.5 M12.5 16.5 V20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 1200 }
+  ]
+}

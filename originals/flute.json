@@ -1,0 +1,10 @@
+{
+  "name": "flute",
+  "category": "media",
+  "tags": ["flute", "woodwind", "tube", "keys", "instrument", "music"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"20\" height=\"4\" rx=\"2\"/><circle class=\"f p2\" cx=\"8\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 700 }
+  ]
+}

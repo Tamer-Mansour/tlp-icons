@@ -1,0 +1,11 @@
+{
+  "name": "snapshot-file",
+  "category": "files",
+  "tags": ["snapshot", "file", "camera", "capture", "photo"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"4\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

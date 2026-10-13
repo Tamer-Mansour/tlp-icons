@@ -1,0 +1,11 @@
+{
+  "name": "waiting-time",
+  "category": "time",
+  "tags": ["waiting", "clock", "wait", "hold", "pending", "dots"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9.5\" r=\"6.5\"/><path class=\"p2\" d=\"M12 6.5v3.5l2 1.5\"/><circle class=\"f p3\" cx=\"8\" cy=\"19.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"19.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"16\" cy=\"19.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1100 }
+  ]
+}

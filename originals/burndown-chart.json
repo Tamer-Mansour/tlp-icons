@@ -1,0 +1,10 @@
+{
+  "name": "burndown-chart",
+  "category": "charts",
+  "tags": ["burndown", "chart", "progress", "sprint", "remaining", "agile"],
+  "svg": "<path class=\"p1\" d=\"M3 3V21H21\"/><path class=\"p2\" d=\"M5 5L9 9L12 11.5L15 13.5L19 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1100, "delay": 500 }
+  ]
+}

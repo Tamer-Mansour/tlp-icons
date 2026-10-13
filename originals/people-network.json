@@ -1,0 +1,11 @@
+{
+  "name": "people-network",
+  "category": "people",
+  "tags": ["people", "network", "team", "group", "connected", "community"],
+  "svg": "<circle class=\"p1\" cx=\"5.5\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"18.5\" cy=\"6\" r=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M8 6h8\"/><path class=\"p3\" d=\"M6.7 8.2L10.8 15.8M17.3 8.2L13.2 15.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 1200 }
+  ]
+}

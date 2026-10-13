@@ -1,0 +1,10 @@
+{
+  "name": "receipt-book",
+  "category": "files",
+  "tags": ["receipt", "book", "tear", "payment", "ledger", "carbon"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"13\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M17 3h4v18l-2-1.5L17 21z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

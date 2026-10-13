@@ -1,0 +1,11 @@
+{
+  "name": "mail-carrier-bag",
+  "category": "people",
+  "tags": ["mail", "carrier", "postman", "bag", "letter", "delivery"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 9 Q12 1 18 9\"/><rect class=\"p3\" x=\"8\" y=\"12\" width=\"8\" height=\"5\" rx=\"0.5\"/><path class=\"p3\" d=\"M8 12 L12 15 L16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

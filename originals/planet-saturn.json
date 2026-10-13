@@ -1,0 +1,10 @@
+{
+  "name": "planet-saturn",
+  "category": "emoji",
+  "tags": ["planet", "saturn", "space", "ring", "astronomy", "solar"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"3\" transform=\"rotate(-20 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cruise-control",
+  "category": "vehicles",
+  "tags": ["cruise", "control", "speed", "dial", "driving"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7 14a5 5 0 0 1 10 0\"/><path class=\"p3\" d=\"M9 14h6M12.5 11.5L15 14l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

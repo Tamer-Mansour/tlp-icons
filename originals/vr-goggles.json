@@ -1,0 +1,11 @@
+{
+  "name": "vr-goggles",
+  "category": "media",
+  "tags": ["vr", "goggles", "headset", "virtual", "reality"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"13\" r=\"4\"/><circle class=\"d p2\" cx=\"18\" cy=\"13\" r=\"4\"/><path class=\"p3\" d=\"M10 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 900 }
+  ]
+}

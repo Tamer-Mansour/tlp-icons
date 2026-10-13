@@ -1,0 +1,11 @@
+{
+  "name": "ankle-brace",
+  "category": "sport",
+  "tags": ["ankle", "brace", "support", "injury", "strap", "health"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M7 8.5H17M7 15.5H17\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

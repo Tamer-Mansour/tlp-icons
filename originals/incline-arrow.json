@@ -1,0 +1,10 @@
+{
+  "name": "incline-arrow",
+  "category": "arrows",
+  "tags": ["incline", "rising", "growth", "upward", "trend"],
+  "svg": "<path class=\"p1\" d=\"M3 16 L19 8\"/><path class=\"p2\" d=\"M14 8 H19 V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 800 }
+  ]
+}

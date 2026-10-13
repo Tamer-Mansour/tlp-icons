@@ -1,0 +1,11 @@
+{
+  "name": "content-creator-ring-light",
+  "category": "people",
+  "tags": ["content", "creator", "ring", "light", "camera", "video"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"6.5\"/><path class=\"p2\" d=\"M12 17.5v3M8 21h8\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "current-arrow",
+  "category": "science",
+  "tags": ["current", "wire", "arrow", "flow", "electric"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"19\" y2=\"12\"/><path class=\"p2\" d=\"M15 8L19 12L15 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

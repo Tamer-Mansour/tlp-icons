@@ -1,0 +1,11 @@
+{
+  "name": "phone-booth",
+  "category": "buildings",
+  "tags": ["phone booth", "telephone", "booth", "payphone", "glass", "call"],
+  "svg": "<path class=\"d p1\" d=\"M6 6h12v15H6z\"/><path class=\"p2\" d=\"M4 3h16\"/><path class=\"p3\" d=\"M9 11h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 1100 }
+  ]
+}

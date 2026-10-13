@@ -1,0 +1,12 @@
+{
+  "name": "aardvark",
+  "category": "nature",
+  "tags": ["aardvark", "anteater", "snout", "burrow", "termite", "africa"],
+  "svg": "<path class=\"d p1\" d=\"M7 8 Q7 5 12 5 Q18 5 18 11 L18 16 L8 16 Q7 12 7 8 Z\"/><path class=\"p2\" d=\"M7 9 L3 13.5 Q2.5 14.5 4 15 L8 14\"/><path class=\"p3\" d=\"M14 5 Q14 1.5 17.5 2 Q16.5 5 16 6\"/><path class=\"p4\" d=\"M10 16 V21 M16 16 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "swing", "dur": 500, "delay": 1400, "origin": "14px 6px" }
+  ]
+}

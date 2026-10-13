@@ -1,0 +1,10 @@
+{
+  "name": "skate-ramp",
+  "category": "sport",
+  "tags": ["skate", "ramp", "skateboard", "park", "wedge", "ride"],
+  "svg": "<path class=\"d p1\" d=\"M3 19L17 7Q21 4 21 9V19Z\"/><path class=\"p2\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

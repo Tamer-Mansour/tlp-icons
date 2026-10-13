@@ -1,0 +1,10 @@
+{
+  "name": "compass-arrow",
+  "category": "arrows",
+  "tags": ["compass", "needle", "direction", "north", "navigate"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M9 15 L15 9\"/><polyline class=\"p2\" points=\"10 9 15 9 15 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

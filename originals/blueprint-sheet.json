@@ -1,0 +1,11 @@
+{
+  "name": "blueprint-sheet",
+  "category": "files",
+  "tags": ["blueprint", "sheet", "drafting", "plan", "title", "grid"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M12 6v3M12 11v3M12 16v2M6 12h3M11 12h3M16 12h2\"/><rect class=\"p3\" x=\"14.5\" y=\"16.5\" width=\"5\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 600, "delay": 1000 }
+  ]
+}

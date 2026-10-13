@@ -1,0 +1,11 @@
+{
+  "name": "child-crayons",
+  "category": "people",
+  "tags": ["crayon", "crayons", "child", "colour", "drawing", "art"],
+  "svg": "<g class=\"p1\" transform=\"rotate(-15 6 20)\"><path d=\"M4 19 V11 L6 7 L8 11 V19 Z\"/></g><g class=\"p2\"><path d=\"M10 19 V11 L12 7 L14 11 V19 Z\"/></g><g class=\"p3\" transform=\"rotate(15 18 20)\"><path d=\"M16 19 V11 L18 7 L20 11 V19 Z\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900, "origin": "18px 20px" }
+  ]
+}

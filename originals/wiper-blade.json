@@ -1,0 +1,10 @@
+{
+  "name": "wiper-blade",
+  "category": "vehicles",
+  "tags": ["wiper", "blade", "windshield", "rain", "car"],
+  "svg": "<path class=\"p1\" d=\"M3 18a12 12 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 18L17 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pendulum", "dur": 900, "delay": 600, "origin": "12px 18px" }
+  ]
+}

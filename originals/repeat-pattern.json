@@ -1,0 +1,10 @@
+{
+  "name": "repeat-pattern",
+  "category": "design",
+  "tags": ["repeat", "pattern", "tile", "grid", "seamless", "texture"],
+  "svg": "<path class=\"p1\" d=\"M3 3H10V10H3ZM14 3H21V10H14Z\"/><path class=\"p2\" d=\"M3 14H10V21H3ZM14 14H21V21H14Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "jelly", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "horse-saddle",
+  "category": "sport",
+  "tags": ["saddle", "horse", "stirrup", "riding", "equestrian", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M3 11c0-2 4-4 9-4s9 2 9 4v2H3z\"/><path class=\"p2\" d=\"M12 13v3\"/><path class=\"p3\" d=\"M9 16.5v3.5h6v-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 800, "origin": "12px 16.5px" }
+  ]
+}

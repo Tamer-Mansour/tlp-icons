@@ -1,0 +1,11 @@
+{
+  "name": "billing-profile",
+  "category": "people",
+  "tags": ["billing", "profile", "invoice", "payment", "customer", "account"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20.5v-2a5 5 0 0 1 10 0v2\"/><rect class=\"d p2\" x=\"13\" y=\"3\" width=\"9\" height=\"18\" rx=\"1\"/><path class=\"p3\" d=\"M15.5 8h4M15.5 11h4M15.5 14h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

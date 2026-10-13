@@ -1,0 +1,11 @@
+{
+  "name": "thimble",
+  "category": "home",
+  "tags": ["thimble", "sewing", "finger", "dimples", "craft", "tailor"],
+  "svg": "<path class=\"d p1\" d=\"M7 18V10a5 5 0 0 1 10 0v8a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z\"/><path class=\"p3\" d=\"M7 14h10\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

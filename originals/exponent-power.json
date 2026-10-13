@@ -1,0 +1,10 @@
+{
+  "name": "exponent-power",
+  "category": "math",
+  "tags": ["exponent", "power", "superscript", "base", "algebra"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"18\" x2=\"14\" y2=\"9\"/><line class=\"p1\" x1=\"14\" y1=\"18\" x2=\"5\" y2=\"9\"/><path class=\"p2\" d=\"M16 9 V7.5 C16 6.5 16.7 6 17.5 6 C18.3 6 19 6.5 19 7.5 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

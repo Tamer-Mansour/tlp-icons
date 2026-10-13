@@ -1,0 +1,11 @@
+{
+  "name": "ham-radio",
+  "category": "communication",
+  "tags": ["radio", "ham radio", "antenna", "transceiver", "amateur", "wire"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"10\" rx=\"1.5\"/><path class=\"p1\" d=\"M16 10L20 3\"/><path class=\"p2\" d=\"M6.5 14h6\"/><circle class=\"f p3\" cx=\"16.5\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

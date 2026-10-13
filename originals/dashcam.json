@@ -1,0 +1,11 @@
+{
+  "name": "dashcam",
+  "category": "devices",
+  "tags": ["dashcam", "camera", "car", "recorder", "lens", "dash"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"9\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"11.5\" r=\"2.5\"/><path class=\"p3\" d=\"M8 3h8M12 3v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mesh-warp",
+  "category": "design",
+  "tags": ["mesh", "warp", "distort", "grid", "transform", "curve"],
+  "svg": "<path class=\"p1\" d=\"M3 8C9 5 15 11 21 8\"/><path class=\"p3\" d=\"M3 16C9 13 15 19 21 16\"/><path class=\"p2\" d=\"M8 3C5 9 11 15 8 21M16 3C13 9 19 15 16 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "well-bucket",
+  "category": "buildings",
+  "tags": ["well", "bucket", "rope", "water", "pulley", "ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4\" r=\"2\"/><line class=\"p2\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"10\"/><path class=\"d p3\" d=\"M7 10h10l-1.5 9h-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

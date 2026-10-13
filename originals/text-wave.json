@@ -1,0 +1,10 @@
+{
+  "name": "text-wave",
+  "category": "text",
+  "tags": ["wave", "text", "sine", "ripple", "wavy", "typography"],
+  "svg": "<path class=\"p1\" d=\"M2 12c2.2-3.5 4.3-3.5 6.5 0s4.3 3.5 6.5 0 4.3-3.5 6.5 0\"/><path class=\"p2\" d=\"M4 20.5H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

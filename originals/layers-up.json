@@ -1,0 +1,10 @@
+{
+  "name": "layers-up",
+  "category": "interface",
+  "tags": ["layers", "up", "raise", "stack", "arrow", "order"],
+  "svg": "<polygon class=\"p1\" points=\"12 11 21 15.5 12 20 3 15.5\"/><path class=\"p2\" d=\"M12 2.5v6M9 5.5l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

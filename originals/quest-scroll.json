@@ -1,0 +1,11 @@
+{
+  "name": "quest-scroll",
+  "category": "sport",
+  "tags": ["quest", "scroll", "parchment", "mission", "seal", "fantasy"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"12\" height=\"14\"/><rect class=\"p2\" x=\"4\" y=\"3\" width=\"16\" height=\"4\" rx=\"2\"/><rect class=\"p2\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "unfold", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "stampIn", "dur": 500, "delay": 1100 }
+  ]
+}

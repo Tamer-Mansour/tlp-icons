@@ -1,0 +1,10 @@
+{
+  "name": "user-pin-map",
+  "category": "people",
+  "tags": ["user", "location", "map", "pin", "person", "place", "profile"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M1.5 21v-1.5a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4V21\"/><path class=\"d p2\" d=\"M18 21.5s-5.5-4.8-5.5-9a5.5 5.5 0 0 1 11 0c0 4.2-5.5 9-5.5 9z\"/><circle class=\"f p2\" cx=\"18\" cy=\"12.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

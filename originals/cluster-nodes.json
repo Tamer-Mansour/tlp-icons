@@ -1,0 +1,10 @@
+{
+  "name": "cluster-nodes",
+  "category": "development",
+  "tags": ["cluster", "nodes", "network", "distributed", "group", "servers"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"6\" cy=\"18\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M8.5 6h7M6 8.5v7M18 8.5v7M8.5 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "text-direction-right",
+  "category": "text",
+  "tags": ["direction", "right", "text", "arrow", "ltr", "align", "lines"],
+  "svg": "<path class=\"p1\" d=\"M15 6l5 5-5 5M20 11h-9\"/><path class=\"p2\" d=\"M3 7h6M3 11h6M3 15h6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

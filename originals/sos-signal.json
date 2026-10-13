@@ -1,0 +1,11 @@
+{
+  "name": "sos-signal",
+  "category": "emoji",
+  "tags": ["sos", "distress", "emergency", "signal", "help", "alert"],
+  "svg": "<circle class=\"p1\" cx=\"11\" cy=\"13\" r=\"6\"/><path class=\"p2\" d=\"M18.5 5.5 L21 3\"/><circle class=\"f p3\" cx=\"11\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "status-ok",
+  "category": "development",
+  "tags": ["status", "ok", "success", "check", "passed", "done"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 12.5l2.5 2.5L16 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 800 }
+  ]
+}

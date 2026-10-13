@@ -1,0 +1,11 @@
+{
+  "name": "fruit-anatomy",
+  "category": "science",
+  "tags": ["fruit", "seeds", "cut", "section", "anatomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M12 5V21\"/><circle class=\"f p3\" cx=\"9\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"9\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

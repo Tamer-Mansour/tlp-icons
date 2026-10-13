@@ -1,0 +1,11 @@
+{
+  "name": "lotus-shape",
+  "category": "shapes",
+  "tags": ["lotus", "flower", "petal", "bloom", "water"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 C15 8 15 14 12 17 C9 14 9 8 12 4 Z\"/><path class=\"p2\" d=\"M8 9 C5 11 5 15 8 17 M16 9 C19 11 19 15 16 17\"/><path class=\"p3\" d=\"M4 20 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

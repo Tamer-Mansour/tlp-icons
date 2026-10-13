@@ -1,0 +1,11 @@
+{
+  "name": "smithy",
+  "category": "buildings",
+  "tags": ["smithy", "blacksmith", "anvil", "horseshoe", "forge", "hammer"],
+  "svg": "<path class=\"d p1\" d=\"M3 16h18v-3h-4v-2H7v2H3z\"/><path class=\"p2\" d=\"M5 3v4a4 4 0 0 0 8 0V3\"/><path class=\"p3\" d=\"M15 3l5 5M17 6l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "strike", "dur": 600, "delay": 1100, "origin": "19px 8px" }
+  ]
+}

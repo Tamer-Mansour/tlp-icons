@@ -1,0 +1,10 @@
+{
+  "name": "paper-airplane",
+  "category": "files",
+  "tags": ["paper", "airplane", "plane", "fly", "send", "origami"],
+  "svg": "<path class=\"p1\" d=\"M3 11l18-8-6 17-4-6z\"/><path class=\"p2\" d=\"M2 17h3M7 19h3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "launch", "dur": 1000, "delay": 900 }
+  ]
+}

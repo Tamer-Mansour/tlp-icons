@@ -1,0 +1,11 @@
+{
+  "name": "guard-booth",
+  "category": "buildings",
+  "tags": ["guard", "booth", "security", "kiosk", "sentry", "window"],
+  "svg": "<path class=\"p1\" d=\"M5 10v11h14V10\"/><path class=\"p2\" d=\"M3 10l9-6 9 6\"/><rect class=\"d p3\" x=\"9\" y=\"13\" width=\"6\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

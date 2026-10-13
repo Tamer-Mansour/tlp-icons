@@ -1,0 +1,11 @@
+{
+  "name": "tasting-room",
+  "category": "buildings",
+  "tags": ["tasting", "wine", "glass", "counter", "bar", "cellar"],
+  "svg": "<path class=\"d p1\" d=\"M7 3 H17 Q17 11 12 13 Q7 11 7 3 Z\"/><path class=\"p2\" d=\"M12 13 V19\"/><path class=\"p3\" d=\"M4 21.5 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 1000 }
+  ]
+}

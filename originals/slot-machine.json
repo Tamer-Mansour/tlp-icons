@@ -1,0 +1,11 @@
+{
+  "name": "slot-machine",
+  "category": "sport",
+  "tags": ["slot", "machine", "casino", "jackpot", "reels", "gambling"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"7\" width=\"14\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6 10h2v4H6zM10 10h2v4h-2zM14 10h2v4h-2z\"/><line class=\"p3\" x1=\"18\" y1=\"13\" x2=\"21\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pump", "dur": 600, "delay": 1100, "origin": "18px 13px" }
+  ]
+}

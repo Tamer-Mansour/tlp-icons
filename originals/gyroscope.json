@@ -1,0 +1,11 @@
+{
+  "name": "gyroscope",
+  "category": "devices",
+  "tags": ["gyroscope", "rotation", "orientation", "sensor", "spin"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900 }
+  ]
+}

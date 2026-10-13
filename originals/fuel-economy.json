@@ -1,0 +1,12 @@
+{
+  "name": "fuel-economy",
+  "category": "vehicles",
+  "tags": ["fuel", "economy", "eco", "pump", "green"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"10\" height=\"15\"/><polyline class=\"p2\" points=\"14 12 18 12 18 17\"/><rect class=\"p3\" x=\"7\" y=\"9\" width=\"4\" height=\"3\"/><path class=\"d p4\" d=\"M16 4 Q21 3 21 8 Q16 9 16 4 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "sway", "dur": 1000, "delay": 1000, "origin": "16px 9px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "document-redact",
+  "category": "files",
+  "tags": ["redact", "redacted", "document", "censor", "privacy", "black"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8 7h8M8 18h5\"/><rect class=\"d p3\" x=\"8\" y=\"11\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "stamp", "dur": 600, "delay": 1300 }
+  ]
+}

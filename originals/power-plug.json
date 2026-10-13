@@ -1,0 +1,11 @@
+{
+  "name": "power-plug",
+  "category": "science",
+  "tags": ["plug", "power", "electric", "outlet", "socket"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M9 9V4M15 9V4\"/><path class=\"p3\" d=\"M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

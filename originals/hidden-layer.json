@@ -1,0 +1,11 @@
+{
+  "name": "hidden-layer",
+  "category": "interface",
+  "tags": ["hidden", "layer", "hide", "eye", "slash", "invisible"],
+  "svg": "<path class=\"p1\" d=\"M12 12.5l8.5 4-8.5 4-8.5-4z\"/><path class=\"p3\" d=\"M7 6.5c1.2-1.5 2.8-2.3 5-2.3s3.8.8 5 2.3c-1.2 1.5-2.8 2.3-5 2.3s-3.8-.8-5-2.3z\"/><path class=\"p2\" d=\"M3.5 3.5l17 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

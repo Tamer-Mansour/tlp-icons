@@ -1,0 +1,11 @@
+{
+  "name": "inspector-panel",
+  "category": "layout",
+  "tags": ["inspector", "panel", "sliders", "settings", "sidebar"],
+  "svg": "<rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 7h3M16 12h3M16 17h3\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

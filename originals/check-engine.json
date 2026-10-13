@@ -1,0 +1,12 @@
+{
+  "name": "check-engine",
+  "category": "notifications",
+  "tags": ["engine", "check", "car", "warning", "dashboard", "maintenance"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"14\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 11V8h6v3\"/><path class=\"p3\" d=\"M17 13h4v3h-4\"/><path class=\"p4\" d=\"M16.5 4.5l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

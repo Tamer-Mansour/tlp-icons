@@ -1,0 +1,11 @@
+{
+  "name": "crocodile",
+  "category": "nature",
+  "tags": ["crocodile", "alligator", "reptile", "teeth", "snout", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H16 Q21 11 21 13 Q21 15 16 15 H3 Z\"/><polyline class=\"p2\" points=\"6,11 7.5,9 9,11 11,9 12.5,11\"/><circle class=\"f p3\" cx=\"17\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-hard-drive",
+  "category": "files",
+  "tags": ["hard drive", "storage", "disk", "save", "device", "drive"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><rect class=\"d p2\" x=\"7.5\" y=\"14.5\" width=\"9\" height=\"4.5\" rx=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"16.75\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 600, "delay": 1100 }
+  ]
+}

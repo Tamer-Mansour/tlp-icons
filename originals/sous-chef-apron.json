@@ -1,0 +1,11 @@
+{
+  "name": "sous-chef-apron",
+  "category": "people",
+  "tags": ["sous", "chef", "apron", "kitchen", "cook", "restaurant"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 9 Q12 5 15 9\"/><path class=\"p3\" d=\"M7 14 H3 M17 14 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1200, "origin": "12px 14px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hourglass-check",
+  "category": "notifications",
+  "tags": ["hourglass", "waiting", "done", "timer", "complete"],
+  "svg": "<path class=\"d p1\" d=\"M6 5h8v3l-3 3 3 3v3H6v-3l3-3-3-3z\"/><path class=\"p1\" d=\"M5 3h10M5 21h10\"/><path class=\"p2\" d=\"M16 12l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "square-filled",
+  "category": "emoji",
+  "tags": ["square", "filled", "solid", "box", "shape", "block"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M7 11 V8 Q7 7 8 7 H11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

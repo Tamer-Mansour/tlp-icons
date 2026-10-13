@@ -1,0 +1,10 @@
+{
+  "name": "triangle-up-down",
+  "category": "shapes",
+  "tags": ["triangle", "up", "down", "sort", "stacked", "direction"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 19,11 5,11\"/><polygon class=\"p2\" points=\"5,13 19,13 12,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 800, "delay": 700 }
+  ]
+}

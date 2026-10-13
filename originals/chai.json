@@ -1,0 +1,11 @@
+{
+  "name": "chai",
+  "category": "food",
+  "tags": ["chai", "tea", "spice", "cup", "steam", "cinnamon"],
+  "svg": "<path class=\"d p1\" d=\"M5 12h11v3.5c0 2.5-2 4.5-4.5 4.5h-2c-2.5 0-4.5-2-4.5-4.5z\"/><path class=\"p2\" d=\"M8.5 9c-1-1.5 1-2.5 0-4.5M12.5 9c-1-1.5 1-2.5 0-4.5\"/><rect class=\"p3\" x=\"18\" y=\"8\" width=\"2\" height=\"11\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

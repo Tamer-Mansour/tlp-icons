@@ -1,0 +1,11 @@
+{
+  "name": "poisson-distribution",
+  "category": "math",
+  "tags": ["poisson", "distribution", "skewed", "bars", "math"],
+  "svg": "<path class=\"p1\" d=\"M4.5 6h3v12h-3zM8.5 9h3v9h-3zM12.5 13h3v5h-3zM16.5 15h3v3h-3z\"/><path class=\"p2\" d=\"M3 18H21\"/><circle class=\"f p3\" cx=\"21\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

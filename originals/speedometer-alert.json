@@ -1,0 +1,11 @@
+{
+  "name": "speedometer-alert",
+  "category": "notifications",
+  "tags": ["speedometer", "speed", "alert", "gauge", "warning"],
+  "svg": "<path class=\"p1\" d=\"M3 15a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 15l3.5-3.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 15px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "note-share",
+  "category": "files",
+  "tags": ["note", "share", "send", "distribute", "connect notes"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"13\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M16 9l2.5-1.5M16 15l2.5 1.5\"/><circle class=\"d p3\" cx=\"20\" cy=\"6\" r=\"2\"/><circle class=\"d p3\" cx=\"20\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

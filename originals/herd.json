@@ -1,0 +1,10 @@
+{
+  "name": "herd",
+  "category": "nature",
+  "tags": ["herd", "grazing", "animals", "group", "cattle", "nature"],
+  "svg": "<ellipse class=\"d p1\" cx=\"5\" cy=\"15\" rx=\"2.5\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"2.5\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"19\" cy=\"15\" rx=\"2.5\" ry=\"2\"/><circle class=\"p2\" cx=\"5\" cy=\"10.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"19\" cy=\"10.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 900 }
+  ]
+}

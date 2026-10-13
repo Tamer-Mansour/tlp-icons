@@ -1,0 +1,10 @@
+{
+  "name": "switch-off",
+  "category": "interface",
+  "tags": ["switch", "toggle", "off", "setting", "disable", "control"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"6\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 800 }
+  ]
+}

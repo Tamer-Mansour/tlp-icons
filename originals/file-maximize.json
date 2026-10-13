@@ -1,0 +1,10 @@
+{
+  "name": "file-maximize",
+  "category": "files",
+  "tags": ["file", "maximize", "expand", "enlarge", "document"],
+  "svg": "<path class=\"p1\" d=\"M5 4a1.5 1.5 0 0 1 1.5-1.5H14l5 5V20a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 20z\"/><path class=\"p2\" d=\"M16 8L10 14M11 8h5v5M10 9v5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 700, "delay": 900 }
+  ]
+}

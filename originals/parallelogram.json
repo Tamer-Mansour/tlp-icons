@@ -1,0 +1,10 @@
+{
+  "name": "parallelogram",
+  "category": "math",
+  "tags": ["parallelogram", "parallel", "sides", "slanted", "quadrilateral", "geometry"],
+  "svg": "<polygon class=\"d p1\" points=\"7,5 21,5 17,19 3,19\"/><line class=\"p2\" x1=\"7\" y1=\"5\" x2=\"7\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

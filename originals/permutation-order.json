@@ -1,0 +1,10 @@
+{
+  "name": "permutation-order",
+  "category": "math",
+  "tags": ["permutation", "order", "swap", "arrangement", "sequence"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"4\" height=\"4\"/><rect class=\"p1\" x=\"10\" y=\"10\" width=\"4\" height=\"4\"/><rect class=\"p1\" x=\"17\" y=\"10\" width=\"4\" height=\"4\"/><path class=\"p2\" d=\"M5 7 C8 3 16 3 19 7\"/><polyline class=\"p2\" points=\"16.5 6.5 19 7 19.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

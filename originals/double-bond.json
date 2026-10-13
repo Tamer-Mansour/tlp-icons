@@ -1,0 +1,10 @@
+{
+  "name": "double-bond",
+  "category": "science",
+  "tags": ["double", "bond", "atoms", "chemistry", "molecule"],
+  "svg": "<circle class=\"d p1\" cx=\"4\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"20\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M8 10H16M8 14H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

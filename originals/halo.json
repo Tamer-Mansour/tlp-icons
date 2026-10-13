@@ -1,0 +1,10 @@
+{
+  "name": "halo",
+  "category": "weather",
+  "tags": ["halo", "sun", "ring", "sky", "glow", "optics"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 500 }
+  ]
+}

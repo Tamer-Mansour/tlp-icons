@@ -1,0 +1,10 @@
+{
+  "name": "eye-analytics",
+  "category": "charts",
+  "tags": ["eye", "analytics", "view", "insight", "watch", "data"],
+  "svg": "<path class=\"d p1\" d=\"M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12z\"/><path class=\"p2\" d=\"M9 15v-3M15 15V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700, "origin": "bottom" }
+  ]
+}

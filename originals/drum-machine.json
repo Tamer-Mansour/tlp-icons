@@ -1,0 +1,10 @@
+{
+  "name": "drum-machine",
+  "category": "devices",
+  "tags": ["drum", "machine", "pads", "beat", "music", "rhythm"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"6\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"p2\" x=\"15\" y=\"6\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"p2\" x=\"6\" y=\"15\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"p2\" x=\"15\" y=\"15\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 700, "delay": 700 }
+  ]
+}

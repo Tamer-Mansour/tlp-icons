@@ -1,0 +1,10 @@
+{
+  "name": "crown-shape",
+  "category": "shapes",
+  "tags": ["crown", "king", "royal", "queen", "jewel", "top"],
+  "svg": "<path class=\"d p1\" d=\"M3 8l4.5 4L12 6l4.5 6L21 8l-2 11H5z\"/><circle class=\"f p2\" cx=\"12\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

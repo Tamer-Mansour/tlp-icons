@@ -1,0 +1,10 @@
+{
+  "name": "performance-review",
+  "category": "people",
+  "tags": ["performance", "review", "person", "chart", "bars", "evaluation"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 20c0-3.3 2.2-5.5 5-5.5s5 2.2 5 5.5\"/><path class=\"p2\" d=\"M16 20v-5M20 20v-9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" }
+  ]
+}

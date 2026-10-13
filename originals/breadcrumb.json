@@ -1,0 +1,10 @@
+{
+  "name": "breadcrumb",
+  "category": "interface",
+  "tags": ["breadcrumb", "navigation", "path", "trail", "chevron", "location"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12h3M11 12h3M19.5 12h2.5\"/><path class=\"p2\" d=\"M7 9.5l2.5 2.5L7 14.5M15.5 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 600 }
+  ]
+}

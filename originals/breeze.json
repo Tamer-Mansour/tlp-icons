@@ -1,0 +1,11 @@
+{
+  "name": "breeze",
+  "category": "weather",
+  "tags": ["breeze", "wind", "leaf", "gentle", "air"],
+  "svg": "<path class=\"p1\" d=\"M3 11H14Q17 11 17 8\"/><path class=\"p2\" d=\"M3 16H17Q20 16 20 19\"/><path class=\"d p3\" d=\"M16 3C20 2 21 5 20 6C17 7 15 5 16 3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 800, "origin": "bottom" }
+  ]
+}

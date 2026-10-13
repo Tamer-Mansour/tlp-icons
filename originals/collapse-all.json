@@ -1,0 +1,10 @@
+{
+  "name": "collapse-all",
+  "category": "layout",
+  "tags": ["collapse", "all", "fold", "rows", "hide", "chevron", "compact"],
+  "svg": "<path class=\"p1\" d=\"M3 6h9M3 12h9M3 18h9\"/><path class=\"p2\" d=\"M15 8l3-3 3 3M15 14l3-3 3 3M15 20l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 500 }
+  ]
+}

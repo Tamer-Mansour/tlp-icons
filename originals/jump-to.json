@@ -1,0 +1,11 @@
+{
+  "name": "jump-to",
+  "category": "arrows",
+  "tags": ["jump", "target", "goto", "dashed", "destination", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 19 5 17M7.5 14.5 9.5 12.5\"/><path class=\"p2\" d=\"M12 11 14 9M12 9h2v2\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

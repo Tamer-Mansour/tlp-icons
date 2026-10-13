@@ -1,0 +1,12 @@
+{
+  "name": "text-compact",
+  "category": "text",
+  "tags": ["compact", "condense", "squeeze", "line", "spacing"],
+  "svg": "<path class=\"p1\" d=\"M4 10H20\"/><path class=\"p2\" d=\"M4 14H20\"/><path class=\"p3\" d=\"M12 3V6M10 4L12 6L14 4\"/><path class=\"p4\" d=\"M12 21V18M10 20L12 18L14 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "sink", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "lift", "dur": 500, "delay": 800 }
+  ]
+}

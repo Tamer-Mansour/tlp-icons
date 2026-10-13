@@ -1,0 +1,11 @@
+{
+  "name": "certificate-ribbon",
+  "category": "security",
+  "tags": ["certificate", "ribbon", "award", "badge", "trust", "verified"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"12\" rx=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2.2\"/><path class=\"p3\" d=\"M9 17v4.5l3-1.5 3 1.5V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

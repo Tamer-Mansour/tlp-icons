@@ -1,0 +1,10 @@
+{
+  "name": "flag-triangle",
+  "category": "emoji",
+  "tags": ["triangle", "flag", "pole", "sail", "pennant", "signal"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"21\" x2=\"5\" y2=\"3\"/><polygon class=\"d p2\" points=\"5,3 19,15 5,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

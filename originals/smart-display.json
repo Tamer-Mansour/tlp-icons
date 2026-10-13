@@ -1,0 +1,11 @@
+{
+  "name": "smart-display",
+  "category": "devices",
+  "tags": ["display", "smart", "clock", "tablet", "screen"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p1\" d=\"M12 15v4M9 19h6\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p3\" d=\"M12 9V7.5M12 9l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 9px" }
+  ]
+}

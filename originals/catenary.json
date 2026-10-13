@@ -1,0 +1,10 @@
+{
+  "name": "catenary",
+  "category": "math",
+  "tags": ["catenary", "hanging", "rope", "curve", "chain"],
+  "svg": "<path class=\"p1\" d=\"M3 6C5 17 19 17 21 6\"/><circle class=\"f p2\" cx=\"3\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"21\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

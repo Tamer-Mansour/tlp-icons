@@ -1,0 +1,12 @@
+{
+  "name": "email-warning",
+  "category": "security",
+  "tags": ["email", "warning", "alert", "phishing", "envelope", "danger"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5\" width=\"11.5\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M2.5 7l5.75 4.5L14 7\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"17\" r=\"3\"/><path class=\"p4\" d=\"M18.5 14.5v2\"/><circle class=\"f p4\" cx=\"18.5\" cy=\"19.2\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

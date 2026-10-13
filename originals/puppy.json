@@ -1,0 +1,11 @@
+{
+  "name": "puppy",
+  "category": "nature",
+  "tags": ["puppy", "floppy ears", "dog", "young", "pet"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"6\"/><path class=\"p2\" d=\"M6 8 Q2 8 3 14 Q5 15 6 12 M18 8 Q22 8 21 14 Q19 15 18 12\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 400, "origin": "12px 6px" },
+    { "part": "p3", "anim": "tap", "dur": 400, "delay": 1400 }
+  ]
+}

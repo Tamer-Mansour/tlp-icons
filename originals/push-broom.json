@@ -1,0 +1,11 @@
+{
+  "name": "push-broom",
+  "category": "tools",
+  "tags": ["broom", "sweep", "clean", "cleaning", "janitor", "floor", "housekeeping"],
+  "svg": "<path class=\"d p1\" d=\"M2 15h11v6H2z\"/><path class=\"p2\" d=\"M5 17v3M8 17v3M11 17v3\"/><line class=\"p3\" x1=\"20\" y1=\"2\" x2=\"13\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1000, "origin": "13px 15px" }
+  ]
+}

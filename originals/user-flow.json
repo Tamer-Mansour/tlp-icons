@@ -1,0 +1,12 @@
+{
+  "name": "user-flow",
+  "category": "design",
+  "tags": ["user", "flow", "journey", "chain", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"5\" rx=\"2.5\"/><rect class=\"p2\" x=\"13\" y=\"9.5\" width=\"8\" height=\"5\" rx=\"2.5\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"8\" height=\"5\" rx=\"2.5\"/><path class=\"p4\" d=\"M7 8v4h6M17 14.5v4h-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

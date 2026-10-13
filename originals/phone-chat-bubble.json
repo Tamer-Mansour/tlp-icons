@@ -1,0 +1,10 @@
+{
+  "name": "phone-chat-bubble",
+  "category": "communication",
+  "tags": ["phone", "chat", "bubble", "message", "conversation", "mobile"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"3\"/><path class=\"d p2\" d=\"M9 6h6v5.5h-3l-2 2v-2H9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pancakes",
+  "category": "food",
+  "tags": ["pancakes", "breakfast", "butter", "stack", "syrup"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"16\" width=\"16\" height=\"4\" rx=\"2\"/><rect class=\"p2\" x=\"4\" y=\"10\" width=\"16\" height=\"4\" rx=\"2\"/><rect class=\"d p3\" x=\"9\" y=\"5.5\" width=\"6\" height=\"2.5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

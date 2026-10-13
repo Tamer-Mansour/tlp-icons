@@ -1,0 +1,11 @@
+{
+  "name": "tamale",
+  "category": "food",
+  "tags": ["tamale", "husk", "wrapped", "mexican", "corn", "food"],
+  "svg": "<path class=\"d p1\" d=\"M5 7.5c0-1.5 3-2.5 7-2.5s7 1 7 2.5v9c0 1.5-3 2.5-7 2.5s-7-1-7-2.5z\"/><path class=\"p2\" d=\"M5 7.5c0 1.5 3 2.5 7 2.5s7-1 7-2.5\"/><path class=\"p3\" d=\"M8.5 10v7M15.5 10v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

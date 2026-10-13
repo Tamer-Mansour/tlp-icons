@@ -1,0 +1,11 @@
+{
+  "name": "word-count",
+  "category": "text",
+  "tags": ["word", "count", "number", "badge", "total", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 7h8M3 12h10M3 17h6\"/><circle class=\"d p2\" cx=\"17\" cy=\"17\" r=\"4.5\"/><path class=\"p3\" d=\"M15.5 19.5v-4.5M18 15h2v2h-2v2h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1000 }
+  ]
+}

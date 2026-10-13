@@ -1,0 +1,10 @@
+{
+  "name": "motorcycle-helmet",
+  "category": "vehicles",
+  "tags": ["motorcycle", "helmet", "rider", "safety", "visor"],
+  "svg": "<path class=\"d p1\" d=\"M4 15c0-6 3.5-9.5 8-9.5s8 3.5 8 9.5v2.5c0 1.5-1 2.5-2.5 2.5H6.5C5 20 4 19 4 17.5z\"/><path class=\"p2\" d=\"M6 13.5h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 }
+  ]
+}

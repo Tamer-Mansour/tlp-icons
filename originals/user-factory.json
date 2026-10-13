@@ -1,0 +1,10 @@
+{
+  "name": "user-factory",
+  "category": "people",
+  "tags": ["user", "factory", "industry", "plant", "production", "person", "worker"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"8\" r=\"3.2\"/><path class=\"p1\" d=\"M1.5 20v-1.5a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4V20\"/><path class=\"d p2\" d=\"M15.5 21V12l3.25 2.5V12l3.25 2.5V8.5h1V21z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 500 }
+  ]
+}

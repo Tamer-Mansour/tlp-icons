@@ -1,0 +1,10 @@
+{
+  "name": "toll-gate",
+  "category": "vehicles",
+  "tags": ["toll gate", "barrier", "raised arm", "road", "post", "entrance"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"20\" x2=\"5\" y2=\"9\"/><line class=\"p1\" x1=\"19\" y1=\"20\" x2=\"19\" y2=\"9\"/><line class=\"p2\" x1=\"5\" y1=\"9\" x2=\"18\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 600, "origin": "5px 9px" }
+  ]
+}

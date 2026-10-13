@@ -1,0 +1,10 @@
+{
+  "name": "align-center-guides",
+  "category": "interface",
+  "tags": ["align", "center", "guides", "layout", "box"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M12 2V22M2 12H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 800 }
+  ]
+}

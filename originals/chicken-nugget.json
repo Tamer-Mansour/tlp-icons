@@ -1,0 +1,10 @@
+{
+  "name": "chicken-nugget",
+  "category": "food",
+  "tags": ["nugget", "chicken", "fried", "meat", "snack"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 C5 5 9 4 12 5 C13.5 6.5 16.5 6.5 17 4.5 C19.5 6 20 10 19.5 13 C19 17 15 20 11 19 C8 18.5 5 16 5 12.5 Z\"/><circle class=\"f p2\" cx=\"9\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

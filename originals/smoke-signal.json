@@ -1,0 +1,10 @@
+{
+  "name": "smoke-signal",
+  "category": "communication",
+  "tags": ["smoke", "signal", "fire", "puff", "alert"],
+  "svg": "<path class=\"p1\" d=\"M5 21h14\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"13\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 900, "delay": 400 }
+  ]
+}

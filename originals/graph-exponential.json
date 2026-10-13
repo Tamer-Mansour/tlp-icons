@@ -1,0 +1,10 @@
+{
+  "name": "graph-exponential",
+  "category": "math",
+  "tags": ["graph", "exponential", "growth", "curve", "axes"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"p2\" d=\"M5 19 C9 19 12 17 14 13 C16 9 18 5 20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 600 }
+  ]
+}

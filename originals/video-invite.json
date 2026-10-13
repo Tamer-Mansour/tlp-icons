@@ -1,0 +1,11 @@
+{
+  "name": "video-invite",
+  "category": "communication",
+  "tags": ["video", "invite", "camera", "meeting", "envelope"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8.5\" width=\"13\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M15.5 11.5L21 8v8l-5.5-3.5\"/><rect class=\"p3\" x=\"7\" y=\"2.5\" width=\"6\" height=\"4\" rx=\"0.5\"/><path class=\"p3\" d=\"M7 3l3 2 3-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

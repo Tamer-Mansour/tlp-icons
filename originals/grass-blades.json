@@ -1,0 +1,11 @@
+{
+  "name": "grass-blades",
+  "category": "nature",
+  "tags": ["grass", "blades", "lawn", "green", "plant"],
+  "svg": "<path class=\"p1\" d=\"M7 21C5 16 5 12 3 9\"/><path class=\"p2\" d=\"M12 21V5\"/><path class=\"p3\" d=\"M17 21C19 16 19 12 21 9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

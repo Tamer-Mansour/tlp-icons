@@ -1,0 +1,11 @@
+{
+  "name": "rooftop-garden",
+  "category": "buildings",
+  "tags": ["rooftop", "garden", "planter", "roof", "plants", "green"],
+  "svg": "<path class=\"p1\" d=\"M3 11h18v10H3z\"/><rect class=\"d p2\" x=\"6\" y=\"6\" width=\"4\" height=\"5\"/><rect class=\"d p2\" x=\"14\" y=\"6\" width=\"4\" height=\"5\"/><path class=\"p3\" d=\"M8 6V3.5M16 6V3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1200, "origin": "12px 6px" }
+  ]
+}

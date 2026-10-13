@@ -1,0 +1,12 @@
+{
+  "name": "signal-full",
+  "category": "notifications",
+  "tags": ["signal", "bars", "strength", "network", "reception", "connection"],
+  "svg": "<path class=\"p1\" d=\"M4 20v-4\"/><path class=\"p2\" d=\"M9.5 20v-8\"/><path class=\"p3\" d=\"M15 20V8\"/><path class=\"p4\" d=\"M20.5 20V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 300, "delay": 100 },
+    { "part": "p3", "anim": "grow", "dur": 300, "delay": 200 },
+    { "part": "p4", "anim": "equalize", "dur": 700, "delay": 400 }
+  ]
+}

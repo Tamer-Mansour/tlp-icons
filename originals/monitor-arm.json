@@ -1,0 +1,11 @@
+{
+  "name": "monitor-arm",
+  "category": "devices",
+  "tags": ["monitor", "arm", "mount", "clamp", "desk", "screen"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"3\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M5 6.5h4l6 5\"/><rect class=\"d p3\" x=\"11\" y=\"8\" width=\"10\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

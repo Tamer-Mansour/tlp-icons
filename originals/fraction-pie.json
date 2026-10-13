@@ -1,0 +1,10 @@
+{
+  "name": "fraction-pie",
+  "category": "science",
+  "tags": ["fraction", "pie", "slice", "portion", "math", "share"],
+  "svg": "<path class=\"d p1\" d=\"M12 12V3A9 9 0 1 1 3 12Z\"/><path class=\"p2\" d=\"M15 9V3A6 6 0 0 1 21 9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 800 }
+  ]
+}

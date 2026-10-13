@@ -1,0 +1,11 @@
+{
+  "name": "jam-jar",
+  "category": "food",
+  "tags": ["jam", "jar", "preserve", "fruit", "food"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\"/><line class=\"p3\" x1=\"6\" y1=\"13\" x2=\"18\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

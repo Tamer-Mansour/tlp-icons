@@ -1,0 +1,11 @@
+{
+  "name": "decimal-tab",
+  "category": "text",
+  "tags": ["decimal", "tab", "numbers", "align", "column"],
+  "svg": "<path class=\"p1\" d=\"M12 3V21\"/><path class=\"p2\" d=\"M5 7H10M8 12H10M6 17H10\"/><path class=\"p3\" d=\"M14 7H19M14 12H17M14 17H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 700 }
+  ]
+}

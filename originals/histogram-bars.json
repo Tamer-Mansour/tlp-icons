@@ -1,0 +1,10 @@
+{
+  "name": "histogram-bars",
+  "category": "math",
+  "tags": ["histogram", "bars", "chart", "data", "frequency", "statistics"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"13\" width=\"4\" height=\"8\"/><rect class=\"p1\" x=\"10\" y=\"5\" width=\"4\" height=\"16\"/><rect class=\"p1\" x=\"17\" y=\"10\" width=\"4\" height=\"11\"/><line class=\"p2\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 300, "origin": "bottom" }
+  ]
+}

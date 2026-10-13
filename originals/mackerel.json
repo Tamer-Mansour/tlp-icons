@@ -1,0 +1,12 @@
+{
+  "name": "mackerel",
+  "category": "nature",
+  "tags": ["fish", "stripes", "torpedo", "fork", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 Q7 8 14 9 Q18 10 19 12 Q18 14 14 15 Q7 16 3 12 Z\"/><polyline class=\"p2\" points=\"6,9.5 8.5,12 6,14.5 10.5,12 12,9.5\"/><path class=\"p3\" d=\"M18 12 L22 8 L20 12 L22 16 Z\"/><circle class=\"f p4\" cx=\"6\" cy=\"11\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "18px 12px" }
+  ]
+}

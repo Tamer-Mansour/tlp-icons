@@ -1,0 +1,11 @@
+{
+  "name": "park-gate",
+  "category": "buildings",
+  "tags": ["park gate", "park", "entrance", "arch", "garden", "trees"],
+  "svg": "<path class=\"p1\" d=\"M8 21V12a4 4 0 0 1 8 0v9\"/><circle class=\"d p2\" cx=\"3.5\" cy=\"9\" r=\"2.5\"/><circle class=\"d p3\" cx=\"20.5\" cy=\"9\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1200 }
+  ]
+}

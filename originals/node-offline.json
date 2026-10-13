@@ -1,0 +1,11 @@
+{
+  "name": "node-offline",
+  "category": "notifications",
+  "tags": ["server", "node", "offline", "down", "network", "link"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"3\" y=\"13\" width=\"12\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M16 16h2.5\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dim", "dur": 900, "delay": 700 }
+  ]
+}

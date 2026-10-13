@@ -1,0 +1,12 @@
+{
+  "name": "virtual-assistant",
+  "category": "communication",
+  "tags": ["assistant", "avatar", "bot", "helper", "virtual", "ai"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7.5\" width=\"16\" height=\"12.5\" rx=\"3.5\"/><path class=\"p2\" d=\"M12 7.5V4.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1.2\"/><circle class=\"f p3\" cx=\"9\" cy=\"13\" r=\"1.3\"/><circle class=\"f p3\" cx=\"15\" cy=\"13\" r=\"1.3\"/><path class=\"p4\" d=\"M9.5 16.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

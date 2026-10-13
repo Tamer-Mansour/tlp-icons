@@ -1,0 +1,10 @@
+{
+  "name": "repeat-symbol",
+  "category": "emoji",
+  "tags": ["repeat", "loop", "arrows", "cycle", "refresh"],
+  "svg": "<path class=\"p1\" d=\"M5 10a7 7 0 0 1 12-2\"/><path class=\"p1\" d=\"M17 4v4h-4\"/><path class=\"p2\" d=\"M19 14a7 7 0 0 1-12 2\"/><path class=\"p2\" d=\"M7 20v-4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bonobo",
+  "category": "nature",
+  "tags": ["bonobo", "ape", "monkey", "primate", "hair parting", "animal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M5 9Q7 4 12 4Q17 4 19 9\"/><path class=\"p3\" d=\"M12 4V8\"/><circle class=\"f p4\" cx=\"9\" cy=\"12.5\" r=\"1\"/><circle class=\"f p4\" cx=\"15\" cy=\"12.5\" r=\"1\"/><path class=\"p5\" d=\"M9 16.5Q12 18.5 15 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "blink", "dur": 400, "delay": 1200 },
+    { "part": "p5", "anim": "nod", "dur": 500, "delay": 1400 }
+  ]
+}

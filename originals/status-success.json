@@ -1,0 +1,10 @@
+{
+  "name": "status-success",
+  "category": "notifications",
+  "tags": ["status", "success", "check", "done", "ok"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 12.5 L11 15.5 L16 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "loop-video",
+  "category": "media",
+  "tags": ["loop", "video", "repeat", "frame", "replay", "cycle"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M19.5 10.5A8 8 0 0 0 4.5 10.5M4.5 6.5V10.5H8.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dawn",
+  "category": "weather",
+  "tags": ["dawn", "sunrise", "morning", "horizon", "rays", "early"],
+  "svg": "<path class=\"p1\" d=\"M3 17h18\"/><path class=\"d p2\" d=\"M7.5 17a4.5 4.5 0 0 1 9 0z\"/><path class=\"p3\" d=\"M12 4v2.5M5.5 8.5L7 10M18.5 8.5L17 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "right-align-tab",
+  "category": "text",
+  "tags": ["right", "align", "tab", "text", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 12H9\"/><path class=\"p2\" d=\"M7 10L9 12L7 14\"/><path class=\"p3\" d=\"M13 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "beach-hut",
+  "category": "buildings",
+  "tags": ["beach hut", "beach", "striped", "seaside", "sand"],
+  "svg": "<path class=\"d p1\" d=\"M5 19V11h14v8z\"/><path class=\"p2\" d=\"M3 11l9-6 9 6\"/><path class=\"p3\" d=\"M9 19v-5M12 19v-5M15 19v-5\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "letter-grid",
+  "category": "text",
+  "tags": ["grid", "letters", "squares", "alphabet", "tiles"],
+  "svg": "<path class=\"p1\" d=\"M2 2H7V7H2ZM9 2H14V7H9ZM16 2H21V7H16Z\"/><path class=\"p2\" d=\"M2 9H7V14H2ZM9 9H14V14H9ZM16 9H21V14H16Z\"/><path class=\"p3\" d=\"M2 16H7V21H2ZM9 16H14V21H9ZM16 16H21V21H16Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 500 }
+  ]
+}

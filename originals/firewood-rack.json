@@ -1,0 +1,10 @@
+{
+  "name": "firewood-rack",
+  "category": "home",
+  "tags": ["firewood", "rack", "logs", "fireplace", "wood"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18M5 16v5M19 16v5\"/><rect class=\"p2\" x=\"6\" y=\"3\" width=\"12\" height=\"3\" rx=\"1.5\"/><rect class=\"p2\" x=\"6\" y=\"8\" width=\"12\" height=\"3\" rx=\"1.5\"/><rect class=\"p2\" x=\"6\" y=\"13\" width=\"12\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 }
+  ]
+}

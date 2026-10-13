@@ -1,0 +1,10 @@
+{
+  "name": "roof-shingle",
+  "category": "home",
+  "tags": ["shingle", "roof", "tile", "roofing", "house", "building"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h16v12l-8 7-8-7z\"/><path class=\"p2\" d=\"M4 8h16M4 13h16M9 3v5M15 3v5M12 8v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

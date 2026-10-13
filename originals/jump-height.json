@@ -1,0 +1,10 @@
+{
+  "name": "jump-height",
+  "category": "sport",
+  "tags": ["jump", "height", "vertical", "leap", "measure"],
+  "svg": "<path class=\"p1\" d=\"M7 8V21M4.5 10.5L7 8L9.5 10.5M4.5 18.5L7 21L9.5 18.5\"/><circle class=\"p2\" cx=\"17\" cy=\"4.5\" r=\"1.5\"/><path class=\"p2\" d=\"M17 8V13M15 10.5H19M17 13L15.5 16M17 13L18.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "jump", "dur": 600, "delay": 900 }
+  ]
+}

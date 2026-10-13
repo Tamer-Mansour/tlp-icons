@@ -1,0 +1,11 @@
+{
+  "name": "page-numbers",
+  "category": "text",
+  "tags": ["pages", "numbers", "pagination", "two", "document"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"8\" height=\"18\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"8\" height=\"18\" rx=\"1.5\"/><path class=\"p3\" d=\"M5 17h3M16 17h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

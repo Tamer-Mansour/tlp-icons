@@ -1,0 +1,11 @@
+{
+  "name": "window-arrange",
+  "category": "layout",
+  "tags": ["window", "arrange", "grid", "tidy", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p2\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p3\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

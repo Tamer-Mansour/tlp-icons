@@ -1,0 +1,11 @@
+{
+  "name": "litmus-paper",
+  "category": "science",
+  "tags": ["litmus", "paper", "ph", "test", "chemistry", "strip"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"15\" rx=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1.2\"/><path class=\"p3\" d=\"M6 21h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1200 }
+  ]
+}

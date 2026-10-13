@@ -1,0 +1,10 @@
+{
+  "name": "changing-room",
+  "category": "buildings",
+  "tags": ["changing", "room", "curtain", "booth", "fitting", "privacy"],
+  "svg": "<polyline class=\"p1\" points=\"4,21 4,4 20,4 20,21\"/><path class=\"p2\" d=\"M9.5 4q2 8 0 17\"/><path class=\"p2\" d=\"M14.5 4q-2 8 0 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 800 }
+  ]
+}

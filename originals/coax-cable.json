@@ -1,0 +1,11 @@
+{
+  "name": "coax-cable",
+  "category": "connectivity",
+  "tags": ["coax", "cable", "connector", "wire", "antenna", "shielded", "video"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"12\" r=\"4\"/><circle class=\"p2\" cx=\"6\" cy=\"12\" r=\"1.5\"/><path class=\"p3\" d=\"M10 12h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pouf",
+  "category": "home",
+  "tags": ["pouf", "cushion", "round", "tufted", "seat", "furniture"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M4 9v6c0 2 3.5 3 8 3s8-1 8-3V9\"/><circle class=\"f p3\" cx=\"9\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "golf-flag-hole",
+  "category": "sport",
+  "tags": ["golf", "hole", "flag", "green", "course", "putting"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"19\" rx=\"4\" ry=\"1.5\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"19\"/><path class=\"d p3\" d=\"M12 3L19 5L12 7Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

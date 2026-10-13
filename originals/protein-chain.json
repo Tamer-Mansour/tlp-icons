@@ -1,0 +1,10 @@
+{
+  "name": "protein-chain",
+  "category": "science",
+  "tags": ["protein", "chain", "molecule", "amino", "biology"],
+  "svg": "<path class=\"p1\" d=\"M4 17L8 9l4 8 4-8 4 8\"/><circle class=\"f p2\" cx=\"8\" cy=\"9\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

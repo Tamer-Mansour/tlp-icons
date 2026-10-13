@@ -1,0 +1,10 @@
+{
+  "name": "comment-dots",
+  "category": "interface",
+  "tags": ["comment", "dots", "typing", "speech", "bubble", "message"],
+  "svg": "<path class=\"p1\" d=\"M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-10l-4 3.5V18H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"f p2\" cx=\"8\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

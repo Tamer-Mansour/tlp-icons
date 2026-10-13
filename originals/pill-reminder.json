@@ -1,0 +1,10 @@
+{
+  "name": "pill-reminder",
+  "category": "notifications",
+  "tags": ["pill", "medicine", "reminder", "clock", "dose"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"9\" height=\"6\" rx=\"3\"/><path class=\"p1\" d=\"M6.5 9v6\"/><circle class=\"p2\" cx=\"17.5\" cy=\"12\" r=\"4.5\"/><path class=\"p2\" d=\"M17.5 9.5V12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

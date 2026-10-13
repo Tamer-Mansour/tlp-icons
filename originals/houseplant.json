@@ -1,0 +1,11 @@
+{
+  "name": "houseplant",
+  "category": "home",
+  "tags": ["houseplant", "plant", "pot", "leaf", "green"],
+  "svg": "<path class=\"d p1\" d=\"M7 14h10l-1.5 7h-7z\"/><path class=\"p2\" d=\"M12 14V7\"/><path class=\"p3\" d=\"M12 10c-2.5 0-4-1.5-4-3.5 2.5 0 4 1.5 4 3.5zM12 8c2.5 0 4-1.5 4-3.5-2.5 0-4 1.5-4 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 1000, "origin": "12px 14px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ice-cream-scoop",
+  "category": "food",
+  "tags": ["ice cream", "scoop", "dessert", "handle", "tool"],
+  "svg": "<path class=\"d p1\" d=\"M5 10 Q5 4 12 4 Q19 4 19 10 Q12 13 5 10 Z\"/><path class=\"p3\" d=\"M9 8 Q12 6 15 8\"/><path class=\"p2\" d=\"M12 11.5 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

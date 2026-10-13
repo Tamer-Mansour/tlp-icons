@@ -1,0 +1,10 @@
+{
+  "name": "ecg-line",
+  "category": "notifications",
+  "tags": ["heartbeat", "pulse", "ecg", "health", "monitor", "medical"],
+  "svg": "<path class=\"p1\" d=\"M2 12h4l2-5 3 10 2-7 2 2h5\"/><circle class=\"f p2\" cx=\"19\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "garden-hose",
+  "category": "home",
+  "tags": ["garden", "hose", "water", "coil", "watering", "nozzle"],
+  "svg": "<path class=\"p1\" d=\"M5 6H16A2.5 2.5 0 0 1 16 11H6A2.5 2.5 0 0 0 6 16H16A2.5 2.5 0 0 1 16 21H7\"/><path class=\"p2\" d=\"M7 21H3V17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1100, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1100, "origin": "7px 21px" }
+  ]
+}

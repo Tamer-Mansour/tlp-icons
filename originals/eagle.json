@@ -1,0 +1,11 @@
+{
+  "name": "eagle",
+  "category": "nature",
+  "tags": ["eagle", "spread wings", "hooked beak", "raptor", "bird"],
+  "svg": "<path class=\"d p1\" d=\"M1.5 8 Q5 5 9 8 Q10.5 9 12 13 Q13.5 9 15 8 Q19 5 22.5 8 Q19 12 16 13 L12 16 L8 13 Q5 12 1.5 8 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"7.5\" r=\"1.8\"/><path class=\"p3\" d=\"M13.6 7.2 L15.3 8 L13.6 8.8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "flutter", "dur": 900, "delay": 1200 }
+  ]
+}

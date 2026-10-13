@@ -1,0 +1,12 @@
+{
+  "name": "encrypt-arrow",
+  "category": "security",
+  "tags": ["encrypt", "lock", "document", "arrow", "protect"],
+  "svg": "<path class=\"p1\" d=\"M3 2.5h10l4 4v5H3z\"/><path class=\"p3\" d=\"M3 17.5h8M8 14.5l3 3-3 3\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"7\" height=\"6\" rx=\"1.2\"/><path class=\"p4\" d=\"M16 14v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

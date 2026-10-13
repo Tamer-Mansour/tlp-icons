@@ -1,0 +1,11 @@
+{
+  "name": "key-cabinet",
+  "category": "security",
+  "tags": ["key", "cabinet", "keys", "storage", "hooks", "cupboard"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M8 7v5M12 7v5M16 7v5\"/><path class=\"p3\" d=\"M4 15.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

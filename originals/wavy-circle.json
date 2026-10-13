@@ -1,0 +1,10 @@
+{
+  "name": "wavy-circle",
+  "category": "shapes",
+  "tags": ["wavy", "circle", "badge", "scallop", "seal"],
+  "svg": "<path class=\"d p1\" d=\"M19 12A3 3 0 0 1 16.95 16.95A3 3 0 0 1 12 19A3 3 0 0 1 7.05 16.95A3 3 0 0 1 5 12A3 3 0 0 1 7.05 7.05A3 3 0 0 1 12 5A3 3 0 0 1 16.95 7.05A3 3 0 0 1 19 12z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

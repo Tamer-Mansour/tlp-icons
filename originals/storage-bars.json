@@ -1,0 +1,10 @@
+{
+  "name": "storage-bars",
+  "category": "charts",
+  "tags": ["storage", "bars", "disk", "capacity", "usage", "levels"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18v3H3zM3 10h18v3H3zM3 17h18v3H3z\"/><path class=\"d p2\" d=\"M3 3h12v3H3zM3 10h7v3H3zM3 17h16v3H3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "data-flow",
+  "category": "charts",
+  "tags": ["flow", "transfer", "database", "cylinders", "movement"],
+  "svg": "<ellipse class=\"p1\" cx=\"5\" cy=\"6\" rx=\"3\" ry=\"1.5\"/><path class=\"p1\" d=\"M2 6v10c0 .8 1.3 1.5 3 1.5s3-.7 3-1.5V6\"/><ellipse class=\"p2\" cx=\"19\" cy=\"6\" rx=\"3\" ry=\"1.5\"/><path class=\"p2\" d=\"M16 6v10c0 .8 1.3 1.5 3 1.5s3-.7 3-1.5V6\"/><path class=\"p3\" d=\"M9 12c2-3 4-3 6 0M13.5 10.5L15 12l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

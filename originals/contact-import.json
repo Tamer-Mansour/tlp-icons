@@ -1,0 +1,11 @@
+{
+  "name": "contact-import",
+  "category": "people",
+  "tags": ["contact", "import", "tray", "arrow", "download", "address"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"9\" rx=\"1.5\"/><path class=\"d p3\" d=\"M3 14h4l1.5 2.5h7L17 14h4v6H3z\"/><path class=\"p2\" d=\"M18 3v8M15.5 8.5 18 11l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "fall", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "newspaper-holder",
+  "category": "home",
+  "tags": ["newspaper", "holder", "rack", "wall", "paper", "news"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"12\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M8 7h6M8 10h6M8 13h4\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

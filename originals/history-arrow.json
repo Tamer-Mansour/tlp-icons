@@ -1,0 +1,10 @@
+{
+  "name": "history-arrow",
+  "category": "arrows",
+  "tags": ["history", "clock", "past", "recent", "log", "time"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 A8 8 0 1 0 6.5 6.2 L3.5 3.5 V8 H8\"/><polyline class=\"p2\" points=\"12 7.5 12 12 15 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 900, "origin": "12px 12px" }
+  ]
+}

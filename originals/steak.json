@@ -1,0 +1,10 @@
+{
+  "name": "steak",
+  "category": "food",
+  "tags": ["steak", "meat", "beef", "grill", "dinner", "bone"],
+  "svg": "<path class=\"d p1\" d=\"M5 6 C9 3.5 15.5 4 19 8.5 C21.5 12 20.5 18 16.5 19.5 C12.5 21 6.5 20 4.5 16 C3 13 3.5 8.5 5 6 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "scantron-sheet",
+  "category": "science",
+  "tags": ["scantron", "test", "answers", "bubbles", "exam", "form"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"1\"/><circle class=\"p2\" cx=\"8\" cy=\"9\" r=\"1\"/><circle class=\"p2\" cx=\"16\" cy=\"9\" r=\"1\"/><circle class=\"p2\" cx=\"8\" cy=\"15\" r=\"1\"/><circle class=\"p2\" cx=\"16\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

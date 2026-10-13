@@ -1,0 +1,11 @@
+{
+  "name": "sand-glass",
+  "category": "time",
+  "tags": ["sand", "glass", "hourglass", "timer", "wait", "countdown"],
+  "svg": "<path class=\"p1\" d=\"M7 3c0 4 5 6 5 9s-5 5-5 9M17 3c0 4-5 6-5 9s5 5 5 9\"/><path class=\"p2\" d=\"M5 3h14M5 21h14\"/><path class=\"d p3\" d=\"M9.5 19c.5-2 2.5-3 2.5-4.5 0 1.5 2 2.5 2.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

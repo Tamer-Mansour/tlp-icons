@@ -1,0 +1,11 @@
+{
+  "name": "hydraulic-jack",
+  "category": "tools",
+  "tags": ["hydraulic", "jack", "lift", "bottle", "car", "pressure"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"13\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M12 13 V7 M8 7 H16\"/><path class=\"p3\" d=\"M4 21 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 1000 }
+  ]
+}

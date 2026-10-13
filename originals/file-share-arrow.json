@@ -1,0 +1,11 @@
+{
+  "name": "file-share-arrow",
+  "category": "communication",
+  "tags": ["file", "share", "arrow", "document", "upload"],
+  "svg": "<path class=\"d p1\" d=\"M3 4.5h8.5L15 8v12.5H3z\"/><path class=\"p2\" d=\"M11.5 4.5V8H15\"/><path class=\"p3\" d=\"M18.5 2.5h3v3M21.5 2.5L17 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ruler-straight",
+  "category": "science",
+  "tags": ["ruler", "measure", "length", "straight", "tool"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 8V11M8 8V10M11 8V11M14 8V10M17 8V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 }
+  ]
+}

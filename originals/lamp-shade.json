@@ -1,0 +1,10 @@
+{
+  "name": "lamp-shade",
+  "category": "home",
+  "tags": ["lamp", "shade", "table lamp", "light", "furniture"],
+  "svg": "<path class=\"d p1\" d=\"M8 4h8l4 8H4z\"/><path class=\"p2\" d=\"M12 12v6M8 20h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dataset-version",
+  "category": "charts",
+  "tags": ["dataset", "version", "branch", "documents", "data", "revision"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8\" cy=\"5.5\" rx=\"5\" ry=\"2.5\"/><path class=\"p2\" d=\"M3 5.5v12c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-12M3 11.5c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5\"/><path class=\"p3\" d=\"M18.5 14.5a3 3 0 1 0 0 6a3 3 0 1 0 0-6zM18.5 19v-3.5M17 17l1.5-1.5L20 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

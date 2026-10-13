@@ -1,0 +1,11 @@
+{
+  "name": "tracking-off",
+  "category": "security",
+  "tags": ["tracking", "off", "target", "privacy", "disable", "crosshair"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M4 4l16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

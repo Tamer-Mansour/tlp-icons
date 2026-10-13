@@ -1,0 +1,12 @@
+{
+  "name": "marmot",
+  "category": "nature",
+  "tags": ["marmot", "groundhog", "rodent", "standing", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M8 21 V14 Q8 9 12 9 Q16 9 16 14 V21 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M8.5 13 L5 10\"/><path class=\"p4\" d=\"M3 21 H21\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

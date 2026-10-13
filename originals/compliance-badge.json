@@ -1,0 +1,11 @@
+{
+  "name": "compliance-badge",
+  "category": "security",
+  "tags": ["compliance", "badge", "rosette", "certified", "award", "verified"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M8.5 16L7 21.5l3-1.5 2 2 2-2 3 1.5L15.5 16\"/><path class=\"p3\" d=\"M9 10.5l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

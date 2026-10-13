@@ -1,0 +1,11 @@
+{
+  "name": "interview-user",
+  "category": "people",
+  "tags": ["interview", "meeting", "talk", "candidate", "conversation", "hiring"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"10\" r=\"3\"/><path class=\"p1\" d=\"M2.5 21v-2a5.5 5.5 0 0 1 11 0v2\"/><circle class=\"d p2\" cx=\"18\" cy=\"10\" r=\"3\"/><path class=\"p2\" d=\"M12.5 21v-2a5.5 5.5 0 0 1 11 0v2\"/><path class=\"p3\" d=\"M4 3.5h8v4.5H7l-3 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

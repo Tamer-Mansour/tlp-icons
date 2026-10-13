@@ -1,0 +1,11 @@
+{
+  "name": "telescope-eyepiece",
+  "category": "devices",
+  "tags": ["telescope", "eyepiece", "lens", "optics", "astronomy", "view"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"9\" width=\"13\" height=\"6\" rx=\"1\"/><ellipse class=\"p2\" cx=\"20\" cy=\"12\" rx=\"1.5\" ry=\"3\"/><line class=\"p3\" x1=\"11\" y1=\"17\" x2=\"11\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

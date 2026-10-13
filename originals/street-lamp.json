@@ -1,0 +1,12 @@
+{
+  "name": "street-lamp",
+  "category": "buildings",
+  "tags": ["street lamp", "lamp post", "light", "streetlight", "lighting"],
+  "svg": "<path class=\"p1\" d=\"M12 21V9\"/><path class=\"p2\" d=\"M8 21h8\"/><path class=\"d p3\" d=\"M9 9a3 3 0 0 1 6 0z\"/><path class=\"p4\" d=\"M12 2v1.5M5.5 5.5l1 1M18.5 5.5l-1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

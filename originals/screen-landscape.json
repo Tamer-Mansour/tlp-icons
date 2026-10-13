@@ -1,0 +1,10 @@
+{
+  "name": "screen-landscape",
+  "category": "layout",
+  "tags": ["screen", "landscape", "display", "wide", "horizontal", "orientation"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"f p2\" cx=\"5.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

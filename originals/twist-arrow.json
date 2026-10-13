@@ -1,0 +1,11 @@
+{
+  "name": "twist-arrow",
+  "category": "arrows",
+  "tags": ["twist", "ribbon", "twirl", "spiral", "knot", "curl"],
+  "svg": "<path class=\"p1\" d=\"M3 7c6 0 6 10 12 10h3\"/><path class=\"p2\" d=\"M3 17c6 0 6-10 12-10\"/><path class=\"p3\" d=\"M16 14.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

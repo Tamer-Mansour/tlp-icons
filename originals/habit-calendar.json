@@ -1,0 +1,11 @@
+{
+  "name": "habit-calendar",
+  "category": "time",
+  "tags": ["habit", "calendar", "check", "tracker", "streak", "days"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M4 10h16\"/><path class=\"p3\" d=\"M7 14l1.5 1.5L11 13M13 14l1.5 1.5L17 13M7 18l1.5 1.5L11 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hero-section",
+  "category": "layout",
+  "tags": ["hero", "section", "banner", "headline", "landing", "page"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"5\" y=\"5\" width=\"14\" height=\"7\" rx=\"1\"/><line class=\"p1\" x1=\"5\" y1=\"14.5\" x2=\"13\" y2=\"14.5\"/><rect class=\"p3\" x=\"5\" y=\"17\" width=\"7\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

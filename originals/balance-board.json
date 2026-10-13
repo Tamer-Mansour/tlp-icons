@@ -1,0 +1,10 @@
+{
+  "name": "balance-board",
+  "category": "sport",
+  "tags": ["balance", "board", "dome", "training", "stability"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"18\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M9 14A3 3 0 0 1 15 14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 700, "delay": 500 }
+  ]
+}

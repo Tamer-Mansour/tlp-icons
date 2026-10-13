@@ -1,0 +1,10 @@
+{
+  "name": "swimming-pool",
+  "category": "buildings",
+  "tags": ["swimming", "pool", "water", "lanes", "waves"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 12c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 1200, "delay": 800 }
+  ]
+}

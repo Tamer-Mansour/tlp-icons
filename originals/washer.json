@@ -1,0 +1,10 @@
+{
+  "name": "washer",
+  "category": "tools",
+  "tags": ["washer", "ring", "flat", "fastener", "hole", "bolt"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 800, "delay": 900, "origin": "center" }
+  ]
+}

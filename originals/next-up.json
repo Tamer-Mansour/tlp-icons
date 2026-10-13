@@ -1,0 +1,10 @@
+{
+  "name": "next-up",
+  "category": "interface",
+  "tags": ["next", "up", "arrow", "bar", "skip"],
+  "svg": "<path class=\"p1\" d=\"M3 12H14M10.5 8.5L14 12L10.5 15.5\"/><rect class=\"d p2\" x=\"17\" y=\"5\" width=\"4\" height=\"14\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "speaker-off",
+  "category": "communication",
+  "tags": ["speaker", "mute", "volume off", "sound", "silent", "audio"],
+  "svg": "<path class=\"d p1\" d=\"M4 9.5h3.5L12 5.5v13l-4.5-4H4z\"/><path class=\"p2\" d=\"M16 9.5l5 5M21 9.5l-5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

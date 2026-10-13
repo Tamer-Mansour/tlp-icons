@@ -1,0 +1,11 @@
+{
+  "name": "carburetor",
+  "category": "vehicles",
+  "tags": ["carburetor", "fuel", "air", "throttle", "engine"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 10 V5 H15 V10\"/><path class=\"p3\" d=\"M3 13 H6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1000 }
+  ]
+}

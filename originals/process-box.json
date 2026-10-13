@@ -1,0 +1,10 @@
+{
+  "name": "process-box",
+  "category": "interface",
+  "tags": ["process", "box", "input", "output", "flow"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"6\" width=\"10\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2 12H7M4.5 9.5L2 12L4.5 14.5M17 12H22M19.5 9.5L22 12L19.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 700 }
+  ]
+}

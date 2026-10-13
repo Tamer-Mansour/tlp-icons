@@ -1,0 +1,12 @@
+{
+  "name": "browser-mockup",
+  "category": "design",
+  "tags": ["browser", "window", "mockup", "web", "page", "frame"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18\"/><rect class=\"d p4\" x=\"6\" y=\"12\" width=\"12\" height=\"5\" rx=\"1\"/><circle class=\"f p3\" cx=\"6\" cy=\"6.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"9\" cy=\"6.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

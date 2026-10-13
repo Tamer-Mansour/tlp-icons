@@ -1,0 +1,10 @@
+{
+  "name": "icing-spatula",
+  "category": "food",
+  "tags": ["spatula", "icing", "frosting", "baking", "cake", "palette knife"],
+  "svg": "<path class=\"p1\" d=\"M3 21l11-11\"/><ellipse class=\"d p2\" cx=\"16.5\" cy=\"7.5\" rx=\"4\" ry=\"2.2\" transform=\"rotate(-45 16.5 7.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

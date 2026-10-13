@@ -1,0 +1,12 @@
+{
+  "name": "approval-check",
+  "category": "notifications",
+  "tags": ["approval", "document", "signature", "check", "signed"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"13.5\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 7h6M7.5 10h6\"/><path class=\"p3\" d=\"M7 16.5c1.5-2 2.5 1.5 4-.5\"/><path class=\"p4\" d=\"M15.5 16.5l2 2 3.5-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

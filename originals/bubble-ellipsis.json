@@ -1,0 +1,10 @@
+{
+  "name": "bubble-ellipsis",
+  "category": "communication",
+  "tags": ["typing", "chat", "ellipsis", "dots", "message", "pending"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9l-4 3.5V14H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"f p2\" cx=\"6.5\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"10\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"13.5\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 800 }
+  ]
+}

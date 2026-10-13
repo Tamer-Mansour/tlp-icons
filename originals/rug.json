@@ -1,0 +1,11 @@
+{
+  "name": "rug",
+  "category": "home",
+  "tags": ["rug", "carpet", "floor", "fringe", "mat", "decor"],
+  "svg": "<path class=\"d p1\" d=\"M6 5h12l3 10H3z\"/><path class=\"p2\" d=\"M7.5 9.5h9\"/><path class=\"p3\" d=\"M7 19v2M12 19v2M17 19v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

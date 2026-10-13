@@ -1,0 +1,11 @@
+{
+  "name": "weather-vane",
+  "category": "weather",
+  "tags": ["weather vane", "wind", "direction", "arrow", "pole", "weather"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M4 9 H18 M18 9 L15 6.5 M18 9 L15 11.5\"/><line class=\"p3\" x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

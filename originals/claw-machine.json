@@ -1,0 +1,11 @@
+{
+  "name": "claw-machine",
+  "category": "devices",
+  "tags": ["claw", "machine", "arcade", "prize", "game"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M5 4h14\"/><path class=\"p3\" d=\"M12 6.5V9M9 11l3 4 3-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1200 }
+  ]
+}

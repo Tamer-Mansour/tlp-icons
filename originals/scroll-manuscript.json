@@ -1,0 +1,11 @@
+{
+  "name": "scroll-manuscript",
+  "category": "science",
+  "tags": ["scroll", "manuscript", "document", "parchment", "text", "roll", "archive"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"14\" height=\"3\" rx=\"1.5\"/><rect class=\"p1\" x=\"5\" y=\"18\" width=\"14\" height=\"3\" rx=\"1.5\"/><rect class=\"d p2\" x=\"6.5\" y=\"6\" width=\"11\" height=\"12\"/><path class=\"p3\" d=\"M9 10h6M9 13h6M9 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "unfold", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

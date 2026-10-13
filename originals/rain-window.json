@@ -1,0 +1,11 @@
+{
+  "name": "rain-window",
+  "category": "weather",
+  "tags": ["rain", "window", "droplet", "glass", "storm", "weather"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"13\" rx=\"1\"/><line class=\"p2\" x1=\"9\" y1=\"6\" x2=\"9\" y2=\"10\"/><line class=\"p2\" x1=\"13\" y1=\"6\" x2=\"13\" y2=\"11\"/><path class=\"p3\" d=\"M16 8c0 0-1.2 1.6-1.2 2.5a1.2 1.2 0 0 0 2.4 0c0-.9-1.2-2.5-1.2-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

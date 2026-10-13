@@ -1,0 +1,10 @@
+{
+  "name": "expand-collapse",
+  "category": "interface",
+  "tags": ["expand", "collapse", "chevron", "toggle", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M7.5 9.5L12 5l4.5 4.5\"/><path class=\"p2\" d=\"M7.5 14.5L12 19l4.5-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 500, "delay": 700 }
+  ]
+}

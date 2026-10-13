@@ -1,0 +1,10 @@
+{
+  "name": "latency-clock",
+  "category": "connectivity",
+  "tags": ["latency", "clock", "delay", "time", "lag"],
+  "svg": "<circle class=\"p1\" cx=\"14\" cy=\"13\" r=\"7\"/><path class=\"p1\" d=\"M4 11A10 10 0 0 1 8 6\"/><path class=\"p2\" d=\"M14 9V13H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "14px 13px" }
+  ]
+}

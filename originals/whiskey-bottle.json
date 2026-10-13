@@ -1,0 +1,12 @@
+{
+  "name": "whiskey-bottle",
+  "category": "food",
+  "tags": ["whiskey", "bottle", "spirits", "bourbon", "liquor", "square"],
+  "svg": "<path class=\"d p1\" d=\"M7 12h10v7.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 7 19.5z\"/><path class=\"p2\" d=\"M10 12V5h4v7\"/><path class=\"p3\" d=\"M9 3h6v2H9z\"/><path class=\"p4\" d=\"M7 16h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "stampIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

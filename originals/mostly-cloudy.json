@@ -1,0 +1,10 @@
+{
+  "name": "mostly-cloudy",
+  "category": "weather",
+  "tags": ["mostly", "cloudy", "cloud", "sun", "overcast", "weather"],
+  "svg": "<path class=\"p1\" d=\"M4 7 A3 3 0 0 1 8.5 4.5\"/><path class=\"d p2\" d=\"M7 19 H18 A3.5 3.5 0 0 0 18 12 A5 5 0 0 0 8.5 11.5 A4 4 0 0 0 7 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 500 }
+  ]
+}

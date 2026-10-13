@@ -1,0 +1,10 @@
+{
+  "name": "rating-stars",
+  "category": "interface",
+  "tags": ["rating", "stars", "review", "favorite", "score", "feedback"],
+  "svg": "<polygon class=\"d p1\" points=\"5.2 9 6 10.89 8.05 11.07 6.5 12.42 6.97 14.43 5.2 13.37 3.43 14.43 3.9 12.42 2.35 11.07 4.39 10.89\"/><polygon class=\"d p1\" points=\"12 9 12.81 10.89 14.85 11.07 13.3 12.42 13.77 14.43 12 13.37 10.23 14.43 10.7 12.42 9.15 11.07 11.19 10.89\"/><polygon class=\"p2\" points=\"18.8 9 19.6 10.89 21.65 11.07 20.1 12.42 20.57 14.43 18.8 13.37 17.03 14.43 17.5 12.42 15.95 11.07 17.99 10.89\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 600 }
+  ]
+}

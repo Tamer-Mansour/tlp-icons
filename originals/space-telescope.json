@@ -1,0 +1,11 @@
+{
+  "name": "space-telescope",
+  "category": "science",
+  "tags": ["telescope", "space", "satellite", "solar panel", "antenna", "orbit", "astronomy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"5\" rx=\"2.5\"/><path class=\"p2\" d=\"M15 11.5h2M17 6h4v11h-4z\"/><path class=\"p3\" d=\"M4.5 6.5Q7 3 9.5 6.5M7 6.5V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100, "origin": "7px 9px" }
+  ]
+}

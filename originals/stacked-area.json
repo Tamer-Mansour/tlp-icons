@@ -1,0 +1,10 @@
+{
+  "name": "stacked-area",
+  "category": "charts",
+  "tags": ["stacked", "area", "layers", "wave", "series", "chart"],
+  "svg": "<path class=\"d p1\" d=\"M3 14C6 10 9 10 12 13S18 10 21 12V20H3Z\"/><path class=\"d p2\" d=\"M3 17C6 14 9 15 12 17S18 15 21 17V20H3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 500 }
+  ]
+}

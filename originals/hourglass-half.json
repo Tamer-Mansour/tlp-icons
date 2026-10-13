@@ -1,0 +1,10 @@
+{
+  "name": "hourglass-half",
+  "category": "notifications",
+  "tags": ["hourglass", "half", "wait", "loading", "time"],
+  "svg": "<path class=\"p1\" d=\"M6 2h12M6 22h12M7 2v4l5 6 5-6V2M7 22v-4l5-6 5 6v4\"/><path class=\"d p2\" d=\"M8.5 22v-2.5l3.5-3.5 3.5 3.5V22z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 900 }
+  ]
+}

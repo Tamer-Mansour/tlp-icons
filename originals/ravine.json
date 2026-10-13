@@ -1,0 +1,10 @@
+{
+  "name": "ravine",
+  "category": "nature",
+  "tags": ["ravine", "valley", "cliff", "stream", "landform"],
+  "svg": "<path class=\"p1\" d=\"M2 5L9 14L12 17\"/><path class=\"p1\" d=\"M22 5L15 14L12 17\"/><path class=\"p2\" d=\"M7 21H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

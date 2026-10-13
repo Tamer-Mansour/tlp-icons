@@ -1,0 +1,11 @@
+{
+  "name": "lecture-podium",
+  "category": "science",
+  "tags": ["lectern", "podium", "speaker", "lecture", "stand", "teaching"],
+  "svg": "<path class=\"d p1\" d=\"M3 7.5L21 5.5V8.5L3 10.5Z\"/><path class=\"p2\" d=\"M6.5 12V21H17.5V12\"/><rect class=\"p3\" x=\"9.5\" y=\"2.5\" width=\"5\" height=\"2.5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 1100 }
+  ]
+}

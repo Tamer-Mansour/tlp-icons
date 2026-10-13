@@ -1,0 +1,10 @@
+{
+  "name": "chemical-spill",
+  "category": "science",
+  "tags": ["chemical", "spill", "flask", "liquid", "puddle", "lab", "hazard"],
+  "svg": "<path class=\"p1\" transform=\"rotate(30 12 12)\" d=\"M9.5 3h5M10 3v5l-5 8.5a1 1 0 0 0 .9 1.5h8.2a1 1 0 0 0 .9-1.5L14 8V3\"/><ellipse class=\"d p2\" cx=\"16\" cy=\"21\" rx=\"6\" ry=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

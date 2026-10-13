@@ -1,0 +1,11 @@
+{
+  "name": "potion-bottle",
+  "category": "sport",
+  "tags": ["potion", "bottle", "magic", "flask", "health", "fantasy"],
+  "svg": "<path class=\"d p1\" d=\"M10 3h4v4l5 7a4.5 4.5 0 0 1-4 6.5H9a4.5 4.5 0 0 1-4-6.5l5-7z\"/><rect class=\"p2\" x=\"9\" y=\"1\" width=\"6\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 14h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "jelly", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stag-beetle",
+  "category": "nature",
+  "tags": ["stag", "beetle", "antlers", "insect", "mandibles"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"5\" ry=\"6\"/><path class=\"p2\" d=\"M10 9.5 L7 4 M7 4 L5 4 M7 4 L6 6.5 M14 9.5 L17 4 M17 4 L19 4 M17 4 L18 6.5\"/><path class=\"p3\" d=\"M12 9 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pendulum", "dur": 1000, "delay": 700, "origin": "12px 9px" }
+  ]
+}

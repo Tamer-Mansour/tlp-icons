@@ -1,0 +1,10 @@
+{
+  "name": "sunspot",
+  "category": "weather",
+  "tags": ["sun", "sunspot", "dark spot", "solar", "space"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"17\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tv-antenna",
+  "category": "devices",
+  "tags": ["antenna", "tv", "rabbit", "ears", "signal", "aerial"],
+  "svg": "<path class=\"p1\" d=\"M12 14L6 3\"/><path class=\"p3\" d=\"M12 14L18 3\"/><path class=\"p2\" d=\"M12 14v7M8 21h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 900, "origin": "12px 14px" }
+  ]
+}

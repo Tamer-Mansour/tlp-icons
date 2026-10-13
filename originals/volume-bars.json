@@ -1,0 +1,10 @@
+{
+  "name": "volume-bars",
+  "category": "charts",
+  "tags": ["volume", "bars", "trading", "stock", "traffic", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 8Q8 4 12 8T21 7\"/><rect class=\"p2\" x=\"4\" y=\"14\" width=\"3\" height=\"6\" rx=\"0.5\"/><rect class=\"p2\" x=\"10\" y=\"11\" width=\"3\" height=\"9\" rx=\"0.5\"/><rect class=\"p2\" x=\"16\" y=\"15\" width=\"3\" height=\"5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 500, "origin": "bottom" }
+  ]
+}

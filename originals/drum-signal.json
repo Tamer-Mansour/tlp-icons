@@ -1,0 +1,11 @@
+{
+  "name": "drum-signal",
+  "category": "communication",
+  "tags": ["drum", "signal", "music", "beat", "alert", "percussion"],
+  "svg": "<path class=\"p1\" d=\"M4 14v4c0 1.7 3.6 3 8 3s8-1.3 8-3v-4\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"14\" rx=\"8\" ry=\"3\"/><path class=\"p3\" d=\"M7 2l4 5M17 2l-4 5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 700, "delay": 900 }
+  ]
+}

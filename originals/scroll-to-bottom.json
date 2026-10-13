@@ -1,0 +1,10 @@
+{
+  "name": "scroll-to-bottom",
+  "category": "arrows",
+  "tags": ["scroll", "bottom", "down", "end", "page"],
+  "svg": "<path class=\"p1\" d=\"M4 21 H20\"/><path class=\"p2\" d=\"M12 4 V16\"/><polyline class=\"p2\" points=\"8 12 12 16 16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 500 }
+  ]
+}

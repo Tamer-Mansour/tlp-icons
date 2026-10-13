@@ -1,0 +1,11 @@
+{
+  "name": "suggest-edit",
+  "category": "text",
+  "tags": ["suggest", "edit", "pencil", "review", "revision", "text"],
+  "svg": "<path class=\"d p1\" d=\"M14 3l3 3-7 7-3.5.5.5-3.5z\"/><path class=\"p2\" d=\"M4 17h9\"/><circle class=\"f p3\" cx=\"4\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

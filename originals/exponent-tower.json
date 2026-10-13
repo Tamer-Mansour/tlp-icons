@@ -1,0 +1,11 @@
+{
+  "name": "exponent-tower",
+  "category": "math",
+  "tags": ["exponent", "tower", "power", "stack", "raised"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"16\" width=\"6\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"5\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"15\" y=\"4\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

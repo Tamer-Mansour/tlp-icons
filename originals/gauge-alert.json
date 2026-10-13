@@ -1,0 +1,11 @@
+{
+  "name": "gauge-alert",
+  "category": "notifications",
+  "tags": ["gauge", "speedometer", "red zone", "alert", "overload"],
+  "svg": "<path class=\"p1\" d=\"M3.5 17a8.5 8.5 0 1 1 17 0\"/><path class=\"p3\" d=\"M18.4 10.6A8.5 8.5 0 0 1 20.5 14\"/><line class=\"p2\" x1=\"12\" y1=\"17\" x2=\"17.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1200, "origin": "12px 17px" }
+  ]
+}

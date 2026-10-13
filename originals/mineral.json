@@ -1,0 +1,11 @@
+{
+  "name": "mineral",
+  "category": "nature",
+  "tags": ["mineral", "crystal", "gem", "facets", "stone", "rock"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L19 9L12 21L5 9Z\"/><path class=\"p2\" d=\"M5 9H19M9.5 9L12 21M14.5 9L12 21\"/><path class=\"p3\" d=\"M19 3V5M18 4H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "text-glow",
+  "category": "text",
+  "tags": ["glow", "light", "rays", "shine", "highlight"],
+  "svg": "<path class=\"p1\" d=\"M7 18 L12 6 L17 18 M9.5 13 H14.5\"/><path class=\"p2\" d=\"M5 3.5 L6.5 5 M19 3.5 L17.5 5 M3 11 H5 M21 11 H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 800 }
+  ]
+}

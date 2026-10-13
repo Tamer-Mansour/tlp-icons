@@ -1,0 +1,11 @@
+{
+  "name": "research-station",
+  "category": "buildings",
+  "tags": ["research", "station", "dome", "radio", "flag", "science", "outpost"],
+  "svg": "<path class=\"d p1\" d=\"M3 20a9 9 0 0 1 18 0z\"/><path class=\"p3\" d=\"M12 11V4\"/><path class=\"p4\" d=\"M12 4h5l-1.5 2 1.5 2h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

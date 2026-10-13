@@ -1,0 +1,11 @@
+{
+  "name": "file-transcript",
+  "category": "files",
+  "tags": ["transcript", "speech", "bubble", "text", "dialogue", "conversation"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><rect class=\"d p2\" x=\"9\" y=\"8\" width=\"6\" height=\"4\" rx=\"1\"/><line class=\"p3\" x1=\"8\" y1=\"15\" x2=\"16\" y2=\"15\"/><line class=\"p3\" x1=\"8\" y1=\"18\" x2=\"13\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "stretch", "dur": 600, "delay": 1100 }
+  ]
+}

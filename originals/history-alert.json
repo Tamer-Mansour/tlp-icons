@@ -1,0 +1,12 @@
+{
+  "name": "history-alert",
+  "category": "notifications",
+  "tags": ["history", "clock", "alert", "time", "past", "log"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7v5l3 2\"/><path class=\"p3\" d=\"M3 4v5h5\"/><circle class=\"f p4\" cx=\"20.5\" cy=\"3.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 12px" },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "perceptron",
+  "category": "science",
+  "tags": ["perceptron", "neural", "network", "node", "learning"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"4\" cy=\"18\" r=\"2\"/><circle class=\"d p2\" cx=\"18\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M6 6L14 11M6 12h8M6 18L14 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

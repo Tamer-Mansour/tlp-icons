@@ -1,0 +1,11 @@
+{
+  "name": "hoist",
+  "category": "tools",
+  "tags": ["hoist", "crane", "lift", "hook", "rope", "winch"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"3\"/><rect class=\"d p2\" x=\"8\" y=\"6\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 10 V16 A3 3 0 0 0 18 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

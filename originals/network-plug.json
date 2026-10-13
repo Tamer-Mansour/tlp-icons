@@ -1,0 +1,11 @@
+{
+  "name": "network-plug",
+  "category": "connectivity",
+  "tags": ["network", "plug", "jack", "wire", "port", "cable"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M10 12v4M14 12v4\"/><path class=\"p3\" d=\"M12 16v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 1000 }
+  ]
+}

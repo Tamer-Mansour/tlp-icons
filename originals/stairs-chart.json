@@ -1,0 +1,10 @@
+{
+  "name": "stairs-chart",
+  "category": "charts",
+  "tags": ["stairs", "steps", "growth", "chart", "rising", "progress"],
+  "svg": "<line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/><polyline class=\"p1\" points=\"3 19 8 19 8 14 13 14 13 9 18 9 18 4 21 4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 300 }
+  ]
+}

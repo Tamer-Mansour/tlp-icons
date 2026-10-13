@@ -1,0 +1,10 @@
+{
+  "name": "hex-text",
+  "category": "text",
+  "tags": ["hex", "hexadecimal", "letters", "code", "digits"],
+  "svg": "<path class=\"p1\" d=\"M3 5 V19 M9 5 V19 M3 12 H9\"/><path class=\"p2\" d=\"M14.5 5 L20.5 19 M20.5 5 L14.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flipIn", "dur": 500, "delay": 500 }
+  ]
+}

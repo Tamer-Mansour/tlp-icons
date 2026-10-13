@@ -1,0 +1,11 @@
+{
+  "name": "radiator-valve",
+  "category": "home",
+  "tags": ["radiator", "valve", "wheel", "pipe", "heating", "tap", "plumbing"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"4\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"11\"/><line class=\"p2\" x1=\"8\" y1=\"7\" x2=\"16\" y2=\"7\"/><line class=\"p3\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"15\"/><rect class=\"p3\" x=\"3\" y=\"15\" width=\"18\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900, "origin": "12px 7px" }
+  ]
+}

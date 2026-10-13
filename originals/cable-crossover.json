@@ -1,0 +1,12 @@
+{
+  "name": "cable-crossover",
+  "category": "sport",
+  "tags": ["cable", "crossover", "pulley", "chest", "machine", "gym"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><line class=\"p2\" x1=\"20\" y1=\"3\" x2=\"20\" y2=\"21\"/><line class=\"p3\" x1=\"4\" y1=\"6\" x2=\"20\" y2=\"18\"/><line class=\"p4\" x1=\"20\" y1=\"6\" x2=\"4\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

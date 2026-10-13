@@ -1,0 +1,11 @@
+{
+  "name": "gas-sensor",
+  "category": "devices",
+  "tags": ["gas", "sensor", "air", "quality", "detector"],
+  "svg": "<path class=\"p1\" d=\"M8 3c-1 1 1 2 0 3M12 3c-1 1 1 2 0 3M16 3c-1 1 1 2 0 3\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M8 17a4 4 0 0 1 8 0\"/><line class=\"p3\" x1=\"12\" y1=\"17\" x2=\"14\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "12px 17px" }
+  ]
+}

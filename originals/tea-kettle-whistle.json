@@ -1,0 +1,11 @@
+{
+  "name": "tea-kettle-whistle",
+  "category": "food",
+  "tags": ["kettle", "tea", "whistle", "steam", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M4 19 V12 Q4 8 12 8 Q20 8 20 12 V19 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"4.5\" r=\"1.5\"/><path class=\"p3\" d=\"M20 14 L22 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "buzz", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wall-anchor",
+  "category": "tools",
+  "tags": ["anchor", "wall", "plug", "screw", "fastener", "drywall"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M11 12H17\"/><path class=\"p3\" d=\"M20 4V20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

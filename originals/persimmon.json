@@ -1,0 +1,11 @@
+{
+  "name": "persimmon",
+  "category": "food",
+  "tags": ["fruit", "orange", "autumn", "calyx", "sweet"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M8 8.5l2.5 1.5L12 8l1.5 2L16 8.5\"/><path class=\"p3\" d=\"M12 6V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1100, "origin": "12px 6px" }
+  ]
+}

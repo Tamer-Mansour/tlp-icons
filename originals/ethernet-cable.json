@@ -1,0 +1,11 @@
+{
+  "name": "ethernet-cable",
+  "category": "connectivity",
+  "tags": ["ethernet", "cable", "lan", "plug", "wired", "network"],
+  "svg": "<rect class=\"d p1\" x=\"14\" y=\"7\" width=\"7\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M3 12h11\"/><path class=\"p3\" d=\"M16 7V4h3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

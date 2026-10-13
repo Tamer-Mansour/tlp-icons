@@ -1,0 +1,12 @@
+{
+  "name": "barley",
+  "category": "food",
+  "tags": ["barley", "grain", "cereal", "wheat", "crop"],
+  "svg": "<path class=\"p1\" d=\"M12 22 V4\"/><path class=\"p2\" d=\"M12 10 Q8 10 8 7 Q12 7 12 10 Z M12 15 Q8 15 8 12 Q12 12 12 15 Z\"/><path class=\"p3\" d=\"M12 10 Q16 10 16 7 Q12 7 12 10 Z M12 15 Q16 15 16 12 Q12 12 12 15 Z\"/><path class=\"p4\" d=\"M12 4 Q10 6 12 8 Q14 6 12 4 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 1100 }
+  ]
+}

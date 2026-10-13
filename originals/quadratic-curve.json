@@ -1,0 +1,10 @@
+{
+  "name": "quadratic-curve",
+  "category": "math",
+  "tags": ["quadratic", "parabola", "vertex", "curve", "algebra"],
+  "svg": "<path class=\"p1\" d=\"M4 6 Q12 22 20 6\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

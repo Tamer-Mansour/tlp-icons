@@ -1,0 +1,10 @@
+{
+  "name": "airplane-mode",
+  "category": "connectivity",
+  "tags": ["airplane", "mode", "flight", "offline", "plane", "travel"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L13.5 9.5L21 12.5V14.5L13.5 13L13 18L15.5 20V21L12 20L8.5 21V20L11 18L10.5 13L3 14.5V12.5L10.5 9.5Z\"/><path class=\"p2\" d=\"M2 17Q2 2 17 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

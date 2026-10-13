@@ -1,0 +1,11 @@
+{
+  "name": "face-dizzy",
+  "category": "people",
+  "tags": ["dizzy", "face", "spiral", "confused", "emoji", "woozy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 10a1.5 1.5 0 1 1 1.5 1.5a0.5 0.5 0 0 0-0.5-0.5\"/><path class=\"p2\" d=\"M16.5 10a1.5 1.5 0 1 1 1.5 1.5a0.5 0.5 0 0 0-0.5-0.5\"/><path class=\"p3\" d=\"M8 15q1-1 2 0t2 0t2 0t2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

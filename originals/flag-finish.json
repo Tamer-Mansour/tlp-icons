@@ -1,0 +1,11 @@
+{
+  "name": "flag-finish",
+  "category": "notifications",
+  "tags": ["flag", "finish", "checkered", "race", "goal", "end"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"3\" x2=\"5\" y2=\"21\"/><path class=\"d p2\" d=\"M5 4h13l-2.5 4 2.5 4H5z\"/><line class=\"p3\" x1=\"11\" y1=\"4\" x2=\"11\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 700 }
+  ]
+}

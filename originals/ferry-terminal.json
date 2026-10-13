@@ -1,0 +1,12 @@
+{
+  "name": "ferry-terminal",
+  "category": "buildings",
+  "tags": ["ferry", "terminal", "boat", "ramp", "passengers", "dock", "harbor"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 14h17l-2.5 5H5z\"/><rect class=\"p2\" x=\"6\" y=\"9\" width=\"8\" height=\"5\"/><path class=\"p3\" d=\"M18 14l4-3.5\"/><path class=\"p4\" d=\"M2 21.5q2.5-1.5 5 0t5 0 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "bob", "dur": 1200, "delay": 1000 }
+  ]
+}

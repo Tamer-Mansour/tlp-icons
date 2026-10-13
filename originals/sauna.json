@@ -1,0 +1,11 @@
+{
+  "name": "sauna",
+  "category": "buildings",
+  "tags": ["sauna", "bench", "stove", "steam", "wood", "heat"],
+  "svg": "<path class=\"p1\" d=\"M3 15h18M5 15v5M19 15v5\"/><rect class=\"p2\" x=\"7\" y=\"10\" width=\"6\" height=\"5\"/><path class=\"p3\" d=\"M8 4c0-1 1-1 1-2M12 4c0-1 1-1 1-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "float", "dur": 800, "delay": 900 }
+  ]
+}

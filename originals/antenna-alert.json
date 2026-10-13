@@ -1,0 +1,11 @@
+{
+  "name": "antenna-alert",
+  "category": "notifications",
+  "tags": ["antenna", "signal", "mast", "alert", "reception"],
+  "svg": "<path class=\"p1\" d=\"M12 11v11M9 22h6\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1.2\"/><path class=\"p2\" d=\"M8 4a4.5 4.5 0 0 0 0 8M16 4a4.5 4.5 0 0 1 0 8\"/><path class=\"p3\" d=\"M4.5 15v3\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

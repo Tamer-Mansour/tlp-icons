@@ -1,0 +1,11 @@
+{
+  "name": "jay",
+  "category": "nature",
+  "tags": ["jay", "bird", "crest", "songbird", "perched"],
+  "svg": "<path class=\"d p1\" d=\"M7 9Q9 7 13 8Q17 10 17 14Q16 18 12 18H9Q6 16 7 9Z\"/><circle class=\"p2\" cx=\"15\" cy=\"6\" r=\"2\"/><path class=\"p2\" d=\"M13 4.5L11.5 2.5M14.5 4L14 2\"/><path class=\"p3\" d=\"M9 16L4 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "9px 16px" }
+  ]
+}

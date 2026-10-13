@@ -1,0 +1,11 @@
+{
+  "name": "hydro-plant",
+  "category": "buildings",
+  "tags": ["hydro", "dam", "turbine", "water", "power", "plant"],
+  "svg": "<path class=\"p1\" d=\"M3 6v15h9V6z\"/><path class=\"p2\" d=\"M16 4c1.5 2 2 3 2 4a2 2 0 0 1-4 0c0-1 .5-2 2-4z\"/><circle class=\"p3\" cx=\"16\" cy=\"16\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "spinFast", "dur": 1000, "delay": 1000 }
+  ]
+}

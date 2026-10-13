@@ -1,0 +1,10 @@
+{
+  "name": "pet-treat",
+  "category": "nature",
+  "tags": ["treat", "bone", "pet", "dog", "heart"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"4\"/><circle class=\"p2\" cx=\"5.5\" cy=\"8.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"5.5\" cy=\"15.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"18.5\" cy=\"8.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"18.5\" cy=\"15.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 400 }
+  ]
+}

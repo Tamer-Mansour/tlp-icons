@@ -1,0 +1,11 @@
+{
+  "name": "consent-check",
+  "category": "security",
+  "tags": ["security", "consent", "document", "pen", "sign", "agreement"],
+  "svg": "<path class=\"p1\" d=\"M2 3 H10 L13 6 V21 H2 Z\"/><polyline class=\"p2\" points=\"5 13 7.5 15.5 11 11\"/><path class=\"p3\" d=\"M15.5 20.5 L17 14.5 L20 7 L22 8.5 L18.5 17.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1300 }
+  ]
+}

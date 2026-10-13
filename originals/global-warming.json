@@ -1,0 +1,11 @@
+{
+  "name": "global-warming",
+  "category": "weather",
+  "tags": ["global", "warming", "earth", "heat", "globe", "climate"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"14\" r=\"7\"/><ellipse class=\"p2\" cx=\"10\" cy=\"14\" rx=\"3\" ry=\"7\"/><path class=\"p3\" d=\"M19 4v5M16.5 6.5L19 4l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "lift", "dur": 800, "delay": 1500 }
+  ]
+}

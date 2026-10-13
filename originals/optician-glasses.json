@@ -1,0 +1,11 @@
+{
+  "name": "optician-glasses",
+  "category": "people",
+  "tags": ["glasses", "eyeglasses", "optician", "lenses", "eyewear"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"13\" r=\"3.5\"/><circle class=\"d p1\" cx=\"17\" cy=\"13\" r=\"3.5\"/><path class=\"p2\" d=\"M10.5 12.5Q12 11 13.5 12.5\"/><path class=\"p3\" d=\"M3.5 12.5L2 10M20.5 12.5L22 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sequoia",
+  "category": "nature",
+  "tags": ["sequoia", "redwood", "giant", "tree", "forest"],
+  "svg": "<path class=\"p2\" d=\"M10 14 V22 M14 14 V22\"/><path class=\"p3\" d=\"M5 22 H19\"/><ellipse class=\"d p1\" cx=\"12\" cy=\"8\" rx=\"7\" ry=\"6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "sway", "dur": 1200, "delay": 800, "origin": "12px 14px" }
+  ]
+}

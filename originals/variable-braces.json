@@ -1,0 +1,11 @@
+{
+  "name": "variable-braces",
+  "category": "design",
+  "tags": ["variable", "braces", "code", "square", "design"],
+  "svg": "<path class=\"p1\" d=\"M8 4c-2 0-2 1.5-2 3v3c0 1-1 2-2 2 1 0 2 1 2 2v3c0 1.5 0 3 2 3\"/><path class=\"p2\" d=\"M16 4c2 0 2 1.5 2 3v3c0 1 1 2 2 2-1 0-2 1-2 2v3c0 1.5 0 3-2 3\"/><rect class=\"d p3\" x=\"10\" y=\"10\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

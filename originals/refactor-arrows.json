@@ -1,0 +1,11 @@
+{
+  "name": "refactor-arrows",
+  "category": "development",
+  "tags": ["refactor", "arrows", "code", "loop", "rewrite", "restructure"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"9.5\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M4 11a8 8 0 0 1 14-4.5M20 13a8 8 0 0 1-14 4.5\"/><path class=\"p3\" d=\"M14.5 6.5H18V3M9.5 17.5H6V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "green-tea",
+  "category": "food",
+  "tags": ["green", "tea", "leaf", "cup", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 H16 V15 Q16 19 12 19 H8 Q4 19 4 15 Z\"/><path class=\"p2\" d=\"M12 11 Q13 6 19 6 Q19 11 12 11 Z\"/><path class=\"p3\" d=\"M7 7 Q6 5 7 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 900 }
+  ]
+}

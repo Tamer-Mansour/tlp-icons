@@ -1,0 +1,10 @@
+{
+  "name": "runway",
+  "category": "vehicles",
+  "tags": ["runway", "airport", "landing", "takeoff", "strip"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 3h7L20 21H4z\"/><path class=\"p2\" d=\"M12 5.5v2M12 11.5v2M12 17.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

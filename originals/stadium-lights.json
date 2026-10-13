@@ -1,0 +1,11 @@
+{
+  "name": "stadium-lights",
+  "category": "buildings",
+  "tags": ["stadium", "lights", "floodlight", "poles", "sports", "arena"],
+  "svg": "<path class=\"p1\" d=\"M5 21V7M19 21V7\"/><rect class=\"p2\" x=\"2\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"16\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1200 }
+  ]
+}

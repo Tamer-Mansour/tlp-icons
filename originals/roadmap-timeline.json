@@ -1,0 +1,12 @@
+{
+  "name": "roadmap-timeline",
+  "category": "time",
+  "tags": ["roadmap", "timeline", "milestones", "plan", "flag", "progress"],
+  "svg": "<path class=\"p1\" d=\"M5 21V4\"/><path class=\"d p2\" d=\"M5 4h11l-2.5 3.5L16 11H5z\"/><path class=\"p3\" d=\"M3 21h18\"/><circle class=\"f p4\" cx=\"9\" cy=\"21\" r=\"1.2\"/><circle class=\"f p4\" cx=\"13\" cy=\"21\" r=\"1.2\"/><circle class=\"f p4\" cx=\"17\" cy=\"21\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "handbill",
+  "category": "communication",
+  "tags": ["handbill", "sheet", "flyer", "star", "promo", "print"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><polygon class=\"p2\" points=\"12,6 13,9 16,9 13.5,11 14.5,14 12,12.5 9.5,14 10.5,11 8,9 11,9\"/><path class=\"p3\" d=\"M8 17h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 700 }
+  ]
+}

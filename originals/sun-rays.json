@@ -1,0 +1,10 @@
+{
+  "name": "sun-rays",
+  "category": "weather",
+  "tags": ["sun", "rays", "sunshine", "bright", "daylight"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 2V4.5M12 19.5V22M2 12H4.5M19.5 12H22M4.9 4.9L6.6 6.6M17.4 17.4L19.1 19.1M4.9 19.1L6.6 17.4M17.4 6.6L19.1 4.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 500 }
+  ]
+}

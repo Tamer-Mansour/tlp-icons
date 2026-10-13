@@ -1,0 +1,11 @@
+{
+  "name": "hearth-broom",
+  "category": "home",
+  "tags": ["hearth broom", "broom", "fireplace", "sweep", "cleaning"],
+  "svg": "<path class=\"d p1\" d=\"M6 14h8l2 6H4z\"/><path class=\"p2\" d=\"M14 14L20 4\"/><path class=\"p3\" d=\"M9 17v3M12 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

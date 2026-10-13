@@ -1,0 +1,11 @@
+{
+  "name": "browser-frame",
+  "category": "design",
+  "tags": ["browser", "window", "frame", "web", "mockup", "tabs", "site"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M2 8h20\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"5.5\" r=\"1\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"5.5\" r=\"1\"/><circle class=\"f p3\" cx=\"11.5\" cy=\"5.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

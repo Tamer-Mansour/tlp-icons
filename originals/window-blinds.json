@@ -1,0 +1,10 @@
+{
+  "name": "window-blinds",
+  "category": "buildings",
+  "tags": ["window", "blinds", "slats", "shade", "room"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M4 8H20M4 12H20M4 16H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "early-riser",
+  "category": "people",
+  "tags": ["early","riser","sunrise","morning","horizon","person"],
+  "svg": "<path class=\"d p1\" d=\"M7 16a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M12 8.5V6M6.7 10.7L4.9 8.9M17.3 10.7L19.1 8.9\"/><line class=\"p3\" x1=\"2\" y1=\"16\" x2=\"22\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

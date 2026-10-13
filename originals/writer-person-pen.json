@@ -1,0 +1,10 @@
+{
+  "name": "writer-person-pen",
+  "category": "people",
+  "tags": ["writer", "pen", "author", "person", "write", "essay"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 21c0-3 2.3-5 5.5-5s5.5 2 5.5 5\"/><path class=\"d p2\" d=\"M16.5 3.5l3 3L12.5 13.5 9 14.5 10 11z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

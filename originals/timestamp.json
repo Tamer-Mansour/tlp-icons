@@ -1,0 +1,11 @@
+{
+  "name": "timestamp",
+  "category": "time",
+  "tags": ["timestamp", "time", "clock", "log", "record", "stamp"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M9 9v3l2 1.5\"/><path class=\"p3\" d=\"M19 4v16\"/><circle class=\"f p3\" cx=\"19\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "9px 12px" }
+  ]
+}

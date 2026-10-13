@@ -1,0 +1,10 @@
+{
+  "name": "wire-mesh",
+  "category": "tools",
+  "tags": ["wire", "mesh", "grid", "fence", "netting", "grate"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H21 M3 16 H21\"/><path class=\"p2\" d=\"M8 3 V21 M16 3 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

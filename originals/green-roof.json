@@ -1,0 +1,10 @@
+{
+  "name": "green-roof",
+  "category": "buildings",
+  "tags": ["green", "roof", "grass", "planter", "eco", "garden"],
+  "svg": "<path class=\"p1\" d=\"M5 9v12h14V9\"/><path class=\"d p2\" d=\"M3 9c0-2.5 2-3.5 3.5-3 .8-2.5 4.5-2.5 5.5 0 1.5-.5 3.5.5 3.5 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 800 }
+  ]
+}

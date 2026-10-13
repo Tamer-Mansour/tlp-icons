@@ -1,0 +1,11 @@
+{
+  "name": "gingerbread-house",
+  "category": "food",
+  "tags": ["gingerbread", "house", "holiday", "cookie", "winter"],
+  "svg": "<path class=\"p1\" d=\"M4 11L12 4L20 11\"/><rect class=\"d p2\" x=\"6\" y=\"11\" width=\"12\" height=\"10\" rx=\"1\"/><rect class=\"p3\" x=\"10\" y=\"14\" width=\"4\" height=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

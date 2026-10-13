@@ -1,0 +1,11 @@
+{
+  "name": "perpendicular",
+  "category": "emoji",
+  "tags": ["perpendicular", "lines", "geometry", "math", "crossing", "right angle"],
+  "svg": "<path class=\"p1\" d=\"M3 20h18\"/><path class=\"p2\" d=\"M12 4v16\"/><path class=\"p3\" d=\"M8 20v-4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

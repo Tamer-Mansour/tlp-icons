@@ -1,0 +1,11 @@
+{
+  "name": "clarinet",
+  "category": "media",
+  "tags": ["clarinet", "woodwind", "reed", "instrument", "bell", "orchestra"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"5\" width=\"6\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M9 18L6 21H18L15 18\"/><path class=\"p3\" d=\"M10 5L12 2L14 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "email-unread",
+  "category": "communication",
+  "tags": ["email", "unread", "new", "notification", "dot", "mail", "badge"],
+  "svg": "<path class=\"d p1\" d=\"M3 7h18v12H3z\"/><path class=\"p2\" d=\"M3 7l9 7 9-7\"/><circle class=\"f p3\" cx=\"19\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "grave-accent",
+  "category": "text",
+  "tags": ["grave", "accent", "diacritic", "letter", "mark", "typography"],
+  "svg": "<path class=\"p1\" d=\"M7 14a3 3 0 1 0 6 0a3 3 0 1 0-6 0M13 11v6\"/><path class=\"p2\" d=\"M9 4l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

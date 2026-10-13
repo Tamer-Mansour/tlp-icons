@@ -1,0 +1,10 @@
+{
+  "name": "market-cap",
+  "category": "charts",
+  "tags": ["market", "cap", "coins", "value", "finance", "stock"],
+  "svg": "<ellipse class=\"p1\" cx=\"8\" cy=\"6\" rx=\"5\" ry=\"2\"/><ellipse class=\"p1\" cx=\"8\" cy=\"12\" rx=\"5\" ry=\"2\"/><ellipse class=\"p1\" cx=\"8\" cy=\"18\" rx=\"5\" ry=\"2\"/><rect class=\"p2\" x=\"16\" y=\"10\" width=\"4\" height=\"10\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" }
+  ]
+}

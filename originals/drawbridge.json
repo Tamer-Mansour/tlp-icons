@@ -1,0 +1,11 @@
+{
+  "name": "drawbridge",
+  "category": "buildings",
+  "tags": ["drawbridge", "bridge", "raised", "castle", "towers"],
+  "svg": "<path class=\"p1\" d=\"M7 19V5M17 19V5\"/><path class=\"p2\" d=\"M7 12L11 8M17 12L13 8\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 700, "origin": "12px 12px" },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1000 }
+  ]
+}

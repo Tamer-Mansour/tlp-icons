@@ -1,0 +1,10 @@
+{
+  "name": "ghost-user",
+  "category": "people",
+  "tags": ["ghost", "dotted", "faded", "user", "hidden"],
+  "svg": "<path class=\"d p1\" d=\"M6 21V10a6 6 0 0 1 12 0v11l-2-2-2 2-2-2-2 2-2-2z\"/><circle class=\"f p2\" cx=\"10\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 800 }
+  ]
+}

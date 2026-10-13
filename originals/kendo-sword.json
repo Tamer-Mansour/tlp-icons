@@ -1,0 +1,11 @@
+{
+  "name": "kendo-sword",
+  "category": "sport",
+  "tags": ["kendo", "shinai", "sword", "martial", "sport"],
+  "svg": "<path class=\"p1\" d=\"M4 20L17 7\"/><path class=\"p2\" d=\"M17 7l3-3M17 7l3.5 1.5\"/><path class=\"p3\" d=\"M7 15l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

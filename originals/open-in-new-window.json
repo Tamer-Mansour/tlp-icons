@@ -1,0 +1,10 @@
+{
+  "name": "open-in-new-window",
+  "category": "arrows",
+  "tags": ["external", "window", "new", "tab", "open", "launch"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"11\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M14 3h7v7M21 3l-8 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 900, "delay": 800 }
+  ]
+}

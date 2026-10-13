@@ -1,0 +1,12 @@
+{
+  "name": "radar-scan",
+  "category": "security",
+  "tags": ["radar", "scan", "sweep", "detect", "range", "search"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4.5\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"18\" y2=\"6\"/><circle class=\"f p4\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 1600, "delay": 900 }
+  ]
+}

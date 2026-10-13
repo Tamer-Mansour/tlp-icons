@@ -1,0 +1,11 @@
+{
+  "name": "interval-notation",
+  "category": "math",
+  "tags": ["interval", "bracket", "parenthesis", "number", "line", "math"],
+  "svg": "<path class=\"p1\" d=\"M6 12H18\"/><path class=\"p2\" d=\"M8 8H6v8h2\"/><path class=\"p3\" d=\"M18 8q2 4 0 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

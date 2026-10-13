@@ -1,0 +1,10 @@
+{
+  "name": "ring-topology",
+  "category": "connectivity",
+  "tags": ["ring", "topology", "network", "loop", "nodes", "token ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19.6\" cy=\"9.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16.7\" cy=\"18.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"7.3\" cy=\"18.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4.4\" cy=\"9.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "grocery-list",
+  "category": "food",
+  "tags": ["grocery", "shopping", "checklist", "list", "store", "supplies"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 10l1 1 2-2M7 16l1 1 2-2\"/><path class=\"p3\" d=\"M13 10h3.5M13 16h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tea-infuser",
+  "category": "food",
+  "tags": ["tea infuser", "tea", "mesh", "steep", "loose leaf", "cup"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><path class=\"p2\" d=\"M12 4v4\"/><circle class=\"d p3\" cx=\"12\" cy=\"12.5\" r=\"4\"/><path class=\"p4\" d=\"M8 12.5h8M12 8.5v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "frozen-yogurt",
+  "category": "food",
+  "tags": ["frozen yogurt", "cup", "spoon", "dessert", "swirl"],
+  "svg": "<path class=\"d p1\" d=\"M6 11 H18 L16 20 Q12 21 8 20 Z\"/><path class=\"p2\" d=\"M8 11 C8 7 11 6 12.5 8 C14 9.5 13 11 11.5 10.5\"/><path class=\"p3\" d=\"M16 11 L19 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1000, "origin": "16px 11px" }
+  ]
+}

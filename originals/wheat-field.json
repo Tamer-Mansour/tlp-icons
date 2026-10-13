@@ -1,0 +1,11 @@
+{
+  "name": "wheat-field",
+  "category": "nature",
+  "tags": ["wheat", "field", "grain", "farm", "harvest"],
+  "svg": "<line class=\"p3\" x1=\"2.5\" y1=\"21\" x2=\"21.5\" y2=\"21\"/><path class=\"p1\" d=\"M7 19 V10 M12 19 V9 M17 19 V10\"/><path class=\"p2\" d=\"M5.5 10.5 L7 7 L8.5 10.5 M10.5 9.5 L12 6 L13.5 9.5 M15.5 10.5 L17 7 L18.5 10.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 300, "origin": "bottom" },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

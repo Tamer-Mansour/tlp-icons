@@ -1,0 +1,10 @@
+{
+  "name": "map-atlas",
+  "category": "science",
+  "tags": ["map", "atlas", "geography", "folded", "travel", "navigation"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><path class=\"p2\" d=\"M12 5v15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

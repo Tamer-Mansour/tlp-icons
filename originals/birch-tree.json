@@ -1,0 +1,11 @@
+{
+  "name": "birch-tree",
+  "category": "nature",
+  "tags": ["birch", "tree", "forest", "bark", "nature"],
+  "svg": "<path class=\"p1\" d=\"M10 22 V3\"/><path class=\"p1\" d=\"M14 22 V3\"/><path class=\"p2\" d=\"M10 12 L5 8\"/><path class=\"p2\" d=\"M14 9 L19 5\"/><path class=\"p3\" d=\"M10.5 7 H12.5\"/><path class=\"p3\" d=\"M10.5 16 H12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 1000, "origin": "10px 12px" }
+  ]
+}

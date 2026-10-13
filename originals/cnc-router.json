@@ -1,0 +1,11 @@
+{
+  "name": "cnc-router",
+  "category": "devices",
+  "tags": ["cnc", "router", "milling", "spindle", "gantry", "machine"],
+  "svg": "<polyline class=\"p1\" points=\"4 15 4 4 20 4 20 15\"/><rect class=\"d p2\" x=\"2\" y=\"18\" width=\"20\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"10.5\" y=\"6\" width=\"3\" height=\"5\"/><line class=\"p3\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 800, "origin": "12px 9px" }
+  ]
+}

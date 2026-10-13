@@ -1,0 +1,11 @@
+{
+  "name": "hornet",
+  "category": "nature",
+  "tags": ["hornet", "wasp", "insect", "bug", "sting", "stripe"],
+  "svg": "<ellipse class=\"d p1\" cx=\"13\" cy=\"14\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M10 10C8 5 6 3 3 4M15 10c1-3 3-5 6-5\"/><path class=\"p3\" d=\"M11 10v8M15 10v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

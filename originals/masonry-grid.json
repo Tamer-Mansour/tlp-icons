@@ -1,0 +1,11 @@
+{
+  "name": "masonry-grid",
+  "category": "layout",
+  "tags": ["masonry", "grid", "staggered", "cards", "columns", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"5\" height=\"9\" rx=\"1\"/><rect class=\"d p1\" x=\"2\" y=\"13\" width=\"5\" height=\"9\" rx=\"1\"/><rect class=\"d p2\" x=\"9.5\" y=\"2\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"9.5\" y=\"9\" width=\"5\" height=\"13\" rx=\"1\"/><rect class=\"d p3\" x=\"17\" y=\"2\" width=\"5\" height=\"12\" rx=\"1\"/><rect class=\"d p3\" x=\"17\" y=\"16\" width=\"5\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 600 }
+  ]
+}

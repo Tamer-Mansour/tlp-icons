@@ -1,0 +1,11 @@
+{
+  "name": "angle-arc",
+  "category": "shapes",
+  "tags": ["angle", "arc", "rays", "vertex", "geometry", "measure"],
+  "svg": "<path class=\"p1\" d=\"M4 19H21\"/><path class=\"p2\" d=\"M4 19L18 5\"/><path class=\"p3\" d=\"M12 19A8 8 0 0 0 9.66 13.34\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

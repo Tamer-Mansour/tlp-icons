@@ -1,0 +1,10 @@
+{
+  "name": "unread-badge",
+  "category": "communication",
+  "tags": ["unread", "badge", "notification", "message", "count"],
+  "svg": "<path class=\"p1\" d=\"M5 7h10a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-6l-3 2.5V18H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z\"/><circle class=\"d p2\" cx=\"19\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

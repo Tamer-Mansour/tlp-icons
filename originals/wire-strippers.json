@@ -1,0 +1,11 @@
+{
+  "name": "wire-strippers",
+  "category": "science",
+  "tags": ["wire", "strippers", "pliers", "electrical", "cable", "tool", "cut"],
+  "svg": "<path class=\"p1\" d=\"M2 14h20\"/><path class=\"p2\" d=\"M7 4l5 10\"/><path class=\"p3\" d=\"M17 4l-5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 1000 }
+  ]
+}

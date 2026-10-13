@@ -1,0 +1,12 @@
+{
+  "name": "trophic-level",
+  "category": "science",
+  "tags": ["trophic", "level", "pyramid", "ecology", "food chain"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"15\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"10\" width=\"8\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"8\" y=\"5\" width=\"4\" height=\"3\" rx=\"1\"/><path class=\"p4\" d=\"M20 19V4M18 6L20 4L22 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "lift", "dur": 800, "delay": 1000 }
+  ]
+}

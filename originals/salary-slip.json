@@ -1,0 +1,11 @@
+{
+  "name": "salary-slip",
+  "category": "people",
+  "tags": ["salary", "payslip", "receipt", "pay", "person", "statement"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18l-2.5-1.5L14 21l-2-1.5L10 21l-2.5-1.5L5 21z\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><path class=\"p2\" d=\"M8.5 13c0-1.7 1.5-2.5 3.5-2.5s3.5.8 3.5 2.5\"/><path class=\"p3\" d=\"M8.5 17h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

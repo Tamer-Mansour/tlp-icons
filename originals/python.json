@@ -1,0 +1,11 @@
+{
+  "name": "python",
+  "category": "nature",
+  "tags": ["snake", "coil", "constrictor", "reptile", "animal"],
+  "svg": "<path class=\"p1\" d=\"M4 19 C8 22 12 19 11 15 C10 11 4 12 5 16 C6 20 14 19 15 14 C16 9 9 8 9 11 C9 14 17 13 18 10\"/><circle class=\"d p2\" cx=\"18\" cy=\"6\" r=\"2\"/><circle class=\"f p3\" cx=\"18.6\" cy=\"5.5\" r=\"0.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "blink", "dur": 300, "delay": 1200 }
+  ]
+}

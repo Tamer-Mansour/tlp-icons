@@ -1,0 +1,11 @@
+{
+  "name": "dog-park",
+  "category": "buildings",
+  "tags": ["dog", "park", "fence", "off-leash", "ball", "pets"],
+  "svg": "<path class=\"p1\" d=\"M5 9v12.5M9.5 9v12.5M14.5 9v12.5M19 9v12.5\"/><path class=\"p2\" d=\"M3 9h18M3 15h18\"/><circle class=\"d p3\" cx=\"12\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 1000, "delay": 900 }
+  ]
+}

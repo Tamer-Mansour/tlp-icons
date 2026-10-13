@@ -1,0 +1,12 @@
+{
+  "name": "person-sneezing",
+  "category": "people",
+  "tags": ["sneezing", "person", "sneeze", "sick", "allergy", "cold"],
+  "svg": "<circle class=\"d p1\" cx=\"13\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M9 11.5Q10 10 11 11.5M15 11.5Q16 10 17 11.5\"/><ellipse class=\"p3\" cx=\"13\" cy=\"16.5\" rx=\"1.2\" ry=\"1.5\"/><path class=\"p4\" d=\"M2 8.5L4.5 9.5M2 13H4.5M2 17.5L4.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "buzz", "dur": 800, "delay": 1100 }
+  ]
+}

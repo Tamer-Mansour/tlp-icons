@@ -1,0 +1,11 @@
+{
+  "name": "local-host",
+  "category": "development",
+  "tags": ["localhost", "laptop", "host", "local", "computer", "development"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"11\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 19h20\"/><path class=\"d p3\" d=\"M9.5 12 12 9.5l2.5 2.5V14h-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

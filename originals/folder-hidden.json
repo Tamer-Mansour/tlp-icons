@@ -1,0 +1,11 @@
+{
+  "name": "folder-hidden",
+  "category": "security",
+  "tags": ["folder", "hidden", "eye", "privacy", "invisible", "files"],
+  "svg": "<path class=\"p1\" d=\"M3 7V18Q3 19 4 19H20Q21 19 21 18V9Q21 8 20 8H12L10 6H4Q3 6 3 7Z\"/><path class=\"p2\" d=\"M8 14Q12 10 16 14Q12 18 8 14Z\"/><path class=\"p3\" d=\"M8.5 9.5L15.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1400 }
+  ]
+}

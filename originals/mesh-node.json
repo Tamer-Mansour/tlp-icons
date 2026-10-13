@@ -1,0 +1,11 @@
+{
+  "name": "mesh-node",
+  "category": "connectivity",
+  "tags": ["mesh", "node", "network", "nodes", "links", "hub"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"4.5\" cy=\"5.5\" r=\"2\"/><circle class=\"p2\" cx=\"19.5\" cy=\"5.5\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"20\" r=\"2\"/><path class=\"p3\" d=\"M10.1 10.4L6.5 7.2M13.9 10.4L17.5 7.2M12 14.5V17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

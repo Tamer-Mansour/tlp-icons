@@ -1,0 +1,11 @@
+{
+  "name": "shrine",
+  "category": "buildings",
+  "tags": ["shrine", "roof", "worship", "japan", "box"],
+  "svg": "<path class=\"p1\" d=\"M2 9q10-6 20 0\"/><path class=\"p2\" d=\"M6 11v10h12V11\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

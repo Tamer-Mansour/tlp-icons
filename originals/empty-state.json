@@ -1,0 +1,10 @@
+{
+  "name": "empty-state",
+  "category": "interface",
+  "tags": ["empty", "state", "folder", "nothing", "blank", "placeholder"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"5.5\" width=\"17\" height=\"14\" rx=\"3\"/><path class=\"d p2\" d=\"M8 9.5h2.5l1.5 1.5H16v5.5H8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

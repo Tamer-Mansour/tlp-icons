@@ -1,0 +1,10 @@
+{
+  "name": "tab-bar",
+  "category": "interface",
+  "tags": ["tab", "bar", "navigation", "selected", "tabs", "menu"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"3\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"5\" width=\"3\" height=\"14\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"8\" width=\"3\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

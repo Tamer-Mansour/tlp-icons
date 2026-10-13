@@ -1,0 +1,11 @@
+{
+  "name": "terminal-velocity",
+  "category": "science",
+  "tags": ["terminal", "velocity", "falling", "drag", "speed", "physics"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"2.5\"/><path class=\"p2\" d=\"M12 10v6M8.5 12h7M12 16l-3 4M12 16l3 4\"/><path class=\"p3\" d=\"M5 5v6M3.5 9.5L5 11l1.5-1.5M19 5v6M17.5 9.5L19 11l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 1000 }
+  ]
+}

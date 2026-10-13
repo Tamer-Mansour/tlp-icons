@@ -1,0 +1,10 @@
+{
+  "name": "engine-hoist",
+  "category": "tools",
+  "tags": ["engine", "hoist", "crane", "chain", "lift", "garage"],
+  "svg": "<path class=\"p1\" d=\"M4 21L12 4L20 21M12 4h8\"/><path class=\"p2\" d=\"M17 4v7M15.5 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "17px 4px" }
+  ]
+}

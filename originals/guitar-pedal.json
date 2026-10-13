@@ -1,0 +1,11 @@
+{
+  "name": "guitar-pedal",
+  "category": "devices",
+  "tags": ["guitar", "pedal", "effects", "stomp", "music", "amp"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"9\" cy=\"8\" r=\"1.5\"/><circle class=\"p2\" cx=\"15\" cy=\"8\" r=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

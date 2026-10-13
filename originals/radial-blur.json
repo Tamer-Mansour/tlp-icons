@@ -1,0 +1,10 @@
+{
+  "name": "radial-blur",
+  "category": "design",
+  "tags": ["radial", "blur", "center", "zoom", "burst", "effect"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 3V6M12 18V21M3 12H6M18 12H21M5.6 5.6L7.7 7.7M16.3 16.3L18.4 18.4M18.4 5.6L16.3 7.7M5.6 18.4L7.7 16.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 500 }
+  ]
+}

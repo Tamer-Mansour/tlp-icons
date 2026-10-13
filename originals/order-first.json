@@ -1,0 +1,11 @@
+{
+  "name": "order-first",
+  "category": "layout",
+  "tags": ["order", "first", "front", "priority", "layout", "css"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"9\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"d p1\" x=\"16\" y=\"9\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"2\" y=\"9\" width=\"5\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M4.5 6.5V3.5M2.5 5.5L4.5 3.5L6.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

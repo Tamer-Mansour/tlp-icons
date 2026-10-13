@@ -1,0 +1,10 @@
+{
+  "name": "fenced-field",
+  "category": "buildings",
+  "tags": ["field", "fence", "posts", "farm", "pasture", "enclosure"],
+  "svg": "<path class=\"p1\" d=\"M4 6 V18 M12 6 V18 M20 6 V18\"/><path class=\"p2\" d=\"M2 9 H22 M2 15 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

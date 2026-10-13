@@ -1,0 +1,11 @@
+{
+  "name": "interactive-whiteboard",
+  "category": "devices",
+  "tags": ["whiteboard", "interactive", "board", "presentation", "classroom", "pen"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M12 15v6M8 21h8\"/><line class=\"p3\" x1=\"7\" y1=\"12\" x2=\"12\" y2=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

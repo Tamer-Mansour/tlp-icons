@@ -1,0 +1,11 @@
+{
+  "name": "coral-reef",
+  "category": "science",
+  "tags": ["coral", "reef", "ocean", "sea", "branches", "marine"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/><path class=\"p2\" d=\"M5 21v-7l-2.5-3M5 14l3-3.5V6.5\"/><path class=\"p3\" d=\"M14 21v-9l3-3M14 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 1100, "delay": 1300, "origin": "bottom" }
+  ]
+}

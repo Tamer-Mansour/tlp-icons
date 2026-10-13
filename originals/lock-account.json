@@ -1,0 +1,10 @@
+{
+  "name": "lock-account",
+  "category": "people",
+  "tags": ["lock", "account", "padlock", "user", "disable"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h2a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><rect class=\"d p2\" x=\"15\" y=\"13\" width=\"6\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 13v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

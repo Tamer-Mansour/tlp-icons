@@ -1,0 +1,10 @@
+{
+  "name": "graph-logarithm",
+  "category": "math",
+  "tags": ["graph", "logarithm", "slow", "curve", "axes"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"p2\" d=\"M6 17 C7 9 9 7 21 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 600 }
+  ]
+}

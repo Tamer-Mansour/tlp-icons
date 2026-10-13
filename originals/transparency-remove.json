@@ -1,0 +1,11 @@
+{
+  "name": "transparency-remove",
+  "category": "design",
+  "tags": ["transparency", "remove", "eraser", "checkerboard", "alpha", "background"],
+  "svg": "<path class=\"p1\" d=\"M3 3H17V17H3Z\"/><path class=\"p2\" d=\"M3 10H10V17M10 3V10H17\"/><path class=\"p3\" d=\"M14 21H21L17 17Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

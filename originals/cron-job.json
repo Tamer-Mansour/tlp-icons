@@ -1,0 +1,11 @@
+{
+  "name": "cron-job",
+  "category": "development",
+  "tags": ["cron", "schedule", "recurring", "repeat", "timer", "job"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 9V12L14 13.5\"/><path class=\"p3\" d=\"M2 12A10 10 0 0 1 12 2\"/><polyline class=\"p3\" points=\"9,3.5 12,2 12,5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900 }
+  ]
+}

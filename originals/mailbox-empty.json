@@ -1,0 +1,10 @@
+{
+  "name": "mailbox-empty",
+  "category": "communication",
+  "tags": ["mailbox", "post", "empty", "letters", "curbside", "delivery"],
+  "svg": "<path class=\"p1\" d=\"M5 19V11a7 7 0 0 1 14 0v8\"/><path class=\"p1\" d=\"M3 19.5h18\"/><path class=\"p2\" d=\"M9 19v-6l5-2v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 900, "origin": "9px 19px" }
+  ]
+}

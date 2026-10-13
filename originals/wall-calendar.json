@@ -1,0 +1,11 @@
+{
+  "name": "wall-calendar",
+  "category": "home",
+  "tags": ["calendar", "wall", "dates", "schedule", "month"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M8 3v4M16 3v4\"/><path class=\"p3\" d=\"M3 10h18M8 10v11M16 10v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

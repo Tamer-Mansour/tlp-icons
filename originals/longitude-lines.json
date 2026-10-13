@@ -1,0 +1,11 @@
+{
+  "name": "longitude-lines",
+  "category": "science",
+  "tags": ["globe", "longitude", "meridian", "earth", "map", "geography"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 4 C6 8 6 16 9 20\"/><path class=\"p3\" d=\"M15 4 C18 8 18 16 15 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

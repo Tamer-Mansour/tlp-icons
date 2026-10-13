@@ -1,0 +1,11 @@
+{
+  "name": "extension-cord",
+  "category": "home",
+  "tags": ["extension", "cord", "cable", "plug", "power", "socket", "electric"],
+  "svg": "<path class=\"p1\" d=\"M5 7.5 C9 7.5 9 12 12 12 C15 12 15 16.5 19 16.5\"/><rect class=\"d p2\" x=\"2\" y=\"5\" width=\"3\" height=\"5\" rx=\"1\"/><rect class=\"d p3\" x=\"19\" y=\"14\" width=\"3\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

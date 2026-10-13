@@ -1,0 +1,11 @@
+{
+  "name": "memory-usage",
+  "category": "charts",
+  "tags": ["memory", "usage", "ram", "chip", "stick", "capacity"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M6 10v4M10 10v4M14 10v4M18 10v4\"/><path class=\"p3\" d=\"M6 17v3M18 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "bottom", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

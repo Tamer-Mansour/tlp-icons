@@ -1,0 +1,10 @@
+{
+  "name": "ticket-shape",
+  "category": "shapes",
+  "tags": ["ticket", "notched", "perforation", "pass", "admission"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21V10A2 2 0 0 0 21 14V18H3V14A2 2 0 0 0 3 10Z\"/><line class=\"p2\" x1=\"15\" y1=\"8\" x2=\"15\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 900 }
+  ]
+}

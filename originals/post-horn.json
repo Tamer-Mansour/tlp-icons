@@ -1,0 +1,11 @@
+{
+  "name": "post-horn",
+  "category": "communication",
+  "tags": ["post horn", "horn", "mail", "coach", "postal"],
+  "svg": "<path class=\"p1\" d=\"M4 17a7 7 0 1 0 6-10.5\"/><path class=\"p2\" d=\"M10 6.5L17 3.5l3 4-7 2.5\"/><path class=\"p3\" d=\"M2 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1400 }
+  ]
+}

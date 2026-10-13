@@ -1,0 +1,11 @@
+{
+  "name": "coffee-machine",
+  "category": "devices",
+  "tags": ["coffee", "machine", "espresso", "brew", "kitchen", "cup"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M11 14v2\"/><path class=\"p3\" d=\"M7 18h8v2a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

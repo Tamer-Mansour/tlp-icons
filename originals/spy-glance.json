@@ -1,0 +1,11 @@
+{
+  "name": "spy-glance",
+  "category": "development",
+  "tags": ["spy", "eye", "surveillance", "hidden", "watch", "privacy"],
+  "svg": "<path class=\"p1\" d=\"M2 12 C4.5 7.5 8 6 12 6 C16 6 19.5 7.5 22 12 C19.5 16.5 16 18 12 18 C8 18 4.5 16.5 2 12 Z\"/><line class=\"p3\" x1=\"4\" y1=\"20\" x2=\"20\" y2=\"4\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1400 }
+  ]
+}

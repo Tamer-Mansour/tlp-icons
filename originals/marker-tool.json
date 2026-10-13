@@ -1,0 +1,10 @@
+{
+  "name": "marker-tool",
+  "category": "design",
+  "tags": ["marker", "highlighter", "chisel", "tip", "ink", "write", "underline"],
+  "svg": "<path class=\"d p1\" d=\"M14 3l7 7-8 8-7-7z\"/><path class=\"p2\" d=\"M3 21h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 600, "delay": 700 }
+  ]
+}

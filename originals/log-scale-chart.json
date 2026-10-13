@@ -1,0 +1,11 @@
+{
+  "name": "log-scale-chart",
+  "category": "charts",
+  "tags": ["log", "scale", "logarithmic", "axis", "growth"],
+  "svg": "<path class=\"p1\" d=\"M3 3V20H21\"/><path class=\"p2\" d=\"M3 6H5M3 10H5M3 13H5M3 15H5M3 17H5\"/><path class=\"p3\" d=\"M7 18C10 17 13 11 21 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 800 }
+  ]
+}

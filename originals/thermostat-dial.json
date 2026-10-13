@@ -1,0 +1,11 @@
+{
+  "name": "thermostat-dial",
+  "category": "devices",
+  "tags": ["thermostat", "dial", "temperature", "heat", "control", "climate"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V7\"/><path class=\"p3\" d=\"M12 4v1M20 12h-1M12 20v-1M4 12h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900 }
+  ]
+}

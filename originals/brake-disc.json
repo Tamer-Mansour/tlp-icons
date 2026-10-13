@@ -1,0 +1,11 @@
+{
+  "name": "brake-disc",
+  "category": "vehicles",
+  "tags": ["brake", "disc", "rotor", "wheel", "car"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/><circle class=\"f p3\" cx=\"6\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900, "origin": "center" }
+  ]
+}

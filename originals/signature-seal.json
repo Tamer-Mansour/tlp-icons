@@ -1,0 +1,11 @@
+{
+  "name": "signature-seal",
+  "category": "security",
+  "tags": ["seal", "signature", "wax", "authentic", "verified", "stamp"],
+  "svg": "<path class=\"d p1\" d=\"M17.5 9A2.5 2.5 0 0 1 15.889 12.889A2.5 2.5 0 0 1 12 14.5A2.5 2.5 0 0 1 8.111 12.889A2.5 2.5 0 0 1 6.5 9A2.5 2.5 0 0 1 8.111 5.111A2.5 2.5 0 0 1 12 3.5A2.5 2.5 0 0 1 15.889 5.111A2.5 2.5 0 0 1 17.5 9Z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M9.5 17.5L8 22M14.5 17.5L16 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "top" }
+  ]
+}

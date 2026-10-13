@@ -1,0 +1,11 @@
+{
+  "name": "slipway",
+  "category": "buildings",
+  "tags": ["slipway", "slope", "rail", "boat", "launch", "water"],
+  "svg": "<path class=\"p1\" d=\"M3 5l13 13\"/><path class=\"p2\" d=\"M7 3l13 13\"/><path class=\"p3\" d=\"M3 21q2.25-1.5 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "new-indicator",
+  "category": "notifications",
+  "tags": ["new", "indicator", "tag", "badge", "fresh"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"15\" height=\"8\" rx=\"4\"/><path class=\"p2\" d=\"M19 2 V5 M16.5 3.5 L18 5 M21.5 3.5 L20 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 700 }
+  ]
+}

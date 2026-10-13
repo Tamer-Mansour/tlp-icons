@@ -1,0 +1,11 @@
+{
+  "name": "dam-wall",
+  "category": "buildings",
+  "tags": ["dam", "wall", "water", "spill", "reservoir", "barrier"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"6\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M9 6h4q4 0 4 4v8\"/><path class=\"p3\" d=\"M13 21q1.5-1.5 3 0t3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

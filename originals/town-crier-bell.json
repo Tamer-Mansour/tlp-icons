@@ -1,0 +1,12 @@
+{
+  "name": "town-crier-bell",
+  "category": "communication",
+  "tags": ["bell", "crier", "announce", "town", "alert", "notice"],
+  "svg": "<path class=\"d p1\" d=\"M7 16V11a5 5 0 0 1 10 0v5l1.5 2h-13z\"/><path class=\"p2\" d=\"M10 6.5a2 2 0 0 1 4 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1\"/><path class=\"p4\" d=\"M3 9a4 4 0 0 0 0 5M21 9a4 4 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

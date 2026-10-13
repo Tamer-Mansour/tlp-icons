@@ -1,0 +1,10 @@
+{
+  "name": "doctor-person-cross",
+  "category": "people",
+  "tags": ["doctor", "medical", "cross", "health", "person", "clinic"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p1\" d=\"M4 21.5c0-3 3.6-5 8-5s8 2 8 5\"/><path class=\"p2\" d=\"M12 18v3M10.5 19.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "back-arrow-symbol",
+  "category": "emoji",
+  "tags": ["back", "return", "undo", "arrow", "previous", "reply"],
+  "svg": "<path class=\"p1\" d=\"M9 8 L4 12 L9 16 M4 12 H16\"/><path class=\"p2\" d=\"M16 12 C20 12 20 17 16 17 H12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "nudgeBack", "dur": 700, "delay": 800 }
+  ]
+}

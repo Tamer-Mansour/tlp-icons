@@ -1,0 +1,11 @@
+{
+  "name": "gesture-swipe",
+  "category": "interface",
+  "tags": ["gesture", "swipe", "finger", "touch", "slide", "hand"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M3 12h5M5 9.5L3 12l2 2.5\"/><path class=\"p3\" d=\"M21 12h-5M19 9.5l2 2.5-2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

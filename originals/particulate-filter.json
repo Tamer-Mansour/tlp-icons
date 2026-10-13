@@ -1,0 +1,11 @@
+{
+  "name": "particulate-filter",
+  "category": "vehicles",
+  "tags": ["particulate", "filter", "exhaust", "diesel", "dpf", "soot"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"12\" rx=\"3\"/><circle class=\"f p2\" cx=\"10\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"10\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"11\" r=\"1\"/><path class=\"p3\" d=\"M12 17v4M10 19l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pump", "dur": 700, "delay": 1100 }
+  ]
+}

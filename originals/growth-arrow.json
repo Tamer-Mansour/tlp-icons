@@ -1,0 +1,10 @@
+{
+  "name": "growth-arrow",
+  "category": "arrows",
+  "tags": ["growth", "bars", "increase", "rising", "stats"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"15\" width=\"3\" height=\"5\"/><rect class=\"p1\" x=\"10\" y=\"11\" width=\"3\" height=\"9\"/><rect class=\"p1\" x=\"16\" y=\"8\" width=\"3\" height=\"12\"/><path class=\"p2\" d=\"M3 10 L9 6 L13 9 L21 3 M16 3 H21 V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

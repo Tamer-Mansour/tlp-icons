@@ -1,0 +1,11 @@
+{
+  "name": "watch-lock",
+  "category": "security",
+  "tags": ["watch", "lock", "wearable", "secure", "time", "device"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"7.5\" r=\"4\"/><rect class=\"d p2\" x=\"9.5\" y=\"15.5\" width=\"5\" height=\"4.5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 15.5V14.3A1.5 1.5 0 0 1 13.5 14.3V15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

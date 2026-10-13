@@ -1,0 +1,11 @@
+{
+  "name": "magic-wand-select",
+  "category": "interface",
+  "tags": ["magic", "wand", "select", "selection", "sparkle", "auto"],
+  "svg": "<path class=\"p1\" d=\"M4 20L13 11\"/><rect class=\"p2\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M18 1.5v3M16.5 3h3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1000 }
+  ]
+}

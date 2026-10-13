@@ -1,0 +1,10 @@
+{
+  "name": "game-ticket",
+  "category": "sport",
+  "tags": ["ticket", "game", "event", "admission", "pass", "stub"],
+  "svg": "<path class=\"d p1\" d=\"M3 7H21V10A2 2 0 0 0 21 14V17H3V14A2 2 0 0 0 3 10Z\"/><path class=\"p2\" d=\"M16 8.5V10.5M16 12.5V14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

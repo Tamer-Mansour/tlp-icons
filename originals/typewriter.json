@@ -1,0 +1,11 @@
+{
+  "name": "typewriter",
+  "category": "devices",
+  "tags": ["typewriter", "keys", "paper", "writing", "retro", "typing"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"10\" width=\"20\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M6 10V3h12v7\"/><path class=\"p3\" d=\"M6 14h2M11 14h2M16 14h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

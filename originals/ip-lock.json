@@ -1,0 +1,11 @@
+{
+  "name": "ip-lock",
+  "category": "connectivity",
+  "tags": ["ip", "lock", "address", "private", "secure", "network"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M5 11V8.5a2 2 0 0 1 4 0V11\"/><circle class=\"f p3\" cx=\"13\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

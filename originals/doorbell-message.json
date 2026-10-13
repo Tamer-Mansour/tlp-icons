@@ -1,0 +1,11 @@
+{
+  "name": "doorbell-message",
+  "category": "communication",
+  "tags": ["doorbell", "door", "message", "ring", "notification", "chime"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"9\" height=\"16\" rx=\"2\"/><circle class=\"d p2\" cx=\"7\" cy=\"11\" r=\"2.5\"/><rect class=\"p3\" x=\"13\" y=\"4\" width=\"8.5\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 900 }
+  ]
+}

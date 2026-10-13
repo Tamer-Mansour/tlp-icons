@@ -1,0 +1,11 @@
+{
+  "name": "volume-off-alert",
+  "category": "notifications",
+  "tags": ["volume", "speaker", "mute", "sound", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h4l5-4v14l-5-4H3z\"/><path class=\"p2\" d=\"M15 10l5 5M20 10l-5 5\"/><path class=\"p3\" d=\"M17 2.5v2.5\"/><circle class=\"f p3\" cx=\"17\" cy=\"7.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

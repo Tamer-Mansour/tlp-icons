@@ -1,0 +1,10 @@
+{
+  "name": "tooth-model",
+  "category": "science",
+  "tags": ["tooth", "dental", "teeth", "anatomy", "model"],
+  "svg": "<path class=\"d p1\" d=\"M6 4 H18 C20 4 20.5 7 20 10 C19.5 13 18 14 17 14 H7 C6 14 4.5 13 4 10 C3.5 7 4 4 6 4 Z\"/><path class=\"p2\" d=\"M8 14 V20.5 M16 14 V20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

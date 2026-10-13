@@ -1,0 +1,11 @@
+{
+  "name": "profile-banner",
+  "category": "people",
+  "tags": ["profile", "banner", "avatar", "header", "user"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"17\" rx=\"2.5\"/><line class=\"p2\" x1=\"2.5\" y1=\"9\" x2=\"21.5\" y2=\"9\"/><circle class=\"d p3\" cx=\"12\" cy=\"14.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

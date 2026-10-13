@@ -1,0 +1,10 @@
+{
+  "name": "service-wrench",
+  "category": "vehicles",
+  "tags": ["service", "wrench", "repair", "car", "maintenance"],
+  "svg": "<path class=\"p1\" d=\"M4 20 L13.5 10.5\"/><circle class=\"d p2\" cx=\"16\" cy=\"8\" r=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "piping-bag",
+  "category": "food",
+  "tags": ["piping bag", "icing", "frosting", "baking", "decorating"],
+  "svg": "<path class=\"d p1\" d=\"M4 5h16l-6 14h-4z\"/><path class=\"p2\" d=\"M11 19v3h2v-3\"/><path class=\"p3\" d=\"M9 5l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "squeeze", "dur": 800, "delay": 1000 }
+  ]
+}

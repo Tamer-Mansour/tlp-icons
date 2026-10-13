@@ -1,0 +1,11 @@
+{
+  "name": "stepper-control",
+  "category": "interface",
+  "tags": ["stepper", "quantity", "minus", "plus", "counter"],
+  "svg": "<rect class=\"p1\" x=\"8.5\" y=\"7.5\" width=\"7\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 12h3\"/><path class=\"p3\" d=\"M18 12h3M19.5 10.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "path-reverse",
+  "category": "design",
+  "tags": ["path", "reverse", "arrow", "curve", "direction", "vector"],
+  "svg": "<path class=\"p1\" d=\"M5 17C9 7 15 7 19 17\"/><path class=\"p2\" d=\"M5 12v5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

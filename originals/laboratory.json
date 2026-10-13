@@ -1,0 +1,11 @@
+{
+  "name": "laboratory",
+  "category": "buildings",
+  "tags": ["laboratory", "lab", "flask", "science", "test", "bench", "research"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h4v5l4.5 9v1.5h-9V17L5 8z\"/><path class=\"p3\" d=\"M17 3v12.5a2.5 2.5 0 0 0 5 0V3\"/><path class=\"p2\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

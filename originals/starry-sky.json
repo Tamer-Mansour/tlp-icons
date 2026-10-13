@@ -1,0 +1,10 @@
+{
+  "name": "starry-sky",
+  "category": "weather",
+  "tags": ["stars", "sky", "night", "dome", "constellation", "space"],
+  "svg": "<path class=\"p1\" d=\"M3 16a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M8 6.5v5M5.5 9h5M16 9.5v5M13.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

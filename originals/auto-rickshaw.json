@@ -1,0 +1,11 @@
+{
+  "name": "auto-rickshaw",
+  "category": "vehicles",
+  "tags": ["rickshaw", "auto", "three wheeler", "taxi", "canopy"],
+  "svg": "<path class=\"p1\" d=\"M4 14V8.5L7 5h8l4 3.5V14z\"/><path class=\"p2\" d=\"M17 14l1-5\"/><circle class=\"p3\" cx=\"18\" cy=\"18.5\" r=\"2\"/><circle class=\"p3\" cx=\"7\" cy=\"18.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "slider-control",
+  "category": "development",
+  "tags": ["slider", "range", "control", "track", "handle", "input"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><circle class=\"d p2\" cx=\"15\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

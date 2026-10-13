@@ -1,0 +1,11 @@
+{
+  "name": "dhow",
+  "category": "vehicles",
+  "tags": ["boat", "sail", "lateen", "dhow", "ship"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 H21 Q19 20 16 20 H8 Q5 20 3 15 Z\"/><line class=\"p2\" x1=\"10\" y1=\"3\" x2=\"10\" y2=\"15\"/><polygon class=\"p3\" points=\"10 5 18 15 10 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

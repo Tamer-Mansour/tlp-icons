@@ -1,0 +1,11 @@
+{
+  "name": "ski-goggles",
+  "category": "sport",
+  "tags": ["ski", "goggles", "snow", "winter", "lens", "strap"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"19\" height=\"9\" rx=\"4.5\"/><path class=\"p2\" d=\"M6.5 12.5L8.5 10.5\"/><path class=\"p3\" d=\"M7 18.5Q12 21 17 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

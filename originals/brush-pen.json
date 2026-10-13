@@ -1,0 +1,11 @@
+{
+  "name": "brush-pen",
+  "category": "files",
+  "tags": ["brush", "pen", "paint", "ink", "stroke", "art"],
+  "svg": "<path class=\"p1\" d=\"M16 4l4 4-8 8-4-4z\"/><path class=\"d p2\" d=\"M8 12c-3 0-4 2-5 6 4 0 7-1 7-4z\"/><path class=\"p3\" d=\"M9 21h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 1100 }
+  ]
+}

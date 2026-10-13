@@ -1,0 +1,12 @@
+{
+  "name": "jump-box",
+  "category": "sport",
+  "tags": ["jump", "box", "plyometric", "cube", "training", "workout"],
+  "svg": "<path class=\"d p1\" d=\"M2 10H11V20H2Z\"/><path class=\"d p2\" d=\"M2 10L5 7H14L11 10Z\"/><path class=\"p3\" d=\"M11 10L14 7V17L11 20\"/><path class=\"p4\" d=\"M19 20V4M16.5 6.5L19 4L21.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "lift", "dur": 800, "delay": 1200 }
+  ]
+}

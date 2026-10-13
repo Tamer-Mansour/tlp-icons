@@ -1,0 +1,10 @@
+{
+  "name": "lavender-field",
+  "category": "nature",
+  "tags": ["lavender", "field", "purple", "flowers", "herb"],
+  "svg": "<path class=\"p1\" d=\"M4 21 L7 9 M10 21 L11 8 M16 21 L15 8 M20 21 L17 9\"/><g class=\"p2\"><circle cx=\"7\" cy=\"8\" r=\"1.2\"/><circle cx=\"11\" cy=\"7\" r=\"1.2\"/><circle cx=\"15\" cy=\"7\" r=\"1.2\"/><circle cx=\"17\" cy=\"8\" r=\"1.2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

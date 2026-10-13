@@ -1,0 +1,11 @@
+{
+  "name": "rj45-plug",
+  "category": "connectivity",
+  "tags": ["rj45", "plug", "ethernet", "latch", "network", "cable"],
+  "svg": "<path class=\"d p1\" d=\"M3 8 H15 V17 H3 Z\"/><path class=\"p2\" d=\"M6 8 V5 H11 V8\"/><path class=\"p3\" d=\"M15 10 H21 M15 14 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pile-driver",
+  "category": "tools",
+  "tags": ["pile", "driver", "foundation", "hammer", "post", "construction"],
+  "svg": "<path class=\"p1\" d=\"M4 3H20M7 3V20M17 3V20\"/><rect class=\"d p2\" x=\"9.5\" y=\"7\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M10 16H14V21H10Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "strike", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sheet-music",
+  "category": "media",
+  "tags": ["sheet", "music", "staff", "notes", "score", "bar"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21M3 10H21M3 14H21M3 18H21\"/><ellipse class=\"d p2\" cx=\"8.5\" cy=\"16\" rx=\"2.2\" ry=\"1.6\"/><path class=\"p3\" d=\"M10.7 16V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

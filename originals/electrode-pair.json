@@ -1,0 +1,10 @@
+{
+  "name": "electrode-pair",
+  "category": "science",
+  "tags": ["electrode", "pair", "rods", "electrolysis", "chemistry"],
+  "svg": "<path class=\"p1\" d=\"M8 6v12M16 6v12\"/><path class=\"p2\" d=\"M8 12H4V4h16v8h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

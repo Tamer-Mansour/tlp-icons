@@ -1,0 +1,11 @@
+{
+  "name": "area-under-curve",
+  "category": "charts",
+  "tags": ["area", "curve", "integral", "shaded", "hatch"],
+  "svg": "<path class=\"p1\" d=\"M3 17C7 17 8 6 13 6S19 13 21 13\"/><path class=\"p2\" d=\"M6 15V20M9 9V20M12 7V20M15 8V20M18 10V20\"/><path class=\"p3\" d=\"M2 20H22\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 1200, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rulers-toggle",
+  "category": "interface",
+  "tags": ["rulers", "measure", "guides", "toggle", "ruler", "layout"],
+  "svg": "<polygon class=\"d p1\" points=\"3 17 17 3 21 7 7 21\"/><path class=\"p2\" d=\"M9 19l-1.5-1.5M12 16l-1.5-1.5M15 13l-1.5-1.5M18 10l-1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

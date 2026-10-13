@@ -1,0 +1,11 @@
+{
+  "name": "recipe-book",
+  "category": "food",
+  "tags": ["recipe", "book", "cookbook", "cooking", "open", "bookmark"],
+  "svg": "<path class=\"d p1\" d=\"M12 6C10 4.5 7 4 3 4.5v14c4-.5 7 0 9 1.5 2-1.5 5-2 9-1.5v-14c-4-.5-7 0-9 1.5z\"/><path class=\"p2\" d=\"M12 6v14\"/><path class=\"p3\" d=\"M16 14v5l1.5-1 1.5 1v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "16px 14px" }
+  ]
+}

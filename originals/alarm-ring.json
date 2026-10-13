@@ -1,0 +1,11 @@
+{
+  "name": "alarm-ring",
+  "category": "time",
+  "tags": ["alarm", "ring", "clock", "sound", "wake", "alert"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M12 9.5V13l2.5 1.5\"/><path class=\"p3\" d=\"M3.5 7A9 9 0 0 1 6.5 3.5M20.5 7A9 9 0 0 0 17.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

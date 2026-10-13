@@ -1,0 +1,11 @@
+{
+  "name": "lineage",
+  "category": "people",
+  "tags": ["lineage", "ancestry", "family", "tree", "generations", "genealogy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2\"/><circle class=\"d p2\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"d p2\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M12 7v4H7v7M12 11h5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

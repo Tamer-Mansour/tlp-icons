@@ -1,0 +1,10 @@
+{
+  "name": "input-field",
+  "category": "development",
+  "tags": ["input", "field", "form", "text box", "cursor", "typing"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 10.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 900, "delay": 700 }
+  ]
+}

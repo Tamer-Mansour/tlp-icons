@@ -1,0 +1,11 @@
+{
+  "name": "tail-light",
+  "category": "vehicles",
+  "tags": ["tail", "light", "lamp", "brake", "rear", "car"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M17 12H21\"/><path class=\"p2\" d=\"M6 9.5H13\"/><path class=\"p2\" d=\"M6 12H13\"/><path class=\"p2\" d=\"M6 14.5H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

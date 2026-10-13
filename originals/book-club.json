@@ -1,0 +1,11 @@
+{
+  "name": "book-club",
+  "category": "people",
+  "tags": ["book", "club", "reading", "speech", "discussion", "group"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 Q7 7 12 10 Q17 7 21 9 V21 Q17 19 12 22 Q7 19 3 21 Z\"/><path class=\"p2\" d=\"M12 10 V22\"/><circle class=\"p3\" cx=\"7.5\" cy=\"4\" r=\"1.5\"/><circle class=\"p3\" cx=\"16.5\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 800 }
+  ]
+}

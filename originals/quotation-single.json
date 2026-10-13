@@ -1,0 +1,10 @@
+{
+  "name": "quotation-single",
+  "category": "text",
+  "tags": ["quote", "single quote", "apostrophe", "citation", "text"],
+  "svg": "<path class=\"p1\" d=\"M13 8.5c0 2.5-1.5 4.5-4.5 5.5\"/><circle class=\"f p2\" cx=\"13\" cy=\"5.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 500 }
+  ]
+}

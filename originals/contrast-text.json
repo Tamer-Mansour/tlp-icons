@@ -1,0 +1,11 @@
+{
+  "name": "contrast-text",
+  "category": "text",
+  "tags": ["contrast", "text", "readability", "half", "letter", "accessibility"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3a9 9 0 0 1 0 18z\"/><path class=\"p3\" d=\"M8.5 15.5l3.5-7 3.5 7M9.8 13h4.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1100 }
+  ]
+}

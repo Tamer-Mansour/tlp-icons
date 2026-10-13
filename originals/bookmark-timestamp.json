@@ -1,0 +1,11 @@
+{
+  "name": "bookmark-timestamp",
+  "category": "media",
+  "tags": ["bookmark", "timestamp", "time", "clock", "mark"],
+  "svg": "<path class=\"d p1\" d=\"M2 3h7v9l-3.5-2.5L2 12z\"/><circle class=\"p2\" cx=\"16\" cy=\"16\" r=\"5\"/><path class=\"p3\" d=\"M16 16v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "16px 16px" }
+  ]
+}

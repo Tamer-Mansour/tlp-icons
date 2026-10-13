@@ -1,0 +1,10 @@
+{
+  "name": "shift-handoff",
+  "category": "people",
+  "tags": ["shift", "handoff", "handover", "team", "transfer"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 20.5c0-3 2-5.5 4.5-5.5s4.5 2.5 4.5 5.5\"/><circle class=\"p1\" cx=\"17.5\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M13 20.5c0-3 2-5.5 4.5-5.5s4.5 2.5 4.5 5.5\"/><path class=\"p2\" d=\"M7.5 12.5h9\"/><polyline class=\"p2\" points=\"14 10 16.5 12.5 14 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sand-timer",
+  "category": "time",
+  "tags": ["hourglass", "sand", "timer", "wait", "countdown"],
+  "svg": "<path class=\"p1\" d=\"M7 3h10M7 21h10M8 3v2.5L12 11l4-5.5V3M8 21v-2.5L12 13l4 5.5V21\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

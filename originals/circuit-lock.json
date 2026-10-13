@@ -1,0 +1,11 @@
+{
+  "name": "circuit-lock",
+  "category": "security",
+  "tags": ["circuit", "lock", "trace", "network", "secure", "hardware"],
+  "svg": "<path class=\"p1\" d=\"M2.5 7H9.5l2 2H16.5M2.5 17H14\"/><rect class=\"d p2\" x=\"14\" y=\"12\" width=\"7\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M16.5 12v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

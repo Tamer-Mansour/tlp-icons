@@ -1,0 +1,11 @@
+{
+  "name": "desk-phone",
+  "category": "devices",
+  "tags": ["desk", "phone", "keypad", "handset", "telephone", "office"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"5\" rx=\"2.5\"/><rect class=\"p2\" x=\"5\" y=\"11\" width=\"14\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M9 14h0M12 14h0M15 14h0M9 17h0M12 17h0M15 17h0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

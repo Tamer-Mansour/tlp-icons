@@ -1,0 +1,10 @@
+{
+  "name": "rope-bridge",
+  "category": "buildings",
+  "tags": ["rope", "bridge", "plank", "sag", "hanging", "walkway"],
+  "svg": "<path class=\"p1\" d=\"M2 6Q12 14 22 6\"/><path class=\"p2\" d=\"M4 12h3M9 14h6M17 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 800, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "drawknife",
+  "category": "tools",
+  "tags": ["drawknife", "blade", "shaving", "woodwork", "handles"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><rect class=\"p2\" x=\"2\" y=\"9\" width=\"3\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"19\" y=\"9\" width=\"3\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "data-aggregate",
+  "category": "charts",
+  "tags": ["aggregate", "sum", "combine", "total", "data"],
+  "svg": "<path class=\"p1\" d=\"M3 5l6 7-6 7M3 12h6\"/><circle class=\"f p3\" cx=\"3\" cy=\"5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"3\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"3\" cy=\"19\" r=\"1.2\"/><circle class=\"d p2\" cx=\"16\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "levee",
+  "category": "buildings",
+  "tags": ["levee", "embankment", "mound", "flood", "river", "bank"],
+  "svg": "<path class=\"p1\" d=\"M2 18q4-9 10-9q3 0 6 2\"/><path class=\"p2\" d=\"M14 16q2-1.5 4 0t4 0\"/><path class=\"p3\" d=\"M2 21q2.5-1.5 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

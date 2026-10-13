@@ -1,0 +1,11 @@
+{
+  "name": "stormy-sea",
+  "category": "weather",
+  "tags": ["stormy", "sea", "waves", "rain", "storm", "ocean"],
+  "svg": "<path class=\"p1\" d=\"M7 11 H16 A3 3 0 0 0 16 5 A4.5 4.5 0 0 0 7.5 4.5 A3 3 0 0 0 7 11 Z\"/><path class=\"p2\" d=\"M10 13.5 V15 M14 13.5 V15\"/><path class=\"p3\" d=\"M2 20 Q5 18 8 20 T14 20 T20 20 T22 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "wave", "dur": 1000, "delay": 1100 }
+  ]
+}

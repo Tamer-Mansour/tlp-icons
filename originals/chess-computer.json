@@ -1,0 +1,10 @@
+{
+  "name": "chess-computer",
+  "category": "devices",
+  "tags": ["chess", "board", "computer", "game", "grid", "strategy"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"d p2\" d=\"M7 7h4v4H7zM13 13h4v4h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

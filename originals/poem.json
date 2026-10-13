@@ -1,0 +1,10 @@
+{
+  "name": "poem",
+  "category": "text",
+  "tags": ["poem", "verse", "stanza", "lines", "poetry"],
+  "svg": "<path class=\"p1\" d=\"M8 5.5h8M9.5 9.5h5\"/><path class=\"p2\" d=\"M7 14.5h10M9.5 18.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 500 }
+  ]
+}

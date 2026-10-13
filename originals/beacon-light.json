@@ -1,0 +1,11 @@
+{
+  "name": "beacon-light",
+  "category": "notifications",
+  "tags": ["beacon", "light", "signal", "lamp", "alert", "warning"],
+  "svg": "<path class=\"d p1\" d=\"M7 16a5 5 0 0 1 10 0z\"/><line class=\"p2\" x1=\"4\" y1=\"19.5\" x2=\"20\" y2=\"19.5\"/><path class=\"p3\" d=\"M5 10a7 7 0 0 1 2.5-5M19 10a7 7 0 0 0-2.5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 700 }
+  ]
+}

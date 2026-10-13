@@ -1,0 +1,12 @@
+{
+  "name": "suburb",
+  "category": "buildings",
+  "tags": ["suburb", "houses", "lawn", "neighborhood", "trees", "homes"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"8\" height=\"8\"/><path class=\"p2\" d=\"M2 11l5-6 5 6\"/><path class=\"p3\" d=\"M2 21h20\"/><circle class=\"p4\" cx=\"18\" cy=\"13\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "sway", "dur": 1000, "delay": 1300 }
+  ]
+}

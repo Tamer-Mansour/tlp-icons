@@ -1,0 +1,11 @@
+{
+  "name": "lever-pull",
+  "category": "arrows",
+  "tags": ["lever", "pull", "switch", "handle", "pivot", "base"],
+  "svg": "<path class=\"p1\" d=\"M4 20 H20\"/><circle class=\"f p3\" cx=\"9\" cy=\"17\" r=\"1.5\"/><path class=\"p2\" d=\"M9 17 L16 7 M16 4.5 A2.5 2.5 0 1 1 16 9.5 A2.5 2.5 0 1 1 16 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "9px 17px" }
+  ]
+}

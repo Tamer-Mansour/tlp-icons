@@ -1,0 +1,11 @@
+{
+  "name": "flow-merge",
+  "category": "arrows",
+  "tags": ["flow", "merge", "join", "combine", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 6h5l6 6\"/><path class=\"p2\" d=\"M3 18h5l6-6\"/><path class=\"p3\" d=\"M14 12h7\"/><polyline class=\"p3\" points=\"18 9.5 21 12 18 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 700, "origin": "left" }
+  ]
+}

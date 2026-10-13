@@ -1,0 +1,11 @@
+{
+  "name": "mosquito-larva",
+  "category": "science",
+  "tags": ["mosquito", "larva", "water", "insect", "segment"],
+  "svg": "<path class=\"p1\" d=\"M3 14Q7 10 11 13T19 12\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"13.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"12.5\" r=\"1\"/><path class=\"p3\" d=\"M2 19H22\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "isolate-node",
+  "category": "security",
+  "tags": ["isolate", "node", "disconnect", "quarantine", "network", "cut off"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M6.4 7.3l2.4 3.4M6.4 16.7l2.4-3.4\"/><circle class=\"d p3\" cx=\"19\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 700, "delay": 1000 }
+  ]
+}

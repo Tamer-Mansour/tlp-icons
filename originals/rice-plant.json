@@ -1,0 +1,10 @@
+{
+  "name": "rice-plant",
+  "category": "nature",
+  "tags": ["rice", "grain", "plant", "crop", "stalk"],
+  "svg": "<path class=\"p1\" d=\"M4 21C7 15 11 10 18 5\"/><path class=\"p2\" d=\"M17 5l-2-2M18 5l1-3M18 5l3-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 900, "origin": "18px 5px" }
+  ]
+}

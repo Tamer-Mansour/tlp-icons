@@ -1,0 +1,11 @@
+{
+  "name": "file-share",
+  "category": "connectivity",
+  "tags": ["file", "share", "send", "document", "transfer", "arrow"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h7l3 3v11H4z\"/><path class=\"p2\" d=\"M15 8l7-4M19 4h3v3\"/><path class=\"p3\" d=\"M15 14l7 4M22 14v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

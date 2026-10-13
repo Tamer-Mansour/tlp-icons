@@ -1,0 +1,11 @@
+{
+  "name": "fern-frond",
+  "category": "nature",
+  "tags": ["fern", "frond", "plant", "leaves", "forest"],
+  "svg": "<path class=\"p1\" d=\"M4 20Q11 16 20 4\"/><path class=\"p2\" d=\"M9 15.5L6 13.5M9 15.5L10.5 12.5M12.5 11.5L9.5 9.5M12.5 11.5L14 8.5\"/><path class=\"p3\" d=\"M16 7.5L13.5 5.5M16 7.5L18 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

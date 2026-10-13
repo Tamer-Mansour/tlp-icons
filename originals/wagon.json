@@ -1,0 +1,11 @@
+{
+  "name": "wagon",
+  "category": "vehicles",
+  "tags": ["wagon", "cart", "wooden", "cargo", "wheels", "transport"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18l-2 8H5z\"/><circle class=\"p2\" cx=\"7\" cy=\"18.5\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18.5\" r=\"2\"/><path class=\"p3\" d=\"M9 9v8M15 9v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

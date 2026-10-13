@@ -1,0 +1,10 @@
+{
+  "name": "moss-plant",
+  "category": "science",
+  "tags": ["moss", "plant", "bryophyte", "green", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M5 20c0-2 3-3 7-3s7 1 7 3z\"/><path class=\"p2\" d=\"M9 17V12M12 17V9M15 17V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 600, "origin": "bottom" }
+  ]
+}

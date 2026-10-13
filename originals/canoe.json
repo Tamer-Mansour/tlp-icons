@@ -1,0 +1,10 @@
+{
+  "name": "canoe",
+  "category": "sport",
+  "tags": ["canoe", "boat", "paddle", "kayak", "water", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M2 10 L12 19 L22 10 Z\"/><path class=\"p2\" d=\"M4 7 H20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "bob", "dur": 1400, "delay": 600 }
+  ]
+}

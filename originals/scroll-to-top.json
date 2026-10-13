@@ -1,0 +1,10 @@
+{
+  "name": "scroll-to-top",
+  "category": "arrows",
+  "tags": ["scroll", "top", "up", "start", "page"],
+  "svg": "<path class=\"p1\" d=\"M4 3 H20\"/><path class=\"p2\" d=\"M12 20 V8\"/><polyline class=\"p2\" points=\"8 12 12 8 16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 500 }
+  ]
+}

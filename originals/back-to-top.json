@@ -1,0 +1,10 @@
+{
+  "name": "back-to-top",
+  "category": "interface",
+  "tags": ["back", "top", "chevron", "scroll", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M6 19h12\"/><path class=\"p2\" d=\"M6 14l6-6 6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "data-transfer",
+  "category": "connectivity",
+  "tags": ["data", "transfer", "database", "storage", "exchange", "sync"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8\" cy=\"4\" rx=\"5\" ry=\"1.5\"/><path class=\"p1\" d=\"M3 4v5c0 .8 2.2 1.5 5 1.5s5-.7 5-1.5V4\"/><ellipse class=\"d p2\" cx=\"8\" cy=\"15\" rx=\"5\" ry=\"1.5\"/><path class=\"p2\" d=\"M3 15v5c0 .8 2.2 1.5 5 1.5s5-.7 5-1.5v-5\"/><path class=\"p3\" d=\"M15 6h6M19 3.5l2.5 2.5-2.5 2.5M21 17h-6M17 14.5l-2.5 2.5 2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 900 }
+  ]
+}

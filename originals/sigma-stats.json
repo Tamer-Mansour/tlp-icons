@@ -1,0 +1,10 @@
+{
+  "name": "sigma-stats",
+  "category": "charts",
+  "tags": ["sigma", "statistics", "standard deviation", "bars", "math"],
+  "svg": "<path class=\"p1\" d=\"M17 2.5H7L12 6L7 9.5H17\"/><rect class=\"p2\" x=\"3\" y=\"15\" width=\"3\" height=\"6\"/><rect class=\"p2\" x=\"10\" y=\"13.5\" width=\"3\" height=\"7.5\"/><rect class=\"p2\" x=\"17\" y=\"17\" width=\"3\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 800, "origin": "bottom" }
+  ]
+}

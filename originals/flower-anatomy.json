@@ -1,0 +1,11 @@
+{
+  "name": "flower-anatomy",
+  "category": "science",
+  "tags": ["biology", "flower", "petal", "stamen", "botany"],
+  "svg": "<path class=\"p2\" d=\"M12 12v9\"/><ellipse class=\"d p1\" cx=\"7.5\" cy=\"7\" rx=\"2.5\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"16.5\" cy=\"7\" rx=\"2.5\" ry=\"2\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

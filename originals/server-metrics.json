@@ -1,0 +1,11 @@
+{
+  "name": "server-metrics",
+  "category": "charts",
+  "tags": ["server", "metrics", "monitoring", "stack", "hosting", "stats"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"18\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M7 6.5h5M7 17.5h5\"/><circle class=\"f p3\" cx=\"17\" cy=\"6.5\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "text-arc",
+  "category": "text",
+  "tags": ["arc", "curve", "text", "bend", "circular", "typography"],
+  "svg": "<path class=\"p1\" d=\"M3 17Q12 9 21 17\"/><path class=\"p2\" d=\"M6 11.5H9M10.5 10.5H13.5M15 11.5H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

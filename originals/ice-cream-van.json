@@ -1,0 +1,11 @@
+{
+  "name": "ice-cream-van",
+  "category": "vehicles",
+  "tags": ["ice", "cream", "van", "truck", "scoop", "treat"],
+  "svg": "<path class=\"d p1\" d=\"M3 9H15V17H3Z\"/><path class=\"d p1\" d=\"M15 12H19L21 15V17H15\"/><circle class=\"p2\" cx=\"7\" cy=\"19\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"19\" r=\"1.5\"/><path class=\"p3\" d=\"M9 6.5A2.5 2.5 0 0 1 14 6.5L11.5 9.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "measuring-tape-reel",
+  "category": "tools",
+  "tags": ["measuring", "tape", "reel", "crank", "length"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M15 12h4a2 2 0 0 1 2 2v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "twirl", "dur": 800, "delay": 1000 }
+  ]
+}

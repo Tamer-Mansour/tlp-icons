@@ -1,0 +1,11 @@
+{
+  "name": "annotation-note",
+  "category": "communication",
+  "tags": ["annotation", "note", "sticky", "highlight", "comment", "memo"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h16v13l-5 5H4z\"/><line class=\"p2\" x1=\"8\" y1=\"8\" x2=\"16\" y2=\"8\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"12\" y2=\"12\"/><path class=\"p3\" d=\"M15 21v-5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

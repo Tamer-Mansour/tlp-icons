@@ -1,0 +1,10 @@
+{
+  "name": "toast",
+  "category": "food",
+  "tags": ["toast", "bread", "breakfast", "slice", "crust"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 Q5 4 9 4 Q12 2.5 15 4 Q19 4 19 9 V20 H5 Z\"/><path class=\"p2\" d=\"M7.5 10 V18 H16.5 V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "leaf-blower-tool",
+  "category": "tools",
+  "tags": ["leaf", "blower", "air", "nozzle", "yard"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"11\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M14 10h5l2-2\"/><path class=\"p3\" d=\"M19 14h3M18 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

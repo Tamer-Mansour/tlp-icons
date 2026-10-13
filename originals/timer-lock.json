@@ -1,0 +1,11 @@
+{
+  "name": "timer-lock",
+  "category": "security",
+  "tags": ["timer", "lock", "stopwatch", "expiry", "time", "secure"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p1\" d=\"M10 3H14M12 5V3\"/><path class=\"p2\" d=\"M12 9V13L14.5 15.5\"/><rect class=\"d p3\" x=\"15\" y=\"15\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1200 }
+  ]
+}

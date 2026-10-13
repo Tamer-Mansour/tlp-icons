@@ -1,0 +1,10 @@
+{
+  "name": "camera-slider",
+  "category": "devices",
+  "tags": ["camera", "slider", "rail", "track", "video", "dolly"],
+  "svg": "<line class=\"p1\" x1=\"2.5\" y1=\"19\" x2=\"21.5\" y2=\"19\"/><rect class=\"d p2\" x=\"5\" y=\"8\" width=\"12\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 500 }
+  ]
+}

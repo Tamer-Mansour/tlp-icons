@@ -1,0 +1,11 @@
+{
+  "name": "cable-coil",
+  "category": "devices",
+  "tags": ["cable", "coil", "wire", "loop", "cord", "spool"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"16\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M4 16V9c0-2.5 3.6-4 8-4s8 1.5 8 4v7\"/><path class=\"p3\" d=\"M8 12c3 2 5-1 8 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

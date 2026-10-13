@@ -1,0 +1,11 @@
+{
+  "name": "route-planner",
+  "category": "vehicles",
+  "tags": ["route", "planner", "map", "path", "navigation"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"5\" r=\"1.2\"/><circle class=\"f p1\" cx=\"19\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M6 6 Q10 9 12 12 Q14 15 18 18\"/><line class=\"p3\" x1=\"17\" y1=\"3\" x2=\"17\" y2=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

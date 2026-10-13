@@ -1,0 +1,11 @@
+{
+  "name": "compare-view",
+  "category": "interface",
+  "tags": ["compare", "split", "view", "side by side", "diff", "panels"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4.5\" width=\"7\" height=\"15\" rx=\"1.5\"/><rect class=\"p2\" x=\"14.5\" y=\"4.5\" width=\"7\" height=\"15\" rx=\"1.5\"/><path class=\"p3\" d=\"M12 4.5v15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

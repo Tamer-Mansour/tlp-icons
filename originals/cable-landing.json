@@ -1,0 +1,11 @@
+{
+  "name": "cable-landing",
+  "category": "connectivity",
+  "tags": ["cable", "landing", "coast", "undersea", "shore", "internet"],
+  "svg": "<path class=\"p1\" d=\"M2 19q2.5-2 5 0t5 0t5 0t5 0\"/><path class=\"p2\" d=\"M12 3v11\"/><path class=\"p3\" d=\"M9 3h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

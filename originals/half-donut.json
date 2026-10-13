@@ -1,0 +1,11 @@
+{
+  "name": "half-donut",
+  "category": "charts",
+  "tags": ["half", "donut", "gauge", "meter", "progress"],
+  "svg": "<path class=\"p1\" d=\"M4 15A8 8 0 0 1 11 7.1\"/><path class=\"p2\" d=\"M13 7.1A8 8 0 0 1 20 15\"/><path class=\"p3\" d=\"M12 15L15.5 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 350 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 15px" }
+  ]
+}

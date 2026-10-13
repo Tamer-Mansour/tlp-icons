@@ -1,0 +1,11 @@
+{
+  "name": "minivan",
+  "category": "vehicles",
+  "tags": ["minivan", "van", "family", "sliding", "door", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 17V7H15.5L19 10.5V17Z\"/><path class=\"p2\" d=\"M6 7V10.5H12\"/><line class=\"p2\" x1=\"12\" y1=\"10.5\" x2=\"12\" y2=\"17\"/><circle class=\"p3\" cx=\"7.5\" cy=\"17.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"16\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

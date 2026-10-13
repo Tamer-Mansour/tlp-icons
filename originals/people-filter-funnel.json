@@ -1,0 +1,10 @@
+{
+  "name": "people-filter-funnel",
+  "category": "people",
+  "tags": ["people", "filter", "funnel", "search", "narrow", "sort"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18l-7 8.5V19l-4 2v-8.5z\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"7.5\" r=\"1.1\"/><circle class=\"f p2\" cx=\"12\" cy=\"7.5\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"7.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

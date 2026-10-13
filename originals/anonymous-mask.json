@@ -1,0 +1,11 @@
+{
+  "name": "anonymous-mask",
+  "category": "people",
+  "tags": ["anonymous", "mask", "hidden", "identity", "person"],
+  "svg": "<path class=\"d p1\" d=\"M6 4h12v8a6 6 0 0 1-12 0z\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M4 22a8 5 0 0 1 16 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 1200 }
+  ]
+}

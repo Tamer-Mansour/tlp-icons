@@ -1,0 +1,11 @@
+{
+  "name": "opt-in-check",
+  "category": "security",
+  "tags": ["security", "opt", "in", "consent", "checkbox", "subscribe"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"12\" height=\"12\" rx=\"2\"/><polyline class=\"p2\" points=\"5.5 13 8 15.5 10.5 11\"/><path class=\"p3\" d=\"M22 13 H16 M18.5 10.5 L16 13 L18.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1200 }
+  ]
+}

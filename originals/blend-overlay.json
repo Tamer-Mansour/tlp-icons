@@ -1,0 +1,11 @@
+{
+  "name": "blend-overlay",
+  "category": "design",
+  "tags": ["blend", "overlay", "overlap", "squares", "layers", "mode"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"11\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"11\" height=\"11\" rx=\"1\"/><rect class=\"d p3\" x=\"10\" y=\"10\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

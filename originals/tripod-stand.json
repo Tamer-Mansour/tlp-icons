@@ -1,0 +1,10 @@
+{
+  "name": "tripod-stand",
+  "category": "tools",
+  "tags": ["tripod", "stand", "camera", "mount", "legs", "survey"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M12 6 V12 M12 12 L5 21 M12 12 L19 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 }
+  ]
+}

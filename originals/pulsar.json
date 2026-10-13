@@ -1,0 +1,10 @@
+{
+  "name": "pulsar",
+  "category": "science",
+  "tags": ["pulsar", "star", "beam", "signal", "neutron", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M9.5 10.5L4 6M14.5 13.5L20 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 700 }
+  ]
+}

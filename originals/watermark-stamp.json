@@ -1,0 +1,11 @@
+{
+  "name": "watermark-stamp",
+  "category": "security",
+  "tags": ["watermark", "stamp", "document", "draft", "mark"],
+  "svg": "<path class=\"p1\" d=\"M5 2.5h10l4 4v15H5z\"/><path class=\"p2\" d=\"M8 11h8M8 14h5M8 17h5\"/><circle class=\"p3\" cx=\"14.5\" cy=\"15\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 700, "delay": 900 }
+  ]
+}

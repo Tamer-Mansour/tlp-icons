@@ -1,0 +1,10 @@
+{
+  "name": "percent-stacked-bars",
+  "category": "charts",
+  "tags": ["bars", "stacked", "percent", "chart", "segments", "proportion"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"6\" height=\"7\"/><rect class=\"p1\" x=\"4\" y=\"12\" width=\"6\" height=\"9\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"6\" height=\"5\"/><rect class=\"p2\" x=\"14\" y=\"10\" width=\"6\" height=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

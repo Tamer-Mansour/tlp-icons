@@ -1,0 +1,11 @@
+{
+  "name": "phone-shield",
+  "category": "security",
+  "tags": ["phone", "shield", "mobile", "protection", "safe", "device"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"0.8\"/><path class=\"d p2\" d=\"M12 8L15 9.2V12C15 13.7 13.9 15 12 15.7C10.1 15 9 13.7 9 12V9.2Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1300 }
+  ]
+}

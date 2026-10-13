@@ -1,0 +1,11 @@
+{
+  "name": "pub-sub",
+  "category": "connectivity",
+  "tags": ["pubsub", "publish", "subscribe", "messaging", "broadcast", "events"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M7 11L16.5 6.5M7 12H16.5M7 13L16.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tide-times",
+  "category": "time",
+  "tags": ["tide", "tides", "water", "ocean", "sea", "coast"],
+  "svg": "<path class=\"p1\" d=\"M3 8q2.25-2 4.5 0t4.5 0t4.5 0\"/><path class=\"p2\" d=\"M3 15q2.25-2 4.5 0t4.5 0t4.5 0\"/><path class=\"p3\" d=\"M19 10V3M17 5l2-2 2 2\"/><path class=\"p4\" d=\"M19 14v7M17 19l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

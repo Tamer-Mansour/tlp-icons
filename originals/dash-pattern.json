@@ -1,0 +1,10 @@
+{
+  "name": "dash-pattern",
+  "category": "shapes",
+  "tags": ["dash", "dashed", "outline", "square", "stroke", "pattern"],
+  "svg": "<path class=\"p1\" d=\"M4 3H9M15 3H20M21 4V9M21 15V20\"/><path class=\"p2\" d=\"M20 21H15M9 21H4M3 20V15M3 9V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

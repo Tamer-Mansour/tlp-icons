@@ -1,0 +1,11 @@
+{
+  "name": "bulk-mail",
+  "category": "communication",
+  "tags": ["bulk", "mail", "envelopes", "newsletter", "campaign"],
+  "svg": "<path class=\"p1\" d=\"M2 15V6.5A2.5 2.5 0 0 1 4.5 4H17\"/><rect class=\"d p2\" x=\"5\" y=\"8\" width=\"15\" height=\"12\" rx=\"1.5\"/><path class=\"p3\" d=\"M5 9.5l7.5 5 7.5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

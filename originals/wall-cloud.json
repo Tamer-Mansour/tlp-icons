@@ -1,0 +1,10 @@
+{
+  "name": "wall-cloud",
+  "category": "weather",
+  "tags": ["wall cloud", "lowering", "storm", "rotation", "dark cloud", "tornado"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14a3 3 0 0 0 0-6H8a3 3 0 0 0-3 6z\"/><path class=\"p2\" d=\"M8 9.5a4 4 0 0 0 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "paper-fold",
+  "category": "shapes",
+  "tags": ["paper", "fold", "sheet", "page", "corner", "document"],
+  "svg": "<path class=\"p1\" d=\"M4 3H20V13L13 20H4Z\"/><path class=\"d p2\" d=\"M13 13H20L13 20Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

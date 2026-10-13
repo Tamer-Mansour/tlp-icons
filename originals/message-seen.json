@@ -1,0 +1,11 @@
+{
+  "name": "message-seen",
+  "category": "communication",
+  "tags": ["seen", "read", "message", "eye", "viewed", "chat", "status"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M7 10q2.5-3 5 0q-2.5 3-5 0z\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

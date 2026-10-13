@@ -1,0 +1,10 @@
+{
+  "name": "seat-pad",
+  "category": "home",
+  "tags": ["seat", "pad", "cushion", "chair", "square", "comfort"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\"/><rect class=\"p2\" x=\"7.5\" y=\"7.5\" width=\"9\" height=\"9\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 800, "delay": 900 }
+  ]
+}

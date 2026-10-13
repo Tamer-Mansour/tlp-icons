@@ -1,0 +1,10 @@
+{
+  "name": "flag-outline",
+  "category": "interface",
+  "tags": ["flag", "outline", "marker", "mark", "pennant", "pole"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"21\" x2=\"5\" y2=\"3\"/><path class=\"p2\" d=\"M5 3H18L15 8L18 13H5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 500 }
+  ]
+}

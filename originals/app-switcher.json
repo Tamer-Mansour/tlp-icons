@@ -1,0 +1,11 @@
+{
+  "name": "app-switcher",
+  "category": "layout",
+  "tags": ["app", "switcher", "cards", "switch", "multitask", "windows", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"6.5\" width=\"6.5\" height=\"11\" rx=\"1.5\"/><rect class=\"p2\" x=\"15\" y=\"6.5\" width=\"6.5\" height=\"11\" rx=\"1.5\"/><path class=\"p3\" d=\"M10 12h4M12.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

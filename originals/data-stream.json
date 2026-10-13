@@ -1,0 +1,11 @@
+{
+  "name": "data-stream",
+  "category": "charts",
+  "tags": ["stream", "waves", "flow", "live", "feed"],
+  "svg": "<path class=\"p1\" d=\"M3 6q3-3 6 0t6 0t6 0\"/><path class=\"p2\" d=\"M3 12q3-3 6 0t6 0t6 0\"/><path class=\"p3\" d=\"M3 18q3-3 6 0t6 0t6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

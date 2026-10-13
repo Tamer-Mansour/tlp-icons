@@ -1,0 +1,12 @@
+{
+  "name": "mead",
+  "category": "food",
+  "tags": ["mead", "honey", "tankard", "drink", "dipper", "beer"],
+  "svg": "<path class=\"p1\" d=\"M5 10h11v9a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M16 12h1.5a2 2 0 0 1 0 4H16\"/><path class=\"p3\" d=\"M16 3l-4.5 6.5\"/><circle class=\"f p4\" cx=\"11\" cy=\"11.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

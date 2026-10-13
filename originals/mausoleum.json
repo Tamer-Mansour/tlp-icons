@@ -1,0 +1,11 @@
+{
+  "name": "mausoleum",
+  "category": "buildings",
+  "tags": ["mausoleum", "tomb", "dome", "columns", "memorial"],
+  "svg": "<path class=\"p1\" d=\"M6 13a6 6 0 0 1 12 0\"/><path class=\"p2\" d=\"M8 13v6M12 13v6M16 13v6\"/><path class=\"p3\" d=\"M5 19h14M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

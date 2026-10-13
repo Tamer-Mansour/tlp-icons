@@ -1,0 +1,11 @@
+{
+  "name": "moth",
+  "category": "nature",
+  "tags": ["insect", "night", "wings", "antennae", "flying"],
+  "svg": "<ellipse class=\"p2\" cx=\"12\" cy=\"14\" rx=\"1.5\" ry=\"5\"/><path class=\"d p1\" d=\"M10.5 11C7 6 2.5 7 3 11C3.3 14 7 16 10.5 14Z\"/><path class=\"d p1\" d=\"M13.5 11C17 6 21.5 7 21 11C20.7 14 17 16 13.5 14Z\"/><path class=\"p3\" d=\"M11 9.5C10.5 7 9 5 7.5 4.5M13 9.5C13.5 7 15 5 16.5 4.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "flutter", "dur": 900, "delay": 700 }
+  ]
+}

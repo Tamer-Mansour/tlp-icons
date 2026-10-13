@@ -1,0 +1,10 @@
+{
+  "name": "punch-bowl",
+  "category": "home",
+  "tags": ["punch", "bowl", "ladle", "party", "serving"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18c0 6-4 10-9 10s-9-4-9-10z\"/><path class=\"p2\" d=\"M12 9.5L19 3\"/><circle class=\"p2\" cx=\"11\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 700, "origin": "11px 9px" }
+  ]
+}

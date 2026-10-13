@@ -1,0 +1,11 @@
+{
+  "name": "sieve-mesh",
+  "category": "science",
+  "tags": ["sieve", "mesh", "filter", "particles", "strainer"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"7.5\"/><path class=\"p3\" d=\"M8 12H16M12 8V16M9 9L15 15M15 9L9 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flatbed-truck",
+  "category": "vehicles",
+  "tags": ["flatbed", "truck", "cargo", "hauling", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M2 14V8.5l3-3.5h5V14z\"/><path class=\"p2\" d=\"M10 14h12\"/><circle class=\"p3\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "roll", "dur": 800, "delay": 900 }
+  ]
+}

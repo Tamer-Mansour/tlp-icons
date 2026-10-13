@@ -1,0 +1,11 @@
+{
+  "name": "tool-call",
+  "category": "development",
+  "tags": ["tool call", "function", "call", "api", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M9 4.5C6 7 6 17 9 19.5\"/><path class=\"p2\" d=\"M15 4.5c3 2.5 3 12.5 0 15\"/><path class=\"p3\" d=\"M9.5 12h5M12.5 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 1000 }
+  ]
+}

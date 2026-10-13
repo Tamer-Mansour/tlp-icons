@@ -1,0 +1,11 @@
+{
+  "name": "metro-station",
+  "category": "vehicles",
+  "tags": ["metro", "subway", "station", "train", "underground", "tunnel"],
+  "svg": "<path class=\"p1\" d=\"M4 21 V11 A8 8 0 0 1 20 11 V21\"/><rect class=\"d p2\" x=\"8\" y=\"12\" width=\"8\" height=\"7\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 500, "delay": 1100 }
+  ]
+}

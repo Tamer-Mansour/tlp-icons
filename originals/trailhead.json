@@ -1,0 +1,11 @@
+{
+  "name": "trailhead",
+  "category": "buildings",
+  "tags": ["trailhead", "signpost", "hiking", "trail marker", "directions"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"d p2\" d=\"M12 5h7l2 2-2 2h-7z\"/><path class=\"d p3\" d=\"M12 12H5l-2 2 2 2h7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

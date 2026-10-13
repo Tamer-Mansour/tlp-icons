@@ -1,0 +1,10 @@
+{
+  "name": "subway-tunnel",
+  "category": "buildings",
+  "tags": ["subway", "tunnel", "rails", "metro", "underground", "train"],
+  "svg": "<path class=\"p1\" d=\"M3 20 V11 A9 9 0 0 1 21 11 V20\"/><path class=\"p2\" d=\"M6 14 H18 M6 17 H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 600 }
+  ]
+}

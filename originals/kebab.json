@@ -1,0 +1,12 @@
+{
+  "name": "kebab",
+  "category": "food",
+  "tags": ["kebab", "skewer", "meat", "grill", "barbecue", "food"],
+  "svg": "<path class=\"p1\" d=\"M3 21 21 3\"/><circle class=\"d p2\" cx=\"8.5\" cy=\"15.5\" r=\"2.2\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.2\"/><circle class=\"d p4\" cx=\"15.5\" cy=\"8.5\" r=\"2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

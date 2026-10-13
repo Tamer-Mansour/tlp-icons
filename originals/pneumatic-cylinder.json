@@ -1,0 +1,11 @@
+{
+  "name": "pneumatic-cylinder",
+  "category": "devices",
+  "tags": ["pneumatic", "cylinder", "piston", "rod", "air", "actuator"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M11 9v6\"/><path class=\"p3\" d=\"M15 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "seahorse",
+  "category": "nature",
+  "tags": ["sea", "curled tail", "ocean", "marine", "snout"],
+  "svg": "<circle class=\"d p1\" cx=\"13\" cy=\"6\" r=\"3\"/><path class=\"p2\" d=\"M15.8 5.5 L20 7\"/><path class=\"p3\" d=\"M11.5 9 C9.5 12 13 14 12 17 C11 19.5 8 19 7.5 21 C7 22.5 5 22 5 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

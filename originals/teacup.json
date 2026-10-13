@@ -1,0 +1,11 @@
+{
+  "name": "teacup",
+  "category": "home",
+  "tags": ["teacup", "tea", "cup", "saucer", "drink", "beverage"],
+  "svg": "<path class=\"d p1\" d=\"M5 9H15V13A5 4 0 0 1 5 13Z\"/><path class=\"p2\" d=\"M15 10.5H17A2 2 0 0 1 17 14.5H15\"/><path class=\"p3\" d=\"M3 19.5H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "neutron-star",
+  "category": "science",
+  "tags": ["neutron", "star", "dense", "beam", "pulsar", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M5 5q3.5 2 5 5M19 19q-3.5-2-5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 700, "origin": "12px 12px" }
+  ]
+}

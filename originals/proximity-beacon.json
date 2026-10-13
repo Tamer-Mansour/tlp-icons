@@ -1,0 +1,11 @@
+{
+  "name": "proximity-beacon",
+  "category": "connectivity",
+  "tags": ["proximity", "beacon", "nearby", "range", "signal", "ring"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M8.5 8.5 A5 5 0 0 0 8.5 15.5 M15.5 8.5 A5 5 0 0 1 15.5 15.5\"/><path class=\"p3\" d=\"M6 6.5 A8 8 0 0 1 18 6.5 M18 17.5 A8 8 0 0 1 6 17.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

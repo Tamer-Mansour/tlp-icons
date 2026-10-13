@@ -1,0 +1,10 @@
+{
+  "name": "hand-point-right",
+  "category": "arrows",
+  "tags": ["hand", "point", "right", "pointer", "direction"],
+  "svg": "<path class=\"p1\" d=\"M14.5 11 H10 A3 3 0 0 0 7 14 V16 A4 4 0 0 0 11 20 H13 A4 4 0 0 0 17 16 V11\"/><rect class=\"p2\" x=\"14.5\" y=\"8\" width=\"7\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

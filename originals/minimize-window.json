@@ -1,0 +1,10 @@
+{
+  "name": "minimize-window",
+  "category": "interface",
+  "tags": ["minimize", "window", "hide", "collapse", "bar"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 17H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

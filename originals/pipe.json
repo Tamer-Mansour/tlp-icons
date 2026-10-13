@@ -1,0 +1,10 @@
+{
+  "name": "pipe",
+  "category": "tools",
+  "tags": ["pipe", "tube", "plumbing", "flange", "conduit", "fitting"],
+  "svg": "<path class=\"p1\" d=\"M3 9h11M3 15h11\"/><rect class=\"p2\" x=\"16\" y=\"6\" width=\"4\" height=\"12\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

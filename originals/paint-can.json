@@ -1,0 +1,12 @@
+{
+  "name": "paint-can",
+  "category": "home",
+  "tags": ["paint", "can", "bucket", "lid", "drip", "decorate"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"13\" rx=\"1.5\"/><rect class=\"p2\" x=\"4\" y=\"5\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 5V2.5h6V5\"/><circle class=\"f p4\" cx=\"12\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "drip", "dur": 1000, "delay": 1100 }
+  ]
+}

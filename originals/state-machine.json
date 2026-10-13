@@ -1,0 +1,10 @@
+{
+  "name": "state-machine",
+  "category": "development",
+  "tags": ["state", "machine", "transitions", "fsm", "nodes", "flow"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"19\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"12\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M7.5 6 H16.5 M15 4.5 L16.5 6 L15 7.5 M17.5 8.5 L13.5 15.5 M10.5 15.5 L6.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

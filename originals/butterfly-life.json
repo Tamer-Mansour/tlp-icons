@@ -1,0 +1,11 @@
+{
+  "name": "butterfly-life",
+  "category": "science",
+  "tags": ["butterfly", "insect", "wings", "life", "metamorphosis"],
+  "svg": "<path class=\"d p1\" d=\"M12 11C10 5 4 3 3 7C2 11 7 13 12 11Z\"/><path class=\"d p1\" d=\"M12 11C14 5 20 3 21 7C22 11 17 13 12 11Z\"/><path class=\"p2\" d=\"M12 13C9 16 5 14 6 18C7 21 10 19 12 13Z\"/><path class=\"p2\" d=\"M12 13C15 16 19 14 18 18C17 21 14 19 12 13Z\"/><line class=\"p3\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "flutter", "dur": 900, "delay": 700, "origin": "12px 11px" }
+  ]
+}

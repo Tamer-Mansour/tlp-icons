@@ -1,0 +1,10 @@
+{
+  "name": "text-wrap-balance",
+  "category": "text",
+  "tags": ["balance", "wrap", "even lines", "paragraph", "layout"],
+  "svg": "<path class=\"p1\" d=\"M4 8 H20\"/><path class=\"p2\" d=\"M4 14 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 500 }
+  ]
+}

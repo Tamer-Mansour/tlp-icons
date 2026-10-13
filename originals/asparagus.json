@@ -1,0 +1,11 @@
+{
+  "name": "asparagus",
+  "category": "food",
+  "tags": ["asparagus", "spear", "vegetable", "green", "tips", "produce"],
+  "svg": "<path class=\"d p1\" d=\"M7 21V8.5a2 2 0 0 1 4 0V21\"/><path class=\"d p2\" d=\"M13 21V5.5a2 2 0 0 1 4 0V21\"/><path class=\"p3\" d=\"M5.5 16.5h13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

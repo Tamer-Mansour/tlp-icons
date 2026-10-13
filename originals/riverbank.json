@@ -1,0 +1,10 @@
+{
+  "name": "riverbank",
+  "category": "buildings",
+  "tags": ["riverbank", "river", "grass", "water", "shore", "bank"],
+  "svg": "<path class=\"p1\" d=\"M3 14c3-3 6 3 9 0s6 3 9 0\"/><path class=\"p2\" d=\"M5 8l1 3M8 7v4M11 8l-1 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

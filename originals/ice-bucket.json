@@ -1,0 +1,11 @@
+{
+  "name": "ice-bucket",
+  "category": "food",
+  "tags": ["ice", "bucket", "tongs", "cold", "chill"],
+  "svg": "<path class=\"p1 d\" d=\"M6 9 H18 L17 20 Q17 21 16 21 H8 Q7 21 7 20 Z\"/><line class=\"p2\" x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\"/><path class=\"p3\" d=\"M10 9 L8 3 M14 9 L16 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 9px" }
+  ]
+}

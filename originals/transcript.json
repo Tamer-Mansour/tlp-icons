@@ -1,0 +1,11 @@
+{
+  "name": "transcript",
+  "category": "text",
+  "tags": ["transcript", "dialogue", "speaker", "document", "interview", "record"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M7 7.5h2\"/><path class=\"p3\" d=\"M11 7.5h6M7 11.5h10M7 15.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "board-eraser",
+  "category": "science",
+  "tags": ["eraser", "rubber", "block", "erase", "classroom", "correction"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M7 10V7a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3\"/><circle class=\"f p3\" cx=\"8\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "vinyl-record",
+  "category": "media",
+  "tags": ["vinyl", "record", "disc", "grooves", "label", "music"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"5.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M12 10v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1600, "delay": 900, "origin": "center" }
+  ]
+}

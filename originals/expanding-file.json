@@ -1,0 +1,11 @@
+{
+  "name": "expanding-file",
+  "category": "files",
+  "tags": ["expanding", "file", "accordion", "folder", "pleats", "organize"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"18\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M7 7v14M11 7v14M15 7v14\"/><path class=\"p3\" d=\"M3 7V4h7l2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 900 }
+  ]
+}

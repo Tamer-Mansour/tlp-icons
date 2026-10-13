@@ -1,0 +1,11 @@
+{
+  "name": "stack-vertical",
+  "category": "design",
+  "tags": ["stack", "vertical", "column", "squares", "design"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"8\" y=\"17\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 400 }
+  ]
+}

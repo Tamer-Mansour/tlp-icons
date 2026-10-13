@@ -1,0 +1,10 @@
+{
+  "name": "ride-share",
+  "category": "vehicles",
+  "tags": ["ride", "share", "taxi", "car", "pickup"],
+  "svg": "<path class=\"d p1\" d=\"M3 16 V12 L5.5 9 H18.5 L21 12 V16 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"2.5\" r=\"1.5\"/><path class=\"p2\" d=\"M10 9 V8 A2 2 0 0 1 14 8 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 800 }
+  ]
+}

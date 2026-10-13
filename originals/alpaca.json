@@ -1,0 +1,11 @@
+{
+  "name": "alpaca",
+  "category": "nature",
+  "tags": ["alpaca", "fluffy", "wool", "andes", "llama", "animal"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"5.5\"/><path class=\"p2\" d=\"M14 11 L16 7\"/><circle class=\"p3\" cx=\"17.5\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1000, "origin": "17.5px 6px" }
+  ]
+}

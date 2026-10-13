@@ -1,0 +1,11 @@
+{
+  "name": "moth-wings",
+  "category": "science",
+  "tags": ["moth", "wings", "insect", "symmetry", "night"],
+  "svg": "<path class=\"d p1\" d=\"M12 11C9 4 3 4 3 9C3 12 7 13 12 11Z\"/><path class=\"d p1\" d=\"M12 11C15 4 21 4 21 9C21 12 17 13 12 11Z\"/><path class=\"p2\" d=\"M12 13C10 15 6 16 6 19C9 20 12 18 12 15Z\"/><path class=\"p2\" d=\"M12 13C14 15 18 16 18 19C15 20 12 18 12 15Z\"/><path class=\"p3\" d=\"M12 5V20M12 5L10 3M12 5L14 3\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

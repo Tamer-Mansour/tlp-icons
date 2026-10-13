@@ -1,0 +1,11 @@
+{
+  "name": "jack-plug",
+  "category": "media",
+  "tags": ["jack", "plug", "audio", "cable", "connector", "socket"],
+  "svg": "<polygon class=\"d p1\" points=\"3,14 8,9 11,12 6,17\"/><path class=\"p2\" d=\"M12.5 11.5l2-2M15 9l1.5-1.5M17.5 7l1.5-1.5\"/><path class=\"p3\" d=\"M19 5.5L22 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shelf-level",
+  "category": "home",
+  "tags": ["level", "spirit", "shelf", "measure", "tool"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"6\" rx=\"2\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1.2\"/><path class=\"p3\" d=\"M4 18h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

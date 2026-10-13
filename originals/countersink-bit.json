@@ -1,0 +1,11 @@
+{
+  "name": "countersink-bit",
+  "category": "tools",
+  "tags": ["countersink", "bit", "cone", "drill", "screw", "flat"],
+  "svg": "<path class=\"d p1\" d=\"M6 4h12l-6 14z\"/><path class=\"p2\" d=\"M6 4h12\"/><path class=\"p3\" d=\"M12 18v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

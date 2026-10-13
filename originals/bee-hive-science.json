@@ -1,0 +1,11 @@
+{
+  "name": "bee-hive-science",
+  "category": "science",
+  "tags": ["bee", "hive", "hexagon", "honeycomb", "insect", "biology"],
+  "svg": "<path class=\"p1\" d=\"M12 3L19.5 7.5V16.5L12 21L4.5 16.5V7.5Z\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12.5\" rx=\"3\" ry=\"2\"/><path class=\"p3\" d=\"M10.5 10L9 8M13.5 10L15 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1100 }
+  ]
+}

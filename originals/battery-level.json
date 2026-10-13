@@ -1,0 +1,11 @@
+{
+  "name": "battery-level",
+  "category": "vehicles",
+  "tags": ["battery", "level", "charge", "power", "energy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"16\" height=\"10\"/><rect class=\"p2\" x=\"19\" y=\"10\" width=\"2\" height=\"4\"/><rect class=\"p3\" x=\"6\" y=\"10\" width=\"3\" height=\"4\"/><rect class=\"p3\" x=\"10.5\" y=\"10\" width=\"3\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "refill", "dur": 1000, "delay": 700, "origin": "left" }
+  ]
+}

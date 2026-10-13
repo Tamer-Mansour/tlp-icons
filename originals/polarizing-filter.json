@@ -1,0 +1,10 @@
+{
+  "name": "polarizing-filter",
+  "category": "photography",
+  "tags": ["polarizing filter", "polarizer", "lens", "glare", "filter", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 9h9M7.5 12h9M7.5 15h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 600 }
+  ]
+}

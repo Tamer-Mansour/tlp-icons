@@ -1,0 +1,10 @@
+{
+  "name": "sunspots",
+  "category": "science",
+  "tags": ["sun", "sunspots", "solar", "star", "astronomy", "spots"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "throb", "dur": 800, "delay": 900 }
+  ]
+}

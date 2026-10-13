@@ -1,0 +1,10 @@
+{
+  "name": "spinning-top",
+  "category": "sport",
+  "tags": ["top", "spinning", "toy", "spin", "game", "play"],
+  "svg": "<path class=\"d p1\" d=\"M4 8.5C4 7 7.5 6 12 6s8 1 8 2.5L12 21z\"/><path class=\"p2\" d=\"M2.5 4.5A10 10 0 0 1 9 2.5M15 2.5A10 10 0 0 1 21.5 4.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1500, "delay": 600 }
+  ]
+}

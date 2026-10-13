@@ -1,0 +1,10 @@
+{
+  "name": "redo-curved",
+  "category": "arrows",
+  "tags": ["redo", "forward", "repeat", "curve", "reapply", "history"],
+  "svg": "<path class=\"p1\" d=\"M16 4l4 5-4 5\"/><path class=\"p2\" d=\"M20 9h-9a5 5 0 0 0 0 10h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

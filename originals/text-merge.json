@@ -1,0 +1,11 @@
+{
+  "name": "text-merge",
+  "category": "text",
+  "tags": ["text", "merge", "combine", "join", "converge", "edit"],
+  "svg": "<path class=\"p1\" d=\"M3 5 C7 5 8 12 11 12\"/><path class=\"p2\" d=\"M3 19 C7 19 8 12 11 12\"/><path class=\"p3\" d=\"M11 12 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dog-collar",
+  "category": "nature",
+  "tags": ["collar", "dog", "pet", "neck", "tag", "band"],
+  "svg": "<path class=\"p1\" d=\"M4 6 Q12 12 20 6 M4 10.5 Q12 16.5 20 10.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 700, "origin": "12px 13.5px" }
+  ]
+}

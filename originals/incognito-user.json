@@ -1,0 +1,12 @@
+{
+  "name": "incognito-user",
+  "category": "people",
+  "tags": ["incognito", "hood", "private", "disguise", "stealth", "anonymous"],
+  "svg": "<path class=\"p1\" d=\"M6.5 11a5.5 5.5 0 0 1 11 0\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"3.5\"/><path class=\"p3\" d=\"M6 22a6 6 0 0 1 12 0\"/><path class=\"p4\" d=\"M9 10h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

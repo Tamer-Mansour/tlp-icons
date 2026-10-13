@@ -1,0 +1,10 @@
+{
+  "name": "schedule-conflict",
+  "category": "notifications",
+  "tags": ["schedule", "conflict", "overlap", "timeline", "clash"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"12\" height=\"7\" rx=\"1.5\"/><rect class=\"d p2\" x=\"9\" y=\"10\" width=\"12\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 600 }
+  ]
+}

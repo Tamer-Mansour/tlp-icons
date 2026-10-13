@@ -1,0 +1,10 @@
+{
+  "name": "sharpen-image",
+  "category": "design",
+  "tags": ["sharpen", "image", "focus", "detail", "filter", "photo"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"3.5\" width=\"17\" height=\"17\" rx=\"3\"/><path class=\"d p2\" d=\"M12 7.5l1.2 3.3 3.3 1.2-3.3 1.2L12 16.5l-1.2-3.3-3.3-1.2 3.3-1.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 800, "delay": 600 }
+  ]
+}

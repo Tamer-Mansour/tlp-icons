@@ -1,0 +1,11 @@
+{
+  "name": "satellite-alert",
+  "category": "notifications",
+  "tags": ["satellite", "orbit", "space", "alert", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M8 10l4-4 4 4-4 4z\"/><path class=\"p2\" d=\"M8 10l-4 4M16 10l4-4\"/><path class=\"p3\" d=\"M20 13v4\"/><circle class=\"f p3\" cx=\"20\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

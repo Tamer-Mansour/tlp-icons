@@ -1,0 +1,11 @@
+{
+  "name": "crossed-fingers",
+  "category": "emoji",
+  "tags": ["crossed", "fingers", "luck", "hope", "good", "wish"],
+  "svg": "<path class=\"d p1\" d=\"M7 13 H17 V18 Q17 21 14 21 H10 Q7 21 7 18 Z\"/><line class=\"p2\" x1=\"9\" y1=\"3\" x2=\"15\" y2=\"13\"/><line class=\"p3\" x1=\"15\" y1=\"3\" x2=\"9\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-cloud-download",
+  "category": "files",
+  "tags": ["file", "cloud", "download", "save", "sync", "document"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h8.5l3 3V21H3z\"/><path class=\"p2\" d=\"M12.5 12.5h6.5a2.5 2.5 0 0 0 0-5 4.5 4.5 0 0 0-8.5 1 2.5 2.5 0 0 0 2 4z\"/><path class=\"p3\" d=\"M18.5 15v6M16 18.5l2.5 2.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1100 }
+  ]
+}

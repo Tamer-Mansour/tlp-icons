@@ -1,0 +1,11 @@
+{
+  "name": "season-summer",
+  "category": "weather",
+  "tags": ["summer", "sun", "season", "rays", "heat", "warm"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"4\"/><path class=\"p2\" d=\"M12 2.5 V4 M4.2 4.2 L5.3 5.3 M19.8 4.2 L18.7 5.3 M2.5 11 H4 M21.5 11 H20\"/><path class=\"p3\" d=\"M3 19.5 H21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1100 }
+  ]
+}

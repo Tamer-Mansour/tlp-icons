@@ -1,0 +1,10 @@
+{
+  "name": "push-down",
+  "category": "arrows",
+  "tags": ["push", "down", "press", "force", "bar"],
+  "svg": "<path class=\"p1\" d=\"M3 20 H21\"/><path class=\"p2\" d=\"M12 4 V16 M8 12 L12 16 L16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pump", "dur": 600, "delay": 700 }
+  ]
+}

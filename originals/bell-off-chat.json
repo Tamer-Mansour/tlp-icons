@@ -1,0 +1,11 @@
+{
+  "name": "bell-off-chat",
+  "category": "communication",
+  "tags": ["bell", "mute", "chat", "notifications", "off", "silent"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v12h-7l-4 3v-3H4z\"/><path class=\"p2\" d=\"M16 16.5a2.5 2.5 0 0 1 5 0v2l1 1.5h-7l1-1.5z\"/><path class=\"p3\" d=\"M15 20l6-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 900 }
+  ]
+}

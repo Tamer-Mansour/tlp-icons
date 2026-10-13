@@ -1,0 +1,11 @@
+{
+  "name": "aurora-sky",
+  "category": "science",
+  "tags": ["aurora", "sky", "northern", "lights", "night"],
+  "svg": "<path class=\"p1\" d=\"M2 19H22\"/><path class=\"p2\" d=\"M4 14Q8 9 12 11.5T20 14\"/><path class=\"p3\" d=\"M6 9.5Q9 4.5 12 7T18 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 1000, "delay": 900 }
+  ]
+}

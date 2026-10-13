@@ -1,0 +1,11 @@
+{
+  "name": "extractor-fan",
+  "category": "home",
+  "tags": ["extractor", "fan", "vent", "exhaust", "ventilation", "wall"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p3\" d=\"M12 12 V7.5 M12 12 L15.9 14.25 M12 12 L8.1 14.25\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spinFast", "dur": 1200, "delay": 1100 }
+  ]
+}

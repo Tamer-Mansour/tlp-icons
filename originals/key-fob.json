@@ -1,0 +1,11 @@
+{
+  "name": "key-fob",
+  "category": "vehicles",
+  "tags": ["key", "fob", "remote", "lock", "signal"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"12\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1.5\"/><path class=\"p3\" d=\"M4.5 9q-2 3 0 6M19.5 9q2 3 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 900 }
+  ]
+}

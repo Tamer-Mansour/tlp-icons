@@ -1,0 +1,10 @@
+{
+  "name": "airport-runway",
+  "category": "buildings",
+  "tags": ["airport", "runway", "airstrip", "plane", "landing", "strip"],
+  "svg": "<path class=\"p1\" d=\"M8 2v20M16 2v20\"/><path class=\"p2\" d=\"M12 4v3M12 10.5v3M12 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 900, "delay": 800 }
+  ]
+}

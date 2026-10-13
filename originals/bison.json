@@ -1,0 +1,12 @@
+{
+  "name": "bison",
+  "category": "nature",
+  "tags": ["animal", "plains", "horns", "shaggy", "wild"],
+  "svg": "<path class=\"d p1\" d=\"M5 9c0-3 3-5 7-5s7 2 7 5-2 6-7 7c-5-1-7-4-7-7z\"/><path class=\"p2\" d=\"M5 9c-2-1-3-3-2-5M19 9c2-1 3-3 2-5\"/><path class=\"p4\" d=\"M10 16c0 2 1 3 2 3s2-1 2-3\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

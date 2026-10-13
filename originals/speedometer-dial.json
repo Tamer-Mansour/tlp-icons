@@ -1,0 +1,11 @@
+{
+  "name": "speedometer-dial",
+  "category": "interface",
+  "tags": ["speedometer", "gauge", "dial", "speed", "ticks"],
+  "svg": "<path class=\"p1\" d=\"M3.5 17A9 9 0 1 1 20.5 17\"/><path class=\"p2\" d=\"M12 6.5V8.5M6.5 9.5L7.9 10.9M17.5 9.5L16.1 10.9\"/><line class=\"p3\" x1=\"12\" y1=\"14\" x2=\"15.5\" y2=\"9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1200, "origin": "12px 14px" }
+  ]
+}

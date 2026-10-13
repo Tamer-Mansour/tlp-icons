@@ -1,0 +1,11 @@
+{
+  "name": "team-captain-armband",
+  "category": "people",
+  "tags": ["captain", "armband", "team", "leader", "sleeve", "star"],
+  "svg": "<path class=\"d p1\" d=\"M6 3 H18 L20 21 H4 Z\"/><rect class=\"p2\" x=\"5.5\" y=\"10\" width=\"13\" height=\"3\"/><polygon class=\"p3\" points=\"12 8 12.7 9.9 14.7 9.9 13.1 11.1 13.7 13 12 11.8 10.3 13 10.9 11.1 9.3 9.9 11.3 9.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1200 }
+  ]
+}

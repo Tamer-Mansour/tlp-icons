@@ -1,0 +1,11 @@
+{
+  "name": "bike-bell",
+  "category": "vehicles",
+  "tags": ["bike bell", "ring", "cycling", "alert", "handlebar", "sound"],
+  "svg": "<path class=\"d p1\" d=\"M6 16v-3a6 6 0 0 1 12 0v3z\"/><circle class=\"f p2\" cx=\"12\" cy=\"19\" r=\"1.2\"/><path class=\"p3\" d=\"M4 9l2 1.5M20 9l-2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 500, "origin": "12px 13px" },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1100 }
+  ]
+}

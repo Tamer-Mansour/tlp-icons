@@ -1,0 +1,11 @@
+{
+  "name": "word-etymology",
+  "category": "text",
+  "tags": ["etymology", "tree", "origin", "root", "word"],
+  "svg": "<path class=\"p1\" d=\"M12 20V12\"/><path class=\"p2\" d=\"M12 13L6 7V3\"/><path class=\"p3\" d=\"M12 13L18 7V3\"/><circle class=\"f\" cx=\"12\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

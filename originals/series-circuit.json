@@ -1,0 +1,12 @@
+{
+  "name": "series-circuit",
+  "category": "science",
+  "tags": ["electric", "series", "circuit", "battery", "resistor", "loop"],
+  "svg": "<path class=\"p1\" d=\"M3 9V5h18v14H3v-4\"/><path class=\"p2\" d=\"M1.5 10.5h3M2.5 13h1\"/><rect class=\"p3\" x=\"8.5\" y=\"4\" width=\"5\" height=\"2\"/><rect class=\"p4\" x=\"20\" y=\"9\" width=\"2\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

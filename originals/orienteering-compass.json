@@ -1,0 +1,11 @@
+{
+  "name": "orienteering-compass",
+  "category": "sport",
+  "tags": ["compass", "orienteering", "navigation", "direction", "map"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><polygon class=\"p2\" points=\"12,5 13.5,10 10.5,10\"/><line class=\"p3\" x1=\"4\" y1=\"20.5\" x2=\"20\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900, "origin": "12px 10px" }
+  ]
+}

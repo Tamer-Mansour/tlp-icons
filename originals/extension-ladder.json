@@ -1,0 +1,10 @@
+{
+  "name": "extension-ladder",
+  "category": "tools",
+  "tags": ["extension", "ladder", "climb", "rungs", "height"],
+  "svg": "<path class=\"p1\" d=\"M5 22V10M15 22V10M5 16H15\"/><path class=\"p2\" d=\"M9 14V2M19 14V2M9 6H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 700 }
+  ]
+}

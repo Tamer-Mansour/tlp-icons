@@ -1,0 +1,11 @@
+{
+  "name": "hydrogen-tank",
+  "category": "devices",
+  "tags": ["hydrogen", "tank", "gas", "cylinder", "fuel", "storage"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"14\" rx=\"3\"/><path class=\"p2\" d=\"M9 4h6M12 4v3\"/><path class=\"p3\" d=\"M7 12h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

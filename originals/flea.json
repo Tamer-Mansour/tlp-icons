@@ -1,0 +1,11 @@
+{
+  "name": "flea",
+  "category": "nature",
+  "tags": ["flea", "insect", "jump", "pest", "bug"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"5.5\" ry=\"3.5\"/><path class=\"p2\" d=\"M8 16.5 L5 20.5 M16 16.5 L19 20.5\"/><path class=\"p3\" d=\"M10.5 10.5 Q10 6 13 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900, "origin": "10.5px 10.5px" }
+  ]
+}

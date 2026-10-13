@@ -1,0 +1,10 @@
+{
+  "name": "dialog-cancel",
+  "category": "interface",
+  "tags": ["dialog", "cancel", "reject", "message", "close", "no"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 4.5h17v12h-9l-4 3.5v-3.5h-4Z\"/><path class=\"p2\" d=\"M9 8.5l5 5M14 8.5l-5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

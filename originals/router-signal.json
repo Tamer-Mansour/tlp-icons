@@ -1,0 +1,11 @@
+{
+  "name": "router-signal",
+  "category": "communication",
+  "tags": ["router", "wifi", "network", "signal", "internet", "wireless"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"18\" height=\"7\" rx=\"1.5\"/><circle class=\"f p1\" cx=\"7.5\" cy=\"16.5\" r=\"1\"/><path class=\"p2\" d=\"M8 13V8M16 13V8\"/><path class=\"p3\" d=\"M6 5a8.5 8.5 0 0 1 12 0\"/><path class=\"p3\" d=\"M9 8.5a4 4 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900, "origin": "12px 8px" }
+  ]
+}

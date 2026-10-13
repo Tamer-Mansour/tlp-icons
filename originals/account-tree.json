@@ -1,0 +1,11 @@
+{
+  "name": "account-tree",
+  "category": "people",
+  "tags": ["account", "tree", "hierarchy", "org", "structure", "branches"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"3\"/><path class=\"p2\" d=\"M12 8v4M6 12h12M6 12v4M18 12v4\"/><circle class=\"d p3\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"d p3\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

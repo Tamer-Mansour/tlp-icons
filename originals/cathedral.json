@@ -1,0 +1,11 @@
+{
+  "name": "cathedral",
+  "category": "buildings",
+  "tags": ["cathedral", "church", "towers", "rose", "window"],
+  "svg": "<path class=\"p1\" d=\"M3 21V9l2-5 2 5v12M17 21V9l2-5 2 5v12\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"3\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

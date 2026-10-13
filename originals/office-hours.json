@@ -1,0 +1,12 @@
+{
+  "name": "office-hours",
+  "category": "time",
+  "tags": ["office", "hours", "door", "clock", "open", "business"],
+  "svg": "<path class=\"p1\" d=\"M3 21V3h10v18M3 21h10\"/><circle class=\"f p2\" cx=\"10\" cy=\"12\" r=\"1.2\"/><circle class=\"d p3\" cx=\"18\" cy=\"8\" r=\"3\"/><path class=\"p4\" d=\"M18 6.5V8h1.2M16 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

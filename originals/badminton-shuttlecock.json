@@ -1,0 +1,10 @@
+{
+  "name": "badminton-shuttlecock",
+  "category": "sport",
+  "tags": ["badminton", "shuttlecock", "birdie", "racket", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M8 16L13 7M8 16L17 8M8 16L20 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 500 }
+  ]
+}

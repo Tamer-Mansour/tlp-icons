@@ -1,0 +1,10 @@
+{
+  "name": "ice-pack",
+  "category": "sport",
+  "tags": ["ice pack", "cold", "injury", "recovery", "compress"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"4\"/><path class=\"p2\" d=\"M12 8 V16 M8.5 10 L15.5 14 M8.5 14 L15.5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 600 }
+  ]
+}

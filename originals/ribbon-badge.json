@@ -1,0 +1,10 @@
+{
+  "name": "ribbon-badge",
+  "category": "shapes",
+  "tags": ["ribbon", "badge", "rosette", "award", "tails", "prize"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"6\"/><polyline class=\"p2\" points=\"9,14.5 7,20.5 9.5,19.2 12,21 14.5,19.2 17,20.5 15,14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

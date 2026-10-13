@@ -1,0 +1,11 @@
+{
+  "name": "zipline",
+  "category": "sport",
+  "tags": ["zipline", "zip", "line", "cable", "pulley", "adventure"],
+  "svg": "<path class=\"p1\" d=\"M2 6 L22 12\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/><path class=\"p3\" d=\"M12 10.5 V13.5 M9 13.5 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 10.5px" }
+  ]
+}

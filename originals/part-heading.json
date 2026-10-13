@@ -1,0 +1,10 @@
+{
+  "name": "part-heading",
+  "category": "text",
+  "tags": ["part", "heading", "section", "rule", "bold"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M3 16H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

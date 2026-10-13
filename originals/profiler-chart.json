@@ -1,0 +1,10 @@
+{
+  "name": "profiler-chart",
+  "category": "development",
+  "tags": ["profiler", "chart", "bars", "timing", "analysis", "performance"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M7 17v-4M11 17v-8M15 17v-5M19 17v-9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

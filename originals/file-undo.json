@@ -1,0 +1,10 @@
+{
+  "name": "file-undo",
+  "category": "files",
+  "tags": ["file", "undo", "revert", "back", "arrow", "document"],
+  "svg": "<path class=\"d p1\" d=\"M11 2.5h7.5L21 7v14H11z\"/><path class=\"p2\" d=\"M3 9l2.5-2.5M3 9l2.5 2.5M3 9h4a3.5 3.5 0 0 1 0 7H5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 800 }
+  ]
+}

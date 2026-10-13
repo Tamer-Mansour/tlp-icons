@@ -1,0 +1,11 @@
+{
+  "name": "hard-disk-platter",
+  "category": "devices",
+  "tags": ["disk", "platter", "hard drive", "storage", "tracks"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

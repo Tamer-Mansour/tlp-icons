@@ -1,0 +1,11 @@
+{
+  "name": "speech-dots-wave",
+  "category": "communication",
+  "tags": ["speech", "dots", "wave", "voice", "typing", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"11\" r=\"1\"/><path class=\"p3\" d=\"M7 15.5C8.25 14 9.75 14 11 15.5S13.75 17 15 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

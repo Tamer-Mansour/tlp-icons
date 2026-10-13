@@ -1,0 +1,11 @@
+{
+  "name": "locking-pliers",
+  "category": "tools",
+  "tags": ["pliers", "locking", "clamp", "lever", "grip"],
+  "svg": "<path class=\"p1\" d=\"M4 19L14 9L20 4\"/><rect class=\"d p2\" x=\"3\" y=\"11\" width=\"6\" height=\"8\" rx=\"1\"/><circle class=\"p3\" cx=\"20\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1100 }
+  ]
+}

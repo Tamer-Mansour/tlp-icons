@@ -1,0 +1,10 @@
+{
+  "name": "rainfall-chart",
+  "category": "charts",
+  "tags": ["rainfall", "rain", "cloud", "weather", "drops", "precipitation"],
+  "svg": "<path class=\"d p1\" d=\"M7 12a4 4 0 0 1 1-7.8A5 5 0 0 1 17.5 6 4 4 0 0 1 17 12z\"/><path class=\"p2\" d=\"M8 15v3M12 15v3M16 15v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 600 }
+  ]
+}

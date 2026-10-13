@@ -1,0 +1,11 @@
+{
+  "name": "font-glyphs",
+  "category": "text",
+  "tags": ["font", "glyphs", "characters", "symbols", "typeface", "text"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"15\" r=\"2\"/><path class=\"p1\" d=\"M6.5 13 V17\"/><circle class=\"p2\" cx=\"10\" cy=\"15\" r=\"2\"/><path class=\"p2\" d=\"M12 13 V18 Q12 20.5 9.5 20.5\"/><polygon class=\"p3\" points=\"18.5,11.5 19.2,13.53 21.35,13.57 19.64,14.87 20.26,16.93 18.5,15.7 16.74,16.93 17.36,14.87 15.65,13.57 17.8,13.53\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "footnote",
+  "category": "text",
+  "tags": ["footnote", "superscript", "note", "reference", "page", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M3 10h18M3 14h12\"/><path class=\"p2\" d=\"M18 12.5l1-.5v4\"/><path class=\"p3\" d=\"M3 19h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lifeboat",
+  "category": "vehicles",
+  "tags": ["lifeboat", "boat", "rescue", "canopy", "sea", "emergency"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 Q4 19 12 19 Q20 19 21 12 Z\"/><path class=\"p2\" d=\"M7 12 V7 Q12 4 17 7 V12\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 500, "delay": 1100 }
+  ]
+}

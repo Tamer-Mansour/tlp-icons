@@ -1,0 +1,11 @@
+{
+  "name": "risk-gauge",
+  "category": "security",
+  "tags": ["risk", "gauge", "needle", "danger", "meter", "critical"],
+  "svg": "<path class=\"p1\" d=\"M3 16a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M16.5 8.2A9 9 0 0 1 19.8 11.5\"/><path class=\"p3\" d=\"M12 16l4.6-3.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "swing", "dur": 600, "delay": 1200, "origin": "12px 16px" }
+  ]
+}

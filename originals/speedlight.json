@@ -1,0 +1,11 @@
+{
+  "name": "speedlight",
+  "category": "photography",
+  "tags": ["speedlight", "flash", "camera", "light", "strobe"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"9\" height=\"8\" rx=\"1\"/><polyline class=\"p2\" points=\"17 2 14 7 18 7 15 12\"/><path class=\"p3\" d=\"M7.5 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "align-vertical-center",
+  "category": "interface",
+  "tags": ["align", "vertical", "center", "middle", "layout", "arrange"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><rect class=\"d p2\" x=\"4\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"d p3\" x=\"14\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

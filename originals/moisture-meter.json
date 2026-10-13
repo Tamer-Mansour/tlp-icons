@@ -1,0 +1,11 @@
+{
+  "name": "moisture-meter",
+  "category": "tools",
+  "tags": ["moisture", "meter", "humidity", "wood", "probe", "damp"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M8 11 V21 M16 11 V21\"/><line class=\"p3\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "coordinate-plane",
+  "category": "charts",
+  "tags": ["grid", "coordinates", "plane", "point", "plot", "math"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p1\" d=\"M9 3v18M15 3v18M3 9h18M3 15h18\"/><circle class=\"p2\" cx=\"15\" cy=\"9\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

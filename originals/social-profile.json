@@ -1,0 +1,10 @@
+{
+  "name": "social-profile",
+  "category": "people",
+  "tags": ["social", "profile", "like", "follow", "network", "community"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20.5v-2a4.5 4.5 0 0 1 9 0v2\"/><path class=\"d p2\" d=\"M18 9.5c-1.5-1-3.5-.5-3.5 1.5 0 1.5 3.5 4 3.5 4s3.5-2.5 3.5-4c0-2-2-2.5-3.5-1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 900, "delay": 700 }
+  ]
+}

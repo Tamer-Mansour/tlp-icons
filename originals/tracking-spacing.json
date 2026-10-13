@@ -1,0 +1,10 @@
+{
+  "name": "tracking-spacing",
+  "category": "design",
+  "tags": ["tracking", "spacing", "letters", "kerning", "type", "width"],
+  "svg": "<path class=\"p1\" d=\"M2 17L4.5 7L7 17M3.2 13.5h2.6\"/><path class=\"p1\" d=\"M11 7v10h3M11 7h2.5a2.5 2.5 0 0 1 0 5H11\"/><path class=\"p2\" d=\"M4 21h4M16 21h4M6 19l-2 2 2 2M18 19l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

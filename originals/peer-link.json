@@ -1,0 +1,10 @@
+{
+  "name": "peer-link",
+  "category": "communication",
+  "tags": ["peer", "link", "connection", "p2p", "two way", "pair"],
+  "svg": "<circle class=\"d p1\" cx=\"4.5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p1\" cx=\"19.5\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M8.5 12H15.5M10.5 10.5L9 12L10.5 13.5M13.5 10.5L15 12L13.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 700 }
+  ]
+}

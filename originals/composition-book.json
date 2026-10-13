@@ -1,0 +1,11 @@
+{
+  "name": "composition-book",
+  "category": "files",
+  "tags": ["composition", "notebook", "school", "ruled", "lined"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"1.5\"/><rect class=\"d p2\" x=\"7\" y=\"6\" width=\"10\" height=\"5\" rx=\"0.5\"/><line class=\"p3\" x1=\"7\" y1=\"14\" x2=\"17\" y2=\"14\"/><line class=\"p3\" x1=\"7\" y1=\"17.5\" x2=\"17\" y2=\"17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "oval-tilted",
+  "category": "shapes",
+  "tags": ["oval", "ellipse", "tilted", "shape", "angle"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"5\" transform=\"rotate(-30 12 12)\"/><line class=\"p2\" x1=\"5\" y1=\"16\" x2=\"19\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "face-hugging",
+  "category": "emoji",
+  "tags": ["face", "hugging", "hug", "warm", "emoji"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"6.5\"/><path class=\"p2\" d=\"M5.5 13c-1.5 2-1.5 5 .5 7.5M18.5 13c1.5 2 1.5 5-.5 7.5M8 19.5c2.5 1.2 5.5 1.2 8 0\"/><circle class=\"f p3\" cx=\"10\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1500 }
+  ]
+}

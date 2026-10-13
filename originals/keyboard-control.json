@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-control",
+  "category": "interface",
+  "tags": ["keyboard", "control", "ctrl", "caret", "key", "modifier"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5.5\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 13.5l3.5-3.5 3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

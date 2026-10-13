@@ -1,0 +1,11 @@
+{
+  "name": "bramble",
+  "category": "nature",
+  "tags": ["bramble", "thorns", "berries", "vine", "plant"],
+  "svg": "<path class=\"p1\" d=\"M3 19Q8 10 16 6Q20 4 21 7\"/><path class=\"d p2\" d=\"M9 12.5Q7 9 10.5 8.5Q11 11.5 9 12.5Z\"/><path class=\"d p2\" d=\"M14 11Q13 7.5 16.5 7.5Q16.5 10.5 14 11Z\"/><path class=\"d p2\" d=\"M6 16Q4.5 13 7.5 12.5Q8 15 6 16Z\"/><circle class=\"f p3\" cx=\"19\" cy=\"10\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

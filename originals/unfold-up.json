@@ -1,0 +1,11 @@
+{
+  "name": "unfold-up",
+  "category": "interface",
+  "tags": ["unfold", "up", "expand", "chevrons", "collapse", "fold"],
+  "svg": "<path class=\"p1\" d=\"M4 20h16\"/><path class=\"p2\" d=\"M7 9l5-5 5 5\"/><path class=\"p3\" d=\"M7 15l5-5 5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "unfold", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 600 }
+  ]
+}

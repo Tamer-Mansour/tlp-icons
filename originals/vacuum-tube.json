@@ -1,0 +1,11 @@
+{
+  "name": "vacuum-tube",
+  "category": "devices",
+  "tags": ["vacuum", "tube", "valve", "bulb", "filament", "amplifier"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M9 16V21M15 16V21\"/><polyline class=\"p3\" points=\"9,11 10.5,9 12,11 13.5,9 15,11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 700, "delay": 800 }
+  ]
+}

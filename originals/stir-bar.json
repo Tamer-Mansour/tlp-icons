@@ -1,0 +1,10 @@
+{
+  "name": "stir-bar",
+  "category": "science",
+  "tags": ["stir bar", "magnetic", "stirring", "lab", "beaker"],
+  "svg": "<path class=\"p1\" d=\"M4 7 H20 M6 7 V19 Q6 21 8 21 H16 Q18 21 18 19 V7\"/><rect class=\"d p2\" x=\"9.5\" y=\"16.5\" width=\"5\" height=\"2.5\" rx=\"1.25\" transform=\"rotate(-25 12 17.75)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 17.75px" }
+  ]
+}

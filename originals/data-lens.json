@@ -1,0 +1,11 @@
+{
+  "name": "data-lens",
+  "category": "charts",
+  "tags": ["lens", "magnify", "search", "analytics", "insight", "bars"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p2\" d=\"M14.5 14.5L20 20\"/><path class=\"p3\" d=\"M7.5 13.5v-2M10 13.5v-4M12.5 13.5v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

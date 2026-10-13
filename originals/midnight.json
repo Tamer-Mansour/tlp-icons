@@ -1,0 +1,11 @@
+{
+  "name": "midnight",
+  "category": "time",
+  "tags": ["midnight", "moon", "star", "clock", "night"],
+  "svg": "<path class=\"d p1\" d=\"M10 3a8 8 0 1 0 8 8 6 6 0 0 1-8-8z\"/><circle class=\"f p2\" cx=\"19\" cy=\"6\" r=\"1\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"4\"/><polyline class=\"p3\" points=\"17 17 17 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 1200 }
+  ]
+}

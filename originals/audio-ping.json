@@ -1,0 +1,11 @@
+{
+  "name": "audio-ping",
+  "category": "media",
+  "tags": ["ping", "sound", "signal", "radiate", "audio"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M8.5 9.5A4 4 0 0 0 8.5 14.5M15.5 9.5A4 4 0 0 1 15.5 14.5\"/><path class=\"p3\" d=\"M5 6.5A8 8 0 0 0 5 17.5M19 6.5A8 8 0 0 1 19 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

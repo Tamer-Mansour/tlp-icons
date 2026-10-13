@@ -1,0 +1,11 @@
+{
+  "name": "pedestrian-detection",
+  "category": "vehicles",
+  "tags": ["car", "pedestrian", "detection", "sensor", "safety", "driving"],
+  "svg": "<path class=\"p1\" d=\"M3 7V4h4M17 4h4v3M21 17v3h-4M7 20H3v-3\"/><path class=\"d p2\" d=\"M5 18v-3l2-4h10l2 4v3z\"/><circle class=\"p3\" cx=\"12\" cy=\"7\" r=\"1.5\"/><path class=\"p3\" d=\"M12 9v3M10.5 15l1.5-2 1.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

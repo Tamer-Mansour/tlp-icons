@@ -1,0 +1,11 @@
+{
+  "name": "herb-scissors",
+  "category": "food",
+  "tags": ["scissors", "herb", "snip", "kitchen", "sprig"],
+  "svg": "<path class=\"p1\" d=\"M6 3 L16 16 M18 3 L8 16\"/><circle class=\"d p2\" cx=\"7\" cy=\"18.5\" r=\"2.5\"/><circle class=\"d p2\" cx=\"17\" cy=\"18.5\" r=\"2.5\"/><path class=\"p3\" d=\"M12 4 V9 M12 6 L14.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wire-gauge",
+  "category": "tools",
+  "tags": ["wire", "gauge", "disc", "notches", "measure"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3V6M21 12H18M12 21V18M3 12H6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 900, "delay": 800 }
+  ]
+}

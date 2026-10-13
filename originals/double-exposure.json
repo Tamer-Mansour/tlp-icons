@@ -1,0 +1,10 @@
+{
+  "name": "double-exposure",
+  "category": "photography",
+  "tags": ["double", "exposure", "overlap", "circles", "photo"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nanotube-carbon",
+  "category": "science",
+  "tags": ["nanotube", "carbon", "cylinder", "hexagon", "nanomaterial"],
+  "svg": "<path class=\"p1\" d=\"M7 4V20M17 4V20\"/><ellipse class=\"p2\" cx=\"12\" cy=\"4\" rx=\"5\" ry=\"1.5\"/><path class=\"p3\" d=\"M7 20A5 2 0 0 0 17 20M7 8L12 10L17 8M7 14L12 16L17 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 1000 }
+  ]
+}

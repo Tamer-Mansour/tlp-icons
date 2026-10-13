@@ -1,0 +1,12 @@
+{
+  "name": "user-calendar",
+  "category": "people",
+  "tags": ["user", "calendar", "schedule", "date", "person", "meeting", "event"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p2\" d=\"M1.5 21a5 5 0 0 1 10 0\"/><rect class=\"d p3\" x=\"14.5\" y=\"10\" width=\"7\" height=\"10.5\" rx=\"1.5\"/><path class=\"p4\" d=\"M14.5 14h7M17 8.5v3M19.5 8.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

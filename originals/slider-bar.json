@@ -1,0 +1,10 @@
+{
+  "name": "slider-bar",
+  "category": "interface",
+  "tags": ["slider", "range", "knob", "control", "setting"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"d p2\" cx=\"14\" cy=\"12\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 700 }
+  ]
+}

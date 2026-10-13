@@ -1,0 +1,11 @@
+{
+  "name": "eigenvalue",
+  "category": "math",
+  "tags": ["eigenvalue", "vector", "stretch", "linear algebra", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M4 20L20 4\"/><polyline class=\"p2\" points=\"13 4 20 4 20 11\"/><circle class=\"f p3\" cx=\"4\" cy=\"20\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

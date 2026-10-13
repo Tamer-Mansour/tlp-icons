@@ -1,0 +1,10 @@
+{
+  "name": "grid-gutter",
+  "category": "layout",
+  "tags": ["grid", "gutter", "gap", "spacing", "cells", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"8\" height=\"18\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"3\" width=\"8\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M12 6V8M12 11V13M12 16V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

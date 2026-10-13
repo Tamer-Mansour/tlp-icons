@@ -1,0 +1,11 @@
+{
+  "name": "whale",
+  "category": "nature",
+  "tags": ["sea", "ocean", "spout", "tail", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M2 13 C2 9.5 6 8 11 8 C15 8 18 9.5 19 12 L22 9 L22 17 L19 14.5 C18 16.5 15 17 11 17 C6 17 2 16 2 13 Z\"/><circle class=\"f p2\" cx=\"6.5\" cy=\"12.5\" r=\"1\"/><path class=\"p3\" d=\"M8 7 V3.5 M5.5 5 L8 3.5 L10.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 1000, "origin": "8px 7px" }
+  ]
+}

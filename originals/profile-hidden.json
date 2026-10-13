@@ -1,0 +1,11 @@
+{
+  "name": "profile-hidden",
+  "category": "security",
+  "tags": ["profile", "hidden", "anonymous", "avatar", "privacy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5\"/><line class=\"p3\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

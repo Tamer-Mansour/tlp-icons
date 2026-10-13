@@ -1,0 +1,11 @@
+{
+  "name": "race-timer",
+  "category": "time",
+  "tags": ["race", "finish", "stopwatch", "timer", "flag"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14.5\" r=\"6.5\"/><path class=\"p2\" d=\"M12 8V2.5M12 3h5l-1.5 2 1.5 2h-5\"/><path class=\"p3\" d=\"M12 14.5V10M12 14.5l3 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1200 }
+  ]
+}

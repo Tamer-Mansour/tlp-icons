@@ -1,0 +1,11 @@
+{
+  "name": "coin-sorter",
+  "category": "devices",
+  "tags": ["coin", "sorter", "money", "change", "counter", "tray"],
+  "svg": "<circle class=\"d p1\" cx=\"6.5\" cy=\"9\" r=\"2.5\"/><circle class=\"d p1\" cx=\"17.5\" cy=\"9\" r=\"2.5\"/><polyline class=\"p2\" points=\"3 14 3 20 21 20 21 14\"/><line class=\"p2\" x1=\"8\" y1=\"17\" x2=\"16\" y2=\"17\"/><path class=\"p3\" d=\"M12 3 V11.5 M10.5 9 L12 11.5 L13.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 900 }
+  ]
+}

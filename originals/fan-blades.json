@@ -1,0 +1,10 @@
+{
+  "name": "fan-blades",
+  "category": "devices",
+  "tags": ["fan", "blades", "propeller", "airflow", "spin", "wind"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 10.5C12 6 14 4 17 3\"/><path class=\"p2\" transform=\"rotate(120 12 12)\" d=\"M12 10.5C12 6 14 4 17 3\"/><path class=\"p2\" transform=\"rotate(240 12 12)\" d=\"M12 10.5C12 6 14 4 17 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 300 }
+  ]
+}

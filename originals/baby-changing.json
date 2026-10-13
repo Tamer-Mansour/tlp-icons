@@ -1,0 +1,11 @@
+{
+  "name": "baby-changing",
+  "category": "buildings",
+  "tags": ["baby", "changing", "table", "nursery", "diaper", "infant"],
+  "svg": "<path class=\"p1\" d=\"M3 13H21\"/><path class=\"p2\" d=\"M6 13V20M18 13V20\"/><path class=\"d p3\" d=\"M8 13Q8 9 12 9Q16 9 16 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "top", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

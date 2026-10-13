@@ -1,0 +1,11 @@
+{
+  "name": "ruler-scale",
+  "category": "charts",
+  "tags": ["ruler", "scale", "measure", "ticks", "length", "marker"],
+  "svg": "<path class=\"d p1\" d=\"M2 9h20v8H2z\"/><path class=\"p2\" d=\"M6 9v3M10 9v2M14 9v2M18 9v3\"/><path class=\"p3\" d=\"M12 3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

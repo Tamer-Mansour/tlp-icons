@@ -1,0 +1,11 @@
+{
+  "name": "buddy-list",
+  "category": "people",
+  "tags": ["buddy", "list", "online", "friends", "status", "contacts"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20.5v-2a5 5 0 0 1 10 0v2\"/><circle class=\"d p2\" cx=\"18\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M14.5 19v-.5a3.5 3.5 0 0 1 7 0v.5\"/><circle class=\"f p3\" cx=\"19\" cy=\"19\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

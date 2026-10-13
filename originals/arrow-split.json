@@ -1,0 +1,11 @@
+{
+  "name": "arrow-split",
+  "category": "interface",
+  "tags": ["arrow", "split", "fork", "branch", "diverge", "flow"],
+  "svg": "<path class=\"p1\" d=\"M4 12h8\"/><path class=\"p2\" d=\"M12 12L20 6M15 6h5v5\"/><path class=\"p3\" d=\"M12 12L20 18M15 18h5v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

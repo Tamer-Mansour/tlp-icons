@@ -1,0 +1,11 @@
+{
+  "name": "master-key",
+  "category": "security",
+  "tags": ["master", "key", "star", "access", "admin", "unlock"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"4\"/><polygon class=\"p3\" points=\"8,9.5 8.6,11.1 10.3,11.2 8.9,12.2 9.4,13.9 8,12.9 6.6,13.9 7.1,12.2 5.7,11.2 7.4,11.1\"/><path class=\"p2\" d=\"M12 12h9M17 12v3M20 12v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

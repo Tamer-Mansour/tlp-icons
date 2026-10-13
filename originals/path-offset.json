@@ -1,0 +1,10 @@
+{
+  "name": "path-offset",
+  "category": "design",
+  "tags": ["path", "offset", "outline", "inset", "shape", "stroke"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

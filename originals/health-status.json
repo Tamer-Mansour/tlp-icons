@@ -1,0 +1,11 @@
+{
+  "name": "health-status",
+  "category": "notifications",
+  "tags": ["health", "status", "heart", "pulse", "vitals"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"d p2\" d=\"M12 13.5l-3.5-3.5a2 2 0 1 1 3.5-2.5 2 2 0 1 1 3.5 2.5z\"/><path class=\"p3\" d=\"M6 18h3l1.5-2 2 4 1.5-2H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 1100 }
+  ]
+}

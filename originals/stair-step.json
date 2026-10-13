@@ -1,0 +1,11 @@
+{
+  "name": "stair-step",
+  "category": "buildings",
+  "tags": ["stairs", "steps", "blocks", "rising", "stair"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15\" width=\"5\" height=\"5\"/><rect class=\"d p2\" x=\"9.5\" y=\"10\" width=\"5\" height=\"10\"/><rect class=\"d p3\" x=\"16\" y=\"5\" width=\"5\" height=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

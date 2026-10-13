@@ -1,0 +1,12 @@
+{
+  "name": "fill-form",
+  "category": "interface",
+  "tags": ["form", "fill", "pen", "input", "field"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 8H16M8 12H13\"/><path class=\"p3\" d=\"M8 17H13\"/><line class=\"p4\" x1=\"14.5\" y1=\"17.5\" x2=\"19\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 1300 }
+  ]
+}

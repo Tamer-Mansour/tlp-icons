@@ -1,0 +1,11 @@
+{
+  "name": "photo-clip",
+  "category": "photography",
+  "tags": ["photo clip", "clip", "print", "hanging", "darkroom", "photo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"13\" height=\"13\" rx=\"1\"/><rect class=\"p2\" x=\"12\" y=\"2\" width=\"8\" height=\"5\" rx=\"2.5\"/><path class=\"p3\" d=\"M6 16l3-3 2 2 2-2 2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mangrove-roots",
+  "category": "science",
+  "tags": ["mangrove", "tree", "roots", "water", "coast"],
+  "svg": "<path class=\"d p1\" d=\"M6 10a6 5 0 0 1 12 0z\"/><path class=\"p2\" d=\"M12 10v4\"/><path class=\"p3\" d=\"M12 14Q12 18 7 20M12 14Q12 18 17 20\"/><path class=\"p4\" d=\"M2 21q2.5-1.5 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

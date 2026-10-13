@@ -1,0 +1,11 @@
+{
+  "name": "teacher-desk",
+  "category": "people",
+  "tags": ["teacher", "desk", "classroom", "board", "education"],
+  "svg": "<rect class=\"p2\" x=\"15\" y=\"3\" width=\"7\" height=\"11\" rx=\"1\"/><path class=\"p3\" d=\"M18.5 14v7M15 21h7\"/><circle class=\"p1\" cx=\"7.5\" cy=\"9\" r=\"2.5\"/><path class=\"p1\" d=\"M2.5 21v-1.5a5 5 0 0 1 10 0V21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p1", "anim": "hop", "dur": 600, "delay": 1000 }
+  ]
+}

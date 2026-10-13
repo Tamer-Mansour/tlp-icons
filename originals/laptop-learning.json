@@ -1,0 +1,11 @@
+{
+  "name": "laptop-learning",
+  "category": "science",
+  "tags": ["laptop", "screen", "learning", "online", "book", "study"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"11\" rx=\"1\"/><line class=\"p2\" x1=\"2\" y1=\"19\" x2=\"22\" y2=\"19\"/><path class=\"p3\" d=\"M9 7.5 L12 9 L15 7.5 V12 L12 13.5 L9 12 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flip", "dur": 800, "delay": 1200 }
+  ]
+}

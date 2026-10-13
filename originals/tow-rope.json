@@ -1,0 +1,11 @@
+{
+  "name": "tow-rope",
+  "category": "vehicles",
+  "tags": ["tow", "rope", "coil", "hook", "towing"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7\" cy=\"16\" rx=\"4.5\" ry=\"3\"/><path class=\"p2\" d=\"M11.5 16 15 12.5V9\"/><path class=\"p3\" d=\"M15 9v-2.5a2.5 2.5 0 0 1 5 0V10a2.5 2.5 0 0 1-5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "origin": "15px 9px", "dur": 800, "delay": 900 }
+  ]
+}

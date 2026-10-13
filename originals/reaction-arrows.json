@@ -1,0 +1,10 @@
+{
+  "name": "reaction-arrows",
+  "category": "science",
+  "tags": ["chemistry", "equilibrium", "reversible", "reaction", "arrows", "balance"],
+  "svg": "<path class=\"p1\" d=\"M4 9h15M15 5l4 4-4 4\"/><path class=\"p2\" d=\"M20 15H5M9 11l-4 4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1200, "delay": 800 }
+  ]
+}

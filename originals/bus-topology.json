@@ -1,0 +1,11 @@
+{
+  "name": "bus-topology",
+  "category": "connectivity",
+  "tags": ["bus", "topology", "network", "backbone", "nodes", "cable"],
+  "svg": "<path class=\"p1\" d=\"M3 12H21\"/><path class=\"p2\" d=\"M6 12V9M18 12V9M12 12V15\"/><circle class=\"p3\" cx=\"6\" cy=\"6.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"6.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

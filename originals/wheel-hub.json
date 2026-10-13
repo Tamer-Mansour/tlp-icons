@@ -1,0 +1,11 @@
+{
+  "name": "wheel-hub",
+  "category": "vehicles",
+  "tags": ["wheel", "hub", "bolts", "tire", "lug", "axle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"17.7\" cy=\"10.2\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"16.8\" r=\"1\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"16.8\" r=\"1\"/><circle class=\"f p3\" cx=\"6.3\" cy=\"10.2\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

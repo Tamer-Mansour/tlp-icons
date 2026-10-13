@@ -1,0 +1,33 @@
+{
+  "name": "binder-clip",
+  "category": "files",
+  "tags": [
+    "binder",
+    "clip",
+    "paper",
+    "office",
+    "hold",
+    "stationery"
+  ],
+  "svg": "<rect class=\"p2\" x=\"5\" y=\"12\" width=\"14\" height=\"8\" rx=\"1.5\"/><path class=\"d p1\" d=\"M8 12L10 4h4l2 8z\"/><path class=\"p3\" d=\"M9 16h6\"/>",
+  "motion": [
+    {
+      "part": "p2",
+      "anim": "popIn",
+      "dur": 400,
+      "delay": 0
+    },
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 400
+    },
+    {
+      "part": "p3",
+      "anim": "draw",
+      "dur": 400,
+      "delay": 1000
+    }
+  ]
+}

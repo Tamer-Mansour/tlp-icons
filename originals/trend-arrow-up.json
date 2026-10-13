@@ -1,0 +1,10 @@
+{
+  "name": "trend-arrow-up",
+  "category": "arrows",
+  "tags": ["trend", "zigzag", "growth", "upward", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 17 L9 11 L13 15 L21 7\"/><path class=\"p2\" d=\"M15 7 H21 V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 500, "delay": 900 }
+  ]
+}

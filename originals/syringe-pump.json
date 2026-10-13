@@ -1,0 +1,11 @@
+{
+  "name": "syringe-pump",
+  "category": "devices",
+  "tags": ["syringe", "pump", "infusion", "medical", "dose", "plunger"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M15 12H19\"/><rect class=\"p3\" x=\"19\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 600, "delay": 800 }
+  ]
+}

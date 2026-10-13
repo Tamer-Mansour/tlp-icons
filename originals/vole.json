@@ -1,0 +1,12 @@
+{
+  "name": "vole",
+  "category": "nature",
+  "tags": ["vole", "rodent", "mouse", "small", "field"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"6.5\" ry=\"4\"/><circle class=\"p2\" cx=\"12.5\" cy=\"8\" r=\"2\"/><circle class=\"f p3\" cx=\"15.2\" cy=\"12.8\" r=\"0.9\"/><path class=\"p4\" d=\"M4.8 13.5 Q1.5 13 2 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 1300, "origin": "4.8px 13.5px" }
+  ]
+}

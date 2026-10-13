@@ -1,0 +1,11 @@
+{
+  "name": "center-punch",
+  "category": "tools",
+  "tags": ["punch", "center", "mark", "metal", "dot"],
+  "svg": "<path class=\"p1\" d=\"M9 3H15L13 13H11Z\"/><path class=\"p2\" d=\"M3 20H21\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1200 }
+  ]
+}

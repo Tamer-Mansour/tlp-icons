@@ -1,0 +1,11 @@
+{
+  "name": "essay-draft",
+  "category": "files",
+  "tags": ["essay", "draft", "writing", "document", "pencil"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/><line class=\"p2\" x1=\"8\" y1=\"15.5\" x2=\"13\" y2=\"15.5\"/><path class=\"p3\" d=\"M16 5.5l2.5 2.5-6 6H10v-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

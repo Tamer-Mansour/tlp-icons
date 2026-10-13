@@ -1,0 +1,10 @@
+{
+  "name": "ruler-triangle",
+  "category": "shapes",
+  "tags": ["ruler", "triangle", "scale", "measure", "geometry", "drafting"],
+  "svg": "<polygon class=\"d p1\" points=\"3,20 21,20 3,4\"/><line class=\"p2\" x1=\"7\" y1=\"20\" x2=\"7\" y2=\"17\"/><line class=\"p2\" x1=\"11\" y1=\"20\" x2=\"11\" y2=\"17\"/><line class=\"p2\" x1=\"15\" y1=\"20\" x2=\"15\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 700 }
+  ]
+}

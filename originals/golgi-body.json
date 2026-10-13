@@ -1,0 +1,11 @@
+{
+  "name": "golgi-body",
+  "category": "science",
+  "tags": ["golgi", "organelle", "stack", "biology", "cell"],
+  "svg": "<path class=\"p1\" d=\"M5 8.5Q12 5.5 19 8.5\"/><path class=\"p2\" d=\"M5 12.5Q12 9.5 19 12.5\"/><path class=\"p3\" d=\"M5 16.5Q12 13.5 19 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900 }
+  ]
+}

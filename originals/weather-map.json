@@ -1,0 +1,11 @@
+{
+  "name": "weather-map",
+  "category": "weather",
+  "tags": ["weather map", "forecast", "chart", "folded map", "sun", "weather"],
+  "svg": "<polygon class=\"p1\" points=\"3 6 9 4 15 6 21 4 21 18 15 20 9 18 3 20\"/><path class=\"p2\" d=\"M9 4 V18 M15 6 V20\"/><circle class=\"p3\" cx=\"6\" cy=\"11\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1300 }
+  ]
+}

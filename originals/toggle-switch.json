@@ -1,0 +1,10 @@
+{
+  "name": "toggle-switch",
+  "category": "development",
+  "tags": ["toggle", "switch", "pill", "knob", "setting", "on", "off"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><circle class=\"d p2\" cx=\"16\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

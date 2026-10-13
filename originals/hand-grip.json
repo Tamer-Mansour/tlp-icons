@@ -1,0 +1,11 @@
+{
+  "name": "hand-grip",
+  "category": "sport",
+  "tags": ["hand", "grip", "spring", "strength", "exercise", "gym"],
+  "svg": "<path class=\"p1\" d=\"M9 5H19\"/><path class=\"p2\" d=\"M9 19H19\"/><path class=\"p3\" d=\"M9 5q-3 3.5 0 7q3 3.5 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spring", "dur": 900, "delay": 900 }
+  ]
+}

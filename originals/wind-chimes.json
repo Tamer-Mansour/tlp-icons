@@ -1,0 +1,10 @@
+{
+  "name": "wind-chimes",
+  "category": "media",
+  "tags": ["wind", "chimes", "hanging", "tubes", "bells", "garden"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><path class=\"p2\" d=\"M7 7v9M12 7v12M17 7v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1500, "delay": 800, "origin": "12px 4px" }
+  ]
+}

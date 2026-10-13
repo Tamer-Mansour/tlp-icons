@@ -1,0 +1,11 @@
+{
+  "name": "burrow",
+  "category": "nature",
+  "tags": ["burrow", "hole", "underground", "animal", "tunnel", "mound"],
+  "svg": "<path class=\"p1\" d=\"M2 19H22\"/><path class=\"d p2\" d=\"M6 19Q7 12 12 12Q17 12 18 19Z\"/><path class=\"p3\" d=\"M10 19V18Q10 16 12 16Q14 16 14 18V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

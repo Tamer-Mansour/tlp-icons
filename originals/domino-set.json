@@ -1,0 +1,10 @@
+{
+  "name": "domino-set",
+  "category": "sport",
+  "tags": ["domino", "tiles", "game", "dots", "tabletop", "play"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"8\" height=\"12\" rx=\"2\"/><rect class=\"d p1\" x=\"14\" y=\"6\" width=\"8\" height=\"12\" rx=\"2\"/><circle class=\"f p2\" cx=\"6\" cy=\"9.5\" r=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"14.5\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"9.5\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 700 }
+  ]
+}

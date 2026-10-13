@@ -1,0 +1,10 @@
+{
+  "name": "rounded-hexagon",
+  "category": "shapes",
+  "tags": ["hexagon", "rounded", "corners", "tile", "geometry", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M10.5 4.2Q12 3.4 13.5 4.2L18 6.8Q19.5 7.6 19.5 9.3V14.7Q19.5 16.4 18 17.2L13.5 19.8Q12 20.6 10.5 19.8L6 17.2Q4.5 16.4 4.5 14.7V9.3Q4.5 7.6 6 6.8Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

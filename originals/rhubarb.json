@@ -1,0 +1,11 @@
+{
+  "name": "rhubarb",
+  "category": "food",
+  "tags": ["rhubarb", "stalk", "leaf", "vegetable", "pie", "veins"],
+  "svg": "<path class=\"d p1\" d=\"M12 11C9 9 5.5 9 3.5 6.5 6 4 9.5 4.5 12 7c2.5-2.5 6-3 8.5-.5C18.5 9 15 9 12 11z\"/><path class=\"p2\" d=\"M12 21V11\"/><path class=\"p3\" d=\"M12 7v3M8 6.5l1.5 1.5M16 6.5l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 800, "origin": "bottom" }
+  ]
+}

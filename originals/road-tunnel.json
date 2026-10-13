@@ -1,0 +1,10 @@
+{
+  "name": "road-tunnel",
+  "category": "buildings",
+  "tags": ["road", "tunnel", "arch", "underpass", "highway", "route"],
+  "svg": "<path class=\"p1\" d=\"M4 19V12a8 8 0 0 1 16 0v7\"/><line class=\"p2\" x1=\"2\" y1=\"19\" x2=\"22\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 800, "delay": 1000 }
+  ]
+}

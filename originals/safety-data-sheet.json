@@ -1,0 +1,11 @@
+{
+  "name": "safety-data-sheet",
+  "category": "files",
+  "tags": ["safety", "data", "sheet", "warning", "hazard", "document"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h10l4 4v14H5z\"/><path class=\"p2\" d=\"M12 9.5l3.5 6h-7z\"/><path class=\"p3\" d=\"M12 12v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 1100 }
+  ]
+}

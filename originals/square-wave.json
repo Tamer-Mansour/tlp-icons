@@ -1,0 +1,10 @@
+{
+  "name": "square-wave",
+  "category": "media",
+  "tags": ["square", "wave", "pulse", "signal", "oscillator", "audio"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 6,16 6,8 12,8 12,16 18,16 18,8 22,8\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

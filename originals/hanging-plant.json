@@ -1,0 +1,11 @@
+{
+  "name": "hanging-plant",
+  "category": "home",
+  "tags": ["hanging", "plant", "basket", "trailing", "cord", "leaves"],
+  "svg": "<path class=\"p1\" d=\"M12 2v7\"/><path class=\"d p2\" d=\"M6 9h12l-2 7H8z\"/><path class=\"p3\" d=\"M6 9c-2 2-2 5 0 6M18 9c2 2 2 5 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 900, "origin": "top" }
+  ]
+}

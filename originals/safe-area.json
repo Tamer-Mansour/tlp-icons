@@ -1,0 +1,10 @@
+{
+  "name": "safe-area",
+  "category": "design",
+  "tags": ["safe", "area", "margin", "inset", "guide", "frame"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\"/><rect class=\"p2\" x=\"6\" y=\"6\" width=\"12\" height=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

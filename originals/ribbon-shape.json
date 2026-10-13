@@ -1,0 +1,10 @@
+{
+  "name": "ribbon-shape",
+  "category": "shapes",
+  "tags": ["ribbon", "banner", "award", "tails", "badge", "label"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"11\" rx=\"1\"/><polyline class=\"p2\" points=\"6,14 6,21 8.5,18.5 11,21 11,14\"/><polyline class=\"p2\" points=\"13,14 13,21 15.5,18.5 18,21 18,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 800 }
+  ]
+}

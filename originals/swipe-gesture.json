@@ -1,0 +1,10 @@
+{
+  "name": "swipe-gesture",
+  "category": "interface",
+  "tags": ["swipe", "gesture", "hand", "touch", "slide"],
+  "svg": "<path class=\"p1\" d=\"M7 11V5a1.5 1.5 0 0 1 3 0v5.5l3-1.5a2 2 0 0 1 2.5 2.5L13 16H9.5\"/><path class=\"p2\" d=\"M3 20h11M11 18l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 900 }
+  ]
+}

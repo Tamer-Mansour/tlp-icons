@@ -1,0 +1,11 @@
+{
+  "name": "translator-earpiece",
+  "category": "communication",
+  "tags": ["translate", "earpiece", "language", "interpreter", "bubble", "listen"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"3\"/><path class=\"p2\" d=\"M12 14v5\"/><rect class=\"p3\" x=\"2\" y=\"4\" width=\"5\" height=\"4\" rx=\"1.5\"/><rect class=\"p3\" x=\"17\" y=\"4\" width=\"5\" height=\"4\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

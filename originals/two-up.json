@@ -1,0 +1,10 @@
+{
+  "name": "two-up",
+  "category": "layout",
+  "tags": ["two up", "columns", "pair", "split", "equal"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/><rect class=\"p2\" x=\"13\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 }
+  ]
+}

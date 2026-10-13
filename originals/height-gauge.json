@@ -1,0 +1,11 @@
+{
+  "name": "height-gauge",
+  "category": "tools",
+  "tags": ["height", "gauge", "scale", "measure", "vertical", "precision"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><path class=\"p2\" d=\"M5 7h3M5 12h3M5 17h3\"/><path class=\"p3\" d=\"M5 11h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chain-arrow",
+  "category": "arrows",
+  "tags": ["chain", "linked", "links", "connect", "sequence", "through"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"7\" height=\"8\" rx=\"4\"/><rect class=\"p2\" x=\"15\" y=\"8\" width=\"7\" height=\"8\" rx=\"4\"/><path class=\"p3\" d=\"M9 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 800 }
+  ]
+}

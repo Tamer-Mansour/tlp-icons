@@ -1,0 +1,10 @@
+{
+  "name": "row-expand",
+  "category": "interface",
+  "tags": ["expand", "row", "table", "chevron", "down", "reveal"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"6\" rx=\"1\"/><polyline class=\"p2\" points=\"8,14 12,18 16,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 800 }
+  ]
+}

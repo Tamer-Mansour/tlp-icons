@@ -1,0 +1,10 @@
+{
+  "name": "pinyin-text",
+  "category": "text",
+  "tags": ["pinyin", "tone", "chinese", "diacritic", "pronunciation", "letter"],
+  "svg": "<circle class=\"p1\" cx=\"9.5\" cy=\"15.5\" r=\"4\"/><path class=\"p1\" d=\"M13.5 11.5V19.5\"/><path class=\"p2\" d=\"M11 7.5L15 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

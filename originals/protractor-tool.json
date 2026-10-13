@@ -1,0 +1,11 @@
+{
+  "name": "protractor-tool",
+  "category": "tools",
+  "tags": ["protractor", "degrees", "angle", "measure", "semicircle", "drafting"],
+  "svg": "<path class=\"d p1\" d=\"M3 18 A9 9 0 0 1 21 18 Z\"/><path class=\"p2\" d=\"M12 11.5 V13.5 M5.5 16 L7 15 M18.5 16 L17 15\"/><path class=\"p3\" d=\"M12 18 L16 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 18px" }
+  ]
+}

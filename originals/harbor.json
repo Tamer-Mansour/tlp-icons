@@ -1,0 +1,11 @@
+{
+  "name": "harbor",
+  "category": "buildings",
+  "tags": ["harbor", "boat", "sea", "sail", "port"],
+  "svg": "<path class=\"p1\" d=\"M2 21q2.5-1.5 5 0t5 0t5 0t5 0\"/><path class=\"d p2\" d=\"M7 13h10l-2 3H9z\"/><polygon class=\"p3\" points=\"12,4 17,10 12,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 1100, "origin": "12px 4px" }
+  ]
+}

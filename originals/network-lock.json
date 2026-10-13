@@ -1,0 +1,11 @@
+{
+  "name": "network-lock",
+  "category": "connectivity",
+  "tags": ["network", "lock", "secure", "private", "nodes", "security"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"5\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"19\" r=\"2\"/><path class=\"p1\" d=\"M5 7v3M5 14v3\"/><path class=\"p2\" d=\"M14 11V8.5a3 3 0 0 1 6 0V11\"/><rect class=\"d p3\" x=\"13\" y=\"11\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

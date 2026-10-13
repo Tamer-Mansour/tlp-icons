@@ -1,0 +1,10 @@
+{
+  "name": "water-meter",
+  "category": "charts",
+  "tags": ["water", "meter", "utility", "drop", "usage", "gauge"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7c-2.5 3.5-4 5.5-4 7.5a4 4 0 0 0 8 0c0-2-1.5-4-4-7.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 900 }
+  ]
+}

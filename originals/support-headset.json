@@ -1,0 +1,11 @@
+{
+  "name": "support-headset",
+  "category": "communication",
+  "tags": ["headset", "support", "help", "call", "customer", "service"],
+  "svg": "<path class=\"p1\" d=\"M4.5 13v-1.5a7.5 7.5 0 0 1 15 0V13\"/><rect class=\"d p2\" x=\"3\" y=\"12.5\" width=\"3.5\" height=\"4.5\" rx=\"1.5\"/><rect class=\"d p2\" x=\"17.5\" y=\"12.5\" width=\"3.5\" height=\"4.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M19 17.5v1a2.5 2.5 0 0 1-2.5 2.5H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

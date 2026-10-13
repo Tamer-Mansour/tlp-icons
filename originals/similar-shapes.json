@@ -1,0 +1,10 @@
+{
+  "name": "similar-shapes",
+  "category": "math",
+  "tags": ["similar", "shapes", "triangles", "scale", "geometry"],
+  "svg": "<path class=\"d p1\" d=\"M3 20 L6 14 L9 20 Z\"/><path class=\"p2\" d=\"M11 20 L16 8 L21 20 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

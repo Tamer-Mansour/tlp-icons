@@ -1,0 +1,11 @@
+{
+  "name": "leaf-photosynthesis",
+  "category": "science",
+  "tags": ["leaf", "photosynthesis", "sun", "oxygen", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M3 21C3 11 9 5 18 5C18 14 13 21 3 21Z\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"11\" y2=\"13\"/><path class=\"p3\" d=\"M14 10L20 4M15 4H20V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1000 }
+  ]
+}

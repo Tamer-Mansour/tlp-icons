@@ -1,0 +1,10 @@
+{
+  "name": "bottom-sheet",
+  "category": "interface",
+  "tags": ["sheet", "bottom", "panel", "drawer", "mobile", "modal"],
+  "svg": "<path class=\"d p1\" d=\"M2 22V10a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v12z\"/><path class=\"p2\" d=\"M10 10.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

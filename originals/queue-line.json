@@ -1,0 +1,10 @@
+{
+  "name": "queue-line",
+  "category": "development",
+  "tags": ["queue", "line", "waiting", "fifo", "sequence", "dots"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"1.8\"/><circle class=\"p1\" cx=\"9.5\" cy=\"12\" r=\"1.8\"/><circle class=\"p1\" cx=\"15\" cy=\"12\" r=\"1.8\"/><path class=\"p2\" d=\"M19 12h3M20 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 500, "delay": 900 }
+  ]
+}

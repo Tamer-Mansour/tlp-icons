@@ -1,0 +1,11 @@
+{
+  "name": "carbon-monoxide",
+  "category": "notifications",
+  "tags": ["carbon", "monoxide", "gas", "alarm", "detector", "warning", "smoke"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M9 15.5H14.5A2 2 0 0 0 14.5 11.5A2.5 2.5 0 0 0 9.8 10.8A2.5 2.5 0 0 0 9 15.5Z\"/><polyline class=\"p3\" points=\"4,6 2.5,4.5\"/><polyline class=\"p3\" points=\"20,6 21.5,4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

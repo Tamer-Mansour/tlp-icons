@@ -1,0 +1,11 @@
+{
+  "name": "catchers-mitt",
+  "category": "sport",
+  "tags": ["catcher", "mitt", "baseball", "pocket", "sport", "padded"],
+  "svg": "<path class=\"d p1\" d=\"M4 13c0-5 3.5-8.5 8-8.5s8 3.5 8 8.5c0 4.5-3 7.5-8 7.5s-8-3-8-7.5Z\"/><path class=\"p2\" d=\"M7.5 11L12 15.5 16.5 11\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1200 }
+  ]
+}

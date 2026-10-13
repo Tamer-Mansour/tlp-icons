@@ -1,0 +1,11 @@
+{
+  "name": "oil-mister",
+  "category": "food",
+  "tags": ["oil", "mister", "spray", "bottle", "kitchen", "mist"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 9V5.5h6V9M12 5.5h2\"/><path class=\"p3\" d=\"M17 6h4M17 10h4M17 14h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

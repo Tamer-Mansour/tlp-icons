@@ -1,0 +1,11 @@
+{
+  "name": "cipher-wheel",
+  "category": "science",
+  "tags": ["cipher", "wheel", "code", "secret", "letters", "encryption", "rings"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 3v4M12 17v4M3 12h4M17 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pill-shape",
+  "category": "shapes",
+  "tags": ["pill", "capsule", "tablet", "horizontal", "rounded", "medicine"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"4\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

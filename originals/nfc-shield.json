@@ -1,0 +1,10 @@
+{
+  "name": "nfc-shield",
+  "category": "security",
+  "tags": ["security", "nfc", "shield", "contactless", "wireless", "protect"],
+  "svg": "<path class=\"d p1\" d=\"M7 3 L12 4.5 V11 C12 15 9.5 18.5 7 20.5 C4.5 18.5 2 15 2 11 V4.5 Z\"/><path class=\"p2\" d=\"M15 8.5 Q18 12 15 15.5\"/><path class=\"p2\" d=\"M18.5 6 Q22 12 18.5 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

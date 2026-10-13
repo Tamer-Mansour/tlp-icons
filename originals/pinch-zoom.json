@@ -1,0 +1,10 @@
+{
+  "name": "pinch-zoom",
+  "category": "interface",
+  "tags": ["pinch", "zoom", "gesture", "fingers", "resize"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"15\" r=\"2.5\"/><circle class=\"p1\" cx=\"17\" cy=\"15\" r=\"2.5\"/><path class=\"p2\" d=\"M3.5 3.5l4 4M7.5 7.5h-3.5M7.5 7.5v-3.5M20.5 3.5l-4 4M16.5 7.5h3.5M16.5 7.5v-3.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

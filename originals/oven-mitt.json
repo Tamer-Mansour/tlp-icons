@@ -1,0 +1,10 @@
+{
+  "name": "oven-mitt",
+  "category": "food",
+  "tags": ["oven", "mitt", "glove", "kitchen", "food"],
+  "svg": "<path class=\"d p1\" d=\"M8 10 Q8 4 12 4 Q16 4 16 10 V19 Q16 21 14 21 H10 Q8 21 8 19 Z\"/><path class=\"p2\" d=\"M8 13 Q4 12 4 15 Q4 17 8 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 800, "delay": 800, "origin": "8px 13px" }
+  ]
+}

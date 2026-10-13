@@ -1,0 +1,11 @@
+{
+  "name": "flowchart-node",
+  "category": "development",
+  "tags": ["flowchart", "node", "diagram", "decision", "process", "logic"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M7 9v3h6\"/><path class=\"d p2\" d=\"M16 9l3 3-3 3-3-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "banana-split",
+  "category": "food",
+  "tags": ["banana", "split", "dessert", "ice cream", "sundae"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 Q18 20 12 20 Q6 20 3 11 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"7.5\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"7.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dental-office",
+  "category": "buildings",
+  "tags": ["dental", "dentist", "tooth", "clinic", "office", "drill", "teeth"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 3.5C5 3.5 4 5.5 4.5 8.5L5.5 13.5Q6 16 7.5 15L8.5 11.5Q10 10.5 11.5 11.5L12.5 15Q14 16 14.5 13.5L15.5 8.5C16 5.5 15 3.5 12.5 3.5C11 3.5 10.5 4.5 10 4.5C9.5 4.5 9 3.5 7.5 3.5Z\"/><path class=\"p2\" d=\"M7.5 21v-2.5h4.5V21\"/><path class=\"p3\" d=\"M15 17h5v3h-5zM20 18.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 900, "delay": 900 }
+  ]
+}

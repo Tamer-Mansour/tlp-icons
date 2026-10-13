@@ -1,0 +1,11 @@
+{
+  "name": "nightclub",
+  "category": "buildings",
+  "tags": ["nightclub", "disco", "club", "night", "dance", "party"],
+  "svg": "<line class=\"p2\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"6\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p3\" d=\"M8 9.5h8M7 14.5h10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 900 }
+  ]
+}

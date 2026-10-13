@@ -1,0 +1,11 @@
+{
+  "name": "scanner",
+  "category": "interface",
+  "tags": ["scanner", "scan", "flatbed", "copy", "document", "digitize"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"6\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M5 18H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "scan", "dur": 900, "delay": 600 }
+  ]
+}

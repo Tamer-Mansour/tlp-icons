@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-alert",
+  "category": "notifications",
+  "tags": ["bookmark", "alert", "saved", "ribbon", "warning"],
+  "svg": "<path class=\"p1\" d=\"M6 3h12v18l-6-4.5L6 21z\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"/><circle class=\"f p2\" cx=\"12\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

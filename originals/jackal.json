@@ -1,0 +1,12 @@
+{
+  "name": "jackal",
+  "category": "nature",
+  "tags": ["dog", "wild", "pointed", "ears", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 Q4 8 9 8 Q14 8 18 12 L21 14 L18 15 Q12 17 4 12 Z\"/><polyline class=\"p2\" points=\"10,8 11,3 14,8\"/><circle class=\"f p3\" cx=\"13\" cy=\"11\" r=\"1\"/><path class=\"p4\" d=\"M4 12 Q1 15 3 19 Q6 18 6 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "4px 12px" }
+  ]
+}

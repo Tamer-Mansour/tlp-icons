@@ -1,0 +1,11 @@
+{
+  "name": "loupe",
+  "category": "interface",
+  "tags": ["loupe", "magnifier", "zoom", "search", "inspect", "lens"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"11\" r=\"7\"/><path class=\"p2\" d=\"M18.5 18.5l3 3\"/><path class=\"p3\" d=\"M7.5 9.5a4 4 0 0 1 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "magnify", "dur": 800, "delay": 900 }
+  ]
+}

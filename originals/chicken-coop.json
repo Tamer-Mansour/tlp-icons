@@ -1,0 +1,11 @@
+{
+  "name": "chicken-coop",
+  "category": "buildings",
+  "tags": ["chicken", "coop", "hen", "farm", "poultry", "henhouse"],
+  "svg": "<path class=\"d p1\" d=\"M2 11 L12 3 L22 11 Z\"/><path class=\"p2\" d=\"M4 11 V21 H20 V11\"/><path class=\"p3\" d=\"M9.5 21 V15 H14.5 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1300, "origin": "10px 21px" }
+  ]
+}

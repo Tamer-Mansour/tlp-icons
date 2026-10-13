@@ -1,0 +1,10 @@
+{
+  "name": "cargo-container",
+  "category": "buildings",
+  "tags": ["cargo", "container", "shipping", "box", "freight", "corrugated", "delivery"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M7.5 7.5v9M12 7.5v9M16.5 7.5v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400 }
+  ]
+}

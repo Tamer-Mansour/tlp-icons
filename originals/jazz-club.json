@@ -1,0 +1,12 @@
+{
+  "name": "jazz-club",
+  "category": "buildings",
+  "tags": ["jazz", "music", "club", "note", "stage", "live"],
+  "svg": "<line class=\"p4\" x1=\"2\" y1=\"22\" x2=\"22\" y2=\"22\"/><path class=\"p1\" d=\"M9 17V5l10-2v12\"/><circle class=\"d p2\" cx=\"6\" cy=\"17\" r=\"3\"/><circle class=\"d p3\" cx=\"16\" cy=\"15\" r=\"3\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1300 }
+  ]
+}

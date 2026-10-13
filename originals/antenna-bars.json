@@ -1,0 +1,12 @@
+{
+  "name": "antenna-bars",
+  "category": "emoji",
+  "tags": ["antenna", "signal", "bars", "reception", "strength", "cellular"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"20\" x2=\"5\" y2=\"16\"/><line class=\"p2\" x1=\"10\" y1=\"20\" x2=\"10\" y2=\"12\"/><line class=\"p3\" x1=\"15\" y1=\"20\" x2=\"15\" y2=\"8\"/><line class=\"d p4\" x1=\"20\" y1=\"20\" x2=\"20\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 750 }
+  ]
+}

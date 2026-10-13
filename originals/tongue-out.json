@@ -1,0 +1,11 @@
+{
+  "name": "tongue-out",
+  "category": "people",
+  "tags": ["tongue", "silly", "playful", "face", "cheeky", "joke"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8.5 13.5q3.5 3 7 0\"/><path class=\"p3\" d=\"M11 15.5v2.5a2 2 0 0 0 4 0v-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wave", "dur": 600, "delay": 1100, "origin": "top" }
+  ]
+}

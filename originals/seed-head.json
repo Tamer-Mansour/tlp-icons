@@ -1,0 +1,11 @@
+{
+  "name": "seed-head",
+  "category": "nature",
+  "tags": ["seed", "head", "stalk", "grain", "plant", "cluster"],
+  "svg": "<path class=\"p1\" d=\"M12 22V13\"/><circle class=\"d p2\" cx=\"9\" cy=\"9\" r=\"2\"/><circle class=\"d p2\" cx=\"15\" cy=\"9\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "text-expand",
+  "category": "text",
+  "tags": ["expand", "grow text", "outward", "scale up", "letters"],
+  "svg": "<path class=\"p1\" d=\"M9 16 L12 9 L15 16 M10 13 H14\"/><path class=\"p2\" d=\"M12 6 V2.5 M10 4.5 L12 2.5 L14 4.5\"/><path class=\"p3\" d=\"M12 19 V21.5 M10 19.5 L12 21.5 L14 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 500 }
+  ]
+}

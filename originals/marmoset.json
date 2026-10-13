@@ -1,0 +1,40 @@
+{
+    "name":  "marmoset",
+    "category":  "nature",
+    "tags":  [
+                 "marmoset",
+                 "monkey",
+                 "tufted",
+                 "ringed tail",
+                 "primate",
+                 "animal"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"9\" cy=\"7.5\" r=\"3.5\"/\u003e\u003cpath class=\"p2\" d=\"M6.5 13.5C5 17 6 21 9 21H13C16 21 17 17 15.5 13.5\"/\u003e\u003cpath class=\"p3\" d=\"M14.5 18C18 19 21 16 20 12.5C19.5 10.5 17 10.5 17.5 12.5\"/\u003e\u003ccircle class=\"f p4\" cx=\"7.8\" cy=\"7\" r=\"0.8\"/\u003e\u003ccircle class=\"f p4\" cx=\"10.2\" cy=\"7\" r=\"0.8\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "popIn",
+                       "dur":  300,
+                       "delay":  1000
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "wiggle",
+                       "dur":  1100,
+                       "delay":  1200,
+                       "origin":  "14.5px 18px"
+                   }
+               ]
+}

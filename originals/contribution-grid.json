@@ -1,0 +1,10 @@
+{
+  "name": "contribution-grid",
+  "category": "charts",
+  "tags": ["contribution", "grid", "activity", "squares", "calendar", "heatmap"],
+  "svg": "<path class=\"p1\" d=\"M9 3h4v4h-4Z M15 3h4v4h-4Z M3 9h4v4h-4Z M9 9h4v4h-4Z M3 15h4v4h-4Z M15 15h4v4h-4Z\"/><path class=\"d p2\" d=\"M3 3h4v4h-4Z M15 9h4v4h-4Z M9 15h4v4h-4Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

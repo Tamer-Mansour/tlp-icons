@@ -1,0 +1,11 @@
+{
+  "name": "message-relay",
+  "category": "connectivity",
+  "tags": ["message", "relay", "chat", "forward", "bubble", "routing"],
+  "svg": "<path class=\"d p1\" d=\"M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-4 3v-3H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"1\"/><path class=\"p3\" d=\"M6.5 11H10.5M13.5 11h3M14.5 9.5l2 1.5-2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

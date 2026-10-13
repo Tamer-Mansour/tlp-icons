@@ -1,0 +1,11 @@
+{
+  "name": "football-field",
+  "category": "buildings",
+  "tags": ["football", "field", "goal", "sports", "pitch"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M12 5v14\"/><path class=\"p3\" d=\"M5 9v6M19 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

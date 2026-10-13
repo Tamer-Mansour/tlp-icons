@@ -1,0 +1,11 @@
+{
+  "name": "rise-over-run",
+  "category": "math",
+  "tags": ["rise", "run", "slope", "steps", "gradient"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"19\" x2=\"19\" y2=\"19\"/><line class=\"p2\" x1=\"19\" y1=\"19\" x2=\"19\" y2=\"7\"/><line class=\"p3\" x1=\"5\" y1=\"19\" x2=\"19\" y2=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

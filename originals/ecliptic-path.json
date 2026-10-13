@@ -1,0 +1,10 @@
+{
+  "name": "ecliptic-path",
+  "category": "science",
+  "tags": ["ecliptic", "path", "orbit", "sun", "sky", "astronomy"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\" transform=\"rotate(-20 12 12)\"/><path class=\"p2\" d=\"M3 12h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

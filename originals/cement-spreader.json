@@ -1,0 +1,10 @@
+{
+  "name": "cement-spreader",
+  "category": "tools",
+  "tags": ["cement", "spreader", "trowel", "mortar", "masonry"],
+  "svg": "<path class=\"p1\" d=\"M12 3v7\"/><path class=\"d p2\" d=\"M4 12h16l-3 8H7z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 400 }
+  ]
+}

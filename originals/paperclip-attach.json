@@ -1,0 +1,11 @@
+{
+  "name": "paperclip-attach",
+  "category": "interface",
+  "tags": ["paperclip", "attach", "add", "file", "clip"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"15\" rx=\"5\"/><rect class=\"p2\" x=\"6.5\" y=\"8\" width=\"3\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M19 16.5v5M16.5 19h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "process-alert",
+  "category": "notifications",
+  "tags": ["process", "gear", "alert", "settings", "running"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p1\" d=\"M10 2v2M10 16v2M2 10h2M16 10h2\"/><circle class=\"p2\" cx=\"10\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M19 13.5v3.5\"/><circle class=\"f p4\" cx=\"19\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "blip", "dur": 400, "delay": 1300 }
+  ]
+}

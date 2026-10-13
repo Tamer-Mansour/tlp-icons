@@ -1,0 +1,11 @@
+{
+  "name": "bring-forward",
+  "category": "interface",
+  "tags": ["bring", "forward", "layer", "raise", "order", "move up"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"10\" height=\"10\" rx=\"1.5\"/><rect class=\"p2\" x=\"10\" y=\"3\" width=\"11\" height=\"11\" rx=\"1.5\"/><line class=\"p3\" x1=\"15.5\" y1=\"11\" x2=\"15.5\" y2=\"7\"/><polyline class=\"p3\" points=\"13,9.5 15.5,7 18,9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1000 }
+  ]
+}

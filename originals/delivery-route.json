@@ -1,0 +1,11 @@
+{
+  "name": "delivery-route",
+  "category": "vehicles",
+  "tags": ["delivery", "route", "map", "pin", "dashed"],
+  "svg": "<path class=\"p1\" d=\"M5 19l2-2M9.5 14.5l2-2M14 10l1.5-1.5\"/><circle class=\"f p2\" cx=\"5\" cy=\"19\" r=\"1.2\"/><circle class=\"p3\" cx=\"18.5\" cy=\"5.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

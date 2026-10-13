@@ -1,0 +1,11 @@
+{
+  "name": "shard-split",
+  "category": "development",
+  "tags": ["shard", "split", "diagonal", "fragment", "partition", "divide"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3 21 21 3\"/><polygon class=\"d p3\" points=\"3 3 21 3 3 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

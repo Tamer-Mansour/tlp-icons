@@ -1,0 +1,11 @@
+{
+  "name": "coach-user",
+  "category": "people",
+  "tags": ["coach", "clipboard", "trainer", "plan", "person"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"9\" r=\"3\"/><path class=\"p1\" d=\"M3 21a6 6 0 0 1 12 0\"/><rect class=\"p2\" x=\"17\" y=\"11\" width=\"5\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M19 15h2M19 18h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1000 }
+  ]
+}

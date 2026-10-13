@@ -1,0 +1,10 @@
+{
+  "name": "speaker-mute",
+  "category": "media",
+  "tags": ["speaker", "mute", "sound", "silence", "volume", "audio"],
+  "svg": "<polygon class=\"d p1\" points=\"3,9 7,9 12,5 12,19 7,15 3,15\"/><line class=\"p2\" x1=\"16\" y1=\"9\" x2=\"21\" y2=\"15\"/><line class=\"p2\" x1=\"21\" y1=\"9\" x2=\"16\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 600 }
+  ]
+}

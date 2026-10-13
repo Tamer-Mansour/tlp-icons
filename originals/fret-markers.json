@@ -1,0 +1,10 @@
+{
+  "name": "fret-markers",
+  "category": "media",
+  "tags": ["fret", "markers", "neck", "guitar", "dots"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1.5\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"18\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 700 }
+  ]
+}

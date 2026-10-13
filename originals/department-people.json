@@ -1,0 +1,11 @@
+{
+  "name": "department-people",
+  "category": "people",
+  "tags": ["department", "team", "group", "people", "division", "staff"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><circle class=\"p2\" cx=\"7\" cy=\"11.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"12.5\" cy=\"11.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"18\" cy=\"11.5\" r=\"1.5\"/><path class=\"p3\" d=\"M4.5 18a2.5 2.5 0 0 1 5 0M10 18a2.5 2.5 0 0 1 5 0M15.5 18a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

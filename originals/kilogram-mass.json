@@ -1,0 +1,11 @@
+{
+  "name": "kilogram-mass",
+  "category": "science",
+  "tags": ["kilogram", "mass", "weight", "scale", "units", "measure"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l2 12H3z\"/><path class=\"p2\" d=\"M9 9V6a3 3 0 0 1 6 0v3\"/><line class=\"p3\" x1=\"10\" y1=\"15\" x2=\"14\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

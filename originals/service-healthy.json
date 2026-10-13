@@ -1,0 +1,11 @@
+{
+  "name": "service-healthy",
+  "category": "connectivity",
+  "tags": ["service", "healthy", "server", "status", "check", "online"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2.5\" width=\"18\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"14.5\" width=\"18\" height=\"7\" rx=\"2\"/><polyline class=\"p3\" points=\"8.5 18 11 20.5 15.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "race-car",
+  "category": "vehicles",
+  "tags": ["race", "car", "racing", "open wheel", "speed"],
+  "svg": "<path class=\"p1\" d=\"M3 16v-2.5h2l2.5-2.5h6l2.5 2.5H21V16z\"/><g class=\"p2\"><circle cx=\"7\" cy=\"17.5\" r=\"2\"/><circle cx=\"17\" cy=\"17.5\" r=\"2\"/></g><path class=\"p3\" d=\"M3 9h4.5M5.25 9v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "keyhole-shape",
+  "category": "shapes",
+  "tags": ["keyhole", "lock", "security", "shape", "slot", "profile"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 12.3A5 5 0 1 1 15.5 12.3L18 21H6Z\"/><circle class=\"p2\" cx=\"12\" cy=\"8.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

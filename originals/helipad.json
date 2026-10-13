@@ -1,0 +1,10 @@
+{
+  "name": "helipad",
+  "category": "buildings",
+  "tags": ["helipad", "helicopter", "landing", "pad", "aviation", "ground", "h"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9.5 8.5v7M14.5 8.5v7M9.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

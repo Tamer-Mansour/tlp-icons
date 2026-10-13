@@ -1,0 +1,10 @@
+{
+  "name": "phone-stand",
+  "category": "devices",
+  "tags": ["phone", "stand", "holder", "desk", "mount", "display"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"8\" height=\"13\" rx=\"2\" transform=\"rotate(-15 11 11)\"/><path class=\"p2\" d=\"M5 20h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

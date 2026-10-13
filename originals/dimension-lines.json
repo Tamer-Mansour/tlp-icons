@@ -1,0 +1,11 @@
+{
+  "name": "dimension-lines",
+  "category": "shapes",
+  "tags": ["dimension", "measure", "ruler", "size", "arrows"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"12\" height=\"10\"/><path class=\"p2\" d=\"M3 6h12M3 4.5v3M15 4.5v3\"/><path class=\"p3\" d=\"M19 9v10M17.5 9h3M17.5 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 1000 }
+  ]
+}

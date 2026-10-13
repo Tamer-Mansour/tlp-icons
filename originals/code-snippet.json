@@ -1,0 +1,11 @@
+{
+  "name": "code-snippet",
+  "category": "development",
+  "tags": ["code", "snippet", "brackets", "document", "source", "script"],
+  "svg": "<path class=\"p1\" d=\"M6 6 L2 12 L6 18 M18 6 L22 12 L18 18\"/><rect class=\"d p2\" x=\"8.5\" y=\"5\" width=\"7\" height=\"14\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 9 H13.5 M10.5 12 H13.5 M10.5 15 H12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "farm-stand",
+  "category": "food",
+  "tags": ["farm", "stand", "produce", "market", "awning", "vegetables"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 9.5L4.5 4.5h15l2 5z\"/><path class=\"p2\" d=\"M3 12.5h18\"/><rect class=\"p3\" x=\"5\" y=\"16\" width=\"5\" height=\"5\" rx=\".5\"/><rect class=\"p3\" x=\"14\" y=\"16\" width=\"5\" height=\"5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

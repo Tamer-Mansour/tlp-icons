@@ -1,0 +1,10 @@
+{
+  "name": "find-next",
+  "category": "interface",
+  "tags": ["find", "next", "search", "magnifier", "forward", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"11\" r=\"5\"/><line class=\"p1\" x1=\"11.5\" y1=\"14.5\" x2=\"16\" y2=\"19\"/><path class=\"p2\" d=\"M16 6h6M19.5 3.5 22 6l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

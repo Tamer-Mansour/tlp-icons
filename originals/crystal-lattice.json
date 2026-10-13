@@ -1,0 +1,11 @@
+{
+  "name": "crystal-lattice",
+  "category": "science",
+  "tags": ["crystal", "lattice", "cube", "structure", "solid"],
+  "svg": "<path class=\"p1\" d=\"M4 9 H14 V19 H4 Z\"/><path class=\"p2\" d=\"M8 5 H18 V15 H8 Z\"/><path class=\"p3\" d=\"M4 9 L8 5 M14 9 L18 5 M14 19 L18 15 M4 19 L8 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "signal-box",
+  "category": "buildings",
+  "tags": ["signal box", "railway", "signal tower", "lever", "rail", "switch"],
+  "svg": "<path class=\"p1\" d=\"M5 21V7l5-4 5 4v14\"/><path class=\"p2\" d=\"M5 11h10\"/><path class=\"p3\" d=\"M19 21V11M17 11h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1200, "origin": "19px 21px" }
+  ]
+}

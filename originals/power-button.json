@@ -1,0 +1,10 @@
+{
+  "name": "power-button",
+  "category": "devices",
+  "tags": ["power", "button", "on", "off", "switch"],
+  "svg": "<path class=\"p1\" d=\"M6.34 6.34 A8 8 0 1 0 17.66 6.34\"/><line class=\"p2\" x1=\"12\" y1=\"2.5\" x2=\"12\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

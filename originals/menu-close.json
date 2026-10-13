@@ -1,0 +1,10 @@
+{
+  "name": "menu-close",
+  "category": "interface",
+  "tags": ["menu", "close", "cross", "collapse", "hamburger", "dismiss"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M9 9l6 6M15 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

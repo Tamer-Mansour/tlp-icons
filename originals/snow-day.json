@@ -1,0 +1,11 @@
+{
+  "name": "snow-day",
+  "category": "weather",
+  "tags": ["snow", "day", "house", "winter", "snowflake", "roof"],
+  "svg": "<path class=\"p1\" d=\"M6 20 V11 L12 6 L18 11 V20 Z\"/><path class=\"p2\" d=\"M4 9.5 H20\"/><path class=\"p3\" d=\"M12 13 V18 M10 14.5 L14 16.5 M14 14.5 L10 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1100, "origin": "12px 15.5px" }
+  ]
+}

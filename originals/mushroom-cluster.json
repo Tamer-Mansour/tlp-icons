@@ -1,0 +1,12 @@
+{
+  "name": "mushroom-cluster",
+  "category": "nature",
+  "tags": ["mushroom", "cluster", "fungus", "group", "food"],
+  "svg": "<path class=\"d p1\" d=\"M2 11a6 5 0 0 1 12 0z\"/><path class=\"p2\" d=\"M5.5 11v9h5v-9\"/><path class=\"d p3\" d=\"M13 13a4 3.5 0 0 1 8 0z\"/><path class=\"p4\" d=\"M15 13v8h4v-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1400 }
+  ]
+}

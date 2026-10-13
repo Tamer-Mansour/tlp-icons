@@ -1,0 +1,10 @@
+{
+  "name": "slider-vertical",
+  "category": "interface",
+  "tags": ["slider", "vertical", "range", "volume", "adjust", "track"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"6\"/><line class=\"p1\" x1=\"12\" y1=\"18\" x2=\"12\" y2=\"21\"/><rect class=\"d p2\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

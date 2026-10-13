@@ -1,0 +1,11 @@
+{
+  "name": "goose",
+  "category": "nature",
+  "tags": ["goose", "long neck", "flat bill", "waterfowl", "bird"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"15\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M14 13 Q18 11 17.5 7\"/><circle class=\"p2\" cx=\"17\" cy=\"5\" r=\"2.5\"/><path class=\"p3\" d=\"M19 5 H22 L19 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 1300 }
+  ]
+}

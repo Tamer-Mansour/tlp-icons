@@ -1,0 +1,10 @@
+{
+  "name": "spoon",
+  "category": "food",
+  "tags": ["spoon", "cutlery", "bowl", "eating", "soup"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"8.5\" rx=\"4\" ry=\"5.5\"/><path class=\"p2\" d=\"M10 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 800 }
+  ]
+}

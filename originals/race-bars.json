@@ -1,0 +1,10 @@
+{
+  "name": "race-bars",
+  "category": "charts",
+  "tags": ["race", "bars", "ranking", "leaderboard", "chart", "sort"],
+  "svg": "<path class=\"p1\" d=\"M3 7h12M3 12h9M3 17h6\"/><path class=\"p2\" d=\"M20 9V3M18 5l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0, "origin": "left" },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "slider-arrows",
+  "category": "arrows",
+  "tags": ["slider", "adjust", "range", "knob", "horizontal", "control"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"13\" x2=\"21\" y2=\"13\"/><circle class=\"d p2\" cx=\"12\" cy=\"13\" r=\"2.5\"/><path class=\"p3\" d=\"M4 7.5h16M6.5 5.5L4 7.5l2.5 2M17.5 5.5l2.5 2-2.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

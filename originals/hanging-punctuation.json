@@ -1,0 +1,10 @@
+{
+  "name": "hanging-punctuation",
+  "category": "text",
+  "tags": ["hanging", "punctuation", "quote", "text", "typography", "margin"],
+  "svg": "<path class=\"p1\" d=\"M8 7H20M8 12H20M8 17H16\"/><path class=\"p2\" d=\"M4 6V8M6 6V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

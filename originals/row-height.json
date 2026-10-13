@@ -1,0 +1,10 @@
+{
+  "name": "row-height",
+  "category": "layout",
+  "tags": ["row", "height", "table", "measure", "bracket", "size"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"12\" height=\"16\" rx=\"1\"/><path class=\"p1\" d=\"M3 10H15M3 16H15\"/><path class=\"p2\" d=\"M18 10H20V16H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 900 }
+  ]
+}

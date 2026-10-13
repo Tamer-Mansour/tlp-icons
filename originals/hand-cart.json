@@ -1,0 +1,11 @@
+{
+  "name": "hand-cart",
+  "category": "vehicles",
+  "tags": ["hand", "cart", "dolly", "handle", "moving"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"5\" width=\"7\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M5 3v14h6\"/><circle class=\"p3\" cx=\"14\" cy=\"19.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "drive", "dur": 800, "delay": 1000 }
+  ]
+}

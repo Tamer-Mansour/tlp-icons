@@ -1,0 +1,11 @@
+{
+  "name": "salad-tongs",
+  "category": "food",
+  "tags": ["salad", "tongs", "kitchen", "serving", "utensil"],
+  "svg": "<path class=\"p1\" d=\"M10 4L6 21\"/><path class=\"p2\" d=\"M14 4L18 21\"/><path class=\"p3\" d=\"M9 6Q12 3.5 15 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "grouped-bars",
+  "category": "charts",
+  "tags": ["bars", "grouped", "chart", "comparison", "columns", "series"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"10\" width=\"4\" height=\"11\"/><rect class=\"p1\" x=\"7\" y=\"5\" width=\"4\" height=\"16\"/><rect class=\"p2\" x=\"13\" y=\"8\" width=\"4\" height=\"13\"/><rect class=\"p2\" x=\"18\" y=\"12\" width=\"4\" height=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

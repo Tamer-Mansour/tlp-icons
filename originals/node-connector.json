@@ -1,0 +1,11 @@
+{
+  "name": "node-connector",
+  "category": "interface",
+  "tags": ["node", "connector", "link", "circles", "network"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"3\"/><circle class=\"p2\" cx=\"19\" cy=\"12\" r=\"3\"/><line class=\"p3\" x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pyramid-square",
+  "category": "shapes",
+  "tags": ["pyramid", "square", "base", "faces", "3d", "solid"],
+  "svg": "<path class=\"p1\" d=\"M4 15L12 3L20 15L12 21Z\"/><path class=\"p2\" d=\"M4 15L12 9L20 15M12 3V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

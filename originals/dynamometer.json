@@ -1,0 +1,11 @@
+{
+  "name": "dynamometer",
+  "category": "science",
+  "tags": ["dynamometer", "force", "spring", "scale", "measure"],
+  "svg": "<path class=\"p1\" d=\"M12 2V6\"/><rect class=\"d p2\" x=\"7\" y=\"6\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M12 15L15.5 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1000, "origin": "12px 15px" }
+  ]
+}

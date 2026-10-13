@@ -1,0 +1,11 @@
+{
+  "name": "process-arrow",
+  "category": "arrows",
+  "tags": ["process", "input", "output", "flow", "node", "transform"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M10 12h5M12.5 9.5l2.5 2.5-2.5 2.5\"/><rect class=\"p3\" x=\"17\" y=\"9\" width=\"5\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

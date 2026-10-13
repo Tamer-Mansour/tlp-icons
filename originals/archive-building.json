@@ -1,0 +1,11 @@
+{
+  "name": "archive-building",
+  "category": "buildings",
+  "tags": ["archive", "records", "storage", "boxes", "building", "files"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M5 9v12h14V9\"/><path class=\"p3\" d=\"M10 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

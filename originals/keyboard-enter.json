@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-enter",
+  "category": "interface",
+  "tags": ["keyboard", "enter", "return", "keycap", "key"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"3\"/><path class=\"p2\" d=\"M16 9v3.5H8.5M11 10l-2.5 2.5L11 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "silo",
+  "category": "buildings",
+  "tags": ["silo", "grain", "storage", "farm", "cylinder", "tower"],
+  "svg": "<path class=\"d p1\" d=\"M6 21V8a6 4 0 0 1 12 0v13z\"/><path class=\"p2\" d=\"M6 15.5h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

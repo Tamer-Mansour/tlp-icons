@@ -1,0 +1,10 @@
+{
+  "name": "wristband-sport",
+  "category": "sport",
+  "tags": ["wristband", "sweatband", "strap", "wrist", "fitness"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 8 V16 M16 8 V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 1100, "delay": 700 }
+  ]
+}

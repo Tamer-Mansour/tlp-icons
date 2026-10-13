@@ -1,0 +1,11 @@
+{
+  "name": "audio-trim",
+  "category": "media",
+  "tags": ["audio", "trim", "cut", "waveform", "edit", "clip"],
+  "svg": "<polyline class=\"p1\" points=\"7,12 9,8 11,16 13,7 15,17 17,12\"/><polyline class=\"p2\" points=\"5,5 3,5 3,19 5,19\"/><polyline class=\"p3\" points=\"19,5 21,5 21,19 19,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "compass-north",
+  "category": "nature",
+  "tags": ["compass", "north", "navigation", "direction", "needle", "map"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 6L15 12.5H9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "trust-scale",
+  "category": "security",
+  "tags": ["security", "trust", "scale", "balance", "shield", "fair"],
+  "svg": "<path class=\"p1\" d=\"M12 4 V21 M8 21 H16 M5 6 H19 M5 6 L2 13 M5 6 L8 13 M19 6 L16 13 M19 6 L22 13\"/><path class=\"d p2\" d=\"M2 13 H8 C8 15.8 6.7 17.5 5 17.5 C3.3 17.5 2 15.8 2 13 Z\"/><path class=\"d p3\" d=\"M16 13 H22 C22 15.8 20.7 17.5 19 17.5 C17.3 17.5 16 15.8 16 13 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1400 }
+  ]
+}

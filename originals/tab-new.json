@@ -1,0 +1,10 @@
+{
+  "name": "tab-new",
+  "category": "interface",
+  "tags": ["tab", "new", "browser", "add", "plus", "window"],
+  "svg": "<path class=\"d p1\" d=\"M3 19V8a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M12 11v6M9 14h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

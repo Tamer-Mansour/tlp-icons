@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-stack",
+  "category": "interface",
+  "tags": ["bookmark", "stack", "collection", "saved", "multiple", "ribbon"],
+  "svg": "<path class=\"p1\" d=\"M9 3h11v15\"/><path class=\"p2\" d=\"M5 6h11v15l-5.5-4L5 21z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

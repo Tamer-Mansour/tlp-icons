@@ -1,0 +1,10 @@
+{
+  "name": "heptagon",
+  "category": "shapes",
+  "tags": ["heptagon", "seven", "sides", "polygon", "regular", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3L19 6.5L20.8 14L16 20H8L3.2 14L5 6.5Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

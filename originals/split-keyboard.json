@@ -1,0 +1,12 @@
+{
+  "name": "split-keyboard",
+  "category": "devices",
+  "tags": ["split", "keyboard", "halves", "typing", "input", "ergonomic"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"8.5\" height=\"12\" rx=\"2\"/><rect class=\"d p2\" x=\"13.5\" y=\"6\" width=\"8.5\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M4.5 10h3.5M4.5 13h3.5M4.5 16h3.5M16 10h3.5M16 13h3.5M16 16h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}
+

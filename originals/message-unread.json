@@ -1,0 +1,10 @@
+{
+  "name": "message-unread",
+  "category": "notifications",
+  "tags": ["message", "unread", "chat", "bubble", "new"],
+  "svg": "<path class=\"d p1\" d=\"M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-4 3.5V17H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z\"/><circle class=\"f p2\" cx=\"21\" cy=\"2.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "boom-barrier",
+  "category": "vehicles",
+  "tags": ["barrier", "boom", "gate", "parking", "lane", "road"],
+  "svg": "<path class=\"p1\" d=\"M5 21V10M2.5 21H21.5\"/><path class=\"p2\" d=\"M5 10H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 700, "origin": "5px 10px" }
+  ]
+}

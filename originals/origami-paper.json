@@ -1,0 +1,10 @@
+{
+  "name": "origami-paper",
+  "category": "files",
+  "tags": ["origami", "paper", "fold", "craft", "crease", "folded"],
+  "svg": "<path class=\"p1\" d=\"M4 3H20V14L14 20H4Z\"/><path class=\"d p2\" d=\"M14 20V14H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 900, "delay": 900 }
+  ]
+}

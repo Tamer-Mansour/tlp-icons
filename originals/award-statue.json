@@ -1,0 +1,11 @@
+{
+  "name": "award-statue",
+  "category": "media",
+  "tags": ["award", "statue", "trophy", "figure", "pedestal", "honor"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M8 11h8l-1.5 7h-5z\"/><rect class=\"p3\" x=\"6\" y=\"20\" width=\"12\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

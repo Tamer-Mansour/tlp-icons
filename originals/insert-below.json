@@ -1,0 +1,10 @@
+{
+  "name": "insert-below",
+  "category": "arrows",
+  "tags": ["insert", "below", "line", "add", "place"],
+  "svg": "<path class=\"p1\" d=\"M4 6 H20\"/><path class=\"p2\" d=\"M12 10 V19 M8 15 L12 19 L16 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 700, "delay": 700 }
+  ]
+}

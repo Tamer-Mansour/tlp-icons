@@ -1,0 +1,11 @@
+{
+  "name": "angle-grinder",
+  "category": "tools",
+  "tags": ["angle", "grinder", "disc", "cutting", "guard", "metal"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"14\" r=\"4\"/><path class=\"p2\" d=\"M2 14a7 7 0 0 1 7-7\"/><path class=\"p3\" d=\"M13 11l6-6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "spinFast", "dur": 900, "delay": 800, "origin": "9px 14px" }
+  ]
+}

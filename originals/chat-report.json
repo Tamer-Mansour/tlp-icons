@@ -1,0 +1,11 @@
+{
+  "name": "chat-report",
+  "category": "communication",
+  "tags": ["report", "flag", "chat", "abuse", "complaint", "warning"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 6v8\"/><path class=\"d p3\" d=\"M8 6h6l-1.5 2 1.5 2H8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 900 }
+  ]
+}

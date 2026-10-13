@@ -1,0 +1,11 @@
+{
+  "name": "cheerleader-pompom",
+  "category": "people",
+  "tags": ["cheerleader", "pompom", "cheer", "sport", "team", "arms"],
+  "svg": "<circle class=\"p3\" cx=\"12\" cy=\"7\" r=\"2\"/><path class=\"p1\" d=\"M9 11 L5 6 M15 11 L19 6 M12 10 V16 M9 21 L12 16 L15 21\"/><circle class=\"d p2\" cx=\"4\" cy=\"3.5\" r=\"2\"/><circle class=\"d p2\" cx=\"20\" cy=\"3.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

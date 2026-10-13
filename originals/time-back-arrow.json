@@ -1,0 +1,11 @@
+{
+  "name": "time-back-arrow",
+  "category": "arrows",
+  "tags": ["time", "back", "clock", "rewind", "past", "earlier"],
+  "svg": "<circle class=\"d p1\" cx=\"13\" cy=\"12\" r=\"8.5\"/><polyline class=\"p2\" points=\"13 7 13 12 16 13.5\"/><polyline class=\"p3\" points=\"4 12 7 9.5 7 14.5\"/><line class=\"p3\" x1=\"2.5\" y1=\"12\" x2=\"7\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 800, "delay": 600, "origin": "13px 12px" },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1500 }
+  ]
+}

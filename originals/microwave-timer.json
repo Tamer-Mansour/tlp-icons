@@ -1,0 +1,12 @@
+{
+  "name": "microwave-timer",
+  "category": "time",
+  "tags": ["microwave", "timer", "kitchen", "cook", "heat", "appliance"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\" rx=\"2.5\"/><rect class=\"p2\" x=\"5\" y=\"7.5\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p3\" x=\"15.5\" y=\"7.5\" width=\"4.5\" height=\"3\" rx=\"0.5\"/><path class=\"p3\" d=\"M16.5 9h3\"/><circle class=\"p4\" cx=\"17.75\" cy=\"14.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

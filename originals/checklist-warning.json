@@ -1,0 +1,12 @@
+{
+  "name": "checklist-warning",
+  "category": "notifications",
+  "tags": ["checklist", "clipboard", "warning", "tasks", "triangle"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 2.5h6v3H9z\"/><path class=\"d p3\" d=\"M12 8l3.5 6h-7z\"/><path class=\"p4\" d=\"M8 17.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1200 }
+  ]
+}

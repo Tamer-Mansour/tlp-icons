@@ -1,0 +1,10 @@
+{
+  "name": "verified-check",
+  "category": "notifications",
+  "tags": ["verified", "badge", "check", "approved", "trusted"],
+  "svg": "<polygon class=\"p1\" points=\"21.5,12 19.6,15.1 18.7,18.7 15.1,19.6 12,21.5 8.9,19.6 5.3,18.7 4.4,15.1 2.5,12 4.4,8.9 5.3,5.3 8.9,4.4 12,2.5 15.1,4.4 18.7,5.3 19.6,8.9\"/><path class=\"p2\" d=\"M8.5 12.5l2.5 2.5 4.5-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

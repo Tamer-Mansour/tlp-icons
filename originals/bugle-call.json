@@ -1,0 +1,11 @@
+{
+  "name": "bugle-call",
+  "category": "communication",
+  "tags": ["bugle", "horn", "announce", "call", "brass", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M4 9.5h4l7-4v12l-7-4H4z\"/><path class=\"p2\" d=\"M8 13.5l1.5 4.5h2l-1.5-4.5\"/><path class=\"p3\" d=\"M17.5 9.5a2 3 0 0 1 0 5\"/><path class=\"p3\" d=\"M20 7.5a1.5 4.5 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

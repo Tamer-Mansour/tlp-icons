@@ -1,0 +1,11 @@
+{
+  "name": "grin-face",
+  "category": "people",
+  "tags": ["grin", "smile", "happy", "face", "joy", "cheerful"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M7 12.5h10a5 5 0 0 1-10 0z\"/><circle class=\"f p3\" cx=\"9\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1200 }
+  ]
+}

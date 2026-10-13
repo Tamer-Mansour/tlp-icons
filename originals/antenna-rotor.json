@@ -1,0 +1,11 @@
+{
+  "name": "antenna-rotor",
+  "category": "devices",
+  "tags": ["antenna", "rotor", "rotate", "tv", "aerial", "mast"],
+  "svg": "<path class=\"p1\" d=\"M12 21 V9 M8 21 H16\"/><path class=\"p2\" d=\"M7 7 A5 5 0 0 1 17 7 M15.5 4.5 L17 7 L19 5.5\"/>",
+  "origin": "center",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700, "origin": "12px 7px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bumblebee",
+  "category": "nature",
+  "tags": ["bumblebee", "bee", "insect", "honey", "pollinator", "stripe"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"7\" ry=\"5\"/><path class=\"p2\" d=\"M10 9.5v9M14 9.5v9\"/><path class=\"p3\" d=\"M9 9C8 4 10 3 13 4c1 1 0 4-2 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

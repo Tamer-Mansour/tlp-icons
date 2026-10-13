@@ -1,0 +1,10 @@
+{
+  "name": "forward-alert",
+  "category": "notifications",
+  "tags": ["forward", "arrow", "alert", "send on", "message", "share"],
+  "svg": "<path class=\"p1\" d=\"M15 14l5-5-5-5M20 9H10a6 6 0 0 0-6 6v3\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"3.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

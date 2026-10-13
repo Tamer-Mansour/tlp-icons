@@ -1,0 +1,11 @@
+{
+  "name": "lint-warning",
+  "category": "development",
+  "tags": ["lint", "warning", "caution", "code", "alert"],
+  "svg": "<polyline class=\"p1\" points=\"8 14 4 17.5 8 21\"/><line class=\"p1\" x1=\"11\" y1=\"17.5\" x2=\"16\" y2=\"17.5\"/><path class=\"d p2\" d=\"M17 3L21.5 11.5H12.5Z\"/><line class=\"p3\" x1=\"17\" y1=\"6\" x2=\"17\" y2=\"8.5\"/><circle class=\"f p3\" cx=\"17\" cy=\"10.2\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

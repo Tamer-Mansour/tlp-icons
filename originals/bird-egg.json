@@ -1,0 +1,10 @@
+{
+  "name": "bird-egg",
+  "category": "nature",
+  "tags": ["bird egg", "speckled", "oval", "nest", "spring", "shell"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"6\" ry=\"8\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

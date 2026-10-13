@@ -1,0 +1,10 @@
+{
+  "name": "reload-circle",
+  "category": "interface",
+  "tags": ["reload", "refresh", "arc", "arrow", "sync", "update"],
+  "svg": "<path class=\"p1\" d=\"M19.5 12a7.5 7.5 0 1 1-2.2-5.3\"/><path class=\"p2\" d=\"M19.5 4v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

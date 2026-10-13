@@ -1,0 +1,11 @@
+{
+  "name": "archery-quiver",
+  "category": "sport",
+  "tags": ["archery", "quiver", "arrows", "bow", "target", "sport"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M10 8V3M14 8V4\"/><path class=\"p3\" d=\"M9 4.5l1-1.5 1 1.5M13 5l1-1.5 1 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

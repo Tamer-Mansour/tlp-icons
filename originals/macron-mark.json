@@ -1,0 +1,10 @@
+{
+  "name": "macron-mark",
+  "category": "text",
+  "tags": ["macron", "bar", "accent", "diacritic", "letter", "typography"],
+  "svg": "<path class=\"p1\" d=\"M7 14a3 3 0 1 0 6 0a3 3 0 1 0-6 0M13 11v6\"/><path class=\"p2\" d=\"M8 8h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 600 }
+  ]
+}

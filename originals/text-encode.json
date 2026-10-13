@@ -1,0 +1,12 @@
+{
+  "name": "text-encode",
+  "category": "text",
+  "tags": ["encode", "binary", "text to bits", "convert", "data"],
+  "svg": "<path class=\"p1\" d=\"M2 18 L5.25 6 L8.5 18 M3.5 13.5 H7\"/><path class=\"p2\" d=\"M10 12 H13 M11.5 10.5 L13 12 L11.5 13.5\"/><ellipse class=\"p3\" cx=\"16.5\" cy=\"12\" rx=\"2.5\" ry=\"5\"/><path class=\"p4\" d=\"M21.5 7 V17 M20.2 8.3 L21.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "lawyer-scales",
+  "category": "people",
+  "tags": ["lawyer", "scales", "justice", "law", "balance"],
+  "svg": "<path class=\"p1\" d=\"M12 4v16M8 20h8\"/><path class=\"p2\" d=\"M4 7h16M4 7L2 13M4 7L6 13M20 7L18 13M20 7L22 13M2 13a2 2 0 0 0 4 0M18 13a2 2 0 0 0 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pendulum", "dur": 900, "delay": 500, "origin": "12px 7px" }
+  ]
+}

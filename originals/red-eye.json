@@ -1,0 +1,11 @@
+{
+  "name": "red-eye",
+  "category": "photography",
+  "tags": ["red", "eye", "flash", "fix", "correction", "portrait", "photo"],
+  "svg": "<path class=\"d p1\" d=\"M2 12C4.5 7.5 8 5.5 12 5.5S19.5 7.5 22 12C19.5 16.5 16 18.5 12 18.5S4.5 16.5 2 12Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

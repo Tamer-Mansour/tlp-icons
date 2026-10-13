@@ -1,0 +1,10 @@
+{
+  "name": "voice-waveform",
+  "category": "communication",
+  "tags": ["waveform", "audio", "voice", "sound", "bars", "equalizer"],
+  "svg": "<path class=\"p1\" d=\"M4 10v4M8 7v10M16 8v8M20 10v4\"/><path class=\"p2\" d=\"M12 4v16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "equalize", "dur": 900, "delay": 700, "origin": "bottom" }
+  ]
+}

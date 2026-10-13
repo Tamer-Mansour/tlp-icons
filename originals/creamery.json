@@ -1,0 +1,11 @@
+{
+  "name": "creamery",
+  "category": "buildings",
+  "tags": ["creamery", "milk", "dairy", "bottle", "farm", "cream"],
+  "svg": "<path class=\"d p1\" d=\"M5 10 H11 V20 Q11 21 10 21 H6 Q5 21 5 20 Z\"/><path class=\"p2\" d=\"M6 10 V7 H10 V10\"/><path class=\"p3\" d=\"M14 12 L18 7 L22 12 M15 12 V21 H21 V12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p1", "anim": "pour", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

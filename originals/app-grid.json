@@ -1,0 +1,10 @@
+{
+  "name": "app-grid",
+  "category": "interface",
+  "tags": ["apps", "grid", "launcher", "menu", "squares", "dashboard"],
+  "svg": "<path class=\"p1\" d=\"M4 4h4v4H4zM10 4h4v4h-4zM16 4h4v4h-4zM4 16h4v4H4zM10 16h4v4h-4zM16 16h4v4h-4z\"/><path class=\"p2\" d=\"M4 10h4v4H4zM10 10h4v4h-4zM16 10h4v4h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

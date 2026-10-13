@@ -1,0 +1,11 @@
+{
+  "name": "alkali-metal",
+  "category": "science",
+  "tags": ["chemistry", "alkali", "metal", "atom", "electron", "element"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p3\" cx=\"12\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "orbit", "dur": 800, "delay": 700, "origin": "12px 12px" }
+  ]
+}

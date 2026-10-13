@@ -1,0 +1,10 @@
+{
+  "name": "target-bar",
+  "category": "charts",
+  "tags": ["target", "bar", "goal", "chart", "progress", "benchmark"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"5\" width=\"6\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M2 12h3M19 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

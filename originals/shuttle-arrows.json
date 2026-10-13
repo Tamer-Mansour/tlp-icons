@@ -1,0 +1,11 @@
+{
+  "name": "shuttle-arrows",
+  "category": "arrows",
+  "tags": ["shuttle", "stops", "bus", "transit", "back"],
+  "svg": "<path class=\"p1\" d=\"M3 5 V19 M21 5 V19\"/><path class=\"p2\" d=\"M6 9 H18 M15 6 L18 9 L15 12\"/><path class=\"p3\" d=\"M18 15 H6 M9 12 L6 15 L9 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

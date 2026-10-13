@@ -1,0 +1,11 @@
+{
+  "name": "smartphone-shield",
+  "category": "security",
+  "tags": ["smartphone", "shield", "mobile", "protection", "tall", "safe"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"/><path class=\"p3\" d=\"M10.5 4.5H13.5\"/><path class=\"d p2\" d=\"M12 7L15 8.2V11.5C15 13.8 13.8 15.4 12 16.2C10.2 15.4 9 13.8 9 11.5V8.2Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sync-arrows-circle",
+  "category": "arrows",
+  "tags": ["sync", "refresh", "reload", "cycle", "rotate", "update"],
+  "svg": "<path class=\"p1\" d=\"M20 11A8 8 0 0 0 5.5 7M5.5 3.5V7H9\"/><path class=\"p2\" d=\"M4 13A8 8 0 0 0 18.5 17M18.5 20.5V17H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

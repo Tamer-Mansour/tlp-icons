@@ -1,0 +1,11 @@
+{
+  "name": "ironing-board",
+  "category": "home",
+  "tags": ["ironing", "board", "iron", "laundry", "clothes"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"15\" x2=\"17\" y2=\"9\"/><path class=\"p2\" d=\"M6 13.4L4 21M13 10.6L15 21\"/><path class=\"p3\" d=\"M13 3h6a2 2 0 0 1 2 2v2h-8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

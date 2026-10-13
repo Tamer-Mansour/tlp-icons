@@ -1,0 +1,10 @@
+{
+  "name": "index-chart",
+  "category": "charts",
+  "tags": ["chart", "line", "index", "trend", "baseline", "graph"],
+  "svg": "<line class=\"p2\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"p1\" d=\"M3 16 L8 11 L12 14 L17 7 L21 4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

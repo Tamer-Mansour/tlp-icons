@@ -1,0 +1,11 @@
+{
+  "name": "binary-star",
+  "category": "science",
+  "tags": ["binary", "star", "double", "orbit", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"d p2\" cx=\"15\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M3 19.5q9 4.5 18 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 600 }
+  ]
+}

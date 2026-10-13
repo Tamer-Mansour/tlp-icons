@@ -1,0 +1,11 @@
+{
+  "name": "intersection-arrow",
+  "category": "arrows",
+  "tags": ["intersection", "crossing", "lines", "meet", "direction"],
+  "svg": "<path class=\"p1\" d=\"M3 21 L21 3\"/><path class=\"p2\" d=\"M3 3 L21 21\"/><path class=\"p3\" d=\"M15 3 H21 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

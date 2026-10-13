@@ -1,0 +1,10 @@
+{
+  "name": "well",
+  "category": "buildings",
+  "tags": ["well", "bucket", "rope", "water", "stone", "village"],
+  "svg": "<path class=\"p1\" d=\"M5 14v6a7 2.5 0 0 0 14 0v-6\"/><ellipse class=\"p1\" cx=\"12\" cy=\"14\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 2v3M9 5h6l-1 4h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 800, "origin": "12px 2px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "copy-style",
+  "category": "design",
+  "tags": ["copy", "style", "dropper", "format", "paint", "match", "apply"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M18 3l4 4-6 6-4-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 600, "origin": "16px 11px" }
+  ]
+}

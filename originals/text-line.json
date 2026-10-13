@@ -1,0 +1,10 @@
+{
+  "name": "text-line",
+  "category": "text",
+  "tags": ["line", "text", "ruler", "width", "length"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line class=\"p2\" x1=\"4\" y1=\"8\" x2=\"4\" y2=\"16\"/><line class=\"p2\" x1=\"20\" y1=\"8\" x2=\"20\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 700 }
+  ]
+}

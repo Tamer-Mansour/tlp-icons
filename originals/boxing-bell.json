@@ -1,0 +1,11 @@
+{
+  "name": "boxing-bell",
+  "category": "sport",
+  "tags": ["boxing", "bell", "round", "ring", "gong"],
+  "svg": "<path class=\"d p1\" d=\"M6 16V11A6 6 0 0 1 18 11V16L20 18H4Z\"/><circle class=\"p2\" cx=\"12\" cy=\"21\" r=\"1\"/><path class=\"p3\" d=\"M3 6L5 4M21 6L19 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 700, "origin": "12px 18px" },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1500 }
+  ]
+}

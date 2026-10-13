@@ -1,0 +1,11 @@
+{
+  "name": "fuel-low",
+  "category": "notifications",
+  "tags": ["fuel", "low", "pump", "gas", "empty", "tank"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"10\" height=\"17\" rx=\"1.5\"/><path class=\"p2\" d=\"M14 10h2.5a2 2 0 0 1 2 2v7\"/><path class=\"p3\" d=\"M7 17.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "refill", "dur": 900, "delay": 700, "origin": "left" }
+  ]
+}

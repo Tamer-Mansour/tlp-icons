@@ -1,0 +1,10 @@
+{
+  "name": "online-status-dot",
+  "category": "communication",
+  "tags": ["online", "status", "presence", "dot", "available"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

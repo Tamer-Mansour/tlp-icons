@@ -1,0 +1,12 @@
+{
+  "name": "console-window",
+  "category": "development",
+  "tags": ["console", "window", "terminal", "command", "shell", "debug"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M2 8h20\"/><circle class=\"f p3\" cx=\"5\" cy=\"6\" r=\"0.8\"/><circle class=\"f p3\" cx=\"8\" cy=\"6\" r=\"0.8\"/><path class=\"p4\" d=\"M6 13l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "blink", "dur": 600, "delay": 1300 }
+  ]
+}

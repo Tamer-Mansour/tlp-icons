@@ -1,0 +1,11 @@
+{
+  "name": "clothes-hook",
+  "category": "home",
+  "tags": ["clothes", "hook", "wall", "jacket", "coat"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18\"/><path class=\"p2\" d=\"M4 8h7a2.5 2.5 0 1 0-2.5-2.5\"/><path class=\"d p3\" d=\"M8 12h8l1.5 9h-11z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "anniversary",
+  "category": "time",
+  "tags": ["heart", "calendar", "love", "milestone", "date"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 10H21\"/><path class=\"d p3\" d=\"M12 18.5L9.2 15.8A1.8 1.8 0 0 1 12 13.4A1.8 1.8 0 0 1 14.8 15.8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "beat", "dur": 900, "delay": 1100 }
+  ]
+}

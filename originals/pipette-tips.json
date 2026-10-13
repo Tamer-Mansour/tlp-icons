@@ -1,0 +1,10 @@
+{
+  "name": "pipette-tips",
+  "category": "science",
+  "tags": ["pipette", "tips", "lab", "rack", "liquid"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"3\" rx=\"1\"/><path class=\"d p2\" d=\"M6 8h2v6l-1 3-1-3zM11 8h2v6l-1 3-1-3zM16 8h2v6l-1 3-1-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

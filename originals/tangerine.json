@@ -1,0 +1,11 @@
+{
+  "name": "tangerine",
+  "category": "food",
+  "tags": ["citrus", "fruit", "orange", "mandarin", "vitamin"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M12 6c1-2 3-3 5-3 0 2-1.5 3.5-5 3z\"/><circle class=\"f p3\" cx=\"9\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 600, "origin": "12px 6px" },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

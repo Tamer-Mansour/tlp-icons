@@ -1,0 +1,11 @@
+{
+  "name": "container-ship",
+  "category": "vehicles",
+  "tags": ["container", "ship", "cargo", "freight", "boxes", "shipping"],
+  "svg": "<path class=\"d p1\" d=\"M2 14 H22 L19 19 H5 Z\"/><rect class=\"p2\" x=\"4\" y=\"9\" width=\"5\" height=\"5\"/><rect class=\"p2\" x=\"10\" y=\"9\" width=\"5\" height=\"5\"/><path class=\"p3\" d=\"M17 14 V10 H20 V14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "bob", "dur": 1000, "delay": 900 }
+  ]
+}

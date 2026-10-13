@@ -1,0 +1,10 @@
+{
+  "name": "port-scan",
+  "category": "security",
+  "tags": ["security", "port", "scan", "socket", "magnifier", "network"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"12\" height=\"12\" rx=\"3\"/><path class=\"p1\" d=\"M6 8 V10 M10 8 V10\"/><circle class=\"p2\" cx=\"15\" cy=\"14\" r=\"3.5\"/><path class=\"p2\" d=\"M17.5 16.5 L21 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "scanX", "dur": 1200, "delay": 900 }
+  ]
+}

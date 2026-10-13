@@ -1,0 +1,10 @@
+{
+  "name": "rubber-stopper",
+  "category": "home",
+  "tags": ["rubber", "stopper", "cork", "bottle", "plug"],
+  "svg": "<path class=\"p1\" d=\"M9 2v5l-4 3v11h14V10l-4-3V2\"/><path class=\"d p2\" d=\"M9 2h6l-1 5h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 600 }
+  ]
+}

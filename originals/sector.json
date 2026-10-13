@@ -1,0 +1,10 @@
+{
+  "name": "sector",
+  "category": "shapes",
+  "tags": ["sector", "wedge", "pie", "slice", "angle"],
+  "svg": "<path class=\"d p1\" d=\"M12 12 L21 12 A9 9 0 0 0 4.2 7.5 Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

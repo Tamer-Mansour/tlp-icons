@@ -1,0 +1,10 @@
+{
+  "name": "forum-thread",
+  "category": "communication",
+  "tags": ["forum", "thread", "replies", "discussion", "list", "topics"],
+  "svg": "<path class=\"p1\" d=\"M3 6h11M3 12h11M3 18h11\"/><rect class=\"p2\" x=\"16\" y=\"4\" width=\"5\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"10\" width=\"5\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"16\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

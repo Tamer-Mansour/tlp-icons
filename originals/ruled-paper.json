@@ -1,0 +1,10 @@
+{
+  "name": "ruled-paper",
+  "category": "files",
+  "tags": ["ruled", "paper", "lined", "notebook", "sheet", "notes"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M7 8h10M7 12h10M7 16h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gym-bag",
+  "category": "sport",
+  "tags": ["gym", "bag", "duffel", "sports", "strap", "training"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M9 8V5H15V8\"/><path class=\"p3\" d=\"M7 12H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1100 }
+  ]
+}

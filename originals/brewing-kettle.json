@@ -1,0 +1,11 @@
+{
+  "name": "brewing-kettle",
+  "category": "food",
+  "tags": ["food", "kettle", "brewing", "tea", "boil", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12v10a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8 9V7a4 4 0 0 1 8 0v2\"/><path class=\"p3\" d=\"M18 15h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1100 }
+  ]
+}

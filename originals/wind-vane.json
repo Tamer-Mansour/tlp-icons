@@ -1,0 +1,10 @@
+{
+  "name": "wind-vane",
+  "category": "science",
+  "tags": ["wind", "vane", "weather", "direction", "arrow", "pole"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M3 8 H17 M14 5 L17 8 L14 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 800, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "waving-hand",
+  "category": "emoji",
+  "tags": ["wave", "hello", "hand", "greeting", "palm", "bye"],
+  "svg": "<path class=\"d p1\" d=\"M6 12 H18 V16 C18 19.5 16 21 13 21 H11 C8 21 6 19.5 6 16 Z\"/><path class=\"p2\" d=\"M6 12 V6 M10 12 V4 M14 12 V4 M18 12 V6\"/><path class=\"p3\" d=\"M6 15 L3.5 12 C2.8 11.2 3.8 10.2 4.6 11 L7 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "wave", "dur": 900, "delay": 900, "origin": "12px 12px" }
+  ]
+}

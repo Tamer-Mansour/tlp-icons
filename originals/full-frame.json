@@ -1,0 +1,10 @@
+{
+  "name": "full-frame",
+  "category": "photography",
+  "tags": ["full", "frame", "sensor", "camera", "outline"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"1\"/><rect class=\"d p2\" x=\"5\" y=\"8\" width=\"14\" height=\"8\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

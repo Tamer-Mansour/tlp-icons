@@ -1,0 +1,11 @@
+{
+  "name": "document-scanner",
+  "category": "files",
+  "tags": ["scanner", "document", "scan", "copy", "page", "digitize"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"20\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M7 14V3h10v11\"/><line class=\"p3\" x1=\"6\" y1=\"17\" x2=\"18\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 900, "delay": 1300 }
+  ]
+}

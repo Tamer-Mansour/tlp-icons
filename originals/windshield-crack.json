@@ -1,0 +1,10 @@
+{
+  "name": "windshield-crack",
+  "category": "vehicles",
+  "tags": ["windshield", "crack", "glass", "car", "damage", "repair"],
+  "svg": "<path class=\"d p1\" d=\"M4 17 L6 8.5 Q6.5 6.5 8.5 6.5 H15.5 Q17.5 6.5 18 8.5 L20 17 Z\"/><polyline class=\"p2\" points=\"11 10 9 12.5 10.5 15 8 16\"/><polyline class=\"p2\" points=\"11 10 14 11 13 13.5 15.5 14.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "shake", "dur": 1000, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "post-truck",
+  "category": "communication",
+  "tags": ["truck", "post", "delivery", "mail", "parcel", "shipping"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M14.5 9h3.5l2.5 3v3h-6\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/><rect class=\"p4\" x=\"6\" y=\"8\" width=\"5\" height=\"4\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

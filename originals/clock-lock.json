@@ -1,0 +1,11 @@
+{
+  "name": "clock-lock",
+  "category": "security",
+  "tags": ["clock", "lock", "time", "schedule", "locked", "secure"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"11\" r=\"8\"/><path class=\"p2\" d=\"M10 6V11L13 13\"/><path class=\"p3\" d=\"M19 15V13.5A1.5 1.5 0 0 0 16 13.5V15\"/><rect class=\"d p4\" x=\"15\" y=\"15\" width=\"8\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 1100 }
+  ]
+}

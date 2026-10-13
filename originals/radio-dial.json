@@ -1,0 +1,11 @@
+{
+  "name": "radio-dial",
+  "category": "media",
+  "tags": ["radio", "dial", "tuner", "frequency", "needle", "station"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5v2M5 12h2M17 12h2M7.5 7.5l1.5 1.5M15 15l1.5 1.5\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"16\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 1400, "delay": 900, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "basin-wrench",
+  "category": "tools",
+  "tags": ["basin", "wrench", "faucet", "plumbing", "long", "reach"],
+  "svg": "<path class=\"p1\" d=\"M4 20L14 10\"/><rect class=\"d p2\" x=\"13\" y=\"5\" width=\"7\" height=\"4\" rx=\"1\" transform=\"rotate(45 16.5 7)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "14px 10px" }
+  ]
+}

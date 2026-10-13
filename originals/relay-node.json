@@ -1,0 +1,12 @@
+{
+  "name": "relay-node",
+  "category": "connectivity",
+  "tags": ["relay", "node", "hop", "chain", "signal", "link", "middle"],
+  "svg": "<path class=\"p4\" d=\"M6 12h2.5M15.5 12H18\"/><circle class=\"f p1\" cx=\"3.5\" cy=\"12\" r=\"1.2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

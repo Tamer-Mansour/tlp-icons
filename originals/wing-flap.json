@@ -1,0 +1,11 @@
+{
+  "name": "wing-flap",
+  "category": "vehicles",
+  "tags": ["wing", "flap", "aircraft", "plane", "hinge"],
+  "svg": "<path class=\"d p1\" d=\"M3 14L13 7h5.5L16 14z\"/><path class=\"p2\" d=\"M16 14l3.5 4\"/><circle class=\"f p3\" cx=\"16\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 900, "origin": "16px 14px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "message-pending",
+  "category": "communication",
+  "tags": ["message", "pending", "waiting", "queue", "chat", "clock", "sending"],
+  "svg": "<path class=\"d p1\" d=\"M4 4 H20 V12 H10 L6 16 V12 H4 Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"8\" r=\"1.2\"/><circle class=\"p3\" cx=\"18\" cy=\"18.5\" r=\"2.5\"/><path class=\"p3\" d=\"M18 17 V18.5 L19.2 19.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 350 },
+    { "part": "p3", "anim": "sweep", "dur": 800, "delay": 650, "origin": "18px 18.5px" }
+  ]
+}

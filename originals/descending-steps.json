@@ -1,0 +1,10 @@
+{
+  "name": "descending-steps",
+  "category": "arrows",
+  "tags": ["descending", "steps", "stairs", "falling", "decline", "down"],
+  "svg": "<path class=\"p1\" d=\"M3 4v4h4v4h4v4h4\"/><path class=\"p2\" d=\"M15 16h6M18 13l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

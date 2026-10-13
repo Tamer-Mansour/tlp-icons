@@ -1,0 +1,10 @@
+{
+  "name": "pixelate",
+  "category": "design",
+  "tags": ["pixelate", "pixel", "mosaic", "blocks", "image", "effect"],
+  "svg": "<path class=\"p1\" d=\"M3 3H11V11H3ZM13 3H21V11H13Z\"/><path class=\"p2\" d=\"M3 13H11V21H3ZM13 13H21V21H13Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 400 }
+  ]
+}

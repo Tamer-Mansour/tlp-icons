@@ -1,0 +1,11 @@
+{
+  "name": "rank-change",
+  "category": "charts",
+  "tags": ["rank", "change", "arrow", "up", "badge", "number"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M6.5 10L7 9.5V14.5\"/><path class=\"p3\" d=\"M18 18V6M15 9L18 6L21 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

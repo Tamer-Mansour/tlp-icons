@@ -1,0 +1,11 @@
+{
+  "name": "roadside-assistance",
+  "category": "vehicles",
+  "tags": ["roadside", "assistance", "breakdown", "help", "car repair"],
+  "svg": "<path class=\"p1\" d=\"M2.5 17v-4.5L4.7 8h9.6l3.7 4.5h2.5V17z\"/><g class=\"p2\"><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/></g><path class=\"p3\" d=\"M20 3l-3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

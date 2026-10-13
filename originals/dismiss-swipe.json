@@ -1,0 +1,10 @@
+{
+  "name": "dismiss-swipe",
+  "category": "interface",
+  "tags": ["dismiss", "swipe", "card", "slide", "remove", "clear"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"11\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M16 12h5M19 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "housekeeping-cart",
+  "category": "people",
+  "tags": ["housekeeping", "cart", "cleaning", "broom", "hotel", "maid"],
+  "svg": "<path class=\"d p1\" d=\"M6 8 H18 L16 15 H8 Z\"/><path class=\"p2\" d=\"M3 5 H5 L6 8\"/><circle class=\"p3\" cx=\"9.5\" cy=\"19\" r=\"1.5\"/><circle class=\"p3\" cx=\"16.5\" cy=\"19\" r=\"1.5\"/><path class=\"p4\" d=\"M21 2 L18.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 1200 }
+  ]
+}

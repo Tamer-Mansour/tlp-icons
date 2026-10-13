@@ -1,0 +1,10 @@
+{
+  "name": "scooter-kick",
+  "category": "sport",
+  "tags": ["scooter", "kick", "ride", "wheels", "deck", "urban"],
+  "svg": "<path class=\"p1\" d=\"M4 15H17M17 15V4M15 4H19\"/><circle class=\"p2\" cx=\"5\" cy=\"19\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 800 }
+  ]
+}

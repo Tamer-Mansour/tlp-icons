@@ -1,0 +1,11 @@
+{
+  "name": "raid-array",
+  "category": "devices",
+  "tags": ["raid", "array", "drives", "storage", "backup", "server"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"10\" width=\"16\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

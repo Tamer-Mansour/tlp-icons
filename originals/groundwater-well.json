@@ -1,0 +1,11 @@
+{
+  "name": "groundwater-well",
+  "category": "science",
+  "tags": ["groundwater", "well", "bucket", "water", "underground", "aquifer"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 9h9l-1.5 10h-6z\"/><path class=\"p2\" d=\"M5 4h14M12 4v4\"/><path class=\"p3\" d=\"M2 21q2.5-1.5 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "herb-pot",
+  "category": "home",
+  "tags": ["herb", "pot", "kitchen", "sprig", "basil", "garden"],
+  "svg": "<path class=\"d p1\" d=\"M6 14h12l-1.5 7h-9z\"/><path class=\"p2\" d=\"M12 14V5\"/><path class=\"p3\" d=\"M12 11c-2.5 0-4-1.5-4-4 2.5 0 4 1.5 4 4zM12 8c0-2.5 1.5-4 4-4 0 2.5-1.5 4-4 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 900, "origin": "bottom" }
+  ]
+}

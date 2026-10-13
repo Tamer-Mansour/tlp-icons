@@ -1,0 +1,12 @@
+{
+  "name": "radar-wave",
+  "category": "vehicles",
+  "tags": ["radar", "sweep", "signal", "sensor", "scan", "wave"],
+  "svg": "<path class=\"p1\" d=\"M4 14A6 6 0 0 1 10 20\"/><path class=\"p2\" d=\"M4 8A12 12 0 0 1 16 20\"/><path class=\"p3\" d=\"M4 2.5A17.5 17.5 0 0 1 21.5 20\"/><circle class=\"f p4\" cx=\"4\" cy=\"20\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "pulseRing", "dur": 1200, "delay": 1000 }
+  ]
+}

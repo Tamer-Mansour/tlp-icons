@@ -1,0 +1,11 @@
+{
+  "name": "expiry-timer",
+  "category": "time",
+  "tags": ["expiry", "timer", "tag", "deadline", "due", "label"],
+  "svg": "<path class=\"d p1\" d=\"M3 12.5V4a1 1 0 0 1 1-1h8.5L21 11.5 12.5 20z\"/><circle class=\"p2\" cx=\"8.5\" cy=\"8.5\" r=\"2.5\"/><path class=\"p3\" d=\"M8.5 7v1.5l1 .8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1100, "origin": "8.5px 8.5px" }
+  ]
+}

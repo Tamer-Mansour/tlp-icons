@@ -1,0 +1,12 @@
+{
+  "name": "woodpecker",
+  "category": "nature",
+  "tags": ["woodpecker", "bird", "tree trunk", "pecking", "chisel beak", "forest"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"4\" height=\"18\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"13.5\" rx=\"3.5\" ry=\"4.5\"/><circle class=\"p3\" cx=\"12\" cy=\"5.5\" r=\"2.2\"/><polyline class=\"p4\" points=\"14 5 18.5 5.5 14 6.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

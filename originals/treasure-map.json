@@ -1,0 +1,11 @@
+{
+  "name": "treasure-map",
+  "category": "sport",
+  "tags": ["treasure", "map", "pirate", "route", "x-marks", "adventure"],
+  "svg": "<polygon class=\"d p1\" points=\"3,6 9,4 15,6 21,4 21,18 15,20 9,18 3,20\"/><path class=\"p2\" d=\"M5 17C8 13 9 16 12 13\"/><path class=\"p3\" d=\"M15 7l3 3M18 7l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1200 }
+  ]
+}

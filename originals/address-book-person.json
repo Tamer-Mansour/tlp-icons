@@ -1,0 +1,11 @@
+{
+  "name": "address-book-person",
+  "category": "people",
+  "tags": ["address", "book", "contacts", "person", "people", "directory"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"15\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M1.5 7h2.5M1.5 12h2.5M1.5 17h2.5\"/><circle class=\"p3\" cx=\"13.5\" cy=\"9.5\" r=\"2.5\"/><path class=\"p3\" d=\"M9 17.5c0-2.2 1.9-3.8 4.5-3.8s4.5 1.6 4.5 3.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 1000 }
+  ]
+}

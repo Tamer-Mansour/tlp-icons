@@ -1,0 +1,11 @@
+{
+  "name": "smart-speaker",
+  "category": "home",
+  "tags": ["speaker", "smart", "voice", "audio", "assistant", "music"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"1.5\"/><path class=\"p3\" d=\"M9 12.5h6M9 15.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "glow", "dur": 1200, "delay": 900 }
+  ]
+}

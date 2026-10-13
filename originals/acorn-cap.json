@@ -1,0 +1,11 @@
+{
+  "name": "acorn-cap",
+  "category": "nature",
+  "tags": ["acorn", "oak", "nut", "cap", "seed", "tree"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 H20 Q19 13 12 13 Q5 13 4 10 Z\"/><path class=\"p2\" d=\"M8 10 L9.5 12.5 M12 10 L13.5 12.5 M16 10 L17 11.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"18\" rx=\"3.5\" ry=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 1000 }
+  ]
+}

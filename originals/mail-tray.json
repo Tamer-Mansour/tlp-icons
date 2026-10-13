@@ -1,0 +1,11 @@
+{
+  "name": "mail-tray",
+  "category": "communication",
+  "tags": ["mail", "tray", "inbox", "envelope", "letters", "incoming"],
+  "svg": "<path class=\"p1\" d=\"M3 14h4l2 3h6l2-3h4\"/><path class=\"d p2\" d=\"M3 14l2-9h14l2 9v5H3z\"/><rect class=\"p3\" x=\"8\" y=\"6\" width=\"8\" height=\"5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 800 }
+  ]
+}

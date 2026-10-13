@@ -1,0 +1,11 @@
+{
+  "name": "data-timer",
+  "category": "security",
+  "tags": ["security", "data", "timer", "database", "countdown", "expiry"],
+  "svg": "<ellipse class=\"p1\" cx=\"8\" cy=\"5\" rx=\"5\" ry=\"2.5\"/><path class=\"p1\" d=\"M3 5 V19 A5 2.5 0 0 0 13 19 V5\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"17\" r=\"3.5\"/><line class=\"p3\" x1=\"18.5\" y1=\"17\" x2=\"18.5\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1200, "origin": "18.5px 17px" }
+  ]
+}

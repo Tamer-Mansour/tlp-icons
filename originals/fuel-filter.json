@@ -1,0 +1,11 @@
+{
+  "name": "fuel-filter",
+  "category": "vehicles",
+  "tags": ["fuel", "filter", "gas", "canister", "drip"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 9 H15 M9 12.5 H15\"/><path class=\"p3\" d=\"M12 17.5 C10.5 19.2 10 19.8 10 20 A2 2 0 0 0 14 20 C14 19.8 13.5 19.2 12 17.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1100 }
+  ]
+}

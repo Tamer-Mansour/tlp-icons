@@ -1,0 +1,10 @@
+{
+  "name": "half-circle",
+  "category": "shapes",
+  "tags": ["semicircle", "half", "arc", "dome", "base"],
+  "svg": "<path class=\"d p1\" d=\"M3 16A9 9 0 0 1 21 16z\"/><path class=\"p2\" d=\"M2 16h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

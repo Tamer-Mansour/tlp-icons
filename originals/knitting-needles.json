@@ -1,0 +1,11 @@
+{
+  "name": "knitting-needles",
+  "category": "home",
+  "tags": ["knitting needles", "knitting", "yarn", "wool", "craft"],
+  "svg": "<path class=\"p1\" d=\"M4 20L15 5\"/><path class=\"p2\" d=\"M9 21L20 6\"/><circle class=\"d p3\" cx=\"6\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

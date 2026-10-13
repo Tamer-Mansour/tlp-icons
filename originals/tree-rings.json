@@ -1,0 +1,10 @@
+{
+  "name": "tree-rings",
+  "category": "nature",
+  "tags": ["tree", "rings", "wood", "growth", "age"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

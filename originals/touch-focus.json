@@ -1,0 +1,11 @@
+{
+  "name": "touch-focus",
+  "category": "photography",
+  "tags": ["touch", "focus", "tap", "screen", "camera"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M8 9V7h2M14 7h2v2M16 13v2h-2M10 13H8v-2\"/><circle class=\"f p3\" cx=\"12\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1100 }
+  ]
+}

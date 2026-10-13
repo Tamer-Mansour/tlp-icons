@@ -1,0 +1,11 @@
+{
+  "name": "up-next-card",
+  "category": "interface",
+  "tags": ["next", "card", "queue", "arrow", "upcoming"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"4\" width=\"12\" height=\"16\" rx=\"2\"/><path class=\"p3\" d=\"M12.5 9H17.5M12.5 12H17.5M12.5 15H15.5\"/><path class=\"p2\" d=\"M3 12H7M5 10L7 12L5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

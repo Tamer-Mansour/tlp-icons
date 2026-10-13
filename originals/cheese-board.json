@@ -1,0 +1,11 @@
+{
+  "name": "cheese-board",
+  "category": "home",
+  "tags": ["cheese", "board", "serving", "wedge", "appetizer"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"14\" width=\"18\" height=\"5\" rx=\"1.5\"/><path class=\"d p2\" d=\"M5 14L12 8L19 14Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

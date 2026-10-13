@@ -1,0 +1,11 @@
+{
+  "name": "wireless-router",
+  "category": "devices",
+  "tags": ["router", "wireless", "wifi", "antenna", "signal", "network"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"13\" width=\"16\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M8 13V7M16 13V7\"/><path class=\"p3\" d=\"M9 4.5a3.5 3.5 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hard-hat-worker",
+  "category": "people",
+  "tags": ["hard hat", "construction", "helmet", "worker", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M4 15a8 8 0 0 1 16 0z\"/><path class=\"p2\" d=\"M2.5 15h19\"/><path class=\"p3\" d=\"M12 7v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1200, "origin": "bottom" }
+  ]
+}

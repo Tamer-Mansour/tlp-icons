@@ -1,0 +1,11 @@
+{
+  "name": "out-of-office",
+  "category": "people",
+  "tags": ["office", "away", "door", "leaving", "absent"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M1 20a5 5 0 0 1 10 0\"/><path class=\"p2\" d=\"M14 21V4h7v17z\"/><circle class=\"f p3\" cx=\"18\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

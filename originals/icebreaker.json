@@ -1,0 +1,11 @@
+{
+  "name": "icebreaker",
+  "category": "vehicles",
+  "tags": ["icebreaker", "ship", "ice", "arctic", "boat"],
+  "svg": "<path class=\"d p1\" d=\"M3 15h18l-3 5H6z\"/><polygon class=\"p2\" points=\"14,4 18,8 14,12 10,8\"/><polygon class=\"p3\" points=\"5,11 7,9 9,11 7,13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 1000, "delay": 1000 }
+  ]
+}

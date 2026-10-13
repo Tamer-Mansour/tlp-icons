@@ -1,0 +1,10 @@
+{
+  "name": "mask-layer",
+  "category": "interface",
+  "tags": ["mask", "layer", "cutout", "clipping", "alpha", "layers"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M12 7a5 5 0 0 1 5 5M12 17a5 5 0 0 1-5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "swimlane",
+  "category": "layout",
+  "tags": ["swimlane", "lanes", "board", "workflow", "process"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 12h19\"/><path class=\"p3\" d=\"M5 8h3M5 16h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1000 }
+  ]
+}

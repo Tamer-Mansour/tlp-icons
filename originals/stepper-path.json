@@ -1,0 +1,10 @@
+{
+  "name": "stepper-path",
+  "category": "arrows",
+  "tags": ["steps", "progress", "path", "nodes", "sequence"],
+  "svg": "<path class=\"p1\" d=\"M6 12h4M14 12h4\"/><circle class=\"p2\" cx=\"4\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"20\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 }
+  ]
+}

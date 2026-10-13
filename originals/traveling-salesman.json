@@ -1,0 +1,10 @@
+{
+  "name": "traveling-salesman",
+  "category": "math",
+  "tags": ["traveling salesman", "route", "loop", "optimization", "graph"],
+  "svg": "<polygon class=\"p1\" points=\"5 6 19 6 19 18 5 18\"/><circle class=\"f p2\" cx=\"5\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"18\" r=\"1.2\"/><circle class=\"f p2\" cx=\"5\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 300 }
+  ]
+}

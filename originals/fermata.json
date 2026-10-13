@@ -1,0 +1,10 @@
+{
+  "name": "fermata",
+  "category": "media",
+  "tags": ["fermata", "hold", "pause", "music", "notation", "rest"],
+  "svg": "<path class=\"p1\" d=\"M4 14a8 8 0 0 1 16 0\"/><circle class=\"f p2\" cx=\"12\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

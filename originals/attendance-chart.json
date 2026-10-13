@@ -1,0 +1,10 @@
+{
+  "name": "attendance-chart",
+  "category": "charts",
+  "tags": ["attendance", "people", "check", "roll", "count", "presence"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7\" r=\"2.5\"/><path class=\"p1\" d=\"M2 21v-4a4 4 0 0 1 8 0v4\"/><circle class=\"p1\" cx=\"13\" cy=\"7\" r=\"2.5\"/><path class=\"p1\" d=\"M9 21v-4a4 4 0 0 1 8 0v4\"/><path class=\"p2\" d=\"M17 6.5l2 2 3.5-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

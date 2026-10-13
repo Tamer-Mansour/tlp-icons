@@ -1,0 +1,10 @@
+{
+  "name": "window-resize",
+  "category": "interface",
+  "tags": ["resize", "window", "expand", "scale", "size"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 15L16 8M11.5 8H16V12.5M9 10.5V15H13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 800 }
+  ]
+}

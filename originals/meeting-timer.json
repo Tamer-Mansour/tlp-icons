@@ -1,0 +1,11 @@
+{
+  "name": "meeting-timer",
+  "category": "time",
+  "tags": ["meeting", "timer", "clock", "person", "agenda", "call"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M8.5 9v3.5l2 1.5\"/><circle class=\"p3\" cx=\"19\" cy=\"8\" r=\"2.5\"/><path class=\"p3\" d=\"M16.5 21v-3a2.5 2.5 0 0 1 5 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 700, "origin": "8.5px 12px" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1300 }
+  ]
+}

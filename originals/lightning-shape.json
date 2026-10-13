@@ -1,0 +1,10 @@
+{
+  "name": "lightning-shape",
+  "category": "shapes",
+  "tags": ["lightning", "bolt", "jagged", "energy", "power"],
+  "svg": "<polygon class=\"d p1\" points=\"13,2 5,13 11,13 10,22 19,11 13,11\"/><path class=\"p2\" d=\"M18 4L20.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 700, "delay": 800 }
+  ]
+}

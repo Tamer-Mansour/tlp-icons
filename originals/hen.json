@@ -1,0 +1,12 @@
+{
+  "name": "hen",
+  "category": "nature",
+  "tags": ["hen", "chicken", "farm", "bird", "comb", "poultry"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"6\" ry=\"4.5\"/><path class=\"p2\" d=\"M16.5 5.5 L17.5 4 L18.5 5.5\"/><circle class=\"p2\" cx=\"17\" cy=\"8\" r=\"2.5\"/><path class=\"p3\" d=\"M6 13 L3 9 L4 15\"/><path class=\"p4\" d=\"M10 18.5 V21 M13 18.5 V21\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1300, "origin": "8px 13px" }
+  ]
+}

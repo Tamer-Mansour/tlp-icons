@@ -1,0 +1,11 @@
+{
+  "name": "jump-arrow",
+  "category": "arrows",
+  "tags": ["jump", "hop", "leap", "arc", "bounce", "over"],
+  "svg": "<path class=\"p1\" d=\"M8 20h10\"/><path class=\"p2\" d=\"M4 16C6 6 16 6 18 16\"/><path class=\"p3\" d=\"M15 13l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "network-nodes",
+  "category": "science",
+  "tags": ["network", "nodes", "connected", "graph", "links", "system"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"5\" r=\"2.5\"/><circle class=\"p1\" cx=\"19\" cy=\"5\" r=\"2.5\"/><circle class=\"p1\" cx=\"5\" cy=\"19\" r=\"2.5\"/><circle class=\"p1\" cx=\"19\" cy=\"19\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><line class=\"p3\" x1=\"7\" y1=\"6.5\" x2=\"10.5\" y2=\"10.5\"/><line class=\"p3\" x1=\"17\" y1=\"6.5\" x2=\"13.5\" y2=\"10.5\"/><line class=\"p3\" x1=\"7\" y1=\"17.5\" x2=\"10.5\" y2=\"13.5\"/><line class=\"p3\" x1=\"17\" y1=\"17.5\" x2=\"13.5\" y2=\"13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

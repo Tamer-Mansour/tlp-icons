@@ -1,0 +1,10 @@
+{
+  "name": "triangle-tiles",
+  "category": "shapes",
+  "tags": ["triangle", "tiles", "grid", "pattern", "mosaic"],
+  "svg": "<path class=\"d p1\" d=\"M3 20l6-12 6 12z\"/><path class=\"d p2\" d=\"M9 8h12l-6 12z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 900 }
+  ]
+}

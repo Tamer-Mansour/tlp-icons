@@ -1,0 +1,11 @@
+{
+  "name": "margarita-glass",
+  "category": "food",
+  "tags": ["margarita", "glass", "cocktail", "rim", "tequila", "drink", "bar"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18l-9 9z\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"12\" y2=\"20\"/><line class=\"p3\" x1=\"8\" y1=\"20\" x2=\"16\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

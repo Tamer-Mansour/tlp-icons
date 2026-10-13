@@ -1,0 +1,11 @@
+{
+  "name": "snap-right",
+  "category": "layout",
+  "tags": ["snap", "right", "half", "split", "window", "arrange"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><rect class=\"d p2\" x=\"13\" y=\"4\" width=\"8\" height=\"16\"/><line class=\"p3\" x1=\"5\" y1=\"12\" x2=\"10\" y2=\"12\"/><polyline class=\"p3\" points=\"8,10 10,12 8,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

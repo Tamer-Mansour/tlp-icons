@@ -1,0 +1,11 @@
+{
+  "name": "piggy-bank-coin",
+  "category": "interface",
+  "tags": ["piggy", "bank", "savings", "coin", "money", "save"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"8\" ry=\"5.5\"/><path class=\"p1\" d=\"M19 11.5H21V14.5H19\"/><path class=\"p2\" d=\"M7 18.5V21M15 18.5V21\"/><path class=\"p3\" d=\"M8.5 9.5H12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

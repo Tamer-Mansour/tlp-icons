@@ -1,0 +1,12 @@
+{
+  "name": "spectator-binoculars",
+  "category": "people",
+  "tags": ["spectator", "binoculars", "watch", "view", "fan", "look"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"15\" r=\"4\"/><circle class=\"d p2\" cx=\"18\" cy=\"15\" r=\"4\"/><path class=\"p3\" d=\"M10 13 Q12 11 14 13\"/><path class=\"p4\" d=\"M9.5 8.5 A2.5 2.5 0 0 1 14.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "nod", "dur": 800, "delay": 1200 }
+  ]
+}

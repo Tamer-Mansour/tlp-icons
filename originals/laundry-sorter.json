@@ -1,0 +1,11 @@
+{
+  "name": "laundry-sorter",
+  "category": "home",
+  "tags": ["laundry", "sorter", "bins", "clothes", "divider", "washing"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M12 8V20\"/><path class=\"p3\" d=\"M6 6L8 3H10L12 6Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400, "origin": "top" },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

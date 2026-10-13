@@ -1,0 +1,10 @@
+{
+  "name": "average-mean",
+  "category": "charts",
+  "tags": ["average", "mean", "bars", "statistics", "baseline", "data"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"4\" height=\"11\"/><rect class=\"d p1\" x=\"10\" y=\"5\" width=\"4\" height=\"15\"/><rect class=\"d p1\" x=\"17\" y=\"14\" width=\"4\" height=\"6\"/><line class=\"p2\" x1=\"2\" y1=\"11\" x2=\"22\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

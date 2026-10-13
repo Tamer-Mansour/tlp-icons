@@ -1,0 +1,10 @@
+{
+  "name": "cctv-camera",
+  "category": "security",
+  "tags": ["cctv", "camera", "surveillance", "security", "video"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18M3 9h5\"/><path class=\"d p2\" d=\"M8 9h11l2 3-2 3H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sd-card-slot",
+  "category": "devices",
+  "tags": ["sd", "memory", "card", "storage", "slot", "contacts", "reader"],
+  "svg": "<path class=\"d p1\" d=\"M5 5 Q5 3 7 3 H15 L19 7 V19 Q19 21 17 21 H7 Q5 21 5 19 Z\"/><path class=\"p2\" d=\"M9 6 V9 M12 6 V9\"/><line class=\"p3\" x1=\"8\" y1=\"17\" x2=\"16\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pennant-shape",
+  "category": "shapes",
+  "tags": ["pennant", "flag", "pole", "triangle", "banner"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"3\" x2=\"5\" y2=\"21\"/><polygon class=\"p2\" points=\"5,4 19,8 5,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 600 }
+  ]
+}

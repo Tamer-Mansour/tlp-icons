@@ -1,0 +1,11 @@
+{
+  "name": "delaunay-mesh",
+  "category": "shapes",
+  "tags": ["delaunay", "mesh", "triangles", "network", "points"],
+  "svg": "<polygon class=\"p1\" points=\"4,19 12,4 20,19\"/><path class=\"p2\" d=\"M4 19L12 13L20 19M12 4V13\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

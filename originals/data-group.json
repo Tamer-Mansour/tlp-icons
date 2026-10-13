@@ -1,0 +1,10 @@
+{
+  "name": "data-group",
+  "category": "charts",
+  "tags": ["group", "cluster", "data", "sets", "categories"],
+  "svg": "<path class=\"p1\" d=\"M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2\"/><rect class=\"p2\" x=\"6\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

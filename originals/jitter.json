@@ -1,0 +1,10 @@
+{
+  "name": "jitter",
+  "category": "connectivity",
+  "tags": ["jitter", "zigzag", "unstable", "variation", "noise"],
+  "svg": "<polyline class=\"p1\" points=\"2,12 5,6 8,16 11,8\"/><polyline class=\"p2\" points=\"11,8 14,14 16,9 19,15 22,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 700 }
+  ]
+}

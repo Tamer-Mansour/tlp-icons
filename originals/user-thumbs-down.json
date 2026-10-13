@@ -1,0 +1,10 @@
+{
+  "name": "user-thumbs-down",
+  "category": "people",
+  "tags": ["user", "thumbs", "down", "dislike", "reject"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20c.5-3.5 3.1-5.5 6.5-5.5\"/><path class=\"p2\" d=\"M15 13h2.5l1.5 4.5c.6.3 1.8-.1 1.8-1.2L20.5 13H22V6h-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 800 }
+  ]
+}

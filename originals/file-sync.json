@@ -1,0 +1,11 @@
+{
+  "name": "file-sync",
+  "category": "connectivity",
+  "tags": ["file", "sync", "refresh", "document", "update", "cycle"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h7l3 3v11H4z\"/><path class=\"p2\" d=\"M19.5 14a3.5 3.5 0 0 0-6.5-1M13 10.5v2.5h2.5\"/><path class=\"p3\" d=\"M12.5 18a3.5 3.5 0 0 0 6.5 1M19 21.5v-2.5h-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "16px 16px" }
+  ]
+}

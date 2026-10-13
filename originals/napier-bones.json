@@ -1,0 +1,10 @@
+{
+  "name": "napier-bones",
+  "category": "math",
+  "tags": ["napier", "bones", "multiplication", "rods", "math"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"3\" height=\"18\" rx=\"0.5\"/><rect class=\"p1\" x=\"8\" y=\"3\" width=\"3\" height=\"18\" rx=\"0.5\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"3\" height=\"18\" rx=\"0.5\"/><rect class=\"p1\" x=\"18\" y=\"3\" width=\"3\" height=\"18\" rx=\"0.5\"/><path class=\"p2\" d=\"M3 9L6 6M8 9L11 6M13 9L16 6M18 9L21 6M3 15L6 12M8 15L11 12M13 15L16 12M18 15L21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

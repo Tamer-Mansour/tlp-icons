@@ -1,0 +1,11 @@
+{
+  "name": "trust-badge",
+  "category": "security",
+  "tags": ["security", "trust", "badge", "verified", "check", "approved"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><polyline class=\"p3\" points=\"8.5 15.5 7 21.5 9.5 20 12 22 14.5 20 17 21.5 15.5 15.5\"/><polyline class=\"p2\" points=\"9 10 11 12 15 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

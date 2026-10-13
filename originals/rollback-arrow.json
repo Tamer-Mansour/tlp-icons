@@ -1,0 +1,10 @@
+{
+  "name": "rollback-arrow",
+  "category": "development",
+  "tags": ["rollback", "revert", "undo", "restore", "arrow"],
+  "svg": "<rect class=\"d p2\" x=\"18\" y=\"11\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"18\" y=\"16\" width=\"4\" height=\"5\" rx=\"1\"/><path class=\"p1\" d=\"M8 5L4 9l4 4M4 9h8a4 4 0 0 1 0 8h-2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "retrace", "dur": 1000, "delay": 600 }
+  ]
+}

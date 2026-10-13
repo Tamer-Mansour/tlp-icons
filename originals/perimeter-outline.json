@@ -1,0 +1,10 @@
+{
+  "name": "perimeter-outline",
+  "category": "math",
+  "tags": ["perimeter", "outline", "boundary", "border", "measure", "shape"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"8\"/><rect class=\"p2\" x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "outline-indent",
+  "category": "layout",
+  "tags": ["outline", "indent", "list", "bullets", "nested", "levels", "items"],
+  "svg": "<path class=\"p1\" d=\"M7 6h14\"/><path class=\"p2\" d=\"M10 12h11M10 18h11\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"6\" r=\"1\"/><circle class=\"f p4\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p4\" cx=\"7\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

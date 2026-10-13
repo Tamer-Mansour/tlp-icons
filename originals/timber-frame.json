@@ -1,0 +1,10 @@
+{
+  "name": "timber-frame",
+  "category": "tools",
+  "tags": ["timber", "frame", "wood", "beam", "post", "carpentry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\"/><path class=\"p2\" d=\"M4 4l16 16M20 4L4 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

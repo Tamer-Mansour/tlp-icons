@@ -1,0 +1,10 @@
+{
+  "name": "carpet",
+  "category": "home",
+  "tags": ["carpet", "roll", "floor", "rug", "flooring", "textile"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"16\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M6 10v8q0 2 2 2h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

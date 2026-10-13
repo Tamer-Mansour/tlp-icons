@@ -1,0 +1,11 @@
+{
+  "name": "construction-crane-hook",
+  "category": "tools",
+  "tags": ["crane", "hook", "swivel", "lift", "construction", "rigging"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"7\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"2\"/><path class=\"p3\" d=\"M8 12v4a4 4 0 0 0 8 0v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 9px" }
+  ]
+}

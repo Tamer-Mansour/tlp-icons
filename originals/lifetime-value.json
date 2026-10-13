@@ -1,0 +1,11 @@
+{
+  "name": "lifetime-value",
+  "category": "charts",
+  "tags": ["lifetime", "value", "curve", "growth", "time", "customer"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"d p2\" d=\"M7 17c3 0 4-5 7-5s4-3 7-6V21H7z\"/><path class=\"p3\" d=\"M7 17c3 0 4-5 7-5s4-3 7-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1200 }
+  ]
+}

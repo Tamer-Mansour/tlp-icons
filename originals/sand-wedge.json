@@ -1,0 +1,10 @@
+{
+  "name": "sand-wedge",
+  "category": "sport",
+  "tags": ["golf", "wedge", "club", "sand", "bunker", "sports"],
+  "svg": "<path class=\"d p1\" d=\"M4 19h16l-2-6H10z\"/><path class=\"p2\" d=\"M13 13l4-10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 600, "origin": "13px 13px" }
+  ]
+}

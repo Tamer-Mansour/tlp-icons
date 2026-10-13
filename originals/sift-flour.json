@@ -1,0 +1,10 @@
+{
+  "name": "sift-flour",
+  "category": "food",
+  "tags": ["sift", "flour", "sieve", "baking", "dust"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H21 M6 8 L8 17 H16 L18 8\"/><circle class=\"f p2\" cx=\"10\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 800 }
+  ]
+}

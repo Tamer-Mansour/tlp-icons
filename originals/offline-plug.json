@@ -1,0 +1,11 @@
+{
+  "name": "offline-plug",
+  "category": "interface",
+  "tags": ["plug", "offline", "disconnected", "power", "unplug", "electric"],
+  "svg": "<path class=\"p1\" d=\"M6 7h12v5a6 6 0 0 1-12 0z\"/><path class=\"p2\" d=\"M9 3v4M15 3v4M12 18v3\"/><path class=\"p3\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "double-slit",
+  "category": "science",
+  "tags": ["physics", "double slit", "light", "gap", "interference", "barrier"],
+  "svg": "<path class=\"p1\" d=\"M12 3v5M12 10v4M12 16v5\"/><path class=\"p2\" d=\"M3 12h6\"/><path class=\"p3\" d=\"M12 9l8-3M12 15l8 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

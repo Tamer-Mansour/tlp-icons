@@ -1,0 +1,11 @@
+{
+  "name": "ssd",
+  "category": "development",
+  "tags": ["ssd", "solid state drive", "storage", "flash", "chip"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><rect class=\"d p2\" x=\"13\" y=\"10\" width=\"4\" height=\"4\" rx=\".5\"/><path class=\"p3\" d=\"M6 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 600, "delay": 1000 }
+  ]
+}

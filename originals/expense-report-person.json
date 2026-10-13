@@ -1,0 +1,11 @@
+{
+  "name": "expense-report-person",
+  "category": "people",
+  "tags": ["expense", "report", "receipt", "spending", "claim", "person"],
+  "svg": "<path class=\"d p1\" d=\"M6 3H18V21L16 19.5L14 21L12 19.5L10 21L8 19.5L6 21Z\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M9 13.5H15M9 16H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 600, "delay": 1000 }
+  ]
+}

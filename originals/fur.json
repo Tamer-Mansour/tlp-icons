@@ -1,0 +1,10 @@
+{
+  "name": "fur",
+  "category": "nature",
+  "tags": ["fur", "hair", "coat", "animal", "tuft", "pelt"],
+  "svg": "<path class=\"p1\" d=\"M4 20 Q4 16 8 16 H16 Q20 16 20 20\"/><path class=\"p2\" d=\"M9 16 Q7 12 9 8 M12 16 Q10 12 12 7 M15 16 Q13 12 15 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 500, "origin": "12px 16px" }
+  ]
+}

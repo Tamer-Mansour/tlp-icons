@@ -1,0 +1,11 @@
+{
+  "name": "brain-gears",
+  "category": "science",
+  "tags": ["brain", "gears", "thinking", "mind", "logic", "cognition"],
+  "svg": "<path class=\"p1\" d=\"M14 10a5 5 0 1 0-10 0a5 5 0 1 0 10 0ZM16 10h-2M13.95 14.95l-1.41-1.41M9 15v2M4.05 14.95l1.41-1.41M2 10h2M4.05 5.05l1.41 1.41M9 5V3M13.95 5.05l-1.41 1.41\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1.5\"/><path class=\"p3\" d=\"M20.5 18a2.5 2.5 0 1 0-5 0a2.5 2.5 0 1 0 5 0ZM18 15.5v-1.5M18 20.5v1.5M15.5 18h-1.5M20.5 18h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1200, "origin": "18px 18px" }
+  ]
+}

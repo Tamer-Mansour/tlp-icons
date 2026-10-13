@@ -1,0 +1,10 @@
+{
+  "name": "raincoat",
+  "category": "weather",
+  "tags": ["raincoat", "jacket", "rain", "hood", "clothing"],
+  "svg": "<path class=\"d p1\" d=\"M8 4L12 7L16 4L20 8L18 11V21H6V11L4 8Z\"/><path class=\"p2\" d=\"M12 7V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

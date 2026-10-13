@@ -1,0 +1,11 @@
+{
+  "name": "drive-mode",
+  "category": "vehicles",
+  "tags": ["drive", "mode", "dial", "select", "gear", "setting"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 6v1.5M6 12h1.5M16.5 12H18\"/><path class=\"p3\" d=\"M12 12l4-4M13 8h3v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

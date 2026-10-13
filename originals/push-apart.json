@@ -1,0 +1,11 @@
+{
+  "name": "push-apart",
+  "category": "arrows",
+  "tags": ["push", "apart", "blocks", "separate", "outward", "shove"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"13\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M8 12H3M5 10l-2 2 2 2M16 12h5M19 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 700 }
+  ]
+}

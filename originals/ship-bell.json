@@ -1,0 +1,11 @@
+{
+  "name": "ship-bell",
+  "category": "vehicles",
+  "tags": ["bell", "ship", "ring", "alarm", "clapper", "bracket"],
+  "svg": "<path class=\"d p1\" d=\"M7 16v-5a5 5 0 0 1 10 0v5l2 2H5z\"/><path class=\"p2\" d=\"M10 2h4M12 2v2\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 1200, "origin": "12px 2px" }
+  ]
+}

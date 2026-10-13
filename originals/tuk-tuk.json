@@ -1,0 +1,11 @@
+{
+  "name": "tuk-tuk",
+  "category": "vehicles",
+  "tags": ["tuk-tuk", "auto", "rickshaw", "taxi", "cab", "vehicle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 9 L7 4 H15 L17 9\"/><circle class=\"p3\" cx=\"7\" cy=\"18.5\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

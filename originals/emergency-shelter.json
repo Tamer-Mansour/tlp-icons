@@ -1,0 +1,10 @@
+{
+  "name": "emergency-shelter",
+  "category": "weather",
+  "tags": ["shelter", "emergency", "house", "safe", "refuge", "cross"],
+  "svg": "<path class=\"d p1\" d=\"M4 11l8-7 8 7v9H4z\"/><path class=\"p2\" d=\"M12 10v6M9 13h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

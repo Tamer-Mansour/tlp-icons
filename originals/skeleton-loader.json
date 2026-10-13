@@ -1,0 +1,11 @@
+{
+  "name": "skeleton-loader",
+  "category": "interface",
+  "tags": ["skeleton", "placeholder", "loading", "text", "content"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M13 7H20M13 11H17\"/><path class=\"p3\" d=\"M4 17H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "dim", "dur": 900, "delay": 900 }
+  ]
+}

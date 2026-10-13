@@ -1,0 +1,11 @@
+{
+  "name": "virus-capsid",
+  "category": "science",
+  "tags": ["biology", "virus", "capsid", "microbe", "science"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 19 7 19 17 12 21 5 17 5 7\"/><path class=\"p2\" d=\"M5 7l7 5 7-5M12 12v5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

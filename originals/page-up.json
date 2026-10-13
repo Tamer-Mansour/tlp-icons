@@ -1,0 +1,10 @@
+{
+  "name": "page-up",
+  "category": "arrows",
+  "tags": ["page", "up", "scroll", "previous", "keyboard", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M12 7V2.5M9.5 5 12 2.5 14.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

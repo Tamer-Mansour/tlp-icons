@@ -1,0 +1,11 @@
+{
+  "name": "traffic-sources",
+  "category": "charts",
+  "tags": ["traffic", "sources", "arrows", "converge", "visitors", "flow"],
+  "svg": "<path class=\"p1\" d=\"M3 5L9 12M3 19L9 12M3 12H9\"/><circle class=\"d p2\" cx=\"14\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M18 12H21M19 9L21 12L19 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

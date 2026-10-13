@@ -1,0 +1,10 @@
+{
+  "name": "trail-path",
+  "category": "arrows",
+  "tags": ["trail", "footprints", "path", "walk", "track", "route"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"18\" r=\"1\"/><circle class=\"f p1\" cx=\"8.5\" cy=\"15\" r=\"1\"/><circle class=\"f p1\" cx=\"12.5\" cy=\"13.5\" r=\"1\"/><circle class=\"f p1\" cx=\"16\" cy=\"10\" r=\"1\"/><circle class=\"d p2\" cx=\"18\" cy=\"5.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 700 }
+  ]
+}

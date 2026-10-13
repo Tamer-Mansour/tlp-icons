@@ -1,0 +1,11 @@
+{
+  "name": "trailer-home",
+  "category": "buildings",
+  "tags": ["trailer", "mobile", "home", "caravan", "hitch", "wheels"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"14\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M6 8h4v3H6zM17 10h4\"/><circle class=\"p3\" cx=\"7\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"15\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 1000 }
+  ]
+}

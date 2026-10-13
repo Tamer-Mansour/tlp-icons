@@ -1,0 +1,10 @@
+{
+  "name": "soil-auger",
+  "category": "science",
+  "tags": ["soil", "auger", "drill", "earth", "sample", "geology", "tool"],
+  "svg": "<path class=\"p1\" d=\"M4 3h16M12 3v11\"/><path class=\"d p2\" d=\"M12 14l3 4-3 4-3-4z\"/><path class=\"p2\" d=\"M9.5 17.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dig", "dur": 900, "delay": 800 }
+  ]
+}

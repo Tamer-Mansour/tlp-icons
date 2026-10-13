@@ -1,0 +1,10 @@
+{
+  "name": "d8",
+  "category": "sport",
+  "tags": ["d8", "dice", "octahedron", "polyhedron", "roll", "game"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 21,12 12,22 3,12\"/><path class=\"p2\" d=\"M3 12L12 9L21 12M12 9V2M12 9V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

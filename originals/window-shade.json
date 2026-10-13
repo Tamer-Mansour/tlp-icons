@@ -1,0 +1,11 @@
+{
+  "name": "window-shade",
+  "category": "home",
+  "tags": ["window shade", "blind", "window", "roller shade", "privacy"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"d p2\" d=\"M4 3h16v6H4z\"/><path class=\"p3\" d=\"M3 9h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 1000 }
+  ]
+}

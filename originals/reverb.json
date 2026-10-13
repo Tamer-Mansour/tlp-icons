@@ -1,0 +1,11 @@
+{
+  "name": "reverb",
+  "category": "media",
+  "tags": ["reverb", "decay", "wave", "audio", "ripple"],
+  "svg": "<circle class=\"f p3\" cx=\"4\" cy=\"12\" r=\"1.2\"/><path class=\"p1\" d=\"M9 8a6 6 0 0 1 0 8\"/><path class=\"p2\" d=\"M14 5a9.5 9.5 0 0 1 0 14\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

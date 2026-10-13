@@ -1,0 +1,12 @@
+{
+  "name": "yoga-pose",
+  "category": "people",
+  "tags": ["yoga", "pose", "tree", "balance", "stretch", "fitness"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"2\"/><path class=\"p2\" d=\"M12 9.5v7\"/><path class=\"p3\" d=\"M12 11l-4-5M12 11l4-5\"/><path class=\"p4\" d=\"M12 16.5l-2.5 5.5M12 16.5l3 2.5-2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 1200, "origin": "bottom" }
+  ]
+}

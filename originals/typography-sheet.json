@@ -1,0 +1,11 @@
+{
+  "name": "typography-sheet",
+  "category": "files",
+  "tags": ["typography", "baseline", "letter", "sheet", "type"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"1\"/><path class=\"p2\" d=\"M7 15l4-9 4 9M8.5 12.5h5\"/><line class=\"p3\" x1=\"4\" y1=\"18\" x2=\"20\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1000 }
+  ]
+}

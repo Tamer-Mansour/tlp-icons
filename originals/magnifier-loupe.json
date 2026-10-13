@@ -1,0 +1,11 @@
+{
+  "name": "magnifier-loupe",
+  "category": "devices",
+  "tags": ["magnifier", "loupe", "search", "zoom", "lens", "inspect"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M15 15L21 21\"/><path class=\"p3\" d=\"M6.5 8.5A4 4 0 0 1 9 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1100 }
+  ]
+}

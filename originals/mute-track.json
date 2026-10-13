@@ -1,0 +1,11 @@
+{
+  "name": "mute-track",
+  "category": "media",
+  "tags": ["mute", "track", "speaker", "audio", "silence", "sound"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"d p2\" d=\"M5 10h2.5L11 7.5v9L7.5 14H5z\"/><line class=\"p3\" x1=\"14\" y1=\"9.5\" x2=\"19\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

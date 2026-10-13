@@ -1,0 +1,10 @@
+{
+  "name": "file-bookmark",
+  "category": "files",
+  "tags": ["file", "bookmark", "saved", "ribbon", "mark", "document"],
+  "svg": "<path class=\"d p1\" d=\"M4 2.5h9.5L18 7v14H4z\"/><path class=\"p2\" d=\"M14 2.5h5v8l-2.5-2-2.5 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

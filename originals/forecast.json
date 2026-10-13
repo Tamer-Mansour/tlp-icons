@@ -1,0 +1,11 @@
+{
+  "name": "forecast",
+  "category": "weather",
+  "tags": ["forecast", "sun", "cloud", "outlook", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"7\" r=\"2.5\"/><path class=\"d p2\" d=\"M9 19H18A3.5 3.5 0 0 0 18 12A5 5 0 0 0 9 13A3 3 0 0 0 9 19Z\"/><path class=\"p3\" d=\"M20 3V7M18.5 4.5L20 3L21.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

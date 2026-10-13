@@ -1,0 +1,10 @@
+{
+  "name": "progress-bar-line",
+  "category": "interface",
+  "tags": ["progress", "bar", "loading", "percent", "status"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"20\" height=\"6\" rx=\"3\"/><rect class=\"d p2\" x=\"2\" y=\"9\" width=\"10\" height=\"6\" rx=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "refill", "dur": 1000, "delay": 500, "origin": "left" }
+  ]
+}

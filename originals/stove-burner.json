@@ -1,0 +1,11 @@
+{
+  "name": "stove-burner",
+  "category": "home",
+  "tags": ["stove", "burner", "cook", "heat", "hob"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M9 2.5v1.5M12 2.5v1.5M15 2.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

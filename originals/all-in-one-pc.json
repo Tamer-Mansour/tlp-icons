@@ -1,0 +1,11 @@
+{
+  "name": "all-in-one-pc",
+  "category": "devices",
+  "tags": ["all-in-one", "pc", "computer", "monitor", "desktop", "display"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M12 16v3M8.5 21h7\"/><path class=\"p3\" d=\"M6 9.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1200 }
+  ]
+}

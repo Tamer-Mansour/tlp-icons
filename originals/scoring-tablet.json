@@ -1,0 +1,11 @@
+{
+  "name": "scoring-tablet",
+  "category": "sport",
+  "tags": ["scoring", "tablet", "score", "display", "results"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"7\" y1=\"7.5\" x2=\"17\" y2=\"7.5\"/><path class=\"p3\" d=\"M7 11H11V15H7ZM13 11H17V15H13Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flip", "dur": 600, "delay": 1200 }
+  ]
+}

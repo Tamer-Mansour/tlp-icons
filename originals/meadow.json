@@ -1,0 +1,11 @@
+{
+  "name": "meadow",
+  "category": "buildings",
+  "tags": ["meadow", "grass", "field", "flower", "nature", "wildflower"],
+  "svg": "<path class=\"p1\" d=\"M5 21L4 12M9 21l1-8M16 21l-1-7M19 21l1-5\"/><path class=\"p2\" d=\"M12 21v-9\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

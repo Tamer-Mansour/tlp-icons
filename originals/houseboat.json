@@ -1,0 +1,11 @@
+{
+  "name": "houseboat",
+  "category": "vehicles",
+  "tags": ["houseboat", "boat", "cabin", "home", "water", "canal"],
+  "svg": "<path class=\"d p1\" d=\"M3 15h18l-2.5 4H5.5z\"/><path class=\"p2\" d=\"M6 15V9h12v6\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"0.9\"/><circle class=\"f p3\" cx=\"15\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

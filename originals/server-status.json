@@ -1,0 +1,10 @@
+{
+  "name": "server-status",
+  "category": "development",
+  "tags": ["server", "status", "health", "monitor", "uptime", "pulse"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><polyline class=\"p2\" points=\"6,12 9,12 10.5,8 13.5,16 15,12 18,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

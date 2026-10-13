@@ -1,0 +1,11 @@
+{
+  "name": "step-up-ring",
+  "category": "photography",
+  "tags": ["step up ring", "adapter", "lens", "filter size", "accessory", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"17\" r=\"2.5\"/><circle class=\"d p2\" cx=\"15\" cy=\"10\" r=\"5\"/><path class=\"p3\" d=\"M3 9L8 4M4.5 4H8v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 1000 }
+  ]
+}

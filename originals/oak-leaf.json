@@ -1,0 +1,10 @@
+{
+  "name": "oak-leaf",
+  "category": "nature",
+  "tags": ["oak leaf", "oak", "leaf", "tree", "autumn", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 Q14 5 14 7 Q17 6 18 9 Q21 10 19 13 Q21 15 18 17 Q15 17 13 21 L12 19 L11 21 Q9 17 6 17 Q3 15 5 13 Q3 10 6 9 Q7 6 10 7 Q10 5 12 3 Z\"/><line class=\"p2\" x1=\"12\" y1=\"19\" x2=\"12\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fork-road",
+  "category": "vehicles",
+  "tags": ["fork", "road", "split", "junction", "path", "direction"],
+  "svg": "<path class=\"p1\" d=\"M12 21V13\"/><path class=\"p2\" d=\"M12 13L5 4\"/><path class=\"p3\" d=\"M12 13L19 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

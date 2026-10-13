@@ -1,0 +1,11 @@
+{
+  "name": "net-post",
+  "category": "sport",
+  "tags": ["net", "post", "volleyball", "tennis", "court"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><path class=\"p2\" d=\"M4 9H20\"/><line class=\"p3\" x1=\"7\" y1=\"20\" x2=\"17\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1200 }
+  ]
+}

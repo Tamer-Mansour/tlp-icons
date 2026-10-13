@@ -1,0 +1,11 @@
+{
+  "name": "airbrush",
+  "category": "design",
+  "tags": ["airbrush", "spray", "paint", "nozzle", "mist", "art", "spray paint"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"10\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M13 10.5h4\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"6.5\" r=\"1\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"10.5\" r=\"1\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

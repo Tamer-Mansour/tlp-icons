@@ -1,0 +1,11 @@
+{
+  "name": "traffic-flow-arrows",
+  "category": "arrows",
+  "tags": ["traffic", "flow", "lanes", "direction", "road"],
+  "svg": "<path class=\"p1\" d=\"M3 5 H18 M15.5 2.5 L18 5 L15.5 7.5\"/><path class=\"p2\" d=\"M3 12 H18 M15.5 9.5 L18 12 L15.5 14.5\"/><path class=\"p3\" d=\"M3 19 H18 M15.5 16.5 L18 19 L15.5 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

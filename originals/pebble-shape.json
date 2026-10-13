@@ -1,0 +1,10 @@
+{
+  "name": "pebble-shape",
+  "category": "shapes",
+  "tags": ["pebble", "stone", "rock", "nature", "round"],
+  "svg": "<path class=\"d p1\" d=\"M6 6 C10 3 17 4 19 8 C21 12 20 18 15 19 C10 21 4 19 4 13 C4 10 4 8 6 6 Z\"/><path class=\"p2\" d=\"M8 11 C9 9.5 11 9 13 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

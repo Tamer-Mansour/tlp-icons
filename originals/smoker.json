@@ -1,0 +1,12 @@
+{
+  "name": "smoker",
+  "category": "food",
+  "tags": ["smoker", "smoke", "chimney", "meat", "bbq"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"9\" rx=\"3\"/><path class=\"p2\" d=\"M16 11V7H19V4\"/><path class=\"p3\" d=\"M8 8C6 6 9 4 7 2\"/><path class=\"p4\" d=\"M8 16H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000, "origin": "8px 8px" },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1400 }
+  ]
+}

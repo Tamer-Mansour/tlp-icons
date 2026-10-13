@@ -1,0 +1,11 @@
+{
+  "name": "outbox-tray",
+  "category": "files",
+  "tags": ["outbox", "tray", "send", "sent", "upload"],
+  "svg": "<path class=\"p1 d\" d=\"M3 13h18v7H3z\"/><line class=\"p2\" x1=\"12\" y1=\"10\" x2=\"12\" y2=\"4\"/><polyline class=\"p3\" points=\"8 8 12 4 16 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 1200 }
+  ]
+}

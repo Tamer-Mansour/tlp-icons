@@ -1,0 +1,14 @@
+{
+  "name": "cuckoo",
+  "category": "nature",
+  "tags": ["cuckoo", "bird", "long tail", "hooked beak", "perched", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"11\" rx=\"5.5\" ry=\"3.5\"/><polygon class=\"p2\" points=\"6,12.5 3,18.5 5,19 8,14\"/><circle class=\"p3\" cx=\"15\" cy=\"8\" r=\"2.5\"/><path class=\"p4\" d=\"M17.5 7.5Q21 7 20 10.5\"/><circle class=\"f p5\" cx=\"15.5\" cy=\"7.5\" r=\"0.8\"/><path class=\"p6\" d=\"M3 21H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p6", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p5", "anim": "blink", "dur": 300, "delay": 1100 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1300, "origin": "6px 13px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "insert-caret",
+  "category": "text",
+  "tags": ["insert", "caret", "cursor", "text", "add", "type"],
+  "svg": "<path class=\"p1\" d=\"M3 18 H11\"/><path class=\"p2\" d=\"M14 13 L16.5 8 L19 13\"/><path class=\"p3\" d=\"M16.5 15 V21 M13.5 18 H19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

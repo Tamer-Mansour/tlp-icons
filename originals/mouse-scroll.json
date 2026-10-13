@@ -1,0 +1,10 @@
+{
+  "name": "mouse-scroll",
+  "category": "arrows",
+  "tags": ["mouse", "scroll", "wheel", "computer", "input", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"6\"/><path class=\"p2\" d=\"M10 8.5l2-2 2 2M10 11.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "scan", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "grid-isometric",
+  "category": "design",
+  "tags": ["isometric", "grid", "hexagon", "3d", "pattern", "layout"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L20.5 8V16L12 21L3.5 16V8Z\"/><path class=\"p2\" d=\"M12 12V21M12 12L3.5 8M12 12L20.5 8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 900 }
+  ]
+}

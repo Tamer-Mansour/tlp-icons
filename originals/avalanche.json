@@ -1,0 +1,10 @@
+{
+  "name": "avalanche",
+  "category": "nature",
+  "tags": ["avalanche", "snow", "slide", "mountain", "slope"],
+  "svg": "<path class=\"p1\" d=\"M3 6l6 4 6 10\"/><rect class=\"p2\" x=\"11\" y=\"3\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"16\" y=\"8\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 800, "delay": 700 }
+  ]
+}

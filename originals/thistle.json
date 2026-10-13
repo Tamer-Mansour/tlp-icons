@@ -1,0 +1,11 @@
+{
+  "name": "thistle",
+  "category": "nature",
+  "tags": ["thistle", "flower", "spiky", "prickly", "plant"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"4\"/><path class=\"p2\" d=\"M12 2v2M7 4l1 1.5M17 4l-1 1.5M3.5 9h2M18.5 9h2\"/><path class=\"p3\" d=\"M12 13v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1100 }
+  ]
+}

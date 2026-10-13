@@ -1,0 +1,11 @@
+{
+  "name": "annotation-arrow",
+  "category": "design",
+  "tags": ["annotation", "arrow", "callout", "pointer", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M7 10.5C7 15 10 17 14 17M11.5 14.5 14 17l-2.5 2.5\"/><rect class=\"p3\" x=\"14\" y=\"13\" width=\"7\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 650 }
+  ]
+}

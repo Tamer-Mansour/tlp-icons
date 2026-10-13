@@ -1,0 +1,10 @@
+{
+  "name": "coaster-round",
+  "category": "shapes",
+  "tags": ["coaster", "round", "drink", "disc", "rim"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 900 }
+  ]
+}

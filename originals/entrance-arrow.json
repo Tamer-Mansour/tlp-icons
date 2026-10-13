@@ -1,0 +1,10 @@
+{
+  "name": "entrance-arrow",
+  "category": "arrows",
+  "tags": ["enter", "login", "door", "entrance", "sign in"],
+  "svg": "<path class=\"p1\" d=\"M13 3h7v18h-7\"/><path class=\"p2\" d=\"M3 12h7M7.5 9.5 10 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 600 }
+  ]
+}

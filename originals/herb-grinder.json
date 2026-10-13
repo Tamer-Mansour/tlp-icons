@@ -1,0 +1,10 @@
+{
+  "name": "herb-grinder",
+  "category": "food",
+  "tags": ["herb", "grinder", "spice", "kitchen", "mill"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"9\" x2=\"18\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "seismograph",
+  "category": "science",
+  "tags": ["seismograph", "seismic", "earthquake", "wave", "graph", "measure"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><polyline class=\"p2\" points=\"3,13 6,13 8,7 11,16 14,9 16,13 21,13\"/><circle class=\"f p3\" cx=\"21\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1200, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1500 }
+  ]
+}

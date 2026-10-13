@@ -1,0 +1,11 @@
+{
+  "name": "astronaut-person-helmet",
+  "category": "people",
+  "tags": ["astronaut", "helmet", "space", "person", "explorer", "mission"],
+  "svg": "<path class=\"p1\" d=\"M4.5 16V12a7.5 7.5 0 0 1 15 0v4z\"/><path class=\"d p2\" d=\"M7.5 9.5h9v2a2.5 2.5 0 0 1-2.5 2.5h-4A2.5 2.5 0 0 1 7.5 11.5z\"/><path class=\"p3\" d=\"M9.5 16v1.5h5V16M5 22c0-1.4 3-2.5 7-2.5s7 1.1 7 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 1100 }
+  ]
+}

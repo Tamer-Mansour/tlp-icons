@@ -1,0 +1,11 @@
+{
+  "name": "hammer-throw",
+  "category": "sport",
+  "tags": ["hammer", "throw", "wire", "athletics", "sport", "spin"],
+  "svg": "<circle class=\"d p1\" cx=\"17\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M15 7L7 17\"/><path class=\"p3\" d=\"M5 17.5l2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

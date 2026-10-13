@@ -1,0 +1,11 @@
+{
+  "name": "portrait-mode",
+  "category": "photography",
+  "tags": ["portrait", "mode", "blur", "person", "background", "depth", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"3.3\"/><path class=\"p2\" d=\"M6 19.5C6 16.2 8.7 14.5 12 14.5S18 16.2 18 19.5\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"3.5\" r=\"1\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"3.5\" r=\"1\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

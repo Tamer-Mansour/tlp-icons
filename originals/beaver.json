@@ -1,0 +1,11 @@
+{
+  "name": "beaver",
+  "category": "nature",
+  "tags": ["animal", "dam", "teeth", "river", "builder"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"8\"/><path class=\"p2\" d=\"M10.5 13.5v2h3v-2\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"11\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

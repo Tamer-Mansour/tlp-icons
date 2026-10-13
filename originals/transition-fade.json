@@ -1,0 +1,11 @@
+{
+  "name": "transition-fade",
+  "category": "media",
+  "tags": ["transition", "fade", "frames", "crossfade", "video", "scene"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/><rect class=\"p2\" x=\"13\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/><path class=\"p3\" d=\"M11 9L13 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sushi-bar",
+  "category": "buildings",
+  "tags": ["sushi", "roll", "chopsticks", "plate", "japanese", "food"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"18\" rx=\"9\" ry=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"10.5\" r=\"3\"/><path class=\"p3\" d=\"M15 2 L19 10 M18 2 L21 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100, "origin": "15px 10px" }
+  ]
+}

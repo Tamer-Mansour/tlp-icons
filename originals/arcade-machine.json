@@ -1,0 +1,12 @@
+{
+  "name": "arcade-machine",
+  "category": "sport",
+  "tags": ["arcade", "machine", "cabinet", "game", "joystick", "retro"],
+  "svg": "<path class=\"d p1\" d=\"M5 21V8A7 5 0 0 1 19 8V21Z\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M8 18V15.5\"/><circle class=\"f p3\" cx=\"8\" cy=\"13.5\" r=\"1.2\"/><circle class=\"f p4\" cx=\"13\" cy=\"16\" r=\"1.2\"/><circle class=\"f p4\" cx=\"16\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

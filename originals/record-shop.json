@@ -1,0 +1,11 @@
+{
+  "name": "record-shop",
+  "category": "buildings",
+  "tags": ["record", "shop", "vinyl", "music", "store", "door"],
+  "svg": "<path class=\"p1\" d=\"M4 21V4h16v17M3 21h18\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 8.5a3.5 3.5 0 0 1 3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 12px" }
+  ]
+}

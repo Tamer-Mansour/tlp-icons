@@ -1,0 +1,11 @@
+{
+  "name": "golf-rangefinder",
+  "category": "sport",
+  "tags": ["golf", "rangefinder", "binoculars", "target", "distance"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"15\" r=\"3.5\"/><circle class=\"d p1\" cx=\"17\" cy=\"15\" r=\"3.5\"/><path class=\"p2\" d=\"M7 12V9H17V12\"/><path class=\"p3\" d=\"M12 2V7M12 2L17 3.5L12 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 700, "delay": 900, "origin": "12px 5px" }
+  ]
+}

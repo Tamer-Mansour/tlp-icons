@@ -1,0 +1,11 @@
+{
+  "name": "logic-gate-or",
+  "category": "science",
+  "tags": ["logic", "gate", "or", "circuit", "digital", "boolean"],
+  "svg": "<path class=\"p1\" d=\"M6 4Q11 5 17.5 11Q11 17 6 18Q8.5 11 6 4Z\"/><path class=\"p2\" d=\"M2 8H6.8M2 14H6.8\"/><path class=\"p3\" d=\"M17.5 11H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

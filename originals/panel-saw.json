@@ -1,0 +1,10 @@
+{
+  "name": "panel-saw",
+  "category": "tools",
+  "tags": ["panel", "saw", "long", "sheet", "cutting"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M18 13L21 6h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

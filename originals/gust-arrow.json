@@ -1,0 +1,10 @@
+{
+  "name": "gust-arrow",
+  "category": "arrows",
+  "tags": ["gust", "wind", "sharp", "air", "quick", "blow"],
+  "svg": "<path class=\"p1\" d=\"M2 10c2-2 4-2 6 0s4 2 6 0\"/><path class=\"p2\" d=\"M14 10h6\"/><path class=\"p2\" d=\"M17 7.5 20 10l-3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 500, "delay": 700 }
+  ]
+}

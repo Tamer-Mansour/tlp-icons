@@ -1,0 +1,11 @@
+{
+  "name": "note-clock",
+  "category": "files",
+  "tags": ["note", "clock", "reminder", "schedule", "timed note"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"15\" height=\"17\" rx=\"2\"/><circle class=\"d p2\" cx=\"17\" cy=\"17\" r=\"4\"/><path class=\"p3\" d=\"M17 15v2l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "17px 17px" }
+  ]
+}

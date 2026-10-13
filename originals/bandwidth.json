@@ -1,0 +1,11 @@
+{
+  "name": "bandwidth",
+  "category": "development",
+  "tags": ["bandwidth", "pipe", "throughput", "transfer", "data", "two-way"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"4\"/><path class=\"p2\" d=\"M7 9.5h10M14.5 7.5l2.5 2-2.5 2\"/><path class=\"p3\" d=\"M17 14.5H7M9.5 12.5l-2.5 2 2.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "towel-warmer",
+  "category": "home",
+  "tags": ["towel", "warmer", "heated", "rail", "bathroom", "radiator"],
+  "svg": "<path class=\"p1\" d=\"M8 2 V22 M16 2 V22\"/><path class=\"p2\" d=\"M8 7 H16 M8 12 H16 M8 17 H16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "glow", "dur": 1000, "delay": 800 }
+  ]
+}

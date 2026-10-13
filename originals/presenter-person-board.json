@@ -1,0 +1,11 @@
+{
+  "name": "presenter-person-board",
+  "category": "people",
+  "tags": ["presenter", "board", "presentation", "chart", "teaching", "slides"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2.5\"/><path class=\"p1\" d=\"M2 20c0-2.8 1.8-4.8 4-4.8s4 2 4 4.8\"/><rect class=\"p2\" x=\"12\" y=\"3\" width=\"10\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M18 15v4.5M15 21h6\"/><polyline class=\"p3\" points=\"15,12 17.5,9.5 19.5,11 21,8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

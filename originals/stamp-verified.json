@@ -1,0 +1,11 @@
+{
+  "name": "stamp-verified",
+  "category": "security",
+  "tags": ["stamp", "verified", "approved", "seal", "certified"],
+  "svg": "<path class=\"p1\" d=\"M8 3h8v5H8z\"/><path class=\"d p2\" d=\"M4 14h16v6H4z\"/><polyline class=\"p3\" points=\"9.5 17 11.2 18.7 14.5 15.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

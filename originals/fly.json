@@ -1,0 +1,12 @@
+{
+  "name": "fly",
+  "category": "nature",
+  "tags": ["fly", "insect", "housefly", "pest", "wings", "bug"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"2.5\" ry=\"4.5\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M10.5 11 Q5 11 3.5 5 Q8 3.5 10.5 9.5 Z M13.5 11 Q19 11 20.5 5 Q16 3.5 13.5 9.5 Z\"/><path class=\"p4\" d=\"M9.5 15 L5 17 M9.5 18 L5 20 M14.5 15 L19 17 M14.5 18 L19 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "flutter", "dur": 600, "delay": 1400 }
+  ]
+}

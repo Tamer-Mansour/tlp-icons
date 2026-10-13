@@ -1,0 +1,11 @@
+{
+  "name": "animal-stethoscope",
+  "category": "nature",
+  "tags": ["animal", "stethoscope", "vet", "checkup", "paw", "health"],
+  "svg": "<path class=\"p1\" d=\"M5 3 V9 A4.5 4.5 0 0 0 14 9 V3\"/><path class=\"p2\" d=\"M9.5 13.5 V16 A4 4 0 0 0 17.5 16 V14\"/><circle class=\"d p3\" cx=\"20\" cy=\"11\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

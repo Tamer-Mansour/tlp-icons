@@ -1,0 +1,12 @@
+{
+  "name": "traffic-mirror",
+  "category": "connectivity",
+  "tags": ["traffic", "mirror", "copy", "sync", "replicate", "flow"],
+  "svg": "<path class=\"p1\" d=\"M3 9h7\"/><polyline class=\"p2\" points=\"7 6 10 9 7 12\"/><path class=\"p3\" d=\"M21 15h-7\"/><polyline class=\"p4\" points=\"17 12 14 15 17 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "monkey",
+  "category": "nature",
+  "tags": ["animal", "primate", "tail", "jungle", "banana"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"11\" r=\"7\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"13.5\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M16 17c3 0 5-1 5-4 0-2-2-2-2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

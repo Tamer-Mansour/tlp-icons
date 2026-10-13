@@ -1,0 +1,11 @@
+{
+  "name": "outdent-text",
+  "category": "design",
+  "tags": ["outdent", "indent", "text", "paragraph", "margin", "format", "left"],
+  "svg": "<path class=\"p1\" d=\"M10 5h11M10 9h11M10 13h11\"/><path class=\"p2\" d=\"M8 5H3M5 3L3 5l2 2\"/><path class=\"p3\" d=\"M3 17h18M3 21h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "treehouse",
+  "category": "buildings",
+  "tags": ["treehouse", "tree", "hut", "ladder", "treetop", "play"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"11\" width=\"9\" height=\"7\"/><path class=\"p2\" d=\"M2.5 11.5L8 6.5l5.5 5\"/><path class=\"p3\" d=\"M18 21.5V9.5M18 14l3-3M18 11l-3-3\"/><path class=\"p4\" d=\"M7 18v3.5M9.5 18v3.5M7 19.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

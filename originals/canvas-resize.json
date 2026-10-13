@@ -1,0 +1,10 @@
+{
+  "name": "canvas-resize",
+  "category": "design",
+  "tags": ["canvas", "resize", "corner", "scale", "frame", "handles"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M14 20h6v-6M20 20l-6-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 1000 }
+  ]
+}

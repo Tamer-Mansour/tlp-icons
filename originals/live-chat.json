@@ -1,0 +1,11 @@
+{
+  "name": "live-chat",
+  "category": "communication",
+  "tags": ["live", "chat", "online", "support", "realtime", "active"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/><circle class=\"f p2\" cx=\"8\" cy=\"8.5\" r=\"1.2\"/><circle class=\"p3\" cx=\"8\" cy=\"8.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

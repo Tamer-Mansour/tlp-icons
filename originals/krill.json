@@ -1,0 +1,11 @@
+{
+  "name": "krill",
+  "category": "nature",
+  "tags": ["krill", "shrimp", "plankton", "ocean", "marine", "tiny"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"6\" ry=\"3\" transform=\"rotate(-25 11 13)\"/><path class=\"p2\" d=\"M16 10l5-4M16 12l5 0\"/><circle class=\"f p3\" cx=\"15\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

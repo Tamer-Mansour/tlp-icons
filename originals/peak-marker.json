@@ -1,0 +1,10 @@
+{
+  "name": "peak-marker",
+  "category": "charts",
+  "tags": ["peak", "marker", "highest", "maximum", "trend"],
+  "svg": "<path class=\"p1\" d=\"M2 17L6 12L10 16L15 10L20 17\"/><polygon class=\"p2\" points=\"15,3 12,6 18,6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 800 }
+  ]
+}

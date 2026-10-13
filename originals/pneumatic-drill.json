@@ -1,0 +1,11 @@
+{
+  "name": "pneumatic-drill",
+  "category": "devices",
+  "tags": ["pneumatic", "drill", "air", "hose", "tool", "bit"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"9\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M10.5 8 V5 Q10.5 3 8.5 3 H3\"/><line class=\"p3\" x1=\"15\" y1=\"10.5\" x2=\"19.5\" y2=\"10.5\"/><path d=\"M7 13 L6 18 H10 L9 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

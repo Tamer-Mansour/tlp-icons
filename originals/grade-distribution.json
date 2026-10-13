@@ -1,0 +1,10 @@
+{
+  "name": "grade-distribution",
+  "category": "charts",
+  "tags": ["grade", "distribution", "bell", "curve", "scores", "statistics"],
+  "svg": "<path class=\"p1\" d=\"M2 19C6 19 7 5 12 5C17 5 18 19 22 19\"/><path class=\"p2\" d=\"M7 12v7M12 12v7M17 12v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 800, "origin": "bottom" }
+  ]
+}

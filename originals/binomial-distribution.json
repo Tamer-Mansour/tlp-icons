@@ -1,0 +1,11 @@
+{
+  "name": "binomial-distribution",
+  "category": "math",
+  "tags": ["binomial", "distribution", "histogram", "bars", "math"],
+  "svg": "<path class=\"p1\" d=\"M4.5 11h3v7h-3zM8.5 5h3v13h-3zM12.5 5h3v13h-3zM16.5 11h3v7h-3z\"/><path class=\"p2\" d=\"M3 18H21\"/><path class=\"p3\" d=\"M6 18v2M12 18v2M18 18v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

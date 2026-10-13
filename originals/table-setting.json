@@ -1,0 +1,11 @@
+{
+  "name": "table-setting",
+  "category": "food",
+  "tags": ["table", "setting", "fork", "knife", "plate"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4.5\"/><path class=\"p2\" d=\"M3 3 V9 Q3 11 4.5 11 Q6 11 6 9 V3 M4.5 11 V21\"/><path class=\"p3\" d=\"M20.5 3 V21 M20.5 3 Q18 5 18 10 H20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

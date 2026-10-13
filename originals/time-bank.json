@@ -1,0 +1,11 @@
+{
+  "name": "time-bank",
+  "category": "time",
+  "tags": ["bank", "coins", "clock", "savings", "time", "money"],
+  "svg": "<path class=\"d p1\" d=\"M5 14c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-2.5c0 1.4-3.1 2.5-7 2.5S5 12.9 5 11.5z\"/><path class=\"p1\" d=\"M5 14v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"3\"/><path class=\"p3\" d=\"M12 4.5V6h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1300, "origin": "12px 6px" }
+  ]
+}

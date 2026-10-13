@@ -1,0 +1,10 @@
+{
+  "name": "sparkling-water",
+  "category": "food",
+  "tags": ["sparkling", "water", "glass", "bubbles", "fizzy", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M6 8h12l-1.5 12h-9z\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"1.5\"/><circle class=\"p2\" cx=\"14\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "danger-skull",
+  "category": "security",
+  "tags": ["danger", "skull", "warning", "poison", "toxic"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 22,20 2,20\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><rect class=\"p2\" x=\"10\" y=\"12.5\" width=\"4\" height=\"2.5\" rx=\"0.8\"/><circle class=\"f p3\" cx=\"10.8\" cy=\"10\" r=\"0.6\"/><circle class=\"f p3\" cx=\"13.2\" cy=\"10\" r=\"0.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

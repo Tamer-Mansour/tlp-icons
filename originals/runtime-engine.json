@@ -1,0 +1,11 @@
+{
+  "name": "runtime-engine",
+  "category": "development",
+  "tags": ["runtime", "engine", "gear", "play", "execution", "motor"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2\"/><path class=\"d p3\" d=\"M10 9l5 3-5 3z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

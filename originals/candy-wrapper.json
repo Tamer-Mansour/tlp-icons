@@ -1,0 +1,10 @@
+{
+  "name": "candy-wrapper",
+  "category": "food",
+  "tags": ["food", "candy", "wrapper", "sweet", "twist", "treat"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"8\" width=\"7\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 12L3 8v8zM15.5 12L21 8v8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

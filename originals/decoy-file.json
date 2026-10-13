@@ -1,0 +1,10 @@
+{
+  "name": "decoy-file",
+  "category": "security",
+  "tags": ["decoy", "file", "document", "fake", "bait", "pages"],
+  "svg": "<path class=\"p1\" d=\"M5 5H13L17 9V19H5Z\"/><path class=\"d p2\" transform=\"rotate(12 12 12)\" d=\"M8 4H16L20 8V20H8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "zoom-in-arrows",
+  "category": "arrows",
+  "tags": ["zoom", "in", "enlarge", "outward", "magnify", "frame"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><polyline class=\"p2\" points=\"9 13 9 9 13 9\"/><line class=\"p2\" x1=\"9\" y1=\"9\" x2=\"5\" y2=\"5\"/><polyline class=\"p2\" points=\"15 11 15 15 11 15\"/><line class=\"p2\" x1=\"15\" y1=\"15\" x2=\"19\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 600 }
+  ]
+}

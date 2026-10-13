@@ -1,0 +1,11 @@
+{
+  "name": "balance-scale",
+  "category": "science",
+  "tags": ["balance", "scale", "weigh", "measure", "pans"],
+  "svg": "<path class=\"p1\" d=\"M4 7 H20\"/><path class=\"p2\" d=\"M12 4 V21 M8 21 H16\"/><path class=\"p3\" d=\"M4 7 L2 13 M4 7 L6 13 M2 13 Q4 16 6 13 M20 7 L18 13 M20 7 L22 13 M18 13 Q20 16 22 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

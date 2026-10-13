@@ -1,0 +1,10 @@
+{
+  "name": "handwriting",
+  "category": "text",
+  "tags": ["handwriting", "pen", "write", "script", "signature", "text"],
+  "svg": "<path class=\"p1\" d=\"M2.5 15 C4 9 6.5 9 7.5 14 C8.5 19 10 19 11 14 C12 9 14 9 15 14 C16 18.5 17.5 18.5 18.5 13 C19 10.5 20 10 21.5 11\"/><path class=\"p2\" d=\"M15 5.5 L20.5 3.5 L19.5 6.5 L17 8 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 1100 }
+  ]
+}

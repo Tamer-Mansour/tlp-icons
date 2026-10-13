@@ -1,0 +1,10 @@
+{
+  "name": "playhead",
+  "category": "media",
+  "tags": ["playhead", "timeline", "cursor", "marker", "video", "editing"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"21\"/><polygon class=\"d p2\" points=\"8,3 16,3 12,8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 }
+  ]
+}

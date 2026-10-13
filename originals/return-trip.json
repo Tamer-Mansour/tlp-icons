@@ -1,0 +1,11 @@
+{
+  "name": "return-trip",
+  "category": "arrows",
+  "tags": ["return", "trip", "round", "back", "route"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H17 M14 5 L17 8 L14 11\"/><path class=\"p2\" d=\"M17 14 Q17 18 13 18 H3\"/><path class=\"p3\" d=\"M6 15.5 L3 18 L6 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1200 }
+  ]
+}

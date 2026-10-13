@@ -1,0 +1,11 @@
+{
+  "name": "bike-share",
+  "category": "vehicles",
+  "tags": ["bike", "share", "rental", "bicycle", "cycle", "loop"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"15\" r=\"3\"/><circle class=\"p1\" cx=\"18\" cy=\"15\" r=\"3\"/><path class=\"p2\" d=\"M6 15L10 9.5H16L18 15M10 9.5L13 15H6\"/><path class=\"p3\" d=\"M4 8A8.5 8.5 0 0 1 19 6\"/><path class=\"p3\" d=\"M19 2.5V6H15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

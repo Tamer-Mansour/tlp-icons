@@ -1,0 +1,11 @@
+{
+  "name": "honey-dipper",
+  "category": "food",
+  "tags": ["honey", "dipper", "drip", "sweet", "kitchen"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V10\"/><path class=\"d p2\" d=\"M9 12 H15 V16 Q15 19 12 19 Q9 19 9 16 Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

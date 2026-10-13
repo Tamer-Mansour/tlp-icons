@@ -1,0 +1,11 @@
+{
+  "name": "kite",
+  "category": "sport",
+  "tags": ["kite", "wind", "fly", "diamond", "tail", "string"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L19 10L12 17L5 10Z\"/><path class=\"p2\" d=\"M5 10H19\"/><path class=\"p3\" d=\"M12 17Q14 19 12 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 800 }
+  ]
+}

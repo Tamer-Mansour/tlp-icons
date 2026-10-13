@@ -1,0 +1,11 @@
+{
+  "name": "thermal-printer",
+  "category": "devices",
+  "tags": ["printer", "thermal", "receipt", "paper", "heat", "print"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 10V4h8v6\"/><path class=\"p3\" d=\"M8 14h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

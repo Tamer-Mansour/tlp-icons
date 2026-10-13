@@ -1,0 +1,10 @@
+{
+  "name": "cool-badge",
+  "category": "emoji",
+  "tags": ["cool", "badge", "sunglasses", "tag", "label", "awesome"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"3\"/><circle class=\"p2\" cx=\"8.5\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"15.5\" cy=\"12\" r=\"2\"/><line class=\"p2\" x1=\"10.5\" y1=\"12\" x2=\"13.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

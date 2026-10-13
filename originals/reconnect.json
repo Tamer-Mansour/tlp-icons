@@ -1,0 +1,11 @@
+{
+  "name": "reconnect",
+  "category": "connectivity",
+  "tags": ["reconnect", "connection", "repair", "restore", "link", "retry"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"20\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M6 12H18\"/><path class=\"p3\" d=\"M9 9A4 4 0 0 1 15 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spinHalf", "dur": 800, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

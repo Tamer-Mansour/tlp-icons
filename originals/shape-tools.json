@@ -1,0 +1,12 @@
+{
+  "name": "shape-tools",
+  "category": "shapes",
+  "tags": ["tools", "shapes", "pen", "draw", "design"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7\" r=\"3.5\"/><polygon class=\"p2\" points=\"3,21 11,21 7,14\"/><rect class=\"p3\" x=\"14\" y=\"15\" width=\"7\" height=\"7\" rx=\"1\"/><path class=\"p4\" d=\"M16 3L21 8L17 12L12 7Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "tilt", "dur": 700, "delay": 900 }
+  ]
+}

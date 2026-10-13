@@ -1,0 +1,10 @@
+{
+  "name": "heart-alert",
+  "category": "notifications",
+  "tags": ["heart", "alert", "health", "warning", "care"],
+  "svg": "<path class=\"p1\" d=\"M12 20s-8-4.5-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 10-8 10z\"/><path class=\"p2\" d=\"M12 9.5v3\"/><circle class=\"f p2\" cx=\"12\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

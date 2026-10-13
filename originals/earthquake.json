@@ -1,0 +1,10 @@
+{
+  "name": "earthquake",
+  "category": "nature",
+  "tags": ["earthquake", "quake", "tremor", "seismic", "shake"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 8,16 10,19 12,13 14,19 16,16 22,16\"/><path class=\"p2\" d=\"M4 9l-1.5-1M20 9l1.5-1M12 6V3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

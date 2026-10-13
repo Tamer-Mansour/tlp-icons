@@ -1,0 +1,11 @@
+{
+  "name": "crown-top-bar",
+  "category": "charts",
+  "tags": ["crown", "top", "bar", "winner", "leader", "chart"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"11\" width=\"6\" height=\"10\"/><rect class=\"p2\" x=\"3\" y=\"15\" width=\"4\" height=\"6\"/><rect class=\"p2\" x=\"17\" y=\"17\" width=\"4\" height=\"4\"/><path class=\"d p3\" d=\"M8 9L10 6L12 8.5L14 6L16 9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 1000 }
+  ]
+}

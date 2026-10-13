@@ -1,0 +1,11 @@
+{
+  "name": "layered-arrows",
+  "category": "arrows",
+  "tags": ["layers", "parallel", "stack", "spread", "direction"],
+  "svg": "<path class=\"p1\" d=\"M3 5 H17 M13 1 L17 5 L13 9\"/><path class=\"p2\" d=\"M3 12 H17 M13 8 L17 12 L13 16\"/><path class=\"p3\" d=\"M3 19 H17 M13 15 L17 19 L13 23\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

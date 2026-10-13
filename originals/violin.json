@@ -1,0 +1,11 @@
+{
+  "name": "violin",
+  "category": "media",
+  "tags": ["violin", "strings", "bow", "orchestra", "instrument", "music"],
+  "svg": "<path class=\"d p1\" d=\"M9 11h6v2.2c1 .8 1.5 1.8 1.5 3.1 0 2.2-1.7 3.7-4.5 3.7s-4.5-1.5-4.5-3.7c0-1.3.5-2.3 1.5-3.1z\"/><path class=\"p2\" d=\"M12 11V3\"/><path class=\"p3\" d=\"M10.5 16.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 900, "delay": 1000 }
+  ]
+}

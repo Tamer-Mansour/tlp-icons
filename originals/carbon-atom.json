@@ -1,0 +1,10 @@
+{
+  "name": "carbon-atom",
+  "category": "science",
+  "tags": ["carbon", "atom", "bonds", "chemistry", "element"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 9 V3 M12 15 V21 M9 12 H3 M15 12 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

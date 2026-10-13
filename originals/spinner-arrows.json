@@ -1,0 +1,10 @@
+{
+  "name": "spinner-arrows",
+  "category": "arrows",
+  "tags": ["spinner", "stepper", "up", "down", "number", "adjust"],
+  "svg": "<path class=\"p1\" d=\"M12 3v6M9 6l3-3 3 3\"/><path class=\"p2\" d=\"M12 15v6M9 18l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 700 }
+  ]
+}

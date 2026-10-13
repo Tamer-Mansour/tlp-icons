@@ -1,0 +1,10 @@
+{
+  "name": "napkin",
+  "category": "food",
+  "tags": ["napkin", "fold", "tableware", "dining", "linen", "restaurant"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h18v18H3z\"/><path class=\"p2\" d=\"M3 15l6 6M21 9l-12 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

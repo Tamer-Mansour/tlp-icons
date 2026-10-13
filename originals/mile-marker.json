@@ -1,0 +1,12 @@
+{
+  "name": "mile-marker",
+  "category": "sport",
+  "tags": ["mile", "marker", "sign", "distance", "race", "road"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V21\"/><path class=\"d p2\" d=\"M12 4 H19 L17 6.5 L19 9 H12\"/><path class=\"p3\" d=\"M14.5 5.5 V7.5 M13.8 6.2 L14.5 5.5\"/><path class=\"p4\" d=\"M9 21 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 1100 }
+  ]
+}

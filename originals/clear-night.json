@@ -1,0 +1,10 @@
+{
+  "name": "clear-night",
+  "category": "weather",
+  "tags": ["clear", "night", "moon", "crescent", "star", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M14 4 A8 8 0 1 0 20 14 A6 6 0 0 1 14 4 Z\"/><path class=\"p2\" d=\"M18 2.5 V5.5 M16.5 4 H19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

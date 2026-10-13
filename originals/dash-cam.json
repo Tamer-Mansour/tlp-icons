@@ -1,0 +1,11 @@
+{
+  "name": "dash-cam",
+  "category": "devices",
+  "tags": ["dash", "cam", "camera", "car", "recording", "video"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"8\" rx=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M12 13v3M8 20h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

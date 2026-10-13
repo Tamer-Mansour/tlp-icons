@@ -1,0 +1,11 @@
+{
+  "name": "compass-nautical",
+  "category": "vehicles",
+  "tags": ["compass", "nautical", "navigation", "direction", "rose", "north", "sea"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5.5l2 6.5-2 6.5-2-6.5z\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900 }
+  ]
+}

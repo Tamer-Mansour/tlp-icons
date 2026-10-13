@@ -1,0 +1,11 @@
+{
+  "name": "growth-bars",
+  "category": "charts",
+  "tags": ["growth", "bars", "increase", "arrow", "trend"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"14\" width=\"3\" height=\"6\"/><rect class=\"p1\" x=\"7\" y=\"10\" width=\"3\" height=\"10\"/><rect class=\"p1\" x=\"12\" y=\"6\" width=\"3\" height=\"14\"/><path class=\"p2\" d=\"M17 7L21 3\"/><path class=\"p3\" d=\"M17 3H21V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

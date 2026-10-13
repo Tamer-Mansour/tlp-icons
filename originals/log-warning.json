@@ -1,0 +1,10 @@
+{
+  "name": "log-warning",
+  "category": "notifications",
+  "tags": ["log", "list", "warning", "triangle", "entries"],
+  "svg": "<path class=\"p1\" d=\"M11 6h10M11 12h10M11 18h10\"/><path class=\"d p2\" d=\"M5 3.5L8 9H2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

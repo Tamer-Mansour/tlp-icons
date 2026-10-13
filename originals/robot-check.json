@@ -1,0 +1,11 @@
+{
+  "name": "robot-check",
+  "category": "security",
+  "tags": ["robot", "check", "human", "verify", "captcha"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"8\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p1\" d=\"M12 8V4.5\"/><circle class=\"f p1\" cx=\"12\" cy=\"3.5\" r=\"1\"/><circle class=\"p2\" cx=\"9.5\" cy=\"13\" r=\"1.2\"/><circle class=\"p3\" cx=\"14.5\" cy=\"13\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pudding",
+  "category": "food",
+  "tags": ["dessert", "pudding", "custard", "sweet", "spoon"],
+  "svg": "<path class=\"d p1\" d=\"M5 13 H19 L17 20 H7 Z\"/><path class=\"p2\" d=\"M5 13 Q7 11 9 13 T13 13 T17 13 T19 13\"/><line class=\"p3\" x1=\"16\" y1=\"3\" x2=\"14\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 900, "delay": 1100, "origin": "14px 9px" }
+  ]
+}

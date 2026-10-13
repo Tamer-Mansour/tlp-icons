@@ -1,0 +1,11 @@
+{
+  "name": "file-crop",
+  "category": "files",
+  "tags": ["crop", "trim", "corners", "frame", "edit", "marks"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><path class=\"p2\" d=\"M8 11V8h3M13 8h3v3M8 13v3h3M16 13v3h-3\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

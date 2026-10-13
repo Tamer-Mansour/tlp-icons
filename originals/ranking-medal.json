@@ -1,0 +1,11 @@
+{
+  "name": "ranking-medal",
+  "category": "sport",
+  "tags": ["medal", "ranking", "award", "prize", "winner", "ribbon"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"6\"/><polyline class=\"p2\" points=\"8,3 12,9 16,3\"/><circle class=\"p3\" cx=\"12\" cy=\"14\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tada", "dur": 900, "delay": 900 }
+  ]
+}

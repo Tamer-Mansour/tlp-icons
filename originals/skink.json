@@ -1,0 +1,40 @@
+{
+    "name":  "skink",
+    "category":  "nature",
+    "tags":  [
+                 "skink",
+                 "lizard",
+                 "reptile",
+                 "long tail",
+                 "smooth",
+                 "animal"
+             ],
+    "svg":  "\u003cellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"5\" ry=\"2.5\"/\u003e\u003cpath class=\"p2\" d=\"M8 15.5L7 19M14 15.5L15 19\"/\u003e\u003ccircle class=\"p3\" cx=\"19.5\" cy=\"11.5\" r=\"2.2\"/\u003e\u003cpath class=\"p4\" d=\"M6.5 12.5C4 12.5 3 11 2.5 9\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  800
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  300,
+                       "delay":  1000
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "wiggle",
+                       "dur":  1000,
+                       "delay":  1300,
+                       "origin":  "6px 12px"
+                   }
+               ]
+}

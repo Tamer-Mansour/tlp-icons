@@ -1,0 +1,10 @@
+{
+  "name": "agility-ladder",
+  "category": "sport",
+  "tags": ["agility", "ladder", "footwork", "training", "rungs", "drill"],
+  "svg": "<path class=\"p1\" d=\"M3 8H21M3 16H21\"/><path class=\"p2\" d=\"M6 8V16M10 8V16M14 8V16M18 8V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 700 }
+  ]
+}

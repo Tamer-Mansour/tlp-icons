@@ -1,0 +1,11 @@
+{
+  "name": "rain-boots",
+  "category": "weather",
+  "tags": ["boots", "rain", "rubber", "footwear", "puddle"],
+  "svg": "<path class=\"d p1\" d=\"M8 3H14V14L20 17V20H8Z\"/><path class=\"p2\" d=\"M8 6H14\"/><path class=\"p3\" d=\"M4 9V11M4 14V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "delivery-door",
+  "category": "buildings",
+  "tags": ["delivery", "door", "package", "step", "parcel", "entrance"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"10\" height=\"18\"/><path class=\"p2\" d=\"M3 21h18\"/><rect class=\"d p3\" x=\"18\" y=\"14\" width=\"4\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 700, "delay": 900 }
+  ]
+}

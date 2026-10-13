@@ -1,0 +1,10 @@
+{
+  "name": "cursor-wait",
+  "category": "interface",
+  "tags": ["wait", "loading", "cursor", "hourglass", "busy", "pending"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 3.5l5.5 13 2-5 5-2z\"/><path class=\"p2\" d=\"M15.5 3h5v2.5l-2.5 2.5 2.5 2.5V13h-5v-2.5L18 8 15.5 5.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 900, "delay": 800 }
+  ]
+}

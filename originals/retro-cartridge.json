@@ -1,0 +1,11 @@
+{
+  "name": "retro-cartridge",
+  "category": "sport",
+  "tags": ["cartridge", "retro", "game", "console", "vintage", "tape"],
+  "svg": "<path class=\"d p1\" d=\"M5 3H19V21H5Z\"/><rect class=\"p2\" x=\"8\" y=\"6\" width=\"8\" height=\"5\"/><path class=\"p3\" d=\"M8 15.5H16M8 18H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

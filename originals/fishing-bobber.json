@@ -1,0 +1,11 @@
+{
+  "name": "fishing-bobber",
+  "category": "sport",
+  "tags": ["fishing", "bobber", "float", "hook", "line", "angling"],
+  "svg": "<path class=\"p2\" d=\"M12 2v5\"/><ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"4.5\" ry=\"6\"/><path class=\"p3\" d=\"M7.5 13h9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p1", "anim": "bob", "dur": 1200, "delay": 600 }
+  ]
+}

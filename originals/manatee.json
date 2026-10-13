@@ -1,0 +1,11 @@
+{
+  "name": "manatee",
+  "category": "nature",
+  "tags": ["sea", "gentle", "flippers", "ocean", "marine"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M8 17 L7 20 L9.5 19.5 L10 17 M16 17 L15 20 L17.5 19.5 L18 17\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"11.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1100 }
+  ]
+}

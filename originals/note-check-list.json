@@ -1,0 +1,11 @@
+{
+  "name": "note-check-list",
+  "category": "files",
+  "tags": ["note", "checklist", "done items", "tasks", "todo"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8l1 1 2-2M7 15l1 1 2-2\"/><path class=\"p3\" d=\"M12.5 8h4.5M12.5 15h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

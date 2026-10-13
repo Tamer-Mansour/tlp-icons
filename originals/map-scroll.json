@@ -1,0 +1,11 @@
+{
+  "name": "map-scroll",
+  "category": "science",
+  "tags": ["map", "scroll", "route", "travel", "chart"],
+  "svg": "<path class=\"d p1\" d=\"M5 6l4-2 6 2 4-2v14l-4 2-6-2-4 2z\"/><path class=\"p2\" d=\"M8 16C10 12 12 15 16 9\"/><circle class=\"f p3\" cx=\"16\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1500 }
+  ]
+}

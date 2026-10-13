@@ -1,0 +1,11 @@
+{
+  "name": "wine-barrel",
+  "category": "food",
+  "tags": ["food", "wine", "barrel", "cask", "bands", "winery"],
+  "svg": "<path class=\"d p1\" d=\"M5 7c2-1 12-1 14 0v10c-2 1-12 1-14 0z\"/><path class=\"p2\" d=\"M5 10.5c2 1 12 1 14 0M5 14.5c2 1 12 1 14 0\"/><rect class=\"p3\" x=\"10.5\" y=\"2\" width=\"3\" height=\"2\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1400 }
+  ]
+}

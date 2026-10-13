@@ -1,0 +1,10 @@
+{
+  "name": "grab-hand",
+  "category": "arrows",
+  "tags": ["grab", "hand", "gesture", "drag", "pick", "curl"],
+  "svg": "<path class=\"p1\" d=\"M7 11V6a1.5 1.5 0 0 1 3 0v4.5M10 10.5V4.5a1.5 1.5 0 0 1 3 0v6M13 10.5V5.5a1.5 1.5 0 0 1 3 0V12M16 12V8a1.5 1.5 0 0 1 3 0v6.5c0 3.5-2.5 6-6 6h-1.5c-2 0-3-1-4.5-2.5L5.5 15a1.5 1.5 0 0 1 2.5-1.5L10 15\"/><path class=\"p2\" d=\"M3 4l1.5 1.5M2.5 9h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

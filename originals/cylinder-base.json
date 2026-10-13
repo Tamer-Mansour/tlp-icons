@@ -1,0 +1,10 @@
+{
+  "name": "cylinder-base",
+  "category": "shapes",
+  "tags": ["cylinder", "solid", "tube", "drum", "geometry", "shape"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"6\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M5 6v12a7 2.5 0 0 0 14 0V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

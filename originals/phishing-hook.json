@@ -1,0 +1,11 @@
+{
+  "name": "phishing-hook",
+  "category": "security",
+  "tags": ["phishing", "hook", "email", "fishing", "scam", "bait"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"11\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M2.5 6l5.5 4.5 5.5-4.5\"/><path class=\"p3\" d=\"M9 14v3.5a2.5 2.5 0 0 0 5 0v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "9px 14px" }
+  ]
+}

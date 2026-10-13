@@ -1,0 +1,10 @@
+{
+  "name": "bowling-pin",
+  "category": "sport",
+  "tags": ["bowling", "pin", "alley", "strike", "skittle", "game"],
+  "svg": "<path class=\"d p1\" d=\"M9 3H15V7C15 9 17 10 17 13C17 16 16 20 12 20C8 20 7 16 7 13C7 10 9 9 9 7Z\"/><path class=\"p2\" d=\"M8 9H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 800 }
+  ]
+}

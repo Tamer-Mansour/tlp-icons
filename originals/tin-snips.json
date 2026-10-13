@@ -1,0 +1,10 @@
+{
+  "name": "tin-snips",
+  "category": "tools",
+  "tags": ["snips", "shears", "metal", "sheet", "cut"],
+  "svg": "<path class=\"p1\" d=\"M4 4L16 16M4 20L16 8\"/><path class=\"p2\" d=\"M4 12H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "unread-messages",
+  "category": "communication",
+  "tags": ["unread", "messages", "badge", "notification", "chat", "new"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p2\" d=\"M6.5 2.5H19a1.5 1.5 0 0 1 1.5 1.5V13\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stadium",
+  "category": "sport",
+  "tags": ["stadium", "arena", "seats", "sport", "venue", "game"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><path class=\"p2\" d=\"M6 9.5Q12 6 18 9.5\"/><path class=\"p3\" d=\"M3 6.5Q12 2 21 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

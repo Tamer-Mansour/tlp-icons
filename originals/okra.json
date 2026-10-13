@@ -1,0 +1,11 @@
+{
+  "name": "okra",
+  "category": "food",
+  "tags": ["vegetable", "pod", "green", "stew", "garden"],
+  "svg": "<path class=\"d p1\" d=\"M12 5.5c2.5 1.5 3.5 4 3.5 7.5S13.5 19 12 20.5C10.5 19 8.5 16.5 8.5 13s1-6 3.5-7.5z\"/><path class=\"p3\" d=\"M12 9.5v8\"/><path class=\"p2\" d=\"M12 5.5V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 1100, "origin": "12px 5.5px" }
+  ]
+}

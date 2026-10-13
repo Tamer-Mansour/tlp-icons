@@ -1,0 +1,10 @@
+{
+  "name": "spa",
+  "category": "buildings",
+  "tags": ["spa", "lotus", "wellness", "bowl", "relax", "calm"],
+  "svg": "<path class=\"p1\" d=\"M12 4c2 2.2 2 5.3 0 7.5C10 9.3 10 6.2 12 4zM7 7c2 .5 3.2 2.5 3.4 5.5C8.4 12 7 10 7 7zM17 7c-2 .5-3.2 2.5-3.4 5.5 1.6-.5 3-2.5 3.4-5.5z\"/><path class=\"d p2\" d=\"M3 15h18c0 3-4 5.5-9 5.5S3 18 3 15z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "bloom", "dur": 900, "delay": 700 }
+  ]
+}

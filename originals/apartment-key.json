@@ -1,0 +1,11 @@
+{
+  "name": "apartment-key",
+  "category": "buildings",
+  "tags": ["apartment", "key", "door", "flat", "housing", "lock"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"11\" height=\"20\" rx=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"12\" r=\"1\"/><circle class=\"p3\" cx=\"19\" cy=\"5\" r=\"2\"/><line class=\"p3\" x1=\"19\" y1=\"7\" x2=\"19\" y2=\"17\"/><line class=\"p3\" x1=\"19\" y1=\"14\" x2=\"21\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "19px 3px" }
+  ]
+}

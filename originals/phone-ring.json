@@ -1,0 +1,11 @@
+{
+  "name": "phone-ring",
+  "category": "connectivity",
+  "tags": ["ring", "phone", "call", "incoming", "handset", "ringing"],
+  "svg": "<path class=\"d p1\" d=\"M9 5Q9 4 10 4H11L12 8L10.5 9.5Q11.5 12.5 13.5 14L15 12.5V15Q14 16 12.5 15.5Q9 14 9 5Z\"/><path class=\"p2\" d=\"M7 5A9 9 0 0 0 7 19\"/><path class=\"p3\" d=\"M17 5A9 9 0 0 1 17 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

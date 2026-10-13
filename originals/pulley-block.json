@@ -1,0 +1,11 @@
+{
+  "name": "pulley-block",
+  "category": "tools",
+  "tags": ["pulley", "block", "rope", "hoist", "wheel", "lifting"],
+  "svg": "<path class=\"p1\" d=\"M4 3H20M12 3V6\"/><circle class=\"d p2\" cx=\"12\" cy=\"11\" r=\"5\"/><path class=\"p3\" d=\"M7 11V20M17 11V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 900 }
+  ]
+}

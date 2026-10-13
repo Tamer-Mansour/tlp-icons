@@ -1,0 +1,11 @@
+{
+  "name": "hedgehog",
+  "category": "nature",
+  "tags": ["animal", "spiky", "forest", "small", "prickly"],
+  "svg": "<path class=\"d p1\" d=\"M3 16a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M4.2 11.5l-2 -1M7.5 8.2L6 5.5M12 7v-2.5M16.5 8.2L18 5.5M19.8 11.5l2-1\"/><path class=\"p3\" d=\"M2 19.5h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

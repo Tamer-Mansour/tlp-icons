@@ -1,0 +1,11 @@
+{
+  "name": "squeegee",
+  "category": "home",
+  "tags": ["squeegee", "window", "water", "wipe", "clean", "blade"],
+  "svg": "<path class=\"p1\" d=\"M18 3l-6 10\"/><rect class=\"d p2\" x=\"6\" y=\"13\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M3 20q2.25-1.5 4.5 0t4.5 0 4.5 0 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

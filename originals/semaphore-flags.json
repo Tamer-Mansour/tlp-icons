@@ -1,0 +1,11 @@
+{
+  "name": "semaphore-flags",
+  "category": "communication",
+  "tags": ["semaphore", "flags", "signal", "navigation", "maritime"],
+  "svg": "<path class=\"p1\" d=\"M6 4v17M18 6v15\"/><polygon class=\"d p2\" points=\"6,4 14,6.5 6,9\"/><polygon class=\"p3\" points=\"18,11 10,13.5 18,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

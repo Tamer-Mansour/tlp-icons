@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-sign",
+  "category": "files",
+  "tags": ["clipboard", "sign", "signature", "signed", "agreement"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 15c1-3 2.5-3 3 0s2 2 3-1M8 18.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 1000 }
+  ]
+}

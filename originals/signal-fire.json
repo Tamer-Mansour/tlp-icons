@@ -1,0 +1,11 @@
+{
+  "name": "signal-fire",
+  "category": "communication",
+  "tags": ["signal fire", "flame", "beacon", "warning", "rays"],
+  "svg": "<path class=\"d p1\" d=\"M5 20h14L12 8z\"/><path class=\"p2\" d=\"M9.5 20h5L12 14z\"/><path class=\"p3\" d=\"M12 2v2M6 4l1.5 1.5M18 4l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

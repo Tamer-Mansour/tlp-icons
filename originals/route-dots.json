@@ -1,0 +1,10 @@
+{
+  "name": "route-dots",
+  "category": "arrows",
+  "tags": ["route", "path", "dots", "navigation", "map", "pin"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"18\" r=\"1.2\"/><circle class=\"f p1\" cx=\"9\" cy=\"14\" r=\"1.2\"/><circle class=\"f p1\" cx=\"13\" cy=\"10\" r=\"1.2\"/><path class=\"p2\" d=\"M19 2.5a4 4 0 0 0-4 4c0 3 4 7 4 7s4-4 4-7a4 4 0 0 0-4-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 700, "delay": 700 }
+  ]
+}

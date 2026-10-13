@@ -1,0 +1,11 @@
+{
+  "name": "chat-mention",
+  "category": "communication",
+  "tags": ["mention", "at sign", "chat", "tag", "notify", "reply"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M14.5 10v1.5a1.5 1.5 0 0 0 3 0V10a5.5 5.5 0 1 0-2 4.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

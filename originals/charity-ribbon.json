@@ -1,0 +1,11 @@
+{
+  "name": "charity-ribbon",
+  "category": "people",
+  "tags": ["charity", "ribbon", "awareness", "support", "loop", "heart"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"5\"/><polyline class=\"p2\" points=\"10,13 8,21 11,19\"/><polyline class=\"p2\" points=\"14,13 16,21 13,19\"/><path class=\"p3\" d=\"M12 10.5L10.3 8.8C9.5 8 10 7 11 7.5L12 8.3L13 7.5C14 7 14.5 8 13.7 8.8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "beat", "dur": 600, "delay": 1100 }
+  ]
+}

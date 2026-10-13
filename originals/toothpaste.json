@@ -1,0 +1,11 @@
+{
+  "name": "toothpaste",
+  "category": "home",
+  "tags": ["toothpaste", "tube", "dental", "brush", "hygiene", "bathroom", "teeth"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"6\" rx=\"2\"/><rect class=\"p2\" x=\"17\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M5 6 C6 4 8 4 9 6 S12 8 13 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "archery-range",
+  "category": "buildings",
+  "tags": ["archery", "target", "arrow", "bullseye", "bow", "range"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"14\" r=\"7\"/><circle class=\"d p2\" cx=\"10\" cy=\"14\" r=\"3\"/><path class=\"p3\" d=\"M21 3 L13 11 M21 3 H17 M21 3 V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1000, "origin": "21px 3px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tulip-field",
+  "category": "nature",
+  "tags": ["tulip", "field", "flowers", "spring", "bloom"],
+  "svg": "<path class=\"p1\" d=\"M2.5 6 V10 Q2.5 12.5 5 12.5 Q7.5 12.5 7.5 10 V6 L5 8.5 Z M9.5 6 V10 Q9.5 12.5 12 12.5 Q14.5 12.5 14.5 10 V6 L12 8.5 Z M16.5 6 V10 Q16.5 12.5 19 12.5 Q21.5 12.5 21.5 10 V6 L19 8.5 Z\"/><path class=\"p2\" d=\"M5 12.5 V19 M12 12.5 V19 M19 12.5 V19\"/><line class=\"p3\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "bloom", "dur": 900, "delay": 300 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

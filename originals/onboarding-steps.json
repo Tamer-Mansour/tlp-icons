@@ -1,0 +1,10 @@
+{
+  "name": "onboarding-steps",
+  "category": "people",
+  "tags": ["onboarding", "steps", "progress", "guide", "setup", "person", "stairs"],
+  "svg": "<path class=\"p1\" d=\"M2 21h4v-4h4v-4h4v-4h4\"/><circle class=\"p2\" cx=\"7\" cy=\"5.5\" r=\"2.5\"/><path class=\"p2\" d=\"M2.5 12a4.5 4.5 0 0 1 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 600 }
+  ]
+}

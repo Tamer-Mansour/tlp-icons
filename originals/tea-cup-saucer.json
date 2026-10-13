@@ -1,0 +1,12 @@
+{
+  "name": "tea-cup-saucer",
+  "category": "food",
+  "tags": ["teacup", "tea", "saucer", "cup", "hot drink"],
+  "svg": "<path class=\"p1 d\" d=\"M5 10 H16 V14 Q16 18 10.5 18 Q5 18 5 14 Z\"/><path class=\"p2\" d=\"M16 11.5 H17.5 Q19.5 11.5 19.5 13.5 Q19.5 15.5 17.5 15.5 H16\"/><line class=\"p3\" x1=\"2.5\" y1=\"20.5\" x2=\"19.5\" y2=\"20.5\"/><path class=\"p4\" d=\"M9 3 Q8 5 9 7 M12.5 3 Q11.5 5 12.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

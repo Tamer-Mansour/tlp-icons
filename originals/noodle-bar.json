@@ -1,0 +1,11 @@
+{
+  "name": "noodle-bar",
+  "category": "buildings",
+  "tags": ["noodle", "bowl", "ramen", "chopsticks", "food", "soup"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 Q21 19 12 19 Q3 19 3 11 Z\"/><path class=\"p2\" d=\"M6 9 Q7 6 9 8 Q11 10 12 7 Q13 5 14 8\"/><line class=\"p3\" x1=\"19\" y1=\"2\" x2=\"17\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 800, "delay": 1100, "origin": "17px 9px" }
+  ]
+}

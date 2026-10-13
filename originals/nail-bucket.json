@@ -1,0 +1,11 @@
+{
+  "name": "nail-bucket",
+  "category": "tools",
+  "tags": ["nail", "bucket", "nails", "container", "hardware", "pail"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-2 12H7z\"/><path class=\"p2\" d=\"M4 9h16\"/><path class=\"p3\" d=\"M9 9V4M12 9V3M15 9V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "rattle", "dur": 800, "delay": 1100 }
+  ]
+}

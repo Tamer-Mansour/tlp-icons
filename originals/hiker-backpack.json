@@ -1,0 +1,11 @@
+{
+  "name": "hiker-backpack",
+  "category": "people",
+  "tags": ["hiker", "backpack", "hiking", "trail", "bag", "trekking"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"13\" rx=\"3\"/><path class=\"p2\" d=\"M9 8 V5 H15 V8\"/><path class=\"p3\" d=\"M3 13 H6 M18 13 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1200 }
+  ]
+}

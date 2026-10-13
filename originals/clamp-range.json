@@ -1,0 +1,11 @@
+{
+  "name": "clamp-range",
+  "category": "math",
+  "tags": ["clamp", "range", "limit", "bounds", "min", "max"],
+  "svg": "<path class=\"p1\" d=\"M4 12H20\"/><path class=\"p2\" d=\"M4 7V17M20 7V17\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "squeeze", "dur": 600, "delay": 900 }
+  ]
+}

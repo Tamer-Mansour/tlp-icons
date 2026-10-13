@@ -1,0 +1,11 @@
+{
+  "name": "twins-mirror",
+  "category": "people",
+  "tags": ["twins", "mirror", "identical", "pair", "family", "reflection"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"12\" r=\"4\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M12 3v3M12 10v4M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

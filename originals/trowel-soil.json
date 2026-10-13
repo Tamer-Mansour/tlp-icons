@@ -1,0 +1,11 @@
+{
+  "name": "trowel-soil",
+  "category": "science",
+  "tags": ["trowel", "soil", "garden", "dig", "earth"],
+  "svg": "<path class=\"p1\" d=\"M13 12L19 4\"/><path class=\"d p2\" d=\"M4 12H15C15 15.5 13 18.5 9.5 18.5C6.5 18.5 4 15.5 4 12Z\"/><path class=\"p3\" d=\"M3 21H21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "dig", "dur": 800, "delay": 1000, "origin": "bottom" }
+  ]
+}

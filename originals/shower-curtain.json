@@ -1,0 +1,11 @@
+{
+  "name": "shower-curtain",
+  "category": "home",
+  "tags": ["shower", "curtain", "bath", "rod", "fabric", "bathroom", "folds"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"3\"/><path class=\"d p2\" d=\"M5 5 V19 Q8.5 21 12 19 T19 19 V5\"/><line class=\"p3\" x1=\"9\" y1=\"9\" x2=\"9\" y2=\"15\"/><line class=\"p3\" x1=\"15\" y1=\"9\" x2=\"15\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 800, "origin": "top" }
+  ]
+}

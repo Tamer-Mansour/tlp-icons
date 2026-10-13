@@ -1,0 +1,10 @@
+{
+  "name": "person-heart",
+  "category": "people",
+  "tags": ["person", "heart", "favorite", "love", "like", "user"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 21a4.5 4.5 0 0 1 9 0\"/><path class=\"d p2\" d=\"M17 20.5L12 15.5A3.2 3.2 0 0 1 17 11.5A3.2 3.2 0 0 1 22 15.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 700, "delay": 800 }
+  ]
+}

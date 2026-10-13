@@ -1,0 +1,11 @@
+{
+  "name": "whipped-cream",
+  "category": "food",
+  "tags": ["whipped", "cream", "dessert", "dollop", "topping"],
+  "svg": "<path class=\"d p1\" d=\"M5 14H19L17 21H7Z\"/><path class=\"p2\" d=\"M5 14Q4 9 8 9Q9 5 12 6Q15 5 16 9Q20 9 19 14\"/><circle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

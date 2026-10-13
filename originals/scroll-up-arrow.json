@@ -1,0 +1,10 @@
+{
+  "name": "scroll-up-arrow",
+  "category": "interface",
+  "tags": ["scroll", "up", "arrow", "track", "navigate"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"6\"/><path class=\"p2\" d=\"M12 17V8M8.5 11.5 12 8l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 700 }
+  ]
+}

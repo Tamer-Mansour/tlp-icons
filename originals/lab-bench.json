@@ -1,0 +1,12 @@
+{
+  "name": "lab-bench",
+  "category": "science",
+  "tags": ["lab", "bench", "table", "flask", "beaker", "workspace"],
+  "svg": "<path class=\"p1\" d=\"M2 12h20\"/><path class=\"p2\" d=\"M5 12v9M19 12v9\"/><path class=\"d p3\" d=\"M5.5 12L8 7h3l2.5 5Z\"/><path class=\"p4\" d=\"M15 12V8.5h5V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "tilt", "dur": 1100, "delay": 1200 }
+  ]
+}

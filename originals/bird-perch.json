@@ -1,0 +1,12 @@
+{
+  "name": "bird-perch",
+  "category": "nature",
+  "tags": ["perched bird", "branch", "perch", "songbird", "tree", "rest"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"18\" x2=\"22\" y2=\"18\"/><path class=\"d p2\" d=\"M7 18C7 14 9 11 13 11C16 11 17 13 17 15V18Z\"/><circle class=\"p3\" cx=\"16\" cy=\"9\" r=\"2.5\"/><path class=\"p4\" d=\"M18.5 8.5L21 9.5L18.5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 300, "delay": 1100 }
+  ]
+}

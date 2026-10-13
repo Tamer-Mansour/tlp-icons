@@ -1,0 +1,11 @@
+{
+  "name": "data-flow-lock",
+  "category": "security",
+  "tags": ["security", "data", "flow", "lock", "encrypt", "transfer"],
+  "svg": "<path class=\"p1\" d=\"M2 8 H10.5 M8 5.5 L10.5 8 L8 10.5\"/><path class=\"p2\" d=\"M2 16 H10.5 M8 13.5 L10.5 16 L8 18.5\"/><rect class=\"p3\" x=\"13\" y=\"11\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M15.5 11 V8.5 A2.5 2.5 0 0 1 20.5 8.5 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

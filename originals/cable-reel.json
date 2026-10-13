@@ -1,0 +1,11 @@
+{
+  "name": "cable-reel",
+  "category": "connectivity",
+  "tags": ["cable", "reel", "spool", "wire", "extension", "roll"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M17 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1000, "origin": "10px 12px" }
+  ]
+}

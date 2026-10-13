@@ -1,0 +1,10 @@
+{
+  "name": "lock-gate",
+  "category": "vehicles",
+  "tags": ["lock", "gate", "canal", "water", "gate door", "river"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"7\" height=\"16\"/><rect class=\"d p2\" x=\"14\" y=\"4\" width=\"7\" height=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1200, "origin": "21px 12px" }
+  ]
+}

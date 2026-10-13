@@ -1,0 +1,10 @@
+{
+  "name": "quote-speech",
+  "category": "communication",
+  "tags": ["quote", "speech", "bubble", "testimonial", "citation", "message"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18v12h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M7.5 13.5v-2a1.5 1.5 0 0 1 1.5-1.5M13.5 13.5v-2a1.5 1.5 0 0 1 1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

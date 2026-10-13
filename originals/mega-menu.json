@@ -1,0 +1,11 @@
+{
+  "name": "mega-menu",
+  "category": "interface",
+  "tags": ["menu", "dropdown", "navigation", "panel", "grid"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M2 8H22\"/><path class=\"p2\" d=\"M6 12H10V16H6zM14 12H18V16H14z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "channel-up",
+  "category": "media",
+  "tags": ["channel", "up", "tv", "next", "remote"],
+  "svg": "<path class=\"p1\" d=\"M12 8V3M8 7l4-4 4 4\"/><rect class=\"d p2\" x=\"4\" y=\"12\" width=\"16\" height=\"9\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "lift", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "iris",
+  "category": "nature",
+  "tags": ["iris", "flower", "petal", "bloom", "blue"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c-2 3-2 7 0 9 2-2 2-6 0-9z\"/><path class=\"p2\" d=\"M11 12c-4-1-6-5-5-8 3 0 5 3 5 8zM13 12c4-1 6-5 5-8-3 0-5 3-5 8z\"/><path class=\"p3\" d=\"M7 14l5 6 5-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

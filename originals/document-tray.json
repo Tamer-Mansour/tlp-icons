@@ -1,0 +1,11 @@
+{
+  "name": "document-tray",
+  "category": "files",
+  "tags": ["tray", "document", "inbox", "sheet", "paper", "filing"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h5l1.5 2.5h5L16 11h5v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M9 13V4h6v9\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

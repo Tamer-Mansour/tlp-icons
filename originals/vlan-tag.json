@@ -1,0 +1,11 @@
+{
+  "name": "vlan-tag",
+  "category": "connectivity",
+  "tags": ["vlan", "tag", "label", "network", "segment", "switch"],
+  "svg": "<path class=\"d p1\" d=\"M3 7h9l4 5-4 5H3z\"/><rect class=\"p2\" x=\"5\" y=\"10\" width=\"2\" height=\"4\"/><path class=\"p3\" d=\"M16 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

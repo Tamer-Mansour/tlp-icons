@@ -1,0 +1,11 @@
+{
+  "name": "file-language",
+  "category": "files",
+  "tags": ["language", "translate", "speech", "chat", "letters", "localization"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><rect class=\"d p2\" x=\"6\" y=\"8\" width=\"12\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M8 13.5l1-3 1 3M8.4 12h1.2M13.5 10.5h2.5l-2.5 3h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 700, "delay": 1000 }
+  ]
+}

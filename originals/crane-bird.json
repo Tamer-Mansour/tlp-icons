@@ -1,0 +1,12 @@
+{
+  "name": "crane-bird",
+  "category": "nature",
+  "tags": ["crane", "wading bird", "long legs", "long neck", "marsh", "bird"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"11\" rx=\"5\" ry=\"2.5\"/><path class=\"p2\" d=\"M15 10C17 8 17 5 18 3L20 3\"/><path class=\"p3\" d=\"M10 13L9 21M13 13L14 21\"/><path class=\"p4\" d=\"M19 4.5L22 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 300, "delay": 1300 }
+  ]
+}

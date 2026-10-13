@@ -1,0 +1,11 @@
+{
+  "name": "index-cards",
+  "category": "science",
+  "tags": ["index", "cards", "notes", "study", "stack", "memo"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"14\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"4\" y=\"9\" width=\"14\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M7 15h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

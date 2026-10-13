@@ -1,0 +1,11 @@
+{
+  "name": "power-plant",
+  "category": "buildings",
+  "tags": ["power", "plant", "chimney", "smoke", "energy", "factory"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"18\" height=\"7\" rx=\"0.5\"/><rect class=\"p2\" x=\"14\" y=\"4\" width=\"4\" height=\"10\"/><path class=\"p3\" d=\"M8 10c-2-2 2-3.5 0-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 900 }
+  ]
+}

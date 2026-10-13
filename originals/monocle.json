@@ -1,0 +1,11 @@
+{
+  "name": "monocle",
+  "category": "emoji",
+  "tags": ["monocle", "eyeglass", "lens", "vintage", "glasses", "monocled"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"10\" r=\"5\"/><path class=\"p2\" d=\"M12.6 13.6L17.5 18.5\"/><circle class=\"p3\" cx=\"19\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1300, "origin": "12.6px 13.6px" }
+  ]
+}

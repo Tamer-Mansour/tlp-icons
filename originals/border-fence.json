@@ -1,0 +1,10 @@
+{
+  "name": "border-fence",
+  "category": "buildings",
+  "tags": ["border", "fence", "gate", "posts", "boundary", "barrier"],
+  "svg": "<path class=\"p2\" d=\"M4 21V7M12 21V7M20 21V7\"/><path class=\"p1\" d=\"M2 10h20M2 16h20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

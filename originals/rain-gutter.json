@@ -1,0 +1,10 @@
+{
+  "name": "rain-gutter",
+  "category": "weather",
+  "tags": ["gutter", "rain", "drain", "channel", "water", "roof"],
+  "svg": "<path class=\"p1\" d=\"M4 10v6.5h16V10\"/><path class=\"p2\" d=\"M8 4v3.5M12 3v5M16 4v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "respirator",
+  "category": "tools",
+  "tags": ["respirator", "mask", "filter", "breathing", "safety", "dust"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 H19 V13 Q19 19 12 19 Q5 19 5 13 Z\"/><circle class=\"p2\" cx=\"8\" cy=\"6\" r=\"2.5\"/><circle class=\"p2\" cx=\"16\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

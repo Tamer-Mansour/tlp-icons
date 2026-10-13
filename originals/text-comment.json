@@ -1,0 +1,11 @@
+{
+  "name": "text-comment",
+  "category": "text",
+  "tags": ["comment", "text", "note", "bubble", "feedback", "annotate"],
+  "svg": "<path class=\"p1\" d=\"M3 8h10M3 12h7\"/><rect class=\"d p2\" x=\"14\" y=\"9\" width=\"8\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M17 17v3l3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

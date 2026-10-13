@@ -1,0 +1,11 @@
+{
+  "name": "creek",
+  "category": "nature",
+  "tags": ["creek", "stream", "water", "river", "bank", "flow"],
+  "svg": "<path class=\"p1\" d=\"M4 3 Q8 8 6 12 Q4 16 8 21\"/><path class=\"p2\" d=\"M20 3 Q16 8 18 12 Q20 16 16 21\"/><path class=\"p3\" d=\"M10 12 Q12 10 14 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

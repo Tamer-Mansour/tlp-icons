@@ -1,0 +1,11 @@
+{
+  "name": "chart-callout",
+  "category": "charts",
+  "tags": ["callout", "annotation", "bubble", "highlight", "comment"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"13\" width=\"4\" height=\"7\"/><rect class=\"p1\" x=\"8\" y=\"9\" width=\"4\" height=\"11\"/><rect class=\"p1\" x=\"14\" y=\"15\" width=\"4\" height=\"5\"/><rect class=\"d p2\" x=\"14\" y=\"3\" width=\"8\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M16 9V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "food-chain",
+  "category": "science",
+  "tags": ["food", "chain", "ecology", "predator", "energy"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"20\" cy=\"12\" r=\"1.5\"/><path class=\"p2\" d=\"M7 12H9M7.8 10.8L9 12L7.8 13.2M15 12H17M15.8 10.8L17 12L15.8 13.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "poker-table",
+  "category": "sport",
+  "tags": ["poker", "table", "cards", "chips", "casino"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"5\" height=\"7\" rx=\"0.5\"/><circle class=\"p3\" cx=\"16\" cy=\"13\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

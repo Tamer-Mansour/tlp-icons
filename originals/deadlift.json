@@ -1,0 +1,11 @@
+{
+  "name": "deadlift",
+  "category": "sport",
+  "tags": ["deadlift", "barbell", "floor", "bend", "lift", "strength"],
+  "svg": "<path class=\"p1\" d=\"M3 17 H21 M5 14 V20 M19 14 V20\"/><circle class=\"p2\" cx=\"9\" cy=\"5\" r=\"2\"/><path class=\"p3\" d=\"M9 9 L13 13 L11 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 1000 }
+  ]
+}

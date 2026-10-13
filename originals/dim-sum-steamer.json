@@ -1,0 +1,11 @@
+{
+  "name": "dim-sum-steamer",
+  "category": "food",
+  "tags": ["dim sum", "steamer", "bamboo", "chinese", "dumplings"],
+  "svg": "<path class=\"d p1\" d=\"M4 9a8 5 0 0 1 16 0z\"/><path class=\"p2\" d=\"M4 11h16v8H4z\"/><circle class=\"f p3\" cx=\"8\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

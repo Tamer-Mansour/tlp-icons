@@ -1,0 +1,11 @@
+{
+  "name": "keyboard-delete",
+  "category": "interface",
+  "tags": ["keyboard", "delete", "backspace", "key", "erase", "remove"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5.5\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9 9.5h7v5H9l-2.5-2.5z\"/><path class=\"p3\" d=\"M11.5 10.5l2.5 3M14 10.5l-2.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "press", "dur": 400, "delay": 1500 }
+  ]
+}

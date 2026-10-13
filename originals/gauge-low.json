@@ -1,0 +1,10 @@
+{
+  "name": "gauge-low",
+  "category": "notifications",
+  "tags": ["gauge", "speedometer", "low", "empty", "needle"],
+  "svg": "<path class=\"p1\" d=\"M3.5 17a8.5 8.5 0 1 1 17 0\"/><line class=\"p2\" x1=\"12\" y1=\"17\" x2=\"7.5\" y2=\"13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 17px" }
+  ]
+}

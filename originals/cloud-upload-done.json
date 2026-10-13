@@ -1,0 +1,11 @@
+{
+  "name": "cloud-upload-done",
+  "category": "notifications",
+  "tags": ["cloud", "upload", "done", "sync", "check", "backup"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 17.5h10a4 4 0 0 0 .3-8 6 6 0 0 0-11.5 1.8A3.5 3.5 0 0 0 6.5 17.5Z\"/><path class=\"p2\" d=\"M12 16v-6M9.5 12.5L12 10l2.5 2.5\"/><path class=\"p3\" d=\"M17.5 19.5l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

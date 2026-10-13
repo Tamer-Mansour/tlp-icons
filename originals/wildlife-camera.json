@@ -1,0 +1,11 @@
+{
+  "name": "wildlife-camera",
+  "category": "nature",
+  "tags": ["camera", "wildlife", "trail", "motion", "photo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7.5\" width=\"12\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"12.5\" r=\"2.5\"/><path class=\"p3\" d=\"M19 8.5 Q21.5 12.5 19 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

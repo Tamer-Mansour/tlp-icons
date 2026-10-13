@@ -1,0 +1,11 @@
+{
+  "name": "punch-clock",
+  "category": "time",
+  "tags": ["punch", "clock", "time", "attendance", "work"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"7\"/><polyline class=\"p2\" points=\"10 8 10 12 13 14\"/><rect class=\"d p3\" x=\"18.5\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1100 }
+  ]
+}

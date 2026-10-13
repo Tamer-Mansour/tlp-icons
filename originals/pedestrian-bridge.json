@@ -1,0 +1,11 @@
+{
+  "name": "pedestrian-bridge",
+  "category": "buildings",
+  "tags": ["pedestrian", "bridge", "footbridge", "river", "walkway", "arch"],
+  "svg": "<path class=\"p1\" d=\"M2 18c0-6 4-9 10-9s10 3 10 9\"/><path class=\"p2\" d=\"M2 18h20\"/><path class=\"p3\" d=\"M2 21c2-1 3 1 5 0s3 1 5 0 3 1 5 0 3 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1100 }
+  ]
+}

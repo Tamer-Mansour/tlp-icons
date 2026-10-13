@@ -1,0 +1,11 @@
+{
+  "name": "plotter",
+  "category": "devices",
+  "tags": ["plotter", "pen", "drawing", "paper", "print", "plot"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><line class=\"p2\" x1=\"3\" y1=\"7\" x2=\"21\" y2=\"7\"/><rect class=\"p3\" x=\"10\" y=\"7\" width=\"4\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "scanX", "dur": 1000, "delay": 900 }
+  ]
+}

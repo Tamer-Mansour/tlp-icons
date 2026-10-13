@@ -1,0 +1,11 @@
+{
+  "name": "unit-test",
+  "category": "development",
+  "tags": ["unit", "test", "check", "validation", "suite"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M7.5 12.5l3 3 6-6\"/><rect class=\"d p3\" x=\"7\" y=\"16\" width=\"10\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

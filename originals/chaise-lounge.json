@@ -1,0 +1,10 @@
+{
+  "name": "chaise-lounge",
+  "category": "home",
+  "tags": ["chaise", "lounge", "recliner", "seat", "furniture"],
+  "svg": "<path class=\"d p1\" d=\"M3 13L8 5h3v7h9v3H3z\"/><path class=\"p2\" d=\"M6 15v5M19 15v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

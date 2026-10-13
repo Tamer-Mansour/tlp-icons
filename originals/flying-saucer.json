@@ -1,0 +1,11 @@
+{
+  "name": "flying-saucer",
+  "category": "emoji",
+  "tags": ["ufo", "alien", "space", "saucer", "spaceship", "flying"],
+  "svg": "<ellipse class=\"d p2\" cx=\"12\" cy=\"13.5\" rx=\"9\" ry=\"2.5\"/><path class=\"p1\" d=\"M8.5 9a3.5 3.5 0 0 1 7 0\"/><path class=\"p3\" d=\"M9.5 17.5L7.5 21M14.5 17.5L16.5 21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

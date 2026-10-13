@@ -1,0 +1,10 @@
+{
+  "name": "x-height",
+  "category": "text",
+  "tags": ["x", "height", "lowercase", "guide", "baseline", "typography"],
+  "svg": "<path class=\"p1\" d=\"M7.5 11l8 6M15.5 11l-8 6\"/><path class=\"p2\" d=\"M3 9h18M3 19h18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

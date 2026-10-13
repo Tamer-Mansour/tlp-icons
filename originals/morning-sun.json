@@ -1,0 +1,11 @@
+{
+  "name": "morning-sun",
+  "category": "time",
+  "tags": ["morning", "sunrise", "clock", "dawn", "early", "day"],
+  "svg": "<path class=\"d p1\" d=\"M7 17a5 5 0 0 1 10 0Z\"/><path class=\"p2\" d=\"M2 17h20\"/><path class=\"p3\" d=\"M12 10V8M7.05 12.05L5.64 10.64M16.95 12.05L18.36 10.64\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1200 }
+  ]
+}

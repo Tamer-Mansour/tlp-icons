@@ -1,0 +1,12 @@
+{
+  "name": "bohr-model",
+  "category": "science",
+  "tags": ["bohr", "atom", "orbit", "shell", "model"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"8.5\"/><circle class=\"f p4\" cx=\"12\" cy=\"7\" r=\"1.2\"/><circle class=\"f p4\" cx=\"20.5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p4", "anim": "orbit", "dur": 1400, "delay": 1000 }
+  ]
+}

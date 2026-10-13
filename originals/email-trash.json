@@ -1,0 +1,11 @@
+{
+  "name": "email-trash",
+  "category": "communication",
+  "tags": ["email", "trash", "delete", "remove", "bin", "mail", "discard"],
+  "svg": "<path class=\"d p1\" d=\"M2 6h11v12H2z\"/><path class=\"p2\" d=\"M2 6l5.5 6 5.5-6\"/><path class=\"p3\" d=\"M16.5 6.5h5M18 10v10h3V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 900, "origin": "16.5px 6.5px" }
+  ]
+}

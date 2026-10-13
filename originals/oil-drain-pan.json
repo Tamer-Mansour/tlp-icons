@@ -1,0 +1,10 @@
+{
+  "name": "oil-drain-pan",
+  "category": "vehicles",
+  "tags": ["oil", "drain", "pan", "engine", "service", "drip"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18c0 6-3 9-9 9s-9-3-9-9z\"/><path class=\"p2\" d=\"M12 20.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 700 }
+  ]
+}

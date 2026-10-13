@@ -1,0 +1,11 @@
+{
+  "name": "consultant-clipboard",
+  "category": "people",
+  "tags": ["consultant", "clipboard", "advisor", "expert", "report", "notes"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20.5v-2a5 5 0 0 1 10 0v2\"/><rect class=\"d p2\" x=\"13\" y=\"4\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M15.5 7.5h3M15.5 10.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "emoji-reaction",
+  "category": "interface",
+  "tags": ["emoji", "reaction", "smile", "like", "react", "face"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M7.5 13.5a4.5 4.5 0 0 0 7 0\"/><circle class=\"f p2\" cx=\"8\" cy=\"9\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14\" cy=\"9\" r=\"1.2\"/><path class=\"p3\" d=\"M19.5 2.5v4M17.5 4.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

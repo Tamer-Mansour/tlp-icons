@@ -1,0 +1,11 @@
+{
+  "name": "gobo",
+  "category": "photography",
+  "tags": ["gobo", "light", "pattern", "stencil", "studio", "shadow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6 10L10 7M6 14L10 17\"/><circle class=\"d p3\" cx=\"16\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

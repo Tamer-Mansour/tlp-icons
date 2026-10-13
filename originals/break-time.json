@@ -1,0 +1,12 @@
+{
+  "name": "break-time",
+  "category": "time",
+  "tags": ["break", "coffee", "cup", "rest", "pause", "time"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h11v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M16 11h1.5a2.5 2.5 0 0 1 0 5H16\"/><circle class=\"p3\" cx=\"18\" cy=\"4\" r=\"2\"/><path class=\"p4\" d=\"M8 5.5c0-1 1-1 1-2.5M12 5.5c0-1 1-1 1-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "wiggle", "dur": 500, "delay": 1200 }
+  ]
+}

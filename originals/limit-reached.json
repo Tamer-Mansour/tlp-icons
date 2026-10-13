@@ -1,0 +1,11 @@
+{
+  "name": "limit-reached",
+  "category": "notifications",
+  "tags": ["limit", "gauge", "full", "maximum", "meter"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"15\" height=\"8\" rx=\"1.5\"/><rect class=\"d p2\" x=\"5\" y=\"10\" width=\"11\" height=\"4\"/><line class=\"p3\" x1=\"21\" y1=\"8\" x2=\"21\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

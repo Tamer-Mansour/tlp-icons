@@ -1,0 +1,10 @@
+{
+  "name": "add-plus-symbol",
+  "category": "math",
+  "tags": ["add", "plus", "sum", "arrows", "increase"],
+  "svg": "<path class=\"p1\" d=\"M12 8v8M8 12h8\"/><path class=\"p2\" d=\"M2 12h3.5M4 10.5l1.5 1.5-1.5 1.5M22 12h-3.5M20 10.5l-1.5 1.5 1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 700, "delay": 600 }
+  ]
+}

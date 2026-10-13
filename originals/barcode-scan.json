@@ -1,0 +1,10 @@
+{
+  "name": "barcode-scan",
+  "category": "interface",
+  "tags": ["barcode", "scan", "code", "product", "reader"],
+  "svg": "<path class=\"p1\" d=\"M5 8v8M9 8v8M13 8v8M17 8v8\"/><path class=\"p2\" d=\"M3 6V4h3M18 4h3v2M21 18v2h-3M6 20H3v-2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "equalize", "dur": 900, "delay": 500, "origin": "bottom" }
+  ]
+}

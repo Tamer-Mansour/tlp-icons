@@ -1,0 +1,11 @@
+{
+  "name": "quarter-square",
+  "category": "shapes",
+  "tags": ["quarter", "square", "quadrant", "fraction", "grid", "divide"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\"/><rect class=\"d p2\" x=\"12\" y=\"3\" width=\"9\" height=\"9\"/><path class=\"p3\" d=\"M12 3V21M3 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

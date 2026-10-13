@@ -1,0 +1,11 @@
+{
+  "name": "foal",
+  "category": "nature",
+  "tags": ["foal", "young horse", "short mane", "baby horse", "farm"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"7\" ry=\"4\"/><path class=\"p2\" d=\"M16 12 L18 6 L21 6 L20 9 L18 12\"/><path class=\"p3\" d=\"M7 17 V21 M15 17 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 1100 }
+  ]
+}

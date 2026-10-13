@@ -1,0 +1,11 @@
+{
+  "name": "insights-lightbulb",
+  "category": "charts",
+  "tags": ["insight", "idea", "bulb", "analytics", "light", "trend"],
+  "svg": "<path class=\"d p1\" d=\"M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1V17h5v-1c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z\"/><path class=\"p2\" d=\"M9.5 11l2-2 1.5 1.5 2.5-2.5\"/><path class=\"p3\" d=\"M9.5 21h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

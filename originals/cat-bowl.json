@@ -1,0 +1,10 @@
+{
+  "name": "cat-bowl",
+  "category": "nature",
+  "tags": ["cat", "bowl", "pet", "food", "fish"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 C21 17 17 20 12 20 C7 20 3 17 3 11 Z\"/><ellipse class=\"p2\" cx=\"9.5\" cy=\"14\" rx=\"2.5\" ry=\"1.4\"/><path class=\"p2\" d=\"M12 14 L14.5 12.5 V15.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 900 }
+  ]
+}

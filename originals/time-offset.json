@@ -1,0 +1,11 @@
+{
+  "name": "time-offset",
+  "category": "time",
+  "tags": ["time", "offset", "clock", "shift", "adjust", "timezone"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M10 8.5V12l2 1.5\"/><path class=\"p3\" d=\"M18 3v7M15.5 5.5 18 3l2.5 2.5M18 21v-7M15.5 18.5 18 21l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "caesar-cipher",
+  "category": "text",
+  "tags": ["caesar", "cipher", "rotate", "shift", "letters"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8.5\" r=\"3.5\"/><circle class=\"p2\" cx=\"15\" cy=\"15.5\" r=\"3.5\"/><path class=\"p3\" d=\"M14 4H20V10\"/><path class=\"p4\" d=\"M18 8L20 10L22 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "molar-mass",
+  "category": "science",
+  "tags": ["chemistry", "mass", "mole", "scale", "weight", "measure"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18M12 5v15M8 20h8M3 5v6M21 5v6\"/><path class=\"d p2\" d=\"M1.5 11h9a4.5 4.5 0 0 1-9 0z\"/><path class=\"d p3\" d=\"M13.5 11h9a4.5 4.5 0 0 1-9 0z\"/><circle class=\"f p4\" cx=\"18\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

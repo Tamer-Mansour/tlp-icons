@@ -1,0 +1,10 @@
+{
+  "name": "standing-stones",
+  "category": "buildings",
+  "tags": ["standing", "stones", "ancient", "lintel", "megalith", "monument"],
+  "svg": "<path class=\"p1\" d=\"M5 21V10M19 21V10M12 21V15\"/><rect class=\"d p2\" x=\"2\" y=\"5\" width=\"20\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 800 }
+  ]
+}

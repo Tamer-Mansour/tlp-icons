@@ -1,0 +1,11 @@
+{
+  "name": "parsley",
+  "category": "nature",
+  "tags": ["parsley", "herb", "leaf", "sprig", "garnish"],
+  "svg": "<path class=\"p1\" d=\"M12 22 V9\"/><path class=\"p2\" d=\"M12 9 Q9 6 12 2.5 Q15 6 12 9 Z\"/><path class=\"p3\" d=\"M11.5 14 Q6 14 3.5 9.5 Q8 7 11.5 14 Z M12.5 14 Q18 14 20.5 9.5 Q16 7 12.5 14 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 14px" }
+  ]
+}

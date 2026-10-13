@@ -1,0 +1,11 @@
+{
+  "name": "radio-list",
+  "category": "interface",
+  "tags": ["radio", "options", "choice", "list", "select"],
+  "svg": "<path class=\"p1\" d=\"M3.5 5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M3.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M3.5 19a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M12 5H20M12 12H20M12 19H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

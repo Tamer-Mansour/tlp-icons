@@ -1,0 +1,10 @@
+{
+  "name": "level-badge",
+  "category": "people",
+  "tags": ["level", "rank", "tier", "badge", "progress", "stage"],
+  "svg": "<path class=\"p1\" d=\"M5 11.5L12 5.5l7 6M5 17l7-6 7 6\"/><path class=\"p2\" d=\"M8 20.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

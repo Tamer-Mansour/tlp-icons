@@ -1,0 +1,11 @@
+{
+  "name": "hamburger-menu",
+  "category": "interface",
+  "tags": ["menu", "hamburger", "navigation", "lines", "drawer"],
+  "svg": "<path class=\"p1\" d=\"M4 7h16\"/><path class=\"p2\" d=\"M4 12h16\"/><path class=\"p3\" d=\"M4 17h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 500 }
+  ]
+}

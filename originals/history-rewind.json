@@ -1,0 +1,10 @@
+{
+  "name": "history-rewind",
+  "category": "interface",
+  "tags": ["history", "rewind", "undo", "back", "previous", "reverse", "time"],
+  "svg": "<path class=\"p1\" d=\"M3 12A9 9 0 1 0 12 3M9 3h3v3\"/><path class=\"p2\" d=\"M11 9L8 12l3 3M16 9l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "catch-all-tray",
+  "category": "home",
+  "tags": ["tray", "dish", "catch", "key", "coin", "metal"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h18c0 4-4 6.5-9 6.5S3 17 3 13z\"/><circle class=\"p2\" cx=\"8\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M10 9h3\"/><circle class=\"p3\" cx=\"17\" cy=\"9\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "face-kissing",
+  "category": "emoji",
+  "tags": ["face", "kissing", "kiss", "love", "heart"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"10\" r=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"1.5\"/><path class=\"p4\" d=\"M19 9 16 6a2 2 0 0 1 3-2.6A2 2 0 0 1 22 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 },
+    { "part": "p4", "anim": "beat", "dur": 700, "delay": 1400 }
+  ]
+}

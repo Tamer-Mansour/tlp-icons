@@ -1,0 +1,11 @@
+{
+  "name": "square-brackets",
+  "category": "text",
+  "tags": ["square", "brackets", "text", "code", "array", "enclose"],
+  "svg": "<path class=\"p1\" d=\"M8 4H5v16h3\"/><path class=\"p2\" d=\"M16 4h3v16h-3\"/><path class=\"p3\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 900 }
+  ]
+}

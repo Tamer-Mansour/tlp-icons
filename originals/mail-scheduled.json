@@ -1,0 +1,11 @@
+{
+  "name": "mail-scheduled",
+  "category": "communication",
+  "tags": ["mail", "scheduled", "calendar", "envelope", "planned", "timed"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"11\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2 8l5.5 4.5L13 8\"/><circle class=\"p3\" cx=\"18.5\" cy=\"16\" r=\"3.5\"/><path class=\"p3\" d=\"M18.5 14.5v2l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "command-bar",
+  "category": "layout",
+  "tags": ["command", "prompt", "search bar", "terminal", "input"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"3\"/><polyline class=\"p2\" points=\"6.5 10 8.5 12 6.5 14\"/><line class=\"p3\" x1=\"11\" y1=\"12\" x2=\"16\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

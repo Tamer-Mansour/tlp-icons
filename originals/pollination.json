@@ -1,0 +1,11 @@
+{
+  "name": "pollination",
+  "category": "nature",
+  "tags": ["flower", "pollen", "bloom", "plant", "bee"],
+  "svg": "<circle class=\"d p1\" cx=\"14\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M14 12 V21 M14 17 C11 17 9 15 9 13 C12 13 14 15 14 17\"/><circle class=\"f p3\" cx=\"5\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "count-down",
+  "category": "math",
+  "tags": ["count", "down", "decrease", "arrow", "countdown"],
+  "svg": "<path class=\"p1\" d=\"M16 4v15M12 15l4 4 4-4\"/><path class=\"p2\" d=\"M3 7h5M3 11h5M3 15h5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "sink", "dur": 700, "delay": 600 }
+  ]
+}

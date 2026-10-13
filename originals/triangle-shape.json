@@ -1,0 +1,10 @@
+{
+  "name": "triangle-shape",
+  "category": "emoji",
+  "tags": ["triangle", "shape", "polygon", "geometry", "sides", "corner"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 20.66 18 3.34 18\"/><polygon class=\"p2\" points=\"12 8 16.33 15.5 7.67 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 1000 }
+  ]
+}

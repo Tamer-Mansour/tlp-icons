@@ -1,0 +1,10 @@
+{
+  "name": "crossfade",
+  "category": "media",
+  "tags": ["crossfade", "blend", "wave", "transition", "audio", "mix"],
+  "svg": "<path class=\"p1\" d=\"M2 7Q7 3 12 12Q17 21 22 17\"/><path class=\"p2\" d=\"M2 17Q7 21 12 12Q17 3 22 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

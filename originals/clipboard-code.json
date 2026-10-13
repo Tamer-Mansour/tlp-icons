@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-code",
+  "category": "development",
+  "tags": ["clipboard", "code", "copy", "paste", "snippet", "board"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 11l-2 2 2 2M14.5 11l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

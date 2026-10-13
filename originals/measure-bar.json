@@ -1,0 +1,10 @@
+{
+  "name": "measure-bar",
+  "category": "media",
+  "tags": ["measure", "bar", "staff", "music", "notation"],
+  "svg": "<line class=\"p1\" x1=\"8\" y1=\"3\" x2=\"8\" y2=\"21\"/><path class=\"p2\" d=\"M11 8H21M11 16H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

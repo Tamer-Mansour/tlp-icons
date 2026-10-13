@@ -1,0 +1,11 @@
+{
+  "name": "punch-mitt",
+  "category": "sport",
+  "tags": ["punch", "mitt", "boxing", "pad", "training"],
+  "svg": "<path class=\"d p1\" d=\"M7 6C7 4 9 3 11 3H14C17 3 18 5 18 8V13C18 15.5 16 16.5 13 16.5H10C8 16.5 7 15.5 7 14Z\"/><path class=\"p2\" d=\"M7 11Q12 15 18 11\"/><rect class=\"p3\" x=\"6\" y=\"18.5\" width=\"12\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1300 }
+  ]
+}

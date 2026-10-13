@@ -1,0 +1,10 @@
+{
+  "name": "night-vision",
+  "category": "devices",
+  "tags": ["night", "vision", "goggles", "lens", "dark", "moon"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"d p2\" d=\"M15 6.5a6 6 0 1 0 0 11a10.8 10.8 0 0 1 0-11z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

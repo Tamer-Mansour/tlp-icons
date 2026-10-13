@@ -1,0 +1,11 @@
+{
+  "name": "coin-stack",
+  "category": "interface",
+  "tags": ["coins", "stack", "money", "savings", "cash", "currency"],
+  "svg": "<ellipse class=\"p3\" cx=\"12\" cy=\"18\" rx=\"7\" ry=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"11.5\" rx=\"7\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"12\" cy=\"5\" rx=\"7\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 400, "delay": 250 },
+    { "part": "p1", "anim": "flipY", "dur": 700, "delay": 700 }
+  ]
+}

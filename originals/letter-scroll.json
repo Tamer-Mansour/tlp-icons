@@ -1,0 +1,11 @@
+{
+  "name": "letter-scroll",
+  "category": "communication",
+  "tags": ["letter", "scroll", "parchment", "message", "old", "roll", "text"],
+  "svg": "<rect class=\"p2\" x=\"4\" y=\"2\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"d p1\" d=\"M6 7h12v10H6z\"/><rect class=\"p2\" x=\"4\" y=\"19\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 10.5h6M9 13.5h6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "unfold", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

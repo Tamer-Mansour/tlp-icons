@@ -1,0 +1,11 @@
+{
+  "name": "outline-list",
+  "category": "text",
+  "tags": ["nested", "bullets", "list", "indent", "outline"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"1.5\"/><path class=\"p1\" d=\"M9 6h11\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"1.5\"/><path class=\"p2\" d=\"M13 12h7\"/><circle class=\"p3\" cx=\"9\" cy=\"18\" r=\"1.5\"/><path class=\"p3\" d=\"M13 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

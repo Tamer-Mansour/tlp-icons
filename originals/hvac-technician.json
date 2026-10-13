@@ -1,0 +1,12 @@
+{
+  "name": "hvac-technician",
+  "category": "people",
+  "tags": ["hvac", "technician", "fan", "air", "repair", "ventilation"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12C10 9 10.5 5.5 12 4.5C13.5 6 14 9.5 12 12Z\"/><path class=\"d p2\" transform=\"rotate(120 12 12)\" d=\"M12 12C10 9 10.5 5.5 12 4.5C13.5 6 14 9.5 12 12Z\"/><path class=\"d p2\" transform=\"rotate(240 12 12)\" d=\"M12 12C10 9 10.5 5.5 12 4.5C13.5 6 14 9.5 12 12Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 1000, "delay": 800, "origin": "12px 12px" },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1400 }
+  ]
+}
+

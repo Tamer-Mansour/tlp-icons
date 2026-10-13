@@ -1,0 +1,10 @@
+{
+  "name": "architect-scale",
+  "category": "tools",
+  "tags": ["scale", "ruler", "architect", "measure", "drafting", "triangle"],
+  "svg": "<polygon class=\"d p1\" points=\"4,20 20,20 20,4\"/><path class=\"p2\" d=\"M8 20v-2.5M12 20v-4M16 20v-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

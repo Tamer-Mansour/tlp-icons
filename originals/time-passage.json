@@ -1,0 +1,11 @@
+{
+  "name": "time-passage",
+  "category": "time",
+  "tags": ["time", "passage", "clocks", "change", "duration", "transition"],
+  "svg": "<circle class=\"d p1\" cx=\"5.5\" cy=\"12\" r=\"3.5\"/><path class=\"p1\" d=\"M5.5 10v2.5l1.5 1\"/><path class=\"p2\" d=\"M10 12h4M12.5 10.5 14 12l-1.5 1.5\"/><circle class=\"p3\" cx=\"18.5\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M18.5 10v2.5l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 700, "delay": 1000 }
+  ]
+}

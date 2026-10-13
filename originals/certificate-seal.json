@@ -1,0 +1,11 @@
+{
+  "name": "certificate-seal",
+  "category": "security",
+  "tags": ["certificate", "seal", "document", "verified", "stamp", "trust"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h10l4 4v6H5z\"/><path class=\"p2\" d=\"M8 8h8M8 10.5h5\"/><circle class=\"p3\" cx=\"12\" cy=\"17.5\" r=\"3\"/><path class=\"p3\" d=\"M9.5 19.6l-1 2.4 2.5-1M14.5 19.6l1 2.4-2.5-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

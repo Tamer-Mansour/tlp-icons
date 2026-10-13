@@ -1,0 +1,10 @@
+{
+  "name": "dub-audio",
+  "category": "media",
+  "tags": ["dub", "voice", "audio", "speech", "translate", "overdub"],
+  "svg": "<path class=\"p1\" d=\"M3 4h12v10H9l-4 3v-3H3z\"/><path class=\"p2\" d=\"M18 8v6M21 10v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "equalize", "dur": 1000, "delay": 900, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pane-divider-drag",
+  "category": "layout",
+  "tags": ["pane", "divider", "drag", "resize", "layout"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M9 12H4M6 10L4 12L6 14M15 12H20M18 10L20 12L18 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 500 }
+  ]
+}

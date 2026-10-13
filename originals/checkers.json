@@ -1,0 +1,10 @@
+{
+  "name": "checkers",
+  "category": "sport",
+  "tags": ["checkers", "draughts", "disc", "game", "board", "crown"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 500 }
+  ]
+}

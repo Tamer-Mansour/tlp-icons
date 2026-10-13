@@ -1,0 +1,11 @@
+{
+  "name": "pace-clock",
+  "category": "sport",
+  "tags": ["stopwatch", "pace", "clock", "lap", "timer", "running"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M12 13V9\"/><path class=\"p3\" d=\"M19 5.5A10 10 0 0 1 21 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1400, "delay": 800, "origin": "12px 13px" }
+  ]
+}

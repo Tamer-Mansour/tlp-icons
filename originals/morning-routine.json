@@ -1,0 +1,11 @@
+{
+  "name": "morning-routine",
+  "category": "time",
+  "tags": ["morning", "routine", "sunrise", "checklist", "habit", "daily"],
+  "svg": "<path class=\"d p1\" d=\"M7 12a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M3 12h18\"/><path class=\"p3\" d=\"M5 15.5h14M5 18.5h14M5 21.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 1300 }
+  ]
+}

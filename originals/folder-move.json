@@ -1,0 +1,10 @@
+{
+  "name": "folder-move",
+  "category": "files",
+  "tags": ["folder", "move", "transfer", "relocate", "arrow", "send"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M7 14.5h8M12 11.5l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 500 }
+  ]
+}

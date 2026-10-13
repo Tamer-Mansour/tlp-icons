@@ -1,0 +1,11 @@
+{
+  "name": "incense-holder",
+  "category": "home",
+  "tags": ["incense", "holder", "stick", "smoke", "dish", "aroma"],
+  "svg": "<path class=\"d p1\" d=\"M4 19H20Q20 21 18 21H6Q4 21 4 19Z\"/><path class=\"p2\" d=\"M12 19V10\"/><path class=\"p3\" d=\"M12 8Q13.5 6 12 4Q10.5 2 12 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

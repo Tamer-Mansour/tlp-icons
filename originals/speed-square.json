@@ -1,0 +1,11 @@
+{
+  "name": "speed-square",
+  "category": "tools",
+  "tags": ["speed", "square", "framing", "triangle", "carpentry", "angle"],
+  "svg": "<path class=\"d p1\" d=\"M3 21 V3 L21 21 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"16\" r=\"1.5\"/><path class=\"p3\" d=\"M12 14 H14 M10 18 H12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

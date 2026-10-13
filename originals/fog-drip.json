@@ -1,0 +1,10 @@
+{
+  "name": "fog-drip",
+  "category": "weather",
+  "tags": ["fog", "drip", "droplet", "mist", "water", "damp"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18M6 10.5h12\"/><path class=\"d p2\" d=\"M12 14c0 0-3 3-3 5a3 3 0 0 0 6 0c0-2-3-5-3-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

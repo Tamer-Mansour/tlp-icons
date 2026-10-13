@@ -1,0 +1,10 @@
+{
+  "name": "clip-path",
+  "category": "shapes",
+  "tags": ["clip", "corner", "square", "cut", "shape"],
+  "svg": "<path class=\"p1\" d=\"M8 3H21V21H3V8Z\"/><path class=\"p2\" d=\"M7 16L11 9L15 16Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

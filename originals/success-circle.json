@@ -1,0 +1,10 @@
+{
+  "name": "success-circle",
+  "category": "interface",
+  "tags": ["success", "done", "check", "confirmed", "complete", "approved"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><polyline class=\"p2\" points=\"7.5,12.5 10.5,15.5 16.5,9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

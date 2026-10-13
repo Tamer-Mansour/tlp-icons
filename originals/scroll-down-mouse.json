@@ -1,0 +1,11 @@
+{
+  "name": "scroll-down-mouse",
+  "category": "arrows",
+  "tags": ["scroll", "mouse", "wheel", "down", "page"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"14\" rx=\"6\"/><circle class=\"f p2\" cx=\"12\" cy=\"6.5\" r=\"1\"/><path class=\"p3\" d=\"M8.5 19 L12 22 L15.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

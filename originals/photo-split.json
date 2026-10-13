@@ -1,0 +1,10 @@
+{
+  "name": "photo-split",
+  "category": "photography",
+  "tags": ["photo", "split", "divide", "cut line", "dashed"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M12 7v2M12 11v2M12 15v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 600 }
+  ]
+}

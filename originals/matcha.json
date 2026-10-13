@@ -1,0 +1,11 @@
+{
+  "name": "matcha",
+  "category": "food",
+  "tags": ["tea", "green", "drink", "whisk", "japanese"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18a9 6 0 0 1-18 0z\"/><path class=\"p2\" d=\"M7 11q2.5-2 5 0t5 0\"/><path class=\"p3\" d=\"M12 3v5M10 3.5l-.5 4M14 3.5l.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 800, "delay": 1100, "origin": "12px 8px" }
+  ]
+}

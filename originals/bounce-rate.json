@@ -1,0 +1,11 @@
+{
+  "name": "bounce-rate",
+  "category": "charts",
+  "tags": ["bounce", "rate", "return", "visitors", "arrow", "traffic"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2\"/><path class=\"p2\" d=\"M7 7c6 0 9 5 10 9M13 16h4v-4\"/><circle class=\"p3\" cx=\"19\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 1000 }
+  ]
+}

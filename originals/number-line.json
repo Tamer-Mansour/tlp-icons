@@ -1,0 +1,10 @@
+{
+  "name": "number-line",
+  "category": "math",
+  "tags": ["number", "line", "axis", "ticks", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M2 12 H21\"/><polyline class=\"p1\" points=\"18 9 21 12 18 15\"/><line class=\"p2\" x1=\"6\" y1=\"10\" x2=\"6\" y2=\"14\"/><line class=\"p2\" x1=\"10\" y1=\"10\" x2=\"10\" y2=\"14\"/><line class=\"p2\" x1=\"14\" y1=\"10\" x2=\"14\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

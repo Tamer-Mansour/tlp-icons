@@ -1,0 +1,11 @@
+{
+  "name": "ellipsoid",
+  "category": "shapes",
+  "tags": ["ellipsoid", "sphere", "oval", "3d", "meridian", "solid"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"3.5\" ry=\"7\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "flipY", "dur": 1000, "delay": 1100 }
+  ]
+}

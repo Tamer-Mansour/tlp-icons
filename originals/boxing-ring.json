@@ -1,0 +1,11 @@
+{
+  "name": "boxing-ring",
+  "category": "sport",
+  "tags": ["boxing", "ring", "fight", "corner", "ropes", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M3 6H21V18H3Z\"/><path class=\"p2\" d=\"M3 10H21M3 14H21\"/><path class=\"p3\" d=\"M3 3V21M21 3V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

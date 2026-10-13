@@ -1,0 +1,11 @@
+{
+  "name": "backgammon-board",
+  "category": "sport",
+  "tags": ["backgammon", "board", "dice", "triangles", "game", "tables"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M4 4l2.5 6 2.5-6M15 4l2.5 6 2.5-6M4 20l2.5-6 2.5 6M15 20l2.5-6 2.5 6\"/><path class=\"p3\" d=\"M12 4v16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

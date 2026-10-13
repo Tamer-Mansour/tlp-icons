@@ -1,0 +1,10 @@
+{
+  "name": "document-sleeve",
+  "category": "files",
+  "tags": ["document", "sleeve", "page", "folder", "protect", "file"],
+  "svg": "<path class=\"p1\" d=\"M3 6v15h18V6\"/><rect class=\"d p2\" x=\"7\" y=\"2\" width=\"10\" height=\"12\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "oyster-knife",
+  "category": "food",
+  "tags": ["oyster", "knife", "shucking", "seafood", "blade", "guard"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 12L8 9.5v5z\"/><rect class=\"p2\" x=\"11\" y=\"7\" width=\"2.5\" height=\"10\" rx=\"1\"/><rect class=\"p3\" x=\"13.5\" y=\"10\" width=\"7\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

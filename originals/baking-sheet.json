@@ -1,0 +1,10 @@
+{
+  "name": "baking-sheet",
+  "category": "food",
+  "tags": ["baking", "sheet", "tray", "oven", "cookie"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M9 9 V19 M15 9 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

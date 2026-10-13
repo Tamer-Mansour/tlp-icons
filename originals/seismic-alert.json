@@ -1,0 +1,11 @@
+{
+  "name": "seismic-alert",
+  "category": "notifications",
+  "tags": ["seismic", "earthquake", "alert", "wave", "tremor", "warning"],
+  "svg": "<polyline class=\"p1\" points=\"2 12 5 12 7.5 7 10.5 15 13 9 15 12 17 12\"/><path class=\"p2\" d=\"M2 20q2.5-1.5 5 0t5 0t5 0\"/><path class=\"p3\" d=\"M20 6v7\"/><circle class=\"f p3\" cx=\"20\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

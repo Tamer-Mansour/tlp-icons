@@ -1,0 +1,10 @@
+{
+  "name": "light-pillar",
+  "category": "weather",
+  "tags": ["light", "pillar", "beam", "horizon", "sky", "atmosphere"],
+  "svg": "<path class=\"p2\" d=\"M3 17h18\"/><rect class=\"p1\" x=\"10\" y=\"3\" width=\"4\" height=\"10\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 400, "origin": "bottom" }
+  ]
+}

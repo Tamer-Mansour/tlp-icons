@@ -1,0 +1,10 @@
+{
+  "name": "jellyfish-body",
+  "category": "science",
+  "tags": ["biology", "jellyfish", "sea", "tentacle", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M4 12a8 8 0 0 1 16 0z\"/><path class=\"p2\" d=\"M8 14l-1 2 1 2-1 2M12 14l-1 2 1 2-1 2M16 14l-1 2 1 2-1 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 700, "origin": "12px 14px" }
+  ]
+}

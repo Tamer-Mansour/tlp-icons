@@ -1,0 +1,10 @@
+{
+  "name": "user-goal",
+  "category": "people",
+  "tags": ["user", "goal", "flag", "finish", "target", "person", "milestone"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h5a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M19.5 2.5v19\"/><path class=\"p2\" d=\"M19.5 3h3.5l-1.2 2.25 1.2 2.25h-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 600, "origin": "19.5px 3px" }
+  ]
+}

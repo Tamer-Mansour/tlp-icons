@@ -1,0 +1,11 @@
+{
+  "name": "midnight-sun",
+  "category": "weather",
+  "tags": ["midnight", "sun", "horizon", "arctic", "summer", "night"],
+  "svg": "<path class=\"d p1\" d=\"M7 16 A5 5 0 0 1 17 16 Z\"/><path class=\"p2\" d=\"M2 16 H22\"/><path class=\"p3\" d=\"M12 7 V5 M6.5 9.5 L5 8 M17.5 9.5 L19 8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1300 }
+  ]
+}

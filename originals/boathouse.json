@@ -1,0 +1,11 @@
+{
+  "name": "boathouse",
+  "category": "buildings",
+  "tags": ["boat", "house", "water", "shed", "dock", "lake"],
+  "svg": "<path class=\"d p1\" d=\"M4 11.5L12 4.5l8 7V16H4z\"/><path class=\"p2\" d=\"M10 16v-3.5h4V16\"/><path class=\"p3\" d=\"M2 20q2.5-1.5 5 0t5 0 5 0 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "haptic-feedback",
+  "category": "notifications",
+  "tags": ["haptic", "vibration", "phone", "buzz", "feedback", "touch"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2.5\"/><path class=\"p2\" d=\"M5 9.5q-1 2.5 0 5M3 7.5q-1 4.5 0 9\"/><path class=\"p3\" d=\"M19 9.5q1 2.5 0 5M21 7.5q1 4.5 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 800 }
+  ]
+}

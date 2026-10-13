@@ -1,0 +1,11 @@
+{
+  "name": "starter-flag",
+  "category": "sport",
+  "tags": ["starter", "flag", "signal", "race", "sport", "wave"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18\"/><path class=\"d p2\" d=\"M6 4h11l-3 3.5 3 3.5H6Z\"/><path class=\"p3\" d=\"M20 2.5c1.2 1.5 1.2 4 0 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

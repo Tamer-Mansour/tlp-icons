@@ -1,0 +1,10 @@
+{
+  "name": "astronaut-helmet",
+  "category": "science",
+  "tags": ["astronaut", "helmet", "space", "visor", "spacesuit", "mission"],
+  "svg": "<path class=\"d p1\" d=\"M5 14 A7 7 0 0 1 19 14 V17 A2 2 0 0 1 17 19 H7 A2 2 0 0 1 5 17 Z\"/><rect class=\"p2\" x=\"8\" y=\"9\" width=\"8\" height=\"5\" rx=\"2\"/><line class=\"p2\" x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

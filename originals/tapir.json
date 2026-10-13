@@ -1,0 +1,11 @@
+{
+  "name": "tapir",
+  "category": "nature",
+  "tags": ["tapir", "trunk", "animal", "stout", "mammal", "forest"],
+  "svg": "<ellipse class=\"d p1\" cx=\"13\" cy=\"13\" rx=\"7\" ry=\"4\"/><path class=\"p2\" d=\"M6 12c-2 0-3 2-3 4s1 3 2 3\"/><path class=\"p3\" d=\"M9 17v3M17 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 }
+  ]
+}

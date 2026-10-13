@@ -1,0 +1,11 @@
+{
+  "name": "phone-lock",
+  "category": "security",
+  "tags": ["phone", "lock", "mobile", "secure", "screen", "device"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><circle class=\"f p1\" cx=\"12\" cy=\"18.5\" r=\"0.8\"/><rect class=\"d p2\" x=\"9.5\" y=\"9\" width=\"5\" height=\"4.5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 9V7.8A1.5 1.5 0 0 1 13.5 7.8V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

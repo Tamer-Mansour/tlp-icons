@@ -1,0 +1,11 @@
+{
+  "name": "solar-oven",
+  "category": "science",
+  "tags": ["oven", "solar", "sun", "cooking", "heat", "energy"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"14\" width=\"16\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M3 10 L17 7\"/><path class=\"p3\" d=\"M21 2 L19.5 3.5 M22 6 L20.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 900 }
+  ]
+}

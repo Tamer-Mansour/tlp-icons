@@ -1,0 +1,11 @@
+{
+  "name": "scramble-text",
+  "category": "security",
+  "tags": ["scramble", "swap", "letters", "shuffle", "cipher"],
+  "svg": "<path class=\"p1\" d=\"M3 7h4l10 10h4\"/><path class=\"p2\" d=\"M3 17h4l10-10h4\"/><path class=\"p3\" d=\"M18 4l3 3-3 3M18 14l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 600 }
+  ]
+}

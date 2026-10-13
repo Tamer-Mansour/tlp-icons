@@ -1,0 +1,10 @@
+{
+  "name": "pipe-bender",
+  "category": "tools",
+  "tags": ["pipe", "bender", "bend", "roller", "plumbing", "metal"],
+  "svg": "<path class=\"p1\" d=\"M3 6h10a5 5 0 0 1 5 5v9\"/><circle class=\"p2\" cx=\"13\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

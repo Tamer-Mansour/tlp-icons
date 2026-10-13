@@ -1,0 +1,10 @@
+{
+  "name": "taskbar-strip",
+  "category": "interface",
+  "tags": ["taskbar", "strip", "dock", "bar", "apps", "desktop"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"16\" width=\"20\" height=\"6\" rx=\"1.5\"/><rect class=\"p2\" x=\"5\" y=\"18\" width=\"2\" height=\"2\"/><rect class=\"p2\" x=\"11\" y=\"18\" width=\"2\" height=\"2\"/><rect class=\"p2\" x=\"17\" y=\"18\" width=\"2\" height=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

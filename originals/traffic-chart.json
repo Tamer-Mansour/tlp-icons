@@ -1,0 +1,10 @@
+{
+  "name": "traffic-chart",
+  "category": "charts",
+  "tags": ["traffic", "chart", "growth", "visits", "rising", "trend"],
+  "svg": "<path class=\"p1\" d=\"M3 18C7 16 9 12 13 11S19 6 21 4\"/><path class=\"p2\" d=\"M16 4H21V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

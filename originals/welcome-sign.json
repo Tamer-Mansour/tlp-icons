@@ -1,0 +1,10 @@
+{
+  "name": "welcome-sign",
+  "category": "home",
+  "tags": ["welcome", "sign", "door", "hanging", "greeting", "entrance"],
+  "svg": "<path class=\"p1\" d=\"M7.5 2.5v6.5M16.5 2.5v6.5\"/><rect class=\"d p2\" x=\"4\" y=\"9\" width=\"16\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M8 13.5h8M9.5 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 700, "origin": "12px 9px" }
+  ]
+}

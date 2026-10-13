@@ -1,0 +1,10 @@
+{
+  "name": "tsunami",
+  "category": "nature",
+  "tags": ["tsunami", "wave", "sea", "flood", "giant"],
+  "svg": "<path class=\"p1\" d=\"M2 18c3-9 7-13 12-13 3 0 5 2 5 5s-2 4-4 2\"/><path class=\"p2\" d=\"M7 21h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

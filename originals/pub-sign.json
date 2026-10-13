@@ -1,0 +1,11 @@
+{
+  "name": "pub-sign",
+  "category": "buildings",
+  "tags": ["pub", "sign", "board", "bracket", "hanging"],
+  "svg": "<path class=\"p1\" d=\"M3 3V21M3 5H13M3 9L6 6\"/><path class=\"p3\" d=\"M9 5V9M17 5V9\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"12\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "13px 5px" }
+  ]
+}

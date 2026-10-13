@@ -1,0 +1,11 @@
+{
+  "name": "glossary",
+  "category": "text",
+  "tags": ["glossary", "cards", "terms", "index", "dictionary"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"14\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M17 8h4M17 12h4M17 16h4\"/><path class=\"p3\" d=\"M7 9h6M7 13h6M7 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "shuffle-symbol",
+  "category": "emoji",
+  "tags": ["shuffle", "random", "crossing", "arrows", "mix"],
+  "svg": "<path class=\"p1\" d=\"M4 7h3c3 0 4 2 5 5s2 5 5 5h3\"/><path class=\"p1\" d=\"M4 17h3c3 0 4-2 5-5s2-5 5-5h3\"/><path class=\"p2\" d=\"M17 4l3 3-3 3\"/><path class=\"p2\" d=\"M17 14l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

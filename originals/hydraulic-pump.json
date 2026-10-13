@@ -1,0 +1,11 @@
+{
+  "name": "hydraulic-pump",
+  "category": "devices",
+  "tags": ["hydraulic", "pump", "gear", "fluid", "pressure", "machine"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M2 12 H6 M18 12 H22\"/><path class=\"p3\" d=\"M12 10 V14 M10 12 H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

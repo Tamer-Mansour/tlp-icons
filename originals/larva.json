@@ -1,0 +1,11 @@
+{
+  "name": "larva",
+  "category": "nature",
+  "tags": ["grub", "curled", "segments", "insect", "young"],
+  "svg": "<path class=\"p1\" d=\"M17 6 C12 3 5 5 5 12 C5 19 12 21 17 17\"/><path class=\"p2\" d=\"M5.5 9 L8 10 M5 13.5 L8 13.5 M7 17.5 L9.5 16\"/><circle class=\"f p3\" cx=\"17\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

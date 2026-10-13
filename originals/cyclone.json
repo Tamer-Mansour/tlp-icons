@@ -1,0 +1,11 @@
+{
+  "name": "cyclone",
+  "category": "weather",
+  "tags": ["cyclone", "spiral", "swirl", "storm", "wind", "weather"],
+  "svg": "<path class=\"p1\" d=\"M5 12 A7 7 0 0 1 12 5\"/><path class=\"p2\" d=\"M19 12 A7 7 0 0 1 12 19\"/><path class=\"p3\" d=\"M9 12 A3 3 0 0 1 12 9 M15 12 A3 3 0 0 1 12 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

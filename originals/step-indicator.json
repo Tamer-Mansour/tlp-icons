@@ -1,0 +1,11 @@
+{
+  "name": "step-indicator",
+  "category": "interface",
+  "tags": ["steps", "progress", "indicator", "dots", "wizard", "stage"],
+  "svg": "<circle class=\"d p1\" cx=\"4.5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"19.5\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M7 12h2.5M14.5 12h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stir-pot",
+  "category": "food",
+  "tags": ["stir", "pot", "spoon", "cook", "soup"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 H20 V18 Q20 21 17 21 H7 Q4 21 4 18 Z\"/><line class=\"p2\" x1=\"16\" y1=\"2\" x2=\"12\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 600, "origin": "12px 10px" }
+  ]
+}

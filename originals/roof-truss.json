@@ -1,0 +1,11 @@
+{
+  "name": "roof-truss",
+  "category": "tools",
+  "tags": ["truss","roof","triangle","beams","structure","carpentry"],
+  "svg": "<path class=\"d p1\" d=\"M2 20L12 4l10 16z\"/><path class=\"p2\" d=\"M12 4v16\"/><path class=\"p3\" d=\"M7 12h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

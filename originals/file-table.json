@@ -1,0 +1,12 @@
+{
+  "name": "file-table",
+  "category": "files",
+  "tags": ["table", "rows", "header", "data", "spreadsheet", "grid"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M6 7h12v10H6z\"/><path class=\"d p3\" d=\"M6 7h12v3H6z\"/><path class=\"p4\" d=\"M6 10h12M6 14h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

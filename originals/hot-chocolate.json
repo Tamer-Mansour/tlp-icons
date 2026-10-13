@@ -1,0 +1,12 @@
+{
+  "name": "hot-chocolate",
+  "category": "food",
+  "tags": ["hot chocolate", "cocoa", "mug", "steam", "marshmallow", "winter"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h11v8a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M16 11h1.5a2 2 0 0 1 0 4H16\"/><ellipse class=\"p3\" cx=\"10.5\" cy=\"8\" rx=\"2.5\" ry=\"1\"/><path class=\"p4\" d=\"M9 3c0 1.5 1 1.5 1 3M13 3c0 1.5 1 1.5 1 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "zoomIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "float", "dur": 900, "delay": 1100 }
+  ]
+}

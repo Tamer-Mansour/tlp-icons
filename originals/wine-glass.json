@@ -1,0 +1,12 @@
+{
+  "name": "wine-glass",
+  "category": "food",
+  "tags": ["wine", "glass", "drink", "alcohol", "bar"],
+  "svg": "<path class=\"p1 d\" d=\"M7 3 H17 Q17 11 12 13 Q7 11 7 3 Z\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"12\" y2=\"21\"/><line class=\"p3\" x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/><line class=\"p4\" x1=\"9.5\" y1=\"5.5\" x2=\"10\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "twinkle", "dur": 700, "delay": 1100 }
+  ]
+}

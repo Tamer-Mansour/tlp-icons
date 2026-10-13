@@ -1,0 +1,10 @@
+{
+  "name": "rip-current",
+  "category": "weather",
+  "tags": ["rip", "current", "sea", "danger", "surf", "beach"],
+  "svg": "<path class=\"p1\" d=\"M3 14c2-2 4-2 6 0M15 14c2-2 4-2 6 0\"/><path class=\"p2\" d=\"M12 20V6M9 9l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 1000, "delay": 500 }
+  ]
+}

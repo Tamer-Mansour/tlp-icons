@@ -1,0 +1,11 @@
+{
+  "name": "mail-route-map",
+  "category": "communication",
+  "tags": ["map", "route", "mail", "delivery", "path", "folded"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><path class=\"p2\" d=\"M7 14c2-3 4 1 6-2\"/><circle class=\"f p3\" cx=\"17\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

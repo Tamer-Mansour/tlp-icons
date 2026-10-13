@@ -1,0 +1,11 @@
+{
+  "name": "crimp-tool",
+  "category": "tools",
+  "tags": ["crimp", "pliers", "tool", "terminal", "wire", "electrician"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"8\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M13 6 L19 12 L13 18\"/><line class=\"p3\" x1=\"10\" y1=\"12\" x2=\"13\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

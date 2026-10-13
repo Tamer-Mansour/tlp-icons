@@ -1,0 +1,11 @@
+{
+  "name": "face-screaming",
+  "category": "emoji",
+  "tags": ["scream", "shock", "face", "fear", "horror"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7 6.5l2 1M17 6.5l-2 1\"/><ellipse class=\"p3\" cx=\"12\" cy=\"15.5\" rx=\"2.5\" ry=\"3\"/><circle class=\"f\" cx=\"9\" cy=\"10.5\" r=\"1\"/><circle class=\"f\" cx=\"15\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 900, "delay": 1100 }
+  ]
+}

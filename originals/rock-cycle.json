@@ -1,0 +1,26 @@
+{
+    "name":  "rock-cycle",
+    "category":  "science",
+    "tags":  [
+                 "rock",
+                 "cycle",
+                 "geology",
+                 "igneous",
+                 "transform"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M20 12A8 8 0 1 1 17.7 6.3M17.7 2.8V6.3H14.2\"/\u003e\u003cpath class=\"d p2\" d=\"M12 9.5L15 14.5H9Z\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  1000
+                   },
+                   {
+                       "delay":  1000,
+                       "anim":  "popIn",
+                       "part":  "p2",
+                       "dur":  500
+                   }
+               ]
+}

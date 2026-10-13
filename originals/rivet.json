@@ -1,0 +1,11 @@
+{
+  "name": "rivet",
+  "category": "tools",
+  "tags": ["rivet", "pin", "fastener", "metal", "plates", "joint"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"3\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 6v11\"/><path class=\"p3\" d=\"M3 10h18M3 15h18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "stamp", "dur": 500, "delay": 900 }
+  ]
+}

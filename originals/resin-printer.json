@@ -1,0 +1,10 @@
+{
+  "name": "resin-printer",
+  "category": "devices",
+  "tags": ["resin", "printer", "vat", "3d", "platform", "print"],
+  "svg": "<polyline class=\"p1\" points=\"4 13 4 20 20 20 20 13\"/><path class=\"d p2\" d=\"M8.5 9 H15.5 V11 H8.5 Z\"/><line class=\"p2\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 900, "delay": 600 }
+  ]
+}

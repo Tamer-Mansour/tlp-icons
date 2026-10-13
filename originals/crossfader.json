@@ -1,0 +1,11 @@
+{
+  "name": "crossfader",
+  "category": "media",
+  "tags": ["crossfader", "slider", "dj", "mixer", "fader", "audio"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"7\"/><rect class=\"p3\" x=\"8\" y=\"9\" width=\"8\" height=\"6\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 1400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "voice-search",
+  "category": "communication",
+  "tags": ["voice", "search", "microphone", "magnifier", "find", "speech"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M5 11a5 5 0 0 0 9 2.5M10.5 18v2\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M19.2 19.2L21 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "magnify", "dur": 900, "delay": 900 }
+  ]
+}

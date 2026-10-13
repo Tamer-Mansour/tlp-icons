@@ -1,0 +1,10 @@
+{
+  "name": "avatar-stack",
+  "category": "people",
+  "tags": ["avatar", "stack", "group", "team", "members", "people", "crowd"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"9\" r=\"3.2\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1.5\"/><circle class=\"d p2\" cx=\"16\" cy=\"10\" r=\"3\"/><path class=\"p2\" d=\"M12.5 21.5v-1.5a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 500 }
+  ]
+}

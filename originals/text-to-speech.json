@@ -1,0 +1,11 @@
+{
+  "name": "text-to-speech",
+  "category": "text",
+  "tags": ["speech", "voice", "read", "audio", "sound", "wave"],
+  "svg": "<path class=\"p1\" d=\"M2.5 9.5h7\"/><path class=\"p2\" d=\"M13 7.5q2.5 4.5 0 9\"/><path class=\"p3\" d=\"M16.5 4.5q4.5 7.5 0 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

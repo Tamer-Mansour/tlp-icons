@@ -1,0 +1,12 @@
+{
+  "name": "molecule",
+  "category": "science",
+  "tags": ["molecule", "atoms", "bonds", "chemistry", "structure", "lab"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"7\" r=\"2.5\"/><circle class=\"d p2\" cx=\"18\" cy=\"7\" r=\"2.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"18\" r=\"2.5\"/><path class=\"p4\" d=\"M8.5 7h7M7.2 9.2l3.6 6.6M16.8 9.2l-3.6 6.6\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1100 }
+  ]
+}

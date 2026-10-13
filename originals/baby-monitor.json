@@ -1,0 +1,11 @@
+{
+  "name": "baby-monitor",
+  "category": "devices",
+  "tags": ["baby", "monitor", "camera", "sound", "nursery"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"10\" height=\"8\" rx=\"2\"/><circle class=\"p3\" cx=\"8\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M16 9.5a3.5 3.5 0 0 1 0 5M19 7a7 7 0 0 1 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "one-way-arrow",
+  "category": "arrows",
+  "tags": ["one", "way", "direction", "arrow", "forward"],
+  "svg": "<path class=\"p1\" d=\"M4 6 V18\"/><path class=\"p2\" d=\"M4 12 H19\"/><path class=\"p3\" d=\"M13 6 L19 12 L13 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

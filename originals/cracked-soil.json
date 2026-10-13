@@ -1,0 +1,10 @@
+{
+  "name": "cracked-soil",
+  "category": "weather",
+  "tags": ["soil", "cracked", "drought", "dry", "ground", "earth"],
+  "svg": "<path class=\"d p1\" d=\"M3 10c2.5-1.5 4.5 1.5 7 0s4.5-1.5 7 0 2.5 1.5 4 0v11H3z\"/><path class=\"p2\" d=\"M8 14l2 2-1.5 2.5M15 13l-2 2.5 2.5 2M12 18.5l1.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

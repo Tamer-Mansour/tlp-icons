@@ -1,0 +1,11 @@
+{
+  "name": "hourglass-time",
+  "category": "science",
+  "tags": ["hourglass", "time", "wait", "sand", "timer", "countdown"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"2\" x2=\"19\" y2=\"2\"/><line class=\"p1\" x1=\"5\" y1=\"22\" x2=\"19\" y2=\"22\"/><path class=\"p2\" d=\"M7 2h10l-5 10 5 10H7l5-10z\"/><path class=\"p3\" d=\"M9.5 18.5h5L12 15.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 1200 }
+  ]
+}

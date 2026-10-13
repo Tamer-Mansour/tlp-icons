@@ -1,0 +1,11 @@
+{
+  "name": "animal-cage",
+  "category": "nature",
+  "tags": ["cage", "animal", "bars", "carrier", "pet"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"6\" width=\"16\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M8 6 V20 M12 6 V20 M16 6 V20\"/><path class=\"p3\" d=\"M9 6 Q12 2 15 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "compass-draw",
+  "category": "design",
+  "tags": ["compass", "draw", "arc", "circle", "geometry", "drafting"],
+  "svg": "<path class=\"p1\" d=\"M12 3L6.5 16.5M12 3l5.5 16.5\"/><path class=\"p2\" d=\"M6.5 16.5a7 7 0 0 0 11-2\"/><circle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1500 }
+  ]
+}

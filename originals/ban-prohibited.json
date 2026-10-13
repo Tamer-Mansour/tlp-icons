@@ -1,0 +1,10 @@
+{
+  "name": "ban-prohibited",
+  "category": "notifications",
+  "tags": ["ban", "prohibited", "forbidden", "blocked", "no"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"5.6\" y1=\"5.6\" x2=\"18.4\" y2=\"18.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 500, "delay": 800 }
+  ]
+}

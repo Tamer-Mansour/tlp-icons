@@ -1,0 +1,10 @@
+{
+  "name": "cold-day",
+  "category": "weather",
+  "tags": ["cold", "day", "winter", "snowflake", "thermometer", "freeze"],
+  "svg": "<path class=\"p2\" d=\"M6 13 V5 A2 2 0 0 1 10 5 V13 A3.5 3.5 0 1 1 6 13 Z\"/><path class=\"p1\" d=\"M16 2.5 V11.5 M12.2 4.7 L19.8 9.3 M19.8 4.7 L12.2 9.3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1000, "delay": 800, "origin": "16px 7px" }
+  ]
+}

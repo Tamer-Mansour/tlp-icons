@@ -1,0 +1,11 @@
+{
+  "name": "patio",
+  "category": "buildings",
+  "tags": ["patio", "parasol", "paving", "outdoor", "umbrella", "garden"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"16\" width=\"18\" height=\"5\" rx=\"0.5\"/><path class=\"p2\" d=\"M12 10v6\"/><path class=\"p3\" d=\"M4 10a8 5 0 0 1 16 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "coil-wire",
+  "category": "science",
+  "tags": ["coil", "wire", "loop", "inductor", "electric"],
+  "svg": "<path class=\"p1\" d=\"M7 3C15 5 15 9 7 10C15 11 15 15 7 16C15 17 15 19 7 21\"/><line class=\"p2\" x1=\"3\" y1=\"3\" x2=\"5\" y2=\"3\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"5\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 1000 }
+  ]
+}

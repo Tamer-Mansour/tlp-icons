@@ -1,0 +1,11 @@
+{
+  "name": "stairwell",
+  "category": "buildings",
+  "tags": ["stairwell", "stairs", "staircase", "landing", "steps", "frame"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18h16V3\"/><path class=\"p2\" d=\"M7 21v-3h3v-3h3v-3h3v-3\"/><path class=\"p3\" d=\"M16 9h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

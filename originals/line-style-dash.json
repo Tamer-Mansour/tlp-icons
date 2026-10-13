@@ -1,0 +1,10 @@
+{
+  "name": "line-style-dash",
+  "category": "interface",
+  "tags": ["dash", "line", "style", "dotted", "border"],
+  "svg": "<path class=\"p1\" d=\"M6 12h3.5M12.5 12h3.5\"/><circle class=\"f p2\" cx=\"3\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 600 }
+  ]
+}

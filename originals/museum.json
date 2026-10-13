@@ -1,0 +1,11 @@
+{
+  "name": "museum",
+  "category": "buildings",
+  "tags": ["museum", "gallery", "columns", "pediment", "culture"],
+  "svg": "<polygon class=\"d p1\" points=\"3,9 12,3 21,9\"/><path class=\"p2\" d=\"M6 11v4M10 11v4M14 11v4M18 11v4\"/><path class=\"p3\" d=\"M3 17h18M2 20h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "passenger-seat",
+  "category": "vehicles",
+  "tags": ["passenger", "seat", "bench", "headrest", "cabin"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"13\" width=\"14\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 13V6a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v7\"/><path class=\"p3\" d=\"M7 17v4M17 17v4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "tilt", "origin": "bottom", "dur": 700, "delay": 900 }
+  ]
+}

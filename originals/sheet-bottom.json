@@ -1,0 +1,11 @@
+{
+  "name": "sheet-bottom",
+  "category": "layout",
+  "tags": ["sheet", "bottom", "drawer", "panel", "rising", "slide", "modal"],
+  "svg": "<path class=\"p1\" d=\"M3 12v9h18v-9\"/><path class=\"p2\" d=\"M7 12V4h10v8\"/><path class=\"p3\" d=\"M10 7h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

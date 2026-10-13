@@ -1,0 +1,11 @@
+{
+  "name": "debate-podium",
+  "category": "communication",
+  "tags": ["debate", "podium", "lectern", "speech", "speaker", "panel"],
+  "svg": "<polygon class=\"d p1\" points=\"7,21 9,12 15,12 17,21\"/><path class=\"p2\" d=\"M9 3h10v6h-6l-2 2v-2H9z\"/><circle class=\"p3\" cx=\"3\" cy=\"17\" r=\"1.5\"/><circle class=\"p3\" cx=\"21\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

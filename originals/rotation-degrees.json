@@ -1,0 +1,11 @@
+{
+  "name": "rotation-degrees",
+  "category": "math",
+  "tags": ["rotation", "degrees", "angle", "turn", "circular arrow", "geometry"],
+  "svg": "<path class=\"p1\" d=\"M19.5 12A7.5 7.5 0 1 1 16.8 6.2\"/><path class=\"p2\" d=\"M13.5 6.2H16.8V9.5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

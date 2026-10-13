@@ -1,0 +1,12 @@
+{
+  "name": "pronghorn",
+  "category": "nature",
+  "tags": ["antelope", "horns", "prairie", "fast", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 Q5 9 9 9 H15 Q19 9 19 12 V15 H5 Z\"/><path class=\"p2\" d=\"M17 10 L19 4 L21 4 L20 9\"/><path class=\"p3\" d=\"M19 4 V2.5 M19 4 L21 2.5\"/><path class=\"p4\" d=\"M7 15 V21 M16 15 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 900 }
+  ]
+}

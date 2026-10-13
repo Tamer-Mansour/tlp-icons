@@ -1,0 +1,10 @@
+{
+  "name": "dna-strand",
+  "category": "science",
+  "tags": ["dna", "genetics", "helix", "biology", "strand"],
+  "svg": "<path class=\"p1\" d=\"M7 2 C7 6 17 8 17 12 C17 16 7 18 7 22\"/><path class=\"p1\" d=\"M17 2 C17 6 7 8 7 12 C7 16 17 18 17 22\"/><line class=\"p2\" x1=\"9.5\" y1=\"8.5\" x2=\"14.5\" y2=\"8.5\"/><line class=\"p2\" x1=\"9.5\" y1=\"15.5\" x2=\"14.5\" y2=\"15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

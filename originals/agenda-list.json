@@ -1,0 +1,10 @@
+{
+  "name": "agenda-list",
+  "category": "time",
+  "tags": ["agenda", "list", "schedule", "times", "items", "events"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M8 6h13M8 12h13M8 18h13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 }
+  ]
+}

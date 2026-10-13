@@ -1,0 +1,11 @@
+{
+  "name": "weather-balloon",
+  "category": "science",
+  "tags": ["balloon", "weather", "atmosphere", "payload", "sensor", "research"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8.5\" r=\"5.5\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"17\"/><rect class=\"p3\" x=\"9.5\" y=\"17\" width=\"5\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1500, "delay": 900 }
+  ]
+}

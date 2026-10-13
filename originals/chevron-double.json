@@ -1,0 +1,10 @@
+{
+  "name": "chevron-double",
+  "category": "shapes",
+  "tags": ["chevron", "double", "skip", "forward", "fast"],
+  "svg": "<polyline class=\"p1\" points=\"5,5 11,12 5,19\"/><polyline class=\"p2\" points=\"13,5 19,12 13,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "shower-block",
+  "category": "buildings",
+  "tags": ["shower", "block", "bathroom", "water", "changing", "wash"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"6\"/><rect class=\"d p2\" x=\"8\" y=\"6\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 11.5v2.5M12 11.5v2.5M15 11.5v2.5\"/><rect class=\"p4\" x=\"2\" y=\"18\" width=\"20\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1100 }
+  ]
+}

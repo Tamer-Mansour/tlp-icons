@@ -1,0 +1,11 @@
+{
+  "name": "font-mono",
+  "category": "text",
+  "tags": ["font", "mono", "monospace", "code", "cursor", "text"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 13 V7.5 L9.5 11 L12.5 7.5 V13\"/><line class=\"p3\" x1=\"16.5\" y1=\"8\" x2=\"16.5\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 900, "delay": 1000 }
+  ]
+}

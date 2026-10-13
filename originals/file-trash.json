@@ -1,0 +1,10 @@
+{
+  "name": "file-trash",
+  "category": "files",
+  "tags": ["trash", "delete", "remove", "bin", "file"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2.5\" width=\"11\" height=\"17\" rx=\"2\"/><line class=\"p2\" x1=\"15.5\" y1=\"14\" x2=\"21\" y2=\"14\"/><path class=\"p2\" d=\"M16.5 14v6.5h3.5V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

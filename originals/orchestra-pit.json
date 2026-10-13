@@ -1,0 +1,12 @@
+{
+  "name": "orchestra-pit",
+  "category": "buildings",
+  "tags": ["orchestra", "pit", "stage", "theater", "music", "concert"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><path class=\"p2\" d=\"M5 6 V18 H19 V6\"/><circle class=\"f p3\" cx=\"9\" cy=\"13\" r=\"1.5\"/><circle class=\"f p4\" cx=\"15\" cy=\"13\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 900, "delay": 1200 },
+    { "part": "p4", "anim": "hop", "dur": 900, "delay": 1400 }
+  ]
+}

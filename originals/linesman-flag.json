@@ -1,0 +1,11 @@
+{
+  "name": "linesman-flag",
+  "category": "sport",
+  "tags": ["linesman", "flag", "sideline", "offside", "assistant", "referee"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"3\" x2=\"6\" y2=\"19\"/><polyline class=\"p2\" points=\"6,4 16,4 14,6.5 16,9 6,9\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 700, "delay": 1300 }
+  ]
+}

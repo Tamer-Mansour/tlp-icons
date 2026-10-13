@@ -1,0 +1,10 @@
+{
+  "name": "packet-queue",
+  "category": "connectivity",
+  "tags": ["queue", "packets", "line", "buffer", "waiting"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"4\" height=\"5\" rx=\"1\"/><rect class=\"d p1\" x=\"9\" y=\"4\" width=\"4\" height=\"5\" rx=\"1\"/><rect class=\"d p1\" x=\"16\" y=\"4\" width=\"4\" height=\"5\" rx=\"1\"/><line class=\"p2\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/><polyline class=\"p2\" points=\"18,15 21,18 18,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 700 }
+  ]
+}

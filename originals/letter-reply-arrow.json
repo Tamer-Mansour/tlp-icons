@@ -1,0 +1,10 @@
+{
+  "name": "letter-reply-arrow",
+  "category": "communication",
+  "tags": ["letter", "reply", "respond", "arrow", "mail", "answer"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14v18H5zM8 16h8\"/><path class=\"p2\" d=\"M16 13v-1a2.5 2.5 0 0 0-2.5-2.5H8.5\"/><path class=\"p2\" d=\"M11 7l-2.5 2.5L11 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 800, "delay": 700 }
+  ]
+}

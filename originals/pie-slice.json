@@ -1,0 +1,10 @@
+{
+  "name": "pie-slice",
+  "category": "shapes",
+  "tags": ["pie", "chart", "slice", "share", "portion"],
+  "svg": "<path class=\"d p1\" d=\"M12 13 V5 A8 8 0 1 0 20 13 Z\"/><path class=\"d p2\" d=\"M14 11 V3 A8 8 0 0 1 22 11 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

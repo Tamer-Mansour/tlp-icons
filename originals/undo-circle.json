@@ -1,0 +1,10 @@
+{
+  "name": "undo-circle",
+  "category": "interface",
+  "tags": ["undo", "back", "revert", "circle", "arrow", "reverse"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><path class=\"p2\" d=\"M9 9.5h5a3 3 0 0 1 0 6h-3.5M10.5 7.5L8.5 9.5l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

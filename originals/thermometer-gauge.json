@@ -1,0 +1,11 @@
+{
+  "name": "thermometer-gauge",
+  "category": "charts",
+  "tags": ["thermometer", "gauge", "temperature", "measure", "level", "mercury"],
+  "svg": "<path class=\"p1\" d=\"M10 15V5A2 2 0 0 1 14 5V15\"/><circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"3\"/><rect class=\"d p3\" x=\"10.5\" y=\"9\" width=\"3\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 700, "delay": 900, "origin": "bottom" }
+  ]
+}

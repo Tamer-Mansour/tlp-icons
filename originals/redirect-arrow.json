@@ -1,0 +1,11 @@
+{
+  "name": "redirect-arrow",
+  "category": "arrows",
+  "tags": ["redirect", "reroute", "bend", "path", "turn", "forward"],
+  "svg": "<path class=\"p1\" d=\"M4 5h9a4 4 0 0 1 4 4v8\"/><path class=\"p3\" d=\"M4 19h5\"/><path class=\"p2\" d=\"M15.5 14.5 18 17l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

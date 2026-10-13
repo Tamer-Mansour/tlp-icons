@@ -1,0 +1,11 @@
+{
+  "name": "nav-drawer",
+  "category": "interface",
+  "tags": ["drawer", "sidebar", "navigation", "panel", "menu"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"11\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M5 9H11M5 13H11\"/><path class=\"p3\" d=\"M18 6V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "favorites-list",
+  "category": "interface",
+  "tags": ["favorites", "list", "star", "bookmark", "saved", "rank"],
+  "svg": "<path class=\"p1\" d=\"M3 5h10M3 12h10M3 19h10\"/><polygon class=\"p2\" points=\"19 2.8 19.52 4.29 21.09 4.32 19.84 5.27 20.29 6.78 19 5.88 17.71 6.78 18.16 5.27 16.91 4.32 18.48 4.29\"/><polygon class=\"p2\" points=\"19 9.8 19.52 11.29 21.09 11.32 19.84 12.27 20.29 13.78 19 12.88 17.71 13.78 18.16 12.27 16.91 11.32 18.48 11.29\"/><polygon class=\"p2\" points=\"19 16.8 19.52 18.29 21.09 18.32 19.84 19.27 20.29 20.78 19 19.88 17.71 20.78 18.16 19.27 16.91 18.32 18.48 18.29\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "brick-trowel",
+  "category": "tools",
+  "tags": ["trowel", "brick", "blade", "masonry", "handle", "construction"],
+  "svg": "<path class=\"d p1\" d=\"M3 19L15 19L15 13Z\"/><rect class=\"p2\" x=\"16\" y=\"5\" width=\"5\" height=\"5\" rx=\"2\"/><path class=\"p3\" d=\"M15 13L18 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 }
+  ]
+}

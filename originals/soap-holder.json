@@ -1,0 +1,11 @@
+{
+  "name": "soap-holder",
+  "category": "home",
+  "tags": ["soap holder", "soap dish", "soap", "bathroom", "bar soap"],
+  "svg": "<path class=\"d p1\" d=\"M3 17h18l-2 4H5z\"/><rect class=\"d p2\" x=\"7\" y=\"10\" width=\"10\" height=\"5\" rx=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "weather-warning",
+  "category": "weather",
+  "tags": ["weather", "warning", "triangle", "cloud", "hazard"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 21 19.5 3 19.5\"/><path class=\"d p2\" d=\"M8 16H15A2 2 0 0 0 15 12A3 3 0 0 0 9.5 11.5A2 2 0 0 0 8 16Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dish-soap",
+  "category": "home",
+  "tags": ["soap", "dish", "liquid", "cleaning", "bottle", "pump"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M10 9V6H14V9M12 6V4H16\"/><circle class=\"p3\" cx=\"19\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

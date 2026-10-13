@@ -1,0 +1,10 @@
+{
+  "name": "ginkgo",
+  "category": "nature",
+  "tags": ["ginkgo", "leaf", "fan", "split edge", "tree", "autumn"],
+  "svg": "<path class=\"d p1\" d=\"M4 13a8 8 0 0 1 7.5-7.97.5.5 0 0 1 1 0A8 8 0 0 1 20 13z\"/><path class=\"p2\" d=\"M12 13v7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 }
+  ]
+}

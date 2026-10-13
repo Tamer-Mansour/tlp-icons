@@ -1,0 +1,11 @@
+{
+  "name": "file-grid",
+  "category": "files",
+  "tags": ["grid", "cells", "layout", "table", "sheet", "spreadsheet"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M7 9.5h10M7 14.5h10\"/><path class=\"p3\" d=\"M9.5 7v10M14.5 7v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

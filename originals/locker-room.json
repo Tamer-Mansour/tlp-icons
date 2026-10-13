@@ -1,0 +1,10 @@
+{
+  "name": "locker-room",
+  "category": "buildings",
+  "tags": ["lockers", "locker", "room", "changing", "storage", "gym"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"5\" height=\"15\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"3\" width=\"5\" height=\"15\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"3\" width=\"5\" height=\"15\" rx=\"1\"/><line class=\"p2\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

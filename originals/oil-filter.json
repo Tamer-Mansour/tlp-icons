@@ -1,0 +1,11 @@
+{
+  "name": "oil-filter",
+  "category": "vehicles",
+  "tags": ["oil", "filter", "engine", "drip", "car"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"4\" width=\"10\" height=\"13\" rx=\"3\"/><circle class=\"f p2\" cx=\"12\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M12 18.5 C11 19.5 10.5 20 10.5 20.5 A1.5 1.5 0 0 0 13.5 20.5 C13.5 20 13 19.5 12 18.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "news-ticker",
+  "category": "communication",
+  "tags": ["news", "ticker", "banner", "headline", "scroll", "text"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M6 12h2M10 12h5M17 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "scanX", "dur": 1000, "delay": 700 }
+  ]
+}

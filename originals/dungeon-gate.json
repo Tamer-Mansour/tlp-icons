@@ -1,0 +1,11 @@
+{
+  "name": "dungeon-gate",
+  "category": "sport",
+  "tags": ["dungeon", "gate", "door", "castle", "fantasy", "bars"],
+  "svg": "<path class=\"p1\" d=\"M5 21V10A7 7 0 0 1 19 10V21\"/><path class=\"p2\" d=\"M9 10V21M12 10V21M15 10V21\"/><path class=\"p3\" d=\"M5 15H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

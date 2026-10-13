@@ -1,0 +1,11 @@
+{
+  "name": "menu-open",
+  "category": "interface",
+  "tags": ["menu", "open", "list", "expand", "navigation", "lines"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M7 8h4M7 12h4M7 16h4\"/><path class=\"p3\" d=\"M15.5 9.5l2 2.5-2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1100 }
+  ]
+}

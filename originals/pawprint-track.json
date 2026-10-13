@@ -1,0 +1,11 @@
+{
+  "name": "pawprint-track",
+  "category": "emoji",
+  "tags": ["paw", "pawprint", "animal", "pet", "track", "footprint"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"16\" rx=\"5\" ry=\"4\"/><ellipse class=\"p2\" cx=\"4.5\" cy=\"11.5\" rx=\"1.5\" ry=\"2\"/><ellipse class=\"p2\" cx=\"9\" cy=\"7\" rx=\"1.5\" ry=\"2\"/><ellipse class=\"p3\" cx=\"15\" cy=\"7\" rx=\"1.5\" ry=\"2\"/><ellipse class=\"p3\" cx=\"19.5\" cy=\"11.5\" rx=\"1.5\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 900 }
+  ]
+}

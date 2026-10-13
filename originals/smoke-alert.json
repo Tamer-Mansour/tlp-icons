@@ -1,0 +1,11 @@
+{
+  "name": "smoke-alert",
+  "category": "notifications",
+  "tags": ["smoke", "fire", "haze", "alert", "warning", "danger"],
+  "svg": "<path class=\"p1\" d=\"M7 21c0-1.5 2.5-2 2.5-4S7 14.5 7 13s2.5-2 2.5-4\"/><path class=\"p2\" d=\"M12.5 21c0-1.5 2.5-2 2.5-4s-2.5-2.5-2.5-4 2.5-2 2.5-4\"/><line class=\"p3\" x1=\"20.5\" y1=\"4\" x2=\"20.5\" y2=\"10\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

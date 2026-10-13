@@ -1,0 +1,10 @@
+{
+  "name": "wave-line",
+  "category": "shapes",
+  "tags": ["wave", "curve", "smooth", "signal", "line"],
+  "svg": "<path class=\"p1\" d=\"M2 12 C5 5 7 5 9.5 12 C12 19 14 19 16.5 12 C19 5 20 5 22 12\"/><circle class=\"f p2\" cx=\"22\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

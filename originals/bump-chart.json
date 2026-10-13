@@ -1,0 +1,11 @@
+{
+  "name": "bump-chart",
+  "category": "charts",
+  "tags": ["bump", "ranking", "rank", "lines", "crossing"],
+  "svg": "<polyline class=\"p1\" points=\"3,7 9,7 15,17 21,17\"/><polyline class=\"p2\" points=\"3,17 9,17 15,7 21,7\"/><circle class=\"f p3\" cx=\"3\" cy=\"7\" r=\"1.6\"/><circle class=\"f p3\" cx=\"3\" cy=\"17\" r=\"1.6\"/><circle class=\"f p3\" cx=\"21\" cy=\"7\" r=\"1.6\"/><circle class=\"f p3\" cx=\"21\" cy=\"17\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

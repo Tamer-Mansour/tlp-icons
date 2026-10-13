@@ -1,0 +1,11 @@
+{
+  "name": "linear-interpolation",
+  "category": "math",
+  "tags": ["linear", "interpolation", "lerp", "line", "interpolate"],
+  "svg": "<path class=\"p1\" d=\"M4 18L20 6\"/><circle class=\"f p2\" cx=\"4\" cy=\"18\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"6\" r=\"1.2\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bidirectional-sync",
+  "category": "arrows",
+  "tags": ["sync", "bidirectional", "exchange", "transfer", "two"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"3\" height=\"14\" rx=\"1\"/><rect class=\"p1\" x=\"19\" y=\"5\" width=\"3\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M7 9 H17 M14 6 L17 9 L14 12\"/><path class=\"p3\" d=\"M17 15 H7 M10 12 L7 15 L10 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

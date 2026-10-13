@@ -1,0 +1,12 @@
+{
+  "name": "titration-stand",
+  "category": "science",
+  "tags": ["titration", "burette", "stand", "clamp", "lab"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"3\" x2=\"6\" y2=\"21\"/><path class=\"p2\" d=\"M3 21H9M6 6H9.5\"/><rect class=\"p3\" x=\"9.5\" y=\"6\" width=\"3\" height=\"12\" rx=\"1\"/><circle class=\"f p4\" cx=\"11\" cy=\"20.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "drip", "dur": 800, "delay": 1400 }
+  ]
+}

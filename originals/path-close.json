@@ -1,0 +1,10 @@
+{
+  "name": "path-close",
+  "category": "design",
+  "tags": ["path", "close", "curve", "dashed", "open", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 14C7 6 17 6 20 14\"/><path class=\"p2\" d=\"M4 14H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

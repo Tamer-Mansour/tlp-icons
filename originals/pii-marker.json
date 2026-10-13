@@ -1,0 +1,12 @@
+{
+  "name": "pii-marker",
+  "category": "security",
+  "tags": ["pii", "id", "card", "highlight", "personal"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><circle class=\"d p2\" cx=\"8\" cy=\"10\" r=\"2\"/><path class=\"p3\" d=\"M13 9.5h5M5.5 16h6\"/><path class=\"p4\" d=\"M12.5 13.5h6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

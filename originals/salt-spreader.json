@@ -1,0 +1,11 @@
+{
+  "name": "salt-spreader",
+  "category": "vehicles",
+  "tags": ["salt", "spreader", "winter", "hopper", "road", "gritter"],
+  "svg": "<path class=\"d p1\" d=\"M5 5h14l-2 8H7z\"/><circle class=\"p2\" cx=\"8\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"18\" r=\"2\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"14\" cy=\"15\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "power-generator",
+  "category": "devices",
+  "tags": ["generator", "power", "engine", "backup", "fuel"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M16 13h2V7h3\"/><path class=\"p3\" d=\"M9 11l-2 3.5h3.5L8 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

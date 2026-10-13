@@ -1,0 +1,11 @@
+{
+  "name": "sled",
+  "category": "sport",
+  "tags": ["sled", "sledding", "runners", "snow", "winter", "sport"],
+  "svg": "<path class=\"p1\" d=\"M2 18 H16 Q21 18 21 14\"/><rect class=\"d p2\" x=\"6\" y=\"11\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M7 14 V18 M13 14 V18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "nudge", "dur": 800, "delay": 900 }
+  ]
+}

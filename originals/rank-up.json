@@ -1,0 +1,10 @@
+{
+  "name": "rank-up",
+  "category": "arrows",
+  "tags": ["rank", "up", "steps", "level", "bars", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"13\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"8\" y=\"10\" width=\"4\" height=\"11\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"9\" width=\"4\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M20 10V4M18 6l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

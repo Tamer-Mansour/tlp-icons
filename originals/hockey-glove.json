@@ -1,0 +1,11 @@
+{
+  "name": "hockey-glove",
+  "category": "sport",
+  "tags": ["hockey", "glove", "hand", "protective", "sport", "ice"],
+  "svg": "<path class=\"d p1\" d=\"M5 9C5 6 7 4 10 4H13V11H18C20 11 20 13 20 15V18Q20 21 17 21H9Q5 21 5 17Z\"/><path class=\"p2\" d=\"M5 12L3 10Q2.5 9 3.5 8.5L6 9.5\"/><polyline class=\"p3\" points=\"3,17.5 6,21.5 18,21.5 21,17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

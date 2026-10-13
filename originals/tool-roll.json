@@ -1,0 +1,11 @@
+{
+  "name": "tool-roll",
+  "category": "tools",
+  "tags": ["tool", "roll", "pouch", "pockets", "kit", "fabric"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M8 9 V16 M12 9 V16 M16 9 V16\"/><path class=\"p3\" d=\"M4 12 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "unfold", "dur": 800, "delay": 1000 }
+  ]
+}

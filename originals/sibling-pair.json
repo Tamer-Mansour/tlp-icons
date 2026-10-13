@@ -1,0 +1,11 @@
+{
+  "name": "sibling-pair",
+  "category": "people",
+  "tags": ["sibling", "siblings", "brother", "sister", "pair", "family"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"10\" r=\"3.5\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"10\" r=\"3.5\"/><path class=\"p3\" d=\"M3 21h7M14 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

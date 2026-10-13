@@ -1,0 +1,11 @@
+{
+  "name": "inkwell",
+  "category": "science",
+  "tags": ["ink", "inkwell", "pen", "pot", "writing"],
+  "svg": "<path class=\"d p1\" d=\"M5 12h14v4a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4z\"/><rect class=\"p2\" x=\"4\" y=\"8\" width=\"16\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M15 3L11 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "soda-maker",
+  "category": "devices",
+  "tags": ["soda", "maker", "bubbles", "carbonate", "bottle", "fizz"],
+  "svg": "<path class=\"d p1\" d=\"M9 8H15V11L17 14V21H7V14L9 11Z\"/><circle class=\"f p2\" cx=\"9\" cy=\"4.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"2.8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"4.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 700, "delay": 500 }
+  ]
+}

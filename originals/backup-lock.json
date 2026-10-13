@@ -1,0 +1,10 @@
+{
+  "name": "backup-lock",
+  "category": "security",
+  "tags": ["backup", "lock", "disk", "encrypted", "copy"],
+  "svg": "<path class=\"p1\" d=\"M2 7v5c0 1.4 2.5 2.5 5.5 2.5S13 13.4 13 12V7\"/><ellipse class=\"p1\" cx=\"7.5\" cy=\"7\" rx=\"5.5\" ry=\"2\"/><rect class=\"d p2\" x=\"14.5\" y=\"12.5\" width=\"7\" height=\"6.5\" rx=\"1\"/><path class=\"p2\" d=\"M16.5 12.5V10a2.5 2.5 0 0 1 5 0v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

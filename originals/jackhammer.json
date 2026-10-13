@@ -1,0 +1,12 @@
+{
+  "name": "jackhammer",
+  "category": "tools",
+  "tags": ["jackhammer", "drill", "demolition", "chisel", "vibration", "construction"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M4 4.5H9\"/><path class=\"p3\" d=\"M12 8V15M10 15L12 20L14 15\"/><path class=\"p4\" d=\"M18 8L20 6M18 12H21M18 16L20 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "shake", "dur": 700, "delay": 1100 }
+  ]
+}

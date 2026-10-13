@@ -1,0 +1,11 @@
+{
+  "name": "egg-sac",
+  "category": "nature",
+  "tags": ["egg", "sac", "silk", "spider", "thread"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"14\" r=\"5\"/><path class=\"p3\" d=\"M9.5 13 Q12 11 14.5 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 800, "origin": "12px 9px" }
+  ]
+}

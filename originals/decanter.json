@@ -1,0 +1,11 @@
+{
+  "name": "decanter",
+  "category": "food",
+  "tags": ["food", "decanter", "wine", "carafe", "bottle", "bar"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"2\" width=\"4\" height=\"4\" rx=\".5\"/><path class=\"p2\" d=\"M10 6v3M14 6v3\"/><path class=\"d p3\" d=\"M10 9h4l5 6v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pour", "dur": 1000, "delay": 900 }
+  ]
+}

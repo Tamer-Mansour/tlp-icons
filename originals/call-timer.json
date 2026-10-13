@@ -1,0 +1,10 @@
+{
+  "name": "call-timer",
+  "category": "communication",
+  "tags": ["phone", "call", "timer", "clock", "duration", "handset"],
+  "svg": "<path class=\"p1\" d=\"M4 4h4l1.5 4-2 1.5a10 10 0 0 0 5 5l1.5-2 4 1.5v4C9 20 4 15 3 6a2 2 0 0 1 1-2z\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"4\"/><path class=\"p2\" d=\"M18 4v2.5l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "18px 6px" }
+  ]
+}

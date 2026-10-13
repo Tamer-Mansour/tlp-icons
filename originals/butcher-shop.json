@@ -1,0 +1,11 @@
+{
+  "name": "butcher-shop",
+  "category": "buildings",
+  "tags": ["butcher", "cleaver", "meat", "shop", "awning", "food"],
+  "svg": "<path class=\"d p1\" d=\"M4 3 H14 Q19 3 19 6 V8 H4 Z\"/><path class=\"p2\" d=\"M3 13 H21 L19 17 H5 Z\"/><path class=\"p3\" d=\"M5 17 V21 H19 V17\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "strike", "dur": 700, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

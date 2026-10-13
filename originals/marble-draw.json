@@ -1,0 +1,11 @@
+{
+  "name": "marble-draw",
+  "category": "math",
+  "tags": ["marble", "draw", "bag", "random", "probability"],
+  "svg": "<path class=\"d p1\" d=\"M7 9H17L19.5 21H4.5Z\"/><path class=\"p2\" d=\"M9 7H15\"/><circle class=\"p3\" cx=\"12\" cy=\"3.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fall", "dur": 600, "delay": 900 }
+  ]
+}

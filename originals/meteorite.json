@@ -1,0 +1,11 @@
+{
+  "name": "meteorite",
+  "category": "nature",
+  "tags": ["meteorite", "meteor", "space", "rock", "fire"],
+  "svg": "<path class=\"d p1\" d=\"M13 4 L19 5 L20.5 10 L17 13.5 L12 12.5 L9.5 8 Z\"/><path class=\"p2\" d=\"M11 13.5 L5 19.5\"/><path class=\"p3\" d=\"M8.5 10.5 L3.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-timeline",
+  "category": "files",
+  "tags": ["timeline", "history", "events", "schedule", "log"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M10 9.5v9\"/><circle class=\"f p3\" cx=\"13\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1200 }
+  ]
+}

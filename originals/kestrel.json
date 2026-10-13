@@ -1,0 +1,12 @@
+{
+  "name": "kestrel",
+  "category": "nature",
+  "tags": ["kestrel", "hawk", "falcon", "bird", "hover", "raptor"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"2.5\" ry=\"3.5\"/><path class=\"p2\" d=\"M9.5 12C6 11 3 8 2 4c3 1 6 3 8 6M14.5 12C18 11 21 8 22 4c-3 1-6 3-8 6\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"1.8\"/><path class=\"p4\" d=\"M10.5 16l-1 4.5h5l-1-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "wiggle", "dur": 1100, "delay": 1300 }
+  ]
+}

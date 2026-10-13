@@ -1,0 +1,10 @@
+{
+  "name": "boil-water",
+  "category": "food",
+  "tags": ["boil", "water", "pot", "bubbles", "cook"],
+  "svg": "<path class=\"d p1\" d=\"M5 10 H19 V18 Q19 21 16 21 H8 Q5 21 5 18 Z\"/><circle class=\"f p2\" cx=\"9\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 900, "delay": 500 }
+  ]
+}

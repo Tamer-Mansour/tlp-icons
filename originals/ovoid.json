@@ -1,0 +1,10 @@
+{
+  "name": "ovoid",
+  "category": "shapes",
+  "tags": ["ovoid", "egg", "oval", "rounded", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C16 3 19 9 19 14C19 18.5 16 21 12 21C8 21 5 18.5 5 14C5 9 8 3 12 3Z\"/><path class=\"p2\" d=\"M9 13C9 11 10 10 11 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

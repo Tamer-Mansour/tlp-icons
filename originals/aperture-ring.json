@@ -1,0 +1,11 @@
+{
+  "name": "aperture-ring",
+  "category": "photography",
+  "tags": ["aperture ring", "aperture", "lens", "f-stop", "ring"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"14\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M19 9.5h2M19 12h2M19 14.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spinHalf", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "duplicate-object",
+  "category": "design",
+  "tags": ["duplicate", "copy", "object", "clone", "layers", "squares"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"8\" width=\"13\" height=\"13\" rx=\"2\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"13\" height=\"13\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

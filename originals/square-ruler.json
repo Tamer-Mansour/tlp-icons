@@ -1,0 +1,10 @@
+{
+  "name": "square-ruler",
+  "category": "tools",
+  "tags": ["square", "ruler", "carpenter", "measure", "angle", "layout"],
+  "svg": "<path class=\"p1\" d=\"M4 3v17h17\"/><path class=\"p2\" d=\"M4 7h2M4 11h2M4 15h2M8 20v-2M12 20v-2M16 20v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

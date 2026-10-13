@@ -1,0 +1,10 @@
+{
+  "name": "snips",
+  "category": "tools",
+  "tags": ["snips", "shears", "cut", "tin", "metal"],
+  "svg": "<path class=\"p1\" d=\"M5 3L14 14M19 3L10 14\"/><circle class=\"d p2\" cx=\"6\" cy=\"18\" r=\"3\"/><circle class=\"d p2\" cx=\"18\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

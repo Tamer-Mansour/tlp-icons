@@ -1,0 +1,10 @@
+{
+  "name": "anomaly-spike",
+  "category": "charts",
+  "tags": ["anomaly", "spike", "outlier", "alert", "line", "chart"],
+  "svg": "<path class=\"p1\" d=\"M2 14H10L12 5L14 14H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

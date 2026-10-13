@@ -1,0 +1,11 @@
+{
+  "name": "note-text",
+  "category": "text",
+  "tags": ["notepad", "notes", "write", "pencil", "memo", "edit"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 9h6M6 13h6M6 17h4\"/><path class=\"p3\" d=\"M16 18l.5-3.5L21 9l2.5 2.5-4.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1400 }
+  ]
+}

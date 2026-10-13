@@ -1,0 +1,11 @@
+{
+  "name": "oil-bottle",
+  "category": "food",
+  "tags": ["oil", "bottle", "olive", "cooking", "food"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 13 Q14.5 16 13.5 16.5 Q12 18 10.5 16.5 Q9.5 16 12 13 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

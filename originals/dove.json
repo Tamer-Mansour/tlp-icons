@@ -1,0 +1,12 @@
+{
+  "name": "dove",
+  "category": "nature",
+  "tags": ["dove", "bird", "peace", "leaf", "olive branch", "flying"],
+  "svg": "<path class=\"d p1\" d=\"M4 16C4 12 7 10 11 10H14C17 10 19 12 19 15C19 18 16 19 12 19H8L4 16Z\"/><circle class=\"p2\" cx=\"16\" cy=\"7\" r=\"2.5\"/><path class=\"p3\" d=\"M19 6C21 3 20 1.5 17 2C16 4 17 6 19 6Z\"/><path class=\"p4\" d=\"M9 13C10 15 12 16 14 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "17px 6px" }
+  ]
+}

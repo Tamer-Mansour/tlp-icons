@@ -1,0 +1,11 @@
+{
+  "name": "speech-volume",
+  "category": "communication",
+  "tags": ["speech", "volume", "speaker", "sound", "chat"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18v13h-9l-4 3.5V17H3z\"/><path class=\"p2\" d=\"M6 9.5h2.5L12 7v8l-3.5-2.5H6z\"/><path class=\"p3\" d=\"M15 9.5a2.5 2.5 0 0 1 0 3M17.5 7.5a5 5 0 0 1 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

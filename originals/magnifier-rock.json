@@ -1,0 +1,10 @@
+{
+  "name": "magnifier-rock",
+  "category": "science",
+  "tags": ["magnifier", "rock", "geology", "search", "inspection", "magnify"],
+  "svg": "<path class=\"d p1\" d=\"M3 20 V15 L6 12 L10 13 L13 19 L9 21 Z\"/><circle class=\"p2\" cx=\"15\" cy=\"10\" r=\"5\"/><line class=\"p2\" x1=\"18.5\" y1=\"13.5\" x2=\"21.5\" y2=\"16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 1100, "delay": 800 }
+  ]
+}

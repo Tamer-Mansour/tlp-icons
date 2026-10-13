@@ -1,0 +1,10 @@
+{
+  "name": "recycling-rate",
+  "category": "charts",
+  "tags": ["recycling", "rate", "loop", "arrows", "sustainability", "bar"],
+  "svg": "<path class=\"p1\" d=\"M19 9a8 8 0 0 0-13-3M6 3v3h3M5 15a8 8 0 0 0 13 3M18 21v-3h-3\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"4\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "voice-recognition",
+  "category": "communication",
+  "tags": ["voice", "recognition", "speech", "microphone", "check"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"2\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M2 10a4 4 0 0 0 8 0M6 14v3M3.5 20h5\"/><path class=\"p3\" d=\"M15 9v4M18 7v8M21 9v4\"/><path class=\"p4\" d=\"M16 18.5l2 2 3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

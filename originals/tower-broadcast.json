@@ -1,0 +1,10 @@
+{
+  "name": "tower-broadcast",
+  "category": "connectivity",
+  "tags": ["broadcast", "tower", "radio", "signal", "transmit"],
+  "svg": "<polygon class=\"p1\" points=\"9,21 12,8 15,21\"/><path class=\"p1\" d=\"M10.5 16H13.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"6\" r=\"1.2\"/><path class=\"p2\" d=\"M7.67 3.5A5 5 0 0 0 7.67 8.5M16.33 3.5A5 5 0 0 1 16.33 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

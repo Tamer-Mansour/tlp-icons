@@ -1,0 +1,11 @@
+{
+  "name": "bedtime",
+  "category": "time",
+  "tags": ["bedtime", "bed", "sleep", "night", "moon"],
+  "svg": "<path class=\"p1\" d=\"M3 6v12M3 14h18v4\"/><rect class=\"d p2\" x=\"6.5\" y=\"9.5\" width=\"5\" height=\"3.5\" rx=\"1.75\"/><path class=\"d p3\" d=\"M16 3a4 4 0 1 0 4 4 3 3 0 0 1-4-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1200 }
+  ]
+}

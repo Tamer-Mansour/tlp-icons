@@ -1,0 +1,11 @@
+{
+  "name": "plot-point",
+  "category": "math",
+  "tags": ["plot", "point", "coordinates", "graph", "crosshair", "math"],
+  "svg": "<path class=\"p1\" d=\"M4 4V20H20\"/><path class=\"p2\" d=\"M14 10V20M4 10H14\"/><circle class=\"f p3\" cx=\"14\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "duplicate-contact",
+  "category": "people",
+  "tags": ["duplicate", "contact", "copy", "overlap", "cards", "clone"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"12\" height=\"11\" rx=\"1.5\"/><rect class=\"d p2\" x=\"4\" y=\"9\" width=\"12\" height=\"11\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tin-can-phone",
+  "category": "communication",
+  "tags": ["tin can", "phone", "string", "toy", "telephone"],
+  "svg": "<g class=\"p1\"><path class=\"d\" d=\"M2 8h6v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z\"/><ellipse cx=\"5\" cy=\"8\" rx=\"3\" ry=\"1\"/></g><g class=\"p2\"><path d=\"M16 8h6v10a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z\"/><ellipse cx=\"19\" cy=\"8\" rx=\"3\" ry=\"1\"/></g><path class=\"p3\" d=\"M5 8Q12 14 19 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

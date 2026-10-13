@@ -1,0 +1,10 @@
+{
+  "name": "anemometer",
+  "category": "nature",
+  "tags": ["anemometer", "wind", "speed", "weather", "measure"],
+  "svg": "<path class=\"p1\" d=\"M12 21V9\"/><path class=\"p2\" d=\"M12 9L5 7M12 9l7-2M12 9V4.5\"/><circle class=\"p2\" cx=\"5\" cy=\"7\" r=\"1.5\"/><circle class=\"p2\" cx=\"19\" cy=\"7\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"4.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 700, "origin": "12px 9px" }
+  ]
+}

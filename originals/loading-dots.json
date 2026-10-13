@@ -1,0 +1,10 @@
+{
+  "name": "loading-dots",
+  "category": "interface",
+  "tags": ["loading", "dots", "wait", "progress", "spinner", "busy"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"f p1\" cx=\"19\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "throb", "dur": 900, "delay": 400 }
+  ]
+}

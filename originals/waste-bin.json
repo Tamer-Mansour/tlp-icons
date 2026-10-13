@@ -1,0 +1,11 @@
+{
+  "name": "waste-bin",
+  "category": "buildings",
+  "tags": ["bin", "trash", "garbage", "waste", "rubbish", "container"],
+  "svg": "<path class=\"d p1\" d=\"M5 8H19L17.5 21H6.5Z\"/><path class=\"p2\" d=\"M3 6H21M10 4H14\"/><path class=\"p3\" d=\"M10 11V18M14 11V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

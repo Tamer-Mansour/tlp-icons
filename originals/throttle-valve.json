@@ -1,0 +1,11 @@
+{
+  "name": "throttle-valve",
+  "category": "development",
+  "tags": ["throttle", "valve", "pipe", "flow", "limit", "rate"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2 10h6M2 14h6M16 10h6M16 14h6\"/><path class=\"p3\" d=\"M7 5h10M12 5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 900, "origin": "12px 5px" }
+  ]
+}

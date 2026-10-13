@@ -1,0 +1,10 @@
+{
+  "name": "keycap-digit",
+  "category": "emoji",
+  "tags": ["keycap", "key", "digit", "number", "one", "keyboard"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M10 9 L12 7 V17 M9.5 17 H14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 800 }
+  ]
+}

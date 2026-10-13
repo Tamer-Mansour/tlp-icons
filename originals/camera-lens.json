@@ -1,0 +1,11 @@
+{
+  "name": "camera-lens",
+  "category": "media",
+  "tags": ["lens", "camera", "photo", "aperture", "optics", "glass"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

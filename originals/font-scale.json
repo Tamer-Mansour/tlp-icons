@@ -1,0 +1,10 @@
+{
+  "name": "font-scale",
+  "category": "text",
+  "tags": ["font scale", "type size", "scale", "ticks", "typography"],
+  "svg": "<path class=\"p1\" d=\"M2 19 L7 5 L12 19 M3.6 14 H10.4\"/><path class=\"p2\" d=\"M17 5 V19 M17 5 H21 M17 9 H19.5 M17 12 H21 M17 15 H19.5 M17 19 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 600, "origin": "top" }
+  ]
+}

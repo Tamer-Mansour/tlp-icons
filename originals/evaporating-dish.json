@@ -1,0 +1,11 @@
+{
+  "name": "evaporating-dish",
+  "category": "science",
+  "tags": ["lab", "dish", "evaporate", "heat", "steam", "vessel"],
+  "svg": "<path class=\"p2\" d=\"M2 11h20\"/><path class=\"d p1\" d=\"M3 11c0 4 3 7 9 7s9-3 9-7Z\"/><path class=\"p3\" d=\"M9 8V5M13 8V5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1200 }
+  ]
+}

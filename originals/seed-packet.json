@@ -1,0 +1,11 @@
+{
+  "name": "seed-packet",
+  "category": "nature",
+  "tags": ["seed packet", "seeds", "garden", "packet", "planting", "sow"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M9 4 V2 H15 V4\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

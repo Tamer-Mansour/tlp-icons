@@ -1,0 +1,11 @@
+{
+  "name": "juice-box",
+  "category": "food",
+  "tags": ["juice", "box", "straw", "kids", "lunchbox", "drink"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 6V2.5h3\"/><path class=\"p3\" d=\"M6 13h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stomach-anatomy",
+  "category": "science",
+  "tags": ["anatomy", "stomach", "organ", "digest", "body"],
+  "svg": "<path class=\"p1\" d=\"M8 4v8a5 5 0 0 0 10 0v-2\"/><path class=\"p2\" d=\"M4 4h4\"/><path class=\"p3\" d=\"M13 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pump", "dur": 900, "delay": 1200 }
+  ]
+}

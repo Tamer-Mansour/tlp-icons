@@ -1,0 +1,12 @@
+{
+  "name": "ladder-truck",
+  "category": "vehicles",
+  "tags": ["ladder", "truck", "fire", "rescue", "extend"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"12\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M14 11h4l2 3v1h-6z\"/><path class=\"p3\" d=\"M7 11 20 4\"/><circle class=\"p4\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p4\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "origin": "7px 11px", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "drive", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kitchen-bell",
+  "category": "food",
+  "tags": ["bell", "service", "dome", "kitchen", "restaurant", "ring"],
+  "svg": "<path class=\"d p1\" d=\"M5 16a7 7 0 0 1 14 0z\"/><circle class=\"f p2\" cx=\"12\" cy=\"5\" r=\"1.2\"/><path class=\"p3\" d=\"M3 19.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

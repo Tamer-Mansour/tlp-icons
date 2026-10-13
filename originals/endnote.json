@@ -1,0 +1,11 @@
+{
+  "name": "endnote",
+  "category": "text",
+  "tags": ["endnote", "superscript", "references", "list", "notes", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 8h18M3 12h12\"/><path class=\"p2\" d=\"M18 3.5l1-.5v3\"/><path class=\"p3\" d=\"M3 17h2M8 17h13M3 21h2M8 21h13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

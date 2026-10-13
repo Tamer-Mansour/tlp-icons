@@ -1,0 +1,10 @@
+{
+  "name": "hops",
+  "category": "nature",
+  "tags": ["hops", "cone", "vine", "beer", "plant"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"9\" r=\"2.5\"/><circle class=\"p1\" cx=\"15\" cy=\"9\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"2.5\"/><path class=\"p2\" d=\"M12 2v8.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

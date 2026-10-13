@@ -1,0 +1,11 @@
+{
+  "name": "check-engine-light",
+  "category": "vehicles",
+  "tags": ["check", "engine", "warning", "dashboard", "light"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M12 9v4\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bar-horizontal",
+  "category": "charts",
+  "tags": ["bars", "horizontal", "chart", "ranking", "axis", "compare"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18\"/><path class=\"p2\" d=\"M7 7h11M7 12h7M7 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 400 }
+  ]
+}

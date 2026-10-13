@@ -1,0 +1,11 @@
+{
+  "name": "sweat-drop",
+  "category": "people",
+  "tags": ["sweat", "nervous", "drop", "face", "worried", "anxious"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"13\" r=\"7\"/><path class=\"p3\" d=\"M7 15.5q2 1.5 4 0\"/><path class=\"d p2\" d=\"M19.5 3c-1 1.5-2 2.5-2 4a2 2 0 0 0 4 0c0-1.5-1-2.5-2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 1200 }
+  ]
+}

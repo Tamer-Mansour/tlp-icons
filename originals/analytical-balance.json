@@ -1,0 +1,11 @@
+{
+  "name": "analytical-balance",
+  "category": "science",
+  "tags": ["analytical balance", "weighing", "lab", "precision", "pan"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"16\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M6 16 V10 A6 6 0 0 1 18 10 V16\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sync-cloud",
+  "category": "interface",
+  "tags": ["sync", "cloud", "refresh", "backup", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M7 18.5h10a4 4 0 0 0 .4-7.98A6 6 0 0 0 6.1 11.6A3.5 3.5 0 0 0 7 18.5z\"/><path class=\"p2\" d=\"M9.5 11.5A2.5 2.5 0 0 1 14 10.2M14 8.2V10.2H12\"/><path class=\"p3\" d=\"M14.5 13.5A2.5 2.5 0 0 1 10 14.8M10 16.8V14.8H12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700, "origin": "12px 12px" },
+    { "part": "p3", "anim": "spinBack", "dur": 900, "delay": 700, "origin": "12px 12px" }
+  ]
+}

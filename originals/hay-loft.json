@@ -1,0 +1,11 @@
+{
+  "name": "hay-loft",
+  "category": "buildings",
+  "tags": ["hay", "loft", "barn", "bales", "farm", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V10l8-6 8 6v11z\"/><rect class=\"p2\" x=\"9\" y=\"10\" width=\"6\" height=\"4\"/><path class=\"p2\" d=\"M12 10v4\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1000, "origin": "10px 21px" }
+  ]
+}

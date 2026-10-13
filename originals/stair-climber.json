@@ -1,0 +1,10 @@
+{
+  "name": "stair-climber",
+  "category": "sport",
+  "tags": ["stairs", "climb", "stepper", "fitness", "gym", "machine"],
+  "svg": "<polyline class=\"p1\" points=\"3,20 7,20 7,16 11,16 11,12 15,12 15,8 19,8\"/><line class=\"p2\" x1=\"4\" y1=\"5\" x2=\"20\" y2=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 900 }
+  ]
+}

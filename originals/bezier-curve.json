@@ -1,0 +1,11 @@
+{
+  "name": "bezier-curve",
+  "category": "shapes",
+  "tags": ["bezier", "curve", "handles", "anchor", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 18 C8 8 16 16 20 6\"/><line class=\"p3\" x1=\"4\" y1=\"18\" x2=\"8\" y2=\"8\"/><line class=\"p3\" x1=\"20\" y1=\"6\" x2=\"16\" y2=\"16\"/><circle class=\"f p2\" cx=\"4\" cy=\"18\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

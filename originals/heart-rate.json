@@ -1,0 +1,10 @@
+{
+  "name": "heart-rate",
+  "category": "sport",
+  "tags": ["heart", "rate", "pulse", "health", "cardio", "beat"],
+  "svg": "<path class=\"d p1\" d=\"M12 20C5 15 3 12 3 8.5A4.5 4.5 0 0 1 12 6.5A4.5 4.5 0 0 1 21 8.5C21 12 19 15 12 20Z\"/><path class=\"p2\" d=\"M5 12H8.5L10 9.5L12 14.5L14 12H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

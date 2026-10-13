@@ -1,0 +1,10 @@
+{
+  "name": "uranus-ring",
+  "category": "science",
+  "tags": ["planet", "uranus", "ring", "tilt", "space"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><line class=\"p2\" x1=\"2.5\" y1=\"16\" x2=\"21.5\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

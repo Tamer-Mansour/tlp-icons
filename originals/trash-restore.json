@@ -1,0 +1,10 @@
+{
+  "name": "trash-restore",
+  "category": "interface",
+  "tags": ["trash", "restore", "recover", "undo", "bin", "delete"],
+  "svg": "<path class=\"p1\" d=\"M5 10h14M6 10l1 11h10l1-11\"/><path class=\"p2\" d=\"M12 8V3M9 6l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

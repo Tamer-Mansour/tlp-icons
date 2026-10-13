@@ -1,0 +1,11 @@
+{
+  "name": "unlock-account",
+  "category": "people",
+  "tags": ["unlock", "account", "padlock", "open", "user"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h2a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><rect class=\"d p2\" x=\"15\" y=\"13\" width=\"6\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M16 13v-2.5a2 2 0 0 1 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1100, "origin": "16px 13px" }
+  ]
+}

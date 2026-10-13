@@ -1,0 +1,12 @@
+{
+  "name": "forge",
+  "category": "buildings",
+  "tags": ["forge", "blacksmith", "anvil", "metalwork", "smithing", "hammer"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h16v3H3z\"/><path class=\"p2\" d=\"M6 16v4h10v-4\"/><path class=\"p3\" d=\"M15 3l5 5M17 6l-4 4\"/><path class=\"p4\" d=\"M4 9l-2-2M6 8V5M9 10l2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "twinkle", "dur": 800, "delay": 1300 }
+  ]
+}

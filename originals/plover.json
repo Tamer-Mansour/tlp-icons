@@ -1,0 +1,11 @@
+{
+  "name": "plover",
+  "category": "nature",
+  "tags": ["plover", "shorebird", "beach", "bird", "wader"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"5\"/><circle class=\"p2\" cx=\"17\" cy=\"9\" r=\"2.5\"/><path class=\"p2\" d=\"M19.2 8.5L21 9L19.2 10\"/><path class=\"p3\" d=\"M10 18V21M14 18V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1200 }
+  ]
+}

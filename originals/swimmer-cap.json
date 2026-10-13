@@ -1,0 +1,10 @@
+{
+  "name": "swimmer-cap",
+  "category": "people",
+  "tags": ["swimmer", "swim", "cap", "pool", "swimming", "water"],
+  "svg": "<path class=\"d p1\" d=\"M5 14 A7 7 0 0 1 19 14 Z\"/><path class=\"p2\" d=\"M3 19 Q6 17 9 19 T15 19 T21 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 1000 }
+  ]
+}

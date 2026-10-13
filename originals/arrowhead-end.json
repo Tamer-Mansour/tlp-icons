@@ -1,0 +1,10 @@
+{
+  "name": "arrowhead-end",
+  "category": "design",
+  "tags": ["arrowhead", "end", "line", "arrow", "marker", "pointer"],
+  "svg": "<path class=\"p1\" d=\"M4 12h10\"/><path class=\"d p2\" d=\"M14 8l7 4-7 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

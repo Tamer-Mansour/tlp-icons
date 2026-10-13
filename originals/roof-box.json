@@ -1,0 +1,10 @@
+{
+  "name": "roof-box",
+  "category": "vehicles",
+  "tags": ["roof box", "cargo", "luggage", "car", "travel", "storage"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"8\" rx=\"3\"/><path class=\"p2\" d=\"M2 17h20M7 12v5M17 12v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "prayer-hands",
+  "category": "emoji",
+  "tags": ["pray", "prayer", "hands", "thanks", "hope", "worship"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C9.5 5 8 8 8 12L8.5 18 12 21\"/><path class=\"d p2\" d=\"M12 3C14.5 5 16 8 16 12L15.5 18 12 21\"/><line class=\"p3\" x1=\"12\" y1=\"7\" x2=\"12\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pipe-wrench",
+  "category": "tools",
+  "tags": ["pipe", "wrench", "plumbing", "jaws", "teeth", "adjustable"],
+  "svg": "<path class=\"p1\" d=\"M3 12H14\"/><path class=\"d p2\" d=\"M14 7H18L21 4V20L18 17H14Z\"/><path class=\"p3\" d=\"M14 10H18M14 14H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

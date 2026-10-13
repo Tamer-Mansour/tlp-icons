@@ -1,0 +1,10 @@
+{
+  "name": "reaction-clap",
+  "category": "communication",
+  "tags": ["clap", "applause", "reaction", "praise", "bubble", "message"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18v13H9l-4 4v-4H3z\"/><path class=\"p2\" d=\"M8 10l-2-1.5M16 10l2-1.5M12 8V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "parking-garage",
+  "category": "vehicles",
+  "tags": ["parking", "garage", "building", "floors", "car", "ramp"],
+  "svg": "<path class=\"p1\" d=\"M4 21V4H20V21\"/><line class=\"p2\" x1=\"4\" y1=\"11\" x2=\"20\" y2=\"11\"/><path class=\"p3\" d=\"M9 17V15L10 14H14L15 15V17Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 800, "delay": 900 }
+  ]
+}

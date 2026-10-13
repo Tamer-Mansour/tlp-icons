@@ -1,0 +1,10 @@
+{
+  "name": "sign-out-door",
+  "category": "people",
+  "tags": ["sign", "out", "door", "exit", "logout"],
+  "svg": "<path class=\"p1\" d=\"M12 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6\"/><path class=\"p2\" d=\"M11 12h10\"/><polyline class=\"p2\" points=\"17 8 21 12 17 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "handsaw",
+  "category": "tools",
+  "tags": ["saw", "hand", "cut", "wood", "blade", "carpentry"],
+  "svg": "<path class=\"d p1\" d=\"M17 10 L19 5 H21 V10 Z\"/><path class=\"p2\" d=\"M3 13 H17\"/><path class=\"p3\" d=\"M3 13 L5 16 L7 13 L9 16 L11 13 L13 16 L15 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

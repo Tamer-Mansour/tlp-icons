@@ -1,0 +1,11 @@
+{
+  "name": "pendant-lamp",
+  "category": "home",
+  "tags": ["pendant", "lamp", "hanging", "light", "ceiling", "shade", "decor"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"7\"/><path class=\"d p2\" d=\"M8 10 H16 L20 17 H4 Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 800, "origin": "12px 7px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bandstand",
+  "category": "buildings",
+  "tags": ["bandstand", "music", "stage", "park", "pavilion", "concert"],
+  "svg": "<path class=\"d p1\" d=\"M3 11a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M6 11v9M18 11v9M12 11v9M3 20h18\"/><path class=\"p3\" d=\"M9 13h6M12 13v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tada", "dur": 800, "delay": 1100 }
+  ]
+}

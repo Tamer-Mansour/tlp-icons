@@ -1,0 +1,10 @@
+{
+  "name": "star-six-point",
+  "category": "shapes",
+  "tags": ["star", "six", "point", "hexagram", "symbol"],
+  "svg": "<polygon class=\"p1\" points=\"12,3 21,18 3,18\"/><polygon class=\"p2\" points=\"12,21 3,6 21,6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "d20",
+  "category": "sport",
+  "tags": ["d20", "dice", "polyhedron", "roll", "tabletop", "rpg"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 20.5,7 20.5,17 12,22 3.5,17 3.5,7\"/><path class=\"p2\" d=\"M3.5 7L12 12L20.5 7\"/><path class=\"p3\" d=\"M11 15.5l1-1v4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

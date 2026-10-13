@@ -1,0 +1,10 @@
+{
+  "name": "text-cursor-move",
+  "category": "arrows",
+  "tags": ["text", "cursor", "move", "caret", "drag", "edit"],
+  "svg": "<path class=\"p1\" d=\"M12 7v10M10 7h4M10 17h4\"/><path class=\"p2\" d=\"M9.5 4.5 12 2l2.5 2.5M9.5 19.5 12 22l2.5-2.5M4.5 9.5 2 12l2.5 2.5M19.5 9.5 22 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

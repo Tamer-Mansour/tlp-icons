@@ -1,0 +1,10 @@
+{
+  "name": "contractor-badge",
+  "category": "people",
+  "tags": ["contractor", "badge", "wrench", "repair", "freelance", "service"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"11\" r=\"2.5\"/><path class=\"p2\" d=\"M13.2 12.8L9 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 800 }
+  ]
+}

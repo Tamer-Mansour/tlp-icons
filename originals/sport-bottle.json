@@ -1,0 +1,11 @@
+{
+  "name": "sport-bottle",
+  "category": "sport",
+  "tags": ["sport", "bottle", "water", "drink", "straw", "hydration"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9 3H15V8H9Z\"/><path class=\"p3\" d=\"M12 3V1.5L14 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1100 }
+  ]
+}

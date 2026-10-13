@@ -1,0 +1,12 @@
+{
+  "name": "unblock-user",
+  "category": "people",
+  "tags": ["unblock", "user", "unlock", "padlock", "person", "open", "allow"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M2.5 21a7.5 7.5 0 0 1 15 0\"/><rect class=\"d p3\" x=\"14\" y=\"12.5\" width=\"8\" height=\"7\" rx=\"1.5\"/><path class=\"p4\" d=\"M16 12.5V9.5a3 3 0 0 1 5.8-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

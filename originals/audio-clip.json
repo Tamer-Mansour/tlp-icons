@@ -1,0 +1,11 @@
+{
+  "name": "audio-clip",
+  "category": "media",
+  "tags": ["audio", "clip", "waveform", "sound", "recording", "file"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\"/><path class=\"p2\" d=\"M7 10v4M11 8v8M15 10v4\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "equalize", "dur": 1000, "delay": 700, "origin": "bottom" },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1400 }
+  ]
+}

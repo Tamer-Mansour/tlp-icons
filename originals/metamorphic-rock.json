@@ -1,0 +1,10 @@
+{
+  "name": "metamorphic-rock",
+  "category": "science",
+  "tags": ["metamorphic", "rock", "folds", "geology", "stone"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6 9Q8 7 10 9T14 9T18 9M6 14Q8 12 10 14T14 14T18 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 1000, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "desk-lamp-clip",
+  "category": "home",
+  "tags": ["desk", "lamp", "clip", "light", "arm", "office"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M6 7L12.5 12.5\"/><path class=\"d p3\" d=\"M9 16a3.5 3.5 0 0 1 7 0z\"/><path class=\"p4\" d=\"M7 20h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "user-role-badge",
+  "category": "people",
+  "tags": ["role", "badge", "user", "shield", "security"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20a6 6 0 0 1 10-4.5\"/><path class=\"d p2\" d=\"M17 13l4 1.5v3.5c0 2.5-2 4.5-4 5.5-2-1-4-3-4-5.5v-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

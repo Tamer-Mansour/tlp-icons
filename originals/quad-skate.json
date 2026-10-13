@@ -1,0 +1,11 @@
+{
+  "name": "quad-skate",
+  "category": "sport",
+  "tags": ["quad", "skate", "boot", "wheels", "roller", "skating"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h5v8h7v3H6z\"/><path class=\"p2\" d=\"M4 19h16\"/><circle class=\"p3\" cx=\"7\" cy=\"21\" r=\"1\"/><circle class=\"p3\" cx=\"11\" cy=\"21\" r=\"1\"/><circle class=\"p3\" cx=\"15\" cy=\"21\" r=\"1\"/><circle class=\"p3\" cx=\"19\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "spherical-coordinates",
+  "category": "math",
+  "tags": ["spherical", "coordinates", "sphere", "radius", "angle", "math"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"3\"/><path class=\"p3\" d=\"M12 12L18 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

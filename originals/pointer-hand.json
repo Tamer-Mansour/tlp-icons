@@ -1,0 +1,10 @@
+{
+  "name": "pointer-hand",
+  "category": "interface",
+  "tags": ["pointer", "hand", "link", "select", "finger", "click"],
+  "svg": "<path class=\"p1\" d=\"M12 11h1.5a2 2 0 0 1 2 2v3.5a4.5 4.5 0 0 1-4.5 4.5h-1a4.5 4.5 0 0 1-4-2.5L5 13.5a1.5 1.5 0 0 1 2.5-1.5L9 12\"/><path class=\"p2\" d=\"M9 12V4.5a1.5 1.5 0 0 1 3 0V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 700, "delay": 1000 }
+  ]
+}

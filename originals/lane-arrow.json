@@ -1,0 +1,10 @@
+{
+  "name": "lane-arrow",
+  "category": "vehicles",
+  "tags": ["lane", "arrow", "road", "direction", "traffic", "painted"],
+  "svg": "<path class=\"p1\" d=\"M7 3V21M17 3V21\"/><path class=\"p2\" d=\"M12 18V9M9.5 11.5L12 9L14.5 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 800 }
+  ]
+}

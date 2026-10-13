@@ -1,0 +1,11 @@
+{
+  "name": "hip-thrust",
+  "category": "sport",
+  "tags": ["hip", "thrust", "glutes", "exercise", "bench"],
+  "svg": "<path class=\"p1\" d=\"M5 16L12 10L19 16\"/><path class=\"p2\" d=\"M19 16V19\"/><path class=\"p3\" d=\"M3 19H21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

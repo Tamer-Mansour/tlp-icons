@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-message",
+  "category": "communication",
+  "tags": ["bookmark", "message", "saved", "bubble", "ribbon", "favorite"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h16v13h-9l-4 4v-4H4z\"/><path class=\"p2\" d=\"M10 6h4v7l-2-1.5L10 13z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

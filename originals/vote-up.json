@@ -1,0 +1,10 @@
+{
+  "name": "vote-up",
+  "category": "interface",
+  "tags": ["vote", "up", "upvote", "like", "arrow", "triangle"],
+  "svg": "<polygon class=\"d p1\" points=\"12 4 20 13 4 13\"/><line class=\"p2\" x1=\"4\" y1=\"18\" x2=\"20\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 }
+  ]
+}

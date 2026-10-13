@@ -1,0 +1,11 @@
+{
+  "name": "account-statement",
+  "category": "people",
+  "tags": ["account", "statement", "report", "bank", "document", "summary"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M8 7h8M8 10h5\"/><circle class=\"d p3\" cx=\"15\" cy=\"14\" r=\"2\"/><path class=\"p3\" d=\"M11.5 19v-1a3.5 3 0 0 1 7 0v1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

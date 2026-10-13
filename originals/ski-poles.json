@@ -1,0 +1,10 @@
+{
+  "name": "ski-poles",
+  "category": "sport",
+  "tags": ["ski", "poles", "skiing", "winter", "sport", "slope"],
+  "svg": "<path class=\"p1\" d=\"M7 3 L10 21 M17 3 L14 21\"/><path class=\"p2\" d=\"M8 17.5 H11 M13 17.5 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 800 }
+  ]
+}

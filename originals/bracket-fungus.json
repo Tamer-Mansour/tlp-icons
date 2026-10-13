@@ -1,0 +1,11 @@
+{
+  "name": "bracket-fungus",
+  "category": "nature",
+  "tags": ["bracket fungus", "shelf fungus", "tree", "trunk", "mushroom", "forest"],
+  "svg": "<path class=\"p1\" d=\"M2 2.5v19\"/><path class=\"d p2\" d=\"M4 8h12c0 3-2.5 4.5-6 4.5S4 11 4 8z\"/><path class=\"p3\" d=\"M4 15h9c0 2.5-2 3.5-4.5 3.5S4 17.5 4 15z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

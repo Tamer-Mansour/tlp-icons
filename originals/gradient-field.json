@@ -1,0 +1,10 @@
+{
+  "name": "gradient-field",
+  "category": "math",
+  "tags": ["gradient", "field", "vectors", "arrows", "math"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M5 19L10 14M6.5 14H10V17.5M13 19L18 14M14.5 14H18V17.5M5 10L10 5M6.5 5H10V8.5M13 10L18 5M14.5 5H18V8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

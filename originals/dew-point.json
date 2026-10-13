@@ -1,0 +1,10 @@
+{
+  "name": "dew-point",
+  "category": "weather",
+  "tags": ["dew", "point", "droplet", "condensation", "temperature"],
+  "svg": "<path class=\"p1\" d=\"M3 18 H21\"/><path class=\"d p2\" d=\"M12 5 C10.5 7.5 9 9.5 9 11 A3 3 0 0 0 15 11 C15 9.5 13.5 7.5 12 5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 800 }
+  ]
+}

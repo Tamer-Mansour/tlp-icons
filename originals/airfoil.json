@@ -1,0 +1,11 @@
+{
+  "name": "airfoil",
+  "category": "vehicles",
+  "tags": ["airfoil", "wing", "airflow", "aerodynamic", "lift", "flow"],
+  "svg": "<path class=\"d p1\" d=\"M4 12.5Q9 9 15 9.5Q19 10 20.5 12Q14.5 14.5 4 12.5Z\"/><path class=\"p2\" d=\"M3 18.5H9M14 18.5H21\"/><path class=\"p3\" d=\"M12 3V7M9.5 5.5L12 3L14.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1000 }
+  ]
+}

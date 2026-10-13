@@ -1,0 +1,11 @@
+{
+  "name": "herb-leaf",
+  "category": "food",
+  "tags": ["herb", "leaf", "plant", "garden", "food"],
+  "svg": "<path class=\"d p1\" d=\"M5 19 C5 9 10 5 19 5 C19 14 15 19 5 19 Z\"/><path class=\"p2\" d=\"M5 19 L14 10\"/><path class=\"p3\" d=\"M8 15 L11 15 M11 11 L14 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "swatch-pick",
+  "category": "interface",
+  "tags": ["swatch", "color", "eyedropper", "pick", "pipette", "sample"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"12.5\" width=\"8\" height=\"8\" rx=\"1.5\"/><polygon class=\"d p2\" points=\"17 4.5 19.5 7 12.5 14 10 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 700, "origin": "19.5px 4.5px" }
+  ]
+}

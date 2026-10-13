@@ -1,0 +1,10 @@
+{
+  "name": "user-picker",
+  "category": "people",
+  "tags": ["user", "picker", "select", "choose", "cursor", "pointer"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2 21a6 6 0 0 1 12 0\"/><path class=\"d p2\" d=\"M16 12l6 5-2.6.8L21 21l-1.7.8-1.5-3.5-2 1.9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 900 }
+  ]
+}

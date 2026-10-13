@@ -1,0 +1,11 @@
+{
+  "name": "balloon-basket",
+  "category": "vehicles",
+  "tags": ["balloon", "basket", "hot", "air", "travel", "ride"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5C8.5 2.5 6 5.5 6 8.5C6 12 9 14 12 14C15 14 18 12 18 8.5C18 5.5 15.5 2.5 12 2.5Z\"/><path class=\"p3\" d=\"M9.5 13.8L8.5 16.5M14.5 13.8L15.5 16.5\"/><path class=\"p2\" d=\"M8 16.5H16L15 19.5H9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "bob", "dur": 1000, "delay": 900 }
+  ]
+}

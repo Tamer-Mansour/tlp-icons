@@ -1,0 +1,10 @@
+{
+  "name": "scrollbar-vertical",
+  "category": "layout",
+  "tags": ["scrollbar", "vertical", "scroll", "track", "thumb", "scrolling"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"7\" height=\"20\" rx=\"2\"/><rect class=\"p1\" x=\"13\" y=\"2\" width=\"8\" height=\"20\" rx=\"4\"/><line class=\"p2\" x1=\"17\" y1=\"8\" x2=\"17\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "scan", "dur": 1000, "delay": 800 }
+  ]
+}

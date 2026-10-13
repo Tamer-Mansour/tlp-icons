@@ -1,0 +1,11 @@
+{
+  "name": "high-score",
+  "category": "sport",
+  "tags": ["high", "score", "arcade", "record", "game", "star"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6 14v-3M10 14V8\"/><polygon class=\"p3\" points=\"16,6.5 16.7,8.3 18.6,8.5 17.1,9.7 17.6,11.5 16,10.5 14.4,11.5 14.9,9.7 13.4,8.5 15.3,8.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1100 }
+  ]
+}

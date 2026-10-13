@@ -1,0 +1,11 @@
+{
+  "name": "cheetah",
+  "category": "nature",
+  "tags": ["cheetah", "spots", "fast", "thin legs", "big cat"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"11\" rx=\"7\" ry=\"4\"/><circle class=\"f p2\" cx=\"8\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"9.5\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"12.5\" r=\"1\"/><path class=\"p3\" d=\"M7 15 V21 M14 15 V21 M18 11 Q22 10 21.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1200 }
+  ]
+}

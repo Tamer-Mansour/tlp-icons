@@ -1,0 +1,10 @@
+{
+  "name": "rest-timer",
+  "category": "time",
+  "tags": ["rest", "pause", "break", "clock", "timer", "wait"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M10 9v6M14 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sensor-light",
+  "category": "science",
+  "tags": ["sensor", "light", "rays", "brightness", "lux", "detector", "sun"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 3v2M5 6l1.5 1.5M19 6l-1.5 1.5M3 12h2M19 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 800 }
+  ]
+}

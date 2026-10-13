@@ -1,0 +1,11 @@
+{
+  "name": "garden-gate",
+  "category": "buildings",
+  "tags": ["garden", "gate", "arch", "latch", "fence", "entrance"],
+  "svg": "<path class=\"p1\" d=\"M5 21V10a7 7 0 0 1 14 0v11\"/><path class=\"p2\" d=\"M9 21v-8M15 21v-8M5 16h14\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

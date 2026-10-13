@@ -1,0 +1,11 @@
+{
+  "name": "operator-headset",
+  "category": "communication",
+  "tags": ["operator", "headset", "support", "call center", "mic", "headphones"],
+  "svg": "<path class=\"p1\" d=\"M6 12 V11 A6 6 0 0 1 18 11 V12\"/><rect class=\"d p2\" x=\"4\" y=\"12\" width=\"3\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"12\" width=\"3\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M5.5 17 V19 Q5.5 21 8 21 H12\"/><circle class=\"f p3\" cx=\"13\" cy=\"21\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

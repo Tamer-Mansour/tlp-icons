@@ -1,0 +1,11 @@
+{
+  "name": "phone-text",
+  "category": "text",
+  "tags": ["phone", "chat", "message", "speech", "bubble", "sms"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3\" width=\"7\" height=\"18\" rx=\"1.5\"/><circle class=\"f p1\" cx=\"6\" cy=\"18\" r=\"0.9\"/><rect class=\"p2\" x=\"12.5\" y=\"3.5\" width=\"9\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M15 14.5v2.5l2.5-2.5\"/><path class=\"p3\" d=\"M15.5 7h4M15.5 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 900 }
+  ]
+}

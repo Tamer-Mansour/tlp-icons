@@ -1,0 +1,10 @@
+{
+  "name": "starfish-body",
+  "category": "science",
+  "tags": ["biology", "starfish", "sea", "star", "marine"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 14.4 8.8 20.6 9.2 15.8 13.2 17.3 19.3 12 16 6.7 19.3 8.2 13.2 3.4 9.2 9.6 8.8\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

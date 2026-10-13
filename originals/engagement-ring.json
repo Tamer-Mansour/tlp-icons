@@ -1,0 +1,10 @@
+{
+  "name": "engagement-ring",
+  "category": "people",
+  "tags": ["engagement", "ring", "diamond", "proposal", "wedding", "gem"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"15.5\" r=\"5.5\"/><polygon class=\"d p2\" points=\"12,2.5 15,5 12,7.5 9,5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

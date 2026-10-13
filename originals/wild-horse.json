@@ -1,0 +1,11 @@
+{
+  "name": "wild-horse",
+  "category": "nature",
+  "tags": ["wild horse", "mustang", "flowing mane", "stallion", "running"],
+  "svg": "<path class=\"d p1\" d=\"M4 15 Q4 11 9 11 H14 L18 7 L20 8 L18 13 Q19 16 16 17 H8 Q4 17 4 15 Z\"/><path class=\"p2\" d=\"M15 11 Q11 9 12 5 Q14 4 16 6\"/><path class=\"p3\" d=\"M8 17 V21 M15 17 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pickleball-paddle",
+  "category": "sport",
+  "tags": ["pickleball", "paddle", "court", "holes", "sport", "racket"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"13\" rx=\"6\"/><circle class=\"f p2\" cx=\"10\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M12 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 600, "delay": 1100, "origin": "12px 15px" }
+  ]
+}

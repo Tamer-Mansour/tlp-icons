@@ -1,0 +1,10 @@
+{
+  "name": "jellyfish",
+  "category": "nature",
+  "tags": ["sea", "tentacles", "ocean", "dome", "drift"],
+  "svg": "<path class=\"d p1\" d=\"M5 13 C5 6 9 4 12 4 C15 4 19 6 19 13 Z\"/><path class=\"p2\" d=\"M8 14 C7 16 9 18 8 21 M12 14 C11 16 13 18 12 21 M16 14 C15 16 17 18 16 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

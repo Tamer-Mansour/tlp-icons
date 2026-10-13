@@ -1,0 +1,11 @@
+{
+  "name": "network-storage",
+  "category": "devices",
+  "tags": ["network", "storage", "nas", "drive", "server", "share"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"12\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"5\" y1=\"9\" x2=\"11\" y2=\"9\"/><line class=\"p2\" x1=\"5\" y1=\"14\" x2=\"11\" y2=\"14\"/><line class=\"p3\" x1=\"14\" y1=\"12\" x2=\"18\" y2=\"12\"/><circle class=\"p3\" cx=\"20\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1200 }
+  ]
+}

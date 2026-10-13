@@ -1,0 +1,10 @@
+{
+  "name": "periscope",
+  "category": "science",
+  "tags": ["periscope", "submarine", "mirror", "view", "tube", "optics"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"7\" width=\"6\" height=\"12\"/><path class=\"p2\" d=\"M7 3.5h10M12 3.5V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "peek", "dur": 1000, "delay": 600 }
+  ]
+}

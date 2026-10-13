@@ -1,0 +1,11 @@
+{
+  "name": "stack-horizontal",
+  "category": "design",
+  "tags": ["stack", "horizontal", "row", "squares", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p3\" x=\"17\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 400 }
+  ]
+}

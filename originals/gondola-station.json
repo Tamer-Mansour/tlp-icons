@@ -1,0 +1,11 @@
+{
+  "name": "gondola-station",
+  "category": "buildings",
+  "tags": ["gondola", "station", "cable", "cabin", "platform", "lift"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18M12 5v4\"/><rect class=\"d p2\" x=\"8\" y=\"9\" width=\"8\" height=\"6\"/><line class=\"p3\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 5px" }
+  ]
+}

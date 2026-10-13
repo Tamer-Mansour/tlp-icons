@@ -1,0 +1,11 @@
+{
+  "name": "geo-fence",
+  "category": "security",
+  "tags": ["geo", "fence", "boundary", "location", "zone", "perimeter"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><path class=\"d p2\" d=\"M12 7a3.5 3.5 0 0 0-3.5 3.5c0 2.8 3.5 6.5 3.5 6.5s3.5-3.7 3.5-6.5A3.5 3.5 0 0 0 12 7z\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

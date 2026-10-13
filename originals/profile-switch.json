@@ -1,0 +1,12 @@
+{
+  "name": "profile-switch",
+  "category": "people",
+  "tags": ["profile", "switch", "swap", "cards", "accounts", "change"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"9\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"13\" y=\"3\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M4 16h11M12.5 13.5L15 16l-2.5 2.5\"/><path class=\"p4\" d=\"M20 20H9M11.5 17.5L9 20l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sandbag",
+  "category": "tools",
+  "tags": ["sandbag", "sack", "flood", "barrier", "tied", "seam"],
+  "svg": "<path class=\"d p1\" d=\"M6 8Q12 5 18 8L20 19Q12 21 4 19Z\"/><path class=\"p2\" d=\"M10 6Q12 3 14 6\"/><path class=\"p3\" d=\"M8 13H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

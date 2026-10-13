@@ -1,0 +1,11 @@
+{
+  "name": "green-room",
+  "category": "buildings",
+  "tags": ["green", "room", "armchair", "lounge", "waiting", "seat"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"13\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M4 12V8a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v4\"/><path class=\"p3\" d=\"M18 19V4h4v15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "18px 4px" }
+  ]
+}

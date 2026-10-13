@@ -1,0 +1,11 @@
+{
+  "name": "troubleshooting-guide",
+  "category": "files",
+  "tags": ["troubleshoot", "wrench", "fix", "guide", "repair"],
+  "svg": "<path class=\"p1\" d=\"M2 2h11v20H2z\"/><line class=\"p3\" x1=\"5\" y1=\"8\" x2=\"10\" y2=\"8\"/><line class=\"p3\" x1=\"5\" y1=\"12\" x2=\"10\" y2=\"12\"/><line class=\"p3\" x1=\"5\" y1=\"16\" x2=\"10\" y2=\"16\"/><path class=\"p2\" d=\"M14 20l5-5M18 7.5a2.5 2.5 0 1 0 2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

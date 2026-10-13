@@ -1,0 +1,10 @@
+{
+  "name": "photo-caption",
+  "category": "photography",
+  "tags": ["photo", "caption", "text", "description", "image", "label"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"13\" rx=\"1\"/><path class=\"p2\" d=\"M6 19H18M6 21H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 800, "delay": 500 }
+  ]
+}

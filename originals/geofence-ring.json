@@ -1,0 +1,10 @@
+{
+  "name": "geofence-ring",
+  "category": "connectivity",
+  "tags": ["geofence", "ring", "boundary", "location", "zone", "area"],
+  "svg": "<path class=\"p1\" d=\"M12 3 A9 9 0 0 1 19.79 7.5 M21 12 A9 9 0 0 1 16.5 19.79 M12 21 A9 9 0 0 1 4.21 16.5 M3 12 A9 9 0 0 1 7.5 4.21\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 1000 }
+  ]
+}

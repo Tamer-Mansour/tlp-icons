@@ -1,0 +1,10 @@
+{
+  "name": "allergen-warning",
+  "category": "food",
+  "tags": ["allergen", "warning", "nut", "allergy", "caution", "label"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5 21.5 20h-19z\"/><polygon class=\"p2\" points=\"12 10 14 11.5 14 14 12 15.5 10 14 10 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

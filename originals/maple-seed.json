@@ -1,0 +1,11 @@
+{
+  "name": "maple-seed",
+  "category": "nature",
+  "tags": ["maple", "seed", "samara", "wing", "helicopter"],
+  "svg": "<path class=\"d p1\" d=\"M12 16C11 10 12 6 20 3c-1 7-4 13-8 13z\"/><path class=\"d p3\" d=\"M12 16C13 10 12 6 4 3c1 7 4 13 8 13z\"/><circle class=\"f p2\" cx=\"12\" cy=\"17.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

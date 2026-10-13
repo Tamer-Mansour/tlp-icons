@@ -1,0 +1,10 @@
+{
+  "name": "stationary-bike",
+  "category": "sport",
+  "tags": ["stationary", "bike", "exercise", "cycling", "pedal", "gym"],
+  "svg": "<path class=\"p2\" d=\"M8 16L13 10H19M13 10V5M11 5H15\"/><circle class=\"p1\" cx=\"8\" cy=\"16\" r=\"4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

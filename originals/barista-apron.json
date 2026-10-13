@@ -1,0 +1,11 @@
+{
+  "name": "barista-apron",
+  "category": "people",
+  "tags": ["barista", "apron", "coffee", "cafe", "cup", "pocket"],
+  "svg": "<path class=\"d p1\" d=\"M6 6 H18 V21 H6 Z\"/><path class=\"p2\" d=\"M9 6 Q12 2 15 6\"/><path class=\"p3\" d=\"M9 12 H14 V15.5 A2.5 2.5 0 0 1 9 15.5 Z\"/><path class=\"p3\" d=\"M14 13 H15 A1.2 1.2 0 0 1 15 15.5 H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 900, "delay": 1200, "origin": "12px 16px" }
+  ]
+}

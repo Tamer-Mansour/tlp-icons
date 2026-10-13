@@ -1,0 +1,10 @@
+{
+  "name": "clock-symbol",
+  "category": "emoji",
+  "tags": ["clock", "time", "hour", "hands", "watch", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12 L8.5 9.5\"/><path class=\"p2\" d=\"M12 12 L15.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1400, "delay": 800, "origin": "12px 12px" }
+  ]
+}

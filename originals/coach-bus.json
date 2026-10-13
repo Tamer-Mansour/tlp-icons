@@ -1,0 +1,12 @@
+{
+  "name": "coach-bus",
+  "category": "vehicles",
+  "tags": ["coach", "bus", "luggage", "long", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"17.5\" y=\"7\" width=\"3\" height=\"5\"/><rect class=\"p3\" x=\"5\" y=\"11\" width=\"7\" height=\"3\" rx=\".5\"/><circle class=\"p4\" cx=\"6\" cy=\"19\" r=\"2\"/><circle class=\"p4\" cx=\"18\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "drive", "dur": 900, "delay": 1000 }
+  ]
+}

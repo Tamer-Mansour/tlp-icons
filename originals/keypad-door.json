@@ -1,0 +1,11 @@
+{
+  "name": "keypad-door",
+  "category": "home",
+  "tags": ["keypad", "door", "code", "entry", "access", "lock", "security"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"18\" rx=\"1\"/><circle class=\"f p1\" cx=\"10\" cy=\"12\" r=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"6\" width=\"6\" height=\"10\" rx=\"1\"/><line class=\"p3\" x1=\"16.5\" y1=\"9\" x2=\"19.5\" y2=\"9\"/><line class=\"p3\" x1=\"16.5\" y1=\"13\" x2=\"19.5\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

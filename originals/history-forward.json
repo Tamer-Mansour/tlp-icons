@@ -1,0 +1,10 @@
+{
+  "name": "history-forward",
+  "category": "interface",
+  "tags": ["history", "forward", "page", "next", "arrow", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M15 4l5 5-5 5M20 9h-7\"/><rect class=\"d p2\" x=\"3\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "koi-pond",
+  "category": "buildings",
+  "tags": ["koi", "pond", "fish", "water", "garden", "fishpond"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"7\"/><path class=\"p2\" d=\"M5 11 Q8 8 11 10\"/><path class=\"p3\" d=\"M13 15 Q16 12 19 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 1200 }
+  ]
+}

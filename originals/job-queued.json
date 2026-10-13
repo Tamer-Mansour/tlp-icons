@@ -1,0 +1,12 @@
+{
+  "name": "job-queued",
+  "category": "notifications",
+  "tags": ["job", "queue", "gear", "clock", "pending", "waiting"],
+  "svg": "<path class=\"p1\" d=\"M9 3.5v2.5M9 20v-2.5M2 13h2M14 13h2\"/><circle class=\"p1\" cx=\"9\" cy=\"13\" r=\"5\"/><circle class=\"p2\" cx=\"9\" cy=\"13\" r=\"1.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"6\" r=\"4\"/><path class=\"p4\" d=\"M18 4v2.5l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "18px 6px" }
+  ]
+}

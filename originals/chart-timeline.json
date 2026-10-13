@@ -1,0 +1,11 @@
+{
+  "name": "chart-timeline",
+  "category": "time",
+  "tags": ["chart", "timeline", "bars", "time", "graph", "axis"],
+  "svg": "<path class=\"p1\" d=\"M5 9h3v8H5zM10 5h3v12h-3zM15 11h3v6h-3z\"/><path class=\"p2\" d=\"M3 19h18\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

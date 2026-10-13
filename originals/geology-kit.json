@@ -1,0 +1,11 @@
+{
+  "name": "geology-kit",
+  "category": "science",
+  "tags": ["geology", "kit", "hammer", "magnifier", "rock", "field"],
+  "svg": "<polygon class=\"d p1\" points=\"2,5 8,5 11,7 8,9 2,9\"/><line class=\"p4\" x1=\"5\" y1=\"9\" x2=\"7\" y2=\"21\"/><circle class=\"p2\" cx=\"18\" cy=\"10\" r=\"3\"/><line class=\"p2\" x1=\"20.1\" y1=\"12.1\" x2=\"21\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "magnify", "dur": 800, "delay": 1100 }
+  ]
+}

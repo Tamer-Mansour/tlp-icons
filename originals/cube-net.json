@@ -1,0 +1,10 @@
+{
+  "name": "cube-net",
+  "category": "math",
+  "tags": ["cube", "net", "unfold", "box", "faces", "geometry"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"5\" height=\"5\"/><rect class=\"p1\" x=\"7\" y=\"7\" width=\"5\" height=\"5\"/><rect class=\"p1\" x=\"12\" y=\"7\" width=\"5\" height=\"5\"/><rect class=\"p1\" x=\"17\" y=\"7\" width=\"5\" height=\"5\"/><rect class=\"p2\" x=\"7\" y=\"2\" width=\"5\" height=\"5\"/><rect class=\"p2\" x=\"7\" y=\"12\" width=\"5\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flipIn", "dur": 600, "delay": 600 }
+  ]
+}

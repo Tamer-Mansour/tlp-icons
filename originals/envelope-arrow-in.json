@@ -1,0 +1,10 @@
+{
+  "name": "envelope-arrow-in",
+  "category": "communication",
+  "tags": ["envelope", "arrow", "incoming", "receive", "mail", "inbound"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 12h4M4.5 9.5l2 2.5-2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

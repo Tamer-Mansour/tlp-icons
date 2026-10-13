@@ -1,0 +1,10 @@
+{
+  "name": "chat-bubble",
+  "category": "interface",
+  "tags": ["chat", "message", "bubble", "speech", "comment", "talk"],
+  "svg": "<path class=\"d p1\" d=\"M4 4H20A2 2 0 0 1 22 6V15A2 2 0 0 1 20 17H10L6 21V17H4A2 2 0 0 1 2 15V6A2 2 0 0 1 4 4Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"10.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

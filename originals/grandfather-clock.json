@@ -1,0 +1,11 @@
+{
+  "name": "grandfather-clock",
+  "category": "time",
+  "tags": ["clock", "tall", "pendulum", "antique", "hall"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"3\"/><path class=\"p3\" d=\"M12 13v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pendulum", "dur": 1200, "delay": 1100, "origin": "12px 13px" }
+  ]
+}

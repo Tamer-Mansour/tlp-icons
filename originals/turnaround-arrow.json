@@ -1,0 +1,10 @@
+{
+  "name": "turnaround-arrow",
+  "category": "arrows",
+  "tags": ["turnaround", "u-turn", "return", "two lanes", "reverse", "loop back"],
+  "svg": "<path class=\"p1\" d=\"M4 8h10a4 4 0 0 1 0 8H4\"/><path class=\"p2\" d=\"M8 12l-4 4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 800 }
+  ]
+}

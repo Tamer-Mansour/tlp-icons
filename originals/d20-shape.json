@@ -1,0 +1,10 @@
+{
+  "name": "d20-shape",
+  "category": "shapes",
+  "tags": ["d20", "icosahedron", "die", "dice", "game"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L20 8 V16 L12 21 L4 16 V8 Z\"/><path class=\"p2\" d=\"M12 12 L4 8 M12 12 L20 8 M12 12 L12 3 M12 12 L4 16 M12 12 L20 16 M12 12 L12 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "electric-fan",
+  "category": "devices",
+  "tags": ["fan", "cooling", "blades", "air", "appliance", "stand"],
+  "svg": "<path class=\"p1\" d=\"M12 9V3M12 9L16.5 11.5M12 9L7.5 11.5\"/><path class=\"p2\" d=\"M12 10.5V18M8.5 21H15.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spinFast", "dur": 1200, "delay": 700, "origin": "12px 9px" }
+  ]
+}

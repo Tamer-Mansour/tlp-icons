@@ -1,0 +1,11 @@
+{
+  "name": "fry-egg",
+  "category": "food",
+  "tags": ["egg", "fry", "frying", "breakfast", "pan"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H19 Q21 13 21 15 Q21 19 16 19 H7 Q3 19 3 15 Z\"/><ellipse class=\"p2\" cx=\"9\" cy=\"9\" rx=\"3\" ry=\"2\"/><path class=\"p3\" d=\"M15 8 V10 M18 9 L19 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shutters",
+  "category": "home",
+  "tags": ["shutters", "window", "louvers", "panel", "house", "frame"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"4\" width=\"6\" height=\"16\"/><rect class=\"d p2\" x=\"3\" y=\"4\" width=\"4\" height=\"16\"/><rect class=\"d p2\" x=\"17\" y=\"4\" width=\"4\" height=\"16\"/><path class=\"p3\" d=\"M4 8h2M4 11h2M4 14h2M4 17h2M18 8h2M18 11h2M18 14h2M18 17h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

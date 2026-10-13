@@ -1,0 +1,11 @@
+{
+  "name": "toy-train",
+  "category": "devices",
+  "tags": ["train", "toy", "locomotive", "wheels", "kids", "railway"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"12\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"4\" width=\"3\" height=\"4\"/><rect class=\"p1\" x=\"15\" y=\"5\" width=\"6\" height=\"10\" rx=\"1\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1100 }
+  ]
+}

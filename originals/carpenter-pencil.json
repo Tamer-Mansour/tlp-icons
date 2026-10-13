@@ -1,0 +1,11 @@
+{
+  "name": "carpenter-pencil",
+  "category": "tools",
+  "tags": ["carpenter", "pencil", "flat", "marking", "woodwork", "sharpened"],
+  "svg": "<polygon class=\"d p1\" points=\"4,16 14,6 18,10 8,20\"/><path class=\"p2\" d=\"M4 16 L2 22 L8 20\"/><path class=\"p3\" d=\"M12 8 L16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

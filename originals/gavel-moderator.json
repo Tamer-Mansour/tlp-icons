@@ -1,0 +1,11 @@
+{
+  "name": "gavel-moderator",
+  "category": "people",
+  "tags": ["moderator", "gavel", "judge", "rules", "authority", "admin"],
+  "svg": "<circle class=\"d p2\" cx=\"17\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M12 21v-.5a5 4.5 0 0 1 10 0v.5\"/><rect class=\"d p1\" x=\"4\" y=\"4\" width=\"7\" height=\"4\" rx=\"1\" transform=\"rotate(-45 7.5 6)\"/><path class=\"p1\" d=\"M9.5 9.5L15 15\"/><path class=\"p3\" d=\"M3 21h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "strike", "dur": 600, "delay": 900, "origin": "9px 9px" }
+  ]
+}

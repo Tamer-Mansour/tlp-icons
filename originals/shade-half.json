@@ -1,0 +1,10 @@
+{
+  "name": "shade-half",
+  "category": "design",
+  "tags": ["shade", "half", "tone", "light", "contrast", "circle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3a9 9 0 0 1 0 18z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

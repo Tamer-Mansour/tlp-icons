@@ -1,0 +1,11 @@
+{
+  "name": "speaker-voice",
+  "category": "communication",
+  "tags": ["speaker", "voice", "person", "audio", "talk", "speak"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h3.5L11 6v12l-4.5-3.5H3z\"/><circle class=\"p2\" cx=\"18.5\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M15.5 20v-1.5a3 3 0 0 1 6 0V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

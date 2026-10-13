@@ -1,0 +1,10 @@
+{
+  "name": "buoy",
+  "category": "vehicles",
+  "tags": ["buoy", "float", "marker", "sea", "navigation", "water"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"5\"/><path class=\"p1\" d=\"M12 6 V3\"/><path class=\"p3\" d=\"M2 18 Q5 16 8 18 T14 18 T20 18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "bob", "dur": 1200, "delay": 400 }
+  ]
+}

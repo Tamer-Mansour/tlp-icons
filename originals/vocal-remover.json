@@ -1,0 +1,11 @@
+{
+  "name": "vocal-remover",
+  "category": "media",
+  "tags": ["vocal", "remover", "mic", "karaoke", "remove", "voice"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 0 12 0M12 17v4\"/><line class=\"p3\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

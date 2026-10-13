@@ -1,0 +1,11 @@
+{
+  "name": "speech-translate",
+  "category": "communication",
+  "tags": ["translate", "language", "speech", "bubble", "translation", "multilingual"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"11\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M15 7h5M18 5l2 2-2 2\"/><rect class=\"d p2\" x=\"10\" y=\"14\" width=\"11\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

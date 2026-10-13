@@ -1,0 +1,12 @@
+{
+  "name": "cappuccino",
+  "category": "food",
+  "tags": ["cappuccino", "coffee", "foam", "cup", "saucer", "cafe"],
+  "svg": "<path class=\"d p1\" d=\"M5 10h13v3a5 5 0 0 1-5 5h-3a5 5 0 0 1-5-5z\"/><path class=\"p2\" d=\"M5 10a6.5 3 0 0 1 13 0\"/><path class=\"p3\" d=\"M18 12h1.5a2 2 0 0 1 0 3H18\"/><path class=\"p4\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "bob", "dur": 900, "delay": 1100 }
+  ]
+}

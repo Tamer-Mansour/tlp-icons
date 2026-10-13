@@ -1,0 +1,11 @@
+{
+  "name": "phone-hotspot",
+  "category": "connectivity",
+  "tags": ["hotspot", "phone", "signal", "tethering", "mobile", "wireless"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"11\" width=\"10\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M9 8.5 Q12 6 15 8.5\"/><path class=\"p3\" d=\"M5.5 5.5 Q12 1.5 18.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

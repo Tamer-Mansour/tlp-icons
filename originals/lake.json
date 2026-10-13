@@ -1,0 +1,10 @@
+{
+  "name": "lake",
+  "category": "nature",
+  "tags": ["lake", "water", "waves", "calm", "pond"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><path class=\"p2\" d=\"M6.5 12c1.5-1.2 3-1.2 4.5 0s3 1.2 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 800 }
+  ]
+}

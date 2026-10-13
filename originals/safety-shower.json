@@ -1,0 +1,12 @@
+{
+  "name": "safety-shower",
+  "category": "science",
+  "tags": ["safety", "shower", "emergency", "lab", "water"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"7\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"10\" height=\"3\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.2\"/><circle class=\"f p3\" cx=\"15\" cy=\"14\" r=\"1.2\"/><line class=\"p4\" x1=\"4\" y1=\"21\" x2=\"20\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

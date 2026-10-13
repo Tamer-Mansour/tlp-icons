@@ -1,0 +1,11 @@
+{
+  "name": "soon-arrow",
+  "category": "emoji",
+  "tags": ["soon", "coming", "later", "arrow", "clock", "upcoming"],
+  "svg": "<path class=\"p1\" d=\"M3 12 H14 M10 8 L14 12 L10 16\"/><circle class=\"p2\" cx=\"17.5\" cy=\"6.5\" r=\"3.5\"/><path class=\"p3\" d=\"M17.5 4.5 V6.5 H19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "17.5px 6.5px" }
+  ]
+}

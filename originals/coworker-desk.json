@@ -1,0 +1,11 @@
+{
+  "name": "coworker-desk",
+  "category": "people",
+  "tags": ["coworker", "desk", "office", "colleague", "monitor"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"18\" x2=\"22\" y2=\"18\"/><rect class=\"p2\" x=\"10.5\" y=\"6\" width=\"9\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M15 13V18\"/><circle class=\"p3\" cx=\"5\" cy=\"11\" r=\"2\"/><path class=\"p3\" d=\"M1.5 18Q1.5 14.5 5 14.5Q8.5 14.5 8.5 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 1300, "origin": "bottom" }
+  ]
+}

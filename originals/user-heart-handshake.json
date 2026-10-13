@@ -1,0 +1,10 @@
+{
+  "name": "user-heart-handshake",
+  "category": "people",
+  "tags": ["user", "heart", "handshake", "care", "support", "person", "partner"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"8\" r=\"3.2\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1.5\"/><path class=\"d p2\" d=\"M18.5 19.5s-3.5-2.2-3.5-4.7a2 2 0 0 1 3.5-1.2 2 2 0 0 1 3.5 1.2c0 2.5-3.5 4.7-3.5 4.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 900, "delay": 700 }
+  ]
+}

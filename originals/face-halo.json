@@ -1,0 +1,11 @@
+{
+  "name": "face-halo",
+  "category": "emoji",
+  "tags": ["face", "halo", "angel", "innocent", "blessed"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"7.5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"3.5\" rx=\"5\" ry=\"1.5\"/><path class=\"p3\" d=\"M8.5 12.5h1.5M14 12.5h1.5M9.5 15.5c1.5 1 3.5 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 1200 }
+  ]
+}

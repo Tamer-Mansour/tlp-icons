@@ -1,0 +1,12 @@
+{
+  "name": "report-user",
+  "category": "people",
+  "tags": ["report", "user", "flag", "complaint", "person", "abuse", "issue"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"10\" r=\"3.5\"/><path class=\"p2\" d=\"M2 22a6 6 0 0 1 12 0\"/><path class=\"p3\" d=\"M18 2.5v19.5\"/><path class=\"d p4\" d=\"M18 3h4l-1 2.5 1 2.5h-4z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "flutter", "dur": 700, "delay": 1100 }
+  ]
+}

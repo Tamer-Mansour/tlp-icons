@@ -1,0 +1,10 @@
+{
+  "name": "pipeline-steps",
+  "category": "interface",
+  "tags": ["pipeline", "steps", "flow", "boxes", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M2 8H5V16H2ZM19 8H22V16H19Z\"/><path class=\"p2\" d=\"M9 12H15M12 9L15 12L12 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 600, "delay": 900 }
+  ]
+}

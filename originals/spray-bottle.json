@@ -1,0 +1,11 @@
+{
+  "name": "spray-bottle",
+  "category": "home",
+  "tags": ["spray", "bottle", "cleaning", "mist", "trigger", "nozzle"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"10\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M7 10V6.5H12V10\"/><path class=\"p3\" d=\"M12 6.5H18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

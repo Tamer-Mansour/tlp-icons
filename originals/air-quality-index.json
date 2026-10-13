@@ -1,0 +1,11 @@
+{
+  "name": "air-quality-index",
+  "category": "charts",
+  "tags": ["air", "quality", "index", "wind", "gauge", "pollution"],
+  "svg": "<path class=\"p1\" d=\"M3 8h10a2.5 2.5 0 0 0-2.5-2.5\"/><path class=\"p2\" d=\"M3 14h12.5a2.5 2.5 0 0 1-2.5 2.5\"/><path class=\"p3\" d=\"M3 20h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1400 }
+  ]
+}

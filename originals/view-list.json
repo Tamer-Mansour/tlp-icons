@@ -1,0 +1,10 @@
+{
+  "name": "view-list",
+  "category": "interface",
+  "tags": ["list", "view", "rows", "items", "menu", "bullets"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M9 6h11M9 12h11M9 18h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 }
+  ]
+}

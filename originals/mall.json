@@ -1,0 +1,10 @@
+{
+  "name": "mall",
+  "category": "buildings",
+  "tags": ["mall", "shopping", "arches", "entrance", "building", "center"],
+  "svg": "<path class=\"p1\" d=\"M2 8h20v13H2z\"/><path class=\"p2\" d=\"M5 21v-5a2 2 0 0 1 4 0v5M11 21v-5a2 2 0 0 1 4 0v5M17 21v-5a2 2 0 0 1 4 0v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 700 }
+  ]
+}

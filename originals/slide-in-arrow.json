@@ -1,0 +1,10 @@
+{
+  "name": "slide-in-arrow",
+  "category": "arrows",
+  "tags": ["slide", "in", "panel", "enter", "sidebar", "drawer"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4.5\" width=\"10\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M20 12h-5M17.5 9.5 15 12l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 500 }
+  ]
+}

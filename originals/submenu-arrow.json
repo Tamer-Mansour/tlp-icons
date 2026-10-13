@@ -1,0 +1,10 @@
+{
+  "name": "submenu-arrow",
+  "category": "arrows",
+  "tags": ["submenu", "list", "dropdown", "menu", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M3 7 H15\"/><path class=\"p1\" d=\"M3 17 H15\"/><path class=\"p2\" d=\"M18 9 L21 12 L18 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

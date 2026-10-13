@@ -1,0 +1,10 @@
+{
+  "name": "box-wrench",
+  "category": "tools",
+  "tags": ["box", "wrench", "ring", "hex", "closed"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><polygon class=\"p2\" points=\"12 7 16 9.5 16 14.5 12 17 8 14.5 8 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 800, "delay": 800, "origin": "center" }
+  ]
+}

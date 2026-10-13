@@ -1,0 +1,10 @@
+{
+  "name": "quarter-note",
+  "category": "media",
+  "tags": ["quarter", "note", "music", "crotchet", "beat", "sound"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"17.5\" rx=\"3.5\" ry=\"2.5\"/><path class=\"p2\" d=\"M12.5 17.5V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

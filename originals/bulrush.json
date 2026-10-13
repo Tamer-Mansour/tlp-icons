@@ -1,0 +1,11 @@
+{
+  "name": "bulrush",
+  "category": "nature",
+  "tags": ["bulrush", "cattail", "reed", "marsh", "wetland", "plant"],
+  "svg": "<rect class=\"d p2\" x=\"10\" y=\"3\" width=\"4\" height=\"7\" rx=\"2\"/><path class=\"p1\" d=\"M12 21V10\"/><path class=\"p3\" d=\"M12 21c-1-4-4-7-7-8M12 21c1-5 3-9 6-11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "antifreeze",
+  "category": "vehicles",
+  "tags": ["antifreeze", "coolant", "jug", "snowflake", "winter"],
+  "svg": "<path class=\"d p1\" d=\"M9 3 H15 V6 L18 9 V20 H6 V9 L9 6 Z\"/><path class=\"p2\" d=\"M12 10 V15 M9.8 11.5 L14.2 13.5 M14.2 11.5 L9.8 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

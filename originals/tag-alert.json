@@ -1,0 +1,10 @@
+{
+  "name": "tag-alert",
+  "category": "notifications",
+  "tags": ["tag", "alert", "label", "warning", "attention"],
+  "svg": "<path class=\"p1\" d=\"M10 5h9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9l-7-7z\"/><circle class=\"f p1\" cx=\"17\" cy=\"12\" r=\"1\"/><path class=\"p2\" d=\"M12 8.5v3.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

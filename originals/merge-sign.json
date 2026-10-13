@@ -1,0 +1,10 @@
+{
+  "name": "merge-sign",
+  "category": "arrows",
+  "tags": ["merge", "sign", "road", "traffic", "converge"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 21 19 3 19\"/><polyline class=\"p2\" points=\"8 16 12 12 16 16\"/><path class=\"p2\" d=\"M12 12 V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "garbage-collect",
+  "category": "development",
+  "tags": ["garbage", "collect", "memory", "cleanup", "sweep", "trash"],
+  "svg": "<path class=\"p1\" d=\"M4 7 H15 M6 7 L7 19.5 H13 L14 7 M9 7 V5 H11 V7\"/><path class=\"d p2\" d=\"M17 12 H21 L19.5 17 H18.5 Z\"/><path class=\"p2\" d=\"M19 3 L18.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "18px 12px" }
+  ]
+}

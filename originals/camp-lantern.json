@@ -1,0 +1,12 @@
+{
+  "name": "camp-lantern",
+  "category": "sport",
+  "tags": ["lantern", "camping", "light", "lamp", "night", "glow"],
+  "svg": "<path class=\"p1\" d=\"M12 2v3\"/><polygon class=\"d p2\" points=\"8,5 16,5 17.5,8 6.5,8\"/><path class=\"p3\" d=\"M8 8v10h8V8M6.5 21h11\"/><circle class=\"d p4\" cx=\"12\" cy=\"12.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

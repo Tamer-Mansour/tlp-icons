@@ -1,0 +1,11 @@
+{
+  "name": "login-alert",
+  "category": "notifications",
+  "tags": ["login", "door", "alert", "sign in", "access"],
+  "svg": "<path class=\"p1\" d=\"M11 4H6v16h5\"/><path class=\"p2\" d=\"M9 12h8M14 9l3 3-3 3\"/><line class=\"p3\" x1=\"20\" y1=\"3.5\" x2=\"20\" y2=\"6.5\"/><circle class=\"f p3\" cx=\"20\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

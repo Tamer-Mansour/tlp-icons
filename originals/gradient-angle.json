@@ -1,0 +1,10 @@
+{
+  "name": "gradient-angle",
+  "category": "design",
+  "tags": ["gradient", "angle", "rotate", "arrow", "direction", "square"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 16L16 8M10 8h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "center" }
+  ]
+}

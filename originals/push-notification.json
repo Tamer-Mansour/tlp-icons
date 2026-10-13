@@ -1,0 +1,11 @@
+{
+  "name": "push-notification",
+  "category": "connectivity",
+  "tags": ["push", "notification", "alert", "update", "card", "arrow"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"15\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M10.5 15.5v-6M8 12l2.5-2.5L13 12\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"4.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

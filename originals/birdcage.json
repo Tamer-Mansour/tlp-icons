@@ -1,0 +1,11 @@
+{
+  "name": "birdcage",
+  "category": "nature",
+  "tags": ["birdcage", "cage", "bird", "pet", "bars", "perch"],
+  "svg": "<path class=\"d p1\" d=\"M5 9Q5 3 12 3Q19 3 19 9V19H5Z\"/><path class=\"p2\" d=\"M9 9V19M12 9V19M15 9V19\"/><path class=\"p3\" d=\"M7 16H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

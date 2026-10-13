@@ -1,0 +1,11 @@
+{
+  "name": "rounding-up",
+  "category": "math",
+  "tags": ["rounding", "up", "number", "line", "round", "ceiling"],
+  "svg": "<path class=\"p1\" d=\"M3 16 H21 M6 16 V20 M12 16 V20 M18 16 V20\"/><circle class=\"f p2\" cx=\"8\" cy=\"11\" r=\"1.5\"/><path class=\"p3\" d=\"M8 8.5 Q11 4 14 8.5 M12.5 7 L14 8.5 L15.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

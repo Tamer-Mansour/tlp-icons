@@ -1,0 +1,10 @@
+{
+  "name": "call-hold",
+  "category": "communication",
+  "tags": ["call", "hold", "pause", "wait", "phone"],
+  "svg": "<path class=\"p1\" d=\"M5 4.5L8.5 4L10 8.5L8.5 10C9.5 12.5 11.5 14.5 14 15.5L15.5 14L20 15.5L19.5 19C13 21 3 11 5 4.5Z\"/><path class=\"p2\" d=\"M16 4.5v4.5M20 4.5v4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 800, "origin": "top" }
+  ]
+}

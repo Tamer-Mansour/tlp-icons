@@ -1,0 +1,11 @@
+{
+  "name": "bank",
+  "category": "buildings",
+  "tags": ["bank", "finance", "columns", "pediment", "money", "building"],
+  "svg": "<path class=\"p1\" d=\"M3 9l9-5 9 5z\"/><path class=\"p2\" d=\"M6 10v8M10 10v8M14 10v8M18 10v8\"/><path class=\"p3\" d=\"M3 20h18M2 22h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

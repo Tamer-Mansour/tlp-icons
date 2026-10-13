@@ -1,0 +1,10 @@
+{
+  "name": "coil-spring",
+  "category": "tools",
+  "tags": ["coil", "spring", "helix", "tension", "elastic", "mechanism"],
+  "svg": "<polyline class=\"p1\" points=\"4,4 20,7 4,10 20,13 4,16 20,19\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

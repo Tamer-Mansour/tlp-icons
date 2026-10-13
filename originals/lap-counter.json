@@ -1,0 +1,10 @@
+{
+  "name": "lap-counter",
+  "category": "sport",
+  "tags": ["lap", "counter", "track", "running", "laps", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M7 7 H17 A5 5 0 0 1 17 17 H7 A5 5 0 0 1 7 7 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

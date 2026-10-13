@@ -1,0 +1,11 @@
+{
+  "name": "spoke-wheel",
+  "category": "shapes",
+  "tags": ["wheel", "spokes", "rim", "hub", "round"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M14 12H18.5M13.41 13.41L16.59 16.59M12 14V18.5M10.59 13.41L7.41 16.59M10 12H5.5M10.59 10.59L7.41 7.41M12 10V5.5M13.41 10.59L16.59 7.41\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

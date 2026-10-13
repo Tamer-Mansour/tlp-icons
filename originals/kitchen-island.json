@@ -1,0 +1,11 @@
+{
+  "name": "kitchen-island",
+  "category": "home",
+  "tags": ["kitchen", "island", "counter", "sink", "worktop", "cabinet"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 17v5M19 17v5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"13\" rx=\"3\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

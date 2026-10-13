@@ -1,0 +1,10 @@
+{
+  "name": "infinite-canvas",
+  "category": "layout",
+  "tags": ["infinite", "canvas", "workspace", "expand", "outward", "board"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M12 2V5M10 4L12 2L14 4M12 19V22M10 20L12 22L14 20M2 12H5M4 10L2 12L4 14M19 12H22M20 10L22 12L20 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

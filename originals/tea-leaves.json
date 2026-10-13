@@ -1,0 +1,12 @@
+{
+  "name": "tea-leaves",
+  "category": "food",
+  "tags": ["tea", "leaves", "herbal", "brew", "green"],
+  "svg": "<path class=\"p1 d\" d=\"M5 16 Q5 6 14 5 Q15 14 5 16 Z\"/><path class=\"p2\" d=\"M5.5 15.5 Q9 11 13.5 5.5\"/><path class=\"p3 d\" d=\"M14 20 Q14 14 19 13 Q19.5 19 14 20 Z\"/><path class=\"p4\" d=\"M14.5 19 L18.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 1100 }
+  ]
+}

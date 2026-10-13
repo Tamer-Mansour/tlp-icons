@@ -1,0 +1,10 @@
+{
+  "name": "bullet-dot",
+  "category": "emoji",
+  "tags": ["bullet", "dot", "list", "item", "point"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M9 12h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 }
+  ]
+}

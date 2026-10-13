@@ -1,0 +1,11 @@
+{
+  "name": "bolt-cutters",
+  "category": "tools",
+  "tags": ["bolt", "cutters", "shears", "cut", "lock", "metal"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"11\" y2=\"13\"/><line class=\"p2\" x1=\"21\" y1=\"21\" x2=\"13\" y2=\"13\"/><rect class=\"d p3\" x=\"9\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1100 }
+  ]
+}

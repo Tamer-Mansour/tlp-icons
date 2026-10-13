@@ -1,0 +1,10 @@
+{
+  "name": "climb-arrow",
+  "category": "arrows",
+  "tags": ["climb", "steps", "rising", "progress", "upward"],
+  "svg": "<path class=\"p1\" d=\"M3 20 H7 V15 H11 V10 H15 V6\"/><path class=\"p2\" d=\"M11 6 H15 V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 500, "delay": 900 }
+  ]
+}

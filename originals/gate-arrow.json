@@ -1,0 +1,11 @@
+{
+  "name": "gate-arrow",
+  "category": "arrows",
+  "tags": ["gate", "barrier", "pass through", "entry", "arrows"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"4\" x2=\"4\" y2=\"20\"/><line class=\"p1\" x1=\"20\" y1=\"4\" x2=\"20\" y2=\"20\"/><line class=\"p2\" x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\"/><path class=\"p3\" d=\"M7 15h7\"/><polyline class=\"p3\" points=\"12 12 15 15 12 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 300, "origin": "left" },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "divider-tabs",
+  "category": "files",
+  "tags": ["divider", "tabs", "page", "sections", "index"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"12\" height=\"18\" rx=\"1.5\"/><rect class=\"p2\" x=\"15\" y=\"4\" width=\"5\" height=\"2.5\" rx=\"0.5\"/><rect class=\"p2\" x=\"15\" y=\"10.5\" width=\"5\" height=\"2.5\" rx=\"0.5\"/><rect class=\"p2\" x=\"15\" y=\"17\" width=\"5\" height=\"2.5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

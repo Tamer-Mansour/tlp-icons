@@ -1,0 +1,11 @@
+{
+  "name": "audio-track-add",
+  "category": "media",
+  "tags": ["audio", "track", "add", "plus", "music", "timeline"],
+  "svg": "<path class=\"p1\" d=\"M3 7H13\"/><path class=\"p2\" d=\"M3 12H13\"/><path class=\"p3\" d=\"M18 9V15M15 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

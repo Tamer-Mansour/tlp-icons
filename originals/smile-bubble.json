@@ -1,0 +1,12 @@
+{
+  "name": "smile-bubble",
+  "category": "communication",
+  "tags": ["smile", "happy", "emoji", "bubble", "face", "positive"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"d p2\" cx=\"12\" cy=\"8.5\" r=\"4\"/><circle class=\"f p3\" cx=\"10.3\" cy=\"7.8\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.7\" cy=\"7.8\" r=\"0.9\"/><path class=\"p4\" d=\"M10 10a2.5 2.5 0 0 0 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

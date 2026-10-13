@@ -1,0 +1,11 @@
+{
+  "name": "dial-up",
+  "category": "connectivity",
+  "tags": ["dial", "up", "rotary", "modem", "old phone", "connection"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><circle class=\"f p3\" cx=\"8.1\" cy=\"8.1\" r=\"1\"/><circle class=\"f p3\" cx=\"15.9\" cy=\"8.1\" r=\"1\"/><circle class=\"f p3\" cx=\"8.1\" cy=\"15.9\" r=\"1\"/><circle class=\"f p3\" cx=\"15.9\" cy=\"15.9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

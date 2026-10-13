@@ -1,0 +1,12 @@
+{
+  "name": "person-yawning",
+  "category": "people",
+  "tags": ["yawning", "person", "tired", "sleepy", "bored", "yawn"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M7 11H9.5M12.5 11H15\"/><ellipse class=\"p3\" cx=\"11\" cy=\"16\" rx=\"2\" ry=\"2.5\"/><path class=\"p4\" d=\"M18 2.5H21L18 5.5H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "inhale", "dur": 1000, "delay": 800 },
+    { "part": "p4", "anim": "float", "dur": 1000, "delay": 1200 }
+  ]
+}

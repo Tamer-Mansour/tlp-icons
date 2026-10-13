@@ -1,0 +1,12 @@
+{
+  "name": "cheering-crowd",
+  "category": "people",
+  "tags": ["cheering", "crowd", "celebrate", "applause", "cheer"],
+  "svg": "<path class=\"p1\" d=\"M2.5 21Q2.5 15 5 15Q7.5 15 7.5 21M9.5 21Q9.5 15 12 15Q14.5 15 14.5 21M16.5 21Q16.5 15 19 15Q21.5 15 21.5 21\"/><circle class=\"p2\" cx=\"5\" cy=\"11\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"11\" r=\"2\"/><path class=\"p3\" d=\"M2.8 17L1.5 11.5M21.2 17L22.5 11.5\"/><path class=\"p4\" d=\"M12 3V5M7 4.5L8 6M17 4.5L16 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 1400, "origin": "bottom" },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1400 }
+  ]
+}

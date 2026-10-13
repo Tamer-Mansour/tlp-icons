@@ -1,0 +1,11 @@
+{
+  "name": "movie-ticket",
+  "category": "media",
+  "tags": ["ticket", "movie", "cinema", "admission", "pass", "film"],
+  "svg": "<path class=\"d p1\" d=\"M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z\"/><line class=\"p2\" x1=\"15\" y1=\"8\" x2=\"15\" y2=\"16\"/><circle class=\"p3\" cx=\"9\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

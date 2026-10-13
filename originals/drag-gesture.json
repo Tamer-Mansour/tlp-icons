@@ -1,0 +1,11 @@
+{
+  "name": "drag-gesture",
+  "category": "arrows",
+  "tags": ["drag", "move", "gesture", "pull", "path", "touch"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M7 17 C10 14 9 9 13 8 C16 7 17 5 18 5\"/><polyline class=\"p3\" points=\"14.5 3 18.5 5 16.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

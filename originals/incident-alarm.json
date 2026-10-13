@@ -1,0 +1,11 @@
+{
+  "name": "incident-alarm",
+  "category": "development",
+  "tags": ["incident", "alarm", "bell", "alert", "warning", "outage"],
+  "svg": "<path class=\"p1\" d=\"M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z\"/><path class=\"p2\" d=\"M10 21h4\"/><path class=\"p3\" d=\"M12 9v3.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 5px" }
+  ]
+}

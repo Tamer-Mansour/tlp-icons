@@ -1,0 +1,10 @@
+{
+  "name": "flower-shape",
+  "category": "shapes",
+  "tags": ["flower", "petals", "bloom", "nature", "outline", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M12 6A4 4 0 0 1 17.7 10.2A4 4 0 0 1 15.5 16.8A4 4 0 0 1 8.5 16.8A4 4 0 0 1 6.3 10.2A4 4 0 0 1 12 6Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "index-list",
+  "category": "charts",
+  "tags": ["index", "list", "tabs", "alphabet", "sort", "directory"],
+  "svg": "<path class=\"p1\" d=\"M4 6H14M4 12H14M4 18H14\"/><rect class=\"p2\" x=\"17\" y=\"4.5\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"17\" y=\"10.5\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"17\" y=\"16.5\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

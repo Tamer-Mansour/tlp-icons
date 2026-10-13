@@ -1,0 +1,10 @@
+{
+  "name": "tadpole-life",
+  "category": "science",
+  "tags": ["tadpole", "frog", "life", "tail", "amphibian"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"14\" r=\"5\"/><path class=\"p2\" d=\"M14 14c2.5 1.5 4-2.5 7-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800 }
+  ]
+}

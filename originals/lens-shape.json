@@ -1,0 +1,10 @@
+{
+  "name": "lens-shape",
+  "category": "shapes",
+  "tags": ["lens", "almond", "optic", "oval", "outline"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 Q12 3 21 12 Q12 21 3 12 Z\"/><line class=\"p2\" x1=\"12\" y1=\"9.5\" x2=\"12\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 800 }
+  ]
+}

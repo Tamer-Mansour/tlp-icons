@@ -1,0 +1,10 @@
+{
+  "name": "mosaic",
+  "category": "shapes",
+  "tags": ["grid", "squares", "pattern", "tiles", "filled", "design"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"d p2\" x=\"10\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p1\" x=\"17\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p1\" x=\"10\" y=\"14\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"d p2\" x=\"17\" y=\"14\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

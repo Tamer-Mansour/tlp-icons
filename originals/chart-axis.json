@@ -1,0 +1,10 @@
+{
+  "name": "chart-axis",
+  "category": "charts",
+  "tags": ["axis", "axes", "ticks", "coordinate", "chart"],
+  "svg": "<path class=\"p1\" d=\"M4 3V20H21\"/><path class=\"p2\" d=\"M4 7H7M4 12H7M4 17H7M8 20V17M13 20V17M18 20V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 700 }
+  ]
+}

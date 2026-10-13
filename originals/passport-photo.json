@@ -1,0 +1,11 @@
+{
+  "name": "passport-photo",
+  "category": "photography",
+  "tags": ["passport photo", "id photo", "portrait", "headshot", "document", "photo"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"1.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M8 18c0-2 1.5-3 4-3s4 1 4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pinhole-camera",
+  "category": "photography",
+  "tags": ["pinhole", "camera", "light", "box", "aperture", "optics"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"10\" rx=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"1.2\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

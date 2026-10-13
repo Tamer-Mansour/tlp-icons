@@ -1,0 +1,11 @@
+{
+  "name": "wind-sensor",
+  "category": "weather",
+  "tags": ["wind", "sensor", "anemometer", "cup", "mast", "speed"],
+  "svg": "<path class=\"p1\" d=\"M12 22 V10 M8 22 H16\"/><path class=\"p2\" d=\"M12 10 L6 6 M12 10 L18 6\"/><circle class=\"f p3\" cx=\"6\" cy=\"6\" r=\"1.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"6\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 600, "origin": "12px 10px" },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1500 }
+  ]
+}

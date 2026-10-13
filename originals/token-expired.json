@@ -1,0 +1,12 @@
+{
+  "name": "token-expired",
+  "category": "notifications",
+  "tags": ["token", "key", "expired", "clock", "auth"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M10 11l8-8M15 6l2.5 2.5\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"4.5\"/><path class=\"p4\" d=\"M17 14.5v2.5l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "17px 17px" }
+  ]
+}

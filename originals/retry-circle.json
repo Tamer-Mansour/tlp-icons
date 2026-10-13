@@ -1,0 +1,10 @@
+{
+  "name": "retry-circle",
+  "category": "interface",
+  "tags": ["retry", "circle", "arrow", "again", "repeat", "loop"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 8a4 4 0 1 0 4 4M12 8H9.5M12 8V5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800, "origin": "12px 12px" }
+  ]
+}

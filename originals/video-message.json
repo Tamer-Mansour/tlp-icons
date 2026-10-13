@@ -1,0 +1,10 @@
+{
+  "name": "video-message",
+  "category": "communication",
+  "tags": ["video", "message", "camera", "chat", "record", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><path class=\"p2\" d=\"M7.5 11.5H12.5V15.5H7.5ZM12.5 13L15 11.5V15.5L12.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

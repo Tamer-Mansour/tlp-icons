@@ -1,0 +1,11 @@
+{
+  "name": "deboard",
+  "category": "arrows",
+  "tags": ["deboard", "exit", "bus", "vehicle", "leave", "step"],
+  "svg": "<path class=\"p1\" d=\"M12 3H5v18h7\"/><path class=\"p2\" d=\"M10 12h11\"/><path class=\"p3\" d=\"M18 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

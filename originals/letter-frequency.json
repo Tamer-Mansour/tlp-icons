@@ -1,0 +1,10 @@
+{
+  "name": "letter-frequency",
+  "category": "text",
+  "tags": ["frequency", "letters", "chart", "bars", "statistics"],
+  "svg": "<path class=\"p1\" d=\"M2 21.5H22\"/><rect class=\"d p2\" x=\"3\" y=\"8\" width=\"3\" height=\"10\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"3\" height=\"15\"/><rect class=\"d p2\" x=\"13\" y=\"10\" width=\"3\" height=\"8\"/><rect class=\"d p2\" x=\"18\" y=\"6\" width=\"3\" height=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 300, "origin": "bottom" }
+  ]
+}

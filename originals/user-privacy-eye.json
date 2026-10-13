@@ -1,0 +1,10 @@
+{
+  "name": "user-privacy-eye",
+  "category": "people",
+  "tags": ["privacy", "eye", "user", "visibility", "profile"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M3 20a6 6 0 0 1 9-5\"/><path class=\"p2\" d=\"M14 17s1.5-2.5 4-2.5 4 2.5 4 2.5-1.5 2.5-4 2.5-4-2.5-4-2.5z\"/><circle class=\"p2\" cx=\"18\" cy=\"17\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 800 }
+  ]
+}

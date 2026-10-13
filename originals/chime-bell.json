@@ -1,0 +1,12 @@
+{
+  "name": "chime-bell",
+  "category": "time",
+  "tags": ["chime", "bell", "dome", "sound", "ring", "alarm"],
+  "svg": "<path class=\"d p1\" d=\"M6 17v-6a6 6 0 0 1 12 0v6z\"/><path class=\"p2\" d=\"M4 17h16\"/><path class=\"p3\" d=\"M12 18v2.5\"/><path class=\"p4\" d=\"M3.5 6.5a4 4 0 0 0 0 4M20.5 6.5a4 4 0 0 1 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

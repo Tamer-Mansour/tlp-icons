@@ -1,0 +1,11 @@
+{
+  "name": "label-stack",
+  "category": "interface",
+  "tags": ["label", "stack", "tags", "price", "shop", "organize"],
+  "svg": "<path class=\"d p1\" d=\"M3 2.5h9l4 4.5-4 4.5H3z\"/><path class=\"d p2\" d=\"M9 14.5h9l3 3.5-3 3.5H9z\"/><circle class=\"p3\" cx=\"6.5\" cy=\"7\" r=\"1\"/><circle class=\"p3\" cx=\"13.5\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

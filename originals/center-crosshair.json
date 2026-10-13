@@ -1,0 +1,10 @@
+{
+  "name": "center-crosshair",
+  "category": "design",
+  "tags": ["crosshair", "center", "target", "aim", "align"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 6V9M12 15V18M6 12H9M15 12H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

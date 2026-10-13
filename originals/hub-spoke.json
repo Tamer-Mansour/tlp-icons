@@ -1,0 +1,11 @@
+{
+  "name": "hub-spoke",
+  "category": "connectivity",
+  "tags": ["hub", "spoke", "network", "topology", "central", "nodes"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M9.9 9.9 L5.9 5.9 M14.1 9.9 L18.1 5.9 M9.9 14.1 L5.9 18.1 M14.1 14.1 L18.1 18.1\"/><path class=\"p2\" d=\"M6.5 4.5 A2 2 0 1 1 2.5 4.5 A2 2 0 1 1 6.5 4.5 M21.5 4.5 A2 2 0 1 1 17.5 4.5 A2 2 0 1 1 21.5 4.5 M6.5 19.5 A2 2 0 1 1 2.5 19.5 A2 2 0 1 1 6.5 19.5 M21.5 19.5 A2 2 0 1 1 17.5 19.5 A2 2 0 1 1 21.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

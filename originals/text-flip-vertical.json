@@ -1,0 +1,10 @@
+{
+  "name": "text-flip-vertical",
+  "category": "text",
+  "tags": ["flip", "vertical", "mirror", "arrow", "text", "transform"],
+  "svg": "<path class=\"p1\" d=\"M3 20L7 6L11 20M4.5 14H9.5\"/><path class=\"p2\" d=\"M18 3V21M15 6L18 3L21 6M15 18L18 21L21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 900, "delay": 800 }
+  ]
+}

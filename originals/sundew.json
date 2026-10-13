@@ -1,0 +1,11 @@
+{
+  "name": "sundew",
+  "category": "nature",
+  "tags": ["sundew", "carnivorous", "plant", "bog", "tentacles"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"6\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 15L5 10M12 15L19 10M12 15V7\"/><circle class=\"f p3\" cx=\"5\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

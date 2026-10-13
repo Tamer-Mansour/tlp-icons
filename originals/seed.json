@@ -1,0 +1,11 @@
+{
+  "name": "seed",
+  "category": "development",
+  "tags": ["seed", "sprout", "database", "sample data", "plant"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"4\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 14.5V8\"/><path class=\"p3\" d=\"M12 9c0-2.5 2-4 5-4 0 2.5-2 4-5 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1100, "origin": "12px 14px" }
+  ]
+}

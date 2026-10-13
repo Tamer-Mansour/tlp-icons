@@ -1,0 +1,11 @@
+{
+  "name": "timeline-status",
+  "category": "notifications",
+  "tags": ["timeline", "status", "nodes", "progress", "history", "list"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"5\" r=\"2.5\"/><circle class=\"p2\" cx=\"6\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"6\" cy=\"19\" r=\"2.5\"/><path class=\"p3\" d=\"M11 5h8M11 12h8M11 19h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

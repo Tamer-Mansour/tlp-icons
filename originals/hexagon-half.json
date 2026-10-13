@@ -1,0 +1,10 @@
+{
+  "name": "hexagon-half",
+  "category": "shapes",
+  "tags": ["hexagon", "half", "slice", "shape", "cut"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L4 7.5 V16.5 L12 21 Z\"/><path class=\"p2\" d=\"M12 3 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

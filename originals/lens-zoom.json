@@ -1,0 +1,11 @@
+{
+  "name": "lens-zoom",
+  "category": "media",
+  "tags": ["lens", "zoom", "camera", "magnify", "focus"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M15 15l6 6\"/><path class=\"p3\" d=\"M10 7v6M7 10h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

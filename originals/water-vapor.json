@@ -1,0 +1,10 @@
+{
+  "name": "water-vapor",
+  "category": "weather",
+  "tags": ["vapor", "steam", "humidity", "rising", "moisture"],
+  "svg": "<path class=\"p1\" d=\"M8 11 C6 9 10 7 8 5 M12 11 C10 9 14 7 12 5 M16 11 C14 9 18 7 16 5\"/><circle class=\"f p2\" cx=\"12\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

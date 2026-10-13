@@ -1,0 +1,11 @@
+{
+  "name": "turntable-platter",
+  "category": "media",
+  "tags": ["turntable", "platter", "vinyl", "record", "spin", "dj"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5.5v2.5M12 16v2.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 800 }
+  ]
+}

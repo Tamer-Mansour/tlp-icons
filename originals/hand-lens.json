@@ -1,0 +1,10 @@
+{
+  "name": "hand-lens",
+  "category": "science",
+  "tags": ["lens", "magnifier", "hand", "inspect", "lab"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p2\" d=\"M14.5 14.5L20 20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

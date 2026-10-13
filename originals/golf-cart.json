@@ -1,0 +1,11 @@
+{
+  "name": "golf-cart",
+  "category": "sport",
+  "tags": ["golf", "cart", "buggy", "course", "vehicle", "canopy"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h13v4h-13z\"/><polyline class=\"p2\" points=\"5,13 6,8 14,8 15,13\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"14\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 1000 }
+  ]
+}

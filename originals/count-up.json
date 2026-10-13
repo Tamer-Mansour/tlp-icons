@@ -1,0 +1,10 @@
+{
+  "name": "count-up",
+  "category": "math",
+  "tags": ["count", "up", "increase", "arrow", "numbers"],
+  "svg": "<path class=\"p1\" d=\"M16 20V5M12 9l4-4 4 4\"/><path class=\"p2\" d=\"M3 17h5M3 13h5M3 9h5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "lift", "dur": 700, "delay": 600 }
+  ]
+}

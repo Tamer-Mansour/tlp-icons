@@ -1,0 +1,11 @@
+{
+  "name": "target-arrows",
+  "category": "arrows",
+  "tags": ["target", "aim", "focus", "converge", "bullseye", "center"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M2.5 9V2.5H9M2.5 2.5L8 8M21.5 9V2.5H15M21.5 2.5L16 8M2.5 15v6.5H9M2.5 21.5L8 16M21.5 15v6.5H15M21.5 21.5L16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1200 }
+  ]
+}

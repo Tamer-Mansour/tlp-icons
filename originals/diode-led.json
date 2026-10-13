@@ -1,0 +1,11 @@
+{
+  "name": "diode-led",
+  "category": "science",
+  "tags": ["diode", "led", "light", "circuit", "electronics"],
+  "svg": "<path class=\"d p1\" d=\"M4 6v12l9-6z\"/><path class=\"p2\" d=\"M16 5v14\"/><path class=\"p3\" d=\"M18 8l2.5-2.5M19.5 12l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

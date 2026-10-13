@@ -1,0 +1,11 @@
+{
+  "name": "parts-tray",
+  "category": "tools",
+  "tags": ["parts", "tray", "compartment", "organizer", "small", "bins"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 8v12M15 8v12\"/><rect class=\"d p3\" x=\"10.5\" y=\"11\" width=\"3\" height=\"3\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 1100 }
+  ]
+}

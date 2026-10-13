@@ -1,0 +1,11 @@
+{
+  "name": "bedside-clock",
+  "category": "time",
+  "tags": ["clock", "bedside", "night", "alarm", "moon"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p1\" d=\"M12 10v3l2 1.5\"/><path class=\"p2\" d=\"M9 19.5l-1.5 2.5M15 19.5l1.5 2.5\"/><path class=\"d p3\" d=\"M19 3a3 3 0 1 0 2.5 4.5 2.5 2.5 0 0 1-2.5-4.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 1100 }
+  ]
+}

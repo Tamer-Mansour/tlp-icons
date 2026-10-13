@@ -1,0 +1,11 @@
+{
+  "name": "kettle",
+  "category": "food",
+  "tags": ["kettle", "boil", "water", "tea", "stove"],
+  "svg": "<path class=\"p1 d\" d=\"M5 12 Q5 8 12 8 Q19 8 19 12 V18 Q19 20 17 20 H7 Q5 20 5 18 Z\"/><path class=\"p3\" d=\"M6 8.5 Q12 2.5 18 8.5\"/><path class=\"p4\" d=\"M19 13 L22 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "tilt", "dur": 800, "delay": 1100 }
+  ]
+}

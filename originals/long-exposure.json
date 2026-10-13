@@ -1,0 +1,11 @@
+{
+  "name": "long-exposure",
+  "category": "photography",
+  "tags": ["long", "exposure", "clock", "light", "trail"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M12 6.5V9l2 1.5\"/><path class=\"p3\" d=\"M4 19c2.5-2 4.5 2 8 0s5.5-2 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 800 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

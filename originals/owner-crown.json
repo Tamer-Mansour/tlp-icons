@@ -1,0 +1,11 @@
+{
+  "name": "owner-crown",
+  "category": "people",
+  "tags": ["owner", "crown", "king", "leader", "founder", "premium"],
+  "svg": "<path class=\"d p1\" d=\"M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5z\"/><path class=\"p2\" d=\"M4 21.5h16\"/><circle class=\"f p3\" cx=\"12\" cy=\"2.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1100 }
+  ]
+}

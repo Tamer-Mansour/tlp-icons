@@ -1,0 +1,11 @@
+{
+  "name": "parachute-capsule",
+  "category": "science",
+  "tags": ["parachute", "capsule", "canopy", "landing", "space"],
+  "svg": "<path class=\"d p1\" d=\"M3 9Q12 0 21 9Z\"/><path class=\"p2\" d=\"M3 9L9 16M21 9L15 16\"/><rect class=\"p3\" x=\"9\" y=\"16\" width=\"6\" height=\"5\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

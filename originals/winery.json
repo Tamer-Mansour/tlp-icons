@@ -1,0 +1,11 @@
+{
+  "name": "winery",
+  "category": "buildings",
+  "tags": ["winery", "wine", "glass", "grapes", "vineyard", "tasting", "vine"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h10c0 5-2 8-5 8S5 8 5 3z\"/><path class=\"p2\" d=\"M10 11v8M7 21h6\"/><circle class=\"p3\" cx=\"18\" cy=\"6.5\" r=\"1.2\"/><circle class=\"p3\" cx=\"21\" cy=\"6.5\" r=\"1.2\"/><circle class=\"p3\" cx=\"19.5\" cy=\"9.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

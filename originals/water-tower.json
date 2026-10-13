@@ -1,0 +1,11 @@
+{
+  "name": "water-tower",
+  "category": "buildings",
+  "tags": ["water", "tower", "tank", "storage", "town", "supply"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"6\"/><path class=\"p2\" d=\"M8.5 14L7 21M15.5 14L17 21\"/><path class=\"p3\" d=\"M7 9q2.5-2 5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1000 }
+  ]
+}

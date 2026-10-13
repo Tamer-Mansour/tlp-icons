@@ -1,0 +1,10 @@
+{
+  "name": "boolean-intersect",
+  "category": "design",
+  "tags": ["boolean", "intersect", "overlap", "shapes", "lens", "vector"],
+  "svg": "<path class=\"d p1\" d=\"M12 8A5 5 0 0 1 12 16A5 5 0 0 1 12 8Z\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

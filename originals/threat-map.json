@@ -1,0 +1,10 @@
+{
+  "name": "threat-map",
+  "category": "security",
+  "tags": ["threat", "map", "location", "danger", "incident", "alert"],
+  "svg": "<polygon class=\"d p1\" points=\"3,6 9,4 15,6 21,4 21,18 15,20 9,18 3,20\"/><path class=\"p2\" d=\"M12 9 C10.6 9 9.6 10.1 9.6 11.4 C9.6 13 12 15.5 12 15.5 C12 15.5 14.4 13 14.4 11.4 C14.4 10.1 13.4 9 12 9 Z\"/><line class=\"p2\" x1=\"12\" y1=\"10.5\" x2=\"12\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 700 }
+  ]
+}

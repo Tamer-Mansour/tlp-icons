@@ -1,0 +1,11 @@
+{
+  "name": "file-tree",
+  "category": "development",
+  "tags": ["file", "tree", "folder", "directory", "hierarchy", "project"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h6l2 2h10v11H3z\"/><path class=\"p2\" d=\"M8 12v6h4\"/><path class=\"p3\" d=\"M8 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 400, "delay": 1100 }
+  ]
+}

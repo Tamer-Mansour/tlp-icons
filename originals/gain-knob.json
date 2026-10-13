@@ -1,0 +1,11 @@
+{
+  "name": "gain-knob",
+  "category": "media",
+  "tags": ["gain", "knob", "volume", "level", "amplifier", "dial"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 12V8\"/><path class=\"p3\" d=\"M2 12H4.5M19.5 12H22M20.75 10.5V13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

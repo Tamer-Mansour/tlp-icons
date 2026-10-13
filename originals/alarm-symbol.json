@@ -1,0 +1,10 @@
+{
+  "name": "alarm-symbol",
+  "category": "emoji",
+  "tags": ["alarm", "clock", "bell", "wake", "morning", "ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p1\" d=\"M12 10 V13 L14 14.5\"/><path class=\"p2\" d=\"M4 6 L7 3\"/><path class=\"p2\" d=\"M20 6 L17 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hydrogen-bond",
+  "category": "science",
+  "tags": ["hydrogen", "bond", "molecule", "dashed", "chemistry"],
+  "svg": "<circle class=\"d p1\" cx=\"4\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"20\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M8.5 12H10.5M13.5 12H15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

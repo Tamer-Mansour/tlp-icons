@@ -1,0 +1,11 @@
+{
+  "name": "armillary-sphere",
+  "category": "science",
+  "tags": ["armillary", "sphere", "rings", "astronomy", "celestial", "instrument"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"9\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "orbit", "dur": 1800, "delay": 800, "origin": "center" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "weather-stripping",
+  "category": "home",
+  "tags": ["weather", "stripping", "door", "seal", "foam"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"12\" height=\"20\" rx=\"1\"/><path class=\"p2\" d=\"M19 3c-1.5 2 1.5 3.5 0 5.5s1.5 3.5 0 5.5s1.5 3.5 0 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800 }
+  ]
+}

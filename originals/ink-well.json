@@ -1,0 +1,11 @@
+{
+  "name": "ink-well",
+  "category": "files",
+  "tags": ["inkwell", "ink", "pen", "dip", "writing"],
+  "svg": "<path class=\"p1 d\" d=\"M5 14h14v3a7 3 0 0 1-14 0z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"14\" rx=\"7\" ry=\"2\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"15\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

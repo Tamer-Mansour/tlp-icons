@@ -1,0 +1,11 @@
+{
+  "name": "pineapple",
+  "category": "food",
+  "tags": ["pineapple", "fruit", "tropical", "summer", "crown", "sweet"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14.5\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M9 11 L15 17 M15 11 L9 17\"/><path class=\"p3\" d=\"M12 7.5 V3 M9 7.5 L7 4 M15 7.5 L17 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 700, "delay": 1200, "origin": "12px 8px" }
+  ]
+}

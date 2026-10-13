@@ -1,0 +1,10 @@
+{
+  "name": "shuffle-queue",
+  "category": "media",
+  "tags": ["shuffle", "queue", "random", "playlist", "order", "mix"],
+  "svg": "<path class=\"p1\" d=\"M3 7H7L17 17H21\"/><path class=\"p1\" d=\"M3 17H7L17 7H21\"/><polyline class=\"p2\" points=\"18,5 21,7 18,9\"/><polyline class=\"p2\" points=\"18,15 21,17 18,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

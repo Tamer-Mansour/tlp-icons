@@ -1,0 +1,11 @@
+{
+  "name": "swim-cap",
+  "category": "sport",
+  "tags": ["swim", "cap", "swimming", "pool", "seam", "water"],
+  "svg": "<path class=\"d p1\" d=\"M5 15V10C5 6 8 3 12 3C16 3 19 6 19 10V15Z\"/><path class=\"p2\" d=\"M12 3.5V11\"/><path class=\"p3\" d=\"M3 20Q7.5 17 12 20Q16.5 23 21 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

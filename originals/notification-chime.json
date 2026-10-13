@@ -1,0 +1,11 @@
+{
+  "name": "notification-chime",
+  "category": "communication",
+  "tags": ["notification", "chime", "bell", "alert", "message", "ring"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><path class=\"p2\" d=\"M12 9.5A2.5 2.5 0 0 0 9.5 12V13.5L8.5 14.5H15.5L14.5 13.5V12A2.5 2.5 0 0 0 12 9.5Z\"/><path class=\"p3\" d=\"M18.5 3.5A4 4 0 0 1 21.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 500, "origin": "12px 9.5px" },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

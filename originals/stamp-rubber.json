@@ -1,0 +1,11 @@
+{
+  "name": "stamp-rubber",
+  "category": "design",
+  "tags": ["stamp", "rubber", "seal", "print", "mark"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M12 9v4\"/><rect class=\"p3\" x=\"4\" y=\"13\" width=\"16\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "stamp", "dur": 500, "delay": 1100 }
+  ]
+}

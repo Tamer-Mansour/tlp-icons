@@ -1,0 +1,11 @@
+{
+  "name": "sticky-note-text",
+  "category": "text",
+  "tags": ["sticky", "note", "post-it", "memo", "text", "reminder"],
+  "svg": "<path class=\"p1\" d=\"M4 4h16v11l-5 5H4z\"/><path class=\"p2\" d=\"M20 15h-5v5\"/><path class=\"p3\" d=\"M8 9h8M8 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 800 },
+    { "part": "p2", "anim": "tilt", "dur": 500, "delay": 1500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wheel-chock",
+  "category": "vehicles",
+  "tags": ["chock", "wheel", "wedge", "stop", "parking"],
+  "svg": "<path class=\"d p1\" d=\"M2 21l7-6v6z\"/><circle class=\"p2\" cx=\"14\" cy=\"16\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 500 }
+  ]
+}

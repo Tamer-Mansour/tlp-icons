@@ -1,0 +1,10 @@
+{
+  "name": "gravity-well",
+  "category": "science",
+  "tags": ["gravity", "well", "physics", "space", "curve", "mass"],
+  "svg": "<path class=\"p1\" d=\"M3 5C6 14 9 17 12 17S18 14 21 5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 800 }
+  ]
+}

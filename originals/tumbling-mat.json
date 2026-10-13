@@ -1,0 +1,10 @@
+{
+  "name": "tumbling-mat",
+  "category": "sport",
+  "tags": ["mat", "tumbling", "gym", "gymnastics", "roll", "floor"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"4\"/><circle class=\"d p2\" cx=\"7\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

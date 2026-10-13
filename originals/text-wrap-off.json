@@ -1,0 +1,10 @@
+{
+  "name": "text-wrap-off",
+  "category": "text",
+  "tags": ["wrap", "off", "cut", "text", "overflow", "layout"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18M3 11h18M3 15h18\"/><path class=\"p2\" d=\"M19 4v16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 }
+  ]
+}

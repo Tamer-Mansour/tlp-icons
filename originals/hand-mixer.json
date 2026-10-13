@@ -1,0 +1,11 @@
+{
+  "name": "hand-mixer",
+  "category": "home",
+  "tags": ["mixer", "hand", "beater", "whisk", "baking", "kitchen"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"7\" rx=\"3\"/><path class=\"p2\" d=\"M10 10V19M14 10V19\"/><path class=\"p3\" d=\"M10 6.5H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 1000, "origin": "12px 14.5px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "trellis",
+  "category": "buildings",
+  "tags": ["trellis", "lattice", "garden", "frame", "climbing", "fence"],
+  "svg": "<path class=\"p1\" d=\"M4 3H20V21H4Z\"/><path class=\"p2\" d=\"M4 3L12 12L20 3M4 21L12 12L20 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

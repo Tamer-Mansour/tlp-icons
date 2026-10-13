@@ -1,0 +1,11 @@
+{
+  "name": "motor-electric",
+  "category": "science",
+  "tags": ["motor", "electric", "shaft", "engine", "rotor", "power", "terminals"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7 6V3M13 6V3\"/><path class=\"p3\" d=\"M16 12h2\"/><circle class=\"p3\" cx=\"20.5\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spinFast", "dur": 800, "delay": 1000, "origin": "20.5px 12px" }
+  ]
+}

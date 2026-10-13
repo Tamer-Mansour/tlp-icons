@@ -1,0 +1,11 @@
+{
+  "name": "pressure-washer",
+  "category": "tools",
+  "tags": ["pressure", "washer", "spray", "clean", "wand", "water"],
+  "svg": "<path class=\"p1\" d=\"M4 20L13 11L18 6\"/><rect class=\"d p3\" x=\"2\" y=\"14\" width=\"5\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M19 5L22 3M19 8H22M19 11L22 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pump", "dur": 700, "delay": 1000 }
+  ]
+}

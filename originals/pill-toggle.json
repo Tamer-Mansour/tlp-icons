@@ -1,0 +1,10 @@
+{
+  "name": "pill-toggle",
+  "category": "interface",
+  "tags": ["toggle", "switch", "pill", "setting", "on-off"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><circle class=\"d p2\" cx=\"8.5\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "aurora",
+  "category": "nature",
+  "tags": ["aurora", "lights", "sky", "night", "polar"],
+  "svg": "<path class=\"p1\" d=\"M3 9c3-3 6-3 9 0s6 3 9 0\"/><path class=\"p2\" d=\"M5 14c2.5-2.5 5-2.5 7 0s4.5 2.5 7 0\"/><path class=\"p3\" d=\"M2 19h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 1200, "delay": 900 }
+  ]
+}

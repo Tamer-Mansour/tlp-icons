@@ -1,0 +1,11 @@
+{
+  "name": "network-share",
+  "category": "connectivity",
+  "tags": ["network", "share", "connect", "nodes", "send", "distribute"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"3\"/><circle class=\"p2\" cx=\"17\" cy=\"6\" r=\"2.5\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M9.5 10.5l5-2.5M9.5 13.5l5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

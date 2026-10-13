@@ -1,0 +1,10 @@
+{
+  "name": "hierarchy-down",
+  "category": "arrows",
+  "tags": ["hierarchy", "tree", "root", "descend", "org chart", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p1\" d=\"M5 11h14M5 11v2M19 11v2\"/><rect class=\"p1\" x=\"2\" y=\"13\" width=\"6\" height=\"5\" rx=\"1\"/><rect class=\"p1\" x=\"16\" y=\"13\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 6v5M10 8.5 12 11l2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 900 }
+  ]
+}

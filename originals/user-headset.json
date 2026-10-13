@@ -1,0 +1,10 @@
+{
+  "name": "user-headset",
+  "category": "people",
+  "tags": ["headset", "support", "call", "audio", "user", "operator"],
+  "svg": "<path class=\"p1\" d=\"M5 21a7 7 0 0 1 14 0\"/><path class=\"p1\" d=\"M5 10a7 7 0 0 1 14 0\"/><rect class=\"p1\" x=\"4\" y=\"9\" width=\"2.5\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"17.5\" y=\"9\" width=\"2.5\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"8.5\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "party-horn",
+  "category": "emoji",
+  "tags": ["party", "horn", "celebration", "birthday", "noisemaker", "fun"],
+  "svg": "<path class=\"d p1\" d=\"M4 9 L14 6 V18 L4 15 Z\"/><path class=\"p2\" d=\"M14 12 C17 9 19 13 21 11\"/><path class=\"p3\" d=\"M17 3.5 L18 5 M20 6.5 L21.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tada", "dur": 800, "delay": 1000 }
+  ]
+}

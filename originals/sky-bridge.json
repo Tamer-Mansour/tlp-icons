@@ -1,0 +1,10 @@
+{
+  "name": "sky-bridge",
+  "category": "buildings",
+  "tags": ["sky", "bridge", "towers", "walkway", "elevated", "link"],
+  "svg": "<path class=\"p1\" d=\"M5 21V4h2v17M17 21V4h2v17\"/><path class=\"p2\" d=\"M7 10h10M7 14h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 700 }
+  ]
+}

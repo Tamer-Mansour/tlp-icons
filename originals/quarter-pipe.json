@@ -1,0 +1,10 @@
+{
+  "name": "quarter-pipe",
+  "category": "sport",
+  "tags": ["quarter", "pipe", "ramp", "skate", "curve"],
+  "svg": "<path class=\"p1\" d=\"M3 20A17 17 0 0 0 20 3\"/><line class=\"p2\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

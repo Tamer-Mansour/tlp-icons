@@ -1,0 +1,11 @@
+{
+  "name": "device-alert",
+  "category": "security",
+  "tags": ["device", "alert", "phone", "warning", "mobile", "threat"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><path class=\"d p2\" d=\"M12 7.5L15.5 13.5H8.5Z\"/><path class=\"p3\" d=\"M12 9.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "scroll-bar",
+  "category": "interface",
+  "tags": ["scroll", "bar", "track", "thumb", "scrollbar"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"18\" rx=\"4\"/><rect class=\"d p2\" x=\"10\" y=\"8\" width=\"4\" height=\"6\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 800 }
+  ]
+}

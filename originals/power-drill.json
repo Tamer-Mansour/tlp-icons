@@ -1,0 +1,11 @@
+{
+  "name": "power-drill",
+  "category": "home",
+  "tags": ["drill", "power", "tool", "bit", "hardware"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"12\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 11l-1 7h5l-1-7\"/><path class=\"p3\" d=\"M16 8.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spinFast", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "curry-pot",
+  "category": "food",
+  "tags": ["cooking", "pot", "curry", "stew", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M5 11h14v5a7 6 0 0 1-14 0z\"/><path class=\"p2\" d=\"M4 10.5h16M10.5 8h3\"/><path class=\"p3\" d=\"M9 7V4M12 6V3M15 7V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "user-note",
+  "category": "people",
+  "tags": ["user", "note", "document", "memo", "person", "text", "write"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p2\" d=\"M2.5 21a5 5 0 0 1 10 0\"/><rect class=\"d p3\" x=\"14.5\" y=\"10\" width=\"7\" height=\"10.5\" rx=\"1\"/><path class=\"p4\" d=\"M17 14h2.5M17 17h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "typeIn", "dur": 700, "delay": 1100 }
+  ]
+}

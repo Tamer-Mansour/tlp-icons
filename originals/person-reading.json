@@ -1,0 +1,11 @@
+{
+  "name": "person-reading",
+  "category": "people",
+  "tags": ["person", "reading", "book", "study", "learn"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"4.5\" r=\"2.5\"/><path class=\"p1\" d=\"M8 8v7M8 15l-2.5 6.5M8 15l2.5 6.5\"/><path class=\"d p2\" d=\"M9.5 10.5L13 11.5L16.5 10.5V16L13 17L9.5 16Z\"/><path class=\"p3\" d=\"M8 10.5l1.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

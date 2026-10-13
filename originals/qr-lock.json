@@ -1,0 +1,11 @@
+{
+  "name": "qr-lock",
+  "category": "security",
+  "tags": ["security", "qr", "lock", "scan", "code", "secure"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"7\" height=\"7\" rx=\"1\"/><circle class=\"f p1\" cx=\"5.5\" cy=\"5.5\" r=\"1\"/><rect class=\"p2\" x=\"12\" y=\"11\" width=\"10\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M15 11 V8.5 A2.5 2.5 0 0 1 20 8.5 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1300, "origin": "17.5px 11px" }
+  ]
+}

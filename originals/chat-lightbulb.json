@@ -1,0 +1,10 @@
+{
+  "name": "chat-lightbulb",
+  "category": "communication",
+  "tags": ["chat", "lightbulb", "idea", "bubble", "tip", "insight"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4 3.5V16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"p2\" cx=\"12\" cy=\"7.5\" r=\"2.5\"/><path class=\"p2\" d=\"M10.5 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

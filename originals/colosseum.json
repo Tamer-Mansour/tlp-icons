@@ -1,0 +1,11 @@
+{
+  "name": "colosseum",
+  "category": "buildings",
+  "tags": ["colosseum", "arena", "rome", "ancient", "tiers"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"8\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"2.5\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "greeting-card",
+  "category": "communication",
+  "tags": ["greeting", "card", "celebrate", "wishes", "heart", "note"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v16H4z\"/><path class=\"p2\" d=\"M4 4l8 8 8-8\"/><path class=\"p3\" d=\"M12 13.5l-1.5-1.5a1 1 0 0 0-1.5 1.5l3 3 3-3a1 1 0 0 0-1.5-1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "beat", "dur": 700, "delay": 900 }
+  ]
+}

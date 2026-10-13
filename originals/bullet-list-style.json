@@ -1,0 +1,10 @@
+{
+  "name": "bullet-list-style",
+  "category": "design",
+  "tags": ["bullet", "list", "style", "dots", "items", "text"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M9 6h11M9 12h11M9 18h11\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 800, "delay": 800 }
+  ]
+}

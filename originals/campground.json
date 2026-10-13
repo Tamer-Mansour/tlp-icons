@@ -1,0 +1,11 @@
+{
+  "name": "campground",
+  "category": "buildings",
+  "tags": ["campground", "camping", "tent", "outdoors", "camp", "trip"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 18.5L12 5l9.5 13.5z\"/><path class=\"p2\" d=\"M12 11.5v7\"/><path class=\"p3\" d=\"M7.5 21.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

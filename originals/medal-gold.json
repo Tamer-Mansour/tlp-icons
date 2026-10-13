@@ -1,0 +1,11 @@
+{
+  "name": "medal-gold",
+  "category": "emoji",
+  "tags": ["medal", "gold", "award", "prize", "winner", "first"],
+  "svg": "<polyline class=\"p3\" points=\"8 2.5 10.5 9\"/><polyline class=\"p3\" points=\"16 2.5 13.5 9\"/><circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"6.5\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"3\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

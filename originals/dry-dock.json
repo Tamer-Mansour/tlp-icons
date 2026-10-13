@@ -1,0 +1,11 @@
+{
+  "name": "dry-dock",
+  "category": "buildings",
+  "tags": ["dry dock", "shipyard", "hull", "trench", "boat repair"],
+  "svg": "<path class=\"p1\" d=\"M3 3v15M21 3v15\"/><path class=\"d p2\" d=\"M7 11h10l-2 4H9z\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

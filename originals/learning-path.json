@@ -1,0 +1,11 @@
+{
+  "name": "learning-path",
+  "category": "science",
+  "tags": ["learning", "path", "roadmap", "progress", "journey", "flag"],
+  "svg": "<path class=\"p1\" d=\"M4 19 C4 13 12 15 12 10 C12 6 16 9 16 4\"/><circle class=\"f p2\" cx=\"4\" cy=\"19\" r=\"1.2\"/><path class=\"d p3\" d=\"M16 4 L21 6 L16 8 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1300 }
+  ]
+}

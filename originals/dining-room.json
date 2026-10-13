@@ -1,0 +1,12 @@
+{
+  "name": "dining-room",
+  "category": "buildings",
+  "tags": ["dining room", "dining table", "chairs", "meal", "room", "home"],
+  "svg": "<path class=\"p1\" d=\"M5 11h14\"/><path class=\"p2\" d=\"M7 11v9M17 11v9\"/><path class=\"p3\" d=\"M9 4h6M9 4v5M15 4v5\"/><path class=\"p4\" d=\"M9 17v4M15 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "slideIn", "dur": 500, "delay": 1200 }
+  ]
+}

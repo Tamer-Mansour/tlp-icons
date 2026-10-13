@@ -1,0 +1,10 @@
+{
+  "name": "shutter-curtain",
+  "category": "photography",
+  "tags": ["shutter curtain", "shutter", "curtain", "camera", "focal plane"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M4 9l16 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

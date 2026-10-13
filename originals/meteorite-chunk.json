@@ -1,0 +1,10 @@
+{
+  "name": "meteorite-chunk",
+  "category": "science",
+  "tags": ["meteorite", "rock", "crack", "space", "asteroid"],
+  "svg": "<path class=\"d p1\" d=\"M6 9L9 4.5L15 5L19.5 9.5L20 15L16 19.5L9 19L4.5 15Z\"/><path class=\"p2\" d=\"M9 10L12 13M15 11L13.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

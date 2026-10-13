@@ -1,0 +1,11 @@
+{
+  "name": "document-approval",
+  "category": "files",
+  "tags": ["document", "approval", "check", "stamp", "signed", "approved"],
+  "svg": "<path class=\"p1\" d=\"M4 3h9l5 5v13H4z\"/><path class=\"p2\" d=\"M7 11.5l3 3 5-5.5\"/><circle class=\"p3\" cx=\"16\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "stamp", "dur": 600, "delay": 1200 }
+  ]
+}

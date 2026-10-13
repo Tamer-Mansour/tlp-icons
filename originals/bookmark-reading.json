@@ -1,0 +1,11 @@
+{
+  "name": "bookmark-reading",
+  "category": "science",
+  "tags": ["bookmark", "book", "reading", "ribbon", "place", "study"],
+  "svg": "<path class=\"p1\" d=\"M12 7C9.5 5 6.5 4.5 3 5V19C6.5 18.5 9.5 19 12 21\"/><path class=\"p2\" d=\"M12 7C14.5 5 17.5 4.5 21 5V19C17.5 18.5 14.5 19 12 21\"/><path class=\"d p3\" d=\"M14 5v8l1.5-1.5L17 13V5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "15.5px 5px" }
+  ]
+}

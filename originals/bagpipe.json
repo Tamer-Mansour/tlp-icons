@@ -1,0 +1,10 @@
+{
+  "name": "bagpipe",
+  "category": "media",
+  "tags": ["bagpipe", "pipes", "bag", "drone", "scottish", "instrument"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"8\" ry=\"6\"/><path class=\"p2\" d=\"M9 9L6 3M12 8V2M15 9l3-6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "breathe", "dur": 1200, "delay": 600 }
+  ]
+}

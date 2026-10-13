@@ -1,0 +1,11 @@
+{
+  "name": "flex-time",
+  "category": "time",
+  "tags": ["flex", "time", "clock", "flexible", "schedule", "hours"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M12 6.5V9l1.5 1\"/><path class=\"p3\" d=\"M4 19h16M7 16l-3 3 3 3M17 16l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1100 }
+  ]
+}

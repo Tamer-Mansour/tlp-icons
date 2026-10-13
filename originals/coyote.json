@@ -1,0 +1,12 @@
+{
+  "name": "coyote",
+  "category": "nature",
+  "tags": ["dog", "prairie", "narrow", "tail", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 Q8 7 12 8 L20 11 L17 13 Q11 14 5 12 Z\"/><polyline class=\"p2\" points=\"9,8 10,3 13,8\"/><circle class=\"f p3\" cx=\"13\" cy=\"10\" r=\"0.9\"/><path class=\"p4\" d=\"M5 12 Q1 13 2 18 Q5 19 7 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "sway", "dur": 800, "delay": 800, "origin": "5px 12px" }
+  ]
+}

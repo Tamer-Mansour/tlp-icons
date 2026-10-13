@@ -1,0 +1,11 @@
+{
+  "name": "sun-tracker",
+  "category": "weather",
+  "tags": ["sun", "tracker", "arc", "path", "solar", "pointer"],
+  "svg": "<path class=\"p1\" d=\"M3 17a9 9 0 0 1 18 0\"/><circle class=\"d p2\" cx=\"7.5\" cy=\"9.2\" r=\"2.5\"/><path class=\"p3\" d=\"M12 17l-4.5-7.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 17px" }
+  ]
+}

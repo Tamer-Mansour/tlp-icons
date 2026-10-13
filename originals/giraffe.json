@@ -1,0 +1,12 @@
+{
+  "name": "giraffe",
+  "category": "nature",
+  "tags": ["animal", "tall", "neck", "safari", "spots"],
+  "svg": "<path class=\"d p1\" d=\"M9 9h6v12H9z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"6\" rx=\"3.5\" ry=\"3\"/><path class=\"p3\" d=\"M10 3.5V2.5M14 3.5V2.5\"/><circle class=\"f p4\" cx=\"11.5\" cy=\"14\" r=\"0.9\"/><circle class=\"f p4\" cx=\"12.5\" cy=\"18\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 1100, "origin": "12px 9px" }
+  ]
+}

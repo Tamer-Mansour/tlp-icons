@@ -1,0 +1,11 @@
+{
+  "name": "step-pending",
+  "category": "notifications",
+  "tags": ["step", "pending", "dashed", "stages", "waiting", "progress"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"12\" r=\"4\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M14 9.5h6.5M14 14.5h6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "dim", "dur": 700, "delay": 900 }
+  ]
+}

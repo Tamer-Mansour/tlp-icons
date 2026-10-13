@@ -1,0 +1,11 @@
+{
+  "name": "poe-injector",
+  "category": "devices",
+  "tags": ["poe", "injector", "power", "ethernet", "network"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M15 12h6\"/><polyline class=\"p3\" points=\"10 9 7 12.5 11 12.5 8.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 700, "delay": 1200 }
+  ]
+}

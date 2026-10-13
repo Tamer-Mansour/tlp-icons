@@ -1,0 +1,11 @@
+{
+  "name": "memory-ram",
+  "category": "science",
+  "tags": ["memory", "ram", "chip", "hardware", "stick", "computer"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1\"/><line class=\"p2\" x1=\"6\" y1=\"17\" x2=\"6\" y2=\"20\"/><line class=\"p2\" x1=\"10\" y1=\"17\" x2=\"10\" y2=\"20\"/><line class=\"p2\" x1=\"14\" y1=\"17\" x2=\"14\" y2=\"20\"/><line class=\"p2\" x1=\"18\" y1=\"17\" x2=\"18\" y2=\"20\"/><rect class=\"p3\" x=\"5\" y=\"10\" width=\"3\" height=\"4\" rx=\"0.5\"/><rect class=\"p3\" x=\"12\" y=\"10\" width=\"5\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "orchard-tree",
+  "category": "nature",
+  "tags": ["orchard", "tree", "fruit", "canopy", "apple"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"7\"/><path class=\"p2\" d=\"M12 16 V21 M8 21 H16\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"10\" r=\"1.1\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1.1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"10\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 700, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

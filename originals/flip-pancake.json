@@ -1,0 +1,11 @@
+{
+  "name": "flip-pancake",
+  "category": "food",
+  "tags": ["pancake", "flip", "pan", "breakfast", "cook"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"6\" ry=\"2\"/><path class=\"p2\" d=\"M3 15 H21 L19 20 H5 Z\"/><path class=\"p3\" d=\"M5 5 Q12 1 19 4 M16 2 L19 4 L18 7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p1", "anim": "flip", "dur": 900, "delay": 1100 }
+  ]
+}

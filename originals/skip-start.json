@@ -1,0 +1,10 @@
+{
+  "name": "skip-start",
+  "category": "media",
+  "tags": ["skip", "start", "rewind", "play", "media", "beginning"],
+  "svg": "<path class=\"p1\" d=\"M4 5v14\"/><polygon class=\"d p2\" points=\"9 6 19 12 9 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

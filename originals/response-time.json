@@ -1,0 +1,11 @@
+{
+  "name": "response-time",
+  "category": "charts",
+  "tags": ["response", "time", "stopwatch", "latency", "speed", "timer"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 2H14\"/><polyline class=\"p3\" points=\"7.5 14 10 11 13 15 16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

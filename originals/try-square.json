@@ -1,0 +1,10 @@
+{
+  "name": "try-square",
+  "category": "tools",
+  "tags": ["try", "square", "right angle", "stock", "blade"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"17\" width=\"13\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"3\" width=\"4\" height=\"18\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400, "origin": "bottom" }
+  ]
+}

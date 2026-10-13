@@ -1,0 +1,10 @@
+{
+  "name": "timeline-track",
+  "category": "design",
+  "tags": ["timeline", "track", "markers", "sequence", "keyframes", "schedule"],
+  "svg": "<path class=\"p1\" d=\"M3 14H21\"/><circle class=\"p2\" cx=\"5\" cy=\"8\" r=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2.5\"/><circle class=\"p2\" cx=\"19\" cy=\"8\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

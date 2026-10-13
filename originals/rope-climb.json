@@ -1,0 +1,11 @@
+{
+  "name": "rope-climb",
+  "category": "sport",
+  "tags": ["rope", "climb", "knot", "gym", "climbing"],
+  "svg": "<line class=\"p1\" x1=\"7\" y1=\"6\" x2=\"7\" y2=\"20\"/><line class=\"p1\" x1=\"17\" y1=\"6\" x2=\"17\" y2=\"20\"/><line class=\"p2\" x1=\"4\" y1=\"4\" x2=\"20\" y2=\"4\"/><circle class=\"f p3\" cx=\"7\" cy=\"11\" r=\"1.2\"/><circle class=\"f p3\" cx=\"17\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

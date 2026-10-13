@@ -1,0 +1,10 @@
+{
+  "name": "priority-up",
+  "category": "arrows",
+  "tags": ["priority", "up", "rank", "urgent", "bars", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 20h4M3 16h7M3 12h10\"/><path class=\"p2\" d=\"M20 21V7M17 10l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

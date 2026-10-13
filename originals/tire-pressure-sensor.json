@@ -1,0 +1,11 @@
+{
+  "name": "tire-pressure-sensor",
+  "category": "devices",
+  "tags": ["tire", "pressure", "sensor", "car", "gauge", "tyre"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7 14A5 5 0 0 1 17 14\"/><line class=\"p3\" x1=\"12\" y1=\"14\" x2=\"15\" y2=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1000, "origin": "12px 14px" }
+  ]
+}

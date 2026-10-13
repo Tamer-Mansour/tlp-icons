@@ -1,0 +1,11 @@
+{
+  "name": "pudding-cup",
+  "category": "food",
+  "tags": ["pudding", "cup", "dessert", "custard", "spoon", "sweet"],
+  "svg": "<path class=\"d p1\" d=\"M5 10h14l-2 9H7z\"/><path class=\"p2\" d=\"M4 10c2-1 4 1 6 0s4 1 6 0 3-1 4 0\"/><path class=\"p3\" d=\"M18.5 3v6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 700, "delay": 1000, "origin": "18.5px 9.5px" }
+  ]
+}

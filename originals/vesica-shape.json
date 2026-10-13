@@ -1,0 +1,10 @@
+{
+  "name": "vesica-shape",
+  "category": "shapes",
+  "tags": ["vesica", "circles", "overlap", "venn", "geometry"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

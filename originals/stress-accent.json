@@ -1,0 +1,11 @@
+{
+  "name": "stress-accent",
+  "category": "text",
+  "tags": ["stress", "accent", "syllable", "pronunciation", "word", "emphasis"],
+  "svg": "<path class=\"p1\" d=\"M3 19H21\"/><path class=\"p2\" d=\"M9 5V14\"/><path class=\"p3\" d=\"M9 5L13 7.5L9 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

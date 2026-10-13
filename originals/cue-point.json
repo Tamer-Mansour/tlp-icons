@@ -1,0 +1,10 @@
+{
+  "name": "cue-point",
+  "category": "media",
+  "tags": ["cue", "marker", "timeline", "flag", "audio", "edit"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18\"/><polygon class=\"d p2\" points=\"6,3 17,6.5 6,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ascend-stairs",
+  "category": "arrows",
+  "tags": ["ascend", "stairs", "up", "climb", "arrows"],
+  "svg": "<polygon class=\"d p1\" points=\"3 21 3 17 7 17 7 13 11 13 11 9 15 9 15 5 19 5 19 21\"/><path class=\"p2\" d=\"M4 9L9 4\"/><polyline class=\"p2\" points=\"4 4 9 4 9 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 700 }
+  ]
+}

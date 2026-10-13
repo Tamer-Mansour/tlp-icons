@@ -1,0 +1,12 @@
+{
+  "name": "field-trip-bus",
+  "category": "people",
+  "tags": ["field", "trip", "bus", "school", "travel"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"5.5\" y=\"7\" width=\"3.5\" height=\"4\"/><rect class=\"p2\" x=\"11\" y=\"7\" width=\"3.5\" height=\"4\"/><circle class=\"p3\" cx=\"7.5\" cy=\"17.5\" r=\"2\"/><circle class=\"p4\" cx=\"16.5\" cy=\"17.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1300 },
+    { "part": "p4", "anim": "spin", "dur": 1000, "delay": 1300 }
+  ]
+}

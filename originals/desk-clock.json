@@ -1,0 +1,11 @@
+{
+  "name": "desk-clock",
+  "category": "time",
+  "tags": ["clock", "desk", "alarm", "stand", "table"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M12 9.5V6.5L14 8\"/><path class=\"p3\" d=\"M12 15v3.5M8 20h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 1000, "origin": "12px 9.5px" }
+  ]
+}

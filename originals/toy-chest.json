@@ -1,0 +1,11 @@
+{
+  "name": "toy-chest",
+  "category": "home",
+  "tags": ["toy", "chest", "box", "storage", "playroom", "kids"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16v10H4z\"/><rect class=\"p2\" x=\"3\" y=\"5\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M10 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 1000, "origin": "4px 9px" }
+  ]
+}

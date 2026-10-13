@@ -1,0 +1,11 @@
+{
+  "name": "board-game-players",
+  "category": "people",
+  "tags": ["board", "game", "players", "pawn", "chess", "play"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M12 4 V20 M4 12 H20\"/><circle class=\"f p3\" cx=\"8\" cy=\"8\" r=\"1.8\"/><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1000 }
+  ]
+}

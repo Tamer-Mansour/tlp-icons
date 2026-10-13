@@ -1,0 +1,11 @@
+{
+  "name": "user-level-up",
+  "category": "people",
+  "tags": ["level", "up", "progress", "upgrade", "person", "rank"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M3 21v-3a5 5 0 0 1 10 0v3\"/><path class=\"p3\" d=\"M16 10l3-3 3 3M16 16l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 800, "delay": 900 }
+  ]
+}

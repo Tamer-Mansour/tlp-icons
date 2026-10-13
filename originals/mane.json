@@ -1,0 +1,11 @@
+{
+  "name": "mane",
+  "category": "nature",
+  "tags": ["mane", "lion", "big cat", "fluffy", "male lion"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 Q15 3 16 5 Q19 4 20 7 Q21.5 9 20 12 Q21 15 19 17 Q17 20 14 19 Q12 21 10 19 Q7 20 5 17 Q3 15 4 12 Q2.5 9 5 7 Q6 4 9 5 Q10 3 12 3 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"4\"/><path class=\"p3\" d=\"M10.5 14.5 Q12 16 13.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "breathe", "dur": 1300, "delay": 1000 }
+  ]
+}

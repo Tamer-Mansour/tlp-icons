@@ -1,0 +1,11 @@
+{
+  "name": "medal-award",
+  "category": "emoji",
+  "tags": ["medal", "award", "winner", "ribbon", "prize", "achievement"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M9 14 L7 21 L10 19.5 M15 14 L17 21 L14 19.5\"/><polygon class=\"p3\" points=\"12,6.5 13.2,9.3 16,9.5 13.8,11.2 14.5,14 12,12.4 9.5,14 10.2,11.2 8,9.5 10.8,9.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1100 }
+  ]
+}

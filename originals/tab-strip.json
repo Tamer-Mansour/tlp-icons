@@ -1,0 +1,10 @@
+{
+  "name": "tab-strip",
+  "category": "layout",
+  "tags": ["tabs", "strip", "bar", "navigation", "browser", "folders"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"15\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M3 15V11L4 10H8L9 11V15M12 15V11L13 10H17L18 11V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "job-failed",
+  "category": "notifications",
+  "tags": ["job", "failed", "gear", "error", "cross", "fail"],
+  "svg": "<path class=\"p1\" d=\"M9 3.5v2.5M9 20v-2.5M2 13h2M14 13h2\"/><circle class=\"p1\" cx=\"9\" cy=\"13\" r=\"5\"/><circle class=\"p2\" cx=\"9\" cy=\"13\" r=\"1.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"6\" r=\"4\"/><path class=\"p4\" d=\"M16.5 4.5l3 3M19.5 4.5l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "shake", "dur": 600, "delay": 1000 }
+  ]
+}

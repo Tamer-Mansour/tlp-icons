@@ -1,0 +1,11 @@
+{
+  "name": "downspout",
+  "category": "home",
+  "tags": ["downspout", "gutter", "rain", "drainpipe", "roof", "water"],
+  "svg": "<path class=\"p1\" d=\"M4 3h9.5a2.5 2.5 0 0 1 2.5 2.5V17\"/><path class=\"p2\" d=\"M4 6.5h8a1.5 1.5 0 0 1 1.5 1.5V17\"/><path class=\"p3\" d=\"M11.5 20.5l-1.5 1.5M15 20.5v1.5M18.5 20.5l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1100 }
+  ]
+}

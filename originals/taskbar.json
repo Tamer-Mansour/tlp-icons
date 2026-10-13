@@ -1,0 +1,11 @@
+{
+  "name": "taskbar",
+  "category": "layout",
+  "tags": ["taskbar", "bar", "bottom", "apps", "windows", "launcher"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"9\" rx=\"1.5\"/><rect class=\"p2\" x=\"2\" y=\"16\" width=\"20\" height=\"5\" rx=\"2.5\"/><path class=\"p3\" d=\"M5 17.25H7.5V19.75H5ZM9 17.25H11.5V19.75H9ZM13 17.25H15.5V19.75H13Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

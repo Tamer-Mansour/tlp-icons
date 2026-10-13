@@ -1,0 +1,11 @@
+{
+  "name": "junk-drawer",
+  "category": "home",
+  "tags": ["junk", "drawer", "clutter", "kitchen", "storage", "odds"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h16v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M9.5 13h5\"/><circle class=\"f p3\" cx=\"8\" cy=\"6.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"5.5\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

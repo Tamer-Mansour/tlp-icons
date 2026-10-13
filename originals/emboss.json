@@ -1,0 +1,10 @@
+{
+  "name": "emboss",
+  "category": "design",
+  "tags": ["emboss", "raised", "bevel", "relief", "effect", "depth"],
+  "svg": "<path class=\"p1\" d=\"M3 3H21V21H3Z\"/><path class=\"p2\" d=\"M7 17V7H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 600, "delay": 900 }
+  ]
+}

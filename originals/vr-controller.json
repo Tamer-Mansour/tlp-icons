@@ -1,0 +1,11 @@
+{
+  "name": "vr-controller",
+  "category": "devices",
+  "tags": ["vr", "controller", "headset", "game", "wand", "motion"],
+  "svg": "<path class=\"d p1\" d=\"M7 8h10a4 4 0 0 1 4 4v3a4 4 0 0 1-4 4h-1l-2-2h-4l-2 2H7a4 4 0 0 1-4-4v-3a4 4 0 0 1 4-4z\"/><path class=\"p2\" d=\"M7 11v4M5 13h4\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"11.5\" r=\"1\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

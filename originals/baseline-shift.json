@@ -1,0 +1,11 @@
+{
+  "name": "baseline-shift",
+  "category": "text",
+  "tags": ["baseline", "shift", "text", "offset", "superscript", "letter", "align"],
+  "svg": "<path class=\"p1\" d=\"M3 17.5h18\"/><path class=\"p2\" d=\"M5 14l3-7 3 7M6.2 11.5h3.6\"/><path class=\"p3\" d=\"M18 14V8M15.5 10.5L18 8l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1000 }
+  ]
+}

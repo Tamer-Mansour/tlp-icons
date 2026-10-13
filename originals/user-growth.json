@@ -1,0 +1,11 @@
+{
+  "name": "user-growth",
+  "category": "charts",
+  "tags": ["users", "growth", "people", "arrow", "increase", "audience"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7\" r=\"2.5\"/><path class=\"p1\" d=\"M2 20V17Q2 12.5 6 12.5Q10 12.5 10 17V20\"/><circle class=\"p2\" cx=\"15\" cy=\"10\" r=\"2.5\"/><path class=\"p2\" d=\"M12 20V17.5Q12 14 15 14Q18 14 18 17.5V20\"/><line class=\"p3\" x1=\"20\" y1=\"20\" x2=\"20\" y2=\"8\"/><polyline class=\"p3\" points=\"18 10 20 8 22 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

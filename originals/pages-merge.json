@@ -1,0 +1,11 @@
+{
+  "name": "pages-merge",
+  "category": "files",
+  "tags": ["merge", "pages", "combine", "documents", "join", "file"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"6\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"15\" y=\"2\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M6 11l6 4 6-4\"/><rect class=\"d p3\" x=\"8\" y=\"15\" width=\"8\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

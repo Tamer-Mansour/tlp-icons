@@ -1,0 +1,11 @@
+{
+  "name": "chat-swap",
+  "category": "communication",
+  "tags": ["chat", "swap", "exchange", "switch", "bubbles", "replace"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"10\" height=\"8\" rx=\"2\"/><rect class=\"d p2\" x=\"11.5\" y=\"13\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M15 7.5h5.5M18 5l2.5 2.5L18 10M9 16.5H3.5M6 14l-2.5 2.5L6 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "flip", "dur": 800, "delay": 1300 }
+  ]
+}

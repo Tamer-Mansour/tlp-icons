@@ -1,0 +1,11 @@
+{
+  "name": "door-ajar",
+  "category": "notifications",
+  "tags": ["door", "ajar", "open", "alert", "frame", "security"],
+  "svg": "<path class=\"p1\" d=\"M4 21V3h16v18M3 21h18\"/><polygon class=\"d p2\" points=\"8,5 14,7 14,21 8,21\"/><circle class=\"f p3\" cx=\"17\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 900 }
+  ]
+}

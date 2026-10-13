@@ -1,0 +1,10 @@
+{
+  "name": "latin-square",
+  "category": "math",
+  "tags": ["latin", "square", "grid", "rows", "columns", "math"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M9 3V21M15 3V21M3 9H21M3 15H21\"/><circle class=\"p2\" cx=\"6\" cy=\"6\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

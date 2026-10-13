@@ -1,0 +1,11 @@
+{
+  "name": "data-sort",
+  "category": "charts",
+  "tags": ["sort", "order", "bars", "arrows", "rank", "data"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"8\" height=\"4\"/><rect class=\"d p1\" x=\"2\" y=\"13\" width=\"5\" height=\"4\"/><path class=\"p2\" d=\"M15 18 V6 M13 8 L15 6 L17 8\"/><path class=\"p3\" d=\"M19 6 V18 M17 16 L19 18 L21 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "soldering-station",
+  "category": "tools",
+  "tags": ["soldering", "iron", "station", "electronics", "solder", "workbench"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"15\" width=\"10\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M17 8L12 12M17 3v5h4V3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

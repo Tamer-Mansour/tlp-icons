@@ -1,0 +1,12 @@
+{
+  "name": "flow-river-arrows",
+  "category": "arrows",
+  "tags": ["flow", "river", "current", "water", "direction", "stream"],
+  "svg": "<path class=\"p1\" d=\"M2 8q2.5-2 5 0t5 0t5 0\"/><polyline class=\"p2\" points=\"16.5 5.5 19.5 8 16.5 10.5\"/><path class=\"p3\" d=\"M2 16q2.5-2 5 0t5 0t5 0\"/><polyline class=\"p4\" points=\"16.5 13.5 19.5 16 16.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 1000, "delay": 300 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1200 },
+    { "part": "p4", "anim": "nudge", "dur": 600, "delay": 1400 }
+  ]
+}

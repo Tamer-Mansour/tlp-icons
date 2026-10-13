@@ -1,0 +1,10 @@
+{
+  "name": "mash",
+  "category": "food",
+  "tags": ["mash", "potato", "masher", "kitchen", "puree"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"7\" ry=\"4\"/><path class=\"p2\" d=\"M12 3 V8.5\"/><rect class=\"p2\" x=\"8\" y=\"8.5\" width=\"8\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 900, "delay": 700 }
+  ]
+}

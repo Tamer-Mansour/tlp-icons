@@ -1,0 +1,11 @@
+{
+  "name": "number-counter",
+  "category": "charts",
+  "tags": ["counter", "digits", "binary", "count", "numbers"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\"/><ellipse class=\"p2\" cx=\"8\" cy=\"12\" rx=\"2\" ry=\"3\"/><path class=\"p3\" d=\"M14 15h4M16 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

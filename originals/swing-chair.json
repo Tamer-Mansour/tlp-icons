@@ -1,0 +1,10 @@
+{
+  "name": "swing-chair",
+  "category": "home",
+  "tags": ["swing chair", "hanging seat", "rope", "garden", "relax"],
+  "svg": "<path class=\"p1\" d=\"M4 2h16\"/><path class=\"d p2\" d=\"M5 13h14a7 7 0 0 1-14 0z\"/><path class=\"p2\" d=\"M7 2l-2 11M17 2l2 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 500, "origin": "12px 2px" }
+  ]
+}

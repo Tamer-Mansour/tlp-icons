@@ -1,0 +1,11 @@
+{
+  "name": "weather-history",
+  "category": "weather",
+  "tags": ["weather", "history", "clock", "archive", "cloud", "past"],
+  "svg": "<path class=\"p1\" d=\"M4 12 A8 8 0 1 0 6.3 6.3\"/><path class=\"p3\" d=\"M4 4 V7.5 H7.5\"/><path class=\"d p2\" d=\"M8.5 15 H15.5 A2 2 0 0 0 15.5 11 A3 3 0 0 0 10 10.5 A2.5 2.5 0 0 0 8.5 15 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 1300 }
+  ]
+}

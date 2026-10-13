@@ -1,0 +1,11 @@
+{
+  "name": "thunder-clap",
+  "category": "weather",
+  "tags": ["thunder", "clap", "burst", "sound", "storm"],
+  "svg": "<path class=\"p1\" d=\"M8 9 Q6 12 8 15 M16 9 Q18 12 16 15\"/><path class=\"p2\" d=\"M5 6 Q2 12 5 18 M19 6 Q22 12 19 18\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

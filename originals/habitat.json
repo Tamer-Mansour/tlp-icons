@@ -1,0 +1,11 @@
+{
+  "name": "habitat",
+  "category": "nature",
+  "tags": ["habitat", "home", "nature", "animals", "shelter"],
+  "svg": "<path class=\"d p1\" d=\"M3 20 V11 L9 5.5 L15 11 V20 Z\"/><path class=\"p2\" d=\"M6.5 20 V15 H11.5 V20\"/><circle class=\"p3\" cx=\"19.5\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M19.5 14.5 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000, "origin": "19.5px 21px" }
+  ]
+}

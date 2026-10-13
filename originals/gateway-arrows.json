@@ -1,0 +1,11 @@
+{
+  "name": "gateway-arrows",
+  "category": "connectivity",
+  "tags": ["gateway", "gate", "arrows", "traffic", "passage", "network", "access"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18M3 4v16M21 4v16\"/><path class=\"p2\" d=\"M7 9h10M14 6l3 3-3 3\"/><path class=\"p3\" d=\"M17 15H7M10 12l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 1200 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "jigsaw",
+  "category": "shapes",
+  "tags": ["jigsaw", "puzzle", "piece", "knob", "socket", "interlock"],
+  "svg": "<path class=\"d p1\" d=\"M3 3H12V8A2 2 0 0 1 12 12V21H3Z\"/><path class=\"p2\" d=\"M14 3H21V21H14V12A2 2 0 0 1 14 8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

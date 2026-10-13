@@ -1,0 +1,11 @@
+{
+  "name": "sewage-plant",
+  "category": "buildings",
+  "tags": ["sewage", "plant", "settling", "tank", "waste", "swirl"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 2 2 0 0 1-2-2\"/><path class=\"p3\" d=\"M20 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

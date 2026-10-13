@@ -1,0 +1,10 @@
+{
+  "name": "steam-turbine",
+  "category": "science",
+  "tags": ["steam", "turbine", "power", "engine", "generator", "energy"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M12 12L8 9.5M12 12L16 9.5M12 12V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "occluded-front",
+  "category": "weather",
+  "tags": ["occluded front", "weather map", "front", "mixed", "forecast", "weather"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><path class=\"p2\" d=\"M4 12 A2 2 0 0 1 8 12 M15 12 A2 2 0 0 1 19 12\"/><polygon class=\"p3\" points=\"10.5 12 12 8.5 13.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1200 }
+  ]
+}

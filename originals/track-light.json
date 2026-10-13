@@ -1,0 +1,12 @@
+{
+  "name": "track-light",
+  "category": "home",
+  "tags": ["track", "light", "spotlight", "ceiling", "bar"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><path class=\"p2\" d=\"M8 4v4M16 4v4\"/><circle class=\"d p3\" cx=\"8\" cy=\"11\" r=\"2.5\"/><circle class=\"d p4\" cx=\"16\" cy=\"11\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "glow", "dur": 800, "delay": 1100 }
+  ]
+}

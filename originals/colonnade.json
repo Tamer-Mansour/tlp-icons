@@ -1,0 +1,11 @@
+{
+  "name": "colonnade",
+  "category": "buildings",
+  "tags": ["colonnade", "columns", "portico", "classical", "pillars", "architecture"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"3\"/><path class=\"p2\" d=\"M5 7v11M10 7v11M14 7v11M19 7v11\"/><path class=\"p3\" d=\"M3 20h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

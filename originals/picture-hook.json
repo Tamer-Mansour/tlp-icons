@@ -1,0 +1,11 @@
+{
+  "name": "picture-hook",
+  "category": "home",
+  "tags": ["picture", "hook", "frame", "nail", "wall", "hang"],
+  "svg": "<path class=\"p1\" d=\"M9 2.5h6M12 2.5v3\"/><path class=\"p2\" d=\"M12 5.5L7 12.5M12 5.5L17 12.5\"/><rect class=\"d p3\" x=\"6\" y=\"12.5\" width=\"12\" height=\"8.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 5.5px" }
+  ]
+}

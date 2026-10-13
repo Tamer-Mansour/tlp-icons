@@ -1,0 +1,10 @@
+{
+  "name": "playground-code",
+  "category": "development",
+  "tags": ["playground", "code", "run", "sandbox", "editor", "play"],
+  "svg": "<path class=\"p1\" d=\"M9 4 5.5 7 9 10M15 4l3.5 3-3.5 3\"/><path class=\"d p2\" d=\"M10 13.5v7l6-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

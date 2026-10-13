@@ -1,0 +1,11 @@
+{
+  "name": "recursion-loop",
+  "category": "math",
+  "tags": ["recursion", "loop", "self reference", "arrow", "nested"],
+  "svg": "<path class=\"p1\" d=\"M5 19V12a7 7 0 0 1 7-7h7\"/><polyline class=\"p2\" points=\"16.5 2.5 19 5 16.5 7.5\"/><rect class=\"p3\" x=\"13\" y=\"13\" width=\"6\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "zoomIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pedestal",
+  "category": "buildings",
+  "tags": ["pedestal", "plinth", "base", "stand", "display", "column"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"10\"/><path class=\"p2\" d=\"M5 4h14v4H5z\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

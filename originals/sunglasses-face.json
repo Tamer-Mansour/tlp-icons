@@ -1,0 +1,11 @@
+{
+  "name": "sunglasses-face",
+  "category": "emoji",
+  "tags": ["sunglasses", "cool", "face", "emoji", "shades", "summer"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M4.5 9.5 H10.5 V13 C10.5 14 9.5 14.5 8.5 14.5 H6.5 C5.5 14.5 4.5 14 4.5 13 Z M13.5 9.5 H19.5 V13 C19.5 14 18.5 14.5 17.5 14.5 H15.5 C14.5 14.5 13.5 14 13.5 13 Z M10.5 10.5 H13.5\"/><path class=\"p3\" d=\"M9 17.5 Q12 19 15 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "windshield",
+  "category": "vehicles",
+  "tags": ["windshield", "windscreen", "glass", "wiper", "car"],
+  "svg": "<path class=\"d p1\" d=\"M4 17L7 7h10l3 10z\"/><path class=\"p2\" d=\"M8 14.5q4-3.5 8 0\"/><line class=\"p3\" x1=\"12\" y1=\"17\" x2=\"16\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 17px" }
+  ]
+}

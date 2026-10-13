@@ -1,0 +1,11 @@
+{
+  "name": "water-sample",
+  "category": "science",
+  "tags": ["water", "sample", "test", "tube", "lab", "drops"],
+  "svg": "<path class=\"p1\" d=\"M8.5 3H15.5M10 3V15.5A2 2 0 0 0 14 15.5V3\"/><path class=\"p2\" d=\"M10 10Q12 8.5 14 10\"/><circle class=\"f p3\" cx=\"19\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "drip", "dur": 700, "delay": 1200 }
+  ]
+}

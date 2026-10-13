@@ -1,0 +1,11 @@
+{
+  "name": "food-court",
+  "category": "buildings",
+  "tags": ["food", "court", "tray", "plate", "cup", "dining"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"16\" width=\"19\" height=\"4\" rx=\"1\"/><ellipse class=\"p2\" cx=\"8\" cy=\"13\" rx=\"4.5\" ry=\"1.5\"/><path class=\"p3\" d=\"M14.5 9.5h6v4a3 3 0 0 1-6 0zM20.5 10.5h1a1.5 1.5 0 0 1 0 3h-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pour", "dur": 800, "delay": 900 }
+  ]
+}

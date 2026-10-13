@@ -1,0 +1,10 @@
+{
+  "name": "pothole",
+  "category": "vehicles",
+  "tags": ["pothole", "road", "damage", "bumpy", "hole"],
+  "svg": "<path class=\"p1\" d=\"M2 7H22\"/><path class=\"d p2\" d=\"M7.5 7Q8.5 14 12 14Q15.5 14 16.5 7Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "shake", "dur": 1000, "delay": 800 }
+  ]
+}

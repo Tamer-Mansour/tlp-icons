@@ -1,0 +1,10 @@
+{
+  "name": "role-editor",
+  "category": "people",
+  "tags": ["role", "editor", "person", "pencil", "edit access"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20.5c0-3.3 2.7-6 6-6s6 2.7 6 6\"/><path class=\"p2\" d=\"M14 17.5l1-3.5 4.5-4.5 2.5 2.5-4.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

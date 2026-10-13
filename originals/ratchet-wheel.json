@@ -1,0 +1,10 @@
+{
+  "name": "ratchet-wheel",
+  "category": "shapes",
+  "tags": ["ratchet", "wheel", "teeth", "gear", "mechanism"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M17.2 15L19.8 16.5M12 18V21M6.8 15L4.2 16.5M6.8 9L4.2 7.5M12 6V3M17.2 9L19.8 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "typewriter-type",
+  "category": "design",
+  "tags": ["typewriter", "type", "key", "text", "letter"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M8.5 9H15.5M12 9V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chair-cushion",
+  "category": "home",
+  "tags": ["cushion", "chair", "seat", "pad", "tie", "comfort"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"16\" height=\"6\" rx=\"2.5\"/><path class=\"p2\" d=\"M5.5 13v5M18.5 13v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 900, "origin": "top" }
+  ]
+}

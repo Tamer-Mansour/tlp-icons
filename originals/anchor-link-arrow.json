@@ -1,0 +1,11 @@
+{
+  "name": "anchor-link-arrow",
+  "category": "arrows",
+  "tags": ["anchor", "link", "jump", "section", "hash"],
+  "svg": "<circle class=\"p1\" cx=\"14\" cy=\"9\" r=\"2.5\"/><path class=\"p2\" d=\"M14 11.5 V20 M10 14 H18 M8 15 A6 6 0 0 0 20 15\"/><path class=\"p3\" d=\"M4 4 L8 8 M8 4 V8 H4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pop-filter",
+  "category": "media",
+  "tags": ["pop", "filter", "microphone", "mesh", "vocal", "studio"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M8 5l8 8M16 5l-8 8\"/><path class=\"p3\" d=\"M12 15v4M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 15px" }
+  ]
+}

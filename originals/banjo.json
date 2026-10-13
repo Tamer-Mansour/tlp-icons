@@ -1,0 +1,11 @@
+{
+  "name": "banjo",
+  "category": "media",
+  "tags": ["banjo", "strings", "folk", "bluegrass", "instrument", "music"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M13 11l7-7\"/><path class=\"p3\" d=\"M7 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "rattle", "dur": 600, "delay": 1000 }
+  ]
+}

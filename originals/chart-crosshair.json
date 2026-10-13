@@ -1,0 +1,10 @@
+{
+  "name": "chart-crosshair",
+  "category": "charts",
+  "tags": ["crosshair", "cursor", "guide", "pointer", "target"],
+  "svg": "<polyline class=\"p1\" points=\"3,18 8,13 13,15 21,7\"/><path class=\"p2\" d=\"M12 3V9M12 15V21M3 12H9M15 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

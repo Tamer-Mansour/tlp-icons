@@ -1,0 +1,11 @@
+{
+  "name": "elevation-levels",
+  "category": "design",
+  "tags": ["elevation", "layers", "cards", "stack", "depth"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"10\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"10\" width=\"10\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"11\" y=\"16\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "lift", "dur": 600, "delay": 1000 }
+  ]
+}

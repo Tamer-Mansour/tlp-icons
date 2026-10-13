@@ -1,0 +1,11 @@
+{
+  "name": "rotary-hammer",
+  "category": "tools",
+  "tags": ["rotary", "hammer", "drill", "power", "bit", "masonry"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"8\" width=\"10\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M2 11h6\"/><path class=\"p3\" d=\"M14 4.5a5 5 0 0 1 5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1400, "origin": "14px 9.5px" }
+  ]
+}

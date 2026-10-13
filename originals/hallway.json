@@ -1,0 +1,10 @@
+{
+  "name": "hallway",
+  "category": "buildings",
+  "tags": ["hallway", "corridor", "perspective", "passage", "interior", "walkway"],
+  "svg": "<path class=\"p1\" d=\"M3 3l5 3v12l-5 3zM21 3l-5 3v12l5 3z\"/><rect class=\"d p2\" x=\"8\" y=\"6\" width=\"8\" height=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

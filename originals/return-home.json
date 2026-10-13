@@ -1,0 +1,10 @@
+{
+  "name": "return-home",
+  "category": "arrows",
+  "tags": ["home", "return", "house", "back", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 11 L12 3.5 L21 11 M5.5 9.5 V20 H18.5 V9.5\"/><path class=\"p2\" d=\"M15 15 H9.5 M12 12.5 L9.5 15 L12 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

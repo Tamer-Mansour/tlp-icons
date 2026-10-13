@@ -1,0 +1,11 @@
+{
+  "name": "group-call",
+  "category": "communication",
+  "tags": ["group", "call", "conference", "team", "meeting"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M6.5 21v-1.5a5.5 5.5 0 0 1 11 0V21\"/><circle class=\"p3\" cx=\"5\" cy=\"10\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"10\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

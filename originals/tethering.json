@@ -1,0 +1,11 @@
+{
+  "name": "tethering",
+  "category": "connectivity",
+  "tags": ["tethering", "phone", "laptop", "cable", "share", "connection"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"7\" height=\"12\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"6\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M9 12H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 900 }
+  ]
+}

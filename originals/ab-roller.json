@@ -1,0 +1,12 @@
+{
+  "name": "ab-roller",
+  "category": "sport",
+  "tags": ["roller", "abs", "wheel", "core", "workout"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M3 8V16M21 8V16\"/><path class=\"p3\" d=\"M3 12H6M18 12H21\"/><circle class=\"f p4\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p1", "anim": "spin", "dur": 900, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "muesli-bowl",
+  "category": "food",
+  "tags": ["muesli", "cereal", "oats", "breakfast", "bowl", "spoon"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 4.5-4 8-9 8s-9-3.5-9-8z\"/><circle class=\"f p2\" cx=\"8\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"7.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M19 2.5L15.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

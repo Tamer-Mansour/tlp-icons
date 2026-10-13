@@ -1,0 +1,10 @@
+{
+  "name": "ble-beacon",
+  "category": "connectivity",
+  "tags": ["beacon", "ble", "signal", "broadcast", "bluetooth", "proximity"],
+  "svg": "<circle class=\"f p1\" cx=\"7\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M10.06 9.43 A4 4 0 0 1 10.06 14.57 M12.75 7.18 A7.5 7.5 0 0 1 12.75 16.82 M15.43 4.93 A11 11 0 0 1 15.43 19.07\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 600 }
+  ]
+}

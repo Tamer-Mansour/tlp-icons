@@ -1,0 +1,11 @@
+{
+  "name": "pomodoro",
+  "category": "time",
+  "tags": ["pomodoro", "timer", "tomato", "focus", "productivity"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M12 7V4M12 6.5L8.5 5M12 6.5l3.5-1.5\"/><path class=\"p3\" d=\"M12 14l2.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "12px 14px" }
+  ]
+}

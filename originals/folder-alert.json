@@ -1,0 +1,10 @@
+{
+  "name": "folder-alert",
+  "category": "notifications",
+  "tags": ["folder", "alert", "exclamation", "files", "notice"],
+  "svg": "<path class=\"d p1\" d=\"M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M12 10.5v3\"/><circle class=\"f p2\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

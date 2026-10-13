@@ -1,0 +1,10 @@
+{
+  "name": "file-zap",
+  "category": "files",
+  "tags": ["file", "zap", "lightning", "bolt", "power", "fast"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><polygon class=\"p2\" points=\"13 10.5 9.5 14.5 12.5 14.5 11 19.5 14.5 13.5 11.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 800 }
+  ]
+}

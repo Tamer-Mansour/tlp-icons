@@ -1,0 +1,11 @@
+{
+  "name": "laser-show",
+  "category": "media",
+  "tags": ["laser", "beam", "show", "light", "stage", "concert"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"18\" r=\"2.5\"/><line class=\"p2\" x1=\"7.5\" y1=\"16.5\" x2=\"20\" y2=\"5\"/><line class=\"p2\" x1=\"7.5\" y1=\"19.5\" x2=\"20\" y2=\"14\"/><circle class=\"f p3\" cx=\"20\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1200 }
+  ]
+}

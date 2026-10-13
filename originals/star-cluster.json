@@ -1,0 +1,11 @@
+{
+  "name": "star-cluster",
+  "category": "science",
+  "tags": ["star", "cluster", "sparkle", "stars", "space", "astronomy"],
+  "svg": "<path class=\"d p1\" d=\"M8 5Q8.5 7.5 11 8Q8.5 8.5 8 11Q7.5 8.5 5 8Q7.5 7.5 8 5z\"/><path class=\"d p2\" d=\"M16 11Q16.5 14.5 20 15Q16.5 15.5 16 19Q15.5 15.5 12 15Q15.5 14.5 16 11z\"/><path class=\"d p3\" d=\"M17 4Q17.3 5.7 19 6Q17.3 6.3 17 8Q16.7 6.3 15 6Q16.7 5.7 17 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

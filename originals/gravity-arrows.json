@@ -1,0 +1,10 @@
+{
+  "name": "gravity-arrows",
+  "category": "science",
+  "tags": ["gravity", "physics", "arrows", "force", "down"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"6\" rx=\"1.5\"/><line class=\"p2\" x1=\"9\" y1=\"13\" x2=\"9\" y2=\"20\"/><polyline class=\"p2\" points=\"6.5 17.5 9 20 11.5 17.5\"/><line class=\"p2\" x1=\"15\" y1=\"13\" x2=\"15\" y2=\"20\"/><polyline class=\"p2\" points=\"12.5 17.5 15 20 17.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 600 }
+  ]
+}

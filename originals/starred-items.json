@@ -1,0 +1,10 @@
+{
+  "name": "starred-items",
+  "category": "interface",
+  "tags": ["starred", "items", "star", "cards", "favorite", "saved"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"11\" width=\"4\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"11\" width=\"4\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"18\" y=\"11\" width=\"4\" height=\"9\" rx=\"1\"/><polygon class=\"p2\" points=\"12 2.5 12.7 4.5 14.85 4.57 13.14 5.87 13.76 7.93 12 6.7 10.24 7.93 10.86 5.87 9.15 4.57 11.3 4.53\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

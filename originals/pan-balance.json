@@ -1,0 +1,11 @@
+{
+  "name": "pan-balance",
+  "category": "media",
+  "tags": ["pan", "balance", "stereo", "slider", "audio", "mix"],
+  "svg": "<path class=\"p1\" d=\"M4 12H20\"/><path class=\"p3\" d=\"M12 6.5V17.5\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-font",
+  "category": "files",
+  "tags": ["font", "typography", "text", "letter", "typeface"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M6 17.5l2.5-8 2.5 8M6.8 14.5h3.4\"/><circle class=\"p3\" cx=\"15.5\" cy=\"15\" r=\"2\"/><path class=\"p3\" d=\"M17.5 13v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "flip", "dur": 800, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cargo-van",
+  "category": "vehicles",
+  "tags": ["cargo", "van", "delivery", "box", "truck"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"13\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M15 8h3.5l2.5 3.5V15h-6z\"/><path class=\"p4\" d=\"M10.5 6v9\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 900 }
+  ]
+}

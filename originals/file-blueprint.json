@@ -1,0 +1,11 @@
+{
+  "name": "file-blueprint",
+  "category": "files",
+  "tags": ["blueprint", "file", "grid", "plan", "design", "drafting"],
+  "svg": "<path class=\"d p1\" d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><path class=\"p2\" d=\"M14 2v6h6\"/><path class=\"p3\" d=\"M12 11l-2.5 6M12 11l2.5 6\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 1100 }
+  ]
+}

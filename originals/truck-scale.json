@@ -1,0 +1,11 @@
+{
+  "name": "truck-scale",
+  "category": "vehicles",
+  "tags": ["truck", "scale", "weigh", "platform", "weight"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"17\" width=\"20\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"8\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M15 11h3l2 2.5V15h-5z\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

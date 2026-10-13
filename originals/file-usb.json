@@ -1,0 +1,11 @@
+{
+  "name": "file-usb",
+  "category": "files",
+  "tags": ["usb", "plug", "drive", "storage", "device", "connector"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><rect class=\"p2\" x=\"9\" y=\"8.5\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 16.5v2M13.5 16.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

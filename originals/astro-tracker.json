@@ -1,0 +1,11 @@
+{
+  "name": "astro-tracker",
+  "category": "photography",
+  "tags": ["astro", "tracker", "tripod", "star", "telescope"],
+  "svg": "<path class=\"p1\" d=\"M12 13v8M12 13l-5 8M12 13l5 8\"/><path class=\"p2\" d=\"M5 11a7 7 0 0 1 14 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 11px" }
+  ]
+}

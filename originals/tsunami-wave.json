@@ -1,0 +1,10 @@
+{
+  "name": "tsunami-wave",
+  "category": "science",
+  "tags": ["tsunami", "wave", "ocean", "flood", "sea", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 19 C6 15 9 6 15 6 C19 6 21 10 20 14 C17 12 15 13 14 15 C12 18 8 19 3 19 Z\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "whooshIn", "dur": 900, "delay": 400 }
+  ]
+}

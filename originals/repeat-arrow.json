@@ -1,0 +1,10 @@
+{
+  "name": "repeat-arrow",
+  "category": "arrows",
+  "tags": ["repeat", "loop", "again", "rounded", "cycle", "replay"],
+  "svg": "<path class=\"p1\" d=\"M4 12 V9 A3 3 0 0 1 7 6 H17 A3 3 0 0 1 20 9 V12 A3 3 0 0 1 17 15 H7 A3 3 0 0 1 4 12\"/><polyline class=\"p2\" points=\"16 3 19.5 6 16 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

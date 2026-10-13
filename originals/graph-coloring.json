@@ -1,0 +1,12 @@
+{
+  "name": "graph-coloring",
+  "category": "math",
+  "tags": ["graph", "coloring", "vertices", "colors", "nodes"],
+  "svg": "<path class=\"p4\" d=\"M8 17H16M6.6 14.5L10.4 8.5M17.4 14.5L13.6 8.5\"/><circle class=\"d p1\" cx=\"5\" cy=\"17\" r=\"3\"/><circle class=\"p2\" cx=\"19\" cy=\"17\" r=\"3\"/><circle class=\"d p3\" cx=\"12\" cy=\"6\" r=\"3\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

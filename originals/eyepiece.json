@@ -1,0 +1,10 @@
+{
+  "name": "eyepiece",
+  "category": "science",
+  "tags": ["eyepiece", "microscope", "lens", "optics", "lab"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"3\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"8\" height=\"11\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

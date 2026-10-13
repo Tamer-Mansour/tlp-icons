@@ -1,0 +1,10 @@
+{
+  "name": "bowling-ball",
+  "category": "sport",
+  "tags": ["bowling", "ball", "pins", "lanes", "strike", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"8.5\" cy=\"8.5\" r=\"1.2\"/><circle class=\"p2\" cx=\"15.5\" cy=\"8.5\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"14.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

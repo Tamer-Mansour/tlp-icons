@@ -1,0 +1,12 @@
+{
+  "name": "espresso-cup",
+  "category": "food",
+  "tags": ["espresso", "cup", "coffee", "demitasse", "saucer"],
+  "svg": "<path class=\"p1 d\" d=\"M5 10 H17 V14 Q17 18 13 18 H9 Q5 18 5 14 Z\"/><path class=\"p2\" d=\"M17 11.5 H18.5 Q20 11.5 20 13 Q20 14.5 18.5 14.5 H17\"/><line class=\"p3\" x1=\"3\" y1=\"20.5\" x2=\"21\" y2=\"20.5\"/><path class=\"p4\" d=\"M9 3 Q8 4.5 9 6 M13 3 Q12 4.5 13 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

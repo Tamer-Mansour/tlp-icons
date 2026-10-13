@@ -1,0 +1,10 @@
+{
+  "name": "waste-paper",
+  "category": "files",
+  "tags": ["waste", "paper", "bin", "trash", "discard", "delete"],
+  "svg": "<path class=\"p1\" d=\"M4 9h16M6 9l1 12h10l1-12\"/><circle class=\"d p2\" cx=\"12\" cy=\"5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 1000, "delay": 900 }
+  ]
+}

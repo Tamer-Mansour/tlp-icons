@@ -1,0 +1,10 @@
+{
+  "name": "text-cursor-end",
+  "category": "text",
+  "tags": ["cursor", "text", "end", "caret", "line", "type", "input"],
+  "svg": "<path class=\"p1\" d=\"M3 12h4M9 12h4\"/><path class=\"p2\" d=\"M17 5v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 900, "delay": 900 }
+  ]
+}

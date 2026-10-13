@@ -1,0 +1,11 @@
+{
+  "name": "camera-toggle",
+  "category": "interface",
+  "tags": ["camera", "video", "toggle", "off", "record", "call"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6.5\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M16.5 10l4.5-2.5v9L16.5 14\"/><path class=\"p3\" d=\"M3.5 3.5l17 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

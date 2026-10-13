@@ -1,0 +1,10 @@
+{
+  "name": "trend-arrows",
+  "category": "charts",
+  "tags": ["trend", "arrows", "up", "down", "change", "direction"],
+  "svg": "<path class=\"p1\" d=\"M5 19V7M2 10L5 7L8 10\"/><path class=\"p2\" d=\"M18 5V17M15 14L18 17L21 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

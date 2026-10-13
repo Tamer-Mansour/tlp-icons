@@ -1,0 +1,11 @@
+{
+  "name": "caulk-smoother",
+  "category": "tools",
+  "tags": ["caulk", "smoother", "spatula", "bead", "sealant"],
+  "svg": "<path class=\"p1\" d=\"M3 19c3-3 6-3 9 0s6 3 9 0\"/><path class=\"d p2\" d=\"M5 8h14l-3 6H8z\"/><path class=\"p3\" d=\"M12 3v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "idea-speech",
+  "category": "communication",
+  "tags": ["idea", "lightbulb", "speech", "suggestion", "bubble", "brainstorm"],
+  "svg": "<path class=\"d p1\" d=\"M5 21v-1.5a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5V21z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p3\" d=\"M2.5 9H4.5M19.5 9h2M5.5 4.5L4 3M18.5 4.5L20 3M12 1.5v1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

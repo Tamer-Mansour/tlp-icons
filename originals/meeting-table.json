@@ -1,0 +1,11 @@
+{
+  "name": "meeting-table",
+  "category": "communication",
+  "tags": ["meeting", "table", "conference", "chairs", "team", "discussion"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 4v3M12 4v3M16 4v3\"/><path class=\"p3\" d=\"M8 17v3M12 17v3M16 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

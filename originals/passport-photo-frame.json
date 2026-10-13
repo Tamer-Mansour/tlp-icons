@@ -1,0 +1,11 @@
+{
+  "name": "passport-photo-frame",
+  "category": "people",
+  "tags": ["passport", "photo", "frame", "id", "portrait", "picture"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M7.5 18Q12 13.5 16.5 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "breathe", "dur": 1000, "delay": 900 }
+  ]
+}

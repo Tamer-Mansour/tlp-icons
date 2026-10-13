@@ -1,0 +1,10 @@
+{
+  "name": "arc-length",
+  "category": "math",
+  "tags": ["arc", "length", "curve", "circumference", "measure", "math"],
+  "svg": "<path class=\"p1\" d=\"M4 12A8 8 0 0 1 20 12\"/><line class=\"p2\" x1=\"4\" y1=\"9\" x2=\"4\" y2=\"15\"/><line class=\"p2\" x1=\"20\" y1=\"9\" x2=\"20\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

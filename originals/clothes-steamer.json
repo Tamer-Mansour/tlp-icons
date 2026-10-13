@@ -1,0 +1,11 @@
+{
+  "name": "clothes-steamer",
+  "category": "home",
+  "tags": ["steamer", "clothes", "iron", "steam", "wrinkles", "laundry"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"13\" height=\"8\" rx=\"3\"/><path class=\"p2\" d=\"M15 15h6\"/><path class=\"p3\" d=\"M6 8c-1.2-1.5 1.2-2.5 0-4.5M11 8c-1.2-1.5 1.2-2.5 0-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

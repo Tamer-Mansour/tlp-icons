@@ -1,0 +1,10 @@
+{
+  "name": "thyme-sprig",
+  "category": "food",
+  "tags": ["thyme", "sprig", "herb", "stem", "spice"],
+  "svg": "<path class=\"p1\" d=\"M12 21V5\"/><ellipse class=\"p2\" cx=\"8\" cy=\"9\" rx=\"2.5\" ry=\"1.2\" transform=\"rotate(-30 8 9)\"/><ellipse class=\"p2\" cx=\"16\" cy=\"9\" rx=\"2.5\" ry=\"1.2\" transform=\"rotate(30 16 9)\"/><ellipse class=\"p2\" cx=\"8\" cy=\"15\" rx=\"2.5\" ry=\"1.2\" transform=\"rotate(-30 8 15)\"/><ellipse class=\"p2\" cx=\"16\" cy=\"15\" rx=\"2.5\" ry=\"1.2\" transform=\"rotate(30 16 15)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

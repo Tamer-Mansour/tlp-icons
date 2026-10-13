@@ -1,0 +1,10 @@
+{
+  "name": "distribute-shapes",
+  "category": "shapes",
+  "tags": ["distribute", "spacing", "even", "shapes", "layout", "gaps"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><line class=\"p2\" x1=\"7\" y1=\"4\" x2=\"10\" y2=\"4\"/><line class=\"p2\" x1=\"14\" y1=\"4\" x2=\"17\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500, "origin": "left" }
+  ]
+}

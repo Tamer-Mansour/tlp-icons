@@ -1,0 +1,10 @@
+{
+  "name": "lightning-rod",
+  "category": "weather",
+  "tags": ["lightning rod", "lightning", "storm", "protection", "pointed", "weather"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\"/><rect class=\"p2\" x=\"8\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "stamp", "dur": 600, "delay": 700 }
+  ]
+}

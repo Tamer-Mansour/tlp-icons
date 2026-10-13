@@ -1,0 +1,10 @@
+{
+  "name": "user-progress",
+  "category": "people",
+  "tags": ["user", "progress", "bar", "status", "loading", "person", "level"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"6\" r=\"3\"/><path class=\"p1\" d=\"M3 17v-1.5a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4V17\"/><rect class=\"p2\" x=\"3\" y=\"19\" width=\"18\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 800, "delay": 600 }
+  ]
+}

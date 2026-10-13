@@ -1,0 +1,11 @@
+{
+  "name": "dashboard-widget",
+  "category": "charts",
+  "tags": ["dashboard", "widget", "panel", "metrics", "card"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"3\"/><path class=\"p2\" d=\"M6 7H14\"/><rect class=\"p3\" x=\"6\" y=\"13\" width=\"2.5\" height=\"5\"/><rect class=\"p3\" x=\"10.75\" y=\"10\" width=\"2.5\" height=\"8\"/><rect class=\"p3\" x=\"15.5\" y=\"12\" width=\"2.5\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 800, "origin": "bottom" }
+  ]
+}

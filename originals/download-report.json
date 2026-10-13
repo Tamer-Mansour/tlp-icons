@@ -1,0 +1,11 @@
+{
+  "name": "download-report",
+  "category": "charts",
+  "tags": ["download", "report", "document", "export", "chart", "save"],
+  "svg": "<path class=\"p1\" d=\"M5 3H13L18 8V12M5 3V12\"/><path class=\"p2\" d=\"M8 10V8M11 10V6M14 10V7\"/><path class=\"p3\" d=\"M15 15V21M12 18L15 21L18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1100 }
+  ]
+}

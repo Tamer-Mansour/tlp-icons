@@ -1,0 +1,11 @@
+{
+  "name": "error-toast",
+  "category": "notifications",
+  "tags": ["error", "toast", "cross", "failed", "message"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M6.5 9.5 L10.5 13.5\"/><path class=\"p3\" d=\"M10.5 9.5 L6.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

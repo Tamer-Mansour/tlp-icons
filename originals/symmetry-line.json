@@ -1,0 +1,10 @@
+{
+  "name": "symmetry-line",
+  "category": "math",
+  "tags": ["symmetry", "mirror", "axis", "line", "shape", "balance"],
+  "svg": "<polygon class=\"d p1\" points=\"12,4 19,9 16,19 8,19 5,9\"/><line class=\"p2\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

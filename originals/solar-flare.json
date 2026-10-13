@@ -1,0 +1,10 @@
+{
+  "name": "solar-flare",
+  "category": "weather",
+  "tags": ["solar", "flare", "sun", "flame", "space"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"5\"/><path class=\"p2\" d=\"M15 9C18 4 21 3 22 4C19 6 19 9 17 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1200, "delay": 500, "origin": "10px 13px" }
+  ]
+}

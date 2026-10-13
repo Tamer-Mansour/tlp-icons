@@ -1,0 +1,10 @@
+{
+  "name": "mast-antenna",
+  "category": "connectivity",
+  "tags": ["antenna", "mast", "tower", "radio", "transmit"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"7\" x2=\"12\" y2=\"22\"/><polyline class=\"p1\" points=\"6,22 12,11 18,22\"/><path class=\"p2\" d=\"M9.5 17H14.5M10.5 13H13.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

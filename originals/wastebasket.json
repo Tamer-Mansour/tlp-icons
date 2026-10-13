@@ -1,0 +1,11 @@
+{
+  "name": "wastebasket",
+  "category": "home",
+  "tags": ["wastebasket", "bin", "trash", "waste", "office", "paper"],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12l-1.5 12h-9z\"/><path class=\"p2\" d=\"M4 9h16\"/><path class=\"p3\" d=\"M9 9l1-4 2 2 2-3 1 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "allotment",
+  "category": "buildings",
+  "tags": ["allotment", "plots", "garden", "grid", "vegetable", "sprout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\"/><rect class=\"p1\" x=\"13\" y=\"13\" width=\"8\" height=\"8\"/><path class=\"p2\" d=\"M17 20 V16 M17 17 Q15 14 14.5 15.5 M17 16 Q19 13.5 19.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 1000, "origin": "bottom" }
+  ]
+}

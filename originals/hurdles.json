@@ -1,0 +1,10 @@
+{
+  "name": "hurdles",
+  "category": "sport",
+  "tags": ["hurdles", "track", "race", "sport", "frame", "athletics"],
+  "svg": "<path class=\"p1\" d=\"M3 12v9M10 12v9M14 12v9M21 12v9\"/><path class=\"p2\" d=\"M3 12h7M14 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

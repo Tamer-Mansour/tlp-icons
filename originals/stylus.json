@@ -1,0 +1,11 @@
+{
+  "name": "stylus",
+  "category": "devices",
+  "tags": ["stylus", "pen", "tablet", "touch", "draw", "pointer"],
+  "svg": "<path class=\"d p1\" d=\"M14 6 L18 10 L9 19 L5 15 Z\"/><path class=\"p2\" d=\"M5 15 L3 21 L9 19\"/><line class=\"p3\" x1=\"16\" y1=\"4\" x2=\"20\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

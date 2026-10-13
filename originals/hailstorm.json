@@ -1,0 +1,10 @@
+{
+  "name": "hailstorm",
+  "category": "weather",
+  "tags": ["hail", "storm", "ice", "cloud", "falling", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M7 14a4 4 0 0 1 .5-8 5 5 0 0 1 9.5 1.5 3.5 3.5 0 0 1-.5 6.5z\"/><circle class=\"f p2\" cx=\"8\" cy=\"18\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"20.5\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 600 }
+  ]
+}

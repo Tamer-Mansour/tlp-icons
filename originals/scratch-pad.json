@@ -1,0 +1,11 @@
+{
+  "name": "scratch-pad",
+  "category": "files",
+  "tags": ["scratch", "pad", "notes", "crossed", "draft", "paper"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 8h8M8 12h8\"/><path class=\"p3\" d=\"M8 16l8 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

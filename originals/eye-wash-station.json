@@ -1,0 +1,11 @@
+{
+  "name": "eye-wash-station",
+  "category": "science",
+  "tags": ["eye", "wash", "safety", "emergency", "lab"],
+  "svg": "<path class=\"d p1\" d=\"M5 14H19V16Q19 18 17 18H7Q5 18 5 16Z\"/><path class=\"p2\" d=\"M12 18V21M8 21H16\"/><path class=\"p3\" d=\"M7 11Q7 7 9.5 5.5M17 11Q17 7 14.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hide-layer",
+  "category": "design",
+  "tags": ["hide", "layer", "eye", "visibility", "stack", "tool"],
+  "svg": "<path class=\"p1\" d=\"M3 13L12 17.5L21 13M3 18L12 22.5L21 18\"/><path class=\"d p2\" d=\"M12 3L21 8L12 13L3 8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dim", "dur": 600, "delay": 900 }
+  ]
+}

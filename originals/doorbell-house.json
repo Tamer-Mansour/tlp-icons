@@ -1,0 +1,11 @@
+{
+  "name": "doorbell-house",
+  "category": "buildings",
+  "tags": ["doorbell", "house", "bell", "home", "ring", "door"],
+  "svg": "<path class=\"p1\" d=\"M4 10.5L12 4l8 6.5V21H4z\"/><path class=\"p2\" d=\"M9 21v-5h4v5\"/><circle class=\"p3\" cx=\"16\" cy=\"15\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

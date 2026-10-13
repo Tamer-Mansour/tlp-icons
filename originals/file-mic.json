@@ -1,0 +1,11 @@
+{
+  "name": "file-mic",
+  "category": "files",
+  "tags": ["mic", "microphone", "voice", "record", "audio", "dictation"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><rect class=\"p2\" x=\"10.5\" y=\"8.5\" width=\"3\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M8.5 12.5a3.5 3.5 0 0 0 7 0M12 16v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

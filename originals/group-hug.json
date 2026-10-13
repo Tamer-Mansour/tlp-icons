@@ -1,0 +1,10 @@
+{
+  "name": "group-hug",
+  "category": "people",
+  "tags": ["group", "hug", "family", "friends", "together"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7.5\" r=\"2.5\"/><circle class=\"d p1\" cx=\"17\" cy=\"7.5\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M3 21a6 6 0 0 1 9-5M21 21a6 6 0 0 0-9-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

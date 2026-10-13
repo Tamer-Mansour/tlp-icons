@@ -1,0 +1,11 @@
+{
+  "name": "antenna-tower",
+  "category": "devices",
+  "tags": ["antenna", "tower", "radio", "signal", "broadcast", "transmitter"],
+  "svg": "<path class=\"p1\" d=\"M7.5 22L12 6l4.5 16\"/><path class=\"p2\" d=\"M9.5 16.5h5M10.5 11.5h3\"/><path class=\"p3\" d=\"M12 2v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

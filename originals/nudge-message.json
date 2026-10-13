@@ -1,0 +1,10 @@
+{
+  "name": "nudge-message",
+  "category": "communication",
+  "tags": ["nudge", "message", "motion", "attention", "bubble", "poke"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"4\" width=\"13\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 7.5v5M6 6.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

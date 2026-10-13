@@ -1,0 +1,10 @@
+{
+  "name": "dolphin-fin",
+  "category": "science",
+  "tags": ["dolphin", "fin", "ocean", "marine", "waves", "sea", "mammal"],
+  "svg": "<path class=\"d p1\" d=\"M5 17q5-11 13 0z\"/><path class=\"p2\" d=\"M2 20q2.5-2 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 600 }
+  ]
+}

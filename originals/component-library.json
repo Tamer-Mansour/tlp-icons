@@ -1,0 +1,11 @@
+{
+  "name": "component-library",
+  "category": "design",
+  "tags": ["component", "library", "symbols", "design", "system"],
+  "svg": "<path class=\"p1\" d=\"M4.5 7l2.5 2.5-2.5 2.5-2.5-2.5z\"/><path class=\"d p2\" d=\"M12 7l2.5 2.5-2.5 2.5-2.5-2.5z\"/><path class=\"p1\" d=\"M19.5 7l2.5 2.5-2.5 2.5-2.5-2.5z\"/><path class=\"p3\" d=\"M3 17h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ice-storm",
+  "category": "weather",
+  "tags": ["ice", "storm", "cloud", "crystals", "freezing", "weather"],
+  "svg": "<path class=\"p1\" d=\"M7 13 H17 A3.5 3.5 0 0 0 17 6 A5 5 0 0 0 7.5 5 A4 4 0 0 0 7 13 Z\"/><path class=\"p2\" d=\"M7 16 V20 M5 18 H9\"/><path class=\"p3\" d=\"M15 16 V20 M13 18 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 1100 }
+  ]
+}

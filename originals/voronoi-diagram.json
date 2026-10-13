@@ -1,0 +1,10 @@
+{
+  "name": "voronoi-diagram",
+  "category": "math",
+  "tags": ["voronoi", "diagram", "regions", "boundaries", "nearest"],
+  "svg": "<path class=\"p1\" d=\"M11.5 2V11M11.5 11L5.5 15M11.5 11L19 14.5\"/><circle class=\"f p2\" cx=\"6\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

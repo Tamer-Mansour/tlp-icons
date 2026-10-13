@@ -1,0 +1,11 @@
+{
+  "name": "tug-of-war-rope",
+  "category": "sport",
+  "tags": ["tug", "war", "rope", "pull", "team", "contest"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2\"/><polyline class=\"p3\" points=\"5 9 2 12 5 15\"/><polyline class=\"p3\" points=\"19 9 22 12 19 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

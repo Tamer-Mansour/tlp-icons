@@ -1,0 +1,10 @@
+{
+  "name": "step-over",
+  "category": "development",
+  "tags": ["step", "over", "debugger", "arc", "jump", "breakpoint"],
+  "svg": "<path class=\"p1\" d=\"M5 15c0-6 14-6 14 0M16 12l3 3 3-3\"/><circle class=\"f p2\" cx=\"12\" cy=\"19\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

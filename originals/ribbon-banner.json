@@ -1,0 +1,10 @@
+{
+  "name": "ribbon-banner",
+  "category": "design",
+  "tags": ["ribbon", "banner", "award", "label", "header"],
+  "svg": "<path class=\"d p1\" d=\"M6 7h12v7H6z\"/><path class=\"p2\" d=\"M6 7l-3 3.5L6 14M18 7l3 3.5-3 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

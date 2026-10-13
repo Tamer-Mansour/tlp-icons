@@ -1,0 +1,10 @@
+{
+  "name": "fader-slider",
+  "category": "media",
+  "tags": ["fader", "slider", "volume", "audio", "track", "level"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><rect class=\"d p2\" x=\"8\" y=\"10\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 600 }
+  ]
+}

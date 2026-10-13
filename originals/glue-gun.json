@@ -1,0 +1,12 @@
+{
+  "name": "glue-gun",
+  "category": "tools",
+  "tags": ["glue", "gun", "hot", "craft", "adhesive", "stick"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"11\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M15 9.5l3-1h2v5\"/><path class=\"p3\" d=\"M9 12v3.5l-1.5.5\"/><circle class=\"f p4\" cx=\"19\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

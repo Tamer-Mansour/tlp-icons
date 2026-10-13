@@ -1,0 +1,11 @@
+{
+  "name": "charging-dock",
+  "category": "devices",
+  "tags": ["charging", "dock", "charger", "station", "power", "bolt"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 L6 16 H18 L21 13 V20 H3 Z\"/><path class=\"p2\" d=\"M13 3 L9 9 H13 L11 12\"/><line class=\"p3\" x1=\"8\" y1=\"18\" x2=\"16\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

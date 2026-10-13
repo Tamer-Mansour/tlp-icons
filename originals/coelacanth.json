@@ -1,0 +1,12 @@
+{
+  "name": "coelacanth",
+  "category": "nature",
+  "tags": ["fish", "fins", "ancient", "deep", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 Q9 7 15 8 Q19 9 20 12 Q19 15 15 16 Q9 17 5 12 Z\"/><path class=\"p2\" d=\"M18 12 L22 6 L22 18 Z\"/><path class=\"p3\" d=\"M9 15 L7 19 L11 16\"/><circle class=\"f p4\" cx=\"8\" cy=\"11\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 800, "origin": "9px 15px" }
+  ]
+}

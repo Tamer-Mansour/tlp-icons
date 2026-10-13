@@ -1,0 +1,10 @@
+{
+  "name": "soil-layers",
+  "category": "science",
+  "tags": ["soil", "layers", "earth", "geology", "roots", "ground"],
+  "svg": "<path class=\"p1\" d=\"M2 6H22M2 11H22M2 16H22\"/><path class=\"p2\" d=\"M16 6V9L13 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "16px 6px" }
+  ]
+}

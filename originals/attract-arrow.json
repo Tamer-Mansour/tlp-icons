@@ -1,0 +1,10 @@
+{
+  "name": "attract-arrow",
+  "category": "arrows",
+  "tags": ["attract", "pull", "magnet", "converge", "gather", "center"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M4 4l5 5M9 5v4H5M20 4l-5 5M15 5v4h4M4 20l5-5M9 19v-4H5M20 20l-5-5M15 19v-4h4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

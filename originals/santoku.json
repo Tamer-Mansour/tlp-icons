@@ -1,0 +1,10 @@
+{
+  "name": "santoku",
+  "category": "food",
+  "tags": ["santoku", "knife", "chef", "blade", "cutting", "kitchen"],
+  "svg": "<rect class=\"p2\" x=\"2.5\" y=\"9\" width=\"4\" height=\"6\" rx=\"2\"/><path class=\"d p1\" d=\"M8.5 7.5H17.5L21.5 12 17.5 16.5H8.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

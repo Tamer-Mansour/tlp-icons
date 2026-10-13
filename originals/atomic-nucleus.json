@@ -1,0 +1,10 @@
+{
+  "name": "atomic-nucleus",
+  "category": "science",
+  "tags": ["nucleus", "atom", "protons", "neutrons", "physics"],
+  "svg": "<circle class=\"f p1\" cx=\"10\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p1\" cx=\"14\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p1\" cx=\"10\" cy=\"13.5\" r=\"1.2\"/><circle class=\"f p1\" cx=\"14\" cy=\"13.5\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

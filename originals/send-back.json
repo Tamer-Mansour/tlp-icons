@@ -1,0 +1,10 @@
+{
+  "name": "send-back",
+  "category": "interface",
+  "tags": ["send", "back", "layer", "order", "overlap", "arrange"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 15v4.5a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "device-trust-check",
+  "category": "people",
+  "tags": ["device", "trust", "shield", "check", "security"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"9\" height=\"9\" rx=\"1\"/><line class=\"p1\" x1=\"2\" y1=\"17\" x2=\"11\" y2=\"17\"/><path class=\"d p2\" d=\"M18 6.5l3.5 1.5v3c0 2.8-1.7 4.6-3.5 5.5c-1.8-.9-3.5-2.7-3.5-5.5v-3z\"/><polyline class=\"p3\" points=\"16.5 11 17.8 12.3 19.8 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

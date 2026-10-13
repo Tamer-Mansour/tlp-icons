@@ -1,0 +1,12 @@
+{
+  "name": "text-zoom-in",
+  "category": "text",
+  "tags": ["zoom", "in", "text", "magnify", "letter", "plus", "search"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p2\" d=\"M14.5 14.5L20 20\"/><path class=\"p3\" d=\"M7.5 13l2.5-6 2.5 6M8.4 11h3.2\"/><path class=\"p4\" d=\"M20 3v4M18 5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "zoomIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

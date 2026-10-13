@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-option",
+  "category": "interface",
+  "tags": ["keyboard", "option", "alt", "key", "modifier", "shortcut"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5.5\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 9.5h4l3 5h-4zM14 9.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "reply-chain",
+  "category": "communication",
+  "tags": ["reply", "chain", "thread", "bubble", "response", "conversation"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"10\" y=\"13\" width=\"11\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M19 13V9.5a3 3 0 0 0-3-3h-1.5M16.5 4.5l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 1000 }
+  ]
+}

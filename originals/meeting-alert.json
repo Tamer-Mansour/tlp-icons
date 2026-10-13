@@ -1,0 +1,11 @@
+{
+  "name": "meeting-alert",
+  "category": "notifications",
+  "tags": ["meeting", "people", "alert", "group", "invite"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20 V18 A4 4 0 0 1 10.5 18 V20\"/><circle class=\"p2\" cx=\"15\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M13.5 20 V18 A3.5 3.5 0 0 1 20.5 18 V20\"/><line class=\"p3\" x1=\"20.5\" y1=\"1.8\" x2=\"20.5\" y2=\"4.4\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"6.6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gps-route",
+  "category": "sport",
+  "tags": ["gps", "route", "tracking", "pin", "map", "distance"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"19\" r=\"1\"/><circle class=\"f p1\" cx=\"9.5\" cy=\"15.5\" r=\"1\"/><circle class=\"f p1\" cx=\"12.5\" cy=\"12.5\" r=\"1\"/><path class=\"d p2\" d=\"M18 3 A4 4 0 0 1 22 7 C22 10 18 14 18 14 C18 14 14 10 14 7 A4 4 0 0 1 18 3 Z\"/><circle class=\"p3\" cx=\"18\" cy=\"7\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "blip", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

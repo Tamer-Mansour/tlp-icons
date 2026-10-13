@@ -1,0 +1,10 @@
+{
+  "name": "lab-coat",
+  "category": "science",
+  "tags": ["lab coat", "coat", "science", "uniform", "scientist"],
+  "svg": "<path class=\"d p1\" d=\"M8 3 L12 6 L16 3 L20 5 V21 H4 V5 Z\"/><path class=\"p2\" d=\"M12 6 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

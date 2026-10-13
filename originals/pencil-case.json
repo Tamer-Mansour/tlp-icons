@@ -1,0 +1,11 @@
+{
+  "name": "pencil-case",
+  "category": "science",
+  "tags": ["pencil", "case", "pouch", "zipper", "stationery", "school"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M6 15h12\"/><path class=\"p3\" d=\"M14 10V4L16 2L18 4V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

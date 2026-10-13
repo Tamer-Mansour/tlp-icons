@@ -1,0 +1,11 @@
+{
+  "name": "guest-book",
+  "category": "home",
+  "tags": ["guest", "book", "pen", "sign", "journal", "visitor"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5c-2-1.5-5-2-9-1.5V19c4-.5 7 0 9 1.5 2-1.5 5-2 9-1.5V5c-4-.5-7 0-9 1.5z\"/><path class=\"p3\" d=\"M6 10h4M6 13h3\"/><path class=\"p2\" d=\"M15.5 6.5l2 2-7.5 7.5-2.5.5.5-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 1000 }
+  ]
+}

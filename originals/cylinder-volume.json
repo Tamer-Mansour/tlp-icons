@@ -1,0 +1,10 @@
+{
+  "name": "cylinder-volume",
+  "category": "math",
+  "tags": ["cylinder", "volume", "solid", "can", "geometry"],
+  "svg": "<path class=\"d p1\" d=\"M5 6v12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V6c0-1.4-3.1-2.5-7-2.5S5 4.6 5 6Z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"6\" rx=\"7\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 700 }
+  ]
+}

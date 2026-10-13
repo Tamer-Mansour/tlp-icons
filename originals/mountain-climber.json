@@ -1,0 +1,12 @@
+{
+  "name": "mountain-climber",
+  "category": "sport",
+  "tags": ["mountain", "climber", "plank", "exercise", "core"],
+  "svg": "<circle class=\"p1\" cx=\"18\" cy=\"8\" r=\"2\"/><path class=\"p2\" d=\"M16 10L7 14\"/><path class=\"p3\" d=\"M7 14L4 20M16 10L14 20\"/><line class=\"p4\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 1200 }
+  ]
+}

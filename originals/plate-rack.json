@@ -1,0 +1,12 @@
+{
+  "name": "plate-rack",
+  "category": "sport",
+  "tags": ["plate", "rack", "weights", "discs", "storage", "gym"],
+  "svg": "<path class=\"p1\" d=\"M4 2 V22 M20 2 V22\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2.5\"/><circle class=\"p3\" cx=\"12\" cy=\"13\" r=\"2.5\"/><circle class=\"p4\" cx=\"12\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "bob", "dur": 600, "delay": 1100 }
+  ]
+}

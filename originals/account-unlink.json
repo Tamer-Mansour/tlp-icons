@@ -1,0 +1,11 @@
+{
+  "name": "account-unlink",
+  "category": "people",
+  "tags": ["account", "unlink", "broken", "disconnect", "separate", "accounts"],
+  "svg": "<rect class=\"p1\" x=\"1.5\" y=\"8.5\" width=\"8\" height=\"7\" rx=\"3.5\"/><rect class=\"p2\" x=\"14.5\" y=\"8.5\" width=\"8\" height=\"7\" rx=\"3.5\"/><path class=\"p3\" d=\"M9.5 12h1.5M13 12h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 900 }
+  ]
+}

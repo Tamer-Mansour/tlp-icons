@@ -1,0 +1,11 @@
+{
+  "name": "globe-symbol",
+  "category": "emoji",
+  "tags": ["globe", "world", "earth", "map", "international"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><path class=\"p3\" d=\"M3 12h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 900 }
+  ]
+}

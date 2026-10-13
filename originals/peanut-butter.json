@@ -1,0 +1,11 @@
+{
+  "name": "peanut-butter",
+  "category": "food",
+  "tags": ["peanut", "butter", "jar", "spread", "knife", "nut"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M19 2.5L13.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "stir", "dur": 900, "delay": 800 }
+  ]
+}

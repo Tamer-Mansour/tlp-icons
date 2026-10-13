@@ -1,0 +1,11 @@
+{
+  "name": "chimney-smoke",
+  "category": "home",
+  "tags": ["chimney", "smoke", "fireplace", "house", "emissions"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"11\" width=\"8\" height=\"10\" rx=\"0.5\"/><path class=\"p2\" d=\"M10 8c-1.2-1.2 1.2-2.2 0-4\"/><path class=\"p3\" d=\"M14 8c-1.2-1.2 1.2-2.2 0-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 700 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

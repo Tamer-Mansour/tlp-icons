@@ -1,0 +1,10 @@
+{
+  "name": "pointing-up",
+  "category": "emoji",
+  "tags": ["pointing", "finger", "point", "hand", "up", "gesture"],
+  "svg": "<path class=\"p1\" d=\"M9 12 V3.5 C9 2 12 2 12 3.5 V12\"/><path class=\"p2\" d=\"M9 12 H6.5 C5.5 12 5 13 5 14 V18 C5 20.5 7 22 9.5 22 H14 C17 22 19 20 19 17 V14.5 C19 13 18 12 16.5 12 H12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "tap", "dur": 800, "delay": 700, "origin": "10.5px 12px" }
+  ]
+}

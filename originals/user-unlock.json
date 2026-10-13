@@ -1,0 +1,10 @@
+{
+  "name": "user-unlock",
+  "category": "people",
+  "tags": ["user", "unlock", "padlock", "access", "open", "person", "security"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"8\" r=\"3.2\"/><path class=\"p1\" d=\"M1.5 20v-1.5a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4V20\"/><rect class=\"d p2\" x=\"15.5\" y=\"13\" width=\"5\" height=\"5.5\" rx=\"1\"/><path class=\"p2\" d=\"M17 13v-1.8a2.2 2.2 0 0 1 4.4-.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 700 }
+  ]
+}

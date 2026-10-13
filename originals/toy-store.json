@@ -1,0 +1,11 @@
+{
+  "name": "toy-store",
+  "category": "buildings",
+  "tags": ["toy", "store", "block", "shop", "kids", "games"],
+  "svg": "<path class=\"p1\" d=\"M4 21V10h16v11\"/><path class=\"p2\" d=\"M3 10l9-6 9 6\"/><rect class=\"d p3\" x=\"9\" y=\"13\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "hop", "dur": 800, "delay": 1100 }
+  ]
+}

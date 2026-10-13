@@ -1,0 +1,11 @@
+{
+  "name": "hyphen-soft",
+  "category": "design",
+  "tags": ["hyphen", "soft", "break", "word", "wrap", "text", "dash"],
+  "svg": "<path class=\"p1\" d=\"M3 6h10\"/><path class=\"p2\" d=\"M15.5 6h2.5\"/><path class=\"p3\" d=\"M3 12h14M3 17h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

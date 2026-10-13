@@ -1,0 +1,11 @@
+{
+  "name": "invitation-card",
+  "category": "people",
+  "tags": ["invitation", "card", "envelope", "heart", "invite"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><polyline class=\"p2\" points=\"2 8 12 13 22 8\"/><path class=\"d p3\" d=\"M12 19.5l-2.2-2.1a1.6 1.6 0 1 1 2.2-2.3 1.6 1.6 0 1 1 2.2 2.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "beat", "dur": 800, "delay": 1100 }
+  ]
+}

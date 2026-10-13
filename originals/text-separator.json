@@ -1,0 +1,11 @@
+{
+  "name": "text-separator",
+  "category": "text",
+  "tags": ["separator", "pipe", "words", "divide", "text", "bar"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12h7\"/><path class=\"p2\" d=\"M12 8v8\"/><path class=\"p3\" d=\"M15 12h6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

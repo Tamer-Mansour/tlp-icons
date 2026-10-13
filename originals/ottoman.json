@@ -1,0 +1,11 @@
+{
+  "name": "ottoman",
+  "category": "home",
+  "tags": ["ottoman", "footstool", "padded", "seat", "furniture", "cushion"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M4 13.5h16\"/><path class=\"p3\" d=\"M7 19v2M17 19v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 800 }
+  ]
+}

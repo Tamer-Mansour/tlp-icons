@@ -1,0 +1,11 @@
+{
+  "name": "consulate",
+  "category": "buildings",
+  "tags": ["consulate", "embassy", "flag", "gate", "diplomacy", "office"],
+  "svg": "<path class=\"p1\" d=\"M5 21V3\"/><path class=\"d p2\" d=\"M5 4h11l-3 3.5 3 3.5H5z\"/><path class=\"p3\" d=\"M9 21v-8a3 3 0 0 1 6 0v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "salad-spinner",
+  "category": "food",
+  "tags": ["salad", "spinner", "lettuce", "crank", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M4 11H20Q20 20 12 20Q4 20 4 11Z\"/><path class=\"p2\" d=\"M4 9A8 3 0 0 1 20 9\"/><path class=\"p3\" d=\"M12 6V3H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200, "origin": "12px 6px" }
+  ]
+}

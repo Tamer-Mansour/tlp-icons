@@ -1,0 +1,11 @@
+{
+  "name": "universal-remote",
+  "category": "devices",
+  "tags": ["universal", "remote", "control", "tv", "buttons"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M10 10h0M14 10h0M10 14h0M14 14h0M10 18h0M14 18h0\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "tap", "dur": 700, "delay": 1100 }
+  ]
+}

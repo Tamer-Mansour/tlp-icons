@@ -1,0 +1,11 @@
+{
+  "name": "courtyard",
+  "category": "buildings",
+  "tags": ["courtyard", "square", "tree", "paths", "garden", "plaza"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M12 5v1.5M12 17.5V19M5 12h1.5M17.5 12H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

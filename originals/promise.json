@@ -1,0 +1,11 @@
+{
+  "name": "promise",
+  "category": "development",
+  "tags": ["promise", "async", "envelope", "pending", "deferred", "future"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M2.5 6 L11 12 L19.5 6\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"16.5\" r=\"3\"/><path class=\"p3\" d=\"M17.5 15 V16.5 H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 800, "origin": "17.5px 16.5px" }
+  ]
+}

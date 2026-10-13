@@ -1,0 +1,11 @@
+{
+  "name": "windsurf-sail",
+  "category": "sport",
+  "tags": ["windsurf", "sail", "surf", "wind", "board", "water"],
+  "svg": "<path class=\"d p2\" d=\"M10 4 L17 17 H10 Z\"/><path class=\"p1\" d=\"M10 3 V21\"/><path class=\"p3\" d=\"M7 17 H19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "10px 17px" }
+  ]
+}

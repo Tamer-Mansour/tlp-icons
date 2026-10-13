@@ -1,0 +1,11 @@
+{
+  "name": "trout",
+  "category": "nature",
+  "tags": ["fish", "spotted", "river", "stream", "swim"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 C6 8 11 7.5 15 9.5 L20 6 L19 12 L20 18 L15 14.5 C11 16.5 6 16 3 12 Z\"/><path class=\"p2\" d=\"M7 10.5 L8 10.5 M10 13.5 L11 13.5 M13 11 L14 11\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"11.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

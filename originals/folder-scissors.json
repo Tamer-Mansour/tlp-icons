@@ -1,0 +1,10 @@
+{
+  "name": "folder-scissors",
+  "category": "files",
+  "tags": ["folder", "scissors", "cut", "trim", "clip", "split"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M9.5 11.5l4 4M14.5 11.5l-4 4\"/><circle class=\"p2\" cx=\"9\" cy=\"18.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"15\" cy=\"18.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 700, "delay": 500 }
+  ]
+}

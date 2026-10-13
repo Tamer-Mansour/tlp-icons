@@ -1,0 +1,11 @@
+{
+  "name": "improper-fraction",
+  "category": "math",
+  "tags": ["improper", "fraction", "numerator", "larger", "math", "ratio"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><circle class=\"f p2\" cx=\"6\" cy=\"7\" r=\"1.4\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1.4\"/><circle class=\"f p2\" cx=\"18\" cy=\"7\" r=\"1.4\"/><circle class=\"f p3\" cx=\"9\" cy=\"17\" r=\"1.4\"/><circle class=\"f p3\" cx=\"15\" cy=\"17\" r=\"1.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

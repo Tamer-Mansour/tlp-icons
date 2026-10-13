@@ -1,0 +1,10 @@
+{
+  "name": "thermal-updraft",
+  "category": "weather",
+  "tags": ["thermal", "updraft", "rising", "air", "glide", "wind"],
+  "svg": "<path class=\"p1\" d=\"M5 8a3 3 0 0 1 6-1 3 3 0 0 1 5 3\"/><path class=\"p2\" d=\"M9 21V13M6.5 15.5L9 13l2.5 2.5M15 21v-8M12.5 15.5L15 13l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 700 }
+  ]
+}

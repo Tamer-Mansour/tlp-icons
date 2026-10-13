@@ -1,0 +1,12 @@
+{
+  "name": "kite-wind",
+  "category": "science",
+  "tags": ["kite", "wind", "tail", "string", "bow", "flying"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 L17 7.5 L12 14 L7 7.5 Z\"/><path class=\"p2\" d=\"M7 7.5 H17\"/><path class=\"p3\" d=\"M12 14 L9 17 L13 19.5 L10 22\"/><path class=\"p4\" d=\"M16 16.5 H21 M17.5 20 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000 }
+  ]
+}

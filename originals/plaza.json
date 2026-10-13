@@ -1,0 +1,11 @@
+{
+  "name": "plaza",
+  "category": "buildings",
+  "tags": ["plaza", "square", "open", "benches", "fountain", "public"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M7 6h3M14 6h3M7 18h3M14 18h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

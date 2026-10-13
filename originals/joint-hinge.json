@@ -1,0 +1,12 @@
+{
+  "name": "joint-hinge",
+  "category": "science",
+  "tags": ["joint", "hinge", "pivot", "bone", "anatomy", "knee"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"5\" r=\"2.5\"/><circle class=\"p2\" cx=\"19\" cy=\"19\" r=\"2.5\"/><path class=\"p3\" d=\"M7 7L17 17\"/><circle class=\"d p4\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

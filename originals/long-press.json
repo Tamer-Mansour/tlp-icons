@@ -1,0 +1,10 @@
+{
+  "name": "long-press",
+  "category": "interface",
+  "tags": ["long", "press", "hold", "gesture", "progress"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M12 3a9 9 0 1 1-9 9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 600, "delay": 1300 }
+  ]
+}

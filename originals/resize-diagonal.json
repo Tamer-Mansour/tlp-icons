@@ -1,0 +1,10 @@
+{
+  "name": "resize-diagonal",
+  "category": "arrows",
+  "tags": ["resize", "diagonal", "scale", "square", "adjust", "drag"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 16L16 8M8 12v4h4M16 12V8h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 700 }
+  ]
+}

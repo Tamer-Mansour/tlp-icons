@@ -1,0 +1,11 @@
+{
+  "name": "bud",
+  "category": "nature",
+  "tags": ["plant", "bud", "sprout", "growth", "spring"],
+  "svg": "<path class=\"p1\" d=\"M12 22V13\"/><path class=\"d p2\" d=\"M12 4C15 7 15 11 12 13C9 11 9 7 12 4Z\"/><path class=\"d p3\" d=\"M12 18Q7 18 6 13Q11 13 12 18ZM12 18Q17 18 18 13Q13 13 12 18Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100 }
+  ]
+}

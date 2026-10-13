@@ -1,0 +1,10 @@
+{
+  "name": "citadel",
+  "category": "buildings",
+  "tags": ["citadel", "fortress", "castle", "battlements", "tower", "walls"],
+  "svg": "<path class=\"p1\" d=\"M3 21V12h2V9h3v3h3V9h3v3h3V9h2v12z\"/><path class=\"d p2\" d=\"M9 9V3h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "maker-space",
+  "category": "buildings",
+  "tags": ["maker", "space", "hammer", "gear", "workbench", "workshop"],
+  "svg": "<path class=\"p1\" d=\"M12.5 8 L6 14.5\"/><rect class=\"d p2\" x=\"10\" y=\"4\" width=\"5\" height=\"4\"/><path class=\"p3\" d=\"M3 16 H21 M6 16 V21 M18 16 V21\"/><circle class=\"p4\" cx=\"18\" cy=\"11\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 1300 }
+  ]
+}

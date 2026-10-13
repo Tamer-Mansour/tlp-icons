@@ -1,0 +1,11 @@
+{
+  "name": "waffle-cone",
+  "category": "food",
+  "tags": ["ice cream", "cone", "dessert", "scoop", "sweet"],
+  "svg": "<path class=\"d p1\" d=\"M7 11h10L12 21z\"/><path class=\"d p2\" d=\"M6 11a6 5 0 0 1 12 0z\"/><path class=\"p3\" d=\"M9 14h6M10.5 17.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "telephone-pole",
+  "category": "connectivity",
+  "tags": ["telephone", "pole", "wires", "utility", "line", "phone"],
+  "svg": "<path class=\"p1\" d=\"M12 3V21M9 21H15\"/><path class=\"p2\" d=\"M7 6H17\"/><path class=\"p3\" d=\"M7 6C8 10 9 11 12 11C15 11 16 10 17 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 700 }
+  ]
+}

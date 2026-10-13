@@ -1,0 +1,10 @@
+{
+  "name": "card-deck",
+  "category": "sport",
+  "tags": ["playing", "cards", "deck", "game", "poker", "stack"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"12\" height=\"15\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"6\" width=\"12\" height=\"15\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 900 }
+  ]
+}

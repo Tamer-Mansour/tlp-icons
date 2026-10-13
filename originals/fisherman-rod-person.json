@@ -1,0 +1,11 @@
+{
+  "name": "fisherman-rod-person",
+  "category": "people",
+  "tags": ["fisherman", "fishing", "rod", "hook", "angler"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M3 21a6 6 0 0 1 9-5.2\"/><path class=\"p2\" d=\"M13 15l8-9\"/><path class=\"p3\" d=\"M21 6v7a1.2 1.2 0 0 1-2.4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1200 }
+  ]
+}

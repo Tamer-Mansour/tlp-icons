@@ -1,0 +1,10 @@
+{
+  "name": "wavelength-arrow",
+  "category": "science",
+  "tags": ["physics", "wavelength", "wave", "cycle", "distance", "measure"],
+  "svg": "<path class=\"p1\" d=\"M3 10c2.5-4 5.5-4 8 0s5.5 4 8 0\"/><path class=\"p2\" d=\"M3 20h16M5 18l-2 2 2 2M17 18l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 900 }
+  ]
+}

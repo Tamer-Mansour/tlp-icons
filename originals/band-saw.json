@@ -1,0 +1,11 @@
+{
+  "name": "band-saw",
+  "category": "tools",
+  "tags": ["band", "saw", "loop", "blade", "wheels", "curve"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"6\" r=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"18\" r=\"3\"/><path class=\"p3\" d=\"M9 6v12M15 6v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 900 }
+  ]
+}

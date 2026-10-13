@@ -1,0 +1,11 @@
+{
+  "name": "sign-key",
+  "category": "security",
+  "tags": ["sign", "key", "pen", "signature", "authorize"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"4\"/><rect class=\"d p2\" x=\"11\" y=\"10.5\" width=\"10\" height=\"3\"/><path class=\"p3\" d=\"M16 13.5v3M19.5 13.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

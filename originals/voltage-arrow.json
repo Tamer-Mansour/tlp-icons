@@ -1,0 +1,11 @@
+{
+  "name": "voltage-arrow",
+  "category": "science",
+  "tags": ["electric", "voltage", "battery", "plus", "arrow", "potential"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"8\" width=\"14\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 12h4M7.5 10v4\"/><path class=\"p3\" d=\"M20 14V4M18 6l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "network-time",
+  "category": "time",
+  "tags": ["network", "time", "clock", "nodes", "server", "connected"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"6\"/><path class=\"p1\" d=\"M8 9v3l2 1\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 600 }
+  ]
+}

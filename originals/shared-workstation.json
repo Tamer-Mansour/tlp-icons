@@ -1,0 +1,11 @@
+{
+  "name": "shared-workstation",
+  "category": "people",
+  "tags": ["shared", "workstation", "desk", "monitor", "hot", "desking"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"4\" width=\"8\" height=\"7\" rx=\"1\"/><circle class=\"p2\" cx=\"7\" cy=\"7.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"7.5\" r=\"1.5\"/><line class=\"p3\" x1=\"2\" y1=\"15\" x2=\"22\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "nod", "dur": 700, "delay": 1300 }
+  ]
+}

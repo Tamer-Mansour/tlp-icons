@@ -1,0 +1,11 @@
+{
+  "name": "text-replace",
+  "category": "text",
+  "tags": ["text", "replace", "swap", "substitute", "edit", "change"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H12 M3 16 H12\"/><path class=\"p2\" d=\"M14.5 8 H21 M18.5 5.5 L21 8 L18.5 10.5\"/><path class=\"p3\" d=\"M21 16 H14.5 M17.5 13.5 L14.5 16 L17.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "friction-block",
+  "category": "science",
+  "tags": ["friction", "block", "physics", "slide", "rub", "motion"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M2 14H22\"/><path class=\"p3\" d=\"M5 18L7 20L9 18L11 20L13 18L15 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

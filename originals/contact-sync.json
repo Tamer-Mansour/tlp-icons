@@ -1,0 +1,12 @@
+{
+  "name": "contact-sync",
+  "category": "people",
+  "tags": ["contact", "sync", "cards", "arrows", "refresh", "address"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"10\" rx=\"1.5\"/><rect class=\"d p2\" x=\"14\" y=\"11\" width=\"7\" height=\"10\" rx=\"1.5\"/><path class=\"p3\" d=\"M10.5 8h3.5M13 6l1.5 2-1.5 2\"/><path class=\"p4\" d=\"M13.5 16H10M11 14l-1.5 2 1.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "nudgeBack", "dur": 700, "delay": 1400 }
+  ]
+}

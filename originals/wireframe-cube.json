@@ -1,0 +1,10 @@
+{
+  "name": "wireframe-cube",
+  "category": "shapes",
+  "tags": ["wireframe", "cube", "3d", "outline", "box"],
+  "svg": "<path class=\"p1\" d=\"M4 9 H15 V20 H4 Z\"/><path class=\"p2\" d=\"M4 9 L9 4 H20 V15 L15 20 M15 9 L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

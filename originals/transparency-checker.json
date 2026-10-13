@@ -1,0 +1,10 @@
+{
+  "name": "transparency-checker",
+  "category": "design",
+  "tags": ["transparency", "checkerboard", "alpha", "opacity", "grid", "layer"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"4\" y=\"4\" width=\"8\" height=\"8\"/><rect class=\"d p2\" x=\"12\" y=\"12\" width=\"8\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

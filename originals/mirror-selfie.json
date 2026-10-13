@@ -1,0 +1,11 @@
+{
+  "name": "mirror-selfie",
+  "category": "photography",
+  "tags": ["mirror selfie", "phone", "reflection", "selfie", "mirror", "camera"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"7\" height=\"16\" rx=\"1.5\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><rect class=\"d p2\" x=\"15\" y=\"4\" width=\"7\" height=\"16\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flipY", "dur": 800, "delay": 1000 }
+  ]
+}

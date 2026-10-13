@@ -1,0 +1,11 @@
+{
+  "name": "bottle-opener",
+  "category": "food",
+  "tags": ["bottle", "opener", "beer", "cap", "open"],
+  "svg": "<circle class=\"d p3\" cx=\"13\" cy=\"14\" r=\"3\"/><path class=\"p1\" d=\"M4 20 L12 12\"/><path class=\"p2\" d=\"M12 12 Q14 8 18 7 Q21 6.5 21 9\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

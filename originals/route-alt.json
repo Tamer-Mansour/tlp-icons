@@ -1,0 +1,11 @@
+{
+  "name": "route-alt",
+  "category": "arrows",
+  "tags": ["route", "alternate", "path", "map", "options"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"18\" r=\"2\"/><path class=\"p2\" d=\"M6 17 C10 15 10 6 16 5 M6 19 C10 19 12 18 16 18\"/><circle class=\"p3\" cx=\"18\" cy=\"5\" r=\"2\"/><circle class=\"p3\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

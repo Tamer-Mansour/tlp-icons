@@ -1,0 +1,11 @@
+{
+  "name": "copy-text",
+  "category": "text",
+  "tags": ["copy", "duplicate", "sheet", "text", "clipboard"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"12\" height=\"12\" rx=\"2\"/><rect class=\"d p2\" x=\"4\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M7.5 13.5h5M7.5 17h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

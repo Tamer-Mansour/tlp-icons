@@ -1,0 +1,11 @@
+{
+  "name": "eeprom-chip",
+  "category": "devices",
+  "tags": ["eeprom", "chip", "memory", "storage", "circuit", "rom"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M7 9.5h10M7 14.5h10M10 8v8M14 8v8\"/><path class=\"p3\" d=\"M8 2v3M16 2v3M8 19v3M16 19v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

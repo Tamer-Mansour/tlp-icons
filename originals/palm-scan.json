@@ -1,0 +1,11 @@
+{
+  "name": "palm-scan",
+  "category": "security",
+  "tags": ["palm", "scan", "hand", "biometric", "identity", "authenticate"],
+  "svg": "<rect class=\"d p2\" x=\"6.5\" y=\"12\" width=\"11\" height=\"9.5\" rx=\"3\"/><path class=\"p3\" d=\"M8.5 12V7M12 12V6M15.5 12V7M6.5 16L3.5 13.5\"/><line class=\"p1\" x1=\"7\" y1=\"2\" x2=\"17\" y2=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p1", "anim": "scanX", "dur": 1000, "delay": 1200 }
+  ]
+}

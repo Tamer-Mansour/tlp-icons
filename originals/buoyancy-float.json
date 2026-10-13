@@ -1,0 +1,11 @@
+{
+  "name": "buoyancy-float",
+  "category": "science",
+  "tags": ["buoyancy", "float", "water", "upthrust", "archimedes", "physics"],
+  "svg": "<path class=\"p1\" d=\"M2 14h20\"/><rect class=\"d p2\" x=\"8\" y=\"12\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M12 9V3M9.5 5.5L12 3l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1000 }
+  ]
+}

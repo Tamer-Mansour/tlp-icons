@@ -1,0 +1,11 @@
+{
+  "name": "masking-tape",
+  "category": "tools",
+  "tags": ["masking", "tape", "roll", "painting", "edge", "adhesive"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"11\" r=\"6\"/><circle class=\"p2\" cx=\"10\" cy=\"11\" r=\"2\"/><path class=\"p3\" d=\"M16 11 H21 M21 3 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

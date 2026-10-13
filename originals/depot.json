@@ -1,0 +1,11 @@
+{
+  "name": "depot",
+  "category": "buildings",
+  "tags": ["depot", "warehouse", "loading dock", "storage", "freight", "shipping"],
+  "svg": "<path class=\"p1\" d=\"M3 20V10h13v10\"/><path class=\"p2\" d=\"M3 13.5h13\"/><path class=\"d p3\" d=\"M17 14h5v6h-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 1000 }
+  ]
+}

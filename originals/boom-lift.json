@@ -1,0 +1,11 @@
+{
+  "name": "boom-lift",
+  "category": "tools",
+  "tags": ["boom", "lift", "platform", "aerial", "articulated", "work"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M9 7L14 15L19 9\"/><path class=\"p3\" d=\"M14 15V20M5 21H19\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "bob", "dur": 800, "delay": 800 }
+  ]
+}

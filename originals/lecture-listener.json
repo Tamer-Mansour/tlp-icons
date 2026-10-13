@@ -1,0 +1,11 @@
+{
+  "name": "lecture-listener",
+  "category": "people",
+  "tags": ["lecture", "listener", "presentation", "chart", "seminar"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"11\" height=\"9\" rx=\"1\"/><path class=\"p1\" d=\"M7.5 12V16M4.5 16H10.5\"/><path class=\"p2\" d=\"M4.5 10.5V8M7.5 10.5V6M10.5 10.5V7.5\"/><circle class=\"p3\" cx=\"18\" cy=\"10\" r=\"2\"/><path class=\"p3\" d=\"M15 21V17Q15 14 18 14Q21 14 21 17V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 800, "origin": "bottom" },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 1500, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "processor-core",
+  "category": "devices",
+  "tags": ["processor", "cpu", "chip", "core", "computing", "hardware"],
+  "svg": "<rect class=\"p1\" x=\"4.5\" y=\"4.5\" width=\"15\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M9 2V4.5M15 2V4.5M9 19.5V22M15 19.5V22M2 9H4.5M2 15H4.5M19.5 9H22M19.5 15H22\"/><rect class=\"d p3\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><circle class=\"f p4\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "blip", "dur": 800, "delay": 1300 }
+  ]
+}

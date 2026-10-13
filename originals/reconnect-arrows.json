@@ -1,0 +1,11 @@
+{
+  "name": "reconnect-arrows",
+  "category": "connectivity",
+  "tags": ["reconnect", "arrows", "sync", "retry", "plug", "connection"],
+  "svg": "<path class=\"p1\" d=\"M5 9.5A7 7 0 0 1 17.5 7M14 4.5h3.5v3.5\"/><path class=\"p2\" d=\"M19 14.5A7 7 0 0 1 6.5 17M10 19.5H6.5v-3.5\"/><rect class=\"d p3\" x=\"9.5\" y=\"10\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "jelly", "dur": 700, "delay": 1000 }
+  ]
+}

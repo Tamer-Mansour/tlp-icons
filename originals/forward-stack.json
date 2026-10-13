@@ -1,0 +1,11 @@
+{
+  "name": "forward-stack",
+  "category": "arrows",
+  "tags": ["forward", "stack", "next", "layers", "send", "pages"],
+  "svg": "<path class=\"p1\" d=\"M7 8V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-1\"/><rect class=\"d p2\" x=\"4\" y=\"8\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M8 14h7M12 11l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

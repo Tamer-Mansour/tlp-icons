@@ -1,0 +1,10 @@
+{
+  "name": "cornhole-bag",
+  "category": "sport",
+  "tags": ["cornhole", "bag", "toss", "board", "game", "hole"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

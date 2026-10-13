@@ -1,0 +1,11 @@
+{
+  "name": "chat-reaction",
+  "category": "communication",
+  "tags": ["reaction", "chat", "smile", "emoji", "bubble", "response"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p3\" d=\"M10.5 9.5a2 2 0 0 0 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

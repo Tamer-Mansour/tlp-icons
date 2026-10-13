@@ -1,0 +1,10 @@
+{
+  "name": "axes-cross",
+  "category": "charts",
+  "tags": ["axes", "chart", "graph", "coordinates", "plot", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 12H21M18 9l3 3-3 3\"/><path class=\"p2\" d=\"M12 21V3M9 6l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ancient-column",
+  "category": "buildings",
+  "tags": ["column", "pillar", "capital", "greek", "architecture"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14v3H5zM5 18h14v3H5z\"/><path class=\"p2\" d=\"M7 6v12h10V6M10 6v12M14 6v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 500 }
+  ]
+}

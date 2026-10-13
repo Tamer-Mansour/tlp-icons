@@ -1,0 +1,11 @@
+{
+  "name": "container-lock",
+  "category": "security",
+  "tags": ["container", "lock", "shipping", "storage", "secure", "cargo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 11V9A3 3 0 0 1 15 9V11\"/><rect class=\"d p3\" x=\"7\" y=\"11\" width=\"10\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

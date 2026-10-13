@@ -1,0 +1,10 @@
+{
+  "name": "pitching-mound",
+  "category": "sport",
+  "tags": ["baseball", "pitch", "mound", "pitcher", "field"],
+  "svg": "<path class=\"d p1\" d=\"M2 19Q12 5 22 19z\"/><path class=\"p2\" d=\"M10 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

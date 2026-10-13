@@ -1,0 +1,10 @@
+{
+  "name": "text-to-path",
+  "category": "design",
+  "tags": ["text", "path", "curve", "letter", "warp"],
+  "svg": "<path class=\"p1\" d=\"M5 16L9 6L13 16M6.7 12.5H11.3\"/><path class=\"p2\" d=\"M4 20Q12 15 20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 800 }
+  ]
+}

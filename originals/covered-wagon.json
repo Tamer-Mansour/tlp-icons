@@ -1,0 +1,11 @@
+{
+  "name": "covered-wagon",
+  "category": "vehicles",
+  "tags": ["covered", "wagon", "pioneer", "canvas", "frontier", "cart", "trail"],
+  "svg": "<path class=\"d p1\" d=\"M5 13V9.5a7 7 0 0 1 14 0V13z\"/><circle class=\"p2\" cx=\"7\" cy=\"17.5\" r=\"3\"/><circle class=\"p2\" cx=\"17\" cy=\"17.5\" r=\"3\"/><path class=\"p3\" d=\"M7 14.5v6M4 17.5h6M17 14.5v6M14 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "roll", "dur": 1000, "delay": 1000 }
+  ]
+}

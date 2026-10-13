@@ -1,0 +1,11 @@
+{
+  "name": "contacts-merge",
+  "category": "people",
+  "tags": ["contacts", "merge", "combine", "duplicates", "cards", "join"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"d p1\" x=\"2.5\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M9.5 6.5H12l2.5 3M9.5 17.5H12l2.5-3\"/><rect class=\"d p3\" x=\"14.5\" y=\"8.5\" width=\"7\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

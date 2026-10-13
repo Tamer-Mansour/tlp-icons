@@ -1,0 +1,11 @@
+{
+  "name": "proofread",
+  "category": "text",
+  "tags": ["proofread", "review", "edit", "pencil", "correct", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 18h18\"/><ellipse class=\"p2\" cx=\"6\" cy=\"10\" rx=\"3.5\" ry=\"3\"/><path class=\"p3\" d=\"M16 3l4 4-8 8-3 1 1-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pilot-wings",
+  "category": "vehicles",
+  "tags": ["pilot", "wings", "badge", "aviation", "flight", "captain"],
+  "svg": "<path class=\"p1\" d=\"M3 13.5Q5 9 7.5 9.5\"/><path class=\"p1\" d=\"M21 13.5Q19 9 16.5 9.5\"/><path class=\"d p2\" d=\"M12 8.5L14.5 9.5V12.5Q14.5 14.5 12 16Q9.5 14.5 9.5 12.5V9.5Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "flutter", "dur": 1200, "delay": 500 }
+  ]
+}

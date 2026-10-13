@@ -1,0 +1,11 @@
+{
+  "name": "hangar",
+  "category": "buildings",
+  "tags": ["hangar", "aircraft", "airfield", "shelter", "dome", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M3 14a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M3 14v6h18v-6\"/><path class=\"p3\" d=\"M9 20v-3h6v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

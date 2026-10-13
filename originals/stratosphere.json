@@ -1,0 +1,10 @@
+{
+  "name": "stratosphere",
+  "category": "weather",
+  "tags": ["stratosphere", "layer", "atmosphere", "cloud", "earth", "sky"],
+  "svg": "<path class=\"p1\" d=\"M2 19a10 10 0 0 1 20 0\"/><path class=\"p2\" d=\"M6 13.5h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 600 }
+  ]
+}

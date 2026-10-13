@@ -1,0 +1,11 @@
+{
+  "name": "game-console",
+  "category": "sport",
+  "tags": ["console", "game", "gaming", "device", "video", "player"],
+  "svg": "<path class=\"d p1\" d=\"M3 8Q3 6 5 6H19Q21 6 21 8V18Q21 20 19 20H5Q3 20 3 18Z\"/><line class=\"p2\" x1=\"7\" y1=\"13\" x2=\"13\" y2=\"13\"/><circle class=\"f p3\" cx=\"17\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "life-vest",
+  "category": "sport",
+  "tags": ["vest", "safety", "float", "water", "lifejacket"],
+  "svg": "<path class=\"d p1\" d=\"M7 4H10Q12 7 14 4H17V20H7Z\"/><path class=\"p2\" d=\"M12 7V20\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

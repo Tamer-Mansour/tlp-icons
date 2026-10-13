@@ -1,0 +1,12 @@
+{
+  "name": "rocket-launch",
+  "category": "science",
+  "tags": ["rocket", "launch", "space", "flame", "spacecraft", "liftoff"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c3 2.5 4 6 4 9v3H8v-3c0-3 1-6.5 4-9z\"/><path class=\"p2\" d=\"M8 12l-2.5 2.5V17H8M16 12l2.5 2.5V17H16\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1.2\"/><path class=\"p4\" d=\"M10 18.5L12 22l2-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "flicker", "dur": 1000, "delay": 1100 }
+  ]
+}

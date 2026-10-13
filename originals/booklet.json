@@ -1,0 +1,11 @@
+{
+  "name": "booklet",
+  "category": "files",
+  "tags": ["booklet", "pamphlet", "stapled", "brochure", "pages", "document"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 2.5v19\"/><path class=\"p3\" d=\"M12.5 10.5h3.5M12.5 14h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400, "origin": "top" },
+    { "part": "p3", "anim": "flip", "dur": 600, "delay": 1000 }
+  ]
+}

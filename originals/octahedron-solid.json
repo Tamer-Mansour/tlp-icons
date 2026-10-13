@@ -1,0 +1,10 @@
+{
+  "name": "octahedron-solid",
+  "category": "science",
+  "tags": ["octahedron", "solid", "diamond", "polyhedron", "geometry", "shape", "pyramid"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 21,12 12,22 3,12\"/><path class=\"p2\" d=\"M3 12l9 3 9-3M12 15v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

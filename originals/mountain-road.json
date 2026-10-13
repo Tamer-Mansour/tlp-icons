@@ -1,0 +1,10 @@
+{
+  "name": "mountain-road",
+  "category": "vehicles",
+  "tags": ["mountain road", "switchback", "winding", "hill", "climb", "peak"],
+  "svg": "<path class=\"d p1\" d=\"M2 20L8 10l4 6 4-6 6 10z\"/><polyline class=\"p2\" points=\"7 20 12 17 8 14 12 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

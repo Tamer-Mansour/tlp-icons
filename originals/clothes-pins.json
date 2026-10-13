@@ -1,0 +1,11 @@
+{
+  "name": "clothes-pins",
+  "category": "home",
+  "tags": ["clothes pin", "laundry", "line", "clip", "washing", "clothesline"],
+  "svg": "<path class=\"p1\" d=\"M3 5H21\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"3\" height=\"7\" rx=\"1\"/><rect class=\"d p3\" x=\"15\" y=\"7\" width=\"3\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "top" }
+  ]
+}

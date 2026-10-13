@@ -1,0 +1,11 @@
+{
+  "name": "hypothesis-lightbulb",
+  "category": "science",
+  "tags": ["idea", "hypothesis", "question", "light bulb", "thinking", "research"],
+  "svg": "<path class=\"d p1\" d=\"M9 15.5a6 6 0 1 1 6 0c-.8.6-1 1.5-1 2.5h-4c0-1-.2-1.9-1-2.5Z\"/><path class=\"p2\" d=\"M9.5 21h5\"/><path class=\"p3\" d=\"M10.5 9.5a1.5 1.5 0 1 1 2.5 1.2c-.6.4-1 .8-1 1.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

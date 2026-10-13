@@ -1,0 +1,10 @@
+{
+  "name": "barrier-blocked",
+  "category": "security",
+  "tags": ["barrier", "blocked", "closed", "denied", "no"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 12h9M7.5 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 500 }
+  ]
+}

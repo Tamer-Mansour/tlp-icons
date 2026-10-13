@@ -1,0 +1,11 @@
+{
+  "name": "photocopier",
+  "category": "devices",
+  "tags": ["copier", "photocopier", "copy", "printer", "office", "paper"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M9 9V4h6v5\"/><path class=\"p3\" d=\"M8 16v5h8v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 900 }
+  ]
+}

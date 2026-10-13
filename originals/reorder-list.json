@@ -1,0 +1,10 @@
+{
+  "name": "reorder-list",
+  "category": "layout",
+  "tags": ["reorder", "list", "sort", "drag", "arrange", "rows"],
+  "svg": "<path class=\"p1\" d=\"M10 6H20M10 12H20M10 18H20\"/><path class=\"p2\" d=\"M5 5V19M3 8L5 5L7 8M3 16L5 19L7 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

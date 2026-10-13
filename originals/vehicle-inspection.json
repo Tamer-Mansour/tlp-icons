@@ -1,0 +1,11 @@
+{
+  "name": "vehicle-inspection",
+  "category": "vehicles",
+  "tags": ["inspection", "car", "check", "vehicle", "approved"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 V11 L5.5 7 H18.5 L21 11 V15 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"17.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"17.5\" r=\"1.5\"/><path class=\"p3\" d=\"M8.5 11 L11 13.5 L15.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

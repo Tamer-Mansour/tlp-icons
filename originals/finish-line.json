@@ -1,0 +1,10 @@
+{
+  "name": "finish-line",
+  "category": "sport",
+  "tags": ["finish", "line", "track", "race", "sport", "tape"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18M3 17h18\"/><path class=\"p2\" d=\"M10 7v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

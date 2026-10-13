@@ -1,0 +1,11 @@
+{
+  "name": "crossword-puzzle",
+  "category": "sport",
+  "tags": ["crossword", "puzzle", "grid", "words", "game", "letters"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 3V21M3 9H21\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"5.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

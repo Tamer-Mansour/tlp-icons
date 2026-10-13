@@ -1,0 +1,10 @@
+{
+  "name": "aqueduct",
+  "category": "buildings",
+  "tags": ["aqueduct", "arches", "channel", "water", "bridge", "roman"],
+  "svg": "<path class=\"p1\" d=\"M3 8h18\"/><path class=\"p2\" d=\"M3 21v-7a4 4 0 0 1 8 0v7M13 21v-7a4 4 0 0 1 8 0v7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 700 }
+  ]
+}

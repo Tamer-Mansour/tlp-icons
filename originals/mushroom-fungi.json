@@ -1,0 +1,11 @@
+{
+  "name": "mushroom-fungi",
+  "category": "science",
+  "tags": ["mushroom", "fungi", "fungus", "spores", "biology"],
+  "svg": "<path class=\"d p1\" d=\"M4 12A8 8 0 0 1 20 12Z\"/><path class=\"p2\" d=\"M10 12V19H14V12\"/><circle class=\"f p3\" cx=\"9\" cy=\"8.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

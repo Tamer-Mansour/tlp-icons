@@ -1,0 +1,11 @@
+{
+  "name": "text-tracking",
+  "category": "text",
+  "tags": ["tracking", "spacing", "letters", "text", "expand", "kerning", "width"],
+  "svg": "<path class=\"p1\" d=\"M5 8v8M12 8v8M19 8v8\"/><path class=\"p2\" d=\"M9 4H3.5M5.5 2 3.5 4 5.5 6\"/><path class=\"p3\" d=\"M15 4h5.5M18.5 2l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

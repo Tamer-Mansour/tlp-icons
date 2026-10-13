@@ -1,0 +1,10 @@
+{
+  "name": "pull-down",
+  "category": "arrows",
+  "tags": ["pull", "down", "download", "drag", "extract"],
+  "svg": "<path class=\"p1\" d=\"M3 4 H21\"/><path class=\"p2\" d=\"M12 8 V19 M8 15 L12 19 L16 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 700 }
+  ]
+}

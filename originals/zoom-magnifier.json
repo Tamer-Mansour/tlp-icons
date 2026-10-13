@@ -1,0 +1,11 @@
+{
+  "name": "zoom-magnifier",
+  "category": "design",
+  "tags": ["zoom", "magnifier", "search", "lens", "enlarge"],
+  "svg": "<circle class=\"d p1\" cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path class=\"p2\" d=\"M15.5 15.5L21 21\"/><path class=\"p3\" d=\"M10.5 7.5v6M7.5 10.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

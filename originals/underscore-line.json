@@ -1,0 +1,11 @@
+{
+  "name": "underscore-line",
+  "category": "text",
+  "tags": ["underscore", "underline", "bracket", "emphasis", "text", "line", "mark"],
+  "svg": "<path class=\"p1\" d=\"M5.5 16L12 5.5l6.5 10.5\"/><path class=\"p2\" d=\"M8.5 11.5h7\"/><path class=\"p3\" d=\"M4 20.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

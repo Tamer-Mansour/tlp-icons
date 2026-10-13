@@ -1,0 +1,11 @@
+{
+  "name": "timeout-alert",
+  "category": "notifications",
+  "tags": ["timeout", "hourglass", "wait", "expired", "alert"],
+  "svg": "<path class=\"p1\" d=\"M6 3h10M6 21h10M7 3v3.5l4 4 4-4V3M7 21v-3.5l4-4 4 4V21\"/><path class=\"p2\" d=\"M19.5 9v5\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "flip", "dur": 900, "delay": 0, "origin": "11px 12px" },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1300 }
+  ]
+}

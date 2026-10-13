@@ -1,0 +1,12 @@
+{
+  "name": "bee-pollination",
+  "category": "science",
+  "tags": ["bee", "pollination", "flower", "insect", "pollen"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"6\" ry=\"4.5\"/><path class=\"p2\" d=\"M9 9.5V16.5M13 9.5V16.5\"/><path class=\"p3\" d=\"M10 8.5Q9 3 14 3Q13 8 10 8.5Z\"/><circle class=\"f p4\" cx=\"19\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 700, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

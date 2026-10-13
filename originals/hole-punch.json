@@ -1,0 +1,11 @@
+{
+  "name": "hole-punch",
+  "category": "files",
+  "tags": ["punch", "holes", "paper", "office", "binder"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"14\" width=\"18\" height=\"6\" rx=\"1\"/><circle class=\"p2\" cx=\"8\" cy=\"17\" r=\"1.5\"/><circle class=\"p2\" cx=\"16\" cy=\"17\" r=\"1.5\"/><rect class=\"p3\" x=\"8\" y=\"4\" width=\"8\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

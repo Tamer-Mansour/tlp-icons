@@ -1,0 +1,10 @@
+{
+  "name": "equalizer-bars",
+  "category": "charts",
+  "tags": ["equalizer", "bars", "audio", "music", "levels", "sound"],
+  "svg": "<path class=\"p1\" d=\"M4 18v-5M20 18v-4\"/><path class=\"p2\" d=\"M8 18V9M12 18v-8M16 18V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "origin": "bottom", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "equalize", "origin": "bottom", "dur": 1200, "delay": 800 }
+  ]
+}

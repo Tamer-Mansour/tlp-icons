@@ -1,0 +1,11 @@
+{
+  "name": "desk-lamp",
+  "category": "devices",
+  "tags": ["lamp", "desk", "light", "shade", "study", "arm"],
+  "svg": "<path class=\"p1\" d=\"M6 21H14\"/><path class=\"p2\" d=\"M10 21L13 12\"/><polygon class=\"d p3\" points=\"9,8 15,4 19,9 13,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "13px 12px" }
+  ]
+}

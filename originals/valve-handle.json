@@ -1,0 +1,11 @@
+{
+  "name": "valve-handle",
+  "category": "tools",
+  "tags": ["valve", "handle", "wheel", "pipe", "shutoff"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"12\" y2=\"17\"/><rect class=\"p3\" x=\"7\" y=\"17\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

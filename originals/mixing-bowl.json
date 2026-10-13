@@ -1,0 +1,10 @@
+{
+  "name": "mixing-bowl",
+  "category": "home",
+  "tags": ["bowl", "mixing", "kitchen", "baking", "dish", "cooking"],
+  "svg": "<path class=\"d p1\" d=\"M3 10H21A9 8 0 0 1 3 10Z\"/><path class=\"p2\" d=\"M2 8H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

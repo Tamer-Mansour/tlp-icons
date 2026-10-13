@@ -1,0 +1,12 @@
+{
+  "name": "pet-profile",
+  "category": "people",
+  "tags": ["pet", "profile", "paw", "animal", "owner", "person"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2.5 21v-2.5a5.5 5.5 0 0 1 11 0V21\"/><ellipse class=\"d p3\" cx=\"18\" cy=\"17\" rx=\"3\" ry=\"2.5\"/><circle class=\"f p4\" cx=\"15\" cy=\"12\" r=\"1.2\"/><circle class=\"f p4\" cx=\"18\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p4\" cx=\"21\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

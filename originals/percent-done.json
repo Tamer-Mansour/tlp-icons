@@ -1,0 +1,10 @@
+{
+  "name": "percent-done",
+  "category": "notifications",
+  "tags": ["percent", "progress", "done", "complete", "arc", "percentage"],
+  "svg": "<path class=\"p1\" d=\"M12 3a9 9 0 1 1-9 9\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"8.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"15.5\" r=\"1.2\"/><path class=\"p2\" d=\"M15.5 8.5l-7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

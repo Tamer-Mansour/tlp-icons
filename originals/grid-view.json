@@ -1,0 +1,10 @@
+{
+  "name": "grid-view",
+  "category": "interface",
+  "tags": ["grid", "view", "squares", "layout", "tiles", "gallery"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"d p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 }
+  ]
+}

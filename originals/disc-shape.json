@@ -1,0 +1,10 @@
+{
+  "name": "disc-shape",
+  "category": "shapes",
+  "tags": ["disc", "flat", "ellipse", "hole", "round"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"2\" ry=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tumble", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mixing-board",
+  "category": "media",
+  "tags": ["mixing", "board", "faders", "audio", "console", "sound"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"4\" x2=\"5\" y2=\"20\"/><line class=\"p1\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><line class=\"p1\" x1=\"19\" y1=\"4\" x2=\"19\" y2=\"20\"/><rect class=\"p2\" x=\"3\" y=\"7\" width=\"4\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"12\" width=\"4\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"17\" y=\"9\" width=\"4\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

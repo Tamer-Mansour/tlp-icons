@@ -1,0 +1,10 @@
+{
+  "name": "lens-flare",
+  "category": "design",
+  "tags": ["lens", "flare", "light", "camera", "glare", "sun"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M2 19L22 5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "glow", "dur": 1000, "delay": 800 }
+  ]
+}

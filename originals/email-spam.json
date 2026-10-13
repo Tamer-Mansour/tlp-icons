@@ -1,0 +1,11 @@
+{
+  "name": "email-spam",
+  "category": "communication",
+  "tags": ["email", "spam", "junk", "warning", "alert", "scam", "mail"],
+  "svg": "<path class=\"d p1\" d=\"M2 8h11v10H2z\"/><path class=\"p2\" d=\"M2 8l5.5 4.5L13 8\"/><path class=\"p3\" d=\"M18 2.5l3.5 6h-7zM18 5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 900 }
+  ]
+}

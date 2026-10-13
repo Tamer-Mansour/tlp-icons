@@ -1,0 +1,11 @@
+{
+  "name": "mail-link",
+  "category": "communication",
+  "tags": ["mail", "link", "envelope", "chain", "url", "email"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M3 7l8 5 8-5\"/><path class=\"p3\" d=\"M15 16.5a2 2 0 0 0 3 0l2-2a2 2 0 0 0-3-3l-.5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 800 }
+  ]
+}

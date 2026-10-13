@@ -1,0 +1,11 @@
+{
+  "name": "user-target",
+  "category": "people",
+  "tags": ["user", "target", "goal", "bullseye", "focus", "person", "aim"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h5a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><circle class=\"p2\" cx=\"19\" cy=\"15.5\" r=\"3\"/><circle class=\"f p3\" cx=\"19\" cy=\"15.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cable-crimper",
+  "category": "tools",
+  "tags": ["cable", "crimper", "connector", "jaws", "electrical", "crimp"],
+  "svg": "<path class=\"p1\" d=\"M4 4 L11 11 M20 4 L13 11\"/><rect class=\"d p2\" x=\"9\" y=\"11\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M12 17 V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1200 }
+  ]
+}

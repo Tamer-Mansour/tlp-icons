@@ -1,0 +1,11 @@
+{
+  "name": "pump-house",
+  "category": "buildings",
+  "tags": ["pump", "house", "pipe", "gauge", "utility", "water"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"9\" width=\"12\" height=\"12\"/><path class=\"p2\" d=\"M16 15h4v6\"/><circle class=\"p3\" cx=\"10\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

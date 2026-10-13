@@ -1,0 +1,10 @@
+{
+  "name": "sparkline",
+  "category": "charts",
+  "tags": ["sparkline", "trend", "mini chart", "zigzag", "line", "data"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 6,10 10,14 14,6 20,11\"/><circle class=\"f p2\" cx=\"20\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

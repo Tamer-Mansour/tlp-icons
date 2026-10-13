@@ -1,0 +1,10 @@
+{
+  "name": "note-quarter",
+  "category": "media",
+  "tags": ["note", "quarter", "music", "crotchet", "melody", "sound"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"17\" r=\"3.5\"/><line class=\"p2\" x1=\"10.5\" y1=\"17\" x2=\"10.5\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 }
+  ]
+}

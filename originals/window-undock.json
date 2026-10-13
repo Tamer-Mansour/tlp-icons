@@ -1,0 +1,11 @@
+{
+  "name": "window-undock",
+  "category": "layout",
+  "tags": ["window", "undock", "float", "detach", "layout"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"6\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/><path class=\"p3\" d=\"M12 17.5V11.5M8.5 15L12 11.5L15.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 1000 }
+  ]
+}

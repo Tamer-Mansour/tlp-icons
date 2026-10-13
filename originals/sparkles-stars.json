@@ -1,0 +1,11 @@
+{
+  "name": "sparkles-stars",
+  "category": "emoji",
+  "tags": ["sparkle", "stars", "shine", "magic", "glitter", "twinkle"],
+  "svg": "<path class=\"p1\" d=\"M7 10 Q8 14 12 15 Q8 16 7 20 Q6 16 2 15 Q6 14 7 10 Z\"/><path class=\"p2\" d=\"M15 5.5 Q15.8 8.2 18.5 9 Q15.8 9.8 15 12.5 Q14.2 9.8 11.5 9 Q14.2 8.2 15 5.5 Z\"/><path class=\"p3\" d=\"M19 16 Q19.5 17.5 21 18 Q19.5 18.5 19 20 Q18.5 18.5 17 18 Q18.5 17.5 19 16 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 800 }
+  ]
+}

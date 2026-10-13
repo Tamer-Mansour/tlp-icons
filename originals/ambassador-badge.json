@@ -1,0 +1,10 @@
+{
+  "name": "ambassador-badge",
+  "category": "people",
+  "tags": ["ambassador", "badge", "star", "representative", "award", "ribbon"],
+  "svg": "<path class=\"p2\" d=\"M8.5 14l-1.5 7 5-2 4.5 2-1.5-7\"/><polygon class=\"d p1\" points=\"12,3 14.1,7.3 18.8,8 15.4,11.3 16.2,16 12,13.8 7.8,16 8.6,11.3 5.2,8 9.9,7.3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

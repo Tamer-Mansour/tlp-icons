@@ -1,0 +1,12 @@
+{
+  "name": "pipeline-arrow",
+  "category": "arrows",
+  "tags": ["pipeline", "process", "stages", "workflow", "steps", "chain"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"p3\" x=\"18\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p4\" d=\"M6 12h4M8 10l2 2-2 2M14 12h4M16 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

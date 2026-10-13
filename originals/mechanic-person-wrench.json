@@ -1,0 +1,11 @@
+{
+  "name": "mechanic-person-wrench",
+  "category": "people",
+  "tags": ["mechanic", "person", "wrench", "repair", "garage", "tools"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M1.5 21v-1a6 6 0 0 1 6-6h1a6 6 0 0 1 6 6v1\"/><circle class=\"p3\" cx=\"19.5\" cy=\"5\" r=\"2.5\"/><path class=\"p3\" d=\"M17.5 8.5L16.5 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

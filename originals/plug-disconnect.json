@@ -1,0 +1,11 @@
+{
+  "name": "plug-disconnect",
+  "category": "interface",
+  "tags": ["plug", "disconnect", "unplug", "cable", "power", "detach"],
+  "svg": "<line class=\"p1\" x1=\"9\" y1=\"2\" x2=\"9\" y2=\"5\"/><line class=\"p1\" x1=\"15\" y1=\"2\" x2=\"15\" y2=\"5\"/><rect class=\"d p2\" x=\"5\" y=\"5\" width=\"14\" height=\"6\" rx=\"2\"/><path class=\"p3\" d=\"M12 15.5v5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fall", "dur": 600, "delay": 900 }
+  ]
+}

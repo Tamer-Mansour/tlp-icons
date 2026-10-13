@@ -1,0 +1,10 @@
+{
+  "name": "rounded-pentagon",
+  "category": "shapes",
+  "tags": ["pentagon", "rounded", "polygon", "corners", "five", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M10.38 4.18Q12 3 13.62 4.17L18.94 8.04Q20.56 9.21 19.94 11.11L17.9 17.37Q17.29 19.28 15.29 19.28L8.71 19.28Q6.71 19.28 6.09 17.38L4.06 11.12Q3.44 9.22 5.06 8.04Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

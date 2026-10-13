@@ -1,0 +1,11 @@
+{
+  "name": "horse-cart",
+  "category": "vehicles",
+  "tags": ["horse", "cart", "wagon", "carriage", "farm", "transport"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"10\" height=\"4\"/><circle class=\"p2\" cx=\"9\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M16 12l2-4h3v2l-2 2M17 12v6M19 12v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 1100, "origin": "19px 8px" }
+  ]
+}

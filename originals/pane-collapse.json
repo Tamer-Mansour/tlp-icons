@@ -1,0 +1,11 @@
+{
+  "name": "pane-collapse",
+  "category": "layout",
+  "tags": ["pane", "collapse", "sidebar", "hide", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"9\" y1=\"3\" x2=\"9\" y2=\"21\"/><path class=\"p3\" d=\"M16 9L13 12L16 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

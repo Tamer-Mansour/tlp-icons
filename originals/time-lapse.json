@@ -1,0 +1,11 @@
+{
+  "name": "time-lapse",
+  "category": "media",
+  "tags": ["time", "lapse", "clock", "timer", "video", "fast"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M10 9V13L12.5 14.5\"/><path class=\"p3\" d=\"M16 4H21M19 2L21 4L19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "sweep", "dur": 1400, "delay": 900, "origin": "10px 13px" }
+  ]
+}

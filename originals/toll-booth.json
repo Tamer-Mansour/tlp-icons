@@ -1,0 +1,10 @@
+{
+  "name": "toll-booth",
+  "category": "vehicles",
+  "tags": ["toll booth", "barrier", "road", "payment", "highway", "gate"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"9\" height=\"11\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"21\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 500, "origin": "12px 15px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bevel-gauge",
+  "category": "tools",
+  "tags": ["bevel", "gauge", "angle", "blade", "measure"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h8v8H3z\"/><path class=\"p2\" d=\"M5 19L19 5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

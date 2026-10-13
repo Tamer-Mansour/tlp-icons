@@ -1,0 +1,10 @@
+{
+  "name": "text-zoom",
+  "category": "interface",
+  "tags": ["text", "zoom", "font", "magnify", "size", "letter"],
+  "svg": "<path class=\"p1\" d=\"M3 19L8 5l5 14M4.8 14h6.4\"/><circle class=\"p2\" cx=\"17.5\" cy=\"9\" r=\"3\"/><line class=\"p2\" x1=\"19.6\" y1=\"11.1\" x2=\"21.5\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 900, "delay": 600 }
+  ]
+}

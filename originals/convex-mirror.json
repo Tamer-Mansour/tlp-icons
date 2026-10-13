@@ -1,0 +1,11 @@
+{
+  "name": "convex-mirror",
+  "category": "science",
+  "tags": ["physics", "mirror", "convex", "light", "reflection", "optics"],
+  "svg": "<path class=\"p1\" d=\"M12 4Q4 12 12 20\"/><path class=\"p2\" d=\"M3 8h6M3 16h6\"/><path class=\"p3\" d=\"M9 8l-4-2M9 16l-4 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

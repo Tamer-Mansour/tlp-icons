@@ -1,0 +1,10 @@
+{
+  "name": "accuracy-gauge",
+  "category": "charts",
+  "tags": ["accuracy", "gauge", "check", "score", "meter", "quality"],
+  "svg": "<path class=\"p1\" d=\"M4 16A8 8 0 0 1 20 16\"/><path class=\"p2\" d=\"M9 14L11 16L15 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

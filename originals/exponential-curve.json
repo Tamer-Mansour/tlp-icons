@@ -1,0 +1,11 @@
+{
+  "name": "exponential-curve",
+  "category": "charts",
+  "tags": ["exponential", "curve", "growth", "compound", "rise"],
+  "svg": "<path class=\"p1\" d=\"M2 20H22\"/><path class=\"p2\" d=\"M4 17C11 17 14 15 16 10C18 5 19 3 21 3\"/><circle class=\"f p3\" cx=\"21\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1400 }
+  ]
+}

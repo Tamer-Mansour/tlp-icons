@@ -1,0 +1,10 @@
+{
+  "name": "forbidden-sign",
+  "category": "notifications",
+  "tags": ["forbidden", "stop", "prohibited", "no", "denied"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"5.6\" y1=\"5.6\" x2=\"18.4\" y2=\"18.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

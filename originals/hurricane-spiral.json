@@ -1,0 +1,10 @@
+{
+  "name": "hurricane-spiral",
+  "category": "science",
+  "tags": ["hurricane", "spiral", "storm", "cyclone", "weather", "vortex"],
+  "svg": "<path class=\"p1\" d=\"M5 12A7 7 0 0 1 12 5A4 4 0 0 1 16 9A2 2 0 0 1 14 11\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1500, "delay": 400 }
+  ]
+}

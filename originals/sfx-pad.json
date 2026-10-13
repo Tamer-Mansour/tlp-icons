@@ -1,0 +1,10 @@
+{
+  "name": "sfx-pad",
+  "category": "media",
+  "tags": ["sfx", "pad", "sound", "trigger", "drum", "spark"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M12 8l1 3 3 1-3 1-1 3-1-3-3-1 3-1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 500 }
+  ]
+}

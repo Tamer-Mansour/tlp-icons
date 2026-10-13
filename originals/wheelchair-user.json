@@ -1,0 +1,11 @@
+{
+  "name": "wheelchair-user",
+  "category": "people",
+  "tags": ["wheelchair", "accessibility", "mobility", "wheelchair user", "access"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"4\" r=\"2\"/><path class=\"p2\" d=\"M10.5 8.5V13H15.5V17\"/><path class=\"p3\" d=\"M5 18a4 4 0 0 0 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 900, "origin": "9px 18px" }
+  ]
+}

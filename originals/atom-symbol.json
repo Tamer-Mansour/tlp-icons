@@ -1,0 +1,10 @@
+{
+  "name": "atom-symbol",
+  "category": "emoji",
+  "tags": ["atom", "science", "nucleus", "orbit", "physics"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9.5\" ry=\"3.5\"/><g transform=\"rotate(60 12 12)\"><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9.5\" ry=\"3.5\"/></g><g transform=\"rotate(-60 12 12)\"><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9.5\" ry=\"3.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1800, "delay": 500 }
+  ]
+}

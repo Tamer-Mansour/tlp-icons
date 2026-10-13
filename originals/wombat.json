@@ -1,0 +1,12 @@
+{
+  "name": "wombat",
+  "category": "nature",
+  "tags": ["wombat", "marsupial", "burrow", "australia", "stocky", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"8\" ry=\"5.5\"/><circle class=\"p2\" cx=\"6\" cy=\"10\" r=\"3\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"10.5\" r=\"1\"/><path class=\"p4\" d=\"M8 19.5V21M16 19.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "toast-notice",
+  "category": "interface",
+  "tags": ["toast", "notice", "message", "confirm", "success", "feedback"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\" rx=\"4.5\"/><path class=\"p2\" d=\"M6.5 12l2.5 2.5 4.5-4.5\"/><path class=\"p3\" d=\"M15.5 12h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 800 }
+  ]
+}

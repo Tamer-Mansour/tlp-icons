@@ -1,0 +1,11 @@
+{
+  "name": "letterhead",
+  "category": "communication",
+  "tags": ["letterhead", "letter", "header", "stationery", "business"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"1.5\"/><rect class=\"p2\" x=\"7\" y=\"5.5\" width=\"6\" height=\"2.5\" rx=\"0.5\"/><path class=\"p3\" d=\"M7 11h10M7 14h10M7 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

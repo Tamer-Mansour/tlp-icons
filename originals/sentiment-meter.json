@@ -1,0 +1,11 @@
+{
+  "name": "sentiment-meter",
+  "category": "charts",
+  "tags": ["sentiment", "meter", "mood", "scale", "gauge"],
+  "svg": "<path class=\"p1\" d=\"M3 17A9 9 0 0 1 21 17\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.5\"/><path class=\"p2\" d=\"M12 17L16 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 1000, "origin": "12px 17px" }
+  ]
+}

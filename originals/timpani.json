@@ -1,0 +1,11 @@
+{
+  "name": "timpani",
+  "category": "media",
+  "tags": ["timpani", "kettle", "drum", "percussion", "orchestra", "music"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16c0 3.5-3.6 6-8 6s-8-2.5-8-6z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"11\" rx=\"8\" ry=\"1.5\"/><polyline class=\"p3\" points=\"7 21 12 19 17 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

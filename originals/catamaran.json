@@ -1,0 +1,11 @@
+{
+  "name": "catamaran",
+  "category": "vehicles",
+  "tags": ["catamaran", "sailboat", "hull", "sail", "boat", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M2 15 H9 L8 18 H3 Z\"/><path class=\"d p1\" d=\"M15 15 H22 L21 18 H16 Z\"/><path class=\"p2\" d=\"M5 13 H19\"/><path class=\"p3\" d=\"M12 3 L18 11 H12 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

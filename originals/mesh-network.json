@@ -1,0 +1,11 @@
+{
+  "name": "mesh-network",
+  "category": "communication",
+  "tags": ["mesh", "network", "nodes", "connected", "graph", "web"],
+  "svg": "<path class=\"p1\" d=\"M12 4L20 12L12 20L4 12Z M4 12H9.5M14.5 12H20M12 4V9.5M12 14.5V20\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1.6\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1.6\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1.6\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1300 }
+  ]
+}

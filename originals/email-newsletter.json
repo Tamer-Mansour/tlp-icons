@@ -1,0 +1,12 @@
+{
+  "name": "email-newsletter",
+  "category": "communication",
+  "tags": ["email", "newsletter", "news", "digest", "page", "mail", "subscribe"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18v11H3z\"/><path class=\"p2\" d=\"M7 9V3h10v6\"/><path class=\"p3\" d=\"M10 6.5h4\"/><path class=\"p4\" d=\"M3 9l9 6 9-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

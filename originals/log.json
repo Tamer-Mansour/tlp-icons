@@ -1,0 +1,11 @@
+{
+  "name": "log",
+  "category": "nature",
+  "tags": ["log", "wood", "timber", "tree", "rings", "forest"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"15\" height=\"8\" rx=\"1.5\"/><ellipse class=\"p2\" cx=\"5\" cy=\"12\" rx=\"2\" ry=\"4\"/><path class=\"p3\" d=\"M11 10 V14 M15 10 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

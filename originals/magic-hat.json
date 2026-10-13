@@ -1,0 +1,11 @@
+{
+  "name": "magic-hat",
+  "category": "emoji",
+  "tags": ["magic", "hat", "wizard", "top", "trick", "star"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 19 L12 4 L17.5 19 Z\"/><line class=\"p2\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><line class=\"p2\" x1=\"8.8\" y1=\"13.5\" x2=\"15.2\" y2=\"13.5\"/><circle class=\"f p3\" cx=\"19\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

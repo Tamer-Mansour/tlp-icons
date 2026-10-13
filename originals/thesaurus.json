@@ -1,0 +1,11 @@
+{
+  "name": "thesaurus",
+  "category": "text",
+  "tags": ["thesaurus", "synonym", "book", "words", "bubbles", "reference"],
+  "svg": "<path class=\"d p1\" d=\"M2 6c3-1 6-1 10 2 4-3 7-3 10-2v12c-3-1-6-1-10 2-4-3-7-3-10-2z\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"2.5\"/><circle class=\"p3\" cx=\"16\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bounceIn", "dur": 400, "delay": 800 }
+  ]
+}

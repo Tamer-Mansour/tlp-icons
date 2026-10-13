@@ -1,0 +1,11 @@
+{
+  "name": "dump-truck",
+  "category": "tools",
+  "tags": ["dump", "truck", "tipper", "hauling", "cargo", "construction"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M9 15V11L13 7L21 12V15Z\"/><circle class=\"p3\" cx=\"7\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "menu-bar-top",
+  "category": "layout",
+  "tags": ["menu", "bar", "top", "navigation", "labels", "strip", "app"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"2\"/><path class=\"d p2\" d=\"M2.5 2.5h19v4h-19z\"/><path class=\"p3\" d=\"M5 4.5h2.5M9.5 4.5h2.5M14 4.5h2.5M18.5 4.5h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

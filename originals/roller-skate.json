@@ -1,0 +1,11 @@
+{
+  "name": "roller-skate",
+  "category": "vehicles",
+  "tags": ["roller", "skate", "boot", "wheels", "rink"],
+  "svg": "<path class=\"p1\" d=\"M7 3h5v8l5 3v2H7z\"/><path class=\"p2\" d=\"M4 18h16\"/><circle class=\"p3\" cx=\"7\" cy=\"21\" r=\"1\"/><circle class=\"p3\" cx=\"17\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

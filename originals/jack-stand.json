@@ -1,0 +1,11 @@
+{
+  "name": "jack-stand",
+  "category": "vehicles",
+  "tags": ["jack", "stand", "lift", "garage", "support"],
+  "svg": "<path class=\"p1\" d=\"M12 4v11\"/><path class=\"p2\" d=\"M7 4h10\"/><path class=\"p3\" d=\"M5 21l7-6 7 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "knock", "dur": 600, "delay": 900 }
+  ]
+}

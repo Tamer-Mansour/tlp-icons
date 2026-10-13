@@ -1,0 +1,11 @@
+{
+  "name": "text-stem",
+  "category": "text",
+  "tags": ["stem", "word", "trunk", "branch", "morphology", "root", "linguistics"],
+  "svg": "<path class=\"p1\" d=\"M12 21V4\"/><path class=\"p2\" d=\"M12 13l-5-4.5\"/><path class=\"p3\" d=\"M12 9l5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000, "origin": "bottom" }
+  ]
+}

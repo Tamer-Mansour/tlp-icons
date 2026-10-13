@@ -1,0 +1,11 @@
+{
+  "name": "term-definition",
+  "category": "text",
+  "tags": ["term", "definition", "colon", "meaning", "word", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 12h4\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"14\" r=\"1\"/><path class=\"p3\" d=\"M13 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "window-statusbar",
+  "category": "layout",
+  "tags": ["window", "statusbar", "footer", "strip", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"2\" y1=\"17\" x2=\"22\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

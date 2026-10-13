@@ -1,0 +1,11 @@
+{
+  "name": "push-message",
+  "category": "connectivity",
+  "tags": ["push", "message", "notification", "envelope", "send", "mail"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M3 9L10 14L17 9\"/><path class=\"p3\" d=\"M10 9V2.5M8 4.5L10 2.5L12 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

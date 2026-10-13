@@ -1,0 +1,32 @@
+{
+    "name":  "dendrite-tree",
+    "category":  "science",
+    "tags":  [
+                 "dendrite",
+                 "neuron",
+                 "branch",
+                 "brain",
+                 "nerve"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"8\" cy=\"15\" r=\"3.5\"/\u003e\u003cpath class=\"p2\" d=\"M10.5 12.5L14.5 8.5L20 6M14.5 8.5L16.5 3M11 15H17L20 18\"/\u003e\u003ccircle class=\"f p3\" cx=\"20\" cy=\"6\" r=\"1\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "popIn",
+                       "part":  "p1",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  900
+                   },
+                   {
+                       "delay":  1300,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  300
+                   }
+               ]
+}

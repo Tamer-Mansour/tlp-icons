@@ -1,0 +1,11 @@
+{
+  "name": "lantern-signal",
+  "category": "communication",
+  "tags": ["lantern", "signal", "light", "rays", "beacon"],
+  "svg": "<path class=\"d p1\" d=\"M9 7h6l2 4-2 4H9l-2-4z\"/><path class=\"p2\" d=\"M12 2v3\"/><path class=\"p3\" d=\"M2 11.5h2.5M19.5 11.5H22M4.5 17.5l1.8-1.5M19.5 17.5l-1.8-1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 400, "origin": "12px 5px" },
+    { "part": "p3", "anim": "glow", "dur": 700, "delay": 1200 }
+  ]
+}

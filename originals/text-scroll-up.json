@@ -1,0 +1,10 @@
+{
+  "name": "text-scroll-up",
+  "category": "text",
+  "tags": ["scroll", "up", "text", "arrow", "block", "page", "upward"],
+  "svg": "<path class=\"p1\" d=\"M3 6h9M3 11h9M3 16h6\"/><path class=\"p2\" d=\"M18 19V6M14.5 9.5L18 6l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 900, "delay": 800 }
+  ]
+}

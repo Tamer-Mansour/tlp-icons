@@ -1,0 +1,11 @@
+{
+  "name": "noon",
+  "category": "time",
+  "tags": ["noon", "sun", "midday", "overhead", "arc"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M3 19a9 9 0 0 1 18 0\"/><line class=\"p3\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 1100 }
+  ]
+}

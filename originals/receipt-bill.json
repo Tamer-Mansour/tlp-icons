@@ -1,0 +1,10 @@
+{
+  "name": "receipt-bill",
+  "category": "food",
+  "tags": ["receipt", "bill", "paper", "check", "payment"],
+  "svg": "<path class=\"d p1\" d=\"M6 2 H18 V21 L15 19.5 L12 21 L9 19.5 L6 21 Z\"/><path class=\"p2\" d=\"M9 8 H15 M9 12 H15 M9 16 H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "can-opener",
+  "category": "home",
+  "tags": ["can", "opener", "tin", "kitchen", "cut", "tool"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"11\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M14 9l-2.5 2.5\"/><circle class=\"p3\" cx=\"17\" cy=\"6\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 800, "origin": "17px 6px" }
+  ]
+}

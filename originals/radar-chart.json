@@ -1,0 +1,11 @@
+{
+  "name": "radar-chart",
+  "category": "science",
+  "tags": ["radar", "chart", "spider", "web", "compare", "skills"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 19.79 7.5 19.79 16.5 12 21 4.21 16.5 4.21 7.5\"/><path class=\"p2\" d=\"M12 12V3M12 12L19.79 7.5M12 12L19.79 16.5M12 12V21M12 12L4.21 16.5M12 12L4.21 7.5\"/><polygon class=\"d p3\" points=\"12 7 17.5 9.5 17 15.5 12 17 7 14 7.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 1500 }
+  ]
+}

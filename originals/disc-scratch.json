@@ -1,0 +1,11 @@
+{
+  "name": "disc-scratch",
+  "category": "media",
+  "tags": ["disc", "scratch", "vinyl", "record", "dj"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M5 15C8 19 12 19 16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cloud-outline",
+  "category": "shapes",
+  "tags": ["cloud", "weather", "sky", "outline", "bumps"],
+  "svg": "<path class=\"p1\" d=\"M7 18 A5 5 0 0 1 8.5 9 A5.5 5.5 0 0 1 17.5 10.5 A4 4 0 0 1 17 18\"/><line class=\"p2\" x1=\"7\" y1=\"18\" x2=\"17\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "toucan",
+  "category": "nature",
+  "tags": ["toucan", "bird", "big beak", "tropical", "rainforest", "colorful"],
+  "svg": "<path class=\"d p1\" d=\"M4 13C4 10 7 9 10 10C13 11 14 14 13 17C12 19 9 20 7 19C5 18 4 16 4 13Z\"/><path class=\"p2\" d=\"M13 8L21 6L19 10L13 11\"/><circle class=\"f p3\" cx=\"9\" cy=\"11\" r=\"1\"/><path class=\"p4\" d=\"M5 16L2 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

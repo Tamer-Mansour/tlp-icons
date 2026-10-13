@@ -1,0 +1,11 @@
+{
+  "name": "microservices",
+  "category": "connectivity",
+  "tags": ["microservices", "services", "boxes", "architecture", "distributed", "api"],
+  "svg": "<rect class=\"p1\" x=\"15\" y=\"3\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect class=\"p1\" x=\"3\" y=\"15\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect class=\"p1\" x=\"15\" y=\"15\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect class=\"p3\" x=\"3\" y=\"3\" width=\"6\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 6H15M6 9V15M18 9V15M9 18H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

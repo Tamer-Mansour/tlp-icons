@@ -1,0 +1,10 @@
+{
+  "name": "parent-guardian",
+  "category": "people",
+  "tags": ["parent", "guardian", "child", "family", "adult"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"4.5\" r=\"2.5\"/><path class=\"p1\" d=\"M4 22v-8a4 4 0 0 1 8 0v8\"/><circle class=\"p2\" cx=\"18\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M15 22v-4.5a3 3 0 0 1 6 0V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

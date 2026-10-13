@@ -1,0 +1,11 @@
+{
+  "name": "monitor-split",
+  "category": "layout",
+  "tags": ["monitor", "split", "screen", "divide", "display"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"13\" rx=\"2\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"16\"/><path class=\"p3\" d=\"M12 16v3M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

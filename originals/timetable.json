@@ -1,0 +1,11 @@
+{
+  "name": "timetable",
+  "category": "time",
+  "tags": ["timetable", "table", "grid", "schedule", "hours"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M3 15h18\"/><path class=\"p3\" d=\"M8 3v18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 900 }
+  ]
+}

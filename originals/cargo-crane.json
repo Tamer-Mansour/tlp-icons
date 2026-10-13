@@ -1,0 +1,12 @@
+{
+  "name": "cargo-crane",
+  "category": "buildings",
+  "tags": ["cargo crane", "gantry", "port", "container", "lifting", "dock"],
+  "svg": "<path class=\"p1\" d=\"M5 21V4\"/><path class=\"p2\" d=\"M5 4h14\"/><path class=\"p3\" d=\"M15 4v6\"/><rect class=\"d p4\" x=\"13\" y=\"10\" width=\"5\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "swing", "dur": 900, "delay": 1200, "origin": "15px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stage-mic",
+  "category": "media",
+  "tags": ["microphone", "stage", "performance", "live", "voice", "sing"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M6 11Q6 15 12 15Q18 15 18 11\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"12\" y2=\"18\"/><line class=\"p3\" x1=\"5\" y1=\"21\" x2=\"19\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

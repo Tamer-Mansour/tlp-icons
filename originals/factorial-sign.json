@@ -1,0 +1,11 @@
+{
+  "name": "factorial-sign",
+  "category": "science",
+  "tags": ["factorial", "exclamation", "math", "number", "product", "notation", "symbol"],
+  "svg": "<path class=\"p1\" d=\"M6 3v11\"/><circle class=\"f p2\" cx=\"6\" cy=\"19\" r=\"1.2\"/><rect class=\"d p3\" x=\"12\" y=\"7\" width=\"8\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 800 }
+  ]
+}

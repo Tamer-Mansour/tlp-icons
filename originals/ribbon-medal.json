@@ -1,0 +1,11 @@
+{
+  "name": "ribbon-medal",
+  "category": "science",
+  "tags": ["medal", "ribbon", "award", "prize", "winner", "honor"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M9 14L6 21L8.5 19.5L10 21\"/><path class=\"p3\" d=\"M15 14L18 21L15.5 19.5L14 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "15px 14px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "arrow-bullet",
+  "category": "text",
+  "tags": ["arrow", "bullet", "list", "marker", "points"],
+  "svg": "<path class=\"p1\" d=\"M3 5L4.5 6L3 7M3 11L4.5 12L3 13M3 17L4.5 18L3 19\"/><path class=\"p2\" d=\"M9 6H21M9 12H21M9 18H16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

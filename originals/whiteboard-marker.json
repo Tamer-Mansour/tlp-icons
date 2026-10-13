@@ -1,0 +1,11 @@
+{
+  "name": "whiteboard-marker",
+  "category": "communication",
+  "tags": ["whiteboard", "marker", "board", "draw", "brainstorm", "presentation"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 10c1.5-3 3-3 4.5 0s3 3 4.5 0 2-2 3-1\"/><path class=\"p3\" d=\"M13 19.5l6-6 2 2-6 6h-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 1200 }
+  ]
+}

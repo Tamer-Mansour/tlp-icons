@@ -1,0 +1,10 @@
+{
+  "name": "network-signal",
+  "category": "communication",
+  "tags": ["network", "nodes", "signal", "connection", "mesh", "broadcast"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"17\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"17\" r=\"2.5\"/><circle class=\"p1\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p1\" d=\"M8 15.5L10.5 11.5M16 15.5l-2.5-4\"/><path class=\"p2\" d=\"M7 5.5a7 7 0 0 1 10 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700, "origin": "12px 10px" }
+  ]
+}

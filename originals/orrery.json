@@ -1,0 +1,12 @@
+{
+  "name": "orrery",
+  "category": "science",
+  "tags": ["orrery", "planets", "orbit", "model", "solar system", "astronomy"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p4\" cx=\"16\" cy=\"12\" r=\"1\"/><circle class=\"f p4\" cx=\"12\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p4", "anim": "orbit", "dur": 2000, "delay": 600, "origin": "center" }
+  ]
+}

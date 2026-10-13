@@ -1,0 +1,11 @@
+{
+  "name": "memo-note",
+  "category": "communication",
+  "tags": ["memo", "note", "sticky", "slip", "reminder"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h10l4 4v14H5z\"/><path class=\"p2\" d=\"M15 3v4h4\"/><path class=\"p3\" d=\"M8.5 11h7M8.5 15h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

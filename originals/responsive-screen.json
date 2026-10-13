@@ -1,0 +1,11 @@
+{
+  "name": "responsive-screen",
+  "category": "development",
+  "tags": ["responsive", "screen", "mobile", "desktop", "layout", "design"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"13\" height=\"10\" rx=\"1.5\"/><rect class=\"p2\" x=\"17\" y=\"9\" width=\"5\" height=\"10\" rx=\"1.5\"/><path class=\"p3\" d=\"M7.5 14v6M5 20h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

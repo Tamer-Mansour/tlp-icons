@@ -1,0 +1,11 @@
+{
+  "name": "spam-folder",
+  "category": "communication",
+  "tags": ["spam", "junk", "mail", "warning", "envelope", "shield"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M3 7l7 5 7-5\"/><path class=\"p3\" d=\"M19 10l3 1v3c0 2-1.5 3.5-3 4-1.5-.5-3-2-3-4v-3z\"/><line class=\"p3\" x1=\"19\" y1=\"12\" x2=\"19\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 700, "delay": 800 }
+  ]
+}

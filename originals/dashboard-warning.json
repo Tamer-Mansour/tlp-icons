@@ -1,0 +1,11 @@
+{
+  "name": "dashboard-warning",
+  "category": "vehicles",
+  "tags": ["dashboard", "warning", "alert", "panel", "caution", "car"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M12 8L16.5 15.5H7.5Z\"/><path class=\"p3\" d=\"M12 11V13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

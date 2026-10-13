@@ -1,0 +1,10 @@
+{
+  "name": "numbered-list-style",
+  "category": "design",
+  "tags": ["numbered", "list", "numbers", "ordered", "items", "style"],
+  "svg": "<path class=\"p1\" d=\"M3.5 5.2L4.8 4V8M3 11.4a1.3 1.3 0 0 1 2.6 0c0 .8-2.6 1.9-2.6 2.6h2.6M3 16.3a1.3 1.3 0 0 1 2.6 0a1.3 1.3 0 0 1-1.3 1.3 1.3 1.3 0 0 1 1.3 1.3 1.3 1.3 0 0 1-2.6 0\"/><path class=\"p2\" d=\"M10 6h11M10 12h11M10 18h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

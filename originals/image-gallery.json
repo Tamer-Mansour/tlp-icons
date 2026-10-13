@@ -1,0 +1,10 @@
+{
+  "name": "image-gallery",
+  "category": "media",
+  "tags": ["gallery", "images", "photos", "pictures", "collection", "frames"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"13\" height=\"10\" rx=\"2\"/><rect class=\"d p2\" x=\"3\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

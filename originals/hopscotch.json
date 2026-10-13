@@ -1,0 +1,11 @@
+{
+  "name": "hopscotch",
+  "category": "sport",
+  "tags": ["hopscotch", "game", "squares", "jump", "kids", "play"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"16\" width=\"5\" height=\"5\" rx=\".5\"/><rect class=\"p2\" x=\"9.5\" y=\"16\" width=\"5\" height=\"5\" rx=\".5\"/><rect class=\"p3\" x=\"16.5\" y=\"16\" width=\"5\" height=\"5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "radiator-cap",
+  "category": "vehicles",
+  "tags": ["radiator", "cap", "pressure", "coolant", "engine", "seal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M10 9h4\"/><path class=\"p3\" d=\"M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

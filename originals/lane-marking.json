@@ -1,0 +1,10 @@
+{
+  "name": "lane-marking",
+  "category": "vehicles",
+  "tags": ["lane", "marking", "road", "dashed", "highway", "center"],
+  "svg": "<path class=\"p1\" d=\"M7 3L4 21M17 3L20 21\"/><path class=\"p2\" d=\"M12 4V7M12 10V13M12 16V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

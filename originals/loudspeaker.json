@@ -1,0 +1,11 @@
+{
+  "name": "loudspeaker",
+  "category": "devices",
+  "tags": ["loudspeaker", "speaker", "horn", "sound", "volume", "announce"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h4l8-5v16l-8-5H4z\"/><path class=\"p2\" d=\"M18 9.5a2.5 2.5 0 0 1 0 5\"/><path class=\"p3\" d=\"M19.5 7a6 6 0 0 1 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

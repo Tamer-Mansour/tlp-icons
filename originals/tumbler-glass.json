@@ -1,0 +1,11 @@
+{
+  "name": "tumbler-glass",
+  "category": "food",
+  "tags": ["tumbler", "glass", "drink", "water", "whiskey", "short", "tableware"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"16\" rx=\"1\"/><line class=\"p2\" x1=\"6\" y1=\"18\" x2=\"18\" y2=\"18\"/><line class=\"p3\" x1=\"6\" y1=\"10\" x2=\"18\" y2=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "refill", "dur": 800, "delay": 1000, "origin": "left" }
+  ]
+}

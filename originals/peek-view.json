@@ -1,0 +1,11 @@
+{
+  "name": "peek-view",
+  "category": "interface",
+  "tags": ["peek", "preview", "page", "corner", "quick", "look"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h10l4 4v14H5z\"/><path class=\"p2\" d=\"M15 3v4h4\"/><path class=\"p3\" d=\"M8 12h6M8 15.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flipIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "peek", "dur": 700, "delay": 1000 }
+  ]
+}

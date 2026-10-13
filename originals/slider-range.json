@@ -1,0 +1,11 @@
+{
+  "name": "slider-range",
+  "category": "interface",
+  "tags": ["slider", "range", "handles", "span", "filter", "bounds"],
+  "svg": "<path class=\"p1\" d=\"M3 12h2M19 12h2\"/><rect class=\"d p2\" x=\"8\" y=\"10\" width=\"8\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M8 7v10M16 7v10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

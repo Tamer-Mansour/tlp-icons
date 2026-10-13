@@ -1,0 +1,10 @@
+{
+  "name": "bmx-track",
+  "category": "buildings",
+  "tags": ["bmx", "track", "ramp", "jump", "bike", "cycling"],
+  "svg": "<polyline class=\"p1\" points=\"2,20 9,12 14,16 22,8\"/><circle class=\"p2\" cx=\"6\" cy=\"17\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 900, "delay": 1000 }
+  ]
+}

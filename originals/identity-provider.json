@@ -1,0 +1,11 @@
+{
+  "name": "identity-provider",
+  "category": "people",
+  "tags": ["identity", "provider", "sso", "login", "signin", "authentication"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"12\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 10h6M5 14h4\"/><path class=\"p3\" d=\"M16 12h6M19 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

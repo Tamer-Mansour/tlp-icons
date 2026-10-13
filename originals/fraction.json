@@ -1,0 +1,11 @@
+{
+  "name": "fraction",
+  "category": "math",
+  "tags": ["fraction", "numerator", "denominator", "slash", "math"],
+  "svg": "<path class=\"p1\" d=\"M17 4 L7 20\"/><path class=\"p2\" d=\"M4 8 H10\"/><path class=\"p3\" d=\"M14 16 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

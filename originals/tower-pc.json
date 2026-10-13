@@ -1,0 +1,11 @@
+{
+  "name": "tower-pc",
+  "category": "devices",
+  "tags": ["tower", "pc", "computer", "desktop", "case", "power"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"6.5\" r=\"1.5\"/><path class=\"p3\" d=\"M9 15h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 900 }
+  ]
+}

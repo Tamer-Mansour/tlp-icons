@@ -1,0 +1,11 @@
+{
+  "name": "achievement-badge",
+  "category": "sport",
+  "tags": ["achievement", "badge", "check", "award", "completed", "reward"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><polyline class=\"p2\" points=\"8.5,10 11,12.5 15.5,8\"/><polyline class=\"p3\" points=\"8.5,16 7,21.5 12,19.5 17,21.5 15.5,16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "bounceIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

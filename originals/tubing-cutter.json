@@ -1,0 +1,10 @@
+{
+  "name": "tubing-cutter",
+  "category": "tools",
+  "tags": ["tubing", "cutter", "copper", "tube", "wheel", "plumbing"],
+  "svg": "<path class=\"p1\" d=\"M2 11H22M2 15H22\"/><circle class=\"d p2\" cx=\"12\" cy=\"5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 1000, "delay": 800 }
+  ]
+}

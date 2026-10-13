@@ -1,0 +1,11 @@
+{
+  "name": "device-portrait",
+  "category": "layout",
+  "tags": ["device", "portrait", "phone", "mobile", "upright", "screen", "display"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M10.5 5.5h3\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

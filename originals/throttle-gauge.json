@@ -1,0 +1,11 @@
+{
+  "name": "throttle-gauge",
+  "category": "development",
+  "tags": ["throttle", "gauge", "dial", "valve", "flow", "limit"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12l3-3\"/><path class=\"p3\" d=\"M9 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

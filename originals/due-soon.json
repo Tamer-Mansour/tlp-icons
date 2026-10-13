@@ -1,0 +1,11 @@
+{
+  "name": "due-soon",
+  "category": "notifications",
+  "tags": ["due", "soon", "calendar", "clock", "upcoming"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><line class=\"p1\" x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/><circle class=\"d p2\" cx=\"17\" cy=\"16\" r=\"3.5\"/><path class=\"p3\" d=\"M17 14.5 V16.5 H18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "star-shape",
+  "category": "design",
+  "tags": ["star", "shape", "favorite", "rating", "polygon"],
+  "svg": "<polygon class=\"p1\" points=\"12,3 14.2,8.9 20.6,9.2 15.6,13.2 17.3,19.3 12,15.8 6.7,19.3 8.4,13.2 3.4,9.2 9.8,8.9\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

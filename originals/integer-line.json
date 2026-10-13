@@ -1,0 +1,10 @@
+{
+  "name": "integer-line",
+  "category": "math",
+  "tags": ["integer", "line", "negative", "positive", "ticks"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><line class=\"p2\" x1=\"6\" y1=\"9\" x2=\"6\" y2=\"15\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"15\"/><line class=\"p2\" x1=\"18\" y1=\"9\" x2=\"18\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 800 }
+  ]
+}

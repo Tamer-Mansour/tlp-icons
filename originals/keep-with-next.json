@@ -1,0 +1,11 @@
+{
+  "name": "keep-with-next",
+  "category": "text",
+  "tags": ["keep", "next", "bracket", "pagination", "text", "lines", "join"],
+  "svg": "<path class=\"p1\" d=\"M3 8h9\"/><path class=\"p2\" d=\"M3 16h12\"/><path class=\"p3\" d=\"M16 8h3v8h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

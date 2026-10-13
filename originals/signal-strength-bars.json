@@ -1,0 +1,10 @@
+{
+  "name": "signal-strength-bars",
+  "category": "communication",
+  "tags": ["signal", "strength", "bars", "wifi", "reception"],
+  "svg": "<path class=\"p1\" d=\"M5 19v-2M10 19v-5\"/><path class=\"p2\" d=\"M15 19v-8M20 19v-11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "equalize", "dur": 900, "delay": 500, "origin": "bottom" }
+  ]
+}

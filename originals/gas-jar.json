@@ -1,0 +1,10 @@
+{
+  "name": "gas-jar",
+  "category": "science",
+  "tags": ["gas", "jar", "cylinder", "container", "cover", "lab", "vessel"],
+  "svg": "<path class=\"p1\" d=\"M5 8v11.5h14V8\"/><rect class=\"d p2\" x=\"3.5\" y=\"3.5\" width=\"17\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 900 }
+  ]
+}

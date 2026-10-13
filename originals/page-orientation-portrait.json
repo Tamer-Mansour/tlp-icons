@@ -1,0 +1,10 @@
+{
+  "name": "page-orientation-portrait",
+  "category": "layout",
+  "tags": ["orientation", "portrait", "page", "rotate", "upright", "document", "layout"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3.5 7.5A8.5 8.5 0 0 0 3.5 16.5M2.5 14.5L3.5 16.5L4.5 14.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

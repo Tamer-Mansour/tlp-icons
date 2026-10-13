@@ -1,0 +1,11 @@
+{
+  "name": "trash-empty",
+  "category": "interface",
+  "tags": ["trash", "empty", "bin", "delete", "remove", "clear"],
+  "svg": "<path class=\"p1\" d=\"M4 7h16\"/><path class=\"p2\" d=\"M9 7V4.5h6V7\"/><path class=\"d p3\" d=\"M6 7l1 13h10l1-13z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "glass-cleaner",
+  "category": "home",
+  "tags": ["spray", "glass cleaner", "bottle", "window", "cleaning", "sparkle"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"9\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7 9V6H12V9\"/><path class=\"p3\" d=\"M18 3L18.6 5.4L21 6L18.6 6.6L18 9L17.4 6.6L15 6L17.4 5.4Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

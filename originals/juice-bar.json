@@ -1,0 +1,11 @@
+{
+  "name": "juice-bar",
+  "category": "buildings",
+  "tags": ["juice", "glass", "straw", "leaf", "bar"],
+  "svg": "<path class=\"d p1\" d=\"M6 9H18L16.5 20H7.5Z\"/><path class=\"p2\" d=\"M14 9L17 3\"/><path class=\"p3\" d=\"M9 6C9 4 10.5 2.5 13 2.5C13 4.5 11.5 6 9 6Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 900, "origin": "bottom" }
+  ]
+}

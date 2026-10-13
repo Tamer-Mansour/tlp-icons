@@ -1,0 +1,11 @@
+{
+  "name": "dialog-centered",
+  "category": "layout",
+  "tags": ["dialog", "modal", "centered", "popup", "buttons", "window", "alert"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"8\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M9 13.5h2.5M12.5 13.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

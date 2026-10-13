@@ -1,0 +1,11 @@
+{
+  "name": "parcel-scan",
+  "category": "interface",
+  "tags": ["parcel", "scan", "package", "barcode", "delivery", "box"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M7 9H17M7 15H17\"/><path class=\"p3\" d=\"M7 12H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "scan", "dur": 800, "delay": 700 }
+  ]
+}

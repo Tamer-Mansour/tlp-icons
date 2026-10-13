@@ -1,0 +1,12 @@
+{
+  "name": "synonym-swap",
+  "category": "text",
+  "tags": ["synonym", "swap", "thesaurus", "words", "exchange"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"6\" rx=\"3\"/><rect class=\"p2\" x=\"13\" y=\"14\" width=\"8\" height=\"6\" rx=\"3\"/><path class=\"p3\" d=\"M14 7h7M18.5 4.5L21 7l-2.5 2.5\"/><path class=\"p4\" d=\"M10 17H3M5.5 14.5L3 17l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "nudgeBack", "dur": 600, "delay": 1200 }
+  ]
+}

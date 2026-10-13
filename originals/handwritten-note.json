@@ -1,0 +1,10 @@
+{
+  "name": "handwritten-note",
+  "category": "text",
+  "tags": ["handwritten", "note", "sticky", "write", "script", "memo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 13q1.5-3 3 0t3 0t3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tire-shop",
+  "category": "buildings",
+  "tags": ["tire", "shop", "garage", "wheel", "roof", "service"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"14\" r=\"6\"/><circle class=\"p2\" cx=\"7\" cy=\"14\" r=\"2\"/><path class=\"d p3\" d=\"M15 20v-7l3.5-3.5L22 13v7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

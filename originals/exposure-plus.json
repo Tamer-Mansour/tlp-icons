@@ -1,0 +1,10 @@
+{
+  "name": "exposure-plus",
+  "category": "design",
+  "tags": ["exposure", "brightness", "sun", "plus", "light", "adjust"],
+  "svg": "<path class=\"d p1\" d=\"M3 16A5 5 0 0 1 13 16Z\"/><path class=\"p2\" d=\"M18 5V11M15 8H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 600, "origin": "18px 8px" }
+  ]
+}

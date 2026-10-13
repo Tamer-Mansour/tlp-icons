@@ -1,0 +1,10 @@
+{
+  "name": "uptime-bars",
+  "category": "charts",
+  "tags": ["uptime", "bars", "availability", "status", "monitoring", "service"],
+  "svg": "<path class=\"p1\" d=\"M4 5v14M8 5v14M16 5v14M20 5v14\"/><path class=\"p2\" d=\"M12 12v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "origin": "bottom", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "bottom", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "person-kneeling",
+  "category": "people",
+  "tags": ["kneel", "kneeling", "knee", "person", "pray", "ground"],
+  "svg": "<circle class=\"p1\" cx=\"11\" cy=\"4.5\" r=\"2.5\"/><path class=\"p2\" d=\"M11 8 V13\"/><path class=\"p3\" d=\"M11 13 L17 13 L17 20\"/><path class=\"p4\" d=\"M11 13 L7 16 L4 20.5 H7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

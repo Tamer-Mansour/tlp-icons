@@ -1,0 +1,10 @@
+{
+  "name": "history-clock",
+  "category": "interface",
+  "tags": ["history", "clock", "time", "recent", "log", "past"],
+  "svg": "<path class=\"p1\" d=\"M3 12A9 9 0 1 0 5.64 5.64M5.64 2.5V5.64H2.5\"/><path class=\"p2\" d=\"M12 7.5V12l3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 1000, "delay": 600, "origin": "12px 12px" }
+  ]
+}

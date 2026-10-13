@@ -1,0 +1,11 @@
+{
+  "name": "slider-arrow",
+  "category": "arrows",
+  "tags": ["slider", "track", "handle", "drag", "range", "adjust"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><rect class=\"d p2\" x=\"8\" y=\"8.5\" width=\"4\" height=\"7\" rx=\"1\"/><polyline class=\"p3\" points=\"16 9.5 19.5 12 16 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

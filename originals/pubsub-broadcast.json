@@ -1,0 +1,11 @@
+{
+  "name": "pubsub-broadcast",
+  "category": "development",
+  "tags": ["pubsub", "broadcast", "signal", "publish", "subscribe", "event"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M8.5 8.5a5 5 0 0 0 0 7\"/><path class=\"p3\" d=\"M15.5 8.5a5 5 0 0 1 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

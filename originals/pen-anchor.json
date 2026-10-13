@@ -1,0 +1,10 @@
+{
+  "name": "pen-anchor",
+  "category": "design",
+  "tags": ["pen", "anchor", "nib", "draw", "path", "vector"],
+  "svg": "<path class=\"p1\" d=\"M14 4L20 10L10 20H4V14Z\"/><circle class=\"p2\" cx=\"19\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sand",
+  "category": "nature",
+  "tags": ["sand", "beach", "grains", "stipple", "ground"],
+  "svg": "<path class=\"p1\" d=\"M3 17c3-1.5 6 1.5 9 0s6 1.5 9 0\"/><circle class=\"f p2\" cx=\"6\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"21\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

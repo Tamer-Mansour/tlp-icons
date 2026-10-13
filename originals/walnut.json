@@ -1,0 +1,11 @@
+{
+  "name": "walnut",
+  "category": "food",
+  "tags": ["walnut", "nut", "shell", "snack", "baking", "wrinkled"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"8\" ry=\"9\"/><path class=\"p2\" d=\"M12 3 C9 8 9 16 12 21\"/><path class=\"p3\" d=\"M7 9 C9 10 10 11 9 13 M15 14 C17 15 17.5 17 16 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

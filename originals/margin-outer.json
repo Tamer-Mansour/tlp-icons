@@ -1,0 +1,10 @@
+{
+  "name": "margin-outer",
+  "category": "design",
+  "tags": ["margin", "outer", "spacing", "outside", "box", "space"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 800 }
+  ]
+}

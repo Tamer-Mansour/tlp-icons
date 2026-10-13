@@ -1,0 +1,10 @@
+{
+  "name": "chapter-marker",
+  "category": "media",
+  "tags": ["chapter", "marker", "timeline", "flag", "section", "bookmark"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"16\" x2=\"21\" y2=\"16\"/><path class=\"p2\" d=\"M6 16V4h5l-1 2.5 1 2.5H6M16 16V4h5l-1 2.5 1 2.5h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

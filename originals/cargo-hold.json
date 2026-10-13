@@ -1,0 +1,10 @@
+{
+  "name": "cargo-hold",
+  "category": "vehicles",
+  "tags": ["cargo", "hold", "ship", "crates", "freight"],
+  "svg": "<path class=\"p1\" d=\"M3 13h18l-2.5 5h-13z\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"4\" height=\"4\"/><rect class=\"p2\" x=\"13\" y=\"7\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "alumni-badge",
+  "category": "people",
+  "tags": ["alumni", "badge", "ribbon", "tassel", "graduate", "school"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"9\" r=\"5.5\"/><path class=\"p2\" d=\"M6.5 13.5 5.5 21l4-2 4 2-1-7.5\"/><path class=\"p3\" d=\"M15.5 9.5 19 6.5v8.5\"/><circle class=\"f p3\" cx=\"19\" cy=\"16.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1100, "origin": "15.5px 9.5px" }
+  ]
+}

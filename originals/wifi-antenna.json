@@ -1,0 +1,11 @@
+{
+  "name": "wifi-antenna",
+  "category": "devices",
+  "tags": ["wifi", "antenna", "signal", "wireless", "radio"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"21\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/><path class=\"p2\" d=\"M7 5a7 7 0 0 1 10 0M9.5 7.5a3.5 3.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

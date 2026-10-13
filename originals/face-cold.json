@@ -1,0 +1,11 @@
+{
+  "name": "face-cold",
+  "category": "emoji",
+  "tags": ["cold", "shiver", "freezing", "face", "chilly"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12.5\" r=\"8\"/><circle class=\"f\" cx=\"9.5\" cy=\"10.5\" r=\"1\"/><circle class=\"f\" cx=\"14.5\" cy=\"10.5\" r=\"1\"/><polyline class=\"p3\" points=\"8.5,16 9.5,15 11,16 12.5,15 14,16 15.5,15\"/><path class=\"p2\" d=\"M2.5 9h1.5M20 9h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 900, "delay": 1100 }
+  ]
+}

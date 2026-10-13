@@ -1,0 +1,11 @@
+{
+  "name": "mirror-symmetry",
+  "category": "design",
+  "tags": ["mirror", "symmetry", "reflection", "axis", "flip", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M4 19L9 7V19Z\"/><path class=\"p2\" d=\"M20 19L15 7V19Z\"/><path class=\"p3\" d=\"M12 3.5V7M12 10V14M12 17V20.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "flip", "dur": 900, "delay": 1000 }
+  ]
+}

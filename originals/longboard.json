@@ -1,0 +1,10 @@
+{
+  "name": "longboard",
+  "category": "vehicles",
+  "tags": ["longboard", "skateboard", "deck", "wheels", "ride", "board"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"3\" rx=\"1.5\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "counselor-chair",
+  "category": "people",
+  "tags": ["counselor", "chair", "armchair", "therapy", "talk", "advice"],
+  "svg": "<path class=\"p1\" d=\"M6 12 V8 Q6 6 8 6 H16 Q18 6 18 8 V12 M5 17 V20 M19 17 V20\"/><rect class=\"d p2\" x=\"3\" y=\"12\" width=\"18\" height=\"5\" rx=\"1\"/><circle class=\"f p4\" cx=\"10\" cy=\"2.5\" r=\"1\"/><circle class=\"f p4\" cx=\"14\" cy=\"2.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

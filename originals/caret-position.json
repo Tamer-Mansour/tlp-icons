@@ -1,0 +1,10 @@
+{
+  "name": "caret-position",
+  "category": "text",
+  "tags": ["caret", "position", "cursor", "insert", "text", "place", "marker"],
+  "svg": "<path class=\"p1\" d=\"M3 16h8M13 16h8\"/><path class=\"p2\" d=\"M10 5h3M11.5 5v8M10 13h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 800 }
+  ]
+}

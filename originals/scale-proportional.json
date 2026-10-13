@@ -1,0 +1,10 @@
+{
+  "name": "scale-proportional",
+  "category": "design",
+  "tags": ["scale", "resize", "proportional", "corner", "arrows", "size"],
+  "svg": "<path class=\"p1\" d=\"M3 3H15V15H3Z\"/><path class=\"p2\" d=\"M15 15L21 21M16 21H21V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

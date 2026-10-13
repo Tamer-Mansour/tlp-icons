@@ -1,0 +1,10 @@
+{
+  "name": "page-last",
+  "category": "interface",
+  "tags": ["last", "page", "end", "final", "next"],
+  "svg": "<path class=\"p2\" d=\"M19 5v14\"/><path class=\"p1\" d=\"M5 6l6 6-6 6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

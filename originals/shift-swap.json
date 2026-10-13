@@ -1,0 +1,11 @@
+{
+  "name": "shift-swap",
+  "category": "time",
+  "tags": ["shift", "swap", "exchange", "roster", "trade"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"6\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"15\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M8 6.5h6a3 3 0 0 1 3 3V11M15.5 9.5L17 11l1.5-1.5M15 17.5h-6a3 3 0 0 1-3-3V12M4.5 13.5L6 12l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

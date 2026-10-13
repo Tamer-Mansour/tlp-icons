@@ -1,0 +1,10 @@
+{
+  "name": "phone-ear",
+  "category": "communication",
+  "tags": ["phone", "ear", "call", "handset", "listen"],
+  "svg": "<path class=\"p1\" d=\"M2 4l3-2 3 5-2 2a7 7 0 0 0 4 4l2-2 2 2-1 2C8 16 4 13 2 4z\"/><path class=\"p2\" d=\"M16 12a3 3 0 0 1 6 0c0 2-1.5 2.5-1.5 4.5a2 2 0 0 1-4 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "buzz", "dur": 700, "delay": 800 }
+  ]
+}

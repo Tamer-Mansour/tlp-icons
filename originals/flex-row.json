@@ -1,0 +1,10 @@
+{
+  "name": "flex-row",
+  "category": "layout",
+  "tags": ["flex", "row", "horizontal", "layout", "items", "css"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"9.5\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"17\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M2 4H21M18 2L21 4L18 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 }
+  ]
+}

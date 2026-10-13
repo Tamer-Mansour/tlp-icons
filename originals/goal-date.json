@@ -1,0 +1,10 @@
+{
+  "name": "goal-date",
+  "category": "time",
+  "tags": ["goal", "date", "flag", "calendar", "milestone", "deadline"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p1\" d=\"M3 10h18\"/><path class=\"p2\" d=\"M9 18v-6\"/><polygon class=\"d p2\" points=\"9 12 14 13.5 9 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "circus-ringmaster",
+  "category": "people",
+  "tags": ["ringmaster", "circus", "top", "hat", "whip", "ring"],
+  "svg": "<path class=\"p1\" d=\"M4 13 H20\"/><path class=\"d p2\" d=\"M7 13 V5 H17 V13 Z\"/><path class=\"p3\" d=\"M18 6 C21 4 22 10 20 12\"/><circle class=\"p4\" cx=\"12\" cy=\"19\" r=\"3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1300 }
+  ]
+}

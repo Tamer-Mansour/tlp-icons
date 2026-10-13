@@ -1,0 +1,10 @@
+{
+  "name": "degrees",
+  "category": "weather",
+  "tags": ["degrees", "temperature", "celsius", "angle", "number", "scale"],
+  "svg": "<ellipse class=\"p1\" cx=\"9\" cy=\"13\" rx=\"4\" ry=\"6\"/><circle class=\"p2\" cx=\"18\" cy=\"7\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

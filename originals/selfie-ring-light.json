@@ -1,0 +1,11 @@
+{
+  "name": "selfie-ring-light",
+  "category": "photography",
+  "tags": ["selfie ring light", "ring light", "phone", "light", "selfie", "video"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"10\" r=\"7\"/><rect class=\"d p2\" x=\"9.5\" y=\"6.5\" width=\"5\" height=\"7\" rx=\"1\"/><line class=\"p3\" x1=\"12\" y1=\"19.5\" x2=\"12\" y2=\"22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

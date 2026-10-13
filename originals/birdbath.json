@@ -1,0 +1,11 @@
+{
+  "name": "birdbath",
+  "category": "nature",
+  "tags": ["birdbath", "garden", "bowl", "water", "pedestal", "outdoor"],
+  "svg": "<path class=\"d p1\" d=\"M3 10H21C21 14 18 16 12 16C6 16 3 14 3 10Z\"/><path class=\"p2\" d=\"M10 16V20H14V16\"/><path class=\"p3\" d=\"M7 21H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

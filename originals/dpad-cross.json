@@ -1,0 +1,10 @@
+{
+  "name": "dpad-cross",
+  "category": "arrows",
+  "tags": ["dpad", "directional", "cross", "controls", "arrows"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6v6h6v6h-6v6H9v-6H3V9h6z\"/><path class=\"p2\" d=\"M10.5 5.5 12 4l1.5 1.5M18.5 10.5 20 12l-1.5 1.5M10.5 18.5 12 20l1.5-1.5M5.5 10.5 4 12l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

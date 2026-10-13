@@ -1,0 +1,10 @@
+{
+  "name": "zigzag",
+  "category": "shapes",
+  "tags": ["zigzag", "sharp", "peaks", "line", "jagged"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 6,8 10,16 14,8 18,16 22,8\"/><circle class=\"f p2\" cx=\"22\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

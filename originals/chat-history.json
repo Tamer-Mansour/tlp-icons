@@ -1,0 +1,11 @@
+{
+  "name": "chat-history",
+  "category": "communication",
+  "tags": ["history", "chat", "past", "messages", "log", "recent"],
+  "svg": "<path class=\"d p1\" d=\"M12 3a9 9 0 1 1-9 9\"/><path class=\"p2\" d=\"M3 4v4h4\"/><line class=\"p3\" x1=\"9\" y1=\"9\" x2=\"9\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1000 }
+  ]
+}

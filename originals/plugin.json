@@ -1,0 +1,11 @@
+{
+  "name": "plugin",
+  "category": "development",
+  "tags": ["plugin", "addon", "connector", "module", "extension", "plug"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 8 H17 M9 3 V8 M15 3 V8\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

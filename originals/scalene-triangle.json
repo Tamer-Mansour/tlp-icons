@@ -1,0 +1,10 @@
+{
+  "name": "scalene-triangle",
+  "category": "math",
+  "tags": ["scalene", "triangle", "uneven", "sides", "geometry", "angles"],
+  "svg": "<polygon class=\"d p1\" points=\"3,20 21,15 8,5\"/><circle class=\"f p2\" cx=\"3\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"8\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "beetle",
+  "category": "nature",
+  "tags": ["insect", "shell", "six legs", "bug", "garden"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M12 6 V20\"/><path class=\"p3\" d=\"M6.5 10 L3 8.5 M6 13 L2.5 13 M6.5 16 L3 17.5 M17.5 10 L21 8.5 M18 13 L21.5 13 M17.5 16 L21 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

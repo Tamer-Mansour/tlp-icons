@@ -1,0 +1,12 @@
+{
+  "name": "speaker-stack",
+  "category": "media",
+  "tags": ["speaker", "stack", "sound", "bass", "audio", "cabinet"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"9\" rx=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"6.5\" r=\"2\"/><rect class=\"p3\" x=\"4\" y=\"13\" width=\"16\" height=\"9\" rx=\"1.5\"/><circle class=\"p4\" cx=\"12\" cy=\"17.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

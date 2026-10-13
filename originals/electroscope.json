@@ -1,0 +1,11 @@
+{
+  "name": "electroscope",
+  "category": "science",
+  "tags": ["electroscope", "charge", "static", "leaves", "electricity"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 3H15M12 3V12\"/><path class=\"p3\" d=\"M12 12L10 18M12 12L14 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

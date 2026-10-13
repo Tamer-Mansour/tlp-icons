@@ -1,0 +1,11 @@
+{
+  "name": "bait-hook",
+  "category": "security",
+  "tags": ["bait", "hook", "phishing", "fishing", "scam", "lure"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v11.5a4 4 0 0 1-8 0v-2\"/><rect class=\"d p2\" x=\"14\" y=\"12\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M14 12.5l3.5 2.5 3.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

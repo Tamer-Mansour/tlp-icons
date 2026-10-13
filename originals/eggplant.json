@@ -1,0 +1,11 @@
+{
+  "name": "eggplant",
+  "category": "food",
+  "tags": ["eggplant", "aubergine", "vegetable", "produce", "purple", "cooking"],
+  "svg": "<path class=\"d p1\" d=\"M9 8 C6 9 5 13 5.5 16 C6 20 9 21.5 12 21.5 C15 21.5 18 20 18.5 16 C19 12 17 8 14 7.5 Z\"/><path class=\"p2\" d=\"M8 7.5 C9 9 11 9.5 12 9.5 C13 9.5 15 9 16 7.5 L14 6 L12 7 L10 6 Z\"/><path class=\"p3\" d=\"M12 7 Q12.5 4 15 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 700, "delay": 1100, "origin": "12px 7px" }
+  ]
+}

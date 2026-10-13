@@ -1,0 +1,11 @@
+{
+  "name": "cushion",
+  "category": "home",
+  "tags": ["cushion", "pillow", "seat pad", "soft", "sofa"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"5\"/><path class=\"p2\" d=\"M8 12c2 2 6 2 8 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

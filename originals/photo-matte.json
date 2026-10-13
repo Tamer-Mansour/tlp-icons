@@ -1,0 +1,10 @@
+{
+  "name": "photo-matte",
+  "category": "photography",
+  "tags": ["photo", "matte", "mat board", "print", "margin"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"1.5\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

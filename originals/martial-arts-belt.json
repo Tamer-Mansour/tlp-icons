@@ -1,0 +1,11 @@
+{
+  "name": "martial-arts-belt",
+  "category": "sport",
+  "tags": ["martial", "arts", "belt", "karate", "judo", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M3 7H21V12H3Z\"/><path class=\"p2\" d=\"M11 12L9 21M13 12L15 21\"/><path class=\"p3\" d=\"M10 7V12M14 7V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

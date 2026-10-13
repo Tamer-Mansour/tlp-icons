@@ -1,0 +1,12 @@
+{
+  "name": "finch",
+  "category": "nature",
+  "tags": ["finch", "bird", "beak", "songbird", "small", "sparrow"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M15.5 10L20 11.5 15.5 13.5z\"/><path class=\"p3\" d=\"M9 17v3M13 17v3\"/><circle class=\"f p4\" cx=\"13\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "blink", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dvd-player",
+  "category": "devices",
+  "tags": ["dvd", "player", "disc", "video", "media"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"20\" height=\"7\" rx=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"3\"/><line class=\"p2\" x1=\"12\" y1=\"6\" x2=\"14.5\" y2=\"6\"/><polygon class=\"p3\" points=\"15 16 15 18 18 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000 }
+  ]
+}

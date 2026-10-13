@@ -1,0 +1,10 @@
+{
+  "name": "jigsaw-piece",
+  "category": "sport",
+  "tags": ["jigsaw", "puzzle", "piece", "tab", "notch", "game"],
+  "svg": "<path class=\"d p1\" d=\"M4 4H10V6A2 2 0 0 0 14 6V4H20V10H18A2 2 0 0 1 18 14H20V20H4Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

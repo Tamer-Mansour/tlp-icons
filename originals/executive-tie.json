@@ -1,0 +1,10 @@
+{
+  "name": "executive-tie",
+  "category": "people",
+  "tags": ["executive", "tie", "business", "suit", "boss", "office"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M7 20.5v-2a5 5 0 0 1 10 0v2\"/><polygon class=\"p2\" points=\"12 14 13.5 16 12 20 10.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 14px" }
+  ]
+}

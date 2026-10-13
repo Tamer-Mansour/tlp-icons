@@ -1,0 +1,11 @@
+{
+  "name": "terminal-shield",
+  "category": "security",
+  "tags": ["terminal", "shield", "command", "secure", "shell"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M2 7h20\"/><path class=\"p2\" d=\"M6 11l2.5 2.5L6 16\"/><path class=\"d p3\" d=\"M16.5 11l3 1.1v2.9c0 2-1.4 3.2-3 3.9-1.6-.7-3-1.9-3-3.9v-2.9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

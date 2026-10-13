@@ -1,0 +1,11 @@
+{
+  "name": "bullhorn-announce",
+  "category": "emoji",
+  "tags": ["megaphone", "bullhorn", "announce", "loudspeaker", "broadcast", "sound"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5 H7 L13 4.5 V19.5 L7 14.5 H3 Z\"/><path class=\"p2\" d=\"M4 14.5 L4.5 18.5 H6.5 L7 14.5\"/><path class=\"p3\" d=\"M16.06 9.43 A4 4 0 0 1 16.06 14.57 M19.13 6.86 A8 8 0 0 1 19.13 17.14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000, "origin": "13px 12px" }
+  ]
+}

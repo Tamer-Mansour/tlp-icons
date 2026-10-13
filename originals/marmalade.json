@@ -1,0 +1,11 @@
+{
+  "name": "marmalade",
+  "category": "food",
+  "tags": ["marmalade", "jam", "jar", "citrus", "orange", "preserve"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10.5\" width=\"16\" height=\"10.5\" rx=\"3\"/><rect class=\"p3\" x=\"5\" y=\"3.5\" width=\"14\" height=\"3\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"16.5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 14v5M9.5 16.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

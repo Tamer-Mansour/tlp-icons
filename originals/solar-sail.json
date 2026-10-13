@@ -1,0 +1,11 @@
+{
+  "name": "solar-sail",
+  "category": "science",
+  "tags": ["solar", "sail", "spacecraft", "light", "sun"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><rect class=\"d p2\" x=\"6\" y=\"5\" width=\"10\" height=\"10\"/><path class=\"p3\" d=\"M18 2.5L19.5 4M20.5 9H22M18 15.5L19.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

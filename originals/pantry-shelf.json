@@ -1,0 +1,11 @@
+{
+  "name": "pantry-shelf",
+  "category": "food",
+  "tags": ["pantry", "shelf", "jars", "storage", "kitchen", "supplies"],
+  "svg": "<path class=\"p1\" d=\"M3 20.5h18\"/><rect class=\"d p2\" x=\"4\" y=\"12\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"9\" width=\"4\" height=\"11\" rx=\"1\"/><rect class=\"d p3\" x=\"16\" y=\"10\" width=\"4\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 700, "delay": 800 }
+  ]
+}

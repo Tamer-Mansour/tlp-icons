@@ -1,0 +1,11 @@
+{
+  "name": "file-versions",
+  "category": "files",
+  "tags": ["file", "versions", "branch", "revision", "copies", "document"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h8l4 4v8H4z\"/><path class=\"p2\" d=\"M8 3h8l4 4v6\"/><path class=\"p3\" d=\"M7.5 15.5h4M7.5 18h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

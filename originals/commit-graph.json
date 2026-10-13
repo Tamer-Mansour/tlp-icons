@@ -1,0 +1,11 @@
+{
+  "name": "commit-graph",
+  "category": "charts",
+  "tags": ["commit", "graph", "branch", "git", "history", "version"],
+  "svg": "<line class=\"p1\" x1=\"8\" y1=\"3\" x2=\"8\" y2=\"21\"/><path class=\"p3\" d=\"M8 12H14\"/><circle class=\"p2\" cx=\"8\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

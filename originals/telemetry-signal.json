@@ -1,0 +1,11 @@
+{
+  "name": "telemetry-signal",
+  "category": "charts",
+  "tags": ["telemetry", "signal", "antenna", "transmission", "data", "wireless"],
+  "svg": "<path class=\"p1\" d=\"M12 11v11\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"2\"/><path class=\"p3\" d=\"M7.5 5a5 5 0 0 0 0 8M16.5 5a5 5 0 0 1 0 8M5 2.5a9 9 0 0 0 0 13M19 2.5a9 9 0 0 1 0 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1000 }
+  ]
+}

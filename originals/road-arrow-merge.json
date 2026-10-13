@@ -1,0 +1,11 @@
+{
+  "name": "road-arrow-merge",
+  "category": "arrows",
+  "tags": ["merge", "road", "lanes", "traffic", "join"],
+  "svg": "<path class=\"p1\" d=\"M6 3 V8 Q6 12 12 13\"/><path class=\"p2\" d=\"M18 3 V8 Q18 12 12 13\"/><path class=\"p3\" d=\"M12 13 V21 M9.5 18.5 L12 21 L14.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

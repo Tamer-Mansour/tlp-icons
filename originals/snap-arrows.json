@@ -1,0 +1,10 @@
+{
+  "name": "snap-arrows",
+  "category": "arrows",
+  "tags": ["snap", "converge", "together", "funnel", "join", "align"],
+  "svg": "<path class=\"p1\" d=\"M4 4l7 8M20 4l-7 8\"/><path class=\"p2\" d=\"M12 12v8M9 17l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 700 }
+  ]
+}

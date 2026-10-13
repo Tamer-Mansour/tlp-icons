@@ -1,0 +1,10 @@
+{
+  "name": "photo-grid",
+  "category": "layout",
+  "tags": ["photo", "grid", "gallery", "images", "pictures", "thumbnails"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><path class=\"d p2\" d=\"M4.5 9L6.5 6L8.5 9ZM15.5 9L17.5 6L19.5 9ZM4.5 20L6.5 17L8.5 20ZM15.5 20L17.5 17L19.5 20Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

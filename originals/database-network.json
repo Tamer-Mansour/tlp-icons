@@ -1,0 +1,11 @@
+{
+  "name": "database-network",
+  "category": "connectivity",
+  "tags": ["database", "network", "nodes", "data", "connected", "cluster"],
+  "svg": "<path class=\"d p1\" d=\"M3 6c0-1.1 2.2-2 5-2s5 .9 5 2v10c0 1.1-2.2 2-5 2s-5-.9-5-2z\"/><path class=\"p2\" d=\"M13 8h3.5L19 5M13 14h3l3 3\"/><circle class=\"p3\" cx=\"19\" cy=\"5\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

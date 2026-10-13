@@ -1,0 +1,11 @@
+{
+  "name": "trap-box",
+  "category": "security",
+  "tags": ["trap", "box", "lid", "trigger", "snare", "hidden"],
+  "svg": "<path class=\"p1\" d=\"M4 11V20H20V11\"/><rect class=\"d p2\" x=\"4\" y=\"7\" width=\"16\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 15H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

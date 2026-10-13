@@ -1,0 +1,10 @@
+{
+  "name": "trapezoid-inverted",
+  "category": "shapes",
+  "tags": ["trapezoid", "funnel", "wide", "slope", "geometry"],
+  "svg": "<path class=\"d p1\" d=\"M3 4 H21 L16 20 H8 Z\"/><line class=\"p2\" x1=\"8\" y1=\"9\" x2=\"16\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 800 }
+  ]
+}

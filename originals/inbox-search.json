@@ -1,0 +1,10 @@
+{
+  "name": "inbox-search",
+  "category": "communication",
+  "tags": ["inbox", "search", "find", "lookup", "tray", "look"],
+  "svg": "<path class=\"d p1\" d=\"M3 13.5L5.5 5.5h13l2.5 8v5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z\"/><circle class=\"p2\" cx=\"11\" cy=\"9.5\" r=\"3\"/><path class=\"p2\" d=\"M13.2 11.7L15.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 800, "delay": 700 }
+  ]
+}

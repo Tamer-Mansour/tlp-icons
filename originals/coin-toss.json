@@ -1,0 +1,10 @@
+{
+  "name": "coin-toss",
+  "category": "math",
+  "tags": ["coin", "toss", "flip", "chance", "probability"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"7\" ry=\"3.5\"/><path class=\"p2\" d=\"M5 9 Q12 1 19 9 M15 7 L19 9 L19.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

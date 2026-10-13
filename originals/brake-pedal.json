@@ -1,0 +1,10 @@
+{
+  "name": "brake-pedal",
+  "category": "vehicles",
+  "tags": ["brake", "pedal", "foot", "stop", "car"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8v12q0 3-3 3H9q-3 0-3-3z\" transform=\"rotate(-15 10 10)\"/><path class=\"p2\" d=\"M19 6v9M16.5 12.5L19 15l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

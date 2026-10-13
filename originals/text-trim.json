@@ -1,0 +1,11 @@
+{
+  "name": "text-trim",
+  "category": "text",
+  "tags": ["trim", "cut", "crop", "text", "scissors"],
+  "svg": "<path class=\"p1\" d=\"M8 12H16\"/><path class=\"p2\" d=\"M8 7L5 12L8 17\"/><path class=\"p3\" d=\"M16 7L19 12L16 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 600 }
+  ]
+}

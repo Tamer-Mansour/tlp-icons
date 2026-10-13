@@ -1,0 +1,11 @@
+{
+  "name": "pepper-mill",
+  "category": "food",
+  "tags": ["pepper", "mill", "spice", "grinder", "kitchen"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"10\" width=\"8\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M8 10 Q8 5 12 5 Q16 5 16 10\"/><path class=\"p3\" d=\"M16 13 H19 V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "16px 13px" }
+  ]
+}

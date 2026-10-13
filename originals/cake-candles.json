@@ -1,0 +1,12 @@
+{
+  "name": "cake-candles",
+  "category": "food",
+  "tags": ["cake", "candles", "birthday", "dessert", "party"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M4 15 H20\"/><path class=\"p3\" d=\"M8 8 V11 M12 8 V11 M16 8 V11\"/><circle class=\"f p4\" cx=\"8\" cy=\"5\" r=\"1\"/><circle class=\"f p4\" cx=\"12\" cy=\"5\" r=\"1\"/><circle class=\"f p4\" cx=\"16\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

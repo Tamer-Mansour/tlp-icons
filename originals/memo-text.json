@@ -1,0 +1,11 @@
+{
+  "name": "memo-text",
+  "category": "text",
+  "tags": ["memo", "note", "card", "header", "document"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"8\" y1=\"8\" x2=\"16\" y2=\"8\"/><line class=\"p3\" x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/><line class=\"p3\" x1=\"8\" y1=\"16\" x2=\"13\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

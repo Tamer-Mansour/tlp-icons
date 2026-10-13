@@ -1,0 +1,11 @@
+{
+  "name": "gnat",
+  "category": "nature",
+  "tags": ["gnat", "fly", "bug", "wings", "insect"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"2.5\" ry=\"4\"/><path class=\"p2\" d=\"M11 11 Q6 4 3 6 Q5 11 11 11 Z M13 11 Q18 4 21 6 Q19 11 13 11 Z\"/><path class=\"p3\" d=\"M9.5 14 L6 16 M14.5 14 L18 16 M10 17.5 L8 20.5 M14 17.5 L16 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 700 }
+  ]
+}

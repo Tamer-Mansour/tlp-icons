@@ -1,0 +1,11 @@
+{
+  "name": "radio-telescope",
+  "category": "science",
+  "tags": ["radio", "telescope", "dish", "signal", "antenna", "astronomy"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 9h17a8.5 8.5 0 0 1-17 0z\"/><path class=\"p2\" d=\"M12 17.5L8 21.5M12 17.5L16 21.5\"/><path class=\"p3\" d=\"M12 13V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1100 }
+  ]
+}

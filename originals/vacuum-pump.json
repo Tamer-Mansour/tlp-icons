@@ -1,0 +1,10 @@
+{
+  "name": "vacuum-pump",
+  "category": "science",
+  "tags": ["vacuum", "pump", "lab", "pressure", "air", "suction"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"12\" r=\"6.5\"/><path class=\"p2\" d=\"M16 12H21M19 10L21 12L19 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

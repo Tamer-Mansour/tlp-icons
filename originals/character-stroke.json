@@ -1,0 +1,11 @@
+{
+  "name": "character-stroke",
+  "category": "text",
+  "tags": ["character", "stroke", "pen", "letter", "trace", "handwriting"],
+  "svg": "<path class=\"p1\" d=\"M5 5v12h8\"/><circle class=\"f p2\" cx=\"8\" cy=\"5\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"5\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"5\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"5\" r=\"1\"/><path class=\"p3\" d=\"M13 17l6-6 2 2-6 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

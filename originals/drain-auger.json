@@ -1,0 +1,11 @@
+{
+  "name": "drain-auger",
+  "category": "tools",
+  "tags": ["drain", "auger", "plumbing", "snake", "clog", "cable"],
+  "svg": "<path class=\"p1\" d=\"M12 4 V13\"/><circle class=\"p2\" cx=\"12\" cy=\"18\" r=\"3\"/><line class=\"p3\" x1=\"8\" y1=\"3\" x2=\"16\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900, "origin": "12px 3px" }
+  ]
+}

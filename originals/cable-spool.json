@@ -1,0 +1,11 @@
+{
+  "name": "cable-spool",
+  "category": "connectivity",
+  "tags": ["cable", "spool", "wire", "wound", "reel", "coil"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"6\" width=\"10\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M4 4h16M4 20h16\"/><path class=\"p3\" d=\"M7 10h10M7 14h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 1000 }
+  ]
+}

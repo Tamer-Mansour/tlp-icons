@@ -1,0 +1,10 @@
+{
+  "name": "butter-pat",
+  "category": "food",
+  "tags": ["butter", "pat", "ridged", "dairy", "spread"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"12\" width=\"16\" height=\"7\" rx=\"1.5\"/><polyline class=\"p2\" points=\"6,9 8,7 10,9 12,7 14,9 16,7 18,9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

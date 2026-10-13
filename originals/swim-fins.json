@@ -1,0 +1,10 @@
+{
+  "name": "swim-fins",
+  "category": "sport",
+  "tags": ["swim", "fins", "flippers", "diving", "kick", "water"],
+  "svg": "<path class=\"d p1\" d=\"M8 3H13V11L19 17C20 18 19.5 20 18 20H9Z\"/><path class=\"p2\" d=\"M10 13.5L15.5 16.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "shuttle", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sigma-sum",
+  "category": "charts",
+  "tags": ["sigma", "sum", "total", "math", "statistics", "formula"],
+  "svg": "<polyline class=\"p1\" points=\"13,4 4,4 10,12 4,20 13,20\"/><rect class=\"d p2\" x=\"16\" y=\"10\" width=\"4\" height=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700, "origin": "bottom" }
+  ]
+}

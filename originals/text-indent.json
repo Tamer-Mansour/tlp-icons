@@ -1,0 +1,10 @@
+{
+  "name": "text-indent",
+  "category": "text",
+  "tags": ["indent", "text", "paragraph", "shift", "inward", "align"],
+  "svg": "<path class=\"p1\" d=\"M9 9h12M3 15h18\"/><path class=\"p2\" d=\"M3 9h4M5 7l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

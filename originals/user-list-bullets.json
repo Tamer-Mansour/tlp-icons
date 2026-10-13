@@ -1,0 +1,11 @@
+{
+  "name": "user-list-bullets",
+  "category": "people",
+  "tags": ["user", "list", "bullets", "person", "roster", "names"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20.5c0-3.3 2.5-5.5 5.5-5.5s5.5 2.2 5.5 5.5\"/><path class=\"p2\" d=\"M15 7h7M15 12h7\"/><path class=\"p3\" d=\"M15 17h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

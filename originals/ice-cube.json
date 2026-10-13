@@ -1,0 +1,10 @@
+{
+  "name": "ice-cube",
+  "category": "food",
+  "tags": ["ice", "cold", "frozen", "cube", "drink"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M8 16l8-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

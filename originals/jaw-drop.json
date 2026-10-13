@@ -1,0 +1,11 @@
+{
+  "name": "jaw-drop",
+  "category": "people",
+  "tags": ["jaw drop", "shock", "surprise", "face", "amazed", "wow"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"11\" r=\"8\"/><ellipse class=\"p2\" cx=\"12\" cy=\"18\" rx=\"2.5\" ry=\"2.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"8.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 900, "origin": "top" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mochi",
+  "category": "food",
+  "tags": ["mochi", "rice cake", "japanese", "sweet", "dessert", "food"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M6 12c3 1.5 9 1.5 12 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

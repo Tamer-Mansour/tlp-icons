@@ -1,0 +1,11 @@
+{
+  "name": "lock-out-tag",
+  "category": "tools",
+  "tags": ["lockout", "tag", "lock", "switch", "safety", "padlock"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M10 12V9a2 2 0 0 0-4 0\"/><rect class=\"d p2\" x=\"6\" y=\"12\" width=\"8\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 900, "origin": "10px 12px" }
+  ]
+}

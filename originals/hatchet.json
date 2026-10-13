@@ -1,0 +1,10 @@
+{
+  "name": "hatchet",
+  "category": "tools",
+  "tags": ["hatchet", "axe", "chop", "wood", "handle", "blade"],
+  "svg": "<path class=\"d p1\" d=\"M5 4h8l4 3-4 3H5z\"/><rect class=\"p2\" x=\"5\" y=\"10\" width=\"3\" height=\"11\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "strike", "dur": 500, "delay": 500, "origin": "6px 20px" }
+  ]
+}

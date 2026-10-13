@@ -1,0 +1,11 @@
+{
+  "name": "eyedropper-tool",
+  "category": "interface",
+  "tags": ["eyedropper", "color", "pick", "sample", "tool"],
+  "svg": "<path class=\"p1\" d=\"M15.5 4.5l4 4L11 17l-4-4z\"/><path class=\"p2\" d=\"M7 13l-3.5 4.5\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1200 }
+  ]
+}

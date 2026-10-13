@@ -1,0 +1,11 @@
+{
+  "name": "reflector",
+  "category": "photography",
+  "tags": ["reflector", "disc", "photo", "light", "collapsible", "studio"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"7\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p3\" d=\"M12 16v5M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

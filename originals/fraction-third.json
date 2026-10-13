@@ -1,0 +1,11 @@
+{
+  "name": "fraction-third",
+  "category": "math",
+  "tags": ["third", "fraction", "circle", "split", "portion", "thirds"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12 L12 3 A9 9 0 0 1 19.79 16.5 Z\"/><path class=\"p3\" d=\"M12 12 V3 M12 12 L19.79 16.5 M12 12 L4.21 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

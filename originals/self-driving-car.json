@@ -1,0 +1,11 @@
+{
+  "name": "self-driving-car",
+  "category": "vehicles",
+  "tags": ["self", "driving", "autonomous", "radar", "robot", "car"],
+  "svg": "<path class=\"d p1\" d=\"M4 15V12.5L6.5 8.5H17.5L20 12.5V15Z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"17\" r=\"1.5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"17\" r=\"1.5\"/><path class=\"p3\" d=\"M8 4.5A5.5 5.5 0 0 1 16 4.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nested-arrow",
+  "category": "arrows",
+  "tags": ["nested", "enter", "container", "inside", "frame"],
+  "svg": "<path class=\"p1\" d=\"M9 3 H5 A2 2 0 0 0 3 5 V19 A2 2 0 0 0 5 21 H19 A2 2 0 0 0 21 19 V5 A2 2 0 0 0 19 3 H15\"/><rect class=\"d p2\" x=\"8\" y=\"10\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M12 2.5 V9 M9.5 6.5 L12 9 L14.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

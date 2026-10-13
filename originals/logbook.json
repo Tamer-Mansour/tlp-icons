@@ -1,0 +1,11 @@
+{
+  "name": "logbook",
+  "category": "files",
+  "tags": ["logbook", "log", "record", "ledger", "dates"],
+  "svg": "<rect class=\"p1 d\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M8 9h8M8 13h8\"/><polyline class=\"p3\" points=\"8 17 10 19 14 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

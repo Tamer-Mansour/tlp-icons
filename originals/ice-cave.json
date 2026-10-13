@@ -1,0 +1,10 @@
+{
+  "name": "ice-cave",
+  "category": "nature",
+  "tags": ["cave", "ice", "icicle", "arch", "winter"],
+  "svg": "<path class=\"d p1\" d=\"M3 21 V13 Q3 8 12 8 Q21 8 21 13 V21 Z\"/><path class=\"p2\" d=\"M7 3 L8 5.5 M12 2 V5 M17 3 L16 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

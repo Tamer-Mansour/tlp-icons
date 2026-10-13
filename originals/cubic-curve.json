@@ -1,0 +1,10 @@
+{
+  "name": "cubic-curve",
+  "category": "math",
+  "tags": ["cubic", "curve", "inflection", "graph", "polynomial", "math"],
+  "svg": "<path class=\"p1\" d=\"M4 18C10 18 14 6 20 6\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

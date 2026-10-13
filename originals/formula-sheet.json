@@ -1,0 +1,11 @@
+{
+  "name": "formula-sheet",
+  "category": "science",
+  "tags": ["formula", "equation", "sheet", "math", "paper"],
+  "svg": "<path class=\"d p1\" d=\"M6 3 H14 L18 7 V21 H6 Z\"/><line class=\"p2\" x1=\"9\" y1=\"9\" x2=\"15\" y2=\"9\"/><line class=\"p3\" x1=\"9\" y1=\"13\" x2=\"13\" y2=\"13\"/><line class=\"p3\" x1=\"9\" y1=\"16\" x2=\"13\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

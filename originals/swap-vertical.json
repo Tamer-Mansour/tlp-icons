@@ -1,0 +1,10 @@
+{
+  "name": "swap-vertical",
+  "category": "arrows",
+  "tags": ["swap", "exchange", "vertical", "opposite", "switch", "two arrows"],
+  "svg": "<path class=\"p1\" d=\"M8 21V7M5 10l3-3 3 3\"/><path class=\"p2\" d=\"M16 3v14M13 14l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 700, "delay": 700 }
+  ]
+}

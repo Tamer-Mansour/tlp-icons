@@ -1,0 +1,10 @@
+{
+  "name": "ramekin",
+  "category": "food",
+  "tags": ["ramekin", "dish", "bowl", "baking", "ceramic", "kitchen"],
+  "svg": "<path class=\"p1\" d=\"M4 9v6.5c0 1.1 3.6 2 8 2s8-.9 8-2V9\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"9\" rx=\"8\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

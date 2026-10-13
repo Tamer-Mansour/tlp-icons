@@ -1,0 +1,10 @@
+{
+  "name": "cloud-wind",
+  "category": "weather",
+  "tags": ["wind", "cloud", "breeze", "gust", "weather", "air"],
+  "svg": "<path class=\"d p1\" d=\"M3 17h9a3 3 0 0 0 0-6 4.5 4.5 0 0 0-8.5-.5A3.5 3.5 0 0 0 3 17z\"/><path class=\"p2\" d=\"M14 8.5h5.5a2 2 0 1 0-2-2M14 14.5h6.5a2 2 0 1 1-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

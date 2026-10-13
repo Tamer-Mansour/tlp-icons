@@ -1,0 +1,11 @@
+{
+  "name": "bee-smoker",
+  "category": "nature",
+  "tags": ["bee", "smoker", "smoke", "beekeeping", "tool"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"5\"/><line class=\"p2\" x1=\"13\" y1=\"12\" x2=\"19\" y2=\"8\"/><path class=\"p3\" d=\"M18 6 C16.5 4.5 19.5 3.5 18 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

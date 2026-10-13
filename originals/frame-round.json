@@ -1,0 +1,10 @@
+{
+  "name": "frame-round",
+  "category": "shapes",
+  "tags": ["frame", "rounded", "square", "border", "picture"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><rect class=\"p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 900 }
+  ]
+}

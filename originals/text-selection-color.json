@@ -1,0 +1,11 @@
+{
+  "name": "text-selection-color",
+  "category": "text",
+  "tags": ["selection", "highlight", "text", "block", "cursor"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"11\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 12h14\"/><path class=\"p3\" d=\"M17 8.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 900, "delay": 1100 }
+  ]
+}

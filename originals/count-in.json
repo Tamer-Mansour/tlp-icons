@@ -1,0 +1,10 @@
+{
+  "name": "count-in",
+  "category": "media",
+  "tags": ["count", "in", "beats", "dots", "note", "rehearsal"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"4\" r=\"1.2\"/><circle class=\"f p1\" cx=\"9\" cy=\"4\" r=\"1.2\"/><circle class=\"f p1\" cx=\"13\" cy=\"4\" r=\"1.2\"/><circle class=\"f p1\" cx=\"17\" cy=\"4\" r=\"1.2\"/><path class=\"p2\" d=\"M9 17V11l8-2v8\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"15\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "blip", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

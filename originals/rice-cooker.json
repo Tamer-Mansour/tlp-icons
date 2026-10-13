@@ -1,0 +1,11 @@
+{
+  "name": "rice-cooker",
+  "category": "food",
+  "tags": ["rice", "cooker", "appliance", "steam", "food"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M3 11 Q3 4 12 4 Q21 4 21 11 Z\"/><path class=\"p3\" d=\"M9 16 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

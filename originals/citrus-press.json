@@ -1,0 +1,11 @@
+{
+  "name": "citrus-press",
+  "category": "home",
+  "tags": ["citrus", "press", "juicer", "lemon", "kitchen"],
+  "svg": "<path class=\"p1\" d=\"M7 11h10l-2 7H9z\"/><path class=\"d p2\" d=\"M5 9a7 6 0 0 1 14 0z\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

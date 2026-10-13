@@ -1,0 +1,10 @@
+{
+  "name": "chevron",
+  "category": "shapes",
+  "tags": ["chevron", "arrow", "next", "angle", "pointer"],
+  "svg": "<path class=\"p1\" d=\"M9 5l7 7\"/><path class=\"p2\" d=\"M16 12l-7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

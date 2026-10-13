@@ -1,0 +1,12 @@
+{
+  "name": "relay-tower",
+  "category": "connectivity",
+  "tags": ["relay", "tower", "bounce", "radio", "mast", "signal", "repeater"],
+  "svg": "<path class=\"p1\" d=\"M12 21V10\"/><path class=\"p2\" d=\"M8 21h8\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.5\"/><path class=\"p4\" d=\"M7.5 4.5a6 6 0 0 0 0 5M16.5 4.5a6 6 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 },
+    { "part": "p4", "anim": "pulseRing", "dur": 900, "delay": 1300 }
+  ]
+}

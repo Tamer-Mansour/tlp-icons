@@ -1,0 +1,10 @@
+{
+  "name": "story-points",
+  "category": "charts",
+  "tags": ["story", "points", "estimate", "cards", "agile", "backlog"],
+  "svg": "<path class=\"p1\" d=\"M4 2h16v4H4zM4 10h16v4H4zM4 18h16v4H4z\"/><circle class=\"f p2\" cx=\"7\" cy=\"4\" r=\"1\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"7\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "barometric-drop",
+  "category": "weather",
+  "tags": ["barometer", "pressure", "drop", "gauge", "dial", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7v8M9.5 12.5 12 15l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 900, "delay": 800 }
+  ]
+}

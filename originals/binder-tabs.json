@@ -1,0 +1,10 @@
+{
+  "name": "binder-tabs",
+  "category": "files",
+  "tags": ["binder", "tabs", "page", "dividers", "index", "organize"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M15 6h5M15 11h5M15 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

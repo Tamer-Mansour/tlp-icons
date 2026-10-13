@@ -1,0 +1,11 @@
+{
+  "name": "bouldering-pad",
+  "category": "sport",
+  "tags": ["bouldering", "crash", "pad", "mat", "climbing", "landing"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h18v12h-18z\"/><line class=\"p2\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"f p3\" cx=\"8\" cy=\"16\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

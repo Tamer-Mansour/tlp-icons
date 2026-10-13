@@ -1,0 +1,10 @@
+{
+  "name": "video-cable",
+  "category": "devices",
+  "tags": ["video", "cable", "hdmi", "connector", "signal", "display"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"3\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"19\" y=\"9\" width=\"3\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M7 12c1.5-3 3-3 5 0s3.5 3 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cross-diamond",
+  "category": "shapes",
+  "tags": ["cross", "diamond", "plus", "shape", "symbol"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L21 12L12 21L3 12Z\"/><path class=\"p2\" d=\"M12 8.5V15.5M8.5 12H15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "light-year",
+  "category": "science",
+  "tags": ["light", "year", "distance", "star", "arrow", "astronomy"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"18\" y2=\"12\"/><polyline class=\"p1\" points=\"14,8 18,12 14,16\"/><polygon class=\"d p2\" points=\"19.5,2 20.4,4.2 22,5 20.4,5.8 19.5,8 18.6,5.8 17,5 18.6,4.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 800 }
+  ]
+}

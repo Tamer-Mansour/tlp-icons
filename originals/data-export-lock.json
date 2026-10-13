@@ -1,0 +1,11 @@
+{
+  "name": "data-export-lock",
+  "category": "security",
+  "tags": ["security", "data", "export", "lock", "backup", "transfer"],
+  "svg": "<ellipse class=\"p1\" cx=\"7\" cy=\"5\" rx=\"4.5\" ry=\"2\"/><path class=\"p1\" d=\"M2.5 5 V19 A4.5 2 0 0 0 11.5 19 V5\"/><path class=\"p2\" d=\"M14 6 H20 M17 3.5 L20 6 L17 8.5\"/><rect class=\"p3\" x=\"15\" y=\"15\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M16.5 15 V13 A2.5 2.5 0 0 1 21.5 13 V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

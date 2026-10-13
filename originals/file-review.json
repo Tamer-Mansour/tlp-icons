@@ -1,0 +1,11 @@
+{
+  "name": "file-review",
+  "category": "files",
+  "tags": ["review", "inspect", "check", "audit", "magnify"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><circle class=\"p2\" cx=\"14\" cy=\"14\" r=\"3\"/><path class=\"p2\" d=\"M16.2 16.2L18 18\"/><path class=\"p3\" d=\"M6.5 11L8 12.5l2.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1300 }
+  ]
+}

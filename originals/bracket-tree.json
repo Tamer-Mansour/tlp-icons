@@ -1,0 +1,12 @@
+{
+  "name": "bracket-tree",
+  "category": "sport",
+  "tags": ["bracket", "tournament", "playoff", "merge", "knockout"],
+  "svg": "<path class=\"p1\" d=\"M3 4H10V10H3\"/><path class=\"p2\" d=\"M3 14H10V20H3\"/><path class=\"p3\" d=\"M10 7H13M10 17H13M13 7V17\"/><path class=\"p4\" d=\"M13 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 1200 }
+  ]
+}

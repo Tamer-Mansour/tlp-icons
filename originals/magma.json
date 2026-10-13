@@ -1,0 +1,10 @@
+{
+  "name": "magma",
+  "category": "nature",
+  "tags": ["magma", "lava", "underground", "bubbles", "molten", "volcano"],
+  "svg": "<path class=\"d p1\" d=\"M3 15h18v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><circle class=\"p2\" cx=\"8\" cy=\"11.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"14\" cy=\"10\" r=\"1.5\"/><circle class=\"p2\" cx=\"10\" cy=\"5.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "user-graduation",
+  "category": "people",
+  "tags": ["user", "graduation", "student", "degree", "education", "cap", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"11.5\" r=\"2.8\"/><path class=\"p1\" d=\"M2.5 21.5v-1.5a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1.5\"/><path class=\"d p2\" d=\"M16 3.5 22 6.5 16 9.5 10 6.5z\"/><path class=\"p3\" d=\"M19.5 7.5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1000, "origin": "20px 8px" }
+  ]
+}

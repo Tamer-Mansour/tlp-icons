@@ -1,0 +1,10 @@
+{
+  "name": "access-denied",
+  "category": "security",
+  "tags": ["access", "denied", "keyhole", "blocked", "forbidden", "lock"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p2\" d=\"M10.5 12.5L9.5 16H14.5L13.5 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

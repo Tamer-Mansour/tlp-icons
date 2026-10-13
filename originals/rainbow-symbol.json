@@ -1,0 +1,11 @@
+{
+  "name": "rainbow-symbol",
+  "category": "emoji",
+  "tags": ["rainbow", "weather", "arc", "colors", "sky"],
+  "svg": "<path class=\"p1\" d=\"M3 16a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M6 16a6 6 0 0 1 12 0\"/><path class=\"p3\" d=\"M9 16a3 3 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

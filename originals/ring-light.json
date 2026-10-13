@@ -1,0 +1,10 @@
+{
+  "name": "ring-light",
+  "category": "devices",
+  "tags": ["ring", "light", "lamp", "video", "selfie", "studio"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

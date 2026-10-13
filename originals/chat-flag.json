@@ -1,0 +1,11 @@
+{
+  "name": "chat-flag",
+  "category": "communication",
+  "tags": ["report", "flag message", "marked", "alert", "chat"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4h18v13H8l-5 3.5V17H3z\"/><path class=\"p2\" d=\"M8 14.5V6.5\"/><path class=\"p3\" d=\"M8 6.5h5l-1.5 2.25L13 11H8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1000, "origin": "8px 6.5px" }
+  ]
+}

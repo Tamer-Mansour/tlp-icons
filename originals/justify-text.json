@@ -1,0 +1,10 @@
+{
+  "name": "justify-text",
+  "category": "text",
+  "tags": ["justify", "align", "text", "lines", "flush", "paragraph", "format"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18M3 9h18\"/><path class=\"p2\" d=\"M3 13h18M3 17h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 400 }
+  ]
+}

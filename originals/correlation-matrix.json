@@ -1,0 +1,10 @@
+{
+  "name": "correlation-matrix",
+  "category": "charts",
+  "tags": ["correlation", "matrix", "grid", "heatmap", "statistics", "table"],
+  "svg": "<path class=\"p1\" d=\"M10 2h4v4h-4zM18 2h4v4h-4zM2 10h4v4H2zM18 10h4v4h-4zM2 18h4v4H2zM10 18h4v4h-4z\"/><rect class=\"d p2\" x=\"2\" y=\"2\" width=\"4\" height=\"4\"/><rect class=\"d p2\" x=\"10\" y=\"10\" width=\"4\" height=\"4\"/><rect class=\"d p2\" x=\"18\" y=\"18\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

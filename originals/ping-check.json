@@ -1,0 +1,11 @@
+{
+  "name": "ping-check",
+  "category": "connectivity",
+  "tags": ["ping", "check", "latency", "response", "test", "reachable"],
+  "svg": "<circle class=\"f p1\" cx=\"3.5\" cy=\"12\" r=\"1.5\"/><path class=\"p2\" d=\"M7 9.5a4 4 0 0 1 0 5M10 6.5a6 6 0 0 1 0 11\"/><path class=\"p3\" d=\"M16.5 12.5l2 2 3-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

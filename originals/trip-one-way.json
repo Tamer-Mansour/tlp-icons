@@ -1,0 +1,11 @@
+{
+  "name": "trip-one-way",
+  "category": "arrows",
+  "tags": ["route", "travel", "trip", "pin", "destination"],
+  "svg": "<circle class=\"f p3\" cx=\"4\" cy=\"12\" r=\"1.2\"/><path class=\"p1\" d=\"M6 12H9\"/><path class=\"d p2\" d=\"M17 21s-5-5-5-9a5 5 0 0 1 10 0c0 4-5 9-5 9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

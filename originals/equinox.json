@@ -1,0 +1,11 @@
+{
+  "name": "equinox",
+  "category": "time",
+  "tags": ["equinox", "sun", "horizon", "equal", "day", "night"],
+  "svg": "<path class=\"p1\" d=\"M3 15h18\"/><path class=\"d p2\" d=\"M7 15a5 5 0 0 1 10 0z\"/><path class=\"p3\" d=\"M7 19h2M11 19h2M15 19h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "dim", "dur": 900, "delay": 1200 }
+  ]
+}

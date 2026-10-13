@@ -1,0 +1,11 @@
+{
+  "name": "file-zoom-out",
+  "category": "files",
+  "tags": ["file", "zoom", "magnify", "shrink", "search", "document"],
+  "svg": "<path class=\"d p1\" d=\"M4 2.5h9.5L18 7v7.5H4z\"/><circle class=\"p2\" cx=\"15\" cy=\"15\" r=\"4.5\"/><path class=\"p2\" d=\"M18.2 18.2L21 21\"/><path class=\"p3\" d=\"M13 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

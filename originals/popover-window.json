@@ -1,0 +1,11 @@
+{
+  "name": "popover-window",
+  "category": "layout",
+  "tags": ["popover", "window", "tooltip", "callout", "bubble", "menu"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M7 8H17M7 12H14\"/><polyline class=\"p3\" points=\"9,16 12,20 15,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 400, "delay": 1000 }
+  ]
+}

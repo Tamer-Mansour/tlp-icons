@@ -1,0 +1,10 @@
+{
+  "name": "led-indicator",
+  "category": "devices",
+  "tags": ["led", "indicator", "light", "status", "glow", "signal"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 500 }
+  ]
+}

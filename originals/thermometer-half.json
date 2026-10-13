@@ -1,0 +1,11 @@
+{
+  "name": "thermometer-half",
+  "category": "interface",
+  "tags": ["thermometer", "temperature", "half", "level", "heat"],
+  "svg": "<path class=\"p1\" d=\"M10 14V5A2 2 0 0 1 14 5V14A4 4 0 1 1 10 14Z\"/><rect class=\"d p2\" x=\"10.5\" y=\"11\" width=\"3\" height=\"7\"/><path class=\"p3\" d=\"M16.5 8H19M16.5 11H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 1000, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hand-swipe",
+  "category": "emoji",
+  "tags": ["hand", "swipe", "finger", "gesture", "slide"],
+  "svg": "<path class=\"p1\" d=\"M7 12V5.5a1.5 1.5 0 0 1 3 0V12\"/><path class=\"p2\" d=\"M14 6.5a8 8 0 0 1 7 6.5M18 12.5l3 .5.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 700 }
+  ]
+}

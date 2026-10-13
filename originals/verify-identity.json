@@ -1,0 +1,11 @@
+{
+  "name": "verify-identity",
+  "category": "security",
+  "tags": ["verify", "identity", "id", "card", "face", "check"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"10\" r=\"1.5\"/><path class=\"p2\" d=\"M4.5 16.5C5 14.8 6.2 14 7.5 14S10 14.8 10.5 16.5\"/><path class=\"p3\" d=\"M14 12L16 14L19.5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

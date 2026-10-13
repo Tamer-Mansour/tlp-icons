@@ -1,0 +1,10 @@
+{
+  "name": "burr",
+  "category": "nature",
+  "tags": ["burr", "seed", "spiky", "plant", "hooks", "nature"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M12 2.5V7M12 17v4.5M2.5 12H7M17 12h4.5M5.3 5.3l3.5 3.5M15.2 15.2l3.5 3.5M5.3 18.7l3.5-3.5M15.2 8.8l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

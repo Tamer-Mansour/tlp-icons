@@ -1,0 +1,11 @@
+{
+  "name": "fill-light",
+  "category": "photography",
+  "tags": ["fill light", "lamp", "soft light", "shadow", "lighting", "studio"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"5\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M9 6L14 4M9 8L14 8M9 10L14 12\"/><ellipse class=\"d p3\" cx=\"17\" cy=\"16\" rx=\"4\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

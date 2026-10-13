@@ -1,0 +1,11 @@
+{
+  "name": "crosshair-plot",
+  "category": "charts",
+  "tags": ["crosshair", "target", "aim", "plot", "point", "focus"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 2v2M12 20v2M2 12h2M20 12h2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

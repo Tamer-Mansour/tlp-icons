@@ -1,0 +1,10 @@
+{
+  "name": "power-over-ethernet",
+  "category": "connectivity",
+  "tags": ["poe", "power", "ethernet", "plug", "bolt", "network"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"10\" height=\"12\" rx=\"1.5\"/><path class=\"p1\" d=\"M6 9.5 V12 M9 9.5 V12\"/><polyline class=\"p2\" points=\"19,3 15.5,12.5 20,12.5 17,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "queue-status",
+  "category": "notifications",
+  "tags": ["queue", "list", "rows", "status", "backlog"],
+  "svg": "<path class=\"p1\" d=\"M9 6h12M9 12h12\"/><path class=\"p2\" d=\"M9 18h12\"/><circle class=\"f p3\" cx=\"4\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

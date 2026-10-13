@@ -1,0 +1,11 @@
+{
+  "name": "boat-engine",
+  "category": "vehicles",
+  "tags": ["boat", "engine", "outboard", "propeller", "marine"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M8 9v7.5h5\"/><circle class=\"p3\" cx=\"15\" cy=\"16.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "spinFast", "dur": 900, "delay": 1000, "origin": "15px 16.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pipe-cutter",
+  "category": "tools",
+  "tags": ["pipe", "cutter", "plumbing", "wheel", "tubing", "cut"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"11\" height=\"6\" rx=\"1\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M18 4V9M18 15V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

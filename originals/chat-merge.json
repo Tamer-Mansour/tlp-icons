@@ -1,0 +1,11 @@
+{
+  "name": "chat-merge",
+  "category": "communication",
+  "tags": ["merge", "combine", "join", "chat", "bubbles", "consolidate"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"5\" rx=\"2.5\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"5\" rx=\"2.5\"/><path class=\"p2\" d=\"M7 8v2.5L12 14 17 10.5V8\"/><rect class=\"d p3\" x=\"7\" y=\"16\" width=\"10\" height=\"5\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

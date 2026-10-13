@@ -1,0 +1,10 @@
+{
+  "name": "wind-flag",
+  "category": "weather",
+  "tags": ["flag", "wind", "pole", "blowing", "breeze"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><path class=\"d p2\" d=\"M4 4Q8 2 12 4T20 4V13Q16 11 12 13T4 13Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 600, "origin": "left" }
+  ]
+}

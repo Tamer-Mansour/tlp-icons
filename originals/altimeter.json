@@ -1,0 +1,11 @@
+{
+  "name": "altimeter",
+  "category": "vehicles",
+  "tags": ["altimeter", "altitude", "gauge", "dial", "flight", "aircraft"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p3\" d=\"M12 4.5V6M19.5 12H18M4.5 12H6\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

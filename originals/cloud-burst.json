@@ -1,0 +1,11 @@
+{
+  "name": "cloud-burst",
+  "category": "weather",
+  "tags": ["cloud", "burst", "downpour", "rain", "storm", "splash"],
+  "svg": "<path class=\"p1\" d=\"M6 13 H17 A3.5 3.5 0 0 0 17 6 A5 5 0 0 0 7.5 5 A4 4 0 0 0 6 13 Z\"/><path class=\"p2\" d=\"M7 16 V19.5 M12 16 V21 M17 16 V19.5\"/><path class=\"p3\" d=\"M4.5 17 L3 19 M19.5 17 L21 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 1200 }
+  ]
+}

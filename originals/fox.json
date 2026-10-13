@@ -1,0 +1,11 @@
+{
+  "name": "fox",
+  "category": "nature",
+  "tags": ["animal", "forest", "sly", "wild", "canine"],
+  "svg": "<path class=\"d p1\" d=\"M3 4l6 4.5h6L21 4l-1.5 9L12 21 4.5 13z\"/><path class=\"p2\" d=\"M8 11l2 1M16 11l-2 1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

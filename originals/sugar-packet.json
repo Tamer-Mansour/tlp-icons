@@ -1,0 +1,11 @@
+{
+  "name": "sugar-packet",
+  "category": "food",
+  "tags": ["sugar", "packet", "sachet", "sweetener", "cafe", "packaging"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"10\" rx=\"1\"/><polyline class=\"p2\" points=\"5,8 7,6.5 9,8 11,6.5 13,8 15,6.5 17,8 19,6.5\"/><path class=\"p3\" d=\"M5 12.5l14 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

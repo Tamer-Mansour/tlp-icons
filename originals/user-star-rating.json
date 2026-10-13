@@ -1,0 +1,10 @@
+{
+  "name": "user-star-rating",
+  "category": "people",
+  "tags": ["user", "star", "rating", "review", "feedback"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20c.5-3.5 3.1-5.5 6.5-5.5\"/><polygon class=\"p2\" points=\"18 11.5 19.1 13.9 21.7 14.2 19.7 16 20.3 18.6 18 17.2 15.7 18.6 16.3 16 14.3 14.2 16.9 13.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "age-gate",
+  "category": "people",
+  "tags": ["age", "gate", "restricted", "adult", "lock", "access"],
+  "svg": "<path class=\"p1\" d=\"M2 21V10a5 5 0 0 1 10 0v11\"/><circle class=\"p2\" cx=\"7\" cy=\"11\" r=\"2\"/><path class=\"p2\" d=\"M4 21a3 3 0 0 1 6 0\"/><rect class=\"p3\" x=\"14\" y=\"13\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M16 13v-2a1.5 1.5 0 0 1 3 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1200 }
+  ]
+}

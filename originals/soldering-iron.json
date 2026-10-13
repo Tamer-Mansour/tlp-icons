@@ -1,0 +1,11 @@
+{
+  "name": "soldering-iron",
+  "category": "tools",
+  "tags": ["soldering", "iron", "solder", "electronics", "tip", "heat"],
+  "svg": "<path class=\"d p1\" d=\"M14 4l6 6-3 3-6-6z\"/><path class=\"p2\" d=\"M11 9l-6 6\"/><circle class=\"f p3\" cx=\"4\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

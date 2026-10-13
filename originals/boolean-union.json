@@ -1,0 +1,10 @@
+{
+  "name": "boolean-union",
+  "category": "design",
+  "tags": ["boolean", "union", "merge", "shapes", "combine", "outline"],
+  "svg": "<path class=\"p1\" d=\"M3 3H14V10H21V21H10V14H3Z\"/><path class=\"d p2\" d=\"M10 10H14V14H10Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

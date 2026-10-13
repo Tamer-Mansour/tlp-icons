@@ -1,0 +1,10 @@
+{
+  "name": "cloakroom",
+  "category": "buildings",
+  "tags": ["cloakroom", "coat", "hook", "rail", "wardrobe", "hanger"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"4\" x2=\"21\" y2=\"4\"/><line class=\"p1\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"6\"/><path class=\"d p2\" d=\"M7 8.5l5-2.5 5 2.5V20H7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

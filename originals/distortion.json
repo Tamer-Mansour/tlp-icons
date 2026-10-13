@@ -1,0 +1,10 @@
+{
+  "name": "distortion",
+  "category": "media",
+  "tags": ["distortion", "clipping", "audio", "wave", "effect"],
+  "svg": "<path class=\"p1\" d=\"M2 12h3l2-6h4l2 12h4l2-6h2\"/><path class=\"p2\" d=\"M17 2h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

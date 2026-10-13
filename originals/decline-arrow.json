@@ -1,0 +1,10 @@
+{
+  "name": "decline-arrow",
+  "category": "arrows",
+  "tags": ["decline", "falling", "decrease", "downward", "trend"],
+  "svg": "<path class=\"p1\" d=\"M3 8 L19 16\"/><path class=\"p2\" d=\"M14 16 H19 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

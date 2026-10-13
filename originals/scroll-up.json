@@ -1,0 +1,10 @@
+{
+  "name": "scroll-up",
+  "category": "arrows",
+  "tags": ["scroll", "up", "mouse", "wheel", "page"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"6\"/><path class=\"p2\" d=\"M12 7 V11\"/><polyline class=\"p2\" points=\"10 9 12 7 14 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

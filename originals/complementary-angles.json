@@ -1,0 +1,11 @@
+{
+  "name": "complementary-angles",
+  "category": "math",
+  "tags": ["complementary", "angles", "right angle", "geometry", "sum"],
+  "svg": "<path class=\"p1\" d=\"M4 4 V20 H20\"/><path class=\"p2\" d=\"M4 20 L16 8\"/><path class=\"p3\" d=\"M8 20 A4 4 0 0 0 6.8 17.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

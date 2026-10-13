@@ -1,0 +1,12 @@
+{
+  "name": "library-books",
+  "category": "development",
+  "tags": ["library", "books", "docs", "shelf", "reference", "knowledge"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"4\" height=\"13\" rx=\"0.5\"/><rect class=\"p2\" x=\"10\" y=\"3\" width=\"4\" height=\"15\" rx=\"0.5\"/><rect class=\"p3\" x=\"16\" y=\"7\" width=\"4\" height=\"11\" rx=\"0.5\"/><path class=\"p4\" d=\"M3 20.5 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 250, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

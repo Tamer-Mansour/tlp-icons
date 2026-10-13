@@ -1,0 +1,11 @@
+{
+  "name": "car-stereo",
+  "category": "devices",
+  "tags": ["car", "stereo", "radio", "head", "unit", "audio"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"6\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M10.5 12H13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flow-start",
+  "category": "interface",
+  "tags": ["flow", "start", "begin", "node", "diagram", "process"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M5 8.5V13h7\"/><rect class=\"p3\" x=\"12\" y=\"9\" width=\"9\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

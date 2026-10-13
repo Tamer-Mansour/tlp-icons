@@ -1,0 +1,11 @@
+{
+  "name": "badge-holder",
+  "category": "files",
+  "tags": ["badge", "id", "lanyard", "holder", "name"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"7\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M10 4a2 2 0 0 1 4 0V7\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M9 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

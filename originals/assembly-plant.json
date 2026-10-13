@@ -1,0 +1,11 @@
+{
+  "name": "assembly-plant",
+  "category": "buildings",
+  "tags": ["assembly", "plant", "factory", "gear", "sawtooth", "manufacturing"],
+  "svg": "<path class=\"d p1\" d=\"M3 20 V10 L7 6 V10 L11 6 V10 L15 6 V10 L19 6 V10 H21 V20 Z\"/><circle class=\"p2\" cx=\"9\" cy=\"15\" r=\"2.5\"/><path class=\"p3\" d=\"M14 15 H19 M17 13 L19 15 L17 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "valley",
+  "category": "nature",
+  "tags": ["valley", "slope", "river", "landscape", "terrain"],
+  "svg": "<path class=\"p1\" d=\"M2 5l6.5 7.5h7L22 5\"/><path class=\"p2\" d=\"M4 17c2.5-1.5 5-1.5 8 0s5.5 1.5 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 700 }
+  ]
+}

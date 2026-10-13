@@ -1,0 +1,11 @@
+{
+  "name": "account-frozen",
+  "category": "people",
+  "tags": ["frozen account", "frozen", "snowflake", "locked profile", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p2\" d=\"M12 2v2.5M5.5 4.5l2 2M18.5 4.5l-2 2\"/><path class=\"p3\" d=\"M6 16v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

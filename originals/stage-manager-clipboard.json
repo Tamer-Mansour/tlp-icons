@@ -1,0 +1,11 @@
+{
+  "name": "stage-manager-clipboard",
+  "category": "people",
+  "tags": ["stage", "manager", "clipboard", "theatre", "checklist", "cues"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 17 V12 Q12 7 16 12 V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 1200 }
+  ]
+}

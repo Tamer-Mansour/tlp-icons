@@ -1,0 +1,10 @@
+{
+  "name": "page-header",
+  "category": "text",
+  "tags": ["page", "header", "top", "layout", "document"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"4\" y=\"2\" width=\"16\" height=\"5\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

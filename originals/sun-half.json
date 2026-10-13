@@ -1,0 +1,11 @@
+{
+  "name": "sun-half",
+  "category": "emoji",
+  "tags": ["sun", "sunrise", "dawn", "horizon", "morning", "day"],
+  "svg": "<path class=\"d p1\" d=\"M4 16 A8 8 0 0 1 20 16 Z\"/><path class=\"p2\" d=\"M12 3 V5 M4.2 8.2 L2.8 6.8 M19.8 8.2 L21.2 6.8\"/><path class=\"p3\" d=\"M2 19.5 H22\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hockey-skate",
+  "category": "sport",
+  "tags": ["hockey", "skate", "ice", "skating", "blade", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M5 3 H11 V13 H19 Q21 13 21 15 V18 H5 Z\"/><path class=\"p2\" d=\"M3 21 H21\"/><path class=\"p3\" d=\"M7 7 H10 M7 10 H10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 1000 }
+  ]
+}

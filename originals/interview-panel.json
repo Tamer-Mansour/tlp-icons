@@ -1,0 +1,12 @@
+{
+  "name": "interview-panel",
+  "category": "people",
+  "tags": ["interview", "panel", "hiring", "table", "candidates"],
+  "svg": "<line class=\"p1\" x1=\"1.5\" y1=\"16\" x2=\"22.5\" y2=\"16\"/><path class=\"p3\" d=\"M2 16Q2 12.5 4.5 12.5Q7 12.5 7 16M9.5 16Q9.5 12.5 12 12.5Q14.5 12.5 14.5 16M17 16Q17 12.5 19.5 12.5Q22 12.5 22 16\"/><circle class=\"p2\" cx=\"4.5\" cy=\"8\" r=\"2.5\"/><circle class=\"p2\" cx=\"19.5\" cy=\"8\" r=\"2.5\"/><circle class=\"p4\" cx=\"12\" cy=\"7\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 1100 },
+    { "part": "p4", "anim": "nod", "dur": 700, "delay": 1500, "origin": "bottom" }
+  ]
+}

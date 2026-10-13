@@ -1,0 +1,11 @@
+{
+  "name": "music-box",
+  "category": "media",
+  "tags": ["music box", "crank", "melody", "toy", "note", "box"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"14\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M17 14h4\"/><path class=\"p3\" d=\"M8 10V5l5-1v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "17px 14px" }
+  ]
+}

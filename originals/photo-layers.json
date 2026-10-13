@@ -1,0 +1,11 @@
+{
+  "name": "photo-layers",
+  "category": "photography",
+  "tags": ["photo", "layers", "stack", "cards", "depth"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"4\" width=\"13\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"7\" width=\"13\" height=\"10\" rx=\"2\"/><rect class=\"d p3\" x=\"3\" y=\"10\" width=\"13\" height=\"10\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

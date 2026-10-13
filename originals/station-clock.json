@@ -1,0 +1,11 @@
+{
+  "name": "station-clock",
+  "category": "vehicles",
+  "tags": ["clock", "station", "time", "platform", "railway", "timer"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M12 6v4l3 2\"/><path class=\"p3\" d=\"M12 18v3M9 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bathrobe",
+  "category": "home",
+  "tags": ["robe", "bathrobe", "spa", "sash", "bath", "housecoat"],
+  "svg": "<path class=\"d p1\" d=\"M8 3L4 6v15h16V6l-4-3z\"/><path class=\"p2\" d=\"M8 3l4 4 4-4\"/><path class=\"p3\" d=\"M4 13h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "breathe", "dur": 800, "delay": 1200 }
+  ]
+}

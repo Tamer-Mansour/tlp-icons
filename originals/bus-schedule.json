@@ -1,0 +1,11 @@
+{
+  "name": "bus-schedule",
+  "category": "time",
+  "tags": ["bus", "schedule", "transit", "timetable", "stop", "departures"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"11\" rx=\"3\"/><circle class=\"p2\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"8.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

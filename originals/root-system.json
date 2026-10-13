@@ -1,0 +1,10 @@
+{
+  "name": "root-system",
+  "category": "nature",
+  "tags": ["roots", "plant", "soil", "growth", "underground"],
+  "svg": "<path class=\"p1\" d=\"M3 8h18\"/><path class=\"p2\" d=\"M12 8v4l-4 4v6M12 12l4 4v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 900, "delay": 500 }
+  ]
+}

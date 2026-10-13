@@ -1,0 +1,11 @@
+{
+  "name": "tower-server",
+  "category": "devices",
+  "tags": ["tower", "server", "computer", "drive", "storage", "hardware"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 7h6M9 12h6\"/><circle class=\"f p3\" cx=\"16\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

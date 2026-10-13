@@ -1,0 +1,10 @@
+{
+  "name": "perspective-warp",
+  "category": "design",
+  "tags": ["perspective", "warp", "distort", "trapezoid", "grid", "transform"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18l-4 14H7z\"/><path class=\"p2\" d=\"M6.4 12h11.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 700 }
+  ]
+}

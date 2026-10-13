@@ -1,0 +1,10 @@
+{
+  "name": "vaulted-ceiling",
+  "category": "buildings",
+  "tags": ["ceiling", "vault", "arch", "architecture", "roof", "lines"],
+  "svg": "<path class=\"p1\" d=\"M3 21V11a9 9 0 0 1 18 0v10\"/><path class=\"p2\" d=\"M8 21v-6a4 4 0 0 1 8 0v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

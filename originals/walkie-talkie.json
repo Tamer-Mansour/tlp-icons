@@ -1,0 +1,11 @@
+{
+  "name": "walkie-talkie",
+  "category": "devices",
+  "tags": ["walkie", "talkie", "radio", "handset", "speaker", "communication"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M15 8V3\"/><path class=\"p3\" d=\"M10 12h4M10 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

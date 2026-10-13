@@ -1,0 +1,10 @@
+{
+  "name": "d4",
+  "category": "sport",
+  "tags": ["d4", "dice", "tetrahedron", "polyhedron", "roll", "tabletop"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 21,19 3,19\"/><path class=\"p2\" d=\"M3 19L12 13L21 19M12 13V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pulse-monitor",
+  "category": "sport",
+  "tags": ["monitor", "heartbeat", "pulse", "screen", "health", "ecg"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M3 11H8L10 8L13 14L15 11H21\"/><path class=\"p3\" d=\"M12 18V21M8 21H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

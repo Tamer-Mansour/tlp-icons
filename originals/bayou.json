@@ -1,0 +1,11 @@
+{
+  "name": "bayou",
+  "category": "nature",
+  "tags": ["bayou", "swamp", "cypress", "water", "marsh", "wetland"],
+  "svg": "<path class=\"d p1\" d=\"M3 17c3-2 5 2 9 0s6-2 9 0v3H3z\"/><path class=\"p2\" d=\"M7 14V5M5 9l2-2 2 2\"/><path class=\"p3\" d=\"M16 14v-5M14 11l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

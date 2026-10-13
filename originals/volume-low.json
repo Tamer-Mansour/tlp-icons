@@ -1,0 +1,10 @@
+{
+  "name": "volume-low",
+  "category": "interface",
+  "tags": ["volume", "sound", "speaker", "audio", "low", "quiet"],
+  "svg": "<path class=\"d p1\" d=\"M3 9H7L12 5V19L7 15H3Z\"/><path class=\"p2\" d=\"M15.5 9.5A3.5 3.5 0 0 1 15.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 700 }
+  ]
+}

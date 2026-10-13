@@ -1,0 +1,10 @@
+{
+  "name": "musical-notes",
+  "category": "emoji",
+  "tags": ["music", "notes", "song", "sound", "melody", "audio"],
+  "svg": "<ellipse class=\"d p1\" cx=\"6\" cy=\"17\" rx=\"2.5\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"17\" cy=\"15\" rx=\"2.5\" ry=\"2\"/><path class=\"p2\" d=\"M8.5 17 V4.5 L19.5 2.5 V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

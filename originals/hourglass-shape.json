@@ -1,0 +1,10 @@
+{
+  "name": "hourglass-shape",
+  "category": "shapes",
+  "tags": ["hourglass", "timer", "time", "sand", "waiting", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h12l-6 9 6 9H6l6-9z\"/><path class=\"p2\" d=\"M5 3h14M5 21h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

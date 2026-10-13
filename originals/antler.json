@@ -1,0 +1,10 @@
+{
+  "name": "antler",
+  "category": "nature",
+  "tags": ["antler", "deer", "horns", "branches", "wildlife", "animal"],
+  "svg": "<path class=\"p1\" d=\"M12 22V9M12 15L7 11V5M12 11L17 7V3\"/><path class=\"p2\" d=\"M7 8.5L4.5 7M17 6.5L19.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "face-surprised",
+  "category": "people",
+  "tags": ["surprised", "face", "shock", "wow", "emoji", "amazed"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"9.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"9.5\" r=\"1.2\"/><circle class=\"p3\" cx=\"12\" cy=\"15.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "jelly", "dur": 700, "delay": 900 }
+  ]
+}

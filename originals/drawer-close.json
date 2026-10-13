@@ -1,0 +1,10 @@
+{
+  "name": "drawer-close",
+  "category": "interface",
+  "tags": ["drawer", "tray", "close", "inbox", "closed", "storage"],
+  "svg": "<path class=\"p1\" d=\"M3 13v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6\"/><path class=\"p2\" d=\"M3 13h4.5l1.5 2h6l1.5-2H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 500, "delay": 900 }
+  ]
+}

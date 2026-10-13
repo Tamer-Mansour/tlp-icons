@@ -1,0 +1,11 @@
+{
+  "name": "arrival-time",
+  "category": "time",
+  "tags": ["arrival", "arrive", "clock", "entry", "incoming", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"15\" cy=\"12\" r=\"6.5\"/><path class=\"p3\" d=\"M15 8v4l2 2\"/><path class=\"p2\" d=\"M2.5 12h4M3.5 9.5l3 2.5-3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 1100 }
+  ]
+}

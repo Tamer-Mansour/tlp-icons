@@ -1,0 +1,10 @@
+{
+  "name": "inbox-warning",
+  "category": "security",
+  "tags": ["inbox", "warning", "alert", "tray", "security", "mail"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H8 L9.5 15 H14.5 L16 13 H21 V20 H3 Z\"/><polygon class=\"p2\" points=\"12,3 16.5,11 7.5,11\"/><line class=\"p2\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 700 }
+  ]
+}

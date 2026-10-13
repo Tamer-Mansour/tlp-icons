@@ -1,0 +1,10 @@
+{
+  "name": "text-diff",
+  "category": "text",
+  "tags": ["text", "diff", "compare", "highlight", "changes", "edit"],
+  "svg": "<path class=\"p1\" d=\"M3 6 H21 M3 10 H14 M3 16 H17 M3 20 H10\"/><rect class=\"d p2\" x=\"11\" y=\"14\" width=\"7\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

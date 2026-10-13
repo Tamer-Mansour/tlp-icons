@@ -1,0 +1,11 @@
+{
+  "name": "roller-frame",
+  "category": "tools",
+  "tags": ["roller", "paint", "frame", "cover", "painting", "handle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"14\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M8 10v3h5v-3\"/><path class=\"p3\" d=\"M13 13l7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

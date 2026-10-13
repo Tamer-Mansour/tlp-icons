@@ -1,0 +1,10 @@
+{
+  "name": "user-mention",
+  "category": "communication",
+  "tags": ["mention user", "person", "at sign", "tag", "profile"],
+  "svg": "<circle class=\"p1 d\" cx=\"9.5\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20.5c0-3.6 2.9-6.5 6.5-6.5s6.5 2.9 6.5 6.5\"/><path class=\"p2\" d=\"M19.5 12v1a1 1 0 0 0 2 0v-1a4 4 0 1 0-1.5 3.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "beer-stein",
+  "category": "food",
+  "tags": ["beer", "stein", "mug", "drink", "pub"],
+  "svg": "<path class=\"d p1\" d=\"M4 7 H15 V20 H4 Z\"/><path class=\"p2\" d=\"M15 10 H17 Q19.5 10 19.5 12.5 V15 Q19.5 17.5 17 17.5 H15\"/><path class=\"p3\" d=\"M4 7 Q5.5 4 7 7 T10 7 T13 7 T15 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

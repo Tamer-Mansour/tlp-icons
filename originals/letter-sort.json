@@ -1,0 +1,12 @@
+{
+  "name": "letter-sort",
+  "category": "communication",
+  "tags": ["letter", "sort", "mail", "branch", "split", "filter", "route"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M12 9v4\"/><path class=\"p3\" d=\"M12 13l-5 4M12 13l5 4\"/><path class=\"p4\" d=\"M3 17h5v5H3zM16 17h5v5h-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 500, "delay": 1200 }
+  ]
+}

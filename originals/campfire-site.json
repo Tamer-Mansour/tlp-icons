@@ -1,0 +1,11 @@
+{
+  "name": "campfire-site",
+  "category": "buildings",
+  "tags": ["campfire", "fire", "logs", "camp", "flame", "outdoors"],
+  "svg": "<path class=\"p1\" d=\"M4 20.5L20 14.5M4 14.5L20 20.5\"/><path class=\"d p2\" d=\"M12 3.5c2.5 2.5 4 4.5 4 7a4 4 0 0 1-8 0c0-2 1-3.5 2-4.5.3 1.2.8 1.8 1.5 2.2z\"/><circle class=\"f p3\" cx=\"19\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"5\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "incident-flag",
+  "category": "notifications",
+  "tags": ["incident", "flag", "alert", "warning", "issue"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><path class=\"d p2\" d=\"M5 3h11l-2.5 4.5L16 12H5z\"/><path class=\"p3\" d=\"M10.5 5.5v3\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"10\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

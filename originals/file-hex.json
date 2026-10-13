@@ -1,0 +1,11 @@
+{
+  "name": "file-hex",
+  "category": "files",
+  "tags": ["hex", "hexadecimal", "code", "hash", "dump", "bytes"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><polygon class=\"d p2\" points=\"12 8 15.5 10 15.5 14 12 16 8.5 14 8.5 10\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

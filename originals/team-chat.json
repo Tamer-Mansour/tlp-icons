@@ -1,0 +1,10 @@
+{
+  "name": "team-chat",
+  "category": "communication",
+  "tags": ["team", "chat", "group", "people", "conversation", "bubble"],
+  "svg": "<path class=\"p1\" d=\"M3 9h18v9H10l-4 3v-3H3z\"/><circle class=\"p2\" cx=\"6\" cy=\"5\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"5\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 600, "delay": 900 }
+  ]
+}

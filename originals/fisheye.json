@@ -1,0 +1,11 @@
+{
+  "name": "fisheye",
+  "category": "photography",
+  "tags": ["fisheye", "lens", "curved", "wide", "distort", "round", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M5.5 10Q12 6 18.5 10M5.5 14Q12 18 18.5 14\"/><path class=\"p3\" d=\"M12 5.5Q8.5 12 12 18.5M12 5.5Q15.5 12 12 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

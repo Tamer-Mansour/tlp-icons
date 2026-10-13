@@ -1,0 +1,10 @@
+{
+  "name": "matrix-grid",
+  "category": "charts",
+  "tags": ["matrix", "grid", "table", "cells", "bracket", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18M12 3v18\"/><path class=\"p2\" d=\"M7 3H3v18h4M17 3h4v18h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 700, "delay": 700 }
+  ]
+}

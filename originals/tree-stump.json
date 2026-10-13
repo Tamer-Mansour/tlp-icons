@@ -1,0 +1,11 @@
+{
+  "name": "tree-stump",
+  "category": "nature",
+  "tags": ["tree", "stump", "wood", "cut", "log"],
+  "svg": "<path class=\"p1\" d=\"M5 9v10a7 2.5 0 0 0 14 0V9\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"9\" rx=\"7\" ry=\"2.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"9\" rx=\"3\" ry=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

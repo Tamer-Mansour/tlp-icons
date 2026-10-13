@@ -1,0 +1,10 @@
+{
+  "name": "funnel-arrow",
+  "category": "arrows",
+  "tags": ["funnel", "filter", "arrow", "drop", "arrows"],
+  "svg": "<polygon class=\"d p1\" points=\"3 4 21 4 14 12 14 20 10 20 10 12\"/><path class=\"p2\" d=\"M12 1.5V9\"/><polyline class=\"p2\" points=\"9 6 12 9 15 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 700, "delay": 500 }
+  ]
+}

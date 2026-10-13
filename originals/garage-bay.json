@@ -1,0 +1,10 @@
+{
+  "name": "garage-bay",
+  "category": "buildings",
+  "tags": ["garage", "bay", "car", "roof", "vehicle", "open"],
+  "svg": "<path class=\"p1\" d=\"M3 9l9-6 9 6M5 9v11h14V9\"/><path class=\"p2\" d=\"M7 16l2-3h6l2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drive", "dur": 900, "delay": 800 }
+  ]
+}

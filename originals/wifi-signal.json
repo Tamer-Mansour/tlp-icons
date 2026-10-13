@@ -1,0 +1,12 @@
+{
+  "name": "wifi-signal",
+  "category": "interface",
+  "tags": ["wifi", "signal", "wireless", "network", "internet", "connection"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M8.94 16.43A4 4 0 0 1 15.06 16.43\"/><path class=\"p3\" d=\"M5.87 13.86A8 8 0 0 1 18.13 13.86\"/><path class=\"p4\" d=\"M2.81 11.3A12 12 0 0 1 21.19 11.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

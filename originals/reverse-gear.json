@@ -1,0 +1,10 @@
+{
+  "name": "reverse-gear",
+  "category": "vehicles",
+  "tags": ["reverse", "gear", "gearshift", "transmission", "car", "manual"],
+  "svg": "<path class=\"p1\" d=\"M10 9 V20 M18 9 V20 M10 14.5 H18\"/><path class=\"p2\" d=\"M10 4 A5 5 0 0 0 5 9\"/><polyline class=\"p2\" points=\"3.5 7.5 5 9 6.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 900, "delay": 800 }
+  ]
+}

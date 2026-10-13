@@ -1,0 +1,11 @@
+{
+  "name": "save-slot",
+  "category": "sport",
+  "tags": ["save", "floppy", "slot", "disk", "store"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"7\" height=\"6\" rx=\"0.5\"/><line class=\"p3\" x1=\"8\" y1=\"15\" x2=\"16\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

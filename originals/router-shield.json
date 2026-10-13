@@ -1,0 +1,11 @@
+{
+  "name": "router-shield",
+  "category": "security",
+  "tags": ["router", "shield", "network", "secure", "wifi", "protection"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"12\" width=\"18\" height=\"8\" rx=\"2\"/><path class=\"d p2\" d=\"M12 2.5l3 1.2v2.6c0 1.7-1.3 2.8-3 3.4-1.7-.6-3-1.7-3-3.4V3.7z\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"16\" r=\"1\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

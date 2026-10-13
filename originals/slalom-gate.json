@@ -1,0 +1,10 @@
+{
+  "name": "slalom-gate",
+  "category": "sport",
+  "tags": ["slalom", "gate", "skiing", "flags", "course", "race"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18M20 3v18\"/><path class=\"d p2\" d=\"M4 4h7l-2 3 2 3H4zM20 12h-7l2 3-2 3h7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "large-format-camera",
+  "category": "photography",
+  "tags": ["large", "format", "camera", "bellows", "view", "film"],
+  "svg": "<rect class=\"p2\" x=\"2\" y=\"8\" width=\"2\" height=\"8\"/><polygon class=\"d p3\" points=\"6,9 15,7 15,17 6,15\"/><rect class=\"d p1\" x=\"17\" y=\"6\" width=\"4\" height=\"12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

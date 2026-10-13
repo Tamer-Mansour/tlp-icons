@@ -1,0 +1,10 @@
+{
+  "name": "close-circle",
+  "category": "interface",
+  "tags": ["close", "circle", "dismiss", "cancel", "remove", "clear"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 9l6 6M15 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

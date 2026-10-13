@@ -1,0 +1,11 @@
+{
+  "name": "farmers-market",
+  "category": "buildings",
+  "tags": ["farmers", "market", "produce", "crate", "fresh", "awning"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5L4.5 4.5h15L21 9.5z\"/><rect class=\"p2\" x=\"5\" y=\"13\" width=\"14\" height=\"8\"/><circle class=\"p3\" cx=\"9\" cy=\"16.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"13.5\" cy=\"16.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sim-signal",
+  "category": "connectivity",
+  "tags": ["sim", "signal", "card", "cellular", "mobile", "reception"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M16.5 5.5A6 6 0 0 1 22 11\"/><path class=\"p3\" d=\"M16.5 2A9.5 9.5 0 0 1 21.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

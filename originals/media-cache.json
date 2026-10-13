@@ -1,0 +1,11 @@
+{
+  "name": "media-cache",
+  "category": "media",
+  "tags": ["cache", "media", "storage", "buffer", "stack", "download"],
+  "svg": "<path class=\"d p1\" d=\"M4 9.5v8c0 1.4 3.6 2.5 8 2.5s8-1.1 8-2.5v-8c0-1.4-3.6-2.5-8-2.5S4 8.1 4 9.5z\"/><path class=\"p2\" d=\"M4 13.5c0 1.4 3.6 2.5 8 2.5s8-1.1 8-2.5\"/><path class=\"p3\" d=\"M12 2.5v4M10 4.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

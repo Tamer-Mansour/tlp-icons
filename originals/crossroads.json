@@ -1,0 +1,10 @@
+{
+  "name": "crossroads",
+  "category": "buildings",
+  "tags": ["crossroads", "junction", "intersection", "road", "four way"],
+  "svg": "<path class=\"p1\" d=\"M12 2v5M12 17v5M2 12h5M17 12h5\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

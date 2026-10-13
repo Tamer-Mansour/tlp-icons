@@ -1,0 +1,12 @@
+{
+  "name": "driver-id-card",
+  "category": "people",
+  "tags": ["driver", "license", "id", "card", "photo", "identity", "drive"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"9\" width=\"4.5\" height=\"6\" rx=\".5\"/><path class=\"p3\" d=\"M12 10h6M12 13h6\"/><path class=\"p4\" d=\"M5 17h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "tilt", "dur": 600, "delay": 1200 }
+  ]
+}

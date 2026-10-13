@@ -1,0 +1,11 @@
+{
+  "name": "ball-bearing",
+  "category": "shapes",
+  "tags": ["bearing", "ball", "rings", "machine", "spin"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"5.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

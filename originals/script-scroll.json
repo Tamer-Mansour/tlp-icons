@@ -1,0 +1,11 @@
+{
+  "name": "script-scroll",
+  "category": "development",
+  "tags": ["script", "scroll", "code", "programming", "file", "source"],
+  "svg": "<rect class=\"p2\" x=\"3\" y=\"3\" width=\"3\" height=\"18\" rx=\"1.5\"/><rect class=\"d p1\" x=\"8\" y=\"4\" width=\"12\" height=\"16\" rx=\"1\"/><path class=\"p3\" d=\"M12 10l-2 2 2 2M16 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "unfold", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

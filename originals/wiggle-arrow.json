@@ -1,0 +1,10 @@
+{
+  "name": "wiggle-arrow",
+  "category": "arrows",
+  "tags": ["wiggle", "wave", "squiggle", "sine", "drift", "wavy"],
+  "svg": "<path class=\"p1\" d=\"M2 12c1.5-2 3-2 4.5 0s3 2 4.5 0s3-2 4.5 0\"/><path class=\"p2\" d=\"M15.5 12H20\"/><path class=\"p2\" d=\"M17 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

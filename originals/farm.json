@@ -1,0 +1,12 @@
+{
+  "name": "farm",
+  "category": "buildings",
+  "tags": ["farm", "barn", "silo", "fence", "countryside", "agriculture", "rural"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 19V10L8 5.5 13.5 10v9z\"/><path class=\"p2\" d=\"M5.5 19v-5h5v5\"/><path class=\"p3\" d=\"M16 19V8.5a2.5 2.5 0 0 1 5 0V19\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 800 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1300, "origin": "5.5px 19px" }
+  ]
+}

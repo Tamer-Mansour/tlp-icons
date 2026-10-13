@@ -1,0 +1,11 @@
+{
+  "name": "sheet-metal-brake",
+  "category": "tools",
+  "tags": ["brake", "sheet", "metal", "bender", "bend", "fabrication"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"16\" width=\"20\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M3 8h8\"/><path class=\"p3\" d=\"M3 12h12v-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

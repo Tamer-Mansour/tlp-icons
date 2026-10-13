@@ -1,0 +1,11 @@
+{
+  "name": "paperback",
+  "category": "files",
+  "tags": ["paperback", "book", "flap", "novel", "read"],
+  "svg": "<rect class=\"p1 d\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"1\"/><line class=\"p2\" x1=\"8\" y1=\"3\" x2=\"8\" y2=\"21\"/><path class=\"p3\" d=\"M11 9h5M11 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

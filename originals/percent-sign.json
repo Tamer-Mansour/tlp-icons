@@ -1,0 +1,10 @@
+{
+  "name": "percent-sign",
+  "category": "charts",
+  "tags": ["percent", "sign", "percentage", "ratio", "bar", "statistics"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7\" r=\"2.5\"/><circle class=\"p1\" cx=\"13\" cy=\"17\" r=\"2.5\"/><path class=\"p1\" d=\"M5 19L14 5\"/><rect class=\"d p2\" x=\"19\" y=\"11\" width=\"2\" height=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dust-storm",
+  "category": "weather",
+  "tags": ["dust storm", "sandstorm", "wind", "dust", "haze", "weather"],
+  "svg": "<path class=\"p1\" d=\"M3 9 H14 A2.5 2.5 0 1 0 11.5 6.5\"/><path class=\"p2\" d=\"M3 14 H19 A2.5 2.5 0 1 1 16.5 16.5\"/><path class=\"p3\" d=\"M4 19.5 H10 M14 19.5 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 700 }
+  ]
+}

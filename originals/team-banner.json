@@ -1,0 +1,10 @@
+{
+  "name": "team-banner",
+  "category": "sport",
+  "tags": ["banner", "pennant", "team", "flag", "pole"],
+  "svg": "<path class=\"p1\" d=\"M5 3V21\"/><path class=\"d p2\" d=\"M5 4H19L16 9L19 14H5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 500, "origin": "5px 9px" }
+  ]
+}

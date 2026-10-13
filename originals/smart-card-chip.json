@@ -1,0 +1,11 @@
+{
+  "name": "smart-card-chip",
+  "category": "security",
+  "tags": ["smart", "card", "chip", "payment", "secure", "credential"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2.5\"/><rect class=\"p2\" x=\"6\" y=\"9\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M14 10h4M14 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

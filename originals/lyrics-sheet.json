@@ -1,0 +1,11 @@
+{
+  "name": "lyrics-sheet",
+  "category": "files",
+  "tags": ["lyrics", "song", "music", "text", "sheet"],
+  "svg": "<path class=\"p1\" d=\"M5 2h14v20H5z\"/><path class=\"p2\" d=\"M11 16V7l5-1v9\"/><circle class=\"f p2\" cx=\"9\" cy=\"16\" r=\"1.2\"/><line class=\"p3\" x1=\"8\" y1=\"19\" x2=\"16\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 900 }
+  ]
+}

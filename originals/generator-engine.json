@@ -1,0 +1,11 @@
+{
+  "name": "generator-engine",
+  "category": "tools",
+  "tags": ["generator", "engine", "power", "fuel", "motor", "backup"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M15 13 H20 V18 H15\"/><path class=\"p3\" d=\"M9 6 V10 M7 4 H11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "buzz", "dur": 800, "delay": 1100 }
+  ]
+}

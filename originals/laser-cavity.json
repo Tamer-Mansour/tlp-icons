@@ -1,0 +1,10 @@
+{
+  "name": "laser-cavity",
+  "category": "science",
+  "tags": ["physics", "laser", "cavity", "mirror", "beam", "light"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"2\" height=\"16\" rx=\"0.5\"/><rect class=\"d p1\" x=\"19\" y=\"4\" width=\"2\" height=\"16\" rx=\"0.5\"/><path class=\"p2\" d=\"M5 12h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 500 }
+  ]
+}

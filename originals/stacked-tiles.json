@@ -1,0 +1,10 @@
+{
+  "name": "stacked-tiles",
+  "category": "charts",
+  "tags": ["stacked", "tiles", "layers", "segments", "blocks", "chart"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M4 9H20M4 15H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

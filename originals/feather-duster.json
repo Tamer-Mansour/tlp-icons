@@ -1,0 +1,11 @@
+{
+  "name": "feather-duster",
+  "category": "home",
+  "tags": ["feather", "duster", "dust", "clean", "broom", "household"],
+  "svg": "<path class=\"p1\" d=\"M4 20L11 13\"/><path class=\"d p2\" d=\"M11 13C11 8 14 4 20 4C20 10 16 13 11 13Z\"/><path class=\"p3\" d=\"M11.5 12.5L17.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "11px 13px" }
+  ]
+}

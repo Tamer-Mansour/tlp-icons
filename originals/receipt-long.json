@@ -1,0 +1,10 @@
+{
+  "name": "receipt-long",
+  "category": "files",
+  "tags": ["receipt", "bill", "purchase", "paper", "list"],
+  "svg": "<path class=\"p1\" d=\"M5 2.5h14v19l-2.5-1.5-2.5 1.5-2-1.5-2 1.5-2.5-1.5-2.5 1.5z\"/><line class=\"p2\" x1=\"8.5\" y1=\"8\" x2=\"15.5\" y2=\"8\"/><line class=\"p2\" x1=\"8.5\" y1=\"12\" x2=\"15.5\" y2=\"12\"/><line class=\"p2\" x1=\"8.5\" y1=\"16\" x2=\"13\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "motion-detector",
+  "category": "devices",
+  "tags": ["motion", "detector", "sensor", "security", "dome", "waves"],
+  "svg": "<path class=\"d p1\" d=\"M2 17 A4 4 0 0 1 10 17 Z\"/><path class=\"p2\" d=\"M11.1 10.9 A8 8 0 0 1 13.9 15.6\"/><path class=\"p3\" d=\"M13.7 7.8 A12 12 0 0 1 17.8 14.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

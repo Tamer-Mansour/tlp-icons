@@ -1,0 +1,11 @@
+{
+  "name": "file-film",
+  "category": "files",
+  "tags": ["film", "video", "strip", "movie", "reel", "clip"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><rect class=\"p2\" x=\"8\" y=\"8\" width=\"3\" height=\"12\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"10.5\" r=\"1\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

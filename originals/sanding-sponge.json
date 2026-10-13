@@ -1,0 +1,10 @@
+{
+  "name": "sanding-sponge",
+  "category": "tools",
+  "tags": ["sponge", "sanding", "abrasive", "block", "grit", "sand"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"9\" rx=\"2\"/><circle class=\"f p2\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"9\" cy=\"15.5\" r=\"1\"/><circle class=\"f p2\" cx=\"13\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "shuttle", "dur": 900, "delay": 500 }
+  ]
+}

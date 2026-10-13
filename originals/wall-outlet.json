@@ -1,0 +1,11 @@
+{
+  "name": "wall-outlet",
+  "category": "devices",
+  "tags": ["outlet", "socket", "wall", "power", "plug"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 8 V11 M15 8 V11\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1000 }
+  ]
+}

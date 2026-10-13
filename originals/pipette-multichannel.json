@@ -1,0 +1,11 @@
+{
+  "name": "pipette-multichannel",
+  "category": "science",
+  "tags": ["pipette", "multichannel", "tips", "lab", "liquid", "plunger"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"3.5\" r=\"1.5\"/><path class=\"p1\" d=\"M12 5 V7\"/><rect class=\"d p2\" x=\"4\" y=\"7\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M6 10 V17 L7 20 M10 10 V17 L11 20 M14 10 V17 L13 20 M18 10 V17 L17 20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

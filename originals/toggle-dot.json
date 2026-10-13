@@ -1,0 +1,10 @@
+{
+  "name": "toggle-dot",
+  "category": "interface",
+  "tags": ["toggle", "dot", "pill", "switch", "option", "select"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\" rx=\"4.5\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

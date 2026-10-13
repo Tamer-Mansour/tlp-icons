@@ -1,0 +1,11 @@
+{
+  "name": "oatmeal",
+  "category": "food",
+  "tags": ["oatmeal", "porridge", "breakfast", "bowl", "oats", "cereal"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18c0 4-4 7-9 7s-9-3-9-7z\"/><path class=\"p2\" d=\"M7 9.5c1.5-2 3.5-2 4.5 0s3 2 4.5 0\"/><path class=\"p3\" d=\"M17 3v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "stir", "dur": 900, "delay": 1100, "origin": "17px 8px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "straightedge",
+  "category": "tools",
+  "tags": ["ruler", "straight", "edge", "measure", "bevel", "guide"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"6\" rx=\"1\"/><line class=\"p2\" x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

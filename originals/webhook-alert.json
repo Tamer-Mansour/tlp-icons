@@ -1,0 +1,11 @@
+{
+  "name": "webhook-alert",
+  "category": "notifications",
+  "tags": ["webhook", "hook", "alert", "callback", "event"],
+  "svg": "<path class=\"p1\" d=\"M9 3v9a4 4 0 0 0 8 0v-2\"/><path class=\"p2\" d=\"M5 3h4\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"8.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

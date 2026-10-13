@@ -1,0 +1,11 @@
+{
+  "name": "water-bowl",
+  "category": "nature",
+  "tags": ["water", "bowl", "pet", "drink", "dog"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 H21 C20.5 16.5 17 20 12 20 C7 20 3.5 16.5 3 10 Z\"/><path class=\"p2\" d=\"M7 13 Q9.5 11.5 12 13 T17 13\"/><path class=\"p3\" d=\"M9 16.5 Q10.5 15.5 12 16.5 T15 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1000 }
+  ]
+}

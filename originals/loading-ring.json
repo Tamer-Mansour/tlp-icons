@@ -1,0 +1,10 @@
+{
+  "name": "loading-ring",
+  "category": "interface",
+  "tags": ["loading", "spinner", "ring", "progress", "wait", "busy"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7a5 5 0 0 1 5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "priority-low",
+  "category": "notifications",
+  "tags": ["priority", "low", "bars", "signal", "level"],
+  "svg": "<path class=\"p1\" d=\"M6 4v16\"/><path class=\"p2\" d=\"M12 10v10\"/><rect class=\"d p3\" x=\"16\" y=\"14\" width=\"4\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 200, "origin": "bottom" },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

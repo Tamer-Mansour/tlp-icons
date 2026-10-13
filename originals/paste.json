@@ -1,0 +1,11 @@
+{
+  "name": "paste",
+  "category": "interface",
+  "tags": ["paste", "clipboard", "copy", "insert", "document", "board"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"16\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 13h6M9 16.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

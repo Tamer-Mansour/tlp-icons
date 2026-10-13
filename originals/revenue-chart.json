@@ -1,0 +1,10 @@
+{
+  "name": "revenue-chart",
+  "category": "charts",
+  "tags": ["revenue", "chart", "money", "income", "sales", "growth"],
+  "svg": "<path class=\"p1\" d=\"M7 21V16M12 21V12M17 21V8\"/><path class=\"p2\" d=\"M15 3H10.5A1.5 1.5 0 0 0 10.5 6H13.5A1.5 1.5 0 0 1 13.5 9H9M12 1.5V10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

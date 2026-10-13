@@ -1,0 +1,10 @@
+{
+  "name": "tabs-vertical",
+  "category": "interface",
+  "tags": ["tabs", "navigation", "selected", "column", "sidebar"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"10\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"18\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 400 }
+  ]
+}

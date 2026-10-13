@@ -1,0 +1,10 @@
+{
+  "name": "wavy-square",
+  "category": "shapes",
+  "tags": ["wavy", "square", "scallop", "frame", "badge"],
+  "svg": "<path class=\"d p1\" d=\"M4 4q2-2 4 0q2-2 4 0q2-2 4 0q2-2 4 0q2 2 0 4q2 2 0 4q2 2 0 4q2 2 0 4q-2 2-4 0q-2 2-4 0q-2 2-4 0q-2 2-4 0q-2-2 0-4q-2-2 0-4q-2-2 0-4q-2-2 0-4z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

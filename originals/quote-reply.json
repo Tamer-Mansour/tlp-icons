@@ -1,0 +1,11 @@
+{
+  "name": "quote-reply",
+  "category": "communication",
+  "tags": ["quote", "reply", "respond", "reference", "message", "citation"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M7 9.5 Q7 7.5 9 7.5 M12 9.5 Q12 7.5 14 7.5\"/><path class=\"p3\" d=\"M19 21 V19 Q19 17 17 17 H13 M15 15.5 L13 17 L15 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

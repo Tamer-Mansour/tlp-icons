@@ -1,0 +1,12 @@
+{
+  "name": "polar-bear",
+  "category": "nature",
+  "tags": ["animal", "arctic", "ice", "snow", "bear"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11.5\" r=\"7.5\"/><circle class=\"p2\" cx=\"5\" cy=\"5.5\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"5.5\" r=\"2\"/><ellipse class=\"p3\" cx=\"12\" cy=\"16\" rx=\"3\" ry=\"2.2\"/><circle class=\"f p4\" cx=\"9\" cy=\"10\" r=\"0.9\"/><circle class=\"f p4\" cx=\"15\" cy=\"10\" r=\"0.9\"/><circle class=\"f p4\" cx=\"12\" cy=\"16.2\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "blink", "dur": 500, "delay": 1400 }
+  ]
+}

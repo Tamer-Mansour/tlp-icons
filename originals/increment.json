@@ -1,0 +1,10 @@
+{
+  "name": "increment",
+  "category": "interface",
+  "tags": ["increment", "increase", "bars", "growth", "arrow up", "stats"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"15\" width=\"4\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"8\" y=\"11\" width=\"4\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M18 17V4M14.5 7.5L18 4l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 700 }
+  ]
+}

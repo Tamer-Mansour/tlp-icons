@@ -1,0 +1,10 @@
+{
+  "name": "envelope-open",
+  "category": "communication",
+  "tags": ["envelope", "open", "read", "mail", "letter", "unfold", "message"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18v11H3z\"/><path class=\"p2\" d=\"M3 9l9-6.5 9 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 700, "delay": 500 }
+  ]
+}

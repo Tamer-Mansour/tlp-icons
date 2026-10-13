@@ -1,0 +1,12 @@
+{
+  "name": "french-press",
+  "category": "food",
+  "tags": ["french", "press", "coffee", "carafe", "plunger"],
+  "svg": "<path class=\"p1 d\" d=\"M8 9 H16 V19 Q16 21 14 21 H10 Q8 21 8 19 Z\"/><line class=\"p2\" x1=\"8\" y1=\"4\" x2=\"16\" y2=\"4\"/><line class=\"p3\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"13\"/><line class=\"p4\" x1=\"9\" y1=\"13.5\" x2=\"15\" y2=\"13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 1100 }
+  ]
+}

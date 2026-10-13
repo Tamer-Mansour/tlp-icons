@@ -1,0 +1,10 @@
+{
+  "name": "document-check",
+  "category": "interface",
+  "tags": ["document", "check", "verified", "approved", "file", "complete"],
+  "svg": "<path class=\"p1\" d=\"M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z\"/><path class=\"p1\" d=\"M14 3v6h6\"/><path class=\"p2\" d=\"M9 14l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

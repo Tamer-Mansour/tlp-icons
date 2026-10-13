@@ -1,0 +1,11 @@
+{
+  "name": "sync-error",
+  "category": "notifications",
+  "tags": ["sync", "refresh", "error", "arrows", "failed", "retry"],
+  "svg": "<path class=\"p1\" d=\"M3.5 10A7 7 0 0 1 16.5 9M16.5 14A7 7 0 0 1 3.5 15\"/><path class=\"p2\" d=\"M16.5 4.5V9h-4.5M3.5 19.5V15h4.5\"/><line class=\"p3\" x1=\"10\" y1=\"8.5\" x2=\"10\" y2=\"12.5\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

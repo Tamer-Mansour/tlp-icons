@@ -1,0 +1,11 @@
+{
+  "name": "graduation-tassel",
+  "category": "people",
+  "tags": ["graduation", "mortarboard", "tassel", "cap", "diploma"],
+  "svg": "<path class=\"d p1\" d=\"M12 4l10 5-10 5-10-5z\"/><path class=\"p2\" d=\"M6 11.5v4.5c0 1.5 2.7 2.5 6 2.5s6-1 6-2.5v-4.5\"/><path class=\"p3\" d=\"M12 9v5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

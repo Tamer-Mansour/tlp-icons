@@ -1,0 +1,10 @@
+{
+  "name": "vacancy-sign",
+  "category": "buildings",
+  "tags": ["vacancy", "empty", "box", "available", "space", "unoccupied"],
+  "svg": "<path class=\"p1\" d=\"M4 4h4M10 4h4M16 4h4M20 4v4M20 10v4M20 16v4M4 20h4M10 20h4M16 20h4M4 4v4M4 10v4M4 16v4\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 800, "delay": 1000 }
+  ]
+}

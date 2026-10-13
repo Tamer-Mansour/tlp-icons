@@ -1,0 +1,12 @@
+{
+  "name": "lemming",
+  "category": "nature",
+  "tags": ["rodent", "small", "ears", "tail", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M7 21 Q5 13 12 12 Q19 13 17 21 Z\"/><circle class=\"d p2\" cx=\"12\" cy=\"8\" r=\"3\"/><circle class=\"p3\" cx=\"9\" cy=\"4.5\" r=\"1.2\"/><circle class=\"p3\" cx=\"15\" cy=\"4.5\" r=\"1.2\"/><path class=\"p4\" d=\"M17 19 Q21 19 21 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "17px 19px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tap-gesture",
+  "category": "interface",
+  "tags": ["tap", "gesture", "touch", "finger", "press"],
+  "svg": "<rect class=\"p1\" x=\"9.5\" y=\"4\" width=\"5\" height=\"11\" rx=\"2.5\"/><path class=\"p2\" d=\"M4 15.5a9 9 0 0 1 0-6.5M20 15.5a9 9 0 0 0 0-6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 500 }
+  ]
+}

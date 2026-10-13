@@ -1,0 +1,11 @@
+{
+  "name": "quartile-box",
+  "category": "charts",
+  "tags": ["quartile", "box", "whisker", "statistics", "boxplot", "distribution"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M12 2v5M12 17v5\"/><path class=\"p3\" d=\"M6 12h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 1000 }
+  ]
+}

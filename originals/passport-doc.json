@@ -1,0 +1,11 @@
+{
+  "name": "passport-doc",
+  "category": "files",
+  "tags": ["passport", "travel", "identity", "emblem", "document"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><line class=\"p3\" x1=\"8\" y1=\"15\" x2=\"16\" y2=\"15\"/><line class=\"p3\" x1=\"8\" y1=\"18.5\" x2=\"13\" y2=\"18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

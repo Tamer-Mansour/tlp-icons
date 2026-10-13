@@ -1,0 +1,11 @@
+{
+  "name": "radio-station",
+  "category": "buildings",
+  "tags": ["radio", "station", "microphone", "broadcast", "waves", "media"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M6 10a6 6 0 0 0 12 0M12 16v3M9 21h6\"/><path class=\"p3\" d=\"M4 8a8 8 0 0 0 0 8M20 8a8 8 0 0 1 0 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "text-wave-animation",
+  "category": "text",
+  "tags": ["wave", "animation", "motion", "text", "wobble", "effect"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12q2-3 4 0t4 0t4 0\"/><path class=\"p2\" d=\"M16.5 10.5a1.5 1.5 0 0 1 0 3\"/><path class=\"p3\" d=\"M19.5 9.5a2.5 2.5 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1000 }
+  ]
+}

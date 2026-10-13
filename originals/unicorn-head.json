@@ -1,0 +1,11 @@
+{
+  "name": "unicorn-head",
+  "category": "emoji",
+  "tags": ["unicorn", "horse", "myth", "fantasy", "magic", "horn"],
+  "svg": "<path class=\"d p1\" d=\"M6 20L6 14L9 8.5L13 7L17 10L18 13.5L15 14.5L13 20Z\"/><path class=\"p2\" d=\"M11 7L13 2.5\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"11\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "absolute-value",
+  "category": "math",
+  "tags": ["absolute", "value", "distance", "number", "line", "magnitude"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><circle class=\"f p2\" cx=\"5\" cy=\"12\" r=\"1.5\"/><path class=\"p3\" d=\"M7.5 12 H10.5 M9 10.5 L10.5 12 L9 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

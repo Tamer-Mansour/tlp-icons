@@ -1,0 +1,12 @@
+{
+  "name": "contacts-list",
+  "category": "people",
+  "tags": ["contacts", "list", "cards", "address", "book", "names", "directory"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"16\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"8.5\" width=\"16\" height=\"5\" rx=\"1.5\"/><rect class=\"p3\" x=\"3\" y=\"16.5\" width=\"16\" height=\"5\" rx=\"1.5\"/><path class=\"p4\" d=\"M6.5 11h7M6.5 19h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

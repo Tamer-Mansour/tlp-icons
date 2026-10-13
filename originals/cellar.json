@@ -1,0 +1,10 @@
+{
+  "name": "cellar",
+  "category": "buildings",
+  "tags": ["cellar", "basement", "door", "arch", "stairs", "underground"],
+  "svg": "<path class=\"p1\" d=\"M6 21v-7a6 6 0 0 1 12 0v7\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 900 }
+  ]
+}

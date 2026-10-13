@@ -1,0 +1,11 @@
+{
+  "name": "sticky-comment",
+  "category": "communication",
+  "tags": ["sticky", "note", "comment", "memo", "post it", "annotation"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h16a1 1 0 0 1 1 1v11l-6 6H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z\"/><path class=\"p2\" d=\"M14 21v-4a1 1 0 0 1 1-1h6\"/><path class=\"p3\" d=\"M7 8h10M7 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

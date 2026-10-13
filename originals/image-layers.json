@@ -1,0 +1,11 @@
+{
+  "name": "image-layers",
+  "category": "development",
+  "tags": ["image", "layers", "stack", "sheets", "photoshop"],
+  "svg": "<polygon class=\"d p1\" points=\"12 2.5 20 7 12 11.5 4 7\"/><path class=\"p2\" d=\"M4 11l8 4.5 8-4.5\"/><path class=\"p3\" d=\"M4 15l8 4.5 8-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1000 }
+  ]
+}

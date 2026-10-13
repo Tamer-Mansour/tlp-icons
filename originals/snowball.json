@@ -1,0 +1,10 @@
+{
+  "name": "snowball",
+  "category": "weather",
+  "tags": ["snowball", "snow", "winter", "round", "throw", "ball"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"9\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"10\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "garbage-truck",
+  "category": "vehicles",
+  "tags": ["garbage", "truck", "trash", "refuse", "waste"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"5\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M2 15v-5l3-3h2v8\"/><circle class=\"p3\" cx=\"6\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"19\" r=\"2\"/><path class=\"p4\" d=\"M12 9h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "squeeze", "dur": 700, "delay": 900 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1400 }
+  ]
+}

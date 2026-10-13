@@ -1,0 +1,10 @@
+{
+  "name": "goal-post",
+  "category": "sport",
+  "tags": ["goal", "post", "crossbar", "uprights", "sport", "kick"],
+  "svg": "<path class=\"p1\" d=\"M8 21V4M16 21V4\"/><path class=\"p2\" d=\"M3 7h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

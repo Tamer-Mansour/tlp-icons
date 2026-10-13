@@ -1,0 +1,10 @@
+{
+  "name": "pan-tool",
+  "category": "interface",
+  "tags": ["pan", "hand", "move", "grab", "drag", "stop"],
+  "svg": "<path class=\"p1\" d=\"M8 11V5.5A1.5 1.5 0 0 1 11 5.5V11M11 11V4A1.5 1.5 0 0 1 14 4V11M14 11V5.5A1.5 1.5 0 0 1 17 5.5V12\"/><path class=\"p2\" d=\"M17 12A1.5 1.5 0 0 1 20 12V15C20 18.5 17.5 21 14 21H11.5C9.5 21 8.5 20 7 18L4.5 15A1.5 1.5 0 0 1 7 13.5L8 14.5V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 900, "delay": 600 }
+  ]
+}

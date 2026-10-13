@@ -1,0 +1,11 @@
+{
+  "name": "two-way-radio",
+  "category": "communication",
+  "tags": ["radio", "walkie", "two-way", "antenna", "communication"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M15 7V3.5\"/><path class=\"p3\" d=\"M10 11h4M10 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

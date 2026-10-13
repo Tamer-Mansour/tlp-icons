@@ -1,0 +1,11 @@
+{
+  "name": "ar-glasses",
+  "category": "devices",
+  "tags": ["ar", "glasses", "augmented", "reality", "eyewear", "display"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"8\" height=\"6\" rx=\"2\"/><rect class=\"d p1\" x=\"14\" y=\"9\" width=\"8\" height=\"6\" rx=\"2\"/><path class=\"p3\" d=\"M10 11.5h4\"/><circle class=\"f p2\" cx=\"12\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

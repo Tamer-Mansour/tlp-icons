@@ -1,0 +1,10 @@
+{
+  "name": "packet-drop",
+  "category": "connectivity",
+  "tags": ["drop", "packet", "loss", "discard", "fall"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 500 }
+  ]
+}

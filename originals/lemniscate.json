@@ -1,0 +1,10 @@
+{
+  "name": "lemniscate",
+  "category": "math",
+  "tags": ["lemniscate", "infinity", "figure", "eight", "curve"],
+  "svg": "<path class=\"p1\" d=\"M12 12C9 8 4 8 4 12C4 16 9 16 12 12C15 8 20 8 20 12C20 16 15 16 12 12Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1300, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

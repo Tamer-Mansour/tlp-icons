@@ -1,0 +1,11 @@
+{
+  "name": "ram",
+  "category": "development",
+  "tags": ["ram", "memory", "chip", "stick", "hardware", "pins"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1.5\"/><rect class=\"p2\" x=\"6\" y=\"10\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"15\" y=\"10\" width=\"3\" height=\"3\"/><path class=\"p3\" d=\"M5 17v2.5M8.5 17v2.5M12 17v2.5M15.5 17v2.5M19 17v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900, "origin": "bottom" }
+  ]
+}

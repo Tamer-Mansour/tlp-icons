@@ -1,0 +1,10 @@
+{
+  "name": "reading-room",
+  "category": "buildings",
+  "tags": ["reading", "book", "lamp", "library", "room"],
+  "svg": "<path class=\"d p1\" d=\"M12 10C10 8 6 8 3 9V21C6 20 10 20 12 22C14 20 18 20 21 21V9C18 8 14 8 12 10Z\"/><path class=\"p2\" d=\"M16 2H20L21.5 5H14.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 800, "delay": 900 }
+  ]
+}

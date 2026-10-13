@@ -1,0 +1,11 @@
+{
+  "name": "car-jack",
+  "category": "vehicles",
+  "tags": ["jack", "car", "lift", "repair", "garage"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"21\" x2=\"20\" y2=\"21\"/><path class=\"p2\" d=\"M7 21L17 10M17 21L7 10\"/><rect class=\"d p3\" x=\"4\" y=\"7\" width=\"16\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1100, "origin": "bottom" }
+  ]
+}

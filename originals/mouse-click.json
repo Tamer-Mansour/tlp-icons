@@ -1,0 +1,11 @@
+{
+  "name": "mouse-click",
+  "category": "interface",
+  "tags": ["mouse", "click", "button", "pointer", "device", "press"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"6\"/><path class=\"p2\" d=\"M12 2.5V9\"/><path class=\"d p3\" d=\"M6 9V8.5a6 6 0 0 1 6-6V9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

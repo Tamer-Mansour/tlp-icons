@@ -1,0 +1,12 @@
+{
+  "name": "person-sitting",
+  "category": "people",
+  "tags": ["sitting", "seat", "rest", "person", "chair", "sit"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 9 V14\"/><path class=\"p3\" d=\"M12 14 H17 V20\"/><path class=\"p4\" d=\"M3 20.5 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

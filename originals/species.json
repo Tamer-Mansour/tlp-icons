@@ -1,0 +1,10 @@
+{
+  "name": "species",
+  "category": "nature",
+  "tags": ["species", "animals", "biodiversity", "fauna", "variety", "wildlife"],
+  "svg": "<path class=\"d p1\" d=\"M8 15C8 12.5 10 11 12 11C14 11 16 12.5 16 15C16 18 14 20 12 20C10 20 8 18 8 15Z\"/><circle class=\"p2\" cx=\"3.5\" cy=\"11\" r=\"1.6\"/><circle class=\"p2\" cx=\"8.5\" cy=\"6\" r=\"1.6\"/><circle class=\"p2\" cx=\"15.5\" cy=\"6\" r=\"1.6\"/><circle class=\"p2\" cx=\"20.5\" cy=\"11\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

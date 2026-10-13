@@ -1,0 +1,12 @@
+{
+  "name": "anaconda",
+  "category": "nature",
+  "tags": ["anaconda", "snake", "reptile", "coil", "serpent", "animal"],
+  "svg": "<path class=\"p1\" d=\"M4 19C8 13 12 21 16 15C19 10 20 6 17 5\"/><circle class=\"d p2\" cx=\"17.5\" cy=\"5.5\" r=\"2\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"5\" r=\"0.8\"/><path class=\"p4\" d=\"M19.5 4.5L21.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1200 },
+    { "part": "p4", "anim": "flicker", "dur": 500, "delay": 1400 }
+  ]
+}

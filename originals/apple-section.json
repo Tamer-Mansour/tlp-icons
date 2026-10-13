@@ -1,0 +1,11 @@
+{
+  "name": "apple-section",
+  "category": "science",
+  "tags": ["apple", "fruit", "core", "section", "star"],
+  "svg": "<path class=\"d p1\" d=\"M12 7C10 5 6 5 5 9C4 13 6 20 9 20C10.5 20 11 19 12 19C13 19 13.5 20 15 20C18 20 20 13 19 9C18 5 14 5 12 7Z\"/><path class=\"p3\" d=\"M12 7V4\"/><polygon class=\"p2\" points=\"12,9.5 13,12 15.5,13 13,14 12,16.5 11,14 8.5,13 11,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

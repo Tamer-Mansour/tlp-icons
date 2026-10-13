@@ -1,0 +1,11 @@
+{
+  "name": "status-info",
+  "category": "notifications",
+  "tags": ["status", "info", "information", "letter", "help"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"16.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

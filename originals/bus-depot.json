@@ -1,0 +1,11 @@
+{
+  "name": "bus-depot",
+  "category": "buildings",
+  "tags": ["bus depot", "bus station", "canopy", "bus bays", "terminal"],
+  "svg": "<path class=\"d p1\" d=\"M2 6h20v3H2z\"/><path class=\"p2\" d=\"M4 9v9M12 9v9M20 9v9\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideDown", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

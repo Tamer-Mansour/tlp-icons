@@ -1,0 +1,11 @@
+{
+  "name": "breadcrumb-path",
+  "category": "development",
+  "tags": ["breadcrumb", "path", "navigation", "nodes", "trail"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"20\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M7 9.5l2 2.5-2 2.5\"/><path class=\"p3\" d=\"M15 9.5l2 2.5-2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

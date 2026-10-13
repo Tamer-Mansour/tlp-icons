@@ -1,0 +1,11 @@
+{
+  "name": "paprika",
+  "category": "food",
+  "tags": ["paprika", "pepper", "spice", "red", "chili", "seasoning"],
+  "svg": "<path class=\"d p1\" d=\"M12 7c4 0 7 2.5 7 7 0 3.5-3 7-7 7s-7-3.5-7-7c0-4.5 3-7 7-7z\"/><path class=\"p2\" d=\"M12 7V4.5\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"1.1\"/><circle class=\"f p3\" cx=\"14\" cy=\"15\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

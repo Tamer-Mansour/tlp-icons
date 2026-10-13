@@ -1,0 +1,11 @@
+{
+  "name": "mail-label",
+  "category": "communication",
+  "tags": ["mail", "label", "address", "shipping", "tag", "postal", "sticker"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M7 11h10M7 14h7M7 17h5\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

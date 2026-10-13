@@ -1,0 +1,11 @@
+{
+  "name": "vinyl-record-player",
+  "category": "devices",
+  "tags": ["vinyl", "record", "turntable", "player", "music", "audio"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"6\"/><circle class=\"f p3\" cx=\"10\" cy=\"13\" r=\"1\"/><line class=\"p2\" x1=\"19\" y1=\"4\" x2=\"14\" y2=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 600, "origin": "19px 4px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

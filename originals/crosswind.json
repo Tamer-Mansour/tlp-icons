@@ -1,0 +1,10 @@
+{
+  "name": "crosswind",
+  "category": "weather",
+  "tags": ["crosswind", "wind", "arrow", "sideways", "flight", "air"],
+  "svg": "<path class=\"p1\" d=\"M3 12h16M16 9l3 3-3 3\"/><path class=\"p2\" d=\"M12 3v5M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 600 }
+  ]
+}

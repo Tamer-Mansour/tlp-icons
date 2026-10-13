@@ -1,0 +1,10 @@
+{
+  "name": "saw-hand",
+  "category": "tools",
+  "tags": ["saw", "hand", "wood", "cutting", "carpentry", "blade"],
+  "svg": "<path class=\"p1\" d=\"M6 10h14l1 6H7z\"/><path class=\"p2\" d=\"M6 10L4 4h3l2 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

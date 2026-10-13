@@ -1,0 +1,11 @@
+{
+  "name": "newsletter-send",
+  "category": "communication",
+  "tags": ["newsletter", "send", "page", "email", "broadcast", "publish"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M6.5 7.5h5M6.5 11h5M6.5 14.5h3\"/><path class=\"p3\" d=\"M17.5 12H22M19.5 9.5L22 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

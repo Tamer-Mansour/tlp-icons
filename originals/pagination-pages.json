@@ -1,0 +1,11 @@
+{
+  "name": "pagination-pages",
+  "category": "development",
+  "tags": ["pagination", "pages", "pager", "navigation", "list", "steps"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"9.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"p3\" x=\"16.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

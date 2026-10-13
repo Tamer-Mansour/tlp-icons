@@ -1,0 +1,11 @@
+{
+  "name": "oauth-token",
+  "category": "connectivity",
+  "tags": ["oauth", "token", "key", "auth", "access", "login"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"12\" r=\"4.5\"/><circle class=\"p3\" cx=\"7.5\" cy=\"12\" r=\"1.5\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p2\" x1=\"17\" y1=\"12\" x2=\"17\" y2=\"15\"/><line class=\"p2\" x1=\"20\" y1=\"12\" x2=\"20\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

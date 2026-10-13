@@ -1,0 +1,11 @@
+{
+  "name": "spinner-probability",
+  "category": "math",
+  "tags": ["spinner", "probability", "wheel", "chance", "random"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"6.5\"/><path class=\"p2\" d=\"M12 13V6.5M12 13L17.6 16.3M12 13L6.4 16.3\"/><polygon class=\"p3\" points=\"10 2 14 2 12 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

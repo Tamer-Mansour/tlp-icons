@@ -1,0 +1,11 @@
+{
+  "name": "layers-add",
+  "category": "interface",
+  "tags": ["layers", "add", "stack", "plus", "new", "create"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L21 8L12 13L3 8Z\"/><polyline class=\"p2\" points=\"3,13 12,18 21,13\"/><path class=\"p3\" d=\"M20 1V5M18 3H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "subscription-chart",
+  "category": "charts",
+  "tags": ["subscription", "renewal", "cycle", "recurring", "bars", "chart"],
+  "svg": "<path class=\"p1\" d=\"M20 12a8 8 0 1 1-2.3-5.7M20 4v4h-4\"/><path class=\"p2\" d=\"M9 15v-2M12 15v-4M15 15v-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 900, "origin": "bottom" }
+  ]
+}

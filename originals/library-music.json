@@ -1,0 +1,11 @@
+{
+  "name": "library-music",
+  "category": "media",
+  "tags": ["library", "music", "books", "note", "archive", "collection"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"5\" height=\"16\" rx=\"1\"/><rect class=\"p1\" x=\"8\" y=\"4\" width=\"5\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M17 18V5l4-1v13\"/><circle class=\"d p3\" cx=\"15\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

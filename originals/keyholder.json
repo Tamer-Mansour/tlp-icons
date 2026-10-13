@@ -1,0 +1,11 @@
+{
+  "name": "keyholder",
+  "category": "security",
+  "tags": ["keyholder", "keys", "ring", "hand", "access", "custody"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"5\"/><path class=\"p2\" d=\"M12 13v7.5M12 17.5h2.5M12 20h2\"/><path class=\"p3\" d=\"M4 16.5l3-1.5h3.5a1.5 1.5 0 0 1 0 3H8l-4 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

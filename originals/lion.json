@@ -1,0 +1,11 @@
+{
+  "name": "lion",
+  "category": "nature",
+  "tags": ["animal", "cat", "mane", "savanna", "wild"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"10\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

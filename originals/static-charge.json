@@ -1,0 +1,11 @@
+{
+  "name": "static-charge",
+  "category": "science",
+  "tags": ["static", "charge", "balloon", "electricity", "plus", "minus"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"9.5\" rx=\"5.5\" ry=\"6.5\"/><path class=\"p2\" d=\"M4 19.5H8M6 17.5V21.5\"/><path class=\"p3\" d=\"M16 19.5H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 }
+  ]
+}

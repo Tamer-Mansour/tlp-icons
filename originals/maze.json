@@ -1,0 +1,11 @@
+{
+  "name": "maze",
+  "category": "sport",
+  "tags": ["maze", "path", "puzzle", "labyrinth", "route", "game"],
+  "svg": "<path class=\"p1\" d=\"M3 9V3H21V21H3V15\"/><path class=\"p2\" d=\"M7 15H13V9H17\"/><circle class=\"f p3\" cx=\"17\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1400 }
+  ]
+}

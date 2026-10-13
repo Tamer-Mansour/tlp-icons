@@ -1,0 +1,11 @@
+{
+  "name": "conflict-resolve",
+  "category": "development",
+  "tags": ["conflict", "resolve", "merge", "git", "fix", "branch"],
+  "svg": "<path class=\"p1\" d=\"M3 5L11 12M3 19L11 12\"/><path class=\"p2\" d=\"M11 12H21\"/><polyline class=\"p3\" points=\"14,17 16.5,19.5 20,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

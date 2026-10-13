@@ -1,0 +1,11 @@
+{
+  "name": "reciprocating-saw",
+  "category": "tools",
+  "tags": ["reciprocating", "saw", "blade", "demolition", "sabre", "power"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"9\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M5 12l-1 5h3\"/><path class=\"p3\" d=\"M12 8h8l1 2-1 2 1 2-1 2h-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "numerator-denominator",
+  "category": "math",
+  "tags": ["numerator", "denominator", "fraction", "top", "bottom", "math"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><rect class=\"p2\" x=\"9\" y=\"4\" width=\"6\" height=\"5\" rx=\"1\"/><rect class=\"p3\" x=\"9\" y=\"15\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

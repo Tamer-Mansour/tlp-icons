@@ -1,0 +1,10 @@
+{
+  "name": "float-tool",
+  "category": "tools",
+  "tags": ["float", "concrete", "smoothing", "trowel", "board", "construction"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6 6H12M9 6V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

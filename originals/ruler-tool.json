@@ -1,0 +1,10 @@
+{
+  "name": "ruler-tool",
+  "category": "interface",
+  "tags": ["ruler", "measure", "tool", "scale", "ticks", "length"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M6 7V10M10 7V12M14 7V10M18 7V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

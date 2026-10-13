@@ -1,0 +1,10 @@
+{
+  "name": "scanner-flatbed",
+  "category": "devices",
+  "tags": ["scanner", "flatbed", "scan", "document", "copy", "office"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"14\" rx=\"2\"/><line class=\"p2\" x1=\"5\" y1=\"11\" x2=\"19\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "scan", "dur": 1300, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cymbal",
+  "category": "media",
+  "tags": ["cymbal", "crash", "drum kit", "percussion", "stand", "music"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"8\" rx=\"9\" ry=\"3\"/><path class=\"p2\" d=\"M10 8a2 2 0 0 1 4 0\"/><path class=\"p3\" d=\"M12 11v8M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 900, "origin": "bottom" }
+  ]
+}

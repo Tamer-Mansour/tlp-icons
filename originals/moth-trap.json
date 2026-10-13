@@ -1,0 +1,11 @@
+{
+  "name": "moth-trap",
+  "category": "science",
+  "tags": ["moth", "trap", "funnel", "insect", "collection"],
+  "svg": "<polygon class=\"d p1\" points=\"4,8 20,8 14,17 10,17\"/><path class=\"p2\" d=\"M12 17V21\"/><path class=\"p3\" d=\"M12 5Q9 2 6 3.5Q7 6.5 12 5ZM12 5Q15 2 18 3.5Q17 6.5 12 5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

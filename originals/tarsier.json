@@ -1,0 +1,39 @@
+{
+    "name":  "tarsier",
+    "category":  "nature",
+    "tags":  [
+                 "tarsier",
+                 "primate",
+                 "big eyes",
+                 "night",
+                 "fingers",
+                 "animal"
+             ],
+    "svg":  "\u003ccircle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/\u003e\u003ccircle class=\"p2\" cx=\"7\" cy=\"5.5\" r=\"1.8\"/\u003e\u003ccircle class=\"p2\" cx=\"17\" cy=\"5.5\" r=\"1.8\"/\u003e\u003ccircle class=\"f p3\" cx=\"10\" cy=\"8.5\" r=\"1.1\"/\u003e\u003ccircle class=\"f p3\" cx=\"14\" cy=\"8.5\" r=\"1.1\"/\u003e\u003cpath class=\"p4\" d=\"M9 14V20M15 14V20M15 18C18 19 20 17 20 15\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "fillIn",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  800
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  900
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "blink",
+                       "dur":  900,
+                       "delay":  1300
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tracking-collar",
+  "category": "nature",
+  "tags": ["tracking", "collar", "gps", "wildlife", "tag", "animal"],
+  "svg": "<path class=\"p1\" d=\"M4 8q8 5 16 0M4 11q8 5 16 0\"/><rect class=\"d p2\" x=\"9\" y=\"17\" width=\"6\" height=\"4\" rx=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1500 }
+  ]
+}

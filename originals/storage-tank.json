@@ -1,0 +1,11 @@
+{
+  "name": "storage-tank",
+  "category": "buildings",
+  "tags": ["storage tank", "tank", "silo", "oil", "fuel", "cylinder"],
+  "svg": "<path class=\"d p1\" d=\"M6 9a6 3 0 0 1 12 0v10a6 2 0 0 1-12 0z\"/><path class=\"p2\" d=\"M19.5 9v12\"/><path class=\"p3\" d=\"M17.5 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

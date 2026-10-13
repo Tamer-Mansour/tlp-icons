@@ -1,0 +1,11 @@
+{
+  "name": "panel-detach",
+  "category": "layout",
+  "tags": ["detach", "pop out", "undock", "window", "separate"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"11\" width=\"9\" height=\"9\" rx=\"1.5\"/><rect class=\"d p2\" x=\"13\" y=\"3\" width=\"8\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M8 8l3-3M8.5 5H11v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

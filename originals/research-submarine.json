@@ -1,0 +1,11 @@
+{
+  "name": "research-submarine",
+  "category": "science",
+  "tags": ["submarine", "research", "sea", "periscope", "ocean", "vessel"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"8\" ry=\"3.5\"/><path class=\"p2\" d=\"M18.5 14L21.5 11.5V16.5Z\"/><path class=\"p3\" d=\"M9.5 10.5V5.5H12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

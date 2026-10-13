@@ -1,0 +1,10 @@
+{
+  "name": "crackers",
+  "category": "food",
+  "tags": ["crackers", "snack", "biscuit", "square", "cheese", "pantry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"15.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 600 }
+  ]
+}

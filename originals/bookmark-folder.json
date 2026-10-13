@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-folder",
+  "category": "interface",
+  "tags": ["bookmark", "folder", "saved", "favorite", "directory", "ribbon"],
+  "svg": "<path class=\"d p1\" d=\"M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M10 9.5h4v6.5l-2-1.5-2 1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 600, "delay": 900 }
+  ]
+}

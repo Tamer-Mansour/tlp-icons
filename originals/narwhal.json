@@ -1,0 +1,11 @@
+{
+  "name": "narwhal",
+  "category": "nature",
+  "tags": ["sea", "tusk", "arctic", "ocean", "whale"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"7\" ry=\"4\"/><path class=\"p2\" d=\"M18 13 L21 10 L21 16 Z\"/><path class=\"p3\" d=\"M5.5 10.5 L2.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "5.5px 10.5px" }
+  ]
+}

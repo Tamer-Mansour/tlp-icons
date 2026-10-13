@@ -1,0 +1,11 @@
+{
+  "name": "leave-request",
+  "category": "time",
+  "tags": ["leave", "request", "calendar", "absence", "approval", "time"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"13\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h13M7 2v4M12 2v4\"/><path class=\"p3\" d=\"M18 12.5h3.5M19 10l2.5 2.5L19 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

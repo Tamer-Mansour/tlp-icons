@@ -1,0 +1,10 @@
+{
+  "name": "poncho",
+  "category": "weather",
+  "tags": ["poncho", "cape", "rain", "cover", "clothing"],
+  "svg": "<path class=\"d p1\" d=\"M9 4H15L20 19H4Z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"7\" rx=\"2\" ry=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "electrolysis-cell",
+  "category": "science",
+  "tags": ["electrolysis", "cell", "electrodes", "wire", "chemistry"],
+  "svg": "<path class=\"d p1\" d=\"M5 7V19Q5 21 7 21H17Q19 21 19 19V7Z\"/><path class=\"p2\" d=\"M9 7V16M15 7V16\"/><path class=\"p3\" d=\"M9 7V3.5H15V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 1100 }
+  ]
+}

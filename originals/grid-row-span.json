@@ -1,0 +1,10 @@
+{
+  "name": "grid-row-span",
+  "category": "layout",
+  "tags": ["grid", "row", "span", "tall", "cell", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"7\" height=\"18\" rx=\"1\"/><rect class=\"d p2\" x=\"11\" y=\"3\" width=\"11\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"11\" y=\"13\" width=\"11\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "top" },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

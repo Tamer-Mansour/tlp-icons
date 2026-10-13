@@ -1,0 +1,10 @@
+{
+  "name": "media-folder",
+  "category": "media",
+  "tags": ["media", "folder", "videos", "files", "play", "library"],
+  "svg": "<path class=\"p1\" d=\"M3 6a1 1 0 0 1 1-1h5l2 2h9a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/><polygon class=\"d p2\" points=\"10 10 15 12.5 10 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

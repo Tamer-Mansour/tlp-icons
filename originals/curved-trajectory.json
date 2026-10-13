@@ -1,0 +1,10 @@
+{
+  "name": "curved-trajectory",
+  "category": "arrows",
+  "tags": ["trajectory", "curve", "path", "arc", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M4 19C4 9 10 5 19 5\"/><polyline class=\"p2\" points=\"16 2.5 19 5 16 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "phone-missed-bell",
+  "category": "communication",
+  "tags": ["phone", "missed", "call", "bell", "notification", "alert"],
+  "svg": "<path class=\"p1\" d=\"M7 3.5h2.5l1.5 4-2 1.5c1 2.3 2.7 4 5 5l1.5-2 4 1.5v2.5c0 .8-.7 1.5-1.5 1.5C10.5 17.5 5.5 12.5 5.5 5c0-.8.7-1.5 1.5-1.5z\"/><path class=\"p2\" d=\"M18.5 2.5a2 2 0 0 0-2 2V6l-1 1.5h6L20.5 6V4.5a2 2 0 0 0-2-2z\"/><path class=\"p2\" d=\"M17.5 9.5a1 1 0 0 0 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 600, "origin": "18.5px 2.5px" }
+  ]
+}

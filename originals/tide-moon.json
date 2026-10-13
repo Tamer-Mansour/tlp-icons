@@ -1,0 +1,11 @@
+{
+  "name": "tide-moon",
+  "category": "science",
+  "tags": ["moon", "tide", "waves", "ocean", "night"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"4\"/><path class=\"p2\" d=\"M3 13Q6 11 9 13T15 13T21 13\"/><path class=\"p3\" d=\"M3 17.5Q6 15.5 9 17.5T15 17.5T21 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 900 }
+  ]
+}

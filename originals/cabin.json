@@ -1,0 +1,11 @@
+{
+  "name": "cabin",
+  "category": "buildings",
+  "tags": ["cabin", "log", "woodland", "hut", "retreat", "forest"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V11l9-7 9 7v10z\"/><path class=\"p2\" d=\"M3 14.5h18\"/><path class=\"p3\" d=\"M10 21v-4h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

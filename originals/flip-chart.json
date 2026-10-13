@@ -1,0 +1,11 @@
+{
+  "name": "flip-chart",
+  "category": "communication",
+  "tags": ["flip chart", "easel", "presentation", "chart", "pad", "meeting"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"12\" rx=\"1\"/><polyline class=\"p2\" points=\"7,12 10,9 13,11 17,7\"/><path class=\"p3\" d=\"M8 15l-3 7M16 15l3 7M12 15v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

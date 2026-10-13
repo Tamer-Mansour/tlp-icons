@@ -1,0 +1,11 @@
+{
+  "name": "proof-marks",
+  "category": "text",
+  "tags": ["proof", "marks", "caret", "delete", "editing"],
+  "svg": "<path class=\"p1\" d=\"M3 15H9M12 15H21\"/><path class=\"p2\" d=\"M9 12L10.5 9.5L12 12\"/><path class=\"p3\" d=\"M15 18Q16.5 20 18 18T21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "backspace-key",
+  "category": "interface",
+  "tags": ["backspace", "delete", "key", "keyboard", "keycap", "erase"],
+  "svg": "<path class=\"d p1\" d=\"M9 5h11a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-6-7z\"/><path class=\"p2\" d=\"M14 9.5l4 4M18 9.5l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stalactite",
+  "category": "nature",
+  "tags": ["cave", "rock", "ceiling", "formation", "stone"],
+  "svg": "<line class=\"p2\" x1=\"2\" y1=\"3\" x2=\"22\" y2=\"3\"/><path class=\"d p1\" d=\"M6 3L12 20L18 3Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 }
+  ]
+}

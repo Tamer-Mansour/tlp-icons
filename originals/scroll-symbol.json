@@ -1,0 +1,11 @@
+{
+  "name": "scroll-symbol",
+  "category": "emoji",
+  "tags": ["scroll", "document", "parchment", "paper", "letter"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7.5\" width=\"12\" height=\"9\"/><rect class=\"p2\" x=\"4\" y=\"2.5\" width=\"16\" height=\"3\" rx=\"1.5\"/><rect class=\"p3\" x=\"4\" y=\"18.5\" width=\"16\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "rollIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "rollIn", "dur": 500, "delay": 700 }
+  ]
+}

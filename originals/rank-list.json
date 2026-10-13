@@ -1,0 +1,10 @@
+{
+  "name": "rank-list",
+  "category": "charts",
+  "tags": ["rank", "list", "leaderboard", "numbered", "rows", "order"],
+  "svg": "<path class=\"p2\" d=\"M8 6H20M8 12H17M8 18H14\"/><circle class=\"f p1\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

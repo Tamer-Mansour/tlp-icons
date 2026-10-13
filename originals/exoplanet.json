@@ -1,0 +1,11 @@
+{
+  "name": "exoplanet",
+  "category": "science",
+  "tags": ["exoplanet", "planet", "orbit", "star", "space", "astronomy", "world"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"14\" r=\"5.5\"/><path class=\"p2\" d=\"M3.5 9.5C7 4 18 5 20.5 11.5\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"4.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1200 }
+  ]
+}

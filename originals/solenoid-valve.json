@@ -1,0 +1,11 @@
+{
+  "name": "solenoid-valve",
+  "category": "devices",
+  "tags": ["solenoid", "valve", "coil", "electric", "fluid", "control"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2 13h5M17 13h5\"/><polyline class=\"p3\" points=\"4,6 6.5,3 9,6 11.5,3 14,6 16.5,3 19,6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 900, "delay": 1000 }
+  ]
+}

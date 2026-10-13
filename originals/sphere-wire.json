@@ -1,0 +1,11 @@
+{
+  "name": "sphere-wire",
+  "category": "shapes",
+  "tags": ["sphere", "globe", "wire", "mesh", "3d", "earth"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"3.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

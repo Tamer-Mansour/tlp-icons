@@ -1,0 +1,10 @@
+{
+  "name": "neighbor-fence",
+  "category": "people",
+  "tags": ["neighbor", "fence", "picket", "houses", "yard", "neighborhood"],
+  "svg": "<path class=\"p1\" d=\"M4 10v9M9 10v9M14 10v9M19 10v9M3 14h18M3 18h18\"/><path class=\"p2\" d=\"M4 7.5L7 5l3 2.5M13 7.5l3-2.5 3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

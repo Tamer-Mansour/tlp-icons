@@ -1,0 +1,11 @@
+{
+  "name": "speaker-view",
+  "category": "communication",
+  "tags": ["speaker", "view", "screen", "video", "thumbnails", "meeting"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"17\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "callout-shape",
+  "category": "shapes",
+  "tags": ["callout", "speech", "bubble", "comment", "message"],
+  "svg": "<path class=\"d p1\" d=\"M4 4 H20 V16 H10 L5 20 V16 H4 Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 600 }
+  ]
+}

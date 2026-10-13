@@ -1,0 +1,11 @@
+{
+  "name": "access-gate",
+  "category": "security",
+  "tags": ["access", "gate", "card", "reader", "entry", "barrier"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"3.5\" height=\"7\" rx=\"1\"/><rect class=\"d p3\" x=\"17.5\" y=\"14\" width=\"3.5\" height=\"7\" rx=\"1\"/><line class=\"p2\" x1=\"6.5\" y1=\"16.5\" x2=\"16\" y2=\"7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 1000, "origin": "6.5px 16.5px" }
+  ]
+}

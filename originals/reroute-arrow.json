@@ -1,0 +1,10 @@
+{
+  "name": "reroute-arrow",
+  "category": "arrows",
+  "tags": ["reroute", "detour", "path", "avoid", "around", "route"],
+  "svg": "<path class=\"p1\" d=\"M3 17h5a2 2 0 0 0 2-2V9a2 2 0 0 1 2-2h7\"/><path class=\"p2\" d=\"M16 4l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "reject-suggestion",
+  "category": "text",
+  "tags": ["reject", "suggestion", "decline", "strike", "cross", "review"],
+  "svg": "<path class=\"p1\" d=\"M4 15h16\"/><path class=\"p2\" d=\"M9 12l6 6M15 12l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

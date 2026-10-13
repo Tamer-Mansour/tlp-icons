@@ -1,0 +1,10 @@
+{
+  "name": "sigmoid-curve",
+  "category": "math",
+  "tags": ["sigmoid", "curve", "s-curve", "activation", "smooth"],
+  "svg": "<path class=\"p1\" d=\"M3 17C8 17 8 12 12 12C16 12 16 7 21 7\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nest-arrow",
+  "category": "arrows",
+  "tags": ["nest", "inside", "group", "contain", "box", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"3\"/><rect class=\"p2\" x=\"11\" y=\"11\" width=\"7\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M5 5l4 4M5 9h4V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "inspection-sticker",
+  "category": "vehicles",
+  "tags": ["inspection", "sticker", "check", "approved", "car", "tab"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 12.5L10.8 15.2L16 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stamp", "dur": 500, "delay": 700 }
+  ]
+}

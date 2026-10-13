@@ -1,0 +1,10 @@
+{
+  "name": "svg-path",
+  "category": "development",
+  "tags": ["svg", "path", "curve", "bezier", "vector", "anchor"],
+  "svg": "<path class=\"p1\" d=\"M4 19C4 9 20 15 20 5\"/><circle class=\"f p2\" cx=\"4\" cy=\"19\" r=\"1.6\"/><circle class=\"f p2\" cx=\"20\" cy=\"5\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

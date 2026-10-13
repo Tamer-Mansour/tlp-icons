@@ -1,0 +1,11 @@
+{
+  "name": "mesh-hub",
+  "category": "connectivity",
+  "tags": ["mesh", "hub", "network", "nodes", "spokes", "topology"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M12 9.5 V5.5 M12 14.5 V18.5 M9.5 12 H5.5 M14.5 12 H18.5\"/><path class=\"p3\" d=\"M10.5 2.5 H13.5 V5.5 H10.5 Z M10.5 18.5 H13.5 V21.5 H10.5 Z M2.5 10.5 H5.5 V13.5 H2.5 Z M18.5 10.5 H21.5 V13.5 H18.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

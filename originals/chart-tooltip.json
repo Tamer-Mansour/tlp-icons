@@ -1,0 +1,11 @@
+{
+  "name": "chart-tooltip",
+  "category": "charts",
+  "tags": ["tooltip", "hover", "popup", "value", "label"],
+  "svg": "<polyline class=\"p1\" points=\"2,18 7,13 12,15 17,9 22,12\"/><rect class=\"d p2\" x=\"13\" y=\"2\" width=\"8\" height=\"4.5\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"17\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1200 }
+  ]
+}

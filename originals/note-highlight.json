@@ -1,0 +1,11 @@
+{
+  "name": "note-highlight",
+  "category": "files",
+  "tags": ["note", "highlight", "marked text", "emphasis", "key line"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"6\" y=\"7.5\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M8 9h8M8 14h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

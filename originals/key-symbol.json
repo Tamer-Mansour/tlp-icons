@@ -1,0 +1,10 @@
+{
+  "name": "key-symbol",
+  "category": "emoji",
+  "tags": ["key", "lock", "unlock", "secret", "access", "password"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M11 12 H21 M18 12 V15 M21 12 V14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "butter-curl",
+  "category": "food",
+  "tags": ["butter", "curl", "plate", "dairy", "breakfast"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"18\" rx=\"9\" ry=\"2\"/><path class=\"p2\" d=\"M7 13 C7 8 11 7 13 9 C15 11 12 13 10 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 600 }
+  ]
+}

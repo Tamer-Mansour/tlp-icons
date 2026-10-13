@@ -1,0 +1,11 @@
+{
+  "name": "condor",
+  "category": "nature",
+  "tags": ["condor", "bird", "broad wings", "bald neck", "soaring", "raptor"],
+  "svg": "<path class=\"d p1\" d=\"M2 9C5 8 7 9 9 11L12 14L15 11C17 9 19 8 22 9C20 13 17 16 12 17C7 16 4 13 2 9Z\"/><path class=\"p3\" d=\"M12 9V11\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

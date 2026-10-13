@@ -1,0 +1,11 @@
+{
+  "name": "sundial-shadow",
+  "category": "science",
+  "tags": ["sundial", "shadow", "time", "gnomon", "sun", "clock"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"16\" rx=\"9\" ry=\"3\"/><path class=\"p2\" d=\"M12 16L8 7\"/><path class=\"p3\" d=\"M12 16l5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 16px" }
+  ]
+}

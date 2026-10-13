@@ -1,0 +1,10 @@
+{
+  "name": "pie-dish",
+  "category": "food",
+  "tags": ["pie", "dish", "dessert", "baking", "slice"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 Q21 19 12 19 Q3 19 3 11 Z\"/><path class=\"p2\" d=\"M12 11 L16.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

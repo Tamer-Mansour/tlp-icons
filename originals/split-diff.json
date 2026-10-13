@@ -1,0 +1,11 @@
+{
+  "name": "split-diff",
+  "category": "development",
+  "tags": ["diff", "split", "compare", "changes", "merge", "columns"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M12 3 V21\"/><path class=\"p3\" d=\"M5.5 9 H8.5 M5.5 14 H8.5 M15.5 9 H18.5 M15.5 14 H18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "top" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

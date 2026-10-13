@@ -1,0 +1,10 @@
+{
+  "name": "smart-ring",
+  "category": "devices",
+  "tags": ["smart", "ring", "wearable", "fitness", "tracker"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"6\"/><path class=\"d p2\" d=\"M9.5 8L12 4.5 14.5 8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

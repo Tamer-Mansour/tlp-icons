@@ -1,0 +1,11 @@
+{
+  "name": "pec-deck",
+  "category": "sport",
+  "tags": ["pec", "deck", "machine", "chest", "cable", "gym"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"4\" height=\"12\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"6\" width=\"4\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M7 12 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

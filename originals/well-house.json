@@ -1,0 +1,11 @@
+{
+  "name": "well-house",
+  "category": "buildings",
+  "tags": ["well", "hut", "crank", "roof", "water", "village"],
+  "svg": "<path class=\"p1\" d=\"M4 10l8-6 8 6\"/><path class=\"p2\" d=\"M6 10v10M18 10v10\"/><path class=\"p3\" d=\"M9 14h6M12 14v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1200 }
+  ]
+}

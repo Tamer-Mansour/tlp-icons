@@ -1,0 +1,10 @@
+{
+  "name": "skip-intro",
+  "category": "media",
+  "tags": ["skip", "intro", "forward", "play", "next"],
+  "svg": "<path class=\"d p1\" d=\"M3 5l10 7-10 7z\"/><path class=\"p2\" d=\"M18 5v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

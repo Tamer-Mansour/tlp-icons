@@ -1,0 +1,11 @@
+{
+  "name": "turkey-leg",
+  "category": "food",
+  "tags": ["turkey", "drumstick", "meat", "feast", "bone", "roast"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8.5\" cy=\"14\" rx=\"6\" ry=\"5\" transform=\"rotate(-35 8.5 14)\"/><path class=\"p2\" d=\"M13 10l5.5-5.5\"/><circle class=\"p3\" cx=\"19.5\" cy=\"4.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

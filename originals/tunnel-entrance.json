@@ -1,0 +1,11 @@
+{
+  "name": "tunnel-entrance",
+  "category": "buildings",
+  "tags": ["tunnel", "entrance", "arch", "passage", "opening", "path"],
+  "svg": "<path class=\"d p2\" d=\"M9 21 V12 A3 3 0 0 1 15 12 V21 Z\"/><path class=\"p1\" d=\"M5 21 V11 A7 7 0 0 1 19 11 V21\"/><path class=\"p3\" d=\"M2 21 H22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "viewport-desktop",
+  "category": "layout",
+  "tags": ["viewport", "desktop", "landscape", "screen", "frame"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><polyline class=\"p2\" points=\"5,10 5,8 7,8\"/><polyline class=\"p2\" points=\"19,14 19,16 17,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

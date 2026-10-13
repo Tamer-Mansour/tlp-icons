@@ -1,0 +1,10 @@
+{
+  "name": "stone-wall",
+  "category": "buildings",
+  "tags": ["stone", "wall", "blocks", "masonry", "rubble", "fence"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"20\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M2 14h7M9 14h5M14 9v5M17 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 800 }
+  ]
+}

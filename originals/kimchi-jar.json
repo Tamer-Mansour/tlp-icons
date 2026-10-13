@@ -1,0 +1,11 @@
+{
+  "name": "kimchi-jar",
+  "category": "food",
+  "tags": ["kimchi", "jar", "fermented", "korean", "pickled"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"3\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"9\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"d p3\" d=\"M9 17 Q9 12 14 12 Q15 17 9 17 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 17px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stepper-motor",
+  "category": "devices",
+  "tags": ["stepper", "motor", "shaft", "motion", "precision", "robotics"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"11\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M17 8V16\"/><path class=\"p2\" d=\"M14 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900, "origin": "17px 12px" }
+  ]
+}

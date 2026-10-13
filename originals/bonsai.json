@@ -1,0 +1,11 @@
+{
+  "name": "bonsai",
+  "category": "home",
+  "tags": ["bonsai", "tree", "miniature", "plant", "japan", "trunk"],
+  "svg": "<rect class=\"p3\" x=\"6\" y=\"16\" width=\"12\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 16v-3\"/><circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

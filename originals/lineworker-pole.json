@@ -1,0 +1,11 @@
+{
+  "name": "lineworker-pole",
+  "category": "people",
+  "tags": ["lineworker", "utility", "pole", "power", "electric", "wires"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"5\" y1=\"6\" x2=\"19\" y2=\"6\"/><path class=\"p3\" d=\"M5 8 V12 M19 8 V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

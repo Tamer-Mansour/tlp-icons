@@ -1,0 +1,12 @@
+{
+  "name": "memory-alert",
+  "category": "notifications",
+  "tags": ["memory", "ram", "stick", "alert", "hardware"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"20\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M6 16v4M10 16v4M14 16v4M18 16v4\"/><path class=\"p3\" d=\"M12 8.5v4\"/><circle class=\"f p4\" cx=\"12\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

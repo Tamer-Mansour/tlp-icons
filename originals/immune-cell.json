@@ -1,0 +1,10 @@
+{
+  "name": "immune-cell",
+  "category": "science",
+  "tags": ["immune", "cell", "spiky", "biology", "virus"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.5 5.5l1.5 1.5M18.5 18.5l-1.5-1.5M18.5 5.5l-1.5 1.5M5.5 18.5l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

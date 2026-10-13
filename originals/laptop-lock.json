@@ -1,0 +1,11 @@
+{
+  "name": "laptop-lock",
+  "category": "security",
+  "tags": ["laptop", "lock", "computer", "secure", "screen", "portable"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"11\" rx=\"1.5\"/><path class=\"p1\" d=\"M2 19H22\"/><rect class=\"d p2\" x=\"10\" y=\"8\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M10.8 8V7A1.2 1.2 0 0 1 13.2 7V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

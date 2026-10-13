@@ -1,0 +1,11 @@
+{
+  "name": "static-electricity",
+  "category": "weather",
+  "tags": ["static", "spark", "charge", "zigzag", "electricity", "shock"],
+  "svg": "<polyline class=\"p1\" points=\"12 2 7 12 13 12 8 22\"/><path class=\"p2\" d=\"M18 4 V8 M16 6 H20\"/><path class=\"p3\" d=\"M16 17 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "phone-screen-tap",
+  "category": "communication",
+  "tags": ["phone", "tap", "touch", "screen", "finger", "press"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1.2\"/><path class=\"p3\" d=\"M12 10.5V8M8.5 11.5L6.5 9.5M15.5 11.5l2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

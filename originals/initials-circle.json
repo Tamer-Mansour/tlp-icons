@@ -1,0 +1,11 @@
+{
+  "name": "initials-circle",
+  "category": "people",
+  "tags": ["initials", "letter", "circle", "monogram", "name", "badge"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 16 L12 7.5 L16.5 16\"/><path class=\"p3\" d=\"M9.2 13.5 H14.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "owl",
+  "category": "nature",
+  "tags": ["owl", "big eyes", "ear tufts", "night bird", "wise"],
+  "svg": "<path class=\"d p1\" d=\"M6 8 L7 4 L10 6 H14 L17 4 L18 8 Q20 12 18 16 Q16 20 12 20 Q8 20 6 16 Q4 12 6 8 Z\"/><circle class=\"p2\" cx=\"9\" cy=\"11\" r=\"1.8\"/><circle class=\"p2\" cx=\"15\" cy=\"11\" r=\"1.8\"/><path class=\"p3\" d=\"M11 14 L12 15.5 L13 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

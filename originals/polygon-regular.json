@@ -1,0 +1,10 @@
+{
+  "name": "polygon-regular",
+  "category": "shapes",
+  "tags": ["hexagon", "polygon", "regular", "sides", "geometry", "shape"],
+  "svg": "<polygon class=\"p1\" points=\"20,12 16,19 8,19 4,12 8,5 16,5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

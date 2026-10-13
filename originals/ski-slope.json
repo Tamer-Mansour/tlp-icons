@@ -1,0 +1,10 @@
+{
+  "name": "ski-slope",
+  "category": "sport",
+  "tags": ["ski", "slope", "mountain", "snow", "winter", "piste"],
+  "svg": "<polyline class=\"p1\" points=\"2 20 9 9 13 14 17 8 22 20\"/><circle class=\"d p2\" cx=\"18\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

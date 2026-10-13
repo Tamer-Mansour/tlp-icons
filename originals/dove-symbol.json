@@ -1,0 +1,11 @@
+{
+  "name": "dove-symbol",
+  "category": "emoji",
+  "tags": ["dove", "peace", "bird", "wings", "calm"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"7\" ry=\"4.5\" transform=\"rotate(-25 11 14)\"/><g class=\"p2\"><circle cx=\"18\" cy=\"7\" r=\"2.5\"/><path d=\"M20.3 6.4L22 7.2 20.3 8\"/></g><path class=\"p3\" d=\"M6 13c2.5-3 6-4 9-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bird-ring",
+  "category": "nature",
+  "tags": ["bird", "ring", "band", "research", "leg", "banding"],
+  "svg": "<path class=\"p1\" d=\"M12 2v15M8 17h8\"/><ellipse class=\"p2\" cx=\"12\" cy=\"9\" rx=\"4\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 900, "origin": "12px 9px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hamsa",
+  "category": "emoji",
+  "tags": ["hamsa", "hand", "protection", "amulet", "eye", "charm"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"4\"/><line class=\"p2\" x1=\"8\" y1=\"10\" x2=\"8\" y2=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"10\" x2=\"12\" y2=\"3\"/><line class=\"p2\" x1=\"16\" y1=\"10\" x2=\"16\" y2=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"15.5\" r=\"2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

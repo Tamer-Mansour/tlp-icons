@@ -1,0 +1,11 @@
+{
+  "name": "company-user-badge",
+  "category": "people",
+  "tags": ["company", "badge", "employee", "id", "building", "user"],
+  "svg": "<path class=\"p1\" d=\"M3 21V3h9v18\"/><rect class=\"d p2\" x=\"14.5\" y=\"4.5\" width=\"7\" height=\"12\" rx=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"9\" r=\"1.5\"/><path class=\"p3\" d=\"M15.5 13.5a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "swing", "origin": "top", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "propane-tank",
+  "category": "tools",
+  "tags": ["propane", "tank", "gas", "cylinder", "valve"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"14\" rx=\"3\"/><rect class=\"p2\" x=\"10\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><line class=\"p3\" x1=\"6\" y1=\"13\" x2=\"18\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

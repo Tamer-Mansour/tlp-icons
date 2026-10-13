@@ -1,0 +1,10 @@
+{
+  "name": "disclosure-triangle",
+  "category": "layout",
+  "tags": ["disclosure", "triangle", "toggle", "expand", "arrow", "reveal", "tree"],
+  "svg": "<path class=\"d p1\" d=\"M5 7.5l7 4.5-7 4.5z\"/><path class=\"p2\" d=\"M14 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

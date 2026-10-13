@@ -1,0 +1,10 @@
+{
+  "name": "storm-cell",
+  "category": "weather",
+  "tags": ["storm", "cell", "cloud", "swirl", "rain"],
+  "svg": "<path class=\"d p1\" d=\"M7 14 H16 A3.5 3.5 0 0 0 16 7 A4.5 4.5 0 0 0 8 8.5 A3 3 0 0 0 7 14 Z\"/><path class=\"p2\" d=\"M10 20 C10 22 14 22 14 20 C14 18.5 11 18.5 11 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 600 }
+  ]
+}

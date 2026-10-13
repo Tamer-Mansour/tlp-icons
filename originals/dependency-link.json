@@ -1,0 +1,11 @@
+{
+  "name": "dependency-link",
+  "category": "development",
+  "tags": ["dependency", "link", "package", "require", "graph"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"d p2\" x=\"14\" y=\"13\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M10 7.5H17.5V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

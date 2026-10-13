@@ -1,0 +1,12 @@
+{
+  "name": "three-d-axes",
+  "category": "math",
+  "tags": ["three", "axes", "dimensions", "origin", "coordinates", "math"],
+  "svg": "<circle class=\"f p4\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p1\" d=\"M12 12V3\"/><path class=\"p2\" d=\"M12 12L20 16\"/><path class=\"p3\" d=\"M12 12L4 16\"/>",
+  "motion": [
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 400, "origin": "12px 12px" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

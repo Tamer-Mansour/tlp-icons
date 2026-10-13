@@ -1,0 +1,10 @@
+{
+  "name": "skate-park",
+  "category": "buildings",
+  "tags": ["skate", "park", "ramp", "bowl", "skateboard", "ride"],
+  "svg": "<path class=\"p1\" d=\"M3 9c0 6.5 3.5 10 9 10s9-3.5 9-10\"/><rect class=\"d p2\" x=\"4\" y=\"3\" width=\"16\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 900, "delay": 800 }
+  ]
+}

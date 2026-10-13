@@ -1,0 +1,10 @@
+{
+  "name": "text-phone",
+  "category": "communication",
+  "tags": ["text phone", "keypad", "keys", "typing", "phone"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"3\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M12 7v8M8 11h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

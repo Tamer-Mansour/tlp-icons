@@ -1,0 +1,11 @@
+{
+  "name": "text-3d",
+  "category": "text",
+  "tags": ["3d", "depth", "extrude", "shadow", "dimension"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"12\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M8 3 H20 V15\"/><path class=\"p3\" d=\"M3 8 L8 3 M15 8 L20 3 M15 20 L20 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

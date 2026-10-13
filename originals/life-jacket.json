@@ -1,0 +1,11 @@
+{
+  "name": "life-jacket",
+  "category": "vehicles",
+  "tags": ["lifejacket", "vest", "safety", "float", "water", "swim"],
+  "svg": "<path class=\"d p1\" d=\"M7 3 L10 6 H14 L17 3 L21 5 L19 21 H5 L3 5 Z\"/><path class=\"p2\" d=\"M12 6 V21\"/><path class=\"p3\" d=\"M5 13 H10 M14 13 H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

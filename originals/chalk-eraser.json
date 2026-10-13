@@ -1,0 +1,11 @@
+{
+  "name": "chalk-eraser",
+  "category": "people",
+  "tags": ["eraser", "chalk", "classroom", "dust", "school"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"13\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M17.5 10.5l4-5.5\"/><circle class=\"f p3\" cx=\"5\" cy=\"20\" r=\"1\"/><circle class=\"f p3\" cx=\"9\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

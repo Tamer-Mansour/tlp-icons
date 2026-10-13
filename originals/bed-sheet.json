@@ -1,0 +1,11 @@
+{
+  "name": "bed-sheet",
+  "category": "home",
+  "tags": ["bed sheet", "sheet", "bedding", "linen", "fold"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h11l5 5v13H4z\"/><path class=\"p2\" d=\"M15 3v5h5\"/><path class=\"p3\" d=\"M7 13c1.5-1.5 3 1.5 5 0s3.5 1.5 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

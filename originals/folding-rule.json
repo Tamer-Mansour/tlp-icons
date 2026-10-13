@@ -1,0 +1,10 @@
+{
+  "name": "folding-rule",
+  "category": "tools",
+  "tags": ["rule", "folding", "measure", "ruler", "wood"],
+  "svg": "<path class=\"p1\" d=\"M4 4H20V20H4Z\"/><path class=\"p2\" d=\"M4 9H20M4 14H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 900, "delay": 900 }
+  ]
+}

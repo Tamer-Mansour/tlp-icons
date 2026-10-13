@@ -1,0 +1,10 @@
+{
+  "name": "mountain-hut",
+  "category": "buildings",
+  "tags": ["mountain hut", "alpine", "shelter", "slope", "hiking"],
+  "svg": "<path class=\"p1\" d=\"M2 21L9 11l4 6\"/><path class=\"d p2\" d=\"M15 21v-5l2.5-2.5 2.5 2.5v5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "supply-closet",
+  "category": "buildings",
+  "tags": ["supply", "closet", "mop", "bucket", "cleaning", "door"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"3\" width=\"10\" height=\"18\"/><path class=\"p2\" d=\"M3 17h6l-1 4H4z\"/><line class=\"p3\" x1=\"5\" y1=\"4\" x2=\"6\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1300, "origin": "bottom" }
+  ]
+}

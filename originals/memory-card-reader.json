@@ -1,0 +1,11 @@
+{
+  "name": "memory-card-reader",
+  "category": "devices",
+  "tags": ["memory", "card", "reader", "sd", "storage", "slot"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"5.5\" width=\"10\" height=\"5\" rx=\"1\"/><line class=\"p3\" x1=\"8\" y1=\"15\" x2=\"16\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1300 }
+  ]
+}

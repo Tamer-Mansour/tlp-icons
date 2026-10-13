@@ -1,0 +1,11 @@
+{
+  "name": "voip-phone",
+  "category": "devices",
+  "tags": ["voip", "desk", "phone", "ethernet", "office"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M6 9V6h8v3\"/><line class=\"p3\" x1=\"17\" y1=\"14\" x2=\"21\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "buzz", "dur": 700, "delay": 1200 }
+  ]
+}

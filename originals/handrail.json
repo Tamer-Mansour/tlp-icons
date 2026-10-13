@@ -1,0 +1,10 @@
+{
+  "name": "handrail",
+  "category": "buildings",
+  "tags": ["handrail", "rail", "grip", "banner", "support", "post"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"8\" x2=\"21\" y2=\"8\"/><line class=\"p2\" x1=\"6\" y1=\"8\" x2=\"6\" y2=\"19\"/><line class=\"p2\" x1=\"18\" y1=\"8\" x2=\"18\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "differential-gear",
+  "category": "vehicles",
+  "tags": ["differential", "gear", "axle", "drivetrain", "bevel"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"9\" r=\"4\"/><circle class=\"p2\" cx=\"15\" cy=\"15\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 1000, "delay": 600, "origin": "15px 15px" }
+  ]
+}

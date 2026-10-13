@@ -1,0 +1,11 @@
+{
+  "name": "wake-up",
+  "category": "time",
+  "tags": ["wake", "morning", "sunrise", "bed", "alarm"],
+  "svg": "<path class=\"d p1\" d=\"M7 15a5 5 0 0 1 10 0z\"/><line class=\"p2\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/><path class=\"p3\" d=\"M12 4v2M5.5 7.5l1.2 1.2M18.5 7.5l-1.2 1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

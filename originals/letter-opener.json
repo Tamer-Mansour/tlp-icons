@@ -1,0 +1,10 @@
+{
+  "name": "letter-opener",
+  "category": "communication",
+  "tags": ["letter", "opener", "blade", "envelope", "slice", "open"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"18\" height=\"11\" rx=\"1.5\"/><path class=\"p1\" d=\"M3 9l9 6 9-6\"/><path class=\"p2\" d=\"M4 3l7 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

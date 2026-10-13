@@ -1,0 +1,11 @@
+{
+  "name": "z-index-layers",
+  "category": "development",
+  "tags": ["z-index", "layers", "stack", "depth", "layering", "order"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"12\" height=\"9\" rx=\"2\"/><rect class=\"d p2\" x=\"6\" y=\"7.5\" width=\"12\" height=\"9\" rx=\"2\"/><rect class=\"p3\" x=\"3\" y=\"12\" width=\"12\" height=\"9\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lark",
+  "category": "nature",
+  "tags": ["lark", "songbird", "bird", "flight", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M7 14Q7 10 11 10Q15 10 15 14Q15 17 11 17Q7 17 7 14Z\"/><path class=\"p2\" d=\"M10 10Q11 3 17 3Q14 7 12 10\"/><circle class=\"p3\" cx=\"16\" cy=\"11\" r=\"2\"/><path class=\"p3\" d=\"M7 14L4 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

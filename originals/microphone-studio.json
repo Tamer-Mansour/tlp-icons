@@ -1,0 +1,12 @@
+{
+  "name": "microphone-studio",
+  "category": "communication",
+  "tags": ["microphone", "studio", "mic", "recording", "podcast", "voice", "pop"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"12\" rx=\"4\"/><path class=\"p2\" d=\"M5 10a7 7 0 0 0 14 0\"/><path class=\"p3\" d=\"M12 17v4M8.5 21.5h7\"/><path class=\"p4\" d=\"M18 4.5a6 6 0 0 1 1.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

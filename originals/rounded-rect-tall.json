@@ -1,0 +1,10 @@
+{
+  "name": "rounded-rect-tall",
+  "category": "shapes",
+  "tags": ["rounded", "rectangle", "tall", "portrait", "card"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"3\"/><line class=\"p2\" x1=\"10\" y1=\"17\" x2=\"14\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

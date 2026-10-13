@@ -1,0 +1,11 @@
+{
+  "name": "map-trail",
+  "category": "nature",
+  "tags": ["map", "trail", "route", "flag", "hike", "folded"],
+  "svg": "<path class=\"d p1\" d=\"M3 6L9 4L15 6L21 4V18L15 20L9 18L3 20Z\"/><path class=\"p2\" d=\"M6 16Q9 10 12 13\"/><path class=\"p3\" d=\"M17 15V4L20 5.5L17 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1100 }
+  ]
+}

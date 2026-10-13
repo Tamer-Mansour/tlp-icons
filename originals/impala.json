@@ -1,0 +1,11 @@
+{
+  "name": "impala",
+  "category": "nature",
+  "tags": ["antelope", "horns", "slim", "savanna", "animal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"13\" height=\"6\" rx=\"2.5\"/><path class=\"p2\" d=\"M6 15 V21 M14 15 V21\"/><path class=\"p3\" d=\"M16 10 L18 6 Q14 2 13 5 M18 6 Q21 2 22 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 800, "origin": "16px 10px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "textarea-block",
+  "category": "interface",
+  "tags": ["textarea", "text", "paragraph", "multiline", "form"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 8h8M8 12h8M8 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 800, "delay": 500 }
+  ]
+}

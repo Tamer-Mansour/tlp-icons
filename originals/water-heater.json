@@ -1,0 +1,11 @@
+{
+  "name": "water-heater",
+  "category": "home",
+  "tags": ["water heater", "boiler", "tank", "hot water", "heating"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M10 13c1-1 1 1 2 0s1 1 2 0\"/><path class=\"p3\" d=\"M10 5V3h4v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

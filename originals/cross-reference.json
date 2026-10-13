@@ -1,0 +1,11 @@
+{
+  "name": "cross-reference",
+  "category": "arrows",
+  "tags": ["cross", "reference", "link", "pages", "related"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"8\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"11\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M10 9 H12.5 V15 H14 M12 13.5 L14 15 L12 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

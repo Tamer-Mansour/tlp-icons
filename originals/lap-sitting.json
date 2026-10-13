@@ -1,0 +1,10 @@
+{
+  "name": "lap-sitting",
+  "category": "people",
+  "tags": ["lap", "sitting", "child", "seated", "family", "hug"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"2.5\"/><path class=\"p1\" d=\"M8 8.5v6h9v3.5\"/><circle class=\"p2\" cx=\"12.5\" cy=\"10\" r=\"1.5\"/><path class=\"p2\" d=\"M12.5 11.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 1000, "delay": 800 }
+  ]
+}

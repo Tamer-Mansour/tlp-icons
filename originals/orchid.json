@@ -1,0 +1,11 @@
+{
+  "name": "orchid",
+  "category": "nature",
+  "tags": ["orchid", "flower", "bloom", "tropical", "petal", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M12 9 Q6 6 5 3 Q10 3 12 9 Z M12 9 Q18 6 19 3 Q14 3 12 9 Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M12 14 Q13 18 12 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

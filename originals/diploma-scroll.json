@@ -1,0 +1,11 @@
+{
+  "name": "diploma-scroll",
+  "category": "science",
+  "tags": ["diploma","scroll","degree","certificate","graduation","award"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\"/><rect class=\"p2\" x=\"3\" y=\"4\" width=\"18\" height=\"3\" rx=\"1.5\"/><rect class=\"p2\" x=\"3\" y=\"17\" width=\"18\" height=\"3\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 11h6M9 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

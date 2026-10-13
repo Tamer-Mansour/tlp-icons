@@ -1,0 +1,10 @@
+{
+  "name": "circle-filled",
+  "category": "emoji",
+  "tags": ["circle", "filled", "dot", "solid", "round", "shape"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7 10 A5 5 0 0 1 10 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

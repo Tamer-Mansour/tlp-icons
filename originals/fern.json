@@ -1,0 +1,10 @@
+{
+  "name": "fern",
+  "category": "nature",
+  "tags": ["fern", "frond", "plant", "leaf", "forest", "green"],
+  "svg": "<path class=\"p1\" d=\"M4 20 Q8 8 20 6\"/><path class=\"p2\" d=\"M8 14 L5 11 M11 11 L8 8 M14 9 L12 5 M17 7 L16 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 900, "origin": "4px 20px" }
+  ]
+}

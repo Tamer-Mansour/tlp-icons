@@ -1,0 +1,11 @@
+{
+  "name": "pot-lid",
+  "category": "food",
+  "tags": ["pot", "lid", "cover", "cooking", "kitchen", "dome"],
+  "svg": "<path class=\"d p1\" d=\"M4 14a8 8 0 0 1 16 0z\"/><path class=\"p2\" d=\"M3 14h18\"/><path class=\"p3\" d=\"M10.5 5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1100 }
+  ]
+}

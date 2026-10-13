@@ -1,0 +1,11 @@
+{
+  "name": "marigold",
+  "category": "nature",
+  "tags": ["marigold", "flower", "ruffled", "bloom", "garden", "orange"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5A4.5 4.5 0 0 1 18.5 7.25A4.5 4.5 0 0 1 18.5 14.75A4.5 4.5 0 0 1 12 18.5A4.5 4.5 0 0 1 5.5 14.75A4.5 4.5 0 0 1 5.5 7.25A4.5 4.5 0 0 1 12 3.5z\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"3\"/><path class=\"p3\" d=\"M12 18.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

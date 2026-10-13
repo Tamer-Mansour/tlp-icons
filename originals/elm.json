@@ -1,0 +1,10 @@
+{
+  "name": "elm",
+  "category": "nature",
+  "tags": ["elm", "tree", "round", "crown", "shade"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M12 15v7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 }
+  ]
+}

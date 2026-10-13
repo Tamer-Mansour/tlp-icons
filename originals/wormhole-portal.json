@@ -1,0 +1,10 @@
+{
+  "name": "wormhole-portal",
+  "category": "science",
+  "tags": ["wormhole", "portal", "space", "tunnel", "gateway", "warp"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"6.5\" ry=\"4\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"3\" ry=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "spiralIn", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1600, "delay": 900 }
+  ]
+}

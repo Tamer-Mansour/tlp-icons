@@ -1,0 +1,11 @@
+{
+  "name": "flow-connector",
+  "category": "design",
+  "tags": ["flow", "connector", "boxes", "arrow", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"7\" height=\"5\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"15\" width=\"7\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M10 6.5h3v11h1M12.5 16 14 17.5 12.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

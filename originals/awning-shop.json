@@ -1,0 +1,10 @@
+{
+  "name": "awning-shop",
+  "category": "buildings",
+  "tags": ["awning", "shop", "scalloped", "striped", "storefront", "canopy"],
+  "svg": "<path class=\"p1\" d=\"M2 8h20v3a3 3 0 0 1-6 0a3 3 0 0 1-6 0a3 3 0 0 1-6 0z\"/><rect class=\"p2\" x=\"5\" y=\"15\" width=\"14\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "wiggle", "dur": 800, "delay": 800 }
+  ]
+}

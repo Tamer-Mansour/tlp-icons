@@ -1,0 +1,11 @@
+{
+  "name": "file-funnel",
+  "category": "files",
+  "tags": ["filter", "funnel", "narrow", "refine", "sort"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"d p2\" d=\"M8 9.5h8L13 12.5v3l-2 1V12.5z\"/><circle class=\"f p3\" cx=\"12\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1300 }
+  ]
+}

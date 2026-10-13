@@ -1,0 +1,12 @@
+{
+  "name": "crocus",
+  "category": "nature",
+  "tags": ["crocus", "flower", "spring", "petals", "bloom"],
+  "svg": "<path class=\"d p1\" d=\"M6 8 Q12 4 18 8 L16 15 Q12 17 8 15 Z\"/><path class=\"p2\" d=\"M10 8.5 V15 M14 8.5 V15\"/><path class=\"p3\" d=\"M12 17 V21.5\"/><path class=\"p4\" d=\"M12 21.5 Q7 21 4 14 M12 21.5 Q17 21 20 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 21.5px" }
+  ]
+}

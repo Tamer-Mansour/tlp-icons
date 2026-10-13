@@ -1,0 +1,10 @@
+{
+  "name": "climate",
+  "category": "weather",
+  "tags": ["climate", "globe", "earth", "temperature", "planet", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M3.5 9h17M3.5 15h17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 800 }
+  ]
+}

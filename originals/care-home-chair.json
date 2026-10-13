@@ -1,0 +1,11 @@
+{
+  "name": "care-home-chair",
+  "category": "people",
+  "tags": ["care home","armchair","heart","care","elderly"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M3 13h18v4H3zM5.5 17v3M18.5 17v3\"/><path class=\"p3\" d=\"M12 11.5L10.1 9.6A1.5 1.5 0 0 1 12 7.8A1.5 1.5 0 0 1 13.9 9.6Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "beat", "dur": 800, "delay": 1000 }
+  ]
+}

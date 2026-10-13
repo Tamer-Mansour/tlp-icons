@@ -1,0 +1,11 @@
+{
+  "name": "config",
+  "category": "development",
+  "tags": ["config", "settings", "sliders", "options", "preferences", "tuning"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M3 12h18M3 18h18\"/><circle class=\"d p2\" cx=\"8\" cy=\"6\" r=\"2\"/><circle class=\"d p2\" cx=\"16\" cy=\"12\" r=\"2\"/><circle class=\"d p3\" cx=\"10\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1200 }
+  ]
+}

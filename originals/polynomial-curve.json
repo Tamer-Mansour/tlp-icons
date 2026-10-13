@@ -1,0 +1,10 @@
+{
+  "name": "polynomial-curve",
+  "category": "math",
+  "tags": ["polynomial", "curve", "turning", "function", "wave"],
+  "svg": "<line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/><path class=\"p1\" d=\"M3 15 C7 5 9 5 12 12 C15 19 17 19 21 9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 500 }
+  ]
+}

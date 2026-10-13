@@ -1,0 +1,12 @@
+{
+  "name": "komodo-dragon",
+  "category": "nature",
+  "tags": ["lizard", "reptile", "tongue", "monitor", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M4 13 Q4 9 9 9 H15 Q19 9 20 13 Q20 15 17 15 H6 Q4 15 4 13 Z\"/><path class=\"p2\" d=\"M20 12 L22 12 M22 12 L21.5 10.5 M22 12 L21.5 13.5\"/><path class=\"p3\" d=\"M7 15 V20 M10 15 V20 M14 15 V20 M17 15 V20\"/><path class=\"p4\" d=\"M4 11 Q1 12 2 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "sway", "dur": 800, "delay": 600, "origin": "4px 12px" },
+    { "part": "p2", "anim": "wiggle", "dur": 400, "delay": 1000, "origin": "20px 12px" }
+  ]
+}

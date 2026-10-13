@@ -1,0 +1,10 @@
+{
+  "name": "jump-to-line",
+  "category": "arrows",
+  "tags": ["jump", "line", "goto", "navigate", "locate"],
+  "svg": "<path class=\"p1\" d=\"M4 19h16\"/><path class=\"p2\" d=\"M12 3v13M8.5 12.5 12 16l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "jump", "dur": 700, "delay": 500 }
+  ]
+}

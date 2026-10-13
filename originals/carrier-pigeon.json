@@ -1,0 +1,11 @@
+{
+  "name": "carrier-pigeon",
+  "category": "communication",
+  "tags": ["pigeon", "bird", "message", "note", "delivery"],
+  "svg": "<path class=\"d p1\" d=\"M4 14C4 9 9 7 14 8L18 9L16 12C15 16 11 18 7 18C5 18 4 16 4 14Z\"/><path class=\"p2\" d=\"M8 13C10 11 12 11 14 12\"/><path class=\"p3\" d=\"M18 9L21 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

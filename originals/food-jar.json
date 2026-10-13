@@ -1,0 +1,11 @@
+{
+  "name": "food-jar",
+  "category": "food",
+  "tags": ["jar", "food", "storage", "preserve", "pantry"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"4\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M8 15 Q12 13 16 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1100 }
+  ]
+}

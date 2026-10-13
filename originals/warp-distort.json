@@ -1,0 +1,11 @@
+{
+  "name": "warp-distort",
+  "category": "design",
+  "tags": ["warp", "distort", "wave", "bend", "shape", "transform"],
+  "svg": "<path class=\"p1\" d=\"M4 7C8 4 16 10 20 7\"/><path class=\"p2\" d=\"M20 17C16 20 8 14 4 17\"/><path class=\"p3\" d=\"M4 7V17M20 7V17\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "wave", "dur": 900, "delay": 1000 }
+  ]
+}

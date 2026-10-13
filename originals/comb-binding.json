@@ -1,0 +1,11 @@
+{
+  "name": "comb-binding",
+  "category": "files",
+  "tags": ["comb", "binding", "spiral", "sheets", "spine", "notebook"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"14\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M2 7h4M2 11h4M2 15h4M2 19h4\"/><path class=\"p3\" d=\"M10 8h6M10 12h6M10 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1100 }
+  ]
+}

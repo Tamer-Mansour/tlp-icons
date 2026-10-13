@@ -1,0 +1,11 @@
+{
+  "name": "hoarfrost",
+  "category": "weather",
+  "tags": ["frost", "ice", "crystal", "winter", "cold", "snowflake"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9\"/><path class=\"p2\" d=\"M10 4.5l2-1.5 2 1.5M10 19.5l2 1.5 2-1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 1200 }
+  ]
+}

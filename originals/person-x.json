@@ -1,0 +1,10 @@
+{
+  "name": "person-x",
+  "category": "people",
+  "tags": ["person", "remove", "deactivate", "x mark", "delete user"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"4.5\" r=\"2.5\"/><path class=\"p1\" d=\"M8 8.5v7M8 15.5l-2.5 6.5M8 15.5l2.5 6.5M8 10l-2.5 4M8 10l2.5 4\"/><path class=\"p2\" d=\"M16 13l5 5M21 13l-5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

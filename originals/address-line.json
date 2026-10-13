@@ -1,0 +1,11 @@
+{
+  "name": "address-line",
+  "category": "text",
+  "tags": ["address", "map", "pin", "location", "text", "lines"],
+  "svg": "<path class=\"d p1\" d=\"M7 2.5A4 4 0 0 0 3 6.5C3 9 7 13 7 13C7 13 11 9 11 6.5A4 4 0 0 0 7 2.5Z\"/><circle class=\"p2\" cx=\"7\" cy=\"6.5\" r=\"1.5\"/><path class=\"p3\" d=\"M14 8H21M14 13H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

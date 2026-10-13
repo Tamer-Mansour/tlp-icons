@@ -1,0 +1,11 @@
+{
+  "name": "rail-switch",
+  "category": "vehicles",
+  "tags": ["rail", "switch", "junction", "track", "railway"],
+  "svg": "<path class=\"p1\" d=\"M3 15h9l8-7\"/><path class=\"p2\" d=\"M12 15l8 6\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1200 }
+  ]
+}

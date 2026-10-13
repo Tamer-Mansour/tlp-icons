@@ -1,0 +1,11 @@
+{
+  "name": "clip-split",
+  "category": "media",
+  "tags": ["split", "clip", "cut", "divide", "edit"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"7\" height=\"14\" rx=\"1\"/><rect class=\"d p2\" x=\"14\" y=\"5\" width=\"7\" height=\"14\" rx=\"1\"/><path class=\"p3\" d=\"M12 3v2M12 19v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

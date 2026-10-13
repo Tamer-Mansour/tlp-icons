@@ -1,0 +1,11 @@
+{
+  "name": "trust-score",
+  "category": "people",
+  "tags": ["trust", "score", "rating", "gauge", "shield", "reputation"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5L20 5.5V11.5C20 16.5 16.5 20 12 21.5C7.5 20 4 16.5 4 11.5V5.5Z\"/><path class=\"p2\" d=\"M7.5 14a4.5 4.5 0 0 1 9 0\"/><path class=\"p3\" d=\"M12 14l2.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1100, "origin": "12px 14px" }
+  ]
+}

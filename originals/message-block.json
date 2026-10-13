@@ -1,0 +1,10 @@
+{
+  "name": "message-block",
+  "category": "communication",
+  "tags": ["mute message", "hide chat", "blocking", "silence", "message"],
+  "svg": "<rect class=\"p1 d\" x=\"3\" y=\"4\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 10.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

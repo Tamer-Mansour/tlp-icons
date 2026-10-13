@@ -1,0 +1,11 @@
+{
+  "name": "golden-rectangle",
+  "category": "shapes",
+  "tags": ["golden", "ratio", "rectangle", "square", "proportion", "section"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\"/><rect class=\"d p2\" x=\"6\" y=\"2\" width=\"12\" height=\"12\"/><line class=\"p3\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1200 }
+  ]
+}

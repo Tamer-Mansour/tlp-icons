@@ -1,0 +1,10 @@
+{
+  "name": "team-members",
+  "category": "development",
+  "tags": ["team", "members", "people", "group", "users", "collaborators"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"11\" r=\"2.5\"/><circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"2.5\"/><circle class=\"p1\" cx=\"19.5\" cy=\"11\" r=\"2.5\"/><path class=\"p2\" d=\"M2 20V18A2.5 2.5 0 0 1 7 18V20M9.5 20V18A2.5 2.5 0 0 1 14.5 18V20M17 20V18A2.5 2.5 0 0 1 22 18V20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 600 }
+  ]
+}

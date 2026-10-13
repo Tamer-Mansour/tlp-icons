@@ -1,0 +1,11 @@
+{
+  "name": "socket-plug",
+  "category": "development",
+  "tags": ["socket", "plug", "power", "connect", "outlet", "electric"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"13\" width=\"16\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"3\" width=\"10\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 8v2.5M14 8v2.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"17\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

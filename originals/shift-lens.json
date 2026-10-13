@@ -1,0 +1,11 @@
+{
+  "name": "shift-lens",
+  "category": "photography",
+  "tags": ["shift", "lens", "tilt", "perspective", "architecture", "camera"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M5 4H19\"/><path class=\"p3\" d=\"M8 2L5 4L8 6M16 2L19 4L16 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

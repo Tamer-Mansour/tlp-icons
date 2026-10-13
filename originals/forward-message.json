@@ -1,0 +1,11 @@
+{
+  "name": "forward-message",
+  "category": "interface",
+  "tags": ["forward", "share", "message", "send", "pass", "chat"],
+  "svg": "<path class=\"d p1\" d=\"M4 3H12A2 2 0 0 1 14 5V9A2 2 0 0 1 12 11H7L4 14V11H4A2 2 0 0 1 2 9V5A2 2 0 0 1 4 3Z\"/><path class=\"p2\" d=\"M15 12H21\"/><polyline class=\"p3\" points=\"18,9 21,12 18,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

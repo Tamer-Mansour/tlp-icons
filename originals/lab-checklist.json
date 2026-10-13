@@ -1,0 +1,12 @@
+{
+  "name": "lab-checklist",
+  "category": "science",
+  "tags": ["lab", "checklist", "clipboard", "tasks", "procedure", "checkbox"],
+  "svg": "<rect class=\"d p1\" x=\"4.5\" y=\"4\" width=\"15\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M7 8H9.5V10.5H7ZM7 12H9.5V14.5H7ZM7 16H9.5V18.5H7ZM12.5 9.25H16.5M12.5 13.25H16.5M12.5 17.25H16.5\"/><path class=\"p4\" d=\"M7.5 9.5L8.5 10.5L10 8.5M7.5 13.5L8.5 14.5L10 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

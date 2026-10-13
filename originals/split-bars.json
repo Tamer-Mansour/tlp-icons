@@ -1,0 +1,10 @@
+{
+  "name": "split-bars",
+  "category": "charts",
+  "tags": ["split", "bars", "proportion", "share", "ratio", "chart"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"8\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"9\" width=\"8\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 400, "origin": "right" }
+  ]
+}

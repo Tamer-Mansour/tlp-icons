@@ -1,0 +1,11 @@
+{
+  "name": "codomain-output",
+  "category": "math",
+  "tags": ["codomain", "output", "function", "arrow", "box", "math"],
+  "svg": "<rect class=\"d p2\" x=\"3\" y=\"8\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p1\" d=\"M14 12H20\"/><polyline class=\"p3\" points=\"17 9 20 12 17 15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

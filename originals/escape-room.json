@@ -1,0 +1,11 @@
+{
+  "name": "escape-room",
+  "category": "buildings",
+  "tags": ["escape", "padlock", "lock", "exit", "door", "puzzle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"9\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 11 V8 A2.5 2.5 0 0 1 10.5 8 V11\"/><path class=\"p3\" d=\"M15 15 H21 M18 12 L21 15 L18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

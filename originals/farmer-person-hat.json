@@ -1,0 +1,11 @@
+{
+  "name": "farmer-person-hat",
+  "category": "people",
+  "tags": ["farmer", "hat", "farm", "person", "agriculture", "worker"],
+  "svg": "<path class=\"p1\" d=\"M3 10.5h18\"/><path class=\"d p2\" d=\"M8 10.5V7.5a4 4 0 0 1 8 0v3z\"/><circle class=\"p3\" cx=\"12\" cy=\"14.5\" r=\"2.5\"/><path class=\"p3\" d=\"M6.5 22c0-2.5 2.5-4 5.5-4s5.5 1.5 5.5 4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 900 }
+  ]
+}

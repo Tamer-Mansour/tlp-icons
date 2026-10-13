@@ -1,0 +1,11 @@
+{
+  "name": "split-pane-horizontal",
+  "category": "layout",
+  "tags": ["split", "pane", "divider", "resize", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"3\"/><line class=\"p2\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "biscuit-joiner",
+  "category": "tools",
+  "tags": ["biscuit", "joiner", "slot", "cutter", "woodwork"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M8 12h8\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

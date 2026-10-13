@@ -1,0 +1,11 @@
+{
+  "name": "jet-stream",
+  "category": "weather",
+  "tags": ["jet stream", "wind", "high altitude", "current", "arrows", "weather"],
+  "svg": "<path class=\"p1\" d=\"M3 7 Q12 4 21 7 M18 4.5 L21 7 L18.5 9.5\"/><path class=\"p2\" d=\"M3 12 Q12 9 21 12 M18 9.5 L21 12 L18.5 14.5\"/><path class=\"p3\" d=\"M3 17 Q12 14 21 17 M18 14.5 L21 17 L18.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 800 }
+  ]
+}

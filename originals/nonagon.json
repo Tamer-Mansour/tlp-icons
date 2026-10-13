@@ -1,0 +1,10 @@
+{
+  "name": "nonagon",
+  "category": "shapes",
+  "tags": ["nonagon", "nine", "sides", "polygon", "regular", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3L17.8 5.1L20.9 10.4L19.8 16.5L15.1 20.5H8.9L4.2 16.5L3.1 10.4L6.2 5.1Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

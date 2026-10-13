@@ -1,0 +1,10 @@
+{
+  "name": "status-error",
+  "category": "development",
+  "tags": ["status", "error", "failed", "cross", "alert", "fault"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 9l6 6M15 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "caramel",
+  "category": "food",
+  "tags": ["sauce", "sweet", "syrup", "dessert", "drip"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c3 4 5 6.5 5 9.5a5 5 0 0 1-10 0C7 9.5 9 7 12 3z\"/><path class=\"p2\" d=\"M9.5 14c1-1.5 4-1.5 5 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1200 }
+  ]
+}

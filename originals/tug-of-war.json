@@ -1,0 +1,11 @@
+{
+  "name": "tug-of-war",
+  "category": "people",
+  "tags": ["tug of war", "rope", "pull", "contest", "team", "strength"],
+  "svg": "<path class=\"p1\" d=\"M7 12h10\"/><path class=\"p2\" d=\"M4 11v6M4 14l3-2M4 17l-2 4M4 17l2 4\"/><circle class=\"p2\" cx=\"4\" cy=\"8.5\" r=\"2\"/><path class=\"p3\" d=\"M20 11v6M20 14l-3-2M20 17l-2 4M20 17l2 4\"/><circle class=\"p3\" cx=\"20\" cy=\"8.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

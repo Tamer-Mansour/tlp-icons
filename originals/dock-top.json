@@ -1,0 +1,10 @@
+{
+  "name": "dock-top",
+  "category": "layout",
+  "tags": ["dock", "top", "toolbar", "bar", "icons", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"5\" y=\"6\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"d p2\" x=\"10.5\" y=\"6\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"d p2\" x=\"16\" y=\"6\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 500 }
+  ]
+}

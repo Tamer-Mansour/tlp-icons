@@ -1,0 +1,11 @@
+{
+  "name": "threat-scan",
+  "category": "security",
+  "tags": ["threat", "scan", "warning", "detect", "frame", "alert"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5Q3 3 5 3H8M16 3H19Q21 3 21 5V8M21 16V19Q21 21 19 21H16M8 21H5Q3 21 3 19V16\"/><path class=\"p2\" d=\"M12 7.5V12\"/><circle class=\"f p2\" cx=\"12\" cy=\"14.5\" r=\"1.1\"/><path class=\"p3\" d=\"M6 16.5H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "scan", "dur": 900, "delay": 1200 }
+  ]
+}

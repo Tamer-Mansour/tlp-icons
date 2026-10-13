@@ -1,0 +1,11 @@
+{
+  "name": "earthworm",
+  "category": "nature",
+  "tags": ["earthworm", "worm", "soil", "garden", "segments", "compost"],
+  "svg": "<path class=\"p1\" d=\"M4 19 C8 15 4 12 9 11 C14 10 14 6 18 6\"/><circle class=\"d p2\" cx=\"19.5\" cy=\"6\" r=\"1.5\"/><path class=\"p3\" d=\"M8 16 L9 14.5 M12 12.5 L13 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 1300, "origin": "19px 6px" }
+  ]
+}

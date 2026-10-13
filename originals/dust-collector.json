@@ -1,0 +1,11 @@
+{
+  "name": "dust-collector",
+  "category": "tools",
+  "tags": ["dust", "collector", "bag", "hose", "shop"],
+  "svg": "<path class=\"d p1\" d=\"M7 9h10v10a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M12 9V4h6\"/><circle class=\"f p3\" cx=\"4\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hammock",
+  "category": "home",
+  "tags": ["hammock", "sling", "relax", "posts", "garden", "rest"],
+  "svg": "<path class=\"d p1\" d=\"M3 9c3 6 15 6 18 0z\"/><path class=\"p2\" d=\"M3 4v17M21 4v17\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 1200, "delay": 700, "origin": "12px 4px" }
+  ]
+}

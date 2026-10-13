@@ -1,0 +1,11 @@
+{
+  "name": "earbuds",
+  "category": "media",
+  "tags": ["earbuds", "headphones", "audio", "wireless", "music", "listen"],
+  "svg": "<path class=\"p1\" d=\"M4 15v-3a8 8 0 0 1 16 0v3\"/><circle class=\"d p2\" cx=\"7\" cy=\"16.5\" r=\"2.5\"/><circle class=\"d p3\" cx=\"17\" cy=\"16.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 1200 }
+  ]
+}

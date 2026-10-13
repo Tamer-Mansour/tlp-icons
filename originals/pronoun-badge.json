@@ -1,0 +1,10 @@
+{
+  "name": "pronoun-badge",
+  "category": "people",
+  "tags": ["pronouns", "badge", "identity", "profile", "label"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3.5\" width=\"18\" height=\"17\" rx=\"4\"/><line class=\"p2\" x1=\"7.5\" y1=\"10\" x2=\"12\" y2=\"10\"/><line class=\"p2\" x1=\"7.5\" y1=\"14\" x2=\"16.5\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 800 }
+  ]
+}

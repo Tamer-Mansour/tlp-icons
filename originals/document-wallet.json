@@ -1,0 +1,11 @@
+{
+  "name": "document-wallet",
+  "category": "files",
+  "tags": ["wallet", "document", "folder", "pockets", "organize", "file"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"15\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"11\" x2=\"21\" y2=\"11\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pelican",
+  "category": "nature",
+  "tags": ["pelican", "bird", "bill", "pouch", "coast", "seabird"],
+  "svg": "<path class=\"d p1\" d=\"M3 15C3 11 6 10 11 10H14C17 10 19 12 19 15C19 18 16 20 11 20C6 20 3 18 3 15Z\"/><circle class=\"p2\" cx=\"17\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M17 8.5C17 10 20 13 22 13.5C19.5 15.5 15.5 13 15 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

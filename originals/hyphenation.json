@@ -1,0 +1,11 @@
+{
+  "name": "hyphenation",
+  "category": "text",
+  "tags": ["hyphen", "word", "split", "line break", "text", "wrap"],
+  "svg": "<path class=\"p1\" d=\"M3 8h10\"/><path class=\"p2\" d=\"M15 8h3\"/><path class=\"p3\" d=\"M3 16h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

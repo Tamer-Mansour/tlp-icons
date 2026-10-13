@@ -1,0 +1,11 @@
+{
+  "name": "ogive-curve",
+  "category": "math",
+  "tags": ["ogive", "cumulative", "frequency", "curve", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 20H21\"/><path class=\"p2\" d=\"M7 20v-1.5M12 20v-1.5M17 20v-1.5\"/><path class=\"p3\" d=\"M4 19C9 19 10 12 12 12S17 5 20 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 1000, "delay": 700 }
+  ]
+}

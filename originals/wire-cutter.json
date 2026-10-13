@@ -1,0 +1,11 @@
+{
+  "name": "wire-cutter",
+  "category": "tools",
+  "tags": ["wire", "cutter", "snips", "electrical", "cut"],
+  "svg": "<path class=\"p1\" d=\"M2 12H9\"/><path class=\"p2\" d=\"M15 12H22\"/><path class=\"p3\" d=\"M12 4L9 12L12 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "squeeze", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1300 }
+  ]
+}

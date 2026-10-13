@@ -1,0 +1,11 @@
+{
+  "name": "hand-rock",
+  "category": "sport",
+  "tags": ["rock", "fist", "hand", "game", "closed hand"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"12\" rx=\"3\"/><line class=\"p2\" x1=\"9\" y1=\"8\" x2=\"9\" y2=\"13\"/><line class=\"p2\" x1=\"13\" y1=\"8\" x2=\"13\" y2=\"13\"/><line class=\"p3\" x1=\"5\" y1=\"12\" x2=\"2.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

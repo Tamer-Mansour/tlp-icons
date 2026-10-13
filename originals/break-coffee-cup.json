@@ -1,0 +1,10 @@
+{
+  "name": "break-coffee-cup",
+  "category": "people",
+  "tags": ["break", "coffee", "cup", "steam", "rest", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h11v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4z\"/><path class=\"p1\" d=\"M16 11h1.5a2 2 0 0 1 0 4H16\"/><path class=\"p1\" d=\"M3 21h16\"/><path class=\"p2\" d=\"M9.5 7q-1.2-1.2 0-2.4q1.2-1.2 0-2.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1200, "delay": 800 }
+  ]
+}

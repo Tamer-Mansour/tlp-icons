@@ -1,0 +1,10 @@
+{
+  "name": "descend-stairs",
+  "category": "arrows",
+  "tags": ["descend", "stairs", "down", "steps", "arrows"],
+  "svg": "<polygon class=\"d p1\" points=\"3 5 7 5 7 9 11 9 11 13 15 13 15 17 19 17 19 21 3 21\"/><path class=\"p2\" d=\"M14 3L19 8\"/><polyline class=\"p2\" points=\"14 8 19 8 19 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 700 }
+  ]
+}

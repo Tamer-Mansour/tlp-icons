@@ -1,0 +1,11 @@
+{
+  "name": "file-sound",
+  "category": "files",
+  "tags": ["sound", "speaker", "audio", "volume", "music", "speak"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><path class=\"d p2\" d=\"M8 11h2.5l3-2.5v7l-3-2.5H8z\"/><path class=\"p3\" d=\"M14.5 10.5a2.5 2.5 0 0 1 0 4M16.5 8.5a5 5 0 0 1 0 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1100 }
+  ]
+}

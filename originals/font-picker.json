@@ -1,0 +1,11 @@
+{
+  "name": "font-picker",
+  "category": "interface",
+  "tags": ["font", "picker", "typeface", "text", "typography", "dropdown"],
+  "svg": "<path class=\"p1\" d=\"M5 17L9.5 6L14 17M7 13h5\"/><polyline class=\"p2\" points=\"16 9 19 12 22 9\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "bob", "dur": 600, "delay": 1000 }
+  ]
+}

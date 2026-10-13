@@ -1,0 +1,11 @@
+{
+  "name": "image-curves",
+  "category": "design",
+  "tags": ["image", "curves", "graph", "tone", "photo", "adjust"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M6 17C11 17 12 7 18 7\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hall-pass",
+  "category": "security",
+  "tags": ["hall", "pass", "card", "lanyard", "visitor", "badge"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7.5\" width=\"14\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9.5 7.5V5a2.5 2.5 0 0 1 5 0v2.5\"/><path class=\"p3\" d=\"M9 12.5h6M9 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 3px" }
+  ]
+}

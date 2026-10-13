@@ -1,0 +1,11 @@
+{
+  "name": "bar-magnet",
+  "category": "science",
+  "tags": ["magnet", "bar", "poles", "north", "south"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M12 7V17\"/><path class=\"p3\" d=\"M5 15V9.5L8 15V9.5M15.5 9.5H17.5V12H15.5V14.5H17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

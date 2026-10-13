@@ -1,0 +1,11 @@
+{
+  "name": "mandolin",
+  "category": "media",
+  "tags": ["mandolin", "teardrop", "strings", "folk", "instrument", "bluegrass"],
+  "svg": "<path class=\"d p1\" d=\"M12 22c-4 0-7-2.5-7-6 0-3 4-5 7-5s7 2 7 5c0 3.5-3 6-7 6z\"/><path class=\"p2\" d=\"M12 11L20 3\"/><circle class=\"p3\" cx=\"12\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

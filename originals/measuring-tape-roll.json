@@ -1,0 +1,11 @@
+{
+  "name": "measuring-tape-roll",
+  "category": "home",
+  "tags": ["tape", "measure", "roll", "length", "tool"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M15 12h4v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

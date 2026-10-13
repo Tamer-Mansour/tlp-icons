@@ -1,0 +1,10 @@
+{
+  "name": "diverge-arrows",
+  "category": "arrows",
+  "tags": ["diverge", "split", "spread", "outward", "fan", "three arrows"],
+  "svg": "<path class=\"p1\" d=\"M12 14L3 5M3 9V5h4M12 14L21 5M17 5h4v4\"/><path class=\"p2\" d=\"M12 14V3M9 6l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

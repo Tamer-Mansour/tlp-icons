@@ -1,0 +1,10 @@
+{
+  "name": "frequency-waves",
+  "category": "science",
+  "tags": ["frequency", "waves", "sine", "pitch", "hertz"],
+  "svg": "<path class=\"p1\" d=\"M2 6C5 1 9 1 12 6S19 11 22 6\"/><path class=\"p2\" d=\"M2 17C3 15 4 15 5 17S7 19 8 17S10 15 11 17S13 19 14 17S16 15 17 17S19 19 20 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 800 }
+  ]
+}

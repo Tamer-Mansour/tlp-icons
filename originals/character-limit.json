@@ -1,0 +1,11 @@
+{
+  "name": "character-limit",
+  "category": "text",
+  "tags": ["character", "limit", "count", "max", "counter", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 6h12M3 10h9\"/><path class=\"p2\" d=\"M18 4v10\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"9\" height=\"5\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

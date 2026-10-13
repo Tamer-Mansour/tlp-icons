@@ -1,0 +1,11 @@
+{
+  "name": "rooftop-antenna",
+  "category": "buildings",
+  "tags": ["rooftop", "antenna", "tv", "mast", "signal", "roof"],
+  "svg": "<path class=\"p1\" d=\"M5 20h14\"/><path class=\"p2\" d=\"M12 4v16\"/><path class=\"p3\" d=\"M8 9h8M9.5 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1100 }
+  ]
+}

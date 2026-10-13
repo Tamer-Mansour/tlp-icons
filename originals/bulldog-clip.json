@@ -1,0 +1,11 @@
+{
+  "name": "bulldog-clip",
+  "category": "files",
+  "tags": ["clip", "binder", "paper", "holder", "office"],
+  "svg": "<rect class=\"p1 d\" x=\"5\" y=\"11\" width=\"14\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M8 11V4h8v7\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

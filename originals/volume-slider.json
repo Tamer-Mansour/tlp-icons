@@ -1,0 +1,11 @@
+{
+  "name": "volume-slider",
+  "category": "interface",
+  "tags": ["volume", "speaker", "slider", "sound", "audio"],
+  "svg": "<path class=\"d p1\" d=\"M3 9H6.5L11 5.5V18.5L6.5 15H3Z\"/><line class=\"p2\" x1=\"16\" y1=\"6\" x2=\"16\" y2=\"18\"/><circle class=\"p3\" cx=\"16\" cy=\"10\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 700, "delay": 900 }
+  ]
+}

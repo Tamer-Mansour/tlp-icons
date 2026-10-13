@@ -1,0 +1,10 @@
+{
+  "name": "fluorescent-tube",
+  "category": "science",
+  "tags": ["fluorescent", "tube", "light", "lamp", "electric"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M3 8v8M21 8v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 700 }
+  ]
+}

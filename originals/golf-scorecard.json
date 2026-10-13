@@ -1,0 +1,11 @@
+{
+  "name": "golf-scorecard",
+  "category": "sport",
+  "tags": ["golf", "scorecard", "score", "round", "strokes", "card"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M4 9h16M4 14h16\"/><path class=\"p3\" d=\"M8 17.5l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

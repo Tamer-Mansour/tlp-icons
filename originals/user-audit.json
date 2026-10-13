@@ -1,0 +1,10 @@
+{
+  "name": "user-audit",
+  "category": "people",
+  "tags": ["user", "audit", "review", "verify", "magnifier"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20.5c0-3.3 2.7-6 6-6s6 2.7 6 6\"/><circle class=\"p2\" cx=\"17\" cy=\"13\" r=\"3\"/><path class=\"p2\" d=\"M15.5 13l1 1 2-2\"/><path class=\"p2\" d=\"M19.2 15.2l2.3 2.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 800, "delay": 1000 }
+  ]
+}

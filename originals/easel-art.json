@@ -1,0 +1,11 @@
+{
+  "name": "easel-art",
+  "category": "design",
+  "tags": ["easel", "painting", "canvas", "artist", "art"],
+  "svg": "<rect class=\"d p2\" x=\"7\" y=\"3\" width=\"10\" height=\"9\" rx=\"1\"/><path class=\"p1\" d=\"M5 22l7-10 7 10\"/><path class=\"p3\" d=\"M9 9l2.5-2.5 2 2 1.5-1.5 2 2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tcp-handshake",
+  "category": "connectivity",
+  "tags": ["tcp", "handshake", "exchange", "network", "protocol", "request"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"20\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M7 9H17M17 9L15 7M17 9L15 11\"/><path class=\"p3\" d=\"M17 15H7M7 15L9 13M7 15L9 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1200 }
+  ]
+}

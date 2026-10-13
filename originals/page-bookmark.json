@@ -1,0 +1,10 @@
+{
+  "name": "page-bookmark",
+  "category": "files",
+  "tags": ["page", "bookmark", "ribbon", "document", "reading"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"1.5\"/><path class=\"p2\" d=\"M9.5 2.5v9l2-2 2 2v-9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "11.5px 2.5px" }
+  ]
+}

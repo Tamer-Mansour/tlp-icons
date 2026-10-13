@@ -1,0 +1,10 @@
+{
+  "name": "spacecraft",
+  "category": "vehicles",
+  "tags": ["spacecraft", "capsule", "satellite", "space", "solar"],
+  "svg": "<path class=\"d p1\" d=\"M12 2l3 7v6H9V9z\"/><rect class=\"p2\" x=\"2\" y=\"10\" width=\"5\" height=\"4\"/><rect class=\"p2\" x=\"17\" y=\"10\" width=\"5\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "unfold", "dur": 600, "delay": 500 }
+  ]
+}

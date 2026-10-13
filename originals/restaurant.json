@@ -1,0 +1,11 @@
+{
+  "name": "restaurant",
+  "category": "buildings",
+  "tags": ["restaurant", "dining", "cloche", "food", "dinner", "meal"],
+  "svg": "<path class=\"p1\" d=\"M3 18a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M2 20h20\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

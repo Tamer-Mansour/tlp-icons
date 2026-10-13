@@ -1,0 +1,11 @@
+{
+  "name": "weaver-loom",
+  "category": "people",
+  "tags": ["loom", "weaving", "threads", "shuttle", "textile"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1.5\"/><path class=\"p2\" d=\"M8 7v10M12 7v10M16 7v10\"/><line class=\"p3\" x1=\"6\" y1=\"12\" x2=\"18\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1000, "origin": "center" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "numbered-lines",
+  "category": "text",
+  "tags": ["numbered", "list", "lines", "order", "steps", "numbers"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"6\" r=\"1\"/><circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1\"/><path class=\"p2\" d=\"M8 6h12M8 12h12M8 18h12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

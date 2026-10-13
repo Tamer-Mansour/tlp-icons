@@ -1,0 +1,10 @@
+{
+  "name": "crowd",
+  "category": "people",
+  "tags": ["crowd", "group", "audience", "people", "many"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"15.5\" cy=\"6\" r=\"2.5\"/><circle class=\"p2\" cx=\"6\" cy=\"15\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 500 }
+  ]
+}

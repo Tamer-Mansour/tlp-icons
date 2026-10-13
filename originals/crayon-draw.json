@@ -1,0 +1,10 @@
+{
+  "name": "crayon-draw",
+  "category": "design",
+  "tags": ["crayon", "draw", "scribble", "kids", "art"],
+  "svg": "<path class=\"p2\" d=\"M3 20c2-3 3 2 5-1s3 2 4-1\"/><rect class=\"d p1\" x=\"12\" y=\"2.5\" width=\"5\" height=\"12\" rx=\"1\" transform=\"rotate(40 14.5 8.5)\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "wiggle", "dur": 800, "delay": 1200 }
+  ]
+}

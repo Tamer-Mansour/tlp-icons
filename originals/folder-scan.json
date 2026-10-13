@@ -1,0 +1,11 @@
+{
+  "name": "folder-scan",
+  "category": "files",
+  "tags": ["folder", "scan", "capture", "bracket", "detect", "focus"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M7.5 13v-2.5H10M14 10.5h2.5V13M16.5 16v2.5H14M10 18.5H7.5V16\"/><path class=\"p3\" d=\"M9.5 14.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "scan", "dur": 1000, "delay": 1100 }
+  ]
+}

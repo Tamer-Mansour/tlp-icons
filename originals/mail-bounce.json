@@ -1,0 +1,10 @@
+{
+  "name": "mail-bounce",
+  "category": "communication",
+  "tags": ["bounced email", "returned mail", "undelivered", "reject", "email"],
+  "svg": "<path class=\"p1 d\" d=\"M3 8h18v12H3z\"/><path class=\"p1\" d=\"M3 8l9 6 9-6\"/><path class=\"p2\" d=\"M10 2.5L6 5.5M6 5.5h3.5M6 5.5V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 800 }
+  ]
+}

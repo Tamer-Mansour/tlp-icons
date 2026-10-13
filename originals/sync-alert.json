@@ -1,0 +1,10 @@
+{
+  "name": "sync-alert",
+  "category": "notifications",
+  "tags": ["sync", "alert", "refresh", "arrows", "error"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 0 1 14.5-4.6M18.5 3.5v4h-4\"/><path class=\"p1\" d=\"M20 12a8 8 0 0 1-14.5 4.6M5.5 20.5v-4h4\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><circle class=\"f p2\" cx=\"12\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

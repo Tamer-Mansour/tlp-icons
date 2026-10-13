@@ -1,0 +1,11 @@
+{
+  "name": "sun-shower",
+  "category": "weather",
+  "tags": ["sun shower", "rain", "sun", "cloud", "drizzle"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"6\" r=\"2.5\"/><path class=\"p2\" d=\"M10 15 H17.5 A3.5 3.5 0 0 0 17.5 8 A4.5 4.5 0 0 0 11 8.5 A3 3 0 0 0 10 15 Z\"/><path class=\"p3\" d=\"M11 18.5 L10 21 M15 18.5 L14 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

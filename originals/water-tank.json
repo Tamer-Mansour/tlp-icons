@@ -1,0 +1,11 @@
+{
+  "name": "water-tank",
+  "category": "home",
+  "tags": ["water", "tank", "storage", "level", "drop"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"12\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M4 12h12\"/><path class=\"d p3\" d=\"M19.5 5c0 0-2 2.2-2 3.5a2 2 0 0 0 4 0c0-1.3-2-3.5-2-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "smart-bulb",
+  "category": "devices",
+  "tags": ["smart", "bulb", "light", "lamp", "home"],
+  "svg": "<path class=\"d p1\" d=\"M9 17.5c-1.5-1.2-3-2.8-3-5.5a6 6 0 0 1 12 0c0 2.7-1.5 4.3-3 5.5z\"/><line class=\"p2\" x1=\"9.5\" y1=\"20.5\" x2=\"14.5\" y2=\"20.5\"/><path class=\"p3\" d=\"M12 2v1.5M5 5l1 1M19 5l-1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

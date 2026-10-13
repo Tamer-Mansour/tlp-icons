@@ -1,0 +1,10 @@
+{
+  "name": "nimbus",
+  "category": "weather",
+  "tags": ["nimbus", "rain cloud", "dark cloud", "rain", "storm", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M7 14 A4 4 0 0 1 8 7 A5 5 0 0 1 17 7 A3.5 3.5 0 0 1 17 14 Z\"/><path class=\"p2\" d=\"M9 17 L8 20 M13 17 L12 20 M17 17 L16 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

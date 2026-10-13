@@ -1,0 +1,11 @@
+{
+  "name": "tree-swing",
+  "category": "nature",
+  "tags": ["tree", "swing", "rope", "seat", "playground"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"4\" x2=\"21\" y2=\"4\"/><path class=\"p2\" d=\"M7 4 V12 M17 4 V12\"/><rect class=\"d p3\" x=\"5\" y=\"14\" width=\"14\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 4px" }
+  ]
+}

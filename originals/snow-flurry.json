@@ -1,0 +1,11 @@
+{
+  "name": "snow-flurry",
+  "category": "weather",
+  "tags": ["snow", "flurry", "snowflakes", "winter", "falling", "light"],
+  "svg": "<path class=\"p1\" d=\"M6 4 V10 M3.9 5.5 L8.1 8.5 M8.1 5.5 L3.9 8.5\"/><path class=\"p2\" d=\"M17 4 V10 M14.9 5.5 L19.1 8.5 M19.1 5.5 L14.9 8.5\"/><path class=\"p3\" d=\"M12 14 V20 M9.9 15.5 L14.1 18.5 M14.1 15.5 L9.9 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 17px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "playing-cards-odds",
+  "category": "science",
+  "tags": ["playing", "cards", "odds", "game", "poker", "chance"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"10\" height=\"14\" rx=\"1.5\" transform=\"rotate(-12 8 11)\"/><rect class=\"d p2\" x=\"11\" y=\"4\" width=\"10\" height=\"14\" rx=\"1.5\" transform=\"rotate(12 16 11)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 800 }
+  ]
+}

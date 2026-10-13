@@ -1,0 +1,11 @@
+{
+  "name": "reservoir",
+  "category": "buildings",
+  "tags": ["reservoir", "dam", "water", "lake", "water supply"],
+  "svg": "<path class=\"d p1\" d=\"M2 14c2.5-2 4.5 2 7 0s4.5-2 5 0V21H2z\"/><path class=\"p2\" d=\"M14 4h6v17h-6\"/><path class=\"p3\" d=\"M2 14c2.5-2 4.5 2 7 0s4.5-2 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 1100, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "voicemail-alert",
+  "category": "notifications",
+  "tags": ["voicemail", "cassette", "tape", "alert", "call"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"14\" r=\"2.5\"/><circle class=\"p2\" cx=\"16\" cy=\"14\" r=\"2.5\"/><line class=\"p3\" x1=\"19.5\" y1=\"2.5\" x2=\"19.5\" y2=\"5\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"6.9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

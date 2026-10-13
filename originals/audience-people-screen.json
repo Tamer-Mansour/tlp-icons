@@ -1,0 +1,10 @@
+{
+  "name": "audience-people-screen",
+  "category": "people",
+  "tags": ["audience", "people", "screen", "presentation", "viewers", "crowd"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2.5\" width=\"20\" height=\"11\" rx=\"2\"/><circle class=\"p2\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

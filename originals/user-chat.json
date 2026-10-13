@@ -1,0 +1,11 @@
+{
+  "name": "user-chat",
+  "category": "people",
+  "tags": ["user", "chat", "conversation", "talk", "people", "message", "group"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 21a6 6 0 0 1 11.5-2\"/><circle class=\"p2\" cx=\"17\" cy=\"13\" r=\"2.5\"/><path class=\"p2\" d=\"M15 21a3.5 3.5 0 0 1 7 0\"/><rect class=\"d p3\" x=\"12.5\" y=\"1.5\" width=\"9\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

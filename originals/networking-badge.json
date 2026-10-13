@@ -1,0 +1,12 @@
+{
+  "name": "networking-badge",
+  "category": "people",
+  "tags": ["networking", "badge", "name", "conference", "connect", "event"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"5\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"2\" width=\"4\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 15h6\"/><circle class=\"f p4\" cx=\"9\" cy=\"15\" r=\"1.2\"/><circle class=\"f p4\" cx=\"15\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

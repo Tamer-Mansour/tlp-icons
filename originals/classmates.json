@@ -1,0 +1,11 @@
+{
+  "name": "classmates",
+  "category": "people",
+  "tags": ["classmates", "students", "class", "school", "group"],
+  "svg": "<path class=\"p1\" d=\"M2.5 19Q2.5 14 5 14Q7.5 14 7.5 19M9.5 19Q9.5 14 12 14Q14.5 14 14.5 19M16.5 19Q16.5 14 19 14Q21.5 14 21.5 19\"/><circle class=\"p2\" cx=\"5\" cy=\"9\" r=\"3\"/><circle class=\"p2\" cx=\"19\" cy=\"9\" r=\"3\"/><circle class=\"p3\" cx=\"12\" cy=\"9\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1500, "origin": "bottom" }
+  ]
+}

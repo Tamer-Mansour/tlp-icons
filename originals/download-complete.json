@@ -1,0 +1,11 @@
+{
+  "name": "download-complete",
+  "category": "notifications",
+  "tags": ["download", "complete", "tray", "arrow", "check", "saved"],
+  "svg": "<path class=\"p1\" d=\"M12 3.5v9.5M8.5 9.5l3.5 3.5 3.5-3.5\"/><path class=\"p2\" d=\"M4 15v5.5h16V15\"/><path class=\"p3\" d=\"M10.5 18l1.2 1.2 2.6-2.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

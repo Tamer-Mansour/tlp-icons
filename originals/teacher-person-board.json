@@ -1,0 +1,11 @@
+{
+  "name": "teacher-person-board",
+  "category": "people",
+  "tags": ["teacher", "board", "lesson", "class", "school", "person"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"6.5\" r=\"3\"/><path class=\"p1\" d=\"M1.5 21c0-3.3 2.5-5.5 5.5-5.5s5.5 2.2 5.5 5.5\"/><rect class=\"p2\" x=\"14.5\" y=\"3\" width=\"7.5\" height=\"11\" rx=\"1.5\"/><path class=\"p2\" d=\"M17.75 14v7M15 21h5.5\"/><path class=\"p3\" d=\"M16.5 7.5h4M16.5 11h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

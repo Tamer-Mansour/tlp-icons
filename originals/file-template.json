@@ -1,0 +1,11 @@
+{
+  "name": "file-template",
+  "category": "files",
+  "tags": ["file", "template", "placeholder", "blank", "layout", "starter"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><rect class=\"p2\" x=\"7.5\" y=\"9\" width=\"9\" height=\"3\" rx=\"0.5\"/><rect class=\"p3\" x=\"7.5\" y=\"14.5\" width=\"4\" height=\"4\"/><path class=\"p3\" d=\"M14 16.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

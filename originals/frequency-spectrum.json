@@ -1,0 +1,10 @@
+{
+  "name": "frequency-spectrum",
+  "category": "media",
+  "tags": ["spectrum", "frequency", "audio", "bars", "equalizer", "sound"],
+  "svg": "<path class=\"p1\" d=\"M2 20h20\"/><line class=\"p2\" x1=\"6\" y1=\"16\" x2=\"6\" y2=\"10\"/><line class=\"p2\" x1=\"10\" y1=\"16\" x2=\"10\" y2=\"4\"/><line class=\"p2\" x1=\"14\" y1=\"16\" x2=\"14\" y2=\"8\"/><line class=\"p2\" x1=\"18\" y1=\"16\" x2=\"18\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nightlight",
+  "category": "home",
+  "tags": ["nightlight", "moon", "plug", "lamp", "sleep"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"14\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M9 14v-3M13 14v-3\"/><path class=\"d p3\" d=\"M16 3a6 6 0 1 0 5 9 5 5 0 0 1-5-9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cable-loop",
+  "category": "connectivity",
+  "tags": ["cable", "loop", "coil", "wire", "slack", "bundle"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"5\" rx=\"6\" ry=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"2\"/><ellipse class=\"p3\" cx=\"12\" cy=\"19\" rx=\"6\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spring", "dur": 700, "delay": 900 }
+  ]
+}

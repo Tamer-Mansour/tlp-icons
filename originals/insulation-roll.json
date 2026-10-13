@@ -1,0 +1,11 @@
+{
+  "name": "insulation-roll",
+  "category": "tools",
+  "tags": ["insulation","roll","batt","pink","wool","building"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"7\" cy=\"12\" r=\"1.5\"/><path class=\"p3\" d=\"M7 7h13v10H7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p1", "anim": "spin", "dur": 1500, "delay": 1000 }
+  ]
+}

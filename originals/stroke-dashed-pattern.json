@@ -1,0 +1,10 @@
+{
+  "name": "stroke-dashed-pattern",
+  "category": "design",
+  "tags": ["stroke", "dashed", "dash", "pattern", "line", "style"],
+  "svg": "<path class=\"p1\" d=\"M3 12h3M9 12h3\"/><path class=\"p2\" d=\"M15 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 700, "delay": 1100 }
+  ]
+}

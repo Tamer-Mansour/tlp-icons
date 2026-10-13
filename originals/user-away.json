@@ -1,0 +1,11 @@
+{
+  "name": "user-away",
+  "category": "notifications",
+  "tags": ["away", "status", "user", "clock", "idle"],
+  "svg": "<circle class=\"p1\" cx=\"9.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3 21v-1a5.5 5.5 0 0 1 5.5-5.5h1\"/><circle class=\"d p2\" cx=\"17.5\" cy=\"17.5\" r=\"4\"/><path class=\"p3\" d=\"M17.5 15.5v2h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 800, "delay": 1100, "origin": "17.5px 17.5px" }
+  ]
+}

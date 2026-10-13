@@ -1,0 +1,11 @@
+{
+  "name": "match-timer",
+  "category": "sport",
+  "tags": ["match", "timer", "clock", "referee", "whistle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"7\"/><polyline class=\"p2\" points=\"12 10 12 14 15 16\"/><rect class=\"p3\" x=\"10\" y=\"2\" width=\"4\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

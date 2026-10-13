@@ -1,0 +1,11 @@
+{
+  "name": "presentation-timer",
+  "category": "time",
+  "tags": ["presentation", "slides", "screen", "timer", "clock", "talk"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M12 16v4M8 21h8\"/><circle class=\"p3\" cx=\"17\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M17 8.5V10l1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "17px 10px" }
+  ]
+}

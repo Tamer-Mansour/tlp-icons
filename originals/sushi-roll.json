@@ -1,0 +1,10 @@
+{
+  "name": "sushi-roll",
+  "category": "food",
+  "tags": ["sushi", "roll", "japanese", "seaweed", "rice", "dinner"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

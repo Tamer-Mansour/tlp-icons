@@ -1,0 +1,10 @@
+{
+  "name": "external-link-arrow",
+  "category": "arrows",
+  "tags": ["external", "link", "open", "new", "window", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M12 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6\"/><path class=\"p2\" d=\"M14 3h7v7\"/><path class=\"p2\" d=\"M21 3l-9 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "trough-marker",
+  "category": "charts",
+  "tags": ["trough", "minimum", "lowest", "marker", "dip"],
+  "svg": "<path class=\"p1\" d=\"M2 8L6 12L10 9L14 14L20 8\"/><polygon class=\"p2\" points=\"14,21.5 11.5,18.5 16.5,18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 800 }
+  ]
+}

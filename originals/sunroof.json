@@ -1,0 +1,11 @@
+{
+  "name": "sunroof",
+  "category": "vehicles",
+  "tags": ["sunroof", "car", "roof", "open", "sun", "vehicle", "panel"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 16v-3.5h2.5l2.5-4.5h9l2.5 4.5h2.5V16z\"/><rect class=\"p2\" x=\"9\" y=\"4\" width=\"5\" height=\"2.5\" rx=\".5\"/><circle class=\"p3\" cx=\"7\" cy=\"18.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"18.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "lift", "dur": 900, "delay": 900 }
+  ]
+}

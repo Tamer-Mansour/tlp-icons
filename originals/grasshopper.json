@@ -1,0 +1,11 @@
+{
+  "name": "grasshopper",
+  "category": "nature",
+  "tags": ["insect", "jump", "meadow", "antenna", "summer"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"6\" ry=\"2.8\" transform=\"rotate(-15 11 13)\"/><path class=\"p2\" d=\"M16.5 11L20.5 5\"/><path class=\"p3\" d=\"M9 15L5 19L9 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "16.5px 11px" }
+  ]
+}

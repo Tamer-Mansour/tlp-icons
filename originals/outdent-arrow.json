@@ -1,0 +1,10 @@
+{
+  "name": "outdent-arrow",
+  "category": "arrows",
+  "tags": ["outdent", "text", "format", "unindent", "lines", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18M3 17h11\"/><path class=\"p2\" d=\"M19 12h-5M16 10l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

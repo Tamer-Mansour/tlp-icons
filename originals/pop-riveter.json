@@ -1,0 +1,11 @@
+{
+  "name": "pop-riveter",
+  "category": "tools",
+  "tags": ["riveter", "rivet", "pop", "fastener", "tool", "metal"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"12\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M15 7h5v3h-5M7 11v7h4v-7\"/><circle class=\"p3\" cx=\"20.5\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "wind-warning",
+  "category": "notifications",
+  "tags": ["wind", "warning", "gust", "alert", "air", "weather"],
+  "svg": "<path class=\"p1\" d=\"M3 8.5h11a2.5 2.5 0 1 0-2.5-2.5\"/><path class=\"p2\" d=\"M3 15.5h14a2.5 2.5 0 1 1-2.5 2.5\"/><path class=\"p3\" d=\"M20.5 4v8\"/><circle class=\"f p4\" cx=\"20.5\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 900 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 700 }
+  ]
+}

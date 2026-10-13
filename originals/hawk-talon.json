@@ -1,0 +1,11 @@
+{
+  "name": "hawk-talon",
+  "category": "nature",
+  "tags": ["talon", "claw", "hawk", "raptor", "foot", "bird"],
+  "svg": "<path class=\"d p1\" d=\"M9 3 H15 L14 9 H10 Z\"/><path class=\"p2\" d=\"M12 9 V13 M12 13 Q8 13 6 15 M12 13 Q16 13 18 15\"/><path class=\"p3\" d=\"M6 15 L4 19 M12 13 L12 20 M18 15 L20 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

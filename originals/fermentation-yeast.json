@@ -1,0 +1,11 @@
+{
+  "name": "fermentation-yeast",
+  "category": "science",
+  "tags": ["yeast", "fermentation", "flask", "bubbles", "science"],
+  "svg": "<path class=\"p1\" d=\"M9.5 3H14.5M10 3V9L5.5 18.5Q5 20.5 7 20.5H17Q19 20.5 18.5 18.5L14 9V3\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"1.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"20\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"2.5\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sideboard",
+  "category": "home",
+  "tags": ["sideboard", "cabinet", "buffet", "dining", "storage", "furniture"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"20\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M12 10v10\"/><path class=\"p3\" d=\"M4 20v2M20 20v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 800 }
+  ]
+}

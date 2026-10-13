@@ -1,0 +1,11 @@
+{
+  "name": "announcement",
+  "category": "communication",
+  "tags": ["announcement", "megaphone", "broadcast", "news", "flag", "promote"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h4l8-4v12l-8-4H3z\"/><path class=\"p2\" d=\"M7 14l1.5 5h2.5l-1.5-5\"/><path class=\"p3\" d=\"M18 3v10M18 3h3.5l-1.2 2.2 1.2 2.2H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900, "origin": "left" }
+  ]
+}

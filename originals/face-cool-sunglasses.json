@@ -1,0 +1,11 @@
+{
+  "name": "face-cool-sunglasses",
+  "category": "people",
+  "tags": ["cool", "sunglasses", "face", "smile", "shades", "emoji"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><rect class=\"d p2\" x=\"5\" y=\"8.5\" width=\"14\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M8.5 15.5 Q12 19 15.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bathroom-scale",
+  "category": "home",
+  "tags": ["bathroom scale", "scale", "weight", "dial", "weigh"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12l4-3\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

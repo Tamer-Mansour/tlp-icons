@@ -1,0 +1,11 @@
+{
+  "name": "window-lock",
+  "category": "security",
+  "tags": ["window", "pane", "lock", "glass", "secure", "panes"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M12 3V21M3 12H21\"/><rect class=\"d p2\" x=\"14\" y=\"16\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M15.5 16V14.5A1.5 1.5 0 0 1 18.5 14.5V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

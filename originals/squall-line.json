@@ -1,0 +1,10 @@
+{
+  "name": "squall-line",
+  "category": "weather",
+  "tags": ["squall", "line", "storm", "gust", "front", "cloud"],
+  "svg": "<path class=\"d p1\" d=\"M5 19a3 3 0 0 1 0-6 4.5 4.5 0 0 1 8.5-1 3.5 3.5 0 0 1 5 4 3 3 0 0 1-.5 3z\"/><path class=\"p2\" d=\"M14 4.5h7M18 2.5l3 2-3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 800, "delay": 700 }
+  ]
+}

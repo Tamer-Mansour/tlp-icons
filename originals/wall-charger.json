@@ -1,0 +1,11 @@
+{
+  "name": "wall-charger",
+  "category": "devices",
+  "tags": ["charger", "plug", "wall", "power", "cable", "adapter"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"14\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M9 4v3M15 4v3\"/><path class=\"p3\" d=\"M12 15v3c0 2 2 3 4 3h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

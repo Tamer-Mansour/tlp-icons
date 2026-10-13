@@ -1,0 +1,11 @@
+{
+  "name": "trail-mix",
+  "category": "food",
+  "tags": ["trail mix", "nuts", "snack", "hiking", "dried fruit"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-1.5 11h-11z\"/><path class=\"p2\" d=\"M8.5 9V6.5a3.5 3.5 0 0 1 7 0V9\"/><circle class=\"f p3\" cx=\"10\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

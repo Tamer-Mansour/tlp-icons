@@ -1,0 +1,10 @@
+{
+  "name": "user-bookmark",
+  "category": "people",
+  "tags": ["user", "bookmark", "saved", "profile", "favorite", "person"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h5a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M16 2.5h5v10.5l-2.5-2-2.5 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

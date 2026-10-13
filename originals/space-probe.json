@@ -1,0 +1,11 @@
+{
+  "name": "space-probe",
+  "category": "science",
+  "tags": ["probe", "space", "satellite", "spacecraft", "antenna", "exploration"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/><rect class=\"p2\" x=\"2\" y=\"10\" width=\"5\" height=\"4\"/><rect class=\"p2\" x=\"17\" y=\"10\" width=\"5\" height=\"4\"/><path class=\"p3\" d=\"M12 9V5M9.5 4.5a3.5 3.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1100, "origin": "12px 9px" }
+  ]
+}

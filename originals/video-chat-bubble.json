@@ -1,0 +1,10 @@
+{
+  "name": "video-chat-bubble",
+  "category": "communication",
+  "tags": ["video", "chat", "camera", "call", "bubble", "meeting"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"10\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p1\" d=\"M14.5 13l5-3v8l-5-3\"/><rect class=\"p2\" x=\"8\" y=\"2.5\" width=\"13\" height=\"5.5\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

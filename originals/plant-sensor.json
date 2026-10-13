@@ -1,0 +1,11 @@
+{
+  "name": "plant-sensor",
+  "category": "devices",
+  "tags": ["plant", "sensor", "leaf", "growth", "garden", "monitor"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-8\"/><path class=\"d p2\" d=\"M12 13C12 8 15 5 19 5C19 9 16 13 12 13z\"/><path class=\"p3\" d=\"M4 9a4 4 0 0 1 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

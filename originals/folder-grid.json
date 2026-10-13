@@ -1,0 +1,10 @@
+{
+  "name": "folder-grid",
+  "category": "files",
+  "tags": ["folder", "grid", "tiles", "squares", "gallery", "layout"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><rect class=\"p2\" x=\"7.5\" y=\"10.5\" width=\"3.5\" height=\"2.5\"/><rect class=\"p2\" x=\"13\" y=\"10.5\" width=\"3.5\" height=\"2.5\"/><rect class=\"p2\" x=\"7.5\" y=\"15.5\" width=\"3.5\" height=\"2.5\"/><rect class=\"p2\" x=\"13\" y=\"15.5\" width=\"3.5\" height=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 600, "delay": 500 }
+  ]
+}

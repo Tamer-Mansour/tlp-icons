@@ -1,0 +1,11 @@
+{
+  "name": "ladder-extension",
+  "category": "tools",
+  "tags": ["ladder", "extension", "rope", "pulley", "climb", "reach"],
+  "svg": "<path class=\"p1\" d=\"M5 3V21M11 3V21M5 7h6M5 11h6M5 15h6\"/><path class=\"p2\" d=\"M15 7V19M19 5V17\"/><circle class=\"d p3\" cx=\"17\" cy=\"3\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1100 }
+  ]
+}

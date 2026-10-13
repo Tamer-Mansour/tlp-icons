@@ -1,0 +1,10 @@
+{
+  "name": "water-chestnut",
+  "category": "nature",
+  "tags": ["chestnut", "water", "nut", "aquatic", "pond"],
+  "svg": "<path class=\"d p1\" d=\"M7 13 Q5 8 12 2.5 Q19 8 17 13 Q15.5 18 12 18 Q8.5 18 7 13 Z\"/><path class=\"p2\" d=\"M3 20.5 Q6 19 9 20.5 Q12 22 15 20.5 Q18 19 21 20.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "float", "dur": 1200, "delay": 800 }
+  ]
+}

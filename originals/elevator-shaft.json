@@ -1,0 +1,12 @@
+{
+  "name": "elevator-shaft",
+  "category": "buildings",
+  "tags": ["elevator", "shaft", "lift", "cable", "building", "floors"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\"/><path class=\"p2\" d=\"M12 3v6\"/><rect class=\"d p3\" x=\"8\" y=\"9\" width=\"8\" height=\"6\"/><path class=\"p4\" d=\"M12 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 1200 }
+  ]
+}

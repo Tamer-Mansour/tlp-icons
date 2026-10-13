@@ -1,0 +1,11 @@
+{
+  "name": "ssh-terminal",
+  "category": "connectivity",
+  "tags": ["ssh", "terminal", "shell", "key", "remote", "console"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><polyline class=\"p2\" points=\"6 9 9 12 6 15\"/><circle class=\"d p3\" cx=\"15\" cy=\"13\" r=\"2\"/><path class=\"p3\" d=\"M17 13h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 800, "origin": "15px 13px" }
+  ]
+}

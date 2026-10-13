@@ -1,0 +1,11 @@
+{
+  "name": "geotag-pin",
+  "category": "photography",
+  "tags": ["geotag", "location", "pin", "photo", "map", "gps"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"11\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M18 10.5L15.5 6.5A3 3 0 1 1 20.5 6.5Z\"/><circle class=\"f p3\" cx=\"18\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "onboarding-path",
+  "category": "people",
+  "tags": ["onboarding", "path", "welcome", "new", "flag"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"13\" width=\"4\" height=\"8\" rx=\"0.5\"/><path class=\"p2\" d=\"M7 17c4 0 5-5 9-5h2\"/><path class=\"p3\" d=\"M18.5 12V4\"/><polygon class=\"p3\" points=\"18.5 4 22 5.5 18.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1100 }
+  ]
+}

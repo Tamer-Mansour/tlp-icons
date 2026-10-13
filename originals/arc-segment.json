@@ -1,0 +1,11 @@
+{
+  "name": "arc-segment",
+  "category": "shapes",
+  "tags": ["segment", "arc", "chord", "circle", "shaded"],
+  "svg": "<path class=\"p1\" d=\"M3.5 15A9 9 0 1 1 20.5 15\"/><path class=\"p2\" d=\"M3.5 15h17\"/><path class=\"d p3\" d=\"M3.5 15A9 9 0 0 0 20.5 15z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "staging-layers",
+  "category": "development",
+  "tags": ["staging", "layers", "stages", "environment", "deploy", "release"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l9 4-9 4-9-4z\"/><path class=\"p2\" d=\"M3 12.5l9 4.5 9-4.5\"/><path class=\"p3\" d=\"M3 17l9 4 9-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "bob", "dur": 600, "delay": 1200 }
+  ]
+}

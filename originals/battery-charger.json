@@ -1,0 +1,11 @@
+{
+  "name": "battery-charger",
+  "category": "home",
+  "tags": ["battery", "charger", "charging", "power", "plug", "energy", "electric"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"16\" height=\"8\" rx=\"2\"/><line class=\"p2\" x1=\"18\" y1=\"10.5\" x2=\"21\" y2=\"10.5\"/><line class=\"p3\" x1=\"5\" y1=\"12\" x2=\"11\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "signal-strength-chart",
+  "category": "charts",
+  "tags": ["signal", "strength", "bars", "network", "wifi", "chart"],
+  "svg": "<path class=\"p1\" d=\"M4 20v-4M9 20v-7\"/><path class=\"p2\" d=\"M14 20v-10M19 20V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "holiday-calendar",
+  "category": "time",
+  "tags": ["holiday", "calendar", "festival", "star", "event"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 10H21\"/><polygon class=\"d p3\" points=\"12,13 12.7,14.5 14.3,14.7 13.1,15.8 13.4,17.4 12,16.6 10.6,17.4 10.9,15.8 9.7,14.7 11.3,14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 1000 }
+  ]
+}

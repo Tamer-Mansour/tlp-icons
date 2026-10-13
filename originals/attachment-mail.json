@@ -1,0 +1,11 @@
+{
+  "name": "attachment-mail",
+  "category": "communication",
+  "tags": ["attachment", "mail", "envelope", "paperclip", "file", "email"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M2 10l6.5 5 6.5-5\"/><path class=\"p3\" d=\"M21 13V5a2 2 0 0 0-4 0v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 900, "origin": "19px 3px" }
+  ]
+}

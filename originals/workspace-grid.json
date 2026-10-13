@@ -1,0 +1,12 @@
+{
+  "name": "workspace-grid",
+  "category": "layout",
+  "tags": ["workspace", "grid", "four", "tiles", "apps"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p3\" x=\"3\" y=\"14\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"d p4\" x=\"14\" y=\"14\" width=\"8\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

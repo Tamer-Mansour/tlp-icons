@@ -1,0 +1,11 @@
+{
+  "name": "scoring-card",
+  "category": "sport",
+  "tags": ["score", "card", "tally", "pencil", "game", "points"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8H13M7 12H11\"/><line class=\"p3\" x1=\"18\" y1=\"20\" x2=\"22\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

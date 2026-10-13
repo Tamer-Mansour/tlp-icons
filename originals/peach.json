@@ -1,0 +1,11 @@
+{
+  "name": "peach",
+  "category": "food",
+  "tags": ["peach", "fruit", "summer", "produce", "orchard", "sweet"],
+  "svg": "<path class=\"d p1\" d=\"M12 7 C7 4.5 3 8 3 13 C3 18 7 21 12 20.5 C17 21 21 18 21 13 C21 8 17 4.5 12 7 Z\"/><path class=\"p2\" d=\"M12 7 C10 11 10 16 12 20.5\"/><path class=\"p3\" d=\"M12 7 C13 4 15 3 18 3 C18 6 16 7.5 12 7 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 700, "delay": 1200, "origin": "12px 7px" }
+  ]
+}

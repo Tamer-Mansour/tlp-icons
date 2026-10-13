@@ -1,0 +1,11 @@
+{
+  "name": "telepresence-robot",
+  "category": "communication",
+  "tags": ["telepresence", "robot", "video call", "screen", "remote"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 10v3\"/><rect class=\"p2\" x=\"7\" y=\"13\" width=\"10\" height=\"3\" rx=\"1\"/><circle class=\"p3\" cx=\"9\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"15\" cy=\"19.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

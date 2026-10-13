@@ -1,0 +1,11 @@
+{
+  "name": "anchor-bolt",
+  "category": "tools",
+  "tags": ["anchor", "bolt", "wall", "sleeve", "masonry", "fastener"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18\"/><path class=\"p2\" d=\"M3 12h10\"/><rect class=\"d p3\" x=\"13\" y=\"8\" width=\"7\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

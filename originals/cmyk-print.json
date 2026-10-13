@@ -1,0 +1,10 @@
+{
+  "name": "cmyk-print",
+  "category": "design",
+  "tags": ["cmyk", "print", "color", "process", "ink", "separation"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\"/><rect class=\"p1\" x=\"13\" y=\"13\" width=\"8\" height=\"8\"/><circle class=\"f p2\" cx=\"17\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

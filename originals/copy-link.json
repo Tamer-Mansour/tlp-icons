@@ -1,0 +1,10 @@
+{
+  "name": "copy-link",
+  "category": "interface",
+  "tags": ["copy", "link", "url", "clipboard", "duplicate", "chain"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M15 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

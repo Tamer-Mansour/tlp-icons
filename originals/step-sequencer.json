@@ -1,0 +1,11 @@
+{
+  "name": "step-sequencer",
+  "category": "media",
+  "tags": ["sequencer", "steps", "grid", "beats", "music", "pattern"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"9\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"15\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"9\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"15\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

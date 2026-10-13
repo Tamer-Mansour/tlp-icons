@@ -1,0 +1,10 @@
+{
+  "name": "nanny-bow",
+  "category": "people",
+  "tags": ["nanny", "babysitter", "bow", "childcare", "tie", "caregiver"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M12 18 L8 15.5 V20.5 Z M12 18 L16 15.5 V20.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1000, "origin": "12px 18px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "root-symbol-cube",
+  "category": "math",
+  "tags": ["root", "radical", "cube", "square root", "power"],
+  "svg": "<path class=\"p1\" d=\"M3 13h2l2.5 6L12 5h9\"/><path class=\"d p2\" d=\"M14 10.5L17 9l3 1.5V14l-3 1.5-3-1.5Z\"/><path class=\"p3\" d=\"M14 10.5l3 1.5 3-1.5M17 12v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

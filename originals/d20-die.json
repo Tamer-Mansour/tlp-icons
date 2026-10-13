@@ -1,0 +1,10 @@
+{
+  "name": "d20-die",
+  "category": "sport",
+  "tags": ["d20", "twenty sided die", "dice", "rpg", "polyhedral"],
+  "svg": "<polygon class=\"p1\" points=\"12 2 21 7 21 17 12 22 3 17 3 7\"/><polygon class=\"p2\" points=\"12 8 16.5 14.5 7.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 900 }
+  ]
+}

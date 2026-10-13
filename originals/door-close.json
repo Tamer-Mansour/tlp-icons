@@ -1,0 +1,11 @@
+{
+  "name": "door-close",
+  "category": "interface",
+  "tags": ["door", "close", "shut", "room", "exit"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18M5 21V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v17\"/><rect class=\"d p2\" x=\"8\" y=\"7\" width=\"8\" height=\"14\" rx=\"0.5\"/><circle class=\"f p3\" cx=\"14\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swingIn", "dur": 600, "delay": 400, "origin": "left" },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

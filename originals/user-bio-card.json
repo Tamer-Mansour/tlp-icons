@@ -1,0 +1,11 @@
+{
+  "name": "user-bio-card",
+  "category": "people",
+  "tags": ["bio", "profile", "card", "user", "about"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"17\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"9\" r=\"2.2\"/><path class=\"p2\" d=\"M4 17.5a3.5 3.5 0 0 1 7 0\"/><line class=\"p3\" x1=\"13.5\" y1=\"8.5\" x2=\"18.5\" y2=\"8.5\"/><line class=\"p3\" x1=\"13.5\" y1=\"12\" x2=\"18.5\" y2=\"12\"/><line class=\"p3\" x1=\"13.5\" y1=\"15.5\" x2=\"16\" y2=\"15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1000 }
+  ]
+}

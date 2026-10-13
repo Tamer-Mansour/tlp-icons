@@ -1,0 +1,10 @@
+{
+  "name": "pollen-tube",
+  "category": "science",
+  "tags": ["pollen", "tube", "grain", "plant", "fertilization"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"4.5\" r=\"1.2\"/><path class=\"p2\" d=\"M12 8C12 12 15 13 15 16.5C15 18.5 13.5 20 12 21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

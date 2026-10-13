@@ -1,0 +1,10 @@
+{
+  "name": "qq-plot",
+  "category": "charts",
+  "tags": ["quantile", "plot", "distribution", "diagonal", "comparison"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"14\" r=\"1.2\"/><circle class=\"f p1\" cx=\"8\" cy=\"10\" r=\"1.2\"/><circle class=\"f p1\" cx=\"12\" cy=\"6\" r=\"1.2\"/><path class=\"p2\" d=\"M3 21L21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bloom", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "node-edit",
+  "category": "design",
+  "tags": ["node", "edit", "anchor", "curve", "path", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 18C8 6 16 6 20 18\"/><rect class=\"p2\" x=\"2.5\" y=\"16.5\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"18.5\" y=\"16.5\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

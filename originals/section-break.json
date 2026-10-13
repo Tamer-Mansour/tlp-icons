@@ -1,0 +1,10 @@
+{
+  "name": "section-break",
+  "category": "design",
+  "tags": ["section", "break", "page", "divider", "document", "split"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\"/><path class=\"p2\" d=\"M2 12h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

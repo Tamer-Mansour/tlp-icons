@@ -1,0 +1,10 @@
+{
+  "name": "page-layout",
+  "category": "design",
+  "tags": ["page", "layout", "document", "margins", "portrait", "text"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\"/><path class=\"p2\" d=\"M8 7h8M8 11h8M8 15h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

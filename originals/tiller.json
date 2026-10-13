@@ -1,0 +1,11 @@
+{
+  "name": "tiller",
+  "category": "tools",
+  "tags": ["tiller", "cultivator", "tines", "soil", "garden"],
+  "svg": "<line class=\"p1\" x1=\"18\" y1=\"3\" x2=\"11\" y2=\"14\"/><path class=\"p2\" d=\"M5 16L5 21M9 16L9 21M13 16L13 21\"/><circle class=\"d p3\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 1100, "origin": "9px 18px" }
+  ]
+}

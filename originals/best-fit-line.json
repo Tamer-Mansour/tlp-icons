@@ -1,0 +1,10 @@
+{
+  "name": "best-fit-line",
+  "category": "charts",
+  "tags": ["best fit", "line", "scatter", "trend", "regression", "data"],
+  "svg": "<path class=\"p1\" d=\"M3 14 L21 8\"/><circle class=\"f p2\" cx=\"6\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"13\" r=\"1.2\"/><circle class=\"f p2\" cx=\"18\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

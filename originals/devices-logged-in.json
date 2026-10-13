@@ -1,0 +1,11 @@
+{
+  "name": "devices-logged-in",
+  "category": "people",
+  "tags": ["devices", "logged", "in", "laptop", "check"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"11\" height=\"9\" rx=\"1\"/><line class=\"p1\" x1=\"2\" y1=\"17\" x2=\"13\" y2=\"17\"/><rect class=\"p2\" x=\"16.5\" y=\"8\" width=\"5\" height=\"11\" rx=\"1\"/><polyline class=\"p3\" points=\"5 8.5 7.5 11 10.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

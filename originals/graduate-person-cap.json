@@ -1,0 +1,11 @@
+{
+  "name": "graduate-person-cap",
+  "category": "people",
+  "tags": ["graduate", "cap", "tassel", "diploma", "degree", "person"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5L21 7.5l-9 4-9-4z\"/><path class=\"p2\" d=\"M19 8.5v3.5\"/><circle class=\"f p2\" cx=\"19\" cy=\"12.8\" r=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2.5\"/><path class=\"p3\" d=\"M6.5 22c0-2 2.5-3.5 5.5-3.5s5.5 1.5 5.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "19px 8.5px" }
+  ]
+}

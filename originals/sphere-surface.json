@@ -1,0 +1,11 @@
+{
+  "name": "sphere-surface",
+  "category": "math",
+  "tags": ["sphere", "surface", "globe", "ball", "geometry"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><path class=\"p3\" d=\"M3 12h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1100 }
+  ]
+}

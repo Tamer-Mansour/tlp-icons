@@ -1,0 +1,10 @@
+{
+  "name": "radio-antenna",
+  "category": "communication",
+  "tags": ["antenna", "radio", "broadcast", "wireless", "signal"],
+  "svg": "<path class=\"p1\" d=\"M12 4v17M9 21h6\"/><path class=\"p2\" d=\"M8.5 7.5a5 5 0 0 0 0 6\"/><path class=\"p2\" d=\"M15.5 7.5a5 5 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 700 }
+  ]
+}

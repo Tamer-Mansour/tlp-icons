@@ -1,0 +1,12 @@
+{
+  "name": "equity-grant-certificate",
+  "category": "people",
+  "tags": ["equity", "grant", "certificate", "stock", "award", "ribbon"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"12\" rx=\"1\"/><line class=\"p2\" x1=\"6\" y1=\"6.5\" x2=\"18\" y2=\"6.5\"/><circle class=\"p3\" cx=\"12\" cy=\"11\" r=\"2.5\"/><polyline class=\"p4\" points=\"10.5,13.2 9,21 12,19.5\"/><polyline class=\"p4\" points=\"13.5,13.2 15,21 12,19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "flutter", "dur": 800, "delay": 1300 }
+  ]
+}

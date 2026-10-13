@@ -1,0 +1,11 @@
+{
+  "name": "field-recorder",
+  "category": "devices",
+  "tags": ["field", "recorder", "handheld", "audio", "microphone"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><circle class=\"p2\" cx=\"9.5\" cy=\"4.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"14.5\" cy=\"4.5\" r=\"1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "inspection-form",
+  "category": "files",
+  "tags": ["inspection", "form", "checklist", "check", "magnifier", "audit"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"13\" height=\"18\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"7\" width=\"4\" height=\"4\" rx=\".5\"/><g class=\"p3\"><circle cx=\"16\" cy=\"15\" r=\"3\"/><path d=\"M18.2 17.2L21 20\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1000 }
+  ]
+}

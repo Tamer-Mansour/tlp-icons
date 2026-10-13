@@ -1,0 +1,11 @@
+{
+  "name": "pressure-drop",
+  "category": "weather",
+  "tags": ["pressure", "drop", "gauge", "low", "barometer"],
+  "svg": "<path class=\"p1\" d=\"M3 14 A6 6 0 0 1 15 14\"/><path class=\"p2\" d=\"M9 14 L5.5 11\"/><path class=\"p3\" d=\"M20 8 V18 M18.5 16.5 L20 18 L21.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 1000, "origin": "9px 14px" }
+  ]
+}

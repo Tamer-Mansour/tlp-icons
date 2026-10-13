@@ -1,0 +1,10 @@
+{
+  "name": "dissection-scissors",
+  "category": "science",
+  "tags": ["biology", "scissors", "dissection", "cut", "lab", "tool"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 17a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M15.5 17a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0\"/><path class=\"p2\" d=\"M8.5 14.5L17 4.5M15.5 14.5L7 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

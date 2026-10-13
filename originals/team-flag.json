@@ -1,0 +1,11 @@
+{
+  "name": "team-flag",
+  "category": "sport",
+  "tags": ["team", "flag", "sport", "pole", "wave"],
+  "svg": "<path class=\"p1\" d=\"M5 21V3\"/><path class=\"d p2\" d=\"M5 4h13l-3 4 3 4H5z\"/><path class=\"p3\" d=\"M8 8h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 700 }
+  ]
+}

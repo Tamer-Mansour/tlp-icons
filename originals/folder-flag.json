@@ -1,0 +1,10 @@
+{
+  "name": "folder-flag",
+  "category": "files",
+  "tags": ["folder", "flag", "mark", "milestone", "pin", "status"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M16 18.5v-8\"/><path class=\"p2\" d=\"M16 11h4l-1 1.5 1 1.5h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 500 }
+  ]
+}

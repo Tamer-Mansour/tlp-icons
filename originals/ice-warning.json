@@ -1,0 +1,10 @@
+{
+  "name": "ice-warning",
+  "category": "vehicles",
+  "tags": ["ice", "snow", "warning", "winter", "road", "frost"],
+  "svg": "<path class=\"p1\" d=\"M12 3L22 20H2Z\"/><path class=\"p2\" d=\"M12 11v6M9.4 12.5l5.2 3M14.6 12.5l-5.2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

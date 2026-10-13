@@ -1,0 +1,10 @@
+{
+  "name": "photo-border",
+  "category": "photography",
+  "tags": ["photo", "border", "frame", "mat", "outline"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"3\"/><rect class=\"d p2\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

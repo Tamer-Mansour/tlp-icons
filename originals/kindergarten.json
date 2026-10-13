@@ -1,0 +1,12 @@
+{
+  "name": "kindergarten",
+  "category": "buildings",
+  "tags": ["kindergarten", "school", "nursery", "children", "sun", "fence", "preschool"],
+  "svg": "<path class=\"d p1\" d=\"M5 19V11h14v8z\"/><path class=\"p2\" d=\"M3.5 11L12 5l8.5 6\"/><path class=\"p3\" d=\"M10.5 19v-4h3v4M2 21h20\"/><circle class=\"p4\" cx=\"18.5\" cy=\"4.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

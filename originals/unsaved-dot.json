@@ -1,0 +1,11 @@
+{
+  "name": "unsaved-dot",
+  "category": "interface",
+  "tags": ["unsaved", "document", "draft", "changes", "dot"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"13\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6 13H13M6 17H10\"/><circle class=\"d p3\" cx=\"19.5\" cy=\"4.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

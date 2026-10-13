@@ -1,0 +1,10 @@
+{
+  "name": "heartbeat-monitor",
+  "category": "charts",
+  "tags": ["heartbeat", "ecg", "pulse", "monitor", "health", "vitals"],
+  "svg": "<path class=\"p1\" d=\"M2 12H7L9 8L12 18L14 12H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1100, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

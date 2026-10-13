@@ -1,0 +1,10 @@
+{
+  "name": "page-flip",
+  "category": "arrows",
+  "tags": ["page", "flip", "turn", "swap", "pages", "browse"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"8\" height=\"14\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"5\" width=\"8\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M7 2.5 C9 1.5 15 1.5 17 2.5\"/><polyline class=\"p2\" points=\"14.5 1 17 2.5 15 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

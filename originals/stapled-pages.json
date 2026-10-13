@@ -1,0 +1,11 @@
+{
+  "name": "stapled-pages",
+  "category": "files",
+  "tags": ["pages", "stapled", "document", "report", "papers"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2.5\" width=\"12\" height=\"13\" rx=\"1.5\"/><rect class=\"p2\" x=\"4\" y=\"7\" width=\"12\" height=\"14\" rx=\"1.5\"/><path class=\"p3\" d=\"M8 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1200 }
+  ]
+}

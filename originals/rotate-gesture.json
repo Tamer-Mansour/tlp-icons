@@ -1,0 +1,10 @@
+{
+  "name": "rotate-gesture",
+  "category": "arrows",
+  "tags": ["rotate", "gesture", "touch", "turn", "spin", "tap"],
+  "svg": "<path class=\"p1\" d=\"M20 12 A8 8 0 1 1 12 4 M9 4 L12 4 L12 7\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 600, "delay": 1000 }
+  ]
+}

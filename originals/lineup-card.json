@@ -1,0 +1,11 @@
+{
+  "name": "lineup-card",
+  "category": "sport",
+  "tags": ["lineup", "card", "roster", "team", "players", "squad"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M12 9H16M12 13H16M12 17H16\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "closet-rod",
+  "category": "home",
+  "tags": ["closet", "rod", "hangers", "wardrobe", "clothes", "storage"],
+  "svg": "<path class=\"p1\" d=\"M3 5H21\"/><path class=\"d p2\" d=\"M7.5 7L3.5 13H11.5Z\"/><path class=\"d p3\" d=\"M16.5 7L12.5 13H20.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "16.5px 7px" }
+  ]
+}

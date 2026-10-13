@@ -1,0 +1,11 @@
+{
+  "name": "safe-room",
+  "category": "buildings",
+  "tags": ["safe", "room", "door", "shield", "security", "vault"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"18\" height=\"20\"/><rect class=\"d p2\" x=\"6\" y=\"5\" width=\"12\" height=\"14\"/><path class=\"p3\" d=\"M12 8 L15 9.5 V12.5 Q15 14.5 12 15.5 Q9 14.5 9 12.5 V9.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

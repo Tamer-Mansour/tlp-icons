@@ -1,0 +1,11 @@
+{
+  "name": "golf-course",
+  "category": "buildings",
+  "tags": ["golf", "course", "flag", "hole", "fairway"],
+  "svg": "<path class=\"p1\" d=\"M12 4v14\"/><polygon class=\"p2\" points=\"12,4 18,6.5 12,9\"/><ellipse class=\"p3\" cx=\"12\" cy=\"18.5\" rx=\"3\" ry=\"1\"/><path class=\"p3\" d=\"M2 20q10 3 20 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 700, "origin": "12px 4px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

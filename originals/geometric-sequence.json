@@ -1,0 +1,11 @@
+{
+  "name": "geometric-sequence",
+  "category": "math",
+  "tags": ["geometric", "sequence", "doubling", "bars", "growth"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"17.5\" width=\"4\" height=\"2.5\"/><rect class=\"p2\" x=\"10\" y=\"15\" width=\"4\" height=\"5\"/><rect class=\"p3\" x=\"17\" y=\"10\" width=\"4\" height=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 600 }
+  ]
+}

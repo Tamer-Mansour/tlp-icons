@@ -1,0 +1,10 @@
+{
+  "name": "meat-thermometer",
+  "category": "food",
+  "tags": ["thermometer", "meat", "probe", "cooking", "grill", "temperature"],
+  "svg": "<path class=\"d p1\" d=\"M10 14V5a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0z\"/><path class=\"p2\" d=\"M12 11v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

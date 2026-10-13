@@ -1,0 +1,11 @@
+{
+  "name": "starting-gate",
+  "category": "sport",
+  "tags": ["start", "gate", "race", "lane", "horse"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"4\" x2=\"5\" y2=\"20\"/><line class=\"p1\" x1=\"19\" y1=\"4\" x2=\"19\" y2=\"20\"/><line class=\"p2\" x1=\"5\" y1=\"8\" x2=\"19\" y2=\"8\"/><line class=\"p3\" x1=\"2\" y1=\"16\" x2=\"22\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sandbox-cube",
+  "category": "security",
+  "tags": ["sandbox", "isolation", "cube", "shield", "safe", "containment"],
+  "svg": "<path class=\"p1\" d=\"M12 3L20 7V17L12 21L4 17V7Z\"/><path class=\"p1\" d=\"M4 7L12 11L20 7\"/><path class=\"d p2\" d=\"M12 13L15 14V16.5Q15 18.5 12 20Q9 18.5 9 16.5V14Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

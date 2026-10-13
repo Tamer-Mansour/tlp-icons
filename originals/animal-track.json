@@ -1,0 +1,10 @@
+{
+  "name": "animal-track",
+  "category": "nature",
+  "tags": ["paw", "track", "animal", "footprint", "wildlife", "trail"],
+  "svg": "<path class=\"d p1\" d=\"M8 13.5c0-2.2 1.8-4 4-4s4 1.8 4 4c0 2.6-1.8 4.5-4 4.5s-4-1.9-4-4.5z\"/><circle class=\"p2\" cx=\"5.5\" cy=\"10\" r=\"1.8\"/><circle class=\"p2\" cx=\"9\" cy=\"5.5\" r=\"1.8\"/><circle class=\"p2\" cx=\"15\" cy=\"5.5\" r=\"1.8\"/><circle class=\"p2\" cx=\"18.5\" cy=\"10\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

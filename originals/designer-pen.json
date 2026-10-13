@@ -1,0 +1,10 @@
+{
+  "name": "designer-pen",
+  "category": "people",
+  "tags": ["designer", "pen", "draw", "design", "person"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"2.5\"/><path class=\"p1\" d=\"M2 20a5 5 0 0 1 10 0\"/><path class=\"p2\" d=\"M14.5 19l.8-3.2 4.7-4.7 2 2-4.7 4.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

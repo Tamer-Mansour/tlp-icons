@@ -1,0 +1,10 @@
+{
+  "name": "circle-area",
+  "category": "math",
+  "tags": ["circle", "area", "radius", "disk", "geometry"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 800, "origin": "12px 12px" }
+  ]
+}

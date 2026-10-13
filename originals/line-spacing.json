@@ -1,0 +1,10 @@
+{
+  "name": "line-spacing",
+  "category": "interface",
+  "tags": ["line", "spacing", "leading", "text", "arrows", "paragraph"],
+  "svg": "<path class=\"p1\" d=\"M10 6h11M10 12h11M10 18h11\"/><path class=\"p2\" d=\"M5 5v14M2.5 8L5 5l2.5 3M2.5 16L5 19l2.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 600 }
+  ]
+}

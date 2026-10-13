@@ -1,0 +1,10 @@
+{
+  "name": "hexagon-arrow",
+  "category": "shapes",
+  "tags": ["hexagon", "arrow", "pointed", "direction", "next", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M3 8H14V4L21 12L14 20V16H3Z\"/><polyline class=\"p2\" points=\"14,8 17,12 14,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

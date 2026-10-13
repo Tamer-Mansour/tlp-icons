@@ -1,0 +1,11 @@
+{
+  "name": "zoom-fit",
+  "category": "interface",
+  "tags": ["zoom", "fit", "magnifier", "search", "focus", "scale"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"6\"/><path class=\"p2\" d=\"M16 16L20.5 20.5\"/><path class=\"p3\" d=\"M7.5 9.5V7.5H9.5M10.5 7.5H12.5V9.5M12.5 10.5V12.5H10.5M9.5 12.5H7.5V10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

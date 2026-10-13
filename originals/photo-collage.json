@@ -1,0 +1,11 @@
+{
+  "name": "photo-collage",
+  "category": "photography",
+  "tags": ["photo", "collage", "pictures", "layout", "scrapbook"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"9\" height=\"7\" rx=\"1\" transform=\"rotate(-8 8.5 8.5)\"/><rect class=\"p2\" x=\"10\" y=\"7\" width=\"9\" height=\"7\" rx=\"1\" transform=\"rotate(6 14.5 10.5)\"/><rect class=\"p3\" x=\"6\" y=\"12\" width=\"9\" height=\"6\" rx=\"1\" transform=\"rotate(-3 10.5 15)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "dur": 900, "delay": 900, "origin": "bottom" }
+  ]
+}

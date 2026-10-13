@@ -1,0 +1,11 @@
+{
+  "name": "under-construction",
+  "category": "buildings",
+  "tags": ["construction", "cone", "barrier", "roadwork", "work", "under"],
+  "svg": "<polygon class=\"d p1\" points=\"8.5,18 12,5 15.5,18\"/><path class=\"p2\" d=\"M3 10h18\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bounceIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "discus",
+  "category": "sport",
+  "tags": ["discus", "throw", "disc", "athletics", "sport", "plate"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"3\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

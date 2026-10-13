@@ -1,0 +1,11 @@
+{
+  "name": "blow-kiss",
+  "category": "people",
+  "tags": ["blow kiss", "kiss", "affection", "hand to lips", "heart"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"13\" r=\"6\"/><rect class=\"p2\" x=\"12\" y=\"10\" width=\"4\" height=\"3\" rx=\"1.5\"/><path class=\"d p3\" d=\"M18 8.5l-1.5-1.5a1 1 0 0 1 1.5-1.5 1 1 0 0 1 1.5 1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

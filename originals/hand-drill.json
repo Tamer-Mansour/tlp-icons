@@ -1,0 +1,11 @@
+{
+  "name": "hand-drill",
+  "category": "devices",
+  "tags": ["drill", "power", "tool", "bit", "hardware", "diy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"13\" height=\"5\" rx=\"2\"/><path class=\"p2\" d=\"M16 6.5h5\"/><path class=\"p3\" d=\"M7 9l-1.5 6h4L11 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "shake", "dur": 900, "delay": 1000 }
+  ]
+}

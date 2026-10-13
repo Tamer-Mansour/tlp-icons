@@ -1,0 +1,10 @@
+{
+  "name": "signal-beacon",
+  "category": "communication",
+  "tags": ["beacon", "signal", "light", "alert", "warning", "broadcast"],
+  "svg": "<path class=\"p1\" d=\"M8.5 19v-5.5a3.5 3.5 0 0 1 7 0V19\"/><path class=\"p1\" d=\"M6 19h12\"/><path class=\"p2\" d=\"M5 9a7 7 0 0 1 14 0\"/><path class=\"p2\" d=\"M8.5 10a3.5 3.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700, "origin": "12px 9px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "window-ajar",
+  "category": "notifications",
+  "tags": ["window", "ajar", "open", "alert", "frame", "security"],
+  "svg": "<path class=\"p1\" d=\"M4 2.5h16v19H4z\"/><polygon class=\"d p2\" points=\"4,2.5 10,5.5 10,18.5 4,21.5\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"12\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 500, "origin": "4px 12px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

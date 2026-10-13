@@ -1,0 +1,10 @@
+{
+  "name": "multiplication-grid",
+  "category": "math",
+  "tags": ["multiplication", "grid", "squares", "rows", "columns", "array"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"3\" y=\"14\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"7\" height=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 }
+  ]
+}

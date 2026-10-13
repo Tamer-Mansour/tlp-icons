@@ -1,0 +1,11 @@
+{
+  "name": "alarm-keypad",
+  "category": "interface",
+  "tags": ["alarm", "keypad", "security", "bell", "code", "system"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"10\" height=\"16\" rx=\"2\"/><circle class=\"f p2\" cx=\"6.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"6.5\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"13\" r=\"1\"/><path class=\"p3\" d=\"M15.5 14V10.5A3 3 0 0 1 21.5 10.5V14L22 16H15Z\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 700, "origin": "18.5px 7.5px" }
+  ]
+}

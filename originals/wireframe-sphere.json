@@ -1,0 +1,11 @@
+{
+  "name": "wireframe-sphere",
+  "category": "shapes",
+  "tags": ["wireframe", "sphere", "globe", "mesh", "3d"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><path class=\"p3\" d=\"M4 8 Q12 10 20 8 M4 16 Q12 14 20 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000 }
+  ]
+}

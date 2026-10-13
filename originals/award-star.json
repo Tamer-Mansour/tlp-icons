@@ -1,0 +1,11 @@
+{
+  "name": "award-star",
+  "category": "interface",
+  "tags": ["award", "medal", "star", "prize", "achievement", "badge"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M8.5 16L6 22L9 20.5L12 22L15 20.5L18 22L15.5 16\"/><path class=\"p3\" d=\"M12 6.5L13.2 9.2L16 9.5L13.9 11.2L14.6 14L12 12.6L9.4 14L10.1 11.2L8 9.5L10.8 9.2Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 700 }
+  ]
+}

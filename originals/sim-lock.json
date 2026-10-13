@@ -1,0 +1,11 @@
+{
+  "name": "sim-lock",
+  "category": "security",
+  "tags": ["sim", "lock", "chip", "mobile", "secure", "card"],
+  "svg": "<path class=\"p1\" d=\"M6 2H14L19 7V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20V4A2 2 0 0 1 7 2Z\"/><rect class=\"d p2\" x=\"11.5\" y=\"13.5\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M13 13.5V12A1.5 1.5 0 0 1 16 12V13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ribbon-bow",
+  "category": "emoji",
+  "tags": ["ribbon", "bow", "gift", "decoration", "tie", "present"],
+  "svg": "<path class=\"p1\" d=\"M11 11L5 7.5Q3 6.5 3 9V15Q3 17.5 5 16.5L11 13Z\"/><path class=\"p1\" d=\"M13 11L19 7.5Q21 6.5 21 9V15Q21 17.5 19 16.5L13 13Z\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"1.6\"/><path class=\"p3\" d=\"M11 13.5L9 21M13 13.5L15 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

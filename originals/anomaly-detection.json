@@ -1,0 +1,10 @@
+{
+  "name": "anomaly-detection",
+  "category": "charts",
+  "tags": ["anomaly", "outlier", "detection", "alert", "highlight"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 8,16 11,5 14,16 22,16\"/><circle class=\"f p2\" cx=\"11\" cy=\"5\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

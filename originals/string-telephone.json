@@ -1,0 +1,11 @@
+{
+  "name": "string-telephone",
+  "category": "communication",
+  "tags": ["string", "cups", "telephone", "toy", "taut line"],
+  "svg": "<polygon class=\"d p1\" points=\"2.5,7 8.5,10.5 8.5,13.5 2.5,17\"/><polygon class=\"d p2\" points=\"21.5,7 15.5,10.5 15.5,13.5 21.5,17\"/><path class=\"p3\" d=\"M8.5 12H15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

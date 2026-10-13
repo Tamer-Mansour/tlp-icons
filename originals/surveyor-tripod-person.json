@@ -1,0 +1,11 @@
+{
+  "name": "surveyor-tripod-person",
+  "category": "people",
+  "tags": ["surveyor", "tripod", "level", "survey", "flag", "land"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"4\" width=\"10\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M12 7 L6 21 M12 7 L18 21 M12 7 V22\"/><line class=\"p3\" x1=\"19.5\" y1=\"4\" x2=\"19.5\" y2=\"10\"/><polygon class=\"p3\" points=\"19.5,4 22,5.5 19.5,7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1100, "origin": "19.5px 4px" }
+  ]
+}

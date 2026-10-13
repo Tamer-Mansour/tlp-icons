@@ -1,0 +1,11 @@
+{
+  "name": "convention-center",
+  "category": "buildings",
+  "tags": ["convention", "center", "flags", "hall", "event", "venue"],
+  "svg": "<path class=\"p1\" d=\"M3 10h18v11H3z\"/><path class=\"p2\" d=\"M6 10V4M12 10V4M18 10V4\"/><path class=\"p3\" d=\"M6 4h4l-1 1.5 1 1.5H6M12 4h4l-1 1.5 1 1.5h-4M18 4h4l-1 1.5 1 1.5h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "text-file",
+  "category": "text",
+  "tags": ["text", "file", "document", "page", "lines", "paper"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M14 3v5h5\"/><path class=\"p3\" d=\"M8 11h8M8 14.5h8M8 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 700, "delay": 800 }
+  ]
+}

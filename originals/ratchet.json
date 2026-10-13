@@ -1,0 +1,10 @@
+{
+  "name": "ratchet",
+  "category": "tools",
+  "tags": ["ratchet", "gear", "wheel", "handle", "socket", "turn"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M16 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 900, "origin": "10px 12px" }
+  ]
+}

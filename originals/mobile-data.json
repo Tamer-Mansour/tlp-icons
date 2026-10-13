@@ -1,0 +1,11 @@
+{
+  "name": "mobile-data",
+  "category": "connectivity",
+  "tags": ["mobile data", "cellular data", "phone", "transfer", "upload download", "internet"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"8\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M15 8.5v-4M13.5 6l1.5-1.5L16.5 6\"/><path class=\"p3\" d=\"M19 13.5v4M17.5 16l1.5 1.5 1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

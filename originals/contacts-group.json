@@ -1,0 +1,11 @@
+{
+  "name": "contacts-group",
+  "category": "communication",
+  "tags": ["contacts", "group", "people", "team", "users", "address book"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"8\" cy=\"9\" r=\"2.5\"/><path class=\"p2\" d=\"M3.5 18a4.5 4.5 0 0 1 9 0\"/><circle class=\"p3\" cx=\"16\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M11.5 18a4.5 4.5 0 0 1 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

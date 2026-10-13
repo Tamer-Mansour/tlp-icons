@@ -1,0 +1,11 @@
+{
+  "name": "red-eye-fix",
+  "category": "design",
+  "tags": ["red", "eye", "fix", "photo", "correct"],
+  "svg": "<path class=\"p1\" d=\"M2 12Q12 4 22 12Q12 20 2 12Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><line class=\"p3\" x1=\"8\" y1=\"8\" x2=\"16\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "drawReverse", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sign-language",
+  "category": "communication",
+  "tags": ["sign", "language", "hands", "deaf", "gesture"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"7\" height=\"8\" rx=\"2.5\"/><path class=\"p2\" d=\"M4 12V7M6.5 12V6M9 12V7\"/><rect class=\"d p3\" x=\"14\" y=\"12\" width=\"7\" height=\"8\" rx=\"2.5\"/><path class=\"p3\" d=\"M15.5 12V7M17.5 12V6M19.5 12V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 900 }
+  ]
+}

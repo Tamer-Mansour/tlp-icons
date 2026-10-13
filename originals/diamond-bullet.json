@@ -1,0 +1,10 @@
+{
+  "name": "diamond-bullet",
+  "category": "text",
+  "tags": ["diamond", "bullet", "list", "marker", "points"],
+  "svg": "<polygon class=\"d p1\" points=\"4,4.3 5.7,6 4,7.7 2.3,6\"/><polygon class=\"d p1\" points=\"4,10.3 5.7,12 4,13.7 2.3,12\"/><polygon class=\"d p1\" points=\"4,16.3 5.7,18 4,19.7 2.3,18\"/><path class=\"p2\" d=\"M9 6H21M9 12H21M9 18H16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "flipY", "dur": 600, "delay": 700 }
+  ]
+}

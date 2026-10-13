@@ -1,0 +1,11 @@
+{
+  "name": "shortcut",
+  "category": "development",
+  "tags": ["shortcut", "document", "arrow", "link", "jump"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h9l3 3v6H3z\"/><path class=\"p2\" d=\"M10 20h6a3 3 0 0 0 3-3v-5\"/><path class=\"p3\" d=\"M17 14l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

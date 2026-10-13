@@ -1,0 +1,11 @@
+{
+  "name": "quad-bike",
+  "category": "vehicles",
+  "tags": ["quad", "atv", "bike", "offroad", "wheels", "vehicle"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"12\" height=\"4\" rx=\"2\"/><circle class=\"p2\" cx=\"6\" cy=\"17\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"17\" r=\"2.5\"/><path class=\"p3\" d=\"M16 8 L17 5 L20 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1000, "origin": "16px 8px" }
+  ]
+}

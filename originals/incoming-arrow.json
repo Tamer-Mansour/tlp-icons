@@ -1,0 +1,10 @@
+{
+  "name": "incoming-arrow",
+  "category": "arrows",
+  "tags": ["incoming", "download", "receive", "tray", "inbox"],
+  "svg": "<path class=\"p1\" d=\"M3 13 V19 H21 V13\"/><path class=\"p2\" d=\"M18 3 L10 11 M10 5 V11 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 600, "delay": 700 }
+  ]
+}

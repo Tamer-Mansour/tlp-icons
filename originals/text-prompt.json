@@ -1,0 +1,11 @@
+{
+  "name": "text-prompt",
+  "category": "text",
+  "tags": ["prompt", "terminal", "cursor", "input", "command", "text"],
+  "svg": "<path class=\"p1\" d=\"M4 9l3 3-3 3\"/><path class=\"p2\" d=\"M3 19h18\"/><path class=\"p3\" d=\"M11 8v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 900 }
+  ]
+}

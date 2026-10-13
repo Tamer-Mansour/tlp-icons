@@ -1,0 +1,10 @@
+{
+  "name": "crosshair-target",
+  "category": "interface",
+  "tags": ["crosshair", "target", "aim", "precision", "ring", "pointer"],
+  "svg": "<path class=\"p1\" d=\"M12 2V6M12 18V22M2 12H6M18 12H22\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 600 }
+  ]
+}

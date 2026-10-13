@@ -1,0 +1,10 @@
+{
+  "name": "binomial-coefficient",
+  "category": "math",
+  "tags": ["binomial", "coefficient", "choose", "parentheses", "combinatorics"],
+  "svg": "<path class=\"p1\" d=\"M9 4 Q6 12 9 20\"/><path class=\"p1\" d=\"M15 4 Q18 12 15 20\"/><line class=\"p2\" x1=\"10.5\" y1=\"9\" x2=\"13.5\" y2=\"9\"/><line class=\"p2\" x1=\"10.5\" y1=\"15\" x2=\"13.5\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 800 }
+  ]
+}

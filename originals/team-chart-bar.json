@@ -1,0 +1,10 @@
+{
+  "name": "team-chart-bar",
+  "category": "people",
+  "tags": ["team", "chart", "bar", "stats", "people", "report", "analytics"],
+  "svg": "<path class=\"p1\" d=\"M4 21v-5M10 21v-9M16 21v-6\"/><circle class=\"p2\" cx=\"10\" cy=\"5.5\" r=\"2\"/><path class=\"p2\" d=\"M6.5 9.5c0-1.4 1.6-2.2 3.5-2.2s3.5.8 3.5 2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

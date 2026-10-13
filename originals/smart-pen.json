@@ -1,0 +1,11 @@
+{
+  "name": "smart-pen",
+  "category": "devices",
+  "tags": ["pen", "smart", "stylus", "digital", "writing", "chip"],
+  "svg": "<path class=\"d p1\" d=\"M15 4l5 5-10 10-5-5z\"/><path class=\"p2\" d=\"M5 14l-3 6 6-3\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

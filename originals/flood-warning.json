@@ -1,0 +1,11 @@
+{
+  "name": "flood-warning",
+  "category": "notifications",
+  "tags": ["flood", "water", "warning", "waves", "alert", "rising"],
+  "svg": "<polygon class=\"p1\" points=\"12 2.5 16.5 10 7.5 10\"/><path class=\"p2\" d=\"M3 14q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/><path class=\"p3\" d=\"M3 19q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "person-bowing",
+  "category": "people",
+  "tags": ["bow", "bowing", "respect", "greeting", "polite", "person"],
+  "svg": "<circle class=\"p1\" cx=\"16\" cy=\"6\" r=\"2\"/><path class=\"p2\" d=\"M15 8.5 L9 15\"/><path class=\"p3\" d=\"M13 10.6 L16.5 13.5 M9 15 L7.5 21 M9 15 L11 21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "nod", "dur": 1000, "delay": 1000 }
+  ]
+}

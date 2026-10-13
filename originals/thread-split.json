@@ -1,0 +1,11 @@
+{
+  "name": "thread-split",
+  "category": "development",
+  "tags": ["thread", "split", "fork", "parallel", "concurrency"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"9\" y2=\"12\"/><path class=\"p2\" d=\"M9 12l4-4.5h8\"/><path class=\"p3\" d=\"M9 12l4 4.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

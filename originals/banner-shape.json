@@ -1,0 +1,10 @@
+{
+  "name": "banner-shape",
+  "category": "shapes",
+  "tags": ["banner", "notched", "label", "ribbon", "header", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M3 7H21L18 12L21 17H3L6 12Z\"/><line class=\"p2\" x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600, "origin": "center" }
+  ]
+}

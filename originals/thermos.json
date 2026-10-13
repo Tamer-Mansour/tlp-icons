@@ -1,0 +1,11 @@
+{
+  "name": "thermos",
+  "category": "food",
+  "tags": ["thermos", "flask", "insulated", "bottle", "hot drink"],
+  "svg": "<path class=\"p1 d\" d=\"M8 8 H16 V20 Q16 21 15 21 H9 Q8 21 8 20 Z\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M9.5 3 V2.5 H14.5 V3\"/><line class=\"p3\" x1=\"8\" y1=\"11\" x2=\"16\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

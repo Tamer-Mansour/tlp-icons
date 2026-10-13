@@ -1,0 +1,11 @@
+{
+  "name": "dynamo-generator",
+  "category": "science",
+  "tags": ["dynamo", "generator", "electric", "rotor", "power"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M9 9l6 6\"/><path class=\"p3\" d=\"M12 4V2M20 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900 }
+  ]
+}

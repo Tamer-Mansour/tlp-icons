@@ -1,0 +1,11 @@
+{
+  "name": "text-lock",
+  "category": "text",
+  "tags": ["lock", "text", "private", "secure", "password", "protect"],
+  "svg": "<path class=\"p1\" d=\"M3 7h9M3 12h9M3 17h6\"/><rect class=\"d p2\" x=\"14\" y=\"11\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M15.5 11V9a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1000 }
+  ]
+}

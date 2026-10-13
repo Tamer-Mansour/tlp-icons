@@ -1,0 +1,11 @@
+{
+  "name": "responsive-tablet",
+  "category": "layout",
+  "tags": ["responsive", "tablet", "portrait", "stacked", "layout"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"5\" width=\"8\" height=\"5\" rx=\"1\"/><rect class=\"d p3\" x=\"8\" y=\"14\" width=\"8\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

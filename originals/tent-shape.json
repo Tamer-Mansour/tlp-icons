@@ -1,0 +1,10 @@
+{
+  "name": "tent-shape",
+  "category": "shapes",
+  "tags": ["tent", "camp", "shelter", "outdoor", "triangle"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20L12 4l9.5 16z\"/><path class=\"p2\" d=\"M12 12l-3 8M12 12l3 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

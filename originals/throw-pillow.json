@@ -1,0 +1,10 @@
+{
+  "name": "throw-pillow",
+  "category": "home",
+  "tags": ["throw pillow", "pillow", "sofa", "cushion", "decor"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"11\" height=\"11\" rx=\"3\" transform=\"rotate(-12 11 10)\"/><path class=\"p2\" d=\"M2 20h20M4 15v5M20 15v5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

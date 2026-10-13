@@ -1,0 +1,11 @@
+{
+  "name": "profile-photo",
+  "category": "people",
+  "tags": ["profile", "photo", "avatar", "picture", "frame", "user"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"9.5\" r=\"3\"/><path class=\"p3\" d=\"M6.5 19c.5-3 2.5-4.5 5.5-4.5s5 1.5 5.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

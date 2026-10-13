@@ -1,0 +1,11 @@
+{
+  "name": "cheer-pompom",
+  "category": "sport",
+  "tags": ["cheer", "pompom", "cheerleading", "sport", "team"],
+  "svg": "<circle class=\"d p1\" cx=\"15\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M11.5 11.5L5 19\"/><path class=\"p3\" d=\"M5 19l-1.5 2.5M5 19l2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

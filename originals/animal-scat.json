@@ -1,0 +1,11 @@
+{
+  "name": "animal-scat",
+  "category": "nature",
+  "tags": ["animal", "scat", "droppings", "tracks", "wildlife", "trail"],
+  "svg": "<path class=\"p1\" d=\"M2 21.5 H22\"/><path class=\"d p2\" d=\"M3 21 Q3 16 6.5 16 Q10 16 10 21 Z\"/><path class=\"d p3\" d=\"M13 21 Q13 16 16.5 16 Q20 16 20 21 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

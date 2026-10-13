@@ -1,0 +1,10 @@
+{
+  "name": "inbound-arrow",
+  "category": "arrows",
+  "tags": ["inbound", "incoming", "enter", "box", "receive"],
+  "svg": "<rect class=\"p1\" x=\"12\" y=\"12\" width=\"9\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M3 3 L10 10 M5 10 H10 V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

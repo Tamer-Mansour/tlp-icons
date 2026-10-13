@@ -1,0 +1,11 @@
+{
+  "name": "stirring-rod",
+  "category": "science",
+  "tags": ["stir", "rod", "beaker", "mix", "lab", "glass"],
+  "svg": "<path class=\"d p1\" d=\"M7 3.5V11L4.5 19.5Q4 21 5.5 21H18.5Q20 21 19.5 19.5L17 11V3.5\"/><path class=\"p2\" d=\"M14.5 2V13\"/><path class=\"p3\" d=\"M8 17.5Q12 14.5 16 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 1100 }
+  ]
+}

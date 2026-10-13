@@ -1,0 +1,10 @@
+{
+  "name": "flagella-cell",
+  "category": "science",
+  "tags": ["flagella", "cell", "tail", "bacteria", "biology"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M14 12c1.5-2 2.5 2 4 0s2.5 2 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 1000, "delay": 700 }
+  ]
+}

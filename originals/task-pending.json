@@ -1,0 +1,10 @@
+{
+  "name": "task-pending",
+  "category": "notifications",
+  "tags": ["task", "pending", "clock", "square", "waiting", "todo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M12 7.5V12l3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 12px" }
+  ]
+}

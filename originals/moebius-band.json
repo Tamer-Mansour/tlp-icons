@@ -1,0 +1,10 @@
+{
+  "name": "moebius-band",
+  "category": "shapes",
+  "tags": ["moebius", "loop", "strip", "twist", "infinity", "figure-eight"],
+  "svg": "<path class=\"p1\" d=\"M12 12C15 8.5 20 6.5 20 12C20 17.5 15 15.5 12 12C9 8.5 4 6.5 4 12C4 17.5 9 15.5 12 12Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1400, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1500 }
+  ]
+}

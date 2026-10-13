@@ -1,0 +1,11 @@
+{
+  "name": "hail-storm",
+  "category": "nature",
+  "tags": ["hail", "storm", "cloud", "ice", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M6 12 Q3 12 4 9 Q5 6 9 7 Q10 3 14 4 Q18 4 18 8 Q21 8 21 11 Q21 12 18 12 H6 Z\"/><path class=\"p2\" d=\"M9 14 L8 17 M15 14 L14 17\"/><circle class=\"f p3\" cx=\"6\" cy=\"19\" r=\"1\"/><circle class=\"f p3\" cx=\"11\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 900 }
+  ]
+}

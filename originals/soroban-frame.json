@@ -1,0 +1,12 @@
+{
+  "name": "soroban-frame",
+  "category": "math",
+  "tags": ["soroban", "abacus", "beads", "counting", "math"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><line class=\"p2\" x1=\"3\" y1=\"8\" x2=\"21\" y2=\"8\"/><path class=\"p3\" d=\"M7 8V21M12 8V21M17 8V21\"/><circle class=\"p4\" cx=\"7\" cy=\"12\" r=\"1.5\"/><circle class=\"p4\" cx=\"12\" cy=\"17\" r=\"1.5\"/><circle class=\"p4\" cx=\"17\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 800, "origin": "bottom" },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

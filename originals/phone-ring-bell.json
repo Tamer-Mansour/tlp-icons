@@ -1,0 +1,11 @@
+{
+  "name": "phone-ring-bell",
+  "category": "communication",
+  "tags": ["incoming call", "ringing", "phone alert", "call notification", "telephone"],
+  "svg": "<path class=\"p1 d\" d=\"M5 4h3.5l1.5 4-2 1.5c1 2.2 2.8 4 5 5l1.5-2 4 1.5V19c-7.5 0-14-6.5-14-14z\"/><path class=\"p2\" d=\"M14 5.5a4 4 0 0 1 4 4\"/><path class=\"p3\" d=\"M14 2.5a7 7 0 0 1 7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

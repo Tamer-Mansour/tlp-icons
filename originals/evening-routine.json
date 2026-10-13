@@ -1,0 +1,11 @@
+{
+  "name": "evening-routine",
+  "category": "time",
+  "tags": ["evening", "routine", "moon", "checklist", "night", "habit"],
+  "svg": "<path class=\"d p1\" d=\"M12 3a5 5 0 0 0 0 10z\"/><path class=\"p2\" d=\"M5 15.5h14M5 18.5h14\"/><path class=\"p3\" d=\"M5 21.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 800, "delay": 1200 }
+  ]
+}

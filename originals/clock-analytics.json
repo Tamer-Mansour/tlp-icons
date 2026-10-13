@@ -1,0 +1,11 @@
+{
+  "name": "clock-analytics",
+  "category": "charts",
+  "tags": ["clock", "analytics", "time", "trend", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><polyline class=\"p2\" points=\"7,15 10,11 13,13 17,8\"/><circle class=\"f p3\" cx=\"17\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1400 }
+  ]
+}

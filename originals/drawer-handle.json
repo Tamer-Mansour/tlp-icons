@@ -1,0 +1,10 @@
+{
+  "name": "drawer-handle",
+  "category": "home",
+  "tags": ["drawer handle", "drawer", "pull", "cabinet", "furniture"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M9 11h6v2H9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

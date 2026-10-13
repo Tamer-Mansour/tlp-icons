@@ -1,0 +1,10 @@
+{
+  "name": "config-gear",
+  "category": "development",
+  "tags": ["config", "settings", "sliders", "gear", "adjust", "options"],
+  "svg": "<path class=\"p1\" d=\"M4 6h16M4 12h16M4 18h16\"/><circle class=\"d p2\" cx=\"8\" cy=\"6\" r=\"2\"/><circle class=\"d p2\" cx=\"15\" cy=\"12\" r=\"2\"/><circle class=\"d p2\" cx=\"10\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "snap-ring-pliers",
+  "category": "tools",
+  "tags": ["snap", "ring", "pliers", "circlip", "retaining", "open"],
+  "svg": "<path class=\"p1\" d=\"M4 3l6 7-2 3M20 3l-6 7 2 3\"/><path class=\"p2\" d=\"M8 16a4 4 0 0 0 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spring", "dur": 800, "delay": 900 }
+  ]
+}

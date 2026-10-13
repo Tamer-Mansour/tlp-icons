@@ -1,0 +1,10 @@
+{
+  "name": "save-draft",
+  "category": "interface",
+  "tags": ["save", "draft", "edit", "write", "pencil", "document"],
+  "svg": "<path class=\"p1\" d=\"M5 3.5h8l4 4v4M5 3.5v17h6\"/><path class=\"d p2\" d=\"M13.5 19.5 21 12l-2.5-2.5L11 17Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

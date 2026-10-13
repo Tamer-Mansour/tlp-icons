@@ -1,0 +1,10 @@
+{
+  "name": "trend-down-arrow",
+  "category": "arrows",
+  "tags": ["trend", "down", "decline", "chart", "falling", "decrease"],
+  "svg": "<polyline class=\"p1\" points=\"3,7 8.5,12.5 12.5,8.5 20,16\"/><polyline class=\"p2\" points=\"14.5,16 20,16 20,10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

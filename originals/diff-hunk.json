@@ -1,0 +1,11 @@
+{
+  "name": "diff-hunk",
+  "category": "development",
+  "tags": ["diff", "patch", "hunk", "git", "changes"],
+  "svg": "<path class=\"p1\" d=\"M4 6v4M2 8h4\"/><path class=\"p2\" d=\"M2 16h4\"/><path class=\"p3\" d=\"M10 6h12M10 12h12M10 18h12\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "zoomIn", "dur": 400, "delay": 900 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

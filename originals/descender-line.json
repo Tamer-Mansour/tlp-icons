@@ -1,0 +1,10 @@
+{
+  "name": "descender-line",
+  "category": "text",
+  "tags": ["descender", "typography", "letter", "guide", "baseline", "font", "metric"],
+  "svg": "<path class=\"p1\" d=\"M3 22h18\"/><path class=\"p2\" d=\"M7 7v11M7 8.5c1-1 2.3-1.5 3.8-1.5 2.7 0 4.2 1.7 4.2 4.2s-1.5 4-4.2 4c-1.5 0-2.8-.5-3.8-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

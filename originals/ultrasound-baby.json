@@ -1,0 +1,11 @@
+{
+  "name": "ultrasound-baby",
+  "category": "people",
+  "tags": ["ultrasound", "prenatal scan", "baby scan", "pregnancy", "sonogram"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M9.5 15.5C8 13 9 9.5 12 9.5C15 9.5 15.5 12.5 14 14.5C13 16 10.5 16.5 9.5 15.5Z\"/><line class=\"p3\" x1=\"8\" y1=\"19\" x2=\"16\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "scan", "dur": 1000, "delay": 900 }
+  ]
+}

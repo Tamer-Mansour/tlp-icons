@@ -1,0 +1,10 @@
+{
+  "name": "route-loop",
+  "category": "arrows",
+  "tags": ["loop", "route", "curl", "circuit", "return"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"17\" r=\"1\"/><path class=\"p2\" d=\"M5 17 C1 10 9 2 15 7 C20 12 13 19 8 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 300 }
+  ]
+}

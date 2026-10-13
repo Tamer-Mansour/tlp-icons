@@ -1,0 +1,10 @@
+{
+  "name": "tusk",
+  "category": "nature",
+  "tags": ["tusk", "elephant", "walrus", "ivory", "curved", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M9 17Q8 9 16 4Q13 10 14 17Z\"/><path class=\"p2\" d=\"M5 20H19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 }
+  ]
+}

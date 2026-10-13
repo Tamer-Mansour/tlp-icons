@@ -1,0 +1,10 @@
+{
+  "name": "venus-planet",
+  "category": "science",
+  "tags": ["planet", "venus", "orbit", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8.5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"1.5\" transform=\"rotate(-25 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 1400, "delay": 800 }
+  ]
+}

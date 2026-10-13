@@ -1,0 +1,11 @@
+{
+  "name": "induction-cooktop",
+  "category": "devices",
+  "tags": ["induction", "cooktop", "stove", "kitchen", "heat", "hob"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"20\" height=\"7\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"3\"/><path class=\"p3\" d=\"M6 17.5C7 16 8 19 9 17.5M15 17.5C16 16 17 19 18 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

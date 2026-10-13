@@ -1,0 +1,12 @@
+{
+  "name": "field-station",
+  "category": "buildings",
+  "tags": ["field", "station", "tent", "camp", "flag", "tripod", "survey"],
+  "svg": "<path class=\"d p1\" d=\"M2 20l6-10 6 10z\"/><path class=\"p2\" d=\"M6.5 20l1.5-3.5 1.5 3.5\"/><path class=\"p3\" d=\"M8 10V4h4l-1 1.5 1 1.5H8\"/><path class=\"p4\" d=\"M17 9h4M19 9l-2.5 11M19 9l2.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1200 }
+  ]
+}

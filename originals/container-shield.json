@@ -1,0 +1,11 @@
+{
+  "name": "container-shield",
+  "category": "security",
+  "tags": ["container", "shield", "shipping", "protection", "cargo", "stack"],
+  "svg": "<rect class=\"p3\" x=\"3\" y=\"3\" width=\"18\" height=\"5\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"11\" width=\"18\" height=\"10\" rx=\"1\"/><path class=\"d p2\" d=\"M12 13L15 14V16.5Q15 18.5 12 19.5Q9 18.5 9 16.5V14Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "slideDown", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "paella-pan",
+  "category": "food",
+  "tags": ["paella", "pan", "rice", "skillet", "spanish", "cooking"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h18c0 5-4 7.5-9 7.5S3 15 3 10z\"/><path class=\"p2\" d=\"M3 10L2 8M21 10l1-2\"/><circle class=\"f p3\" cx=\"9\" cy=\"13\" r=\"0.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"0.8\"/><circle class=\"f p3\" cx=\"15\" cy=\"13\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

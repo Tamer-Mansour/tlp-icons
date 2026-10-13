@@ -1,0 +1,12 @@
+{
+  "name": "wysiwyg",
+  "category": "text",
+  "tags": ["wysiwyg", "preview", "what you see", "page", "eye"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M5 8 H11 M5 12 H11 M5 16 H9\"/><path class=\"p3\" d=\"M17 12 Q19.5 7.5 22 12 Q19.5 16.5 17 12 Z\"/><circle class=\"f p4\" cx=\"19.5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

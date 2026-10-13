@@ -1,0 +1,11 @@
+{
+  "name": "vacation-umbrella-person",
+  "category": "people",
+  "tags": ["vacation", "beach", "umbrella", "holiday", "relax", "person"],
+  "svg": "<path class=\"d p1\" d=\"M4 10a8 8 0 0 1 16 0z\"/><path class=\"p2\" d=\"M12 10V21\"/><circle class=\"p3\" cx=\"17\" cy=\"16.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1000 }
+  ]
+}

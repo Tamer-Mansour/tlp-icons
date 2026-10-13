@@ -1,0 +1,11 @@
+{
+  "name": "obstacle-course",
+  "category": "sport",
+  "tags": ["obstacle", "course", "hurdle", "race", "training", "fitness"],
+  "svg": "<path class=\"p1\" d=\"M3 20H21\"/><path class=\"p2\" d=\"M6 20V11H10V20\"/><path class=\"p3\" d=\"M14 20V11H18V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

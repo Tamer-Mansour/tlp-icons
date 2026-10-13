@@ -1,0 +1,10 @@
+{
+  "name": "slider-thumb",
+  "category": "interface",
+  "tags": ["slider", "thumb", "track", "adjust", "control"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "work-shift",
+  "category": "time",
+  "tags": ["work", "shift", "day", "night", "clock", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3a9 9 0 0 1 0 18z\"/><path class=\"p3\" d=\"M12 7v5l3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "12px 12px" }
+  ]
+}

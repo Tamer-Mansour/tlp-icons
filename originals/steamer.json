@@ -1,0 +1,12 @@
+{
+  "name": "steamer",
+  "category": "food",
+  "tags": ["food", "steamer", "pot", "steam", "vegetables", "cooking"],
+  "svg": "<path class=\"d p1\" d=\"M4 15h16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M6 8h12l-1 5H7z\"/><circle class=\"f p3\" cx=\"9\" cy=\"10.5\" r=\"0.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"0.8\"/><circle class=\"f p3\" cx=\"15\" cy=\"10.5\" r=\"0.8\"/><path class=\"p4\" d=\"M9 5c-.5-.7.5-1.3 0-2M15 5c-.5-.7.5-1.3 0-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 },
+    { "part": "p4", "anim": "float", "dur": 900, "delay": 1400 }
+  ]
+}

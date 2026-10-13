@@ -1,0 +1,10 @@
+{
+  "name": "address-label",
+  "category": "communication",
+  "tags": ["address", "label", "mail", "sticker", "text", "name"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7 10h10M7 14h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 600 }
+  ]
+}

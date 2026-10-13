@@ -1,0 +1,11 @@
+{
+  "name": "hierarchy-tree",
+  "category": "charts",
+  "tags": ["hierarchy", "tree", "org", "structure", "parent", "levels"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"5\"/><path class=\"p2\" d=\"M12 8V12M5.5 12H18.5M5.5 12V16M12 12V16M18.5 12V16\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"5\" height=\"5\"/><rect class=\"p3\" x=\"9.5\" y=\"16\" width=\"5\" height=\"5\"/><rect class=\"p3\" x=\"16\" y=\"16\" width=\"5\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

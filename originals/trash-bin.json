@@ -1,0 +1,10 @@
+{
+  "name": "trash-bin",
+  "category": "home",
+  "tags": ["trash", "bin", "garbage", "waste", "can", "dustbin"],
+  "svg": "<path class=\"d p2\" d=\"M6 8h12l-1 13H7z\"/><rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p1\" d=\"M10 5V3.5h4V5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 700, "delay": 900, "origin": "left" }
+  ]
+}

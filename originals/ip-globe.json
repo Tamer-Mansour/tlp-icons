@@ -1,0 +1,11 @@
+{
+  "name": "ip-globe",
+  "category": "connectivity",
+  "tags": ["ip", "globe", "address", "world", "internet", "network"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"7\"/><ellipse class=\"p2\" cx=\"10\" cy=\"10\" rx=\"3\" ry=\"7\"/><path class=\"p2\" d=\"M3 10h14\"/><path class=\"p3\" d=\"M7 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1200 }
+  ]
+}

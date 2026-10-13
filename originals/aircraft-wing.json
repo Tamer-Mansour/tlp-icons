@@ -1,0 +1,10 @@
+{
+  "name": "aircraft-wing",
+  "category": "vehicles",
+  "tags": ["aircraft", "wing", "engine", "plane", "swept", "flight"],
+  "svg": "<path class=\"d p1\" d=\"M3 15L13 5H15L12 15H21V17H3Z\"/><rect class=\"p2\" x=\"9\" y=\"19.5\" width=\"4\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

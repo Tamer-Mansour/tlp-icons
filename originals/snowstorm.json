@@ -1,0 +1,11 @@
+{
+  "name": "snowstorm",
+  "category": "nature",
+  "tags": ["snow", "storm", "cloud", "flakes", "wind"],
+  "svg": "<path class=\"d p1\" d=\"M6 12 Q3 12 4 9 Q5 6 9 7 Q10 3 14 4 Q18 4 18 8 Q21 8 21 11 Q21 12 18 12 H6 Z\"/><path class=\"p2\" d=\"M3 15 H8 M16 22 H21\"/><circle class=\"f p3\" cx=\"7\" cy=\"18\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"18\" r=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"15.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fall", "dur": 1000, "delay": 900 }
+  ]
+}

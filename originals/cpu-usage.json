@@ -1,0 +1,11 @@
+{
+  "name": "cpu-usage",
+  "category": "charts",
+  "tags": ["cpu", "usage", "processor", "load", "chip", "performance"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3\"/><path class=\"p3\" d=\"M9 15v-4M15 15v-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "grow", "origin": "bottom", "dur": 600, "delay": 1100 }
+  ]
+}

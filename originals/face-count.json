@@ -1,0 +1,11 @@
+{
+  "name": "face-count",
+  "category": "math",
+  "tags": ["box", "faces", "count", "geometry", "solid"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"8\" width=\"12\" height=\"12\"/><path class=\"p2\" d=\"M4 8 L8 4 H20 V16 L16 20 M16 8 H20\"/><circle class=\"f p3\" cx=\"8\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

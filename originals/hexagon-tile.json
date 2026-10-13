@@ -1,0 +1,10 @@
+{
+  "name": "hexagon-tile",
+  "category": "shapes",
+  "tags": ["hexagon", "tile", "honeycomb", "grid", "pattern", "shape"],
+  "svg": "<polygon class=\"p1\" points=\"12,2.5 20,7 20,17 12,21.5 4,17 4,7\"/><polygon class=\"d p2\" points=\"12,6.5 16,9 16,15 12,17.5 8,15 8,9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

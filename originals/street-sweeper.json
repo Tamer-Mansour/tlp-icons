@@ -1,0 +1,11 @@
+{
+  "name": "street-sweeper",
+  "category": "vehicles",
+  "tags": ["street", "sweeper", "cleaning", "road", "brush"],
+  "svg": "<path class=\"d p1\" d=\"M3 13v-3l3-3h11l3 3v3z\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"17\" r=\"2\"/><path class=\"p3\" d=\"M6 21h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 900 }
+  ]
+}

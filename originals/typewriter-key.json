@@ -1,0 +1,10 @@
+{
+  "name": "typewriter-key",
+  "category": "text",
+  "tags": ["key", "letter", "typewriter", "type", "keycap"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M9.5 15l2.5-7 2.5 7M10.5 12.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

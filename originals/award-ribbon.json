@@ -1,0 +1,11 @@
+{
+  "name": "award-ribbon",
+  "category": "notifications",
+  "tags": ["award", "ribbon", "rosette", "prize", "winner"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M8.5 13 L7 22 L12 19.5 L17 22 L15.5 13\"/><circle class=\"p3\" cx=\"12\" cy=\"9\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

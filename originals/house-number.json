@@ -1,0 +1,11 @@
+{
+  "name": "house-number",
+  "category": "buildings",
+  "tags": ["house", "number", "door", "address", "home"],
+  "svg": "<path class=\"d p1\" d=\"M4 10L12 4L20 10V21H4Z\"/><rect class=\"p2\" x=\"10\" y=\"14\" width=\"4\" height=\"7\"/><path class=\"p3\" d=\"M11.5 11.2L12.5 10.5V13.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

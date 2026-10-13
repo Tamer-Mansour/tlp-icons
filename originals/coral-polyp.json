@@ -1,0 +1,10 @@
+{
+  "name": "coral-polyp",
+  "category": "science",
+  "tags": ["biology", "coral", "polyp", "reef", "marine"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-6l-5-4V7M12 15l5-4V7\"/><circle class=\"f p2\" cx=\"7\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

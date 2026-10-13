@@ -1,0 +1,12 @@
+{
+  "name": "freight-truck",
+  "category": "vehicles",
+  "tags": ["freight", "truck", "cargo", "crates", "delivery"],
+  "svg": "<path class=\"p1\" d=\"M2 15h14\"/><path class=\"d p2\" d=\"M16 9h3.5l2.5 4v2h-6z\"/><rect class=\"p3\" x=\"3\" y=\"8\" width=\"4\" height=\"4\"/><rect class=\"p3\" x=\"9\" y=\"8\" width=\"4\" height=\"4\"/><circle class=\"p4\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p4\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "drive", "dur": 900, "delay": 900 }
+  ]
+}

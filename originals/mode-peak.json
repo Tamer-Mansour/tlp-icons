@@ -1,0 +1,10 @@
+{
+  "name": "mode-peak",
+  "category": "charts",
+  "tags": ["mode", "histogram", "peak", "frequency", "bars", "statistics"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"3\" height=\"7\"/><rect class=\"d p1\" x=\"7\" y=\"10\" width=\"3\" height=\"11\"/><rect class=\"d p2\" x=\"12\" y=\"4\" width=\"3\" height=\"17\"/><rect class=\"d p1\" x=\"17\" y=\"12\" width=\"3\" height=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

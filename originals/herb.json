@@ -1,0 +1,11 @@
+{
+  "name": "herb",
+  "category": "nature",
+  "tags": ["herb", "plant", "leaves", "kitchen", "garden"],
+  "svg": "<path class=\"p1\" d=\"M12 21 V4\"/><path class=\"d p2\" d=\"M12 17 C9 17 6 15 6 12 C9 12 11.5 13.5 12 17 Z\"/><path class=\"d p2\" d=\"M12 17 C15 17 18 15 18 12 C15 12 12.5 13.5 12 17 Z\"/><path class=\"d p3\" d=\"M12 11 C9 11 7 9 7 6 C10 6 11.5 7.5 12 11 Z\"/><path class=\"d p3\" d=\"M12 11 C15 11 17 9 17 6 C14 6 12.5 7.5 12 11 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

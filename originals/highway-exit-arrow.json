@@ -1,0 +1,10 @@
+{
+  "name": "highway-exit-arrow",
+  "category": "arrows",
+  "tags": ["highway", "exit", "ramp", "off", "road"],
+  "svg": "<path class=\"p1\" d=\"M2 9 H14 L20 16\"/><path class=\"p2\" d=\"M16 16 H20 V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "right-triangle",
+  "category": "science",
+  "tags": ["triangle", "right", "angle", "geometry", "math", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M4 4V19.5H20Z\"/><path class=\"p2\" d=\"M4 16H8V19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

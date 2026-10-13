@@ -1,0 +1,10 @@
+{
+  "name": "mattock",
+  "category": "tools",
+  "tags": ["mattock", "adze", "pick", "digging", "garden", "tool"],
+  "svg": "<path class=\"p1\" d=\"M5 21L13 9\"/><path class=\"p2\" d=\"M12 3L20 6L19 9L11 6Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 600, "delay": 900, "origin": "5px 21px" }
+  ]
+}

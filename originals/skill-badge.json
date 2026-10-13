@@ -1,0 +1,11 @@
+{
+  "name": "skill-badge",
+  "category": "people",
+  "tags": ["skill", "badge", "gear", "certificate", "achievement", "award"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.2\"/><path class=\"p2\" d=\"M12 5.2v1.8M12 13v1.8M7.2 10h1.8M15 10h1.8\"/><path class=\"p3\" d=\"M8.5 15.5 7 21.5l5-2 5 2-1.5-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

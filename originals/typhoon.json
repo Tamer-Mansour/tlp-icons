@@ -1,0 +1,10 @@
+{
+  "name": "typhoon",
+  "category": "weather",
+  "tags": ["typhoon", "spiral", "cyclone", "storm", "hurricane", "weather"],
+  "svg": "<path class=\"p1\" d=\"M12 12 C12 9 14 8 16 8 C19 8 20 10 20 12 C20 16 17 18 14 18 C10 18 8 15 8 12 C8 8 11 5 16 5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 400, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "teletype",
+  "category": "communication",
+  "tags": ["teletype", "printer", "keyboard", "paper", "telegraph", "sheet"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 4h8v6H8z\"/><path class=\"p3\" d=\"M6 15h1M10 15h4M16 15h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

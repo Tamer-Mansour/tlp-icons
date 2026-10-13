@@ -1,0 +1,11 @@
+{
+  "name": "paintball-gun",
+  "category": "sport",
+  "tags": ["paintball", "gun", "splat", "game", "marker", "shooter"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M15 10.5H18M6 14V20H9V14\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"10.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

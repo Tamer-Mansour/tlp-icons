@@ -1,0 +1,11 @@
+{
+  "name": "keypad-code",
+  "category": "security",
+  "tags": ["keypad", "code", "pin", "numbers", "entry", "access"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"3\"/><path class=\"p2\" d=\"M8 7h.01M12 7h.01M16 7h.01M8 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01\"/><circle class=\"f p3\" cx=\"12\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "face-scan",
+  "category": "people",
+  "tags": ["face", "scan", "recognition", "biometric", "camera", "identity"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"5\"/><path class=\"p2\" d=\"M9.5 14.5a3 3 0 0 0 5 0\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"10.5\" r=\"1\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1300 }
+  ]
+}

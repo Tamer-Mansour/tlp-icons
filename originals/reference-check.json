@@ -1,0 +1,12 @@
+{
+  "name": "reference-check",
+  "category": "people",
+  "tags": ["reference", "check", "recommendation", "cards", "verify"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"13\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"9\" width=\"13\" height=\"10\" rx=\"2\"/><polyline class=\"p3\" points=\"6.5,14 8.5,16 12.5,12\"/><path class=\"p4\" d=\"M17 16.5H21M19 14.5L21 16.5L19 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 },
+    { "part": "p4", "anim": "nudge", "dur": 600, "delay": 1400 }
+  ]
+}

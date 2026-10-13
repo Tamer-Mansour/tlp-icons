@@ -1,0 +1,10 @@
+{
+  "name": "conservatory",
+  "category": "buildings",
+  "tags": ["conservatory", "glass", "dome", "greenhouse", "room", "garden"],
+  "svg": "<path class=\"d p1\" d=\"M3 20v-9a9 9 0 0 1 18 0v9z\"/><path class=\"p2\" d=\"M8 20v-7M16 20v-7M12 2.5V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "trill-mark",
+  "category": "media",
+  "tags": ["trill", "ornament", "wavy", "music", "notation"],
+  "svg": "<path class=\"p1\" d=\"M4 6V16C4 17 4.5 17.5 5.5 17.5M2.5 9H7\"/><path class=\"p2\" d=\"M10 12V17.5M10 14.5C10 12.5 11 12 13 12\"/><path class=\"p3\" d=\"M15 13C16 11 17 15 18 13S20 11 21 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

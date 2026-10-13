@@ -1,0 +1,11 @@
+{
+  "name": "fare-card",
+  "category": "vehicles",
+  "tags": ["fare", "card", "transit", "chip", "ticket"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2.5\"/><rect class=\"p2\" x=\"5.5\" y=\"9\" width=\"4\" height=\"3\" rx=\".5\"/><path class=\"p3\" d=\"M13 15c1.2-1.2 2.5-1.2 3.5 0s2.5 1.2 3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

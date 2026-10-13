@@ -1,0 +1,11 @@
+{
+  "name": "letterbox",
+  "category": "home",
+  "tags": ["letterbox", "mail", "door", "slot", "post", "letter"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M8 14h8\"/><rect class=\"p3\" x=\"9\" y=\"8\" width=\"6\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

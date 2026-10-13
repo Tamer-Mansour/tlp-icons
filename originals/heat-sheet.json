@@ -1,0 +1,11 @@
+{
+  "name": "heat-sheet",
+  "category": "sport",
+  "tags": ["heat", "sheet", "swim", "lanes", "schedule"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M3 9H21M3 14H21M8 4V20\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"6.5\" r=\"1\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"11.5\" r=\"1\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "factorial",
+  "category": "math",
+  "tags": ["factorial", "exclamation", "product", "number", "operator"],
+  "svg": "<polyline class=\"p1\" points=\"9 6 5 6 5 11.5 8 11.5 9.5 13 9.5 16 8 17.5 5 17.5\"/><line class=\"p2\" x1=\"17\" y1=\"6\" x2=\"17\" y2=\"14\"/><circle class=\"f p3\" cx=\"17\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1300 }
+  ]
+}

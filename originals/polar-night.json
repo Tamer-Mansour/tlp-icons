@@ -1,0 +1,11 @@
+{
+  "name": "polar-night",
+  "category": "weather",
+  "tags": ["polar", "night", "dark", "arctic", "stars", "horizon"],
+  "svg": "<path class=\"d p1\" d=\"M4 16 A8 8 0 0 1 20 16 Z\"/><path class=\"p2\" d=\"M2 16 H22\"/><circle class=\"f p3\" cx=\"5\" cy=\"5\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

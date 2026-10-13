@@ -1,0 +1,10 @@
+{
+  "name": "text-copy",
+  "category": "text",
+  "tags": ["text", "copy", "duplicate", "pages", "clone", "edit"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"11\" height=\"12\" rx=\"2\"/><path class=\"p1\" d=\"M6 13 H11 M6 16.5 H9\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"11\" height=\"12\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dugong",
+  "category": "nature",
+  "tags": ["dugong", "sea cow", "manatee", "ocean", "marine", "mammal"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 Q4 8 9 8 Q14 8 16 11 Q19 9 21 9 L21 14 Q19 13 17 14 Q14 17 9 16 Q4 16 4 12 Z\"/><path class=\"p2\" d=\"M8 15 Q7 18 5 18\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"11\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 1100, "origin": "8px 15px" }
+  ]
+}

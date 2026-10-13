@@ -1,0 +1,11 @@
+{
+  "name": "css-brush",
+  "category": "development",
+  "tags": ["css", "brush", "style", "paint", "design", "theme"],
+  "svg": "<path class=\"d p2\" d=\"M11 13l-2.5 2.5c-1 1-2 2.5-2 4.5 2 0 3.5-1 4.5-2L13 17z\"/><path class=\"p1\" d=\"M20 4l-9 9\"/><path class=\"p3\" d=\"M3 21h2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

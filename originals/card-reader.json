@@ -1,0 +1,11 @@
+{
+  "name": "card-reader",
+  "category": "devices",
+  "tags": ["card", "reader", "slot", "payment", "swipe", "chip"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"3\" width=\"12\" height=\"7\" rx=\"1\"/><line class=\"p3\" x1=\"6\" y1=\"15.5\" x2=\"18\" y2=\"15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 900 }
+  ]
+}

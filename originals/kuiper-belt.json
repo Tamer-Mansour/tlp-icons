@@ -1,0 +1,10 @@
+{
+  "name": "kuiper-belt",
+  "category": "science",
+  "tags": ["kuiper", "belt", "orbit", "space", "dwarf", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1\"/><circle class=\"f p2\" cx=\"19.5\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"19.5\" r=\"1\"/><circle class=\"f p2\" cx=\"8\" cy=\"20.5\" r=\"1\"/><circle class=\"f p2\" cx=\"3\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 700 }
+  ]
+}

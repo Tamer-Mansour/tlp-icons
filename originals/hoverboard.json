@@ -1,0 +1,10 @@
+{
+  "name": "hoverboard",
+  "category": "devices",
+  "tags": ["hoverboard", "board", "wheel", "scooter", "ride", "float"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"4\" rx=\"2\"/><circle class=\"p2\" cx=\"7\" cy=\"20\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 900 }
+  ]
+}

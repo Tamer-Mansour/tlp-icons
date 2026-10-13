@@ -1,0 +1,11 @@
+{
+  "name": "text-version",
+  "category": "text",
+  "tags": ["text", "version", "revision", "cards", "history", "stack"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"13\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"10\" width=\"13\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"17\" width=\"13\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

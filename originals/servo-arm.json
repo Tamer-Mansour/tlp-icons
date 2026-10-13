@@ -1,0 +1,10 @@
+{
+  "name": "servo-arm",
+  "category": "science",
+  "tags": ["servo", "arm", "motor", "horn", "robotics"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 500, "origin": "8px 12px" }
+  ]
+}

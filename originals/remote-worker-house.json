@@ -1,0 +1,11 @@
+{
+  "name": "remote-worker-house",
+  "category": "people",
+  "tags": ["remote", "worker", "home", "work", "laptop", "office"],
+  "svg": "<path class=\"d p1\" d=\"M3 10.5L12 3L21 10.5V21H3Z\"/><rect class=\"p2\" x=\"8.5\" y=\"10\" width=\"7\" height=\"5.5\" rx=\"0.5\"/><line class=\"p3\" x1=\"7\" y1=\"18\" x2=\"17\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1200 }
+  ]
+}

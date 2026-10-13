@@ -1,0 +1,11 @@
+{
+  "name": "wake-bell",
+  "category": "time",
+  "tags": ["wake", "bell", "alarm", "twin bells", "morning", "ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14.5\" r=\"6.5\"/><path class=\"p2\" d=\"M4.5 7.5a3.5 3.5 0 0 1 4.5-3.3M15 4.2a3.5 3.5 0 0 1 4.5 3.3\"/><path class=\"p3\" d=\"M12 14.5v-3M12 14.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "rattle", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1100, "origin": "12px 14.5px" }
+  ]
+}

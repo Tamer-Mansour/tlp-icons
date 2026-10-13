@@ -1,0 +1,11 @@
+{
+  "name": "bulb-on",
+  "category": "interface",
+  "tags": ["bulb", "light", "idea", "on", "glow", "lamp"],
+  "svg": "<path class=\"d p1\" d=\"M9 15.5c0-2-2.5-3-2.5-5.5a5.5 5.5 0 0 1 11 0c0 2.5-2.5 3.5-2.5 5.5z\"/><line class=\"p2\" x1=\"9\" y1=\"18.5\" x2=\"15\" y2=\"18.5\"/><line class=\"p2\" x1=\"10\" y1=\"21\" x2=\"14\" y2=\"21\"/><line class=\"p3\" x1=\"12\" y1=\"1.5\" x2=\"12\" y2=\"3\"/><line class=\"p3\" x1=\"4\" y1=\"6\" x2=\"5.5\" y2=\"7\"/><line class=\"p3\" x1=\"20\" y1=\"6\" x2=\"18.5\" y2=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

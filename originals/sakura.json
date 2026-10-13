@@ -1,0 +1,10 @@
+{
+  "name": "sakura",
+  "category": "nature",
+  "tags": ["sakura", "cherry", "blossom", "flower", "petal"],
+  "svg": "<path class=\"p1\" d=\"M12 12C9 10 8 6 10 4.5C11 4 13 4 14 4.5C16 6 15 10 12 12z\"/><path class=\"p1\" transform=\"rotate(72 12 12)\" d=\"M12 12C9 10 8 6 10 4.5C11 4 13 4 14 4.5C16 6 15 10 12 12z\"/><path class=\"p1\" transform=\"rotate(144 12 12)\" d=\"M12 12C9 10 8 6 10 4.5C11 4 13 4 14 4.5C16 6 15 10 12 12z\"/><path class=\"p1\" transform=\"rotate(216 12 12)\" d=\"M12 12C9 10 8 6 10 4.5C11 4 13 4 14 4.5C16 6 15 10 12 12z\"/><path class=\"p1\" transform=\"rotate(288 12 12)\" d=\"M12 12C9 10 8 6 10 4.5C11 4 13 4 14 4.5C16 6 15 10 12 12z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bloom", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

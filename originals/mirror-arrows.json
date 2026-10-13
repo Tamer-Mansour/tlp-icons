@@ -1,0 +1,10 @@
+{
+  "name": "mirror-arrows",
+  "category": "arrows",
+  "tags": ["mirror", "reflect", "axis", "symmetry", "opposite", "flip"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"p2\" d=\"M10 8H4M7 5L4 8l3 3M14 8h6M17 5l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 600 }
+  ]
+}

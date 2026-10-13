@@ -1,0 +1,11 @@
+{
+  "name": "remote-start",
+  "category": "vehicles",
+  "tags": ["key", "fob", "car", "remote", "start"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"12\" rx=\"3\"/><polygon class=\"p2\" points=\"6,6.5 9.5,9 6,11.5\"/><path class=\"p3\" d=\"M13 21l1.5-4h6l1.5 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

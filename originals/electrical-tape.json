@@ -1,0 +1,11 @@
+{
+  "name": "electrical-tape",
+  "category": "tools",
+  "tags": ["electrical", "tape", "roll", "insulation", "wire", "wrap"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M17 12 H22 M17 16 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "unfold", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "text-size-down",
+  "category": "interface",
+  "tags": ["text", "size", "decrease", "font", "smaller", "type"],
+  "svg": "<path class=\"p1\" d=\"M2 19l5-12 5 12M3.5 14.5h6\"/><path class=\"p2\" d=\"M14 19l2.5-6 2.5 6M14.8 16.5h3.4\"/><path class=\"p3\" d=\"M20 5v7M18 10.5l2 2.5 2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

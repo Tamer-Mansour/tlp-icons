@@ -1,0 +1,11 @@
+{
+  "name": "system-user",
+  "category": "people",
+  "tags": ["system", "user", "admin", "computer", "monitor", "root"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"2.5\"/><path class=\"p1\" d=\"M8.5 12a3.5 3.5 0 0 1 7 0\"/><rect class=\"d p2\" x=\"2\" y=\"13\" width=\"20\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M12 19v2M8 21.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

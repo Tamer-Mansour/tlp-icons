@@ -1,0 +1,32 @@
+{
+    "name":  "bacteriophage",
+    "category":  "science",
+    "tags":  [
+                 "virus",
+                 "phage",
+                 "bacteriophage",
+                 "infection",
+                 "microbe"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M12 2L17 5V10L12 13L7 10V5Z\"/\u003e\u003cpath class=\"p2\" d=\"M12 13V15.5\"/\u003e\u003cpath class=\"p3\" d=\"M12 15.5L7.5 14M12 15.5L16.5 14M12 18.5L8 21M12 18.5L16 21\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  600,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  400
+                   },
+                   {
+                       "delay":  1000,
+                       "anim":  "draw",
+                       "part":  "p3",
+                       "dur":  600
+                   }
+               ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "router-table",
+  "category": "tools",
+  "tags": ["router", "table", "bit", "fence", "woodworking"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"1\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><line class=\"p3\" x1=\"17\" y1=\"5\" x2=\"17\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

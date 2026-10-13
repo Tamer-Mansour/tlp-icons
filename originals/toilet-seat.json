@@ -1,0 +1,10 @@
+{
+  "name": "toilet-seat",
+  "category": "home",
+  "tags": ["toilet seat", "lid", "hinge", "bathroom", "seat ring"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"8\" ry=\"6\"/><path class=\"p2\" d=\"M4 13V4h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 700, "origin": "4px 13px" }
+  ]
+}

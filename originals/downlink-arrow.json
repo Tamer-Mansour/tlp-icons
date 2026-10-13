@@ -1,0 +1,11 @@
+{
+  "name": "downlink-arrow",
+  "category": "connectivity",
+  "tags": ["downlink", "download", "arrow", "antenna", "receive", "incoming", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M7 4h10c0 3-2.5 5-5 5s-5-2-5-5z\"/><path class=\"p2\" d=\"M12 9v3\"/><path class=\"p3\" d=\"M12 14v7M9 18l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

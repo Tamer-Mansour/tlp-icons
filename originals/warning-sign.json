@@ -1,0 +1,10 @@
+{
+  "name": "warning-sign",
+  "category": "emoji",
+  "tags": ["warning", "caution", "alert", "danger", "hazard", "triangle"],
+  "svg": "<path class=\"d p1\" d=\"M10.3 4.3 Q12 2.5 13.7 4.3 L20.6 16.5 Q21.5 18.5 19.5 19.5 H4.5 Q2.5 18.5 3.4 16.5 Z\"/><line class=\"p2\" x1=\"12\" y1=\"9.5\" x2=\"12\" y2=\"13.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 700 }
+  ]
+}

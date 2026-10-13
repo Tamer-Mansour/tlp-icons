@@ -1,0 +1,10 @@
+{
+  "name": "boolean-subtract",
+  "category": "design",
+  "tags": ["boolean", "subtract", "cut", "difference", "shape", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 4H16V12A4 4 0 0 0 12 16H4Z\"/><circle class=\"p2\" cx=\"16\" cy=\"16\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

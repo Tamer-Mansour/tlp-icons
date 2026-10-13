@@ -1,0 +1,11 @@
+{
+  "name": "study-buddy",
+  "category": "people",
+  "tags": ["study", "buddy", "book", "learning", "friend"],
+  "svg": "<circle class=\"p3\" cx=\"7\" cy=\"9\" r=\"2.5\"/><circle class=\"p3\" cx=\"17\" cy=\"9\" r=\"2.5\"/><path class=\"p1\" d=\"M2.5 21v-3a4.5 4.5 0 0 1 9 0v3\"/><path class=\"p1\" d=\"M12.5 21v-3a4.5 4.5 0 0 1 9 0v3\"/><path class=\"d p2\" d=\"M10 18Q11 17 12 18Q13 17 14 18V21.5Q13 20.5 12 21.5Q11 20.5 10 21.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1400, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "taxi-stand",
+  "category": "buildings",
+  "tags": ["taxi stand", "taxi", "cab rank", "sign", "transport"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"4\"/><path class=\"p1\" d=\"M9.5 4.5h5M12 4.5v1.5\"/><path class=\"p2\" d=\"M12 9v12M8 21h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 700, "origin": "12px 3px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cloud-shadow",
+  "category": "weather",
+  "tags": ["cloud", "shadow", "ground", "shade", "sky"],
+  "svg": "<path class=\"p1\" d=\"M7 13 A3 3 0 0 1 8.5 7.5 A5 5 0 0 1 17.5 9 A3 3 0 0 1 17 13 Z\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"19\" rx=\"6\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

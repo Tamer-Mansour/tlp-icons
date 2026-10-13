@@ -1,0 +1,11 @@
+{
+  "name": "shape-library",
+  "category": "shapes",
+  "tags": ["library", "shapes", "circle", "square", "triangle"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"7\" r=\"4\"/><rect class=\"p2\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><polygon class=\"p3\" points=\"3,21 11,21 7,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 700 }
+  ]
+}

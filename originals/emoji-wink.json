@@ -1,0 +1,11 @@
+{
+  "name": "emoji-wink",
+  "category": "communication",
+  "tags": ["wink", "emoji", "smiley", "playful", "reaction", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v12h-7l-4 3v-3H4z\"/><circle class=\"f p3\" cx=\"9\" cy=\"8.5\" r=\"1\"/><path class=\"p2\" d=\"M14 8.5q1-1 2 0M8.5 11.5a3.5 3.5 0 0 0 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

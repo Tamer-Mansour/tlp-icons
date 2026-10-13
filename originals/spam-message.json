@@ -1,0 +1,10 @@
+{
+  "name": "spam-message",
+  "category": "communication",
+  "tags": ["spam email", "junk mail", "warning", "phishing", "envelope"],
+  "svg": "<path class=\"p1 d\" d=\"M3 6h18v12H3z\"/><path class=\"p1\" d=\"M3 6l9 6.5L21 6\"/><path class=\"p2\" d=\"M18 2.5l2.5 4.5h-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ibis",
+  "category": "nature",
+  "tags": ["ibis", "wading", "bird", "curved", "marsh"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"5\" ry=\"3\"/><path class=\"p2\" d=\"M14.5 11L16.5 8.5M17.5 8.5Q21 9 21 14\"/><circle class=\"p2\" cx=\"17\" cy=\"8\" r=\"1.5\"/><path class=\"p3\" d=\"M11 16V21M9 21H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

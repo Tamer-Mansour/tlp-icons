@@ -1,0 +1,10 @@
+{
+  "name": "bar-clamp",
+  "category": "tools",
+  "tags": ["clamp", "bar", "jaws", "grip", "workshop"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"11\" width=\"20\" height=\"2\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"7\" width=\"3\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"7\" width=\"3\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

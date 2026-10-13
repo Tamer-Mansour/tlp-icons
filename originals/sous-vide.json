@@ -1,0 +1,11 @@
+{
+  "name": "sous-vide",
+  "category": "devices",
+  "tags": ["sous", "vide", "cooking", "water", "pot", "precision"],
+  "svg": "<path class=\"d p1\" d=\"M4 9H20V18C20 20 18.5 21 17 21H7C5.5 21 4 20 4 18Z\"/><path class=\"p2\" d=\"M15 3V13\"/><path class=\"p3\" d=\"M7 16C8.5 14.5 9.5 17.5 11 16C12.5 14.5 13.5 17.5 15 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 600, "delay": 900 }
+  ]
+}

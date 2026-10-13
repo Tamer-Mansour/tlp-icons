@@ -1,0 +1,10 @@
+{
+  "name": "collider-ring",
+  "category": "science",
+  "tags": ["collider", "ring", "particle", "collision", "beam"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

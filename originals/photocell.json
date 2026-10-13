@@ -1,0 +1,10 @@
+{
+  "name": "photocell",
+  "category": "devices",
+  "tags": ["photocell", "light", "sensor", "dusk", "daylight", "lamp"],
+  "svg": "<path class=\"d p1\" d=\"M5 19 A7 7 0 0 1 19 19 Z\"/><path class=\"p2\" d=\"M12 2.5 V5.5 M5.5 5.5 L7.5 7.5 M18.5 5.5 L16.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 800, "delay": 700 }
+  ]
+}

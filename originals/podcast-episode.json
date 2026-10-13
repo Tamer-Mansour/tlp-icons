@@ -1,0 +1,11 @@
+{
+  "name": "podcast-episode",
+  "category": "media",
+  "tags": ["podcast", "episode", "mic", "playlist", "audio", "show"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M6 9a6 6 0 0 0 12 0M12 15v2M9 19h12\"/><polygon class=\"d p3\" points=\"3,16 7,19 3,22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

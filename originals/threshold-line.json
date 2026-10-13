@@ -1,0 +1,10 @@
+{
+  "name": "threshold-line",
+  "category": "charts",
+  "tags": ["threshold", "limit", "alert", "target", "line"],
+  "svg": "<path class=\"p1\" d=\"M2 15C5 6 8 6 11 13S17 20 22 8\"/><path class=\"p2\" d=\"M2 11H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

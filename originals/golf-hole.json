@@ -1,0 +1,11 @@
+{
+  "name": "golf-hole",
+  "category": "sport",
+  "tags": ["golf", "hole", "flag", "green", "course", "pin"],
+  "svg": "<path class=\"p1\" d=\"M12 3V15\"/><path class=\"d p2\" d=\"M12 3L19 6L12 9\"/><ellipse class=\"p3\" cx=\"12\" cy=\"18\" rx=\"8\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 700, "delay": 1000 }
+  ]
+}

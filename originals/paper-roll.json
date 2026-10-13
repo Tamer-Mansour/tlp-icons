@@ -1,0 +1,10 @@
+{
+  "name": "paper-roll",
+  "category": "files",
+  "tags": ["roll", "paper", "cylinder", "scroll", "wrap"],
+  "svg": "<path class=\"p1\" d=\"M7 5h12v14H7\"/><ellipse class=\"p2\" cx=\"7\" cy=\"12\" rx=\"2.5\" ry=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

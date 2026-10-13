@@ -1,0 +1,10 @@
+{
+  "name": "text-insert",
+  "category": "text",
+  "tags": ["text", "insert", "add", "plus", "edit", "type"],
+  "svg": "<path class=\"p1\" d=\"M3 17 H7 M14 17 H21\"/><path class=\"p2\" d=\"M10.5 13.5 V20.5 M8 17 H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 800 }
+  ]
+}

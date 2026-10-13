@@ -1,0 +1,11 @@
+{
+  "name": "laser-level",
+  "category": "tools",
+  "tags": ["laser", "level", "alignment", "beam", "leveling", "survey"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"16\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 16h20\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

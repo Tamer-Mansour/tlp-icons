@@ -1,0 +1,11 @@
+{
+  "name": "navigation-arrow",
+  "category": "vehicles",
+  "tags": ["navigation", "arrow", "direction", "compass", "map", "location"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5l9.5 9.5-9.5 9.5L2.5 12z\"/><path class=\"p2\" d=\"M12 16V8\"/><path class=\"p3\" d=\"M8.5 11.5L12 8l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

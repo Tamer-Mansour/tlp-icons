@@ -1,0 +1,11 @@
+{
+  "name": "potato-masher",
+  "category": "home",
+  "tags": ["potato", "masher", "kitchen", "mash", "utensil"],
+  "svg": "<path class=\"p1\" d=\"M8 3 H16 M12 3 V11\"/><path class=\"d p2\" d=\"M6 11 H18 V15 Q18 21 12 21 Q6 21 6 15 Z\"/><path class=\"p3\" d=\"M10 15 V17.5 M14 15 V17.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "pump", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "convertible-top",
+  "category": "vehicles",
+  "tags": ["convertible", "top", "car", "roof", "soft", "fold", "drive"],
+  "svg": "<path class=\"d p1\" d=\"M9 9.5l1.5-3.5h6.5l2 3.5z\"/><path class=\"p2\" d=\"M2.5 15v-3h2.5l2.5-2.5h9.5l2.5 2.5h2v3z\"/><circle class=\"p3\" cx=\"7\" cy=\"17.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "drive", "dur": 1000, "delay": 900 }
+  ]
+}

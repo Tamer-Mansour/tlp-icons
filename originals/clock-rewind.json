@@ -1,0 +1,11 @@
+{
+  "name": "clock-rewind",
+  "category": "time",
+  "tags": ["clock", "rewind", "history", "back", "undo"],
+  "svg": "<circle class=\"p1\" cx=\"15\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M8 9L4 12l4 3\"/><path class=\"p3\" d=\"M15 12V9M15 12l2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1100, "origin": "15px 12px" }
+  ]
+}

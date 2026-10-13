@@ -1,0 +1,12 @@
+{
+  "name": "text-decode",
+  "category": "text",
+  "tags": ["decode", "binary", "bits to text", "convert", "data"],
+  "svg": "<ellipse class=\"p1\" cx=\"4.5\" cy=\"12\" rx=\"2.5\" ry=\"5\"/><path class=\"p2\" d=\"M9.5 7 V17 M8 8.3 L9.5 7\"/><path class=\"p3\" d=\"M11 12 H14 M12.5 10.5 L14 12 L12.5 13.5\"/><path class=\"p4\" d=\"M15.5 18 L19 6 L22.5 18 M16.7 13.5 H21.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "typeIn", "dur": 500, "delay": 1100 }
+  ]
+}

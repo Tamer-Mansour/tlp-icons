@@ -1,0 +1,11 @@
+{
+  "name": "voice-focus",
+  "category": "media",
+  "tags": ["voice", "focus", "speech", "microphone", "bubble", "chat"],
+  "svg": "<path class=\"d p1\" d=\"M4 3H20V16H10L6 20V16H4z\"/><rect class=\"d p2\" x=\"10.5\" y=\"7.5\" width=\"3\" height=\"4\" rx=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"9.5\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1000 }
+  ]
+}

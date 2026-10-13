@@ -1,0 +1,11 @@
+{
+  "name": "wind-face",
+  "category": "emoji",
+  "tags": ["wind", "breeze", "gust", "air", "blow", "weather"],
+  "svg": "<path class=\"p1\" d=\"M2.5 8.5 H14 A2.5 2.5 0 1 0 11.5 6\"/><path class=\"p2\" d=\"M2.5 13 H18 A2.5 2.5 0 0 0 15.5 15.5\"/><path class=\"p3\" d=\"M2.5 18 H11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "whooshIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "whooshIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

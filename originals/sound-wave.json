@@ -1,0 +1,10 @@
+{
+  "name": "sound-wave",
+  "category": "science",
+  "tags": ["sound", "wave", "sine", "audio", "amplitude"],
+  "svg": "<path class=\"p1\" d=\"M2 12C4 6 5.5 6 7 12S10 18 12 12S15 6 17 12S20 15 22 12\"/><line class=\"p2\" x1=\"2\" y1=\"9\" x2=\"2\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "book-open-reading",
+  "category": "science",
+  "tags": ["book", "open", "reading", "study", "pages", "learn"],
+  "svg": "<path class=\"p1\" d=\"M12 7C9.5 5 6.5 4.5 3 5V19C6.5 18.5 9.5 19 12 21\"/><path class=\"p2\" d=\"M12 7C14.5 5 17.5 4.5 21 5V19C17.5 18.5 14.5 19 12 21\"/><path class=\"p3\" d=\"M12 7V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "flip", "dur": 600, "delay": 1100 }
+  ]
+}

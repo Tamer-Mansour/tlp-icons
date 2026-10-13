@@ -1,0 +1,11 @@
+{
+  "name": "game-room",
+  "category": "buildings",
+  "tags": ["game", "controller", "gamepad", "dice", "play", "console"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 H19 Q22 9 21 14 L20 18 Q19 19 17 18 L15 16 H9 L7 18 Q5 19 4 18 L3 14 Q2 9 5 9 Z\"/><path class=\"p2\" d=\"M7 11 V13 M6 12 H8\"/><rect class=\"p3\" x=\"14\" y=\"11\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "15.5px 12.5px" }
+  ]
+}

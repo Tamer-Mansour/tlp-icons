@@ -1,0 +1,10 @@
+{
+  "name": "vowel-letters",
+  "category": "text",
+  "tags": ["vowel", "letters", "boxes", "alphabet", "text"],
+  "svg": "<path class=\"d p1\" d=\"M2 4H7V9H2ZM9 4H14V9H9ZM16 4H21V9H16ZM2 15H7V20H2ZM9 15H14V20H9Z\"/><path class=\"p2\" d=\"M4 6.5H5M11 6.5H12M18 6.5H19M4 17.5H5M11 17.5H12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

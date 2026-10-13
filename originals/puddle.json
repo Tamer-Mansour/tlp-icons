@@ -1,0 +1,10 @@
+{
+  "name": "puddle",
+  "category": "weather",
+  "tags": ["puddle", "water", "pool", "rain", "ripple", "wet"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M8 19h3M13 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 600 }
+  ]
+}

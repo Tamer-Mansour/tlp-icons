@@ -1,0 +1,11 @@
+{
+  "name": "server-check",
+  "category": "notifications",
+  "tags": ["server", "check", "rack", "healthy", "status"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"6.5\" rx=\"1.5\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"18\" height=\"6\" rx=\"1.5\"/><circle class=\"f p2\" cx=\"7\" cy=\"6.25\" r=\"1\"/><circle class=\"f p2\" cx=\"7\" cy=\"16\" r=\"1\"/><polyline class=\"p3\" points=\"13.5 16 15.5 18 19 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

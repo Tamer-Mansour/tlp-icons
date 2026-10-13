@@ -1,0 +1,11 @@
+{
+  "name": "onboarding-tour",
+  "category": "interface",
+  "tags": ["onboarding", "tour", "walkthrough", "flag", "intro", "guide"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"19\" r=\"1.2\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M6 18l5-5\"/><path class=\"p3\" d=\"M15 3v17M15 3h6l-1.5 3 1.5 3h-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

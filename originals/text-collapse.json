@@ -1,0 +1,10 @@
+{
+  "name": "text-collapse",
+  "category": "text",
+  "tags": ["collapse", "compress", "text", "arrows", "pinch", "condense"],
+  "svg": "<path class=\"p1\" d=\"M5 10H19M5 14H19\"/><path class=\"p2\" d=\"M12 2.5V7.5M9.5 5L12 7.5L14.5 5M12 21.5V16.5M9.5 19L12 16.5L14.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 800 }
+  ]
+}

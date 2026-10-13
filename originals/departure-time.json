@@ -1,0 +1,11 @@
+{
+  "name": "departure-time",
+  "category": "time",
+  "tags": ["departure", "leave", "clock", "exit", "depart", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"7\"/><path class=\"p3\" d=\"M10 8v4l2 2\"/><path class=\"p2\" d=\"M19 12h3M19.5 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

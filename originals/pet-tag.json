@@ -1,0 +1,11 @@
+{
+  "name": "pet-tag",
+  "category": "nature",
+  "tags": ["pet tag", "id tag", "collar", "dog tag", "name tag", "pet"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"4\" r=\"2\"/><line class=\"p3\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

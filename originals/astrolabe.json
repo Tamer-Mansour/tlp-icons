@@ -1,0 +1,12 @@
+{
+  "name": "astrolabe",
+  "category": "time",
+  "tags": ["astronomy", "instrument", "stars", "ancient", "navigation"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 3V7M12 17V21M3 12H7M17 12H21\"/><circle class=\"f p4\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 12px" },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1300 }
+  ]
+}

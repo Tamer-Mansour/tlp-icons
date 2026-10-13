@@ -1,0 +1,13 @@
+{
+  "name": "weighted-average",
+  "category": "math",
+  "tags": ["weighted average", "balance", "scale", "weights", "statistics"],
+  "svg": "<path class=\"p1\" d=\"M12 4V20\"/><path class=\"p2\" d=\"M4 7H20\"/><path class=\"p3\" d=\"M8 21H16\"/><path class=\"d p4\" d=\"M18 10.5L20 7L22 10.5Z\"/><path class=\"d p5\" d=\"M2 12.5L4 7L6 12.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "fillIn", "dur": 400, "delay": 700 },
+    { "part": "p5", "anim": "sink", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bog",
+  "category": "nature",
+  "tags": ["bog", "swamp", "marsh", "water", "wetland", "tussock"],
+  "svg": "<path class=\"p1\" d=\"M2 16q2.5-2 5 0t5 0t5 0t5 0\"/><path class=\"p2\" d=\"M6 12v-3M4.5 12l.5-2M7.5 12l-.5-2M16 12v-3M14.5 12l.5-2M17.5 12l-.5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 700, "delay": 900 }
+  ]
+}

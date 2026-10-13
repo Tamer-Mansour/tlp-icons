@@ -1,0 +1,11 @@
+{
+  "name": "graph-edges",
+  "category": "math",
+  "tags": ["graph", "edge", "nodes", "network", "connection"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"3\"/><circle class=\"d p2\" cx=\"19\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M8.5 12h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

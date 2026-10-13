@@ -1,0 +1,10 @@
+{
+  "name": "paper-plane",
+  "category": "interface",
+  "tags": ["paper", "plane", "send", "message", "airplane", "fly"],
+  "svg": "<path class=\"p1\" d=\"M21 3 3 10.5l7.5 3L13 21z\"/><path class=\"p2\" d=\"M10.5 13.5 21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 900, "delay": 900 }
+  ]
+}

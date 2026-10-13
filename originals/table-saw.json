@@ -1,0 +1,11 @@
+{
+  "name": "table-saw",
+  "category": "tools",
+  "tags": ["table", "saw", "blade", "workshop", "rip", "cut"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"18\" height=\"5\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M4 11.5h5M15 11.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

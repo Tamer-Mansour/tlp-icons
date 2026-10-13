@@ -1,0 +1,11 @@
+{
+  "name": "seasons",
+  "category": "time",
+  "tags": ["seasons", "quarter", "year", "circle", "cycle", "rotation"],
+  "svg": "<path class=\"p1\" d=\"M12 4a8 8 0 0 1 8 8M12 20a8 8 0 0 1-8-8\"/><path class=\"p2\" d=\"M4 12a8 8 0 0 1 8-8M20 12a8 8 0 0 1-8 8\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

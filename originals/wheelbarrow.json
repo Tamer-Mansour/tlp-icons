@@ -1,0 +1,11 @@
+{
+  "name": "wheelbarrow",
+  "category": "home",
+  "tags": ["wheelbarrow", "garden", "tray", "wheel", "yard", "transport"],
+  "svg": "<path class=\"d p1\" d=\"M5 9H19L16 15H8Z\"/><path class=\"p2\" d=\"M5 9L2.5 5.5H4\"/><circle class=\"p3\" cx=\"12\" cy=\"19.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "12px 19.5px" }
+  ]
+}

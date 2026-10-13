@@ -1,0 +1,11 @@
+{
+  "name": "sink",
+  "category": "home",
+  "tags": ["sink", "basin", "kitchen", "faucet", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 13h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M12 12V4h3v2\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1100 }
+  ]
+}

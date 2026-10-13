@@ -1,0 +1,11 @@
+{
+  "name": "stalactite-cave",
+  "category": "science",
+  "tags": ["stalactite", "cave", "rock", "geology", "cavern", "limestone"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"4\" x2=\"22\" y2=\"4\"/><path class=\"d p2\" d=\"M5 4 L7 14 L9 4 Z M11 4 L12.5 9 L14 4 Z M16 4 L18 14 L20 4 Z\"/><path class=\"p3\" d=\"M7 21 L9 17 L11 21 M14 21 L15.5 18 L17 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 1100 }
+  ]
+}

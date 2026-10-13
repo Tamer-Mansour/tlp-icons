@@ -1,0 +1,10 @@
+{
+  "name": "chat-typing-dots",
+  "category": "interface",
+  "tags": ["typing", "chat", "dots", "message", "bubble", "writing"],
+  "svg": "<path class=\"p1\" d=\"M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H9l-4 3v-3H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z\"/><circle class=\"f p2\" cx=\"8\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shot-clock",
+  "category": "sport",
+  "tags": ["shot", "clock", "basketball", "timer", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M10.5 12l1.5-1v6.5\"/><path class=\"p3\" d=\"M5 4.5q7-4 14 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

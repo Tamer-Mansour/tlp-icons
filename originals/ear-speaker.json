@@ -1,0 +1,10 @@
+{
+  "name": "ear-speaker",
+  "category": "communication",
+  "tags": ["ear", "speaker", "listen", "audio", "hearing"],
+  "svg": "<path class=\"d p1\" d=\"M2 9.5h2.5l3-3v11l-3-3H2z\"/><path class=\"p2\" d=\"M10 11a5 5 0 0 1 10 0c0 2.5-2 3-2 5.5a3 3 0 0 1-6 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cream-pitcher",
+  "category": "food",
+  "tags": ["cream", "pitcher", "milk jug", "dairy", "coffee"],
+  "svg": "<path class=\"d p1\" d=\"M6 10h9v9a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M15 12h2.5a2 2 0 0 1 0 4H15\"/><path class=\"p3\" d=\"M6 11L3 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pour", "dur": 900, "delay": 1000 }
+  ]
+}

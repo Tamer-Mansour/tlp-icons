@@ -1,0 +1,10 @@
+{
+  "name": "pseudonym-mask",
+  "category": "security",
+  "tags": ["pseudonym", "mask", "alias", "person", "anonymous", "identity"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M4 21c0-4 2.7-6.5 6-6.5s6 2.5 6 6.5\"/><path class=\"d p2\" d=\"M13.5 6.5h7v3a3.5 3.5 0 0 1-7 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

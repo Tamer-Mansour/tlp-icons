@@ -1,0 +1,11 @@
+{
+  "name": "equestrian-center",
+  "category": "buildings",
+  "tags": ["barn", "horse", "equestrian", "stable", "riding", "farm"],
+  "svg": "<path class=\"p1\" d=\"M2.5 11 L12 3 L21.5 11\"/><path class=\"p2\" d=\"M5 11 V21 H19 V11\"/><path class=\"d p3\" d=\"M10 19 V14 L12 11 L14 13.5 V19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 1200, "origin": "12px 19px" }
+  ]
+}

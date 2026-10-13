@@ -1,0 +1,11 @@
+{
+  "name": "bread-oven",
+  "category": "home",
+  "tags": ["bread", "oven", "dome", "bakery", "fire"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V12a9 9 0 0 1 18 0v9z\"/><path class=\"p2\" d=\"M8 21v-5a4 4 0 0 1 8 0v5\"/><path class=\"p3\" d=\"M12 20.5c-1.5-1-1.5-3-0-4.5c1.5 1.5 1.5 3.5 0 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

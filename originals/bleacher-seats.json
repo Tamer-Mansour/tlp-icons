@@ -1,0 +1,10 @@
+{
+  "name": "bleacher-seats",
+  "category": "sport",
+  "tags": ["bleachers", "seats", "stands", "stadium", "fans", "game"],
+  "svg": "<path class=\"d p1\" d=\"M3 20V14h5V10h4V6h4v4h5v10z\"/><path class=\"p2\" d=\"M3 17h18M3 14h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

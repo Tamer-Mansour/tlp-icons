@@ -1,0 +1,11 @@
+{
+  "name": "word-wrap",
+  "category": "text",
+  "tags": ["wrap", "text", "line", "break", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18\"/><path class=\"p2\" d=\"M3 12h14a3 3 0 0 1 0 6h-6\"/><polyline class=\"p3\" points=\"14 15 11 18 14 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1400 }
+  ]
+}

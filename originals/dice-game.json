@@ -1,0 +1,11 @@
+{
+  "name": "dice-game",
+  "category": "emoji",
+  "tags": ["dice", "die", "game", "random", "luck", "chance"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"8\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"16\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"8\" cy=\"16\" r=\"1.2\"/><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

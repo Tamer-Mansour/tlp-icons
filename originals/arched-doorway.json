@@ -1,0 +1,10 @@
+{
+  "name": "arched-doorway",
+  "category": "buildings",
+  "tags": ["arched", "doorway", "arch", "door", "entrance", "portal"],
+  "svg": "<path class=\"p1\" d=\"M4 21V11a8 8 0 0 1 16 0v10\"/><path class=\"p2\" d=\"M10 21v-6a2 2 0 0 1 4 0v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "10px 21px" }
+  ]
+}

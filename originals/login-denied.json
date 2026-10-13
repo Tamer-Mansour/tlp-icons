@@ -1,0 +1,11 @@
+{
+  "name": "login-denied",
+  "category": "security",
+  "tags": ["login", "denied", "door", "blocked", "access", "entry"],
+  "svg": "<path class=\"p1\" d=\"M13 4H20V20H13\"/><path class=\"p2\" d=\"M3 12H10M7 9L10 12L7 15\"/><circle class=\"p3\" cx=\"6\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M4.5 7.5L7.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1200 }
+  ]
+}

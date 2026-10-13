@@ -1,0 +1,11 @@
+{
+  "name": "teddy-bear",
+  "category": "emoji",
+  "tags": ["teddy", "bear", "toy", "plush", "cuddly", "soft"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/><circle class=\"p3\" cx=\"6.5\" cy=\"4.5\" r=\"2\"/><circle class=\"p3\" cx=\"17.5\" cy=\"4.5\" r=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"18.5\" rx=\"4.5\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

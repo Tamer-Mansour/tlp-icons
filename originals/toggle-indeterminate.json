@@ -1,0 +1,10 @@
+{
+  "name": "toggle-indeterminate",
+  "category": "interface",
+  "tags": ["toggle", "indeterminate", "switch", "partial", "state", "middle"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\" rx=\"4.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 700, "delay": 800 }
+  ]
+}

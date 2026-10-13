@@ -1,0 +1,11 @@
+{
+  "name": "user-book",
+  "category": "people",
+  "tags": ["user", "book", "reader", "study", "learn", "person", "library"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"8.5\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1\"/><path class=\"d p2\" d=\"M14.5 6.5 18 8.5l3.5-2v12.5l-3.5 2-3.5-2z\"/><path class=\"p3\" d=\"M18 8.5v12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

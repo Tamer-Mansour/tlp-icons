@@ -1,0 +1,10 @@
+{
+  "name": "postbox-mail",
+  "category": "interface",
+  "tags": ["mailbox", "postbox", "mail", "flag", "letters", "post"],
+  "svg": "<path class=\"p1\" d=\"M3 20V11a7 7 0 0 1 14 0v9z\"/><path class=\"p1\" d=\"M6 12h8\"/><path class=\"p2\" d=\"M19 20V4M19 4h3l-1.5 2 1.5 2h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 700, "delay": 900 }
+  ]
+}

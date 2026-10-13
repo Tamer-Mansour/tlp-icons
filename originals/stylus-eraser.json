@@ -1,0 +1,11 @@
+{
+  "name": "stylus-eraser",
+  "category": "interface",
+  "tags": ["stylus", "eraser", "pen", "tablet", "draw", "edit"],
+  "svg": "<g transform=\"rotate(45 12 12)\"><rect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"17\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 7h6\"/><path class=\"p3\" d=\"M9 19l3 3 3-3\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

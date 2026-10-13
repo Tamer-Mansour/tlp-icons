@@ -1,0 +1,11 @@
+{
+  "name": "spare-tire",
+  "category": "vehicles",
+  "tags": ["spare", "tire", "wheel", "hub", "car"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

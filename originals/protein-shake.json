@@ -1,0 +1,11 @@
+{
+  "name": "protein-shake",
+  "category": "food",
+  "tags": ["protein", "shake", "gym", "fitness", "drink", "cup"],
+  "svg": "<path class=\"d p1\" d=\"M7 8h10l-1 13H8z\"/><rect class=\"p2\" x=\"6\" y=\"4\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 13.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

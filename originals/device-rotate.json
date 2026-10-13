@@ -1,0 +1,10 @@
+{
+  "name": "device-rotate",
+  "category": "development",
+  "tags": ["rotate", "device", "phone", "orientation", "screen", "mobile"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"5.5\" width=\"7\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 12A10 10 0 0 1 12 2M8.5 3L12 2l.5 3.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 900, "delay": 800 }
+  ]
+}

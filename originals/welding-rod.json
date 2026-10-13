@@ -1,0 +1,11 @@
+{
+  "name": "welding-rod",
+  "category": "tools",
+  "tags": ["welding", "rod", "electrode", "metal", "glow", "weld"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"20\" x2=\"14\" y2=\"10\"/><circle class=\"f p2\" cx=\"16\" cy=\"8\" r=\"1.2\"/><path class=\"p3\" d=\"M17 3V5M20 5L19 6.5M21 9H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

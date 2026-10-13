@@ -1,0 +1,11 @@
+{
+  "name": "raclette",
+  "category": "food",
+  "tags": ["raclette", "cheese", "melt", "half", "wheel", "swiss", "pan"],
+  "svg": "<path class=\"d p1\" d=\"M3 14a9 9 0 0 1 18 0z\"/><line class=\"p2\" x1=\"4\" y1=\"18\" x2=\"18\" y2=\"18\"/><line class=\"p3\" x1=\"18\" y1=\"18\" x2=\"21\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

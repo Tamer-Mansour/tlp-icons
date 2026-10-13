@@ -1,0 +1,11 @@
+{
+  "name": "replay-clip",
+  "category": "media",
+  "tags": ["replay", "clip", "rewind", "frame", "video", "restart"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M3 12A9 9 0 1 1 6 18.7\"/><path class=\"p3\" d=\"M3 8V12H7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 1100 }
+  ]
+}

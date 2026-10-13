@@ -1,0 +1,11 @@
+{
+  "name": "emoji-reaction-bubble",
+  "category": "communication",
+  "tags": ["reaction", "emoji", "like", "bubble", "react", "smile"],
+  "svg": "<path class=\"d p1\" d=\"M3 4H14A2 2 0 0 1 16 6V12A2 2 0 0 1 14 14H9L6 16.5V14H3A2 2 0 0 1 1 12V6A2 2 0 0 1 3 4Z\"/><path class=\"p2\" d=\"M19 14V21M15.5 17.5H22.5\"/><path class=\"p3\" d=\"M5.5 8.5Q8.5 11 11.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

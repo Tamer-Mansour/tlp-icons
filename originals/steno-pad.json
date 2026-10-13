@@ -1,0 +1,11 @@
+{
+  "name": "steno-pad",
+  "category": "files",
+  "tags": ["steno", "pad", "shorthand", "notes", "spiral", "stenography"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 2v4M12 2v4M16 2v4\"/><path class=\"p3\" d=\"M8 11l5-2M8 16l5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

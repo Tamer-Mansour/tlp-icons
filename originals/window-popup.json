@@ -1,0 +1,11 @@
+{
+  "name": "window-popup",
+  "category": "layout",
+  "tags": ["popup", "window", "float", "detach", "external", "pop"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"12\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"14\" y=\"2\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M17 13L20 10M18 10H20V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1200 }
+  ]
+}

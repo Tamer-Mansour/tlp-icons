@@ -1,0 +1,11 @@
+{
+  "name": "cough",
+  "category": "people",
+  "tags": ["cough", "sick", "illness", "face", "mouth", "throat"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"11\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"15\" r=\"1.5\"/><path class=\"p3\" d=\"M20 12.5h2.5M19 16.5l2 2M19 8.5l2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

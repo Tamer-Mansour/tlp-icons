@@ -1,0 +1,11 @@
+{
+  "name": "motel",
+  "category": "buildings",
+  "tags": ["motel", "rooms", "roadside", "sign", "lodging", "doors"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"11\" width=\"19\" height=\"10\"/><path class=\"p2\" d=\"M6 21v-4h2.5v4M11 21v-4h2.5v4M16 21v-4h2.5v4\"/><path class=\"p3\" d=\"M14.5 5.5h7v3h-7zM18 8.5V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "18px 8.5px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "click-track",
+  "category": "media",
+  "tags": ["click", "track", "metronome", "beat", "ticks", "timing"],
+  "svg": "<path class=\"p1\" d=\"M3 17h18\"/><path class=\"p2\" d=\"M6 13v4M10 11v6M14 13v4M18 11v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 900, "delay": 800, "origin": "bottom" }
+  ]
+}

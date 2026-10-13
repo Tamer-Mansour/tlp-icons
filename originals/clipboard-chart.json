@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-chart",
+  "category": "charts",
+  "tags": ["clipboard", "report", "chart", "summary", "stats", "bars"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 18v-4M12 18v-7M16 18v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

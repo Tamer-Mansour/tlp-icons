@@ -1,0 +1,11 @@
+{
+  "name": "window-layers",
+  "category": "layout",
+  "tags": ["layers", "windows", "stack", "cascade", "z-order", "pile"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"2\" width=\"14\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"5\" y=\"8\" width=\"14\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"14\" width=\"14\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

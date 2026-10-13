@@ -1,0 +1,10 @@
+{
+  "name": "sort-toggle",
+  "category": "interface",
+  "tags": ["sort", "order", "arrows", "ascending", "descending", "toggle"],
+  "svg": "<path class=\"p1\" d=\"M8 20V4M4 8l4-4 4 4\"/><path class=\"p2\" d=\"M16 4v16M12 16l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 700, "delay": 500 }
+  ]
+}

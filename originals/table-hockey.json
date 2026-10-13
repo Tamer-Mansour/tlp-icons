@@ -1,0 +1,11 @@
+{
+  "name": "table-hockey",
+  "category": "sport",
+  "tags": ["table", "hockey", "puck", "rods", "foosball", "game"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M7 8V16M15 8V16\"/><circle class=\"d p3\" cx=\"11\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

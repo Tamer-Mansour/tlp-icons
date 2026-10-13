@@ -1,0 +1,11 @@
+{
+  "name": "skeleton-bones",
+  "category": "science",
+  "tags": ["skeleton", "bones", "skull", "anatomy", "body"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M12 9 V15 M7 10.5 H17\"/><path class=\"p3\" d=\"M12 15 L8 21 M12 15 L16 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "rattle", "dur": 800, "delay": 900 }
+  ]
+}

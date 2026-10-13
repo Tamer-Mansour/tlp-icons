@@ -1,0 +1,11 @@
+{
+  "name": "darts",
+  "category": "sport",
+  "tags": ["darts", "throw", "game", "target", "sport"],
+  "svg": "<path class=\"p1\" d=\"M4 20L15 9\"/><path class=\"d p2\" d=\"M4 20L4 14L10 20Z\"/><path class=\"p3\" d=\"M15 9L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

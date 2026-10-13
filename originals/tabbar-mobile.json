@@ -1,0 +1,10 @@
+{
+  "name": "tabbar-mobile",
+  "category": "layout",
+  "tags": ["tabbar", "mobile", "phone", "bottom", "navigation"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"3\"/><circle class=\"p2\" cx=\"8.5\" cy=\"17\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"17\" r=\"1.2\"/><circle class=\"p2\" cx=\"15.5\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 600 }
+  ]
+}

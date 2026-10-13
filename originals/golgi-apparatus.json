@@ -1,0 +1,12 @@
+{
+  "name": "golgi-apparatus",
+  "category": "science",
+  "tags": ["golgi", "organelle", "cell", "sacs", "biology", "stacked"],
+  "svg": "<path class=\"p1\" d=\"M4 8q8-3 16 0\"/><path class=\"p2\" d=\"M5 12q7-3 14 0\"/><path class=\"p3\" d=\"M6 16q6-3 12 0\"/><circle class=\"f p4\" cx=\"18\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

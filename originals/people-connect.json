@@ -1,0 +1,11 @@
+{
+  "name": "people-connect",
+  "category": "people",
+  "tags": ["people", "connect", "link", "join", "partner", "together"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 21a4 4 0 0 1 8 0\"/><circle class=\"p2\" cx=\"18\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M14 21a4 4 0 0 1 8 0\"/><path class=\"p3\" d=\"M10 9h4M10 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 900 }
+  ]
+}

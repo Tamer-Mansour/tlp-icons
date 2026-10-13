@@ -1,0 +1,11 @@
+{
+  "name": "spine-label",
+  "category": "files",
+  "tags": ["spine", "label", "book", "shelf", "title"],
+  "svg": "<rect class=\"p1 d\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"1\"/><line class=\"p2\" x1=\"7\" y1=\"7\" x2=\"17\" y2=\"7\"/><rect class=\"p3\" x=\"9\" y=\"10\" width=\"6\" height=\"5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

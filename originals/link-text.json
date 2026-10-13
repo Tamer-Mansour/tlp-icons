@@ -1,0 +1,11 @@
+{
+  "name": "link-text",
+  "category": "text",
+  "tags": ["link", "chain", "text", "url", "attach", "connect"],
+  "svg": "<path class=\"p1\" d=\"M3 8h6M3 12h4M3 16h6\"/><rect class=\"d p2\" x=\"12\" y=\"8.5\" width=\"9\" height=\"7\" rx=\"3.5\"/><path class=\"p3\" d=\"M15 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 1000 }
+  ]
+}

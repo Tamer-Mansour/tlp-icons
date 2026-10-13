@@ -1,0 +1,10 @@
+{
+  "name": "chat-image",
+  "category": "communication",
+  "tags": ["speech bubble", "image", "photo", "picture", "chat", "attachment"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18v13h-9l-5 4v-4H3z\"/><rect class=\"p2\" x=\"7\" y=\"6.5\" width=\"10\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M7 11.5l2.5-2.5 2 2 1.5-1.5 2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 700 }
+  ]
+}

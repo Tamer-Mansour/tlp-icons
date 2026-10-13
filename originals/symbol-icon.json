@@ -1,0 +1,11 @@
+{
+  "name": "symbol-icon",
+  "category": "interface",
+  "tags": ["symbol", "link", "component", "diamonds", "design", "reference"],
+  "svg": "<path class=\"d p1\" d=\"M7 2L12 7L7 12L2 7Z\"/><path class=\"d p2\" d=\"M17 12L22 17L17 22L12 17Z\"/><line class=\"p3\" x1=\"9.5\" y1=\"9.5\" x2=\"14.5\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

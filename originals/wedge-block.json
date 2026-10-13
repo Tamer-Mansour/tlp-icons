@@ -1,0 +1,10 @@
+{
+  "name": "wedge-block",
+  "category": "shapes",
+  "tags": ["wedge", "block", "slope", "ramp", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M3 9l18 5v5H3z\"/><path class=\"p2\" d=\"M6 12.5l12 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

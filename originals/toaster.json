@@ -1,0 +1,11 @@
+{
+  "name": "toaster",
+  "category": "food",
+  "tags": ["toaster", "bread", "toast", "kitchen", "food"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M8 8 V4 H10.5 V8 M13.5 8 V4 H16 V8\"/><line class=\"p3\" x1=\"9\" y1=\"14\" x2=\"15\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

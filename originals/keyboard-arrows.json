@@ -1,0 +1,11 @@
+{
+  "name": "keyboard-arrows",
+  "category": "interface",
+  "tags": ["keyboard", "arrows", "navigation", "keys", "directional", "cursor"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M12 8.5v5M9.8 10.7L12 8.5l2.2 2.2\"/><path class=\"d p3\" d=\"M7.5 15.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1400 }
+  ]
+}

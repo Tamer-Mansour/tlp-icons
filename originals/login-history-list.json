@@ -1,0 +1,10 @@
+{
+  "name": "login-history-list",
+  "category": "people",
+  "tags": ["login", "history", "list", "log", "time"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"6\" r=\"1.5\"/><circle class=\"p1\" cx=\"4.5\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"4.5\" cy=\"18\" r=\"1.5\"/><line class=\"p2\" x1=\"9.5\" y1=\"6\" x2=\"21\" y2=\"6\"/><line class=\"p2\" x1=\"9.5\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p2\" x1=\"9.5\" y1=\"18\" x2=\"16\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 400 }
+  ]
+}

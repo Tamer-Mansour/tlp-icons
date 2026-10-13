@@ -1,0 +1,10 @@
+{
+  "name": "baseline-grid",
+  "category": "text",
+  "tags": ["baseline", "grid", "guide", "typography", "lines", "letter"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18M3 10h18M3 19h18\"/><path class=\"p2\" d=\"M5 19l3-7 3 7M6 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

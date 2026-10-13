@@ -1,0 +1,11 @@
+{
+  "name": "latency",
+  "category": "development",
+  "tags": ["latency", "clock", "delay", "response", "time", "lag"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V6.5\"/><path class=\"p3\" d=\"M12 12l3.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

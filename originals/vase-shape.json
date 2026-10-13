@@ -1,0 +1,10 @@
+{
+  "name": "vase-shape",
+  "category": "shapes",
+  "tags": ["vase", "pottery", "jar", "urn", "ceramic", "container"],
+  "svg": "<path class=\"d p1\" d=\"M9 3H15Q15 7 16 9Q20 11 20 15Q20 21 16 21H8Q4 21 4 15Q4 11 8 9Q9 7 9 3Z\"/><line class=\"p2\" x1=\"7.5\" y1=\"14\" x2=\"7.5\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

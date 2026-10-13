@@ -1,0 +1,10 @@
+{
+  "name": "hinge",
+  "category": "home",
+  "tags": ["hinge", "door", "leaf", "pin", "fitting"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

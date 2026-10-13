@@ -1,0 +1,11 @@
+{
+  "name": "pin-entry",
+  "category": "security",
+  "tags": ["security", "pin", "code", "password", "entry", "lock"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><circle class=\"f p2\" cx=\"5.5\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"12.5\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"12\" r=\"1\"/><line class=\"p3\" x1=\"19.5\" y1=\"9.5\" x2=\"19.5\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

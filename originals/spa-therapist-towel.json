@@ -1,0 +1,11 @@
+{
+  "name": "spa-therapist-towel",
+  "category": "people",
+  "tags": ["spa", "therapist", "towel", "stone", "wellness", "massage"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"12\" width=\"16\" height=\"8\" rx=\"1\"/><line class=\"p2\" x1=\"4\" y1=\"16\" x2=\"20\" y2=\"16\"/><circle class=\"d p3\" cx=\"12\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1100, "delay": 1000 }
+  ]
+}

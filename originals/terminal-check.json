@@ -1,0 +1,11 @@
+{
+  "name": "terminal-check",
+  "category": "notifications",
+  "tags": ["terminal", "console", "check", "prompt", "done", "shell"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 9l3 3-3 3\"/><path class=\"p3\" d=\"M13 15l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

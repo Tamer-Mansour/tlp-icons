@@ -1,0 +1,11 @@
+{
+  "name": "beer-tap",
+  "category": "food",
+  "tags": ["beer", "tap", "draft", "pour", "bar"],
+  "svg": "<path class=\"p1 d\" d=\"M10 3 H14 V9 H10 Z\"/><path class=\"p2\" d=\"M12 9 V13 H16 V17\"/><circle class=\"f p3\" cx=\"16\" cy=\"19.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 800 }
+  ]
+}

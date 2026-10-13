@@ -1,0 +1,10 @@
+{
+  "name": "envelope-send",
+  "category": "interface",
+  "tags": ["send", "envelope", "mail", "outgoing", "submit", "deliver"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"10\" width=\"12\" height=\"10\" rx=\"1.5\"/><path class=\"p1\" d=\"M2.5 11.5l5.5 4 5.5-4\"/><path class=\"p2\" d=\"M16.5 7.5L21 3M15.5 3H21v5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

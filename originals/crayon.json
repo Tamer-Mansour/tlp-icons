@@ -1,0 +1,10 @@
+{
+  "name": "crayon",
+  "category": "interface",
+  "tags": ["crayon", "draw", "color", "wax", "pencil", "art"],
+  "svg": "<path class=\"d p1\" d=\"M9 3H15V15L12 19L9 15Z\"/><line class=\"p2\" x1=\"9\" y1=\"8\" x2=\"15\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

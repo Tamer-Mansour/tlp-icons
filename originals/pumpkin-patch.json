@@ -1,0 +1,12 @@
+{
+  "name": "pumpkin-patch",
+  "category": "nature",
+  "tags": ["pumpkin", "patch", "harvest", "autumn", "squash"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"14\" rx=\"3.8\" ry=\"3.8\"/><ellipse class=\"d p2\" cx=\"16.5\" cy=\"14\" rx=\"3.8\" ry=\"3.8\"/><path class=\"p3\" d=\"M7.5 10.2 Q8 7.5 10.5 7\"/><line class=\"p4\" x1=\"2.5\" y1=\"20.5\" x2=\"21.5\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 200 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "7.5px 10px" }
+  ]
+}

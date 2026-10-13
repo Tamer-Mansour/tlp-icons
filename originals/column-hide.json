@@ -1,0 +1,10 @@
+{
+  "name": "column-hide",
+  "category": "layout",
+  "tags": ["column", "hide", "table", "eye", "visibility", "conceal"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M9 3V21\"/><path class=\"p2\" d=\"M3 21L21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

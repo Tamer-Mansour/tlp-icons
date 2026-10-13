@@ -1,0 +1,11 @@
+{
+  "name": "reading-glasses",
+  "category": "science",
+  "tags": ["glasses", "reading", "lenses", "eyes", "vision", "spectacles"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"12\" r=\"3.5\"/><circle class=\"p2\" cx=\"17.5\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M10 11.5c1.5-1 2.5-1 4 0M3 11L2 8M21 11L22 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 1000, "origin": "12px 11px" }
+  ]
+}

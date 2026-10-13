@@ -1,0 +1,10 @@
+{
+  "name": "moon-alert",
+  "category": "notifications",
+  "tags": ["moon", "night", "crescent", "alert", "warning", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M20 14a8 8 0 1 1-10-10 6.5 6.5 0 0 0 10 10z\"/><line class=\"p2\" x1=\"21\" y1=\"3\" x2=\"21\" y2=\"7\"/><circle class=\"f p2\" cx=\"21\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

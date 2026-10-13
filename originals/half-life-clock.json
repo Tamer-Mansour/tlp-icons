@@ -1,0 +1,11 @@
+{
+  "name": "half-life-clock",
+  "category": "science",
+  "tags": ["half", "clock", "decay", "timer", "radioactive"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3A9 9 0 0 1 12 21Z\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 700, "origin": "12px 12px" }
+  ]
+}

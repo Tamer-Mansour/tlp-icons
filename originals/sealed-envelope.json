@@ -1,0 +1,11 @@
+{
+  "name": "sealed-envelope",
+  "category": "security",
+  "tags": ["sealed", "envelope", "seal", "private", "secure"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h18v12H3z\"/><path class=\"p2\" d=\"M3 6l9 7 9-7\"/><circle class=\"d p3\" cx=\"12\" cy=\"13\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

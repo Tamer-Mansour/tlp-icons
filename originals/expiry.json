@@ -1,0 +1,11 @@
+{
+  "name": "expiry",
+  "category": "time",
+  "tags": ["expiry", "expire", "tag", "clock", "deadline", "date"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h8l10 10-8 8L3 11z\"/><circle class=\"f p2\" cx=\"7\" cy=\"7\" r=\"1\"/><path class=\"p3\" d=\"M11 15v-3.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "11px 15px" }
+  ]
+}

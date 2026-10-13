@@ -1,0 +1,11 @@
+{
+  "name": "skeleton-key",
+  "category": "security",
+  "tags": ["skeleton", "key", "pick", "unlock", "lock", "access"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M11 12h10\"/><path class=\"p3\" d=\"M17 12v3M20.5 12v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 }
+  ]
+}

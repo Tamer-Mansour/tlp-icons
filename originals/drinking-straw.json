@@ -1,0 +1,11 @@
+{
+  "name": "drinking-straw",
+  "category": "food",
+  "tags": ["straw", "drink", "cup", "bendy", "sip", "beverage"],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12l-1.5 11.5h-9z\"/><path class=\"p2\" d=\"M11 9V4h6.5\"/><path class=\"p3\" d=\"M8 13h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1100, "origin": "11px 9px" }
+  ]
+}

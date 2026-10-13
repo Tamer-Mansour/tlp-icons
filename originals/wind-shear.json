@@ -1,0 +1,10 @@
+{
+  "name": "wind-shear",
+  "category": "weather",
+  "tags": ["wind", "shear", "opposing", "arrows", "aviation", "storm"],
+  "svg": "<path class=\"p1\" d=\"M4 8h12M12 5l4 3-4 3\"/><path class=\"p2\" d=\"M20 16H8M12 13l-4 3 4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "identity-verified",
+  "category": "security",
+  "tags": ["identity", "verified", "person", "check", "badge", "profile"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"7.5\" r=\"3\"/><path class=\"p1\" d=\"M3.5 21a6.5 6.5 0 0 1 13 0\"/><circle class=\"d p3\" cx=\"19.5\" cy=\"15.5\" r=\"2.5\"/><polyline class=\"p2\" points=\"18.3 15.5 19.2 16.4 20.7 14.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

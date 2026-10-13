@@ -1,0 +1,12 @@
+{
+  "name": "typing-user",
+  "category": "people",
+  "tags": ["typing", "user", "writing", "dots", "person", "chat", "composing"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7.5\" r=\"3.5\"/><path class=\"p2\" d=\"M2.5 21a5.5 5.5 0 0 1 11 0\"/><rect class=\"d p3\" x=\"13\" y=\"10\" width=\"9\" height=\"7.5\" rx=\"2\"/><circle class=\"f p4\" cx=\"15.5\" cy=\"13.75\" r=\"1\"/><circle class=\"f p4\" cx=\"17.5\" cy=\"13.75\" r=\"1\"/><circle class=\"f p4\" cx=\"19.5\" cy=\"13.75\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "blip", "dur": 700, "delay": 1100 }
+  ]
+}

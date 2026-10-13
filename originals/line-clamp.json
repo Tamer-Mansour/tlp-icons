@@ -1,0 +1,12 @@
+{
+  "name": "line-clamp",
+  "category": "text",
+  "tags": ["clamp", "truncate", "ellipsis", "lines", "overflow", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 6h14M3 10h15\"/><path class=\"p2\" d=\"M3 14h7\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"14\" r=\"1\"/><path class=\"p4\" d=\"M21 5h-1v12h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

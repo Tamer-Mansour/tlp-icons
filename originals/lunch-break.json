@@ -1,0 +1,11 @@
+{
+  "name": "lunch-break",
+  "category": "time",
+  "tags": ["lunch", "break", "meal", "fork", "knife", "time"],
+  "svg": "<path class=\"p1\" d=\"M4 3v5a2 2 0 0 0 4 0V3M6 10v11\"/><path class=\"p2\" d=\"M12 3v18M12 3c2 1.5 3 4 3 7h-3\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"3.5\"/><path class=\"p3\" d=\"M18 15v2l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

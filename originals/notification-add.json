@@ -1,0 +1,11 @@
+{
+  "name": "notification-add",
+  "category": "interface",
+  "tags": ["notification", "bell", "alert", "add", "subscribe", "plus"],
+  "svg": "<path class=\"p1\" d=\"M6 8a6 6 0 0 1 12 0c0 6 2 7 2 7H4s2-1 2-7\"/><path class=\"p3\" d=\"M10 19a2 2 0 0 0 4 0\"/><path class=\"p2\" d=\"M19 1.5v5M16.5 4h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 900 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "social-butterfly",
+  "category": "people",
+  "tags": ["social", "butterfly", "wings", "outgoing", "friendly", "person"],
+  "svg": "<path class=\"p1\" d=\"M12 12C10 7 4 3.5 3.5 8C3 11 8 13.5 12 12Z\"/><path class=\"p1\" d=\"M12 12C14 7 20 3.5 20.5 8C21 11 16 13.5 12 12Z\"/><path class=\"p2\" d=\"M12 13C10 15 5 14.5 5.5 18.5C6 20.5 10 20 12 15\"/><path class=\"p2\" d=\"M12 13C14 15 19 14.5 18.5 18.5C18 20.5 14 20 12 15\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p1", "anim": "flutter", "dur": 1200, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cartridge",
+  "category": "devices",
+  "tags": ["cartridge", "game", "cart", "label", "retro", "memory"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"6\" width=\"8\" height=\"5\" rx=\"0.5\"/><path class=\"p3\" d=\"M9 21v-2h6v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "slideDown", "dur": 500, "delay": 1000 }
+  ]
+}

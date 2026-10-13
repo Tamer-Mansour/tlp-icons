@@ -1,0 +1,10 @@
+{
+  "name": "window-tile-horizontal",
+  "category": "layout",
+  "tags": ["window", "tile", "horizontal", "stack", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

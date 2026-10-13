@@ -1,0 +1,11 @@
+{
+  "name": "directory",
+  "category": "files",
+  "tags": ["directory", "list", "names", "index", "contacts"],
+  "svg": "<path class=\"p1 d\" d=\"M5 3h11l3 3v15H5z\"/><path class=\"p2\" d=\"M8 10h8M8 14h8M8 18h5\"/><rect class=\"p3\" x=\"17\" y=\"9\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 1000 }
+  ]
+}

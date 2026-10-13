@@ -1,0 +1,11 @@
+{
+  "name": "clutch-pedal",
+  "category": "vehicles",
+  "tags": ["clutch", "pedal", "foot", "manual", "car"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h4v18H3z\"/><path class=\"d p2\" d=\"M10 8h4v13h-4z\"/><path class=\"d p3\" d=\"M17 8h4v13h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "press", "dur": 800, "delay": 1000, "origin": "bottom" }
+  ]
+}

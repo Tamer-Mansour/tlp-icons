@@ -1,0 +1,11 @@
+{
+  "name": "beer-mug",
+  "category": "food",
+  "tags": ["beer", "mug", "drink", "foam", "pub"],
+  "svg": "<path class=\"d p1\" d=\"M5 9H15V20Q15 21 14 21H6Q5 21 5 20Z\"/><path class=\"p2\" d=\"M15 11H18Q20 11 20 13V16Q20 18 18 18H15\"/><path class=\"p3\" d=\"M5 9Q4 5 8 4.5Q11 2.5 14 4.5Q16 5 15 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "jelly", "dur": 600, "delay": 1200 }
+  ]
+}

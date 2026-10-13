@@ -1,0 +1,11 @@
+{
+  "name": "drum-kit",
+  "category": "media",
+  "tags": ["drum", "kit", "drums", "cymbal", "snare", "percussion"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"4.5\"/><ellipse class=\"d p3\" cx=\"18\" cy=\"14\" rx=\"2.5\" ry=\"1.5\"/><path class=\"p2\" d=\"M3 7Q8 2 13 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

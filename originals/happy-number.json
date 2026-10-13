@@ -1,0 +1,11 @@
+{
+  "name": "happy-number",
+  "category": "math",
+  "tags": ["happy", "number", "smile", "numerology", "bubble"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M8.5 14c1 1.8 6 1.8 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 800, "delay": 900 }
+  ]
+}

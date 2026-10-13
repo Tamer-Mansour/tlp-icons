@@ -1,0 +1,10 @@
+{
+  "name": "flower-petals",
+  "category": "science",
+  "tags": ["flower", "petals", "bloom", "plant", "nature"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"7\" r=\"2.5\"/><circle class=\"p1\" cx=\"16.76\" cy=\"10.45\" r=\"2.5\"/><circle class=\"p1\" cx=\"14.94\" cy=\"16.05\" r=\"2.5\"/><circle class=\"p1\" cx=\"9.06\" cy=\"16.05\" r=\"2.5\"/><circle class=\"p1\" cx=\"7.24\" cy=\"10.45\" r=\"2.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bloom", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

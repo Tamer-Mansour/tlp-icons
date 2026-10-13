@@ -1,0 +1,10 @@
+{
+  "name": "insect-net",
+  "category": "nature",
+  "tags": ["net", "bug", "catch", "insect", "collect"],
+  "svg": "<circle class=\"p1\" cx=\"15\" cy=\"9\" r=\"5\"/><path class=\"p1\" d=\"M3 21L11 13\"/><path class=\"p2\" d=\"M11 9h8M15 5v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cirrus-cloud",
+  "category": "weather",
+  "tags": ["cirrus", "cloud", "wispy", "high", "sky", "wind"],
+  "svg": "<path class=\"p1\" d=\"M4 9.5L11 6\"/><path class=\"p2\" d=\"M7 15.5L14 12\"/><path class=\"p3\" d=\"M11 19.5L19 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

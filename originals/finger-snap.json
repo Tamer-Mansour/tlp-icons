@@ -1,0 +1,11 @@
+{
+  "name": "finger-snap",
+  "category": "people",
+  "tags": ["finger snap", "snap", "click fingers", "snapping", "hands"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"14\" r=\"3\"/><circle class=\"d p1\" cx=\"19\" cy=\"14\" r=\"3\"/><path class=\"p2\" d=\"M7.5 12L11.5 11M16.5 12L12.5 11\"/><path class=\"p3\" d=\"M12 3v2.5M7 4.5L8.5 6.5M17 4.5L15.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

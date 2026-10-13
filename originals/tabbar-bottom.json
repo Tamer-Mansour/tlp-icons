@@ -1,0 +1,11 @@
+{
+  "name": "tabbar-bottom",
+  "category": "layout",
+  "tags": ["tabbar", "bottom", "mobile", "navigation", "layout"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"3\"/><line class=\"p2\" x1=\"5\" y1=\"15\" x2=\"19\" y2=\"15\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"18.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

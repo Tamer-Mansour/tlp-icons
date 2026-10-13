@@ -1,0 +1,10 @@
+{
+  "name": "glyph",
+  "category": "text",
+  "tags": ["glyph", "character", "ornate", "symbol", "letter", "script"],
+  "svg": "<path class=\"p1\" d=\"M12 3.5l6 8.5-6 8.5-6-8.5z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

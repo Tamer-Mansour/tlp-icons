@@ -1,0 +1,10 @@
+{
+  "name": "standby-mode",
+  "category": "notifications",
+  "tags": ["standby", "power", "sleep", "idle", "waiting", "mode"],
+  "svg": "<path class=\"p1\" d=\"M3 14a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M9.53 11.53A3.5 3.5 0 1 0 14.47 11.53M12 9.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "personality-test",
+  "category": "people",
+  "tags": ["personality", "test", "heads", "compare", "check", "quiz"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20 Q3 14 8.5 14\"/><circle class=\"p2\" cx=\"15.5\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M21 20 Q21 14 15.5 14\"/><path class=\"p3\" d=\"M10 18.5 L11.5 20 L14.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

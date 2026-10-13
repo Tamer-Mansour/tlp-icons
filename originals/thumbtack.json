@@ -1,0 +1,11 @@
+{
+  "name": "thumbtack",
+  "category": "files",
+  "tags": ["pushpin", "thumbtack", "pin", "board", "note"],
+  "svg": "<circle class=\"p1 d\" cx=\"12\" cy=\"7\" r=\"4\"/><line class=\"p2\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"16\"/><line class=\"p3\" x1=\"4\" y1=\"19\" x2=\"20\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "whitespace-marks",
+  "category": "text",
+  "tags": ["whitespace", "spaces", "marks", "text", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 10H9\"/><path class=\"p2\" d=\"M15 10H21\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/><path class=\"p4\" d=\"M8 18H16M14 16L16 18L14 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

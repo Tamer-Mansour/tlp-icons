@@ -1,0 +1,10 @@
+{
+  "name": "app-launcher",
+  "category": "interface",
+  "tags": ["app", "launcher", "apps", "grid", "squares", "menu"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p2\" x=\"15\" y=\"15\" width=\"7\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "drought",
+  "category": "nature",
+  "tags": ["drought", "dry", "cracked", "heat", "ground"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M3 18h18\"/><path class=\"p3\" d=\"M10 18l-1 2M14 18l1 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

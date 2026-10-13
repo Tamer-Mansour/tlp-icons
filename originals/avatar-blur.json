@@ -1,0 +1,11 @@
+{
+  "name": "avatar-blur",
+  "category": "security",
+  "tags": ["avatar", "blur", "hidden", "soft", "privacy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"3.5\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

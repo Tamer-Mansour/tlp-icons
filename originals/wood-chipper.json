@@ -1,0 +1,12 @@
+{
+  "name": "wood-chipper",
+  "category": "tools",
+  "tags": ["wood", "chipper", "mulch", "shredder", "garden", "lumber", "machine"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"12\" height=\"8\" rx=\"1\"/><polyline class=\"p2\" points=\"2,7 5,3 11,3 14,7\"/><line class=\"p3\" x1=\"14\" y1=\"11\" x2=\"20\" y2=\"6\"/><g class=\"p4\"><circle cx=\"7\" cy=\"18\" r=\"2\"/><line x1=\"7\" y1=\"16\" x2=\"7\" y2=\"20\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "spin", "dur": 1200, "delay": 1100, "origin": "7px 18px" }
+  ]
+}

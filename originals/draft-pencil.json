@@ -1,0 +1,10 @@
+{
+  "name": "draft-pencil",
+  "category": "communication",
+  "tags": ["draft", "pencil", "edit", "compose", "write", "unsent", "note"],
+  "svg": "<path class=\"d p1\" d=\"M4 4 H16 V13 H9 L5 16.5 V13 H4 Z\"/><polygon class=\"p2\" points=\"14,21 15,17 19,13 21,15 17,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 600, "origin": "14px 21px" }
+  ]
+}

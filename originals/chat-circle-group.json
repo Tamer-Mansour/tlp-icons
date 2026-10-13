@@ -1,0 +1,10 @@
+{
+  "name": "chat-circle-group",
+  "category": "communication",
+  "tags": ["group", "chat", "circle", "bubble", "team", "conversation"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"8\"/><path class=\"p1\" d=\"M7 17.5 5 21l4-2\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 600 }
+  ]
+}

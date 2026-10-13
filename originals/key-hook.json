@@ -1,0 +1,11 @@
+{
+  "name": "key-hook",
+  "category": "home",
+  "tags": ["key", "hook", "wall", "hanger", "keys", "storage", "home"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"4\" height=\"18\" rx=\"1\"/><line class=\"p2\" x1=\"7\" y1=\"8\" x2=\"14\" y2=\"8\"/><line class=\"p3\" x1=\"14\" y1=\"8\" x2=\"14\" y2=\"13\"/><circle class=\"p3\" cx=\"14\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 800, "origin": "14px 8px" }
+  ]
+}

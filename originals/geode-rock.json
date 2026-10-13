@@ -1,0 +1,10 @@
+{
+  "name": "geode-rock",
+  "category": "science",
+  "tags": ["geode", "crystal", "rock", "mineral", "cave", "gem"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polygon class=\"d p2\" points=\"12,7.5 15.5,11 14,15.5 10,15.5 8.5,11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 1000, "delay": 900 }
+  ]
+}

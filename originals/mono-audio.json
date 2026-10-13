@@ -1,0 +1,11 @@
+{
+  "name": "mono-audio",
+  "category": "media",
+  "tags": ["mono", "audio", "speaker", "sound", "single", "volume"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M18 8.5A5 5 0 0 1 18 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

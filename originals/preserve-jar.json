@@ -1,0 +1,11 @@
+{
+  "name": "preserve-jar",
+  "category": "food",
+  "tags": ["food", "preserve", "jar", "jam", "fruit", "pantry"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"13\" rx=\"3\"/><rect class=\"p2\" x=\"4\" y=\"3\" width=\"16\" height=\"3\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"14\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 1100 }
+  ]
+}

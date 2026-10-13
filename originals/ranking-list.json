@@ -1,0 +1,10 @@
+{
+  "name": "ranking-list",
+  "category": "charts",
+  "tags": ["ranking", "list", "numbers", "order", "top", "leaderboard"],
+  "svg": "<path class=\"p1\" d=\"M8 6 H20 M8 12 H16 M8 18 H12\"/><circle class=\"f p2\" cx=\"4\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0, "origin": "left" },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

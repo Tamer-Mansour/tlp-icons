@@ -1,0 +1,10 @@
+{
+  "name": "volatility-line",
+  "category": "charts",
+  "tags": ["volatility", "zigzag", "spikes", "swings", "market"],
+  "svg": "<polyline class=\"p1\" points=\"2,17 6,5 10,15 14,4 18,17 21,9\"/><circle class=\"f p2\" cx=\"21\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

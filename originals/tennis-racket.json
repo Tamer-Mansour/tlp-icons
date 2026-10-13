@@ -1,0 +1,11 @@
+{
+  "name": "tennis-racket",
+  "category": "sport",
+  "tags": ["tennis", "racket", "strings", "court", "sport", "net"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M12 16v5\"/><path class=\"p3\" d=\"M9 5v8M12 3v12M15 5v8M7 9h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "strike", "dur": 500, "delay": 1100, "origin": "12px 16px" }
+  ]
+}

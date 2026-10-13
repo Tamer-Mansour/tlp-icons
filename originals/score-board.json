@@ -1,0 +1,10 @@
+{
+  "name": "score-board",
+  "category": "interface",
+  "tags": ["scoreboard", "score", "board", "numbers", "results", "game"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"d p2\" x=\"5\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"14\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 600, "delay": 800 }
+  ]
+}

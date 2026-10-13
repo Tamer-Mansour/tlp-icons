@@ -1,0 +1,10 @@
+{
+  "name": "ginger",
+  "category": "food",
+  "tags": ["root", "spice", "herb", "knobby", "tea"],
+  "svg": "<path class=\"d p1\" d=\"M6 17Q4 15 5 13Q6 11 8 12Q9 9 12 10Q15 9 16 12Q19 13 18 16Q17 18 14 17Q11 19 6 17Z\"/><path class=\"p2\" d=\"M12 10V5M12 7q2-3 4-1q-2 3-4 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

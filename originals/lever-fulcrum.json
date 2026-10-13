@@ -1,0 +1,11 @@
+{
+  "name": "lever-fulcrum",
+  "category": "science",
+  "tags": ["lever", "fulcrum", "force", "simple machine", "physics", "load"],
+  "svg": "<path class=\"p1\" d=\"M3 8h18\"/><path class=\"d p2\" d=\"M12 11l-4 9h8z\"/><path class=\"p3\" d=\"M6 2.5v3.5M4.5 4.5L6 6l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

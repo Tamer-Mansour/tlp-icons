@@ -1,0 +1,10 @@
+{
+  "name": "tilt-sensor",
+  "category": "devices",
+  "tags": ["tilt", "level", "sensor", "angle", "bubble", "balance"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"16\" x2=\"21\" y2=\"10\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"8\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 600 }
+  ]
+}

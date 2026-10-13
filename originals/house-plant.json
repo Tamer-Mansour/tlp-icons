@@ -1,0 +1,10 @@
+{
+  "name": "house-plant",
+  "category": "home",
+  "tags": ["plant", "house", "pot", "leaves", "indoor", "green"],
+  "svg": "<path class=\"d p1\" d=\"M7 15h10l-1.5 6h-7z\"/><path class=\"p2\" d=\"M12 15V9M12 11C9 11 7.5 9.5 7.5 7 10 7 12 9 12 11zM12 9c0-3 2-4.5 4.5-4.5 0 2.5-2 4.5-4.5 4.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 900, "delay": 400 }
+  ]
+}

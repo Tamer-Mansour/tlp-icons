@@ -1,0 +1,10 @@
+{
+  "name": "temperature-alert",
+  "category": "notifications",
+  "tags": ["thermometer", "temperature", "heat", "alert", "warning", "weather"],
+  "svg": "<path class=\"p1\" d=\"M10 5a2 2 0 0 1 4 0v10.5a3.5 3.5 0 1 1-4 0z\"/><line class=\"p2\" x1=\"19\" y1=\"5\" x2=\"19\" y2=\"11\"/><circle class=\"f p2\" cx=\"19\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

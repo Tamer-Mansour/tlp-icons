@@ -1,0 +1,11 @@
+{
+  "name": "axe-throw",
+  "category": "sport",
+  "tags": ["axe", "throw", "hatchet", "blade", "toss", "sport"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"20\" x2=\"12\" y2=\"12\"/><path class=\"d p2\" d=\"M12 12 L16 6 Q21 4 20 9 L14 13 Z\"/><path class=\"p3\" d=\"M4 11 Q5 5 10 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dash", "dur": 900, "delay": 900 }
+  ]
+}

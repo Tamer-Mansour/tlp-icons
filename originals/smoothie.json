@@ -1,0 +1,11 @@
+{
+  "name": "smoothie",
+  "category": "food",
+  "tags": ["smoothie", "fruit", "drink", "straw", "juice", "healthy"],
+  "svg": "<path class=\"d p1\" d=\"M7 9h10l-1.5 11h-7z\"/><path class=\"p2\" d=\"M12 9V3\"/><circle class=\"p3\" cx=\"16\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

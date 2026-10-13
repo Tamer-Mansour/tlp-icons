@@ -1,0 +1,10 @@
+{
+  "name": "image-crop-circle",
+  "category": "design",
+  "tags": ["image", "crop", "circle", "picture", "avatar", "mask"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 800 }
+  ]
+}

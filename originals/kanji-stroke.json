@@ -1,0 +1,10 @@
+{
+  "name": "kanji-stroke",
+  "category": "text",
+  "tags": ["kanji", "stroke", "brush", "calligraphy", "writing", "direction"],
+  "svg": "<path class=\"p1\" d=\"M4 15c3-4 8-6 14-3\"/><path class=\"p2\" d=\"M6 20h9.5M13 18.5l2.5 1.5-2.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

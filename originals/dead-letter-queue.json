@@ -1,0 +1,12 @@
+{
+  "name": "dead-letter-queue",
+  "category": "connectivity",
+  "tags": ["dead", "letter", "queue", "message", "failed", "broker"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"6\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"13\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M10 12h3M11.5 10.5l1.5 1.5-1.5 1.5\"/><rect class=\"d p3\" x=\"15\" y=\"6\" width=\"7\" height=\"12\" rx=\"1\"/><path class=\"p4\" d=\"M17 10.5l3 3M20 10.5l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

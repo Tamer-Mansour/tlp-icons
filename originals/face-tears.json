@@ -1,0 +1,12 @@
+{
+  "name": "face-tears",
+  "category": "people",
+  "tags": ["tears", "face", "crying", "sad", "emoji", "upset"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"10.5\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"10.5\" r=\"1.1\"/><path class=\"p3\" d=\"M9.5 17Q12 15 14.5 17\"/><path class=\"p4\" d=\"M8.5 13.5V15.5M15.5 13.5V15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "drip", "dur": 1000, "delay": 1200 }
+  ]
+}

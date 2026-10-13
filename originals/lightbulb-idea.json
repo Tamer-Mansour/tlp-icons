@@ -1,0 +1,11 @@
+{
+  "name": "lightbulb-idea",
+  "category": "people",
+  "tags": ["idea", "lightbulb", "thinking", "head", "inspiration", "bright"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M5 22a5 5 0 0 1 10 0\"/><path class=\"p3\" d=\"M18 1.5a3.5 3.5 0 0 0-2 6.4V9.5h4V7.9a3.5 3.5 0 0 0-2-6.4z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

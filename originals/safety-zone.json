@@ -1,0 +1,10 @@
+{
+  "name": "safety-zone",
+  "category": "buildings",
+  "tags": ["safety", "zone", "shield", "dashed", "circle", "protect"],
+  "svg": "<path class=\"p1\" d=\"M21 12A9 9 0 0 1 19.79 16.5M16.5 19.79A9 9 0 0 1 12 21M7.5 19.79A9 9 0 0 1 4.21 16.5M3 12A9 9 0 0 1 4.21 7.5M7.5 4.21A9 9 0 0 1 12 3M16.5 4.21A9 9 0 0 1 19.79 7.5\"/><path class=\"d p2\" d=\"M12 7l4 1.5v3.5c0 2.5-2 4-4 5c-2-1-4-2.5-4-5V8.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1400, "delay": 700 }
+  ]
+}

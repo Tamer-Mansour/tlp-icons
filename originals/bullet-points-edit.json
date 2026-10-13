@@ -1,0 +1,10 @@
+{
+  "name": "bullet-points-edit",
+  "category": "design",
+  "tags": ["bullet", "points", "list", "edit", "pencil", "text"],
+  "svg": "<circle class=\"f p1\" cx=\"3.5\" cy=\"7\" r=\"1\"/><circle class=\"f p1\" cx=\"3.5\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"3.5\" cy=\"17\" r=\"1\"/><path class=\"p1\" d=\"M7 7h6M7 12h5M7 17h3\"/><path class=\"p2\" d=\"M11 20l1.2-4.4 6.4-6.4 3.2 3.2-6.4 6.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

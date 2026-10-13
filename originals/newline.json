@@ -1,0 +1,10 @@
+{
+  "name": "newline",
+  "category": "text",
+  "tags": ["return", "line break", "enter", "carriage", "wrap"],
+  "svg": "<path class=\"p1\" d=\"M17 4v10H6\"/><path class=\"p2\" d=\"M10 10l-4 4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

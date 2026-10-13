@@ -1,0 +1,11 @@
+{
+  "name": "snow-storm",
+  "category": "weather",
+  "tags": ["snow", "storm", "cloud", "blizzard", "wind", "winter"],
+  "svg": "<path class=\"p1\" d=\"M7 13 H17 A3.5 3.5 0 0 0 17 6 A5 5 0 0 0 7.5 5 A4 4 0 0 0 7 13 Z\"/><circle class=\"f p2\" cx=\"8\" cy=\"17\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"19.5\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"17\" r=\"1\"/><path class=\"p3\" d=\"M3 21.5 H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "axes-coordinate",
+  "category": "math",
+  "tags": ["axes", "coordinate", "plot", "graph", "point"],
+  "svg": "<path class=\"p1\" d=\"M4 3 V20 H21\"/><path class=\"p2\" d=\"M2.5 5.5 L4 3 L5.5 5.5 M18.5 18.5 L21 20 L18.5 21.5\"/><circle class=\"f p3\" cx=\"14\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

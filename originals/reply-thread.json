@@ -1,0 +1,11 @@
+{
+  "name": "reply-thread",
+  "category": "communication",
+  "tags": ["reply", "thread", "conversation", "bubbles", "respond", "message"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"11\" y=\"13\" width=\"10\" height=\"7\" rx=\"2\"/><polyline class=\"p3\" points=\"8,10 8,16.5 11,16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

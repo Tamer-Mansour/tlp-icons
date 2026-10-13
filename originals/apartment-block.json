@@ -1,0 +1,11 @@
+{
+  "name": "apartment-block",
+  "category": "buildings",
+  "tags": ["apartment", "block", "flats", "storeys", "housing", "windows"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6\" width=\"19\" height=\"15.5\" rx=\"1\"/><path class=\"p2\" d=\"M6 10h2M11 10h2M16 10h2M6 15h2M11 15h2M16 15h2\"/><path class=\"p3\" d=\"M2.5 2.5h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "microscope-eyepiece",
+  "category": "science",
+  "tags": ["microscope", "lens", "lab", "optics", "science"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8.5\" r=\"5.5\"/><circle class=\"p2\" cx=\"12\" cy=\"8.5\" r=\"2\"/><path class=\"p3\" d=\"M12 14 V21\"/><path class=\"p4\" d=\"M8 21 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

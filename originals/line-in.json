@@ -1,0 +1,11 @@
+{
+  "name": "line-in",
+  "category": "media",
+  "tags": ["line", "in", "audio", "jack", "input", "cable"],
+  "svg": "<path class=\"p2\" d=\"M2 12h7M6 8l3 4-3 4\"/><circle class=\"d p1\" cx=\"17\" cy=\"12\" r=\"4\"/><circle class=\"f p3\" cx=\"17\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 900 }
+  ]
+}

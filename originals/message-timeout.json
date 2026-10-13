@@ -1,0 +1,11 @@
+{
+  "name": "message-timeout",
+  "category": "communication",
+  "tags": ["timeout", "message", "clock", "expired", "wait", "delay"],
+  "svg": "<path class=\"p1\" d=\"M4 4 H20 V12 H10 L6 16 V12 H4 Z\"/><circle class=\"d p2\" cx=\"18\" cy=\"18\" r=\"3.5\"/><path class=\"p3\" d=\"M18 16 V18 L19.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 600, "origin": "18px 18px" }
+  ]
+}

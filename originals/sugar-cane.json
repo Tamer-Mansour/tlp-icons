@@ -1,0 +1,11 @@
+{
+  "name": "sugar-cane",
+  "category": "nature",
+  "tags": ["sugar", "cane", "stalk", "crop", "grass"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"3\" width=\"4\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M10 8 H14 M10 14 H14 M10 19 H14\"/><path class=\"p3\" d=\"M10 6 Q6 2 3 4 Q6 8 10 7 M14 10 Q18 6 21 8 Q18 12 14 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

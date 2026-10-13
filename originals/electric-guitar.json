@@ -1,0 +1,11 @@
+{
+  "name": "electric-guitar",
+  "category": "media",
+  "tags": ["electric", "guitar", "rock", "instrument", "music", "neck"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8\" cy=\"15.5\" rx=\"4.5\" ry=\"5\"/><path class=\"p2\" d=\"M11 12L20 3\"/><path class=\"p3\" d=\"M18.5 2.5L21.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

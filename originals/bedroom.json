@@ -1,0 +1,11 @@
+{
+  "name": "bedroom",
+  "category": "buildings",
+  "tags": ["bedroom", "bed", "pillow", "sleep", "room", "home"],
+  "svg": "<path class=\"p1\" d=\"M3 6v14\"/><path class=\"p2\" d=\"M3 15h18v5\"/><rect class=\"d p3\" x=\"6\" y=\"10\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

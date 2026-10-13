@@ -1,0 +1,11 @@
+{
+  "name": "air-cargo",
+  "category": "vehicles",
+  "tags": ["cargo", "plane", "freight", "shipping", "air"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h13.5l3.5 2.5-3.5 2.5H3z\"/><path class=\"p2\" d=\"M9 9.5 7 4h2l4.5 5.5\"/><rect class=\"p3\" x=\"6\" y=\"16\" width=\"6\" height=\"5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

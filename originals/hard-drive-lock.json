@@ -1,0 +1,10 @@
+{
+  "name": "hard-drive-lock",
+  "category": "security",
+  "tags": ["hard", "drive", "lock", "storage", "encrypted", "disk"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"8\" rx=\"2\"/><circle class=\"f p1\" cx=\"7\" cy=\"7\" r=\"1\"/><rect class=\"p2\" x=\"14\" y=\"17\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M15.5 17 V15.5 A2 2 0 0 1 19.5 15.5 V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

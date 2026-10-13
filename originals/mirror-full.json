@@ -1,0 +1,10 @@
+{
+  "name": "mirror-full",
+  "category": "home",
+  "tags": ["mirror", "reflection", "glass", "glint", "bathroom", "looking"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 10l4-4M9 15l6-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

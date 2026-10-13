@@ -1,0 +1,10 @@
+{
+  "name": "square-grid",
+  "category": "math",
+  "tags": ["grid", "squares", "matrix", "pattern", "rows", "columns"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M8 3V21M16 3V21M3 8H21M3 16H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

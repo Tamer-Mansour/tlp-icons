@@ -1,0 +1,11 @@
+{
+  "name": "garbage-disposal",
+  "category": "home",
+  "tags": ["garbage", "disposal", "sink", "drain", "kitchen", "blade"],
+  "svg": "<path class=\"p3\" d=\"M6 4h12\"/><path class=\"d p1\" d=\"M7 8h10v8a5 5 0 0 1-10 0z\"/><path class=\"p2\" d=\"M9 13h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 13px" }
+  ]
+}

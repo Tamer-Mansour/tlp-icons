@@ -1,0 +1,11 @@
+{
+  "name": "first-aid",
+  "category": "notifications",
+  "tags": ["first aid", "medical", "kit", "health", "cross", "emergency"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8 7V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2\"/><path class=\"p3\" d=\"M12 10.5v5M9.5 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

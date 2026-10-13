@@ -1,0 +1,11 @@
+{
+  "name": "whitespace-gap",
+  "category": "design",
+  "tags": ["whitespace", "gap", "spacing", "distance", "arrow", "space"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"5\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"6\" width=\"5\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M10 12h4M11.5 10.5L10 12l1.5 1.5M12.5 10.5L14 12l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 1100 }
+  ]
+}

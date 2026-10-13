@@ -1,0 +1,11 @@
+{
+  "name": "dowel-pin",
+  "category": "tools",
+  "tags": ["dowel", "pin", "peg", "wood", "joint", "woodworking"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"7\" height=\"14\" rx=\"1\"/><rect class=\"d p2\" x=\"14\" y=\"5\" width=\"7\" height=\"14\" rx=\"1\"/><path class=\"p3\" d=\"M10 12H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 800 }
+  ]
+}

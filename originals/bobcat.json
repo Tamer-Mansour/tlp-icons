@@ -1,0 +1,11 @@
+{
+  "name": "bobcat",
+  "category": "nature",
+  "tags": ["bobcat", "lynx", "cat", "wild", "whiskers", "feline"],
+  "svg": "<path class=\"d p1\" d=\"M6 8l-1-4 4 2h6l4-2-1 4v8a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M3 13h3M18 13h3\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

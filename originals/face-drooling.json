@@ -1,0 +1,12 @@
+{
+  "name": "face-drooling",
+  "category": "emoji",
+  "tags": ["face", "drooling", "drool", "hungry", "drip"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"8\"/><path class=\"p2\" d=\"M8 9.5h2M14 9.5h2\"/><ellipse class=\"p3\" cx=\"12\" cy=\"15\" rx=\"2\" ry=\"2.5\"/><path class=\"p4\" d=\"M13 19v2\"/><circle class=\"f p4\" cx=\"13\" cy=\"21.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "drip", "dur": 900, "delay": 1200 }
+  ]
+}

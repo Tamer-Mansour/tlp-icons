@@ -1,0 +1,11 @@
+{
+  "name": "text-history",
+  "category": "text",
+  "tags": ["text", "history", "clock", "past", "versions", "time"],
+  "svg": "<path class=\"p1\" d=\"M3 7 H10 M3 11.5 H10 M3 16 H8\"/><circle class=\"p2\" cx=\"17\" cy=\"13\" r=\"4.5\"/><path class=\"p3\" d=\"M17 10.5 V13 L18.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "17px 13px" }
+  ]
+}

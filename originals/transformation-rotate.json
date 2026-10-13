@@ -1,0 +1,11 @@
+{
+  "name": "transformation-rotate",
+  "category": "math",
+  "tags": ["rotate", "rotation", "turn", "transform", "arrow", "geometry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"8\" height=\"8\"/><path class=\"p2\" d=\"M20 8A9 9 0 0 1 20 16\"/><polyline class=\"p3\" points=\"17,15 20,16 21,13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

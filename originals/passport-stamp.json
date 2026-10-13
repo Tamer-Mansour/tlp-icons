@@ -1,0 +1,11 @@
+{
+  "name": "passport-stamp",
+  "category": "vehicles",
+  "tags": ["passport", "stamp", "travel", "document", "border", "visa"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"15\" height=\"18\" rx=\"2\"/><circle class=\"p2\" cx=\"11\" cy=\"15\" r=\"2.5\"/><path class=\"p3\" d=\"M7 7h5M7 10h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "stamp", "dur": 600, "delay": 1100 }
+  ]
+}

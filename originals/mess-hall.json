@@ -1,0 +1,11 @@
+{
+  "name": "mess-hall",
+  "category": "buildings",
+  "tags": ["mess", "hall", "table", "plate", "spoon", "canteen"],
+  "svg": "<path class=\"p1\" d=\"M2 11 H22 M4 11 V20 M20 11 V20\"/><ellipse class=\"d p2\" cx=\"8\" cy=\"9.5\" rx=\"3\" ry=\"1.5\"/><path class=\"p3\" d=\"M16 3 V9\"/><ellipse class=\"p3\" cx=\"16\" cy=\"5\" rx=\"1.2\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 800, "delay": 1000, "origin": "16px 9px" }
+  ]
+}

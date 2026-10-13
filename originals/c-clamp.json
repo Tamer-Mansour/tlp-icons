@@ -1,0 +1,10 @@
+{
+  "name": "c-clamp",
+  "category": "tools",
+  "tags": ["clamp", "c-clamp", "grip", "frame", "screw"],
+  "svg": "<path class=\"p1\" d=\"M18 4H9a5 5 0 0 0 0 10h9\"/><path class=\"p2\" d=\"M4 9v-4M2 5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

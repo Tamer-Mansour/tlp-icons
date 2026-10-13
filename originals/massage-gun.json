@@ -1,0 +1,11 @@
+{
+  "name": "massage-gun",
+  "category": "devices",
+  "tags": ["massage", "gun", "muscle", "recovery", "vibrate", "therapy"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"10\" r=\"4\"/><rect class=\"p2\" x=\"11\" y=\"8.5\" width=\"9\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M14 12.5L15 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 500, "delay": 800 }
+  ]
+}

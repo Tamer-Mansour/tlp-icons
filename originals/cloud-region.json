@@ -1,0 +1,11 @@
+{
+  "name": "cloud-region",
+  "category": "connectivity",
+  "tags": ["cloud", "region", "location", "map", "pin", "datacenter"],
+  "svg": "<path class=\"p1\" d=\"M3 17H8.5A3.5 3.5 0 0 0 9 10A5 5 0 0 0 2.5 12A3 3 0 0 0 3 17Z\"/><path class=\"p2\" d=\"M18 3A4 4 0 0 1 22 7C22 10 18 15 18 15S14 10 14 7A4 4 0 0 1 18 3Z\"/><circle class=\"f p3\" cx=\"18\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "leash",
+  "category": "nature",
+  "tags": ["leash", "dog lead", "pet", "walk", "collar", "rope"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M9.8 9.8 C12 12 11 15 13.5 17\"/><circle class=\"p3\" cx=\"14\" cy=\"19.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1100, "origin": "14px 17.5px" }
+  ]
+}

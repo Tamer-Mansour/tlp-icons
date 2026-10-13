@@ -1,0 +1,10 @@
+{
+  "name": "rock-shape",
+  "category": "shapes",
+  "tags": ["rock", "stone", "boulder", "facet", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M3 17 L6 8 L11 5 L17 7 L21 13 L19 19 L11 20 Z\"/><path class=\"p2\" d=\"M6 8 L12 13 L17 7 M12 13 L11 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chat-check-double",
+  "category": "communication",
+  "tags": ["read receipt", "delivered", "seen", "checkmark", "chat"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4h18v12H9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M6.5 9.5l2 2 3.5-4\"/><path class=\"p3\" d=\"M13 9.5l2 2 3.5-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "game-board-grid",
+  "category": "sport",
+  "tags": ["board", "grid", "tic", "tac", "toe", "game"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p1\" d=\"M9 3v18M15 3v18M3 9h18M3 15h18\"/><circle class=\"p2\" cx=\"6\" cy=\"6\" r=\"2\"/><path class=\"p3\" d=\"M16 16l4 4M20 16l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "stampIn", "dur": 400, "delay": 1300 }
+  ]
+}

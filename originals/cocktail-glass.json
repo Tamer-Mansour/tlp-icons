@@ -1,0 +1,11 @@
+{
+  "name": "cocktail-glass",
+  "category": "food",
+  "tags": ["cocktail", "glass", "martini", "drink", "bar", "garnish", "stem"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16l-8 9z\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"12\" y2=\"20\"/><line class=\"p2\" x1=\"8\" y1=\"20\" x2=\"16\" y2=\"20\"/><circle class=\"f p3\" cx=\"14\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

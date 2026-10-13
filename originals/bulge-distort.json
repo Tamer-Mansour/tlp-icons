@@ -1,0 +1,10 @@
+{
+  "name": "bulge-distort",
+  "category": "design",
+  "tags": ["bulge", "distort", "inflate", "push", "warp", "effect"],
+  "svg": "<path class=\"p1\" d=\"M4 4H20V20H4Z\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pump", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "vibrato-wave",
+  "category": "media",
+  "tags": ["vibrato", "wave", "wobble", "note", "pitch", "music"],
+  "svg": "<path class=\"p1\" d=\"M3 12H9\"/><path class=\"p2\" d=\"M9 12C10 9 11 9 12 12S14 15 15 12S17 9 18 12S20 15 21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tailwind",
+  "category": "weather",
+  "tags": ["tailwind", "wind", "arrow", "behind", "flight", "air"],
+  "svg": "<path class=\"p1\" d=\"M10 12h11M18 9l3 3-3 3\"/><path class=\"p2\" d=\"M3 8h5M2 12h6M3 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sink-basin",
+  "category": "home",
+  "tags": ["sink", "basin", "washbasin", "tap", "bathroom", "water", "pedestal"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 H21 Q21 18 15 18 H9 Q3 18 3 12 Z\"/><line class=\"p2\" x1=\"12\" y1=\"18\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/><path class=\"p3\" d=\"M12 12 V7 H16\"/><circle class=\"f p4\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

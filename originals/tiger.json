@@ -1,0 +1,11 @@
+{
+  "name": "tiger",
+  "category": "nature",
+  "tags": ["animal", "cat", "stripes", "jungle", "wild"],
+  "svg": "<path class=\"d p1\" d=\"M4 6l3-2 3 2h4l3-2 3 2v7c0 4-3 7-8 8-5-1-8-4-8-8z\"/><path class=\"p2\" d=\"M12 6v3M8.5 9.5l1.5 1.5M15.5 9.5l-1.5 1.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

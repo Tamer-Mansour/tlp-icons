@@ -1,0 +1,10 @@
+{
+  "name": "fire-danger",
+  "category": "weather",
+  "tags": ["fire", "danger", "warning", "flame", "alert"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 21 19.5 3 19.5\"/><path class=\"d p2\" d=\"M12 9C13.5 11 15 12 14.5 14.5A2.5 2.5 0 0 1 9.5 14.5C9.5 12.5 11 11.5 12 9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 600, "origin": "bottom" }
+  ]
+}

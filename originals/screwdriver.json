@@ -1,0 +1,11 @@
+{
+  "name": "screwdriver",
+  "category": "home",
+  "tags": ["screwdriver", "tool", "screw", "repair", "flat", "handle"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h8v5a4 4 0 0 1-8 0z\"/><path class=\"p2\" d=\"M12 12v5\"/><path class=\"p3\" d=\"M10.5 21h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "grid-gap",
+  "category": "layout",
+  "tags": ["grid", "gap", "gutter", "spacing", "squares", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

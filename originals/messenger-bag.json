@@ -1,0 +1,10 @@
+{
+  "name": "messenger-bag",
+  "category": "communication",
+  "tags": ["bag", "messenger", "strap", "letter", "mail", "carry"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"11\" rx=\"2\"/><path class=\"p1\" d=\"M4.5 9V7a2.5 2.5 0 0 1 5 0v2\"/><path class=\"p2\" d=\"M14 9V5.5h6.5V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 700 }
+  ]
+}

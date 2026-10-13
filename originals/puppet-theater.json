@@ -1,0 +1,11 @@
+{
+  "name": "puppet-theater",
+  "category": "buildings",
+  "tags": ["puppet", "theater", "stage", "show", "curtain", "marionette"],
+  "svg": "<path class=\"p1\" d=\"M4 20 V9 Q12 3 20 9 V20\"/><line class=\"p3\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><circle class=\"d p2\" cx=\"12\" cy=\"13\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 1000 }
+  ]
+}

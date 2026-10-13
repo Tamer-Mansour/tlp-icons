@@ -1,0 +1,11 @@
+{
+  "name": "security-desk",
+  "category": "buildings",
+  "tags": ["security", "desk", "shield", "badge", "reception", "id"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M9 2.5h6v3.5c0 2-3 3-3 3s-3-1-3-3z\"/><rect class=\"p3\" x=\"8\" y=\"14\" width=\"8\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flip", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "superscript-n",
+  "category": "math",
+  "tags": ["superscript", "exponent", "letter", "raised", "variable"],
+  "svg": "<path class=\"p1\" d=\"M3 20 V13 C3 11.5 4.5 11 6.5 11 C8.5 11 10 11.5 10 13 V20\"/><path class=\"p2\" d=\"M15 9 V7 C15 5.5 16 5 17 5 C18 5 19 5.5 19 7 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

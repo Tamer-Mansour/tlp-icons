@@ -1,0 +1,11 @@
+{
+  "name": "pharmacy-store",
+  "category": "buildings",
+  "tags": ["pharmacy", "drugstore", "medical", "storefront", "plus sign"],
+  "svg": "<path class=\"p1\" d=\"M3 10l9-7 9 7\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"16\" height=\"11\"/><path class=\"p3\" d=\"M12 13.5v4M10 15.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

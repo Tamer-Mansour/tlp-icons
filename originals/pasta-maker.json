@@ -1,0 +1,11 @@
+{
+  "name": "pasta-maker",
+  "category": "home",
+  "tags": ["pasta", "maker", "noodles", "kitchen", "crank"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M16 13h3M19 9v8\"/><path class=\"p3\" d=\"M7 17v3.5M11 17v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "dropIn", "dur": 700, "delay": 900 }
+  ]
+}

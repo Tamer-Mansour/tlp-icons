@@ -1,0 +1,11 @@
+{
+  "name": "text-ticker",
+  "category": "text",
+  "tags": ["ticker", "news", "scrolling", "strip", "text", "feed", "headline"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 12h6\"/><path class=\"p3\" d=\"M14.5 12h4.5M17.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

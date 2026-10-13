@@ -1,0 +1,11 @@
+{
+  "name": "teacher-apple-desk",
+  "category": "people",
+  "tags": ["teacher", "apple", "desk", "school", "books", "class"],
+  "svg": "<path class=\"p1\" d=\"M3 13h18M5 13v7M19 13v7\"/><circle class=\"d p2\" cx=\"12\" cy=\"9.5\" r=\"3.5\"/><path class=\"p3\" d=\"M12 6V4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

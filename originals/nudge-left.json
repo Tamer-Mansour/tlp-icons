@@ -1,0 +1,10 @@
+{
+  "name": "nudge-left",
+  "category": "arrows",
+  "tags": ["nudge", "left", "shift", "move", "arrow", "small"],
+  "svg": "<path class=\"p1\" d=\"M4 12h6M7 9l-3 3 3 3\"/><path class=\"p2\" d=\"M14 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 600 }
+  ]
+}

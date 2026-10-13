@@ -1,0 +1,11 @@
+{
+  "name": "flatcar",
+  "category": "vehicles",
+  "tags": ["railcar", "flatcar", "freight", "stake", "train"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"13\" x2=\"21\" y2=\"13\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"3\" y2=\"13\"/><line class=\"p2\" x1=\"21\" y1=\"9\" x2=\"21\" y2=\"13\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

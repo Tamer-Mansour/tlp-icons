@@ -1,0 +1,11 @@
+{
+  "name": "water-treatment",
+  "category": "buildings",
+  "tags": ["water", "treatment", "tank", "wave", "pipe", "purify"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M7 13q2.5-2 5 0t5 0\"/><path class=\"p3\" d=\"M20 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

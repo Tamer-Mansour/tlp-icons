@@ -1,0 +1,11 @@
+{
+  "name": "trencher",
+  "category": "tools",
+  "tags": ["trencher", "digger", "trench", "excavator", "construction", "dig"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"9\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M10 13L18 5\"/><path class=\"p3\" d=\"M16 7L18 4L21 7M13 15L16 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

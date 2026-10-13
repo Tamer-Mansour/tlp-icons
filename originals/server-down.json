@@ -1,0 +1,10 @@
+{
+  "name": "server-down",
+  "category": "notifications",
+  "tags": ["server", "down", "rack", "offline", "outage"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"9\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"16\" width=\"11\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M18 3v17M15 17l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

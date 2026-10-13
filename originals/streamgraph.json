@@ -1,0 +1,11 @@
+{
+  "name": "streamgraph",
+  "category": "charts",
+  "tags": ["stream", "graph", "waves", "bands", "chart", "flow"],
+  "svg": "<path class=\"p1\" d=\"M3 7c3-2 6-2 9 0s6 2 9 0\"/><path class=\"p2\" d=\"M3 12c3-2 6-2 9 0s6 2 9 0\"/><path class=\"p3\" d=\"M3 17c3-2 6-2 9 0s6 2 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

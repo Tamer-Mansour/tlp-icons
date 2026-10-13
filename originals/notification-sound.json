@@ -1,0 +1,11 @@
+{
+  "name": "notification-sound",
+  "category": "media",
+  "tags": ["notification", "sound", "alert", "bell", "ring", "alarm"],
+  "svg": "<path class=\"p1\" d=\"M6 15v-4a6 6 0 0 1 12 0v4l2 2H4z\"/><path class=\"p2\" d=\"M10 20a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M3.5 9a4 4 0 0 0 0 4M20.5 9a4 4 0 0 1 0 4\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "swing", "dur": 1200, "delay": 900, "origin": "12px 5px" }
+  ]
+}

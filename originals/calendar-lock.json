@@ -1,0 +1,11 @@
+{
+  "name": "calendar-lock",
+  "category": "time",
+  "tags": ["calendar", "lock", "secure", "booking", "private", "schedule", "padlock"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p1\" d=\"M3 9h16M7 2v4M15 2v4\"/><rect class=\"p2\" x=\"15\" y=\"15\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M17 15v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1300, "origin": "19px 15px" }
+  ]
+}

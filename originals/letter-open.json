@@ -1,0 +1,11 @@
+{
+  "name": "letter-open",
+  "category": "communication",
+  "tags": ["letter", "envelope", "open", "mail", "document", "message"],
+  "svg": "<path class=\"d p1\" d=\"M7 13V3.5H17V13\"/><path class=\"p2\" d=\"M3 11V20H21V11\"/><path class=\"p3\" d=\"M10 7H14M10 9.5H12.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1200 }
+  ]
+}

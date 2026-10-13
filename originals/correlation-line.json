@@ -1,0 +1,10 @@
+{
+  "name": "correlation-line",
+  "category": "math",
+  "tags": ["correlation", "scatter", "regression", "fit", "statistics"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"17\" r=\"1.2\"/><circle class=\"f p1\" cx=\"9\" cy=\"14\" r=\"1.2\"/><circle class=\"f p1\" cx=\"12\" cy=\"11\" r=\"1.2\"/><circle class=\"f p1\" cx=\"15\" cy=\"9\" r=\"1.2\"/><circle class=\"f p1\" cx=\"18\" cy=\"6\" r=\"1.2\"/><path class=\"p2\" d=\"M4 19L20 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

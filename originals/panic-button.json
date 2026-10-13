@@ -1,0 +1,11 @@
+{
+  "name": "panic-button",
+  "category": "security",
+  "tags": ["panic", "button", "alarm", "emergency", "alert", "help"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7V13\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1300 }
+  ]
+}

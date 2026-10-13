@@ -1,0 +1,10 @@
+{
+  "name": "search-clear",
+  "category": "interface",
+  "tags": ["search", "clear", "magnifier", "remove", "reset", "cross"],
+  "svg": "<circle class=\"p1\" cx=\"10.5\" cy=\"10.5\" r=\"7\"/><line class=\"p1\" x1=\"15.5\" y1=\"15.5\" x2=\"21\" y2=\"21\"/><path class=\"p2\" d=\"M17 3l4 4M21 3l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

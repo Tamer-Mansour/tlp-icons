@@ -1,0 +1,11 @@
+{
+  "name": "shadow-highlight",
+  "category": "design",
+  "tags": ["shadow", "highlight", "tone", "light", "dark", "exposure"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"d p2\" d=\"M12 4A8 8 0 0 0 12 20Z\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"8.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

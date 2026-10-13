@@ -1,0 +1,10 @@
+{
+  "name": "sequence-diagram",
+  "category": "development",
+  "tags": ["sequence", "diagram", "lifeline", "messages", "uml", "flow"],
+  "svg": "<path class=\"p1\" d=\"M6 3 V21 M18 3 V21\"/><path class=\"p2\" d=\"M6 10 H18 M15 7.5 L18 10 L15 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

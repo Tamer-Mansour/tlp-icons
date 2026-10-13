@@ -1,0 +1,10 @@
+{
+  "name": "pagination-bar",
+  "category": "layout",
+  "tags": ["pagination", "pages", "next", "previous", "paging", "list"],
+  "svg": "<path class=\"p1\" d=\"M8 7L4 12L8 17M16 7L20 12L16 17\"/><g class=\"p2\"><circle class=\"f\" cx=\"10\" cy=\"12\" r=\"1\"/><circle class=\"f\" cx=\"12\" cy=\"12\" r=\"1\"/><circle class=\"f\" cx=\"14\" cy=\"12\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

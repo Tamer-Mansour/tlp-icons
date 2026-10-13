@@ -1,0 +1,11 @@
+{
+  "name": "orange-slice",
+  "category": "food",
+  "tags": ["orange", "slice", "citrus", "fruit", "fresh", "juice"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6.5\"/><path class=\"p3\" d=\"M12 5.5 V18.5 M5.5 12 H18.5 M7.4 7.4 L16.6 16.6 M16.6 7.4 L7.4 16.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1100 }
+  ]
+}

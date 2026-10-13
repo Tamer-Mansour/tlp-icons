@@ -1,0 +1,11 @@
+{
+  "name": "heat-strip",
+  "category": "charts",
+  "tags": ["heatmap", "strip", "density", "grid", "intensity", "cells"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"10.25\" width=\"3.5\" height=\"3.5\" rx=\"1\"/><rect class=\"d p2\" x=\"7.5\" y=\"10.25\" width=\"3.5\" height=\"3.5\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"10.25\" width=\"3.5\" height=\"3.5\" rx=\"1\"/><rect class=\"d p3\" x=\"18.5\" y=\"10.25\" width=\"3.5\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

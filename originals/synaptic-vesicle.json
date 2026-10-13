@@ -1,0 +1,10 @@
+{
+  "name": "synaptic-vesicle",
+  "category": "science",
+  "tags": ["synapse", "vesicle", "neuron", "brain", "nerve"],
+  "svg": "<path class=\"p1\" d=\"M4 20L10 14\"/><circle class=\"d p2\" cx=\"14\" cy=\"7\" r=\"1.8\"/><circle class=\"d p2\" cx=\"18\" cy=\"11\" r=\"1.8\"/><circle class=\"d p2\" cx=\"14\" cy=\"15\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 700, "delay": 700 }
+  ]
+}

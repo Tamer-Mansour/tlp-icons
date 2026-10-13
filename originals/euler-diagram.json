@@ -1,0 +1,11 @@
+{
+  "name": "euler-diagram",
+  "category": "math",
+  "tags": ["euler", "diagram", "sets", "venn", "math"],
+  "svg": "<ellipse class=\"p1\" cx=\"8.5\" cy=\"9\" rx=\"5\" ry=\"5\"/><ellipse class=\"p2\" cx=\"15.5\" cy=\"9\" rx=\"5\" ry=\"5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"16.5\" rx=\"4.5\" ry=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

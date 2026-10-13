@@ -1,0 +1,11 @@
+{
+  "name": "heat-alert",
+  "category": "weather",
+  "tags": ["heat", "thermometer", "alert", "hot", "temperature", "warning"],
+  "svg": "<path class=\"p1\" d=\"M10 4a2 2 0 0 1 4 0v10a4 4 0 1 1-4 0z\"/><path class=\"p2\" d=\"M12 9v7\"/><circle class=\"f p3\" cx=\"19\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

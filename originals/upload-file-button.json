@@ -1,0 +1,11 @@
+{
+  "name": "upload-file-button",
+  "category": "interface",
+  "tags": ["upload", "file", "document", "send", "transfer"],
+  "svg": "<path class=\"p1\" d=\"M14 3H6v12h12V7z\"/><path class=\"p2\" d=\"M12 12V6M9 9l3-3 3 3\"/><path class=\"p3\" d=\"M4 19v2h16v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 900 }
+  ]
+}

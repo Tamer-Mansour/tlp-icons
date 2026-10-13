@@ -1,0 +1,10 @@
+{
+  "name": "inbox-empty",
+  "category": "interface",
+  "tags": ["inbox", "empty", "tray", "no messages", "blank", "mail"],
+  "svg": "<path class=\"p1\" d=\"M3 13h5l1.5 2h5l1.5-2h5v6H3z\"/><path class=\"p2\" d=\"M8 4.5h2.5M13.5 4.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

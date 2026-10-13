@@ -1,0 +1,11 @@
+{
+  "name": "bus-lane",
+  "category": "vehicles",
+  "tags": ["bus", "lane", "road", "transit", "dashed"],
+  "svg": "<path class=\"p1\" d=\"M2 17h20\"/><path class=\"p3\" d=\"M3 21h3M9 21h3M15 21h3\"/><rect class=\"d p2\" x=\"7\" y=\"6\" width=\"10\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "drive", "dur": 900, "delay": 900 }
+  ]
+}

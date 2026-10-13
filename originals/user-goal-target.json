@@ -1,0 +1,12 @@
+{
+  "name": "user-goal-target",
+  "category": "people",
+  "tags": ["goal", "target", "aim", "objective", "person", "bullseye"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2.5 21v-2.5a5.5 5.5 0 0 1 11 0V21\"/><circle class=\"p3\" cx=\"17.5\" cy=\"12.5\" r=\"4.5\"/><circle class=\"p4\" cx=\"17.5\" cy=\"12.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1300 }
+  ]
+}

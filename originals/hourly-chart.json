@@ -1,0 +1,11 @@
+{
+  "name": "hourly-chart",
+  "category": "charts",
+  "tags": ["hourly", "clock", "time", "chart", "hours", "schedule"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"5\"/><path class=\"p3\" d=\"M7 5.5V8H9\"/><path class=\"p2\" d=\"M15 21V15M20 21V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "7px 8px" }
+  ]
+}

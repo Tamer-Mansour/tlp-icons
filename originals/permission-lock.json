@@ -1,0 +1,11 @@
+{
+  "name": "permission-lock",
+  "category": "development",
+  "tags": ["permission", "lock", "security", "access", "shield", "protected"],
+  "svg": "<path class=\"p2 d\" d=\"M12 2L19 4.5V10C19 14 15.5 17 12 18.5C8.5 17 5 14 5 10V4.5Z\"/><rect class=\"p1\" x=\"9\" y=\"10\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p1\" d=\"M10 10V8.5A2 2 0 0 1 14 8.5V10\"/><circle class=\"f p3\" cx=\"12\" cy=\"12.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

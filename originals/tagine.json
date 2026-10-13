@@ -1,0 +1,11 @@
+{
+  "name": "tagine",
+  "category": "food",
+  "tags": ["tagine", "lid", "moroccan", "stew", "dish", "cone", "clay-pot"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l5 8H7z\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1\"/><path class=\"p3\" d=\"M3 13h18c0 4-3 7-9 7s-9-3-9-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "bounceIn", "dur": 400, "delay": 1200 }
+  ]
+}

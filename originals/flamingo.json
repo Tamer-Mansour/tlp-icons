@@ -1,0 +1,11 @@
+{
+  "name": "flamingo",
+  "category": "nature",
+  "tags": ["flamingo", "curved neck", "bent bill", "pink bird", "wading"],
+  "svg": "<path class=\"d p1\" d=\"M7 14 Q6 10 10 10 H15 Q18 11 17 15 Q15 18 11 18 Q7 18 7 14 Z\"/><path class=\"p2\" d=\"M15 11 Q18 8 15 4 M10 18 V22 M13 18 V22\"/><path class=\"p3\" d=\"M14 2.5 Q17 2 18 4 L15 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

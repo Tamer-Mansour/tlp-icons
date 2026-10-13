@@ -1,0 +1,12 @@
+{
+  "name": "shipyard",
+  "category": "buildings",
+  "tags": ["ship", "hull", "crane", "dock", "boats", "construction", "harbor"],
+  "svg": "<path class=\"d p1\" d=\"M3 15h15l-2.5 4.5H5.5z\"/><path class=\"p2\" d=\"M7 15v-3h5v3\"/><path class=\"p3\" d=\"M20 21V5h-6v4\"/><path class=\"p4\" d=\"M2 21.5h20\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1100, "origin": "20px 5px" }
+  ]
+}

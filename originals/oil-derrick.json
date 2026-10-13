@@ -1,0 +1,11 @@
+{
+  "name": "oil-derrick",
+  "category": "buildings",
+  "tags": ["oil derrick", "oil rig", "pump jack", "drilling", "oil"],
+  "svg": "<path class=\"p1\" d=\"M7 19L12 5l5 14M3 21h18\"/><path class=\"p2\" d=\"M9.5 14h5M8.5 17h7\"/><path class=\"p3\" d=\"M3 11h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1000 }
+  ]
+}

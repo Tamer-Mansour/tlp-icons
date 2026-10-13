@@ -1,0 +1,11 @@
+{
+  "name": "link-up",
+  "category": "connectivity",
+  "tags": ["link", "up", "online", "connected", "network", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"15\" r=\"3\"/><circle class=\"p1\" cx=\"17\" cy=\"15\" r=\"3\"/><path class=\"p2\" d=\"M10 15H14\"/><path class=\"p3\" d=\"M12 10V2.5M9.5 5L12 2.5L14.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

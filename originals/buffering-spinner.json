@@ -1,0 +1,10 @@
+{
+  "name": "buffering-spinner",
+  "category": "media",
+  "tags": ["buffering", "spinner", "loading", "wait", "progress", "reload"],
+  "svg": "<path class=\"p1\" d=\"M21 12a9 9 0 1 1-9-9\"/><polyline class=\"p2\" points=\"9,6 12,3 12.5,7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 900, "delay": 800 }
+  ]
+}

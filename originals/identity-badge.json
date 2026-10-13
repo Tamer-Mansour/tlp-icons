@@ -1,0 +1,11 @@
+{
+  "name": "identity-badge",
+  "category": "people",
+  "tags": ["identity", "badge", "id", "staff", "employee", "card"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"1.5\" width=\"6\" height=\"3\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"9.5\" r=\"2.8\"/><path class=\"p3\" d=\"M7.5 18.5a4.5 4.5 0 0 1 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 1000, "origin": "12px 3px" }
+  ]
+}

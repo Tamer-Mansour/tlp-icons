@@ -1,0 +1,11 @@
+{
+  "name": "scarecrow",
+  "category": "nature",
+  "tags": ["farm", "field", "hat", "crops", "figure"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"10.5\" r=\"2.5\"/><path class=\"p2\" d=\"M6.5 6.5h11M9 6.5V4h6v2.5\"/><path class=\"p3\" d=\"M4 15h16M12 13v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

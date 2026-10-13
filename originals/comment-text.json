@@ -1,0 +1,10 @@
+{
+  "name": "comment-text",
+  "category": "text",
+  "tags": ["comment", "speech", "bubble", "message", "text"],
+  "svg": "<path class=\"d p1\" d=\"M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6l-4 4v-4H6a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8 9h8M8 13h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

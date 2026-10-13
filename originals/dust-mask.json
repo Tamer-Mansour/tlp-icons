@@ -1,0 +1,11 @@
+{
+  "name": "dust-mask",
+  "category": "tools",
+  "tags": ["mask", "dust", "respirator", "filter", "breathing", "protection"],
+  "svg": "<path class=\"d p1\" d=\"M5 9Q12 5 19 9V13Q19 19 12 19Q5 19 5 13Z\"/><path class=\"p2\" d=\"M5 11L2 7M19 11L22 7\"/><path class=\"p3\" d=\"M9 13H15M9 16H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "inhale", "dur": 900, "delay": 800 }
+  ]
+}

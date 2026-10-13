@@ -1,0 +1,11 @@
+{
+  "name": "sprinkler-head",
+  "category": "devices",
+  "tags": ["sprinkler", "spray", "water", "garden", "irrigation", "head"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"21\" x2=\"12\" y2=\"11.5\"/><rect class=\"d p2\" x=\"9\" y=\"8\" width=\"6\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 6 L5.5 3.5 M12 5.5 V2.5 M14.5 6 L18.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

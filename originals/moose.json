@@ -1,0 +1,11 @@
+{
+  "name": "moose",
+  "category": "nature",
+  "tags": ["animal", "antlers", "forest", "north", "deer"],
+  "svg": "<path class=\"p1\" d=\"M9 10.5L4 4M4 4l-1.5-1.5M4 4l1.5-1M15 10.5l5-6.5M20 4l1.5-1.5M20 4l-1.5-1\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"14\" rx=\"5\" ry=\"4\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

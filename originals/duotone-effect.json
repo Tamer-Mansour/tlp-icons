@@ -1,0 +1,10 @@
+{
+  "name": "duotone-effect",
+  "category": "design",
+  "tags": ["duotone", "effect", "two", "tone", "circle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3A9 9 0 0 0 12 21Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

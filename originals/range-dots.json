@@ -1,0 +1,10 @@
+{
+  "name": "range-dots",
+  "category": "interface",
+  "tags": ["range", "slider", "endpoints", "min", "max"],
+  "svg": "<line class=\"p1\" x1=\"6.5\" y1=\"12\" x2=\"17.5\" y2=\"12\"/><circle class=\"p2\" cx=\"4.5\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"19.5\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

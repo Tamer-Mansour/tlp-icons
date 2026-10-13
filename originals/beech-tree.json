@@ -1,0 +1,11 @@
+{
+  "name": "beech-tree",
+  "category": "nature",
+  "tags": ["beech", "tree", "crown", "trunk", "forest"],
+  "svg": "<path class=\"p2\" d=\"M12 15 V21.5\"/><path class=\"p3\" d=\"M7 21.5 H17\"/><circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

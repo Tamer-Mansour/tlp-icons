@@ -1,0 +1,11 @@
+{
+  "name": "phone-jack",
+  "category": "communication",
+  "tags": ["jack", "plug", "socket", "audio", "connector", "cable"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M8 12h5\"/><rect class=\"p3\" x=\"13\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

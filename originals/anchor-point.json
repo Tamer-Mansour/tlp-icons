@@ -1,0 +1,10 @@
+{
+  "name": "anchor-point",
+  "category": "design",
+  "tags": ["anchor", "point", "node", "crosshair", "vector", "edit"],
+  "svg": "<path class=\"p1\" d=\"M3 12h4M17 12h4M12 3v3M12 18v3\"/><rect class=\"p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

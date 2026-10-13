@@ -1,0 +1,11 @@
+{
+  "name": "scheduled-send",
+  "category": "time",
+  "tags": ["send", "scheduled", "plane", "clock", "later", "delay"],
+  "svg": "<path class=\"d p1\" d=\"M2 11L18 4L12 20L10 13Z\"/><circle class=\"p2\" cx=\"19\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M19 15.5V17h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1300, "origin": "19px 17px" }
+  ]
+}

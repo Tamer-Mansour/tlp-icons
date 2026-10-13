@@ -1,0 +1,11 @@
+{
+  "name": "towel-bar",
+  "category": "home",
+  "tags": ["towel bar", "towel rack", "bathroom", "wall bar", "bracket"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18\"/><path class=\"p2\" d=\"M4 7v3M20 7v3\"/><path class=\"d p3\" d=\"M8 10h8v8l-4 2-4-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 7px" }
+  ]
+}

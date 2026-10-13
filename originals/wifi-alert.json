@@ -1,0 +1,10 @@
+{
+  "name": "wifi-alert",
+  "category": "notifications",
+  "tags": ["wifi", "alert", "signal", "offline", "network"],
+  "svg": "<path class=\"p1\" d=\"M2.5 9.5a14 14 0 0 1 19 0\"/><path class=\"p1\" d=\"M6 13a8 8 0 0 1 12 0\"/><line class=\"p2\" x1=\"12\" y1=\"15.5\" x2=\"12\" y2=\"17.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

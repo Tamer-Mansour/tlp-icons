@@ -1,0 +1,10 @@
+{
+  "name": "link-broken",
+  "category": "security",
+  "tags": ["link", "broken", "split", "chain", "unlink", "disconnect"],
+  "svg": "<path class=\"p1\" d=\"M11 6 H7.5 A3.5 3.5 0 0 0 7.5 13 H11\"/><path class=\"p2\" d=\"M13 11 H16.5 A3.5 3.5 0 0 1 16.5 18 H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

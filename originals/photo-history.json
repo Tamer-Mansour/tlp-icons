@@ -1,0 +1,10 @@
+{
+  "name": "photo-history",
+  "category": "photography",
+  "tags": ["photo", "history", "timeline", "past", "rewind"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"9\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M3 12a9 9 0 1 0 2.6-6.4\"/><polyline class=\"p2\" points=\"1.5 10.5 3 12 4.5 10.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "flag-waving",
+  "category": "emoji",
+  "tags": ["flag", "waving", "pennant", "banner", "wave", "country"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"3\" x2=\"5\" y2=\"21\"/><path class=\"d p2\" d=\"M5 4 C9 2 12 6 16 4 C18 3 19 4 19 4 V13 C19 13 18 12 16 13 C12 15 9 11 5 13 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 1200, "delay": 500, "origin": "left" }
+  ]
+}

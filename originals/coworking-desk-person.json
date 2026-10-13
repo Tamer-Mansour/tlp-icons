@@ -1,0 +1,11 @@
+{
+  "name": "coworking-desk-person",
+  "category": "people",
+  "tags": ["coworking", "desk", "chair", "office", "shared", "person"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"12\" width=\"13\" height=\"2\" rx=\"0.5\"/><path class=\"p2\" d=\"M9 14V21M19.5 14V21\"/><path class=\"p2\" d=\"M3 12V16.5H6.5\"/><circle class=\"p3\" cx=\"5\" cy=\"7.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1100 }
+  ]
+}

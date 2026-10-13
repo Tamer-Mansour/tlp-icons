@@ -1,0 +1,11 @@
+{
+  "name": "bernoulli-flow",
+  "category": "science",
+  "tags": ["bernoulli", "flow", "pipe", "pressure", "fluid", "speed"],
+  "svg": "<path class=\"p1\" d=\"M3 7h5l4 3.5 4-3.5h5M3 17h5l4-3.5 4 3.5h5\"/><path class=\"p2\" d=\"M4 12h4M16 12h4\"/><path class=\"p3\" d=\"M9.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 1100 }
+  ]
+}

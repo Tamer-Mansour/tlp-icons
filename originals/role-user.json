@@ -1,0 +1,11 @@
+{
+  "name": "role-user",
+  "category": "development",
+  "tags": ["role", "user", "badge", "permissions", "profile", "identity"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M3 20V18A4 4 0 0 1 11 18V20\"/><rect class=\"p2 d\" x=\"15\" y=\"12\" width=\"7\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M17.5 15.5H19.5M17.5 18H19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "merge-branch",
+  "category": "interface",
+  "tags": ["merge", "branch", "git", "join", "converge", "version"],
+  "svg": "<path class=\"p1\" d=\"M6 3v5a4 4 0 0 0 4 4h2\"/><path class=\"p2\" d=\"M6 21v-5a4 4 0 0 1 4-4h2\"/><path class=\"p3\" d=\"M12 12h3\"/><circle class=\"d p3\" cx=\"17.5\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

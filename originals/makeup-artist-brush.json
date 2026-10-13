@@ -1,0 +1,11 @@
+{
+  "name": "makeup-artist-brush",
+  "category": "people",
+  "tags": ["makeup", "artist", "brush", "cosmetics", "powder", "beauty"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"20\" x2=\"12\" y2=\"12\"/><circle class=\"d p2\" cx=\"17\" cy=\"7\" r=\"4\"/><circle class=\"f p3\" cx=\"8\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

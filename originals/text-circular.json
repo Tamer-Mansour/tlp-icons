@@ -1,0 +1,10 @@
+{
+  "name": "text-circular",
+  "category": "text",
+  "tags": ["circular", "text", "circle", "round", "badge", "ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9.25 7.24A5.5 5.5 0 0 1 14.75 7.24M16.76 9.25A5.5 5.5 0 0 1 16.76 14.75M14.75 16.76A5.5 5.5 0 0 1 9.25 16.76\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 }
+  ]
+}

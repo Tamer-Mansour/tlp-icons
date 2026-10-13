@@ -1,0 +1,11 @@
+{
+  "name": "bus-driver-cap",
+  "category": "people",
+  "tags": ["bus", "driver", "cap", "transit", "uniform", "wheel"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 Q5 5 12 5 Q19 5 19 11 Z\"/><line class=\"p2\" x1=\"3\" y1=\"13\" x2=\"21\" y2=\"13\"/><circle class=\"p3\" cx=\"12\" cy=\"8.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

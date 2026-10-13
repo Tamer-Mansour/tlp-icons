@@ -1,0 +1,11 @@
+{
+  "name": "peeler",
+  "category": "home",
+  "tags": ["peeler", "vegetable", "peel", "kitchen", "blade", "potato"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"15\" width=\"6\" height=\"7\" rx=\"3\"/><path class=\"p2\" d=\"M7 15c0-5 3-9 12-11\"/><path class=\"p3\" d=\"M19 4c1 1.5 1 3-.2 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 500, "delay": 1200, "origin": "19px 4px" }
+  ]
+}

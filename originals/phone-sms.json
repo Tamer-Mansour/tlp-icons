@@ -1,0 +1,11 @@
+{
+  "name": "phone-sms",
+  "category": "communication",
+  "tags": ["phone", "sms", "text", "message", "mobile", "chat"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"3\"/><path class=\"d p2\" d=\"M9 6h6v5h-3l-2 2v-2H9z\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"8.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"8.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"8.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

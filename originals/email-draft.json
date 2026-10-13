@@ -1,0 +1,11 @@
+{
+  "name": "email-draft",
+  "category": "communication",
+  "tags": ["email", "draft", "compose", "write", "pencil", "edit", "message"],
+  "svg": "<path class=\"d p1\" d=\"M2 3h13v10H2z\"/><path class=\"p3\" d=\"M2 3l6.5 5.5L15 3\"/><path class=\"p2\" d=\"M13 21l.8-2.8 6-6 2 2-6 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "system-theme",
+  "category": "interface",
+  "tags": ["system", "theme", "monitor", "auto", "display", "sun"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M8 21h8M12 17v4\"/><circle class=\"d p3\" cx=\"12\" cy=\"10\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

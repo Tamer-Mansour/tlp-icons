@@ -1,0 +1,10 @@
+{
+  "name": "data-erase",
+  "category": "security",
+  "tags": ["data", "erase", "database", "wipe", "delete", "clear"],
+  "svg": "<path class=\"d p1\" d=\"M5 5 V18 C5 19.5 8 20.5 10 20.5 C12 20.5 15 19.5 15 18 V5\"/><ellipse class=\"p1\" cx=\"10\" cy=\"5\" rx=\"5\" ry=\"2\"/><path class=\"p1\" d=\"M5 11.5 C5 13 7 14 10 14 C13 14 15 13 15 11.5\"/><line class=\"p2\" x1=\"9\" y1=\"12.5\" x2=\"19\" y2=\"12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cpu-cooler",
+  "category": "devices",
+  "tags": ["cpu", "cooler", "fan", "heat", "pipe", "processor"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"17\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M7 17 V9 M12 17 V9 M17 17 V9\"/><path class=\"p3\" d=\"M9 6 Q7.5 4.5 9 3 M15 6 Q13.5 4.5 15 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1100 }
+  ]
+}

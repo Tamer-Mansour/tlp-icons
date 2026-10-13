@@ -1,0 +1,10 @@
+{
+  "name": "outbound-arrow",
+  "category": "arrows",
+  "tags": ["outbound", "outgoing", "leave", "box", "send"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"9\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M12 12 L21 3 M15 3 H21 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 600, "delay": 800 }
+  ]
+}

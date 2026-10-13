@@ -1,0 +1,10 @@
+{
+  "name": "ticket-holder-person",
+  "category": "people",
+  "tags": ["ticket", "holder", "attendee", "admission", "pass", "event"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z\"/><circle class=\"p2\" cx=\"12\" cy=\"12.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 700 }
+  ]
+}

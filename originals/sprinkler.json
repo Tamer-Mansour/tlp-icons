@@ -1,0 +1,11 @@
+{
+  "name": "sprinkler",
+  "category": "home",
+  "tags": ["sprinkler", "lawn", "garden", "water", "spray", "watering", "yard"],
+  "svg": "<path class=\"d p1\" d=\"M10 22 L12 13 L14 22 Z\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"18\" y2=\"8\"/><path class=\"p3\" d=\"M5 10 Q5 5 10 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 13px" }
+  ]
+}

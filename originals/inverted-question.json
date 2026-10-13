@@ -1,0 +1,10 @@
+{
+  "name": "inverted-question",
+  "category": "text",
+  "tags": ["inverted", "question", "upside", "down", "spanish", "punctuation", "query"],
+  "svg": "<g transform=\"rotate(180 12 12)\"><path class=\"p1\" d=\"M9 9c0-1.7 1.3-3 3-3s3 1.3 3 3c0 1.5-1.5 2-2.2 2.8-.6.7-.8 1.3-.8 2.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"18\" r=\"1.1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

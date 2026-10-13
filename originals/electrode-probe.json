@@ -1,0 +1,11 @@
+{
+  "name": "electrode-probe",
+  "category": "science",
+  "tags": ["electrode", "probe", "clip", "sensor", "lab"],
+  "svg": "<rect class=\"d p3\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p1\" d=\"M12 6V14\"/><path class=\"p2\" d=\"M10 14L12 21L14 14\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

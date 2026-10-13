@@ -1,0 +1,10 @@
+{
+  "name": "triangle-wave",
+  "category": "math",
+  "tags": ["triangle", "wave", "signal", "oscillation", "math"],
+  "svg": "<polyline class=\"p1\" points=\"3,18 7.5,6 12,18 16.5,6 21,18\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"16.5\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

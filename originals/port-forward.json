@@ -1,0 +1,12 @@
+{
+  "name": "port-forward",
+  "category": "connectivity",
+  "tags": ["port", "forward", "network", "proxy", "tunnel", "route"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"8\" height=\"12\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"2\" height=\"2\"/><rect class=\"p3\" x=\"14\" y=\"6\" width=\"8\" height=\"12\" rx=\"1\"/><path class=\"p4\" d=\"M10 11Q12 3 14 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "jump", "dur": 700, "delay": 1300 }
+  ]
+}

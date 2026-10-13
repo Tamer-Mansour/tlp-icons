@@ -1,0 +1,11 @@
+{
+  "name": "data-notebook",
+  "category": "charts",
+  "tags": ["notebook", "spiral", "journal", "data", "notes", "bars"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"13\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3 7h3M3 11h3M3 15h3\"/><path class=\"p3\" d=\"M12 8h6M12 12h4M12 16h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800, "origin": "left" }
+  ]
+}

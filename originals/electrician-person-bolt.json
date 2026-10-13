@@ -1,0 +1,11 @@
+{
+  "name": "electrician-person-bolt",
+  "category": "people",
+  "tags": ["electrician", "person", "bolt", "electric", "power", "wiring"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M1.5 21v-1a6 6 0 0 1 6-6h1a6 6 0 0 1 6 6v1\"/><polygon class=\"d p3\" points=\"19 2.5 15 12 20 12 16 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

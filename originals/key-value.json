@@ -1,0 +1,10 @@
+{
+  "name": "key-value",
+  "category": "charts",
+  "tags": ["key", "value", "pair", "lookup", "map", "data"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"12\" r=\"3\"/><path class=\"p1\" d=\"M9.5 12H21\"/><path class=\"p2\" d=\"M17 12V14.5M20.5 12V14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

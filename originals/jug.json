@@ -1,0 +1,11 @@
+{
+  "name": "jug",
+  "category": "food",
+  "tags": ["food", "jug", "pitcher", "milk", "water", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h11v9a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3z\"/><path class=\"p2\" d=\"M16 11h2.5a2.5 2.5 0 0 1 0 5H16\"/><path class=\"p3\" d=\"M5 9L3 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pour", "dur": 900, "delay": 1200 }
+  ]
+}

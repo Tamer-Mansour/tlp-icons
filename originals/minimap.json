@@ -1,0 +1,10 @@
+{
+  "name": "minimap",
+  "category": "layout",
+  "tags": ["minimap", "map", "overview", "viewport", "navigation", "preview"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 15L10 11L14 14L17 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

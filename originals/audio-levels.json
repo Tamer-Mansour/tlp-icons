@@ -1,0 +1,11 @@
+{
+  "name": "audio-levels",
+  "category": "charts",
+  "tags": ["audio", "levels", "meter", "volume", "sound", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h4l5-4v14l-5-4H3z\"/><path class=\"p2\" d=\"M16 9a4 4 0 0 1 0 6\"/><path class=\"p3\" d=\"M19 6.5a8 8 0 0 1 0 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

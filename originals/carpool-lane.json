@@ -1,0 +1,11 @@
+{
+  "name": "carpool-lane",
+  "category": "vehicles",
+  "tags": ["carpool", "lane", "car", "diamond", "traffic"],
+  "svg": "<path class=\"p3\" d=\"M2 19h20\"/><rect class=\"d p1\" x=\"3\" y=\"10\" width=\"7\" height=\"5\" rx=\"1.5\"/><rect class=\"d p1\" x=\"14\" y=\"10\" width=\"7\" height=\"5\" rx=\"1.5\"/><polygon class=\"p2\" points=\"12,3 15,6 12,9 9,6\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

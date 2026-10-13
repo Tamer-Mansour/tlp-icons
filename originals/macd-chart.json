@@ -1,0 +1,10 @@
+{
+  "name": "macd-chart",
+  "category": "charts",
+  "tags": ["macd", "histogram", "stock", "indicator", "trading", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 8Q8 3 12 8T21 7\"/><rect class=\"p2\" x=\"5\" y=\"13\" width=\"2\" height=\"6\" rx=\"0.5\"/><rect class=\"p2\" x=\"9\" y=\"15\" width=\"2\" height=\"4\" rx=\"0.5\"/><rect class=\"p2\" x=\"13\" y=\"12\" width=\"2\" height=\"7\" rx=\"0.5\"/><rect class=\"p2\" x=\"17\" y=\"16\" width=\"2\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

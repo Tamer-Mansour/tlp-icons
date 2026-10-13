@@ -1,0 +1,11 @@
+{
+  "name": "sticker-note",
+  "category": "communication",
+  "tags": ["sticker", "note", "star", "label", "memo", "favorite"],
+  "svg": "<path class=\"p1\" d=\"M4 3h16v11l-5 7H4z\"/><path class=\"p2\" d=\"M15 21v-5h5\"/><path class=\"p3\" d=\"M12 7.5l1.2 2.4 2.6.4-1.9 1.8.4 2.6-2.3-1.2-2.3 1.2.4-2.6-1.9-1.8 2.6-.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "koi",
+  "category": "nature",
+  "tags": ["fish", "pond", "japanese", "carp", "water"],
+  "svg": "<path class=\"d p1\" d=\"M4 13c3-3 7-4 11-2 2 1 4 2 6 1-1 3-3 5-6 5-4 0-8-1-11-4z\"/><path class=\"p2\" d=\"M4 13l-2-3v6z\"/><polyline class=\"p3\" points=\"9 11.5 11.5 8 14 11\"/><circle class=\"f p4\" cx=\"17\" cy=\"12.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1100, "origin": "4px 13px" }
+  ]
+}

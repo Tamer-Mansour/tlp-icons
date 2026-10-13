@@ -1,0 +1,11 @@
+{
+  "name": "invoice-check",
+  "category": "interface",
+  "tags": ["invoice", "check", "bill", "receipt", "approved", "document"],
+  "svg": "<path class=\"d p1\" d=\"M4 3H13L17 7V21H4Z\"/><path class=\"p2\" d=\"M7 9H13M7 12H10\"/><path class=\"p3\" d=\"M9 17.5L11 19.5L15 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

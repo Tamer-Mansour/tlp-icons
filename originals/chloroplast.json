@@ -1,0 +1,11 @@
+{
+  "name": "chloroplast",
+  "category": "science",
+  "tags": ["biology", "plant", "photosynthesis", "cell", "organelle", "leaf"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><path class=\"p2\" d=\"M6.5 9h4M6.5 13h4\"/><path class=\"p3\" d=\"M13.5 9h4M13.5 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "breathe", "dur": 1200, "delay": 1300 }
+  ]
+}

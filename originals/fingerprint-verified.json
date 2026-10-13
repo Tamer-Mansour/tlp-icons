@@ -1,0 +1,10 @@
+{
+  "name": "fingerprint-verified",
+  "category": "notifications",
+  "tags": ["fingerprint", "verified", "check", "identity", "secure"],
+  "svg": "<path class=\"p1\" d=\"M5 12a7 7 0 0 1 14 0v2\"/><path class=\"p1\" d=\"M8.5 13a3.5 3.5 0 0 1 7 0c0 2-.5 4-1.5 5.5\"/><path class=\"p1\" d=\"M10.5 16.5c0-1 .5-2.5 1.5-2.5\"/><polyline class=\"p2\" points=\"14 19 16.5 21.5 21 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

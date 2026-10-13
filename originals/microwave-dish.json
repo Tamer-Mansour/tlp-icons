@@ -1,0 +1,11 @@
+{
+  "name": "microwave-dish",
+  "category": "connectivity",
+  "tags": ["microwave", "dish", "antenna", "signal", "backhaul", "wireless"],
+  "svg": "<path class=\"d p1\" d=\"M4 10A8 8 0 0 0 20 10Z\"/><path class=\"p2\" d=\"M7 5A6 6 0 0 1 17 5M9.5 8.5A3.5 3.5 0 0 1 14.5 8.5\"/><path class=\"p3\" d=\"M12 18V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

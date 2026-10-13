@@ -1,0 +1,11 @@
+{
+  "name": "lotus",
+  "category": "nature",
+  "tags": ["lotus", "flower", "water", "petal", "bloom", "meditation"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 Q16 8 16 13 Q16 17 12 17 Q8 17 8 13 Q8 8 12 3 Z\"/><path class=\"p2\" d=\"M7 10 Q4 12 5 16 Q8 15 8 12 M17 10 Q20 12 19 16 Q16 15 16 12\"/><line class=\"p3\" x1=\"12\" y1=\"17\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "12px 21px" }
+  ]
+}

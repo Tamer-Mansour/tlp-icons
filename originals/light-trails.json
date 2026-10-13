@@ -1,0 +1,10 @@
+{
+  "name": "light-trails",
+  "category": "photography",
+  "tags": ["light", "trails", "horizon", "motion", "night"],
+  "svg": "<path class=\"p1\" d=\"M3 5c3-1 6 1 9 0s6-1 7 0M3 9c3-1 6 1 9 0s6-1 7 0M3 13c3-1 6 1 9 0s6-1 7 0\"/><path class=\"p2\" d=\"M2 18h20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "dash", "dur": 1000, "delay": 800 }
+  ]
+}

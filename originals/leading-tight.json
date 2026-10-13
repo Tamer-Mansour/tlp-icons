@@ -1,0 +1,10 @@
+{
+  "name": "leading-tight",
+  "category": "text",
+  "tags": ["line spacing", "leading", "tight", "compact", "typography"],
+  "svg": "<path class=\"p1\" d=\"M4 6.5 V11.5 M2.8 8 L4 6.5 L5.2 8 M2.8 10 L4 11.5 L5.2 10\"/><path class=\"p2\" d=\"M9 6 H21 M9 10 H21 M9 14 H21 M9 18 H21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 600 }
+  ]
+}

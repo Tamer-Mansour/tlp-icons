@@ -1,0 +1,11 @@
+{
+  "name": "ammeter",
+  "category": "science",
+  "tags": ["ammeter", "gauge", "needle", "current", "dial"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M10 9L12 5L14 9M10.8 7.6H13.2\"/><line class=\"p3\" x1=\"12\" y1=\"16\" x2=\"16\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 600, "origin": "12px 16px" }
+  ]
+}

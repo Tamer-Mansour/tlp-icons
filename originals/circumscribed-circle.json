@@ -1,0 +1,10 @@
+{
+  "name": "circumscribed-circle",
+  "category": "math",
+  "tags": ["circumscribed", "circumcircle", "triangle", "vertices", "geometry", "math"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 4.2,16.5 19.8,16.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

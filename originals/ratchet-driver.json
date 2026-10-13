@@ -1,0 +1,11 @@
+{
+  "name": "ratchet-driver",
+  "category": "tools",
+  "tags": ["ratchet", "driver", "head", "handle", "bit"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><line class=\"p2\" x1=\"10\" y1=\"12\" x2=\"20\" y2=\"12\"/><rect class=\"p3\" x=\"18\" y=\"9\" width=\"3\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900, "origin": "7px 12px" }
+  ]
+}

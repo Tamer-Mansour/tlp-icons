@@ -1,0 +1,10 @@
+{
+  "name": "pruning-shears",
+  "category": "nature",
+  "tags": ["shears", "prune", "garden", "cut", "trim"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"18\" r=\"3\"/><circle class=\"p1\" cx=\"18\" cy=\"18\" r=\"3\"/><path class=\"p2\" d=\"M8 15L17 3M16 15L7 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

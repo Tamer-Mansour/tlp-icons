@@ -1,0 +1,11 @@
+{
+  "name": "motor-driver",
+  "category": "devices",
+  "tags": ["motor", "driver", "chip", "controller", "circuit", "electronics"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"9\" height=\"10\" rx=\"1\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M12 10 H15.7 M12 14 H15.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

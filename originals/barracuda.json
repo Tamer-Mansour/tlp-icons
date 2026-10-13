@@ -1,0 +1,11 @@
+{
+  "name": "barracuda",
+  "category": "nature",
+  "tags": ["fish", "slim", "sharp", "fork", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 L7 10 Q13 8.5 17 11 L22 7 L19.5 12 L22 17 L17 13 Q13 15.5 7 14 Z\"/><circle class=\"f p2\" cx=\"6\" cy=\"11.5\" r=\"0.9\"/><path class=\"p3\" d=\"M10 10 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

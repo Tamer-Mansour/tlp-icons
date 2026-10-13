@@ -1,0 +1,10 @@
+{
+  "name": "key-alert",
+  "category": "notifications",
+  "tags": ["key", "alert", "access", "password", "warning"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"4\"/><path class=\"p1\" d=\"M12 12h9M17 12v3M20 12v2\"/><line class=\"p2\" x1=\"19\" y1=\"4\" x2=\"19\" y2=\"7\"/><circle class=\"f p2\" cx=\"19\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cocoon",
+  "category": "nature",
+  "tags": ["silk", "larva", "wrapped", "chrysalis", "pupa"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 C16 8 18 11 18 14 C18 18 15 21 12 21 C9 21 6 18 6 14 C6 11 8 8 12 3 Z\"/><path class=\"p2\" d=\"M7.5 11 L13 9 M7 15 L16 11.5 M9 18 L14 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

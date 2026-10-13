@@ -1,0 +1,10 @@
+{
+  "name": "dash-arrow",
+  "category": "arrows",
+  "tags": ["dash", "dashed", "line", "arrow", "continue", "path"],
+  "svg": "<path class=\"p1\" d=\"M3 12h3M9 12h3\"/><path class=\"p2\" d=\"M14 12h6\"/><path class=\"p2\" d=\"M17 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 700, "delay": 700 }
+  ]
+}

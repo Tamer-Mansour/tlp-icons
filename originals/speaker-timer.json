@@ -1,0 +1,11 @@
+{
+  "name": "speaker-timer",
+  "category": "time",
+  "tags": ["speaker", "talk", "timer", "person", "presenter", "clock"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"d p1\" d=\"M3 21v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3\"/><circle class=\"p2\" cx=\"18\" cy=\"7\" r=\"3.5\"/><path class=\"p3\" d=\"M18 5.5V7h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1200, "origin": "18px 7px" }
+  ]
+}

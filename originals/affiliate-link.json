@@ -1,0 +1,11 @@
+{
+  "name": "affiliate-link",
+  "category": "people",
+  "tags": ["affiliate", "partner", "link", "referral", "person", "network"],
+  "svg": "<path class=\"p2\" d=\"M2.5 21v-2.5a5.5 5.5 0 0 1 11 0V21\"/><circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><rect class=\"p3\" x=\"14\" y=\"8\" width=\"5\" height=\"4\" rx=\"2\"/><rect class=\"p3\" x=\"17\" y=\"12\" width=\"5\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

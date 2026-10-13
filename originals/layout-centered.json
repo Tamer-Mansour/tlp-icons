@@ -1,0 +1,10 @@
+{
+  "name": "layout-centered",
+  "category": "layout",
+  "tags": ["centered", "layout", "focus block", "margins", "wireframe"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

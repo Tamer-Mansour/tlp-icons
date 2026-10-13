@@ -1,0 +1,11 @@
+{
+  "name": "beacon-tower",
+  "category": "communication",
+  "tags": ["beacon", "tower", "signal", "light", "warning"],
+  "svg": "<path class=\"p1\" d=\"M9 22l1.5-11h3L15 22\"/><circle class=\"d p2\" cx=\"12\" cy=\"7\" r=\"2\"/><path class=\"p3\" d=\"M8 3.5a5.5 5.5 0 0 0 0 7M16 3.5a5.5 5.5 0 0 1 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 900 }
+  ]
+}

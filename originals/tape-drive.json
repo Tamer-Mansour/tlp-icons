@@ -1,0 +1,11 @@
+{
+  "name": "tape-drive",
+  "category": "devices",
+  "tags": ["tape", "drive", "reels", "backup", "storage", "cassette"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><circle class=\"d p2\" cx=\"8\" cy=\"10\" r=\"3\"/><circle class=\"d p2\" cx=\"16\" cy=\"10\" r=\"3\"/><path class=\"p3\" d=\"M8 15h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

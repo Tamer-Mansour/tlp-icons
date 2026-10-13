@@ -1,0 +1,10 @@
+{
+  "name": "sandbox-box",
+  "category": "security",
+  "tags": ["sandbox", "box", "isolated", "container", "test"],
+  "svg": "<path class=\"d p1\" d=\"M3 9l9-4 9 4v10l-9 3-9-3z\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"8\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

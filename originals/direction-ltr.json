@@ -1,0 +1,10 @@
+{
+  "name": "direction-ltr",
+  "category": "arrows",
+  "tags": ["direction", "ltr", "left to right", "text", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 8h16\"/><polyline class=\"p1\" points=\"15 4 19 8 15 12\"/><line class=\"p2\" x1=\"3\" y1=\"16\" x2=\"12\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400, "origin": "left" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "strikethrough-text",
+  "category": "design",
+  "tags": ["strikethrough", "text", "cross", "letter", "format", "delete"],
+  "svg": "<path class=\"p1\" d=\"M5 6h14M12 6v13\"/><path class=\"p2\" d=\"M3 12.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

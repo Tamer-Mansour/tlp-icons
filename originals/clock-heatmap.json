@@ -1,0 +1,11 @@
+{
+  "name": "clock-heatmap",
+  "category": "charts",
+  "tags": ["clock", "heatmap", "hours", "activity", "pattern"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3A9 9 0 0 1 21 12Z\"/><path class=\"p3\" d=\"M12 12L8 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "sweepHour", "dur": 1200, "delay": 1300, "origin": "12px 12px" }
+  ]
+}

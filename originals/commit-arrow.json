@@ -1,0 +1,11 @@
+{
+  "name": "commit-arrow",
+  "category": "development",
+  "tags": ["commit", "git", "arrow", "node", "version", "change"],
+  "svg": "<path class=\"p1\" d=\"M4 16h16\"/><circle class=\"p2\" cx=\"12\" cy=\"16\" r=\"2\"/><path class=\"p3\" d=\"M12 3v9M8.5 8 12 11.5 15.5 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "fall", "dur": 600, "delay": 800 }
+  ]
+}

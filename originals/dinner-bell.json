@@ -1,0 +1,12 @@
+{
+  "name": "dinner-bell",
+  "category": "notifications",
+  "tags": ["bell", "dinner", "ring", "hand bell", "call", "service"],
+  "svg": "<path class=\"d p1\" d=\"M5 16c0-4.5 2-7 7-7s7 2.5 7 7z\"/><path class=\"p2\" d=\"M3.5 16h17\"/><circle class=\"p3\" cx=\"12\" cy=\"4\" r=\"1.5\"/><path class=\"p4\" d=\"M12 19.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p4", "anim": "rattle", "dur": 700, "delay": 800 }
+  ]
+}

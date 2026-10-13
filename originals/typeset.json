@@ -1,0 +1,11 @@
+{
+  "name": "typeset",
+  "category": "text",
+  "tags": ["typesetting", "alignment", "guides", "type", "layout"],
+  "svg": "<path class=\"p1\" d=\"M6 7h12M12 7v10\"/><path class=\"p2\" d=\"M3 4.5h18\"/><path class=\"p3\" d=\"M3 19.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 800 }
+  ]
+}

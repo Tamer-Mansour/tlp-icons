@@ -1,0 +1,10 @@
+{
+  "name": "salt-pans",
+  "category": "buildings",
+  "tags": ["salt", "pans", "evaporation", "grid", "coastal", "sea"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"4\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"13\" width=\"8\" height=\"7\" rx=\"1\"/><circle class=\"f p2\" cx=\"7\" cy=\"7.5\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 900 }
+  ]
+}

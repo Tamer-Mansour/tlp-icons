@@ -1,0 +1,10 @@
+{
+  "name": "reminder-bell",
+  "category": "time",
+  "tags": ["reminder", "bell", "alert", "notification", "dot", "new"],
+  "svg": "<path class=\"p1\" d=\"M6 10a6 6 0 0 1 12 0v4.5l1.5 2.5h-15L6 14.5z\"/><path class=\"p1\" d=\"M10 20h4\"/><circle class=\"f p2\" cx=\"18\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 400, "origin": "12px 4px" }
+  ]
+}

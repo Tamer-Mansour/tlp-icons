@@ -1,0 +1,11 @@
+{
+  "name": "quarry",
+  "category": "buildings",
+  "tags": ["quarry", "mine", "stone", "terraces", "crane", "excavation"],
+  "svg": "<path class=\"d p1\" d=\"M2 21L7 12H10L13 15H16L21 21Z\"/><path class=\"p2\" d=\"M15 12V3.5M9.5 5.5h11\"/><path class=\"p3\" d=\"M19 5.5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "19px 5.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "foot-pedal",
+  "category": "devices",
+  "tags": ["foot", "pedal", "switch", "control", "input", "pedal"],
+  "svg": "<path class=\"d p1\" d=\"M7 19L9 7h6l2 12z\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M12 7V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

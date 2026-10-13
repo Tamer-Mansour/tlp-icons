@@ -1,0 +1,11 @@
+{
+  "name": "sloth",
+  "category": "nature",
+  "tags": ["animal", "tree", "slow", "hanging", "jungle"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"4\" x2=\"22\" y2=\"4\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"13\" rx=\"4.5\" ry=\"5.5\"/><path class=\"p2\" d=\"M9 4.5L9.5 8M15 4.5L14.5 8\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 4px" }
+  ]
+}

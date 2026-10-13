@@ -1,0 +1,11 @@
+{
+  "name": "sunburst-rays",
+  "category": "shapes",
+  "tags": ["sunburst", "sun", "rays", "light", "bright"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 6V3M12 18v3M6 12H3M18 12h3\"/><path class=\"p3\" d=\"M7.76 7.76L6.34 6.34M16.24 7.76L17.66 6.34M7.76 16.24L6.34 17.66M16.24 16.24L17.66 17.66\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1000 }
+  ]
+}

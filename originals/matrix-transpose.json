@@ -1,0 +1,11 @@
+{
+  "name": "matrix-transpose",
+  "category": "math",
+  "tags": ["matrix", "transpose", "grid", "linear-algebra", "math"],
+  "svg": "<path class=\"p1\" d=\"M2 3h9v6H2zM5 3v6M8 3v6M2 6h9\"/><path class=\"p2\" d=\"M14 12h6v9h-6zM14 15h6M14 18h6M17 12v9\"/><path class=\"p3\" d=\"M13 4.5C17 4.5 19.5 6.5 19.5 10M17.5 8.5L19.5 10.5L21.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "flip", "dur": 700, "delay": 1300 }
+  ]
+}

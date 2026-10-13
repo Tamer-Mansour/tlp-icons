@@ -1,0 +1,10 @@
+{
+  "name": "insert-above",
+  "category": "arrows",
+  "tags": ["insert", "above", "line", "add", "place"],
+  "svg": "<path class=\"p1\" d=\"M4 18 H20\"/><path class=\"p2\" d=\"M12 14 V5 M8 9 L12 5 L16 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 600, "delay": 800 }
+  ]
+}

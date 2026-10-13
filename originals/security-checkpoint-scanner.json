@@ -1,0 +1,11 @@
+{
+  "name": "security-checkpoint-scanner",
+  "category": "people",
+  "tags": ["security", "checkpoint", "scanner", "gate", "airport", "screening"],
+  "svg": "<path class=\"p1\" d=\"M5 21 V10 A7 7 0 0 1 19 10 V21\"/><path class=\"p2\" d=\"M9 12 H15\"/><circle class=\"f p3\" cx=\"12\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sheep",
+  "category": "nature",
+  "tags": ["sheep", "wool", "fluffy", "farm", "lamb", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M7 15 Q3 15 4 11 Q5 8 8 9 Q9 5 13 6 Q17 5 17 9 Q20 9 19 12 Q19 15 16 15 Z\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"10\" r=\"1.5\"/><path class=\"p3\" d=\"M7 15 V19 M16 15 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1100 }
+  ]
+}

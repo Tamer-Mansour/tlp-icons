@@ -1,0 +1,11 @@
+{
+  "name": "padlock-open",
+  "category": "interface",
+  "tags": ["padlock", "open", "unlock", "lock", "security", "access"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M8 11V7a4 4 0 0 1 7.5-1.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

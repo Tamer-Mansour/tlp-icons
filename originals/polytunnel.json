@@ -1,0 +1,11 @@
+{
+  "name": "polytunnel",
+  "category": "buildings",
+  "tags": ["polytunnel", "tunnel", "greenhouse", "hoop", "farm", "growing"],
+  "svg": "<path class=\"p1\" d=\"M3 19c0-7 4-10 9-10s9 3 9 10\"/><path class=\"p2\" d=\"M2 21h20\"/><path class=\"p3\" d=\"M7 19c0-4 2-6 5-6s5 2 5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "breathe", "dur": 900, "delay": 900, "origin": "bottom" }
+  ]
+}

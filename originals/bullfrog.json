@@ -1,0 +1,12 @@
+{
+  "name": "bullfrog",
+  "category": "nature",
+  "tags": ["frog", "amphibian", "pond", "eyes", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M4 13 Q4 10 8 10 H16 Q20 10 20 13 Q20 18 12 18 Q4 18 4 13 Z\"/><circle class=\"p2\" cx=\"8\" cy=\"8\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M4 14 Q1 14 2 19 Q6 20 8 17\"/><circle class=\"f p4\" cx=\"8\" cy=\"8\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 1000 }
+  ]
+}

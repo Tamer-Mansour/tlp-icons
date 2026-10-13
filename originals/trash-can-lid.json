@@ -1,0 +1,11 @@
+{
+  "name": "trash-can-lid",
+  "category": "home",
+  "tags": ["trash", "bin", "lid", "garbage", "can", "waste"],
+  "svg": "<path class=\"d p1\" d=\"M6 9h12l-1.2 10.5a1.5 1.5 0 0 1-1.5 1.5H8.7a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p3\" d=\"M10 12.5v5M14 12.5v5\"/><path class=\"p2\" d=\"M4 7L8 3.5h11.5L16 7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 1000, "origin": "4px 7px" }
+  ]
+}

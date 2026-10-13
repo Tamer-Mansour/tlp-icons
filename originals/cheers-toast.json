@@ -1,0 +1,10 @@
+{
+  "name": "cheers-toast",
+  "category": "communication",
+  "tags": ["cheers", "toast", "glasses", "celebration", "drink", "clink"],
+  "svg": "<path class=\"p1\" d=\"M4 4h6l-1 6.5a2 2 0 0 1-4 0z\"/><path class=\"p1\" d=\"M7 13v5M4.5 20h5\"/><path class=\"p2\" d=\"M14 4h6l-1 6.5a2 2 0 0 1-4 0z\"/><path class=\"p2\" d=\"M17 13v5M14.5 20h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 800, "origin": "bottom" }
+  ]
+}

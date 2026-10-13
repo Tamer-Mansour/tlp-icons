@@ -1,0 +1,11 @@
+{
+  "name": "dugout-bench",
+  "category": "sport",
+  "tags": ["baseball", "dugout", "bench", "team", "sport"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18\"/><path class=\"p2\" d=\"M4 13h16\"/><path class=\"p3\" d=\"M6 13v6M18 13v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

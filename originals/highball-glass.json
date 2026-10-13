@@ -1,0 +1,11 @@
+{
+  "name": "highball-glass",
+  "category": "home",
+  "tags": ["highball", "tumbler", "glass", "drink", "ice", "cocktail"],
+  "svg": "<path class=\"p1\" d=\"M6 2.5h12v19H6z\"/><rect class=\"d p2\" x=\"9.5\" y=\"7\" width=\"5\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M6 15.5h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

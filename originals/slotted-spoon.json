@@ -1,0 +1,11 @@
+{
+  "name": "slotted-spoon",
+  "category": "food",
+  "tags": ["slotted", "spoon", "strain", "holes", "kitchen"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"9\" rx=\"5\" ry=\"6\"/><circle class=\"f p2\" cx=\"7\" cy=\"7\" r=\"0.9\"/><circle class=\"f p2\" cx=\"11\" cy=\"7\" r=\"0.9\"/><circle class=\"f p2\" cx=\"9\" cy=\"11\" r=\"0.9\"/><line class=\"p3\" x1=\"13\" y1=\"13\" x2=\"20\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

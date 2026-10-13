@@ -1,0 +1,10 @@
+{
+  "name": "moderator-shield",
+  "category": "people",
+  "tags": ["moderator", "shield", "person", "guard", "community", "oversight"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5l7.5 3v5.5c0 4.5-3 7.5-7.5 10.5C7.5 18.5 4.5 15.5 4.5 11V5.5z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M8.5 16c.6-1.8 1.8-2.5 3.5-2.5s2.9.7 3.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

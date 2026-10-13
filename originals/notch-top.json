@@ -1,0 +1,10 @@
+{
+  "name": "notch-top",
+  "category": "layout",
+  "tags": ["notch", "phone", "top", "camera", "screen"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M10 2v2.5h4V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

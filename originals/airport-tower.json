@@ -1,0 +1,11 @@
+{
+  "name": "airport-tower",
+  "category": "vehicles",
+  "tags": ["airport", "tower", "control", "runway", "aviation"],
+  "svg": "<path class=\"p1\" d=\"M10 22l1.5-10h1L14 22\"/><rect class=\"d p2\" x=\"7\" y=\"4\" width=\"10\" height=\"5\" rx=\"2\"/><path class=\"p3\" d=\"M4 22h16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

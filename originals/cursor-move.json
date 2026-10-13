@@ -1,0 +1,10 @@
+{
+  "name": "cursor-move",
+  "category": "interface",
+  "tags": ["move", "cursor", "arrows", "drag", "reposition", "pointer"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v19M2.5 12h19\"/><path class=\"p2\" d=\"M9.5 5l2.5-2.5 2.5 2.5M9.5 19l2.5 2.5 2.5-2.5M5 9.5L2.5 12 5 14.5M19 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

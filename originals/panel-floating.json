@@ -1,0 +1,11 @@
+{
+  "name": "panel-floating",
+  "category": "layout",
+  "tags": ["panel", "floating", "popover", "overlay", "shadow"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"3\"/><rect class=\"d p2\" x=\"7\" y=\"6\" width=\"11\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M9 18.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

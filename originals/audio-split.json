@@ -1,0 +1,10 @@
+{
+  "name": "audio-split",
+  "category": "media",
+  "tags": ["audio", "split", "cut", "waveform", "trim", "edit"],
+  "svg": "<polyline class=\"p1\" points=\"3,12 5,8 7,16 8.5,12\"/><polyline class=\"p1\" points=\"15.5,12 17,8 19,16 21,12\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

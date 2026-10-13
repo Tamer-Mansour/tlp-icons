@@ -1,0 +1,11 @@
+{
+  "name": "red-carpet",
+  "category": "media",
+  "tags": ["red", "carpet", "premiere", "event", "posts", "gala"],
+  "svg": "<path class=\"d p1\" d=\"M2 16q5-3 10 0t10 0v4H2z\"/><path class=\"p2\" d=\"M4 9v5M20 9v5\"/><circle class=\"f p3\" cx=\"4\" cy=\"7.5\" r=\"1\"/><circle class=\"f p3\" cx=\"20\" cy=\"7.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

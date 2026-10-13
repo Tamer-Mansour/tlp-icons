@@ -1,0 +1,10 @@
+{
+  "name": "skew-tool",
+  "category": "design",
+  "tags": ["skew", "shear", "transform", "slant", "parallelogram", "tool"],
+  "svg": "<path class=\"p1\" d=\"M3 17L8 7h13l-5 10z\"/><path class=\"p2\" d=\"M12 3v18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 600 }
+  ]
+}

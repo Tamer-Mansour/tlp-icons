@@ -1,0 +1,11 @@
+{
+  "name": "life-ring",
+  "category": "sport",
+  "tags": ["life", "ring", "rescue", "lifebuoy", "beach", "safety"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M3 12H7M17 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

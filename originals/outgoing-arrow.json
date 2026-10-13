@@ -1,0 +1,10 @@
+{
+  "name": "outgoing-arrow",
+  "category": "arrows",
+  "tags": ["outgoing", "upload", "send", "tray", "outbox"],
+  "svg": "<path class=\"p1\" d=\"M3 13 V19 H21 V13\"/><path class=\"p2\" d=\"M10 11 L18 3 M12 3 H18 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 600, "delay": 700 }
+  ]
+}

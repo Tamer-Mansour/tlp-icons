@@ -1,0 +1,10 @@
+{
+  "name": "place-value",
+  "category": "math",
+  "tags": ["place", "value", "tens", "ones", "digits", "columns"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"6\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"12\" y=\"4\" width=\"6\" height=\"9\" rx=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"18\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

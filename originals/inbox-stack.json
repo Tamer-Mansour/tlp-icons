@@ -1,0 +1,11 @@
+{
+  "name": "inbox-stack",
+  "category": "communication",
+  "tags": ["inbox", "tray", "mail", "messages", "envelopes", "stack"],
+  "svg": "<path class=\"p1\" d=\"M3 13H8L9.5 15.5H14.5L16 13H21V19H3Z\"/><rect class=\"d p2\" x=\"5\" y=\"2\" width=\"14\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M5 5L12 9L19 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

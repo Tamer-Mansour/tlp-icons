@@ -1,0 +1,11 @@
+{
+  "name": "yacht-club",
+  "category": "buildings",
+  "tags": ["yacht", "club", "sailboat", "sail", "marina", "burgee"],
+  "svg": "<path class=\"d p1\" d=\"M4 16h16l-3 4H7z\"/><path class=\"p2\" d=\"M11 3v13M11 4L5 14h6z\"/><path class=\"p3\" d=\"M11 3h4l-1 1.5 1 1.5h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 600, "delay": 1200 }
+  ]
+}

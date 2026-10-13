@@ -1,0 +1,11 @@
+{
+  "name": "pen-nib",
+  "category": "design",
+  "tags": ["pen", "nib", "fountain", "ink", "write", "calligraphy"],
+  "svg": "<path class=\"d p1\" d=\"M6 4h12v6l-6 11-6-11z\"/><path class=\"p2\" d=\"M12 10v6\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

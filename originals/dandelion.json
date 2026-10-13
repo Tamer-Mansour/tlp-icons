@@ -1,0 +1,11 @@
+{
+  "name": "dandelion",
+  "category": "nature",
+  "tags": ["dandelion", "flower", "seed", "wish", "drift"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M12 12v10\"/><circle class=\"f p3\" cx=\"18\" cy=\"4\" r=\"1\"/><circle class=\"f p3\" cx=\"5\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1100 }
+  ]
+}

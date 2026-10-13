@@ -1,0 +1,11 @@
+{
+  "name": "cricket-insect",
+  "category": "nature",
+  "tags": ["cricket", "insect", "jumping", "bug", "antennae", "chirp"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"4\" ry=\"5\"/><path class=\"p2\" d=\"M10 10Q8 6 5 4M14 10Q16 6 19 4\"/><path class=\"p3\" d=\"M8 15L4 13M16 15L20 13M8 18L4 20M16 18L20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 800, "delay": 1000 }
+  ]
+}

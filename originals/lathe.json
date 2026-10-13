@@ -1,0 +1,11 @@
+{
+  "name": "lathe",
+  "category": "tools",
+  "tags": ["lathe", "turning", "workshop", "spindle", "machine", "metal"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/><rect class=\"d p2\" x=\"3\" y=\"7\" width=\"5\" height=\"12\" rx=\"1\"/><rect class=\"p3\" x=\"8\" y=\"10\" width=\"11\" height=\"5\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900 }
+  ]
+}

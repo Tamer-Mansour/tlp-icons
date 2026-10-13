@@ -1,0 +1,11 @@
+{
+  "name": "delay-echo",
+  "category": "media",
+  "tags": ["echo", "delay", "sound", "audio", "effect", "repeat"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.5\"/><path class=\"p2\" d=\"M9 9a4 4 0 0 1 0 6\"/><path class=\"p3\" d=\"M13 6a8 8 0 0 1 0 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

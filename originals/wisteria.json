@@ -1,0 +1,10 @@
+{
+  "name": "wisteria",
+  "category": "nature",
+  "tags": ["wisteria", "vine", "hanging flowers", "cluster", "climber", "purple"],
+  "svg": "<path class=\"p1\" d=\"M3 3.5c3.5-1 6 1 9 1s5.5-1.5 9-.5\"/><path class=\"p2\" d=\"M5.5 8a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0-3 0M15.5 8a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0-3 0M10.5 11.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0-3 0M10.5 17a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0-3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 900, "origin": "12px 4px" }
+  ]
+}

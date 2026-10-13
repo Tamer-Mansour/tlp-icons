@@ -1,0 +1,11 @@
+{
+  "name": "hedge-maze",
+  "category": "buildings",
+  "tags": ["hedge", "maze", "garden", "walls", "puzzle", "labyrinth"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\"/><path class=\"p2\" d=\"M6 17 V7 H14 V12 H18\"/><circle class=\"f p3\" cx=\"18\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1500 }
+  ]
+}

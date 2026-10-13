@@ -1,0 +1,11 @@
+{
+  "name": "roulette-wheel",
+  "category": "sport",
+  "tags": ["roulette", "wheel", "casino", "spin", "gambling"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"f p3\" cx=\"17\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "orbit", "dur": 1000, "delay": 900, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "moon-halo",
+  "category": "weather",
+  "tags": ["moon", "halo", "ring", "night", "crescent", "weather"],
+  "svg": "<path class=\"p1\" d=\"M15 4.5a7.5 7.5 0 1 0 4.5 10.5 6 6 0 0 1-4.5-10.5z\"/><path class=\"p2\" d=\"M12 2a10 10 0 0 1 7.07 2.93M22 12a10 10 0 0 1-2.93 7.07M12 22a10 10 0 0 1-7.07-2.93M2 12a10 10 0 0 1 2.93-7.07\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900 }
+  ]
+}

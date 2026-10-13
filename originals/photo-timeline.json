@@ -1,0 +1,11 @@
+{
+  "name": "photo-timeline",
+  "category": "photography",
+  "tags": ["photo", "timeline", "sequence", "dates", "history"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M3 16H21M6 14.5v3M18 14.5v3\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 1000, "delay": 1100 }
+  ]
+}

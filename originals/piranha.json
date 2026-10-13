@@ -1,0 +1,12 @@
+{
+  "name": "piranha",
+  "category": "nature",
+  "tags": ["fish", "teeth", "predator", "river", "sharp"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M17 12 L22 7 L20 12 L22 17 Z\"/><polyline class=\"p3\" points=\"5,12 7,14 9,12 11,14 13,12\"/><circle class=\"f p4\" cx=\"8\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 1000 }
+  ]
+}

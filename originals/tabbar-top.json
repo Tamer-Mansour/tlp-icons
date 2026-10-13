@@ -1,0 +1,11 @@
+{
+  "name": "tabbar-top",
+  "category": "layout",
+  "tags": ["tabbar", "top", "labels", "navigation", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"17\" rx=\"2\"/><line class=\"p2\" x1=\"2\" y1=\"10\" x2=\"22\" y2=\"10\"/><path class=\"p3\" d=\"M5 7.5H8M11 7.5H14M17 7.5H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 1000 }
+  ]
+}

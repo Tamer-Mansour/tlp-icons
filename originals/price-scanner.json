@@ -1,0 +1,11 @@
+{
+  "name": "price-scanner",
+  "category": "interface",
+  "tags": ["price", "scanner", "barcode", "checkout", "tag", "retail"],
+  "svg": "<path class=\"p1\" d=\"M3 6V18M6 6V18M9 6V18M12 6V18\"/><path class=\"d p2\" d=\"M15 9H19.5L21.5 12L19.5 15H15Z\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 800 }
+  ]
+}

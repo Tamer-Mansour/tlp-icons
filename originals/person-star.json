@@ -1,0 +1,10 @@
+{
+  "name": "person-star",
+  "category": "people",
+  "tags": ["person", "star", "featured", "favorite", "top", "user"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 21a4.5 4.5 0 0 1 9 0\"/><polygon class=\"p2\" points=\"17 12 18 14.6 20.8 14.8 18.6 16.5 19.4 19.2 17 17.7 14.7 19.2 15.4 16.5 13.2 14.8 16 14.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

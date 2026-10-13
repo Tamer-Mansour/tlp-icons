@@ -1,0 +1,11 @@
+{
+  "name": "rooster",
+  "category": "nature",
+  "tags": ["rooster", "comb", "tail feathers", "cock", "farm"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"14.5\" rx=\"5\" ry=\"4.5\"/><path class=\"p2\" d=\"M5 13 Q2 10 3 4 Q6 7 8 10\"/><g class=\"p3\"><circle cx=\"17.5\" cy=\"9\" r=\"2.3\"/><path d=\"M16 6.8 Q15.5 4 17.5 4.6 Q18.5 3 19.5 4.6 Q20.5 5 20 6.8\"/><path d=\"M19.6 8.6 L22 9.5 L19.6 10.4\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 1000, "delay": 1200 }
+  ]
+}

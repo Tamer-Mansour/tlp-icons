@@ -1,0 +1,11 @@
+{
+  "name": "identity-card-shield",
+  "category": "security",
+  "tags": ["identity", "card", "shield", "id", "protected", "badge"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"d p2\" d=\"M16.5 8L19 9V11.5C19 13.5 18 14.8 16.5 15.5C15 14.8 14 13.5 14 11.5V9Z\"/><path class=\"p3\" d=\"M5.5 10H10.5M5.5 13.5H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

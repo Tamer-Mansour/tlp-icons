@@ -1,0 +1,11 @@
+{
+  "name": "sliding-bevel",
+  "category": "tools",
+  "tags": ["sliding", "bevel", "angle", "wing nut", "stock"],
+  "svg": "<path class=\"p1\" d=\"M4 20L17 7\"/><rect class=\"d p2\" x=\"2\" y=\"15\" width=\"9\" height=\"5\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

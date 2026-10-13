@@ -1,0 +1,10 @@
+{
+  "name": "perspective-transform",
+  "category": "design",
+  "tags": ["perspective", "transform", "trapezoid", "distort", "skew", "3d"],
+  "svg": "<path class=\"d p1\" d=\"M5 6H19L22 18H2Z\"/><path class=\"p2\" d=\"M8.5 12H15.5M12 6V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

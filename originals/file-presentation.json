@@ -1,0 +1,11 @@
+{
+  "name": "file-presentation",
+  "category": "files",
+  "tags": ["file", "presentation", "slides", "chart", "bars", "easel"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"p2\" d=\"M10 18v-4M14 18v-6.5\"/><path class=\"p3\" d=\"M8 20.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 1100 }
+  ]
+}

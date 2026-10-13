@@ -1,0 +1,11 @@
+{
+  "name": "train-brake-handle",
+  "category": "vehicles",
+  "tags": ["brake", "handle", "train", "lever", "control"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"18\" width=\"8\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M7 18L16 7\"/><circle class=\"p3\" cx=\"16\" cy=\"5.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 1000 }
+  ]
+}

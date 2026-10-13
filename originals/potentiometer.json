@@ -1,0 +1,11 @@
+{
+  "name": "potentiometer",
+  "category": "devices",
+  "tags": ["potentiometer", "dial", "resistor", "knob", "electronics"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8.5\" r=\"4.5\"/><line class=\"p2\" x1=\"12\" y1=\"8.5\" x2=\"14.5\" y2=\"6\"/><path class=\"p3\" d=\"M3 18 H6 L8 15 L11 21 L14 15 L16 18 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 1200, "origin": "12px 8.5px" }
+  ]
+}

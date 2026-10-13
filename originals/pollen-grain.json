@@ -1,0 +1,11 @@
+{
+  "name": "pollen-grain",
+  "category": "science",
+  "tags": ["pollen", "grain", "flower", "plant", "dust", "spore"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10.5\" r=\"6.5\"/><circle class=\"f p2\" cx=\"9\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"8.5\" r=\"1\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"13.5\" r=\"1\"/><path class=\"p3\" d=\"M12 19V21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 1100 }
+  ]
+}

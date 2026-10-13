@@ -1,0 +1,11 @@
+{
+  "name": "tag-price",
+  "category": "interface",
+  "tags": ["tag", "price", "label", "sale", "cost", "discount"],
+  "svg": "<path class=\"d p1\" d=\"M3 4V11L12.5 20.5L20.5 12.5L11 3H4Z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/><path class=\"p3\" d=\"M13 9.5H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 900 }
+  ]
+}

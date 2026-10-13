@@ -1,0 +1,11 @@
+{
+  "name": "avatar-placeholder",
+  "category": "interface",
+  "tags": ["avatar", "profile", "user", "person", "placeholder"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p3\" d=\"M8.5 18c.7-1.4 1.9-2 3.5-2s2.8.6 3.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "breathe", "dur": 900, "delay": 900 }
+  ]
+}

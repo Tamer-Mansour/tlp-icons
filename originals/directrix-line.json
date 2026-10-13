@@ -1,0 +1,10 @@
+{
+  "name": "directrix-line",
+  "category": "math",
+  "tags": ["directrix", "parabola", "line", "conic", "focus", "math"],
+  "svg": "<path class=\"p1\" d=\"M4 5Q12 19 20 5\"/><path class=\"p2\" d=\"M3 16.5H7M10 16.5H14M17 16.5H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 900 }
+  ]
+}

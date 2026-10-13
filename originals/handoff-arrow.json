@@ -1,0 +1,11 @@
+{
+  "name": "handoff-arrow",
+  "category": "arrows",
+  "tags": ["handoff", "hand off", "transfer", "pass", "exchange", "hands"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"4\" height=\"8\" rx=\"2\"/><rect class=\"d p2\" x=\"18\" y=\"8\" width=\"4\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M9 12h6M12 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

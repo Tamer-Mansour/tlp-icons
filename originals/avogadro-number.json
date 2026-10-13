@@ -1,0 +1,10 @@
+{
+  "name": "avogadro-number",
+  "category": "science",
+  "tags": ["chemistry", "avogadro", "particles", "count", "dots", "mole"],
+  "svg": "<path class=\"p2\" d=\"M4.5 3H3v18h1.5M19.5 3H21v18h-1.5\"/><g class=\"p1\"><circle class=\"f\" cx=\"8\" cy=\"7\" r=\"1\"/><circle class=\"f\" cx=\"11\" cy=\"7\" r=\"1\"/><circle class=\"f\" cx=\"14\" cy=\"7\" r=\"1\"/><circle class=\"f\" cx=\"8\" cy=\"10\" r=\"1\"/><circle class=\"f\" cx=\"11\" cy=\"10\" r=\"1\"/><circle class=\"f\" cx=\"14\" cy=\"10\" r=\"1\"/><circle class=\"f\" cx=\"8\" cy=\"13\" r=\"1\"/><circle class=\"f\" cx=\"11\" cy=\"13\" r=\"1\"/><circle class=\"f\" cx=\"14\" cy=\"13\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 800, "delay": 500 }
+  ]
+}

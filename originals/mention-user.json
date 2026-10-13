@@ -1,0 +1,11 @@
+{
+  "name": "mention-user",
+  "category": "interface",
+  "tags": ["mention", "at", "tag", "user", "message", "comment"],
+  "svg": "<path class=\"d p1\" d=\"M5 3H19A2 2 0 0 1 21 5V15A2 2 0 0 1 19 17H13L9 21V17H5A2 2 0 0 1 3 15V5A2 2 0 0 1 5 3Z\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M14.5 7.5V11A1.5 1.5 0 0 0 17.5 11V10A5.5 5.5 0 1 0 15.5 14.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

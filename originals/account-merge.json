@@ -1,0 +1,10 @@
+{
+  "name": "account-merge",
+  "category": "people",
+  "tags": ["account", "merge", "combine", "join", "profiles", "unite", "user"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"2.5\"/><path class=\"p1\" d=\"M7 21.5v-1c0-2.2 2.2-4 5-4s5 1.8 5 4v1\"/><circle class=\"d p2\" cx=\"6\" cy=\"4.5\" r=\"2.2\"/><circle class=\"d p2\" cx=\"18\" cy=\"4.5\" r=\"2.2\"/><path class=\"p2\" d=\"M7.8 7.2 10.2 9.8M16.2 7.2 13.8 9.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 }
+  ]
+}

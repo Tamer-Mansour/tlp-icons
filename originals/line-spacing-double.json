@@ -1,0 +1,10 @@
+{
+  "name": "line-spacing-double",
+  "category": "text",
+  "tags": ["line", "spacing", "leading", "gap", "height", "text", "double"],
+  "svg": "<path class=\"p1\" d=\"M10 7h11M10 17h11\"/><path class=\"p2\" d=\"M4 7v10M2.5 9.5L4 7l1.5 2.5M2.5 14.5L4 17l1.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 900, "delay": 700 }
+  ]
+}

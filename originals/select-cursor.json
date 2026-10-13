@@ -1,0 +1,10 @@
+{
+  "name": "select-cursor",
+  "category": "interface",
+  "tags": ["select", "cursor", "pointer", "selection", "box", "mouse"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"d p2\" d=\"M13 13l7 3-3 1 2 3-2 1-2-3-2 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

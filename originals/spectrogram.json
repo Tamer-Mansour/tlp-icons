@@ -1,0 +1,11 @@
+{
+  "name": "spectrogram",
+  "category": "media",
+  "tags": ["spectrogram", "frequency", "tiles", "analysis", "audio", "bands"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"17\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

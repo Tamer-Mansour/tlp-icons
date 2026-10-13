@@ -1,0 +1,10 @@
+{
+  "name": "pie-segments",
+  "category": "shapes",
+  "tags": ["pie", "chart", "segments", "slices", "split"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12v-9M12 12L4.2 7.5M12 12l7.8-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "adaptive-cruise",
+  "category": "vehicles",
+  "tags": ["cruise", "radar", "car", "distance", "adaptive", "speed", "sensor"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 14v-2h2.5l2-4h8l2 4h2.5v2z\"/><circle class=\"p4\" cx=\"7\" cy=\"16.5\" r=\"1.5\"/><circle class=\"p4\" cx=\"17\" cy=\"16.5\" r=\"1.5\"/><path class=\"p3\" d=\"M4 19.5v2h13v-2\"/><path class=\"p2\" d=\"M13 4.5a5 5 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 1400 }
+  ]
+}

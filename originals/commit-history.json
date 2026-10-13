@@ -1,0 +1,11 @@
+{
+  "name": "commit-history",
+  "category": "development",
+  "tags": ["commit", "history", "git", "timeline", "log", "changes"],
+  "svg": "<line class=\"p1\" x1=\"7\" y1=\"3\" x2=\"7\" y2=\"21\"/><circle class=\"f p2\" cx=\"7\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"7\" cy=\"14\" r=\"1.2\"/><path class=\"p3\" d=\"M14 5A7 7 0 0 1 21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "14px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "folder-target",
+  "category": "files",
+  "tags": ["folder", "target", "goal", "aim", "focus", "bullseye"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"14.5\" r=\"3.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

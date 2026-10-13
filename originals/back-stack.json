@@ -1,0 +1,11 @@
+{
+  "name": "back-stack",
+  "category": "layout",
+  "tags": ["back", "stack", "pages", "history", "return", "arrow", "previous"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"3\" width=\"11\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"13\" width=\"11\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M13 17H7M9.5 14.5L7 17l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

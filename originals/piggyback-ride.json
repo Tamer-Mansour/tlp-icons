@@ -1,0 +1,10 @@
+{
+  "name": "piggyback-ride",
+  "category": "people",
+  "tags": ["piggyback", "carry", "ride", "child", "back", "family"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"10\" r=\"2.5\"/><path class=\"p1\" d=\"M8 13v8M8 16l-2.5 5M8 16l2.5 5M8 14l4-1\"/><circle class=\"p2\" cx=\"15\" cy=\"5\" r=\"1.5\"/><path class=\"p2\" d=\"M13.5 8.5h3v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 800 }
+  ]
+}

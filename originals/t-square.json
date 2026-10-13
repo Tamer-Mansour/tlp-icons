@@ -1,0 +1,10 @@
+{
+  "name": "t-square",
+  "category": "tools",
+  "tags": ["t-square", "ruler", "drafting", "straightedge", "architect", "draw"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"4\" height=\"18\" rx=\"1\"/><rect class=\"d p2\" x=\"7\" y=\"10\" width=\"14\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 600 }
+  ]
+}

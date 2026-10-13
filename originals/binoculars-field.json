@@ -1,0 +1,10 @@
+{
+  "name": "binoculars-field",
+  "category": "science",
+  "tags": ["binoculars", "field", "view", "observe", "science", "nature"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"15\" r=\"4\"/><circle class=\"p1\" cx=\"18\" cy=\"15\" r=\"4\"/><path class=\"p2\" d=\"M10 12 V10 H14 V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

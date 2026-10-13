@@ -1,0 +1,11 @@
+{
+  "name": "alpine",
+  "category": "nature",
+  "tags": ["alpine", "mountain", "peak", "snow", "tree", "summit"],
+  "svg": "<polygon class=\"d p1\" points=\"2,20 8,10 12,15 15,11 20,20\"/><path class=\"p2\" d=\"M6.5 13q1.5-1 3 0\"/><polygon class=\"p3\" points=\"19,8 21.5,12.5 16.5,12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

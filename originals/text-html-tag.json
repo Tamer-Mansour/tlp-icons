@@ -1,0 +1,11 @@
+{
+  "name": "text-html-tag",
+  "category": "text",
+  "tags": ["html", "tag", "angle", "brackets", "markup", "code", "element"],
+  "svg": "<polyline class=\"p1\" points=\"8 7 3 12 8 17\"/><polyline class=\"p2\" points=\"16 7 21 12 16 17\"/><path class=\"p3\" d=\"M13.5 6.5l-3 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "timeline-scrubber",
+  "category": "media",
+  "tags": ["scrubber", "timeline", "seek", "progress", "player", "slider"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><line class=\"p3\" x1=\"6\" y1=\"7\" x2=\"6\" y2=\"9\"/><line class=\"p3\" x1=\"18\" y1=\"7\" x2=\"18\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 1100 }
+  ]
+}

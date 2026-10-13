@@ -1,0 +1,11 @@
+{
+  "name": "steel-wool",
+  "category": "tools",
+  "tags": ["steel","wool","scrub","wire","cleaning","polish"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"5\"/><path class=\"p2\" d=\"M8 10c1.3 1.5 2.7-1.5 4 0s2.7 1.5 4 0\"/><path class=\"p3\" d=\"M8 14c1.3 1.5 2.7-1.5 4 0s2.7 1.5 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 1100, "delay": 1000 }
+  ]
+}

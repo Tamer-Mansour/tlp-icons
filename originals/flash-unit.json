@@ -1,0 +1,11 @@
+{
+  "name": "flash-unit",
+  "category": "devices",
+  "tags": ["flash", "strobe", "camera", "light", "photo", "bolt"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 4.5L10.5 7H13.5L12 9.5\"/><path class=\"p3\" d=\"M12 10V18.5M8.5 20.5H15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 900 }
+  ]
+}

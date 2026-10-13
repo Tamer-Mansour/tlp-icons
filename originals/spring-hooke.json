@@ -1,0 +1,10 @@
+{
+  "name": "spring-hooke",
+  "category": "science",
+  "tags": ["spring", "hooke", "elastic", "coil", "physics"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14M5 21h14\"/><polyline class=\"p2\" points=\"12,6 7,8.5 17,11 7,13.5 17,16 12,18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 900, "delay": 500 }
+  ]
+}

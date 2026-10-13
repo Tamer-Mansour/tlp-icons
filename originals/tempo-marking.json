@@ -1,0 +1,10 @@
+{
+  "name": "tempo-marking",
+  "category": "media",
+  "tags": ["tempo", "marking", "note", "quarter", "speed", "music"],
+  "svg": "<path class=\"p1\" d=\"M8 17V5\"/><circle class=\"p1\" cx=\"6\" cy=\"17\" r=\"2\"/><path class=\"p2\" d=\"M13 9h8M13 14h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 900 }
+  ]
+}

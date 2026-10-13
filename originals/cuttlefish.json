@@ -1,0 +1,11 @@
+{
+  "name": "cuttlefish",
+  "category": "nature",
+  "tags": ["cuttlefish", "squid", "sea", "ocean", "tentacles"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 Q4 4 12 4 Q20 4 20 10 Q20 15 12 15 Q4 15 4 10 Z\"/><path class=\"p2\" d=\"M4 8 Q2 9 2.5 12 Q3 14 5 14 M20 8 Q22 9 21.5 12 Q21 14 19 14\"/><path class=\"p3\" d=\"M9 15 L8 21 M12 15 V21.5 M15 15 L16 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 800, "origin": "12px 15px" }
+  ]
+}

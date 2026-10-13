@@ -1,0 +1,11 @@
+{
+  "name": "chairlift",
+  "category": "sport",
+  "tags": ["chairlift", "ski", "cable", "lift", "mountain", "resort"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"4\" x2=\"22\" y2=\"4\"/><line class=\"p2\" x1=\"9\" y1=\"4\" x2=\"9\" y2=\"8\"/><path class=\"d p3\" d=\"M5 8H13V15H5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pendulum", "dur": 1200, "delay": 900, "origin": "9px 4px" }
+  ]
+}

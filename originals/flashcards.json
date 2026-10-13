@@ -1,0 +1,11 @@
+{
+  "name": "flashcards",
+  "category": "science",
+  "tags": ["flashcards", "cards", "study", "memory", "review", "quiz"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"7\" width=\"12\" height=\"13\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"4\" width=\"12\" height=\"13\" rx=\"2\" transform=\"rotate(12 14 10.5)\"/><path class=\"p3\" d=\"M7 13h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

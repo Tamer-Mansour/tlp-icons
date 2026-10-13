@@ -1,0 +1,10 @@
+{
+  "name": "ice-crystal",
+  "category": "weather",
+  "tags": ["snow", "crystal", "frost", "winter", "hexagon"],
+  "svg": "<polygon class=\"p1\" points=\"12 2.5 20.5 7.25 20.5 16.75 12 21.5 3.5 16.75 3.5 7.25\"/><path class=\"p2\" d=\"M12 12V6.5M12 12L16.5 9.5M12 12L7.5 14.5M12 12V17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "motorized-blinds",
+  "category": "devices",
+  "tags": ["blinds", "motor", "window", "shade", "smart", "slats"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"7\" width=\"16\" height=\"14\" rx=\"1\"/><rect class=\"d p2\" x=\"9\" y=\"2\" width=\"6\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M7 10.5 H17 M7 14 H17 M7 17.5 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

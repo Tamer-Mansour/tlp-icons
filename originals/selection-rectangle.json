@@ -1,0 +1,10 @@
+{
+  "name": "selection-rectangle",
+  "category": "design",
+  "tags": ["selection", "rectangle", "marquee", "dashed", "select", "tool"],
+  "svg": "<path class=\"p1\" d=\"M3 3h4M10 3h4M17 3h4M21 3v4M21 10v4M21 17v4M21 21h-4M14 21h-4M7 21h-4M3 21v-4M3 14v-4M3 7v-4\"/><rect class=\"p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

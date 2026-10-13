@@ -1,0 +1,10 @@
+{
+  "name": "rowboat",
+  "category": "vehicles",
+  "tags": ["rowboat", "boat", "oars", "rowing", "row", "lake"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 H20 L17 17 H7 Z\"/><path class=\"p2\" d=\"M8 12 L3 5 M16 12 L21 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 800 }
+  ]
+}

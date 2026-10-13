@@ -1,0 +1,11 @@
+{
+  "name": "radio-select",
+  "category": "development",
+  "tags": ["radio", "select", "option", "choice", "form", "button"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"6\"/><circle class=\"d p2\" cx=\"8\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M16 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

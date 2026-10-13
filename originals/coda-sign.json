@@ -1,0 +1,10 @@
+{
+  "name": "coda-sign",
+  "category": "media",
+  "tags": ["coda", "sign", "cross", "music", "notation"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M2 12H6M18 12H22M12 2V6M12 18V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 900, "delay": 600 }
+  ]
+}

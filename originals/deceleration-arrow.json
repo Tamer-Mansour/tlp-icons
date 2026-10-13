@@ -1,0 +1,11 @@
+{
+  "name": "deceleration-arrow",
+  "category": "arrows",
+  "tags": ["deceleration", "slow", "decrease", "stop", "brake", "bars"],
+  "svg": "<path class=\"p2\" d=\"M3 9h7\"/><path class=\"p2\" d=\"M3 12h5\"/><path class=\"p2\" d=\"M3 15h3\"/><path class=\"p1\" d=\"M11 12h6\"/><path class=\"p1\" d=\"M14 9l3 3-3 3\"/><path class=\"p3\" d=\"M20 6v12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

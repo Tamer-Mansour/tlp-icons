@@ -1,0 +1,11 @@
+{
+  "name": "dynamite",
+  "category": "emoji",
+  "tags": ["dynamite", "explosive", "bomb", "fuse", "boom", "danger"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"8\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 13 H15 M11 9 Q12 6 15 4.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

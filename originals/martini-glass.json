@@ -1,0 +1,12 @@
+{
+  "name": "martini-glass",
+  "category": "home",
+  "tags": ["martini", "cocktail", "glass", "olive", "drink", "bar"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16l-8 8.5z\"/><path class=\"p2\" d=\"M12 12.5V19\"/><path class=\"p3\" d=\"M8 21h8\"/><circle class=\"f p4\" cx=\"14\" cy=\"4\" r=\"1.2\"/><path class=\"p4\" d=\"M14 4L11 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 800, "delay": 1000, "origin": "14px 4px" }
+  ]
+}

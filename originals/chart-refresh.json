@@ -1,0 +1,11 @@
+{
+  "name": "chart-refresh",
+  "category": "charts",
+  "tags": ["refresh", "reload", "sync", "update", "cycle"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"13\" width=\"3\" height=\"7\"/><rect class=\"p1\" x=\"8\" y=\"9\" width=\"3\" height=\"11\"/><path class=\"p2\" d=\"M12 4A8 8 0 0 1 20 12\"/><path class=\"p3\" d=\"M20 8V12H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

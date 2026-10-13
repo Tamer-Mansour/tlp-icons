@@ -1,0 +1,11 @@
+{
+  "name": "wide-angle",
+  "category": "photography",
+  "tags": ["wide", "angle", "lens", "view", "landscape", "fan", "field"],
+  "svg": "<path class=\"p1\" d=\"M12 20L3.5 6M12 20L20.5 6\"/><path class=\"p2\" d=\"M3.5 6Q12 2.5 20.5 6\"/><circle class=\"f p3\" cx=\"12\" cy=\"20\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

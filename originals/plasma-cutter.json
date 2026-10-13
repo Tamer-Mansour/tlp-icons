@@ -1,0 +1,11 @@
+{
+  "name": "plasma-cutter",
+  "category": "tools",
+  "tags": ["plasma", "cutter", "torch", "metal", "arc", "cutting"],
+  "svg": "<path class=\"p1\" d=\"M3 20H21\"/><path class=\"d p2\" d=\"M13 3L21 11L18 14L10 6Z\"/><path class=\"p3\" d=\"M7 9L3 6M7 9L3 9M7 9L4 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 800 }
+  ]
+}

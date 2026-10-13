@@ -1,0 +1,11 @@
+{
+  "name": "hair-light",
+  "category": "photography",
+  "tags": ["hair light", "top light", "portrait", "rays", "lighting", "subject"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"11\" r=\"4\"/><path class=\"d p2\" d=\"M5 22c0-2.5 3-4.5 7-4.5s7 2 7 4.5\"/><path class=\"p3\" d=\"M12 2.5v2M6 4l1.5 1.5M18 4l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

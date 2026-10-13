@@ -1,0 +1,12 @@
+{
+  "name": "keyboard-lock",
+  "category": "security",
+  "tags": ["keyboard", "lock", "keys", "input", "secure", "typing"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M6 5h2M10 5h2M14 5h2M18 5h2\"/><rect class=\"d p3\" x=\"9\" y=\"17\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M10.5 17v-1.5a1.5 1.5 0 0 1 3 0V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "breakwater",
+  "category": "buildings",
+  "tags": ["breakwater", "blocks", "waves", "harbour", "sea", "defence"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"8\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"9\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M2 19q2.5-1.5 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 1000 }
+  ]
+}

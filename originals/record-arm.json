@@ -1,0 +1,10 @@
+{
+  "name": "record-arm",
+  "category": "media",
+  "tags": ["record", "arm", "track", "recording", "dot", "audio"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"3\"/><circle class=\"f p2\" cx=\"7.5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 800 }
+  ]
+}

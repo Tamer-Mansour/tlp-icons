@@ -1,0 +1,11 @@
+{
+  "name": "overtime",
+  "category": "time",
+  "tags": ["overtime", "extra", "clock", "hours", "late", "past"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M12 9.5V13l2 2\"/><path class=\"p3\" d=\"M5 5a12 12 0 0 1 14 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "12px 13px" }
+  ]
+}

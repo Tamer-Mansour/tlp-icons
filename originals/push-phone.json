@@ -1,0 +1,11 @@
+{
+  "name": "push-phone",
+  "category": "notifications",
+  "tags": ["push", "phone", "mobile", "notification", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2.5\"/><path class=\"p2\" d=\"M12 16v-6M9 13l3-3 3 3\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1400 }
+  ]
+}

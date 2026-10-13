@@ -1,0 +1,11 @@
+{
+  "name": "film-advance",
+  "category": "photography",
+  "tags": ["film", "advance", "lever", "spool", "wind", "camera"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"12\" height=\"10\"/><path class=\"p2\" d=\"M18 12H22\"/><path class=\"p3\" d=\"M19.5 9.5L22 12L19.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1000, "origin": "20px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fishing-pier",
+  "category": "buildings",
+  "tags": ["fishing", "pier", "rod", "dock", "angler", "lake"],
+  "svg": "<path class=\"p1\" d=\"M2 12h13M5 12v9M9 12v9\"/><path class=\"p2\" d=\"M14 12L20 5\"/><path class=\"p3\" d=\"M20 5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "maternity-leave-calendar",
+  "category": "people",
+  "tags": ["maternity", "leave", "calendar", "baby", "bottle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18\"/><path class=\"p3\" d=\"M12 10.5v3M10.5 13.5h3v4.5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1000, "origin": "bottom" }
+  ]
+}

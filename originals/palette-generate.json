@@ -1,0 +1,11 @@
+{
+  "name": "palette-generate",
+  "category": "design",
+  "tags": ["palette", "generate", "colors", "sparkle", "dots", "design"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"8\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"7.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"10.5\" r=\"1\"/><path class=\"p3\" d=\"M16 15.5v3M14.5 17h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1300 }
+  ]
+}

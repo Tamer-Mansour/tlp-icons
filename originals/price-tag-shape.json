@@ -1,0 +1,10 @@
+{
+  "name": "price-tag-shape",
+  "category": "shapes",
+  "tags": ["price", "tag", "sale", "label", "shopping"],
+  "svg": "<path class=\"p1\" d=\"M3 12 L9 5 H20 V19 H9 Z\"/><circle class=\"p2\" cx=\"16\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

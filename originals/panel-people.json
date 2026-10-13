@@ -1,0 +1,10 @@
+{
+  "name": "panel-people",
+  "category": "people",
+  "tags": ["panel", "speakers", "table", "meeting", "team", "discussion"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"8\" r=\"2.2\"/><circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"2.2\"/><circle class=\"p1\" cx=\"19.5\" cy=\"8\" r=\"2.2\"/><path class=\"p1\" d=\"M2 15.5a2.5 2.5 0 0 1 5 0M9.5 15.5a2.5 2.5 0 0 1 5 0M17 15.5a2.5 2.5 0 0 1 5 0\"/><path class=\"p2\" d=\"M2 18.5h20M4 18.5V21M20 18.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

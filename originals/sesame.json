@@ -1,0 +1,11 @@
+{
+  "name": "sesame",
+  "category": "food",
+  "tags": ["sesame", "seed", "seeds", "spice", "topping", "grain"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"11\" rx=\"2.5\" ry=\"3.5\" transform=\"rotate(-30 10 11)\"/><ellipse class=\"p2\" cx=\"14\" cy=\"13\" rx=\"2.5\" ry=\"3.5\" transform=\"rotate(-30 14 13)\"/><circle class=\"f p3\" cx=\"18\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"6\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

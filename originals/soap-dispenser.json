@@ -1,0 +1,11 @@
+{
+  "name": "soap-dispenser",
+  "category": "home",
+  "tags": ["soap", "dispenser", "pump", "bottle", "bathroom", "hand", "wash"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"10\" width=\"10\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M10 10 V7 H16\"/><circle class=\"f p3\" cx=\"18\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pump", "dur": 800, "delay": 500, "origin": "10px 10px" },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "power-off-status",
+  "category": "notifications",
+  "tags": ["power", "off", "status", "shutdown", "offline", "dash"],
+  "svg": "<path class=\"p1\" d=\"M5.76 8.76A6 6 0 1 0 14.24 8.76\"/><path class=\"p2\" d=\"M10 3v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dim", "dur": 800, "delay": 900 }
+  ]
+}

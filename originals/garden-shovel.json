@@ -1,0 +1,10 @@
+{
+  "name": "garden-shovel",
+  "category": "nature",
+  "tags": ["shovel", "dig", "garden", "spade", "soil"],
+  "svg": "<path class=\"p1\" d=\"M9 2h6M12 2v11\"/><path class=\"d p2\" d=\"M9 13h6v3.5a3 3 0 0 1-6 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dig", "dur": 900, "delay": 600 }
+  ]
+}

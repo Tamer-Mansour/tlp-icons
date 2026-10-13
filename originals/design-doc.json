@@ -1,0 +1,11 @@
+{
+  "name": "design-doc",
+  "category": "files",
+  "tags": ["design", "document", "ruler", "pen", "spec", "draft"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18H5z\"/><path class=\"p2\" d=\"M13 15l6-6 2 2-6 6-3 1z\"/><path class=\"p3\" d=\"M7 8h6M7 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

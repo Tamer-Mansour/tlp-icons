@@ -1,0 +1,12 @@
+{
+  "name": "multi-select",
+  "category": "interface",
+  "tags": ["multi", "select", "checkbox", "choose", "list", "selection"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"11\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"11\" height=\"11\" rx=\"2\"/><path class=\"p3\" d=\"M6 8.5l2 2 3.5-4\"/><path class=\"p4\" d=\"M13.5 17.5l2 2 3.5-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1400 }
+  ]
+}

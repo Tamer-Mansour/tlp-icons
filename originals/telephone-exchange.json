@@ -1,0 +1,11 @@
+{
+  "name": "telephone-exchange",
+  "category": "communication",
+  "tags": ["exchange", "building", "telephone", "antenna", "switching", "station"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M6 10 V5 M12 10 V2 M18 10 V5\"/><path class=\"p3\" d=\"M9 10 V6 M15 10 V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "days-left",
+  "category": "time",
+  "tags": ["days", "left", "calendar", "remaining", "time", "progress"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M4 9h16\"/><path class=\"d p3\" d=\"M8 18a4 4 0 0 1 8 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "solder-iron",
+  "category": "science",
+  "tags": ["solder", "iron", "soldering", "tool", "electronics"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M12 11V16M11 16L12 20L13 16\"/><path class=\"p3\" d=\"M16 13Q20 13 20 16Q20 19 17 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

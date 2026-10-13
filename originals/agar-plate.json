@@ -1,0 +1,10 @@
+{
+  "name": "agar-plate",
+  "category": "science",
+  "tags": ["biology", "petri", "culture", "bacteria", "lab", "dish"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"f p2\" d=\"M6.8 10a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M11.8 9a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M13.8 14a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M8.8 15a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 1000 }
+  ]
+}

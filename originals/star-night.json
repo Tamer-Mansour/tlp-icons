@@ -1,0 +1,11 @@
+{
+  "name": "star-night",
+  "category": "nature",
+  "tags": ["night", "stars", "sparkle", "sky", "twinkle"],
+  "svg": "<path class=\"d p1\" d=\"M10 6 L11.5 10.5 L16 12 L11.5 13.5 L10 18 L8.5 13.5 L4 12 L8.5 10.5 Z\"/><path class=\"p2\" d=\"M18 3 L18.7 5.3 L21 6 L18.7 6.7 L18 9 L17.3 6.7 L15 6 L17.3 5.3 Z\"/><path class=\"p3\" d=\"M19.5 12.5 L20 14 L21.5 14.5 L20 15 L19.5 16.5 L19 15 L17.5 14.5 L19 14 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "age-verify",
+  "category": "people",
+  "tags": ["age", "verify", "id", "check", "adult", "card", "approved"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4.5\" width=\"20\" height=\"15\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M4.5 16.5a3 3 0 0 1 6 0\"/><circle class=\"d p3\" cx=\"17\" cy=\"12\" r=\"3\"/><path class=\"p4\" d=\"M15.5 12l1 1 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bike-rack",
+  "category": "vehicles",
+  "tags": ["bike rack", "bicycle", "parking", "stand", "cycle", "storage"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"15\" r=\"4\"/><circle class=\"p1\" cx=\"19\" cy=\"15\" r=\"4\"/><path class=\"p2\" d=\"M5 15l4-6h6l4 6M9 9l3 6\"/><path class=\"p3\" d=\"M9 4h6M12 4v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

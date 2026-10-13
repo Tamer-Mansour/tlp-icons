@@ -1,0 +1,10 @@
+{
+  "name": "justify-content",
+  "category": "layout",
+  "tags": ["justify", "content", "spread", "space", "between", "alignment"],
+  "svg": "<path class=\"p1\" d=\"M3 4V20M21 4V20\"/><rect class=\"p2\" x=\"5\" y=\"9\" width=\"3\" height=\"6\" rx=\".5\"/><rect class=\"p2\" x=\"10.5\" y=\"9\" width=\"3\" height=\"6\" rx=\".5\"/><rect class=\"p2\" x=\"16\" y=\"9\" width=\"3\" height=\"6\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 }
+  ]
+}

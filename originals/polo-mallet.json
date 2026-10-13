@@ -1,0 +1,11 @@
+{
+  "name": "polo-mallet",
+  "category": "sport",
+  "tags": ["polo", "mallet", "horse", "ball", "sport", "game"],
+  "svg": "<path class=\"p1\" d=\"M3 21L15 9\"/><path class=\"p2\" d=\"M12 6L18 12\"/><circle class=\"f p3\" cx=\"19\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "window-tile-vertical",
+  "category": "layout",
+  "tags": ["window", "tile", "vertical", "side", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

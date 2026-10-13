@@ -1,0 +1,10 @@
+{
+  "name": "musician-note",
+  "category": "people",
+  "tags": ["musician", "music", "note", "song", "person"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"8\" r=\"2.5\"/><path class=\"p1\" d=\"M2 20a4 4 0 0 1 8 0\"/><circle class=\"p2\" cx=\"15\" cy=\"17\" r=\"2.2\"/><path class=\"p2\" d=\"M17.2 17V6.5l4.5-1.5V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

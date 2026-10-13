@@ -1,0 +1,10 @@
+{
+  "name": "landing",
+  "category": "buildings",
+  "tags": ["stairs", "landing", "steps", "platform", "floor", "building"],
+  "svg": "<path class=\"p1\" d=\"M2 20h4v-4h4v-4h4V8h4\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 700 }
+  ]
+}

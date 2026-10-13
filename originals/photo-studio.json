@@ -1,0 +1,11 @@
+{
+  "name": "photo-studio",
+  "category": "photography",
+  "tags": ["photo", "studio", "light", "backdrop", "room"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><rect class=\"p2\" x=\"12\" y=\"4\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M6 3v9c0 2 2 3 4 3h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

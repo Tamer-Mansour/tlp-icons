@@ -1,0 +1,10 @@
+{
+  "name": "pecan",
+  "category": "food",
+  "tags": ["pecan", "nut", "seed", "snack", "oval", "shell"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"5.5\" ry=\"8\" transform=\"rotate(-30 12 12)\"/><path class=\"p2\" d=\"M12 6v12\" transform=\"rotate(-30 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

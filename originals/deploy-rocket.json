@@ -1,0 +1,11 @@
+{
+  "name": "deploy-rocket",
+  "category": "development",
+  "tags": ["deploy", "rocket", "launch", "release", "ship"],
+  "svg": "<path class=\"p1\" d=\"M12 3c3 2 4 5 4 9l-2.5 3.5h-3L8 12c0-4 1-7 4-9z\"/><circle class=\"f p2\" cx=\"12\" cy=\"9\" r=\"1.2\"/><path class=\"p3\" d=\"M10 17.5c0 2 1 3 2 3.5 1-.5 2-1.5 2-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 700 }
+  ]
+}

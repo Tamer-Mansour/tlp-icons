@@ -1,0 +1,10 @@
+{
+  "name": "zoom-selection",
+  "category": "design",
+  "tags": ["zoom", "selection", "magnifier", "crop", "focus", "box"],
+  "svg": "<path class=\"p1\" d=\"M3 8V3h5M16 3h5v5M3 16v5h5\"/><circle class=\"d p2\" cx=\"14\" cy=\"14\" r=\"4\"/><path class=\"p2\" d=\"M17 17l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 600 }
+  ]
+}

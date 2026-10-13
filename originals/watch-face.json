@@ -1,0 +1,11 @@
+{
+  "name": "watch-face",
+  "category": "time",
+  "tags": ["watch", "dial", "hands", "clock", "face"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 4.5V6M19.5 12H18M12 19.5V18M4.5 12H6\"/><path class=\"p3\" d=\"M12 12V8M12 12h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

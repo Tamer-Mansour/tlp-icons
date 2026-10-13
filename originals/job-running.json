@@ -1,0 +1,10 @@
+{
+  "name": "job-running",
+  "category": "notifications",
+  "tags": ["job", "running", "gear", "process", "working", "busy"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 500 }
+  ]
+}

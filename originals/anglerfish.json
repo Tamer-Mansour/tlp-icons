@@ -1,0 +1,12 @@
+{
+  "name": "anglerfish",
+  "category": "nature",
+  "tags": ["fish", "lure", "teeth", "deep", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M4 14 Q4 9 10 9 Q16 9 16 14 Q16 19 10 19 Q4 19 4 14 Z\"/><path class=\"p2\" d=\"M14 12 L20 11 L20 16 L14 15\"/><polyline class=\"p3\" points=\"16,13 17,15 18,13 19,15\"/><path class=\"p4\" d=\"M10 9 Q9 6 12 4\"/><circle class=\"f p4\" cx=\"12\" cy=\"3.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "twinkle", "dur": 800, "delay": 800 }
+  ]
+}

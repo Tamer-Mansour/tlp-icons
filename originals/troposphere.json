@@ -1,0 +1,11 @@
+{
+  "name": "troposphere",
+  "category": "weather",
+  "tags": ["atmosphere", "globe", "layer", "cloud", "weather", "sky"],
+  "svg": "<path class=\"p1\" d=\"M3 17 A9 9 0 0 1 21 17\"/><path class=\"p2\" d=\"M5 13 H19\"/><path class=\"p3\" d=\"M7 9 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

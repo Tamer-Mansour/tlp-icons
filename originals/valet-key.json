@@ -1,0 +1,11 @@
+{
+  "name": "valet-key",
+  "category": "vehicles",
+  "tags": ["valet", "key", "car", "parking", "tag", "keys"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"9\" r=\"3.5\"/><path class=\"p2\" d=\"M10.5 11H20M17 11V13.5M20 11V13\"/><path class=\"p3\" d=\"M14 19V17.5L15 16.5H18.5L19.5 17.5V19Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 800, "delay": 900 }
+  ]
+}

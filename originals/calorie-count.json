@@ -1,0 +1,11 @@
+{
+  "name": "calorie-count",
+  "category": "food",
+  "tags": ["calorie", "calories", "count", "diet", "nutrition"],
+  "svg": "<path class=\"d p1\" d=\"M8 21 C5 18 5 14 8 11 C9 13 10 14 11 13 C11 10 10 8 12 5 C15 9 16 12 14 16 C13 19 11 21 8 21 Z\"/><rect class=\"p2\" x=\"17\" y=\"12\" width=\"5\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M9 17 C9 18.5 10 19 11 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

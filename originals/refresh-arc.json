@@ -1,0 +1,10 @@
+{
+  "name": "refresh-arc",
+  "category": "arrows",
+  "tags": ["refresh", "reload", "arc", "retry", "update", "rotate"],
+  "svg": "<path class=\"p1\" d=\"M20 12 A8 8 0 1 1 17.6 6.3\"/><polyline class=\"p2\" points=\"20 3 20 7.5 15.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

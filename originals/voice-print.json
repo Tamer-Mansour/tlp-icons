@@ -1,0 +1,10 @@
+{
+  "name": "voice-print",
+  "category": "security",
+  "tags": ["voice", "print", "sound", "wave", "audio", "identity"],
+  "svg": "<path class=\"p1\" d=\"M3.5 10.5v3M7.5 7v10M11.5 4v16M15.5 8v8\"/><path class=\"p2\" d=\"M18.5 9.5c1.2 1 1.5 2 1.5 3s-.3 2-1.5 3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "equalize", "dur": 1400, "delay": 700, "origin": "bottom" }
+  ]
+}

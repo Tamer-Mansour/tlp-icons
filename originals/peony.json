@@ -1,0 +1,11 @@
+{
+  "name": "peony",
+  "category": "nature",
+  "tags": ["peony", "flower", "bloom", "layered", "garden", "round"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M8.5 11.5a3.5 3.5 0 0 1 7 0\"/><path class=\"p3\" d=\"M12 17v4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

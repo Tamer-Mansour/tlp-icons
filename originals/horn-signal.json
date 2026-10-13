@@ -1,0 +1,10 @@
+{
+  "name": "horn-signal",
+  "category": "communication",
+  "tags": ["horn", "hunting horn", "signal", "sound", "call"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h4l8-4v14l-8-4H3z\"/><path class=\"p2\" d=\"M18 7.5a2.5 2.5 0 0 1 0 5M18 13.5a2.5 2.5 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 600 }
+  ]
+}

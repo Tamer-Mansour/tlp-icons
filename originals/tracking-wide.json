@@ -1,0 +1,11 @@
+{
+  "name": "tracking-wide",
+  "category": "text",
+  "tags": ["tracking", "letter spacing", "wide", "spacing", "type"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12 H5.5 M4 10.5 L2.5 12 L4 13.5\"/><path class=\"p2\" d=\"M8 6 V18 M16 6 V18\"/><path class=\"p3\" d=\"M18.5 12 H21.5 M20 10.5 L21.5 12 L20 13.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "nudgeBack", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

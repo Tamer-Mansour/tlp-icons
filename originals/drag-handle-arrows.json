@@ -1,0 +1,10 @@
+{
+  "name": "drag-handle-arrows",
+  "category": "arrows",
+  "tags": ["drag", "handle", "grip", "move", "reorder"],
+  "svg": "<path class=\"p1\" d=\"M2 12 H6 M4 10 L2 12 L4 14 M18 12 H22 M20 10 L22 12 L20 14\"/><circle class=\"f p2\" cx=\"10\" cy=\"10\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14\" cy=\"10\" r=\"1.2\"/><circle class=\"f p2\" cx=\"10\" cy=\"14\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

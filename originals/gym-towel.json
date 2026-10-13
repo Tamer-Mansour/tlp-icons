@@ -1,0 +1,10 @@
+{
+  "name": "gym-towel",
+  "category": "sport",
+  "tags": ["gym towel", "sweat", "fitness", "folded", "hanging"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"4\" x2=\"21\" y2=\"4\"/><path class=\"d p2\" d=\"M7 4 V17 Q7 21 10.5 21 H13.5 Q17 21 17 17 V4 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 500, "origin": "12px 4px" }
+  ]
+}

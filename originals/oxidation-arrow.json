@@ -1,0 +1,11 @@
+{
+  "name": "oxidation-arrow",
+  "category": "science",
+  "tags": ["oxidation", "electron", "transfer", "atoms", "reaction", "chemistry", "arrow"],
+  "svg": "<circle class=\"d p1\" cx=\"5.5\" cy=\"13\" r=\"3.5\"/><circle class=\"d p1\" cx=\"18.5\" cy=\"13\" r=\"3.5\"/><path class=\"p2\" d=\"M7.5 8.5Q12 3 16.5 8.5\"/><polyline class=\"p3\" points=\"14,7 16.5,8.5 16.5,11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "audit-trail",
+  "category": "security",
+  "tags": ["audit", "trail", "log", "history", "verified", "chain"],
+  "svg": "<circle class=\"f p1\" cx=\"7\" cy=\"5\" r=\"1.2\"/><circle class=\"f p1\" cx=\"7\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"7\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M7 6.5V10.5M7 13.5V17.5\"/><path class=\"p3\" d=\"M14 14.5L17 17.5L21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tracksuit",
+  "category": "sport",
+  "tags": ["tracksuit", "jacket", "zip", "training", "athletic", "warmup"],
+  "svg": "<path class=\"d p1\" d=\"M8 3L3 6L5 11L7 10V21H17V10L19 11L21 6L16 3L14 5H10Z\"/><path class=\"p2\" d=\"M12 5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700, "origin": "top" }
+  ]
+}

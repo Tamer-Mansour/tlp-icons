@@ -1,0 +1,11 @@
+{
+  "name": "flounder",
+  "category": "nature",
+  "tags": ["flounder", "flatfish", "fish", "flat", "sea floor", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"8.5\" ry=\"4\"/><circle class=\"f p2\" cx=\"9\" cy=\"10.5\" r=\"1\"/><circle class=\"f p2\" cx=\"11.5\" cy=\"10.5\" r=\"1\"/><path class=\"p3\" d=\"M20 13L22 10.5V15.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000, "origin": "20px 13px" }
+  ]
+}

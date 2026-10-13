@@ -1,0 +1,12 @@
+{
+  "name": "cow",
+  "category": "nature",
+  "tags": ["cow", "cattle", "horns", "farm", "animal", "dairy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"14\" height=\"8\" rx=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M18 7.5 L17 5 M20 7.5 L21 5\"/><path class=\"p4\" d=\"M6 16 V20 M13 16 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 1400 }
+  ]
+}

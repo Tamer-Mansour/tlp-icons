@@ -1,0 +1,11 @@
+{
+  "name": "layer-stack",
+  "category": "design",
+  "tags": ["layers", "stack", "diamond", "depth", "design"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 21 7.5 12 12 3 7.5Z\"/><path class=\"p2\" d=\"M3 12l9 4.5 9-4.5\"/><path class=\"p3\" d=\"M3 16.5 12 21l9-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 700 }
+  ]
+}

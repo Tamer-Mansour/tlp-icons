@@ -1,0 +1,12 @@
+{
+  "name": "bait-bucket",
+  "category": "sport",
+  "tags": ["bait", "bucket", "fishing", "fish", "pail", "angler"],
+  "svg": "<path class=\"p1\" d=\"M7 3.5Q10 1.5 13 3.5L15.5 2V5L13 3.5Q10 5.5 7 3.5Z\"/><path class=\"d p2\" d=\"M5 11L7 20H17L19 11Z\"/><path class=\"p3\" d=\"M4 11H20\"/><path class=\"p4\" d=\"M5 11Q12 4 19 11\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p1", "anim": "nudge", "dur": 800, "delay": 1300 }
+  ]
+}

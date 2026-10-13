@@ -1,0 +1,11 @@
+{
+  "name": "open-port",
+  "category": "security",
+  "tags": ["security", "port", "socket", "open", "network", "plug"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M9 8.5 V11.5 M15 8.5 V11.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

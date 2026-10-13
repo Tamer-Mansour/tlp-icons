@@ -1,0 +1,10 @@
+{
+  "name": "triple-bond",
+  "category": "science",
+  "tags": ["triple", "bond", "atoms", "chemistry", "molecule"],
+  "svg": "<circle class=\"d p1\" cx=\"4\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"20\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M8 8H16M8 12H16M8 16H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

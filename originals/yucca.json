@@ -1,0 +1,33 @@
+{
+    "name":  "yucca",
+    "category":  "nature",
+    "tags":  [
+                 "yucca",
+                 "sword leaves",
+                 "desert plant",
+                 "trunk",
+                 "succulent",
+                 "shrub"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M6 21C6 14 8 10 11 4M12 21V5M18 21C18 14 16 10 13 4\"/\u003e\u003cpath class=\"p2\" d=\"M3 21H21\"/\u003e\u003ccircle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  400,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  400
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "popIn",
+                       "dur":  300,
+                       "delay":  1100
+                   }
+               ]
+}

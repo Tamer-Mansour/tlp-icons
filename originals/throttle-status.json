@@ -1,0 +1,10 @@
+{
+  "name": "throttle-status",
+  "category": "notifications",
+  "tags": ["throttle", "slider", "control", "limit", "status"],
+  "svg": "<path class=\"p1\" d=\"M4 12h16\"/><circle class=\"d p2\" cx=\"14\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 1000, "delay": 800 }
+  ]
+}

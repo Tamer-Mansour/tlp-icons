@@ -1,0 +1,11 @@
+{
+  "name": "bass-drum",
+  "category": "media",
+  "tags": ["bass", "drum", "kick", "percussion", "beat", "music"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"2.5\"/><line class=\"p3\" x1=\"19\" y1=\"5\" x2=\"15\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "strike", "dur": 500, "delay": 800, "origin": "19px 5px" }
+  ]
+}

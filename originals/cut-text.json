@@ -1,0 +1,11 @@
+{
+  "name": "cut-text",
+  "category": "text",
+  "tags": ["cut", "scissors", "snip", "text", "clip"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"15\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"15\" r=\"2.5\"/><path class=\"p2\" d=\"M8 13L18 4M16 13L6 4\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

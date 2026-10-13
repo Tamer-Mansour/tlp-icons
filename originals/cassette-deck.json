@@ -1,0 +1,11 @@
+{
+  "name": "cassette-deck",
+  "category": "devices",
+  "tags": ["cassette", "tape", "deck", "music", "retro", "recording"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"8.5\" cy=\"11.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"15.5\" cy=\"11.5\" r=\"1.5\"/><line class=\"p3\" x1=\"6\" y1=\"16\" x2=\"18\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

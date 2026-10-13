@@ -1,0 +1,11 @@
+{
+  "name": "golden-spiral",
+  "category": "photography",
+  "tags": ["golden", "spiral", "composition", "ratio", "photo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6.5\" width=\"18\" height=\"11\"/><line class=\"p2\" x1=\"14\" y1=\"6.5\" x2=\"14\" y2=\"17.5\"/><path class=\"p3\" d=\"M14 6.5A11 11 0 0 0 3 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 900 }
+  ]
+}

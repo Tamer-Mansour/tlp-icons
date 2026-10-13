@@ -1,0 +1,11 @@
+{
+  "name": "crown-lock",
+  "category": "security",
+  "tags": ["crown", "lock", "premium", "royal", "admin", "secure"],
+  "svg": "<path class=\"p1\" d=\"M5 13L4 7L8.5 10.5L12 5.5L15.5 10.5L20 7L19 13Z\"/><path class=\"p2\" d=\"M10.5 16V14.5A1.5 1.5 0 0 1 13.5 14.5V16\"/><rect class=\"d p3\" x=\"9\" y=\"16\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1200 }
+  ]
+}

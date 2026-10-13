@@ -1,0 +1,10 @@
+{
+  "name": "pipe-bend",
+  "category": "shapes",
+  "tags": ["pipe", "elbow", "bend", "plumbing", "corner"],
+  "svg": "<path class=\"p1\" d=\"M4 4 H12 A8 8 0 0 1 20 12 V20\"/><path class=\"p2\" d=\"M4 8 H12 A4 4 0 0 1 16 12 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "drawReverse", "dur": 700, "delay": 500 }
+  ]
+}

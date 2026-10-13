@@ -1,0 +1,10 @@
+{
+  "name": "calm",
+  "category": "weather",
+  "tags": ["calm", "still", "air", "flat", "no wind"],
+  "svg": "<path class=\"p1\" d=\"M3 15H21\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1500, "delay": 500 }
+  ]
+}

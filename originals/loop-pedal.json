@@ -1,0 +1,10 @@
+{
+  "name": "loop-pedal",
+  "category": "media",
+  "tags": ["loop", "pedal", "guitar", "effect", "record", "repeat"],
+  "svg": "<path class=\"d p1\" d=\"M5 14h14v5a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8 8a4 4 0 1 1 4 4M12 9v3h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 8px" }
+  ]
+}

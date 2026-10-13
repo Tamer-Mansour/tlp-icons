@@ -1,0 +1,10 @@
+{
+  "name": "chart-grid-lines",
+  "category": "charts",
+  "tags": ["grid", "lines", "guides", "background", "trend"],
+  "svg": "<path class=\"p1\" d=\"M2 6H22M2 12H22M2 18H22\"/><polyline class=\"p2\" points=\"3,16 8,10 13,13 19,7 21,8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fadeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

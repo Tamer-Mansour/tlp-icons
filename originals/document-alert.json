@@ -1,0 +1,10 @@
+{
+  "name": "document-alert",
+  "category": "notifications",
+  "tags": ["document", "alert", "warning", "file", "notice"],
+  "svg": "<path class=\"p1\" d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path class=\"p1\" d=\"M14 3v5h5\"/><path class=\"p2\" d=\"M12 10v3.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

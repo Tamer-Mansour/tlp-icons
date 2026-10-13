@@ -1,0 +1,11 @@
+{
+  "name": "occupancy-sensor",
+  "category": "devices",
+  "tags": ["occupancy", "presence", "room", "person", "sensor", "lights"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 19 V16 Q8 13 12 13 Q16 13 16 16 V19\"/><circle class=\"d p3\" cx=\"12\" cy=\"9\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 800 }
+  ]
+}

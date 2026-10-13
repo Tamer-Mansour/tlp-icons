@@ -1,0 +1,11 @@
+{
+  "name": "weather-radar",
+  "category": "weather",
+  "tags": ["weather radar", "sweep", "scan", "rain", "detect", "weather"],
+  "svg": "<path class=\"p1\" d=\"M4 12 A8 8 0 0 1 20 12 M8 12 A4 4 0 0 1 16 12\"/><path class=\"p2\" d=\"M12 12 L18 8\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

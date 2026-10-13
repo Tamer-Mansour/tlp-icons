@@ -1,0 +1,11 @@
+{
+  "name": "fraction-half",
+  "category": "math",
+  "tags": ["half", "fraction", "circle", "split", "portion", "divide"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3 A9 9 0 0 1 12 21 Z\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flipY", "dur": 600, "delay": 1100 }
+  ]
+}

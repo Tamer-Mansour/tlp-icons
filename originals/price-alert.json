@@ -1,0 +1,10 @@
+{
+  "name": "price-alert",
+  "category": "notifications",
+  "tags": ["price", "tag", "alert", "sale", "change"],
+  "svg": "<path class=\"p1\" d=\"M3 12V5a2 2 0 0 1 2-2h7l9 9-7 7z\"/><circle class=\"f p1\" cx=\"7.5\" cy=\"7.5\" r=\"1\"/><path class=\"p2\" d=\"M11 8.5v3.5\"/><circle class=\"f p2\" cx=\"11\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

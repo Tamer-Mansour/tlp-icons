@@ -1,0 +1,11 @@
+{
+  "name": "cb-radio",
+  "category": "communication",
+  "tags": ["radio", "cb radio", "citizen band", "knobs", "cord", "transceiver"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"14\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 8L8 3\"/><path class=\"p2\" d=\"M17 14h1.5a1.5 1.5 0 0 1 1.5 1.5v4\"/><circle class=\"p3\" cx=\"7\" cy=\"15\" r=\"2\"/><path class=\"p3\" d=\"M12 13v4M14.5 13v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900, "origin": "7px 15px" }
+  ]
+}

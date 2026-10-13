@@ -1,0 +1,11 @@
+{
+  "name": "power-injector",
+  "category": "connectivity",
+  "tags": ["power", "injector", "poe", "ethernet", "plug", "cable"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"10\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M2 10h4M2 14h4M16 12h6\"/><circle class=\"f p3\" cx=\"11\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "infinite-scroll",
+  "category": "layout",
+  "tags": ["infinite", "scroll", "loop", "endless", "feed", "rows"],
+  "svg": "<path class=\"p1\" d=\"M12 12C10 9.5 8.5 8 6.5 8A4 4 0 0 0 6.5 16C8.5 16 10 14.5 12 12S15.5 8 17.5 8A4 4 0 0 1 17.5 16C15.5 16 14 14.5 12 12Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

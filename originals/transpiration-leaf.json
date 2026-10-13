@@ -1,0 +1,11 @@
+{
+  "name": "transpiration-leaf",
+  "category": "science",
+  "tags": ["transpiration", "leaf", "water", "vapor", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M5 15C5 8 9 4 16 4C16 11 12 15 5 15Z\"/><path class=\"p2\" d=\"M3 20H21\"/><path class=\"p3\" d=\"M18 18V12M15.5 14.5L18 12L20.5 14.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fold-arrows",
+  "category": "arrows",
+  "tags": ["fold", "collapse", "chevron", "close", "hide", "stack"],
+  "svg": "<polyline class=\"p1\" points=\"8 6.5 12 10 16 6.5\"/><polyline class=\"p2\" points=\"8 17.5 12 14 16 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "triangle-left",
+  "category": "shapes",
+  "tags": ["triangle", "left", "arrow", "pointer", "direction", "play"],
+  "svg": "<path class=\"p1\" d=\"M3 12L21 4V20Z\"/><rect class=\"d p2\" x=\"17\" y=\"8\" width=\"4\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

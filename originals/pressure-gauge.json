@@ -1,0 +1,11 @@
+{
+  "name": "pressure-gauge",
+  "category": "weather",
+  "tags": ["pressure", "gauge", "dial", "barometer", "meter"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M12 10L16 6\"/><path class=\"p3\" d=\"M12 19V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "loon",
+  "category": "nature",
+  "tags": ["loon", "bird", "water", "lake", "diver"],
+  "svg": "<path class=\"d p1\" d=\"M4 15Q6 11 12 11H17Q20 13 19 15Q15 17 4 15Z\"/><circle class=\"p2\" cx=\"18\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M19.5 9L22 9.5L19.5 10.5\"/><path class=\"p3\" d=\"M2 19H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 1000 }
+  ]
+}

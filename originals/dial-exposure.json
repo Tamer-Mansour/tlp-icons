@@ -1,0 +1,11 @@
+{
+  "name": "dial-exposure",
+  "category": "photography",
+  "tags": ["exposure dial", "camera dial", "settings", "knob", "exposure", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5v1.5M5 12h1.5M17.5 12H19M12 17.5V19\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"15\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

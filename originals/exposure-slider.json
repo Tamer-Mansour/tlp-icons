@@ -1,0 +1,11 @@
+{
+  "name": "exposure-slider",
+  "category": "design",
+  "tags": ["exposure", "slider", "brightness", "sun", "adjust", "control"],
+  "svg": "<path class=\"p1\" d=\"M3 3h8v8H3zM3 17h18\"/><circle class=\"p2\" cx=\"7\" cy=\"7\" r=\"2\"/><circle class=\"p3\" cx=\"15\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

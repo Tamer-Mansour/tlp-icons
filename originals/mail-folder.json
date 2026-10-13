@@ -1,0 +1,11 @@
+{
+  "name": "mail-folder",
+  "category": "communication",
+  "tags": ["mail", "folder", "inbox", "envelope", "files", "organize", "group"],
+  "svg": "<path class=\"d p1\" d=\"M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"7\" y=\"11\" width=\"10\" height=\"6\" rx=\"0.5\"/><path class=\"p3\" d=\"M7 11l5 3.5 5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

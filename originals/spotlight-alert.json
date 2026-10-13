@@ -1,0 +1,10 @@
+{
+  "name": "spotlight-alert",
+  "category": "notifications",
+  "tags": ["spotlight", "beam", "lamp", "alert", "highlight"],
+  "svg": "<path class=\"d p1\" d=\"M8 3 H16 L18 10 H6 Z\"/><line class=\"p2\" x1=\"8\" y1=\"14\" x2=\"4\" y2=\"21\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"16\" y1=\"14\" x2=\"20\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

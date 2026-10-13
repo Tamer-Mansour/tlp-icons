@@ -1,0 +1,10 @@
+{
+  "name": "user-forward",
+  "category": "people",
+  "tags": ["user", "forward", "share", "send", "pass", "person", "redirect"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h5a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M17.5 18.5v-4a3 3 0 0 1 3-3H22\"/><path class=\"p2\" d=\"M19 8.5 22 11.5 19 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

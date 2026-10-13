@@ -1,0 +1,11 @@
+{
+  "name": "pulley-system",
+  "category": "science",
+  "tags": ["pulley", "belt", "lift", "machine", "weight"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"3\"/><circle class=\"p1\" cx=\"17\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M7 5h10M7 11h10M4 8v7\"/><rect class=\"d p3\" x=\"2.5\" y=\"15\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 1100 }
+  ]
+}

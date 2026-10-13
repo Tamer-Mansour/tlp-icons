@@ -1,0 +1,10 @@
+{
+  "name": "play-pause",
+  "category": "interface",
+  "tags": ["play", "pause", "media", "toggle", "video", "control"],
+  "svg": "<path class=\"d p1\" d=\"M3 6L10 10.5L3 15Z\"/><path class=\"p2\" d=\"M15 6V15M19 6V15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "press", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "social-circle",
+  "category": "people",
+  "tags": ["social", "circle", "group", "people", "network", "community"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20.6\" cy=\"9.2\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17.3\" cy=\"19.4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"6.7\" cy=\"19.4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"3.4\" cy=\"9.2\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

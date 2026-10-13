@@ -1,0 +1,10 @@
+{
+  "name": "frequency-bars",
+  "category": "charts",
+  "tags": ["frequency", "bars", "audio", "levels", "equalizer", "signal"],
+  "svg": "<path class=\"p1\" d=\"M6 18v-6M18 18v-9\"/><path class=\"p2\" d=\"M12 18V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "origin": "bottom", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "equalize", "origin": "bottom", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tally-chart",
+  "category": "charts",
+  "tags": ["tally", "count", "marks", "counting", "groups"],
+  "svg": "<path class=\"p1\" d=\"M5 5V19M9 5V19M13 5V19M17 5V19\"/><path class=\"p2\" d=\"M3 15L19 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "whooshIn", "dur": 500, "delay": 800 }
+  ]
+}

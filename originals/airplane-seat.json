@@ -1,0 +1,12 @@
+{
+  "name": "airplane-seat",
+  "category": "vehicles",
+  "tags": ["airplane", "seat", "flight", "tray", "cabin", "travel", "passenger"],
+  "svg": "<path class=\"d p1\" d=\"M6 3.5h3.5V13H6z\"/><path class=\"d p2\" d=\"M6 13h11.5v2.5H6z\"/><path class=\"p3\" d=\"M11 8.5h7\"/><path class=\"p4\" d=\"M15 15.5v4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "slideDown", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

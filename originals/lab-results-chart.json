@@ -1,0 +1,11 @@
+{
+  "name": "lab-results-chart",
+  "category": "science",
+  "tags": ["lab", "results", "chart", "data", "report", "clipboard"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 18v-5M15 18v-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 700, "delay": 900, "origin": "bottom" }
+  ]
+}

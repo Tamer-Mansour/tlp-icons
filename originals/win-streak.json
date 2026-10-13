@@ -1,0 +1,11 @@
+{
+  "name": "win-streak",
+  "category": "sport",
+  "tags": ["streak", "win", "rising", "trend", "momentum", "success"],
+  "svg": "<polyline class=\"p1\" points=\"3,18 9,12 13,15 20,7\"/><polyline class=\"p2\" points=\"15,7 20,7 20,12\"/><path class=\"d p3\" d=\"M5 4Q8 6 6 9Q4 8 5 4Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1100 }
+  ]
+}

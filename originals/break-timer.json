@@ -1,0 +1,11 @@
+{
+  "name": "break-timer",
+  "category": "time",
+  "tags": ["break", "timer", "coffee", "cup", "rest"],
+  "svg": "<path class=\"d p1\" d=\"M5 10h12v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M17 12h1.5a2 2 0 0 1 0 4H17\"/><circle class=\"p3\" cx=\"11\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

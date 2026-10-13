@@ -1,0 +1,11 @@
+{
+  "name": "error-report",
+  "category": "development",
+  "tags": ["error", "report", "exception", "bug", "alert", "failure"],
+  "svg": "<path class=\"p1 d\" d=\"M5 3h9l5 5v13H5z\"/><line class=\"p2\" x1=\"8\" y1=\"13\" x2=\"14\" y2=\"13\"/><line class=\"p2\" x1=\"8\" y1=\"16\" x2=\"12\" y2=\"16\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"3\"/><line class=\"p3\" x1=\"18\" y1=\"4.5\" x2=\"18\" y2=\"6.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"8\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

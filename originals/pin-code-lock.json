@@ -1,0 +1,11 @@
+{
+  "name": "pin-code-lock",
+  "category": "security",
+  "tags": ["pin", "code", "lock", "passcode", "dots", "security"],
+  "svg": "<circle class=\"f p1\" cx=\"8.5\" cy=\"3\" r=\"1\"/><circle class=\"f p1\" cx=\"12\" cy=\"3\" r=\"1\"/><circle class=\"f p1\" cx=\"15.5\" cy=\"3\" r=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"11\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M9 11V9a3 3 0 0 1 6 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

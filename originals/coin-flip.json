@@ -1,0 +1,10 @@
+{
+  "name": "coin-flip",
+  "category": "science",
+  "tags": ["coin", "flip", "toss", "chance", "heads", "random"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"4\" width=\"6\" height=\"16\" rx=\"3\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"3\" y2=\"15\"/><line class=\"p2\" x1=\"21\" y1=\"9\" x2=\"21\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "flipY", "dur": 900, "delay": 700 }
+  ]
+}

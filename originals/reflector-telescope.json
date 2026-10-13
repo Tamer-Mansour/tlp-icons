@@ -1,0 +1,11 @@
+{
+  "name": "reflector-telescope",
+  "category": "science",
+  "tags": ["reflector", "telescope", "mirror", "tube", "optics", "astronomy"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 3h9l-3 11h-3z\"/><path class=\"p2\" d=\"M12 14v4M7 21h10\"/><path class=\"p3\" d=\"M14 17.5l4-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1000, "origin": "14px 17.5px" }
+  ]
+}

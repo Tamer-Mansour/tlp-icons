@@ -1,0 +1,11 @@
+{
+  "name": "enzyme-lock",
+  "category": "science",
+  "tags": ["enzyme", "lock", "key", "binding", "molecule"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"10\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 11V8a3 3 0 0 1 6 0v3\"/><path class=\"p3\" d=\"M14 15.5h7M18 15.5v2M21 15.5v2\"/><circle class=\"f\" cx=\"9\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

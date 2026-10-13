@@ -1,0 +1,11 @@
+{
+  "name": "tortoise",
+  "category": "nature",
+  "tags": ["tortoise", "turtle", "shell", "reptile", "slow", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M4 15 Q4 9 11 9 Q18 9 18 15 Z\"/><line class=\"p2\" x1=\"6\" y1=\"15\" x2=\"6\" y2=\"18\"/><line class=\"p2\" x1=\"16\" y1=\"15\" x2=\"16\" y2=\"18\"/><circle class=\"p3\" cx=\"21\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1000, "origin": "21px 13px" }
+  ]
+}

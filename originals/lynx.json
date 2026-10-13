@@ -1,0 +1,11 @@
+{
+  "name": "lynx",
+  "category": "nature",
+  "tags": ["lynx", "cat", "wildcat", "ears", "feline", "head"],
+  "svg": "<path class=\"d p1\" d=\"M6 9L4 4l5 3h6l5-3-2 5v7H6z\"/><path class=\"p2\" d=\"M4 4l-1-2M20 4l1-2\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

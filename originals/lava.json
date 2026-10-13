@@ -1,0 +1,10 @@
+{
+  "name": "lava",
+  "category": "nature",
+  "tags": ["lava", "volcano", "magma", "drip", "eruption"],
+  "svg": "<path class=\"d p1\" d=\"M3 21c1-6 4-9 9-9s8 3 9 9z\"/><path class=\"p2\" d=\"M12 3c0 2.5-1.5 4-1.5 5.5a1.5 1.5 0 0 0 3 0C13.5 7 12 5.5 12 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "climate-chart",
+  "category": "charts",
+  "tags": ["climate", "chart", "weather", "sun", "cloud", "trend"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M13 9h6a2.5 2.5 0 0 0 0-5 4 4 0 0 0-7.5 1A2.5 2.5 0 0 0 13 9z\"/><polyline class=\"p3\" points=\"3,20 8,15 12,17 21,11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 1100 }
+  ]
+}

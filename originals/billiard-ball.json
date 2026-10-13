@@ -1,0 +1,11 @@
+{
+  "name": "billiard-ball",
+  "category": "sport",
+  "tags": ["billiard", "ball", "pool", "snooker", "number", "stripe"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M3 12H7M17 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

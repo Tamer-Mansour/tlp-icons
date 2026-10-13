@@ -1,0 +1,10 @@
+{
+  "name": "hopper-car",
+  "category": "vehicles",
+  "tags": ["railcar", "hopper", "freight", "cargo", "train"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H21 L18 16 H6 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"20\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"20\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

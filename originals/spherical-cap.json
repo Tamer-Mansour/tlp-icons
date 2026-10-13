@@ -1,0 +1,11 @@
+{
+  "name": "spherical-cap",
+  "category": "shapes",
+  "tags": ["dome", "cap", "sphere", "hemisphere", "arc", "radius"],
+  "svg": "<path class=\"d p1\" d=\"M4 16A8 8 0 0 1 20 16Z\"/><line class=\"p2\" x1=\"2\" y1=\"16\" x2=\"22\" y2=\"16\"/><line class=\"p3\" x1=\"12\" y1=\"16\" x2=\"12\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1100 }
+  ]
+}

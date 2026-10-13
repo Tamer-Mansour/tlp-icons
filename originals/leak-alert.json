@@ -1,0 +1,11 @@
+{
+  "name": "leak-alert",
+  "category": "notifications",
+  "tags": ["leak", "pipe", "water", "alert", "drip", "plumbing"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 8v5\"/><path class=\"p3\" d=\"M9 15.5c-1.6 2-2.2 3-2.2 4a2.2 2.2 0 0 0 4.4 0c0-1-.6-2-2.2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

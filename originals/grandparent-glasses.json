@@ -1,0 +1,11 @@
+{
+  "name": "grandparent-glasses",
+  "category": "people",
+  "tags": ["grandparent", "glasses", "grandma", "grandpa", "elder"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13.5\" r=\"6.5\"/><circle class=\"p2\" cx=\"9\" cy=\"12.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"15\" cy=\"12.5\" r=\"1.5\"/><path class=\"p2\" d=\"M10.5 12.5h3\"/><path class=\"p3\" d=\"M9.5 7.5a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 1100 }
+  ]
+}

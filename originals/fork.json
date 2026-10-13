@@ -1,0 +1,10 @@
+{
+  "name": "fork",
+  "category": "food",
+  "tags": ["fork", "cutlery", "utensil", "eating", "tines"],
+  "svg": "<path class=\"p1\" d=\"M7 3v4M10 3v4M13 3v4\"/><path class=\"d p1\" d=\"M7 7h6v1a3 3 0 0 1-6 0z\"/><path class=\"p2\" d=\"M10 11v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800, "origin": "bottom" }
+  ]
+}

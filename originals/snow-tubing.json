@@ -1,0 +1,11 @@
+{
+  "name": "snow-tubing",
+  "category": "sport",
+  "tags": ["tubing", "snow", "inner", "tube", "slope", "winter"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><line class=\"p3\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "bob", "dur": 1200, "delay": 1000 }
+  ]
+}

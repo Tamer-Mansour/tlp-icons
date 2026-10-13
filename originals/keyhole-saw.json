@@ -1,0 +1,11 @@
+{
+  "name": "keyhole-saw",
+  "category": "tools",
+  "tags": ["saw", "narrow", "blade", "grip", "precision"],
+  "svg": "<path class=\"p1\" d=\"M3 21L14 10\"/><path class=\"d p2\" d=\"M14 10L16 4H20L21 7L17 11Z\"/><path class=\"p3\" d=\"M6 18l2 2M9 15l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

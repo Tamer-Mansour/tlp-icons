@@ -1,0 +1,11 @@
+{
+  "name": "file-id",
+  "category": "files",
+  "tags": ["id", "identity", "card", "badge", "profile"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><rect class=\"d p2\" x=\"6.5\" y=\"10.5\" width=\"11\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 14h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

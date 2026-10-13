@@ -1,0 +1,10 @@
+{
+  "name": "shell-spiral",
+  "category": "nature",
+  "tags": ["shell", "snail", "spiral", "mollusc", "curl", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M3 15Q3 4 12 4Q21 4 21 15Q21 20 12 20Q3 20 3 15Z\"/><path class=\"p2\" d=\"M12 12A2 2 0 0 1 14 14A4 4 0 0 1 10 14A6 6 0 0 1 6 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 700 }
+  ]
+}

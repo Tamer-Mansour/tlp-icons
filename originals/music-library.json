@@ -1,0 +1,11 @@
+{
+  "name": "music-library",
+  "category": "media",
+  "tags": ["music", "library", "records", "shelf", "albums", "collection"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><rect class=\"p2\" x=\"4\" y=\"10\" width=\"4\" height=\"11\" rx=\"1\"/><rect class=\"p2\" x=\"9\" y=\"8\" width=\"4\" height=\"13\" rx=\"1\"/><path class=\"p3\" d=\"M18 3v9\"/><circle class=\"p3\" cx=\"16.5\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 1100 }
+  ]
+}

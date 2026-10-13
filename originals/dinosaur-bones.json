@@ -1,0 +1,11 @@
+{
+  "name": "dinosaur-bones",
+  "category": "science",
+  "tags": ["dinosaur", "bones", "fossil", "skull", "paleontology", "skeleton"],
+  "svg": "<ellipse class=\"d p1\" cx=\"17\" cy=\"7\" rx=\"4\" ry=\"2.5\"/><path class=\"p2\" d=\"M14 9Q10 10 8 15Q5 19 2 19\"/><path class=\"p3\" d=\"M11 12L10 19M14 11L13.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

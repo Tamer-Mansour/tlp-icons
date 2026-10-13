@@ -1,0 +1,11 @@
+{
+  "name": "duck",
+  "category": "nature",
+  "tags": ["duck", "flat bill", "waterfowl", "pond", "bird"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"14\" r=\"6\"/><circle class=\"p3\" cx=\"15.5\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M18.5 7 H21.5 Q22 7.5 21.5 8.5 H18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 1200 }
+  ]
+}

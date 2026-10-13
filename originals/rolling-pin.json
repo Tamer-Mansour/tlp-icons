@@ -1,0 +1,10 @@
+{
+  "name": "rolling-pin",
+  "category": "food",
+  "tags": ["rolling", "pin", "dough", "baking", "food"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M2 12 H6 M18 12 H22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "roll", "dur": 900, "delay": 600 }
+  ]
+}

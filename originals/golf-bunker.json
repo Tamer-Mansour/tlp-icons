@@ -1,0 +1,10 @@
+{
+  "name": "golf-bunker",
+  "category": "sport",
+  "tags": ["golf", "bunker", "sand", "trap", "course", "hazard"],
+  "svg": "<path class=\"d p1\" d=\"M3 18C7 13 17 13 21 18Z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 800, "delay": 600 }
+  ]
+}

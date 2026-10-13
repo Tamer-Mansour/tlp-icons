@@ -1,0 +1,10 @@
+{
+  "name": "road-roller",
+  "category": "tools",
+  "tags": ["road", "roller", "compactor", "drum", "asphalt", "paving"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"16\" r=\"4\"/><path class=\"d p2\" d=\"M12 16V8H17L20 12V16Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1500, "delay": 400 }
+  ]
+}

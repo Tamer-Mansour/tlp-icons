@@ -1,0 +1,11 @@
+{
+  "name": "quasar-jet",
+  "category": "science",
+  "tags": ["quasar", "jet", "beam", "black", "hole", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M2.5 12h3.5\"/><path class=\"p3\" d=\"M17.5 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

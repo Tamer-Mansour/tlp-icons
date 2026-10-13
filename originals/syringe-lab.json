@@ -1,0 +1,11 @@
+{
+  "name": "syringe-lab",
+  "category": "science",
+  "tags": ["syringe", "needle", "injection", "lab", "medical"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"11\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M16 10.5 H20 M20 8.5 V12.5\"/><line class=\"p3\" x1=\"5\" y1=\"10.5\" x2=\"2.5\" y2=\"10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "windshield-washer",
+  "category": "vehicles",
+  "tags": ["windshield", "washer", "spray", "clean", "wiper"],
+  "svg": "<path class=\"d p1\" d=\"M5 16L8 9h8l3 7z\"/><circle class=\"f p2\" cx=\"9\" cy=\"4\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"4\" r=\"1\"/><line class=\"p3\" x1=\"12\" y1=\"16\" x2=\"15\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 16px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "apple-slice",
+  "category": "food",
+  "tags": ["apple", "slice", "fruit", "seed", "wedge"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8.5\"/><path class=\"p2\" d=\"M12 9 V15 M9 10.5 L15 13.5 M15 10.5 L9 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

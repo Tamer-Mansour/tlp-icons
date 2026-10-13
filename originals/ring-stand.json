@@ -1,0 +1,11 @@
+{
+  "name": "ring-stand",
+  "category": "science",
+  "tags": ["lab", "stand", "clamp", "rod", "science"],
+  "svg": "<path class=\"p1\" d=\"M10 3v18M6 21h8\"/><path class=\"p2\" d=\"M10 8h4\"/><circle class=\"p3\" cx=\"20\" cy=\"8\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "10px 8px" }
+  ]
+}

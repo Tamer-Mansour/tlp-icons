@@ -1,0 +1,11 @@
+{
+  "name": "guard-post",
+  "category": "security",
+  "tags": ["guard", "post", "booth", "shield", "security", "watch"],
+  "svg": "<path class=\"p1\" d=\"M5 11V21H19V11\"/><path class=\"d p2\" d=\"M4 11V6.5L12 3L20 6.5V11Z\"/><path class=\"p3\" d=\"M10 21V16H14V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

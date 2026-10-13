@@ -1,0 +1,11 @@
+{
+  "name": "bus-timetable",
+  "category": "vehicles",
+  "tags": ["bus", "timetable", "schedule", "clipboard", "times"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 9h8M8 13h8M8 17h5\"/><path class=\"p3\" d=\"M9 4V2.5h6V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

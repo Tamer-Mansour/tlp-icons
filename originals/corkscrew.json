@@ -1,0 +1,10 @@
+{
+  "name": "corkscrew",
+  "category": "food",
+  "tags": ["corkscrew", "wine", "opener", "cork", "bottle"],
+  "svg": "<path class=\"p1\" d=\"M5 3 H19 M12 3 V6\"/><polyline class=\"p2\" points=\"9,8 15,10.5 9,13 15,15.5 9,18 12,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 14px" }
+  ]
+}

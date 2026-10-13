@@ -1,0 +1,11 @@
+{
+  "name": "beamed-notes",
+  "category": "media",
+  "tags": ["beamed", "notes", "music", "eighth", "beam", "melody"],
+  "svg": "<ellipse class=\"d p1\" cx=\"6\" cy=\"17\" rx=\"2.5\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"17\" cy=\"15\" rx=\"2.5\" ry=\"2\"/><path class=\"p2\" d=\"M8.5 17V5.5M19.5 15V3.5\"/><path class=\"p3\" d=\"M8.5 5.5L19.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 1000 }
+  ]
+}

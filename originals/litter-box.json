@@ -1,0 +1,11 @@
+{
+  "name": "litter-box",
+  "category": "home",
+  "tags": ["litter", "box", "cat", "pet", "scoop"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18v11H3z\"/><path class=\"p2\" d=\"M7 9a3 3 0 0 1 6 0\"/><path class=\"p3\" d=\"M10 6.5l5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 900, "delay": 1100, "origin": "10px 6px" }
+  ]
+}

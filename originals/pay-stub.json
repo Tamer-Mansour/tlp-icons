@@ -1,0 +1,11 @@
+{
+  "name": "pay-stub",
+  "category": "files",
+  "tags": ["pay", "stub", "salary", "slip", "wages", "payroll"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M8 16h8M8 19h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "lunar-eclipse",
+  "category": "weather",
+  "tags": ["moon", "eclipse", "shadow", "lunar", "night", "space"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"d p2\" d=\"M12 5a7 7 0 0 0 0 14a4.5 7 0 0 1 0-14z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 500 }
+  ]
+}

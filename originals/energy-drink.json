@@ -1,0 +1,11 @@
+{
+  "name": "energy-drink",
+  "category": "food",
+  "tags": ["energy", "drink", "can", "caffeine", "bolt", "boost"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 6h10\"/><polyline class=\"p3\" points=\"13.5 9.5 10.5 13 13.5 13 10.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1000 }
+  ]
+}

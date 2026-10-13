@@ -1,0 +1,10 @@
+{
+  "name": "file-bold",
+  "category": "files",
+  "tags": ["bold", "text", "strong", "emphasis", "format"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"d p2\" d=\"M8 8.5h4.5a2.25 2.25 0 0 1 0 4.5H8zM8 13h5.5a2.25 2.25 0 0 1 0 4.5H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

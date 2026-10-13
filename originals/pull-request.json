@@ -1,0 +1,11 @@
+{
+  "name": "pull-request",
+  "category": "interface",
+  "tags": ["pull", "request", "merge", "review", "git", "branch"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M6 7.5V11a5 5 0 0 0 5 5h2M10.5 13.5L13 16l-2.5 2.5\"/><circle class=\"p3\" cx=\"18\" cy=\"18\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

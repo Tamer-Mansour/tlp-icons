@@ -1,0 +1,10 @@
+{
+  "name": "runway-lights",
+  "category": "vehicles",
+  "tags": ["runway", "lights", "airport", "flight", "landing", "strip"],
+  "svg": "<path class=\"p1\" d=\"M9 3L5 21M15 3L19 21\"/><circle class=\"f p2\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 800 }
+  ]
+}

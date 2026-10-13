@@ -1,0 +1,10 @@
+{
+  "name": "tack-room",
+  "category": "buildings",
+  "tags": ["horseshoe", "hook", "tack", "horse", "wall", "equestrian"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"6\"/><path class=\"p2\" d=\"M6 8 V13 A6 6 0 0 0 18 13 V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 500, "origin": "12px 6px" }
+  ]
+}

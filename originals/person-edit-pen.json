@@ -1,0 +1,10 @@
+{
+  "name": "person-edit-pen",
+  "category": "people",
+  "tags": ["edit", "person", "pen", "profile", "modify", "write"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20a5.5 5.5 0 0 1 11 0\"/><path class=\"p2\" d=\"M15.5 20.5l.7-3.2 4-4 1.8 1.8-4 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 800, "origin": "15.5px 20.5px" }
+  ]
+}

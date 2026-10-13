@@ -1,0 +1,11 @@
+{
+  "name": "speaker-cone",
+  "category": "media",
+  "tags": ["speaker", "volume", "audio", "sound", "loud", "output"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h4l6-5v16l-6-5H3z\"/><path class=\"p2\" d=\"M16 9a4 4 0 0 1 0 6\"/><path class=\"p3\" d=\"M19 6a8 8 0 0 1 0 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

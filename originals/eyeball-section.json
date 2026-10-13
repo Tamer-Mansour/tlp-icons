@@ -1,0 +1,12 @@
+{
+  "name": "eyeball-section",
+  "category": "science",
+  "tags": ["eye", "eyeball", "iris", "optic", "anatomy"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"7\"/><circle class=\"d p2\" cx=\"10\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"10\" cy=\"12\" r=\"1\"/><path class=\"p4\" d=\"M17 12h4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

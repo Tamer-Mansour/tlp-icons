@@ -1,0 +1,10 @@
+{
+  "name": "envelope-warp",
+  "category": "design",
+  "tags": ["envelope", "warp", "bulge", "distort", "frame", "shape"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21V18H3Z\"/><path class=\"p2\" d=\"M3 6L12 13L21 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

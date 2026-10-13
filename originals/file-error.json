@@ -1,0 +1,10 @@
+{
+  "name": "file-error",
+  "category": "notifications",
+  "tags": ["file", "error", "document", "fault", "warning"],
+  "svg": "<path class=\"p1\" d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path class=\"p1\" d=\"M14 3v5h5\"/><path class=\"p2\" d=\"M9.5 12.5l4 4m0-4l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

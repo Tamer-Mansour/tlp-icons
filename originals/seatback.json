@@ -1,0 +1,11 @@
+{
+  "name": "seatback",
+  "category": "vehicles",
+  "tags": ["seat", "airplane", "seatback", "tray", "flight", "cabin"],
+  "svg": "<path class=\"d p1\" d=\"M7 3H17Q19 3 19 5V18H5V5Q5 3 7 3Z\"/><path class=\"p2\" d=\"M7 14.5H17\"/><path class=\"p3\" d=\"M9 18V21M15 18V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

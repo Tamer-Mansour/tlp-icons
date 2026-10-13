@@ -1,0 +1,11 @@
+{
+  "name": "uptime-clock",
+  "category": "development",
+  "tags": ["uptime", "clock", "trend", "availability", "monitor", "time"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"13\" r=\"6\"/><path class=\"p2\" d=\"M9 10v3.5h2.5\"/><path class=\"p3\" d=\"M15.5 18.5l2.5-2.5 2 2 2-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 600, "origin": "9px 13px" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

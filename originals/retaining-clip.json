@@ -1,0 +1,10 @@
+{
+  "name": "retaining-clip",
+  "category": "tools",
+  "tags": ["retaining", "clip", "shaft", "spring", "circlip", "holder"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><path class=\"d p2\" d=\"M8 8.5h8a3.5 3.5 0 0 1 0 7H8a3.5 3.5 0 0 1 0-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "no-smoking",
+  "category": "emoji",
+  "tags": ["no smoking", "cigarette", "forbidden", "prohibited", "ban", "tobacco"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><rect class=\"p2\" x=\"6\" y=\"10.5\" width=\"10\" height=\"3\"/><line class=\"p3\" x1=\"5.6\" y1=\"5.6\" x2=\"18.4\" y2=\"18.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

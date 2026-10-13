@@ -1,0 +1,11 @@
+{
+  "name": "download-check",
+  "category": "notifications",
+  "tags": ["download", "check", "tray", "done", "arrow", "save"],
+  "svg": "<path class=\"p1\" d=\"M4 14v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5\"/><path class=\"p2\" d=\"M12 4v11M7.5 10.5L12 15l4.5-4.5\"/><path class=\"p3\" d=\"M15.5 5.5l2 2 3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

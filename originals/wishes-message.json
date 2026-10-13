@@ -1,0 +1,11 @@
+{
+  "name": "wishes-message",
+  "category": "communication",
+  "tags": ["wishes", "message", "star", "sparkle", "bubble", "greeting"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v12h-7l-4 3v-3H4z\"/><polygon class=\"p2\" points=\"11,7.5 12,9.8 14.5,10 12.6,11.6 13.2,14 11,12.7 8.8,14 9.4,11.6 7.5,10 10,9.8\"/><path class=\"p3\" d=\"M19 3v4M17 5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

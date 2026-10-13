@@ -1,0 +1,12 @@
+{
+  "name": "span-timeline",
+  "category": "development",
+  "tags": ["span", "timeline", "gantt", "schedule", "tasks"],
+  "svg": "<path class=\"p4\" d=\"M4 3v18\"/><path class=\"p1\" d=\"M7 6h7\"/><path class=\"p2\" d=\"M7 11h10\"/><path class=\"p3\" d=\"M10 16h7\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ruler-metric",
+  "category": "science",
+  "tags": ["ruler", "measure", "centimeter", "scale", "length", "tool"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M10 9 V11 M18 9 V11\"/><path class=\"p3\" d=\"M6 9 V13 M14 9 V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

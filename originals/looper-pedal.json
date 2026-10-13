@@ -1,0 +1,10 @@
+{
+  "name": "looper-pedal",
+  "category": "devices",
+  "tags": ["looper", "pedal", "loop", "guitar", "effects", "music"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M8.5 12A3.5 3.5 0 1 1 12 15.5\"/><polyline class=\"p2\" points=\"9.5,9.5 8.5,12.5 11.5,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 500 }
+  ]
+}

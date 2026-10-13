@@ -1,0 +1,11 @@
+{
+  "name": "lens-mount",
+  "category": "photography",
+  "tags": ["lens", "mount", "camera", "ring", "tabs"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M12 4V2M18.9 16l1.7 1M5.1 16l-1.7 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "spinHalf", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

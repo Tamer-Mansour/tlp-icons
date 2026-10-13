@@ -1,0 +1,11 @@
+{
+  "name": "public-address",
+  "category": "communication",
+  "tags": ["announcement", "megaphone", "broadcast", "speaker", "public"],
+  "svg": "<path class=\"p1 d\" d=\"M4 9.5h3l7-4.5v12l-7-4.5H4z\"/><path class=\"p2\" d=\"M8.5 15.5L9.5 20.5\"/><path class=\"p3\" d=\"M17.5 9.5a3.5 3.5 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

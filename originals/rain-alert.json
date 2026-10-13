@@ -1,0 +1,11 @@
+{
+  "name": "rain-alert",
+  "category": "notifications",
+  "tags": ["rain", "cloud", "storm", "alert", "warning", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M6 15h10a3 3 0 0 0 0-6 4.5 4.5 0 0 0-8.5 1.5A2.5 2.5 0 0 0 6 15z\"/><path class=\"p2\" d=\"M8 18.5v2.5M12 18.5v2.5\"/><line class=\"p3\" x1=\"21\" y1=\"3\" x2=\"21\" y2=\"8\"/><circle class=\"f p3\" cx=\"21\" cy=\"11.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

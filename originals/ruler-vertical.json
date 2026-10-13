@@ -1,0 +1,10 @@
+{
+  "name": "ruler-vertical",
+  "category": "layout",
+  "tags": ["ruler", "measure", "vertical", "scale", "ticks", "height"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"20\" rx=\"1\"/><line class=\"p2\" x1=\"16\" y1=\"6\" x2=\"13\" y2=\"6\"/><line class=\"p2\" x1=\"16\" y1=\"10\" x2=\"12\" y2=\"10\"/><line class=\"p2\" x1=\"16\" y1=\"14\" x2=\"13\" y2=\"14\"/><line class=\"p2\" x1=\"16\" y1=\"18\" x2=\"12\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400, "origin": "right" }
+  ]
+}

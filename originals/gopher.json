@@ -1,0 +1,11 @@
+{
+  "name": "gopher",
+  "category": "nature",
+  "tags": ["gopher", "rodent", "mound", "burrow", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M3 18 Q3 12 8 12 A4 4 0 0 1 16 12 Q21 12 21 18 Z\"/><path class=\"p2\" d=\"M2 21 H22\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"11\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"11\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

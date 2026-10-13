@@ -1,0 +1,11 @@
+{
+  "name": "ferret",
+  "category": "nature",
+  "tags": ["ferret", "long body", "weasel", "pointed snout", "pet"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 Q4 9.5 7.5 9.5 L16 10.5 Q19.5 11 21.5 12 Q20.5 14.5 16.5 14.5 L8 14.5 Q4 15 4 12 Z\"/><path class=\"p2\" d=\"M4 12 Q2 11.5 2.5 9\"/><circle class=\"f p3\" cx=\"17\" cy=\"11.6\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1300 }
+  ]
+}

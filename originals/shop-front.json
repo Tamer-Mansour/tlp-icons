@@ -1,0 +1,11 @@
+{
+  "name": "shop-front",
+  "category": "buildings",
+  "tags": ["shop", "store", "front", "window", "awning", "retail"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"18\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M3 9l2-5h14l2 5\"/><rect class=\"p3\" x=\"10\" y=\"14\" width=\"4\" height=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

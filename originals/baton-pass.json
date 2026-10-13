@@ -1,0 +1,11 @@
+{
+  "name": "baton-pass",
+  "category": "arrows",
+  "tags": ["baton", "relay", "pass", "handover", "transfer", "runner"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"7\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M13 12h8\"/><path class=\"p3\" d=\"M17 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

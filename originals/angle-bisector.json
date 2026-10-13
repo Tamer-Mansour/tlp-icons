@@ -1,0 +1,10 @@
+{
+  "name": "angle-bisector",
+  "category": "math",
+  "tags": ["angle", "bisector", "geometry", "split", "half"],
+  "svg": "<path class=\"p1\" d=\"M20 5 L4 20 H20\"/><path class=\"p2\" d=\"M4 20 L20 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

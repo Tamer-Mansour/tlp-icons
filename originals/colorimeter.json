@@ -1,0 +1,11 @@
+{
+  "name": "colorimeter",
+  "category": "science",
+  "tags": ["colorimeter", "cuvette", "light", "beam", "measure", "lab", "sensor"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"10\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 15h5.5M16 15h5.5\"/><path class=\"p3\" d=\"M8 6.5a6 6 0 0 1 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

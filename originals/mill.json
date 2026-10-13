@@ -1,0 +1,11 @@
+{
+  "name": "mill",
+  "category": "buildings",
+  "tags": ["mill", "windmill", "grain", "flour", "farm", "wind"],
+  "svg": "<path class=\"d p1\" d=\"M8 21l2-11h4l2 11z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/><path class=\"p3\" d=\"M12 9L5 5M12 9l7 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1400, "delay": 900, "origin": "12px 9px" }
+  ]
+}

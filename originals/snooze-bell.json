@@ -1,0 +1,11 @@
+{
+  "name": "snooze-bell",
+  "category": "time",
+  "tags": ["snooze", "bell", "alarm", "sleep", "reminder", "notification"],
+  "svg": "<path class=\"d p1\" d=\"M7 15.5V11A5 5 0 0 1 17 11V15.5L18.5 17H5.5Z\"/><path class=\"p2\" d=\"M10 19.5A2 2 0 0 0 14 19.5\"/><path class=\"p3\" d=\"M17 2.5H20.5L17 5.5H20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "powerline-adapter",
+  "category": "devices",
+  "tags": ["powerline", "adapter", "plug", "network", "ethernet", "power"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"7\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M7 3 V7 M10 3 V7\"/><path class=\"p3\" d=\"M14 9 Q15.5 7.5 17 9 T20 9 M14 14 Q15.5 12.5 17 14 T20 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "courtroom",
+  "category": "buildings",
+  "tags": ["courtroom", "court", "law", "justice", "scales", "judge"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18M8 21h8\"/><path class=\"p2\" d=\"M5 7h14\"/><path class=\"p3\" d=\"M2 13l3-6 3 6M2 13a3 3 0 0 0 6 0M16 13l3-6 3 6M16 13a3 3 0 0 0 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "newsletter",
+  "category": "communication",
+  "tags": ["newsletter", "news", "email", "bulletin", "column"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 8h12\"/><path class=\"p3\" d=\"M6 12h5M6 15h5M6 18h5M13 12h5M13 15h5M13 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 1000 }
+  ]
+}

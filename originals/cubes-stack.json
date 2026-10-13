@@ -1,0 +1,10 @@
+{
+  "name": "cubes-stack",
+  "category": "shapes",
+  "tags": ["cubes", "boxes", "stack", "pile", "blocks"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"8\" height=\"8\"/><rect class=\"d p1\" x=\"13\" y=\"12\" width=\"8\" height=\"8\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 700 }
+  ]
+}

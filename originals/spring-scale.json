@@ -1,0 +1,11 @@
+{
+  "name": "spring-scale",
+  "category": "science",
+  "tags": ["spring", "scale", "weight", "dial", "measure"],
+  "svg": "<path class=\"p1\" d=\"M8 2h8M12 2v2\"/><path class=\"p2\" d=\"M12 4v2l-2.5 1.5 5 2-5 2 5 2-2.5 1\"/><circle class=\"d p3\" cx=\"12\" cy=\"19.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spring", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wind-chill",
+  "category": "weather",
+  "tags": ["wind chill", "cold", "snowflake", "wind", "temperature", "weather"],
+  "svg": "<path class=\"p1\" d=\"M8 3 V13 M3.5 5.5 L12.5 10.5 M3.5 10.5 L12.5 5.5\"/><path class=\"p2\" d=\"M3 18 H14 Q17 18 17 15 Q17 12.5 14.5 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 800, "delay": 1000 }
+  ]
+}

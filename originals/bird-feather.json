@@ -1,0 +1,11 @@
+{
+  "name": "bird-feather",
+  "category": "science",
+  "tags": ["feather", "bird", "plume", "wing", "light"],
+  "svg": "<path class=\"d p1\" d=\"M20 4C15 5 8 9 5 20C12 17 17 11 20 4Z\"/><path class=\"p2\" d=\"M5 20L20 4\"/><path class=\"p3\" d=\"M9.5 15.5l2 2M9.5 15.5l-2-2M14 11l2 2M14 11l-2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

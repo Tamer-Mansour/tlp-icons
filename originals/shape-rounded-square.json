@@ -1,0 +1,10 @@
+{
+  "name": "shape-rounded-square",
+  "category": "design",
+  "tags": ["square", "rounded", "corner", "shape", "rectangle", "radius"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\"/><rect class=\"p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

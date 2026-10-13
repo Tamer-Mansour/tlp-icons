@@ -1,0 +1,11 @@
+{
+  "name": "kite-flying",
+  "category": "emoji",
+  "tags": ["kite", "flying", "wind", "summer", "toy", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 L19.5 10 L12 17.5 L4.5 10 Z\"/><path class=\"p2\" d=\"M12 2.5 V17.5 M6.5 8 H17.5\"/><path class=\"p3\" d=\"M12 17.5 C9.5 19 14.5 20.5 12 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 1000, "origin": "12px 17.5px" }
+  ]
+}

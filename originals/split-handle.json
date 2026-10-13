@@ -1,0 +1,10 @@
+{
+  "name": "split-handle",
+  "category": "interface",
+  "tags": ["split", "divider", "handle", "panel", "grip", "resize"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v19\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

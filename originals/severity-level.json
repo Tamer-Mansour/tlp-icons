@@ -1,0 +1,10 @@
+{
+  "name": "severity-level",
+  "category": "security",
+  "tags": ["severity", "level", "bars", "priority", "rating", "critical"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"15\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"10\" width=\"4\" height=\"11\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"4\" width=\"4\" height=\"17\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

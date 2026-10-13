@@ -1,0 +1,10 @@
+{
+  "name": "minute-hand",
+  "category": "time",
+  "tags": ["minute", "hand", "clock", "minutes", "time", "face"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 12V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 900, "origin": "12px 12px" }
+  ]
+}

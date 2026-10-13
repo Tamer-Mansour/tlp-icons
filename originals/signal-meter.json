@@ -1,0 +1,12 @@
+{
+  "name": "signal-meter",
+  "category": "media",
+  "tags": ["signal", "meter", "level", "bars", "strength", "audio"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"15\" width=\"3\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"11\" width=\"3\" height=\"9\" rx=\"1\"/><rect class=\"p3\" x=\"13\" y=\"8\" width=\"3\" height=\"12\" rx=\"1\"/><rect class=\"d p4\" x=\"18\" y=\"4\" width=\"3\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 300, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 300, "delay": 400 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

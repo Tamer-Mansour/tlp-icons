@@ -1,0 +1,10 @@
+{
+  "name": "tripod",
+  "category": "devices",
+  "tags": ["tripod", "stand", "camera", "mount", "legs", "photo"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"4\" width=\"10\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M12 7v6l-5 8M12 13l5 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

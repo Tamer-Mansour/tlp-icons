@@ -1,0 +1,12 @@
+{
+  "name": "sentence-break",
+  "category": "text",
+  "tags": ["sentence", "break", "period", "line", "split", "paragraph", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 12h5.5\"/><circle class=\"f p2\" cx=\"10.5\" cy=\"12\" r=\"1.1\"/><path class=\"p3\" d=\"M14.5 6v12\"/><path class=\"p4\" d=\"M18 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "nudge", "dur": 400, "delay": 1100 }
+  ]
+}

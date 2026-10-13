@@ -1,0 +1,11 @@
+{
+  "name": "playback-speed",
+  "category": "media",
+  "tags": ["playback", "speed", "play", "speedometer", "rate", "fast"],
+  "svg": "<path class=\"d p1\" d=\"M3 6L3 18L11 12Z\"/><path class=\"p2\" d=\"M14 17a8 8 0 1 1 7-4\"/><line class=\"p3\" x1=\"16\" y1=\"14\" x2=\"19\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 900, "delay": 1000, "origin": "16px 14px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "token-shape",
+  "category": "shapes",
+  "tags": ["token", "coin", "notched", "rim", "round"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3V5M12 19V21M3 12H5M19 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "headset-chat",
+  "category": "communication",
+  "tags": ["headset", "chat", "support", "call", "operator", "help"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9l-4 3.5V14H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M6 9.5v-1.5a4 4 0 0 1 8 0v1.5\"/><rect class=\"p2\" x=\"5\" y=\"9.5\" width=\"2.5\" height=\"3.5\" rx=\"1\"/><rect class=\"p2\" x=\"12.5\" y=\"9.5\" width=\"2.5\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 700 }
+  ]
+}

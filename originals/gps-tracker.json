@@ -1,0 +1,11 @@
+{
+  "name": "gps-tracker",
+  "category": "devices",
+  "tags": ["gps", "tracker", "location", "satellite", "map"],
+  "svg": "<path class=\"d p1\" d=\"M12 21 C12 21 5 14.5 5 9.5 A7 7 0 0 1 19 9.5 C19 14.5 12 21 12 21 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"9.5\" r=\"2.5\"/><circle class=\"f p3\" cx=\"20\" cy=\"3\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

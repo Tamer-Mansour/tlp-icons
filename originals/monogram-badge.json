@@ -1,0 +1,11 @@
+{
+  "name": "monogram-badge",
+  "category": "people",
+  "tags": ["badge", "monogram", "shield", "letters", "emblem", "crest"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 L20 5.5 V11.5 C20 16.5 16.5 20 12 21.5 C7.5 20 4 16.5 4 11.5 V5.5 Z\"/><path class=\"p2\" d=\"M8 15.5 L10 9 L12 15.5\"/><path class=\"p3\" d=\"M14 9 V15.5 H16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

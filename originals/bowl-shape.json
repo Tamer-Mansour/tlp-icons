@@ -1,0 +1,10 @@
+{
+  "name": "bowl-shape",
+  "category": "shapes",
+  "tags": ["bowl", "dish", "rim", "curve", "container"],
+  "svg": "<path class=\"p1\" d=\"M3 10h18\"/><path class=\"p2\" d=\"M4 10c0 4.5 3.5 8 8 8s8-3.5 8-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

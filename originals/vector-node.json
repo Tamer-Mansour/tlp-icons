@@ -1,0 +1,11 @@
+{
+  "name": "vector-node",
+  "category": "shapes",
+  "tags": ["vector", "node", "anchor", "handle", "path"],
+  "svg": "<path class=\"p1\" d=\"M4 18 C9 6 15 6 20 18\"/><line class=\"p3\" x1=\"4\" y1=\"18\" x2=\"9\" y2=\"6\"/><line class=\"p3\" x1=\"20\" y1=\"18\" x2=\"15\" y2=\"6\"/><rect class=\"p2\" x=\"2.5\" y=\"16.5\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"18.5\" y=\"16.5\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

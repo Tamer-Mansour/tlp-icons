@@ -1,0 +1,11 @@
+{
+  "name": "sticker-pack",
+  "category": "communication",
+  "tags": ["sticker", "label", "pack", "star", "decal", "badge"],
+  "svg": "<path class=\"d p1\" d=\"M4 4 H20 V15 L15 20 H4 Z\"/><path class=\"p2\" d=\"M15 20 V16 Q15 15 16 15 H20\"/><polygon class=\"p3\" points=\"12,7.5 13.2,10 15.9,10.3 13.9,12.1 14.5,14.8 12,13.4 9.5,14.8 10.1,12.1 8.1,10.3 10.8,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 900 }
+  ]
+}

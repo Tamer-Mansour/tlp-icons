@@ -1,0 +1,11 @@
+{
+  "name": "fresh-tag",
+  "category": "food",
+  "tags": ["fresh", "tag", "label", "leaf", "organic"],
+  "svg": "<path class=\"d p1\" d=\"M3 4 V11 L12 20 L20 12 L11 3 H4 Q3 3 3 4 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"7\" r=\"1.5\"/><path class=\"p3\" d=\"M9 16 C9 12 11 10 15 9 C15 13 13 16 9 16 Z M9 16 L13 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

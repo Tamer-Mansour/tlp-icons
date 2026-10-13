@@ -1,0 +1,11 @@
+{
+  "name": "drag-drop-dev",
+  "category": "development",
+  "tags": ["drag", "drop", "upload", "file", "dropzone", "dev"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v5H6z\"/><path class=\"p2\" d=\"M12 13.5v3M10.5 15l1.5 1.5 1.5-1.5\"/><path class=\"p3\" d=\"M4 20h3M9.5 20h5M17.5 20h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

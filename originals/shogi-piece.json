@@ -1,0 +1,10 @@
+{
+  "name": "shogi-piece",
+  "category": "sport",
+  "tags": ["shogi", "japanese", "chess", "piece", "board", "game"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 20,7 20,21 4,21 4,7\"/><path class=\"p2\" d=\"M12 2V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

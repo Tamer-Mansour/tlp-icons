@@ -1,0 +1,11 @@
+{
+  "name": "peacock",
+  "category": "nature",
+  "tags": ["peacock", "bird", "fan", "tail", "feathers", "display"],
+  "svg": "<circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"3\"/><path class=\"p1\" d=\"M12 14L4 5M12 14L8 3M12 14L12 2M12 14L16 3M12 14L20 5\"/><circle class=\"p3\" cx=\"16\" cy=\"19\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "sway", "dur": 1000, "delay": 800, "origin": "12px 14px" }
+  ]
+}

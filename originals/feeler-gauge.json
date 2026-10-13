@@ -1,0 +1,10 @@
+{
+  "name": "feeler-gauge",
+  "category": "tools",
+  "tags": ["feeler", "gauge", "blades", "thickness", "fan", "measure"],
+  "svg": "<path class=\"p1\" d=\"M12 20 L5 6 M12 20 L9 4 M12 20 L15 4 M12 20 L19 6\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 600, "delay": 1000 }
+  ]
+}

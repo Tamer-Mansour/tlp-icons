@@ -1,0 +1,10 @@
+{
+  "name": "time-log",
+  "category": "time",
+  "tags": ["time", "log", "entries", "clock", "record", "history"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"18\" r=\"2\"/><path class=\"p2\" d=\"M10 6h10M10 12h10M10 18h10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

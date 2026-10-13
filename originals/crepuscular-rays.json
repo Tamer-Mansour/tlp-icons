@@ -1,0 +1,11 @@
+{
+  "name": "crepuscular-rays",
+  "category": "weather",
+  "tags": ["crepuscular", "rays", "sunset", "sunrise", "light", "clouds"],
+  "svg": "<path class=\"d p1\" d=\"M7 17a5 5 0 0 1 10 0\"/><path class=\"p2\" d=\"M3 17h18M5 21h14\"/><path class=\"p3\" d=\"M12 4v3M5.6 7.6l2.1 2.1M18.4 7.6l-2.1 2.1M3 13h2.5M18.5 13H21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "breathe", "dur": 1300, "delay": 900 }
+  ]
+}

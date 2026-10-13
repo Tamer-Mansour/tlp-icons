@@ -1,0 +1,10 @@
+{
+  "name": "rice-paddy",
+  "category": "buildings",
+  "tags": ["rice", "paddy", "flooded", "field", "grass", "farming"],
+  "svg": "<path class=\"p1\" d=\"M8 14 V5 M12 14 V3 M16 14 V5\"/><path class=\"d p2\" d=\"M3 15 H21 V18 Q21 21 18 21 H6 Q3 21 3 18 Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "sway", "dur": 1000, "delay": 700, "origin": "bottom" }
+  ]
+}

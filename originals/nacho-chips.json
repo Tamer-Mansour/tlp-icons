@@ -1,0 +1,11 @@
+{
+  "name": "nacho-chips",
+  "category": "food",
+  "tags": ["nacho", "chips", "tortilla", "snack", "crisp"],
+  "svg": "<path class=\"d p1\" d=\"M3 19 L12 4 L21 19 Z\"/><path class=\"p2\" d=\"M8 17 H11\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"14.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

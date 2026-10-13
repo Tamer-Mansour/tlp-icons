@@ -1,0 +1,11 @@
+{
+  "name": "watt-meter",
+  "category": "devices",
+  "tags": ["watt", "meter", "power", "dial", "electric", "bolt"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"20\" x2=\"16\" y2=\"9\"/><polyline class=\"p3\" points=\"13,8 9.5,12.5 12.5,12.5 11,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 900, "origin": "12px 20px" }
+  ]
+}

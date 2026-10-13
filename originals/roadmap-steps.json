@@ -1,0 +1,11 @@
+{
+  "name": "roadmap-steps",
+  "category": "science",
+  "tags": ["roadmap", "steps", "goal", "progress", "plan", "flag"],
+  "svg": "<polyline class=\"p1\" points=\"3,21 8,21 8,16 13,16 13,11 18,11\"/><line class=\"p2\" x1=\"18\" y1=\"11\" x2=\"18\" y2=\"3\"/><path class=\"d p3\" d=\"M18 3 L21 4.5 L18 6 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 900, "origin": "bottom" },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1400 }
+  ]
+}

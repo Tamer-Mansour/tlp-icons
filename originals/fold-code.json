@@ -1,0 +1,11 @@
+{
+  "name": "fold-code",
+  "category": "development",
+  "tags": ["fold", "code", "collapse", "chevron", "editor", "minimize"],
+  "svg": "<path class=\"p1\" d=\"M3 7l5 5-5 5\"/><path class=\"p2\" d=\"M21 7l-5 5 5 5\"/><path class=\"p3\" d=\"M10.5 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 900 }
+  ]
+}

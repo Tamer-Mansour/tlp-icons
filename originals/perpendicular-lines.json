@@ -1,0 +1,11 @@
+{
+  "name": "perpendicular-lines",
+  "category": "math",
+  "tags": ["perpendicular", "lines", "right angle", "geometry", "cross"],
+  "svg": "<path class=\"p1\" d=\"M3 12 H21\"/><path class=\"p2\" d=\"M12 3 V21\"/><path class=\"p3\" d=\"M12 9 H15 V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

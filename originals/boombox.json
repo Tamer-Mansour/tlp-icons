@@ -1,0 +1,11 @@
+{
+  "name": "boombox",
+  "category": "media",
+  "tags": ["boombox", "radio", "speaker", "stereo", "music", "sound"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M8 8V5h8v3\"/><circle class=\"p3\" cx=\"7.5\" cy=\"14\" r=\"2\"/><circle class=\"p3\" cx=\"16.5\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "throb", "dur": 800, "delay": 1000 }
+  ]
+}

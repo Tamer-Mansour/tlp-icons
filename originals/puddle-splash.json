@@ -1,0 +1,11 @@
+{
+  "name": "puddle-splash",
+  "category": "weather",
+  "tags": ["puddle", "splash", "water", "drop", "wet", "rain"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"18\" rx=\"8\" ry=\"2.5\"/><path class=\"d p2\" d=\"M12 3c2.5 3.2 4 5.2 4 7.2a4 4 0 0 1-8 0c0-2 1.5-4 4-7.2z\"/><circle class=\"f p3\" cx=\"5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "moon-zz",
+  "category": "notifications",
+  "tags": ["moon", "sleep", "night", "zzz", "rest", "crescent"],
+  "svg": "<path class=\"d p1\" d=\"M9 3a9 9 0 1 0 12 12 7 7 0 0 1-12-12z\"/><path class=\"p2\" d=\"M14 3h4l-4 4h4\"/><path class=\"p3\" d=\"M18 10h3l-3 3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1200 }
+  ]
+}

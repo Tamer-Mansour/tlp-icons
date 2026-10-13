@@ -1,0 +1,11 @@
+{
+  "name": "eye-scan",
+  "category": "interface",
+  "tags": ["eye", "scan", "vision", "look", "view", "focus"],
+  "svg": "<path class=\"p1\" d=\"M3 8V3H8M16 3H21V8M21 16V21H16M8 21H3V16\"/><path class=\"d p2\" d=\"M5 12C7 8.5 17 8.5 19 12C17 15.5 7 15.5 5 12Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

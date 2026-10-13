@@ -1,0 +1,11 @@
+{
+  "name": "mail-bike",
+  "category": "communication",
+  "tags": ["bicycle", "bike", "mail", "delivery", "letter", "courier"],
+  "svg": "<circle class=\"p1\" cx=\"5.5\" cy=\"16.5\" r=\"3\"/><circle class=\"p1\" cx=\"18.5\" cy=\"16.5\" r=\"3\"/><polyline class=\"p2\" points=\"5.5,16.5 9.5,9.5 15.5,9.5 18.5,16.5\"/><path class=\"p2\" d=\"M9.5 9.5l2.5 7h-6.5\"/><rect class=\"d p3\" x=\"2.5\" y=\"4\" width=\"6.5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

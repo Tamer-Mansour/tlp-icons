@@ -1,0 +1,10 @@
+{
+  "name": "flower-bed",
+  "category": "buildings",
+  "tags": ["flower", "bed", "garden", "mound", "blooms", "planting"],
+  "svg": "<path class=\"d p1\" d=\"M2 20 Q12 6 22 20 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"10\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"10\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 800, "delay": 600 }
+  ]
+}

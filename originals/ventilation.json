@@ -1,0 +1,11 @@
+{
+  "name": "ventilation",
+  "category": "weather",
+  "tags": ["ventilation", "vent", "grille", "airflow", "air"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8 H15 M13 6 L15 8 L13 10\"/><path class=\"p3\" d=\"M7 16 H15 M13 14 L15 16 L13 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

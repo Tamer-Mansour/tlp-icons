@@ -1,0 +1,10 @@
+{
+  "name": "shackle",
+  "category": "tools",
+  "tags": ["shackle", "link", "pin", "rigging", "anchor"],
+  "svg": "<path class=\"p1\" d=\"M6 12V9a6 6 0 0 1 12 0v3\"/><path class=\"p2\" d=\"M4 16h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 800 }
+  ]
+}

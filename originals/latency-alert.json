@@ -1,0 +1,12 @@
+{
+  "name": "latency-alert",
+  "category": "notifications",
+  "tags": ["latency", "clock", "slow", "delay", "alert"],
+  "svg": "<circle class=\"p1\" cx=\"11\" cy=\"12\" r=\"8\"/><path class=\"p1\" d=\"M8 16.5h6\"/><path class=\"p2\" d=\"M11 8v4.5l2.5 1.5\"/><path class=\"p3\" d=\"M20.5 7.5v4\"/><circle class=\"f p4\" cx=\"20.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 1200, "origin": "11px 12px" },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

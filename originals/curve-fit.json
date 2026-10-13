@@ -1,0 +1,10 @@
+{
+  "name": "curve-fit",
+  "category": "charts",
+  "tags": ["curve", "fit", "regression", "scatter", "trend"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/><circle class=\"f p1\" cx=\"9\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"14\" cy=\"10\" r=\"1.2\"/><circle class=\"f p1\" cx=\"19\" cy=\"7\" r=\"1.2\"/><path class=\"p2\" d=\"M3 19.5C7 13 11 10.5 14 10S19 8 21 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

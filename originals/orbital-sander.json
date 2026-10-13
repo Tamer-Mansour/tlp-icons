@@ -1,0 +1,10 @@
+{
+  "name": "orbital-sander",
+  "category": "tools",
+  "tags": ["orbital", "sander", "pad", "sanding", "finish", "wood"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M12 9.5a2.5 2.5 0 1 1-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 }
+  ]
+}

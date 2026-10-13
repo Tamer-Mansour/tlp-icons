@@ -1,0 +1,10 @@
+{
+  "name": "parallel-coordinates",
+  "category": "charts",
+  "tags": ["parallel", "coordinates", "multivariate", "lines", "data", "chart"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18M9 3v18M14 3v18M19 3v18\"/><polyline class=\"p2\" points=\"4,16 9,6 14,14 19,8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

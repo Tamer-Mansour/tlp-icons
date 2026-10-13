@@ -1,0 +1,11 @@
+{
+  "name": "neutral-density",
+  "category": "photography",
+  "tags": ["neutral density", "filter", "lens", "gradient", "exposure", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><rect class=\"d p2\" x=\"6\" y=\"9\" width=\"12\" height=\"3\"/><line class=\"p3\" x1=\"6\" y1=\"15\" x2=\"18\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "dim", "dur": 800, "delay": 1000 }
+  ]
+}

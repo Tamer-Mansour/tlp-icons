@@ -1,0 +1,11 @@
+{
+  "name": "rifle-scope",
+  "category": "sport",
+  "tags": ["scope", "rifle", "crosshair", "lens", "sight", "hunting"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><circle class=\"d p2\" cx=\"18\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M16 12h4M18 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "magnify", "dur": 800, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fire-lookout",
+  "category": "nature",
+  "tags": ["fire", "lookout", "watchtower", "forest", "mountain", "tower"],
+  "svg": "<polyline class=\"p1\" points=\"2 21 9 10 15 19 18 15 22 21\"/><rect class=\"p2\" x=\"6\" y=\"4\" width=\"6\" height=\"3\"/><path class=\"p2\" d=\"M9 7v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fist-bump",
+  "category": "emoji",
+  "tags": ["fist", "bump", "greeting", "hands", "gesture"],
+  "svg": "<path class=\"p1\" d=\"M2.5 10h5.5a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H2.5M21.5 10h-5.5a2 2 0 0 0-2 2v0a2 2 0 0 0 2 2h5.5\"/><path class=\"p2\" d=\"M5 10v4M7.5 10v4M19 10v4M16.5 10v4\"/><path class=\"p3\" d=\"M12 3v3M8 4.5l1.5 2M16 4.5 14.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

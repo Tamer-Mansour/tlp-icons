@@ -1,0 +1,11 @@
+{
+  "name": "lodge",
+  "category": "buildings",
+  "tags": ["lodge", "cabin", "chimney", "stone", "retreat", "woods"],
+  "svg": "<path class=\"d p2\" d=\"M4 21V11l8-6 8 6v10z\"/><path class=\"p1\" d=\"M15 7V3.5h3V9\"/><path class=\"p3\" d=\"M10 21v-5h4v5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

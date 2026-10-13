@@ -1,0 +1,11 @@
+{
+  "name": "waiter-tray",
+  "category": "food",
+  "tags": ["waiter", "tray", "cloche", "serving", "restaurant", "dome"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"16\" rx=\"9\" ry=\"3\"/><path class=\"d p2\" d=\"M6 16a6 6 0 0 1 12 0z\"/><circle class=\"f p3\" cx=\"12\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

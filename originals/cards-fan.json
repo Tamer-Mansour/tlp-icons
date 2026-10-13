@@ -1,0 +1,11 @@
+{
+  "name": "cards-fan",
+  "category": "layout",
+  "tags": ["cards", "fan", "hand", "spread", "deck"],
+  "svg": "<rect class=\"p1\" x=\"8.5\" y=\"6\" width=\"7\" height=\"11\" rx=\"1.5\" transform=\"rotate(-25 12 21)\"/><rect class=\"p3\" x=\"8.5\" y=\"6\" width=\"7\" height=\"11\" rx=\"1.5\" transform=\"rotate(25 12 21)\"/><rect class=\"p2\" x=\"8.5\" y=\"6\" width=\"7\" height=\"11\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 800 }
+  ]
+}

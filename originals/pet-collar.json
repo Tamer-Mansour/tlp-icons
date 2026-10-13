@@ -1,0 +1,11 @@
+{
+  "name": "pet-collar",
+  "category": "nature",
+  "tags": ["pet", "collar", "dog", "tag", "animal"],
+  "svg": "<path class=\"p1\" d=\"M3 8 C7 11 17 11 21 8\"/><rect class=\"p3\" x=\"10\" y=\"9\" width=\"4\" height=\"2.5\" rx=\"0.5\"/><path class=\"p2\" d=\"M12 10.5 V13\"/><circle class=\"d p2\" cx=\"12\" cy=\"15.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1200, "origin": "12px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hurricane",
+  "category": "nature",
+  "tags": ["hurricane", "storm", "spiral", "cyclone", "wind"],
+  "svg": "<path class=\"p1\" d=\"M4 7 C7 2.5 17 2.5 20 7\"/><path class=\"p2\" d=\"M20 17 C17 21.5 7 21.5 4 17\"/><path class=\"p3\" d=\"M12 8.5 A3.5 3.5 0 1 1 8.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

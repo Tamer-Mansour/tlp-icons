@@ -1,0 +1,10 @@
+{
+  "name": "close-window",
+  "category": "interface",
+  "tags": ["close", "window", "exit", "dismiss", "quit"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M15.5 6.5L18.5 9.5M18.5 6.5L15.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

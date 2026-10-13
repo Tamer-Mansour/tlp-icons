@@ -1,0 +1,12 @@
+{
+  "name": "food-truck",
+  "category": "food",
+  "tags": ["food truck", "vehicle", "street food", "serving", "van", "mobile"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M15 10h3.5l2.5 3v3h-6z\"/><rect class=\"p3\" x=\"6\" y=\"9.5\" width=\"5\" height=\"2.5\"/><circle class=\"p4\" cx=\"7\" cy=\"17.5\" r=\"1.5\"/><circle class=\"p4\" cx=\"17\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "spin", "dur": 800, "delay": 1100 }
+  ]
+}

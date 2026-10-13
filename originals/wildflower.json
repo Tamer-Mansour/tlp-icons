@@ -1,0 +1,11 @@
+{
+  "name": "wildflower",
+  "category": "nature",
+  "tags": ["flower", "wildflower", "bloom", "petal", "plant", "meadow"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M12 11v10\"/><path class=\"p3\" d=\"M12 17c0-3 2-4 5-4 0 3-2 4-5 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bloom", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

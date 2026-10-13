@@ -1,0 +1,10 @@
+{
+  "name": "guitar-strings",
+  "category": "media",
+  "tags": ["guitar", "strings", "chords", "music", "instrument", "strum"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M12 11l9-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 1000, "delay": 700 }
+  ]
+}

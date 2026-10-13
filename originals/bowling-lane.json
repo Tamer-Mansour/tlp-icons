@@ -1,0 +1,11 @@
+{
+  "name": "bowling-lane",
+  "category": "sport",
+  "tags": ["bowling", "lane", "alley", "pins", "gutter", "game"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"20\"/><path class=\"p2\" d=\"M5 2V22M19 2V22\"/><circle class=\"f p3\" cx=\"10\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

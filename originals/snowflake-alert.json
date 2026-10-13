@@ -1,0 +1,11 @@
+{
+  "name": "snowflake-alert",
+  "category": "notifications",
+  "tags": ["snowflake", "freeze", "alert", "cold", "warning", "winter"],
+  "svg": "<path class=\"p1\" d=\"M9 4v12M3.8 7l10.4 6M3.8 13l10.4-6\"/><path class=\"p2\" d=\"M19 8v6\"/><circle class=\"f p3\" cx=\"19\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

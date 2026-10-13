@@ -1,0 +1,11 @@
+{
+  "name": "gym",
+  "category": "buildings",
+  "tags": ["gym", "fitness", "dumbbell", "workout", "training"],
+  "svg": "<path class=\"p1\" d=\"M3 21V3h18v18\"/><rect class=\"p2\" x=\"5\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "pump", "dur": 800, "delay": 1100 }
+  ]
+}

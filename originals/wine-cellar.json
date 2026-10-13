@@ -1,0 +1,10 @@
+{
+  "name": "wine-cellar",
+  "category": "buildings",
+  "tags": ["wine", "cellar", "barrel", "stairs", "storage", "basement"],
+  "svg": "<path class=\"p1\" d=\"M3 3 H7 V7 H11 V10 H15\"/><path class=\"d p2\" d=\"M6 13 Q12 16 18 13 V19 Q12 22 6 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 800, "origin": "bottom" }
+  ]
+}

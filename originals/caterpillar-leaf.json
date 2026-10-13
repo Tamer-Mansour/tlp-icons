@@ -1,0 +1,11 @@
+{
+  "name": "caterpillar-leaf",
+  "category": "science",
+  "tags": ["caterpillar", "leaf", "larva", "insect", "segment"],
+  "svg": "<path class=\"d p1\" d=\"M3 20C3 12 9 6 21 4C21 14 15 20 3 20Z\"/><path class=\"p2\" d=\"M5 13Q7 8 10 11T15 11\"/><circle class=\"f p3\" cx=\"17\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "wiggle", "dur": 1000, "delay": 800 }
+  ]
+}

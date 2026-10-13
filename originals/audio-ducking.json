@@ -1,0 +1,11 @@
+{
+  "name": "audio-ducking",
+  "category": "media",
+  "tags": ["ducking", "audio", "waveform", "dip", "volume", "mix"],
+  "svg": "<path class=\"p1\" d=\"M2 12q2.5-6 5 0t5 0\"/><path class=\"p2\" d=\"M12 12q1.5 3.5 3 0\"/><path class=\"p3\" d=\"M15 12q2.5-6 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

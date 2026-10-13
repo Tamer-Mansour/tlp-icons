@@ -1,0 +1,11 @@
+{
+  "name": "stability-ball",
+  "category": "sport",
+  "tags": ["stability", "ball", "fitness", "exercise", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"p2\" cx=\"12\" cy=\"7.5\" r=\"1.5\"/><path class=\"p3\" d=\"M12 11v3l-2.5 3.5M12 14l2.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "deadlock-lock",
+  "category": "development",
+  "tags": ["deadlock", "lock", "thread", "blocked", "mutex"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><rect class=\"d p2\" x=\"9\" y=\"11\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M10 11V9.5a2 2 0 0 1 4 0V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

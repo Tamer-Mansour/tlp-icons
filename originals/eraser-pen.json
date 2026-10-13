@@ -1,0 +1,10 @@
+{
+  "name": "eraser-pen",
+  "category": "files",
+  "tags": ["eraser", "pencil", "rubber", "erase", "edit", "draw"],
+  "svg": "<path class=\"p1\" d=\"M3 21L7 17L15 9L19 13L11 21Z\"/><rect class=\"p2\" x=\"15.5\" y=\"5\" width=\"3\" height=\"4\" transform=\"rotate(45 17 7)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "rubber", "dur": 600, "delay": 900 }
+  ]
+}

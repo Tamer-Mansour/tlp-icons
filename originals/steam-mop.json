@@ -1,0 +1,11 @@
+{
+  "name": "steam-mop",
+  "category": "home",
+  "tags": ["steam", "mop", "cleaning", "floor", "vapor"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"14\" width=\"12\" height=\"6\" rx=\"2\"/><line class=\"p2\" x1=\"16\" y1=\"4\" x2=\"12\" y2=\"14\"/><path class=\"p3\" d=\"M5 4c1 1 1 2 0 3M9 3c1 1 1 2 0 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

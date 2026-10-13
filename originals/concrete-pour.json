@@ -1,0 +1,11 @@
+{
+  "name": "concrete-pour",
+  "category": "tools",
+  "tags": ["concrete", "pour", "chute", "cement", "construction", "mold"],
+  "svg": "<path class=\"p1\" d=\"M3 5L12 12\"/><line class=\"p2\" x1=\"12\" y1=\"13\" x2=\"12\" y2=\"17\"/><rect class=\"d p3\" x=\"10\" y=\"17\" width=\"12\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

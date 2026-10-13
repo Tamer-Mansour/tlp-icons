@@ -1,0 +1,10 @@
+{
+  "name": "repel-arrow",
+  "category": "arrows",
+  "tags": ["repel", "push", "away", "outward", "scatter", "center"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M10 10L3 3M3 8V3h5M14 14l7 7M21 16v5h-5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

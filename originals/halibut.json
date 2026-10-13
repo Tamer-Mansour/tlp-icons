@@ -1,0 +1,12 @@
+{
+  "name": "halibut",
+  "category": "nature",
+  "tags": ["fish", "flat", "eyes", "flatfish", "sea"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"8\" ry=\"5\"/><path class=\"p2\" d=\"M19 12 L22 9 L22 15 Z\"/><circle class=\"f p3\" cx=\"7\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"10\" r=\"1\"/><path class=\"p4\" d=\"M5 15.5 Q11 18 17 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "bob", "dur": 800, "delay": 800 }
+  ]
+}

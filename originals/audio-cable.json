@@ -1,0 +1,10 @@
+{
+  "name": "audio-cable",
+  "category": "media",
+  "tags": ["audio", "cable", "plug", "connector", "jack", "cord"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"17.5\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6.5 12C9 12 9 18 12 18S15 12 17.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

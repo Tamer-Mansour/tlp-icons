@@ -1,0 +1,11 @@
+{
+  "name": "portico",
+  "category": "buildings",
+  "tags": ["portico", "pediment", "columns", "entrance", "temple", "classical"],
+  "svg": "<path class=\"p1\" d=\"M3 9l9-6 9 6z\"/><path class=\"p2\" d=\"M7 9v10M17 9v10\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

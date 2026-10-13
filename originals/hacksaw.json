@@ -1,0 +1,10 @@
+{
+  "name": "hacksaw",
+  "category": "tools",
+  "tags": ["saw", "frame", "metal", "blade", "cut"],
+  "svg": "<path class=\"p1\" d=\"M4 3v8l3 3h10l3-3V3\"/><line class=\"p2\" x1=\"7\" y1=\"9\" x2=\"17\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

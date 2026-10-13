@@ -1,0 +1,11 @@
+{
+  "name": "rc-car",
+  "category": "devices",
+  "tags": ["rc", "car", "remote", "toy", "vehicle", "antenna"],
+  "svg": "<path class=\"d p1\" d=\"M4 14 L6.5 9.5 H16 L19 14 V17 H4 Z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"17.5\" r=\"2\"/><circle class=\"p2\" cx=\"16.5\" cy=\"17.5\" r=\"2\"/><line class=\"p3\" x1=\"16\" y1=\"9.5\" x2=\"18\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1100 }
+  ]
+}

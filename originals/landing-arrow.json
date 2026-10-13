@@ -1,0 +1,10 @@
+{
+  "name": "landing-arrow",
+  "category": "arrows",
+  "tags": ["landing", "touchdown", "down", "arrive", "download", "land"],
+  "svg": "<path class=\"p1\" d=\"M12 4v12\"/><path class=\"p1\" d=\"M7 11l5 5 5-5\"/><path class=\"p2\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "sink", "dur": 600, "delay": 500 }
+  ]
+}

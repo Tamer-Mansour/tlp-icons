@@ -1,0 +1,11 @@
+{
+  "name": "socket-error",
+  "category": "connectivity",
+  "tags": ["socket", "error", "plug", "power", "outlet", "failure"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"12\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M7 9.5v3M11 9.5v3\"/><path class=\"p3\" d=\"M18 9l4 4M22 9l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "moon-quiet",
+  "category": "notifications",
+  "tags": ["moon", "quiet", "mute", "night", "silent", "do not disturb"],
+  "svg": "<path class=\"d p1\" d=\"M11 3.5a7.5 7.5 0 1 0 9.5 9.5 6 6 0 0 1-9.5-9.5z\"/><line class=\"p2\" x1=\"16\" y1=\"20\" x2=\"21\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

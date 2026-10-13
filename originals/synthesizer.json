@@ -1,0 +1,11 @@
+{
+  "name": "synthesizer",
+  "category": "devices",
+  "tags": ["synthesizer", "keys", "music", "electronic", "wave", "sound"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"11\" width=\"20\" height=\"9\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"12\" y2=\"20\"/><polyline class=\"p3\" points=\"4,7 8,4 12,7 16,4 20,7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

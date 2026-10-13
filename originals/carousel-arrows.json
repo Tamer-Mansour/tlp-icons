@@ -1,0 +1,11 @@
+{
+  "name": "carousel-arrows",
+  "category": "arrows",
+  "tags": ["carousel", "slides", "gallery", "next", "previous", "slider"],
+  "svg": "<rect class=\"d p1\" x=\"7.5\" y=\"5\" width=\"9\" height=\"10\" rx=\"1\"/><polyline class=\"p2\" points=\"4 9 2.5 10.5 4 12\"/><polyline class=\"p2\" points=\"20 9 21.5 10.5 20 12\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"18.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

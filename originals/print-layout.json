@@ -1,0 +1,11 @@
+{
+  "name": "print-layout",
+  "category": "layout",
+  "tags": ["print", "layout", "printer", "page", "paper", "document", "output"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M9 5h6M9 7.5h4\"/><rect class=\"p3\" x=\"3\" y=\"12\" width=\"18\" height=\"8\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dance-partner",
+  "category": "people",
+  "tags": ["dance", "partners", "couple", "music", "celebrate", "people"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"17\" cy=\"6\" r=\"2\"/><path class=\"p2\" d=\"M7 10 V15 M7 15 L5 21 M7 15 L9 21 M17 10 V15 M17 15 L15 21 M17 15 L19 21\"/><path class=\"p3\" d=\"M7 10 Q12 2 17 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

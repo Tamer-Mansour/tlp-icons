@@ -1,0 +1,11 @@
+{
+  "name": "anchor-ship",
+  "category": "emoji",
+  "tags": ["anchor", "ship", "sea", "boat", "nautical", "harbor"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5 V20.5 M8.5 10.5 H15.5\"/><path class=\"p3\" d=\"M3.5 13 C3.5 17.5 7.5 20.5 12 20.5 C16.5 20.5 20.5 17.5 20.5 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 1100, "origin": "12px 20.5px" }
+  ]
+}

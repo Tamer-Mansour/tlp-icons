@@ -1,0 +1,10 @@
+{
+  "name": "spiderweb",
+  "category": "nature",
+  "tags": ["spiderweb", "spider", "web", "silk", "rings", "trap"],
+  "svg": "<path class=\"p1\" d=\"M12 3V21M3 12H21M5.6 5.6L18.4 18.4M18.4 5.6L5.6 18.4\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

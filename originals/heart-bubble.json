@@ -1,0 +1,10 @@
+{
+  "name": "heart-bubble",
+  "category": "communication",
+  "tags": ["heart", "love", "like", "bubble", "affection", "chat"],
+  "svg": "<path class=\"p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"d p2\" d=\"M12 13l-4-4a2.5 2.5 0 0 1 4-3 2.5 2.5 0 0 1 4 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "alarm-bell",
+  "category": "security",
+  "tags": ["alarm", "bell", "warning", "ring", "notification"],
+  "svg": "<path class=\"d p1\" d=\"M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z\"/><path class=\"p2\" d=\"M10.5 20.5a1.5 1.5 0 0 0 3 0\"/><path class=\"p3\" d=\"M3 4l2 2M21 4l-2 2M12 2v1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 400, "origin": "12px 4px" },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

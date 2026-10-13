@@ -1,0 +1,11 @@
+{
+  "name": "drone-shield",
+  "category": "security",
+  "tags": ["drone", "shield", "surveillance", "protected", "aerial", "quadcopter"],
+  "svg": "<path class=\"p1\" d=\"M8 10L6.2 8M16 10L17.8 8\"/><rect class=\"d p1\" x=\"8\" y=\"8.5\" width=\"8\" height=\"4\" rx=\"1\"/><circle class=\"d p2\" cx=\"5\" cy=\"6\" r=\"2.5\"/><circle class=\"d p2\" cx=\"19\" cy=\"6\" r=\"2.5\"/><path class=\"d p3\" d=\"M12 14l3 1.2v2.8c0 2-1.4 3.2-3 3.8-1.6-.6-3-1.8-3-3.8v-2.8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "spinFast", "dur": 800, "delay": 1100 }
+  ]
+}

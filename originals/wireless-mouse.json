@@ -1,0 +1,11 @@
+{
+  "name": "wireless-mouse",
+  "category": "connectivity",
+  "tags": ["wireless", "mouse", "signal", "bluetooth", "input", "pointer"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"13\" rx=\"5\"/><path class=\"p2\" d=\"M12 9V13\"/><path class=\"p3\" d=\"M8 6.5A5 5 0 0 1 16 6.5M5 6A9 9 0 0 1 19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

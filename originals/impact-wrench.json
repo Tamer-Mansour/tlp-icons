@@ -1,0 +1,12 @@
+{
+  "name": "impact-wrench",
+  "category": "tools",
+  "tags": ["impact", "wrench", "drive", "torque", "power", "tool"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"10\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M7 12v6h5v-6\"/><rect class=\"p3\" x=\"14\" y=\"8\" width=\"3\" height=\"3\"/><path class=\"p4\" d=\"M19 4.5L21 3M20 8.5H22M19 12.5L21 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "shake", "dur": 600, "delay": 1100 }
+  ]
+}

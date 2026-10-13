@@ -1,0 +1,11 @@
+{
+  "name": "snow-scooter",
+  "category": "vehicles",
+  "tags": ["scooter", "snow", "ski", "kick", "winter", "ride"],
+  "svg": "<path class=\"p1\" d=\"M7 13h9M16 13l-2 6M11 21.5h8\"/><circle class=\"d p2\" cx=\"5\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M16 13L17 5M15 5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 900, "origin": "16px 13px" }
+  ]
+}

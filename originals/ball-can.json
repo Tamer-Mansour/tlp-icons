@@ -1,0 +1,11 @@
+{
+  "name": "ball-can",
+  "category": "sport",
+  "tags": ["ball", "can", "tennis", "container", "cylinder"],
+  "svg": "<path class=\"p1\" d=\"M5 8L6.5 19.5Q12 21 17.5 19.5L19 8\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"8\" rx=\"7\" ry=\"2\"/><circle class=\"p3\" cx=\"9.5\" cy=\"13.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"14.5\" cy=\"13.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "jump", "dur": 600, "delay": 1300 }
+  ]
+}

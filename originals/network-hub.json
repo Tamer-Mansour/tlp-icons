@@ -1,0 +1,10 @@
+{
+  "name": "network-hub",
+  "category": "devices",
+  "tags": ["network", "hub", "switch", "router", "ethernet", "connect"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 9V4M12 15v5M9 12H4M15 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "plateau-map",
+  "category": "science",
+  "tags": ["plateau", "mesa", "map", "terrain", "flat", "landform"],
+  "svg": "<path class=\"d p1\" d=\"M2 20 L6 8 H18 L22 20 Z\"/><path class=\"p2\" d=\"M6 14h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sleep-tracker",
+  "category": "devices",
+  "tags": ["sleep", "night", "moon", "tracker", "wearable", "rest"],
+  "svg": "<path class=\"d p1\" d=\"M15 4 A7 7 0 1 0 20 15 A6 6 0 0 1 15 4 Z\"/><circle class=\"f p2\" cx=\"7\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 900 }
+  ]
+}

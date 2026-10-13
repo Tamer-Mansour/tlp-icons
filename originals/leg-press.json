@@ -1,0 +1,11 @@
+{
+  "name": "leg-press",
+  "category": "sport",
+  "tags": ["leg", "press", "machine", "strength", "gym", "legs"],
+  "svg": "<path class=\"p1\" d=\"M3 18H21\"/><path class=\"d p2\" d=\"M4 9L14 14L20 10L10 5Z\"/><path class=\"p3\" d=\"M14 14V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pump", "dur": 600, "delay": 1200 }
+  ]
+}

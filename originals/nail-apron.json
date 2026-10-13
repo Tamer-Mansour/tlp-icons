@@ -1,0 +1,11 @@
+{
+  "name": "nail-apron",
+  "category": "tools",
+  "tags": ["nail", "apron", "pouch", "carpenter", "workwear", "nails"],
+  "svg": "<path class=\"p1\" d=\"M7 3h10v18H7z\"/><rect class=\"p2\" x=\"8\" y=\"13\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 13V9M12 13V8M14.5 13V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1000 }
+  ]
+}

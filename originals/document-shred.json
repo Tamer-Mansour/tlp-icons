@@ -1,0 +1,10 @@
+{
+  "name": "document-shred",
+  "category": "security",
+  "tags": ["document", "shred", "strips", "destroy", "paper", "privacy"],
+  "svg": "<path class=\"d p1\" d=\"M6 2.5 H14 L18.5 7 V12 H6 Z\"/><line class=\"p2\" x1=\"9\" y1=\"15\" x2=\"9\" y2=\"21\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"15\" y1=\"15\" x2=\"15\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 700, "delay": 700 }
+  ]
+}

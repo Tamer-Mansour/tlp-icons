@@ -1,0 +1,11 @@
+{
+  "name": "core-drill",
+  "category": "tools",
+  "tags": ["core", "drill", "hollow", "bit", "plug", "cutting"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"5\"/><circle class=\"d p2\" cx=\"12\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M12 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 1200 }
+  ]
+}

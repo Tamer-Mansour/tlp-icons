@@ -1,0 +1,11 @@
+{
+  "name": "chain-padlock",
+  "category": "security",
+  "tags": ["chain", "padlock", "lock", "secure", "wrap", "protect"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"12\" width=\"14\" height=\"9.5\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 12v-1a3.5 3.5 0 0 1 7 0v1\"/><path class=\"p3\" d=\"M5.5 3.5a2.5 1.5 0 1 0 5 0a2.5 1.5 0 1 0-5 0M13.5 3.5a2.5 1.5 0 1 0 5 0a2.5 1.5 0 1 0-5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1200, "origin": "12px 3.5px" }
+  ]
+}

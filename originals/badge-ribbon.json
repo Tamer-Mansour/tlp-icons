@@ -1,0 +1,11 @@
+{
+  "name": "badge-ribbon",
+  "category": "interface",
+  "tags": ["badge", "ribbon", "medal", "seal", "award", "achievement"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p3\" d=\"M9 14V22L12 20L15 22V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

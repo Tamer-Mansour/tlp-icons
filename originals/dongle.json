@@ -1,0 +1,11 @@
+{
+  "name": "dongle",
+  "category": "devices",
+  "tags": ["dongle", "adapter", "usb", "plug", "cable", "connector"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"7\" width=\"11\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M10 12H4\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 900 }
+  ]
+}

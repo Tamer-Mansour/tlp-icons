@@ -1,0 +1,11 @@
+{
+  "name": "paste-file",
+  "category": "files",
+  "tags": ["paste", "clipboard", "insert", "page", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"4.5\" width=\"11\" height=\"15\" rx=\"2\"/><rect class=\"p1\" x=\"7\" y=\"2.5\" width=\"4\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"9.5\" width=\"10.5\" height=\"11.5\" rx=\"1.5\"/><path class=\"p3\" d=\"M6.5 10.5v6M4.5 14.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "xylophone",
+  "category": "media",
+  "tags": ["xylophone", "bars", "mallets", "percussion", "instrument", "music"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"2\" height=\"12\" rx=\"1\"/><rect class=\"p1\" x=\"7\" y=\"6.5\" width=\"2\" height=\"10.5\" rx=\"1\"/><rect class=\"p1\" x=\"11\" y=\"8\" width=\"2\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"15\" y=\"9.5\" width=\"2\" height=\"7.5\" rx=\"1\"/><path class=\"p2\" d=\"M17 3l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 400, "delay": 800, "origin": "20px 6px" }
+  ]
+}

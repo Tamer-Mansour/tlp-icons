@@ -1,0 +1,11 @@
+{
+  "name": "mechanical-keyboard",
+  "category": "devices",
+  "tags": ["keyboard", "mechanical", "keys", "typing", "input", "gaming"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 9h2M9 9h2M13 9h2M17 9h2M5 13h2M9 13h6M17 13h2\"/><path class=\"p3\" d=\"M9 16.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

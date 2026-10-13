@@ -1,0 +1,11 @@
+{
+  "name": "infrared-thermometer",
+  "category": "tools",
+  "tags": ["thermometer", "infrared", "temperature", "heat", "gun", "measure"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"9\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 13 L6 18 H9 L10 13\"/><path class=\"p3\" d=\"M15 6 Q17 8 15 10 M19 4 Q22 8 19 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

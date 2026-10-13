@@ -1,0 +1,10 @@
+{
+  "name": "ev-scale",
+  "category": "photography",
+  "tags": ["exposure", "scale", "ticks", "pointer", "meter"],
+  "svg": "<path class=\"p1\" d=\"M3 14h18M5 14v-3M9 14v-3M13 14v-3M17 14v-3M21 14v-3\"/><polygon class=\"p2\" points=\"13,18 11,21 15,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 800 }
+  ]
+}

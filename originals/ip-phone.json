@@ -1,0 +1,11 @@
+{
+  "name": "ip-phone",
+  "category": "connectivity",
+  "tags": ["ip", "phone", "voip", "desk", "telephone", "network"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"5\" width=\"14\" height=\"3\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"18\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

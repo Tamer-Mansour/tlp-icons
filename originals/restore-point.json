@@ -1,0 +1,11 @@
+{
+  "name": "restore-point",
+  "category": "development",
+  "tags": ["restore", "point", "rollback", "flag", "checkpoint"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 1 0 2.3-5.7\"/><path class=\"p1\" d=\"M4 4v4h4\"/><path class=\"p2\" d=\"M12 19v-7\"/><path class=\"p3\" d=\"M12 12h7l-2 2.5 2 2.5h-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "flutter", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "checkbox-indeterminate",
+  "category": "interface",
+  "tags": ["checkbox", "indeterminate", "partial", "select", "mixed"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

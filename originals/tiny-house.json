@@ -1,0 +1,10 @@
+{
+  "name": "tiny-house",
+  "category": "buildings",
+  "tags": ["tiny", "house", "cabin", "small", "home", "window"],
+  "svg": "<path class=\"p1\" d=\"M3 11l9-7 9 7M6 10v11h12V10\"/><rect class=\"p2\" x=\"10\" y=\"13\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

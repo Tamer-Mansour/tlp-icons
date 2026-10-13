@@ -1,0 +1,11 @@
+{
+  "name": "mutex-lock",
+  "category": "development",
+  "tags": ["mutex", "lock", "thread", "sync", "concurrency", "padlock"],
+  "svg": "<path class=\"p1\" d=\"M4 4H2v16h2M20 4h2v16h-2\"/><rect class=\"d p2\" x=\"7\" y=\"11\" width=\"10\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M9.5 11V8.5a2.5 2.5 0 0 1 5 0V11\"/><circle class=\"f p2\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1000 }
+  ]
+}

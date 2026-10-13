@@ -1,0 +1,10 @@
+{
+  "name": "cellular-off",
+  "category": "notifications",
+  "tags": ["cellular", "signal", "bars", "offline", "network", "mobile"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"14\" width=\"3\" height=\"6\" rx=\"0.5\"/><rect class=\"p1\" x=\"9\" y=\"9\" width=\"3\" height=\"11\" rx=\"0.5\"/><rect class=\"p1\" x=\"15\" y=\"4\" width=\"3\" height=\"16\" rx=\"0.5\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

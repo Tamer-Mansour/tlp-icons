@@ -1,0 +1,12 @@
+{
+  "name": "oil-pressure",
+  "category": "notifications",
+  "tags": ["oil", "pressure", "can", "engine", "gauge", "warning"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"11\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M15 13l4.5-3\"/><path class=\"p3\" d=\"M4 6.5a6 6 0 0 1 8 0\"/><path class=\"p4\" d=\"M18 14.5c0 0 2 2.4 2 3.8a2 2 0 0 1-4 0c0-1.4 2-3.8 2-3.8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "drip", "dur": 700, "delay": 800 }
+  ]
+}

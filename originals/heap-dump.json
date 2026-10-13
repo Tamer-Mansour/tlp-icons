@@ -1,0 +1,11 @@
+{
+  "name": "heap-dump",
+  "category": "development",
+  "tags": ["heap", "dump", "memory", "export", "snapshot"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"d p1\" x=\"3\" y=\"9\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M17 4v10M14.5 11.5L17 14l2.5-2.5\"/><path class=\"p3\" d=\"M13 16h8v5h-8z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

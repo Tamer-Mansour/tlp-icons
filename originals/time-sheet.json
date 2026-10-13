@@ -1,0 +1,12 @@
+{
+  "name": "time-sheet",
+  "category": "time",
+  "tags": ["timesheet", "hours", "clock", "log", "work", "tracking"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17.5\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"2\" width=\"7\" height=\"3.5\" rx=\"1\"/><circle class=\"p3\" cx=\"16.5\" cy=\"9\" r=\"1.8\"/><path class=\"p3\" d=\"M16.5 8v1l.8.5\"/><path class=\"p4\" d=\"M7 13h4M7 16.5h7M7 19.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "sweep", "dur": 1100, "delay": 1400, "origin": "16.5px 9px" }
+  ]
+}

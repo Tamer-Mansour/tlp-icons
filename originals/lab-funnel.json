@@ -1,0 +1,10 @@
+{
+  "name": "lab-funnel",
+  "category": "science",
+  "tags": ["funnel", "lab", "pour", "filter", "liquid"],
+  "svg": "<path class=\"d p1\" d=\"M4 3 H20 L14 11 V16 H10 V11 Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 800, "delay": 800 }
+  ]
+}

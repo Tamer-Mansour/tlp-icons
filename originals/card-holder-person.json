@@ -1,0 +1,11 @@
+{
+  "name": "card-holder-person",
+  "category": "people",
+  "tags": ["card", "holder", "person", "badge", "id", "wallet"],
+  "svg": "<rect class=\"p2\" x=\"7\" y=\"2.5\" width=\"10\" height=\"8\" rx=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"1.5\"/><path class=\"d p1\" d=\"M3 10.5h18v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ingress-arrow",
+  "category": "connectivity",
+  "tags": ["ingress", "arrow", "import", "inbound", "enter", "data"],
+  "svg": "<rect class=\"d p1\" x=\"12\" y=\"8\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M3 12h8\"/><path class=\"p3\" d=\"M7 8l4 4-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "send-failed",
+  "category": "notifications",
+  "tags": ["send", "failed", "plane", "error", "message", "cross"],
+  "svg": "<path class=\"p1\" d=\"M21 3L3 10.5l7 3 3 7z\"/><path class=\"p1\" d=\"M21 3l-11 11\"/><circle class=\"d p2\" cx=\"19\" cy=\"19\" r=\"3.5\"/><path class=\"p3\" d=\"M17.5 17.5l3 3M20.5 17.5l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shipping-box",
+  "category": "interface",
+  "tags": ["shipping", "box", "shipment", "delivery", "send", "package"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"11\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M3 12H14\"/><path class=\"p3\" d=\"M17 14H22M19 11.5L22 14L19 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

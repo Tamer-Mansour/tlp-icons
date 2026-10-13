@@ -1,0 +1,11 @@
+{
+  "name": "desktop-speakers",
+  "category": "devices",
+  "tags": ["desktop", "speakers", "audio", "sound", "stereo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"7\" height=\"13\" rx=\"1.5\"/><rect class=\"d p2\" x=\"14\" y=\"6\" width=\"7\" height=\"13\" rx=\"1.5\"/><circle class=\"p3\" cx=\"6.5\" cy=\"14.5\" r=\"2\"/><circle class=\"p3\" cx=\"17.5\" cy=\"14.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 800, "delay": 1200 }
+  ]
+}

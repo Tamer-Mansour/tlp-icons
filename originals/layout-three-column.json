@@ -1,0 +1,11 @@
+{
+  "name": "layout-three-column",
+  "category": "layout",
+  "tags": ["layout", "three", "column", "grid", "page", "text"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M5 8H8M5 12H8M5 16H8\"/><path class=\"p3\" d=\"M10 8H13M10 12H13M10 16H13\"/><path class=\"p2\" d=\"M15 8H18M15 12H18M15 16H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

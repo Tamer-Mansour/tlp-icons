@@ -1,0 +1,11 @@
+{
+  "name": "play-timer",
+  "category": "time",
+  "tags": ["timer", "play", "start", "countdown", "run"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 2h4M12 2v3\"/><path class=\"d p3\" d=\"M10.5 10v6l5-3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

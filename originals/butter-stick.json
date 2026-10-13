@@ -1,0 +1,10 @@
+{
+  "name": "butter-stick",
+  "category": "food",
+  "tags": ["butter", "stick", "dairy", "block", "baking"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M9 8v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

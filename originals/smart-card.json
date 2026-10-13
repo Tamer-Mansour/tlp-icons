@@ -1,0 +1,11 @@
+{
+  "name": "smart-card",
+  "category": "devices",
+  "tags": ["smart", "card", "chip", "payment", "id", "access"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"10\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M15 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

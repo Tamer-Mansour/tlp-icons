@@ -1,0 +1,10 @@
+{
+  "name": "pull-quote",
+  "category": "text",
+  "tags": ["quote", "pull", "quotation", "callout", "highlight", "text", "block"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"3\" height=\"16\" rx=\"1.2\"/><path class=\"p2\" d=\"M10 8h10M10 12h10M10 16h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

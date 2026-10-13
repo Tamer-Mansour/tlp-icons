@@ -1,0 +1,11 @@
+{
+  "name": "trail-map",
+  "category": "sport",
+  "tags": ["trail", "map", "route", "hiking", "folded", "path"],
+  "svg": "<path class=\"d p1\" d=\"M3 6L9 4L15 6L21 4V18L15 20L9 18L3 20Z\"/><polyline class=\"p2\" points=\"6,16 9,13 12,15 16,11\"/><circle class=\"f p3\" cx=\"17\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "fall", "dur": 700, "delay": 1200 }
+  ]
+}

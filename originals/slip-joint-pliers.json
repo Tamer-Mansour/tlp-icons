@@ -1,0 +1,11 @@
+{
+  "name": "slip-joint-pliers",
+  "category": "tools",
+  "tags": ["pliers", "slip-joint", "grip", "crossed", "handles"],
+  "svg": "<path class=\"p1\" d=\"M3 5L13 15M21 5L11 15\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"1.5\"/><path class=\"p3\" d=\"M3 21L8 16M21 21L16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "squeeze", "dur": 800, "delay": 1100 }
+  ]
+}

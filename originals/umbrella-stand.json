@@ -1,0 +1,10 @@
+{
+  "name": "umbrella-stand",
+  "category": "home",
+  "tags": ["umbrella", "stand", "holder", "rain", "entryway", "hall"],
+  "svg": "<path class=\"d p1\" d=\"M8 12h8l-1 9H9z\"/><path class=\"p2\" d=\"M12 11V6a3 3 0 0 0-6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 11px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "combination-wrench",
+  "category": "tools",
+  "tags": ["combination", "wrench", "ring", "open", "spanner"],
+  "svg": "<line class=\"p1\" x1=\"8\" y1=\"16\" x2=\"14\" y2=\"10\"/><path class=\"p2\" d=\"M15 10V5H20V9H15\"/><circle class=\"d p3\" cx=\"6\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

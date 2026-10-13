@@ -1,0 +1,10 @@
+{
+  "name": "tremolo",
+  "category": "media",
+  "tags": ["tremolo", "wave", "bracket", "effect", "amplitude", "music"],
+  "svg": "<path class=\"p1\" d=\"M6 4H4V20H6M18 4H20V20H18\"/><polyline class=\"p2\" points=\"7 12 9 7 11 17 13 9 15 15 17 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

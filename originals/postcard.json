@@ -1,0 +1,11 @@
+{
+  "name": "postcard",
+  "category": "communication",
+  "tags": ["postcard", "card", "mail", "travel", "stamp"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1.5\"/><rect class=\"p2\" x=\"14.5\" y=\"8\" width=\"4\" height=\"4\"/><path class=\"p3\" d=\"M6 10h5M6 13h5M6 16h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

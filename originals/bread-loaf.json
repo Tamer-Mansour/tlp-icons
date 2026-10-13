@@ -1,0 +1,10 @@
+{
+  "name": "bread-loaf",
+  "category": "food",
+  "tags": ["bread", "bakery", "loaf", "baked", "wheat"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"9\" ry=\"6\"/><path class=\"p2\" d=\"M7 14l2-3M11 16l2-3M15 14l2-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

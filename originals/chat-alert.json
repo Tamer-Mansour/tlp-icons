@@ -1,0 +1,11 @@
+{
+  "name": "chat-alert",
+  "category": "communication",
+  "tags": ["alert", "notification", "warning", "chat", "message", "attention"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p2\" d=\"M12 8v4\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "buzz", "dur": 500, "delay": 1000 }
+  ]
+}

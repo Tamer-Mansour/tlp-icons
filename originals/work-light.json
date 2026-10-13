@@ -1,0 +1,11 @@
+{
+  "name": "work-light",
+  "category": "tools",
+  "tags": ["work", "light", "lamp", "tripod", "floodlight", "site"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 8 V15 M12 15 L7 21 M12 15 L17 21\"/><path class=\"p3\" d=\"M4 5 L2 3 M20 5 L22 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

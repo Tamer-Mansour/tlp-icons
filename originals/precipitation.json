@@ -1,0 +1,10 @@
+{
+  "name": "precipitation",
+  "category": "weather",
+  "tags": ["precipitation", "rain", "cloud", "drops", "falling", "forecast"],
+  "svg": "<path class=\"d p1\" d=\"M7 13.5h10a3.5 3.5 0 0 0 0-7 5 5 0 0 0-9.6-1A4 4 0 0 0 7 13.5z\"/><circle class=\"f p2\" cx=\"8\" cy=\"18.5\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"20.5\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"18.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "progress-segments",
+  "category": "charts",
+  "tags": ["progress", "segments", "steps", "bar", "stages", "status"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"9\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

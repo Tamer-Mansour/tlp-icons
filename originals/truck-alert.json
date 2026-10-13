@@ -1,0 +1,12 @@
+{
+  "name": "truck-alert",
+  "category": "notifications",
+  "tags": ["truck", "delivery", "shipping", "alert", "warning"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h10v8H3z\"/><path class=\"p2\" d=\"M13 9h4l3 3v2h-7\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p4\" d=\"M8 8v2.5\"/><circle class=\"f p4\" cx=\"8\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1500 }
+  ]
+}

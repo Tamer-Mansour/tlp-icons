@@ -1,0 +1,11 @@
+{
+  "name": "visitor-log",
+  "category": "people",
+  "tags": ["visitor", "log", "guest", "clipboard", "check in"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"11\" r=\"1.5\"/><path class=\"p3\" d=\"M9.5 16.5c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5\"/><path class=\"p3\" d=\"M8.5 19.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 1200 }
+  ]
+}

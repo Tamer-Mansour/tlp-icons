@@ -1,0 +1,10 @@
+{
+  "name": "ascending-steps",
+  "category": "arrows",
+  "tags": ["ascending", "steps", "stairs", "rising", "progress", "climb"],
+  "svg": "<path class=\"p1\" d=\"M3 20v-4h4v-4h4v-4h4\"/><path class=\"p2\" d=\"M15 8h6M18 5l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

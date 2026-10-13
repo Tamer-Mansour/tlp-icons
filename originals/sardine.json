@@ -1,0 +1,12 @@
+{
+  "name": "sardine",
+  "category": "nature",
+  "tags": ["fish", "small", "scales", "fork", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 Q8 9 14 10 Q18 11 18 12 Q18 13 14 14 Q8 15 4 12 Z\"/><path class=\"p2\" d=\"M17 12 L21 8 L20 12 L21 16 Z\"/><path class=\"p3\" d=\"M7 11 V13 M10 11 V13 M13 11 V13\"/><circle class=\"f p4\" cx=\"6\" cy=\"11.5\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 1000 }
+  ]
+}

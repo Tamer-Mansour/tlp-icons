@@ -1,0 +1,10 @@
+{
+  "name": "present-mode",
+  "category": "interface",
+  "tags": ["present", "presentation", "slideshow", "screen", "play", "display"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"12\" rx=\"1.5\"/><path d=\"M12 15.5v4M8.5 19.5h7\"/><polygon class=\"p2\" points=\"10 7.5 15 10 10 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

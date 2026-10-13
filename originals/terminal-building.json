@@ -1,0 +1,10 @@
+{
+  "name": "terminal-building",
+  "category": "buildings",
+  "tags": ["terminal", "airport", "building", "plane", "departures", "airfield"],
+  "svg": "<path class=\"p2\" d=\"M3 8h17M9 8L7 4h2l4 4M9 8L7 12h2l4-4\"/><rect class=\"d p1\" x=\"2\" y=\"16\" width=\"20\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 900, "delay": 700 }
+  ]
+}

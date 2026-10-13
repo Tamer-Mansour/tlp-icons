@@ -1,0 +1,10 @@
+{
+  "name": "amoeba",
+  "category": "science",
+  "tags": ["biology", "microbe", "cell", "protist", "pseudopod", "organism"],
+  "svg": "<path class=\"d p1\" d=\"M6 19C3 17 4 13 7 12C6 9 8 6 11 7C13 4 17 5 17 8C20 9 21 13 19 15C21 18 17 21 14 20C11 22 8 21 6 19Z\"/><path class=\"p2\" d=\"M3.5 21.5L5.5 19.5M19.5 4.5L21.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

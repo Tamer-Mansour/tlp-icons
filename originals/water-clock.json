@@ -1,0 +1,11 @@
+{
+  "name": "water-clock",
+  "category": "time",
+  "tags": ["clock", "water", "ancient", "vessel", "drip"],
+  "svg": "<path class=\"d p1\" d=\"M7 3h10l-3 8 3 8H7l3-8Z\"/><path class=\"p2\" d=\"M19 9h2M19 13h2M19 17h2\"/><circle class=\"f p3\" cx=\"12\" cy=\"21.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1200 }
+  ]
+}

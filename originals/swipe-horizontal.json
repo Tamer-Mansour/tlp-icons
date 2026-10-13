@@ -1,0 +1,11 @@
+{
+  "name": "swipe-horizontal",
+  "category": "layout",
+  "tags": ["swipe", "gesture", "phone", "arrows", "slide", "carousel"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M10 12H6.5M8.5 10l-2 2 2 2\"/><path class=\"p3\" d=\"M14 12h3.5M15.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

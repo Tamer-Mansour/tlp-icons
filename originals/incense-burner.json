@@ -1,0 +1,11 @@
+{
+  "name": "incense-burner",
+  "category": "home",
+  "tags": ["incense", "burner", "smoke", "bowl", "fragrance", "calm"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16c0 4-3.5 7-8 7s-8-3-8-7z\"/><path class=\"p2\" d=\"M10 18v3.5h4V18\"/><path class=\"p3\" d=\"M12 8c-1.5-1.5 1.5-2.5 0-4s1.5-1.5 0-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

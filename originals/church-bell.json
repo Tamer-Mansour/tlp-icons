@@ -1,0 +1,11 @@
+{
+  "name": "church-bell",
+  "category": "media",
+  "tags": ["church", "bell", "chime", "ring", "tower"],
+  "svg": "<path class=\"d p1\" d=\"M6 15v-3a6 6 0 0 1 12 0v3l2 2H4z\"/><path class=\"p2\" d=\"M10 4a2 2 0 0 1 4 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

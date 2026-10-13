@@ -1,0 +1,11 @@
+{
+  "name": "sit-up",
+  "category": "sport",
+  "tags": ["sit", "up", "abs", "core", "exercise", "workout"],
+  "svg": "<path class=\"p1\" d=\"M3 19.5 H21\"/><circle class=\"p2\" cx=\"16\" cy=\"8.5\" r=\"2\"/><path class=\"p3\" d=\"M9 18 L14 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 900, "origin": "9px 18px" }
+  ]
+}

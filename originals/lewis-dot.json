@@ -1,0 +1,10 @@
+{
+  "name": "lewis-dot",
+  "category": "science",
+  "tags": ["lewis", "electron", "valence", "dots", "chemistry"],
+  "svg": "<path class=\"p1\" d=\"M8 17V7L16 17V7\"/><circle class=\"f p2\" cx=\"8\" cy=\"3.5\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"3.5\" r=\"1\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

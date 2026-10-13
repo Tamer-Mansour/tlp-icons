@@ -1,0 +1,10 @@
+{
+  "name": "octal-digits",
+  "category": "math",
+  "tags": ["octal", "base-8", "octagon", "digits", "math"],
+  "svg": "<polygon class=\"p1\" points=\"8.5,3 15.5,3 21,8.5 21,15.5 15.5,21 8.5,21 3,15.5 3,8.5\"/><circle class=\"p2\" cx=\"12\" cy=\"8.5\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"15.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

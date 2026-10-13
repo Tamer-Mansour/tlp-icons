@@ -1,0 +1,11 @@
+{
+  "name": "potting-shed",
+  "category": "buildings",
+  "tags": ["potting", "shed", "flowers", "pot", "garden", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M3 11l6-5 6 5v9H3z\"/><path class=\"p2\" d=\"M17 15h4l-.8 5h-2.4zM19 15v-4\"/><circle class=\"p3\" cx=\"19\" cy=\"9\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

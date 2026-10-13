@@ -1,0 +1,11 @@
+{
+  "name": "chalk-tray",
+  "category": "science",
+  "tags": ["chalk", "tray", "board", "ledge", "classroom", "write"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"1\"/><line class=\"p2\" x1=\"4\" y1=\"20\" x2=\"20\" y2=\"20\"/><line class=\"p3\" x1=\"8\" y1=\"11\" x2=\"13\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1300 }
+  ]
+}

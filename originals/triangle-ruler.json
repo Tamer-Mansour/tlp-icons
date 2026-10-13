@@ -1,0 +1,10 @@
+{
+  "name": "triangle-ruler",
+  "category": "science",
+  "tags": ["ruler", "triangle", "measure", "ticks", "math", "geometry", "scale"],
+  "svg": "<polygon class=\"d p1\" points=\"3,20 21,20 3,4\"/><path class=\"p2\" d=\"M7 20v-3M11 20v-3M15 20v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 900 }
+  ]
+}

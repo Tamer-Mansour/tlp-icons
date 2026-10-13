@@ -1,0 +1,11 @@
+{
+  "name": "door-key",
+  "category": "security",
+  "tags": ["door", "key", "lock", "entry", "unlock", "access"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"18\" rx=\"1\"/><circle class=\"f p3\" cx=\"11\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M17.5 12H21.5M19.5 12v2.5M21 12v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 900, "delay": 800 }
+  ]
+}

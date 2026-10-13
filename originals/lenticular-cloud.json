@@ -1,0 +1,10 @@
+{
+  "name": "lenticular-cloud",
+  "category": "weather",
+  "tags": ["lenticular", "cloud", "lens", "mountain", "altitude"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 Q12 1 21 9 Q12 13 3 9 Z\"/><path class=\"p2\" d=\"M4 21 L12 16 L20 21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

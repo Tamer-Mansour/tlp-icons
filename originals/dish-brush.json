@@ -1,0 +1,11 @@
+{
+  "name": "dish-brush",
+  "category": "home",
+  "tags": ["dish", "brush", "cleaning", "scrub", "kitchen", "bristles"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2\" width=\"6\" height=\"9\" rx=\"3\"/><path class=\"p2\" d=\"M5 11h14v3a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p3\" d=\"M8 18.5v2M12 18.5v2M16 18.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

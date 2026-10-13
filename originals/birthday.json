@@ -1,0 +1,12 @@
+{
+  "name": "birthday",
+  "category": "time",
+  "tags": ["cake", "candle", "party", "celebration", "date"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"12\" width=\"16\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M4 16.5H20\"/><path class=\"p3\" d=\"M9 12V8.5M15 12V8.5\"/><circle class=\"f p4\" cx=\"9\" cy=\"6.8\" r=\"1\"/><circle class=\"f p4\" cx=\"15\" cy=\"6.8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "flicker", "dur": 800, "delay": 1300 }
+  ]
+}

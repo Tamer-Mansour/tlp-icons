@@ -1,0 +1,11 @@
+{
+  "name": "void-stamp",
+  "category": "files",
+  "tags": ["void", "stamp", "cancel", "crossed", "invalid", "rejected"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M5 9h14v2H5z\"/><circle class=\"p3\" cx=\"12\" cy=\"17\" r=\"3.5\"/><path class=\"p3\" d=\"M9.5 14.5l5 5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "stamp", "dur": 600, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

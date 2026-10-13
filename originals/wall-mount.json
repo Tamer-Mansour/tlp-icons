@@ -1,0 +1,11 @@
+{
+  "name": "wall-mount",
+  "category": "devices",
+  "tags": ["wall", "mount", "bracket", "screen", "tv", "display"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"3\" x2=\"3\" y2=\"21\"/><path class=\"p2\" d=\"M3 9h8M3 15h8\"/><rect class=\"d p3\" x=\"11\" y=\"6\" width=\"10\" height=\"12\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

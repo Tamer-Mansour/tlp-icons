@@ -1,0 +1,11 @@
+{
+  "name": "tuna-can",
+  "category": "food",
+  "tags": ["tuna", "can", "fish", "canned", "seafood"],
+  "svg": "<path class=\"p1\" d=\"M4 8V18A8 3 0 0 0 20 18V8\"/><ellipse class=\"p2\" cx=\"12\" cy=\"8\" rx=\"8\" ry=\"3\"/><path class=\"p3\" d=\"M7 15Q10 12.5 13 15Q10 17.5 7 15ZM13 15L16 13V17Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

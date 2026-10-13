@@ -1,0 +1,12 @@
+{
+  "name": "gibbon",
+  "category": "nature",
+  "tags": ["gibbon", "ape", "long arms", "swing", "primate", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13.5\" rx=\"2\" ry=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2.5\"/><path class=\"p3\" d=\"M10 11L4 4M14 11L20 4\"/><path class=\"p4\" d=\"M4 20Q12 14 20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 900, "delay": 1200, "origin": "top" }
+  ]
+}

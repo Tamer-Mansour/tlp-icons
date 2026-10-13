@@ -1,0 +1,10 @@
+{
+  "name": "bricks-stack",
+  "category": "shapes",
+  "tags": ["brick", "bricks", "wall", "stack", "build"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"8\" height=\"5\"/><rect class=\"d p1\" x=\"13\" y=\"14\" width=\"8\" height=\"5\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"8\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lab-notebook",
+  "category": "science",
+  "tags": ["notebook", "lab", "notes", "spiral", "research", "journal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 3v18\"/><path class=\"p3\" d=\"M12.5 9h4.5M12.5 13h4.5M12.5 17h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 1000 }
+  ]
+}

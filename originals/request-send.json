@@ -1,0 +1,11 @@
+{
+  "name": "request-send",
+  "category": "development",
+  "tags": ["request", "send", "paper plane", "submit", "message", "api"],
+  "svg": "<path class=\"d p1\" d=\"M21 3 3 10.5l7.5 2.5L13 20.5z\"/><path class=\"p2\" d=\"M10.5 13 21 3\"/><path class=\"p3\" d=\"M2 17.5h4.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "whooshIn", "dur": 500, "delay": 200 },
+    { "part": "p1", "anim": "launch", "dur": 900, "delay": 600 }
+  ]
+}

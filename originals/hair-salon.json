@@ -1,0 +1,11 @@
+{
+  "name": "hair-salon",
+  "category": "buildings",
+  "tags": ["hair salon", "hairdresser", "dryer", "beauty", "styling", "salon"],
+  "svg": "<path class=\"p1\" d=\"M3 6h12v6H3z\"/><path class=\"p2\" d=\"M6 12v6h3v-6\"/><path class=\"p3\" d=\"M19 5q2 2 0 4t0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

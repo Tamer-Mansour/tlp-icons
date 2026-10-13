@@ -1,0 +1,11 @@
+{
+  "name": "coordinate-grid-3d",
+  "category": "math",
+  "tags": ["grid", "isometric", "coordinates", "floor", "axis", "math"],
+  "svg": "<polygon class=\"d p1\" points=\"12 4 20 8 12 12 4 8\"/><path class=\"p2\" d=\"M8 6L16 10\"/><path class=\"p3\" d=\"M12 12V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1300, "origin": "12px 12px" }
+  ]
+}

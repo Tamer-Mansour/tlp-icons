@@ -1,0 +1,11 @@
+{
+  "name": "dashi",
+  "category": "food",
+  "tags": ["dashi", "broth", "kelp", "soup", "japanese", "stock"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 4.5-4 7.5-9 7.5S3 15.5 3 11z\"/><rect class=\"p2\" x=\"10.5\" y=\"13.5\" width=\"3\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M9 7q-1-1 0-2.5t0-2.5M15 7q-1-1 0-2.5t0-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "horse-carriage",
+  "category": "vehicles",
+  "tags": ["carriage", "horse", "wagon", "cart", "wheels", "transport", "old"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7.5\" width=\"12\" height=\"5.5\" rx=\"1\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"3\"/><circle class=\"p2\" cx=\"16\" cy=\"17\" r=\"2.5\"/><path class=\"p3\" d=\"M15 10.5L21 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "roll", "dur": 1000, "delay": 900 }
+  ]
+}

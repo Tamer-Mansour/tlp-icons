@@ -1,0 +1,11 @@
+{
+  "name": "emergency-lights",
+  "category": "vehicles",
+  "tags": ["emergency", "lights", "beacon", "hazard", "alert"],
+  "svg": "<path class=\"p2\" d=\"M12 3.5v2M5.5 6l1.5 1.5M18.5 6l-1.5 1.5\"/><rect class=\"d p1\" x=\"7\" y=\"11\" width=\"10\" height=\"5\" rx=\"1.5\"/><path class=\"p3\" d=\"M4 19.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 700 }
+  ]
+}

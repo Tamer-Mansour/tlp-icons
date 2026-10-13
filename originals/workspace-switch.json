@@ -1,0 +1,12 @@
+{
+  "name": "workspace-switch",
+  "category": "people",
+  "tags": ["workspace", "switch", "swap", "team", "space", "change"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"d p2\" x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M13.5 6.5h7M17.5 3.5l3 3-3 3\"/><path class=\"p4\" d=\"M10.5 17.5h-7M6.5 14.5l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

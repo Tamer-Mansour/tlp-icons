@@ -1,0 +1,11 @@
+{
+  "name": "endangered",
+  "category": "nature",
+  "tags": ["endangered", "alert", "protection", "shield", "warning", "species"],
+  "svg": "<path class=\"d p1\" d=\"M12 2l8 3v6c0 5-3.5 8.5-8 10c-4.5-1.5-8-5-8-10V5z\"/><path class=\"p2\" d=\"M12 8v5\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1300 }
+  ]
+}

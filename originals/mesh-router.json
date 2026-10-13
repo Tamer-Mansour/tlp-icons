@@ -1,0 +1,11 @@
+{
+  "name": "mesh-router",
+  "category": "devices",
+  "tags": ["mesh", "router", "network", "wifi", "nodes"],
+  "svg": "<circle class=\"d p3\" cx=\"12\" cy=\"6\" r=\"2.5\"/><circle class=\"d p1\" cx=\"5\" cy=\"18\" r=\"2.5\"/><circle class=\"d p1\" cx=\"19\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M10.2 7.8L6.8 16.2M13.8 7.8L17.2 16.2M7.5 18h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1200 }
+  ]
+}

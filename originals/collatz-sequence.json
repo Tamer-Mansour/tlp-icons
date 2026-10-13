@@ -1,0 +1,12 @@
+{
+  "name": "collatz-sequence",
+  "category": "math",
+  "tags": ["collatz", "sequence", "numbers", "branch", "merge", "math"],
+  "svg": "<path class=\"p1\" d=\"M12 22V16\"/><path class=\"p2\" d=\"M12 16C6 16 6 6 12 6\"/><path class=\"p3\" d=\"M12 16C18 16 18 6 12 6\"/><path class=\"p4\" d=\"M12 6V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p4", "anim": "grow", "dur": 400, "delay": 1300, "origin": "12px 6px" }
+  ]
+}

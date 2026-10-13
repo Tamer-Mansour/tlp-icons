@@ -1,0 +1,10 @@
+{
+  "name": "event-log",
+  "category": "charts",
+  "tags": ["event", "log", "history", "timeline", "list", "records"],
+  "svg": "<path class=\"p1\" d=\"M11 6h9M11 12h9M11 18h9\"/><circle class=\"f p2\" cx=\"6\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"6\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

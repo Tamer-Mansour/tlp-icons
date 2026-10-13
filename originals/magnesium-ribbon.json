@@ -1,0 +1,10 @@
+{
+  "name": "magnesium-ribbon",
+  "category": "science",
+  "tags": ["magnesium", "ribbon", "metal", "flame", "burning"],
+  "svg": "<path class=\"p1\" d=\"M4 17H15C18.5 17 18.5 12 15 12H10.5C8 12 8 15 10.5 15H14\"/><path class=\"d p2\" d=\"M19 3C20.5 5 21 6.5 20.5 8C20 9 18 9 17.8 7.5C17.5 6 18 5 19 3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

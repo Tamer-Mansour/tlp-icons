@@ -1,0 +1,10 @@
+{
+  "name": "moving-average",
+  "category": "charts",
+  "tags": ["moving average", "trend", "smoothing", "zigzag", "line", "data"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 5,8 8,14 12,6 16,15 19,8 21,12\"/><path class=\"p2\" d=\"M3 12 C7 11 9 9 12 10 C15 11 17 12 21 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

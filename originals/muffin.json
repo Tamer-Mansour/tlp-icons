@@ -1,0 +1,11 @@
+{
+  "name": "muffin",
+  "category": "food",
+  "tags": ["muffin", "cupcake", "bakery", "dessert", "pastry", "baked"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 C4 6 7.5 4 12 4 C16.5 4 20 6 20 11 Z\"/><polyline class=\"p2\" points=\"5 11 6.5 20 17.5 20 19 11\"/><path class=\"p3\" d=\"M9.5 15 V20 M14.5 15 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

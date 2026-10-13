@@ -1,0 +1,27 @@
+{
+  "name": "folder-brush",
+  "category": "files",
+  "tags": [
+    "folder",
+    "brush",
+    "paint",
+    "design",
+    "style",
+    "art"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M9.5 18.5L14 14M14 14l2.5-2.5 2.5 2.5-2.5 2.5z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "sway",
+      "dur": 800,
+      "delay": 500
+    }
+  ]
+}

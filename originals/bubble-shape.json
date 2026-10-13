@@ -1,0 +1,10 @@
+{
+  "name": "bubble-shape",
+  "category": "shapes",
+  "tags": ["bubble", "speech", "chat", "message", "comment", "rounded"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"13\" rx=\"4\"/><line class=\"p2\" x1=\"8\" y1=\"9\" x2=\"16\" y2=\"9\"/><line class=\"p2\" x1=\"8\" y1=\"12.5\" x2=\"13\" y2=\"12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 500 }
+  ]
+}

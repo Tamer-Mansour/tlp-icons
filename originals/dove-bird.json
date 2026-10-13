@@ -1,0 +1,11 @@
+{
+  "name": "dove-bird",
+  "category": "emoji",
+  "tags": ["dove", "bird", "peace", "flying", "hope", "wings"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 Q8 10 12 11 Q15 12 17 9 Q19 6 21 5 Q19 9 18 12 Q16 16 11 16 Q7 16 3 13 Z\"/><circle class=\"p2\" cx=\"16.5\" cy=\"9.5\" r=\"0.8\"/><line class=\"p3\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

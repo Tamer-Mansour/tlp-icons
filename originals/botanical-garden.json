@@ -1,0 +1,10 @@
+{
+  "name": "botanical-garden",
+  "category": "buildings",
+  "tags": ["garden", "plants", "greenhouse", "botanical", "leaf"],
+  "svg": "<path class=\"d p1\" d=\"M3 20V13a9 9 0 0 1 18 0v7z\"/><path class=\"p2\" d=\"M12 17V11M12 13c0-2-2-3-4-3 0 2 2 3 4 3zM12 12c0-2 2-3 4-3 0 2-2 3-4 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 800, "origin": "12px 17px" }
+  ]
+}

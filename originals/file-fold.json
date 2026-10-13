@@ -1,0 +1,11 @@
+{
+  "name": "file-fold",
+  "category": "files",
+  "tags": ["fold", "crease", "middle", "page", "bend", "divide"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"18\"/><path class=\"p3\" d=\"M8.5 10h2M13.5 14h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flipY", "dur": 600, "delay": 1100 }
+  ]
+}

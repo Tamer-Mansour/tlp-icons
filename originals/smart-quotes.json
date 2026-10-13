@@ -1,0 +1,10 @@
+{
+  "name": "smart-quotes",
+  "category": "text",
+  "tags": ["smart", "curly", "quotes", "typography", "text", "citation"],
+  "svg": "<path class=\"p1\" d=\"M3 14c0-3 1-5 3-6M8 14c0-3 1-5 3-6M14 14c0-3 1-5 3-6M19 14c0-3 1-5 3-6\"/><path class=\"p2\" d=\"M6 19h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "onion",
+  "category": "food",
+  "tags": ["onion", "vegetable", "bulb", "cooking", "produce", "layers"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 C9 7 6 9 6 14 C6 19 8.5 21.5 12 21.5 C15.5 21.5 18 19 18 14 C18 9 15 7 12 4 Z\"/><path class=\"p2\" d=\"M7.5 14 C9 16 15 16 16.5 14\"/><path class=\"p3\" d=\"M9 11.5 C10.5 13 13.5 13 15 11.5\"/><path class=\"p4\" d=\"M12 4 V2 M10 3 L8.5 2 M14 3 L15.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "sway", "dur": 700, "delay": 1400, "origin": "bottom" }
+  ]
+}

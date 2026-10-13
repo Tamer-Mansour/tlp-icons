@@ -1,0 +1,11 @@
+{
+  "name": "bokeh",
+  "category": "photography",
+  "tags": ["bokeh", "blur", "background", "lights", "depth", "soft", "focus"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"14.5\" r=\"4\"/><circle class=\"p2\" cx=\"14.5\" cy=\"9.5\" r=\"3.5\"/><circle class=\"p3\" cx=\"15\" cy=\"16\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

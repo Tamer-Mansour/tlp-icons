@@ -1,0 +1,11 @@
+{
+  "name": "pizza-cutter",
+  "category": "home",
+  "tags": ["pizza", "cutter", "wheel", "slice", "kitchen", "food"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"6\"/><rect class=\"p2\" x=\"7\" y=\"2\" width=\"10\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M12 6v3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "spin", "dur": 1000, "delay": 800, "origin": "12px 15px" }
+  ]
+}

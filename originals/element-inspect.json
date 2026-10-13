@@ -1,0 +1,11 @@
+{
+  "name": "element-inspect",
+  "category": "development",
+  "tags": ["inspect", "element", "devtools", "debug", "select", "magnify"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"10\" rx=\"1\"/><circle class=\"d p2\" cx=\"16\" cy=\"15\" r=\"4\"/><path class=\"p3\" d=\"M19 18l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "magnify", "dur": 700, "delay": 800 }
+  ]
+}

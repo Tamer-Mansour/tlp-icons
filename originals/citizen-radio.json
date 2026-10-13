@@ -1,0 +1,11 @@
+{
+  "name": "citizen-radio",
+  "category": "connectivity",
+  "tags": ["citizen", "radio", "microphone", "walkie", "talkie", "signal", "voice"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M10 10V4M8 4h4\"/><path class=\"p3\" d=\"M19 7.5a5 5 0 0 1 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

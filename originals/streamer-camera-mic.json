@@ -1,0 +1,12 @@
+{
+  "name": "streamer-camera-mic",
+  "category": "people",
+  "tags": ["streamer", "camera", "live", "microphone", "broadcast", "stream"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M15 11l6-3v8l-6-3\"/><path class=\"p3\" d=\"M9 17v2h6\"/><circle class=\"f p4\" cx=\"6\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

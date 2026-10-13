@@ -1,0 +1,10 @@
+{
+  "name": "rope-skipping",
+  "category": "sport",
+  "tags": ["skipping rope", "jump rope", "cardio", "fitness", "exercise"],
+  "svg": "<path class=\"p1\" d=\"M3 5V11C3 19 21 19 21 11V5\"/><circle class=\"f p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 1000, "delay": 900 }
+  ]
+}

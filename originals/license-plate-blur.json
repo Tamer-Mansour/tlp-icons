@@ -1,0 +1,10 @@
+{
+  "name": "license-plate-blur",
+  "category": "security",
+  "tags": ["license", "plate", "blur", "redact", "privacy", "vehicle"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2.5\"/><rect class=\"d p2\" x=\"6\" y=\"9.5\" width=\"12\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

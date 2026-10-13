@@ -1,0 +1,11 @@
+{
+  "name": "hot-pot",
+  "category": "food",
+  "tags": ["hot pot", "pot", "steam", "cooking", "soup"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16v7a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M12 11v11\"/><path class=\"p3\" d=\"M8.5 3v4M15.5 3v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

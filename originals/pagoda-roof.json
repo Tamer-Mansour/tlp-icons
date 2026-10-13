@@ -1,0 +1,11 @@
+{
+  "name": "pagoda-roof",
+  "category": "shapes",
+  "tags": ["pagoda", "roof", "tiered", "temple", "eaves", "asia"],
+  "svg": "<polyline class=\"p1\" points=\"2,8 12,2 22,8\"/><polyline class=\"p2\" points=\"6,13 12,8.5 18,13\"/><line class=\"p3\" x1=\"8\" y1=\"17\" x2=\"16\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

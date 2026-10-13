@@ -1,0 +1,11 @@
+{
+  "name": "pdf-lock",
+  "category": "files",
+  "tags": ["pdf", "lock", "secure", "document", "encrypted", "password"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"13\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"12.5\" y=\"13\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M14.5 13v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

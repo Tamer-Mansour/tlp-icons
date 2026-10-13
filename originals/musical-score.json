@@ -1,0 +1,11 @@
+{
+  "name": "musical-score",
+  "category": "files",
+  "tags": ["music", "score", "staff", "notes", "sheet", "melody"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18M3 8h18M3 12h18M3 16h18M3 20h18\"/><ellipse class=\"d p2\" cx=\"9.5\" cy=\"14\" rx=\"2\" ry=\"1.5\"/><line class=\"p3\" x1=\"11.5\" y1=\"14\" x2=\"11.5\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1000 }
+  ]
+}

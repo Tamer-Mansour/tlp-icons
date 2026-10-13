@@ -1,0 +1,10 @@
+{
+  "name": "straw",
+  "category": "food",
+  "tags": ["straw", "drink", "bendy", "plastic", "sip"],
+  "svg": "<path class=\"p1\" d=\"M5 21 V8 A4 4 0 0 1 9 4 H19\"/><circle class=\"f p2\" cx=\"19\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "jupiter-storm",
+  "category": "science",
+  "tags": ["planet", "jupiter", "storm", "bands", "space"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"4.5\" y1=\"8\" x2=\"19.5\" y2=\"8\"/><line class=\"p2\" x1=\"4.5\" y1=\"16\" x2=\"19.5\" y2=\"16\"/><ellipse class=\"p3\" cx=\"15\" cy=\"12\" rx=\"2\" ry=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "breathe", "dur": 900, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "range-slider",
+  "category": "interface",
+  "tags": ["range", "slider", "min", "max", "filter"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><rect class=\"d p2\" x=\"8\" y=\"9\" width=\"8\" height=\"6\"/><path class=\"p3\" d=\"M8 8v8M16 8v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "session",
+  "category": "development",
+  "tags": ["session", "clock", "user", "time", "login"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M7 12V9\"/><circle class=\"p3\" cx=\"17.5\" cy=\"8\" r=\"2.5\"/><path class=\"p3\" d=\"M14 20c0-2 1.6-3.5 3.5-3.5S21 18 21 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 1000, "origin": "7px 12px" }
+  ]
+}

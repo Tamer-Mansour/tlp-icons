@@ -1,0 +1,11 @@
+{
+  "name": "kaomoji",
+  "category": "emoji",
+  "tags": ["kaomoji", "face", "emoticon", "japanese", "text"],
+  "svg": "<path class=\"p1\" d=\"M7 4Q2 12 7 20\"/><path class=\"p1\" d=\"M17 4Q22 12 17 20\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"10\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"10\" r=\"1.2\"/><path class=\"p3\" d=\"M10 14q2 2 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

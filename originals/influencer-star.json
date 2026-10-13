@@ -1,0 +1,10 @@
+{
+  "name": "influencer-star",
+  "category": "people",
+  "tags": ["influencer", "star", "celebrity", "popular", "fame", "creator"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"3\"/><path class=\"p1\" d=\"M6 22v-1a6 6 0 0 1 12 0v1\"/><polygon class=\"p2\" points=\"19 2 19.9 4 22 4.2 20.4 5.6 20.9 7.7 19 6.6 17.1 7.7 17.6 5.6 16 4.2 18.1 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ram-module",
+  "category": "devices",
+  "tags": ["ram", "memory", "module", "chips", "board", "computer"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"10\" width=\"3\" height=\"4\"/><rect class=\"p2\" x=\"10.5\" y=\"10\" width=\"3\" height=\"4\"/><rect class=\"p2\" x=\"16\" y=\"10\" width=\"3\" height=\"4\"/><path class=\"p3\" d=\"M5 16v3M9 16v3M13 16v3M17 16v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

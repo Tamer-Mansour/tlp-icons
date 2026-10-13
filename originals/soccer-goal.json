@@ -1,0 +1,10 @@
+{
+  "name": "soccer-goal",
+  "category": "sport",
+  "tags": ["soccer", "goal", "net", "football", "sport", "frame"],
+  "svg": "<path class=\"p1\" d=\"M3 19V5h18v14\"/><path class=\"p2\" d=\"M7.5 5v14M12 5v14M16.5 5v14M3 12h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 800 }
+  ]
+}

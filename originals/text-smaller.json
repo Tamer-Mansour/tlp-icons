@@ -1,0 +1,11 @@
+{
+  "name": "text-smaller",
+  "category": "text",
+  "tags": ["smaller", "shrink", "font size", "decrease", "letter"],
+  "svg": "<path class=\"p1\" d=\"M2 19 L6 6 L10 19 M3.2 14 H8.8\"/><path class=\"p2\" d=\"M16 4 V11 M13.5 8.5 L16 11 L18.5 8.5\"/><circle class=\"p3\" cx=\"16\" cy=\"17\" r=\"2\"/><path class=\"p3\" d=\"M18 15 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

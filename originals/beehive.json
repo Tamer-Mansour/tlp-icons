@@ -1,0 +1,11 @@
+{
+  "name": "beehive",
+  "category": "nature",
+  "tags": ["hive", "honey", "bee", "skep", "colony"],
+  "svg": "<path class=\"d p1\" d=\"M4 20 V13 C4 7 8 4 12 4 C16 4 20 7 20 13 V20 Z\"/><path class=\"p2\" d=\"M6 12.5 H18\"/><circle class=\"p3\" cx=\"19\" cy=\"6\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 900, "delay": 1100 }
+  ]
+}

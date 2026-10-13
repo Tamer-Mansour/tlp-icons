@@ -1,0 +1,11 @@
+{
+  "name": "high-five",
+  "category": "sport",
+  "tags": ["high five", "hand", "celebrate", "team", "greeting"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"12\" width=\"9\" height=\"9\" rx=\"3\"/><path class=\"p2\" d=\"M7 12 V5 M10.5 12 V3 M14 12 V4.5\"/><path class=\"p3\" d=\"M18 5 L20 3 M18.5 9 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 1000 }
+  ]
+}

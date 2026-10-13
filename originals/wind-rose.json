@@ -1,0 +1,10 @@
+{
+  "name": "wind-rose",
+  "category": "weather",
+  "tags": ["wind", "rose", "compass", "spokes", "chart"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7V17M7 12H17M8.5 8.5L15.5 15.5M15.5 8.5L8.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 }
+  ]
+}

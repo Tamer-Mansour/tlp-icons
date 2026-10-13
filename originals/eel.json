@@ -1,0 +1,10 @@
+{
+  "name": "eel",
+  "category": "nature",
+  "tags": ["sea", "wavy", "snake fish", "ocean", "marine"],
+  "svg": "<path class=\"p1\" d=\"M3 5 C8 3 9 8 12 10 C15 12 16 17 19 19 C20.5 20 21 18 21 17\"/><circle class=\"f p2\" cx=\"3\" cy=\"5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

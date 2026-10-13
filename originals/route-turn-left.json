@@ -1,0 +1,11 @@
+{
+  "name": "route-turn-left",
+  "category": "vehicles",
+  "tags": ["route", "turn", "left", "navigation", "path", "direction", "map"],
+  "svg": "<path class=\"p1\" d=\"M15 21v-7a3 3 0 0 0-3-3H7\"/><polyline class=\"p2\" points=\"9.5 8.5 7 11 9.5 13.5\"/><circle class=\"f p3\" cx=\"15\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 200 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 1000 }
+  ]
+}

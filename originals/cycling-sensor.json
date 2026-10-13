@@ -1,0 +1,12 @@
+{
+  "name": "cycling-sensor",
+  "category": "devices",
+  "tags": ["cycling", "bike", "wheel", "sensor", "speed", "sport"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"15\" r=\"7\"/><path class=\"p2\" d=\"M12 8 V22 M5 15 H19\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/><path class=\"p4\" d=\"M8 4 A6 6 0 0 1 16 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 15px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1400 },
+    { "part": "p4", "anim": "pulseRing", "dur": 900, "delay": 1500 }
+  ]
+}

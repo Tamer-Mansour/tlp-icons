@@ -1,0 +1,11 @@
+{
+  "name": "traveler-luggage",
+  "category": "people",
+  "tags": ["traveler", "luggage", "suitcase", "travel", "trip"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"7\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p1\" d=\"M9 7V4.5H15V7\"/><line class=\"p2\" x1=\"5\" y1=\"11.5\" x2=\"19\" y2=\"11.5\"/><circle class=\"p3\" cx=\"8.5\" cy=\"20.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"15.5\" cy=\"20.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 1300 }
+  ]
+}

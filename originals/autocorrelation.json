@@ -1,0 +1,10 @@
+{
+  "name": "autocorrelation",
+  "category": "charts",
+  "tags": ["autocorrelation", "lags", "signal", "bars", "correlation"],
+  "svg": "<path class=\"p2\" d=\"M2 12H22\"/><path class=\"p1\" d=\"M4 12V4M8 12V17M12 12V8M16 12V15M20 12V10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fadeIn", "dur": 600, "delay": 400 }
+  ]
+}

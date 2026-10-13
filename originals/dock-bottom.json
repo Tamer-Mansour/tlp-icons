@@ -1,0 +1,10 @@
+{
+  "name": "dock-bottom",
+  "category": "interface",
+  "tags": ["dock", "bottom", "taskbar", "toolbar", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><rect class=\"d p2\" x=\"7\" y=\"13\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "lever-simple",
+  "category": "science",
+  "tags": ["lever", "fulcrum", "balance", "simple", "machine"],
+  "svg": "<path class=\"p1\" d=\"M3 8h18\"/><path class=\"d p2\" d=\"M12 10l-4 9h8z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 900, "delay": 800, "origin": "12px 8px" }
+  ]
+}

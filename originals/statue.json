@@ -1,0 +1,11 @@
+{
+  "name": "statue",
+  "category": "buildings",
+  "tags": ["statue", "pedestal", "monument", "figure", "sculpture", "plaza"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"17\" width=\"10\" height=\"5\"/><path class=\"p2\" d=\"M12 8.5 V15 M9 11 H15\"/><circle class=\"p3\" cx=\"12\" cy=\"4.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1200 }
+  ]
+}

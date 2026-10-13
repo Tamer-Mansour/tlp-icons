@@ -1,0 +1,11 @@
+{
+  "name": "arcade-hall",
+  "category": "buildings",
+  "tags": ["arcade", "joystick", "button", "game", "machine", "retro"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"18\" width=\"16\" height=\"3\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"18\" x2=\"12\" y2=\"10\"/><circle class=\"d p3\" cx=\"12\" cy=\"8\" r=\"2\"/><circle class=\"f p4\" cx=\"17\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1000, "origin": "12px 18px" }
+  ]
+}

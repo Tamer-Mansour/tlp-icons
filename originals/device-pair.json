@@ -1,0 +1,11 @@
+{
+  "name": "device-pair",
+  "category": "people",
+  "tags": ["device pairing", "phone laptop", "link devices", "sync", "pair"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"5\" height=\"12\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"6\" width=\"7\" height=\"8\" rx=\"1\"/><line class=\"p2\" x1=\"12.5\" y1=\"16.5\" x2=\"22\" y2=\"16.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"10\" r=\"0.8\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"10\" r=\"0.8\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

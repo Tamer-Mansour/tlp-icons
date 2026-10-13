@@ -1,0 +1,10 @@
+{
+  "name": "hdmi-cable",
+  "category": "devices",
+  "tags": ["hdmi", "cable", "plug", "video", "connector", "display"],
+  "svg": "<path class=\"d p1\" d=\"M2 9 H9 L12 12 L9 15 H2 Z\"/><path class=\"p2\" d=\"M12 12 H16 Q20 12 20 16 Q20 20 16 20 H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

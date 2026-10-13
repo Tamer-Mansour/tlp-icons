@@ -1,0 +1,11 @@
+{
+  "name": "milling-cutter",
+  "category": "tools",
+  "tags": ["milling", "cutter", "flutes", "teeth", "machining"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 7h9M7.5 11h9\"/><path class=\"p3\" d=\"M10 17v4h4v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "spinFast", "dur": 1000, "delay": 600 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "rest-stop",
+  "category": "buildings",
+  "tags": ["rest", "stop", "picnic", "table", "road", "sign", "highway"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"12\" height=\"2\" rx=\"0.5\"/><path class=\"p2\" d=\"M4 12v7M12 12v7M4 16h8\"/><rect class=\"p3\" x=\"15\" y=\"3\" width=\"7\" height=\"5\" rx=\"0.5\"/><path class=\"p4\" d=\"M18.5 8v13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1100 }
+  ]
+}

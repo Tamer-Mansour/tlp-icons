@@ -1,0 +1,11 @@
+{
+  "name": "fishing-reel",
+  "category": "sport",
+  "tags": ["fishing", "reel", "line", "spool", "angling", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"13\" r=\"2.5\"/><path class=\"p3\" d=\"M17 13h3.5M20.5 13V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

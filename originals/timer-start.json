@@ -1,0 +1,10 @@
+{
+  "name": "timer-start",
+  "category": "time",
+  "tags": ["timer", "start", "play", "begin", "countdown"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14.5\" r=\"6.5\"/><path class=\"p2\" d=\"M10 2.5v4l3.5-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 1000 }
+  ]
+}

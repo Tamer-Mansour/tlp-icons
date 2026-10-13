@@ -1,0 +1,10 @@
+{
+  "name": "mosaic-tiles",
+  "category": "design",
+  "tags": ["mosaic", "tiles", "grid", "squares", "pattern", "gap"],
+  "svg": "<path class=\"p1\" d=\"M3 3H10V10H3ZM14 3H21V10H14ZM3 14H10V21H3Z\"/><path class=\"p2\" d=\"M14 14H21V21H14Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 900 }
+  ]
+}

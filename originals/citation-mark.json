@@ -1,0 +1,11 @@
+{
+  "name": "citation-mark",
+  "category": "science",
+  "tags": ["citation", "quote", "reference", "bracket", "cite"],
+  "svg": "<path class=\"p1\" d=\"M8 4H5V20H8\"/><path class=\"p2\" d=\"M16 4H19V20H16\"/><path class=\"p3\" d=\"M11 9L12.5 8V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

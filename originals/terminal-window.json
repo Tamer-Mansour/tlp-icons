@@ -1,0 +1,11 @@
+{
+  "name": "terminal-window",
+  "category": "layout",
+  "tags": ["terminal", "window", "console", "prompt", "shell", "command"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><polyline class=\"p2\" points=\"6,9 9.5,11.5 6,14\"/><line class=\"p3\" x1=\"12\" y1=\"15\" x2=\"17\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1000 }
+  ]
+}

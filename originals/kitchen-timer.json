@@ -1,0 +1,11 @@
+{
+  "name": "kitchen-timer",
+  "category": "food",
+  "tags": ["timer", "kitchen", "clock", "dial", "countdown", "cooking"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 3h4M12 5v2\"/><path class=\"p3\" d=\"M12 13V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 800, "origin": "12px 13px" }
+  ]
+}

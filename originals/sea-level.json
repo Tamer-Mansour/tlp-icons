@@ -1,0 +1,10 @@
+{
+  "name": "sea-level",
+  "category": "nature",
+  "tags": ["sea", "water", "level", "ocean", "waves"],
+  "svg": "<path class=\"p1\" d=\"M2 16q2.5-2 5 0t5 0 5 0 5 0\"/><line class=\"p2\" x1=\"6\" y1=\"9\" x2=\"18\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 900 }
+  ]
+}

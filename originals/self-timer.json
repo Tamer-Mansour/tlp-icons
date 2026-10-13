@@ -1,0 +1,11 @@
+{
+  "name": "self-timer",
+  "category": "photography",
+  "tags": ["self timer", "timer", "camera", "countdown", "selfie"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"12\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"4\"/><path class=\"p3\" d=\"M12 14v-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1100, "delay": 900, "origin": "12px 14px" }
+  ]
+}

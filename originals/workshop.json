@@ -1,0 +1,11 @@
+{
+  "name": "workshop",
+  "category": "buildings",
+  "tags": ["workshop", "tools", "bench", "repair", "garage", "maker"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M3 18h18M6 18v4M18 18v4\"/><path class=\"p3\" d=\"M11 13l5-5\"/><circle class=\"p3\" cx=\"17.5\" cy=\"6.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

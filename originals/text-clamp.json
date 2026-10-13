@@ -1,0 +1,10 @@
+{
+  "name": "text-clamp",
+  "category": "text",
+  "tags": ["clamp", "cut", "dashed", "overflow", "truncate", "text"],
+  "svg": "<path class=\"p1\" d=\"M4 6h16M4 10h16M4 14h11\"/><path class=\"p2\" d=\"M4 18h2M8 18h2M12 18h2M16 18h2M20 18h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

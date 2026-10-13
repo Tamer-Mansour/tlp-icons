@@ -1,0 +1,11 @@
+{
+  "name": "air-compressor",
+  "category": "tools",
+  "tags": ["air", "compressor", "tank", "pressure", "gauge", "pump"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"8\" rx=\"3\"/><circle class=\"p2\" cx=\"8\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M8 6 L10 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "8px 6px" }
+  ]
+}

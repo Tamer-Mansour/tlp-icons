@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-message",
+  "category": "communication",
+  "tags": ["clipboard", "message", "notes", "chat", "memo"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"2\" width=\"7\" height=\"3.5\" rx=\"1\"/><path class=\"p3\" d=\"M8 9.5h8v5h-3.5l-2 2v-2H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

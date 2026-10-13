@@ -1,0 +1,10 @@
+{
+  "name": "file-puzzle",
+  "category": "files",
+  "tags": ["file", "puzzle", "piece", "plugin", "extension", "addon"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"d p2\" d=\"M8 11h3.5a1.75 1.75 0 0 1 3.5 0H16v3.5a1.75 1.75 0 0 1 0 3.5H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

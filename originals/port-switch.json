@@ -1,0 +1,11 @@
+{
+  "name": "port-switch",
+  "category": "connectivity",
+  "tags": ["switch", "port", "toggle", "network", "device", "lever"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"8\" width=\"4\" height=\"4\"/><path class=\"p3\" d=\"M15 16v-4\"/><circle class=\"f p3\" cx=\"15\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 700, "delay": 1000 }
+  ]
+}

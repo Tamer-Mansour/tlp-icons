@@ -1,0 +1,11 @@
+{
+  "name": "rotary-tool",
+  "category": "devices",
+  "tags": ["rotary", "tool", "bit", "handheld", "drill", "grinder"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M15 12h6\"/><path class=\"p3\" d=\"M7 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "buzz", "dur": 800, "delay": 1000, "origin": "15px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "book-bag",
+  "category": "science",
+  "tags": ["backpack", "bag", "school", "book", "strap", "student"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"14\" height=\"14\" rx=\"3\"/><path class=\"p2\" d=\"M9 7 V4.5 H15 V7\"/><line class=\"p3\" x1=\"9\" y1=\"13\" x2=\"15\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1300 }
+  ]
+}

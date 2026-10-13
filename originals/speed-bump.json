@@ -1,0 +1,10 @@
+{
+  "name": "speed-bump",
+  "category": "vehicles",
+  "tags": ["speed bump", "road", "traffic calm", "hump", "street", "slow"],
+  "svg": "<path class=\"p1\" d=\"M2 19h20\"/><path class=\"p2\" d=\"M4 19c3 0 3-6 8-6s5 6 8 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 700, "delay": 400 }
+  ]
+}

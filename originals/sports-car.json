@@ -1,0 +1,10 @@
+{
+  "name": "sports-car",
+  "category": "vehicles",
+  "tags": ["sports", "car", "fast", "coupe", "sleek", "speed"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 15.5V13L6 12L9 8H15L18 12L20.5 13V15.5Z\"/><circle class=\"p2\" cx=\"6.5\" cy=\"16\" r=\"1.5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"16\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 500 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "roadrunner",
+  "category": "nature",
+  "tags": ["roadrunner", "bird", "running", "desert", "fast"],
+  "svg": "<path class=\"d p1\" d=\"M5 13 Q6 9 11 9 L16 9 Q18 10 16 13 Q13 15 9 15 Q5 15 5 13 Z\"/><g class=\"p2\"><circle cx=\"17\" cy=\"7\" r=\"2\"/><path d=\"M15.5 5.5 L13 3\"/></g><path class=\"p3\" d=\"M10 15 L8 21 M13 15 L15 21\"/><path class=\"p4\" d=\"M5 12 L1 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "swing", "dur": 600, "delay": 1300 }
+  ]
+}

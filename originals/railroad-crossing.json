@@ -1,0 +1,10 @@
+{
+  "name": "railroad-crossing",
+  "category": "vehicles",
+  "tags": ["railroad", "crossing", "train", "rail", "sign", "track", "warning"],
+  "svg": "<path class=\"p1\" d=\"M5 4.5l14 14M19 4.5L5 18.5\"/><path class=\"p2\" d=\"M2.5 21h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 800 }
+  ]
+}

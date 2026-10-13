@@ -1,0 +1,11 @@
+{
+  "name": "consent-checkbox-user",
+  "category": "people",
+  "tags": ["consent", "checkbox", "user", "agree", "permission"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"8.5\" width=\"7\" height=\"7\" rx=\"1.5\"/><polyline class=\"p2\" points=\"4.5 12 6.5 14 8 10.5\"/><circle class=\"d p3\" cx=\"17\" cy=\"8\" r=\"3.5\"/><path class=\"p3\" d=\"M12.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5 4.5 4.5 0 0 1 4.5 4.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

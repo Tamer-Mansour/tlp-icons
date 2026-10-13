@@ -1,0 +1,11 @@
+{
+  "name": "sea-cliff",
+  "category": "buildings",
+  "tags": ["sea", "cliff", "coast", "waves", "ocean", "edge"],
+  "svg": "<path class=\"d p1\" d=\"M2 3h9v13H2z\"/><path class=\"p2\" d=\"M13 9c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0\"/><path class=\"p3\" d=\"M13 15c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

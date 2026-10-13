@@ -1,0 +1,11 @@
+{
+  "name": "larch",
+  "category": "nature",
+  "tags": ["larch", "conifer", "tree", "needles", "evergreen"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L17 16 H7 Z\"/><path class=\"p2\" d=\"M8 13 L5.5 12.5 M16 13 L18.5 12.5\"/><path class=\"p3\" d=\"M12 16 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 21px" }
+  ]
+}

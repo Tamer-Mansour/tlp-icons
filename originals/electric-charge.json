@@ -1,0 +1,11 @@
+{
+  "name": "electric-charge",
+  "category": "science",
+  "tags": ["physics", "electric", "charge", "field", "plus", "electricity"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 10.5v3M10.5 12h3\"/><path class=\"p3\" d=\"M12 3v2M12 19v2M3 12h2M19 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

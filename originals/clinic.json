@@ -1,0 +1,11 @@
+{
+  "name": "clinic",
+  "category": "buildings",
+  "tags": ["clinic", "medical", "health", "cross", "care", "doctor", "building"],
+  "svg": "<path class=\"d p1\" d=\"M4 19V10l8-5 8 5v9z\"/><path class=\"p2\" d=\"M12 9.5v5M9.5 12h5\"/><path class=\"p3\" d=\"M10 19v-2h4v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 900 }
+  ]
+}

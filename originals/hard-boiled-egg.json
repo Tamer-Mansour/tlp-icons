@@ -1,0 +1,11 @@
+{
+  "name": "hard-boiled-egg",
+  "category": "food",
+  "tags": ["egg", "boiled", "yolk", "half", "cut", "breakfast", "protein"],
+  "svg": "<path class=\"d p1\" d=\"M4 12a8 8 0 0 0 16 0z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M4 12a8 8 0 0 1 16 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 1100 }
+  ]
+}

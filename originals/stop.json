@@ -1,0 +1,10 @@
+{
+  "name": "stop",
+  "category": "interface",
+  "tags": ["stop", "square", "halt", "end", "button", "media"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><rect class=\"p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 600 }
+  ]
+}

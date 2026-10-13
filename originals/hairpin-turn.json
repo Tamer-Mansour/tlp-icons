@@ -1,0 +1,10 @@
+{
+  "name": "hairpin-turn",
+  "category": "arrows",
+  "tags": ["hairpin", "turn", "road", "bend", "curve"],
+  "svg": "<path class=\"p1\" d=\"M6 22 V9 A6 6 0 0 1 18 9 V15\"/><polyline class=\"p2\" points=\"15 12 18 15 21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pinball-machine",
+  "category": "devices",
+  "tags": ["pinball", "machine", "arcade", "flipper", "game"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 18l4-2\"/><circle class=\"f p3\" cx=\"15\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 1100 }
+  ]
+}

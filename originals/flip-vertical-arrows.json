@@ -1,0 +1,11 @@
+{
+  "name": "flip-vertical-arrows",
+  "category": "arrows",
+  "tags": ["flip", "mirror", "vertical", "swap", "arrows"],
+  "svg": "<line class=\"p1\" x1=\"8\" y1=\"10\" x2=\"8\" y2=\"3\"/><polyline class=\"p1\" points=\"5 7 8 3 11 7\"/><line class=\"p2\" x1=\"16\" y1=\"14\" x2=\"16\" y2=\"21\"/><polyline class=\"p2\" points=\"13 17 16 21 19 17\"/><line class=\"p3\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 800 }
+  ]
+}

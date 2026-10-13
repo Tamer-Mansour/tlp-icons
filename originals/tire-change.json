@@ -1,0 +1,10 @@
+{
+  "name": "tire-change",
+  "category": "vehicles",
+  "tags": ["tire", "change", "wheel", "swap", "rotate"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M19.5 12a7.5 7.5 0 1 1-2.2-5.3M19.5 5v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

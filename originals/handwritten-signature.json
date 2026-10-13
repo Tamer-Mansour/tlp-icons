@@ -1,0 +1,11 @@
+{
+  "name": "handwritten-signature",
+  "category": "people",
+  "tags": ["signature", "sign", "pen", "handwriting", "contract", "autograph"],
+  "svg": "<path class=\"p1\" d=\"M16 3.5l3.5 3.5-7 7-3.5.5.5-3.5z\"/><path class=\"p2\" d=\"M3 17c2-3 3.5-3 4.5 0s2.5 3 4 0 2.5-3 3.5 0\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 },
+    { "part": "p1", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "9px 15.5px" }
+  ]
+}

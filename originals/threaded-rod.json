@@ -1,0 +1,10 @@
+{
+  "name": "threaded-rod",
+  "category": "tools",
+  "tags": ["rod", "threaded", "thread", "stud", "fastener"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"6\" rx=\"0.5\"/><path class=\"p2\" d=\"M5 9l-1.5 6M9 9l-1.5 6M13 9l-1.5 6M17 9l-1.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

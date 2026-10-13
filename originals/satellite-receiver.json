@@ -1,0 +1,11 @@
+{
+  "name": "satellite-receiver",
+  "category": "devices",
+  "tags": ["satellite", "dish", "receiver", "tv", "antenna", "signal"],
+  "svg": "<path class=\"p1\" d=\"M5 9a7 7 0 0 1 14 0\"/><path class=\"p2\" d=\"M12 9v5\"/><rect class=\"d p3\" x=\"8\" y=\"14\" width=\"8\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

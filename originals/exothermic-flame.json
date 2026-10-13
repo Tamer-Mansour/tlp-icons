@@ -1,0 +1,11 @@
+{
+  "name": "exothermic-flame",
+  "category": "science",
+  "tags": ["fire", "heat", "exothermic", "energy", "flame", "reaction"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5C14 7 17 9 17 13.5a5 5 0 0 1-10 0C7 9 10 7 12 2.5z\"/><path class=\"p2\" d=\"M12 11.5c-.8.8-1.5 1.8-1.5 3a1.5 1.5 0 0 0 3 0c0-1.2-.7-2.2-1.5-3z\"/><path class=\"p3\" d=\"M20 3v8M18 9l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

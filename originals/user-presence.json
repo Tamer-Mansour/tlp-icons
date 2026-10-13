@@ -1,0 +1,10 @@
+{
+  "name": "user-presence",
+  "category": "interface",
+  "tags": ["presence", "user", "person", "online", "profile"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 20C3.5 17 6 15 9 15S14.5 17 14.5 20\"/><circle class=\"d p2\" cx=\"19.5\" cy=\"16.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

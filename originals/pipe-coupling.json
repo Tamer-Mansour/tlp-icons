@@ -1,0 +1,10 @@
+{
+  "name": "pipe-coupling",
+  "category": "tools",
+  "tags": ["pipe", "coupling", "sleeve", "joint", "plumbing", "connector"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"7\" width=\"8\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M2 10H8M2 14H8M16 10H22M16 14H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "folder-ruler",
+  "category": "files",
+  "tags": ["folder", "ruler", "measure", "size", "scale", "dimensions"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><rect class=\"p2\" x=\"6.5\" y=\"13.5\" width=\"11\" height=\"3\" rx=\".5\"/><path class=\"p2\" d=\"M9 13.5v1.5M12 13.5v1.5M15 13.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500 }
+  ]
+}

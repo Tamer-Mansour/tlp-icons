@@ -1,0 +1,11 @@
+{
+  "name": "road-closed-sign",
+  "category": "vehicles",
+  "tags": ["road", "closed", "sign", "barrier", "closure", "street"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M3 17.5H21\"/><path class=\"p3\" d=\"M7 14V21M17 14V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 1000 }
+  ]
+}

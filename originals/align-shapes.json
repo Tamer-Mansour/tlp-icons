@@ -1,0 +1,11 @@
+{
+  "name": "align-shapes",
+  "category": "shapes",
+  "tags": ["align", "shapes", "left", "edge", "layout", "guide"],
+  "svg": "<line class=\"p3\" x1=\"3\" y1=\"3\" x2=\"3\" y2=\"21\"/><rect class=\"p1\" x=\"6\" y=\"4\" width=\"14\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"10\" width=\"10\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"16\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 400, "origin": "left" },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800, "origin": "left" }
+  ]
+}

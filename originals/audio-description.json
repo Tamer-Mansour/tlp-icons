@@ -1,0 +1,10 @@
+{
+  "name": "audio-description",
+  "category": "media",
+  "tags": ["audio", "description", "speech", "bubble", "caption", "narration"],
+  "svg": "<path class=\"d p1\" d=\"M4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H11L7 21V17H4A2 2 0 0 1 2 15V5A2 2 0 0 1 4 3Z\"/><path class=\"p2\" d=\"M6 10.5Q8.5 7.5 11 10.5T16 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

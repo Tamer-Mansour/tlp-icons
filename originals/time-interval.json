@@ -1,0 +1,11 @@
+{
+  "name": "time-interval",
+  "category": "time",
+  "tags": ["interval", "span", "timeline", "between", "gap"],
+  "svg": "<path class=\"p1\" d=\"M4 12H20\"/><path class=\"p2\" d=\"M4 8V16M20 8V16\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "beat", "dur": 700, "delay": 1000 }
+  ]
+}

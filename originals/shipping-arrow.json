@@ -1,0 +1,10 @@
+{
+  "name": "shipping-arrow",
+  "category": "arrows",
+  "tags": ["shipping", "ship", "freight", "box", "transport", "send"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M4 19h13M14 16l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

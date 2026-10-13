@@ -1,0 +1,10 @@
+{
+  "name": "channel-down",
+  "category": "media",
+  "tags": ["channel", "down", "tv", "previous", "remote"],
+  "svg": "<path class=\"p1\" d=\"M12 3v7M8 6l4 4 4-4\"/><rect class=\"d p2\" x=\"4\" y=\"14\" width=\"16\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

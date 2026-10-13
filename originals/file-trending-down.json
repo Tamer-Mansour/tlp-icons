@@ -1,0 +1,11 @@
+{
+  "name": "file-trending-down",
+  "category": "files",
+  "tags": ["file", "trending", "down", "decline", "drop", "chart"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><polyline class=\"p2\" points=\"7.5 12 10.8 15.3 13.2 12.9 16.5 16.5\"/><polyline class=\"p3\" points=\"13.5 16.5 16.5 16.5 16.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 500, "delay": 1100 }
+  ]
+}

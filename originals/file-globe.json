@@ -1,0 +1,11 @@
+{
+  "name": "file-globe",
+  "category": "files",
+  "tags": ["globe", "world", "web", "international", "online", "public"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><circle class=\"d p2\" cx=\"15\" cy=\"16\" r=\"3.5\"/><path class=\"p3\" d=\"M11.5 16h7\"/><ellipse class=\"p3\" cx=\"15\" cy=\"16\" rx=\"1.5\" ry=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

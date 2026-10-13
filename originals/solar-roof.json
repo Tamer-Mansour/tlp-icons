@@ -1,0 +1,11 @@
+{
+  "name": "solar-roof",
+  "category": "buildings",
+  "tags": ["solar", "roof", "house", "panels", "home", "energy"],
+  "svg": "<path class=\"p1\" d=\"M2 12L12 4l10 8\"/><path class=\"p2\" d=\"M5 11v10h14V11\"/><rect class=\"d p3\" x=\"8.5\" y=\"7.5\" width=\"7\" height=\"2.5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 900 }
+  ]
+}

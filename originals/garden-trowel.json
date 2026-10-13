@@ -1,0 +1,10 @@
+{
+  "name": "garden-trowel",
+  "category": "nature",
+  "tags": ["trowel", "garden", "scoop", "soil", "planting"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 Q3 10 7 10 Q11 10 11 14 Q11 19 7 19 Q3 19 3 14 Z\"/><path class=\"p2\" d=\"M11 13 L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "dig", "dur": 900, "delay": 600, "origin": "11px 13px" }
+  ]
+}

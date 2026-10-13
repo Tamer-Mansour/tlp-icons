@@ -1,0 +1,11 @@
+{
+  "name": "smart-meter",
+  "category": "devices",
+  "tags": ["smart", "meter", "wifi", "utility", "energy", "connected"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"3\"/><path class=\"p3\" d=\"M9.5 17.5Q12 15 14.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 900 }
+  ]
+}

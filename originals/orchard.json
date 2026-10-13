@@ -1,0 +1,11 @@
+{
+  "name": "orchard",
+  "category": "buildings",
+  "tags": ["orchard", "trees", "fruit", "grove", "farm", "rows", "garden"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"7\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"7\" r=\"2.5\"/><circle class=\"d p1\" cx=\"19\" cy=\"7\" r=\"2.5\"/><path class=\"p2\" d=\"M5 9.5V19M12 9.5V19M19 9.5V19\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

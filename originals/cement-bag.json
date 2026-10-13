@@ -1,0 +1,11 @@
+{
+  "name": "cement-bag",
+  "category": "tools",
+  "tags": ["cement", "bag", "sack", "powder", "concrete", "construction"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18L19 21H5Z\"/><path class=\"p2\" d=\"M6 8L8 5H16L18 8\"/><circle class=\"f p3\" cx=\"20\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

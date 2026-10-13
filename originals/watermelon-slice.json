@@ -1,0 +1,11 @@
+{
+  "name": "watermelon-slice",
+  "category": "food",
+  "tags": ["watermelon", "slice", "fruit", "seeds", "summer"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 H21 Q21 19 12 20 Q3 19 3 9 Z\"/><path class=\"p2\" d=\"M5.5 11 H18.5 Q18.5 17.5 12 18 Q5.5 17.5 5.5 11\"/><circle class=\"f p3\" cx=\"9\" cy=\"13.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"15\" cy=\"13.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

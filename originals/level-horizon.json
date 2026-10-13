@@ -1,0 +1,11 @@
+{
+  "name": "level-horizon",
+  "category": "photography",
+  "tags": ["level", "horizon", "straight", "bubble", "align", "tilt", "photo"],
+  "svg": "<path class=\"p1\" d=\"M2.5 17H21.5\"/><rect class=\"d p2\" x=\"7\" y=\"8\" width=\"10\" height=\"4\" rx=\"2\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "antelope",
+  "category": "nature",
+  "tags": ["antelope", "horns", "slender legs", "grassland", "savanna"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9.5\" cy=\"12.5\" rx=\"6\" ry=\"3\"/><path class=\"p2\" d=\"M15 11 L19 7.5 L21 8.5\"/><path class=\"p3\" d=\"M18 7 Q17.5 3.5 20.5 2.5\"/><path class=\"p4\" d=\"M6.5 15.5 V20.5 M12.5 15.5 V20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "letter-stamp-seal",
+  "category": "communication",
+  "tags": ["letter", "stamp", "seal", "mail", "official", "document"],
+  "svg": "<path class=\"p1\" d=\"M4 3h10l5 5v13H4z\"/><path class=\"p1\" d=\"M7.5 11h7M7.5 14h4\"/><circle class=\"d p2\" cx=\"16\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stamp", "dur": 600, "delay": 700 }
+  ]
+}

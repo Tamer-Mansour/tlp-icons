@@ -1,0 +1,10 @@
+{
+  "name": "unfold-more",
+  "category": "interface",
+  "tags": ["unfold", "expand", "chevrons", "more", "arrows", "toggle"],
+  "svg": "<path class=\"p1\" d=\"M7 9l5-5 5 5\"/><path class=\"p2\" d=\"M7 15l5 5 5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 700 }
+  ]
+}

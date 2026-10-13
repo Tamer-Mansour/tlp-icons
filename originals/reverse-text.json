@@ -1,0 +1,10 @@
+{
+  "name": "reverse-text",
+  "category": "text",
+  "tags": ["reverse", "text", "arrow", "flip", "backward"],
+  "svg": "<path class=\"p1\" d=\"M4 6H20M8 3L4 6L8 9\"/><path class=\"p2\" d=\"M3 14H21M3 18H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

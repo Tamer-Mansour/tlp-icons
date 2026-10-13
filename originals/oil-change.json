@@ -1,0 +1,11 @@
+{
+  "name": "oil-change",
+  "category": "vehicles",
+  "tags": ["oil", "change", "drop", "service", "maintenance"],
+  "svg": "<path class=\"d p1\" d=\"M12 7C12 7 7.5 12 7.5 15a4.5 4.5 0 0 0 9 0C16.5 12 12 7 12 7z\"/><path class=\"p2\" d=\"M5 12a7 7 0 0 1 14 0\"/><polyline class=\"p3\" points=\"19,8 19,12 15,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

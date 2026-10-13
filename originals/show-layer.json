@@ -1,0 +1,10 @@
+{
+  "name": "show-layer",
+  "category": "design",
+  "tags": ["show", "layer", "eye", "visibility", "stack", "tool"],
+  "svg": "<path class=\"p1\" d=\"M3 12L12 16.5L21 12M3 17L12 21.5L21 17\"/><path class=\"p2\" d=\"M4 7C7 3 17 3 20 7C17 11 7 11 4 7Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

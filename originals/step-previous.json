@@ -1,0 +1,10 @@
+{
+  "name": "step-previous",
+  "category": "arrows",
+  "tags": ["step", "previous", "back", "media", "rewind", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M4 4v16\"/><path class=\"d p2\" d=\"M20 6 11 12l9 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

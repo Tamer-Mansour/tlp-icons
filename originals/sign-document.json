@@ -1,0 +1,11 @@
+{
+  "name": "sign-document",
+  "category": "interface",
+  "tags": ["signature", "document", "pen", "sign", "contract"],
+  "svg": "<path class=\"p1\" d=\"M6 2.5H14L18.5 7V21.5H6Z\"/><path class=\"p2\" d=\"M9 8.5H15M9 11.5H15\"/><path class=\"p3\" d=\"M8.5 17.5C10 15 11 18 12.5 16S14.5 15 16 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

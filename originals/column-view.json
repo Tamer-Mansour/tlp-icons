@@ -1,0 +1,11 @@
+{
+  "name": "column-view",
+  "category": "layout",
+  "tags": ["column", "view", "finder", "browser", "hierarchy", "navigation"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M9 3V21M16 3V21\"/><path class=\"p2\" d=\"M4 8H7M4 12H7M4 16H7\"/><polyline class=\"p3\" points=\"11,10 13,12 11,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cheesecake",
+  "category": "food",
+  "tags": ["dessert", "slice", "cake", "wedge", "sweet"],
+  "svg": "<path class=\"d p1\" d=\"M3 18L20 9v9z\"/><path class=\"p2\" d=\"M8.7 15H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

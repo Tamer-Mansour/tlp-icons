@@ -1,0 +1,10 @@
+{
+  "name": "elliptical-machine",
+  "category": "sport",
+  "tags": ["elliptical", "machine", "cardio", "gym", "sport"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"8\" ry=\"4\"/><path class=\"p2\" d=\"M6 4L9 9.5M18 4L15 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 700 }
+  ]
+}

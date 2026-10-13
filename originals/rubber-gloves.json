@@ -1,0 +1,10 @@
+{
+  "name": "rubber-gloves",
+  "category": "home",
+  "tags": ["gloves", "rubber", "protection", "chores", "cleaning", "hand"],
+  "svg": "<path class=\"p1\" d=\"M5 16V8A1.5 1.5 0 0 1 8 8V6.5A1.5 1.5 0 0 1 11 6.5V8A1.5 1.5 0 0 1 14 8V16\"/><rect class=\"d p2\" x=\"5\" y=\"16\" width=\"9\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "double-arrow-shape",
+  "category": "shapes",
+  "tags": ["double", "arrow", "both", "sides", "block", "resize"],
+  "svg": "<path class=\"d p1\" d=\"M3 12L8 6V10H16V6L21 12L16 18V14H8V18Z\"/><line class=\"p2\" x1=\"10\" y1=\"12\" x2=\"14\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

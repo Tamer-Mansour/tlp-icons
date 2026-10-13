@@ -1,0 +1,10 @@
+{
+  "name": "letter-tile",
+  "category": "text",
+  "tags": ["tile", "letter", "bold", "alphabet", "font"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M7.5 17L12 7L16.5 17M9.5 13.5H14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "savings-chart",
+  "category": "charts",
+  "tags": ["savings", "jar", "growth", "bars", "money", "saving"],
+  "svg": "<path class=\"d p1\" d=\"M7 7H17V18A2 2 0 0 1 15 20H9A2 2 0 0 1 7 18Z\"/><rect class=\"p2\" x=\"6\" y=\"3\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M9 18v-3M12 18v-5M15 18v-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 600, "origin": "bottom" },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

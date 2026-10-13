@@ -1,0 +1,10 @@
+{
+  "name": "plumb-bob",
+  "category": "tools",
+  "tags": ["plumb", "bob", "vertical", "string", "weight"],
+  "svg": "<path class=\"p1\" d=\"M12 2V10\"/><path class=\"d p2\" d=\"M9 10H15L12 20Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 700, "origin": "12px 2px" }
+  ]
+}

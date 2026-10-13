@@ -1,0 +1,10 @@
+{
+  "name": "pinch-in",
+  "category": "arrows",
+  "tags": ["pinch", "in", "zoom", "together", "inward", "gesture"],
+  "svg": "<polyline class=\"p1\" points=\"3 9 9 9 9 3\"/><line class=\"p1\" x1=\"9\" y1=\"9\" x2=\"3\" y2=\"3\"/><polyline class=\"p2\" points=\"21 15 15 15 15 21\"/><line class=\"p2\" x1=\"15\" y1=\"15\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

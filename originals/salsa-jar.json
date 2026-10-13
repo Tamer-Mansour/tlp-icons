@@ -1,0 +1,12 @@
+{
+  "name": "salsa-jar",
+  "category": "food",
+  "tags": ["salsa", "jar", "chili", "pepper", "spicy", "mexican"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M8.5 15.5c.5-1 2-1.5 3-1.5s2.5.5 2.5 1.5c0 2.5-1.5 5-3 5.5-1.5-.5-3-3-3-5.5z\"/><path class=\"p4\" d=\"M15.5 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "billiard-cue",
+  "category": "sport",
+  "tags": ["billiard", "cue", "pool", "stick", "snooker", "table"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"14\" y2=\"10\"/><circle class=\"d p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 800 }
+  ]
+}

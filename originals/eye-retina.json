@@ -1,0 +1,10 @@
+{
+  "name": "eye-retina",
+  "category": "science",
+  "tags": ["eye", "retina", "vision", "optics", "anatomy", "sight"],
+  "svg": "<path class=\"p1\" d=\"M2 12q10-9 20 0q-10 9-20 0z\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

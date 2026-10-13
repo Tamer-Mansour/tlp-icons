@@ -1,0 +1,11 @@
+{
+  "name": "not-equal",
+  "category": "emoji",
+  "tags": ["not", "equal", "math", "inequality", "symbol"],
+  "svg": "<path class=\"p1\" d=\"M5 9.5h14\"/><path class=\"p2\" d=\"M5 14.5h14\"/><path class=\"p3\" d=\"M15 5 9 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

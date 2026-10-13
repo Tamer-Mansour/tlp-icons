@@ -1,0 +1,11 @@
+{
+  "name": "field-notes",
+  "category": "science",
+  "tags": ["field", "notes", "notebook", "pencil", "research", "journal", "observation"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"13\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M6 8h7M6 12h7M6 16h5\"/><path class=\"p3\" d=\"M16 4l3 3-6 6-3 1 1-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1300 }
+  ]
+}

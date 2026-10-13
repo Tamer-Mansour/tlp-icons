@@ -1,0 +1,11 @@
+{
+  "name": "nut-driver",
+  "category": "tools",
+  "tags": ["nut", "driver", "hex", "socket", "screwdriver", "tip"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2.5\" width=\"6\" height=\"8\" rx=\"3\"/><path class=\"p2\" d=\"M12 10.5V14\"/><polygon class=\"p3\" points=\"9.5,14.5 12,13 14.5,14.5 14.5,18 12,19.5 9.5,18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

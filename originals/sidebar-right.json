@@ -1,0 +1,10 @@
+{
+  "name": "sidebar-right",
+  "category": "interface",
+  "tags": ["sidebar", "right", "panel", "layout", "toggle", "pane"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"4.5\" width=\"17\" height=\"15\" rx=\"2\"/><rect class=\"d p2\" x=\"14.5\" y=\"4.5\" width=\"6\" height=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 }
+  ]
+}

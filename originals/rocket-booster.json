@@ -1,0 +1,11 @@
+{
+  "name": "rocket-booster",
+  "category": "vehicles",
+  "tags": ["rocket", "booster", "launch", "space", "fins", "nozzle"],
+  "svg": "<path class=\"d p1\" d=\"M9 16V7a3 3 0 0 1 6 0v9z\"/><path class=\"p2\" d=\"M9 12l-3 3v3h3M15 12l3 3v3h-3\"/><path class=\"p3\" d=\"M10 16v3l-1 2h6l-1-2v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1100 }
+  ]
+}

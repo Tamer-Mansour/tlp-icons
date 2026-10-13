@@ -1,0 +1,10 @@
+{
+  "name": "energy-usage",
+  "category": "charts",
+  "tags": ["energy", "usage", "power", "bolt", "electricity", "bars"],
+  "svg": "<path class=\"d p1\" d=\"M8 2L3 13h5l-1 9 6-12h-5z\"/><path class=\"p2\" d=\"M15 21v-4M18 21v-8M21 21v-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" }
+  ]
+}

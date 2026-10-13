@@ -1,0 +1,10 @@
+{
+  "name": "bookends",
+  "category": "home",
+  "tags": ["bookends", "books", "shelf", "support", "library", "reading"],
+  "svg": "<path class=\"p1\" d=\"M4 6v14h4M20 6v14h-3.5\"/><path class=\"d p2\" d=\"M9 10h2v10H9zM12.5 13h2v7h-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 }
+  ]
+}

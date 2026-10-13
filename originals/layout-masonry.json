@@ -1,0 +1,11 @@
+{
+  "name": "layout-masonry",
+  "category": "layout",
+  "tags": ["masonry", "grid", "staggered", "gallery", "columns"],
+  "svg": "<path class=\"p1\" d=\"M3 3h5v8H3zM3 14h5v7H3z\"/><path class=\"p2\" d=\"M10 3h5v5h-5zM10 11h5v10h-5z\"/><path class=\"p3\" d=\"M17 3h4v12h-4zM17 17h4v4h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 250, "origin": "bottom" },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

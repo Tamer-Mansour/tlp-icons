@@ -1,0 +1,10 @@
+{
+  "name": "scroll-track",
+  "category": "layout",
+  "tags": ["scroll", "track", "scrollbar", "thumb", "slider", "position"],
+  "svg": "<path class=\"p1\" d=\"M3 17H21\"/><rect class=\"d p2\" x=\"8\" y=\"6\" width=\"8\" height=\"7\" rx=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 700 }
+  ]
+}

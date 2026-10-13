@@ -1,0 +1,10 @@
+{
+  "name": "locker-key",
+  "category": "security",
+  "tags": ["security", "locker", "key", "door", "storage", "lock"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"9\" height=\"18\" rx=\"1.5\"/><circle class=\"f p1\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"p2\" cx=\"17\" cy=\"8.5\" r=\"2.5\"/><path class=\"p2\" d=\"M17 11 V20 M17 16 H19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 800 }
+  ]
+}

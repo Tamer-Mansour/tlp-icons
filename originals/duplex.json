@@ -1,0 +1,10 @@
+{
+  "name": "duplex",
+  "category": "buildings",
+  "tags": ["duplex", "twin", "houses", "homes", "side", "residence"],
+  "svg": "<path class=\"d p1\" d=\"M2 12l4.5-4.5L11 12v9H2z\"/><path class=\"d p1\" d=\"M13 12l4.5-4.5L22 12v9h-9z\"/><path class=\"p2\" d=\"M4.5 21v-4h3v4M15.5 21v-4h3v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

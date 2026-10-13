@@ -1,0 +1,10 @@
+{
+  "name": "ecg-trace",
+  "category": "charts",
+  "tags": ["ecg", "heartbeat", "trace", "cardiac", "medical"],
+  "svg": "<path class=\"p1\" d=\"M2 13H5L7 8L9 17L11 6L13 13\"/><path class=\"p2\" d=\"M13 13H16L18 8L19.5 17L21 13H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

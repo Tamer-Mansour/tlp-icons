@@ -1,0 +1,11 @@
+{
+  "name": "epoxy-syringe",
+  "category": "tools",
+  "tags": ["epoxy", "syringe", "plunger", "glue", "dispense", "needle"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M16 12 H21 M19 10 V14\"/><path class=\"p3\" d=\"M4 12 L2 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

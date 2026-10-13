@@ -1,0 +1,11 @@
+{
+  "name": "lap-timer",
+  "category": "time",
+  "tags": ["lap", "timer", "stopwatch", "race", "flag"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><line class=\"p2\" x1=\"10\" y1=\"2\" x2=\"14\" y2=\"2\"/><polyline class=\"p3\" points=\"12 13 12 9 15 10.5 12 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

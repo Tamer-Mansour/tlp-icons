@@ -1,0 +1,11 @@
+{
+  "name": "coax-splitter",
+  "category": "devices",
+  "tags": ["coax", "splitter", "cable", "antenna", "tv", "branch"],
+  "svg": "<path class=\"p1\" d=\"M2 12 H8\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M16 10 H19 V5 H22 M16 14 H19 V19 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "reset-arrow",
+  "category": "arrows",
+  "tags": ["reset", "restart", "start", "return", "arc", "origin"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M5 12 A7 7 0 1 0 8.5 5.9\"/><polyline class=\"p2\" points=\"8.5 2.5 8.5 6 5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 }
+  ]
+}

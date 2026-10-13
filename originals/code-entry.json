@@ -1,0 +1,10 @@
+{
+  "name": "code-entry",
+  "category": "security",
+  "tags": ["security", "code", "pin", "entry", "keypad", "digits"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"7\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"12\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"13.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"18.5\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

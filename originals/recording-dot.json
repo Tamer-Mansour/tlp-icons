@@ -1,0 +1,10 @@
+{
+  "name": "recording-dot",
+  "category": "communication",
+  "tags": ["recording", "record", "dot", "live", "capture", "indicator"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1200, "delay": 500 }
+  ]
+}

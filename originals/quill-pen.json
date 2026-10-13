@@ -1,0 +1,11 @@
+{
+  "name": "quill-pen",
+  "category": "science",
+  "tags": ["quill", "feather", "pen", "writing", "ink"],
+  "svg": "<path class=\"d p2\" d=\"M20 4C14 4 8 9 7 16L5 21L10 19C17 18 20 12 20 4Z\"/><path class=\"p1\" d=\"M5 21L12 14\"/><path class=\"p3\" d=\"M14 7C12 9 10 11 9 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

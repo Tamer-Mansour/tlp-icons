@@ -1,0 +1,11 @@
+{
+  "name": "tow-bar",
+  "category": "vehicles",
+  "tags": ["tow", "bar", "hitch", "towing", "vehicles"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"16\" y=\"9\" width=\"6\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wind-gust",
+  "category": "weather",
+  "tags": ["wind", "gust", "strong", "bend", "storm"],
+  "svg": "<polyline class=\"p1\" points=\"3 8 15 8 19 4\"/><polyline class=\"p2\" points=\"3 14 19 14 22 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 500 }
+  ]
+}

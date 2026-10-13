@@ -1,0 +1,11 @@
+{
+  "name": "personal-record",
+  "category": "sport",
+  "tags": ["personal", "record", "progress", "best", "chart", "star"],
+  "svg": "<path class=\"p1\" d=\"M12 12 V3 M8 7 L12 3 L16 7\"/><path class=\"p2\" d=\"M6 21 V18 M11 21 V15 M16 21 V17\"/><polygon class=\"p3\" points=\"19,2 19.6,3.7 21.4,3.7 20,4.8 20.5,6.5 19,5.5 17.5,6.5 18,4.8 16.6,3.7 18.4,3.7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "lift", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1300 }
+  ]
+}

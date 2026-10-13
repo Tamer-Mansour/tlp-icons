@@ -1,0 +1,11 @@
+{
+  "name": "agent-headset",
+  "category": "communication",
+  "tags": ["agent", "headset", "support", "operator", "call", "help"],
+  "svg": "<path class=\"p1\" d=\"M4 14a8 8 0 0 1 16 0\"/><rect class=\"d p2\" x=\"3\" y=\"14\" width=\"4\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"17\" y=\"14\" width=\"4\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M19 20c0 1.2-1.2 2-3 2h-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "confetti-message",
+  "category": "communication",
+  "tags": ["confetti", "message", "celebrate", "party", "chat", "congrats"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><circle class=\"f p2\" cx=\"5\" cy=\"4\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1\"/><circle class=\"f p2\" cx=\"19\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 600 }
+  ]
+}

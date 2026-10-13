@@ -1,0 +1,11 @@
+{
+  "name": "standing-desk",
+  "category": "home",
+  "tags": ["standing", "desk", "height", "office", "adjust"],
+  "svg": "<path class=\"p1\" d=\"M3 8h18\"/><path class=\"p2\" d=\"M6 8v13M18 8v13\"/><path class=\"p3\" d=\"M12 12v6M10 16l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

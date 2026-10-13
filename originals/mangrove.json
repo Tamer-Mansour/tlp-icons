@@ -1,0 +1,11 @@
+{
+  "name": "mangrove",
+  "category": "nature",
+  "tags": ["mangrove", "tree", "water", "roots", "coast"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6.5\" r=\"3.5\"/><path class=\"p2\" d=\"M12 10v2M8 18l4-6 4 6\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

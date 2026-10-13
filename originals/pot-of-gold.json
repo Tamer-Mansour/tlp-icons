@@ -1,0 +1,11 @@
+{
+  "name": "pot-of-gold",
+  "category": "emoji",
+  "tags": ["gold", "pot", "luck", "treasure", "coins", "rainbow"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 V16 Q5 21 10 21 H14 Q19 21 19 16 V11 Z\"/><line class=\"p1\" x1=\"3.5\" y1=\"11\" x2=\"20.5\" y2=\"11\"/><path class=\"p2\" d=\"M7 11 Q7 7.5 12 7.5 Q17 7.5 17 11\"/><circle class=\"f p3\" cx=\"12\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 900 }
+  ]
+}

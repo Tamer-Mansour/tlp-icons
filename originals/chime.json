@@ -1,0 +1,11 @@
+{
+  "name": "chime",
+  "category": "notifications",
+  "tags": ["chime", "bell", "sound", "ring", "doorbell", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z\"/><path class=\"p2\" d=\"M3.5 9a7 7 0 0 1 2-5M20.5 9a7 7 0 0 0-2-5\"/><circle class=\"f p3\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 600, "delay": 1200, "origin": "12px 18px" }
+  ]
+}

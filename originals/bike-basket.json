@@ -1,0 +1,11 @@
+{
+  "name": "bike-basket",
+  "category": "vehicles",
+  "tags": ["bike basket", "handlebar", "front basket", "cycling", "carry", "bicycle"],
+  "svg": "<path class=\"p1\" d=\"M4 5h4l4 7\"/><path class=\"d p2\" d=\"M7 12h12l-2 7H9z\"/><path class=\"p3\" d=\"M9.5 16h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

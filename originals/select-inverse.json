@@ -1,0 +1,10 @@
+{
+  "name": "select-inverse",
+  "category": "design",
+  "tags": ["select", "inverse", "invert", "selection", "area", "tool"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"d p2\" d=\"M21 12V19A2 2 0 0 1 19 21H12V12Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

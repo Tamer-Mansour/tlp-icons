@@ -1,0 +1,11 @@
+{
+  "name": "airship",
+  "category": "vehicles",
+  "tags": ["airship", "blimp", "zeppelin", "balloon", "airplane", "aerial"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"10\" rx=\"9\" ry=\"5\"/><rect class=\"p2\" x=\"8\" y=\"17\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M18 8 L21 5 V15 L18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "float", "dur": 1200, "delay": 800 }
+  ]
+}

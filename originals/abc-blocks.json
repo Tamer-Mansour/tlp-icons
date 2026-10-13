@@ -1,0 +1,11 @@
+{
+  "name": "abc-blocks",
+  "category": "emoji",
+  "tags": ["blocks", "letters", "abc", "alphabet", "toy", "learn"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p1\" d=\"M5.5 9.5L7 4.5l1.5 5M6.1 8h1.8\"/><rect class=\"d p2\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M15.5 4.5v5h1.8a1.25 1.25 0 0 0 0-2.5h-1.8\"/><rect class=\"d p3\" x=\"8\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M15 16a2.2 2.5 0 1 0 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 700 }
+  ]
+}

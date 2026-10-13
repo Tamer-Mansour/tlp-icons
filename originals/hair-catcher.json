@@ -1,0 +1,11 @@
+{
+  "name": "hair-catcher",
+  "category": "home",
+  "tags": ["hair", "drain", "shower", "grate", "plumbing", "catcher"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M7.5 9.5 C9.5 12.5 13 8 15.5 11.5 S17.5 15 15 16.5\"/><circle class=\"f p3\" cx=\"9\" cy=\"15.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

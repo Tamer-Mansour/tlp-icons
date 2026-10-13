@@ -1,0 +1,11 @@
+{
+  "name": "race-bib-number",
+  "category": "people",
+  "tags": ["race", "bib", "number", "runner", "marathon", "pin"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M8 12 H16\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

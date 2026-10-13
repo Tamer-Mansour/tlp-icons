@@ -1,0 +1,12 @@
+{
+  "name": "lifeguard-whistle",
+  "category": "people",
+  "tags": ["lifeguard", "whistle", "pool", "beach", "rescue", "cord"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"10\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M14 14 H17\"/><path class=\"p3\" d=\"M7 11 C5 4 15 4 13 11\"/><path class=\"p4\" d=\"M20 10 Q22 14 20 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1300 }
+  ]
+}

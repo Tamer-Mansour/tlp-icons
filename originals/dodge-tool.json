@@ -1,0 +1,10 @@
+{
+  "name": "dodge-tool",
+  "category": "design",
+  "tags": ["dodge", "lighten", "sun", "brightness", "tool", "photo"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M12 2v2M12 20v2M2 12h2M20 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

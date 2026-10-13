@@ -1,0 +1,11 @@
+{
+  "name": "rally-car",
+  "category": "vehicles",
+  "tags": ["rally", "car", "hatchback", "rooftop", "light", "race"],
+  "svg": "<path class=\"d p1\" d=\"M3 16.5 V12.5 Q3 11 4.5 11 H19.5 Q21 11 21 12.5 V16.5 Z\"/><path class=\"p2\" d=\"M7 11 L9 7.5 H15 L17 11\"/><circle class=\"p3\" cx=\"7\" cy=\"16.5\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"16.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

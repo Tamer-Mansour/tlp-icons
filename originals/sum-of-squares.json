@@ -1,0 +1,11 @@
+{
+  "name": "sum-of-squares",
+  "category": "math",
+  "tags": ["sum", "squares", "sigma", "add", "math"],
+  "svg": "<path class=\"p1\" d=\"M16 4 H5 L11.5 12 L5 20 H16\"/><rect class=\"p2\" x=\"15\" y=\"7\" width=\"4\" height=\"4\"/><rect class=\"p3\" x=\"15\" y=\"14\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

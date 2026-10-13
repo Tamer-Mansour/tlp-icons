@@ -1,0 +1,11 @@
+{
+  "name": "fencing-mask",
+  "category": "sport",
+  "tags": ["fencing", "mask", "mesh", "protection", "sword", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M5 6 Q12 2 19 6 V13 Q19 20 12 21 Q5 20 5 13 Z\"/><path class=\"p2\" d=\"M5 11 H19 M12 6 V21\"/><path class=\"p3\" d=\"M8 17.5 Q12 20.5 16 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1200 }
+  ]
+}

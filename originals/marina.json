@@ -1,0 +1,11 @@
+{
+  "name": "marina",
+  "category": "vehicles",
+  "tags": ["marina", "harbor", "masts", "dock", "boats", "port"],
+  "svg": "<path class=\"p1\" d=\"M2 19 H22\"/><path class=\"p2\" d=\"M5 19 V6 M12 19 V9 M19 19 V6\"/><path class=\"p3\" d=\"M5 6 L8 7 L5 8 M19 6 L22 7 L19 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "waveform-zoom",
+  "category": "media",
+  "tags": ["waveform", "zoom", "magnify", "audio", "search", "wave"],
+  "svg": "<path class=\"p1\" d=\"M3 12c1.5-4 3-4 4.5 0s3 4 4.5 0s3-4 4.5 0\"/><circle class=\"p2\" cx=\"16\" cy=\"9\" r=\"4\"/><line class=\"p2\" x1=\"19\" y1=\"12\" x2=\"21.5\" y2=\"14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 1000, "delay": 900 }
+  ]
+}

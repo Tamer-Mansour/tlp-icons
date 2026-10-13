@@ -1,0 +1,10 @@
+{
+  "name": "high-pressure",
+  "category": "weather",
+  "tags": ["high pressure", "weather map", "anticyclone", "clear", "forecast", "weather"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8.5 8 V16 M15.5 8 V16 M8.5 12 H15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

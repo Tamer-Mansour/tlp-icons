@@ -1,0 +1,11 @@
+{
+  "name": "biometric-scanner",
+  "category": "devices",
+  "tags": ["biometric", "scanner", "fingerprint", "identity", "security", "access"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M9 12 A3 3 0 0 1 15 12\"/><path class=\"p2\" d=\"M6 12 A6 6 0 0 1 18 12\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

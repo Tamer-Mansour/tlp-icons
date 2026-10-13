@@ -1,0 +1,11 @@
+{
+  "name": "edge-node",
+  "category": "connectivity",
+  "tags": ["edge", "node", "computing", "device", "network", "local", "gateway"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 9V6M10.3 13.8L6.6 16.5M13.7 13.8L17.4 16.5\"/><circle class=\"p3\" cx=\"12\" cy=\"4\" r=\"2\"/><circle class=\"p3\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

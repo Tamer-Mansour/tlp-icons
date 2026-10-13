@@ -1,0 +1,10 @@
+{
+  "name": "pinwheel",
+  "category": "arrows",
+  "tags": ["pinwheel", "spin", "blades", "turn", "wind", "fan"],
+  "svg": "<path class=\"p1\" d=\"M12 12 Q12 4.5 18.5 4.5 Q19.5 9 16 12\"/><path class=\"p1\" d=\"M12 12 Q19.5 12 19.5 18.5 Q15 19.5 12 16\"/><path class=\"p1\" d=\"M12 12 Q12 19.5 5.5 19.5 Q4.5 15 8 12\"/><path class=\"p1\" d=\"M12 12 Q4.5 12 4.5 5.5 Q9 4.5 12 8\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

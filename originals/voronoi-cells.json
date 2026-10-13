@@ -1,0 +1,11 @@
+{
+  "name": "voronoi-cells",
+  "category": "shapes",
+  "tags": ["voronoi", "cells", "partition", "mesh", "regions"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\"/><path class=\"p2\" d=\"M13 3L11.5 9.5L3 13.5M11.5 9.5L16.5 13L21 12M16.5 13L17.5 21M11.5 9.5L9 21\"/><circle class=\"f p3\" cx=\"7\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

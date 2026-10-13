@@ -1,0 +1,10 @@
+{
+  "name": "petal",
+  "category": "nature",
+  "tags": ["flower", "petal", "bloom", "plant", "leaf"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C17 7 18 13 12 21C6 13 7 7 12 3Z\"/><path class=\"p2\" d=\"M12 6Q13 12 12 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

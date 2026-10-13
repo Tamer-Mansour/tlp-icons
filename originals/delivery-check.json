@@ -1,0 +1,11 @@
+{
+  "name": "delivery-check",
+  "category": "notifications",
+  "tags": ["delivery", "box", "package", "received", "confirmed"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h18v6H3z\"/><path class=\"p2\" d=\"M5 9v11h14V9\"/><path class=\"p3\" d=\"M9 6l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "midi-keyboard",
+  "category": "devices",
+  "tags": ["midi", "keyboard", "music", "controller", "keys", "pads"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"20\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M6 14v6M10 14v6M14 14v6M18 14v6\"/><circle class=\"p3\" cx=\"6\" cy=\"5.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"5.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"5.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "annotation",
+  "category": "text",
+  "tags": ["annotation", "callout", "note", "comment", "label"],
+  "svg": "<path class=\"p1\" d=\"M3 7h10M3 11h6\"/><path class=\"p2\" d=\"M10 13l3.5 3.5\"/><rect class=\"p3\" x=\"14\" y=\"14\" width=\"7\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

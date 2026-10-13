@@ -1,0 +1,11 @@
+{
+  "name": "score-scale",
+  "category": "charts",
+  "tags": ["scale", "score", "ticks", "rating", "marker", "measure"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"15\" x2=\"22\" y2=\"15\"/><path class=\"p2\" d=\"M4 11V15M8 11V15M12 11V15M16 11V15M20 11V15\"/><circle class=\"d p3\" cx=\"17\" cy=\"7\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "calculator-pad",
+  "category": "interface",
+  "tags": ["calculator", "keypad", "math", "numbers", "count", "pad"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"5\" width=\"10\" height=\"3\" rx=\"0.5\"/><circle class=\"f p3\" cx=\"8\" cy=\"11.5\" r=\"1.1\"/><circle class=\"f p3\" cx=\"12\" cy=\"11.5\" r=\"1.1\"/><circle class=\"f p3\" cx=\"16\" cy=\"11.5\" r=\"1.1\"/><circle class=\"f p3\" cx=\"8\" cy=\"15\" r=\"1.1\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.1\"/><circle class=\"f p3\" cx=\"16\" cy=\"15\" r=\"1.1\"/><circle class=\"f p3\" cx=\"8\" cy=\"18.5\" r=\"1.1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1.1\"/><circle class=\"f p3\" cx=\"16\" cy=\"18.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

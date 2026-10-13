@@ -1,0 +1,10 @@
+{
+  "name": "sleep-chart",
+  "category": "charts",
+  "tags": ["sleep", "chart", "stages", "night", "tracker"],
+  "svg": "<path class=\"p1\" d=\"M3 7H7V12H12V17H16V7H21\"/><path class=\"p2\" d=\"M3 21H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 1000 }
+  ]
+}

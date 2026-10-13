@@ -1,0 +1,11 @@
+{
+  "name": "paper-scroll-tie",
+  "category": "files",
+  "tags": ["scroll", "roll", "ribbon", "tie", "paper", "tube"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M6 10h12M6 14h12\"/><path class=\"p3\" d=\"M11 14v3l-1.5 2.5M13 14v3l1.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

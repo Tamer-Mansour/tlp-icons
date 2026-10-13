@@ -1,0 +1,10 @@
+{
+  "name": "venturi-tube",
+  "category": "science",
+  "tags": ["venturi", "tube", "pipe", "flow", "fluid"],
+  "svg": "<path class=\"p1\" d=\"M3 8h5l4 2 4-2h5M3 16h5l4-2 4 2h5\"/><path class=\"p2\" d=\"M4 12h14M15 9.5l3 2.5-3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 800, "delay": 900 }
+  ]
+}

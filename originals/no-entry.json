@@ -1,0 +1,10 @@
+{
+  "name": "no-entry",
+  "category": "notifications",
+  "tags": ["no entry", "blocked", "closed", "stop", "gate"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"7.5\" y1=\"12\" x2=\"16.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 700 }
+  ]
+}

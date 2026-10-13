@@ -1,0 +1,12 @@
+{
+  "name": "dj-deck",
+  "category": "media",
+  "tags": ["dj", "deck", "turntable", "platter", "fader", "music"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"9\" r=\"3.5\"/><circle class=\"p2\" cx=\"17.5\" cy=\"9\" r=\"3.5\"/><line class=\"p3\" x1=\"4\" y1=\"18\" x2=\"20\" y2=\"18\"/><rect class=\"p4\" x=\"10\" y=\"16\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

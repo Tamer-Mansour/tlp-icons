@@ -1,0 +1,11 @@
+{
+  "name": "shard",
+  "category": "development",
+  "tags": ["shard", "partition", "slice", "database", "split"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"5\" height=\"16\" rx=\"1\"/><rect class=\"p2\" x=\"9.5\" y=\"4\" width=\"5\" height=\"16\" rx=\"1\"/><rect class=\"p3\" x=\"16\" y=\"4\" width=\"5\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 150 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

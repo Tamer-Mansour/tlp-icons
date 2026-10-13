@@ -1,0 +1,11 @@
+{
+  "name": "kudos-badge",
+  "category": "people",
+  "tags": ["kudos", "badge", "thumbs", "award", "recognition"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"6\"/><rect class=\"p2\" x=\"8.5\" y=\"10.5\" width=\"2\" height=\"3\"/><polyline class=\"p2\" points=\"10.5,11 12,8 13,8.5 12.5,10.5 14.5,10.5 14.5,13.5 10.5,13.5\"/><polyline class=\"p3\" points=\"9.5,14.5 7.5,21 10,19.5\"/><polyline class=\"p3\" points=\"14.5,14.5 16.5,21 14,19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1300, "origin": "12px 14px" }
+  ]
+}

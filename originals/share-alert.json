@@ -1,0 +1,11 @@
+{
+  "name": "share-alert",
+  "category": "notifications",
+  "tags": ["share", "network", "alert", "nodes", "connect", "link"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"12\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M8.2 10.8l7.6-3.6M8.2 13.2l7.6 3.6\"/><circle class=\"f p3\" cx=\"4\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 300, "delay": 1100 }
+  ]
+}

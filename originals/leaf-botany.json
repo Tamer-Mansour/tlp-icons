@@ -1,0 +1,11 @@
+{
+  "name": "leaf-botany",
+  "category": "science",
+  "tags": ["leaf", "botany", "plant", "vein", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M5 19 C5 10 10 5 20 4 C20 14 15 19 5 19 Z\"/><path class=\"p2\" d=\"M5 19 L15 9\"/><path class=\"p3\" d=\"M9 15 L12.5 13.5 M12 12 L14.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "seagull",
+  "category": "nature",
+  "tags": ["seagull", "bird", "wings", "coast", "beach", "flying"],
+  "svg": "<path class=\"p1\" d=\"M2 11C5 7 9 7 12 10C15 7 19 7 22 11\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"15\" rx=\"5\" ry=\"2\"/><path class=\"p3\" d=\"M16.5 14L19 15L16.5 16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "flutter", "dur": 1000, "delay": 800 }
+  ]
+}

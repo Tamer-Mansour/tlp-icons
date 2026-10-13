@@ -1,0 +1,10 @@
+{
+  "name": "high-beam",
+  "category": "vehicles",
+  "tags": ["high", "beam", "headlight", "lights", "driving"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 8h9M12 12h9M12 16h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "inbox-overflow",
+  "category": "communication",
+  "tags": ["inbox", "overflow", "tray", "envelopes", "messages", "backlog"],
+  "svg": "<path class=\"d p1\" d=\"M3 13.5h5l1.5 2.5h5l1.5-2.5h5v6.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/><rect class=\"p2\" x=\"7\" y=\"5\" width=\"10\" height=\"7\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

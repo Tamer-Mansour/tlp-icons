@@ -1,0 +1,11 @@
+{
+  "name": "simulator",
+  "category": "development",
+  "tags": ["simulator", "phone", "gauge", "device", "performance", "test"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2.5\"/><path class=\"p2\" d=\"M9 14a3 3 0 0 1 6 0\"/><line class=\"p3\" x1=\"12\" y1=\"14\" x2=\"14\" y2=\"11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 900, "origin": "12px 14px" }
+  ]
+}

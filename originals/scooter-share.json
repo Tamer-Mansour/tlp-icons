@@ -1,0 +1,12 @@
+{
+  "name": "scooter-share",
+  "category": "vehicles",
+  "tags": ["scooter", "share", "rental", "kick", "pin"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"15\" x2=\"16\" y2=\"15\"/><polyline class=\"p2\" points=\"16 15 18 5 22 5\"/><circle class=\"p3\" cx=\"4\" cy=\"19\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"19\" r=\"2\"/><circle class=\"f p4\" cx=\"8\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "dropIn", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1200 }
+  ]
+}

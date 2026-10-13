@@ -1,0 +1,10 @@
+{
+  "name": "call-waiting",
+  "category": "communication",
+  "tags": ["call", "waiting", "clock", "hold", "queue"],
+  "svg": "<path class=\"p1\" d=\"M5 4.5L8.5 4L10 8.5L8.5 10C9.5 12.5 11.5 14.5 14 15.5L15.5 14L20 15.5L19.5 19C13 21 3 11 5 4.5Z\"/><circle class=\"d p2\" cx=\"18\" cy=\"6\" r=\"4\"/><path class=\"p2\" d=\"M18 4v2.5l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 800, "origin": "18px 6px" }
+  ]
+}

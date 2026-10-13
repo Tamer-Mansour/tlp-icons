@@ -1,0 +1,10 @@
+{
+  "name": "senior-center",
+  "category": "buildings",
+  "tags": ["senior", "elderly", "community", "armchair", "chair", "house"],
+  "svg": "<path class=\"p1\" d=\"M3 21V11l6-5 6 5v10\"/><path class=\"p2\" d=\"M14 21v-7a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v7M14 17h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chart-legend",
+  "category": "charts",
+  "tags": ["legend", "key", "swatch", "labels", "series"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"12\" width=\"3\" height=\"8\"/><rect class=\"p1\" x=\"7\" y=\"8\" width=\"3\" height=\"12\"/><rect class=\"d p2\" x=\"14\" y=\"5\" width=\"3\" height=\"3\"/><path class=\"p2\" d=\"M19 6.5H22\"/><rect class=\"d p3\" x=\"14\" y=\"12\" width=\"3\" height=\"3\"/><path class=\"p3\" d=\"M19 13.5H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

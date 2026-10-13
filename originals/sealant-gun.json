@@ -1,0 +1,11 @@
+{
+  "name": "sealant-gun",
+  "category": "tools",
+  "tags": ["sealant", "gun", "cartridge", "caulk", "bead"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"11\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M14 8h4l3 1.5v1.5L18 12h-4\"/><path class=\"p3\" d=\"M3 16h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

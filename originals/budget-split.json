@@ -1,0 +1,11 @@
+{
+  "name": "budget-split",
+  "category": "charts",
+  "tags": ["budget", "split", "pie", "allocation", "share", "finance"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3A9 9 0 0 1 19.8 16.5Z\"/><path class=\"p3\" d=\"M12 12L19.8 16.5M12 12L4.2 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

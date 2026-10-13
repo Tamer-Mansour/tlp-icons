@@ -1,0 +1,10 @@
+{
+  "name": "whale-tail",
+  "category": "nature",
+  "tags": ["whale", "tail", "ocean", "fluke", "sea"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-7\"/><path class=\"d p2\" d=\"M12 14C10 11 6 10 2.5 10.5C4 13 7 15 12 14Z\"/><path class=\"d p2\" d=\"M12 14C14 11 18 10 21.5 10.5C20 13 17 15 12 14Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 700 }
+  ]
+}

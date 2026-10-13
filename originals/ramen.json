@@ -1,0 +1,11 @@
+{
+  "name": "ramen",
+  "category": "food",
+  "tags": ["noodles", "bowl", "soup", "egg", "japanese"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18a9 7 0 0 1-18 0z\"/><path class=\"p2\" d=\"M7 8V5M11 8V4M15 8V5\"/><circle class=\"p3\" cx=\"16\" cy=\"8\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

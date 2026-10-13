@@ -1,0 +1,10 @@
+{
+  "name": "pan-up",
+  "category": "arrows",
+  "tags": ["pan", "up", "move", "drag", "scroll"],
+  "svg": "<path class=\"p1\" d=\"M12 16 V5\"/><polyline class=\"p1\" points=\"8 9 12 5 16 9\"/><circle class=\"f p2\" cx=\"12\" cy=\"18\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

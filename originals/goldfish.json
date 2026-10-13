@@ -1,0 +1,12 @@
+{
+  "name": "goldfish",
+  "category": "nature",
+  "tags": ["fish", "pet", "aquarium", "tail", "water"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"7\" ry=\"5\"/><path class=\"p2\" d=\"M18 12l4-3.5v7z\"/><path class=\"p3\" d=\"M9 7.2l1.5-2.5 1.5 2.5\"/><circle class=\"f p4\" cx=\"8\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1100, "origin": "18px 12px" }
+  ]
+}

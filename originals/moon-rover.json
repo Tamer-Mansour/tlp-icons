@@ -1,0 +1,11 @@
+{
+  "name": "moon-rover",
+  "category": "vehicles",
+  "tags": ["moon", "rover", "lunar", "space", "mars", "mission"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M11 9V5M9 4h4\"/><circle class=\"p3\" cx=\"8\" cy=\"17\" r=\"2\"/><circle class=\"p3\" cx=\"14\" cy=\"17\" r=\"2\"/><path class=\"p3\" d=\"M2 21.5h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1000 }
+  ]
+}

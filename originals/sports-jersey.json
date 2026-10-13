@@ -1,0 +1,10 @@
+{
+  "name": "sports-jersey",
+  "category": "sport",
+  "tags": ["jersey", "shirt", "team", "uniform", "sport", "number"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 3.5C9.5 5 10.5 5.5 12 5.5S14.5 5 15.5 3.5L21 6v4.5l-2.5.5V20.5h-13V11L3 10.5V6z\"/><path class=\"p2\" d=\"M11 11.5L12.5 10v7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

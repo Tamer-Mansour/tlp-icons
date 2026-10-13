@@ -1,0 +1,11 @@
+{
+  "name": "fine-sieve",
+  "category": "food",
+  "tags": ["sieve", "strain", "mesh", "flour", "kitchen"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"7\" ry=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"12\" y2=\"21\"/><circle class=\"f p3\" cx=\"9\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "work-hours",
+  "category": "time",
+  "tags": ["work", "hours", "briefcase", "clock", "job", "office"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9 7V5.5h6V7\"/><circle class=\"p3\" cx=\"12\" cy=\"13.5\" r=\"3.5\"/><path class=\"p4\" d=\"M12 13.5V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "sweep", "dur": 1200, "delay": 1200, "origin": "12px 13.5px" }
+  ]
+}

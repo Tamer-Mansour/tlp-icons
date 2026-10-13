@@ -1,0 +1,10 @@
+{
+  "name": "desktop-computer",
+  "category": "interface",
+  "tags": ["desktop", "computer", "monitor", "screen", "display", "pc"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M12 16v3M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 600 }
+  ]
+}

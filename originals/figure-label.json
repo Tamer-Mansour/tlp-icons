@@ -1,0 +1,11 @@
+{
+  "name": "figure-label",
+  "category": "text",
+  "tags": ["figure", "label", "caption", "image", "picture", "document"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M6 13l3.5-3.5 2.5 2.5 2-2 3 3\"/><path class=\"p2\" d=\"M7 20h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 1200 }
+  ]
+}

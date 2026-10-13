@@ -1,0 +1,11 @@
+{
+  "name": "bed-frame",
+  "category": "home",
+  "tags": ["bed frame", "bed", "headboard", "furniture", "bedroom"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M3 4v15\"/><path class=\"p3\" d=\"M5 16v4M19 16v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

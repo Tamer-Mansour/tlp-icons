@@ -1,0 +1,11 @@
+{
+  "name": "push-notice",
+  "category": "notifications",
+  "tags": ["phone", "push", "notice", "card", "mobile"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"13\" y=\"4\" width=\"8\" height=\"5\" rx=\"1\"/><line class=\"p3\" x1=\"8\" y1=\"19\" x2=\"12\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 900 }
+  ]
+}

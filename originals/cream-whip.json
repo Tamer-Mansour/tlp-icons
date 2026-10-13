@@ -1,0 +1,10 @@
+{
+  "name": "cream-whip",
+  "category": "food",
+  "tags": ["cream", "whip", "whisk", "dessert", "bowl"],
+  "svg": "<path class=\"p1\" d=\"M4 13 Q6 8 9 11 Q12 4 15 11 Q18 8 20 13\"/><path class=\"d p2\" d=\"M5 15 H19 Q19 20 12 20 Q5 20 5 15 Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

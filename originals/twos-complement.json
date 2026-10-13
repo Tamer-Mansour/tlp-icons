@@ -1,0 +1,11 @@
+{
+  "name": "twos-complement",
+  "category": "math",
+  "tags": ["twos", "complement", "binary", "negative", "invert"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"9\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"15\" y=\"3\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M12 9.5v3.5M10 11l2 2 2-2\"/><rect class=\"d p3\" x=\"3\" y=\"16\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"9\" y=\"16\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"15\" y=\"16\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flip", "dur": 1200, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "frequency-table",
+  "category": "charts",
+  "tags": ["frequency", "table", "tally", "count", "statistics", "data"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p3\" x1=\"14\" y1=\"9\" x2=\"14\" y2=\"20\"/><line class=\"p4\" x1=\"16.5\" y1=\"13\" x2=\"16.5\" y2=\"17\"/><line class=\"p4\" x1=\"19\" y1=\"13\" x2=\"19\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

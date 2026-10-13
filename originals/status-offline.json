@@ -1,0 +1,10 @@
+{
+  "name": "status-offline",
+  "category": "interface",
+  "tags": ["status", "offline", "avatar", "presence", "user", "away"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"4\"/><path class=\"p1\" d=\"M2.5 21a6.5 6.5 0 0 1 13 0\"/><circle class=\"p2\" cx=\"19.5\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dim", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "usb-connected",
+  "category": "notifications",
+  "tags": ["usb", "connected", "plug", "device", "cable", "check"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"12\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p1\" d=\"M10 12V7M14 12V7\"/><polyline class=\"p2\" points=\"15 3 17.5 5.5 21.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

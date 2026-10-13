@@ -1,0 +1,11 @@
+{
+  "name": "entity-box",
+  "category": "development",
+  "tags": ["entity", "model", "table", "schema", "fields", "class"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"4\" y=\"3\" width=\"16\" height=\"5\" rx=\"2\"/><path class=\"p3\" d=\"M8 12h8M8 16h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 1000 }
+  ]
+}

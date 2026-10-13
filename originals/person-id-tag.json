@@ -1,0 +1,11 @@
+{
+  "name": "person-id-tag",
+  "category": "people",
+  "tags": ["identity", "badge", "tag", "person", "id", "profile"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20a5.5 5.5 0 0 1 11 0\"/><rect class=\"d p2\" x=\"15\" y=\"4\" width=\"6.5\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M17.5 7h2M17.5 10h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

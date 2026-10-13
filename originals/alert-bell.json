@@ -1,0 +1,11 @@
+{
+  "name": "alert-bell",
+  "category": "development",
+  "tags": ["alert", "bell", "notification", "warning", "ring", "attention"],
+  "svg": "<path class=\"d p1\" d=\"M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z\"/><path class=\"p2\" d=\"M10 20.5a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M12 9.5v3\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.2\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 5px" }
+  ]
+}

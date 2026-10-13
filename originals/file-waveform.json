@@ -1,0 +1,11 @@
+{
+  "name": "file-waveform",
+  "category": "files",
+  "tags": ["waveform", "audio", "sound", "wave", "signal", "recording"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><polyline class=\"p2\" points=\"7.5,13 9.5,11 11.5,16 13.5,9 15.5,14 17,13\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1100 }
+  ]
+}

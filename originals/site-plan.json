@@ -1,0 +1,10 @@
+{
+  "name": "site-plan",
+  "category": "tools",
+  "tags": ["site", "plan", "lot", "map", "north", "survey"],
+  "svg": "<polygon class=\"d p1\" points=\"4,8 14,4 20,9 19,19 6,20\"/><path class=\"p2\" d=\"M19 2.5v5M17.5 4L19 2.5L20.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900, "origin": "19px 6px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cowbell",
+  "category": "media",
+  "tags": ["cowbell", "percussion", "bell", "instrument", "music", "ring"],
+  "svg": "<path class=\"d p1\" d=\"M7 5h10v12l2.5 3h-15L7 17z\"/><line class=\"p2\" x1=\"10\" y1=\"9\" x2=\"14\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 500, "origin": "12px 5px" }
+  ]
+}

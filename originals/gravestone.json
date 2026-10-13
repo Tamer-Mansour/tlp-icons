@@ -1,0 +1,10 @@
+{
+  "name": "gravestone",
+  "category": "buildings",
+  "tags": ["gravestone", "headstone", "grave", "cemetery", "tomb", "memorial"],
+  "svg": "<path class=\"p1\" d=\"M6 19V10a6 6 0 0 1 12 0v9\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

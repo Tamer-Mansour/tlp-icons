@@ -1,0 +1,11 @@
+{
+  "name": "visitor-pass",
+  "category": "security",
+  "tags": ["visitor", "pass", "badge", "lanyard", "access"],
+  "svg": "<path class=\"p1\" d=\"M9 2v3.5a3 3 0 0 0 6 0V2\"/><rect class=\"d p2\" x=\"5\" y=\"9\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M8 15h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1100 }
+  ]
+}

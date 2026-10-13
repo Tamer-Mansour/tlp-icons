@@ -1,0 +1,11 @@
+{
+  "name": "thermometer-probe",
+  "category": "devices",
+  "tags": ["thermometer", "probe", "temperature", "sensor", "cable", "food"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"3\" width=\"4\" height=\"11\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M14 7c3 0 4 3 4 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

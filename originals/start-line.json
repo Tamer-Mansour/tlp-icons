@@ -1,0 +1,11 @@
+{
+  "name": "start-line",
+  "category": "sport",
+  "tags": ["start", "flag", "race", "finish", "pole", "line"],
+  "svg": "<path class=\"p1\" d=\"M5 3V19\"/><polygon class=\"d p2\" points=\"5,4 17,4 14,8 17,12 5,12\"/><path class=\"p3\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

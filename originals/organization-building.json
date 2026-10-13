@@ -1,0 +1,10 @@
+{
+  "name": "organization-building",
+  "category": "people",
+  "tags": ["organization", "company", "office", "building", "team", "work"],
+  "svg": "<path class=\"p1\" d=\"M4 21V4h11v17\"/><path class=\"p1\" d=\"M15 10h5v11\"/><circle class=\"p2\" cx=\"9.5\" cy=\"15\" r=\"1.5\"/><path class=\"p2\" d=\"M7 21v-2.5a2.5 2.5 0 0 1 5 0V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 800 }
+  ]
+}

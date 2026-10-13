@@ -1,0 +1,10 @@
+{
+  "name": "star-polygon",
+  "category": "shapes",
+  "tags": ["star", "pentagram", "five", "points", "polygon", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3L17.5 19.5L3.5 9.5H20.5L6.5 19.5Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 1300 }
+  ]
+}

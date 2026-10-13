@@ -1,0 +1,11 @@
+{
+  "name": "guest-list",
+  "category": "people",
+  "tags": ["guest", "list", "invite", "attendees", "vip", "names"],
+  "svg": "<path class=\"p1\" d=\"M9 7h3M9 13.5h11M9 19.5h9\"/><circle class=\"f p3\" cx=\"5\" cy=\"7\" r=\"1.2\"/><circle class=\"f p3\" cx=\"5\" cy=\"13.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"5\" cy=\"19.5\" r=\"1.2\"/><polygon class=\"p2\" points=\"18 4.5 19.4 6.9 22 7 20 8.9 20.7 11.5 18 10 15.3 11.5 16 8.9 14 7 16.6 6.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

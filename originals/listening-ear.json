@@ -1,0 +1,11 @@
+{
+  "name": "listening-ear",
+  "category": "people",
+  "tags": ["ear", "listening", "hearing", "sound", "audio", "wave"],
+  "svg": "<path class=\"p1\" d=\"M16 10 C16 6 13.5 4 10.5 4 C7 4 5.5 6.5 5.5 9.5 C5.5 13 8 14.5 10 15 C12 15.5 12.5 17 12 18.5 C11.5 20 10 20.5 9 20\"/><path class=\"p2\" d=\"M10.5 8.5 Q12.5 9.5 11.5 12\"/><path class=\"p3\" d=\"M19.5 7 Q21.5 10 19.5 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 1000 }
+  ]
+}

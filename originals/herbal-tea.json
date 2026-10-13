@@ -1,0 +1,12 @@
+{
+  "name": "herbal-tea",
+  "category": "food",
+  "tags": ["herbal", "tea", "flower", "cup", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 H16 V15 Q16 19 12 19 H8 Q4 19 4 15 Z\"/><path class=\"p2\" d=\"M12 11 V8\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"2\"/><path class=\"p4\" d=\"M7 7 Q6 5 7 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 900 }
+  ]
+}

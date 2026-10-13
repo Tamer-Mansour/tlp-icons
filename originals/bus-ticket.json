@@ -1,0 +1,10 @@
+{
+  "name": "bus-ticket",
+  "category": "vehicles",
+  "tags": ["bus", "ticket", "transit", "pass", "travel", "notch"],
+  "svg": "<path class=\"d p1\" d=\"M3 6H21V10A2 2 0 0 0 21 14V18H3V14A2 2 0 0 0 3 10Z\"/><rect class=\"p2\" x=\"8\" y=\"9\" width=\"8\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "drive", "dur": 900, "delay": 600 }
+  ]
+}

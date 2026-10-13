@@ -1,0 +1,10 @@
+{
+  "name": "wave-amplitude",
+  "category": "math",
+  "tags": ["wave", "amplitude", "height", "sine", "graph", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 12Q5.5 4 8 12T13 12T18 12\"/><path class=\"p2\" d=\"M20 8V16M18.5 9.5L20 8L21.5 9.5M18.5 14.5L20 16L21.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

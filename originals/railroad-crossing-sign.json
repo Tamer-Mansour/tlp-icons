@@ -1,0 +1,11 @@
+{
+  "name": "railroad-crossing-sign",
+  "category": "vehicles",
+  "tags": ["railroad", "crossing", "sign", "train", "track", "warning"],
+  "svg": "<path class=\"p1\" d=\"M5 5L19 19M19 5L5 19\"/><path class=\"p2\" d=\"M3 21.5H21\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

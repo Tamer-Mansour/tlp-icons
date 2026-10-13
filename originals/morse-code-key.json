@@ -1,0 +1,11 @@
+{
+  "name": "morse-code-key",
+  "category": "communication",
+  "tags": ["morse", "code", "telegraph", "key", "dash", "dot", "signal"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15\" width=\"18\" height=\"4\" rx=\"1.5\"/><path class=\"p2\" d=\"M8 15l8-7\"/><path class=\"p3\" d=\"M4 21h4M11 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 900, "origin": "8px 15px" }
+  ]
+}

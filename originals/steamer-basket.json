@@ -1,0 +1,11 @@
+{
+  "name": "steamer-basket",
+  "category": "food",
+  "tags": ["steamer", "basket", "steam", "dumplings", "cooking", "tiers"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"12\" width=\"16\" height=\"4\" rx=\"1\"/><rect class=\"d p1\" x=\"4\" y=\"16\" width=\"16\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M4 11a8 5 0 0 1 16 0\"/><path class=\"p3\" d=\"M9 4v3M15 4v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "heat-pipe",
+  "category": "devices",
+  "tags": ["heat", "pipe", "cooling", "thermal", "fins", "hardware"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"15\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M7 9V5M11 9V5M15 9V5\"/><path class=\"p3\" d=\"M7 15v4M11 15v4M15 15v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1200 }
+  ]
+}

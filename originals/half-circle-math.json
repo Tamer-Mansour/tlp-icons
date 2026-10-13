@@ -1,0 +1,10 @@
+{
+  "name": "half-circle-math",
+  "category": "math",
+  "tags": ["semicircle", "degrees", "angle", "protractor", "half"],
+  "svg": "<path class=\"d p1\" d=\"M3 18a9 9 0 0 1 18 0Z\"/><path class=\"p2\" d=\"M8.5 14.5L7 13M12 13v-2M15.5 14.5L17 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

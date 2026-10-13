@@ -1,0 +1,12 @@
+{
+  "name": "face-clown",
+  "category": "emoji",
+  "tags": ["clown", "face", "funny", "circus", "joke"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"1.5\"/><polygon class=\"p3\" points=\"8.5,8 9,9 10,9.5 9,10 8.5,11 8,10 7,9.5 8,9\"/><polygon class=\"p3\" points=\"15.5,8 16,9 17,9.5 16,10 15.5,11 15,10 14,9.5 15,9\"/><path class=\"p4\" d=\"M8.5 15.5q3.5 3 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1200 }
+  ]
+}

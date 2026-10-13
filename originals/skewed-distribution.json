@@ -1,0 +1,10 @@
+{
+  "name": "skewed-distribution",
+  "category": "charts",
+  "tags": ["distribution", "skewed", "tail", "curve", "statistics"],
+  "svg": "<path class=\"p1\" d=\"M2 18C4 18 6 4 9 4C12 4 15 17 22 18\"/><path class=\"p2\" d=\"M2 21H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 1000 }
+  ]
+}

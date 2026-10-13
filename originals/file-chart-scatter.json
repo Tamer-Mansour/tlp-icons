@@ -1,0 +1,11 @@
+{
+  "name": "file-chart-scatter",
+  "category": "files",
+  "tags": ["file", "scatter", "chart", "plot", "data", "points"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"p3\" d=\"M8 9v7h7\"/><circle class=\"f p2\" cx=\"10\" cy=\"13.5\" r=\"1.1\"/><circle class=\"f p2\" cx=\"12.5\" cy=\"10.5\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"13.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

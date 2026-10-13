@@ -1,0 +1,11 @@
+{
+  "name": "ice-scoop",
+  "category": "food",
+  "tags": ["food", "ice", "scoop", "bowl", "freezer", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M4 12h13a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M16 12l4.5-7\"/><rect class=\"p3\" x=\"6\" y=\"4\" width=\"5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "fall", "dur": 800, "delay": 1100 }
+  ]
+}

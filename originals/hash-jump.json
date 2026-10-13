@@ -1,0 +1,11 @@
+{
+  "name": "hash-jump",
+  "category": "arrows",
+  "tags": ["hash", "jump", "anchor", "section", "link"],
+  "svg": "<path class=\"p1\" d=\"M9 4 L7 20 M16 4 L14 20\"/><path class=\"p2\" d=\"M4 9 H16 M3 15 H15\"/><path class=\"p3\" d=\"M18 12 H21.5 M19 9 L22 12 L19 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

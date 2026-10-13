@@ -1,0 +1,11 @@
+{
+  "name": "engagement-meter",
+  "category": "charts",
+  "tags": ["engagement", "meter", "gauge", "semicircle", "score", "level"],
+  "svg": "<path class=\"p1\" d=\"M3 17A9 9 0 0 1 21 17\"/><path class=\"p2\" d=\"M12 17L16 11\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 1100 }
+  ]
+}

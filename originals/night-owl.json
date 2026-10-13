@@ -1,0 +1,11 @@
+{
+  "name": "night-owl",
+  "category": "people",
+  "tags": ["night", "owl", "late", "bird", "moon", "insomnia"],
+  "svg": "<path class=\"d p1\" d=\"M6 9C6 5.5 8 3.5 12 3.5C16 3.5 18 5.5 18 9V16C18 19 15.5 21 12 21C8.5 21 6 19 6 16Z\"/><circle class=\"p2\" cx=\"9.5\" cy=\"11.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"14.5\" cy=\"11.5\" r=\"1.5\"/><path class=\"p3\" d=\"M19 2.5A2.5 2.5 0 1 0 21.5 5.5A2 2 0 0 1 19 2.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "blink", "dur": 800, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sediment",
+  "category": "nature",
+  "tags": ["sediment", "layers", "strata", "geology", "soil", "deposit"],
+  "svg": "<path class=\"p1\" d=\"M3 7 Q6 4.5 9 7 Q12 9.5 15 7 Q18 4.5 21 7\"/><path class=\"p2\" d=\"M5 12 Q8 9.5 11 12 Q14 14.5 17 12\"/><path class=\"p3\" d=\"M7 17 Q10 14.5 13 17 Q16 19.5 19 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wheelchair-access",
+  "category": "emoji",
+  "tags": ["wheelchair", "accessibility", "disability", "access", "mobility", "seat"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"p2\" cx=\"11.5\" cy=\"5\" r=\"1.5\"/><path class=\"p2\" d=\"M10 8.5V13.5H15L16.5 17\"/><circle class=\"p3\" cx=\"10\" cy=\"16.5\" r=\"2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "10px 16.5px" }
+  ]
+}

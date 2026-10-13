@@ -1,0 +1,11 @@
+{
+  "name": "pulse-symbol",
+  "category": "emoji",
+  "tags": ["pulse", "heartbeat", "activity", "monitor", "signal"],
+  "svg": "<path class=\"p1\" d=\"M2 12h6\"/><path class=\"p2\" d=\"M8 12l2.5-7 3.5 14 2.5-7\"/><path class=\"p3\" d=\"M17 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 900 }
+  ]
+}

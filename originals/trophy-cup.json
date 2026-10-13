@@ -1,0 +1,11 @@
+{
+  "name": "trophy-cup",
+  "category": "emoji",
+  "tags": ["trophy", "cup", "winner", "award", "prize", "champion"],
+  "svg": "<path class=\"d p1\" d=\"M7 4 H17 V10 A5 5 0 0 1 7 10 Z\"/><path class=\"p2\" d=\"M7 6 H5 V8 Q5 10 7 10 M17 6 H19 V8 Q19 10 17 10\"/><path class=\"p3\" d=\"M12 15 V18 M8 20 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

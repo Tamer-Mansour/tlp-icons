@@ -1,0 +1,11 @@
+{
+  "name": "reed",
+  "category": "nature",
+  "tags": ["reed", "stalk", "grass", "marsh", "tall"],
+  "svg": "<path class=\"p1\" d=\"M8 22V6\"/><path class=\"p2\" d=\"M12 22V3\"/><path class=\"p3\" d=\"M16 22V8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 900, "origin": "bottom" }
+  ]
+}

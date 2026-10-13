@@ -1,0 +1,11 @@
+{
+  "name": "trail-sign",
+  "category": "buildings",
+  "tags": ["trail", "sign", "arrow", "hiking", "direction", "post"],
+  "svg": "<path class=\"p1\" d=\"M12 21V6\"/><path class=\"d p2\" d=\"M5 8h11l3 2.5-3 2.5H5z\"/><path class=\"p3\" d=\"M19 15H8l-3 2.5 3 2.5h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

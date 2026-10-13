@@ -1,0 +1,11 @@
+{
+  "name": "beer-keg",
+  "category": "food",
+  "tags": ["beer", "keg", "barrel", "tap", "draft", "pub", "bar"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"4\"/><line class=\"p2\" x1=\"5\" y1=\"9\" x2=\"19\" y2=\"9\"/><line class=\"p2\" x1=\"5\" y1=\"15\" x2=\"19\" y2=\"15\"/><path class=\"p3\" d=\"M19 11h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

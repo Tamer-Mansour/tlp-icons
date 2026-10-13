@@ -1,0 +1,11 @@
+{
+  "name": "text-import",
+  "category": "text",
+  "tags": ["import", "text", "download", "lines", "tray", "load", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M4 3.5h9M4 7h6\"/><path class=\"p2\" d=\"M16 3v7.5M13 8l3 3 3-3\"/><path class=\"p3\" d=\"M4 14v5.5h16V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 900 }
+  ]
+}

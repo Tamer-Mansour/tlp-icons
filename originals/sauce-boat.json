@@ -1,0 +1,11 @@
+{
+  "name": "sauce-boat",
+  "category": "food",
+  "tags": ["sauce", "boat", "gravy", "pitcher", "dining"],
+  "svg": "<path class=\"d p1\" d=\"M4 11H16Q18 11 18 15Q18 19 10 19Q4 19 4 15Z\"/><path class=\"p2\" d=\"M16 11L21 8L19 13\"/><path class=\"p3\" d=\"M18 13Q22 15 18 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "pour", "dur": 800, "delay": 1000, "origin": "16px 11px" }
+  ]
+}

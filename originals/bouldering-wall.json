@@ -1,0 +1,10 @@
+{
+  "name": "bouldering-wall",
+  "category": "sport",
+  "tags": ["bouldering", "climbing", "wall", "hold", "gym", "sport"],
+  "svg": "<path class=\"p1\" d=\"M4 21 L8 3 H20 V21 Z\"/><circle class=\"p2\" cx=\"14\" cy=\"8\" r=\"1.5\"/><circle class=\"p2\" cx=\"11\" cy=\"14\" r=\"1.5\"/><circle class=\"p2\" cx=\"16\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 700, "delay": 900 }
+  ]
+}

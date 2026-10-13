@@ -1,0 +1,11 @@
+{
+  "name": "color-grade",
+  "category": "media",
+  "tags": ["color", "grade", "grading", "wheel", "palette", "video"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"5\"/><circle class=\"d p2\" cx=\"15\" cy=\"9\" r=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

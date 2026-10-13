@@ -1,0 +1,10 @@
+{
+  "name": "crossroads-arrow",
+  "category": "arrows",
+  "tags": ["crossroads", "intersection", "road", "turn", "navigation"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V21 M3 12 H21\"/><path class=\"p2\" d=\"M9 6 L12 3 L15 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 500, "delay": 900 }
+  ]
+}

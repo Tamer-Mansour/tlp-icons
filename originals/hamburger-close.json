@@ -1,0 +1,10 @@
+{
+  "name": "hamburger-close",
+  "category": "interface",
+  "tags": ["close", "cancel", "dismiss", "exit", "cross"],
+  "svg": "<path class=\"p1\" d=\"M6 6L18 18\"/><path class=\"p2\" d=\"M18 6L6 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ascender-line",
+  "category": "text",
+  "tags": ["ascender", "typography", "letter", "guide", "height", "font", "metric"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18\"/><path class=\"p2\" d=\"M6 7v13M6 12.5c1-1.8 2.6-2.5 4.3-2.5 2.5 0 3.7 1.5 3.7 4V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

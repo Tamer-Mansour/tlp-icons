@@ -1,0 +1,10 @@
+{
+  "name": "infinity-loop",
+  "category": "math",
+  "tags": ["infinity", "loop", "endless", "figure eight", "limit"],
+  "svg": "<path class=\"p1\" d=\"M12 12C10 9.5 8 8 5.5 8C2.5 8 2.5 16 5.5 16C8 16 10 14.5 12 12C14 9.5 16 8 18.5 8C21.5 8 21.5 16 18.5 16C16 16 14 14.5 12 12Z\"/><polyline class=\"p2\" points=\"19.5 9.5 21.5 12 19.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

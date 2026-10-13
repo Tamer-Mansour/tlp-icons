@@ -1,0 +1,11 @@
+{
+  "name": "handball",
+  "category": "sport",
+  "tags": ["handball", "ball", "grip", "throw", "court", "team"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M7 9Q11 12 15 9\"/><path class=\"p3\" d=\"M19 3.5Q21.5 5 21.5 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

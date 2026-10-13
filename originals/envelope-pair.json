@@ -1,0 +1,10 @@
+{
+  "name": "envelope-pair",
+  "category": "communication",
+  "tags": ["envelopes", "mail", "two", "pair", "inbox", "messages", "correspondence"],
+  "svg": "<path class=\"p1\" d=\"M3 6 H16 V16 H3 Z M3 6 L9.5 11 L16 6\"/><path class=\"d p2\" d=\"M8 9 H21 V19 H8 Z M8 9 L14.5 14 L21 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 600 }
+  ]
+}

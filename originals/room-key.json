@@ -1,0 +1,11 @@
+{
+  "name": "room-key",
+  "category": "buildings",
+  "tags": ["key", "room", "hotel", "tag", "access", "lock"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 12h9M17 12v4h4v-4\"/><circle class=\"f p3\" cx=\"8\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

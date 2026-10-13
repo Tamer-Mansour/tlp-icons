@@ -1,0 +1,11 @@
+{
+  "name": "morel",
+  "category": "nature",
+  "tags": ["morel", "mushroom", "fungus", "honeycomb", "edible", "forest"],
+  "svg": "<path class=\"d p1\" d=\"M6 11c0-4 2.5-7 6-7s6 3 6 7c0 1-1 2-2 2H8c-1 0-2-1-2-2z\"/><path class=\"p2\" d=\"M9 7.5h2M13 7.5h2M10.5 10.5h3\"/><path class=\"p3\" d=\"M9.5 13.5V20h5v-6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

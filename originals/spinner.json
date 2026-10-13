@@ -1,0 +1,10 @@
+{
+  "name": "spinner",
+  "category": "interface",
+  "tags": ["spinner", "loading", "wait", "busy", "arc"],
+  "svg": "<path class=\"p1\" d=\"M12 3a9 9 0 1 0 9 9\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1000, "delay": 300 }
+  ]
+}

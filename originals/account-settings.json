@@ -1,0 +1,10 @@
+{
+  "name": "account-settings",
+  "category": "people",
+  "tags": ["account", "settings", "gear", "profile", "preferences", "config", "options"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"3\"/><circle class=\"p2\" cx=\"16.5\" cy=\"15.5\" r=\"2.5\"/><path class=\"p2\" d=\"M16.5 11.5V13M16.5 18v1.5M12.5 15.5H14M19 15.5h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "16.5px 15.5px" }
+  ]
+}

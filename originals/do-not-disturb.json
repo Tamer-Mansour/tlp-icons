@@ -1,0 +1,10 @@
+{
+  "name": "do-not-disturb",
+  "category": "people",
+  "tags": ["disturb", "quiet", "status", "user", "busy"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M7.5 12h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hot-tub",
+  "category": "home",
+  "tags": ["hot", "tub", "spa", "bath", "steam", "jacuzzi"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v4a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M8 9c-1-1 1-2 0-3M12 9c-1-1 1-2 0-3M16 9c-1-1 1-2 0-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1200, "delay": 600 }
+  ]
+}

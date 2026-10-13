@@ -1,0 +1,12 @@
+{
+  "name": "vulture",
+  "category": "nature",
+  "tags": ["vulture", "bird", "bald head", "scavenger", "wings", "hunched"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"5\" ry=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"2\"/><path class=\"p3\" d=\"M7 12C4 14 3 18 3 20M17 12C20 14 21 18 21 20\"/><path class=\"p4\" d=\"M9 18L8 21M15 18L16 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

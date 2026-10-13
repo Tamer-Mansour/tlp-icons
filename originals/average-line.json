@@ -1,0 +1,10 @@
+{
+  "name": "average-line",
+  "category": "charts",
+  "tags": ["average", "bars", "chart", "mean", "statistics", "graph"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"11\" width=\"3\" height=\"8\"/><rect class=\"p1\" x=\"10.5\" y=\"6\" width=\"3\" height=\"13\"/><rect class=\"p1\" x=\"17\" y=\"9\" width=\"3\" height=\"10\"/><path class=\"p2\" d=\"M2 12 H7 M9 12 H14 M16 12 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

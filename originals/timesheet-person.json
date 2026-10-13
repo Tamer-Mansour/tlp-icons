@@ -1,0 +1,11 @@
+{
+  "name": "timesheet-person",
+  "category": "people",
+  "tags": ["timesheet", "person", "clipboard", "hours", "log", "time"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"8.5\" y=\"2\" width=\"7\" height=\"3\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"11\" r=\"2.5\"/><path class=\"p3\" d=\"M8 17.5c0-2 1.8-3.2 4-3.2s4 1.2 4 3.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 1000 }
+  ]
+}

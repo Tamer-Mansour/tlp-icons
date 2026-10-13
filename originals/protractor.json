@@ -1,0 +1,11 @@
+{
+  "name": "protractor",
+  "category": "design",
+  "tags": ["protractor", "angle", "degrees", "measure", "design"],
+  "svg": "<path class=\"d p1\" d=\"M3 17a9 9 0 0 1 18 0Z\"/><path class=\"p2\" d=\"M12 10V8M15.5 10.9 16.5 9.2M8.5 10.9 7.5 9.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

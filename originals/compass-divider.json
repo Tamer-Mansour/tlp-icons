@@ -1,0 +1,11 @@
+{
+  "name": "compass-divider",
+  "category": "tools",
+  "tags": ["compass", "divider", "drafting", "measure", "circle", "legs"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"6\" y2=\"21\"/><line class=\"p3\" x1=\"12\" y1=\"8\" x2=\"18\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gangway",
+  "category": "vehicles",
+  "tags": ["gangway", "ramp", "ship", "dock", "boarding", "plank", "harbor"],
+  "svg": "<path class=\"p3\" d=\"M19.5 4v16\"/><path class=\"d p1\" d=\"M3 15.5L17 8.5V12L3 19z\"/><path class=\"p2\" d=\"M3 11.5L17 4.5V7\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "nudge", "dur": 1000, "delay": 900 }
+  ]
+}

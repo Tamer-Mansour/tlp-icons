@@ -1,0 +1,10 @@
+{
+  "name": "hardcover-book",
+  "category": "files",
+  "tags": ["hardcover", "book", "cover", "spine", "read"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M4 3h3v18H4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

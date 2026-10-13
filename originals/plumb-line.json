@@ -1,0 +1,11 @@
+{
+  "name": "plumb-line",
+  "category": "tools",
+  "tags": ["plumb", "line", "level", "vertical", "string", "weight"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"14\"/><line class=\"p2\" x1=\"6\" y1=\"2\" x2=\"18\" y2=\"2\"/><path class=\"d p3\" d=\"M9 14 H15 L12 21 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pendulum", "dur": 1200, "delay": 800, "origin": "12px 4px" }
+  ]
+}

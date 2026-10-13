@@ -1,0 +1,11 @@
+{
+  "name": "digital-piano",
+  "category": "devices",
+  "tags": ["piano", "keyboard", "keys", "music", "digital", "instrument"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 14V18M9 14V18M12 14V18M15 14V18M18 14V18\"/><rect class=\"p3\" x=\"9\" y=\"3\" width=\"6\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 600, "delay": 900 }
+  ]
+}

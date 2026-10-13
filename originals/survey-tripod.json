@@ -1,0 +1,11 @@
+{
+  "name": "survey-tripod",
+  "category": "tools",
+  "tags": ["survey", "tripod", "level", "instrument", "legs", "measure"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"4\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M12 8 V13 M12 13 L6 21 M12 13 L18 21\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1200 }
+  ]
+}

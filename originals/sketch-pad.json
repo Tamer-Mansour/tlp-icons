@@ -1,0 +1,11 @@
+{
+  "name": "sketch-pad",
+  "category": "files",
+  "tags": ["sketch", "pad", "drawing", "spiral", "pencil", "art"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 2v4M12 2v4M16 2v4\"/><path class=\"p3\" d=\"M15 21l6-9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

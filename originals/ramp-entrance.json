@@ -1,0 +1,10 @@
+{
+  "name": "ramp-entrance",
+  "category": "arrows",
+  "tags": ["ramp", "entrance", "access", "door", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 6L14 17\"/><line class=\"p1\" x1=\"3\" y1=\"17\" x2=\"21\" y2=\"17\"/><rect class=\"d p2\" x=\"16\" y=\"11\" width=\"5\" height=\"6\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

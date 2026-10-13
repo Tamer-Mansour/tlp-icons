@@ -1,0 +1,10 @@
+{
+  "name": "transformer",
+  "category": "devices",
+  "tags": ["transformer", "coil", "core", "electric", "grid"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"4\" height=\"14\" rx=\"1.5\"/><rect class=\"d p1\" x=\"18\" y=\"5\" width=\"4\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 3v18M14 3v18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

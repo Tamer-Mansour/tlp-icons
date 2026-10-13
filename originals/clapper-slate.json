@@ -1,0 +1,11 @@
+{
+  "name": "clapper-slate",
+  "category": "media",
+  "tags": ["clapper", "slate", "film", "movie", "scene", "take"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"4\" rx=\"0.5\"/><path class=\"p2\" d=\"M6 4l2 4M11 4l2 4M16 4l2 4\"/><rect class=\"d p3\" x=\"3\" y=\"10\" width=\"18\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "tilt", "dur": 500, "delay": 1000, "origin": "3px 8px" }
+  ]
+}

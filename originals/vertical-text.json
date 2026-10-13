@@ -1,0 +1,11 @@
+{
+  "name": "vertical-text",
+  "category": "text",
+  "tags": ["vertical", "text", "column", "letters", "stacked", "orientation", "writing"],
+  "svg": "<path class=\"p1\" d=\"M7 4h10M12 4v6\"/><path class=\"p2\" d=\"M12 12v8\"/><path class=\"p3\" d=\"M19 5v14M16.5 16.5L19 19l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 900 }
+  ]
+}

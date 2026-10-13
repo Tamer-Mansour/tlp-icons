@@ -1,0 +1,11 @@
+{
+  "name": "study-hall",
+  "category": "buildings",
+  "tags": ["study", "desk", "book", "pencil", "school"],
+  "svg": "<path class=\"p1\" d=\"M3 18H21\"/><path class=\"d p2\" d=\"M5 11L8 10L11 11V15.5L8 14.5L5 15.5Z\"/><path class=\"p3\" d=\"M15 16L19.5 9.5L21.5 11L17 17.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

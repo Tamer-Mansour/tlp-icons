@@ -1,0 +1,10 @@
+{
+  "name": "busy-status",
+  "category": "communication",
+  "tags": ["busy", "status", "presence", "occupied", "unavailable"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 600 }
+  ]
+}

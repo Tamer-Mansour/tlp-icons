@@ -1,0 +1,10 @@
+{
+  "name": "enter-door",
+  "category": "arrows",
+  "tags": ["enter", "door", "entry", "arrive", "access", "room"],
+  "svg": "<path class=\"p1\" d=\"M13 3h6v18h-6\"/><path class=\"p2\" d=\"M3 12h9\"/><path class=\"p2\" d=\"M9 8l4 4-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

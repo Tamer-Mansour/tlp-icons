@@ -1,0 +1,11 @@
+{
+  "name": "phone-tripod",
+  "category": "photography",
+  "tags": ["phone tripod", "mount", "stand", "phone", "video", "camera"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><line class=\"p2\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"14\"/><path class=\"p3\" d=\"M12 14l-4.5 7M12 14l4.5 7M12 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 14px" }
+  ]
+}

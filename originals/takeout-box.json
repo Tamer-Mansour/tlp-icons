@@ -1,0 +1,11 @@
+{
+  "name": "takeout-box",
+  "category": "food",
+  "tags": ["takeout", "carton", "box", "food", "delivery", "lunch"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16v9.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 20.5z\"/><path class=\"p2\" d=\"M4 11l8 4 8-4\"/><path class=\"p3\" d=\"M9 11V7.5a3 3 0 0 1 6 0V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 11px" }
+  ]
+}

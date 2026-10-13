@@ -1,0 +1,11 @@
+{
+  "name": "switchboard",
+  "category": "communication",
+  "tags": ["switchboard", "jacks", "plugs", "operator", "telephone", "patch panel"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"1.6\"/><circle class=\"p1\" cx=\"12\" cy=\"6\" r=\"1.6\"/><circle class=\"p1\" cx=\"18\" cy=\"6\" r=\"1.6\"/><circle class=\"p1\" cx=\"6\" cy=\"16\" r=\"1.6\"/><circle class=\"p1\" cx=\"12\" cy=\"16\" r=\"1.6\"/><circle class=\"p1\" cx=\"18\" cy=\"16\" r=\"1.6\"/><path class=\"p2\" d=\"M6 7.6 V12 H12 V14.4 M18 7.6 V11\"/><circle class=\"f p3\" cx=\"18\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

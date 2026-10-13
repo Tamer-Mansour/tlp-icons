@@ -1,0 +1,10 @@
+{
+  "name": "erosion-river",
+  "category": "science",
+  "tags": ["erosion", "river", "slope", "geology", "water", "landscape"],
+  "svg": "<path class=\"d p1\" d=\"M2 6 L8 6 L13 13 L13 22 L2 22 Z\"/><path class=\"p2\" d=\"M16 3 C18 7 14 9 16 12 S20 17 18 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 600 }
+  ]
+}

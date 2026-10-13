@@ -1,0 +1,11 @@
+{
+  "name": "toddler-blocks",
+  "category": "people",
+  "tags": ["toddler", "blocks", "child", "play", "kid"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"13\" width=\"7\" height=\"7\" rx=\"1\"/><circle class=\"p3\" cx=\"16.5\" cy=\"9\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 700, "delay": 1000 }
+  ]
+}

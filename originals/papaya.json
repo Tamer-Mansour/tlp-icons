@@ -1,0 +1,10 @@
+{
+  "name": "papaya",
+  "category": "food",
+  "tags": ["fruit", "tropical", "seeds", "halved", "sweet"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 5-4 9-9 9s-9-4-9-9z\"/><circle class=\"f p2\" cx=\"8\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"13.5\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"10\" cy=\"17\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

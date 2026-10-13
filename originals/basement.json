@@ -1,0 +1,11 @@
+{
+  "name": "basement",
+  "category": "buildings",
+  "tags": ["basement", "cellar", "underground", "stairs", "house", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M5 14.5V9l7-5 7 5v5.5z\"/><path class=\"p2\" d=\"M2 14.5h20\"/><path class=\"p3\" d=\"M9 14.5v2h2v2h2v2h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pinecone",
+  "category": "nature",
+  "tags": ["pine", "cone", "forest", "tree", "seed"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"5\" ry=\"7.5\"/><path class=\"p2\" d=\"M7.5 9.5 Q12 12 16.5 9.5\"/><path class=\"p2\" d=\"M7 13.5 Q12 16 17 13.5\"/><path class=\"p3\" d=\"M12 19.5 V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

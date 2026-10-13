@@ -1,0 +1,12 @@
+{
+  "name": "queue-depth",
+  "category": "charts",
+  "tags": ["queue", "backlog", "depth", "stack", "count", "items"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"10\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"17\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p4\" d=\"M19 3h2v18h-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

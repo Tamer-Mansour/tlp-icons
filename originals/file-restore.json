@@ -1,0 +1,10 @@
+{
+  "name": "file-restore",
+  "category": "files",
+  "tags": ["restore", "undo", "revert", "file", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"9.5\" y=\"8.5\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M3 9a6 6 0 0 1 6-6h1.5M3 6.5V9h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 800, "delay": 900, "origin": "9px 9px" }
+  ]
+}

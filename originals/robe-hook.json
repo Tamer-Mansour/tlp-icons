@@ -1,0 +1,10 @@
+{
+  "name": "robe-hook",
+  "category": "home",
+  "tags": ["robe", "hook", "bathrobe", "wall", "bathroom", "hang"],
+  "svg": "<path class=\"p1\" d=\"M3 3 V21 M3 7 H11 Q14 7 14 10\"/><path class=\"d p2\" d=\"M8 11 Q14 9 20 11 L21 21 H7 Z\"/><path class=\"p2\" d=\"M11 11 L14 15 L17 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "14px 10px" }
+  ]
+}

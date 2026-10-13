@@ -1,0 +1,10 @@
+{
+  "name": "topology-nodes",
+  "category": "connectivity",
+  "tags": ["topology", "tree", "nodes", "network", "hierarchy", "structure"],
+  "svg": "<path class=\"p1\" d=\"M12 7 V12 M5 12 H19 M5 12 V16.5 M12 12 V16.5 M19 12 V16.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"4.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"5\" cy=\"19\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"19\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"19\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bowtie",
+  "category": "shapes",
+  "tags": ["bowtie", "bow", "tie", "formal", "triangles", "ribbon"],
+  "svg": "<path class=\"d p1\" d=\"M3 6v12l8-6zM21 6v12l-8-6z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

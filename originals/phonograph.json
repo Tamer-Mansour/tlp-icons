@@ -1,0 +1,11 @@
+{
+  "name": "phonograph",
+  "category": "communication",
+  "tags": ["phonograph", "record", "turntable", "gramophone", "vinyl", "music"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M6 13A4 4 0 0 1 10 9\"/><line class=\"p3\" x1=\"20\" y1=\"4\" x2=\"13\" y2=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "10px 13px" }
+  ]
+}

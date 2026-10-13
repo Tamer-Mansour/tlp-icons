@@ -1,0 +1,10 @@
+{
+  "name": "interpunct",
+  "category": "text",
+  "tags": ["interpunct", "middle", "dot", "separator", "baseline", "ellipsis", "punctuation"],
+  "svg": "<path class=\"p1\" d=\"M3.5 12h5M15.5 12h5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 500 }
+  ]
+}

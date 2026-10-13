@@ -1,0 +1,11 @@
+{
+  "name": "raised-bed",
+  "category": "buildings",
+  "tags": ["raised", "bed", "planter", "garden", "sprout", "vegetable"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"16\" height=\"6\"/><path class=\"p2\" d=\"M7 17 V21 M17 17 V21\"/><path class=\"p3\" d=\"M12 11 V6 M12 8 Q9 8 9 5 M12 7 Q15 7 15 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "bottom" }
+  ]
+}

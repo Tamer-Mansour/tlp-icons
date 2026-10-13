@@ -1,0 +1,10 @@
+{
+  "name": "carpenter-square",
+  "category": "tools",
+  "tags": ["square", "carpenter", "angle", "measure", "steel"],
+  "svg": "<path class=\"p1\" d=\"M4 3V21H21\"/><path class=\"p2\" d=\"M4 9H7M4 15H7M9 21V18M15 21V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

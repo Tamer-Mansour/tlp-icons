@@ -1,0 +1,11 @@
+{
+  "name": "roman-clock",
+  "category": "time",
+  "tags": ["roman", "numerals", "clock", "classic", "ticks", "vintage"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M10.5 5h3M12 5v2M10.5 19h3M12 17v2M5 10.5v3M5 12h2M19 10.5v3M17 12h2\"/><path class=\"p3\" d=\"M12 12V8.5M12 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

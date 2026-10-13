@@ -1,0 +1,10 @@
+{
+  "name": "stethoscope-medical",
+  "category": "science",
+  "tags": ["stethoscope", "medical", "doctor", "heartbeat", "health"],
+  "svg": "<path class=\"p1\" d=\"M4 3 H8 M16 3 H20 M6 3 V9 C6 12.5 9 13.5 12 13.5 C15 13.5 18 12.5 18 9 V3 M12 13.5 V15\"/><circle class=\"d p2\" cx=\"12\" cy=\"18.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 700, "delay": 1000 }
+  ]
+}

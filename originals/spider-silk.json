@@ -1,0 +1,10 @@
+{
+  "name": "spider-silk",
+  "category": "nature",
+  "tags": ["spider", "web", "thread", "silk", "knot"],
+  "svg": "<path class=\"p1\" d=\"M12 2v6.5M12 17.5v4.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 1000, "delay": 700 }
+  ]
+}

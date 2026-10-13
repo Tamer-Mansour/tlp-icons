@@ -1,0 +1,11 @@
+{
+  "name": "grout-float",
+  "category": "tools",
+  "tags": ["grout", "float", "tile", "rubber", "mortar", "tiling"],
+  "svg": "<path class=\"p3\" d=\"M2 21h20\"/><path class=\"d p1\" d=\"M3 14h18v3H3z\"/><path class=\"p2\" d=\"M12 14V8M9 8h6\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

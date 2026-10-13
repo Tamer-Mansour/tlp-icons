@@ -1,0 +1,11 @@
+{
+  "name": "screen-reader-text",
+  "category": "text",
+  "tags": ["screen", "reader", "speaker", "accessibility", "voice", "audio"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h3l4-3.5v12l-4-3.5H3z\"/><path class=\"p2\" d=\"M12.5 10a2 2 0 0 1 0 4M12 8a4 4 0 0 1 0 8\"/><path class=\"p3\" d=\"M18 8h3M18 12h3M18 16h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1000 }
+  ]
+}

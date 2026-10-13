@@ -1,0 +1,10 @@
+{
+  "name": "t-shape",
+  "category": "shapes",
+  "tags": ["t", "bar", "stem", "letter", "block"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"4\"/><rect class=\"d p2\" x=\"10\" y=\"8\" width=\"4\" height=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500 }
+  ]
+}

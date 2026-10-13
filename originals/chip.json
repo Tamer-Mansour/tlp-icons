@@ -1,0 +1,11 @@
+{
+  "name": "chip",
+  "category": "interface",
+  "tags": ["chip", "tag", "pill", "label", "close", "remove"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M6 12h6\"/><path class=\"p3\" d=\"M16.5 10.5l3 3M19.5 10.5l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000, "origin": "18px 12px" }
+  ]
+}

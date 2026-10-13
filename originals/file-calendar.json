@@ -1,0 +1,11 @@
+{
+  "name": "file-calendar",
+  "category": "files",
+  "tags": ["calendar", "schedule", "date", "dates", "grid", "month"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"d p2\" d=\"M7 13h10v7H7z\"/><path class=\"p3\" d=\"M7 16.5h10M12 13v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "text-ellipsis",
+  "category": "text",
+  "tags": ["ellipsis", "more", "truncate", "dots", "overflow", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 12h9\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 500 }
+  ]
+}

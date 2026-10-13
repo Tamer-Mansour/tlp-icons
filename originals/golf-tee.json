@@ -1,0 +1,10 @@
+{
+  "name": "golf-tee",
+  "category": "sport",
+  "tags": ["golf", "tee", "peg", "ball", "drive", "course"],
+  "svg": "<path class=\"p1\" d=\"M12 14V21\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 600 }
+  ]
+}

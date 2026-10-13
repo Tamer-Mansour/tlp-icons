@@ -1,0 +1,12 @@
+{
+  "name": "goat",
+  "category": "nature",
+  "tags": ["goat", "horns", "beard", "farm", "animal", "mountain"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"13\" height=\"6\" rx=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"7\" r=\"2\"/><path class=\"p3\" d=\"M16.5 5.5 L15 3 M19.5 5.5 L21 3\"/><path class=\"p4\" d=\"M6 16 V20 M13 16 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 1400 }
+  ]
+}

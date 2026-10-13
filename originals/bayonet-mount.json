@@ -1,0 +1,11 @@
+{
+  "name": "bayonet-mount",
+  "category": "photography",
+  "tags": ["bayonet", "mount", "lens", "tabs", "camera"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p3\" d=\"M17 4.5h2v2.5M7 19.5H5V17\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "spinHalf", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

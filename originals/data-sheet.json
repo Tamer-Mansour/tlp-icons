@@ -1,0 +1,11 @@
+{
+  "name": "data-sheet",
+  "category": "charts",
+  "tags": ["data", "sheet", "spreadsheet", "table", "document", "bar"],
+  "svg": "<path class=\"p1\" d=\"M6 2h8l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M7 11h10M7 15h6\"/><path class=\"p3\" d=\"M16 19v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1000, "origin": "bottom" }
+  ]
+}

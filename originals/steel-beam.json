@@ -1,0 +1,10 @@
+{
+  "name": "steel-beam",
+  "category": "tools",
+  "tags": ["steel", "beam", "girder", "structure", "metal", "construction"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 600 }
+  ]
+}

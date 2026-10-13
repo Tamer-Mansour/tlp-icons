@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-tab",
+  "category": "interface",
+  "tags": ["keyboard", "tab", "keycap", "key", "next"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"3\"/><path class=\"p2\" d=\"M7.5 9.5v5M10 12h6.5M14 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

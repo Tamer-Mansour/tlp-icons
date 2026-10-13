@@ -1,0 +1,10 @@
+{
+  "name": "confetti-celebration",
+  "category": "people",
+  "tags": ["confetti", "celebration", "burst", "party", "sparkle", "festive"],
+  "svg": "<path class=\"p2\" d=\"M12 3v3M4 12h3M17 12h3M6 6l1.5 1.5M18 6l-1.5 1.5\"/><circle class=\"f p1\" cx=\"6\" cy=\"17\" r=\"1.1\"/><circle class=\"f p1\" cx=\"18\" cy=\"17\" r=\"1.1\"/><circle class=\"f p1\" cx=\"12\" cy=\"20\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

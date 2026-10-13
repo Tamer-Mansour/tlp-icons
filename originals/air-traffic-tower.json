@@ -1,0 +1,11 @@
+{
+  "name": "air-traffic-tower",
+  "category": "buildings",
+  "tags": ["air", "traffic", "tower", "control", "radar", "airport"],
+  "svg": "<path class=\"p1\" d=\"M9 12l-1.5 9M15 12l1.5 9\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M7 5a7 7 0 0 1 10 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

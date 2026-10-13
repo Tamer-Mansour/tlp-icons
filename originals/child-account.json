@@ -1,0 +1,11 @@
+{
+  "name": "child-account",
+  "category": "people",
+  "tags": ["child", "account", "kids", "safe", "shield", "profile"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"2.5\"/><path class=\"p3\" d=\"M4.5 20v-2.5a4.5 4.5 0 0 1 9 0V20\"/><path class=\"d p2\" d=\"M17.5 3l4 1.5v4.5c0 3-1.8 5.2-4 6.5-2.2-1.3-4-3.5-4-6.5V4.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "bob", "dur": 700, "delay": 1000 }
+  ]
+}

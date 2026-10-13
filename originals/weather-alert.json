@@ -1,0 +1,11 @@
+{
+  "name": "weather-alert",
+  "category": "weather",
+  "tags": ["alert", "warning", "cloud", "weather", "notice"],
+  "svg": "<path class=\"d p1\" d=\"M7 18h10a4 4 0 0 0 0-8 5.5 5.5 0 0 0-10.4 1.8A3 3 0 0 0 7 18z\"/><path class=\"p2\" d=\"M12 10.5v3\"/><circle class=\"f p3\" cx=\"12\" cy=\"15.8\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

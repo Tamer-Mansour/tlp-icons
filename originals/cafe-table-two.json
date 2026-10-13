@@ -1,0 +1,11 @@
+{
+  "name": "cafe-table-two",
+  "category": "people",
+  "tags": ["cafe", "table", "chairs", "coffee", "restaurant", "seats"],
+  "svg": "<path class=\"p1\" d=\"M6 11 H18\"/><path class=\"p2\" d=\"M12 11 V19 M8 20 H16\"/><path class=\"p3\" d=\"M3 15 H6 M3 15 V10 M18 15 H21 M21 15 V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

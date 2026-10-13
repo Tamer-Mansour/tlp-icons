@@ -1,0 +1,11 @@
+{
+  "name": "lattice-points",
+  "category": "math",
+  "tags": ["lattice", "points", "grid", "integer", "geometry"],
+  "svg": "<path class=\"p3\" d=\"M4 4h.01M12 4h.01M20 4h.01M4 12h.01M12 12h.01M20 12h.01M4 20h.01M12 20h.01M20 20h.01\"/><line class=\"p1\" x1=\"4\" y1=\"20\" x2=\"20\" y2=\"4\"/><circle class=\"f p2\" cx=\"4\" cy=\"20\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 1100 }
+  ]
+}

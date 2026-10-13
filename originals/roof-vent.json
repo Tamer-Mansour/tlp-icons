@@ -1,0 +1,11 @@
+{
+  "name": "roof-vent",
+  "category": "buildings",
+  "tags": ["roof", "vent", "ventilation", "chimney", "hood", "air"],
+  "svg": "<path class=\"p1\" d=\"M3 16h18\"/><path class=\"d p2\" d=\"M8 16V10h8v6\"/><path class=\"p3\" d=\"M12 10V6M9 6h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1200 }
+  ]
+}

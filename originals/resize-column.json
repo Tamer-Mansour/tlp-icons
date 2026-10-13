@@ -1,0 +1,10 @@
+{
+  "name": "resize-column",
+  "category": "interface",
+  "tags": ["resize", "column", "width", "divider", "drag", "horizontal"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><polyline class=\"p2\" points=\"7,9 4,12 7,15\"/><polyline class=\"p2\" points=\"17,9 20,12 17,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 800 }
+  ]
+}

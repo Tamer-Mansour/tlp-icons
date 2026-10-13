@@ -1,0 +1,10 @@
+{
+  "name": "customs-hall",
+  "category": "buildings",
+  "tags": ["customs", "hall", "check", "border", "columns", "import"],
+  "svg": "<path class=\"p1\" d=\"M3 9L12 3l9 6\"/><path class=\"p1\" d=\"M3 21h18M5 9v12M19 9v12\"/><path class=\"p2\" d=\"M9 14l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

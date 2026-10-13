@@ -1,0 +1,11 @@
+{
+  "name": "water-molecule",
+  "category": "science",
+  "tags": ["water", "molecule", "chemistry", "atom", "hydrogen", "bond"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"4\"/><circle class=\"p2\" cx=\"5.5\" cy=\"6.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"18.5\" cy=\"6.5\" r=\"2.5\"/><line class=\"p3\" x1=\"10\" y1=\"11\" x2=\"7.5\" y2=\"8.5\"/><line class=\"p3\" x1=\"14\" y1=\"11\" x2=\"16.5\" y2=\"8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "breathe", "dur": 900, "delay": 1100 }
+  ]
+}

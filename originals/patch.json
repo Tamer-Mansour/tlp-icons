@@ -1,0 +1,11 @@
+{
+  "name": "patch",
+  "category": "development",
+  "tags": ["patch", "fix", "hotfix", "update", "diff", "bugfix"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M8 8 H13 M8 12 H12\"/><rect class=\"d p2\" x=\"14\" y=\"14\" width=\"6\" height=\"6\" rx=\"2\" transform=\"rotate(45 17 17)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 1000 }
+  ]
+}

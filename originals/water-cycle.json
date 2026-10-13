@@ -1,0 +1,10 @@
+{
+  "name": "water-cycle",
+  "category": "weather",
+  "tags": ["water", "cycle", "evaporation", "rain", "loop", "climate"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 0 0 14 4M20 12a8 8 0 0 0-14-4\"/><path class=\"d p2\" d=\"M12 3.5c-1.5 2-2 3-2 4a2 2 0 0 0 4 0c0-1-.5-2-2-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

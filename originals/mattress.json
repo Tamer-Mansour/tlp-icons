@@ -1,0 +1,10 @@
+{
+  "name": "mattress",
+  "category": "home",
+  "tags": ["mattress", "bed", "sleep", "quilted", "rest", "foam"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"3\"/><path class=\"p2\" d=\"M6 8v8M12 8v8M18 8v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "home-arrow",
+  "category": "arrows",
+  "tags": ["home", "house", "door", "enter", "return"],
+  "svg": "<path class=\"p1\" d=\"M4 10 L12 3 L20 10 V21 H4 Z\"/><path class=\"p2\" d=\"M12 11 V17\"/><polyline class=\"p2\" points=\"9 14 12 17 15 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 1000 }
+  ]
+}

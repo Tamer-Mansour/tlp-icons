@@ -1,0 +1,12 @@
+{
+  "name": "rotor-cipher",
+  "category": "security",
+  "tags": ["rotor", "cipher", "dial", "encrypt", "enigma"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5.5\"/><path class=\"p3\" d=\"M12 3v2M21 12h-2M12 21v-2M3 12h2\"/><line class=\"p4\" x1=\"12\" y1=\"12\" x2=\"16.5\" y2=\"7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

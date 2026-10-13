@@ -1,0 +1,10 @@
+{
+  "name": "spiral-stairs",
+  "category": "buildings",
+  "tags": ["spiral", "stairs", "staircase", "steps", "building", "helix"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"p2\" d=\"M12 6h7M5 10h7M12 14h7M5 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 900, "delay": 500 }
+  ]
+}

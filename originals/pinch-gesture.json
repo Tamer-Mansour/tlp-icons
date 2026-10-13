@@ -1,0 +1,10 @@
+{
+  "name": "pinch-gesture",
+  "category": "arrows",
+  "tags": ["pinch", "zoom", "touch", "gesture", "fingers"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12H9M6.5 9.5 9 12l-2.5 2.5\"/><path class=\"p2\" d=\"M21.5 12H15M17.5 9.5 15 12l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 }
+  ]
+}

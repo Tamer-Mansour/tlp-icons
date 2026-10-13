@@ -1,0 +1,11 @@
+{
+  "name": "horizon",
+  "category": "weather",
+  "tags": ["horizon", "sun", "sea", "sky", "line", "view"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 16a4.5 4.5 0 0 1 9 0z\"/><path class=\"p2\" d=\"M3 16h18\"/><path class=\"p3\" d=\"M9 20h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

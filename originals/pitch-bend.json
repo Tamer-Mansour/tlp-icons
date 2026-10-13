@@ -1,0 +1,10 @@
+{
+  "name": "pitch-bend",
+  "category": "media",
+  "tags": ["pitch", "bend", "guitar", "note", "slide", "music"],
+  "svg": "<path class=\"p1\" d=\"M3 16H10\"/><path class=\"p2\" d=\"M10 16C14 16 14 8 21 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

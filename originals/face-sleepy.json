@@ -1,0 +1,12 @@
+{
+  "name": "face-sleepy",
+  "category": "people",
+  "tags": ["sleepy", "face", "tired", "sleep", "drowsy", "emoji"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M7.5 10Q9 11.5 10.5 10M13.5 10Q15 11.5 16.5 10\"/><path class=\"p3\" d=\"M10 15.5Q12 16.5 14 15.5\"/><path class=\"p4\" d=\"M19 2.5H21.5L19 5H21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "float", "dur": 1200, "delay": 1100 }
+  ]
+}

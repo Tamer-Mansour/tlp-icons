@@ -1,0 +1,10 @@
+{
+  "name": "workflow-arrow",
+  "category": "arrows",
+  "tags": ["workflow", "nodes", "connector", "flow", "steps", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"18\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6.5 12h2.5M7.5 10.5 9 12l-1.5 1.5M14.5 12h2.5M15.5 10.5 17 12l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

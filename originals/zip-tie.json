@@ -1,0 +1,11 @@
+{
+  "name": "zip-tie",
+  "category": "tools",
+  "tags": ["zip", "tie", "cable", "strap", "fastener", "bundle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"8\" height=\"8\" rx=\"1.5\"/><line class=\"p2\" x1=\"11\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p3\" x1=\"18\" y1=\"9\" x2=\"18\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

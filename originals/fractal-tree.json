@@ -1,0 +1,11 @@
+{
+  "name": "fractal-tree",
+  "category": "math",
+  "tags": ["fractal", "tree", "branches", "recursive", "pattern"],
+  "svg": "<path class=\"p1\" d=\"M12 21V12\"/><path class=\"p2\" d=\"M12 12L6 6M12 12L18 6\"/><path class=\"p3\" d=\"M6 6L3 3M6 6L9 3M18 6L15 3M18 6L21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 700, "delay": 800, "origin": "bottom" }
+  ]
+}

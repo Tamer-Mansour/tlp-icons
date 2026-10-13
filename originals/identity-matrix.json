@@ -1,0 +1,11 @@
+{
+  "name": "identity-matrix",
+  "category": "math",
+  "tags": ["identity", "matrix", "diagonal", "linear algebra", "grid"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\"/><path class=\"p2\" d=\"M12 4V20M4 12H20\"/><circle class=\"f p3\" cx=\"8\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

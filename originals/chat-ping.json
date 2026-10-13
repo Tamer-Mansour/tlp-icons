@@ -1,0 +1,11 @@
+{
+  "name": "chat-ping",
+  "category": "communication",
+  "tags": ["chat", "ping", "bell", "alert", "notification", "message"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4 3.5V16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M9.5 11V9a2.5 2.5 0 0 1 5 0v2l1 1.5h-7z\"/><path class=\"p3\" d=\"M17 5.5a2.5 2.5 0 0 1 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 700, "origin": "12px 6.5px" },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pet-shop",
+  "category": "buildings",
+  "tags": ["pet", "shop", "paw", "animals", "store", "dog"],
+  "svg": "<path class=\"p1\" d=\"M4 21V11l8-6 8 6v10z\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"16\" rx=\"2.5\" ry=\"2\"/><circle class=\"f p2\" cx=\"9\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-photo",
+  "category": "files",
+  "tags": ["photo", "image", "picture", "mountain", "sun", "gallery"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><path class=\"d p2\" d=\"M8 18l3-4 2 2.5 1.5-2 2.5 3.5z\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"11.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "first-aid-post",
+  "category": "buildings",
+  "tags": ["first", "aid", "tent", "cross", "medical", "post"],
+  "svg": "<path class=\"d p1\" d=\"M3 20L12 5l9 15z\"/><path class=\"p2\" d=\"M12 11v4M10 13h4\"/><path class=\"p3\" d=\"M12 5V2h5l-1.5 1.5L17 5h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

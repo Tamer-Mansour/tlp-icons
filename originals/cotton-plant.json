@@ -1,0 +1,11 @@
+{
+  "name": "cotton-plant",
+  "category": "nature",
+  "tags": ["cotton", "plant", "boll", "fluffy", "fiber", "stem", "crop"],
+  "svg": "<path class=\"p2\" d=\"M12 21V6.5\"/><circle class=\"p1\" cx=\"6.5\" cy=\"8.5\" r=\"2.5\"/><circle class=\"p1\" cx=\"17.5\" cy=\"8.5\" r=\"2.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"4\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 }
+  ]
+}

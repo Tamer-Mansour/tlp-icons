@@ -1,0 +1,10 @@
+{
+  "name": "grass",
+  "category": "nature",
+  "tags": ["grass", "blades", "lawn", "plant", "field"],
+  "svg": "<path class=\"p1\" d=\"M3 21H21\"/><path class=\"p2\" d=\"M9 21C9 15 8 10 5 6M12 21V5M15 21C15 15 16 10 19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 700, "origin": "bottom" }
+  ]
+}

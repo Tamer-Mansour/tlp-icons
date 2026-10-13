@@ -1,0 +1,11 @@
+{
+  "name": "diode",
+  "category": "devices",
+  "tags": ["diode", "semiconductor", "electronics", "rectifier", "component", "current"],
+  "svg": "<polygon class=\"d p1\" points=\"5,5 15,12 5,19\"/><path class=\"p2\" d=\"M17.5 5V19\"/><path class=\"p3\" d=\"M2 12H5M15 12H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 1000, "delay": 700 }
+  ]
+}

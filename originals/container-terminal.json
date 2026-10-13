@@ -1,0 +1,11 @@
+{
+  "name": "container-terminal",
+  "category": "buildings",
+  "tags": ["containers", "shipping", "crane", "port", "cargo", "freight", "logistics"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"12\" width=\"7\" height=\"7\"/><rect class=\"d p1\" x=\"10.5\" y=\"12\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"6.5\" y=\"6\" width=\"7\" height=\"6\"/><path class=\"p3\" d=\"M20 20V3.5h-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "20px 4px" }
+  ]
+}

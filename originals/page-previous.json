@@ -1,0 +1,10 @@
+{
+  "name": "page-previous",
+  "category": "arrows",
+  "tags": ["page", "previous", "sheet", "back", "document", "return"],
+  "svg": "<path class=\"d p1\" d=\"M19 3 H10 L6 7 V21 H19 Z\"/><line class=\"p2\" x1=\"15\" y1=\"13\" x2=\"8\" y2=\"13\"/><polyline class=\"p2\" points=\"11 10 8 13 11 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 }
+  ]
+}

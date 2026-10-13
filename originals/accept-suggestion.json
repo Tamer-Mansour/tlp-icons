@@ -1,0 +1,11 @@
+{
+  "name": "accept-suggestion",
+  "category": "text",
+  "tags": ["accept", "suggestion", "approve", "check", "review", "text"],
+  "svg": "<path class=\"p1\" d=\"M4 15h10\"/><path class=\"p2\" d=\"M4 19h14\"/><path class=\"p3\" d=\"M5 8.5l3 3 6.5-6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

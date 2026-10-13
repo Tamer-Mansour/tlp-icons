@@ -1,0 +1,10 @@
+{
+  "name": "ruler-horizontal",
+  "category": "layout",
+  "tags": ["ruler", "measure", "horizontal", "scale", "ticks", "length"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><line class=\"p2\" x1=\"6\" y1=\"16\" x2=\"6\" y2=\"13\"/><line class=\"p2\" x1=\"10\" y1=\"16\" x2=\"10\" y2=\"12\"/><line class=\"p2\" x1=\"14\" y1=\"16\" x2=\"14\" y2=\"13\"/><line class=\"p2\" x1=\"18\" y1=\"16\" x2=\"18\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400, "origin": "bottom" }
+  ]
+}

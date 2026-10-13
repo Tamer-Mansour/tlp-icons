@@ -1,0 +1,11 @@
+{
+  "name": "recovery-key",
+  "category": "people",
+  "tags": ["recovery", "key", "restore", "access", "reset"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M5.5 11.5a2 2 0 1 1 .8 1.6\"/><line class=\"p3\" x1=\"11.5\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p3\" x1=\"17\" y1=\"12\" x2=\"17\" y2=\"14.5\"/><line class=\"p3\" x1=\"20\" y1=\"12\" x2=\"20\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 1100, "origin": "7.5px 12px" }
+  ]
+}

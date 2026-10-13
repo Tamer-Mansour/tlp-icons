@@ -1,0 +1,12 @@
+{
+  "name": "tear-off-calendar",
+  "category": "time",
+  "tags": ["calendar", "tear", "page", "date", "daily", "day"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h13.5v8L13 21H3z\"/><path class=\"p2\" d=\"M13 21v-3.5h3.5\"/><rect class=\"p3\" x=\"5\" y=\"2.5\" width=\"12\" height=\"3\"/><path class=\"p4\" d=\"M5 7.5h2.5M9.5 7.5h2.5M14 7.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1100, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gravy-boat",
+  "category": "home",
+  "tags": ["gravy", "boat", "sauce", "pitcher", "serving"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h13c0 4-2.5 7-6.5 7S4 15 4 11z\"/><path class=\"p2\" d=\"M17 12h2.5a2 2 0 0 1 0 4H17\"/><path class=\"p3\" d=\"M4 11L2 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pour", "dur": 900, "delay": 1000 }
+  ]
+}

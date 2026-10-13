@@ -1,0 +1,10 @@
+{
+  "name": "success-toast",
+  "category": "notifications",
+  "tags": ["success", "toast", "check", "confirm", "message"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M6 12 L8.5 14.5 L13 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 }
+  ]
+}

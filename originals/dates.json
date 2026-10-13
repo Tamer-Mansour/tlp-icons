@@ -1,0 +1,11 @@
+{
+  "name": "dates",
+  "category": "food",
+  "tags": ["dates", "fruit", "fig", "snack", "sweet"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7\" cy=\"14\" rx=\"3.5\" ry=\"5.5\"/><ellipse class=\"d p2\" cx=\"17\" cy=\"13\" rx=\"3.5\" ry=\"5.5\"/><path class=\"p3\" d=\"M12 8Q12 5 15 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 900, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "carry-child",
+  "category": "people",
+  "tags": ["carry", "child", "hold", "parent", "arms", "lift"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"2.5\"/><path class=\"p1\" d=\"M8 8.5v6M8 11l5 3M8 14.5l-2.5 6.5M8 14.5l2.5 6.5\"/><circle class=\"p2\" cx=\"16\" cy=\"9\" r=\"1.5\"/><path class=\"p2\" d=\"M15 12.5h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 800 }
+  ]
+}

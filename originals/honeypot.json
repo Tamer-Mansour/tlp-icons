@@ -1,0 +1,10 @@
+{
+  "name": "honeypot",
+  "category": "security",
+  "tags": ["honeypot", "jar", "trap", "bait", "decoy", "drop"],
+  "svg": "<path class=\"p1\" d=\"M9 4H15V7Q19 9 19 14Q19 20 12 20Q5 20 5 14Q5 9 9 7Z\"/><path class=\"d p2\" d=\"M12 9Q13.5 11 13.5 12.5Q13.5 14 12 14Q10.5 14 10.5 12.5Q10.5 11 12 9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 }
+  ]
+}

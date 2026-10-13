@@ -1,0 +1,10 @@
+{
+  "name": "spotlight-overlay",
+  "category": "layout",
+  "tags": ["spotlight", "overlay", "highlight", "tutorial", "dim", "focus", "cutout"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"17\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cowboy-hat",
+  "category": "sport",
+  "tags": ["cowboy hat", "western", "hat", "brim", "rodeo"],
+  "svg": "<path class=\"d p1\" d=\"M7 14V6.5Q12 3.5 17 6.5V14Z\"/><path class=\"p2\" d=\"M2 16Q12 11 22 16Q12 21 2 16Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 600, "origin": "12px 16px" }
+  ]
+}

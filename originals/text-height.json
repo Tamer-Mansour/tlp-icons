@@ -1,0 +1,10 @@
+{
+  "name": "text-height",
+  "category": "text",
+  "tags": ["height", "measure", "text", "block", "dimension"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"10\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M19 4v16M16.5 6.5L19 4l2.5 2.5M16.5 17.5L19 20l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

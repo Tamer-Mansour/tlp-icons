@@ -1,0 +1,11 @@
+{
+  "name": "role-badge",
+  "category": "security",
+  "tags": ["role", "badge", "person", "identity", "id", "staff"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M8.5 17Q8.5 14 12 14Q15.5 14 15.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "month-view",
+  "category": "time",
+  "tags": ["month", "view", "calendar", "grid", "block", "schedule"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M4 10h16\"/><rect class=\"d p3\" x=\"7\" y=\"13\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 900 }
+  ]
+}

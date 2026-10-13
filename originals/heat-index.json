@@ -1,0 +1,11 @@
+{
+  "name": "heat-index",
+  "category": "weather",
+  "tags": ["heat index", "thermometer", "temperature", "hot", "flame", "weather"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"4\" height=\"11\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M16 21 C13.5 18 15 15 17 13 C17.5 16 19 16.5 19 18 C19 19.5 18 21 16 21Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

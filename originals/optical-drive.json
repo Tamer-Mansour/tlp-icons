@@ -1,0 +1,11 @@
+{
+  "name": "optical-drive",
+  "category": "devices",
+  "tags": ["optical", "drive", "disc", "cd", "dvd", "tray"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M6 19h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

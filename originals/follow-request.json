@@ -1,0 +1,11 @@
+{
+  "name": "follow-request",
+  "category": "people",
+  "tags": ["follow", "request", "pending", "friend", "person"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20.5c0-3.3 2.7-6 6-6s6 2.7 6 6\"/><path class=\"p2\" d=\"M18 2.5v4M16 4.5h4\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"16\" r=\"3.5\"/><path class=\"p3\" d=\"M18.5 14v2.5l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "18.5px 16px" }
+  ]
+}

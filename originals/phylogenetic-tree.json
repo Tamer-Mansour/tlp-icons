@@ -1,0 +1,11 @@
+{
+  "name": "phylogenetic-tree",
+  "category": "science",
+  "tags": ["phylogenetic", "tree", "evolution", "species", "branch", "biology"],
+  "svg": "<path class=\"p1\" d=\"M12 21V13\"/><path class=\"p2\" d=\"M12 13L5 6.5M12 13L19 6.5\"/><circle class=\"f p3\" cx=\"5\" cy=\"4\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

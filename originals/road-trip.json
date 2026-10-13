@@ -1,0 +1,10 @@
+{
+  "name": "road-trip",
+  "category": "vehicles",
+  "tags": ["road", "trip", "winding road", "destination", "travel", "journey"],
+  "svg": "<path class=\"p1\" d=\"M4 21c3-2 6-2 6-6s-2-6 1-8\"/><path class=\"d p2\" d=\"M18 2.5a4 4 0 0 1 4 4c0 3-4 8-4 8s-4-5-4-8a4 4 0 0 1 4-4z\"/><circle class=\"f p2\" cx=\"18\" cy=\"6.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "clay-pot",
+  "category": "home",
+  "tags": ["pot", "clay", "terracotta", "planter", "plant", "garden"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-1.5 10a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 13h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

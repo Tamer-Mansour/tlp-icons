@@ -1,0 +1,10 @@
+{
+  "name": "viaduct",
+  "category": "buildings",
+  "tags": ["viaduct", "arches", "railway", "rail", "bridge", "train"],
+  "svg": "<path class=\"p1\" d=\"M2 21V12a3 3 0 0 1 6 0v9M8 21V12a3 3 0 0 1 6 0v9M14 21V12a3 3 0 0 1 6 0v9\"/><path class=\"p2\" d=\"M2 7h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 700 }
+  ]
+}

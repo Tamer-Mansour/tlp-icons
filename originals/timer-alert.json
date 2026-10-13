@@ -1,0 +1,10 @@
+{
+  "name": "timer-alert",
+  "category": "notifications",
+  "tags": ["timer", "alert", "stopwatch", "deadline", "time"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><line class=\"p1\" x1=\"10\" y1=\"2\" x2=\"14\" y2=\"2\"/><line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><circle class=\"f p2\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

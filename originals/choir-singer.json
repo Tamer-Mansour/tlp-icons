@@ -1,0 +1,11 @@
+{
+  "name": "choir-singer",
+  "category": "people",
+  "tags": ["choir", "singer", "singing", "music", "note", "voice", "chorus"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M3 21 V18 Q3 13 9 13 Q15 13 15 18 V21\"/><path class=\"p2\" d=\"M19 16 V4 Q22 6 21 10\"/><circle class=\"f p3\" cx=\"17\" cy=\"16\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

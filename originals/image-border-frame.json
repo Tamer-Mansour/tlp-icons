@@ -1,0 +1,10 @@
+{
+  "name": "image-border-frame",
+  "category": "design",
+  "tags": ["image", "border", "frame", "picture", "mat", "photo"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><rect class=\"d p2\" x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

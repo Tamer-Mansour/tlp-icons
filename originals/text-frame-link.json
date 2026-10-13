@@ -1,0 +1,10 @@
+{
+  "name": "text-frame-link",
+  "category": "text",
+  "tags": ["frame", "link", "text", "chain", "columns", "connect"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"7\" height=\"10\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"5\" width=\"7\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M10 10h4M10 12.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 500, "delay": 800 }
+  ]
+}

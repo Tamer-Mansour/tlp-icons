@@ -1,0 +1,11 @@
+{
+  "name": "face-shush",
+  "category": "emoji",
+  "tags": ["shush", "quiet", "silence", "face", "hush"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p3\" d=\"M8 10h2M14 10h2\"/><path class=\"p2\" d=\"M7.5 14.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 1100 }
+  ]
+}

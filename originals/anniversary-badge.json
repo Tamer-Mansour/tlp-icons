@@ -1,0 +1,11 @@
+{
+  "name": "anniversary-badge",
+  "category": "people",
+  "tags": ["anniversary", "badge", "calendar", "milestone", "star"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M8.5 7.5V2.5M15.5 7.5V2.5\"/><polygon class=\"p3\" points=\"12,10.5 13.1,12.9 15.6,13.2 13.7,14.9 14.2,17.4 12,16.1 9.8,17.4 10.3,14.9 8.4,13.2 10.9,12.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1400 }
+  ]
+}

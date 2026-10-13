@@ -1,0 +1,11 @@
+{
+  "name": "centripetal-circle",
+  "category": "science",
+  "tags": ["centripetal", "circle", "orbit", "inward", "force", "motion"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M3 3l3 3M6 3.5V6h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1200 }
+  ]
+}

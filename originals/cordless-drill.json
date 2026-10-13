@@ -1,0 +1,12 @@
+{
+  "name": "cordless-drill",
+  "category": "tools",
+  "tags": ["cordless", "drill", "battery", "power", "pistol", "bit"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"11\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M14 7.5h6\"/><path class=\"p3\" d=\"M7.5 10.5l.5 5.5h3.5l-.5-5.5\"/><rect class=\"p4\" x=\"7\" y=\"18\" width=\"5\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "buzz", "dur": 500, "delay": 1000 }
+  ]
+}

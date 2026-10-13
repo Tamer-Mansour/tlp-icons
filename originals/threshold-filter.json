@@ -1,0 +1,11 @@
+{
+  "name": "threshold-filter",
+  "category": "design",
+  "tags": ["threshold", "filter", "black", "white", "contrast"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 3A9 9 0 0 1 12 21Z\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1300 }
+  ]
+}

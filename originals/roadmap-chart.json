@@ -1,0 +1,11 @@
+{
+  "name": "roadmap-chart",
+  "category": "charts",
+  "tags": ["roadmap", "timeline", "schedule", "plan", "milestones", "gantt"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"5\" height=\"4\"/><rect class=\"p2\" x=\"10\" y=\"11\" width=\"5\" height=\"4\"/><rect class=\"p3\" x=\"17\" y=\"17\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

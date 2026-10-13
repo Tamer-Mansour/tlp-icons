@@ -1,0 +1,11 @@
+{
+  "name": "street-sign",
+  "category": "buildings",
+  "tags": ["street sign", "road sign", "signpost", "post", "name sign"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M12 11v10\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 10px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wall-clock",
+  "category": "home",
+  "tags": ["clock", "wall", "time", "hours", "watch", "face"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M12 2v3\"/><path class=\"p3\" d=\"M12 13V9M12 13l3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1800, "delay": 600, "origin": "12px 13px" }
+  ]
+}

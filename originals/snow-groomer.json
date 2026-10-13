@@ -1,0 +1,11 @@
+{
+  "name": "snow-groomer",
+  "category": "vehicles",
+  "tags": ["snow", "groomer", "tracked", "piste", "winter"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"12\" height=\"7\"/><line class=\"p2\" x1=\"19\" y1=\"8\" x2=\"19\" y2=\"18\"/><circle class=\"f p3\" cx=\"8\" cy=\"20\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

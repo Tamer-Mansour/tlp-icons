@@ -1,0 +1,10 @@
+{
+  "name": "path-merge",
+  "category": "design",
+  "tags": ["path", "merge", "shapes", "combine", "union", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 4h6v6H4zM14 4h6v6h-6z\"/><path class=\"p2\" d=\"M4 15h16v5H4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 900 }
+  ]
+}

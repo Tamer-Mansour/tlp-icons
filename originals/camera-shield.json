@@ -1,0 +1,10 @@
+{
+  "name": "camera-shield",
+  "category": "security",
+  "tags": ["camera", "shield", "privacy", "protected", "secure", "video"],
+  "svg": "<path class=\"d p1\" d=\"M3 8 H7 L9 5 H15 L17 8 H21 V19 H3 Z\"/><path class=\"p2\" d=\"M12 10 L14.5 10.9 V13.2 C14.5 14.8 13.5 15.8 12 16.4 C10.5 15.8 9.5 14.8 9.5 13.2 V10.9 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

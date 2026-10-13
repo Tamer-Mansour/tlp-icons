@@ -1,0 +1,10 @@
+{
+  "name": "bongo",
+  "category": "media",
+  "tags": ["bongo", "drum", "percussion", "latin", "instrument", "beat"],
+  "svg": "<path class=\"d p1\" d=\"M3 12v4.5c0 1.1 2.2 2 5 2s5-.9 5-2V12\"/><ellipse class=\"p1\" cx=\"8\" cy=\"12\" rx=\"5\" ry=\"2\"/><path class=\"d p2\" d=\"M13.5 13v3c0 .8 1.5 1.5 3.5 1.5s3.5-.7 3.5-1.5v-3\"/><ellipse class=\"p2\" cx=\"17\" cy=\"13\" rx=\"3.5\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 600 }
+  ]
+}

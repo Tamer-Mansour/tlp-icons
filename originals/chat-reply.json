@@ -1,0 +1,10 @@
+{
+  "name": "chat-reply",
+  "category": "interface",
+  "tags": ["chat", "reply", "message", "respond", "bubble", "comment"],
+  "svg": "<path class=\"p1\" d=\"M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H9l-4 3v-3H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z\"/><path class=\"p2\" d=\"M15.5 13.5v-2a2.5 2.5 0 0 0-2.5-2.5H9.5M12.5 7.5L9.5 10l3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

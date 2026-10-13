@@ -1,0 +1,11 @@
+{
+  "name": "gps-arrow",
+  "category": "arrows",
+  "tags": ["gps", "locate", "crosshair", "target", "position", "aim"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6.5\"/><path class=\"p2\" d=\"M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22\"/><polygon class=\"d p3\" points=\"12,9 15,15 12,13.5 9,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "tilt", "dur": 900, "delay": 1100 }
+  ]
+}

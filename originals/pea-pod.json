@@ -1,0 +1,12 @@
+{
+  "name": "pea-pod",
+  "category": "food",
+  "tags": ["pea", "pod", "vegetable", "peas", "green", "produce"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"5\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/><circle class=\"p4\" cx=\"16\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

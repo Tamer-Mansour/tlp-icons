@@ -1,0 +1,12 @@
+{
+  "name": "chimpanzee",
+  "category": "nature",
+  "tags": ["chimpanzee", "ape", "monkey", "primate", "ears", "animal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"5\"/><circle class=\"p2\" cx=\"5.5\" cy=\"9\" r=\"1.8\"/><circle class=\"p2\" cx=\"18.5\" cy=\"9\" r=\"1.8\"/><path class=\"p3\" d=\"M9.5 13c1.5 1.5 3.5 1.5 5 0\"/><path class=\"p4\" d=\"M7 16c-2 2-2 5 0 5h10c2 0 2-3 0-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

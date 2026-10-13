@@ -1,0 +1,11 @@
+{
+  "name": "frog",
+  "category": "nature",
+  "tags": ["frog", "amphibian", "pond", "bulging eyes", "wide", "green"],
+  "svg": "<path class=\"d p1\" d=\"M3 13C3 10 6 9 12 9C18 9 21 10 21 13C21 17 17 19 12 19C7 19 3 17 3 13Z\"/><circle class=\"p2\" cx=\"8\" cy=\"7\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"7\" r=\"2\"/><path class=\"p3\" d=\"M7 15C9 16.5 15 16.5 17 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 800 }
+  ]
+}

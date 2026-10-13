@@ -1,0 +1,11 @@
+{
+  "name": "email-thread",
+  "category": "communication",
+  "tags": ["email", "thread", "conversation", "reply", "chain", "messages", "stack"],
+  "svg": "<path class=\"d p1\" d=\"M2 2h12v7H2z\"/><path class=\"p2\" d=\"M10 14h12v7H10z\"/><path class=\"p3\" d=\"M5 5.5h6M13 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

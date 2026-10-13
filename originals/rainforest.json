@@ -1,0 +1,11 @@
+{
+  "name": "rainforest",
+  "category": "nature",
+  "tags": ["rainforest", "canopy", "jungle", "vines", "tropical"],
+  "svg": "<path class=\"p1\" d=\"M3 8c3-3 6-3 9 0 3-3 6-3 9 0\"/><path class=\"p2\" d=\"M5 14c2.5-2.5 5-2.5 7 0 2.5-2.5 4.5-2.5 7 0\"/><path class=\"p3\" d=\"M8 17v4M16 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 1000, "origin": "bottom" }
+  ]
+}

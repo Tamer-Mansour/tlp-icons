@@ -1,0 +1,11 @@
+{
+  "name": "ripple-rings",
+  "category": "shapes",
+  "tags": ["ripple", "ring", "wave", "signal", "pulse"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M7 12a5 5 0 0 1 10 0\"/><path class=\"p3\" d=\"M3 12a9 9 0 0 1 18 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

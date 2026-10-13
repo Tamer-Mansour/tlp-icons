@@ -1,0 +1,11 @@
+{
+  "name": "wood-plane",
+  "category": "tools",
+  "tags": ["plane", "woodwork", "smooth", "shaving", "carpentry"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"11\" width=\"16\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M6 11L9 7\"/><path class=\"p3\" d=\"M20 12c2-1 2-4 0-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

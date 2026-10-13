@@ -1,0 +1,10 @@
+{
+  "name": "outline-stroke",
+  "category": "design",
+  "tags": ["outline", "stroke", "fill", "shape", "border", "vector"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

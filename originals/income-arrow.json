@@ -1,0 +1,10 @@
+{
+  "name": "income-arrow",
+  "category": "charts",
+  "tags": ["income", "arrow", "coins", "money", "incoming", "earnings"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"17\" rx=\"7\" ry=\"2.5\"/><path class=\"p1\" d=\"M5 17V19.5C5 20.9 8.1 22 12 22S19 20.9 19 19.5V17\"/><path class=\"p2\" d=\"M12 3V11M8.5 7.5L12 11L15.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "discussion",
+  "category": "interface",
+  "tags": ["discussion", "chat", "bubbles", "conversation", "talk", "group"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3.5\" width=\"12\" height=\"9\" rx=\"2.5\"/><rect class=\"d p2\" x=\"9.5\" y=\"10.5\" width=\"12\" height=\"9\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 800 }
+  ]
+}

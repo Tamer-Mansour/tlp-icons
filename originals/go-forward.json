@@ -1,0 +1,10 @@
+{
+  "name": "go-forward",
+  "category": "interface",
+  "tags": ["forward", "next", "redo", "continue", "arrow", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M20 9h-9.5a5.5 5.5 0 0 0 0 11H14\"/><path class=\"p2\" d=\"M15 4l5 5-5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

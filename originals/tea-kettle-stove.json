@@ -1,0 +1,12 @@
+{
+  "name": "tea-kettle-stove",
+  "category": "home",
+  "tags": ["kettle", "tea", "stove", "burner", "flame", "hot"],
+  "svg": "<path class=\"d p1\" d=\"M7 4.5h10v3.5a3.5 3.5 0 0 1-3.5 3.5h-3A3.5 3.5 0 0 1 7 8z\"/><path class=\"p2\" d=\"M9.5 4.5a2.5 2.5 0 0 1 5 0\"/><path class=\"p3\" d=\"M5 14h14\"/><path class=\"p4\" d=\"M12 21.5c-2 0-3-1.5-3-3s1.2-2.5 1.5-4c.8 1 1.2 1.5 1.5 1.8c.5-1.8 1.5-2.5 1.5-4c1.5 1.5 2.5 3 2.5 5.5c0 1.8-1 3.7-3.5 3.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

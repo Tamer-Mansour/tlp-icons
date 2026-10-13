@@ -1,0 +1,10 @@
+{
+  "name": "ring-segments",
+  "category": "shapes",
+  "tags": ["ring", "segments", "donut", "sections", "split"],
+  "svg": "<path class=\"p1\" d=\"M19.5 14A8 8 0 0 1 14 19.5\"/><path class=\"p1\" d=\"M10 19.5A8 8 0 0 1 4.5 14\"/><path class=\"p2\" d=\"M4.5 10A8 8 0 0 1 10 4.5\"/><path class=\"p2\" d=\"M14 4.5A8 8 0 0 1 19.5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

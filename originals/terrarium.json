@@ -1,0 +1,11 @@
+{
+  "name": "terrarium",
+  "category": "home",
+  "tags": ["terrarium", "glass", "dome", "plant", "display", "jar"],
+  "svg": "<path class=\"p1\" d=\"M4 16a8 8 0 0 1 16 0\"/><rect class=\"d p2\" x=\"3\" y=\"16\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 16v-4M12 12c-2.5 0-3.5-1.5-3.5-3.5 2.5 0 3.5 1.5 3.5 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1200, "origin": "bottom" }
+  ]
+}

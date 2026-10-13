@@ -1,0 +1,11 @@
+{
+  "name": "go-kart",
+  "category": "vehicles",
+  "tags": ["kart", "racing", "cart", "race", "wheels", "karting"],
+  "svg": "<path class=\"p1\" d=\"M3 13 L7 9 L17 9 L20 13\"/><circle class=\"p2\" cx=\"6\" cy=\"17.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"17.5\" r=\"2.5\"/><circle class=\"d p3\" cx=\"13\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "abacus-counter",
+  "category": "interface",
+  "tags": ["abacus", "counter", "count", "beads", "math", "tally"],
+  "svg": "<path class=\"p1\" d=\"M7 3V21M17 3V21\"/><circle class=\"d p2\" cx=\"7\" cy=\"7\" r=\"2\"/><circle class=\"d p2\" cx=\"7\" cy=\"15\" r=\"2\"/><circle class=\"d p3\" cx=\"17\" cy=\"10\" r=\"2\"/><circle class=\"d p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 700 }
+  ]
+}

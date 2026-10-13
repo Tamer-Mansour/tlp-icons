@@ -1,0 +1,11 @@
+{
+  "name": "document-redacted",
+  "category": "security",
+  "tags": ["redact", "censor", "hidden", "document", "private"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h9l5 5v14H5z\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"8\" height=\"2\"/><rect class=\"p3\" x=\"8\" y=\"14\" width=\"8\" height=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

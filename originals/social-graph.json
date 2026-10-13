@@ -1,0 +1,12 @@
+{
+  "name": "social-graph",
+  "category": "people",
+  "tags": ["social", "graph", "network", "nodes", "relations", "connections"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><circle class=\"p2\" cx=\"5\" cy=\"18\" r=\"2.5\"/><circle class=\"p3\" cx=\"19\" cy=\"18\" r=\"2.5\"/><path class=\"p4\" d=\"M10.8 7.2L6.2 15.8M13.2 7.2L17.8 15.8M7.5 18h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p4", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1200 }
+  ]
+}

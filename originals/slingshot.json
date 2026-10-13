@@ -1,0 +1,11 @@
+{
+  "name": "slingshot",
+  "category": "sport",
+  "tags": ["slingshot", "catapult", "sling", "toy", "sport"],
+  "svg": "<path class=\"p1\" d=\"M6 4l5 6 5-6M11 10v9\"/><path class=\"p2\" d=\"M6 4L12 16M16 4L12 16\"/><ellipse class=\"d p3\" cx=\"12\" cy=\"17\" rx=\"2.5\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 800 }
+  ]
+}

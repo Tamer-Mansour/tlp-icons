@@ -1,0 +1,11 @@
+{
+  "name": "doc-pages",
+  "category": "files",
+  "tags": ["pages", "document", "stack", "sheets", "multi page"],
+  "svg": "<path class=\"p1\" d=\"M7 2h10l4 4v10\"/><rect class=\"d p2\" x=\"3\" y=\"7\" width=\"12\" height=\"14\" rx=\"1\"/><path class=\"p3\" d=\"M6 14h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

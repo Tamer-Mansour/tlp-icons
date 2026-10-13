@@ -1,0 +1,10 @@
+{
+  "name": "section-divider",
+  "category": "text",
+  "tags": ["section", "divider", "rule", "separator", "line"],
+  "svg": "<path class=\"p1\" d=\"M3 12H7M17 12H21\"/><polygon class=\"d p2\" points=\"12,9 15,12 12,15 9,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

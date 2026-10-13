@@ -1,0 +1,11 @@
+{
+  "name": "pizzeria",
+  "category": "buildings",
+  "tags": ["pizza", "slice", "pizzeria", "awning", "food", "italian"],
+  "svg": "<path class=\"p1\" d=\"M3 4 H21 L19 8 H5 Z\"/><path class=\"d p2\" d=\"M5 11 H19 L12 21 Z\"/><circle class=\"f p3\" cx=\"10\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"14\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "d-pad",
+  "category": "sport",
+  "tags": ["dpad", "controller", "arrows", "directional", "gamepad", "game"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6v6h6v6h-6v6H9v-6H3V9h6z\"/><path class=\"p2\" d=\"M12 6v2M12 16v2M6 12h2M16 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

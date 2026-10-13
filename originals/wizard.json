@@ -1,0 +1,10 @@
+{
+  "name": "wizard",
+  "category": "interface",
+  "tags": ["wizard", "steps", "flow", "onboarding", "setup", "guide"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"11\" y=\"4\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M4 16h16M16 13l4 3-4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bounceIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

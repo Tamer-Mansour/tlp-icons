@@ -1,0 +1,10 @@
+{
+  "name": "canal-boat",
+  "category": "vehicles",
+  "tags": ["canal", "boat", "narrowboat", "hull", "cabin"],
+  "svg": "<path class=\"d p1\" d=\"M2 15h20l-3 4H5z\"/><path class=\"p2\" d=\"M7 15V10h10v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 }
+  ]
+}

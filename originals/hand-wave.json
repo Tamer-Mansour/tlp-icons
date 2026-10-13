@@ -1,0 +1,10 @@
+{
+  "name": "hand-wave",
+  "category": "emoji",
+  "tags": ["hand", "wave", "greeting", "hello", "gesture"],
+  "svg": "<path class=\"p1\" d=\"M8 13V6a1.5 1.5 0 0 1 3 0v5V5a1.5 1.5 0 0 1 3 0v6V6.5a1.5 1.5 0 0 1 3 0V13a6 6 0 0 1-6 6h-.5a5 5 0 0 1-4.2-2.3L4.5 14.5a1.5 1.5 0 0 1 2.2-2L8 14\"/><path class=\"p2\" d=\"M4 4 2.5 2.5M20 4l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

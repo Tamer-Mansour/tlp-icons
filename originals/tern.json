@@ -1,0 +1,11 @@
+{
+  "name": "tern",
+  "category": "nature",
+  "tags": ["tern", "seabird", "bird", "coast", "flight"],
+  "svg": "<path class=\"d p1\" d=\"M7 12Q12 10 17 12Q12 14 7 12Z\"/><path class=\"p2\" d=\"M4 6Q9 10 12 11Q15 10 20 6\"/><path class=\"p3\" d=\"M7 12L3 9L5 12L3 15Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

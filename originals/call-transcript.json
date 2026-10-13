@@ -1,0 +1,11 @@
+{
+  "name": "call-transcript",
+  "category": "communication",
+  "tags": ["call notes", "transcript", "voice to text", "call log", "telephone"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4.5h2.5l1 3-1.5 1c.7 1.5 1.8 2.6 3.2 3.2l1-1.5 3 1v2.5c-4.5 0-8.2-3.7-8.2-8.2z\"/><path class=\"p2 d\" d=\"M12.5 3.5h7.5v17h-7.5z\"/><path class=\"p3\" d=\"M15.5 8h4M15.5 11.5h4M15.5 15h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

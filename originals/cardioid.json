@@ -1,0 +1,10 @@
+{
+  "name": "cardioid",
+  "category": "math",
+  "tags": ["cardioid", "heart", "cusp", "curve", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M12 8C10 4 4 4 4 9.5C4 13 8 16 12 20C16 16 20 13 20 9.5C20 4 14 4 12 8Z\"/><path class=\"p2\" d=\"M8 9C8 7.5 9 7 10 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

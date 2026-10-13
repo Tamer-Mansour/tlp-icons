@@ -1,0 +1,11 @@
+{
+  "name": "waveform-bars",
+  "category": "interface",
+  "tags": ["waveform", "audio", "bars", "sound", "equalizer", "voice"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"9\" x2=\"4\" y2=\"15\"/><line class=\"p2\" x1=\"8\" y1=\"6\" x2=\"8\" y2=\"18\"/><line class=\"p3\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><line class=\"p2\" x1=\"16\" y1=\"7\" x2=\"16\" y2=\"17\"/><line class=\"p1\" x1=\"20\" y1=\"10\" x2=\"20\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "origin": "bottom", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "bottom", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "equalize", "origin": "bottom", "dur": 900, "delay": 500 }
+  ]
+}

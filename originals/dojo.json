@@ -1,0 +1,11 @@
+{
+  "name": "dojo",
+  "category": "buildings",
+  "tags": ["dojo", "martial", "arts", "torii", "training"],
+  "svg": "<path class=\"p1\" d=\"M2 5h20\"/><path class=\"p2\" d=\"M5 10h14M7 7v12M17 7v12\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

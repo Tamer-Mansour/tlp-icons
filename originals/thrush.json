@@ -1,0 +1,11 @@
+{
+  "name": "thrush",
+  "category": "nature",
+  "tags": ["thrush", "bird", "songbird", "spotted", "woodland"],
+  "svg": "<path class=\"d p1\" d=\"M7 9 Q5 14 8 18 Q11 20 14 18 Q18 15 17 10 Q14 7 7 9 Z\"/><circle class=\"p2\" cx=\"16\" cy=\"7\" r=\"2.5\"/><g class=\"p3\"><circle class=\"f\" cx=\"9\" cy=\"13\" r=\"0.9\"/><circle class=\"f\" cx=\"12\" cy=\"13\" r=\"0.9\"/><circle class=\"f\" cx=\"10.5\" cy=\"16\" r=\"0.9\"/><circle class=\"f\" cx=\"13.5\" cy=\"16\" r=\"0.9\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sugar-bowl",
+  "category": "food",
+  "tags": ["sugar", "bowl", "lid", "kitchen", "food"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 H19 Q19 19 16 20 H8 Q5 19 5 11 Z\"/><rect class=\"p2\" x=\"4\" y=\"9\" width=\"16\" height=\"2\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"5.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

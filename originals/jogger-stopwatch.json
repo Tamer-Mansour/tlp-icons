@@ -1,0 +1,12 @@
+{
+  "name": "jogger-stopwatch",
+  "category": "people",
+  "tags": ["jogger", "stopwatch", "running", "timer", "run", "fitness"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M10 3 H14 M12 3 V6\"/><line class=\"p3\" x1=\"12\" y1=\"13\" x2=\"15\" y2=\"10\"/><path class=\"p4\" d=\"M3 9.5 A9.5 9.5 0 0 0 4 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 13px" },
+    { "part": "p4", "anim": "dash", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pod",
+  "category": "nature",
+  "tags": ["pod", "pea", "seed", "vegetable", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M3 12Q3 7 12 7Q21 7 21 12Q21 17 12 17Q3 17 3 12Z\"/><path class=\"p2\" d=\"M5 12H19\"/><circle class=\"f p3\" cx=\"8\" cy=\"9.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"9.5\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

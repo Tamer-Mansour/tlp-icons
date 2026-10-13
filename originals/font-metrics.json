@@ -1,0 +1,11 @@
+{
+  "name": "font-metrics",
+  "category": "text",
+  "tags": ["font", "metrics", "ascender", "baseline", "typography"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"4\" x2=\"22\" y2=\"4\"/><line class=\"p2\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/><path class=\"p3\" d=\"M6.5 20L12 8L17.5 20M8.5 15.5H15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

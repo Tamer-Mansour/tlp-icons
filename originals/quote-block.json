@@ -1,0 +1,11 @@
+{
+  "name": "quote-block",
+  "category": "interface",
+  "tags": ["quote", "blockquote", "citation", "text", "reference", "bar"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"4\" x2=\"3\" y2=\"20\"/><line class=\"p2\" x1=\"8\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p3\" x1=\"8\" y1=\"15\" x2=\"17\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

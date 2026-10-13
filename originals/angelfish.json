@@ -1,0 +1,13 @@
+{
+  "name": "angelfish",
+  "category": "nature",
+  "tags": ["angelfish", "fish", "tropical", "triangular fins", "reef", "animal"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M9 7L11 2.5L13.5 7\"/><path class=\"p3\" d=\"M9 17L11 21.5L13.5 17\"/><path class=\"p4\" d=\"M17 12L21 9V15Z\"/><circle class=\"f p5\" cx=\"8.5\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p5", "anim": "popIn", "dur": 300, "delay": 1100 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1200, "origin": "17px 12px" }
+  ]
+}

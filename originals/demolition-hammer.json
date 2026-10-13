@@ -1,0 +1,11 @@
+{
+  "name": "demolition-hammer",
+  "category": "tools",
+  "tags": ["demolition", "hammer", "chisel", "breaker", "heavy", "concrete"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"7\" width=\"10\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M2 9.5h5\"/><path class=\"p3\" d=\"M12 12v6.5h5v-6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

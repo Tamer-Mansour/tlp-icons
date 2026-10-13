@@ -1,0 +1,11 @@
+{
+  "name": "stand-mixer",
+  "category": "home",
+  "tags": ["mixer", "stand", "baking", "dough", "kitchen", "bowl"],
+  "svg": "<path class=\"d p1\" d=\"M4 13H20A8 6 0 0 1 4 13Z\"/><rect class=\"p2\" x=\"7\" y=\"3\" width=\"10\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M12 7V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 900, "delay": 1100 }
+  ]
+}

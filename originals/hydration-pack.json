@@ -1,0 +1,11 @@
+{
+  "name": "hydration-pack",
+  "category": "sport",
+  "tags": ["hydration", "pack", "backpack", "water", "tube", "bladder"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"13\" rx=\"4\"/><path class=\"p2\" d=\"M9 8V6A3 3 0 0 1 15 6V8\"/><path class=\"p3\" d=\"M18 12H20.5V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

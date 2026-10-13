@@ -1,0 +1,10 @@
+{
+  "name": "phone-vibrate",
+  "category": "communication",
+  "tags": ["phone", "vibrate", "vibration", "silent", "buzz", "mobile"],
+  "svg": "<path class=\"p1\" d=\"M8 3H11L12.5 6.5L10.8 7.8A8 8 0 0 0 14.4 11.4L15.7 9.7L19 11V14A2 2 0 0 1 17 16A14 14 0 0 1 6 5A2 2 0 0 1 8 3Z\"/><path class=\"p2\" d=\"M4.5 9.5A3 3 0 0 0 4.5 14.5M19.5 9.5A3 3 0 0 1 19.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 600, "delay": 900 }
+  ]
+}

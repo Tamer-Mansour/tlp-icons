@@ -1,0 +1,11 @@
+{
+  "name": "mic-boom",
+  "category": "media",
+  "tags": ["microphone", "boom", "arm", "studio", "recording", "audio"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"5\" height=\"9\" rx=\"2.5\"/><path class=\"p2\" d=\"M3 9Q3 14 7.5 14Q12 14 12 9\"/><line class=\"p3\" x1=\"7.5\" y1=\"14\" x2=\"18\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "7.5px 14px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "direction-rtl",
+  "category": "arrows",
+  "tags": ["direction", "rtl", "right to left", "text", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M21 8H5\"/><polyline class=\"p1\" points=\"9 4 5 8 9 12\"/><line class=\"p2\" x1=\"12\" y1=\"16\" x2=\"21\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400, "origin": "right" }
+  ]
+}

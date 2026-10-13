@@ -1,0 +1,10 @@
+{
+  "name": "eject-disc",
+  "category": "media",
+  "tags": ["eject", "disc", "cd", "arrow", "drive"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M12 2L16 6H8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 700 }
+  ]
+}

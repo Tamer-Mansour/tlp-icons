@@ -1,0 +1,10 @@
+{
+  "name": "rank-down",
+  "category": "arrows",
+  "tags": ["rank", "down", "steps", "drop", "bars", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"13\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"8\" y=\"10\" width=\"4\" height=\"11\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"9\" width=\"4\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M20 3v7M18 8l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 800 }
+  ]
+}

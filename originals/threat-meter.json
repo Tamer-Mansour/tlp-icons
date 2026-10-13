@@ -1,0 +1,11 @@
+{
+  "name": "threat-meter",
+  "category": "security",
+  "tags": ["threat", "meter", "gauge", "danger", "level", "warning"],
+  "svg": "<path class=\"p1\" d=\"M3 16a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 16l4-4\"/><circle class=\"f p3\" cx=\"18.36\" cy=\"9.64\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1200 }
+  ]
+}

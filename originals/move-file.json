@@ -1,0 +1,10 @@
+{
+  "name": "move-file",
+  "category": "files",
+  "tags": ["move", "transfer", "arrow", "file", "relocate"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3.5\" width=\"10\" height=\"17\" rx=\"2\"/><line class=\"p2\" x1=\"14\" y1=\"12\" x2=\"21\" y2=\"12\"/><polyline class=\"p2\" points=\"17.5 8.5 21 12 17.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

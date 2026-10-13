@@ -1,0 +1,11 @@
+{
+  "name": "vault-room",
+  "category": "buildings",
+  "tags": ["vault", "safe", "door", "dial", "bank", "lock"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3 V6 M12 18 V21 M3 12 H6 M18 12 H21\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000 }
+  ]
+}

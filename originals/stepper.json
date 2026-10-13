@@ -1,0 +1,11 @@
+{
+  "name": "stepper",
+  "category": "interface",
+  "tags": ["stepper", "steps", "progress", "wizard", "sequence"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"p3\" cx=\"19\" cy=\"12\" r=\"2.5\"/><line class=\"p1\" x1=\"7.5\" y1=\"12\" x2=\"9.5\" y2=\"12\"/><line class=\"p3\" x1=\"14.5\" y1=\"12\" x2=\"16.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

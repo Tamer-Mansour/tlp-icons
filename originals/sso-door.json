@@ -1,0 +1,11 @@
+{
+  "name": "sso-door",
+  "category": "security",
+  "tags": ["sso", "door", "single", "sign", "on", "access"],
+  "svg": "<path class=\"p1\" d=\"M4 21V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v17\"/><path class=\"p1\" d=\"M2 21h20\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"13\" r=\"1\"/><path class=\"p2\" d=\"M10 12h10M17.5 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

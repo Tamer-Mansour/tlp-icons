@@ -1,0 +1,10 @@
+{
+  "name": "data-broom",
+  "category": "charts",
+  "tags": ["broom", "sweep", "cleanup", "bars", "data"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"12\" width=\"3\" height=\"8\"/><rect class=\"p1\" x=\"6\" y=\"8\" width=\"3\" height=\"12\"/><path class=\"p2\" d=\"M20 3l-5 9M12 13h7l-2 7h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 500, "origin": "15px 13px" }
+  ]
+}

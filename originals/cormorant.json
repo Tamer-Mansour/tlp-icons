@@ -1,0 +1,11 @@
+{
+  "name": "cormorant",
+  "category": "nature",
+  "tags": ["cormorant", "bird", "diver", "waves", "water"],
+  "svg": "<path class=\"d p1\" d=\"M4 16Q6 13 11 13H15Q17 13 17 16Q15 17.5 4 16Z\"/><path class=\"p2\" d=\"M15 13Q15 6 17 4\"/><circle class=\"p2\" cx=\"18\" cy=\"4\" r=\"1.8\"/><path class=\"p2\" d=\"M19.5 3L21.5 4.5L19.5 5\"/><path class=\"p3\" d=\"M2 20Q5 18 8 20Q11 22 14 20Q17 18 20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1400, "delay": 1000 }
+  ]
+}

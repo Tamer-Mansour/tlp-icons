@@ -1,0 +1,11 @@
+{
+  "name": "cascade-down",
+  "category": "arrows",
+  "tags": ["cascade", "stairs", "steps", "descend", "arrows"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"10\" width=\"11\" height=\"5\" rx=\"1\"/><rect class=\"p3\" x=\"11\" y=\"17\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kite-symbol",
+  "category": "emoji",
+  "tags": ["kite", "flying", "wind", "diamond", "summer", "toy"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L20 10 L12 17 L4 10 Z\"/><line class=\"p2\" x1=\"4\" y1=\"10\" x2=\"20\" y2=\"10\"/><path class=\"p3\" d=\"M12 17 C9 18 15 19 12 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1100, "origin": "12px 17px" }
+  ]
+}

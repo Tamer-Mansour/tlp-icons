@@ -1,0 +1,11 @@
+{
+  "name": "ship-helm",
+  "category": "vehicles",
+  "tags": ["helm", "ship", "wheel", "steering", "boat", "navigation"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M12 4V10M12 14V20M4 12H10M14 12H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

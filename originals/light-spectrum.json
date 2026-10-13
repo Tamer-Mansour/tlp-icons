@@ -1,0 +1,11 @@
+{
+  "name": "light-spectrum",
+  "category": "science",
+  "tags": ["spectrum", "prism", "light", "rainbow", "optics"],
+  "svg": "<path class=\"d p1\" d=\"M7 15 L12 6 L17 15 Z\"/><path class=\"p2\" d=\"M2 12.5 H8.4\"/><path class=\"p3\" d=\"M15.6 12.5 L22 6 M15.6 12.5 L22 10 M15.6 12.5 L22 14 M15.6 12.5 L22 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "fadeIn", "dur": 700, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "surveying-rod",
+  "category": "tools",
+  "tags": ["survey", "rod", "level", "measure", "graduated", "target"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/><path class=\"p2\" d=\"M8 11h8M8 15h8M8 19h8\"/><rect class=\"d p3\" x=\"7\" y=\"2\" width=\"10\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

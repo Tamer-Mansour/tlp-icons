@@ -1,0 +1,11 @@
+{
+  "name": "compact-disc",
+  "category": "media",
+  "tags": ["compact disc", "cd", "disc", "music", "album", "optical"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M6.5 8.5a7 7 0 0 1 4-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

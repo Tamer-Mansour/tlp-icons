@@ -1,0 +1,11 @@
+{
+  "name": "paddleball",
+  "category": "sport",
+  "tags": ["paddle", "ball", "elastic", "racket", "game"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"4.5\" ry=\"5.5\"/><path class=\"p2\" d=\"M12 15.5V21\"/><path class=\"p3\" d=\"M12 4.5Q16 1.5 19 6.5\"/><circle class=\"f p3\" cx=\"19\" cy=\"6.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 900, "origin": "19px 6px" }
+  ]
+}

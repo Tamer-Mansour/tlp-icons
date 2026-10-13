@@ -1,0 +1,11 @@
+{
+  "name": "text-reflow",
+  "category": "text",
+  "tags": ["reflow", "wrap", "text", "narrow", "arrows", "layout", "flow"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3.5\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M12 9.5v3M10.5 11l1.5 1.5 1.5-1.5\"/><rect class=\"p3\" x=\"6\" y=\"15\" width=\"12\" height=\"5.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

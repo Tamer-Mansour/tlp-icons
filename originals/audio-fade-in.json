@@ -1,0 +1,10 @@
+{
+  "name": "audio-fade-in",
+  "category": "media",
+  "tags": ["fade", "in", "audio", "envelope", "volume", "start"],
+  "svg": "<path class=\"p1\" d=\"M6 11v2M10 9v6M14 6v12M18 4v16\"/><line class=\"p2\" x1=\"3\" y1=\"19\" x2=\"20\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

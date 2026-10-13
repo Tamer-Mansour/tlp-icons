@@ -1,0 +1,10 @@
+{
+  "name": "suspension-spring",
+  "category": "vehicles",
+  "tags": ["suspension", "spring", "shock", "coil", "absorber"],
+  "svg": "<path class=\"p1\" d=\"M8 6l8 2-8 2 8 2-8 2 8 2-8 2 8 2\"/><path class=\"p2\" d=\"M12 2v20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "stretch", "dur": 900, "delay": 600 }
+  ]
+}

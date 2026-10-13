@@ -1,0 +1,11 @@
+{
+  "name": "location-ping",
+  "category": "connectivity",
+  "tags": ["location", "ping", "pin", "pulse", "gps", "signal"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5 A5 5 0 0 1 17 7.5 C17 11 12 15.5 12 15.5 C12 15.5 7 11 7 7.5 A5 5 0 0 1 12 2.5 Z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"20\" rx=\"4\" ry=\"1\"/><ellipse class=\"p3\" cx=\"12\" cy=\"20\" rx=\"9\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 1000 }
+  ]
+}

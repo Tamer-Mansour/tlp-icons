@@ -1,0 +1,11 @@
+{
+  "name": "audience-chat",
+  "category": "communication",
+  "tags": ["audience", "chat", "crowd", "people", "live", "questions"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"11\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M6 12v3l3-3\"/><circle class=\"p3\" cx=\"16\" cy=\"8\" r=\"1.5\"/><circle class=\"p3\" cx=\"19\" cy=\"8\" r=\"1.5\"/><circle class=\"p3\" cx=\"17.5\" cy=\"13.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 700, "delay": 800 }
+  ]
+}

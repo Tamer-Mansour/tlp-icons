@@ -1,0 +1,11 @@
+{
+  "name": "keyboard-shortcut",
+  "category": "development",
+  "tags": ["keyboard", "shortcut", "key", "hotkey", "plus", "combo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"6\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M11 12h2M12 11v2\"/><rect class=\"p3\" x=\"15\" y=\"9\" width=\"6\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 800 }
+  ]
+}

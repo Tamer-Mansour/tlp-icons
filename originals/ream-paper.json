@@ -1,0 +1,11 @@
+{
+  "name": "ream-paper",
+  "category": "files",
+  "tags": ["ream", "paper", "stack", "sheets", "band", "office"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"14\" height=\"13\" rx=\"1\"/><rect class=\"d p2\" x=\"7\" y=\"7\" width=\"14\" height=\"13\" rx=\"1\"/><line class=\"p3\" x1=\"7\" y1=\"13\" x2=\"21\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1000 }
+  ]
+}

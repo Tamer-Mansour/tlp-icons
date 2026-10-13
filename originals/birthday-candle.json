@@ -1,0 +1,11 @@
+{
+  "name": "birthday-candle",
+  "category": "food",
+  "tags": ["candle", "birthday", "flame", "party", "celebrate"],
+  "svg": "<path class=\"d p1\" d=\"M9 11 H15 V21 H9 Z\"/><path class=\"p2\" d=\"M12 8.5 V11\"/><path class=\"p3\" d=\"M12 3 Q14.5 6 12 6.5 Q9.5 6 12 3 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

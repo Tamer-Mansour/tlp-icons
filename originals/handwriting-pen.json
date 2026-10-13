@@ -1,0 +1,10 @@
+{
+  "name": "handwriting-pen",
+  "category": "text",
+  "tags": ["handwriting", "pen", "write", "signature", "nib"],
+  "svg": "<path class=\"p1\" d=\"M15 4.5l4.5 4.5L9.5 19H5v-4.5z\"/><path class=\"p2\" d=\"M3 21q2.25-1.5 4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 800 }
+  ]
+}

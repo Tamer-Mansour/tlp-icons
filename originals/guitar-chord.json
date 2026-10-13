@@ -1,0 +1,12 @@
+{
+  "name": "guitar-chord",
+  "category": "media",
+  "tags": ["guitar", "chord", "diagram", "fretboard", "strings", "music"],
+  "svg": "<path class=\"p1\" d=\"M6 11V20M10 11V20M14 11V20M18 11V20\"/><line class=\"p2\" x1=\"4\" y1=\"7\" x2=\"20\" y2=\"7\"/><circle class=\"f p3\" cx=\"10\" cy=\"14\" r=\"1.6\"/><circle class=\"f p4\" cx=\"14\" cy=\"17.5\" r=\"1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

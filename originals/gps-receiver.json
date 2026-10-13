@@ -1,0 +1,11 @@
+{
+  "name": "gps-receiver",
+  "category": "devices",
+  "tags": ["gps", "location", "map", "pin", "navigation"],
+  "svg": "<path class=\"d p1\" d=\"M12 20s-5-4.5-5-9a5 5 0 0 1 10 0c0 4.5-5 9-5 9z\"/><circle class=\"p3\" cx=\"12\" cy=\"11\" r=\"2\"/><path class=\"p2\" d=\"M9 4a4 4 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

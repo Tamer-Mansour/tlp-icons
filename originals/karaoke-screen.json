@@ -1,0 +1,12 @@
+{
+  "name": "karaoke-screen",
+  "category": "media",
+  "tags": ["karaoke", "singing", "lyrics", "screen", "music"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"8\" x2=\"18\" y2=\"8\"/><line class=\"p3\" x1=\"6\" y1=\"12.5\" x2=\"13\" y2=\"12.5\"/><line class=\"p4\" x1=\"9\" y1=\"21\" x2=\"15\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "refill", "dur": 900, "delay": 1000, "origin": "left" },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1500 }
+  ]
+}

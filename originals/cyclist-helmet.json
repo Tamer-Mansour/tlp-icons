@@ -1,0 +1,11 @@
+{
+  "name": "cyclist-helmet",
+  "category": "people",
+  "tags": ["cyclist", "helmet", "bike", "cycling", "vents", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M4 15 A8 8 0 0 1 20 15 Z\"/><path class=\"p2\" d=\"M8 12 H11 M13 10 H15\"/><path class=\"p3\" d=\"M8 15 Q12 20 16 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1200 }
+  ]
+}

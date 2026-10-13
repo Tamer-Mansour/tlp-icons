@@ -1,0 +1,10 @@
+{
+  "name": "jam-spoon",
+  "category": "food",
+  "tags": ["jam", "spoon", "dollop", "serve", "kitchen"],
+  "svg": "<ellipse class=\"d p1\" cx=\"14\" cy=\"11\" rx=\"4\" ry=\"3\"/><line class=\"p1\" x1=\"11\" y1=\"13.5\" x2=\"5\" y2=\"19.5\"/><path class=\"p2\" d=\"M11 9 Q14 3.5 17 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

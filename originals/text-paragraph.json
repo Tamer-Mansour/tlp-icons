@@ -1,0 +1,10 @@
+{
+  "name": "text-paragraph",
+  "category": "text",
+  "tags": ["paragraph", "pilcrow", "text", "lines", "format"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p1\" x1=\"3\" y1=\"13\" x2=\"21\" y2=\"13\"/><line class=\"p1\" x1=\"3\" y1=\"17\" x2=\"21\" y2=\"17\"/><line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M20 2h-3.5a2.5 2.5 0 0 0 0 5H17V2M20 2v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

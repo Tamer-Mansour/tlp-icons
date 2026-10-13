@@ -1,0 +1,10 @@
+{
+  "name": "network-hops",
+  "category": "connectivity",
+  "tags": ["network", "hops", "traceroute", "routers", "relay", "path"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"17\" r=\"2\"/><circle class=\"p1\" cx=\"12\" cy=\"7\" r=\"2\"/><circle class=\"p1\" cx=\"20\" cy=\"17\" r=\"2\"/><path class=\"p2\" d=\"M5.56 15.05L10.44 8.95M13.56 8.95L18.44 15.05\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

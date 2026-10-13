@@ -1,0 +1,11 @@
+{
+  "name": "rye-grain",
+  "category": "nature",
+  "tags": ["rye", "grain", "wheat", "stalk", "harvest"],
+  "svg": "<path class=\"p1\" d=\"M12 22 V8\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"5\" rx=\"2\" ry=\"3\"/><ellipse class=\"p3\" cx=\"8.5\" cy=\"11\" rx=\"1.8\" ry=\"2.6\" transform=\"rotate(-25 8.5 11)\"/><ellipse class=\"p3\" cx=\"15.5\" cy=\"11\" rx=\"1.8\" ry=\"2.6\" transform=\"rotate(25 15.5 11)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 22px" }
+  ]
+}

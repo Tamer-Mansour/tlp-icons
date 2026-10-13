@@ -1,0 +1,11 @@
+{
+  "name": "pet-brush",
+  "category": "nature",
+  "tags": ["pet", "brush", "grooming", "comb", "fur", "care"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"2\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"7\" y=\"10\" width=\"10\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M9 16v5M13 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1200 }
+  ]
+}

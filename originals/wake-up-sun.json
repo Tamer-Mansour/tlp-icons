@@ -1,0 +1,11 @@
+{
+  "name": "wake-up-sun",
+  "category": "time",
+  "tags": ["wake", "sunrise", "morning", "dawn", "rise", "day"],
+  "svg": "<path class=\"d p1\" d=\"M7 17a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M3 17h18\"/><path class=\"p3\" d=\"M12 7.5v2M5.3 10.3l1.4 1.4M18.7 10.3l-1.4 1.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

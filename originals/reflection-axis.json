@@ -1,0 +1,11 @@
+{
+  "name": "reflection-axis",
+  "category": "math",
+  "tags": ["reflection", "axis", "mirror", "symmetry", "line", "geometry"],
+  "svg": "<path class=\"p1\" d=\"M12 3V21\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"2\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "road-works",
+  "category": "vehicles",
+  "tags": ["road", "works", "construction", "cone", "shovel"],
+  "svg": "<path class=\"d p1\" d=\"M10 4H14L18.5 19H5.5Z\"/><path class=\"p2\" d=\"M3 21H21\"/><path class=\"p3\" d=\"M7.5 13.5H16.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

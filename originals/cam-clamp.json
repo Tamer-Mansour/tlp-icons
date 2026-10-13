@@ -1,0 +1,11 @@
+{
+  "name": "cam-clamp",
+  "category": "tools",
+  "tags": ["cam", "clamp", "lock", "lever", "bar"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"10\" width=\"20\" height=\"4\" rx=\"1\"/><circle class=\"d p3\" cx=\"8\" cy=\"12\" r=\"2\"/><line class=\"p2\" x1=\"8\" y1=\"10\" x2=\"5\" y2=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 1000, "origin": "8px 12px" }
+  ]
+}

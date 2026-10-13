@@ -1,0 +1,10 @@
+{
+  "name": "text-case-lower",
+  "category": "design",
+  "tags": ["lowercase", "text", "case", "letters", "small"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"14.5\" r=\"2.5\"/><line class=\"p1\" x1=\"9\" y1=\"12\" x2=\"9\" y2=\"17\"/><path class=\"p2\" d=\"M17.5 7V17M14.5 14L17.5 17L20.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 1000 }
+  ]
+}

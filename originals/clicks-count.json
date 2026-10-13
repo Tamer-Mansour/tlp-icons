@@ -1,0 +1,10 @@
+{
+  "name": "clicks-count",
+  "category": "charts",
+  "tags": ["clicks", "count", "pointer", "tally", "taps", "metrics"],
+  "svg": "<path class=\"d p1\" d=\"M5 3L10.5 19L12.5 13.5L18 11.5Z\"/><path class=\"p2\" d=\"M15.5 4V9M18 4V9M20.5 4V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

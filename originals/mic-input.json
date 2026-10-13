@@ -1,0 +1,11 @@
+{
+  "name": "mic-input",
+  "category": "development",
+  "tags": ["mic", "microphone", "voice", "audio", "input"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 0 12 0M12 17v4\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 700 },
+    { "part": "p1", "anim": "buzz", "dur": 500, "delay": 1200 }
+  ]
+}

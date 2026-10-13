@@ -1,0 +1,11 @@
+{
+  "name": "help-desk",
+  "category": "communication",
+  "tags": ["help", "desk", "support", "monitor", "service", "headset"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"12.5\" rx=\"2\"/><path class=\"p2\" d=\"M12 16v3.5M8 19.5h8\"/><path class=\"p3\" d=\"M8.5 11V10a3.5 3.5 0 0 1 7 0v1\"/><rect class=\"p3\" x=\"7\" y=\"11\" width=\"2.5\" height=\"3.5\" rx=\"1\"/><rect class=\"p3\" x=\"14.5\" y=\"11\" width=\"2.5\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

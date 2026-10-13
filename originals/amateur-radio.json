@@ -1,0 +1,11 @@
+{
+  "name": "amateur-radio",
+  "category": "connectivity",
+  "tags": ["amateur", "radio", "ham", "antenna", "transceiver", "wave"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M11 11L19 3\"/><path class=\"p3\" d=\"M5.5 15Q7 12.5 8.5 15T11.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

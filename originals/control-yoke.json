@@ -1,0 +1,11 @@
+{
+  "name": "control-yoke",
+  "category": "vehicles",
+  "tags": ["yoke", "aircraft", "control", "flight", "plane", "cockpit"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"10.5\" x2=\"20\" y2=\"10.5\"/><rect class=\"d p2\" x=\"2.5\" y=\"10.5\" width=\"4\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"17.5\" y=\"10.5\" width=\"4\" height=\"7\" rx=\"2\"/><line class=\"p3\" x1=\"12\" y1=\"10.5\" x2=\"12\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 900 }
+  ]
+}

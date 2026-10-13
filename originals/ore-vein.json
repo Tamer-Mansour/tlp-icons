@@ -1,0 +1,11 @@
+{
+  "name": "ore-vein",
+  "category": "science",
+  "tags": ["ore", "vein", "mineral", "rock", "mining", "geology"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"3\"/><path class=\"p2\" d=\"M5 13C8 10 10 15 13 12S18 9 19 10\"/><circle class=\"f p3\" cx=\"8\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 600, "delay": 1200 }
+  ]
+}

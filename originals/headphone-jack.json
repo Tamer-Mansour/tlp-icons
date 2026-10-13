@@ -1,0 +1,11 @@
+{
+  "name": "headphone-jack",
+  "category": "devices",
+  "tags": ["headphone", "jack", "plug", "audio", "earphone", "connector"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M6 7v10M9 7v10M12 7v10\"/><path class=\"p3\" d=\"M15 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

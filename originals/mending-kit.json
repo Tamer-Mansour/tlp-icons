@@ -1,0 +1,11 @@
+{
+  "name": "mending-kit",
+  "category": "home",
+  "tags": ["mending", "kit", "spool", "needle", "patch", "repair"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M5 6h14M5 18h14\"/><path class=\"p3\" d=\"M18 3l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

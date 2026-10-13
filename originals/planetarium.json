@@ -1,0 +1,11 @@
+{
+  "name": "planetarium",
+  "category": "buildings",
+  "tags": ["planetarium", "dome", "stars", "sky", "astronomy"],
+  "svg": "<path class=\"d p1\" d=\"M3 18a9 9 0 0 1 18 0z\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"13\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"14\" r=\"1\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

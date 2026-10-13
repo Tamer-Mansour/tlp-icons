@@ -1,0 +1,11 @@
+{
+  "name": "ball-cart",
+  "category": "sport",
+  "tags": ["cart", "basket", "balls", "wheels", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M5 6H20L18 15H7Z\"/><path class=\"p2\" d=\"M2 4.5H5\"/><circle class=\"p3\" cx=\"9.5\" cy=\"10\" r=\"1.5\"/><circle class=\"p3\" cx=\"14.5\" cy=\"10\" r=\"1.5\"/><circle class=\"p4\" cx=\"8\" cy=\"19\" r=\"1.5\"/><circle class=\"p4\" cx=\"16\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

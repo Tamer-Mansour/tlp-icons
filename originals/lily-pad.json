@@ -1,0 +1,10 @@
+{
+  "name": "lily-pad",
+  "category": "nature",
+  "tags": ["lily pad", "lily", "water", "pond", "leaf", "floating"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"9\" ry=\"5\"/><path class=\"p2\" d=\"M3 20 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

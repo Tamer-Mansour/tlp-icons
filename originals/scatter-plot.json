@@ -1,0 +1,11 @@
+{
+  "name": "scatter-plot",
+  "category": "science",
+  "tags": ["scatter", "plot", "data", "chart", "statistics"],
+  "svg": "<path class=\"p1\" d=\"M4 3 V20 H21\"/><circle class=\"f p2\" cx=\"8\" cy=\"15\" r=\"1.2\"/><circle class=\"f p2\" cx=\"13\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"8\" r=\"1.2\"/><line class=\"p3\" x1=\"6\" y1=\"17\" x2=\"19\" y2=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

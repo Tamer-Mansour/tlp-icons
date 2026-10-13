@@ -1,0 +1,10 @@
+{
+  "name": "barrier-warning",
+  "category": "notifications",
+  "tags": ["barrier", "warning", "road", "closed", "caution"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"4\" rx=\"1\"/><path class=\"p1\" d=\"M5 10v11M19 10v11M3 21h4M17 21h4\"/><path class=\"p2\" d=\"M12 13.5v4\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "quarantine-box",
+  "category": "security",
+  "tags": ["quarantine", "box", "warning", "isolate", "danger", "dashed"],
+  "svg": "<path class=\"p1\" d=\"M6 4H10M14 4H18M20 6V10M20 14V18M18 20H14M10 20H6M4 18V14M4 10V6\"/><path class=\"p2\" d=\"M12 8V13\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

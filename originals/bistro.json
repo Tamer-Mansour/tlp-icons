@@ -1,0 +1,11 @@
+{
+  "name": "bistro",
+  "category": "buildings",
+  "tags": ["bistro", "table", "chair", "cloche", "cafe"],
+  "svg": "<path class=\"p1\" d=\"M4 14H20M12 14V21\"/><path class=\"p2\" d=\"M8 14A4 4 0 0 1 16 14\"/><path class=\"p3\" d=\"M3 10V15M21 10V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

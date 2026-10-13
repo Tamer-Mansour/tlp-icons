@@ -1,0 +1,10 @@
+{
+  "name": "jack-stands",
+  "category": "tools",
+  "tags": ["jack", "stands", "support", "lift", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M7 8L3 20H11Z\"/><path class=\"d p1\" d=\"M17 8L13 20H21Z\"/><line class=\"p2\" x1=\"6\" y1=\"11\" x2=\"18\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

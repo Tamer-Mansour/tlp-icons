@@ -1,0 +1,10 @@
+{
+  "name": "frequency-cycle",
+  "category": "math",
+  "tags": ["frequency", "cycle", "wave", "repeat", "hertz", "math"],
+  "svg": "<path class=\"p1\" d=\"M2 12Q4.5 7 7 12T12 12T17 12T22 12\"/><path class=\"p2\" d=\"M7 4V20M17 4V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 1000 }
+  ]
+}

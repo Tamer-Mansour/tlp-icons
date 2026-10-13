@@ -1,0 +1,10 @@
+{
+  "name": "lazy-load",
+  "category": "development",
+  "tags": ["lazy", "load", "defer", "on demand", "fetch", "async"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"13\" width=\"18\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M12 3v7M8.5 7.5L12 11l3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 900, "delay": 700 }
+  ]
+}

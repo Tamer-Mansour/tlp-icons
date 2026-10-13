@@ -1,0 +1,11 @@
+{
+  "name": "history-timeline",
+  "category": "development",
+  "tags": ["history", "timeline", "versions", "log", "events", "dates"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V21\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M16 6 H20 M16 12 H20 M16 18 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "top" },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

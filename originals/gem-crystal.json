@@ -1,0 +1,11 @@
+{
+  "name": "gem-crystal",
+  "category": "science",
+  "tags": ["gem", "crystal", "diamond", "mineral", "faceted"],
+  "svg": "<path class=\"d p1\" d=\"M6 3 H18 L22 9 L12 21 L2 9 Z\"/><path class=\"p2\" d=\"M2 9 H22 M8.5 9 L12 21 L15.5 9\"/><path class=\"p3\" d=\"M6 6.5 L8 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1400 }
+  ]
+}

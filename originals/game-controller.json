@@ -1,0 +1,11 @@
+{
+  "name": "game-controller",
+  "category": "devices",
+  "tags": ["game", "controller", "gamepad", "play", "joystick", "console"],
+  "svg": "<path class=\"d p1\" d=\"M7 6h10a5 5 0 0 1 4.8 6.3l-1 4.2a2.5 2.5 0 0 1-4.4.9L14 15h-4l-2.4 2.4a2.5 2.5 0 0 1-4.4-.9l-1-4.2A5 5 0 0 1 7 6z\"/><path class=\"p2\" d=\"M7.5 10v4M5.5 12h4\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

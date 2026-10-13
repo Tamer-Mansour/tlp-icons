@@ -1,0 +1,11 @@
+{
+  "name": "elder-care",
+  "category": "people",
+  "tags": ["elder", "care", "senior", "cane", "heart", "caregiver"],
+  "svg": "<path class=\"d p1\" d=\"M12 9l-3-3a2 2 0 0 1 3-2.5 2 2 0 0 1 3 2.5z\"/><circle class=\"p2\" cx=\"9\" cy=\"13.5\" r=\"2\"/><path class=\"p2\" d=\"M6 22v-4a3 3 0 0 1 6 0v4\"/><circle class=\"p2\" cx=\"15\" cy=\"14.5\" r=\"1.8\"/><path class=\"p2\" d=\"M13 22v-3.5a3 3 0 0 1 6 0V22\"/><path class=\"p3\" d=\"M20 22v-8.5a1.5 1.5 0 0 1 3 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "beat", "dur": 700, "delay": 1100 }
+  ]
+}

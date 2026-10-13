@@ -1,0 +1,11 @@
+{
+  "name": "3d-scanner",
+  "category": "devices",
+  "tags": ["scanner", "3d", "scan", "object", "model", "print"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 7V5H5M19 5H21V7M21 17V19H19M5 19H3V17\"/><path class=\"p3\" d=\"M3 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "scan", "dur": 1200, "delay": 800 }
+  ]
+}

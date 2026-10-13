@@ -1,0 +1,11 @@
+{
+  "name": "doily",
+  "category": "home",
+  "tags": ["doily", "lace", "table", "crochet", "decor", "cloth"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4.5\"/><path class=\"f p3\" d=\"M12 5.5h.01M17.6 8.8h.01M17.6 15.2h.01M12 18.5h.01M6.4 15.2h.01M6.4 8.8h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ivr-menu",
+  "category": "connectivity",
+  "tags": ["phone", "menu", "keypad", "tree", "telephony", "call"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 5C2.5 3.6 3.6 2.5 5 2.5H6.2L7.6 5.9L6.3 7.3C7 8.9 8.1 10 9.7 10.7L11.1 9.4L12.5 10.8V12C12.5 13.4 11.4 14.5 10 14.5C6.2 14.5 2.5 10.8 2.5 5Z\"/><path class=\"p2\" d=\"M15 4.5h7M15 9.5h7M15 14.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

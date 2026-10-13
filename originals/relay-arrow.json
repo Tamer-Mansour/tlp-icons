@@ -1,0 +1,10 @@
+{
+  "name": "relay-arrow",
+  "category": "arrows",
+  "tags": ["relay", "chain", "sequence", "steps", "forward", "flow"],
+  "svg": "<path class=\"p1\" d=\"M3 8h11M11 5l3 3-3 3\"/><path class=\"p2\" d=\"M9 16h11M17 13l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "thread-gauge",
+  "category": "tools",
+  "tags": ["thread", "gauge", "pitch", "screw", "measure"],
+  "svg": "<path class=\"p1\" d=\"M3 6L5 4L7 6L9 4L11 6H21\"/><path class=\"p2\" d=\"M3 12L5 10L7 12L9 10L11 12H21\"/><path class=\"p3\" d=\"M3 18L5 16L7 18L9 16L11 18H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

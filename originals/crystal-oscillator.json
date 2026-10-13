@@ -1,0 +1,10 @@
+{
+  "name": "crystal-oscillator",
+  "category": "devices",
+  "tags": ["crystal", "oscillator", "clock", "frequency", "wave", "hardware"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"3\"/><polyline class=\"p2\" points=\"8,12 10,9 12,15 14,9 16,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "barbecue-grill",
+  "category": "food",
+  "tags": ["barbecue", "grill", "bbq", "cookout", "lid", "outdoor"],
+  "svg": "<path class=\"d p1\" d=\"M4 13a8 8 0 0 1 16 0z\"/><path class=\"p2\" d=\"M4 15h16\"/><path class=\"p3\" d=\"M6 15l-2 5M18 15l2 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

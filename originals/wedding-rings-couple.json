@@ -1,0 +1,10 @@
+{
+  "name": "wedding-rings-couple",
+  "category": "people",
+  "tags": ["wedding", "rings", "couple", "marriage", "engaged", "love"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"13\" r=\"5\"/><circle class=\"p2\" cx=\"15\" cy=\"13\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

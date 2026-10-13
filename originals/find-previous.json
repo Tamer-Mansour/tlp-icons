@@ -1,0 +1,10 @@
+{
+  "name": "find-previous",
+  "category": "interface",
+  "tags": ["find", "previous", "search", "magnifier", "back", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"16\" cy=\"11\" r=\"5\"/><line class=\"p1\" x1=\"12.5\" y1=\"14.5\" x2=\"8\" y2=\"19\"/><path class=\"p2\" d=\"M8 6H2M4.5 3.5 2 6l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

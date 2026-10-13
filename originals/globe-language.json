@@ -1,0 +1,10 @@
+{
+  "name": "globe-language",
+  "category": "interface",
+  "tags": ["globe", "language", "translate", "world", "locale", "international"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M3 12h18M12 3c-3.2 3-3.2 15 0 18c3.2-3 3.2-15 0-18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 1200, "delay": 900 }
+  ]
+}

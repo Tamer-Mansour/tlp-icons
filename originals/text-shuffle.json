@@ -1,0 +1,11 @@
+{
+  "name": "text-shuffle",
+  "category": "text",
+  "tags": ["shuffle", "text", "reorder", "arrows", "swap"],
+  "svg": "<path class=\"p1\" d=\"M3 7H19M16 4L19 7L16 10\"/><path class=\"p2\" d=\"M21 14H5M8 11L5 14L8 17\"/><path class=\"p3\" d=\"M3 20.5H8M10 20.5H14M16 20.5H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

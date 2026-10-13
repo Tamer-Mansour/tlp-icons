@@ -1,0 +1,10 @@
+{
+  "name": "camshaft",
+  "category": "vehicles",
+  "tags": ["camshaft", "cam", "lobe", "engine", "valve", "shaft"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12H21.5\"/><ellipse class=\"d p2\" cx=\"8\" cy=\"12\" rx=\"3\" ry=\"4.5\"/><ellipse class=\"d p2\" cx=\"16\" cy=\"12\" rx=\"3.5\" ry=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 800, "delay": 800, "origin": "12px 12px" }
+  ]
+}

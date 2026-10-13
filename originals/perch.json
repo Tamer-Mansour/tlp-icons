@@ -1,0 +1,13 @@
+{
+  "name": "perch",
+  "category": "nature",
+  "tags": ["perch", "fish", "spiny fin", "stripes", "freshwater", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"7\" ry=\"5\"/><path class=\"p2\" d=\"M7 7L8.5 4.5L10 7L11.5 4.5L13 7\"/><path class=\"p3\" d=\"M8 10V14M12 9V15\"/><path class=\"p4\" d=\"M18 12L22 8.5V15.5Z\"/><circle class=\"f p5\" cx=\"6.5\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p5", "anim": "popIn", "dur": 300, "delay": 1000 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1300, "origin": "18px 12px" }
+  ]
+}

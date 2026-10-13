@@ -1,0 +1,10 @@
+{
+  "name": "dialog",
+  "category": "interface",
+  "tags": ["dialog", "speech", "message", "prompt", "buttons"],
+  "svg": "<path class=\"d p1\" d=\"M5 3.5h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4 3.5v-3.5H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"3.5\" height=\"2.5\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"10\" width=\"3.5\" height=\"2.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "escape",
+  "category": "interface",
+  "tags": ["escape", "esc", "key", "keyboard", "cancel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\"/><path class=\"p2\" d=\"M15 12H9M11 9.5 8.5 12l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 800 }
+  ]
+}

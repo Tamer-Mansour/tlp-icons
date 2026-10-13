@@ -1,0 +1,11 @@
+{
+  "name": "webcam-cover",
+  "category": "security",
+  "tags": ["webcam", "cover", "camera", "privacy", "shutter", "lens"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"4.5\"/><path class=\"p2\" d=\"M12 13.5V18M8.5 20.5h7\"/><rect class=\"d p3\" x=\"7.5\" y=\"4\" width=\"9\" height=\"6.5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 1000 }
+  ]
+}

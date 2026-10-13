@@ -1,0 +1,11 @@
+{
+  "name": "platypus",
+  "category": "nature",
+  "tags": ["platypus", "duck", "bill", "tail", "mammal", "australia"],
+  "svg": "<circle class=\"d p1\" cx=\"15\" cy=\"10\" r=\"3\"/><ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"6\" ry=\"3.5\"/><path class=\"p2\" d=\"M18 10h3c1 0 1 2 0 2h-3\"/><path class=\"p3\" d=\"M5 14l-3-1v3l3-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

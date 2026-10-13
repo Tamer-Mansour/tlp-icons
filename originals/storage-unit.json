@@ -1,0 +1,11 @@
+{
+  "name": "storage-unit",
+  "category": "buildings",
+  "tags": ["storage", "unit", "roll", "door", "warehouse", "rental", "lockers"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 3h19v18h-19z\"/><path class=\"p2\" d=\"M4.5 19v-7h6.5v7M13 19v-7h6.5v7\"/><path class=\"p3\" d=\"M4.5 15.5h6.5M13 15.5h6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

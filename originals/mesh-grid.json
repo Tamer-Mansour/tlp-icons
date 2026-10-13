@@ -1,0 +1,10 @@
+{
+  "name": "mesh-grid",
+  "category": "shapes",
+  "tags": ["mesh", "grid", "surface", "triangles", "wireframe"],
+  "svg": "<path class=\"d p1\" d=\"M3 8 L12 4 L21 8 V18 L12 21 L3 18 Z\"/><path class=\"p2\" d=\"M12 4 V21 M3 8 L12 13 L21 8 M12 13 L3 18 M12 13 L21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

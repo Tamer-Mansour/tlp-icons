@@ -1,0 +1,10 @@
+{
+  "name": "audience-chart",
+  "category": "charts",
+  "tags": ["audience", "people", "chart", "bars", "viewers", "stats"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"5\" r=\"2\"/><circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2\"/><circle class=\"p1\" cx=\"19\" cy=\"5\" r=\"2\"/><rect class=\"p2\" x=\"3\" y=\"12\" width=\"4\" height=\"8\"/><rect class=\"p2\" x=\"10\" y=\"14\" width=\"4\" height=\"6\"/><rect class=\"p2\" x=\"17\" y=\"10\" width=\"4\" height=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

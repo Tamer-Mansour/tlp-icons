@@ -1,0 +1,11 @@
+{
+  "name": "label-sticker",
+  "category": "design",
+  "tags": ["label", "sticker", "tag", "peel", "print"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h13l3 3v13H4z\"/><path class=\"p2\" d=\"M17 4v3h3\"/><path class=\"p3\" d=\"M8 11h8M8 15h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-at",
+  "category": "files",
+  "tags": ["file", "at", "email", "mention", "address", "document"],
+  "svg": "<path class=\"d p1\" d=\"M4 2.5h9.5L18 7v14.5H4z\"/><path class=\"p2\" d=\"M15 12a3 3 0 1 1-6 0a3 3 0 1 1 6 0\"/><path class=\"p3\" d=\"M15 9v4.5a2 2 0 0 0 4 0V12a6 6 0 1 0-2.3 4.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

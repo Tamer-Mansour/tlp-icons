@@ -1,0 +1,11 @@
+{
+  "name": "dining-chair",
+  "category": "home",
+  "tags": ["dining", "chair", "seat", "backrest", "furniture", "room"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M4 14h16\"/><path class=\"p3\" d=\"M6 14v7M18 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 800 }
+  ]
+}

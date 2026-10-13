@@ -1,0 +1,10 @@
+{
+  "name": "page-turn",
+  "category": "arrows",
+  "tags": ["page", "turn", "flip", "curl", "book", "read"],
+  "svg": "<path class=\"d p1\" d=\"M5 3 H14 L19 8 V21 H5 Z\"/><path class=\"p2\" d=\"M9 14 C11 11 14 11 16 13\"/><polyline class=\"p2\" points=\"16 10 16 13 13 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

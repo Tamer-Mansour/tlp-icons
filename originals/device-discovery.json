@@ -1,0 +1,10 @@
+{
+  "name": "device-discovery",
+  "category": "connectivity",
+  "tags": ["device discovery", "scan devices", "find devices", "search", "nearby", "detect"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"5\" height=\"3.5\" rx=\"0.5\"/><rect class=\"p1\" x=\"16.5\" y=\"2.5\" width=\"5\" height=\"3.5\" rx=\"0.5\"/><rect class=\"p1\" x=\"2.5\" y=\"18\" width=\"5\" height=\"3.5\" rx=\"0.5\"/><circle class=\"p2\" cx=\"13\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M15.5 14.5 19 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sort-alphabetical",
+  "category": "text",
+  "tags": ["sort", "alphabetical", "a to z", "order", "letters"],
+  "svg": "<path class=\"p1\" d=\"M2 19 L5 7 L8 19 M3.2 14.5 H6.8\"/><path class=\"p2\" d=\"M11 7 H16.5 L11 17 H16.5\"/><path class=\"p3\" d=\"M19.5 4 V20 M17 17.5 L19.5 20 L22 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 700, "origin": "top" }
+  ]
+}

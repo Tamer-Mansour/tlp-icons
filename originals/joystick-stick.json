@@ -1,0 +1,11 @@
+{
+  "name": "joystick-stick",
+  "category": "sport",
+  "tags": ["joystick", "stick", "controller", "arcade", "gaming", "lever"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"16\" width=\"12\" height=\"4\"/><line class=\"p2\" x1=\"12\" y1=\"16\" x2=\"12\" y2=\"8\"/><circle class=\"p3\" cx=\"12\" cy=\"5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1000, "origin": "12px 16px" }
+  ]
+}

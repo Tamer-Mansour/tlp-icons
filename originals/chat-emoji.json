@@ -1,0 +1,11 @@
+{
+  "name": "chat-emoji",
+  "category": "communication",
+  "tags": ["emoji", "smile", "chat", "face", "message", "happy"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"3\"/><path class=\"f p3\" d=\"M10.5 12.5H10.6M13.4 12.5H13.5\"/><path class=\"p3\" d=\"M10.5 14.5Q12 16 13.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "guesthouse",
+  "category": "buildings",
+  "tags": ["guesthouse", "guest", "cottage", "annex", "lodging", "home"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 21V11L7 7l4.5 4V21z\"/><path class=\"d p2\" d=\"M14 21v-7.5l3.5-3.5 3.5 3.5V21z\"/><path class=\"p3\" d=\"M5.5 21v-4h3v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

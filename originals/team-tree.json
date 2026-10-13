@@ -1,0 +1,10 @@
+{
+  "name": "team-tree",
+  "category": "people",
+  "tags": ["team", "tree", "hierarchy", "organization", "people", "structure"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-7M12 14L6 10M12 14l6-4\"/><circle class=\"d p2\" cx=\"6\" cy=\"7.5\" r=\"2.5\"/><circle class=\"d p2\" cx=\"18\" cy=\"7.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

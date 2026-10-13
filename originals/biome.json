@@ -1,0 +1,11 @@
+{
+  "name": "biome",
+  "category": "nature",
+  "tags": ["biome", "globe", "ecosystem", "tree", "dune"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polygon class=\"d p2\" points=\"8,6 11,11 5,11\"/><path class=\"p2\" d=\"M8 11 V13.5\"/><path class=\"p3\" d=\"M9 19 Q13 14 17.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "8px 13.5px" }
+  ]
+}

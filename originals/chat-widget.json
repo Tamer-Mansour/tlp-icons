@@ -1,0 +1,11 @@
+{
+  "name": "chat-widget",
+  "category": "communication",
+  "tags": ["chat", "widget", "window", "launcher", "website"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"13\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 8.5h6M6.5 11.5h3.5\"/><circle class=\"d p3\" cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

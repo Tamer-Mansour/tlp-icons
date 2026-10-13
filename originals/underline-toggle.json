@@ -1,0 +1,10 @@
+{
+  "name": "underline-toggle",
+  "category": "interface",
+  "tags": ["underline", "toggle", "text", "format", "style", "editor"],
+  "svg": "<path class=\"p1\" d=\"M7 5v7.5a5 5 0 0 0 10 0V5\"/><line class=\"p2\" x1=\"6\" y1=\"20.5\" x2=\"18\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

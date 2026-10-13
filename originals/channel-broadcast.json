@@ -1,0 +1,10 @@
+{
+  "name": "channel-broadcast",
+  "category": "communication",
+  "tags": ["channel", "broadcast", "announce", "radio", "notify", "feed"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p1\" d=\"M5 14 V17 L8.5 14\"/><path class=\"p2\" d=\"M15.5 8.5 A4.5 4.5 0 0 1 15.5 15.5 M18.5 5.5 A8 8 0 0 1 18.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 400 }
+  ]
+}

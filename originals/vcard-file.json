@@ -1,0 +1,12 @@
+{
+  "name": "vcard-file",
+  "category": "communication",
+  "tags": ["vcard", "contact", "file", "card", "person", "document"],
+  "svg": "<path class=\"d p1\" d=\"M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z\"/><path class=\"p2\" d=\"M14 3v6h6\"/><circle class=\"p3\" cx=\"9\" cy=\"11\" r=\"2\"/><path class=\"p3\" d=\"M5.5 18c.5-2.1 1.7-3 3.5-3s3 .9 3.5 3\"/><path class=\"p4\" d=\"M15 13h4M15 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

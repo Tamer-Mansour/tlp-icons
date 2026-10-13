@@ -1,0 +1,11 @@
+{
+  "name": "quesadilla",
+  "category": "food",
+  "tags": ["quesadilla", "folded", "tortilla", "mexican", "snack"],
+  "svg": "<path class=\"d p1\" d=\"M4 16C4 10 7.5 5 12 5C16.5 5 20 10 20 16Z\"/><path class=\"p2\" d=\"M3 16H21\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12.5\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

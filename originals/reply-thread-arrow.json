@@ -1,0 +1,11 @@
+{
+  "name": "reply-thread-arrow",
+  "category": "communication",
+  "tags": ["reply", "thread", "conversation", "arrow", "chain", "replies"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"7\" rx=\"2\"/><rect class=\"d p2\" x=\"12.5\" y=\"13\" width=\"8.5\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M8 10V12A2 2 0 0 0 10 14H11M9.5 12.5L11 14L9.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "search-highlight",
+  "category": "text",
+  "tags": ["search", "highlight", "find", "magnifier", "text", "match"],
+  "svg": "<path class=\"p3\" d=\"M3 4h18\"/><rect class=\"d p1\" x=\"3\" y=\"9\" width=\"8\" height=\"6\" rx=\"1\"/><circle class=\"p2\" cx=\"16\" cy=\"11\" r=\"3.5\"/><path class=\"p2\" d=\"M18.5 13.5L21 16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "magnify", "dur": 700, "delay": 1100 }
+  ]
+}

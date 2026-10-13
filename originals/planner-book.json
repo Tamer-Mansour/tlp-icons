@@ -1,0 +1,11 @@
+{
+  "name": "planner-book",
+  "category": "files",
+  "tags": ["planner", "calendar", "organizer", "schedule", "agenda"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"2\"/><circle class=\"p2\" cx=\"8.5\" cy=\"5.5\" r=\"1\"/><circle class=\"p2\" cx=\"15.5\" cy=\"5.5\" r=\"1\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

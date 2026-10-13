@@ -1,0 +1,11 @@
+{
+  "name": "org-badge",
+  "category": "people",
+  "tags": ["organization", "badge", "building", "company", "id", "employer"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"3\"/><rect class=\"p2\" x=\"8.5\" y=\"7\" width=\"7\" height=\"10\"/><path class=\"p3\" d=\"M10.5 10h3M10.5 13h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

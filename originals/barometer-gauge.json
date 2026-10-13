@@ -1,0 +1,10 @@
+{
+  "name": "barometer-gauge",
+  "category": "science",
+  "tags": ["barometer", "pressure", "gauge", "dial", "weather", "needle"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p1\" x1=\"12\" y1=\"5\" x2=\"12\" y2=\"6.5\"/><line class=\"p1\" x1=\"5\" y1=\"12\" x2=\"6.5\" y2=\"12\"/><line class=\"p1\" x1=\"19\" y1=\"12\" x2=\"17.5\" y2=\"12\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"15.5\" y2=\"8.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

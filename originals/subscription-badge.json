@@ -1,0 +1,10 @@
+{
+  "name": "subscription-badge",
+  "category": "people",
+  "tags": ["subscription", "badge", "renew", "member", "check"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polyline class=\"p2\" points=\"8 12 11 15 16 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

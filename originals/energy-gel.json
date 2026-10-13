@@ -1,0 +1,11 @@
+{
+  "name": "energy-gel",
+  "category": "sport",
+  "tags": ["energy", "gel", "packet", "endurance", "nutrition", "running"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M6 8h12\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kennel",
+  "category": "buildings",
+  "tags": ["kennel", "dog", "house", "bone", "pet", "shelter", "boarding"],
+  "svg": "<path class=\"d p1\" d=\"M3 13L12 10L21 13Z\"/><path class=\"p2\" d=\"M5 13V21H19V13\"/><path class=\"p2\" d=\"M10 21V17H14V21\"/><line class=\"p3\" x1=\"8\" y1=\"4.5\" x2=\"16\" y2=\"4.5\"/><circle class=\"f p3\" cx=\"7\" cy=\"3\" r=\"1.2\"/><circle class=\"f p3\" cx=\"7\" cy=\"6\" r=\"1.2\"/><circle class=\"f p3\" cx=\"17\" cy=\"3\" r=\"1.2\"/><circle class=\"f p3\" cx=\"17\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

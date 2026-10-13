@@ -1,0 +1,10 @@
+{
+  "name": "overlay-layer",
+  "category": "layout",
+  "tags": ["overlay", "layer", "transparent", "modal", "stack", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><rect class=\"d p2\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 800, "delay": 500 }
+  ]
+}

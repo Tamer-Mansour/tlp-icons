@@ -1,0 +1,10 @@
+{
+  "name": "oscilloscope",
+  "category": "science",
+  "tags": ["oscilloscope", "wave", "signal", "screen", "electronics"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M5 12 Q7.5 7 10 12 T15 12 T20 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

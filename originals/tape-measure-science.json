@@ -1,0 +1,11 @@
+{
+  "name": "tape-measure-science",
+  "category": "science",
+  "tags": ["tape", "measure", "reel", "length", "lab", "measurement"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M15 12h5.5v4H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "9px 12px" }
+  ]
+}

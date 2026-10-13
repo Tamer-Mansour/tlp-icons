@@ -1,0 +1,11 @@
+{
+  "name": "school-locker",
+  "category": "people",
+  "tags": ["locker", "school", "storage", "vent", "hallway"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M9.5 6.5h5M9.5 8.5h5\"/><circle class=\"f p3\" cx=\"14\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

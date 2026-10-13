@@ -1,0 +1,11 @@
+{
+  "name": "trawler",
+  "category": "vehicles",
+  "tags": ["fishing", "boat", "net", "hull", "trawler"],
+  "svg": "<path class=\"d p1\" d=\"M5 15 H21 L18 20 H8 Z\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"15\"/><path class=\"p3\" d=\"M5 15 Q3 17 4 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 1000, "origin": "5px 15px" }
+  ]
+}

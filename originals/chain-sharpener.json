@@ -1,0 +1,10 @@
+{
+  "name": "chain-sharpener",
+  "category": "tools",
+  "tags": ["chain", "sharpener", "file", "saw", "teeth", "sharpen"],
+  "svg": "<polyline class=\"p1\" points=\"2,18 5,14 8,18 11,14 14,18 17,14 20,18\"/><rect class=\"p2\" x=\"6\" y=\"4\" width=\"12\" height=\"3\" rx=\"1\" transform=\"rotate(30 12 5.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

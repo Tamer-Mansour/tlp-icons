@@ -1,0 +1,11 @@
+{
+  "name": "hex-cells",
+  "category": "shapes",
+  "tags": ["hexagon", "cells", "honeycomb", "grid", "hex"],
+  "svg": "<polygon class=\"p1\" points=\"7,3 10.46,5 10.46,9 7,11 3.54,9 3.54,5\"/><polygon class=\"p2\" points=\"17,3 20.46,5 20.46,9 17,11 13.54,9 13.54,5\"/><polygon class=\"p3\" points=\"12,12 15.46,14 15.46,18 12,20 8.54,18 8.54,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

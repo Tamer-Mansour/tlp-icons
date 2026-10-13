@@ -1,0 +1,11 @@
+{
+  "name": "envelope-seal",
+  "category": "files",
+  "tags": ["envelope", "seal", "mail", "letter", "stamp"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\"/><path class=\"p2\" d=\"M3 6l9 7 9-7\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "stampIn", "dur": 500, "delay": 900 }
+  ]
+}

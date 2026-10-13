@@ -1,0 +1,11 @@
+{
+  "name": "parhelion",
+  "category": "weather",
+  "tags": ["sun", "halo", "sundog", "ring", "optics", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><line class=\"p2\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><circle class=\"f p3\" cx=\"4.5\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

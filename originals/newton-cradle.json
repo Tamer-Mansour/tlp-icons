@@ -1,0 +1,12 @@
+{
+  "name": "newton-cradle",
+  "category": "science",
+  "tags": ["physics", "balls", "momentum", "pendulum", "swing", "demo"],
+  "svg": "<path class=\"p1\" d=\"M2 3h20\"/><path class=\"p2\" d=\"M9 3v9M15 3v9\"/><circle class=\"d p3\" cx=\"9\" cy=\"12.5\" r=\"1.5\"/><circle class=\"d p3\" cx=\"15\" cy=\"12.5\" r=\"1.5\"/><g class=\"p4\"><path d=\"M3.5 3v9\"/><circle cx=\"3.5\" cy=\"12.5\" r=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "swing", "dur": 1200, "delay": 1100, "origin": "3.5px 3px" }
+  ]
+}

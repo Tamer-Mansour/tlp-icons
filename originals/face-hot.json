@@ -1,0 +1,11 @@
+{
+  "name": "face-hot",
+  "category": "emoji",
+  "tags": ["hot", "sweat", "heat", "face", "warm"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><circle class=\"f\" cx=\"9\" cy=\"11\" r=\"1\"/><circle class=\"f\" cx=\"15\" cy=\"11\" r=\"1\"/><ellipse class=\"p3\" cx=\"12\" cy=\"16\" rx=\"2\" ry=\"1.5\"/><path class=\"p2\" d=\"M19 2.5c0 0-1.5 2-1.5 3a1.5 1.5 0 0 0 3 0c0-1-1.5-3-1.5-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "drip", "dur": 1000, "delay": 1100 }
+  ]
+}

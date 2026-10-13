@@ -1,0 +1,10 @@
+{
+  "name": "document-outline",
+  "category": "text",
+  "tags": ["outline", "document", "tree", "structure", "headings", "page"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 8v11M8 11h4M8 15h4M8 19h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

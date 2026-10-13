@@ -1,0 +1,11 @@
+{
+  "name": "campfire-group",
+  "category": "people",
+  "tags": ["campfire", "group", "fire", "camping", "logs", "friends"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c2.5 3 4 5.5 2.5 8.5C13.8 13.3 12.5 14 12 14s-1.8-.7-2.5-2.5C8 8.5 9.5 6 12 3z\"/><path class=\"p2\" d=\"M4 20.5l16-3M4 17.5l16 3\"/><circle class=\"p3\" cx=\"19\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 900 }
+  ]
+}

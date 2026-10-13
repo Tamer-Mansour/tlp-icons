@@ -1,0 +1,11 @@
+{
+  "name": "wind-tunnel",
+  "category": "weather",
+  "tags": ["wind", "tunnel", "test", "airflow", "aerodynamics"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M5 9 H10 M8 7 L10 9 L8 11\"/><path class=\"p3\" d=\"M11 15 H18 M16 13 L18 15 L16 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

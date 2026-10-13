@@ -1,0 +1,10 @@
+{
+  "name": "thermometer-snow",
+  "category": "nature",
+  "tags": ["thermometer", "snow", "cold", "winter", "weather"],
+  "svg": "<path class=\"p1\" d=\"M8 14.5 V5 A2.5 2.5 0 0 1 13 5 V14.5\"/><circle class=\"p1\" cx=\"10.5\" cy=\"17.5\" r=\"2\"/><path class=\"p2\" d=\"M18 14 V20\"/><path class=\"p2\" d=\"M15.4 15.5 L20.6 18.5\"/><path class=\"p2\" d=\"M15.4 18.5 L20.6 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800, "origin": "18px 17px" }
+  ]
+}

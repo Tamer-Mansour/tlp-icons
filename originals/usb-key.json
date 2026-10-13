@@ -1,0 +1,12 @@
+{
+  "name": "usb-key",
+  "category": "security",
+  "tags": ["usb", "key", "plug", "hardware", "security", "token"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9.5\" width=\"8\" height=\"5\" rx=\"1\"/><circle class=\"p2\" cx=\"16\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M19.5 12H22M20.5 12v2.5\"/><path class=\"p4\" d=\"M5 9.5V7M8 9.5V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bomb-symbol",
+  "category": "emoji",
+  "tags": ["bomb", "explosive", "fuse", "boom", "danger", "blast"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M14.9 9.1L17.5 6.5\"/><circle class=\"f p3\" cx=\"19\" cy=\"4.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

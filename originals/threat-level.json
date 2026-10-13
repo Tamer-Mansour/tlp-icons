@@ -1,0 +1,10 @@
+{
+  "name": "threat-level",
+  "category": "security",
+  "tags": ["threat", "level", "risk", "bars", "severity", "warning"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"20\" x2=\"6\" y2=\"16\"/><line class=\"p1\" x1=\"11\" y1=\"20\" x2=\"11\" y2=\"12\"/><line class=\"p1\" x1=\"16\" y1=\"20\" x2=\"16\" y2=\"8\"/><circle class=\"f p2\" cx=\"19\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

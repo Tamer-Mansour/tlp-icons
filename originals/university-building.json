@@ -1,0 +1,11 @@
+{
+  "name": "university-building",
+  "category": "science",
+  "tags": ["university", "building", "campus", "college", "columns", "school"],
+  "svg": "<path class=\"p1\" d=\"M3 9L12 4L21 9\"/><path class=\"p2\" d=\"M7 9v8M12 9v8M17 9v8\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

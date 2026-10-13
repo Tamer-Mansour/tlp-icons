@@ -1,0 +1,11 @@
+{
+  "name": "face-yawning",
+  "category": "emoji",
+  "tags": ["yawn", "tired", "face", "sleepy", "bored"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 10q1.5 1.5 3 0M13 10q1.5 1.5 3 0\"/><ellipse class=\"p3\" cx=\"12\" cy=\"15.5\" rx=\"2\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 1000, "delay": 1100 }
+  ]
+}

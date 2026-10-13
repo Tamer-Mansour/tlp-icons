@@ -1,0 +1,10 @@
+{
+  "name": "family-group-house",
+  "category": "people",
+  "tags": ["family", "group", "house", "home", "members", "adults"],
+  "svg": "<path class=\"p1\" d=\"M3 10l9-7 9 7v11H3z\"/><circle class=\"p2\" cx=\"8\" cy=\"11\" r=\"1.5\"/><path class=\"p2\" d=\"M5.5 19v-3a2.5 2.5 0 0 1 5 0v3\"/><circle class=\"p2\" cx=\"16\" cy=\"11\" r=\"1.5\"/><path class=\"p2\" d=\"M13.5 19v-3a2.5 2.5 0 0 1 5 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

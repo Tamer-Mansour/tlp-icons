@@ -1,0 +1,11 @@
+{
+  "name": "transmission-tower",
+  "category": "buildings",
+  "tags": ["transmission", "tower", "pylon", "power", "lines", "wires"],
+  "svg": "<path class=\"p1\" d=\"M9 21L12 4L15 21M9.5 13h5\"/><path class=\"p2\" d=\"M7 7h10\"/><path class=\"p3\" d=\"M7 7q5 4 10 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

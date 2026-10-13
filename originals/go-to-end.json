@@ -1,0 +1,10 @@
+{
+  "name": "go-to-end",
+  "category": "arrows",
+  "tags": ["end", "last", "finish", "right", "next"],
+  "svg": "<path class=\"p1\" d=\"M20 5 V19\"/><path class=\"p2\" d=\"M4 12 H18\"/><polyline class=\"p2\" points=\"14 8 18 12 14 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

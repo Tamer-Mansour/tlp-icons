@@ -1,0 +1,11 @@
+{
+  "name": "train-schedule",
+  "category": "time",
+  "tags": ["train", "schedule", "timetable", "rail", "transit", "departures"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"15\" rx=\"3\"/><path class=\"p2\" d=\"M6 11h12M9 18l-2 3M15 18l2 3\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

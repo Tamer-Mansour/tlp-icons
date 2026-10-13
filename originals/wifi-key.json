@@ -1,0 +1,12 @@
+{
+  "name": "wifi-key",
+  "category": "connectivity",
+  "tags": ["wifi", "key", "password", "passphrase", "wireless", "access"],
+  "svg": "<path class=\"p1\" d=\"M2 9a14 14 0 0 1 20 0\"/><path class=\"p2\" d=\"M5.5 12.5a9 9 0 0 1 13 0\"/><circle class=\"d p3\" cx=\"9\" cy=\"19\" r=\"2\"/><path class=\"p4\" d=\"M11 19h8M17 19v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "tilt", "dur": 600, "delay": 1000 }
+  ]
+}

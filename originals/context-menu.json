@@ -1,0 +1,11 @@
+{
+  "name": "context-menu",
+  "category": "interface",
+  "tags": ["context", "menu", "list", "options", "popup"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"8\" width=\"13\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M11.5 12h6M11.5 16h6\"/><path class=\"p3\" d=\"M3 3l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

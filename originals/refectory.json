@@ -1,0 +1,11 @@
+{
+  "name": "refectory",
+  "category": "buildings",
+  "tags": ["refectory", "table", "bench", "dining", "hall", "monastery"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 11 V20 M19 11 V20\"/><line class=\"p3\" x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

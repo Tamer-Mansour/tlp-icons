@@ -1,0 +1,11 @@
+{
+  "name": "forest-path",
+  "category": "nature",
+  "tags": ["path", "forest", "trees", "trail", "woods"],
+  "svg": "<polygon class=\"d p1\" points=\"2,14 6,6 10,14\"/><polygon class=\"d p2\" points=\"14,14 18,6 22,14\"/><path class=\"p3\" d=\"M8 22 Q11 19 12 16 Q13 13 12 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

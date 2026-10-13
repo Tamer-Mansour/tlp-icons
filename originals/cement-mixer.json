@@ -1,0 +1,12 @@
+{
+  "name": "cement-mixer",
+  "category": "vehicles",
+  "tags": ["cement", "mixer", "truck", "concrete", "drum", "construction"],
+  "svg": "<path class=\"d p1\" d=\"M2 9H6L8.5 12V14H2Z\"/><path class=\"d p2\" d=\"M11 8H17L20 14H11Z\"/><path class=\"p3\" d=\"M14 8.5L15.5 13.5\"/><circle class=\"p4\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p4\" cx=\"16\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1100, "origin": "14.5px 11px" }
+  ]
+}

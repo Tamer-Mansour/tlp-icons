@@ -1,0 +1,11 @@
+{
+  "name": "sieve",
+  "category": "home",
+  "tags": ["sieve", "strainer", "mesh", "colander", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h16c0 4-3.5 7-8 7s-8-3-8-7z\"/><path class=\"p2\" d=\"M19 10h3\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"12.5\" r=\"1\"/><circle class=\"f p3\" cx=\"11\" cy=\"13.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"12.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

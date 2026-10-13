@@ -1,0 +1,11 @@
+{
+  "name": "season-autumn",
+  "category": "weather",
+  "tags": ["autumn", "fall", "leaf", "season", "falling", "wind"],
+  "svg": "<path class=\"d p1\" d=\"M5 17 C5 9 10 5 19 5 C19 14 15 19 7 19 Z\"/><path class=\"p2\" d=\"M5 19 L13 11\"/><path class=\"p3\" d=\"M3 22 Q8 18 12 21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "sway", "dur": 1200, "delay": 1100 }
+  ]
+}

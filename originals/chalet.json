@@ -1,0 +1,11 @@
+{
+  "name": "chalet",
+  "category": "buildings",
+  "tags": ["chalet", "alpine", "mountain", "ski", "steep", "roof"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 11.5L12 3.5l9.5 8z\"/><path class=\"p2\" d=\"M10.5 21v-4h3v4\"/><rect class=\"p3\" x=\"6.5\" y=\"14\" width=\"2.5\" height=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

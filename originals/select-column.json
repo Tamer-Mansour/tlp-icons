@@ -1,0 +1,10 @@
+{
+  "name": "select-column",
+  "category": "interface",
+  "tags": ["select", "column", "table", "arrow", "down", "choose"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"10\" width=\"10\" height=\"11\" rx=\"1\"/><line class=\"p1\" x1=\"12\" y1=\"10\" x2=\"12\" y2=\"21\"/><polyline class=\"p2\" points=\"9.5,3.5 12,6 14.5,3.5\"/><line class=\"p2\" x1=\"12\" y1=\"2.5\" x2=\"12\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

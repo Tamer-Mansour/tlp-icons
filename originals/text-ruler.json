@@ -1,0 +1,11 @@
+{
+  "name": "text-ruler",
+  "category": "text",
+  "tags": ["ruler", "measure", "ticks", "text", "scale"],
+  "svg": "<path class=\"p1\" d=\"M2 8H22\"/><path class=\"p2\" d=\"M6 8V5M10 8V4M14 8V5M18 8V4\"/><path class=\"p3\" d=\"M4 17H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

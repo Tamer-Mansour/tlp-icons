@@ -1,0 +1,11 @@
+{
+  "name": "customs-desk",
+  "category": "buildings",
+  "tags": ["customs", "desk", "counter", "stamp", "luggage", "airport"],
+  "svg": "<path class=\"p1\" d=\"M3 11h18v10H3z\"/><path class=\"p2\" d=\"M12 4v4M9 8h6\"/><rect class=\"p3\" x=\"5\" y=\"14\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stamp", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

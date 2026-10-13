@@ -1,0 +1,12 @@
+{
+  "name": "potting-soil",
+  "category": "nature",
+  "tags": ["potting", "soil", "plant", "bag", "gardening"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 H19 V21 H5 Z\"/><path class=\"p2\" d=\"M12 9 V5\"/><path class=\"p3\" d=\"M12 6 C13 3 16 3 17 4 C16 6.5 14 7 12 6 Z\"/><path class=\"p4\" d=\"M8 17 C9.5 16 10.5 18 12 17 C13.5 16 14.5 18 16 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1200 }
+  ]
+}

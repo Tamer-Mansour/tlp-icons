@@ -1,0 +1,11 @@
+{
+  "name": "file-stock",
+  "category": "files",
+  "tags": ["stock", "chart", "trend", "growth", "finance", "report"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><polyline class=\"p2\" points=\"8,18 11,14.5 13.5,16 16,11\"/><circle class=\"f p3\" cx=\"16\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1100 }
+  ]
+}

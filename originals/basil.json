@@ -1,0 +1,11 @@
+{
+  "name": "basil",
+  "category": "food",
+  "tags": ["basil", "herb", "leaf", "plant", "food"],
+  "svg": "<path class=\"d p1\" d=\"M12 12 C8 12 5 9 5 5 C9 5 12 8 12 12 Z\"/><path class=\"d p2\" d=\"M12 12 C16 12 19 9 19 5 C15 5 12 8 12 12 Z\"/><path class=\"p3\" d=\"M12 21 V12\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

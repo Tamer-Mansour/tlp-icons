@@ -1,0 +1,11 @@
+{
+  "name": "ignition-key",
+  "category": "vehicles",
+  "tags": ["ignition", "key", "start", "car", "unlock", "bow"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><circle class=\"f p3\" cx=\"7\" cy=\"12\" r=\"1\"/><path class=\"p2\" d=\"M11 12H21.5V14.5M18 12V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

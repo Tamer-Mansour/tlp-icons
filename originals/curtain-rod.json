@@ -1,0 +1,11 @@
+{
+  "name": "curtain-rod",
+  "category": "home",
+  "tags": ["curtain", "rod", "pole", "window", "rings", "drapes", "home"],
+  "svg": "<line class=\"p1\" x1=\"3.5\" y1=\"6\" x2=\"20.5\" y2=\"6\"/><circle class=\"d p2\" cx=\"3.5\" cy=\"6\" r=\"1.5\"/><circle class=\"d p2\" cx=\"20.5\" cy=\"6\" r=\"1.5\"/><circle class=\"p3\" cx=\"8\" cy=\"6\" r=\"1.5\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"1.5\"/><circle class=\"p3\" cx=\"16\" cy=\"6\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

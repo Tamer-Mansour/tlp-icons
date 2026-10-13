@@ -1,0 +1,11 @@
+{
+  "name": "distortion-pedal",
+  "category": "media",
+  "tags": ["distortion", "pedal", "guitar", "fuzz", "waveform", "effect"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><polyline class=\"p2\" points=\"6 13 8.5 8.5 11 15.5 13.5 8.5 16 15.5 18 11\"/><circle class=\"f p3\" cx=\"17\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1400 }
+  ]
+}

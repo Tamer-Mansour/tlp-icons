@@ -1,0 +1,11 @@
+{
+  "name": "wake-word-ear",
+  "category": "communication",
+  "tags": ["ear", "wake", "listen", "voice", "hearing", "assistant"],
+  "svg": "<path class=\"p1\" d=\"M7 11a5 5 0 1 1 10 0c0 3-1.5 4-2.5 5.5S13.5 19 12.5 20a2.5 2.5 0 0 1-5 0\"/><path class=\"p2\" d=\"M18 4a9 9 0 0 1 2 4\"/><circle class=\"f p3\" cx=\"11\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

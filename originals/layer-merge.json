@@ -1,0 +1,11 @@
+{
+  "name": "layer-merge",
+  "category": "design",
+  "tags": ["layer", "merge", "combine", "join", "stack"],
+  "svg": "<path class=\"p1\" d=\"M7 4l4 2-4 2-4-2z\"/><path class=\"p1\" d=\"M17 4l4 2-4 2-4-2z\"/><path class=\"p3\" d=\"M7 9.5l5 3M17 9.5l-5 3\"/><path class=\"d p2\" d=\"M4 18l8 3.5 8-3.5-8-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "regex-text",
+  "category": "text",
+  "tags": ["regex", "pattern", "slash", "asterisk", "text"],
+  "svg": "<path class=\"p1\" d=\"M5 15L9 3\"/><path class=\"p2\" d=\"M12 6v6M9.8 7.5l4.4 3M14.2 7.5l-4.4 3\"/><path class=\"p3\" d=\"M15 15L19 3\"/><path class=\"p4\" d=\"M5 20h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800, "origin": "12px 9px" },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1500 }
+  ]
+}

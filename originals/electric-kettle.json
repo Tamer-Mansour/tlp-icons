@@ -1,0 +1,11 @@
+{
+  "name": "electric-kettle",
+  "category": "devices",
+  "tags": ["kettle", "electric", "water", "boil", "kitchen", "tea"],
+  "svg": "<path class=\"d p1\" d=\"M6 10h10l2 9H4z\"/><path class=\"p2\" d=\"M7 10V7a5 5 0 0 1 8 0v3\"/><path class=\"p3\" d=\"M16 13l4-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pour", "dur": 800, "delay": 1100 }
+  ]
+}

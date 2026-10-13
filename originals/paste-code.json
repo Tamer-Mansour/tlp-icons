@@ -1,0 +1,12 @@
+{
+  "name": "paste-code",
+  "category": "development",
+  "tags": ["paste", "code", "clipboard", "insert", "snippet", "arrow"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 7.5v5M9.5 10.5l2.5 2.5 2.5-2.5\"/><path class=\"p4\" d=\"M8 18h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

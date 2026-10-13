@@ -1,0 +1,11 @@
+{
+  "name": "flip-phone",
+  "category": "devices",
+  "tags": ["flip", "phone", "folding", "mobile", "clamshell", "hinge"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"8\" rx=\"2\"/><rect class=\"d p2\" x=\"7\" y=\"14\" width=\"10\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M9 12h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

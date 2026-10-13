@@ -1,0 +1,10 @@
+{
+  "name": "book-jacket",
+  "category": "files",
+  "tags": ["book", "jacket", "flaps", "cover", "novel", "reading"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"13\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M3 6h4v12H3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

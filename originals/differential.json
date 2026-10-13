@@ -1,0 +1,11 @@
+{
+  "name": "differential",
+  "category": "vehicles",
+  "tags": ["differential", "gear", "axle", "drivetrain", "car", "mechanic", "ring"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M2 12h4M18 12h4\"/><path class=\"p3\" d=\"M12 10v4M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "snow-depth",
+  "category": "weather",
+  "tags": ["snow", "depth", "ruler", "measure", "winter", "height"],
+  "svg": "<path class=\"p1\" d=\"M4 4v16M4 8h2M4 12h3M4 16h2\"/><path class=\"d p2\" d=\"M9 20a6 6 0 0 1 12 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "riseIn", "dur": 800, "delay": 400 }
+  ]
+}

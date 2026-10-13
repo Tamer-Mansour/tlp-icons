@@ -1,0 +1,11 @@
+{
+  "name": "cactus-desert",
+  "category": "science",
+  "tags": ["cactus", "desert", "plant", "arid", "botany"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"21\" x2=\"12\" y2=\"3\"/><path class=\"p2\" d=\"M12 16H8V10M12 12H16V7\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

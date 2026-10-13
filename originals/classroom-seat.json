@@ -1,0 +1,11 @@
+{
+  "name": "classroom-seat",
+  "category": "people",
+  "tags": ["classroom", "seat", "desk", "student", "school", "chair"],
+  "svg": "<path class=\"p2\" d=\"M3 16h18M5 16v5M19 16v5\"/><path class=\"p1\" d=\"M8.5 16v-3a3.5 3.5 0 0 1 7 0v3\"/><circle class=\"p3\" cx=\"12\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1000 }
+  ]
+}

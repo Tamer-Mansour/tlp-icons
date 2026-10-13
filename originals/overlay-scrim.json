@@ -1,0 +1,10 @@
+{
+  "name": "overlay-scrim",
+  "category": "layout",
+  "tags": ["overlay", "scrim", "layer", "card", "dim", "backdrop", "modal"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"3.5\" width=\"17\" height=\"17\" rx=\"2\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"12\" height=\"10\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

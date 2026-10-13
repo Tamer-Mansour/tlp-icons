@@ -1,0 +1,10 @@
+{
+  "name": "almond-shape",
+  "category": "shapes",
+  "tags": ["almond", "eye", "oval", "pointed", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M2 12 C7 5 17 5 22 12 C17 19 7 19 2 12 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

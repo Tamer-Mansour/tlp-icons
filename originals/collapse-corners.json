@@ -1,0 +1,10 @@
+{
+  "name": "collapse-corners",
+  "category": "arrows",
+  "tags": ["collapse", "corners", "shrink", "inward", "compress", "exit"],
+  "svg": "<path class=\"p1\" d=\"M3 9h6V3M21 9h-6V3M21 15h-6v6M3 15h6v6\"/><path class=\"p2\" d=\"M4 4l3 3M20 4l-3 3M20 20l-3-3M4 20l3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

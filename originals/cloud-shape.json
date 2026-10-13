@@ -1,0 +1,10 @@
+{
+  "name": "cloud-shape",
+  "category": "shapes",
+  "tags": ["cloud", "weather", "sky", "puffy", "soft", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M7 18.5h10.5a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.6 9.5 4.5 4.5 0 0 0 7 18.5z\"/><circle class=\"f p2\" cx=\"12\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

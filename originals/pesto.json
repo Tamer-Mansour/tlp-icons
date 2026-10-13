@@ -1,0 +1,11 @@
+{
+  "name": "pesto",
+  "category": "food",
+  "tags": ["pesto", "basil", "mortar", "pestle", "herbs", "sauce"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16c0 4.5-3.5 7.5-8 7.5S4 15.5 4 11z\"/><path class=\"p2\" d=\"M5.5 8C5.5 5 8 3.5 10.5 3.5C10.5 6 8.5 8 5.5 8z\"/><path class=\"p3\" d=\"M19 3L12.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "stir", "dur": 1000, "delay": 1200 }
+  ]
+}

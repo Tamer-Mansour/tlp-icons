@@ -1,0 +1,12 @@
+{
+  "name": "row-data",
+  "category": "development",
+  "tags": ["row", "data", "bar", "horizontal", "chart", "metrics"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><rect class=\"p2\" x=\"6\" y=\"5\" width=\"10\" height=\"3\"/><rect class=\"p3\" x=\"6\" y=\"10.5\" width=\"14\" height=\"3\"/><rect class=\"p4\" x=\"6\" y=\"16\" width=\"7\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300, "origin": "left" },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 500, "origin": "left" },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 700, "origin": "left" }
+  ]
+}

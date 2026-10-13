@@ -1,0 +1,10 @@
+{
+  "name": "footbag",
+  "category": "sport",
+  "tags": ["footbag", "hacky", "sack", "kick", "bean", "bag"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M14.5 16.5l4 4M18.5 20.5l1.5-1.5M17.5 17.5l1 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

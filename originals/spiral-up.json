@@ -1,0 +1,10 @@
+{
+  "name": "spiral-up",
+  "category": "arrows",
+  "tags": ["spiral", "up", "rise", "coil", "climb", "loop"],
+  "svg": "<path class=\"p1\" d=\"M12 21C8 21 8 17 12 17S16 13 12 13S8 9 12 9V4\"/><path class=\"p2\" d=\"M9 7l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 500, "delay": 1300 }
+  ]
+}

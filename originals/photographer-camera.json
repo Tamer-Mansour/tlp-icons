@@ -1,0 +1,11 @@
+{
+  "name": "photographer-camera",
+  "category": "people",
+  "tags": ["photographer", "camera", "photo", "lens", "person"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 20a4.5 4.5 0 0 1 9 0\"/><rect class=\"p2\" x=\"13\" y=\"11\" width=\"9\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M15 11l1-2h3l1 2\"/><circle class=\"p3\" cx=\"17.5\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

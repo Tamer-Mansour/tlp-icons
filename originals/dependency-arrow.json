@@ -1,0 +1,11 @@
+{
+  "name": "dependency-arrow",
+  "category": "arrows",
+  "tags": ["dependency", "depends on", "link", "flow", "boxes", "relation"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"7\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"13\" y=\"14\" width=\"7\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M9 7h6v4M13 9l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sync-status",
+  "category": "interface",
+  "tags": ["sync", "refresh", "loop", "status", "update", "cycle"],
+  "svg": "<path class=\"p1\" d=\"M20 11a8 8 0 0 0-14.5-3.5\"/><path class=\"p1\" d=\"M4 13a8 8 0 0 0 14.5 3.5\"/><path class=\"p2\" d=\"M20 4.5V9h-4.5\"/><path class=\"p2\" d=\"M4 19.5V15h4.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "calorie-ring",
+  "category": "charts",
+  "tags": ["calorie", "ring", "goal", "progress", "fitness"],
+  "svg": "<path class=\"p1\" d=\"M12 3A9 9 0 1 1 5.64 5.64\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tornado-alert",
+  "category": "notifications",
+  "tags": ["tornado", "storm", "wind", "twister", "alert", "warning"],
+  "svg": "<path class=\"p1\" d=\"M4 4h14M6.5 8.5h9.5M9.5 13h4.5\"/><path class=\"p2\" d=\"M12 13v8\"/><line class=\"p3\" x1=\"20.5\" y1=\"12\" x2=\"20.5\" y2=\"17\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

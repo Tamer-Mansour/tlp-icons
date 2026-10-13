@@ -1,0 +1,11 @@
+{
+  "name": "truss-triangle",
+  "category": "shapes",
+  "tags": ["truss", "bridge", "triangle", "brace", "structure", "engineering"],
+  "svg": "<path class=\"p1\" d=\"M12 2L21 20H3Z\"/><line class=\"p2\" x1=\"8\" y1=\"10\" x2=\"16\" y2=\"10\"/><line class=\"p2\" x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/><line class=\"p3\" x1=\"8\" y1=\"10\" x2=\"19\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

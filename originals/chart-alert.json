@@ -1,0 +1,10 @@
+{
+  "name": "chart-alert",
+  "category": "notifications",
+  "tags": ["chart", "bars", "alert", "graph", "warning"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"p1\" d=\"M5 19v-4M11 19v-8M17 19v-5\"/><path class=\"p2\" d=\"M17 3v3.5\"/><circle class=\"f p2\" cx=\"17\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "willow-tree",
+  "category": "nature",
+  "tags": ["willow", "weeping willow", "drooping branches", "tree", "river"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 Q4 4 12 4 Q20 4 20 10 Q18 9 16 12 Q14 14 12 13 Q10 14 8 12 Q6 9 4 10 Z\"/><path class=\"p3\" d=\"M12 13 V21\"/><path class=\"p2\" d=\"M7.5 12 Q6.5 16 7 19.5 M16.5 12 Q17.5 16 17 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 1100 }
+  ]
+}

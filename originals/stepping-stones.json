@@ -1,0 +1,10 @@
+{
+  "name": "stepping-stones",
+  "category": "buildings",
+  "tags": ["stepping", "stones", "path", "garden", "walkway", "steps"],
+  "svg": "<ellipse class=\"d p1\" cx=\"5.5\" cy=\"18\" rx=\"3\" ry=\"2\"/><ellipse class=\"d p1\" cx=\"11.5\" cy=\"12.5\" rx=\"2.5\" ry=\"1.5\"/><ellipse class=\"p2\" cx=\"17.5\" cy=\"7\" rx=\"2\" ry=\"1.25\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 600 }
+  ]
+}

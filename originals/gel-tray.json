@@ -1,0 +1,11 @@
+{
+  "name": "gel-tray",
+  "category": "science",
+  "tags": ["gel", "tray", "electrophoresis", "wells", "lab", "dna"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"1\"/><circle class=\"p2\" cx=\"6\" cy=\"8.5\" r=\"1\"/><circle class=\"p2\" cx=\"10\" cy=\"8.5\" r=\"1\"/><circle class=\"p2\" cx=\"14\" cy=\"8.5\" r=\"1\"/><circle class=\"p2\" cx=\"18\" cy=\"8.5\" r=\"1\"/><path class=\"p3\" d=\"M5 14 Q7.5 12.5 10 14 T15 14 T20 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 1000 }
+  ]
+}

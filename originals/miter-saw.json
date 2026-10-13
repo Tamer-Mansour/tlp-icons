@@ -1,0 +1,11 @@
+{
+  "name": "miter-saw",
+  "category": "tools",
+  "tags": ["miter", "saw", "chop", "angle", "cut", "trim"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"16\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M12 16v-4\"/><path class=\"p3\" d=\"M5 6l14 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 800, "origin": "12px 12px" }
+  ]
+}

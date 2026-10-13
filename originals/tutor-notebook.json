@@ -1,0 +1,11 @@
+{
+  "name": "tutor-notebook",
+  "category": "people",
+  "tags": ["tutor", "notebook", "teaching", "lesson", "pencil", "study"],
+  "svg": "<path class=\"d p1\" d=\"M3 5 Q7 4 12 6 Q17 4 21 5 V18 Q17 17 12 19 Q7 17 3 18 Z\"/><line class=\"p2\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"19\"/><path class=\"p3\" d=\"M14 13 L18 9 L20 11 L16 15 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1100, "origin": "16px 13px" }
+  ]
+}

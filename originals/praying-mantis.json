@@ -1,0 +1,11 @@
+{
+  "name": "praying-mantis",
+  "category": "nature",
+  "tags": ["mantis", "praying", "insect", "predator", "legs", "bug"],
+  "svg": "<path class=\"p1\" d=\"M13 8L10 21\"/><path class=\"p3\" d=\"M13 10L17 10L15 13M11 15L6 17M11 18L15 21\"/><circle class=\"p2\" cx=\"14\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 1100 }
+  ]
+}

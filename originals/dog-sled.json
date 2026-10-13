@@ -1,0 +1,11 @@
+{
+  "name": "dog-sled",
+  "category": "vehicles",
+  "tags": ["dog", "sled", "sledge", "snow", "runner"],
+  "svg": "<path class=\"p1\" d=\"M3 18Q12 21 21 18\"/><rect class=\"p2\" x=\"6\" y=\"11\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M16 11l3-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 900 }
+  ]
+}

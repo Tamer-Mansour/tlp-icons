@@ -1,0 +1,11 @@
+{
+  "name": "mirage",
+  "category": "weather",
+  "tags": ["horizon", "heat", "reflection", "desert", "shimmer", "weather"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><polyline class=\"p2\" points=\"4,12 9,5 14,12\"/><path class=\"p3\" d=\"M6 15h2M11 15h3M16 15h4M8 18h4M15 18h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

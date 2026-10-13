@@ -1,0 +1,11 @@
+{
+  "name": "grouse",
+  "category": "nature",
+  "tags": ["grouse", "bird", "feathered crest", "round body", "game bird", "moor"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M9 9L8 5M12 8L12 4M15 9L16 5\"/><circle class=\"f p3\" cx=\"15\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1000 }
+  ]
+}

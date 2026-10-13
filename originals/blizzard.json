@@ -1,0 +1,10 @@
+{
+  "name": "blizzard",
+  "category": "weather",
+  "tags": ["blizzard", "snow", "wind", "storm", "winter", "weather"],
+  "svg": "<path class=\"p1\" d=\"M8 4 V20 M3.5 8 L12.5 16 M3.5 16 L12.5 8\"/><path class=\"p2\" d=\"M14 9 H21 M18 6.5 L21 9 L18 11.5 M14 16 H21 M18 13.5 L21 16 L18 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 1000, "delay": 800 }
+  ]
+}

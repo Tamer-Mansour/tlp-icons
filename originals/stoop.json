@@ -1,0 +1,10 @@
+{
+  "name": "stoop",
+  "category": "buildings",
+  "tags": ["stoop", "stairs", "door", "steps", "entrance"],
+  "svg": "<path class=\"d p1\" d=\"M14 3H21V9H14Z\"/><path class=\"p2\" d=\"M2 21H7V18H11V15H15V12H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

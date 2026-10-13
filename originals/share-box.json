@@ -1,0 +1,10 @@
+{
+  "name": "share-box",
+  "category": "interface",
+  "tags": ["share", "box", "export", "exit", "send", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M3 14v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5\"/><path class=\"p2\" d=\"M9 14 17 6M11 6h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 800, "delay": 800 }
+  ]
+}

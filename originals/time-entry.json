@@ -1,0 +1,11 @@
+{
+  "name": "time-entry",
+  "category": "time",
+  "tags": ["time", "entry", "log", "pencil", "clock"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"7\"/><polyline class=\"p2\" points=\"9 8 9 12 12 12\"/><path class=\"p3\" d=\"M14 18l1-3.5L19.5 9.5 22 12l-5 5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1200 }
+  ]
+}

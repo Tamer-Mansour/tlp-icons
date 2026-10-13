@@ -1,0 +1,11 @@
+{
+  "name": "plane-takeoff-arrow",
+  "category": "arrows",
+  "tags": ["takeoff", "plane", "runway", "rise", "arrows"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><path class=\"p2\" d=\"M5 17L17 7\"/><polyline class=\"p3\" points=\"11 7 17 7 17 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 }
+  ]
+}

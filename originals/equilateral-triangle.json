@@ -1,0 +1,10 @@
+{
+  "name": "equilateral-triangle",
+  "category": "math",
+  "tags": ["equilateral", "triangle", "equal", "sides", "geometry", "angles"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 21,19 3,19\"/><path class=\"p2\" d=\"M12 3V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

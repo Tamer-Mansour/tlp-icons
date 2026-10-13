@@ -1,0 +1,12 @@
+{
+  "name": "remove-duplicates",
+  "category": "text",
+  "tags": ["duplicate", "remove", "list", "delete", "rows"],
+  "svg": "<path class=\"p1\" d=\"M4 6H20\"/><path class=\"p2\" d=\"M4 12H20\"/><path class=\"p3\" d=\"M4 18H13\"/><path class=\"p4\" d=\"M16 15L20 19M20 15L16 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

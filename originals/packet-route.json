@@ -1,0 +1,11 @@
+{
+  "name": "packet-route",
+  "category": "connectivity",
+  "tags": ["packet", "route", "routing", "path", "hops", "data"],
+  "svg": "<polyline class=\"p1\" points=\"4 18 10 18 10 10 16 10 16 5\"/><path class=\"p2\" d=\"M13.5 7.5L16 5L18.5 7.5\"/><circle class=\"f p3\" cx=\"4\" cy=\"18\" r=\"1.2\"/><circle class=\"f p3\" cx=\"10\" cy=\"10\" r=\"1.2\"/><circle class=\"f p3\" cx=\"16\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "snowmelt",
+  "category": "weather",
+  "tags": ["snow", "melt", "snowflake", "drip", "water", "weather"],
+  "svg": "<path class=\"p1\" d=\"M9 4v8M5 8h8M6 5l6 6M12 5l-6 6\"/><path class=\"d p2\" d=\"M16 13c0 0-3 3.5-3 5.5a3 3 0 0 0 6 0c0-2-3-5.5-3-5.5z\"/><circle class=\"f p3\" cx=\"11.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

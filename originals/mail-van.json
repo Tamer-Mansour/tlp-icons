@@ -1,0 +1,12 @@
+{
+  "name": "mail-van",
+  "category": "communication",
+  "tags": ["van", "mail", "delivery", "post", "parcel", "letter"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"11.5\" height=\"7.5\" rx=\"1\"/><path class=\"p2\" d=\"M14 10h3.5l2.5 3v1.5H14z\"/><circle class=\"p3\" cx=\"7\" cy=\"17.5\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"17.5\" r=\"2\"/><rect class=\"p4\" x=\"5\" y=\"9.5\" width=\"6.5\" height=\"3.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

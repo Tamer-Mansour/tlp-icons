@@ -1,0 +1,12 @@
+{
+  "name": "plug-in-car",
+  "category": "vehicles",
+  "tags": ["plug", "car", "charging", "electric", "cable"],
+  "svg": "<path class=\"p1\" d=\"M2 16v-3.5l2.5-4.5h9.5l3.5 4.5H21V16z\"/><g class=\"p2\"><circle cx=\"7\" cy=\"16\" r=\"2\"/><circle cx=\"17\" cy=\"16\" r=\"2\"/></g><rect class=\"d p4\" x=\"14.5\" y=\"5\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p5\" d=\"M16 2v3M18.5 2v3M17 9v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "fillIn", "dur": 400, "delay": 900 },
+    { "part": "p5", "anim": "draw", "dur": 400, "delay": 1300 }
+  ]
+}

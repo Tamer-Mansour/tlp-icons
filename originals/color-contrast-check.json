@@ -1,0 +1,11 @@
+{
+  "name": "color-contrast-check",
+  "category": "design",
+  "tags": ["color", "contrast", "check", "accessibility", "squares", "wcag"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"12\" rx=\"1\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"12\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M13 15l2.5 2.5L20 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

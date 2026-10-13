@@ -1,0 +1,12 @@
+{
+  "name": "benefits-package",
+  "category": "people",
+  "tags": ["benefits", "gift", "package", "perks", "present", "box"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"18\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"4\" y=\"12\" width=\"16\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M12 7C10 4.5 7.5 5 8.5 6.5L12 7\"/><path class=\"p3\" d=\"M12 7C14 4.5 16.5 5 15.5 6.5L12 7\"/><path class=\"p4\" d=\"M12 10.2L10.4 8.6C9.6 7.8 10.3 7 11 7.6L12 8.5L13 7.6C13.7 7 14.4 7.8 13.6 8.6Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "beat", "dur": 600, "delay": 1400 }
+  ]
+}

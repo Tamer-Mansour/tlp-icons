@@ -1,0 +1,11 @@
+{
+  "name": "tracking-letters",
+  "category": "design",
+  "tags": ["tracking", "letter", "spacing", "kerning", "text", "typography"],
+  "svg": "<path class=\"p1\" d=\"M2 17l4-11 4 11M3.2 13.5h3.6\"/><path class=\"p2\" d=\"M16 6h3M17.5 6v11M16 17h3\"/><path class=\"p3\" d=\"M11 21h4.5M12.5 19.5L11 21l1.5 1.5M14 19.5l1.5 1.5-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

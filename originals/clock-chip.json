@@ -1,0 +1,11 @@
+{
+  "name": "clock-chip",
+  "category": "devices",
+  "tags": ["clock", "chip", "timing", "signal", "oscillator", "hardware"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M9 4v4M15 4v4M9 16v4M15 16v4\"/><polyline class=\"p2\" points=\"8,12 10,12 10,10 12,10 12,12 14,12 14,10 16,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "jelly", "dur": 800, "delay": 1000 }
+  ]
+}

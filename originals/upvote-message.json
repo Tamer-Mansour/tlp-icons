@@ -1,0 +1,10 @@
+{
+  "name": "upvote-message",
+  "category": "communication",
+  "tags": ["upvote", "message", "like", "vote", "arrow", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h13v12H9l-5 4v-4H4z\"/><path class=\"p2\" d=\"M20 19v-8M17.5 13.5L20 11l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 600 }
+  ]
+}

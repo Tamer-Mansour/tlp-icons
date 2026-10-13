@@ -1,0 +1,10 @@
+{
+  "name": "telegraph-wire",
+  "category": "communication",
+  "tags": ["telegraph", "wire", "poles", "telephone line", "telecom", "cable", "overhead"],
+  "svg": "<path class=\"p1\" d=\"M5 3 V21 M19 3 V21 M3 6 H21\"/><path class=\"p2\" d=\"M5 6 Q12 22 19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 500, "origin": "5px 6px" }
+  ]
+}

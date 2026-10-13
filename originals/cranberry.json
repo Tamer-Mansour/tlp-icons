@@ -1,0 +1,11 @@
+{
+  "name": "cranberry",
+  "category": "food",
+  "tags": ["cranberry", "berry", "fruit", "tart", "sauce"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"14\" r=\"4\"/><circle class=\"d p2\" cx=\"15.5\" cy=\"11\" r=\"4\"/><path class=\"p3\" d=\"M11 6c1-2.5 3-3.5 5.5-3.5C16 5 14 6.5 11 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

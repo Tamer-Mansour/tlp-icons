@@ -1,0 +1,11 @@
+{
+  "name": "gerbil",
+  "category": "nature",
+  "tags": ["gerbil", "rodent", "pet", "desert", "hopper", "small"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"5\" ry=\"3\"/><circle class=\"p1\" cx=\"6\" cy=\"10\" r=\"2.5\"/><path class=\"p2\" d=\"M14 15 L17 19 H19 M8 16 V19\"/><path class=\"p3\" d=\"M16 12 Q20 10 21 6 Q22 4 20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000, "origin": "16px 12px" }
+  ]
+}

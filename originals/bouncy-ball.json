@@ -1,0 +1,11 @@
+{
+  "name": "bouncy-ball",
+  "category": "sport",
+  "tags": ["bouncy", "ball", "bounce", "rubber", "play", "toy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"6\"/><line class=\"p2\" x1=\"6\" y1=\"21\" x2=\"18\" y2=\"21\"/><path class=\"p3\" d=\"M18 3.5Q21 5 21 8M6 3.5Q3 5 3 8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 300 },
+    { "part": "p1", "anim": "hop", "dur": 900, "delay": 600 }
+  ]
+}

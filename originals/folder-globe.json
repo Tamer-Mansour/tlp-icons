@@ -1,0 +1,11 @@
+{
+  "name": "folder-globe",
+  "category": "files",
+  "tags": ["folder", "globe", "world", "international", "global", "earth"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"14.5\" r=\"3.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"14.5\" rx=\"1.5\" ry=\"3.5\"/><path class=\"p3\" d=\"M8.5 14.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1100, "delay": 1000 }
+  ]
+}

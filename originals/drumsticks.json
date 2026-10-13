@@ -1,0 +1,11 @@
+{
+  "name": "drumsticks",
+  "category": "media",
+  "tags": ["drumsticks", "drum", "sticks", "percussion", "beat", "music"],
+  "svg": "<path class=\"p1\" d=\"M4 4L14 14\"/><path class=\"p2\" d=\"M20 4L10 14\"/><circle class=\"d p3\" cx=\"12\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

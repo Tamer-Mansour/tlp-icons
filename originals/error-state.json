@@ -1,0 +1,11 @@
+{
+  "name": "error-state",
+  "category": "interface",
+  "tags": ["error", "warning", "alert", "problem", "exclamation", "fault"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5L21.5 19.5H2.5z\"/><path class=\"p2\" d=\"M12 9.5v4.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"16.8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

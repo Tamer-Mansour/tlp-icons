@@ -1,0 +1,11 @@
+{
+  "name": "catalytic-converter",
+  "category": "vehicles",
+  "tags": ["catalytic", "converter", "exhaust", "emissions", "honeycomb"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 9.5l2 1.2v2.3l-2 1.2-2-1.2v-2.3zM14 14.5l-1-.6M3 12h4M17 12h4\"/><path class=\"p3\" d=\"M3 12h4M17 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

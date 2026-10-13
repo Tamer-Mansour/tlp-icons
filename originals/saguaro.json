@@ -1,0 +1,11 @@
+{
+  "name": "saguaro",
+  "category": "nature",
+  "tags": ["cactus", "saguaro", "desert", "arms", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M10 22 V4 Q10 2 12 2 Q14 2 14 4 V22 Z\"/><path class=\"p2\" d=\"M10 14 H6 Q4 14 4 12 V8\"/><path class=\"p3\" d=\"M14 17 H18 Q20 17 20 15 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "14px 17px" }
+  ]
+}

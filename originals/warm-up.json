@@ -1,0 +1,11 @@
+{
+  "name": "warm-up",
+  "category": "sport",
+  "tags": ["warm", "up", "thermometer", "heat", "flame"],
+  "svg": "<path class=\"d p1\" d=\"M10 4A2 2 0 0 1 14 4V13.1A3.5 3.5 0 1 1 10 13.1Z\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"14\"/><path class=\"p3\" d=\"M18 13.5C19.5 15.5 20.5 17 20.5 19A2.5 2.5 0 0 1 15.5 19C15.5 17 16.5 15.5 18 13.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1200 }
+  ]
+}

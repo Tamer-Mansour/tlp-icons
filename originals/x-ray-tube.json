@@ -1,0 +1,10 @@
+{
+  "name": "x-ray-tube",
+  "category": "science",
+  "tags": ["x-ray", "tube", "cathode", "anode", "radiation"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M2 12h4M18 12h4M8 7v10M16 5v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 700 }
+  ]
+}

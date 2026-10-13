@@ -1,0 +1,11 @@
+{
+  "name": "port-number",
+  "category": "development",
+  "tags": ["port", "number", "plug", "socket", "network", "connection"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"11\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M6 10.5h5M6 13.5h3\"/><path class=\"p3\" d=\"M14 12h3\"/><rect class=\"p3\" x=\"17\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

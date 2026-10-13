@@ -1,0 +1,11 @@
+{
+  "name": "cart-add",
+  "category": "interface",
+  "tags": ["cart", "add", "shopping", "basket", "buy", "plus"],
+  "svg": "<path class=\"p1\" d=\"M3 4h2l2.5 11h9.5l2-8H6.5\"/><circle class=\"p2\" cx=\"9\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"17\" cy=\"19.5\" r=\"1.5\"/><path class=\"p3\" d=\"M18 1.5v3M16.5 3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

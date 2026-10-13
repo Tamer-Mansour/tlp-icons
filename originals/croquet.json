@@ -1,0 +1,12 @@
+{
+  "name": "croquet",
+  "category": "sport",
+  "tags": ["croquet", "mallet", "hoop", "lawn", "ball", "garden"],
+  "svg": "<path class=\"p1\" d=\"M3 3L9 9\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"7\" height=\"3\" rx=\"1\" transform=\"rotate(45 11.5 8.5)\"/><path class=\"p3\" d=\"M3 21V17A3 3 0 0 1 9 17V21\"/><circle class=\"d p4\" cx=\"17\" cy=\"17\" r=\"3\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "strike", "dur": 500, "delay": 1300, "origin": "3px 3px" }
+  ]
+}

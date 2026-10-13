@@ -1,0 +1,11 @@
+{
+  "name": "volume-knob",
+  "category": "media",
+  "tags": ["volume", "knob", "audio", "dial", "level", "control"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p3\" d=\"M5 5A10 10 0 0 1 9 2.5\"/><path class=\"p2\" d=\"M12 12L15 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

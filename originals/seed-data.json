@@ -1,0 +1,11 @@
+{
+  "name": "seed-data",
+  "category": "development",
+  "tags": ["seed", "data", "database", "sprout", "initial", "fixtures"],
+  "svg": "<path class=\"p1\" d=\"M12 13V8.5\"/><path class=\"p2\" d=\"M12 10C12 7.5 10 6 7 6c0 2.5 2 4 5 4zM12 8.5c0-2.5 2-4 5-4 0 2.5-2 4-5 4z\"/><rect class=\"d p3\" x=\"4\" y=\"16\" width=\"16\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pavilion-roof",
+  "category": "buildings",
+  "tags": ["pavilion", "roof", "posts", "shelter", "canopy", "gazebo"],
+  "svg": "<path class=\"p1\" d=\"M2 9L12 3l10 6\"/><path class=\"p2\" d=\"M5 9v12M9 9v12M15 9v12M19 9v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700 }
+  ]
+}

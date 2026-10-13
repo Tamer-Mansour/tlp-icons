@@ -1,0 +1,10 @@
+{
+  "name": "rich-text-format",
+  "category": "design",
+  "tags": ["text", "bold", "italic", "format", "document", "style"],
+  "svg": "<path class=\"p1\" d=\"M6 3h8l4 4v14H6z\"/><path class=\"p2\" d=\"M9 17l2-7 2 7M9.5 14h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 800, "delay": 600 }
+  ]
+}

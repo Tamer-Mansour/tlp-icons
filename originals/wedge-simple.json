@@ -1,0 +1,10 @@
+{
+  "name": "wedge-simple",
+  "category": "science",
+  "tags": ["wedge", "simple machine", "triangle", "force", "push", "physics", "ramp"],
+  "svg": "<path class=\"d p1\" d=\"M4 6v13h16z\"/><path class=\"p2\" d=\"M17 11l-2.8 2.8\"/><polyline class=\"p2\" points=\"14,11 14,14 11,14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 800, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "security-patrol-flashlight",
+  "category": "people",
+  "tags": ["security", "flashlight", "patrol", "guard", "beam", "night"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"7\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"13\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M15 10.5 L21 6 M15 13.5 L21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1200 }
+  ]
+}

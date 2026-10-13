@@ -1,0 +1,12 @@
+{
+  "name": "reaction-laugh",
+  "category": "communication",
+  "tags": ["laugh", "reaction", "funny", "tears", "lol", "face", "joy"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"11\" r=\"8\"/><circle class=\"f p2\" cx=\"7\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"13\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M6.5 13.5h7a3.5 3.5 0 0 1-7 0z\"/><path class=\"p4\" d=\"M20 6.5v2.5M21.5 11.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "drip", "dur": 800, "delay": 1200 }
+  ]
+}

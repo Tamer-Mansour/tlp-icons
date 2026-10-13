@@ -1,0 +1,11 @@
+{
+  "name": "rank-belt",
+  "category": "sport",
+  "tags": ["rank", "belt", "martial", "arts", "grade"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\"/><line class=\"p2\" x1=\"6\" y1=\"12\" x2=\"10\" y2=\"12\"/><path class=\"p3\" d=\"M16 15L14.5 19.5M18 15L19.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100, "origin": "17px 15px" }
+  ]
+}

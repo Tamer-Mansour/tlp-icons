@@ -1,0 +1,11 @@
+{
+  "name": "logout-timer",
+  "category": "security",
+  "tags": ["logout", "timer", "exit", "door", "session", "clock"],
+  "svg": "<path class=\"p1\" d=\"M10 4H4V20H10\"/><path class=\"p2\" d=\"M9 10H20M16 6L20 10L16 14\"/><circle class=\"d p3\" cx=\"17\" cy=\"17\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1200 }
+  ]
+}

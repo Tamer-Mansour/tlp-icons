@@ -1,0 +1,12 @@
+{
+  "name": "tree-nested",
+  "category": "layout",
+  "tags": ["nested", "tree", "folders", "indent", "hierarchy", "rows", "levels"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"11\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"13\" y=\"17\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M5 7v5h3M10 14v3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

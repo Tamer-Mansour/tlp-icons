@@ -1,0 +1,10 @@
+{
+  "name": "rattlesnake",
+  "category": "nature",
+  "tags": ["snake", "rattle", "venom", "reptile", "animal"],
+  "svg": "<path class=\"p1\" d=\"M4 20 C8 20 8 14 12 14 C16 14 16 9 12 9 C9 9 10 5 16 5\"/><circle class=\"d p2\" cx=\"18\" cy=\"4\" r=\"1.5\"/><circle class=\"d p2\" cx=\"19.5\" cy=\"7.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

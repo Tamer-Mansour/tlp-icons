@@ -1,0 +1,11 @@
+{
+  "name": "mint-plant",
+  "category": "nature",
+  "tags": ["mint", "herb", "plant", "leaves", "garden"],
+  "svg": "<path class=\"p1\" d=\"M12 21V5\"/><path class=\"d p2\" d=\"M12 16Q6 16 5 11Q10 10 12 13Z\"/><path class=\"d p2\" d=\"M12 16Q18 16 19 11Q14 10 12 13Z\"/><path class=\"d p3\" d=\"M12 11Q8 11 7 7Q11 6 12 9Z\"/><path class=\"d p3\" d=\"M12 11Q16 11 17 7Q13 6 12 9Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1300, "origin": "12px 11px" }
+  ]
+}

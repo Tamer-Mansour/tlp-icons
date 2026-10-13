@@ -1,0 +1,11 @@
+{
+  "name": "steel-mill",
+  "category": "buildings",
+  "tags": ["steel", "mill", "smokestack", "furnace", "flame", "industry"],
+  "svg": "<path class=\"p1\" d=\"M5 16 V5 H9 V16 M15 16 V5 H19 V16\"/><rect class=\"d p2\" x=\"4\" y=\"18\" width=\"16\" height=\"3\"/><path class=\"p3\" d=\"M11 16 Q12 11 13 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1200, "origin": "bottom" }
+  ]
+}

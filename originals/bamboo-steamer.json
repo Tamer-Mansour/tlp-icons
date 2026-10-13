@@ -1,0 +1,11 @@
+{
+  "name": "bamboo-steamer",
+  "category": "home",
+  "tags": ["bamboo", "steamer", "baskets", "dumpling", "kitchen"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"18\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M3 15h18\"/><path class=\"d p3\" d=\"M3 10a9 5 0 0 1 18 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

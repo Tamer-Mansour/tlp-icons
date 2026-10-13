@@ -1,0 +1,11 @@
+{
+  "name": "pen-bezier",
+  "category": "interface",
+  "tags": ["bezier", "pen", "curve", "path", "handles", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 18C8 6 16 18 20 6\"/><path class=\"p2\" d=\"M4 18L8 6\"/><path class=\"p3\" d=\"M20 6L16 18\"/><circle class=\"f p2\" cx=\"8\" cy=\"6\" r=\"1.2\"/><circle class=\"f p3\" cx=\"16\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

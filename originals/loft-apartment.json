@@ -1,0 +1,10 @@
+{
+  "name": "loft-apartment",
+  "category": "buildings",
+  "tags": ["loft", "apartment", "attic", "roof window", "home"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V10l8-7 8 7v11z\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

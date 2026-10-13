@@ -1,0 +1,12 @@
+{
+  "name": "orbit-network",
+  "category": "connectivity",
+  "tags": ["orbit", "network", "nodes", "ring", "satellites", "mesh", "constellation"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"8\" ry=\"5\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1.2\"/><circle class=\"f p3\" cx=\"20\" cy=\"12\" r=\"1.2\"/><circle class=\"f p4\" cx=\"6.3\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1050 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

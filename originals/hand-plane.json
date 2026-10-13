@@ -1,0 +1,11 @@
+{
+  "name": "hand-plane",
+  "category": "tools",
+  "tags": ["plane", "woodwork", "planer", "smooth", "block", "carpentry"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"15\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M18 13 V9 Q18 6 21 6\"/><path class=\"p3\" d=\"M4 9 Q6 7 8 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

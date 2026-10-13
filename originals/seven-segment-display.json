@@ -1,0 +1,10 @@
+{
+  "name": "seven-segment-display",
+  "category": "devices",
+  "tags": ["digit", "segment", "counter", "number", "display", "led"],
+  "svg": "<path class=\"p1\" d=\"M8 3h8M8 12h8M8 21h8\"/><path class=\"p2\" d=\"M6 4v7M18 4v7M6 13v7M18 13v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 }
+  ]
+}

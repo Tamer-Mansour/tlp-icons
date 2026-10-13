@@ -1,0 +1,11 @@
+{
+  "name": "tree-node",
+  "category": "development",
+  "tags": ["tree", "node", "branch", "root", "graph", "dot"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5v3M6 10.5h12M6 10.5v5M18 10.5v5\"/><circle class=\"d p3\" cx=\"6\" cy=\"18\" r=\"2.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"18\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

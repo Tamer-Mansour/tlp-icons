@@ -1,0 +1,11 @@
+{
+  "name": "squash-court",
+  "category": "sport",
+  "tags": ["squash", "court", "ball", "wall", "racquet", "sport"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M3 15H21M12 15V21\"/><circle class=\"f p3\" cx=\"8\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1200 }
+  ]
+}

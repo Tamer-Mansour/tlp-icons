@@ -1,0 +1,10 @@
+{
+  "name": "firefighter-person-helmet",
+  "category": "people",
+  "tags": ["firefighter", "helmet", "fire", "rescue", "person", "emergency"],
+  "svg": "<path class=\"d p1\" d=\"M5 9a7 7 0 0 1 14 0z\"/><path class=\"p1\" d=\"M3 9h18\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"2.5\"/><path class=\"p2\" d=\"M6 22c0-2.3 2.7-4 6-4s6 1.7 6 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 }
+  ]
+}

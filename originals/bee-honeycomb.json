@@ -1,0 +1,10 @@
+{
+  "name": "bee-honeycomb",
+  "category": "science",
+  "tags": ["biology", "bee", "honeycomb", "hive", "insect"],
+  "svg": "<polygon class=\"p1\" points=\"8 4 11.5 6 11.5 10 8 12 4.5 10 4.5 6\"/><polygon class=\"p1\" points=\"15 4 18.5 6 18.5 10 15 12 11.5 10 11.5 6\"/><polygon class=\"d p2\" points=\"11.5 10 15 12 15 16 11.5 18 8 16 8 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

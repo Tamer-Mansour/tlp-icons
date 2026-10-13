@@ -1,0 +1,11 @@
+{
+  "name": "nurse-person-cross",
+  "category": "people",
+  "tags": ["nurse", "medical", "cap", "cross", "health", "care"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"11.5\" r=\"3\"/><path class=\"p1\" d=\"M5 22c0-3.3 3-5.5 7-5.5s7 2.2 7 5.5\"/><rect class=\"p2\" x=\"8.5\" y=\"2\" width=\"7\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M12 3.2v1.6M11.2 4h1.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "spirit-level",
+  "category": "tools",
+  "tags": ["level", "spirit", "bubble", "leveling", "measure"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"9\" y=\"10\" width=\"6\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 900 }
+  ]
+}

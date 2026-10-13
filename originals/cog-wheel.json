@@ -1,0 +1,11 @@
+{
+  "name": "cog-wheel",
+  "category": "shapes",
+  "tags": ["cog", "gear", "wheel", "teeth", "machine"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M19 12H22M15.5 18.1L17 20.7M8.5 18.1L7 20.7M5 12H2M8.5 5.9L7 3.3M15.5 5.9L17 3.3\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

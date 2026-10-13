@@ -1,0 +1,11 @@
+{
+  "name": "ringtone",
+  "category": "media",
+  "tags": ["ringtone", "phone", "call", "ring", "sound"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M11 18h2\"/><path class=\"p2\" d=\"M4.5 9.5q-1.5 2.5 0 5M19.5 9.5q1.5 2.5 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

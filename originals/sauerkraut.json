@@ -1,0 +1,11 @@
+{
+  "name": "sauerkraut",
+  "category": "food",
+  "tags": ["sauerkraut", "fermented", "crock", "cabbage", "fork", "pickle"],
+  "svg": "<path class=\"d p1\" d=\"M4 6.5h10v11.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><ellipse class=\"p2\" cx=\"9\" cy=\"10.5\" rx=\"3.5\" ry=\"1.2\"/><path class=\"p3\" d=\"M18 3v4.5a2 2 0 0 0 4 0V3M20 9.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

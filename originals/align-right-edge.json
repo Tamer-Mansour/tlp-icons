@@ -1,0 +1,11 @@
+{
+  "name": "align-right-edge",
+  "category": "interface",
+  "tags": ["align", "right", "edge", "layout", "bars", "justify"],
+  "svg": "<path class=\"p1\" d=\"M21 3V21\"/><rect class=\"d p2\" x=\"5\" y=\"6\" width=\"12\" height=\"5\"/><rect class=\"d p3\" x=\"9\" y=\"13\" width=\"8\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

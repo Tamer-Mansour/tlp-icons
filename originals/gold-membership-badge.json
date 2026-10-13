@@ -1,0 +1,11 @@
+{
+  "name": "gold-membership-badge",
+  "category": "people",
+  "tags": ["gold", "membership", "badge", "medal", "star", "premium"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M8.5 14.5L6.5 21 9 19.5 12 21 15 19.5 17.5 21 15.5 14.5\"/><polygon class=\"p3\" points=\"12,6.5 13,8.5 15.2,8.8 13.6,10.3 14,12.5 12,11.5 10,12.5 10.4,10.3 8.8,8.8 11,8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

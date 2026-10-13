@@ -1,0 +1,11 @@
+{
+  "name": "status-busy",
+  "category": "notifications",
+  "tags": ["busy", "status", "user", "do not disturb", "presence"],
+  "svg": "<circle class=\"p1\" cx=\"9.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3 21v-1a5.5 5.5 0 0 1 5.5-5.5h1\"/><circle class=\"d p2\" cx=\"17.5\" cy=\"17.5\" r=\"4\"/><line class=\"p3\" x1=\"15.5\" y1=\"17.5\" x2=\"19.5\" y2=\"17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "umbrella-alert",
+  "category": "notifications",
+  "tags": ["umbrella", "rain", "alert", "warning", "weather", "wet"],
+  "svg": "<path class=\"d p1\" d=\"M3 12a9 9 0 0 1 18 0Z\"/><path class=\"p2\" d=\"M12 12v5a2 2 0 0 1-4 0\"/><path class=\"p3\" d=\"M20.5 15v3.5\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

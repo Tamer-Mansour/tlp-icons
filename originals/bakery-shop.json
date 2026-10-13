@@ -1,0 +1,11 @@
+{
+  "name": "bakery-shop",
+  "category": "buildings",
+  "tags": ["bakery", "bread", "pastry", "shop", "store", "awning"],
+  "svg": "<path class=\"p1\" d=\"M3 10h18l-1.5-6h-15z\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"1\"/><path class=\"p3\" d=\"M8 17q4-5 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

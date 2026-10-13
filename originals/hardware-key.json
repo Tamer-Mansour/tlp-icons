@@ -1,0 +1,11 @@
+{
+  "name": "hardware-key",
+  "category": "security",
+  "tags": ["hardware", "key", "fob", "usb", "token", "authentication"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M9.5 16.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "carriage-return",
+  "category": "text",
+  "tags": ["carriage", "return", "start", "line", "back", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 5v14\"/><path class=\"p2\" d=\"M20 5v6a2 2 0 0 1-2 2H7\"/><path class=\"p3\" d=\"M10 10l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1200 }
+  ]
+}

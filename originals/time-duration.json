@@ -1,0 +1,11 @@
+{
+  "name": "time-duration",
+  "category": "time",
+  "tags": ["duration", "time", "span", "length", "bracket", "interval", "period"],
+  "svg": "<path class=\"p1\" d=\"M4 14v6h16v-6\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"4\"/><path class=\"p3\" d=\"M12 5.5V7h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

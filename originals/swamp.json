@@ -1,0 +1,10 @@
+{
+  "name": "swamp",
+  "category": "nature",
+  "tags": ["swamp", "reeds", "marsh", "water", "wetland", "nature"],
+  "svg": "<path class=\"p1\" d=\"M2 19Q5 17 8 19Q11 21 14 19Q17 17 20 19\"/><path class=\"p2\" d=\"M7 16V9M10 16V5M14 16V8M17 16V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 800, "origin": "bottom" }
+  ]
+}

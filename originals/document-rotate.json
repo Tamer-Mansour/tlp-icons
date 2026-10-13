@@ -1,0 +1,10 @@
+{
+  "name": "document-rotate",
+  "category": "files",
+  "tags": ["document", "rotate", "turn", "orientation", "page", "spin"],
+  "svg": "<path class=\"p1\" d=\"M5 3h9l5 5v13H5z\"/><path class=\"p2\" d=\"M14 13.5a3.5 3.5 0 1 1-1 4.5M14 11v3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800, "origin": "14px 17px" }
+  ]
+}

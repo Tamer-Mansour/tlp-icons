@@ -1,0 +1,10 @@
+{
+  "name": "exhaust-manifold",
+  "category": "vehicles",
+  "tags": ["exhaust", "manifold", "pipe", "header", "engine", "outlet"],
+  "svg": "<path class=\"p1\" d=\"M3 4c3 2 5 5 9 7\"/><path class=\"p1\" d=\"M8 3c1 3 2.5 5 4 7\"/><path class=\"p1\" d=\"M16 3c-1 3-2.5 5-4 7\"/><path class=\"p1\" d=\"M21 4c-3 2-5 5-9 7\"/><path class=\"p2\" d=\"M12 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "push-pin",
+  "category": "interface",
+  "tags": ["pin", "push", "pinned", "tack", "location", "save"],
+  "svg": "<path class=\"d p1\" transform=\"rotate(20 12 6)\" d=\"M7.5 3.5h9l-1 5.5h-7z\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"13\" y2=\"18.5\"/><line class=\"p3\" x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

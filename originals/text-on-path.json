@@ -1,0 +1,11 @@
+{
+  "name": "text-on-path",
+  "category": "text",
+  "tags": ["text", "path", "arc", "curve", "letters", "typography", "follow"],
+  "svg": "<path class=\"p1\" d=\"M3 17Q12 4 21 17\"/><path class=\"p2\" d=\"M4 13.5l1.5-4 1.5 4M4.7 12.2h1.6\"/><path class=\"p3\" d=\"M11 6.5v-2M10 4.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "braille-tablet",
+  "category": "communication",
+  "tags": ["braille", "tablet", "blind", "accessibility", "reading", "dots"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2.5\" width=\"18\" height=\"19\" rx=\"2.5\"/><circle class=\"f p2\" cx=\"9\" cy=\"8\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"8\" r=\"1.1\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1.1\"/><circle class=\"f p2\" cx=\"9\" cy=\"16\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"16\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 700 }
+  ]
+}

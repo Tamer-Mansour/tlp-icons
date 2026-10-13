@@ -1,0 +1,11 @@
+{
+  "name": "fumarole",
+  "category": "nature",
+  "tags": ["fumarole", "vent", "steam", "volcano", "geyser", "gas"],
+  "svg": "<path class=\"d p1\" d=\"M5 20h14l-3-5H8z\"/><path class=\"p2\" d=\"M9.5 11q-1.5-2 0-4t0-4\"/><path class=\"p3\" d=\"M14.5 11q-1.5-2 0-4t0-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

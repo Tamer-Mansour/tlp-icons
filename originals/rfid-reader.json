@@ -1,0 +1,11 @@
+{
+  "name": "rfid-reader",
+  "category": "devices",
+  "tags": ["rfid", "reader", "card", "nfc", "signal", "access"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M18 6 Q20.5 9 18 12\"/><rect class=\"p3\" x=\"5\" y=\"14\" width=\"14\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 1000 }
+  ]
+}

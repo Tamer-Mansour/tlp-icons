@@ -1,0 +1,10 @@
+{
+  "name": "desktop-grid",
+  "category": "layout",
+  "tags": ["desktop", "grid", "cards", "tiles", "dashboard"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p1\" x=\"14\" y=\"14\" width=\"8\" height=\"8\" rx=\"1.5\"/><circle class=\"f p2\" cx=\"18\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

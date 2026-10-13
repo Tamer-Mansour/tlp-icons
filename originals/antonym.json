@@ -1,0 +1,11 @@
+{
+  "name": "antonym",
+  "category": "text",
+  "tags": ["antonym", "opposite", "bubbles", "arrows", "words"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"8.5\" height=\"6.5\" rx=\"2\"/><rect class=\"p2\" x=\"13\" y=\"2.5\" width=\"8.5\" height=\"6.5\" rx=\"2\"/><path class=\"p3\" d=\"M10 15H4M6 13l-2 2 2 2M14 19h6M18 17l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "glowing-star",
+  "category": "emoji",
+  "tags": ["star", "glow", "shine", "favorite", "light"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5L13.8 10.2L17.9 10.8L14.9 13.6L15.6 17.7L12 15.8L8.4 17.7L9.1 13.6L6.1 10.8L10.2 10.2Z\"/><path class=\"p2\" d=\"M12 2.5v2M5 5l1.4 1.4M19 5l-1.4 1.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 700 }
+  ]
+}

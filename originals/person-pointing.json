@@ -1,0 +1,10 @@
+{
+  "name": "person-pointing",
+  "category": "people",
+  "tags": ["person", "pointing", "direction", "point", "gesture"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"4.5\" r=\"2.5\"/><path class=\"p1\" d=\"M8 8.5v7M8 15.5l-2.5 6.5M8 15.5l2.5 6.5\"/><path class=\"p2\" d=\"M8 10.5h7\"/><path class=\"p2\" d=\"M8 10.5l-2.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

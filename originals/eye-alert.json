@@ -1,0 +1,10 @@
+{
+  "name": "eye-alert",
+  "category": "notifications",
+  "tags": ["eye", "watch", "alert", "monitoring", "visibility"],
+  "svg": "<path class=\"d p1\" d=\"M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12z\"/><path class=\"p2\" d=\"M12 8.5v4\"/><circle class=\"f p2\" cx=\"12\" cy=\"15.2\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 800 }
+  ]
+}

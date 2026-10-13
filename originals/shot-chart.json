@@ -1,0 +1,11 @@
+{
+  "name": "shot-chart",
+  "category": "sport",
+  "tags": ["shot", "chart", "court", "basketball", "stats", "arc"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M6 16 Q12 4 18 16\"/><circle class=\"f p3\" cx=\"9\" cy=\"11\" r=\"1.2\"/><circle class=\"f p3\" cx=\"15\" cy=\"13\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pond-ecosystem",
+  "category": "science",
+  "tags": ["pond", "water", "ecosystem", "lily", "reeds", "nature"],
+  "svg": "<path class=\"p1\" d=\"M2 18 Q4.5 16 7 18 T12 18 T17 18 T22 18\"/><ellipse class=\"d p2\" cx=\"8\" cy=\"12.5\" rx=\"3\" ry=\"1.2\"/><path class=\"p3\" d=\"M16.5 18 V6 M19.5 18 V9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1200, "origin": "bottom" }
+  ]
+}

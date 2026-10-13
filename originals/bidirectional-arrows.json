@@ -1,0 +1,10 @@
+{
+  "name": "bidirectional-arrows",
+  "category": "connectivity",
+  "tags": ["bidirectional", "arrows", "exchange", "two-way", "swap", "sync"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H20 M16.5 5 L20 8 L16.5 11\"/><path class=\"p2\" d=\"M21 16 H4 M7.5 13 L4 16 L7.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 600 }
+  ]
+}

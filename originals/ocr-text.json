@@ -1,0 +1,11 @@
+{
+  "name": "ocr-text",
+  "category": "text",
+  "tags": ["ocr", "scan", "recognition", "document", "text", "extract"],
+  "svg": "<path class=\"p2\" d=\"M2 6V2h4M18 2h4v4M22 18v4h-4M6 22H2v-4\"/><rect class=\"p1\" x=\"6\" y=\"4\" width=\"12\" height=\"16\" rx=\"1\"/><path class=\"p3\" d=\"M9 11h7M9 14h7M9 17h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "scan", "dur": 900, "delay": 1100 }
+  ]
+}

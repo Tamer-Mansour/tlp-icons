@@ -1,0 +1,11 @@
+{
+  "name": "pet-carrier",
+  "category": "nature",
+  "tags": ["pet carrier", "travel", "crate", "cat", "dog", "animal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"16\" height=\"13\" rx=\"4\"/><path class=\"p2\" d=\"M9 6 V4 H15 V6\"/><line class=\"p3\" x1=\"8\" y1=\"13\" x2=\"16\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

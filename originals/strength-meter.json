@@ -1,0 +1,10 @@
+{
+  "name": "strength-meter",
+  "category": "notifications",
+  "tags": ["strength", "signal", "bars", "level", "meter", "power"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"3\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"8\" y=\"10\" width=\"3\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"6\" width=\"3\" height=\"14\" rx=\"1\"/><rect class=\"p2\" x=\"18\" y=\"2\" width=\"3\" height=\"18\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 }
+  ]
+}

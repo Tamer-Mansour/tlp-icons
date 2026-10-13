@@ -1,0 +1,10 @@
+{
+  "name": "completion-ring",
+  "category": "charts",
+  "tags": ["progress", "complete", "done", "ring", "check"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polyline class=\"p2\" points=\"8 12.5 11 15.5 16 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

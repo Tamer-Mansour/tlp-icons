@@ -1,0 +1,11 @@
+{
+  "name": "surgery-room",
+  "category": "buildings",
+  "tags": ["surgery", "operating", "lamp", "table", "hospital", "theatre"],
+  "svg": "<path class=\"p1\" d=\"M3 17h18M12 17v4\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"8\"/><rect class=\"d p3\" x=\"8\" y=\"8\" width=\"8\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "top" }
+  ]
+}

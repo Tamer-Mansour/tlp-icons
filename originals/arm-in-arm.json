@@ -1,0 +1,11 @@
+{
+  "name": "arm-in-arm",
+  "category": "people",
+  "tags": ["arm in arm", "walking", "couple", "friends", "together", "pair"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"5\" r=\"2.5\"/><path class=\"p1\" d=\"M7 8.5v8M7 16.5l-2 5M7 16.5l2 5\"/><circle class=\"p2\" cx=\"17\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M17 8.5v8M17 16.5l-2 5M17 16.5l2 5\"/><path class=\"p3\" d=\"M7 11h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

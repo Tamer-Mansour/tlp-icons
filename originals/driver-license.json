@@ -1,0 +1,11 @@
+{
+  "name": "driver-license",
+  "category": "people",
+  "tags": ["license", "card", "id", "driver", "photo"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"d p2\" x=\"5\" y=\"9\" width=\"5\" height=\"5\" rx=\"0.5\"/><path class=\"p3\" d=\"M13 10h6M13 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 1200 }
+  ]
+}

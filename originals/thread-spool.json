@@ -1,0 +1,12 @@
+{
+  "name": "thread-spool",
+  "category": "home",
+  "tags": ["thread spool", "spool", "thread", "yarn", "sewing"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M5 5h14M5 19h14\"/><path class=\"p3\" d=\"M7 9h10M7 13h10\"/><path class=\"p4\" d=\"M17 15c3 0 3 3 2 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

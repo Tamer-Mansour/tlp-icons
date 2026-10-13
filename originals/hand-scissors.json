@@ -1,0 +1,10 @@
+{
+  "name": "hand-scissors",
+  "category": "sport",
+  "tags": ["scissors", "hand", "fingers", "game", "v sign"],
+  "svg": "<path class=\"p1\" d=\"M10 13L5 3\"/><path class=\"p1\" d=\"M14 13L19 3\"/><circle class=\"d p2\" cx=\"8\" cy=\"17\" r=\"3\"/><circle class=\"d p2\" cx=\"16\" cy=\"17\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 700 }
+  ]
+}

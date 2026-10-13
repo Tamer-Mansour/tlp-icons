@@ -1,0 +1,11 @@
+{
+  "name": "oasis",
+  "category": "buildings",
+  "tags": ["oasis", "palm", "desert", "pool", "water", "dune"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"19\" rx=\"7\" ry=\"1.5\"/><path class=\"p2\" d=\"M12 18c0-4-1-6-2-8\"/><path class=\"p3\" d=\"M10 10c-2-3-5-2-6 0M10 10c1-3 3-4 5-3M10 10c-1-2 0-4 2-5\"/><path class=\"p2\" d=\"M2 15c3-3 6-3 10 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100 }
+  ]
+}

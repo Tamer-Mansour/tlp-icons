@@ -1,0 +1,11 @@
+{
+  "name": "cat-toy",
+  "category": "nature",
+  "tags": ["cat toy", "ball", "feather", "pet", "string", "play"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M13 12C17 9 16 5 20 3\"/><path class=\"p3\" d=\"M20 3.5L17.5 5.5M20 3.5L22 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "13px 12px" }
+  ]
+}

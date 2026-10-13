@@ -1,0 +1,11 @@
+{
+  "name": "specimen-tag",
+  "category": "science",
+  "tags": ["specimen", "tag", "label", "sample", "string", "lab", "collection"],
+  "svg": "<path class=\"d p1\" d=\"M10 4h9v16h-9l-7-8z\"/><path class=\"p2\" d=\"M13 9h4M13 13h3\"/><path class=\"p3\" d=\"M2 19l3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1100, "origin": "top" }
+  ]
+}

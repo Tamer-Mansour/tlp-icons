@@ -1,0 +1,11 @@
+{
+  "name": "anchor-text",
+  "category": "text",
+  "tags": ["anchor", "text", "link", "bookmark", "jump", "point"],
+  "svg": "<path class=\"p1\" d=\"M3 10h8M3 14h6\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2\"/><path class=\"p3\" d=\"M18 8v10M14 14h8M14 18a4 4 0 0 0 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 900 }
+  ]
+}

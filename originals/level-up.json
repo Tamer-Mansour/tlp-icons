@@ -1,0 +1,10 @@
+{
+  "name": "level-up",
+  "category": "sport",
+  "tags": ["level", "up", "progress", "stairs", "arrow", "rank"],
+  "svg": "<polyline class=\"p1\" points=\"3,21 3,17 7,17 7,13 11,13 11,21\"/><path class=\"p2\" d=\"M17 15V4M13 8l4-4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

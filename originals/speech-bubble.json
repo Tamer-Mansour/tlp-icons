@@ -1,0 +1,10 @@
+{
+  "name": "speech-bubble",
+  "category": "interface",
+  "tags": ["speech", "bubble", "chat", "message", "comment", "text"],
+  "svg": "<path class=\"d p1\" d=\"M4 4.5h16a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H10l-4.5 3.5V17.5H4A1.5 1.5 0 0 1 2.5 16V6A1.5 1.5 0 0 1 4 4.5z\"/><line class=\"p2\" x1=\"7\" y1=\"9\" x2=\"17\" y2=\"9\"/><line class=\"p2\" x1=\"7\" y1=\"13\" x2=\"13\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

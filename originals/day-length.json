@@ -1,0 +1,11 @@
+{
+  "name": "day-length",
+  "category": "weather",
+  "tags": ["day", "length", "sunrise", "sun", "hours"],
+  "svg": "<path class=\"p1\" d=\"M3 14 A9 9 0 0 1 21 14\"/><path class=\"p2\" d=\"M3 18 V21 H21 V18\"/><circle class=\"d p3\" cx=\"12\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

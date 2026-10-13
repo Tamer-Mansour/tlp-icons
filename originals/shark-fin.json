@@ -1,0 +1,10 @@
+{
+  "name": "shark-fin",
+  "category": "nature",
+  "tags": ["shark", "fin", "ocean", "sea", "water"],
+  "svg": "<path class=\"d p1\" d=\"M5 16C7 12 10 7 13 4C14 9 16 13 19 16Z\"/><path class=\"p2\" d=\"M2 20q2.5-2 5 0t5 0 5 0 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "road-work",
+  "category": "vehicles",
+  "tags": ["road", "work", "construction", "shovel", "barrier", "repair"],
+  "svg": "<path class=\"d p1\" d=\"M5 15V12Q5 6 12 6Q19 6 19 12V15Z\"/><path class=\"p2\" d=\"M3 15H21\"/><path class=\"p3\" d=\"M12 6V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 1000 }
+  ]
+}

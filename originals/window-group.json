@@ -1,0 +1,11 @@
+{
+  "name": "window-group",
+  "category": "layout",
+  "tags": ["window", "group", "boundary", "selection", "layout"],
+  "svg": "<path class=\"p1\" d=\"M4 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M20 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><rect class=\"p2\" x=\"8\" y=\"7\" width=\"8\" height=\"6\" rx=\"1.5\"/><rect class=\"p3\" x=\"6\" y=\"10\" width=\"8\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 900 }
+  ]
+}

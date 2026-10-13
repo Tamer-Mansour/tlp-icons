@@ -1,0 +1,10 @@
+{
+  "name": "storm-track",
+  "category": "weather",
+  "tags": ["storm", "track", "path", "forecast", "tracking"],
+  "svg": "<path class=\"p1\" d=\"M3 17 C7 9 11 17 14 12\"/><circle class=\"d p2\" cx=\"18\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

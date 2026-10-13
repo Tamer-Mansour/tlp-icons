@@ -1,0 +1,11 @@
+{
+  "name": "ice-skate-blade",
+  "category": "sport",
+  "tags": ["skate", "blade", "ice", "figure", "skating", "winter"],
+  "svg": "<path class=\"d p1\" d=\"M7 3H12V12L17 14.5V18H7Z\"/><path class=\"p2\" d=\"M3 21H21\"/><path class=\"p3\" d=\"M8 18V21M15 18V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

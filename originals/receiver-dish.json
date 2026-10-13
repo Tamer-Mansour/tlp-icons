@@ -1,0 +1,11 @@
+{
+  "name": "receiver-dish",
+  "category": "connectivity",
+  "tags": ["receiver", "dish", "receive", "incoming", "signal", "satellite", "antenna"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h10c0 4-2.5 7-5 7s-5-3-5-7z\"/><path class=\"p2\" d=\"M8 13v8M5 21h6\"/><path class=\"p3\" d=\"M20 8h-5M17 6l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "file-commit",
+  "category": "files",
+  "tags": ["commit", "git", "version", "history", "change"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M12 8.5v3M12 15.5v3.5\"/><circle class=\"p3\" cx=\"12\" cy=\"13.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

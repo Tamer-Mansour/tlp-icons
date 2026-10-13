@@ -1,0 +1,11 @@
+{
+  "name": "rivet-setter",
+  "category": "tools",
+  "tags": ["rivet", "setter", "punch", "fastener", "metal", "tool"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M12 10v2\"/><path class=\"d p3\" d=\"M7 19a5 4 0 0 1 10 0z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p1", "anim": "strike", "dur": 500, "delay": 1100, "origin": "top" }
+  ]
+}

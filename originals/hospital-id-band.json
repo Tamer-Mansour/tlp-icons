@@ -1,0 +1,11 @@
+{
+  "name": "hospital-id-band",
+  "category": "people",
+  "tags": ["wristband", "hospital", "id band", "patient", "tag"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"6\" y=\"10\" width=\"5\" height=\"4\" rx=\"1\"/><circle class=\"p3\" cx=\"17\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "music-folder",
+  "category": "media",
+  "tags": ["folder", "music", "note", "directory", "audio", "library"],
+  "svg": "<path class=\"d p1\" d=\"M3 6a1 1 0 0 1 1-1h5l2 2h9a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z\"/><path class=\"p2\" d=\"M11 17v-6l4-1v6\"/><circle class=\"p2\" cx=\"9.5\" cy=\"17\" r=\"1.5\"/><circle class=\"p2\" cx=\"15\" cy=\"16\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 800 }
+  ]
+}

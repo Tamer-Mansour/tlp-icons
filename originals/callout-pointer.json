@@ -1,0 +1,11 @@
+{
+  "name": "callout-pointer",
+  "category": "interface",
+  "tags": ["callout", "pointer", "annotation", "target", "highlight", "tutorial"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"11\" rx=\"2\"/><polygon class=\"p2\" points=\"8 15 5.5 20 12 15\"/><circle class=\"f p3\" cx=\"5.5\" cy=\"20.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

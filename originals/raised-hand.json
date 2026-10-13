@@ -1,0 +1,12 @@
+{
+  "name": "raised-hand",
+  "category": "communication",
+  "tags": ["raised", "hand", "question", "attention", "wave"],
+  "svg": "<path class=\"d p1\" d=\"M10 11V6a1.25 1.25 0 0 1 2.5 0V4.5a1.25 1.25 0 0 1 2.5 0V6a1.25 1.25 0 0 1 2.5 0v5l0 4-2.5 4.5h-4l-1-2.5Z\"/><path class=\"p2\" d=\"M12.5 6v4M15 6v4\"/><path class=\"p3\" d=\"M10 14.5L7.5 12.2a1.5 1.5 0 0 0-2.1 2.1L10 17\"/><path class=\"p4\" d=\"M19.5 4l1.5-1.5M19.5 8.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

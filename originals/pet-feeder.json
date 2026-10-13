@@ -1,0 +1,11 @@
+{
+  "name": "pet-feeder",
+  "category": "nature",
+  "tags": ["pet", "feeder", "food", "bowl", "dispenser", "animal"],
+  "svg": "<rect class=\"p2\" x=\"8\" y=\"3\" width=\"8\" height=\"7\" rx=\"1.5\"/><path class=\"d p1\" d=\"M4 13h16c0 4-3.5 7-8 7s-8-3-8-7z\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 400, "delay": 900 }
+  ]
+}

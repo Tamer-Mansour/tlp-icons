@@ -1,0 +1,10 @@
+{
+  "name": "waffle-chart",
+  "category": "charts",
+  "tags": ["waffle", "chart", "grid", "squares", "percent", "share"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h4v4h-4Z M9 3h4v4h-4Z M15 3h4v4h-4Z\"/><path class=\"p2\" d=\"M3 9h4v4h-4Z M9 9h4v4h-4Z M15 9h4v4h-4Z M3 15h4v4h-4Z M9 15h4v4h-4Z M15 15h4v4h-4Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

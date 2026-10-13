@@ -1,0 +1,10 @@
+{
+  "name": "igloo-dome",
+  "category": "shapes",
+  "tags": ["igloo", "dome", "shelter", "snow", "house"],
+  "svg": "<path class=\"d p1\" d=\"M3 20a9 9 0 0 1 18 0z\"/><path class=\"p2\" d=\"M10 20v-3a2 2 0 0 1 4 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

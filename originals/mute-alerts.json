@@ -1,0 +1,11 @@
+{
+  "name": "mute-alerts",
+  "category": "notifications",
+  "tags": ["mute", "sound", "speaker", "silent", "alerts", "volume"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h3.5L11 6v12l-4.5-3.5H3Z\"/><path class=\"p2\" d=\"M15 9a4 4 0 0 1 0 6\"/><path class=\"p3\" d=\"M4 4l16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

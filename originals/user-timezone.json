@@ -1,0 +1,11 @@
+{
+  "name": "user-timezone",
+  "category": "people",
+  "tags": ["user", "timezone", "clock", "person", "world", "region"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2 20.5c0-3.6 2.9-6.5 6.5-6.5S15 17 15 20.5\"/><circle class=\"d p2\" cx=\"19\" cy=\"16\" r=\"3\"/><path class=\"p3\" d=\"M19 14.2V16l1.1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "19px 16px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dice-d10",
+  "category": "sport",
+  "tags": ["dice", "d10", "polyhedral", "rpg", "tabletop", "kite"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 20,9 12,22 4,9\"/><line class=\"p2\" x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\"/><line class=\"p3\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "rattle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "diffraction-grating",
+  "category": "science",
+  "tags": ["diffraction", "grating", "light", "slit", "spectrum", "optics"],
+  "svg": "<path class=\"p1\" d=\"M6 5V19M10 5V19M14 5V19M18 5V19\"/><path class=\"p2\" d=\"M2 12H5\"/><path class=\"p3\" d=\"M19 12L21 7M19 12L21 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

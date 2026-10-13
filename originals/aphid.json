@@ -1,0 +1,11 @@
+{
+  "name": "aphid",
+  "category": "nature",
+  "tags": ["insect", "tiny", "plant", "pest", "bug"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12.5\" rx=\"3.5\" ry=\"4.5\"/><path class=\"p2\" d=\"M10 8 L9.5 5 M14 8 L14.5 5\"/><path class=\"p3\" d=\"M9 14 L6 16 M15 14 L18 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

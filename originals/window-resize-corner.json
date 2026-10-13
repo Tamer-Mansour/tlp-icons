@@ -1,0 +1,10 @@
+{
+  "name": "window-resize-corner",
+  "category": "layout",
+  "tags": ["window", "resize", "corner", "grip", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M16 21L21 16M12 21L21 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 700 }
+  ]
+}

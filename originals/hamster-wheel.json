@@ -1,0 +1,11 @@
+{
+  "name": "hamster-wheel",
+  "category": "nature",
+  "tags": ["hamster", "wheel", "pet", "exercise", "cage"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"7\"/><path class=\"p2\" d=\"M7.2 6.2 L16.8 15.8\"/><path class=\"p2\" d=\"M16.8 6.2 L7.2 15.8\"/><path class=\"p3\" d=\"M12 18 V21\"/><path class=\"p3\" d=\"M8 21 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "12px 11px" }
+  ]
+}

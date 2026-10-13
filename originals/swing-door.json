@@ -1,0 +1,11 @@
+{
+  "name": "swing-door",
+  "category": "arrows",
+  "tags": ["door", "swing", "hinge", "open", "entry", "panel"],
+  "svg": "<line class=\"p2\" x1=\"4\" y1=\"3\" x2=\"4\" y2=\"21\"/><polygon class=\"d p1\" points=\"7,4 15,6.5 15,18.5 7,21\"/><path class=\"p3\" d=\"M15 12 A11 11 0 0 0 9.5 2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "4px 12px" }
+  ]
+}

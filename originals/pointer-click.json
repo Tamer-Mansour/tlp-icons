@@ -1,0 +1,10 @@
+{
+  "name": "pointer-click",
+  "category": "development",
+  "tags": ["pointer", "click", "cursor", "mouse", "tap", "select"],
+  "svg": "<path class=\"d p1\" d=\"M9 9v10l2.5-2.5 2 4.5 2.2-1-2-4.5h3.5z\"/><path class=\"p2\" d=\"M3.5 4.5l2 2M2.5 9h2.5M6.5 3.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cancel-square",
+  "category": "interface",
+  "tags": ["cancel", "square", "close", "dismiss", "remove", "clear"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M8.5 8.5l7 7M15.5 8.5l-7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

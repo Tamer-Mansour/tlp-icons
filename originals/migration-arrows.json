@@ -1,0 +1,11 @@
+{
+  "name": "migration-arrows",
+  "category": "development",
+  "tags": ["migration", "schema", "database", "tables", "upgrade", "transfer"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"7\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"14.5\" y=\"14\" width=\"7\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M6 10v3a2 2 0 0 0 2 2h4.5M10.5 13.5 12.5 15l-2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

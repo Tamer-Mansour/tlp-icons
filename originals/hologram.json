@@ -1,0 +1,11 @@
+{
+  "name": "hologram",
+  "category": "science",
+  "tags": ["hologram", "cube", "projection", "3d", "optics", "light"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5L18.5 6V13.5L12 17L5.5 13.5V6Z\"/><path class=\"p2\" d=\"M5.5 6L12 9.5L18.5 6M12 9.5V17\"/><ellipse class=\"p3\" cx=\"12\" cy=\"20.5\" rx=\"7\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "link-warning",
+  "category": "security",
+  "tags": ["link", "warning", "chain", "alert", "risk", "security"],
+  "svg": "<path class=\"p1\" d=\"M9 6 H6.5 A3 3 0 0 0 6.5 12 H9\"/><path class=\"p1\" d=\"M15 6 H17.5 A3 3 0 0 1 17.5 12 H15\"/><line class=\"p1\" x1=\"9\" y1=\"9\" x2=\"15\" y2=\"9\"/><polygon class=\"d p2\" points=\"12,14 17.5,21.5 6.5,21.5\"/><line class=\"p2\" x1=\"12\" y1=\"17\" x2=\"12\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 800 }
+  ]
+}

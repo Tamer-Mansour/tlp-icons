@@ -1,0 +1,10 @@
+{
+  "name": "parabola",
+  "category": "math",
+  "tags": ["parabola", "curve", "focus", "symmetry", "quadratic"],
+  "svg": "<path class=\"p1\" d=\"M4 5 C4 15 8 19 12 19 C16 19 20 15 20 5\"/><circle class=\"f p2\" cx=\"12\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

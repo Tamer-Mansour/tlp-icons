@@ -1,0 +1,10 @@
+{
+  "name": "gas-cylinder",
+  "category": "science",
+  "tags": ["lab", "gas", "cylinder", "pressure", "tank", "oxygen"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"13\" rx=\"3\"/><path class=\"p2\" d=\"M7 6h10M12 6V3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pump", "dur": 800, "delay": 900 }
+  ]
+}

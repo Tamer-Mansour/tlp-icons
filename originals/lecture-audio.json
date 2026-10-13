@@ -1,0 +1,11 @@
+{
+  "name": "lecture-audio",
+  "category": "science",
+  "tags": ["lecture", "audio", "speaker", "sound", "talk", "podcast"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h3l4-4v12l-4-4H3z\"/><path class=\"p2\" d=\"M13.5 9.5c1 1 1 4 0 5\"/><path class=\"p3\" d=\"M17.5 7c2 2 2 8 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

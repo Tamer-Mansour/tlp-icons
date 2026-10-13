@@ -1,0 +1,10 @@
+{
+  "name": "spectrum-analyzer",
+  "category": "charts",
+  "tags": ["spectrum", "analyzer", "frequency", "bars", "audio", "signal"],
+  "svg": "<path class=\"p1\" d=\"M3 20h18\"/><path class=\"p2\" d=\"M4 17v-3M8 17V8M12 17v-5M16 17V5M20 17v-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "bottom", "dur": 800, "delay": 500 }
+  ]
+}

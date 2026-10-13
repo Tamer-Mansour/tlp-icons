@@ -1,0 +1,10 @@
+{
+  "name": "reviewer-badge",
+  "category": "people",
+  "tags": ["reviewer", "badge", "inspector", "audit", "search", "examine"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20.5v-2a5 5 0 0 1 10 0v2\"/><circle class=\"d p2\" cx=\"16.5\" cy=\"14.5\" r=\"3\"/><path class=\"p2\" d=\"M18.7 16.7L21.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

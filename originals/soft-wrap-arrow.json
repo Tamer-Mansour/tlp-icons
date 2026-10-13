@@ -1,0 +1,11 @@
+{
+  "name": "soft-wrap-arrow",
+  "category": "text",
+  "tags": ["wrap", "soft", "arrow", "line", "break", "text", "return"],
+  "svg": "<path class=\"p1\" d=\"M3 7h9\"/><path class=\"p2\" d=\"M12 7h2.5a3 3 0 0 1 0 6H8\"/><path class=\"p3\" d=\"M10.5 11L8 13l2.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

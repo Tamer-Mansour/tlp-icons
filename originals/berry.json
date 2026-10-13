@@ -1,0 +1,11 @@
+{
+  "name": "berry",
+  "category": "nature",
+  "tags": ["berry", "fruit", "round", "leaf", "garden", "sweet"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M12 8 Q9 4 6 5 Q8 8 12 8 Z\"/><line class=\"p3\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

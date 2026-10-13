@@ -1,0 +1,12 @@
+{
+  "name": "photo-book",
+  "category": "photography",
+  "tags": ["photo", "book", "album", "pages", "open", "pictures", "memories"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5C9.5 4.8 6.5 4.5 3 5V18C6.5 17.7 9.5 18.1 12 19.8C14.5 18.1 17.5 17.7 21 18V5C17.5 4.5 14.5 4.8 12 6.5Z\"/><path class=\"p2\" d=\"M12 6.5V19.8\"/><path class=\"p3\" d=\"M5.5 14.5L8 12L10 14\"/><path class=\"p4\" d=\"M14 14.5L16.5 12L18.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "bounceIn", "dur": 400, "delay": 950 }
+  ]
+}

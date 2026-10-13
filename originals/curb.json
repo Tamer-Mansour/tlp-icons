@@ -1,0 +1,10 @@
+{
+  "name": "curb",
+  "category": "buildings",
+  "tags": ["curb", "kerb", "road", "edge", "sidewalk", "pavement"],
+  "svg": "<path class=\"p1\" d=\"M2 20H22\"/><path class=\"d p2\" d=\"M8 20V12H16V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "bottom", "dur": 500, "delay": 600 }
+  ]
+}

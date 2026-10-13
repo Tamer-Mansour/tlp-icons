@@ -1,0 +1,11 @@
+{
+  "name": "bibliography",
+  "category": "science",
+  "tags": ["bibliography", "books", "references", "library", "citations", "reading"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/><rect class=\"p2\" x=\"8.5\" y=\"5\" width=\"4\" height=\"15\" rx=\"1\"/><rect class=\"p3\" x=\"14.5\" y=\"7\" width=\"4\" height=\"13\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 900, "origin": "bottom" }
+  ]
+}

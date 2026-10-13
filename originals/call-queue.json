@@ -1,0 +1,10 @@
+{
+  "name": "call-queue",
+  "category": "communication",
+  "tags": ["call queue", "waiting line", "support line", "callers", "telephone"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"12\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"18\" cy=\"6\" r=\"2\"/><path class=\"p2 d\" d=\"M8 12h3l1 3-1.5 1.2c.7 1.5 1.8 2.6 3.2 3.2l1.2-1.5 3 1v3c-4.5 0-9-4.5-7.9-10.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 600, "delay": 800 }
+  ]
+}

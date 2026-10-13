@@ -1,0 +1,11 @@
+{
+  "name": "target-hit",
+  "category": "notifications",
+  "tags": ["target", "bullseye", "arrow", "goal", "hit"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 12 L20 4 M20 4 H15 M20 4 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 900 }
+  ]
+}

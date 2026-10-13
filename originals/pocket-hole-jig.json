@@ -1,0 +1,11 @@
+{
+  "name": "pocket-hole-jig",
+  "category": "tools",
+  "tags": ["pocket", "hole", "jig", "angled", "drill guide"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"16\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M4 14L20 4\"/><path class=\"p3\" d=\"M12 12l7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "buzz", "dur": 700, "delay": 900 }
+  ]
+}

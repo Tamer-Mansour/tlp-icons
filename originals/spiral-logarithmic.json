@@ -1,0 +1,10 @@
+{
+  "name": "spiral-logarithmic",
+  "category": "math",
+  "tags": ["spiral", "logarithmic", "curve", "outward", "growth"],
+  "svg": "<path class=\"p1\" d=\"M12 12 C12 9 15 8 16 11 C17 14 14 17 10 16 C6 15 5 10 8 7 C11 4 17 5 19 9 C21 13 19 19 13 20\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

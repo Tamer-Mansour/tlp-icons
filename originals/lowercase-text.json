@@ -1,0 +1,10 @@
+{
+  "name": "lowercase-text",
+  "category": "text",
+  "tags": ["lowercase", "small", "letters", "case", "text"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"15\" r=\"3\"/><line class=\"p1\" x1=\"10\" y1=\"12\" x2=\"10\" y2=\"18\"/><path class=\"p2\" d=\"M18 4v7M15.5 8.5L18 11l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

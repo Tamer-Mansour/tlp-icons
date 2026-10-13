@@ -1,0 +1,11 @@
+{
+  "name": "guinea-pig",
+  "category": "nature",
+  "tags": ["guinea pig", "cavy", "pet", "rodent", "small ears"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"11\" rx=\"5\"/><circle class=\"p2\" cx=\"7\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"6\" r=\"2\"/><circle class=\"f p3\" cx=\"9\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1200 }
+  ]
+}

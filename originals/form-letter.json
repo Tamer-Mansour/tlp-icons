@@ -1,0 +1,11 @@
+{
+  "name": "form-letter",
+  "category": "communication",
+  "tags": ["form", "letter", "checkbox", "field", "survey"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 7.5h10\"/><rect class=\"p3\" x=\"7\" y=\"11\" width=\"3\" height=\"3\" rx=\"0.5\"/><path class=\"p3\" d=\"M12 12.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

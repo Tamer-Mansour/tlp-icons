@@ -1,0 +1,10 @@
+{
+  "name": "inbox-filter",
+  "category": "communication",
+  "tags": ["inbox", "filter", "funnel", "tray", "sort", "narrow"],
+  "svg": "<path class=\"p1\" d=\"M3 13h5l1 2h6l1-2h5v6H3z\"/><path class=\"d p2\" d=\"M6 3h12l-4.5 5v2h-3V8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "folded-hands",
+  "category": "emoji",
+  "tags": ["folded", "hands", "pray", "please", "thanks", "namaste"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 Q16 6 16 11 L16 17 L12 21 L8 17 L8 11 Q8 6 12 3 Z\"/><path class=\"p2\" d=\"M8 11 L12 14 L16 11\"/><line class=\"p3\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

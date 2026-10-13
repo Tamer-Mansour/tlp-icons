@@ -1,0 +1,11 @@
+{
+  "name": "file-workflow",
+  "category": "files",
+  "tags": ["workflow", "process", "pipeline", "steps", "boxes"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><rect class=\"p2\" x=\"7.5\" y=\"9\" width=\"9\" height=\"2.5\"/><rect class=\"p2\" x=\"7.5\" y=\"13.5\" width=\"9\" height=\"2.5\"/><rect class=\"p2\" x=\"7.5\" y=\"18\" width=\"9\" height=\"2.5\"/><path class=\"p3\" d=\"M12 11.5v2M12 16v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

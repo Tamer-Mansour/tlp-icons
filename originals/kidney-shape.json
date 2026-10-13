@@ -1,0 +1,10 @@
+{
+  "name": "kidney-shape",
+  "category": "shapes",
+  "tags": ["kidney", "organ", "rounded", "indent", "outline", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M7 4C4 4 3 7 3 11C3 16 7 20 12 20C17 20 21 16 21 11C21 7 19 4 16 4C14 4 13 6 12 8C11 6 10 4 7 4Z\"/><path class=\"p2\" d=\"M7 8C7 6.5 8 6 9 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

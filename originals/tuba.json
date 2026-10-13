@@ -1,0 +1,10 @@
+{
+  "name": "tuba",
+  "category": "media",
+  "tags": ["tuba", "brass", "bell", "horn", "orchestra", "instrument"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"15\" r=\"5\"/><path class=\"p2\" d=\"M13 15h3V8M12 6h8l-2 2h-4z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "breathe", "dur": 1300, "delay": 900 }
+  ]
+}

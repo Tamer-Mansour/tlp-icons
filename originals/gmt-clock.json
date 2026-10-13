@@ -1,0 +1,11 @@
+{
+  "name": "gmt-clock",
+  "category": "time",
+  "tags": ["gmt", "clock", "greenwich", "timezone", "ring", "labels"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3v2M21 12h-2M12 21v-2M3 12h2\"/><path class=\"p3\" d=\"M12 12V7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1000 }
+  ]
+}

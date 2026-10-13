@@ -1,0 +1,12 @@
+{
+  "name": "clipboard-alert",
+  "category": "notifications",
+  "tags": ["clipboard", "alert", "exclamation", "notice", "board"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 2.5h6v3H9z\"/><path class=\"p3\" d=\"M12 9v5\"/><circle class=\"f p4\" cx=\"12\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

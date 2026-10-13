@@ -1,0 +1,11 @@
+{
+  "name": "masthead",
+  "category": "layout",
+  "tags": ["masthead", "title", "top", "header", "block"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"6\" rx=\"1\"/><line class=\"p2\" x1=\"8\" y1=\"6\" x2=\"16\" y2=\"6\"/><line class=\"p3\" x1=\"2\" y1=\"14\" x2=\"22\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

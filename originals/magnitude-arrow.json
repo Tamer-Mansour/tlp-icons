@@ -1,0 +1,10 @@
+{
+  "name": "magnitude-arrow",
+  "category": "arrows",
+  "tags": ["magnitude", "length", "measure", "size", "distance", "span"],
+  "svg": "<path class=\"p1\" d=\"M5 11h12\"/><path class=\"p1\" d=\"M13 7l4 4-4 4\"/><path class=\"p2\" d=\"M5 15v4h12v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "display-triple",
+  "category": "layout",
+  "tags": ["display", "triple", "three", "screens", "panels"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/><rect class=\"p3\" x=\"18\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

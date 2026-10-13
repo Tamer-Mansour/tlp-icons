@@ -1,0 +1,10 @@
+{
+  "name": "temperature-trend",
+  "category": "weather",
+  "tags": ["temperature", "trend", "thermometer", "rising", "arrow", "graph"],
+  "svg": "<path class=\"p1\" d=\"M7 14 V5 A2 2 0 0 1 11 5 V14 A3.5 3.5 0 1 1 7 14 Z\"/><path class=\"p2\" d=\"M15 13 L19 9 M15 9 H19 V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

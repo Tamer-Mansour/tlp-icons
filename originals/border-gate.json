@@ -1,0 +1,11 @@
+{
+  "name": "border-gate",
+  "category": "buildings",
+  "tags": ["border", "gate", "barrier", "checkpoint", "flag", "crossing", "customs"],
+  "svg": "<path class=\"p1\" d=\"M3 21V9M19 21V4.5\"/><path class=\"p2\" d=\"M3 9.5h13\"/><path class=\"d p3\" d=\"M19 4.5h3l-1.5 2.5 1.5 2.5h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "3px 9.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pastry-brush",
+  "category": "food",
+  "tags": ["food", "pastry", "brush", "baking", "kitchen", "butter"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 9h7l2 12h-11z\"/><rect class=\"p2\" x=\"10\" y=\"2\" width=\"4\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M10 13.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

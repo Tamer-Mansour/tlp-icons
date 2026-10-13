@@ -1,0 +1,11 @@
+{
+  "name": "type-specimen",
+  "category": "design",
+  "tags": ["type", "specimen", "font", "typography", "letters"],
+  "svg": "<path class=\"p1\" d=\"M2 19l4.5-12 4.5 12M4 14h5\"/><circle class=\"p2\" cx=\"15.5\" cy=\"15.5\" r=\"3\"/><path class=\"p2\" d=\"M18.5 12.5v6\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "typeIn", "dur": 900, "delay": 400 },
+    { "part": "p2", "anim": "breathe", "dur": 700, "delay": 1200 }
+  ]
+}

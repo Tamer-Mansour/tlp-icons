@@ -1,0 +1,11 @@
+{
+  "name": "loupe-inspect",
+  "category": "design",
+  "tags": ["loupe", "inspect", "lens", "grid", "examine"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"10\" r=\"5\"/><path class=\"p2\" d=\"M3 20h18\"/><path class=\"p3\" d=\"M14 14l6 6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

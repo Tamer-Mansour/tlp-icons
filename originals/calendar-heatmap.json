@@ -1,0 +1,10 @@
+{
+  "name": "calendar-heatmap",
+  "category": "charts",
+  "tags": ["calendar", "heatmap", "activity", "grid", "days", "intensity"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\"/><path class=\"p1\" d=\"M3 9H21M8 2V6M16 2V6\"/><rect class=\"d p2\" x=\"6\" y=\"12\" width=\"3\" height=\"3\"/><rect class=\"d p2\" x=\"12\" y=\"15\" width=\"3\" height=\"3\"/><rect class=\"d p2\" x=\"18\" y=\"12\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

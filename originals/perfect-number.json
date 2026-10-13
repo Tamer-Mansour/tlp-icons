@@ -1,0 +1,11 @@
+{
+  "name": "perfect-number",
+  "category": "math",
+  "tags": ["perfect", "number", "dots", "whole", "divisors", "math"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"9\" cy=\"9\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"9\" r=\"1.2\"/><circle class=\"f p3\" cx=\"6\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 }
+  ]
+}

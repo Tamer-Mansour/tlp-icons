@@ -1,0 +1,11 @@
+{
+  "name": "wind-turbine",
+  "category": "devices",
+  "tags": ["wind", "turbine", "energy", "renewable", "power"],
+  "svg": "<path class=\"p1\" d=\"M12 22v-9\"/><circle class=\"f p2\" cx=\"12\" cy=\"9\" r=\"1.2\"/><path class=\"p3\" d=\"M12 7.5V2.5M10.5 9.5L6 12M13.5 9.5L18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spinFast", "dur": 1200, "delay": 800, "origin": "12px 9px" }
+  ]
+}

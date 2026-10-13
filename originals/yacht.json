@@ -1,0 +1,11 @@
+{
+  "name": "yacht",
+  "category": "vehicles",
+  "tags": ["yacht", "sailboat", "sail", "mast", "boat", "luxury"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 H21 L18 19 H6 Z\"/><path class=\"p2\" d=\"M12 15 V3\"/><path class=\"p3\" d=\"M12 4 L19 14 H12 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

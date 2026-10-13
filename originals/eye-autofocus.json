@@ -1,0 +1,11 @@
+{
+  "name": "eye-autofocus",
+  "category": "photography",
+  "tags": ["eye", "autofocus", "focus", "bracket", "camera"],
+  "svg": "<path class=\"p1\" d=\"M2 12c2.5-4 6-6 10-6s7.5 2 10 6c-2.5 4-6 6-10 6s-7.5-2-10-6z\"/><path class=\"p2\" d=\"M8 10V8h2M14 8h2v2M16 14v2h-2M10 16H8v-2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1300 }
+  ]
+}

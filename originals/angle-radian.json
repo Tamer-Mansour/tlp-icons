@@ -1,0 +1,12 @@
+{
+  "name": "angle-radian",
+  "category": "math",
+  "tags": ["radian", "angle", "arc", "radius", "trigonometry", "math"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/><line class=\"p2\" x1=\"4\" y1=\"19\" x2=\"16\" y2=\"7\"/><path class=\"p3\" d=\"M10 19A6 6 0 0 0 8.24 14.76\"/><circle class=\"f p4\" cx=\"4\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 300, "delay": 1000 }
+  ]
+}

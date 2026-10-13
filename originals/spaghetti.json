@@ -1,0 +1,11 @@
+{
+  "name": "spaghetti",
+  "category": "food",
+  "tags": ["spaghetti", "noodles", "pasta", "italian", "strands"],
+  "svg": "<path class=\"p1\" d=\"M3 7c2-2 4 2 6 0s4 2 6 0 3-1 4-1\"/><path class=\"p2\" d=\"M3 11c2-2 4 2 6 0s4 2 6 0 3-1 4-1\"/><path class=\"p3\" d=\"M3 15c2-2 4 2 6 0s4 2 6 0 3-1 4-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

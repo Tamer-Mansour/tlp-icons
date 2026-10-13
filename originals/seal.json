@@ -1,0 +1,11 @@
+{
+  "name": "seal",
+  "category": "nature",
+  "tags": ["sea", "flipper", "ocean", "pup", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M3 17 C2.5 13 5 9 10 9 C15 9 20 10 21 15 C21.5 17 20 18 16 18 H6 C4 18 3 18 3 17 Z\"/><path class=\"p2\" d=\"M9 15 C10 13 13 13 14 14\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1100 }
+  ]
+}

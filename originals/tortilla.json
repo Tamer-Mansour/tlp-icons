@@ -1,0 +1,10 @@
+{
+  "name": "tortilla",
+  "category": "food",
+  "tags": ["tortilla", "flatbread", "disc", "wrap", "mexican"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M3 12 Q12 12 12 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

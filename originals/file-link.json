@@ -1,0 +1,10 @@
+{
+  "name": "file-link",
+  "category": "files",
+  "tags": ["file", "link", "chain", "attach", "url", "connect"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"p2\" d=\"M10.5 15.5H9a2.5 2.5 0 0 0 0 5h1.5\"/><path class=\"p2\" d=\"M13.5 15.5H15a2.5 2.5 0 0 1 0 5h-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 800 }
+  ]
+}

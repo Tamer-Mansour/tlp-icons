@@ -1,0 +1,10 @@
+{
+  "name": "diving-board",
+  "category": "sport",
+  "tags": ["diving", "board", "springboard", "pool", "jump", "dive"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21\"/><path class=\"p2\" d=\"M9 22L12 10L15 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 500 }
+  ]
+}

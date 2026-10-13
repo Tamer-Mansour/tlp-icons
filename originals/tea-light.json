@@ -1,0 +1,10 @@
+{
+  "name": "tea-light",
+  "category": "home",
+  "tags": ["tea light", "candle", "flame", "cup", "light", "warm"],
+  "svg": "<path class=\"d p1\" d=\"M7 14H17V18Q17 20 15 20H9Q7 20 7 18Z\"/><path class=\"p2\" d=\"M12 3Q15 6.5 15 9.5Q15 12 12 12Q9 12 9 9.5Q9 6.5 12 3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 800 }
+  ]
+}

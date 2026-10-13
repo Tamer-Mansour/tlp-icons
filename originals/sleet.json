@@ -1,0 +1,11 @@
+{
+  "name": "sleet",
+  "category": "weather",
+  "tags": ["sleet", "cloud", "winter", "precipitation", "ice", "weather"],
+  "svg": "<path class=\"p1\" d=\"M6.5 15 A3.5 3.5 0 0 1 7 8 A5 5 0 0 1 16.5 8.5 A3 3 0 0 1 17.5 15 Z\"/><path class=\"p2\" d=\"M8 18 L7 21 M13 18 L12 21\"/><circle class=\"f p3\" cx=\"18\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 900 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

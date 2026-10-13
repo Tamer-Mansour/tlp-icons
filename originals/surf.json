@@ -1,0 +1,11 @@
+{
+  "name": "surf",
+  "category": "nature",
+  "tags": ["surf", "wave", "ocean", "sea", "curl"],
+  "svg": "<path class=\"p1\" d=\"M3 19 C9 19 9 13 12 10 C15 7 17 6 21 6\"/><path class=\"p2\" d=\"M17 6 C16 9 16 12 18 14 C19 15 21 15 21 17\"/><path class=\"p3\" d=\"M3 21 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 1200, "delay": 1000 }
+  ]
+}

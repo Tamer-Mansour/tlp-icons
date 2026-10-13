@@ -1,0 +1,11 @@
+{
+  "name": "disk-full",
+  "category": "notifications",
+  "tags": ["disk", "full", "storage", "capacity", "space"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"d p2\" x=\"5\" y=\"12\" width=\"14\" height=\"4\" rx=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

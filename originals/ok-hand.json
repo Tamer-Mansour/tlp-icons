@@ -1,0 +1,11 @@
+{
+  "name": "ok-hand",
+  "category": "emoji",
+  "tags": ["ok", "hand", "gesture", "agree", "fine", "thumbs"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"11\" r=\"4.5\"/><line class=\"p2\" x1=\"15\" y1=\"14\" x2=\"15\" y2=\"4\"/><line class=\"p2\" x1=\"18\" y1=\"14\" x2=\"18\" y2=\"3\"/><line class=\"p2\" x1=\"21\" y1=\"14\" x2=\"21\" y2=\"4\"/><path class=\"p3\" d=\"M15 14 Q15 20 18.5 20 Q21.5 20 21.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 1100 }
+  ]
+}

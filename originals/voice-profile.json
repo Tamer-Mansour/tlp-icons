@@ -1,0 +1,11 @@
+{
+  "name": "voice-profile",
+  "category": "people",
+  "tags": ["voice", "profile", "speech", "sound", "audio", "person"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2.5 21v-2.5a5.5 5.5 0 0 1 11 0V21\"/><path class=\"p3\" d=\"M16 9a4 4 0 0 1 0 4M19 6.5a7 7 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

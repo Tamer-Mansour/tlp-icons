@@ -1,0 +1,11 @@
+{
+  "name": "sleep-mask",
+  "category": "home",
+  "tags": ["sleep", "mask", "eye", "night", "rest"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"14\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M2 12h3M19 12h3\"/><path class=\"p3\" d=\"M8 12q2 2 4 0M12 12q2 2 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1100 }
+  ]
+}

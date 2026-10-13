@@ -1,0 +1,11 @@
+{
+  "name": "strata",
+  "category": "nature",
+  "tags": ["strata", "layers", "rock", "geology", "earth", "bands"],
+  "svg": "<path class=\"p1\" d=\"M2 6Q6 4 12 6Q18 8 22 6\"/><path class=\"p2\" d=\"M2 12Q6 10 12 12Q18 14 22 12\"/><path class=\"p3\" d=\"M2 18Q6 16 12 18Q18 20 22 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

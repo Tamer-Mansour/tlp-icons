@@ -1,0 +1,11 @@
+{
+  "name": "readme",
+  "category": "development",
+  "tags": ["readme", "document", "heading", "text", "docs", "file"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v14H6z\"/><rect class=\"p2\" x=\"9\" y=\"7\" width=\"6\" height=\"2\" rx=\"0.5\"/><line class=\"p3\" x1=\"9\" y1=\"13\" x2=\"15\" y2=\"13\"/><line class=\"p3\" x1=\"9\" y1=\"16\" x2=\"13\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

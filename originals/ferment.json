@@ -1,0 +1,11 @@
+{
+  "name": "ferment",
+  "category": "food",
+  "tags": ["ferment", "jar", "fermentation", "pickle", "lid"],
+  "svg": "<path class=\"d p1\" d=\"M6 9 V19 Q6 21 8 21 H16 Q18 21 18 19 V9 Z\"/><rect class=\"p2\" x=\"5\" y=\"4\" width=\"14\" height=\"3\" rx=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

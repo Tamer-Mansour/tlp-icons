@@ -1,0 +1,11 @@
+{
+  "name": "sign-commit",
+  "category": "development",
+  "tags": ["sign", "commit", "signature", "git", "pen"],
+  "svg": "<circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"2.5\"/><path class=\"p1\" d=\"M2 12h3.5M10.5 12h4\"/><path class=\"p3\" d=\"M13.5 18.5l1-4L19 9l2.5 2.5-4.5 5.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1100 }
+  ]
+}

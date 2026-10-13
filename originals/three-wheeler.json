@@ -1,0 +1,11 @@
+{
+  "name": "three-wheeler",
+  "category": "vehicles",
+  "tags": ["three-wheeler", "vehicle", "rickshaw", "wheels", "tricycle", "transport"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"4\" width=\"10\" height=\"9\" rx=\"2\"/><circle class=\"p2\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

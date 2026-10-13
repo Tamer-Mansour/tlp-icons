@@ -1,0 +1,10 @@
+{
+  "name": "aloe",
+  "category": "nature",
+  "tags": ["aloe", "succulent", "leaves", "rosette", "plant", "desert"],
+  "svg": "<path class=\"d p1\" d=\"M12 19C8 16 4.5 12 4 7c4 3 6.5 7 8 12zM12 19c4-3 7.5-7 8-12-4 3-6.5 7-8 12z\"/><path class=\"p2\" d=\"M12 19C10.5 14 10.5 8 12 3c1.5 5 1.5 11 0 16z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 19px" }
+  ]
+}

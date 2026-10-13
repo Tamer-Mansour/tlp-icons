@@ -1,0 +1,10 @@
+{
+  "name": "user-settings-gear",
+  "category": "people",
+  "tags": ["settings", "gear", "user", "profile", "preferences"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M3 20a6 6 0 0 1 9-5\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"2.5\"/><path class=\"p2\" d=\"M18 13v2M18 21v-2M13 18h2M21 18h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "18px 18px" }
+  ]
+}

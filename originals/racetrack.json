@@ -1,0 +1,11 @@
+{
+  "name": "racetrack",
+  "category": "vehicles",
+  "tags": ["racetrack", "track", "oval", "circuit", "start line"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"5\" ry=\"3\"/><path class=\"p3\" d=\"M12 3.5V8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

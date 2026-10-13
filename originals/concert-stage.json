@@ -1,0 +1,11 @@
+{
+  "name": "concert-stage",
+  "category": "media",
+  "tags": ["concert", "stage", "curtain", "speakers", "show", "performance"],
+  "svg": "<path class=\"p1\" d=\"M3 19h18\"/><rect class=\"d p2\" x=\"2\" y=\"13\" width=\"2\" height=\"6\"/><rect class=\"d p2\" x=\"20\" y=\"13\" width=\"2\" height=\"6\"/><path class=\"p3\" d=\"M8 19V7q4-3 8 0v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "unfold", "dur": 900, "delay": 1000 }
+  ]
+}

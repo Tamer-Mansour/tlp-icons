@@ -1,0 +1,11 @@
+{
+  "name": "electromagnet",
+  "category": "science",
+  "tags": ["electromagnet", "coil", "core", "current", "magnet"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"10\" width=\"14\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M8 6V18M12 6V18M16 6V18\"/><path class=\"p3\" d=\"M2 12H5M19 12H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 600, "delay": 1000 }
+  ]
+}

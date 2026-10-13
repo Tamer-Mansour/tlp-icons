@@ -1,0 +1,11 @@
+{
+  "name": "left-to-right",
+  "category": "text",
+  "tags": ["left to right", "ltr", "direction", "text flow", "reading"],
+  "svg": "<path class=\"p1\" d=\"M3 7 H20\"/><polyline class=\"p3\" points=\"15 3 20 7 15 11\"/><path class=\"p2\" d=\"M4 14 H20 M4 18 H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "time-picker",
+  "category": "interface",
+  "tags": ["time", "picker", "clock", "hour", "schedule", "face"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V7\"/><path class=\"p3\" d=\"M12 12h4\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "gothic-arch",
+  "category": "shapes",
+  "tags": ["gothic", "pointed", "arch", "window", "church", "medieval"],
+  "svg": "<path class=\"p1\" d=\"M5 21V9.5Q5 5 12 3Q19 5 19 9.5V21\"/><path class=\"p2\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

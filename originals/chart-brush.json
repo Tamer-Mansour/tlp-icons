@@ -1,0 +1,10 @@
+{
+  "name": "chart-brush",
+  "category": "charts",
+  "tags": ["brush", "select", "range", "zoom", "filter"],
+  "svg": "<polyline class=\"p1\" points=\"2,16 6,10 10,13 14,6 18,11 22,7\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"8\" height=\"18\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

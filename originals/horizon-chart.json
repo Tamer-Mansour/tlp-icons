@@ -1,0 +1,11 @@
+{
+  "name": "horizon-chart",
+  "category": "charts",
+  "tags": ["horizon", "chart", "bands", "waves", "trend", "data"],
+  "svg": "<path class=\"d p1\" d=\"M2 6 Q5 3 8 6 T14 6 T22 6 V9 H2 Z\"/><path class=\"d p2\" d=\"M2 13 Q5 10 8 13 T14 13 T22 13 V16 H2 Z\"/><path class=\"p3\" d=\"M2 20 Q5 17 8 20 T14 20 T22 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

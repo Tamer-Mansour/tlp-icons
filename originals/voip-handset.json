@@ -1,0 +1,10 @@
+{
+  "name": "voip-handset",
+  "category": "connectivity",
+  "tags": ["voip", "phone", "call", "internet", "handset", "calling"],
+  "svg": "<path class=\"d p1\" d=\"M4.5 5c0-1 1-2 2-2h2.5l1.5 4.5-2 1.5c1 2.5 3 4.5 5.5 5.5l1.5-2 4.5 1.5v4c0 1-1 2-2 2C9.5 19.5 4.5 12 4.5 5z\"/><path class=\"p2\" d=\"M15.5 3.5a6 6 0 0 1 5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

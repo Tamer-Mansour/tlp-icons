@@ -1,0 +1,10 @@
+{
+  "name": "pen-tablet",
+  "category": "devices",
+  "tags": ["pen", "tablet", "drawing", "stylus", "pad", "digital"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"14\" width=\"18\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M8 4l7 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 800, "delay": 800, "origin": "15px 11px" }
+  ]
+}

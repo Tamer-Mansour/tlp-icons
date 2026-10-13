@@ -1,0 +1,11 @@
+{
+  "name": "pastry-bag",
+  "category": "food",
+  "tags": ["pastry", "bag", "piping", "nozzle", "icing"],
+  "svg": "<path class=\"d p1\" d=\"M4 4H20L13 14H11Z\"/><path class=\"p2\" d=\"M11 14V18L12 21L13 18V14\"/><path class=\"p3\" d=\"M8 8H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

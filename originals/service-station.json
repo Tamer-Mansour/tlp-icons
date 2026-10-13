@@ -1,0 +1,12 @@
+{
+  "name": "service-station",
+  "category": "buildings",
+  "tags": ["service station", "gas station", "fuel", "petrol", "pump", "garage"],
+  "svg": "<path class=\"d p1\" d=\"M4 7h8v14H4z\"/><path class=\"p2\" d=\"M4 4h8\"/><path class=\"p3\" d=\"M12 10h3a2 2 0 0 1 2 2v7\"/><path class=\"p4\" d=\"M18 19.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 1400 }
+  ]
+}

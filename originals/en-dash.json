@@ -1,0 +1,10 @@
+{
+  "name": "en-dash",
+  "category": "text",
+  "tags": ["dash", "en dash", "punctuation", "range", "typography", "hyphen"],
+  "svg": "<path class=\"p2\" d=\"M3 8v8\"/><path class=\"p1\" d=\"M8 12h8\"/><path class=\"p2\" d=\"M19 8v8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "stretch", "dur": 700, "delay": 900 }
+  ]
+}

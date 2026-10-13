@@ -1,0 +1,11 @@
+{
+  "name": "ramen-bowl",
+  "category": "food",
+  "tags": ["ramen", "noodles", "soup", "egg", "bowl"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 Q21 20 12 20 Q3 20 3 11 Z\"/><path class=\"p2\" d=\"M7 11 Q6 8 8 7 Q10 6 9 4 M11 11 Q10 8 12 7 Q14 6 13 4\"/><circle class=\"d p3\" cx=\"17\" cy=\"7\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

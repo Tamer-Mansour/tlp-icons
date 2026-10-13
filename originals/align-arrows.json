@@ -1,0 +1,10 @@
+{
+  "name": "align-arrows",
+  "category": "arrows",
+  "tags": ["align", "center", "arrows", "line", "middle", "sides"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"p2\" d=\"M3 12h6M6 9l3 3-3 3M21 12h-6M18 9l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

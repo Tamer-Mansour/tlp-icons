@@ -1,0 +1,10 @@
+{
+  "name": "airfoil-wing",
+  "category": "science",
+  "tags": ["airfoil", "wing", "flow", "aerodynamics", "lift"],
+  "svg": "<path class=\"d p1\" d=\"M3 14Q9 8 20 12Q10 17 3 14Z\"/><path class=\"p2\" d=\"M5 6H14M11 3.5L14 6L11 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

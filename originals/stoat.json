@@ -1,0 +1,12 @@
+{
+  "name": "stoat",
+  "category": "nature",
+  "tags": ["stoat", "weasel", "slender", "tail", "mammal"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"9.5\" width=\"13\" height=\"5\" rx=\"2.5\"/><circle class=\"p2\" cx=\"20\" cy=\"10\" r=\"2\"/><path class=\"p3\" d=\"M6.5 14.5 V18 M10.5 14.5 V18 M14 14.5 V18\"/><path class=\"p4\" d=\"M3.5 11.5 Q1 11 1.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 1300, "origin": "3.5px 11.5px" }
+  ]
+}

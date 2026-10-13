@@ -1,0 +1,10 @@
+{
+  "name": "whiteout",
+  "category": "weather",
+  "tags": ["whiteout", "snow", "blind", "winter", "storm", "weather"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3 9 L9 3 M3 15 L15 3 M9 21 L21 9 M15 21 L21 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 800 }
+  ]
+}

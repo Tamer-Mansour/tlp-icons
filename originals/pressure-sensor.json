@@ -1,0 +1,11 @@
+{
+  "name": "pressure-sensor",
+  "category": "devices",
+  "tags": ["pressure", "gauge", "sensor", "meter", "dial", "measure"],
+  "svg": "<path class=\"p1\" d=\"M4 15a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M12 15l4-4\"/><rect class=\"d p3\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 1100, "origin": "12px 15px" }
+  ]
+}

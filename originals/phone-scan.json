@@ -1,0 +1,11 @@
+{
+  "name": "phone-scan",
+  "category": "communication",
+  "tags": ["phone", "scan", "scanner", "mobile", "capture"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"2\" width=\"8\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M3 8V5h3M21 8V5h-3M3 16v3h3M21 16v3h-3\"/><path class=\"p3\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "scan", "dur": 900, "delay": 800 }
+  ]
+}

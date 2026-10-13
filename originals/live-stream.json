@@ -1,0 +1,11 @@
+{
+  "name": "live-stream",
+  "category": "media",
+  "tags": ["live", "stream", "broadcast", "camera", "streaming", "video"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"10\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M12 11l4-3v8l-4-3\"/><path class=\"p3\" d=\"M18 12h4M20 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

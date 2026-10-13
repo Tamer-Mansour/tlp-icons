@@ -1,0 +1,10 @@
+{
+  "name": "combine-arrows",
+  "category": "arrows",
+  "tags": ["combine", "join", "merge", "shared", "converge", "two arrows"],
+  "svg": "<path class=\"p1\" d=\"M5 4l7 7M19 4l-7 7\"/><path class=\"p2\" d=\"M12 11v9M8 16l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 700 }
+  ]
+}

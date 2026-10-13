@@ -1,0 +1,11 @@
+{
+  "name": "child-bike-seat",
+  "category": "vehicles",
+  "tags": ["child", "bike", "seat", "bicycle", "baby"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"6\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M5 15h11\"/><path class=\"p3\" d=\"M11 6h5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 600, "delay": 1000 }
+  ]
+}

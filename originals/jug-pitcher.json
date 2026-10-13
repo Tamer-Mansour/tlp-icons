@@ -1,0 +1,11 @@
+{
+  "name": "jug-pitcher",
+  "category": "food",
+  "tags": ["jug", "pitcher", "water", "juice", "spout", "handle", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M6 8h12v11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M18 11h2a2 2 0 0 1 0 4h-2\"/><path class=\"p3\" d=\"M6 8l-3-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pour", "dur": 700, "delay": 1000, "origin": "6px 8px" }
+  ]
+}

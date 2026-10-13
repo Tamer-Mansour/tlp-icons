@@ -1,0 +1,11 @@
+{
+  "name": "commute",
+  "category": "time",
+  "tags": ["commute", "route", "travel", "clock", "trip", "journey"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"19\" r=\"1.2\"/><path class=\"p1\" d=\"M7 17l1.5-1.5M11 13l1.5-1.5\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"4\"/><path class=\"p3\" d=\"M16 6v2l1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "16px 8px" }
+  ]
+}

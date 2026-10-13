@@ -1,0 +1,10 @@
+{
+  "name": "u-bolt",
+  "category": "tools",
+  "tags": ["u-bolt", "bolt", "nut", "clamp", "threaded"],
+  "svg": "<path class=\"p1\" d=\"M7 2.5V14a5 5 0 0 0 10 0V2.5\"/><rect class=\"d p2\" x=\"4.5\" y=\"5\" width=\"5\" height=\"3\" rx=\"0.5\"/><rect class=\"d p2\" x=\"14.5\" y=\"5\" width=\"5\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

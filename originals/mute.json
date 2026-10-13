@@ -1,0 +1,10 @@
+{
+  "name": "mute",
+  "category": "interface",
+  "tags": ["mute", "speaker", "silent", "volume", "sound", "off"],
+  "svg": "<path class=\"p1\" d=\"M11 5 6 9H3v6h3l5 4z\"/><path class=\"p2\" d=\"M16 9l6 6M22 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 800 }
+  ]
+}

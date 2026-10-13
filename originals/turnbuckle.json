@@ -1,0 +1,11 @@
+{
+  "name": "turnbuckle",
+  "category": "tools",
+  "tags": ["turnbuckle", "rod", "eye", "tension", "rigging"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"9\" width=\"8\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M8 12H5M16 12H19\"/><circle class=\"p3\" cx=\"3.5\" cy=\"12\" r=\"1.5\"/><circle class=\"p3\" cx=\"20.5\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

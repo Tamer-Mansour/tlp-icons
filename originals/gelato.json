@@ -1,0 +1,11 @@
+{
+  "name": "gelato",
+  "category": "food",
+  "tags": ["gelato", "ice cream", "spoon", "dessert", "italian"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 H19 L16 21 H8 Z\"/><path class=\"p2\" d=\"M6 12 Q7 7 12 7 Q17 7 18 12\"/><path class=\"p3\" d=\"M13 10 L18 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "stir", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "flagellum-cell",
+  "category": "science",
+  "tags": ["flagellum", "cell", "whip", "bacteria", "tail", "biology"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 12q2-2.5 4 0t4 0t1.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

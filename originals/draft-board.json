@@ -1,0 +1,11 @@
+{
+  "name": "draft-board",
+  "category": "sport",
+  "tags": ["draft", "board", "checkers", "game", "strategy", "tabletop"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M10 8H17M10 12H17M10 16H17\"/><circle class=\"f p3\" cx=\"7\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"7\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"7\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

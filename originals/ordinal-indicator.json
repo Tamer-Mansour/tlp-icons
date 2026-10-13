@@ -1,0 +1,10 @@
+{
+  "name": "ordinal-indicator",
+  "category": "text",
+  "tags": ["ordinal", "suffix", "superscript", "numbering", "first", "letter"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"15\" r=\"3\"/><path class=\"p1\" d=\"M10.5 12v6\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

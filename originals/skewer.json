@@ -1,0 +1,11 @@
+{
+  "name": "skewer",
+  "category": "food",
+  "tags": ["skewer", "kebab", "meat", "grill", "stick", "barbecue"],
+  "svg": "<path class=\"p1\" d=\"M2 12h20\"/><rect class=\"d p2\" x=\"6\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"d p3\" x=\"14\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 900 }
+  ]
+}

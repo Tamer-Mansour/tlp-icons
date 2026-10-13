@@ -1,0 +1,11 @@
+{
+  "name": "magnifier",
+  "category": "science",
+  "tags": ["magnifier", "lens", "zoom", "search", "glass", "inspect"],
+  "svg": "<circle class=\"d p1\" cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path class=\"p3\" d=\"M7.5 9A3.5 3.5 0 0 1 10.5 7\"/><path class=\"p2\" d=\"M15.5 15.5L21 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "magnify", "dur": 800, "delay": 900 }
+  ]
+}

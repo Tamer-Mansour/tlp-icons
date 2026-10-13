@@ -1,0 +1,10 @@
+{
+  "name": "gradient-linear",
+  "category": "design",
+  "tags": ["gradient", "linear", "fade", "rectangle", "color", "blend"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"d p2\" d=\"M3 19L19 5V17a2 2 0 0 1-2 2H3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 600 }
+  ]
+}

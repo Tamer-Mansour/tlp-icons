@@ -1,0 +1,11 @@
+{
+  "name": "lentils",
+  "category": "food",
+  "tags": ["lentils", "legumes", "beans", "pulses", "grain", "vegan"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"8.5\" rx=\"3\" ry=\"2\" transform=\"rotate(-15 7.5 8.5)\"/><ellipse class=\"p2\" cx=\"15.5\" cy=\"9.5\" rx=\"3\" ry=\"2\" transform=\"rotate(20 15.5 9.5)\"/><ellipse class=\"p3\" cx=\"11.5\" cy=\"16\" rx=\"3\" ry=\"2\" transform=\"rotate(-5 11.5 16)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

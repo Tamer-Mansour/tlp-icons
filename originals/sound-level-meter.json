@@ -1,0 +1,11 @@
+{
+  "name": "sound-level-meter",
+  "category": "devices",
+  "tags": ["sound", "level", "meter", "audio", "noise", "decibel"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"13\" r=\"5\"/><line class=\"p2\" x1=\"8\" y1=\"13\" x2=\"11\" y2=\"9.5\"/><path class=\"p3\" d=\"M15.5 9.5 A3.5 3.5 0 0 1 15.5 14.5\"/><path class=\"p3\" d=\"M18.5 6.5 A6.5 6.5 0 0 1 18.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 700, "origin": "8px 13px" },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dish-drainer",
+  "category": "home",
+  "tags": ["dish", "drying", "rack", "kitchen", "drainer"],
+  "svg": "<path class=\"d p1\" d=\"M3 11.5 L21 7.5 L21 10 L3 14 Z\"/><path class=\"p2\" d=\"M5 13.5 V21 M19 10.5 V21\"/><circle class=\"p3\" cx=\"8\" cy=\"5.5\" r=\"2.5\"/><circle class=\"p3\" cx=\"15\" cy=\"4\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

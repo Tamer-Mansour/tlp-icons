@@ -1,0 +1,11 @@
+{
+  "name": "wet-road",
+  "category": "weather",
+  "tags": ["road", "wet", "rain", "reflection", "slippery", "driving"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h8l4 14H4z\"/><path class=\"p2\" d=\"M12 7v3M12 13v2\"/><path class=\"p3\" d=\"M5 21q1.75-1.5 3.5 0t3.5 0t3.5 0t3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "glass-funnel",
+  "category": "science",
+  "tags": ["funnel", "lab", "pour", "liquid", "filter", "chemistry"],
+  "svg": "<path class=\"p1\" d=\"M3 2 H21\"/><path class=\"d p2\" d=\"M4.5 4.5 L10 13 L14 13 L19.5 4.5 Z\"/><path class=\"p3\" d=\"M10 13 V19 H14 V13\"/><path class=\"p4\" d=\"M12 19 V22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "drip", "dur": 700, "delay": 1100 }
+  ]
+}

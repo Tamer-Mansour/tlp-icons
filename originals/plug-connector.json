@@ -1,0 +1,11 @@
+{
+  "name": "plug-connector",
+  "category": "development",
+  "tags": ["plug", "connector", "cable", "port", "socket", "adapter"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"6\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"16\" y=\"8\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 700 }
+  ]
+}

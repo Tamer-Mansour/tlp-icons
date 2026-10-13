@@ -1,0 +1,10 @@
+{
+  "name": "feeler-stick",
+  "category": "tools",
+  "tags": ["feeler", "gauge", "stick", "blade", "thickness", "measure"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"7\" height=\"6\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"11\" width=\"11\" height=\"2\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 600 }
+  ]
+}

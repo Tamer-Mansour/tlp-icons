@@ -1,0 +1,11 @@
+{
+  "name": "leaderboard-rank",
+  "category": "sport",
+  "tags": ["leaderboard", "ranking", "podium", "winners", "scores", "rank"],
+  "svg": "<path class=\"d p1\" d=\"M3 13H8V21H3Z\"/><path class=\"d p2\" d=\"M9.5 7H14.5V21H9.5Z\"/><path class=\"d p3\" d=\"M16 11H21V21H16Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 400, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 700, "origin": "bottom" }
+  ]
+}

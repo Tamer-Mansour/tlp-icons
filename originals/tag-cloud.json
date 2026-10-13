@@ -1,0 +1,11 @@
+{
+  "name": "tag-cloud",
+  "category": "charts",
+  "tags": ["tag cloud", "tags", "labels", "keywords", "categories", "topics"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"6\" rx=\"3\"/><rect class=\"d p2\" x=\"3\" y=\"11\" width=\"7\" height=\"6\" rx=\"3\"/><rect class=\"d p3\" x=\"12\" y=\"11\" width=\"9\" height=\"6\" rx=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

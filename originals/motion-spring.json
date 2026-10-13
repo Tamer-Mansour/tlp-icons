@@ -1,0 +1,10 @@
+{
+  "name": "motion-spring",
+  "category": "development",
+  "tags": ["spring", "motion", "coil", "physics", "animation", "bounce"],
+  "svg": "<path class=\"p1\" d=\"M2.5 12H5l2-5 3 10 3-10 3 10 1-5\"/><rect class=\"d p2\" x=\"19\" y=\"9.5\" width=\"3\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "spring", "dur": 700, "delay": 1100 }
+  ]
+}

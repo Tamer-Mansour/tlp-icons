@@ -1,0 +1,11 @@
+{
+  "name": "rock-paper-scissors",
+  "category": "sport",
+  "tags": ["rock paper scissors", "hand game", "rock", "paper", "scissors"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"3\"/><rect class=\"p2\" x=\"10\" y=\"9\" width=\"5\" height=\"6\" rx=\"0.5\"/><path class=\"p3\" d=\"M17 6 L21 16 M21 6 L17 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 1000, "delay": 1000 }
+  ]
+}

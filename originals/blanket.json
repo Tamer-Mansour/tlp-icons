@@ -1,0 +1,10 @@
+{
+  "name": "blanket",
+  "category": "home",
+  "tags": ["blanket", "throw", "fringe", "folded", "warm", "bed"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M5 16v3M8 16v3M11 16v3M14 16v3M17 16v3M20 16v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "unfold", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 700 }
+  ]
+}

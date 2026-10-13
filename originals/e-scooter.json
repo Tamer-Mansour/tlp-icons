@@ -1,0 +1,11 @@
+{
+  "name": "e-scooter",
+  "category": "devices",
+  "tags": ["scooter", "electric", "ride", "commute", "transport", "wheel"],
+  "svg": "<path class=\"p1\" d=\"M3 17h13\"/><path class=\"p3\" d=\"M16 17V5l3-1\"/><circle class=\"p2\" cx=\"5\" cy=\"19\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "drive", "dur": 800, "delay": 1000 }
+  ]
+}

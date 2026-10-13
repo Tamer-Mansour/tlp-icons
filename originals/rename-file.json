@@ -1,0 +1,11 @@
+{
+  "name": "rename-file",
+  "category": "files",
+  "tags": ["rename", "edit", "caret", "text", "file"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z\"/><line class=\"p2\" x1=\"8.5\" y1=\"11\" x2=\"8.5\" y2=\"16\"/><line class=\"p3\" x1=\"12\" y1=\"13.5\" x2=\"17\" y2=\"13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "measure-angle",
+  "category": "design",
+  "tags": ["measure", "angle", "degrees", "rays", "design"],
+  "svg": "<path class=\"p1\" d=\"M6 18h14\"/><path class=\"p2\" d=\"M6 18 16 6\"/><path class=\"p3\" d=\"M11 18A5 5 0 0 0 9.2 14.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "swing", "origin": "6px 18px", "dur": 900, "delay": 900 }
+  ]
+}

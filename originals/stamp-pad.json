@@ -1,0 +1,10 @@
+{
+  "name": "stamp-pad",
+  "category": "communication",
+  "tags": ["stamp", "ink", "pad", "rubber", "mark", "seal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"15\" width=\"16\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 4v3M8 7h8v2H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stamp", "dur": 600, "delay": 500 }
+  ]
+}

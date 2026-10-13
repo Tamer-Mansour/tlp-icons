@@ -1,0 +1,10 @@
+{
+  "name": "moon-theme",
+  "category": "interface",
+  "tags": ["moon", "theme", "night", "crescent", "star", "dark"],
+  "svg": "<path class=\"p1\" d=\"M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z\"/><path class=\"p2\" d=\"M18 3v3M16.5 4.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 900 }
+  ]
+}

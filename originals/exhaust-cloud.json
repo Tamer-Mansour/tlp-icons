@@ -1,0 +1,10 @@
+{
+  "name": "exhaust-cloud",
+  "category": "vehicles",
+  "tags": ["exhaust", "cloud", "smoke", "tailpipe", "emissions"],
+  "svg": "<path class=\"d p1\" d=\"M7 17.5h10a3.5 3.5 0 0 0 .4-6.98A5 5 0 0 0 8 9.5 4 4 0 0 0 7 17.5z\"/><path class=\"p2\" d=\"M4 21h4M10 21h4M16 21h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

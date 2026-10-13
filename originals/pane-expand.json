@@ -1,0 +1,11 @@
+{
+  "name": "pane-expand",
+  "category": "layout",
+  "tags": ["pane", "expand", "sidebar", "open", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"15\" y1=\"3\" x2=\"15\" y2=\"21\"/><path class=\"p3\" d=\"M8 9L11 12L8 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

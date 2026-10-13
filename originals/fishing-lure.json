@@ -1,0 +1,10 @@
+{
+  "name": "fishing-lure",
+  "category": "sport",
+  "tags": ["fishing", "lure", "fish", "hook", "bait", "angling"],
+  "svg": "<path class=\"d p1\" d=\"M3 12c3-4 7-5 11-3l6-3v12l-6-3c-4 2-8 1-11-3z\"/><path class=\"p2\" d=\"M9 16v3.5l2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 700, "origin": "9px 16px" }
+  ]
+}

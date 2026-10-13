@@ -1,0 +1,11 @@
+{
+  "name": "localization-globe",
+  "category": "development",
+  "tags": ["localization", "globe", "language", "translate", "world", "i18n"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"11\" r=\"8\"/><path class=\"p3\" d=\"M2 11h16M10 3c2.5 2.5 2.5 13.5 0 16\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"8\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sky-glow",
+  "category": "weather",
+  "tags": ["glow", "horizon", "light pollution", "city", "dusk", "night sky"],
+  "svg": "<path class=\"p1\" d=\"M4 18a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M12 3.5v2.5M5.5 7l1.5 1.5M18.5 7l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dim", "dur": 1000, "delay": 800 }
+  ]
+}

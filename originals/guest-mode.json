@@ -1,0 +1,10 @@
+{
+  "name": "guest-mode",
+  "category": "people",
+  "tags": ["guest", "mode", "visitor", "temporary", "outline", "anonymous"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M6 21a6 6 0 0 1 2-4.5M10.5 15.3a6 6 0 0 1 3 0M16 16.5a6 6 0 0 1 2 4.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

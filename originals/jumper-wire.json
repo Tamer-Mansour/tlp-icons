@@ -1,0 +1,10 @@
+{
+  "name": "jumper-wire",
+  "category": "science",
+  "tags": ["jumper", "wire", "connector", "circuit", "electronics"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"d p1\" x=\"18\" y=\"9\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M6 12C10 4 14 20 18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

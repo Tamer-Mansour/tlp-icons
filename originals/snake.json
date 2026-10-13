@@ -1,0 +1,11 @@
+{
+  "name": "snake",
+  "category": "nature",
+  "tags": ["snake", "reptile", "s curve", "forked tongue", "slither", "serpent"],
+  "svg": "<path class=\"p1\" d=\"M5 20C5 14 13 17 13 11C13 6 5 7 5 3\"/><circle class=\"d p2\" cx=\"5\" cy=\"4\" r=\"2\"/><path class=\"p3\" d=\"M7 4H10M10 4L12 2.5M10 4L12 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

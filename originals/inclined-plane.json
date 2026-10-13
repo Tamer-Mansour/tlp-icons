@@ -1,0 +1,10 @@
+{
+  "name": "inclined-plane",
+  "category": "science",
+  "tags": ["inclined plane", "ramp", "slope", "physics", "block"],
+  "svg": "<path class=\"d p1\" d=\"M2 19 H21 V5 Z\"/><rect class=\"p2\" x=\"6.5\" y=\"9.5\" width=\"4\" height=\"4\" rx=\"0.5\" transform=\"rotate(-36.4 8.5 11.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 700, "delay": 700 }
+  ]
+}

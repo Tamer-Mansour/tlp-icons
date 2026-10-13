@@ -1,0 +1,11 @@
+{
+  "name": "data-quality",
+  "category": "charts",
+  "tags": ["data", "quality", "table", "validation", "check"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"10\" height=\"16\"/><path class=\"p2\" d=\"M3 9H13M8 9V20\"/><polyline class=\"p3\" points=\"17,15 19,17 22,13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

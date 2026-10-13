@@ -1,0 +1,10 @@
+{
+  "name": "step-chart",
+  "category": "charts",
+  "tags": ["step", "chart", "line", "changes", "graph", "levels"],
+  "svg": "<polyline class=\"p1\" points=\"2,8 9,8 9,16 15,16 15,10 22,10\"/><line class=\"p2\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

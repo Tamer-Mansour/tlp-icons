@@ -1,0 +1,11 @@
+{
+  "name": "notification-mute",
+  "category": "communication",
+  "tags": ["notification", "mute", "bell", "silent", "alerts", "off"],
+  "svg": "<path class=\"d p1\" d=\"M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z\"/><path class=\"p2\" d=\"M10 21h4\"/><path class=\"p3\" d=\"M4 4l16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

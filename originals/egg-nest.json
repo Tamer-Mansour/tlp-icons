@@ -1,0 +1,11 @@
+{
+  "name": "egg-nest",
+  "category": "nature",
+  "tags": ["nest", "eggs", "bird", "spring", "clutch", "bowl"],
+  "svg": "<path class=\"p1\" d=\"M3 13 Q12 20 21 13\"/><ellipse class=\"d p2\" cx=\"8.5\" cy=\"11\" rx=\"2\" ry=\"2.5\"/><ellipse class=\"p3\" cx=\"15.5\" cy=\"11\" rx=\"2\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

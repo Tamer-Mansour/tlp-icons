@@ -1,0 +1,11 @@
+{
+  "name": "coffee-table",
+  "category": "home",
+  "tags": ["coffee", "table", "living", "room", "low", "furniture"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M5 11v9M19 11v9\"/><path class=\"p3\" d=\"M5 16h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

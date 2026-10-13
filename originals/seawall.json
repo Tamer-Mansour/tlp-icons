@@ -1,0 +1,10 @@
+{
+  "name": "seawall",
+  "category": "buildings",
+  "tags": ["seawall", "sea", "wall", "waves", "coast", "defence"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"12\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2 20.5q2.5-1.5 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

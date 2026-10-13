@@ -1,0 +1,11 @@
+{
+  "name": "rotary-encoder",
+  "category": "devices",
+  "tags": ["rotary", "encoder", "knob", "dial", "input"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"8.5\" x2=\"12\" y2=\"10.5\"/><path class=\"p3\" d=\"M4.2 16.5 A9 9 0 1 1 19.8 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1100 }
+  ]
+}

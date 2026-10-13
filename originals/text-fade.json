@@ -1,0 +1,10 @@
+{
+  "name": "text-fade",
+  "category": "text",
+  "tags": ["fade", "dotted", "text fade", "gradient", "trail"],
+  "svg": "<path class=\"p1\" d=\"M3 12 H11\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"17.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"21\" cy=\"12\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 600 }
+  ]
+}

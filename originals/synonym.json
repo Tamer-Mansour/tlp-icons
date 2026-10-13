@@ -1,0 +1,11 @@
+{
+  "name": "synonym",
+  "category": "text",
+  "tags": ["synonym", "bubbles", "equal", "same", "words"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"8.5\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"13\" y=\"4\" width=\"8.5\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M9 15.5h6M9 19.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 600, "delay": 800 }
+  ]
+}

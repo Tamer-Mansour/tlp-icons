@@ -1,0 +1,11 @@
+{
+  "name": "tire-pressure",
+  "category": "vehicles",
+  "tags": ["tire", "pressure", "gauge", "wheel", "car"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"14\" y2=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

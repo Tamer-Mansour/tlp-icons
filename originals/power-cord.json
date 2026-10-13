@@ -1,0 +1,10 @@
+{
+  "name": "power-cord",
+  "category": "devices",
+  "tags": ["power", "cord", "cable", "plug", "electric", "wire"],
+  "svg": "<path class=\"p1\" d=\"M5 3v4c0 4 3 6 7 6s7 2 7 4\"/><rect class=\"d p2\" x=\"16\" y=\"17\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dwarf-planet",
+  "category": "science",
+  "tags": ["dwarf", "planet", "orbit", "dashed", "space"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M21 12A9 9 0 0 1 19.79 16.5M16.5 19.79A9 9 0 0 1 12 21M7.5 19.79A9 9 0 0 1 4.21 16.5M3 12A9 9 0 0 1 4.21 7.5M7.5 4.21A9 9 0 0 1 12 3M16.5 4.21A9 9 0 0 1 19.79 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 1800, "delay": 500 }
+  ]
+}

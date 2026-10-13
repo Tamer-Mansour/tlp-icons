@@ -1,0 +1,11 @@
+{
+  "name": "espresso-shot",
+  "category": "food",
+  "tags": ["espresso", "shot", "coffee", "cup", "cafe"],
+  "svg": "<path class=\"d p1\" d=\"M7 12 H17 V15 Q17 19 12 19 Q7 19 7 15 Z\"/><path class=\"p2\" d=\"M9.5 15 C10.5 13.5 13.5 13.5 14.5 15\"/><path class=\"p3\" d=\"M10 9 Q9 7.5 10 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

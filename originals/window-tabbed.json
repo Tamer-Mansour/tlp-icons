@@ -1,0 +1,10 @@
+{
+  "name": "window-tabbed",
+  "category": "layout",
+  "tags": ["window", "tabs", "tabbed", "browser", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 7V5h5v2M7 7V5h5v2M12 7V5h5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 500, "delay": 500 }
+  ]
+}

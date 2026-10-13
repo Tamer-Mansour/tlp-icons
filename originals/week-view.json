@@ -1,0 +1,11 @@
+{
+  "name": "week-view",
+  "category": "time",
+  "tags": ["week", "view", "calendar", "grid", "days", "schedule"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M3 10h18M7.5 5v14M12 5v14M16.5 5v14\"/><rect class=\"d p3\" x=\"3.5\" y=\"10.5\" width=\"17\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

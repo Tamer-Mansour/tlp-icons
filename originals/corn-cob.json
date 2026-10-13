@@ -1,0 +1,11 @@
+{
+  "name": "corn-cob",
+  "category": "food",
+  "tags": ["corn", "cob", "maize", "vegetable", "kernels", "husk"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"4\" ry=\"7\"/><circle class=\"f p2\" cx=\"10\" cy=\"8\" r=\"0.9\"/><circle class=\"f p2\" cx=\"14\" cy=\"8\" r=\"0.9\"/><circle class=\"f p2\" cx=\"10\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"0.9\"/><path class=\"p3\" d=\"M12 21 C8 21 6.5 18 7.5 15 M12 21 C16 21 17.5 18 16.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "winding-sticks",
+  "category": "tools",
+  "tags": ["sticks", "flatness", "woodwork", "check", "twist", "level"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"9\" y2=\"16\"/><line class=\"p2\" x1=\"15\" y1=\"3\" x2=\"20\" y2=\"16\"/><line class=\"p3\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

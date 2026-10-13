@@ -1,0 +1,11 @@
+{
+  "name": "consent-toggle",
+  "category": "security",
+  "tags": ["consent", "toggle", "switch", "permission", "opt", "in"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><circle class=\"d p2\" cx=\"16\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M14.7 12l1 1 1.9-1.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

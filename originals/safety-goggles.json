@@ -1,0 +1,10 @@
+{
+  "name": "safety-goggles",
+  "category": "science",
+  "tags": ["safety goggles", "eye protection", "lab", "lenses", "strap"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"13\" rx=\"3.5\" ry=\"3\"/><ellipse class=\"d p1\" cx=\"16.5\" cy=\"13\" rx=\"3.5\" ry=\"3\"/><path class=\"p2\" d=\"M11 13 H13 M4 10 H20 M2 9 L4 10 M22 9 L20 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

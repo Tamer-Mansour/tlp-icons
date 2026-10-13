@@ -1,0 +1,10 @@
+{
+  "name": "mixing-spoon",
+  "category": "food",
+  "tags": ["mixing", "spoon", "stir", "bowl", "baking"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"14\" r=\"5\"/><line class=\"p2\" x1=\"13\" y1=\"10\" x2=\"20\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 700, "origin": "9px 14px" }
+  ]
+}

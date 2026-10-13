@@ -1,0 +1,11 @@
+{
+  "name": "whisk-egg",
+  "category": "food",
+  "tags": ["whisk", "egg", "beat", "baking", "kitchen", "mix"],
+  "svg": "<path class=\"p1\" d=\"M12 17v5\"/><path class=\"p2\" d=\"M12 3c-3 0-4.5 3.5-4.5 7 0 3.5 2 5.5 4.5 7 2.5-1.5 4.5-3.5 4.5-7 0-3.5-1.5-7-4.5-7z\"/><ellipse class=\"d p3\" cx=\"18\" cy=\"17\" rx=\"3\" ry=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "stir", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

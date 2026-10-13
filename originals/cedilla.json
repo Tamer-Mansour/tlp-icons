@@ -1,0 +1,10 @@
+{
+  "name": "cedilla",
+  "category": "text",
+  "tags": ["cedilla", "hook", "diacritic", "letter", "accent"],
+  "svg": "<path class=\"p1\" d=\"M16.5 8.5A5.5 5.5 0 1 0 16.5 15.5\"/><path class=\"p2\" d=\"M12.3 17.5v1.5c0 1.2-.9 2-2.3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "user-permissions",
+  "category": "people",
+  "tags": ["permissions", "access", "user", "checklist", "roles"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20a6 6 0 0 1 12 0\"/><polyline class=\"p2\" points=\"15 6 16.5 7.5 19 5\"/><path class=\"p3\" d=\"M15 12h6M15 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

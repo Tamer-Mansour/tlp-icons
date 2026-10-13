@@ -1,0 +1,11 @@
+{
+  "name": "fire-log",
+  "category": "home",
+  "tags": ["fire", "logs", "firewood", "hearth", "flame", "fireplace"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"17\" width=\"18\" height=\"4\" rx=\"2\"/><rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"4\" rx=\"2\"/><ellipse class=\"p2\" cx=\"6\" cy=\"19\" rx=\"1\" ry=\"1.8\"/><ellipse class=\"p2\" cx=\"7\" cy=\"13\" rx=\"1\" ry=\"1.5\"/><path class=\"p3\" d=\"M12 2c-1.5 2-3 3.5-2.5 5 .5 1 1.5 1.5 2.5 1.5s2-.5 2.5-1.5C15 5.5 13.5 4 12 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

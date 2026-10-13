@@ -1,0 +1,11 @@
+{
+  "name": "tachometer",
+  "category": "vehicles",
+  "tags": ["tachometer", "rpm", "engine", "dial", "revs"],
+  "svg": "<path class=\"p1\" d=\"M4 15a8 8 0 1 1 16 0\"/><path class=\"p3\" d=\"M12 10.5v1M7 13l.8.8M17 13l-.8.8\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"15\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 15px" }
+  ]
+}

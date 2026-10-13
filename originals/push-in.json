@@ -1,0 +1,10 @@
+{
+  "name": "push-in",
+  "category": "arrows",
+  "tags": ["push", "inward", "center", "focus", "converge"],
+  "svg": "<path class=\"p1\" d=\"M3 3 L9 9 M4 9 H9 V4 M21 3 L15 9 M20 9 H15 V4\"/><path class=\"p2\" d=\"M3 21 L9 15 M4 15 H9 V20 M21 21 L15 15 M20 15 H15 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "swordfish",
+  "category": "nature",
+  "tags": ["swordfish", "fish", "ocean", "bill", "sea", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M6 12C9 8 14 8 18 11.5L22 12L18 12.5C14 15.5 9 15.5 6 12Z\"/><path class=\"p2\" d=\"M6 12L3 9M6 12L3 15\"/><circle class=\"f p3\" cx=\"15\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

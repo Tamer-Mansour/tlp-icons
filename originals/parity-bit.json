@@ -1,0 +1,11 @@
+{
+  "name": "parity-bit",
+  "category": "math",
+  "tags": ["parity", "bit", "check", "error", "math"],
+  "svg": "<path class=\"p1\" d=\"M2 9h3v6H2zM7 9h3v6H7zM12 9h3v6h-3z\"/><rect class=\"d p2\" x=\"17\" y=\"9\" width=\"3\" height=\"6\" rx=\"0.5\"/><path class=\"p3\" d=\"M17 5.5L18.5 7L21 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

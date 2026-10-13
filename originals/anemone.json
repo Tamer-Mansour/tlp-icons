@@ -1,0 +1,11 @@
+{
+  "name": "anemone",
+  "category": "nature",
+  "tags": ["sea", "tentacles", "ocean", "reef", "marine"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"4\"/><path class=\"p2\" d=\"M6 14c1 2 0 4-1 6M10 14c0 2 1 4 0 6\"/><path class=\"p3\" d=\"M14 14c0 2-1 4 0 6M18 14c-1 2 0 4 1 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1200, "origin": "12px 14px" }
+  ]
+}

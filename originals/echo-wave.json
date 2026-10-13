@@ -1,0 +1,11 @@
+{
+  "name": "echo-wave",
+  "category": "media",
+  "tags": ["echo", "wave", "repeat", "audio", "delay"],
+  "svg": "<path class=\"p1\" d=\"M2 12c1.5-4 3-4 4.5 0\"/><path class=\"p2\" d=\"M10 12c1.2-3 2.3-3 3.5 0\"/><path class=\"p3\" d=\"M17 12c.9-2 1.6-2 2.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 900 }
+  ]
+}

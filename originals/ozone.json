@@ -1,0 +1,12 @@
+{
+  "name": "ozone",
+  "category": "weather",
+  "tags": ["ozone", "molecule", "atmosphere", "layer", "gas"],
+  "svg": "<path class=\"p1\" d=\"M9.5 10 L6.5 14.5 M14.5 10 L17.5 14.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"7\" r=\"2.5\"/><circle class=\"p3\" cx=\"5\" cy=\"17\" r=\"2.5\"/><circle class=\"p4\" cx=\"19\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

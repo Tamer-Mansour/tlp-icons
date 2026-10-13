@@ -1,0 +1,11 @@
+{
+  "name": "crane-shot",
+  "category": "media",
+  "tags": ["crane", "shot", "camera", "jib", "film", "arm"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"17\" width=\"6\" height=\"4\" rx=\"1\"/><line class=\"p2\" x1=\"6\" y1=\"17\" x2=\"18\" y2=\"6\"/><rect class=\"p3\" x=\"15\" y=\"3\" width=\"7\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1100, "origin": "18px 6px" }
+  ]
+}

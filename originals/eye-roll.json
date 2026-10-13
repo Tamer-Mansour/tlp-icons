@@ -1,0 +1,11 @@
+{
+  "name": "eye-roll",
+  "category": "people",
+  "tags": ["eye roll", "annoyed", "face", "unimpressed", "sarcasm", "upward"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M9 16h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

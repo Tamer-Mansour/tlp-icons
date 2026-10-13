@@ -1,0 +1,11 @@
+{
+  "name": "step-stool",
+  "category": "tools",
+  "tags": ["stool", "step", "ladder", "climb", "furniture", "steps"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"3\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"12\" width=\"18\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M6 15 V21 M18 15 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

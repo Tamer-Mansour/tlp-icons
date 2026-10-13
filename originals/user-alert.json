@@ -1,0 +1,10 @@
+{
+  "name": "user-alert",
+  "category": "people",
+  "tags": ["alert", "bell", "user", "notification", "warning"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"7\" r=\"3\"/><path class=\"p1\" d=\"M2 20a5 5 0 0 1 10 0\"/><path class=\"d p2\" d=\"M14 17h7l-1.5-2.5V10.5a3 3 0 0 0-6 0V14.5z\"/><circle class=\"f p2\" cx=\"17.5\" cy=\"19.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "17px 4px" }
+  ]
+}

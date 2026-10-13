@@ -1,0 +1,10 @@
+{
+  "name": "stamp-postage",
+  "category": "interface",
+  "tags": ["stamp", "postage", "mail", "envelope", "letter", "post"],
+  "svg": "<path class=\"p1\" d=\"M3 3h7.5a1.5 1.5 0 0 0 3 0H21v7.5a1.5 1.5 0 0 0 0 3V21h-7.5a1.5 1.5 0 0 0-3 0H3v-7.5a1.5 1.5 0 0 0 0-3z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "stamp", "dur": 500, "delay": 900 }
+  ]
+}

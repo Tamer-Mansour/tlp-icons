@@ -1,0 +1,11 @@
+{
+  "name": "clownfish",
+  "category": "nature",
+  "tags": ["clownfish", "fish", "reef", "stripes", "ocean", "marine"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10.5\" cy=\"12\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M7.5 8.5 V15.5 M13.5 8.5 V15.5\"/><path class=\"d p3\" d=\"M16.5 12 L21 8.5 L19.5 12 L21 15.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100, "origin": "16.5px 12px" }
+  ]
+}

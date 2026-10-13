@@ -1,0 +1,11 @@
+{
+  "name": "electric-skateboard",
+  "category": "vehicles",
+  "tags": ["skateboard", "electric", "remote", "board", "battery"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"20\" height=\"3\" rx=\"1.5\"/><circle class=\"p2\" cx=\"6\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"18\" cy=\"19.5\" r=\"1.5\"/><rect class=\"p3\" x=\"16\" y=\"3\" width=\"5\" height=\"7\" rx=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

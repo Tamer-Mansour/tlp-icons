@@ -1,0 +1,11 @@
+{
+  "name": "kiosk-stand",
+  "category": "buildings",
+  "tags": ["kiosk", "stand", "sign", "booth", "flat roof", "market"],
+  "svg": "<path class=\"p1\" d=\"M2 8h20\"/><path class=\"p2\" d=\"M5 8v13h14V8\"/><rect class=\"p3\" x=\"8\" y=\"12\" width=\"8\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "backgammon",
+  "category": "sport",
+  "tags": ["backgammon", "board game", "dice", "points", "strategy"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1.5\"/><polyline class=\"p2\" points=\"5 20 8 13 11 20\"/><polyline class=\"p2\" points=\"13 20 16 13 19 20\"/><rect class=\"d p3\" x=\"10\" y=\"8\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "spinHalf", "dur": 1200, "delay": 1100 }
+  ]
+}

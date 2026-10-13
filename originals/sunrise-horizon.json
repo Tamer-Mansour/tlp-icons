@@ -1,0 +1,11 @@
+{
+  "name": "sunrise-horizon",
+  "category": "science",
+  "tags": ["sunrise", "sun", "horizon", "morning", "dawn", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M7 16 A5 5 0 0 1 17 16 Z\"/><line class=\"p2\" x1=\"3\" y1=\"16\" x2=\"21\" y2=\"16\"/><path class=\"p3\" d=\"M12 5 V7 M6 7.5 L7.5 9 M18 7.5 L16.5 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

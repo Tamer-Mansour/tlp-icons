@@ -1,0 +1,11 @@
+{
+  "name": "textile-mill",
+  "category": "buildings",
+  "tags": ["textile", "mill", "sawtooth", "spool", "factory", "thread"],
+  "svg": "<path class=\"p1\" d=\"M2 14 L6 9 V14 L10 9 V14 L14 9 V14 L18 9 V14 L22 9\"/><path class=\"p3\" d=\"M8 16 H16 M8 21 H16\"/><rect class=\"d p2\" x=\"10\" y=\"16\" width=\"4\" height=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 18.5px" }
+  ]
+}

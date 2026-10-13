@@ -1,0 +1,10 @@
+{
+  "name": "airport-gate",
+  "category": "vehicles",
+  "tags": ["airport", "gate", "boarding", "plane", "terminal", "departure", "flight"],
+  "svg": "<path class=\"p1\" d=\"M5 21V10a7 7 0 0 1 14 0v11\"/><path class=\"p2\" d=\"M12 9.5v8M8.5 13.5l3.5-2 3.5 2M10 18l2-1 2 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 1000, "delay": 900 }
+  ]
+}

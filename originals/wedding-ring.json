@@ -1,0 +1,10 @@
+{
+  "name": "wedding-ring",
+  "category": "emoji",
+  "tags": ["ring", "wedding", "marriage", "diamond", "engagement", "jewelry"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"6\"/><polygon class=\"d p2\" points=\"9.5,4.5 10.5,2.5 13.5,2.5 14.5,4.5 12,7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 1000, "origin": "12px 5px" }
+  ]
+}

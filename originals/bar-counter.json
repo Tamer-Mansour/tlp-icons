@@ -1,0 +1,11 @@
+{
+  "name": "bar-counter",
+  "category": "buildings",
+  "tags": ["bar", "counter", "glass", "drink", "pub"],
+  "svg": "<path class=\"p1\" d=\"M3 18H21\"/><path class=\"p2\" d=\"M5.5 8H10.5L9.8 14H6.2Z\"/><path class=\"p3\" d=\"M13.5 8H18.5L17.8 14H14.2Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pour", "dur": 800, "delay": 900 }
+  ]
+}

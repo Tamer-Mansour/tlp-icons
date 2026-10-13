@@ -1,0 +1,10 @@
+{
+  "name": "milestone-marker",
+  "category": "charts",
+  "tags": ["milestone", "marker", "goal", "timeline", "checkpoint", "progress"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"17\" x2=\"21\" y2=\"17\"/><polygon class=\"d p2\" points=\"12,3.5 17,8.5 12,13.5 7,8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 600 }
+  ]
+}

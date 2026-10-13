@@ -1,0 +1,11 @@
+{
+  "name": "diver-mask-person",
+  "category": "people",
+  "tags": ["diver", "mask", "snorkel", "diving", "underwater", "scuba"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8\" cy=\"13\" rx=\"3.5\" ry=\"3\"/><ellipse class=\"d p1\" cx=\"16\" cy=\"13\" rx=\"3.5\" ry=\"3\"/><path class=\"p2\" d=\"M2 12 Q12 2 22 12\"/><path class=\"p3\" d=\"M19 9.5 V5 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1200 }
+  ]
+}

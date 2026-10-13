@@ -1,0 +1,10 @@
+{
+  "name": "speaking-tube",
+  "category": "communication",
+  "tags": ["speaking tube", "tube", "mouthpiece", "intercom", "voice"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"10\" width=\"9\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"3.5\" cy=\"12\" r=\"1.5\"/><circle class=\"p2\" cx=\"20.5\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 500 }
+  ]
+}

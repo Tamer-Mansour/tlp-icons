@@ -1,0 +1,11 @@
+{
+  "name": "u-turn-sign",
+  "category": "vehicles",
+  "tags": ["u-turn", "sign", "arrow", "road", "traffic", "reverse"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M8.5 17V10.5Q8.5 7.5 11.5 7.5T14.5 10.5V13.5\"/><path class=\"p3\" d=\"M12.5 12L14.5 14.5L16.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

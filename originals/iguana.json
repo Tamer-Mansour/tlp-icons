@@ -1,0 +1,12 @@
+{
+  "name": "iguana",
+  "category": "nature",
+  "tags": ["lizard", "spines", "reptile", "tail", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 Q3 10 7 10 H16 Q20 10 21 13 Q20 15 16 15 H7 Q3 15 3 13 Z\"/><polyline class=\"p2\" points=\"7,10 8,8 9,10 11,10 12,8 13,10 15,10 16,8 17,10\"/><path class=\"p3\" d=\"M8 15 V19 M15 15 V19\"/><circle class=\"f p4\" cx=\"5\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 900 }
+  ]
+}

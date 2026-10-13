@@ -1,0 +1,11 @@
+{
+  "name": "travel-time",
+  "category": "vehicles",
+  "tags": ["travel", "time", "journey", "clock", "route"],
+  "svg": "<circle class=\"d p1\" cx=\"15\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M15 6v3l2 1.5\"/><g class=\"p3\"><circle class=\"f\" cx=\"3.5\" cy=\"19\" r=\"1\"/><circle class=\"f\" cx=\"7\" cy=\"16.5\" r=\"1\"/><circle class=\"f\" cx=\"10.5\" cy=\"19\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 200 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 500, "origin": "15px 9px" }
+  ]
+}

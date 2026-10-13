@@ -1,0 +1,11 @@
+{
+  "name": "accessibility-check",
+  "category": "development",
+  "tags": ["accessibility", "check", "a11y", "person", "verify", "inclusive"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/><path class=\"p2\" d=\"M8 14.5c0-2 1.8-3 4-3s4 1 4 3\"/><path class=\"p3\" d=\"M15 16l1.5 1.5L19 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

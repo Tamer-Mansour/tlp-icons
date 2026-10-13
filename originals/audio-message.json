@@ -1,0 +1,11 @@
+{
+  "name": "audio-message",
+  "category": "communication",
+  "tags": ["speech bubble", "audio", "voice message", "play", "waveform", "sound"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18v13h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M10.5 8v5l4-2.5z\"/><path class=\"p3\" d=\"M6.5 9v4M17.5 9v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "equalize", "dur": 900, "delay": 900, "origin": "bottom" }
+  ]
+}

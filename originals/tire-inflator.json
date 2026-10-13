@@ -1,0 +1,11 @@
+{
+  "name": "tire-inflator",
+  "category": "devices",
+  "tags": ["tire", "inflator", "air", "pump", "car", "hose"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M15 12H18V9\"/><circle class=\"p3\" cx=\"18\" cy=\"6.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spring", "dur": 500, "delay": 800 }
+  ]
+}

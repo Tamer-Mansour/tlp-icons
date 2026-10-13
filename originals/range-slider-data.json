@@ -1,0 +1,12 @@
+{
+  "name": "range-slider-data",
+  "category": "charts",
+  "tags": ["range", "slider", "filter", "handles", "select"],
+  "svg": "<path class=\"p1\" d=\"M3 12H8M16 12H21\"/><rect class=\"d p2\" x=\"8\" y=\"9\" width=\"8\" height=\"6\"/><circle class=\"p3\" cx=\"8\" cy=\"12\" r=\"2\"/><circle class=\"p4\" cx=\"16\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

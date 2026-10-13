@@ -1,0 +1,11 @@
+{
+  "name": "bunk-room",
+  "category": "buildings",
+  "tags": ["bunk", "bed", "ladder", "room", "dorm"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"12\" height=\"3\" rx=\"0.5\"/><rect class=\"d p2\" x=\"3\" y=\"14\" width=\"12\" height=\"3\" rx=\"0.5\"/><path class=\"p3\" d=\"M18 4V20M21 4V20M18 8H21M18 12H21M18 16H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "coins-alert",
+  "category": "notifications",
+  "tags": ["coins", "money", "payment", "alert", "balance"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"7\" rx=\"6\" ry=\"2.5\"/><path class=\"p2\" d=\"M4 7v6a6 2.5 0 0 0 12 0V7M4 10.5a6 2.5 0 0 0 12 0\"/><path class=\"p3\" d=\"M19 3v4\"/><circle class=\"f p3\" cx=\"19\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hail-stone",
+  "category": "weather",
+  "tags": ["hail", "ice", "stone", "storm", "frozen", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M4.5 9A8 8 0 0 1 9 4.5M15 4.5A8 8 0 0 1 19.5 9M19.5 15A8 8 0 0 1 15 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

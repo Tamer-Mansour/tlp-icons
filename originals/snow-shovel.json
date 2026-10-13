@@ -1,0 +1,10 @@
+{
+  "name": "snow-shovel",
+  "category": "weather",
+  "tags": ["snow", "shovel", "winter", "clear", "driveway", "scoop"],
+  "svg": "<path class=\"p1\" d=\"M14 14L20 4\"/><path class=\"d p2\" d=\"M10.5 10.5L13.5 13.5L8.5 18.5Q6.5 20.5 4 20Q3.5 17.5 5.5 15.5Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 1100, "delay": 800 }
+  ]
+}

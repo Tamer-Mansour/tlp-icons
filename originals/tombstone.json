@@ -1,0 +1,11 @@
+{
+  "name": "tombstone",
+  "category": "buildings",
+  "tags": ["tombstone", "grave", "headstone", "memorial", "burial"],
+  "svg": "<path class=\"p1\" d=\"M6 19V10a6 6 0 0 1 12 0v9\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M9 13h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 1100 }
+  ]
+}

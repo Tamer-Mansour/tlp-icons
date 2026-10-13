@@ -1,0 +1,11 @@
+{
+  "name": "karate-kick",
+  "category": "people",
+  "tags": ["karate", "kick", "martial arts", "figure", "fight", "leg"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M8 9.5l-1 4.5-1.5 7M8 11.5l2.5 1.5\"/><path class=\"p3\" d=\"M7 14l9.5-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1000, "origin": "7px 14px" }
+  ]
+}

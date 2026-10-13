@@ -1,0 +1,12 @@
+{
+  "name": "dart-board",
+  "category": "sport",
+  "tags": ["dart board", "darts", "bullseye", "target", "pub game"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/><line class=\"p4\" x1=\"19\" y1=\"4\" x2=\"14\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "whooshIn", "dur": 700, "delay": 1100 }
+  ]
+}

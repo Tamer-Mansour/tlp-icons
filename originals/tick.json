@@ -1,0 +1,10 @@
+{
+  "name": "tick",
+  "category": "nature",
+  "tags": ["tick", "mite", "parasite", "bug", "legs"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"4.5\" ry=\"5.5\"/><path class=\"p2\" d=\"M8.9 9 L5 6.5 M7.7 11.5 L3.5 11 M8 15.5 L3.5 17 M9.4 17.5 L6 20.5 M15.1 9 L19 6.5 M16.3 11.5 L20.5 11 M16 15.5 L20.5 17 M14.6 17.5 L18 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 400, "origin": "12px 13px" }
+  ]
+}

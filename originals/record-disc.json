@@ -1,0 +1,11 @@
+{
+  "name": "record-disc",
+  "category": "shapes",
+  "tags": ["record", "disc", "vinyl", "groove", "music"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1300 }
+  ]
+}

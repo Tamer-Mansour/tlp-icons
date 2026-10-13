@@ -1,0 +1,11 @@
+{
+  "name": "ski-boot",
+  "category": "sport",
+  "tags": ["ski", "boot", "winter", "buckle", "snow", "shoe"],
+  "svg": "<path class=\"d p1\" d=\"M8 3H15V13L21 15.5V20H5V12L8 3Z\"/><path class=\"p2\" d=\"M8 8H15\"/><circle class=\"p3\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 }
+  ]
+}

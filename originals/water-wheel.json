@@ -1,0 +1,11 @@
+{
+  "name": "water-wheel",
+  "category": "science",
+  "tags": ["water", "wheel", "paddle", "mill", "river", "energy", "turbine"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"11\" r=\"6\"/><path class=\"p1\" d=\"M12 11V6M12 11l-4.5 2.5M12 11l4.5 2.5\"/><path class=\"p2\" d=\"M2 20q2.5-2 5 0t5 0t5 0t5 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1500, "delay": 500, "origin": "12px 11px" }
+  ]
+}

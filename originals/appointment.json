@@ -1,0 +1,11 @@
+{
+  "name": "appointment",
+  "category": "time",
+  "tags": ["appointment", "calendar", "meeting", "person", "booking"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><circle class=\"p3\" cx=\"12\" cy=\"12.2\" r=\"1.8\"/><path class=\"p3\" d=\"M8.5 19a3.5 3.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 1100 }
+  ]
+}

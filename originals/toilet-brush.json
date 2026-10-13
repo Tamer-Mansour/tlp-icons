@@ -1,0 +1,11 @@
+{
+  "name": "toilet-brush",
+  "category": "home",
+  "tags": ["toilet", "brush", "bathroom", "clean", "holder", "bristles"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 15h9l-1 6h-7z\"/><path class=\"p2\" d=\"M12 3v6.5\"/><path class=\"p3\" d=\"M9.5 9.5h5l-.5 3.5h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

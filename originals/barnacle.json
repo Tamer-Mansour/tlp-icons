@@ -1,0 +1,10 @@
+{
+  "name": "barnacle",
+  "category": "nature",
+  "tags": ["sea", "rock", "shell", "ocean", "cones"],
+  "svg": "<path class=\"d p1\" d=\"M3 20h18l-2-4H5z\"/><polygon class=\"p2\" points=\"7 16 8 12 9 16\"/><polygon class=\"p2\" points=\"11 16 12 11 13 16\"/><polygon class=\"p2\" points=\"15 16 16 12 17 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

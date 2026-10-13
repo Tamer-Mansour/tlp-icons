@@ -1,0 +1,11 @@
+{
+  "name": "notification-stack",
+  "category": "layout",
+  "tags": ["notification", "stack", "toast", "alerts", "messages", "cards", "corner"],
+  "svg": "<rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"12\" y=\"9\" width=\"9\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"11\" y=\"15\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 500 }
+  ]
+}

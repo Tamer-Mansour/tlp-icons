@@ -1,0 +1,10 @@
+{
+  "name": "ball-peen-hammer",
+  "category": "tools",
+  "tags": ["hammer", "ball-peen", "metalwork", "dome", "strike"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"10\" height=\"5\" rx=\"1\"/><circle class=\"p1\" cx=\"17\" cy=\"8.5\" r=\"2.5\"/><path class=\"p2\" d=\"M8 11L6 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 800, "delay": 900, "origin": "bottom" }
+  ]
+}

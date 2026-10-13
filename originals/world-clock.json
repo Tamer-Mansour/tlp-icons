@@ -1,0 +1,11 @@
+{
+  "name": "world-clock",
+  "category": "time",
+  "tags": ["world", "clock", "globe", "global", "time"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/><polyline class=\"p3\" points=\"12 10 12 12 13.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1400, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

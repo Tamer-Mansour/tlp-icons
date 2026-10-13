@@ -1,0 +1,11 @@
+{
+  "name": "lidar-scan",
+  "category": "vehicles",
+  "tags": ["lidar", "sensor", "laser", "scan", "autonomous", "radar"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"15\" r=\"3\"/><path class=\"p2\" d=\"M4 20h16\"/><path class=\"p3\" d=\"M9.5 12.5L5 6M12 12V4M14.5 12.5L19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "rotunda",
+  "category": "buildings",
+  "tags": ["rotunda", "dome", "round", "columns", "hall", "monument"],
+  "svg": "<path class=\"p1\" d=\"M3 14a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M7 14v6M12 14v6M17 14v6\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

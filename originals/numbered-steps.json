@@ -1,0 +1,10 @@
+{
+  "name": "numbered-steps",
+  "category": "text",
+  "tags": ["steps", "numbered", "process", "sequence", "progress", "flow"],
+  "svg": "<path class=\"p2\" d=\"M6.5 12h3M14.5 12h3\"/><circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"2.5\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"p1\" cx=\"20\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "bounceIn", "dur": 800, "delay": 500 }
+  ]
+}

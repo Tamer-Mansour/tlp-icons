@@ -1,0 +1,11 @@
+{
+  "name": "sunny-side-egg",
+  "category": "food",
+  "tags": ["egg", "fried", "sunny", "yolk", "breakfast", "pan", "sunny-side"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M19 7c1 .5 1.5 1.5 1.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

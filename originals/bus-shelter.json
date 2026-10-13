@@ -1,0 +1,12 @@
+{
+  "name": "bus-shelter",
+  "category": "vehicles",
+  "tags": ["bus", "shelter", "stop", "bench", "waiting"],
+  "svg": "<path class=\"p1\" d=\"M2 5h20\"/><path class=\"p2\" d=\"M4 5v16M20 5v16\"/><rect class=\"d p3\" x=\"7\" y=\"8.5\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p4\" d=\"M6 17h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

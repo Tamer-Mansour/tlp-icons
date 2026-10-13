@@ -1,0 +1,11 @@
+{
+  "name": "strap-wrench",
+  "category": "tools",
+  "tags": ["strap", "wrench", "pipe", "filter", "grip"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M7 5C12 9 12 15 7 19\"/><line class=\"p3\" x1=\"15\" y1=\"12\" x2=\"21\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1100, "origin": "15px 12px" }
+  ]
+}

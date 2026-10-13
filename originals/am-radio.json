@@ -1,0 +1,12 @@
+{
+  "name": "am-radio",
+  "category": "media",
+  "tags": ["am", "radio", "tuner", "dial", "broadcast"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M5 11h7\"/><circle class=\"p2\" cx=\"16\" cy=\"13.5\" r=\"2.5\"/><path class=\"p2\" d=\"M16 13.5v-1.5\"/><path class=\"p4\" d=\"M4 7L15 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "16px 13.5px" }
+  ]
+}

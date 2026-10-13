@@ -1,0 +1,10 @@
+{
+  "name": "sundog",
+  "category": "weather",
+  "tags": ["sundog", "sun", "parhelion", "bright", "sky", "optics"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"f p2\" cx=\"4.5\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"19.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 500 }
+  ]
+}

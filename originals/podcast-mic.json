@@ -1,0 +1,12 @@
+{
+  "name": "podcast-mic",
+  "category": "science",
+  "tags": ["podcast", "microphone", "mic", "recording", "audio", "broadcast"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 0 12 0\"/><path class=\"p3\" d=\"M12 17v4M9 21h6\"/><path class=\"p4\" d=\"M4 8c-1 1.5-1 4.5 0 6M20 8c1 1.5 1 4.5 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

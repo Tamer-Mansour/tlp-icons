@@ -1,0 +1,11 @@
+{
+  "name": "container-crane",
+  "category": "vehicles",
+  "tags": ["container", "crane", "port", "lifting", "gantry"],
+  "svg": "<path class=\"p1\" d=\"M9 22V5h6v17M3 5h18\"/><path class=\"p2\" d=\"M18 5v7\"/><rect class=\"p3\" x=\"16\" y=\"12\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "lift", "dur": 800, "delay": 900 }
+  ]
+}

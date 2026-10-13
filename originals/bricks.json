@@ -1,0 +1,10 @@
+{
+  "name": "bricks",
+  "category": "buildings",
+  "tags": ["bricks", "wall", "masonry", "brick", "construction", "rows"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M3 12h18M9 4v8M15 12v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 800 }
+  ]
+}

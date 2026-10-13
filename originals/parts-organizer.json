@@ -1,0 +1,10 @@
+{
+  "name": "parts-organizer",
+  "category": "tools",
+  "tags": ["organizer", "parts", "tray", "compartments", "storage", "bins"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M3 15h18M9 9v12M15 9v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

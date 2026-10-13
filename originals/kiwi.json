@@ -1,0 +1,11 @@
+{
+  "name": "kiwi",
+  "category": "food",
+  "tags": ["kiwi", "fruit", "fresh", "green", "seeds", "tropical"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4.5\"/><circle class=\"f p3\" cx=\"7.2\" cy=\"7.2\" r=\"0.9\"/><circle class=\"f p3\" cx=\"16.8\" cy=\"7.2\" r=\"0.9\"/><circle class=\"f p3\" cx=\"7.2\" cy=\"16.8\" r=\"0.9\"/><circle class=\"f p3\" cx=\"16.8\" cy=\"16.8\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

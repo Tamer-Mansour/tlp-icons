@@ -1,0 +1,11 @@
+{
+  "name": "triangular-number",
+  "category": "math",
+  "tags": ["triangular", "number", "dots", "sequence", "math"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"10\" r=\"1.2\"/><circle class=\"f p3\" cx=\"6\" cy=\"15\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

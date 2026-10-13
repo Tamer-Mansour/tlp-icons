@@ -1,0 +1,11 @@
+{
+  "name": "online-course",
+  "category": "science",
+  "tags": ["online", "course", "video", "lesson", "learning", "screen"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"13\" rx=\"2\"/><polygon class=\"p2\" points=\"10 6 15 8.5 10 11\"/><line class=\"p3\" x1=\"6\" y1=\"13.5\" x2=\"18\" y2=\"13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

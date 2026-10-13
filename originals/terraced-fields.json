@@ -1,0 +1,11 @@
+{
+  "name": "terraced-fields",
+  "category": "buildings",
+  "tags": ["terrace", "fields", "hillside", "rice", "farming", "slope"],
+  "svg": "<path class=\"p1\" d=\"M3 18 H21\"/><path class=\"p2\" d=\"M6 13 H18\"/><path class=\"p3\" d=\"M9 8 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

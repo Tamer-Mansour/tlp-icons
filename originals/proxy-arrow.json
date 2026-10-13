@@ -1,0 +1,11 @@
+{
+  "name": "proxy-arrow",
+  "category": "connectivity",
+  "tags": ["proxy", "relay", "middle", "forward", "server", "request", "hop"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"7\" width=\"8\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M2 12h6M5.5 9.5 8 12l-2.5 2.5\"/><path class=\"p3\" d=\"M16 12h6M19.5 9.5 22 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tube",
+  "category": "shapes",
+  "tags": ["tube", "cylinder", "pipe", "hollow", "open"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"6\" rx=\"7\" ry=\"2\"/><path class=\"p2\" d=\"M5 6 V18 A7 2 0 0 0 19 18 V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

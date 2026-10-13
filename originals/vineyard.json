@@ -1,0 +1,11 @@
+{
+  "name": "vineyard",
+  "category": "buildings",
+  "tags": ["vineyard", "vines", "grapes", "trellis", "farm", "wine"],
+  "svg": "<path class=\"p1\" d=\"M3 5v14M21 5v14\"/><path class=\"p2\" d=\"M3 9h18M3 15h18\"/><circle class=\"f p3\" cx=\"8\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "privacy-person-shield",
+  "category": "people",
+  "tags": ["privacy", "person", "shield", "protect", "user"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"8.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h3a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"d p2\" d=\"M18 6.5l3.5 1.5v3c0 2.8-1.7 4.6-3.5 5.5c-1.8-.9-3.5-2.7-3.5-5.5v-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

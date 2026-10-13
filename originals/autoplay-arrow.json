@@ -1,0 +1,10 @@
+{
+  "name": "autoplay-arrow",
+  "category": "arrows",
+  "tags": ["autoplay", "play", "loop", "video", "continuous", "media"],
+  "svg": "<path class=\"p1\" d=\"M19.5 12 A7.5 7.5 0 1 1 16.5 6\"/><polyline class=\"p1\" points=\"16.5 2.5 16.5 6 20 6\"/><polygon class=\"d p2\" points=\"10 9 15 12 10 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

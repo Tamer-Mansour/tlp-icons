@@ -1,0 +1,10 @@
+{
+  "name": "speaker-phone",
+  "category": "communication",
+  "tags": ["speaker", "phone", "handset", "call", "loudspeaker", "audio"],
+  "svg": "<path class=\"p1\" d=\"M4 3h4l2 5-2.5 1.5a11 11 0 0 0 5 5l1.5-2.5 5 2V18a2 2 0 0 1-2 2A15 15 0 0 1 2 5a2 2 0 0 1 2-2z\"/><path class=\"d p2\" d=\"M16 4h2l2.5-2v8L18 8h-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

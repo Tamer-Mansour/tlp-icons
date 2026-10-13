@@ -1,0 +1,10 @@
+{
+  "name": "pin-drop",
+  "category": "interface",
+  "tags": ["drop", "pin", "location", "place", "marker"],
+  "svg": "<path class=\"d p1\" d=\"M12 3a5 5 0 0 0-5 5c0 3.5 5 8 5 8s5-4.5 5-8a5 5 0 0 0-5-5z\"/><line class=\"p2\" x1=\"7\" y1=\"20.5\" x2=\"17\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

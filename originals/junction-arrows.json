@@ -1,0 +1,10 @@
+{
+  "name": "junction-arrows",
+  "category": "arrows",
+  "tags": ["junction", "crossroad", "turn", "road", "traffic"],
+  "svg": "<path class=\"p1\" d=\"M12 21 V3 M3 12 H21\"/><path class=\"p2\" d=\"M9 6 L12 3 L15 6 M18 9 L21 12 L18 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

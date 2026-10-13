@@ -1,0 +1,11 @@
+{
+  "name": "rain-barrel",
+  "category": "home",
+  "tags": ["rain", "barrel", "water", "garden", "collect", "tank", "rainwater"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"5\" y1=\"10\" x2=\"19\" y2=\"10\"/><line class=\"p2\" x1=\"5\" y1=\"16\" x2=\"19\" y2=\"16\"/><line class=\"p3\" x1=\"19\" y1=\"18\" x2=\"21\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stash-box",
+  "category": "development",
+  "tags": ["stash", "box", "storage", "papers", "archive", "saved"],
+  "svg": "<path class=\"p1\" d=\"M4 11V20H20V11\"/><rect class=\"p2 d\" x=\"7\" y=\"4\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M10 7H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

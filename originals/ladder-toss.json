@@ -1,0 +1,11 @@
+{
+  "name": "ladder-toss",
+  "category": "sport",
+  "tags": ["ladder", "toss", "ball", "game", "bolo", "backyard"],
+  "svg": "<path class=\"p1\" d=\"M6 3V21M18 3V21\"/><path class=\"p2\" d=\"M6 8H18M6 13H18M6 18H18\"/><circle class=\"d p3\" cx=\"12\" cy=\"4.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1000 }
+  ]
+}

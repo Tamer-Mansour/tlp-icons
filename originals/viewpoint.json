@@ -1,0 +1,11 @@
+{
+  "name": "viewpoint",
+  "category": "buildings",
+  "tags": ["viewpoint", "eye", "horizon", "mountain", "scenic", "view"],
+  "svg": "<path class=\"d p1\" d=\"M2 9 Q12 0 22 9 Q12 18 2 9 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2.5\"/><path class=\"p3\" d=\"M2 20 H22\"/><path class=\"p3\" d=\"M6 20 L11 16 L16 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 1300 }
+  ]
+}

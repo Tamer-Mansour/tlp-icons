@@ -1,0 +1,11 @@
+{
+  "name": "parcel-tracking",
+  "category": "communication",
+  "tags": ["parcel", "package", "delivery", "tracking", "route", "shipping"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M11 17c3 0 2.5-4 5-5\"/><path class=\"p3\" d=\"M17 2.5a4.5 4.5 0 0 0-4.5 4.5c0 3 4.5 7.5 4.5 7.5s4.5-4.5 4.5-7.5A4.5 4.5 0 0 0 17 2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 700, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "zither",
+  "category": "media",
+  "tags": ["zither", "strings", "flat", "instrument", "bridge", "folk"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M4 10h16M4 14h16\"/><path class=\"p3\" d=\"M5 8.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

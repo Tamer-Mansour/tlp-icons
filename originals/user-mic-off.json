@@ -1,0 +1,11 @@
+{
+  "name": "user-mic-off",
+  "category": "people",
+  "tags": ["user", "mic", "microphone", "mute", "off", "person", "audio"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"9\" r=\"3.2\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1.5\"/><rect class=\"p2\" x=\"17.5\" y=\"11\" width=\"3\" height=\"6\" rx=\"1.5\"/><path class=\"p2\" d=\"M15.5 15.5a3.5 3.5 0 0 0 7 0\"/><path class=\"p2\" d=\"M19 19v2.5\"/><path class=\"p3\" d=\"M15.5 11.5 22 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

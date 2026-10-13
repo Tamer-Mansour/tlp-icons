@@ -1,0 +1,10 @@
+{
+  "name": "buffet-counter",
+  "category": "buildings",
+  "tags": ["buffet", "counter", "food", "serving", "dome", "cloche"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/><path class=\"d p2\" d=\"M4 14 A8 8 0 0 1 20 14 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

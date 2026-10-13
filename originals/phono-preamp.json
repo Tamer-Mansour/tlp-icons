@@ -1,0 +1,11 @@
+{
+  "name": "phono-preamp",
+  "category": "devices",
+  "tags": ["phono", "preamp", "turntable", "record", "audio", "tonearm"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"13\" width=\"8\" height=\"7\" rx=\"1.5\"/><line class=\"p2\" x1=\"18\" y1=\"8.5\" x2=\"15\" y2=\"13\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "coat-check",
+  "category": "buildings",
+  "tags": ["coat", "check", "ticket", "cloak", "number", "hanger"],
+  "svg": "<polyline class=\"p1\" points=\"3,16 12,9 21,16\"/><rect class=\"d p2\" x=\"8.5\" y=\"18\" width=\"7\" height=\"3.5\" rx=\"1\"/><line class=\"p3\" x1=\"10\" y1=\"19.75\" x2=\"13.5\" y2=\"19.75\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wire-nut",
+  "category": "tools",
+  "tags": ["wire", "nut", "connector", "electrical", "twist", "splice"],
+  "svg": "<path class=\"d p1\" d=\"M6 4 H18 L13 13 H11 Z\"/><path class=\"p2\" d=\"M10 13 Q12 17 9 21 M14 13 Q12 17 15 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

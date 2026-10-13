@@ -1,0 +1,10 @@
+{
+  "name": "drag-cursor",
+  "category": "interface",
+  "tags": ["drag", "cursor", "move", "pointer", "drop"],
+  "svg": "<path class=\"p2\" d=\"M15 3h6v6M21 15v6h-6\"/><path class=\"p1\" d=\"M6 3v14l4-4 2.5 5.5 2.5-1-2.5-5.5H17z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 700, "delay": 800 }
+  ]
+}

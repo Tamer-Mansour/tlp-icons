@@ -1,0 +1,11 @@
+{
+  "name": "fraction-quarter",
+  "category": "math",
+  "tags": ["quarter", "fraction", "circle", "split", "portion", "four"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12 L12 3 A9 9 0 0 1 21 12 Z\"/><path class=\"p3\" d=\"M12 3 V21 M3 12 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

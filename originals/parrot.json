@@ -1,0 +1,12 @@
+{
+  "name": "parrot",
+  "category": "nature",
+  "tags": ["parrot", "bird", "beak", "tail", "tropical", "feathers"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M9 12C7 15 7 19 10 21C13 19 13.5 15 12 12\"/><path class=\"p3\" d=\"M12.5 7C14.5 6.5 16 7.5 15.5 9.5L13.5 9\"/><path class=\"p4\" d=\"M11 19L14 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 700, "delay": 1000, "origin": "11px 19px" }
+  ]
+}

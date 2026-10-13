@@ -1,0 +1,10 @@
+{
+  "name": "availability-zone",
+  "category": "connectivity",
+  "tags": ["availability", "zone", "region", "redundancy", "cloud", "uptime"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"11\" width=\"5\" height=\"10\" rx=\"1\"/><rect class=\"p1\" x=\"9.5\" y=\"11\" width=\"5\" height=\"10\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"11\" width=\"5\" height=\"10\" rx=\"1\"/><circle class=\"f p2\" cx=\"4.5\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19.5\" cy=\"7\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

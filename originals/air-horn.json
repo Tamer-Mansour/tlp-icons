@@ -1,0 +1,11 @@
+{
+  "name": "air-horn",
+  "category": "notifications",
+  "tags": ["horn", "air", "sound", "signal", "loud", "alarm"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h4l6-5v16l-6-5H4z\"/><path class=\"p2\" d=\"M16.5 10q.8 2 0 4M18.5 8.5q1 3.5 0 7\"/><path class=\"p3\" d=\"M21 6.5q1 5.5 0 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 600 }
+  ]
+}

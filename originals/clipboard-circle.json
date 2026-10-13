@@ -1,0 +1,12 @@
+{
+  "name": "clipboard-circle",
+  "category": "files",
+  "tags": ["clipboard", "circle", "check", "verified", "confirmed"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><circle class=\"d p3\" cx=\"12\" cy=\"13\" r=\"4\"/><path class=\"p4\" d=\"M10.5 13l1 1 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "exposure-meter-needle",
+  "category": "photography",
+  "tags": ["exposure meter", "light meter", "needle", "gauge", "exposure", "camera"],
+  "svg": "<path class=\"d p1\" d=\"M3 17a9 9 0 0 1 18 0z\"/><line class=\"p2\" x1=\"12\" y1=\"17\" x2=\"15\" y2=\"10\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 900, "origin": "12px 17px" }
+  ]
+}

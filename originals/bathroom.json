@@ -1,0 +1,11 @@
+{
+  "name": "bathroom",
+  "category": "buildings",
+  "tags": ["bathroom", "bathtub", "shower", "bath", "washroom", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M16 3l-2 2M14 5h5\"/><path class=\"p3\" d=\"M14 8v1.5M11 9v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 1100 }
+  ]
+}

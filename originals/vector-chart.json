@@ -1,0 +1,11 @@
+{
+  "name": "vector-chart",
+  "category": "charts",
+  "tags": ["vector", "arrows", "direction", "magnitude", "chart"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M5 19L18 6M12 6H18V12\"/><path class=\"p3\" d=\"M5 19H20M16.5 16L20 19L16.5 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

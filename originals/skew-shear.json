@@ -1,0 +1,10 @@
+{
+  "name": "skew-shear",
+  "category": "design",
+  "tags": ["skew", "shear", "parallelogram", "transform", "slant"],
+  "svg": "<polygon class=\"d p1\" points=\"7,4 21,4 17,20 3,20\"/><path class=\"p2\" d=\"M8 12H16M14 10L16 12L14 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 700 }
+  ]
+}

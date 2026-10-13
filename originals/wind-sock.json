@@ -1,0 +1,11 @@
+{
+  "name": "wind-sock",
+  "category": "vehicles",
+  "tags": ["windsock", "wind", "airport", "flag", "sock"],
+  "svg": "<path class=\"p1\" d=\"M4 22V3\"/><path class=\"d p2\" d=\"M4 6l13 3v4.5L4 16z\"/><path class=\"p3\" d=\"M9.5 7.5v7.5M13.5 8.5v5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 900 }
+  ]
+}

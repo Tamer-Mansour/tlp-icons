@@ -1,0 +1,12 @@
+{
+  "name": "unfollow-user",
+  "category": "people",
+  "tags": ["unfollow", "user", "remove", "person", "slash", "leave", "mute"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M2 21a6 6 0 0 1 12 0\"/><circle class=\"d p3\" cx=\"18\" cy=\"17\" r=\"4\"/><path class=\"p4\" d=\"M15.5 19.5l5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

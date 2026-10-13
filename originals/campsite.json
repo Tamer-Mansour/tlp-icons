@@ -1,0 +1,11 @@
+{
+  "name": "campsite",
+  "category": "buildings",
+  "tags": ["campsite", "camping", "tent", "campfire", "outdoors"],
+  "svg": "<path class=\"d p1\" d=\"M2 20L8 8l6 12z\"/><path class=\"p2\" d=\"M18 19c-2.5 0-3-2-3-3.5 0-2 2-3 3-5 1 2 3 3 3 5 0 1.5-.5 3.5-3 3.5z\"/><path class=\"p3\" d=\"M15 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tricycle",
+  "category": "vehicles",
+  "tags": ["tricycle", "trike", "bike", "kids", "wheels", "cycle"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"5\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M5 10 L11 15 L16 15\"/><circle class=\"p2\" cx=\"16\" cy=\"15\" r=\"5\"/><circle class=\"p2\" cx=\"5\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

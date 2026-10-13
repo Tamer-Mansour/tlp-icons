@@ -1,0 +1,12 @@
+{
+  "name": "ribbon-toolbar",
+  "category": "layout",
+  "tags": ["ribbon", "toolbar", "tabs", "office", "top bar"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M2 10h20\"/><path class=\"p3\" d=\"M5 6h4M11 6h4M17 6h2\"/><path class=\"p4\" d=\"M5 14h3v3H5zM11 14h3v3h-3zM17 14h3v3h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "slideDown", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

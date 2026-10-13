@@ -1,0 +1,10 @@
+{
+  "name": "doorstop",
+  "category": "home",
+  "tags": ["doorstop", "wedge", "door", "prop", "stopper"],
+  "svg": "<path class=\"d p1\" d=\"M3 19h18L3 12z\"/><path class=\"p2\" d=\"M19 4v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 700, "origin": "19px 4px" }
+  ]
+}

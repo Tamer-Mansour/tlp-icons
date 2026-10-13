@@ -1,0 +1,11 @@
+{
+  "name": "pedal-boat",
+  "category": "vehicles",
+  "tags": ["pedal", "boat", "paddle", "leisure", "lake", "two seat"],
+  "svg": "<path class=\"d p1\" d=\"M3 15h18l-3 4.5H6z\"/><path class=\"p2\" d=\"M7 15v-4h7v4\"/><circle class=\"p3\" cx=\"19\" cy=\"9\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1200, "origin": "19px 9px" }
+  ]
+}

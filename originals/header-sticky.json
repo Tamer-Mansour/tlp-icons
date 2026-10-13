@@ -1,0 +1,11 @@
+{
+  "name": "header-sticky",
+  "category": "layout",
+  "tags": ["header", "sticky", "pin", "page", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"18\" height=\"20\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"8\" x2=\"21\" y2=\"8\"/><circle class=\"f p3\" cx=\"18\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

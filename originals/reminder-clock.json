@@ -1,0 +1,11 @@
+{
+  "name": "reminder-clock",
+  "category": "notifications",
+  "tags": ["reminder", "clock", "alarm", "time", "bell"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M11 9v4l2.5 2\"/><path class=\"p3\" d=\"M17 3.5 20.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

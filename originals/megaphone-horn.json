@@ -1,0 +1,11 @@
+{
+  "name": "megaphone-horn",
+  "category": "media",
+  "tags": ["megaphone", "horn", "announce", "bullhorn", "speech", "loud"],
+  "svg": "<polygon class=\"d p1\" points=\"7,9 18,4 18,20 7,15\"/><rect class=\"p2\" x=\"3\" y=\"9\" width=\"4\" height=\"6\"/><path class=\"p3\" d=\"M4.5 15l1 4.5h2l-1-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

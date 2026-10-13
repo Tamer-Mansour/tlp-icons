@@ -1,0 +1,11 @@
+{
+  "name": "mycelium",
+  "category": "nature",
+  "tags": ["mycelium", "fungus", "network", "threads", "roots"],
+  "svg": "<path class=\"p1\" d=\"M4 21C7 18 9 15 12 12\"/><path class=\"p2\" d=\"M12 12L17 7M12 12L8 5\"/><circle class=\"f p3\" cx=\"17\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"8\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

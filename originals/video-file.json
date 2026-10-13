@@ -1,0 +1,10 @@
+{
+  "name": "video-file",
+  "category": "files",
+  "tags": ["video", "file", "play", "movie", "media"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><polygon class=\"d p2\" points=\"9,10 14,13 9,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

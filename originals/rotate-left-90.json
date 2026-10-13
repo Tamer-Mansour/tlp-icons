@@ -1,0 +1,10 @@
+{
+  "name": "rotate-left-90",
+  "category": "arrows",
+  "tags": ["rotate", "left", "quarter turn", "counterclockwise", "square", "turn"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"7\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M3 12a9 9 0 0 1 9-9M7 12H3V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "alt-text-image",
+  "category": "text",
+  "tags": ["alt", "text", "image", "accessibility", "description", "caption"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"10\" rx=\"2\"/><circle class=\"f p2\" cx=\"8\" cy=\"7\" r=\"1.2\"/><path class=\"p3\" d=\"M4 17h11M4 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "twinkle", "dur": 600, "delay": 1300 }
+  ]
+}

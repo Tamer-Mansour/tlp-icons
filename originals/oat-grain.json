@@ -1,0 +1,11 @@
+{
+  "name": "oat-grain",
+  "category": "nature",
+  "tags": ["oat", "grain", "cereal", "wheat", "harvest", "stalk"],
+  "svg": "<path class=\"p1\" d=\"M12 21.5 Q12 12 17.5 9\"/><ellipse class=\"p2\" cx=\"9.5\" cy=\"8\" rx=\"1.3\" ry=\"2.4\" transform=\"rotate(-30 9.5 8)\"/><ellipse class=\"p3\" cx=\"15.5\" cy=\"5.5\" rx=\"1.3\" ry=\"2.4\" transform=\"rotate(30 15.5 5.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 21px" }
+  ]
+}

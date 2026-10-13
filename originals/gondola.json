@@ -1,0 +1,11 @@
+{
+  "name": "gondola",
+  "category": "vehicles",
+  "tags": ["gondola", "boat", "venice", "water", "canal", "oar", "ride"],
+  "svg": "<path class=\"d p1\" d=\"M3 8.5h18c-.5 4-3.5 6.5-9 6.5S3.5 12.5 3 8.5z\"/><path class=\"p3\" d=\"M3 8.5C3.5 6 4 5 6 4.5\"/><path class=\"p2\" d=\"M15 3L10 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 900 }
+  ]
+}

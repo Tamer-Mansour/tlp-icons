@@ -1,0 +1,11 @@
+{
+  "name": "effect-pedal",
+  "category": "media",
+  "tags": ["effect", "pedal", "guitar", "knob", "footswitch", "music"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 600, "origin": "12px 8px" },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1500 }
+  ]
+}

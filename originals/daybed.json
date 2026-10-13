@@ -1,0 +1,11 @@
+{
+  "name": "daybed",
+  "category": "home",
+  "tags": ["daybed", "bed", "backrest", "sofa bed", "furniture"],
+  "svg": "<path class=\"p1\" d=\"M2 5v14\"/><rect class=\"d p2\" x=\"6\" y=\"10\" width=\"16\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M6 16v3M20 16v3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "tilt", "dur": 700, "delay": 900, "origin": "bottom" }
+  ]
+}

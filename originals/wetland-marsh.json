@@ -1,0 +1,10 @@
+{
+  "name": "wetland-marsh",
+  "category": "science",
+  "tags": ["wetland", "marsh", "grass", "water", "swamp", "ecosystem"],
+  "svg": "<path class=\"p1\" d=\"M2 18q2.5-2 5 0t5 0t5 0\"/><path class=\"p2\" d=\"M8 14l-2.5-5M8 14V8.5M8 14l2.5-5M16 14l-2.5-5M16 14V8.5M16 14l2.5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 800, "origin": "bottom" }
+  ]
+}

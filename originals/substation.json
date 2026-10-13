@@ -1,0 +1,11 @@
+{
+  "name": "substation",
+  "category": "buildings",
+  "tags": ["substation", "electric", "poles", "power", "grid", "transformer"],
+  "svg": "<path class=\"p1\" d=\"M7 21V6M17 21V6\"/><path class=\"p2\" d=\"M4 8h16M5 12h14\"/><rect class=\"d p3\" x=\"9.5\" y=\"15\" width=\"5\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 800 }
+  ]
+}

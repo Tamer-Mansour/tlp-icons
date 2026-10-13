@@ -1,0 +1,11 @@
+{
+  "name": "butterfly-specimen",
+  "category": "science",
+  "tags": ["butterfly", "specimen", "insect", "wings", "biology", "collection"],
+  "svg": "<path class=\"p1\" d=\"M11 10.5C9 6 5 3.5 3 6C1.5 8.5 6.5 11.5 11 11.5M11 12.5C8 13.5 4.5 14 4 17C3.5 19.5 7.5 20 10.5 14\"/><path class=\"p2\" d=\"M13 10.5C15 6 19 3.5 21 6C22.5 8.5 17.5 11.5 13 11.5M13 12.5C16 13.5 19.5 14 20 17C20.5 19.5 16.5 20 13.5 14\"/><path class=\"p3\" d=\"M12 6V19\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

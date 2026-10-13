@@ -1,0 +1,11 @@
+{
+  "name": "froe-tool",
+  "category": "tools",
+  "tags": ["froe", "wedge", "split", "wood", "riving", "blade"],
+  "svg": "<path class=\"d p1\" d=\"M3 12L13 7h4v10h-4z\"/><rect class=\"p2\" x=\"17\" y=\"10\" width=\"4\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 900 }
+  ]
+}

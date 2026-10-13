@@ -1,0 +1,11 @@
+{
+  "name": "checkbox-alert",
+  "category": "notifications",
+  "tags": ["checkbox", "alert", "warning", "task", "form", "unchecked"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M19 6v6\"/><circle class=\"f p3\" cx=\"19\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

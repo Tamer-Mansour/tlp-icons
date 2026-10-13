@@ -1,0 +1,11 @@
+{
+  "name": "file-minimize",
+  "category": "files",
+  "tags": ["file", "minimize", "shrink", "collapse", "document"],
+  "svg": "<path class=\"p1\" d=\"M5 4a1.5 1.5 0 0 1 1.5-1.5H14l5 5V20a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 20z\"/><path class=\"p2\" d=\"M7.5 7.5L10 10M10 8.5V10H8.5M16.5 16.5L14 14M14 15.5V14H15.5\"/><path class=\"p3\" d=\"M16.5 7.5L14 10M14 8.5V10H15.5M7.5 16.5L10 14M10 15.5V14H8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

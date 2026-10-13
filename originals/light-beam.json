@@ -1,0 +1,10 @@
+{
+  "name": "light-beam",
+  "category": "science",
+  "tags": ["light", "beam", "rays", "glow", "radiate"],
+  "svg": "<path class=\"p1\" d=\"M2 12 H12.5\"/><path class=\"p2\" d=\"M15.5 8.5 L19.5 5 M15.5 12 H21 M15.5 15.5 L19.5 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 700 }
+  ]
+}

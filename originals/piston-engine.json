@@ -1,0 +1,11 @@
+{
+  "name": "piston-engine",
+  "category": "science",
+  "tags": ["piston", "engine", "cylinder", "mechanics", "crank", "motor"],
+  "svg": "<path class=\"p1\" d=\"M4 3H16V12H4Z\"/><path class=\"p2\" d=\"M4 8.5H16M10 8.5V16.5\"/><circle class=\"p3\" cx=\"10\" cy=\"18.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "spinFast", "dur": 900, "delay": 1100, "origin": "10px 18.5px" }
+  ]
+}

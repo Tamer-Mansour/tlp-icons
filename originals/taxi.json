@@ -1,0 +1,11 @@
+{
+  "name": "taxi",
+  "category": "vehicles",
+  "tags": ["taxi", "cab", "car", "ride", "sign"],
+  "svg": "<path class=\"d p1\" d=\"M3 14V9.5l2.5-4h13l2.5 4V14z\"/><circle class=\"p2\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2\"/><rect class=\"p3\" x=\"10\" y=\"1.5\" width=\"4\" height=\"2\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

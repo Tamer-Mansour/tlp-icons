@@ -1,0 +1,11 @@
+{
+  "name": "sump-pump",
+  "category": "devices",
+  "tags": ["sump", "pump", "water", "basement", "drain", "flood"],
+  "svg": "<path class=\"d p1\" d=\"M5 10H19L17 21H7Z\"/><path class=\"p2\" d=\"M12 10V4H19\"/><path class=\"p3\" d=\"M7.5 15.5H16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 600, "delay": 900 }
+  ]
+}

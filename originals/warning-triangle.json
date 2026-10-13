@@ -1,0 +1,10 @@
+{
+  "name": "warning-triangle",
+  "category": "vehicles",
+  "tags": ["warning", "triangle", "caution", "alert", "danger"],
+  "svg": "<path class=\"d p1\" d=\"M10.2 4.2L2.6 17.3a1.8 1.8 0 0 0 1.6 2.7h15.6a1.8 1.8 0 0 0 1.6-2.7L13.8 4.2a1.8 1.8 0 0 0-3.6 0z\"/><g class=\"p2\"><path d=\"M12 9.5v4\"/><circle class=\"f\" cx=\"12\" cy=\"16.5\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

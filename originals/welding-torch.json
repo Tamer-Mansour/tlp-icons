@@ -1,0 +1,10 @@
+{
+  "name": "welding-torch",
+  "category": "tools",
+  "tags": ["welding", "torch", "flame", "nozzle", "metal", "fire"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"13\" width=\"12\" height=\"4\" rx=\"1\" transform=\"rotate(-45 11 15)\"/><path class=\"p2\" d=\"M16 3Q19 6 17 8.5Q15 6 16 3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 700 }
+  ]
+}

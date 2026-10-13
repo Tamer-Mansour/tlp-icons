@@ -1,0 +1,11 @@
+{
+  "name": "valid-until",
+  "category": "time",
+  "tags": ["valid", "until", "ticket", "expiry", "pass", "admission"],
+  "svg": "<path class=\"d p1\" d=\"M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3a2 2 0 0 0 0-4z\"/><path class=\"p2\" d=\"M15 5v2M15 11v2M15 17v2\"/><circle class=\"p3\" cx=\"9\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M9 10.5V12h1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

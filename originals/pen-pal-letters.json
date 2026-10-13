@@ -1,0 +1,12 @@
+{
+  "name": "pen-pal-letters",
+  "category": "people",
+  "tags": ["pen", "pal", "letters", "envelope", "mail", "friend"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2 8l4.5 3.5L11 8\"/><rect class=\"p3\" x=\"13\" y=\"10\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p4\" d=\"M17.5 16.2l-1.4-1.3a.9.9 0 0 1 1.4-1.2.9.9 0 0 1 1.4 1.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "beat", "dur": 600, "delay": 1100 }
+  ]
+}

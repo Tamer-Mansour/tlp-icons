@@ -1,0 +1,11 @@
+{
+  "name": "bubble-wand",
+  "category": "science",
+  "tags": ["bubble", "wand", "soap", "loop", "fun", "toy"],
+  "svg": "<path class=\"p1\" d=\"M5 19 L9.5 14.5\"/><circle class=\"d p2\" cx=\"13\" cy=\"11\" r=\"5\"/><circle class=\"p3\" cx=\"19.5\" cy=\"18.5\" r=\"2\"/><circle class=\"p3\" cx=\"5\" cy=\"6\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 900 }
+  ]
+}

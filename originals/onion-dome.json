@@ -1,0 +1,11 @@
+{
+  "name": "onion-dome",
+  "category": "shapes",
+  "tags": ["onion", "dome", "church", "bulb", "tower", "architecture"],
+  "svg": "<path class=\"d p1\" d=\"M12 2C15 5 18 7 18 10C18 12.5 16 13 12 13C8 13 6 12.5 6 10C6 7 9 5 12 2Z\"/><rect class=\"p2\" x=\"8\" y=\"15\" width=\"8\" height=\"6\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

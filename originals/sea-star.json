@@ -1,0 +1,10 @@
+{
+  "name": "sea-star",
+  "category": "nature",
+  "tags": ["starfish", "ocean", "sea", "beach", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l2.5 5.5 5.5.5-4.2 3.6 1.4 5.7L12 16.2l-5.2 2.1 1.4-5.7L4 9l5.5-.5z\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

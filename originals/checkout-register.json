@@ -1,0 +1,11 @@
+{
+  "name": "checkout-register",
+  "category": "interface",
+  "tags": ["checkout", "register", "cash", "till", "payment", "shop"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"18\" height=\"11\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"3\" width=\"10\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M6 18V21H18V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "slideDown", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 800 }
+  ]
+}

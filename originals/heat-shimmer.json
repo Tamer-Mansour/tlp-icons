@@ -1,0 +1,10 @@
+{
+  "name": "heat-shimmer",
+  "category": "weather",
+  "tags": ["heat", "shimmer", "hot", "waves", "air", "summer"],
+  "svg": "<path class=\"p1\" d=\"M4 19h16\"/><path class=\"p2\" d=\"M8 15.5c-1.2-1.2 1.2-2.2 0-3.9s1.2-2.2 0-3.9M12 15.5c-1.2-1.2 1.2-2.2 0-3.9s1.2-2.2 0-3.9M16 15.5c-1.2-1.2 1.2-2.2 0-3.9s1.2-2.2 0-3.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cove",
+  "category": "nature",
+  "tags": ["cove", "inlet", "bay", "waves", "rounded", "coast"],
+  "svg": "<path class=\"p1\" d=\"M3 5c2 3 3 6 3 9.5a6 6 0 0 0 12 0C18 11 19.5 8 21 5\"/><path class=\"p2\" d=\"M7.5 15.5c1.2-1 2.5-1 3.5 0s2.5 1 3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 1000, "delay": 900 }
+  ]
+}

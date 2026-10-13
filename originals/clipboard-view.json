@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-view",
+  "category": "files",
+  "tags": ["clipboard", "view", "eye", "review", "preview"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M7 12.5q5-4.5 10 0q-5 4.5-10 0z\"/><circle class=\"f p3\" cx=\"12\" cy=\"12.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 600, "delay": 1000 }
+  ]
+}

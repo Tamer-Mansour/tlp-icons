@@ -1,0 +1,11 @@
+{
+  "name": "nail-puller",
+  "category": "tools",
+  "tags": ["nail", "puller", "claw", "remove", "pry", "carpentry"],
+  "svg": "<path class=\"p1\" d=\"M2 19h20\"/><path class=\"p2\" d=\"M12 19v-8M9 11h6\"/><path class=\"p3\" d=\"M8 3.5l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

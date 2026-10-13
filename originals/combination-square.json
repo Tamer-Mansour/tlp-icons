@@ -1,0 +1,11 @@
+{
+  "name": "combination-square",
+  "category": "tools",
+  "tags": ["combination", "square", "ruler", "bubble", "level"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"13\" width=\"20\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"7\" y=\"5\" width=\"7\" height=\"6\" rx=\"1\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

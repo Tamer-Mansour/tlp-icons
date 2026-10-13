@@ -1,0 +1,11 @@
+{
+  "name": "flow-diagram-arrow",
+  "category": "arrows",
+  "tags": ["flow", "diagram", "process", "connect", "arrows"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"6\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M10.5 12h4\"/><polyline class=\"p2\" points=\"12.5 9.5 14.5 12 12.5 14.5\"/><rect class=\"d p3\" x=\"17\" y=\"8\" width=\"5\" height=\"8\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 400, "delay": 200 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

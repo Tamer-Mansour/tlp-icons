@@ -1,0 +1,10 @@
+{
+  "name": "drawer-left",
+  "category": "layout",
+  "tags": ["drawer", "left", "panel", "navigation", "menu"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"7\" height=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pipe-elbow",
+  "category": "tools",
+  "tags": ["pipe", "elbow", "bend", "fitting", "plumbing", "joint"],
+  "svg": "<path class=\"p1\" d=\"M5 3V14A5 5 0 0 0 10 19H19\"/><path class=\"p2\" d=\"M3 3H7M17 19H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 700 }
+  ]
+}

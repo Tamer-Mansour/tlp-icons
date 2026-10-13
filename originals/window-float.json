@@ -1,0 +1,10 @@
+{
+  "name": "window-float",
+  "category": "layout",
+  "tags": ["window", "float", "shadow", "floating", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"13\" rx=\"2\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"20\" rx=\"7\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

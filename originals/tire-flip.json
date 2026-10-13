@@ -1,0 +1,10 @@
+{
+  "name": "tire-flip",
+  "category": "sport",
+  "tags": ["tire", "flip", "strength", "workout", "wheel"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M4 8Q12 1 20 8M17 5L20 8L17 10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 900, "delay": 500 }
+  ]
+}

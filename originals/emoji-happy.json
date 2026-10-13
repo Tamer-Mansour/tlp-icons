@@ -1,0 +1,11 @@
+{
+  "name": "emoji-happy",
+  "category": "interface",
+  "tags": ["emoji", "happy", "smile", "face", "joy", "smiley"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"10\" r=\"1.2\"/><path class=\"p3\" d=\"M8 14a4.5 4.5 0 0 0 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1500 }
+  ]
+}

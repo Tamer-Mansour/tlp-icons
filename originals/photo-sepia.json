@@ -1,0 +1,11 @@
+{
+  "name": "photo-sepia",
+  "category": "photography",
+  "tags": ["photo", "sepia", "warm", "tint", "vintage", "tone"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"1\"/><path class=\"d p2\" d=\"M3 3H12V21H3Z\"/><path class=\"p3\" d=\"M17.5 11Q20.5 14.5 20.5 16.5A3 3 0 0 1 14.5 16.5Q14.5 14.5 17.5 11Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

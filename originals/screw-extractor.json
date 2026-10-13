@@ -1,0 +1,11 @@
+{
+  "name": "screw-extractor",
+  "category": "tools",
+  "tags": ["screw", "extractor", "bit", "fluted", "removal"],
+  "svg": "<polygon class=\"d p1\" points=\"6 3 18 3 15 15 9 15\"/><path class=\"p2\" d=\"M10 6V13M14 6V13\"/><path class=\"p3\" d=\"M10 18C11 22 13 22 14 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1100, "origin": "12px 16px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "librarian-cart",
+  "category": "people",
+  "tags": ["librarian", "cart", "books", "library", "trolley", "reading"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"3\" height=\"5\"/><rect class=\"d p1\" x=\"10.5\" y=\"5\" width=\"3\" height=\"4\"/><rect class=\"d p1\" x=\"16\" y=\"4\" width=\"3\" height=\"5\"/><path class=\"p2\" d=\"M4 11 H20 L18 16 H6 Z\"/><circle class=\"p3\" cx=\"8\" cy=\"19\" r=\"1.5\"/><circle class=\"p3\" cx=\"16\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 1000 }
+  ]
+}

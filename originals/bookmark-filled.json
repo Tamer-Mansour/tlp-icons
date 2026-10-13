@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-filled",
+  "category": "interface",
+  "tags": ["bookmark", "saved", "ribbon", "favorite", "save", "mark"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h12v18l-6-4.5L6 21z\"/><path class=\"p2\" d=\"M10 8h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

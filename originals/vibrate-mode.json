@@ -1,0 +1,10 @@
+{
+  "name": "vibrate-mode",
+  "category": "emoji",
+  "tags": ["vibrate", "vibration", "silent", "phone", "mobile", "buzz"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M6.5 9Q5 12 6.5 15M4 7Q2 12 4 17M17.5 9Q19 12 17.5 15M20 7Q22 12 20 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 900, "delay": 900 }
+  ]
+}

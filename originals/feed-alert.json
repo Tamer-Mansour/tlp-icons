@@ -1,0 +1,12 @@
+{
+  "name": "feed-alert",
+  "category": "notifications",
+  "tags": ["feed", "rss", "subscription", "alert", "updates"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M4 10a8 8 0 0 1 8 8\"/><path class=\"p3\" d=\"M4 4a14 14 0 0 1 14 14\"/><path class=\"p4\" d=\"M20.5 2.5v5\"/><circle class=\"f p4\" cx=\"20.5\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

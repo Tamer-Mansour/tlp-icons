@@ -1,0 +1,10 @@
+{
+  "name": "icicles",
+  "category": "weather",
+  "tags": ["icicles", "ice", "hanging", "winter", "frozen", "drip"],
+  "svg": "<path class=\"p1\" d=\"M3 4 H21\"/><path class=\"p2\" d=\"M4 4 L6 15 L8 4 M10 4 L12 12 L14 4 M16 4 L18 14 L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "top" }
+  ]
+}

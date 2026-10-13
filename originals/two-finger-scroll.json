@@ -1,0 +1,10 @@
+{
+  "name": "two-finger-scroll",
+  "category": "interface",
+  "tags": ["scroll", "two", "finger", "gesture", "trackpad"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"9\" width=\"4\" height=\"10\" rx=\"2\"/><rect class=\"p1\" x=\"14\" y=\"9\" width=\"4\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M12 7.5v-5M10 4.5l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 500 }
+  ]
+}

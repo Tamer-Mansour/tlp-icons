@@ -1,0 +1,10 @@
+{
+  "name": "black-ice",
+  "category": "weather",
+  "tags": ["ice", "slippery", "road", "frost", "winter", "glaze"],
+  "svg": "<path class=\"d p1\" d=\"M3 15c2-3.5 5.5-5 9-5s7 1.5 9 5c-2 3-5.5 4.5-9 4.5S5 18 3 15z\"/><path class=\"p2\" d=\"M8 15.5l2-2M13 16.5l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

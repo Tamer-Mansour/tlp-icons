@@ -1,0 +1,11 @@
+{
+  "name": "sidewalk",
+  "category": "buildings",
+  "tags": ["sidewalk", "pavement", "curb", "footpath", "street", "paving"],
+  "svg": "<path class=\"p1\" d=\"M2 14h20\"/><path class=\"p2\" d=\"M2 20h20\"/><path class=\"p3\" d=\"M4.5 14v6M11.5 14v6M18.5 14v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 700 }
+  ]
+}

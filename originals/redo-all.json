@@ -1,0 +1,11 @@
+{
+  "name": "redo-all",
+  "category": "interface",
+  "tags": ["redo", "forward", "repeat", "history", "end", "fast-forward"],
+  "svg": "<path class=\"p2\" d=\"M20 5v14\"/><path class=\"p1\" d=\"M4 12h12\"/><path class=\"p3\" d=\"M12 7l5 5-5 5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

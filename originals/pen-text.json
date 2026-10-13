@@ -1,0 +1,10 @@
+{
+  "name": "pen-text",
+  "category": "text",
+  "tags": ["pen", "writing", "ink", "handwriting", "write"],
+  "svg": "<path class=\"p1\" d=\"M14 4l5 5-9 9-5 1 1-5z\"/><path class=\"p2\" d=\"M8 21l2-1 2 1 2-1 2 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

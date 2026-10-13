@@ -1,0 +1,11 @@
+{
+  "name": "cone-slant",
+  "category": "math",
+  "tags": ["cone", "slant", "height", "geometry", "slope"],
+  "svg": "<path class=\"p1\" d=\"M12 3L19 17.5M12 3L5 17.5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"17.5\" rx=\"7\" ry=\"2.5\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"10.25\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

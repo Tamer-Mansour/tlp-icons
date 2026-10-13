@@ -1,0 +1,11 @@
+{
+  "name": "recent-files",
+  "category": "interface",
+  "tags": ["recent", "files", "document", "clock", "history", "page"],
+  "svg": "<path class=\"p1\" d=\"M12 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4M12 3l5 5\"/><circle class=\"p2\" cx=\"17\" cy=\"16\" r=\"3.5\"/><path class=\"p3\" d=\"M17 14v2h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "17px 16px" }
+  ]
+}

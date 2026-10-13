@@ -1,0 +1,10 @@
+{
+  "name": "hailstone",
+  "category": "weather",
+  "tags": ["hailstone", "hail", "ice", "storm", "stone", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M9 9 A4 4 0 0 1 13 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

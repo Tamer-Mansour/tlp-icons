@@ -1,0 +1,11 @@
+{
+  "name": "seat-belt-buckle",
+  "category": "vehicles",
+  "tags": ["seat", "belt", "buckle", "strap", "safety", "car"],
+  "svg": "<path class=\"p1\" d=\"M4 3l4.5 7M20 3l-4.5 7\"/><rect class=\"d p2\" x=\"8\" y=\"10\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M12 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1000, "origin": "12px 17px" }
+  ]
+}

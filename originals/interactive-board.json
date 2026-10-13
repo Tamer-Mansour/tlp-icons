@@ -1,0 +1,12 @@
+{
+  "name": "interactive-board",
+  "category": "devices",
+  "tags": ["interactive", "board", "whiteboard", "classroom", "touch", "display"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M12 17v4M8 21h8\"/><path class=\"p4\" d=\"M12 12c1.5-1.5 3-1.5 4.5 0\"/><circle class=\"f p3\" cx=\"8\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1100 }
+  ]
+}

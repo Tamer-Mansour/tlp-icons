@@ -1,0 +1,10 @@
+{
+  "name": "equation-chart",
+  "category": "charts",
+  "tags": ["equation", "math", "graph", "formula", "chart", "plot"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"8\" x2=\"10\" y2=\"8\"/><line class=\"p1\" x1=\"3\" y1=\"14\" x2=\"10\" y2=\"14\"/><polyline class=\"p2\" points=\"13,19 15.5,15 18,17 21,11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

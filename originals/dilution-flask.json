@@ -1,0 +1,12 @@
+{
+  "name": "dilution-flask",
+  "category": "science",
+  "tags": ["chemistry", "dilution", "flask", "solution", "drop", "lab"],
+  "svg": "<path class=\"p1\" d=\"M9 3h6M10 3v6M14 3v6\"/><path class=\"d p2\" d=\"M10 9l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9z\"/><path class=\"p3\" d=\"M20.5 3v6M18.5 7.5l2 2 2-2\"/><path class=\"d p4\" d=\"M20.5 12c-.8 1.2-1.2 2-1.2 2.7a1.2 1.2 0 0 0 2.4 0C21.7 14 21.3 13.2 20.5 12z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "drip", "dur": 600, "delay": 1000 }
+  ]
+}

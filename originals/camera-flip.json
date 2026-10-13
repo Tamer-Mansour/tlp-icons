@@ -1,0 +1,10 @@
+{
+  "name": "camera-flip",
+  "category": "communication",
+  "tags": ["camera", "switch camera", "flip", "selfie", "rotate"],
+  "svg": "<path class=\"p1 d\" d=\"M3 7.5h4l2-2.5h6l2 2.5h4v12H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700, "origin": "12px 13.5px" }
+  ]
+}

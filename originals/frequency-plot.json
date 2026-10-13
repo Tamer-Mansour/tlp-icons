@@ -1,0 +1,10 @@
+{
+  "name": "frequency-plot",
+  "category": "charts",
+  "tags": ["frequency", "spectrum", "bars", "wave", "signal"],
+  "svg": "<path class=\"p1\" d=\"M2 5C5 0 8 0 11 5S17 10 22 5\"/><path class=\"p2\" d=\"M5 21V15M9 21V12M13 21V16M17 21V14M21 21V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 900, "origin": "bottom" }
+  ]
+}

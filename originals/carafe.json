@@ -1,0 +1,11 @@
+{
+  "name": "carafe",
+  "category": "home",
+  "tags": ["carafe", "jug", "pitcher", "water", "kitchen", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M6 9H18V19.5Q18 21 16.5 21H7.5Q6 21 6 19.5Z\"/><path class=\"p2\" d=\"M9 9V5H15V9\"/><path class=\"p3\" d=\"M18 12L21 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pour", "dur": 900, "delay": 1200, "origin": "bottom" }
+  ]
+}

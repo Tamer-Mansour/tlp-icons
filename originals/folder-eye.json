@@ -1,0 +1,10 @@
+{
+  "name": "folder-eye",
+  "category": "files",
+  "tags": ["folder", "eye", "view", "visible", "preview", "watch"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M7.5 14c1.5-2 3-2.5 4.5-2.5s3 .5 4.5 2.5c-1.5 2-3 2.5-4.5 2.5s-3-.5-4.5-2.5z\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 500 }
+  ]
+}

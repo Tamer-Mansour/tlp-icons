@@ -1,0 +1,10 @@
+{
+  "name": "cube-3d",
+  "category": "science",
+  "tags": ["cube", "3d", "isometric", "geometry", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L20 7.5 V16.5 L12 21 L4 16.5 V7.5 Z\"/><path class=\"p2\" d=\"M4 7.5 L12 12 L20 7.5 M12 12 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

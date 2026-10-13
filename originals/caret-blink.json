@@ -1,0 +1,10 @@
+{
+  "name": "caret-blink",
+  "category": "interface",
+  "tags": ["caret", "cursor", "text", "blink", "typing"],
+  "svg": "<path class=\"p1\" d=\"M12 4v16M9 4h6M9 20h6\"/><path class=\"p2\" d=\"M18.5 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "collision-warning",
+  "category": "vehicles",
+  "tags": ["collision", "warning", "crash", "alert", "triangle", "danger"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5L21.5 20h-19z\"/><path class=\"p2\" d=\"M12 9.5v4.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "package-warning",
+  "category": "notifications",
+  "tags": ["package", "box", "parcel", "delivery", "warning", "damaged"],
+  "svg": "<path class=\"d p1\" d=\"M3 7l9-4 9 4v10l-9 4-9-4z\"/><path class=\"p2\" d=\"M3 7l9 4 9-4\"/><line class=\"p3\" x1=\"12\" y1=\"12.5\" x2=\"12\" y2=\"15.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

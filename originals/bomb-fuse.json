@@ -1,0 +1,11 @@
+{
+  "name": "bomb-fuse",
+  "category": "emoji",
+  "tags": ["bomb", "fuse", "explosive", "boom", "danger", "spark"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"6.5\"/><path class=\"p2\" d=\"M13 8 C14 6.5 15 6 16.5 5.5\"/><path class=\"p3\" d=\"M19.5 2.5 V4.5 M18.5 3.5 H20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1000, "origin": "19.5px 3.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "barrel-shape",
+  "category": "shapes",
+  "tags": ["barrel", "cask", "keg", "cylinder", "drum", "storage"],
+  "svg": "<path class=\"p1\" d=\"M6 6C4.5 9 4.5 15 6 18Q12 20 18 18C19.5 15 19.5 9 18 6\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"6\" rx=\"6\" ry=\"2\"/><path class=\"p3\" d=\"M5.2 10Q12 12 18.8 10M5.2 15Q12 17 18.8 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1200 }
+  ]
+}

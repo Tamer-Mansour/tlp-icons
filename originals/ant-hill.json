@@ -1,0 +1,10 @@
+{
+  "name": "ant-hill",
+  "category": "nature",
+  "tags": ["ant", "hill", "mound", "colony", "insect"],
+  "svg": "<path class=\"d p1\" d=\"M3 20Q12 6 21 20Z\"/><path class=\"p2\" d=\"M10 20a2 2 0 0 1 4 0\"/><circle class=\"f\" cx=\"7\" cy=\"8\" r=\"1\"/><circle class=\"f\" cx=\"17\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

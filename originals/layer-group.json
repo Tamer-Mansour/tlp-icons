@@ -1,0 +1,11 @@
+{
+  "name": "layer-group",
+  "category": "design",
+  "tags": ["layer", "group", "stack", "folder", "sheets"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"3\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"6\" y=\"13\" width=\"12\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

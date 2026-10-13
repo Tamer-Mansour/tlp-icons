@@ -1,0 +1,10 @@
+{
+  "name": "tabs-horizontal",
+  "category": "interface",
+  "tags": ["tabs", "navigation", "selected", "row", "switch"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"11\" width=\"4\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"18\" y=\"11\" width=\"4\" height=\"9\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"5\" width=\"4\" height=\"15\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 400 }
+  ]
+}

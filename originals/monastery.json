@@ -1,0 +1,11 @@
+{
+  "name": "monastery",
+  "category": "buildings",
+  "tags": ["monastery", "walls", "bell", "tower", "religious"],
+  "svg": "<path class=\"p1\" d=\"M2 21V12h20v9\"/><path class=\"p2\" d=\"M9 12V5h6v7\"/><path class=\"p3\" d=\"M8 5l4-3 4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

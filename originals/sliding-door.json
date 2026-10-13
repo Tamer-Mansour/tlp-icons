@@ -1,0 +1,11 @@
+{
+  "name": "sliding-door",
+  "category": "buildings",
+  "tags": ["door", "sliding", "panel", "entrance", "glass", "slide"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18v18H3z\"/><rect class=\"d p2\" x=\"4\" y=\"5\" width=\"6\" height=\"14\" rx=\"1\"/><rect class=\"p3\" x=\"13\" y=\"5\" width=\"6\" height=\"14\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eraser-pencil",
+  "category": "science",
+  "tags": ["eraser","pencil","erase","correct","draft","edit"],
+  "svg": "<path class=\"d p1\" d=\"M6.2 14.2L16.2 4.2L19.8 7.8L9.8 17.8Z\"/><path class=\"p2\" d=\"M13.2 7.2L16.8 10.8\"/><path class=\"p3\" d=\"M3 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

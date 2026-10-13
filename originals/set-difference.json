@@ -1,0 +1,11 @@
+{
+  "name": "set-difference",
+  "category": "math",
+  "tags": ["set", "difference", "venn", "minus", "remove"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"p3\" cx=\"15\" cy=\"12\" r=\"5\"/><path class=\"d p2\" d=\"M12 8 A5 5 0 1 0 12 16 A5 5 0 0 1 12 8 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

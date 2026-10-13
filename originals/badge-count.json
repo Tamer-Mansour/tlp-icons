@@ -1,0 +1,11 @@
+{
+  "name": "badge-count",
+  "category": "interface",
+  "tags": ["badge", "count", "notification", "pill", "number"],
+  "svg": "<rect class=\"p2\" x=\"3\" y=\"10\" width=\"11\" height=\"11\" rx=\"2\"/><rect class=\"d p1\" x=\"13\" y=\"2\" width=\"8\" height=\"6\" rx=\"3\"/><path class=\"p3\" d=\"M15.5 5h3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

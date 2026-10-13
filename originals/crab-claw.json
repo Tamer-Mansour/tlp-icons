@@ -1,0 +1,10 @@
+{
+  "name": "crab-claw",
+  "category": "food",
+  "tags": ["crab", "claw", "seafood", "shellfish", "pincer"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M10 9 C13 5 17 4 20 6 M10 15 C13 19 17 20 20 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

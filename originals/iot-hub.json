@@ -1,0 +1,11 @@
+{
+  "name": "iot-hub",
+  "category": "devices",
+  "tags": ["iot", "hub", "smart", "devices", "gateway"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M9 12H7M15 12h2M12 9V7M12 15v2\"/><circle class=\"p2\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"5\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 1100 }
+  ]
+}

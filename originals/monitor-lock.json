@@ -1,0 +1,11 @@
+{
+  "name": "monitor-lock",
+  "category": "security",
+  "tags": ["monitor", "lock", "display", "screen", "secure", "corner"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\"/><path class=\"p1\" d=\"M8 21H16M12 17V21\"/><rect class=\"d p2\" x=\"5\" y=\"9\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M6 9V7.8A1.5 1.5 0 0 1 9 7.8V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

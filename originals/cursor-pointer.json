@@ -1,0 +1,10 @@
+{
+  "name": "cursor-pointer",
+  "category": "development",
+  "tags": ["cursor", "pointer", "click", "mouse", "select", "tap"],
+  "svg": "<path class=\"d p1\" d=\"M5 3l13 7-6 2-2 6z\"/><path class=\"p2\" d=\"M2 6h1.5M3.5 2.5l1 1.2M6.5 1.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

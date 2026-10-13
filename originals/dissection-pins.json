@@ -1,0 +1,10 @@
+{
+  "name": "dissection-pins",
+  "category": "science",
+  "tags": ["biology", "pins", "specimen", "dissect", "science"],
+  "svg": "<path class=\"p1\" d=\"M4 8v13M12 8v13M20 8v13\"/><circle class=\"p2\" cx=\"4\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"20\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 800 }
+  ]
+}

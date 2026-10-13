@@ -1,0 +1,11 @@
+{
+  "name": "rain-total",
+  "category": "weather",
+  "tags": ["rain", "total", "cloud", "sum", "precipitation", "amount"],
+  "svg": "<path class=\"p1\" d=\"M7 14 H17 A3.5 3.5 0 0 0 17 7 A5 5 0 0 0 7.5 6 A4 4 0 0 0 7 14 Z\"/><path class=\"p2\" d=\"M7.5 17.5 V20 M12 17.5 V20\"/><path class=\"p3\" d=\"M18 17 H21 M18 17 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 1200 }
+  ]
+}

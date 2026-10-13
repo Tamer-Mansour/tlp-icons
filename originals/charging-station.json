@@ -1,0 +1,11 @@
+{
+  "name": "charging-station",
+  "category": "devices",
+  "tags": ["charging", "station", "ev", "electric", "power", "plug"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9 7h6\"/><path class=\"p3\" d=\"M12 16v4h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

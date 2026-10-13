@@ -1,0 +1,11 @@
+{
+  "name": "bouillon",
+  "category": "food",
+  "tags": ["bouillon", "stock", "cube", "broth", "soup", "seasoning"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M13 11.5h7v3.5a3.5 3.5 0 0 1-7 0z\"/><path class=\"p3\" d=\"M14.5 8.5c-.8-1 .8-1.8 0-3M17.5 8.5c-.8-1 .8-1.8 0-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 800 }
+  ]
+}

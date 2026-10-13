@@ -1,0 +1,11 @@
+{
+  "name": "planetarium-dome",
+  "category": "science",
+  "tags": ["planetarium", "dome", "stars", "sky", "theater", "astronomy"],
+  "svg": "<path class=\"p1\" d=\"M3 17a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M2 17h20\"/><circle class=\"f p3\" cx=\"8\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 1000, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "microphone-vintage",
+  "category": "communication",
+  "tags": ["microphone", "vintage", "retro", "mic", "voice", "record", "sing"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2.5\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M5 11a7 7 0 0 0 14 0\"/><path class=\"p3\" d=\"M12 18v4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

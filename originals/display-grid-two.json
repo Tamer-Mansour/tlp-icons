@@ -1,0 +1,12 @@
+{
+  "name": "display-grid-two",
+  "category": "layout",
+  "tags": ["display", "grid", "two", "panels", "dashboard"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/><path class=\"p3\" d=\"M6 4v16M2 12h8\"/><path class=\"p4\" d=\"M18 4v16M14 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 500, "delay": 900 }
+  ]
+}

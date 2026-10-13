@@ -1,0 +1,10 @@
+{
+  "name": "smudge-tool",
+  "category": "design",
+  "tags": ["smudge", "finger", "blend", "stroke", "tool", "paint"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"2\" width=\"4\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M4 18C8 14 12 22 20 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

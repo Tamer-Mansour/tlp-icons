@@ -1,0 +1,11 @@
+{
+  "name": "distribution-list",
+  "category": "communication",
+  "tags": ["mailing list", "broadcast list", "recipients", "send to many", "email"],
+  "svg": "<path class=\"p1\" d=\"M3 6h5M3 12h5M3 18h5\"/><path class=\"p2\" d=\"M10 6h4l3 4M10 18h4l3-4\"/><path class=\"p3 d\" d=\"M15 9.5h7v7h-7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

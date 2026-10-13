@@ -1,0 +1,12 @@
+{
+  "name": "shooting-target",
+  "category": "sport",
+  "tags": ["target", "bullseye", "shooting", "aim", "bullet", "archery"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"f p4\" cx=\"12\" cy=\"12\" r=\"1\"/><line class=\"p3\" x1=\"20\" y1=\"4\" x2=\"13.5\" y2=\"10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 450 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1100 }
+  ]
+}

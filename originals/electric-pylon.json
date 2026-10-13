@@ -1,0 +1,11 @@
+{
+  "name": "electric-pylon",
+  "category": "buildings",
+  "tags": ["electric", "pylon", "tower", "power", "cable", "lattice"],
+  "svg": "<path class=\"p1\" d=\"M9 21l3-17 3 17\"/><path class=\"p2\" d=\"M10 14.5h4M9.5 18h5\"/><path class=\"p3\" d=\"M3 7h6M15 7h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "buzz", "dur": 800, "delay": 1200 }
+  ]
+}

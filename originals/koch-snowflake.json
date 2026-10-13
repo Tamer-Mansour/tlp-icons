@@ -1,0 +1,10 @@
+{
+  "name": "koch-snowflake",
+  "category": "math",
+  "tags": ["koch", "snowflake", "fractal", "triangle", "pattern"],
+  "svg": "<path class=\"p1\" d=\"M12 3L15.6 9.4L14.9 11.8L17.4 12.6L21 19L13.8 19L12 16.8L10.2 19L3 19L6.6 12.6L8.7 11.4L8.4 9.4Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"13\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

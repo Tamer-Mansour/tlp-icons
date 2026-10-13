@@ -1,0 +1,10 @@
+{
+  "name": "posterize-effect",
+  "category": "design",
+  "tags": ["posterize", "effect", "bands", "color", "levels"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"3.5\" y1=\"9\" x2=\"20.5\" y2=\"9\"/><line class=\"p2\" x1=\"3.5\" y1=\"15\" x2=\"20.5\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

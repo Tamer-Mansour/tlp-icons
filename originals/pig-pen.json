@@ -1,0 +1,12 @@
+{
+  "name": "pig-pen",
+  "category": "buildings",
+  "tags": ["pig", "pen", "farm", "snout", "hog", "livestock"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"8\" ry=\"5\"/><rect class=\"p2\" x=\"18\" y=\"10\" width=\"3\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M7 17 V20 M15 17 V20\"/><circle class=\"f p4\" cx=\"7.5\" cy=\"11\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

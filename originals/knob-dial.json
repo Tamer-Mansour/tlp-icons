@@ -1,0 +1,11 @@
+{
+  "name": "knob-dial",
+  "category": "interface",
+  "tags": ["knob", "dial", "volume", "control", "rotary"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12l4-4\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

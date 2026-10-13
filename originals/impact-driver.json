@@ -1,0 +1,12 @@
+{
+  "name": "impact-driver",
+  "category": "tools",
+  "tags": ["impact", "driver", "drill", "power", "bit", "torque"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7\" width=\"11\" height=\"5\" rx=\"2\"/><path class=\"p2\" d=\"M8 12l-1 5h3.5l1-5\"/><path class=\"p3\" d=\"M15 9.5h5\"/><path class=\"p4\" d=\"M20 5.5l2-1.5M20 12l2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "buzz", "dur": 500, "delay": 1000 }
+  ]
+}

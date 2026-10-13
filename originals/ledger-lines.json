@@ -1,0 +1,10 @@
+{
+  "name": "ledger-lines",
+  "category": "media",
+  "tags": ["ledger", "staff", "note", "music", "notation"],
+  "svg": "<path class=\"p1\" d=\"M2 4H22M2 8H22M2 16H22M2 20H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

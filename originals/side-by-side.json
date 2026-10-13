@@ -1,0 +1,12 @@
+{
+  "name": "side-by-side",
+  "category": "layout",
+  "tags": ["side by side", "compare", "pages", "columns", "text blocks"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"7\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M5.5 9h3M5.5 13h3\"/><rect class=\"p3\" x=\"14\" y=\"5\" width=\"7\" height=\"14\" rx=\"1.5\"/><path class=\"p4\" d=\"M16.5 9h3M16.5 13h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "typeIn", "dur": 400, "delay": 1200 }
+  ]
+}

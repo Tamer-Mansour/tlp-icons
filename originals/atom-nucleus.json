@@ -1,0 +1,10 @@
+{
+  "name": "atom-nucleus",
+  "category": "science",
+  "tags": ["atom", "nucleus", "orbit", "physics", "particle", "science"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\" transform=\"rotate(-30 12 12)\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "throb", "dur": 800, "delay": 1000 }
+  ]
+}

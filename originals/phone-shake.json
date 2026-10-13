@@ -1,0 +1,10 @@
+{
+  "name": "phone-shake",
+  "category": "communication",
+  "tags": ["phone", "shake", "motion", "tilt", "mobile", "wobble"],
+  "svg": "<path class=\"p1\" transform=\"rotate(-12 12 12)\" d=\"M8 3H11L12.5 6.5L10.8 7.8A8 8 0 0 0 14.4 11.4L15.7 9.7L19 11V14A2 2 0 0 1 17 16A14 14 0 0 1 6 5A2 2 0 0 1 8 3Z\"/><path class=\"p2\" d=\"M4 6L2.5 4.5M3 12H1.5M4 18L2.5 19.5M20 6L21.5 4.5M21 12H22.5M20 18L21.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 900 }
+  ]
+}

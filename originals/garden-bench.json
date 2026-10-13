@@ -1,0 +1,11 @@
+{
+  "name": "garden-bench",
+  "category": "home",
+  "tags": ["bench", "garden", "park", "seat", "outdoor", "backrest"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H21 M3 11.5 H21\"/><rect class=\"d p2\" x=\"3\" y=\"14\" width=\"18\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M5 16.5 V21 M19 16.5 V21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

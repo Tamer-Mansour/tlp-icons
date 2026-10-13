@@ -1,0 +1,11 @@
+{
+  "name": "sun-dial",
+  "category": "time",
+  "tags": ["sun", "dial", "shadow", "sundial", "time", "ancient"],
+  "svg": "<path class=\"p1\" d=\"M3 19h18M5 19a7 7 0 0 1 14 0\"/><path class=\"p2\" d=\"M12 19L15 14\"/><path class=\"p3\" d=\"M12 19L6 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 1100, "delay": 1200, "origin": "12px 19px" }
+  ]
+}

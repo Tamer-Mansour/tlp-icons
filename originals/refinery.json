@@ -1,0 +1,11 @@
+{
+  "name": "refinery",
+  "category": "buildings",
+  "tags": ["refinery", "oil", "towers", "pipes", "plant", "industry"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"8\" width=\"4\" height=\"13\"/><rect class=\"p1\" x=\"10\" y=\"4\" width=\"4\" height=\"17\"/><rect class=\"p1\" x=\"16\" y=\"10\" width=\"4\" height=\"11\"/><path class=\"p2\" d=\"M8 14h2M14 12h2\"/><circle class=\"f p3\" cx=\"12\" cy=\"2.8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1000 }
+  ]
+}

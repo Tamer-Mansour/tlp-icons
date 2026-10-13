@@ -1,0 +1,10 @@
+{
+  "name": "breaker-panel",
+  "category": "home",
+  "tags": ["breaker", "panel", "electrical", "switch", "fuse box"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 6h3v2H7zM14 6h3v2h-3zM7 11h3v2H7zM14 11h3v2h-3zM7 16h3v2H7zM14 16h3v2h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 600 }
+  ]
+}

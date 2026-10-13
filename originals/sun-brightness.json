@@ -1,0 +1,10 @@
+{
+  "name": "sun-brightness",
+  "category": "interface",
+  "tags": ["sun", "brightness", "light", "bright", "day", "sunny"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 5.5V3M12 18.5V21M5.5 12H3M18.5 12H21M16.6 7.4L18.4 5.6M7.4 7.4L5.6 5.6M16.6 16.6L18.4 18.4M7.4 16.6L5.6 18.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 500 }
+  ]
+}

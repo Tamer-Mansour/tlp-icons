@@ -1,0 +1,12 @@
+{
+  "name": "ev-battery",
+  "category": "vehicles",
+  "tags": ["electric", "battery", "charge", "plug", "vehicle", "energy", "bolt"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M20.5 10.5v3\"/><polyline class=\"p3\" points=\"12.5 9 9.5 12.5 13 12.5 10.5 15.5\"/><path class=\"p4\" d=\"M7 17v3M11 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000 }
+  ]
+}

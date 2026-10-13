@@ -1,0 +1,10 @@
+{
+  "name": "lab-clamp",
+  "category": "science",
+  "tags": ["clamp", "lab", "rod", "holder", "jaw", "stand", "equipment"],
+  "svg": "<path class=\"p1\" d=\"M11 4h8v16h-8\"/><path class=\"p2\" d=\"M3 12h8M3 8.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 700 }
+  ]
+}

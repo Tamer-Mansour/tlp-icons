@@ -1,0 +1,10 @@
+{
+  "name": "oxygen-molecule",
+  "category": "science",
+  "tags": ["oxygen", "molecule", "double bond", "gas", "chemistry"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"4.5\"/><circle class=\"p1\" cx=\"16\" cy=\"12\" r=\"4.5\"/><path class=\"p2\" d=\"M11 10.5H13M11 13.5H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

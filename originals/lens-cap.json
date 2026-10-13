@@ -1,0 +1,10 @@
+{
+  "name": "lens-cap",
+  "category": "devices",
+  "tags": ["lens", "cap", "camera", "cover", "photo", "protect"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M6 10h12M6 14h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

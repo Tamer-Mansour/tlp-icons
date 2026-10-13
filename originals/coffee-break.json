@@ -1,0 +1,11 @@
+{
+  "name": "coffee-break",
+  "category": "time",
+  "tags": ["coffee", "break", "cup", "clock", "pause"],
+  "svg": "<path class=\"d p1\" d=\"M4 10h11v5a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z\"/><path class=\"p2\" d=\"M15 12h2a2 2 0 0 1 0 4h-2\"/><circle class=\"p3\" cx=\"19\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

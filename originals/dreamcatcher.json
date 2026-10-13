@@ -1,0 +1,11 @@
+{
+  "name": "dreamcatcher",
+  "category": "emoji",
+  "tags": ["dreamcatcher", "dream", "web", "feather", "charm", "native"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"10\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"3\"/><line class=\"p3\" x1=\"12\" y1=\"18\" x2=\"12\" y2=\"22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 18px" }
+  ]
+}

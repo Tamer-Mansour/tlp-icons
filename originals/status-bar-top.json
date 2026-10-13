@@ -1,0 +1,11 @@
+{
+  "name": "status-bar-top",
+  "category": "layout",
+  "tags": ["status", "bar", "top", "phone", "signal", "battery", "header"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M6 7h12\"/><circle class=\"f p3\" cx=\"9\" cy=\"4.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"4.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eddy-current",
+  "category": "science",
+  "tags": ["eddy", "current", "swirl", "loop", "induction", "physics"],
+  "svg": "<path class=\"p1\" d=\"M5 9a7 7 0 0 1 13-2\"/><path class=\"p2\" d=\"M19 15a7 7 0 0 1-13 2\"/><path class=\"p3\" d=\"M18 4v3h-3M6 20v-3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 12px" }
+  ]
+}

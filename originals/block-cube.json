@@ -1,0 +1,10 @@
+{
+  "name": "block-cube",
+  "category": "shapes",
+  "tags": ["cube", "block", "box", "3d", "solid"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L20 7 V17 L12 21 L4 17 V7 Z\"/><path class=\"p2\" d=\"M4 7 L12 11 L20 7 M12 11 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "drone-propeller",
+  "category": "devices",
+  "tags": ["drone", "propeller", "blades", "flight", "rotor", "spin"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.5\"/><g class=\"p2\"><path d=\"M12 12C15 10 18 9 21 10\"/><path d=\"M12 12C9 14 6 15 3 14\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 300, "origin": "12px 12px" }
+  ]
+}

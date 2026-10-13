@@ -1,0 +1,11 @@
+{
+  "name": "script-switch",
+  "category": "text",
+  "tags": ["script", "switch", "letters", "swap", "alphabet"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"6\" height=\"12\" rx=\"1.5\"/><rect class=\"d p1\" x=\"16\" y=\"6\" width=\"6\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 9H14M12 7L14 9L12 11\"/><path class=\"p3\" d=\"M14 15H10M12 13L10 15L12 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

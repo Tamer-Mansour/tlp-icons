@@ -1,0 +1,11 @@
+{
+  "name": "sports-drone",
+  "category": "sport",
+  "tags": ["drone", "quadcopter", "rotor", "flying", "camera", "aerial"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"10\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M9 11 L5 6 M15 11 L19 6 M9 13 L5 18 M15 13 L19 18\"/><circle class=\"p3\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spinFast", "dur": 800, "delay": 900 }
+  ]
+}

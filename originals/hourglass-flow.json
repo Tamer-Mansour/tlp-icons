@@ -1,0 +1,11 @@
+{
+  "name": "hourglass-flow",
+  "category": "emoji",
+  "tags": ["hourglass", "time", "sand", "timer", "wait", "clock"],
+  "svg": "<path class=\"d p1\" d=\"M6 3 H18 L12 12 Z\"/><path class=\"p2\" d=\"M6 21 H18 L12 12 Z\"/><path class=\"p3\" d=\"M12 14.5 V18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

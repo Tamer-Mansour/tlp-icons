@@ -1,0 +1,11 @@
+{
+  "name": "file-compress",
+  "category": "files",
+  "tags": ["compress", "shrink", "squeeze", "zip", "reduce", "size"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M12 7v4M10 9l2 2 2-2\"/><path class=\"p3\" d=\"M12 17v-4M10 15l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "squeeze", "dur": 700, "delay": 1000 }
+  ]
+}

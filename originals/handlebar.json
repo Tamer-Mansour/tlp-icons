@@ -1,0 +1,10 @@
+{
+  "name": "handlebar",
+  "category": "vehicles",
+  "tags": ["handlebar", "bike", "grips", "brake", "steering"],
+  "svg": "<path class=\"p1\" d=\"M4 6h8v5a4 4 0 0 0 4 4h4\"/><rect class=\"p2\" x=\"1.5\" y=\"4.5\" width=\"2\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

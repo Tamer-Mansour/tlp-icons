@@ -1,0 +1,11 @@
+{
+  "name": "pawn-token",
+  "category": "sport",
+  "tags": ["pawn", "token", "chess", "board", "game", "piece"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"7\" r=\"3.5\"/><path class=\"d p2\" d=\"M9 10.5L7 19h10l-2-8.5z\"/><path class=\"p3\" d=\"M5 21h14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "hop", "dur": 700, "delay": 1000 }
+  ]
+}

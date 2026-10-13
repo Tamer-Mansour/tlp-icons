@@ -1,0 +1,10 @@
+{
+  "name": "caret-line",
+  "category": "text",
+  "tags": ["caret", "cursor", "text", "input", "blink", "guide"],
+  "svg": "<path class=\"p1\" d=\"M12 6v12\"/><path class=\"p2\" d=\"M7 4h10M7 20h10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "blink", "dur": 900, "delay": 600 }
+  ]
+}

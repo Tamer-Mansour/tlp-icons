@@ -1,0 +1,10 @@
+{
+  "name": "ssd-card",
+  "category": "devices",
+  "tags": ["ssd", "storage", "memory", "chips", "drive"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7\" width=\"19\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 9.5 H7.5 V12 H5 Z M9.5 9.5 H12 V12 H9.5 Z M14 9.5 H16.5 V12 H14 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 800 }
+  ]
+}

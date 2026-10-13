@@ -1,0 +1,10 @@
+{
+  "name": "median-line",
+  "category": "charts",
+  "tags": ["median", "bars", "middle", "statistics", "center", "data"],
+  "svg": "<path class=\"p1\" d=\"M3 13 V20 M7.5 9 V20 M12 6 V20 M16.5 11 V20 M21 14 V20\"/><line class=\"p2\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

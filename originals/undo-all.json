@@ -1,0 +1,11 @@
+{
+  "name": "undo-all",
+  "category": "interface",
+  "tags": ["undo", "revert", "back", "history", "start", "rewind"],
+  "svg": "<path class=\"p2\" d=\"M4 5v14\"/><path class=\"p1\" d=\"M20 12H8\"/><path class=\"p3\" d=\"M12 7l-5 5 5 5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

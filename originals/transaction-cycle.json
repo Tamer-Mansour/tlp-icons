@@ -1,0 +1,11 @@
+{
+  "name": "transaction-cycle",
+  "category": "development",
+  "tags": ["transaction", "cycle", "coins", "payment", "loop", "exchange"],
+  "svg": "<path class=\"p2\" d=\"M18.5 9A7 7 0 0 0 5.5 8M5.5 4v4h4\"/><path class=\"p3\" d=\"M5.5 15A7 7 0 0 0 18.5 16M18.5 20v-4h-4\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "spin", "dur": 900, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nachos",
+  "category": "food",
+  "tags": ["nachos", "chips", "cheese", "snack", "tortilla", "mexican"],
+  "svg": "<path class=\"d p1\" d=\"M3 19L12 5l9 14z\"/><path class=\"p2\" d=\"M7 14q2-2 4 0t4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

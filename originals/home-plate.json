@@ -1,0 +1,10 @@
+{
+  "name": "home-plate",
+  "category": "sport",
+  "tags": ["home", "plate", "baseball", "pentagon", "sport", "base"],
+  "svg": "<polygon class=\"d p1\" points=\"6 4 18 4 18 13 12 20 6 13\"/><path class=\"p2\" d=\"M9 9h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

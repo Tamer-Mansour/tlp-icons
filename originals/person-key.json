@@ -1,0 +1,10 @@
+{
+  "name": "person-key",
+  "category": "people",
+  "tags": ["person", "key", "access", "credentials", "user", "login"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M2 21a6 6 0 0 1 12 0\"/><circle class=\"p2\" cx=\"17\" cy=\"14.5\" r=\"2.5\"/><path class=\"p2\" d=\"M18.8 16.3L21.5 19M20 18l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "17px 12px" }
+  ]
+}

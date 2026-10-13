@@ -1,0 +1,11 @@
+{
+  "name": "standup",
+  "category": "time",
+  "tags": ["team", "meeting", "daily", "people", "clock"],
+  "svg": "<circle class=\"p1\" cx=\"5.5\" cy=\"13\" r=\"1.8\"/><circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"1.8\"/><circle class=\"p1\" cx=\"18.5\" cy=\"13\" r=\"1.8\"/><path class=\"p2\" d=\"M3 21a2.5 2.5 0 0 1 5 0M9.5 21a2.5 2.5 0 0 1 5 0M16 21a2.5 2.5 0 0 1 5 0\"/><circle class=\"d p3\" cx=\"12\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1100 }
+  ]
+}

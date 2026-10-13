@@ -1,0 +1,10 @@
+{
+  "name": "time-difference",
+  "category": "time",
+  "tags": ["time", "difference", "clocks", "compare", "arrow", "zones"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"10\" r=\"4\"/><circle class=\"p1\" cx=\"17\" cy=\"10\" r=\"4\"/><path class=\"p2\" d=\"M7 19h10M14 17l3 2-3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

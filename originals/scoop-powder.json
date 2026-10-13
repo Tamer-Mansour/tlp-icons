@@ -1,0 +1,12 @@
+{
+  "name": "scoop-powder",
+  "category": "science",
+  "tags": ["scoop", "powder", "spoon", "measure", "lab", "dose", "granules"],
+  "svg": "<path class=\"p1\" d=\"M4 20L13 11\"/><ellipse class=\"d p2\" cx=\"16\" cy=\"8\" rx=\"4\" ry=\"3\" transform=\"rotate(-45 16 8)\"/><path class=\"d p3\" d=\"M11 21q5-6.5 10 0z\"/><circle class=\"f p4\" cx=\"14.5\" cy=\"15\" r=\"1\"/><circle class=\"f p4\" cx=\"18\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "pour", "dur": 800, "delay": 1200 }
+  ]
+}

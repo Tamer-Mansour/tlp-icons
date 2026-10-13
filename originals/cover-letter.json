@@ -1,0 +1,11 @@
+{
+  "name": "cover-letter",
+  "category": "files",
+  "tags": ["cover", "letter", "page", "signature", "writing"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><line class=\"p2\" x1=\"8\" y1=\"8\" x2=\"16\" y2=\"8\"/><path class=\"p3\" d=\"M8 17c1-2 2 2 3 0s2-2 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "not-found",
+  "category": "interface",
+  "tags": ["missing", "file", "unknown", "question", "absent", "document"],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h9l5 5v14H5z\"/><path class=\"p2\" d=\"M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.5\"/><circle class=\"f p4\" cx=\"12\" cy=\"17\" r=\"1\"/><path class=\"p3\" d=\"M3 21L21 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

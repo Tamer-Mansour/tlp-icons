@@ -1,0 +1,11 @@
+{
+  "name": "text-stretch",
+  "category": "text",
+  "tags": ["stretch", "widen", "wide text", "expand width", "letters"],
+  "svg": "<path class=\"p1\" d=\"M9 18 L12 6 L15 18 M10 13.5 H14\"/><path class=\"p2\" d=\"M7 12 H2.5 M4.5 10 L2.5 12 L4.5 14\"/><path class=\"p3\" d=\"M17 12 H21.5 M19.5 10 L21.5 12 L19.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

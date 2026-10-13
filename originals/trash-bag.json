@@ -1,0 +1,10 @@
+{
+  "name": "trash-bag",
+  "category": "home",
+  "tags": ["trash", "bag", "garbage", "waste", "bin", "rubbish"],
+  "svg": "<path class=\"d p1\" d=\"M5 9Q12 7.5 19 9L17.5 21H6.5Z\"/><path class=\"p2\" d=\"M9 7.5Q12 4.5 15 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ball-drop",
+  "category": "science",
+  "tags": ["ball", "drop", "gravity", "physics", "fall"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"6\" r=\"3\"/><path class=\"p2\" d=\"M4 20h16\"/><path class=\"p3\" d=\"M12 11v4M10 13.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

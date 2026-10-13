@@ -1,0 +1,11 @@
+{
+  "name": "satellite-orbit",
+  "category": "science",
+  "tags": ["satellite", "orbit", "space", "signal", "planet", "circle"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\" transform=\"rotate(45 12 12)\"/><path class=\"p2\" d=\"M9.88 14.12L4.5 19.5M14.12 9.88L19.5 4.5\"/><path class=\"p3\" d=\"M2.5 17.5L6.5 21.5M17.5 2.5L21.5 6.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "spin", "dur": 1500, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

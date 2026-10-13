@@ -1,0 +1,11 @@
+{
+  "name": "chimney-stack",
+  "category": "buildings",
+  "tags": ["chimney", "smoke", "house", "fireplace", "stack", "roof"],
+  "svg": "<path class=\"p1\" d=\"M15 8V5h3v6\"/><path class=\"p2\" d=\"M3 11l8-6 8 6V21H3z\"/><path class=\"p3\" d=\"M16 2.5q1.5-1 3 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1200 }
+  ]
+}

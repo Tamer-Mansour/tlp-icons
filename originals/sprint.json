@@ -1,0 +1,11 @@
+{
+  "name": "sprint",
+  "category": "development",
+  "tags": ["sprint", "stopwatch", "agile", "timer", "iteration", "speed"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M9 14 V10.5 M9 2.5 V5 M7.5 2.5 H10.5\"/><path class=\"p3\" d=\"M17 12 H21 M19 10 L21 12 L19 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 500, "origin": "9px 14px" },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1200 }
+  ]
+}

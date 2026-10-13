@@ -1,0 +1,10 @@
+{
+  "name": "gauge-meter",
+  "category": "charts",
+  "tags": ["gauge", "meter", "dial", "speed", "level", "measure"],
+  "svg": "<path class=\"d p1\" d=\"M3 16 A9 9 0 0 1 21 16 Z\"/><line class=\"p2\" x1=\"12\" y1=\"16\" x2=\"18\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 700, "origin": "12px 16px" }
+  ]
+}

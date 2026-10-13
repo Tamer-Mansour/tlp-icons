@@ -1,0 +1,10 @@
+{
+  "name": "rain",
+  "category": "nature",
+  "tags": ["rain", "cloud", "weather", "storm", "drops", "water"],
+  "svg": "<path class=\"d p1\" d=\"M7 14H17Q21 14 21 10Q21 6 17 6Q16 3 12 3Q8 3 7 6Q3 6 3 10Q3 14 7 14Z\"/><path class=\"p2\" d=\"M8 17L7 20M12 17L11 20M16 17L15 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 900, "delay": 700 }
+  ]
+}

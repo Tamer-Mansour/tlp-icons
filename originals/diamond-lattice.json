@@ -1,0 +1,11 @@
+{
+  "name": "diamond-lattice",
+  "category": "science",
+  "tags": ["diamond", "lattice", "crystal", "cube", "carbon"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"9\" width=\"10\" height=\"10\"/><rect class=\"p2\" x=\"9\" y=\"5\" width=\"10\" height=\"10\"/><path class=\"p3\" d=\"M5 9L9 5M15 9L19 5M15 19L19 15M5 19L9 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

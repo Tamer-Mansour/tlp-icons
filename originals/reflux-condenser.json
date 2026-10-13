@@ -1,0 +1,11 @@
+{
+  "name": "reflux-condenser",
+  "category": "science",
+  "tags": ["lab", "condenser", "coil", "heat", "science"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"16\" rx=\"1\"/><polyline class=\"p2\" points=\"9 6 15 8 9 10 15 12 9 14 15 16\"/><path class=\"p3\" d=\"M6 16H3M18 8h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 1100, "origin": "12px 11px" }
+  ]
+}

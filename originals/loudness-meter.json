@@ -1,0 +1,10 @@
+{
+  "name": "loudness-meter",
+  "category": "media",
+  "tags": ["loudness", "meter", "level", "bar", "volume", "audio"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"18\" height=\"6\" rx=\"2\"/><rect class=\"d p2\" x=\"5.5\" y=\"11\" width=\"8\" height=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 800, "origin": "left" }
+  ]
+}

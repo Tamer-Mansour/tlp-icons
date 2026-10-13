@@ -1,0 +1,11 @@
+{
+  "name": "cupcake-liner",
+  "category": "food",
+  "tags": ["food", "cupcake", "liner", "baking", "dessert", "paper"],
+  "svg": "<path class=\"d p1\" d=\"M5 12h14l-2.5 8h-9z\"/><path class=\"p2\" d=\"M8.5 12l1 8M12 12v8M15.5 12l-1 8\"/><path class=\"p3\" d=\"M4 9.5h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "retina-scan",
+  "category": "people",
+  "tags": ["retina", "scan", "eye", "biometric", "identity", "verify"],
+  "svg": "<path class=\"p1\" d=\"M2 8c2.5-3.5 6-5 10-5s7.5 1.5 10 5c-2.5 3.5-6 5-10 5S4.5 11.5 2 8z\"/><circle class=\"d p2\" cx=\"12\" cy=\"8\" r=\"2.5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 800 }
+  ]
+}

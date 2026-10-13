@@ -1,0 +1,10 @@
+{
+  "name": "dojo-mat",
+  "category": "sport",
+  "tags": ["martial arts", "mat", "dojo", "training", "tatami"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p2\" x1=\"3\" y1=\"15\" x2=\"21\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

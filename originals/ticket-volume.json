@@ -1,0 +1,10 @@
+{
+  "name": "ticket-volume",
+  "category": "charts",
+  "tags": ["ticket", "volume", "support", "count", "bars"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"8\" height=\"4\"/><rect class=\"p1\" x=\"3\" y=\"10\" width=\"8\" height=\"4\"/><rect class=\"p1\" x=\"3\" y=\"16\" width=\"8\" height=\"4\"/><path class=\"p2\" d=\"M15 21V14M19 21V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mittens",
+  "category": "weather",
+  "tags": ["mittens", "gloves", "winter", "warm", "hands", "mitten"],
+  "svg": "<path class=\"d p1\" d=\"M8 21V16L5 12.5A1.8 1.8 0 0 1 7.7 10.2L9 11.3V5A1.5 1.5 0 0 1 12 5V10.5H13V4A1.5 1.5 0 0 1 16 4V10.5H17V6A1.5 1.5 0 0 1 20 6V16L17 21Z\"/><path class=\"p2\" d=\"M8 17.5h9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "wiggle", "dur": 700, "delay": 700 }
+  ]
+}

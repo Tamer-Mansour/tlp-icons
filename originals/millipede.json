@@ -1,0 +1,11 @@
+{
+  "name": "millipede",
+  "category": "nature",
+  "tags": ["millipede", "segmented", "legs", "bug", "curl"],
+  "svg": "<path class=\"p1\" d=\"M3 16 H13 Q17 16 17 12\"/><path class=\"p2\" d=\"M6 16 V19 M10 16 V19 M14 16 V19\"/><path class=\"p3\" d=\"M17 12 Q17 8 13 8 Q10 8 11 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "17px 12px" }
+  ]
+}

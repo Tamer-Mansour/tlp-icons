@@ -1,0 +1,11 @@
+{
+  "name": "chipmunk",
+  "category": "nature",
+  "tags": ["chipmunk", "stripes", "squirrel", "small tail", "woodland"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M8 10 V18 M11 8.5 V19.5\"/><path class=\"p3\" d=\"M17 14 C20 14 21.5 11.5 20 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

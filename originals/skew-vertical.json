@@ -1,0 +1,10 @@
+{
+  "name": "skew-vertical",
+  "category": "design",
+  "tags": ["skew", "vertical", "shear", "slant", "transform", "parallelogram"],
+  "svg": "<polygon class=\"d p1\" points=\"4,20 4,8 20,4 20,16\"/><path class=\"p2\" d=\"M3 2v3M1.5 3.5L3 2l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rotate-right-90",
+  "category": "arrows",
+  "tags": ["rotate", "right", "quarter turn", "clockwise", "square", "turn"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"7\" width=\"12\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M21 12a9 9 0 0 0-9-9M17 12h4V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 700 }
+  ]
+}

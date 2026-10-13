@@ -1,0 +1,11 @@
+{
+  "name": "pendulum-clock",
+  "category": "science",
+  "tags": ["clock", "pendulum", "time", "face", "swing", "tick"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M12 10V6.5M12 10l2.5 1.5\"/><path class=\"p3\" d=\"M12 10L15 17.5\"/><circle class=\"p3\" cx=\"15\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pendulum", "dur": 1000, "delay": 600, "origin": "12px 10px" }
+  ]
+}

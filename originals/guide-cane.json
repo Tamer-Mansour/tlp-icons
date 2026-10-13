@@ -1,0 +1,10 @@
+{
+  "name": "guide-cane",
+  "category": "people",
+  "tags": ["white cane", "guide cane", "blind mobility", "navigation", "accessibility"],
+  "svg": "<path class=\"p1\" d=\"M15 9.5a3.5 3.5 0 0 0-7 0\"/><path class=\"p2\" d=\"M15 9.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 700, "delay": 800, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "smokestack",
+  "category": "buildings",
+  "tags": ["smokestack", "chimney", "factory", "smoke", "industry"],
+  "svg": "<path class=\"d p1\" d=\"M8 21V8h8v13z\"/><circle class=\"p2\" cx=\"12\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1400, "delay": 700 }
+  ]
+}

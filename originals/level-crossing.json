@@ -1,0 +1,11 @@
+{
+  "name": "level-crossing",
+  "category": "buildings",
+  "tags": ["level crossing", "railroad crossing", "barrier", "rail", "track", "road"],
+  "svg": "<path class=\"p1\" d=\"M2 20h20M2 17h20\"/><path class=\"p2\" d=\"M5 17V6\"/><path class=\"p3\" d=\"M5 6l12 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 1000, "origin": "5px 6px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bug-beetle",
+  "category": "security",
+  "tags": ["bug", "beetle", "insect", "vulnerability", "glitch", "malware"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"6\" ry=\"6\"/><path class=\"p2\" d=\"M12 8v12\"/><path class=\"p3\" d=\"M6 11.5H3.5M6 15.5H3M18 11.5h2.5M18 15.5h3\"/><path class=\"p4\" d=\"M10 8.5L8 4.5M14 8.5l2-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1100, "origin": "12px 8.5px" }
+  ]
+}

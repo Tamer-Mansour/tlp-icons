@@ -1,0 +1,10 @@
+{
+  "name": "path-trail",
+  "category": "arrows",
+  "tags": ["path", "trail", "route", "dotted", "track"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1\"/><circle class=\"f p1\" cx=\"8\" cy=\"14\" r=\"1\"/><circle class=\"f p1\" cx=\"12\" cy=\"10\" r=\"1\"/><path class=\"p2\" d=\"M14 10 C16 10 17 6 20 6\"/><polyline class=\"p2\" points=\"17 3 20 6 17 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "series-sequence",
+  "category": "math",
+  "tags": ["series", "sequence", "sum", "dots", "plus"],
+  "svg": "<circle class=\"f p1\" cx=\"3\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"21\" cy=\"12\" r=\"1\"/><path class=\"p2\" d=\"M6 12h3M7.5 10.5v3M15 12h3M16.5 10.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

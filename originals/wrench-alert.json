@@ -1,0 +1,10 @@
+{
+  "name": "wrench-alert",
+  "category": "notifications",
+  "tags": ["wrench", "tool", "alert", "repair", "maintenance"],
+  "svg": "<path class=\"p1\" d=\"M14.5 3.5a5 5 0 0 0-4.5 7L4 17.5 6.5 20l7-6a5 5 0 0 0 7-4.5l-2.5 1-2-.5-.5-2 1-2.5z\"/><line class=\"p2\" x1=\"18.5\" y1=\"14\" x2=\"18.5\" y2=\"17.5\"/><circle class=\"f p2\" cx=\"18.5\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

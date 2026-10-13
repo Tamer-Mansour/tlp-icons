@@ -1,0 +1,10 @@
+{
+  "name": "select-by-color",
+  "category": "design",
+  "tags": ["select", "color", "swatch", "pick", "fill", "tool"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M3 7V3H7M17 3H21V7M21 17V21H17M7 21H3V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

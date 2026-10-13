@@ -1,0 +1,10 @@
+{
+  "name": "ankle-support",
+  "category": "sport",
+  "tags": ["ankle brace", "support", "injury", "sprain", "foot"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"16\" rx=\"3\"/><line class=\"p2\" x1=\"7\" y1=\"8\" x2=\"17\" y2=\"11\"/><line class=\"p2\" x1=\"7\" y1=\"13\" x2=\"17\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 1000, "delay": 700 }
+  ]
+}

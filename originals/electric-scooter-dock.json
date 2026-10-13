@@ -1,0 +1,11 @@
+{
+  "name": "electric-scooter-dock",
+  "category": "devices",
+  "tags": ["scooter", "dock", "rack", "charging", "electric", "station"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M12 14V4M9 4h6\"/><circle class=\"p2\" cx=\"12\" cy=\"17\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 1100 }
+  ]
+}

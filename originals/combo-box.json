@@ -1,0 +1,11 @@
+{
+  "name": "combo-box",
+  "category": "interface",
+  "tags": ["combo", "box", "input", "select", "dropdown", "search"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"12\" x2=\"12\" y2=\"12\"/><line class=\"p2\" x1=\"16\" y1=\"5\" x2=\"16\" y2=\"19\"/><polyline class=\"p3\" points=\"17.5 10.5 19 12 20.5 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "succulent",
+  "category": "home",
+  "tags": ["succulent", "plant", "rosette", "cactus", "leaves", "pot"],
+  "svg": "<path class=\"d p1\" d=\"M12 15C9 15 6 12 6 8c3 0 6 3 6 7z\"/><path class=\"p3\" d=\"M12 15c3 0 6-3 6-7-3 0-6 3-6 7z\"/><path class=\"p2\" d=\"M6 15h12l-1.5 6h-9z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "bloom", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "bloom", "dur": 800, "delay": 700 }
+  ]
+}

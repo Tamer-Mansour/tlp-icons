@@ -1,0 +1,11 @@
+{
+  "name": "hanging-file",
+  "category": "files",
+  "tags": ["hanging", "file", "rail", "hook", "cabinet", "folder"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"4\" x2=\"22\" y2=\"4\"/><path class=\"p2\" d=\"M10 4v3\"/><rect class=\"d p3\" x=\"6\" y=\"9\" width=\"12\" height=\"13\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 900, "origin": "10px 4px" }
+  ]
+}

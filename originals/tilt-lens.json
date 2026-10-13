@@ -1,0 +1,11 @@
+{
+  "name": "tilt-lens",
+  "category": "photography",
+  "tags": ["tilt", "lens", "shift", "angle", "barrel", "perspective", "camera"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M18 4.5C20.5 5.5 21.5 7.5 21 10M21 10L18.8 9.7M21 10L20.4 7.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

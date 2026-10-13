@@ -1,0 +1,10 @@
+{
+  "name": "bandwidth-limit",
+  "category": "connectivity",
+  "tags": ["bandwidth", "limit", "pipe", "capacity", "cap"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1\"/><line class=\"p2\" x1=\"15\" y1=\"7\" x2=\"15\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 900 }
+  ]
+}

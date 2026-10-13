@@ -1,0 +1,11 @@
+{
+  "name": "rack-mount",
+  "category": "devices",
+  "tags": ["rack", "mount", "server", "equipment", "datacenter", "cabinet"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18M20 3v18\"/><rect class=\"d p2\" x=\"6\" y=\"9\" width=\"12\" height=\"4\" rx=\"1\"/><circle class=\"f p3\" cx=\"9\" cy=\"11\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

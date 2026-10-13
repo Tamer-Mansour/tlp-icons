@@ -1,0 +1,11 @@
+{
+  "name": "ocarina",
+  "category": "media",
+  "tags": ["ocarina", "flute", "wind", "holes", "instrument"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"7\" ry=\"5\"/><line class=\"p2\" x1=\"8.5\" y1=\"8.5\" x2=\"5\" y2=\"5\"/><circle class=\"f p3\" cx=\"9\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

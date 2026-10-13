@@ -1,0 +1,12 @@
+{
+  "name": "ambulance-bay",
+  "category": "buildings",
+  "tags": ["ambulance", "cross", "bay", "vehicle", "medical"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"14\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M16 9H19L22 12.5V16H16Z\"/><path class=\"p3\" d=\"M9 9V13M7 11H11\"/><path class=\"p4\" d=\"M2 19.5H22\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 1300 }
+  ]
+}

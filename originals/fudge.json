@@ -1,0 +1,10 @@
+{
+  "name": "fudge",
+  "category": "food",
+  "tags": ["candy", "chocolate", "dessert", "block", "sweet"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M4 10h16M4 14h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

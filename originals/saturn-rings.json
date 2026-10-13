@@ -1,0 +1,10 @@
+{
+  "name": "saturn-rings",
+  "category": "science",
+  "tags": ["saturn", "planet", "rings", "space", "astronomy", "orbit"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"3\" transform=\"rotate(-20 12 12)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 700 }
+  ]
+}

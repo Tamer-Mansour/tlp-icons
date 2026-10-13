@@ -1,0 +1,10 @@
+{
+  "name": "cricket-bat",
+  "category": "sport",
+  "tags": ["cricket", "bat", "blade", "paddle", "sport", "wicket"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M12 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 600, "delay": 700, "origin": "12px 15px" }
+  ]
+}

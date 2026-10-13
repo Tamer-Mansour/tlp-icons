@@ -1,0 +1,11 @@
+{
+  "name": "file-meter",
+  "category": "files",
+  "tags": ["meter", "level", "bars", "reading", "measure", "signal"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 18v-3M12 18v-6M16 18v-9\"/><path class=\"p3\" d=\"M6 18h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

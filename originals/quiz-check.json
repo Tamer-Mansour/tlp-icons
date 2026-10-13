@@ -1,0 +1,11 @@
+{
+  "name": "quiz-check",
+  "category": "science",
+  "tags": ["quiz", "check", "test", "correct", "sheet", "pass"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h9l5 5v13H5z\"/><path class=\"p2\" d=\"M8 12h3M8 16h3\"/><path class=\"p3\" d=\"M13.5 15.5L15 17l3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

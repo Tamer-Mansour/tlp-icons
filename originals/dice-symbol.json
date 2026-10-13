@@ -1,0 +1,10 @@
+{
+  "name": "dice-symbol",
+  "category": "emoji",
+  "tags": ["dice", "die", "game", "pips", "chance", "random"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle class=\"f p2\" cx=\"8\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"8\" cy=\"16\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 700 }
+  ]
+}

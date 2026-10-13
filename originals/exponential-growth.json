@@ -1,0 +1,10 @@
+{
+  "name": "exponential-growth",
+  "category": "math",
+  "tags": ["exponential", "growth", "bars", "increase", "arrow", "chart"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"16\" width=\"3\" height=\"5\"/><rect class=\"p1\" x=\"8\" y=\"12\" width=\"3\" height=\"9\"/><rect class=\"p1\" x=\"13\" y=\"8\" width=\"3\" height=\"13\"/><rect class=\"p1\" x=\"18\" y=\"4\" width=\"3\" height=\"17\"/><path class=\"p2\" d=\"M2 10 L9 6.5 L14 4 L20 2 M16 2 H20 V6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 800, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

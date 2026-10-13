@@ -1,0 +1,10 @@
+{
+  "name": "rowing-club",
+  "category": "buildings",
+  "tags": ["rowing", "club", "oars", "boat", "water", "crew"],
+  "svg": "<path class=\"p1\" d=\"M4 4l10 13M20 4L9 17\"/><path class=\"p2\" d=\"M3 20q2.25-1.5 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

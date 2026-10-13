@@ -1,0 +1,10 @@
+{
+  "name": "rip-saw",
+  "category": "tools",
+  "tags": ["rip", "saw", "teeth", "long cut", "wood"],
+  "svg": "<polygon class=\"d p1\" points=\"3,8 21,8 21,12 18,15 15,12 12,15 9,12 6,15 3,12\"/><path class=\"p2\" d=\"M3 4h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 }
+  ]
+}

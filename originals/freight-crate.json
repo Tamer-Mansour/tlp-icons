@@ -1,0 +1,11 @@
+{
+  "name": "freight-crate",
+  "category": "vehicles",
+  "tags": ["freight", "box", "shipping", "label", "cargo"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"15\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 5 V20\"/><rect class=\"p3\" x=\"5\" y=\"11\" width=\"5\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

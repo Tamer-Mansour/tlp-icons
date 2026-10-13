@@ -1,0 +1,11 @@
+{
+  "name": "cargo-box",
+  "category": "vehicles",
+  "tags": ["cargo", "box", "roof", "rack", "luggage"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"18\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 12h18\"/><path class=\"p3\" d=\"M5 6h14M7 6v3M17 6v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

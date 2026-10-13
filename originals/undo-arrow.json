@@ -1,0 +1,10 @@
+{
+  "name": "undo-arrow",
+  "category": "design",
+  "tags": ["undo", "arrow", "revert", "back", "previous", "reverse"],
+  "svg": "<path class=\"p1\" d=\"M8 5L4 9l4 4\"/><path class=\"p2\" d=\"M4 9h11a5 5 0 0 1 0 10h-6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "nudgeBack", "dur": 500, "delay": 1000 }
+  ]
+}

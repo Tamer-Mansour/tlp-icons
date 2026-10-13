@@ -1,0 +1,10 @@
+{
+  "name": "magnet-arrow",
+  "category": "arrows",
+  "tags": ["magnet", "attract", "pull", "horseshoe", "magnetic", "pull toward"],
+  "svg": "<path class=\"p1\" d=\"M3 3h4v8a3 3 0 0 0 6 0V3h4v8a7 7 0 0 1-14 0Z\"/><path class=\"p2\" d=\"M22 12h-3M21 10l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 700 }
+  ]
+}

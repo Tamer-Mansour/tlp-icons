@@ -1,0 +1,11 @@
+{
+  "name": "ruler-tab",
+  "category": "text",
+  "tags": ["ruler", "tab", "stop", "indent", "text", "measure"],
+  "svg": "<path class=\"d p1\" d=\"M2 8H22V16H2Z\"/><path class=\"p2\" d=\"M6 8V11M18 8V11\"/><path class=\"p3\" d=\"M12 11V15H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

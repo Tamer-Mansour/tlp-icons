@@ -1,0 +1,11 @@
+{
+  "name": "ceiling-light",
+  "category": "home",
+  "tags": ["ceiling", "light", "lamp", "flush", "lighting"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"4\" x2=\"21\" y2=\"4\"/><path class=\"d p2\" d=\"M7 6v2a5 2 0 0 0 10 0V6z\"/><path class=\"p3\" d=\"M12 12v2M7.5 13.5l1 1M16.5 13.5l-1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "primate",
+  "category": "nature",
+  "tags": ["primate", "monkey", "ape", "long arm", "upright"],
+  "svg": "<circle class=\"p1\" cx=\"11\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M11 8.5 V15 M11 15 L9 21 M11 15 L13 21 M11 10 L8 13\"/><path class=\"p3\" d=\"M11 10 L19 14 L20 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1200 }
+  ]
+}

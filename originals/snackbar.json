@@ -1,0 +1,11 @@
+{
+  "name": "snackbar",
+  "category": "interface",
+  "tags": ["snackbar", "toast", "notice", "message", "action", "alert"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M5 12h7\"/><rect class=\"p3\" x=\"16\" y=\"10\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

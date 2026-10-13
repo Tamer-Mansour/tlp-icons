@@ -1,0 +1,11 @@
+{
+  "name": "location-blur",
+  "category": "security",
+  "tags": ["location", "blur", "map", "pin", "fuzzy", "privacy"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5c-2.2 0-4 1.8-4 4 0 3 4 7 4 7s4-4 4-7c0-2.2-1.8-4-4-4z\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"4.5\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"4.5\" r=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"17.5\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"17.5\" r=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"10.5\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

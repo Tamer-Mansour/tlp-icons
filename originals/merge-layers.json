@@ -1,0 +1,10 @@
+{
+  "name": "merge-layers",
+  "category": "design",
+  "tags": ["merge", "layers", "combine", "sheets", "stack", "tool"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"7\" y=\"14\" width=\"10\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

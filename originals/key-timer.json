@@ -1,0 +1,11 @@
+{
+  "name": "key-timer",
+  "category": "security",
+  "tags": ["key", "timer", "expiry", "countdown", "temporary", "access"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M11.5 12H21M18 12v3M15 12v2\"/><path class=\"p3\" d=\"M18.5 4.5A3.5 3.5 0 0 1 21.5 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 900, "origin": "18px 6px" }
+  ]
+}

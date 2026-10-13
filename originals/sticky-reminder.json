@@ -1,0 +1,11 @@
+{
+  "name": "sticky-reminder",
+  "category": "notifications",
+  "tags": ["note", "sticky", "reminder", "memo", "post-it", "text"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16v11l-5 5H4z\"/><path class=\"p2\" d=\"M15 20v-5h5\"/><path class=\"p3\" d=\"M8 9h8M8 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 900 }
+  ]
+}

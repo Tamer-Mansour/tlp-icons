@@ -1,0 +1,11 @@
+{
+  "name": "knight-helmet",
+  "category": "sport",
+  "tags": ["knight helmet", "visor", "plume", "armor", "medieval"],
+  "svg": "<path class=\"d p1\" d=\"M5 14 V11 Q5 4 12 4 Q19 4 19 11 V14 Z\"/><line class=\"p2\" x1=\"8\" y1=\"10\" x2=\"16\" y2=\"10\"/><path class=\"p3\" d=\"M12 4 C12 2 14 1 17 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tablet-pen",
+  "category": "design",
+  "tags": ["tablet", "pen", "stylus", "drawing", "graphics", "digital", "sketch"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 15c1.5-2 2.5 1 4-1\"/><path class=\"p3\" d=\"M16 6.5l2 2-4.5 4.5h-1v-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

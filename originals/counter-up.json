@@ -1,0 +1,11 @@
+{
+  "name": "counter-up",
+  "category": "interface",
+  "tags": ["counter", "increase", "number", "up", "arrow"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"11\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M6 12.5L8 10.5V16.5\"/><path class=\"p2\" d=\"M18 19V6M14.5 9.5L18 6L21.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

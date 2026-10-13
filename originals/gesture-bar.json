@@ -1,0 +1,10 @@
+{
+  "name": "gesture-bar",
+  "category": "interface",
+  "tags": ["gesture", "bar", "swipe", "mobile", "screen", "bottom"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M8.5 18h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 900 }
+  ]
+}

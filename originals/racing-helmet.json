@@ -1,0 +1,11 @@
+{
+  "name": "racing-helmet",
+  "category": "vehicles",
+  "tags": ["helmet", "racing", "driver", "visor", "safety", "race"],
+  "svg": "<path class=\"d p1\" d=\"M4 15V11Q4 4.5 12 4.5Q20 4.5 20 11V15Q20 17.5 17.5 17.5H6.5Q4 17.5 4 15Z\"/><path class=\"p2\" d=\"M7 9.5H17.5V12.5Q17.5 13.5 16.5 13.5H8Q7 13.5 7 12.5Z\"/><path class=\"p3\" d=\"M12 4.5V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 1000 }
+  ]
+}

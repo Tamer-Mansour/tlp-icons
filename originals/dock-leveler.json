@@ -1,0 +1,11 @@
+{
+  "name": "dock-leveler",
+  "category": "vehicles",
+  "tags": ["dock", "leveler", "ramp", "loading", "warehouse", "lift"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"12\" height=\"2\" rx=\"1\"/><path class=\"p2\" d=\"M15 11v4\"/><path class=\"p3\" d=\"M19.5 19V9M17 11.5L19.5 9l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 700 }
+  ]
+}

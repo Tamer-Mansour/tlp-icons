@@ -1,0 +1,12 @@
+{
+  "name": "survey-clipboard",
+  "category": "communication",
+  "tags": ["survey", "clipboard", "form", "questionnaire", "feedback"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"5\" width=\"14\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"3\" rx=\"1\"/><circle class=\"f p3\" cx=\"8\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"8\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"8\" cy=\"17\" r=\"1\"/><path class=\"p4\" d=\"M11 9h5M11 13h5M11 17h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

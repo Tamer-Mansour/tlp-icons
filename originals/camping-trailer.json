@@ -1,0 +1,11 @@
+{
+  "name": "camping-trailer",
+  "category": "vehicles",
+  "tags": ["camping", "trailer", "tent", "caravan", "outdoors"],
+  "svg": "<path class=\"d p1\" d=\"M2 16V9L7 4H11L16 9V16Z\"/><line class=\"p2\" x1=\"16\" y1=\"13\" x2=\"22\" y2=\"13\"/><circle class=\"p3\" cx=\"7\" cy=\"19.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

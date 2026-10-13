@@ -1,0 +1,12 @@
+{
+  "name": "stack-layout",
+  "category": "interface",
+  "tags": ["stack", "layout", "vertical", "blocks", "list", "arrange"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"10\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"3\" y=\"17\" width=\"12\" height=\"4\" rx=\"1\"/><polyline class=\"p4\" points=\"19,3 21,3 21,21 19,21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "riseIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

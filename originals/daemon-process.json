@@ -1,0 +1,11 @@
+{
+  "name": "daemon-process",
+  "category": "development",
+  "tags": ["daemon", "background", "service", "process", "gear", "orbit"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M12 3a9 9 0 0 1 9 9\"/><circle class=\"f p3\" cx=\"21\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "orbit", "dur": 1000, "delay": 900 }
+  ]
+}

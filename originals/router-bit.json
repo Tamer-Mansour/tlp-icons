@@ -1,0 +1,10 @@
+{
+  "name": "router-bit",
+  "category": "tools",
+  "tags": ["router", "bit", "cutter", "shank", "profile"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"2\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"d p2\" d=\"M8 8h8v4l-2 3v5h-4v-5l-2-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 }
+  ]
+}

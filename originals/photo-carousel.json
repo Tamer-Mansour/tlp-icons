@@ -1,0 +1,10 @@
+{
+  "name": "photo-carousel",
+  "category": "photography",
+  "tags": ["photo", "carousel", "slider", "gallery", "next"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"6\" width=\"10\" height=\"12\" rx=\"1.5\"/><rect class=\"p2\" x=\"2\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"19\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "shuttle", "dur": 900, "delay": 600 }
+  ]
+}

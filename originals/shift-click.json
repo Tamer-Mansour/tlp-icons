@@ -1,0 +1,10 @@
+{
+  "name": "shift-click",
+  "category": "interface",
+  "tags": ["shift", "click", "modifier", "select", "keyboard", "arrow"],
+  "svg": "<path class=\"d p1\" d=\"M12 1.5L6 7.5h4v6h4v-6h4z\"/><path class=\"p2\" d=\"M11 15.5l5 2.5-2.3.6 1.5 2.4-1 .6-1.5-2.4-1.7 1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

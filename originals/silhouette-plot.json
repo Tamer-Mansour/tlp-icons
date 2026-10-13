@@ -1,0 +1,11 @@
+{
+  "name": "silhouette-plot",
+  "category": "charts",
+  "tags": ["silhouette", "bars", "cluster", "score", "horizontal", "analysis"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"14\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"10\" width=\"18\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"3\" y=\"16\" width=\"9\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0, "origin": "left" },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 300, "origin": "left" },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600, "origin": "left" }
+  ]
+}

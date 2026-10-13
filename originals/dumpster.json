@@ -1,0 +1,11 @@
+{
+  "name": "dumpster",
+  "category": "buildings",
+  "tags": ["dumpster", "skip", "container", "bin", "waste", "garbage"],
+  "svg": "<path class=\"d p1\" d=\"M4 9H20L18.5 20H5.5Z\"/><path class=\"p2\" d=\"M3 6H21\"/><path class=\"p3\" d=\"M9 12.5V17M12 12.5V17M15 12.5V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

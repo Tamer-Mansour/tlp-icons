@@ -1,0 +1,12 @@
+{
+  "name": "barcode-lock",
+  "category": "security",
+  "tags": ["barcode", "lock", "stripes", "scan", "secure", "code"],
+  "svg": "<path class=\"p1\" d=\"M4 2.5v3M8 2.5v3M12 2.5v3M16 2.5v3M20 2.5v3\"/><path class=\"p3\" d=\"M9 15v-3a3 3 0 0 1 6 0v3\"/><rect class=\"d p2\" x=\"6\" y=\"15\" width=\"12\" height=\"6.5\" rx=\"1.5\"/><circle class=\"f p4\" cx=\"12\" cy=\"18.2\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

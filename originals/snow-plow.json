@@ -1,0 +1,12 @@
+{
+  "name": "snow-plow",
+  "category": "weather",
+  "tags": ["snow", "plow", "truck", "winter", "blade", "clearing"],
+  "svg": "<path class=\"p1\" d=\"M4 15 V9 H14 V15 M14 11 H18 L21 14 V15 H14\"/><circle class=\"p3\" cx=\"8\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p2\" d=\"M22 17 L19 19\"/><path class=\"p4\" d=\"M8 9 L6 6 M11 8 V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 1000 },
+    { "part": "p2", "anim": "nudge", "dur": 900, "delay": 1400 }
+  ]
+}

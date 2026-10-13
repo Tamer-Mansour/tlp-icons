@@ -1,0 +1,11 @@
+{
+  "name": "devtools-panel",
+  "category": "development",
+  "tags": ["devtools", "panel", "debug", "console", "window", "developer"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 14h18\"/><path class=\"p3\" d=\"M7 18h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

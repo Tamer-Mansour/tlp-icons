@@ -1,0 +1,10 @@
+{
+  "name": "screen-reader-speaker",
+  "category": "communication",
+  "tags": ["screen", "reader", "speaker", "accessibility", "audio", "read aloud"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"12\" height=\"10\" rx=\"1.5\"/><path class=\"p1\" d=\"M8.5 14v3M5.5 17h6\"/><path class=\"d p2\" d=\"M17 9.5h2l2.5-2.5v9l-2.5-2.5h-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

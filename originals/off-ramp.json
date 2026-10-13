@@ -1,0 +1,10 @@
+{
+  "name": "off-ramp",
+  "category": "arrows",
+  "tags": ["ramp", "highway", "split", "road", "off"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H14\"/><path class=\"p2\" d=\"M14 8 C18 8 19 13 19 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

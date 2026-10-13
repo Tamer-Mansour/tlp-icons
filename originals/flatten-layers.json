@@ -1,0 +1,10 @@
+{
+  "name": "flatten-layers",
+  "category": "design",
+  "tags": ["flatten", "layers", "collapse", "merge", "stack", "tool"],
+  "svg": "<path class=\"p1\" d=\"M3 9L12 14L21 9M3 13L12 18L21 13\"/><path class=\"p2\" d=\"M9 4L12 7L15 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

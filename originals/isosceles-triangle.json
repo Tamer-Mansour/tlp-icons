@@ -1,0 +1,10 @@
+{
+  "name": "isosceles-triangle",
+  "category": "math",
+  "tags": ["isosceles", "triangle", "equal", "sides", "geometry", "apex"],
+  "svg": "<polygon class=\"d p1\" points=\"4,20 20,20 12,4\"/><path class=\"p2\" d=\"M6.8 11.4L9.2 12.6M14.8 12.6L17.2 11.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pedestrian-crossing",
+  "category": "buildings",
+  "tags": ["pedestrian crossing", "zebra crossing", "crosswalk", "road", "stripes"],
+  "svg": "<path class=\"p1\" d=\"M2 7h20M2 17h20\"/><path class=\"p2\" d=\"M5 10v4M9 10v4M13 10v4M17 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

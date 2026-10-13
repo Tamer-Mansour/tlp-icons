@@ -1,0 +1,11 @@
+{
+  "name": "o-ring",
+  "category": "shapes",
+  "tags": ["ring", "gasket", "circle", "seal", "highlight", "round"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M5.4 9.6A7 7 0 0 1 9.6 5.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

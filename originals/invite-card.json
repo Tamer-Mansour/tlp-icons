@@ -1,0 +1,11 @@
+{
+  "name": "invite-card",
+  "category": "communication",
+  "tags": ["invite", "card", "invitation", "event", "rsvp", "card"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h11l5 5v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M15 3v5h5\"/><path class=\"d p3\" d=\"M12 17.5l-2.5-2.2a1.7 1.7 0 0 1 2.5-2.3 1.7 1.7 0 0 1 2.5 2.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "beat", "dur": 600, "delay": 1000 }
+  ]
+}

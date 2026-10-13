@@ -1,0 +1,10 @@
+{
+  "name": "car-antenna",
+  "category": "vehicles",
+  "tags": ["car", "antenna", "mast", "signal", "radio", "reception"],
+  "svg": "<path class=\"p1\" d=\"M12 21V10\"/><path class=\"p2\" d=\"M4 10a8 8 0 0 1 16 0M8 8.5a4 4 0 0 1 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

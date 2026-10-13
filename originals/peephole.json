@@ -1,0 +1,11 @@
+{
+  "name": "peephole",
+  "category": "home",
+  "tags": ["peephole", "door", "lens", "eye", "peek", "entry"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2.5\" width=\"14\" height=\"19\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1.5\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

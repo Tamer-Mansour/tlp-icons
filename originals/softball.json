@@ -1,0 +1,10 @@
+{
+  "name": "softball",
+  "category": "sport",
+  "tags": ["softball", "ball", "seam", "sport", "round", "bat"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M6.5 7c2.5 2.5 2.5 7.5 0 10\"/><path class=\"p2\" d=\"M17.5 7c-2.5 2.5-2.5 7.5 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "coverage-bar",
+  "category": "charts",
+  "tags": ["coverage", "shield", "progress", "bar", "protection", "test"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"12\" height=\"4\" rx=\"2\"/><rect class=\"d p2\" x=\"3\" y=\"10\" width=\"9\" height=\"4\"/><path class=\"p3\" d=\"M19 4.5L21 5.5V9C21 12 19.5 14 19 14.5C18.5 14 17 12 17 9V5.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

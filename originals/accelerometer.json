@@ -1,0 +1,12 @@
+{
+  "name": "accelerometer",
+  "category": "devices",
+  "tags": ["accelerometer", "motion", "axis", "sensor", "acceleration"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M11 9V4M9 6l2-2 2 2\"/><path class=\"p3\" d=\"M15 13h6M19 11l2 2-2 2\"/><path class=\"p4\" d=\"M7 17l-4 4M3 16v5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

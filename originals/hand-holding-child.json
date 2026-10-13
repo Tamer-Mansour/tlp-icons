@@ -1,0 +1,11 @@
+{
+  "name": "hand-holding-child",
+  "category": "people",
+  "tags": ["hand", "child", "care", "support", "parent", "holding"],
+  "svg": "<path class=\"d p1\" d=\"M4 17 Q6 14 9 15 L13 16.5 H16 L19 14 Q21 13 21 15 L17 19.5 Q15 21 11 21 H8 Q5.5 21 4 18.5 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2.5\"/><path class=\"p3\" d=\"M12 10 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "bob", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "text-cursor-caret",
+  "category": "design",
+  "tags": ["caret", "cursor", "text", "insert", "typing", "edit"],
+  "svg": "<path class=\"p1\" d=\"M12 5v14\"/><path class=\"p2\" d=\"M9 5h6M9 19h6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "blink", "dur": 1000, "delay": 400 }
+  ]
+}

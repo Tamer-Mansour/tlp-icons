@@ -1,0 +1,11 @@
+{
+  "name": "racing-flag",
+  "category": "vehicles",
+  "tags": ["racing", "flag", "checkered", "finish", "race"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><rect class=\"d p2\" x=\"5\" y=\"3\" width=\"12\" height=\"8\"/><path class=\"p3\" d=\"M11 3v8M5 7h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 600, "origin": "left" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "group-admin",
+  "category": "people",
+  "tags": ["group", "admin", "crown", "owner", "people"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"10\" r=\"2.5\"/><path class=\"p1\" d=\"M2 20a4 4 0 0 1 8 0\"/><circle class=\"p2\" cx=\"17\" cy=\"10\" r=\"2.5\"/><path class=\"p2\" d=\"M13 20a4 4 0 0 1 8 0\"/><polygon class=\"p3\" points=\"14 5.5 14 3 16 4.5 17 2.5 18 4.5 20 3 20 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spring", "dur": 700, "delay": 900 }
+  ]
+}

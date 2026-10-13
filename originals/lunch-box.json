@@ -1,0 +1,11 @@
+{
+  "name": "lunch-box",
+  "category": "food",
+  "tags": ["lunch", "box", "bento", "container", "food"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 8 V5 Q9 4 10 4 H14 Q15 4 15 5 V8\"/><rect class=\"p3\" x=\"10.5\" y=\"11\" width=\"3\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000 }
+  ]
+}

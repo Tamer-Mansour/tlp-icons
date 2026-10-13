@@ -1,0 +1,11 @@
+{
+  "name": "bar-spoon",
+  "category": "food",
+  "tags": ["bar", "spoon", "stir", "cocktail", "mixing"],
+  "svg": "<circle class=\"d p2\" cx=\"16.5\" cy=\"7.5\" r=\"3.5\"/><line class=\"p1\" x1=\"14\" y1=\"10\" x2=\"4\" y2=\"20\"/><path class=\"p3\" d=\"M8.5 13.5 L10.5 15.5 M6.5 15.5 L8.5 17.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "8.5px 14.5px" }
+  ]
+}

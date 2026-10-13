@@ -1,0 +1,10 @@
+{
+  "name": "dotted-pattern",
+  "category": "design",
+  "tags": ["dots", "pattern", "grid", "texture", "spacing", "fill"],
+  "svg": "<circle class=\"f p1\" cx=\"7\" cy=\"7\" r=\"1.2\"/><circle class=\"f p1\" cx=\"17\" cy=\"17\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"7\" cy=\"17\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 400 }
+  ]
+}

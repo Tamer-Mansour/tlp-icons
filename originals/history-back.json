@@ -1,0 +1,10 @@
+{
+  "name": "history-back",
+  "category": "interface",
+  "tags": ["history", "back", "page", "previous", "arrow", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M9 4L4 9l5 5M4 9h7\"/><rect class=\"d p2\" x=\"14\" y=\"4\" width=\"7\" height=\"16\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

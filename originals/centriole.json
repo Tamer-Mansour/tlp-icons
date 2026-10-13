@@ -1,0 +1,10 @@
+{
+  "name": "centriole",
+  "category": "science",
+  "tags": ["centriole", "cell", "tube", "biology", "organelle"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"10\" width=\"12\" height=\"4\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"4\" width=\"4\" height=\"16\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 900, "delay": 800 }
+  ]
+}

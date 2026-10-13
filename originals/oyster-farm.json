@@ -1,0 +1,11 @@
+{
+  "name": "oyster-farm",
+  "category": "buildings",
+  "tags": ["oyster", "farm", "shell", "shellfish", "sea", "aquaculture"],
+  "svg": "<path class=\"d p1\" d=\"M3 12c0-4 4-7 9-7s9 3 9 7z\"/><path class=\"p2\" d=\"M7.5 9.5v1.5M12 8v2.5M16.5 9.5v1.5\"/><path class=\"p3\" d=\"M3 16q2.25-1.5 4.5 0t4.5 0t4.5 0t4.5 0M3 20q2.25-1.5 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

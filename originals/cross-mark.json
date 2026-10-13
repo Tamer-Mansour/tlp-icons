@@ -1,0 +1,10 @@
+{
+  "name": "cross-mark",
+  "category": "emoji",
+  "tags": ["cross", "close", "wrong", "mark", "dismiss"],
+  "svg": "<path class=\"p1\" d=\"M6 6l12 12\"/><path class=\"p2\" d=\"M18 6L6 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 400 }
+  ]
+}

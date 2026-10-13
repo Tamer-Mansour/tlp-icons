@@ -1,0 +1,10 @@
+{
+  "name": "drawer-lock",
+  "category": "security",
+  "tags": ["security", "drawer", "lock", "storage", "cabinet", "private"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"12\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M10.5 12 V10 A1.5 1.5 0 0 1 13.5 10 V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fleet-stats",
+  "category": "charts",
+  "tags": ["fleet", "vehicles", "stats", "trucks", "bars", "transport"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"5\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"9.5\" y=\"4\" width=\"5\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"17\" y=\"4\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M5 21v-4M11 21v-7M17 21v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 600, "origin": "bottom" }
+  ]
+}

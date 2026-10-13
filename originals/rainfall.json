@@ -1,0 +1,10 @@
+{
+  "name": "rainfall",
+  "category": "weather",
+  "tags": ["rainfall", "rain", "measure", "gauge", "amount", "cup"],
+  "svg": "<path class=\"d p1\" d=\"M8 4h8v14.5a2.5 2.5 0 0 1-2.5 2.5h-3A2.5 2.5 0 0 1 8 18.5z\"/><path class=\"p2\" d=\"M5 4h14M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

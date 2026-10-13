@@ -1,0 +1,10 @@
+{
+  "name": "tile-saw",
+  "category": "tools",
+  "tags": ["tile", "saw", "cutting", "wet", "ceramic", "table"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"13\" width=\"16\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 4v5M9 9h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 600 }
+  ]
+}

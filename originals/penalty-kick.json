@@ -1,0 +1,10 @@
+{
+  "name": "penalty-kick",
+  "category": "sport",
+  "tags": ["penalty", "kick", "goal", "soccer", "sport", "ball"],
+  "svg": "<path class=\"p1\" d=\"M4 4v10h16V4\"/><circle class=\"d p2\" cx=\"12\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

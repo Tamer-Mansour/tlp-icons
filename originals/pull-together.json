@@ -1,0 +1,11 @@
+{
+  "name": "pull-together",
+  "category": "arrows",
+  "tags": ["pull", "together", "blocks", "inward", "gather", "close"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"18\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M6 12h4M8 10l2 2-2 2M18 12h-4M16 10l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "squeeze", "dur": 600, "delay": 700 }
+  ]
+}

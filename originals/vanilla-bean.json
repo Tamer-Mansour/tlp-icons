@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-bean",
+  "category": "food",
+  "tags": ["vanilla", "bean", "pod", "spice", "food"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><circle class=\"f p3\" cx=\"10\" cy=\"9\" r=\"0.8\"/><circle class=\"f p3\" cx=\"14\" cy=\"15\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

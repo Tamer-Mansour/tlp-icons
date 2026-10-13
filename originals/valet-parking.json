@@ -1,0 +1,11 @@
+{
+  "name": "valet-parking",
+  "category": "vehicles",
+  "tags": ["valet", "parking", "key", "tag", "car", "service"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"7.5\" r=\"4\"/><path class=\"p2\" d=\"M10.5 10.5L20 20\"/><path class=\"p3\" d=\"M16 16L18.5 13.5M19 19L21 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "tilt", "dur": 1000, "delay": 1000 }
+  ]
+}

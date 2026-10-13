@@ -1,0 +1,11 @@
+{
+  "name": "journey-planner",
+  "category": "vehicles",
+  "tags": ["journey", "planner", "trip", "route", "schedule"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"17.5\" r=\"1.5\"/><path class=\"p2\" d=\"M5 15.5V13a4 4 0 0 1 4-4h6a4 4 0 0 0 4-4\"/><circle class=\"p3\" cx=\"19\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 1200 }
+  ]
+}

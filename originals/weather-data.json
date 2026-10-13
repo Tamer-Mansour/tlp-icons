@@ -1,0 +1,10 @@
+{
+  "name": "weather-data",
+  "category": "charts",
+  "tags": ["weather", "cloud", "data", "chart", "forecast", "climate"],
+  "svg": "<path class=\"p1\" d=\"M7 14h10a4 4 0 0 0 0-8 6 6 0 0 0-11.5 1.5A3 3 0 0 0 7 14z\"/><path class=\"p2\" d=\"M8 21v-2M12 21v-3M16 21v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600, "origin": "bottom" }
+  ]
+}

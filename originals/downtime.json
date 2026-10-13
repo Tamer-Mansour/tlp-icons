@@ -1,0 +1,11 @@
+{
+  "name": "downtime",
+  "category": "connectivity",
+  "tags": ["downtime", "outage", "clock", "offline", "time", "unavailable"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M10 8V12L12.5 13.5\"/><path class=\"p3\" d=\"M19 6V16M16.5 13.5L19 16L21.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

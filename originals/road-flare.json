@@ -1,0 +1,11 @@
+{
+  "name": "road-flare",
+  "category": "vehicles",
+  "tags": ["flare", "road", "emergency", "fire", "warning", "stick", "light"],
+  "svg": "<path class=\"d p2\" d=\"M11.5 2.5c2.5 3 4 4.5 4 6.5a4 4 0 0 1-8 0c0-2 1-3 1.5-4 .5 1.5 1 2 1.5 2 0-2 .5-3.5 1-5.5z\"/><rect class=\"p1\" x=\"9\" y=\"14\" width=\"5\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M2.5 21.5h19\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

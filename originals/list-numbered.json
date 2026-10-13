@@ -1,0 +1,12 @@
+{
+  "name": "list-numbered",
+  "category": "interface",
+  "tags": ["list", "numbered", "ordered", "steps", "numbers", "text"],
+  "svg": "<path class=\"p1\" d=\"M3.5 5l1-1v5M3 10h3v2H3v2h3M3 16h3l-1.5 2 1.5 2H3\"/><path class=\"p2\" d=\"M10 6h11\"/><path class=\"p3\" d=\"M10 12h11\"/><path class=\"p4\" d=\"M10 18h11\"/>",
+  "motion": [
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p1", "anim": "typeIn", "dur": 700, "delay": 900 }
+  ]
+}

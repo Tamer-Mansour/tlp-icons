@@ -1,0 +1,11 @@
+{
+  "name": "puppet-warp",
+  "category": "design",
+  "tags": ["puppet", "warp", "pins", "figure", "joints", "rig"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"6\" r=\"3\"/><path class=\"p2\" d=\"M7 11L12 13L17 11M12 13V16L9 21M12 16L15 21\"/><circle class=\"f p3\" cx=\"7\" cy=\"11\" r=\"1.2\"/><circle class=\"f p3\" cx=\"17\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dormer",
+  "category": "buildings",
+  "tags": ["dormer", "roof", "window", "attic", "gable", "house"],
+  "svg": "<path class=\"p1\" d=\"M2 12L12 5l10 7\"/><path class=\"p2\" d=\"M5 11v9h14v-9\"/><rect class=\"d p3\" x=\"8\" y=\"3\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1200 }
+  ]
+}

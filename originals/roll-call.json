@@ -1,0 +1,10 @@
+{
+  "name": "roll-call",
+  "category": "people",
+  "tags": ["roll", "call", "attendance", "clipboard", "list", "check"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><rect class=\"p1\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"3\" rx=\"1\"/><circle class=\"f p2\" cx=\"8\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"8\" cy=\"15\" r=\"1\"/><path class=\"p2\" d=\"M11.5 10H17M11.5 15H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

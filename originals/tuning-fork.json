@@ -1,0 +1,11 @@
+{
+  "name": "tuning-fork",
+  "category": "media",
+  "tags": ["tuning", "fork", "pitch", "note", "music", "vibration"],
+  "svg": "<path class=\"p1\" d=\"M7 3v8a5 5 0 0 0 10 0V3\"/><path class=\"p2\" d=\"M12 16v6\"/><path class=\"p3\" d=\"M4 8a6 6 0 0 0 0 6M20 8a6 6 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1000 }
+  ]
+}

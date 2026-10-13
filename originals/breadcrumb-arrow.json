@@ -1,0 +1,11 @@
+{
+  "name": "breadcrumb-arrow",
+  "category": "arrows",
+  "tags": ["breadcrumb", "path", "trail", "navigation", "hierarchy"],
+  "svg": "<circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"2\"/><polyline class=\"p2\" points=\"9 7 14 12 9 17\"/><polyline class=\"p3\" points=\"15 7 20 12 15 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "pop", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 }
+  ]
+}

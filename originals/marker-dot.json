@@ -1,0 +1,10 @@
+{
+  "name": "marker-dot",
+  "category": "notifications",
+  "tags": ["map", "pin", "location", "marker", "place"],
+  "svg": "<path class=\"d p1\" d=\"M12 22s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 500 }
+  ]
+}

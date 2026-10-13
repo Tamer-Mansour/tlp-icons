@@ -1,0 +1,11 @@
+{
+  "name": "horse-bridle",
+  "category": "nature",
+  "tags": ["bridle", "horse", "tack", "harness", "equine"],
+  "svg": "<path class=\"p1\" d=\"M4 10 Q12 2 20 10\"/><path class=\"p2\" d=\"M7 9 L10 20 M17 9 L14 20\"/><path class=\"p3\" d=\"M10 20 H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

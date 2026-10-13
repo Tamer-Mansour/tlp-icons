@@ -1,0 +1,11 @@
+{
+  "name": "titration-setup",
+  "category": "science",
+  "tags": ["titration", "burette", "flask", "lab", "chemistry"],
+  "svg": "<path class=\"d p1\" d=\"M10 9V13L5 18H19L14 13V9Z\"/><path class=\"p2\" d=\"M12 3V7M10.5 5H13.5\"/><path class=\"p3\" d=\"M3 21H21\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "pour", "dur": 900, "delay": 1100 }
+  ]
+}

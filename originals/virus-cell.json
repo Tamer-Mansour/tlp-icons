@@ -1,0 +1,10 @@
+{
+  "name": "virus-cell",
+  "category": "security",
+  "tags": ["virus", "cell", "germ", "malware", "infection", "threat"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M12 5V2.5M12 19v2.5M5 12H2.5M19 12h2.5M7 7L5.3 5.3M17 17l1.7 1.7M7 17l-1.7 1.7M17 7l1.7-1.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

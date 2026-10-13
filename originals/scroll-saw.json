@@ -1,0 +1,11 @@
+{
+  "name": "scroll-saw",
+  "category": "tools",
+  "tags": ["scroll", "saw", "blade", "table", "fine cut"],
+  "svg": "<path class=\"p1\" d=\"M6 4h8a3 3 0 0 1 0 6h-5\"/><path class=\"p2\" d=\"M9 10v11\"/><path class=\"p3\" d=\"M4 21h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

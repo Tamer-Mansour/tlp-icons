@@ -1,0 +1,11 @@
+{
+  "name": "nautical-chart",
+  "category": "vehicles",
+  "tags": ["map", "chart", "compass", "navigation", "folded", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z\"/><path class=\"p2\" d=\"M9 4v14M15 6v14\"/><path class=\"p3\" d=\"M12 10.5v3M10.5 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1100 }
+  ]
+}

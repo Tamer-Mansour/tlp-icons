@@ -1,0 +1,11 @@
+{
+  "name": "conjecture-question",
+  "category": "math",
+  "tags": ["conjecture", "question", "guess", "equations", "hypothesis"],
+  "svg": "<path class=\"p1\" d=\"M9 6a3 3 0 1 1 4 2.8c-.6.4-1 1-1 1.7v.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"16.5\" r=\"1\"/><path class=\"p3\" d=\"M5 20h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

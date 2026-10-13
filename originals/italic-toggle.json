@@ -1,0 +1,10 @@
+{
+  "name": "italic-toggle",
+  "category": "interface",
+  "tags": ["italic", "toggle", "text", "format", "slant", "editor"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"6\"/><path class=\"p2\" d=\"M11 9h5M8 15h5M13.5 9l-3 6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

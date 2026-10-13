@@ -1,0 +1,10 @@
+{
+  "name": "cumulative-steps",
+  "category": "charts",
+  "tags": ["cumulative", "steps", "growth", "line", "chart", "rising"],
+  "svg": "<polyline class=\"p1\" points=\"3,20 7,20 7,16 11,16 11,12 15,12 15,8 19,8 19,4\"/><circle class=\"f p2\" cx=\"19\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

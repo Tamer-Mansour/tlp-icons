@@ -1,0 +1,12 @@
+{
+  "name": "coffee-chat",
+  "category": "people",
+  "tags": ["coffee chat", "coffee meeting", "cups", "mugs", "conversation"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"7\" height=\"9\" rx=\"2\"/><rect class=\"d p2\" x=\"14\" y=\"10\" width=\"7\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M10 13h1.5a1.5 1.5 0 0 1 0 3H10M21 13h1a1.5 1.5 0 0 1 0 3h-1\"/><path class=\"p4\" d=\"M6.5 7c-1-1 1-2 0-3M17.5 7c-1-1 1-2 0-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

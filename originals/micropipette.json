@@ -1,0 +1,11 @@
+{
+  "name": "micropipette",
+  "category": "science",
+  "tags": ["pipette", "micropipette", "lab", "liquid", "measure", "science"],
+  "svg": "<rect class=\"p1\" x=\"9.5\" y=\"2.5\" width=\"5\" height=\"2.5\" rx=\"1\"/><rect class=\"d p2\" x=\"10.5\" y=\"5\" width=\"3\" height=\"11\"/><polyline class=\"p3\" points=\"10.5,16 12,21.5 13.5,16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p1", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

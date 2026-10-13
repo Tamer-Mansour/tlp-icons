@@ -1,0 +1,11 @@
+{
+  "name": "penalty-spot",
+  "category": "sport",
+  "tags": ["penalty", "spot", "goal", "arc", "soccer", "kick"],
+  "svg": "<path class=\"p1\" d=\"M3 21H21\"/><path class=\"p2\" d=\"M6 18A6 6 0 0 1 18 18\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

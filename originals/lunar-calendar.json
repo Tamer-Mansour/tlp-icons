@@ -1,0 +1,11 @@
+{
+  "name": "lunar-calendar",
+  "category": "time",
+  "tags": ["calendar", "moon", "lunar", "phase", "month"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><circle class=\"d p3\" cx=\"12\" cy=\"15.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

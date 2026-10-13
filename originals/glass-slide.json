@@ -1,0 +1,11 @@
+{
+  "name": "glass-slide",
+  "category": "science",
+  "tags": ["slide", "glass", "sample", "microscope", "lab"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"6\" rx=\"0.5\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"1.5\"/><path class=\"p3\" d=\"M16.5 9.5V14.5M18.5 9.5V14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

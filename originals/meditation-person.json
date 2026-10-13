@@ -1,0 +1,12 @@
+{
+  "name": "meditation-person",
+  "category": "people",
+  "tags": ["meditation", "seated", "calm", "mindful", "yoga", "relax"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M12 11v5M12 13l-4 1.5M12 13l4 1.5\"/><path class=\"p3\" d=\"M6 19.5q6-4 12 0\"/><path class=\"p4\" d=\"M9 3q3-1.5 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "breathe", "dur": 1200, "delay": 1200 }
+  ]
+}

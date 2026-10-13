@@ -1,0 +1,11 @@
+{
+  "name": "lab-apron",
+  "category": "science",
+  "tags": ["apron", "lab", "protection", "clothing", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M9 8H15L19 12V21H5V12Z\"/><path class=\"p2\" d=\"M9 8V5.5Q12 3 15 5.5V8\"/><path class=\"p3\" d=\"M5 13H2.5M19 13H21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

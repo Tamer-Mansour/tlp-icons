@@ -1,0 +1,10 @@
+{
+  "name": "interpreter",
+  "category": "communication",
+  "tags": ["interpreter", "translation", "two people", "conversation", "language", "speech"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"11\" r=\"3\"/><circle class=\"p1\" cx=\"18\" cy=\"11\" r=\"3\"/><path class=\"p1\" d=\"M3 20a3 3 0 0 1 6 0\"/><path class=\"p1\" d=\"M15 20a3 3 0 0 1 6 0\"/><path class=\"p2\" d=\"M9.5 4h5v4h-2l-1 1.5V8h-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 800 }
+  ]
+}

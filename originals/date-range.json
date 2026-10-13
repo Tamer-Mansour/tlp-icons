@@ -1,0 +1,11 @@
+{
+  "name": "date-range",
+  "category": "time",
+  "tags": ["date", "range", "calendar", "span", "period", "dates"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M4 10h16\"/><path class=\"p3\" d=\"M7 13v4h10v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1000 }
+  ]
+}

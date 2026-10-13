@@ -1,0 +1,10 @@
+{
+  "name": "text-upside-down",
+  "category": "text",
+  "tags": ["upside", "down", "rotate", "flip", "turn", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 20L6.5 6L10 20M4.5 14H8.5\"/><path class=\"p2\" d=\"M18 6A7 7 0 0 1 18 18M15.5 15.5L18 18L20.5 15.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spinHalf", "dur": 800, "delay": 800, "origin": "6.5px 13px" }
+  ]
+}

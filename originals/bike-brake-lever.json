@@ -1,0 +1,11 @@
+{
+  "name": "bike-brake-lever",
+  "category": "vehicles",
+  "tags": ["brake", "lever", "bike", "handlebar", "grip", "cycle"],
+  "svg": "<path class=\"p2\" d=\"M19 3v18\"/><path class=\"p3\" d=\"M16.5 8H19\"/><path class=\"d p1\" d=\"M4 10l11-5 1.5 3L5.5 13z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p1", "anim": "tilt", "dur": 700, "delay": 1000, "origin": "16px 8px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "popover-panel",
+  "category": "layout",
+  "tags": ["popover", "panel", "tooltip", "menu", "callout", "dropdown"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M10 13L12 15.5L14 13\"/><rect class=\"p3\" x=\"9\" y=\"18\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

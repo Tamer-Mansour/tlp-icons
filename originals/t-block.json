@@ -1,0 +1,10 @@
+{
+  "name": "t-block",
+  "category": "shapes",
+  "tags": ["t-shape", "block", "tetromino", "bar", "stem", "puzzle"],
+  "svg": "<path class=\"p1\" d=\"M3 3H21V9H15V15H9V9H3Z\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

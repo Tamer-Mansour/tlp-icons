@@ -1,0 +1,11 @@
+{
+  "name": "aid-station",
+  "category": "sport",
+  "tags": ["aid", "station", "tent", "race", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 10L12 3L21 10Z\"/><path class=\"p2\" d=\"M4 15H20M6 15V21M18 15V21\"/><path class=\"p3\" d=\"M10 15L10.5 12H13.5L14 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pour", "dur": 600, "delay": 1000, "origin": "12px 15px" }
+  ]
+}

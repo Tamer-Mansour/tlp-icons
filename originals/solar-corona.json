@@ -1,0 +1,10 @@
+{
+  "name": "solar-corona",
+  "category": "science",
+  "tags": ["solar", "corona", "sun", "rays", "light", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M19.5 12h2M17.3 17.3l1.42 1.42M12 19.5v2M6.7 17.3l-1.42 1.42M4.5 12h-2M6.7 6.7L5.28 5.28M12 4.5v-2M17.3 6.7l1.42-1.42\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 1000, "delay": 700 }
+  ]
+}

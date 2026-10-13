@@ -1,0 +1,11 @@
+{
+  "name": "wrecking-bar",
+  "category": "tools",
+  "tags": ["wrecking", "bar", "crowbar", "pry", "demolition", "lever"],
+  "svg": "<path class=\"p1\" d=\"M3 21L13 11\"/><path class=\"p2\" d=\"M13 11L19 5\"/><path class=\"p3\" d=\"M19 5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "car-remote",
+  "category": "vehicles",
+  "tags": ["car", "remote", "key", "fob", "button", "signal"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"1.5\"/><path class=\"p3\" d=\"M19 7a6 6 0 0 1 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1300 }
+  ]
+}

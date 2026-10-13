@@ -1,0 +1,10 @@
+{
+  "name": "bento-grid",
+  "category": "layout",
+  "tags": ["bento", "grid", "blocks", "dashboard", "tiles", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"12\" height=\"12\" rx=\"2\"/><rect class=\"d p2\" x=\"16\" y=\"2\" width=\"6\" height=\"5\" rx=\"1.5\"/><rect class=\"d p2\" x=\"16\" y=\"9\" width=\"6\" height=\"5\" rx=\"1.5\"/><rect class=\"d p2\" x=\"2\" y=\"16\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"10\" y=\"16\" width=\"12\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

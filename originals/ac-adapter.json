@@ -1,0 +1,11 @@
+{
+  "name": "ac-adapter",
+  "category": "devices",
+  "tags": ["adapter", "charger", "power", "brick", "plug", "cable"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"10\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M7 13v4M11 13v4\"/><path class=\"p3\" d=\"M14 8.5h4v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

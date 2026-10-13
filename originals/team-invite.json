@@ -1,0 +1,11 @@
+{
+  "name": "team-invite",
+  "category": "people",
+  "tags": ["team", "invite", "envelope", "add member", "people"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8\" r=\"3.5\"/><path class=\"p1\" d=\"M3 20.5c0-3.3 2.7-6 6-6s6 2.7 6 6\"/><rect class=\"p2\" x=\"14\" y=\"12\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M14 12.5l4 2.5 4-2.5\"/><path class=\"p3\" d=\"M18 2v4M16 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1500 }
+  ]
+}

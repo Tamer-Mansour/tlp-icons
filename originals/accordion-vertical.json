@@ -1,0 +1,11 @@
+{
+  "name": "accordion-vertical",
+  "category": "layout",
+  "tags": ["accordion", "vertical", "expand", "header", "rows", "section", "collapse"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"9\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M6 17h12M6 20h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 500 }
+  ]
+}

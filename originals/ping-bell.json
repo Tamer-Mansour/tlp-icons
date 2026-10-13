@@ -1,0 +1,11 @@
+{
+  "name": "ping-bell",
+  "category": "communication",
+  "tags": ["bell", "ping", "alert", "notification", "ring", "signal"],
+  "svg": "<path class=\"d p1\" d=\"M6 16V11A6 6 0 0 1 18 11V16L20 18H4Z\"/><path class=\"p2\" d=\"M10 20.5H14\"/><path class=\"p3\" d=\"M3 8A7 7 0 0 1 5 3.5M21 8A7 7 0 0 0 19 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "reading-mode",
+  "category": "layout",
+  "tags": ["reading", "book", "open book", "article", "view"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"3\"/><path class=\"p2\" d=\"M12 7.5C10 6 7.5 5.5 5.5 6v11c2-.5 4.5 0 6.5 1.5 2-1.5 4.5-2 6.5-1.5V6c-2-.5-4.5 0-6.5 1.5z\"/><path class=\"p3\" d=\"M8 10h2M8 13h2M14 10h2M14 13h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1100 }
+  ]
+}

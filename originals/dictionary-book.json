@@ -1,0 +1,11 @@
+{
+  "name": "dictionary-book",
+  "category": "development",
+  "tags": ["dictionary", "book", "key", "value", "lookup", "reference"],
+  "svg": "<path class=\"d p1\" d=\"M4 19V5a2 2 0 0 1 2-2h13v14H6a2 2 0 0 0-2 2z\"/><circle class=\"p2\" cx=\"10\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M9 15h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

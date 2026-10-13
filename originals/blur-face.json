@@ -1,0 +1,11 @@
+{
+  "name": "blur-face",
+  "category": "security",
+  "tags": ["blur", "face", "anonymous", "privacy", "hidden", "dots"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"8\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 800, "delay": 1000 }
+  ]
+}

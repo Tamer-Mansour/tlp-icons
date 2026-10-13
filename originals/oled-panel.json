@@ -1,0 +1,11 @@
+{
+  "name": "oled-panel",
+  "category": "devices",
+  "tags": ["oled", "display", "panel", "screen", "glossy", "light"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\" rx=\"2\"/><path class=\"d p2\" d=\"M5.5 7.5H9.5L5.5 11.5Z\"/><path class=\"p3\" d=\"M12 13.5H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

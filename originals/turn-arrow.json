@@ -1,0 +1,10 @@
+{
+  "name": "turn-arrow",
+  "category": "arrows",
+  "tags": ["turn", "corner", "elbow", "route", "bend", "direction"],
+  "svg": "<path class=\"p1\" d=\"M5 19V8h13\"/><path class=\"p2\" d=\"M15 4l4 4-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

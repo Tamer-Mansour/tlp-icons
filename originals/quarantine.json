@@ -1,0 +1,11 @@
+{
+  "name": "quarantine",
+  "category": "security",
+  "tags": ["quarantine", "isolate", "barrier", "malware", "containment", "safe"],
+  "svg": "<path class=\"p2\" d=\"M4 10v9.5A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5V10\"/><line class=\"p3\" x1=\"7\" y1=\"13\" x2=\"17\" y2=\"19\"/><rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"4.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "tilt", "dur": 600, "delay": 1100, "origin": "left" }
+  ]
+}

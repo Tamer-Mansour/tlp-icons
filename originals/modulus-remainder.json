@@ -1,0 +1,11 @@
+{
+  "name": "modulus-remainder",
+  "category": "math",
+  "tags": ["modulus", "remainder", "division", "leftover", "modulo", "math"],
+  "svg": "<line class=\"p1\" x1=\"19\" y1=\"5\" x2=\"5\" y2=\"19\"/><circle class=\"d p2\" cx=\"7\" cy=\"7\" r=\"2.5\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

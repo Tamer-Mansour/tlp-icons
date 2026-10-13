@@ -1,0 +1,11 @@
+{
+  "name": "ir-blaster",
+  "category": "devices",
+  "tags": ["ir", "blaster", "infrared", "remote", "emitter"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"13\" width=\"12\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M9 8.5a3.5 3.5 0 0 1 6 0\"/><path class=\"p3\" d=\"M6 6a7 7 0 0 1 12 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1200 }
+  ]
+}

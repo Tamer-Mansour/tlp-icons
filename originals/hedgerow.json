@@ -1,0 +1,10 @@
+{
+  "name": "hedgerow",
+  "category": "buildings",
+  "tags": ["hedgerow", "shrub", "hedge", "field", "boundary", "scalloped"],
+  "svg": "<path class=\"p1\" d=\"M2 16 A3 3 0 0 1 8 16 A3 3 0 0 1 14 16 A3 3 0 0 1 20 16\"/><path class=\"p2\" d=\"M2 20 H22\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "sway", "dur": 1000, "delay": 800, "origin": "bottom" }
+  ]
+}

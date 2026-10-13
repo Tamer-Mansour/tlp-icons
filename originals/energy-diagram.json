@@ -1,0 +1,10 @@
+{
+  "name": "energy-diagram",
+  "category": "science",
+  "tags": ["chemistry", "energy", "reaction", "barrier", "levels", "diagram"],
+  "svg": "<path class=\"p1\" d=\"M3 17h4M17 9h4\"/><path class=\"p2\" d=\"M7 17Q12 2 17 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

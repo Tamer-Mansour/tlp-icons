@@ -1,0 +1,10 @@
+{
+  "name": "guitar-tab",
+  "category": "media",
+  "tags": ["guitar", "tab", "tablature", "frets", "strings", "music"],
+  "svg": "<path class=\"p1\" d=\"M3 7H21M3 10.5H21M3 14H21M3 17.5H21\"/><circle class=\"f p2\" cx=\"8\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"16\" cy=\"14\" r=\"1.2\"/><circle class=\"f p2\" cx=\"10\" cy=\"17.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

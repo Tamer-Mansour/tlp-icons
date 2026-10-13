@@ -1,0 +1,10 @@
+{
+  "name": "text-scale",
+  "category": "text",
+  "tags": ["scale", "text", "resize", "letter", "size", "grow", "font"],
+  "svg": "<path class=\"p1\" d=\"M3 18L7 6l4 12M4.5 14h5\"/><path class=\"p2\" d=\"M14 14l6-6M15 8h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 900 }
+  ]
+}

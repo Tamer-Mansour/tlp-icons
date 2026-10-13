@@ -1,0 +1,11 @@
+{
+  "name": "led-matrix",
+  "category": "devices",
+  "tags": ["led", "matrix", "display", "pixels", "grid"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"d p3\" x=\"14\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

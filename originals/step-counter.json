@@ -1,0 +1,11 @@
+{
+  "name": "step-counter",
+  "category": "sport",
+  "tags": ["steps", "step", "footprint", "walk", "count", "fitness"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"14.5\" rx=\"3.5\" ry=\"4.5\"/><circle class=\"f p2\" cx=\"5\" cy=\"6.5\" r=\"1\"/><circle class=\"f p2\" cx=\"9\" cy=\"6.5\" r=\"1\"/><circle class=\"f p2\" cx=\"13\" cy=\"6.5\" r=\"1\"/><path class=\"p3\" d=\"M18 12 H22 M20 10 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

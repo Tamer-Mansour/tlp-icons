@@ -1,0 +1,11 @@
+{
+  "name": "bike-helmet",
+  "category": "vehicles",
+  "tags": ["bike helmet", "cycling", "safety", "head protection", "vent", "cyclist"],
+  "svg": "<path class=\"d p1\" d=\"M3 16a9 9 0 0 1 18 0v1H3z\"/><path class=\"p2\" d=\"M8 11h8\"/><path class=\"p3\" d=\"M8 17c2 2 6 2 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

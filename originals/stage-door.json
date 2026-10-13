@@ -1,0 +1,10 @@
+{
+  "name": "stage-door",
+  "category": "buildings",
+  "tags": ["stage", "door", "arch", "curtain", "theatre", "backstage"],
+  "svg": "<path class=\"p1\" d=\"M7 21v-8a5 5 0 0 1 10 0v8\"/><path class=\"d p2\" d=\"M3 3h18v2.5q-3 2-6 0-3 2-6 0-3 2-6 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pufferfish",
+  "category": "nature",
+  "tags": ["sea", "round fish", "spiky", "ocean", "marine"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M5.2 12 L2.5 10.5 V13.5 Z M18.8 12 L21.5 10.5 V13.5 Z\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 900 }
+  ]
+}

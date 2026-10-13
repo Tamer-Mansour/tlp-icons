@@ -1,0 +1,10 @@
+{
+  "name": "theme-toggle",
+  "category": "interface",
+  "tags": ["theme", "toggle", "switch", "pill", "light", "dark"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"6\"/><circle class=\"d p2\" cx=\"8\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 600 }
+  ]
+}

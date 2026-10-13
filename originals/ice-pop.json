@@ -1,0 +1,11 @@
+{
+  "name": "ice-pop",
+  "category": "food",
+  "tags": ["ice pop", "popsicle", "frozen", "stick", "summer", "dessert"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"11\" rx=\"5\"/><path class=\"p2\" d=\"M12 16v5\"/><path class=\"p3\" d=\"M9.5 7q2.5 2 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 900, "origin": "top" }
+  ]
+}

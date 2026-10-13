@@ -1,0 +1,12 @@
+{
+  "name": "ostrich",
+  "category": "nature",
+  "tags": ["ostrich", "bird", "long neck", "plumes", "desert", "large"],
+  "svg": "<path class=\"d p1\" d=\"M6 15C6 12 9 11 12 11H15C18 11 19 13 18 16C17 19 14 20 11 20C8 20 6 18 6 15Z\"/><path class=\"p2\" d=\"M15 11C15 8 17 7 17 4.5\"/><circle class=\"p3\" cx=\"18\" cy=\"4\" r=\"1.5\"/><path class=\"p4\" d=\"M5 10L3 6M7 9L5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 1000, "origin": "6px 11px" }
+  ]
+}

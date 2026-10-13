@@ -1,0 +1,11 @@
+{
+  "name": "lettering-tool",
+  "category": "design",
+  "tags": ["lettering", "letter", "brush", "type", "calligraphy", "text", "script"],
+  "svg": "<path class=\"p1\" d=\"M4 19.5L9.5 5h5l5.5 14.5\"/><path class=\"p2\" d=\"M7.5 14h8\"/><path class=\"p3\" d=\"M3.5 22h17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

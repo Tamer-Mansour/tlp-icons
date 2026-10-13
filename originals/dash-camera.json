@@ -1,0 +1,11 @@
+{
+  "name": "dash-camera",
+  "category": "vehicles",
+  "tags": ["dash", "camera", "windshield", "recording", "mount", "car", "video"],
+  "svg": "<path class=\"p3\" d=\"M12 8V3M8 2.5h8\"/><rect class=\"d p1\" x=\"6.5\" y=\"8\" width=\"11\" height=\"7\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"11.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

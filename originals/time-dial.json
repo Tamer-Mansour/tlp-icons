@@ -1,0 +1,10 @@
+{
+  "name": "time-dial",
+  "category": "time",
+  "tags": ["time", "dial", "arc", "ticks", "scale", "clock"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 5.5v2M18.5 12h-2M12 18.5v-2M5.5 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 600 }
+  ]
+}

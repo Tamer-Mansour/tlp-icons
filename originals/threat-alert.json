@@ -1,0 +1,10 @@
+{
+  "name": "threat-alert",
+  "category": "security",
+  "tags": ["threat", "alert", "warning", "danger", "triangle", "hazard"],
+  "svg": "<polygon class=\"d p1\" points=\"12,6 21.5,20.5 2.5,20.5\"/><line class=\"p1\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"14.5\"/><circle class=\"f p1\" cx=\"12\" cy=\"17.5\" r=\"1\"/><path class=\"p2\" d=\"M5 3 L6.5 4.5 M19 3 L17.5 4.5 M12 1.5 V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 700 }
+  ]
+}

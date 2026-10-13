@@ -1,0 +1,12 @@
+{
+  "name": "push-up",
+  "category": "sport",
+  "tags": ["push", "up", "plank", "exercise", "workout", "fitness"],
+  "svg": "<path class=\"p4\" d=\"M2 19.5 H22\"/><circle class=\"p1\" cx=\"5\" cy=\"9\" r=\"2\"/><path class=\"p3\" d=\"M7 11 L5.5 19\"/><path class=\"p2\" d=\"M7 11 L19 13\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pump", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "microscope-digital",
+  "category": "devices",
+  "tags": ["microscope", "lab", "science", "digital", "screen", "imaging"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"4\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M13 9 Q18 9 18 14 V18 M4 21 H20\"/><path class=\"p3\" d=\"M7 14 H13\"/><rect class=\"d p4\" x=\"16\" y=\"3\" width=\"5\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1500 }
+  ]
+}

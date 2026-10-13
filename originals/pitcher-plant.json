@@ -1,0 +1,11 @@
+{
+  "name": "pitcher-plant",
+  "category": "nature",
+  "tags": ["pitcher", "plant", "carnivorous", "bog", "tube"],
+  "svg": "<path class=\"d p1\" d=\"M9 21V10Q9 6 12 6Q15 6 15 10V21Z\"/><path class=\"p2\" d=\"M8 6Q8 3 12 3Q15 3 16 5\"/><path class=\"p3\" d=\"M15 17Q20 15 21 9Q17 9 15 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "15px 17px" }
+  ]
+}

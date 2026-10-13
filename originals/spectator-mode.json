@@ -1,0 +1,11 @@
+{
+  "name": "spectator-mode",
+  "category": "sport",
+  "tags": ["spectator", "watch", "view", "eye", "screen", "viewer"],
+  "svg": "<path class=\"d p1\" d=\"M2 8 Q12 0 22 8 Q12 16 2 8 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><rect class=\"p3\" x=\"5\" y=\"15\" width=\"14\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 700, "delay": 1000 }
+  ]
+}

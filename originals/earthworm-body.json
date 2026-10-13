@@ -1,0 +1,10 @@
+{
+  "name": "earthworm-body",
+  "category": "science",
+  "tags": ["biology", "worm", "segment", "soil", "animal"],
+  "svg": "<path class=\"p1\" d=\"M3 15c3-5 6-5 9 0s6 5 9 0\"/><path class=\"p2\" d=\"M7 9.5v3M16.5 16.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 900, "origin": "12px 14px" }
+  ]
+}

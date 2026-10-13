@@ -1,0 +1,11 @@
+{
+  "name": "boolean-divide",
+  "category": "design",
+  "tags": ["boolean", "divide", "shapes", "split", "overlap", "pathfinder"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"6\"/><line class=\"p3\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "privilege-level",
+  "category": "security",
+  "tags": ["privilege", "level", "tier", "layers", "access"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"14\" width=\"4\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"9\" width=\"4\" height=\"12\" rx=\"1\"/><rect class=\"d p3\" x=\"16\" y=\"4\" width=\"4\" height=\"17\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

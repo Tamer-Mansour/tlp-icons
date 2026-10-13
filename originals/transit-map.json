@@ -1,0 +1,11 @@
+{
+  "name": "transit-map",
+  "category": "vehicles",
+  "tags": ["transit", "map", "route", "stops", "subway"],
+  "svg": "<path class=\"p1\" d=\"M4 18h6V8h10\"/><circle class=\"p2\" cx=\"4\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"20\" cy=\"8\" r=\"2\"/><circle class=\"f p3\" cx=\"10\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1200 }
+  ]
+}

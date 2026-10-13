@@ -1,0 +1,11 @@
+{
+  "name": "bee-hive",
+  "category": "nature",
+  "tags": ["bee", "hive", "honey", "apiary", "insect"],
+  "svg": "<path class=\"d p1\" d=\"M4 20V11a8 8 0 0 1 16 0v9z\"/><path class=\"p2\" d=\"M4 15h16\"/><path class=\"p3\" d=\"M1 7q1.5-2 3 0M20 7q1.5-2 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

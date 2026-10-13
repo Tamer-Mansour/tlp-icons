@@ -1,0 +1,10 @@
+{
+  "name": "call-history",
+  "category": "communication",
+  "tags": ["phone", "call", "history", "recent", "log", "handset"],
+  "svg": "<path class=\"p1\" d=\"M9 8.5h2l1 2.5-1.5 1.5c.5 1.2 1.5 2.2 2.7 2.7l1.5-1.5 2.5 1v2c0 .6-.5 1-1 1C12 17.5 6.5 12 6.5 9.5c0-.6.4-1 1-1z\"/><path class=\"p2\" d=\"M20.5 12a8.5 8.5 0 1 1-2.5-6\"/><path class=\"p2\" d=\"M18 3v3.5h-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 1000, "delay": 900 }
+  ]
+}

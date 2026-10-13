@@ -1,0 +1,11 @@
+{
+  "name": "quantity-select",
+  "category": "interface",
+  "tags": ["quantity", "select", "stepper", "plus", "minus", "amount"],
+  "svg": "<path class=\"p1\" d=\"M4 12h4\"/><path class=\"p2\" d=\"M11 9.5l1-1v7\"/><path class=\"p3\" d=\"M16 12h4M18 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900, "origin": "18px 12px" }
+  ]
+}

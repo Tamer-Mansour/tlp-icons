@@ -1,0 +1,11 @@
+{
+  "name": "lighting-truss",
+  "category": "media",
+  "tags": ["lighting", "truss", "lamps", "stage", "concert"],
+  "svg": "<path class=\"p1\" d=\"M2 4h20\"/><path class=\"p2\" d=\"M6 4v3M12 4v3M18 4v3\"/><path class=\"d p3\" d=\"M4 11h4v3H4zM10 11h4v3h-4zM16 11h4v3h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 4px" }
+  ]
+}

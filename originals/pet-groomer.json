@@ -1,0 +1,11 @@
+{
+  "name": "pet-groomer",
+  "category": "buildings",
+  "tags": ["pet", "groomer", "paw", "scissors", "dog", "grooming", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"16\" rx=\"4.5\" ry=\"3.8\"/><circle class=\"f p2\" cx=\"4\" cy=\"11\" r=\"1.4\"/><circle class=\"f p2\" cx=\"7\" cy=\"7\" r=\"1.4\"/><circle class=\"f p2\" cx=\"11\" cy=\"7\" r=\"1.4\"/><circle class=\"f p2\" cx=\"14\" cy=\"11\" r=\"1.4\"/><path class=\"p3\" d=\"M16 13l5 5M21 13l-5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

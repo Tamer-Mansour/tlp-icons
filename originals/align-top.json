@@ -1,0 +1,11 @@
+{
+  "name": "align-top",
+  "category": "interface",
+  "tags": ["align", "top", "layout", "edge", "arrange"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"2.5\" x2=\"21\" y2=\"2.5\"/><rect class=\"d p2\" x=\"6\" y=\"6\" width=\"4\" height=\"12\" rx=\"1\"/><rect class=\"d p3\" x=\"14\" y=\"6\" width=\"4\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 600 }
+  ]
+}

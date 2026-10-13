@@ -1,0 +1,10 @@
+{
+  "name": "image-zoom",
+  "category": "interface",
+  "tags": ["photo", "picture", "zoom", "magnify", "preview", "image"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"11\" height=\"11\" rx=\"2\"/><path class=\"p1\" d=\"M3 11L6 8L9 10.5L11 9\"/><circle class=\"d p2\" cx=\"18\" cy=\"18\" r=\"3\"/><path class=\"p2\" d=\"M20.2 20.2L21.5 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "magnify", "dur": 700, "delay": 800 }
+  ]
+}

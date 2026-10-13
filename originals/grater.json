@@ -1,0 +1,11 @@
+{
+  "name": "grater",
+  "category": "food",
+  "tags": ["grater", "cheese", "grate", "box", "food"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"12\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M8 9 H14 M8 12 H14 M8 15 H14 M8 18 H14\"/><path class=\"p3\" d=\"M9 5 V3 H15 V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

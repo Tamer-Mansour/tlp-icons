@@ -1,0 +1,11 @@
+{
+  "name": "drag-arrows",
+  "category": "arrows",
+  "tags": ["drag", "move", "reposition", "arrows", "drop", "handle"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M12 2.5V6M10 4.5l2-2 2 2M12 18v3.5M10 19.5l2 2 2-2\"/><path class=\"p3\" d=\"M2.5 12H6M4.5 10l-2 2 2 2M18 12h3.5M19.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

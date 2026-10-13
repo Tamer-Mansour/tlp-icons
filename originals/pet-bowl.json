@@ -1,0 +1,10 @@
+{
+  "name": "pet-bowl",
+  "category": "home",
+  "tags": ["pet", "bowl", "dog", "food", "bone"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18a9 7 0 0 1-18 0z\"/><g class=\"p2\"><line x1=\"9\" y1=\"14\" x2=\"15\" y2=\"14\"/><circle cx=\"8.5\" cy=\"12.5\" r=\"1.25\"/><circle cx=\"8.5\" cy=\"15.5\" r=\"1.25\"/><circle cx=\"15.5\" cy=\"12.5\" r=\"1.25\"/><circle cx=\"15.5\" cy=\"15.5\" r=\"1.25\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

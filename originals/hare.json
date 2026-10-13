@@ -1,0 +1,11 @@
+{
+  "name": "hare",
+  "category": "nature",
+  "tags": ["hare", "rabbit", "ears", "running", "jump", "field"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15\" rx=\"7\" ry=\"4\"/><path class=\"p2\" d=\"M14 11C13 6 14 2 16 2s2 4 1 9M10 11C9 7 9 3 11 3s2 4 1 8\"/><path class=\"p3\" d=\"M5 19l-2 2M19 19l2 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1000 }
+  ]
+}

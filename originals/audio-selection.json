@@ -1,0 +1,10 @@
+{
+  "name": "audio-selection",
+  "category": "media",
+  "tags": ["selection", "waveform", "select", "audio", "crop", "region"],
+  "svg": "<path class=\"p1\" d=\"M3 12h3l2-6 2 12 2-9 2 6 2-3h4\"/><path class=\"p2\" d=\"M8 7V4h3M14 4h3v3M17 17v3h-3M11 20H8v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "focusIn", "dur": 500, "delay": 800 }
+  ]
+}

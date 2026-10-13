@@ -1,0 +1,10 @@
+{
+  "name": "square-pyramid",
+  "category": "math",
+  "tags": ["pyramid", "square", "base", "apex", "solid", "3d"],
+  "svg": "<polygon class=\"d p1\" points=\"4,15 12,19 20,15 12,11\"/><path class=\"p2\" d=\"M12 3L4 15M12 3L20 15M12 3L12 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

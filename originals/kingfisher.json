@@ -1,0 +1,12 @@
+{
+  "name": "kingfisher",
+  "category": "nature",
+  "tags": ["kingfisher", "bird", "long beak", "crest", "fishing", "diving"],
+  "svg": "<ellipse class=\"d p1\" cx=\"13\" cy=\"14\" rx=\"5\" ry=\"3.5\"/><circle class=\"p2\" cx=\"7\" cy=\"8\" r=\"2.5\"/><path class=\"p3\" d=\"M4.5 7.5L1 8.5\"/><path class=\"p4\" d=\"M13 12C15 9 18 9 20 11M18 14L21 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

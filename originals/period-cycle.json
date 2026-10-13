@@ -1,0 +1,10 @@
+{
+  "name": "period-cycle",
+  "category": "math",
+  "tags": ["period", "cycle", "wave", "bracket", "repeat", "math"],
+  "svg": "<path class=\"p1\" d=\"M2 12Q6 4 10 12T18 12\"/><path class=\"p2\" d=\"M2 19V21H18V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "wheel-bearing",
+  "category": "vehicles",
+  "tags": ["wheel", "bearing", "hub", "ball", "axle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/><circle class=\"f p3\" cx=\"6\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "orbit", "dur": 1000, "delay": 800, "origin": "12px 12px" }
+  ]
+}

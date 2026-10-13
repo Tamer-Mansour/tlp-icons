@@ -1,0 +1,10 @@
+{
+  "name": "chat-pair",
+  "category": "communication",
+  "tags": ["chat", "conversation", "bubbles", "messages", "talk", "dialog"],
+  "svg": "<path class=\"d p1\" d=\"M2 3h10v8H6l-4 3v-3H2z\"/><path class=\"p2\" d=\"M14 11h7v7h-2v3l-3-3h-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

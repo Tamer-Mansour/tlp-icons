@@ -1,0 +1,11 @@
+{
+  "name": "virtual-desktop",
+  "category": "layout",
+  "tags": ["virtual", "desktop", "two", "switch", "spaces"],
+  "svg": "<rect class=\"p1\" x=\"12\" y=\"2\" width=\"10\" height=\"8\" rx=\"1.5\"/><rect class=\"d p2\" x=\"2\" y=\"12\" width=\"10\" height=\"8\" rx=\"1.5\"/><path class=\"p3\" d=\"M14 15h2M18 15h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

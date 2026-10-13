@@ -1,0 +1,11 @@
+{
+  "name": "layer-flatten",
+  "category": "design",
+  "tags": ["layer", "flatten", "merge", "sheet", "stack"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"9\" width=\"16\" height=\"3\" rx=\"1\"/><rect class=\"d p3\" x=\"4\" y=\"14\" width=\"16\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

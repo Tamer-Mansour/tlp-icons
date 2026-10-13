@@ -1,0 +1,10 @@
+{
+  "name": "prime-sieve",
+  "category": "math",
+  "tags": ["prime", "sieve", "numbers", "grid", "cross", "math"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p1\" d=\"M12 4V20M4 12H20\"/><path class=\"p2\" d=\"M7 17L17 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

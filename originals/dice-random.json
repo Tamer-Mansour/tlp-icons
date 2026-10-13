@@ -1,0 +1,11 @@
+{
+  "name": "dice-random",
+  "category": "security",
+  "tags": ["dice", "random", "roll", "chance", "cube"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"12\" rx=\"2\"/><circle class=\"f p2\" cx=\"6\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"9\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/><path class=\"p3\" d=\"M18 14.5l3 2.5-3 2.5M16 17h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

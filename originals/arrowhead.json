@@ -1,0 +1,10 @@
+{
+  "name": "arrowhead",
+  "category": "shapes",
+  "tags": ["arrowhead", "chevron", "pointer", "direction", "sharp", "arrow"],
+  "svg": "<polyline class=\"p1\" points=\"7,5 18,12 7,19\"/><line class=\"p2\" x1=\"4\" y1=\"12\" x2=\"18\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

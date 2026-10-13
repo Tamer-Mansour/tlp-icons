@@ -1,0 +1,12 @@
+{
+  "name": "fish-bowl",
+  "category": "nature",
+  "tags": ["fish bowl", "aquarium", "fish", "water", "pet", "glass"],
+  "svg": "<path class=\"d p1\" d=\"M4 9H20C20 16 16 20 12 20C8 20 4 16 4 9Z\"/><path class=\"p2\" d=\"M3 9H21\"/><ellipse class=\"p3\" cx=\"10\" cy=\"12.5\" rx=\"3\" ry=\"1.8\"/><path class=\"p3\" d=\"M13 12.5L15.5 10.5V14.5Z\"/><path class=\"p4\" d=\"M7 17.5Q9 16 11 17.5T15 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 },
+    { "part": "p4", "anim": "sway", "dur": 800, "delay": 1300 }
+  ]
+}

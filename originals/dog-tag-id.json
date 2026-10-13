@@ -1,0 +1,10 @@
+{
+  "name": "dog-tag-id",
+  "category": "people",
+  "tags": ["dog", "tag", "identity", "id", "military", "chain"],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"4\" r=\"2\"/><rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"13\" rx=\"3\"/><path class=\"p1\" d=\"M10 13 H14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ruler-guide-line",
+  "category": "design",
+  "tags": ["ruler", "guide", "line", "measure", "align"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"4\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M2 8H4M2 12H4M2 16H4\"/><path class=\"p3\" d=\"M9 12H11M13 12H15M17 12H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

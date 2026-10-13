@@ -1,0 +1,10 @@
+{
+  "name": "bike-chain",
+  "category": "vehicles",
+  "tags": ["bike chain", "gears", "drivetrain", "bicycle", "cycling", "sprocket"],
+  "svg": "<path class=\"p2\" d=\"M6 8.5h12M6 15.5h12\"/><circle class=\"p1\" cx=\"6\" cy=\"12\" r=\"3.5\"/><circle class=\"p1\" cx=\"18\" cy=\"12\" r=\"3.5\"/><circle class=\"f p1\" cx=\"6\" cy=\"12\" r=\"1\"/><circle class=\"f p1\" cx=\"18\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1000, "delay": 600 }
+  ]
+}

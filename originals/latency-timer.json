@@ -1,0 +1,11 @@
+{
+  "name": "latency-timer",
+  "category": "connectivity",
+  "tags": ["latency", "timer", "stopwatch", "delay", "ping", "response", "time"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 2h4M12 2v3\"/><path class=\"p3\" d=\"M12 13V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 13px" }
+  ]
+}

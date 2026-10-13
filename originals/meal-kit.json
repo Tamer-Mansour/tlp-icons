@@ -1,0 +1,12 @@
+{
+  "name": "meal-kit",
+  "category": "food",
+  "tags": ["meal", "kit", "box", "recipe", "delivery", "ingredients"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h18v3H3z\"/><path class=\"p2\" d=\"M5 11v9.5h14V11\"/><path class=\"p3\" d=\"M8 8V4.5M8 6q-2.5 0-3-2.5q2.5 0 3 2.5zM8 5q2.5 0 3-2.5q-2.5 0-3 2.5z\"/><rect class=\"p4\" x=\"13.5\" y=\"2.5\" width=\"4.5\" height=\"5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "tilt", "dur": 700, "delay": 1400, "origin": "bottom" }
+  ]
+}

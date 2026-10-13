@@ -1,0 +1,11 @@
+{
+  "name": "laundry-room",
+  "category": "buildings",
+  "tags": ["laundry room", "washer", "washing machine", "laundry", "clothes", "washing"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"5\"/><path class=\"p3\" d=\"M7 6h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1100 }
+  ]
+}

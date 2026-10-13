@@ -1,0 +1,11 @@
+{
+  "name": "title-page",
+  "category": "text",
+  "tags": ["title", "page", "cover", "heading", "document"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"6\" width=\"10\" height=\"4\"/><path class=\"p3\" d=\"M7 14H17M7 17.5H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

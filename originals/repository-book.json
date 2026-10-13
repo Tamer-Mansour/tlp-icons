@@ -1,0 +1,11 @@
+{
+  "name": "repository-book",
+  "category": "development",
+  "tags": ["repository", "book", "bookmark", "docs", "library"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"9\" y1=\"3\" x2=\"9\" y2=\"21\"/><polyline class=\"p3\" points=\"13 3 13 9 15 7.5 17 9 17 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000, "origin": "top" }
+  ]
+}

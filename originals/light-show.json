@@ -1,0 +1,10 @@
+{
+  "name": "light-show",
+  "category": "media",
+  "tags": ["light", "show", "stage", "rays", "sparkle", "lights"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2.5\" x2=\"12\" y2=\"5.5\"/><line class=\"p1\" x1=\"4.5\" y1=\"5\" x2=\"6.5\" y2=\"7\"/><line class=\"p1\" x1=\"19.5\" y1=\"5\" x2=\"17.5\" y2=\"7\"/><circle class=\"f p2\" cx=\"7\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"18\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 600 }
+  ]
+}

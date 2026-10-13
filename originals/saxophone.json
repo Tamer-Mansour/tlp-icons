@@ -1,0 +1,11 @@
+{
+  "name": "saxophone",
+  "category": "media",
+  "tags": ["saxophone", "sax", "woodwind", "jazz", "instrument", "music"],
+  "svg": "<path class=\"p1\" d=\"M9 3v12.5a3.5 3.5 0 0 0 7 0V13\"/><path class=\"p2\" d=\"M5.5 3H9\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "tap", "dur": 400, "delay": 1100 }
+  ]
+}

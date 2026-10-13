@@ -1,0 +1,11 @@
+{
+  "name": "boiled-egg",
+  "category": "food",
+  "tags": ["egg", "boiled", "breakfast", "yolk", "soft boiled", "protein"],
+  "svg": "<path class=\"d p1\" d=\"M12 3c4 0 6.5 7 6.5 11a6.5 6.5 0 0 1-13 0C5.5 10 8 3 12 3z\"/><path class=\"p2\" d=\"M6 9.5h12\"/><circle class=\"p3\" cx=\"12\" cy=\"14\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

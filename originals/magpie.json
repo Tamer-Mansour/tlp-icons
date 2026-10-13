@@ -1,0 +1,12 @@
+{
+  "name": "magpie",
+  "category": "nature",
+  "tags": ["magpie", "bird", "tail", "crow", "corvid", "black"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M7 14L3 20\"/><circle class=\"d p3\" cx=\"18\" cy=\"9\" r=\"2.5\"/><path class=\"p4\" d=\"M20 9l2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

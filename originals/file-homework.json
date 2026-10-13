@@ -1,0 +1,11 @@
+{
+  "name": "file-homework",
+  "category": "files",
+  "tags": ["homework", "pencil", "study", "assignment", "write"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"d p2\" d=\"M10 18.5l.7-3.2 4.8-4.8 2.5 2.5-4.8 4.8z\"/><path class=\"p3\" d=\"M7 17h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

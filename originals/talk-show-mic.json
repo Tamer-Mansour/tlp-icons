@@ -1,0 +1,11 @@
+{
+  "name": "talk-show-mic",
+  "category": "communication",
+  "tags": ["microphone", "talk", "show", "interview", "speech", "broadcast"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M5 11a7 7 0 0 0 14 0M12 18v3\"/><rect class=\"p3\" x=\"16\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

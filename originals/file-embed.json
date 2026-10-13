@@ -1,0 +1,11 @@
+{
+  "name": "file-embed",
+  "category": "files",
+  "tags": ["embed","code","markup","snippet","insert"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M10 10.5l-2 2 2 2M14 10.5l2 2-2 2\"/><path class=\"p3\" d=\"M9.5 17.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "latte",
+  "category": "food",
+  "tags": ["latte", "coffee", "heart", "cup", "cafe"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 H16 V15 Q16 19 12 19 H8 Q4 19 4 15 Z\"/><path class=\"p2\" d=\"M16 12 H18 Q20 12 20 14 Q20 16 18 16 H16\"/><path class=\"p4\" d=\"M2 21 H20\"/><path class=\"p3\" d=\"M12 16 L10.5 14.5 C10 14 10.2 13 11 13 C11.5 13 11.8 13.3 12 13.6 C12.2 13.3 12.5 13 13 13 C13.8 13 14 14 13.5 14.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "beat", "dur": 800, "delay": 1000 }
+  ]
+}

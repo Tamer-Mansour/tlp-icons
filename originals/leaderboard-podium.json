@@ -1,0 +1,11 @@
+{
+  "name": "leaderboard-podium",
+  "category": "charts",
+  "tags": ["podium", "leaderboard", "ranking", "winners", "first place", "rank"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"5\" height=\"10\"/><rect class=\"d p2\" x=\"9\" y=\"4\" width=\"6\" height=\"17\"/><rect class=\"d p3\" x=\"17\" y=\"14\" width=\"5\" height=\"7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

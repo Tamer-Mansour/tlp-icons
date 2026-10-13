@@ -1,0 +1,10 @@
+{
+  "name": "projectile-arc",
+  "category": "science",
+  "tags": ["projectile", "arc", "trajectory", "physics", "launch"],
+  "svg": "<circle class=\"f p1\" cx=\"3\" cy=\"19\" r=\"1\"/><circle class=\"f p1\" cx=\"7.5\" cy=\"10.5\" r=\"1\"/><circle class=\"f p1\" cx=\"12\" cy=\"7\" r=\"1\"/><circle class=\"f p1\" cx=\"15\" cy=\"9.5\" r=\"1\"/><path class=\"p2\" d=\"M17.5 11l3 3M20.5 10.5v3.5h-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 800, "delay": 800 }
+  ]
+}

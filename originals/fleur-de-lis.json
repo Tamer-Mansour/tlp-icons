@@ -1,0 +1,11 @@
+{
+  "name": "fleur-de-lis",
+  "category": "emoji",
+  "tags": ["fleur", "lily", "heraldry", "symbol", "royal"],
+  "svg": "<path class=\"p1\" d=\"M12 3.5c1.8 2.2 2.5 4 2.5 6 0 1.6-1.1 2.8-2.5 3.5-1.4-.7-2.5-1.9-2.5-3.5 0-2 .7-3.8 2.5-6z\"/><path class=\"p2\" d=\"M9 10c-2.5 0-4 2-3.5 4 .5 1.5 2 2 3.5 1M15 10c2.5 0 4 2 3.5 4-.5 1.5-2 2-3.5 1\"/><path class=\"p3\" d=\"M8 18.5h8M12 14.5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

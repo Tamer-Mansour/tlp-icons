@@ -1,0 +1,10 @@
+{
+  "name": "congruent-shapes",
+  "category": "math",
+  "tags": ["congruent", "shapes", "triangles", "identical", "geometry"],
+  "svg": "<path class=\"d p1\" d=\"M3 19 L7 7 L11 19 Z\"/><path class=\"p2\" d=\"M13 19 L17 7 L21 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

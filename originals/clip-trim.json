@@ -1,0 +1,11 @@
+{
+  "name": "clip-trim",
+  "category": "media",
+  "tags": ["trim", "clip", "cut", "edit", "bracket"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M3 8v8\"/><path class=\"p3\" d=\"M21 8v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

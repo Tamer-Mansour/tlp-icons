@@ -1,0 +1,11 @@
+{
+  "name": "transpose-letters",
+  "category": "text",
+  "tags": ["transpose", "letters", "swap", "arrow", "reorder"],
+  "svg": "<path class=\"p1\" d=\"M2 19L5 9L8 19M3.3 15.5H6.7\"/><path class=\"p2\" d=\"M14 9V19H16.5A2.5 2.5 0 0 0 16.5 14H14M14 14H16A2.5 2.5 0 0 0 16 9H14\"/><path class=\"p3\" d=\"M5 6Q10 2 15 6M12.5 4.5L15 6L13.8 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

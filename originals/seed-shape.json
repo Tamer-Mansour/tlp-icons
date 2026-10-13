@@ -1,0 +1,10 @@
+{
+  "name": "seed-shape",
+  "category": "shapes",
+  "tags": ["seed", "sprout", "plant", "grain", "pointed"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 C17 7 18 13 12 21 C6 13 7 7 12 3 Z\"/><path class=\"p2\" d=\"M12 8 V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

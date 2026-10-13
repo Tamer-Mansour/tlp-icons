@@ -1,0 +1,11 @@
+{
+  "name": "bell-snooze",
+  "category": "interface",
+  "tags": ["bell", "snooze", "sleep", "mute", "notification", "later"],
+  "svg": "<path class=\"d p1\" d=\"M6 15v-4a6 6 0 0 1 12 0v4l2 2.5H4z\"/><path class=\"p2\" d=\"M10 21h4\"/><path class=\"p3\" d=\"M16 1.5h3.5L16 4.5h3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 900 }
+  ]
+}

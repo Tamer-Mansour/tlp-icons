@@ -1,0 +1,11 @@
+{
+  "name": "now-playing",
+  "category": "media",
+  "tags": ["now", "playing", "music", "disc", "playback", "live"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6.5\"/><polygon class=\"p2\" points=\"7 9 11.5 12 7 15\"/><path class=\"p3\" d=\"M18.5 8.5a3.5 3.5 0 0 1 0 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

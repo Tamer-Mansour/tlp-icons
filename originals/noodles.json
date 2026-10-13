@@ -1,0 +1,12 @@
+{
+  "name": "noodles",
+  "category": "food",
+  "tags": ["noodles", "pasta", "bowl", "strands", "meal"],
+  "svg": "<path class=\"d p1\" d=\"M4 13 H20 Q20 20 12 20 Q4 20 4 13 Z\"/><path class=\"p2\" d=\"M7 13 Q6 8 9 7 Q11 6 10 4\"/><path class=\"p3\" d=\"M12 13 Q11 7 14 6 Q16 5 15 3\"/><path class=\"p4\" d=\"M16.5 13 Q17.5 9 19.5 8 Q21 7 20 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "wiggle", "dur": 800, "delay": 1000 }
+  ]
+}

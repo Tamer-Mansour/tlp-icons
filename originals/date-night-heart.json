@@ -1,0 +1,11 @@
+{
+  "name": "date-night-heart",
+  "category": "people",
+  "tags": ["date", "night", "heart", "couple", "romance", "evening"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"13\" r=\"4\"/><circle class=\"p2\" cx=\"15\" cy=\"13\" r=\"4\"/><path class=\"p3\" d=\"M12 6.2l-1.6-1.5a1 1 0 0 1 1.6-1.2 1 1 0 0 1 1.6 1.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "beat", "dur": 600, "delay": 1000 }
+  ]
+}

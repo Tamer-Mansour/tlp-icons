@@ -1,0 +1,10 @@
+{
+  "name": "music-note",
+  "category": "media",
+  "tags": ["music", "note", "eighth", "song", "melody", "sound"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"17.5\" rx=\"3\" ry=\"2.5\"/><path class=\"p2\" d=\"M10.5 17.5V4C13.5 6 16.5 8 16 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

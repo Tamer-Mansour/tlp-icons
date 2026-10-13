@@ -1,0 +1,11 @@
+{
+  "name": "pendulum-swing",
+  "category": "science",
+  "tags": ["physics", "pendulum", "swing", "motion", "oscillation", "bob"],
+  "svg": "<path class=\"p1\" d=\"M4 3.5h16M8 21h8\"/><path class=\"p2\" d=\"M12 3.5L15.7 14.6\"/><circle class=\"d p3\" cx=\"16\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pendulum", "dur": 900, "delay": 600, "origin": "12px 3.5px" }
+  ]
+}

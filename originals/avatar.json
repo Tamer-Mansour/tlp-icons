@@ -1,0 +1,11 @@
+{
+  "name": "avatar",
+  "category": "interface",
+  "tags": ["avatar", "user", "profile", "person", "account", "head"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"2.8\"/><path class=\"p3\" d=\"M6.5 19c1-3 3-4.5 5.5-4.5s4.5 1.5 5.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 900 }
+  ]
+}

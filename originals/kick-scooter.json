@@ -1,0 +1,11 @@
+{
+  "name": "kick-scooter",
+  "category": "vehicles",
+  "tags": ["kick scooter", "scooter", "deck", "handlebar", "ride", "urban"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"18.5\" r=\"2.5\"/><circle class=\"p1\" cx=\"19\" cy=\"18.5\" r=\"2.5\"/><circle class=\"f p1\" cx=\"5\" cy=\"17\" r=\"1\"/><circle class=\"f p1\" cx=\"19\" cy=\"17\" r=\"1\"/><path class=\"p2\" d=\"M4 13h13\"/><path class=\"p3\" d=\"M16 13V5M13.5 4.5h5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p1", "anim": "roll", "dur": 1000, "delay": 800 }
+  ]
+}

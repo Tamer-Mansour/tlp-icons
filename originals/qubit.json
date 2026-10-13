@@ -1,0 +1,11 @@
+{
+  "name": "qubit",
+  "category": "science",
+  "tags": ["qubit", "quantum", "sphere", "bloch", "computing"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"3.5\"/><path class=\"p2\" d=\"M12 12L17.5 6.5M13 6.5h4.5v4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1200 }
+  ]
+}

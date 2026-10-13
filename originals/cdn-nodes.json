@@ -1,0 +1,11 @@
+{
+  "name": "cdn-nodes",
+  "category": "connectivity",
+  "tags": ["cdn", "nodes", "delivery", "edge", "network"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M6 6L10 10M18 6L14 10M6 18L10 14M18 18L14 14\"/><circle class=\"f p3\" cx=\"6\" cy=\"6\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18\" cy=\"6\" r=\"1.2\"/><circle class=\"f p3\" cx=\"6\" cy=\"18\" r=\"1.2\"/><circle class=\"f p3\" cx=\"18\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

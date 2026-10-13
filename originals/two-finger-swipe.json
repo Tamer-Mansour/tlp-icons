@@ -1,0 +1,11 @@
+{
+  "name": "two-finger-swipe",
+  "category": "arrows",
+  "tags": ["swipe", "two", "finger", "touch", "gesture", "scroll"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"4\" height=\"10\" rx=\"2\"/><rect class=\"d p2\" x=\"11\" y=\"4\" width=\"4\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M4 19h16M17 16l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

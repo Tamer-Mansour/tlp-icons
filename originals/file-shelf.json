@@ -1,0 +1,10 @@
+{
+  "name": "file-shelf",
+  "category": "files",
+  "tags": ["files", "shelf", "spines", "documents", "library"],
+  "svg": "<path class=\"p1\" d=\"M7 6v10M11 8v8M15 5v11\"/><path class=\"p2\" d=\"M3 20h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0, "origin": "12px 20px" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

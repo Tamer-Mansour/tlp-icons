@@ -1,0 +1,11 @@
+{
+  "name": "paper-cutter",
+  "category": "files",
+  "tags": ["paper cutter", "guillotine", "blade", "sheets", "trim"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"5\" x2=\"21\" y2=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"11\"/><rect class=\"p3\" x=\"4\" y=\"14\" width=\"16\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "strike", "dur": 500, "delay": 1200 }
+  ]
+}

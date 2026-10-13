@@ -1,0 +1,11 @@
+{
+  "name": "ribbon-award",
+  "category": "sport",
+  "tags": ["award", "ribbon", "rosette", "prize", "medal"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M9 14 L7 21 L12 19 L17 21 L15 14\"/><circle class=\"p3\" cx=\"12\" cy=\"9\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

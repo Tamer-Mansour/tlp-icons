@@ -1,0 +1,11 @@
+{
+  "name": "caulk-gun",
+  "category": "home",
+  "tags": ["caulk gun", "sealant", "tube", "trigger", "repair"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"11\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M14 9h4l2 4-3 4h-2\"/><path class=\"p3\" d=\"M16 13l-1 4h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "build-tools",
+  "category": "development",
+  "tags": ["build", "tools", "hammer", "wrench", "construct"],
+  "svg": "<path class=\"p1\" d=\"M4 20l8-8\"/><path class=\"p2\" d=\"M20 4l-8 8\"/><polygon class=\"d p3\" points=\"11,10 14,7 19,12 16,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "strike", "dur": 600, "delay": 900, "origin": "20px 4px" }
+  ]
+}

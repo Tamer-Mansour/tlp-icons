@@ -1,0 +1,11 @@
+{
+  "name": "uplink-arrow",
+  "category": "connectivity",
+  "tags": ["uplink", "upload", "arrow", "antenna", "send", "transmit", "signal"],
+  "svg": "<path class=\"p1\" d=\"M12 3v7M9 6l3-3 3 3\"/><path class=\"d p2\" d=\"M7 14h10c0 3-2.5 5-5 5s-5-2-5-5z\"/><path class=\"p3\" d=\"M12 19v3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p1", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

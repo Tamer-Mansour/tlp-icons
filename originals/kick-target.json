@@ -1,0 +1,11 @@
+{
+  "name": "kick-target",
+  "category": "sport",
+  "tags": ["kick", "target", "pad", "martial", "arts"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"11\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"11\" r=\"3\"/><path class=\"p3\" d=\"M14 15L20 21M15 21H20V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

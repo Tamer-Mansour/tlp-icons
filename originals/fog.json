@@ -1,0 +1,11 @@
+{
+  "name": "fog",
+  "category": "nature",
+  "tags": ["fog", "mist", "haze", "cloudy", "weather"],
+  "svg": "<path class=\"p1\" d=\"M5 9h14\"/><path class=\"p2\" d=\"M3 13h18\"/><path class=\"p3\" d=\"M5 17h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ant-trail",
+  "category": "science",
+  "tags": ["biology", "ant", "insect", "trail", "colony"],
+  "svg": "<circle class=\"p1\" cx=\"19.5\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"14\" cy=\"12\" r=\"2\"/><circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"2.5\"/><circle class=\"f p2\" cx=\"3\" cy=\"17\" r=\"1\"/><circle class=\"f p2\" cx=\"5\" cy=\"19\" r=\"1\"/><circle class=\"f p2\" cx=\"8\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "portrait-video",
+  "category": "media",
+  "tags": ["video", "portrait", "vertical", "play", "clip", "reel"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2\"/><polygon class=\"p2\" points=\"10,8.5 15,12 10,15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 500 }
+  ]
+}

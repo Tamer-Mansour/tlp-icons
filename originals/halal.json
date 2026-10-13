@@ -1,0 +1,11 @@
+{
+  "name": "halal",
+  "category": "food",
+  "tags": ["halal", "crescent", "moon", "star", "badge", "islamic"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"d p2\" d=\"M11 7a5 5 0 1 0 0 10a6.25 6.25 0 0 1 0-10z\"/><polygon class=\"p3\" points=\"15.5,9.3 16,10.8 17.6,10.8 16.4,11.8 16.8,13.3 15.5,12.4 14.2,13.3 14.6,11.8 13.4,10.8 15,10.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

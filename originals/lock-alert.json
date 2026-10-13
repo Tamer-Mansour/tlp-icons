@@ -1,0 +1,10 @@
+{
+  "name": "lock-alert",
+  "category": "notifications",
+  "tags": ["lock", "alert", "security", "secure", "warning"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"11\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p1\" d=\"M8 11V7a4 4 0 0 1 8 0v4\"/><line class=\"p2\" x1=\"12\" y1=\"14.5\" x2=\"12\" y2=\"17\"/><circle class=\"f p2\" cx=\"12\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

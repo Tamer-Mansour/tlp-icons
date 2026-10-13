@@ -1,0 +1,10 @@
+{
+  "name": "cattle-grid",
+  "category": "vehicles",
+  "tags": ["cattle", "grid", "road", "farm", "bars", "crossing"],
+  "svg": "<path class=\"p1\" d=\"M3 18h18\"/><path class=\"p2\" d=\"M3 10h18M6 10v6M10 10v6M14 10v6M18 10v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400 }
+  ]
+}

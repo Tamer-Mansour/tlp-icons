@@ -1,0 +1,11 @@
+{
+  "name": "sonar-scan",
+  "category": "science",
+  "tags": ["sonar", "scan", "sweep", "sound", "ping"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"20\" r=\"1.2\"/><path class=\"p2\" d=\"M7.76 15.76A6 6 0 0 1 16.24 15.76\"/><path class=\"p3\" d=\"M4.93 12.93A10 10 0 0 1 19.07 12.93\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

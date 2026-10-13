@@ -1,0 +1,11 @@
+{
+  "name": "immigration-desk",
+  "category": "buildings",
+  "tags": ["immigration", "desk", "counter", "passport", "stamp", "border"],
+  "svg": "<path class=\"p1\" d=\"M2 14h20v7H2z\"/><rect class=\"p2\" x=\"6\" y=\"8\" width=\"7\" height=\"6\" rx=\"1\"/><circle class=\"p3\" cx=\"17\" cy=\"11\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1100 }
+  ]
+}

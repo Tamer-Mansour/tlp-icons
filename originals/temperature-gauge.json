@@ -1,0 +1,11 @@
+{
+  "name": "temperature-gauge",
+  "category": "vehicles",
+  "tags": ["temperature", "gauge", "thermometer", "engine", "heat"],
+  "svg": "<path class=\"p1\" d=\"M9 4v10.5a3.5 3.5 0 1 0 4 0V4a2 2 0 0 0-4 0z\"/><path class=\"p3\" d=\"M11 14V8\"/><path class=\"p2\" d=\"M16 8q1-2 2 0t2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

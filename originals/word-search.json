@@ -1,0 +1,11 @@
+{
+  "name": "word-search",
+  "category": "sport",
+  "tags": ["word", "search", "puzzle", "grid", "letters", "find"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 3V21M15 3V21M3 9H21M3 15H21\"/><path class=\"p3\" d=\"M4 20L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

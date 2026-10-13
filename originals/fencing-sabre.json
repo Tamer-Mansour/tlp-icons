@@ -1,0 +1,11 @@
+{
+  "name": "fencing-sabre",
+  "category": "sport",
+  "tags": ["fencing", "sabre", "sword", "blade", "sport"],
+  "svg": "<path class=\"p1\" d=\"M7 17Q13 15 21 3\"/><path class=\"p2\" d=\"M5 15l4 4\"/><path class=\"p3\" d=\"M7 17l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

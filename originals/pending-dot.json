@@ -1,0 +1,11 @@
+{
+  "name": "pending-dot",
+  "category": "notifications",
+  "tags": ["pending", "clock", "waiting", "dot", "status"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12 V7\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 200 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 500, "origin": "12px 12px" }
+  ]
+}

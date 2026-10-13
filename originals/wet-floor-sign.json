@@ -1,0 +1,10 @@
+{
+  "name": "wet-floor-sign",
+  "category": "home",
+  "tags": ["wet", "floor", "sign", "caution", "warning", "spill"],
+  "svg": "<path class=\"d p1\" d=\"M4 20 L12 5 L20 20 Z\"/><path class=\"p2\" d=\"M8.5 15 Q10.25 13.5 12 15 T15.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 900 }
+  ]
+}

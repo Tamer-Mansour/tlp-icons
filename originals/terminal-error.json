@@ -1,0 +1,11 @@
+{
+  "name": "terminal-error",
+  "category": "notifications",
+  "tags": ["terminal", "console", "error", "failure", "command"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 9.5l3 2.5-3 2.5\"/><path class=\"p3\" d=\"M13.5 13.5l4 4M17.5 13.5l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

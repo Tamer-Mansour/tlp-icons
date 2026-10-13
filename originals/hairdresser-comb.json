@@ -1,0 +1,11 @@
+{
+  "name": "hairdresser-comb",
+  "category": "people",
+  "tags": ["hairdresser", "comb", "scissors", "haircut", "salon", "barber"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"12\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M6 8 V13 M9.5 8 V13 M13 8 V13\"/><circle class=\"p2\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p2\" d=\"M9 16 L15 21 M15 16 L9 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100, "origin": "12px 8px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "select-row",
+  "category": "interface",
+  "tags": ["select", "row", "table", "check", "choose", "list"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"8\" width=\"19\" height=\"8\" rx=\"1\"/><line class=\"p1\" x1=\"10\" y1=\"8\" x2=\"10\" y2=\"16\"/><polyline class=\"p2\" points=\"4,12 5.5,13.5 8,10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "delete-mark",
+  "category": "text",
+  "tags": ["delete", "strikethrough", "caret", "remove", "edit"],
+  "svg": "<path class=\"d p1\" d=\"M9 5H21V19H9L3 12Z\"/><path class=\"p2\" d=\"M14 9.5L18 14.5M18 9.5L14 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "camera-capture",
+  "category": "interface",
+  "tags": ["camera", "capture", "photo", "lens", "shutter"],
+  "svg": "<path class=\"p1\" d=\"M3 8h4l2-3h6l2 3h4v11H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

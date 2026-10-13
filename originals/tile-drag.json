@@ -1,0 +1,11 @@
+{
+  "name": "tile-drag",
+  "category": "layout",
+  "tags": ["drag", "tile", "move", "ghost", "reorder"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"9\" width=\"7\" height=\"7\" rx=\"1.5\"/><path class=\"p3\" d=\"M5 5h14M15.5 2.5L19 5l-3.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

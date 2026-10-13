@@ -1,0 +1,11 @@
+{
+  "name": "pyramid-solid",
+  "category": "math",
+  "tags": ["pyramid", "solid", "shape", "3d", "geometry"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 L4 17 L16 17 Z\"/><path class=\"p2\" d=\"M12 4 L20 13 L16 17\"/><path class=\"p3\" d=\"M8 13 L4 17 M8 13 H20 M8 13 L12 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1100 }
+  ]
+}

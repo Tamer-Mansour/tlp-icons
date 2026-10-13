@@ -1,0 +1,10 @@
+{
+  "name": "logistic-curve",
+  "category": "math",
+  "tags": ["logistic", "growth", "curve", "saturation", "s-curve"],
+  "svg": "<path class=\"p1\" d=\"M4 4V20H21\"/><path class=\"p2\" d=\"M6 18C10 18 9 6 13 6S17 6 20 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1200, "delay": 400 }
+  ]
+}

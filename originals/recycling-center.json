@@ -1,0 +1,11 @@
+{
+  "name": "recycling-center",
+  "category": "buildings",
+  "tags": ["recycling", "center", "building", "recycle", "loop", "sustainable"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\"/><path class=\"p2\" d=\"M12 2.5L15.5 8.5H8.5Z\"/><path class=\"p3\" d=\"M9 15h6M9 18h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1100, "origin": "12px 6px" }
+  ]
+}

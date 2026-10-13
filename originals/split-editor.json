@@ -1,0 +1,11 @@
+{
+  "name": "split-editor",
+  "category": "layout",
+  "tags": ["split", "editor", "code", "panes", "diff", "compare"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M5 8H9M5 12H8M5 16H9\"/><path class=\"p3\" d=\"M15 8H19M15 12H18M15 16H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 900 }
+  ]
+}

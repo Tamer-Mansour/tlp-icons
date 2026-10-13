@@ -1,0 +1,11 @@
+{
+  "name": "car-ramp",
+  "category": "vehicles",
+  "tags": ["ramp", "car", "slope", "garage", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M9 19h12V10z\"/><rect class=\"p2\" x=\"2\" y=\"15\" width=\"5\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M2 21h19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "drive", "dur": 1200, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "registration-mark",
+  "category": "design",
+  "tags": ["registration", "mark", "print", "crosshair", "alignment", "target"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M2 12h20M12 2v20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 }
+  ]
+}

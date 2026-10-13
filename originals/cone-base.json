@@ -1,0 +1,10 @@
+{
+  "name": "cone-base",
+  "category": "shapes",
+  "tags": ["cone", "base", "solid", "geometry", "pointed", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3L5.5 17.5M12 3L18.5 17.5\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"17.5\" rx=\"6.5\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

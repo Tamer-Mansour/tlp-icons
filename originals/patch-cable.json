@@ -1,0 +1,11 @@
+{
+  "name": "patch-cable",
+  "category": "connectivity",
+  "tags": ["patch", "cable", "plug", "ethernet", "network", "cord"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"d p3\" x=\"17\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M7 12C9 18 15 18 17 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

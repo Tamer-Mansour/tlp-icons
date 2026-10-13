@@ -1,0 +1,11 @@
+{
+  "name": "range-extender",
+  "category": "connectivity",
+  "tags": ["range", "extender", "antenna", "wifi", "signal", "repeater"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 10V6.5\"/><path class=\"p3\" d=\"M16 7.5A5 5 0 0 1 16 16.5M18 4.5A10 10 0 0 1 18 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

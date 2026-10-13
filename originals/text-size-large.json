@@ -1,0 +1,10 @@
+{
+  "name": "text-size-large",
+  "category": "text",
+  "tags": ["text", "size", "large", "font", "letter"],
+  "svg": "<path class=\"p1\" d=\"M3 20L8 6l5 14M5.2 14h5.6\"/><path class=\"p2\" d=\"M18 3v5M15.5 5.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000, "origin": "18px 5.5px" }
+  ]
+}

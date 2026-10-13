@@ -1,0 +1,10 @@
+{
+  "name": "warning-circle",
+  "category": "interface",
+  "tags": ["warning", "alert", "caution", "exclamation", "notice", "danger"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><line class=\"p2\" x1=\"12\" y1=\"7\" x2=\"12\" y2=\"13\"/><circle class=\"f p2\" cx=\"12\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

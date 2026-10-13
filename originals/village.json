@@ -1,0 +1,11 @@
+{
+  "name": "village",
+  "category": "buildings",
+  "tags": ["village", "houses", "tree", "town", "rural", "homes"],
+  "svg": "<path class=\"d p1\" d=\"M2 21V11l5-5 5 5v10z\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M18 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 1000 }
+  ]
+}

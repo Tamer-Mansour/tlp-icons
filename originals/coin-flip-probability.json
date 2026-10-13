@@ -1,0 +1,10 @@
+{
+  "name": "coin-flip-probability",
+  "category": "math",
+  "tags": ["coin", "flip", "probability", "chance", "heads", "tails"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 700, "delay": 700 }
+  ]
+}

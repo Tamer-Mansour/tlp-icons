@@ -1,0 +1,10 @@
+{
+  "name": "brake-fluid",
+  "category": "vehicles",
+  "tags": ["brake", "fluid", "reservoir", "leak", "car"],
+  "svg": "<path class=\"p1\" d=\"M9 6V4h6v2\"/><rect class=\"p1\" x=\"7\" y=\"6\" width=\"10\" height=\"10\" rx=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 800, "delay": 600 }
+  ]
+}

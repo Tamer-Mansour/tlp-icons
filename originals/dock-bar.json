@@ -1,0 +1,10 @@
+{
+  "name": "dock-bar",
+  "category": "layout",
+  "tags": ["dock", "bar", "launcher", "apps", "pill", "shelf"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"4\"/><path class=\"p2\" d=\"M4.5 10.5H7V13H4.5ZM8.5 10.5H11V13H8.5ZM12.5 10.5H15V13H12.5ZM16.5 10.5H19V13H16.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 800 }
+  ]
+}

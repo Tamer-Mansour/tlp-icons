@@ -1,0 +1,11 @@
+{
+  "name": "checkpoint",
+  "category": "security",
+  "tags": ["checkpoint", "barrier", "flag", "gate", "border", "post"],
+  "svg": "<path class=\"p1\" d=\"M4 21V8M20 21V8\"/><path class=\"p2\" d=\"M4 12H16\"/><path class=\"p3\" d=\"M4 8V4L8.5 5.5L4 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1300 }
+  ]
+}

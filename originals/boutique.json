@@ -1,0 +1,11 @@
+{
+  "name": "boutique",
+  "category": "buildings",
+  "tags": ["boutique", "fashion", "hanger", "clothes", "shop", "store"],
+  "svg": "<path class=\"p1\" d=\"M12 8V6.5a1.5 1.5 0 1 1 1.5-1.5M12 8l-9 5h18z\"/><path class=\"p2\" d=\"M5 15v6h14v-6\"/><path class=\"p3\" d=\"M3 15h18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

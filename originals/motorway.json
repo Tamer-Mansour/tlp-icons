@@ -1,0 +1,10 @@
+{
+  "name": "motorway",
+  "category": "buildings",
+  "tags": ["motorway", "highway", "road", "lanes", "route", "traffic"],
+  "svg": "<path class=\"p1\" d=\"M8 21L11 4M16 21L13 4\"/><path class=\"p2\" d=\"M12 6v2M12 11v3M12 17v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

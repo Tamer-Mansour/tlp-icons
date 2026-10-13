@@ -1,0 +1,11 @@
+{
+  "name": "velocity-arrow",
+  "category": "arrows",
+  "tags": ["velocity", "speed", "direction", "vector", "motion", "fast"],
+  "svg": "<path class=\"p3\" d=\"M2 22l3-3\"/><path class=\"p1\" d=\"M5 19L19 5\"/><path class=\"p2\" d=\"M12 5h7v7\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "dash", "dur": 600, "delay": 900 }
+  ]
+}

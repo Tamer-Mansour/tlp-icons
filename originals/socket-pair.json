@@ -1,0 +1,11 @@
+{
+  "name": "socket-pair",
+  "category": "connectivity",
+  "tags": ["socket", "pair", "bidirectional", "sync", "exchange", "plug"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"18\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M8 12H16M8 12L10 10M8 12L10 14M16 12L14 10M16 12L14 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 500 }
+  ]
+}

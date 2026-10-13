@@ -1,0 +1,10 @@
+{
+  "name": "undo-arc",
+  "category": "arrows",
+  "tags": ["undo", "revert", "back", "arc", "previous", "step"],
+  "svg": "<path class=\"p1\" d=\"M9 14 H15 A5 5 0 0 0 15 4 H6\"/><polyline class=\"p2\" points=\"9 10 5 14 9 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gradient-tool",
+  "category": "interface",
+  "tags": ["gradient", "fill", "color", "design", "tool", "blend"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"3.5\" width=\"17\" height=\"17\" rx=\"2\"/><path class=\"d p2\" d=\"M7.5 20.5 20.5 7.5v5.5l-8 7.5Z\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"7.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

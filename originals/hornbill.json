@@ -1,0 +1,11 @@
+{
+  "name": "hornbill",
+  "category": "nature",
+  "tags": ["hornbill", "bird", "beak", "casque", "tropical", "large"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"13\" r=\"5\"/><path class=\"p2\" d=\"M13 11c4-1 7 0 9 3-3 0-5 1-6 3\"/><path class=\"p3\" d=\"M13 9.5c1-1.5 2.5-2 3.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

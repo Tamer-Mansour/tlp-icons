@@ -1,0 +1,11 @@
+{
+  "name": "text-delete",
+  "category": "text",
+  "tags": ["text", "delete", "remove", "trash", "erase", "edit"],
+  "svg": "<path class=\"p1\" d=\"M3 12 H12\"/><path class=\"p2\" d=\"M2.5 18 L13 6\"/><path class=\"p3\" d=\"M15.5 6.5 H21 M17 6.5 L17.5 20 H19.5 L20 6.5 M17.5 4 H19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cracker-box",
+  "category": "food",
+  "tags": ["cracker", "box", "snack", "carton", "tab", "crisp", "pantry"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M9 3v3h6V3\"/><line class=\"p3\" x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

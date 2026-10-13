@@ -1,0 +1,11 @@
+{
+  "name": "activity-chart",
+  "category": "charts",
+  "tags": ["activity", "chart", "pulse", "trend", "line", "monitor"],
+  "svg": "<path class=\"p1\" d=\"M3 20H21\"/><path class=\"p2\" d=\"M3 14H7L9.5 9L12.5 17L15 12H21\"/><circle class=\"f p3\" cx=\"21\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mud-pan",
+  "category": "tools",
+  "tags": ["pan", "mud", "tray", "scoop", "plaster", "mortar"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 H21 L18 19 H6 Z\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "darkroom-safelight",
+  "category": "photography",
+  "tags": ["safelight", "darkroom", "lamp", "red light", "film", "developing"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"6\"/><path class=\"d p2\" d=\"M7 13a5 5 0 0 1 10 0z\"/><ellipse class=\"p3\" cx=\"12\" cy=\"18\" rx=\"6\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

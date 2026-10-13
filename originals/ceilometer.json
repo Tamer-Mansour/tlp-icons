@@ -1,0 +1,11 @@
+{
+  "name": "ceilometer",
+  "category": "weather",
+  "tags": ["ceilometer", "cloud", "height", "laser", "measure"],
+  "svg": "<path class=\"p1\" d=\"M8 9 H16.5 A3 3 0 0 0 16.5 3 A4 4 0 0 0 9 4.5 A3 3 0 0 0 8 9 Z\"/><path class=\"p2\" d=\"M12 12.5 V15\"/><rect class=\"p3\" x=\"9\" y=\"18\" width=\"6\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "scan", "dur": 900, "delay": 900 }
+  ]
+}

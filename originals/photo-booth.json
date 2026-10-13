@@ -1,0 +1,11 @@
+{
+  "name": "photo-booth",
+  "category": "photography",
+  "tags": ["photo", "booth", "curtain", "camera", "portrait"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 5v7M16 5v7\"/><rect class=\"p3\" x=\"9\" y=\"14\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1200 }
+  ]
+}

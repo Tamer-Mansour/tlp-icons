@@ -1,0 +1,11 @@
+{
+  "name": "inline-code",
+  "category": "text",
+  "tags": ["inline", "code", "snippet", "brackets", "text", "programming", "tag"],
+  "svg": "<path class=\"p1\" d=\"M5 7.5l-2.5 4.5 2.5 4.5\"/><path class=\"p2\" d=\"M19 7.5l2.5 4.5-2.5 4.5\"/><path class=\"p3\" d=\"M8.5 12h7\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "document-draft",
+  "category": "files",
+  "tags": ["document", "draft", "pencil", "writing", "edit", "outline"],
+  "svg": "<path class=\"p1\" d=\"M4 3h11l5 5v13H4z\"/><path class=\"p2\" d=\"M7 9h5M7 13h4M7 17h3\"/><path class=\"p3\" d=\"M13 19l1-4 5-5 3 3-5 5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1100 }
+  ]
+}

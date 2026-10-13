@@ -1,0 +1,10 @@
+{
+  "name": "shipping-volume",
+  "category": "charts",
+  "tags": ["shipping", "volume", "boxes", "freight", "bars", "logistics"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"15\" width=\"7\" height=\"5\"/><rect class=\"p1\" x=\"3.5\" y=\"9\" width=\"4\" height=\"4\"/><path class=\"p2\" d=\"M14 20V13M18 20V9M22 20V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bounceIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 600, "origin": "bottom" }
+  ]
+}

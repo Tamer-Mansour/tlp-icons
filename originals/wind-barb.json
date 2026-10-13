@@ -1,0 +1,11 @@
+{
+  "name": "wind-barb",
+  "category": "weather",
+  "tags": ["wind", "barb", "staff", "speed", "forecast", "weather"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"21\" x2=\"12\" y2=\"3\"/><path class=\"d p2\" d=\"M12 3l6 2.5L12 8\"/><line class=\"p3\" x1=\"12\" y1=\"13\" x2=\"16\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 900, "origin": "12px 3px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "rope-tow",
+  "category": "sport",
+  "tags": ["rope", "tow", "ski", "lift", "pulley", "winter"],
+  "svg": "<path class=\"p1\" d=\"M2 15H22\"/><circle class=\"p2\" cx=\"5\" cy=\"10\" r=\"2\"/><circle class=\"p3\" cx=\"19\" cy=\"10\" r=\"2\"/><rect class=\"d p4\" x=\"10\" y=\"12\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

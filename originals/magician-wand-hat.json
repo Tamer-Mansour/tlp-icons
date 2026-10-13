@@ -1,0 +1,12 @@
+{
+  "name": "magician-wand-hat",
+  "category": "people",
+  "tags": ["magician", "wand", "top", "hat", "magic", "sparkle"],
+  "svg": "<path class=\"p1\" d=\"M4 14 H20\"/><path class=\"d p2\" d=\"M7 14 V5 H17 V14 Z\"/><path class=\"p3\" d=\"M16.5 7.5 L19.5 4.5\"/><circle class=\"f p4\" cx=\"21\" cy=\"3\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "twinkle", "dur": 900, "delay": 1300 }
+  ]
+}

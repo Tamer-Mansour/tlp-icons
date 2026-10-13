@@ -1,0 +1,10 @@
+{
+  "name": "timeline-lanes",
+  "category": "layout",
+  "tags": ["timeline", "lanes", "gantt", "schedule", "tracks", "planning"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"10\" height=\"4\" rx=\"1\"/><rect class=\"p1\" x=\"10\" y=\"10\" width=\"11\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"16\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 700 }
+  ]
+}

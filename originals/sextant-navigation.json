@@ -1,0 +1,11 @@
+{
+  "name": "sextant-navigation",
+  "category": "science",
+  "tags": ["sextant", "navigation", "arc", "sight", "sailing", "instrument"],
+  "svg": "<path class=\"p1\" d=\"M3 17a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 17L16.5 9.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 800, "origin": "12px 17px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 0 }
+  ]
+}

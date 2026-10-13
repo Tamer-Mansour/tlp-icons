@@ -1,0 +1,11 @@
+{
+  "name": "text-inline-image",
+  "category": "text",
+  "tags": ["inline", "image", "picture", "photo", "text", "embed", "figure"],
+  "svg": "<path class=\"p1\" d=\"M3 12h3.5M18 12h3\"/><rect class=\"d p2\" x=\"8\" y=\"7\" width=\"8\" height=\"10\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M9.5 14.5l2-2 1.5 1.5 1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

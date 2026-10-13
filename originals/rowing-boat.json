@@ -1,0 +1,10 @@
+{
+  "name": "rowing-boat",
+  "category": "sport",
+  "tags": ["rowing", "boat", "oars", "rower", "sport", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H21 L17 18 H7 Z\"/><path class=\"p2\" d=\"M6 13 L2 6 M18 13 L22 6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "bob", "dur": 1400, "delay": 600 }
+  ]
+}

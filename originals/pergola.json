@@ -1,0 +1,11 @@
+{
+  "name": "pergola",
+  "category": "buildings",
+  "tags": ["pergola", "posts", "beams", "vines", "garden", "shade"],
+  "svg": "<path class=\"p1\" d=\"M4 21V9M8 21V9M16 21V9M20 21V9\"/><path class=\"p2\" d=\"M2 6h20M2 9h20\"/><path class=\"p3\" d=\"M4 16h4M16 16h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

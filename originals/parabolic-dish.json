@@ -1,0 +1,11 @@
+{
+  "name": "parabolic-dish",
+  "category": "connectivity",
+  "tags": ["parabolic", "dish", "satellite", "feed", "signal", "antenna"],
+  "svg": "<path class=\"p1\" d=\"M3 10C3 17 7 20 12 20C17 20 21 17 21 10\"/><path class=\"p3\" d=\"M12 6.5L8 10M12 6.5L16 10\"/><circle class=\"f p2\" cx=\"12\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "text-split",
+  "category": "text",
+  "tags": ["split", "divide", "text", "separate", "fork"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"5\" x2=\"21\" y2=\"5\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><path class=\"p3\" d=\"M12 13 L6 19 M12 13 L18 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 300, "delay": 500, "origin": "top" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

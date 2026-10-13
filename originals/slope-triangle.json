@@ -1,0 +1,10 @@
+{
+  "name": "slope-triangle",
+  "category": "math",
+  "tags": ["slope", "triangle", "rise", "run", "gradient"],
+  "svg": "<line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"3\"/><path class=\"d p1\" d=\"M5 19 H19 V5 Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

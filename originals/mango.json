@@ -1,0 +1,11 @@
+{
+  "name": "mango",
+  "category": "food",
+  "tags": ["mango", "fruit", "tropical", "summer", "sweet", "fresh"],
+  "svg": "<path class=\"d p1\" d=\"M7 8 C4 9 3 13 4.5 16 C6 19 9.5 21 13 20 C17 19 20 16 19.5 12 C19 8 16 6 13 6.5 C11 6.8 9 7 7 8 Z\"/><path class=\"p2\" d=\"M13 6.5 C13 4.5 14 3.5 15 3\"/><path class=\"p3\" d=\"M14 5 C16 2.5 18.5 2.5 19.5 3 C19 5.5 16.5 6 14 5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flutter", "dur": 700, "delay": 1100 }
+  ]
+}

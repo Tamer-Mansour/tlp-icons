@@ -1,0 +1,11 @@
+{
+  "name": "hummus",
+  "category": "food",
+  "tags": ["dip", "bowl", "chickpea", "swirl", "mediterranean"],
+  "svg": "<path class=\"d p1\" d=\"M3 11h18c0 4.5-4 7.5-9 7.5S3 15.5 3 11z\"/><path class=\"p2\" d=\"M7 11c1.5-1.5 3-1.5 5 0s3.5 1.5 5 0\"/><circle class=\"f p3\" cx=\"9\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

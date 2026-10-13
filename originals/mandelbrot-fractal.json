@@ -1,0 +1,12 @@
+{
+  "name": "mandelbrot-fractal",
+  "category": "math",
+  "tags": ["mandelbrot", "fractal", "set", "complex", "pattern"],
+  "svg": "<path class=\"d p1\" d=\"M12 6C8 2 3 5 4.5 10C6 14 9 15 12 18C15 15 18 14 19.5 10C21 5 16 2 12 6Z\"/><circle class=\"f p2\" cx=\"3\" cy=\"20\" r=\"1.2\"/><circle class=\"f p3\" cx=\"21\" cy=\"20\" r=\"1.2\"/><circle class=\"p4\" cx=\"20\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "twinkle", "dur": 500, "delay": 1000 }
+  ]
+}

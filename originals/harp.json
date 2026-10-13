@@ -1,0 +1,11 @@
+{
+  "name": "harp",
+  "category": "media",
+  "tags": ["harp", "strings", "pluck", "orchestra", "instrument", "music"],
+  "svg": "<path class=\"p1\" d=\"M4 21C5 11 9 5 19 4\"/><path class=\"p2\" d=\"M4 21h14\"/><path class=\"p3\" d=\"M8 18v-6M11 18v-8M14 18v-10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1100 }
+  ]
+}

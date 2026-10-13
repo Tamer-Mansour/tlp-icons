@@ -1,0 +1,10 @@
+{
+  "name": "fish-food",
+  "category": "nature",
+  "tags": ["fish", "food", "flakes", "aquarium", "feeding", "pet"],
+  "svg": "<path class=\"p1\" d=\"M2 19q2.5-2 5 0t5 0t5 0t5 0\"/><rect class=\"d p2\" x=\"5\" y=\"4\" width=\"3\" height=\"3\" rx=\"0.5\"/><rect class=\"d p2\" x=\"14\" y=\"7\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 1100, "delay": 900 }
+  ]
+}

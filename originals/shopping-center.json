@@ -1,0 +1,11 @@
+{
+  "name": "shopping-center",
+  "category": "buildings",
+  "tags": ["shopping", "center", "stores", "mall", "storefront", "retail"],
+  "svg": "<path class=\"p1\" d=\"M3 21V8h18v13M9 8v13M15 8v13\"/><path class=\"p2\" d=\"M3 11h18\"/><path class=\"p3\" d=\"M10 21v-5h4v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 1000 }
+  ]
+}

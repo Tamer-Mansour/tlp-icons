@@ -1,0 +1,11 @@
+{
+  "name": "usb-drive",
+  "category": "science",
+  "tags": ["usb", "drive", "stick", "flash", "storage", "portable"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M13 10h7v4h-7\"/><circle class=\"f p3\" cx=\"6\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 600, "delay": 1100 }
+  ]
+}

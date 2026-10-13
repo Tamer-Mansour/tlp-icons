@@ -1,0 +1,11 @@
+{
+  "name": "meeting-minutes",
+  "category": "files",
+  "tags": ["meeting", "minutes", "notes", "clock", "agenda", "time"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h11l5 5v13H3z\"/><circle class=\"p2\" cx=\"17\" cy=\"17\" r=\"4\"/><path class=\"p3\" d=\"M17 15v2l1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1000, "origin": "17px 17px" }
+  ]
+}

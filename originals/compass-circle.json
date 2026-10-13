@@ -1,0 +1,11 @@
+{
+  "name": "compass-circle",
+  "category": "shapes",
+  "tags": ["compass", "drafting", "circle", "draw", "geometry", "tool"],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/><line class=\"p1\" x1=\"12\" y1=\"12\" x2=\"17\" y2=\"6\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

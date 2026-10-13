@@ -1,0 +1,11 @@
+{
+  "name": "vector-arrow",
+  "category": "arrows",
+  "tags": ["vector", "direction", "magnitude", "arrow", "math", "angle"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M7 17L18 6\"/><path class=\"p3\" d=\"M12 6h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

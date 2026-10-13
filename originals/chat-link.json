@@ -1,0 +1,11 @@
+{
+  "name": "chat-link",
+  "category": "communication",
+  "tags": ["link message", "url", "chat link", "attachment", "chat"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4h18v12h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M9 12.5l-.5.5a1.5 1.5 0 0 1-2-2l2-2a1.5 1.5 0 0 1 2 0\"/><path class=\"p3\" d=\"M15 9.5l.5-.5a1.5 1.5 0 0 1 2 2l-2 2a1.5 1.5 0 0 1-2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 1000 }
+  ]
+}

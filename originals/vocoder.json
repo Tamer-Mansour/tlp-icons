@@ -1,0 +1,10 @@
+{
+  "name": "vocoder",
+  "category": "media",
+  "tags": ["vocoder", "bars", "display", "equalizer", "voice", "audio"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"3\"/><path class=\"p2\" d=\"M6 19v-5M10 19V9M14 19V5M18 19v-8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "equalize", "dur": 1000, "delay": 500 }
+  ]
+}

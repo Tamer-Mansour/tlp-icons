@@ -1,0 +1,10 @@
+{
+  "name": "letter-height",
+  "category": "text",
+  "tags": ["letter", "height", "measure", "glyph", "size", "text"],
+  "svg": "<path class=\"p1\" d=\"M5 5v14M11 5v14M5 12h6\"/><path class=\"p2\" d=\"M18 5v14M16 5h4M16 19h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 }
+  ]
+}

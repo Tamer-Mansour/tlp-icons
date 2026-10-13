@@ -1,0 +1,10 @@
+{
+  "name": "phone-frame",
+  "category": "layout",
+  "tags": ["phone", "frame", "mobile", "device", "mockup", "screen"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"3\"/><line class=\"p2\" x1=\"10.5\" y1=\"5.5\" x2=\"13.5\" y2=\"5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 500, "delay": 900 }
+  ]
+}

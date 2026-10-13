@@ -1,0 +1,10 @@
+{
+  "name": "dough-ball",
+  "category": "food",
+  "tags": ["dough", "bread", "ball", "bake", "baking"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M8 9 Q9.5 7 12 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "expand-all",
+  "category": "layout",
+  "tags": ["expand", "collapse", "accordion", "rows", "chevron"],
+  "svg": "<path class=\"p1\" d=\"M3 6h10M3 12h10M3 18h10\"/><path class=\"p2\" d=\"M16 5l2.5 2.5L21 5M16 11l2.5 2.5L21 11M16 17l2.5 2.5L21 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 800, "delay": 700 }
+  ]
+}

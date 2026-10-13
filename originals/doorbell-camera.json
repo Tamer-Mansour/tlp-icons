@@ -1,0 +1,11 @@
+{
+  "name": "doorbell-camera",
+  "category": "devices",
+  "tags": ["doorbell", "camera", "door", "visitor", "video"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2.5\"/><circle class=\"p3\" cx=\"12\" cy=\"16\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "evidence-scan",
+  "category": "security",
+  "tags": ["evidence", "scan", "document", "magnifier", "forensics"],
+  "svg": "<path class=\"p1\" d=\"M5 3h9l5 5v5M5 3v18h7\"/><path class=\"p1\" d=\"M14 3v5h5\"/><path class=\"p1\" d=\"M8 11h8M8 15h4\"/><circle class=\"p2\" cx=\"16.5\" cy=\"15.5\" r=\"2.5\"/><path class=\"p2\" d=\"M18.3 17.3l2.2 2.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "scanX", "dur": 1000, "delay": 900 }
+  ]
+}

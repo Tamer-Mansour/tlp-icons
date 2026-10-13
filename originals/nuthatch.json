@@ -1,0 +1,13 @@
+{
+  "name": "nuthatch",
+  "category": "nature",
+  "tags": ["nuthatch", "bird", "songbird", "perched", "long beak", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"6\" ry=\"4\"/><circle class=\"p2\" cx=\"7\" cy=\"9\" r=\"3\"/><polygon class=\"p3\" points=\"4,8.5 2,9.5 4,10.5\"/><polygon class=\"p4\" points=\"16,13 20.5,14.5 20,16.5 15.5,14.5\"/><path class=\"p5\" d=\"M3 19.5H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p5", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "wiggle", "dur": 500, "delay": 1100, "origin": "16px 14px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mast",
+  "category": "vehicles",
+  "tags": ["mast", "pole", "flag", "tower", "antenna"],
+  "svg": "<path class=\"p1\" d=\"M7 22V2\"/><path class=\"p3\" d=\"M4 21.5H10\"/><path class=\"d p2\" d=\"M7 3H19L16 7.5L19 12H7Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

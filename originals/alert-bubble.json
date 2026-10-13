@@ -1,0 +1,11 @@
+{
+  "name": "alert-bubble",
+  "category": "communication",
+  "tags": ["alert", "warning", "bubble", "exclamation", "notice", "urgent"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-9l-4 3.5V15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M12 5.5v4\"/><circle class=\"f p3\" cx=\"12\" cy=\"12.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "welcome-mat",
+  "category": "people",
+  "tags": ["welcome", "doormat", "entrance", "greeting", "person"],
+  "svg": "<path class=\"p1\" d=\"M7 18V9a5 5 0 0 1 10 0v9\"/><rect class=\"d p2\" x=\"2\" y=\"18\" width=\"20\" height=\"3\" rx=\"1.5\"/><circle class=\"f p3\" cx=\"14\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

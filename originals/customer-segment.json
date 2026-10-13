@@ -1,0 +1,11 @@
+{
+  "name": "customer-segment",
+  "category": "people",
+  "tags": ["segment", "customers", "pie", "audience", "group", "share"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3a9 9 0 0 1 9 9z\"/><circle class=\"p3\" cx=\"8\" cy=\"8\" r=\"2\"/><path class=\"p3\" d=\"M5.5 15.5a3 3 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

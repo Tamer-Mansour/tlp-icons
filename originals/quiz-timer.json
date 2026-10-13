@@ -1,0 +1,12 @@
+{
+  "name": "quiz-timer",
+  "category": "science",
+  "tags": ["timer", "quiz", "clock", "question", "test", "countdown"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 2.5 H14 M12 2.5 V5\"/><path class=\"p3\" d=\"M10.5 11 Q10.5 9 12 9 Q13.5 9 13.5 10.8 Q13.5 12 12 13\"/><circle class=\"f p4\" cx=\"12\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 1100 }
+  ]
+}

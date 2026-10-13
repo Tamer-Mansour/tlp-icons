@@ -1,0 +1,10 @@
+{
+  "name": "second-hand",
+  "category": "time",
+  "tags": ["second", "hand", "clock", "seconds", "tick", "time"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 16.5V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pigeon",
+  "category": "nature",
+  "tags": ["pigeon", "bird", "plump", "city", "feathers", "wing"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"7.5\" ry=\"5.5\"/><circle class=\"p2\" cx=\"17\" cy=\"7\" r=\"2.5\"/><path class=\"p3\" d=\"M7 13C9 10 12 10 15 12\"/><path class=\"p4\" d=\"M10 19.5V21M14 19.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 1200 }
+  ]
+}

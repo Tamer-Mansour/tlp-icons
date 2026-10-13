@@ -1,0 +1,10 @@
+{
+  "name": "drag-box",
+  "category": "interface",
+  "tags": ["drag", "move", "cursor", "dashed", "selection"],
+  "svg": "<path class=\"p1\" d=\"M3 4H5.5M7.5 4H10M12.5 4H15M15 4V6.5M15 9V11.5M15 14H12.5M10 14H7.5M5.5 14H3M3 14V11.5M3 9V6.5\"/><path class=\"p2\" d=\"M12.5 11V20L15 17.5L17 21.5L19 20.5L17 16.5H20.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

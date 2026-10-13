@@ -1,0 +1,11 @@
+{
+  "name": "canvas-infinite",
+  "category": "design",
+  "tags": ["canvas", "infinite", "pan", "grid", "workspace", "endless", "space"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M12 3v4M10.5 4.5L12 3l1.5 1.5M12 17v4M10.5 19.5L12 21l1.5-1.5M3 12h4M4.5 10.5L3 12l1.5 1.5M17 12h4M19.5 10.5L21 12l-1.5 1.5\"/><circle class=\"f p3\" cx=\"5\" cy=\"5\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"5\" r=\"1\"/><circle class=\"f p3\" cx=\"5\" cy=\"19\" r=\"1\"/><circle class=\"f p3\" cx=\"19\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p1", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

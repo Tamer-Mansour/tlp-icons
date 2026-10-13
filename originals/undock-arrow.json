@@ -1,0 +1,10 @@
+{
+  "name": "undock-arrow",
+  "category": "arrows",
+  "tags": ["undock", "detach", "window", "float", "release", "pull"],
+  "svg": "<rect class=\"p1\" x=\"10\" y=\"4\" width=\"11\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M2 12h6M4.5 9.5 2 12l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "backup-camera",
+  "category": "vehicles",
+  "tags": ["backup", "camera", "reverse", "parking", "rear", "lens"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"5\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2\"/><path class=\"p3\" d=\"M4 18.5H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

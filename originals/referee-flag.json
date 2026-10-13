@@ -1,0 +1,10 @@
+{
+  "name": "referee-flag",
+  "category": "sport",
+  "tags": ["referee", "flag", "penalty", "match", "official", "whistle"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"3\" x2=\"5\" y2=\"21\"/><path class=\"d p2\" d=\"M5 4h11l-3 4l3 4h-11z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "microchip-lock",
+  "category": "security",
+  "tags": ["microchip", "lock", "chip", "hardware", "secure", "pins"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M8.5 2.5V6M15.5 2.5V6M8.5 18v3.5M15.5 18v3.5M2.5 8.5H6M2.5 15.5H6M18 8.5h3.5M18 15.5h3.5\"/><rect class=\"d p3\" x=\"9.5\" y=\"11\" width=\"5\" height=\"5\" rx=\"1\"/><path class=\"p4\" d=\"M10.5 11V9.5a1.5 1.5 0 0 1 3 0V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

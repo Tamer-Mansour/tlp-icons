@@ -1,0 +1,11 @@
+{
+  "name": "pan-canvas",
+  "category": "interface",
+  "tags": ["pan", "canvas", "move", "arrows", "navigate"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M12 9V6.5M10.5 8L12 6.5L13.5 8M12 15V17.5M10.5 16L12 17.5L13.5 16\"/><path class=\"p3\" d=\"M9 12H6.5M8 10.5L6.5 12L8 13.5M15 12H17.5M16 10.5L17.5 12L16 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

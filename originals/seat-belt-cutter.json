@@ -1,0 +1,10 @@
+{
+  "name": "seat-belt-cutter",
+  "category": "vehicles",
+  "tags": ["seatbelt", "cutter", "rescue", "strap", "blade"],
+  "svg": "<path class=\"d p1\" d=\"M3 10L10 3L21 14L14 21Z\"/><path class=\"p2\" d=\"M8 12L13 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

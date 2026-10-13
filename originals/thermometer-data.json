@@ -1,0 +1,11 @@
+{
+  "name": "thermometer-data",
+  "category": "charts",
+  "tags": ["thermometer", "data", "temperature", "readings", "chart", "heat"],
+  "svg": "<path class=\"p1\" d=\"M8 14V5a2 2 0 0 1 4 0v9\"/><circle class=\"d p2\" cx=\"10\" cy=\"17\" r=\"3\"/><polyline class=\"p3\" points=\"16,18 18,14 19.5,16 21,11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1000 }
+  ]
+}

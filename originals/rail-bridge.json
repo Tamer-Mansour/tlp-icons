@@ -1,0 +1,10 @@
+{
+  "name": "rail-bridge",
+  "category": "vehicles",
+  "tags": ["rail", "bridge", "arch", "railway", "span"],
+  "svg": "<path class=\"p1\" d=\"M3 14 Q12 4 21 14\"/><line class=\"p2\" x1=\"2\" y1=\"17\" x2=\"22\" y2=\"17\"/><line class=\"p2\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 900, "delay": 800 }
+  ]
+}

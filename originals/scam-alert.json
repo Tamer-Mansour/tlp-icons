@@ -1,0 +1,11 @@
+{
+  "name": "scam-alert",
+  "category": "security",
+  "tags": ["scam", "alert", "price", "fraud", "warning", "deal"],
+  "svg": "<path class=\"p1\" d=\"M3 4.5V11l9.5 9.5a1.5 1.5 0 0 0 2.1 0l6.2-6.2a1.5 1.5 0 0 0 0-2.1L11 3H4.5A1.5 1.5 0 0 0 3 4.5z\"/><path class=\"d p2\" d=\"M11 9l3 5.5H8z\"/><path class=\"p3\" d=\"M11 11.5v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "font-file",
+  "category": "files",
+  "tags": ["font", "file", "glyph", "typeface", "letters"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><path class=\"p2\" d=\"M7 15l3-8 3 8M8.2 12.5h3.6\"/><circle class=\"p3\" cx=\"15.5\" cy=\"16\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

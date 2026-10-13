@@ -1,0 +1,11 @@
+{
+  "name": "monospace",
+  "category": "text",
+  "tags": ["monospace", "mono", "code", "fixed", "width", "typeface"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"3.5\" width=\"19\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M6.5 13 V7.5 L12 12 L17.5 7.5 V13\"/><path class=\"p3\" d=\"M6 19 V21.5 M10 19 V21.5 M14 19 V21.5 M18 19 V21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "equalize", "dur": 800, "delay": 1100, "origin": "bottom" }
+  ]
+}

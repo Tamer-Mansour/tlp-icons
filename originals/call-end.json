@@ -1,0 +1,10 @@
+{
+  "name": "call-end",
+  "category": "interface",
+  "tags": ["call", "end", "phone", "hang up", "handset"],
+  "svg": "<path class=\"d p1\" d=\"M4 3.5H8.5L10 8.5L7.5 10C8.5 12.8 11.2 15.5 14 16.5L16 14L21 15.5V20C21 21 20 21.5 19 21.5C10.5 21.5 2.5 13.5 2.5 5C2.5 4 3 3.5 4 3.5Z\"/><path class=\"p2\" d=\"M16 4L20 8M20 4L16 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cutlery-set",
+  "category": "home",
+  "tags": ["cutlery", "fork", "knife", "spoon", "dinner", "silverware"],
+  "svg": "<path class=\"p1\" d=\"M3 2v5a2 2 0 0 0 4 0V2M5 9v12\"/><path class=\"p2\" d=\"M10 2c2.5 2 3.5 5 3.5 9H10M10 11v10\"/><ellipse class=\"p3\" cx=\"18\" cy=\"7\" rx=\"2.5\" ry=\"4\"/><path class=\"p3\" d=\"M18 11v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "stir", "dur": 900, "delay": 1100, "origin": "18px 11px" }
+  ]
+}

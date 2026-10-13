@@ -1,0 +1,10 @@
+{
+  "name": "chat-reply-arrow",
+  "category": "communication",
+  "tags": ["reply", "arrow", "chat", "respond", "message", "back"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><path class=\"p2\" d=\"M10.5 11.5L8 13.5L10.5 15.5M8 13.5H13.5A2.5 2.5 0 0 1 13.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 800, "delay": 600 }
+  ]
+}

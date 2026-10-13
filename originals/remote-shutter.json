@@ -1,0 +1,11 @@
+{
+  "name": "remote-shutter",
+  "category": "photography",
+  "tags": ["remote shutter", "remote", "wireless", "trigger", "shutter"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"18\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M4.5 9.5a4 4 0 0 0 0 5M19.5 9.5a4 4 0 0 1 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

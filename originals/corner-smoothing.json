@@ -1,0 +1,10 @@
+{
+  "name": "corner-smoothing",
+  "category": "design",
+  "tags": ["corner", "smoothing", "squircle", "superellipse", "curve", "shape"],
+  "svg": "<path class=\"p1\" d=\"M12 3C18 3 21 6 21 12S18 21 12 21 3 18 3 12 6 3 12 3Z\"/><path class=\"d p2\" d=\"M12 7C16 7 17 8 17 12S16 17 12 17 7 16 7 12 8 7 12 7Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

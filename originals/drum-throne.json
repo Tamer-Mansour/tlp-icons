@@ -1,0 +1,10 @@
+{
+  "name": "drum-throne",
+  "category": "media",
+  "tags": ["drum", "throne", "seat", "stool", "drummer", "tripod"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"8\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 10.5v4.5M12 15l-5 6M12 15l5 6M12 15v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

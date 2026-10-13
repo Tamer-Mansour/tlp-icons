@@ -1,0 +1,11 @@
+{
+  "name": "sidebar-expand",
+  "category": "interface",
+  "tags": ["sidebar", "expand", "panel", "open", "layout", "chevron"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M9 4v16\"/><path class=\"p3\" d=\"M4.5 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500, "origin": "top" },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

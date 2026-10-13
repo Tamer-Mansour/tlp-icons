@@ -1,0 +1,11 @@
+{
+  "name": "online-badge",
+  "category": "interface",
+  "tags": ["online", "badge", "avatar", "presence", "user", "dot"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"16\" height=\"16\" rx=\"5\"/><circle class=\"p2\" cx=\"10\" cy=\"6.5\" r=\"2.5\"/><path class=\"p2\" d=\"M5 16c0-2.5 2-4 5-4s5 1.5 5 4\"/><circle class=\"d p3\" cx=\"19\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1200 }
+  ]
+}

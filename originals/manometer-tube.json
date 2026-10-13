@@ -1,0 +1,10 @@
+{
+  "name": "manometer-tube",
+  "category": "science",
+  "tags": ["manometer", "tube", "pressure", "liquid", "level", "gauge"],
+  "svg": "<path class=\"p1\" d=\"M7 3v12h10V3\"/><path class=\"p2\" d=\"M3 10h4M17 14h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "refill", "dur": 900, "delay": 800, "origin": "left" }
+  ]
+}

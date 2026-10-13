@@ -1,0 +1,10 @@
+{
+  "name": "anemometer-wind",
+  "category": "science",
+  "tags": ["anemometer", "wind", "cups", "weather", "speed", "measure"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"21\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"3\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"7\" y2=\"10.5\"/><line class=\"p2\" x1=\"12\" y1=\"8\" x2=\"17\" y2=\"10.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"3\" r=\"1.5\"/><circle class=\"d p2\" cx=\"7\" cy=\"10.5\" r=\"1.5\"/><circle class=\"d p2\" cx=\"17\" cy=\"10.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 800, "origin": "12px 8px" }
+  ]
+}

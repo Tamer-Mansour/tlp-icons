@@ -1,0 +1,10 @@
+{
+  "name": "bazaar",
+  "category": "buildings",
+  "tags": ["bazaar", "market", "gateway", "arch", "lantern", "souk"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V11a8 8 0 0 1 16 0v10z\"/><path class=\"p2\" d=\"M12 6v3.5M10 9.5h4l-.8 3.5h-2.4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 800, "origin": "12px 6px" }
+  ]
+}

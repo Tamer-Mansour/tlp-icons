@@ -1,0 +1,11 @@
+{
+  "name": "tree-sap",
+  "category": "nature",
+  "tags": ["sap", "tree", "drip", "resin", "maple"],
+  "svg": "<path class=\"d p1\" d=\"M8 22 V7 H16 V22 Z\"/><path class=\"p2\" d=\"M8 9.5 H11\"/><path class=\"p3\" d=\"M12.5 10 Q11.5 12 11.5 13 A1 1 0 0 0 13.5 13 Q13.5 12 12.5 10 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 700 }
+  ]
+}

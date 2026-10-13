@@ -1,0 +1,11 @@
+{
+  "name": "pallet",
+  "category": "tools",
+  "tags": ["pallet", "wood", "shipping", "platform", "freight", "slats"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"3\" rx=\"0.5\"/><rect class=\"d p2\" x=\"2\" y=\"17\" width=\"20\" height=\"3\" rx=\"0.5\"/><path class=\"p3\" d=\"M4 7 V17 M12 7 V17 M20 7 V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

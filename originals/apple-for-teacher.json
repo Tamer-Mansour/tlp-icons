@@ -1,0 +1,11 @@
+{
+  "name": "apple-for-teacher",
+  "category": "people",
+  "tags": ["apple", "teacher", "school", "desk", "gift"],
+  "svg": "<path class=\"d p1\" d=\"M12 8c-1.5-1.5-5.5-1.5-6.5 1.5-1 2.5 0 6 1.5 7.5 1.5 1.5 3 .5 5 .5s3.5 1 5-.5c1.5-1.5 2.5-5 1.5-7.5-1-3-5-3-6.5-1.5z\"/><path class=\"p2\" d=\"M12 8V5M12.5 6c1-2.5 3-3 4.5-2-1 2.5-3 3-4.5 2z\"/><path class=\"p3\" d=\"M3 20.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

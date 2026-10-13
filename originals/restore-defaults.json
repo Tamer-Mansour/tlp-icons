@@ -1,0 +1,11 @@
+{
+  "name": "restore-defaults",
+  "category": "interface",
+  "tags": ["restore", "defaults", "reset", "original", "return", "settings"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18M3 17h18\"/><circle class=\"d p2\" cx=\"15\" cy=\"7\" r=\"2.5\"/><circle class=\"d p3\" cx=\"9\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

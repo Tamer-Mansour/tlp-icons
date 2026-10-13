@@ -1,0 +1,10 @@
+{
+  "name": "shelf-cloud",
+  "category": "weather",
+  "tags": ["shelf", "cloud", "flat", "storm", "front", "horizontal"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h18q0 4-4 4H7q-4 0-4-4z\"/><path class=\"p2\" d=\"M9 18h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 700 }
+  ]
+}

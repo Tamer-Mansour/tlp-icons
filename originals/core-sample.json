@@ -1,0 +1,10 @@
+{
+  "name": "core-sample",
+  "category": "science",
+  "tags": ["core", "sample", "cylinder", "layers", "geology"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M7 8H17M7 12H17M7 16H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

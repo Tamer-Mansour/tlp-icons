@@ -1,0 +1,11 @@
+{
+  "name": "chest-protector",
+  "category": "sport",
+  "tags": ["chest", "protector", "padded", "armor", "hockey", "protection"],
+  "svg": "<path class=\"d p1\" d=\"M7 4H17Q19 4 19 6V17Q12 21 5 17V6Q5 4 7 4Z\"/><path class=\"p2\" d=\"M5 9.5H19\"/><path class=\"p3\" d=\"M9 4V7M15 4V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

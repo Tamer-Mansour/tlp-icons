@@ -1,0 +1,27 @@
+{
+  "name": "document-stamp",
+  "category": "files",
+  "tags": [
+    "document",
+    "stamp",
+    "approve",
+    "official",
+    "seal",
+    "page"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M5 2.5h9.5L19 7v14.5H5z\"/><path class=\"p2\" d=\"M10 5.5h4v3h-4zM8.5 8.5h7v2h-7zM12 10.5v3.5M8.5 17.5h7\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "stamp",
+      "dur": 600,
+      "delay": 800
+    }
+  ]
+}

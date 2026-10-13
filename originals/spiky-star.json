@@ -1,0 +1,10 @@
+{
+  "name": "spiky-star",
+  "category": "shapes",
+  "tags": ["star", "spiky", "points", "burst", "outline", "shape"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2 14.5,9 21.5,8 16.5,13 20,21 12,16.5 4,21 7.5,13 2.5,8 9.5,9\"/><circle class=\"f p2\" cx=\"19\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

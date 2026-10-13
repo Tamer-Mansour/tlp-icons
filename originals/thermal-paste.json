@@ -1,0 +1,11 @@
+{
+  "name": "thermal-paste",
+  "category": "devices",
+  "tags": ["thermal", "paste", "tube", "cpu", "cooling", "drop"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"9\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7 8V5h5v3\"/><path class=\"p3\" d=\"M18.5 3c0 0 2.5 3 2.5 4.5a2.5 2.5 0 0 1-5 0C16 6 18.5 3 18.5 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 700, "delay": 900 }
+  ]
+}

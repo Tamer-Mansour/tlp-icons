@@ -1,0 +1,11 @@
+{
+  "name": "level-meter",
+  "category": "charts",
+  "tags": ["level", "meter", "gauge", "segments", "bar", "volume"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M7 9H17M7 15H17\"/><rect class=\"d p3\" x=\"7\" y=\"9\" width=\"10\" height=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1100 }
+  ]
+}

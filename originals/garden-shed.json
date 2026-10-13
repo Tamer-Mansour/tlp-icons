@@ -1,0 +1,11 @@
+{
+  "name": "garden-shed",
+  "category": "buildings",
+  "tags": ["shed", "garden", "storage", "tool", "sloped", "doors"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V9.5L21 5v16z\"/><rect class=\"p2\" x=\"7.5\" y=\"12\" width=\"9\" height=\"9\"/><path class=\"p3\" d=\"M12 12v9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1100 }
+  ]
+}

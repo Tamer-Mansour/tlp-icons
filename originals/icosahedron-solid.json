@@ -1,0 +1,10 @@
+{
+  "name": "icosahedron-solid",
+  "category": "science",
+  "tags": ["icosahedron", "sphere", "solid", "triangles", "polyhedron", "geometry", "faces"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 21,9 17.5,20 6.5,20 3,9\"/><path class=\"p2\" d=\"M3 9l9 4 9-4M12 13l-2.5 7M12 13l2.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

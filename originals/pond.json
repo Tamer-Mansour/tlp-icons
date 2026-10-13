@@ -1,0 +1,10 @@
+{
+  "name": "pond",
+  "category": "nature",
+  "tags": ["pond", "water", "lily", "pool", "nature"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"15\" rx=\"8\" ry=\"4\"/><path class=\"p2\" d=\"M16 9l-2.5-3M16 9l2.5-3M16 9V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 700, "origin": "16px 11px" }
+  ]
+}

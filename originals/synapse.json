@@ -1,0 +1,11 @@
+{
+  "name": "synapse",
+  "category": "science",
+  "tags": ["synapse", "neuron", "signal", "nerve", "brain", "biology"],
+  "svg": "<path class=\"p1\" d=\"M4 5Q8 12 4 19\"/><path class=\"p2\" d=\"M20 5Q16 12 20 19\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

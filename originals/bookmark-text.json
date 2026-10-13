@@ -1,0 +1,10 @@
+{
+  "name": "bookmark-text",
+  "category": "text",
+  "tags": ["bookmark", "ribbon", "text", "saved", "page", "marker"],
+  "svg": "<path class=\"p1\" d=\"M5 10h10M5 14h14M5 18h9\"/><path class=\"p2\" d=\"M15 3h3v5l-1.5-1.5L15 8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideDown", "dur": 400, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "blend-screen",
+  "category": "design",
+  "tags": ["blend", "screen", "overlap", "light", "layers", "mode"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"d p2\" cx=\"15\" cy=\"12\" r=\"6\"/><path class=\"p3\" d=\"M12 6.8A6 6 0 0 0 12 17.2A6 6 0 0 0 12 6.8Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 700 }
+  ]
+}

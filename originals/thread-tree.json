@@ -1,0 +1,11 @@
+{
+  "name": "thread-tree",
+  "category": "communication",
+  "tags": ["thread", "tree", "replies", "branch", "nested", "conversation"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p3\" d=\"M12 7.5 V11 M6 11 H18 M6 11 V14.5 M18 11 V14.5\"/><circle class=\"p2\" cx=\"6\" cy=\"19\" r=\"2.5\"/><circle class=\"p2\" cx=\"18\" cy=\"19\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

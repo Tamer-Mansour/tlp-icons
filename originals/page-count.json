@@ -1,0 +1,11 @@
+{
+  "name": "page-count",
+  "category": "files",
+  "tags": ["page", "count", "pages", "number", "total", "document"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h11v16H3z\"/><path class=\"p2\" d=\"M6 2h10v16\"/><rect class=\"p3\" x=\"18\" y=\"9.5\" width=\"3.5\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "key-ring",
+  "category": "security",
+  "tags": ["key", "ring", "keys", "bundle", "access", "home"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"3\"/><path class=\"p3\" d=\"M9.3 7.6L6.5 14.5M12 8v8.5M14.7 7.6l2.8 6.9\"/><circle class=\"d p2\" cx=\"6\" cy=\"17\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"19\" r=\"2.5\"/><circle class=\"d p2\" cx=\"18\" cy=\"17\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "head-scratch",
+  "category": "people",
+  "tags": ["scratch", "head", "confused", "thinking", "puzzle", "itch"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M13 8.5V5.5a1.5 1.5 0 0 1 3 0v3\"/><path class=\"p3\" d=\"M20 4l1.5-1.5M21 8h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 600, "origin": "bottom" },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1300 }
+  ]
+}

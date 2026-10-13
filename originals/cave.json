@@ -1,0 +1,11 @@
+{
+  "name": "cave",
+  "category": "buildings",
+  "tags": ["cave", "rock", "entrance", "cavern", "stalactites", "mountain"],
+  "svg": "<path class=\"d p1\" d=\"M2 21V11c0-5 4-8 10-8s10 3 10 8v10z\"/><path class=\"p2\" d=\"M8 21v-5a4 4 0 0 1 8 0v5\"/><path class=\"p3\" d=\"M9 8v2M15 8v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

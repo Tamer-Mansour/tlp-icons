@@ -1,0 +1,11 @@
+{
+  "name": "paragraph-merge",
+  "category": "text",
+  "tags": ["merge", "paragraph", "join", "combine", "text", "block", "unite"],
+  "svg": "<path class=\"p1\" d=\"M3 5h9M3 8.5h6M3 15.5h6M3 19h9\"/><path class=\"p2\" d=\"M13 8.5l3 2.5M13 15.5l3-2.5\"/><path class=\"p3\" d=\"M18 8h4M18 11.5h4M18 15h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 1100 }
+  ]
+}

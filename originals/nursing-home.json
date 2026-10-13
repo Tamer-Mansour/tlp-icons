@@ -1,0 +1,11 @@
+{
+  "name": "nursing-home",
+  "category": "buildings",
+  "tags": ["nursing", "home", "care", "cross", "elderly", "medical"],
+  "svg": "<path class=\"p1\" d=\"M3 10l9-6 9 6v11H3z\"/><path class=\"p2\" d=\"M12 8.5v5M9.5 11h5\"/><path class=\"p3\" d=\"M10 21v-4.5h4V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

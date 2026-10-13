@@ -1,0 +1,10 @@
+{
+  "name": "race-bell",
+  "category": "sport",
+  "tags": ["bell", "race", "clapper", "start", "ring"],
+  "svg": "<path class=\"d p1\" d=\"M7 15Q7 6 12 6Q17 6 17 15L18 16.5H6Z\"/><path class=\"p1\" d=\"M12 19V21\"/><path class=\"p2\" d=\"M12 2.5V4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 400, "origin": "12px 6px" }
+  ]
+}

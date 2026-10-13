@@ -1,0 +1,10 @@
+{
+  "name": "donor-heart",
+  "category": "people",
+  "tags": ["donor", "heart", "donation", "giving", "charity"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2 21a4.5 4.5 0 0 1 9 0\"/><path class=\"p2\" d=\"M18.5 19.5L15.3 16.3A2.2 2.2 0 0 1 18.5 13.2A2.2 2.2 0 0 1 21.7 16.3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "beat", "dur": 800, "delay": 600 }
+  ]
+}

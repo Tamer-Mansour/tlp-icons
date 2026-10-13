@@ -1,0 +1,11 @@
+{
+  "name": "panel-discussion",
+  "category": "communication",
+  "tags": ["panel", "discussion", "round table", "debate", "conversation"],
+  "svg": "<rect class=\"p2\" x=\"2\" y=\"2\" width=\"7\" height=\"5\" rx=\"1.5\"/><rect class=\"p3\" x=\"15\" y=\"2\" width=\"7\" height=\"5\" rx=\"1.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><rect class=\"p2\" x=\"8.5\" y=\"17\" width=\"7\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 600, "delay": 900 }
+  ]
+}

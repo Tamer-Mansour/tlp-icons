@@ -1,0 +1,11 @@
+{
+  "name": "phone-holder",
+  "category": "devices",
+  "tags": ["phone", "holder", "clamp", "mount", "stand", "car"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M3 11h3M18 11h3\"/><path class=\"p3\" d=\"M7 20h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 1000 }
+  ]
+}

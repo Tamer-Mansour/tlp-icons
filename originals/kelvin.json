@@ -1,0 +1,11 @@
+{
+  "name": "kelvin",
+  "category": "weather",
+  "tags": ["kelvin", "temperature", "thermometer", "unit", "scale", "science"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M6.5 8.5v7M10.5 8.5l-4 3.5 4 3.5\"/><path class=\"p3\" d=\"M18.5 4v11\"/><circle class=\"p3\" cx=\"18.5\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 800, "delay": 900, "origin": "bottom" }
+  ]
+}

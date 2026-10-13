@@ -1,0 +1,10 @@
+{
+  "name": "tabs-stack",
+  "category": "interface",
+  "tags": ["tabs", "stack", "pages", "cards", "multiple", "sheets"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2.5\" width=\"13\" height=\"10\" rx=\"2\"/><rect class=\"d p2\" x=\"2.5\" y=\"9.5\" width=\"13\" height=\"10\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

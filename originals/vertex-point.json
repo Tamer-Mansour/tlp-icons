@@ -1,0 +1,10 @@
+{
+  "name": "vertex-point",
+  "category": "math",
+  "tags": ["vertex", "point", "corner", "angle", "meet"],
+  "svg": "<path class=\"p1\" d=\"M5 5L12 17L19 5\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

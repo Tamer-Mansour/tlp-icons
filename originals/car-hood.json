@@ -1,0 +1,11 @@
+{
+  "name": "car-hood",
+  "category": "vehicles",
+  "tags": ["car", "hood", "front", "engine", "vehicle", "auto"],
+  "svg": "<path class=\"d p1\" d=\"M3 15V12.5Q3 11 4.5 10.5L7 8.5H17L19.5 10.5Q21 11 21 12.5V15Z\"/><path class=\"p2\" d=\"M5.5 12H10\"/><path class=\"p2\" d=\"M2.5 15H21.5\"/><circle class=\"p3\" cx=\"7\" cy=\"16.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"16.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 1000 }
+  ]
+}

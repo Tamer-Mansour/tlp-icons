@@ -1,0 +1,10 @@
+{
+  "name": "wire-rope",
+  "category": "tools",
+  "tags": ["wire", "rope", "cable", "steel", "strands", "rigging"],
+  "svg": "<path class=\"p1\" d=\"M3 8 Q7 4 12 8 T21 8 M3 16 Q7 12 12 16 T21 16\"/><path class=\"p2\" d=\"M3 5 V19 M21 5 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 1000 }
+  ]
+}

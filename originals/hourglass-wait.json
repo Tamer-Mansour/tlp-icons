@@ -1,0 +1,10 @@
+{
+  "name": "hourglass-wait",
+  "category": "notifications",
+  "tags": ["hourglass", "wait", "timer", "loading", "sand", "pending"],
+  "svg": "<path class=\"p1\" d=\"M7 3h10c0 4-5 5-5 9s5 5 5 9H7c0-4 5-5 5-9s-5-5-5-9z\"/><path class=\"d p2\" d=\"M9 19h6l-3-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 }
+  ]
+}

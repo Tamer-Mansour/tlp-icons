@@ -1,0 +1,12 @@
+{
+  "name": "face-party",
+  "category": "emoji",
+  "tags": ["face", "party", "hat", "celebrate", "birthday"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"7\"/><polygon class=\"p2\" points=\"7 9 12.5 3 16 9\"/><path class=\"p3\" d=\"M18.5 9.5 21 6.5\"/><circle class=\"f p4\" cx=\"10\" cy=\"13.5\" r=\"1\"/><circle class=\"f p4\" cx=\"14\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "fadeIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1300 }
+  ]
+}

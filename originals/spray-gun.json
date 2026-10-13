@@ -1,0 +1,11 @@
+{
+  "name": "spray-gun",
+  "category": "tools",
+  "tags": ["spray", "paint", "gun", "cup", "airbrush", "coating"],
+  "svg": "<path class=\"d p1\" d=\"M4 8 H14 V12 H10 V18 H6 V13 H4 Z\"/><rect class=\"p2\" x=\"5\" y=\"2\" width=\"6\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M16 8 L21 5 M16 11 H21 M16 14 L21 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 1000 }
+  ]
+}

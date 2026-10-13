@@ -1,0 +1,11 @@
+{
+  "name": "align-top-edge",
+  "category": "interface",
+  "tags": ["align", "top", "edge", "layout", "bars", "justify"],
+  "svg": "<path class=\"p1\" d=\"M3 3H21\"/><rect class=\"d p2\" x=\"6\" y=\"7\" width=\"5\" height=\"12\"/><rect class=\"d p3\" x=\"13\" y=\"7\" width=\"5\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "trowel-dig",
+  "category": "science",
+  "tags": ["trowel", "dig", "soil", "archaeology", "garden", "excavation"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 C7 9 13 9 17 11 C15 15 9 16 5 11 Z\"/><line class=\"p2\" x1=\"17\" y1=\"11\" x2=\"21\" y2=\"4\"/><path class=\"p3\" d=\"M3 19 C7 17 9 21 13 19 S19 17 21 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "dig", "dur": 800, "delay": 1100 }
+  ]
+}

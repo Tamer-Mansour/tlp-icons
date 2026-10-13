@@ -1,0 +1,11 @@
+{
+  "name": "fan-breeze",
+  "category": "weather",
+  "tags": ["fan", "breeze", "cool", "air", "blades", "wind"],
+  "svg": "<path class=\"p1\" d=\"M12 12C10 9 9.5 5.5 11.5 4.5 13.5 3.5 14 7.5 12 12Z\"/><path class=\"p1\" d=\"M12 12C14.5 13.5 18 14 18.5 16 17.5 18 14 16.5 12 12Z\"/><path class=\"p1\" d=\"M12 12C9.5 13.5 6 14 5.5 16 6.5 18 10 16.5 12 12Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M3 9h7M3 15h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "spinFast", "dur": 1000, "delay": 0 },
+    { "part": "p3", "anim": "whooshIn", "dur": 800, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

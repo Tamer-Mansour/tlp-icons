@@ -1,0 +1,11 @@
+{
+  "name": "synagogue",
+  "category": "buildings",
+  "tags": ["synagogue", "temple", "jewish", "window", "worship"],
+  "svg": "<path class=\"p1\" d=\"M7 21V12a5 5 0 0 1 10 0v9\"/><path class=\"p2\" d=\"M3 9v12h18V9\"/><circle class=\"p3\" cx=\"12\" cy=\"3.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

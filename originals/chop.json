@@ -1,0 +1,11 @@
+{
+  "name": "chop",
+  "category": "food",
+  "tags": ["chop", "knife", "cut", "kitchen", "vegetable"],
+  "svg": "<path class=\"d p1\" d=\"M4 5 H14 L19 11 H4 Z\"/><line class=\"p2\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><rect class=\"p3\" x=\"8\" y=\"15\" width=\"8\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "strike", "dur": 600, "delay": 400, "origin": "12px 11px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

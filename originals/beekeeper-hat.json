@@ -1,0 +1,11 @@
+{
+  "name": "beekeeper-hat",
+  "category": "people",
+  "tags": ["beekeeper","veil","bee","hat","apiary"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 10V8.5a4.5 4.5 0 0 1 9 0V10z\"/><path class=\"p2\" d=\"M3 10h18\"/><path class=\"p3\" d=\"M5.5 10L4.5 20h15L18.5 10M9.5 10v10M14.5 10v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "rail-signal-light",
+  "category": "vehicles",
+  "tags": ["rail", "signal", "light", "railway", "post"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"21\"/><rect class=\"d p2\" x=\"8\" y=\"3\" width=\"8\" height=\"6\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000 }
+  ]
+}

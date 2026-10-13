@@ -1,0 +1,11 @@
+{
+  "name": "agreement-handshake",
+  "category": "files",
+  "tags": ["agreement", "deal", "contract", "handshake", "agree"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M9.5 12.5l2 2 3.5-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

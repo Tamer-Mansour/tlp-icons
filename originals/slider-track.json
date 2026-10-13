@@ -1,0 +1,10 @@
+{
+  "name": "slider-track",
+  "category": "interface",
+  "tags": ["slider", "track", "range", "volume", "adjust", "thumb"],
+  "svg": "<path class=\"p1\" d=\"M3.5 12h17\"/><circle class=\"d p2\" cx=\"14\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 700 }
+  ]
+}

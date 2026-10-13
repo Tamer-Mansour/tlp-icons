@@ -1,0 +1,11 @@
+{
+  "name": "scaffold-plank",
+  "category": "tools",
+  "tags": ["plank","scaffold","board","hooks","construction","platform"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M6 11v6M18 11v6\"/><path class=\"p3\" d=\"M3 20h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

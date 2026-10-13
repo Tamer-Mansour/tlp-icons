@@ -1,0 +1,11 @@
+{
+  "name": "spec-sheet",
+  "category": "files",
+  "tags": ["spec", "sheet", "table", "grid", "data"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1\"/><line class=\"p2\" x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\"/><line class=\"p3\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "person-climbing-stairs",
+  "category": "people",
+  "tags": ["stairs", "climb", "climbing", "steps", "walk", "staircase"],
+  "svg": "<path class=\"p1\" d=\"M4 21 H8 V17 H12 V13 H16 V9 H20\"/><circle class=\"p2\" cx=\"14\" cy=\"5\" r=\"2\"/><path class=\"p3\" d=\"M14 7.5 V11 M14 11 L12.5 13 M14 11 L15.5 13 M14 8.5 L16.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

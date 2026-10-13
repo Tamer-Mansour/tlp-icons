@@ -1,0 +1,11 @@
+{
+  "name": "photo-lock",
+  "category": "photography",
+  "tags": ["photo", "lock", "private", "secure", "image", "protect"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"10\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"15\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M16.5 15V13A1.5 1.5 0 0 1 19.5 13V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1100 }
+  ]
+}

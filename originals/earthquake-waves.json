@@ -1,0 +1,10 @@
+{
+  "name": "earthquake-waves",
+  "category": "science",
+  "tags": ["earthquake", "seismic", "waves", "ground", "tremor", "quake"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"16\" x2=\"21\" y2=\"16\"/><path class=\"p2\" d=\"M8 16 A4 4 0 0 1 16 16 M5 16 A7 7 0 0 1 19 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 600 }
+  ]
+}

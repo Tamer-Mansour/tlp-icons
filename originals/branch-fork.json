@@ -1,0 +1,11 @@
+{
+  "name": "branch-fork",
+  "category": "development",
+  "tags": ["branch", "fork", "split", "diverge", "git", "flow"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-6\"/><path class=\"p2\" d=\"M12 15l-6-6V3\"/><path class=\"p3\" d=\"M12 15l6-6V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1200 }
+  ]
+}

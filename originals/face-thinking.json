@@ -1,0 +1,11 @@
+{
+  "name": "face-thinking",
+  "category": "emoji",
+  "tags": ["face", "thinking", "hmm", "ponder", "emoji"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M9 15.5c1 .8 2 .8 3 0s2-.8 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1200 }
+  ]
+}

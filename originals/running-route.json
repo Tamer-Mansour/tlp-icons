@@ -1,0 +1,11 @@
+{
+  "name": "running-route",
+  "category": "sport",
+  "tags": ["running", "route", "path", "finish", "trail", "run"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M4 18 C8 18 7 12 11 12 C15 12 14 8 19 8\"/><path class=\"p3\" d=\"M19 8 V3 L21.5 4 L19 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1300 }
+  ]
+}

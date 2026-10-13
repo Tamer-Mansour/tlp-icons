@@ -1,0 +1,10 @@
+{
+  "name": "widget-resize",
+  "category": "layout",
+  "tags": ["resize", "widget", "corner", "drag", "size"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M14 19h5v-5M19 19l-6-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 800 }
+  ]
+}

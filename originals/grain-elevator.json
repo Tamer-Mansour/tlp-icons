@@ -1,0 +1,11 @@
+{
+  "name": "grain-elevator",
+  "category": "buildings",
+  "tags": ["grain", "elevator", "silo", "bin", "farm", "harvest", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M6 19V8a6 6 0 0 1 12 0v11z\"/><path class=\"p2\" d=\"M6 12h12M6 15.5h12\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

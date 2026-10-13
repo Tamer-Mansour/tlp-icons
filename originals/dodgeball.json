@@ -1,0 +1,10 @@
+{
+  "name": "dodgeball",
+  "category": "sport",
+  "tags": ["dodgeball", "ball", "throw", "dodge", "game", "motion"],
+  "svg": "<circle class=\"d p1\" cx=\"14\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M2 9H5M2 15H5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 700, "delay": 500 }
+  ]
+}

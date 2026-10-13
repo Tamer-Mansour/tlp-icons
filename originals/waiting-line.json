@@ -1,0 +1,10 @@
+{
+  "name": "waiting-line",
+  "category": "people",
+  "tags": ["waiting", "queue", "rope", "barrier", "line", "wait"],
+  "svg": "<path class=\"p1\" d=\"M3.5 21V8M20.5 21V8M3.5 9h17\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"2\"/><path class=\"p2\" d=\"M8.5 21a3.5 3.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

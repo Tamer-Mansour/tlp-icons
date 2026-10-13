@@ -1,0 +1,10 @@
+{
+  "name": "egg-yolk",
+  "category": "food",
+  "tags": ["egg", "yolk", "breakfast", "protein", "cooking"],
+  "svg": "<path class=\"p1\" d=\"M12 3c-4.5 0-8 4-8 8.5S7.5 21 12 21s8-3.5 8-9.5S16.5 3 12 3z\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

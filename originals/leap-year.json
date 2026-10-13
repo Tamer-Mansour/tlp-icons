@@ -1,0 +1,12 @@
+{
+  "name": "leap-year",
+  "category": "time",
+  "tags": ["leap", "year", "calendar", "extra", "day"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><path class=\"p3\" d=\"M8 13h2.5a1.25 1.25 0 0 1 0 2.5H8.5V18h2.5M13.5 13v5\"/><path class=\"p4\" d=\"M17.5 19v-4.5M15.5 16.5l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "typeIn", "dur": 800, "delay": 800 },
+    { "part": "p4", "anim": "lift", "dur": 800, "delay": 1500 }
+  ]
+}

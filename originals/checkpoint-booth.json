@@ -1,0 +1,10 @@
+{
+  "name": "checkpoint-booth",
+  "category": "buildings",
+  "tags": ["checkpoint", "booth", "barrier", "arm", "border", "control"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"10\" height=\"10\" rx=\"1\"/><rect class=\"p1\" x=\"5\" y=\"13\" width=\"5\" height=\"3\"/><line class=\"p2\" x1=\"13\" y1=\"15\" x2=\"21\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 800, "origin": "13px 15px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "redo-arrow-right",
+  "category": "interface",
+  "tags": ["redo", "forward", "repeat", "arrow", "again", "next"],
+  "svg": "<path class=\"p1\" d=\"M15 14l5-5-5-5\"/><path class=\"p2\" d=\"M20 9H9.5a5.5 5.5 0 0 0 0 11H13\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

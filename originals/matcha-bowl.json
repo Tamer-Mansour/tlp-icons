@@ -1,0 +1,11 @@
+{
+  "name": "matcha-bowl",
+  "category": "food",
+  "tags": ["matcha", "bowl", "whisk", "tea", "green", "foam"],
+  "svg": "<path class=\"d p1\" d=\"M3 10h18a9 7 0 0 1-18 0z\"/><path class=\"p2\" d=\"M6 13.5h12\"/><path class=\"p3\" d=\"M10 3l2 6 2-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 900, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

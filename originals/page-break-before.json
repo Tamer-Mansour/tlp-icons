@@ -1,0 +1,11 @@
+{
+  "name": "page-break-before",
+  "category": "text",
+  "tags": ["page", "break", "before", "print", "dashed", "layout"],
+  "svg": "<path class=\"p1\" d=\"M4 2H20V22H4Z\"/><path class=\"p2\" d=\"M7 7H9M11 7H13M15 7H17\"/><path class=\"p3\" d=\"M7 12H17M7 16H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "promotion-stairs",
+  "category": "people",
+  "tags": ["promotion", "stairs", "career", "growth", "rise"],
+  "svg": "<path class=\"p1\" d=\"M3 20h4v-4h4v-4h4V8h4v12z\"/><circle class=\"p2\" cx=\"17\" cy=\"4\" r=\"1.5\"/><path class=\"p2\" d=\"M17 5.5V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 900 }
+  ]
+}

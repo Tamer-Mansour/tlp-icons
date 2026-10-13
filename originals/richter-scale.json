@@ -1,0 +1,32 @@
+{
+    "name":  "richter-scale",
+    "category":  "science",
+    "tags":  [
+                 "richter",
+                 "scale",
+                 "earthquake",
+                 "needle",
+                 "measure"
+             ],
+    "svg":  "\u003cpolyline class=\"p1\" points=\"2,12 5,12 7.5,6 10,18 13,3 16,15 18.5,12 22,12\"/\u003e\u003cpath class=\"p2\" d=\"M2 20.5H22\"/\u003e\u003ccircle class=\"f p3\" cx=\"13\" cy=\"20.5\" r=\"1.2\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  1000
+                   },
+                   {
+                       "delay":  900,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  1300,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  300
+                   }
+               ]
+}

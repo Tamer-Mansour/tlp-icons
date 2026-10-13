@@ -1,0 +1,11 @@
+{
+  "name": "pitcher",
+  "category": "home",
+  "tags": ["pitcher", "jug", "water", "pour", "carafe", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M6 9H16V19Q16 21 14 21H8Q6 21 6 19Z\"/><path class=\"p2\" d=\"M6 9L3.5 6.5L7 7\"/><path class=\"p3\" d=\"M16 11H18.5A2 2 0 0 1 18.5 15H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pour", "dur": 800, "delay": 1000, "origin": "6px 9px" }
+  ]
+}

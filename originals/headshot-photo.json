@@ -1,0 +1,11 @@
+{
+  "name": "headshot-photo",
+  "category": "photography",
+  "tags": ["headshot", "portrait", "profile photo", "avatar", "close up", "photo"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"6\"/><circle class=\"d p2\" cx=\"12\" cy=\"10\" r=\"3.5\"/><path class=\"p3\" d=\"M7 20c0-2.5 2-4.5 5-4.5s5 2 5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 900 }
+  ]
+}

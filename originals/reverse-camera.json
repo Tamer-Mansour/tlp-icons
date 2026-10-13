@@ -1,0 +1,12 @@
+{
+  "name": "reverse-camera",
+  "category": "vehicles",
+  "tags": ["reverse", "camera", "car", "parking", "rear", "backup", "view"],
+  "svg": "<path class=\"d p1\" d=\"M3 15v-3.5L5.5 7.5h13L21 11.5V15z\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"1.5\"/><path class=\"p3\" d=\"M6 20.5q6 1.5 12 0\"/><circle class=\"p4\" cx=\"7\" cy=\"17.5\" r=\"1.5\"/><circle class=\"p4\" cx=\"17\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 },
+    { "part": "p2", "anim": "blink", "dur": 900, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "title-case",
+  "category": "text",
+  "tags": ["title", "case", "capital", "heading", "letters", "typography", "underline"],
+  "svg": "<path class=\"p1\" d=\"M3 7h6M6 7v8\"/><path class=\"p2\" d=\"M14 7h6M14 7v8M14 15h6M14 11h4\"/><path class=\"p3\" d=\"M3 19.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

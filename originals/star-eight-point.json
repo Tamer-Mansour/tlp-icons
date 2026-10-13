@@ -1,0 +1,10 @@
+{
+  "name": "star-eight-point",
+  "category": "shapes",
+  "tags": ["star", "eight", "point", "squares", "burst"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\"/><polygon class=\"p2\" points=\"12,3.5 20.5,12 12,20.5 3.5,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

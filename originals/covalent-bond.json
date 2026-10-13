@@ -1,0 +1,10 @@
+{
+  "name": "covalent-bond",
+  "category": "science",
+  "tags": ["covalent", "bond", "shared", "electrons", "chemistry"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"12\" r=\"3.5\"/><circle class=\"d p1\" cx=\"18\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M9.5 10.5H14.5M9.5 13.5H14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

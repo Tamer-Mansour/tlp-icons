@@ -1,0 +1,10 @@
+{
+  "name": "back-button",
+  "category": "interface",
+  "tags": ["back", "previous", "return", "arrow", "button", "navigation"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9.5\"/><polyline class=\"p2\" points=\"13.5 8.5 10 12 13.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 500 }
+  ]
+}

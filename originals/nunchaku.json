@@ -1,0 +1,11 @@
+{
+  "name": "nunchaku",
+  "category": "sport",
+  "tags": ["nunchaku", "martial", "arts", "stick", "sport"],
+  "svg": "<path class=\"p1\" d=\"M3 21L9 15\"/><path class=\"p2\" d=\"M15 9L21 3\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 900, "origin": "15px 9px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kilometer-marker",
+  "category": "vehicles",
+  "tags": ["kilometer", "marker", "road", "sign", "distance", "post"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"8\" rx=\"4\"/><path class=\"p2\" d=\"M12 11v11\"/><path class=\"p3\" d=\"M8 7h8M13.5 4.5L16 7l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

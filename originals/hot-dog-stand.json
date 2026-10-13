@@ -1,0 +1,10 @@
+{
+  "name": "hot-dog-stand",
+  "category": "buildings",
+  "tags": ["hot dog", "sausage", "stand", "umbrella", "food"],
+  "svg": "<path class=\"d p1\" d=\"M5 13H16A2.5 2.5 0 0 1 16 18H5A2.5 2.5 0 0 1 5 13Z\"/><path class=\"p2\" d=\"M3 9C3 6 6.5 4 11 4S19 6 19 9Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "smartphone-lens-clip",
+  "category": "photography",
+  "tags": ["clip lens", "phone lens", "smartphone", "lens attachment", "mobile", "camera"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><line class=\"p3\" x1=\"16\" y1=\"6\" x2=\"18\" y2=\"6\"/><circle class=\"d p2\" cx=\"20\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

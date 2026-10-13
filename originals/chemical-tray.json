@@ -1,0 +1,11 @@
+{
+  "name": "chemical-tray",
+  "category": "photography",
+  "tags": ["chemical tray", "darkroom", "developer", "liquid", "film", "dropper"],
+  "svg": "<path class=\"p1\" d=\"M3 14h18v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M6 17c1.5-1 2.5 1 4 0s2.5 1 4 0 2.5 1 4 0\"/><path class=\"p3\" d=\"M12 4v5M10 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 700, "delay": 1200 }
+  ]
+}

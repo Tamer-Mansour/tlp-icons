@@ -1,0 +1,11 @@
+{
+  "name": "message-trash",
+  "category": "communication",
+  "tags": ["trash", "delete", "message", "bubble", "remove", "bin"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"14\" rx=\"3\"/><line class=\"p2\" x1=\"9\" y1=\"7\" x2=\"15\" y2=\"7\"/><path class=\"p3\" d=\"M9.5 9.5v4M14.5 9.5v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

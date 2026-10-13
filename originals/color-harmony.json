@@ -1,0 +1,10 @@
+{
+  "name": "color-harmony",
+  "category": "design",
+  "tags": ["color", "harmony", "palette", "triangle", "scheme", "theory"],
+  "svg": "<polygon class=\"p1\" points=\"12 5 19 18 5 18\"/><circle class=\"d p2\" cx=\"12\" cy=\"5\" r=\"2\"/><circle class=\"d p2\" cx=\"19\" cy=\"18\" r=\"2\"/><circle class=\"d p2\" cx=\"5\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "blame-user",
+  "category": "development",
+  "tags": ["blame", "author", "user", "line", "owner", "history"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M3 21V19A5 5 0 0 1 13 19V21\"/><path class=\"p2\" d=\"M16 9H21M16 13H20M16 17H21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "nod", "dur": 700, "delay": 800 }
+  ]
+}

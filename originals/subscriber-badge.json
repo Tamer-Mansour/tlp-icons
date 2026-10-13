@@ -1,0 +1,11 @@
+{
+  "name": "subscriber-badge",
+  "category": "people",
+  "tags": ["subscriber", "badge", "bell", "notify", "member", "alert", "follow"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8.5 15v-4a3.5 3.5 0 0 1 7 0v4l1 1.5h-9z\"/><path class=\"p3\" d=\"M11 19h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 7px" }
+  ]
+}

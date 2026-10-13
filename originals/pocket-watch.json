@@ -1,0 +1,11 @@
+{
+  "name": "pocket-watch",
+  "category": "time",
+  "tags": ["watch", "pocket", "vintage", "clock", "bow"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M10 6V4a2 2 0 0 1 4 0v2\"/><path class=\"p3\" d=\"M12 13V9M12 13h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "12px 13px" }
+  ]
+}

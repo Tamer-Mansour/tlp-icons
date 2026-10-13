@@ -1,0 +1,11 @@
+{
+  "name": "solar-farm",
+  "category": "buildings",
+  "tags": ["solar", "farm", "panels", "energy", "field", "renewable"],
+  "svg": "<polygon class=\"d p1\" points=\"3,13 7,8 16,8 12,13\"/><polygon class=\"d p2\" points=\"9,20 13,15 21,15 17,20\"/><circle class=\"p3\" cx=\"18\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "solar-inverter",
+  "category": "devices",
+  "tags": ["solar", "inverter", "power", "sun", "energy", "panel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M6 12C7.5 9 9.5 9 11 12C12.5 15 14.5 15 16 12\"/><circle class=\"p3\" cx=\"20.5\" cy=\"6.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

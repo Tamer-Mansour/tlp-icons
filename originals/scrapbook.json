@@ -1,0 +1,11 @@
+{
+  "name": "scrapbook",
+  "category": "home",
+  "tags": ["scrapbook", "album", "photo", "pages", "tape", "memory"],
+  "svg": "<path class=\"d p1\" d=\"M12 6c-2-1.5-5-2-9-1.5v14c4-.5 7 0 9 1.5 2-1.5 5-2 9-1.5v-14c-4-.5-7 0-9 1.5z\"/><path class=\"p2\" d=\"M5.5 8.5h2.5M5.5 8.5v2.5M18.5 8.5h-2.5M18.5 8.5v2.5\"/><rect class=\"p3\" x=\"10\" y=\"10.5\" width=\"4\" height=\"2.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "trend-flat",
+  "category": "arrows",
+  "tags": ["trend", "flat", "steady", "unchanged", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 16 L8 11 L12 15 L17 12 H21\"/><path class=\"p2\" d=\"M18 8 L21 12 L18 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

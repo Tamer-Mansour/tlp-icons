@@ -1,0 +1,11 @@
+{
+  "name": "salon-shop",
+  "category": "buildings",
+  "tags": ["salon", "barber", "hair shop", "storefront", "chair"],
+  "svg": "<path class=\"p1\" d=\"M3 9l9-6 9 6\"/><rect class=\"d p2\" x=\"4\" y=\"11\" width=\"16\" height=\"10\"/><path class=\"p3\" d=\"M10 12v5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pier",
+  "category": "buildings",
+  "tags": ["pier", "boardwalk", "water", "posts", "sea"],
+  "svg": "<path class=\"p1\" d=\"M2 10h20\"/><path class=\"p2\" d=\"M6 10v6M12 10v6M18 10v6\"/><path class=\"p3\" d=\"M2 21q2.5-1.5 5 0t5 0t5 0t5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 1000 }
+  ]
+}

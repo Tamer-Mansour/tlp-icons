@@ -1,0 +1,11 @@
+{
+  "name": "coolant-temp",
+  "category": "vehicles",
+  "tags": ["coolant", "temperature", "thermometer", "engine", "heat", "gauge"],
+  "svg": "<path class=\"p1\" d=\"M9 14.5V5.5A3 3 0 0 1 15 5.5V14.5A4.5 4.5 0 1 1 9 14.5Z\"/><circle class=\"d p2\" cx=\"12\" cy=\"17.5\" r=\"1.5\"/><path class=\"p3\" d=\"M2.5 9.5q1.5-1.5 3 0t3 0\"/><path class=\"p3\" d=\"M2.5 12.5q1.5-1.5 3 0t3 0\"/><path class=\"p3\" d=\"M2.5 15.5q1.5-1.5 3 0t3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

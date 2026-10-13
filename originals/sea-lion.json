@@ -1,0 +1,11 @@
+{
+  "name": "sea-lion",
+  "category": "nature",
+  "tags": ["sea", "flipper", "ocean", "seal", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 C5 10 9 9 13 9 C17 9 20 10 21 13 C20 15 17 16 13 16 C9 16 5 17 3 15 Z\"/><path class=\"p2\" d=\"M10 15 C8 18 7 19 5 19 C6 17 7 16 9 14\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"11.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1100 }
+  ]
+}

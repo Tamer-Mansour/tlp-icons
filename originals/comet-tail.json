@@ -1,0 +1,10 @@
+{
+  "name": "comet-tail",
+  "category": "science",
+  "tags": ["comet", "tail", "space", "meteor", "streak", "astronomy"],
+  "svg": "<path class=\"p2\" d=\"M10 14.5L20.5 4M11 18L20 9.5\"/><circle class=\"d p1\" cx=\"7\" cy=\"17\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "float", "dur": 1600, "delay": 800 }
+  ]
+}

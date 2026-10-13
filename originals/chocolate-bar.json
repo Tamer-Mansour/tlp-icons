@@ -1,0 +1,11 @@
+{
+  "name": "chocolate-bar",
+  "category": "food",
+  "tags": ["food", "chocolate", "bar", "candy", "sweet", "cocoa"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M4 9.5h16M4 14h16\"/><path class=\"p3\" d=\"M9 5v14M15 5v14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

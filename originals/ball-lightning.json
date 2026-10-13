@@ -1,0 +1,10 @@
+{
+  "name": "ball-lightning",
+  "category": "weather",
+  "tags": ["lightning", "bolt", "storm", "electric", "orb", "energy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polyline class=\"p2\" points=\"13 6 9 12.5 12.5 12.5 11 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 500 }
+  ]
+}

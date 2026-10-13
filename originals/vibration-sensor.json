@@ -1,0 +1,11 @@
+{
+  "name": "vibration-sensor",
+  "category": "devices",
+  "tags": ["vibration", "sensor", "shake", "motion", "movement", "monitor"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"9\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M3 12 H6.5 M4.5 10 L3 12 L4.5 14\"/><path class=\"p3\" d=\"M17.5 12 H21 M19.5 10 L21 12 L19.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

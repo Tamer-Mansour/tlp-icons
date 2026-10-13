@@ -1,0 +1,10 @@
+{
+  "name": "spring-coil",
+  "category": "science",
+  "tags": ["spring", "coil", "elastic", "physics", "force"],
+  "svg": "<path class=\"p1\" d=\"M2 12 H4 L6 6 L9 18 L12 6 L15 18 L16 12\"/><rect class=\"d p2\" x=\"16\" y=\"8\" width=\"5\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spring", "dur": 900, "delay": 900 }
+  ]
+}

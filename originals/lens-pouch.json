@@ -1,0 +1,11 @@
+{
+  "name": "lens-pouch",
+  "category": "photography",
+  "tags": ["lens pouch", "pouch", "zipper", "case", "lens"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M5 12h14\"/><rect class=\"p3\" x=\"11\" y=\"4\" width=\"3\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

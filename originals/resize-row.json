@@ -1,0 +1,10 @@
+{
+  "name": "resize-row",
+  "category": "interface",
+  "tags": ["resize", "row", "height", "divider", "drag", "vertical"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><polyline class=\"p2\" points=\"9,7 12,4 15,7\"/><polyline class=\"p2\" points=\"9,17 12,20 15,17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spring", "dur": 800, "delay": 700 }
+  ]
+}

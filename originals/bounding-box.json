@@ -1,0 +1,11 @@
+{
+  "name": "bounding-box",
+  "category": "shapes",
+  "tags": ["bounding", "box", "selection", "handles", "dashed", "transform"],
+  "svg": "<path class=\"p1\" d=\"M7 3H3V7M17 3H21V7M21 17V21H17M7 21H3V17\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><circle class=\"f p3\" cx=\"3\" cy=\"3\" r=\"1\"/><circle class=\"f p3\" cx=\"21\" cy=\"3\" r=\"1\"/><circle class=\"f p3\" cx=\"3\" cy=\"21\" r=\"1\"/><circle class=\"f p3\" cx=\"21\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

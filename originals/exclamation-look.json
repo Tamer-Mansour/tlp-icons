@@ -1,0 +1,11 @@
+{
+  "name": "exclamation-look",
+  "category": "people",
+  "tags": ["exclamation", "alert", "surprised", "head", "attention", "shock"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"13\" r=\"6\"/><path class=\"p2\" d=\"M19 4v9\"/><circle class=\"f p3\" cx=\"19\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

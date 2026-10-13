@@ -1,0 +1,10 @@
+{
+  "name": "polyhedron",
+  "category": "science",
+  "tags": ["polyhedron", "cube", "solid", "geometry", "shape", "3d"],
+  "svg": "<polygon class=\"p1\" points=\"12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5\"/><polyline class=\"p2\" points=\"4,7.5 12,12 20,7.5\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

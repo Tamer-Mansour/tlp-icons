@@ -1,0 +1,11 @@
+{
+  "name": "envelope-heart",
+  "category": "communication",
+  "tags": ["envelope", "heart", "love", "letter", "valentine", "mail", "romance"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h18v12H3z\"/><path class=\"p2\" d=\"M3 6l9 7 9-7\"/><path class=\"p3\" d=\"M12 12.5l-2.2-2.2a1.6 1.6 0 0 1 2.2-2.3 1.6 1.6 0 0 1 2.2 2.3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "beat", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "counter-clicks",
+  "category": "charts",
+  "tags": ["counter", "dial", "tally", "clicks", "ticks", "count"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 6v2.5M18 12h-2.5M12 18v-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 800 }
+  ]
+}

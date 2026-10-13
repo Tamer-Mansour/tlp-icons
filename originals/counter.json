@@ -1,0 +1,12 @@
+{
+  "name": "counter",
+  "category": "interface",
+  "tags": ["counter", "number", "stepper", "quantity", "plus", "minus"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"5\"/><path class=\"p2\" d=\"M6 12h3\"/><path class=\"p4\" d=\"M11.5 10.5l1-1v5\"/><path class=\"p3\" d=\"M15.5 12h3M17 10.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "typeIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000, "origin": "17px 12px" }
+  ]
+}

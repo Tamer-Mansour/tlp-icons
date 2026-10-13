@@ -1,0 +1,11 @@
+{
+  "name": "fuel-cell",
+  "category": "devices",
+  "tags": ["fuel", "cell", "hydrogen", "energy", "battery", "power"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"16\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M14 9l-2 3h3l-2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1200, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1100 }
+  ]
+}

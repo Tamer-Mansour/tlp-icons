@@ -1,0 +1,11 @@
+{
+  "name": "baseball-cap",
+  "category": "sport",
+  "tags": ["cap", "baseball", "hat", "brim", "sports", "headwear"],
+  "svg": "<path class=\"d p1\" d=\"M4 14A8 8 0 0 1 20 14Z\"/><path class=\"p2\" d=\"M3 14.5Q11 17 19 14\"/><circle class=\"f p3\" cx=\"12\" cy=\"7.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

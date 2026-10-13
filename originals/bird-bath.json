@@ -1,0 +1,11 @@
+{
+  "name": "bird-bath",
+  "category": "nature",
+  "tags": ["bird", "bath", "garden", "water", "birds"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 H21 C21 15 17 17 12 17 C7 17 3 15 3 10 Z\"/><path class=\"p2\" d=\"M12 17 V20\"/><path class=\"p2\" d=\"M8 21 H16\"/><path class=\"p3\" d=\"M7 6.5 Q9.5 5 12 6.5 T17 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1000 }
+  ]
+}

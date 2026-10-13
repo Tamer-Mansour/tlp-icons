@@ -1,0 +1,12 @@
+{
+  "name": "paw-track",
+  "category": "nature",
+  "tags": ["paw", "track", "animal", "pet", "prints"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7\" cy=\"16\" rx=\"3\" ry=\"2.5\"/><circle class=\"f p2\" cx=\"4.5\" cy=\"11.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"11.5\" r=\"1.2\"/><ellipse class=\"d p3\" cx=\"16\" cy=\"8\" rx=\"3\" ry=\"2.5\"/><circle class=\"f p4\" cx=\"13.5\" cy=\"3.5\" r=\"1.2\"/><circle class=\"f p4\" cx=\"18.5\" cy=\"3.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

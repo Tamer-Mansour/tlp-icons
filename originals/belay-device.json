@@ -1,0 +1,10 @@
+{
+  "name": "belay-device",
+  "category": "sport",
+  "tags": ["belay", "climbing", "rope", "device", "carabiner", "safety"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"5\"/><rect class=\"p2\" x=\"14\" y=\"13\" width=\"7\" height=\"8\" rx=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 700, "origin": "14px 13px" }
+  ]
+}

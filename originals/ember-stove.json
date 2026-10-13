@@ -1,0 +1,11 @@
+{
+  "name": "ember-stove",
+  "category": "home",
+  "tags": ["ember stove", "stove", "wood stove", "fire", "heater"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"10\" width=\"8\" height=\"6\" rx=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

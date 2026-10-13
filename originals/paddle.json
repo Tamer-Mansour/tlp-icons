@@ -1,0 +1,10 @@
+{
+  "name": "paddle",
+  "category": "nature",
+  "tags": ["paddle", "canoe", "oar", "kayak", "water"],
+  "svg": "<line class=\"p2\" x1=\"12.5\" y1=\"11.5\" x2=\"4\" y2=\"20\"/><path class=\"d p1\" d=\"M12.5 11.5 C10 9 11 4 15 3.5 C19 3 21 6 19.5 9 C18 12 14 13 12.5 11.5 Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 400 }
+  ]
+}

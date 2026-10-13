@@ -1,0 +1,10 @@
+{
+  "name": "cancel-action",
+  "category": "interface",
+  "tags": ["cancel", "slash", "stop", "reject", "forbidden", "dismiss"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M5.5 5.5l13 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

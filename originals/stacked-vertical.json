@@ -1,0 +1,11 @@
+{
+  "name": "stacked-vertical",
+  "category": "layout",
+  "tags": ["stacked", "vertical", "rows", "sections", "blocks"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"3.5\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"10.25\" width=\"16\" height=\"3.5\" rx=\"1\"/><rect class=\"p3\" x=\"4\" y=\"17.5\" width=\"16\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 400 }
+  ]
+}

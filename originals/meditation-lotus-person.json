@@ -1,0 +1,11 @@
+{
+  "name": "meditation-lotus-person",
+  "category": "people",
+  "tags": ["meditation", "lotus", "yoga", "calm", "mindfulness", "breathe"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"d p2\" d=\"M4 17 Q8 13 12 15 Q16 13 20 17 Q16 19 12 19 Q8 19 4 17 Z\"/><line class=\"p3\" x1=\"12\" y1=\"10.5\" x2=\"12\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "inhale", "dur": 1200, "delay": 900 }
+  ]
+}

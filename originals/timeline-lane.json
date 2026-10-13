@@ -1,0 +1,10 @@
+{
+  "name": "timeline-lane",
+  "category": "layout",
+  "tags": ["timeline", "lane", "schedule", "events", "sequence"],
+  "svg": "<path class=\"p1\" d=\"M2 18h20\"/><path class=\"p2\" d=\"M4 8h4v6H4zM10 8h4v6h-4zM16 8h4v6h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" }
+  ]
+}

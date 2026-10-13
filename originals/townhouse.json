@@ -1,0 +1,11 @@
+{
+  "name": "townhouse",
+  "category": "buildings",
+  "tags": ["townhouse", "house", "home", "terrace", "pitched", "door"],
+  "svg": "<path class=\"d p1\" d=\"M6 10L12 4.5 18 10v11.5H6z\"/><rect class=\"p2\" x=\"8.5\" y=\"11.5\" width=\"2.5\" height=\"2.5\"/><rect class=\"p2\" x=\"13\" y=\"11.5\" width=\"2.5\" height=\"2.5\"/><path class=\"p3\" d=\"M10.5 21.5v-4h3v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "lane-line",
+  "category": "vehicles",
+  "tags": ["lane", "road", "line", "arrow", "traffic"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v3M12 9.5v3M12 16.5v3\"/><path class=\"p2\" d=\"M18 20V8M15 11l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 700 }
+  ]
+}

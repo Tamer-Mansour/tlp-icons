@@ -1,0 +1,11 @@
+{
+  "name": "shade",
+  "category": "weather",
+  "tags": ["shade", "tree", "shadow", "cool", "park"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"5\"/><path class=\"p2\" d=\"M12 13V17\"/><ellipse class=\"d p3\" cx=\"12\" cy=\"21\" rx=\"8\" ry=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 }
+  ]
+}

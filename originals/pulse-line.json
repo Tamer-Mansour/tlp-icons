@@ -1,0 +1,10 @@
+{
+  "name": "pulse-line",
+  "category": "charts",
+  "tags": ["pulse", "spike", "signal", "peak", "monitor"],
+  "svg": "<path class=\"p1\" d=\"M2 13H9L12 5L15 13H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 900 }
+  ]
+}

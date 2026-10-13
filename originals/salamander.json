@@ -1,0 +1,12 @@
+{
+  "name": "salamander",
+  "category": "nature",
+  "tags": ["salamander", "amphibian", "gills", "long body", "tail", "newt"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"8\" ry=\"2.5\"/><path class=\"p2\" d=\"M19 10L21 8M19 16L21 18\"/><path class=\"p3\" d=\"M9 15L8 18M14 15L15 18\"/><path class=\"p4\" d=\"M4 13L2 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "sway", "dur": 900, "delay": 1000, "origin": "4px 13px" }
+  ]
+}

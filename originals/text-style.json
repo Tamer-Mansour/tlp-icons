@@ -1,0 +1,11 @@
+{
+  "name": "text-style",
+  "category": "text",
+  "tags": ["style", "letter", "brush", "typography", "design", "font", "paint"],
+  "svg": "<path class=\"p1\" d=\"M3 18L7 6l4 12M4.5 13.5h5\"/><rect class=\"p2\" x=\"14\" y=\"10\" width=\"7\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M14 21h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

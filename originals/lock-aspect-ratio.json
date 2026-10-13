@@ -1,0 +1,11 @@
+{
+  "name": "lock-aspect-ratio",
+  "category": "design",
+  "tags": ["lock", "aspect", "ratio", "proportion", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"10\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"16\" y=\"13\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M17.5 13v-2a1.5 1.5 0 0 1 3 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

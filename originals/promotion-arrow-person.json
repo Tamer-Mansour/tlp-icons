@@ -1,0 +1,11 @@
+{
+  "name": "promotion-arrow-person",
+  "category": "people",
+  "tags": ["promotion", "arrow", "career", "raise", "upgrade", "rank"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"11\" r=\"3\"/><path class=\"p2\" d=\"M3 21a5 5 0 0 1 10 0\"/><path class=\"p3\" d=\"M18 20V6M14 10l4-4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 800, "delay": 900 }
+  ]
+}

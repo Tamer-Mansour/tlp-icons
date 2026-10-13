@@ -1,0 +1,10 @@
+{
+  "name": "community-circle",
+  "category": "people",
+  "tags": ["community", "circle", "ring", "group", "people"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"7\" r=\"2\"/><circle class=\"p2\" cx=\"16.3\" cy=\"14.5\" r=\"2\"/><circle class=\"p2\" cx=\"7.7\" cy=\"14.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "orbit", "dur": 1200, "delay": 800 }
+  ]
+}

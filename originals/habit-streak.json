@@ -1,0 +1,11 @@
+{
+  "name": "habit-streak",
+  "category": "time",
+  "tags": ["habit", "streak", "tracker", "checklist", "daily", "goals"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M3 15h18M9 4v17M15 4v17\"/><path class=\"p3\" d=\"M4.5 12.5l1.5 1.5 2.5-3M10.5 12.5l1.5 1.5 2.5-3M16.5 12.5l1.5 1.5 2.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

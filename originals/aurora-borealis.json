@@ -1,0 +1,10 @@
+{
+  "name": "aurora-borealis",
+  "category": "weather",
+  "tags": ["aurora", "borealis", "northern lights", "sky", "curtain"],
+  "svg": "<path class=\"p1\" d=\"M3 19.5 H21\"/><path class=\"p2\" d=\"M4 6 Q8 4.5 12 6 T20 6 M4 10.5 Q8 9 12 10.5 T20 10.5 M4 15 Q8 13.5 12 15 T20 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

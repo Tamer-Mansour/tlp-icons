@@ -1,0 +1,10 @@
+{
+  "name": "outline-view",
+  "category": "text",
+  "tags": ["outline", "indent", "list", "nested", "tree", "view"],
+  "svg": "<path class=\"p1\" d=\"M7 7h13M10 12h10M10 17h10\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

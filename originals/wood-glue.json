@@ -1,0 +1,11 @@
+{
+  "name": "wood-glue",
+  "category": "tools",
+  "tags": ["glue", "adhesive", "bottle", "wood", "carpentry", "bond"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M10 7V4.5h4V7\"/><rect class=\"p3\" x=\"2\" y=\"18\" width=\"8\" height=\"3\" rx=\"0.5\"/><rect class=\"p3\" x=\"14\" y=\"18\" width=\"8\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

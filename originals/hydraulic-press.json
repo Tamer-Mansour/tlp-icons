@@ -1,0 +1,10 @@
+{
+  "name": "hydraulic-press",
+  "category": "science",
+  "tags": ["hydraulic", "press", "piston", "pressure", "fluid", "machine"],
+  "svg": "<path class=\"p1\" d=\"M4 13v6h16v-6\"/><path class=\"p2\" d=\"M4 3h16M7 3v10M17 3v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 900, "delay": 800 }
+  ]
+}

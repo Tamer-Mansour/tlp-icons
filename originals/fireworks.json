@@ -1,0 +1,11 @@
+{
+  "name": "fireworks",
+  "category": "emoji",
+  "tags": ["fireworks", "celebration", "burst", "rocket", "party", "festival"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"8.5\" y2=\"15.5\"/><line class=\"p2\" x1=\"15\" y1=\"2.5\" x2=\"15\" y2=\"5\"/><line class=\"p2\" x1=\"18.5\" y1=\"9\" x2=\"21\" y2=\"9\"/><line class=\"p2\" x1=\"10.5\" y1=\"4.5\" x2=\"12.3\" y2=\"6.3\"/><line class=\"p2\" x1=\"19.5\" y1=\"4.5\" x2=\"17.7\" y2=\"6.3\"/><circle class=\"f p3\" cx=\"15\" cy=\"9\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

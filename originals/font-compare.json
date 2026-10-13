@@ -1,0 +1,11 @@
+{
+  "name": "font-compare",
+  "category": "text",
+  "tags": ["font", "compare", "type", "typography", "divider", "preview"],
+  "svg": "<path class=\"p1\" d=\"M2 19L4.5 6L7 19M3.1 14H5.9\"/><path class=\"p2\" d=\"M14 19L16.5 6L19 19M15.1 14H17.9\"/><path class=\"p3\" d=\"M10.5 4V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "circle-sector",
+  "category": "math",
+  "tags": ["sector", "pie", "slice", "circle", "fraction", "math"],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"d p1\" d=\"M12 12L12 4A8 8 0 0 1 20 12Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

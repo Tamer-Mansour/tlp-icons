@@ -1,0 +1,10 @@
+{
+  "name": "sinkhole",
+  "category": "nature",
+  "tags": ["sinkhole", "pit", "ground", "crack", "collapse"],
+  "svg": "<path class=\"p1\" d=\"M2 8h5c1 5 2.5 7 5 7s4-2 5-7h5\"/><path class=\"p2\" d=\"M12 2.5v4.5M9.5 5L12 7.5 14.5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 800, "delay": 900 }
+  ]
+}

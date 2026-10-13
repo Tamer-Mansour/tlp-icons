@@ -1,0 +1,10 @@
+{
+  "name": "football-cleats",
+  "category": "sport",
+  "tags": ["football", "cleats", "shoes", "studs", "boots"],
+  "svg": "<path class=\"d p1\" d=\"M3 17V10C3 9 3.6 8.5 4.6 8.5H8.5L14 12.5L21 13.5V17Z\"/><circle class=\"f p2\" cx=\"6\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"20\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

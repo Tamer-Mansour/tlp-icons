@@ -1,0 +1,13 @@
+{
+  "name": "multiplayer",
+  "category": "sport",
+  "tags": ["multiplayer", "players", "controller", "team", "game", "co-op"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"2.5\"/><path class=\"p2\" d=\"M3 16 Q3 12.5 8 12.5 Q13 12.5 13 16\"/><circle class=\"p3\" cx=\"16\" cy=\"7\" r=\"2.5\"/><path class=\"p4\" d=\"M11 16 Q11 12.5 16 12.5 Q21 12.5 21 16\"/><rect class=\"d p5\" x=\"7\" y=\"18.5\" width=\"10\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p5", "anim": "tap", "dur": 600, "delay": 1100 }
+  ]
+}

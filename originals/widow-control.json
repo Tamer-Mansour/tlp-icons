@@ -1,0 +1,11 @@
+{
+  "name": "widow-control",
+  "category": "text",
+  "tags": ["widow", "orphan", "control", "paragraph", "typography", "line"],
+  "svg": "<path class=\"p1\" d=\"M3 5H21M3 9H21M3 13H21\"/><rect class=\"d p2\" x=\"2\" y=\"17\" width=\"9\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M4.5 19H8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "arch-shape",
+  "category": "shapes",
+  "tags": ["arch", "archway", "curve", "architecture", "gate", "doorway"],
+  "svg": "<path class=\"p1\" d=\"M4 21V11a8 8 0 0 1 16 0v10\"/><path class=\"p2\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

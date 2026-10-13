@@ -1,0 +1,10 @@
+{
+  "name": "jacks-game",
+  "category": "sport",
+  "tags": ["jacks", "game", "star", "toss", "ball", "playground"],
+  "svg": "<path class=\"p1\" d=\"M12 4V20M5.1 8L18.9 16M18.9 8L5.1 16\"/><circle class=\"d p2\" cx=\"19\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 600 }
+  ]
+}

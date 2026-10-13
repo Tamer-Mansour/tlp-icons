@@ -1,0 +1,11 @@
+{
+  "name": "inn",
+  "category": "buildings",
+  "tags": ["inn", "tavern", "lodging", "hanging", "sign", "rest"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V10l8-5 8 5v11z\"/><path class=\"p2\" d=\"M10 21v-4h4v4\"/><path class=\"p3\" d=\"M16 9.5v3M14 12.5h4v2h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "16px 9.5px" }
+  ]
+}

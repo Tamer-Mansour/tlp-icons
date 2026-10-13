@@ -1,0 +1,11 @@
+{
+  "name": "linear-actuator",
+  "category": "devices",
+  "tags": ["linear", "actuator", "motor", "push", "pull", "rod"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"6\" height=\"8\" rx=\"1\"/><line class=\"p2\" x1=\"9\" y1=\"12\" x2=\"17\" y2=\"12\"/><path class=\"p3\" d=\"M11 5 H17 M15 3 L17 5 L15 7 M17 19 H11 M13 17 L11 19 L13 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 800 }
+  ]
+}

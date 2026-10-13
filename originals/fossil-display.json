@@ -1,0 +1,10 @@
+{
+  "name": "fossil-display",
+  "category": "buildings",
+  "tags": ["fossil", "shell", "spiral", "display", "stand"],
+  "svg": "<path class=\"p1\" d=\"M12 4C16.5 4 19 7.5 19 11S16 17 13 17S8.5 14.5 8.5 12.5S10 9 12 9S15 10.5 15 12\"/><path class=\"p2\" d=\"M6 21H18M9 18V21M15 18V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

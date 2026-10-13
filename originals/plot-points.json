@@ -1,0 +1,10 @@
+{
+  "name": "plot-points",
+  "category": "charts",
+  "tags": ["plot", "points", "scatter", "chart", "axes", "data"],
+  "svg": "<path class=\"p1\" d=\"M4 3v17h17\"/><circle class=\"p2\" cx=\"8\" cy=\"14\" r=\"2\"/><circle class=\"p2\" cx=\"13\" cy=\"10\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

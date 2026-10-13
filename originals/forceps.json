@@ -1,0 +1,10 @@
+{
+  "name": "forceps",
+  "category": "science",
+  "tags": ["forceps", "pincer", "surgical", "lab", "tool", "grip"],
+  "svg": "<circle class=\"p2\" cx=\"9\" cy=\"4.5\" r=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"4.5\" r=\"2\"/><path class=\"p1\" d=\"M9 6.5L12 21M15 6.5L12 21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

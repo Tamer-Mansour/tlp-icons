@@ -1,0 +1,11 @@
+{
+  "name": "signal-boost",
+  "category": "communication",
+  "tags": ["signal", "boost", "broadcast", "strength", "upload", "wave"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"13\" r=\"1.2\"/><path class=\"p2\" d=\"M8.5 10a5 5 0 0 0 0 6M15.5 10a5 5 0 0 1 0 6\"/><path class=\"p3\" d=\"M12 10.5V3M9 6l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

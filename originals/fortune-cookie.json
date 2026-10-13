@@ -1,0 +1,11 @@
+{
+  "name": "fortune-cookie",
+  "category": "food",
+  "tags": ["fortune cookie", "cookie", "message", "slip", "chinese", "snack"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 14c1-5 4-8 8.5-8s7.5 3 8.5 8c-2 2-5 3-8.5 3S5.5 16 3.5 14z\"/><path class=\"p2\" d=\"M8 12c2.5 2 5.5 2 8 0\"/><path class=\"p3\" d=\"M16 4.5h4M16 7h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "x-ray-machine",
+  "category": "devices",
+  "tags": ["x-ray", "medical", "scanner", "imaging", "beam", "clinic"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M9 7 L5 17 M15 7 L19 17\"/><rect class=\"p3\" x=\"3\" y=\"17\" width=\"18\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1400 }
+  ]
+}

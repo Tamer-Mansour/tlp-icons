@@ -1,0 +1,11 @@
+{
+  "name": "instax-print",
+  "category": "photography",
+  "tags": ["instax print", "instant photo", "print", "square", "camera", "photo"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"1\"/><rect class=\"d p2\" x=\"7\" y=\"5\" width=\"10\" height=\"9\"/><circle class=\"f p3\" cx=\"12\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

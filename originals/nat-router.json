@@ -1,0 +1,11 @@
+{
+  "name": "nat-router",
+  "category": "connectivity",
+  "tags": ["nat", "router", "translate", "address", "gateway", "network"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M12 8V5M10 7l2-2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 500, "delay": 1100 }
+  ]
+}

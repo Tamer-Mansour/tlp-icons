@@ -1,0 +1,10 @@
+{
+  "name": "office-cubicle",
+  "category": "buildings",
+  "tags": ["office", "cubicle", "desk", "workspace", "partition", "corner"],
+  "svg": "<path class=\"p1\" d=\"M4 19V4h16v15\"/><rect class=\"d p2\" x=\"8\" y=\"13\" width=\"8\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

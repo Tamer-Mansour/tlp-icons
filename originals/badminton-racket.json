@@ -1,0 +1,11 @@
+{
+  "name": "badminton-racket",
+  "category": "sport",
+  "tags": ["badminton", "racket", "shuttle", "court", "sport", "string"],
+  "svg": "<ellipse class=\"d p1\" cx=\"15\" cy=\"8\" rx=\"4.5\" ry=\"6\" transform=\"rotate(40 15 8)\"/><path class=\"p2\" d=\"M11.5 12.5L4 20\"/><path class=\"p3\" d=\"M12 4.5L17 12M10 7.5L18 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "strike", "dur": 600, "delay": 1100, "origin": "11.5px 12.5px" }
+  ]
+}

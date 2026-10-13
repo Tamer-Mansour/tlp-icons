@@ -1,0 +1,11 @@
+{
+  "name": "concept-map",
+  "category": "science",
+  "tags": ["concept", "map", "nodes", "mind", "diagram", "ideas"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"5\" r=\"2.5\"/><circle class=\"d p1\" cx=\"19\" cy=\"5\" r=\"2.5\"/><circle class=\"d p1\" cx=\"12\" cy=\"19\" r=\"2.5\"/><path class=\"p2\" d=\"M7.8 5H16.2\"/><path class=\"p3\" d=\"M6.3 7.2L10.3 16.4M17.7 7.2L13.7 16.4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

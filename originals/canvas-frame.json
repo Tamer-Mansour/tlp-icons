@@ -1,0 +1,10 @@
+{
+  "name": "canvas-frame",
+  "category": "layout",
+  "tags": ["canvas", "frame", "corner", "ticks", "artboard"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"5\" width=\"14\" height=\"14\"/><path class=\"p2\" d=\"M5 2v3M2 5h3M19 2v3M19 5h3M19 19v3M19 19h3M5 19v3M2 19h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flood-sensor",
+  "category": "devices",
+  "tags": ["flood", "water", "leak", "sensor", "drop", "alarm"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 C12 2.5 8 7.5 8 10 A4 4 0 0 0 16 10 C16 7.5 12 2.5 12 2.5Z\"/><rect class=\"p2\" x=\"7\" y=\"16\" width=\"10\" height=\"2.5\"/><path class=\"p3\" d=\"M4 21.5 Q8 20 12 21.5 T20 21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 800 }
+  ]
+}

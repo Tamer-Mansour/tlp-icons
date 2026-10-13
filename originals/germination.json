@@ -1,0 +1,12 @@
+{
+  "name": "germination",
+  "category": "nature",
+  "tags": ["germination", "seed", "sprout", "growth", "plant"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"6\" ry=\"3\"/><path class=\"p2\" d=\"M12 14 V9\"/><path class=\"p3\" d=\"M12 9 Q12 3 18 3 Q18 9 12 9 Z\"/><path class=\"p4\" d=\"M12 9 Q12 5 6 5 Q6 9 12 9 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

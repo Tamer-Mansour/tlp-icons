@@ -1,0 +1,10 @@
+{
+  "name": "kosher",
+  "category": "food",
+  "tags": ["kosher", "badge", "certified", "k", "seal", "food"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M9 8v8M15 8l-4 4 4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 600 }
+  ]
+}

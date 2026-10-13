@@ -1,0 +1,11 @@
+{
+  "name": "bearing-indicator",
+  "category": "arrows",
+  "tags": ["bearing", "compass", "heading", "direction", "needle", "north"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"5.5\" x2=\"12\" y2=\"7.5\"/><path class=\"p3\" d=\"M15 9l-4.5 4.5M15 9h-3.5M15 9v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tag-add",
+  "category": "interface",
+  "tags": ["tag", "add", "label", "price", "plus", "new"],
+  "svg": "<path class=\"p1\" d=\"M3 4V10.5L11.5 19L19 11.5L10.5 3H4A1 1 0 0 0 3 4Z\"/><path class=\"p2\" d=\"M19 15V21M16 18H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

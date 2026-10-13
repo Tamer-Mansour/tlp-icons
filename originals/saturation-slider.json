@@ -1,0 +1,11 @@
+{
+  "name": "saturation-slider",
+  "category": "design",
+  "tags": ["saturation", "slider", "color", "vivid", "adjust", "circles"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"9\" r=\"5\"/><circle class=\"p1\" cx=\"15\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M3 18h18\"/><circle class=\"p3\" cx=\"14\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

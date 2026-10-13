@@ -1,0 +1,10 @@
+{
+  "name": "insert-arrow",
+  "category": "arrows",
+  "tags": ["insert", "bracket", "place", "enter", "add"],
+  "svg": "<path class=\"p1\" d=\"M4 14 V19 H20 V14\"/><path class=\"p2\" d=\"M12 4 V14 M9 11 L12 14 L15 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

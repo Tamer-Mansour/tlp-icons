@@ -1,0 +1,11 @@
+{
+  "name": "dart",
+  "category": "sport",
+  "tags": ["dart", "darts", "throw", "game", "target", "arrow"],
+  "svg": "<polygon class=\"d p1\" points=\"8,16 11,19 19,11 16,8\"/><path class=\"p2\" d=\"M3 21L8 16\"/><path class=\"p3\" d=\"M16 8l2-4M19 11l4-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

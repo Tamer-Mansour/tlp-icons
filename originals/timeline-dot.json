@@ -1,0 +1,11 @@
+{
+  "name": "timeline-dot",
+  "category": "notifications",
+  "tags": ["timeline", "event", "dot", "history", "milestone", "marker"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M16 9h5M16 15h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

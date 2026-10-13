@@ -1,0 +1,10 @@
+{
+  "name": "kanji-numeral",
+  "category": "math",
+  "tags": ["kanji", "numeral", "strokes", "japanese", "number"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M5 6.5H19M5 12H19M5 17.5H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

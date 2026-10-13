@@ -1,0 +1,11 @@
+{
+  "name": "hot-air-station",
+  "category": "devices",
+  "tags": ["hot", "air", "rework", "solder", "station"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M4 7h2.5M17.5 7H20\"/><rect class=\"d p3\" x=\"5\" y=\"16\" width=\"14\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 1200 }
+  ]
+}

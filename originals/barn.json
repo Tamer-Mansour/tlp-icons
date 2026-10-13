@@ -1,0 +1,11 @@
+{
+  "name": "barn",
+  "category": "buildings",
+  "tags": ["barn", "farm", "gambrel", "countryside", "livestock", "rural"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V9l4-5h8l4 5v12z\"/><rect class=\"p2\" x=\"8.5\" y=\"13\" width=\"7\" height=\"8\"/><path class=\"p3\" d=\"M8.5 13l7 8M15.5 13l-7 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

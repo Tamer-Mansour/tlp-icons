@@ -1,0 +1,11 @@
+{
+  "name": "ohmmeter",
+  "category": "tools",
+  "tags": ["ohmmeter", "meter", "dial", "resistance", "electrical"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"16\" y2=\"8\"/><path class=\"p3\" d=\"M9 18H11M13 18H15M10 18V16.5A2.5 2.5 0 1 1 14 16.5V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

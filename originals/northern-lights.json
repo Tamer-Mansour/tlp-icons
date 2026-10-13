@@ -1,0 +1,11 @@
+{
+  "name": "northern-lights",
+  "category": "weather",
+  "tags": ["aurora", "northern lights", "sky", "night", "arc", "wave"],
+  "svg": "<path class=\"p1\" d=\"M3 7c3-2.5 6 2.5 9 0s6-2.5 9 0\"/><path class=\"p2\" d=\"M3 11.5c3-2.5 6 2.5 9 0s6-2.5 9 0\"/><path class=\"p3\" d=\"M3 16c3-2.5 6 2.5 9 0s6-2.5 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 1200, "delay": 900 }
+  ]
+}

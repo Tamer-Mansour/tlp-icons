@@ -1,0 +1,10 @@
+{
+  "name": "vote-tally",
+  "category": "charts",
+  "tags": ["vote", "tally", "ballot", "count", "election", "poll"],
+  "svg": "<path class=\"d p1\" d=\"M4 10H20V20H4Z\"/><path class=\"p2\" d=\"M7 3V7M11 3V7M15 3V7M5 5H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

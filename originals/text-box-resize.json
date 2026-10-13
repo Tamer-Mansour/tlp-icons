@@ -1,0 +1,11 @@
+{
+  "name": "text-box-resize",
+  "category": "design",
+  "tags": ["text", "box", "resize", "frame", "handles", "textarea", "size"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"16\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 8h8M5 11.5h5\"/><path class=\"p3\" d=\"M18 18l3.5 3.5M21.5 16.5v5h-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "stretch", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "caption-phone",
+  "category": "communication",
+  "tags": ["caption", "phone", "subtitles", "captions", "hearing"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2.5\"/><path class=\"p2\" d=\"M6 15h12\"/><path class=\"p3\" d=\"M9 18.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 900 }
+  ]
+}

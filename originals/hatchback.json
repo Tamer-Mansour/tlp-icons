@@ -1,0 +1,11 @@
+{
+  "name": "hatchback",
+  "category": "vehicles",
+  "tags": ["hatchback", "car", "compact", "hatch", "vehicle"],
+  "svg": "<path class=\"p1\" d=\"M2 14v-3l3-4h9l4 4h2v3z\"/><path class=\"p2\" d=\"M11 7v7\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 800 }
+  ]
+}

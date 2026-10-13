@@ -1,0 +1,10 @@
+{
+  "name": "frame-step",
+  "category": "media",
+  "tags": ["frame", "step", "advance", "video", "next", "forward"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"12\" height=\"14\" rx=\"1.5\"/><path class=\"p2\" d=\"M18 12h4M19 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 800 }
+  ]
+}

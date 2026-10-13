@@ -1,0 +1,11 @@
+{
+  "name": "bolt-tensioner",
+  "category": "tools",
+  "tags": ["bolt", "tensioner", "torque", "lever", "nut", "tighten"],
+  "svg": "<polygon class=\"d p1\" points=\"12,4 17,7 17,13 12,16 7,13 7,7\"/><path class=\"p2\" d=\"M17 10h4\"/><path class=\"p3\" d=\"M12 16v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "17px 10px" }
+  ]
+}

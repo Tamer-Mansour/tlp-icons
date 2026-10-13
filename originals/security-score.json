@@ -1,0 +1,11 @@
+{
+  "name": "security-score",
+  "category": "security",
+  "tags": ["security", "score", "gauge", "rating", "health", "meter"],
+  "svg": "<path class=\"p1\" d=\"M4 15a8 8 0 1 1 16 0\"/><line class=\"p2\" x1=\"12\" y1=\"15\" x2=\"16\" y2=\"10\"/><rect class=\"d p3\" x=\"8\" y=\"18\" width=\"8\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 15px" }
+  ]
+}

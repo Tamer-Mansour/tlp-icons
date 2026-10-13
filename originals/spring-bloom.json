@@ -1,0 +1,7 @@
+{
+  "name": "spring-bloom",
+  "category": "nature",
+  "tags": ["spring", "bloom", "blossom", "flower", "stem", "bud"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"3.5\"/><path class=\"p2\" d=\"M12 11.5V21M12 17c0-3 2-5 6-5 0 3-2 5-6 5z\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [{ "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 }, { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }, { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dinosaur",
+  "category": "nature",
+  "tags": ["dinosaur", "dino", "reptile", "prehistoric", "neck", "animal"],
+  "svg": "<path class=\"d p2\" d=\"M5 10 H15 Q17 10 17 12 V15 H5 Z\"/><path class=\"p1\" d=\"M15 10 L16 5 H20 L19 7.5 L17 10\"/><polyline class=\"p3\" points=\"6,10 7.5,8 9,10 11,8 13,10\"/><path class=\"p4\" d=\"M7 15 V19 M13 15 V19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "hop", "dur": 500, "delay": 1300 }
+  ]
+}

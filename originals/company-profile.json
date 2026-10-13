@@ -1,0 +1,11 @@
+{
+  "name": "company-profile",
+  "category": "people",
+  "tags": ["company", "profile", "building", "office", "business", "organization"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M8.5 16.5a3.5 3 0 0 1 7 0\"/><path class=\"p3\" d=\"M10 21v-2.5h4V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

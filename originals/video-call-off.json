@@ -1,0 +1,11 @@
+{
+  "name": "video-call-off",
+  "category": "communication",
+  "tags": ["video", "camera", "off", "disabled", "call", "mute"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M17 10l4-2.5v9l-4-2.5\"/><path class=\"p3\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

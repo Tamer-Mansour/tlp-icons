@@ -1,0 +1,10 @@
+{
+  "name": "delegate-arrow",
+  "category": "people",
+  "tags": ["delegate", "arrow", "transfer", "user", "assign"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"8.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h3a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M14.5 12h6\"/><polyline class=\"p2\" points=\"18 9.5 20.5 12 18 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

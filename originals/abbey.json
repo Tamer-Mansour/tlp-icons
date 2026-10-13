@@ -1,0 +1,10 @@
+{
+  "name": "abbey",
+  "category": "buildings",
+  "tags": ["abbey", "church", "monastery", "arch", "tower", "religious"],
+  "svg": "<path class=\"p1\" d=\"M4 21V12a8 8 0 0 1 16 0v9\"/><path class=\"p2\" d=\"M9 21V6h6v15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

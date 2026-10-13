@@ -1,0 +1,11 @@
+{
+  "name": "juniper",
+  "category": "nature",
+  "tags": ["juniper", "shrub", "berries", "evergreen", "needles", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M4 18c0-4 2.5-7 8-7s8 3 8 7z\"/><circle class=\"f p2\" cx=\"9\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"13.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"15\" r=\"1\"/><path class=\"p3\" d=\"M2.5 20.5h19\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "banknote-stack",
+  "category": "interface",
+  "tags": ["banknote", "bills", "money", "cash", "currency", "stack"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"16\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"2\" y=\"9\" width=\"16\" height=\"10\" rx=\"1\"/><ellipse class=\"p2\" cx=\"10\" cy=\"14\" rx=\"2.5\" ry=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pupa",
+  "category": "nature",
+  "tags": ["pupa", "cocoon", "insect", "chrysalis", "larva"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 C7 6 6 14 8 18 C9 21 15 21 16 18 C18 14 17 6 12 2.5 Z\"/><path class=\"p2\" d=\"M9 8.5 H15 M8.5 12.5 H15.5 M9 16.5 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 700, "origin": "12px 12px" }
+  ]
+}

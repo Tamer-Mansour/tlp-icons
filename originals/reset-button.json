@@ -1,0 +1,10 @@
+{
+  "name": "reset-button",
+  "category": "devices",
+  "tags": ["reset", "button", "restart", "circular", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"5\"/><path class=\"p2\" d=\"M7 12 A5 5 0 1 0 12 7 M14.5 4.5 L12 7 L14.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 1000, "delay": 800 }
+  ]
+}

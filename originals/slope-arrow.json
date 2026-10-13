@@ -1,0 +1,11 @@
+{
+  "name": "slope-arrow",
+  "category": "arrows",
+  "tags": ["ramp", "slope", "incline", "upward", "gradient"],
+  "svg": "<path class=\"p1\" d=\"M4 20 H20\"/><path class=\"p2\" d=\"M4 20 L16 8\"/><path class=\"p3\" d=\"M10 8 H16 V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 500, "delay": 1000 }
+  ]
+}

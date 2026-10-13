@@ -1,0 +1,10 @@
+{
+  "name": "vacuole",
+  "category": "science",
+  "tags": ["vacuole", "cell", "bubble", "biology", "organelle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"14\" cy=\"10\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 700, "delay": 700 }
+  ]
+}

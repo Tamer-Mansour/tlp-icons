@@ -1,0 +1,11 @@
+{
+  "name": "biometric-scan",
+  "category": "security",
+  "tags": ["biometric", "fingerprint", "scan", "identity", "touch", "authenticate"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><path class=\"p2\" d=\"M7.5 14.5a4.5 4.5 0 0 1 9 0c0 2-.5 3.5-1 4.5\"/><path class=\"p3\" d=\"M10.5 15a1.5 1.5 0 0 1 3 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

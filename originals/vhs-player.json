@@ -1,0 +1,11 @@
+{
+  "name": "vhs-player",
+  "category": "devices",
+  "tags": ["vhs", "cassette", "video", "tape", "retro"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"8\" width=\"12\" height=\"7\" rx=\"1\"/><circle class=\"p3\" cx=\"9.5\" cy=\"11.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"14.5\" cy=\"11.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1100 }
+  ]
+}

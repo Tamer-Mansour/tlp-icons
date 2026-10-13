@@ -1,0 +1,11 @@
+{
+  "name": "kelp",
+  "category": "nature",
+  "tags": ["seaweed", "ocean", "algae", "underwater", "plant"],
+  "svg": "<path class=\"p1\" d=\"M12 19C9 15 15 11 12 7C10 4 14 3 12 2\"/><path class=\"d p2\" d=\"M12 13q-4 0-6-4q4 0 6 4z\"/><path class=\"d p2\" d=\"M12 9q4 0 6-4q-4 0-6 4z\"/><circle class=\"p3\" cx=\"12\" cy=\"20.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "class-reunion",
+  "category": "people",
+  "tags": ["class", "reunion", "graduation", "caps", "heart", "alumni"],
+  "svg": "<path class=\"d p1\" d=\"M2 8l4-2 4 2-4 2z\"/><path class=\"p2\" d=\"M4 9.5V13c0 .8 1 1.5 2 1.5s2-.7 2-1.5V9.5\"/><path class=\"d p3\" d=\"M14 8l4-2 4 2-4 2z\"/><path class=\"p2\" d=\"M16 9.5V13c0 .8 1 1.5 2 1.5s2-.7 2-1.5V9.5\"/><path class=\"p4\" d=\"M12 19.5l-1.5-1.4a.9.9 0 0 1 1.5-1.1.9.9 0 0 1 1.5 1.1z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p4", "anim": "beat", "dur": 600, "delay": 1000 }
+  ]
+}

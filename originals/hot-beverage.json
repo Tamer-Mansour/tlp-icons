@@ -1,0 +1,11 @@
+{
+  "name": "hot-beverage",
+  "category": "emoji",
+  "tags": ["coffee", "tea", "drink", "hot", "cup", "steam"],
+  "svg": "<path class=\"d p1\" d=\"M4 10h12v5a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5z\"/><path class=\"p2\" d=\"M16 12h1.5a2.5 2.5 0 0 1 0 5H16\"/><path class=\"p3\" d=\"M8 2.5v2.5M12 2.5v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 900, "origin": "bottom" }
+  ]
+}

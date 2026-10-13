@@ -1,0 +1,11 @@
+{
+  "name": "ratchet-wrench",
+  "category": "tools",
+  "tags": ["ratchet", "wrench", "gear", "socket", "tool", "mechanic"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><line class=\"p2\" x1=\"11\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"f p3\" cx=\"7\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

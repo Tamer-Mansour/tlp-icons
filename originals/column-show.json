@@ -1,0 +1,10 @@
+{
+  "name": "column-show",
+  "category": "interface",
+  "tags": ["column", "add", "table", "show", "plus", "insert"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"10\" height=\"14\" rx=\"1\"/><line class=\"p1\" x1=\"8\" y1=\"5\" x2=\"8\" y2=\"19\"/><line class=\"p2\" x1=\"15\" y1=\"12\" x2=\"22\" y2=\"12\"/><line class=\"p2\" x1=\"18.5\" y1=\"8.5\" x2=\"18.5\" y2=\"15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

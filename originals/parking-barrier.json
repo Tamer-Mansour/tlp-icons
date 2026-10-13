@@ -1,0 +1,11 @@
+{
+  "name": "parking-barrier",
+  "category": "buildings",
+  "tags": ["parking", "barrier", "gate", "arm", "car", "lot"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/><line class=\"p3\" x1=\"20\" y1=\"11\" x2=\"20\" y2=\"20\"/><line class=\"p2\" x1=\"3\" y1=\"11\" x2=\"18\" y2=\"11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "20px 11px" }
+  ]
+}

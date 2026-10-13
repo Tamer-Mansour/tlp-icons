@@ -1,0 +1,11 @@
+{
+  "name": "nod-head",
+  "category": "people",
+  "tags": ["nod", "head", "agree", "yes", "gesture", "neck"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M18.5 4.5 Q21 6.5 21 9\"/><path class=\"p3\" d=\"M10 14 V19 M14 14 V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 900, "origin": "12px 9px" }
+  ]
+}

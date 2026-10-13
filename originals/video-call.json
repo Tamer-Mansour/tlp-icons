@@ -1,0 +1,11 @@
+{
+  "name": "video-call",
+  "category": "communication",
+  "tags": ["video", "call", "camera", "meeting", "person", "conference"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M17 10l4-2.5v9l-4-2.5\"/><circle class=\"p3\" cx=\"8.5\" cy=\"10\" r=\"1.5\"/><path class=\"p3\" d=\"M5.5 15a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

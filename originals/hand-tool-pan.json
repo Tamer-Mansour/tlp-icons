@@ -1,0 +1,11 @@
+{
+  "name": "hand-tool-pan",
+  "category": "design",
+  "tags": ["hand", "pan", "palm", "drag", "tool"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"11\" height=\"10\" rx=\"4\"/><path class=\"p2\" d=\"M9 10V4.5M12.5 10V3.5M16 10V4.5\"/><path class=\"p3\" d=\"M19.5 15h2.5M20.5 13l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

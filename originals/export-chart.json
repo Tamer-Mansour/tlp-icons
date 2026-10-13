@@ -1,0 +1,10 @@
+{
+  "name": "export-chart",
+  "category": "charts",
+  "tags": ["export", "chart", "download", "share", "data", "bars"],
+  "svg": "<path class=\"p1\" d=\"M4 20v-6M9 20V10M14 20v-4\"/><path class=\"p2\" d=\"M15 9L21 3M15 3h6v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

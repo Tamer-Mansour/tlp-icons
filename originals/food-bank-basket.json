@@ -1,0 +1,11 @@
+{
+  "name": "food-bank-basket",
+  "category": "people",
+  "tags": ["food", "bank", "basket", "donation", "groceries", "pantry"],
+  "svg": "<path class=\"d p1\" d=\"M4 10H20L18.5 19Q18.2 21 16 21H8Q5.8 21 5.5 19Z\"/><path class=\"p2\" d=\"M7 10Q12 3 17 10\"/><circle class=\"p3\" cx=\"9\" cy=\"15\" r=\"1.5\"/><circle class=\"p3\" cx=\"15\" cy=\"15\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "co-detector",
+  "category": "devices",
+  "tags": ["carbon", "monoxide", "detector", "alarm", "safety", "sensor"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8.5 10.5h7M8.5 13.5h7\"/><circle class=\"f p3\" cx=\"12\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

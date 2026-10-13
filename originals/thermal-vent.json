@@ -1,0 +1,11 @@
+{
+  "name": "thermal-vent",
+  "category": "nature",
+  "tags": ["vent", "hydrothermal", "seafloor", "chimney", "ocean"],
+  "svg": "<path class=\"p1\" d=\"M2 19H22\"/><rect class=\"d p2\" x=\"9.5\" y=\"15\" width=\"3\" height=\"4\"/><path class=\"p3\" d=\"M11 11Q8 9 11 6Q14 4 11 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 1200, "delay": 1000, "origin": "11px 11px" }
+  ]
+}

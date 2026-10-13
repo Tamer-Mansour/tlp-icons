@@ -1,0 +1,12 @@
+{
+  "name": "wind-generator",
+  "category": "science",
+  "tags": ["wind", "turbine", "rotor", "energy", "power", "mill"],
+  "svg": "<path class=\"d p3\" d=\"M7 21 Q12 17 17 21 Z\"/><path class=\"p1\" d=\"M12 9.5 V19\"/><path class=\"p2\" d=\"M12 6.5 V2 M13.3 8.75 L17.2 11 M10.7 8.75 L6.8 11\"/><circle class=\"p4\" cx=\"12\" cy=\"8\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "spinFast", "dur": 1000, "delay": 900, "origin": "12px 8px" }
+  ]
+}

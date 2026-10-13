@@ -1,0 +1,11 @@
+{
+  "name": "street-number",
+  "category": "buildings",
+  "tags": ["street", "number", "sign", "post", "address"],
+  "svg": "<path class=\"p1\" d=\"M12 12V20M8 21H16\"/><rect class=\"d p2\" x=\"5\" y=\"4\" width=\"14\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 7.5H14.5L12 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

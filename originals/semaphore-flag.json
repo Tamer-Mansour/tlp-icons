@@ -1,0 +1,11 @@
+{
+  "name": "semaphore-flag",
+  "category": "notifications",
+  "tags": ["semaphore", "flag", "signal", "pole", "navy", "signal flag"],
+  "svg": "<path class=\"p1\" d=\"M6 21V3\"/><polygon class=\"d p2\" points=\"6,4 15,6.5 15,11 6,8.5\"/><path class=\"p3\" d=\"M6 14l5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 700 }
+  ]
+}

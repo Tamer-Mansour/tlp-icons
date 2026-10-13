@@ -1,0 +1,11 @@
+{
+  "name": "jukebox",
+  "category": "media",
+  "tags": ["jukebox", "music", "speaker", "machine", "dome", "cabinet"],
+  "svg": "<path class=\"p1\" d=\"M4 10a8 6 0 0 1 16 0\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p3\" d=\"M8 16h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "snooker-table",
+  "category": "sport",
+  "tags": ["snooker", "table", "pool", "pockets", "billiards", "felt"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"1\"/><circle class=\"f p2\" cx=\"4\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"20\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"4\" cy=\"17\" r=\"1\"/><circle class=\"f p2\" cx=\"20\" cy=\"17\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

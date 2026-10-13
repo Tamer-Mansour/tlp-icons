@@ -1,0 +1,10 @@
+{
+  "name": "turing-tape",
+  "category": "science",
+  "tags": ["turing", "tape", "machine", "head", "computation"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"12\" width=\"4\" height=\"5\"/><rect class=\"p1\" x=\"8\" y=\"12\" width=\"4\" height=\"5\"/><rect class=\"p1\" x=\"14\" y=\"12\" width=\"4\" height=\"5\"/><path class=\"d p2\" d=\"M8 6h4l-2 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

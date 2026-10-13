@@ -1,0 +1,10 @@
+{
+  "name": "natural-numbers",
+  "category": "math",
+  "tags": ["natural", "numbers", "counting", "sequence", "integers"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"9\" r=\"1.2\"/><circle class=\"f p1\" cx=\"12\" cy=\"9\" r=\"1.2\"/><circle class=\"f p1\" cx=\"18\" cy=\"9\" r=\"1.2\"/><path class=\"p2\" d=\"M4 16 H19\"/><polyline class=\"p2\" points=\"16 13 19 16 16 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

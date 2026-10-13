@@ -1,0 +1,11 @@
+{
+  "name": "expiry-tag",
+  "category": "food",
+  "tags": ["expiry", "date", "tag", "label", "best before", "freshness"],
+  "svg": "<path class=\"d p1\" d=\"M3 12V5a2 2 0 0 1 2-2h7l9 9-9 9z\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"8.5\" r=\"1\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M15 10.5V12l1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

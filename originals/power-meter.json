@@ -1,0 +1,10 @@
+{
+  "name": "power-meter",
+  "category": "charts",
+  "tags": ["power", "meter", "plug", "electricity", "dial", "usage"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M10 6v3M14 6v3M8 9h8v3a4 4 0 0 1-8 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

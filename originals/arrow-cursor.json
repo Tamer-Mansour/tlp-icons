@@ -1,0 +1,10 @@
+{
+  "name": "arrow-cursor",
+  "category": "interface",
+  "tags": ["arrow", "cursor", "pointer", "mouse", "select", "click"],
+  "svg": "<path class=\"p1\" d=\"M5 3.5v15.5l4.2-4 2.8 6 2.7-1.2-2.8-6H17z\"/><path class=\"d p2\" d=\"M5 3.5v15.5l4.2-4 2.8 6 2.7-1.2-2.8-6H17z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

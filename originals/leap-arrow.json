@@ -1,0 +1,11 @@
+{
+  "name": "leap-arrow",
+  "category": "arrows",
+  "tags": ["leap", "long", "bound", "arc", "hurdle", "over"],
+  "svg": "<path class=\"p1\" d=\"M8 20h10\"/><path class=\"p2\" d=\"M3 17C6 9 14 9 18 17\"/><path class=\"p3\" d=\"M15 14l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 200 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

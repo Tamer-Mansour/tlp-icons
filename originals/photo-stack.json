@@ -1,0 +1,10 @@
+{
+  "name": "photo-stack",
+  "category": "interface",
+  "tags": ["photos", "gallery", "album", "pictures", "stack", "frames"],
+  "svg": "<path class=\"p2\" d=\"M7 5h12a2 2 0 0 1 2 2v8\"/><rect class=\"d p1\" x=\"3\" y=\"9\" width=\"14\" height=\"11\" rx=\"2\"/><path class=\"p1\" d=\"M3 17l4-4 3 3 2.5-2 4.5 4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 500 }
+  ]
+}

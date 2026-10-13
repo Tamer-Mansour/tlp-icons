@@ -1,0 +1,11 @@
+{
+  "name": "score-gauge",
+  "category": "security",
+  "tags": ["score", "gauge", "meter", "level", "needle", "rating"],
+  "svg": "<path class=\"p1\" d=\"M5 17a8 8 0 1 1 14 0\"/><line class=\"p2\" x1=\"12\" y1=\"13.5\" x2=\"15.5\" y2=\"9.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 13.5px" }
+  ]
+}

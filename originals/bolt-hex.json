@@ -1,0 +1,11 @@
+{
+  "name": "bolt-hex",
+  "category": "shapes",
+  "tags": ["bolt", "hex", "head", "shank", "hardware", "fastener"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M9 8V19L12 22L15 19V8\"/><line class=\"p3\" x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 300, "delay": 1100, "origin": "left" }
+  ]
+}

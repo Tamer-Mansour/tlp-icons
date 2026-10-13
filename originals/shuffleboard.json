@@ -1,0 +1,11 @@
+{
+  "name": "shuffleboard",
+  "category": "sport",
+  "tags": ["shuffleboard", "puck", "board", "game", "score", "sport"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"16\" height=\"8\" rx=\"1\"/><path class=\"p3\" d=\"M18 8L22 12L18 16Z\"/><circle class=\"d p2\" cx=\"7\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 800 }
+  ]
+}

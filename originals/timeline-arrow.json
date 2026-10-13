@@ -1,0 +1,10 @@
+{
+  "name": "timeline-arrow",
+  "category": "arrows",
+  "tags": ["timeline", "progress", "sequence", "line", "steps", "direction"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"19\" y2=\"12\"/><polyline class=\"p1\" points=\"15 8 20 12 15 16\"/><line class=\"p2\" x1=\"6\" y1=\"8.5\" x2=\"6\" y2=\"10.5\"/><line class=\"p2\" x1=\"10\" y1=\"8.5\" x2=\"10\" y2=\"10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

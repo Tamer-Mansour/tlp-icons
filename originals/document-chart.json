@@ -1,0 +1,11 @@
+{
+  "name": "document-chart",
+  "category": "files",
+  "tags": ["chart", "bars", "document", "report", "analytics", "graph"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><rect class=\"p2\" x=\"7\" y=\"12\" width=\"2\" height=\"4\"/><rect class=\"p2\" x=\"11\" y=\"9\" width=\"2\" height=\"7\"/><rect class=\"p2\" x=\"15\" y=\"11\" width=\"2\" height=\"5\"/><line class=\"p3\" x1=\"7\" y1=\"18\" x2=\"17\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 600, "origin": "bottom" },
+    { "part": "p3", "anim": "stretch", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "spiral-down",
+  "category": "arrows",
+  "tags": ["spiral", "down", "descend", "coil", "drop", "loop"],
+  "svg": "<path class=\"p1\" d=\"M12 3C8 3 8 7 12 7S16 11 12 11S8 15 12 15V20\"/><path class=\"p2\" d=\"M9 17l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 500, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "noise-gate",
+  "category": "media",
+  "tags": ["noise", "gate", "threshold", "audio", "cutoff", "filter"],
+  "svg": "<polyline class=\"p1\" points=\"3 12 6 6 9 18 12 9 15 16 18 12 21 12\"/><line class=\"p2\" x1=\"3\" y1=\"16\" x2=\"21\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

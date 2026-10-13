@@ -1,0 +1,12 @@
+{
+  "name": "handwashing-steps",
+  "category": "science",
+  "tags": ["handwashing", "hygiene", "soap", "hands", "bubbles"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"12\" width=\"8\" height=\"7\" rx=\"3\"/><rect class=\"p2\" x=\"13\" y=\"12\" width=\"8\" height=\"7\" rx=\"3\"/><circle class=\"p3\" cx=\"8\" cy=\"8\" r=\"2\"/><circle class=\"p3\" cx=\"16\" cy=\"7\" r=\"2.5\"/><circle class=\"f p4\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "drip", "dur": 800, "delay": 1300 }
+  ]
+}

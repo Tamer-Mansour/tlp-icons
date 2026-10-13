@@ -1,0 +1,11 @@
+{
+  "name": "whiteboard-lesson",
+  "category": "science",
+  "tags": ["whiteboard", "lesson", "board", "teaching", "class", "marker"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M8 16v4M16 16v4\"/><path class=\"p3\" d=\"M7 8h6M7 12h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 1000 }
+  ]
+}

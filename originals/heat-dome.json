@@ -1,0 +1,11 @@
+{
+  "name": "heat-dome",
+  "category": "weather",
+  "tags": ["heat", "dome", "sun", "heatwave", "hot", "pressure"],
+  "svg": "<path class=\"p1\" d=\"M3 17 A9 9 0 0 1 21 17\"/><circle class=\"d p2\" cx=\"12\" cy=\"16\" r=\"2.5\"/><path class=\"p3\" d=\"M2 20.5 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "breathe", "dur": 1100, "delay": 1100 }
+  ]
+}

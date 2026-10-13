@@ -1,0 +1,11 @@
+{
+  "name": "voltmeter",
+  "category": "science",
+  "tags": ["voltmeter", "voltage", "dial", "electricity", "meter", "circuit"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"16\" y2=\"8\"/><path class=\"p3\" d=\"M7.5 9.5l2 5 2-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

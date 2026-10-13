@@ -1,0 +1,11 @@
+{
+  "name": "stack-layers",
+  "category": "development",
+  "tags": ["stack", "layers", "levels", "memory", "frames", "pile"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 L21 7.5 L12 12 L3 7.5 Z\"/><path class=\"p2\" d=\"M3 12 L12 16.5 L21 12\"/><path class=\"p3\" d=\"M3 17.5 L12 22 L21 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

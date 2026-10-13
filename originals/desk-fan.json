@@ -1,0 +1,11 @@
+{
+  "name": "desk-fan",
+  "category": "devices",
+  "tags": ["fan", "desk", "cooling", "air", "breeze", "electric"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"7\"/><path class=\"p2\" d=\"M12 9l-4.5-2M12 9l4.5 2M12 9v4\"/><circle class=\"f p2\" cx=\"12\" cy=\"9\" r=\"1\"/><path class=\"p3\" d=\"M12 16v5M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 900 }
+  ]
+}

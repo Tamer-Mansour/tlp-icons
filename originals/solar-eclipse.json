@@ -1,0 +1,10 @@
+{
+  "name": "solar-eclipse",
+  "category": "science",
+  "tags": ["eclipse", "sun", "moon", "solar", "astronomy", "shadow"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"15\" cy=\"9\" r=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1200, "delay": 800 }
+  ]
+}

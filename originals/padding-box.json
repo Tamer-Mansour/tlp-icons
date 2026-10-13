@@ -1,0 +1,10 @@
+{
+  "name": "padding-box",
+  "category": "layout",
+  "tags": ["padding", "box", "inner", "spacing", "css", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

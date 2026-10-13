@@ -1,0 +1,11 @@
+{
+  "name": "garage-remote",
+  "category": "home",
+  "tags": ["garage", "remote", "key fob", "opener", "door", "button"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"8\" height=\"13\" rx=\"2.5\"/><circle class=\"f p2\" cx=\"10\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M16.5 5a5 5 0 0 1 4.5 4.5M17.5 8.5a2 2 0 0 1 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 1000 }
+  ]
+}

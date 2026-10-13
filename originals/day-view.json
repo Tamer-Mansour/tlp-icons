@@ -1,0 +1,10 @@
+{
+  "name": "day-view",
+  "category": "time",
+  "tags": ["day", "view", "calendar", "hours", "column", "schedule"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 8h10M7 13h10M7 18h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

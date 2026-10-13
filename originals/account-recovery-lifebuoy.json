@@ -1,0 +1,11 @@
+{
+  "name": "account-recovery-lifebuoy",
+  "category": "people",
+  "tags": ["lifebuoy", "recovery", "rescue", "account", "help", "support"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M5.64 5.64l3.53 3.53M18.36 5.64l-3.53 3.53M5.64 18.36l3.53-3.53M18.36 18.36l-3.53-3.53\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1100 }
+  ]
+}

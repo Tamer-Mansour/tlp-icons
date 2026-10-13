@@ -1,0 +1,11 @@
+{
+  "name": "floodlight-tower",
+  "category": "buildings",
+  "tags": ["floodlight", "tower", "lamp", "stadium", "light", "mast"],
+  "svg": "<path class=\"p1\" d=\"M12 21V8M8 21h8\"/><rect class=\"d p2\" x=\"6\" y=\"3\" width=\"12\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M4 11l-2 3M20 11l2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "glow", "dur": 1000, "delay": 1100, "origin": "12px 5.5px" }
+  ]
+}

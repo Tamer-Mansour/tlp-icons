@@ -1,0 +1,10 @@
+{
+  "name": "running-total",
+  "category": "math",
+  "tags": ["running", "total", "cumulative", "sum", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 16h3v4H3zM8 13h3v7H8zM13 10h3v10h-3zM18 6h3v14h-3z\"/><polyline class=\"p2\" points=\"4.5,16 9.5,13 14.5,10 19.5,6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

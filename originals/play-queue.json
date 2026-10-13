@@ -1,0 +1,10 @@
+{
+  "name": "play-queue",
+  "category": "media",
+  "tags": ["queue", "playlist", "play", "list", "music", "rows"],
+  "svg": "<path class=\"p1\" d=\"M3 6h10M3 11h10M3 16h6\"/><polygon class=\"d p2\" points=\"16,11 21,14 16,17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

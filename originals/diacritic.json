@@ -1,0 +1,10 @@
+{
+  "name": "diacritic",
+  "category": "text",
+  "tags": ["tilde", "diacritic", "letter", "accent", "spanish"],
+  "svg": "<path class=\"p1\" d=\"M9 17v-6a3 3 0 0 1 6 0v6\"/><path class=\"p2\" d=\"M10 4.5c1-1.5 2.5-1.5 3.5 0s2.5 1.5 3.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 900 }
+  ]
+}

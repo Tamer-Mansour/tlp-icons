@@ -1,0 +1,11 @@
+{
+  "name": "film-grain",
+  "category": "media",
+  "tags": ["film", "grain", "noise", "texture", "retro", "analog"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"8\" y1=\"3\" x2=\"8\" y2=\"21\"/><line class=\"p2\" x1=\"16\" y1=\"3\" x2=\"16\" y2=\"21\"/><path class=\"p3\" d=\"M6 7h.01M6 12h.01M6 17h.01M18 7h.01M18 12h.01M18 17h.01\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ignition-coil",
+  "category": "vehicles",
+  "tags": ["ignition", "coil", "spark", "engine", "spring", "electrical"],
+  "svg": "<polyline class=\"p1\" points=\"8,6 16,8.5 8,11 16,13.5 8,16\"/><rect class=\"d p2\" x=\"7\" y=\"18\" width=\"10\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M12 2v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 600, "delay": 1100 }
+  ]
+}

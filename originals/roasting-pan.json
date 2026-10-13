@@ -1,0 +1,11 @@
+{
+  "name": "roasting-pan",
+  "category": "home",
+  "tags": ["roasting", "pan", "roast", "oven", "dish", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M5 10h14v9a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M2 12h3M19 12h3\"/><path class=\"p3\" d=\"M8 10q4-5 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bloom", "dur": 600, "delay": 900 }
+  ]
+}

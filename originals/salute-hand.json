@@ -1,0 +1,11 @@
+{
+  "name": "salute-hand",
+  "category": "people",
+  "tags": ["salute", "military salute", "hand to brow", "respect", "greeting"],
+  "svg": "<circle class=\"d p1\" cx=\"8.5\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M3 21a5.5 5.5 0 0 1 11 0\"/><path class=\"p3\" d=\"M14.5 8L19 20M13.5 4.5h4a1.5 1.5 0 0 1 1.5 1.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hot-pot-burner",
+  "category": "food",
+  "tags": ["hot-pot", "burner", "flame", "pot", "stove", "cook", "soup"],
+  "svg": "<path class=\"d p1\" d=\"M5 4h14v9a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3z\"/><line class=\"p2\" x1=\"19\" y1=\"8\" x2=\"21.5\" y2=\"8\"/><path class=\"p3\" d=\"M12 18.5c-1.5 1.5-1.5 3 0 3.5 1.5-.5 1.5-2 0-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "queue-display",
+  "category": "devices",
+  "tags": ["queue", "display", "number", "ticket", "waiting", "screen"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"12\" rx=\"1.5\"/><rect class=\"p2\" x=\"5.5\" y=\"7.5\" width=\"5\" height=\"5\"/><circle class=\"p3\" cx=\"16\" cy=\"9\" r=\"1.5\"/><path class=\"p3\" d=\"M13.5 14 Q13.5 11 16 11 Q18.5 11 18.5 14\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"20\"/><line x1=\"8\" y1=\"20\" x2=\"16\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 800 }
+  ]
+}

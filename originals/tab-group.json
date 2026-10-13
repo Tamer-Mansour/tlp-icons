@@ -1,0 +1,10 @@
+{
+  "name": "tab-group",
+  "category": "layout",
+  "tags": ["tab", "group", "tabs", "panel", "layout"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3M12 8V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3\"/><rect class=\"p2\" x=\"2\" y=\"8\" width=\"20\" height=\"13\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

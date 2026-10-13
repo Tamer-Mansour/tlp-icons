@@ -1,0 +1,11 @@
+{
+  "name": "snow-load",
+  "category": "weather",
+  "tags": ["snow", "load", "roof", "weight", "pile"],
+  "svg": "<path class=\"p1\" d=\"M3 13 L12 5 L21 13\"/><path class=\"p2\" d=\"M8 8.5 Q12 4.5 16 8.5\"/><path class=\"p3\" d=\"M7 16 V20 M5.5 18.5 L7 20 L8.5 18.5 M17 16 V20 M15.5 18.5 L17 20 L18.5 18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 1000 }
+  ]
+}

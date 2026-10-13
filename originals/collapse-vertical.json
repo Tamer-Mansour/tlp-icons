@@ -1,0 +1,11 @@
+{
+  "name": "collapse-vertical",
+  "category": "interface",
+  "tags": ["collapse", "vertical", "arrows", "fold", "shrink", "toward center"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><path class=\"p2\" d=\"M12 3v6.5M8.5 6l3.5 3.5 3.5-3.5\"/><path class=\"p3\" d=\"M12 21v-6.5M8.5 18l3.5-3.5 3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 500 }
+  ]
+}

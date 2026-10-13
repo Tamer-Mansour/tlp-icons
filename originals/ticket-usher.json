@@ -1,0 +1,11 @@
+{
+  "name": "ticket-usher",
+  "category": "people",
+  "tags": ["ticket", "usher", "event", "admission", "stub", "guide"],
+  "svg": "<path class=\"d p1\" d=\"M3 6 H21 V10 A2 2 0 0 0 21 14 V18 H3 V14 A2 2 0 0 0 3 10 Z\"/><path class=\"p2\" d=\"M15 8 V16\"/><path class=\"p3\" d=\"M22 22 L18.5 20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 700, "delay": 1200, "origin": "22px 22px" }
+  ]
+}

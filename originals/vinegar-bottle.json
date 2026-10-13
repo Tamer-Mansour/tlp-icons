@@ -1,0 +1,11 @@
+{
+  "name": "vinegar-bottle",
+  "category": "food",
+  "tags": ["vinegar", "bottle", "cork", "pantry", "food"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"2\" width=\"4\" height=\"5\" rx=\"1\"/><line class=\"p3\" x1=\"7\" y1=\"13\" x2=\"17\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

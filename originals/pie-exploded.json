@@ -1,0 +1,10 @@
+{
+  "name": "pie-exploded",
+  "category": "charts",
+  "tags": ["pie", "chart", "slice", "share", "proportion", "exploded"],
+  "svg": "<path class=\"d p1\" d=\"M10 14 L10 6 A8 8 0 1 0 18 14 Z\"/><path class=\"p2\" d=\"M14 10 V2 A8 8 0 0 1 22 10 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 700 }
+  ]
+}

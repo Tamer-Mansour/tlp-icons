@@ -1,0 +1,11 @@
+{
+  "name": "coping-saw",
+  "category": "tools",
+  "tags": ["saw", "bow", "curve", "woodwork", "blade"],
+  "svg": "<path class=\"p1\" d=\"M4 19C4 9 9 4 20 4\"/><path class=\"p2\" d=\"M9 15L15 9\"/><circle class=\"d p3\" cx=\"20\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

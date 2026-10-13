@@ -1,0 +1,10 @@
+{
+  "name": "radial-lines",
+  "category": "shapes",
+  "tags": ["radial", "rays", "lines", "burst", "sun"],
+  "svg": "<path class=\"p1\" d=\"M18 12h3M12 18v3M6 12H3M12 6V3\"/><path class=\"p2\" d=\"M16.24 16.24l2.12 2.12M7.76 16.24l-2.12 2.12M7.76 7.76l-2.12-2.12M16.24 7.76l2.12-2.12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 500 }
+  ]
+}

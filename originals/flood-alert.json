@@ -1,0 +1,11 @@
+{
+  "name": "flood-alert",
+  "category": "notifications",
+  "tags": ["flood", "water", "wave", "alert", "warning", "rising"],
+  "svg": "<path class=\"p1\" d=\"M3 9c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0\"/><path class=\"p2\" d=\"M3 16c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0\"/><line class=\"p3\" x1=\"20.5\" y1=\"4\" x2=\"20.5\" y2=\"10\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

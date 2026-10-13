@@ -1,0 +1,11 @@
+{
+  "name": "helmet-camera",
+  "category": "devices",
+  "tags": ["helmet", "camera", "action", "head", "lens", "record"],
+  "svg": "<path class=\"d p1\" d=\"M3 17 V15 A9 9 0 0 1 21 15 V17 Z\"/><circle class=\"p2\" cx=\"18\" cy=\"13\" r=\"2\"/><circle class=\"f p3\" cx=\"18\" cy=\"13\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 600, "delay": 1000 }
+  ]
+}

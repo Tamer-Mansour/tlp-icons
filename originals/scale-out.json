@@ -1,0 +1,11 @@
+{
+  "name": "scale-out",
+  "category": "development",
+  "tags": ["scale", "out", "horizontal", "replicate", "split", "cluster"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"2.5\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M12 7.5v3.5M12 11l-7.25 5.5M12 11l7.25 5.5M12 11v5.5\"/><rect class=\"p3\" x=\"2.5\" y=\"16.5\" width=\"4.5\" height=\"4.5\" rx=\"1\"/><rect class=\"p3\" x=\"9.75\" y=\"16.5\" width=\"4.5\" height=\"4.5\" rx=\"1\"/><rect class=\"p3\" x=\"17\" y=\"16.5\" width=\"4.5\" height=\"4.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bloom", "dur": 700, "delay": 800 }
+  ]
+}

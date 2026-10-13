@@ -1,0 +1,10 @@
+{
+  "name": "reverb-room",
+  "category": "media",
+  "tags": ["reverb", "room", "echo", "acoustic", "sound", "effect"],
+  "svg": "<path class=\"p1\" d=\"M4 20V8L12 4L20 8V20Z\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

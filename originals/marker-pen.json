@@ -1,0 +1,11 @@
+{
+  "name": "marker-pen",
+  "category": "interface",
+  "tags": ["marker", "pen", "felt", "write", "draw", "tip"],
+  "svg": "<polygon class=\"d p1\" points=\"14,3 21,10 11,20 4,13\"/><line class=\"p2\" x1=\"10\" y1=\"7\" x2=\"17\" y2=\"14\"/><circle class=\"f p3\" cx=\"3\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

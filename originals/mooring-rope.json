@@ -1,0 +1,11 @@
+{
+  "name": "mooring-rope",
+  "category": "vehicles",
+  "tags": ["mooring", "rope", "dock", "boat", "tie", "harbor"],
+  "svg": "<path class=\"d p1\" d=\"M2 9 H22 L18 16 H6 Z\"/><rect class=\"p2\" x=\"17\" y=\"3\" width=\"4\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M9 16 Q14 22 20 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "notepad-check",
+  "category": "files",
+  "tags": ["notepad", "check", "approved", "done", "writing pad"],
+  "svg": "<path class=\"p1\" d=\"M4 5h16v16H4z\"/><path class=\"p3\" d=\"M8 2v3M12 2v3M16 2v3\"/><path class=\"p2\" d=\"M9 13l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "slideDown", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

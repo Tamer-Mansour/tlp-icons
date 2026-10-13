@@ -1,0 +1,10 @@
+{
+  "name": "text-wrap-shape",
+  "category": "text",
+  "tags": ["wrap", "shape", "circle", "text", "flow", "outline"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M8.5 10h7M8 13.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 700 }
+  ]
+}

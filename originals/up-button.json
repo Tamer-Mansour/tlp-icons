@@ -1,0 +1,10 @@
+{
+  "name": "up-button",
+  "category": "emoji",
+  "tags": ["up", "button", "arrow", "upload", "increase", "top"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><polyline class=\"p2\" points=\"8 13 12 9 16 13\"/><line class=\"p2\" x1=\"12\" y1=\"9\" x2=\"12\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 500 }
+  ]
+}

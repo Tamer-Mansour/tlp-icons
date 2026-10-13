@@ -1,0 +1,11 @@
+{
+  "name": "indent-right",
+  "category": "arrows",
+  "tags": ["indent", "right", "text", "list", "arrows"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"5\" x2=\"21\" y2=\"5\"/><line class=\"p2\" x1=\"9\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p2\" x1=\"9\" y1=\"19\" x2=\"21\" y2=\"19\"/><path class=\"p3\" d=\"M3 12h4\"/><polyline class=\"p3\" points=\"5 10 7 12 5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

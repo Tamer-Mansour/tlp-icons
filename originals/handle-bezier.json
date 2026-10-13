@@ -1,0 +1,10 @@
+{
+  "name": "handle-bezier",
+  "category": "design",
+  "tags": ["handle", "bezier", "curve", "control", "point", "vector"],
+  "svg": "<path class=\"p1\" d=\"M4 20C8 20 12 4 20 4\"/><path class=\"p2\" d=\"M10.5 12L6 16M10.5 12L15 8\"/><circle class=\"f p2\" cx=\"6\" cy=\"16\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

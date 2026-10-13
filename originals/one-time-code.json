@@ -1,0 +1,12 @@
+{
+  "name": "one-time-code",
+  "category": "security",
+  "tags": ["one", "time", "code", "otp", "clock", "verification"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"16\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M9 14.5h6\"/><circle class=\"p3\" cx=\"12\" cy=\"4.5\" r=\"2.5\"/><path class=\"p4\" d=\"M12 4.5V3.2M12 4.5l1 .8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "12px 4.5px" }
+  ]
+}

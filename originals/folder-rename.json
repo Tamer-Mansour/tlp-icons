@@ -1,0 +1,27 @@
+{
+  "name": "folder-rename",
+  "category": "files",
+  "tags": [
+    "folder",
+    "rename",
+    "edit",
+    "pencil",
+    "name",
+    "change"
+  ],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M8 17.5l1-3.5 6.5-6.5 2.5 2.5-6.5 6.5z\"/>",
+  "motion": [
+    {
+      "part": "p1",
+      "anim": "fillIn",
+      "dur": 600,
+      "delay": 0
+    },
+    {
+      "part": "p2",
+      "anim": "draw",
+      "dur": 700,
+      "delay": 500
+    }
+  ]
+}

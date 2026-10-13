@@ -1,0 +1,10 @@
+{
+  "name": "window-frame",
+  "category": "buildings",
+  "tags": ["window", "frame", "pane", "glass", "building", "home"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\"/><path class=\"p2\" d=\"M12 3v18M4 12h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

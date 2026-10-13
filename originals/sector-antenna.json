@@ -1,0 +1,10 @@
+{
+  "name": "sector-antenna",
+  "category": "connectivity",
+  "tags": ["sector antenna", "panel", "cellular", "directional", "radio", "coverage"],
+  "svg": "<path class=\"p1\" d=\"M4 14.5 13 9.5v10z\"/><path class=\"p2\" d=\"M16.5 9a5 5 0 0 1 0 8M19.5 6.5a9 9 0 0 1 0 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

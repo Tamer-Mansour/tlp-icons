@@ -1,0 +1,10 @@
+{
+  "name": "torn-paper",
+  "category": "files",
+  "tags": ["torn", "paper", "ripped", "sheet", "jagged", "damaged"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h11v3l-2 3 2 3-2 3 2 3-2 4H5z\"/><polygon class=\"p2\" points=\"18,4 21,6 19,9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 700 }
+  ]
+}

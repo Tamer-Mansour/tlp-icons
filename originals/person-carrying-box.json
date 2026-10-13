@@ -1,0 +1,12 @@
+{
+  "name": "person-carrying-box",
+  "category": "people",
+  "tags": ["carry", "box", "delivery", "moving", "person", "parcel"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"4.5\" r=\"2.5\"/><path class=\"p2\" d=\"M9 8.5 V15 M9 15 L7 21 M9 15 L11 21\"/><path class=\"p3\" d=\"M9 10 L11 13.5\"/><rect class=\"d p4\" x=\"11\" y=\"10\" width=\"8\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "stampIn", "dur": 500, "delay": 900 }
+  ]
+}

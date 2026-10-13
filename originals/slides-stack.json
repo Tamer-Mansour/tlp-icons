@@ -1,0 +1,11 @@
+{
+  "name": "slides-stack",
+  "category": "files",
+  "tags": ["slides", "presentation", "deck", "chart", "stack", "pages"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"12\" height=\"9\" rx=\"1\"/><rect class=\"p1\" x=\"5\" y=\"6\" width=\"12\" height=\"9\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"9\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M6 15v-2M9 15v-4M12 15v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "equalize", "dur": 800, "delay": 1100, "origin": "bottom" }
+  ]
+}

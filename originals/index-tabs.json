@@ -1,0 +1,11 @@
+{
+  "name": "index-tabs",
+  "category": "files",
+  "tags": ["index", "tabs", "page", "sections", "dividers"],
+  "svg": "<path class=\"p1 d\" d=\"M4 3h11v18H4z\"/><rect class=\"p2\" x=\"15\" y=\"5\" width=\"5\" height=\"4\" rx=\"0.5\"/><rect class=\"p3\" x=\"15\" y=\"11\" width=\"5\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 1000 }
+  ]
+}

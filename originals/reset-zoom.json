@@ -1,0 +1,11 @@
+{
+  "name": "reset-zoom",
+  "category": "interface",
+  "tags": ["reset", "zoom", "magnifier", "search", "restore", "lens"],
+  "svg": "<circle class=\"d p1\" cx=\"10.5\" cy=\"10.5\" r=\"7\"/><path class=\"p2\" d=\"M15.5 15.5L21 21\"/><circle class=\"p3\" cx=\"10.5\" cy=\"10.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1200 }
+  ]
+}

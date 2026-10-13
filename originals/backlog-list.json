@@ -1,0 +1,10 @@
+{
+  "name": "backlog-list",
+  "category": "charts",
+  "tags": ["backlog", "list", "queue", "tasks", "rows", "agile"],
+  "svg": "<path class=\"p1\" d=\"M10 6h10M10 12h10M10 18h10\"/><path class=\"p2\" d=\"M3 12h4M5.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

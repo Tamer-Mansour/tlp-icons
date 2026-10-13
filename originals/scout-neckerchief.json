@@ -1,0 +1,11 @@
+{
+  "name": "scout-neckerchief",
+  "category": "people",
+  "tags": ["scout", "neckerchief", "uniform", "knot", "troop", "camp"],
+  "svg": "<path class=\"d p1\" d=\"M5 9 Q12 11 19 9 L12 21 Z\"/><path class=\"p2\" d=\"M7 3 L12 8 L17 3\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

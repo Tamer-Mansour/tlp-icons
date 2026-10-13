@@ -1,0 +1,10 @@
+{
+  "name": "progress-ring",
+  "category": "interface",
+  "tags": ["progress", "ring", "loading", "percent", "status"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M12 3A9 9 0 1 1 3 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 }
+  ]
+}

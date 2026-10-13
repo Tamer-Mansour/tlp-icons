@@ -1,0 +1,12 @@
+{
+  "name": "ping",
+  "category": "development",
+  "tags": ["ping", "signal", "wave", "probe", "network", "response"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M6 15a4 4 0 0 1 4 4\"/><path class=\"p3\" d=\"M6 11a8 8 0 0 1 8 8\"/><path class=\"p4\" d=\"M6 6a13 13 0 0 1 13 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

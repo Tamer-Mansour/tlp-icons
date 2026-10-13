@@ -1,0 +1,11 @@
+{
+  "name": "tram-line",
+  "category": "buildings",
+  "tags": ["tram", "line", "rails", "track", "transit", "car"],
+  "svg": "<path class=\"p1\" d=\"M2 21h20M2 18.5h20\"/><rect class=\"d p2\" x=\"6\" y=\"10\" width=\"12\" height=\"6\"/><path class=\"p3\" d=\"M9 6h6M12 6v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

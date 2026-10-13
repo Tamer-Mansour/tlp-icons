@@ -1,0 +1,10 @@
+{
+  "name": "hazard-sign",
+  "category": "security",
+  "tags": ["hazard", "warning", "sign", "danger", "caution"],
+  "svg": "<polygon class=\"d p1\" points=\"12,2.5 21.5,12 12,21.5 2.5,12\"/><path class=\"p2\" d=\"M12 8v5\"/><circle class=\"f p2\" cx=\"12\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 600 }
+  ]
+}

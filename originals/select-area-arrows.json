@@ -1,0 +1,10 @@
+{
+  "name": "select-area-arrows",
+  "category": "arrows",
+  "tags": ["select", "area", "expand", "outward", "region", "crop"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"0.5\"/><path class=\"p2\" d=\"M12 5V2M9.5 4.5 12 2l2.5 2.5M12 19v3M9.5 19.5 12 22l2.5-2.5M5 12H2M4.5 9.5 2 12l2.5 2.5M19 12h3M19.5 9.5 22 12l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

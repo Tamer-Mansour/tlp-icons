@@ -1,0 +1,10 @@
+{
+  "name": "node-link",
+  "category": "charts",
+  "tags": ["node", "link", "graph", "network", "connect", "relation"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"3\"/><circle class=\"p1\" cx=\"18\" cy=\"18\" r=\"3\"/><path class=\"p1\" d=\"M8.5 8.5L15.5 15.5\"/><rect class=\"p2\" x=\"16\" y=\"3.5\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

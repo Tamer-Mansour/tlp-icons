@@ -1,0 +1,12 @@
+{
+  "name": "athlete-podium",
+  "category": "people",
+  "tags": ["podium", "athlete", "winner", "medal", "first", "champion"],
+  "svg": "<rect class=\"p2\" x=\"3\" y=\"13\" width=\"4\" height=\"8\"/><rect class=\"d p1\" x=\"9.5\" y=\"8\" width=\"5\" height=\"13\"/><rect class=\"p3\" x=\"17\" y=\"11\" width=\"4\" height=\"10\"/><circle class=\"p4\" cx=\"12\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "jump", "dur": 900, "delay": 1200 }
+  ]
+}

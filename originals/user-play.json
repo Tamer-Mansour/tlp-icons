@@ -1,0 +1,11 @@
+{
+  "name": "user-play",
+  "category": "people",
+  "tags": ["user", "play", "video", "start", "media", "person", "watch"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"9\" r=\"3.2\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v1.5\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"17.5\" r=\"3.5\"/><path class=\"p3\" d=\"M17.3 15.8v3.4l2.9-1.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

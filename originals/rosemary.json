@@ -1,0 +1,10 @@
+{
+  "name": "rosemary",
+  "category": "food",
+  "tags": ["rosemary", "herb", "needle", "sprig", "food"],
+  "svg": "<path class=\"p1\" d=\"M12 21 V4\"/><path class=\"p2\" d=\"M12 17 L8 14 M12 17 L16 14 M12 12 L8 9 M12 12 L16 9 M12 7 L9.5 4.5 M12 7 L14.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 900, "origin": "12px 21px" }
+  ]
+}

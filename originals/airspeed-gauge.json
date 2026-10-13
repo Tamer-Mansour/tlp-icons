@@ -1,0 +1,11 @@
+{
+  "name": "airspeed-gauge",
+  "category": "vehicles",
+  "tags": ["airspeed", "gauge", "dial", "speed", "aircraft", "instrument"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p3\" d=\"M6 9L7.5 10M12 3.5V5.5M18 9L16.5 10\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"16\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 1000 }
+  ]
+}

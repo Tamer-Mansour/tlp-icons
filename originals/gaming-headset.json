@@ -1,0 +1,11 @@
+{
+  "name": "gaming-headset",
+  "category": "sport",
+  "tags": ["headset", "gaming", "headphones", "mic", "audio", "esports"],
+  "svg": "<path class=\"p1\" d=\"M4 13a8 8 0 0 1 16 0\"/><rect class=\"d p2\" x=\"3\" y=\"13\" width=\"4\" height=\"6\" rx=\"1.5\"/><rect class=\"d p2\" x=\"17\" y=\"13\" width=\"4\" height=\"6\" rx=\"1.5\"/><path class=\"p3\" d=\"M19 19v1a1.5 1.5 0 0 1-1.5 1.5H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

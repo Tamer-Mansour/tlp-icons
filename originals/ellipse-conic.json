@@ -1,0 +1,10 @@
+{
+  "name": "ellipse-conic",
+  "category": "math",
+  "tags": ["ellipse", "conic", "oval", "foci", "plane", "math"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"5\" transform=\"rotate(-20 12 12)\"/><circle class=\"f p2\" cx=\"5\" cy=\"14.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"9.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

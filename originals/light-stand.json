@@ -1,0 +1,10 @@
+{
+  "name": "light-stand",
+  "category": "photography",
+  "tags": ["light", "stand", "tripod", "studio", "lamp"],
+  "svg": "<path class=\"p1\" d=\"M12 8v6M8 21l4-7 4 7\"/><rect class=\"d p2\" x=\"7\" y=\"2\" width=\"10\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

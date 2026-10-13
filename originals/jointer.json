@@ -1,0 +1,11 @@
+{
+  "name": "jointer",
+  "category": "tools",
+  "tags": ["jointer", "planer", "bed", "cutter", "woodworking"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15\" width=\"18\" height=\"4\" rx=\"1\"/><circle class=\"d p2\" cx=\"12\" cy=\"10.5\" r=\"2.5\"/><path class=\"p3\" d=\"M3 13H8M16 13H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spinFast", "dur": 800, "delay": 1000, "origin": "center" }
+  ]
+}

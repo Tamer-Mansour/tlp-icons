@@ -1,0 +1,11 @@
+{
+  "name": "ketchup-bottle",
+  "category": "food",
+  "tags": ["ketchup", "bottle", "squeeze", "condiment", "food"],
+  "svg": "<path class=\"d p1\" d=\"M8 11 Q8 9 10 9 H14 Q16 9 16 11 V19 Q16 21 14 21 H10 Q8 21 8 19 Z\"/><path class=\"p2\" d=\"M12 9 V5 H15\"/><line class=\"p3\" x1=\"8\" y1=\"14\" x2=\"16\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 1100 }
+  ]
+}

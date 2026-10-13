@@ -1,0 +1,11 @@
+{
+  "name": "expansion-slot",
+  "category": "devices",
+  "tags": ["expansion", "slot", "card", "pci", "motherboard"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"8\" y=\"2.5\" width=\"8\" height=\"4.5\" rx=\"0.5\"/><line class=\"p3\" x1=\"6\" y1=\"12\" x2=\"18\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

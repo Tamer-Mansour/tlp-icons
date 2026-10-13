@@ -1,0 +1,10 @@
+{
+  "name": "text-underline-wavy",
+  "category": "text",
+  "tags": ["text", "underline", "wavy", "lines", "emphasis"],
+  "svg": "<path class=\"p1\" d=\"M5 8h14M5 12h10\"/><path class=\"p2\" d=\"M4 17q2-2 4 0t4 0t4 0t4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "typeIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

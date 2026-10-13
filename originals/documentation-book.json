@@ -1,0 +1,11 @@
+{
+  "name": "documentation-book",
+  "category": "development",
+  "tags": ["docs", "book", "documentation", "manual", "reference", "guide"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5C10 5 7 4.5 3 5.5V19c4-1 7-.5 9 1 2-1.5 5-2 9-1V5.5c-4-1-7-.5-9 1z\"/><path class=\"p2\" d=\"M12 6.5V20\"/><path class=\"p3\" d=\"M6 10l1.5 1.5L6 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "simulator-device",
+  "category": "development",
+  "tags": ["simulator", "device", "phone", "testing", "gear", "emulate"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"2\" width=\"10\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"18.5\" cy=\"16.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 500 }
+  ]
+}

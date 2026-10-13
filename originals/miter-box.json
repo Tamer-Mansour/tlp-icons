@@ -1,0 +1,11 @@
+{
+  "name": "miter-box",
+  "category": "tools",
+  "tags": ["miter", "box", "angle", "saw", "woodworking"],
+  "svg": "<path class=\"p1\" d=\"M3 8V21H21V8\"/><path class=\"p2\" d=\"M8 13L11 17M13 13L16 17\"/><line class=\"p3\" x1=\"3\" y1=\"5\" x2=\"21\" y2=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1100 }
+  ]
+}

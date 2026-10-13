@@ -1,0 +1,11 @@
+{
+  "name": "ransom-note",
+  "category": "security",
+  "tags": ["ransom", "note", "letters", "cutout", "threat", "malware"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1.5\"/><rect class=\"p2\" x=\"7\" y=\"6\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p2\" x=\"13\" y=\"6.5\" width=\"3.5\" height=\"3.5\" rx=\"0.5\"/><path class=\"p3\" d=\"M7 15h10M7 18h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

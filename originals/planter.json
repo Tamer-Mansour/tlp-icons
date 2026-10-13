@@ -1,0 +1,11 @@
+{
+  "name": "planter",
+  "category": "home",
+  "tags": ["planter", "pot", "sprout", "plant", "garden"],
+  "svg": "<path class=\"d p1\" d=\"M5 13h14l-2 8H7z\"/><path class=\"p2\" d=\"M12 13V8\"/><path class=\"p3\" d=\"M12 9c-3 0-4-2-4-3 3 0 4 1 4 3zM12 8c3 0 4-2 4-3-3 0-4 1-4 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

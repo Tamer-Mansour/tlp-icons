@@ -1,0 +1,10 @@
+{
+  "name": "sympathy-card",
+  "category": "communication",
+  "tags": ["sympathy", "card", "leaf", "condolence", "greeting", "note"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 10c0-3 2-5 5-5 0 3-2 5-5 5zM6 10l4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "plug-adapter",
+  "category": "devices",
+  "tags": ["plug", "adapter", "power", "socket", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"7\" height=\"12\" rx=\"2\"/><rect class=\"d p3\" x=\"14\" y=\"6\" width=\"7\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1200 }
+  ]
+}

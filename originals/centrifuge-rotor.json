@@ -1,0 +1,10 @@
+{
+  "name": "centrifuge-rotor",
+  "category": "science",
+  "tags": ["lab", "rotor", "spin", "separate", "science"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><g class=\"p2\"><rect x=\"10.5\" y=\"5.5\" width=\"3\" height=\"5\" rx=\"1.5\"/><rect x=\"10.5\" y=\"13.5\" width=\"3\" height=\"5\" rx=\"1.5\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900, "origin": "12px 12px" }
+  ]
+}

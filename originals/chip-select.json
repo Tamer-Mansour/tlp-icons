@@ -1,0 +1,10 @@
+{
+  "name": "chip-select",
+  "category": "interface",
+  "tags": ["chip", "select", "tag", "pill", "choice", "check"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6.5\" width=\"19\" height=\"11\" rx=\"5.5\"/><path class=\"p2\" d=\"M7.5 12l3 3 6-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

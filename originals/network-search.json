@@ -1,0 +1,11 @@
+{
+  "name": "network-search",
+  "category": "connectivity",
+  "tags": ["network", "search", "scan", "discover", "magnifier", "nodes"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"18\" r=\"2\"/><path class=\"p1\" d=\"M5 8v2M5 14v2\"/><circle class=\"d p2\" cx=\"15\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M18 15l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1000 }
+  ]
+}

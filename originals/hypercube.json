@@ -1,0 +1,11 @@
+{
+  "name": "hypercube",
+  "category": "science",
+  "tags": ["hypercube", "cube", "geometry", "dimension", "math", "shape"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\"/><path class=\"p3\" d=\"M3 3L8 8M21 3L16 8M21 21L16 16M3 21L8 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "spinHalf", "dur": 900, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

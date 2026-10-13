@@ -1,0 +1,11 @@
+{
+  "name": "snow-cone",
+  "category": "food",
+  "tags": ["snow", "cone", "shaved", "ice", "summer"],
+  "svg": "<path class=\"d p1\" d=\"M5 12A7 7 0 0 1 19 12Z\"/><path class=\"d p2\" d=\"M7 12L12 21L17 12Z\"/><path class=\"p3\" d=\"M5 12H19\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pasta-machine",
+  "category": "food",
+  "tags": ["pasta", "machine", "roller", "noodle", "kitchen", "dough", "italian"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M15 7 H19 V12\"/><path class=\"p3\" d=\"M7 10 V20 H11 V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "15px 7px" }
+  ]
+}

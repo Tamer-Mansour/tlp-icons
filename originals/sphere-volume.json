@@ -1,0 +1,10 @@
+{
+  "name": "sphere-volume",
+  "category": "math",
+  "tags": ["sphere", "volume", "circle", "solid", "cross section", "3d"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"7\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

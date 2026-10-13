@@ -1,0 +1,10 @@
+{
+  "name": "amp-tubes",
+  "category": "media",
+  "tags": ["amp", "tubes", "valve", "glow", "amplifier"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"6\" width=\"5\" height=\"14\" rx=\"2.5\"/><rect class=\"d p2\" x=\"14\" y=\"6\" width=\"5\" height=\"14\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 600 }
+  ]
+}

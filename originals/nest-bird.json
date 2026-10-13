@@ -1,0 +1,10 @@
+{
+  "name": "nest-bird",
+  "category": "science",
+  "tags": ["nest", "bird", "eggs", "twigs", "home"],
+  "svg": "<path class=\"p1\" d=\"M3.5 12C3.5 18.5 20.5 18.5 20.5 12\"/><ellipse class=\"p2\" cx=\"9\" cy=\"11.5\" rx=\"1.7\" ry=\"2.3\"/><ellipse class=\"p2\" cx=\"15\" cy=\"11.5\" rx=\"1.7\" ry=\"2.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pythagorean-triangle",
+  "category": "math",
+  "tags": ["pythagorean", "right", "triangle", "squares", "theorem", "geometry"],
+  "svg": "<polygon class=\"p1\" points=\"4,20 4,6 18,20\"/><rect class=\"p2\" x=\"5\" y=\"15\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"8\" y=\"17\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

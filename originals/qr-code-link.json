@@ -1,0 +1,11 @@
+{
+  "name": "qr-code-link",
+  "category": "connectivity",
+  "tags": ["qr", "code", "link", "scan", "url", "barcode", "share"],
+  "svg": "<path class=\"p1\" d=\"M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3z\"/><circle class=\"f p2\" cx=\"6\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"18\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"18\" r=\"1\"/><path class=\"p3\" d=\"M12.5 14.5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M17.5 19.5a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

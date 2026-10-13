@@ -1,0 +1,10 @@
+{
+  "name": "pinch-distort",
+  "category": "design",
+  "tags": ["pinch", "distort", "squeeze", "inward", "warp", "effect"],
+  "svg": "<path class=\"p1\" d=\"M4 4H20V20H4Z\"/><path class=\"p2\" d=\"M4 12H9M20 12H15M12 4V9M12 20V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 800, "delay": 700 }
+  ]
+}

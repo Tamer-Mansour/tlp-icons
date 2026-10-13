@@ -1,0 +1,11 @@
+{
+  "name": "letterpress",
+  "category": "text",
+  "tags": ["letterpress", "print", "ink", "type", "impression"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p1\" d=\"M9 6.5 H15 M12 6.5 V10\"/><line class=\"p2\" x1=\"5\" y1=\"17\" x2=\"19\" y2=\"17\"/><line class=\"p3\" x1=\"8\" y1=\"20.5\" x2=\"16\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 800 }
+  ]
+}

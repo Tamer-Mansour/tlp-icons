@@ -1,0 +1,10 @@
+{
+  "name": "chat-loading",
+  "category": "communication",
+  "tags": ["chat", "loading", "spinner", "message", "wait", "progress"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4 3.5V16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M9.5 9.5a2.5 2.5 0 1 1 2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 700 }
+  ]
+}

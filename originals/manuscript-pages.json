@@ -1,0 +1,11 @@
+{
+  "name": "manuscript-pages",
+  "category": "files",
+  "tags": ["manuscript", "pages", "draft", "writing", "text", "document"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"12\" height=\"16\" rx=\"1.5\"/><rect class=\"d p2\" x=\"8\" y=\"5\" width=\"13\" height=\"16\" rx=\"1.5\"/><path class=\"p3\" d=\"M11 9q1.5-1.5 3 0t3 0M11 13q1.5-1.5 3 0t3 0M11 17q1.5-1.5 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

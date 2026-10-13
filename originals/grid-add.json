@@ -1,0 +1,10 @@
+{
+  "name": "grid-add",
+  "category": "interface",
+  "tags": ["grid", "add", "plus", "layout", "cells"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p1\" x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/><path class=\"p2\" d=\"M17 14.5v5M14.5 17h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 400, "delay": 800 }
+  ]
+}

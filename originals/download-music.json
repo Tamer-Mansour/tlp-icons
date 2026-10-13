@@ -1,0 +1,10 @@
+{
+  "name": "download-music",
+  "category": "media",
+  "tags": ["download", "music", "note", "audio", "save", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M9 11V4l8-2v9\"/><circle class=\"p1\" cx=\"7\" cy=\"11\" r=\"2\"/><circle class=\"p1\" cx=\"15\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M12 16.5v4.5M9.5 18.5L12 21l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 900 }
+  ]
+}

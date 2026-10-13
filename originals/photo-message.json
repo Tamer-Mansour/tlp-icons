@@ -1,0 +1,11 @@
+{
+  "name": "photo-message",
+  "category": "communication",
+  "tags": ["photo", "image", "message", "picture", "chat", "sun"],
+  "svg": "<path class=\"d p1\" d=\"M6 8H18A2 2 0 0 1 20 10V17A2 2 0 0 1 18 19H12L8 22V19H6A2 2 0 0 1 4 17V10A2 2 0 0 1 6 8Z\"/><path class=\"p2\" d=\"M7.5 17L10.5 13.5L12.5 15.5L14.5 13L16.5 15.5V17Z\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"11.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 900, "delay": 1100 }
+  ]
+}

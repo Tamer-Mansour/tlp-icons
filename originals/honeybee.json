@@ -1,0 +1,11 @@
+{
+  "name": "honeybee",
+  "category": "emoji",
+  "tags": ["bee", "honeybee", "honey", "insect", "buzz", "sting"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"7\" ry=\"5\"/><path class=\"p2\" d=\"M9 10 V18 M13 10 V18 M18 13.5 L21.5 14 L18 14.5\"/><path class=\"p3\" d=\"M9 6.5 C9 3.5 11 2.5 13.5 3 C13.5 5.5 12 6.5 9 6.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1000, "origin": "11px 6.5px" }
+  ]
+}

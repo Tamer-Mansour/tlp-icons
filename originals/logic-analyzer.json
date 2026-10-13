@@ -1,0 +1,11 @@
+{
+  "name": "logic-analyzer",
+  "category": "devices",
+  "tags": ["logic", "analyzer", "debug", "signal", "electronics"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M7 12v2M11 12v2M15 12v2M19 12v2\"/><polyline class=\"p3\" points=\"3 20 6 20 6 18 10 18 10 20 14 20 14 18 18 18 18 20 21 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 1100 }
+  ]
+}

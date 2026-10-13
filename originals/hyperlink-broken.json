@@ -1,0 +1,10 @@
+{
+  "name": "hyperlink-broken",
+  "category": "text",
+  "tags": ["hyperlink", "broken", "link", "chain", "unlink", "url"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"15\" width=\"8\" height=\"4\" rx=\"2\" transform=\"rotate(-45 7 17)\"/><rect class=\"p2\" x=\"13\" y=\"5\" width=\"8\" height=\"4\" rx=\"2\" transform=\"rotate(-45 17 7)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 700 }
+  ]
+}

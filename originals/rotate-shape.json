@@ -1,0 +1,10 @@
+{
+  "name": "rotate-shape",
+  "category": "shapes",
+  "tags": ["rotate", "square", "arrow", "turn", "transform", "spin"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M20 12A8 8 0 0 0 12 4\"/><polyline class=\"p2\" points=\"15,2 12,4 15,6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 600 }
+  ]
+}

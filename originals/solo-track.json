@@ -1,0 +1,11 @@
+{
+  "name": "solo-track",
+  "category": "media",
+  "tags": ["solo", "track", "audio", "mixer", "letter", "channel"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"4.5\"/><path class=\"p2\" d=\"M8.6 10.4c-.3-.5-.8-.7-1.4-.7-.8 0-1.4.4-1.4 1 0 1.5 3 .9 3 2.4 0 .7-.6 1.1-1.4 1.1-.6 0-1.1-.2-1.4-.7\"/><rect class=\"p3\" x=\"14\" y=\"8\" width=\"7\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 800 }
+  ]
+}

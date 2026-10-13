@@ -1,0 +1,11 @@
+{
+  "name": "redirect",
+  "category": "development",
+  "tags": ["redirect", "arrow", "boxes", "route", "forward"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"15\" y=\"15\" width=\"6\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M9 7h5a2 2 0 0 1 2 2v4\"/><path class=\"p3\" d=\"M14 11.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

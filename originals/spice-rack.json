@@ -1,0 +1,10 @@
+{
+  "name": "spice-rack",
+  "category": "food",
+  "tags": ["spice", "rack", "jars", "kitchen", "shelf"],
+  "svg": "<path class=\"p1\" d=\"M3 6 H21 M3 18 H21\"/><rect class=\"d p2\" x=\"5\" y=\"11\" width=\"4\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"10\" y=\"9\" width=\"4\" height=\"7\" rx=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"12\" width=\"4\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 }
+  ]
+}

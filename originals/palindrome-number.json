@@ -1,0 +1,10 @@
+{
+  "name": "palindrome-number",
+  "category": "math",
+  "tags": ["palindrome", "number", "mirror", "symmetry", "digits", "math"],
+  "svg": "<path class=\"p1\" d=\"M3 9H6V15H3ZM8 9H11V15H8ZM13 9H16V15H13ZM18 9H21V15H18Z\"/><path class=\"p2\" d=\"M12 3V5M12 19V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 900, "origin": "12px 12px" }
+  ]
+}

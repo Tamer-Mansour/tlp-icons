@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-key",
+  "category": "interface",
+  "tags": ["keyboard", "key", "keycap", "button", "press"],
+  "svg": "<rect class=\"p1\" x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"3\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"10\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 600, "delay": 900 }
+  ]
+}

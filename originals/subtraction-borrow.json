@@ -1,0 +1,12 @@
+{
+  "name": "subtraction-borrow",
+  "category": "math",
+  "tags": ["subtraction", "borrow", "minus", "column", "numbers", "arithmetic"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"7\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"14\" width=\"12\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M16 4 H9 M11 2 L9 4 L11 6\"/><line class=\"p4\" x1=\"2\" y1=\"16.5\" x2=\"5\" y2=\"16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

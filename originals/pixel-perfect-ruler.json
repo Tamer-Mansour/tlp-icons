@@ -1,0 +1,11 @@
+{
+  "name": "pixel-perfect-ruler",
+  "category": "design",
+  "tags": ["pixel", "ruler", "precision", "ticks", "measure", "grid"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"18\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M7 10v3M11 10v2M15 10v3\"/><rect class=\"d p3\" x=\"17\" y=\"4\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

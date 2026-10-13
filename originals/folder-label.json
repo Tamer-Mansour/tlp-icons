@@ -1,0 +1,11 @@
+{
+  "name": "folder-label",
+  "category": "files",
+  "tags": ["folder", "label", "title", "name tag", "labeled folder"],
+  "svg": "<path class=\"p1\" d=\"M3 7h6l2 2h10v11H3z\"/><rect class=\"d p2\" x=\"7\" y=\"12\" width=\"10\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 14.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 1100 }
+  ]
+}

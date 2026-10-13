@@ -1,0 +1,11 @@
+{
+  "name": "flight-stick",
+  "category": "devices",
+  "tags": ["joystick", "flight", "stick", "pilot", "controller", "game"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"18\" width=\"10\" height=\"4\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"18\" x2=\"12\" y2=\"9\"/><circle class=\"p3\" cx=\"12\" cy=\"6.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hydrogen-fuel",
+  "category": "vehicles",
+  "tags": ["hydrogen", "fuel", "h2", "drop", "clean energy"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5c3.5 4.5 6.5 8 6.5 11.5a6.5 6.5 0 0 1-13 0C5.5 10.5 8.5 7 12 2.5z\"/><path class=\"p2\" d=\"M9.5 11v5M14.5 11v5M9.5 13.5h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

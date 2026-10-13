@@ -1,0 +1,10 @@
+{
+  "name": "sunlight",
+  "category": "weather",
+  "tags": ["sunlight", "sun", "rays", "beams", "bright"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M12 15 V20 M6 13 L4 15.5 M18 13 L20 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 700 }
+  ]
+}

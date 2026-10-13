@@ -1,0 +1,10 @@
+{
+  "name": "tuning-peg",
+  "category": "media",
+  "tags": ["tuning", "peg", "guitar", "knob", "string", "instrument"],
+  "svg": "<path class=\"p1\" d=\"M3 12h10\"/><circle class=\"d p2\" cx=\"17\" cy=\"12\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pin-notification",
+  "category": "notifications",
+  "tags": ["pin", "pushpin", "notification", "badge", "marker"],
+  "svg": "<path class=\"d p1\" d=\"M8 3 H16 L15 9 L17 12 H7 L9 9 Z\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\"/><circle class=\"d p3\" cx=\"18\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 900 }
+  ]
+}

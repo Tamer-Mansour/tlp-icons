@@ -1,0 +1,11 @@
+{
+  "name": "telephone-line",
+  "category": "connectivity",
+  "tags": ["telephone", "phone line", "pole", "handset", "landline", "wire"],
+  "svg": "<path class=\"p1\" d=\"M12 2V22M8 5H16\"/><path class=\"p2\" d=\"M8 5C6 8 4 10 2 12M16 5C18 8 20 10 22 12\"/><circle class=\"f p3\" cx=\"8\" cy=\"5\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1300 }
+  ]
+}

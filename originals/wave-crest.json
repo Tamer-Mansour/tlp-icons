@@ -1,0 +1,10 @@
+{
+  "name": "wave-crest",
+  "category": "nature",
+  "tags": ["wave", "crest", "ocean", "foam", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 19 C8 19 9 11 14 8 C16 6.5 19 6 21 7 C18 7.5 17 10 18 12.5 C19 15 16 19 12 19 Z\"/><circle class=\"f p2\" cx=\"17.5\" cy=\"3.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

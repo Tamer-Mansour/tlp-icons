@@ -1,0 +1,11 @@
+{
+  "name": "central-locking",
+  "category": "vehicles",
+  "tags": ["central", "locking", "lock", "car", "door", "security"],
+  "svg": "<path class=\"p1\" d=\"M5 11V8a3.5 3.5 0 0 1 7 0v3\"/><rect class=\"d p2\" x=\"2\" y=\"11\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p3\" d=\"M15.5 11v-2l1.5-3h4l1.5 3v2h-7z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "swing", "dur": 700, "delay": 1100, "origin": "5px 11px" }
+  ]
+}

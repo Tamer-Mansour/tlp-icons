@@ -1,0 +1,11 @@
+{
+  "name": "diamond-ring",
+  "category": "emoji",
+  "tags": ["diamond", "ring", "engagement", "jewelry", "wedding", "gem"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"16\" r=\"6\"/><polygon class=\"d p2\" points=\"8 4 16 4 19 7.5 12 10.5 5 7.5\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"3.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 1000 }
+  ]
+}

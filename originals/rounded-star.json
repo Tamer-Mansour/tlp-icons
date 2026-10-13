@@ -1,0 +1,10 @@
+{
+  "name": "rounded-star",
+  "category": "shapes",
+  "tags": ["star", "rounded", "tips", "favorite", "shape", "soft"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3.5 14.35,8.76 20.56,9.22 15.8,13.24 17.29,19.28 12,16 6.71,19.28 8.2,13.24 3.44,9.22 9.65,8.76\"/><circle class=\"f p2\" cx=\"12\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 800 }
+  ]
+}

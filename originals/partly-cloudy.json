@@ -1,0 +1,11 @@
+{
+  "name": "partly-cloudy",
+  "category": "weather",
+  "tags": ["partly", "cloudy", "sun", "cloud", "weather", "sky"],
+  "svg": "<path class=\"p1\" d=\"M4 9 A5 5 0 0 1 14 9\"/><path class=\"p3\" d=\"M9 2 V3 M2 9 H3 M4 4 L4.7 4.7\"/><path class=\"d p2\" d=\"M9 19 H18 A3 3 0 0 0 18 13 A4 4 0 0 0 10.5 12.5 A3 3 0 0 0 9 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 1100 }
+  ]
+}

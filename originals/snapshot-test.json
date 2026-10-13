@@ -1,0 +1,11 @@
+{
+  "name": "snapshot-test",
+  "category": "development",
+  "tags": ["snapshot", "test", "camera", "capture", "compare"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"6\"/><circle class=\"p3\" cx=\"12\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M7 17l-2 2 2 2M17 17l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

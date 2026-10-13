@@ -1,0 +1,10 @@
+{
+  "name": "origin-point",
+  "category": "math",
+  "tags": ["origin", "axes", "zero", "coordinate", "center"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V21 M3 12 H21\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

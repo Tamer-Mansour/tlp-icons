@@ -1,0 +1,10 @@
+{
+  "name": "z-shape",
+  "category": "shapes",
+  "tags": ["z", "zigzag", "letter", "bars", "block"],
+  "svg": "<polyline class=\"p1\" points=\"4,4 20,4\"/><polyline class=\"p2\" points=\"20,4 4,20 20,20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

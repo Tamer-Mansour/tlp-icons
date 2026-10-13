@@ -1,0 +1,11 @@
+{
+  "name": "lens-focus",
+  "category": "interface",
+  "tags": ["lens", "focus", "camera", "viewfinder", "capture", "center"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6.5\"/><path class=\"p2\" d=\"M4 8V4h4M16 4h4v4M20 16v4h-4M8 20H4v-4\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "zoomIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

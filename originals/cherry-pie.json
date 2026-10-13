@@ -1,0 +1,10 @@
+{
+  "name": "cherry-pie",
+  "category": "food",
+  "tags": ["cherry", "pie", "dessert", "slice", "fruit"],
+  "svg": "<circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"d p1\" d=\"M12 12 V4 A8 8 0 0 1 18.93 8 Z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

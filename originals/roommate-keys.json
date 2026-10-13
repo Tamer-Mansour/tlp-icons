@@ -1,0 +1,11 @@
+{
+  "name": "roommate-keys",
+  "category": "people",
+  "tags": ["roommate", "keys", "ring", "shared", "housemates", "home"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M11 7.2L6 20M13 7.2L18 20\"/><circle class=\"f p3\" cx=\"6\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "rattle", "dur": 800, "delay": 700 }
+  ]
+}

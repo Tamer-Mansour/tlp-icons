@@ -1,0 +1,12 @@
+{
+  "name": "donation-box-hand",
+  "category": "people",
+  "tags": ["donation", "box", "giving", "coin", "hand", "charity"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"9\" width=\"18\" height=\"3\" rx=\"1\"/><rect class=\"d p1\" x=\"4\" y=\"13\" width=\"16\" height=\"8\" rx=\"1\"/><line class=\"p2\" x1=\"8\" y1=\"10.5\" x2=\"16\" y2=\"10.5\"/><circle class=\"p3\" cx=\"12\" cy=\"5\" r=\"2\"/><path class=\"p4\" d=\"M15.5 6.5Q18 3.5 20.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fall", "dur": 800, "delay": 900 },
+    { "part": "p4", "anim": "tap", "dur": 500, "delay": 1500 }
+  ]
+}

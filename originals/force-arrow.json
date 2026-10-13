@@ -1,0 +1,10 @@
+{
+  "name": "force-arrow",
+  "category": "arrows",
+  "tags": ["force", "push", "press", "block", "pressure", "shove"],
+  "svg": "<rect class=\"d p1\" x=\"18\" y=\"4\" width=\"3\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M3 12h11\"/><path class=\"p2\" d=\"M11 8l4 4-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 600 }
+  ]
+}

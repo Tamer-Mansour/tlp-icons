@@ -1,0 +1,11 @@
+{
+  "name": "chip-stack",
+  "category": "sport",
+  "tags": ["poker chips", "casino", "stack", "betting", "tokens"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"17\" rx=\"8\" ry=\"2.5\"/><line class=\"p1\" x1=\"4\" y1=\"7\" x2=\"4\" y2=\"17\"/><line class=\"p1\" x1=\"20\" y1=\"7\" x2=\"20\" y2=\"17\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"8\" ry=\"2.5\"/><ellipse class=\"d p3\" cx=\"12\" cy=\"7\" rx=\"8\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

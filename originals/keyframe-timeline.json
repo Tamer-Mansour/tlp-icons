@@ -1,0 +1,10 @@
+{
+  "name": "keyframe-timeline",
+  "category": "development",
+  "tags": ["keyframe", "timeline", "animation", "frames", "motion", "track"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><path class=\"p2\" d=\"M5 10l2 2-2 2-2-2zM12 10l2 2-2 2-2-2zM19 10l2 2-2 2-2-2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

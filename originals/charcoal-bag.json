@@ -1,0 +1,11 @@
+{
+  "name": "charcoal-bag",
+  "category": "home",
+  "tags": ["charcoal", "bag", "grill", "barbecue", "coal", "sack"],
+  "svg": "<path class=\"d p1\" d=\"M7 8h10l2 11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M8 6h8M12 6c-2-2.5-3-1.5-3 0M12 6c2-2.5 3-1.5 3 0\"/><circle class=\"f p3\" cx=\"10\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"17\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

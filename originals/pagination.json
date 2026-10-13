@@ -1,0 +1,10 @@
+{
+  "name": "pagination",
+  "category": "interface",
+  "tags": ["pagination", "pages", "navigation", "previous", "next", "chevron"],
+  "svg": "<path class=\"p1\" d=\"M6 8l-4 4 4 4M18 8l4 4-4 4\"/><rect class=\"p2\" x=\"9\" y=\"11\" width=\"2\" height=\"2\" rx=\"0.5\"/><rect class=\"p2\" x=\"12\" y=\"11\" width=\"2\" height=\"2\" rx=\"0.5\"/><rect class=\"p2\" x=\"15\" y=\"11\" width=\"2\" height=\"2\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

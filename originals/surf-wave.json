@@ -1,0 +1,10 @@
+{
+  "name": "surf-wave",
+  "category": "sport",
+  "tags": ["surf", "wave", "surfboard", "ocean", "beach", "sport"],
+  "svg": "<path class=\"p1\" d=\"M3 17C6 12 10 10 14 11C17 12 17 7 15 4C19 7 21 11 20 14C19 17 15 17 14 16\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"20.5\" rx=\"6\" ry=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 1000, "delay": 1000 }
+  ]
+}

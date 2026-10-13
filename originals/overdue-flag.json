@@ -1,0 +1,11 @@
+{
+  "name": "overdue-flag",
+  "category": "notifications",
+  "tags": ["overdue", "late", "clock", "flag", "deadline"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"7\"/><path class=\"p2\" d=\"M12 10v4l3 2\"/><path class=\"p3\" d=\"M18 2v6M18 2h4l-1.5 2 1.5 2h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 600, "origin": "12px 14px" },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "depth-of-field",
+  "category": "photography",
+  "tags": ["depth of field", "blur", "focus", "bokeh", "lens"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M12.5 7.5a6 6 0 0 1 0 9M16.5 5a10 10 0 0 1 0 14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

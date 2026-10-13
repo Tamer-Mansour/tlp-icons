@@ -1,0 +1,11 @@
+{
+  "name": "amber",
+  "category": "nature",
+  "tags": ["amber", "gem", "insect", "fossil", "jewel"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5 Q6 10 6 14.5 A6 6 0 0 0 18 14.5 Q18 10 12 2.5 Z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"14.5\" rx=\"2\" ry=\"1.2\"/><path class=\"p3\" d=\"M10.5 13 L9 12 M13.5 13 L15 12 M10.5 16 L9 17 M13.5 16 L15 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 800, "origin": "12px 14.5px" }
+  ]
+}

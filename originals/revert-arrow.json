@@ -1,0 +1,10 @@
+{
+  "name": "revert-arrow",
+  "category": "arrows",
+  "tags": ["revert", "page", "restore", "version", "document", "back"],
+  "svg": "<path class=\"d p1\" d=\"M6 3 H14 L19 8 V20 H6 Z\"/><path class=\"p2\" d=\"M9 13.5 H15\"/><polyline class=\"p2\" points=\"11 11 9 13.5 11 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

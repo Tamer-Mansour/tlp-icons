@@ -1,0 +1,11 @@
+{
+  "name": "modular-clock",
+  "category": "math",
+  "tags": ["modular", "clock", "modulo", "arithmetic", "wrap"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V7.5M12 12l3 2\"/><path class=\"p3\" d=\"M12 4.5v1.5M12 18v1.5M4.5 12H6M18 12h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 300, "origin": "12px 12px" }
+  ]
+}

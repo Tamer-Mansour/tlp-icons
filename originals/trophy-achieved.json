@@ -1,0 +1,12 @@
+{
+  "name": "trophy-achieved",
+  "category": "notifications",
+  "tags": ["trophy", "achievement", "award", "winner", "check"],
+  "svg": "<path class=\"d p1\" d=\"M8 3 H16 V9 A4 4 0 0 1 8 9 Z\"/><path class=\"p2\" d=\"M8 5 H5 V7 A3 3 0 0 0 8 10 M16 5 H19 V7 A3 3 0 0 1 16 10\"/><path class=\"p3\" d=\"M12 13 V17 M8.5 21 H15.5\"/><path class=\"p4\" d=\"M9.5 6.5 L11.2 8.2 L14.5 4.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

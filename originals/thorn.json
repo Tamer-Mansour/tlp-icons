@@ -1,0 +1,10 @@
+{
+  "name": "thorn",
+  "category": "nature",
+  "tags": ["thorn", "spike", "branch", "plant", "prickly"],
+  "svg": "<path class=\"p1\" d=\"M3 19h13\"/><path class=\"d p2\" d=\"M8 19Q10 12 16 8Q13 14 12 19Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

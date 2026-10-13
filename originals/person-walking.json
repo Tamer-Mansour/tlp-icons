@@ -1,0 +1,10 @@
+{
+  "name": "person-walking",
+  "category": "people",
+  "tags": ["person", "walking", "stride", "walk", "pedestrian"],
+  "svg": "<circle class=\"p1\" cx=\"13\" cy=\"4\" r=\"2\"/><path class=\"p1\" d=\"M12.5 8.5L11 15\"/><path class=\"p2\" d=\"M11 15l-3 6.5M11 15l3 6.5M12 10l-3.5 2.5M12 10l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 800, "origin": "12px 10px" }
+  ]
+}

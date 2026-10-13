@@ -1,0 +1,10 @@
+{
+  "name": "bike-gears",
+  "category": "vehicles",
+  "tags": ["gears", "bike", "cog", "gearing", "machine", "mechanics"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"14\" r=\"5\"/><circle class=\"f p1\" cx=\"9\" cy=\"14\" r=\"1\"/><circle class=\"p2\" cx=\"18\" cy=\"7\" r=\"3\"/><circle class=\"f p2\" cx=\"18\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 0, "origin": "9px 14px" },
+    { "part": "p2", "anim": "spinBack", "dur": 1200, "delay": 300, "origin": "18px 7px" }
+  ]
+}

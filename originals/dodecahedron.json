@@ -1,0 +1,10 @@
+{
+  "name": "dodecahedron",
+  "category": "math",
+  "tags": ["dodecahedron", "polyhedron", "solid", "pentagon", "3d", "geometry"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 20.5,9 17,19 7,19 3.5,9\"/><polygon class=\"p2\" points=\"12,8 15.8,10.7 14.3,15.3 9.7,15.3 8.2,10.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

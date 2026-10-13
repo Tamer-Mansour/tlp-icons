@@ -1,0 +1,10 @@
+{
+  "name": "contact-sheet",
+  "category": "photography",
+  "tags": ["contact sheet", "frames", "thumbnails", "proof", "photo"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p1\" x=\"9.5\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p1\" x=\"16.5\" y=\"4\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p2\" x=\"2.5\" y=\"14\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p2\" x=\"9.5\" y=\"14\" width=\"4\" height=\"4\" rx=\"0.5\"/><rect class=\"p2\" x=\"16.5\" y=\"14\" width=\"4\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 400 }
+  ]
+}

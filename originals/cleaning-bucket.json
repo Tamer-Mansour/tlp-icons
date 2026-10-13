@@ -1,0 +1,11 @@
+{
+  "name": "cleaning-bucket",
+  "category": "home",
+  "tags": ["bucket", "cleaning", "water", "mop", "pail", "wash"],
+  "svg": "<path class=\"d p1\" d=\"M5 9H19L17 20H7Z\"/><path class=\"p2\" d=\"M5 9Q12 2 19 9\"/><path class=\"p3\" d=\"M8 13Q10 11.5 12 13T16 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 1200, "origin": "12px 9px" }
+  ]
+}

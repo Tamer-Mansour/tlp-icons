@@ -1,0 +1,12 @@
+{
+  "name": "security-key-usb",
+  "category": "people",
+  "tags": ["usb", "key", "security", "lock", "access", "shaft"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"8\" height=\"8\" rx=\"3\"/><line class=\"p2\" x1=\"11\" y1=\"12\" x2=\"21\" y2=\"12\"/><polyline class=\"p3\" points=\"17,12 17,15 19,15\"/><circle class=\"f p4\" cx=\"7\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 600, "delay": 1000 }
+  ]
+}

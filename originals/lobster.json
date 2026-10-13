@@ -1,0 +1,11 @@
+{
+  "name": "lobster",
+  "category": "food",
+  "tags": ["lobster", "seafood", "shellfish", "claws", "ocean", "dinner"],
+  "svg": "<path class=\"d p1\" d=\"M9 13 H15 L14.5 19.5 H9.5 Z\"/><path class=\"p2\" d=\"M9 12 L4.5 7.5 M15 12 L19.5 7.5\"/><circle class=\"p2\" cx=\"3.5\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"20.5\" cy=\"6\" r=\"2\"/><path class=\"p3\" d=\"M10 9 Q9 5 7 3.5 M14 9 Q15 5 17 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 500, "delay": 1100 }
+  ]
+}

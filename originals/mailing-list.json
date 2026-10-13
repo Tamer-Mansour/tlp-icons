@@ -1,0 +1,11 @@
+{
+  "name": "mailing-list",
+  "category": "communication",
+  "tags": ["mailing", "list", "newsletter", "envelope", "subscribers", "email"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"5\" width=\"13\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M8 7l6.5 4 6.5-4\"/><line class=\"p3\" x1=\"3\" y1=\"8\" x2=\"5\" y2=\"8\"/><line class=\"p3\" x1=\"3\" y1=\"12\" x2=\"5\" y2=\"12\"/><line class=\"p3\" x1=\"3\" y1=\"16\" x2=\"5\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

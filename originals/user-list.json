@@ -1,0 +1,10 @@
+{
+  "name": "user-list",
+  "category": "people",
+  "tags": ["user", "list", "directory", "members", "roster", "person", "team"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"7\" r=\"3.5\"/><path class=\"p1\" d=\"M2.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h5a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M18 7h4M18 12h4M18 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 }
+  ]
+}

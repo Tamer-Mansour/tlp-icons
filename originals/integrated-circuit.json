@@ -1,0 +1,11 @@
+{
+  "name": "integrated-circuit",
+  "category": "devices",
+  "tags": ["chip", "integrated", "circuit", "processor", "electronics"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

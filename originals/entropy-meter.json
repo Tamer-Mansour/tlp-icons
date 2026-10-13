@@ -1,0 +1,12 @@
+{
+  "name": "entropy-meter",
+  "category": "security",
+  "tags": ["entropy", "meter", "gauge", "randomness", "strength", "dial"],
+  "svg": "<path class=\"p1\" d=\"M4 16a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M12 16l4-4\"/><circle class=\"f p3\" cx=\"12\" cy=\"16\" r=\"1\"/><circle class=\"f p4\" cx=\"7\" cy=\"20\" r=\"1\"/><circle class=\"f p4\" cx=\"12\" cy=\"20\" r=\"1\"/><circle class=\"f p4\" cx=\"17\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "blip", "dur": 800, "delay": 1000 }
+  ]
+}

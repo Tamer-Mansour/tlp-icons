@@ -1,0 +1,10 @@
+{
+  "name": "card-hand",
+  "category": "sport",
+  "tags": ["cards", "hand", "poker", "playing", "deal", "game"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"13\" rx=\"2\" transform=\"rotate(-15 12 12)\"/><rect class=\"d p2\" x=\"5\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

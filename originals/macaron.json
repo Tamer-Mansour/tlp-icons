@@ -1,0 +1,11 @@
+{
+  "name": "macaron",
+  "category": "food",
+  "tags": ["macaron", "dessert", "cookie", "bakery", "filling", "sweet"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 H21 C21 6 17 4 12 4 C7 4 3 6 3 10 Z\"/><path class=\"d p2\" d=\"M3 14 H21 C21 18 17 20 12 20 C7 20 3 18 3 14 Z\"/><path class=\"p3\" d=\"M6 12 H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "rivet-gun",
+  "category": "tools",
+  "tags": ["rivet", "gun", "riveting", "metal", "fastener", "plates"],
+  "svg": "<path class=\"p1\" d=\"M3 9h7M3 15h7\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/><rect class=\"d p3\" x=\"14\" y=\"8\" width=\"7\" height=\"5\" rx=\"1.5\"/><path class=\"p4\" d=\"M14 12.5h-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p4", "anim": "stamp", "dur": 500, "delay": 1000 }
+  ]
+}

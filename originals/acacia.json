@@ -1,0 +1,10 @@
+{
+  "name": "acacia",
+  "category": "nature",
+  "tags": ["acacia", "tree", "flat top", "savanna", "africa", "small leaves"],
+  "svg": "<path class=\"d p1\" d=\"M3 7.5h18c0 2.5-3.5 4.5-9 4.5S3 10 3 7.5z\"/><path class=\"p2\" d=\"M12 14v7.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 400 }
+  ]
+}

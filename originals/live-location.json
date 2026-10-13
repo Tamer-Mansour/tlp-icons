@@ -1,0 +1,11 @@
+{
+  "name": "live-location",
+  "category": "communication",
+  "tags": ["location", "live", "share", "pin", "gps", "map"],
+  "svg": "<path class=\"d p1\" d=\"M12 21S6 15.4 6 10.5A6 6 0 0 1 18 10.5C18 15.4 12 21 12 21Z\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"2.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"21.5\" rx=\"4.5\" ry=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

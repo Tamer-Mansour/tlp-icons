@@ -1,0 +1,11 @@
+{
+  "name": "border-post",
+  "category": "buildings",
+  "tags": ["border", "post", "flags", "checkpoint", "gate", "barrier"],
+  "svg": "<path class=\"p1\" d=\"M4 21V4M20 21V4\"/><path class=\"p2\" d=\"M4 13h16\"/><path class=\"p3\" d=\"M4 4h4l1 2-1 2H4M20 4h-4l-1 2 1 2h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 1000, "delay": 1100 }
+  ]
+}

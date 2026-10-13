@@ -1,0 +1,11 @@
+{
+  "name": "side-mirror",
+  "category": "vehicles",
+  "tags": ["side", "mirror", "car", "door", "view"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"8\" width=\"10\" height=\"7\" rx=\"2\"/><line class=\"p2\" x1=\"9\" y1=\"12\" x2=\"5\" y2=\"12\"/><line class=\"p3\" x1=\"2\" y1=\"4\" x2=\"2\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "9px 12px" }
+  ]
+}

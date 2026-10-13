@@ -1,0 +1,11 @@
+{
+  "name": "presence-away",
+  "category": "notifications",
+  "tags": ["presence", "away", "user", "status", "moon", "idle"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M3.5 20.5a6.5 6.5 0 0 1 13 0\"/><path class=\"d p3\" d=\"M15 18a3 3 0 0 1 6 0Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

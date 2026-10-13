@@ -1,0 +1,12 @@
+{
+  "name": "marlin",
+  "category": "nature",
+  "tags": ["fish", "bill", "spear", "fin", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M5 14 Q9 11 15 12 L19 12 L21 10 L20 15 Q14 18 8 17 Z\"/><path class=\"p2\" d=\"M5 14 L2 13\"/><path class=\"p3\" d=\"M9 11 Q10 5 15 5 Q13 8 15 12\"/><circle class=\"f p4\" cx=\"7.5\" cy=\"14\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 800, "origin": "9px 11px" }
+  ]
+}

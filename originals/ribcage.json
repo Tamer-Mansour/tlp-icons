@@ -1,0 +1,26 @@
+{
+    "name":  "ribcage",
+    "category":  "science",
+    "tags":  [
+                 "ribcage",
+                 "rib",
+                 "spine",
+                 "chest",
+                 "anatomy"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 3V21\"/\u003e\u003cpath class=\"p2\" d=\"M12 6C9 5 6 6 5 9M12 6C15 5 18 6 19 9M12 10C9 9 6 10 5 13M12 10C15 9 18 10 19 13M12 14C9 13.5 7 14 6 16M12 14C15 13.5 17 14 18 16\"/\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "draw",
+                       "part":  "p1",
+                       "dur":  500
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  1000
+                   }
+               ]
+}

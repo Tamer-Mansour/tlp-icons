@@ -1,0 +1,12 @@
+{
+  "name": "delivery-scooter",
+  "category": "vehicles",
+  "tags": ["scooter", "delivery", "box", "courier", "vehicle"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"17\" r=\"2.5\"/><circle class=\"p1\" cx=\"18\" cy=\"17\" r=\"2.5\"/><path class=\"p2\" d=\"M8 14.5h10\"/><path class=\"p4\" d=\"M18 14.5V5h2\"/><rect class=\"d p3\" x=\"2\" y=\"4\" width=\"7\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 800 },
+    { "part": "p4", "anim": "nudge", "dur": 600, "delay": 1300 }
+  ]
+}

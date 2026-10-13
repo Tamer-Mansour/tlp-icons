@@ -1,0 +1,11 @@
+{
+  "name": "mobile-network",
+  "category": "connectivity",
+  "tags": ["mobile network", "cellular", "phone", "tower", "signal", "coverage"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"8\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 20l2-8 2 8M16.8 17h2.4\"/><path class=\"p3\" d=\"M14.5 9.5a4.5 4.5 0 0 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "frisbee",
+  "category": "sport",
+  "tags": ["frisbee", "disc", "throw", "flying", "beach", "game"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10.5\" rx=\"9\" ry=\"3.5\"/><path class=\"p2\" d=\"M3 10.5C3 13 7 16 12 16S21 13 21 10.5\"/><ellipse class=\"p3\" cx=\"12\" cy=\"10.5\" rx=\"4\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

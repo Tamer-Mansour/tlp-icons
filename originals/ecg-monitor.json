@@ -1,0 +1,11 @@
+{
+  "name": "ecg-monitor",
+  "category": "devices",
+  "tags": ["ecg", "heart", "monitor", "pulse", "medical", "beat"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M3 10H8L10 6L13 15L15 10H21\"/><path class=\"p3\" d=\"M12 16V20M8 20H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

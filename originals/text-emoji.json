@@ -1,0 +1,11 @@
+{
+  "name": "text-emoji",
+  "category": "text",
+  "tags": ["emoji", "smiley", "text", "face", "happy", "reaction"],
+  "svg": "<path class=\"p1\" d=\"M3 12h6\"/><circle class=\"d p2\" cx=\"17\" cy=\"12\" r=\"5\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"11\" r=\"0.9\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"11\" r=\"0.9\"/><path class=\"p3\" d=\"M15.5 14a2.5 2.5 0 0 0 3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

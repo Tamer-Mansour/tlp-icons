@@ -1,0 +1,11 @@
+{
+  "name": "navigation-stack",
+  "category": "layout",
+  "tags": ["navigation", "stack", "cards", "back", "screens", "history", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"13\" height=\"9\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"7\" width=\"13\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M4 20h8M7 17l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

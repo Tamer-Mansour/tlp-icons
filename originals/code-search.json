@@ -1,0 +1,11 @@
+{
+  "name": "code-search",
+  "category": "development",
+  "tags": ["code", "search", "find", "magnifier", "query", "lookup"],
+  "svg": "<circle class=\"d p1\" cx=\"10.5\" cy=\"10.5\" r=\"6\"/><path class=\"p2\" d=\"M15 15l5 5\"/><path class=\"p3\" d=\"M8.5 9.5l-2 2 2 2M12.5 9.5l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

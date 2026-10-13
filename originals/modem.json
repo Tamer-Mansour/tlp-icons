@@ -1,0 +1,11 @@
+{
+  "name": "modem",
+  "category": "devices",
+  "tags": ["modem", "internet", "data", "network", "signal", "box"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M8 10h7M12.5 8l2.5 2-2.5 2\"/><path class=\"p3\" d=\"M16 14H9M11.5 12l-2.5 2 2.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 1200 }
+  ]
+}

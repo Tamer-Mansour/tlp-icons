@@ -1,0 +1,11 @@
+{
+  "name": "snack-bar",
+  "category": "buildings",
+  "tags": ["snack", "hotdog", "bar", "counter", "food", "fast"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"6\" rx=\"3\"/><line class=\"p2\" x1=\"6\" y1=\"12\" x2=\"18\" y2=\"12\"/><line class=\"p3\" x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

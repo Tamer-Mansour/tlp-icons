@@ -1,0 +1,10 @@
+{
+  "name": "note-star",
+  "category": "files",
+  "tags": ["note", "star", "favorite", "starred", "saved note"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M16 13l0.9 2 2.1 0.2-1.6 1.5 0.5 2.2-1.9-1.2-1.9 1.2 0.5-2.2-1.6-1.5 2.1-0.2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 700, "delay": 900 }
+  ]
+}

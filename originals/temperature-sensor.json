@@ -1,0 +1,11 @@
+{
+  "name": "temperature-sensor",
+  "category": "devices",
+  "tags": ["temperature", "thermometer", "probe", "climate", "heat"],
+  "svg": "<path class=\"p1\" d=\"M10 14V5a2 2 0 0 1 4 0v9\"/><circle class=\"d p2\" cx=\"12\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M17 8h3M17 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "magma-chamber",
+  "category": "science",
+  "tags": ["magma", "chamber", "volcano", "underground", "lava", "geology"],
+  "svg": "<path class=\"p1\" d=\"M8 9L3 20H21L16 9Z\"/><path class=\"d p2\" d=\"M9 16q3-2.5 6 0q-3 2.5-6 0z\"/><path class=\"p3\" d=\"M12 9V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1200, "origin": "bottom" }
+  ]
+}

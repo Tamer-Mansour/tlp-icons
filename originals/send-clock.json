@@ -1,0 +1,11 @@
+{
+  "name": "send-clock",
+  "category": "communication",
+  "tags": ["send", "clock", "schedule", "paper plane", "later", "timed"],
+  "svg": "<path class=\"p1\" d=\"M2 9l13-6-6 13-2-5z\"/><circle class=\"p2\" cx=\"18\" cy=\"17\" r=\"3.5\"/><path class=\"p3\" d=\"M18 15.5V17l1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 800, "delay": 1000, "origin": "18px 17px" }
+  ]
+}

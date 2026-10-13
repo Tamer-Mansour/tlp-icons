@@ -1,0 +1,10 @@
+{
+  "name": "worm-hook",
+  "category": "nature",
+  "tags": ["fishing", "hook", "worm", "bait", "angle"],
+  "svg": "<path class=\"p1\" d=\"M14 3v10a3.5 3.5 0 0 1-7 0v-2\"/><path class=\"p2\" d=\"M3 21q2-2 4 0t4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cat-face",
+  "category": "emoji",
+  "tags": ["cat", "kitten", "pet", "face", "whiskers", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 V6 L8.5 8.5 C10 7.8 14 7.8 15.5 8.5 L20 6 V11 C20 16.5 16.5 20 12 20 C7.5 20 4 16.5 4 11 Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"13.5\" r=\"1\"/><path class=\"p3\" d=\"M8.5 14 L5.5 13.5 M15.5 14 L18.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "12px 14px" }
+  ]
+}

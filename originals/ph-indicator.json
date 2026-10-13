@@ -1,0 +1,10 @@
+{
+  "name": "ph-indicator",
+  "category": "science",
+  "tags": ["ph", "indicator", "test", "strip", "chemistry"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M9 7V17M15 7V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

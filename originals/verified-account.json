@@ -1,0 +1,11 @@
+{
+  "name": "verified-account",
+  "category": "people",
+  "tags": ["verified", "account", "avatar", "check", "profile", "trusted"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"9\" r=\"6.5\"/><circle class=\"p2\" cx=\"9\" cy=\"7.5\" r=\"2.2\"/><path class=\"p2\" d=\"M5 13.5c.8-1.8 2.2-2.7 4-2.7s3.2.9 4 2.7\"/><circle class=\"d p3\" cx=\"18\" cy=\"18\" r=\"3.5\"/><path class=\"p3\" d=\"M16.5 18l1 1 2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

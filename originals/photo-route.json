@@ -1,0 +1,11 @@
+{
+  "name": "photo-route",
+  "category": "photography",
+  "tags": ["photo route", "route", "trip", "destination", "map", "camera"],
+  "svg": "<rect class=\"d p2\" x=\"2\" y=\"14\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p1\" d=\"M10.5 16.5C13 16.5 13 11 18 11\"/><path class=\"p3\" d=\"M18 4v16M18 4h4l-1.5 2 1.5 2h-4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1000 }
+  ]
+}

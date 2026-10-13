@@ -1,0 +1,10 @@
+{
+  "name": "draft-note",
+  "category": "interface",
+  "tags": ["draft", "note", "pencil", "write", "edit"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 17L8.5 13.5L15 7L18 10L11.5 16.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 900, "origin": "8px 17px" }
+  ]
+}

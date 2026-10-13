@@ -1,0 +1,10 @@
+{
+  "name": "wetland-reeds",
+  "category": "science",
+  "tags": ["reeds", "wetland", "water", "marsh", "grass"],
+  "svg": "<path class=\"p1\" d=\"M2 19H22\"/><path class=\"p2\" d=\"M8 19V6M12 19V3M16 19V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 500, "origin": "12px 19px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "user-score",
+  "category": "people",
+  "tags": ["user", "score", "gauge", "rating", "person", "meter"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"8\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20c0-3 2-4.8 4.5-4.8s4.5 1.8 4.5 4.8\"/><path class=\"p2\" d=\"M13.5 15.5a6.5 6.5 0 1 1 7 0\"/><path class=\"p3\" d=\"M17 9.5l2.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1100, "origin": "17px 9.5px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "connection-established",
+  "category": "connectivity",
+  "tags": ["connected", "established", "link", "check", "success", "network"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"8\" r=\"1.2\"/><circle class=\"f p1\" cx=\"20\" cy=\"8\" r=\"1.2\"/><path class=\"p1\" d=\"M4 8 H20\"/><path class=\"p2\" d=\"M8 16 L11 19 L16 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 500 }
+  ]
+}

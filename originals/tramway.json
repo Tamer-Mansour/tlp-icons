@@ -1,0 +1,12 @@
+{
+  "name": "tramway",
+  "category": "vehicles",
+  "tags": ["tram", "tramway", "rail", "wire", "city"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"4\" x2=\"22\" y2=\"4\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"10\"/><rect class=\"d p3\" x=\"5\" y=\"10\" width=\"14\" height=\"8\"/><line class=\"p4\" x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 1200, "delay": 1000 }
+  ]
+}

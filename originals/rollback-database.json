@@ -1,0 +1,10 @@
+{
+  "name": "rollback-database",
+  "category": "development",
+  "tags": ["rollback", "database", "undo", "revert", "restore", "db"],
+  "svg": "<ellipse class=\"p1\" cx=\"8\" cy=\"7\" rx=\"5\" ry=\"2\"/><path class=\"p1\" d=\"M3 7v10c0 1.1 2.2 2 5 2s5-.9 5-2V7\"/><path class=\"p2\" d=\"M21 11a5 5 0 0 0-5-5\"/><polyline class=\"p2\" points=\"18.5 3.5 16 6 18.5 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 900, "delay": 700, "origin": "16px 11px" }
+  ]
+}

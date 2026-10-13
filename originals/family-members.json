@@ -1,0 +1,11 @@
+{
+  "name": "family-members",
+  "category": "people",
+  "tags": ["family", "members", "group", "people", "household"],
+  "svg": "<circle class=\"p1\" cx=\"4.5\" cy=\"10\" r=\"2\"/><path class=\"p1\" d=\"M2 19a2.5 2.5 0 0 1 5 0\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M9 19a3 3 0 0 1 6 0\"/><circle class=\"p3\" cx=\"19.5\" cy=\"10\" r=\"2\"/><path class=\"p3\" d=\"M17 19a2.5 2.5 0 0 1 5 0\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 900 }
+  ]
+}

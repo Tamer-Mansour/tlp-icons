@@ -1,0 +1,10 @@
+{
+  "name": "chevron-shape",
+  "category": "shapes",
+  "tags": ["chevron", "arrow", "direction", "next", "solid"],
+  "svg": "<path class=\"d p1\" d=\"M6 3 L18 12 L11 12 L3 6 Z\"/><path class=\"d p2\" d=\"M3 18 L11 12 L18 12 L6 21 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 700 }
+  ]
+}

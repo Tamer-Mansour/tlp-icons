@@ -1,0 +1,11 @@
+{
+  "name": "huddle-circle",
+  "category": "people",
+  "tags": ["huddle", "group", "team", "circle", "meeting", "gather"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4.5\" r=\"2\"/><circle class=\"p2\" cx=\"19.5\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"12\" cy=\"19.5\" r=\"2\"/><circle class=\"p2\" cx=\"4.5\" cy=\"12\" r=\"2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 900 }
+  ]
+}

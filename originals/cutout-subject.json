@@ -1,0 +1,10 @@
+{
+  "name": "cutout-subject",
+  "category": "design",
+  "tags": ["cutout", "subject", "silhouette", "person", "crop", "mask"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p1\" d=\"M6 21V17A6 6 0 0 1 18 17V21\"/><path class=\"p2\" d=\"M3 7V3H7M17 3H21V7M21 17V21H17M7 21H3V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

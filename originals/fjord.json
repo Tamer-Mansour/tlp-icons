@@ -1,0 +1,33 @@
+{
+    "name":  "fjord",
+    "category":  "nature",
+    "tags":  [
+                 "fjord",
+                 "sea",
+                 "cliffs",
+                 "narrow",
+                 "steep",
+                 "water"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M2 20L6.5 5L9.5 10L10.5 20M22 20L17.5 5L14.5 10L13.5 20\"/\u003e\u003cpath class=\"p2\" d=\"M2 21H22\"/\u003e\u003cpath class=\"p3\" d=\"M11.5 16.5C12 16 12.5 16 13 16.5\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  800,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "wave",
+                       "dur":  900,
+                       "delay":  1200
+                   }
+               ]
+}

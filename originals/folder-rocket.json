@@ -1,0 +1,10 @@
+{
+  "name": "folder-rocket",
+  "category": "files",
+  "tags": ["folder", "rocket", "launch", "project", "startup"],
+  "svg": "<path class=\"p1\" d=\"M3 6.5A1.5 1.5 0 0 1 4.5 5H9l2 2h8.5A1.5 1.5 0 0 1 21 8.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z\"/><path class=\"p2\" d=\"M14.5 16.5l2.5-5a3 3 0 0 1 3.5-1.5 3 3 0 0 1-1.5 3.5l-4.5 3z\"/><path class=\"p2\" d=\"M14.5 16.5l-1 2M16.5 18.5l-1 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 900, "delay": 800 }
+  ]
+}

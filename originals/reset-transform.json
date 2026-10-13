@@ -1,0 +1,10 @@
+{
+  "name": "reset-transform",
+  "category": "design",
+  "tags": ["reset", "transform", "undo", "rotate", "restore", "arrow", "default"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M20 12a8 8 0 1 1-2.3-5.7M20 4v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

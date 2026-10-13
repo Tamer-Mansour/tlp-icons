@@ -1,0 +1,11 @@
+{
+  "name": "queue-timer",
+  "category": "time",
+  "tags": ["queue", "timer", "dots", "wait", "line", "countdown"],
+  "svg": "<circle class=\"f p1\" cx=\"3\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"5.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p1\" cx=\"8\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M17 9.5V12l1.5 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "17px 12px" }
+  ]
+}

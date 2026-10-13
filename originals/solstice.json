@@ -1,0 +1,11 @@
+{
+  "name": "solstice",
+  "category": "time",
+  "tags": ["solstice", "sun", "top", "arc", "summer", "winter"],
+  "svg": "<path class=\"p1\" d=\"M4 18a8 8 0 0 1 16 0\"/><circle class=\"d p2\" cx=\"12\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M2 18h20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

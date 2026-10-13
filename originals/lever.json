@@ -1,0 +1,11 @@
+{
+  "name": "lever",
+  "category": "science",
+  "tags": ["lever", "fulcrum", "simple machine", "force", "physics", "balance"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"13\" x2=\"22\" y2=\"7\"/><path class=\"d p2\" d=\"M12 14L9 20.5h6z\"/><rect class=\"p3\" x=\"16\" y=\"2\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1300 }
+  ]
+}

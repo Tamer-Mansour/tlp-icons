@@ -1,0 +1,10 @@
+{
+  "name": "zoning-map",
+  "category": "buildings",
+  "tags": ["zoning", "map", "city", "blocks", "planning", "urban"],
+  "svg": "<path class=\"d p1\" d=\"M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3zM15 15h6v6h-6z\"/><path class=\"p2\" d=\"M12 2v20M2 12h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

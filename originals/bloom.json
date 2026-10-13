@@ -1,0 +1,11 @@
+{
+  "name": "bloom",
+  "category": "nature",
+  "tags": ["bloom", "flower", "petal", "blossom", "garden"],
+  "svg": "<g class=\"p1\"><ellipse cx=\"12\" cy=\"6.5\" rx=\"2.2\" ry=\"3.2\" transform=\"rotate(0 12 10)\"/><ellipse cx=\"12\" cy=\"6.5\" rx=\"2.2\" ry=\"3.2\" transform=\"rotate(72 12 10)\"/><ellipse cx=\"12\" cy=\"6.5\" rx=\"2.2\" ry=\"3.2\" transform=\"rotate(144 12 10)\"/><ellipse cx=\"12\" cy=\"6.5\" rx=\"2.2\" ry=\"3.2\" transform=\"rotate(216 12 10)\"/><ellipse cx=\"12\" cy=\"6.5\" rx=\"2.2\" ry=\"3.2\" transform=\"rotate(288 12 10)\"/></g><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1.2\"/><line class=\"p3\" x1=\"12\" y1=\"16\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bloom", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

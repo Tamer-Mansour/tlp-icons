@@ -1,0 +1,11 @@
+{
+  "name": "chandelier",
+  "category": "home",
+  "tags": ["chandelier", "light", "candles", "ceiling", "decor", "lamp", "elegant"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"4\"/><path class=\"p2\" d=\"M5 12 H19\"/><line class=\"p2\" x1=\"5\" y1=\"12\" x2=\"5\" y2=\"16\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"16\"/><line class=\"p2\" x1=\"19\" y1=\"12\" x2=\"19\" y2=\"16\"/><circle class=\"f p3\" cx=\"5\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"19\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

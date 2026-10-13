@@ -1,0 +1,10 @@
+{
+  "name": "adjustable-wrench",
+  "category": "tools",
+  "tags": ["adjustable", "wrench", "sliding", "jaw", "spanner", "fix"],
+  "svg": "<path class=\"p1\" d=\"M2 9h4V7h2v10H6v-2H2z\"/><path class=\"p1\" d=\"M8 12h13\"/><circle class=\"p2\" cx=\"14\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

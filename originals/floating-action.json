@@ -1,0 +1,11 @@
+{
+  "name": "floating-action",
+  "category": "interface",
+  "tags": ["floating", "action", "button", "plus", "add"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M12 7.5v5M9.5 10h5\"/><path class=\"p3\" d=\"M8 20.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

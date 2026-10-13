@@ -1,0 +1,11 @@
+{
+  "name": "snow-chains",
+  "category": "vehicles",
+  "tags": ["snow", "chains", "tire", "winter", "traction"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/><path class=\"p3\" d=\"M12 1.5v1.5M12 21v1.5M1.5 12H3M21 12h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

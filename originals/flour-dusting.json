@@ -1,0 +1,11 @@
+{
+  "name": "flour-dusting",
+  "category": "food",
+  "tags": ["food", "flour", "sieve", "baking", "dust", "sifter"],
+  "svg": "<path class=\"d p1\" d=\"M4 6h16l-2.5 9h-11z\"/><path class=\"p2\" d=\"M8.5 10.5h7\"/><circle class=\"f p3\" cx=\"9\" cy=\"3.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"3.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1200 }
+  ]
+}

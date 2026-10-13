@@ -1,0 +1,11 @@
+{
+  "name": "daycare-center",
+  "category": "buildings",
+  "tags": ["daycare", "nursery", "school", "kids", "children", "house"],
+  "svg": "<path class=\"p1\" d=\"M3 21V11l9-7 9 7v10\"/><path class=\"p2\" d=\"M9 21v-6h6v6\"/><rect class=\"d p3\" x=\"6\" y=\"12\" width=\"3\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "watering-can",
+  "category": "home",
+  "tags": ["watering", "can", "garden", "water", "plants", "spout"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"12\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M15 16L21 8\"/><path class=\"p3\" d=\"M5 10Q9 5 13 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 1000, "origin": "15px 16px" }
+  ]
+}

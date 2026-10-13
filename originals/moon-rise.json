@@ -1,0 +1,11 @@
+{
+  "name": "moon-rise",
+  "category": "time",
+  "tags": ["moon", "rise", "horizon", "night", "arrow"],
+  "svg": "<path class=\"d p1\" d=\"M8 6a6 6 0 1 0 6 6 4.5 4.5 0 0 1-6-6z\"/><line class=\"p2\" x1=\"3\" y1=\"16\" x2=\"21\" y2=\"16\"/><path class=\"p3\" d=\"M18 12V6M15.5 8.5 18 6l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1000 }
+  ]
+}

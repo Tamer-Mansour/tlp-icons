@@ -1,0 +1,12 @@
+{
+  "name": "file-event",
+  "category": "files",
+  "tags": ["event", "calendar", "meeting", "schedule", "reminder", "date"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><rect class=\"d p2\" x=\"7\" y=\"8\" width=\"10\" height=\"9\" rx=\"1\"/><path class=\"p3\" d=\"M7 11h10M9 6v3M15 6v3\"/><circle class=\"f p4\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

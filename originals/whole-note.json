@@ -1,0 +1,10 @@
+{
+  "name": "whole-note",
+  "category": "media",
+  "tags": ["whole", "note", "music", "semibreve", "open", "staff"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"4\"/><path class=\"p2\" d=\"M2 20H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "wine-rack",
+  "category": "food",
+  "tags": ["wine", "rack", "bottles", "storage", "cellar"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1.5\"/><line class=\"p2\" x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><circle class=\"d p3\" cx=\"7.5\" cy=\"14\" r=\"2.5\"/><circle class=\"d p4\" cx=\"16.5\" cy=\"14\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "roll", "dur": 800, "delay": 1000 }
+  ]
+}

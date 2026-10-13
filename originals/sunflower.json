@@ -1,0 +1,10 @@
+{
+  "name": "sunflower",
+  "category": "nature",
+  "tags": ["sunflower", "flower", "summer", "bloom", "garden", "sun"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 2.5 V5 M12 19 V21.5 M2.5 12 H5 M19 12 H21.5 M5.3 5.3 L7 7 M17 17 L18.7 18.7 M5.3 18.7 L7 17 M17 7 L18.7 5.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 600 }
+  ]
+}

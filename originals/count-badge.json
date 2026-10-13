@@ -1,0 +1,11 @@
+{
+  "name": "count-badge",
+  "category": "notifications",
+  "tags": ["count", "badge", "circle", "number", "counter"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polyline class=\"p2\" points=\"10.5 9 12.5 7.5 12.5 16.5\"/><line class=\"p3\" x1=\"10.5\" y1=\"16.5\" x2=\"14.5\" y2=\"16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 850 }
+  ]
+}

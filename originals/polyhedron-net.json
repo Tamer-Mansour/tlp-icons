@@ -1,0 +1,10 @@
+{
+  "name": "polyhedron-net",
+  "category": "shapes",
+  "tags": ["net", "polyhedron", "unfold", "flat", "fold"],
+  "svg": "<path class=\"d p1\" d=\"M7 7 H12 V12 H22 V17 H2 V12 H7 Z\"/><path class=\"p2\" d=\"M7 12 H12 M7 12 V17 M12 12 V17 M17 12 V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

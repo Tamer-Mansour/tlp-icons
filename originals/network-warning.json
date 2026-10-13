@@ -1,0 +1,11 @@
+{
+  "name": "network-warning",
+  "category": "connectivity",
+  "tags": ["network", "warning", "alert", "error", "offline", "nodes"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"6\" r=\"3\"/><circle class=\"d p1\" cx=\"6\" cy=\"18\" r=\"3\"/><path class=\"p2\" d=\"M6 9v6\"/><path class=\"p3\" d=\"M18 5v9\"/><circle class=\"f p3\" cx=\"18\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1000 }
+  ]
+}

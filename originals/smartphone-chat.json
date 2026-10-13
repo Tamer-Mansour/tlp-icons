@@ -1,0 +1,11 @@
+{
+  "name": "smartphone-chat",
+  "category": "communication",
+  "tags": ["phone", "chat", "message", "mobile", "text", "conversation"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 8h6v4h-3l-1.5 1.5V12H9z\"/><line class=\"p3\" x1=\"11\" y1=\"18.5\" x2=\"13\" y2=\"18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "buzz", "dur": 500, "delay": 1000 }
+  ]
+}

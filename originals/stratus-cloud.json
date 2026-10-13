@@ -1,0 +1,11 @@
+{
+  "name": "stratus-cloud",
+  "category": "weather",
+  "tags": ["stratus", "cloud", "layer", "overcast", "flat", "grey sky"],
+  "svg": "<path class=\"d p1\" d=\"M5 12.5h14a2.5 2.5 0 0 0 0-5 5.5 5.5 0 0 0-10.5-1A4 4 0 0 0 5 12.5z\"/><path class=\"p2\" d=\"M5 16.5h14\"/><path class=\"p3\" d=\"M8 19.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

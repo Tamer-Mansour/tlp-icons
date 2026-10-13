@@ -1,0 +1,11 @@
+{
+  "name": "fibonacci-spiral",
+  "category": "math",
+  "tags": ["fibonacci", "spiral", "arcs", "sequence", "golden"],
+  "svg": "<path class=\"p1\" d=\"M13 12 A1 1 0 0 0 15 12 A3 3 0 0 0 9 12\"/><path class=\"p2\" d=\"M9 12 A5 5 0 0 0 19 12\"/><path class=\"p3\" d=\"M19 12 A7 7 0 0 0 5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 1400 }
+  ]
+}

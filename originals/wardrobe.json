@@ -1,0 +1,11 @@
+{
+  "name": "wardrobe",
+  "category": "home",
+  "tags": ["wardrobe", "closet", "cabinet", "clothes", "storage", "armoire"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M12 3v5M12 15v6\"/><path class=\"p3\" d=\"M8 12.5L12 9l4 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 1000, "origin": "12px 9px" }
+  ]
+}

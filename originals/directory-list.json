@@ -1,0 +1,10 @@
+{
+  "name": "directory-list",
+  "category": "people",
+  "tags": ["directory", "list", "people", "contacts", "rows", "members"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M10 5h11\"/><circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M10 12h11\"/><circle class=\"p1\" cx=\"5\" cy=\"19\" r=\"2\"/><path class=\"p2\" d=\"M10 19h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 700, "delay": 400 }
+  ]
+}

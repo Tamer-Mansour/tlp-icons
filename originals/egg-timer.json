@@ -1,0 +1,11 @@
+{
+  "name": "egg-timer",
+  "category": "home",
+  "tags": ["timer", "egg", "hourglass", "kitchen", "minutes", "countdown"],
+  "svg": "<path class=\"p1\" d=\"M6 3h12M6 21h12\"/><path class=\"d p2\" d=\"M8 4h8l-4 6z\"/><path class=\"p3\" d=\"M8 20h8l-4-6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "flipY", "dur": 900, "delay": 1000 }
+  ]
+}

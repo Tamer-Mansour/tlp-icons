@@ -1,0 +1,11 @@
+{
+  "name": "dotted-path",
+  "category": "arrows",
+  "tags": ["dotted", "path", "trail", "route", "arrow"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"20\" r=\"1\"/><circle class=\"f p1\" cx=\"8\" cy=\"16\" r=\"1\"/><circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1\"/><path class=\"p2\" d=\"M15 9 L20 4\"/><path class=\"p3\" d=\"M15 4 H20 V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

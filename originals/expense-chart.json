@@ -1,0 +1,10 @@
+{
+  "name": "expense-chart",
+  "category": "charts",
+  "tags": ["expense", "chart", "spending", "costs", "decline", "bars"],
+  "svg": "<path class=\"p1\" d=\"M4 21V14M9 21V9M14 21V12\"/><path class=\"p2\" d=\"M14 4L20 10M20 10V6M20 10H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 800 }
+  ]
+}

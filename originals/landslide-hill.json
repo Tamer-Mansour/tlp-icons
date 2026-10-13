@@ -1,0 +1,10 @@
+{
+  "name": "landslide-hill",
+  "category": "science",
+  "tags": ["landslide", "hill", "slide", "slope", "geology"],
+  "svg": "<path class=\"d p1\" d=\"M2 19C6 9 11 6 15 8C18 9.5 20 13 22 19Z\"/><path class=\"p2\" d=\"M13 10L8.5 14.5M8.5 11.5V14.5H11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 900, "delay": 800 }
+  ]
+}

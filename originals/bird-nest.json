@@ -1,0 +1,11 @@
+{
+  "name": "bird-nest",
+  "category": "nature",
+  "tags": ["bird nest", "eggs", "woven", "spring", "nature", "home"],
+  "svg": "<path class=\"d p1\" d=\"M3 13H21C21 18 17 20 12 20C7 20 3 18 3 13Z\"/><ellipse class=\"p2\" cx=\"9\" cy=\"11.5\" rx=\"1.5\" ry=\"2\"/><ellipse class=\"p3\" cx=\"15\" cy=\"11.5\" rx=\"1.5\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 700 }
+  ]
+}

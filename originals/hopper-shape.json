@@ -1,0 +1,10 @@
+{
+  "name": "hopper-shape",
+  "category": "shapes",
+  "tags": ["hopper", "outlet", "bin", "container", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M3 5h18l-6 10v4H9v-4z\"/><path class=\"p2\" d=\"M9 22h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

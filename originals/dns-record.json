@@ -1,0 +1,11 @@
+{
+  "name": "dns-record",
+  "category": "connectivity",
+  "tags": ["dns", "record", "domain", "globe", "lookup", "name"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"8\" x2=\"11\" y2=\"8\"/><line class=\"p2\" x1=\"6\" y1=\"12\" x2=\"9\" y2=\"12\"/><circle class=\"p3\" cx=\"18\" cy=\"16.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "porch",
+  "category": "buildings",
+  "tags": ["porch", "roof", "posts", "steps", "entrance", "house"],
+  "svg": "<path class=\"p1\" d=\"M2 9l10-6 10 6\"/><path class=\"p2\" d=\"M6 9v12M18 9v12\"/><path class=\"p3\" d=\"M9 21v-3h6v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

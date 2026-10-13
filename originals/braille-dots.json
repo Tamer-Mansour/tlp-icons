@@ -1,0 +1,10 @@
+{
+  "name": "braille-dots",
+  "category": "communication",
+  "tags": ["braille", "dots", "accessibility", "blind", "text", "reading"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"8\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"16\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

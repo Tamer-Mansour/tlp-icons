@@ -1,0 +1,10 @@
+{
+  "name": "stool",
+  "category": "home",
+  "tags": ["stool", "seat", "chair", "round", "furniture"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"7\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M7 10l-2 11M17 10l2 11M12 10v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

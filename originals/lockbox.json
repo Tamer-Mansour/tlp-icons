@@ -1,0 +1,11 @@
+{
+  "name": "lockbox",
+  "category": "security",
+  "tags": ["lockbox", "box", "keypad", "safe", "storage", "secure"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"2\" width=\"18\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"2\"/><rect class=\"p3\" x=\"9\" y=\"13.5\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "lift", "dur": 700, "delay": 1000 }
+  ]
+}

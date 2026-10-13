@@ -1,0 +1,10 @@
+{
+  "name": "dead-zone",
+  "category": "communication",
+  "tags": ["dead zone", "no coverage", "antenna", "tower", "signal", "network"],
+  "svg": "<path class=\"p1\" d=\"M12 3 V6 M9 20 L12 8 L15 20 M10.5 14.5 H13.5\"/><circle class=\"f p2\" cx=\"3\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"3\" cy=\"18\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 800 }
+  ]
+}

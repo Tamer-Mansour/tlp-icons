@@ -1,0 +1,10 @@
+{
+  "name": "passkey-device",
+  "category": "security",
+  "tags": ["passkey", "phone", "key", "device", "login", "access"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"10\" height=\"19\" rx=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"6\" r=\"2\"/><path class=\"p2\" d=\"M19 8v7M19 12.5h1.5M19 14.5h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 1000, "delay": 900 }
+  ]
+}

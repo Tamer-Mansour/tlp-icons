@@ -1,0 +1,11 @@
+{
+  "name": "ladybug",
+  "category": "nature",
+  "tags": ["insect", "spots", "beetle", "red", "garden"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13.5\" rx=\"7\" ry=\"6.5\"/><path class=\"p2\" d=\"M12 7 V20\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"11\" r=\"1.1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"11\" r=\"1.1\"/><circle class=\"f p3\" cx=\"9\" cy=\"16.5\" r=\"1.1\"/><circle class=\"f p3\" cx=\"15\" cy=\"16.5\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lobby",
+  "category": "buildings",
+  "tags": ["lobby", "entrance", "hall", "pillars", "building", "foyer"],
+  "svg": "<path class=\"d p1\" d=\"M3 8h18L12 3z\"/><path class=\"p2\" d=\"M7 11v8M12 11v8M17 11v8\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

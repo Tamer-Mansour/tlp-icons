@@ -1,0 +1,11 @@
+{
+  "name": "beach-court",
+  "category": "sport",
+  "tags": ["beach", "volleyball", "court", "net", "sand", "sport"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M3 12H21\"/><circle class=\"f p3\" cx=\"6\" cy=\"16\" r=\"1\"/><circle class=\"f p3\" cx=\"9\" cy=\"17.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"16\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

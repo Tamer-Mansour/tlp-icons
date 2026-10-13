@@ -1,0 +1,10 @@
+{
+  "name": "supercell",
+  "category": "weather",
+  "tags": ["supercell", "storm", "mushroom", "cloud", "thunderstorm", "severe"],
+  "svg": "<path class=\"d p1\" d=\"M4 11a8 6 0 0 1 16 0 2 2 0 0 1-1 2H5a2 2 0 0 1-1-2z\"/><path class=\"p2\" d=\"M9.5 15v5.5h5V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500 }
+  ]
+}

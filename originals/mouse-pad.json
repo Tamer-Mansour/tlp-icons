@@ -1,0 +1,11 @@
+{
+  "name": "mouse-pad",
+  "category": "devices",
+  "tags": ["mouse", "pad", "desk", "computer", "peripheral", "input"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"9.5\" y=\"8\" width=\"5\" height=\"8\" rx=\"2.5\"/><path class=\"p3\" d=\"M12 10V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

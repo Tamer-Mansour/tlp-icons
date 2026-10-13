@@ -1,0 +1,11 @@
+{
+  "name": "medal-check",
+  "category": "notifications",
+  "tags": ["medal", "award", "achievement", "badge", "approved"],
+  "svg": "<path class=\"p1\" d=\"M8 2l2.5 5M16 2l-2.5 5\"/><circle class=\"d p2\" cx=\"12\" cy=\"15\" r=\"6\"/><path class=\"p3\" d=\"M9 15l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

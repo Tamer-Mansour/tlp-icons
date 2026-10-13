@@ -1,0 +1,10 @@
+{
+  "name": "offside-flag",
+  "category": "sport",
+  "tags": ["offside", "flag", "linesman", "football", "signal", "referee"],
+  "svg": "<path class=\"p1\" d=\"M5 4V20\"/><path class=\"d p2\" d=\"M5 4H16L13 8L16 12H5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "spotlight-beam",
+  "category": "media",
+  "tags": ["spotlight", "stage", "light", "beam", "show"],
+  "svg": "<path class=\"d p1\" d=\"M8 3h8l3 5H5z\"/><path class=\"p2\" d=\"M8 8L4 20M16 8l4 12\"/><ellipse class=\"p3\" cx=\"12\" cy=\"20\" rx=\"7\" ry=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

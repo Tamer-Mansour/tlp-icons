@@ -1,0 +1,10 @@
+{
+  "name": "juicer",
+  "category": "food",
+  "tags": ["juicer", "citrus", "juice", "fruit", "food"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 Q12 3 21 10 Q12 13 3 10 Z\"/><path class=\"p2\" d=\"M8 14 H16 L12 21 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 800, "origin": "12px 14px" }
+  ]
+}

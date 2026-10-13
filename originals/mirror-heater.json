@@ -1,0 +1,11 @@
+{
+  "name": "mirror-heater",
+  "category": "vehicles",
+  "tags": ["mirror", "heater", "defrost", "heat", "side", "car"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"11\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M14 13h7\"/><path class=\"p3\" d=\"M5 6q1.5-1.5 3 0t3 0t3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

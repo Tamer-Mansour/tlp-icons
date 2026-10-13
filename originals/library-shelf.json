@@ -1,0 +1,10 @@
+{
+  "name": "library-shelf",
+  "category": "science",
+  "tags": ["library", "books", "shelf", "reading", "study", "bookcase"],
+  "svg": "<path class=\"p1\" d=\"M2 20h20\"/><path class=\"p2\" d=\"M4 20V8h2.5v12M8.5 20V10H11v10M13 20V6h2.5v14M17.5 20V9H20v11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

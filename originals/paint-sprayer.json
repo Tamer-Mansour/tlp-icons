@@ -1,0 +1,12 @@
+{
+  "name": "paint-sprayer",
+  "category": "tools",
+  "tags": ["paint", "sprayer", "spray", "mist", "gun", "coat"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M14 8h4\"/><path class=\"p3\" d=\"M7 10l1 6h3l-1-6\"/><circle class=\"f p4\" cx=\"20\" cy=\"7\" r=\"1\"/><circle class=\"f p4\" cx=\"20\" cy=\"11\" r=\"1\"/><circle class=\"f p4\" cx=\"19\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "blip", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "library-card-holder",
+  "category": "people",
+  "tags": ["library", "card", "bookmark", "holder", "wallet"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M4 16h16\"/><path class=\"p3\" d=\"M8 5v7l2.5-2 2.5 2V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000, "origin": "top" }
+  ]
+}

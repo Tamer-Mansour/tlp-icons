@@ -1,0 +1,11 @@
+{
+  "name": "turnstile-entry",
+  "category": "people",
+  "tags": ["turnstile", "entry", "gate", "access", "transit", "entrance"],
+  "svg": "<circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"10\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2\"/><path class=\"p2\" d=\"M12 12V5M12 12l6.06 3.5M12 12l-6.06 3.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 900 }
+  ]
+}

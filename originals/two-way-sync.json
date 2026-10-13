@@ -1,0 +1,11 @@
+{
+  "name": "two-way-sync",
+  "category": "connectivity",
+  "tags": ["two", "way", "sync", "bidirectional", "exchange", "mirror"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"7\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"15\" y=\"7\" width=\"7\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M9.5 10H14.5M13 8.5L14.5 10L13 11.5M14.5 14H9.5M11 12.5L9.5 14L11 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

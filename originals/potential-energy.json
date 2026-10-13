@@ -1,0 +1,11 @@
+{
+  "name": "potential-energy",
+  "category": "science",
+  "tags": ["potential", "energy", "height", "gravity", "ball", "physics"],
+  "svg": "<path class=\"p1\" d=\"M4 15h2M9 15h2M14 15h2M19 15h1\"/><circle class=\"d p2\" cx=\"12\" cy=\"8\" r=\"3\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fadeIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "hop", "dur": 900, "delay": 900 }
+  ]
+}

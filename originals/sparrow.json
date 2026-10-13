@@ -1,0 +1,12 @@
+{
+  "name": "sparrow",
+  "category": "nature",
+  "tags": ["sparrow", "bird", "small", "round", "garden", "songbird"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"5.5\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"3\"/><path class=\"p3\" d=\"M6.5 15.5L3 19\"/><path class=\"p4\" d=\"M18.5 7.5L21 8.5L18.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

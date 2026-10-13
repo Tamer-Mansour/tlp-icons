@@ -1,0 +1,10 @@
+{
+  "name": "server-up",
+  "category": "notifications",
+  "tags": ["server", "up", "rack", "upload", "online"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"9\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"2\" y=\"16\" width=\"11\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M18 21V4M15 7l3-3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 800 }
+  ]
+}

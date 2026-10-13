@@ -1,0 +1,11 @@
+{
+  "name": "photo-paper",
+  "category": "photography",
+  "tags": ["photo paper", "paper", "print", "darkroom", "sheet"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h11v14H9z\"/><path class=\"p2\" d=\"M4 7v13a1 1 0 0 0 1 1h12\"/><path class=\"p3\" d=\"M12 9h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

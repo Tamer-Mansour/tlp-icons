@@ -1,0 +1,11 @@
+{
+  "name": "pineapple-plant",
+  "category": "nature",
+  "tags": ["pineapple", "tropical", "spiky", "leaves", "fruit"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"4\" ry=\"4.5\"/><polyline class=\"p2\" points=\"10,10 8,3 11,7 12,2.5 13,7 16,3 14,10\"/><path class=\"p3\" d=\"M9.5 14.5 L12 17 L14.5 14.5 M9.5 19.5 L12 17 L14.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

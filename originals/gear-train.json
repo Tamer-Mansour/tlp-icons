@@ -1,0 +1,10 @@
+{
+  "name": "gear-train",
+  "category": "science",
+  "tags": ["gear", "train", "mechanism", "machine", "cog"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"3.5\"/><path class=\"p1\" d=\"M8 8.5V6M8 15.5V18M4.5 12H2.5\"/><circle class=\"p2\" cx=\"17\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M17 8.5V6M17 15.5V18M20.5 12H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "spin", "dur": 1400, "delay": 0, "origin": "8px 12px" },
+    { "part": "p2", "anim": "spinBack", "dur": 1400, "delay": 0, "origin": "17px 12px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gust",
+  "category": "weather",
+  "tags": ["gust", "wind", "lines", "breeze", "curl"],
+  "svg": "<path class=\"p1\" d=\"M3 8H15A2.5 2.5 0 1 0 12.5 5.5\"/><path class=\"p2\" d=\"M3 13H20\"/><path class=\"p3\" d=\"M7 18H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 700 }
+  ]
+}

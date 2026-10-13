@@ -1,0 +1,11 @@
+{
+  "name": "wildlife",
+  "category": "nature",
+  "tags": ["wildlife", "deer", "leaf", "forest", "nature"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"4\"/><path class=\"p2\" d=\"M8 9 L6 5 M6 5 L4 4 M11 9 L13 5 M13 5 L15 4\"/><path class=\"p3\" d=\"M14 16 Q20 15 21 9 Q15 9 14 16 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100, "origin": "bottom" }
+  ]
+}

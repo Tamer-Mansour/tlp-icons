@@ -1,0 +1,11 @@
+{
+  "name": "txt-file",
+  "category": "text",
+  "tags": ["txt", "plain", "file", "document", "text", "dots"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M14 3v5h5\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

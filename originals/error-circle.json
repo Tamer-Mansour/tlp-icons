@@ -1,0 +1,11 @@
+{
+  "name": "error-circle",
+  "category": "interface",
+  "tags": ["error", "forbidden", "blocked", "cross", "prohibited", "failure"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M9 9l6 6\"/><path class=\"p3\" d=\"M15 9l-6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

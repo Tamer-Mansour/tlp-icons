@@ -1,0 +1,10 @@
+{
+  "name": "hurricane-eye",
+  "category": "weather",
+  "tags": ["hurricane eye", "eye", "storm", "spiral", "calm center", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M12 4 C17 4 20 7 20 12 M12 20 C7 20 4 17 4 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1400, "delay": 600, "origin": "center" }
+  ]
+}

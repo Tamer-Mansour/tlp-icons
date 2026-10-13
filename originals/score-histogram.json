@@ -1,0 +1,10 @@
+{
+  "name": "score-histogram",
+  "category": "charts",
+  "tags": ["score", "histogram", "bars", "distribution", "mean", "statistics"],
+  "svg": "<path class=\"p1\" d=\"M4 21v-6M8 21v-10M12 21v-14M16 21v-9M20 21v-5\"/><path class=\"p2\" d=\"M2 9h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

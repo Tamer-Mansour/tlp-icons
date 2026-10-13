@@ -1,0 +1,10 @@
+{
+  "name": "area-stacked",
+  "category": "charts",
+  "tags": ["area", "stacked", "chart", "layers", "data", "bands"],
+  "svg": "<path class=\"d p1\" d=\"M3 9c3-2 6-2 9 0s6 2 9 0v5c-3 2-6 2-9 0s-6-2-9 0z\"/><path class=\"d p2\" d=\"M3 14c3 2 6 2 9 0s6-2 9 0V20H3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

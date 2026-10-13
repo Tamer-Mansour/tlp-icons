@@ -1,0 +1,11 @@
+{
+  "name": "alluvial-diagram",
+  "category": "charts",
+  "tags": ["alluvial", "flow", "sankey", "bands", "categories", "transition"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"3\" height=\"6\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"13\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"18\" y=\"3\" width=\"3\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"18\" y=\"16\" width=\"3\" height=\"5\" rx=\"1\"/><path class=\"d p3\" d=\"M6 3C12 3 12 3 18 3V13C12 13 12 9 6 9Z\"/><path class=\"d p3\" d=\"M6 13C12 13 12 16 18 16V21C12 21 12 21 6 21Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stroke-join",
+  "category": "design",
+  "tags": ["stroke", "join", "corner", "line", "vector", "polyline"],
+  "svg": "<polyline class=\"p1\" points=\"4 19 12 6 20 19\"/><circle class=\"f p2\" cx=\"12\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

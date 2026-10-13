@@ -1,0 +1,10 @@
+{
+  "name": "jump-back",
+  "category": "arrows",
+  "tags": ["jump", "back", "leap", "return", "skip"],
+  "svg": "<path class=\"p1\" d=\"M18 17 C18 9 6 9 6 17\"/><polyline class=\"p2\" points=\"3 14 6 17 9 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

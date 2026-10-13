@@ -1,0 +1,38 @@
+{
+    "name":  "fungal-hyphae",
+    "category":  "science",
+    "tags":  [
+                 "fungus",
+                 "hyphae",
+                 "thread",
+                 "mold",
+                 "biology"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M3 21C7 17 9 13 12 12S17 9 21 4\"/\u003e\u003cpath class=\"p2\" d=\"M8 15C5 13.5 4.5 10 5 7\"/\u003e\u003cpath class=\"p3\" d=\"M14 11C15.5 9.5 17.5 9 20 9.5\"/\u003e\u003cg class=\"f p4\"\u003e\u003ccircle cx=\"5\" cy=\"7\" r=\"1.2\"/\u003e\u003ccircle cx=\"21\" cy=\"4\" r=\"1.2\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  900,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  700
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "draw",
+                       "dur":  600,
+                       "delay":  1100
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "popIn",
+                       "dur":  300,
+                       "delay":  1450
+                   }
+               ]
+}

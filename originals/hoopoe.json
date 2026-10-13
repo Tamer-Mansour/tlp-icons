@@ -1,0 +1,11 @@
+{
+  "name": "hoopoe",
+  "category": "nature",
+  "tags": ["hoopoe", "bird", "crest", "curved", "bill"],
+  "svg": "<path class=\"d p1\" d=\"M6 15Q6 10 12 10Q17 10 17 15Q14 18 6 15Z\"/><circle class=\"p2\" cx=\"15\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M17.5 8Q20.5 8 21 12\"/><path class=\"p3\" d=\"M13 5.5L9 3M14.5 5L13.5 2M16.5 5.5L19 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1200 }
+  ]
+}

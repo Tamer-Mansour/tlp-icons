@@ -1,0 +1,11 @@
+{
+  "name": "file-binary",
+  "category": "files",
+  "tags": ["binary", "bits", "digits", "code", "zeros", "ones"],
+  "svg": "<path class=\"p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><rect class=\"p2\" x=\"7\" y=\"11\" width=\"4\" height=\"6\" rx=\"2\"/><path class=\"p3\" d=\"M15 11v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flip", "dur": 800, "delay": 1100 }
+  ]
+}

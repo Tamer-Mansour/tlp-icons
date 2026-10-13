@@ -1,0 +1,10 @@
+{
+  "name": "page-number",
+  "category": "text",
+  "tags": ["page", "number", "pagination", "folio", "document"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M14.5 17.5L16 16v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

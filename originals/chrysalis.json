@@ -1,0 +1,10 @@
+{
+  "name": "chrysalis",
+  "category": "nature",
+  "tags": ["chrysalis", "cocoon", "pupa", "butterfly", "shell", "insect"],
+  "svg": "<path class=\"d p1\" d=\"M12 3C15 7 17 10 17 14C17 18 15 21 12 21C9 21 7 18 7 14C7 10 9 7 12 3Z\"/><path class=\"p2\" d=\"M10 3Q10 1 12 1Q14 1 14 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 800, "origin": "12px 1px" }
+  ]
+}

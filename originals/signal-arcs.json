@@ -1,0 +1,12 @@
+{
+  "name": "signal-arcs",
+  "category": "shapes",
+  "tags": ["signal", "wireless", "broadcast", "arcs", "strength"],
+  "svg": "<circle class=\"f p1\" cx=\"6\" cy=\"18\" r=\"1.2\"/><path class=\"p2\" d=\"M6 13a5 5 0 0 1 5 5\"/><path class=\"p3\" d=\"M6 9a9 9 0 0 1 9 9\"/><path class=\"p4\" d=\"M6 5a13 13 0 0 1 13 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 600, "delay": 700 },
+    { "part": "p4", "anim": "pulseRing", "dur": 600, "delay": 1000 }
+  ]
+}

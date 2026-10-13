@@ -1,0 +1,10 @@
+{
+  "name": "motion-blur",
+  "category": "design",
+  "tags": ["motion", "blur", "speed", "trail", "movement", "effect"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"8\" width=\"11\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2 8H6M3 12H8M2 16H6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 700, "delay": 500 }
+  ]
+}

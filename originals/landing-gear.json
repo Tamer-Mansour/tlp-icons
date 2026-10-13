@@ -1,0 +1,11 @@
+{
+  "name": "landing-gear",
+  "category": "vehicles",
+  "tags": ["landing", "gear", "plane", "wheels", "aircraft", "touchdown"],
+  "svg": "<path class=\"d p1\" d=\"M3 10H19A2 2 0 0 1 19 14H3Z\"/><path class=\"p2\" d=\"M9 10L7 4H9L13 10\"/><path class=\"p3\" d=\"M7 14V18M15 14V18\"/><circle class=\"p3\" cx=\"7\" cy=\"19.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"15\" cy=\"19.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1000 }
+  ]
+}

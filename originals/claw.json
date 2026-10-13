@@ -1,0 +1,10 @@
+{
+  "name": "claw",
+  "category": "nature",
+  "tags": ["claw", "talon", "nail", "animal", "sharp", "scratch"],
+  "svg": "<path class=\"p1\" d=\"M7 4Q8 13 12 20M17 4Q16 13 12 20\"/><path class=\"p2\" d=\"M12 3Q12 12 12 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 600, "delay": 900, "origin": "12px 20px" }
+  ]
+}

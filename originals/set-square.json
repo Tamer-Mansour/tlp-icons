@@ -1,0 +1,10 @@
+{
+  "name": "set-square",
+  "category": "science",
+  "tags": ["triangle", "drafting", "geometry", "tool", "set square"],
+  "svg": "<path class=\"d p1\" d=\"M4 20 V4 L20 20 Z\"/><circle class=\"p2\" cx=\"8.5\" cy=\"16\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

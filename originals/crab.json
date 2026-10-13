@@ -1,0 +1,11 @@
+{
+  "name": "crab",
+  "category": "food",
+  "tags": ["crab", "seafood", "shellfish", "claws", "ocean", "dinner"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"6\" ry=\"4\"/><polyline class=\"p2\" points=\"7 11 3.5 8 2.5 5.5 5 4.5 8 7.5\"/><polyline class=\"p2\" points=\"17 11 20.5 8 21.5 5.5 19 4.5 16 7.5\"/><path class=\"p3\" d=\"M7 17 L4 19.5 M9 18 V21 M15 18 V21 M17 17 L20 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "jelly", "dur": 600, "delay": 1100 }
+  ]
+}

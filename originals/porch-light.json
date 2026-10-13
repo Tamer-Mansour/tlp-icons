@@ -1,0 +1,11 @@
+{
+  "name": "porch-light",
+  "category": "home",
+  "tags": ["porch", "light", "lantern", "outdoor", "entrance", "lamp"],
+  "svg": "<path class=\"p1\" d=\"M4 7l8-4.5 8 4.5\"/><path class=\"d p2\" d=\"M8 9.5h8l.5 9H7.5z\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 1000, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mail-sort",
+  "category": "communication",
+  "tags": ["mail", "sort", "sorting", "arrows", "split", "organize", "envelope"],
+  "svg": "<path class=\"d p1\" d=\"M8 4h8v10H8z\"/><path class=\"p2\" d=\"M8 4l4 4.5 4-4.5\"/><path class=\"p3\" d=\"M4 16h6M7 13l-3 3 3 3\"/><path class=\"p4\" d=\"M14 16h6M17 13l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

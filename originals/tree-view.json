@@ -1,0 +1,11 @@
+{
+  "name": "tree-view",
+  "category": "layout",
+  "tags": ["tree", "view", "hierarchy", "branch", "nodes", "structure", "outline"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><path class=\"p2\" d=\"M5 6h4M5 12h4M5 18h4\"/><rect class=\"p3\" x=\"9\" y=\"4.5\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"9\" y=\"10.5\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"9\" y=\"16.5\" width=\"12\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

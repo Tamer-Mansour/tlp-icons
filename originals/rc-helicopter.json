@@ -1,0 +1,12 @@
+{
+  "name": "rc-helicopter",
+  "category": "devices",
+  "tags": ["helicopter", "rc", "rotor", "toy", "flight", "remote"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"13\" width=\"10\" height=\"5\" rx=\"2.5\"/><path class=\"p2\" d=\"M11 13 V8\"/><path class=\"p3\" d=\"M5 8 H17\"/><path class=\"p4\" d=\"M16 15.5 H21 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "spinFast", "dur": 1200, "delay": 1000, "origin": "11px 8px" }
+  ]
+}

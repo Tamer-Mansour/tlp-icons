@@ -1,0 +1,10 @@
+{
+  "name": "headwind",
+  "category": "weather",
+  "tags": ["headwind", "wind", "arrow", "against", "flight", "air"],
+  "svg": "<path class=\"p1\" d=\"M3 12h8M6 9l-3 3 3 3\"/><path class=\"p2\" d=\"M14 7h6M13 12h7M14 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 700, "delay": 600 }
+  ]
+}

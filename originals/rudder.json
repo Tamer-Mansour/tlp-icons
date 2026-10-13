@@ -1,0 +1,11 @@
+{
+  "name": "rudder",
+  "category": "vehicles",
+  "tags": ["rudder", "boat", "ship", "steer", "tiller", "marine", "helm"],
+  "svg": "<path class=\"d p1\" d=\"M9 9h4v10l-2 2.5L9 19z\"/><path class=\"p2\" d=\"M11 9V4\"/><path class=\"p3\" d=\"M11 4l5-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "11px 4px" }
+  ]
+}

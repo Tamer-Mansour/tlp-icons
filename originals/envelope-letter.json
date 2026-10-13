@@ -1,0 +1,10 @@
+{
+  "name": "envelope-letter",
+  "category": "communication",
+  "tags": ["envelope", "letter", "mail", "open", "message", "email"],
+  "svg": "<path class=\"p1\" d=\"M3 10v9.5h18V10\"/><path class=\"p1\" d=\"M3 10l9 6 9-6\"/><rect class=\"p2\" x=\"7\" y=\"3\" width=\"10\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 400 }
+  ]
+}

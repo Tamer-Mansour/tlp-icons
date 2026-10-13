@@ -1,0 +1,11 @@
+{
+  "name": "lab-flask",
+  "category": "development",
+  "tags": ["laboratory", "flask", "experiment", "chemistry", "bubbles"],
+  "svg": "<path class=\"p1 d\" d=\"M10 3v5l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3z\"/><path class=\"p1\" d=\"M9 3h6\"/><circle class=\"f p2\" cx=\"10\" cy=\"17\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

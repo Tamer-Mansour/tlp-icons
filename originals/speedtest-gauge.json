@@ -1,0 +1,11 @@
+{
+  "name": "speedtest-gauge",
+  "category": "connectivity",
+  "tags": ["speed", "test", "gauge", "bandwidth", "download", "upload"],
+  "svg": "<path class=\"p1\" d=\"M4 14a8 8 0 1 1 16 0\"/><path class=\"p2\" d=\"M12 14l4-5\"/><path class=\"p3\" d=\"M8.5 21v-4M6.5 19l2-2 2 2M15.5 17.5v4M13.5 19.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 700, "origin": "12px 14px" },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "civet",
+  "category": "nature",
+  "tags": ["civet", "banded", "tail", "muzzle", "mammal"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 Q5 10 7 10 H16 Q18 10 18.5 11.5 L21.5 12 L18.5 13 Q18 14 16 14 H7 Q5 14 5 12 Z\"/><path class=\"p2\" d=\"M5 12 Q1 11.5 1.5 16\"/><path class=\"p3\" d=\"M8 14 V18 M15 14 V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "5px 12px" }
+  ]
+}

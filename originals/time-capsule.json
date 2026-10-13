@@ -1,0 +1,11 @@
+{
+  "name": "time-capsule",
+  "category": "time",
+  "tags": ["capsule", "box", "clock", "memory", "keepsake", "future"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"9\" width=\"18\" height=\"11\" rx=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"14.5\" r=\"3\"/><path class=\"p3\" d=\"M12 13v1.5h1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

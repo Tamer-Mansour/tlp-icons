@@ -1,0 +1,11 @@
+{
+  "name": "concrete-mixer",
+  "category": "home",
+  "tags": ["concrete", "mixer", "cement", "construction", "drum"],
+  "svg": "<path class=\"d p1\" d=\"M4 10v4a8 5 0 0 0 16 0v-4z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"10\" rx=\"8\" ry=\"5\"/><path class=\"p3\" d=\"M9 19l-1.5 2.5M15 19l1.5 2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

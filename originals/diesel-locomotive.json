@@ -1,0 +1,11 @@
+{
+  "name": "diesel-locomotive",
+  "category": "vehicles",
+  "tags": ["train", "locomotive", "diesel", "engine", "rail"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"13\" height=\"9\"/><rect class=\"p2\" x=\"6\" y=\"11\" width=\"4\" height=\"3\"/><rect class=\"d p3\" x=\"16\" y=\"12\" width=\"5\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 1100 }
+  ]
+}

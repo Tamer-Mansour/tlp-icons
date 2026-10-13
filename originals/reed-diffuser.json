@@ -1,0 +1,10 @@
+{
+  "name": "reed-diffuser",
+  "category": "home",
+  "tags": ["reed", "diffuser", "scent", "fragrance", "bottle", "aroma"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"12\" width=\"10\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M10 12L7.5 4M12 12V3M14 12L16.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

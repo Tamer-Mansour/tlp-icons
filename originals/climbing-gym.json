@@ -1,0 +1,10 @@
+{
+  "name": "climbing-gym",
+  "category": "buildings",
+  "tags": ["climbing gym", "climbing wall", "bouldering", "holds", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18H5z\"/><circle class=\"f p2\" cx=\"9\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"11\" r=\"1.2\"/><circle class=\"f p2\" cx=\"9\" cy=\"15\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

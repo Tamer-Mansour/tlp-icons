@@ -1,0 +1,10 @@
+{
+  "name": "select-all-text",
+  "category": "text",
+  "tags": ["select", "selection", "highlight", "all", "text", "box"],
+  "svg": "<rect class=\"p2\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"1\"/><path class=\"p1\" d=\"M6 9h12M6 13h12M6 17h8\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

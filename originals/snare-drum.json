@@ -1,0 +1,11 @@
+{
+  "name": "snare-drum",
+  "category": "media",
+  "tags": ["snare", "drum", "percussion", "beat", "music", "kit"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"7\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M4 7v7c0 1.5 3.6 2.5 8 2.5s8-1 8-2.5V7\"/><polyline class=\"p3\" points=\"6 20 9 21 12 20 15 21 18 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 900 }
+  ]
+}

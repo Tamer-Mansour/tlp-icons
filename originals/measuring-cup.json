@@ -1,0 +1,11 @@
+{
+  "name": "measuring-cup",
+  "category": "food",
+  "tags": ["measuring", "cup", "kitchen", "baking", "food"],
+  "svg": "<path class=\"d p1\" d=\"M6 8 H16 V20 Q16 21 15 21 H7 Q6 21 6 20 Z\"/><path class=\"p2\" d=\"M16 11 H19 Q20 11 20 12 V14 Q20 15 19 15 H16\"/><path class=\"p3\" d=\"M6 12 H9 M6 16 H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

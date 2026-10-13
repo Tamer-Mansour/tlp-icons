@@ -1,0 +1,11 @@
+{
+  "name": "bike-computer",
+  "category": "devices",
+  "tags": ["bike", "computer", "cycling", "speed", "gps", "handlebar"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M12 12v4M5 18h14\"/><path class=\"p3\" d=\"M9 7h6M9 9.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 800, "delay": 1000 }
+  ]
+}

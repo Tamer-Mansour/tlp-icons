@@ -1,0 +1,10 @@
+{
+  "name": "s-block",
+  "category": "shapes",
+  "tags": ["s-shape", "block", "tetromino", "zigzag", "stacked", "puzzle"],
+  "svg": "<path class=\"p1\" d=\"M9 3H21V9H15V15H3V9H9Z\"/><path class=\"p2\" d=\"M15 3V9M9 9H15M9 9V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

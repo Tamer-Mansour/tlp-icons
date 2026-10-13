@@ -1,0 +1,10 @@
+{
+  "name": "superscript-text",
+  "category": "text",
+  "tags": ["superscript", "text", "exponent", "raised", "letter", "format"],
+  "svg": "<path class=\"p1\" d=\"M3 20l8-8M11 20l-8-8\"/><path class=\"p2\" d=\"M15 10a2 2 0 0 1 4 0l-4 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 600 }
+  ]
+}

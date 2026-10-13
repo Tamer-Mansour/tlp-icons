@@ -1,0 +1,10 @@
+{
+  "name": "navbar",
+  "category": "interface",
+  "tags": ["navbar", "navigation", "header", "menu", "top bar", "app"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M6 6.5h3M14 6.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 500 }
+  ]
+}

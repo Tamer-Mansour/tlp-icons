@@ -1,0 +1,12 @@
+{
+  "name": "account-delete-bin",
+  "category": "people",
+  "tags": ["account", "delete", "remove", "trash", "bin", "person"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2.5 21v-2.5a4.5 4.5 0 0 1 9 0V21\"/><path class=\"p3\" d=\"M14 6h8M17.5 6V4.5h2V6M15.5 6v13a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5V6\"/><path class=\"p4\" d=\"M18.5 10v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "shake", "dur": 600, "delay": 1200 }
+  ]
+}

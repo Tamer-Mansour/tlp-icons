@@ -1,0 +1,10 @@
+{
+  "name": "twirl-distort",
+  "category": "design",
+  "tags": ["twirl", "spiral", "swirl", "distort", "rotate", "effect"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12A2 2 0 1 1 14 14A4 4 0 0 1 10 16A6 6 0 0 1 6 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

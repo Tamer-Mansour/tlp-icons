@@ -1,0 +1,10 @@
+{
+  "name": "lidar-sensor",
+  "category": "devices",
+  "tags": ["lidar", "laser", "scanner", "sensor", "distance"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p1\" d=\"M4 21h16M9 21v-6h6v6M12 12.5V15\"/><path class=\"p2\" d=\"M16 8l3.5-2M16 10l3.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1400, "delay": 700, "origin": "12px 9px" }
+  ]
+}

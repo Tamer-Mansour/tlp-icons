@@ -1,0 +1,12 @@
+{
+  "name": "fish-tank",
+  "category": "nature",
+  "tags": ["fish", "tank", "aquarium", "pet", "bubbles"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M3 10 Q7.5 8.5 12 10 T21 10\"/><ellipse class=\"p3\" cx=\"8\" cy=\"14\" rx=\"2\" ry=\"1.2\"/><ellipse class=\"p3\" cx=\"15\" cy=\"16\" rx=\"2\" ry=\"1.2\"/><circle class=\"f p4\" cx=\"18\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 900 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1400 }
+  ]
+}

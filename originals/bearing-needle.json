@@ -1,0 +1,11 @@
+{
+  "name": "bearing-needle",
+  "category": "arrows",
+  "tags": ["compass", "bearing", "direction", "angle", "navigation"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12 L16 8 M14 8 H16 V10\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 600, "origin": "12px 12px" },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

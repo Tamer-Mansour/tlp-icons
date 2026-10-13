@@ -1,0 +1,10 @@
+{
+  "name": "tea-leaf",
+  "category": "nature",
+  "tags": ["tea", "leaf", "herb", "vein", "plant"],
+  "svg": "<path class=\"d p1\" d=\"M4 20 C4 10 10 4 20 4 C20 14 14 20 4 20 Z\"/><path class=\"p2\" d=\"M4 20 L14 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

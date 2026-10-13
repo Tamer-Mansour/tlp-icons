@@ -1,0 +1,10 @@
+{
+  "name": "graph-nodes",
+  "category": "math",
+  "tags": ["graph", "nodes", "network", "vertices", "connected"],
+  "svg": "<path class=\"p1\" d=\"M5 5H19L12 19Z\"/><circle class=\"f p2\" cx=\"5\" cy=\"5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"19\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

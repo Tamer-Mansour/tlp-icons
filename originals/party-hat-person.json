@@ -1,0 +1,11 @@
+{
+  "name": "party-hat-person",
+  "category": "people",
+  "tags": ["party", "hat", "celebration", "cone", "pompom", "birthday"],
+  "svg": "<path class=\"d p1\" d=\"M12 3l5.5 15h-11z\"/><polyline class=\"p2\" points=\"9.3,14.5 10.6,13.2 12,14.5 13.4,13.2 14.7,14.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 700, "delay": 900 }
+  ]
+}

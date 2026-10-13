@@ -1,0 +1,10 @@
+{
+  "name": "door-sensor",
+  "category": "devices",
+  "tags": ["door", "sensor", "magnet", "contact", "entry"],
+  "svg": "<path class=\"p1\" d=\"M5 21V3h14v18\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"6\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

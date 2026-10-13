@@ -1,0 +1,11 @@
+{
+  "name": "git-pull-check",
+  "category": "notifications",
+  "tags": ["git", "pull", "check", "fetch", "done", "sync"],
+  "svg": "<path class=\"p1\" d=\"M12 3v12M7 10l5 5 5-5\"/><circle class=\"p2\" cx=\"12\" cy=\"19\" r=\"2\"/><path class=\"p3\" d=\"M16.5 6.5l2 2 3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

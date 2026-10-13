@@ -1,0 +1,11 @@
+{
+  "name": "presentation-frame",
+  "category": "design",
+  "tags": ["presentation", "slide", "deck", "chart", "widescreen", "keynote", "slides"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M7.5 13v-3M12 13V8M16.5 13v-5\"/><path class=\"p3\" d=\"M12 17v3M8.5 20.5h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "equalize", "dur": 700, "delay": 900, "origin": "bottom" }
+  ]
+}

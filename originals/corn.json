@@ -1,0 +1,11 @@
+{
+  "name": "corn",
+  "category": "food",
+  "tags": ["corn", "cob", "husk", "vegetable", "kernel"],
+  "svg": "<path class=\"d p1\" d=\"M9 8C9 5 15 5 15 8V17C15 20 9 20 9 17Z\"/><path class=\"p2\" d=\"M9 19C6 18 5 15 6 12M15 19C18 18 19 15 18 12\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"9.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"9.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"13\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"13\" r=\"0.9\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"16.5\" r=\"0.9\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"16.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

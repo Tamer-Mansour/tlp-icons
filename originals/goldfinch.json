@@ -1,0 +1,11 @@
+{
+  "name": "goldfinch",
+  "category": "nature",
+  "tags": ["goldfinch", "finch", "songbird", "bird", "cone beak", "perched"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"5\" ry=\"4.5\"/><circle class=\"p1\" cx=\"8.5\" cy=\"9\" r=\"2.5\"/><path class=\"p2\" d=\"M6 8 L3 9.5 L6 11 Z\"/><path class=\"p3\" d=\"M9 12.5 L14 11.5 M9 14.5 L14 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 600, "delay": 1000 }
+  ]
+}

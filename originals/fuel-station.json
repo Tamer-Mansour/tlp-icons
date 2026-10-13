@@ -1,0 +1,12 @@
+{
+  "name": "fuel-station",
+  "category": "buildings",
+  "tags": ["fuel", "station", "gas", "pump", "petrol", "hose"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"8\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M3 4h11v3H3z\"/><path class=\"p3\" d=\"M7 13h4\"/><path class=\"p4\" d=\"M13 14h3v5a2 2 0 0 0 4 0V11l-2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "wiggle", "dur": 900, "delay": 1100 }
+  ]
+}

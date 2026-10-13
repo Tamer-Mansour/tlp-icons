@@ -1,0 +1,10 @@
+{
+  "name": "phone-signal",
+  "category": "communication",
+  "tags": ["phone", "signal", "reception", "mobile", "bars", "network"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M15 2a7 7 0 0 1 7 7M15 5.5a3.5 3.5 0 0 1 3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 600 }
+  ]
+}

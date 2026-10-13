@@ -1,0 +1,10 @@
+{
+  "name": "dropdown-caret",
+  "category": "interface",
+  "tags": ["dropdown", "caret", "menu", "select", "triangle"],
+  "svg": "<path class=\"p2\" d=\"M5 4h14\"/><path class=\"d p1\" d=\"M7 9.5h10l-5 5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "sink", "dur": 500, "delay": 600 }
+  ]
+}

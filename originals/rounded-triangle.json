@@ -1,0 +1,10 @@
+{
+  "name": "rounded-triangle",
+  "category": "shapes",
+  "tags": ["triangle", "rounded", "soft", "corners", "geometry", "shape"],
+  "svg": "<path class=\"p1\" d=\"M10.5 5.3Q12 3.9 13.5 5.3L19.5 17.5Q20 18.5 19 18.5H5Q4 18.5 4.5 17.5Z\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

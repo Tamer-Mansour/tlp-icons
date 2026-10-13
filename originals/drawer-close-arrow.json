@@ -1,0 +1,10 @@
+{
+  "name": "drawer-close-arrow",
+  "category": "arrows",
+  "tags": ["drawer", "close", "tray", "push", "storage", "shut"],
+  "svg": "<path class=\"d p1\" d=\"M3 13l2-4h14l2 4v6H3z\"/><path class=\"p2\" d=\"M12 2v5M9.5 4.5 12 7l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 600 }
+  ]
+}

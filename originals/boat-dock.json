@@ -1,0 +1,11 @@
+{
+  "name": "boat-dock",
+  "category": "buildings",
+  "tags": ["boat", "dock", "pier", "marina", "mooring", "harbour"],
+  "svg": "<path class=\"p1\" d=\"M3 11h12\"/><path class=\"p2\" d=\"M6 11v8M12 11v8\"/><path class=\"d p3\" d=\"M15 15h6l-1.5 3h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

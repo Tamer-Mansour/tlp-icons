@@ -1,0 +1,11 @@
+{
+  "name": "cosmonaut-helmet",
+  "category": "people",
+  "tags": ["cosmonaut", "helmet", "space", "astronaut", "visor", "antenna"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M6.5 12.5 Q12 16.5 17.5 12.5\"/><path class=\"p3\" d=\"M12 6 V4\"/><circle class=\"f p3\" cx=\"12\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1200, "origin": "12px 6px" }
+  ]
+}

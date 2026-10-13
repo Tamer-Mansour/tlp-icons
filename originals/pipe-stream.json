@@ -1,0 +1,11 @@
+{
+  "name": "pipe-stream",
+  "category": "connectivity",
+  "tags": ["pipe", "stream", "data", "flow", "pipeline", "transfer"],
+  "svg": "<path class=\"p1\" d=\"M2 12h4\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M16 12h4M18 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

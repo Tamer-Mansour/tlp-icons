@@ -1,0 +1,11 @@
+{
+  "name": "flame-test",
+  "category": "science",
+  "tags": ["flame", "test", "chemistry", "spark", "fire", "experiment"],
+  "svg": "<path class=\"p1\" d=\"M9 3V8A3 3 0 0 0 15 8V3\"/><path class=\"d p2\" d=\"M12 21C9.2 21 7.5 19.2 7.5 17.2C7.5 14.5 10 13.8 12 13C14 14.5 16.5 15 16.5 17.2C16.5 19.2 14.8 21 12 21Z\"/><path class=\"p3\" d=\"M4 12L3 10.5M20 12L21 10.5M3.5 17H2M20.5 17H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1200 }
+  ]
+}

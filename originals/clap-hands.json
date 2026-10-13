@@ -1,0 +1,10 @@
+{
+  "name": "clap-hands",
+  "category": "emoji",
+  "tags": ["clap", "applause", "hands", "praise", "bravo", "celebrate"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"8\" height=\"9\" rx=\"2.5\"/><rect class=\"d p1\" x=\"13\" y=\"8\" width=\"8\" height=\"9\" rx=\"2.5\"/><line class=\"p2\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"4.5\"/><line class=\"p2\" x1=\"5\" y1=\"4\" x2=\"6.5\" y2=\"6\"/><line class=\"p2\" x1=\"19\" y1=\"4\" x2=\"17.5\" y2=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

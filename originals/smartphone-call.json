@@ -1,0 +1,11 @@
+{
+  "name": "smartphone-call",
+  "category": "communication",
+  "tags": ["phone", "call", "smartphone", "ring", "mobile", "telephone"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M11 18h2\"/><path class=\"p3\" d=\"M16 2.5a4 4 0 0 1 4 4M16 5a1.5 1.5 0 0 1 1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 700, "delay": 800 }
+  ]
+}

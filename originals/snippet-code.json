@@ -1,0 +1,11 @@
+{
+  "name": "snippet-code",
+  "category": "development",
+  "tags": ["snippet", "code", "scissors", "cut", "clip", "copy"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"12\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 8h6M6 12h4\"/><path class=\"p3\" d=\"M18 15l3 3M21 15l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 900 }
+  ]
+}

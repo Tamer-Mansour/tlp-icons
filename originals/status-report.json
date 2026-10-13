@@ -1,0 +1,11 @@
+{
+  "name": "status-report",
+  "category": "files",
+  "tags": ["status", "report", "progress", "bar", "update", "summary"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14v18H5z\"/><path class=\"p2\" d=\"M8 11h8\"/><path class=\"p3\" d=\"M8 15h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "refill", "dur": 800, "delay": 1100, "origin": "left" }
+  ]
+}

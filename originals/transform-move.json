@@ -1,0 +1,10 @@
+{
+  "name": "transform-move",
+  "category": "design",
+  "tags": ["move", "transform", "arrows", "position", "drag"],
+  "svg": "<path class=\"p1\" d=\"M12 3V21M3 12H21M9 6L12 3L15 6M9 18L12 21L15 18M6 9L3 12L6 15M18 9L21 12L18 15\"/><rect class=\"d p2\" x=\"9.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

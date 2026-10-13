@@ -1,0 +1,12 @@
+{
+  "name": "wolverine",
+  "category": "nature",
+  "tags": ["wolverine", "mustelid", "stocky", "animal", "wild", "carnivore"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M16 9.5 L20 7 L21.5 10.5 L20.5 13 L16 13\"/><path class=\"p3\" d=\"M6 15 V19 M13 15 V19\"/><path class=\"p4\" d=\"M4 11 Q1 10 2 6 Q3 4 4.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "sway", "dur": 800, "delay": 1100, "origin": "4px 11px" }
+  ]
+}

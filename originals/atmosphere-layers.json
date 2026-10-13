@@ -1,0 +1,10 @@
+{
+  "name": "atmosphere-layers",
+  "category": "weather",
+  "tags": ["atmosphere", "layers", "earth", "sky", "science", "air"],
+  "svg": "<path class=\"p1\" d=\"M3 20a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M4 8h16M6 12h12M8 16h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 700 }
+  ]
+}

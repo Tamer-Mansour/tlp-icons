@@ -1,0 +1,11 @@
+{
+  "name": "wash-basin",
+  "category": "home",
+  "tags": ["wash", "basin", "sink", "bathroom", "water"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18c0 4-4 7-9 7s-9-3-9-7z\"/><path class=\"p2\" d=\"M7 11.5h10\"/><path class=\"p3\" d=\"M12 3v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1100 }
+  ]
+}

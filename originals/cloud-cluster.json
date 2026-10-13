@@ -1,0 +1,11 @@
+{
+  "name": "cloud-cluster",
+  "category": "connectivity",
+  "tags": ["cloud", "cluster", "multiple clouds", "group", "regions", "multi-cloud"],
+  "svg": "<path class=\"p1\" d=\"M7 18.5h10a3.5 3.5 0 0 0 .4-7 5.5 5.5 0 0 0-10.4-1.3A4 4 0 0 0 7 18.5z\"/><path class=\"p2\" d=\"M9.5 14.5h5\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

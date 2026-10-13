@@ -1,0 +1,11 @@
+{
+  "name": "genealogy-scroll",
+  "category": "people",
+  "tags": ["genealogy", "family tree", "ancestry", "scroll", "history"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M6 4a2 2 0 0 0 0 4M18 16a2 2 0 0 1 0 4\"/><path class=\"p3\" d=\"M12 17v-4M12 13l-2.5-2M12 13l2.5-2M12 9V7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "spiralIn", "dur": 900, "delay": 900 }
+  ]
+}

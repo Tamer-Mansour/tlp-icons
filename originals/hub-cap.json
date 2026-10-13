@@ -1,0 +1,11 @@
+{
+  "name": "hub-cap",
+  "category": "vehicles",
+  "tags": ["hub", "cap", "wheel", "spokes", "rim"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M12 5v4M12 15v4M5 12h4M15 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1200, "delay": 600 }
+  ]
+}

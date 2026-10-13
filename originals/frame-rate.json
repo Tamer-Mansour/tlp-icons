@@ -1,0 +1,11 @@
+{
+  "name": "frame-rate",
+  "category": "media",
+  "tags": ["frame", "rate", "fps", "film", "speed"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"1\"/><path class=\"p2\" d=\"M7 5v14M17 5v14\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

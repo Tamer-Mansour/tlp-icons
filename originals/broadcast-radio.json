@@ -1,0 +1,11 @@
+{
+  "name": "broadcast-radio",
+  "category": "communication",
+  "tags": ["radio", "broadcast", "antenna", "signal", "sound", "audio", "transmit"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"12\" height=\"10\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"10\" x2=\"11\" y2=\"4\"/><path class=\"p3\" d=\"M17 10 A3 3 0 0 1 17 14 M19.5 7.5 A6 6 0 0 1 19.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 700 }
+  ]
+}

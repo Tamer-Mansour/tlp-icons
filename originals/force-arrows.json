@@ -1,0 +1,11 @@
+{
+  "name": "force-arrows",
+  "category": "science",
+  "tags": ["force", "arrows", "physics", "vector", "push", "pull"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 12H6M4.5 10L2.5 12L4.5 14M18 12H21.5M19.5 10L21.5 12L19.5 14\"/><path class=\"p3\" d=\"M12 2.5V6M10 4.5L12 2.5L14 4.5M12 18V21.5M10 19.5L12 21.5L14 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

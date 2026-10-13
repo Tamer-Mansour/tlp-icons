@@ -1,0 +1,10 @@
+{
+  "name": "glider",
+  "category": "vehicles",
+  "tags": ["glider", "plane", "soaring", "wing", "sailplane", "flight"],
+  "svg": "<path class=\"d p1\" d=\"M2 12 L22 9.5 L22 11 L2 13.5 Z\"/><path class=\"p2\" d=\"M12 11 V19 M9 19 H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "launch", "dur": 900, "delay": 800 }
+  ]
+}

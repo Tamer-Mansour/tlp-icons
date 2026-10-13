@@ -1,0 +1,11 @@
+{
+  "name": "document-lock",
+  "category": "files",
+  "tags": ["document", "lock", "secure", "private", "locked file"],
+  "svg": "<path class=\"p1\" d=\"M14 2H6v20h12V8l-6-6z\"/><rect class=\"d p2\" x=\"9\" y=\"13\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M11 13v-2a2 2 0 0 1 4 0v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

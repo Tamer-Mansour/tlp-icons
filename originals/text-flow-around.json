@@ -1,0 +1,11 @@
+{
+  "name": "text-flow-around",
+  "category": "text",
+  "tags": ["flow", "wrap", "around", "layout", "block", "text"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"9\" width=\"6\" height=\"7\"/><path class=\"p2\" d=\"M3 5h18M3 19h18\"/><path class=\"p3\" d=\"M3 10h2.5M18.5 10h2.5M3 13h2.5M18.5 13h2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "typeIn", "dur": 500, "delay": 800 }
+  ]
+}

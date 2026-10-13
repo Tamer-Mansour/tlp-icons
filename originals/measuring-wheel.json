@@ -1,0 +1,11 @@
+{
+  "name": "measuring-wheel",
+  "category": "tools",
+  "tags": ["measuring", "wheel", "distance", "handle", "survey", "counter"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"15\" r=\"5\"/><circle class=\"p2\" cx=\"9\" cy=\"15\" r=\"1\"/><path class=\"p3\" d=\"M13 11 L19 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hockey-goal",
+  "category": "sport",
+  "tags": ["hockey", "goal", "net", "rink", "ice", "score"],
+  "svg": "<path class=\"p1\" d=\"M4 19V6H20V19\"/><path class=\"p2\" d=\"M8 6V19M12 6V19M16 6V19\"/><line class=\"p3\" x1=\"2\" y1=\"21\" x2=\"22\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "accessible-parking",
+  "category": "vehicles",
+  "tags": ["parking", "accessible", "wheelchair", "sign", "disability", "access"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle class=\"f p3\" cx=\"11\" cy=\"7\" r=\"1.2\"/><path class=\"p2\" d=\"M10 10v4.5h4.5l1.5 3\"/><circle class=\"p2\" cx=\"10\" cy=\"16\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

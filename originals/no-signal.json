@@ -1,0 +1,10 @@
+{
+  "name": "no-signal",
+  "category": "communication",
+  "tags": ["no signal", "bars", "offline", "disconnected", "network", "antenna"],
+  "svg": "<path class=\"p1\" d=\"M5 19 V15 M10 19 V11 M15 19 V7\"/><line class=\"p2\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 600 }
+  ]
+}

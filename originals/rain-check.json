@@ -1,0 +1,11 @@
+{
+  "name": "rain-check",
+  "category": "weather",
+  "tags": ["rain", "check", "ticket", "stub", "postpone", "weather"],
+  "svg": "<path class=\"p1\" d=\"M3 8 H15 V10 A2 2 0 0 0 15 14 V16 H3 V14 A2 2 0 0 0 3 10 Z\"/><path class=\"p2\" d=\"M18 8 H21 V16 H18 Z\"/><path class=\"p3\" d=\"M19.5 3 L17.5 6 A2 2 0 0 0 21.5 6 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1200 }
+  ]
+}

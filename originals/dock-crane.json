@@ -1,0 +1,11 @@
+{
+  "name": "dock-crane",
+  "category": "vehicles",
+  "tags": ["crane", "dock", "port", "tower", "hook"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"7\" width=\"4\" height=\"14\"/><line class=\"p2\" x1=\"4\" y1=\"4\" x2=\"20\" y2=\"4\"/><line class=\"p3\" x1=\"18\" y1=\"4\" x2=\"18\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "18px 4px" }
+  ]
+}

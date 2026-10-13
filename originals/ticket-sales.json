@@ -1,0 +1,10 @@
+{
+  "name": "ticket-sales",
+  "category": "charts",
+  "tags": ["ticket", "sales", "stub", "events", "bars", "revenue"],
+  "svg": "<path class=\"d p1\" d=\"M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z\"/><path class=\"p2\" d=\"M8 15v-3M11 15v-5M14 15v-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600, "origin": "bottom" }
+  ]
+}

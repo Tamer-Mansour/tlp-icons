@@ -1,0 +1,10 @@
+{
+  "name": "bread-saw",
+  "category": "food",
+  "tags": ["bread", "saw", "serrated", "knife", "bakery", "blade"],
+  "svg": "<rect class=\"p2\" x=\"2.5\" y=\"9.5\" width=\"4\" height=\"6\" rx=\"2\"/><path class=\"d p1\" d=\"M8.5 9.5l2-2 2 2 2-2 2 2 2-2 2 2 1 1v5H8.5z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

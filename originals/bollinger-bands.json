@@ -1,0 +1,10 @@
+{
+  "name": "bollinger-bands",
+  "category": "charts",
+  "tags": ["bollinger", "bands", "volatility", "stock", "trading", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 12L7 9L11 14L15 10L21 13\"/><path class=\"p2\" d=\"M3 6Q7 4 12 6T21 6M3 18Q7 16 12 18T21 18\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

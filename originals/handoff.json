@@ -1,0 +1,11 @@
+{
+  "name": "handoff",
+  "category": "arrows",
+  "tags": ["handoff", "transfer", "pass", "exchange", "swap"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"5\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"10\" width=\"5\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M7.5 10Q11.5 2 15.5 10M13.5 8 15.5 10l-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 500 }
+  ]
+}

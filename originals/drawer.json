@@ -1,0 +1,11 @@
+{
+  "name": "drawer",
+  "category": "home",
+  "tags": ["drawer", "storage", "pull", "cabinet", "open", "box"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M5 10v9h14v-9\"/><path class=\"p3\" d=\"M10 7.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

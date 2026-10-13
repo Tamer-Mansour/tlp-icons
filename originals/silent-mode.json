@@ -1,0 +1,11 @@
+{
+  "name": "silent-mode",
+  "category": "notifications",
+  "tags": ["silent", "bell", "mute", "slash", "quiet", "notifications"],
+  "svg": "<path class=\"p1\" d=\"M6 15.5v-4.5a6 6 0 0 1 12 0v4.5l2 2H4Z\"/><path class=\"p2\" d=\"M10 20.5a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

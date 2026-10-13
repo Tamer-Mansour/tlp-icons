@@ -1,0 +1,11 @@
+{
+  "name": "generator",
+  "category": "devices",
+  "tags": ["generator", "power", "engine", "fuel", "backup", "electric"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"13\" height=\"9\" rx=\"1.5\"/><path class=\"p2\" d=\"M5 9V5H13V9\"/><path class=\"p3\" d=\"M18.5 13.5H21\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 800, "delay": 1100 }
+  ]
+}

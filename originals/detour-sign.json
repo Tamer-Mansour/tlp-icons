@@ -1,0 +1,11 @@
+{
+  "name": "detour-sign",
+  "category": "vehicles",
+  "tags": ["detour", "sign", "diamond", "arrow", "road", "route"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L21 12L12 21L3 12Z\"/><path class=\"p2\" d=\"M8.5 16V11.5Q8.5 9.5 10.5 9.5H14.5\"/><path class=\"p3\" d=\"M12.5 7.5L14.5 9.5L12.5 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

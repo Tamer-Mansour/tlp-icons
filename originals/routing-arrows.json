@@ -1,0 +1,11 @@
+{
+  "name": "routing-arrows",
+  "category": "connectivity",
+  "tags": ["routing", "arrows", "split", "branch", "route", "path", "direction"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M8 11 18 5M14 5h4v4\"/><path class=\"p3\" d=\"M8 13l10 6M18 15v4h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

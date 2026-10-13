@@ -1,0 +1,12 @@
+{
+  "name": "security-question",
+  "category": "people",
+  "tags": ["security", "question", "help", "ask", "chat", "person", "verify"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"8.5\" r=\"3.5\"/><path class=\"p3\" d=\"M2.5 21v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v1\"/><rect class=\"d p2\" x=\"13.5\" y=\"2.5\" width=\"8\" height=\"7\" rx=\"2\"/><path class=\"p4\" d=\"M15.8 5.8a1.7 1.7 0 1 1 2.4 1.5c-.5.3-.7.7-.7 1.2\"/><circle class=\"f p4\" cx=\"17\" cy=\"10.5\" r=\".8\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "antibody-shape",
+  "category": "science",
+  "tags": ["antibody", "immune", "protein", "y-shape", "biology"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-8L6 6M12 13l6-7\"/><circle class=\"d p2\" cx=\"6\" cy=\"5\" r=\"2\"/><circle class=\"d p2\" cx=\"18\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

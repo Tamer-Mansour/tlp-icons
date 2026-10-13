@@ -1,0 +1,11 @@
+{
+  "name": "bean-sprout",
+  "category": "food",
+  "tags": ["sprout", "bean", "seedling", "vegetable", "leaves"],
+  "svg": "<path class=\"p1\" d=\"M12 21 V11\"/><path class=\"d p2\" d=\"M12 11 Q6 11 6 5 Q12 5 12 11 Z\"/><path class=\"d p3\" d=\"M12 11 Q18 11 18 5 Q12 5 12 11 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 11px" }
+  ]
+}

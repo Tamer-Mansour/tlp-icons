@@ -1,0 +1,11 @@
+{
+  "name": "neighborhood-houses",
+  "category": "people",
+  "tags": ["neighborhood", "houses", "street", "homes", "community", "block"],
+  "svg": "<path class=\"d p1\" d=\"M2 20v-9l2.5-2.5L7 11v9z\"/><path class=\"d p2\" d=\"M9.5 20v-9l2.5-2.5 2.5 2.5v9z\"/><path class=\"p3\" d=\"M17 20v-9l2.5-2.5L22 11v9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 900 }
+  ]
+}

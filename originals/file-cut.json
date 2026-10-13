@@ -1,0 +1,11 @@
+{
+  "name": "file-cut",
+  "category": "files",
+  "tags": ["cut", "scissors", "trim", "snip", "edit", "clip"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><line class=\"p2\" x1=\"10\" y1=\"16.5\" x2=\"16\" y2=\"11\"/><line class=\"p2\" x1=\"14\" y1=\"16.5\" x2=\"8\" y2=\"11\"/><circle class=\"p3\" cx=\"9\" cy=\"18\" r=\"1.5\"/><circle class=\"p3\" cx=\"15\" cy=\"18\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

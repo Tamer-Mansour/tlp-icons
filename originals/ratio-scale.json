@@ -1,0 +1,11 @@
+{
+  "name": "ratio-scale",
+  "category": "charts",
+  "tags": ["scale", "balance", "ratio", "compare", "weigh", "measure"],
+  "svg": "<path class=\"p1\" d=\"M12 4 V20 M8 20 H16\"/><line class=\"p1\" x1=\"4\" y1=\"7\" x2=\"20\" y2=\"7\"/><path class=\"p2\" d=\"M4 7 L2 13 M4 7 L6 13\"/><path class=\"d p2\" d=\"M2 13 H6 Q6 16.5 4 16.5 Q2 16.5 2 13 Z\"/><path class=\"p3\" d=\"M20 7 L18 13 M20 7 L22 13\"/><path class=\"d p3\" d=\"M18 13 H22 Q22 16.5 20 16.5 Q18 16.5 18 13 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 900, "delay": 1100 }
+  ]
+}

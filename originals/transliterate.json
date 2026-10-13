@@ -1,0 +1,11 @@
+{
+  "name": "transliterate",
+  "category": "text",
+  "tags": ["transliterate", "script", "convert", "letter", "language", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M2.5 19L6 6l3.5 13M4 14h4\"/><path class=\"p2\" d=\"M11.5 12h4M13.5 10l2 2-2 2\"/><circle class=\"p3\" cx=\"20\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

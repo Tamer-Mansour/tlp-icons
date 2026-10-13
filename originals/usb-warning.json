@@ -1,0 +1,10 @@
+{
+  "name": "usb-warning",
+  "category": "security",
+  "tags": ["usb", "warning", "device", "alert", "risk", "port"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"10\" height=\"8\" rx=\"1.5\"/><line class=\"p1\" x1=\"13\" y1=\"9.5\" x2=\"16\" y2=\"9.5\"/><polygon class=\"p2\" points=\"17,13 21.5,21 12.5,21\"/><line class=\"p2\" x1=\"17\" y1=\"16\" x2=\"17\" y2=\"18.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 700 }
+  ]
+}

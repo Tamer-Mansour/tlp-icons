@@ -1,0 +1,11 @@
+{
+  "name": "snowshoe",
+  "category": "sport",
+  "tags": ["snowshoe", "snow", "winter", "hiking", "lattice", "frame"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"7\" ry=\"10\"/><path class=\"p2\" d=\"M6.5 9H17.5M6.5 15H17.5\"/><path class=\"p3\" d=\"M12 4.5V19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

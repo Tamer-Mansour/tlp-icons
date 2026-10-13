@@ -1,0 +1,11 @@
+{
+  "name": "file-config",
+  "category": "files",
+  "tags": ["config", "settings", "gear", "options", "preferences"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M7 9.5h4M7 13.5h3\"/><circle class=\"p3\" cx=\"15\" cy=\"15\" r=\"2\"/><path class=\"p3\" d=\"M15 11v1.5M15 17.5V19M11 15h1.5M17.5 15H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1200 }
+  ]
+}

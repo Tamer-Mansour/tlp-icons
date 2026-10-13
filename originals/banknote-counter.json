@@ -1,0 +1,11 @@
+{
+  "name": "banknote-counter",
+  "category": "devices",
+  "tags": ["banknote", "counter", "cash", "money", "bills", "count"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"12\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"p3\" x=\"18\" y=\"8\" width=\"4\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "emergency-exit",
+  "category": "vehicles",
+  "tags": ["exit", "emergency", "door", "escape", "running"],
+  "svg": "<polyline class=\"p1\" points=\"10 4 4 4 4 20 10 20\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"20\" y2=\"12\"/><polyline class=\"p3\" points=\"16 8 20 12 16 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

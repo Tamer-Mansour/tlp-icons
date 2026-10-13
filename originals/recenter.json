@@ -1,0 +1,10 @@
+{
+  "name": "recenter",
+  "category": "layout",
+  "tags": ["recenter", "target", "crosshair", "center", "locate", "focus"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p1\" d=\"M12 2V4M12 20V22M2 12H4M20 12H22\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "patch-panel",
+  "category": "connectivity",
+  "tags": ["patch", "panel", "ports", "network rack", "cable", "switch"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"9\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"7\" width=\"2\" height=\"2\"/><rect class=\"p2\" x=\"10\" y=\"7\" width=\"2\" height=\"2\"/><rect class=\"p2\" x=\"14\" y=\"7\" width=\"2\" height=\"2\"/><rect class=\"p2\" x=\"18\" y=\"7\" width=\"2\" height=\"2\"/><path class=\"p3\" d=\"M7 13V19H17V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1100 }
+  ]
+}

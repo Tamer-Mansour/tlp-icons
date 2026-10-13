@@ -1,0 +1,11 @@
+{
+  "name": "smelter",
+  "category": "buildings",
+  "tags": ["smelter", "furnace", "flame", "chimney", "metal", "foundry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"11\"/><path class=\"p2\" d=\"M15 10 V4 H18 V10\"/><path class=\"p3\" d=\"M12 19 Q9 16 12 12 Q15 16 12 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 1200, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "seaweed",
+  "category": "food",
+  "tags": ["seaweed", "kelp", "sea", "algae", "nori", "ocean"],
+  "svg": "<path class=\"p1\" d=\"M12 21V3\"/><path class=\"d p2\" d=\"M12 15c-3.5 0-5.5-2-5.5-5.5 3.5 0 5.5 2 5.5 5.5z\"/><path class=\"d p3\" d=\"M12 11c3.5 0 5.5-2 5.5-5.5-3.5 0-5.5 2-5.5 5.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 700, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 1000, "origin": "bottom" }
+  ]
+}

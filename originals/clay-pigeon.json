@@ -1,0 +1,10 @@
+{
+  "name": "clay-pigeon",
+  "category": "sport",
+  "tags": ["clay pigeon", "target", "shooting", "disc", "trap"],
+  "svg": "<path class=\"p2\" d=\"M3 18Q7 10 11 9\"/><ellipse class=\"d p1\" cx=\"16\" cy=\"7\" rx=\"5\" ry=\"2\" transform=\"rotate(-25 16 7)\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 600, "origin": "16px 7px" }
+  ]
+}

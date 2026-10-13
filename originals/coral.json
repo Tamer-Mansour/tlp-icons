@@ -1,0 +1,11 @@
+{
+  "name": "coral",
+  "category": "nature",
+  "tags": ["reef", "ocean", "sea", "branch", "underwater"],
+  "svg": "<path class=\"p1\" d=\"M12 21V13\"/><path class=\"p2\" d=\"M12 13C12 9 7 9 7 5M12 13C12 9 17 9 17 5\"/><line class=\"p3\" x1=\"6\" y1=\"21\" x2=\"18\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 1100 }
+  ]
+}

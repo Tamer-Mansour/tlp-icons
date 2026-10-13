@@ -1,0 +1,12 @@
+{
+  "name": "traffic-report",
+  "category": "vehicles",
+  "tags": ["traffic", "report", "clipboard", "road", "car"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"18\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"3\"/><line class=\"p3\" x1=\"7\" y1=\"9\" x2=\"12\" y2=\"9\"/><line class=\"p3\" x1=\"7\" y1=\"13\" x2=\"12\" y2=\"13\"/><line class=\"p3\" x1=\"7\" y1=\"17\" x2=\"12\" y2=\"17\"/><rect class=\"p4\" x=\"14\" y=\"11\" width=\"5\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "drive", "dur": 1000, "delay": 1100 }
+  ]
+}

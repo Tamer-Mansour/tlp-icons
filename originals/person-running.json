@@ -1,0 +1,11 @@
+{
+  "name": "person-running",
+  "category": "people",
+  "tags": ["person", "running", "jog", "sprint", "exercise"],
+  "svg": "<circle class=\"p1\" cx=\"14\" cy=\"4\" r=\"2\"/><path class=\"p1\" d=\"M12.5 8.5l-2 6\"/><path class=\"p2\" d=\"M12.2 10l3-2.5M12.2 10.5l-3 1.5\"/><path class=\"p3\" d=\"M10.5 14.5l3 2.5 2 2.5M10.5 14.5l-3 1.5-2.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 800, "origin": "12px 10px" },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 1300 }
+  ]
+}

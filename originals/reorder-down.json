@@ -1,0 +1,10 @@
+{
+  "name": "reorder-down",
+  "category": "interface",
+  "tags": ["reorder", "move down", "sort", "list", "arrange", "priority"],
+  "svg": "<path class=\"p1\" d=\"M11 6.5h9M11 12h9M11 17.5h9\"/><path class=\"p2\" d=\"M5.5 4.5v13M2.5 14.5l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 700 }
+  ]
+}

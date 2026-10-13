@@ -1,0 +1,10 @@
+{
+  "name": "rewind-button",
+  "category": "interface",
+  "tags": ["rewind", "back", "media", "previous", "triangles", "player"],
+  "svg": "<polygon class=\"d p1\" points=\"10.5 7 3.5 12 10.5 17\"/><polygon class=\"d p2\" points=\"20.5 7 13.5 12 20.5 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 600 }
+  ]
+}

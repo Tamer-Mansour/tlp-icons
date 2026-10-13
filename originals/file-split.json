@@ -1,0 +1,11 @@
+{
+  "name": "file-split",
+  "category": "files",
+  "tags": ["split", "fork", "divide", "separate", "pages", "branch"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"p2\" d=\"M12 8v3M12 11l-3.5 3.5M12 11l3.5 3.5\"/><circle class=\"f p3\" cx=\"8.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"15.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

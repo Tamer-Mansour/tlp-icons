@@ -1,0 +1,10 @@
+{
+  "name": "air-hose",
+  "category": "tools",
+  "tags": ["air", "hose", "coiled", "nozzle", "compressor", "pneumatic"],
+  "svg": "<path class=\"p1\" d=\"M3 5 H9 A3 3 0 0 1 9 11 H5 A3 3 0 0 0 5 17 H13\"/><rect class=\"d p2\" x=\"13\" y=\"15\" width=\"8\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

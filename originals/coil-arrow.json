@@ -1,0 +1,10 @@
+{
+  "name": "coil-arrow",
+  "category": "arrows",
+  "tags": ["coil", "loop", "spring", "stack", "repeat", "wind"],
+  "svg": "<path class=\"p1\" d=\"M16 5H8a2.5 2.5 0 0 0 0 5h8a2.5 2.5 0 0 1 0 5H9\"/><path class=\"p2\" d=\"M12 12l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

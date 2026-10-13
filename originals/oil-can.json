@@ -1,0 +1,11 @@
+{
+  "name": "oil-can",
+  "category": "vehicles",
+  "tags": ["oil", "can", "oiler", "lubricate", "maintenance"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"10\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M6 10V6h6v4\"/><polyline class=\"p2\" points=\"14,15 19,10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pour", "dur": 900, "delay": 1000, "origin": "left" }
+  ]
+}

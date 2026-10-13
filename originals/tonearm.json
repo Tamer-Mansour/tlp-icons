@@ -1,0 +1,10 @@
+{
+  "name": "tonearm",
+  "category": "media",
+  "tags": ["tonearm", "turntable", "needle", "pivot", "record", "player"],
+  "svg": "<circle class=\"d p1\" cx=\"18\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M17 6.5L10 15\"/><rect class=\"p2\" x=\"7\" y=\"15\" width=\"4\" height=\"3\" rx=\"0.5\" transform=\"rotate(-35 9 16.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 600, "origin": "18px 5px" }
+  ]
+}

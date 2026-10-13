@@ -1,0 +1,12 @@
+{
+  "name": "wheel-loader",
+  "category": "vehicles",
+  "tags": ["loader", "bucket", "construction", "wheel", "machine", "digger"],
+  "svg": "<path class=\"d p1\" d=\"M2 8h7l2 4H2z\"/><rect class=\"d p2\" x=\"13\" y=\"7\" width=\"8\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M11 10L15 6\"/><circle class=\"p4\" cx=\"7\" cy=\"18\" r=\"2.5\"/><circle class=\"p4\" cx=\"17\" cy=\"18\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

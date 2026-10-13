@@ -1,0 +1,10 @@
+{
+  "name": "return-arrow-back",
+  "category": "arrows",
+  "tags": ["return", "back", "loop", "reply", "previous", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M4 9h10.5a5.5 5.5 0 0 1 0 11H10\"/><path class=\"p2\" d=\"M9 4l-5 5 5 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 1000 }
+  ]
+}

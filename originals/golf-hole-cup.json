@@ -1,0 +1,11 @@
+{
+  "name": "golf-hole-cup",
+  "category": "sport",
+  "tags": ["golf", "hole", "cup", "flag", "putting", "green"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"18\" rx=\"8\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 3v10\"/><path class=\"d p3\" d=\"M12 3l5 2-5 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 1100 }
+  ]
+}

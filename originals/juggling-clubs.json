@@ -1,0 +1,10 @@
+{
+  "name": "juggling-clubs",
+  "category": "sport",
+  "tags": ["juggling", "clubs", "circus", "pins", "toss", "act"],
+  "svg": "<path class=\"p1\" d=\"M4 20L9 8.5M20 20L15 8.5\"/><circle class=\"d p2\" cx=\"9\" cy=\"6\" r=\"2.5\"/><circle class=\"d p2\" cx=\"15\" cy=\"6\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 }
+  ]
+}

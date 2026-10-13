@@ -1,0 +1,10 @@
+{
+  "name": "sun-glare",
+  "category": "weather",
+  "tags": ["sun", "glare", "bright", "burst", "light"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"4\"/><path class=\"p2\" d=\"M18 4L16 6M21 10H18M14 2V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 1000, "delay": 500 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "elephant",
+  "category": "nature",
+  "tags": ["animal", "big", "trunk", "safari", "memory"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"5\"/><path class=\"p2\" d=\"M7.5 6.5C4 5 2.5 9 3.5 12c.5 1.5 2.5 2 4 1M16.5 6.5C20 5 21.5 9 20.5 12c-.5 1.5-2.5 2-4 1\"/><path class=\"p3\" d=\"M12 14v4.5a2.5 2.5 0 0 1-5 0\"/><circle class=\"f p4\" cx=\"10\" cy=\"8\" r=\"0.9\"/><circle class=\"f p4\" cx=\"14\" cy=\"8\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1000 },
+    { "part": "p3", "anim": "swing", "dur": 1100, "delay": 1300, "origin": "12px 14px" }
+  ]
+}

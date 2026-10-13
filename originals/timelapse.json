@@ -1,0 +1,11 @@
+{
+  "name": "timelapse",
+  "category": "photography",
+  "tags": ["timelapse", "time lapse", "clock", "video", "frames"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"5\" width=\"9\" height=\"10\" rx=\"1\"/><circle class=\"p2\" cx=\"17.5\" cy=\"16\" r=\"4\"/><path class=\"p3\" d=\"M17.5 14v2.5h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "17.5px 16px" }
+  ]
+}

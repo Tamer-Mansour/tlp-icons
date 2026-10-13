@@ -1,0 +1,11 @@
+{
+  "name": "tornado-siren",
+  "category": "weather",
+  "tags": ["siren", "tornado", "alarm", "warning", "horn", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M5 9.5h4l6-4v12l-6-4H5z\"/><path class=\"p2\" d=\"M10 15v6M7 21h6\"/><path class=\"p3\" d=\"M19.5 8.5a4 4 0 0 1 0 5M21.5 6a7 7 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

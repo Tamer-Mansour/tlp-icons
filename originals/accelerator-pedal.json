@@ -1,0 +1,10 @@
+{
+  "name": "accelerator-pedal",
+  "category": "vehicles",
+  "tags": ["accelerator", "gas", "pedal", "throttle", "foot"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h8v12q0 3-3 3H7q-3 0-3-3z\"/><path class=\"p2\" d=\"M19 3v9M16.5 9.5L19 12l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

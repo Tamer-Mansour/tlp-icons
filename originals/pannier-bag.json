@@ -1,0 +1,10 @@
+{
+  "name": "pannier-bag",
+  "category": "vehicles",
+  "tags": ["pannier", "bag", "bike", "bicycle", "rack", "luggage"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><path class=\"p1\" d=\"M7 6 V9 M17 6 V9\"/><rect class=\"d p2\" x=\"6\" y=\"9\" width=\"12\" height=\"10\" rx=\"2\"/><line class=\"p2\" x1=\"6\" y1=\"13\" x2=\"18\" y2=\"13\"/><circle class=\"f p2\" cx=\"12\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1400, "delay": 600, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cube-corner",
+  "category": "shapes",
+  "tags": ["cube", "corner", "vertex", "edges", "isometric", "solid"],
+  "svg": "<path class=\"p1\" d=\"M4 8L12 12L20 8\"/><path class=\"p2\" d=\"M12 12V21\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

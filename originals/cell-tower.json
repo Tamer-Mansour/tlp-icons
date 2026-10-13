@@ -1,0 +1,11 @@
+{
+  "name": "cell-tower",
+  "category": "buildings",
+  "tags": ["cell", "tower", "signal", "antenna", "radio", "mast"],
+  "svg": "<path class=\"p1\" d=\"M8 21l4-13 4 13M9.5 15h5\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1\"/><path class=\"p3\" d=\"M5 5a9 9 0 0 0 0 6M19 5a9 9 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

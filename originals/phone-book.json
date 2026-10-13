@@ -1,0 +1,10 @@
+{
+  "name": "phone-book",
+  "category": "files",
+  "tags": ["phone", "book", "contacts", "directory", "address"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M8.5 3v18\"/><path class=\"p2\" d=\"M11 8.5l1.5-1 1 2.5-1 1q1 2 3 3l1-1 2.5 1-1 1.5q-.5 1-2 1-5-.5-7-5.5-.5-2 .5-2.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 600, "delay": 900 }
+  ]
+}

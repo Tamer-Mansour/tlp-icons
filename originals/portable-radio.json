@@ -1,0 +1,12 @@
+{
+  "name": "portable-radio",
+  "category": "devices",
+  "tags": ["radio", "portable", "music", "speaker", "dial", "fm"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M8 7V4.5H16V7\"/><circle class=\"d p3\" cx=\"8\" cy=\"13.5\" r=\"2.5\"/><path class=\"p4\" d=\"M13 11.5H18M13 15.5H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "8px 13.5px" }
+  ]
+}

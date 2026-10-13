@@ -1,0 +1,11 @@
+{
+  "name": "vr-headset",
+  "category": "devices",
+  "tags": ["vr", "headset", "virtual", "reality", "goggles", "visor"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"11\" rx=\"3\"/><circle class=\"p2\" cx=\"8\" cy=\"12.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"16\" cy=\"12.5\" r=\"2.5\"/><path class=\"p3\" d=\"M4 6c0-2 3-3 8-3s8 1 8 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 900 }
+  ]
+}

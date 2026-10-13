@@ -1,0 +1,10 @@
+{
+  "name": "pull-in",
+  "category": "arrows",
+  "tags": ["pull", "inward", "center", "gather", "focus"],
+  "svg": "<path class=\"p1\" d=\"M9 9 L3 3 M3 8 V3 H8 M15 9 L21 3 M16 3 H21 V8 M9 15 L3 21 M3 16 V21 H8 M15 15 L21 21 M16 21 H21 V16\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

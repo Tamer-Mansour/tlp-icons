@@ -1,0 +1,11 @@
+{
+  "name": "metal-detector-gate",
+  "category": "buildings",
+  "tags": ["metal", "detector", "gate", "security", "airport", "scanner"],
+  "svg": "<path class=\"p1\" d=\"M6 21V9a6 6 0 0 1 12 0v12\"/><line class=\"p2\" x1=\"6\" y1=\"14\" x2=\"18\" y2=\"14\"/><circle class=\"f p3\" cx=\"12\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

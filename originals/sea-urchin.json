@@ -1,0 +1,11 @@
+{
+  "name": "sea-urchin",
+  "category": "nature",
+  "tags": ["sea", "spiky", "ocean", "reef", "marine"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"5\"/><path class=\"p2\" d=\"M12 6.5 V4 M12 19.5 V22 M5 13 H2.5 M19 13 H21.5 M16.6 8.4 L18.4 6.6 M7.4 8.4 L5.6 6.6 M16.6 17.6 L18.4 19.4 M7.4 17.6 L5.6 19.4\"/><circle class=\"f p3\" cx=\"10\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

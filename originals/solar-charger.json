@@ -1,0 +1,11 @@
+{
+  "name": "solar-charger",
+  "category": "devices",
+  "tags": ["solar", "charger", "panel", "energy", "sun", "battery"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"13\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M8.5 7v10M2 12h13\"/><path class=\"p3\" d=\"M20 3l-3 4.5h4L18 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1100 }
+  ]
+}

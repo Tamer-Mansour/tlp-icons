@@ -1,0 +1,11 @@
+{
+  "name": "mobility-walker",
+  "category": "people",
+  "tags": ["mobility", "walker", "frame", "support", "care", "walking"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"2\" rx=\"1\"/><path class=\"p2\" d=\"M4 6v14M20 6v14M8 6v14M16 6v14\"/><path class=\"p3\" d=\"M2.5 20h3M17.5 20h3M7 20h2M15 20h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

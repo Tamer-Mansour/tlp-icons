@@ -1,0 +1,11 @@
+{
+  "name": "radar-dish",
+  "category": "weather",
+  "tags": ["radar", "dish", "sweep", "antenna", "scan", "detect"],
+  "svg": "<path class=\"p1\" d=\"M4 10a8 8 0 0 0 16 0\"/><path class=\"p2\" d=\"M12 18v2.5M8.5 20.5h7\"/><path class=\"p3\" d=\"M12 10l5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "12px 10px" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "chinchilla",
+  "category": "nature",
+  "tags": ["chinchilla", "rodent", "fur", "ears", "tail", "pet"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"14\" rx=\"6\" ry=\"4\"/><circle class=\"p2\" cx=\"17\" cy=\"11\" r=\"3\"/><path class=\"p2\" d=\"M16 8 Q15 3 18 3 Q19 5 18.5 8\"/><path class=\"p3\" d=\"M5 13 Q2 11 3 8 Q5 9 6 11\"/><path class=\"p4\" d=\"M8 17.5 V20.5 M13 17.5 V20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 1300, "origin": "5px 13px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "grocery-bag",
+  "category": "home",
+  "tags": ["grocery", "bag", "tote", "shopping", "groceries", "market"],
+  "svg": "<path class=\"d p1\" d=\"M5 8h14l1 13H4z\"/><path class=\"p2\" d=\"M7 8V5a2 2 0 0 1 4 0v3M13 8V5a2 2 0 0 1 4 0v3\"/><path class=\"p3\" d=\"M10 16c0-2 2-3.5 4-3.5 0 2-2 3.5-4 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900, "origin": "bottom" }
+  ]
+}

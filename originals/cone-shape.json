@@ -1,0 +1,10 @@
+{
+  "name": "cone-shape",
+  "category": "science",
+  "tags": ["cone", "geometry", "triangle", "shape", "apex", "volume"],
+  "svg": "<path class=\"p1\" d=\"M12 3L19.5 17.5M12 3L4.5 17.5\"/><ellipse class=\"p2\" cx=\"12\" cy=\"17.5\" rx=\"7.5\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

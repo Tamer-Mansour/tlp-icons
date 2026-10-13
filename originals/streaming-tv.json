@@ -1,0 +1,11 @@
+{
+  "name": "streaming-tv",
+  "category": "media",
+  "tags": ["streaming", "tv", "play", "video", "watch"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h18v12H3z\"/><path class=\"p2\" d=\"M10 9.5l4.5 2.5-4.5 2.5z\"/><path class=\"p3\" d=\"M9 2.5l3 2.5 3-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

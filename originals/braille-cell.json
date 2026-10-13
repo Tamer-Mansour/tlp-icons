@@ -1,0 +1,10 @@
+{
+  "name": "braille-cell",
+  "category": "communication",
+  "tags": ["braille", "cell", "dots", "reading", "blind", "accessibility"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"3\"/><circle class=\"f p2\" cx=\"9\" cy=\"8\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"8\" r=\"1.1\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1.1\"/><circle class=\"f p2\" cx=\"9\" cy=\"16\" r=\"1.1\"/><circle class=\"f p2\" cx=\"15\" cy=\"16\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 600 }
+  ]
+}

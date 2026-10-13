@@ -1,0 +1,11 @@
+{
+  "name": "fuel-can",
+  "category": "vehicles",
+  "tags": ["fuel", "can", "jerry can", "spare", "gas"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"12\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M9 8V5.5h6V8\"/><path class=\"p3\" d=\"M17 8l2.5-2.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pour", "dur": 800, "delay": 700 }
+  ]
+}

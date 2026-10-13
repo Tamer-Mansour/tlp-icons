@@ -1,0 +1,11 @@
+{
+  "name": "name-badge-clip",
+  "category": "people",
+  "tags": ["badge", "name tag", "id", "clip", "visitor"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1000, "origin": "top" }
+  ]
+}

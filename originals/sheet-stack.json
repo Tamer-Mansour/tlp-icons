@@ -1,0 +1,11 @@
+{
+  "name": "sheet-stack",
+  "category": "layout",
+  "tags": ["sheet", "stack", "paper", "pages", "documents", "pile", "layers"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"11\" height=\"13\" rx=\"1\"/><rect class=\"p2\" x=\"5\" y=\"6\" width=\"11\" height=\"13\" rx=\"1\"/><rect class=\"d p3\" x=\"2\" y=\"9\" width=\"11\" height=\"13\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "call-stack",
+  "category": "development",
+  "tags": ["call", "stack", "frames", "function", "debug"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"7\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"11\" y=\"15\" width=\"7\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

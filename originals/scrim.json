@@ -1,0 +1,11 @@
+{
+  "name": "scrim",
+  "category": "photography",
+  "tags": ["scrim", "diffuser", "light", "studio", "softbox", "photo"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"d p2\" d=\"M6 6h12v12H6z\"/><line class=\"p3\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

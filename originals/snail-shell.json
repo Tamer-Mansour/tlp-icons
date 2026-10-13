@@ -1,0 +1,12 @@
+{
+  "name": "snail-shell",
+  "category": "science",
+  "tags": ["snail", "shell", "spiral", "mollusk", "antennae", "slow", "garden"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"11\" r=\"5\"/><path class=\"p2\" d=\"M9 11a2 2 0 0 1 2 2\"/><path class=\"p3\" d=\"M3 18h12.5a2 2 0 0 0 1.5-3\"/><path class=\"p4\" d=\"M17 15l2-5M19.5 15l1-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "wiggle", "dur": 700, "delay": 1200 }
+  ]
+}

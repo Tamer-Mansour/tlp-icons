@@ -1,0 +1,11 @@
+{
+  "name": "airflow",
+  "category": "weather",
+  "tags": ["airflow", "wind", "flow", "arrows", "air"],
+  "svg": "<path class=\"p1\" d=\"M3 4 C7 2 11 2 16 4 M14 2 L16 4 L14 6\"/><path class=\"p2\" d=\"M3 12 C7 10 11 10 16 12 M14 10 L16 12 L14 14\"/><path class=\"p3\" d=\"M3 20 C7 18 11 18 16 20 M14 18 L16 20 L14 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

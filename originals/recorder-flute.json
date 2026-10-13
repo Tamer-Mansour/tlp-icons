@@ -1,0 +1,11 @@
+{
+  "name": "recorder-flute",
+  "category": "media",
+  "tags": ["recorder", "flute", "beak", "tube", "wind"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"18\" height=\"4\" rx=\"2\"/><path class=\"p2\" d=\"M4 10L2 12L4 14\"/><circle class=\"f p3\" cx=\"10\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

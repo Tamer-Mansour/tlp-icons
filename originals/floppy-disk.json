@@ -1,0 +1,11 @@
+{
+  "name": "floppy-disk",
+  "category": "devices",
+  "tags": ["floppy", "disk", "save", "storage", "retro", "shutter"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h13l4 4v12a2 2 0 0 1-2 2H4z\"/><rect class=\"p2\" x=\"8\" y=\"3\" width=\"7\" height=\"5\"/><rect class=\"p3\" x=\"7\" y=\"13\" width=\"10\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sine-triangle",
+  "category": "math",
+  "tags": ["sine", "triangle", "angle", "trigonometry", "right", "math"],
+  "svg": "<path class=\"d p1\" d=\"M3 19H21V5Z\"/><path class=\"p2\" d=\"M7 19A4 4 0 0 0 6.2 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

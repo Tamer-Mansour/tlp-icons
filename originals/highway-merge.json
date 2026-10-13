@@ -1,0 +1,10 @@
+{
+  "name": "highway-merge",
+  "category": "arrows",
+  "tags": ["highway", "merge", "lane", "road", "join"],
+  "svg": "<path class=\"p1\" d=\"M3 7 H14\"/><path class=\"p2\" d=\"M3 17 H9 L14 7 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cat-scratcher",
+  "category": "nature",
+  "tags": ["cat", "scratcher", "post", "rope", "pet", "furniture"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"8\" height=\"15\" rx=\"1\"/><rect class=\"d p2\" x=\"4\" y=\"18\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"p3\" d=\"M8 7h8M8 10.5h8M8 14h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

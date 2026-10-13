@@ -1,0 +1,11 @@
+{
+  "name": "scroll-horizontal",
+  "category": "arrows",
+  "tags": ["scroll", "horizontal", "track", "left right", "slider", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M7 12h10\"/><path class=\"p2\" d=\"M5 9 2 12l3 3\"/><path class=\"p3\" d=\"M19 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

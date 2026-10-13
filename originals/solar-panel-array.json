@@ -1,0 +1,11 @@
+{
+  "name": "solar-panel-array",
+  "category": "buildings",
+  "tags": ["solar panel", "solar array", "solar energy", "renewable", "sun", "power"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"8\" height=\"6\" transform=\"rotate(-15 7 14)\"/><rect class=\"d p2\" x=\"13\" y=\"11\" width=\"8\" height=\"6\" transform=\"rotate(-15 17 14)\"/><path class=\"p3\" d=\"M5 4l1 1M12 2v2M19 4l-1 1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "captcha-puzzle",
+  "category": "security",
+  "tags": ["captcha", "puzzle", "verify", "bot", "human", "check"],
+  "svg": "<path class=\"d p1\" d=\"M4 4H7A2 2 0 0 1 11 4H14V7A2 2 0 0 1 14 11V14H11A2 2 0 0 1 7 14H4Z\"/><path class=\"p2\" d=\"M15 18L17.5 20.5L21 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

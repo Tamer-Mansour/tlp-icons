@@ -1,0 +1,10 @@
+{
+  "name": "rice-paddle",
+  "category": "food",
+  "tags": ["rice", "paddle", "spoon", "kitchen", "serve"],
+  "svg": "<ellipse class=\"d p1\" cx=\"9\" cy=\"9\" rx=\"6\" ry=\"4\" transform=\"rotate(-45 9 9)\"/><path class=\"p2\" d=\"M13 13 L20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

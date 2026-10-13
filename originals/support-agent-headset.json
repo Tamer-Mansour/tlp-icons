@@ -1,0 +1,12 @@
+{
+  "name": "support-agent-headset",
+  "category": "people",
+  "tags": ["support", "agent", "headset", "help", "customer", "service"],
+  "svg": "<path class=\"p1\" d=\"M6 10a6 6 0 0 1 12 0\"/><rect class=\"p2\" x=\"4.5\" y=\"10\" width=\"3\" height=\"4.5\" rx=\"1.2\"/><rect class=\"p2\" x=\"16.5\" y=\"10\" width=\"3\" height=\"4.5\" rx=\"1.2\"/><path class=\"p3\" d=\"M19 14.5v1c0 1.2-.8 2-2 2h-2.5\"/><circle class=\"p4\" cx=\"12\" cy=\"11.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "breathe", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "convert-units",
+  "category": "math",
+  "tags": ["convert", "units", "measure", "arrow", "ruler"],
+  "svg": "<path class=\"p1\" d=\"M3 12 H21 M6 9 L3 12 L6 15 M18 9 L21 12 L18 15\"/><path class=\"p2\" d=\"M3 7 V17 M21 7 V17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

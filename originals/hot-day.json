@@ -1,0 +1,12 @@
+{
+  "name": "hot-day",
+  "category": "weather",
+  "tags": ["hot", "day", "heat", "sun", "thermometer", "temperature"],
+  "svg": "<circle class=\"d p1\" cx=\"16\" cy=\"9\" r=\"3\"/><path class=\"p2\" d=\"M5 14 V5 A2 2 0 0 1 9 5 V14 A3 3 0 1 1 5 14 Z\"/><path class=\"p3\" d=\"M7 14 V9\"/><path class=\"p4\" d=\"M16 2.5 V3.5 M21.5 9 H20.5 M20.4 4.6 L19.7 5.3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 700 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 1000 },
+    { "part": "p4", "anim": "flicker", "dur": 700, "delay": 1500 }
+  ]
+}

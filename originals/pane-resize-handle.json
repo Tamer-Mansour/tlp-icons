@@ -1,0 +1,11 @@
+{
+  "name": "pane-resize-handle",
+  "category": "layout",
+  "tags": ["pane", "resize", "handle", "panels", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"7\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"15\" y=\"3\" width=\"7\" height=\"18\" rx=\"2\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1000 }
+  ]
+}

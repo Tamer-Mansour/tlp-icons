@@ -1,0 +1,11 @@
+{
+  "name": "globe-signal",
+  "category": "connectivity",
+  "tags": ["globe", "signal", "broadcast", "satellite", "wave"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"2.5\"/><path class=\"p2\" d=\"M8.5 10.5A5 5 0 0 1 15.5 10.5\"/><path class=\"p3\" d=\"M4.5 7.5A9.9 9.9 0 0 1 19.5 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

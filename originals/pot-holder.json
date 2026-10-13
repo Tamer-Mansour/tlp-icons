@@ -1,0 +1,10 @@
+{
+  "name": "pot-holder",
+  "category": "home",
+  "tags": ["pot", "holder", "kitchen", "cook", "oven"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"14\" height=\"14\" rx=\"1.5\"/><circle class=\"p2\" cx=\"19\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "19px 3px" }
+  ]
+}

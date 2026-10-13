@@ -1,0 +1,10 @@
+{
+  "name": "fog-bank",
+  "category": "weather",
+  "tags": ["fog", "mist", "cloud", "haze", "low", "visibility"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 9.5a3.5 3.5 0 0 1 6.5-2 3.5 3.5 0 0 1 4.5 3.5H6.5z\"/><path class=\"p2\" d=\"M3 14.5h18M5 18h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 700 }
+  ]
+}

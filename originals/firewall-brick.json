@@ -1,0 +1,10 @@
+{
+  "name": "firewall-brick",
+  "category": "security",
+  "tags": ["firewall", "brick", "wall", "flame", "network", "protection", "barrier"],
+  "svg": "<path class=\"p1\" d=\"M3 11h18v10H3z\"/><path class=\"p1\" d=\"M3 15h18M9 11v4M15 15v6\"/><path class=\"d p2\" d=\"M12 2c1.6 1.8 2.5 3 2.5 4.2a2.5 2.5 0 0 1-5 0C9.5 5 10.4 3.8 12 2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 700 }
+  ]
+}

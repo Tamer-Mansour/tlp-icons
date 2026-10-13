@@ -1,0 +1,11 @@
+{
+  "name": "mail-open-check",
+  "category": "communication",
+  "tags": ["mail", "open", "check", "read", "envelope", "confirmed"],
+  "svg": "<path class=\"d p1\" d=\"M3 11L12 17L21 11V20H3Z\"/><path class=\"p2\" d=\"M3 11L12 4L21 11\"/><path class=\"p3\" d=\"M9 15L11 17L15 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "stamp", "dur": 500, "delay": 1100 }
+  ]
+}

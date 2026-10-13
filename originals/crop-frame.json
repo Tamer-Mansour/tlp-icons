@@ -1,0 +1,10 @@
+{
+  "name": "crop-frame",
+  "category": "layout",
+  "tags": ["crop", "frame", "handles", "trim", "image"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\"/><path class=\"p2\" d=\"M4 7h3M7 4v3M17 4v3M17 7h3M20 17h-3M17 20v-3M4 17h3M7 20v-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

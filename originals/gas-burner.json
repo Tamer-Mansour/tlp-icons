@@ -1,0 +1,10 @@
+{
+  "name": "gas-burner",
+  "category": "food",
+  "tags": ["burner", "gas", "flame", "stove", "fire", "cooking"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 3c-2 3-4 5-4 8a4 4 0 0 0 8 0c0-3-2-5-4-8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cutting-board",
+  "category": "food",
+  "tags": ["cutting", "board", "knife", "kitchen", "food"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"13\" height=\"12\" rx=\"3\"/><circle class=\"p2\" cx=\"7\" cy=\"14\" r=\"1.5\"/><path class=\"p3\" d=\"M18 4 Q21 6 21 11 V13 H18 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

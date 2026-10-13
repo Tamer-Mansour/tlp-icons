@@ -1,0 +1,11 @@
+{
+  "name": "font-size-down",
+  "category": "design",
+  "tags": ["font", "size", "smaller", "text", "scale", "typography"],
+  "svg": "<path class=\"p1\" d=\"M2 21l4-14 4 14M3.5 15h5\"/><path class=\"p2\" d=\"M15 20l1.5-4 1.5 4M15.6 18h1.8\"/><path class=\"p3\" d=\"M18 4v7M16 9l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1000 }
+  ]
+}

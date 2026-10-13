@@ -1,0 +1,11 @@
+{
+  "name": "person-typing",
+  "category": "people",
+  "tags": ["person", "typing", "keyboard", "work", "seated"],
+  "svg": "<circle class=\"p1\" cx=\"7.5\" cy=\"6\" r=\"3\"/><path class=\"p1\" d=\"M3 21v-2a4 4 0 0 1 4-4h1a4 4 0 0 1 4 4\"/><rect class=\"p2\" x=\"13\" y=\"15.5\" width=\"9\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 15.5l4 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bar-up-down",
+  "category": "arrows",
+  "tags": ["bar", "up", "down", "range", "change", "fluctuation"],
+  "svg": "<path class=\"p1\" d=\"M12 4.5v15\"/><path class=\"p2\" d=\"M8.5 8 12 4.5 15.5 8\"/><path class=\"p3\" d=\"M8.5 16 12 19.5 15.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sink", "dur": 500, "delay": 700 }
+  ]
+}

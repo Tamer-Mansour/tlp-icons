@@ -1,0 +1,11 @@
+{
+  "name": "pause-timer",
+  "category": "time",
+  "tags": ["timer", "pause", "stop", "wait", "countdown"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M10 2h4M12 2v3\"/><path class=\"p3\" d=\"M10 10v6M14 10v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

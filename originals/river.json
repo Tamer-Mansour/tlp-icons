@@ -1,0 +1,10 @@
+{
+  "name": "river",
+  "category": "nature",
+  "tags": ["river", "water", "stream", "flow", "channel"],
+  "svg": "<path class=\"p1\" d=\"M3 7c3-2 5 2 9 0s6-2 9 0\"/><path class=\"p2\" d=\"M3 17c3-2 5 2 9 0s6-2 9 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "whooshIn", "dur": 900, "delay": 500 }
+  ]
+}

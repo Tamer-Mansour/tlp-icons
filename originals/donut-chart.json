@@ -1,0 +1,11 @@
+{
+  "name": "donut-chart",
+  "category": "science",
+  "tags": ["donut", "chart", "ring", "share", "percent", "statistics"],
+  "svg": "<path class=\"d p1\" d=\"M12 3A9 9 0 0 1 21 12\"/><path class=\"p2\" d=\"M21 12A9 9 0 1 1 12 3\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

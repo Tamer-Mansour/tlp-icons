@@ -1,0 +1,10 @@
+{
+  "name": "picket-fence",
+  "category": "buildings",
+  "tags": ["picket", "fence", "yard", "garden", "boundary", "wood"],
+  "svg": "<path class=\"p1\" d=\"M3 20V9l2-3 2 3v11M9 20V9l2-3 2 3v11M15 20V9l2-3 2 3v11\"/><path class=\"p2\" d=\"M2 11h20M2 16h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "modem-dialup",
+  "category": "devices",
+  "tags": ["modem", "dialup", "phone", "signal", "internet"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"14\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M17 14h4V9\"/><path class=\"p3\" d=\"M7 10V6M11 10V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "moon-clock",
+  "category": "time",
+  "tags": ["moon", "clock", "night", "crescent", "hour", "time"],
+  "svg": "<path class=\"d p1\" d=\"M14 3a9 9 0 1 0 7 13 7 7 0 0 1-7-13z\"/><path class=\"p2\" d=\"M9 9v3l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "9px 12px" }
+  ]
+}

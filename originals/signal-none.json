@@ -1,0 +1,10 @@
+{
+  "name": "signal-none",
+  "category": "communication",
+  "tags": ["signal", "no signal", "bars", "offline", "reception", "empty"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"14\" width=\"3\" height=\"6\" rx=\".5\"/><rect class=\"p1\" x=\"9\" y=\"10\" width=\"3\" height=\"10\" rx=\".5\"/><rect class=\"p1\" x=\"14\" y=\"6\" width=\"3\" height=\"14\" rx=\".5\"/><circle class=\"f p2\" cx=\"19.5\" cy=\"18.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

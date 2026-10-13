@@ -1,0 +1,11 @@
+{
+  "name": "waiter-person-tray",
+  "category": "people",
+  "tags": ["waiter", "person", "tray", "serving", "restaurant", "service"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"7\" r=\"3.5\"/><path class=\"p2\" d=\"M1 21v-1a6 6 0 0 1 6-6h0a6 6 0 0 1 6 6v1\"/><path class=\"p3\" d=\"M15.5 19.5h6.5M15.5 19.5a3 3 0 0 1 6.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

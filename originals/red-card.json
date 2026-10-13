@@ -1,0 +1,10 @@
+{
+  "name": "red-card",
+  "category": "sport",
+  "tags": ["red", "card", "referee", "sending", "sport", "football"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "stampIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

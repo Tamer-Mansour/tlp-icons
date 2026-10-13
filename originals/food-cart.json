@@ -1,0 +1,11 @@
+{
+  "name": "food-cart",
+  "category": "food",
+  "tags": ["food", "cart", "vendor", "street", "canopy"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"9\" width=\"14\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M3 9L4 5H20L21 9Z\"/><circle class=\"p3\" cx=\"8\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"16\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drive", "dur": 800, "delay": 1100 }
+  ]
+}

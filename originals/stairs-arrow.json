@@ -1,0 +1,10 @@
+{
+  "name": "stairs-arrow",
+  "category": "arrows",
+  "tags": ["stairs", "climb", "steps", "progress", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 20H7V16H11V12H15V8H19V4\"/><path class=\"p2\" d=\"M4 9L9 4\"/><polyline class=\"p2\" points=\"4 4 9 4 9 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 700 }
+  ]
+}

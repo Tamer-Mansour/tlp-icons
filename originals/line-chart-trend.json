@@ -1,0 +1,11 @@
+{
+  "name": "line-chart-trend",
+  "category": "science",
+  "tags": ["line", "chart", "trend", "graph", "data", "analytics"],
+  "svg": "<polyline class=\"p1\" points=\"3 3 3 21 21 21\"/><polyline class=\"p2\" points=\"6 16 10 10 14 14 19 7\"/><polyline class=\"p3\" points=\"15 7 19 7 19 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1400 }
+  ]
+}

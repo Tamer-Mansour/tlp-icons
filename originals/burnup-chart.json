@@ -1,0 +1,11 @@
+{
+  "name": "burnup-chart",
+  "category": "charts",
+  "tags": ["burnup", "chart", "progress", "target", "agile", "sprint"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M5 17l4-4 3 2 7-7\"/><path class=\"p3\" d=\"M7 5h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1200 }
+  ]
+}

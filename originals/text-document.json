@@ -1,0 +1,11 @@
+{
+  "name": "text-document",
+  "category": "text",
+  "tags": ["document", "page", "heading", "text", "file"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v14H6z\"/><path class=\"p2\" d=\"M9 10h6\"/><path class=\"p3\" d=\"M9 14h6M9 17h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

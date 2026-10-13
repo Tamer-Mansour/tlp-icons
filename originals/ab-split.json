@@ -1,0 +1,11 @@
+{
+  "name": "ab-split",
+  "category": "development",
+  "tags": ["split", "ab", "test", "experiment", "branch", "fork"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"11\" y2=\"12\"/><polyline class=\"p2\" points=\"11,12 13,7 17,7\"/><polyline class=\"p2\" points=\"11,12 13,17 17,17\"/><rect class=\"p3\" x=\"17\" y=\"4\" width=\"4\" height=\"6\" rx=\"1\"/><rect class=\"p3\" x=\"17\" y=\"14\" width=\"4\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "window-cascade",
+  "category": "layout",
+  "tags": ["window", "cascade", "overlap", "stack", "layout"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"9\" width=\"12\" height=\"10\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 500 }
+  ]
+}

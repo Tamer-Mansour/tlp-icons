@@ -1,0 +1,11 @@
+{
+  "name": "restaurant-table",
+  "category": "food",
+  "tags": ["restaurant", "table", "dining", "plate", "chairs", "service"],
+  "svg": "<path class=\"p1\" d=\"M3 9h18\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"7.5\" rx=\"4\" ry=\"1.5\"/><path class=\"p3\" d=\"M5 9v12M19 9v12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 600, "delay": 900, "origin": "top" }
+  ]
+}

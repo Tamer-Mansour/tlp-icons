@@ -1,0 +1,10 @@
+{
+  "name": "curve-tracer",
+  "category": "devices",
+  "tags": ["curve", "tracer", "graph", "axis", "plot", "analysis"],
+  "svg": "<path class=\"p1\" d=\"M4 3V20H21\"/><path class=\"p2\" d=\"M7 17C9 17 9 7 12 7C15 7 15 17 18 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

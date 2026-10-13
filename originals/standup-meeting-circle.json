@@ -1,0 +1,10 @@
+{
+  "name": "standup-meeting-circle",
+  "category": "people",
+  "tags": ["standup", "meeting", "team", "circle", "daily", "group"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"1.5\"/><circle class=\"p1\" cx=\"19\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"12\" cy=\"19\" r=\"1.5\"/><circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"1.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

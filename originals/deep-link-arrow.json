@@ -1,0 +1,11 @@
+{
+  "name": "deep-link-arrow",
+  "category": "arrows",
+  "tags": ["link", "chain", "deep", "url", "connect"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"19\" r=\"1.6\"/><path class=\"p2\" d=\"M6.5 17.5 C12 17.5 11 6.5 16.5 6.5\"/><polyline class=\"p3\" points=\"13.5 3.5 16.5 6.5 13.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "pop", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "returns-arrow-loop",
+  "category": "arrows",
+  "tags": ["loop", "return", "back", "box", "cycle"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M13 7 H17 A4 4 0 0 1 17 15 H10 M12.5 12.5 L10 15 L12.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinHalf", "dur": 800, "delay": 500 }
+  ]
+}

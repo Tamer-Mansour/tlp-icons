@@ -1,0 +1,11 @@
+{
+  "name": "symbol-library",
+  "category": "design",
+  "tags": ["symbol", "library", "components", "grid", "design"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"6.5\" y=\"6.5\" width=\"4\" height=\"4\" rx=\"0.5\"/><circle class=\"p2\" cx=\"15.5\" cy=\"8.5\" r=\"2\"/><rect class=\"p3\" x=\"6.5\" y=\"13.5\" width=\"4\" height=\"4\" rx=\"0.5\"/><circle class=\"p3\" cx=\"15.5\" cy=\"15.5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "skid-plate",
+  "category": "vehicles",
+  "tags": ["skid", "plate", "underbody", "armor", "protection", "car"],
+  "svg": "<path class=\"d p1\" d=\"M4 12.5l2.5-4.5h11L20 12.5v2H4z\"/><rect class=\"d p2\" x=\"3\" y=\"17\" width=\"18\" height=\"2.5\" rx=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"18.25\" r=\"0.9\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.25\" r=\"0.9\"/><circle class=\"f p3\" cx=\"17\" cy=\"18.25\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

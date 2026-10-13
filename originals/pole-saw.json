@@ -1,0 +1,10 @@
+{
+  "name": "pole-saw",
+  "category": "tools",
+  "tags": ["pole", "saw", "tree", "trimming", "long"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"21\" x2=\"11\" y2=\"11\"/><polyline class=\"d p2\" points=\"11 11 15 6 20 6 18 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

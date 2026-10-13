@@ -1,0 +1,11 @@
+{
+  "name": "worksheet",
+  "category": "files",
+  "tags": ["worksheet", "exercise", "problems", "homework", "blanks"],
+  "svg": "<path class=\"p1\" d=\"M5 2h14v20H5z\"/><line class=\"p2\" x1=\"8\" y1=\"7\" x2=\"12\" y2=\"7\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"12\" y2=\"12\"/><line class=\"p2\" x1=\"8\" y1=\"17\" x2=\"12\" y2=\"17\"/><line class=\"p3\" x1=\"14\" y1=\"7\" x2=\"17\" y2=\"7\"/><line class=\"p3\" x1=\"14\" y1=\"12\" x2=\"17\" y2=\"12\"/><line class=\"p3\" x1=\"14\" y1=\"17\" x2=\"17\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "receipt-paper",
+  "category": "interface",
+  "tags": ["receipt", "paper", "bill", "invoice", "store", "purchase"],
+  "svg": "<polygon class=\"d p1\" points=\"5 4 7 3 9 4 11 3 13 4 15 3 17 4 19 3 19 20 17 21 15 20 13 21 11 20 9 21 7 20 5 21\"/><line class=\"p2\" x1=\"8\" y1=\"8\" x2=\"16\" y2=\"8\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/><line class=\"p2\" x1=\"8\" y1=\"16\" x2=\"13\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 }
+  ]
+}

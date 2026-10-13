@@ -1,0 +1,11 @@
+{
+  "name": "ranger-hat",
+  "category": "nature",
+  "tags": ["hat", "ranger", "outdoors", "brim", "park", "field"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 Q12 19 21 15 Q12 12 3 15 Z\"/><path class=\"p2\" d=\"M7 13.5 V6 Q7 4.5 8.5 4.5 H15.5 Q17 4.5 17 6 V13.5\"/><path class=\"p3\" d=\"M7 11 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "nod", "dur": 500, "delay": 1100, "origin": "12px 15px" }
+  ]
+}

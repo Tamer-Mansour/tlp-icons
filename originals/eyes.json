@@ -1,0 +1,10 @@
+{
+  "name": "eyes",
+  "category": "emoji",
+  "tags": ["eyes", "look", "watch", "see", "gaze"],
+  "svg": "<ellipse class=\"p1\" cx=\"6.5\" cy=\"12\" rx=\"4.5\" ry=\"3\"/><ellipse class=\"p1\" cx=\"17.5\" cy=\"12\" rx=\"4.5\" ry=\"3\"/><circle class=\"f p2\" cx=\"6.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17.5\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hex-nut",
+  "category": "shapes",
+  "tags": ["nut", "hexagon", "hole", "hardware", "bolt", "fastener"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

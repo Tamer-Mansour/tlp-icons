@@ -1,0 +1,10 @@
+{
+  "name": "galley-proof",
+  "category": "text",
+  "tags": ["galley", "proof", "column", "text", "print"],
+  "svg": "<path class=\"p1\" d=\"M6 6H14M6 10H14M6 14H12M6 18H14\"/><line class=\"p2\" x1=\"19\" y1=\"4\" x2=\"19\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 800, "origin": "top" }
+  ]
+}

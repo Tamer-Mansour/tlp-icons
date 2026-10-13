@@ -1,0 +1,10 @@
+{
+  "name": "recording-indicator",
+  "category": "media",
+  "tags": ["recording", "indicator", "record", "live", "status", "dot"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 300 }
+  ]
+}

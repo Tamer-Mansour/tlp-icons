@@ -1,0 +1,11 @@
+{
+  "name": "label-maker",
+  "category": "home",
+  "tags": ["label", "maker", "tape", "printer", "handheld"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"15\" width=\"10\" height=\"4\" rx=\"1\"/><circle class=\"f p3\" cx=\"7\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

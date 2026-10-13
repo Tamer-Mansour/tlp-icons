@@ -1,0 +1,11 @@
+{
+  "name": "keyword-highlight",
+  "category": "text",
+  "tags": ["highlight", "keyword", "marker", "emphasis", "text", "search", "mark"],
+  "svg": "<rect class=\"d p1\" x=\"7.5\" y=\"8.5\" width=\"9\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 12h3.5M17 12h4\"/><path class=\"p3\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

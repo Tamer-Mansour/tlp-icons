@@ -1,0 +1,10 @@
+{
+  "name": "text-shadow",
+  "category": "text",
+  "tags": ["shadow", "offset", "letter", "depth", "text", "effect"],
+  "svg": "<path class=\"p1\" d=\"M3 5h10M8 5v14\"/><rect class=\"d p2\" x=\"12\" y=\"11\" width=\"9\" height=\"9\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

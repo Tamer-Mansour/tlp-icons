@@ -1,0 +1,11 @@
+{
+  "name": "ev-range",
+  "category": "vehicles",
+  "tags": ["ev", "range", "battery", "electric", "charge"],
+  "svg": "<path class=\"p1\" d=\"M2 8h16v8H2zM20.5 11v2\"/><rect class=\"d p2\" x=\"4.5\" y=\"10\" width=\"8\" height=\"4\" rx=\".5\"/><path class=\"p3\" d=\"M4 20h15m-3-2.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

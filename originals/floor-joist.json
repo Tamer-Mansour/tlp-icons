@@ -1,0 +1,10 @@
+{
+  "name": "floor-joist",
+  "category": "tools",
+  "tags": ["joist", "floor", "beam", "frame", "timber", "structure"],
+  "svg": "<path class=\"d p1\" d=\"M2 5h20v3H2zM2 16h20v3H2z\"/><path class=\"p2\" d=\"M6 8v8M12 8v8M18 8v8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 }
+  ]
+}

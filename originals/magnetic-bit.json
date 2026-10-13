@@ -1,0 +1,11 @@
+{
+  "name": "magnetic-bit",
+  "category": "tools",
+  "tags": ["magnetic", "bit", "driver", "hex", "magnet"],
+  "svg": "<polygon class=\"d p1\" points=\"8 4 16 4 20 9 16 14 8 14 4 9\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"16\"/><circle class=\"p3\" cx=\"12\" cy=\"20\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

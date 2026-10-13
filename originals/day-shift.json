@@ -1,0 +1,11 @@
+{
+  "name": "day-shift",
+  "category": "time",
+  "tags": ["day", "shift", "sun", "clock", "work", "daytime"],
+  "svg": "<circle class=\"d p1\" cx=\"18\" cy=\"5\" r=\"2\"/><circle class=\"p2\" cx=\"11\" cy=\"14\" r=\"6\"/><path class=\"p3\" d=\"M11 11v3l2 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "11px 14px" }
+  ]
+}

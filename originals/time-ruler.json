@@ -1,0 +1,10 @@
+{
+  "name": "time-ruler",
+  "category": "time",
+  "tags": ["ruler", "measure", "ticks", "length", "timeline"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M6 8v3M10 8v4M14 8v3M18 8v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 600 }
+  ]
+}

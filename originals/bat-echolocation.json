@@ -1,0 +1,11 @@
+{
+  "name": "bat-echolocation",
+  "category": "science",
+  "tags": ["bat", "echolocation", "sound", "wave", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M2 13C4 12 5 9.5 5.5 7.5C6.7 8.5 7.7 9 9 9C10.3 9 11.3 8.5 12.5 7.5C13 9.5 14 12 16 13C14.5 13.5 13.5 15 13 16.5C11.5 15.5 10.5 15 9 15C7.5 15 6.5 15.5 5 16.5C4.5 15 3.5 13.5 2 13Z\"/><path class=\"p2\" d=\"M18.4 9.4A4 4 0 0 1 18.4 14.6\"/><path class=\"p3\" d=\"M20.7 7.5A7 7 0 0 1 20.7 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

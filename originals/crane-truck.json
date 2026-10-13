@@ -1,0 +1,12 @@
+{
+  "name": "crane-truck",
+  "category": "vehicles",
+  "tags": ["crane", "truck", "boom", "hook", "lifting"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"14\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M16 14V9h3.5l2.5 3v2z\"/><path class=\"p3\" d=\"M6 10L15 4\"/><path class=\"p4\" d=\"M15 4v4a1.5 1.5 0 0 1-3 0\"/><circle class=\"p2\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 900, "delay": 1200, "origin": "15px 4px" }
+  ]
+}

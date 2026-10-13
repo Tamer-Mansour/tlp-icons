@@ -1,0 +1,10 @@
+{
+  "name": "coin-cell-battery",
+  "category": "devices",
+  "tags": ["battery", "coin", "cell", "button", "power", "charge"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 8v8M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

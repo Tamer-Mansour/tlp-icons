@@ -1,0 +1,12 @@
+{
+  "name": "water-well",
+  "category": "buildings",
+  "tags": ["water well", "well", "bucket", "crank", "village", "water"],
+  "svg": "<path class=\"p1\" d=\"M5 12v9h14v-9\"/><path class=\"p2\" d=\"M12 12V5\"/><path class=\"p3\" d=\"M9 5h6\"/><path class=\"d p4\" d=\"M9 15h6l-1 3h-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "swing", "dur": 1000, "delay": 1200, "origin": "12px 5px" }
+  ]
+}

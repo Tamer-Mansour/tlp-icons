@@ -1,0 +1,10 @@
+{
+  "name": "tide-pool",
+  "category": "nature",
+  "tags": ["ocean", "beach", "water", "waves", "rock"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"9\" ry=\"4\"/><path class=\"p2\" d=\"M6 13c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

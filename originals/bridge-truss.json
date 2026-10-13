@@ -1,0 +1,11 @@
+{
+  "name": "bridge-truss",
+  "category": "science",
+  "tags": ["bridge", "truss", "structure", "engineering", "beam", "deck"],
+  "svg": "<path class=\"p1\" d=\"M2 8H22\"/><path class=\"p2\" d=\"M2 16H22M2 8L6 16L10 8L14 16L18 8L22 16\"/><path class=\"p3\" d=\"M6 16V21M18 16V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1200, "origin": "bottom" }
+  ]
+}

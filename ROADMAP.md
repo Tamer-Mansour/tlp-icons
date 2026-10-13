@@ -2,7 +2,7 @@
 
 > Generated from `config/roadmap.json` by `node scripts/roadmap.mjs`. Live version: https://tlp-icons.netlify.app/roadmap/
 
-**Goal: 26,180 animated icons by 2028.** Today: 11,238 (43%).
+**Goal: 26,278 animated icons by 2028.** Today: 26,278 (100%).
 
 ## Principles
 
@@ -18,7 +18,7 @@
 - Legal field to 150 originals (courts, contracts, police, documents)
 - Health to 300: clinical, dental, lab, pharmacy
 - Finance to 300: banking, payments, regional currencies
-- Brands kept in sync with Tabler
+- Brands kept in sync with Tabler (no extra logos: trademark risk)
 
 ### Professional fields (Q1-Q2 2027, 14,000 icons)
 
@@ -42,38 +42,38 @@
 | Health & Medical | High | 1,200 | 1,200 | `██████████` 100% |
 | Legal & Government | High | 1,180 | 1,180 | `██████████` 100% |
 | Finance & Money | High | 1,100 | 1,100 | `██████████` 100% |
-| Shopping & Commerce | Medium | 999 | 1,000 | `██████████` 100% |
+| People & Accounts | Medium | 1,004 | 1,004 | `██████████` 100% |
+| Science & Education | Medium | 1,004 | 1,004 | `██████████` 100% |
+| Shopping & Commerce | Medium | 1,001 | 1,001 | `██████████` 100% |
 | Maps & Travel | Medium | 1,000 | 1,000 | `██████████` 100% |
-| Science & Education | Medium | 35 | 1,000 | `░░░░░░░░░░` 4% |
-| People & Accounts | Medium | 79 | 900 | `█░░░░░░░░░` 9% |
-| Buildings & Places | Medium | 110 | 800 | `█░░░░░░░░░` 14% |
-| Vehicles & Transport | Medium | 131 | 700 | `██░░░░░░░░` 19% |
-| Security & Privacy | Medium | 116 | 600 | `██░░░░░░░░` 19% |
-| Interface & Actions | Normal | 501 | 1,200 | `████░░░░░░` 42% |
-| Brands | Normal | 376 | 1,000 | `████░░░░░░` 38% |
-| Text & Formatting | Normal | 456 | 900 | `█████░░░░░` 51% |
-| Communication | Normal | 196 | 900 | `██░░░░░░░░` 22% |
-| Files & Documents | Normal | 312 | 900 | `████░░░░░░` 35% |
-| Devices & Hardware | Normal | 422 | 900 | `█████░░░░░` 47% |
-| Arrows & Navigation | Normal | 366 | 800 | `█████░░░░░` 46% |
-| Development | Normal | 160 | 800 | `██░░░░░░░░` 20% |
-| Nature & Animals | Normal | 110 | 800 | `█░░░░░░░░░` 14% |
-| Design & Editing | Normal | 281 | 700 | `████░░░░░░` 40% |
-| Food & Drink | Normal | 116 | 700 | `██░░░░░░░░` 17% |
-| Sport & Games | Normal | 145 | 700 | `██░░░░░░░░` 21% |
-| Media & Audio | Normal | 176 | 600 | `███░░░░░░░` 29% |
-| Math & Numbers | Normal | 326 | 600 | `█████░░░░░` 54% |
-| Home & Living | Normal | 124 | 600 | `██░░░░░░░░` 21% |
-| Layout & Windows | Normal | 205 | 500 | `████░░░░░░` 41% |
-| Notifications & Status | Normal | 115 | 500 | `██░░░░░░░░` 23% |
-| Connectivity & Cloud | Normal | 102 | 500 | `██░░░░░░░░` 20% |
-| Charts & Data | Normal | 74 | 500 | `██░░░░░░░░` 15% |
-| Tools & Construction | Normal | 49 | 500 | `█░░░░░░░░░` 10% |
-| Emoji & Symbols | Normal | 164 | 500 | `███░░░░░░░` 33% |
-| Camera & Photo | Normal | 172 | 400 | `████░░░░░░` 43% |
-| Shapes & Geometry | Normal | 107 | 400 | `███░░░░░░░` 27% |
-| Time & Calendar | Normal | 131 | 400 | `███░░░░░░░` 33% |
-| Weather & Sky | Normal | 102 | 400 | `███░░░░░░░` 26% |
+| Buildings & Places | Medium | 803 | 803 | `██████████` 100% |
+| Vehicles & Transport | Medium | 701 | 701 | `██████████` 100% |
+| Security & Privacy | Medium | 602 | 602 | `██████████` 100% |
+| Interface & Actions | Normal | 1,313 | 1,313 | `██████████` 100% |
+| Text & Formatting | Normal | 1,033 | 1,033 | `██████████` 100% |
+| Nature & Animals | Normal | 911 | 911 | `██████████` 100% |
+| Communication | Normal | 903 | 903 | `██████████` 100% |
+| Files & Documents | Normal | 902 | 902 | `██████████` 100% |
+| Devices & Hardware | Normal | 902 | 902 | `██████████` 100% |
+| Arrows & Navigation | Normal | 800 | 800 | `██████████` 100% |
+| Development | Normal | 800 | 800 | `██████████` 100% |
+| Sport & Games | Normal | 781 | 781 | `██████████` 100% |
+| Food & Drink | Normal | 780 | 780 | `██████████` 100% |
+| Design & Editing | Normal | 700 | 700 | `██████████` 100% |
+| Math & Numbers | Normal | 667 | 667 | `██████████` 100% |
+| Home & Living | Normal | 603 | 603 | `██████████` 100% |
+| Media & Audio | Normal | 600 | 600 | `██████████` 100% |
+| Notifications & Status | Normal | 502 | 502 | `██████████` 100% |
+| Connectivity & Cloud | Normal | 502 | 502 | `██████████` 100% |
+| Tools & Construction | Normal | 502 | 502 | `██████████` 100% |
+| Emoji & Symbols | Normal | 502 | 502 | `██████████` 100% |
+| Layout & Windows | Normal | 500 | 500 | `██████████` 100% |
+| Charts & Data | Normal | 500 | 500 | `██████████` 100% |
+| Shapes & Geometry | Normal | 402 | 402 | `██████████` 100% |
+| Time & Calendar | Normal | 402 | 402 | `██████████` 100% |
+| Camera & Photo | Normal | 400 | 400 | `██████████` 100% |
+| Weather & Sky | Normal | 400 | 400 | `██████████` 100% |
+| Brands | Normal | 376 | 376 | `██████████` 100% |
 
 ## Planned fields
 
@@ -82,7 +82,7 @@ Seed lists for the next batches (✓ = already in the library).
 ### Health & Medical (1200 → 1,200)
 
 - **Clinical:** ✓ `stethoscope`, ✓ `blood-pressure`, ✓ `iv-drip`, ✓ `hospital-bed`, ✓ `wheelchair`, ✓ `crutches`, ✓ `x-ray`, ✓ `mri`, ✓ `ultrasound`, `ecg`
-- **Dental:** `tooth`, ✓ `tooth-cavity`, ✓ `braces`, ✓ `implant`, ✓ `dental-chair`, ✓ `toothbrush`
+- **Dental:** ✓ `tooth`, ✓ `tooth-cavity`, ✓ `braces`, ✓ `implant`, ✓ `dental-chair`, ✓ `toothbrush`
 - **Lab & pharmacy:** ✓ `test-tube`, ✓ `petri-dish`, ✓ `blood-test`, ✓ `prescription`, ✓ `pill-bottle`, ✓ `capsule`, ✓ `inhaler`, ✓ `vaccine-vial`
 - **Body & organs:** ✓ `heart-organ`, ✓ `lungs`, ✓ `kidney`, ✓ `liver`, ✓ `stomach`, ✓ `brain`, ✓ `bone`, `eye-exam`
 
@@ -98,30 +98,30 @@ Seed lists for the next batches (✓ = already in the library).
 
 ### Finance & Money (1100 → 1,100)
 
-- **Banking:** `bank`, ✓ `atm`, ✓ `cheque`, ✓ `deposit`, ✓ `withdraw`, ✓ `loan`, ✓ `mortgage`, ✓ `interest-rate`, `savings`
+- **Banking:** ✓ `bank`, ✓ `atm`, ✓ `cheque`, ✓ `deposit`, ✓ `withdraw`, ✓ `loan`, ✓ `mortgage`, ✓ `interest-rate`, `savings`
 - **Payments:** ✓ `card-tap`, ✓ `pos-terminal`, ✓ `qr-pay`, ✓ `invoice-paid`, ✓ `invoice-due`, `refund`, ✓ `split-bill`, ✓ `subscription`
 - **Currencies:** `shekel`, `dinar`, `riyal`, `dirham`, `pound-egp`, `lira`, `rupee`, `yuan`, `won`, `naira`
 - **Markets:** ✓ `stock-up`, ✓ `stock-down`, ✓ `portfolio`, ✓ `dividend`, ✓ `bull-market`, ✓ `bear-market`, ✓ `crypto-wallet`
 
-### Shopping & Commerce (999 → 1,000)
-
-- **Retail:** `store-front`, `checkout`, `receipt-long`, `price-tag`, ✓ `coupon-cut`, ✓ `loyalty-card`
-- **Logistics:** `parcel`, ✓ `delivery-truck`, ✓ `warehouse-shelf`, `forklift-load`, `tracking`, `returns`
-
-### Science & Education (35 → 1,000)
-
-- **Education:** `classroom`, `blackboard`, `graduation`, `diploma`, `exam`, `homework`, `school-bag`
-- **Lab:** `beaker-bubbles`, `molecule`, `telescope-stars`, ✓ `microscope-slide`
-
-### People & Accounts (79 → 900)
+### People & Accounts (1004 → 1,004)
 
 - **Roles:** `doctor`, ✓ `nurse`, `teacher`, `engineer`, `chef`, `pilot`, `farmer`, `worker`
-- **Family:** `family`, `parent-child`, `elderly`, `pregnant`
+- **Family:** `family`, ✓ `parent-child`, `elderly`, `pregnant`
 
-### Buildings & Places (110 → 800)
+### Science & Education (1004 → 1,004)
 
-- **Public:** ✓ `city-hall`, `court-building`, `embassy-building`, `post-office`, `fire-station`
-- **Real estate:** `apartment`, `villa`, `office-tower`, `for-sale-sign`
+- **Education:** ✓ `classroom`, `blackboard`, `graduation`, `diploma`, `exam`, `homework`, `school-bag`
+- **Lab:** `beaker-bubbles`, ✓ `molecule`, `telescope-stars`, ✓ `microscope-slide`
+
+### Shopping & Commerce (1001 → 1,001)
+
+- **Retail:** `store-front`, `checkout`, ✓ `receipt-long`, `price-tag`, ✓ `coupon-cut`, ✓ `loyalty-card`
+- **Logistics:** `parcel`, ✓ `delivery-truck`, ✓ `warehouse-shelf`, `forklift-load`, `tracking`, `returns`
+
+### Buildings & Places (803 → 803)
+
+- **Public:** ✓ `city-hall`, `court-building`, `embassy-building`, ✓ `post-office`, ✓ `fire-station`
+- **Real estate:** ✓ `apartment`, ✓ `villa`, ✓ `office-tower`, ✓ `for-sale-sign`
 
 ## Candidate sources (only after license review and owner approval)
 

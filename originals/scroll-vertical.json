@@ -1,0 +1,11 @@
+{
+  "name": "scroll-vertical",
+  "category": "arrows",
+  "tags": ["scroll", "vertical", "track", "up down", "list", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M12 7v10\"/><path class=\"p2\" d=\"M9 5l3-3 3 3\"/><path class=\"p3\" d=\"M9 19l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "sink", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "clock-out",
+  "category": "time",
+  "tags": ["clock", "out", "leave", "end", "work"],
+  "svg": "<circle class=\"p1\" cx=\"15\" cy=\"12\" r=\"6\"/><path class=\"p1\" d=\"M15 9v3l2 1\"/><path class=\"p2\" d=\"M4 4H2v16h2\"/><path class=\"p3\" d=\"M9 12H5M7 10l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 800, "delay": 1000 }
+  ]
+}

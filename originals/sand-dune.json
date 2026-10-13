@@ -1,0 +1,11 @@
+{
+  "name": "sand-dune",
+  "category": "nature",
+  "tags": ["sand", "dune", "desert", "wind", "beach"],
+  "svg": "<path class=\"d p1\" d=\"M2 20 C6 10 14 10 22 20 Z\"/><path class=\"p2\" d=\"M9 14 C12 9 16 9 19 13\"/><path class=\"p3\" d=\"M3 17.5 H9\"/><path class=\"p3\" d=\"M13 16.5 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 900, "delay": 1200 }
+  ]
+}

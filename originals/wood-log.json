@@ -1,0 +1,11 @@
+{
+  "name": "wood-log",
+  "category": "nature",
+  "tags": ["log", "wood", "timber", "lumber", "firewood", "tree"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\"/><ellipse class=\"p2\" cx=\"6\" cy=\"12\" rx=\"2\" ry=\"5\"/><ellipse class=\"p2\" cx=\"18\" cy=\"12\" rx=\"2\" ry=\"5\"/><path class=\"p3\" d=\"M9.5 10 H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

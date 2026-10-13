@@ -1,0 +1,11 @@
+{
+  "name": "writing-direction",
+  "category": "text",
+  "tags": ["writing", "direction", "arrows", "text", "bidi", "language", "both"],
+  "svg": "<path class=\"p1\" d=\"M7 5h10M9 8.5h6\"/><path class=\"p2\" d=\"M4 15h16\"/><path class=\"p3\" d=\"M6 12l-3 3 3 3M18 12l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "fadeIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

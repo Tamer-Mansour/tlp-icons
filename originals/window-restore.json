@@ -1,0 +1,10 @@
+{
+  "name": "window-restore",
+  "category": "layout",
+  "tags": ["restore", "window", "overlap", "shrink", "unmaximize", "frames"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"3\" width=\"13\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"9\" width=\"12\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 700 }
+  ]
+}

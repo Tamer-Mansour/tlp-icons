@@ -1,0 +1,11 @@
+{
+  "name": "calendar-doc",
+  "category": "files",
+  "tags": ["calendar", "document", "date", "schedule", "events"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z\"/><path class=\"p1\" d=\"M14 2.5V8h5.5\"/><line class=\"p2\" x1=\"4.5\" y1=\"11\" x2=\"19.5\" y2=\"11\"/><circle class=\"f p3\" cx=\"9\" cy=\"15\" r=\"1\"/><circle class=\"f p3\" cx=\"13\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

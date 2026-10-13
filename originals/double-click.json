@@ -1,0 +1,10 @@
+{
+  "name": "double-click",
+  "category": "interface",
+  "tags": ["double", "click", "pointer", "mouse", "cursor", "select"],
+  "svg": "<path class=\"p1\" d=\"M12 12l8 3-3.5 1.5L15 20z\"/><circle class=\"p2\" cx=\"6\" cy=\"6\" r=\"2\"/><circle class=\"p2\" cx=\"6\" cy=\"6\" r=\"5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 800 }
+  ]
+}

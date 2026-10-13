@@ -1,0 +1,10 @@
+{
+  "name": "mailbox-flag",
+  "category": "communication",
+  "tags": ["mailbox", "flag", "post", "letter", "mail", "delivery"],
+  "svg": "<path class=\"d p1\" d=\"M5 18v-5a7 7 0 0 1 14 0v5z\"/><path class=\"p1\" d=\"M9 13h6M12 18v3\"/><path class=\"p2\" d=\"M20 12V4M20 4h2l-1 2 1 2h-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 700, "origin": "20px 12px" }
+  ]
+}

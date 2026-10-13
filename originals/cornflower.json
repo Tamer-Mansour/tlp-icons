@@ -1,0 +1,10 @@
+{
+  "name": "cornflower",
+  "category": "nature",
+  "tags": ["cornflower", "flower", "bloom", "wildflower", "petals"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 14.5,7.7 19.8,7.5 17,12 19.8,16.5 14.5,16.3 12,21 9.5,16.3 4.2,16.5 7,12 4.2,7.5 9.5,7.7\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 500 }
+  ]
+}

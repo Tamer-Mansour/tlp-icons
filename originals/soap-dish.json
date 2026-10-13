@@ -1,0 +1,10 @@
+{
+  "name": "soap-dish",
+  "category": "home",
+  "tags": ["soap", "dish", "bar", "bathroom", "holder", "tray"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 H21 Q20 19 16 19 H8 Q4 19 3 15 Z\"/><rect class=\"d p2\" x=\"8\" y=\"9\" width=\"8\" height=\"4\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cumin",
+  "category": "food",
+  "tags": ["cumin", "spice", "seed", "seasoning", "herb", "grain"],
+  "svg": "<ellipse class=\"p1\" cx=\"7\" cy=\"8\" rx=\"2.2\" ry=\"4.2\" transform=\"rotate(-30 7 8)\"/><ellipse class=\"p2\" cx=\"17\" cy=\"8\" rx=\"2.2\" ry=\"4.2\" transform=\"rotate(30 17 8)\"/><ellipse class=\"p3\" cx=\"12\" cy=\"16\" rx=\"2.2\" ry=\"4.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

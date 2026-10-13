@@ -1,0 +1,11 @@
+{
+  "name": "cable-machine",
+  "category": "sport",
+  "tags": ["cable", "machine", "pulley", "weights", "gym", "strength"],
+  "svg": "<path class=\"p1\" d=\"M6 3V21M18 3V21M6 3H18\"/><circle class=\"p2\" cx=\"12\" cy=\"6\" r=\"1.5\"/><path class=\"p3\" d=\"M12 7.5V15M10 15H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pump", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "l-shape",
+  "category": "shapes",
+  "tags": ["l", "corner", "block", "angle", "bold"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"3\" x2=\"6\" y2=\"18\"/><line class=\"p2\" x1=\"6\" y1=\"18\" x2=\"20\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 600 }
+  ]
+}

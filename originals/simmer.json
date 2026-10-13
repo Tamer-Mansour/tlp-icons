@@ -1,0 +1,10 @@
+{
+  "name": "simmer",
+  "category": "food",
+  "tags": ["simmer", "pot", "bubbles", "stew", "gentle"],
+  "svg": "<path class=\"p1\" d=\"M5 10 H19 V18 Q19 21 16 21 H8 Q5 21 5 18 Z\"/><circle class=\"f p2\" cx=\"9\" cy=\"7\" r=\"1\"/><circle class=\"f p2\" cx=\"14\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 800 }
+  ]
+}

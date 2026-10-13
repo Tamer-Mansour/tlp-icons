@@ -1,0 +1,11 @@
+{
+  "name": "photo-night",
+  "category": "photography",
+  "tags": ["photo", "night", "moon", "star", "dark"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"d p2\" d=\"M14 8a4.5 4.5 0 1 0 4.5 5.5A3.5 3.5 0 0 1 14 8z\"/><circle class=\"f p3\" cx=\"7.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "column-data",
+  "category": "development",
+  "tags": ["column", "data", "bar", "chart", "grid", "metrics"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><rect class=\"p2\" x=\"6\" y=\"12\" width=\"3\" height=\"8\"/><rect class=\"p3\" x=\"11\" y=\"7\" width=\"3\" height=\"13\"/><rect class=\"p4\" x=\"16\" y=\"10\" width=\"3\" height=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 300, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p4", "anim": "grow", "dur": 500, "delay": 700, "origin": "bottom" }
+  ]
+}

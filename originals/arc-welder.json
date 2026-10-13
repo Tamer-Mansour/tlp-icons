@@ -1,0 +1,11 @@
+{
+  "name": "arc-welder",
+  "category": "tools",
+  "tags": ["arc", "welder", "electrode", "spark", "weld", "metal"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"11\"/><path class=\"p2\" d=\"M6 17L9 13L12 16L15 13L18 17\"/><line class=\"p3\" x1=\"4\" y1=\"20.5\" x2=\"20\" y2=\"20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 800 }
+  ]
+}

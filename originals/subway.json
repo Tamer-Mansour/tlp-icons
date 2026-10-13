@@ -1,0 +1,11 @@
+{
+  "name": "subway",
+  "category": "vehicles",
+  "tags": ["subway", "metro", "tunnel", "train", "underground"],
+  "svg": "<path class=\"p1\" d=\"M4 21V11a8 8 0 0 1 16 0v10\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"2\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "shuttle", "dur": 1200, "delay": 1000 }
+  ]
+}

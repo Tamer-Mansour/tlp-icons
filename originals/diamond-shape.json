@@ -1,0 +1,10 @@
+{
+  "name": "diamond-shape",
+  "category": "shapes",
+  "tags": ["diamond", "rhombus", "rotated", "square", "shape", "gem"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L21 12L12 21L3 12Z\"/><path class=\"p2\" d=\"M12 7.5L16.5 12L12 16.5L7.5 12Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

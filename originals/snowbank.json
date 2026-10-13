@@ -1,0 +1,11 @@
+{
+  "name": "snowbank",
+  "category": "nature",
+  "tags": ["snowbank", "snow", "drift", "winter", "mound", "cold"],
+  "svg": "<path class=\"d p1\" d=\"M3 19q0-8 9-8t9 8z\"/><path class=\"p2\" d=\"M2 21.5h20\"/><circle class=\"f p3\" cx=\"6\" cy=\"7\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"5.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

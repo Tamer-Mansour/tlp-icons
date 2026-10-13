@@ -1,0 +1,11 @@
+{
+  "name": "luggage-storage",
+  "category": "buildings",
+  "tags": ["luggage", "suitcase", "storage", "shelf", "bag", "travel"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M10 7V5h4v2\"/><line class=\"p3\" x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/><path class=\"p3\" d=\"M5 18v3M19 18v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

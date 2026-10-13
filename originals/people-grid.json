@@ -1,0 +1,10 @@
+{
+  "name": "people-grid",
+  "category": "communication",
+  "tags": ["people", "group", "grid", "team", "members", "participants"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"4\" r=\"2\"/><circle class=\"p1\" cx=\"17\" cy=\"4\" r=\"2\"/><circle class=\"p1\" cx=\"7\" cy=\"15\" r=\"2\"/><circle class=\"p1\" cx=\"17\" cy=\"15\" r=\"2\"/><path class=\"p2\" d=\"M4 10.5a3 3 0 0 1 6 0M14 10.5a3 3 0 0 1 6 0M4 20.5a3 3 0 0 1 6 0M14 20.5a3 3 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

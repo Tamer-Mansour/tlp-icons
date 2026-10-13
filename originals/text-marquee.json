@@ -1,0 +1,11 @@
+{
+  "name": "text-marquee",
+  "category": "text",
+  "tags": ["marquee", "scroll", "ticker", "banner", "text", "arrows", "carousel"],
+  "svg": "<rect class=\"p1\" x=\"7.5\" y=\"8\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M10 12h4\"/><path class=\"p3\" d=\"M2.5 12h2.5M4.5 10l-2 2 2 2M21.5 12h-2.5M19.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

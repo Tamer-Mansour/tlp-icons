@@ -1,0 +1,11 @@
+{
+  "name": "pan-knob",
+  "category": "media",
+  "tags": ["pan", "knob", "balance", "audio", "stereo", "dial"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"7\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"7.5\"/><path class=\"p3\" d=\"M3 4Q12 1.5 21 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 900, "origin": "12px 12px" }
+  ]
+}

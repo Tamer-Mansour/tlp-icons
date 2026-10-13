@@ -1,0 +1,11 @@
+{
+  "name": "skeleton",
+  "category": "emoji",
+  "tags": ["skeleton", "skull", "bones", "death", "spooky"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9.5\" r=\"6\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"9.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"9.5\" r=\"1.2\"/><path class=\"p3\" d=\"M6.5 15.5l11 6M17.5 15.5l-11 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 600 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

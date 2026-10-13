@@ -1,0 +1,11 @@
+{
+  "name": "touch-app",
+  "category": "interface",
+  "tags": ["touch", "tap", "finger", "press", "button"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"17.5\" width=\"16\" height=\"4.5\" rx=\"2.25\"/><path class=\"p2\" d=\"M9.5 14V4.5a1.5 1.5 0 0 1 3 0V14\"/><path class=\"p3\" d=\"M5 5.5 3.5 4M19 5.5l1.5-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1100 }
+  ]
+}

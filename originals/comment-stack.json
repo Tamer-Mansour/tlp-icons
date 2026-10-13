@@ -1,0 +1,11 @@
+{
+  "name": "comment-stack",
+  "category": "communication",
+  "tags": ["comments", "stack", "bubbles", "replies", "discussion", "chat"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"10\" height=\"7\" rx=\"1.5\"/><rect class=\"p2\" x=\"7\" y=\"8\" width=\"10\" height=\"7\" rx=\"1.5\"/><rect class=\"p3\" x=\"11\" y=\"13\" width=\"10\" height=\"7\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

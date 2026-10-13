@@ -1,0 +1,12 @@
+{
+  "name": "drone-link",
+  "category": "connectivity",
+  "tags": ["drone", "quadcopter", "link", "signal", "rotor", "wireless"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"13\" width=\"8\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M8 11v2M16 11v2\"/><path class=\"p3\" d=\"M9 7.5a4.3 4.3 0 0 1 6 0M6.5 5a7.8 7.8 0 0 1 11 0\"/><path class=\"p4\" d=\"M4 11h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 },
+    { "part": "p4", "anim": "spin", "dur": 800, "delay": 1300, "origin": "12px 11px" }
+  ]
+}

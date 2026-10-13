@@ -1,0 +1,10 @@
+{
+  "name": "solar-storm",
+  "category": "weather",
+  "tags": ["solar", "storm", "sun", "flare", "space", "weather"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M14 6.5a7 7 0 0 1 0 11M17 3.5a11 11 0 0 1 0 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

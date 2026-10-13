@@ -1,0 +1,11 @@
+{
+  "name": "compote",
+  "category": "food",
+  "tags": ["compote", "fruit", "dessert", "bowl", "pedestal", "preserve"],
+  "svg": "<path class=\"d p1\" d=\"M4 11h16c0 4-3.5 7-8 7s-8-3-8-7z\"/><path class=\"p2\" d=\"M12 18v3M8.5 21h7\"/><circle class=\"p3\" cx=\"9\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"15\" cy=\"6\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

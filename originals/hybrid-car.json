@@ -1,0 +1,11 @@
+{
+  "name": "hybrid-car",
+  "category": "vehicles",
+  "tags": ["hybrid", "car", "eco", "leaf", "green"],
+  "svg": "<path class=\"p1\" d=\"M2 16v-3.5l2.5-4.5h9.5l3.5 4.5H21V16z\"/><path class=\"d p2\" d=\"M10 12.5c0-2.5 2-3.5 4.5-3.5 0 2.5-2 3.5-4.5 3.5z\"/><g class=\"p3\"><circle cx=\"7\" cy=\"16\" r=\"2\"/><circle cx=\"17\" cy=\"16\" r=\"2\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 800, "delay": 600 }
+  ]
+}

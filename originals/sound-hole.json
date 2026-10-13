@@ -1,0 +1,11 @@
+{
+  "name": "sound-hole",
+  "category": "media",
+  "tags": ["sound hole", "guitar", "rosette", "body", "instrument"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"7\"/><circle class=\"p3\" cx=\"12\" cy=\"13\" r=\"6\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "zoomIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

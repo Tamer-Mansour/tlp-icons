@@ -1,0 +1,11 @@
+{
+  "name": "plate-stack",
+  "category": "home",
+  "tags": ["plates", "stack", "dishes", "kitchen", "crockery", "tableware"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"18.5\" rx=\"8\" ry=\"2\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12.5\" rx=\"8\" ry=\"2\"/><ellipse class=\"d p3\" cx=\"12\" cy=\"6.5\" rx=\"8\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dropIn", "dur": 500, "delay": 1000 }
+  ]
+}

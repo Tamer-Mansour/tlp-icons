@@ -1,0 +1,11 @@
+{
+  "name": "download-speed",
+  "category": "connectivity",
+  "tags": ["download", "speed", "arrow", "gauge", "bandwidth", "fast"],
+  "svg": "<path class=\"p1\" d=\"M8 3V15M5 12L8 15L11 12\"/><path class=\"p2\" d=\"M14 18A8 8 0 0 1 22 10\"/><path class=\"p3\" d=\"M14 10L18 6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "sink", "dur": 800, "delay": 700 }
+  ]
+}

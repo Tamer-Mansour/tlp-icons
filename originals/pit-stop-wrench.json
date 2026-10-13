@@ -1,0 +1,11 @@
+{
+  "name": "pit-stop-wrench",
+  "category": "sport",
+  "tags": ["pit", "stop", "wrench", "lug", "nut", "race"],
+  "svg": "<path class=\"p1\" d=\"M3 21L9 15\"/><polygon class=\"d p2\" points=\"15,5 18.5,7 18.5,11 15,13 11.5,11 11.5,7\"/><path class=\"p3\" d=\"M19.5 3.5a4.5 4.5 0 0 1 2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ruler-classroom",
+  "category": "science",
+  "tags": ["ruler", "measure", "inches", "classroom", "length", "school"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M6 8 V11 M10 8 V11 M14 8 V11 M18 8 V11 M12 8 V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 900, "origin": "top" }
+  ]
+}

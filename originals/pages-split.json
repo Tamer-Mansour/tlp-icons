@@ -1,0 +1,10 @@
+{
+  "name": "pages-split",
+  "category": "files",
+  "tags": ["split", "pages", "divide", "cut", "separate", "document"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M12 4v3M12 10.5v3M12 17v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

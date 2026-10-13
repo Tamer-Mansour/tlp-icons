@@ -1,0 +1,11 @@
+{
+  "name": "fume-hood",
+  "category": "science",
+  "tags": ["lab", "ventilation", "airflow", "chemistry", "safety"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><path class=\"p3\" d=\"M12 18V12M9 15L12 12L15 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 700, "delay": 900 }
+  ]
+}

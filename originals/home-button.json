@@ -1,0 +1,10 @@
+{
+  "name": "home-button",
+  "category": "interface",
+  "tags": ["home", "house", "button", "start", "main", "navigation"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 10 12 3.5l8.5 6.5V20.5h-17Z\"/><path class=\"p2\" d=\"M9.5 20.5v-5h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "scooter-hub",
+  "category": "buildings",
+  "tags": ["scooter", "hub", "rental", "station", "kick", "mobility"],
+  "svg": "<path class=\"p1\" d=\"M5 15h12\"/><path class=\"p2\" d=\"M16 15V5M14 3h4\"/><circle class=\"d p3\" cx=\"5\" cy=\"19\" r=\"2\"/><circle class=\"d p3\" cx=\"17\" cy=\"19\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

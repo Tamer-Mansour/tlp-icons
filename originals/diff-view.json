@@ -1,0 +1,11 @@
+{
+  "name": "diff-view",
+  "category": "development",
+  "tags": ["diff", "view", "side", "panels", "compare", "changes"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"8\" height=\"16\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"4\" width=\"8\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M4 8H8M4 16H8\"/><path class=\"p3\" d=\"M16 8H20M16 12H18M16 16H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "countdown",
+  "category": "time",
+  "tags": ["countdown", "timer", "count", "remaining", "time"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3a9 9 0 0 1 9 9\"/><path class=\"p3\" d=\"M11 10.5 12.5 9v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

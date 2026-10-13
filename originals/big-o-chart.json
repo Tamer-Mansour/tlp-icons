@@ -1,0 +1,11 @@
+{
+  "name": "big-o-chart",
+  "category": "development",
+  "tags": ["big", "complexity", "chart", "algorithm", "growth", "performance"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"p2\" d=\"M7 18C10 17 12 12 15 9s4-3 6-3\"/><circle class=\"p3\" cx=\"7\" cy=\"7\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1300 }
+  ]
+}

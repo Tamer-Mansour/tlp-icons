@@ -1,0 +1,10 @@
+{
+  "name": "flying-disc",
+  "category": "sport",
+  "tags": ["frisbee", "disc", "flying", "throw", "toss", "park"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"10\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M3 21Q6 18 8 16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

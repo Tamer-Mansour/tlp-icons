@@ -1,0 +1,11 @@
+{
+  "name": "email-archive",
+  "category": "communication",
+  "tags": ["email", "archive", "store", "box", "save", "old", "mail"],
+  "svg": "<rect class=\"p2\" x=\"2\" y=\"3\" width=\"20\" height=\"4\" rx=\"1\"/><path class=\"d p1\" d=\"M4 9h16v11H4z\"/><path class=\"p3\" d=\"M10 13h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "slideDown", "dur": 500, "delay": 700 }
+  ]
+}

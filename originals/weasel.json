@@ -1,0 +1,11 @@
+{
+  "name": "weasel",
+  "category": "nature",
+  "tags": ["weasel", "animal", "slender", "small", "mammal", "wild"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"14\" rx=\"7\" ry=\"2.5\"/><circle class=\"d p2\" cx=\"18\" cy=\"12.5\" r=\"2.5\"/><path class=\"p3\" d=\"M3.5 14C2 14 2 12 3 11\"/><path class=\"p4\" d=\"M7 16.5v2M13 16.5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

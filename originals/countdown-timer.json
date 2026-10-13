@@ -1,0 +1,11 @@
+{
+  "name": "countdown-timer",
+  "category": "sport",
+  "tags": ["timer", "countdown", "clock", "dial", "time", "game"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p3\" d=\"M10 2.5h4M12 2.5V5\"/><path class=\"p2\" d=\"M12 13V8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 13px" }
+  ]
+}

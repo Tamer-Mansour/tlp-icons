@@ -1,0 +1,11 @@
+{
+  "name": "jump-link",
+  "category": "arrows",
+  "tags": ["jump", "link", "anchor", "navigate", "target", "arrow"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"7\" height=\"6\" rx=\"3\"/><path class=\"p2\" d=\"M12 12h3M13.5 10.5 15 12l-1.5 1.5\"/><circle class=\"p3\" cx=\"19\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

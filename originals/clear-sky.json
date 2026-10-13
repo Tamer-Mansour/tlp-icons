@@ -1,0 +1,11 @@
+{
+  "name": "clear-sky",
+  "category": "weather",
+  "tags": ["clear", "sky", "sun", "sunny", "frame", "fine"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M12 4.5v1.5M12 18v1.5M4.5 12H6M18 12h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

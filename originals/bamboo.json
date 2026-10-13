@@ -1,0 +1,11 @@
+{
+  "name": "bamboo",
+  "category": "nature",
+  "tags": ["bamboo", "stalk", "plant", "green", "nature", "segment"],
+  "svg": "<path class=\"p1\" d=\"M9 21 V4 M15 21 V4\"/><path class=\"p2\" d=\"M9 9 H15 M9 15 H15\"/><path class=\"d p3\" d=\"M15 7 Q19 4 20 5 Q19 9 15 7 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1100, "origin": "15px 7px" }
+  ]
+}

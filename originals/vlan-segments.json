@@ -1,0 +1,11 @@
+{
+  "name": "vlan-segments",
+  "category": "connectivity",
+  "tags": ["vlan", "segments", "isolated", "network", "zones", "partition"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/><rect class=\"p3\" x=\"18\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 250 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

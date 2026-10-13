@@ -1,0 +1,11 @@
+{
+  "name": "distillery",
+  "category": "buildings",
+  "tags": ["distillery", "still", "spirits", "whisky", "condenser", "pot", "distilling"],
+  "svg": "<path class=\"d p1\" d=\"M4 21V14a6 6 0 0 1 12 0v7z\"/><path class=\"p2\" d=\"M10 8V5h4l4 6\"/><rect class=\"p3\" x=\"16\" y=\"13\" width=\"5\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 1000, "delay": 1000 }
+  ]
+}

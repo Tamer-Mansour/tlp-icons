@@ -1,0 +1,11 @@
+{
+  "name": "water-jug",
+  "category": "home",
+  "tags": ["water", "jug", "pitcher", "drink", "pour", "kitchen"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"11\" height=\"13\" rx=\"1.5\"/><path class=\"p2\" d=\"M16 11h2.5a2.5 2.5 0 0 1 0 5H16\"/><path class=\"p3\" d=\"M5 13h11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "refill", "dur": 900, "delay": 1100, "origin": "left" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "isotope-atoms",
+  "category": "science",
+  "tags": ["isotope", "atom", "neutron", "element", "nuclear"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"12\" r=\"4\"/><circle class=\"d p2\" cx=\"17\" cy=\"12\" r=\"4\"/><circle class=\"f p3\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p4\" cx=\"15\" cy=\"12\" r=\"1\"/><circle class=\"f p4\" cx=\"19\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

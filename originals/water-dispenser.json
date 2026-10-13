@@ -1,0 +1,11 @@
+{
+  "name": "water-dispenser",
+  "category": "home",
+  "tags": ["water", "dispenser", "cooler", "bottle", "office", "tap"],
+  "svg": "<rect class=\"p2\" x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"2\"/><rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M10 13v3M14 13v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "press", "dur": 700, "delay": 1000 }
+  ]
+}

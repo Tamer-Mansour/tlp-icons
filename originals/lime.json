@@ -1,0 +1,11 @@
+{
+  "name": "lime",
+  "category": "food",
+  "tags": ["lime", "citrus", "fruit", "segments", "fresh"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"8\"/><path class=\"p2\" d=\"M11 5v16M3.5 13h15\"/><path class=\"p3\" d=\"M14 5c2-3 4-3 6-3 0 2-1 4-4 5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 1000, "delay": 1000 }
+  ]
+}

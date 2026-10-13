@@ -1,0 +1,12 @@
+{
+  "name": "wildlife-crossing",
+  "category": "nature",
+  "tags": ["wildlife", "crossing", "road", "animal", "sign", "warning"],
+  "svg": "<path class=\"p1\" d=\"M2 20 H22\"/><ellipse class=\"d p2\" cx=\"9\" cy=\"16\" rx=\"3.5\" ry=\"2\"/><circle class=\"d p3\" cx=\"14.5\" cy=\"14\" r=\"1.5\"/><path class=\"p4\" d=\"M5 11 A7 7 0 0 1 19 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

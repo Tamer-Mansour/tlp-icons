@@ -1,0 +1,10 @@
+{
+  "name": "high-jump",
+  "category": "sport",
+  "tags": ["high", "jump", "bar", "athletics", "sport", "figure"],
+  "svg": "<path class=\"p1\" d=\"M3 5h18\"/><circle class=\"p2\" cx=\"9\" cy=\"9\" r=\"1.5\"/><path class=\"p2\" d=\"M7 20l3-6 4 1 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "jump", "dur": 900, "delay": 600 }
+  ]
+}

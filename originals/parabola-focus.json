@@ -1,0 +1,10 @@
+{
+  "name": "parabola-focus",
+  "category": "math",
+  "tags": ["parabola", "focus", "curve", "conic", "graph", "math"],
+  "svg": "<path class=\"p1\" d=\"M4 5Q12 19 20 5\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

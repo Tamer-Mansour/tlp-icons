@@ -1,0 +1,10 @@
+{
+  "name": "path-expand",
+  "category": "design",
+  "tags": ["path", "expand", "offset", "outward", "grow", "vector"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/><path class=\"p2\" d=\"M4 4l3 3M20 4l-3 3M4 20l3-3M20 20l-3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

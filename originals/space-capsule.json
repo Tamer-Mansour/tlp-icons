@@ -1,0 +1,11 @@
+{
+  "name": "space-capsule",
+  "category": "vehicles",
+  "tags": ["space", "capsule", "spacecraft", "rocket", "module", "mission"],
+  "svg": "<path class=\"d p1\" d=\"M12 2l5 7v8H7V9z\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"1.5\"/><path class=\"p3\" d=\"M7 17l-2 4h14l-2-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "launch", "dur": 900, "delay": 1200 }
+  ]
+}

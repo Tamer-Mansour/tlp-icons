@@ -1,0 +1,10 @@
+{
+  "name": "screw-thread",
+  "category": "science",
+  "tags": ["screw", "thread", "bolt", "fastener", "shaft", "tool", "turn"],
+  "svg": "<path class=\"d p1\" d=\"M9 3h6v15l-3 3-3-3z\"/><path class=\"p2\" d=\"M9 7l6 2M9 11l6 2M9 15l6 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

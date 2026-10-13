@@ -1,0 +1,11 @@
+{
+  "name": "text-size-up",
+  "category": "interface",
+  "tags": ["text", "size", "increase", "font", "bigger", "type"],
+  "svg": "<path class=\"p1\" d=\"M2 19l3.5-8 3.5 8M3.5 15.5h4\"/><path class=\"p2\" d=\"M12 19l4-10 4 10M13.2 15.5h5.6\"/><path class=\"p3\" d=\"M20 2v5M18 4.5l2-2.5 2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

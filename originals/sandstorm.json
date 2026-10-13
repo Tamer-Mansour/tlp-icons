@@ -1,0 +1,10 @@
+{
+  "name": "sandstorm",
+  "category": "nature",
+  "tags": ["sandstorm", "wind", "sand", "storm", "desert"],
+  "svg": "<path class=\"d p1\" d=\"M2 21c3-5 7-6 12-4 2 .8 4 2 8 4z\"/><path class=\"p2\" d=\"M3 8h11a2 2 0 1 0-2-2M6 12h12M3 16h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "whooshIn", "dur": 800, "delay": 500 }
+  ]
+}

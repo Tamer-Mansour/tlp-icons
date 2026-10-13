@@ -1,0 +1,11 @@
+{
+  "name": "steps-diagonal",
+  "category": "shapes",
+  "tags": ["steps", "progress", "stairs", "growth", "rise"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"16\" width=\"4\" height=\"4\"/><rect class=\"p2\" x=\"9\" y=\"10\" width=\"4\" height=\"4\"/><rect class=\"p3\" x=\"15\" y=\"4\" width=\"4\" height=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

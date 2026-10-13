@@ -1,0 +1,10 @@
+{
+  "name": "hydro-dam",
+  "category": "science",
+  "tags": ["dam", "hydro", "water", "power", "river"],
+  "svg": "<path class=\"d p1\" d=\"M3 5h18l-3 11H6z\"/><path class=\"p2\" d=\"M3 19.5c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 700 }
+  ]
+}

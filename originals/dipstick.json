@@ -1,0 +1,11 @@
+{
+  "name": "dipstick",
+  "category": "vehicles",
+  "tags": ["dipstick", "oil", "engine", "level", "check", "rod"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5V17\"/><path class=\"p3\" d=\"M10 17L12 21.5L14 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

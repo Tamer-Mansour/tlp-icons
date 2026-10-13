@@ -1,0 +1,11 @@
+{
+  "name": "soldering-torch",
+  "category": "tools",
+  "tags": ["soldering", "torch", "flame", "heat", "solder", "electronics"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"11\" height=\"5\" rx=\"1\"/><line class=\"p3\" x1=\"14\" y1=\"14.5\" x2=\"17\" y2=\"13\"/><path class=\"p2\" d=\"M18 11C17 8 20 7 19 3C22 6 23 9 21 11Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

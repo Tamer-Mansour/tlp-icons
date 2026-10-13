@@ -1,0 +1,11 @@
+{
+  "name": "cattail",
+  "category": "nature",
+  "tags": ["cattail", "reed", "marsh", "spike", "plant"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"2\" width=\"4\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M12 22V9\"/><path class=\"p3\" d=\"M12 18c-2-2-5-2-6-4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100, "origin": "bottom" }
+  ]
+}

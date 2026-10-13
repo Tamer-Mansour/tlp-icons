@@ -1,0 +1,12 @@
+{
+  "name": "warning-user",
+  "category": "people",
+  "tags": ["warning", "user", "caution", "triangle", "person", "alert", "risk"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"7.5\" r=\"3.5\"/><path class=\"p2\" d=\"M2.5 21a6 6 0 0 1 12 0\"/><path class=\"d p3\" d=\"M18 3.5l4.5 8h-9z\"/><path class=\"p4\" d=\"M18 6.5v2.5\"/><circle class=\"f p4\" cx=\"18\" cy=\"10.2\" r=\".8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "shake", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "text-selection-box",
+  "category": "text",
+  "tags": ["selection", "box", "dashed", "text", "select", "highlight", "area"],
+  "svg": "<path class=\"p1\" d=\"M6 3h2M11 3h2M16 3h2M6 21h2M11 21h2M16 21h2M3 6v2M3 10v2M3 14v2M3 18v2M21 6v2M21 10v2M21 14v2M21 18v2\"/><path class=\"p2\" d=\"M7 9h10M7 15h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 700, "delay": 700 }
+  ]
+}

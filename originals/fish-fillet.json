@@ -1,0 +1,10 @@
+{
+  "name": "fish-fillet",
+  "category": "food",
+  "tags": ["fish", "fillet", "seafood", "salmon", "meat"],
+  "svg": "<path class=\"d p1\" d=\"M3 12 C6 7 13 7 17 10 L21 7 L21 17 L17 14 C13 17 6 17 3 12 Z\"/><path class=\"p2\" d=\"M7 14 L12 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

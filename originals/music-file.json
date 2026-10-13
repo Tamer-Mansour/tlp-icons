@@ -1,0 +1,10 @@
+{
+  "name": "music-file",
+  "category": "media",
+  "tags": ["file", "music", "document", "note", "audio", "track"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h9l5 5v13H5z\"/><path class=\"p2\" d=\"M12 17v-6l4-1v5\"/><circle class=\"p2\" cx=\"10.5\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 600 }
+  ]
+}

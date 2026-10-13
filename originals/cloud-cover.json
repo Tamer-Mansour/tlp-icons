@@ -1,0 +1,10 @@
+{
+  "name": "cloud-cover",
+  "category": "weather",
+  "tags": ["cloud", "cover", "cloudy", "dots", "coverage", "sky"],
+  "svg": "<path class=\"d p1\" d=\"M6.5 18h11a3.5 3.5 0 0 0 0-7 5.5 5.5 0 0 0-10.7-1A4.5 4.5 0 0 0 6.5 18z\"/><circle class=\"f p2\" cx=\"7\" cy=\"4\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"4\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 900, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lane-markers",
+  "category": "sport",
+  "tags": ["lane", "markers", "track", "lines", "dashes", "athletics"],
+  "svg": "<path class=\"p1\" d=\"M3 6H21\"/><path class=\"p2\" d=\"M6 12H9M14 12H17\"/><path class=\"p3\" d=\"M3 18H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

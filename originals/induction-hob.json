@@ -1,0 +1,11 @@
+{
+  "name": "induction-hob",
+  "category": "home",
+  "tags": ["induction", "hob", "stove", "cooktop", "pot", "heat"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"20\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"10\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M4 4q2-2 4 0M16 4q2-2 4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

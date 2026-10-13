@@ -1,0 +1,10 @@
+{
+  "name": "inline-skate",
+  "category": "sport",
+  "tags": ["inline", "skate", "boots", "wheels", "rollerblade", "skating"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h4v9h9a2 2 0 0 1 2 2v1H5z\"/><circle class=\"p2\" cx=\"5\" cy=\"20\" r=\"1.2\"/><circle class=\"p2\" cx=\"10\" cy=\"20\" r=\"1.2\"/><circle class=\"p2\" cx=\"15\" cy=\"20\" r=\"1.2\"/><circle class=\"p2\" cx=\"20\" cy=\"20\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 900, "delay": 700 }
+  ]
+}

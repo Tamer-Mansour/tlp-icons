@@ -1,0 +1,11 @@
+{
+  "name": "dust-devil",
+  "category": "weather",
+  "tags": ["dust", "devil", "spiral", "vortex", "desert", "wind"],
+  "svg": "<path class=\"p1\" d=\"M5 17q7 2.5 14 0M7.5 13.5q4.5 2 9 0M9.5 10q2.5 1.5 5 0\"/><path class=\"p2\" d=\"M3 20.5h18\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "spiralIn", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

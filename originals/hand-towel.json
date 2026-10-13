@@ -1,0 +1,11 @@
+{
+  "name": "hand-towel",
+  "category": "home",
+  "tags": ["hand towel", "towel", "bathroom", "cloth", "hanging loop"],
+  "svg": "<path class=\"d p1\" d=\"M5 8h14v11H5z\"/><path class=\"p2\" d=\"M9 8V5h6v3\"/><path class=\"p3\" d=\"M5 13h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 5px" }
+  ]
+}

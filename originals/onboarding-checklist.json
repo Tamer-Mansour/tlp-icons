@@ -1,0 +1,11 @@
+{
+  "name": "onboarding-checklist",
+  "category": "people",
+  "tags": ["onboarding", "checklist", "new hire", "clipboard", "tasks"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p1\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M8 11.5l1.5 1.5 2.5-2.5\"/><path class=\"p2\" d=\"M14 12h3\"/><path class=\"p3\" d=\"M8 17l1.5 1.5 2.5-2.5\"/><path class=\"p3\" d=\"M14 17.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

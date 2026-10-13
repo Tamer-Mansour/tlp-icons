@@ -1,0 +1,10 @@
+{
+  "name": "barge",
+  "category": "vehicles",
+  "tags": ["barge", "cargo", "boat", "river", "freight", "flat"],
+  "svg": "<path class=\"d p1\" d=\"M2 16h20l-2 4H4z\"/><rect class=\"p2\" x=\"6\" y=\"7\" width=\"12\" height=\"5\"/><path class=\"p2\" d=\"M10 7v5M14 7v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pulley",
+  "category": "science",
+  "tags": ["pulley", "rope", "lift", "machine", "weight"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"4\"/><path class=\"p2\" d=\"M8 8 V15\"/><rect class=\"d p3\" x=\"5\" y=\"15\" width=\"6\" height=\"5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 700 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 900, "origin": "8px 15px" }
+  ]
+}

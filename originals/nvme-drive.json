@@ -1,0 +1,11 @@
+{
+  "name": "nvme-drive",
+  "category": "devices",
+  "tags": ["nvme", "drive", "storage", "stick", "ssd", "fast"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"6\" width=\"4\" height=\"5\"/><path class=\"p3\" d=\"M9 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "buzz", "dur": 600, "delay": 900 }
+  ]
+}

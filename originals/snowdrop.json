@@ -1,0 +1,11 @@
+{
+  "name": "snowdrop",
+  "category": "nature",
+  "tags": ["snowdrop", "flower", "bell", "winter", "spring"],
+  "svg": "<path class=\"d p1\" d=\"M8 11 Q8 19 12 19 Q16 19 16 11 Z\"/><path class=\"p2\" d=\"M12 11 V3\"/><path class=\"p3\" d=\"M5 21 Q9 14 12 19 Q15 14 19 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "go-live",
+  "category": "time",
+  "tags": ["go", "live", "play", "clock", "start", "launch"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polygon class=\"d p2\" points=\"10 8 16 12 10 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 }
+  ]
+}

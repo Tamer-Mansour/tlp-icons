@@ -1,0 +1,11 @@
+{
+  "name": "chat-thread",
+  "category": "communication",
+  "tags": ["thread", "reply", "chain", "messages", "conversation", "replies"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"5\" rx=\"1.5\"/><line class=\"p2\" x1=\"8.5\" y1=\"8\" x2=\"8.5\" y2=\"11\"/><rect class=\"p3\" x=\"8\" y=\"11\" width=\"11\" height=\"5\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 600, "delay": 800 }
+  ]
+}

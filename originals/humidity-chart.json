@@ -1,0 +1,10 @@
+{
+  "name": "humidity-chart",
+  "category": "charts",
+  "tags": ["humidity", "moisture", "droplet", "wave", "weather", "line"],
+  "svg": "<path class=\"d p1\" d=\"M7 3C7 3 3 8 3 11a4 4 0 0 0 8 0C11 8 7 3 7 3z\"/><path class=\"p2\" d=\"M13 9c1.5-2 3-2 4.5 0s3 2 4.5 0M13 15c1.5-2 3-2 4.5 0s3 2 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1200, "delay": 700 }
+  ]
+}

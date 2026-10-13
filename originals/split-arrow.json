@@ -1,0 +1,10 @@
+{
+  "name": "split-arrow",
+  "category": "arrows",
+  "tags": ["split", "fork", "branch", "divide", "two ways", "arrowhead"],
+  "svg": "<path class=\"p1\" d=\"M12 21V12\"/><path class=\"p2\" d=\"M12 12L5 5M5 9V5h4M12 12l7-7M15 5h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spring", "dur": 600, "delay": 500 }
+  ]
+}

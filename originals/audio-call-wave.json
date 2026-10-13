@@ -1,0 +1,10 @@
+{
+  "name": "audio-call-wave",
+  "category": "communication",
+  "tags": ["call", "phone", "audio", "voice", "ringing", "handset"],
+  "svg": "<path class=\"p1\" d=\"M4.5 3.5h3.5l1.5 4.5-2 1.5a10 10 0 0 0 5 5l1.5-2 4.5 1.5v3.5a2 2 0 0 1-2 2C9.5 20 4 14.5 3.5 5.5a2 2 0 0 1 1-2z\"/><path class=\"p2\" d=\"M17.5 9a3.5 3.5 0 0 1 0 4\"/><path class=\"p2\" d=\"M20.5 6.5a7 7 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 900, "delay": 900 }
+  ]
+}

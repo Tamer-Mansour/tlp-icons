@@ -1,0 +1,10 @@
+{
+  "name": "key-shape",
+  "category": "shapes",
+  "tags": ["key", "bow", "teeth", "unlock", "access"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M11 12H21M17 12V15M21 12V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 700, "delay": 800 }
+  ]
+}

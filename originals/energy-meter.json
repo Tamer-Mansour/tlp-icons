@@ -1,0 +1,10 @@
+{
+  "name": "energy-meter",
+  "category": "charts",
+  "tags": ["energy", "meter", "power", "electricity", "usage", "gauge"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><polygon class=\"p2\" points=\"13,6 8.5,12.5 12,12.5 11,18 15.5,11.5 12,11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

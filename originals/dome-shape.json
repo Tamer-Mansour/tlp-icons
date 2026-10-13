@@ -1,0 +1,10 @@
+{
+  "name": "dome-shape",
+  "category": "shapes",
+  "tags": ["dome", "hemisphere", "arc", "roof", "cupola", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M3 18A9 9 0 0 1 21 18Z\"/><path class=\"p2\" d=\"M2 18h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

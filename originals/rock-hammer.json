@@ -1,0 +1,10 @@
+{
+  "name": "rock-hammer",
+  "category": "science",
+  "tags": ["hammer", "rock", "geology", "tool", "pointed", "dig"],
+  "svg": "<polygon class=\"d p1\" points=\"4,5 14,5 20,8 14,11 4,11\"/><line class=\"p2\" x1=\"9\" y1=\"11\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 600, "delay": 800, "origin": "12px 21px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "folder-split",
+  "category": "files",
+  "tags": ["folder", "split", "fork", "divide", "separate"],
+  "svg": "<path class=\"p1\" d=\"M2 17.5h4l1.5 1.5H10V21H2zM14 17.5h4l1.5 1.5H22V21H14z\"/><path class=\"d p2\" d=\"M7 3h4l1.5 1.5H17v6H7z\"/><path class=\"p3\" d=\"M12 10.5V15M6 15h12M6 15v2.5M18 15v2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

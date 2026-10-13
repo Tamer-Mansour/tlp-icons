@@ -1,0 +1,11 @@
+{
+  "name": "distribution-center",
+  "category": "buildings",
+  "tags": ["distribution", "warehouse", "dock", "truck", "logistics", "delivery", "depot"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 20V8.5l6.5-4 6.5 4V20z\"/><path class=\"p2\" d=\"M6.5 20v-5h4.5v5\"/><path class=\"p3\" d=\"M18.5 20V10h2.5l1 2.5V20z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 1000, "delay": 1000 }
+  ]
+}

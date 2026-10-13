@@ -1,0 +1,10 @@
+{
+  "name": "page-next",
+  "category": "arrows",
+  "tags": ["page", "next", "sheet", "forward", "document", "advance"],
+  "svg": "<path class=\"d p1\" d=\"M5 3 H14 L18 7 V21 H5 Z\"/><line class=\"p2\" x1=\"9\" y1=\"13\" x2=\"16\" y2=\"13\"/><polyline class=\"p2\" points=\"13 10 16 13 13 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 600 }
+  ]
+}

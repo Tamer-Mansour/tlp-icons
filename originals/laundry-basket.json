@@ -1,0 +1,11 @@
+{
+  "name": "laundry-basket",
+  "category": "home",
+  "tags": ["laundry", "basket", "clothes", "wash", "hamper", "storage"],
+  "svg": "<path class=\"d p1\" d=\"M3 9h18l-2 11H5z\"/><path class=\"p2\" d=\"M4.5 13h15M5.5 17h13\"/><path class=\"p3\" d=\"M7 9V5h10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "underpass",
+  "category": "buildings",
+  "tags": ["underpass", "tunnel", "road", "bridge", "traffic", "passage"],
+  "svg": "<path class=\"p1\" d=\"M2 15a10 8 0 0 1 20 0\"/><path class=\"p2\" d=\"M2 20h20\"/><rect class=\"p3\" x=\"9\" y=\"16\" width=\"6\" height=\"2\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drive", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "heart-toggle",
+  "category": "interface",
+  "tags": ["heart", "toggle", "like", "switch", "favorite", "option"],
+  "svg": "<path class=\"p1\" d=\"M8.5 19L3.5 14C2 12.5 2 9.5 3.5 8C5 6.5 7 6.5 8.5 8C10 6.5 12 6.5 13.5 8C15 9.5 15 12.5 13.5 14Z\"/><rect class=\"p2\" x=\"17\" y=\"9\" width=\"5\" height=\"4\" rx=\"2\"/><circle class=\"f p3\" cx=\"20\" cy=\"11\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

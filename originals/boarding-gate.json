@@ -1,0 +1,11 @@
+{
+  "name": "boarding-gate",
+  "category": "vehicles",
+  "tags": ["gate", "boarding", "airport", "door", "arrow", "travel"],
+  "svg": "<path class=\"p1\" d=\"M3 21V5h18v16\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"13\"/><path class=\"p3\" d=\"M10 14.5h4M13 12l2 2.5-2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pipe-threader",
+  "category": "tools",
+  "tags": ["pipe", "threader", "threads", "die", "plumbing", "cutting"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"11\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"6\" width=\"6\" height=\"12\" rx=\"1\"/><path class=\"p3\" d=\"M6 9.5L7 14.5M9.5 9.5L10.5 14.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

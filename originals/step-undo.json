@@ -1,0 +1,10 @@
+{
+  "name": "step-undo",
+  "category": "interface",
+  "tags": ["undo", "step", "back", "arrow", "previous", "curve"],
+  "svg": "<path class=\"p1\" d=\"M9 14L4 9l5-5\"/><path class=\"p2\" d=\"M4 9h10a6 6 0 0 1 0 12h-3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

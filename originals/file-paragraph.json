@@ -1,0 +1,11 @@
+{
+  "name": "file-paragraph",
+  "category": "files",
+  "tags": ["paragraph","text","pilcrow","section","format"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M16 11.5H12a3 3 0 0 0 0 6\"/><path class=\"p3\" d=\"M12 11.5v7M16 11.5v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1200 }
+  ]
+}

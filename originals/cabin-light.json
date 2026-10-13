@@ -1,0 +1,10 @@
+{
+  "name": "cabin-light",
+  "category": "vehicles",
+  "tags": ["light", "cabin", "ceiling", "lamp", "interior"],
+  "svg": "<path class=\"d p1\" d=\"M6 9 Q12 3 18 9 Z\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"5\" y2=\"20\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"20\"/><line class=\"p2\" x1=\"16\" y1=\"12\" x2=\"19\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 1000, "delay": 700 }
+  ]
+}

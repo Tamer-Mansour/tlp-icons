@@ -1,0 +1,11 @@
+{
+  "name": "ion-charge",
+  "category": "science",
+  "tags": ["ion", "charge", "atom", "plus", "chemistry"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M8 13h6M11 10v6\"/><path class=\"p3\" d=\"M19 2.5v3M17.5 4h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

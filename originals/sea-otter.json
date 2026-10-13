@@ -1,0 +1,11 @@
+{
+  "name": "sea-otter",
+  "category": "nature",
+  "tags": ["sea", "floating", "paws", "ocean", "marine"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 C3 12 5 11 8 11 H15 C18 11 20 12 20 14 C20 16 18 17 14 17 H7 C5 17 3 16 3 14 Z\"/><circle class=\"d p2\" cx=\"17\" cy=\"8.5\" r=\"2.5\"/><path class=\"p3\" d=\"M2 20 C4 19 6 21 8 20 S12 19 14 20 S18 21 22 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "celestial-sphere",
+  "category": "science",
+  "tags": ["celestial", "sphere", "equator", "meridian", "sky", "astronomy"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"3\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"3\" ry=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1500, "delay": 900 }
+  ]
+}

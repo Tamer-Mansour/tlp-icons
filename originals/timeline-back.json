@@ -1,0 +1,11 @@
+{
+  "name": "timeline-back",
+  "category": "arrows",
+  "tags": ["timeline", "back", "previous", "step", "progress", "sequence"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><circle class=\"f p2\" cx=\"16\" cy=\"12\" r=\"1.2\"/><polyline class=\"p3\" points=\"8 8 4 12 8 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1300 }
+  ]
+}

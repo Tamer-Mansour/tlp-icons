@@ -1,0 +1,11 @@
+{
+  "name": "pancake-stack",
+  "category": "food",
+  "tags": ["food", "pancake", "stack", "breakfast", "butter", "syrup"],
+  "svg": "<path class=\"d p1\" d=\"M4 10v8a8 2.5 0 0 0 16 0v-8a8 2.5 0 0 0-16 0z\"/><path class=\"p2\" d=\"M4 14a8 2.5 0 0 0 16 0\"/><rect class=\"p3\" x=\"9\" y=\"2.5\" width=\"6\" height=\"2.5\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1100 }
+  ]
+}

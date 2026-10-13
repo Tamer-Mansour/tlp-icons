@@ -1,0 +1,11 @@
+{
+  "name": "checkered-flag",
+  "category": "sport",
+  "tags": ["checkered", "flag", "race", "finish", "sport", "motorsport"],
+  "svg": "<path class=\"p1\" d=\"M6 4h14v10H6Z\"/><path class=\"p2\" d=\"M4 3v18\"/><path class=\"p3\" d=\"M10 4v10M15 4v10M6 9h14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

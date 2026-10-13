@@ -1,0 +1,11 @@
+{
+  "name": "percent-change-arrow",
+  "category": "arrows",
+  "tags": ["percent", "change", "increase", "rate", "growth", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"7\" r=\"2.5\"/><circle class=\"p1\" cx=\"17\" cy=\"17\" r=\"2.5\"/><path class=\"p2\" d=\"M14 4.5 6 19.5\"/><path class=\"p3\" d=\"M19 9.5V4.5M16.5 7 19 4.5 21.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

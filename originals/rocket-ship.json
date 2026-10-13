@@ -1,0 +1,12 @@
+{
+  "name": "rocket-ship",
+  "category": "emoji",
+  "tags": ["space", "rocket", "launch", "spaceship", "travel", "startup"],
+  "svg": "<path class=\"d p1\" d=\"M12 2Q17 6.5 17 12V16H7V12Q7 6.5 12 2Z\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"1.5\"/><path class=\"p3\" d=\"M7 13L4 16V19L7 16M17 13L20 16V19L17 16\"/><polyline class=\"p4\" points=\"10,19 12,22 14,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p4", "anim": "flicker", "dur": 900, "delay": 1200 }
+  ]
+}

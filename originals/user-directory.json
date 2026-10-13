@@ -1,0 +1,12 @@
+{
+  "name": "user-directory",
+  "category": "people",
+  "tags": ["user", "directory", "cards", "contacts", "list", "profiles"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"12\" r=\"2.2\"/><path class=\"p2\" d=\"M4.5 19a3.5 3.5 0 0 1 7 0\"/><path class=\"p3\" d=\"M14 11h5M14 15h4\"/><path class=\"p4\" d=\"M5 3.5h14M8 1.5h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

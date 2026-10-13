@@ -1,0 +1,10 @@
+{
+  "name": "volcano-eruption",
+  "category": "science",
+  "tags": ["volcano", "eruption", "lava", "mountain", "smoke", "geology"],
+  "svg": "<path class=\"d p1\" d=\"M3 20 L9.5 10 L14.5 10 L21 20 Z\"/><path class=\"p2\" d=\"M9.5 6 L7 3 M12 6 V2 M14.5 6 L17 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 800 }
+  ]
+}

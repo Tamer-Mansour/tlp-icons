@@ -1,0 +1,11 @@
+{
+  "name": "rescue-boat",
+  "category": "vehicles",
+  "tags": ["rescue", "boat", "lifesaver", "ring", "emergency", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H21 L18 18 H6 Z\"/><rect class=\"p2\" x=\"9\" y=\"8\" width=\"6\" height=\"5\"/><circle class=\"p3\" cx=\"5\" cy=\"10\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

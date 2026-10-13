@@ -1,0 +1,11 @@
+{
+  "name": "debug-step",
+  "category": "interface",
+  "tags": ["debug", "step", "over", "next", "breakpoint", "code"],
+  "svg": "<path class=\"p1\" d=\"M5 10a7 7 0 0 1 14 0M16.5 7.5L19 10l2.5-2.5\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M4 20h10M11 17l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

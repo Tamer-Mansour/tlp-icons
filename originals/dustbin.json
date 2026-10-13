@@ -1,0 +1,11 @@
+{
+  "name": "dustbin",
+  "category": "home",
+  "tags": ["dustbin", "bin", "trash", "lid", "garbage", "waste"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h14l-1.5 12h-11z\"/><rect class=\"p2\" x=\"3\" y=\"4\" width=\"18\" height=\"2.5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 4V2.5h3V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "lift", "dur": 800, "delay": 1000 }
+  ]
+}

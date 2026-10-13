@@ -1,0 +1,10 @@
+{
+  "name": "mistletoe",
+  "category": "nature",
+  "tags": ["mistletoe", "sprig", "berry", "plant", "winter", "holiday"],
+  "svg": "<path class=\"p1\" d=\"M12 21V12M12 12L7 7M12 12l5-5\"/><circle class=\"f p2\" cx=\"7\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 }
+  ]
+}

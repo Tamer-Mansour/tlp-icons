@@ -1,0 +1,10 @@
+{
+  "name": "order-of-operations",
+  "category": "math",
+  "tags": ["order", "operations", "brackets", "arithmetic", "precedence"],
+  "svg": "<path class=\"p1\" d=\"M8 4H5v16h3\"/><path class=\"p1\" d=\"M16 4h3v16h-3\"/><path class=\"p2\" d=\"M10 12h4M12 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

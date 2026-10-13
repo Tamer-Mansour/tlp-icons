@@ -1,0 +1,10 @@
+{
+  "name": "clamp",
+  "category": "tools",
+  "tags": ["clamp", "c-clamp", "screw", "jaw", "hold", "workshop"],
+  "svg": "<path class=\"p1\" d=\"M14 6H6v12h8\"/><path class=\"p2\" d=\"M2 12h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

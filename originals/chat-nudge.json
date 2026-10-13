@@ -1,0 +1,10 @@
+{
+  "name": "chat-nudge",
+  "category": "communication",
+  "tags": ["chat", "nudge", "push", "message", "bubble", "prompt"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"4\" width=\"13\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M2 11h5M4.5 8.5L7 11l-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 800 }
+  ]
+}

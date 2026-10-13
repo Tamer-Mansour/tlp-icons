@@ -1,0 +1,11 @@
+{
+  "name": "bathtub",
+  "category": "home",
+  "tags": ["bathtub", "bath", "tub", "water", "bathroom", "tap", "shower"],
+  "svg": "<path class=\"d p1\" d=\"M3 11 H21 V15 Q21 19 17 19 H7 Q3 19 3 15 Z\"/><path class=\"p2\" d=\"M6 11 V6 H9\"/><circle class=\"f p3\" cx=\"9\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1000 }
+  ]
+}

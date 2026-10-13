@@ -1,0 +1,11 @@
+{
+  "name": "seed-sprout",
+  "category": "science",
+  "tags": ["seed", "sprout", "growth", "plant", "leaves"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"19\" rx=\"4.5\" ry=\"2.5\"/><path class=\"p2\" d=\"M12 16.5V9\"/><path class=\"p3\" d=\"M12 11C10 8 7.5 7.5 6 8.5 6.5 10.5 9 11.5 12 11zM12 9C13.5 6 16 5.5 18 6.5 17.5 8.5 15 9.5 12 9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "bottom" }
+  ]
+}

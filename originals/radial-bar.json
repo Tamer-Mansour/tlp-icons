@@ -1,0 +1,11 @@
+{
+  "name": "radial-bar",
+  "category": "charts",
+  "tags": ["radial", "progress", "arcs", "circular", "gauge", "ring chart"],
+  "svg": "<path class=\"p1\" d=\"M12 3 A9 9 0 1 1 3 12\"/><path class=\"p2\" d=\"M12 6.5 A5.5 5.5 0 0 1 12 17.5\"/><path class=\"p3\" d=\"M12 10 A2 2 0 0 1 14 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "spiralIn", "dur": 500, "delay": 900 }
+  ]
+}

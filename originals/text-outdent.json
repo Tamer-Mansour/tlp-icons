@@ -1,0 +1,10 @@
+{
+  "name": "text-outdent",
+  "category": "text",
+  "tags": ["outdent", "text", "paragraph", "shift", "outward", "align"],
+  "svg": "<path class=\"p1\" d=\"M11 9h10M3 15h18\"/><path class=\"p2\" d=\"M9 9H4M6 7l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 600 }
+  ]
+}

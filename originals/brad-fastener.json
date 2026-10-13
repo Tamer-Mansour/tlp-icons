@@ -1,0 +1,11 @@
+{
+  "name": "brad-fastener",
+  "category": "files",
+  "tags": ["brad", "split pin", "fastener", "paper", "binding"],
+  "svg": "<rect class=\"p1 d\" x=\"5\" y=\"4\" width=\"14\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M9 2h6M12 2v12\"/><path class=\"p3\" d=\"M12 14l-3 6M12 14l3 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1100 }
+  ]
+}

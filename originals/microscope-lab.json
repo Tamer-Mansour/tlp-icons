@@ -1,0 +1,12 @@
+{
+  "name": "microscope-lab",
+  "category": "emoji",
+  "tags": ["microscope", "lab", "science", "lens", "research", "slide"],
+  "svg": "<path class=\"d p1\" d=\"M10 3 H14 L11 12 H7 Z\"/><path class=\"p2\" d=\"M13 7.5 Q20 8 18 15 L15 21\"/><path class=\"p3\" d=\"M3 21 H21 M5 16 H12\"/><circle class=\"f p4\" cx=\"16\" cy=\"4.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1500 }
+  ]
+}

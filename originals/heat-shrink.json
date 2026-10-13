@@ -1,0 +1,11 @@
+{
+  "name": "heat-shrink",
+  "category": "tools",
+  "tags": ["heat", "shrink", "tubing", "wire", "electrical", "insulation"],
+  "svg": "<path class=\"p1\" d=\"M2 12 H22\"/><rect class=\"d p2\" x=\"5\" y=\"9\" width=\"14\" height=\"6\" rx=\"3\"/><path class=\"p3\" d=\"M9 3 V5 M15 3 V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

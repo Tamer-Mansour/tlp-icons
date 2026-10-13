@@ -1,0 +1,10 @@
+{
+  "name": "gesture-message",
+  "category": "communication",
+  "tags": ["gesture", "hand", "wave", "message", "greeting", "chat"],
+  "svg": "<path class=\"d p1\" d=\"M4 3h6a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H7.5L5 14.5V12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M15 11v4.5a3.5 3.5 0 0 0 3.5 3.5H21M15 11V5M18 11V3M21 11V5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 1000, "delay": 800 }
+  ]
+}

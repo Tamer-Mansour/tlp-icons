@@ -1,0 +1,11 @@
+{
+  "name": "moka-pot",
+  "category": "food",
+  "tags": ["moka", "pot", "espresso", "stovetop", "coffee"],
+  "svg": "<path class=\"d p1\" d=\"M8 11 L6.5 20.5 H17.5 L16 11 Z\"/><path class=\"p2\" d=\"M9 11 V7.5 H15 V11\"/><path class=\"p3\" d=\"M8 7.5 Q12 2.5 16 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

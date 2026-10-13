@@ -1,0 +1,11 @@
+{
+  "name": "lockdown",
+  "category": "security",
+  "tags": ["lockdown", "shutter", "lock", "barred", "secure", "closed"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p1\" d=\"M3 7.5H21\"/><rect class=\"d p2\" x=\"9\" y=\"13\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 13V11.5A1.5 1.5 0 0 1 13.5 11.5V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

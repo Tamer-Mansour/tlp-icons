@@ -1,0 +1,11 @@
+{
+  "name": "edge-network",
+  "category": "development",
+  "tags": ["edge", "network", "ring", "nodes", "connected", "topology"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M12 6.5V10M17.5 12H14M6.5 12H10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

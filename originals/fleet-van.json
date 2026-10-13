@@ -1,0 +1,11 @@
+{
+  "name": "fleet-van",
+  "category": "vehicles",
+  "tags": ["fleet", "van", "delivery", "vehicle", "company"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"12\" height=\"9\" rx=\"1\"/><path class=\"p1\" d=\"M14 9h4l3 3v2h-7\"/><rect class=\"p2\" x=\"5\" y=\"8\" width=\"5\" height=\"3\"/><circle class=\"p3\" cx=\"6\" cy=\"18.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"18.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 900 }
+  ]
+}

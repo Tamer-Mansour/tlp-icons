@@ -1,0 +1,10 @@
+{
+  "name": "top-arrow",
+  "category": "emoji",
+  "tags": ["top", "scroll", "back to top", "arrow", "up", "bar"],
+  "svg": "<line class=\"p2\" x1=\"5\" y1=\"4\" x2=\"19\" y2=\"4\"/><path class=\"p1\" d=\"M12 20 V8 M7 13 L12 8 L17 13\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "lift", "dur": 800, "delay": 700 }
+  ]
+}

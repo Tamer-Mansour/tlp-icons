@@ -1,0 +1,10 @@
+{
+  "name": "exit-door",
+  "category": "arrows",
+  "tags": ["exit", "door", "leave", "depart", "outside", "room"],
+  "svg": "<path class=\"p1\" d=\"M11 3H5v18h6\"/><path class=\"p2\" d=\"M9 12h12\"/><path class=\"p2\" d=\"M17 8l4 4-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

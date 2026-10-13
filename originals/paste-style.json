@@ -1,0 +1,10 @@
+{
+  "name": "paste-style",
+  "category": "design",
+  "tags": ["paste", "style", "apply", "format", "brush", "transfer", "design"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"9\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M10 17h10M16 14l4 3-4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "package-delivered",
+  "category": "notifications",
+  "tags": ["package", "delivered", "box", "check", "parcel"],
+  "svg": "<path class=\"p1\" d=\"M3 7l9-4 9 4v10l-9 4-9-4z\"/><path class=\"p1\" d=\"M3 7l9 4 9-4\"/><path class=\"p2\" d=\"M8.5 14.5l2.5 2.5 4.5-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "grain-silo",
+  "category": "buildings",
+  "tags": ["grain", "silo", "farm", "storage", "barn", "agriculture"],
+  "svg": "<path class=\"d p1\" d=\"M6 21V9a6 4 0 0 1 12 0v12z\"/><path class=\"p2\" d=\"M6 14h12\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 1000 }
+  ]
+}

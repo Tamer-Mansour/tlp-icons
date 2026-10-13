@@ -1,0 +1,10 @@
+{
+  "name": "calendar-invite",
+  "category": "communication",
+  "tags": ["meeting invite", "event invitation", "schedule", "calendar", "email"],
+  "svg": "<rect class=\"p1 d\" x=\"3\" y=\"5.5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p1\" d=\"M3 10h18M8 3v4M16 3v4\"/><path class=\"p2\" d=\"M13.5 14h7.5v6h-7.5z\"/><path class=\"p2\" d=\"M13.5 14l3.75 2.75L21 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

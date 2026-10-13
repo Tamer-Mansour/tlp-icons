@@ -1,0 +1,10 @@
+{
+  "name": "red-giant",
+  "category": "science",
+  "tags": ["red", "giant", "star", "dying", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"13\" r=\"7\"/><circle class=\"f p2\" cx=\"20\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 800, "delay": 900 }
+  ]
+}

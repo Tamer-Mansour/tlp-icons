@@ -1,0 +1,11 @@
+{
+  "name": "waterfall",
+  "category": "buildings",
+  "tags": ["waterfall", "cliff", "water", "falls", "nature", "river"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18v4H3z\"/><path class=\"p2\" d=\"M3 21h18\"/><path class=\"p3\" d=\"M6 8c0 4 1 7 1 13M12 8c0 5 1 8 1 13M18 8c0 4 1 7 1 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 1000 }
+  ]
+}

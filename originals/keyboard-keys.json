@@ -1,0 +1,10 @@
+{
+  "name": "keyboard-keys",
+  "category": "development",
+  "tags": ["keyboard", "keys", "type", "input", "keycap", "typing"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"8\" height=\"9\" rx=\"2\"/><rect class=\"p2\" x=\"14\" y=\"8\" width=\"8\" height=\"9\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 600, "delay": 600 }
+  ]
+}

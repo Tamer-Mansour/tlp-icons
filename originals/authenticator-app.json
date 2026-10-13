@@ -1,0 +1,11 @@
+{
+  "name": "authenticator-app",
+  "category": "security",
+  "tags": ["authenticator", "app", "phone", "code", "two", "factor"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2.5\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"8\" r=\"1\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"11.5\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"11.5\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"11.5\" r=\"1\"/><path class=\"p3\" d=\"M11 18.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

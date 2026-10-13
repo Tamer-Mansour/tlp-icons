@@ -1,0 +1,10 @@
+{
+  "name": "class-box",
+  "category": "development",
+  "tags": ["class", "object", "box", "structure", "model"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M4 8h16M4 14h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

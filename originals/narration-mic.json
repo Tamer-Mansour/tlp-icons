@@ -1,0 +1,11 @@
+{
+  "name": "narration-mic",
+  "category": "media",
+  "tags": ["narration", "narrator", "microphone", "book", "story", "voice"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"2\" width=\"6\" height=\"9\" rx=\"3\"/><path class=\"p2\" d=\"M7 10a5 5 0 0 0 10 0\"/><path class=\"d p3\" d=\"M3 18.5Q7.5 16.5 12 18.5Q16.5 16.5 21 18.5V21H3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 600 }
+  ]
+}

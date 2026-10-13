@@ -1,0 +1,11 @@
+{
+  "name": "spread-zoom",
+  "category": "arrows",
+  "tags": ["zoom", "spread", "expand", "pinch", "enlarge", "outward"],
+  "svg": "<path class=\"p1\" d=\"M10 10L4 4M4 9V4H9\"/><path class=\"p2\" d=\"M14 14L20 20M15 20H20V15\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

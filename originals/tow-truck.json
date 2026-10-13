@@ -1,0 +1,10 @@
+{
+  "name": "tow-truck",
+  "category": "vehicles",
+  "tags": ["tow truck", "roadside", "hook", "car", "vehicle", "rescue"],
+  "svg": "<path class=\"d p1\" d=\"M2 8h10v8H2z\"/><path class=\"p1\" d=\"M12 11h4l3 3v1h-7z\"/><circle class=\"p1\" cx=\"6\" cy=\"19.5\" r=\"2\"/><circle class=\"p1\" cx=\"17\" cy=\"19.5\" r=\"2\"/><path class=\"p2\" d=\"M6 8V4h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 700, "origin": "6px 8px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "confusion-matrix",
+  "category": "charts",
+  "tags": ["confusion", "matrix", "grid", "classification", "accuracy", "cells"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"8\" height=\"8\"/><rect class=\"p2\" x=\"14\" y=\"2\" width=\"8\" height=\"8\"/><rect class=\"p2\" x=\"2\" y=\"14\" width=\"8\" height=\"8\"/><rect class=\"d p3\" x=\"14\" y=\"14\" width=\"8\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

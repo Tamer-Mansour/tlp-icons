@@ -1,0 +1,12 @@
+{
+  "name": "soft-return",
+  "category": "text",
+  "tags": ["soft", "return", "line", "wrap", "arrow", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 7h18\"/><path class=\"p2\" d=\"M3 17h7\"/><path class=\"p3\" d=\"M17 11v3h-7\"/><path class=\"p4\" d=\"M13 12l-3 2 3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p4", "anim": "nudgeBack", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "palm-leaf",
+  "category": "nature",
+  "tags": ["palm", "leaf", "tropical", "nature", "plant"],
+  "svg": "<path class=\"p1\" d=\"M12 21 L4 10\"/><path class=\"p1\" d=\"M12 21 L8 4\"/><path class=\"p1\" d=\"M12 21 L16 4\"/><path class=\"p1\" d=\"M12 21 L20 10\"/><path class=\"p2\" d=\"M12 21 V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 900, "origin": "bottom" }
+  ]
+}

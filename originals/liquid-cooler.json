@@ -1,0 +1,11 @@
+{
+  "name": "liquid-cooler",
+  "category": "devices",
+  "tags": ["liquid", "cooler", "radiator", "pump", "cooling", "water"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"14\" width=\"8\" height=\"7\" rx=\"1\"/><rect class=\"p2\" x=\"3\" y=\"3\" width=\"18\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M7 3v7M11 3v7M15 3v7\"/><path class=\"p3\" d=\"M12 10v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1200 }
+  ]
+}

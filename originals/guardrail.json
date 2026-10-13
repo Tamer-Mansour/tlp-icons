@@ -1,0 +1,10 @@
+{
+  "name": "guardrail",
+  "category": "vehicles",
+  "tags": ["guardrail", "rail", "road", "safety", "barrier", "posts"],
+  "svg": "<path class=\"p1\" d=\"M2.5 8H21.5M2.5 11.5H21.5\"/><path class=\"p2\" d=\"M5 8V20M12 8V20M19 8V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

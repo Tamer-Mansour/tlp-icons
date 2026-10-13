@@ -1,0 +1,11 @@
+{
+  "name": "wireless-charging",
+  "category": "connectivity",
+  "tags": ["wireless", "charging", "phone", "battery", "qi", "power"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"9\" width=\"12\" height=\"13\" rx=\"2.5\"/><path class=\"p2\" d=\"M13 11.5L10 15.5H13.5L11 19.5\"/><path class=\"p3\" d=\"M8.5 6.5A5 5 0 0 1 15.5 6.5M5 6A9 9 0 0 1 19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

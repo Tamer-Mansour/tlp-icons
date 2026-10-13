@@ -1,0 +1,11 @@
+{
+  "name": "ski-pole",
+  "category": "sport",
+  "tags": ["ski", "pole", "winter", "snow", "sport"],
+  "svg": "<path class=\"p1\" d=\"M7 21L17 3\"/><circle class=\"p3\" cx=\"9.8\" cy=\"16\" r=\"2\"/><path class=\"p2\" d=\"M15.5 6.5l3 1.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 400, "delay": 900 }
+  ]
+}

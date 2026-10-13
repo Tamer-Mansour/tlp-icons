@@ -1,0 +1,11 @@
+{
+  "name": "golf-club",
+  "category": "sport",
+  "tags": ["golf", "club", "driver", "shaft", "course", "tee"],
+  "svg": "<path class=\"p1\" d=\"M15 3L10.5 14.5\"/><path class=\"d p2\" d=\"M6.5 14.5H12L11 19.5H5.5Z\"/><circle class=\"p3\" cx=\"18\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "swing", "dur": 900, "delay": 500, "origin": "15px 3px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1400 }
+  ]
+}

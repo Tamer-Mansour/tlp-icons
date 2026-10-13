@@ -1,0 +1,11 @@
+{
+  "name": "boat-ramp",
+  "category": "buildings",
+  "tags": ["boat", "ramp", "launch", "slope", "water", "marina"],
+  "svg": "<path class=\"p1\" d=\"M2 8h7l11 9\"/><path class=\"p2\" d=\"M9 17h7l-1.5 2.5h-4z\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

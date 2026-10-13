@@ -1,0 +1,11 @@
+{
+  "name": "nautilus",
+  "category": "nature",
+  "tags": ["shell", "spiral", "sea", "mollusk", "ocean"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"8\"/><path class=\"p2\" d=\"M12 11a2 2 0 1 1 2-2a4 4 0 0 1-4 4a6 6 0 0 1-6-6\"/><path class=\"p3\" d=\"M3 21q2-2 4 0t4 0t4 0t4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 900, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1300 }
+  ]
+}

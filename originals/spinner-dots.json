@@ -1,0 +1,10 @@
+{
+  "name": "spinner-dots",
+  "category": "interface",
+  "tags": ["spinner", "loading", "dots", "busy", "wait"],
+  "svg": "<circle class=\"p1\" cx=\"16\" cy=\"18.9\" r=\"1.5\"/><circle class=\"p1\" cx=\"8\" cy=\"18.9\" r=\"1.5\"/><circle class=\"p1\" cx=\"4\" cy=\"12\" r=\"1.5\"/><circle class=\"p1\" cx=\"8\" cy=\"5.1\" r=\"1.5\"/><circle class=\"p1\" cx=\"16\" cy=\"5.1\" r=\"1.5\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 600, "origin": "center" }
+  ]
+}

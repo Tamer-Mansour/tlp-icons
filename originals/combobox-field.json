@@ -1,0 +1,11 @@
+{
+  "name": "combobox-field",
+  "category": "interface",
+  "tags": ["combobox", "field", "input", "search", "dropdown"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M7 9v6\"/><path class=\"p3\" d=\"M14 10.5l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

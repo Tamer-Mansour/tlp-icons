@@ -1,0 +1,11 @@
+{
+  "name": "range-hood",
+  "category": "home",
+  "tags": ["range", "hood", "extractor", "vent", "kitchen", "cooker"],
+  "svg": "<path class=\"d p1\" d=\"M3 4h18l-3 6H6z\"/><path class=\"p2\" d=\"M4 20h16\"/><path class=\"p3\" d=\"M9 13v4M12 13v5M15 13v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "image-file",
+  "category": "files",
+  "tags": ["image", "file", "photo", "picture", "mountain"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><path class=\"d p2\" d=\"M7 18l3-4 2 2 3-4 3 6z\"/><circle class=\"p3\" cx=\"10\" cy=\"9\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

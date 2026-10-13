@@ -1,0 +1,11 @@
+{
+  "name": "dog-house",
+  "category": "nature",
+  "tags": ["dog house", "doghouse", "kennel", "pet", "shelter", "home"],
+  "svg": "<polyline class=\"p1\" points=\"3,11 12,4 21,11\"/><rect class=\"d p2\" x=\"5\" y=\"11\" width=\"14\" height=\"9\"/><path class=\"p3\" d=\"M10 20 V16.5 A2 2 0 0 1 14 16.5 V20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

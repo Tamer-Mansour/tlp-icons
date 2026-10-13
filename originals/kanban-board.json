@@ -1,0 +1,10 @@
+{
+  "name": "kanban-board",
+  "category": "development",
+  "tags": ["kanban", "board", "columns", "cards", "workflow", "agile"],
+  "svg": "<path class=\"p1\" d=\"M2 3h5v18h-5z M9.5 3h5v18h-5z M17 3h5v18h-5z\"/><path class=\"p2\" d=\"M3 5h3v4h-3z M3 11h3v4h-3z M10.5 5h3v4h-3z M18 5h3v4h-3z M18 11h3v4h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

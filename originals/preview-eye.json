@@ -1,0 +1,10 @@
+{
+  "name": "preview-eye",
+  "category": "interface",
+  "tags": ["preview", "eye", "view", "visible", "look", "peek"],
+  "svg": "<path class=\"p1\" d=\"M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12z\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 900 }
+  ]
+}

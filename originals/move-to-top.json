@@ -1,0 +1,11 @@
+{
+  "name": "move-to-top",
+  "category": "arrows",
+  "tags": ["move", "top", "raise", "upload", "arrows"],
+  "svg": "<line class=\"p1\" x1=\"4\" y1=\"3\" x2=\"20\" y2=\"3\"/><rect class=\"d p2\" x=\"8\" y=\"14\" width=\"8\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M12 11V6\"/><polyline class=\"p3\" points=\"9 9 12 6 15 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 800 }
+  ]
+}

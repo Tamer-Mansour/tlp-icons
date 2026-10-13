@@ -1,0 +1,10 @@
+{
+  "name": "lens-hood",
+  "category": "devices",
+  "tags": ["lens", "hood", "camera", "flare", "photo", "shade"],
+  "svg": "<path class=\"p1\" d=\"M4 4 H20 L16 13 H8 Z\"/><circle class=\"d p2\" cx=\"12\" cy=\"18.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

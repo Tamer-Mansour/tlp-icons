@@ -1,0 +1,11 @@
+{
+  "name": "vault-horse",
+  "category": "sport",
+  "tags": ["vault", "horse", "gymnastics", "springboard", "jump", "gym"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M5 13v7M9 13v7M15 13v7M19 13v7\"/><path class=\"p3\" d=\"M2 20.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

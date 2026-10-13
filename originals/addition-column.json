@@ -1,0 +1,12 @@
+{
+  "name": "addition-column",
+  "category": "math",
+  "tags": ["addition", "column", "sum", "plus", "numbers", "arithmetic"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"4\" width=\"12\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"8\" y=\"11\" width=\"12\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M2 13.5 H5 M3.5 12 V15\"/><line class=\"p4\" x1=\"6\" y1=\"19\" x2=\"21\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

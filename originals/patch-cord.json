@@ -1,0 +1,11 @@
+{
+  "name": "patch-cord",
+  "category": "communication",
+  "tags": ["patch", "cord", "plug", "cable", "connect", "jumper"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M7 12 C9 18 15 18 17 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 400, "origin": "7px 12px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "egg-beater",
+  "category": "food",
+  "tags": ["egg", "beater", "whisk", "kitchen", "mix", "baking", "utensil"],
+  "svg": "<path class=\"p1\" d=\"M12 14C8 11.5 7 8.5 8 6Q12 2 16 6C17 8.5 16 11.5 12 14ZM12 14V3\"/><line class=\"p2\" x1=\"12\" y1=\"14\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800, "origin": "12px 14px" }
+  ]
+}

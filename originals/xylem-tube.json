@@ -1,0 +1,10 @@
+{
+  "name": "xylem-tube",
+  "category": "science",
+  "tags": ["biology", "xylem", "plant", "vessel", "botany"],
+  "svg": "<path class=\"p1\" d=\"M8 3v18M16 3v18\"/><path class=\"p2\" d=\"M8 8h8M8 14h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

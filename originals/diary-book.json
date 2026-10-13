@@ -1,0 +1,11 @@
+{
+  "name": "diary-book",
+  "category": "files",
+  "tags": ["diary", "journal", "book", "lock", "bookmark"],
+  "svg": "<rect class=\"p1\" x=\"4.5\" y=\"2.5\" width=\"15\" height=\"19\" rx=\"2\"/><path class=\"p2\" d=\"M14 2.5v7l1.5-1.5 1.5 1.5v-7\"/><circle class=\"p3\" cx=\"12\" cy=\"14\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 900, "origin": "14px 2.5px" }
+  ]
+}

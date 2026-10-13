@@ -1,0 +1,11 @@
+{
+  "name": "referral-flow",
+  "category": "charts",
+  "tags": ["referral", "flow", "nodes", "arrow", "share", "link"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"6\" r=\"3\"/><path class=\"p3\" d=\"M9.5 7.5Q16 7 15.5 14\"/><polyline class=\"p3\" points=\"13 11.5 15.5 14 18 11.5\"/><circle class=\"p2\" cx=\"18\" cy=\"19\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 1200 }
+  ]
+}

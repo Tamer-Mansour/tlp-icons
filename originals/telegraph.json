@@ -1,0 +1,11 @@
+{
+  "name": "telegraph",
+  "category": "communication",
+  "tags": ["telegraph", "pole", "wire", "telegram", "morse"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18M9 21h6\"/><path class=\"p2\" d=\"M8 6h8\"/><path class=\"p3\" d=\"M16 6c2 2 3 3 6 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "responsive-frame",
+  "category": "design",
+  "tags": ["responsive", "frame", "resize", "breakpoint", "adapt", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"12\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M2 12h3M4 10l-2 2 2 2\"/><path class=\"p3\" d=\"M22 12h-3M20 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 1000 }
+  ]
+}

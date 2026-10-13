@@ -1,0 +1,10 @@
+{
+  "name": "laser-printer",
+  "category": "devices",
+  "tags": ["laser", "printer", "beam", "print", "office", "toner"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"18\" height=\"8\" rx=\"1.5\"/><line class=\"p2\" x1=\"12\" y1=\"6\" x2=\"12\" y2=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 700 }
+  ]
+}

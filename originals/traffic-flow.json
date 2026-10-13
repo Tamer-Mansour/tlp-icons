@@ -1,0 +1,11 @@
+{
+  "name": "traffic-flow",
+  "category": "connectivity",
+  "tags": ["traffic", "flow", "lanes", "data", "bandwidth", "direction"],
+  "svg": "<path class=\"p1\" d=\"M3 8h14\"/><polyline class=\"p2\" points=\"14 5 18 8 14 11\"/><path class=\"p3\" d=\"M3 16h14\"/><polyline class=\"p2\" points=\"14 13 18 16 14 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 200 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

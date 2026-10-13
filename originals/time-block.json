@@ -1,0 +1,11 @@
+{
+  "name": "time-block",
+  "category": "time",
+  "tags": ["block", "schedule", "planner", "hours", "grid"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"5\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"11\" width=\"18\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 18v3M16 18v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

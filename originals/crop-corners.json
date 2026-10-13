@@ -1,0 +1,10 @@
+{
+  "name": "crop-corners",
+  "category": "interface",
+  "tags": ["crop", "corners", "frame", "trim", "brackets"],
+  "svg": "<path class=\"p1\" d=\"M3 8V3H8M16 3H21V8M21 16V21H16M8 21H3V16\"/><rect class=\"d p2\" x=\"8\" y=\"8\" width=\"8\" height=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

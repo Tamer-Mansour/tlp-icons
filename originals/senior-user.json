@@ -1,0 +1,11 @@
+{
+  "name": "senior-user",
+  "category": "people",
+  "tags": ["senior", "elderly", "cane", "older", "person", "user"],
+  "svg": "<circle class=\"p1\" cx=\"8.5\" cy=\"6\" r=\"2.5\"/><path class=\"p2\" d=\"M3 21v-5.5a4 4 0 0 1 8 0V21\"/><path class=\"p3\" d=\"M19 21V9.5a2.5 2.5 0 0 0-5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

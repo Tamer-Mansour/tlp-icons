@@ -1,0 +1,11 @@
+{
+  "name": "wheel-alignment",
+  "category": "vehicles",
+  "tags": ["wheel", "alignment", "tire", "car", "angle", "service", "spin"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p3\" d=\"M7 6.5l5 5.5M17 6.5L12 12\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

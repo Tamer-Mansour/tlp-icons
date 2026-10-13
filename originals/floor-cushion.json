@@ -1,0 +1,11 @@
+{
+  "name": "floor-cushion",
+  "category": "home",
+  "tags": ["floor", "cushion", "pillow", "seat", "pouf"],
+  "svg": "<path class=\"d p1\" d=\"M3 8v8a9 4 0 0 0 18 0V8a9 4 0 0 0-18 0z\"/><path class=\"p2\" d=\"M3 8a9 4 0 0 0 18 0\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

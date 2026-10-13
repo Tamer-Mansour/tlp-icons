@@ -1,0 +1,12 @@
+{
+  "name": "file-branch",
+  "category": "files",
+  "tags": ["branch", "fork", "split", "version", "tree"],
+  "svg": "<path class=\"p1\" d=\"M14.5 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z M14.5 2.5V8h5\"/><path class=\"p2\" d=\"M8 10v9\"/><path class=\"p3\" d=\"M8 15c0-2 6-1 6-4\"/><circle class=\"f p4\" cx=\"14\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

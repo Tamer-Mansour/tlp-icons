@@ -1,0 +1,11 @@
+{
+  "name": "device-phone-dev",
+  "category": "development",
+  "tags": ["phone", "mobile", "code", "development", "app", "device"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M10.5 9.5L9 11l1.5 1.5M13.5 9.5L15 11l-1.5 1.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"19\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

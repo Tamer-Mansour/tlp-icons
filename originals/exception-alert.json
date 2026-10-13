@@ -1,0 +1,11 @@
+{
+  "name": "exception-alert",
+  "category": "development",
+  "tags": ["exception", "error", "alert", "warning", "crash", "triangle"],
+  "svg": "<path class=\"d p1\" d=\"M12 3L2 20h20z\"/><path class=\"p2\" d=\"M12 9v4\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 500, "delay": 900 }
+  ]
+}

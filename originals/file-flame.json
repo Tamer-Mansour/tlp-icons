@@ -1,0 +1,10 @@
+{
+  "name": "file-flame",
+  "category": "files",
+  "tags": ["file", "flame", "fire", "hot", "burn", "trending"],
+  "svg": "<path class=\"p1\" d=\"M14 2.5H6.5A1.5 1.5 0 0 0 5 4v16a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 20V7.5z M14 2.5V7.5H19\"/><path class=\"d p2\" d=\"M12 19.5c-2.5 0-4-1.7-4-3.8 0-2.3 1.6-3.4 2.4-5.5.9 1.1 1.2 2.1 1.2 3 .7-.8 1-1.8.8-3.2 2 1.5 3.6 3.6 3.6 5.7 0 2.1-1.5 3.8-4 3.8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 700, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "select-word",
+  "category": "text",
+  "tags": ["select", "word", "highlight", "dashed", "box", "text", "selection"],
+  "svg": "<path class=\"p1\" d=\"M6 5h2M11 5h2M16 5h2M6 19h2M11 19h2M16 19h2M3 6v2M3 10v2M3 14v2M21 6v2M21 10v2M21 14v2\"/><path class=\"p2\" d=\"M6 15V9M9 15V9M6 12h3M13 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 600, "delay": 700 }
+  ]
+}

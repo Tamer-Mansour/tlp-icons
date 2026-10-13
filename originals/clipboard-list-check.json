@@ -1,0 +1,11 @@
+{
+  "name": "clipboard-list-check",
+  "category": "files",
+  "tags": ["clipboard", "list", "checklist", "completed", "tasks"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2\" width=\"6\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M8 11l1 1 2-2M8 15l1 1 2-2M13.5 11h3M13.5 15h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

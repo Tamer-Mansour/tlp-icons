@@ -1,0 +1,10 @@
+{
+  "name": "dial-pad",
+  "category": "communication",
+  "tags": ["dial", "keypad", "phone", "numbers", "call"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"4\" r=\"1.5\"/><circle class=\"p1\" cx=\"12\" cy=\"4\" r=\"1.5\"/><circle class=\"p1\" cx=\"18\" cy=\"4\" r=\"1.5\"/><circle class=\"p1\" cx=\"6\" cy=\"9.5\" r=\"1.5\"/><circle class=\"p1\" cx=\"12\" cy=\"9.5\" r=\"1.5\"/><circle class=\"p1\" cx=\"18\" cy=\"9.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"6\" cy=\"15\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"1.5\"/><circle class=\"p2\" cx=\"18\" cy=\"15\" r=\"1.5\"/><circle class=\"p2\" cx=\"6\" cy=\"20.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"20.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"18\" cy=\"20.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 }
+  ]
+}

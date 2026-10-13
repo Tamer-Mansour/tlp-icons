@@ -1,0 +1,10 @@
+{
+  "name": "arrow-curve",
+  "category": "shapes",
+  "tags": ["arrow", "curve", "redo", "turn", "return"],
+  "svg": "<path class=\"p1\" d=\"M4 18C4 9 10 4 20 4\"/><path class=\"p2\" d=\"M15 4h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

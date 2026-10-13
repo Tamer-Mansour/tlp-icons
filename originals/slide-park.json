@@ -1,0 +1,12 @@
+{
+  "name": "slide-park",
+  "category": "buildings",
+  "tags": ["slide park", "playground", "ladder", "slide", "play area"],
+  "svg": "<path class=\"p1\" d=\"M3 21V8h8\"/><path class=\"p2\" d=\"M11 8c5 0 8 5 9 13\"/><path class=\"p3\" d=\"M2 21h20\"/><circle class=\"f p4\" cx=\"6\" cy=\"5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "knee-pad",
+  "category": "sport",
+  "tags": ["knee", "pad", "protection", "strap", "skating", "guard"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"13\" rx=\"6\"/><path class=\"p2\" d=\"M9 11Q12 8 15 11\"/><path class=\"p3\" d=\"M4 20H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

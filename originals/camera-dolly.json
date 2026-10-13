@@ -1,0 +1,11 @@
+{
+  "name": "camera-dolly",
+  "category": "media",
+  "tags": ["dolly", "camera", "track", "wheels", "film", "movement"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"12\" height=\"8\" rx=\"1.5\"/><polygon class=\"p1\" points=\"16,9 20,7 20,13 16,11\"/><circle class=\"p3\" cx=\"7\" cy=\"17.5\" r=\"2\"/><circle class=\"p3\" cx=\"15\" cy=\"17.5\" r=\"2\"/><line class=\"p4\" x1=\"2\" y1=\"21.5\" x2=\"22\" y2=\"21.5\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "drive", "dur": 1000, "delay": 1000 }
+  ]
+}

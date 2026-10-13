@@ -1,0 +1,11 @@
+{
+  "name": "fraction-text",
+  "category": "text",
+  "tags": ["fraction", "numerator", "denominator", "math", "text", "ratio", "division"],
+  "svg": "<path class=\"p1\" d=\"M3.5 12h17\"/><path class=\"p2\" d=\"M7 4.5v6M5 6.5l2-2\"/><path class=\"p3\" d=\"M14 15.5a2 2 0 1 1 4 .5L14 20h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hill",
+  "category": "nature",
+  "tags": ["hill", "slope", "rolling", "landscape", "outdoors"],
+  "svg": "<path class=\"d p1\" d=\"M2 20c2.5-6 5-9 10-9s7.5 3 10 9z\"/><path class=\"p2\" d=\"M2 22h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

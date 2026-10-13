@@ -1,0 +1,11 @@
+{
+  "name": "new-line",
+  "category": "text",
+  "tags": ["new", "line", "down", "next", "newline", "text"],
+  "svg": "<path class=\"p1\" d=\"M4 5h16\"/><path class=\"p2\" d=\"M12 9v9\"/><path class=\"p3\" d=\"M8 14l4 4 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

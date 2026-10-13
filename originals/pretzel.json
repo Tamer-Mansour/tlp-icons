@@ -1,0 +1,10 @@
+{
+  "name": "pretzel",
+  "category": "food",
+  "tags": ["pretzel", "salt", "bread", "knot", "snack"],
+  "svg": "<path class=\"p1\" d=\"M12 9 C10 5 4 5 4 10 C4 14 8 14 9 16 M12 9 C14 5 20 5 20 10 C20 14 16 14 15 16 M9 16 C10 18 11 19 12 21 M15 16 C14 18 13 19 12 21\"/><circle class=\"f p2\" cx=\"8\" cy=\"8\" r=\"0.9\"/><circle class=\"f p2\" cx=\"16\" cy=\"8\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

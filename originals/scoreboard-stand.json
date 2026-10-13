@@ -1,0 +1,10 @@
+{
+  "name": "scoreboard-stand",
+  "category": "buildings",
+  "tags": ["scoreboard", "stand", "sports", "display", "legs", "stadium"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M8 14v7M16 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

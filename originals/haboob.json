@@ -1,0 +1,10 @@
+{
+  "name": "haboob",
+  "category": "weather",
+  "tags": ["haboob", "dust storm", "wall", "desert", "wind", "sand"],
+  "svg": "<path class=\"d p1\" d=\"M3 20V8q3-3 6 0t6 0t6 0v12z\"/><path class=\"p2\" d=\"M7 14h3M13 14h4M8 17.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 900, "delay": 700 }
+  ]
+}

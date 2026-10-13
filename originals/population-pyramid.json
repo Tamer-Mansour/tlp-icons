@@ -1,0 +1,10 @@
+{
+  "name": "population-pyramid",
+  "category": "charts",
+  "tags": ["pyramid", "population", "demographics", "bars", "chart", "age"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"4\" width=\"4\" height=\"3\"/><rect class=\"p1\" x=\"5\" y=\"9\" width=\"6\" height=\"3\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"8\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"4\" width=\"4\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"9\" width=\"6\" height=\"3\"/><rect class=\"p2\" x=\"13\" y=\"14\" width=\"8\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 600, "delay": 0, "origin": "right" },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 300, "origin": "left" }
+  ]
+}

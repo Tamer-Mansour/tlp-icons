@@ -1,0 +1,10 @@
+{
+  "name": "magnet-pickup",
+  "category": "tools",
+  "tags": ["magnet", "pickup", "telescoping", "retrieve", "screw", "grab"],
+  "svg": "<path class=\"p1\" d=\"M3 3l11 11\"/><path class=\"d p2\" d=\"M14 16v2a3 3 0 0 0 6 0v-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "blocklist",
+  "category": "security",
+  "tags": ["blocklist", "block", "denied", "banned", "list", "forbidden"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"18\" r=\"2\"/><path class=\"p2\" d=\"M3.75 4.75l2.5 2.5M3.75 10.75l2.5 2.5M3.75 16.75l2.5 2.5\"/><path class=\"p3\" d=\"M11 6h10M11 12h10M11 18h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

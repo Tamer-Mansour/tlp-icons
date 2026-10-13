@@ -1,0 +1,10 @@
+{
+  "name": "playground",
+  "category": "buildings",
+  "tags": ["playground", "swing", "kids", "play", "children", "park"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18M5.5 21L8 4M18.5 21L16 4\"/><path class=\"p2\" d=\"M9.5 4.5L9 13.5M14.5 4.5L15 13.5M7.5 13.5h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 1200, "delay": 700, "origin": "12px 4px" }
+  ]
+}

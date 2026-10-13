@@ -1,0 +1,10 @@
+{
+  "name": "crop-yield",
+  "category": "charts",
+  "tags": ["crop", "yield", "sprout", "harvest", "farming", "bars"],
+  "svg": "<path class=\"p1\" d=\"M6 21v-10\"/><path class=\"p1\" d=\"M6 13c-3 0-4-2-4-5 3 0 4 2 4 5z\"/><path class=\"p1\" d=\"M6 11c0-3 2-5 5-5 0 3-2 5-5 5z\"/><path class=\"p2\" d=\"M14 21v-4M18 21v-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 800, "origin": "bottom" }
+  ]
+}

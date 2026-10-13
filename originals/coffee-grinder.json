@@ -1,0 +1,11 @@
+{
+  "name": "coffee-grinder",
+  "category": "food",
+  "tags": ["grinder", "coffee", "beans", "mill", "crank"],
+  "svg": "<path class=\"p3\" d=\"M6 3 H18 L15 7 H9 Z\"/><path class=\"p1 d\" d=\"M8 9 H16 V19 Q16 21 14 21 H10 Q8 21 8 19 Z\"/><path class=\"p2\" d=\"M16 12 H19\"/><circle class=\"p2\" cx=\"20.5\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

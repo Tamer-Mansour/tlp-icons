@@ -1,0 +1,11 @@
+{
+  "name": "samosa",
+  "category": "food",
+  "tags": ["samosa", "pastry", "triangle", "fried", "snack", "indian"],
+  "svg": "<path class=\"d p1\" d=\"M4 19 12 5l8 14z\"/><path class=\"p2\" d=\"M8 14l4 2 4-2\"/><circle class=\"f p3\" cx=\"12\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

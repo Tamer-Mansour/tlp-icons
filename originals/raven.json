@@ -1,0 +1,12 @@
+{
+  "name": "raven",
+  "category": "nature",
+  "tags": ["raven", "bird", "black", "beak", "wing", "omen"],
+  "svg": "<path class=\"d p1\" d=\"M3 16C3 11 7 8 12 8C17 8 20 11 20 15C20 19 16 21 12 21C7 21 3 19 3 16Z\"/><circle class=\"p2\" cx=\"18\" cy=\"7\" r=\"3\"/><path class=\"p3\" d=\"M20.5 6L22 7.5L20.5 9\"/><path class=\"p4\" d=\"M6 14C9 17 13 17 17 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1200 }
+  ]
+}

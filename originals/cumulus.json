@@ -1,0 +1,10 @@
+{
+  "name": "cumulus",
+  "category": "weather",
+  "tags": ["cumulus", "cloud", "fair weather", "puffy", "sky", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M6 18 A4 4 0 0 1 6 10 A5 5 0 0 1 15 8 A4 4 0 0 1 18 14 A4 4 0 0 1 18 18 Z\"/><path class=\"p2\" d=\"M9 13 A2.5 2.5 0 0 1 12 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 900 }
+  ]
+}

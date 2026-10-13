@@ -1,0 +1,11 @@
+{
+  "name": "runner-table",
+  "category": "home",
+  "tags": ["runner", "table", "cloth", "dining", "decor", "linen"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"6\" width=\"19\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M5 10v10M19 10v10\"/><path class=\"p3\" d=\"M9.5 10v4.5h5V10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

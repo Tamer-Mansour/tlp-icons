@@ -1,0 +1,10 @@
+{
+  "name": "folder-list",
+  "category": "files",
+  "tags": ["folder", "list", "bullets", "items", "rows", "index"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M9.5 11.5h8.5M9.5 14.5h8.5M9.5 17.5h8.5\"/><circle class=\"f p2\" cx=\"7\" cy=\"11.5\" r=\"1\"/><circle class=\"f p2\" cx=\"7\" cy=\"14.5\" r=\"1\"/><circle class=\"f p2\" cx=\"7\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500 }
+  ]
+}

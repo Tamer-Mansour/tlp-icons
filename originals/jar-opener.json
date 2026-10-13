@@ -1,0 +1,11 @@
+{
+  "name": "jar-opener",
+  "category": "home",
+  "tags": ["jar", "opener", "grip", "lid", "kitchen"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p3\" d=\"M12 3v2M12 19v2M3 12h2M19 12h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "spinHalf", "dur": 800, "delay": 900 }
+  ]
+}

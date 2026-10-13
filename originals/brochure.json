@@ -1,0 +1,11 @@
+{
+  "name": "brochure",
+  "category": "communication",
+  "tags": ["brochure", "tri-fold", "panels", "leaflet", "print", "pamphlet"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M9 4v16M15 4v16\"/><path class=\"p3\" d=\"M5 8h2M5 11h2M11 8h2M11 11h2M17 8h2M17 11h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "fadeIn", "dur": 500, "delay": 800 }
+  ]
+}

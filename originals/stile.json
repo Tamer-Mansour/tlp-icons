@@ -1,0 +1,11 @@
+{
+  "name": "stile",
+  "category": "buildings",
+  "tags": ["stile", "fence", "step", "wooden", "footpath", "rural"],
+  "svg": "<path class=\"p1\" d=\"M5 4V20M19 4V20\"/><path class=\"p2\" d=\"M5 8H19M5 16H19\"/><path class=\"p3\" d=\"M9 12H15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "origin": "bottom", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1000 }
+  ]
+}

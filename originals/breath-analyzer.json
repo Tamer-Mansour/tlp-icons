@@ -1,0 +1,12 @@
+{
+  "name": "breath-analyzer",
+  "category": "devices",
+  "tags": ["breath", "analyzer", "alcohol", "test", "gauge", "sensor"],
+  "svg": "<rect class=\"p4\" x=\"2\" y=\"9\" width=\"4\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M6 11H9\"/><circle class=\"d p1\" cx=\"15\" cy=\"12\" r=\"6\"/><line class=\"p3\" x1=\"15\" y1=\"12\" x2=\"18.5\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 600, "delay": 900, "origin": "15px 12px" }
+  ]
+}

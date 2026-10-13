@@ -1,0 +1,11 @@
+{
+  "name": "form-submit",
+  "category": "files",
+  "tags": ["submit", "form", "send", "button", "confirm"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"2.5\" width=\"19\" height=\"19\" rx=\"2\"/><line class=\"p3\" x1=\"6.5\" y1=\"7.5\" x2=\"17.5\" y2=\"7.5\"/><path class=\"p2\" d=\"M7 16h9M12.5 12.5l3.5 3.5-3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

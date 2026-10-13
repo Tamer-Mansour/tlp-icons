@@ -1,0 +1,11 @@
+{
+  "name": "catfish",
+  "category": "nature",
+  "tags": ["fish", "whiskers", "river", "flat", "bottom"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13.5\" rx=\"7\" ry=\"3.5\"/><path class=\"p2\" d=\"M17.5 13.5 L22 10 L21 13.5 L22 17 Z\"/><path class=\"p3\" d=\"M5 13 L2 11 M5 15 L2 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "18px 13.5px" }
+  ]
+}

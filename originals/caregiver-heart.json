@@ -1,0 +1,11 @@
+{
+  "name": "caregiver-heart",
+  "category": "people",
+  "tags": ["caregiver", "care", "heart", "support", "helper", "person"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"7\" r=\"3\"/><path class=\"p2\" d=\"M2.5 21v-3a5.5 5.5 0 0 1 9.5-3.8\"/><path class=\"d p3\" d=\"M18 13.5l-3.6-3.6a2.1 2.1 0 0 1 3.6-2.7 2.1 2.1 0 0 1 3.6 2.7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "beat", "dur": 800, "delay": 1000 }
+  ]
+}

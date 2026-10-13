@@ -1,0 +1,11 @@
+{
+  "name": "utility-trailer",
+  "category": "vehicles",
+  "tags": ["utility", "trailer", "flatbed", "hauling", "cargo"],
+  "svg": "<path class=\"p1\" d=\"M3 14h18\"/><path class=\"p2\" d=\"M3 14v-3h18v3\"/><circle class=\"p3\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"17\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "connection-line",
+  "category": "people",
+  "tags": ["connection", "line", "link", "pair", "contact", "node"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"12\" r=\"3\"/><circle class=\"p2\" cx=\"19\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "stretch", "dur": 600, "delay": 700 }
+  ]
+}

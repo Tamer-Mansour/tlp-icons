@@ -1,0 +1,11 @@
+{
+  "name": "ox",
+  "category": "nature",
+  "tags": ["ox", "horns", "cattle", "broad shoulder", "farm"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 Q4 8 9 8 H15 Q20 8 20 12 V16 Q20 19 16 19 H8 Q4 19 4 16 Z\"/><path class=\"p2\" d=\"M6 8 Q3 6 3 3 M18 8 Q21 6 21 3\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1300 }
+  ]
+}

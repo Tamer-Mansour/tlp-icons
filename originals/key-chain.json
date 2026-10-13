@@ -1,0 +1,11 @@
+{
+  "name": "key-chain",
+  "category": "security",
+  "tags": ["key", "chain", "keys", "keyring", "access", "hanging"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18M7 3v7M17 3v7\"/><circle class=\"d p2\" cx=\"7\" cy=\"12\" r=\"2\"/><circle class=\"d p2\" cx=\"17\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M7 14v6M17 14v6M7 17h2M17 17h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

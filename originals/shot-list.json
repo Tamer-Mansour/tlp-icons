@@ -1,0 +1,11 @@
+{
+  "name": "shot-list",
+  "category": "media",
+  "tags": ["shot", "list", "scene", "camera", "plan", "production"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"5\" height=\"4\" rx=\"1\"/><line class=\"p2\" x1=\"10\" y1=\"5\" x2=\"21\" y2=\"5\"/><line class=\"p2\" x1=\"8\" y1=\"12\" x2=\"21\" y2=\"12\"/><line class=\"p2\" x1=\"8\" y1=\"18\" x2=\"21\" y2=\"18\"/><circle class=\"f p3\" cx=\"4\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"4\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

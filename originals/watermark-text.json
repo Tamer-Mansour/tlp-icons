@@ -1,0 +1,11 @@
+{
+  "name": "watermark-text",
+  "category": "text",
+  "tags": ["watermark", "faded text", "draft", "page", "overlay"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><line class=\"p2\" x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"/><line class=\"p3\" x1=\"7\" y1=\"8\" x2=\"11\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "fadeIn", "dur": 800, "delay": 900 }
+  ]
+}

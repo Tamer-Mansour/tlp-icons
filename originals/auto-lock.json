@@ -1,0 +1,11 @@
+{
+  "name": "auto-lock",
+  "category": "interface",
+  "tags": ["auto", "lock", "padlock", "clock", "security", "timeout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p1\" d=\"M5.5 10V7a3.5 3.5 0 0 1 7 0v3M9 14v2\"/><circle class=\"p2\" cx=\"19\" cy=\"6\" r=\"2.5\"/><path class=\"p3\" d=\"M19 4.5V6h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1300, "origin": "19px 6px" }
+  ]
+}

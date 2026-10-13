@@ -1,0 +1,11 @@
+{
+  "name": "oxygen-mask",
+  "category": "vehicles",
+  "tags": ["oxygen", "mask", "breathe", "emergency", "airplane", "air"],
+  "svg": "<path class=\"d p1\" d=\"M7 7H17V13Q17 16.5 13.5 16.5H10.5Q7 16.5 7 13Z\"/><path class=\"p2\" d=\"M3.5 11H7M17 11H20.5\"/><path class=\"p3\" d=\"M12 16.5V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sink", "dur": 1000, "delay": 1000 }
+  ]
+}

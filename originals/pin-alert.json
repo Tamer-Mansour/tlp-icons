@@ -1,0 +1,10 @@
+{
+  "name": "pin-alert",
+  "category": "notifications",
+  "tags": ["pin", "alert", "location", "map", "warning"],
+  "svg": "<path class=\"p1\" d=\"M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z\"/><line class=\"p2\" x1=\"12\" y1=\"7.5\" x2=\"12\" y2=\"11\"/><circle class=\"f p2\" cx=\"12\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "flash-drive",
+  "category": "devices",
+  "tags": ["flash", "usb", "drive", "stick", "storage", "memory"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"15\" y=\"10\" width=\"6\" height=\"4\"/><path class=\"p3\" d=\"M6 9V7h5v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "irrigation-timer",
+  "category": "time",
+  "tags": ["irrigation", "timer", "water", "sprinkler", "garden", "schedule"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5C12 2.5 5.5 9.5 5.5 14A6.5 6.5 0 0 0 18.5 14C18.5 9.5 12 2.5 12 2.5Z\"/><path class=\"p2\" d=\"M12 10.5V14\"/><path class=\"p3\" d=\"M12 14L14.5 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 700, "origin": "12px 14px" }
+  ]
+}

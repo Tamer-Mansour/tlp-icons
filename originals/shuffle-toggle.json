@@ -1,0 +1,11 @@
+{
+  "name": "shuffle-toggle",
+  "category": "interface",
+  "tags": ["shuffle", "random", "toggle", "crossing", "arrows", "playlist"],
+  "svg": "<path class=\"p1\" d=\"M3 7h3.5c4 0 5.5 10 10.5 10h2\"/><path class=\"p2\" d=\"M3 17h3.5c1 0 2-.7 2.8-2.2M14.5 9.5c.8-1.4 1.9-2.5 3.5-2.5h2\"/><path class=\"p3\" d=\"M18 14l3 3-3 3M18 4l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

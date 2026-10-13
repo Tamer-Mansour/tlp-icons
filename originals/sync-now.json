@@ -1,0 +1,10 @@
+{
+  "name": "sync-now",
+  "category": "interface",
+  "tags": ["sync", "refresh", "update", "reload", "arrows", "bolt"],
+  "svg": "<path class=\"p1\" d=\"M4 11a8 8 0 0 1 14.5-3.5M19 3.5v4h-4M20 13a8 8 0 0 1-14.5 3.5M5 20.5v-4h4\"/><polygon class=\"d p2\" points=\"13 8.5 9.5 12.5 14.5 12.5 11 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 900 }
+  ]
+}

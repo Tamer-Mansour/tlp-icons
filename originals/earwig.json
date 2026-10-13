@@ -1,0 +1,11 @@
+{
+  "name": "earwig",
+  "category": "nature",
+  "tags": ["earwig", "insect", "bug", "pincer", "garden", "pest"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"4\" ry=\"6\"/><path class=\"p2\" d=\"M9 19l-2 2M15 19l2 2\"/><path class=\"p3\" d=\"M10 7L8 4M14 7l2-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 1000 }
+  ]
+}

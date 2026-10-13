@@ -1,0 +1,11 @@
+{
+  "name": "salad-fork",
+  "category": "food",
+  "tags": ["salad fork", "serving", "cutlery", "tines", "utensil", "kitchen"],
+  "svg": "<path class=\"p1\" d=\"M5 3v5c0 1.7 1.3 3 3 3h8c1.7 0 3-1.3 3-3V3\"/><path class=\"p2\" d=\"M9.5 3v4M12 3v4M14.5 3v4\"/><path class=\"p3\" d=\"M12 11v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stir", "dur": 800, "delay": 900, "origin": "12px 21px" }
+  ]
+}

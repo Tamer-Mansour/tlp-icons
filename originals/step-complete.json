@@ -1,0 +1,11 @@
+{
+  "name": "step-complete",
+  "category": "notifications",
+  "tags": ["step", "complete", "check", "progress", "stages", "done"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M4.6 12.1l1 1 2-2\"/><path class=\"p3\" d=\"M14 9.5h6.5M14 14.5h6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

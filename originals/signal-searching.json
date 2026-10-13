@@ -1,0 +1,11 @@
+{
+  "name": "signal-searching",
+  "category": "communication",
+  "tags": ["signal", "search", "radio", "find", "scan", "network"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"11.5\" r=\"1.2\"/><path class=\"p2\" d=\"M15.5 8.5a5 5 0 0 1 0 6\"/><path class=\"p2\" d=\"M18 5.5a9 9 0 0 1 0 7\"/><circle class=\"p3\" cx=\"17.5\" cy=\"18\" r=\"2.5\"/><path class=\"p3\" d=\"M19.3 19.8l1.7 1.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 400 },
+    { "part": "p3", "anim": "magnify", "dur": 800, "delay": 1400 }
+  ]
+}

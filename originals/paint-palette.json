@@ -1,0 +1,11 @@
+{
+  "name": "paint-palette",
+  "category": "emoji",
+  "tags": ["art", "paint", "palette", "colors", "painting", "artist"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"9\"/><circle class=\"p2\" cx=\"8\" cy=\"15\" r=\"1.5\"/><circle class=\"f p3\" cx=\"8\" cy=\"9\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"7.5\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

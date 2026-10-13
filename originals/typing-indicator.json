@@ -1,0 +1,10 @@
+{
+  "name": "typing-indicator",
+  "category": "interface",
+  "tags": ["typing", "chat", "message", "bubble", "loading"],
+  "svg": "<path class=\"p1\" d=\"M4 6.5C4 5.1 5.1 4 6.5 4h11C18.9 4 20 5.1 20 6.5V14c0 1.4-1.1 2.5-2.5 2.5H9.5L5.5 20v-3.5H6.5C5.1 16.5 4 15.4 4 14z\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"10.25\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"10.25\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"10.25\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

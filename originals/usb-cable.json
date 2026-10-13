@@ -1,0 +1,11 @@
+{
+  "name": "usb-cable",
+  "category": "connectivity",
+  "tags": ["usb", "cable", "plug", "connector", "charge"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"12\" y2=\"12\"/><rect class=\"d p2\" x=\"12\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "polar-chart",
+  "category": "charts",
+  "tags": ["polar chart", "wedges", "radar", "rose chart", "segments", "circular"],
+  "svg": "<path class=\"d p1\" d=\"M12 12 V3 A9 9 0 0 1 21 12 Z\"/><path class=\"d p2\" d=\"M12 12 H18 A6 6 0 0 1 12 18 Z\"/><path class=\"d p3\" d=\"M12 12 V16 A4 4 0 0 1 8 12 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "zoomIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flipIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bloom", "dur": 600, "delay": 600 }
+  ]
+}

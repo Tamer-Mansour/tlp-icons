@@ -1,0 +1,10 @@
+{
+  "name": "inbox-unread",
+  "category": "interface",
+  "tags": ["inbox", "unread", "mail", "notification", "tray", "new"],
+  "svg": "<path class=\"p1\" d=\"M3 13l2.5-7h13l2.5 7v6.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zM3 13h5l1 2h6l1-2h5\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"3.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

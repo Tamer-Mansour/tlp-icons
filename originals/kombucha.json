@@ -1,0 +1,11 @@
+{
+  "name": "kombucha",
+  "category": "food",
+  "tags": ["kombucha", "bottle", "fermented", "bubbles", "tea", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M10 3h4v3l2 3v11a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V9l2-3z\"/><path class=\"p2\" d=\"M8.5 14h7\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"17\" r=\"1\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"17.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1100 }
+  ]
+}

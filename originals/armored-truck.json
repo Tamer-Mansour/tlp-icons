@@ -1,0 +1,11 @@
+{
+  "name": "armored-truck",
+  "category": "vehicles",
+  "tags": ["armored", "truck", "secure", "cash", "shield", "transport"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 6H15V16H2.5Z\"/><path class=\"d p1\" d=\"M15 9H19L21.5 12.5V16H15\"/><path class=\"p2\" d=\"M8.75 8.5L11.25 9.3V11.5Q11.25 14 8.75 15Q6.25 14 6.25 11.5V9.3Z\"/><circle class=\"p3\" cx=\"6\" cy=\"18.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"18.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 800, "delay": 1000 }
+  ]
+}

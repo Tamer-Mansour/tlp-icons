@@ -1,0 +1,10 @@
+{
+  "name": "particle-collider",
+  "category": "science",
+  "tags": ["particle", "collider", "accelerator", "physics", "ring"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"f p2\" cx=\"20\" cy=\"12\" r=\"1.5\"/><circle class=\"f p2\" cx=\"4\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "12px 12px" }
+  ]
+}

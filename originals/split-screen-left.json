@@ -1,0 +1,11 @@
+{
+  "name": "split-screen-left",
+  "category": "layout",
+  "tags": ["split", "left pane", "screen", "sidebar", "half"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2.5\"/><rect class=\"d p2\" x=\"3\" y=\"3\" width=\"9\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M12 3v18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

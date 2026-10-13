@@ -1,0 +1,11 @@
+{
+  "name": "toggle-clamp",
+  "category": "tools",
+  "tags": ["clamp", "toggle", "lever", "lock", "grip"],
+  "svg": "<path class=\"p1\" d=\"M3 7h11\"/><rect class=\"d p2\" x=\"3\" y=\"15\" width=\"11\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M14 7l5-4\"/><circle class=\"p3\" cx=\"14\" cy=\"7\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 900, "origin": "14px 7px" }
+  ]
+}

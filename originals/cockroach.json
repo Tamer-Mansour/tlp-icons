@@ -1,0 +1,11 @@
+{
+  "name": "cockroach",
+  "category": "nature",
+  "tags": ["cockroach", "insect", "bug", "antennae", "pest", "legs"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"5\" ry=\"7\"/><path class=\"p2\" d=\"M10 8Q7 4 4 3M14 8Q17 4 20 3\"/><path class=\"p3\" d=\"M7 13H4M17 13H20M7 17L4 19M17 17L20 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 1000 }
+  ]
+}

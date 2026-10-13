@@ -1,0 +1,11 @@
+{
+  "name": "robot-toy",
+  "category": "devices",
+  "tags": ["robot", "toy", "antenna", "kids", "figure", "play"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"8\" width=\"14\" height=\"10\" rx=\"2\"/><line class=\"f p2\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"5\"/><circle class=\"f p2\" cx=\"12\" cy=\"4\" r=\"1\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"12.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"12.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 600, "delay": 1200 }
+  ]
+}

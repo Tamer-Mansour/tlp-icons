@@ -1,0 +1,10 @@
+{
+  "name": "tune-dial",
+  "category": "interface",
+  "tags": ["tune", "slider", "dial", "adjust", "control", "settings"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18\"/><circle class=\"d p2\" cx=\"15\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "motherboard",
+  "category": "devices",
+  "tags": ["motherboard", "circuit", "board", "computer", "chip", "hardware"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"7\" y=\"7\" width=\"7\" height=\"7\" rx=\"0.5\"/><path class=\"p3\" d=\"M18 6v4M18 14v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

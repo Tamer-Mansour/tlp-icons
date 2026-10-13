@@ -1,0 +1,12 @@
+{
+  "name": "sandpiper",
+  "category": "nature",
+  "tags": ["sandpiper", "shorebird", "wader", "bird", "shore"],
+  "svg": "<path class=\"d p1\" d=\"M5 13 Q5 10 9 10 Q13 10 14 13 Q13 15 9 15 Q5 15 5 13 Z\"/><g class=\"p2\"><circle cx=\"16\" cy=\"9\" r=\"2\"/><path d=\"M18 8.5 L21 9.5\"/></g><path class=\"p3\" d=\"M9 15 L8 21 M12 15 L13 21\"/><path class=\"p4\" d=\"M3 21 H21\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p2", "anim": "nod", "dur": 1000, "delay": 1200 }
+  ]
+}

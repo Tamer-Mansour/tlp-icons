@@ -1,0 +1,10 @@
+{
+  "name": "keyless-entry",
+  "category": "vehicles",
+  "tags": ["keyless", "entry", "key", "fob", "signal", "remote"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"10\" height=\"12\" rx=\"4\"/><path class=\"p2\" d=\"M17.5 9.5a3.5 3.5 0 0 1 0 5M19.5 7.5a6 6 0 0 1 0 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 700 }
+  ]
+}

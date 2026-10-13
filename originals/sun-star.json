@@ -1,0 +1,10 @@
+{
+  "name": "sun-star",
+  "category": "science",
+  "tags": ["sun", "star", "rays", "light", "bright", "day"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"4\"/><line class=\"p2\" x1=\"12\" y1=\"5\" x2=\"12\" y2=\"2.5\"/><line class=\"p2\" x1=\"12\" y1=\"19\" x2=\"12\" y2=\"21.5\"/><line class=\"p2\" x1=\"5\" y1=\"12\" x2=\"2.5\" y2=\"12\"/><line class=\"p2\" x1=\"19\" y1=\"12\" x2=\"21.5\" y2=\"12\"/><line class=\"p2\" x1=\"16.95\" y1=\"7.05\" x2=\"18.72\" y2=\"5.28\"/><line class=\"p2\" x1=\"7.05\" y1=\"7.05\" x2=\"5.28\" y2=\"5.28\"/><line class=\"p2\" x1=\"16.95\" y1=\"16.95\" x2=\"18.72\" y2=\"18.72\"/><line class=\"p2\" x1=\"7.05\" y1=\"16.95\" x2=\"5.28\" y2=\"18.72\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

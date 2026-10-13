@@ -1,0 +1,10 @@
+{
+  "name": "normal-distribution",
+  "category": "charts",
+  "tags": ["normal distribution", "bell curve", "gaussian", "statistics", "mean", "probability"],
+  "svg": "<path class=\"p1\" d=\"M2 19 C6 19 7 5 12 5 C17 5 18 19 22 19\"/><line class=\"p2\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 900, "origin": "bottom" }
+  ]
+}

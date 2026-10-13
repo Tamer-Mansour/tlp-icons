@@ -1,0 +1,10 @@
+{
+  "name": "gondola-lift",
+  "category": "vehicles",
+  "tags": ["gondola", "lift", "cablecar", "cabin", "ski", "ropeway"],
+  "svg": "<path class=\"p1\" d=\"M3 5 H21\"/><path d=\"M4 21 V5 M20 21 V5\"/><path d=\"M12 5 V9\"/><rect class=\"d p3\" x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 700, "origin": "12px 5px" }
+  ]
+}

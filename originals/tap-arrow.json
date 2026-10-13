@@ -1,0 +1,10 @@
+{
+  "name": "tap-arrow",
+  "category": "arrows",
+  "tags": ["tap", "press", "touch", "click", "target", "point"],
+  "svg": "<circle class=\"d p1\" cx=\"14\" cy=\"14\" r=\"4\"/><path class=\"p2\" d=\"M3 3 L9 9\"/><polyline class=\"p2\" points=\"3 8.5 3 3 8.5 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 700 }
+  ]
+}

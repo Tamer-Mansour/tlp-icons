@@ -1,0 +1,10 @@
+{
+  "name": "arch-window",
+  "category": "shapes",
+  "tags": ["window", "arch", "arched", "glass", "mullion", "architecture"],
+  "svg": "<path class=\"p1\" d=\"M6 21V10a6 6 0 0 1 12 0v11z\"/><path class=\"p2\" d=\"M12 4v17M6 14h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 800 }
+  ]
+}

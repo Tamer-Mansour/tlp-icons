@@ -1,0 +1,11 @@
+{
+  "name": "whitespace-trim",
+  "category": "text",
+  "tags": ["whitespace", "trim", "spaces", "blank", "text"],
+  "svg": "<path class=\"p1\" d=\"M8 12H16\"/><circle class=\"f p2\" cx=\"3.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"5.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"12\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "blink", "dur": 600, "delay": 900 }
+  ]
+}

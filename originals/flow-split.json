@@ -1,0 +1,11 @@
+{
+  "name": "flow-split",
+  "category": "arrows",
+  "tags": ["flow", "split", "fork", "divide", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M12 3v6\"/><path class=\"p2\" d=\"M12 9l-5 5v5\"/><polyline class=\"p2\" points=\"5 17 7 19.5 9 17\"/><path class=\"p3\" d=\"M12 9l5 5v5\"/><polyline class=\"p3\" points=\"15 17 17 19.5 19 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

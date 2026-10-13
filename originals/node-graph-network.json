@@ -1,0 +1,10 @@
+{
+  "name": "node-graph-network",
+  "category": "connectivity",
+  "tags": ["network", "nodes", "graph", "mesh", "connections"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"d p1\" cx=\"19\" cy=\"6\" r=\"2\"/><circle class=\"d p1\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"d p1\" cx=\"19\" cy=\"18\" r=\"2\"/><circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p2\" d=\"M7 8L10 10.5M17 8L14 10.5M7 16L10 13.5M17 16L14 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

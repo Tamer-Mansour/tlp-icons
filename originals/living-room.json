@@ -1,0 +1,11 @@
+{
+  "name": "living-room",
+  "category": "buildings",
+  "tags": ["living room", "sofa", "lounge", "lamp", "couch", "home"],
+  "svg": "<path class=\"d p1\" d=\"M3 12v6h18v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z\"/><path class=\"p2\" d=\"M6 10V8h12v2\"/><path class=\"p3\" d=\"M14 2h6v5h-6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

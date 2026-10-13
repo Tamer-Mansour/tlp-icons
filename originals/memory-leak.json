@@ -1,0 +1,11 @@
+{
+  "name": "memory-leak",
+  "category": "development",
+  "tags": ["memory", "leak", "ram", "bug", "allocation", "performance"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"13\" height=\"13\" rx=\"1.5\"/><path class=\"d p2\" d=\"M19.5 9.5 C20.5 11 21 12 21 13 A1.5 1.5 0 0 1 18 13 C18 12 18.5 11 19.5 9.5 Z\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"19.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1000 }
+  ]
+}

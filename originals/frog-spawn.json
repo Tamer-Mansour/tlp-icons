@@ -1,0 +1,11 @@
+{
+  "name": "frog-spawn",
+  "category": "nature",
+  "tags": ["frog spawn", "eggs", "pond", "jelly", "water", "amphibian"],
+  "svg": "<path class=\"p1\" d=\"M3 17.5H21\"/><path class=\"p2\" d=\"M6 15Q6 8 12 8Q18 8 18 15\"/><circle class=\"f p3\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"15\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

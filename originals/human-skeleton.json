@@ -1,0 +1,10 @@
+{
+  "name": "human-skeleton",
+  "category": "science",
+  "tags": ["skeleton", "bones", "anatomy", "body", "biology", "human"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"4.5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 9V15M8 10.5H16M8.5 13H15.5M8 10.5L6 15M16 10.5L18 15M12 15L8.5 21M12 15L15.5 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 }
+  ]
+}

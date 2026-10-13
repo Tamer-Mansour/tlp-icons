@@ -1,0 +1,11 @@
+{
+  "name": "standing-ovation",
+  "category": "people",
+  "tags": ["standing ovation", "applause", "cheering", "celebration", "crowd"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M12 9v7M9.5 22l2.5-6 2.5 6M12 11l-3-3M12 11l3-3\"/><circle class=\"p3\" cx=\"4\" cy=\"8\" r=\"1.5\"/><path class=\"p3\" d=\"M4 11v7M4 13l-2-2.5M4 13l2-2.5\"/><circle class=\"p3\" cx=\"20\" cy=\"8\" r=\"1.5\"/><path class=\"p3\" d=\"M20 11v7M20 13l-2-2.5M20 13l2-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "hop", "dur": 700, "delay": 900 }
+  ]
+}

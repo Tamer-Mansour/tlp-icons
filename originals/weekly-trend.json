@@ -1,0 +1,10 @@
+{
+  "name": "weekly-trend",
+  "category": "charts",
+  "tags": ["weekly", "trend", "line", "growth", "week", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 16L8 11L12 14L17 8\"/><path class=\"p2\" d=\"M14 8H17V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 }
+  ]
+}

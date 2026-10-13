@@ -1,0 +1,11 @@
+{
+  "name": "info-sign",
+  "category": "emoji",
+  "tags": ["info", "information", "help", "circle", "notice", "alert"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"12\" cy=\"7\" r=\"1.2\"/><line class=\"p3\" x1=\"12\" y1=\"11\" x2=\"12\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

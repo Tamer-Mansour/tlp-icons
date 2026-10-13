@@ -1,0 +1,11 @@
+{
+  "name": "ip-block",
+  "category": "security",
+  "tags": ["ip", "address", "block", "network", "deny", "firewall"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M9.2 14.8l5.6-5.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

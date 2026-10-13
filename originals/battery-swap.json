@@ -1,0 +1,12 @@
+{
+  "name": "battery-swap",
+  "category": "vehicles",
+  "tags": ["battery", "swap", "exchange", "charge", "switch", "electric", "refresh"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"7\" width=\"6.5\" height=\"10\" rx=\"1\"/><rect class=\"d p2\" x=\"15\" y=\"7\" width=\"6.5\" height=\"10\" rx=\"1\"/><path class=\"p3\" d=\"M5.75 4.5v2.5M18.25 4.5v2.5\"/><path class=\"p4\" d=\"M10 10a3 3 0 0 1 4 4M14 11.5v2.5h-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "spin", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

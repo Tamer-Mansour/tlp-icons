@@ -1,0 +1,11 @@
+{
+  "name": "track-changes",
+  "category": "design",
+  "tags": ["track", "changes", "review", "edit", "document", "markup"],
+  "svg": "<path class=\"p1\" d=\"M7 3h9l4 4v14H7z\"/><path class=\"p2\" d=\"M10 11h7M10 15h5\"/><line class=\"p3\" x1=\"3.5\" y1=\"6\" x2=\"3.5\" y2=\"18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 900 }
+  ]
+}

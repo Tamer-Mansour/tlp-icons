@@ -1,0 +1,11 @@
+{
+  "name": "peer-review",
+  "category": "people",
+  "tags": ["peer", "review", "feedback", "colleague", "approve", "check"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"8\" r=\"2.5\"/><path class=\"p1\" d=\"M2.5 20.5v-.5a4.5 4 0 0 1 9 0v.5\"/><rect class=\"d p2\" x=\"13\" y=\"3\" width=\"9\" height=\"8\" rx=\"1.5\"/><polyline class=\"p3\" points=\"16 7 17.5 8.5 20 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

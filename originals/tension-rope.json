@@ -1,0 +1,11 @@
+{
+  "name": "tension-rope",
+  "category": "science",
+  "tags": ["tension", "rope", "pull", "force", "string", "physics"],
+  "svg": "<path class=\"p1\" d=\"M4 12h16\"/><path class=\"p2\" d=\"M7 9.5l-3 2.5 3 2.5\"/><path class=\"p3\" d=\"M17 9.5l3 2.5-3 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 800 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

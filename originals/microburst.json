@@ -1,0 +1,10 @@
+{
+  "name": "microburst",
+  "category": "weather",
+  "tags": ["microburst", "downburst", "wind", "storm", "cloud", "hazard"],
+  "svg": "<path class=\"d p1\" d=\"M7 12h10a3.5 3.5 0 0 0 .4-7A5 5 0 0 0 8 6.5 3.5 3.5 0 0 0 7 12z\"/><path class=\"p2\" d=\"M8 15l-2 5M12 15v6M16 15l2 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 800, "delay": 700 }
+  ]
+}

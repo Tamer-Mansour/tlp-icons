@@ -1,0 +1,10 @@
+{
+  "name": "glacier",
+  "category": "buildings",
+  "tags": ["glacier", "ice", "mountain", "frozen", "crevasse", "snow"],
+  "svg": "<path class=\"d p1\" d=\"M3 20l5-9 3 4 4-7 6 12z\"/><path class=\"p2\" d=\"M9 20l2-3M14 20l-1-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 }
+  ]
+}

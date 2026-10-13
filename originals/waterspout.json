@@ -1,0 +1,11 @@
+{
+  "name": "waterspout",
+  "category": "weather",
+  "tags": ["waterspout", "funnel", "tornado", "water", "cloud"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"6\" rx=\"7\" ry=\"3\"/><path class=\"p2\" d=\"M9 13 L10.5 16 M15 13 L13.5 16\"/><path class=\"p3\" d=\"M3 21 Q6 19.5 9 21 T15 21 T21 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bakehouse",
+  "category": "buildings",
+  "tags": ["bakehouse", "oven", "bread", "loaf", "bakery", "baking"],
+  "svg": "<path class=\"d p1\" d=\"M5 21 V14 A7 7 0 0 1 19 14 V21 Z\"/><ellipse class=\"p2\" cx=\"12\" cy=\"3.5\" rx=\"3.5\" ry=\"1.5\"/><path class=\"p3\" d=\"M9.5 21 V17 H14.5 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "bounceIn", "dur": 700, "delay": 1100 }
+  ]
+}

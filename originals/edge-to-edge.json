@@ -1,0 +1,10 @@
+{
+  "name": "edge-to-edge",
+  "category": "layout",
+  "tags": ["edge", "full", "width", "stretch", "arrows", "layout"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"7\" width=\"12\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M2 12H5M4 10L2 12L4 14M22 12H19M20 10L22 12L20 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 600 }
+  ]
+}

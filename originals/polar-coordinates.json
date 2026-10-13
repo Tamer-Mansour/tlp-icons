@@ -1,0 +1,11 @@
+{
+  "name": "polar-coordinates",
+  "category": "math",
+  "tags": ["polar", "coordinates", "radial", "circle", "angle", "math"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><path class=\"p3\" d=\"M12 12L19 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

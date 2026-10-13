@@ -1,0 +1,10 @@
+{
+  "name": "bobsled",
+  "category": "sport",
+  "tags": ["bobsled", "bobsleigh", "sled", "winter", "runners", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M4 7 H17 Q21 7 21 11 V14 H3 V11 Q3 7 4 7 Z\"/><path class=\"p2\" d=\"M2 17 H22 M2 20.5 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "dash", "dur": 900, "delay": 800 }
+  ]
+}

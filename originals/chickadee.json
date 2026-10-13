@@ -1,0 +1,11 @@
+{
+  "name": "chickadee",
+  "category": "nature",
+  "tags": ["chickadee", "bird", "songbird", "small", "cap"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M6 11 Q12 3 18 11\"/><g class=\"p3\"><path d=\"M19 12.5 L21 13 L19 13.5\"/><circle class=\"f\" cx=\"15\" cy=\"13\" r=\"1\"/></g>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

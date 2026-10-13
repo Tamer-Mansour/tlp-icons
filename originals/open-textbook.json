@@ -1,0 +1,11 @@
+{
+  "name": "open-textbook",
+  "category": "science",
+  "tags": ["textbook", "book", "open", "education", "atom", "reading"],
+  "svg": "<path class=\"d p1\" d=\"M12 6.5C9.5 4.5 6 4 3 5V19C6 18 9.5 18.5 12 20.5C14.5 18.5 18 18 21 19V5C18 4 14.5 4.5 12 6.5Z\"/><path class=\"p2\" d=\"M12 6.5V20.5\"/><ellipse class=\"p3\" cx=\"16.5\" cy=\"10.5\" rx=\"2.5\" ry=\"1\" transform=\"rotate(-30 16.5 10.5)\"/><circle class=\"f p3\" cx=\"16.5\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000 }
+  ]
+}

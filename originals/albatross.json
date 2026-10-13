@@ -1,0 +1,11 @@
+{
+  "name": "albatross",
+  "category": "nature",
+  "tags": ["albatross", "seabird", "long wings", "gliding", "ocean", "soaring"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"11\" rx=\"2.5\" ry=\"4\"/><path class=\"p2\" d=\"M1 13C4 9 8 9 10 11M23 13C20 9 16 9 14 11\"/><path class=\"p3\" d=\"M12 15V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1000 }
+  ]
+}

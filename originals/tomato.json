@@ -1,0 +1,11 @@
+{
+  "name": "tomato",
+  "category": "food",
+  "tags": ["tomato", "vegetable", "fruit", "produce", "salad", "fresh"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"8\"/><polyline class=\"p2\" points=\"7 9 10 9.5 12 6 14 9.5 17 9\"/><path class=\"p3\" d=\"M12 6 V3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sway", "dur": 600, "delay": 1200, "origin": "12px 6px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hot-desk",
+  "category": "people",
+  "tags": ["desk", "workspace", "seat", "coworking", "office", "booking"],
+  "svg": "<path class=\"p1\" d=\"M2 15h12M4 15v6M14 15v6\"/><circle class=\"p2\" cx=\"8.5\" cy=\"7\" r=\"2\"/><path class=\"p2\" d=\"M6 15v-1.5a3 3 0 0 1 6 0V15\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"17\" r=\"1\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

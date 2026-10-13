@@ -1,0 +1,12 @@
+{
+  "name": "keyboard-typing",
+  "category": "text",
+  "tags": ["keyboard", "typing", "keys", "input", "text"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"20\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M4 5h10\"/><circle class=\"f p3\" cx=\"6\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"13\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"13\" r=\"1\"/><path class=\"p4\" d=\"M8 16h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "tap", "dur": 700, "delay": 1000 }
+  ]
+}

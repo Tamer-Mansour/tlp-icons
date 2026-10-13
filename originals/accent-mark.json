@@ -1,0 +1,10 @@
+{
+  "name": "accent-mark",
+  "category": "text",
+  "tags": ["accent", "acute", "diacritic", "letter", "mark"],
+  "svg": "<path class=\"p1\" d=\"M6 13h8a4 4 0 1 0-1.5 3.1\"/><path class=\"p2\" d=\"M11 6.5l3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 500, "delay": 900 }
+  ]
+}

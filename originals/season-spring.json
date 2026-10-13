@@ -1,0 +1,12 @@
+{
+  "name": "season-spring",
+  "category": "time",
+  "tags": ["spring", "season", "calendar", "sprout", "day", "growth"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"15\" rx=\"2\"/><path class=\"p2\" d=\"M4 9h16\"/><path class=\"p3\" d=\"M12 18v-4\"/><path class=\"d p4\" d=\"M12 14C9.5 14 8 12.5 8 11c2 0 4 1.3 4 3zM12 14c2.5 0 4-1.5 4-3-2 0-4 1.3-4 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

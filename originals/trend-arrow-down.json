@@ -1,0 +1,10 @@
+{
+  "name": "trend-arrow-down",
+  "category": "arrows",
+  "tags": ["trend", "zigzag", "decline", "downward", "chart"],
+  "svg": "<path class=\"p1\" d=\"M3 7 L9 13 L13 9 L21 17\"/><path class=\"p2\" d=\"M15 17 H21 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 500, "delay": 900 }
+  ]
+}

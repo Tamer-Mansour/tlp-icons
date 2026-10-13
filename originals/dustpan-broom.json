@@ -1,0 +1,11 @@
+{
+  "name": "dustpan-broom",
+  "category": "home",
+  "tags": ["dustpan", "broom", "sweep", "cleaning", "floor", "housework"],
+  "svg": "<line class=\"p1\" x1=\"15\" y1=\"2\" x2=\"10\" y2=\"11\"/><path class=\"p2\" d=\"M13 18h9l-1.5 4h-6z\"/><path class=\"p3\" d=\"M7 11h6l-1.5 6h-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "crane-tower",
+  "category": "buildings",
+  "tags": ["crane", "tower", "construction", "jib", "hook", "lifting"],
+  "svg": "<path class=\"p1\" d=\"M7 21V4M4 21h6\"/><path class=\"p2\" d=\"M3 4h14M15 4v4\"/><rect class=\"d p3\" x=\"13\" y=\"8\" width=\"4\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1300, "origin": "15px 8px" }
+  ]
+}

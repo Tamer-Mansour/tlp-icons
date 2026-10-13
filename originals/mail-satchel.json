@@ -1,0 +1,11 @@
+{
+  "name": "mail-satchel",
+  "category": "communication",
+  "tags": ["satchel", "bag", "messenger", "mail", "courier", "strap", "postman"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"10\" width=\"16\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M4 10 L12 15 L20 10\"/><path class=\"p3\" d=\"M6 3 L18 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 700, "delay": 800, "origin": "6px 3px" }
+  ]
+}

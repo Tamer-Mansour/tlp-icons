@@ -1,0 +1,11 @@
+{
+  "name": "curtain-tieback",
+  "category": "home",
+  "tags": ["curtain", "tieback", "cord", "drapes", "window"],
+  "svg": "<path class=\"p1\" d=\"M3 3.5h18\"/><rect class=\"d p2\" x=\"7\" y=\"5\" width=\"8\" height=\"15\" rx=\"1\"/><path class=\"p3\" d=\"M4.5 11C9 13.5 15 13.5 19.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 800 }
+  ]
+}

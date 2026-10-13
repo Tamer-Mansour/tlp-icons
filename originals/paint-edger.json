@@ -1,0 +1,11 @@
+{
+  "name": "paint-edger",
+  "category": "tools",
+  "tags": ["edger", "paint", "wheel", "line", "trim", "painting"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"13\" r=\"4\"/><path class=\"p2\" d=\"M11 10L18.5 2.5\"/><path class=\"p3\" d=\"M3 21h18\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 900, "origin": "8px 13px" }
+  ]
+}

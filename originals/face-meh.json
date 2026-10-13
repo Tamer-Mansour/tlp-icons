@@ -1,0 +1,11 @@
+{
+  "name": "face-meh",
+  "category": "emoji",
+  "tags": ["meh", "neutral", "face", "flat", "indifferent"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"10\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"10\" r=\"1\"/><path class=\"p3\" d=\"M8.5 15h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "blink", "dur": 600, "delay": 1200 }
+  ]
+}

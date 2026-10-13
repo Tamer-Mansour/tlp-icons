@@ -1,0 +1,10 @@
+{
+  "name": "keep-left",
+  "category": "arrows",
+  "tags": ["keep", "left", "sign", "traffic", "direction"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"10\"/><path class=\"p2\" d=\"M15 16 V11 H9\"/><polyline class=\"p2\" points=\"12 8 9 11 12 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 700 }
+  ]
+}

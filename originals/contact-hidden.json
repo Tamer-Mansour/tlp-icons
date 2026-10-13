@@ -1,0 +1,11 @@
+{
+  "name": "contact-hidden",
+  "category": "security",
+  "tags": ["contact", "hidden", "address", "card", "privacy", "details"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"8\" cy=\"10\" r=\"2\"/><path class=\"p2\" d=\"M5 16c.3-1.4 1.4-2.3 3-2.3s2.7.9 3 2.3\"/><path class=\"p3\" d=\"M13.5 9.5h5M13.5 12.5h5M13.5 15.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

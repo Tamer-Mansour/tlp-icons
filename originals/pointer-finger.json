@@ -1,0 +1,10 @@
+{
+  "name": "pointer-finger",
+  "category": "interface",
+  "tags": ["pointer", "finger", "point", "tap", "select", "hand"],
+  "svg": "<path class=\"p1\" d=\"M8.5 11V7a2 2 0 0 1 4 0v4.5M12.5 11h1.5a2 2 0 0 1 2 2v3a5 5 0 0 1-5 5h-1.5a5 5 0 0 1-4.5-2.8L4.5 14a1.5 1.5 0 0 1 2.6-1.5L8.5 14.5\"/><circle class=\"f p2\" cx=\"10.5\" cy=\"2.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

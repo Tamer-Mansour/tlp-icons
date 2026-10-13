@@ -1,0 +1,11 @@
+{
+  "name": "salon",
+  "category": "buildings",
+  "tags": ["salon", "hair", "mirror", "scissors", "beauty", "style"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"9\" rx=\"6\" ry=\"7\"/><path class=\"p2\" d=\"M10 16v4M7 20.5h6\"/><path class=\"p3\" d=\"M16 3l5 6M21 3l-5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "honeycomb",
+  "category": "food",
+  "tags": ["honeycomb", "honey", "bee", "hexagon", "food"],
+  "svg": "<polygon class=\"d p1\" points=\"17,12 14.5,16.5 9.5,16.5 7,12 9.5,7.5 14.5,7.5\"/><polygon class=\"p2\" points=\"14,12 13,13.75 11,13.75 10,12 11,10.25 13,10.25\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

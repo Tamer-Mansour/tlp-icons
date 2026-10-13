@@ -1,0 +1,10 @@
+{
+  "name": "phone-cable",
+  "category": "communication",
+  "tags": ["phone", "cable", "cord", "handset", "coiled"],
+  "svg": "<path class=\"p1\" d=\"M2 4l3-2 3 5-2 2a7 7 0 0 0 4 4l2-2 2 2-1 2C8 16 4 13 2 4z\"/><path class=\"p2\" d=\"M13 15c2.5 2.5 4.5 3.5 6 3.5 1.5 0 2.5-1 2.5-2.5s-1.5-2-2.5-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 600, "origin": "13px 15px" }
+  ]
+}

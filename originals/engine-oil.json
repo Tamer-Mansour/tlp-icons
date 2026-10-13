@@ -1,0 +1,11 @@
+{
+  "name": "engine-oil",
+  "category": "vehicles",
+  "tags": ["engine", "oil", "dipstick", "bottle", "drip"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"7\" width=\"9\" height=\"11\" rx=\"1.5\"/><path class=\"p1\" d=\"M8 7V4h5v3\"/><path class=\"p2\" d=\"M20 3l-3 4\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 800 }
+  ]
+}

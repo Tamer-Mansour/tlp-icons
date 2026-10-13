@@ -1,0 +1,11 @@
+{
+  "name": "studio-light",
+  "category": "devices",
+  "tags": ["studio", "light", "softbox", "stand", "photo", "lighting"],
+  "svg": "<path class=\"d p1\" d=\"M5 13h14l-2-7H7z\"/><path class=\"p2\" d=\"M12 13v8M8 21h8\"/><path class=\"p3\" d=\"M4 3l2 2M20 3l-2 2M12 2v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

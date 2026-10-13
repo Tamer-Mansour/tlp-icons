@@ -1,0 +1,10 @@
+{
+  "name": "cog-square",
+  "category": "shapes",
+  "tags": ["cog", "gear", "settings", "teeth", "square"],
+  "svg": "<path class=\"d p1\" d=\"M5 5h4V3h6v2h4v4h2v6h-2v4h-4v2H9v-2H5v-4H3V9h2z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

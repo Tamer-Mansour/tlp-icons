@@ -1,0 +1,10 @@
+{
+  "name": "obelisk",
+  "category": "buildings",
+  "tags": ["obelisk", "monument", "pillar", "tall", "pointed"],
+  "svg": "<path class=\"d p1\" d=\"M8 20L10 5L12 2L14 5L16 20Z\"/><path class=\"p2\" d=\"M4 22h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

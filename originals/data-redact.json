@@ -1,0 +1,11 @@
+{
+  "name": "data-redact",
+  "category": "security",
+  "tags": ["data", "redact", "table", "row", "hidden", "privacy"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 9h18M3 14h18\"/><rect class=\"d p3\" x=\"6\" y=\"10.5\" width=\"12\" height=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 1000 }
+  ]
+}

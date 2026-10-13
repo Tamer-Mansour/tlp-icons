@@ -1,0 +1,12 @@
+{
+  "name": "repl-prompt",
+  "category": "development",
+  "tags": ["repl", "prompt", "terminal", "console", "shell", "cursor"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M3 8h18\"/><path class=\"p3\" d=\"M7 12l2.5 2L7 16\"/><path class=\"p4\" d=\"M12.5 15.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "blink", "dur": 600, "delay": 1100 }
+  ]
+}

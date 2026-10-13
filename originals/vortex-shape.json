@@ -1,0 +1,11 @@
+{
+  "name": "vortex-shape",
+  "category": "shapes",
+  "tags": ["vortex", "whirlpool", "swirl", "spin", "arcs"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 0 1 16 0\"/><path class=\"p2\" d=\"M8 12a4 4 0 0 1 8 0\"/><path class=\"p3\" d=\"M6 12a6 6 0 0 0 12 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

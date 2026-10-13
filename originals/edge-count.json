@@ -1,0 +1,11 @@
+{
+  "name": "edge-count",
+  "category": "math",
+  "tags": ["cube", "edges", "count", "geometry", "solid"],
+  "svg": "<path class=\"p1\" d=\"M12 3 L20 7 V17 L12 21 L4 17 V7 Z\"/><path class=\"p2\" d=\"M4 7 L12 11 L20 7 M12 11 V21\"/><path class=\"p3\" d=\"M8 5 L9 6.5 M16 5 L15 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

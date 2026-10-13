@@ -1,0 +1,11 @@
+{
+  "name": "estuary-mouth",
+  "category": "science",
+  "tags": ["estuary", "delta", "river", "mouth", "sea", "coast"],
+  "svg": "<path class=\"p1\" d=\"M12 2v7\"/><path class=\"p2\" d=\"M12 9l-6 6M12 9l6 6M12 9v6\"/><path class=\"p3\" d=\"M3 19q2.5-2 4.5 0t4.5 0t4.5 0t4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 1200, "delay": 1100 }
+  ]
+}

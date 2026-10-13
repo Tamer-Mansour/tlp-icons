@@ -1,0 +1,11 @@
+{
+  "name": "tuner",
+  "category": "media",
+  "tags": ["tuner", "pitch", "note", "dial", "tune", "instrument"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12l4-4\"/><path class=\"p3\" d=\"M9.5 16l2.5-8 2.5 8M10.5 13.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 600, "delay": 700 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

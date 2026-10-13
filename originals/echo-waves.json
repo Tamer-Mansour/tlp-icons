@@ -1,0 +1,11 @@
+{
+  "name": "echo-waves",
+  "category": "communication",
+  "tags": ["echo", "waves", "sound", "speaker", "audio"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"1.5\"/><path class=\"p2\" d=\"M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7\"/><path class=\"p3\" d=\"M5.3 6a9 9 0 0 0 0 12M18.7 6a9 9 0 0 1 0 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

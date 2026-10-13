@@ -1,0 +1,11 @@
+{
+  "name": "amusement-park",
+  "category": "buildings",
+  "tags": ["amusement park", "theme park", "ferris wheel", "fair", "rides"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"7\"/><path class=\"p2\" d=\"M12 2v14M5.3 5.5l13.4 7M18.7 5.5l-13.4 7\"/><path class=\"p3\" d=\"M12 16l-4.5 6M12 16l4.5 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 1000 }
+  ]
+}

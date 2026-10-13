@@ -1,0 +1,11 @@
+{
+  "name": "unfold-down",
+  "category": "interface",
+  "tags": ["unfold", "down", "expand", "chevrons", "collapse", "open"],
+  "svg": "<path class=\"p1\" d=\"M4 4h16\"/><path class=\"p2\" d=\"M7 9l5 5 5-5\"/><path class=\"p3\" d=\"M7 15l5 5 5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "unfold", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "slideDown", "dur": 400, "delay": 600 }
+  ]
+}

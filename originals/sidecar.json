@@ -1,0 +1,11 @@
+{
+  "name": "sidecar",
+  "category": "vehicles",
+  "tags": ["sidecar", "motorbike", "motorcycle", "passenger", "wheels", "vehicle"],
+  "svg": "<rect class=\"d p1\" x=\"13\" y=\"9\" width=\"8\" height=\"4\" rx=\"1\"/><circle class=\"p2\" cx=\"5\" cy=\"17\" r=\"3\"/><circle class=\"p2\" cx=\"18\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M5 17 L10 11 L13 11 M10 11 L11 7 L13 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 800 }
+  ]
+}

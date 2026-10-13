@@ -1,0 +1,11 @@
+{
+  "name": "racing-steering-wheel",
+  "category": "sport",
+  "tags": ["steering", "wheel", "racing", "car", "drive", "speed"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M3 12h6M15 12h6M12 14v7\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "spinHalf", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

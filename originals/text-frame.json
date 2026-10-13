@@ -1,0 +1,10 @@
+{
+  "name": "text-frame",
+  "category": "text",
+  "tags": ["frame", "corners", "text", "crop", "focus", "border"],
+  "svg": "<path class=\"p1\" d=\"M3 7V3h4M17 3h4v4M21 17v4h-4M7 21H3v-4\"/><path class=\"p2\" d=\"M8 12h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

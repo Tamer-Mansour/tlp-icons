@@ -1,0 +1,10 @@
+{
+  "name": "team-formation",
+  "category": "sport",
+  "tags": ["team", "formation", "group", "players", "tactics"],
+  "svg": "<polyline class=\"p1\" points=\"12,5 5,18 19,18 12,5\"/><circle class=\"f p2\" cx=\"12\" cy=\"5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"5\" cy=\"18\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

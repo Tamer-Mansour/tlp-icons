@@ -1,0 +1,10 @@
+{
+  "name": "quadrat-frame",
+  "category": "science",
+  "tags": ["quadrat", "frame", "sampling", "plot", "ecology", "grid", "survey"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"1\"/><path class=\"p2\" d=\"M12 4v16M4 12h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

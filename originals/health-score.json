@@ -1,0 +1,10 @@
+{
+  "name": "health-score",
+  "category": "charts",
+  "tags": ["health", "heart", "pulse", "score", "medical", "wellness"],
+  "svg": "<path class=\"d p1\" d=\"M12 20 C5 15 3 12 3 8.5 C3 6 5 4 7.5 4 C9.5 4 11 5.2 12 7 C13 5.2 14.5 4 16.5 4 C19 4 21 6 21 8.5 C21 12 19 15 12 20 Z\"/><polyline class=\"p2\" points=\"6.5 12 9 12 10.5 9.5 13 14.5 14.5 12 17.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

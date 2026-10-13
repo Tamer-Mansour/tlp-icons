@@ -1,0 +1,12 @@
+{
+  "name": "cod",
+  "category": "nature",
+  "tags": ["fish", "barbel", "fork", "sea", "oval"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 Q9 8 15 9 Q19 10 19 12 Q19 14 15 15 Q9 16 5 12 Z\"/><path class=\"p2\" d=\"M18 11 L22 7 L20 12 L22 17 L18 13\"/><path class=\"p3\" d=\"M6 14 Q5 17 3 17\"/><circle class=\"f p4\" cx=\"8\" cy=\"11\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900, "origin": "6px 14px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "healing-brush",
+  "category": "design",
+  "tags": ["healing", "bandage", "patch", "repair", "tool", "retouch"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"9\" width=\"16\" height=\"6\" rx=\"3\" transform=\"rotate(-45 12 12)\"/><circle class=\"f p2\" cx=\"5\" cy=\"19\" r=\"1\"/><circle class=\"f p2\" cx=\"9\" cy=\"19\" r=\"1\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

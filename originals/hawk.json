@@ -1,0 +1,12 @@
+{
+  "name": "hawk",
+  "category": "nature",
+  "tags": ["hawk", "bird", "hooked beak", "wings", "raptor", "soaring"],
+  "svg": "<path class=\"d p1\" d=\"M12 8C10.5 8 10 10 10 12C10 14.5 11 17 12 18C13 17 14 14.5 14 12C14 10 13.5 8 12 8Z\"/><path class=\"p2\" d=\"M2 9C5 8 8 9 10 11M22 9C19 8 16 9 14 11\"/><circle class=\"p3\" cx=\"12\" cy=\"5.5\" r=\"2\"/><path class=\"p4\" d=\"M10 17L12 21L14 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

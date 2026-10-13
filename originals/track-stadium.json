@@ -1,0 +1,10 @@
+{
+  "name": "track-stadium",
+  "category": "buildings",
+  "tags": ["track", "stadium", "oval", "running", "field", "athletics"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"6\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"10\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

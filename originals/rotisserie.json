@@ -1,0 +1,10 @@
+{
+  "name": "rotisserie",
+  "category": "food",
+  "tags": ["rotisserie", "spit", "roast", "grill", "rotate", "meat", "barbecue"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"8\" width=\"12\" height=\"9\" rx=\"4\"/><line class=\"p2\" x1=\"3\" y1=\"12.5\" x2=\"21\" y2=\"12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 800, "origin": "12px 12.5px" }
+  ]
+}

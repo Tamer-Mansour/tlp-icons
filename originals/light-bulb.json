@@ -1,0 +1,11 @@
+{
+  "name": "light-bulb",
+  "category": "home",
+  "tags": ["light", "bulb", "idea", "lamp", "glow"],
+  "svg": "<path class=\"d p1\" d=\"M9 17h6c0-2 3-3 3-7a6 6 0 0 0-12 0c0 4 3 5 3 7z\"/><path class=\"p2\" d=\"M9 20h6\"/><path class=\"p3\" d=\"M10 13l2 2 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

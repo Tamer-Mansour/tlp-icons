@@ -1,0 +1,10 @@
+{
+  "name": "monitor-stand",
+  "category": "devices",
+  "tags": ["monitor", "stand", "screen", "display", "desk", "column"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"12\" rx=\"1.5\"/><path class=\"p2\" d=\"M12 15V18M8.5 20.5H15.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "tilt", "dur": 1000, "delay": 600, "origin": "12px 15px" }
+  ]
+}

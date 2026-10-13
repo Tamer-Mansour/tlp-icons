@@ -1,0 +1,11 @@
+{
+  "name": "car-alarm",
+  "category": "vehicles",
+  "tags": ["car", "alarm", "security", "theft", "siren"],
+  "svg": "<path class=\"d p1\" d=\"M3 17v-4l3-4h8l4 4h3v4z\"/><path class=\"p2\" d=\"M8 6q4-3.5 8 0\"/><path class=\"p3\" d=\"M4 4q8-5 16 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kitchen-sink",
+  "category": "home",
+  "tags": ["sink", "basin", "kitchen", "faucet", "drain", "wash"],
+  "svg": "<path class=\"d p1\" d=\"M3 13H21V16A4 4 0 0 1 17 20H7A4 4 0 0 1 3 16Z\"/><path class=\"p2\" d=\"M12 13V5.5H16V8\"/><circle class=\"p3\" cx=\"12\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

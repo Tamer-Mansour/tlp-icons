@@ -1,0 +1,11 @@
+{
+  "name": "capsule-train",
+  "category": "vehicles",
+  "tags": ["capsule", "pod", "train", "transit", "futuristic"],
+  "svg": "<path class=\"d p1\" d=\"M7 6 H17 Q21 6 21 11 Q21 16 17 16 H7 Q3 16 3 11 Q3 6 7 6 Z\"/><rect class=\"p2\" x=\"8\" y=\"9\" width=\"2\" height=\"3\"/><rect class=\"p2\" x=\"14\" y=\"9\" width=\"2\" height=\"3\"/><line class=\"p3\" x1=\"5\" y1=\"20\" x2=\"19\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 1100 }
+  ]
+}

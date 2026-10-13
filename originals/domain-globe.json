@@ -1,0 +1,11 @@
+{
+  "name": "domain-globe",
+  "category": "connectivity",
+  "tags": ["domain", "globe", "address", "website", "web"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><line class=\"p2\" x1=\"2\" y1=\"9\" x2=\"22\" y2=\"9\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

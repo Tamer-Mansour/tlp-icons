@@ -1,0 +1,11 @@
+{
+  "name": "massage-chair",
+  "category": "home",
+  "tags": ["massage chair", "recliner", "relax", "cushion", "wellness"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"10\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M3 15h18v4H3z\"/><circle class=\"f p3\" cx=\"10\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 800, "delay": 1000 }
+  ]
+}

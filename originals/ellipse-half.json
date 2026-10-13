@@ -1,0 +1,10 @@
+{
+  "name": "ellipse-half",
+  "category": "shapes",
+  "tags": ["half", "ellipse", "dome", "arc", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M3 16 A9 7 0 0 1 21 16 Z\"/><line class=\"p2\" x1=\"2\" y1=\"16\" x2=\"22\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "multi-monitor",
+  "category": "layout",
+  "tags": ["multi", "monitor", "screens", "setup", "display"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"5\" height=\"6\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"5\" width=\"5\" height=\"11\" rx=\"1\"/><rect class=\"p3\" x=\"18\" y=\"3\" width=\"4\" height=\"13\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 250 },
+    { "part": "p3", "anim": "zoomIn", "dur": 600, "delay": 500 }
+  ]
+}

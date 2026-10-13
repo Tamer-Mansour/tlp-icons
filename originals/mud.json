@@ -1,0 +1,10 @@
+{
+  "name": "mud",
+  "category": "nature",
+  "tags": ["mud", "puddle", "footprint", "wet", "ground"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"17\" rx=\"9\" ry=\"3\"/><path class=\"p2\" d=\"M8.5 12.5 C8.5 9 15.5 9 15.5 12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

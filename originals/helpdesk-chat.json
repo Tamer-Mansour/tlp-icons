@@ -1,0 +1,11 @@
+{
+  "name": "helpdesk-chat",
+  "category": "communication",
+  "tags": ["helpdesk", "chat", "support", "headset", "agent"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 4.5H15v11H8.5L5 18.5v-3H2.5z\"/><path class=\"p2\" d=\"M18 17v-2a2 2 0 0 1 4 0v2\"/><rect class=\"d p3\" x=\"17.5\" y=\"16.5\" width=\"1.5\" height=\"3\" rx=\"0.5\"/><rect class=\"d p3\" x=\"20.5\" y=\"16.5\" width=\"1.5\" height=\"3\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

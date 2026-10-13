@@ -1,0 +1,11 @@
+{
+  "name": "gust-front",
+  "category": "weather",
+  "tags": ["gust", "front", "wind", "storm", "outflow", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M5 4v16\"/><path class=\"p2\" d=\"M9 8.5h10M16 5.5l3 3-3 3\"/><path class=\"p3\" d=\"M9 15.5h8M14.5 13l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "dash", "dur": 800, "delay": 800 }
+  ]
+}

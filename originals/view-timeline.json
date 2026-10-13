@@ -1,0 +1,11 @@
+{
+  "name": "view-timeline",
+  "category": "interface",
+  "tags": ["timeline", "gantt", "schedule", "bars", "plan", "roadmap"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18\"/><rect class=\"d p2\" x=\"5\" y=\"9\" width=\"9\" height=\"3.5\" rx=\"1\"/><rect class=\"d p3\" x=\"10\" y=\"15\" width=\"9\" height=\"3.5\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "growX", "dur": 500, "delay": 800 }
+  ]
+}

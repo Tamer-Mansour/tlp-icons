@@ -1,0 +1,10 @@
+{
+  "name": "waffle-iron",
+  "category": "food",
+  "tags": ["waffle", "iron", "breakfast", "grid", "food"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M9 3 V21 M15 3 V21 M3 9 H21 M3 15 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

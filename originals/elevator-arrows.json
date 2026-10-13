@@ -1,0 +1,11 @@
+{
+  "name": "elevator-arrows",
+  "category": "arrows",
+  "tags": ["elevator", "lift", "up", "down", "floor"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 17 V8 M6.5 10.5 L9 8 L11.5 10.5\"/><path class=\"p3\" d=\"M15 7 V16 M12.5 13.5 L15 16 L17.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 700, "delay": 900 }
+  ]
+}

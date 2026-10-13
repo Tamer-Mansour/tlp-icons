@@ -1,0 +1,10 @@
+{
+  "name": "macro-lens",
+  "category": "photography",
+  "tags": ["macro", "lens", "close", "flower", "leaf", "detail"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M9 15C9 10 12 8 15 8C15 11 13 15 9 15Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

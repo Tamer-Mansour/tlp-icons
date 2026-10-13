@@ -1,0 +1,11 @@
+{
+  "name": "image-levels",
+  "category": "design",
+  "tags": ["image", "levels", "histogram", "contrast", "photo", "adjust"],
+  "svg": "<path class=\"p1\" d=\"M6 18v-5M10 18V9M14 18v-3M18 18v-7\"/><line class=\"p2\" x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/><circle class=\"p3\" cx=\"15\" cy=\"21\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nfc-tap",
+  "category": "interface",
+  "tags": ["nfc", "tap", "contactless", "payment", "card", "phone"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"9\" height=\"16\" rx=\"2\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"12\" r=\"1.2\"/><path class=\"p3\" d=\"M16.5 8.5a5 5 0 0 1 0 7\"/><path class=\"p3\" d=\"M19 6a9 9 0 0 1 0 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 800 }
+  ]
+}

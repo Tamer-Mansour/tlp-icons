@@ -1,0 +1,11 @@
+{
+  "name": "jpeg-file",
+  "category": "photography",
+  "tags": ["jpeg", "file", "document", "picture", "image"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h9l5 5v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M14 2v5h5\"/><rect class=\"p3\" x=\"8\" y=\"11\" width=\"8\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

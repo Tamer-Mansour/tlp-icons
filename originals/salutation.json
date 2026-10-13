@@ -1,0 +1,11 @@
+{
+  "name": "salutation",
+  "category": "text",
+  "tags": ["letter", "greeting", "hello", "hi", "dear"],
+  "svg": "<path class=\"d p1\" d=\"M5 4h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4 3v-3H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z\"/><line class=\"p2\" x1=\"7\" y1=\"9\" x2=\"17\" y2=\"9\"/><line class=\"p3\" x1=\"7\" y1=\"13\" x2=\"13\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tornado-warning",
+  "category": "weather",
+  "tags": ["tornado", "warning", "funnel", "alert", "storm", "danger"],
+  "svg": "<path class=\"p1\" d=\"M12 3 L22 20 H2 Z\"/><path class=\"p2\" d=\"M8.5 15 H15.5 L13.5 11 H10.5 Z\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 1200, "origin": "12px 13px" }
+  ]
+}

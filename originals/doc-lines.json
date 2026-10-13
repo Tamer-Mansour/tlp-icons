@@ -1,0 +1,10 @@
+{
+  "name": "doc-lines",
+  "category": "files",
+  "tags": ["document", "text", "lines", "paragraph", "page body"],
+  "svg": "<path class=\"p1\" d=\"M14 2H6v20h12V8l-6-6z\"/><path class=\"p2\" d=\"M9 8h6M9 11.5h6M9 15h6M9 18.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

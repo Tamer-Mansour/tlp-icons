@@ -1,0 +1,12 @@
+{
+  "name": "mongoose",
+  "category": "nature",
+  "tags": ["mongoose", "animal", "snout", "low", "wild", "desert"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"13\" rx=\"7\" ry=\"3\"/><path class=\"p2\" d=\"M4.5 12c-1.5-.5-2.5-2-2.5-3.5\"/><path class=\"p3\" d=\"M18 11.5l3 1.5-3 1.5\"/><path class=\"p4\" d=\"M8 16v3M14 16v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hockey-gloves",
+  "category": "sport",
+  "tags": ["hockey", "gloves", "padded", "pair", "ice", "protection"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"7\" height=\"12\" rx=\"3\"/><rect class=\"d p2\" x=\"14\" y=\"8\" width=\"7\" height=\"12\" rx=\"3\"/><path class=\"p3\" d=\"M3 13H10M14 13H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 }
+  ]
+}

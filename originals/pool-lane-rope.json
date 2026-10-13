@@ -1,0 +1,10 @@
+{
+  "name": "pool-lane-rope",
+  "category": "sport",
+  "tags": ["pool", "lane", "rope", "swim", "float", "race"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"8\" x2=\"22\" y2=\"8\"/><circle class=\"p2\" cx=\"6\" cy=\"14\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"14\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"14\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

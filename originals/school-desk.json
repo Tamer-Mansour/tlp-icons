@@ -1,0 +1,11 @@
+{
+  "name": "school-desk",
+  "category": "science",
+  "tags": ["desk", "school", "classroom", "furniture", "drawer", "student"],
+  "svg": "<path class=\"p1\" d=\"M3 9h18\"/><path class=\"p2\" d=\"M5 9v12M19 9v12\"/><rect class=\"d p3\" x=\"9\" y=\"13\" width=\"6\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

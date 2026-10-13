@@ -1,0 +1,11 @@
+{
+  "name": "refractometer",
+  "category": "science",
+  "tags": ["lab", "prism", "optics", "measure", "sugar"],
+  "svg": "<path class=\"p1\" d=\"M4 18L10 8H20L14 18Z\"/><path class=\"p2\" d=\"M2 13H7\"/><path class=\"p3\" d=\"M17 13L21 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

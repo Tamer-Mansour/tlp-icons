@@ -1,0 +1,11 @@
+{
+  "name": "volume-alert",
+  "category": "notifications",
+  "tags": ["volume", "sound", "speaker", "alert", "audio", "warning"],
+  "svg": "<path class=\"d p1\" d=\"M3 9.5h3.5L11 6v12l-4.5-3.5H3Z\"/><path class=\"p2\" d=\"M14.5 9.5a3.5 3.5 0 0 1 0 5\"/><path class=\"p3\" d=\"M19.5 5v8\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

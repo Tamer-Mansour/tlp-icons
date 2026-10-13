@@ -1,0 +1,11 @@
+{
+  "name": "gemstone",
+  "category": "science",
+  "tags": ["gem", "diamond", "jewel", "crystal", "gemstone"],
+  "svg": "<path class=\"d p1\" d=\"M7 4h10l4 5-9 11L3 9z\"/><path class=\"p2\" d=\"M3 9h18M9 4l3 5 3-5\"/><circle class=\"f p3\" cx=\"20\" cy=\"2.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1100 }
+  ]
+}

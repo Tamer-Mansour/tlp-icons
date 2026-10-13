@@ -1,0 +1,10 @@
+{
+  "name": "french-horn",
+  "category": "media",
+  "tags": ["french horn", "brass", "horn", "bell", "orchestra", "instrument"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"13\" r=\"4.5\"/><path class=\"d p2\" d=\"M12.5 13h2.5l6-5v12l-6-5h-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 700 }
+  ]
+}

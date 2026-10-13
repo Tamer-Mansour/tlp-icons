@@ -1,0 +1,11 @@
+{
+  "name": "agenda-timer",
+  "category": "time",
+  "tags": ["agenda", "list", "timer", "clock", "meeting", "plan"],
+  "svg": "<path class=\"p1\" d=\"M3 10h12M3 14h12M3 18h12\"/><circle class=\"p2\" cx=\"18\" cy=\"6\" r=\"3\"/><path class=\"p3\" d=\"M18 4.5V6h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1200, "origin": "18px 6px" }
+  ]
+}

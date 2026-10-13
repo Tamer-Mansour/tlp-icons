@@ -1,0 +1,10 @@
+{
+  "name": "goal-reached",
+  "category": "notifications",
+  "tags": ["goal", "reached", "flag", "summit", "achievement"],
+  "svg": "<path class=\"p1\" d=\"M2 21 L9 10 L13 16 L16 12 L22 21 Z\"/><path class=\"p2\" d=\"M9 10 V2 L15 4 L9 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

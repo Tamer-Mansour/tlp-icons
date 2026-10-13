@@ -1,0 +1,11 @@
+{
+  "name": "hovercraft",
+  "category": "vehicles",
+  "tags": ["hovercraft", "hover", "boat", "fan", "air", "craft"],
+  "svg": "<path class=\"d p1\" d=\"M3 13 H21 Q21 15 17 15 H7 Q3 15 3 13 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"9.5\" r=\"2\"/><path class=\"p3\" d=\"M5 19 H9 M11 19 H13 M15 19 H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "spinFast", "dur": 800, "delay": 1000, "origin": "12px 9.5px" }
+  ]
+}

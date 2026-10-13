@@ -1,0 +1,10 @@
+{
+  "name": "fullscreen-exit",
+  "category": "interface",
+  "tags": ["fullscreen", "exit", "collapse", "shrink", "minimize"],
+  "svg": "<path class=\"p1\" d=\"M3 9.5h4.5V5\"/><path class=\"p2\" d=\"M16.5 5v4.5H21\"/><path class=\"p2\" d=\"M3 14.5h4.5V19\"/><path class=\"p1\" d=\"M21 14.5h-4.5V19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chafing-dish",
+  "category": "food",
+  "tags": ["chafing", "dish", "buffet", "warmer", "flame", "serving"],
+  "svg": "<path class=\"d p1\" d=\"M3 12h18v1.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M6 12a6 6 0 0 1 12 0\"/><path class=\"p3\" d=\"M12 18L9.5 19.5A2.5 2.5 0 0 0 14.5 19.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flicker", "dur": 900, "delay": 900 }
+  ]
+}

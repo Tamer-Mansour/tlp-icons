@@ -1,0 +1,11 @@
+{
+  "name": "handout",
+  "category": "files",
+  "tags": ["handout", "print", "page", "share", "lines"],
+  "svg": "<path class=\"p1\" d=\"M5 2h10l4 4v16H5z\"/><line class=\"p2\" x1=\"8\" y1=\"8\" x2=\"14\" y2=\"8\"/><path class=\"p3\" d=\"M14 16h7M18 13l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

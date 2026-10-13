@@ -1,0 +1,11 @@
+{
+  "name": "face-rolling-eyes",
+  "category": "emoji",
+  "tags": ["eyeroll", "annoyed", "face", "sarcasm", "exasperated"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"9\" cy=\"10\" r=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"10\" r=\"2\"/><circle class=\"f\" cx=\"9\" cy=\"9.5\" r=\"0.8\"/><circle class=\"f\" cx=\"15\" cy=\"9.5\" r=\"0.8\"/><path class=\"p3\" d=\"M9 15.5h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

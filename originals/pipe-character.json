@@ -1,0 +1,11 @@
+{
+  "name": "pipe-character",
+  "category": "text",
+  "tags": ["pipe", "separator", "vertical bar", "divider", "character"],
+  "svg": "<path class=\"p1\" d=\"M3 9h6M3 15h6\"/><path class=\"p2\" d=\"M12 4v16\"/><path class=\"p3\" d=\"M15 9h6M15 15h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "swallow-bird",
+  "category": "nature",
+  "tags": ["swallow", "bird", "forked", "tail", "flight", "migration"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13\" rx=\"5\" ry=\"3\"/><circle class=\"p2\" cx=\"16.5\" cy=\"9.5\" r=\"2\"/><path class=\"p2\" d=\"M18.5 8.8L20.5 9.3L18.5 10.3\"/><path class=\"p3\" d=\"M11 11C9 7 6 4 3 4c2 3 3 5 2 7\"/><path class=\"p4\" d=\"M7.5 11.5L2 9.5L5 13L2 16.5L7.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1300 }
+  ]
+}

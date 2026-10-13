@@ -1,0 +1,10 @@
+{
+  "name": "hotkey-bolt",
+  "category": "interface",
+  "tags": ["hotkey", "shortcut", "keycap", "keyboard", "bolt", "fast"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"11\" height=\"12\" rx=\"2\"/><polyline class=\"p2\" points=\"19 3 15 12 20 12 16 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 800 }
+  ]
+}

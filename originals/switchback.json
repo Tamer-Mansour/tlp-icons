@@ -1,0 +1,10 @@
+{
+  "name": "switchback",
+  "category": "vehicles",
+  "tags": ["switchback", "road", "zigzag", "hill", "mountain", "route"],
+  "svg": "<polyline class=\"p1\" points=\"5,21 19,18 5,14 19,10 5,6\"/><circle class=\"f p2\" cx=\"5\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

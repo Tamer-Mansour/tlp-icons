@@ -1,0 +1,11 @@
+{
+  "name": "concave-mirror",
+  "category": "science",
+  "tags": ["physics", "mirror", "concave", "light", "reflection", "optics"],
+  "svg": "<path class=\"p1\" d=\"M12 4Q20 12 12 20\"/><path class=\"p2\" d=\"M3 8h10.5M3 16h10.5\"/><path class=\"p3\" d=\"M13.5 8L9 11M13.5 16L9 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

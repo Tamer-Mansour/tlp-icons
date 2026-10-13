@@ -1,0 +1,11 @@
+{
+  "name": "build-passed",
+  "category": "notifications",
+  "tags": ["build", "passed", "hammer", "check", "success"],
+  "svg": "<rect class=\"p1\" x=\"14\" y=\"3\" width=\"7\" height=\"4\" rx=\"1\"/><path class=\"p1\" d=\"M17.5 7L9 13\"/><rect class=\"p2\" x=\"2\" y=\"15\" width=\"14\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M5.5 18.5l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1200 }
+  ]
+}

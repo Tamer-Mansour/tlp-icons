@@ -1,0 +1,11 @@
+{
+  "name": "mailbag",
+  "category": "communication",
+  "tags": ["mailbag", "mail", "sack", "post", "letters"],
+  "svg": "<path class=\"d p1\" d=\"M5 9.5h14l-1.2 10a1.5 1.5 0 0 1-1.5 1.5H7.7a1.5 1.5 0 0 1-1.5-1.5z\"/><rect class=\"p2\" x=\"9\" y=\"2.5\" width=\"6\" height=\"5\" rx=\"0.5\"/><path class=\"p3\" d=\"M7 12.5h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 900, "origin": "12px 9.5px" }
+  ]
+}

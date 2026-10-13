@@ -1,0 +1,11 @@
+{
+  "name": "form-select",
+  "category": "files",
+  "tags": ["dropdown", "select", "input", "chevron", "field"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5.5\" width=\"19\" height=\"13\" rx=\"2\"/><line class=\"p3\" x1=\"6\" y1=\"12\" x2=\"11\" y2=\"12\"/><polyline class=\"p2\" points=\"15 10.5 17.5 13 20 10.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nod", "dur": 600, "delay": 900 }
+  ]
+}

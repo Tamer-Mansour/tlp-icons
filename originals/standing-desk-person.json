@@ -1,0 +1,11 @@
+{
+  "name": "standing-desk-person",
+  "category": "people",
+  "tags": ["standing", "desk", "office", "ergonomic", "person"],
+  "svg": "<path class=\"p1\" d=\"M2 12H13M3 12V21M12 12V21\"/><rect class=\"p2\" x=\"4\" y=\"4\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M7.5 9V12\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2\"/><path class=\"p3\" d=\"M15 22V13Q15 10 18 10Q21 10 21 13V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "wave", "dur": 900, "delay": 1400, "origin": "bottom" }
+  ]
+}

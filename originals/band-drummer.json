@@ -1,0 +1,11 @@
+{
+  "name": "band-drummer",
+  "category": "people",
+  "tags": ["drummer", "drum", "band", "sticks", "music", "percussion"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"7\" ry=\"2.5\"/><path class=\"p2\" d=\"M5 14 V19.5 A7 2.5 0 0 0 19 19.5 V14\"/><path class=\"p3\" d=\"M5 3 L13 8 M19 3 L11 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "strike", "dur": 500, "delay": 1000, "origin": "12px 8px" }
+  ]
+}

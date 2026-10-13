@@ -1,0 +1,10 @@
+{
+  "name": "toffee",
+  "category": "food",
+  "tags": ["candy", "toffee", "wrapped", "sweet", "treat"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M7 12L3 9.5v5zM17 12l4-2.5v5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

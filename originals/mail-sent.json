@@ -1,0 +1,11 @@
+{
+  "name": "mail-sent",
+  "category": "communication",
+  "tags": ["mail", "sent", "envelope", "paper plane", "send", "delivered"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"12\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M2 14l6 3.5 6-3.5\"/><path class=\"p3\" d=\"M10 9l11-6-4 11-3-4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "launch", "dur": 800, "delay": 900 }
+  ]
+}

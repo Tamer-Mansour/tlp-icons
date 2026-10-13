@@ -1,0 +1,11 @@
+{
+  "name": "potter-wheel",
+  "category": "people",
+  "tags": ["potter wheel", "pottery", "clay", "ceramics", "spinning wheel"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"16.5\" rx=\"7\" ry=\"2\"/><path class=\"p2\" d=\"M12 18.5V21M8 21h8\"/><path class=\"p3\" d=\"M9 7.5h6l-1 4.5h-4z\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 900, "origin": "12px 16.5px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "loading-bay",
+  "category": "buildings",
+  "tags": ["loading", "bay", "dock", "crate", "arrow", "freight"],
+  "svg": "<path class=\"p1\" d=\"M3 21V8h18v13\"/><path class=\"d p2\" d=\"M7 21v-7h10v7\"/><path class=\"p3\" d=\"M12 3v5M9.5 5.5L12 8l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "dropIn", "dur": 600, "delay": 1200 }
+  ]
+}

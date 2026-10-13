@@ -1,0 +1,10 @@
+{
+  "name": "land-breeze",
+  "category": "weather",
+  "tags": ["land breeze", "wind", "shore", "night wind", "coast", "weather"],
+  "svg": "<path class=\"p1\" d=\"M3 17 Q6 14.5 9 17 T15 17 T21 17\"/><path class=\"p2\" d=\"M20 8.5 H8 M16 11.5 H11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 900, "delay": 800 }
+  ]
+}

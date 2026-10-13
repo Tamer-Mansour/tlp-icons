@@ -1,0 +1,11 @@
+{
+  "name": "weather-station",
+  "category": "weather",
+  "tags": ["weather station", "sensor", "anemometer", "measure", "pole", "weather"],
+  "svg": "<path class=\"p1\" d=\"M12 10 V21\"/><path class=\"p2\" d=\"M7 14 H17\"/><path class=\"p3\" d=\"M8 6 H16 L14 10 H10 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1100, "origin": "12px 8px" }
+  ]
+}

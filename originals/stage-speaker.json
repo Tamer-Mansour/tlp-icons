@@ -1,0 +1,11 @@
+{
+  "name": "stage-speaker",
+  "category": "communication",
+  "tags": ["speaker", "podium", "stage", "presenter", "talk"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M5 14v-2a3 3 0 0 1 6 0v2\"/><rect class=\"d p3\" x=\"3\" y=\"16\" width=\"10\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p1", "anim": "nod", "dur": 500, "delay": 1000 }
+  ]
+}

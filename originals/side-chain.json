@@ -1,0 +1,11 @@
+{
+  "name": "side-chain",
+  "category": "media",
+  "tags": ["sidechain", "compression", "audio", "waveform", "link", "mix"],
+  "svg": "<path class=\"p1\" d=\"M2 7q2.5-3 5 0t5 0\"/><path class=\"p2\" d=\"M2 17q2.5-3 5 0t5 0\"/><path class=\"p3\" d=\"M18 6v12M15 15l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 900 }
+  ]
+}

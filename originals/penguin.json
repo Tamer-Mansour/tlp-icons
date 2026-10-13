@@ -1,0 +1,11 @@
+{
+  "name": "penguin",
+  "category": "nature",
+  "tags": ["penguin", "egg body", "flippers", "arctic", "bird"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 C8 3 6 8 6 13 C6 18 8 21 12 21 C16 21 18 18 18 13 C18 8 16 3 12 3 Z\"/><path class=\"p2\" d=\"M10 13 Q12 17 14 13\"/><path class=\"p3\" d=\"M6 12 Q4 14 5 17 M18 12 Q20 14 19 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1200 }
+  ]
+}

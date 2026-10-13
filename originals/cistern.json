@@ -1,0 +1,11 @@
+{
+  "name": "cistern",
+  "category": "buildings",
+  "tags": ["cistern", "water tank", "reservoir", "round tank", "storage", "pipe"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12.5\" r=\"6.5\"/><path class=\"p2\" d=\"M9 4h6\"/><path class=\"p3\" d=\"M3 21.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

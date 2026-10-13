@@ -1,0 +1,12 @@
+{
+  "name": "ripe-fruit",
+  "category": "food",
+  "tags": ["ripe", "fruit", "apple", "fresh", "sparkle"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M12 6 V4\"/><path class=\"p3\" d=\"M12 6 Q14 3 17 4 Q16 7 12 6 Z\"/><path class=\"p4\" d=\"M20 2.5 V5.5 M18.5 4 H21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "twinkle", "dur": 700, "delay": 1300 }
+  ]
+}

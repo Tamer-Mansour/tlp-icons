@@ -1,0 +1,10 @@
+{
+  "name": "image-flip",
+  "category": "design",
+  "tags": ["image", "flip", "mirror", "reflect", "picture", "frame"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><polyline class=\"p2\" points=\"9 10 12 7 15 10\"/><polyline class=\"p2\" points=\"9 14 12 17 15 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flipY", "dur": 800, "delay": 700, "origin": "12px 12px" }
+  ]
+}

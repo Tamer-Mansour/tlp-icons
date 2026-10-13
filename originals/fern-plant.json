@@ -1,0 +1,10 @@
+{
+  "name": "fern-plant",
+  "category": "science",
+  "tags": ["fern", "plant", "frond", "leaves", "botany"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"21\" x2=\"12\" y2=\"3\"/><path class=\"p2\" d=\"M12 17L8 15M12 17L16 15M12 12L8.5 10M12 12L15.5 10M12 7L9 5.5M12 7L15 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 800, "delay": 700, "origin": "bottom" }
+  ]
+}

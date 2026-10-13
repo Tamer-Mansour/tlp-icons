@@ -1,0 +1,10 @@
+{
+  "name": "pulse-ring",
+  "category": "interface",
+  "tags": ["pulse", "ring", "signal", "live", "broadcast", "status"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1200, "delay": 500 }
+  ]
+}

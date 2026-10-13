@@ -1,0 +1,11 @@
+{
+  "name": "headquarters",
+  "category": "buildings",
+  "tags": ["headquarters", "office", "building", "flag", "company", "tower"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"14\" height=\"14\"/><path class=\"p2\" d=\"M9 11h2M13 11h2M9 15h2M13 15h2\"/><path class=\"p3\" d=\"M12 7V3M12 3h4l-1 1.5 1 1.5h-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 1400, "origin": "12px 7px" }
+  ]
+}

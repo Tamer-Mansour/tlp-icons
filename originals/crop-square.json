@@ -1,0 +1,10 @@
+{
+  "name": "crop-square",
+  "category": "shapes",
+  "tags": ["crop", "frame", "square", "corners", "trim"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\"/><path class=\"p2\" d=\"M7 3 V7 H3 M17 3 V7 H21 M7 21 V17 H3 M17 21 V17 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

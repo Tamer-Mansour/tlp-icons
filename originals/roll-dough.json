@@ -1,0 +1,10 @@
+{
+  "name": "roll-dough",
+  "category": "food",
+  "tags": ["roll", "dough", "rolling", "pin", "bake"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"5\" width=\"14\" height=\"5\" rx=\"2.5\"/><path class=\"p1\" d=\"M2 7.5 H5 M19 7.5 H22\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"17\" rx=\"8\" ry=\"2.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "roll", "dur": 1000, "delay": 700 }
+  ]
+}

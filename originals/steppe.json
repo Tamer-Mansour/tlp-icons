@@ -1,0 +1,10 @@
+{
+  "name": "steppe",
+  "category": "nature",
+  "tags": ["steppe", "grassland", "plain", "grass", "wide", "field"],
+  "svg": "<path class=\"p1\" d=\"M2 17h20\"/><path class=\"p2\" d=\"M5 17l1-4M9 17l-1-3M13 17l1-4M17 17l-1-3M20 17l1-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1400, "delay": 700, "origin": "bottom" }
+  ]
+}

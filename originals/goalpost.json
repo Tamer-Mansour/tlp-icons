@@ -1,0 +1,10 @@
+{
+  "name": "goalpost",
+  "category": "sport",
+  "tags": ["goal", "post", "football", "soccer", "sport"],
+  "svg": "<path class=\"p1\" d=\"M5 21V5M19 21V5\"/><path class=\"p2\" d=\"M5 5h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 700 }
+  ]
+}

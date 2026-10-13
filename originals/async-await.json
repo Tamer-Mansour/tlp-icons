@@ -1,0 +1,11 @@
+{
+  "name": "async-await",
+  "category": "development",
+  "tags": ["async", "await", "promise", "clock", "wait"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6.5\"/><path class=\"p2\" d=\"M9 8.5V12l2.5 1.5\"/><path class=\"p3\" d=\"M18 12h3.5M19 9.5l2.5 2.5-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 500, "origin": "9px 12px" },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1300 }
+  ]
+}

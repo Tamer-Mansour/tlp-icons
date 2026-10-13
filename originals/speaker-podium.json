@@ -1,0 +1,11 @@
+{
+  "name": "speaker-podium",
+  "category": "people",
+  "tags": ["speaker", "podium", "stage", "presenter", "talk", "lectern"],
+  "svg": "<path class=\"p1\" d=\"M6 21V11l12-2.5V21\"/><path class=\"p2\" d=\"M3 21h18\"/><circle class=\"d p3\" cx=\"12\" cy=\"5\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "nod", "dur": 700, "delay": 1200 }
+  ]
+}

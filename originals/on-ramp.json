@@ -1,0 +1,10 @@
+{
+  "name": "on-ramp",
+  "category": "arrows",
+  "tags": ["ramp", "highway", "join", "road", "on"],
+  "svg": "<path class=\"p1\" d=\"M2 16 H22\"/><path class=\"p2\" d=\"M5 3 C7 9 9 16 14 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

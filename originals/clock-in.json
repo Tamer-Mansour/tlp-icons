@@ -1,0 +1,11 @@
+{
+  "name": "clock-in",
+  "category": "time",
+  "tags": ["clock", "in", "arrive", "start", "work"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"6\"/><path class=\"p1\" d=\"M8 9v3l2 1\"/><path class=\"p2\" d=\"M20 4h2v16h-2\"/><path class=\"p3\" d=\"M15 12h4M17 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1000 }
+  ]
+}

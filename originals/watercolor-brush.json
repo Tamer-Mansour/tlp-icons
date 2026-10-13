@@ -1,0 +1,11 @@
+{
+  "name": "watercolor-brush",
+  "category": "design",
+  "tags": ["watercolor", "brush", "paint", "art", "drop", "ink", "wet"],
+  "svg": "<path class=\"p1\" d=\"M19 4l-7.5 8.5\"/><path class=\"d p2\" d=\"M10.5 12.5c-2 0-4 1-4 4 0 1 .5 1.5 1.5 1.5H14l-1-4z\"/><circle class=\"f p3\" cx=\"6.5\" cy=\"21\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 600, "delay": 900 }
+  ]
+}

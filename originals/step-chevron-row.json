@@ -1,0 +1,12 @@
+{
+  "name": "step-chevron-row",
+  "category": "arrows",
+  "tags": ["steps", "chevron", "sequence", "row", "arrows"],
+  "svg": "<polyline class=\"p1\" points=\"3 9 6 12 3 15\"/><polyline class=\"p2\" points=\"9 9 12 12 9 15\"/><polyline class=\"p3\" points=\"15 9 18 12 15 15\"/><line class=\"p4\" x1=\"3\" y1=\"20\" x2=\"21\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "growX", "dur": 500, "delay": 900, "origin": "left" }
+  ]
+}

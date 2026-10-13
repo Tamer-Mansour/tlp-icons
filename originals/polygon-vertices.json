@@ -1,0 +1,10 @@
+{
+  "name": "polygon-vertices",
+  "category": "math",
+  "tags": ["polygon", "vertices", "corners", "shape", "geometry"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 20.56,9.22 17.29,19.28 6.71,19.28 3.44,9.22\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20.56\" cy=\"9.22\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17.29\" cy=\"19.28\" r=\"1.2\"/><circle class=\"f p2\" cx=\"6.71\" cy=\"19.28\" r=\"1.2\"/><circle class=\"f p2\" cx=\"3.44\" cy=\"9.22\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bounce-back",
+  "category": "arrows",
+  "tags": ["bounce", "rebound", "wall", "reflect", "return"],
+  "svg": "<line class=\"p1\" x1=\"20\" y1=\"4\" x2=\"20\" y2=\"20\"/><path class=\"p2\" d=\"M3 12 H14\"/><polyline class=\"p2\" points=\"10 8 14 12 10 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 800, "delay": 500 }
+  ]
+}

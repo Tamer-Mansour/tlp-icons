@@ -1,0 +1,10 @@
+{
+  "name": "lizard-tail",
+  "category": "nature",
+  "tags": ["lizard", "tail", "reptile", "regrow", "detach"],
+  "svg": "<path class=\"p1\" d=\"M4 20 C10 20 9 13 13 12 C17 11 16 6 21 5\"/><circle class=\"p2 d\" cx=\"21\" cy=\"5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 300, "delay": 700 }
+  ]
+}

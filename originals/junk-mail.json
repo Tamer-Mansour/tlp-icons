@@ -1,0 +1,10 @@
+{
+  "name": "junk-mail",
+  "category": "security",
+  "tags": ["junk", "mail", "spam", "envelope", "reject", "delete"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"12\" height=\"12\" rx=\"1.5\"/><polyline class=\"p1\" points=\"2,6.5 8,12 14,6.5\"/><line class=\"p2\" x1=\"16.5\" y1=\"3\" x2=\"21.5\" y2=\"8\"/><line class=\"p2\" x1=\"21.5\" y1=\"3\" x2=\"16.5\" y2=\"8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

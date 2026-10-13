@@ -1,0 +1,10 @@
+{
+  "name": "hurricane-storm",
+  "category": "science",
+  "tags": ["hurricane", "storm", "swirl", "weather", "cyclone", "wind"],
+  "svg": "<path class=\"p1\" d=\"M12 4 A8 8 0 1 1 4 12\"/><path class=\"p2\" d=\"M12 8 A4 4 0 1 1 8 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 800, "origin": "12px 12px" }
+  ]
+}

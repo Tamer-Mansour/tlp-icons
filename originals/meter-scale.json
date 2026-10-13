@@ -1,0 +1,10 @@
+{
+  "name": "meter-scale",
+  "category": "math",
+  "tags": ["meter", "scale", "length", "measure", "ruler", "metric"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"14\" x2=\"22\" y2=\"14\"/><path class=\"p2\" d=\"M2 10V18M7 12V16M12 10V18M17 12V16M22 10V18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 800 }
+  ]
+}

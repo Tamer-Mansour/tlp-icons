@@ -1,0 +1,11 @@
+{
+  "name": "shipping-status",
+  "category": "notifications",
+  "tags": ["shipping", "box", "package", "progress", "tracking"],
+  "svg": "<path class=\"d p1\" d=\"M3 6l9-4 9 4v7l-9 5-9-5z\"/><path class=\"p2\" d=\"M3 6l9 4 9-4M12 10v8\"/><path class=\"p3\" d=\"M4 21h10\"/><circle class=\"f p3\" cx=\"18\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "refill", "dur": 800, "delay": 900, "origin": "left" }
+  ]
+}

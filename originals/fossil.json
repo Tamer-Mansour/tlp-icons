@@ -1,0 +1,10 @@
+{
+  "name": "fossil",
+  "category": "nature",
+  "tags": ["ancient", "shell", "imprint", "geology", "prehistoric"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"10\" ry=\"8\"/><path class=\"p2\" d=\"M12 12a1.5 1.5 0 0 1 1.5-1.5a3.5 3.5 0 0 1-3.5 3.5a6 6 0 0 1-6-6a5 5 0 0 1 5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 1000, "delay": 600 }
+  ]
+}

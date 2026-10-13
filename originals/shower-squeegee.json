@@ -1,0 +1,11 @@
+{
+  "name": "shower-squeegee",
+  "category": "home",
+  "tags": ["squeegee", "shower", "wiper", "bathroom", "glass", "drops"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"16\" height=\"2.5\" rx=\"1.25\"/><path class=\"p2\" d=\"M5 11V7H17V11\"/><path class=\"p3\" d=\"M8 15.5Q9 17 9 18.5A1 1 0 0 1 7 18.5Q7 17 8 15.5Z\"/><path class=\"p3\" d=\"M15 17.5Q16 19 16 20.5A1 1 0 0 1 14 20.5Q14 19 15 17.5Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 1000, "delay": 1000 }
+  ]
+}

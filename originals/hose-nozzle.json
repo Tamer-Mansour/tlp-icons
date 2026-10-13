@@ -1,0 +1,11 @@
+{
+  "name": "hose-nozzle",
+  "category": "tools",
+  "tags": ["hose", "nozzle", "spray", "trigger", "garden"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"7\" width=\"11\" height=\"3\" rx=\"1\"/><polygon class=\"d p2\" points=\"14 7 20 4 20 13 14 10\"/><path class=\"p3\" d=\"M6 10L7 16H11L10 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 500, "delay": 1000, "origin": "8px 10px" }
+  ]
+}

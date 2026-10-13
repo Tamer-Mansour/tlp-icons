@@ -1,0 +1,11 @@
+{
+  "name": "for-sale-sign",
+  "category": "buildings",
+  "tags": ["sale", "sign", "house", "real estate", "property", "post"],
+  "svg": "<path class=\"p1\" d=\"M12 10v11M8 21h8\"/><rect class=\"d p2\" x=\"4\" y=\"3\" width=\"16\" height=\"7\" rx=\"1\"/><path class=\"p3\" d=\"M10.5 8V6.5L12 5.5l1.5 1V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

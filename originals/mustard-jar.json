@@ -1,0 +1,11 @@
+{
+  "name": "mustard-jar",
+  "category": "food",
+  "tags": ["mustard", "jar", "condiment", "sauce", "food"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"3\" width=\"12\" height=\"3\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\"/><path class=\"p3\" d=\"M9 13 Q10.5 11.5 12 13 T15 13\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "dropIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

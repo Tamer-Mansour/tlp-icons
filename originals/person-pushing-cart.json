@@ -1,0 +1,13 @@
+{
+  "name": "person-pushing-cart",
+  "category": "people",
+  "tags": ["push", "cart", "shopping", "trolley", "person", "carry"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"4.5\" r=\"2.5\"/><path class=\"p2\" d=\"M7.5 8.5 L10 14 M8 10 L14 9\"/><path class=\"p3\" d=\"M10 14 L8 20 M10 14 L13 20\"/><rect class=\"d p4\" x=\"13\" y=\"10\" width=\"8\" height=\"6\" rx=\"1\"/><circle class=\"p5\" cx=\"15\" cy=\"20.5\" r=\"1.5\"/><circle class=\"p5\" cx=\"19.5\" cy=\"20.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "fillIn", "dur": 500, "delay": 900 },
+    { "part": "p5", "anim": "spin", "dur": 900, "delay": 1200 }
+  ]
+}

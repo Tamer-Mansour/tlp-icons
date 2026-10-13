@@ -1,0 +1,10 @@
+{
+  "name": "cursive",
+  "category": "text",
+  "tags": ["cursive", "script", "letter", "write", "handwriting", "text"],
+  "svg": "<path class=\"p1\" d=\"M17.5 8.5 C15.5 6.5 9.5 6.5 8.5 11.5 C7.5 16.5 12.5 19 16.5 16\"/><path class=\"p2\" d=\"M16.5 16 C18 14.5 19.5 16 21.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 700, "delay": 1100 }
+  ]
+}

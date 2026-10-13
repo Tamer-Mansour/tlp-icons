@@ -1,0 +1,11 @@
+{
+  "name": "timeline-vertical",
+  "category": "time",
+  "tags": ["timeline", "vertical", "events", "history", "steps", "progress"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18\"/><path class=\"p2\" d=\"M10 6h8M10 12h6M10 18h9\"/><circle class=\"f p3\" cx=\"6\" cy=\"6\" r=\"1.2\"/><circle class=\"f p3\" cx=\"6\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"6\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "repeat-sign",
+  "category": "media",
+  "tags": ["repeat", "bar line", "dots", "music", "notation"],
+  "svg": "<line class=\"p1\" x1=\"15\" y1=\"5\" x2=\"15\" y2=\"19\"/><line class=\"p2\" x1=\"19\" y1=\"5\" x2=\"19\" y2=\"19\"/><circle class=\"f p3\" cx=\"9\" cy=\"10\" r=\"1.2\"/><circle class=\"f p3\" cx=\"9\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

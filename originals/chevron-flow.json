@@ -1,0 +1,11 @@
+{
+  "name": "chevron-flow",
+  "category": "arrows",
+  "tags": ["chevron", "next", "flow", "sequence", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 6l4 6-4 6\"/><path class=\"p2\" d=\"M9.5 6l4 6-4 6\"/><path class=\"p3\" d=\"M16 6l4 6-4 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

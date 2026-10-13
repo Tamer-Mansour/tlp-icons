@@ -1,0 +1,10 @@
+{
+  "name": "data-leak",
+  "category": "security",
+  "tags": ["security", "data", "leak", "breach", "drops", "exposed"],
+  "svg": "<ellipse class=\"p1\" cx=\"10\" cy=\"5\" rx=\"6\" ry=\"2.5\"/><path class=\"p1\" d=\"M4 5 V15 A6 2.5 0 0 0 16 15 V5 M4 10 A6 2.5 0 0 0 16 10\"/><path class=\"p2\" d=\"M7 19 Q6.3 20.5 7 21.5 Q7.7 20.5 7 19 Z M14 19 Q13.3 20.5 14 21.5 Q14.7 20.5 14 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "drip", "dur": 900, "delay": 900 }
+  ]
+}

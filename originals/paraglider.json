@@ -1,0 +1,11 @@
+{
+  "name": "paraglider",
+  "category": "sport",
+  "tags": ["paraglider", "paragliding", "canopy", "flight", "sky", "glide"],
+  "svg": "<path class=\"d p1\" d=\"M3 10 Q12 0 21 10 Q12 7 3 10 Z\"/><path class=\"p2\" d=\"M7 10 L10.5 16 M17 10 L13.5 16\"/><circle class=\"p3\" cx=\"12\" cy=\"19\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "bob", "dur": 1000, "delay": 1000 }
+  ]
+}

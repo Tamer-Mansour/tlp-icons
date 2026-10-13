@@ -1,0 +1,10 @@
+{
+  "name": "brake-arrow",
+  "category": "arrows",
+  "tags": ["brake", "stop", "slow", "halt", "bar", "decelerate"],
+  "svg": "<path class=\"p1\" d=\"M3 12h12\"/><path class=\"p1\" d=\"M11 8l4 4-4 4\"/><path class=\"p2\" d=\"M20 6v12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "nudge", "dur": 700, "delay": 500 }
+  ]
+}

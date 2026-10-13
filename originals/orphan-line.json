@@ -1,0 +1,10 @@
+{
+  "name": "orphan-line",
+  "category": "text",
+  "tags": ["paragraph", "orphan", "line", "text", "widow", "layout"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M3 10h18M3 14h18\"/><path class=\"p2\" d=\"M3 19h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

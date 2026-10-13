@@ -1,0 +1,10 @@
+{
+  "name": "cursor-click",
+  "category": "arrows",
+  "tags": ["cursor", "click", "tap", "press", "pointer", "burst"],
+  "svg": "<path class=\"p1\" d=\"M8 9l10 4.5-4.5 1.5-1.5 4.5z\"/><path class=\"p2\" d=\"M3 7.5 5 9M2 2l2.5 2.5M7 2v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 800 }
+  ]
+}

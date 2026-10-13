@@ -1,0 +1,11 @@
+{
+  "name": "pinwheel-toy",
+  "category": "emoji",
+  "tags": ["pinwheel", "windmill", "paper", "toy", "spin", "kids"],
+  "svg": "<path class=\"p1\" d=\"M12 9 V3 Q12 2 13.5 2.5 Q17 4 16 7 Z\"/><path class=\"p1\" d=\"M12 9 H18 Q19 9 18.5 10.5 Q17 14 14 13 Z\"/><path class=\"p1\" d=\"M12 9 V15 Q12 16 10.5 15.5 Q7 14 8 11 Z\"/><path class=\"p1\" d=\"M12 9 H6 Q5 9 5.5 7.5 Q7 4 10 5 Z\"/><path class=\"p2\" d=\"M12 15 V21\"/><circle class=\"f p3\" cx=\"12\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "spinFast", "dur": 1400, "delay": 800, "origin": "12px 9px" }
+  ]
+}

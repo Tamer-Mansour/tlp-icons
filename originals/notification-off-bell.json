@@ -1,0 +1,11 @@
+{
+  "name": "notification-off-bell",
+  "category": "interface",
+  "tags": ["bell", "mute", "notification", "silent", "off", "alert"],
+  "svg": "<path class=\"p1\" d=\"M6 9a6 6 0 0 1 12 0v4l2 3H4l2-3z\"/><path class=\"p2\" d=\"M10 19a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M3 3l18 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

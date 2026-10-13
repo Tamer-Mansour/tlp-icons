@@ -1,0 +1,11 @@
+{
+  "name": "driveway",
+  "category": "home",
+  "tags": ["driveway", "garage", "house", "road", "car", "home"],
+  "svg": "<path class=\"d p2\" d=\"M8 12V8.5L12 5l4 3.5V12z\"/><path class=\"p3\" d=\"M10.5 12V9.5h3V12\"/><path class=\"p1\" d=\"M5 21L9.5 14M19 21L14.5 14\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "user-building",
+  "category": "people",
+  "tags": ["user", "building", "office", "company", "workplace", "person", "org"],
+  "svg": "<circle class=\"d p1\" cx=\"7.5\" cy=\"8\" r=\"3.2\"/><path class=\"p1\" d=\"M1.5 20v-1.5a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4V20\"/><rect class=\"d p2\" x=\"16\" y=\"8\" width=\"5.5\" height=\"13\" rx=\".5\"/><path class=\"p3\" d=\"M18 11.5h2M18 14.5h2M18 17.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sun-behind-cloud",
+  "category": "weather",
+  "tags": ["sun", "cloud", "behind", "partly", "weather", "sky"],
+  "svg": "<path class=\"p1\" d=\"M5 8 A4 4 0 0 1 12.5 6\"/><path class=\"d p2\" d=\"M8 19 H17 A3.5 3.5 0 0 0 17.5 12 A5 5 0 0 0 8 11.5 A3 3 0 0 0 8 19 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

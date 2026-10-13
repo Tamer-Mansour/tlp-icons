@@ -1,0 +1,11 @@
+{
+  "name": "drive-in-cinema",
+  "category": "buildings",
+  "tags": ["drive-in", "cinema", "screen", "movie", "car"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M4 20v-3l2-3h12l2 3v3\"/><circle class=\"p3\" cx=\"8\" cy=\"20\" r=\"1.5\"/><circle class=\"p3\" cx=\"16\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "roll", "dur": 800, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "coachmark",
+  "category": "interface",
+  "tags": ["coachmark", "callout", "tooltip", "tour", "hint", "pointer"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"11\" rx=\"3\"/><polyline class=\"p1\" points=\"10,15 12,17 14,15\"/><circle class=\"f p2\" cx=\"12\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 700, "delay": 900 }
+  ]
+}

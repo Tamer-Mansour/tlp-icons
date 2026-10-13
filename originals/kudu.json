@@ -1,0 +1,12 @@
+{
+  "name": "kudu",
+  "category": "nature",
+  "tags": ["antelope", "spiral", "horns", "mane", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M9 21 C9 15 10 12 14 10 L19 7 C20 9 19 12 17 14 C16 17 16 19 16 21 Z\"/><path class=\"p2\" d=\"M13 9 C9 5 4 5 4 9 C4 12 8 12 8 9 C8 7 6 7 6 8\"/><path class=\"p3\" d=\"M11 16 L14 15\"/><circle class=\"f p4\" cx=\"17.5\" cy=\"9.5\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 1200 }
+  ]
+}

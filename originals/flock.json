@@ -1,0 +1,10 @@
+{
+  "name": "flock",
+  "category": "nature",
+  "tags": ["flock", "birds", "flying", "group", "migration", "flight"],
+  "svg": "<path class=\"p1\" d=\"M9 6q3-3 6 0\"/><path class=\"p2\" d=\"M3 11q3-3 6 0M15 11q3-3 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 1000, "delay": 800 }
+  ]
+}

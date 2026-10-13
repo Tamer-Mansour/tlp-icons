@@ -1,0 +1,12 @@
+{
+  "name": "flow-steps",
+  "category": "arrows",
+  "tags": ["flow", "process", "steps", "pipeline", "diagram"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><rect class=\"p3\" x=\"18\" y=\"8\" width=\"4\" height=\"8\" rx=\"1\"/><path class=\"p4\" d=\"M7 12h2M7.5 10.5 9 12l-1.5 1.5M15 12h2M15.5 10.5 17 12l-1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 150 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "nudge", "dur": 600, "delay": 600 }
+  ]
+}

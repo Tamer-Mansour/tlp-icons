@@ -1,0 +1,10 @@
+{
+  "name": "sundial",
+  "category": "weather",
+  "tags": ["sundial", "shadow", "time", "sun", "gnomon"],
+  "svg": "<path class=\"p1\" d=\"M3 19 H21 M4 19 A8 8 0 0 1 20 19\"/><path class=\"p2\" d=\"M10 19 L15 11 M10 19 L5.5 16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 1200, "delay": 800, "origin": "10px 19px" }
+  ]
+}

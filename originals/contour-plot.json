@@ -1,0 +1,10 @@
+{
+  "name": "contour-plot",
+  "category": "charts",
+  "tags": ["contour", "topography", "levels", "map", "analysis"],
+  "svg": "<path class=\"p1\" d=\"M3 12C3 7 6 4 11 4S20 7 20 12 17 20 12 20 3 17 3 12Z\"/><path class=\"d p2\" d=\"M8 12C8 10 9.5 8.5 12 8.5S16 10 16 12 14.5 15.5 12 15.5 8 14 8 12Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

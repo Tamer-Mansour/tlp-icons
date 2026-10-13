@@ -1,0 +1,10 @@
+{
+  "name": "crowd-people",
+  "category": "people",
+  "tags": ["crowd", "group", "people", "audience", "users", "community"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"8.5\" r=\"3\"/><path class=\"p1\" d=\"M3 20a6 6 0 0 1 12 0\"/><circle class=\"p2\" cx=\"17\" cy=\"7.5\" r=\"2.5\"/><path class=\"p2\" d=\"M15 14a5 5 0 0 1 6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 600, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "camper-van",
+  "category": "vehicles",
+  "tags": ["camper", "van", "pop-up", "roof", "camping", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M2.5 17V9H15L18.5 12.5V17Z\"/><path class=\"p2\" d=\"M5 9L5.5 5.5H12.5L13 9\"/><rect class=\"p3\" x=\"10\" y=\"11.5\" width=\"4\" height=\"2.5\"/><circle class=\"p2\" cx=\"7\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1000 }
+  ]
+}

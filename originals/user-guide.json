@@ -1,0 +1,11 @@
+{
+  "name": "user-guide",
+  "category": "files",
+  "tags": ["user", "guide", "help", "question", "docs"],
+  "svg": "<path class=\"p1\" d=\"M2 2h11v20H2z\"/><line class=\"p2\" x1=\"5\" y1=\"8\" x2=\"10\" y2=\"8\"/><line class=\"p2\" x1=\"5\" y1=\"12\" x2=\"10\" y2=\"12\"/><path class=\"d p3\" d=\"M15 4h6v8h-3l-2 2v-2h-1z\"/><circle class=\"f p3\" cx=\"18\" cy=\"8\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 900 }
+  ]
+}

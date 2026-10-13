@@ -1,0 +1,11 @@
+{
+  "name": "message-paste",
+  "category": "communication",
+  "tags": ["paste", "clipboard", "message", "copy", "chat", "insert"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"4.5\" width=\"14\" height=\"17\" rx=\"2\"/><rect class=\"p2\" x=\"9\" y=\"2.5\" width=\"6\" height=\"3\" rx=\"1\"/><rect class=\"p3\" x=\"8.5\" y=\"9\" width=\"7\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

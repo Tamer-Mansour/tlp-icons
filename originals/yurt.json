@@ -1,0 +1,11 @@
+{
+  "name": "yurt",
+  "category": "buildings",
+  "tags": ["yurt", "tent", "round", "dwelling", "nomad", "shelter"],
+  "svg": "<polygon class=\"d p1\" points=\"3,14 12,4 21,14\"/><path class=\"p2\" d=\"M4.5 14v6.5h15V14\"/><path class=\"p3\" d=\"M10 21v-3a2 2 0 0 1 4 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

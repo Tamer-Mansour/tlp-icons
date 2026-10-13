@@ -1,0 +1,11 @@
+{
+  "name": "quantum-dots",
+  "category": "science",
+  "tags": ["quantum", "dots", "nanoparticle", "size", "light"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"12\" r=\"1.2\"/><circle class=\"d p2\" cx=\"10\" cy=\"12\" r=\"2.5\"/><circle class=\"d p3\" cx=\"18\" cy=\"12\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "throb", "dur": 800, "delay": 700 }
+  ]
+}

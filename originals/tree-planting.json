@@ -1,0 +1,11 @@
+{
+  "name": "tree-planting",
+  "category": "nature",
+  "tags": ["planting", "sapling", "seedling", "soil", "garden", "growth"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"p2\" d=\"M12 18v-6\"/><path class=\"p2\" d=\"M12 12c0-2.5-1.5-4-4.5-4 0 2.5 1.5 4 4.5 4z\"/><path class=\"p2\" d=\"M12 10c0-2.5 1.5-4 4.5-4 0 2.5-1.5 4-4.5 4z\"/><path class=\"p3\" d=\"M18 15v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "dig", "dur": 700, "delay": 1100 }
+  ]
+}

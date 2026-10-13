@@ -1,0 +1,11 @@
+{
+  "name": "bug-check",
+  "category": "notifications",
+  "tags": ["bug", "check", "fixed", "passed", "resolved"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"7\" width=\"8\" height=\"12\" rx=\"4\"/><path class=\"p1\" d=\"M10 7L8.5 4M14 7l1.5-3\"/><path class=\"p3\" d=\"M8 11H4M8 16H4M16 11h4M16 16h4\"/><path class=\"p2\" d=\"M10 13l1.5 1.5L14 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 1200 }
+  ]
+}

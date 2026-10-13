@@ -1,0 +1,12 @@
+{
+  "name": "birthday-user",
+  "category": "people",
+  "tags": ["birthday", "cake", "person", "celebrate", "user", "party", "hat"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p2\" d=\"M5 21a7 7 0 0 1 14 0\"/><path class=\"d p3\" d=\"M8.5 5.5L12 2l3.5 3.5z\"/><circle class=\"f p4\" cx=\"12\" cy=\"1.8\" r=\".9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p4", "anim": "flicker", "dur": 500, "delay": 1100 }
+  ]
+}

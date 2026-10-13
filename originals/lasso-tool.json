@@ -1,0 +1,11 @@
+{
+  "name": "lasso-tool",
+  "category": "interface",
+  "tags": ["lasso", "tool", "select", "freeform", "loop", "cursor"],
+  "svg": "<path class=\"p1\" d=\"M12 4C7.6 4 4 6.5 4 9.5S7.6 15 12 15c1.5 0 2.7-.4 3.5-1\"/><line class=\"p2\" x1=\"15.5\" y1=\"14\" x2=\"18.5\" y2=\"18.5\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"19.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1100 }
+  ]
+}

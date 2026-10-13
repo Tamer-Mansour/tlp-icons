@@ -1,0 +1,11 @@
+{
+  "name": "service-status",
+  "category": "notifications",
+  "tags": ["service", "gear", "status", "badge", "settings"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M12 2.5v3.5M12 18v3.5M2.5 12H6M18 12h3.5\"/><circle class=\"d p3\" cx=\"19\" cy=\"5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

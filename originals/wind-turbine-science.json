@@ -1,0 +1,11 @@
+{
+  "name": "wind-turbine-science",
+  "category": "science",
+  "tags": ["wind", "turbine", "energy", "blades", "renewable"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"10\" x2=\"12\" y2=\"21\"/><path class=\"p2\" d=\"M12 10V3M12 10L18 13.5M12 10L6 13.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"10\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "spinFast", "dur": 1200, "delay": 400, "origin": "12px 10px" }
+  ]
+}

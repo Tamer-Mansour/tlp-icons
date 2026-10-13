@@ -1,0 +1,11 @@
+{
+  "name": "leader-dots",
+  "category": "text",
+  "tags": ["leader", "dots", "number", "page", "index"],
+  "svg": "<path class=\"p1\" d=\"M3 12H8\"/><circle class=\"f p2\" cx=\"10\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"12.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"0.9\"/><path class=\"p3\" d=\"M18 9.5L19.5 9V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

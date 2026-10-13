@@ -1,0 +1,11 @@
+{
+  "name": "airbag",
+  "category": "vehicles",
+  "tags": ["airbag", "safety", "crash", "seat", "passenger"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"6\" r=\"2.5\"/><path class=\"d p2\" d=\"M4 21v-4a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v4\"/><path class=\"p3\" d=\"M17 7l2-2M18 12h3M17 17l2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1100 }
+  ]
+}

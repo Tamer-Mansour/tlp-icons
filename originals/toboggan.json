@@ -1,0 +1,10 @@
+{
+  "name": "toboggan",
+  "category": "sport",
+  "tags": ["toboggan", "sled", "wooden", "snow", "winter", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M2 9 Q3 18 12 18 Q19 18 21 14 L20 13 Q18 16 12 16 Q6 16 4 9 Z\"/><path class=\"p2\" d=\"M7 13 H17\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "bob", "dur": 1200, "delay": 600 }
+  ]
+}

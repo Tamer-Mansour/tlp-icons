@@ -1,0 +1,11 @@
+{
+  "name": "file-clipboard",
+  "category": "files",
+  "tags": ["file", "clipboard", "paste", "copy", "list", "document"],
+  "svg": "<path class=\"d p1\" d=\"M5 4.5h13.5V21H5z\"/><path class=\"p2\" d=\"M8.5 2.5h5v3h-5z\"/><path class=\"p3\" d=\"M8.5 10h6.5M8.5 13.5h6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

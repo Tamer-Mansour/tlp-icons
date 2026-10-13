@@ -1,0 +1,11 @@
+{
+  "name": "shoe-rack",
+  "category": "home",
+  "tags": ["shoe", "rack", "shoes", "storage", "shelf", "entryway"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><path class=\"d p2\" d=\"M3 17V13q0-2.5 2.5-2.5H8l3 3h2V17z\"/><path class=\"d p3\" d=\"M15 17v-5q0-2 2-2h2l2 2.5V17z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 500, "delay": 1000 }
+  ]
+}

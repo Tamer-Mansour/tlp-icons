@@ -1,0 +1,11 @@
+{
+  "name": "pause-button",
+  "category": "interface",
+  "tags": ["pause", "button", "hold", "media", "stop", "bars"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M10 9v6\"/><path class=\"p3\" d=\"M14 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "riseIn", "dur": 400, "delay": 900 }
+  ]
+}

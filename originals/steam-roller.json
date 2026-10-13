@@ -1,0 +1,11 @@
+{
+  "name": "steam-roller",
+  "category": "tools",
+  "tags": ["steam", "roller", "drum", "road", "construction", "machine"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"10\" width=\"12\" height=\"6\" rx=\"1\"/><path class=\"p2\" d=\"M11 10V5h3\"/><circle class=\"p3\" cx=\"6\" cy=\"16\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "roll", "dur": 1000, "delay": 800 }
+  ]
+}

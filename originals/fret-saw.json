@@ -1,0 +1,10 @@
+{
+  "name": "fret-saw",
+  "category": "tools",
+  "tags": ["fret", "saw", "bow", "frame", "fine blade"],
+  "svg": "<path class=\"p1\" d=\"M19 3H8L3 12l5 9h11\"/><path class=\"p2\" d=\"M14 3v18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

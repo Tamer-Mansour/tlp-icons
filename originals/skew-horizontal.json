@@ -1,0 +1,10 @@
+{
+  "name": "skew-horizontal",
+  "category": "design",
+  "tags": ["skew", "horizontal", "shear", "slant", "transform", "parallelogram"],
+  "svg": "<polygon class=\"d p1\" points=\"6,5 22,5 18,19 2,19\"/><path class=\"p2\" d=\"M18 2h4v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 800 }
+  ]
+}

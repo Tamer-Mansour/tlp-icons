@@ -1,0 +1,10 @@
+{
+  "name": "status-light",
+  "category": "devices",
+  "tags": ["status", "light", "indicator", "column", "signal", "traffic"],
+  "svg": "<rect class=\"p1\" x=\"8\" y=\"2\" width=\"8\" height=\"20\" rx=\"3\"/><circle class=\"f p2\" cx=\"12\" cy=\"6.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"17.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 800, "delay": 700 }
+  ]
+}

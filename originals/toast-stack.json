@@ -1,0 +1,10 @@
+{
+  "name": "toast-stack",
+  "category": "layout",
+  "tags": ["toast", "stack", "message", "bar", "alert", "snack", "notice"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"12\" width=\"18\" height=\"4\" rx=\"2\"/><rect class=\"p2\" x=\"6\" y=\"18\" width=\"12\" height=\"3\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 600, "delay": 300 }
+  ]
+}

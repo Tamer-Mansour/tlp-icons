@@ -1,0 +1,10 @@
+{
+  "name": "send-diagonal",
+  "category": "interface",
+  "tags": ["send", "diagonal", "arrow", "forward", "dispatch", "share"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M9 15 19 5M12 5h7v7\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p1", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

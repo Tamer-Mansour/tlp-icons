@@ -1,0 +1,11 @@
+{
+  "name": "wood-screw",
+  "category": "tools",
+  "tags": ["screw", "wood", "thread", "fastener", "head", "hardware"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><line class=\"p2\" x1=\"12\" y1=\"7\" x2=\"12\" y2=\"21\"/><path class=\"p3\" d=\"M8 10 L16 13 M8 14 L16 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 800 }
+  ]
+}

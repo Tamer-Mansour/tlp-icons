@@ -1,0 +1,11 @@
+{
+  "name": "whiteboard",
+  "category": "science",
+  "tags": ["whiteboard", "board", "write", "classroom", "marker", "teaching"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3\" width=\"19\" height=\"11\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 16V21M17 16V21\"/><path class=\"p3\" d=\"M6 8Q9 6 12 8T18 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

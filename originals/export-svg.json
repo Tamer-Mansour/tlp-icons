@@ -1,0 +1,11 @@
+{
+  "name": "export-svg",
+  "category": "design",
+  "tags": ["svg", "vector", "export", "path", "node", "download", "bezier"],
+  "svg": "<path class=\"p1\" d=\"M5 18C5 10 19 14 19 6\"/><circle class=\"p2\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"19\" cy=\"6\" r=\"2\"/><path class=\"p3\" d=\"M19.5 13v6.5M17 17l2.5 2.5 2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 500, "delay": 900 }
+  ]
+}

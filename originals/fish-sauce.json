@@ -1,0 +1,11 @@
+{
+  "name": "fish-sauce",
+  "category": "food",
+  "tags": ["fish", "sauce", "bottle", "condiment", "asian", "seasoning"],
+  "svg": "<rect class=\"d p1\" x=\"8.5\" y=\"9\" width=\"7\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M10 9V4.5h4V9M9 4.5V2.5h6v2\"/><path class=\"p3\" d=\"M9.5 14.5c1.2-2 3-2.2 4.5 0-1.5 2.2-3.3 2-4.5 0z\"/><circle class=\"f p3\" cx=\"11.3\" cy=\"14.3\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 900 }
+  ]
+}

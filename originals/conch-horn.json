@@ -1,0 +1,10 @@
+{
+  "name": "conch-horn",
+  "category": "communication",
+  "tags": ["conch", "horn", "shell", "signal", "sea", "call"],
+  "svg": "<path class=\"p1\" d=\"M4 20c0-7 5-12 11-12 3 0 5 2 5 4.5 0 1.8-1.6 2.8-3 2.2-1-.5-1-2 .2-2.7\"/><path class=\"p2\" d=\"M20.5 4a3 3 0 0 1 0 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

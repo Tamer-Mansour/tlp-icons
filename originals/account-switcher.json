@@ -1,0 +1,11 @@
+{
+  "name": "account-switcher",
+  "category": "people",
+  "tags": ["account", "switch", "swap", "profiles", "users", "change"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"6\" r=\"2.5\"/><path class=\"p1\" d=\"M2.5 12.5a4.5 4 0 0 1 9 0\"/><circle class=\"d p1\" cx=\"17\" cy=\"6\" r=\"2.5\"/><path class=\"p1\" d=\"M12.5 12.5a4.5 4 0 0 1 9 0\"/><path class=\"p2\" d=\"M4 17h14M15 14l3 3-3 3\"/><path class=\"p3\" d=\"M20 20H6M9 17l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1100 }
+  ]
+}

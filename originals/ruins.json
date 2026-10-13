@@ -1,0 +1,11 @@
+{
+  "name": "ruins",
+  "category": "buildings",
+  "tags": ["ruins", "broken", "columns", "ancient", "rubble"],
+  "svg": "<path class=\"p1\" d=\"M4 19V8h4v11z\"/><path class=\"p2\" d=\"M12 19v-5h4v5z\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

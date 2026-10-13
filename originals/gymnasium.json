@@ -1,0 +1,10 @@
+{
+  "name": "gymnasium",
+  "category": "buildings",
+  "tags": ["gymnasium", "gym", "sports", "hall", "basketball", "arch"],
+  "svg": "<path class=\"d p1\" d=\"M3 20V11a9 9 0 0 1 18 0v9z\"/><circle class=\"p2\" cx=\"12\" cy=\"13.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1500, "delay": 800 }
+  ]
+}

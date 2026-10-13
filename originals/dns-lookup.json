@@ -1,0 +1,11 @@
+{
+  "name": "dns-lookup",
+  "category": "development",
+  "tags": ["dns", "lookup", "domain", "search", "globe", "magnifier"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"6\"/><ellipse class=\"p2\" cx=\"10\" cy=\"10\" rx=\"2.5\" ry=\"6\"/><path class=\"p2\" d=\"M4 10h12\"/><path class=\"p3\" d=\"M14.5 14.5 20 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "magnify", "dur": 800, "delay": 1200 }
+  ]
+}

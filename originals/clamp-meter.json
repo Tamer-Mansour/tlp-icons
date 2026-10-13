@@ -1,0 +1,11 @@
+{
+  "name": "clamp-meter",
+  "category": "devices",
+  "tags": ["clamp", "meter", "current", "cable", "electric", "dial"],
+  "svg": "<path class=\"p1\" d=\"M7 3H14A5 5 0 0 1 14 13H7\"/><path class=\"p2\" d=\"M2 8H12\"/><circle class=\"d p3\" cx=\"12\" cy=\"18\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

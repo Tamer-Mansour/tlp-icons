@@ -1,0 +1,11 @@
+{
+  "name": "pillowcase",
+  "category": "home",
+  "tags": ["pillowcase", "pillow", "bedding", "cover", "sleep"],
+  "svg": "<path class=\"d p1\" d=\"M4 7h16v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M4 7l8 4 8-4\"/><path class=\"p3\" d=\"M7 17h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 800, "delay": 1000 }
+  ]
+}

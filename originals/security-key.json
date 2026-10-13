@@ -1,0 +1,11 @@
+{
+  "name": "security-key",
+  "category": "devices",
+  "tags": ["security", "key", "lock", "passkey", "authentication", "hardware"],
+  "svg": "<circle class=\"p1\" cx=\"8\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M12 12h9M18 12v3M21 12v2\"/><circle class=\"f p3\" cx=\"8\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

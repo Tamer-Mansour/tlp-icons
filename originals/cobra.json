@@ -1,0 +1,12 @@
+{
+  "name": "cobra",
+  "category": "nature",
+  "tags": ["snake", "hood", "reptile", "venom", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M6 11 C6 6 9 3 12 3 C15 3 18 6 18 11 C18 13 16 15 14 15 L10 15 C8 15 6 13 6 11 Z\"/><path class=\"p2\" d=\"M10 15 C10 18 8 19 8 21 M14 15 C14 18 16 19 16 21\"/><path class=\"p3\" d=\"M4 21 H20\"/><circle class=\"f p4\" cx=\"10\" cy=\"9\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "blink", "dur": 300, "delay": 1200 }
+  ]
+}

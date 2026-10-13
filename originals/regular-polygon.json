@@ -1,0 +1,10 @@
+{
+  "name": "regular-polygon",
+  "category": "math",
+  "tags": ["regular", "polygon", "hexagon", "sides", "equal", "geometry"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5\"/><path class=\"p2\" d=\"M12 12L12 3M12 12L20 7.5M12 12L20 16.5M12 12L12 21M12 12L4 16.5M12 12L4 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

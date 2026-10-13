@@ -1,0 +1,12 @@
+{
+  "name": "check-out-time",
+  "category": "time",
+  "tags": ["check", "out", "time", "door", "departure", "clock"],
+  "svg": "<circle class=\"p1\" cx=\"6.5\" cy=\"12\" r=\"4.5\"/><path class=\"p2\" d=\"M6.5 9.5V12l1.5 1\"/><path class=\"p3\" d=\"M17 4h4v16h-4\"/><path class=\"p4\" d=\"M16 12h-2.5M15 9.5L13 12l2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "slideIn", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "6.5px 12px" }
+  ]
+}

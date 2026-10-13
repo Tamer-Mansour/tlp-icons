@@ -1,0 +1,11 @@
+{
+  "name": "combine-harvester",
+  "category": "vehicles",
+  "tags": ["harvester", "combine", "farm", "crop", "grain", "tractor"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"7.5\" width=\"9\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M13 11.5H17L19 14.5V17H13Z\"/><circle class=\"p3\" cx=\"8\" cy=\"18.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"18.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

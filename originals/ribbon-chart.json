@@ -1,0 +1,10 @@
+{
+  "name": "ribbon-chart",
+  "category": "charts",
+  "tags": ["ribbon", "wave", "bands", "stream", "trend", "layers"],
+  "svg": "<path class=\"d p1\" d=\"M3 3c3-2 6 2 9 0s6-2 9 0v5c-3 2-6-2-9 0s-6 2-9 0z\"/><path class=\"d p2\" d=\"M3 14c3-2 6 2 9 0s6-2 9 0v5c-3 2-6-2-9 0s-6 2-9 0z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 400, "origin": "bottom" }
+  ]
+}

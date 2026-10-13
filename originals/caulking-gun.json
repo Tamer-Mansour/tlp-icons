@@ -1,0 +1,10 @@
+{
+  "name": "caulking-gun",
+  "category": "tools",
+  "tags": ["caulking", "gun", "sealant", "tube", "trigger", "nozzle"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"8\" width=\"12\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M16 11h5M8 14v5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mood-chart",
+  "category": "charts",
+  "tags": ["mood", "chart", "feeling", "tracker", "wave"],
+  "svg": "<path class=\"p1\" d=\"M2 14L7 9L12 13L17 8L22 11\"/><circle class=\"f p2\" cx=\"7\" cy=\"5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"4\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 500, "delay": 900 }
+  ]
+}

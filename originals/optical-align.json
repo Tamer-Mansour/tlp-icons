@@ -1,0 +1,11 @@
+{
+  "name": "optical-align",
+  "category": "design",
+  "tags": ["optical", "align", "circles", "offset", "guide", "correction"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"5\"/><circle class=\"p2\" cx=\"15\" cy=\"12\" r=\"5\"/><path class=\"p3\" d=\"M12 2v3M12 19v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

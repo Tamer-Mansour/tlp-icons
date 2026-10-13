@@ -1,0 +1,11 @@
+{
+  "name": "rack-cabinet",
+  "category": "devices",
+  "tags": ["rack", "cabinet", "server", "datacenter", "network"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"1\"/><rect class=\"d p3\" x=\"8\" y=\"5\" width=\"8\" height=\"5\" rx=\"0.5\"/><path class=\"p2\" d=\"M9 14h6M9 17h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "welder-mask",
+  "category": "people",
+  "tags": ["welder", "mask", "helmet", "welding", "sparks", "safety"],
+  "svg": "<path class=\"d p1\" d=\"M4 15 V10 Q4 4 12 4 Q20 4 20 10 V15 Z\"/><rect class=\"p2\" x=\"7\" y=\"9\" width=\"10\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M9 18 L7 21 M15 18 L17 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1000 }
+  ]
+}

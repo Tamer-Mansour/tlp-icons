@@ -1,0 +1,11 @@
+{
+  "name": "lamb",
+  "category": "nature",
+  "tags": ["lamb", "sheep", "curly wool", "farm", "baby animal", "spring"],
+  "svg": "<path class=\"d p1\" d=\"M5 14a3 3 0 0 1 0-6 3.5 3.5 0 0 1 6-2.5 3.5 3.5 0 0 1 5.5 3 3 3 0 0 1 .5 5.5z\"/><path class=\"p2\" d=\"M19 11.5h1.5a1.5 1.5 0 0 1 1.5 1.5v.5a1.5 1.5 0 0 1-1.5 1.5H19\"/><path class=\"p3\" d=\"M7.5 14v5M14 14v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "wiggle", "dur": 800, "delay": 1100 }
+  ]
+}

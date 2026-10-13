@@ -1,0 +1,11 @@
+{
+  "name": "cabinet",
+  "category": "home",
+  "tags": ["cabinet", "storage", "doors", "kitchen", "furniture"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M12 3v18\"/><path class=\"p3\" d=\"M10 11v2M14 11v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tap", "dur": 600, "delay": 1000 }
+  ]
+}

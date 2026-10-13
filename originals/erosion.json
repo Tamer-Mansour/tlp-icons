@@ -1,0 +1,11 @@
+{
+  "name": "erosion",
+  "category": "nature",
+  "tags": ["erosion", "ground", "soil", "land", "wear", "earth"],
+  "svg": "<path class=\"p1\" d=\"M3 14 H9 L11 18 L13 14 H21\"/><path class=\"d p2\" d=\"M3 14 H9 L11 18 L13 14 H21 V21 H3 Z\"/><circle class=\"p3\" cx=\"12\" cy=\"6\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "fall", "dur": 900, "delay": 1000 }
+  ]
+}

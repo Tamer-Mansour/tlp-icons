@@ -1,0 +1,10 @@
+{
+  "name": "swipe-hint",
+  "category": "arrows",
+  "tags": ["swipe", "hand", "gesture", "touch", "slide", "mobile"],
+  "svg": "<path class=\"d p1\" d=\"M9 21 L6.5 17 C5.8 15.9 6.5 14.5 7.7 14.8 L9.5 15.3 V6.5 C9.5 5.7 10.1 5 11 5 C11.8 5 12.5 5.7 12.5 6.5 V12 V4 C12.5 3.2 13.1 2.5 14 2.5 C14.8 2.5 15.5 3.2 15.5 4 V12 V6 C15.5 5.2 16.1 4.5 17 4.5 C17.8 4.5 18.5 5.2 18.5 6 V14 L18.5 15.5 L16.5 21 Z\"/><path class=\"p2\" d=\"M2.5 9 H6\"/><polyline class=\"p2\" points=\"4.5 7 2.5 9 4.5 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 600, "delay": 800 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "daffodil",
+  "category": "nature",
+  "tags": ["daffodil", "flower", "spring", "trumpet", "bloom"],
+  "svg": "<path class=\"p1\" d=\"M7 4 H17 L14.5 10 Q12 12.5 9.5 10 Z\"/><circle class=\"d p2\" cx=\"12\" cy=\"7\" r=\"1.8\"/><path class=\"p3\" d=\"M12 12.5 V21\"/><path class=\"p4\" d=\"M12 18 Q16 18 17.5 14.5 Q14 14.5 12 18 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1400 }
+  ]
+}

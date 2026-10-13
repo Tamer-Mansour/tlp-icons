@@ -1,0 +1,10 @@
+{
+  "name": "loggia",
+  "category": "buildings",
+  "tags": ["loggia", "arches", "gallery", "columns", "colonnade", "arcade"],
+  "svg": "<path class=\"p1\" d=\"M3 21V11a4 4 0 0 1 8 0v10M13 21V11a4 4 0 0 1 8 0v10\"/><path class=\"p2\" d=\"M2 4h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 500, "delay": 1000 }
+  ]
+}

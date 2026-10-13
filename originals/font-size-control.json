@@ -1,0 +1,11 @@
+{
+  "name": "font-size-control",
+  "category": "interface",
+  "tags": ["font", "size", "control", "slider", "text", "type"],
+  "svg": "<path class=\"p1\" d=\"M2 6h8M6 6v12\"/><path class=\"p2\" d=\"M18 4v16\"/><circle class=\"d p3\" cx=\"18\" cy=\"9\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

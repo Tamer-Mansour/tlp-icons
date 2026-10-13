@@ -1,0 +1,10 @@
+{
+  "name": "drop-into-slot",
+  "category": "arrows",
+  "tags": ["slot", "drop", "insert", "bar", "place"],
+  "svg": "<path class=\"p1\" d=\"M3 15 H9 M15 15 H21\"/><path class=\"p2\" d=\"M12 4 V12 M9 9 L12 12 L15 9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 700 }
+  ]
+}

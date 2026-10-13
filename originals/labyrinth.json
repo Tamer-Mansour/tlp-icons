@@ -1,0 +1,11 @@
+{
+  "name": "labyrinth",
+  "category": "sport",
+  "tags": ["labyrinth", "maze", "circle", "walls", "puzzle", "spiral"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7A5 5 0 1 0 17 12\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "spiralIn", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1300 }
+  ]
+}

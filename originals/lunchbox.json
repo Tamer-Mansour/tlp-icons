@@ -1,0 +1,11 @@
+{
+  "name": "lunchbox",
+  "category": "food",
+  "tags": ["lunch", "box", "school", "packed", "carry"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 8V6Q9 4 11 4H13Q15 4 15 6V8\"/><line class=\"p3\" x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 1100, "origin": "12px 8px" }
+  ]
+}

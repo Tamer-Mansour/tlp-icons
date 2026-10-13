@@ -1,0 +1,11 @@
+{
+  "name": "note-sixteenth",
+  "category": "media",
+  "tags": ["note", "sixteenth", "music", "semiquaver", "melody", "sound"],
+  "svg": "<circle class=\"d p1\" cx=\"7\" cy=\"18\" r=\"2.5\"/><line class=\"p2\" x1=\"9.5\" y1=\"18\" x2=\"9.5\" y2=\"3\"/><path class=\"p3\" d=\"M9.5 3q4 3 3 7\"/><path class=\"p3\" d=\"M9.5 7q4 3 3 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "flutter", "dur": 800, "delay": 900 }
+  ]
+}

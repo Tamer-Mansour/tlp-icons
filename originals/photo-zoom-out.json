@@ -1,0 +1,10 @@
+{
+  "name": "photo-zoom-out",
+  "category": "photography",
+  "tags": ["photo", "zoom out", "magnify", "minus", "shrink"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M9.5 12h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 600 }
+  ]
+}

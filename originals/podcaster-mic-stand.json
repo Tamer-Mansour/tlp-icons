@@ -1,0 +1,11 @@
+{
+  "name": "podcaster-mic-stand",
+  "category": "people",
+  "tags": ["podcast", "microphone", "stand", "audio", "recording", "host"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"10\" rx=\"3\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 0 12 0\"/><path class=\"p3\" d=\"M12 17v4M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000, "origin": "12px 21px" }
+  ]
+}

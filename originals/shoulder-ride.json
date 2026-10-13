@@ -1,0 +1,10 @@
+{
+  "name": "shoulder-ride",
+  "category": "people",
+  "tags": ["shoulder", "ride", "child", "carry", "parent", "family"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"13\" r=\"2.5\"/><path class=\"p1\" d=\"M12 15.5V22M9 10.5l3-1.5 3 1.5M12 19l-2.5 3M12 19l2.5 3\"/><circle class=\"p2\" cx=\"12\" cy=\"4\" r=\"1.5\"/><path class=\"p2\" d=\"M9.5 8h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

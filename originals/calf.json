@@ -1,0 +1,11 @@
+{
+  "name": "calf",
+  "category": "nature",
+  "tags": ["calf", "young cow", "small head", "two ears", "farm"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"6\"/><path class=\"p2\" d=\"M6.5 8 L3 5 M17.5 8 L21 5\"/><circle class=\"f p3\" cx=\"10\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"14\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blink", "dur": 400, "delay": 1200 }
+  ]
+}

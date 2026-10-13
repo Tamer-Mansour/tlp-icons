@@ -1,0 +1,11 @@
+{
+  "name": "vcard",
+  "category": "people",
+  "tags": ["business", "card", "contact", "profile", "person"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"10\" r=\"1.5\"/><path class=\"p2\" d=\"M5 15.5a2.5 2.5 0 0 1 5 0\"/><line class=\"p3\" x1=\"13.5\" y1=\"9.5\" x2=\"18\" y2=\"9.5\"/><line class=\"p3\" x1=\"13.5\" y1=\"13\" x2=\"16.5\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 900 }
+  ]
+}

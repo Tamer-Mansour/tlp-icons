@@ -1,0 +1,10 @@
+{
+  "name": "rumble-strip",
+  "category": "vehicles",
+  "tags": ["rumble", "strip", "road", "warning", "bars", "alert"],
+  "svg": "<path class=\"p1\" d=\"M3 19h18\"/><path class=\"p2\" d=\"M5 15h3M11 15h3M17 15h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

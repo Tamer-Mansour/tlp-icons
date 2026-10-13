@@ -1,0 +1,11 @@
+{
+  "name": "pet-sitter",
+  "category": "people",
+  "tags": ["pet sitter", "house", "paw", "key", "pets"],
+  "svg": "<path class=\"d p1\" d=\"M3 10.5L12 3.5l9 7V21H3z\"/><circle class=\"p2\" cx=\"10.5\" cy=\"15\" r=\"2\"/><path class=\"p2\" d=\"M8.5 11.5h.01M12.5 11.5h.01\"/><circle class=\"p3\" cx=\"16\" cy=\"16\" r=\"1.2\"/><path class=\"p3\" d=\"M17.2 16h2.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1100, "origin": "16px 16px" }
+  ]
+}

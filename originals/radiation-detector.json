@@ -1,0 +1,10 @@
+{
+  "name": "radiation-detector",
+  "category": "devices",
+  "tags": ["radiation", "detector", "geiger", "hazard", "sensor", "rays"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"2.5\"/><line class=\"p2\" x1=\"7.2\" y1=\"10.2\" x2=\"4.6\" y2=\"8.8\"/><line class=\"p2\" x1=\"12\" y1=\"7.5\" x2=\"12\" y2=\"4.5\"/><line class=\"p2\" x1=\"16.8\" y1=\"10.2\" x2=\"19.4\" y2=\"8.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 600 }
+  ]
+}

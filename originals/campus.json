@@ -1,0 +1,12 @@
+{
+  "name": "campus",
+  "category": "buildings",
+  "tags": ["campus", "university", "college", "quad", "tree", "school", "buildings"],
+  "svg": "<path class=\"p1\" d=\"M2.5 19V10h4v9M17.5 19v-9h4v9\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p3\" d=\"M12 12.5V19\"/><path class=\"p4\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 1000 }
+  ]
+}

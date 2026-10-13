@@ -1,0 +1,11 @@
+{
+  "name": "tessellation",
+  "category": "math",
+  "tags": ["tessellation", "tiling", "hexagon", "pattern", "tiles", "geometry"],
+  "svg": "<polygon class=\"p1\" points=\"3,7 5,3.5 9,3.5 11,7 9,10.5 5,10.5\"/><polygon class=\"p2\" points=\"13,7 15,3.5 19,3.5 21,7 19,10.5 15,10.5\"/><polygon class=\"p3\" points=\"8,17 10,13.5 14,13.5 16,17 14,20.5 10,20.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

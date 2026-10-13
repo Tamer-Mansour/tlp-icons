@@ -1,0 +1,11 @@
+{
+  "name": "toad",
+  "category": "nature",
+  "tags": ["toad", "amphibian", "bumpy skin", "garden", "glands", "hop"],
+  "svg": "<path class=\"d p1\" d=\"M4 14C4 11 7 10 12 10C17 10 20 11 20 14C20 17 17 19 12 19C7 19 4 17 4 14Z\"/><circle class=\"f p2\" cx=\"7\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"14\" r=\"1\"/><circle class=\"p3\" cx=\"8\" cy=\"8\" r=\"1.5\"/><circle class=\"p3\" cx=\"16\" cy=\"8\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1000 }
+  ]
+}

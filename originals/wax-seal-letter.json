@@ -1,0 +1,11 @@
+{
+  "name": "wax-seal-letter",
+  "category": "communication",
+  "tags": ["wax", "seal", "letter", "formal", "official", "mail", "stamp"],
+  "svg": "<path class=\"d p1\" d=\"M5 2h14v10H5z\"/><path class=\"p2\" d=\"M8 5.5h8M8 8.5h8\"/><circle class=\"d p3\" cx=\"12\" cy=\"17.5\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 700 }
+  ]
+}

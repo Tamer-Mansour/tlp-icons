@@ -1,0 +1,11 @@
+{
+  "name": "fog-machine",
+  "category": "media",
+  "tags": ["fog", "smoke", "machine", "stage", "haze", "effect"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"12\" height=\"7\" rx=\"1\"/><line class=\"p2\" x1=\"15\" y1=\"16.5\" x2=\"19\" y2=\"16.5\"/><path class=\"p3\" d=\"M6 10.5a2.5 2.5 0 0 1 1-4.8 3.5 3.5 0 0 1 6.5-.7 2.5 2.5 0 0 1 2.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "float", "dur": 1400, "delay": 900 }
+  ]
+}

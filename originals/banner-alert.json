@@ -1,0 +1,11 @@
+{
+  "name": "banner-alert",
+  "category": "interface",
+  "tags": ["banner", "alert", "warning", "notice", "exclamation", "message"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M7 8.5v4.5\"/><circle class=\"f p3\" cx=\"7\" cy=\"16.2\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

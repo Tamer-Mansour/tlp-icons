@@ -1,0 +1,11 @@
+{
+  "name": "ssd-caddy",
+  "category": "devices",
+  "tags": ["ssd", "caddy", "drive", "tray", "storage", "bay"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 6.5h12\"/><rect class=\"d p3\" x=\"7\" y=\"10\" width=\"10\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 600 },
+    { "part": "p3", "anim": "slideIn", "dur": 800, "delay": 1000 }
+  ]
+}

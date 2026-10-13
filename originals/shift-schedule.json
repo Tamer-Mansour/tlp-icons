@@ -1,0 +1,11 @@
+{
+  "name": "shift-schedule",
+  "category": "time",
+  "tags": ["shift", "schedule", "roster", "hours", "work"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"2\" width=\"10\" height=\"4\" rx=\"2\"/><rect class=\"d p2\" x=\"7\" y=\"10\" width=\"10\" height=\"4\" rx=\"2\"/><rect class=\"d p3\" x=\"12\" y=\"18\" width=\"10\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 350 },
+    { "part": "p3", "anim": "slideIn", "dur": 600, "delay": 700 }
+  ]
+}

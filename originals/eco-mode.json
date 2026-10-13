@@ -1,0 +1,10 @@
+{
+  "name": "eco-mode",
+  "category": "vehicles",
+  "tags": ["eco", "mode", "leaf", "gauge", "efficiency", "green"],
+  "svg": "<path class=\"p1\" d=\"M4 16a8 8 0 0 1 16 0\"/><path class=\"d p2\" d=\"M9 16c0-4 3-6 6-6 0 4-2 6-6 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 1000, "delay": 900, "origin": "12px 16px" }
+  ]
+}

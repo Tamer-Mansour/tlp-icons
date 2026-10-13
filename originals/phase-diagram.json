@@ -1,0 +1,11 @@
+{
+  "name": "phase-diagram",
+  "category": "science",
+  "tags": ["phase", "diagram", "chart", "region", "boundary"],
+  "svg": "<path class=\"p1\" d=\"M3 3v18h18\"/><path class=\"d p3\" d=\"M5 17c3-1 6-8 14-11v11z\"/><path class=\"p2\" d=\"M5 17c3-1 6-8 14-11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "megaphone-cheer",
+  "category": "sport",
+  "tags": ["megaphone", "cheer", "loud", "announce", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M4 10h4l9-5v14l-9-5H4z\"/><path class=\"p2\" d=\"M8 14l1 5h2l-1-5\"/><path class=\"p3\" d=\"M20 9a4 4 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

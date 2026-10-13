@@ -1,0 +1,11 @@
+{
+  "name": "night-vision-camera",
+  "category": "devices",
+  "tags": ["night", "vision", "camera", "moon", "dark"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"11\" height=\"11\" rx=\"2\"/><circle class=\"d p2\" cx=\"7.5\" cy=\"12.5\" r=\"3\"/><path class=\"p3\" d=\"M19.5 3.5A4.5 4.5 0 1 1 14.5 8.5 3.5 3.5 0 0 0 19.5 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "twinkle", "dur": 800, "delay": 1100 }
+  ]
+}

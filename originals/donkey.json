@@ -1,0 +1,11 @@
+{
+  "name": "donkey",
+  "category": "nature",
+  "tags": ["donkey", "ears", "mule", "farm", "animal", "burro"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"6\" ry=\"5\"/><path class=\"p2\" d=\"M8 10 L7 3 M16 10 L17 3\"/><circle class=\"f p3\" cx=\"10\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "power-of-ten",
+  "category": "math",
+  "tags": ["power", "ten", "exponent", "raised", "numbers", "math"],
+  "svg": "<path class=\"p1\" d=\"M5 9V20M3.5 10.5L5 9\"/><rect class=\"p2\" x=\"9\" y=\"9\" width=\"8\" height=\"11\" rx=\"4\"/><path class=\"p3\" d=\"M19 9V4M17.5 5.5L19 4L20.5 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1100, "origin": "bottom" }
+  ]
+}

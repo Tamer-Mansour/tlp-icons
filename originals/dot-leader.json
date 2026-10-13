@@ -1,0 +1,11 @@
+{
+  "name": "dot-leader",
+  "category": "text",
+  "tags": ["leader", "dots", "text", "index", "toc"],
+  "svg": "<path class=\"p1\" d=\"M3 12H7\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"11.5\" cy=\"12\" r=\"0.9\"/><circle class=\"f p2\" cx=\"14\" cy=\"12\" r=\"0.9\"/><path class=\"p3\" d=\"M17 12H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 700 }
+  ]
+}

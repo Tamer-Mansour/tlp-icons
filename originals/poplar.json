@@ -1,0 +1,10 @@
+{
+  "name": "poplar",
+  "category": "nature",
+  "tags": ["poplar", "tree", "tall", "narrow", "leaves", "windy", "forest"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"9\" rx=\"4.5\" ry=\"6.5\"/><path class=\"p2\" d=\"M12 16.5v5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "sway", "dur": 900, "delay": 500, "origin": "12px 16px" }
+  ]
+}

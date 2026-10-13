@@ -1,0 +1,11 @@
+{
+  "name": "hop-arrow",
+  "category": "arrows",
+  "tags": ["hop", "bounce", "jump", "arc", "small", "dot"],
+  "svg": "<circle class=\"f p1\" cx=\"19\" cy=\"19\" r=\"1.2\"/><path class=\"p2\" d=\"M5 16C7 7 13 7 15 16\"/><path class=\"p3\" d=\"M12 13l3 3 3-3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 700 },
+    { "part": "p1", "anim": "popIn", "dur": 300, "delay": 1000 }
+  ]
+}

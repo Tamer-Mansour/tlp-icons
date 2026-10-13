@@ -1,0 +1,11 @@
+{
+  "name": "scaffold",
+  "category": "development",
+  "tags": ["scaffold", "template", "boilerplate", "generate", "frame", "starter"],
+  "svg": "<path class=\"p1\" d=\"M5 3 V21 M19 3 V21\"/><path class=\"p2\" d=\"M5 12 H19 M5 19 H19\"/><rect class=\"d p3\" x=\"8\" y=\"6\" width=\"8\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

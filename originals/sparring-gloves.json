@@ -1,0 +1,11 @@
+{
+  "name": "sparring-gloves",
+  "category": "sport",
+  "tags": ["sparring", "gloves", "boxing", "padded", "fight", "combat"],
+  "svg": "<path class=\"d p1\" d=\"M5 7a7 5 0 0 1 14 0v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path class=\"p2\" d=\"M5 9.5H4a2 2 0 0 0 0 4h1\"/><path class=\"p3\" d=\"M7 18h10v3H7z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 1000 }
+  ]
+}

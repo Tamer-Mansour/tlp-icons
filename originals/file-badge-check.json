@@ -1,0 +1,11 @@
+{
+  "name": "file-badge-check",
+  "category": "files",
+  "tags": ["file", "badge", "check", "verified", "approved", "document"],
+  "svg": "<path class=\"p1\" d=\"M5 3h9l5 5v13H5z\"/><circle class=\"p2\" cx=\"16\" cy=\"16\" r=\"3.5\"/><polyline class=\"p3\" points=\"14.6,16 15.6,17 17.4,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

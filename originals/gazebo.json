@@ -1,0 +1,11 @@
+{
+  "name": "gazebo",
+  "category": "buildings",
+  "tags": ["gazebo", "pavilion", "garden", "roof", "park", "shelter"],
+  "svg": "<path class=\"d p1\" d=\"M2 10l10-6 10 6-10 4z\"/><path class=\"p2\" d=\"M6 14v7M18 14v7M12 14v7\"/><path class=\"p3\" d=\"M3 18h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

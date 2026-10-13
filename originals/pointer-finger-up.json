@@ -1,0 +1,10 @@
+{
+  "name": "pointer-finger-up",
+  "category": "arrows",
+  "tags": ["pointer", "finger", "hand", "up", "point"],
+  "svg": "<path class=\"p1\" d=\"M11 9.5 A1.5 1.5 0 0 1 14 9.5 V10.5 A1.5 1.5 0 0 1 17 10.5 V15.5 A5 5 0 0 1 12 20.5 H11 A4 4 0 0 1 7 16.5 L5.5 13.5 A1.5 1.5 0 0 1 8 12 V11\"/><path class=\"p2\" d=\"M8 12 V4.5 A1.5 1.5 0 0 1 11 4.5 V9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

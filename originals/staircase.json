@@ -1,0 +1,10 @@
+{
+  "name": "staircase",
+  "category": "buildings",
+  "tags": ["staircase", "stairs", "steps", "handrail", "climb", "building"],
+  "svg": "<path class=\"p1\" d=\"M3 21h4v-4h4v-4h4v-4h4\"/><path class=\"p2\" d=\"M3 12L17 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bow-greeting",
+  "category": "people",
+  "tags": ["bow", "greeting", "respect", "polite bow", "salutation"],
+  "svg": "<circle class=\"d p1\" cx=\"14\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M13 9.5L9.5 17M9.5 17L8 21M9.5 17L12 21\"/><path class=\"p3\" d=\"M12.5 11.5L16.5 14.5M12.5 11.5L10 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "nod", "dur": 800, "delay": 900, "origin": "13px 9.5px" }
+  ]
+}

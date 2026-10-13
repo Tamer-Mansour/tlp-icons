@@ -1,0 +1,10 @@
+{
+  "name": "quark-pair",
+  "category": "science",
+  "tags": ["quark", "pair", "particle", "spring", "physics"],
+  "svg": "<circle class=\"d p1\" cx=\"6\" cy=\"12\" r=\"3\"/><circle class=\"d p1\" cx=\"18\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M9 12l1.5-3 3 6 1.5-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "spring", "dur": 800, "delay": 700 }
+  ]
+}

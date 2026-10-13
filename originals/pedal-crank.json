@@ -1,0 +1,10 @@
+{
+  "name": "pedal-crank",
+  "category": "vehicles",
+  "tags": ["pedal", "crank", "bicycle", "gear", "drive", "cycling"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M10 12L16.5 5.5M14 5.5H19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800, "origin": "10px 12px" }
+  ]
+}

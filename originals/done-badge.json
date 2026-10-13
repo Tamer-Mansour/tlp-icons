@@ -1,0 +1,10 @@
+{
+  "name": "done-badge",
+  "category": "interface",
+  "tags": ["done", "badge", "verified", "checkmark", "completed", "award"],
+  "svg": "<path class=\"d p1\" d=\"M12 2.5l2.2 1.7 2.7-.4 1 2.6 2.6 1-.4 2.7 1.7 2.2-1.7 2.2.4 2.7-2.6 1-1 2.6-2.7-.4L12 21.5l-2.2-1.7-2.7.4-1-2.6-2.6-1 .4-2.7L2.2 12l1.7-2.2-.4-2.7 2.6-1 1-2.6 2.7.4z\"/><polyline class=\"p2\" points=\"8.5,12.5 11,15 15.5,9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "overdue-alert",
+  "category": "notifications",
+  "tags": ["overdue", "late", "clock", "back", "alert"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7.5 V12 L15 13.5\"/><path class=\"p3\" d=\"M3.5 4.5 V9 H8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

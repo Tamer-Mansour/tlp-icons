@@ -1,0 +1,11 @@
+{
+  "name": "mayonnaise",
+  "category": "food",
+  "tags": ["mayonnaise", "mayo", "squeeze", "bottle", "condiment", "sauce"],
+  "svg": "<path class=\"d p1\" d=\"M5 9h8v10.5a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 5 19.5z\"/><path class=\"p2\" d=\"M7.5 9V5.5h3V9\"/><ellipse class=\"d p3\" cx=\"19\" cy=\"16.5\" rx=\"2.5\" ry=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 800 }
+  ]
+}

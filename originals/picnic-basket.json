@@ -1,0 +1,11 @@
+{
+  "name": "picnic-basket",
+  "category": "food",
+  "tags": ["picnic", "basket", "wicker", "lunch", "outdoor"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 H20 L18 20 H6 Z\"/><path class=\"p2\" d=\"M7 11 Q7 4 12 4 Q17 4 17 11\"/><path class=\"p3\" d=\"M8 15 H16 M7 18 H17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

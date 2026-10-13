@@ -1,0 +1,11 @@
+{
+  "name": "embryo-stages",
+  "category": "science",
+  "tags": ["embryo", "development", "stages", "growth", "biology", "fetus"],
+  "svg": "<circle class=\"d p1\" cx=\"5\" cy=\"12\" r=\"2.5\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"d p3\" cx=\"19\" cy=\"12\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 600 }
+  ]
+}

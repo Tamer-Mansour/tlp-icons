@@ -1,0 +1,11 @@
+{
+  "name": "toast-glasses-people",
+  "category": "people",
+  "tags": ["toast", "glasses", "cheers", "clink", "wine", "celebration"],
+  "svg": "<path class=\"p1\" d=\"M3 5h8c0 4.5-1.5 7.5-4 7.5S3 9.5 3 5zM7 12.5V20.5M5 20.5h4\"/><path class=\"p2\" d=\"M13 5h8c0 4.5-1.5 7.5-4 7.5S13 9.5 13 5zM17 12.5V20.5M15 20.5h4\"/><path class=\"p3\" d=\"M12 2.5v2M9.5 3.5h1.5M13 3.5h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "twinkle", "dur": 700, "delay": 900 }
+  ]
+}

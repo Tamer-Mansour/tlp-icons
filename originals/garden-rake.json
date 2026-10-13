@@ -1,0 +1,11 @@
+{
+  "name": "garden-rake",
+  "category": "tools",
+  "tags": ["rake", "garden", "leaves", "handle", "tines", "yard"],
+  "svg": "<line class=\"p1\" x1=\"12\" y1=\"2\" x2=\"12\" y2=\"11\"/><line class=\"p2\" x1=\"6\" y1=\"14\" x2=\"18\" y2=\"14\"/><path class=\"p3\" d=\"M7 14 L7 21 M10 14 L10 21 M14 14 L14 21 M17 14 L17 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

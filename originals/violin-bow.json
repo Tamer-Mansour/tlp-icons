@@ -1,0 +1,10 @@
+{
+  "name": "violin-bow",
+  "category": "media",
+  "tags": ["violin", "bow", "strings", "orchestra", "music", "hair"],
+  "svg": "<path class=\"p1\" d=\"M5 19Q12 6 19 5\"/><path class=\"p2\" d=\"M5 19L19 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 900 }
+  ]
+}

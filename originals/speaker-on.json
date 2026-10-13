@@ -1,0 +1,10 @@
+{
+  "name": "speaker-on",
+  "category": "interface",
+  "tags": ["speaker", "sound", "volume", "audio", "on", "loud"],
+  "svg": "<path class=\"d p1\" d=\"M4 9.5h3.5L12 5.5v13l-4.5-4H4z\"/><path class=\"p2\" d=\"M15.5 9a4 4 0 0 1 0 6\"/><path class=\"p2\" d=\"M18.5 6.5a7.5 7.5 0 0 1 0 11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 500 }
+  ]
+}

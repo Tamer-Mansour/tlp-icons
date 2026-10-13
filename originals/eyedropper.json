@@ -1,0 +1,11 @@
+{
+  "name": "eyedropper",
+  "category": "design",
+  "tags": ["eyedropper", "pipette", "color", "picker", "drop", "sample"],
+  "svg": "<path class=\"d p1\" d=\"M15 4.5l4.5 4.5L11 17.5 6.5 13z\"/><path class=\"p2\" d=\"M13 6.5l4.5 4.5M6.5 13L3.5 19\"/><circle class=\"f p3\" cx=\"3.5\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1100 }
+  ]
+}

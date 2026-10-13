@@ -1,0 +1,11 @@
+{
+  "name": "candle-holder",
+  "category": "home",
+  "tags": ["candle", "holder", "flame", "light", "dish"],
+  "svg": "<path class=\"d p1\" d=\"M5 19.5h14l-1.5 2h-11z\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"4\" height=\"7\"/><path class=\"p3\" d=\"M12 3c2 2 2.5 3.5 0 5-2.5-1.5-2-3 0-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 1000, "delay": 1000 }
+  ]
+}

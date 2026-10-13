@@ -1,0 +1,10 @@
+{
+  "name": "frying-pan",
+  "category": "food",
+  "tags": ["frying", "pan", "skillet", "cooking", "food"],
+  "svg": "<path class=\"d p1\" d=\"M4 10 H18 V13 Q18 18 11 18 Q4 18 4 13 Z\"/><path class=\"p2\" d=\"M18 12 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 700, "delay": 800, "origin": "18px 12px" }
+  ]
+}

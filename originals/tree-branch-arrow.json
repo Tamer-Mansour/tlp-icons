@@ -1,0 +1,10 @@
+{
+  "name": "tree-branch-arrow",
+  "category": "arrows",
+  "tags": ["tree", "branch", "fork", "trunk", "path", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M6 3v18\"/><path class=\"p2\" d=\"M6 9h10M13 6l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 800 }
+  ]
+}

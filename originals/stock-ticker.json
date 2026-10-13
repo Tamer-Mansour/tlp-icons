@@ -1,0 +1,10 @@
+{
+  "name": "stock-ticker",
+  "category": "charts",
+  "tags": ["stock", "ticker", "market", "price", "live"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"2\"/><polyline class=\"p2\" points=\"5,12 8,10 11,14 14,10 17,13 19,12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 }
+  ]
+}

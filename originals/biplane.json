@@ -1,0 +1,12 @@
+{
+  "name": "biplane",
+  "category": "vehicles",
+  "tags": ["biplane", "plane", "wings", "aircraft", "propeller", "vintage"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"2\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"16\" width=\"12\" height=\"2\" rx=\"1\"/><path class=\"p3\" d=\"M9 6 V16 M15 6 V16\"/><path class=\"p4\" d=\"M3 8 V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p4", "anim": "spinFast", "dur": 800, "delay": 1000, "origin": "3px 12px" }
+  ]
+}

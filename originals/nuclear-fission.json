@@ -1,0 +1,11 @@
+{
+  "name": "nuclear-fission",
+  "category": "science",
+  "tags": ["nuclear", "fission", "atom", "split", "energy", "reaction"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M9.5 10.5L3.5 4.5M3.5 9V4.5H8\"/><path class=\"p3\" d=\"M14.5 13.5l6 6M20.5 15v4.5H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

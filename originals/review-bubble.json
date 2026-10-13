@@ -1,0 +1,10 @@
+{
+  "name": "review-bubble",
+  "category": "communication",
+  "tags": ["review", "rating", "stars", "feedback", "bubble", "rate"],
+  "svg": "<path class=\"d p1\" d=\"M12 3a9 9 0 0 0-9 9c0 1.5.4 3 1.2 4.2L3 21l4.8-1.2A9 9 0 1 0 12 3z\"/><polygon class=\"p2\" points=\"8 13.5 9.2 11 10.5 13.5 13 13.5 11 15 11.7 17.5 8.9 16 6.2 17.5 7 15 5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 900, "delay": 500 }
+  ]
+}

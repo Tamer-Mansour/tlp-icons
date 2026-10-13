@@ -1,0 +1,12 @@
+{
+  "name": "kite-flyer",
+  "category": "people",
+  "tags": ["kite", "flying", "wind", "string", "outdoor", "toy"],
+  "svg": "<polygon class=\"d p1\" points=\"14,2 19,8 14,14 9,8\"/><path class=\"p2\" d=\"M14 14 L12.5 16 L14.5 18 L12.5 20 L14 22\"/><path class=\"p3\" d=\"M9 20 Q12 17 14 14\"/><circle class=\"p4\" cx=\"5\" cy=\"19\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 400, "origin": "14px 14px" },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "linked-arms",
+  "category": "people",
+  "tags": ["linked", "arms", "friends", "hooked", "together", "pair"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"5\" r=\"2.5\"/><path class=\"p1\" d=\"M6 8.5v8M6 16.5l-2 5M6 16.5l2 5\"/><circle class=\"p2\" cx=\"18\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M18 8.5v8M18 16.5l-2 5M18 16.5l2 5\"/><path class=\"p3\" d=\"M6 10.5l6 2 6-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "dur": 700, "delay": 1000 }
+  ]
+}

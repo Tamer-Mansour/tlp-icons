@@ -1,0 +1,11 @@
+{
+  "name": "car-share",
+  "category": "vehicles",
+  "tags": ["carshare", "share", "cars", "rental", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M3 14v-3l2.5-4.5h11L19 11h2v3z\"/><circle class=\"p2\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M12 3.5h9M17.5 1.5l2.5 2-2.5 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

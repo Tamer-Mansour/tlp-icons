@@ -1,0 +1,10 @@
+{
+  "name": "corner-round",
+  "category": "design",
+  "tags": ["corner", "round", "radius", "rounded", "square", "curve"],
+  "svg": "<path class=\"p1\" d=\"M3 9A6 6 0 0 1 9 3H19V19H3Z\"/><path class=\"p2\" d=\"M6 9A3 3 0 0 1 9 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

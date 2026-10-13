@@ -1,0 +1,11 @@
+{
+  "name": "reservation-table",
+  "category": "food",
+  "tags": ["reservation", "table", "booking", "restaurant", "reserved"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"10\" r=\"5.5\"/><path class=\"p2\" d=\"M9 15.5 V20 M6 20 H12\"/><rect class=\"p3\" x=\"16\" y=\"5\" width=\"5\" height=\"7\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "stampIn", "dur": 500, "delay": 1000 }
+  ]
+}

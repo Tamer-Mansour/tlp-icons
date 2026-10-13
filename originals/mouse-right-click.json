@@ -1,0 +1,10 @@
+{
+  "name": "mouse-right-click",
+  "category": "interface",
+  "tags": ["mouse", "right", "click", "button", "context"],
+  "svg": "<rect class=\"p1\" x=\"6.5\" y=\"3\" width=\"11\" height=\"18\" rx=\"5.5\"/><path class=\"d p2\" d=\"M12 10V3h3.5a2 2 0 0 1 2 2v3.5a1.5 1.5 0 0 1-1.5 1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 }
+  ]
+}

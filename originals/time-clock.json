@@ -1,0 +1,11 @@
+{
+  "name": "time-clock",
+  "category": "devices",
+  "tags": ["time", "clock", "punch", "attendance", "card", "work"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"11\" r=\"8\"/><path class=\"p2\" d=\"M12 11V7M12 11l3 2\"/><path class=\"p3\" d=\"M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 11px" }
+  ]
+}

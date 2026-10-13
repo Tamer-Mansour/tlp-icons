@@ -1,0 +1,10 @@
+{
+  "name": "label-shape",
+  "category": "shapes",
+  "tags": ["label", "tag", "sign", "notched", "shape"],
+  "svg": "<path class=\"d p1\" d=\"M3 6 H20 V18 H3 L7 12 Z\"/><circle class=\"f p2\" cx=\"16\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

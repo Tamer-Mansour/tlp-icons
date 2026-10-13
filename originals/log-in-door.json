@@ -1,0 +1,10 @@
+{
+  "name": "log-in-door",
+  "category": "people",
+  "tags": ["log", "in", "login", "door", "enter", "sign"],
+  "svg": "<path class=\"p1\" d=\"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4\"/><path class=\"p2\" d=\"M3 12h10M9 8.5L13 12l-4 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

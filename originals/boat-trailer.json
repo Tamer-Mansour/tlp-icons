@@ -1,0 +1,11 @@
+{
+  "name": "boat-trailer",
+  "category": "vehicles",
+  "tags": ["trailer", "boat", "launch", "tow", "hitch", "wheels"],
+  "svg": "<path class=\"d p1\" d=\"M3 8 H21 L18 12 H6 Z\"/><path class=\"p2\" d=\"M6 14 H18\"/><circle class=\"p3\" cx=\"9\" cy=\"18\" r=\"2\"/><circle class=\"p3\" cx=\"15\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

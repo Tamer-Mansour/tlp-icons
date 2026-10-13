@@ -1,0 +1,10 @@
+{
+  "name": "unfold-arrows",
+  "category": "arrows",
+  "tags": ["unfold", "expand", "open", "chevron", "reveal", "stretch"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><polyline class=\"p2\" points=\"7 9.5 12 4.5 17 9.5\"/><polyline class=\"p2\" points=\"7 14.5 12 19.5 17 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 }
+  ]
+}

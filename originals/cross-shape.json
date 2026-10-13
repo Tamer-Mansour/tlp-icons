@@ -1,0 +1,10 @@
+{
+  "name": "cross-shape",
+  "category": "shapes",
+  "tags": ["cross", "plus", "outline", "equal", "arms"],
+  "svg": "<polygon class=\"p1\" points=\"9,3 15,3 15,9 21,9 21,15 15,15 15,21 9,21 9,15 3,15 3,9 9,9\"/><circle class=\"f p2\" cx=\"12\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

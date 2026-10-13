@@ -1,0 +1,11 @@
+{
+  "name": "lab-gloves",
+  "category": "science",
+  "tags": ["gloves", "lab", "protection", "hand", "safety"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M9 10 V4 M12.5 10 V3 M16 10 V4.5\"/><path class=\"p3\" d=\"M6 14 L3.5 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "wave", "dur": 800, "delay": 1000 }
+  ]
+}

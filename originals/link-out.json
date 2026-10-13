@@ -1,0 +1,11 @@
+{
+  "name": "link-out",
+  "category": "arrows",
+  "tags": ["link", "external", "out", "chain", "url", "share"],
+  "svg": "<path class=\"p1\" d=\"M9 15H7a4 4 0 0 1 0-8h2\"/><path class=\"p2\" d=\"M15 9h2a4 4 0 0 1 0 8h-2\"/><path class=\"p3\" d=\"M10 14l8-8M13 6h5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "launch", "dur": 900, "delay": 1000 }
+  ]
+}

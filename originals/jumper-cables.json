@@ -1,0 +1,10 @@
+{
+  "name": "jumper-cables",
+  "category": "vehicles",
+  "tags": ["jumper cables", "battery", "jump start", "clamps", "car", "emergency"],
+  "svg": "<rect class=\"d p2\" x=\"2\" y=\"2\" width=\"5\" height=\"3\" rx=\"1\"/><rect class=\"d p2\" x=\"17\" y=\"19\" width=\"5\" height=\"3\" rx=\"1\"/><path class=\"p1\" d=\"M4.5 5v2a6 6 0 0 0 6 6h3a6 6 0 0 1 6 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "emoji-code",
+  "category": "development",
+  "tags": ["emoji", "code", "smiley", "character", "text", "unicode"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"7\"/><circle class=\"f p2\" cx=\"6.5\" cy=\"10\" r=\"0.9\"/><circle class=\"f p2\" cx=\"11.5\" cy=\"10\" r=\"0.9\"/><path class=\"p2\" d=\"M6 13.5c1 1.5 2.5 2 3 2s2-.5 3-2\"/><path class=\"p3\" d=\"M18.5 9l-2 3 2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

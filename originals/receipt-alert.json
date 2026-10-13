@@ -1,0 +1,10 @@
+{
+  "name": "receipt-alert",
+  "category": "notifications",
+  "tags": ["receipt", "alert", "bill", "warning", "problem"],
+  "svg": "<path class=\"p1\" d=\"M6 3h12v17l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5z\"/><path class=\"p1\" d=\"M9 8h6\"/><path class=\"p2\" d=\"M12 10.5v3\"/><circle class=\"f p2\" cx=\"12\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

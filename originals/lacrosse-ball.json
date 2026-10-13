@@ -1,0 +1,10 @@
+{
+  "name": "lacrosse-ball",
+  "category": "sport",
+  "tags": ["lacrosse", "ball", "seam", "sport", "round", "rubber"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"8\"/><path class=\"p2\" d=\"M8 7c2 2 2 8 0 10\"/><path class=\"p2\" d=\"M16 7c-2 2-2 8 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

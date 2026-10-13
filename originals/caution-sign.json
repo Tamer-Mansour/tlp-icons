@@ -1,0 +1,10 @@
+{
+  "name": "caution-sign",
+  "category": "notifications",
+  "tags": ["caution", "warning", "triangle", "sign", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M12 3.5l9.5 16.5h-19z\"/><line class=\"p2\" x1=\"12\" y1=\"9.5\" x2=\"12\" y2=\"14\"/><circle class=\"f p2\" cx=\"12\" cy=\"17\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 700 }
+  ]
+}

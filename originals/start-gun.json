@@ -1,0 +1,10 @@
+{
+  "name": "start-gun",
+  "category": "sport",
+  "tags": ["start gun", "pistol", "race", "starter", "bang"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"12\" height=\"4\" rx=\"1\"/><polygon class=\"p1\" points=\"12 12 15 12 14 18 11 18\"/><line class=\"p2\" x1=\"3\" y1=\"5\" x2=\"5\" y2=\"7\"/><line class=\"p2\" x1=\"3\" y1=\"11\" x2=\"5\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 600, "delay": 700 }
+  ]
+}

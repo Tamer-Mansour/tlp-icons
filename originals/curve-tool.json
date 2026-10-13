@@ -1,0 +1,10 @@
+{
+  "name": "curve-tool",
+  "category": "design",
+  "tags": ["curve", "bezier", "path", "tool", "node"],
+  "svg": "<path class=\"p1\" d=\"M5 19C5 14 12 14 12 12C12 10 19 10 19 5\"/><circle class=\"f p2\" cx=\"5\" cy=\"19\" r=\"1.2\"/><circle class=\"f p2\" cx=\"19\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

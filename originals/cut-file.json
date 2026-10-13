@@ -1,0 +1,11 @@
+{
+  "name": "cut-file",
+  "category": "files",
+  "tags": ["cut", "scissors", "trim", "page", "split"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"7.5\" width=\"16\" height=\"14\" rx=\"2\"/><line class=\"p2\" x1=\"6.5\" y1=\"14\" x2=\"9\" y2=\"14\"/><line class=\"p2\" x1=\"11\" y1=\"14\" x2=\"13.5\" y2=\"14\"/><line class=\"p2\" x1=\"15.5\" y1=\"14\" x2=\"18\" y2=\"14\"/><path class=\"p3\" d=\"M8 2.5l4.5 4M12.5 2.5l-4.5 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 1000 }
+  ]
+}

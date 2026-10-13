@@ -1,0 +1,11 @@
+{
+  "name": "abbreviation",
+  "category": "text",
+  "tags": ["abbreviation", "short", "period", "shortened", "word"],
+  "svg": "<path class=\"p1\" d=\"M3 17V7l4 6 4-6v10\"/><path class=\"p2\" d=\"M14 17v-6M14 13.5c0-1.5 1-2.5 3-2.5\"/><circle class=\"f p3\" cx=\"20\" cy=\"17\" r=\"1.1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

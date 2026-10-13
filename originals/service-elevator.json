@@ -1,0 +1,11 @@
+{
+  "name": "service-elevator",
+  "category": "buildings",
+  "tags": ["service", "elevator", "lift", "wrench", "maintenance", "repair"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\"/><line class=\"p2\" x1=\"13\" y1=\"13\" x2=\"16\" y2=\"16\"/><circle class=\"p3\" cx=\"17.5\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 1100, "origin": "13px 13px" }
+  ]
+}

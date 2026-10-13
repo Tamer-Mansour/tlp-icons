@@ -1,0 +1,12 @@
+{
+  "name": "face-zany",
+  "category": "emoji",
+  "tags": ["zany", "silly", "face", "goofy", "wacky"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"9\" cy=\"10\" r=\"2\"/><path class=\"p3\" d=\"M14 10h3\"/><path class=\"p4\" d=\"M8 14.5q4 4 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1200 }
+  ]
+}

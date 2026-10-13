@@ -1,0 +1,11 @@
+{
+  "name": "latency-chart",
+  "category": "charts",
+  "tags": ["latency", "chart", "response", "time", "clock", "performance"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M6 10v2l1.5 1\"/><path class=\"p3\" d=\"M14 20v-6M18 20V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "grow", "origin": "bottom", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "origin": "6px 12px", "dur": 1000, "delay": 1100 }
+  ]
+}

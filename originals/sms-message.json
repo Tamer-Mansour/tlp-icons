@@ -1,0 +1,11 @@
+{
+  "name": "sms-message",
+  "category": "connectivity",
+  "tags": ["sms", "message", "text", "chat", "bubble", "mobile"],
+  "svg": "<path class=\"d p1\" d=\"M4 4 H20 A2 2 0 0 1 22 6 V15 A2 2 0 0 1 20 17 H10 L6 20.5 V17 H4 A2 2 0 0 1 2 15 V6 A2 2 0 0 1 4 4 Z\"/><circle class=\"f p2\" cx=\"7\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"12\" cy=\"10.5\" r=\"1.2\"/><circle class=\"f p2\" cx=\"17\" cy=\"10.5\" r=\"1.2\"/><line class=\"p3\" x1=\"7\" y1=\"14\" x2=\"13\" y2=\"14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 700, "delay": 900 }
+  ]
+}

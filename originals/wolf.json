@@ -1,0 +1,11 @@
+{
+  "name": "wolf",
+  "category": "nature",
+  "tags": ["animal", "howl", "forest", "canine", "wild"],
+  "svg": "<path class=\"d p1\" d=\"M4 5l4 3h8l4-3v7l-3 6-5 3-5-3-3-6z\"/><circle class=\"f p2\" cx=\"9\" cy=\"12\" r=\"1\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"17\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 700 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1100 }
+  ]
+}

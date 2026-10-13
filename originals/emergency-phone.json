@@ -1,0 +1,10 @@
+{
+  "name": "emergency-phone",
+  "category": "communication",
+  "tags": ["emergency", "phone", "medical", "plus", "call", "urgent"],
+  "svg": "<path class=\"p1\" d=\"M7 3.5h2.5l1.5 4-2 1.5c1 2.3 2.7 4 5 5l1.5-2 4 1.5v2.5c0 .8-.7 1.5-1.5 1.5C10.5 17.5 5.5 12.5 5.5 5c0-.8.7-1.5 1.5-1.5z\"/><path class=\"p2\" d=\"M18 2.5v4M16 4.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 700, "origin": "18px 4.5px" }
+  ]
+}

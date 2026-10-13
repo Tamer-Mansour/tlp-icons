@@ -1,0 +1,11 @@
+{
+  "name": "gas-detector",
+  "category": "home",
+  "tags": ["gas", "detector", "alarm", "safety", "flame"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M12 7c2 2.5 2.5 4.5 0 7-2.5-2.5-2-4.5 0-7z\"/><path class=\"p3\" d=\"M8 18h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

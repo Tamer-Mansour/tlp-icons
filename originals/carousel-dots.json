@@ -1,0 +1,10 @@
+{
+  "name": "carousel-dots",
+  "category": "interface",
+  "tags": ["carousel", "slides", "dots", "slider", "indicator"],
+  "svg": "<circle class=\"f p1\" cx=\"5\" cy=\"12\" r=\"1.2\"/><rect class=\"d p2\" x=\"9\" y=\"10\" width=\"6\" height=\"4\" rx=\"2\"/><circle class=\"f p1\" cx=\"19\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "blip", "dur": 600, "delay": 800 }
+  ]
+}

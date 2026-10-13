@@ -1,0 +1,11 @@
+{
+  "name": "mine-entrance",
+  "category": "buildings",
+  "tags": ["mine", "entrance", "tunnel", "rail", "mining", "shaft"],
+  "svg": "<path class=\"p2\" d=\"M4 20 V11 A8 8 0 0 1 20 11 V20\"/><path class=\"d p1\" d=\"M7 20 V12 A5 5 0 0 1 17 12 V20 Z\"/><path class=\"p3\" d=\"M2 22 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 1000, "delay": 1100 }
+  ]
+}

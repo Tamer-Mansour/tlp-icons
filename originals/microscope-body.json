@@ -1,0 +1,12 @@
+{
+  "name": "microscope-body",
+  "category": "science",
+  "tags": ["microscope", "tube", "stage", "lab", "optics", "lens"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"5\" height=\"10\" rx=\"1.5\"/><path class=\"p2\" d=\"M14 8 Q19 8 19 13 Q19 18 14 18\"/><path class=\"p3\" d=\"M6 16 H13\"/><path class=\"p4\" d=\"M4 21 H20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

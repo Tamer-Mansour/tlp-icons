@@ -1,0 +1,10 @@
+{
+  "name": "prototype-play",
+  "category": "design",
+  "tags": ["prototype", "play", "frame", "preview", "design"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"d p2\" d=\"M10 9l5 3-5 3Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "zoomIn", "dur": 500, "delay": 500 }
+  ]
+}

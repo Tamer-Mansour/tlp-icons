@@ -1,0 +1,11 @@
+{
+  "name": "spacesuit",
+  "category": "science",
+  "tags": ["spacesuit", "astronaut", "suit", "helmet", "backpack", "space"],
+  "svg": "<rect class=\"p3\" x=\"3\" y=\"9\" width=\"2.5\" height=\"9\" rx=\"1\"/><circle class=\"p1\" cx=\"12\" cy=\"5\" r=\"3.5\"/><rect class=\"d p2\" x=\"8\" y=\"11\" width=\"8\" height=\"10\" rx=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 1200, "delay": 1000 }
+  ]
+}

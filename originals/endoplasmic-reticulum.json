@@ -1,0 +1,12 @@
+{
+  "name": "endoplasmic-reticulum",
+  "category": "science",
+  "tags": ["endoplasmic", "reticulum", "membrane", "organelle", "cell", "biology"],
+  "svg": "<path class=\"p1\" d=\"M3 7q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/><path class=\"p2\" d=\"M3 12q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/><path class=\"p3\" d=\"M3 17q2.25-2 4.5 0t4.5 0t4.5 0t4.5 0\"/><circle class=\"f p4\" cx=\"7\" cy=\"20.5\" r=\"1\"/><circle class=\"f p4\" cx=\"17\" cy=\"20.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 200 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

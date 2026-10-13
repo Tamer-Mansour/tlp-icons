@@ -1,0 +1,10 @@
+{
+  "name": "bacteria-spiral",
+  "category": "science",
+  "tags": ["bacteria", "spiral", "microbe", "corkscrew", "biology", "germ"],
+  "svg": "<path class=\"p1\" d=\"M6 3c4 2 4 4 0 6\"/><path class=\"p2\" d=\"M6 9c-4 2-4 4 0 6c4 2 4 4 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

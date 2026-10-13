@@ -1,0 +1,12 @@
+{
+  "name": "sunset-symbol",
+  "category": "emoji",
+  "tags": ["sunset", "sun", "evening", "horizon", "dusk", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M7 17a5 5 0 0 1 10 0z\"/><path class=\"p2\" d=\"M3 19h18\"/><path class=\"p3\" d=\"M12 3.5v5.5M9.5 7l2.5 2.5 2.5-2.5\"/><path class=\"p4\" d=\"M5.5 8.5l1.8 1.5M18.5 8.5l-1.8 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "emerge", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sink", "dur": 800, "delay": 1100 }
+  ]
+}

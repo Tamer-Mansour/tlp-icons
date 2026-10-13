@@ -1,0 +1,10 @@
+{
+  "name": "face-scanner",
+  "category": "devices",
+  "tags": ["face", "scanner", "recognition", "portrait", "scan", "camera"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"6\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

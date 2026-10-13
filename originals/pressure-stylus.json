@@ -1,0 +1,11 @@
+{
+  "name": "pressure-stylus",
+  "category": "design",
+  "tags": ["stylus", "pressure", "gauge", "pen", "tablet", "sensitivity", "draw"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"7\" r=\"4.5\"/><path class=\"d p3\" d=\"M9.5 14h5v3l-2.5 5-2.5-5z\"/><line class=\"p2\" x1=\"12\" y1=\"7\" x2=\"14\" y2=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 1000, "origin": "12px 7px" }
+  ]
+}

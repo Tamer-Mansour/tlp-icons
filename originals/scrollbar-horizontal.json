@@ -1,0 +1,10 @@
+{
+  "name": "scrollbar-horizontal",
+  "category": "layout",
+  "tags": ["scrollbar", "horizontal", "scroll", "track", "thumb", "scrolling"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"20\" height=\"7\" rx=\"2\"/><rect class=\"p1\" x=\"2\" y=\"13\" width=\"20\" height=\"8\" rx=\"4\"/><line class=\"p2\" x1=\"6\" y1=\"17\" x2=\"11\" y2=\"17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 1000, "delay": 800 }
+  ]
+}

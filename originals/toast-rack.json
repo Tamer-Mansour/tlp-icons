@@ -1,0 +1,10 @@
+{
+  "name": "toast-rack",
+  "category": "food",
+  "tags": ["toast", "rack", "breakfast", "bread", "slots"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"6\" width=\"16\" height=\"14\" rx=\"2\"/><path class=\"p2\" d=\"M8 10L9 17M12 10L13 17M16 10L17 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

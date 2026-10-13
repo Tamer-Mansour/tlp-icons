@@ -1,0 +1,11 @@
+{
+  "name": "meter-low",
+  "category": "notifications",
+  "tags": ["meter", "gauge", "low", "needle", "level", "dial"],
+  "svg": "<path class=\"p1\" d=\"M3 15a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M12 15l-5 3\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 200 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 900, "origin": "12px 15px" }
+  ]
+}

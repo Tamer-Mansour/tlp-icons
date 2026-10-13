@@ -1,0 +1,11 @@
+{
+  "name": "proxy-mask",
+  "category": "security",
+  "tags": ["proxy", "mask", "anonymous", "relay", "hide"],
+  "svg": "<path class=\"d p1\" d=\"M8 7.5c2.5 1 5.5 1 8 0v4.5c0 2.5-2 4-4 4.5-2-.5-4-2-4-4.5z\"/><path class=\"p2\" d=\"M3 9.5h4.5M16.5 9.5H21M18.5 7.5l2 2-2 2\"/><path class=\"p3\" d=\"M21 14.5h-4.5M7.5 14.5H3M5.5 12.5l-2 2 2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

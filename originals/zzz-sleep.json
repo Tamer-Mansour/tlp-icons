@@ -1,0 +1,11 @@
+{
+  "name": "zzz-sleep",
+  "category": "emoji",
+  "tags": ["zzz", "sleep", "sleeping", "nap", "rest", "tired"],
+  "svg": "<path class=\"p1\" d=\"M13 2 H20 L13 9 H20\"/><path class=\"p2\" d=\"M7 11 H12 L7 16 H12\"/><path class=\"p3\" d=\"M3 18 H6 L3 21 H6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 900 }
+  ]
+}

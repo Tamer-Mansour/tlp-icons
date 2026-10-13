@@ -1,0 +1,11 @@
+{
+  "name": "microphone-muted",
+  "category": "notifications",
+  "tags": ["microphone", "mute", "muted", "audio", "voice", "off", "call"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M5 11v1a7 7 0 0 0 14 0v-1\"/><line class=\"p2\" x1=\"12\" y1=\"19\" x2=\"12\" y2=\"21\"/><line class=\"p3\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "induction-pad",
+  "category": "devices",
+  "tags": ["induction", "charger", "wireless", "wave", "pad", "charging"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6.5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 900 }
+  ]
+}

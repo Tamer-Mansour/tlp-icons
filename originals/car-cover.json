@@ -1,0 +1,10 @@
+{
+  "name": "car-cover",
+  "category": "vehicles",
+  "tags": ["car cover", "sheet", "protection", "vehicle", "storage", "garage"],
+  "svg": "<path class=\"p1\" d=\"M3 18v-5l2-4h14l2 4v5z\"/><path class=\"d p2\" d=\"M2 13c3-3 6-4 10-4s7 1 10 4v2H2z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

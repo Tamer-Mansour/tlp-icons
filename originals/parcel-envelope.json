@@ -1,0 +1,11 @@
+{
+  "name": "parcel-envelope",
+  "category": "communication",
+  "tags": ["parcel", "envelope", "package", "shipping", "delivery"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"14\" height=\"11\" rx=\"1\"/><path class=\"p2\" d=\"M3 7l7 5.5L17 7\"/><rect class=\"p3\" x=\"15\" y=\"14\" width=\"6\" height=\"6\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

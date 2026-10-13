@@ -1,0 +1,11 @@
+{
+  "name": "tardigrade",
+  "category": "science",
+  "tags": ["tardigrade", "water-bear", "microbe", "legs", "creature"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"6\" ry=\"5\"/><circle class=\"d p3\" cx=\"18\" cy=\"9\" r=\"2\"/><path class=\"p2\" d=\"M6 17V20M9 17.5V20.5M13 17.5V20.5M16 17V20M5 10H2.5M5 14H2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

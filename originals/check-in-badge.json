@@ -1,0 +1,11 @@
+{
+  "name": "check-in-badge",
+  "category": "sport",
+  "tags": ["check", "in", "badge", "verified", "attendance"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"11\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"5\"/><polyline class=\"p2\" points=\"9.5,11 11.2,12.7 14.5,9.3\"/><path class=\"p3\" d=\"M8.5 19.5L7 22L10 21M15.5 19.5L17 22L14 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 },
+    { "part": "p3", "anim": "flutter", "dur": 700, "delay": 1300 }
+  ]
+}

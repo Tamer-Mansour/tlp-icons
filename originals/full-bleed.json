@@ -1,0 +1,10 @@
+{
+  "name": "full-bleed",
+  "category": "layout",
+  "tags": ["full", "bleed", "edge", "image", "width", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"1\"/><path class=\"d p2\" d=\"M2 16L8 11L12 14L15 12L22 17V19H2Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 500 }
+  ]
+}

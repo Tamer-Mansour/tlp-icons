@@ -1,0 +1,10 @@
+{
+  "name": "corner-flag",
+  "category": "sport",
+  "tags": ["corner", "flag", "pitch", "football", "marker", "field"],
+  "svg": "<path class=\"p1\" d=\"M6 21V3\"/><path class=\"d p2\" d=\"M6 3L18 7L6 11Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 }
+  ]
+}

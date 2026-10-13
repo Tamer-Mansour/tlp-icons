@@ -1,0 +1,12 @@
+{
+  "name": "wildebeest",
+  "category": "nature",
+  "tags": ["gnu", "horns", "beard", "hump", "animal"],
+  "svg": "<path class=\"d p1\" d=\"M3 16 C3 11 7 8 11 8 L16 8 C18 8 19 10 19 13 L19 16 Z\"/><path class=\"p2\" d=\"M17 9 C19 6 21 6 22 3\"/><path class=\"p3\" d=\"M19 13 C21 14 21 17 19 19\"/><path class=\"p4\" d=\"M6 16 V21 M15 16 V21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 1200 }
+  ]
+}

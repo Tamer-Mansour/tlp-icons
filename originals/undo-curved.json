@@ -1,0 +1,10 @@
+{
+  "name": "undo-curved",
+  "category": "arrows",
+  "tags": ["undo", "revert", "back", "curve", "reverse", "history"],
+  "svg": "<path class=\"p1\" d=\"M8 4L4 9l4 5\"/><path class=\"p2\" d=\"M4 9h9a5 5 0 0 1 0 10H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 }
+  ]
+}

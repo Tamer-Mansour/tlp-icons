@@ -1,0 +1,10 @@
+{
+  "name": "sledge-maul",
+  "category": "tools",
+  "tags": ["sledge", "maul", "hammer", "heavy", "head", "handle"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"4\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M14 9L5 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 700, "delay": 800, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "inequality-scale",
+  "category": "math",
+  "tags": ["inequality", "scale", "unequal", "weight", "compare"],
+  "svg": "<path class=\"p1\" d=\"M3 9L21 15\"/><path class=\"p2\" d=\"M12 12V21M8 21h8\"/><path class=\"d p3\" d=\"M1 12h6v3H1zM16 18h6v3h-6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "sink", "dur": 600, "delay": 900 }
+  ]
+}

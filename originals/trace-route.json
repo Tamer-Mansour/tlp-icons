@@ -1,0 +1,11 @@
+{
+  "name": "trace-route",
+  "category": "connectivity",
+  "tags": ["trace", "route", "traceroute", "hops", "path", "latency"],
+  "svg": "<polyline class=\"p1\" points=\"4 18 8 13 12 15 16 9 20 6\"/><path class=\"p3\" d=\"M16 6H20V10\"/><circle class=\"p2\" cx=\"4\" cy=\"18\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1200 }
+  ]
+}

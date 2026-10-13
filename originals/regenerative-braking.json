@@ -1,0 +1,10 @@
+{
+  "name": "regenerative-braking",
+  "category": "vehicles",
+  "tags": ["regenerative", "braking", "energy", "electric", "wheel"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"14\" r=\"5\"/><path class=\"p2\" d=\"M4 8a10 10 0 0 1 16 0M20 8V4M20 8h-4\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1000, "delay": 700, "origin": "12px 14px" }
+  ]
+}

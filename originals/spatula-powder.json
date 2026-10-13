@@ -1,0 +1,11 @@
+{
+  "name": "spatula-powder",
+  "category": "science",
+  "tags": ["spatula", "powder", "scoop", "sample", "lab"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"21\" x2=\"9\" y2=\"15\"/><polygon class=\"d p2\" points=\"9,15 14,10 17,12.5 12,17\"/><circle class=\"f p3\" cx=\"15\" cy=\"8\" r=\"1\"/><circle class=\"f p3\" cx=\"18\" cy=\"8.5\" r=\"1\"/><circle class=\"f p3\" cx=\"16.5\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

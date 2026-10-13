@@ -1,0 +1,10 @@
+{
+  "name": "image-desaturate",
+  "category": "design",
+  "tags": ["image", "desaturate", "grayscale", "color", "photo", "fade"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"18\" rx=\"1\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"7\" height=\"18\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

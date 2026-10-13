@@ -1,0 +1,11 @@
+{
+  "name": "public-toilet",
+  "category": "buildings",
+  "tags": ["toilet", "restroom", "washroom", "stall", "sign", "wc"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 19v-7h8v7\"/><circle class=\"p3\" cx=\"12\" cy=\"7.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

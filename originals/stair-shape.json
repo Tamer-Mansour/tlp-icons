@@ -1,0 +1,10 @@
+{
+  "name": "stair-shape",
+  "category": "shapes",
+  "tags": ["stairs", "steps", "stairway", "climb", "step"],
+  "svg": "<path class=\"p1\" d=\"M3 20h5v-5h5v-5h5v10z\"/><path class=\"p2\" d=\"M2 22h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rock",
+  "category": "nature",
+  "tags": ["rock", "stone", "boulder", "mineral", "geology"],
+  "svg": "<polygon class=\"d p1\" points=\"4,17 5,10 10,6 15,6 19,10 20,17 15,21 9,21\"/><path class=\"p2\" d=\"M9 12.5l5 2 2.5-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

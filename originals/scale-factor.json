@@ -1,0 +1,11 @@
+{
+  "name": "scale-factor",
+  "category": "math",
+  "tags": ["scale", "factor", "enlarge", "shapes", "geometry"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"15\" width=\"5\" height=\"5\"/><rect class=\"p2\" x=\"11\" y=\"5\" width=\"10\" height=\"10\"/><path class=\"p3\" d=\"M6 12 L9 9 M7 9 H9 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

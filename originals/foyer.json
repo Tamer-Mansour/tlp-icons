@@ -1,0 +1,11 @@
+{
+  "name": "foyer",
+  "category": "buildings",
+  "tags": ["entry", "door", "lobby", "lamp", "entrance", "mat"],
+  "svg": "<path class=\"p1\" d=\"M4 21V6h16v15\"/><path class=\"p2\" d=\"M10 21v-7h4v7\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bluebird",
+  "category": "nature",
+  "tags": ["bluebird", "songbird", "perched", "bird", "wing", "blue"],
+  "svg": "<path class=\"d p1\" d=\"M6 13 Q6 8 11 8 Q15 8 16 11 Q17 15 13 17 Q8 18 6 13 Z\"/><circle class=\"p1\" cx=\"15\" cy=\"8\" r=\"2.5\"/><path class=\"p2\" d=\"M17.5 7.5 L19.5 8.5 L17.5 9.5 Z\"/><path class=\"p3\" d=\"M8 12 Q11 9 14 12\"/><path class=\"p4\" d=\"M3 19 H21\"/>",
+  "motion": [
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 300 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "flutter", "dur": 600, "delay": 1100, "origin": "11px 12px" }
+  ]
+}

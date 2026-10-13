@@ -1,0 +1,10 @@
+{
+  "name": "reduce-funnel",
+  "category": "development",
+  "tags": ["reduce", "funnel", "accumulate", "converge", "fold", "combine"],
+  "svg": "<path class=\"p1\" d=\"M4 4h16M6 8h12\"/><path class=\"d p2\" d=\"M8 11h8l-3 4v5h-2v-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 600, "delay": 700 }
+  ]
+}

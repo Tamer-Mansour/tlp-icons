@@ -1,0 +1,11 @@
+{
+  "name": "ping-dot",
+  "category": "notifications",
+  "tags": ["ping", "signal", "ripple", "pulse", "live", "dot"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M7.5 8.5A5.5 5.5 0 0 0 7.5 15.5M16.5 8.5A5.5 5.5 0 0 1 16.5 15.5\"/><path class=\"p3\" d=\"M3.5 6.5A10 10 0 0 0 3.5 17.5M20.5 6.5A10 10 0 0 1 20.5 17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p2", "anim": "pulseRing", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "swab-sample",
+  "category": "science",
+  "tags": ["swab", "cotton", "sample", "test", "medical", "lab"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"4.5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7 V14\"/><path class=\"p3\" d=\"M8 14 H16 V18.5 A4 3 0 0 1 8 18.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 1000 }
+  ]
+}

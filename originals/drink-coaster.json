@@ -1,0 +1,10 @@
+{
+  "name": "drink-coaster",
+  "category": "food",
+  "tags": ["food", "drink", "coaster", "cup", "bar", "table"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"15.5\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M8 4h8l-1 6H9z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 800, "delay": 900, "origin": "bottom" }
+  ]
+}

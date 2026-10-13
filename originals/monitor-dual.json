@@ -1,0 +1,11 @@
+{
+  "name": "monitor-dual",
+  "category": "layout",
+  "tags": ["monitor", "dual", "two", "screens", "display"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"8\" height=\"10\" rx=\"1.5\"/><rect class=\"p2\" x=\"14\" y=\"4\" width=\"8\" height=\"10\" rx=\"1.5\"/><path class=\"p3\" d=\"M6 14v3M3 20h6M18 14v3M15 20h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

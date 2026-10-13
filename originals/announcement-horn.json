@@ -1,0 +1,10 @@
+{
+  "name": "announcement-horn",
+  "category": "communication",
+  "tags": ["announcement", "horn", "megaphone", "broadcast", "loud", "alert", "bullhorn"],
+  "svg": "<path class=\"d p1\" d=\"M4 9h3l8-5v12l-8-5H4z\"/><path class=\"p2\" d=\"M18 9a4 4 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 500 }
+  ]
+}

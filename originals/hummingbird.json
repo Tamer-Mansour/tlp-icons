@@ -1,0 +1,11 @@
+{
+  "name": "hummingbird",
+  "category": "nature",
+  "tags": ["hummingbird", "hovering", "long beak", "wings", "tiny bird"],
+  "svg": "<ellipse class=\"d p1\" cx=\"10\" cy=\"14\" rx=\"4\" ry=\"2.5\"/><path class=\"p2\" d=\"M14 13.5 L22 11\"/><path class=\"d p3\" d=\"M9 12 Q8 4 3 3 Q4.5 9 9 12 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

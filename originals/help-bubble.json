@@ -1,0 +1,11 @@
+{
+  "name": "help-bubble",
+  "category": "communication",
+  "tags": ["help", "bubble", "support", "lifebuoy", "assist", "chat"],
+  "svg": "<path class=\"d p1\" d=\"M12 3a9 9 0 0 0-9 9c0 1.5.4 3 1.2 4.2L3 21l4.8-1.2A9 9 0 1 0 12 3z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/><line class=\"p3\" x1=\"8\" y1=\"8\" x2=\"9.5\" y2=\"9.5\"/><line class=\"p3\" x1=\"14.5\" y1=\"14.5\" x2=\"16\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "spinHalf", "dur": 900, "delay": 900 }
+  ]
+}

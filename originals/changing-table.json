@@ -1,0 +1,11 @@
+{
+  "name": "changing-table",
+  "category": "home",
+  "tags": ["changing", "table", "baby", "nursery", "pad"],
+  "svg": "<path class=\"p1\" d=\"M3 12h18M6 12v9M18 12v9\"/><rect class=\"p2\" x=\"6\" y=\"6\" width=\"12\" height=\"4\" rx=\"1\"/><path class=\"p3\" d=\"M20 4v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

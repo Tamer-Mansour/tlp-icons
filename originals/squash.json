@@ -1,0 +1,11 @@
+{
+  "name": "squash",
+  "category": "food",
+  "tags": ["squash", "gourd", "pumpkin", "vegetable", "autumn", "round"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"8\" ry=\"6\"/><path class=\"p2\" d=\"M12 8V5c0-1 1-2 2.5-2\"/><path class=\"p3\" d=\"M8.5 14.5c1.5 1 5.5 1 7 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 900, "origin": "12px 8px" }
+  ]
+}

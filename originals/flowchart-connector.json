@@ -1,0 +1,10 @@
+{
+  "name": "flowchart-connector",
+  "category": "arrows",
+  "tags": ["flowchart", "connector", "diagram", "elbow", "arrows"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"7\" height=\"5\" rx=\"1\"/><rect class=\"p1\" x=\"15\" y=\"15\" width=\"7\" height=\"5\" rx=\"1\"/><path class=\"p2\" d=\"M5.5 9v3.5h13V15\"/><polyline class=\"p2\" points=\"16.5 13 18.5 15 20.5 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 }
+  ]
+}

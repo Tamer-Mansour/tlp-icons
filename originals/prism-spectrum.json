@@ -1,0 +1,11 @@
+{
+  "name": "prism-spectrum",
+  "category": "science",
+  "tags": ["physics", "prism", "spectrum", "light", "refraction", "rainbow"],
+  "svg": "<polygon class=\"d p1\" points=\"8,17 13,8 18,17\"/><path class=\"p2\" d=\"M2 12.5h7.5\"/><path class=\"p3\" d=\"M16 13.5L21 10.5M16.5 14.5L21 14M16.5 15.5L21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

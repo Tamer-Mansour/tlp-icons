@@ -1,0 +1,10 @@
+{
+  "name": "arrow-notched",
+  "category": "shapes",
+  "tags": ["arrow", "notched", "swallowtail", "tail", "forward"],
+  "svg": "<path class=\"d p1\" d=\"M3 9 H13 V15 H3 L7 12 Z\"/><polygon class=\"d p2\" points=\"13,4 21,12 13,20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 500 }
+  ]
+}

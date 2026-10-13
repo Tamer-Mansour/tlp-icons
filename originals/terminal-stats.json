@@ -1,0 +1,10 @@
+{
+  "name": "terminal-stats",
+  "category": "charts",
+  "tags": ["terminal", "stats", "console", "bars", "command", "metrics"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p1\" d=\"M3 9h18\"/><path class=\"p2\" d=\"M8 17v-3M12 17v-4M16 17v-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "origin": "bottom", "dur": 800, "delay": 700 }
+  ]
+}

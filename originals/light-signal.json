@@ -1,0 +1,11 @@
+{
+  "name": "light-signal",
+  "category": "communication",
+  "tags": ["lantern", "light", "signal", "lamp", "glow"],
+  "svg": "<path class=\"d p1\" d=\"M8.5 9a3.5 4 0 0 1 7 0v5a2.5 2.5 0 0 1-2.5 2.5h-2a2.5 2.5 0 0 1-2.5-2.5z\"/><path class=\"p2\" d=\"M9.5 20.5h5\"/><path class=\"p3\" d=\"M12 1.5v1.5M5.5 3.5l1.2 1.2M18.5 3.5l-1.2 1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1000 }
+  ]
+}

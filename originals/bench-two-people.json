@@ -1,0 +1,11 @@
+{
+  "name": "bench-two-people",
+  "category": "people",
+  "tags": ["bench", "park", "sitting", "people", "seat", "outdoor"],
+  "svg": "<path class=\"p1\" d=\"M3 14 H21 M4 11 H20\"/><path class=\"p2\" d=\"M5 14 V20 M19 14 V20\"/><circle class=\"p3\" cx=\"8\" cy=\"8\" r=\"2\"/><circle class=\"p3\" cx=\"16\" cy=\"8\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "bob", "dur": 800, "delay": 900 }
+  ]
+}

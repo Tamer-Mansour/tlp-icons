@@ -1,0 +1,10 @@
+{
+  "name": "text-width",
+  "category": "text",
+  "tags": ["width", "measure", "text", "block", "dimension"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M4 19h16M7 17l-3 2 3 2M17 17l3 2-3 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 700 }
+  ]
+}

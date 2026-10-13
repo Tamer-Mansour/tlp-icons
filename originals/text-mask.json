@@ -1,0 +1,10 @@
+{
+  "name": "text-mask",
+  "category": "text",
+  "tags": ["mask", "text", "cover", "panel", "hide", "redact"],
+  "svg": "<path class=\"p1\" d=\"M3 8h8M3 12h8M3 16h8\"/><rect class=\"d p2\" x=\"13\" y=\"4\" width=\"8\" height=\"16\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 }
+  ]
+}

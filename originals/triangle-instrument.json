@@ -1,0 +1,10 @@
+{
+  "name": "triangle-instrument",
+  "category": "media",
+  "tags": ["triangle", "percussion", "ring", "striker", "instrument", "music"],
+  "svg": "<path class=\"d p1\" d=\"M12 5l8 14H4z\"/><path class=\"p2\" d=\"M17 2.5l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 400, "delay": 800, "origin": "17px 5px" }
+  ]
+}

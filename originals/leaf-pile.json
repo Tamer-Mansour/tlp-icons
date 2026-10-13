@@ -1,0 +1,11 @@
+{
+  "name": "leaf-pile",
+  "category": "nature",
+  "tags": ["leaves", "pile", "autumn", "rake", "fall"],
+  "svg": "<path class=\"d p1\" d=\"M3 20 C4 15 7.5 13 12 13 C16.5 13 20 15 21 20 Z\"/><path class=\"p2\" d=\"M7 13 C5.5 9.5 7 6 10.5 5 C11 8.5 9.5 11.5 7 13 Z\"/><path class=\"p3\" d=\"M13.5 12.5 C13 9 14.5 6 18.5 5 C19 8.5 17.5 11.5 13.5 12.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 800 }
+  ]
+}

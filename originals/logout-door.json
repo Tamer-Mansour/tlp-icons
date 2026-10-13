@@ -1,0 +1,10 @@
+{
+  "name": "logout-door",
+  "category": "people",
+  "tags": ["logout", "exit", "door", "signout", "leave", "power"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"3\" width=\"9.5\" height=\"18\" rx=\"1.5\"/><path class=\"p2\" d=\"M10 12h11M17.5 8.5 21 12l-3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

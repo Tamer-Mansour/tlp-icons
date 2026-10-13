@@ -1,0 +1,11 @@
+{
+  "name": "habit-grid",
+  "category": "charts",
+  "tags": ["habit", "tracker", "checklist", "daily", "grid"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\"/><rect class=\"p2\" x=\"14\" y=\"3\" width=\"7\" height=\"7\"/><rect class=\"d p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\"/><rect class=\"p3\" x=\"14\" y=\"14\" width=\"7\" height=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

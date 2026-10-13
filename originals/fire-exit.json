@@ -1,0 +1,11 @@
+{
+  "name": "fire-exit",
+  "category": "buildings",
+  "tags": ["fire", "exit", "door", "emergency", "arrow", "escape"],
+  "svg": "<path class=\"p1\" d=\"M4 3h9v18H4z\"/><path class=\"p2\" d=\"M9 12h11M16 8l4 4-4 4\"/><circle class=\"f p3\" cx=\"11\" cy=\"16\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "nudge", "dur": 800, "delay": 1200 }
+  ]
+}

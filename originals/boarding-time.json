@@ -1,0 +1,11 @@
+{
+  "name": "boarding-time",
+  "category": "time",
+  "tags": ["boarding", "ticket", "clock", "flight", "gate", "pass"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"3\"/><path class=\"p2\" d=\"M9 10.5V12h1.5\"/><path class=\"p3\" d=\"M16 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "flicker", "dur": 600, "delay": 1300 }
+  ]
+}

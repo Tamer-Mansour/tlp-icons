@@ -1,0 +1,11 @@
+{
+  "name": "anonymous-user",
+  "category": "security",
+  "tags": ["anonymous", "user", "unknown", "question", "person", "guest"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"9\" r=\"6.5\"/><path class=\"p2\" d=\"M5 21c.4-3 3.2-5.5 7-5.5s6.6 2.5 7 5.5\"/><path class=\"p3\" d=\"M10.5 7.5a1.8 1.8 0 1 1 2.6 1.6c-.5.3-.8.7-.8 1.3v.6\"/><circle class=\"f p3\" cx=\"12\" cy=\"14.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1000 }
+  ]
+}

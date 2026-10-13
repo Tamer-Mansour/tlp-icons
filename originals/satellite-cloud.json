@@ -1,0 +1,10 @@
+{
+  "name": "satellite-cloud",
+  "category": "weather",
+  "tags": ["satellite", "cloud", "imaging", "orbit", "weather"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"2.5\" width=\"6\" height=\"3\"/><path class=\"p1\" d=\"M3 4 H9 M15 4 H21\"/><path class=\"d p2\" d=\"M7 21 H17 A3.5 3.5 0 0 0 17 14 A5 5 0 0 0 7.5 14.5 A3 3 0 0 0 7 21 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 900, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "director-chair",
+  "category": "media",
+  "tags": ["director", "chair", "film", "set", "movie", "seat"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"5\" rx=\"1.5\"/><rect class=\"p2\" x=\"4\" y=\"11\" width=\"16\" height=\"3\" rx=\"1.5\"/><path class=\"p3\" d=\"M6 14l-2 7M18 14l2 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

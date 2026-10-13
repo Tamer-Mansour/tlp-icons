@@ -1,0 +1,10 @@
+{
+  "name": "churn-rate",
+  "category": "charts",
+  "tags": ["churn", "decline", "rate", "downward", "loss", "trend"],
+  "svg": "<polyline class=\"p1\" points=\"3,6 9,10 13,8 19,14\"/><path class=\"p2\" d=\"M17 16L21 20M21 16L17 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

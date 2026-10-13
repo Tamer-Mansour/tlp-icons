@@ -1,0 +1,11 @@
+{
+  "name": "floor-jack",
+  "category": "tools",
+  "tags": ["floor", "jack", "wheels", "lift", "garage", "handle"],
+  "svg": "<path class=\"d p1\" d=\"M5 14 L9 10 H15 L19 14 Z\"/><circle class=\"p2\" cx=\"7\" cy=\"18\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"18\" r=\"2\"/><path class=\"p3\" d=\"M12 10 L20 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pump", "dur": 900, "delay": 900, "origin": "12px 10px" }
+  ]
+}

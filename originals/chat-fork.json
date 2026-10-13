@@ -1,0 +1,11 @@
+{
+  "name": "chat-fork",
+  "category": "communication",
+  "tags": ["fork", "branch", "split", "options", "diverge", "chat", "choice"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"20\" r=\"1.2\"/><path class=\"p1\" d=\"M12 20 L6 10.5 M12 20 L18 10.5\"/><rect class=\"d p2\" x=\"2\" y=\"4\" width=\"8\" height=\"6\" rx=\"2\"/><rect class=\"d p3\" x=\"14\" y=\"4\" width=\"8\" height=\"6\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

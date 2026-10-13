@@ -1,0 +1,11 @@
+{
+  "name": "tarot-card",
+  "category": "sport",
+  "tags": ["tarot", "card", "sun", "fortune", "mystic", "divination"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><rect class=\"p3\" x=\"7.5\" y=\"5.5\" width=\"9\" height=\"13\" rx=\"1\"/><circle class=\"p2\" cx=\"12\" cy=\"11\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

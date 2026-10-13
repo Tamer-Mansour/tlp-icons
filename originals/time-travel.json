@@ -1,0 +1,10 @@
+{
+  "name": "time-travel",
+  "category": "interface",
+  "tags": ["time travel", "history", "clock", "undo", "rewind", "past"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 1 0 2.5-5.8M3.5 4v4.5H8\"/><path class=\"p2\" d=\"M12 8v4l2.5 2\"/><circle class=\"f\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 800, "origin": "12px 12px" }
+  ]
+}

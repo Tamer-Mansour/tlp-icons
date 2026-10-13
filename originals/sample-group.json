@@ -1,0 +1,10 @@
+{
+  "name": "sample-group",
+  "category": "charts",
+  "tags": ["sample", "group", "cohort", "subset", "population", "segment"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"9\" cy=\"10\" r=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"10\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"15\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 600, "delay": 800 }
+  ]
+}

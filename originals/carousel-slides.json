@@ -1,0 +1,10 @@
+{
+  "name": "carousel-slides",
+  "category": "interface",
+  "tags": ["carousel", "slides", "gallery", "slider", "next", "images"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"5\" width=\"10\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"2\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"p2\" x=\"19\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 600 }
+  ]
+}

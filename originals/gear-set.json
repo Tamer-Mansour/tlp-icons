@@ -1,0 +1,10 @@
+{
+  "name": "gear-set",
+  "category": "tools",
+  "tags": ["gears", "machine", "mechanism", "cog", "engine", "motion"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"13\" r=\"5\"/><circle class=\"d p2\" cx=\"18\" cy=\"7\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 800 }
+  ]
+}

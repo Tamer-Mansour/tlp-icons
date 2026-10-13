@@ -1,0 +1,11 @@
+{
+  "name": "transmit-signal",
+  "category": "communication",
+  "tags": ["transmit", "signal", "broadcast", "send", "wireless", "upload"],
+  "svg": "<circle class=\"f p1\" cx=\"12\" cy=\"12\" r=\"1.2\"/><path class=\"p2\" d=\"M9.17 9.17a4 4 0 0 0 0 5.66M14.83 9.17a4 4 0 0 1 0 5.66M6.34 6.34a8 8 0 0 0 0 11.32M17.66 6.34a8 8 0 0 1 0 11.32\"/><path class=\"p3\" d=\"M12 9V3M9.5 5.5L12 3l2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "hop", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chat-help",
+  "category": "communication",
+  "tags": ["help", "question", "support", "faq", "chat", "ask"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 5.5A1.5 1.5 0 0 1 5 4h14a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 19 17h-8l-4 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5z\"/><path class=\"p2\" d=\"M10 9.5a2 2 0 1 1 2.5 1.9c-.3.1-.5.4-.5.8v.3\"/><circle class=\"f p3\" cx=\"12\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

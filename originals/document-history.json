@@ -1,0 +1,10 @@
+{
+  "name": "document-history",
+  "category": "files",
+  "tags": ["document", "history", "revision", "undo", "versions", "past"],
+  "svg": "<path class=\"p1\" d=\"M4 3h11l5 5v13H4z\"/><path class=\"p2\" d=\"M9.5 14.5a3.5 3.5 0 1 0 1.1-2.6M9 11.5v3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spinBack", "dur": 900, "delay": 800, "origin": "12px 14px" }
+  ]
+}

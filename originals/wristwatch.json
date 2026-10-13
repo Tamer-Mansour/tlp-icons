@@ -1,0 +1,11 @@
+{
+  "name": "wristwatch",
+  "category": "time",
+  "tags": ["watch", "wrist", "strap", "clock", "wearable"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"5\"/><path class=\"p2\" d=\"M9 7L9.5 2H14.5L15 7M9 17L9.5 22H14.5L15 17\"/><path class=\"p3\" d=\"M12 9.5V12l1.5 1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 1100, "origin": "12px 12px" }
+  ]
+}

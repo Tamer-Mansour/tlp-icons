@@ -1,0 +1,10 @@
+{
+  "name": "drawdown-chart",
+  "category": "charts",
+  "tags": ["drawdown", "loss", "peak", "recovery", "finance", "chart"],
+  "svg": "<path class=\"p2\" d=\"M3 5H21\"/><path class=\"p1\" d=\"M3 5L8 5L14 17L18 12L21 13\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

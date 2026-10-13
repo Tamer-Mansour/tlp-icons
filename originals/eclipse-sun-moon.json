@@ -1,0 +1,10 @@
+{
+  "name": "eclipse-sun-moon",
+  "category": "science",
+  "tags": ["eclipse", "sun", "moon", "astronomy", "space", "shadow"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"14\" r=\"6\"/><circle class=\"p2\" cx=\"16\" cy=\"8\" r=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 500 }
+  ]
+}

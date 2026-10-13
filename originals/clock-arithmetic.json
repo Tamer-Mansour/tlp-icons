@@ -1,0 +1,11 @@
+{
+  "name": "clock-arithmetic",
+  "category": "math",
+  "tags": ["clock arithmetic", "modular", "wrap around", "arrow", "cycle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 7.5A4.5 4.5 0 0 1 16.5 12\"/><polyline class=\"p3\" points=\"14.5 10 16.5 12 18.5 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

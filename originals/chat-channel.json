@@ -1,0 +1,10 @@
+{
+  "name": "chat-channel",
+  "category": "communication",
+  "tags": ["channel", "chat", "bubble", "room", "stream", "group"],
+  "svg": "<path class=\"p1\" d=\"M3 4h18v12h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M8 7v6M16 7v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500 }
+  ]
+}

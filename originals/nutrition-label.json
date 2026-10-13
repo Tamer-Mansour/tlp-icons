@@ -1,0 +1,11 @@
+{
+  "name": "nutrition-label",
+  "category": "food",
+  "tags": ["nutrition", "label", "facts", "calories", "diet", "package"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M4 7.5h16\"/><path class=\"p3\" d=\"M8 11h8M8 14h8M8 17h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 600, "delay": 900 }
+  ]
+}

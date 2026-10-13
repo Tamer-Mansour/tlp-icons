@@ -1,0 +1,10 @@
+{
+  "name": "chevron-quotes",
+  "category": "text",
+  "tags": ["angle quotes", "quotes", "chevrons", "citation", "text"],
+  "svg": "<path class=\"p1\" d=\"M8 7l-4 5 4 5M16 7l4 5-4 5\"/><path class=\"p2\" d=\"M10 12h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "classroom",
+  "category": "buildings",
+  "tags": ["classroom", "school", "board", "desk", "lesson", "teaching", "class"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"11\" rx=\"1\"/><path class=\"p3\" d=\"M6.5 7.5h6M6.5 10.5h4\"/><path class=\"p2\" d=\"M2.5 17h19M5 17v4M19 17v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "typeIn", "dur": 800, "delay": 400 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 1000 }
+  ]
+}

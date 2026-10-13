@@ -1,0 +1,10 @@
+{
+  "name": "vector-components",
+  "category": "math",
+  "tags": ["vector", "components", "arrow", "axis", "physics", "math"],
+  "svg": "<polyline class=\"p1\" points=\"4,4 4,20 20,20\"/><path class=\"p2\" d=\"M4 20L16 8M11 8H16V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

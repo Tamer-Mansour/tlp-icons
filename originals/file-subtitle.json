@@ -1,0 +1,11 @@
+{
+  "name": "file-subtitle",
+  "category": "files",
+  "tags": ["subtitle", "caption", "text", "captions", "closed", "transcript"],
+  "svg": "<path class=\"p1\" d=\"M7 2h8l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\"/><path class=\"p1\" d=\"M15 2v4h4\"/><line class=\"p2\" x1=\"8\" y1=\"14\" x2=\"16\" y2=\"14\"/><line class=\"p3\" x1=\"8\" y1=\"17.5\" x2=\"13\" y2=\"17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1100 }
+  ]
+}

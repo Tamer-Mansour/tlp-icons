@@ -1,0 +1,12 @@
+{
+  "name": "insect-specimen",
+  "category": "science",
+  "tags": ["insect", "bug", "specimen", "beetle", "legs", "biology"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"13.5\" rx=\"4.5\" ry=\"5.5\"/><circle class=\"p2\" cx=\"12\" cy=\"4.5\" r=\"1.8\"/><path class=\"p3\" d=\"M7.5 10L4 8.5M7.5 13.5H3.5M7.5 17L4 19.5M16.5 10L20 8.5M16.5 13.5H20.5M16.5 17L20 19.5\"/><path class=\"p4\" d=\"M10.5 3L8 2.5M13.5 3L16 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 700 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1400 }
+  ]
+}

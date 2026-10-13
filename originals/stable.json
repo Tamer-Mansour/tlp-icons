@@ -1,0 +1,11 @@
+{
+  "name": "stable",
+  "category": "buildings",
+  "tags": ["stable", "horse", "barn", "half", "door", "farm"],
+  "svg": "<path class=\"d p1\" d=\"M3 21V11l9-6.5 9 6.5v10z\"/><path class=\"p2\" d=\"M9.5 21v-4h5v4M9.5 19h5\"/><path class=\"p3\" d=\"M10.5 12.5v1.5a1.5 1.5 0 0 0 3 0v-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

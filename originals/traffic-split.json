@@ -1,0 +1,11 @@
+{
+  "name": "traffic-split",
+  "category": "connectivity",
+  "tags": ["traffic", "split", "routing", "balance", "fork", "load"],
+  "svg": "<path class=\"p1\" d=\"M2 12H10\"/><path class=\"p2\" d=\"M10 12L21 6\"/><path class=\"p3\" d=\"M10 12L17 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "dash", "dur": 700, "delay": 1000 }
+  ]
+}

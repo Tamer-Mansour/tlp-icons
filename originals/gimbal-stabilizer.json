@@ -1,0 +1,10 @@
+{
+  "name": "gimbal-stabilizer",
+  "category": "devices",
+  "tags": ["gimbal", "stabilizer", "camera", "handle", "video", "steady"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"5\" width=\"10\" height=\"6\" rx=\"1.5\"/><circle class=\"p1\" cx=\"17\" cy=\"8\" r=\"2\"/><path class=\"p2\" d=\"M9 11v9.5h6V11\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 1200, "delay": 500, "origin": "9px 8px" }
+  ]
+}

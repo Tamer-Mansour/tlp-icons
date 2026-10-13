@@ -1,0 +1,11 @@
+{
+  "name": "wireless-keyboard",
+  "category": "devices",
+  "tags": ["keyboard", "wireless", "bluetooth", "typing", "input", "radio"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"9\" width=\"16\" height=\"9\" rx=\"2\"/><path class=\"p2\" d=\"M5 13 H6 M9 13 H10 M13 13 H14 M6 16 H12\"/><path class=\"p3\" d=\"M17 6 A4 4 0 0 1 21 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 1100 }
+  ]
+}

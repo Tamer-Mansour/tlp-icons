@@ -1,0 +1,12 @@
+{
+  "name": "packet-inspect",
+  "category": "security",
+  "tags": ["packet", "inspect", "magnify", "scan", "package"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"13\" width=\"9\" height=\"7\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 16.5h9\"/><circle class=\"p3\" cx=\"16\" cy=\"8\" r=\"3.5\"/><path class=\"p4\" d=\"M18.5 10.5l3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "magnify", "dur": 700, "delay": 1200 }
+  ]
+}

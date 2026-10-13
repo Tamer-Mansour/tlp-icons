@@ -1,0 +1,12 @@
+{
+  "name": "bird-cage",
+  "category": "nature",
+  "tags": ["bird cage", "dome", "bars", "pet", "enclosure", "hanging"],
+  "svg": "<path class=\"d p1\" d=\"M5 12C5 6 19 6 19 12V19H5Z\"/><path class=\"p2\" d=\"M9 12V19M12 7.5V19M15 12V19\"/><path class=\"p3\" d=\"M12 7.5V3\"/><path class=\"p4\" d=\"M3 21H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 },
+    { "part": "p4", "anim": "growX", "dur": 400, "delay": 1100 }
+  ]
+}

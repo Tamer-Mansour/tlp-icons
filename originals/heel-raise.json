@@ -1,0 +1,11 @@
+{
+  "name": "heel-raise",
+  "category": "sport",
+  "tags": ["heel", "raise", "calf", "exercise", "standing"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"5\" r=\"2\"/><path class=\"p2\" d=\"M9 9V15M9 11.5L6.5 9.5M9 11.5L11.5 9.5M9 15L7 20M9 15L11 20\"/><path class=\"p3\" d=\"M19 19V7M16.5 9.5L19 7L21.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 300 },
+    { "part": "p3", "anim": "lift", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "thermal-expansion",
+  "category": "science",
+  "tags": ["thermal", "expansion", "heat", "stretch", "metal", "physics"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"10\" width=\"8\" height=\"4\" rx=\"1\"/><path class=\"p2\" d=\"M4 12h3M17 12h3\"/><path class=\"p3\" d=\"M3 9v6M21 9v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "stretch", "dur": 800, "delay": 1000 }
+  ]
+}

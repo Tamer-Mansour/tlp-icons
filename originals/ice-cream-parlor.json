@@ -1,0 +1,11 @@
+{
+  "name": "ice-cream-parlor",
+  "category": "buildings",
+  "tags": ["ice cream", "cone", "scoop", "parlor", "awning"],
+  "svg": "<path class=\"p1\" d=\"M8 12L12 21L16 12\"/><circle class=\"d p2\" cx=\"12\" cy=\"9\" r=\"3.5\"/><path class=\"p3\" d=\"M3 4H21L19.5 7H4.5Z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p1", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

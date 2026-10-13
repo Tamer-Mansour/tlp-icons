@@ -1,0 +1,10 @@
+{
+  "name": "tone-generator",
+  "category": "media",
+  "tags": ["tone", "sine", "wave", "oscillator", "frequency", "dial"],
+  "svg": "<path class=\"p1\" d=\"M2 12Q4.5 6 7 12T12 12\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"3\"/><line class=\"p2\" x1=\"18\" y1=\"12\" x2=\"19.5\" y2=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 800, "delay": 900 }
+  ]
+}

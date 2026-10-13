@@ -1,0 +1,11 @@
+{
+  "name": "earthquake-alert",
+  "category": "notifications",
+  "tags": ["earthquake", "ground", "tremor", "alert", "warning", "seismic"],
+  "svg": "<polyline class=\"p1\" points=\"2,15 5,10 8,15 11,10 14,15\"/><line class=\"p1\" x1=\"2\" y1=\"20\" x2=\"14\" y2=\"20\"/><line class=\"p2\" x1=\"20.5\" y1=\"4\" x2=\"20.5\" y2=\"10\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"13.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

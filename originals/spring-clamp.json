@@ -1,0 +1,11 @@
+{
+  "name": "spring-clamp",
+  "category": "tools",
+  "tags": ["spring", "clamp", "jaws", "grip", "clip", "hold"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"4\" y=\"17\" width=\"16\" height=\"3\" rx=\"1\"/><polyline class=\"p3\" points=\"10,9 14,10.5 10,12 14,13.5 10,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "slideIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "squeeze", "dur": 700, "delay": 900 }
+  ]
+}

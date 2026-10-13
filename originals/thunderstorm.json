@@ -1,0 +1,11 @@
+{
+  "name": "thunderstorm",
+  "category": "nature",
+  "tags": ["thunderstorm", "storm", "rain", "lightning", "thunder", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M7 14h10a3.5 3.5 0 0 0 .5-7a5 5 0 0 0-9.5 1.5A3 3 0 0 0 7 14z\"/><polyline class=\"p2\" points=\"13 13 10 17 14 17 11 21\"/><path class=\"p3\" d=\"M7 18v2M17 18v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 900 },
+    { "part": "p3", "anim": "drip", "dur": 1200, "delay": 500 }
+  ]
+}

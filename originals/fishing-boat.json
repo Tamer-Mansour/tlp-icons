@@ -1,0 +1,11 @@
+{
+  "name": "fishing-boat",
+  "category": "vehicles",
+  "tags": ["fishing", "boat", "rod", "cabin", "fisher", "sea"],
+  "svg": "<path class=\"d p1\" d=\"M3 14 H21 L18 19 H6 Z\"/><path class=\"p2\" d=\"M8 14 V10 H14 V14\"/><path class=\"p3\" d=\"M16 14 L20 4 V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "dur": 800, "delay": 900, "origin": "16px 14px" }
+  ]
+}

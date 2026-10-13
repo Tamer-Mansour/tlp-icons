@@ -1,0 +1,10 @@
+{
+  "name": "toolbar-top",
+  "category": "layout",
+  "tags": ["toolbar", "top", "buttons", "tools", "ribbon", "actions"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"7\" width=\"3\" height=\"3\" rx=\".5\"/><rect class=\"p2\" x=\"10.5\" y=\"7\" width=\"3\" height=\"3\" rx=\".5\"/><rect class=\"p2\" x=\"16\" y=\"7\" width=\"3\" height=\"3\" rx=\".5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 900 }
+  ]
+}

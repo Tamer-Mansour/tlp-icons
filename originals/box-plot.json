@@ -1,0 +1,11 @@
+{
+  "name": "box-plot",
+  "category": "charts",
+  "tags": ["box plot", "median", "whisker", "statistics", "distribution", "chart"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"10\" height=\"10\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\"/><line class=\"p3\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"7\"/><line class=\"p3\" x1=\"12\" y1=\"17\" x2=\"12\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "grow", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "error-rate",
+  "category": "charts",
+  "tags": ["error", "rate", "bars", "failure", "warning", "metric"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"13\" width=\"3\" height=\"8\"/><rect class=\"p1\" x=\"10\" y=\"9\" width=\"3\" height=\"12\"/><rect class=\"p1\" x=\"16\" y=\"15\" width=\"3\" height=\"6\"/><path class=\"p2\" d=\"M10 2.5L13 5.5M13 2.5L10 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "observatory",
+  "category": "buildings",
+  "tags": ["observatory", "telescope", "dome", "stars", "astronomy"],
+  "svg": "<path class=\"p1\" d=\"M4 19a8 8 0 0 1 16 0z\"/><path class=\"p2\" d=\"M2 21h20\"/><line class=\"p3\" x1=\"11\" y1=\"15\" x2=\"17\" y2=\"9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "11px 15px" }
+  ]
+}

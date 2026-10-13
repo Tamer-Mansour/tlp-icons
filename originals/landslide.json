@@ -1,0 +1,10 @@
+{
+  "name": "landslide",
+  "category": "nature",
+  "tags": ["landslide", "slope", "rubble", "mud", "collapse"],
+  "svg": "<path class=\"p1\" d=\"M2 8h8l6 7\"/><rect class=\"p2\" x=\"13\" y=\"17\" width=\"3\" height=\"3\"/><rect class=\"p2\" x=\"18\" y=\"19\" width=\"3\" height=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 800, "delay": 700 }
+  ]
+}

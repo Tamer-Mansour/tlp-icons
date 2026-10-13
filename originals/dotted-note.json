@@ -1,0 +1,12 @@
+{
+  "name": "dotted-note",
+  "category": "media",
+  "tags": ["dotted", "note", "music", "rhythm", "notation", "beat"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"17\" r=\"3\"/><path class=\"p2\" d=\"M12 17V4\"/><path class=\"p3\" d=\"M12 4c3 1 4 3 4 5\"/><circle class=\"f p4\" cx=\"18\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "substitution-board",
+  "category": "sport",
+  "tags": ["substitution", "board", "swap", "players", "team", "coach"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"5\" width=\"8\" height=\"5\" rx=\"1\"/><rect class=\"p2\" x=\"13\" y=\"14\" width=\"8\" height=\"5\" rx=\"1\"/><path class=\"p3\" d=\"M14 8H20M20 8L18 6M20 8L18 10M10 16H4M4 16L6 14M4 16L6 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "brazing-torch",
+  "category": "tools",
+  "tags": ["brazing", "torch", "flame", "joint", "heat", "metal"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"14\" width=\"8\" height=\"4\" rx=\"1\"/><line class=\"p3\" x1=\"10\" y1=\"16\" x2=\"13\" y2=\"16\"/><path class=\"p2\" d=\"M13 16C15 10 18 9 17 4C21 8 22 12 22 16C22 19 18 20 13 16Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 800 }
+  ]
+}

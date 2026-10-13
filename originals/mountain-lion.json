@@ -1,0 +1,12 @@
+{
+  "name": "mountain-lion",
+  "category": "nature",
+  "tags": ["mountain lion", "cougar", "long tail", "big cat", "puma"],
+  "svg": "<path class=\"d p1\" d=\"M4 12 Q4 9 7 9 L14 9 Q17 9 17 12 Q17 14 14 14 L8 14 Q4 14 4 12 Z\"/><circle class=\"d p2\" cx=\"18.5\" cy=\"8\" r=\"2.3\"/><path class=\"p4\" d=\"M7.5 14 V18.5 M13.5 14 V18.5\"/><path class=\"p3\" d=\"M4 11 Q1.5 10 2.5 6.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 },
+    { "part": "p3", "anim": "swing", "dur": 1400, "delay": 1100 }
+  ]
+}

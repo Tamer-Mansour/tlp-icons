@@ -1,0 +1,11 @@
+{
+  "name": "chapel",
+  "category": "buildings",
+  "tags": ["chapel", "church", "cross", "small", "worship"],
+  "svg": "<path class=\"p1\" d=\"M4 21V11l8-5 8 5v10\"/><path class=\"p2\" d=\"M10 21v-4h4v4\"/><path class=\"p3\" d=\"M12 2v4M10.5 3.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

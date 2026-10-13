@@ -1,0 +1,11 @@
+{
+  "name": "microphone-talk",
+  "category": "communication",
+  "tags": ["microphone", "voice", "talk", "sound", "record", "audio"],
+  "svg": "<rect class=\"p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M6 11a6 6 0 0 0 12 0M12 17v4\"/><path class=\"p3\" d=\"M16.5 9.5a3 3 0 0 1 0 5M20 7a10 10 0 0 1 0 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

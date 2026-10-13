@@ -1,0 +1,10 @@
+{
+  "name": "bell-schedule",
+  "category": "time",
+  "tags": ["bell", "school", "timetable", "periods", "alarm"],
+  "svg": "<path class=\"d p1\" d=\"M6 14V9.5a6 6 0 0 1 12 0V14l2 2H4Z\"/><rect class=\"p2\" x=\"3\" y=\"18\" width=\"4\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"10\" y=\"18\" width=\"4\" height=\"3\" rx=\"1\"/><rect class=\"p2\" x=\"17\" y=\"18\" width=\"4\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 800 }
+  ]
+}

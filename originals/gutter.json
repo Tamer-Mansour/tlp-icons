@@ -1,0 +1,11 @@
+{
+  "name": "gutter",
+  "category": "home",
+  "tags": ["gutter", "roof", "drain", "rain", "downspout"],
+  "svg": "<path class=\"p1\" d=\"M2 6l10-4 10 4\"/><path class=\"d p2\" d=\"M3 9h18v2H3z\"/><path class=\"p3\" d=\"M19 13v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 900, "delay": 1100 }
+  ]
+}

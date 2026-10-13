@@ -1,0 +1,11 @@
+{
+  "name": "fire-alarm-box",
+  "category": "buildings",
+  "tags": ["fire", "alarm", "box", "lever", "bell", "wall"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"4\" width=\"16\" height=\"16\"/><line class=\"p2\" x1=\"8\" y1=\"9\" x2=\"8\" y2=\"15\"/><path class=\"p3\" d=\"M13 14v-3a3 3 0 0 1 6 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1100, "origin": "16px 11px" }
+  ]
+}

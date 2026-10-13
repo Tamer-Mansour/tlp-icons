@@ -1,0 +1,11 @@
+{
+  "name": "wall-socket",
+  "category": "home",
+  "tags": ["wall socket", "outlet", "power", "electrical", "plug"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M8 10v4M16 10v4\"/><path class=\"p3\" d=\"M12 16v2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

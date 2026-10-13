@@ -1,0 +1,11 @@
+{
+  "name": "eighth-note",
+  "category": "media",
+  "tags": ["eighth", "note", "music", "quaver", "flag", "sound"],
+  "svg": "<ellipse class=\"d p1\" cx=\"8.5\" cy=\"17.5\" rx=\"3\" ry=\"2.5\"/><path class=\"p2\" d=\"M11.5 17.5V4\"/><path class=\"p3\" d=\"M11.5 4C14 6 16 8 15.5 12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

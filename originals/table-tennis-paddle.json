@@ -1,0 +1,11 @@
+{
+  "name": "table-tennis-paddle",
+  "category": "sport",
+  "tags": ["table", "tennis", "paddle", "ping", "pong", "sport"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"9\" r=\"6\"/><path class=\"p2\" d=\"M11 15v6\"/><circle class=\"d p3\" cx=\"20\" cy=\"4\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 600, "delay": 1100 }
+  ]
+}

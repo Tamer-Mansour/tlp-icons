@@ -1,0 +1,11 @@
+{
+  "name": "leech",
+  "category": "nature",
+  "tags": ["leech", "worm", "sucker", "parasite", "segmented"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 Q12 8 19 12 Q12 16 5 12 Z\"/><circle class=\"d p2\" cx=\"3\" cy=\"12\" r=\"2\"/><circle class=\"d p2\" cx=\"21\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M9 11 V13 M12 11 V13 M15 11 V13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "wiggle", "dur": 800, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

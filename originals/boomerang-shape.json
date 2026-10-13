@@ -1,0 +1,10 @@
+{
+  "name": "boomerang-shape",
+  "category": "shapes",
+  "tags": ["boomerang", "crescent", "curve", "throw", "return", "chevron"],
+  "svg": "<path class=\"d p1\" d=\"M3.5 7Q12 21 20.5 7Q12 13.5 3.5 7Z\"/><path class=\"p2\" d=\"M16 3.5Q19.5 4 20.5 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

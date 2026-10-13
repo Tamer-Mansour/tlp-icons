@@ -1,0 +1,10 @@
+{
+  "name": "boomerang",
+  "category": "sport",
+  "tags": ["boomerang", "return", "throw", "curved", "wing", "toy"],
+  "svg": "<path class=\"d p1\" d=\"M3 5Q9 6 12 14Q15 6 21 5Q14 16 12 19Q10 16 3 5Z\"/><path class=\"p2\" d=\"M7 3Q12 1.5 17 3\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "spin", "dur": 900, "delay": 500 }
+  ]
+}

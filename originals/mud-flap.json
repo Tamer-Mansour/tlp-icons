@@ -1,0 +1,10 @@
+{
+  "name": "mud-flap",
+  "category": "vehicles",
+  "tags": ["mud", "flap", "fender", "car", "splash", "guard"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 0 1 16 0\"/><rect class=\"d p2\" x=\"10\" y=\"12\" width=\"4\" height=\"8\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "12px 12px" }
+  ]
+}

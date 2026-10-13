@@ -1,0 +1,10 @@
+{
+  "name": "increment-arrow",
+  "category": "arrows",
+  "tags": ["increment", "increase", "up", "plus", "raise", "add"],
+  "svg": "<path class=\"p1\" d=\"M8 20V5M3.5 9.5L8 5l4.5 4.5\"/><path class=\"p2\" d=\"M17 6v8M13 10h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

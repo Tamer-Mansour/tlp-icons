@@ -1,0 +1,11 @@
+{
+  "name": "chat-moderation",
+  "category": "communication",
+  "tags": ["moderation", "safe chat", "shield", "approved", "chat"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4h18v12h-9l-5 4v-4H3z\"/><path class=\"p2\" d=\"M12 6l3.5 1.5v3c0 2-1.5 3.5-3.5 4.5-2-1-3.5-2.5-3.5-4.5v-3z\"/><path class=\"p3\" d=\"M10.5 10l1 1 2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kelp-forest",
+  "category": "nature",
+  "tags": ["seaweed", "ocean", "underwater", "plant", "sea"],
+  "svg": "<path class=\"p1\" d=\"M6 21V5c1 1 2 2 0 4s-2 3 0 5 2 3 0 7\"/><path class=\"p2\" d=\"M12 21V3c1 2 2 3 0 5s-2 3 0 5 2 3 0 8\"/><path class=\"p3\" d=\"M18 21V7c-1 1-2 2 0 4s2 3 0 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 300 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100, "origin": "bottom" }
+  ]
+}

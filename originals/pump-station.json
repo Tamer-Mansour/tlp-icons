@@ -1,0 +1,11 @@
+{
+  "name": "pump-station",
+  "category": "buildings",
+  "tags": ["pump station", "pump", "valve", "pipe", "utility"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"9\" width=\"11\" height=\"12\"/><path class=\"p2\" d=\"M15 15h5\"/><circle class=\"p3\" cx=\"9.5\" cy=\"4.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 900 }
+  ]
+}

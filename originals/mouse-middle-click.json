@@ -1,0 +1,11 @@
+{
+  "name": "mouse-middle-click",
+  "category": "interface",
+  "tags": ["mouse", "middle", "click", "wheel", "scroll", "button"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"6\"/><path class=\"p3\" d=\"M6 13h12\"/><path class=\"p2\" d=\"M12 6v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 1000 }
+  ]
+}

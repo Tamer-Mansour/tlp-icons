@@ -1,0 +1,10 @@
+{
+  "name": "vibrate-phone",
+  "category": "communication",
+  "tags": ["phone", "vibrate", "vibration", "silent mode", "buzz", "haptic"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"3\" width=\"10\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M3.5 9.5v5M20.5 9.5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "downvote-message",
+  "category": "communication",
+  "tags": ["downvote", "message", "dislike", "vote", "arrow", "bubble"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h13v12H9l-5 4v-4H4z\"/><path class=\"p2\" d=\"M20 5v8M17.5 10.5L20 13l2.5-2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 800, "delay": 600 }
+  ]
+}

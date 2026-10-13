@@ -1,0 +1,11 @@
+{
+  "name": "opossum",
+  "category": "nature",
+  "tags": ["opossum", "marsupial", "possum", "animal", "tail", "night"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"14\" rx=\"6\" ry=\"3.5\"/><path class=\"p1\" d=\"M7.5 10.5 Q5 8 3.5 11.5 Q4 13.5 7.5 13\"/><circle class=\"p2\" cx=\"7.5\" cy=\"8\" r=\"1.5\"/><path class=\"p3\" d=\"M18 14 Q21 16 20 19 Q19 21 17 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1000, "origin": "18px 14px" }
+  ]
+}

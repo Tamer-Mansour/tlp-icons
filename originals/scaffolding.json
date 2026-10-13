@@ -1,0 +1,11 @@
+{
+  "name": "scaffolding",
+  "category": "buildings",
+  "tags": ["scaffolding", "frame", "construction", "poles", "bars", "building"],
+  "svg": "<path class=\"p1\" d=\"M4 3v18M20 3v18\"/><path class=\"p2\" d=\"M4 8h16M4 14h16M4 21h16\"/><path class=\"p3\" d=\"M4 8l16 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1100 }
+  ]
+}

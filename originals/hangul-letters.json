@@ -1,0 +1,12 @@
+{
+  "name": "hangul-letters",
+  "category": "text",
+  "tags": ["hangul", "korean", "letters", "syllable", "alphabet", "language"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"6.5\" width=\"7.5\" height=\"7.5\" rx=\"1\"/><path class=\"p2\" d=\"M4.5 10h3M6.25 10v3.5\"/><rect class=\"p3\" x=\"13.5\" y=\"6.5\" width=\"7.5\" height=\"7.5\" rx=\"1\"/><path class=\"p4\" d=\"M15.5 10h3.5M17.25 10v3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "typeIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 },
+    { "part": "p4", "anim": "typeIn", "dur": 500, "delay": 1400 }
+  ]
+}

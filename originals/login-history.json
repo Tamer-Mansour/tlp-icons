@@ -1,0 +1,11 @@
+{
+  "name": "login-history",
+  "category": "security",
+  "tags": ["login", "history", "clock", "user", "sign in", "timeline"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"9.5\" r=\"1.8\"/><path class=\"p3\" d=\"M8.8 16.5a3.2 3.2 0 0 1 6.4 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "crepe",
+  "category": "food",
+  "tags": ["crepe", "pancake", "folded", "breakfast", "french", "thin"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 A9 9 0 0 1 21 15 Z\"/><path class=\"p2\" d=\"M12 15 V6.5 M12 15 L7 7.5 M12 15 L17 7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 700 }
+  ]
+}

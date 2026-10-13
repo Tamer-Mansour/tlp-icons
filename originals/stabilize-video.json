@@ -1,0 +1,11 @@
+{
+  "name": "stabilize-video",
+  "category": "media",
+  "tags": ["stabilize", "video", "steady", "shake", "level", "frame"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"12\" rx=\"1.5\"/><line class=\"p2\" x1=\"9\" y1=\"10\" x2=\"15\" y2=\"10\"/><polyline class=\"p3\" points=\"3,7.5 2,10 3,12.5\"/><polyline class=\"p3\" points=\"21,7.5 22,10 21,12.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 800, "delay": 900 }
+  ]
+}

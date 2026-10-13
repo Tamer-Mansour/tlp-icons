@@ -1,0 +1,10 @@
+{
+  "name": "not-a-number",
+  "category": "math",
+  "tags": ["nan", "not", "number", "invalid", "math"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M9 7V17M15 7V17M6.5 10.5H17.5M6.5 13.5H17.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 600, "delay": 800 }
+  ]
+}

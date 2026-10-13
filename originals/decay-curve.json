@@ -1,0 +1,10 @@
+{
+  "name": "decay-curve",
+  "category": "math",
+  "tags": ["decay", "curve", "exponential", "falling", "graph"],
+  "svg": "<path class=\"p1\" d=\"M4 4V20H21\"/><path class=\"p2\" d=\"M6 5C8 17 10 19 20 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 400 }
+  ]
+}

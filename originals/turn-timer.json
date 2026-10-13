@@ -1,0 +1,10 @@
+{
+  "name": "turn-timer",
+  "category": "sport",
+  "tags": ["timer", "hourglass", "turn", "clock", "countdown"],
+  "svg": "<path class=\"d p1\" d=\"M8 3H16L12 12L16 21H8L12 12Z\"/><path class=\"p2\" d=\"M3.5 7A10 10 0 0 1 12 2M9.5 3.5L12 2L12.5 4.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "flip", "dur": 800, "delay": 500 }
+  ]
+}

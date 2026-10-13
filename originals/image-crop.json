@@ -1,0 +1,11 @@
+{
+  "name": "image-crop",
+  "category": "interface",
+  "tags": ["crop", "image", "frame", "trim", "resize", "photo"],
+  "svg": "<path class=\"p1\" d=\"M3 3v12a2 2 0 0 0 2 2h12\"/><rect class=\"p2\" x=\"10\" y=\"10\" width=\"11\" height=\"11\" rx=\"1.5\"/><path class=\"p3\" d=\"M7 21V9a2 2 0 0 1 2-2h12\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1000 }
+  ]
+}

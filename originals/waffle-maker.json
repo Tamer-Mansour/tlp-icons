@@ -1,0 +1,11 @@
+{
+  "name": "waffle-maker",
+  "category": "home",
+  "tags": ["waffle", "maker", "breakfast", "kitchen", "griddle"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M9 11v6M14 11v6M7 14h10\"/><path class=\"p3\" d=\"M9 8V4h6v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "presence-dot",
+  "category": "people",
+  "tags": ["presence", "dot", "online", "status", "live", "indicator", "active"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"7.5\"/><circle class=\"p3\" cx=\"12\" cy=\"12\" r=\"10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

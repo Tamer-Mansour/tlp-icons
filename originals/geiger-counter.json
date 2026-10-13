@@ -1,0 +1,12 @@
+{
+  "name": "geiger-counter",
+  "category": "science",
+  "tags": ["geiger", "counter", "radiation", "dial", "detector"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"8\" width=\"14\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M8 15A4 4 0 0 1 16 15\"/><line class=\"p3\" x1=\"12\" y1=\"15\" x2=\"14\" y2=\"12\"/><line class=\"p4\" x1=\"19\" y1=\"8\" x2=\"16\" y2=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 1000, "delay": 1200, "origin": "12px 15px" }
+  ]
+}

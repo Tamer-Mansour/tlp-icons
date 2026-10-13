@@ -1,0 +1,11 @@
+{
+  "name": "delivery-bag",
+  "category": "food",
+  "tags": ["delivery", "bag", "insulated", "zip", "takeout"],
+  "svg": "<path class=\"d p1\" d=\"M5 9H19V20Q19 21 18 21H6Q5 21 5 20Z\"/><path class=\"p2\" d=\"M9 9V6Q9 4 12 4Q15 4 15 6V9\"/><line class=\"p3\" x1=\"5\" y1=\"13\" x2=\"19\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 1100, "origin": "12px 9px" }
+  ]
+}

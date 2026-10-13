@@ -1,0 +1,10 @@
+{
+  "name": "lock-shape",
+  "category": "shapes",
+  "tags": ["lock", "padlock", "secure", "shackle", "security"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M8 11V7A4 4 0 0 1 16 7V11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 800, "origin": "8px 11px" }
+  ]
+}

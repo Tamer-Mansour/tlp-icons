@@ -1,0 +1,10 @@
+{
+  "name": "target-line",
+  "category": "charts",
+  "tags": ["target", "goal", "line", "chart", "benchmark", "threshold"],
+  "svg": "<path class=\"p1\" d=\"M3 17L8 13L13 15L21 7\"/><path class=\"p2\" d=\"M3 9H7M10 9H14M17 9H21\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 500 }
+  ]
+}

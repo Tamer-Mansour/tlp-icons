@@ -1,0 +1,11 @@
+{
+  "name": "citation-text",
+  "category": "text",
+  "tags": ["citation", "quote", "reference", "source", "footnote"],
+  "svg": "<path class=\"p1\" d=\"M4 9.5V8a2 2 0 0 1 2-2M10 9.5V8a2 2 0 0 1 2-2\"/><path class=\"p2\" d=\"M4 15h10\"/><path class=\"p3\" d=\"M16 12h-1v6h1M21 12h1v6h-1M18.5 14.5l1-1v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

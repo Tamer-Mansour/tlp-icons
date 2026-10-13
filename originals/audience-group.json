@@ -1,0 +1,10 @@
+{
+  "name": "audience-group",
+  "category": "people",
+  "tags": ["audience", "crowd", "viewers", "group", "people", "stage"],
+  "svg": "<circle class=\"p1\" cx=\"5.5\" cy=\"10\" r=\"2.5\"/><circle class=\"p1\" cx=\"12\" cy=\"8\" r=\"2.5\"/><circle class=\"p1\" cx=\"18.5\" cy=\"10\" r=\"2.5\"/><path class=\"p2\" d=\"M3 17.5h18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

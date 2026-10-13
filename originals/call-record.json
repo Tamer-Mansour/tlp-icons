@@ -1,0 +1,11 @@
+{
+  "name": "call-record",
+  "category": "communication",
+  "tags": ["record call", "recording", "voice record", "live call", "telephone"],
+  "svg": "<path class=\"p1 d\" d=\"M5 4h3.5l1.5 4-2 1.5c1 2.2 2.8 4 5 5l1.5-2 4 1.5V19c-7.5 0-14-6.5-14-14z\"/><circle class=\"p2\" cx=\"19\" cy=\"5\" r=\"2\"/><circle class=\"f p3\" cx=\"19\" cy=\"5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1200 }
+  ]
+}

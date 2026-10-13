@@ -1,0 +1,10 @@
+{
+  "name": "cumulonimbus",
+  "category": "weather",
+  "tags": ["cumulonimbus", "cloud", "storm", "thunderstorm", "lightning"],
+  "svg": "<path class=\"d p1\" d=\"M5 12 H18 Q21 12 19.5 8.5 Q18 4 12.5 4 Q7.5 4 6 7.5 Q4.5 12 5 12 Z\"/><path class=\"p2\" d=\"M13.5 16 L10.5 19 H13.5 L11 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 800, "delay": 800 }
+  ]
+}

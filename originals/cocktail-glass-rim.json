@@ -1,0 +1,11 @@
+{
+  "name": "cocktail-glass-rim",
+  "category": "food",
+  "tags": ["food", "cocktail", "martini", "salt", "rim", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M4 4h16l-8 9z\"/><path class=\"p2\" d=\"M12 13v7M8 20h8\"/><circle class=\"f p3\" cx=\"8\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p3\" cx=\"16\" cy=\"6\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1300 }
+  ]
+}

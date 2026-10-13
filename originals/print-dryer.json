@@ -1,0 +1,11 @@
+{
+  "name": "print-dryer",
+  "category": "photography",
+  "tags": ["print dryer", "darkroom", "photo prints", "drying", "rack", "film"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"7\" x2=\"21\" y2=\"7\"/><rect class=\"d p2\" x=\"6\" y=\"9.5\" width=\"3\" height=\"6\"/><rect class=\"d p2\" x=\"15\" y=\"9.5\" width=\"3\" height=\"6\"/><path class=\"p3\" d=\"M9 4.5a6 6 0 0 1 6 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "top" }
+  ]
+}

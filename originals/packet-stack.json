@@ -1,0 +1,11 @@
+{
+  "name": "packet-stack",
+  "category": "connectivity",
+  "tags": ["stack", "packets", "layers", "queue", "data"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"3\" y=\"10\" width=\"18\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"3\" y=\"17\" width=\"18\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 900 }
+  ]
+}

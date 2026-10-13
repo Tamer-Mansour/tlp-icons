@@ -1,0 +1,11 @@
+{
+  "name": "chord-diagram",
+  "category": "charts",
+  "tags": ["chord", "diagram", "connections", "network", "flow", "relations"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M6.3 6.3Q12 12 17.7 6.3\"/><path class=\"p3\" d=\"M6.3 17.7Q12 12 17.7 17.7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

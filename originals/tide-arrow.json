@@ -1,0 +1,11 @@
+{
+  "name": "tide-arrow",
+  "category": "arrows",
+  "tags": ["tide", "water", "rise", "level", "sea", "high"],
+  "svg": "<path class=\"p1\" d=\"M2 17c2.5-2.5 5-2.5 7.5 0s5 2.5 7.5 0\"/><path class=\"p2\" d=\"M12 14v-4\"/><path class=\"p2\" d=\"M9.5 12.5 12 10l2.5 2.5\"/><path class=\"p3\" d=\"M4 5h16\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

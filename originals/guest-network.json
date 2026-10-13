@@ -1,0 +1,12 @@
+{
+  "name": "guest-network",
+  "category": "connectivity",
+  "tags": ["guest", "network", "wifi", "visitor", "wireless", "access"],
+  "svg": "<path class=\"p1\" d=\"M3 8.5a8.5 8.5 0 0 1 12 0\"/><path class=\"p2\" d=\"M6 11.5a4.5 4.5 0 0 1 6 0\"/><circle class=\"f p3\" cx=\"9\" cy=\"14.5\" r=\"1.2\"/><circle class=\"d p4\" cx=\"18\" cy=\"10\" r=\"2.5\"/><path class=\"p4\" d=\"M14 21a4 4 0 0 1 8 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "riseIn", "dur": 500, "delay": 1000 }
+  ]
+}

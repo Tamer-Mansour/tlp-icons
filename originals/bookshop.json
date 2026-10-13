@@ -1,0 +1,11 @@
+{
+  "name": "bookshop",
+  "category": "buildings",
+  "tags": ["bookshop", "books", "reading", "store", "awning", "shop"],
+  "svg": "<path class=\"p1\" d=\"M3 9l1.5-4h15L21 9z\"/><path class=\"p2\" d=\"M4 9v12h16V9\"/><path class=\"d p3\" d=\"M12 14c-2-1.5-4-1.5-6-.5v5c2-1 4-1 6 .5 2-1.5 4-1.5 6-.5v-5c-2-1-4-1-6 .5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "unfold", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 },
+    { "part": "p3", "anim": "flip", "dur": 700, "delay": 1100 }
+  ]
+}

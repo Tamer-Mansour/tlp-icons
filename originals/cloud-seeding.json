@@ -1,0 +1,10 @@
+{
+  "name": "cloud-seeding",
+  "category": "weather",
+  "tags": ["cloud", "seeding", "rain", "aircraft", "weather", "dots"],
+  "svg": "<path class=\"d p1\" d=\"M4 14a4 4 0 0 1 .5-7 5 5 0 0 1 9.5 1.5 3.5 3.5 0 0 1-.5 5.5z\"/><circle class=\"f p2\" cx=\"8\" cy=\"19\" r=\"1\"/><circle class=\"f p2\" cx=\"13\" cy=\"20\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 700 }
+  ]
+}

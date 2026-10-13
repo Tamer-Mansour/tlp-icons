@@ -1,0 +1,11 @@
+{
+  "name": "key-ring-tag",
+  "category": "interface",
+  "tags": ["key", "keyring", "tag", "keychain", "label", "access"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"8\" r=\"3.5\"/><circle class=\"f p1\" cx=\"6\" cy=\"8\" r=\"1\"/><path class=\"p2\" d=\"M9.5 8H21M18 8V10M21 8V10\"/><path class=\"d p3\" d=\"M14 12.5H20V19L17 21.5L14 19Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 800, "delay": 800, "origin": "17px 12.5px" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "container-narrow",
+  "category": "layout",
+  "tags": ["container", "narrow", "width", "column", "content", "layout"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M9 7H15M9 11H15M9 15H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "drawReverse", "dur": 600, "delay": 500 }
+  ]
+}

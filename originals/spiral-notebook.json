@@ -1,0 +1,11 @@
+{
+  "name": "spiral-notebook",
+  "category": "files",
+  "tags": ["notebook", "spiral", "journal", "paper", "note"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5.5\" width=\"16\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"7.5\" cy=\"4\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"4\" r=\"1.5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"4\" r=\"1.5\"/><line class=\"p3\" x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bounceIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

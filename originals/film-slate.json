@@ -1,0 +1,11 @@
+{
+  "name": "film-slate",
+  "category": "media",
+  "tags": ["clapper", "film", "slate", "movie", "cinema"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M3 5.5h18v3H3z\"/><path class=\"p3\" d=\"M7 5.5l-2 3M12 5.5l-2 3M17 5.5l-2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 1100, "origin": "3px 8.5px" }
+  ]
+}

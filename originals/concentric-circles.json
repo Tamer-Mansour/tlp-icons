@@ -1,0 +1,11 @@
+{
+  "name": "concentric-circles",
+  "category": "shapes",
+  "tags": ["concentric", "circles", "ripple", "target", "rings", "center"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"5.5\"/><circle class=\"d p3\" cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "pulseRing", "dur": 900, "delay": 1000 }
+  ]
+}

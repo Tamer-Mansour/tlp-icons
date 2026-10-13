@@ -1,0 +1,10 @@
+{
+  "name": "chat-bubbles-pair",
+  "category": "communication",
+  "tags": ["chat", "bubbles", "conversation", "dialogue", "talk", "two"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"3.5\" width=\"10\" height=\"7\" rx=\"2\"/><rect class=\"p2\" x=\"11.5\" y=\"13\" width=\"10\" height=\"7\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 400 }
+  ]
+}

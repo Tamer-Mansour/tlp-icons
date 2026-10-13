@@ -1,0 +1,11 @@
+{
+  "name": "pubsub-channel",
+  "category": "development",
+  "tags": ["pubsub", "channel", "publish", "subscribe", "events", "broadcast"],
+  "svg": "<line class=\"p1\" x1=\"3\" y1=\"12\" x2=\"11\" y2=\"12\"/><polyline class=\"p2\" points=\"11,12 14,6 16,6\"/><polyline class=\"p2\" points=\"11,12 14,18 16,18\"/><circle class=\"p3\" cx=\"18\" cy=\"6\" r=\"2\"/><circle class=\"p3\" cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

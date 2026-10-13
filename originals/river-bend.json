@@ -1,0 +1,10 @@
+{
+  "name": "river-bend",
+  "category": "buildings",
+  "tags": ["river", "bend", "water", "stream", "curve", "flow"],
+  "svg": "<path class=\"p1\" d=\"M7 2c0 4 10 6 10 10s-10 6-10 10\"/><path class=\"p2\" d=\"M2 7c1.5-1 3 1 4.5 0M17.5 17c1.5-1 3 1 4.5 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

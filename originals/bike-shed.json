@@ -1,0 +1,11 @@
+{
+  "name": "bike-shed",
+  "category": "buildings",
+  "tags": ["bike", "shed", "bicycle", "parking", "roof", "cycle"],
+  "svg": "<path class=\"d p1\" d=\"M3 10L12 3l9 7z\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"3.5\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1000, "origin": "17px 17px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "conduit-bender",
+  "category": "tools",
+  "tags": ["conduit", "bender", "pipe", "electrical", "bend", "foot"],
+  "svg": "<path class=\"p1\" d=\"M4 6 H14 A4 4 0 0 1 18 10 V20\"/><rect class=\"d p2\" x=\"3\" y=\"19\" width=\"12\" height=\"3\" rx=\"1\"/><path class=\"p3\" d=\"M17 19 L20 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "press", "dur": 700, "delay": 1300 }
+  ]
+}

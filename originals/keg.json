@@ -1,0 +1,12 @@
+{
+  "name": "keg",
+  "category": "food",
+  "tags": ["keg", "beer", "barrel", "draft", "brew"],
+  "svg": "<path class=\"p1 d\" d=\"M6 4 Q12 2 18 4 V20 Q12 22 6 20 Z\"/><path class=\"p2\" d=\"M6 8.5 Q12 10.5 18 8.5\"/><path class=\"p3\" d=\"M6 16 Q12 18 18 16\"/><path class=\"p4\" d=\"M12 20.5 V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 800 },
+    { "part": "p4", "anim": "tap", "dur": 700, "delay": 1200 }
+  ]
+}

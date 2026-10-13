@@ -1,0 +1,10 @@
+{
+  "name": "speaker-grille",
+  "category": "media",
+  "tags": ["speaker", "grille", "grill", "slats", "audio", "cover"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"3\"/><path class=\"p2\" d=\"M8 8h8M8 12h8M8 16h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 700 }
+  ]
+}

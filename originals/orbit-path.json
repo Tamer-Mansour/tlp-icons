@@ -1,0 +1,11 @@
+{
+  "name": "orbit-path",
+  "category": "vehicles",
+  "tags": ["orbit", "path", "planet", "space", "circle", "astronomy"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"3\"/><circle class=\"f p3\" cx=\"21\" cy=\"12\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "orbit", "dur": 1500, "delay": 1000, "origin": "12px 12px" }
+  ]
+}

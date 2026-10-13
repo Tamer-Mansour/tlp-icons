@@ -1,0 +1,11 @@
+{
+  "name": "eye-scan-lock",
+  "category": "people",
+  "tags": ["eye", "scan", "lock", "secure", "private", "access"],
+  "svg": "<path class=\"p1\" d=\"M2 8c2.5-3.5 6-5 10-5s7.5 1.5 10 5c-2.5 3.5-6 5-10 5S4.5 11.5 2 8z\"/><circle class=\"d p2\" cx=\"10\" cy=\"8\" r=\"2.5\"/><path class=\"p3\" d=\"M14.5 16v-2.5a2.5 2.5 0 0 1 5 0V16\"/><rect class=\"p3\" x=\"12\" y=\"16\" width=\"9\" height=\"6\" rx=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1000 }
+  ]
+}

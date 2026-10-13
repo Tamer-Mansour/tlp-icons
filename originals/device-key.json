@@ -1,0 +1,10 @@
+{
+  "name": "device-key",
+  "category": "security",
+  "tags": ["device", "key", "phone", "pairing", "trusted"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p1\" d=\"M11 18h2\"/><circle class=\"p2\" cx=\"19\" cy=\"17\" r=\"2.5\"/><path class=\"p2\" d=\"M17 19l-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

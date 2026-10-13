@@ -1,0 +1,11 @@
+{
+  "name": "font-fallback",
+  "category": "text",
+  "tags": ["font", "fallback", "substitute", "typeface", "letter", "typography"],
+  "svg": "<path class=\"p1\" d=\"M3 19l4-11 4 11M4.5 15h5\"/><path class=\"p2\" d=\"M12 12h8M17 9l3 3-3 3\"/><path class=\"p3\" d=\"M15 19l2-5.5 2 5.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

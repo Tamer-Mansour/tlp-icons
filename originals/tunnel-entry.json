@@ -1,0 +1,10 @@
+{
+  "name": "tunnel-entry",
+  "category": "arrows",
+  "tags": ["tunnel", "entry", "enter", "arch", "down", "entrance"],
+  "svg": "<path class=\"p1\" d=\"M5 21 V11 A7 7 0 0 1 19 11 V21\"/><path class=\"p2\" d=\"M12 8 V16 M9 13 L12 16 L15 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 900 }
+  ]
+}

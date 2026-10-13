@@ -1,0 +1,10 @@
+{
+  "name": "fire-alert",
+  "category": "notifications",
+  "tags": ["fire", "flame", "alert", "hot", "danger"],
+  "svg": "<path class=\"d p1\" d=\"M12 21.5a6.5 6.5 0 0 0 6.5-6.5C18.5 10 13 6.5 12 2.5C10 6.5 5.5 9.5 5.5 15A6.5 6.5 0 0 0 12 21.5z\"/><line class=\"p2\" x1=\"20.5\" y1=\"3\" x2=\"20.5\" y2=\"6.5\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"9\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

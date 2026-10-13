@@ -1,0 +1,11 @@
+{
+  "name": "vegan-leaf",
+  "category": "food",
+  "tags": ["vegan", "leaf", "plant based", "green", "diet", "label"],
+  "svg": "<path class=\"d p1\" d=\"M5 19C5 10 10 5 20 4c0 10-5 15-15 15z\"/><path class=\"p2\" d=\"M5 19l8-8\"/><path class=\"p3\" d=\"M9 15.5l2 2 4-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

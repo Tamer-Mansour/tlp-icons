@@ -1,0 +1,11 @@
+{
+  "name": "barbershop",
+  "category": "buildings",
+  "tags": ["barber", "pole", "haircut", "shop", "hair", "striped"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M3 8l5 3M3 14l5 3\"/><path class=\"p3\" d=\"M11 21V10h10v11M10 10l1-4h8l1 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1000 }
+  ]
+}

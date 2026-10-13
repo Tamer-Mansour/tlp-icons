@@ -1,0 +1,11 @@
+{
+  "name": "taxi-sign",
+  "category": "vehicles",
+  "tags": ["taxi", "sign", "cab", "roof light", "car", "transport"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"5\" width=\"12\" height=\"5\" rx=\"2\"/><path class=\"p2\" d=\"M12 10v9M8 19h8\"/><circle class=\"f p3\" cx=\"12\" cy=\"7.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1200 }
+  ]
+}

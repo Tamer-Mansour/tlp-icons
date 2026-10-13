@@ -1,0 +1,11 @@
+{
+  "name": "quinoa",
+  "category": "food",
+  "tags": ["quinoa", "grain", "seed", "superfood", "sprig", "pile"],
+  "svg": "<path class=\"d p1\" d=\"M5 19c0-3 3-5.5 7-5.5s7 2.5 7 5.5z\"/><circle class=\"f p2\" cx=\"9.5\" cy=\"17\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"16.5\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"17\" r=\"1\"/><path class=\"p3\" d=\"M12 13.5V5.5M12 8.5c-2 0-3.5-1.5-3.5-3.5 2 0 3.5 1.5 3.5 3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 900 }
+  ]
+}

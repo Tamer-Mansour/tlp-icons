@@ -1,0 +1,11 @@
+{
+  "name": "book-stack",
+  "category": "science",
+  "tags": ["books", "stack", "library", "study", "reading", "pile"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"17\" width=\"16\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"6\" y=\"13\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"5\" y=\"9\" width=\"14\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 900 }
+  ]
+}

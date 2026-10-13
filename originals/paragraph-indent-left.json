@@ -1,0 +1,10 @@
+{
+  "name": "paragraph-indent-left",
+  "category": "text",
+  "tags": ["paragraph", "indent", "pilcrow", "left", "format", "text"],
+  "svg": "<path class=\"p1\" d=\"M14 4H11A4 4 0 0 0 11 12H14M14 4V20M18 4V20\"/><path class=\"p2\" d=\"M5 8H2M3.5 6.5L2 8L3.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 900 }
+  ]
+}

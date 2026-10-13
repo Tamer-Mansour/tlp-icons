@@ -1,0 +1,10 @@
+{
+  "name": "text-undo",
+  "category": "text",
+  "tags": ["text", "undo", "revert", "back", "reverse", "edit"],
+  "svg": "<path class=\"p1\" d=\"M3 17 H15\"/><path class=\"p2\" d=\"M5 10 C9 6 17 6 18.5 12 M5 6.5 V10 H8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "word-shuffle",
+  "category": "text",
+  "tags": ["shuffle", "scramble", "word", "swap", "arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 7H8L16 17H21\"/><path class=\"p2\" d=\"M3 17H8L16 7H21\"/><path class=\"p3\" d=\"M18 4L21 7L18 10M18 14L21 17L18 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

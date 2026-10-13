@@ -1,0 +1,11 @@
+{
+  "name": "gummy-candy",
+  "category": "food",
+  "tags": ["candy", "gummy", "chewy", "sweet", "treat"],
+  "svg": "<path class=\"d p1\" d=\"M7 10a5 5 0 0 1 10 0v7a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"6.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"16.5\" cy=\"6.5\" r=\"2.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1100 }
+  ]
+}

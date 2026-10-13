@@ -1,0 +1,10 @@
+{
+  "name": "wheelchair-ramp-person",
+  "category": "people",
+  "tags": ["wheelchair", "ramp", "accessibility", "access", "person"],
+  "svg": "<path class=\"p1\" d=\"M3 20L20 13\"/><circle class=\"p2\" cx=\"10\" cy=\"6.5\" r=\"1.5\"/><path class=\"p2\" d=\"M10 9.5v4.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "hop", "dur": 800, "delay": 900 }
+  ]
+}

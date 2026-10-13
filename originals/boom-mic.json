@@ -1,0 +1,11 @@
+{
+  "name": "boom-mic",
+  "category": "devices",
+  "tags": ["boom", "mic", "microphone", "arm", "recording"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"2.5\" width=\"7\" height=\"5.5\" rx=\"2.5\"/><path class=\"p2\" d=\"M6 8L17 17\"/><path class=\"p3\" d=\"M14 21h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1000, "origin": "6px 8px" }
+  ]
+}

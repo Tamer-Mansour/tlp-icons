@@ -1,0 +1,10 @@
+{
+  "name": "foul-line",
+  "category": "sport",
+  "tags": ["line", "boundary", "baseball", "field", "sport"],
+  "svg": "<path class=\"p1\" d=\"M4 20L15 9\"/><circle class=\"f p2\" cx=\"18\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"21\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "siphon-tube",
+  "category": "science",
+  "tags": ["siphon", "tube", "beaker", "liquid", "chemistry"],
+  "svg": "<path class=\"d p2\" d=\"M3 12h6v8H3z\"/><path class=\"p3\" d=\"M3 8v12h6V8\"/><path class=\"p1\" d=\"M6 8V3h12v14\"/><path class=\"p4\" d=\"M15 15h6v5h-6z\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 800 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1500 }
+  ]
+}

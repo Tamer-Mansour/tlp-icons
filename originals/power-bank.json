@@ -1,0 +1,11 @@
+{
+  "name": "power-bank",
+  "category": "devices",
+  "tags": ["power", "bank", "battery", "charge", "portable", "cable"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"6\" width=\"15\" height=\"10\" rx=\"2\"/><path class=\"p2\" d=\"M7 11v2M10 10v4M13 9v6\"/><path class=\"p3\" d=\"M18 11h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "refill", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 1400 }
+  ]
+}

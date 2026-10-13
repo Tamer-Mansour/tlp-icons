@@ -1,0 +1,10 @@
+{
+  "name": "shift-up-arrow",
+  "category": "arrows",
+  "tags": ["shift", "caps", "keyboard", "upper", "key", "modifier"],
+  "svg": "<path class=\"p1\" d=\"M12 3.5L5.5 10H9v6h6v-6h3.5z\"/><line class=\"p2\" x1=\"7\" y1=\"19.5\" x2=\"17\" y2=\"19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "bob", "dur": 700, "delay": 800 }
+  ]
+}

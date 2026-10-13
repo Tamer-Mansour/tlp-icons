@@ -1,0 +1,11 @@
+{
+  "name": "dumpling-steamer",
+  "category": "food",
+  "tags": ["dumpling", "steamer", "bamboo", "steam", "cooking"],
+  "svg": "<path class=\"d p1\" d=\"M4 14 H20 V18 Q20 21 17 21 H7 Q4 21 4 18 Z\"/><path class=\"p2\" d=\"M3 12 Q12 4 21 12\"/><path class=\"p3\" d=\"M9 4 V2 M15 4 V2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "float", "dur": 900, "delay": 1000 }
+  ]
+}

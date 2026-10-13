@@ -1,0 +1,11 @@
+{
+  "name": "face-nerd-glasses",
+  "category": "people",
+  "tags": ["nerd", "glasses", "face", "geek", "smart", "emoji"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"8.5\" cy=\"10.5\" r=\"2.5\"/><circle class=\"p2\" cx=\"15.5\" cy=\"10.5\" r=\"2.5\"/><path class=\"p2\" d=\"M11 10.5H13\"/><path class=\"p3\" d=\"M9.5 16Q12 18 14.5 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "nod", "dur": 800, "delay": 1100 }
+  ]
+}

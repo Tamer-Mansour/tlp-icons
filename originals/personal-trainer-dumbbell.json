@@ -1,0 +1,11 @@
+{
+  "name": "personal-trainer-dumbbell",
+  "category": "people",
+  "tags": ["trainer", "dumbbell", "fitness", "weights", "gym", "coach"],
+  "svg": "<line class=\"p1\" x1=\"6\" y1=\"12\" x2=\"18\" y2=\"12\"/><rect class=\"d p2\" x=\"3\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><rect class=\"d p2\" x=\"18\" y=\"8\" width=\"3\" height=\"8\" rx=\"1\"/><circle class=\"p3\" cx=\"12\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "nod", "dur": 600, "delay": 1000, "origin": "12px 6px" }
+  ]
+}

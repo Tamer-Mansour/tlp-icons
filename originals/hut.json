@@ -1,0 +1,11 @@
+{
+  "name": "hut",
+  "category": "buildings",
+  "tags": ["hut", "cabin", "shelter", "house", "simple", "rustic"],
+  "svg": "<path class=\"d p1\" d=\"M4 11v10h16V11z\"/><path class=\"p2\" d=\"M2 11L12 3l10 8\"/><path class=\"p3\" d=\"M10 21v-5h4v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

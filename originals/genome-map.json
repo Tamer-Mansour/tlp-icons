@@ -1,0 +1,10 @@
+{
+  "name": "genome-map",
+  "category": "science",
+  "tags": ["genome", "map", "dna", "gene", "markers"],
+  "svg": "<line class=\"p1\" x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><circle class=\"p2\" cx=\"6\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 800 }
+  ]
+}

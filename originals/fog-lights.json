@@ -1,0 +1,11 @@
+{
+  "name": "fog-lights",
+  "category": "vehicles",
+  "tags": ["fog", "lights", "lamp", "weather", "visibility", "car"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"7\" height=\"5\" rx=\"1.5\"/><rect class=\"d p1\" x=\"14\" y=\"7\" width=\"7\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M3 16q1.5-1.5 3 0t3 0M14 16q1.5-1.5 3 0t3 0\"/><path class=\"p3\" d=\"M3 19.5q1.5-1.5 3 0t3 0M14 19.5q1.5-1.5 3 0t3 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "glow", "dur": 900, "delay": 1100 }
+  ]
+}

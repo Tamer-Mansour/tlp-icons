@@ -1,0 +1,11 @@
+{
+  "name": "window-switcher",
+  "category": "layout",
+  "tags": ["window", "switcher", "switch", "cycle", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"12\" height=\"8\" rx=\"2\"/><rect class=\"p2\" x=\"10\" y=\"14\" width=\"12\" height=\"7\" rx=\"2\"/><path class=\"p3\" d=\"M16 8L21 3M16 3H21V8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "slideIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "shuttle", "dur": 700, "delay": 1000 }
+  ]
+}

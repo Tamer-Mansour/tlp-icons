@@ -1,0 +1,11 @@
+{
+  "name": "jetway",
+  "category": "buildings",
+  "tags": ["jetway", "airport", "gate", "boarding", "walkway", "plane"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"7\" width=\"10\" height=\"10\" rx=\"2\"/><circle class=\"p2\" cx=\"18\" cy=\"12\" r=\"3\"/><path class=\"p3\" d=\"M2 21h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 }
+  ]
+}

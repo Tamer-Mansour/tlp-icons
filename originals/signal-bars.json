@@ -1,0 +1,12 @@
+{
+  "name": "signal-bars",
+  "category": "communication",
+  "tags": ["signal", "bars", "network", "strength", "reception", "wireless"],
+  "svg": "<line class=\"p1\" x1=\"5\" y1=\"16\" x2=\"5\" y2=\"19\"/><line class=\"p2\" x1=\"9.5\" y1=\"13\" x2=\"9.5\" y2=\"19\"/><line class=\"p3\" x1=\"14\" y1=\"9\" x2=\"14\" y2=\"19\"/><line class=\"p4\" x1=\"18.5\" y1=\"5\" x2=\"18.5\" y2=\"19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 400, "delay": 0, "origin": "bottom" },
+    { "part": "p2", "anim": "grow", "dur": 400, "delay": 150, "origin": "bottom" },
+    { "part": "p3", "anim": "grow", "dur": 400, "delay": 300, "origin": "bottom" },
+    { "part": "p4", "anim": "grow", "dur": 400, "delay": 450, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "radio-tower-alert",
+  "category": "notifications",
+  "tags": ["radio", "tower", "signal", "alert", "broadcast"],
+  "svg": "<path class=\"p1\" d=\"M9 22 L12 11 L15 22 M10.2 16.5 H13.8\"/><circle class=\"f p2\" cx=\"12\" cy=\"8\" r=\"1.2\"/><path class=\"p3\" d=\"M7.5 4.5 Q4.5 8 7.5 11.5 M16.5 4.5 Q19.5 8 16.5 11.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 800 }
+  ]
+}

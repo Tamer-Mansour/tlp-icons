@@ -1,0 +1,11 @@
+{
+  "name": "sap-bucket",
+  "category": "nature",
+  "tags": ["sap", "bucket", "maple", "tree", "syrup", "tap"],
+  "svg": "<path class=\"p1\" d=\"M5 3v18\"/><path class=\"d p2\" d=\"M11 11h9l-1.5 7h-6z\"/><path class=\"p3\" d=\"M5 8h4l3 2\"/><circle class=\"f p3\" cx=\"13\" cy=\"14\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "drip", "dur": 800, "delay": 1100 }
+  ]
+}

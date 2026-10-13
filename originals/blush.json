@@ -1,0 +1,11 @@
+{
+  "name": "blush",
+  "category": "people",
+  "tags": ["blush", "shy", "embarrassed", "face", "smile", "cheeks"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M8 14a4.5 4.5 0 0 0 8 0\"/><path class=\"p3\" d=\"M4.5 12.5h2M17.5 12.5h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "glow", "dur": 800, "delay": 1100 }
+  ]
+}

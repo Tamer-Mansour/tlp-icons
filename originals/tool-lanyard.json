@@ -1,0 +1,11 @@
+{
+  "name": "tool-lanyard",
+  "category": "tools",
+  "tags": ["tool", "lanyard", "cord", "clip", "strap", "tether"],
+  "svg": "<path class=\"p1\" d=\"M4 3c0 5 3 7 8 7\"/><path class=\"p2\" d=\"M12 10v3l3 1\"/><circle class=\"d p3\" cx=\"16\" cy=\"17\" r=\"4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1100, "origin": "12px 10px" }
+  ]
+}

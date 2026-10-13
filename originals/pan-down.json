@@ -1,0 +1,10 @@
+{
+  "name": "pan-down",
+  "category": "arrows",
+  "tags": ["pan", "down", "move", "drag", "scroll"],
+  "svg": "<path class=\"p1\" d=\"M12 9 V19\"/><polyline class=\"p1\" points=\"8 15 12 19 16 15\"/><circle class=\"f p2\" cx=\"12\" cy=\"6\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 500 }
+  ]
+}

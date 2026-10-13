@@ -1,0 +1,10 @@
+{
+  "name": "balance-beam",
+  "category": "sport",
+  "tags": ["balance", "beam", "gymnastics", "gym", "sport", "routine"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"9\" width=\"20\" height=\"2.5\" rx=\"1\"/><path class=\"p2\" d=\"M7 11.5v9M17 11.5v9M5 20.5h4M15 20.5h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

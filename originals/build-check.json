@@ -1,0 +1,11 @@
+{
+  "name": "build-check",
+  "category": "notifications",
+  "tags": ["build", "hammer", "check", "success", "complete"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><path class=\"p2\" d=\"M8 8.5 11 5.5l4.5 4.5-3 3z\"/><line class=\"p2\" x1=\"11.5\" y1=\"9.5\" x2=\"8\" y2=\"15\"/><polyline class=\"p3\" points=\"12.5 16.5 14.5 18.5 17.5 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 600, "delay": 600, "origin": "8px 15px" },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

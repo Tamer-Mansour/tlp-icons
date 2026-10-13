@@ -1,0 +1,11 @@
+{
+  "name": "thermostat",
+  "category": "home",
+  "tags": ["thermostat", "temperature", "heating", "dial", "climate", "control", "home"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"16\" y2=\"8\"/><circle class=\"f p3\" cx=\"12\" cy=\"12\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "sweep", "dur": 1000, "delay": 900, "origin": "12px 12px" }
+  ]
+}

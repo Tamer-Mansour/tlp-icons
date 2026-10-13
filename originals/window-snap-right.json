@@ -1,0 +1,11 @@
+{
+  "name": "window-snap-right",
+  "category": "layout",
+  "tags": ["window", "snap", "right", "half", "layout"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><rect class=\"d p2\" x=\"13\" y=\"3\" width=\"9\" height=\"18\" rx=\"0\"/><path class=\"p3\" d=\"M5 12H10M7.5 9.5L10 12L7.5 14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 700, "delay": 1000 }
+  ]
+}

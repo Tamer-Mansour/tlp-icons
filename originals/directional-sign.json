@@ -1,0 +1,11 @@
+{
+  "name": "directional-sign",
+  "category": "arrows",
+  "tags": ["directional", "sign", "post", "direction", "wayfinding"],
+  "svg": "<path class=\"p1\" d=\"M7 2 V22\"/><path class=\"d p2\" d=\"M7 5 H18 L21 7.5 L18 10 H7 Z\"/><path class=\"d p3\" d=\"M7 13 H16 L19 15.5 L16 18 H7 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 700, "delay": 1000 }
+  ]
+}

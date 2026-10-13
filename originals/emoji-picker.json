@@ -1,0 +1,11 @@
+{
+  "name": "emoji-picker",
+  "category": "text",
+  "tags": ["emoji", "picker", "smiley", "face", "reaction", "grid"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"7\"/><path class=\"p2\" d=\"M6 9.5v1M12 9.5v1M6 14q3 3 6 0\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"8\" r=\"1.2\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"12\" r=\"1.2\"/><circle class=\"f p3\" cx=\"19.5\" cy=\"16\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

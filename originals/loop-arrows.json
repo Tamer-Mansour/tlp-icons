@@ -1,0 +1,10 @@
+{
+  "name": "loop-arrows",
+  "category": "development",
+  "tags": ["loop", "arrows", "repeat", "cycle", "refresh", "sync"],
+  "svg": "<path class=\"p1\" d=\"M4 12a8 8 0 0 1 8-8M20 12a8 8 0 0 1-8 8\"/><path class=\"p2\" d=\"M10 6l2-2 2 2M14 18l-2 2-2-2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

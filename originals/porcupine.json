@@ -1,0 +1,11 @@
+{
+  "name": "porcupine",
+  "category": "nature",
+  "tags": ["porcupine", "spines", "quills", "rodent", "spiky"],
+  "svg": "<circle class=\"d p1\" cx=\"13\" cy=\"14\" r=\"6\"/><path class=\"p2\" d=\"M7 10 L4 7 M9.5 8 L8 4 M13 7.5 V3.5 M16.5 8.5 L18 5\"/><circle class=\"f p3\" cx=\"18.5\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tab-pin",
+  "category": "interface",
+  "tags": ["tab", "pin", "pushpin", "pinned", "sticky", "keep"],
+  "svg": "<path class=\"d p1\" d=\"M8 5h8l-1 5v3l2 2H7l2-2v-3z\"/><path class=\"p2\" d=\"M6 3h12\"/><path class=\"p3\" d=\"M12 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

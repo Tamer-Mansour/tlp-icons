@@ -1,0 +1,11 @@
+{
+  "name": "record-mic",
+  "category": "interface",
+  "tags": ["record", "microphone", "dot", "audio", "live"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M3 11A6 6 0 0 0 15 11M9 17V21M6 21H12\"/><circle class=\"f p3\" cx=\"19\" cy=\"5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

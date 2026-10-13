@@ -1,0 +1,11 @@
+{
+  "name": "animal-hospital",
+  "category": "buildings",
+  "tags": ["animal", "hospital", "vet", "paw", "medical", "cross", "clinic"],
+  "svg": "<path class=\"p1\" d=\"M7 2H17V7H22V17H17V22H7V17H2V7H7Z\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"14.5\" rx=\"3\" ry=\"2.5\"/><circle class=\"f p3\" cx=\"9.5\" cy=\"8.5\" r=\"1\"/><circle class=\"f p3\" cx=\"14.5\" cy=\"8.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "two-factor",
+  "category": "security",
+  "tags": ["two", "factor", "verification", "code", "phone"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8.5 8.5h7\"/><path class=\"d p3\" d=\"M12 12.5l2.5 1v2c0 1.2-1 2-2.5 2.5-1.5-.5-2.5-1.3-2.5-2.5v-2z\"/><path class=\"p3\" d=\"M10.8 15.2l1 .9 1.8-1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1000 }
+  ]
+}

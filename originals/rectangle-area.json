@@ -1,0 +1,10 @@
+{
+  "name": "rectangle-area",
+  "category": "math",
+  "tags": ["rectangle", "area", "width", "height", "geometry"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"7\" width=\"13\" height=\"10\" rx=\"1\"/><path class=\"p2\" d=\"M7 4h13M4 7v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 600, "delay": 700 }
+  ]
+}

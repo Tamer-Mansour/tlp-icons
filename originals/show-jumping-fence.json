@@ -1,0 +1,11 @@
+{
+  "name": "show-jumping-fence",
+  "category": "sport",
+  "tags": ["jumping", "fence", "horse", "equestrian", "rail", "sport"],
+  "svg": "<path class=\"p1\" d=\"M5 20V8M19 20V8\"/><path class=\"p2\" d=\"M5 11h14M5 15h14\"/><path class=\"p3\" d=\"M3 6Q12 0 21 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "jump", "dur": 900, "delay": 800 }
+  ]
+}

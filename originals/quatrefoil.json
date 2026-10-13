@@ -1,0 +1,10 @@
+{
+  "name": "quatrefoil",
+  "category": "shapes",
+  "tags": ["quatrefoil", "clover", "circles", "four", "ornament", "shape"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"9\" r=\"4.5\"/><circle class=\"p1\" cx=\"15\" cy=\"15\" r=\"4.5\"/><circle class=\"p2\" cx=\"15\" cy=\"9\" r=\"4.5\"/><circle class=\"p2\" cx=\"9\" cy=\"15\" r=\"4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

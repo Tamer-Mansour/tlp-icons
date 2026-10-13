@@ -1,0 +1,12 @@
+{
+  "name": "terminal-alert",
+  "category": "notifications",
+  "tags": ["terminal", "console", "alert", "prompt", "warning"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M6 9.5l3 2.5-3 2.5\"/><path class=\"p3\" d=\"M15.5 8.5v5\"/><circle class=\"f p4\" cx=\"15.5\" cy=\"16.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p4", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

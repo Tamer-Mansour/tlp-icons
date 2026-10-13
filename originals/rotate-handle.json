@@ -1,0 +1,11 @@
+{
+  "name": "rotate-handle",
+  "category": "design",
+  "tags": ["rotate", "handle", "corner", "transform", "spin", "box"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"11\" width=\"10\" height=\"9\" rx=\"1\"/><path class=\"p2\" d=\"M6 8a6 6 0 0 1 10-3\"/><polyline class=\"p3\" points=\"16 2 16 5 13 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

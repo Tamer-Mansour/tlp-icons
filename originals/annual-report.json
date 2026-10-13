@@ -1,0 +1,10 @@
+{
+  "name": "annual-report",
+  "category": "charts",
+  "tags": ["annual", "report", "calendar", "yearly", "summary", "chart"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M8 16V13M12 16V10M16 16V12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 500, "origin": "bottom" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "trend-up-arrow",
+  "category": "arrows",
+  "tags": ["trend", "up", "growth", "chart", "rising", "increase"],
+  "svg": "<polyline class=\"p1\" points=\"3,17 8.5,11.5 12.5,15.5 20,8\"/><polyline class=\"p2\" points=\"14.5,8 20,8 20,13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 1000 }
+  ]
+}

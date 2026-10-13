@@ -1,0 +1,11 @@
+{
+  "name": "sailor-captain-hat",
+  "category": "people",
+  "tags": ["captain", "sailor", "hat", "cap", "navy", "anchor"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 Q5 5 12 5 Q19 5 19 11 Z\"/><line class=\"p2\" x1=\"3\" y1=\"13\" x2=\"21\" y2=\"13\"/><path class=\"p3\" d=\"M12 16 V20 M9.5 17.5 H14.5 M8.5 19.5 Q12 22 15.5 19.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1000, "origin": "12px 16px" }
+  ]
+}

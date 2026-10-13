@@ -1,0 +1,11 @@
+{
+  "name": "qr-scanner",
+  "category": "devices",
+  "tags": ["qr", "scanner", "code", "barcode", "scan", "camera"],
+  "svg": "<path class=\"p1\" d=\"M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2\"/><path class=\"p2\" d=\"M8 8h3v3H8zM14 8h3v3h-3zM8 14h3v3H8z\"/><line class=\"p3\" x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "scan", "dur": 900, "delay": 900 }
+  ]
+}

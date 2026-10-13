@@ -1,0 +1,11 @@
+{
+  "name": "theater-mask-actor",
+  "category": "people",
+  "tags": ["theater", "mask", "actor", "comedy", "drama", "stage"],
+  "svg": "<path class=\"d p1\" d=\"M5 3 H19 V12 A7 7 0 0 1 5 12 Z\"/><circle class=\"f p2\" cx=\"9\" cy=\"8\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"8\" r=\"1.2\"/><path class=\"p3\" d=\"M9 14 Q12 17 15 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p2", "anim": "blink", "dur": 500, "delay": 1400 }
+  ]
+}

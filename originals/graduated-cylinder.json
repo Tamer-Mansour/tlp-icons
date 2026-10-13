@@ -1,0 +1,10 @@
+{
+  "name": "graduated-cylinder",
+  "category": "science",
+  "tags": ["cylinder", "measuring", "lab", "volume", "beaker"],
+  "svg": "<path class=\"p1\" d=\"M8 2 H16 M9 2 V17 L5 21 H19 L15 17 V2\"/><path class=\"p2\" d=\"M9 8 H11 M9 12 H11 M9 16 H11\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

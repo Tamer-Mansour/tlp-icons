@@ -1,0 +1,11 @@
+{
+  "name": "fuel-nozzle",
+  "category": "vehicles",
+  "tags": ["fuel", "nozzle", "gas", "hose", "refuel"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"8\" width=\"11\" height=\"5\" rx=\"1.5\"/><path class=\"p2\" d=\"M15 10.5h5.5\"/><path class=\"p3\" d=\"M8 13v4.5h3V13M9 8V5c0-2 2.5-2.5 4-1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "press", "dur": 500, "delay": 800 }
+  ]
+}

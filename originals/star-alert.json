@@ -1,0 +1,10 @@
+{
+  "name": "star-alert",
+  "category": "notifications",
+  "tags": ["star", "alert", "favorite", "rating", "highlight"],
+  "svg": "<polygon class=\"p1\" points=\"12 3 14.5 8.5 20.5 9 16 13 17.5 19 12 16 6.5 19 8 13 3.5 9 9.5 8.5\"/><line class=\"p2\" x1=\"20.5\" y1=\"2.5\" x2=\"20.5\" y2=\"5\"/><circle class=\"f p2\" cx=\"20.5\" cy=\"6.5\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "twinkle", "dur": 600, "delay": 900 }
+  ]
+}

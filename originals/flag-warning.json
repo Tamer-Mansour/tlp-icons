@@ -1,0 +1,10 @@
+{
+  "name": "flag-warning",
+  "category": "notifications",
+  "tags": ["flag", "warning", "pole", "alert", "caution"],
+  "svg": "<path class=\"p1\" d=\"M5 21V3\"/><path class=\"p1\" d=\"M5 4h12l-2.5 4 2.5 4H5\"/><line class=\"p2\" x1=\"11\" y1=\"6\" x2=\"11\" y2=\"8.5\"/><circle class=\"f p2\" cx=\"11\" cy=\"10.2\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 700, "delay": 900 }
+  ]
+}

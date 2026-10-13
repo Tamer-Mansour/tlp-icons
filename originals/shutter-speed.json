@@ -1,0 +1,11 @@
+{
+  "name": "shutter-speed",
+  "category": "media",
+  "tags": ["shutter", "speed", "dial", "exposure", "camera", "timing"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 3v3M21 12h-3M12 21v-3M3 12h3\"/><line class=\"p3\" x1=\"12\" y1=\"12\" x2=\"16.5\" y2=\"7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fadeIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sweep", "dur": 900, "delay": 900, "origin": "12px 12px" }
+  ]
+}

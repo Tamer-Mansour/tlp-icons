@@ -1,0 +1,11 @@
+{
+  "name": "slow-motion",
+  "category": "media",
+  "tags": ["slow", "motion", "playback", "slowmo", "video", "play"],
+  "svg": "<path class=\"d p1\" d=\"M4 5.5L13 11L4 16.5Z\"/><path class=\"p2\" d=\"M18 8.5V15.5\"/><path class=\"p3\" d=\"M21 8.5V15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "breathe", "dur": 1200, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "name":  "octopus-arm",
+    "category":  "science",
+    "tags":  [
+                 "octopus",
+                 "tentacle",
+                 "arm",
+                 "sea",
+                 "animal"
+             ],
+    "svg":  "\u003cpath class=\"d p1\" d=\"M5 12A7 7 0 0 1 19 12C19 13.5 18 14.5 17 14.5H7C6 14.5 5 13.5 5 12Z\"/\u003e\u003cpath class=\"p2\" d=\"M7 15C6 17 7.5 18.5 6 20.5M10 15V21M14 15V21M17 15C18 17 16.5 18.5 18 20.5\"/\u003e\u003cg class=\"f p3\"\u003e\u003ccircle cx=\"9.5\" cy=\"10.5\" r=\"1\"/\u003e\u003ccircle cx=\"14.5\" cy=\"10.5\" r=\"1\"/\u003e\u003c/g\u003e",
+    "motion":  [
+                   {
+                       "delay":  0,
+                       "anim":  "fillIn",
+                       "part":  "p1",
+                       "dur":  700
+                   },
+                   {
+                       "delay":  500,
+                       "anim":  "draw",
+                       "part":  "p2",
+                       "dur":  800
+                   },
+                   {
+                       "delay":  1100,
+                       "anim":  "popIn",
+                       "part":  "p3",
+                       "dur":  300
+                   }
+               ]
+}

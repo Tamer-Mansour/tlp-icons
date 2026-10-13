@@ -1,0 +1,11 @@
+{
+  "name": "timeout-clock",
+  "category": "development",
+  "tags": ["timeout", "clock", "countdown", "timer", "expire", "deadline"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p3\" d=\"M12 3A9 9 0 0 1 18.36 5.64\"/><line class=\"p2\" x1=\"12\" y1=\"12\" x2=\"12\" y2=\"7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 12px" }
+  ]
+}

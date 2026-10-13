@@ -1,0 +1,11 @@
+{
+  "name": "data-rights",
+  "category": "security",
+  "tags": ["security", "data", "rights", "privacy", "person", "shield"],
+  "svg": "<path class=\"p1\" d=\"M5 2 H14 L19 7 V22 H5 Z\"/><circle class=\"p2\" cx=\"12\" cy=\"8\" r=\"2\"/><path class=\"p2\" d=\"M8.5 14.5 C8.5 11.5 15.5 11.5 15.5 14.5\"/><path class=\"d p3\" d=\"M12 16.5 L15 17.5 V19 C15 20 13.5 20.5 12 21 C10.5 20.5 9 20 9 19 V17.5 Z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "fillIn", "dur": 600, "delay": 1200 }
+  ]
+}

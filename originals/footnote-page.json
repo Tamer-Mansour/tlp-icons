@@ -1,0 +1,11 @@
+{
+  "name": "footnote-page",
+  "category": "files",
+  "tags": ["footnote", "page", "text", "number", "note", "document"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path class=\"p2\" d=\"M8 6h8M8 10h8M8 14h5\"/><path class=\"p3\" d=\"M8 18h3\"/><circle class=\"f p3\" cx=\"16\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

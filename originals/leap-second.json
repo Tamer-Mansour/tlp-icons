@@ -1,0 +1,11 @@
+{
+  "name": "leap-second",
+  "category": "time",
+  "tags": ["leap", "second", "clock", "time", "extra", "correction"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V7.5M12 12l3 2\"/><path class=\"p4\" d=\"M20 1.5v3M18.5 3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

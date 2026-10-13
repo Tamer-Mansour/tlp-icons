@@ -1,0 +1,11 @@
+{
+  "name": "granola-bar",
+  "category": "food",
+  "tags": ["granola", "bar", "snack", "oats", "breakfast"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"18\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M12 8v8\"/><circle class=\"f p3\" cx=\"7\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 700, "delay": 1000 }
+  ]
+}

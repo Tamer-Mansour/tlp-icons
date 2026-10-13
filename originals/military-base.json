@@ -1,0 +1,11 @@
+{
+  "name": "military-base",
+  "category": "buildings",
+  "tags": ["military", "base", "army", "flag", "gate", "fort"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18M5 21v-6h14v6M7 21V3\"/><path class=\"d p2\" d=\"M7 3h10l-2.5 3.5L17 10H7z\"/><circle class=\"p3 f\" cx=\"11\" cy=\"6.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "flutter", "dur": 900, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "twin-lens-camera",
+  "category": "photography",
+  "tags": ["twin", "lens", "camera", "reflex", "vintage", "film"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"15\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1100 }
+  ]
+}

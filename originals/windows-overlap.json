@@ -1,0 +1,11 @@
+{
+  "name": "windows-overlap",
+  "category": "layout",
+  "tags": ["windows", "overlap", "stacked", "windows", "layers", "dialog"],
+  "svg": "<path class=\"p1\" d=\"M8 9V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-3\"/><line class=\"p1\" x1=\"11\" y1=\"7\" x2=\"18\" y2=\"7\"/><rect class=\"d p2\" x=\"3\" y=\"9\" width=\"13\" height=\"11\" rx=\"2\"/><line class=\"p3\" x1=\"6\" y1=\"13\" x2=\"13\" y2=\"13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "slideIn", "dur": 500, "delay": 1000 }
+  ]
+}

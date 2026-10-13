@@ -1,0 +1,11 @@
+{
+  "name": "controller-board",
+  "category": "devices",
+  "tags": ["board", "chip", "controller", "circuit", "electronics"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"1\"/><rect class=\"d p2\" x=\"9\" y=\"9\" width=\"6\" height=\"6\"/><path class=\"p3\" d=\"M8 2.5 V5 M12 2.5 V5 M16 2.5 V5 M8 19 V21.5 M12 19 V21.5 M16 19 V21.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 1100 }
+  ]
+}

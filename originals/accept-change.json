@@ -1,0 +1,11 @@
+{
+  "name": "accept-change",
+  "category": "design",
+  "tags": ["accept", "change", "approve", "check", "edit", "review"],
+  "svg": "<path class=\"p1\" d=\"M6 3h8l4 4v14H6z\"/><path class=\"p2\" d=\"M9 11h6\"/><polyline class=\"p3\" points=\"12.5 16 14.5 18 18.5 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

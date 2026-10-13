@@ -1,0 +1,10 @@
+{
+  "name": "person-cane",
+  "category": "people",
+  "tags": ["person", "cane", "walking aid", "mobility", "elderly"],
+  "svg": "<circle class=\"p1\" cx=\"9\" cy=\"4.5\" r=\"2\"/><path class=\"p1\" d=\"M9 8.5v6.5M9 11l-3 2.5M9 11l2.5 2M9 15l-2 7M9 15l2 7\"/><path class=\"p2\" d=\"M17 22V11.5a2.5 2.5 0 0 1 5 0v1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 1000, "origin": "17px 22px" }
+  ]
+}

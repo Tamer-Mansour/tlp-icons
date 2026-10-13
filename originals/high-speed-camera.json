@@ -1,0 +1,11 @@
+{
+  "name": "high-speed-camera",
+  "category": "photography",
+  "tags": ["high", "speed", "camera", "fast", "motion"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"12\" height=\"8\" rx=\"2\"/><path class=\"p2\" d=\"M16 13.5l4.5-2.5v7L16 16.5\"/><path class=\"p3\" d=\"M5 3l4 3-4 3M11 3l4 3-4 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "dash", "dur": 900, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "boarding-arrow",
+  "category": "arrows",
+  "tags": ["boarding", "board", "enter", "vehicle", "passenger", "step"],
+  "svg": "<path class=\"p1\" d=\"M4 21V3h10v18\"/><path class=\"p2\" d=\"M16 21h5\"/><path class=\"p3\" d=\"M21 12h-5\"/><path class=\"p3\" d=\"M18 9l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 600, "delay": 900 }
+  ]
+}

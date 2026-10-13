@@ -1,0 +1,10 @@
+{
+  "name": "paragraph-mark",
+  "category": "text",
+  "tags": ["paragraph", "pilcrow", "mark", "symbol", "typography", "text"],
+  "svg": "<path class=\"p1\" d=\"M9 12a4 4 0 0 1 0-8h9M14 4v16M18 4v16\"/><path class=\"p2\" d=\"M3 19h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 900 }
+  ]
+}

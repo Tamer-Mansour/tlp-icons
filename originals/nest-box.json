@@ -1,0 +1,11 @@
+{
+  "name": "nest-box",
+  "category": "nature",
+  "tags": ["nest box", "birdhouse", "round hole", "garden", "wood", "shelter"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"16\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"10\" r=\"2.5\"/><path class=\"p3\" d=\"M8 21H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 400 },
+    { "part": "p3", "anim": "growX", "dur": 400, "delay": 700 }
+  ]
+}

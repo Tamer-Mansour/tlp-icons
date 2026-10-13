@@ -1,0 +1,12 @@
+{
+  "name": "barracks",
+  "category": "buildings",
+  "tags": ["barracks", "military", "army", "building", "soldiers", "flag"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"11\" width=\"20\" height=\"10\" rx=\"1\"/><circle class=\"f p2\" cx=\"6\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"11\" cy=\"15\" r=\"1\"/><circle class=\"f p2\" cx=\"16\" cy=\"15\" r=\"1\"/><path class=\"p3\" d=\"M19 11V4\"/><path class=\"p4\" d=\"M19 4h3l-1 1.5 1 1.5h-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "flutter", "dur": 900, "delay": 1000 }
+  ]
+}

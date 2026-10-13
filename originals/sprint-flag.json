@@ -1,0 +1,11 @@
+{
+  "name": "sprint-flag",
+  "category": "development",
+  "tags": ["sprint", "flag", "timer", "milestone", "agile", "goal"],
+  "svg": "<path class=\"p1\" d=\"M5 21V4\"/><path class=\"d p2\" d=\"M5 4h12l-3 4 3 4H5z\"/><path class=\"p3\" d=\"M14 17a3 3 0 0 1 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "flutter", "dur": 800, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1500 }
+  ]
+}

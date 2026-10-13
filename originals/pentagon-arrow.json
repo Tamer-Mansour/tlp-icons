@@ -1,0 +1,10 @@
+{
+  "name": "pentagon-arrow",
+  "category": "shapes",
+  "tags": ["pentagon", "arrow", "pointed", "direction", "forward", "block"],
+  "svg": "<path class=\"d p1\" d=\"M3 6H14L21 12L14 18H3Z\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"13\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

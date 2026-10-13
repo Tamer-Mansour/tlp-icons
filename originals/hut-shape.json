@@ -1,0 +1,10 @@
+{
+  "name": "hut-shape",
+  "category": "shapes",
+  "tags": ["hut", "house", "home", "roof", "door"],
+  "svg": "<path class=\"d p1\" d=\"M3 11l9-7 9 7v10H3z\"/><path class=\"p2\" d=\"M10 21v-6h4v6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "handwritten-letter",
+  "category": "files",
+  "tags": ["letter", "handwritten", "script", "note", "write", "personal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M7 9c1.5-2 3-2 4 0s2.5 2 4 0\"/><path class=\"p3\" d=\"M11 19l6-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 1100, "delay": 1400 }
+  ]
+}

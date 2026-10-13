@@ -1,0 +1,11 @@
+{
+  "name": "chat-clock",
+  "category": "communication",
+  "tags": ["pending", "waiting", "time", "schedule", "chat"],
+  "svg": "<path class=\"p1 d\" d=\"M3 4h18v13h-8l-5 3.5V17H3z\"/><circle class=\"p2\" cx=\"12\" cy=\"10.5\" r=\"3.5\"/><path class=\"p3\" d=\"M12 8.5V10.5h1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 900, "origin": "12px 10.5px" }
+  ]
+}

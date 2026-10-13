@@ -1,0 +1,11 @@
+{
+  "name": "photo-printer",
+  "category": "devices",
+  "tags": ["photo", "printer", "print", "picture", "slot", "paper"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"12\" width=\"18\" height=\"7\" rx=\"2\"/><path class=\"p2\" d=\"M7 12 V4 H17 V12\"/><circle class=\"f p3\" cx=\"17\" cy=\"15.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "riseIn", "dur": 700, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1300 }
+  ]
+}

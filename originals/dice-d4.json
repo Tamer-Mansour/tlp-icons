@@ -1,0 +1,11 @@
+{
+  "name": "dice-d4",
+  "category": "sport",
+  "tags": ["dice", "d4", "tetrahedron", "polyhedral", "rpg", "tabletop"],
+  "svg": "<polygon class=\"d p1\" points=\"12,3 21,19 3,19\"/><line class=\"p2\" x1=\"12\" y1=\"3\" x2=\"12\" y2=\"14\"/><polyline class=\"p3\" points=\"3,19 12,14 21,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "flip", "dur": 800, "delay": 1000 }
+  ]
+}

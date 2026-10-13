@@ -1,0 +1,11 @@
+{
+  "name": "snifter",
+  "category": "food",
+  "tags": ["snifter", "glass", "brandy", "cognac", "bowl", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M7.5 4.5h9c0 5.5-1.5 9-4.5 10.5-3-1.5-4.5-5-4.5-10.5z\"/><path class=\"p2\" d=\"M12 15v4.5\"/><path class=\"p3\" d=\"M8.5 20h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 700 }
+  ]
+}

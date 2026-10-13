@@ -1,0 +1,11 @@
+{
+  "name": "cocktail-shaker",
+  "category": "food",
+  "tags": ["cocktail", "shaker", "bar", "drink", "mixology"],
+  "svg": "<path class=\"p1 d\" d=\"M7.5 8 H16.5 L15.5 21 H8.5 Z\"/><path class=\"p2\" d=\"M9 3 H15 L16 6 H8 Z\"/><line class=\"p3\" x1=\"9.5\" y1=\"15\" x2=\"14.5\" y2=\"15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shake", "dur": 900, "delay": 1100 }
+  ]
+}

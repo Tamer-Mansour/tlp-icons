@@ -1,0 +1,10 @@
+{
+  "name": "phone-landscape",
+  "category": "interface",
+  "tags": ["phone", "landscape", "device", "mobile", "rotate", "screen"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"5.5\" width=\"19\" height=\"13\" rx=\"2.5\"/><circle class=\"f p2\" cx=\"4.5\" cy=\"12\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "buzz", "dur": 600, "delay": 800 }
+  ]
+}

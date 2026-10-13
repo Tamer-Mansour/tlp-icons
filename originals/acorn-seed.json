@@ -1,0 +1,11 @@
+{
+  "name": "acorn-seed",
+  "category": "science",
+  "tags": ["acorn", "seed", "nut", "oak", "autumn"],
+  "svg": "<rect class=\"p1\" x=\"6\" y=\"8\" width=\"12\" height=\"3\" rx=\"1.5\"/><path class=\"d p2\" d=\"M8 11h8c0 5-2 9-4 11c-2-2-4-6-4-11z\"/><path class=\"p3\" d=\"M12 8V4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 1100 }
+  ]
+}

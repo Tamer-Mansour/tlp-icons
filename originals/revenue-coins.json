@@ -1,0 +1,12 @@
+{
+  "name": "revenue-coins",
+  "category": "charts",
+  "tags": ["revenue", "coins", "money", "income", "growth"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7\" cy=\"6\" rx=\"5\" ry=\"2.5\"/><path class=\"p2\" d=\"M2 6V16.5C2 17.6 4.2 18.5 7 18.5S12 17.6 12 16.5V6\"/><path class=\"p3\" d=\"M2 11C2 12.1 4.2 13 7 13S12 12.1 12 11\"/><path class=\"p4\" d=\"M14 17L20 10M15 10H20V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

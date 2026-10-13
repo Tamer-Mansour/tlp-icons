@@ -1,0 +1,11 @@
+{
+  "name": "car-trunk",
+  "category": "vehicles",
+  "tags": ["car", "trunk", "rear", "boot", "open", "vehicle"],
+  "svg": "<path class=\"d p1\" d=\"M3 15V12Q3 10.5 4.5 10.5H19.5Q21 10.5 21 12V15Z\"/><path class=\"p2\" d=\"M6 10.5L8 5H16L18 10.5\"/><circle class=\"p3\" cx=\"7\" cy=\"17\" r=\"1.5\"/><circle class=\"p3\" cx=\"17\" cy=\"17\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "pop", "dur": 400, "delay": 1000 }
+  ]
+}

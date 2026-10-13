@@ -1,0 +1,11 @@
+{
+  "name": "toggle-group",
+  "category": "interface",
+  "tags": ["toggle", "group", "segmented", "pill", "select", "choice"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\" rx=\"4.5\"/><path class=\"d p2\" d=\"M7 7.5h5v9H7a4.5 4.5 0 0 1 0-9z\"/><line class=\"p3\" x1=\"12\" y1=\"7.5\" x2=\"12\" y2=\"16.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 900 }
+  ]
+}

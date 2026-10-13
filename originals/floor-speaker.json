@@ -1,0 +1,11 @@
+{
+  "name": "floor-speaker",
+  "category": "devices",
+  "tags": ["speaker", "floor", "tower", "audio", "driver", "sound"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"/><circle class=\"p2\" cx=\"12\" cy=\"9\" r=\"2\"/><circle class=\"p3\" cx=\"12\" cy=\"16\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

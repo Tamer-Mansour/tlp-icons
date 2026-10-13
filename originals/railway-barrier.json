@@ -1,0 +1,11 @@
+{
+  "name": "railway-barrier",
+  "category": "vehicles",
+  "tags": ["barrier", "railway", "crossing", "gate", "track", "rail"],
+  "svg": "<path class=\"p1\" d=\"M3 18V9\"/><rect class=\"d p2\" x=\"6\" y=\"9\" width=\"14\" height=\"3\"/><path class=\"p3\" d=\"M2 21.5h20\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 1200, "origin": "3px 10px" }
+  ]
+}

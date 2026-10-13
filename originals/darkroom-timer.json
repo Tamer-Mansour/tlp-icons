@@ -1,0 +1,11 @@
+{
+  "name": "darkroom-timer",
+  "category": "photography",
+  "tags": ["darkroom timer", "timer", "darkroom", "dial", "clock"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"11\" r=\"7\"/><path class=\"p2\" d=\"M12 11V7\"/><path class=\"p3\" d=\"M12 18v3M8 21h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "sweep", "dur": 1200, "delay": 800, "origin": "12px 11px" }
+  ]
+}

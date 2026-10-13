@@ -1,0 +1,11 @@
+{
+  "name": "key-card",
+  "category": "people",
+  "tags": ["key", "card", "access", "keycard", "lock", "entry", "security"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><rect class=\"p2\" x=\"5\" y=\"9\" width=\"4\" height=\"3\" rx=\".5\"/><circle class=\"p3\" cx=\"16.5\" cy=\"10.5\" r=\"1\"/><path class=\"p3\" d=\"M16.5 12v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

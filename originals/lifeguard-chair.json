@@ -1,0 +1,11 @@
+{
+  "name": "lifeguard-chair",
+  "category": "sport",
+  "tags": ["lifeguard", "chair", "tower", "beach", "pool", "rescue"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"6\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M7 9L5 21M17 9L19 21\"/><line class=\"p3\" x1=\"8\" y1=\"16\" x2=\"16\" y2=\"16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

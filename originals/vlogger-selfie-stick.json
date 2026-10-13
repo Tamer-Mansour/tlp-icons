@@ -1,0 +1,11 @@
+{
+  "name": "vlogger-selfie-stick",
+  "category": "people",
+  "tags": ["vlogger", "selfie", "stick", "phone", "video", "camera"],
+  "svg": "<path class=\"p1\" d=\"M5 19.5L14 10.5\"/><rect class=\"d p2\" x=\"14\" y=\"3\" width=\"6\" height=\"9\" rx=\"1.5\" transform=\"rotate(45 17 7.5)\"/><circle class=\"f p3\" cx=\"17\" cy=\"7.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "delta-arrow",
+  "category": "arrows",
+  "tags": ["delta", "change", "difference", "triangle", "increase", "arrow"],
+  "svg": "<path class=\"p1\" d=\"M2.5 20 9 8l6.5 12z\"/><path class=\"p2\" d=\"M19 20V5M15.5 8.5 19 5l3.5 3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 600, "delay": 900 }
+  ]
+}

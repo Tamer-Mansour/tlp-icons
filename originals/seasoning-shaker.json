@@ -1,0 +1,11 @@
+{
+  "name": "seasoning-shaker",
+  "category": "food",
+  "tags": ["shaker", "seasoning", "salt", "pepper", "spice"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"11\" width=\"10\" height=\"10\" rx=\"2\"/><rect class=\"p2\" x=\"8\" y=\"4\" width=\"8\" height=\"4\" rx=\"1\"/><circle class=\"f p3\" cx=\"10\" cy=\"6\" r=\"0.8\"/><circle class=\"f p3\" cx=\"14\" cy=\"6\" r=\"0.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "function-mapping",
+  "category": "math",
+  "tags": ["function", "mapping", "sets", "arrows", "dots", "math"],
+  "svg": "<circle class=\"f p1\" cx=\"4\" cy=\"7\" r=\"1.2\"/><circle class=\"f p1\" cx=\"4\" cy=\"17\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"7\" r=\"1.2\"/><circle class=\"f p2\" cx=\"20\" cy=\"17\" r=\"1.2\"/><path class=\"p3\" d=\"M6 7H18M6 17H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

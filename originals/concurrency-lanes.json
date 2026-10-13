@@ -1,0 +1,10 @@
+{
+  "name": "concurrency-lanes",
+  "category": "development",
+  "tags": ["concurrency", "lanes", "parallel", "threads", "tasks"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M3 12h18M3 18h18\"/><circle class=\"f p2\" cx=\"7\" cy=\"6\" r=\"1.2\"/><circle class=\"f p2\" cx=\"15\" cy=\"12\" r=\"1.2\"/><circle class=\"f p2\" cx=\"10\" cy=\"18\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 500, "delay": 900 }
+  ]
+}

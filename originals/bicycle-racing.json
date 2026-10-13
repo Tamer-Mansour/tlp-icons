@@ -1,0 +1,11 @@
+{
+  "name": "bicycle-racing",
+  "category": "sport",
+  "tags": ["bicycle", "racing", "cycling", "speed", "sport"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"16\" r=\"4\"/><circle class=\"p1\" cx=\"17\" cy=\"16\" r=\"4\"/><path class=\"p2\" d=\"M7 16l3.5-6h4.5L17 16M10.5 10L13 16\"/><path class=\"p3\" d=\"M2 7.5h5M3 10.5h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "dash", "dur": 600, "delay": 800 }
+  ]
+}

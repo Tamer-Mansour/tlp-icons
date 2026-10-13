@@ -1,0 +1,10 @@
+{
+  "name": "folder-hammer",
+  "category": "files",
+  "tags": ["folder", "hammer", "build", "tools", "construct", "repair"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5h6.5l2 2.5H21v13H3z\"/><path class=\"p2\" d=\"M14 13.5l2-2 3.5 3.5-2 2z\"/><path class=\"p2\" d=\"M13 18.5l4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "strike", "dur": 700, "delay": 500, "origin": "13px 18.5px" }
+  ]
+}

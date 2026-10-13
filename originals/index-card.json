@@ -1,0 +1,10 @@
+{
+  "name": "index-card",
+  "category": "files",
+  "tags": ["index", "card", "note", "flashcard", "paper", "rule"],
+  "svg": "<rect class=\"d p1\" x=\"3.5\" y=\"4.5\" width=\"17\" height=\"15\" rx=\"1.5\"/><path class=\"p2\" d=\"M7 9h10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 }
+  ]
+}

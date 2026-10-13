@@ -1,0 +1,11 @@
+{
+  "name": "manager-tree",
+  "category": "people",
+  "tags": ["manager", "tree", "team", "branch", "lead"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"5\" r=\"2.5\"/><path class=\"p2\" d=\"M12 7.5v3M6 10.5h12M6 10.5v3M12 10.5v3M18 10.5v3\"/><circle class=\"p3\" cx=\"6\" cy=\"17\" r=\"1.8\"/><circle class=\"p3\" cx=\"12\" cy=\"17\" r=\"1.8\"/><circle class=\"p3\" cx=\"18\" cy=\"17\" r=\"1.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1100 }
+  ]
+}

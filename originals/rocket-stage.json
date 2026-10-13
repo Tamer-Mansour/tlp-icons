@@ -1,0 +1,11 @@
+{
+  "name": "rocket-stage",
+  "category": "science",
+  "tags": ["rocket", "stage", "launch", "space", "flame"],
+  "svg": "<path class=\"d p1\" d=\"M9 4Q12 2 15 4V14H9Z\"/><line class=\"p2\" x1=\"9\" y1=\"9.5\" x2=\"15\" y2=\"9.5\"/><path class=\"p3\" d=\"M10 14L12 22L14 14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1200 }
+  ]
+}

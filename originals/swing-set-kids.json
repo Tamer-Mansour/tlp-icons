@@ -1,0 +1,11 @@
+{
+  "name": "swing-set-kids",
+  "category": "people",
+  "tags": ["swing", "playground", "kids", "chains", "seat"],
+  "svg": "<path class=\"p1\" d=\"M4 3.5h16\"/><path class=\"p2\" d=\"M8 3.5l-1.5 8.5M16 3.5l1.5 8.5\"/><path class=\"p3\" d=\"M6 12.5h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "swing", "dur": 1000, "delay": 1000, "origin": "12px 3.5px" }
+  ]
+}

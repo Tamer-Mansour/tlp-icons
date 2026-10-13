@@ -1,0 +1,11 @@
+{
+  "name": "status-led",
+  "category": "notifications",
+  "tags": ["led", "status", "indicator", "light", "online", "power"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"4\" width=\"16\" height=\"12\" rx=\"3\"/><circle class=\"f p2\" cx=\"12\" cy=\"10\" r=\"1.2\"/><path class=\"p3\" d=\"M8 20h8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p2", "anim": "glow", "dur": 800, "delay": 700 }
+  ]
+}

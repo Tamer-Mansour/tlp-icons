@@ -1,0 +1,10 @@
+{
+  "name": "slippery-road",
+  "category": "weather",
+  "tags": ["slippery", "road", "skid", "ice", "winter", "driving"],
+  "svg": "<path class=\"p1\" d=\"M5 21L9.5 3M19 21L14.5 3M12 6v2M12 11v2M12 16v2\"/><path class=\"p2\" d=\"M8 17q1 -1 2 0t2 0 2 0 2 0\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "wiggle", "dur": 900, "delay": 800 }
+  ]
+}

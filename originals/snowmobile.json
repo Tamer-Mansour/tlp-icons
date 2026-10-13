@@ -1,0 +1,11 @@
+{
+  "name": "snowmobile",
+  "category": "vehicles",
+  "tags": ["snowmobile", "snow", "sled", "winter", "track", "vehicle"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"12\" height=\"4\" rx=\"1\"/><rect class=\"p2\" x=\"2\" y=\"16\" width=\"18\" height=\"4\" rx=\"2\"/><path class=\"p3\" d=\"M16 11 L18 5 L21 5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 900 }
+  ]
+}

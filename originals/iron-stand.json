@@ -1,0 +1,11 @@
+{
+  "name": "iron-stand",
+  "category": "home",
+  "tags": ["iron", "stand", "laundry", "rest", "press", "clothes"],
+  "svg": "<path class=\"d p1\" d=\"M3 15.5V13c0-1.5 1-2.5 2.5-2.5H14c3 0 5.5 1 6 3.5l.5 1.5H3z\"/><path class=\"p2\" d=\"M4 19h16\"/><path class=\"p3\" d=\"M7 19l-2 3M17 19l2 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

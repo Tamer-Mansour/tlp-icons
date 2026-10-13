@@ -1,0 +1,10 @@
+{
+  "name": "recycle-check",
+  "category": "notifications",
+  "tags": ["recycle", "refresh", "check", "reuse", "done", "loop"],
+  "svg": "<path class=\"p1\" d=\"M20 12a8 8 0 0 1-14 5.3M18 4v4h-4M4 12a8 8 0 0 1 14-5.3M6 20v-4h4\"/><path class=\"p2\" d=\"M9 12l2 2 4-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 900 }
+  ]
+}

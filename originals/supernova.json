@@ -1,0 +1,10 @@
+{
+  "name": "supernova",
+  "category": "science",
+  "tags": ["supernova", "explosion", "star", "burst", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"3.5\"/><path class=\"p2\" d=\"M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spinFast", "dur": 900, "delay": 800, "origin": "center" }
+  ]
+}

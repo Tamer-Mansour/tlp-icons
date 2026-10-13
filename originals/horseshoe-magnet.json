@@ -1,0 +1,10 @@
+{
+  "name": "horseshoe-magnet",
+  "category": "science",
+  "tags": ["horseshoe", "magnet", "poles", "attract", "magnetism"],
+  "svg": "<path class=\"p1\" d=\"M5 4V13A7 7 0 0 0 19 13V4\"/><path class=\"p2\" d=\"M2 4H7M17 4H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

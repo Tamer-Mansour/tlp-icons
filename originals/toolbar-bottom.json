@@ -1,0 +1,11 @@
+{
+  "name": "toolbar-bottom",
+  "category": "layout",
+  "tags": ["toolbar", "bottom", "bar", "footer", "dock", "controls"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"3\"/><line class=\"p2\" x1=\"2\" y1=\"15\" x2=\"22\" y2=\"15\"/><circle class=\"f p3\" cx=\"7\" cy=\"18.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"12\" cy=\"18.5\" r=\"1.2\"/><circle class=\"f p3\" cx=\"17\" cy=\"18.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sensor-node",
+  "category": "connectivity",
+  "tags": ["sensor", "node", "iot", "signal", "measure", "wireless"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"14\" r=\"4\"/><path class=\"p2\" d=\"M12 10V7\"/><path class=\"p3\" d=\"M8.5 4.5A4.5 4.5 0 0 1 15.5 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

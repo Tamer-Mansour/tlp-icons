@@ -1,0 +1,11 @@
+{
+  "name": "potentiometer-knob",
+  "category": "science",
+  "tags": ["potentiometer", "knob", "dial", "variable", "resistor"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"13\" r=\"4\"/><path class=\"p2\" d=\"M5 16A8 8 0 1 1 19 16\"/><path class=\"p3\" d=\"M12 13V10\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "sweep", "dur": 1200, "delay": 1100, "origin": "12px 13px" }
+  ]
+}

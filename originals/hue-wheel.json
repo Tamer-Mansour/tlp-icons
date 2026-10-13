@@ -1,0 +1,11 @@
+{
+  "name": "hue-wheel",
+  "category": "design",
+  "tags": ["hue", "wheel", "color", "picker", "spectrum", "circle"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"p2\" d=\"M12 12V3M12 12l7.8 4.5M12 12l-7.8 4.5\"/><circle class=\"f p3\" cx=\"17.5\" cy=\"8\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 700, "delay": 1000 }
+  ]
+}

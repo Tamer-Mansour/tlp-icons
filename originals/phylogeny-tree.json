@@ -1,0 +1,11 @@
+{
+  "name": "phylogeny-tree",
+  "category": "science",
+  "tags": ["phylogeny", "tree", "evolution", "branch", "species"],
+  "svg": "<path class=\"p1\" d=\"M12 21V13\"/><path class=\"p2\" d=\"M12 13L6 7M12 13L18 7\"/><path class=\"p3\" d=\"M6 7L3 4M6 7L9 4M18 7L15 4M18 7L21 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 700, "origin": "bottom" }
+  ]
+}

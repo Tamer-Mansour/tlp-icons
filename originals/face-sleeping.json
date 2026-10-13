@@ -1,0 +1,11 @@
+{
+  "name": "face-sleeping",
+  "category": "emoji",
+  "tags": ["face", "sleeping", "sleep", "zzz", "tired"],
+  "svg": "<circle class=\"d p2\" cx=\"12\" cy=\"13\" r=\"8\"/><path class=\"p1\" d=\"M7 12.5a2 2 0 0 0 4 0M13 12.5a2 2 0 0 0 4 0\"/><path class=\"p3\" d=\"M16 2.5h3.5L16 6h3.5\"/>",
+  "motion": [
+    { "part": "p2", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "float", "dur": 1000, "delay": 1300 }
+  ]
+}

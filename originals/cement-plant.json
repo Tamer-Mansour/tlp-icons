@@ -1,0 +1,11 @@
+{
+  "name": "cement-plant",
+  "category": "buildings",
+  "tags": ["cement", "plant", "silo", "conveyor", "chute", "industry"],
+  "svg": "<rect class=\"d p1\" x=\"5\" y=\"7\" width=\"8\" height=\"13\"/><path class=\"p2\" d=\"M5 7 Q9 2 13 7\"/><path class=\"p3\" d=\"M13 13 L17 13 L21 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pour", "dur": 900, "delay": 1100, "origin": "left" }
+  ]
+}

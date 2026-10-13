@@ -1,0 +1,11 @@
+{
+  "name": "inflatable-boat",
+  "category": "vehicles",
+  "tags": ["inflatable", "boat", "raft", "outboard", "motor", "rubber"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"8\" width=\"20\" height=\"7\" rx=\"3.5\"/><path class=\"p2\" d=\"M8 12h8\"/><path class=\"p3\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "bob", "dur": 900, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "signal-probe",
+  "category": "devices",
+  "tags": ["signal", "probe", "wave", "oscilloscope", "test", "lead"],
+  "svg": "<path class=\"p1\" d=\"M4 21L9 15\"/><path class=\"p2\" d=\"M9 15C11 9 13 21 15 15C17 9 18 9 20 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 900, "delay": 500 }
+  ]
+}

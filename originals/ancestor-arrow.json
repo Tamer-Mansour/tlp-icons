@@ -1,0 +1,10 @@
+{
+  "name": "ancestor-arrow",
+  "category": "arrows",
+  "tags": ["ancestor", "chain", "root", "lineage", "nodes", "arrow"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"18\" r=\"2\"/><circle class=\"p1\" cx=\"12\" cy=\"18\" r=\"2\"/><circle class=\"p1\" cx=\"18\" cy=\"18\" r=\"2\"/><path class=\"p2\" d=\"M18 14V6.5M15.5 9l2.5-2.5 2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "lift", "dur": 700, "delay": 700 }
+  ]
+}

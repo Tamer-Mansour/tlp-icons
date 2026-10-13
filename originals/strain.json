@@ -1,0 +1,11 @@
+{
+  "name": "strain",
+  "category": "food",
+  "tags": ["strain", "pot", "lid", "drain", "colander"],
+  "svg": "<path class=\"p1\" d=\"M4 9 H20 V16 Q20 19 17 19 H7 Q4 19 4 16 Z\"/><rect class=\"p2\" x=\"4\" y=\"5\" width=\"16\" height=\"2\" rx=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"21.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 800, "origin": "12px 6px" },
+    { "part": "p3", "anim": "fall", "dur": 700, "delay": 1300 }
+  ]
+}

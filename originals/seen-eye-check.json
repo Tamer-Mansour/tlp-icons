@@ -1,0 +1,11 @@
+{
+  "name": "seen-eye-check",
+  "category": "communication",
+  "tags": ["seen", "eye", "check", "read", "view"],
+  "svg": "<path class=\"d p1\" d=\"M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6z\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M16.5 3.5l1.5 1.5 3-3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pet-toy",
+  "category": "nature",
+  "tags": ["pet", "toy", "ball", "rope", "bone", "dog"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"14\" r=\"5\"/><path class=\"p2\" d=\"M13 11q4-3 7-7\"/><rect class=\"p3\" x=\"16\" y=\"2\" width=\"6\" height=\"3\" rx=\"1.5\" transform=\"rotate(45 19 3.5)\"/>",
+  "motion": [
+    { "part": "p1", "anim": "bounceIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1200 }
+  ]
+}

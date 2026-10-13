@@ -1,0 +1,12 @@
+{
+  "name": "pumping-station",
+  "category": "buildings",
+  "tags": ["pumping", "station", "pump", "pipe", "dial", "water"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"8\" width=\"12\" height=\"12\" rx=\"1\"/><path class=\"p2\" d=\"M15 14h6\"/><circle class=\"p3\" cx=\"9\" cy=\"14\" r=\"2\"/><path class=\"p4\" d=\"M9 14v-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "sweep", "dur": 900, "delay": 1000, "origin": "9px 14px" }
+  ]
+}

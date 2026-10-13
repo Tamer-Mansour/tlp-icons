@@ -1,0 +1,10 @@
+{
+  "name": "dock-left",
+  "category": "interface",
+  "tags": ["dock", "left", "sidebar", "toolbar", "layout"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><rect class=\"d p2\" x=\"7\" y=\"7\" width=\"4\" height=\"10\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "prime-mark",
+  "category": "text",
+  "tags": ["prime", "tick", "minutes", "apostrophe", "notation", "math"],
+  "svg": "<path class=\"p1\" d=\"M10 4l-2 6M16 4l-2 6\"/><path class=\"p2\" d=\"M6 19h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 600, "delay": 500 }
+  ]
+}

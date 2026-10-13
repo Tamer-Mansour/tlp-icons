@@ -1,0 +1,10 @@
+{
+  "name": "alarm-siren",
+  "category": "security",
+  "tags": ["alarm", "siren", "warning", "emergency", "alert"],
+  "svg": "<path class=\"d p1\" d=\"M6 17a6 6 0 0 1 12 0z\"/><rect class=\"p1\" x=\"4\" y=\"17\" width=\"16\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M4.5 7.5a5 5 0 0 0 0 6M19.5 7.5a5 5 0 0 1 0 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "pulseRing", "dur": 800, "delay": 600 }
+  ]
+}

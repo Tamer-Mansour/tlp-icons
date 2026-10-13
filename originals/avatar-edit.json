@@ -1,0 +1,10 @@
+{
+  "name": "avatar-edit",
+  "category": "people",
+  "tags": ["avatar", "edit", "profile", "pencil", "change", "picture", "account"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"12\" r=\"7.5\"/><circle class=\"d p1\" cx=\"10\" cy=\"9.5\" r=\"2.5\"/><path class=\"p1\" d=\"M5.5 17.5a4.5 4.5 0 0 1 9 0\"/><path class=\"p2\" d=\"M17 3.5l3 3-7 7-3.5.5.5-3.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "tap", "dur": 600, "delay": 900 }
+  ]
+}

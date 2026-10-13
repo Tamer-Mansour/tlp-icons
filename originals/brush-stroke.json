@@ -1,0 +1,10 @@
+{
+  "name": "brush-stroke",
+  "category": "interface",
+  "tags": ["brush", "stroke", "paint", "wave", "draw", "trail"],
+  "svg": "<path class=\"p1\" d=\"M3 16C5 13 7 13 9 16S13 19 14.5 16\"/><polygon class=\"d p2\" points=\"16,17 20,13 22,15 18,19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

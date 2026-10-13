@@ -1,0 +1,10 @@
+{
+  "name": "globular-cluster",
+  "category": "science",
+  "tags": ["globular", "cluster", "stars", "dense", "space", "astronomy"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"f p2\" cx=\"9\" cy=\"9.5\" r=\"1\"/><circle class=\"f p2\" cx=\"14.5\" cy=\"9\" r=\"1\"/><circle class=\"f p2\" cx=\"12\" cy=\"13\" r=\"1\"/><circle class=\"f p2\" cx=\"8.5\" cy=\"14.5\" r=\"1\"/><circle class=\"f p2\" cx=\"15.5\" cy=\"15\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mirror-sync",
+  "category": "connectivity",
+  "tags": ["mirror", "sync", "duplicate", "copy", "replicate", "backup"],
+  "svg": "<rect class=\"p1\" x=\"2.5\" y=\"7\" width=\"5.5\" height=\"10\" rx=\"1.2\"/><rect class=\"p2\" x=\"16\" y=\"7\" width=\"5.5\" height=\"10\" rx=\"1.2\"/><path class=\"p3\" d=\"M10 12 H14 M11.5 10.5 L10 12 L11.5 13.5 M12.5 10.5 L14 12 L12.5 13.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 150 },
+    { "part": "p3", "anim": "shuttle", "dur": 800, "delay": 700 }
+  ]
+}

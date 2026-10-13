@@ -1,0 +1,10 @@
+{
+  "name": "letter-wax-seal",
+  "category": "communication",
+  "tags": ["letter", "wax seal", "envelope", "mail", "formal", "stamp"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"14\" rx=\"1\"/><path class=\"p1\" d=\"M4 4l8 6 8-6\"/><circle class=\"d p2\" cx=\"12\" cy=\"13\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "stampIn", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "margin-text",
+  "category": "text",
+  "tags": ["margin", "sidebar", "notes", "column", "page"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p3\" d=\"M14 3v18\"/><path class=\"p2\" d=\"M19 8h2M19 11.5h2M19 15h2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

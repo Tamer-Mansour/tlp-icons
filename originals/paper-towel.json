@@ -1,0 +1,11 @@
+{
+  "name": "paper-towel",
+  "category": "home",
+  "tags": ["paper", "towel", "kitchen", "roll", "tissue", "clean"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"6\"/><circle class=\"p2\" cx=\"9\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M15 9h6v9l-2-1.5-2 1.5-2-1.5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "fall", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "regression-loop",
+  "category": "development",
+  "tags": ["regression", "loop", "rerun", "tests", "retest", "cycle"],
+  "svg": "<path class=\"p1\" d=\"M19.3 8.8 A8 8 0 1 1 12 4 M10.5 2.5 L12 4 L10.5 5.5\"/><path class=\"p2\" d=\"M9 12.5 L11 14.5 L15 10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1000, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 1100 }
+  ]
+}

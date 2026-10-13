@@ -1,0 +1,11 @@
+{
+  "name": "bicep-curl",
+  "category": "sport",
+  "tags": ["bicep", "curl", "dumbbell", "arm", "weights"],
+  "svg": "<path class=\"p1\" d=\"M7 21V15L12 10.5\"/><path class=\"p2\" d=\"M8 8H16\"/><rect class=\"p3\" x=\"5\" y=\"6\" width=\"3\" height=\"4\" rx=\"1\"/><rect class=\"p3\" x=\"16\" y=\"6\" width=\"3\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1200 }
+  ]
+}

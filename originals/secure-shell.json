@@ -1,0 +1,11 @@
+{
+  "name": "secure-shell",
+  "category": "connectivity",
+  "tags": ["ssh", "terminal", "secure", "shell", "lock", "prompt"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M6 9l3 3-3 3\"/><path class=\"p2\" d=\"M12 15h3\"/><path class=\"p3\" d=\"M16 14v-1.5a1.5 1.5 0 0 1 3 0V14\"/><rect class=\"p3\" x=\"15\" y=\"14\" width=\"5\" height=\"4\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "shake", "dur": 700, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "trilobite-fossil",
+  "category": "science",
+  "tags": ["trilobite", "fossil", "arthropod", "ancient", "paleontology"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"12\" rx=\"6\" ry=\"9\"/><path class=\"p2\" d=\"M12 3.5 V20.5\"/><path class=\"p3\" d=\"M8 9 H16 M8 13 H16 M8 17 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "skate-deck",
+  "category": "sport",
+  "tags": ["skate", "deck", "skateboard", "wheels", "board"],
+  "svg": "<path class=\"d p1\" d=\"M3 8.5Q12 11 21 8.5Q22 10 21 11.5Q12 13.5 3 11.5Q2 10 3 8.5Z\"/><circle class=\"p2\" cx=\"7\" cy=\"17\" r=\"2\"/><circle class=\"p2\" cx=\"17\" cy=\"17\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "roll", "dur": 1000, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "woodpile",
+  "category": "nature",
+  "tags": ["woodpile", "logs", "firewood", "stack", "timber", "wood"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"5\" width=\"18\" height=\"14\"/><path class=\"p2\" d=\"M3 12H21M9 5V12M15 12V19\"/><circle class=\"p3\" cx=\"6\" cy=\"8.5\" r=\"1.5\"/><circle class=\"p3\" cx=\"18\" cy=\"15.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "pop", "dur": 300, "delay": 1000 }
+  ]
+}

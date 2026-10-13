@@ -1,0 +1,11 @@
+{
+  "name": "cafe",
+  "category": "buildings",
+  "tags": ["cafe", "coffee", "cup", "saucer", "steam", "drink"],
+  "svg": "<path class=\"d p1\" d=\"M4.5 10h11.5v5a5 5 0 0 1-5 5h-1.5a5 5 0 0 1-5-5z\"/><path class=\"p2\" d=\"M16 12h1.5a2 2 0 0 1 0 4H16\"/><path class=\"p3\" d=\"M3 21.5h14M8 4.5c-1 1-1 2 0 3M12 4.5c-1 1-1 2 0 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 1000 }
+  ]
+}

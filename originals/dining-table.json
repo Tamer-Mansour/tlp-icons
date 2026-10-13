@@ -1,0 +1,11 @@
+{
+  "name": "dining-table",
+  "category": "home",
+  "tags": ["dining", "table", "family", "meal", "chairs", "furniture"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"10\" width=\"20\" height=\"3\" rx=\"1\"/><path class=\"p2\" d=\"M4 13v9M20 13v9\"/><path class=\"p3\" d=\"M8 5v5M16 5v5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

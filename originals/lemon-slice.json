@@ -1,0 +1,11 @@
+{
+  "name": "lemon-slice",
+  "category": "food",
+  "tags": ["lemon", "slice", "citrus", "fruit", "segments"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"6.5\"/><path class=\"p3\" d=\"M12 5.5 V18.5 M6.4 8.75 L17.6 15.25 M6.4 15.25 L17.6 8.75\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "spin", "dur": 1000, "delay": 1000 }
+  ]
+}

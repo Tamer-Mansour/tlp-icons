@@ -1,0 +1,11 @@
+{
+  "name": "namaste-hands",
+  "category": "people",
+  "tags": ["namaste", "palms together", "greeting", "yoga", "gratitude"],
+  "svg": "<path class=\"d p1\" d=\"M12 4C9 7 8 10 8 13Q8 18 12 20Q16 18 16 13C16 10 15 7 12 4Z\"/><path class=\"p2\" d=\"M8 21Q12 22.5 16 21\"/><path class=\"p3\" d=\"M12 7v10\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "breathe", "dur": 1000, "delay": 900 }
+  ]
+}

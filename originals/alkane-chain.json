@@ -1,0 +1,10 @@
+{
+  "name": "alkane-chain",
+  "category": "science",
+  "tags": ["alkane", "chain", "carbon", "hydrogen", "chemistry"],
+  "svg": "<polyline class=\"p1\" points=\"3,16 7,8 11,16 15,8 19,16\"/><path class=\"p2\" d=\"M7 8V4M15 8V4M11 16V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

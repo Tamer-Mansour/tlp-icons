@@ -1,0 +1,10 @@
+{
+  "name": "friend-request",
+  "category": "people",
+  "tags": ["friend", "request", "add", "connect", "invite", "contact"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"7.5\" r=\"3\"/><path class=\"p1\" d=\"M2.5 20.5v-1a5 4.5 0 0 1 10 0v1\"/><path class=\"p2\" d=\"M18 3.5v7M14.5 7h7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 800 }
+  ]
+}

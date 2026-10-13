@@ -1,0 +1,11 @@
+{
+  "name": "route-pin",
+  "category": "arrows",
+  "tags": ["pin", "map", "location", "route", "destination"],
+  "svg": "<path class=\"p1\" d=\"M3 19 C6 13 9 19 13.5 15.5\"/><path class=\"p2\" d=\"M17 12 A3.5 3.5 0 0 1 20.5 15.5 C20.5 18.5 17 21.5 17 21.5 C17 21.5 13.5 18.5 13.5 15.5 A3.5 3.5 0 0 1 17 12 Z\"/><circle class=\"f p3\" cx=\"17\" cy=\"15.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "blip", "dur": 500, "delay": 1200 }
+  ]
+}

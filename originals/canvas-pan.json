@@ -1,0 +1,10 @@
+{
+  "name": "canvas-pan",
+  "category": "layout",
+  "tags": ["canvas", "pan", "move", "arrows", "navigate"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M10 9l2-2 2 2M10 15l2 2 2-2M9 10l-2 2 2 2M15 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 900, "delay": 700 }
+  ]
+}

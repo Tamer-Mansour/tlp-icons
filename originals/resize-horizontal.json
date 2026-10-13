@@ -1,0 +1,11 @@
+{
+  "name": "resize-horizontal",
+  "category": "interface",
+  "tags": ["resize", "horizontal", "width", "stretch", "arrows", "adjust"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"8\" width=\"10\" height=\"8\" rx=\"1\"/><path class=\"p2\" d=\"M2.5 12h2.5M4.5 10l-2 2 2 2\"/><path class=\"p3\" d=\"M19 12h2.5M19.5 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1100 }
+  ]
+}

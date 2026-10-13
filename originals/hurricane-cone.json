@@ -1,0 +1,10 @@
+{
+  "name": "hurricane-cone",
+  "category": "weather",
+  "tags": ["hurricane", "cone", "forecast", "storm", "path", "weather"],
+  "svg": "<polygon class=\"d p1\" points=\"3,5 21,5 12,20\"/><path class=\"p2\" d=\"M12 9.5a2.5 2.5 0 1 1-2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 1000, "delay": 700 }
+  ]
+}

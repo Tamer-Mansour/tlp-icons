@@ -1,0 +1,12 @@
+{
+  "name": "solar-system",
+  "category": "science",
+  "tags": ["solar", "system", "planets", "orbit", "space", "astronomy"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"12\" r=\"2\"/><ellipse class=\"p2\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\"/><ellipse class=\"p3\" cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\" transform=\"rotate(60 12 12)\"/><circle class=\"f p4\" cx=\"21\" cy=\"12\" r=\"1.2\"/><circle class=\"f p4\" cx=\"7.5\" cy=\"4.2\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 800, "delay": 800 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 1400 }
+  ]
+}

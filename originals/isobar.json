@@ -1,0 +1,10 @@
+{
+  "name": "isobar",
+  "category": "weather",
+  "tags": ["isobar", "pressure", "contour", "weather map", "rings", "weather"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"8\" ry=\"5\"/><ellipse class=\"d p2\" cx=\"12\" cy=\"12\" rx=\"3.5\" ry=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 }
+  ]
+}

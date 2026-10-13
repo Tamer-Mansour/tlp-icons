@@ -1,0 +1,10 @@
+{
+  "name": "rhombus-tiles",
+  "category": "shapes",
+  "tags": ["rhombus", "tiles", "diamond", "pattern", "mosaic"],
+  "svg": "<polygon class=\"d p1\" points=\"8,4 12,8 8,12 4,8\"/><polygon class=\"d p2\" points=\"16,12 20,16 16,20 12,16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 }
+  ]
+}

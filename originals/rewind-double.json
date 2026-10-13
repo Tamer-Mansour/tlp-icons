@@ -1,0 +1,10 @@
+{
+  "name": "rewind-double",
+  "category": "arrows",
+  "tags": ["rewind", "double", "back", "previous", "media", "chevron"],
+  "svg": "<path class=\"p1\" d=\"M11 7 L5 12 L11 17\"/><path class=\"p2\" d=\"M19 7 L13 12 L19 17\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 400 }
+  ]
+}

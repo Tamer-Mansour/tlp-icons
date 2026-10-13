@@ -1,0 +1,11 @@
+{
+  "name": "departure-arrow",
+  "category": "arrows",
+  "tags": ["departure", "leave", "clock", "time", "arrows"],
+  "svg": "<circle class=\"p1\" cx=\"10\" cy=\"10\" r=\"7\"/><path class=\"p2\" d=\"M10 6v4l2.5 1.5\"/><path class=\"p3\" d=\"M17 17l4 4\"/><polyline class=\"p3\" points=\"15 21 21 21 21 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 900, "delay": 500, "origin": "10px 10px" },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 1000 }
+  ]
+}

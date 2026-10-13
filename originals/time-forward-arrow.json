@@ -1,0 +1,11 @@
+{
+  "name": "time-forward-arrow",
+  "category": "arrows",
+  "tags": ["time", "forward", "clock", "later", "skip", "future"],
+  "svg": "<circle class=\"d p1\" cx=\"11\" cy=\"12\" r=\"8.5\"/><polyline class=\"p2\" points=\"11 7 11 12 8 13.5\"/><polyline class=\"p3\" points=\"20 12 17 9.5 17 14.5\"/><line class=\"p3\" x1=\"17\" y1=\"12\" x2=\"21.5\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sweep", "dur": 800, "delay": 600, "origin": "11px 12px" },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 1500 }
+  ]
+}

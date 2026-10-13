@@ -1,0 +1,10 @@
+{
+  "name": "parallel-lines",
+  "category": "emoji",
+  "tags": ["parallel", "lines", "geometry", "math", "rails", "same direction"],
+  "svg": "<path class=\"p1\" d=\"M9 3L5 21\"/><path class=\"p2\" d=\"M19 3L15 21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 500 }
+  ]
+}

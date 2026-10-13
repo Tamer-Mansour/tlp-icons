@@ -1,0 +1,12 @@
+{
+  "name": "sewing-basket",
+  "category": "home",
+  "tags": ["sewing", "basket", "spool", "needle", "thread", "craft"],
+  "svg": "<path class=\"d p1\" d=\"M4 12h16l-1.5 8.5h-13z\"/><path class=\"p2\" d=\"M4.5 15.5h15\"/><rect class=\"p3\" x=\"9\" y=\"5\" width=\"6\" height=\"5\" rx=\"1\"/><path class=\"p4\" d=\"M16 9.5l3-4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 800 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1300 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "export-my-data",
+  "category": "people",
+  "tags": ["export", "data", "download", "person", "privacy"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"8.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h3a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"p2\" d=\"M18.25 3.5v7.5\"/><polyline class=\"p2\" points=\"16.75 9.5 18.25 11 19.75 9.5\"/><path class=\"p3\" d=\"M15 14v6.5h6.5V14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "sink", "dur": 700, "delay": 1100 }
+  ]
+}

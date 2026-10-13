@@ -1,0 +1,11 @@
+{
+  "name": "solar-output",
+  "category": "charts",
+  "tags": ["solar", "sun", "output", "energy", "line", "chart"],
+  "svg": "<circle class=\"d p1\" cx=\"8\" cy=\"8\" r=\"3\"/><path class=\"p2\" d=\"M8 2v1.5M2 8h1.5M3.8 3.8l1 1M12.2 3.8l-1 1\"/><path class=\"p3\" d=\"M4 20l5-5 4 2 7-6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "spin", "dur": 1200, "delay": 1000, "origin": "8px 8px" }
+  ]
+}

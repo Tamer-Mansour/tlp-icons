@@ -1,0 +1,10 @@
+{
+  "name": "wireframe-cone",
+  "category": "shapes",
+  "tags": ["cone", "wireframe", "apex", "3d", "triangle"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"17\" rx=\"8\" ry=\"3\"/><path class=\"p2\" d=\"M12 4 L4 17 M12 4 L20 17 M12 4 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 500 }
+  ]
+}

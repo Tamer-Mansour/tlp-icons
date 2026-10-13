@@ -1,0 +1,10 @@
+{
+  "name": "crop-tool",
+  "category": "interface",
+  "tags": ["crop", "trim", "frame", "cut", "resize", "image"],
+  "svg": "<path class=\"p1\" d=\"M6 2V16H22\"/><path class=\"p2\" d=\"M2 6H16V22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 }
+  ]
+}

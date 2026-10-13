@@ -1,0 +1,11 @@
+{
+  "name": "tab-marks",
+  "category": "text",
+  "tags": ["tab", "arrow", "indent", "marker", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 12H9\"/><path class=\"p2\" d=\"M11 12H19\"/><path class=\"p3\" d=\"M16 9L19 12L16 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "nudge", "dur": 500, "delay": 900 }
+  ]
+}

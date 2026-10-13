@@ -1,0 +1,10 @@
+{
+  "name": "tennis-net",
+  "category": "sport",
+  "tags": ["tennis", "net", "court", "sport", "strap", "racket"],
+  "svg": "<path class=\"p1\" d=\"M2 7v12M22 7v12M2 9h20\"/><path class=\"p2\" d=\"M5 11v6M9.5 11v6M14 11v6M18.5 11v6M2 14h20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 800 }
+  ]
+}

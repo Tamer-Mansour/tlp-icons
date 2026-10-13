@@ -1,0 +1,10 @@
+{
+  "name": "go-to-line",
+  "category": "interface",
+  "tags": ["goto", "line", "jump", "text", "editor", "navigate"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M10 12h11M3 18h18\"/><path class=\"p2\" d=\"M3 12h4.5M5.5 9.5l2 2.5-2 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 800 }
+  ]
+}

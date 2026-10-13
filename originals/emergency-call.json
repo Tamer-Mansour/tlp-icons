@@ -1,0 +1,10 @@
+{
+  "name": "emergency-call",
+  "category": "notifications",
+  "tags": ["emergency", "call", "phone", "urgent", "handset"],
+  "svg": "<path class=\"p1\" d=\"M4 5.5c0 8 6.5 14.5 14.5 14.5l1.5-3.5-4.5-2.5-2 2c-2.5-1.2-4.6-3.3-5.8-5.8l2-2-2.5-4.5z\"/><path class=\"p2\" d=\"M19.5 3v4\"/><circle class=\"f p2\" cx=\"19.5\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 900 }
+  ]
+}

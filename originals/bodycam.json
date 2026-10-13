@@ -1,0 +1,11 @@
+{
+  "name": "bodycam",
+  "category": "devices",
+  "tags": ["bodycam", "camera", "recording", "lens", "wearable"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/><path class=\"p3\" d=\"M9 6 V4 H15 V6\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "blink", "dur": 700, "delay": 1000 }
+  ]
+}

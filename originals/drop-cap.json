@@ -1,0 +1,10 @@
+{
+  "name": "drop-cap",
+  "category": "text",
+  "tags": ["drop", "cap", "paragraph", "initial", "capital", "text"],
+  "svg": "<path class=\"p1\" d=\"M3 7h8M7 7v6\"/><path class=\"p2\" d=\"M13 7h8M13 11h8M3 15h18M3 19h12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "dropIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

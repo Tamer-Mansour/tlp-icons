@@ -1,0 +1,10 @@
+{
+  "name": "plate-boundary",
+  "category": "science",
+  "tags": ["plate", "boundary", "tectonic", "slab", "earthquake", "geology"],
+  "svg": "<path class=\"d p1\" d=\"M3 6h8l-1.5 3 1.5 3-1.5 3 1.5 3H3z\"/><path class=\"d p2\" d=\"M13 6h8v12h-8l1.5-3-1.5-3 1.5-3-1.5-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 700, "delay": 900 }
+  ]
+}

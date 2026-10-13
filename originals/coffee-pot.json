@@ -1,0 +1,11 @@
+{
+  "name": "coffee-pot",
+  "category": "food",
+  "tags": ["coffee", "pot", "carafe", "brew", "kitchen"],
+  "svg": "<path class=\"d p1\" d=\"M7 10 H17 L19 21 H5 Z\"/><path class=\"p2\" d=\"M17 12 H20 V18 H17.5\"/><rect class=\"p3\" x=\"6\" y=\"5\" width=\"12\" height=\"3\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p1", "anim": "pour", "dur": 900, "delay": 900 }
+  ]
+}

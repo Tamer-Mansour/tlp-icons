@@ -1,0 +1,10 @@
+{
+  "name": "process-running",
+  "category": "notifications",
+  "tags": ["process", "running", "play", "loop", "progress", "busy"],
+  "svg": "<path class=\"p1\" d=\"M12 4a8 8 0 1 0 8 8\"/><path class=\"p1\" d=\"M8 4h4v4\"/><path class=\"d p2\" d=\"M10 9l5 3-5 3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

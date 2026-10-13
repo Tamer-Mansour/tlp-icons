@@ -1,0 +1,11 @@
+{
+  "name": "couple-holding-hands",
+  "category": "people",
+  "tags": ["couple", "holding", "hands", "together", "partners", "love"],
+  "svg": "<circle class=\"p1\" cx=\"7\" cy=\"6\" r=\"2.5\"/><circle class=\"p1\" cx=\"17\" cy=\"6\" r=\"2.5\"/><path class=\"p2\" d=\"M2.5 21 V18 Q2.5 12 7 12 Q9.5 12 11 13.5 M21.5 21 V18 Q21.5 12 17 12 Q14.5 12 13 13.5\"/><path class=\"p3\" d=\"M10 15 Q12 17.5 14 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

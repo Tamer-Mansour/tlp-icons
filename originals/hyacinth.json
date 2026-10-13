@@ -1,0 +1,40 @@
+{
+    "name":  "hyacinth",
+    "category":  "nature",
+    "tags":  [
+                 "hyacinth",
+                 "flower",
+                 "spike",
+                 "bell petals",
+                 "fragrant",
+                 "bulb"
+             ],
+    "svg":  "\u003cpath class=\"p1\" d=\"M12 21V8\"/\u003e\u003ccircle class=\"p2\" cx=\"9.5\" cy=\"12\" r=\"1.7\"/\u003e\u003ccircle class=\"p2\" cx=\"14.5\" cy=\"12\" r=\"1.7\"/\u003e\u003ccircle class=\"p2\" cx=\"12\" cy=\"8\" r=\"1.7\"/\u003e\u003cpath class=\"d p3\" d=\"M12 20C8 19 6 17 5 14C9 14 11 16 12 20Z\"/\u003e\u003cpath class=\"p4\" d=\"M12 20C16 19 18 17 19 14C15 14 13 16 12 20Z\"/\u003e",
+    "motion":  [
+                   {
+                       "part":  "p1",
+                       "anim":  "draw",
+                       "dur":  500,
+                       "delay":  0
+                   },
+                   {
+                       "part":  "p2",
+                       "anim":  "popIn",
+                       "dur":  400,
+                       "delay":  500
+                   },
+                   {
+                       "part":  "p3",
+                       "anim":  "fillIn",
+                       "dur":  700,
+                       "delay":  900
+                   },
+                   {
+                       "part":  "p4",
+                       "anim":  "sway",
+                       "dur":  900,
+                       "delay":  1300,
+                       "origin":  "12px 20px"
+                   }
+               ]
+}

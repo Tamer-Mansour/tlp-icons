@@ -1,0 +1,11 @@
+{
+  "name": "ramp-slope",
+  "category": "buildings",
+  "tags": ["ramp", "slope", "incline", "base", "access"],
+  "svg": "<path class=\"p1\" d=\"M3 17L21 7\"/><path class=\"p2\" d=\"M2 20H22\"/><circle class=\"f p3\" cx=\"7\" cy=\"13\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "roll", "dur": 900, "delay": 1000 }
+  ]
+}

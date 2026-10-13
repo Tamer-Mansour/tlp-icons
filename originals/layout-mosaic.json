@@ -1,0 +1,10 @@
+{
+  "name": "layout-mosaic",
+  "category": "layout",
+  "tags": ["mosaic", "tiles", "layout", "irregular", "collage", "panels"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M13 3V21M13 10H21M3 15H13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 600 }
+  ]
+}

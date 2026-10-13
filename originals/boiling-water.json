@@ -1,0 +1,10 @@
+{
+  "name": "boiling-water",
+  "category": "science",
+  "tags": ["boiling", "water", "pot", "bubbles", "heat"],
+  "svg": "<path class=\"d p1\" d=\"M4 10h16v7a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z\"/><circle class=\"p2\" cx=\"9\" cy=\"6\" r=\"1.5\"/><circle class=\"p2\" cx=\"14\" cy=\"4\" r=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "float", "dur": 1000, "delay": 600 }
+  ]
+}

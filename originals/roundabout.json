@@ -1,0 +1,11 @@
+{
+  "name": "roundabout",
+  "category": "vehicles",
+  "tags": ["roundabout", "traffic circle", "road", "junction", "ring", "intersection"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"7\"/><circle class=\"d p2\" cx=\"12\" cy=\"12\" r=\"2.5\"/><path class=\"p3\" d=\"M12 2v3M22 12h-3M12 22v-3M2 12h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "spin", "dur": 1000, "delay": 800 }
+  ]
+}

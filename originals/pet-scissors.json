@@ -1,0 +1,12 @@
+{
+  "name": "pet-scissors",
+  "category": "nature",
+  "tags": ["pet", "scissors", "grooming", "trim", "fur", "animal"],
+  "svg": "<circle class=\"p1\" cx=\"6\" cy=\"6\" r=\"3\"/><circle class=\"p4\" cx=\"6\" cy=\"18\" r=\"3\"/><path class=\"p2\" d=\"M8.12 8.12 L20 20\"/><path class=\"p3\" d=\"M8.12 15.88 L20 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "pop", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p4", "anim": "wiggle", "dur": 500, "delay": 1000, "origin": "6px 18px" }
+  ]
+}

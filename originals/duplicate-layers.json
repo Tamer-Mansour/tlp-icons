@@ -1,0 +1,11 @@
+{
+  "name": "duplicate-layers",
+  "category": "interface",
+  "tags": ["duplicate", "layers", "copy", "clone", "stack", "plus"],
+  "svg": "<rect class=\"p1\" x=\"8.5\" y=\"3.5\" width=\"12\" height=\"10\" rx=\"2\"/><rect class=\"d p2\" x=\"3.5\" y=\"10.5\" width=\"12\" height=\"10\" rx=\"2\"/><line class=\"p3\" x1=\"9.5\" y1=\"13\" x2=\"9.5\" y2=\"18\"/><line class=\"p3\" x1=\"7\" y1=\"15.5\" x2=\"12\" y2=\"15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "parsnip",
+  "category": "food",
+  "tags": ["parsnip", "root", "vegetable", "tapered", "leaves", "roast"],
+  "svg": "<path class=\"d p1\" d=\"M9 9h6c0 4-1 8-3 12-2-4-3-8-3-12z\"/><path class=\"p2\" d=\"M12 9V4M12 9L9 4.5M12 9l3-4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "sway", "dur": 900, "delay": 700, "origin": "12px 9px" }
+  ]
+}

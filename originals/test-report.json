@@ -1,0 +1,11 @@
+{
+  "name": "test-report",
+  "category": "development",
+  "tags": ["test", "report", "check", "chart", "document", "qa"],
+  "svg": "<path class=\"p1\" d=\"M6 3h9l3 3v15H6z\"/><path class=\"p2\" d=\"M9 17v-3M12 17v-6M15 17v-4\"/><path class=\"p3\" d=\"M9.5 7.5l1.5 1.5 3.5-3.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 500, "origin": "bottom" },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1000 }
+  ]
+}

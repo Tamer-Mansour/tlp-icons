@@ -1,0 +1,11 @@
+{
+  "name": "canned-food",
+  "category": "food",
+  "tags": ["canned", "food", "can", "pantry", "label"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"4\" width=\"12\" height=\"17\" rx=\"2\"/><path class=\"p2\" d=\"M6 7.5 H18\"/><path class=\"p3\" d=\"M6 10.5 H18 M6 16 H18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 700 }
+  ]
+}

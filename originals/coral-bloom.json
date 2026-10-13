@@ -1,0 +1,10 @@
+{
+  "name": "coral-bloom",
+  "category": "nature",
+  "tags": ["coral", "reef", "sea", "plant", "ocean"],
+  "svg": "<path class=\"p1\" d=\"M12 21v-8M12 13L7 9M12 13l5-4M7 9V6M17 9V5\"/><circle class=\"f p2\" cx=\"7\" cy=\"3\" r=\"1\"/><circle class=\"f p2\" cx=\"17\" cy=\"3\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "bloom", "dur": 500, "delay": 900 }
+  ]
+}

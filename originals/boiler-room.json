@@ -1,0 +1,11 @@
+{
+  "name": "boiler-room",
+  "category": "buildings",
+  "tags": ["boiler", "room", "tank", "pipe", "flame", "heating"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"13\" r=\"7\"/><path class=\"p2\" d=\"M17 13h3V6\"/><path class=\"p3\" d=\"M10 9q-2.5 3-1.5 5q.5 1.5 1.5 1.5t1.5-1.5q1-2-1.5-5z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 800, "delay": 1000 }
+  ]
+}

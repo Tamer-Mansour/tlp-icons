@@ -1,0 +1,10 @@
+{
+  "name": "bark",
+  "category": "nature",
+  "tags": ["bark", "tree", "trunk", "wood", "fissure"],
+  "svg": "<path class=\"d p1\" d=\"M7 22 L8 4 Q8 2 10 2 H14 Q16 2 16 4 L17 22 Z\"/><path class=\"p2\" d=\"M11 6 V10 M13.5 13 V17 M10.5 18 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 700, "delay": 400 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sushi-tray",
+  "category": "food",
+  "tags": ["sushi", "tray", "nigiri", "japanese", "fish"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"17\" width=\"20\" height=\"4\" rx=\"1\"/><rect class=\"d p2\" x=\"5\" y=\"11\" width=\"6\" height=\"4\" rx=\"2\"/><rect class=\"d p3\" x=\"13\" y=\"11\" width=\"6\" height=\"4\" rx=\"2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "hop", "dur": 800, "delay": 900 }
+  ]
+}

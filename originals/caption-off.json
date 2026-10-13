@@ -1,0 +1,11 @@
+{
+  "name": "caption-off",
+  "category": "communication",
+  "tags": ["caption", "subtitles", "off", "closed", "text", "screen"],
+  "svg": "<rect class=\"d p1\" x=\"2.5\" y=\"4\" width=\"19\" height=\"14\" rx=\"2.5\"/><line class=\"p2\" x1=\"7\" y1=\"12\" x2=\"11\" y2=\"12\"/><line class=\"p2\" x1=\"13\" y1=\"12\" x2=\"17\" y2=\"12\"/><line class=\"p3\" x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

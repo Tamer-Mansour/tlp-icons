@@ -1,0 +1,11 @@
+{
+  "name": "pet-house",
+  "category": "nature",
+  "tags": ["pet", "house", "home", "shelter", "animal", "dog"],
+  "svg": "<path class=\"d p1\" d=\"M5 11h14v9H5z\"/><path class=\"p2\" d=\"M3 12l9-8 9 8\"/><path class=\"p3\" d=\"M10 20v-3a2 2 0 0 1 4 0v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 600, "delay": 900 }
+  ]
+}

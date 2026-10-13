@@ -1,0 +1,11 @@
+{
+  "name": "duct-tape",
+  "category": "tools",
+  "tags": ["duct", "tape", "roll", "strip", "repair", "adhesive"],
+  "svg": "<circle class=\"d p1\" cx=\"10\" cy=\"12\" r=\"7\"/><circle class=\"p2\" cx=\"10\" cy=\"12\" r=\"2\"/><path class=\"p3\" d=\"M17 12 L21 12 L19 16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 600, "delay": 900 }
+  ]
+}

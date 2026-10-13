@@ -1,0 +1,10 @@
+{
+  "name": "arrowhead-start",
+  "category": "design",
+  "tags": ["arrowhead", "start", "line", "arrow", "marker", "origin"],
+  "svg": "<path class=\"p1\" d=\"M10 12h10\"/><path class=\"d p2\" d=\"M10 8l-7 4 7 4z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudgeBack", "dur": 500, "delay": 900 }
+  ]
+}

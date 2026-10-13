@@ -1,0 +1,11 @@
+{
+  "name": "handbell",
+  "category": "media",
+  "tags": ["handbell", "bell", "ring", "chime", "music", "alert"],
+  "svg": "<path class=\"p1\" d=\"M6 14V11Q6 5 12 5Q18 5 18 11V14L20 17H4L6 14Z\"/><line class=\"p2\" x1=\"12\" y1=\"2.5\" x2=\"12\" y2=\"5\"/><circle class=\"p3\" cx=\"12\" cy=\"20.5\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 300 },
+    { "part": "p3", "anim": "swing", "dur": 900, "delay": 1000, "origin": "12px 5px" }
+  ]
+}

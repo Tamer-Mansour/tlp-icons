@@ -1,0 +1,10 @@
+{
+  "name": "user-chat-bubble",
+  "category": "people",
+  "tags": ["user", "chat", "bubble", "conversation", "talk"],
+  "svg": "<path class=\"d p1\" d=\"M3 5.5A1.5 1.5 0 0 1 4.5 4h8A1.5 1.5 0 0 1 14 5.5v5A1.5 1.5 0 0 1 12.5 12H8l-3 2.5V12h-.5A1.5 1.5 0 0 1 3 10.5z\"/><circle class=\"p2\" cx=\"16.5\" cy=\"14\" r=\"3\"/><path class=\"p2\" d=\"M12 21c.4-1.9 2-2.9 4.5-2.9s4.1 1 4.5 2.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 500 }
+  ]
+}

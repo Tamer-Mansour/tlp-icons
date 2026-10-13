@@ -1,0 +1,10 @@
+{
+  "name": "wing-flaps",
+  "category": "vehicles",
+  "tags": ["wing", "flaps", "aircraft", "landing", "plane", "flight"],
+  "svg": "<path class=\"d p1\" d=\"M3 9H21L17 13H7Z\"/><path class=\"p2\" d=\"M7 13L5 19M17 13L19 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "tilt", "dur": 700, "delay": 700 }
+  ]
+}

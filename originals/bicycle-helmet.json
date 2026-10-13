@@ -1,0 +1,12 @@
+{
+  "name": "bicycle-helmet",
+  "category": "sport",
+  "tags": ["bicycle", "helmet", "cycling", "safety", "protection", "sport"],
+  "svg": "<path class=\"d p1\" d=\"M3 15 A9 8 0 0 1 21 15 Z\"/><path class=\"p2\" d=\"M3 17 H21\"/><path class=\"p3\" d=\"M9 10 L11 8 M13 10 L15 8\"/><path class=\"p4\" d=\"M7 19 Q12 22 17 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 },
+    { "part": "p4", "anim": "swing", "dur": 900, "delay": 1200, "origin": "12px 17px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "harvest-basket",
+  "category": "nature",
+  "tags": ["harvest", "basket", "fruit", "farm", "apple"],
+  "svg": "<path class=\"d p1\" d=\"M4 11 H20 L18 20 H6 Z\"/><path class=\"p2\" d=\"M3 11 H21\"/><path class=\"p2\" d=\"M9 11 L9.5 20\"/><path class=\"p2\" d=\"M15 11 L14.5 20\"/><circle class=\"p3\" cx=\"8.5\" cy=\"6.5\" r=\"2.5\"/><circle class=\"p3\" cx=\"15.5\" cy=\"6.5\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "hop", "dur": 800, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tree-topology",
+  "category": "connectivity",
+  "tags": ["tree", "topology", "hierarchy", "network", "branches", "nodes"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"4.5\" r=\"1.5\"/><path class=\"p2\" d=\"M12 6.5L7.5 10.5M12 6.5L16.5 10.5\"/><path class=\"p3\" d=\"M6.6 14.6L5.2 17.6M7.4 14.6L8.8 17.6M16.6 14.6L15.2 17.6M17.4 14.6L18.8 17.6\"/><circle class=\"p4\" cx=\"7\" cy=\"13\" r=\"1.5\"/><circle class=\"p4\" cx=\"17\" cy=\"13\" r=\"1.5\"/><circle class=\"p4\" cx=\"4.5\" cy=\"20\" r=\"1.5\"/><circle class=\"p4\" cx=\"9.5\" cy=\"20\" r=\"1.5\"/><circle class=\"p4\" cx=\"14.5\" cy=\"20\" r=\"1.5\"/><circle class=\"p4\" cx=\"19.5\" cy=\"20\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "popIn", "dur": 400, "delay": 1400 }
+  ]
+}

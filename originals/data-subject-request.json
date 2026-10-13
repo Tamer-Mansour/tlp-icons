@@ -1,0 +1,11 @@
+{
+  "name": "data-subject-request",
+  "category": "people",
+  "tags": ["data", "subject", "request", "privacy", "document"],
+  "svg": "<circle class=\"d p1\" cx=\"9.5\" cy=\"8.5\" r=\"3.5\"/><path class=\"p1\" d=\"M3.5 20.5v-1.5a4.5 4.5 0 0 1 4.5-4.5h3a4.5 4.5 0 0 1 4.5 4.5v1.5\"/><path class=\"d p2\" d=\"M15 3h4l2.5 2.5v8.5h-6.5z\"/><path class=\"p3\" d=\"M18.25 16.5v4\"/><polyline class=\"p3\" points=\"16.75 19 18.25 20.5 19.75 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 600 },
+    { "part": "p3", "anim": "sink", "dur": 700, "delay": 1200 }
+  ]
+}

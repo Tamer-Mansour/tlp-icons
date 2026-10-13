@@ -1,0 +1,11 @@
+{
+  "name": "egret",
+  "category": "nature",
+  "tags": ["egret", "heron", "wading", "marsh", "bird"],
+  "svg": "<path class=\"d p1\" d=\"M6 12 Q10 9 14 12 Q15 15 11 16 Q6 16 6 12 Z\"/><path class=\"p2\" d=\"M13 11 Q18 8 16 5 Q15 3 18 2.5\"/><path class=\"p3\" d=\"M9 16 L8 22 M12 16 L13 22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 900 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "decrypt-unlock",
+  "category": "security",
+  "tags": ["decrypt", "unlock", "open", "document", "reveal"],
+  "svg": "<path class=\"p1\" d=\"M3 2.5h10l4 4v5H3z\"/><rect class=\"p2\" x=\"14\" y=\"14\" width=\"7\" height=\"6\" rx=\"1.2\"/><path class=\"p4\" d=\"M16 14V11a2 2 0 0 1 4 0\"/><path class=\"p3\" d=\"M11 17.5H3.5M6.5 14.5l-3 3 3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "draw", "dur": 300, "delay": 800 },
+    { "part": "p3", "anim": "nudgeBack", "dur": 500, "delay": 1100 }
+  ]
+}

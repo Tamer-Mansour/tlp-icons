@@ -1,0 +1,10 @@
+{
+  "name": "database-stats",
+  "category": "charts",
+  "tags": ["database", "stats", "cylinder", "storage", "metrics", "data"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"6\" rx=\"7\" ry=\"3\"/><path class=\"p1\" d=\"M5 6V18A7 3 0 0 0 19 18V6\"/><rect class=\"p2\" x=\"9\" y=\"13\" width=\"2\" height=\"4\"/><rect class=\"p2\" x=\"13\" y=\"11\" width=\"2\" height=\"6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 600, "delay": 800, "origin": "bottom" }
+  ]
+}

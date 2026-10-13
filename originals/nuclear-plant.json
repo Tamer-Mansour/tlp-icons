@@ -1,0 +1,10 @@
+{
+  "name": "nuclear-plant",
+  "category": "buildings",
+  "tags": ["nuclear", "plant", "cooling", "tower", "steam", "power"],
+  "svg": "<path class=\"p1\" d=\"M3 21L4 9h6l1 12M13 21l1-12h6l1 12\"/><circle class=\"d p2\" cx=\"10\" cy=\"4\" r=\"2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 500 }
+  ]
+}

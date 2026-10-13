@@ -1,0 +1,11 @@
+{
+  "name": "signum-sign",
+  "category": "math",
+  "tags": ["signum", "sign", "positive", "negative", "function"],
+  "svg": "<path class=\"p1\" d=\"M4 14H20\"/><circle class=\"f p2\" cx=\"4\" cy=\"14\" r=\"1\"/><circle class=\"f p2\" cx=\"20\" cy=\"14\" r=\"1\"/><path class=\"p3\" d=\"M12 4V9M9.5 6.5H14.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "pop", "dur": 500, "delay": 1000 }
+  ]
+}

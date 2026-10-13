@@ -1,0 +1,11 @@
+{
+  "name": "phone-tower",
+  "category": "communication",
+  "tags": ["phone", "tower", "signal", "mobile network", "cell", "reception"],
+  "svg": "<rect class=\"d p1\" x=\"6\" y=\"2.5\" width=\"12\" height=\"19\" rx=\"2.5\"/><path class=\"p2\" d=\"M8.5 16V13.5M12 16V11M15.5 16V8.5\"/><circle class=\"f p3\" cx=\"12\" cy=\"19\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 500 },
+    { "part": "p3", "anim": "blip", "dur": 400, "delay": 1100 }
+  ]
+}

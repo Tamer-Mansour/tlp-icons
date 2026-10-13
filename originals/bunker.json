@@ -1,0 +1,11 @@
+{
+  "name": "bunker",
+  "category": "buildings",
+  "tags": ["bunker", "shelter", "military", "concrete", "dome"],
+  "svg": "<path class=\"p1\" d=\"M3 20a9 9 0 0 1 18 0\"/><path class=\"p2\" d=\"M2 20h20\"/><rect class=\"d p3\" x=\"9\" y=\"15\" width=\"6\" height=\"5\" rx=\"0.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "memory-bubble",
+  "category": "science",
+  "tags": ["memory", "thought", "bubble", "chip", "idea"],
+  "svg": "<circle class=\"d p1\" cx=\"12\" cy=\"10\" r=\"7\"/><rect class=\"p2\" x=\"9\" y=\"7\" width=\"6\" height=\"6\" rx=\"1\"/><circle class=\"f p3\" cx=\"4\" cy=\"21\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "bounceIn", "dur": 500, "delay": 1000 }
+  ]
+}

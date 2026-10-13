@@ -1,0 +1,11 @@
+{
+  "name": "wiki-page",
+  "category": "files",
+  "tags": ["wiki", "page", "links", "brackets", "notes"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path class=\"p2\" d=\"M8 9l-2 3 2 3M16 9l2 3-2 3\"/><line class=\"p3\" x1=\"11\" y1=\"12\" x2=\"13\" y2=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "growX", "dur": 300, "delay": 900 }
+  ]
+}

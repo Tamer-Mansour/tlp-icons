@@ -1,0 +1,11 @@
+{
+  "name": "confetti-burst",
+  "category": "notifications",
+  "tags": ["confetti", "celebration", "party", "burst", "congrats"],
+  "svg": "<path class=\"p1\" d=\"M12 2.5v3M5.5 5.5l2 2M18.5 5.5l-2 2\"/><path class=\"p2\" d=\"M3.5 11h2.5M18 11h2.5\"/><circle class=\"f p3\" cx=\"7\" cy=\"19\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"20.5\" r=\"1\"/><circle class=\"f p3\" cx=\"17\" cy=\"19\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 200 },
+    { "part": "p3", "anim": "bounceIn", "dur": 700, "delay": 500 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "resistance-loop",
+  "category": "sport",
+  "tags": ["resistance", "band", "loop", "stretch", "tension", "training"],
+  "svg": "<ellipse class=\"p1\" cx=\"12\" cy=\"12\" rx=\"7\" ry=\"5\"/><path class=\"p2\" d=\"M2 12 H5\"/><path class=\"p3\" d=\"M19 12 H22\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "stretch", "dur": 700, "delay": 1000 }
+  ]
+}

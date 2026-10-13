@@ -1,0 +1,10 @@
+{
+  "name": "qr-link",
+  "category": "interface",
+  "tags": ["qr", "code", "link", "scan", "share", "square"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect class=\"p1\" x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><path class=\"p2\" d=\"M14 14h3v3h4M14 21h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "blip", "dur": 600, "delay": 900 }
+  ]
+}

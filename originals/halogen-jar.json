@@ -1,0 +1,11 @@
+{
+  "name": "halogen-jar",
+  "category": "science",
+  "tags": ["chemistry", "halogen", "jar", "lid", "chemical", "lab"],
+  "svg": "<path class=\"d p1\" d=\"M5 10h14v9a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><rect class=\"p2\" x=\"4\" y=\"3.5\" width=\"16\" height=\"3\" rx=\"1\" transform=\"rotate(-8 12 5)\"/><path class=\"p3\" d=\"M9 15h6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "tilt", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tag-shape",
+  "category": "shapes",
+  "tags": ["tag", "price", "label", "hole", "shop", "outline"],
+  "svg": "<path class=\"d p1\" d=\"M4 3H12L21 12L12 21L3 12V4Z\"/><circle class=\"p2\" cx=\"7.5\" cy=\"7.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 }
+  ]
+}

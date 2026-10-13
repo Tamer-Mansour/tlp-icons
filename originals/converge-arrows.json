@@ -1,0 +1,10 @@
+{
+  "name": "converge-arrows",
+  "category": "arrows",
+  "tags": ["converge", "meet", "point", "gather", "merge", "three arrows"],
+  "svg": "<path class=\"p1\" d=\"M3 5l9 9M21 5l-9 9M12 3v11\"/><circle class=\"f p2\" cx=\"12\" cy=\"14\" r=\"1.2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 700 }
+  ]
+}

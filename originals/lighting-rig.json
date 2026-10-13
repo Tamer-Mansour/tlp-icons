@@ -1,0 +1,11 @@
+{
+  "name": "lighting-rig",
+  "category": "media",
+  "tags": ["lighting", "rig", "spotlight", "truss", "stage", "lights"],
+  "svg": "<path class=\"p1\" d=\"M3 3h18\"/><path class=\"p2\" d=\"M5 3v6M12 3v6M19 3v6\"/><rect class=\"d p3\" x=\"3.5\" y=\"9\" width=\"3\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"10.5\" y=\"9\" width=\"3\" height=\"4\" rx=\"1\"/><rect class=\"d p3\" x=\"17.5\" y=\"9\" width=\"3\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 500, "delay": 600, "origin": "top" },
+    { "part": "p3", "anim": "swing", "dur": 1200, "delay": 1000, "origin": "12px 3px" }
+  ]
+}

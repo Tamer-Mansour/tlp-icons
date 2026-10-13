@@ -1,0 +1,11 @@
+{
+  "name": "referee-whistle",
+  "category": "people",
+  "tags": ["referee", "whistle", "sport", "lanyard", "foul", "sound"],
+  "svg": "<path class=\"d p1\" d=\"M5 11 H14 A4 4 0 0 1 14 19 H5 Z\"/><path class=\"p2\" d=\"M8 11 V8 A3 3 0 0 1 14 8 V11\"/><path class=\"p3\" d=\"M20 9 Q22 12 20 15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1200 }
+  ]
+}

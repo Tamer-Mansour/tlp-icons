@@ -1,0 +1,10 @@
+{
+  "name": "receipt-scan",
+  "category": "files",
+  "tags": ["receipt", "scan", "bill", "paper", "scanner", "zigzag"],
+  "svg": "<path class=\"d p1\" d=\"M7 3h10v16l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5L7 19z\"/><path class=\"p2\" d=\"M2.5 7V2.5H5M21 16v5h-1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "scan", "dur": 900, "delay": 600 }
+  ]
+}

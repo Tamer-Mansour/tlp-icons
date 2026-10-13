@@ -1,0 +1,11 @@
+{
+  "name": "flower-vase",
+  "category": "home",
+  "tags": ["flower", "vase", "bouquet", "decor", "plant", "home"],
+  "svg": "<path class=\"d p1\" d=\"M9 9C6 11 4 13 4 16C4 19.5 7.5 21 12 21C16.5 21 20 19.5 20 16C20 13 18 11 15 9Z\"/><path class=\"p2\" d=\"M9 4v5M15 4v5\"/><path class=\"p3\" d=\"M11 9.5L9.5 2.5M13 9.5l1.5-7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "sway", "dur": 900, "delay": 900 }
+  ]
+}

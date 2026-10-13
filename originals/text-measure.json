@@ -1,0 +1,10 @@
+{
+  "name": "text-measure",
+  "category": "text",
+  "tags": ["measure", "dimension", "width", "text", "block", "size"],
+  "svg": "<path class=\"p1\" d=\"M3 6h18M3 10h12M3 14h8\"/><path class=\"p2\" d=\"M3 20h18M3 18v4M21 18v4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 700, "delay": 600 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "parking-space",
+  "category": "buildings",
+  "tags": ["parking", "car", "bay", "space", "vehicle", "lot"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path class=\"p2\" d=\"M9 17V7h3.5a2.75 2.75 0 0 1 0 5.5H9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 800 }
+  ]
+}

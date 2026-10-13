@@ -1,0 +1,11 @@
+{
+  "name": "coffee-beans",
+  "category": "food",
+  "tags": ["coffee", "beans", "roast", "seed", "cafe"],
+  "svg": "<ellipse class=\"d p1\" cx=\"7.5\" cy=\"12\" rx=\"3.5\" ry=\"6.5\"/><ellipse class=\"d p2\" cx=\"16.5\" cy=\"12\" rx=\"3.5\" ry=\"6.5\"/><path class=\"p3\" d=\"M7.5 9 V15 M16.5 9 V15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 600, "delay": 1000 }
+  ]
+}

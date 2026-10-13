@@ -1,0 +1,11 @@
+{
+  "name": "spray-foam",
+  "category": "tools",
+  "tags": ["spray", "foam", "can", "insulation", "bubbles", "aerosol"],
+  "svg": "<rect class=\"p1\" x=\"5\" y=\"9\" width=\"8\" height=\"13\" rx=\"2\"/><path class=\"p2\" d=\"M9 9V6.5h4V9\"/><circle class=\"p3\" cx=\"16\" cy=\"6\" r=\"1.5\"/><circle class=\"p3\" cx=\"19.5\" cy=\"9.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "press", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "blip", "dur": 600, "delay": 1000 }
+  ]
+}

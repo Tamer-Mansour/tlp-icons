@@ -1,0 +1,11 @@
+{
+  "name": "text-stack",
+  "category": "text",
+  "tags": ["stack", "lines", "text", "layers", "stacked", "bars"],
+  "svg": "<path class=\"p1\" d=\"M4 6H20\"/><path class=\"p2\" d=\"M4 12H20\"/><path class=\"p3\" d=\"M4 18H14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "growX", "dur": 400, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "nudge", "dur": 600, "delay": 900 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "variant-icon",
+  "category": "interface",
+  "tags": ["variant", "sizes", "nested", "squares", "design", "options"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><rect class=\"p2\" x=\"3\" y=\"3\" width=\"12\" height=\"12\" rx=\"1.5\"/><rect class=\"d p3\" x=\"3\" y=\"3\" width=\"6\" height=\"6\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 700 }
+  ]
+}

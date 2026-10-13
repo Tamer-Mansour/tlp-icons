@@ -1,0 +1,11 @@
+{
+  "name": "time-passed",
+  "category": "time",
+  "tags": ["clock", "elapsed", "passed", "remaining", "duration", "timer"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><path class=\"d p2\" d=\"M12 12V3A9 9 0 0 0 3 12Z\"/><circle class=\"f p3\" cx=\"18\" cy=\"12\" r=\"1\"/><circle class=\"f p3\" cx=\"16.2\" cy=\"16.2\" r=\"1\"/><circle class=\"f p3\" cx=\"12\" cy=\"18\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1300 }
+  ]
+}

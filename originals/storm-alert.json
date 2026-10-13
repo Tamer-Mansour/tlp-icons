@@ -1,0 +1,11 @@
+{
+  "name": "storm-alert",
+  "category": "notifications",
+  "tags": ["storm", "cloud", "lightning", "alert", "thunder", "weather"],
+  "svg": "<path class=\"d p1\" d=\"M6 15.5h11a3.5 3.5 0 0 0 0-7 5.5 5.5 0 0 0-10.5 1.5A3 3 0 0 0 6 15.5Z\"/><path class=\"p2\" d=\"M12 12.5l-2 3.5h3l-2 3.5\"/><path class=\"p3\" d=\"M20.5 3.5v4\"/><circle class=\"f p3\" cx=\"20.5\" cy=\"10.5\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 },
+    { "part": "p2", "anim": "flicker", "dur": 900, "delay": 800 }
+  ]
+}

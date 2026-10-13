@@ -1,0 +1,11 @@
+{
+  "name": "text-dedupe",
+  "category": "text",
+  "tags": ["dedupe", "duplicate", "remove", "text", "lines"],
+  "svg": "<path class=\"p1\" d=\"M3 7H16\"/><path class=\"p2\" d=\"M3 15H16\"/><path class=\"p3\" d=\"M18 12.5L21 15.5M21 12.5L18 15.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 1000 }
+  ]
+}

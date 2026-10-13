@@ -1,0 +1,11 @@
+{
+  "name": "soil-sensor",
+  "category": "devices",
+  "tags": ["soil", "moisture", "sensor", "garden", "plant", "ground"],
+  "svg": "<path class=\"d p1\" d=\"M3 21q9-10 18 0z\"/><path class=\"p2\" d=\"M12 3v14\"/><path class=\"p3\" d=\"M7 8q-1.5 2 0 4M17 8q1.5 2 0 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 800, "delay": 1000 }
+  ]
+}

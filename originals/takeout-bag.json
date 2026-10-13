@@ -1,0 +1,11 @@
+{
+  "name": "takeout-bag",
+  "category": "food",
+  "tags": ["takeout", "bag", "delivery", "carry out", "food", "paper"],
+  "svg": "<path class=\"d p1\" d=\"M5 8h14l-1 13H6z\"/><path class=\"p2\" d=\"M9 8V6a3 3 0 0 1 6 0v2\"/><path class=\"p3\" d=\"M5 11h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "tilt", "dur": 600, "delay": 1000 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "taxiway",
+  "category": "buildings",
+  "tags": ["taxiway", "airport", "taxi", "plane", "wing", "path"],
+  "svg": "<path class=\"p1\" d=\"M3 20h18\"/><path class=\"p2\" d=\"M12 4v10M7 9.5h10M9.5 14h5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "nudge", "dur": 700, "delay": 800 }
+  ]
+}

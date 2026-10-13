@@ -1,0 +1,10 @@
+{
+  "name": "label-text",
+  "category": "text",
+  "tags": ["label", "text", "rectangle", "caption", "name"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"/><path class=\"p2\" d=\"M7.5 12h9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 500 }
+  ]
+}

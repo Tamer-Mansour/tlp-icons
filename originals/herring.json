@@ -1,0 +1,12 @@
+{
+  "name": "herring",
+  "category": "nature",
+  "tags": ["herring", "fish", "slim", "forked tail", "sea", "animal"],
+  "svg": "<ellipse class=\"d p1\" cx=\"11\" cy=\"12\" rx=\"8\" ry=\"4\"/><path class=\"p2\" d=\"M19 12L22 8.5M19 12L22 15.5\"/><path class=\"p3\" d=\"M6 14Q11 17.5 16 14\"/><circle class=\"f p4\" cx=\"6.5\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p4", "anim": "popIn", "dur": 300, "delay": 800 },
+    { "part": "p2", "anim": "wiggle", "dur": 600, "delay": 1200, "origin": "19px 12px" }
+  ]
+}

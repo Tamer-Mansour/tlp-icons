@@ -1,0 +1,11 @@
+{
+  "name": "neuron-cell",
+  "category": "science",
+  "tags": ["neuron", "nerve", "brain", "cell", "biology"],
+  "svg": "<circle class=\"d p1\" cx=\"9\" cy=\"12\" r=\"4\"/><path class=\"p2\" d=\"M13 12 H17 M17 12 L21 8.5 M17 12 L21 15.5\"/><path class=\"p3\" d=\"M7 7 L4 4 M7 17 L4 20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 800, "delay": 500 },
+    { "part": "p3", "anim": "flicker", "dur": 700, "delay": 1200 }
+  ]
+}

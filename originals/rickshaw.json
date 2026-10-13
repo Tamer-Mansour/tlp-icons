@@ -1,0 +1,12 @@
+{
+  "name": "rickshaw",
+  "category": "vehicles",
+  "tags": ["rickshaw", "cart", "taxi", "passenger", "wheels", "transport"],
+  "svg": "<path class=\"d p1\" d=\"M4 6H14V11H4Z\"/><path class=\"p4\" d=\"M3.5 6Q9 1.5 14.5 6\"/><circle class=\"p2\" cx=\"9\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M14 8.5L21 19\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p4", "anim": "draw", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 1200, "origin": "9px 17px" }
+  ]
+}

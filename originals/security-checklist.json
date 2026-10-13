@@ -1,0 +1,11 @@
+{
+  "name": "security-checklist",
+  "category": "security",
+  "tags": ["security", "checklist", "audit", "tasks", "shield", "review"],
+  "svg": "<path class=\"p1\" d=\"M3 5.5l1.5 1.5 2.5-3M3 10.5l1.5 1.5 2.5-3M3 15.5l1.5 1.5 2.5-3\"/><path class=\"p2\" d=\"M10 5.5h10M10 10.5h10M10 15.5h4\"/><path class=\"d p3\" d=\"M19 14l3 1v3c0 2-1.5 3.2-3 4-1.5-.8-3-2-3-4v-3z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 500, "delay": 400 },
+    { "part": "p3", "anim": "fillIn", "dur": 500, "delay": 900 }
+  ]
+}

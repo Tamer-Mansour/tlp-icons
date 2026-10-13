@@ -1,0 +1,11 @@
+{
+  "name": "satellite-antenna",
+  "category": "science",
+  "tags": ["satellite", "antenna", "dish", "signal", "broadcast", "radio", "space"],
+  "svg": "<path class=\"p1\" d=\"M4 11a8 8 0 0 1 8 8\"/><path class=\"p2\" d=\"M9 15L5.5 20.5\"/><path class=\"p3\" d=\"M14 4.5a7.5 7.5 0 0 1 6 6M14 8.5a3.5 3.5 0 0 1 2.5 2.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 1000, "delay": 800 }
+  ]
+}

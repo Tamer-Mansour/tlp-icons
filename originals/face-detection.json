@@ -1,0 +1,11 @@
+{
+  "name": "face-detection",
+  "category": "photography",
+  "tags": ["face", "detection", "camera", "portrait", "recognition"],
+  "svg": "<path class=\"p1\" d=\"M3 8V3h5M16 3h5v5M21 16v5h-5M8 21H3v-5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"4\"/><circle class=\"f p3\" cx=\"10.5\" cy=\"11\" r=\"1\"/><circle class=\"f p3\" cx=\"13.5\" cy=\"11\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 500, "delay": 700 },
+    { "part": "p3", "anim": "blink", "dur": 500, "delay": 1300 }
+  ]
+}

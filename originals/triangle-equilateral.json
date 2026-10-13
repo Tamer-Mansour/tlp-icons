@@ -1,0 +1,10 @@
+{
+  "name": "triangle-equilateral",
+  "category": "math",
+  "tags": ["triangle", "equilateral", "equal", "sides", "geometry"],
+  "svg": "<path class=\"d p1\" d=\"M12 4 L21 19.6 H3 Z\"/><path class=\"p2\" d=\"M6.6 11.3 L8.4 12.3 M15.6 12.3 L17.4 11.3 M12 17.6 V21.6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

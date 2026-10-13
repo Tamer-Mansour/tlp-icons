@@ -1,0 +1,11 @@
+{
+  "name": "mute-mic",
+  "category": "interface",
+  "tags": ["mute", "microphone", "slash", "audio", "off"],
+  "svg": "<rect class=\"d p1\" x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path class=\"p2\" d=\"M6 11A6 6 0 0 0 18 11M12 17V21M9 21H15\"/><line class=\"p3\" x1=\"4\" y1=\"4\" x2=\"20\" y2=\"20\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p1", "anim": "shake", "dur": 500, "delay": 1200 }
+  ]
+}

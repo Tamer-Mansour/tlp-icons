@@ -1,0 +1,10 @@
+{
+  "name": "gate-lock",
+  "category": "security",
+  "tags": ["gate", "lock", "secure", "fence", "access"],
+  "svg": "<path class=\"p1\" d=\"M3 22V6M21 22V6M3 9h5M16 9h5\"/><rect class=\"d p2\" x=\"10\" y=\"7.5\" width=\"4\" height=\"4.5\" rx=\"1\"/><path class=\"p2\" d=\"M11 7.5V6a1 1 0 0 1 2 0v1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "shake", "dur": 500, "delay": 700 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "vanity-table",
+  "category": "home",
+  "tags": ["vanity", "table", "mirror", "dressing", "bench"],
+  "svg": "<rect class=\"d p1\" x=\"8\" y=\"3\" width=\"8\" height=\"8\" rx=\"4\"/><path class=\"p2\" d=\"M3 14h18\"/><path class=\"p3\" d=\"M6 14v7M18 14v7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

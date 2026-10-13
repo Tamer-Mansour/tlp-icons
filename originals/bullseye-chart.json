@@ -1,0 +1,10 @@
+{
+  "name": "bullseye-chart",
+  "category": "charts",
+  "tags": ["bullseye", "target", "goal", "aim", "accuracy", "chart"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"9\"/><circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"4.5\"/><path class=\"p2\" d=\"M12 12L19 5M15 5H19V9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 700 }
+  ]
+}

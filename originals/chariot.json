@@ -1,0 +1,11 @@
+{
+  "name": "chariot",
+  "category": "vehicles",
+  "tags": ["chariot", "horses", "ancient", "cart", "war", "wheel", "reins"],
+  "svg": "<path class=\"d p1\" d=\"M6 5h11l-2 5H8z\"/><circle class=\"p2\" cx=\"11\" cy=\"17\" r=\"3\"/><path class=\"p3\" d=\"M16 7.5L21 4.5M15.5 9.5L21 8.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p2", "anim": "roll", "dur": 1000, "delay": 900 }
+  ]
+}

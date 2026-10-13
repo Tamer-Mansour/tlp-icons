@@ -1,0 +1,10 @@
+{
+  "name": "cricket-stumps",
+  "category": "sport",
+  "tags": ["cricket", "stumps", "bails", "wicket", "bowling", "sport"],
+  "svg": "<path class=\"p1\" d=\"M7 8v13M12 8v13M17 8v13\"/><path class=\"p2\" d=\"M5 6h14\"/>",
+  "motion": [
+    { "part": "p1", "anim": "grow", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "fall", "dur": 700, "delay": 900 }
+  ]
+}

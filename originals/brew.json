@@ -1,0 +1,10 @@
+{
+  "name": "brew",
+  "category": "food",
+  "tags": ["brew", "tea", "mug", "steep", "hot"],
+  "svg": "<path class=\"p1\" d=\"M5 10 H17 V18 Q17 21 14 21 H8 Q5 21 5 18 Z M17 12 H19 Q20 12 20 14 Q20 16 19 16 H17\"/><path class=\"p2\" d=\"M12 2 V5\"/><rect class=\"p2\" x=\"9\" y=\"5\" width=\"6\" height=\"4\" rx=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "swing", "dur": 900, "delay": 900, "origin": "12px 2px" }
+  ]
+}

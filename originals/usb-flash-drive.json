@@ -1,0 +1,11 @@
+{
+  "name": "usb-flash-drive",
+  "category": "connectivity",
+  "tags": ["usb", "flash", "drive", "storage", "memory", "stick", "portable"],
+  "svg": "<rect class=\"d p1\" x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"/><rect class=\"p2\" x=\"9.5\" y=\"3\" width=\"5\" height=\"4\" rx=\"0.5\"/><path class=\"p3\" d=\"M10.5 15h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 500 },
+    { "part": "p2", "anim": "nudge", "dur": 500, "delay": 1000 }
+  ]
+}

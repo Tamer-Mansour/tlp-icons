@@ -1,0 +1,11 @@
+{
+  "name": "groundskeeper-mower",
+  "category": "people",
+  "tags": ["groundskeeper", "mower", "lawn", "grass", "yard", "garden"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"11\" width=\"13\" height=\"5\" rx=\"1\"/><circle class=\"p2\" cx=\"7\" cy=\"19.5\" r=\"2\"/><circle class=\"p2\" cx=\"15\" cy=\"19.5\" r=\"2\"/><polyline class=\"p3\" points=\"16,11 20,3 22,3\"/>",
+  "motion": [
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p2", "anim": "drive", "dur": 900, "delay": 1000 }
+  ]
+}

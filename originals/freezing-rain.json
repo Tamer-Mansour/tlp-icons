@@ -1,0 +1,11 @@
+{
+  "name": "freezing-rain",
+  "category": "weather",
+  "tags": ["freezing rain", "ice", "cloud", "winter", "storm", "weather"],
+  "svg": "<path class=\"p1\" d=\"M6.5 15 A3.5 3.5 0 0 1 7 8 A5 5 0 0 1 16.5 8.5 A3 3 0 0 1 17.5 15 Z\"/><path class=\"p2\" d=\"M9 17 L7 21 M14 17 L12 21\"/><path class=\"p3\" d=\"M18 16 V22 M15 19 H21\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 800 },
+    { "part": "p3", "anim": "spin", "dur": 900, "delay": 1100, "origin": "18px 19px" }
+  ]
+}

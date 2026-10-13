@@ -1,0 +1,11 @@
+{
+  "name": "e-ink-tablet",
+  "category": "devices",
+  "tags": ["tablet", "e-ink", "stylus", "writing", "notes"],
+  "svg": "<rect class=\"p1\" x=\"4\" y=\"2.5\" width=\"16\" height=\"19\" rx=\"2\"/><line class=\"p2\" x1=\"8\" y1=\"15\" x2=\"16\" y2=\"9\"/><circle class=\"f p3\" cx=\"12\" cy=\"19\" r=\"0.9\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p2", "anim": "shuttle", "dur": 900, "delay": 1000 }
+  ]
+}

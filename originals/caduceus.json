@@ -1,0 +1,11 @@
+{
+  "name": "caduceus",
+  "category": "emoji",
+  "tags": ["caduceus", "staff", "snakes", "wings", "symbol", "medicine"],
+  "svg": "<path class=\"p1\" d=\"M12 3v18\"/><path class=\"d p2\" d=\"M12 6C10 3.5 6.5 3 3.5 4.5 6 5.5 7.5 7.5 8 10 9.5 8.5 11 7 12 6zM12 6c2-2.5 5.5-3 8.5-1.5-2.5 1-4 3-4.5 5.5-1.5-1.5-3-3-4-4z\"/><path class=\"p3\" d=\"M12 9c3 1.2 3 3.3 0 4.5s-3 3.3 0 4.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 300 },
+    { "part": "p3", "anim": "wiggle", "dur": 900, "delay": 900 }
+  ]
+}

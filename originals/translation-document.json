@@ -1,0 +1,11 @@
+{
+  "name": "translation-document",
+  "category": "files",
+  "tags": ["translation", "document", "language", "translate", "convert", "page"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"2\" width=\"14\" height=\"18\" rx=\"2\"/><path class=\"p2\" d=\"M5 15l2-6 2 6M5.8 12.5h2.4\"/><path class=\"p3\" d=\"M18 12h4M19 9l3 3-3 3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 600, "delay": 600 },
+    { "part": "p3", "anim": "nudge", "dur": 800, "delay": 1200 }
+  ]
+}

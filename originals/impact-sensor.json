@@ -1,0 +1,11 @@
+{
+  "name": "impact-sensor",
+  "category": "vehicles",
+  "tags": ["impact", "sensor", "bumper", "collision", "target", "burst"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"10\" width=\"18\" height=\"6\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"13\" r=\"2\"/><path class=\"p3\" d=\"M7 5l2 2M17 5l-2 2M12 2.5v3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "throb", "dur": 700, "delay": 1000 }
+  ]
+}

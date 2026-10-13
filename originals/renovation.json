@@ -1,0 +1,11 @@
+{
+  "name": "renovation",
+  "category": "buildings",
+  "tags": ["renovation", "house", "paint", "roller", "remodel", "home"],
+  "svg": "<path class=\"p1\" d=\"M3 11l9-7 9 7v10H3z\"/><rect class=\"d p2\" x=\"9\" y=\"13\" width=\"6\" height=\"8\"/><path class=\"p3\" d=\"M19 2v4M17 4h4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 800 },
+    { "part": "p3", "anim": "popIn", "dur": 500, "delay": 1400 }
+  ]
+}

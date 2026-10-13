@@ -1,0 +1,12 @@
+{
+  "name": "okapi",
+  "category": "nature",
+  "tags": ["giraffe", "stripes", "ears", "forest", "animal"],
+  "svg": "<rect class=\"d p1\" x=\"4\" y=\"11\" width=\"11\" height=\"6\" rx=\"2\"/><path class=\"p2\" d=\"M14 11 L18 4 L19 12\"/><path class=\"p3\" d=\"M18 4 L16 2.5 L17.5 2.5\"/><path class=\"p4\" d=\"M5 17 V20 M8 17 V20\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "popIn", "dur": 300, "delay": 600 },
+    { "part": "p4", "anim": "pop", "dur": 400, "delay": 800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "multilingual-chat",
+  "category": "communication",
+  "tags": ["multilingual", "languages", "chat", "translate", "bubbles", "international"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"3\" width=\"11\" height=\"9\" rx=\"2\"/><rect class=\"d p2\" x=\"9\" y=\"11\" width=\"12\" height=\"9\" rx=\"2\"/><path class=\"p3\" d=\"M5.5 9.5L7 6L8.5 9.5M5.9 8.2H8.1M12 16H16M14 13.5V16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 500, "delay": 300 },
+    { "part": "p3", "anim": "typeIn", "dur": 700, "delay": 700 }
+  ]
+}

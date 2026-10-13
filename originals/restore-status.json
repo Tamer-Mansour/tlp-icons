@@ -1,0 +1,11 @@
+{
+  "name": "restore-status",
+  "category": "notifications",
+  "tags": ["restore", "backup", "database", "rollback", "storage"],
+  "svg": "<ellipse class=\"p1\" cx=\"8\" cy=\"5\" rx=\"5.5\" ry=\"2.5\"/><path class=\"p1\" d=\"M2.5 5v11c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5V5\"/><path class=\"p2\" d=\"M2.5 10.5c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5\"/><path class=\"p3\" d=\"M21 12A5 5 0 0 0 16 7M16 4v3h3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 300 },
+    { "part": "p3", "anim": "spinBack", "dur": 900, "delay": 700, "origin": "16px 7px" }
+  ]
+}

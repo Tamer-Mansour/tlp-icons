@@ -1,0 +1,12 @@
+{
+  "name": "robot-dog",
+  "category": "devices",
+  "tags": ["robot", "dog", "pet", "toy", "legs", "companion"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"8\" width=\"11\" height=\"6\" rx=\"2\"/><rect class=\"p2\" x=\"17\" y=\"5\" width=\"4\" height=\"6\" rx=\"1\"/><path class=\"p3\" d=\"M6 14 V19 M11 14 V19\"/><path class=\"p4\" d=\"M3 8 L2 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 },
+    { "part": "p4", "anim": "wiggle", "dur": 600, "delay": 1500, "origin": "3px 8px" }
+  ]
+}

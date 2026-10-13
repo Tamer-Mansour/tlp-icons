@@ -1,0 +1,10 @@
+{
+  "name": "poll-bars",
+  "category": "communication",
+  "tags": ["poll", "bars", "chart", "vote", "results"],
+  "svg": "<path class=\"p1\" d=\"M3 21h18\"/><rect class=\"p2\" x=\"4\" y=\"12\" width=\"4\" height=\"9\"/><rect class=\"p2\" x=\"10\" y=\"6\" width=\"4\" height=\"15\"/><rect class=\"p2\" x=\"16\" y=\"9\" width=\"4\" height=\"12\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p2", "anim": "grow", "dur": 700, "delay": 400, "origin": "bottom" }
+  ]
+}

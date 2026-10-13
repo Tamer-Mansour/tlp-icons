@@ -1,0 +1,10 @@
+{
+  "name": "text-fit-shrink",
+  "category": "design",
+  "tags": ["text", "fit", "shrink", "resize", "font", "scale"],
+  "svg": "<rect class=\"p1\" x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path class=\"p2\" d=\"M8 12h8M10 10l-2 2 2 2M14 10l2 2-2 2\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "squeeze", "dur": 900, "delay": 700 }
+  ]
+}

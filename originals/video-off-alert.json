@@ -1,0 +1,12 @@
+{
+  "name": "video-off-alert",
+  "category": "notifications",
+  "tags": ["video", "camera", "off", "disabled", "alert"],
+  "svg": "<rect class=\"d p1\" x=\"2\" y=\"6\" width=\"12\" height=\"11\" rx=\"2\"/><path class=\"p2\" d=\"M14 10l5-3v10l-5-3\"/><path class=\"p3\" d=\"M3 3l18 18\"/><path class=\"p4\" d=\"M20 3v4\"/><circle class=\"f p4\" cx=\"20\" cy=\"10\" r=\"1\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 400, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 700 },
+    { "part": "p4", "anim": "pop", "dur": 500, "delay": 1200 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "starburst",
+  "category": "shapes",
+  "tags": ["starburst", "radiate", "spikes", "sun", "glow"],
+  "svg": "<circle class=\"p1\" cx=\"12\" cy=\"12\" r=\"2.5\"/><line class=\"p2\" x1=\"17.5\" y1=\"12\" x2=\"21.5\" y2=\"12\"/><line class=\"p2\" x1=\"15.9\" y1=\"15.9\" x2=\"18.7\" y2=\"18.7\"/><line class=\"p2\" x1=\"12\" y1=\"17.5\" x2=\"12\" y2=\"21.5\"/><line class=\"p2\" x1=\"8.1\" y1=\"15.9\" x2=\"5.3\" y2=\"18.7\"/><line class=\"p2\" x1=\"6.5\" y1=\"12\" x2=\"2.5\" y2=\"12\"/><line class=\"p2\" x1=\"8.1\" y1=\"8.1\" x2=\"5.3\" y2=\"5.3\"/><line class=\"p2\" x1=\"12\" y1=\"6.5\" x2=\"12\" y2=\"2.5\"/><line class=\"p2\" x1=\"15.9\" y1=\"8.1\" x2=\"18.7\" y2=\"5.3\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "spin", "dur": 900, "delay": 700 }
+  ]
+}

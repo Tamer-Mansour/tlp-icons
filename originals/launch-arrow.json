@@ -1,0 +1,10 @@
+{
+  "name": "launch-arrow",
+  "category": "arrows",
+  "tags": ["launch", "upload", "rocket", "push", "release", "up"],
+  "svg": "<path class=\"p1\" d=\"M12 16V4\"/><path class=\"p1\" d=\"M7 9l5-5 5 5\"/><path class=\"p2\" d=\"M4 20h16\"/>",
+  "motion": [
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 0 },
+    { "part": "p1", "anim": "launch", "dur": 800, "delay": 500 }
+  ]
+}

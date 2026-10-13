@@ -1,0 +1,10 @@
+{
+  "name": "traffic-light",
+  "category": "notifications",
+  "tags": ["traffic", "light", "signal", "status", "stop"],
+  "svg": "<rect class=\"p1\" x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"3\"/><circle class=\"p2\" cx=\"12\" cy=\"6.5\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"12\" r=\"1.5\"/><circle class=\"p2\" cx=\"12\" cy=\"17.5\" r=\"1.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "glow", "dur": 700, "delay": 800 }
+  ]
+}

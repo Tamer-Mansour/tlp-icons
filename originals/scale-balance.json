@@ -1,0 +1,11 @@
+{
+  "name": "scale-balance",
+  "category": "interface",
+  "tags": ["scale", "balance", "weigh", "justice", "compare", "law"],
+  "svg": "<path class=\"p1\" d=\"M12 4V20M8 20H16\"/><path class=\"p2\" d=\"M4 7H20\"/><path class=\"d p3\" d=\"M2 13Q4 16 6 13Z\"/><path class=\"d p3\" d=\"M18 13Q20 16 22 13Z\"/><path class=\"p3\" d=\"M4 7L2 13M4 7L6 13M20 7L18 13M20 7L22 13\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "popIn", "dur": 400, "delay": 400 },
+    { "part": "p2", "anim": "swing", "dur": 800, "delay": 700, "origin": "12px 7px" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "candlestick",
+  "category": "home",
+  "tags": ["candlestick", "candle", "holder", "flame", "light", "wax"],
+  "svg": "<rect class=\"d p1\" x=\"10\" y=\"10\" width=\"4\" height=\"7\" rx=\"0.5\"/><path class=\"p2\" d=\"M12 3c-1.5 2-1.5 3.5 0 4.5 1.5-1 1.5-2.5 0-4.5z\"/><path class=\"p3\" d=\"M7 17h10l-1 4H8z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "riseIn", "dur": 600, "delay": 0 },
+    { "part": "p3", "anim": "zoomIn", "dur": 500, "delay": 400 },
+    { "part": "p2", "anim": "flicker", "dur": 1000, "delay": 900 }
+  ]
+}

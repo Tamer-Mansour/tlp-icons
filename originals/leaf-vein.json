@@ -1,0 +1,11 @@
+{
+  "name": "leaf-vein",
+  "category": "nature",
+  "tags": ["leaf", "vein", "midrib", "plant", "botany", "foliage"],
+  "svg": "<path class=\"d p1\" d=\"M4 20 Q4 6 20 4 Q20 18 4 20 Z\"/><path class=\"p2\" d=\"M4 20 L19 5\"/><path class=\"p3\" d=\"M8 16 L5 13 M11 13 L8 10 M14 10 L11 7\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 1000 }
+  ]
+}

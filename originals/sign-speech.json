@@ -1,0 +1,10 @@
+{
+  "name": "sign-speech",
+  "category": "communication",
+  "tags": ["sign", "language", "gesture", "hands", "speech", "deaf"],
+  "svg": "<path class=\"d p1\" d=\"M5 3h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4 3.5V16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z\"/><path class=\"p2\" d=\"M8 12V7.5M11 12V6M14 12V7.5M16.5 12V9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "wave", "dur": 1200, "delay": 700 }
+  ]
+}

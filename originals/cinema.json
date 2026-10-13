@@ -1,0 +1,10 @@
+{
+  "name": "cinema",
+  "category": "buildings",
+  "tags": ["film", "movie", "cinema", "projector", "screen"],
+  "svg": "<rect class=\"p1\" x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><polygon class=\"p2\" points=\"10,9 15,12 10,15\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 600, "delay": 900 }
+  ]
+}

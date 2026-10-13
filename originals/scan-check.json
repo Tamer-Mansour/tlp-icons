@@ -1,0 +1,10 @@
+{
+  "name": "scan-check",
+  "category": "notifications",
+  "tags": ["scan", "verified", "check", "frame", "approved"],
+  "svg": "<path class=\"p1\" d=\"M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3\"/><path class=\"p2\" d=\"M8.5 12.5l2.5 2.5 5-5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "pop", "dur": 500, "delay": 900 }
+  ]
+}

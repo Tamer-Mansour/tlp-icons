@@ -1,0 +1,11 @@
+{
+  "name": "border-check",
+  "category": "security",
+  "tags": ["border", "check", "map", "pin", "location", "verified"],
+  "svg": "<path class=\"p1\" d=\"M2 19L8 16L14 19L22 16\"/><path class=\"d p2\" d=\"M17 3A4 4 0 0 0 13 7C13 10 17 13 17 13S21 10 21 7A4 4 0 0 0 17 3Z\"/><path class=\"p3\" d=\"M15.2 7.2L16.6 8.6L18.8 5.8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 900, "delay": 0 },
+    { "part": "p2", "anim": "dropIn", "dur": 600, "delay": 700 },
+    { "part": "p3", "anim": "draw", "dur": 400, "delay": 1200 }
+  ]
+}

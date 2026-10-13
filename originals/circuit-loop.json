@@ -1,0 +1,10 @@
+{
+  "name": "circuit-loop",
+  "category": "science",
+  "tags": ["circuit", "loop", "battery", "wire", "current"],
+  "svg": "<path class=\"p1\" d=\"M8.5 6H3V18H21V6H15.5\"/><line class=\"p2\" x1=\"10.5\" y1=\"3\" x2=\"10.5\" y2=\"9\"/><line class=\"p2\" x1=\"13.5\" y1=\"4.5\" x2=\"13.5\" y2=\"7.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 1200, "delay": 0 },
+    { "part": "p2", "anim": "flicker", "dur": 600, "delay": 1000 }
+  ]
+}

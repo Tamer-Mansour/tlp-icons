@@ -1,0 +1,11 @@
+{
+  "name": "error-log",
+  "category": "development",
+  "tags": ["error", "log", "document", "failure", "report", "text"],
+  "svg": "<path class=\"d p1\" d=\"M6 3h8l4 4v14H6z\"/><path class=\"p2\" d=\"M9 9.5h6M9 18.5h4\"/><path class=\"p3\" d=\"M10 12.5l4 4M14 12.5l-4 4\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "growX", "dur": 400, "delay": 600 },
+    { "part": "p3", "anim": "shake", "dur": 500, "delay": 1000 }
+  ]
+}

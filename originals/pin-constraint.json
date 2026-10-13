@@ -1,0 +1,11 @@
+{
+  "name": "pin-constraint",
+  "category": "design",
+  "tags": ["pin", "constraint", "pushpin", "corner", "design"],
+  "svg": "<rect class=\"d p1\" x=\"3\" y=\"9\" width=\"12\" height=\"12\" rx=\"1\"/><circle class=\"p2\" cx=\"18\" cy=\"5\" r=\"2.5\"/><path class=\"p3\" d=\"M16.2 6.8 14.5 9.5\"/>",
+  "motion": [
+    { "part": "p1", "anim": "popIn", "dur": 500, "delay": 0 },
+    { "part": "p3", "anim": "draw", "dur": 300, "delay": 300 },
+    { "part": "p2", "anim": "tap", "dur": 500, "delay": 800 }
+  ]
+}

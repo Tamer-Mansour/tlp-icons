@@ -1,0 +1,11 @@
+{
+  "name": "forest-clearing",
+  "category": "buildings",
+  "tags": ["forest", "clearing", "trees", "woods", "nature", "glade"],
+  "svg": "<ellipse class=\"d p1\" cx=\"12\" cy=\"19.5\" rx=\"8\" ry=\"2\"/><path class=\"p2\" d=\"M5 14l3-6 3 6z\"/><path class=\"p3\" d=\"M14 14l3-6 3 6z\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 400, "delay": 500 },
+    { "part": "p3", "anim": "sway", "dur": 800, "delay": 1100 }
+  ]
+}

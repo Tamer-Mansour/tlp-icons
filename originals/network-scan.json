@@ -1,0 +1,10 @@
+{
+  "name": "network-scan",
+  "category": "security",
+  "tags": ["security", "network", "scan", "nodes", "magnifier", "discovery"],
+  "svg": "<circle class=\"p1\" cx=\"5\" cy=\"6\" r=\"2\"/><circle class=\"p1\" cx=\"5\" cy=\"18\" r=\"2\"/><circle class=\"p1\" cx=\"9\" cy=\"12\" r=\"2\"/><path class=\"p1\" d=\"M7 7 L8.2 10.2 M7 17 L8.2 13.8\"/><circle class=\"p2\" cx=\"17\" cy=\"13\" r=\"3.5\"/><path class=\"p2\" d=\"M19.5 15.5 L22 18\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "scanX", "dur": 1000, "delay": 800 }
+  ]
+}

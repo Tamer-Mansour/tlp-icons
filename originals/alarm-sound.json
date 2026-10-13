@@ -1,0 +1,11 @@
+{
+  "name": "alarm-sound",
+  "category": "media",
+  "tags": ["alarm", "bell", "ring", "sound", "wake"],
+  "svg": "<path class=\"p1\" d=\"M6 15v-4a6 6 0 0 1 12 0v4l2 2H4z\"/><path class=\"p2\" d=\"M10 20.5h4\"/><path class=\"p3\" d=\"M2 8h2M20 8h2M4.5 4.5l1.5 1.5M19.5 4.5L18 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 800, "delay": 0 },
+    { "part": "p2", "anim": "popIn", "dur": 300, "delay": 500 },
+    { "part": "p3", "anim": "pulseRing", "dur": 900, "delay": 900 }
+  ]
+}

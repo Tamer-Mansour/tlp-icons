@@ -1,0 +1,11 @@
+{
+  "name": "geyser",
+  "category": "nature",
+  "tags": ["geyser", "water", "eruption", "steam", "nature"],
+  "svg": "<path class=\"d p1\" d=\"M3 21 C6 17 9 16 12 16 C15 16 18 17 21 21 Z\"/><path class=\"p2\" d=\"M12 15 V5\"/><path class=\"p3\" d=\"M9 8 L7 6\"/><path class=\"p3\" d=\"M15 8 L17 6\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "draw", "dur": 500, "delay": 500 },
+    { "part": "p3", "anim": "pump", "dur": 800, "delay": 1000 }
+  ]
+}

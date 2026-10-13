@@ -1,0 +1,11 @@
+{
+  "name": "exhibition-hall",
+  "category": "buildings",
+  "tags": ["exhibition", "hall", "display", "easel", "banner", "gallery"],
+  "svg": "<path class=\"p1\" d=\"M3 21V8l9-5 9 5v13\"/><rect class=\"d p2\" x=\"8\" y=\"7\" width=\"8\" height=\"6\" rx=\"0.5\"/><path class=\"p3\" d=\"M10 13l-2 8M14 13l2 8\"/>",
+  "motion": [
+    { "part": "p1", "anim": "draw", "dur": 700, "delay": 0 },
+    { "part": "p2", "anim": "fillIn", "dur": 600, "delay": 400 },
+    { "part": "p3", "anim": "draw", "dur": 500, "delay": 900 }
+  ]
+}

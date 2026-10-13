@@ -1,0 +1,10 @@
+{
+  "name": "drip",
+  "category": "nature",
+  "tags": ["drip", "drop", "water", "leak", "rain"],
+  "svg": "<path class=\"d p1\" d=\"M12 3 C12 3 6.5 9.5 6.5 13.5 A5.5 5.5 0 0 0 17.5 13.5 C17.5 9.5 12 3 12 3 Z\"/><path class=\"p2\" d=\"M8 21 H16\"/>",
+  "motion": [
+    { "part": "p1", "anim": "fillIn", "dur": 600, "delay": 0 },
+    { "part": "p2", "anim": "stretch", "dur": 800, "delay": 800 }
+  ]
+}
