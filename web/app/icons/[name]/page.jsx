@@ -40,7 +40,7 @@ export default async function IconPage({ params }) {
   const total = Math.round(Math.max(...i.m.map(s => s[2] + s[3])) * SPEED);
   const jsonLd = {
     '@context': 'https://schema.org', '@type': 'ImageObject', name: `${t} icon`, contentUrl: `${SITE_URL}/icons/${name}/`,
-    encodingFormat: 'image/svg+xml', license: 'https://opensource.org/licenses/MIT', creditText: src.title, keywords: (i.tags || []).join(', '),
+    encodingFormat: 'image/svg+xml', license: `https://opensource.org/licenses/${src.license === 'ISC' ? 'ISC' : 'MIT'}`, acquireLicensePage: `${SITE_URL}/licenses/`, creditText: src.title, keywords: (i.tags || []).join(', '),
   };
   return (
     <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">

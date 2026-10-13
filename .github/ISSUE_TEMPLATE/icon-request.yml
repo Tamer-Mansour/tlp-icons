@@ -1,0 +1,44 @@
+name: Icon request
+description: Ask for a new icon. Add a 👍 to existing requests to vote; the most-voted requests go into the next batch.
+title: "Icon request: "
+labels: ["icon request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Icon name
+      description: Kebab-case, e.g. `court-calendar`.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Legal & Government
+        - Health & Medical
+        - Finance & Money
+        - Shopping & Commerce
+        - Science & Education
+        - Maps & Travel
+        - People & Accounts
+        - Buildings & Places
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should it show, and how should it move?
+      description: A short description of the drawing and the animation you imagine.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched https://tlp-icons.netlify.app/icons/ and this icon does not exist yet.
+          required: true
+        - label: This is not a company logo or trademark (we do not add new brand logos).
+          required: true

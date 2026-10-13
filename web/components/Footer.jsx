@@ -46,7 +46,7 @@ export default function Footer({ count, cats }) {
       </div>
       <div className="border-t border-line">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-6 text-xs text-ink-3 sm:px-6">
-          <p>MIT License · Icon geometry from <a className="hover:text-brand" href="https://lucide.dev" target="_blank" rel="noopener">Lucide</a> (ISC) and <a className="hover:text-brand" href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT).</p>
+          <p>MIT License · Icon geometry from <a className="hover:text-brand" href="https://lucide.dev" target="_blank" rel="noopener">Lucide</a> (ISC) and <a className="hover:text-brand" href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT) · <Link className="hover:text-brand" href="/licenses/">Licenses &amp; credits</Link></p>
           <p>Brand logos are trademarks of their respective owners.</p>
         </div>
       </div>

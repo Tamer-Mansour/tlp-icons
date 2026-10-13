@@ -22,13 +22,14 @@ npm run test:browser   # browser tests + frame strips in test/browser/shots/
 
 `npm run build` also rewrites the numbers in `README.md` and the `package.json` description from
 `dist/stats.json`, the size table from `dist/size-report.json`, and the framework recipes from `test/recipes/`. Commit
-those changes with your PR. The build fails if the element core goes over 8 KB gzip or the manifest over 15 KB gzip.
+those changes with your PR. The build fails if the element core goes over 8 KB gzip.
 
 ## Common changes
 
 - **New icon:** add `originals/<name>.json` (24×24, 2px stroke, round caps, parts `p1`..`p4`, `motion` steps).
   Check it with `node scripts/check-originals.mjs review <name>`, which validates the icon and writes review images
-  without touching `dist/`. Pick names from the planned lists in [ROADMAP.md](ROADMAP.md).
+  without touching `dist/` (`--no-images` validates only). Draw it yourself: never copy or trace geometry from another
+  icon set (Font Awesome, Material, Heroicons...), and no company logos. Pick names from the planned lists in [ROADMAP.md](ROADMAP.md).
 - **Better motion for one icon:** `overrides/<name>.json`.
 - **Better motion for many icons:** a rule in `config/rules.json`.
 - **Wrong category:** `config/categories.json`.
