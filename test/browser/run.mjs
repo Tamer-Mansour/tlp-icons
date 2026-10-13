@@ -243,7 +243,7 @@ await test('disconnecting while loading never renders into the detached node; tl
   assert.deepEqual(r.ev, { bubbles: true, composed: true, name: 'clock' });
 });
 
-await test('ES module build: lazy loader fetches exactly one chunk per category used', async () => {
+await test('ES module build: lazy loader fetches exactly one small bucket per name used, and the keyframes once', async () => {
   const http = await import('node:http');
   const types = { '.js': 'text/javascript', '.html': 'text/html', '.css': 'text/css', '.map': 'application/json' };
   const server = http.createServer((req, res) => {
@@ -259,7 +259,8 @@ await test('ES module build: lazy loader fetches exactly one chunk per category 
   const p = await browser.newPage();
   const chunks = new Set();
   const errs = [];
-  p.on('request', r => { const m = r.url().match(/\/dist\/icons\/([a-z]+)\.js/); if (m) chunks.add(m[1]); });
+  const requests = [];
+  p.on('request', r => { requests.push(r.url()); const m = r.url().match(/\/dist\/icons\/(\d+)\.js/); if (m) chunks.add(m[1]); });
   p.on('pageerror', e => errs.push(e.message));
   try {
     await p.goto(`http://localhost:${port}/`);
@@ -268,9 +269,14 @@ await test('ES module build: lazy loader fetches exactly one chunk per category 
     const missing = await p.evaluate(() => document.querySelector('tlp-icon[name="nope-not-real"]').hasAttribute('data-missing'));
     assert.deepEqual(errs, []);
     assert.ok(missing, 'unknown name should get data-missing');
-    // bell, bell-ring -> notifications; courthouse -> legal; trash-2 (alias of trash) -> interface; plus the unknown name's chunk
-    for (const c of ['notifications', 'legal', 'interface']) assert.ok(chunks.has(c), `chunk ${c} not loaded (loaded: ${[...chunks]})`);
-    assert.ok(chunks.size <= 4, `too many chunks: ${[...chunks]}`);
+    // one bucket per name (the alias trash-2 also loads the bucket of its target, trash), plus the keyframes once
+    const { bucketOf } = await import('../../scripts/lib/manifest.mjs');
+    const n = fs.readdirSync(path.join(ROOT, 'dist', 'icons')).length;
+    const expected = new Set(['bell', 'bell-ring', 'courthouse', 'trash-2', 'trash', 'nope-not-real'].map(x => String(bucketOf(x, n))));
+    assert.deepEqual([...chunks].sort(), [...expected].sort(), 'exactly the buckets of the names on the page');
+    assert.equal(requests.filter(u => u.endsWith('/dist/anims.js')).length, 1, 'keyframes load once');
+    assert.ok(!requests.some(u => u.includes('manifest')), 'the element never loads the manifest');
+    assert.ok(await p.evaluate(() => /@keyframes tlp-swing\{/.test(document.getElementById('tlp-icons-style').textContent)), 'keyframes injected');
   } finally {
     await p.close();
     server.close();

@@ -194,27 +194,60 @@ test('siblings sit next to each other (arrow-up/down/left/right)', () => {
   assert.ok(Math.max(...idx) - Math.min(...idx) === 3, `positions ${idx}`);
 });
 
-test('dist has per-category chunks and the manifest maps every name (and alias target) to its chunk', async () => {
+test('the manifest maps every name to its category; category modules ship in tlp-icons-data', async () => {
   const { categoryOf, MANIFEST, CATEGORIES, ALIASES } = await import('../dist/manifest.js');
-  for (const c of CATEGORIES) assert.ok(exists(`dist/icons/${c.id}.js`), `chunk ${c.id} missing`);
   const wrong = names.filter(n => categoryOf(n) !== D.icons[n].category);
   assert.deepEqual(wrong.slice(0, 10), [], `${wrong.length} names map to the wrong category`);
   assert.equal(MANIFEST.bell, D.icons.bell.category, 'MANIFEST[name] stays usable');
   for (const target of Object.values(ALIASES)) assert.ok(D.icons[target], `alias target ${target} missing`);
-  const chunk = (await import('../dist/icons/time.js')).default;
-  for (const n of Object.keys(chunk)) assert.equal(categoryOf(n), 'time');
-  assert.ok(CATEGORIES.map(c => c.id).includes(categoryOf('definitely-not-an-icon')), 'unknown names still map to a real chunk');
+  for (const c of CATEGORIES) assert.ok(exists(`packages/tlp-icons-data/icons/${c.id}.js`), `category module ${c.id} missing`);
+  const time = (await import('../packages/tlp-icons-data/icons/time.js')).default;
+  assert.ok(Object.keys(time).length === D.categories.find(c => c.id === 'time').count);
+  for (const n of Object.keys(time)) assert.equal(categoryOf(n), 'time');
 });
 
-test('lazy loader uses one static import() per category (bundlers like Vite can split them from node_modules)', () => {
+test('every icon and alias sits in the hash bucket the element computes from its name', async () => {
+  const { bucketOf } = await import('../scripts/lib/manifest.mjs');
+  const files = fs.readdirSync(path.join(ROOT, 'dist', 'icons')).filter(f => /^\d+\.js$/.test(f));
+  const n = files.length;
   const code = fs.readFileSync(path.join(ROOT, 'dist', 'tlp-icon.js'), 'utf8');
-  for (const c of D.categories) assert.ok(code.includes(`import("./icons/${c.id}.js")`), `no static import for ${c.id}`);
+  assert.match(code, new RegExp(`%\\s*${n}\\b`), 'the loader uses the bucket count');
+  let total = 0;
+  for (const f of files) {
+    const m = await import(`../dist/icons/${f}`);
+    const k = parseInt(f, 10);
+    for (const name of Object.keys(m.default)) { assert.equal(bucketOf(name, n), k, `${name} in the wrong bucket`); total++; }
+    for (const a of Object.keys(m.a || {})) assert.equal(bucketOf(a, n), k, `alias ${a} in the wrong bucket`);
+  }
+  assert.equal(total, names.length);
+});
+
+test('lazy loader uses one static import() per bucket (bundlers like Vite can split them from node_modules)', () => {
+  const code = fs.readFileSync(path.join(ROOT, 'dist', 'tlp-icon.js'), 'utf8');
+  const n = fs.readdirSync(path.join(ROOT, 'dist', 'icons')).length;
+  for (let k = 0; k < n; k++) assert.ok(code.includes(`import("./icons/${k}.js")`), `no static import for bucket ${k}`);
+  assert.ok(code.includes('import("./anims.js")'), 'keyframes load lazily');
+  assert.ok(!code.includes('manifest.js'), 'the element does not need the manifest');
   assert.ok(!/import\(`/.test(code), 'template-literal import() is invisible to Vite inside node_modules');
 });
 
-test('manifest stays small (under 20 KB gzip, the build limit)', async () => {
+test('the element core carries no @keyframes; anims.js has every animation', async () => {
+  const core = fs.readFileSync(path.join(ROOT, 'dist', 'core.js'), 'utf8');
+  assert.ok(!core.includes('@keyframes'), 'keyframes must not be inlined in the core');
+  const kf = (await import('../dist/anims.js')).default;
+  assert.equal(Object.keys(kf).length, readJson('dist/stats.json').animations);
+  for (const [k, v] of Object.entries(kf)) assert.ok(v.startsWith(`@keyframes tlp-${k}{`), k);
+});
+
+test('manifest stays under its 40 KB gzip limit', async () => {
   const zlib = await import('node:zlib');
-  const fsMod = await import('node:fs');
-  const gz = zlib.gzipSync(fsMod.readFileSync(path.join(ROOT, 'dist', 'manifest.js')), { level: 9 }).length;
-  assert.ok(gz < 20 * 1024, `manifest.js is ${(gz / 1024).toFixed(1)} KB gzip`);
+  const gz = zlib.gzipSync(fs.readFileSync(path.join(ROOT, 'dist', 'manifest.js')), { level: 9 }).length;
+  assert.ok(gz < 40 * 1024, `manifest.js is ${(gz / 1024).toFixed(1)} KB gzip`);
+});
+
+test('every animation in the library is used by at least one icon', () => {
+  const used = new Set(names.flatMap(n => D.icons[n].m.map(s => s[1])));
+  const unused = Object.keys(ANIMS).filter(a => !used.has(a));
+  assert.deepEqual(unused, []);
+  assert.equal(Object.keys(ANIMS).length, readJson('dist/stats.json').animations);
 });

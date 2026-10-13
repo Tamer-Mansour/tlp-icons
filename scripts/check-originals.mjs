@@ -3,6 +3,8 @@
 // review images: a static sheet (icons at rest, large) and frame strips (motion frozen at 8 points).
 //   node scripts/check-originals.mjs <out-name> <name> [<name> ...]
 //   node scripts/check-originals.mjs <out-name> --category health
+//   node scripts/check-originals.mjs <out-name> --all --no-images
+//   --no-images: validate only (fast, no browser); --all: every original
 // Images: test/browser/shots/<out-name>-sheet.png and <out-name>-strips.png
 import fs from 'node:fs';
 import path from 'node:path';
@@ -24,7 +26,7 @@ const categories = new Set(readJson('config/categories.json').categories.map(c =
 const dir = path.join(ROOT, 'originals');
 const all = fs.readdirSync(dir).filter(f => f.endsWith('.json') && !f.startsWith('_')).map(f => f.slice(0, -5));
 
-let names = args.filter(a => !a.startsWith('--'));
+let names = args.includes('--all') ? all : args.filter(a => !a.startsWith('--'));
 if (args.includes('--category')) {
   const cat = args[args.indexOf('--category') + 1];
   names = all.filter(n => { try { return readJson(`originals/${n}.json`).category === cat; } catch { return true; } });
@@ -35,7 +37,7 @@ for (const n of names) {
   const file = path.join(dir, `${n}.json`);
   if (!fs.existsSync(file)) { problems.push(`${n}: originals/${n}.json not found`); continue; }
   let o;
-  try { o = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { problems.push(`${n}: invalid JSON (${e.message})`); continue; }
+  try { o = JSON.parse(fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '')); } catch (e) { problems.push(`${n}: invalid JSON (${e.message})`); continue; }
   const p = m => problems.push(`${n}: ${m}`);
   if (o.name !== n) p(`"name" must be "${n}"`);
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(n)) p('name must be kebab-case');
@@ -77,7 +79,7 @@ for (const n of names) {
 const seen = new Map();
 for (const n of all) { const k = n; if (seen.has(k)) problems.push(`duplicate original ${k}`); seen.set(k, 1); }
 
-if (icons.length) {
+if (icons.length && !args.includes('--no-images')) {
   const css = runtimeCss();
   const shots = path.join(ROOT, 'test', 'browser', 'shots');
   fs.mkdirSync(shots, { recursive: true });

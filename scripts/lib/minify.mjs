@@ -8,7 +8,7 @@ import zlib from 'node:zlib';
 import { createRequire } from 'node:module';
 
 // no source map: pure data, or (jsx.js) an empty types-only stub
-const DATA_FILES = new Set(['tlp-icons.all.js', 'jsx.js']);
+const DATA_FILES = new Set(['tlp-icons.all.js', 'jsx.js', 'anims.js']);
 const CLASSIC_SCRIPTS = new Set(['tlp-icons.all.js', 'tlp-icons.runtime.js']);
 
 export function minifyDist(ROOT, DIST, banner) {
@@ -57,18 +57,20 @@ export function sizeReport(DIST, limits) {
     return { label, files: rels, raw, gzip };
   };
   const chunks = fs.readdirSync(path.join(DIST, 'icons')).filter(f => f.endsWith('.js')).map(f => ({ f, size: read(`icons/${f}`).length })).sort((a, b) => a.size - b.size);
+  const avg = chunks.reduce((t, c) => t + gz(read(`icons/${c.f}`)), 0) / chunks.length;
   const rows = [
     measure('element core (tlp-icon + core + element)', ['tlp-icon.js', 'core.js', 'element.js']),
-    measure('manifest', ['manifest.js']),
-    measure(`smallest category chunk (${chunks[0].f})`, [`icons/${chunks[0].f}`]),
-    measure(`largest category chunk (${chunks.at(-1).f})`, [`icons/${chunks.at(-1).f}`]),
+    measure('manifest (optional: categoryOf, CATEGORIES, ALIASES)', ['manifest.js']),
+    measure(`smallest icon bucket (icons/${chunks[0].f})`, [`icons/${chunks[0].f}`]),
+    measure(`largest icon bucket (icons/${chunks.at(-1).f})`, [`icons/${chunks.at(-1).f}`]),
+    measure('keyframes (anims.js, loaded with the first icon)', ['anims.js']),
     measure('all icons, offline bundle (tlp-icons.all.js)', ['tlp-icons.all.js']),
     measure('stylesheet (tlp-icons.css)', ['tlp-icons.css']),
   ];
   const failures = [];
   if (rows[0].gzip > limits.elementCore) failures.push(`element core is ${(rows[0].gzip / 1024).toFixed(2)} KB gzip (limit ${(limits.elementCore / 1024).toFixed(0)} KB)`);
   if (rows[1].gzip > limits.manifest) failures.push(`manifest is ${(rows[1].gzip / 1024).toFixed(2)} KB gzip (limit ${(limits.manifest / 1024).toFixed(0)} KB)`);
-  return { rows, failures, limits };
+  return { rows, failures, limits, buckets: chunks.length, bucketGzipAvg: Math.round(avg) };
 }
 
 export function formatSizeTable(rows) {

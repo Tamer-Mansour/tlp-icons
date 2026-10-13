@@ -24,6 +24,12 @@ const HASH_SRC = `const h = (s, seed) => {
 
 const EMPTY = '~';
 
+// The element loads icons from N hash buckets: bucket = hash(name, BUCKET_SEED) % N. No lookup table ships at all;
+// an unknown name loads one small bucket and is reported as missing.
+export const BUCKET_SEED = 7;
+export const bucketOf = (name, n) => hash(name, BUCKET_SEED) % n;
+export const BUCKET_SRC = HASH_SRC.replace('const h = ', 'const hash = ');
+
 export function encodeManifest(nameToCat, catIds) {
   const names = Object.keys(nameToCat).sort();
   if (catIds.length > 70) throw new Error('too many categories for the compact manifest');

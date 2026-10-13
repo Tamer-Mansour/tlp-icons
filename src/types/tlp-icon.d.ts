@@ -80,6 +80,8 @@ export declare function toSvgString(icon: IconData, opts?: SvgOptions): string;
 export declare function hoverTarget(target: EventTarget | null): Element | { icon: Element; scope: Element } | null;
 export declare function installHover(doc?: Document): void;
 export declare function ensureStyles(doc?: Document): void;
+/** Adds @keyframes rules ({ name: '@keyframes tlp-name{...}' }) once each; the element loads them automatically. */
+export declare function addKeyframes(keyframes: Record<string, string>, doc?: Document): void;
 export declare const EASE: Record<string, string>;
 export declare const ICON_SELECTOR: string;
 export declare const CSS: string;

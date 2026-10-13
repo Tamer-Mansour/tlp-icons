@@ -8,10 +8,10 @@ import { fileURLToPath } from 'node:url';
 import { parseUpstreamSvg, ALLOWED_ATTRS, ALLOWED_ELEMENTS } from './engine/svg.mjs';
 import { atomize } from './engine/atoms.mjs';
 import { choreograph, validateRules } from './engine/motion.mjs';
-import { ANIMS, LEGACY, LIMITS, SPEED, EXTRA_EASE, runtimeCss, loadRules, holdPoints } from './engine/anims.mjs';
+import { ANIMS, LEGACY, LIMITS, SPEED, EXTRA_EASE, runtimeCss, splitCss, loadRules, holdPoints } from './engine/anims.mjs';
 import { categorize, orderIcons } from './engine/categorize.mjs';
 import { bundleRuntime } from './lib/bundle.mjs';
-import { encodeManifest, decoderSource, gzipSize } from './lib/manifest.mjs';
+import { encodeManifest, decoderSource, gzipSize, bucketOf, BUCKET_SEED, BUCKET_SRC } from './lib/manifest.mjs';
 import { minifyDist, sizeReport, formatSizeTable } from './lib/minify.mjs';
 import { run as syncDocs } from './sync-docs.mjs';
 
@@ -21,7 +21,7 @@ const outRoot = argv.includes('--out') ? path.resolve(argv[argv.indexOf('--out')
 const DIST = path.join(outRoot, 'dist');
 const writeSvgFiles = argv.includes('--svg');
 const pkg = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
-const readJson = p => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
+const readJson = p => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8').replace(/^\uFEFF/, ''));
 
 const sources = readJson('config/sources.json');
 const catConfig = readJson('config/categories.json');
@@ -53,7 +53,8 @@ const originals = new Map();
 const origDir = path.join(ROOT, 'originals');
 if (fs.existsSync(origDir)) {
   for (const f of fs.readdirSync(origDir).filter(f => f.endsWith('.json') && !f.startsWith('_')).sort()) {
-    const o = readJson(`originals/${f}`);
+    let o;
+    try { o = readJson(`originals/${f}`); } catch (e) { problems.push(`originals/${f}: ${e.message}`); continue; }
     const name = o.name || f.slice(0, -5);
     if (icons.has(name)) { problems.push(`original ${name} clashes with an upstream icon`); continue; }
     originals.set(name, o);
@@ -92,8 +93,9 @@ const env = {
     for (const [kind, words] of Object.entries(rulesConfig.mechanics)) if (tokens.some(t => words.includes(t))) return kind;
     return null;
   },
-  has: name => icons.has(name),
-  lookup: name => geometry(name)?.atoms || null,
+  // composites (file-plus = file + plus) only build on upstream geometry; originals carry their own motion
+  has: name => icons.has(name) && !icons.get(name).original,
+  lookup: name => (icons.get(name)?.original ? null : geometry(name)?.atoms || null),
   isModifier: () => true,
 };
 
@@ -198,13 +200,25 @@ const record = i => {
 const json = v => JSON.stringify(v);
 const header = `/* tlp-icons ${pkg.version} - MIT. Icons from ${snapshots.map(s => `${s.title} ${s.version} (${s.license})`).join(', ')}. Generated file, do not edit. */\n`;
 
-// per-category ESM chunks
+// hash buckets: what <tlp-icon> loads (bucket = hash(name) % N, about ICONS_PER_BUCKET icons each, aliases next to
+// their own name's bucket). No name list ships: the element computes the bucket from the name.
+const ICONS_PER_BUCKET = 56;
+const N = Math.max(16, Math.round(ordered.length / ICONS_PER_BUCKET));
+const buckets = Array.from({ length: N }, () => ({ icons: [], aliases: [] }));
+for (const i of ordered) buckets[bucketOf(i.name, N)].icons.push(i);
+for (const [a, target] of Object.entries(aliasMap).sort()) buckets[bucketOf(a, N)].aliases.push([a, target]);
+buckets.forEach((b, k) => {
+  const body = b.icons.map(i => `${json(i.name)}:${json(record(i))}`).join(',\n');
+  const al = b.aliases.length ? `export const a = ${json(Object.fromEntries(b.aliases))};\n` : '';
+  fs.writeFileSync(path.join(DIST, 'icons', `${k}.js`), `${header}export default {\n${body}\n};\n${al}`);
+});
+// per-category modules (import one category directly) ship in tlp-icons-data, so the data is not shipped twice here
 const manifest = {};
 const nameToCat = {};
+const categoryModules = {};
 for (const c of catMeta) {
   const list = ordered.filter(i => i.category === c.id);
-  const body = list.map(i => `${json(i.name)}:${json(record(i))}`).join(',\n');
-  fs.writeFileSync(path.join(DIST, 'icons', `${c.id}.js`), `${header}export default {\n${body}\n};\n`);
+  categoryModules[c.id] = `${header}export default {\n${list.map(i => `${json(i.name)}:${json(record(i))}`).join(',\n')}\n};\n`;
   manifest[c.id] = list.map(i => i.name).join(' ');
   for (const i of list) nameToCat[i.name] = c.id;
 }
@@ -229,41 +243,49 @@ if (outRoot === ROOT) {
   const dataPkg = path.join(ROOT, 'packages', 'tlp-icons-data');
   fs.copyFileSync(path.join(DIST, 'tlp-icons.json'), path.join(dataPkg, 'tlp-icons.json'));
   for (const f of ['LICENSE', 'NOTICE.md']) fs.copyFileSync(path.join(ROOT, f), path.join(dataPkg, f));
+  fs.rmSync(path.join(dataPkg, 'icons'), { recursive: true, force: true });
+  fs.mkdirSync(path.join(dataPkg, 'icons'));
+  for (const [id, code] of Object.entries(categoryModules)) fs.writeFileSync(path.join(dataPkg, 'icons', `${id}.js`), code);
   fs.rmSync(path.join(dataPkg, 'licenses'), { recursive: true, force: true });
   fs.cpSync(path.join(ROOT, 'licenses'), path.join(dataPkg, 'licenses'), { recursive: true });
 }
 
 // runtime files
 const css = runtimeCss();
-const runtime = bundleRuntime(ROOT, css, EXTRA_EASE, holdPoints(css));
+const { base: baseCss, keyframes } = splitCss(css);
+const runtime = bundleRuntime(ROOT, baseCss, keyframes, EXTRA_EASE, holdPoints(css));
 fs.writeFileSync(path.join(DIST, 'tlp-icons.css'), css);
 fs.writeFileSync(path.join(DIST, 'core.js'), header + runtime.coreEsm);
 fs.writeFileSync(path.join(DIST, 'element.js'), header + runtime.elementEsm);
-// One static import() per category: every bundler (Vite, webpack, Turbopack, Rollup, esbuild, Parcel) can see and
+// the @keyframes, fetched once together with the first bucket
+fs.writeFileSync(path.join(DIST, 'anims.js'), `${header}export default ${json(keyframes)};\n`);
+// One static import() per bucket: every bundler (Vite, webpack, Turbopack, Rollup, esbuild, Parcel) can see and
 // split them, including from node_modules (Vite does not analyse template-literal imports inside dependencies).
-const chunkLoaders = catMeta.map(c => `  ${json(c.id)}: () => import('./icons/${c.id}.js'),`).join('\n');
-fs.writeFileSync(path.join(DIST, 'tlp-icon.js'), `${header}import { setLoader, register } from './core.js';
-import { categoryOf, ALIASES } from './manifest.js';
-register({}, ALIASES);
-const CHUNKS = {
-${chunkLoaders}
-};
+fs.writeFileSync(path.join(DIST, 'tlp-icon.js'), `${header}import { setLoader, register, resolve, addKeyframes } from './core.js';
+const B = [
+${buckets.map((b, k) => `() => import('./icons/${k}.js')`).join(',\n')}
+];
+${BUCKET_SRC}
 const pending = {};
-// one network round trip per category: name -> category is a deterministic lookup (see manifest.js)
-setLoader(name => {
-  const cat = categoryOf(name);
-  return pending[cat] || (pending[cat] = CHUNKS[cat]().then(m => register(m.default)));
-});
+// the keyframes, fetched in parallel with the first bucket (also for icons you register() yourself)
+const kf = typeof document === 'undefined' ? Promise.resolve() : import('./anims.js').then(m => addKeyframes(m.default), () => {});
+// a name's bucket is computed from the name itself: one small request, no lookup table
+const load = name => {
+  const k = hash(name, ${BUCKET_SEED}) % ${N};
+  return pending[k] || (pending[k] = Promise.all([B[k](), kf]).then(([m]) => register(m.default, m.a)));
+};
+// an alias lives in its own bucket and points to the icon's name, which may be in another bucket
+setLoader(name => load(name).then(() => { const r = resolve(name); return r === name ? undefined : load(r); }));
 export * from './core.js';
 export { TlpIcon, define } from './element.js';
 `);
-const imports = catMeta.map((c, k) => `import c${k} from './icons/${c.id}.js';`).join('\n');
+const imports = buckets.map((b, k) => `import * as b${k} from './icons/${k}.js';`).join('\n');
 fs.writeFileSync(path.join(DIST, 'index.js'), `${header}${imports}
 import { toSvgString, timings } from './core.js';
 export { CATEGORIES as categories, ALIASES as aliases } from './manifest.js';
 import { ALIASES } from './manifest.js';
 /** Every icon: { name: { svg, m, r? } }. svg = inner markup (24x24, stroke=currentColor), m = motion steps [part, anim, dur, delay, origin?]. */
-export const icons = Object.assign({}, ${catMeta.map((c, k) => `c${k}`).join(', ')});
+export const icons = Object.assign({}, ${buckets.map((b, k) => `b${k}.default`).join(', ')});
 export function getIcon(name) { return icons[name] || icons[ALIASES[name]] || null; }
 /** SVG markup string. opts: { size, stroke, duotone, animated } */
 export function getSvg(name, opts = {}) { const i = getIcon(name); return i ? toSvgString(i, opts) : null; }
@@ -292,8 +314,8 @@ if (writeSvgFiles) {
 
 // ------------------------------------------------------------------ minify + size report
 minifyDist(ROOT, DIST, header);
-// the manifest grows with the icon count (~1.4 bytes gzip per name); 20 KB covers about 15,000 icons
-const sizes = sizeReport(DIST, { elementCore: 8 * 1024, manifest: 20 * 1024 });
+// the manifest grows with the icon count (~1.4 bytes gzip per name) but is no longer on the element's path
+const sizes = sizeReport(DIST, { elementCore: 8 * 1024, manifest: 40 * 1024 });
 fs.writeFileSync(path.join(DIST, 'size-report.json'), `${JSON.stringify({ version: pkg.version, manifestBeforeAfter: manifestSizes, ...sizes }, null, 2)}\n`);
 if (outRoot === ROOT) {
   // the offline single-file bundle (runtime + every icon) ships in tlp-icons-data, keeping tlp-icons small

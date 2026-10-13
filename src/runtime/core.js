@@ -268,13 +268,26 @@ export function installHover(doc = currentDocument()) {
 }
 
 let styleInjected = false;
+/** Base styles only; the @keyframes arrive with the icons (addKeyframes), so the core stays small. */
 export const CSS = '/*__CSS__*/';
+const kfDone = Object.create(null);
+let kfText = '';
+const styleEl = doc => doc && doc.getElementById('tlp-icons-style');
 export function ensureStyles(doc = currentDocument()) {
   if (styleInjected || !doc || !doc.head) return;
   styleInjected = true;
-  if (doc.getElementById('tlp-icons-style') || CSS.length < 20) return;
+  if (styleEl(doc) || CSS.length < 20) return;
   const style = doc.createElement('style');
   style.id = 'tlp-icons-style';
-  style.textContent = CSS;
+  style.textContent = CSS + kfText;
   doc.head.appendChild(style);
+}
+/** Adds keyframes { name: '@keyframes tlp-name{...}' } once each (no-op for names already added). */
+export function addKeyframes(map, doc = currentDocument()) {
+  let add = '';
+  for (const k in map) if (!kfDone[k]) { kfDone[k] = 1; add += map[k]; }
+  if (!add) return;
+  kfText += add;
+  const el = styleInjected && styleEl(doc);
+  if (el) el.textContent += add;
 }
