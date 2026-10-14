@@ -67,15 +67,16 @@ gears spin on their axle, bells swing from the top, trash lids lift, arrows move
 - **<!--s:icons-->26,278<!--/s--> icons**: 24×24 grid, 2px stroke, round caps, `currentColor`. One consistent style.
 - **100% animated**: <!--s:handmade-->20,097<!--/s--> hand-made choreographies, plus a motion engine that reads each icon's geometry.
 - **Deep fields**: we draw our own icons where the free sets stop (<!--s:originals-->19,835<!--/s--> tlp originals). Legal
-  (<!--s:cat.legal-->1,180<!--/s-->), health (<!--s:cat.health-->1,200<!--/s-->), finance (<!--s:cat.finance-->1,100<!--/s-->), commerce (<!--s:cat.commerce-->1,001<!--/s-->) and maps (<!--s:cat.maps-->1,000<!--/s-->) are at their
-  targets; the [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) takes the whole library to 26,000.
+  (<!--s:cat.legal-->1,180<!--/s-->), health (<!--s:cat.health-->1,200<!--/s-->), finance (<!--s:cat.finance-->1,100<!--/s-->), science (<!--s:cat.science-->1,004<!--/s-->), people (<!--s:cat.people-->1,004<!--/s-->)... every
+  category is at its [roadmap](https://github.com/Tamer-Mansour/tlp-icons/blob/main/ROADMAP.md) target.
 - **<!--s:animations-->100<!--/s--> animations**: draw, pop, swing, spin... plus beat for hearts, sway for plants, flutter for flags,
   drive for vehicles, wave for hands, drip for drops: each icon gets the motion that fits what it is.
 - **Hover and hold**: `trigger="hold"` animates to the peak on hover and stays there, then returns when the mouse leaves.
   `animated="false"` (or `config.animated = false`) makes icons static.
 - **Brand logos**: <!--s:brands-->376<!--/s--> brands in the same outline style, animated (trademarks of their owners, see `NOTICE.md`).
 - **Tiny runtime**: one custom element, `<tlp-icon>`. Works in plain HTML, React, Angular, Vue, Svelte...
-- **Lazy**: icons load per category, so a page that uses 10 icons doesn't download all <!--s:icons-->26,278<!--/s-->.
+- **Light**: icons load in small buckets of about 56 (3-6 KB gzip), computed from the name with no lookup table, so a
+  page with one icon downloads about 13 KB in total, not all <!--s:icons-->26,278<!--/s-->. No icon font, no font files.
 - **Polite motion**: plays once to the end, never animates a whole card at once, respects `prefers-reduced-motion`.
 - **Works offline**: one classic script with every icon (in `tlp-icons-data`) runs from `file://`, and the build never needs the network.
 
@@ -383,8 +384,8 @@ if you prefer a `<link>`.
 ## Website
 
 **https://tlp-icons.netlify.app** is built with **Next.js (React)** in `web/` and runs on the **published npm
-package** (`"tlp-icons": "^0.1.0"`; the icon pages load it from `cdn.jsdelivr.net/npm/tlp-icons`). Every page is
-pre-rendered static HTML for search engines, and the whole site is about 45 MB:
+package** (`"tlp-icons": "^0.5.0"`; the icon pages load it from `cdn.jsdelivr.net/npm/tlp-icons`). Every page is
+pre-rendered static HTML for search engines, and the whole site is about 164 MB (27,000 files; each icon page is about 5 KB):
 
 | Page | URL |
 | --- | --- |
@@ -394,12 +395,13 @@ pre-rendered static HTML for search engines, and the whole site is about 45 MB:
 | Categories, one page each, including Brands | `/categories/`, `/categories/<id>/` |
 | Documentation with live examples and the animation library | `/docs/` |
 | Roadmap with live progress | `/roadmap/` |
+| Licenses & credits: every source, its icon count and the full license texts | `/licenses/` |
 | `sitemap.xml`, `robots.txt`, Open Graph image | |
 
 ```bash
 cd web && npm install         # installs tlp-icons from npm
 npm run dev                    # http://localhost:3000
-npm run build                  # static site in web/out (about 45 MB, 6,900 files)
+npm run build                  # static site in web/out (about 164 MB, 27,000 files)
 node scripts/serve.mjs         # serve web/out on http://localhost:4321
 ```
 

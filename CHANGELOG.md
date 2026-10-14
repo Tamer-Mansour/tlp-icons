@@ -4,6 +4,14 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.5.1] - 2026-10-14
+
+### Docs
+
+- README: feature list for the reached roadmap and the bucket loader (about 13 KB gzip for one icon), the new
+  `/licenses/` page, website size (164 MB, 27,000 files) and version.
+- Website on tlp-icons 0.5.0: 26,278 icon pages, all 100 animations in the docs, licenses page.
+
 ## [0.5.0] - 2026-10-13
 
 ### Added
