@@ -4,6 +4,15 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.5.2] - 2026-10-21
+
+### Changed
+
+- New brand identity for tlp-icons: the circle / square / triangle symbol with a moving glyph, in the shared TLP
+  palette (burgundy `#741D3D`, rose `#BE617A`, ivory `#FAF4ED`, ink `#2B2228`, sage `#A9B9AE`).
+- Website re-themed to the TLP palette (header and footer logo, favicon, touch icon, social image, code blocks,
+  category colours) and a "A TLP product" mark in the footer. Brand kits are kept in `branding/`.
+
 ## [0.5.1] - 2026-10-14
 
 ### Docs
