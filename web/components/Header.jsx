@@ -14,7 +14,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 border-b border-line/80 bg-white/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6">
         <Link href="/" className="group flex items-center gap-2.5" aria-label="tlp-icons home">
-          <img src="/logo.svg" alt="" width="34" height="34" className="size-[34px] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105" />
+          <img src="/brand/tlp-icons-intro-once.svg" alt="" width="34" height="34" className="size-[34px] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105" />
           <span className="text-[17px] font-bold tracking-tight">tlp-icons</span>
           <span className="hidden rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] font-semibold text-ink-2 sm:inline">v{pkg.version}</span>
         </Link>

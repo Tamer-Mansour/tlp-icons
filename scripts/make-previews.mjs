@@ -14,30 +14,30 @@ const OUT = path.join(ROOT, 'docs', 'media');
 fs.mkdirSync(OUT, { recursive: true });
 
 const CSS = `
-body{margin:0;background:#fff;font:600 15px 'Segoe UI',system-ui,sans-serif;color:#0b1020}
-.scene{width:560px;height:180px;display:flex;align-items:center;justify-content:center;gap:22px;position:relative;background:linear-gradient(135deg,#f8f9ff,#eef0ff)}
-.cap{position:absolute;bottom:10px;left:0;right:0;text-align:center;font:500 12px ui-monospace,Consolas,monospace;color:#6b7591}
-.btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 18px;border-radius:12px;background:#4f46e5;color:#fff;font-weight:600;transition:none;box-shadow:0 8px 20px -10px #4f46e5}
-.btn.soft{background:#e0e3ff;color:#4338ca;box-shadow:none}
-.btn.ghost{background:#fff;color:#0b1020;box-shadow:0 0 0 1px #e2e5ef}
+body{margin:0;background:#FAF4ED;font:600 15px 'Segoe UI',system-ui,sans-serif;color:#2B2228}
+.scene{width:560px;height:180px;display:flex;align-items:center;justify-content:center;gap:22px;position:relative;background:linear-gradient(135deg,#FAF4ED,#f3e4e0)}
+.cap{position:absolute;bottom:10px;left:0;right:0;text-align:center;font:500 12px ui-monospace,Consolas,monospace;color:#8f7d86}
+.btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 18px;border-radius:12px;background:#741D3D;color:#fff;font-weight:600;transition:none;box-shadow:0 8px 20px -10px #741D3D}
+.btn.soft{background:#f0cdd8;color:#5e1832;box-shadow:none}
+.btn.ghost{background:#fff;color:#2B2228;box-shadow:0 0 0 1px #e3d6cc}
 .btn.hover{filter:brightness(1.12);transform:translateY(-2px)}
 .btn tlp-icon{--tlp-size:20px;--tlp-stroke:2}
 .cursor{position:absolute;width:22px;height:22px;pointer-events:none;z-index:9}
-.tile{width:84px;height:84px;border-radius:22px;background:#fff;display:grid;place-items:center;color:#4f46e5;box-shadow:0 10px 24px -14px rgba(30,27,75,.4),0 0 0 1px #e7e9f1}
+.tile{width:84px;height:84px;border-radius:22px;background:#fff;display:grid;place-items:center;color:#741D3D;box-shadow:0 10px 24px -14px rgba(30,27,75,.4),0 0 0 1px #eadfd6}
 .tile tlp-icon{--tlp-size:44px;--tlp-stroke:1.75}
-.panel{display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 20px;border-radius:16px;background:#fff;box-shadow:0 0 0 1px #e7e9f1}
-.panel small{font:500 11px ui-monospace,Consolas,monospace;color:#6b7591}
+.panel{display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 20px;border-radius:16px;background:#fff;box-shadow:0 0 0 1px #eadfd6}
+.panel small{font:500 11px ui-monospace,Consolas,monospace;color:#8f7d86}
 .duo{--tlp-duo:.22}
 .noduo{--tlp-duo:0}
 .scene.tall{height:236px;flex-direction:column;gap:10px}
 .row{display:flex;gap:12px}
-.mini{width:64px;height:64px;border-radius:18px;background:#fff;display:grid;place-items:center;color:#4f46e5;box-shadow:0 8px 20px -14px rgba(30,27,75,.4),0 0 0 1px #e7e9f1;--tlp-duo:.18}
+.mini{width:64px;height:64px;border-radius:18px;background:#fff;display:grid;place-items:center;color:#741D3D;box-shadow:0 8px 20px -14px rgba(30,27,75,.4),0 0 0 1px #eadfd6;--tlp-duo:.18}
 .mini tlp-icon{--tlp-size:34px;--tlp-stroke:1.75}
-.field{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 12px 8px;border-radius:16px;background:#fff;color:#4f46e5;box-shadow:0 0 0 1px #e7e9f1;--tlp-duo:.18}
+.field{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 12px 8px;border-radius:16px;background:#fff;color:#741D3D;box-shadow:0 0 0 1px #eadfd6;--tlp-duo:.18}
 .field .icons{display:flex;gap:8px}
 .field tlp-icon{--tlp-size:30px;--tlp-stroke:1.75}
-.field small{font:600 11px 'Segoe UI',system-ui,sans-serif;color:#6b7591}
-.tile.on{box-shadow:0 14px 30px -14px rgba(79,70,229,.55),0 0 0 2px #c7cbff}
+.field small{font:600 11px 'Segoe UI',system-ui,sans-serif;color:#8f7d86}
+.tile.on{box-shadow:0 14px 30px -14px rgba(79,70,229,.55),0 0 0 2px #de97ab}
 `;
 // loop every icon of a scene: play, short pause, play... (staggered so the grid never moves in lockstep)
 const LOOP_ALL = gap => `(t) => {
@@ -48,7 +48,7 @@ const LOOP_ALL = gap => `(t) => {
     svg.getAnimations({ subtree: true }).forEach(a => { a.pause(); a.currentTime = Math.min(dt, total); });
   });
 }`;
-const CURSOR = '<svg class="cursor" viewBox="0 0 24 24"><path d="M5 3l14 8-6.5 1.5L10 19z" fill="#0b1020" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg>';
+const CURSOR = '<svg class="cursor" viewBox="0 0 24 24"><path d="M5 3l14 8-6.5 1.5L10 19z" fill="#2B2228" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg>';
 
 const SCENES = [
   {
@@ -153,7 +153,7 @@ const SCENES = [
   },
   {
     file: 'duotone', seconds: 1.8,
-    html: `<div class="scene" id="s"><div class="panel noduo"><div style="display:flex;gap:14px;color:#4f46e5"><tlp-icon name="file-text" size="40"></tlp-icon><tlp-icon name="shield-check" size="40"></tlp-icon><tlp-icon name="folder" size="40"></tlp-icon></div><small>default</small></div><div class="panel duo"><div style="display:flex;gap:14px;color:#4f46e5"><tlp-icon name="file-text" size="40" duotone></tlp-icon><tlp-icon name="shield-check" size="40" duotone></tlp-icon><tlp-icon name="folder" size="40" duotone></tlp-icon></div><small>duotone</small></div><div class="cap">&lt;tlp-icon duotone&gt; adds a soft tinted body</div></div>`,
+    html: `<div class="scene" id="s"><div class="panel noduo"><div style="display:flex;gap:14px;color:#741D3D"><tlp-icon name="file-text" size="40"></tlp-icon><tlp-icon name="shield-check" size="40"></tlp-icon><tlp-icon name="folder" size="40"></tlp-icon></div><small>default</small></div><div class="panel duo"><div style="display:flex;gap:14px;color:#741D3D"><tlp-icon name="file-text" size="40" duotone></tlp-icon><tlp-icon name="shield-check" size="40" duotone></tlp-icon><tlp-icon name="folder" size="40" duotone></tlp-icon></div><small>duotone</small></div><div class="cap">&lt;tlp-icon duotone&gt; adds a soft tinted body</div></div>`,
     frame: `(t) => {
       document.querySelectorAll('svg.tlp').forEach((svg, i) => {
         svg.classList.add('tlp-run');

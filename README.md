@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tlp-icons.netlify.app"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/web/public/favicon.svg" width="88" height="88" alt="tlp-icons logo"></a>
+  <a href="https://tlp-icons.netlify.app"><img src="https://raw.githubusercontent.com/Tamer-Mansour/tlp-icons/main/web/public/brand/tlp-icons-animated.svg" width="120" height="120" alt="tlp-icons logo"></a>
 </p>
 
 <h1 align="center">tlp-icons</h1>

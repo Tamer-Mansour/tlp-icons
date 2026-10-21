@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/)
 (while below 1.0, minor versions may contain breaking changes; they are listed under **Changed** / **Removed**).
 
+## [0.5.3] - 2026-10-21
+
+### Changed
+
+- Animated tlp-icons logo: the README header uses the looping SVG, the website header and footer play the
+  one-shot intro (both respect `prefers-reduced-motion`). Files are in `branding/tlp-icons-animated/`.
+
 ## [0.5.2] - 2026-10-21
 
 ### Changed

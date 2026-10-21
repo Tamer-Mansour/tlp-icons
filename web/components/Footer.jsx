@@ -11,7 +11,7 @@ export default function Footer({ count, cats }) {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <Link href="/" className="flex items-center gap-2.5">
-            <img src="/logo.svg" alt="" width="32" height="32" className="size-8" />
+            <img src="/brand/tlp-icons-intro-once.svg" alt="" width="32" height="32" className="size-8" />
             <span className="text-base font-bold">tlp-icons</span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-6 text-ink-2">{total().toLocaleString('en')} free, open-source icons. Every one animated. MIT licensed.</p>
