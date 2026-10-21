@@ -7,7 +7,7 @@ export default function CodeTabs({ tabs, className = '' }) {
   const [active, setActive] = useState(tabs[0].id);
   const tab = tabs.find(t => t.id === active) || tabs[0];
   return (
-    <div className={`overflow-hidden rounded-2xl border border-slate-800 bg-[#0b1020] shadow-xl shadow-indigo-950/10 ${className}`}>
+    <div className={`overflow-hidden rounded-2xl border border-[#43353d] bg-[#2B2228] shadow-xl shadow-indigo-950/10 ${className}`}>
       <div className="flex items-center gap-1 overflow-x-auto border-b border-white/5 px-2 py-2">
         {tabs.map(t => (
           <button key={t.id} type="button" onClick={() => setActive(t.id)}

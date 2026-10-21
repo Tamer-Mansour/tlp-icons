@@ -47,7 +47,7 @@ export function CopyButton({ text, className = '' }) {
 
 export default function CodeBlock({ code, lang = 'js', title }) {
   return (
-    <div className="group relative my-4 overflow-hidden rounded-xl border border-slate-800 bg-[#0b1020] shadow-lg shadow-indigo-950/10">
+    <div className="group relative my-4 overflow-hidden rounded-xl border border-[#43353d] bg-[#2B2228] shadow-lg shadow-indigo-950/10">
       <div className="flex items-center justify-between border-b border-white/5 px-4 py-2">
         <span className="font-mono text-[11px] font-medium uppercase tracking-wider text-slate-500">{title || lang}</span>
         <CopyButton text={code} />

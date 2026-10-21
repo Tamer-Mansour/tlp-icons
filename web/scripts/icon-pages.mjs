@@ -37,7 +37,7 @@ const label = n => n.replace(/^brand-/, '').split('-').map(w => w[0].toUpperCase
 const svg = n => `<svg viewBox="0 0 24 24" class="tlp" aria-hidden="true">${D.icons[n].svg}</svg>`;
 
 const NAV = [['/icons/', 'Icons'], ['/categories/', 'Categories'], ['/categories/brands/', 'Brands'], ['/docs/', 'Docs'], ['/roadmap/', 'Roadmap']];
-const header = `<header class="lh"><div><a href="/" class="lg"><img src="/favicon.svg" alt="">tlp-icons<small>v${version}</small></a><nav>${NAV.map(([h, t]) => `<a href="${h}"${h === '/icons/' ? ' class="on"' : ''}>${t}</a>`).join('')}</nav><a class="np" href="https://www.npmjs.com/package/tlp-icons"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="#cb3837" d="M2 7h20v9H12v1.5H7.5V16H2zm1.5 1.5v6h3v-4.5H8v4.5h1.5v-6zm7.5 0v7.5h3v-1.5h3v-6zm3 1.5H15v3h-1.5zm4.5-1.5v6h3v-4.5H20v4.5h1.5v-6z"/></svg>npm</a><a class="gh" href="${REPO}">GitHub</a></div></header>`;
+const header = `<header class="lh"><div><a href="/" class="lg"><img src="/logo.svg" alt="">tlp-icons<small>v${version}</small></a><nav>${NAV.map(([h, t]) => `<a href="${h}"${h === '/icons/' ? ' class="on"' : ''}>${t}</a>`).join('')}</nav><a class="np" href="https://www.npmjs.com/package/tlp-icons"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="#cb3837" d="M2 7h20v9H12v1.5H7.5V16H2zm1.5 1.5v6h3v-4.5H8v4.5h1.5v-6zm7.5 0v7.5h3v-1.5h3v-6zm3 1.5H15v3h-1.5zm4.5-1.5v6h3v-4.5H20v4.5h1.5v-6z"/></svg>npm</a><a class="gh" href="${REPO}">GitHub</a></div></header>`;
 const footer = `<footer class="lf"><p><b>tlp-icons</b> · ${names.length.toLocaleString('en')} free animated icons · MIT · <a href="/docs/">Docs</a> · <a href="${REPO}">GitHub</a> · Geometry from Lucide (ISC) and Tabler Icons (MIT). Brand logos are trademarks of their owners.</p></footer>`;
 
 function related(n) {
@@ -62,7 +62,7 @@ function page(n) {
   return `<!doctype html><html lang="en" dir="ltr" data-scroll-behavior="smooth"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(`${t} ${kind} — animated SVG · tlp-icons`)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${SITE}/icons/${n}/">
 <meta property="og:type" content="website"><meta property="og:title" content="${esc(`${t} animated ${kind} · tlp-icons`)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE}/icons/${n}/"><meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#4f46e5">${headAssets}
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#741D3D">${headAssets}
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script></head><body>${header}
 <main class="lm" data-icon-page data-name="${n}" data-label="${esc(t)}" style="--tc:${c.color}">
 <nav class="bc"><a href="/icons/">Icons</a> / <a href="/categories/${c.id}/">${esc(c.title)}</a> / ${n}</nav>

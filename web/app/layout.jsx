@@ -16,7 +16,7 @@ export const metadata = {
   alternates: { canonical: '/' },
 };
 
-export const viewport = { themeColor: '#4f46e5' };
+export const viewport = { themeColor: '#741D3D' };
 
 export default function RootLayout({ children }) {
   return (

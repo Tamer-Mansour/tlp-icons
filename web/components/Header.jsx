@@ -14,7 +14,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 border-b border-line/80 bg-white/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6">
         <Link href="/" className="group flex items-center gap-2.5" aria-label="tlp-icons home">
-          <img src="/favicon.svg" alt="" width="34" height="34" className="size-[34px] rounded-[10px] shadow-[0_6px_16px_-6px_#4f46e5] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105" />
+          <img src="/logo.svg" alt="" width="34" height="34" className="size-[34px] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105" />
           <span className="text-[17px] font-bold tracking-tight">tlp-icons</span>
           <span className="hidden rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] font-semibold text-ink-2 sm:inline">v{pkg.version}</span>
         </Link>
@@ -28,7 +28,7 @@ export default function Header() {
             <svg viewBox="0 0 24 24" aria-hidden="true" className="size-4"><path fill="#cb3837" d="M2 7h20v9H12v1.5H7.5V16H2zm1.5 1.5v6h3v-4.5H8v4.5h1.5v-6zm7.5 0v7.5h3v-1.5h3v-6zm3 1.5H15v3h-1.5zm4.5-1.5v6h3v-4.5H20v4.5h1.5v-6z" /></svg>
             <span className="hidden sm:inline">npm</span>
           </a>
-          <a href={REPO_URL} target="_blank" rel="noopener" className="flex h-9 items-center gap-2 rounded-lg bg-ink px-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+          <a href={REPO_URL} target="_blank" rel="noopener" className="flex h-9 items-center gap-2 rounded-lg bg-ink px-3 text-sm font-semibold text-white transition hover:bg-[#43353d]">
             <GithubMark />
             <span className="hidden sm:inline">GitHub</span>
           </a>

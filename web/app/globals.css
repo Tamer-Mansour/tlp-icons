@@ -4,28 +4,34 @@
 @theme {
   --font-sans: "Inter Variable", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
   --font-mono: "JetBrains Mono", "Cascadia Code", Consolas, ui-monospace, Menlo, monospace;
-  --color-ink: #0b1020;
-  --color-ink-2: #475069;
-  --color-ink-3: #8a93a8;
-  --color-line: #e7e9f1;
-  --color-paper: #f7f8fc;
-  --color-brand: #4f46e5;
-  --color-brand-2: #7c3aed;
-  --color-brand-soft: #eef0ff;
-  --shadow-card: 0 1px 2px rgba(16, 24, 40, .04), 0 1px 3px rgba(16, 24, 40, .06);
-  --shadow-lift: 0 18px 40px -18px rgba(30, 27, 75, .28);
+  --color-ink: #2B2228;
+  --color-ink-2: #5b4a53;
+  --color-ink-3: #8f7d86;
+  --color-line: #eadfd6;
+  --color-paper: #FAF4ED;
+  --color-brand: #741D3D;
+  --color-brand-2: #BE617A;
+  --color-brand-soft: #f7e9ee;
+  --color-sage: #A9B9AE;
+  /* tailwind indigo/violet remapped to the TLP burgundy / rose ramps */
+  --color-indigo-50: #fbf1f4; --color-indigo-100: #f6e1e8; --color-indigo-200: #eec3d0; --color-indigo-300: #de97ab;
+  --color-indigo-400: #cd7089; --color-indigo-500: #BE617A; --color-indigo-600: #9a3c5c; --color-indigo-700: #741D3D;
+  --color-indigo-800: #5e1832; --color-indigo-900: #4a1428; --color-indigo-950: #2B0C17;
+  --color-violet-200: #eec3d0; --color-violet-400: #cd7089; --color-violet-500: #BE617A;
+  --shadow-card: 0 1px 2px rgba(43, 34, 40, .04), 0 1px 3px rgba(43, 34, 40, .06);
+  --shadow-lift: 0 18px 40px -18px rgba(74, 20, 40, .28);
   --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
 }
 
 :root { color-scheme: light; --tlp-duo: .16; }
 html { scroll-behavior: smooth; }
-body { background: #fff; color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-::selection { background: #e0e7ff; }
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+::selection { background: #f0cdd8; }
 
 /* subtle dotted backdrop used by hero sections */
-.dots { background-image: radial-gradient(circle at 1px 1px, rgba(79, 70, 229, .13) 1px, transparent 0); background-size: 22px 22px; }
+.dots { background-image: radial-gradient(circle at 1px 1px, rgba(116, 29, 61, .13) 1px, transparent 0); background-size: 22px 22px; }
 .fade-mask { mask-image: linear-gradient(to bottom, black 55%, transparent); }
-.text-gradient { background: linear-gradient(100deg, #4f46e5 10%, #7c3aed 55%, #db2777 95%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.text-gradient { background: linear-gradient(100deg, #741D3D 10%, #9a3c5c 55%, #BE617A 95%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
 /* --tc = tile colour (set per gallery colour / category). At rest: tinted background + coloured icon.
    On hover: solid background + white icon. Never set color/background inline on a .tile, it would win over hover. */
@@ -34,7 +40,7 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 
 .card { background: #fff; border: 1px solid var(--color-line); border-radius: 1rem; box-shadow: var(--shadow-card); }
 .card-hover { transition: transform .3s var(--ease-spring), box-shadow .3s, border-color .3s; }
-.card-hover:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: #c7d2fe; }
+.card-hover:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: #e3b3c2; }
 
 .prose-doc h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -.02em; margin: 3rem 0 .75rem; scroll-margin-top: 6rem; }
 .prose-doc h3 { font-size: 1.05rem; font-weight: 650; margin: 1.75rem 0 .5rem; scroll-margin-top: 6rem; }
@@ -43,7 +49,7 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 .prose-doc ul, .prose-doc ol { margin: 0 0 1rem 1.25rem; }
 .prose-doc ul { list-style: disc; } .prose-doc ol { list-style: decimal; }
 .prose-doc a { color: var(--color-brand); font-weight: 500; }
-.prose-doc :not(pre) > code { font: 500 .82em var(--font-mono); background: #f1f3f9; border: 1px solid var(--color-line); border-radius: .35rem; padding: .08rem .35rem; color: #312e81; }
+.prose-doc :not(pre) > code { font: 500 .82em var(--font-mono); background: #f4e9e1; border: 1px solid var(--color-line); border-radius: .35rem; padding: .08rem .35rem; color: #5e1832; }
 .prose-doc table { width: 100%; font-size: .875rem; border-collapse: separate; border-spacing: 0; border: 1px solid var(--color-line); border-radius: .85rem; overflow: hidden; margin: .5rem 0 1.25rem; }
 .prose-doc th { text-align: start; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--color-ink-3); background: var(--color-paper); padding: .6rem .8rem; }
 .prose-doc td { padding: .6rem .8rem; border-top: 1px solid var(--color-line); vertical-align: top; color: var(--color-ink-2); }
@@ -51,7 +57,7 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 .tok-c { color: #6b7591; } .tok-s { color: #86efac; } .tok-t { color: #93c5fd; } .tok-a { color: #fcd34d; } .tok-k { color: #c4b5fd; }
 
 /* light static icon pages (scripts/icon-pages.mjs): short class names keep 6,600 pages small */
-.lh { position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--color-line); background: rgb(255 255 255 / .85); backdrop-filter: blur(16px); }
+.lh { position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--color-line); background: rgb(250 244 237 / .85); backdrop-filter: blur(16px); }
 .lh > div { max-width: 80rem; margin: 0 auto; height: 4rem; display: flex; align-items: center; gap: 1rem; padding: 0 1.5rem; }
 .lh .lg { display: flex; align-items: center; gap: .6rem; font-weight: 700; font-size: 17px; }
 .lh .lg img { width: 34px; height: 34px; border-radius: 10px; }
@@ -82,7 +88,7 @@ body { background: #fff; color: var(--color-ink); font-family: var(--font-sans);
 /* compact icon grid (category pages): one short class instead of long utility lists per card */
 .ig { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: .6rem; }
 .ig a { position: relative; display: flex; flex-direction: column; align-items: center; gap: .6rem; padding: 1rem .5rem .75rem; background: #fff; border: 1px solid var(--color-line); border-radius: 1rem; box-shadow: var(--shadow-card); font: 11px var(--font-mono); color: var(--color-ink); text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; content-visibility: auto; contain-intrinsic-size: auto 112px; transition: transform .3s var(--ease-spring), box-shadow .3s, border-color .3s; }
-.ig a:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: #c7d2fe; }
+.ig a:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: #e3b3c2; }
 .ig a > span { display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: color-mix(in srgb, var(--tc) 10%, white); color: var(--tc); transition: background .25s, color .25s; }
 .ig a:hover > span { background: var(--tc); color: #fff; --tlp-duo: .28; }
 .ig a i { position: absolute; top: .5rem; inset-inline-end: .5rem; font: 700 9px var(--font-sans); font-style: normal; text-transform: uppercase; color: #fff; background: var(--color-brand); border-radius: .25rem; padding: 0 .25rem; }

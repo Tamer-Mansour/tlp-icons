@@ -4,7 +4,7 @@ import CodeTabs from './CodeTabs';
 import { CopyButton } from './CodeBlock';
 import { snippets } from '@/lib/snippets';
 
-const COLORS = ['#4f46e5', '#2563eb', '#0d9488', '#16a34a', '#0f172a', '#c2410c', '#be123c', '#9333ea'];
+const COLORS = ['#741D3D', '#BE617A', '#2B2228', '#5f8a73', '#9a3c5c', '#a4572b', '#7a6a2f', '#4f6f86'];
 
 /** Big preview with live controls, size strip, button mockups and copy-ready code for one icon. */
 export default function Playground({ name, label, svgStatic }) {

@@ -7,7 +7,7 @@ import { loadIcon, toSvgString } from '__TLP_CDN__/core.js';
 const root = document.querySelector('[data-icon-page]');
 const name = root.dataset.name;
 const label = root.dataset.label;
-const COLORS = ['#4f46e5', '#2563eb', '#0d9488', '#16a34a', '#0f172a', '#c2410c', '#be123c', '#9333ea'];
+const COLORS = ['#741D3D', '#BE617A', '#2B2228', '#5f8a73', '#9a3c5c', '#a4572b', '#7a6a2f', '#4f6f86'];
 const TABS = ['React', 'HTML', 'Angular', 'Vue', 'SVG', 'Animated SVG'];
 let stroke = 1.75, duo = true, tab = 0, color = COLORS[0], svgStatic = '', svgAnimated = '';
 
@@ -41,7 +41,7 @@ pg.innerHTML = `
   </div>
 </div>
 <h2 class="!mt-12 !text-xl font-bold tracking-tight">Use it</h2>
-<div class="mt-4 overflow-hidden rounded-2xl border border-slate-800 bg-[#0b1020]">
+<div class="mt-4 overflow-hidden rounded-2xl border border-[#43353d] bg-[#2B2228]">
   <div class="flex items-center gap-1 overflow-x-auto border-b border-white/5 px-2 py-2">${TABS.map((x, k) => `<button type="button" data-tab="${k}" class="shrink-0 rounded-md px-3 py-1.5 text-xs font-semibold text-slate-400 hover:text-slate-200 aria-selected:bg-white/10 aria-selected:text-white">${x}</button>`).join('')}
     <button type="button" data-copy-code class="ms-auto h-7 shrink-0 rounded-md border border-white/10 bg-white/5 px-2.5 text-[11.5px] font-semibold text-slate-300 hover:text-white">Copy</button></div>
   <pre class="max-h-[420px] overflow-auto px-4 py-4 font-mono text-[12.5px] leading-[1.75] text-slate-200"><code data-code></code></pre>

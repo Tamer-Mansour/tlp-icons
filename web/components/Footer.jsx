@@ -11,7 +11,7 @@ export default function Footer({ count, cats }) {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <Link href="/" className="flex items-center gap-2.5">
-            <img src="/favicon.svg" alt="" width="32" height="32" className="size-8 rounded-[9px]" />
+            <img src="/logo.svg" alt="" width="32" height="32" className="size-8" />
             <span className="text-base font-bold">tlp-icons</span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-6 text-ink-2">{total().toLocaleString('en')} free, open-source icons. Every one animated. MIT licensed.</p>
@@ -47,7 +47,7 @@ export default function Footer({ count, cats }) {
       <div className="border-t border-line">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-6 text-xs text-ink-3 sm:px-6">
           <p>MIT License · Icon geometry from <a className="hover:text-brand" href="https://lucide.dev" target="_blank" rel="noopener">Lucide</a> (ISC) and <a className="hover:text-brand" href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> (MIT) · <Link className="hover:text-brand" href="/licenses/">Licenses &amp; credits</Link></p>
-          <p>Brand logos are trademarks of their respective owners.</p>
+          <p className="flex items-center gap-2">Brand logos are trademarks of their respective owners. <span aria-hidden="true">·</span> A <img src="/tlp-brand.svg" alt="TLP" width="40" height="18" className="inline h-[18px] w-auto" /> product</p>
         </div>
       </div>
     </footer>

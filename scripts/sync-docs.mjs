@@ -31,12 +31,12 @@ export function badges(stats, sizes) {
   const enc = s => encodeURIComponent(s).replace(/-/g, '--');
   return [
     '<p align="center">',
-    '  <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=4f46e5"></a>',
-    '  <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=4f46e5"></a>',
+    '  <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm version" src="https://img.shields.io/npm/v/tlp-icons?color=741D3D"></a>',
+    '  <a href="https://www.npmjs.com/package/tlp-icons"><img alt="npm downloads" src="https://img.shields.io/npm/dm/tlp-icons?color=741D3D"></a>',
     core ? `  <a href="#bundle-size"><img alt="element size" src="https://img.shields.io/badge/element-${enc(kb(core.gzip))}%20gzip-16a34a"></a>` : '',
     '  <a href="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Tamer-Mansour/tlp-icons/actions/workflows/ci.yml/badge.svg"></a>',
     '  <a href="https://github.com/Tamer-Mansour/tlp-icons/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/tlp-icons?color=16a34a"></a>',
-    `  <img alt="icons" src="https://img.shields.io/badge/icons-${enc(fmt(stats.icons))}-4f46e5">`,
+    `  <img alt="icons" src="https://img.shields.io/badge/icons-${enc(fmt(stats.icons))}-741D3D">`,
     '</p>',
   ].filter(Boolean).join('\n');
 }
